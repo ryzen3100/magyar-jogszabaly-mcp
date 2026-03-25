@@ -27,6 +27,9 @@ jobs:
 
             cd /opt/hungarian-law-mcp/Hungarian-law-mcp
 
+            # Ensure origin points to the correct repo
+            git remote set-url origin https://github.com/gergototh1/magyar-jogszabaly-mcp.git
+
             # Pull latest code
             git fetch origin
             git reset --hard origin/main
