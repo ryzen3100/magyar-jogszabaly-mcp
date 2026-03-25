@@ -39,6 +39,9 @@ jobs:
             npm ci --ignore-scripts
             npm rebuild better-sqlite3
 
+            # Build TypeScript
+            npm run build
+
             # Rebuild database (includes EU mappings)
             node --import tsx scripts/build-db.ts
 
@@ -46,9 +49,10 @@ jobs:
             VOLUME_PATH=$(docker volume inspect hungarian-law-mcp_law-data -f '{{.Mountpoint}}' 2>/dev/null || docker volume inspect hungarian-law-docker_law-data -f '{{.Mountpoint}}')
             cp data/database.db "$VOLUME_PATH/database.db"
 
-            # Restart container
+            # Rebuild and restart container
             cd /opt/hungarian-law-mcp
-            docker compose restart hungarian-law-mcp
+            docker compose build hungarian-law-mcp
+            docker compose up -d hungarian-law-mcp
 
             # Health check
             sleep 3
