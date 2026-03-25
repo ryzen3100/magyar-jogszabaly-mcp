@@ -21,7 +21,6 @@ jobs:
           host: 49.13.169.95
           username: root
           key: ${{ secrets.HETZNER_SSH_KEY }}
-          script_stop: true
           script: |
             set -euo pipefail
             echo "=== $(date -Iseconds) === DEPLOY START ==="
