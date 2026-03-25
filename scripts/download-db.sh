@@ -3,7 +3,7 @@ set -e
 VERSION=$(node -p "require('./package.json').version")
 REPO="Ansvar-Systems/Hungarian-law-mcp"
 TAG="v${VERSION}"
-ASSET="database.db.gz"
+ASSET="database-hungarian.db.gz"
 OUTPUT="data/database.db"
 URL="https://github.com/${REPO}/releases/download/${TAG}/${ASSET}"
 echo "[download-db] Downloading database from GitHub releases..."

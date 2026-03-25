@@ -17,6 +17,12 @@
 
 import { Server } from '@modelcontextprotocol/sdk/server/index.js';
 import { StreamableHTTPServerTransport } from '@modelcontextprotocol/sdk/server/streamableHttp.js';
+import {
+  ListPromptsRequestSchema,
+  GetPromptRequestSchema,
+  ListResourcesRequestSchema,
+  ReadResourceRequestSchema,
+} from '@modelcontextprotocol/sdk/types.js';
 import { createServer as createHttpServer, IncomingMessage, ServerResponse } from 'node:http';
 import { randomUUID } from 'crypto';
 import { createHash } from 'crypto';
@@ -26,6 +32,8 @@ import { dirname, join } from 'path';
 import Database from '@ansvar/mcp-sqlite';
 
 import { registerTools } from './tools/registry.js';
+import { listSources as listSourcesFn } from './tools/list-sources.js';
+import { getAbout as getAboutFn } from './tools/about.js';
 import { detectCapabilities, readDbMetadata } from './capabilities.js';
 
 // Local type — avoids import from ./tools/about.js which may not exist in all repos.
@@ -131,9 +139,83 @@ async function main() {
   function createMCPServer(): Server {
     const server = new Server(
       { name: SERVER_NAME, version: SERVER_VERSION },
-      { capabilities: { tools: {} } },
+      { capabilities: { tools: {}, prompts: {}, resources: {} } },
     );
     registerTools(server, db, aboutContext);
+
+    // Prompts
+    server.setRequestHandler(ListPromptsRequestSchema, async () => ({
+      prompts: [
+        {
+          name: 'legal_review',
+          description: 'Review a Hungarian legal document, contract, or policy for compliance issues, risks, and missing elements. Returns structured findings with risk levels and specific legal references.',
+          arguments: [
+            { name: 'document_text', description: 'The full text of the document to review', required: true },
+            { name: 'focus_area', description: 'Optional focus: gdpr, contract, employment, consumer, corporate', required: false },
+          ],
+        },
+        {
+          name: 'legal_research',
+          description: 'Research a Hungarian legal question across all statutes. Returns relevant provisions, EU cross-references, and practical guidance for SMEs.',
+          arguments: [
+            { name: 'question', description: 'The legal question in plain language (Hungarian or English)', required: true },
+          ],
+        },
+      ],
+    }));
+
+    server.setRequestHandler(GetPromptRequestSchema, async (request) => {
+      const { name, arguments: args } = request.params;
+      if (name === 'legal_review') {
+        return {
+          messages: [{
+            role: 'user',
+            content: { type: 'text', text: `Review the following Hungarian legal document for compliance issues, risks, and missing elements.\n\nFocus area: ${args?.focus_area || 'all'}\n\nDocument:\n${args?.document_text || '(no document provided)'}` },
+          }],
+        };
+      }
+      if (name === 'legal_research') {
+        return {
+          messages: [{
+            role: 'user',
+            content: { type: 'text', text: `Research this Hungarian legal question using the legislation database. Cite specific provisions with section numbers.\n\nQuestion: ${args?.question || '(no question provided)'}` },
+          }],
+        };
+      }
+      throw new Error(`Unknown prompt: ${name}`);
+    });
+
+    // Resources
+    server.setRequestHandler(ListResourcesRequestSchema, async () => ({
+      resources: [
+        {
+          uri: 'hungarian-law://sources',
+          name: 'Data Sources & Provenance',
+          description: 'Authoritative legal data sources, coverage scope, and database freshness metadata',
+          mimeType: 'application/json',
+        },
+        {
+          uri: 'hungarian-law://stats',
+          name: 'Database Statistics',
+          description: 'Document counts, provision counts, definition counts, and EU reference coverage',
+          mimeType: 'application/json',
+        },
+      ],
+    }));
+
+    server.setRequestHandler(ReadResourceRequestSchema, async (request) => {
+      const { uri } = request.params;
+      if (uri === 'hungarian-law://sources') {
+        const sources = await listSourcesFn(db);
+        return { contents: [{ uri, mimeType: 'application/json', text: JSON.stringify(sources, null, 2) }] };
+      }
+      if (uri === 'hungarian-law://stats') {
+        const about = getAboutFn(db, aboutContext);
+        return { contents: [{ uri, mimeType: 'application/json', text: JSON.stringify(about, null, 2) }] };
+      }
+      throw new Error(`Unknown resource: ${uri}`);
+    });
+
     return server;
   }
 
@@ -221,6 +303,7 @@ async function main() {
           res.end(JSON.stringify({
             name: SERVER_NAME,
             version: SERVER_VERSION,
+            description: 'Full-text search across 4,300+ Hungarian statutes and 130,000+ provisions from Nemzeti Jogszabálytár (njt.hu). Updated daily.',
             protocol: 'mcp',
             transport: 'streamable-http',
           }));
@@ -229,6 +312,46 @@ async function main() {
 
         res.writeHead(400, { 'Content-Type': 'application/json' });
         res.end(JSON.stringify({ error: 'Bad request — missing or invalid session' }));
+        return;
+      }
+
+      // GET /icon.svg — server icon
+      if (url.pathname === '/icon.svg' && req.method === 'GET') {
+        res.writeHead(200, { 'Content-Type': 'image/svg+xml', 'Cache-Control': 'public, max-age=86400' });
+        res.end(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <rect width="100" height="100" rx="16" fill="#1e3a5f"/>
+  <text x="50" y="38" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#f0c040">HU</text>
+  <text x="50" y="62" text-anchor="middle" font-family="serif" font-size="16" fill="#ffffff">LAW</text>
+  <text x="50" y="82" text-anchor="middle" font-family="monospace" font-size="10" fill="#8ab4e8">MCP</text>
+</svg>`);
+        return;
+      }
+
+      // GET /.well-known/mcp/server-card.json — MCP server card for registries
+      if (url.pathname === '/.well-known/mcp/server-card.json' && req.method === 'GET') {
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({
+          serverInfo: {
+            name: SERVER_NAME,
+            version: SERVER_VERSION,
+            displayName: 'Hungarian Law MCP',
+            description: 'Full-text search across 4,300+ Hungarian statutes and 130,000+ provisions. Covers the full corpus from Nemzeti Jogszabálytár (njt.hu) including Ptk., Infotv., Mt., Btk., and EU cross-references. Updated daily.',
+            homepage: 'https://github.com/Ansvar-Systems/Hungarian-law-mcp',
+            icon: 'https://law.49-13-169-95.nip.io/icon.svg',
+            keywords: ['hungarian-law', 'legislation', 'legal', 'mcp', 'gdpr', 'data-protection', 'cybersecurity', 'compliance', 'ptk', 'infotv'],
+            author: 'Ansvar Systems / AVIAN Care Kft.',
+            license: 'Apache-2.0',
+          },
+          capabilities: {
+            tools: true,
+            prompts: true,
+            resources: true,
+          },
+          transport: {
+            type: 'streamable-http',
+            url: '/mcp',
+          },
+        }));
         return;
       }
 

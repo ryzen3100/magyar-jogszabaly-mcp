@@ -1,0 +1,25 @@
+services:
+  hungarian-law-mcp:
+    build:
+      context: ..
+      dockerfile: hungarian-law-docker/Dockerfile
+    container_name: hungarian-law-mcp
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:3100:3100"
+    volumes:
+      - law-data:/data
+    environment:
+      - NODE_ENV=production
+      - HUNGARIAN_LAW_DB_PATH=/data/database.db
+      - PORT=3100
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://localhost:3100/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+    mem_limit: 512m
+    cpus: 1.0
+
+volumes:
+  law-data:

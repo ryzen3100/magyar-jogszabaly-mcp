@@ -24,6 +24,8 @@ export interface ValidateCitationResult {
 /**
  * Parse an Hungarian legal citation.
  * Supports:
+ * - Hungarian formal: "2012. évi I. törvény 116. §"
+ * - Database ID: "hu-law-2012-1-00-00 s116"
  * - "Section 13 Privacy Act 1988" / "Section 13, Privacy Act 1988"
  * - "Privacy Act 1988 s 13" / "Privacy Act 1988, s 13"
  * - "[Act Title Year] s N"
@@ -33,6 +35,38 @@ export interface ValidateCitationResult {
 function parseCitation(citation: string): { documentRef: string; sectionRef?: string } | null {
   const trimmed = citation.trim();
   if (!trimmed) return null;
+
+  // Hungarian formal: "2012. évi I. törvény 116. §" or "2013. évi V. törvény 6:272. §" or "116/A. §"
+  const hungarianFull = trimmed.match(
+    /^(\d{4}\.\s*évi\s+[IVXLCDM]+\.\s*törvény)\s+(\d+(?::\d+)?(?:\/[A-Za-z])?)\.\s*§/i
+  );
+  if (hungarianFull) {
+    return { documentRef: hungarianFull[1].trim(), sectionRef: hungarianFull[2] };
+  }
+
+  // Hungarian document only: "2012. évi I. törvény" (no section)
+  const hungarianDoc = trimmed.match(
+    /^(\d{4}\.\s*évi\s+[IVXLCDM]+\.\s*törvény)$/i
+  );
+  if (hungarianDoc) {
+    return { documentRef: hungarianDoc[1].trim() };
+  }
+
+  // Database ID + section: "hu-law-2012-1-00-00 s116" or "hu-law-2013-5-00-00 s6:272"
+  const dbIdWithSection = trimmed.match(
+    /^(hu-law-\d{4}-\d+-\d{2}-\d{2})\s+s?(\d+(?::\d+)?(?:\/[A-Za-z])?)$/i
+  );
+  if (dbIdWithSection) {
+    return { documentRef: dbIdWithSection[1], sectionRef: dbIdWithSection[2] };
+  }
+
+  // Database ID only: "hu-law-2012-1-00-00"
+  const dbIdOnly = trimmed.match(
+    /^(hu-law-\d{4}-\d+-\d{2}-\d{2})$/
+  );
+  if (dbIdOnly) {
+    return { documentRef: dbIdOnly[1] };
+  }
 
   // "Section N <Act>" or "Section N, <Act>"
   const sectionFirst = trimmed.match(
@@ -103,9 +137,11 @@ export async function validateCitationTool(
   }
 
   if (parsed.sectionRef) {
+    // Normalize section ref: "6:272" → try "s6272", "s6:272", "6:272", "6272"
+    const sectionClean = parsed.sectionRef.replace(':', '');
     const provision = db.prepare(
-      "SELECT provision_ref FROM legal_provisions WHERE document_id = ? AND (provision_ref = ? OR provision_ref = ? OR section = ?)"
-    ).get(docId, parsed.sectionRef, `s${parsed.sectionRef}`, parsed.sectionRef) as { provision_ref: string } | undefined;
+      "SELECT provision_ref FROM legal_provisions WHERE document_id = ? AND (provision_ref = ? OR provision_ref = ? OR provision_ref = ? OR provision_ref = ? OR section = ? OR section = ?)"
+    ).get(docId, parsed.sectionRef, `s${parsed.sectionRef}`, `s${sectionClean}`, sectionClean, parsed.sectionRef, sectionClean) as { provision_ref: string } | undefined;
 
     if (!provision) {
       return {
@@ -114,7 +150,7 @@ export async function validateCitationTool(
           citation: input.citation,
           document_id: docId,
           document_title: doc.title,
-          warnings: [...warnings, `Provision "Section ${parsed.sectionRef}" not found in ${doc.title}`],
+          warnings: [...warnings, `Provision "${parsed.sectionRef}. §" not found in ${doc.title}`],
         },
         _metadata: generateResponseMetadata(db),
       };
@@ -124,7 +160,7 @@ export async function validateCitationTool(
       results: {
         valid: true,
         citation: input.citation,
-        normalized: `Section ${parsed.sectionRef}, ${doc.title}`,
+        normalized: `${doc.title} ${parsed.sectionRef}. §`,
         document_id: docId,
         document_title: doc.title,
         provision_ref: provision.provision_ref,

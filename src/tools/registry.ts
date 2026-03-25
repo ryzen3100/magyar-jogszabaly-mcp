@@ -32,7 +32,8 @@ const ABOUT_TOOL: Tool = {
   description:
     'Server metadata, dataset statistics, freshness, and provenance. ' +
     'Call this to verify data coverage, currency, and content basis before relying on results.',
-  inputSchema: { type: 'object', properties: {} },
+  inputSchema: { type: 'object', properties: {}, additionalProperties: false },
+  annotations: { title: 'About this server', readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false },
 };
 
 const LIST_SOURCES_TOOL: Tool = {
@@ -43,7 +44,8 @@ const LIST_SOURCES_TOOL: Tool = {
     'Use this to understand what data is available, its authority, coverage scope, and known limitations. ' +
     'Also returns dataset statistics (document counts, provision counts) and database build timestamp. ' +
     'Call this FIRST when you need to understand what Hungarian legal data this server covers.',
-  inputSchema: { type: 'object', properties: {} },
+  inputSchema: { type: 'object', properties: {}, additionalProperties: false },
+  annotations: { title: 'List data sources', readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false },
 };
 
 export const TOOLS: Tool[] = [
@@ -81,6 +83,7 @@ export const TOOLS: Tool[] = [
       },
       required: ['query'],
     },
+    annotations: { title: 'Search legislation', readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false },
   },
   {
     name: 'get_provision',
@@ -111,6 +114,7 @@ export const TOOLS: Tool[] = [
       },
       required: ['document_id'],
     },
+    annotations: { title: 'Get provision text', readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false },
   },
   {
     name: 'validate_citation',
@@ -129,6 +133,7 @@ export const TOOLS: Tool[] = [
       },
       required: ['citation'],
     },
+    annotations: { title: 'Validate citation', readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false },
   },
   {
     name: 'build_legal_stance',
@@ -156,6 +161,7 @@ export const TOOLS: Tool[] = [
       },
       required: ['query'],
     },
+    annotations: { title: 'Build legal stance', readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false },
   },
   {
     name: 'format_citation',
@@ -176,6 +182,7 @@ export const TOOLS: Tool[] = [
       },
       required: ['citation'],
     },
+    annotations: { title: 'Format citation', readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false },
   },
   {
     name: 'check_currency',
@@ -197,6 +204,7 @@ export const TOOLS: Tool[] = [
       },
       required: ['document_id'],
     },
+    annotations: { title: 'Check currency status', readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false },
   },
   {
     name: 'get_eu_basis',
@@ -217,6 +225,7 @@ export const TOOLS: Tool[] = [
       },
       required: ['document_id'],
     },
+    annotations: { title: 'Get EU legal basis', readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false },
   },
   {
     name: 'get_hungarian_implementations',
@@ -244,6 +253,7 @@ export const TOOLS: Tool[] = [
       },
       required: ['eu_document_id'],
     },
+    annotations: { title: 'Find Hungarian implementations', readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false },
   },
   {
     name: 'search_eu_implementations',
@@ -264,6 +274,7 @@ export const TOOLS: Tool[] = [
         limit: { type: 'number', description: 'Max results (default: 20, max: 100).', default: 20 },
       },
     },
+    annotations: { title: 'Search EU implementations', readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false },
   },
   {
     name: 'get_provision_eu_basis',
@@ -279,6 +290,7 @@ export const TOOLS: Tool[] = [
       },
       required: ['document_id', 'provision_ref'],
     },
+    annotations: { title: 'Get provision EU basis', readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false },
   },
   {
     name: 'validate_eu_compliance',
@@ -296,6 +308,7 @@ export const TOOLS: Tool[] = [
       },
       required: ['document_id'],
     },
+    annotations: { title: 'Validate EU compliance', readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false },
   },
 ];
 
@@ -352,7 +365,7 @@ export function registerTools(
           result = await buildLegalStance(db, args as unknown as BuildLegalStanceInput);
           break;
         case 'format_citation':
-          result = await formatCitationTool(args as unknown as FormatCitationInput);
+          result = await formatCitationTool(db, args as unknown as FormatCitationInput);
           break;
         case 'check_currency':
           result = await checkCurrency(db, args as unknown as CheckCurrencyInput);

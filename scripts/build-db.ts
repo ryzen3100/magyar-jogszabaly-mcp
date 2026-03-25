@@ -442,6 +442,72 @@ function buildDatabase(): void {
 
   loadAll();
 
+  // Load EU mappings from seed file
+  const euMappingsPath = path.resolve(__dirname, '../data/eu-mappings.json');
+  if (fs.existsSync(euMappingsPath)) {
+    const euMappings = JSON.parse(fs.readFileSync(euMappingsPath, 'utf-8')) as Array<{
+      hungarian_document_id: string;
+      eu_document_id: string;
+      eu_type: string;
+      eu_year: number;
+      eu_number: number;
+      eu_community: string;
+      eu_title: string;
+      eu_short_name: string;
+      reference_type: string;
+      is_primary: boolean;
+      implementation_status: string;
+    }>;
+
+    const loadEuMappings = db.transaction(() => {
+      for (const mapping of euMappings) {
+        // Insert EU document (if not already present from text extraction)
+        insertEuDocument.run(
+          mapping.eu_document_id,
+          mapping.eu_type,
+          mapping.eu_year,
+          mapping.eu_number,
+          mapping.eu_community,
+          mapping.eu_title,
+          mapping.eu_short_name,
+          null, // url_eur_lex
+          null, // description
+        );
+
+        // Check if the Hungarian document exists in the database
+        const docExists = db.prepare('SELECT id FROM legal_documents WHERE id = ?').get(mapping.hungarian_document_id);
+        if (!docExists) {
+          console.log(`  ⚠ EU mapping skipped: Hungarian document "${mapping.hungarian_document_id}" not found in database`);
+          continue;
+        }
+
+        // Insert EU reference at document level
+        try {
+          insertEuReference.run(
+            'document',                      // source_type
+            mapping.hungarian_document_id,   // source_id
+            mapping.hungarian_document_id,   // document_id
+            null,                            // provision_id
+            mapping.eu_document_id,          // eu_document_id
+            null,                            // eu_article
+            mapping.reference_type,          // reference_type
+            `Manual mapping: ${mapping.eu_short_name}`, // reference_context
+            mapping.eu_title,                // full_citation
+            mapping.is_primary ? 1 : 0,      // is_primary_implementation
+            mapping.implementation_status,   // implementation_status
+            new Date().toISOString(),        // last_verified
+          );
+          totalEuReferences++;
+        } catch (e) {
+          // Ignore duplicates (UNIQUE constraint)
+        }
+        totalEuDocuments++;
+      }
+    });
+    loadEuMappings();
+    console.log(`  Loaded ${euMappings.length} EU mappings from seed file.`);
+  }
+
   // Write build metadata
   const insertMeta = db.prepare('INSERT INTO db_metadata (key, value) VALUES (?, ?)');
   const writeMeta = db.transaction(() => {

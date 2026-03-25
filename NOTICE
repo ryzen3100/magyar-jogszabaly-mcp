@@ -1,0 +1,29 @@
+Hungarian Law MCP
+Copyright 2024 Ansvar Systems AB
+
+This product includes software developed by Ansvar Systems AB
+(https://ansvar.eu).
+
+Licensed under the Apache License, Version 2.0.
+
+================================================================================
+
+MODIFICATIONS BY AVIAN / Gergő Tóth (2026):
+
+The following files have been modified from the original upstream
+(https://github.com/Ansvar-Systems/Hungarian-law-mcp):
+
+  - src/tools/registry.ts — Extended tool registry
+  - src/tools/validate-citation.ts — Enhanced citation validation
+  - src/tools/format-citation.ts — Improved citation formatting
+  - src/tools/about.ts — Updated server metadata
+  - src/utils/statute-id.ts — Extended statute ID resolution
+  - src/http-server.ts — HTTP server adjustments
+  - scripts/build-db.ts — Database build script changes
+  - scripts/download-db.sh — Database download script changes
+  - data/database.db — Updated database with additional provisions
+
+The following files have been added:
+
+  - data/eu-mappings.json — EU directive/regulation mapping data
+  - data/seed/hu-law-2026-*.json — Additional 2026 legislation seed data
