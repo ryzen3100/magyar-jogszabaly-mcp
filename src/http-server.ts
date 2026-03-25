@@ -315,15 +315,18 @@ async function main() {
         return;
       }
 
-      // GET /icon.svg — server icon
-      if (url.pathname === '/icon.svg' && req.method === 'GET') {
-        res.writeHead(200, { 'Content-Type': 'image/svg+xml', 'Cache-Control': 'public, max-age=86400' });
-        res.end(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
-  <rect width="100" height="100" rx="16" fill="#1e3a5f"/>
-  <text x="50" y="38" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#f0c040">HU</text>
-  <text x="50" y="62" text-anchor="middle" font-family="serif" font-size="16" fill="#ffffff">LAW</text>
-  <text x="50" y="82" text-anchor="middle" font-family="monospace" font-size="10" fill="#8ab4e8">MCP</text>
-</svg>`);
+      // GET /icon.png — server icon
+      if ((url.pathname === '/icon.png' || url.pathname === '/icon.svg') && (req.method === 'GET' || req.method === 'HEAD')) {
+        try {
+          const iconPath = join(__dirname, '..', 'icon.png');
+          const iconData = readFileSync(iconPath);
+          res.writeHead(200, { 'Content-Type': 'image/png', 'Cache-Control': 'public, max-age=86400', 'Content-Length': iconData.length.toString() });
+          if (req.method !== 'HEAD') res.end(iconData);
+          else res.end();
+        } catch {
+          res.writeHead(404);
+          res.end();
+        }
         return;
       }
 
@@ -337,7 +340,7 @@ async function main() {
             displayName: 'Hungarian Law MCP',
             description: 'Full-text search across 4,300+ Hungarian statutes and 130,000+ provisions. Covers the full corpus from Nemzeti Jogszabálytár (njt.hu) including Ptk., Infotv., Mt., Btk., and EU cross-references. Updated daily.',
             homepage: 'https://github.com/Ansvar-Systems/Hungarian-law-mcp',
-            icon: 'https://law.49-13-169-95.nip.io/icon.svg',
+            icon: 'https://law.49-13-169-95.nip.io/icon.png',
             keywords: ['hungarian-law', 'legislation', 'legal', 'mcp', 'gdpr', 'data-protection', 'cybersecurity', 'compliance', 'ptk', 'infotv'],
             author: 'Ansvar Systems / AVIAN Care Kft.',
             license: 'Apache-2.0',

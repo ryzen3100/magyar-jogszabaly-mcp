@@ -16,6 +16,7 @@ COPY --from=builder /app/package.json /app/package-lock.json ./
 RUN npm ci --omit=dev --ignore-scripts && npm cache clean --force
 
 COPY --from=builder /app/dist/ ./dist/
+COPY Hungarian-law-mcp/icon.png ./
 
 # Scripts for ingest (run as root during cron)
 COPY Hungarian-law-mcp/scripts/ ./scripts/
