@@ -1,96 +1,37 @@
-# Hungarian Law MCP Server
+# Magyar Jogszabály MCP Szerver
 
-**The Magyar Közlöny alternative for the AI age.**
+**A Magyar Közlöny alternatívája az AI korszakban.**
 
-[![npm version](https://badge.fury.io/js/@ansvar%2Fhungarian-law-mcp.svg)](https://www.npmjs.com/package/@ansvar/hungarian-law-mcp)
-[![MCP Registry](https://img.shields.io/badge/MCP-Registry-blue)](https://registry.modelcontextprotocol.io)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![GitHub stars](https://img.shields.io/github/stars/Ansvar-Systems/Hungarian-law-mcp?style=social)](https://github.com/Ansvar-Systems/Hungarian-law-mcp)
-[![CI](https://github.com/Ansvar-Systems/Hungarian-law-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/Ansvar-Systems/Hungarian-law-mcp/actions/workflows/ci.yml)
-[![Daily Data Check](https://github.com/Ansvar-Systems/Hungarian-law-mcp/actions/workflows/check-updates.yml/badge.svg)](https://github.com/Ansvar-Systems/Hungarian-law-mcp/actions/workflows/check-updates.yml)
-[![Database](https://img.shields.io/badge/database-pre--built-green)](docs/EU_INTEGRATION_GUIDE.md)
-[![Provisions](https://img.shields.io/badge/provisions-130%2C124-blue)](docs/EU_INTEGRATION_GUIDE.md)
 
-Query **4,314 Hungarian statutes** -- from the GDPR végrehajtási törvény and Büntető Törvénykönyv to the Polgári Törvénykönyv, Munka Törvénykönyve, and more -- directly from Claude, Cursor, or any MCP-compatible client.
+Kérdezd le **4 326 magyar jogszabályt** — a Ptk.-tól és Mt.-től a GDPR végrehajtási törvényig és a Btk.-ig — közvetlenül Claude-ból, Cursor-ból vagy bármely MCP-kompatibilis kliensből.
 
-If you're building legal tech, compliance tools, or doing Hungarian legal research, this is your verified reference database.
+Ha jogi technológiát építesz, megfelelőségi eszközöket fejlesztesz, vagy magyar jogi kutatást végzel, ez a hitelesített referencia-adatbázisod.
 
-Built by [Ansvar Systems](https://ansvar.eu) -- Stockholm, Sweden
+Az [Ansvar Systems](https://ansvar.eu) Hungarian Law MCP szerverére épül — kiegészítve magyar citation parserrel, EU mapping-ekkel és KKV jogi skill rendszerrel.
 
 ---
 
-## Why This Exists
+## Gyors Indulás
 
-Hungarian legal research is scattered across njt.hu (Nemzeti Jogszabálytár), Magyar Közlöny publications, and EUR-Lex. Whether you're:
-- A **lawyer** validating citations in a brief or contract
-- A **compliance officer** checking if a statute is still in force
-- A **legal tech developer** building tools on Hungarian law
-- A **researcher** tracing legislative provisions across 4,314 statutes
+### Távoli használat (telepítés nélkül)
 
-...you shouldn't need dozens of browser tabs and manual cross-referencing. Ask Claude. Get the exact provision. With context.
+**Endpoint:** `https://law.49-13-169-95.nip.io/mcp`
 
-This MCP server makes Hungarian law **searchable, cross-referenceable, and AI-readable**.
+| Kliens | Csatlakozás |
+|--------|-------------|
+| **Claude.ai** | Settings > Connectors > Add Integration > URL beillesztése |
+| **Claude Code** | `claude mcp add magyar-jogszabaly --transport http https://law.49-13-169-95.nip.io/mcp` |
+| **Claude Desktop** | Lásd a konfigurációt lent |
 
----
-
-## Quick Start
-
-### Use Remotely (No Install Needed)
-
-> Connect directly to the hosted version -- zero dependencies, nothing to install.
-
-**Endpoint:** `https://hungarian-law-mcp.vercel.app/mcp`
-
-| Client | How to Connect |
-|--------|---------------|
-| **Claude.ai** | Settings > Connectors > Add Integration > paste URL |
-| **Claude Code** | `claude mcp add hungarian-law --transport http https://hungarian-law-mcp.vercel.app/mcp` |
-| **Claude Desktop** | Add to config (see below) |
-| **GitHub Copilot** | Add to VS Code settings (see below) |
-
-**Claude Desktop** -- add to `claude_desktop_config.json`:
+**Claude Desktop** — add hozzá a `claude_desktop_config.json`-hoz:
 
 ```json
 {
   "mcpServers": {
-    "hungarian-law": {
+    "magyar-jogszabaly": {
       "type": "url",
-      "url": "https://hungarian-law-mcp.vercel.app/mcp"
-    }
-  }
-}
-```
-
-**GitHub Copilot** -- add to VS Code `settings.json`:
-
-```json
-{
-  "github.copilot.chat.mcp.servers": {
-    "hungarian-law": {
-      "type": "http",
-      "url": "https://hungarian-law-mcp.vercel.app/mcp"
-    }
-  }
-}
-```
-
-### Use Locally (npm)
-
-```bash
-npx @ansvar/hungarian-law-mcp
-```
-
-**Claude Desktop** -- add to `claude_desktop_config.json`:
-
-**macOS:** `~/Library/Application Support/Claude/claude_desktop_config.json`
-**Windows:** `%APPDATA%\Claude\claude_desktop_config.json`
-
-```json
-{
-  "mcpServers": {
-    "hungarian-law": {
-      "command": "npx",
-      "args": ["-y", "@ansvar/hungarian-law-mcp"]
+      "url": "https://law.49-13-169-95.nip.io/mcp"
     }
   }
 }
@@ -101,9 +42,9 @@ npx @ansvar/hungarian-law-mcp
 ```json
 {
   "mcp.servers": {
-    "hungarian-law": {
-      "command": "npx",
-      "args": ["-y", "@ansvar/hungarian-law-mcp"]
+    "magyar-jogszabaly": {
+      "type": "http",
+      "url": "https://law.49-13-169-95.nip.io/mcp"
     }
   }
 }
@@ -111,320 +52,167 @@ npx @ansvar/hungarian-law-mcp
 
 ---
 
-## Example Queries
+## Példa kérdések
 
-Once connected, just ask naturally:
+Csatlakozás után egyszerűen kérdezz természetes nyelven:
 
-- *"Keresés 'adatvédelem' -- milyen kötelezettségeket állapít meg a GDPR végrehajtási törvény?"*
+- *"Keresés 'adatvédelem' — milyen kötelezettségeket állapít meg a GDPR végrehajtási törvény?"*
 - *"Hatályban van-e a Büntető Törvénykönyv 370. §-a?"*
-- *"Találj rendelkezéseket a munkavállalók védelméről a Munka Törvénykönyvében"*
-- *"Melyik uniós irányelvet ültette át a Polgári Törvénykönyv fogyasztóvédelmi fejezete?"*
-- *"Melyik magyar törvények ültetik át a GDPR-t?"*
-- *"Ellenőrizd a hivatkozást: Btk. 370. § (1) bek."*
-- *"Állíts össze jogi álláspontot az adatvédelmi incidensek bejelentési kötelezettségéről"*
-- *"Megfelel-e a magyar kibervédelmi törvény a NIS2 irányelv követelményeinek?"*
+- *"Hány nap szabadság jár egy 42 éves munkavállalónak?"*
+- *"Melyik uniós irányelvet ültette át a Ptk. fogyasztóvédelmi fejezete?"*
+- *"Ellenőrizd a hivatkozást: 2012. évi I. törvény 116. §"*
+- *"Milyen engedély kell kávézó nyitásához?"*
+- *"A partnerem 3 hónapja nem fizet, mit tegyek?"*
 
 ---
 
-## What's Included
+## Mit tartalmaz
 
-| Category | Count | Details |
-|----------|-------|---------|
-| **Statutes** | 4,314 statutes | Comprehensive Hungarian legislation from njt.hu |
-| **Provisions** | 130,124 sections | Full-text searchable with FTS5 |
-| **Case Law** | 11,519 decisions | Court decisions (premium tier) |
-| **EU Cross-References** | Included | Directives and regulations linked to Hungarian transpositions |
-| **Database Size** | 282 MB | Optimized SQLite, portable |
-| **Daily Updates** | Automated | Freshness checks against njt.hu |
+| Kategória | Szám | Részletek |
+|-----------|------|-----------|
+| **Jogszabályok** | 4 326 | Teljes magyar joganyag az njt.hu-ról |
+| **Rendelkezések** | 130 220 | Teljes szöveges keresés FTS5-tel |
+| **EU kereszthivatkozások** | 109 | Irányelvek és rendeletek kapcsolva a magyar transzpozíciókhoz |
+| **Adatbázis méret** | 282 MB | Optimalizált SQLite |
+| **Frissítés** | Napi | Automatikus ellenőrzés az njt.hu-ról |
 
-**Verified data only** -- every citation is validated against official sources (njt.hu, Magyar Közlöny). Zero LLM-generated content.
+**Kizárólag hitelesített adat** — minden hivatkozás az njt.hu és Magyar Közlöny hivatalos forrásaiból. Nulla LLM-generált tartalom.
 
 ---
 
-## See It In Action
+## Elérhető eszközök (13)
 
-### Why This Works
+### Alap jogi kutatási eszközök (8)
 
-**Verbatim Source Text (No LLM Processing):**
-- All statute text is ingested from njt.hu (Nemzeti Jogszabálytár) official sources
-- Provisions are returned **unchanged** from SQLite FTS5 database rows
-- Zero LLM summarization or paraphrasing -- the database contains statute text, not AI interpretations
+| Eszköz | Leírás |
+|--------|--------|
+| `search_legislation` | FTS5 teljes szöveges keresés 130 220 rendelkezésben BM25 rangsorolással |
+| `get_provision` | Konkrét rendelkezés lekérése jogszabály azonosító + szakaszszám alapján |
+| `validate_citation` | Hivatkozás validálása az adatbázisban — magyar formátum támogatás (`"2012. évi I. törvény 116. §"`) |
+| `build_legal_stance` | Hivatkozások aggregálása több jogszabályból egy jogi témához |
+| `format_citation` | Hivatkozások formázása magyar konvenciók szerint (teljes/rövid/pinpoint) |
+| `check_currency` | Jogszabály hatályosságának ellenőrzése (hatályos/módosított/hatályon kívül) |
+| `list_sources` | Elérhető jogszabályok listája metaadatokkal |
+| `about` | Szerver információk, adatbázis statisztikák |
 
-**Smart Context Management:**
-- Search returns ranked provisions with BM25 scoring (safe for context)
-- Provision retrieval gives exact text by statute identifier + section
-- Cross-references help navigate without loading everything at once
+### EU jog integrációs eszközök (5)
 
-**Technical Architecture:**
+| Eszköz | Leírás |
+|--------|--------|
+| `get_eu_basis` | EU irányelvek/rendeletek lekérése, amelyek egy magyar jogszabály alapját képezik |
+| `get_hungarian_implementations` | Magyar jogszabályok keresése, amelyek egy adott EU aktust implementálnak |
+| `search_eu_implementations` | EU dokumentumok keresése magyar implementációs számokkal |
+| `get_provision_eu_basis` | EU jogi hivatkozások egy konkrét rendelkezéshez |
+| `validate_eu_compliance` | Magyar jogszabályok EU irányelveknek való megfelelőségének ellenőrzése |
+
+---
+
+## KKV Jogi Skill Könyvtár
+
+Ez az MCP szerver a **[KKV Jogi Csapat](https://github.com/gergototh1/kkv-jogi-csapat)** skill rendszerrel együtt használható — 11 Claude Code skill, amely a magyar KKV-k leggyakoribb jogi kérdéseire ad választ.
+
+### Hogyan működik
+
 ```
-njt.hu API → Parse → SQLite → FTS5 snippet() → MCP response
-               ↑                     ↑
-        Provision parser      Verbatim database query
+Felhasználó kérdése
+  → kkv-jogi-router (routing 10 szakterületre)
+    → Specializált skill (pl. kkv-munkajog)
+      → MCP tool hívások (get_provision, check_currency, validate_citation)
+        → Pontos jogszabályszöveg az adatbázisból
+          → Strukturált válasz (kockázatszint + teendők + disclaimer)
 ```
 
-### Traditional Research vs. This MCP
+### Elérhető skillek
 
-| Traditional Approach | This MCP Server |
-|---------------------|-----------------|
-| Search njt.hu by statute title | Search by plain Hungarian: *"személyes adat hozzájárulás"* |
-| Navigate multi-section statutes manually | Get the exact provision with context |
-| Manual cross-referencing between laws | `build_legal_stance` aggregates across sources |
-| "Is this statute still in force?" → check manually | `check_currency` tool → answer in seconds |
-| Find EU basis → dig through EUR-Lex | `get_eu_basis` → linked EU directives instantly |
-| Check multiple sites for updates | Daily automated freshness checks |
-| No API, no integration | MCP protocol → AI-native |
+| Skill | Terület |
+|-------|---------|
+| **kkv-jogi-router** | Orchestrátor — automatikus routing a megfelelő skill-hez |
+| **kkv-munkajog** | Munkaszerződés, felmondás, szabadság, túlóra, home office (Mt.) |
+| **kkv-ado** | ÁFA, TAO, KIVA, KATA, számlázás, adóellenőrzés (Art. + ÁFA tv.) |
+| **kkv-gdpr** | Adatkezelési tájékoztató, DPIA, incidens, cookie (Infotv. + GDPR) |
+| **kkv-szerzodes** | ÁSZF audit, szavatosság, NDA, freelancer szerződés (Ptk.) |
+| **kkv-cegjog** | Kft./Bt. alapítás, taggyűlés, törzstőke, EV→Kft. átmenet (Ctv.) |
+| **kkv-fogyasztovedelmi** | Webshop, elállási jog, jótállás, marketplace (Fgytv.) |
+| **kkv-koveteleskezeles** | Fizetési meghagyás, végrehajtás, késedelmi kamat (Fmhtv. + Vht.) |
+| **kkv-szellemi-tulajdon** | Védjegy, szerzői jog, szoftver IP, domain viták (Szjt. + Vt.) |
+| **kkv-ingatlan** | Székhelyszolgáltatás, bérleti szerződés, telephely (Ptk. + Ctv.) |
+| **kkv-engedelyek** | Működési engedély, vendéglátás, NTAK, HACCP (Kertv.) |
 
-**Traditional:** Search njt.hu → Download PDF → Ctrl+F → Cross-reference → Check EUR-Lex for EU basis → Repeat
-
-**This MCP:** *"Melyik GDPR-cikk ültette át a különleges adatkezelési kategóriákra vonatkozó 9. §-t?"* → Done.
-
----
-
-## Available Tools (13)
-
-### Core Legal Research Tools (8)
-
-| Tool | Description |
-|------|-------------|
-| `search_legislation` | FTS5 full-text search across 130,124 provisions with BM25 ranking |
-| `get_provision` | Retrieve specific provision by statute identifier + section/paragraph |
-| `validate_citation` | Validate citation against database -- zero-hallucination check |
-| `build_legal_stance` | Aggregate citations from multiple statutes for a legal topic |
-| `format_citation` | Format citations per Hungarian conventions (full/short/pinpoint) |
-| `check_currency` | Check if statute is in force, amended, or repealed |
-| `list_sources` | List all available statutes with metadata and data provenance |
-| `about` | Server info, capabilities, dataset statistics, and coverage summary |
-
-### EU Law Integration Tools (5)
-
-| Tool | Description |
-|------|-------------|
-| `get_eu_basis` | Get EU directives/regulations that underpin a Hungarian statute |
-| `get_hungarian_implementations` | Find Hungarian laws implementing a specific EU act |
-| `search_eu_implementations` | Search EU documents with Hungarian implementation counts |
-| `get_provision_eu_basis` | Get EU law references for a specific provision |
-| `validate_eu_compliance` | Check implementation status of Hungarian statutes against EU directives |
+**Telepítés:** [github.com/gergototh1/kkv-jogi-csapat](https://github.com/gergototh1/kkv-jogi-csapat)
 
 ---
 
-## EU Law Integration
+## Adatforrások és Frissesség
 
-Hungary is an EU member state. Hungarian legislation directly transposes EU directives and implements EU regulations, creating a traceable mapping between Hungarian and EU law.
+Minden tartalom hiteles magyar jogi adatbázisokból származik:
 
-Key areas of EU-Hungarian law alignment:
-
-- **GDPR (2016/679)** -- implemented via the 2018. évi XXXVIII. törvény (információs önrendelkezési jogról és az információszabadságról szóló törvény módosítása)
-- **NIS2 Directive (2022/2555)** -- transposed into Hungarian cybersecurity legislation (kibervédelmi törvény)
-- **eIDAS Regulation (910/2014)** -- applicable directly; supplemented by Hungarian electronic identification rules
-- **DORA (2022/2554)** -- digital operational resilience obligations for the financial sector
-- **AI Act (2024/1689)** -- EU regulation applicable directly across all member states
-- **Consumer Protection Directives** -- implemented via the Fogyasztóvédelmi törvény
-
-The EU bridge tools provide bi-directional lookup: find which Hungarian statutes implement a given EU act, or find which EU acts underpin a given Hungarian provision.
-
-| Metric | Value |
-|--------|-------|
-| **EU Member State** | Since 2004 |
-| **Legal System** | Civil law (continental European tradition) |
-| **Official Gazette** | Magyar Közlöny (magyarkozlony.hu) |
-| **Legislation Repository** | Nemzeti Jogszabálytár (njt.hu) |
-| **EUR-Lex Integration** | Automated metadata fetching |
-
-See [EU_INTEGRATION_GUIDE.md](docs/EU_INTEGRATION_GUIDE.md) for detailed documentation.
+- **[njt.hu](https://njt.hu/)** — Nemzeti Jogszabálytár, a hivatalos konszolidált magyar jogi adatbázis
+- **[Magyar Közlöny](https://magyarkozlony.hu/)** — Hivatalos Közlöny (elsődleges jogalkotási kiadvány)
+- **[EUR-Lex](https://eur-lex.europa.eu/)** — Az EU hivatalos jogi adatbázisa (csak metaadatok)
 
 ---
 
-## Data Sources & Freshness
+## Fontos Jogi Nyilatkozatok
 
-All content is sourced from authoritative Hungarian legal databases:
+### Jogi tanácsadás
 
-- **[njt.hu](https://njt.hu/)** -- Nemzeti Jogszabálytár (National Legislation Repository), the official consolidated Hungarian legal database
-- **[Magyar Közlöny](https://magyarkozlony.hu/)** -- Official Gazette (primary legislative publication)
-- **[EUR-Lex](https://eur-lex.europa.eu/)** -- Official EU law database (metadata only)
-
-### Automated Freshness Checks (Daily)
-
-A [daily GitHub Actions workflow](.github/workflows/check-updates.yml) monitors all data sources:
-
-| Source | Check | Method |
-|--------|-------|--------|
-| **Statute amendments** | njt.hu API date comparison | All 4,314 statutes checked |
-| **New statutes** | Magyar Közlöny publications (90-day window) | Diffed against database |
-| **EU reference staleness** | Git commit timestamps | Flagged if >90 days old |
-
----
-
-## Security
-
-This project uses multiple layers of automated security scanning:
-
-| Scanner | What It Does | Schedule |
-|---------|-------------|----------|
-| **CodeQL** | Static analysis for security vulnerabilities | Weekly + PRs |
-| **Semgrep** | SAST scanning (OWASP top 10, secrets, TypeScript) | Every push |
-| **Gitleaks** | Secret detection across git history | Every push |
-| **Trivy** | CVE scanning on filesystem and npm dependencies | Daily |
-| **Docker Security** | Container image scanning + SBOM generation | Daily |
-| **Socket.dev** | Supply chain attack detection | PRs |
-| **OSSF Scorecard** | OpenSSF best practices scoring | Weekly |
-| **Dependabot** | Automated dependency updates | Weekly |
-
-See [SECURITY.md](SECURITY.md) for the full policy and vulnerability reporting.
-
----
-
-## Important Disclaimers
-
-### Legal Advice
-
-> **THIS TOOL IS NOT LEGAL ADVICE**
+> **EZ AZ ESZKÖZ NEM MINŐSÜL JOGI TANÁCSADÁSNAK**
 >
-> Statute text is sourced from official njt.hu/Magyar Közlöny publications. However:
-> - This is a **research tool**, not a substitute for professional legal counsel
-> - **Verify critical citations** against primary sources for court filings
-> - **EU cross-references** are extracted from Hungarian statute text, not EUR-Lex full text
-> - **Always confirm** current in-force status via njt.hu before relying on a provision professionally
+> A jogszabályszövegek az njt.hu / Magyar Közlöny hivatalos kiadványaiból származnak. Mindazonáltal:
+> - Ez egy **kutatási eszköz**, nem helyettesíti a szakszerű jogi tanácsadást
+> - **Kritikus hivatkozásokat ellenőrizd** az elsődleges forrásokon bírósági beadványokhoz
+> - **EU kereszthivatkozások** a magyar jogszabályszövegből vannak kinyerve, nem az EUR-Lex teljes szövegéből
+> - **Mindig erősítsd meg** a hatályos állapotot az njt.hu-n, mielőtt szakmai célra hivatkoznál
 
-**Before using professionally, read:** [DISCLAIMER.md](DISCLAIMER.md) | [PRIVACY.md](PRIVACY.md)
+### Titoktartás
 
-### Client Confidentiality
-
-Queries go through the Claude API. For privileged or confidential matters, use on-premise deployment. See [PRIVACY.md](PRIVACY.md) for Magyar Ügyvédi Kamara (Hungarian Bar Association) compliance guidance.
+A lekérdezések az MCP protokollon keresztül mennek. Bizalmas vagy ügyvédi titoktartás alá eső ügyeknél használj helyi telepítést.
 
 ---
 
-## Documentation
+## Fejlesztés
 
-- **[EU Integration Guide](docs/EU_INTEGRATION_GUIDE.md)** -- Detailed EU cross-reference documentation
-- **[EU Usage Examples](docs/EU_USAGE_EXAMPLES.md)** -- Practical EU lookup examples
-- **[Security Policy](SECURITY.md)** -- Vulnerability reporting and scanning details
-- **[Disclaimer](DISCLAIMER.md)** -- Legal disclaimers and professional use notices
-- **[Privacy](PRIVACY.md)** -- Client confidentiality and data handling
-
----
-
-## Development
-
-### Setup
+### Telepítés
 
 ```bash
-git clone https://github.com/Ansvar-Systems/Hungarian-law-mcp
-cd Hungarian-law-mcp
+git clone https://github.com/gergototh1/magyar-jogszabaly-mcp
+cd magyar-jogszabaly-mcp
 npm install
 npm run build
-npm test
 ```
 
-### Running Locally
+### Adatbázis kezelés
 
 ```bash
-npm run dev                                       # Start MCP server
-npx @anthropic/mcp-inspector node dist/index.js   # Test with MCP Inspector
-```
-
-### Data Management
-
-```bash
-npm run ingest              # Ingest statutes from njt.hu
-npm run build:db            # Rebuild SQLite database
-npm run check-updates       # Check for amendments and new statutes
-```
-
-### Performance
-
-- **Search Speed:** <100ms for most FTS5 queries
-- **Database Size:** 282 MB (comprehensive corpus)
-- **Reliability:** 100% ingestion success rate
-
----
-
-## Related Projects: Complete Compliance Suite
-
-This server is part of **Ansvar's Compliance Suite** -- MCP servers that work together for end-to-end compliance coverage:
-
-### [@ansvar/eu-regulations-mcp](https://github.com/Ansvar-Systems/EU_compliance_MCP)
-**Query 49 EU regulations directly from Claude** -- GDPR, AI Act, DORA, NIS2, MiFID II, eIDAS, and more. Full regulatory text with article-level search. `npx @ansvar/eu-regulations-mcp`
-
-### @ansvar/hungarian-law-mcp (This Project)
-**Query 4,314 Hungarian statutes directly from Claude** -- Btk., Ptk., Mt., and more. Full provision text with EU cross-references. `npx @ansvar/hungarian-law-mcp`
-
-### [@ansvar/romanian-law-mcp](https://github.com/Ansvar-Systems/Romanian-law-mcp)
-**Query Romanian statutes directly from Claude** -- EU member, civil law tradition. `npx @ansvar/romanian-law-mcp`
-
-### [@ansvar/security-controls-mcp](https://github.com/Ansvar-Systems/security-controls-mcp)
-**Query 261 security frameworks** -- ISO 27001, NIST CSF, SOC 2, CIS Controls, SCF, and more. `npx @ansvar/security-controls-mcp`
-
-### [@ansvar/sanctions-mcp](https://github.com/Ansvar-Systems/Sanctions-MCP)
-**Offline-capable sanctions screening** -- OFAC, EU, UN sanctions lists. `pip install ansvar-sanctions-mcp`
-
-**70+ national law MCPs** covering Australia, Brazil, Bulgaria, Canada, Denmark, Finland, France, Germany, Greece, Iceland, Ireland, Lithuania, Netherlands, Norway, Sweden, and more.
-
----
-
-## Contributing
-
-Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-Priority areas:
-- Court case law expansion (Kúria, Constitutional Court)
-- EU Regulations MCP integration (full EU law text, CJEU case law)
-- Historical statute versions and amendment tracking
-- Government decrees (kormányrendeletek) expansion
-
----
-
-## Roadmap
-
-- [x] Core statute database with FTS5 search
-- [x] Full corpus ingestion (4,314 statutes, 130,124 provisions)
-- [x] Case law database (11,519 decisions, premium tier)
-- [x] EU law integration tools
-- [x] Vercel Streamable HTTP deployment
-- [x] npm package publication
-- [x] Daily freshness checks
-- [ ] Case law expansion (Kúria full archive)
-- [ ] Historical statute versions (amendment tracking)
-- [ ] Government decree expansion
-
----
-
-## Citation
-
-If you use this MCP server in academic research:
-
-```bibtex
-@software{hungarian_law_mcp_2026,
-  author = {Ansvar Systems AB},
-  title = {Hungarian Law MCP Server: Production-Grade Legal Research Tool},
-  year = {2026},
-  url = {https://github.com/Ansvar-Systems/Hungarian-law-mcp},
-  note = {Comprehensive Hungarian legal database with 4,314 statutes and 130,124 provisions}
-}
+npm run build:db            # SQLite adatbázis újraépítése
 ```
 
 ---
 
-## License
+## Saját javítások az alap Ansvar szerveren
 
-Apache License 2.0. See [LICENSE](./LICENSE) for details.
+Ez a fork az [Ansvar Systems Hungarian Law MCP](https://github.com/Ansvar-Systems/Hungarian-law-mcp) szerverre épül, a következő kiegészítésekkel:
 
-### Data Licenses
-
-- **Statutes & Legislation:** Hungarian Government / njt.hu (public domain)
-- **EU Metadata:** EUR-Lex (EU public domain)
-
----
-
-## About Ansvar Systems
-
-We build AI-accelerated compliance and legal research tools for the European market. This MCP server started as our internal reference tool for Hungarian law -- turns out everyone building for the Hungarian and Central European markets has the same research frustrations.
-
-So we're open-sourcing it. Navigating 4,314 statutes shouldn't require a law degree.
-
-**[ansvar.eu](https://ansvar.eu)** -- Stockholm, Sweden
+- **Magyar citation parser** — `validate_citation("2012. évi I. törvény 116. §")` felismerés
+- **Ptk. kettőspontos section** — `6:272. §` formátum kezelése
+- **Magyar normalized output** — `"doc.title NNN. §"` formátum
+- **EU mapping seed** — 14 irányelv/rendelet (GDPR, Consumer Rights, ePrivacy, VAT, stb.)
+- **format_citation DB lookup** — teljes cím feloldás az adatbázisból
+- **KKV jogi skill könyvtár** — 11 skill magyar KKV-knak
 
 ---
 
-<p align="center">
-  <sub>Built with care in Stockholm, Sweden</sub>
-</p>
+## Licensz
+
+Apache License 2.0. Lásd [LICENSE](./LICENSE).
+
+### Adat licenszek
+
+- **Jogszabályok:** Magyar Kormány / njt.hu (közkincs)
+- **EU metaadatok:** EUR-Lex (EU közkincs)
+
+---
+
+## Eredeti projekt
+
+Ez a projekt az [Ansvar Systems](https://ansvar.eu) (Stockholm, Svédország) Hungarian Law MCP szerverének fork-ja.
