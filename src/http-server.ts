@@ -55,6 +55,35 @@ const PORT = parseInt(process.env.PORT || '3000', 10);
 const pkg = JSON.parse(readFileSync(join(__dirname, '..', 'package.json'), 'utf-8'));
 const SERVER_NAME: string = pkg.name.replace(/^@ansvar\//, '');
 const SERVER_VERSION: string = pkg.version;
+const BASE_URL = process.env.BASE_URL || `https://law.49-13-169-95.nip.io`;
+
+// ---------------------------------------------------------------------------
+// OAuth 2.1 — minimal open authorization for Claude Desktop custom connectors
+// ---------------------------------------------------------------------------
+
+const oauthClients = new Map<string, { secret: string; redirectUris: string[] }>();
+const oauthCodes = new Map<string, { clientId: string; codeChallenge: string; redirectUri: string; expiresAt: number }>();
+const oauthTokens = new Set<string>();
+
+function readBody(req: IncomingMessage): Promise<string> {
+  return new Promise((resolve, reject) => {
+    const chunks: Buffer[] = [];
+    req.on('data', (c: Buffer) => chunks.push(c));
+    req.on('end', () => resolve(Buffer.concat(chunks).toString()));
+    req.on('error', reject);
+  });
+}
+
+function verifyPkce(verifier: string, challenge: string): boolean {
+  const computed = createHash('sha256').update(verifier).digest('base64url');
+  return computed === challenge;
+}
+
+function validateBearerToken(req: IncomingMessage): boolean {
+  const auth = req.headers.authorization;
+  if (!auth?.startsWith('Bearer ')) return false;
+  return oauthTokens.has(auth.slice(7));
+}
 
 // ---------------------------------------------------------------------------
 // Database resolution (standard law MCP path convention)
@@ -229,7 +258,7 @@ async function main() {
     // CORS
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, DELETE, OPTIONS');
-    res.setHeader('Access-Control-Allow-Headers', 'Content-Type, mcp-session-id');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type, mcp-session-id, Authorization');
     res.setHeader('Access-Control-Expose-Headers', 'mcp-session-id');
 
     try {
@@ -258,8 +287,149 @@ async function main() {
         return;
       }
 
+      // -----------------------------------------------------------------------
+      // OAuth 2.1 endpoints
+      // -----------------------------------------------------------------------
+
+      // Protected Resource Metadata (RFC 9728)
+      if (url.pathname === '/.well-known/oauth-protected-resource' && (req.method === 'GET' || req.method === 'HEAD')) {
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({
+          resource: `${BASE_URL}/mcp`,
+          authorization_servers: [BASE_URL],
+          bearer_methods_supported: ['header'],
+        }));
+        return;
+      }
+
+      // Authorization Server Metadata (RFC 8414)
+      if (url.pathname === '/.well-known/oauth-authorization-server' && (req.method === 'GET' || req.method === 'HEAD')) {
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({
+          issuer: BASE_URL,
+          authorization_endpoint: `${BASE_URL}/oauth/authorize`,
+          token_endpoint: `${BASE_URL}/oauth/token`,
+          registration_endpoint: `${BASE_URL}/oauth/register`,
+          response_types_supported: ['code'],
+          grant_types_supported: ['authorization_code'],
+          code_challenge_methods_supported: ['S256'],
+          token_endpoint_auth_methods_supported: ['client_secret_post'],
+        }));
+        return;
+      }
+
+      // Dynamic Client Registration (RFC 7591)
+      if (url.pathname === '/oauth/register' && req.method === 'POST') {
+        const body = JSON.parse(await readBody(req));
+        const clientId = randomUUID();
+        const clientSecret = randomUUID();
+        const redirectUris: string[] = body.redirect_uris || [];
+
+        oauthClients.set(clientId, { secret: clientSecret, redirectUris });
+
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({
+          client_id: clientId,
+          client_secret: clientSecret,
+          redirect_uris: redirectUris,
+          grant_types: ['authorization_code'],
+          response_types: ['code'],
+          token_endpoint_auth_method: 'client_secret_post',
+        }));
+        return;
+      }
+
+      // Authorization endpoint — auto-approve (public server)
+      if (url.pathname === '/oauth/authorize' && req.method === 'GET') {
+        const clientId = url.searchParams.get('client_id') || '';
+        const redirectUri = url.searchParams.get('redirect_uri') || '';
+        const codeChallenge = url.searchParams.get('code_challenge') || '';
+        const state = url.searchParams.get('state') || '';
+        const responseType = url.searchParams.get('response_type');
+
+        if (responseType !== 'code' || !clientId || !redirectUri || !codeChallenge) {
+          res.writeHead(400, { 'Content-Type': 'application/json' });
+          res.end(JSON.stringify({ error: 'invalid_request' }));
+          return;
+        }
+
+        const code = randomUUID();
+        oauthCodes.set(code, {
+          clientId,
+          codeChallenge,
+          redirectUri,
+          expiresAt: Date.now() + 5 * 60 * 1000, // 5 min
+        });
+
+        const redirect = new URL(redirectUri);
+        redirect.searchParams.set('code', code);
+        if (state) redirect.searchParams.set('state', state);
+
+        res.writeHead(302, { Location: redirect.toString() });
+        res.end();
+        return;
+      }
+
+      // Token endpoint
+      if (url.pathname === '/oauth/token' && req.method === 'POST') {
+        const raw = await readBody(req);
+        const params = new URLSearchParams(raw);
+
+        const grantType = params.get('grant_type');
+        const code = params.get('code') || '';
+        const codeVerifier = params.get('code_verifier') || '';
+        const clientId = params.get('client_id') || '';
+
+        if (grantType !== 'authorization_code') {
+          res.writeHead(400, { 'Content-Type': 'application/json' });
+          res.end(JSON.stringify({ error: 'unsupported_grant_type' }));
+          return;
+        }
+
+        const stored = oauthCodes.get(code);
+        if (!stored || stored.clientId !== clientId || stored.expiresAt < Date.now()) {
+          oauthCodes.delete(code);
+          res.writeHead(400, { 'Content-Type': 'application/json' });
+          res.end(JSON.stringify({ error: 'invalid_grant' }));
+          return;
+        }
+
+        if (!verifyPkce(codeVerifier, stored.codeChallenge)) {
+          oauthCodes.delete(code);
+          res.writeHead(400, { 'Content-Type': 'application/json' });
+          res.end(JSON.stringify({ error: 'invalid_grant', error_description: 'PKCE verification failed' }));
+          return;
+        }
+
+        oauthCodes.delete(code);
+
+        const accessToken = randomUUID();
+        oauthTokens.add(accessToken);
+
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({
+          access_token: accessToken,
+          token_type: 'bearer',
+          expires_in: 3600,
+        }));
+        return;
+      }
+
+      // -----------------------------------------------------------------------
+      // /mcp — MCP Streamable HTTP transport (Bearer token required)
+      // -----------------------------------------------------------------------
+
       // /mcp — MCP Streamable HTTP transport
       if (url.pathname === '/mcp') {
+        // Require Bearer token for POST (new session / tool calls)
+        if (req.method === 'POST' && !validateBearerToken(req)) {
+          res.writeHead(401, {
+            'Content-Type': 'application/json',
+            'WWW-Authenticate': `Bearer resource_metadata="${BASE_URL}/.well-known/oauth-protected-resource"`,
+          });
+          res.end(JSON.stringify({ error: 'unauthorized' }));
+          return;
+        }
         const sessionId = validSessionId(req.headers['mcp-session-id'] as string | undefined);
 
         // Existing session — delegate
