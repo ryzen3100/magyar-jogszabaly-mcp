@@ -241,7 +241,7 @@ async function main() {
       }
 
       // GET /health
-      if (url.pathname === '/health' && req.method === 'GET') {
+      if (url.pathname === '/health' && (req.method === 'GET' || req.method === 'HEAD')) {
         let dbOk = false;
         try {
           db.prepare('SELECT 1').get();
@@ -297,8 +297,8 @@ async function main() {
           return;
         }
 
-        // GET without session — metadata
-        if (req.method === 'GET') {
+        // GET/HEAD without session — metadata
+        if (req.method === 'GET' || req.method === 'HEAD') {
           res.writeHead(200, { 'Content-Type': 'application/json' });
           res.end(JSON.stringify({
             name: SERVER_NAME,
