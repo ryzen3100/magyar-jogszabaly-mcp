@@ -1,0 +1,55 @@
+name: Deploy to Hetzner
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - '*.md'
+      - 'docs/**'
+      - '.github/workflows/check-updates.yml'
+      - '.github/workflows/scorecard.yml'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v1
+        with:
+          host: 49.13.169.95
+          username: root
+          key: ${{ secrets.HETZNER_SSH_KEY }}
+          script_stop: true
+          script: |
+            set -euo pipefail
+            echo "=== $(date -Iseconds) === DEPLOY START ==="
+
+            cd /opt/hungarian-law-mcp/Hungarian-law-mcp
+
+            # Pull latest code
+            git fetch origin
+            git reset --hard origin/main
+            echo "Git updated: $(git log --oneline -1)"
+
+            # Install deps + rebuild native modules
+            npm ci --ignore-scripts
+            npm rebuild better-sqlite3
+
+            # Rebuild database (includes EU mappings)
+            node --import tsx scripts/build-db.ts
+
+            # Copy DB to Docker volume
+            VOLUME_PATH=$(docker volume inspect hungarian-law-mcp_law-data -f '{{.Mountpoint}}' 2>/dev/null || docker volume inspect hungarian-law-docker_law-data -f '{{.Mountpoint}}')
+            cp data/database.db "$VOLUME_PATH/database.db"
+
+            # Restart container
+            cd /opt/hungarian-law-mcp
+            docker compose restart hungarian-law-mcp
+
+            # Health check
+            sleep 3
+            curl -sf http://localhost:3100/health || echo "WARNING: Health check failed"
+
+            echo "=== $(date -Iseconds) === DEPLOY DONE ==="
