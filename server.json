@@ -3,7 +3,7 @@
   "name": "eu.ansvar/hungarian-law-mcp",
   "description": "Hungarian legislation via MCP — full-text search across statutes and provisions",
   "repository": {
-    "url": "https://github.com/Ansvar-Systems/Hungarian-law-mcp",
+    "url": "https://github.com/gergototh1/magyar-jogszabaly-mcp",
     "source": "github"
   },
   "homepage": "https://ansvar.eu",
@@ -24,7 +24,7 @@
       "version": "1.0.0",
       "transport": {
         "type": "streamable-http",
-        "url": "https://hungarian-law-mcp.vercel.app/mcp"
+        "url": "https://law.49-13-169-95.nip.io/mcp"
       }
     }
   ]
