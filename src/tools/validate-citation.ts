@@ -160,7 +160,7 @@ export async function validateCitationTool(
       results: {
         valid: true,
         citation: input.citation,
-        normalized: `${doc.title} ${parsed.sectionRef}. §`,
+        normalized: `${doc.title} ${parsed.sectionRef}. § (Section ${parsed.sectionRef})`,
         document_id: docId,
         document_title: doc.title,
         provision_ref: provision.provision_ref,
