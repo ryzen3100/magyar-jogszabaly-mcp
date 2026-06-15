@@ -7,7 +7,8 @@ RUN npm ci --ignore-scripts
 COPY tsconfig.json ./
 COPY src ./src
 COPY scripts ./scripts
-RUN npm run build
+RUN npm run build \
+    && test -f dist/http-server.js
 
 FROM node:20-alpine AS production
 WORKDIR /app
