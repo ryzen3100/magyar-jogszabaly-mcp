@@ -1,0 +1,26 @@
+services:
+  magyar-jogszabaly-mcp:
+    image: ghcr.io/ryzen3100/magyar-jogszabaly-mcp:latest
+    pull_policy: always
+    container_name: magyar-jogszabaly-mcp
+    restart: unless-stopped
+    ports:
+      # Change the host-side port on the left if 3000 is already used, for example "8085:3000".
+      - "3000:3000"
+    environment:
+      NODE_ENV: production
+      PORT: "3000"
+      BASE_URL: "http://openmediavault.local:3000"
+      HUNGARIAN_LAW_DB_PATH: "/data/database.db"
+      # Optional first-run rebuild. Keep false for fastest startup; set true before the first start
+      # to regenerate the DB from the seed files bundled in the image.
+      REBUILD_DB_ON_FIRST_RUN: "false"
+    volumes:
+      # For OpenMediaVault, replace ./data with your appdata path if preferred.
+      - ./data:/data
+    healthcheck:
+      test: ["CMD-SHELL", "node -e \"fetch('http://127.0.0.1:3000/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))\""]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
