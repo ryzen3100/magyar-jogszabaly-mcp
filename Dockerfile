@@ -24,6 +24,7 @@ RUN apk add --no-cache libstdc++ su-exec \
 COPY package*.json ./
 RUN npm ci --omit=dev --ignore-scripts \
     && npm install --no-save --package-lock=false better-sqlite3@12.6.2 \
+    && node -e "import('better-sqlite3').then(() => console.log('better-sqlite3 available'))" \
     && npm cache clean --force \
     && apk del .native-build-deps
 
