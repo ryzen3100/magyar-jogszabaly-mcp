@@ -1,26 +1,28 @@
-name: Deploy to Hetzner
+name: Deploy to Hetzner (manual)
 
 on:
-  push:
-    branches: [main]
-    paths-ignore:
-      - '*.md'
-      - 'docs/**'
-      - '.github/workflows/check-updates.yml'
-      - '.github/workflows/scorecard.yml'
+  workflow_dispatch:
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    env:
+      HETZNER_SSH_KEY: ${{ secrets.HETZNER_SSH_KEY }}
 
     steps:
+      - name: Skip when SSH key is not configured
+        if: env.HETZNER_SSH_KEY == ''
+        run: |
+          echo "::notice::HETZNER_SSH_KEY is not configured; skipping Hetzner deployment."
+
       - name: Deploy via SSH
+        if: env.HETZNER_SSH_KEY != ''
         uses: appleboy/ssh-action@v1
         with:
           host: 49.13.169.95
           username: root
-          key: ${{ secrets.HETZNER_SSH_KEY }}
+          key: ${{ env.HETZNER_SSH_KEY }}
           script: |
             set -euo pipefail
             echo "=== $(date -Iseconds) === DEPLOY START ==="
@@ -28,7 +30,7 @@ jobs:
             cd /opt/hungarian-law-mcp/Hungarian-law-mcp
 
             # Ensure origin points to the correct repo
-            git remote set-url origin https://github.com/gergototh1/magyar-jogszabaly-mcp.git
+            git remote set-url origin https://github.com/ryzen3100/magyar-jogszabaly-mcp.git
 
             # Pull latest code
             git fetch origin
