@@ -28,6 +28,7 @@ RUN npm ci --omit=dev --ignore-scripts \
     && apk del .native-build-deps
 
 COPY --from=builder /app/dist ./dist
+COPY package.json ./dist/package.json
 COPY data ./dist/data
 COPY docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
 
