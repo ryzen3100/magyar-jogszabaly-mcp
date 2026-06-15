@@ -17,10 +17,53 @@ export interface FormatCitationResult {
   format: string;
 }
 
-export async function formatCitationTool(
+function formatLegacyCitation(input: FormatCitationInput): FormatCitationResult {
+  const format = input.format ?? 'full';
+  const trimmed = input.citation.trim();
+
+  // Legacy tests call this helper without a DB. Preserve the previous English-style
+  // formatter behavior for that direct call shape while the MCP tool path below
+  // continues to return ToolResponse metadata and Hungarian § formatting.
+  const sectionFirst = trimmed.match(/^Section\s+(\d+[A-Za-z]*(?:\(\d+\))?)\s*[,;]?\s+(.+)$/i);
+  const sectionLast = trimmed.match(/^(.+?)\s*[,;]?\s+(?:s\.?\s+|Section\s+)(\d+[A-Za-z]*(?:\(\d+\))?)$/i);
+
+  const section = sectionFirst?.[1] ?? sectionLast?.[2];
+  const act = sectionFirst?.[2] ?? sectionLast?.[1] ?? trimmed;
+
+  let formatted: string;
+  switch (format) {
+    case 'short':
+      formatted = section ? `${act} s ${section}` : act;
+      break;
+    case 'pinpoint':
+      formatted = section ? `s ${section}` : act;
+      break;
+    case 'full':
+    default:
+      formatted = section ? `Section ${section}, ${act}` : act;
+      break;
+  }
+
+  return { original: input.citation, formatted, format };
+}
+
+export function formatCitationTool(
+  input: FormatCitationInput,
+): Promise<FormatCitationResult>;
+export function formatCitationTool(
   db: InstanceType<typeof Database>,
   input: FormatCitationInput,
-): Promise<ToolResponse<FormatCitationResult>> {
+): Promise<ToolResponse<FormatCitationResult>>;
+export async function formatCitationTool(
+  dbOrInput: InstanceType<typeof Database> | FormatCitationInput,
+  maybeInput?: FormatCitationInput,
+): Promise<ToolResponse<FormatCitationResult> | FormatCitationResult> {
+  if (!maybeInput) {
+    return formatLegacyCitation(dbOrInput as FormatCitationInput);
+  }
+
+  const db = dbOrInput as InstanceType<typeof Database>;
+  const input = maybeInput;
   const format = input.format ?? 'full';
   const trimmed = input.citation.trim();
 
