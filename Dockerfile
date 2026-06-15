@@ -8,7 +8,7 @@ COPY tsconfig.json ./
 COPY src ./src
 COPY scripts ./scripts
 RUN npm run build \
-    && test -f dist/http-server.js
+    && test -f dist/src/http-server.js
 
 FROM node:20-alpine AS production
 WORKDIR /app
@@ -43,4 +43,4 @@ HEALTHCHECK --interval=30s --timeout=10s --start-period=30s --retries=5 \
   CMD node -e "fetch('http://127.0.0.1:' + (process.env.PORT || 3000) + '/health').then(r => process.exit(r.ok ? 0 : 1)).catch(() => process.exit(1))"
 
 ENTRYPOINT ["docker-entrypoint.sh"]
-CMD ["node", "dist/http-server.js"]
+CMD ["node", "dist/src/http-server.js"]
