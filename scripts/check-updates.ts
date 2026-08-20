@@ -5,7 +5,7 @@
  * Checks whether the local database is stale or missing expected legislation.
  *
  * Detection strategy:
- * 1. Database age — flags if build_date > MAX_AGE days old
+ * 1. Database age — flags if built_at > MAX_AGE days old
  * 2. Document count — compares DB rows against census.json expected count
  * 3. Source portal — verifies the official legal portal is reachable
  *
@@ -31,7 +31,11 @@ interface CensusSummary {
   total_laws?: number;
   total_ingestable?: number;
   total_ingested?: number;
-  [key: string]: unknown;
+}
+
+interface CensusData extends CensusSummary {
+  total_provisions?: number;
+  summary?: CensusSummary;
 }
 
 function daysSince(isoDate: string): number | null {
@@ -70,64 +74,94 @@ async function main(): Promise<void> {
 
   // --- 2. Database age check ---
   let updatesNeeded = false;
+  let checkError = false;
   const { default: Database } = await import('@ansvar/mcp-sqlite');
   const db = new Database(DB_PATH, { readonly: true });
 
-  let buildDate: string | null = null;
+  let builtAt: string | null = null;
   try {
-    const row = db.prepare("SELECT value FROM db_metadata WHERE key = 'build_date'").get() as { value: string } | undefined;
-    buildDate = row?.value ?? null;
+    const row = db.prepare("SELECT value FROM db_metadata WHERE key = 'built_at'").get() as { value: string } | undefined;
+    builtAt = row?.value ?? null;
   } catch {
-    // db_metadata table may not exist
+    checkError = true;
+    console.log('ERROR: db_metadata table is missing');
   }
 
-  if (buildDate) {
-    const age = daysSince(buildDate);
-    if (age !== null && age > MAX_DB_AGE_DAYS) {
+  if (builtAt) {
+    const age = daysSince(builtAt);
+    if (age === null) {
+      checkError = true;
+      console.log('ERROR: Database built_at metadata is invalid');
+    } else if (age > MAX_DB_AGE_DAYS) {
       console.log(`STALE: Database is ${age} days old (threshold: ${MAX_DB_AGE_DAYS} days)`);
       updatesNeeded = true;
-    } else if (age !== null) {
+    } else {
       console.log(`OK: Database is ${age} days old (threshold: ${MAX_DB_AGE_DAYS} days)`);
     }
   } else {
-    console.log('WARN: No build_date in db_metadata — cannot assess age');
+    checkError = true;
+    console.log('ERROR: No built_at in db_metadata — cannot assess age');
   }
 
-  // --- 3. Document count check ---
+  // --- 3. Document and provision count check ---
   let dbDocCount = 0;
   let dbProvCount = 0;
   try {
     const docRow = db.prepare("SELECT COUNT(*) as count FROM legal_documents").get() as { count: number };
-    dbDocCount = docRow.count;
+    dbDocCount = Number(docRow.count);
     console.log(`DB documents: ${dbDocCount}`);
   } catch {
-    console.log('WARN: Cannot count legal_documents');
+    checkError = true;
+    console.log('ERROR: Cannot count legal_documents');
   }
 
   try {
     const provRow = db.prepare("SELECT COUNT(*) as count FROM legal_provisions").get() as { count: number };
-    dbProvCount = provRow.count;
+    dbProvCount = Number(provRow.count);
     console.log(`DB provisions: ${dbProvCount}`);
   } catch {
-    console.log('WARN: Cannot count legal_provisions');
+    checkError = true;
+    console.log('ERROR: Cannot count legal_provisions');
+  }
+
+  if (dbDocCount < 1 || dbProvCount < 1) {
+    checkError = true;
+    console.log('ERROR: Database contains no legal data');
   }
 
   // Compare against census if available
   if (existsSync(CENSUS_PATH)) {
     try {
-      const census = JSON.parse(readFileSync(CENSUS_PATH, 'utf-8')) as { summary?: CensusSummary };
-      const expected = census.summary?.total_ingested ?? census.summary?.total_ingestable ?? census.summary?.total_laws;
-      if (expected && dbDocCount < expected) {
-        console.log(`MISSING: DB has ${dbDocCount} documents but census expects ${expected}`);
+      const census = JSON.parse(readFileSync(CENSUS_PATH, 'utf-8')) as CensusData;
+      const expectedDocuments = census.total_laws
+        ?? census.summary?.total_ingested
+        ?? census.summary?.total_ingestable
+        ?? census.summary?.total_laws;
+      const expectedProvisions = census.total_provisions;
+
+      if (expectedDocuments === undefined) {
+        checkError = true;
+        console.log('ERROR: census.json has no expected document count');
+      } else if (dbDocCount < expectedDocuments) {
+        console.log(`MISSING: DB has ${dbDocCount} documents but census expects ${expectedDocuments}`);
         updatesNeeded = true;
-      } else if (expected) {
-        console.log(`OK: DB documents (${dbDocCount}) >= census expected (${expected})`);
+      } else {
+        console.log(`OK: DB documents (${dbDocCount}) >= census expected (${expectedDocuments})`);
+      }
+
+      if (expectedProvisions !== undefined && dbProvCount < expectedProvisions) {
+        console.log(`MISSING: DB has ${dbProvCount} provisions but census expects ${expectedProvisions}`);
+        updatesNeeded = true;
+      } else if (expectedProvisions !== undefined) {
+        console.log(`OK: DB provisions (${dbProvCount}) >= census expected (${expectedProvisions})`);
       }
     } catch {
-      console.log('WARN: Could not parse census.json');
+      checkError = true;
+      console.log('ERROR: Could not parse census.json');
     }
   } else {
-    console.log('INFO: No census.json — skipping count comparison');
+    checkError = true;
+    console.log('ERROR: census.json is missing');
   }
 
   db.close();
@@ -139,12 +173,16 @@ async function main(): Promise<void> {
   if (portalOk) {
     console.log(`OK: ${PORTAL_NAME} is reachable`);
   } else {
-    console.log(`WARN: ${PORTAL_NAME} is unreachable — manual check recommended`);
+    checkError = true;
+    console.log(`ERROR: ${PORTAL_NAME} is unreachable`);
   }
 
   // --- Result ---
   console.log('');
-  if (updatesNeeded) {
+  if (checkError) {
+    console.log('RESULT: Freshness check failed');
+    process.exit(2);
+  } else if (updatesNeeded) {
     console.log('RESULT: Updates detected — re-ingestion recommended');
     process.exit(1);
   } else {

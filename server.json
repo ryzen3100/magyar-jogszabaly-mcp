@@ -17,15 +17,6 @@
       "transport": {
         "type": "stdio"
       }
-    },
-    {
-      "registryType": "npm",
-      "identifier": "@ansvar/hungarian-law-mcp",
-      "version": "1.0.0",
-      "transport": {
-        "type": "streamable-http",
-        "url": "https://law.49-13-169-95.nip.io/mcp"
-      }
     }
   ]
 }

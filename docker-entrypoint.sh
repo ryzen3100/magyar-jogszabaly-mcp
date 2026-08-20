@@ -4,41 +4,43 @@ set -eu
 DB_PATH="${HUNGARIAN_LAW_DB_PATH:-/data/database.db}"
 DB_DIR="$(dirname "$DB_PATH")"
 BOOTSTRAP_DB="/app/dist/data/database.db"
-INIT_MARKER="$DB_DIR/.initialized"
-
-is_true() {
-  case "$(printf '%s' "${1:-}" | tr '[:upper:]' '[:lower:]')" in
-    1|true|yes|y|on) return 0 ;;
-    *) return 1 ;;
-  esac
-}
-
-remove_db_files() {
-  rm -f "$DB_PATH" "$DB_PATH-wal" "$DB_PATH-shm"
-}
+BOOTSTRAP_CHECKSUM="${BOOTSTRAP_DB}.sha256"
+DB_CHECKSUM="${DB_PATH}.sha256"
 
 copy_bootstrap_db() {
-  if [ ! -f "$BOOTSTRAP_DB" ]; then
-    echo "Bootstrap database not found at $BOOTSTRAP_DB" >&2
+  if [ ! -s "$BOOTSTRAP_DB" ] || [ ! -s "$BOOTSTRAP_CHECKSUM" ]; then
+    echo "Bundled database or checksum is missing" >&2
     exit 1
   fi
 
-  echo "Initializing persistent database at $DB_PATH"
+  expected_checksum="$(awk '{print $1}' "$BOOTSTRAP_CHECKSUM")"
+  if [ -z "$expected_checksum" ]; then
+    echo "Bundled database checksum is empty" >&2
+    exit 1
+  fi
+
+  echo "Installing bundled database at $DB_PATH"
   mkdir -p "$DB_DIR"
-  cp "$BOOTSTRAP_DB" "$DB_PATH"
+  tmp_db="${DB_PATH}.tmp.$$"
+  tmp_checksum="${DB_CHECKSUM}.tmp.$$"
+  rm -f "$tmp_db" "$tmp_checksum" "$DB_PATH-wal" "$DB_PATH-shm"
+  cp "$BOOTSTRAP_DB" "$tmp_db"
+  mv -f "$tmp_db" "$DB_PATH"
+  printf '%s\n' "$expected_checksum" > "$tmp_checksum"
+  mv -f "$tmp_checksum" "$DB_CHECKSUM"
 }
 
-rebuild_db() {
-  if [ ! -d /app/dist/data/seed ]; then
-    echo "Seed files are not available at /app/dist/data/seed; cannot rebuild database." >&2
-    exit 1
-  fi
+database_is_current() {
+  [ -s "$DB_PATH" ] || return 1
+  [ -s "$BOOTSTRAP_CHECKSUM" ] || return 1
+  [ -s "$DB_CHECKSUM" ] || return 1
 
-  echo "Rebuilding database from bundled seed files"
-  remove_db_files
-  rm -f "$BOOTSTRAP_DB" "$BOOTSTRAP_DB-wal" "$BOOTSTRAP_DB-shm"
-  node /app/dist/scripts/build-db.js
-  cp "$BOOTSTRAP_DB" "$DB_PATH"
+  expected_checksum="$(awk '{print $1}' "$BOOTSTRAP_CHECKSUM")"
+  stored_checksum="$(awk '{print $1}' "$DB_CHECKSUM")"
+  actual_checksum="$(sha256sum "$DB_PATH" | awk '{print $1}')"
+
+  [ "$stored_checksum" = "$expected_checksum" ] \
+    && [ "$actual_checksum" = "$expected_checksum" ]
 }
 
 if [ "$(id -u)" = "0" ]; then
@@ -49,14 +51,9 @@ fi
 
 mkdir -p "$DB_DIR"
 
-if [ ! -f "$INIT_MARKER" ]; then
-  if is_true "${REBUILD_DB_ON_FIRST_RUN:-false}"; then
-    rebuild_db
-  elif [ ! -s "$DB_PATH" ]; then
-    copy_bootstrap_db
-  fi
-  touch "$INIT_MARKER"
-elif [ ! -s "$DB_PATH" ]; then
+if database_is_current; then
+  echo "Persistent database is current"
+else
   copy_bootstrap_db
 fi
 

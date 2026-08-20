@@ -55,7 +55,7 @@ const PORT = parseInt(process.env.PORT || '3000', 10);
 const pkg = JSON.parse(readFileSync(join(__dirname, '..', 'package.json'), 'utf-8'));
 const SERVER_NAME: string = pkg.name.replace(/^@ansvar\//, '');
 const SERVER_VERSION: string = pkg.version;
-const BASE_URL = process.env.BASE_URL || `https://law.49-13-169-95.nip.io`;
+const BASE_URL = process.env.BASE_URL || `http://localhost:${PORT}`;
 
 // ---------------------------------------------------------------------------
 // OAuth 2.1 — minimal open authorization for Claude Desktop custom connectors
@@ -273,8 +273,14 @@ async function main() {
       if (url.pathname === '/health' && (req.method === 'GET' || req.method === 'HEAD')) {
         let dbOk = false;
         try {
-          db.prepare('SELECT 1').get();
-          dbOk = true;
+          if (caps.has('core_legislation')) {
+            const counts = db.prepare(`
+              SELECT
+                (SELECT COUNT(*) FROM legal_documents) AS documents,
+                (SELECT COUNT(*) FROM legal_provisions) AS provisions
+            `).get() as { documents: number; provisions: number };
+            dbOk = Number(counts.documents) > 0 && Number(counts.provisions) > 0;
+          }
         } catch { /* DB not healthy */ }
 
         res.writeHead(dbOk ? 200 : 503, { 'Content-Type': 'application/json' });
@@ -510,7 +516,7 @@ async function main() {
             displayName: 'Hungarian Law MCP',
             description: 'Full-text search across 4,300+ Hungarian statutes and 130,000+ provisions. Covers the full corpus from Nemzeti Jogszabálytár (njt.hu) including Ptk., Infotv., Mt., Btk., and EU cross-references. Updated daily.',
             homepage: 'https://github.com/Ansvar-Systems/Hungarian-law-mcp',
-            icon: 'https://law.49-13-169-95.nip.io/icon.png',
+            icon: `${BASE_URL}/icon.png`,
             keywords: ['hungarian-law', 'legislation', 'legal', 'mcp', 'gdpr', 'data-protection', 'cybersecurity', 'compliance', 'ptk', 'infotv'],
             author: 'Ansvar Systems / AVIAN Care Kft.',
             license: 'Apache-2.0',

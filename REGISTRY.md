@@ -15,7 +15,7 @@
 - **License:** Apache-2.0
 - **Homepage:** https://ansvar.eu/open-law
 - **Repository:** https://github.com/Ansvar-Systems/Hungarian-law-mcp
-- **Endpoint:** https://law.49-13-169-95.nip.io/mcp
+- **Deployment:** Self-hosted Docker Compose service on the local network; no public endpoint
 
 ## Medium Description
 

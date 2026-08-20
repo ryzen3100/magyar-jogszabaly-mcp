@@ -14,41 +14,31 @@ Az [Ansvar Systems](https://ansvar.eu) Hungarian Law MCP szerverére épül — 
 
 ## Gyors Indulás
 
-### Távoli használat (telepítés nélkül)
+### Saját LAN használat Docker Compose-szal
 
-**Endpoint:** `https://law.49-13-169-95.nip.io/mcp`
+A szerver önálló, helyi hálózati használatra készült; nincs publikus endpoint és nem szükséges router port-továbbítás.
 
-| Kliens | Csatlakozás |
-|--------|-------------|
-| **Claude.ai** | Settings > Connectors > Add Integration > URL beillesztése |
-| **Claude Code** | `claude mcp add magyar-jogszabaly --transport http https://law.49-13-169-95.nip.io/mcp` |
-| **Claude Desktop** | Lásd a konfigurációt lent |
+Az OpenMediaVault gépen a projekt melletti `.env` fájlban felülírhatod a LAN kliensek által elérhető URL-t:
 
-**Claude Desktop** — add hozzá a `claude_desktop_config.json`-hoz:
-
-```json
-{
-  "mcpServers": {
-    "magyar-jogszabaly": {
-      "type": "url",
-      "url": "https://law.49-13-169-95.nip.io/mcp"
-    }
-  }
-}
+```dotenv
+BASE_URL=http://openmediavault.local:3000
 ```
 
-**Cursor / VS Code:**
+Ezután:
 
-```json
-{
-  "mcp.servers": {
-    "magyar-jogszabaly": {
-      "type": "http",
-      "url": "https://law.49-13-169-95.nip.io/mcp"
-    }
-  }
-}
+```bash
+docker compose pull
+docker compose up -d
+docker compose ps
 ```
+
+A LAN-on elérhető MCP végpont:
+
+```text
+http://openmediavault.local:3000/mcp
+```
+
+A Docker image tartalmazza az adatbázist. Új GHCR image használatához futtasd újra a `docker compose pull && docker compose up -d` parancsot; a meglévő adat-volume automatikusan frissül, ha az image adatbázisa megváltozott. A host tűzfalán a 3000-es portot csak a LAN-ról engedélyezd.
 
 ---
 

@@ -1,36 +1,40 @@
 FROM node:20-alpine AS builder
 WORKDIR /app
 
+RUN apk add --no-cache --virtual .native-build-deps python3 make g++
+
 COPY package*.json ./
-RUN npm ci --ignore-scripts
+RUN npm ci --ignore-scripts \
+    && npm rebuild better-sqlite3
 
 COPY tsconfig.json ./
 COPY src ./src
 COPY scripts ./scripts
+COPY data ./data
 RUN npm run build \
-    && test -f dist/src/http-server.js
+    && test -f dist/src/http-server.js \
+    && npm run build:db \
+    && node --input-type=module -e "import Database from 'better-sqlite3'; const db = new Database('data/database.db', { readonly: true }); const tables = new Set(db.prepare(\"SELECT name FROM sqlite_master WHERE type='table'\").all().map(row => row.name)); const required = ['legal_documents', 'legal_provisions', 'provisions_fts', 'db_metadata']; if (required.some(name => !tables.has(name))) throw new Error('Generated database is missing required tables'); const documents = Number(db.prepare('SELECT COUNT(*) AS count FROM legal_documents').get().count); const provisions = Number(db.prepare('SELECT COUNT(*) AS count FROM legal_provisions').get().count); if (documents < 1 || provisions < 1) throw new Error('Generated database contains no legal data'); console.log('Validated database: ' + documents + ' documents, ' + provisions + ' provisions'); db.close();" \
+    && sha256sum data/database.db | awk '{print $1}' > data/database.db.sha256
 
 FROM node:20-alpine AS production
 WORKDIR /app
 
 ENV NODE_ENV=production \
     PORT=3000 \
-    HUNGARIAN_LAW_DB_PATH=/data/database.db \
-    REBUILD_DB_ON_FIRST_RUN=false
+    HUNGARIAN_LAW_DB_PATH=/data/database.db
 
-RUN apk add --no-cache libstdc++ su-exec \
-    && apk add --no-cache --virtual .native-build-deps python3 make g++
+RUN apk add --no-cache libstdc++ su-exec
 
 COPY package*.json ./
 RUN npm ci --omit=dev --ignore-scripts \
-    && npm install --save-prod --package-lock=false better-sqlite3@12.6.2 \
-    && node -e "import('better-sqlite3').then(() => console.log('better-sqlite3 available'))" \
-    && npm cache clean --force \
-    && apk del .native-build-deps
+    && npm cache clean --force
 
 COPY --from=builder /app/dist ./dist
 COPY package.json ./dist/package.json
-COPY data ./dist/data
+COPY --from=builder /app/data/database.db ./dist/data/database.db
+COPY --from=builder /app/data/database.db.sha256 ./dist/data/database.db.sha256
+COPY icon.png ./dist/icon.png
 COPY docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
 
 RUN addgroup -S nodejs \

@@ -2,7 +2,7 @@ name: Daily Data Freshness Check
 
 on:
   schedule:
-    - cron: '0 5 * * 1'
+    - cron: '0 5 * * *'
   workflow_dispatch:
 
 permissions:
@@ -10,8 +10,12 @@ permissions:
   issues: write
 
 jobs:
-  check-updates:
+  check_updates:
     runs-on: ubuntu-latest
+    outputs:
+      updates_found: ${{ steps.check.outputs.updates_found }}
+      check_error: ${{ steps.check.outputs.check_error }}
+      status_code: ${{ steps.check.outputs.status_code }}
 
     steps:
       - uses: actions/checkout@v4
@@ -23,6 +27,9 @@ jobs:
 
       - name: Install dependencies
         run: npm ci --ignore-scripts
+
+      - name: Download current database artifact
+        run: bash scripts/download-db.sh
 
       - name: Build
         run: npm run build
@@ -37,8 +44,10 @@ jobs:
           echo "status_code=$STATUS" >> "$GITHUB_OUTPUT"
           if [ "$STATUS" -eq 1 ]; then
             echo "updates_found=true" >> "$GITHUB_OUTPUT"
+            echo "check_error=false" >> "$GITHUB_OUTPUT"
           elif [ "$STATUS" -eq 0 ]; then
             echo "updates_found=false" >> "$GITHUB_OUTPUT"
+            echo "check_error=false" >> "$GITHUB_OUTPUT"
           else
             echo "updates_found=false" >> "$GITHUB_OUTPUT"
             echo "check_error=true" >> "$GITHUB_OUTPUT"
@@ -54,18 +63,18 @@ jobs:
           retention-days: 14
 
   report:
-    needs: check-updates
+    needs: check_updates
     if: always()
     runs-on: ubuntu-latest
 
     steps:
       - name: Create or update issue when updates found
-        if: needs.check-updates.outputs.updates_found == 'true' || needs.check-updates.outputs.check_error == 'true'
+        if: needs.check_updates.result == 'success' && (needs.check_updates.outputs.updates_found == 'true' || needs.check_updates.outputs.check_error == 'true')
         uses: actions/github-script@v7
         with:
           script: |
-            const updatesFound = '${{ needs.check-updates.outputs.updates_found }}' === 'true';
-            const checkError = '${{ needs.check-updates.outputs.check_error }}' === 'true';
+            const updatesFound = '${{ needs.check_updates.outputs.updates_found }}' === 'true';
+            const checkError = '${{ needs.check_updates.outputs.check_error }}' === 'true';
 
             const title = checkError
               ? 'Data Freshness: Check errors detected'
@@ -78,7 +87,7 @@ jobs:
               `|--------|-------|`,
               `| Updates found | ${updatesFound} |`,
               `| Check errors | ${checkError} |`,
-              `| Exit code | ${{ needs.check-updates.outputs.status_code }} |`,
+              `| Exit code | ${{ needs.check_updates.outputs.status_code }} |`,
               '',
               '### Recommended actions',
               '1. Run `npm run check-updates` locally for details',
@@ -112,7 +121,7 @@ jobs:
             }
 
       - name: Close stale issues when clean
-        if: needs.check-updates.outputs.updates_found != 'true' && needs.check-updates.outputs.check_error != 'true'
+        if: needs.check_updates.result == 'success' && needs.check_updates.outputs.updates_found == 'false' && needs.check_updates.outputs.check_error == 'false'
         uses: actions/github-script@v7
         with:
           script: |
