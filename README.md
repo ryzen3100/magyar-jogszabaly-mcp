@@ -65,7 +65,7 @@ Csatlakozás után egyszerűen kérdezz természetes nyelven:
 | **Rendelkezések** | 130 220 | Teljes szöveges keresés FTS5-tel |
 | **EU kereszthivatkozások** | 109 | Irányelvek és rendeletek kapcsolva a magyar transzpozíciókhoz |
 | **Adatbázis méret** | 282 MB | Optimalizált SQLite |
-| **Frissítés** | Napi | Automatikus ellenőrzés az njt.hu-ról |
+| **Frissítés** | Napi frissesség-ellenőrzés | Új adatok új konténerképpel kerülnek kiadásra |
 
 **Kizárólag hitelesített adat** — minden hivatkozás az njt.hu és Magyar Közlöny hivatalos forrásaiból. Nulla LLM-generált tartalom.
 

@@ -484,7 +484,7 @@ async function main() {
           res.end(JSON.stringify({
             name: SERVER_NAME,
             version: SERVER_VERSION,
-            description: 'Full-text search across 4,300+ Hungarian statutes and 130,000+ provisions from Nemzeti Jogszabálytár (njt.hu). Updated daily.',
+            description: 'Full-text search across 4,300+ Hungarian statutes and 130,000+ provisions from Nemzeti Jogszabálytár (njt.hu). Database freshness is checked daily; new data is shipped with new container images.',
             protocol: 'mcp',
             transport: 'streamable-http',
           }));
@@ -519,7 +519,7 @@ async function main() {
             name: SERVER_NAME,
             version: SERVER_VERSION,
             displayName: 'Hungarian Law MCP',
-            description: 'Full-text search across 4,300+ Hungarian statutes and 130,000+ provisions. Covers the full corpus from Nemzeti Jogszabálytár (njt.hu) including Ptk., Infotv., Mt., Btk., and EU cross-references. Updated daily.',
+            description: 'Full-text search across 4,300+ Hungarian statutes and 130,000+ provisions. Covers the full corpus from Nemzeti Jogszabálytár (njt.hu) including Ptk., Infotv., Mt., Btk., and EU cross-references. Database freshness is checked daily; new data is shipped with new container images.',
             homepage: 'https://github.com/Ansvar-Systems/Hungarian-law-mcp',
             ...(BASE_URL ? { icon: `${BASE_URL}/icon.png` } : {}),
             keywords: ['hungarian-law', 'legislation', 'legal', 'mcp', 'gdpr', 'data-protection', 'cybersecurity', 'compliance', 'ptk', 'infotv'],
