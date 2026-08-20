@@ -16,12 +16,13 @@ Az [Ansvar Systems](https://ansvar.eu) Hungarian Law MCP szerverére épül — 
 
 ### Saját LAN használat Docker Compose-szal
 
-A szerver önálló, helyi hálózati használatra készült; nincs publikus endpoint és nem szükséges router port-továbbítás.
+A szerver önálló, helyi hálózati használatra készült; nincs publikus endpoint és nem szükséges router port-továbbítás. Alapértelmezés szerint az MCP végpont nem kér alkalmazásszintű hitelesítést; a hozzáférést az OpenMediaVault tűzfala korlátozza a LAN-ra.
 
-Az OpenMediaVault gépen a projekt melletti `.env` fájlban felülírhatod a LAN kliensek által elérhető URL-t:
+Ha egy MCP kliens OAuth-ot igényel, az OpenMediaVault gépen a projekt melletti `.env` fájlban engedélyezheted:
 
 ```dotenv
-BASE_URL=http://openmediavault.local:3000
+# OAUTH_ENABLED=true
+# BASE_URL=http://openmediavault.local:3000
 ```
 
 Ezután:

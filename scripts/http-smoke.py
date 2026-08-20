@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Minimal authenticated MCP HTTP smoke test for the container image."""
+"""Minimal MCP HTTP smoke test; OAuth is optional via --oauth."""
 
 from __future__ import annotations
 
@@ -52,55 +52,59 @@ def require_status(response, expected: int, label: str) -> None:
 
 def main() -> None:
     base = (sys.argv[1] if len(sys.argv) > 1 else os.environ.get("HTTP_SMOKE_URL", "http://127.0.0.1:3000")).rstrip("/")
-    redirect_uri = "http://127.0.0.1/callback"
-
-    registered = request(
-        base,
-        "/oauth/register",
-        method="POST",
-        data=json.dumps({"redirect_uris": [redirect_uri]}).encode(),
-        headers={"Content-Type": "application/json"},
-    )
-    require_status(registered, 200, "client registration")
-    client_id = json.loads(response_body(registered))["client_id"]
-
-    verifier = secrets.token_urlsafe(32)
-    challenge = base64.urlsafe_b64encode(hashlib.sha256(verifier.encode()).digest()).rstrip(b"=").decode()
-    query = urllib.parse.urlencode({
-        "client_id": client_id,
-        "redirect_uri": redirect_uri,
-        "response_type": "code",
-        "code_challenge": challenge,
-        "code_challenge_method": "S256",
-    })
-    authorized = request(base, "/oauth/authorize?" + query)
-    if authorized.status != 302:
-        raise RuntimeError(f"authorization failed with HTTP {authorized.status}: {response_body(authorized)}")
-    location = authorized.headers.get("Location")
-    if not location:
-        raise RuntimeError("authorization did not return a redirect location")
-    code = urllib.parse.parse_qs(urllib.parse.urlparse(location).query)["code"][0]
-
-    token = request(
-        base,
-        "/oauth/token",
-        method="POST",
-        data=urllib.parse.urlencode({
-            "grant_type": "authorization_code",
-            "code": code,
-            "code_verifier": verifier,
-            "client_id": client_id,
-        }).encode(),
-        headers={"Content-Type": "application/x-www-form-urlencoded"},
-    )
-    require_status(token, 200, "token exchange")
-    access_token = json.loads(response_body(token))["access_token"]
-
+    oauth = os.environ.get("HTTP_SMOKE_OAUTH", "").lower() == "true" or "--oauth" in sys.argv[2:]
     headers = {
-        "Authorization": f"Bearer {access_token}",
         "Content-Type": "application/json",
         "Accept": "application/json, text/event-stream",
     }
+
+    if oauth:
+        redirect_uri = "http://127.0.0.1/callback"
+        registered = request(
+            base,
+            "/oauth/register",
+            method="POST",
+            data=json.dumps({"redirect_uris": [redirect_uri]}).encode(),
+            headers={"Content-Type": "application/json"},
+        )
+        require_status(registered, 200, "client registration")
+        client_id = json.loads(response_body(registered))["client_id"]
+
+        verifier = secrets.token_urlsafe(32)
+        challenge = base64.urlsafe_b64encode(hashlib.sha256(verifier.encode()).digest()).rstrip(b"=").decode()
+        query = urllib.parse.urlencode({
+            "client_id": client_id,
+            "redirect_uri": redirect_uri,
+            "response_type": "code",
+            "code_challenge": challenge,
+            "code_challenge_method": "S256",
+        })
+        authorized = request(base, "/oauth/authorize?" + query)
+        if authorized.status != 302:
+            raise RuntimeError(f"authorization failed with HTTP {authorized.status}: {response_body(authorized)}")
+        location = authorized.headers.get("Location")
+        if not location:
+            raise RuntimeError("authorization did not return a redirect location")
+        code = urllib.parse.parse_qs(urllib.parse.urlparse(location).query)["code"][0]
+
+        token = request(
+            base,
+            "/oauth/token",
+            method="POST",
+            data=urllib.parse.urlencode({
+                "grant_type": "authorization_code",
+                "code": code,
+                "code_verifier": verifier,
+                "client_id": client_id,
+            }).encode(),
+            headers={"Content-Type": "application/x-www-form-urlencoded"},
+        )
+        require_status(token, 200, "token exchange")
+        access_token = json.loads(response_body(token))["access_token"]
+        headers["Authorization"] = f"Bearer {access_token}"
+    else:
+        metadata = request(base, "/.well-known/oauth-protected-resource")
+        require_status(metadata, 404, "disabled OAuth metadata")
     initialize = request(
         base,
         "/mcp",

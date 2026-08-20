@@ -55,10 +55,15 @@ const PORT = parseInt(process.env.PORT || '3000', 10);
 const pkg = JSON.parse(readFileSync(join(__dirname, '..', 'package.json'), 'utf-8'));
 const SERVER_NAME: string = pkg.name.replace(/^@ansvar\//, '');
 const SERVER_VERSION: string = pkg.version;
-const BASE_URL = process.env.BASE_URL || `http://localhost:${PORT}`;
+const OAUTH_ENABLED = process.env.OAUTH_ENABLED === 'true';
+const BASE_URL = OAUTH_ENABLED ? (process.env.BASE_URL || '') : '';
+
+if (OAUTH_ENABLED && !BASE_URL) {
+  throw new Error('BASE_URL is required when OAUTH_ENABLED=true');
+}
 
 // ---------------------------------------------------------------------------
-// OAuth 2.1 — minimal open authorization for Claude Desktop custom connectors
+// OAuth 2.1 — optional open authorization for Claude Desktop custom connectors
 // ---------------------------------------------------------------------------
 
 const oauthClients = new Map<string, { secret: string; redirectUris: string[] }>();
@@ -298,7 +303,7 @@ async function main() {
       // -----------------------------------------------------------------------
 
       // Protected Resource Metadata (RFC 9728)
-      if (url.pathname === '/.well-known/oauth-protected-resource' && (req.method === 'GET' || req.method === 'HEAD')) {
+      if (OAUTH_ENABLED && url.pathname === '/.well-known/oauth-protected-resource' && (req.method === 'GET' || req.method === 'HEAD')) {
         res.writeHead(200, { 'Content-Type': 'application/json' });
         res.end(JSON.stringify({
           resource: `${BASE_URL}/mcp`,
@@ -309,7 +314,7 @@ async function main() {
       }
 
       // Authorization Server Metadata (RFC 8414)
-      if (url.pathname === '/.well-known/oauth-authorization-server' && (req.method === 'GET' || req.method === 'HEAD')) {
+      if (OAUTH_ENABLED && url.pathname === '/.well-known/oauth-authorization-server' && (req.method === 'GET' || req.method === 'HEAD')) {
         res.writeHead(200, { 'Content-Type': 'application/json' });
         res.end(JSON.stringify({
           issuer: BASE_URL,
@@ -325,7 +330,7 @@ async function main() {
       }
 
       // Dynamic Client Registration (RFC 7591)
-      if (url.pathname === '/oauth/register' && req.method === 'POST') {
+      if (OAUTH_ENABLED && url.pathname === '/oauth/register' && req.method === 'POST') {
         const body = JSON.parse(await readBody(req));
         const clientId = randomUUID();
         const clientSecret = randomUUID();
@@ -346,7 +351,7 @@ async function main() {
       }
 
       // Authorization endpoint — auto-approve (public server)
-      if (url.pathname === '/oauth/authorize' && req.method === 'GET') {
+      if (OAUTH_ENABLED && url.pathname === '/oauth/authorize' && req.method === 'GET') {
         const clientId = url.searchParams.get('client_id') || '';
         const redirectUri = url.searchParams.get('redirect_uri') || '';
         const codeChallenge = url.searchParams.get('code_challenge') || '';
@@ -377,7 +382,7 @@ async function main() {
       }
 
       // Token endpoint
-      if (url.pathname === '/oauth/token' && req.method === 'POST') {
+      if (OAUTH_ENABLED && url.pathname === '/oauth/token' && req.method === 'POST') {
         const raw = await readBody(req);
         const params = new URLSearchParams(raw);
 
@@ -422,13 +427,13 @@ async function main() {
       }
 
       // -----------------------------------------------------------------------
-      // /mcp — MCP Streamable HTTP transport (Bearer token required)
+      // /mcp — MCP Streamable HTTP transport (optional Bearer token)
       // -----------------------------------------------------------------------
 
       // /mcp — MCP Streamable HTTP transport
       if (url.pathname === '/mcp') {
-        // Require Bearer token for POST (new session / tool calls)
-        if (req.method === 'POST' && !validateBearerToken(req)) {
+        // Require a Bearer token only when OAuth is enabled.
+        if (OAUTH_ENABLED && req.method === 'POST' && !validateBearerToken(req)) {
           res.writeHead(401, {
             'Content-Type': 'application/json',
             'WWW-Authenticate': `Bearer resource_metadata="${BASE_URL}/.well-known/oauth-protected-resource"`,
@@ -516,7 +521,7 @@ async function main() {
             displayName: 'Hungarian Law MCP',
             description: 'Full-text search across 4,300+ Hungarian statutes and 130,000+ provisions. Covers the full corpus from Nemzeti Jogszabálytár (njt.hu) including Ptk., Infotv., Mt., Btk., and EU cross-references. Updated daily.',
             homepage: 'https://github.com/Ansvar-Systems/Hungarian-law-mcp',
-            icon: `${BASE_URL}/icon.png`,
+            ...(BASE_URL ? { icon: `${BASE_URL}/icon.png` } : {}),
             keywords: ['hungarian-law', 'legislation', 'legal', 'mcp', 'gdpr', 'data-protection', 'cybersecurity', 'compliance', 'ptk', 'infotv'],
             author: 'Ansvar Systems / AVIAN Care Kft.',
             license: 'Apache-2.0',
