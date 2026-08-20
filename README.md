@@ -41,6 +41,32 @@ http://openmediavault.local:3000/mcp
 
 A Docker image tartalmazza az adatbázist. Új GHCR image használatához futtasd újra a `docker compose pull && docker compose up -d` parancsot; a meglévő adat-volume automatikusan frissül, ha az image adatbázisa megváltozott. A host tűzfalán a 3000-es portot csak a LAN-ról engedélyezd.
 
+### MCP kliens konfiguráció
+
+A Docker Compose-szal futó szerver az alábbi Streamable HTTP végponton érhető el.
+
+**Pi és más JSON-konfigurációt használó kliensek** — `~/.config/mcp/mcp.json`:
+
+```json
+{
+  "mcpServers": {
+    "magyar-jogszabaly": {
+      "url": "http://openmediavault.local:3000/mcp"
+    }
+  }
+}
+```
+
+Az `openmediavault.local` címet cseréld le arra a hostnévre vagy IP-címre, amelyről a kliens eléri a szervert.
+
+**Claude Code:**
+
+```bash
+claude mcp add --transport http --scope user magyar-jogszabaly http://openmediavault.local:3000/mcp
+```
+
+A `--scope user` a konfigurációt felhasználói szinten menti; elhagyható, ha csak az aktuális projekthez szeretnéd hozzáadni.
+
 ---
 
 ## Példa kérdések
