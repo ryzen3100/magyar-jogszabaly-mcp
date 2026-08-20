@@ -45,7 +45,6 @@
     "ingest:full": "node --import tsx scripts/ingest.ts --full --resume --page-size 50",
     "ingest:full:inforce": "node --import tsx scripts/ingest.ts --full --in-force-only --resume --page-size 50",
     "test:contract": "vitest run __tests__/contract/",
-    "drift:detect": "node --import tsx scripts/drift-detect.ts",
     "validate": "npm run lint && npm test && npm run test:contract",
     "lint": "tsc --noEmit",
     "prepublishOnly": "npm run build",
@@ -59,7 +58,6 @@
   "devDependencies": {
     "@types/better-sqlite3": "^7.6.13",
     "@types/node": "^22.20.1",
-    "@vercel/node": "^5.10.1",
     "@vitest/coverage-v8": "^3.2.7",
     "better-sqlite3": "^12.11.1",
     "tsx": "^4.23.12",

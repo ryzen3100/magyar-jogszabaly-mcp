@@ -7,9 +7,6 @@ Configure these secrets in the GitHub repository settings:
 | Secret | Purpose | Source |
 |--------|---------|--------|
 | `NPM_TOKEN` | npm publishing with provenance | npm.js account (Ansvar org) |
-| `VERCEL_TOKEN` | Vercel deployment | Vercel dashboard |
-| `VERCEL_ORG_ID` | Vercel organization | Vercel dashboard |
-| `VERCEL_PROJECT_ID` | Vercel project | Vercel dashboard |
 
 ## MCP Registry Publishing
 
