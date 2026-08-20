@@ -1,31 +1,31 @@
 # Magyar Jogszabály MCP Szerver
 
-**A Magyar Közlöny alternatívája az AI korszakban.**
+**A Magyar Közlöny alternatívája a mesterséges intelligencia korában.**
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-Kérdezd le **4 326 magyar jogszabályt** — a Ptk.-tól és Mt.-től a GDPR végrehajtási törvényig és a Btk.-ig — közvetlenül Claude-ból, Cursor-ból vagy bármely MCP-kompatibilis kliensből.
+Keresd meg **4 326 magyar jogszabály** rendelkezéseit — a Ptk.-tól és az Mt.-től a GDPR végrehajtási törvényéig és a Btk.-ig — közvetlenül a Claude-ban, a Cursorban vagy bármely MCP-kompatibilis kliensben.
 
-Ha jogi technológiát építesz, megfelelőségi eszközöket fejlesztesz, vagy magyar jogi kutatást végzel, ez a hitelesített referencia-adatbázisod.
+Ha jogtechnológiai megoldásokat fejlesztesz, megfelelőségi eszközöket készítesz vagy magyar jogi kutatást végzel, megbízható referencia-adatbázisként használhatod.
 
-Az [Ansvar Systems](https://ansvar.eu) Hungarian Law MCP szerverére épül — kiegészítve magyar citation parserrel, EU mapping-ekkel és KKV jogi skill rendszerrel.
+Az [Ansvar Systems](https://ansvar.eu) Hungarian Law MCP-szerverére épül, és magyar hivatkozás-feldolgozóval, uniós megfeleltetésekkel, valamint KKV-k számára készült jogi skillrendszerrel egészül ki.
 
 ---
 
-## Gyors Indulás
+## Gyors indulás
 
-### Saját LAN használat Docker Compose-szal
+### Futtatás saját LAN-on Docker Compose használatával
 
-A szerver önálló, helyi hálózati használatra készült; nincs publikus endpoint és nem szükséges router port-továbbítás. Alapértelmezés szerint az MCP végpont nem kér alkalmazásszintű hitelesítést; a hozzáférést az OpenMediaVault tűzfala korlátozza a LAN-ra.
+A szerver helyi hálózaton való futtatásra készült: nincs nyilvános végpont, és nincs szükség routeres porttovábbításra. Alapértelmezés szerint az MCP-végpont nem használ külön alkalmazásszintű hitelesítést; a hozzáférést az OpenMediaVault tűzfala korlátozza a helyi hálózatra.
 
-Ha egy MCP kliens OAuth-ot igényel, az OpenMediaVault gépen a projekt melletti `.env` fájlban engedélyezheted:
+Ha egy MCP-kliens OAuth-hitelesítést igényel, engedélyezd azt az OpenMediaVaultot futtató gépen, a projekt könyvtárában található `.env` fájlban:
 
 ```dotenv
 # OAUTH_ENABLED=true
 # BASE_URL=http://openmediavault.local:3000
 ```
 
-Ezután:
+Indítsd el a szolgáltatást:
 
 ```bash
 docker compose pull
@@ -33,19 +33,19 @@ docker compose up -d
 docker compose ps
 ```
 
-A LAN-on elérhető MCP végpont:
+A szolgáltatás MCP-végpontja a helyi hálózaton:
 
 ```text
 http://openmediavault.local:3000/mcp
 ```
 
-A Docker image tartalmazza az adatbázist. Új GHCR image használatához futtasd újra a `docker compose pull && docker compose up -d` parancsot; a meglévő adat-volume automatikusan frissül, ha az image adatbázisa megváltozott. A host tűzfalán a 3000-es portot csak a LAN-ról engedélyezd.
+A Docker-konténerkép az adatbázist is tartalmazza. Ha új GHCR-konténerképet szeretnél használni, futtasd újra a `docker compose pull && docker compose up -d` parancsot; a meglévő adatkötet automatikusan frissül, ha a konténerképben lévő adatbázis megváltozott. A hostgép tűzfalán a 3000-es portot csak a LAN felől engedélyezd.
 
-### MCP kliens konfiguráció
+### MCP-kliensek konfigurálása
 
-A Docker Compose-szal futó szerver az alábbi Streamable HTTP végponton érhető el.
+A Docker Compose használatával futó szerverhez az alábbi Streamable HTTP-végponton csatlakozhatsz.
 
-**Pi és más JSON-konfigurációt használó kliensek** — `~/.config/mcp/mcp.json`:
+**Pi és más JSON-alapú konfigurációt használó kliensek** — `~/.config/mcp/mcp.json`:
 
 ```json
 {
@@ -57,7 +57,7 @@ A Docker Compose-szal futó szerver az alábbi Streamable HTTP végponton érhet
 }
 ```
 
-Az `openmediavault.local` címet cseréld le arra a hostnévre vagy IP-címre, amelyről a kliens eléri a szervert.
+Az `openmediavault.local` helyére a szervert futtató gép hostnevét vagy IP-címét írd.
 
 **Claude Code:**
 
@@ -65,13 +65,13 @@ Az `openmediavault.local` címet cseréld le arra a hostnévre vagy IP-címre, a
 claude mcp add --transport http --scope user magyar-jogszabaly http://openmediavault.local:3000/mcp
 ```
 
-A `--scope user` a konfigurációt felhasználói szinten menti; elhagyható, ha csak az aktuális projekthez szeretnéd hozzáadni.
+A `--scope user` a beállítást felhasználói szinten menti; hagyd el, ha csak az aktuális projekthez szeretnéd hozzáadni.
 
 ---
 
-## Példa kérdések
+## Példakérdések
 
-Csatlakozás után egyszerűen kérdezz természetes nyelven:
+A csatlakozás után természetes nyelven is felteheted a kérdéseidet:
 
 - *"Keresés 'adatvédelem' — milyen kötelezettségeket állapít meg a GDPR végrehajtási törvény?"*
 - *"Hatályban van-e a Büntető Törvénykönyv 370. §-a?"*
@@ -83,75 +83,75 @@ Csatlakozás után egyszerűen kérdezz természetes nyelven:
 
 ---
 
-## Mit tartalmaz
+## Az adatbázis tartalma
 
-| Kategória | Szám | Részletek |
+| Kategória | Darabszám | Részletek |
 |-----------|------|-----------|
-| **Jogszabályok** | 4 326 | Teljes magyar joganyag az njt.hu-ról |
-| **Rendelkezések** | 130 220 | Teljes szöveges keresés FTS5-tel |
-| **EU kereszthivatkozások** | 109 | Irányelvek és rendeletek kapcsolva a magyar transzpozíciókhoz |
-| **Adatbázis méret** | 282 MB | Optimalizált SQLite |
-| **Frissítés** | Napi frissesség-ellenőrzés | Új adatok új konténerképpel kerülnek kiadásra |
+| **Jogszabályok** | 4 326 | Az njt.hu-ról származó teljes magyar joganyag |
+| **Rendelkezések** | 130 220 | FTS5-alapú teljes szövegű keresés |
+| **Uniós kereszthivatkozások** | 109 | Irányelvek és rendeletek magyar jogszabályokhoz kapcsolva |
+| **Adatbázis mérete** | 282 MB | Optimalizált SQLite-adatbázis |
+| **Frissítés** | Napi ellenőrzés | Az új adatok új konténerképpel jelennek meg |
 
-**Kizárólag hitelesített adat** — minden hivatkozás az njt.hu és Magyar Közlöny hivatalos forrásaiból. Nulla LLM-generált tartalom.
+**Csak ellenőrzött adatok** — a hivatkozások mind az njt.hu és a Magyar Közlöny hivatalos forrásaira mutatnak. A jogszabályszövegeket nem LLM generálja.
 
 ---
 
 ## Elérhető eszközök (13)
 
-### Alap jogi kutatási eszközök (8)
+### Alapvető jogi kutatási eszközök (8)
 
 | Eszköz | Leírás |
 |--------|--------|
-| `search_legislation` | FTS5 teljes szöveges keresés 130 220 rendelkezésben BM25 rangsorolással |
-| `get_provision` | Konkrét rendelkezés lekérése jogszabály azonosító + szakaszszám alapján |
-| `validate_citation` | Hivatkozás validálása az adatbázisban — magyar formátum támogatás (`"2012. évi I. törvény 116. §"`) |
-| `build_legal_stance` | Hivatkozások aggregálása több jogszabályból egy jogi témához |
-| `format_citation` | Hivatkozások formázása magyar konvenciók szerint (teljes/rövid/pinpoint) |
-| `check_currency` | Jogszabály hatályosságának ellenőrzése (hatályos/módosított/hatályon kívül) |
-| `list_sources` | Elérhető jogszabályok listája metaadatokkal |
-| `about` | Szerver információk, adatbázis statisztikák |
+| `search_legislation` | FTS5-alapú teljes szövegű keresés 130 220 rendelkezésben, BM25 szerinti rangsorolással |
+| `get_provision` | Konkrét rendelkezés lekérése a jogszabály azonosítója és a szakaszszám alapján |
+| `validate_citation` | Hivatkozás ellenőrzése az adatbázisban; a magyar formátumokat is támogatja (`"2012. évi I. törvény 116. §"`) |
+| `build_legal_stance` | Több jogszabály hivatkozásainak összesítése egy jogi témához |
+| `format_citation` | Hivatkozások formázása a magyar jogi gyakorlat szerint (teljes, rövid és pinpoint hivatkozás) |
+| `check_currency` | A jogszabály hatályának ellenőrzése (hatályos, módosított vagy hatályon kívül helyezett) |
+| `list_sources` | Az elérhető jogszabályok listázása metaadatokkal |
+| `about` | Szerverinformációk és adatbázis-statisztikák |
 
-### EU jog integrációs eszközök (5)
+### Uniós jogi eszközök (5)
 
 | Eszköz | Leírás |
 |--------|--------|
-| `get_eu_basis` | EU irányelvek/rendeletek lekérése, amelyek egy magyar jogszabály alapját képezik |
-| `get_hungarian_implementations` | Magyar jogszabályok keresése, amelyek egy adott EU aktust implementálnak |
-| `search_eu_implementations` | EU dokumentumok keresése magyar implementációs számokkal |
-| `get_provision_eu_basis` | EU jogi hivatkozások egy konkrét rendelkezéshez |
-| `validate_eu_compliance` | Magyar jogszabályok EU irányelveknek való megfelelőségének ellenőrzése |
+| `get_eu_basis` | Az adott magyar jogszabály alapjául szolgáló uniós irányelvek és rendeletek lekérése |
+| `get_hungarian_implementations` | Egy adott uniós jogi aktushoz kapcsolódó magyar végrehajtási jogszabályok keresése |
+| `search_eu_implementations` | Uniós dokumentumok keresése a magyar átültetési vagy végrehajtási számuk alapján |
+| `get_provision_eu_basis` | Egy konkrét rendelkezéshez kapcsolódó uniós jogi hivatkozások lekérése |
+| `validate_eu_compliance` | A magyar jogszabályok uniós irányelvekkel való megfelelőségének ellenőrzése |
 
 ---
 
-## KKV Jogi Skill Könyvtár
+## KKV-k jogi skillkönyvtára
 
-Ez az MCP szerver a **[KKV Jogi Csapat](https://github.com/gergototh1/kkv-jogi-csapat)** skill rendszerrel együtt használható — 11 Claude Code skill, amely a magyar KKV-k leggyakoribb jogi kérdéseire ad választ.
+Ez az MCP-szerver együtt használható a **[KKV Jogi Csapat](https://github.com/gergototh1/kkv-jogi-csapat)** skillrendszerével. A 11 Claude Code-skill a magyar KKV-k leggyakoribb jogi kérdéseire ad gyakorlati iránymutatást.
 
 ### Hogyan működik
 
 ```
 Felhasználó kérdése
-  → kkv-jogi-router (routing 10 szakterületre)
-    → Specializált skill (pl. kkv-munkajog)
-      → MCP tool hívások (get_provision, check_currency, validate_citation)
+  → kkv-jogi-router (a kérdés besorolása 10 szakterület egyikébe)
+    → Szakterületi skill (pl. kkv-munkajog)
+      → MCP-eszközök hívása (get_provision, check_currency, validate_citation)
         → Pontos jogszabályszöveg az adatbázisból
-          → Strukturált válasz (kockázatszint + teendők + disclaimer)
+          → Strukturált válasz (kockázati szint, teendők és jogi nyilatkozat)
 ```
 
 ### Elérhető skillek
 
 | Skill | Terület |
 |-------|---------|
-| **kkv-jogi-router** | Orchestrátor — automatikus routing a megfelelő skill-hez |
-| **kkv-munkajog** | Munkaszerződés, felmondás, szabadság, túlóra, home office (Mt.) |
-| **kkv-ado** | ÁFA, TAO, KIVA, KATA, számlázás, adóellenőrzés (Art. + ÁFA tv.) |
-| **kkv-gdpr** | Adatkezelési tájékoztató, DPIA, incidens, cookie (Infotv. + GDPR) |
-| **kkv-szerzodes** | ÁSZF audit, szavatosság, NDA, freelancer szerződés (Ptk.) |
-| **kkv-cegjog** | Kft./Bt. alapítás, taggyűlés, törzstőke, EV→Kft. átmenet (Ctv.) |
-| **kkv-fogyasztovedelmi** | Webshop, elállási jog, jótállás, marketplace (Fgytv.) |
-| **kkv-koveteleskezeles** | Fizetési meghagyás, végrehajtás, késedelmi kamat (Fmhtv. + Vht.) |
-| **kkv-szellemi-tulajdon** | Védjegy, szerzői jog, szoftver IP, domain viták (Szjt. + Vt.) |
+| **kkv-jogi-router** | Orchestrator — a kérdést automatikusan a megfelelő skillhez irányítja |
+| **kkv-munkajog** | Munkaszerződés, felmondás, szabadság, túlóra és home office (Mt.) |
+| **kkv-ado** | ÁFA, TAO, KIVA, KATA, számlázás és adóellenőrzés (Art. + ÁFA tv.) |
+| **kkv-gdpr** | Adatkezelési tájékoztató, DPIA, adatvédelmi incidens és cookie-k (Infotv. + GDPR) |
+| **kkv-szerzodes** | ÁSZF-ek ellenőrzése, kellékszavatosság, NDA-k és szabadúszói szerződések (Ptk.) |
+| **kkv-cegjog** | Kft./Bt. alapítása, taggyűlés, törzstőke és EV→Kft. átmenet (Ctv.) |
+| **kkv-fogyasztovedelmi** | Webshop, elállási jog, jótállás és online piacterek (Fgytv.) |
+| **kkv-koveteleskezeles** | Fizetési meghagyásos eljárás, végrehajtás és késedelmi kamat (Fmhtv. + Vht.) |
+| **kkv-szellemi-tulajdon** | Védjegy, szerzői jog, szoftverek szellemi tulajdona és domainviták (Szjt. + Vt.) |
 | **kkv-ingatlan** | Székhelyszolgáltatás, bérleti szerződés, telephely (Ptk. + Ctv.) |
 | **kkv-engedelyek** | Működési engedély, vendéglátás, NTAK, HACCP (Kertv.) |
 
@@ -159,31 +159,31 @@ Felhasználó kérdése
 
 ---
 
-## Adatforrások és Frissesség
+## Adatforrások és az adatok frissessége
 
-Minden tartalom hiteles magyar jogi adatbázisokból származik:
+A tartalom hiteles magyar jogi forrásokból származik:
 
-- **[njt.hu](https://njt.hu/)** — Nemzeti Jogszabálytár, a hivatalos konszolidált magyar jogi adatbázis
-- **[Magyar Közlöny](https://magyarkozlony.hu/)** — Hivatalos Közlöny (elsődleges jogalkotási kiadvány)
-- **[EUR-Lex](https://eur-lex.europa.eu/)** — Az EU hivatalos jogi adatbázisa (csak metaadatok)
+- **[njt.hu](https://njt.hu/)** — Nemzeti Jogszabálytár, a hivatalos, konszolidált magyar jogszabály-adatbázis
+- **[Magyar Közlöny](https://magyarkozlony.hu/)** — a jogszabályok hivatalos kihirdetésének forrása
+- **[EUR-Lex](https://eur-lex.europa.eu/)** — az Európai Unió hivatalos jogi adatbázisa (csak metaadatok)
 
 ---
 
-## Fontos Jogi Nyilatkozatok
+## Fontos jogi nyilatkozatok
 
 ### Jogi tanácsadás
 
-> **EZ AZ ESZKÖZ NEM MINŐSÜL JOGI TANÁCSADÁSNAK**
+> **EZ AZ ESZKÖZ NEM NYÚJT JOGI TANÁCSADÁST**
 >
-> A jogszabályszövegek az njt.hu / Magyar Közlöny hivatalos kiadványaiból származnak. Mindazonáltal:
-> - Ez egy **kutatási eszköz**, nem helyettesíti a szakszerű jogi tanácsadást
-> - **Kritikus hivatkozásokat ellenőrizd** az elsődleges forrásokon bírósági beadványokhoz
-> - **EU kereszthivatkozások** a magyar jogszabályszövegből vannak kinyerve, nem az EUR-Lex teljes szövegéből
-> - **Mindig erősítsd meg** a hatályos állapotot az njt.hu-n, mielőtt szakmai célra hivatkoznál
+> A jogszabályszövegek az njt.hu és a Magyar Közlöny hivatalos kiadványaiból származnak. Ennek ellenére:
+> - Ez **kutatási eszköz**; nem helyettesíti a szakszerű jogi tanácsadást.
+> - **A bírósági beadványokban használt kritikus hivatkozásokat ellenőrizd** az elsődleges forrásokban.
+> - **Az uniós kereszthivatkozások** a magyar jogszabályszövegből származnak, és nem az EUR-Lex teljes szövegéből.
+> - **Szakmai célú hivatkozás előtt mindig ellenőrizd** a jogszabály hatályosságát az njt.hu-n.
 
 ### Titoktartás
 
-A lekérdezések az MCP protokollon keresztül mennek. Bizalmas vagy ügyvédi titoktartás alá eső ügyeknél használj helyi telepítést.
+A lekérdezések az MCP-protokollon keresztül jutnak el a szerverhez. Bizalmas vagy ügyvédi titkot érintő ügyekben helyi telepítést használj.
 
 ---
 
@@ -198,15 +198,15 @@ npm install
 npm run build
 ```
 
-### Adatbázis kezelés
+### Adatbázis-kezelés
 
 ```bash
-npm run build:db            # SQLite adatbázis újraépítése
+npm run build:db            # SQLite-adatbázis újraépítése
 ```
 
-### Biztonságos manuális adatbázis-frissítés (Recommended safer manual update process)
+### Az adatbázis biztonságos kézi frissítése
 
-Az adatbázis futás közben nem tölt le új adatot az njt.hu-ról. Frissítést külön Git-ágon végezz, hogy a letöltött és feldolgozott adatok átnézhetők legyenek:
+A szolgáltatás futás közben nem tölt le új adatokat az njt.hu-ról. A frissítést külön Git-ágon végezd, hogy a letöltött és feldolgozott adatokat át tudd tekinteni:
 
 ```bash
 git switch -c data/update-YYYY-MM-DD
@@ -220,14 +220,14 @@ npm run test:contract
 npm run check-updates
 ```
 
-Az `ingest` a hivatalos `njt.hu` oldalról frissíti a seed fájlokat. A `data/census.json` és a `sources.yml` fájlokat nem frissíti automatikusan; ellenőrizd és módosítsd őket kézzel a frissítés eredménye alapján:
+Az `ingest` szkript a hivatalos `njt.hu` oldalról frissíti a seed-fájlokat. A `data/census.json` és a `sources.yml` fájlokat nem módosítja automatikusan; a frissítés eredménye alapján nézd át, és szükség esetén kézzel módosítsd őket:
 
 ```bash
 git status --short
 git diff -- data/seed data/census.json sources.yml
 ```
 
-A `data/database.db` nem kerül Git-be; a Docker image buildje a seed fájlokból újraépíti. Ha a változások helyesek:
+A `data/database.db` nem kerül be a Gitbe; a Docker-konténerkép a seed-fájlokból építi fel az adatbázist. Ha a változások rendben vannak:
 
 ```bash
 git add data/seed data/census.json sources.yml
@@ -235,7 +235,7 @@ git commit -m "Update Hungarian legal database"
 git push -u origin HEAD
 ```
 
-A GHCR image sikeres buildje és smoke tesztje után az OpenMediaVault gépen telepítsd az új image-et:
+A GHCR-konténerkép sikeres elkészítése és a smoke teszt lefutása után az OpenMediaVaultot futtató gépen frissítsd a szolgáltatást:
 
 ```bash
 docker compose pull
@@ -243,34 +243,34 @@ docker compose up -d
 docker compose ps
 ```
 
-A `npm run check-updates` csak a helyi adatbázis korát, rekordszámait és az njt.hu elérhetőségét ellenőrzi; nem helyettesíti a teljes NJT-tartalom újra-ingesztálását. Az ingestiont ne a production konténer shelljéből és ne MCP eszközön keresztül futtasd.
+Az `npm run check-updates` csak a helyi adatbázis korát, rekordszámát és az `njt.hu` elérhetőségét ellenőrzi; nem helyettesíti a teljes NJT-adatállomány újbóli betöltését. Az adatbetöltést ne az éles konténer shelljéből és ne MCP-eszközön keresztül futtasd.
 
 ---
 
-## Saját javítások az alap Ansvar szerveren
+## Az Ansvar-fork módosításai
 
-Ez a fork az [Ansvar Systems Hungarian Law MCP](https://github.com/Ansvar-Systems/Hungarian-law-mcp) szerverre épül, a következő kiegészítésekkel:
+Ez a fork az [Ansvar Systems Hungarian Law MCP](https://github.com/Ansvar-Systems/Hungarian-law-mcp) szerverre épül, és a következő módosításokat tartalmazza:
 
-- **Magyar citation parser** — `validate_citation("2012. évi I. törvény 116. §")` felismerés
-- **Ptk. kettőspontos section** — `6:272. §` formátum kezelése
-- **Magyar normalized output** — `"doc.title NNN. §"` formátum
-- **EU mapping seed** — 14 irányelv/rendelet (GDPR, Consumer Rights, ePrivacy, VAT, stb.)
-- **format_citation DB lookup** — teljes cím feloldás az adatbázisból
-- **KKV jogi skill könyvtár** — 11 skill magyar KKV-knak
-
----
-
-## Licensz
-
-Apache License 2.0. Lásd [LICENSE](./LICENSE).
-
-### Adat licenszek
-
-- **Jogszabályok:** Magyar Kormány / njt.hu (közkincs)
-- **EU metaadatok:** EUR-Lex (EU közkincs)
+- **Magyar hivatkozás-feldolgozó** — a `validate_citation("2012. évi I. törvény 116. §")` formátum felismerése
+- **Ptk.-s, kettőspontos szakaszjelölés** — a `6:272. §` formátum kezelése
+- **Magyar nyelvű, normalizált kimenet** — `"doc.title NNN. §"` formátum
+- **Uniós megfeleltetési adatok** — 14 irányelv és rendelet (GDPR, Consumer Rights, ePrivacy, VAT stb.)
+- **Adatbázis-lekérdezés a `format_citation` eszközben** — a teljes cím feloldása az adatbázisból
+- **KKV-k jogi skillkönyvtára** — 11 KKV-jogi skill magyar kis- és középvállalkozások számára
 
 ---
 
-## Eredeti projekt
+## Licenc
 
-Ez a projekt az [Ansvar Systems](https://ansvar.eu) (Stockholm, Svédország) Hungarian Law MCP szerverének fork-ja.
+Apache License 2.0. A részleteket lásd a [LICENSE](./LICENSE) fájlban.
+
+### Adatlicencek
+
+- **Jogszabályok:** Magyarország Kormánya / njt.hu (közkincs)
+- **Uniós metaadatok:** EUR-Lex (EU-s közkincs)
+
+---
+
+## Az eredeti projekt
+
+Ez a projekt az [Ansvar Systems](https://ansvar.eu) (Stockholm, Svédország) Hungarian Law MCP-szerverének forkja.
