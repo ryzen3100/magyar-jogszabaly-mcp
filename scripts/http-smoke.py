@@ -52,7 +52,7 @@ def require_status(response, expected: int, label: str) -> None:
 
 def main() -> None:
     base = (sys.argv[1] if len(sys.argv) > 1 else os.environ.get("HTTP_SMOKE_URL", "http://127.0.0.1:3000")).rstrip("/")
-    oauth = os.environ.get("HTTP_SMOKE_OAUTH", "").lower() == "true" or "--oauth" in sys.argv[2:]
+    oauth = "--oauth" in sys.argv[2:]
     headers = {
         "Content-Type": "application/json",
         "Accept": "application/json, text/event-stream",
