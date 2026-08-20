@@ -178,6 +178,47 @@ npm run build
 npm run build:db            # SQLite adatbázis újraépítése
 ```
 
+### Biztonságos manuális adatbázis-frissítés (Recommended safer manual update process)
+
+Az adatbázis futás közben nem tölt le új adatot az njt.hu-ról. Frissítést külön Git-ágon végezz, hogy a letöltött és feldolgozott adatok átnézhetők legyenek:
+
+```bash
+git switch -c data/update-YYYY-MM-DD
+npm ci
+npm run ingest -- --full --refresh-discovery
+npm run build:db
+
+npm run lint
+npm test
+npm run test:contract
+npm run check-updates
+```
+
+Az `ingest` a hivatalos `njt.hu` oldalról frissíti a seed fájlokat. A `data/census.json` és a `sources.yml` fájlokat nem frissíti automatikusan; ellenőrizd és módosítsd őket kézzel a frissítés eredménye alapján:
+
+```bash
+git status --short
+git diff -- data/seed data/census.json sources.yml
+```
+
+A `data/database.db` nem kerül Git-be; a Docker image buildje a seed fájlokból újraépíti. Ha a változások helyesek:
+
+```bash
+git add data/seed data/census.json sources.yml
+git commit -m "Update Hungarian legal database"
+git push -u origin HEAD
+```
+
+A GHCR image sikeres buildje és smoke tesztje után az OpenMediaVault gépen telepítsd az új image-et:
+
+```bash
+docker compose pull
+docker compose up -d
+docker compose ps
+```
+
+A `npm run check-updates` csak a helyi adatbázis korát, rekordszámait és az njt.hu elérhetőségét ellenőrzi; nem helyettesíti a teljes NJT-tartalom újra-ingesztálását. Az ingestiont ne a production konténer shelljéből és ne MCP eszközön keresztül futtasd.
+
 ---
 
 ## Saját javítások az alap Ansvar szerveren
