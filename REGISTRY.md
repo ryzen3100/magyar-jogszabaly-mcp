@@ -14,7 +14,7 @@
 - **Tags:** law, legislation, hungarian, legal-research, compliance, mcp, open-law
 - **License:** Apache-2.0
 - **Homepage:** https://ansvar.eu/open-law
-- **Repository:** https://github.com/Ansvar-Systems/Hungarian-law-mcp
+- **Repository:** https://github.com/ryzen3100/magyar-jogszabaly-mcp
 - **Deployment:** Self-hosted Docker Compose service on the local network; no public endpoint
 
 ## Medium Description
