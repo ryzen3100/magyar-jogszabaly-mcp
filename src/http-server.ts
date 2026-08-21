@@ -21,7 +21,7 @@ import {
 } from '@modelcontextprotocol/sdk/types.js';
 import { createServer as createHttpServer, IncomingMessage, ServerResponse } from 'node:http';
 import { randomUUID } from 'crypto';
-import { readFileSync } from 'fs';
+import { existsSync, readFileSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 import Database from '@ansvar/mcp-sqlite';
@@ -267,7 +267,10 @@ async function main() {
       // GET /icon.png — server icon
       if (url.pathname === '/icon.png' && (req.method === 'GET' || req.method === 'HEAD')) {
         try {
-          const iconPath = join(__dirname, '..', 'icon.png');
+          // dist/icon.png (packaged/Docker layout) with repo-root fallback for plain local runs
+          const iconPath = existsSync(join(__dirname, '..', 'icon.png'))
+            ? join(__dirname, '..', 'icon.png')
+            : join(__dirname, '..', '..', 'icon.png');
           const iconData = readFileSync(iconPath);
           res.writeHead(200, { 'Content-Type': 'image/png', 'Cache-Control': 'public, max-age=86400', 'Content-Length': iconData.length.toString() });
           if (req.method !== 'HEAD') res.end(iconData);
