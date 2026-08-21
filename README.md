@@ -185,7 +185,7 @@ A lekérdezések az MCP-protokollon keresztül jutnak el a szerverhez. Bizalmas 
 ### Telepítés
 
 ```bash
-git clone https://github.com/gergototh1/magyar-jogszabaly-mcp
+git clone https://github.com/ryzen3100/magyar-jogszabaly-mcp
 cd magyar-jogszabaly-mcp
 npm install
 npm run build
