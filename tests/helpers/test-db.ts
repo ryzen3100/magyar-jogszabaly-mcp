@@ -1,10 +1,24 @@
 import Database from '@ansvar/mcp-sqlite';
+import * as fs from 'fs';
 
 export interface TestDbOptions {
   withEuTables?: boolean;
   withDefinitionsTable?: boolean;
   withMetadataTable?: boolean;
-  withFtsTable?: boolean;
+}
+
+/**
+ * True when dbPath exists and is a usable law database (has legal_documents).
+ * Shared guard so DB-backed tests skip cleanly on machines without a built DB.
+ */
+export function realDbExists(dbPath: string): boolean {
+  if (!fs.existsSync(dbPath)) return false;
+  try {
+    const _db = new Database(dbPath, { readonly: true });
+    const _row = _db.prepare("SELECT COUNT(*) as cnt FROM sqlite_master WHERE type='table' AND name='legal_documents'").get() as { cnt: number } | undefined;
+    _db.close();
+    return (_row?.cnt ?? 0) > 0;
+  } catch { return false; }
 }
 
 export function createTestDb(options: TestDbOptions = {}): InstanceType<typeof Database> {
@@ -12,7 +26,6 @@ export function createTestDb(options: TestDbOptions = {}): InstanceType<typeof D
     withEuTables = true,
     withDefinitionsTable = true,
     withMetadataTable = true,
-    withFtsTable = true,
   } = options;
 
   const db = new Database(':memory:');
@@ -43,9 +56,7 @@ export function createTestDb(options: TestDbOptions = {}): InstanceType<typeof D
     );
   `);
 
-  if (withFtsTable) {
-    db.exec('CREATE VIRTUAL TABLE provisions_fts USING fts5(content, title);');
-  }
+  db.exec('CREATE VIRTUAL TABLE provisions_fts USING fts5(content, title);');
 
   if (withDefinitionsTable) {
     db.exec(`
@@ -91,7 +102,7 @@ export function createTestDb(options: TestDbOptions = {}): InstanceType<typeof D
     db.exec('CREATE TABLE db_metadata (key TEXT PRIMARY KEY, value TEXT NOT NULL);');
   }
 
-  seedCoreFixtures(db, { withFtsTable, withDefinitionsTable, withEuTables, withMetadataTable });
+  seedCoreFixtures(db, { withDefinitionsTable, withEuTables, withMetadataTable });
   return db;
 }
 
@@ -188,12 +199,10 @@ function seedCoreFixtures(
     null
   ).lastInsertRowid as number;
 
-  if (options.withFtsTable) {
-    const ftsStmt = db.prepare('INSERT INTO provisions_fts(rowid, content, title) VALUES (?, ?, ?)');
-    ftsStmt.run(p1, 'A személyes adat kezelése és elektronikus aláírás szabályai.', '1. §');
-    ftsStmt.run(p2, 'Kiberbiztonsági intézkedések és információs rendszer védelem.', '2. §');
-    ftsStmt.run(p3, 'Üzleti titok és létfontosságú infrastruktúra védelme.', '3. §');
-  }
+  const ftsStmt = db.prepare('INSERT INTO provisions_fts(rowid, content, title) VALUES (?, ?, ?)');
+  ftsStmt.run(p1, 'A személyes adat kezelése és elektronikus aláírás szabályai.', '1. §');
+  ftsStmt.run(p2, 'Kiberbiztonsági intézkedések és információs rendszer védelem.', '2. §');
+  ftsStmt.run(p3, 'Üzleti titok és létfontosságú infrastruktúra védelme.', '3. §');
 
   if (options.withDefinitionsTable) {
     db.prepare(`

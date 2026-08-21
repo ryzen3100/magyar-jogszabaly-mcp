@@ -44,7 +44,7 @@
     "ingest:discover": "node --import tsx scripts/ingest.ts --full --discover-only",
     "ingest:full": "node --import tsx scripts/ingest.ts --full --resume",
     "ingest:full:inforce": "node --import tsx scripts/ingest.ts --full --in-force-only --resume",
-    "test:contract": "vitest run __tests__/contract/",
+    "test:contract": "vitest run tests/contract/",
     "validate": "npm run lint && npm test && npm run test:contract",
     "lint": "tsc --noEmit",
     "prepublishOnly": "npm run build",
@@ -68,8 +68,6 @@
     "access": "public"
   },
   "overrides": {
-    "path-to-regexp": "^8.0.0",
-    "undici": "^7.0.0",
     "ajv": "^8.18.0"
   }
 }

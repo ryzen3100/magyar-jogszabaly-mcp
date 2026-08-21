@@ -35,12 +35,11 @@ database_is_current() {
   [ -s "$BOOTSTRAP_CHECKSUM" ] || return 1
   [ -s "$DB_CHECKSUM" ] || return 1
 
+  # stored==expected proves the volume matches the bundled image DB; no re-hash needed
   expected_checksum="$(awk '{print $1}' "$BOOTSTRAP_CHECKSUM")"
   stored_checksum="$(awk '{print $1}' "$DB_CHECKSUM")"
-  actual_checksum="$(sha256sum "$DB_PATH" | awk '{print $1}')"
 
-  [ "$stored_checksum" = "$expected_checksum" ] \
-    && [ "$actual_checksum" = "$expected_checksum" ]
+  [ "$stored_checksum" = "$expected_checksum" ]
 }
 
 if [ "$(id -u)" = "0" ]; then

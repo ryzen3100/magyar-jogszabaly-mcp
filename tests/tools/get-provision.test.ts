@@ -1,22 +1,15 @@
 import { describe, it, expect, beforeAll, afterAll } from 'vitest';
 import Database from '@ansvar/mcp-sqlite';
 import * as path from 'path';
-import * as fs from 'fs';
 import { fileURLToPath } from 'url';
+import { realDbExists } from '../helpers/test-db.js';
 import { getProvision } from '../../src/tools/get-provision.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const DB_PATH = path.resolve(__dirname, '../../data/database.db');
 
-const DB_EXISTS = fs.existsSync(DB_PATH) && (() => {
-  try {
-    const _db = new Database(DB_PATH, { readonly: true });
-    const _row = _db.prepare("SELECT COUNT(*) as cnt FROM sqlite_master WHERE type='table' AND name='legal_documents'").get() as { cnt: number } | undefined;
-    _db.close();
-    return (_row?.cnt ?? 0) > 0;
-  } catch { return false; }
-})();
+const DB_EXISTS = realDbExists(DB_PATH);
 
 const describeIf = DB_EXISTS ? describe : describe.skip;
 
@@ -152,8 +145,8 @@ describeIf('getProvision', () => {
         if (sql.includes('SELECT id, title, url FROM legal_documents WHERE id = ?')) {
           return { get: () => ({ id: 'doc-null-url', title: 'Doc', url: null }) };
         }
-        if (sql.includes('WHERE document_id = ? AND provision_ref = ?')) {
-          return { get: (_id: string, ref: string) => (ref === 's1' ? { provision_ref: 's1', chapter: null, section: '1', title: '1. §', content: 'text' } : undefined) };
+        if (sql.includes('WHERE document_id = ? AND (provision_ref = ?')) {
+          return { get: (...args: unknown[]) => ((args as string[]).includes('s1') ? { provision_ref: 's1', chapter: null, section: '1', title: '1. §', content: 'text' } : undefined) };
         }
         if (sql.includes('WHERE document_id = ? ORDER BY id')) {
           return { all: () => [{ provision_ref: 's1', chapter: null, section: '1', title: '1. §', content: 'text' }] };
