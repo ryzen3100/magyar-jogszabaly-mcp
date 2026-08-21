@@ -20,8 +20,8 @@ import {
   ReadResourceRequestSchema,
 } from '@modelcontextprotocol/sdk/types.js';
 import { createServer as createHttpServer, IncomingMessage, ServerResponse } from 'node:http';
-import { randomUUID, createHash } from 'crypto';
-import { existsSync, openSync, readSync, closeSync, readFileSync, statSync } from 'fs';
+import { randomUUID } from 'crypto';
+import { readFileSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 import Database from '@ansvar/mcp-sqlite';
@@ -30,7 +30,8 @@ import { registerTools } from './tools/registry.js';
 import { listSources as listSourcesFn } from './tools/list-sources.js';
 import { getAbout as getAboutFn, type AboutContext } from './tools/about.js';
 import { detectCapabilities, readDbMetadata } from './capabilities.js';
-import { DB_ENV_VAR, SERVER_NAME, SERVER_VERSION } from './constants.js';
+import { SERVER_NAME, SERVER_VERSION } from './constants.js';
+import { computeDbFingerprint, resolveDbPath } from './db-info.js';
 
 // ---------------------------------------------------------------------------
 // Configuration
@@ -39,30 +40,6 @@ import { DB_ENV_VAR, SERVER_NAME, SERVER_VERSION } from './constants.js';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const PORT = parseInt(process.env.PORT || '3000', 10);
-
-// ---------------------------------------------------------------------------
-// Database resolution (standard law MCP path convention)
-// ---------------------------------------------------------------------------
-
-function resolveDbPath(): string {
-  // 1. Explicit override
-  const envPath = process.env[DB_ENV_VAR];
-  if (envPath) return envPath;
-
-  // 2. Standard relative paths
-  const candidates = [
-    join(__dirname, '..', 'data', 'database.db'),
-    join(__dirname, '..', '..', 'data', 'database.db'),
-  ];
-
-  for (const p of candidates) {
-    if (existsSync(p)) return p;
-  }
-
-  throw new Error(
-    `Database not found. Set ${DB_ENV_VAR} or place database.db in data/`,
-  );
-}
 
 // ---------------------------------------------------------------------------
 // Session management
@@ -92,27 +69,14 @@ async function main() {
   console.error(`[${SERVER_NAME}] Database: ${dbPath}`);
   console.error(`[${SERVER_NAME}] Tier: ${meta.tier}, Capabilities: ${[...caps].join(', ')}`);
 
-  // About context for the about tool — use partial hash to avoid loading
-  // entire DB into memory (some are 200MB+).
-  let fingerprint = 'unknown';
-  let dbBuilt = new Date().toISOString();
-  try {
-    const SAMPLE = 64 * 1024;
-    const fd = openSync(dbPath, 'r');
-    const buf = Buffer.alloc(SAMPLE);
-    readSync(fd, buf, 0, SAMPLE, 0);
-    closeSync(fd);
-    fingerprint = createHash('sha256').update(buf).digest('hex').slice(0, 12);
-    dbBuilt = statSync(dbPath).mtime.toISOString();
-  } catch { /* non-fatal */ }
-
-  // Try db_metadata table for built_at (newer repos have this)
-  try {
-    const row = db.prepare("SELECT value FROM db_metadata WHERE key = 'built_at'").get() as { value: string } | undefined;
-    if (row) dbBuilt = row.value;
-  } catch { /* table may not exist */ }
-
-  const aboutContext: AboutContext = { version: SERVER_VERSION, fingerprint, dbBuilt };
+  // About context for the about tool — sampled hash avoids loading the entire
+  // DB into memory (some are 200MB+); db_metadata built_at overrides mtime.
+  const { fingerprint, dbBuilt: mtimeFallback } = computeDbFingerprint(dbPath);
+  const aboutContext: AboutContext = {
+    version: SERVER_VERSION,
+    fingerprint,
+    dbBuilt: meta.built_at ?? mtimeFallback,
+  };
 
   /** Create a fresh MCP server instance (one per session). */
   function createMCPServer(): Server {
@@ -301,7 +265,7 @@ async function main() {
       }
 
       // GET /icon.png — server icon
-      if ((url.pathname === '/icon.png' || url.pathname === '/icon.svg') && (req.method === 'GET' || req.method === 'HEAD')) {
+      if (url.pathname === '/icon.png' && (req.method === 'GET' || req.method === 'HEAD')) {
         try {
           const iconPath = join(__dirname, '..', 'icon.png');
           const iconData = readFileSync(iconPath);

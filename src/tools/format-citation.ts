@@ -12,59 +12,16 @@ export interface FormatCitationInput {
   format?: 'full' | 'short' | 'pinpoint';
 }
 
-export interface FormatCitationResult {
+interface FormatCitationResult {
   original: string;
   formatted: string;
   format: string;
 }
 
-function formatLegacyCitation(input: FormatCitationInput): FormatCitationResult {
-  const format = input.format ?? 'full';
-  const trimmed = input.citation.trim();
-
-  // Legacy tests call this helper without a DB. Preserve the previous English-style
-  // formatter behavior for that direct call shape while the MCP tool path below
-  // continues to return ToolResponse metadata and Hungarian § formatting.
-  const sectionFirst = trimmed.match(SECTION_FIRST_RE);
-  const sectionLast = trimmed.match(SECTION_LAST_RE);
-
-  const section = sectionFirst?.[1] ?? sectionLast?.[2];
-  const act = sectionFirst?.[2] ?? sectionLast?.[1] ?? trimmed;
-
-  let formatted: string;
-  switch (format) {
-    case 'short':
-      formatted = section ? `${act} s ${section}` : act;
-      break;
-    case 'pinpoint':
-      formatted = section ? `s ${section}` : act;
-      break;
-    case 'full':
-    default:
-      formatted = section ? `Section ${section}, ${act}` : act;
-      break;
-  }
-
-  return { original: input.citation, formatted, format };
-}
-
-export function formatCitationTool(
-  input: FormatCitationInput,
-): Promise<FormatCitationResult>;
-export function formatCitationTool(
+export async function formatCitationTool(
   db: InstanceType<typeof Database>,
   input: FormatCitationInput,
-): Promise<ToolResponse<FormatCitationResult>>;
-export async function formatCitationTool(
-  dbOrInput: InstanceType<typeof Database> | FormatCitationInput,
-  maybeInput?: FormatCitationInput,
-): Promise<ToolResponse<FormatCitationResult> | FormatCitationResult> {
-  if (!maybeInput) {
-    return formatLegacyCitation(dbOrInput as FormatCitationInput);
-  }
-
-  const db = dbOrInput as InstanceType<typeof Database>;
-  const input = maybeInput;
+): Promise<ToolResponse<FormatCitationResult>> {
   const format = input.format ?? 'full';
   const trimmed = input.citation.trim();
 
@@ -101,19 +58,8 @@ export async function formatCitationTool(
     act = sectionFirst?.[2] ?? sectionLast?.[1] ?? trimmed;
   }
 
-  let formatted: string;
-  switch (format) {
-    case 'short':
-      formatted = section ? `${act} ${section}. §` : act;
-      break;
-    case 'pinpoint':
-      formatted = section ? `${section}. §` : act;
-      break;
-    case 'full':
-    default:
-      formatted = section ? `${act} ${section}. §` : act;
-      break;
-  }
+  // 'short' and 'full' are identical here; only pinpoint differs.
+  const formatted = !section ? act : format === 'pinpoint' ? `${section}. §` : `${act} ${section}. §`;
 
   return {
     results: { original: input.citation, formatted, format },

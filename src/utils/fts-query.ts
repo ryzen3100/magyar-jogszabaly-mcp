@@ -9,7 +9,7 @@ const FTS5_BOOLEAN_OPS = /\b(AND|OR|NOT)\b/;
 /**
  * Detect whether input contains FTS5 boolean operators.
  */
-export function hasBooleanOperators(input: string): boolean {
+function hasBooleanOperators(input: string): boolean {
   return FTS5_BOOLEAN_OPS.test(input);
 }
 

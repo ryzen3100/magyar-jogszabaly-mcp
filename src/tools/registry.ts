@@ -11,17 +11,17 @@ import {
 } from '@modelcontextprotocol/sdk/types.js';
 import type Database from '@ansvar/mcp-sqlite';
 
-import { searchLegislation, type SearchLegislationInput } from './search-legislation.js';
-import { getProvision, type GetProvisionInput } from './get-provision.js';
-import { validateCitationTool, type ValidateCitationInput } from './validate-citation.js';
-import { buildLegalStance, type BuildLegalStanceInput } from './build-legal-stance.js';
-import { formatCitationTool, type FormatCitationInput } from './format-citation.js';
-import { checkCurrency, type CheckCurrencyInput } from './check-currency.js';
-import { getEUBasis, type GetEUBasisInput } from './get-eu-basis.js';
-import { getHungarianImplementations, type GetHungarianImplementationsInput } from './get-hungarian-implementations.js';
-import { searchEUImplementations, type SearchEUImplementationsInput } from './search-eu-implementations.js';
-import { getProvisionEUBasis, type GetProvisionEUBasisInput } from './get-provision-eu-basis.js';
-import { validateEUCompliance, type ValidateEUComplianceInput } from './validate-eu-compliance.js';
+import { searchLegislation } from './search-legislation.js';
+import { getProvision } from './get-provision.js';
+import { validateCitationTool } from './validate-citation.js';
+import { buildLegalStance } from './build-legal-stance.js';
+import { formatCitationTool } from './format-citation.js';
+import { checkCurrency } from './check-currency.js';
+import { getEUBasis } from './get-eu-basis.js';
+import { getHungarianImplementations } from './get-hungarian-implementations.js';
+import { searchEUImplementations } from './search-eu-implementations.js';
+import { getProvisionEUBasis } from './get-provision-eu-basis.js';
+import { validateEUCompliance } from './validate-eu-compliance.js';
 import { listSources } from './list-sources.js';
 import { getAbout, type AboutContext } from './about.js';
 export type { AboutContext } from './about.js';
@@ -315,6 +315,23 @@ export const TOOLS: Tool[] = [
   },
 ];
 
+/** Tool name → handler. Each handler declares its own input type; raw MCP
+ * args flow straight through (`never` makes every concrete input assignable). */
+const HANDLERS: Record<string, (db: InstanceType<typeof Database>, args: never) => Promise<unknown>> = {
+  search_legislation: searchLegislation,
+  get_provision: getProvision,
+  validate_citation: validateCitationTool,
+  build_legal_stance: buildLegalStance,
+  format_citation: formatCitationTool,
+  check_currency: checkCurrency,
+  get_eu_basis: getEUBasis,
+  get_hungarian_implementations: getHungarianImplementations,
+  search_eu_implementations: searchEUImplementations,
+  get_provision_eu_basis: getProvisionEUBasis,
+  validate_eu_compliance: validateEUCompliance,
+  list_sources: (db) => listSources(db),
+};
+
 export function buildTools(context?: AboutContext): Tool[] {
   const tools = [...TOOLS, LIST_SOURCES_TOOL];
 
@@ -342,58 +359,23 @@ export function registerTools(
     try {
       let result: unknown;
 
-      switch (name) {
-        case 'search_legislation':
-          result = await searchLegislation(db, args as unknown as SearchLegislationInput);
-          break;
-        case 'get_provision':
-          result = await getProvision(db, args as unknown as GetProvisionInput);
-          break;
-        case 'validate_citation':
-          result = await validateCitationTool(db, args as unknown as ValidateCitationInput);
-          break;
-        case 'build_legal_stance':
-          result = await buildLegalStance(db, args as unknown as BuildLegalStanceInput);
-          break;
-        case 'format_citation':
-          result = await formatCitationTool(db, args as unknown as FormatCitationInput);
-          break;
-        case 'check_currency':
-          result = await checkCurrency(db, args as unknown as CheckCurrencyInput);
-          break;
-        case 'get_eu_basis':
-          result = await getEUBasis(db, args as unknown as GetEUBasisInput);
-          break;
-        case 'get_hungarian_implementations':
-          result = await getHungarianImplementations(db, args as unknown as GetHungarianImplementationsInput);
-          break;
-        case 'search_eu_implementations':
-          result = await searchEUImplementations(db, args as unknown as SearchEUImplementationsInput);
-          break;
-        case 'get_provision_eu_basis':
-          result = await getProvisionEUBasis(db, args as unknown as GetProvisionEUBasisInput);
-          break;
-        case 'validate_eu_compliance':
-          result = await validateEUCompliance(db, args as unknown as ValidateEUComplianceInput);
-          break;
-        case 'list_sources':
-          result = await listSources(db);
-          break;
-        case 'about':
-          if (context) {
-            result = getAbout(db, context);
-          } else {
-            return {
-              content: [{ type: 'text' as const, text: 'About tool not configured.' }],
-              isError: true,
-            };
-          }
-          break;
-        default:
+      if (name === 'about') {
+        if (!context) {
+          return {
+            content: [{ type: 'text' as const, text: 'About tool not configured.' }],
+            isError: true,
+          };
+        }
+        result = getAbout(db, context);
+      } else {
+        const handler = HANDLERS[name];
+        if (!handler) {
           return {
             content: [{ type: 'text' as const, text: `Error: Unknown tool "${name}".` }],
             isError: true,
           };
+        }
+        result = await handler(db, args as never);
       }
 
       return {

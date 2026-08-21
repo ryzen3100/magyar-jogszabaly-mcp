@@ -3,20 +3,12 @@
  */
 
 import type Database from '@ansvar/mcp-sqlite';
+import { safeCount } from '../utils/metadata.js';
 
 export interface AboutContext {
   version: string;
   fingerprint: string;
   dbBuilt: string;
-}
-
-function safeCount(db: InstanceType<typeof Database>, sql: string): number {
-  try {
-    const row = db.prepare(sql).get() as { count: number } | undefined;
-    return row ? Number(row.count) : 0;
-  } catch {
-    return 0;
-  }
 }
 
 export function getAbout(db: InstanceType<typeof Database>, context: AboutContext) {

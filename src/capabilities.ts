@@ -4,13 +4,11 @@
  */
 
 import type Database from '@ansvar/mcp-sqlite';
+import { generateResponseMetadata, type ToolResponse } from './utils/metadata.js';
 
-export type Capability = 'core_legislation' | 'eu_references';
+type Capability = 'core_legislation';
 
-const TABLE_MAP: Record<Capability, string[]> = {
-  core_legislation: ['legal_documents', 'legal_provisions', 'provisions_fts'],
-  eu_references: ['eu_documents', 'eu_references'],
-};
+const CORE_TABLES = ['legal_documents', 'legal_provisions', 'provisions_fts'];
 
 export function detectCapabilities(db: InstanceType<typeof Database>): Set<Capability> {
   const caps = new Set<Capability>();
@@ -19,20 +17,17 @@ export function detectCapabilities(db: InstanceType<typeof Database>): Set<Capab
       .map(r => r.name)
   );
 
-  for (const [cap, required] of Object.entries(TABLE_MAP)) {
-    if (required.every(t => tables.has(t))) {
-      caps.add(cap as Capability);
-    }
+  if (CORE_TABLES.every(t => tables.has(t))) {
+    caps.add('core_legislation');
   }
 
   return caps;
 }
 
-export interface DbMetadata {
+interface DbMetadata {
   tier: string;
   schema_version: string;
   built_at?: string;
-  builder?: string;
 }
 
 export function readDbMetadata(db: InstanceType<typeof Database>): DbMetadata {
@@ -49,10 +44,28 @@ export function readDbMetadata(db: InstanceType<typeof Database>): DbMetadata {
     tier: meta.tier ?? 'free',
     schema_version: meta.schema_version ?? '1.0',
     built_at: meta.built_at,
-    builder: meta.builder,
   };
 }
 
-export function upgradeMessage(feature: string): string {
-  return `The "${feature}" feature requires a professional-tier database. Contact hello@ansvar.ai for access.`;
+/** Probe whether an EU table exists. Callers pass compile-time table names only. */
+export function euAvailable(db: InstanceType<typeof Database>, table = 'eu_references'): boolean {
+  try {
+    db.prepare(`SELECT 1 FROM ${table} LIMIT 1`).get();
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+export function euUnavailable(
+  db: InstanceType<typeof Database>,
+  table = 'eu_references',
+): ToolResponse<never[]> {
+  return {
+    results: [],
+    _metadata: {
+      ...generateResponseMetadata(db),
+      note: `EU ${table.slice(3)} not available in this database tier`,
+    },
+  };
 }

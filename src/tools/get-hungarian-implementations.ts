@@ -3,6 +3,7 @@
  */
 
 import type Database from '@ansvar/mcp-sqlite';
+import { euAvailable, euUnavailable } from '../capabilities.js';
 import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
 
 export interface GetHungarianImplementationsInput {
@@ -11,7 +12,7 @@ export interface GetHungarianImplementationsInput {
   in_force_only?: boolean;
 }
 
-export interface HungarianImplementationResult {
+interface HungarianImplementationResult {
   document_id: string;
   document_title: string;
   status: string;
@@ -25,17 +26,7 @@ export async function getHungarianImplementations(
   db: InstanceType<typeof Database>,
   input: GetHungarianImplementationsInput,
 ): Promise<ToolResponse<HungarianImplementationResult[]>> {
-  try {
-    db.prepare('SELECT 1 FROM eu_references LIMIT 1').get();
-  } catch {
-    return {
-      results: [],
-      _metadata: {
-        ...generateResponseMetadata(db),
-        note: 'EU references not available in this database tier',
-      },
-    };
-  }
+  if (!euAvailable(db)) return euUnavailable(db);
 
   let sql = `
     SELECT

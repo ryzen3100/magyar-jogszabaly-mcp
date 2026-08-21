@@ -10,7 +10,7 @@ export interface ValidateCitationInput {
   citation: string;
 }
 
-export interface ValidateCitationResult {
+interface ValidateCitationResult {
   valid: boolean;
   citation: string;
   normalized?: string;

@@ -123,23 +123,25 @@ describe('checkCurrency', () => {
 
 describe('formatCitationTool', () => {
   it('formats citations in all supported styles', async () => {
-    const full = await formatCitationTool({ citation: 'Section 3, In Force Act' });
-    expect(full.formatted).toBe('Section 3, In Force Act');
+    const db = trackDb(createTestDb());
 
-    const short = await formatCitationTool({ citation: 'In Force Act s 3', format: 'short' });
-    expect(short.formatted).toBe('In Force Act s 3');
+    const full = await formatCitationTool(db, { citation: 'Section 3, In Force Act' });
+    expect(full.results.formatted).toBe('In Force Act 3. §');
 
-    const pinpoint = await formatCitationTool({ citation: 'In Force Act Section 3', format: 'pinpoint' });
-    expect(pinpoint.formatted).toBe('s 3');
+    const short = await formatCitationTool(db, { citation: 'In Force Act s 3', format: 'short' });
+    expect(short.results.formatted).toBe('In Force Act 3. §');
 
-    const noSection = await formatCitationTool({ citation: 'In Force Act' });
-    expect(noSection.formatted).toBe('In Force Act');
+    const pinpoint = await formatCitationTool(db, { citation: 'In Force Act Section 3', format: 'pinpoint' });
+    expect(pinpoint.results.formatted).toBe('3. §');
 
-    const shortNoSection = await formatCitationTool({ citation: 'In Force Act', format: 'short' });
-    expect(shortNoSection.formatted).toBe('In Force Act');
+    const noSection = await formatCitationTool(db, { citation: 'In Force Act' });
+    expect(noSection.results.formatted).toBe('In Force Act');
 
-    const pinpointNoSection = await formatCitationTool({ citation: 'In Force Act', format: 'pinpoint' });
-    expect(pinpointNoSection.formatted).toBe('In Force Act');
+    const shortNoSection = await formatCitationTool(db, { citation: 'In Force Act', format: 'short' });
+    expect(shortNoSection.results.formatted).toBe('In Force Act');
+
+    const pinpointNoSection = await formatCitationTool(db, { citation: 'In Force Act', format: 'pinpoint' });
+    expect(pinpointNoSection.results.formatted).toBe('In Force Act');
   });
 });
 
@@ -222,19 +224,19 @@ describe('EU basis and implementation tools', () => {
     const db = trackDb(createTestDb({ withEuTables: false }));
     const basis = await getEUBasis(db, { document_id: 'doc-inforce' });
     expect(basis.results).toEqual([]);
-    expect((basis._metadata as Record<string, string>).note).toContain('EU references not available');
+    expect(basis._metadata.note).toContain('EU references not available');
 
     const impl = await getHungarianImplementations(db, { eu_document_id: 'regulation:2016/679' });
     expect(impl.results).toEqual([]);
-    expect((impl._metadata as Record<string, string>).note).toContain('EU references not available');
+    expect(impl._metadata.note).toContain('EU references not available');
 
     const perProvision = await getProvisionEUBasis(db, { document_id: 'doc-inforce', provision_ref: '1' });
     expect(perProvision.results).toEqual([]);
-    expect((perProvision._metadata as Record<string, string>).note).toContain('EU references not available');
+    expect(perProvision._metadata.note).toContain('EU references not available');
 
     const search = await searchEUImplementations(db, { query: 'GDPR' });
     expect(search.results).toEqual([]);
-    expect((search._metadata as Record<string, string>).note).toContain('EU documents not available');
+    expect(search._metadata.note).toContain('EU documents not available');
   });
 
   it('retrieves EU basis with filters and article expansion', async () => {

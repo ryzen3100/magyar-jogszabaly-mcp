@@ -9,27 +9,11 @@
 import { Server } from '@modelcontextprotocol/sdk/server/index.js';
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
 import Database from '@ansvar/mcp-sqlite';
-import { join, dirname } from 'path';
-import { fileURLToPath } from 'url';
-import { createHash } from 'crypto';
-import { readFileSync } from 'fs';
 
 import { registerTools, type AboutContext } from './tools/registry.js';
 import { detectCapabilities, readDbMetadata } from './capabilities.js';
-import {
-  DB_ENV_VAR,
-  SERVER_NAME,
-  SERVER_VERSION,
-} from './constants.js';
-
-const __dirname = dirname(fileURLToPath(import.meta.url));
-
-function resolveDbPath(): string {
-  if (process.env[DB_ENV_VAR]) {
-    return process.env[DB_ENV_VAR];
-  }
-  return join(__dirname, '..', 'data', 'database.db');
-}
+import { SERVER_NAME, SERVER_VERSION } from './constants.js';
+import { computeDbFingerprint, resolveDbPath } from './db-info.js';
 
 let db: InstanceType<typeof Database> | null = null;
 
@@ -47,25 +31,8 @@ function getDb(): InstanceType<typeof Database> {
 }
 
 function computeAboutContext(): AboutContext {
-  const dbPath = resolveDbPath();
-  let fingerprint = 'unknown';
-  let dbBuilt = 'unknown';
-
-  try {
-    const buf = readFileSync(dbPath);
-    fingerprint = createHash('sha256').update(buf).digest('hex').slice(0, 12);
-  } catch {
-    // DB might not exist in dev
-  }
-
-  try {
-    const database = getDb();
-    const row = database.prepare("SELECT value FROM db_metadata WHERE key = 'built_at'").get() as { value: string } | undefined;
-    if (row) dbBuilt = row.value;
-  } catch {
-    // Ignore
-  }
-
+  const { fingerprint, dbBuilt: fileFallback } = computeDbFingerprint(resolveDbPath());
+  const dbBuilt = readDbMetadata(getDb()).built_at ?? fileFallback;
   return { version: SERVER_VERSION, fingerprint, dbBuilt };
 }
 

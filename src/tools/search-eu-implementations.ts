@@ -3,6 +3,7 @@
  */
 
 import type Database from '@ansvar/mcp-sqlite';
+import { euAvailable, euUnavailable } from '../capabilities.js';
 import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
 
 export interface SearchEUImplementationsInput {
@@ -14,7 +15,7 @@ export interface SearchEUImplementationsInput {
   limit?: number;
 }
 
-export interface EUImplementationSearchResult {
+interface EUImplementationSearchResult {
   eu_document_id: string;
   type: string;
   year: number;
@@ -28,17 +29,7 @@ export async function searchEUImplementations(
   db: InstanceType<typeof Database>,
   input: SearchEUImplementationsInput,
 ): Promise<ToolResponse<EUImplementationSearchResult[]>> {
-  try {
-    db.prepare('SELECT 1 FROM eu_documents LIMIT 1').get();
-  } catch {
-    return {
-      results: [],
-      _metadata: {
-        ...generateResponseMetadata(db),
-        note: 'EU documents not available in this database tier',
-      },
-    };
-  }
+  if (!euAvailable(db, 'eu_documents')) return euUnavailable(db, 'eu_documents');
 
   const limit = Math.min(Math.max(input.limit ?? 20, 1), 100);
 
