@@ -3,6 +3,7 @@
  */
 
 import type Database from '@ansvar/mcp-sqlite';
+import { euAvailable, euUnavailable } from '../capabilities.js';
 import { resolveDocumentId } from '../utils/statute-id.js';
 import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
 
@@ -12,7 +13,7 @@ export interface GetEUBasisInput {
   reference_types?: string[];
 }
 
-export interface EUBasisResult {
+interface EUBasisResult {
   eu_document_id: string;
   eu_document_type: string;
   eu_document_title: string | null;
@@ -31,18 +32,7 @@ export async function getEUBasis(
     return { results: [], _metadata: generateResponseMetadata(db) };
   }
 
-  // Check if EU reference tables exist
-  try {
-    db.prepare('SELECT 1 FROM eu_references LIMIT 1').get();
-  } catch {
-    return {
-      results: [],
-      _metadata: {
-        ...generateResponseMetadata(db),
-        note: 'EU references not available in this database tier',
-      },
-    };
-  }
+  if (!euAvailable(db)) return euUnavailable(db);
 
   let sql = `
     SELECT

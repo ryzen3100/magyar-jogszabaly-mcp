@@ -12,7 +12,7 @@ export interface GetProvisionInput {
   provision_ref?: string;
 }
 
-export interface ProvisionResult {
+interface ProvisionResult {
   document_id: string;
   document_title: string;
   provision_ref: string;
@@ -46,50 +46,31 @@ export async function getProvision(
     return { results: [], _metadata: generateResponseMetadata(db) };
   }
 
-  // Specific provision lookup
+  const toResult = (p: Record<string, unknown>) => ({
+    document_id: resolvedId,
+    document_title: docRow.title,
+    provision_ref: String(p.provision_ref),
+    chapter: p.chapter as string | null,
+    section: String(p.section),
+    title: p.title as string | null,
+    content: String(p.content),
+    section_number: String(p.provision_ref).replace(/^s/, ''),
+    url: docRow.url ?? undefined,
+  });
+
+  // Specific provision lookup — one OR-query covers exact, "s"-prefixed,
+  // section-column, and fuzzy matches (same pattern as validate_citation).
   const ref = input.provision_ref ?? input.section;
   if (ref) {
     const refTrimmed = ref.trim();
 
-    // Try direct provision_ref match
-    let provision = db.prepare(
-      'SELECT * FROM legal_provisions WHERE document_id = ? AND provision_ref = ?'
-    ).get(resolvedId, refTrimmed) as Record<string, unknown> | undefined;
-
-    // Try with "s" prefix (e.g., "1" -> "s1")
-    if (!provision) {
-      provision = db.prepare(
-        'SELECT * FROM legal_provisions WHERE document_id = ? AND provision_ref = ?'
-      ).get(resolvedId, `s${refTrimmed}`) as Record<string, unknown> | undefined;
-    }
-
-    // Try section column match
-    if (!provision) {
-      provision = db.prepare(
-        'SELECT * FROM legal_provisions WHERE document_id = ? AND section = ?'
-      ).get(resolvedId, refTrimmed) as Record<string, unknown> | undefined;
-    }
-
-    // Try LIKE match for flexible input
-    if (!provision) {
-      provision = db.prepare(
-        "SELECT * FROM legal_provisions WHERE document_id = ? AND (provision_ref LIKE ? OR section LIKE ?)"
-      ).get(resolvedId, `%${refTrimmed}%`, `%${refTrimmed}%`) as Record<string, unknown> | undefined;
-    }
+    const provision = db.prepare(
+      "SELECT * FROM legal_provisions WHERE document_id = ? AND (provision_ref = ? OR provision_ref = ? OR section = ? OR provision_ref LIKE ? OR section LIKE ?)"
+    ).get(resolvedId, refTrimmed, `s${refTrimmed}`, refTrimmed, `%${refTrimmed}%`, `%${refTrimmed}%`) as Record<string, unknown> | undefined;
 
     if (provision) {
       return {
-        results: [{
-          document_id: resolvedId,
-          document_title: docRow.title,
-          provision_ref: String(provision.provision_ref),
-          chapter: provision.chapter as string | null,
-          section: String(provision.section),
-          title: provision.title as string | null,
-          content: String(provision.content),
-          section_number: String(provision.provision_ref).replace(/^s/, ''),
-          url: docRow.url ?? undefined,
-        }],
+        results: [toResult(provision)],
         _metadata: generateResponseMetadata(db),
       };
     }
@@ -109,17 +90,7 @@ export async function getProvision(
   ).all(resolvedId) as Record<string, unknown>[];
 
   return {
-    results: provisions.map(p => ({
-      document_id: resolvedId,
-      document_title: docRow.title,
-      provision_ref: String(p.provision_ref),
-      chapter: p.chapter as string | null,
-      section: String(p.section),
-      title: p.title as string | null,
-      content: String(p.content),
-      section_number: String(p.provision_ref).replace(/^s/, ''),
-      url: docRow.url ?? undefined,
-    })),
+    results: provisions.map(toResult),
     _metadata: generateResponseMetadata(db),
   };
 }

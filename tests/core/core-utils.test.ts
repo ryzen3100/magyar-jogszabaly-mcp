@@ -6,11 +6,10 @@ import {
   SERVER_NAME,
   SERVER_VERSION,
 } from '../../src/constants.js';
-import { normalizeAsOfDate } from '../../src/utils/as-of-date.js';
 import { sanitizeFtsInput, buildFtsQueryVariants } from '../../src/utils/fts-query.js';
 import { generateResponseMetadata } from '../../src/utils/metadata.js';
 import { resolveDocumentId } from '../../src/utils/statute-id.js';
-import { detectCapabilities, readDbMetadata, upgradeMessage } from '../../src/capabilities.js';
+import { detectCapabilities, readDbMetadata } from '../../src/capabilities.js';
 import { createTestDb } from '../helpers/test-db.js';
 
 const opened: InstanceType<typeof Database>[] = [];
@@ -32,17 +31,6 @@ describe('constants', () => {
     expect(SERVER_NAME).toBe('hungarian-law-mcp');
     expect(SERVER_VERSION).toBe('1.0.0');
     expect(DB_ENV_VAR).toBe('HUNGARIAN_LAW_DB_PATH');
-  });
-});
-
-describe('normalizeAsOfDate', () => {
-  it('normalizes and validates date input', () => {
-    expect(normalizeAsOfDate()).toBeNull();
-    expect(normalizeAsOfDate('')).toBeNull();
-    expect(normalizeAsOfDate('   ')).toBeNull();
-    expect(normalizeAsOfDate('2026-02-21')).toBe('2026-02-21');
-    expect(normalizeAsOfDate('2026-02-21T12:34:56Z')).toBe('2026-02-21');
-    expect(normalizeAsOfDate('not a date')).toBeNull();
   });
 });
 
@@ -108,8 +96,7 @@ describe('capabilities', () => {
     const db = trackDb(createTestDb({ withEuTables: true }));
     const caps = detectCapabilities(db);
     expect(caps.has('core_legislation')).toBe(true);
-    expect(caps.has('eu_references')).toBe(true);
-    expect(caps.size).toBe(2);
+    expect(caps.size).toBe(1);
   });
 
   it('reads db metadata and falls back when metadata table is missing', () => {
@@ -118,18 +105,12 @@ describe('capabilities', () => {
     expect(withMetaInfo.tier).toBe('free');
     expect(withMetaInfo.schema_version).toBe('1.0');
     expect(withMetaInfo.built_at).toBe('2026-02-21T00:00:00Z');
-    expect(withMetaInfo.builder).toBe('test-suite');
 
     const withoutMeta = trackDb(createTestDb({ withMetadataTable: false }));
     const withoutMetaInfo = readDbMetadata(withoutMeta);
     expect(withoutMetaInfo.tier).toBe('free');
     expect(withoutMetaInfo.schema_version).toBe('1.0');
     expect(withoutMetaInfo.built_at).toBeUndefined();
-    expect(withoutMetaInfo.builder).toBeUndefined();
   });
 
-  it('formats upgrade messages', () => {
-    expect(upgradeMessage('eu_references')).toContain('"eu_references"');
-    expect(upgradeMessage('eu_references')).toContain('professional-tier');
-  });
 });

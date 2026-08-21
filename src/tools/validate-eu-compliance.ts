@@ -3,6 +3,7 @@
  */
 
 import type Database from '@ansvar/mcp-sqlite';
+import { euAvailable } from '../capabilities.js';
 import { resolveDocumentId } from '../utils/statute-id.js';
 import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
 
@@ -11,7 +12,7 @@ export interface ValidateEUComplianceInput {
   eu_document_id?: string;
 }
 
-export interface EUComplianceResult {
+interface EUComplianceResult {
   document_id: string;
   document_title: string;
   compliance_status: 'compliant' | 'partial' | 'unclear' | 'not_applicable';
@@ -46,20 +47,7 @@ export async function validateEUCompliance(
   const warnings: string[] = [];
   const recommendations: string[] = [];
 
-  // Check if EU reference tables exist
-  let euRefCount = 0;
-  try {
-    let sql = 'SELECT COUNT(*) as count FROM eu_references WHERE document_id = ?';
-    const params: string[] = [resolvedId];
-
-    if (input.eu_document_id) {
-      sql += ' AND eu_document_id = ?';
-      params.push(input.eu_document_id);
-    }
-
-    const row = db.prepare(sql).get(...params) as { count: number };
-    euRefCount = row.count;
-  } catch {
+  if (!euAvailable(db)) {
     return {
       results: {
         document_id: resolvedId,
@@ -72,6 +60,16 @@ export async function validateEUCompliance(
       _metadata: generateResponseMetadata(db),
     };
   }
+
+  let sql = 'SELECT COUNT(*) as count FROM eu_references WHERE document_id = ?';
+  const params: string[] = [resolvedId];
+
+  if (input.eu_document_id) {
+    sql += ' AND eu_document_id = ?';
+    params.push(input.eu_document_id);
+  }
+
+  const euRefCount = (db.prepare(sql).get(...params) as { count: number }).count;
 
   if (euRefCount === 0) {
     return {

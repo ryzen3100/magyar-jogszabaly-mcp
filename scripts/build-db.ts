@@ -335,18 +335,21 @@ function buildDatabase(): void {
     VALUES (?, ?, ?, ?, ?)
   `);
 
-  const insertEuDocument = db.prepare(`
+  const EU_DOCUMENT_INSERT_SQL = `
     INSERT OR IGNORE INTO eu_documents (id, type, year, number, community, title, short_name, url_eur_lex, description)
     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
-  `);
-
-  const insertEuReference = db.prepare(`
+  `;
+  const EU_REFERENCE_INSERT_SQL = `
     INSERT INTO eu_references
       (source_type, source_id, document_id, provision_id, eu_document_id, eu_article,
        reference_type, reference_context, full_citation, is_primary_implementation,
        implementation_status, last_verified)
     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-  `);
+  `;
+
+  const insertEuDocument = db.prepare(EU_DOCUMENT_INSERT_SQL);
+
+  const insertEuReference = db.prepare(EU_REFERENCE_INSERT_SQL);
 
   if (!fs.existsSync(SEED_DIR)) {
     console.log(`No seed directory at ${SEED_DIR} — creating empty database.`);
@@ -464,10 +467,7 @@ function buildDatabase(): void {
         // ponytail: @ansvar/mcp-sqlite can hold stale statement state after the
         // big seed transaction, so prepare fresh here (14 rows, cost is nil).
         // If the driver fixes statement reset, hoist these back out.
-        db.prepare(`
-          INSERT OR IGNORE INTO eu_documents (id, type, year, number, community, title, short_name, url_eur_lex, description)
-          VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
-        `).run(
+        db.prepare(EU_DOCUMENT_INSERT_SQL).run(
           mapping.eu_document_id,
           mapping.eu_type,
           mapping.eu_year,
@@ -488,13 +488,7 @@ function buildDatabase(): void {
 
         // Insert EU reference at document level
         try {
-          db.prepare(`
-            INSERT INTO eu_references
-              (source_type, source_id, document_id, provision_id, eu_document_id, eu_article,
-               reference_type, reference_context, full_citation, is_primary_implementation,
-               implementation_status, last_verified)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-          `).run(
+          db.prepare(EU_REFERENCE_INSERT_SQL).run(
             'document',                      // source_type
             mapping.hungarian_document_id,   // source_id
             mapping.hungarian_document_id,   // document_id

@@ -3,6 +3,7 @@
  */
 
 import type Database from '@ansvar/mcp-sqlite';
+import { euAvailable, euUnavailable } from '../capabilities.js';
 import { resolveDocumentId } from '../utils/statute-id.js';
 import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
 
@@ -11,7 +12,7 @@ export interface GetProvisionEUBasisInput {
   provision_ref: string;
 }
 
-export interface ProvisionEUBasisResult {
+interface ProvisionEUBasisResult {
   eu_document_id: string;
   eu_document_type: string;
   eu_document_title: string | null;
@@ -30,17 +31,7 @@ export async function getProvisionEUBasis(
     return { results: [], _metadata: generateResponseMetadata(db) };
   }
 
-  try {
-    db.prepare('SELECT 1 FROM eu_references LIMIT 1').get();
-  } catch {
-    return {
-      results: [],
-      _metadata: {
-        ...generateResponseMetadata(db),
-        note: 'EU references not available in this database tier',
-      },
-    };
-  }
+  if (!euAvailable(db)) return euUnavailable(db);
 
   // Find the provision
   const ref = input.provision_ref.trim();

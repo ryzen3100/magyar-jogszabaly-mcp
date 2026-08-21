@@ -4,9 +4,9 @@
 
 import type Database from '@ansvar/mcp-sqlite';
 import { readDbMetadata } from '../capabilities.js';
-import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
+import { generateResponseMetadata, safeCount, type ToolResponse } from '../utils/metadata.js';
 
-export interface SourceInfo {
+interface SourceInfo {
   name: string;
   authority: string;
   url: string;
@@ -15,7 +15,7 @@ export interface SourceInfo {
   languages: string[];
 }
 
-export interface ListSourcesResult {
+interface ListSourcesResult {
   sources: SourceInfo[];
   database: {
     tier: string;
@@ -24,15 +24,6 @@ export interface ListSourcesResult {
     document_count: number;
     provision_count: number;
   };
-}
-
-function safeCount(db: InstanceType<typeof Database>, sql: string): number {
-  try {
-    const row = db.prepare(sql).get() as { count: number } | undefined;
-    return row ? Number(row.count) : 0;
-  } catch {
-    return 0;
-  }
 }
 
 export async function listSources(

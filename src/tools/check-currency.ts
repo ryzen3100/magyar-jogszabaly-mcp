@@ -11,7 +11,7 @@ export interface CheckCurrencyInput {
   provision_ref?: string;
 }
 
-export interface CheckCurrencyResult {
+interface CheckCurrencyResult {
   document_id: string;
   title: string;
   status: string;

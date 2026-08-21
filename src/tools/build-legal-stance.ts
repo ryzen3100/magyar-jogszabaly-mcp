@@ -6,24 +6,12 @@
  */
 
 import type Database from '@ansvar/mcp-sqlite';
-import { searchLegislation } from './search-legislation.js';
+import { searchLegislation, type SearchLegislationInput, type SearchLegislationResult } from './search-legislation.js';
 import type { ToolResponse } from '../utils/metadata.js';
 
-export interface BuildLegalStanceInput {
-  query: string;
-  document_id?: string;
-  limit?: number;
-}
+type BuildLegalStanceInput = Pick<SearchLegislationInput, 'query' | 'document_id' | 'limit'>;
 
-export interface LegalStanceResult {
-  document_id: string;
-  document_title: string;
-  provision_ref: string;
-  section: string;
-  title: string | null;
-  snippet: string;
-  relevance: number;
-}
+type LegalStanceResult = Omit<SearchLegislationResult, 'chapter'>;
 
 export async function buildLegalStance(
   db: InstanceType<typeof Database>,

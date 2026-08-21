@@ -19,7 +19,7 @@ env:
   IMAGE_NAME: ghcr.io/ryzen3100/magyar-jogszabaly-mcp
 
 jobs:
-  smoke-test:
+  build-smoke-publish:
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
@@ -30,13 +30,32 @@ jobs:
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
-      - name: Build image for smoke test
+      - name: Log in to GitHub Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Extract Docker metadata
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ env.IMAGE_NAME }}
+          tags: |
+            type=raw,value=latest,enable={{is_default_branch}}
+            type=ref,event=tag
+            type=sha,prefix=sha-
+
+      - name: Build image
         uses: docker/build-push-action@v6
         with:
           context: .
           load: true
           tags: magyar-jogszabaly-mcp:smoke
-          cache-from: type=gha,scope=docker-smoke
+          labels: ${{ steps.meta.outputs.labels }}
+          cache-from: type=gha,scope=docker-image
+          cache-to: type=gha,mode=max,scope=docker-image
 
       - name: Start and verify container
         shell: bash
@@ -70,42 +89,12 @@ jobs:
 
           docker exec magyar-jogszabaly-mcp-smoke node --input-type=module -e "import Database from '@ansvar/mcp-sqlite'; const db = new Database('/data/database.db', { readonly: true }); const documents = Number(db.prepare('SELECT COUNT(*) AS count FROM legal_documents').get().count); const provisions = Number(db.prepare('SELECT COUNT(*) AS count FROM legal_provisions').get().count); const hit = db.prepare('SELECT rowid FROM provisions_fts LIMIT 1').get(); if (documents < 1 || provisions < 1 || !hit) throw new Error('Smoke database/search validation failed'); db.close();"
 
-  publish:
-    needs: smoke-test
-    runs-on: ubuntu-latest
-    timeout-minutes: 30
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v3
-
-      - name: Log in to GitHub Container Registry
-        uses: docker/login-action@v3
-        with:
-          registry: ghcr.io
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Extract Docker metadata
-        id: meta
-        uses: docker/metadata-action@v5
-        with:
-          images: ${{ env.IMAGE_NAME }}
-          tags: |
-            type=raw,value=latest,enable={{is_default_branch}}
-            type=ref,event=tag
-            type=sha,prefix=sha-
-
-      - name: Build and push
-        uses: docker/build-push-action@v6
-        with:
-          context: .
-          pull: true
-          push: true
-          tags: ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outputs.labels }}
-          cache-from: type=gha,scope=docker-publish
-          cache-to: type=gha,mode=max,scope=docker-publish
+      - name: Retag and push verified image
+        env:
+          IMAGE: magyar-jogszabaly-mcp:smoke
+          TAGS: ${{ steps.meta.outputs.tags }}
+        run: |
+          while read -r tag; do
+            docker tag "$IMAGE" "$tag"
+            docker push "$tag"
+          done <<< "$TAGS"
