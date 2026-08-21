@@ -24,7 +24,6 @@ import { getProvisionEUBasis, type GetProvisionEUBasisInput } from './get-provis
 import { validateEUCompliance, type ValidateEUComplianceInput } from './validate-eu-compliance.js';
 import { listSources } from './list-sources.js';
 import { getAbout, type AboutContext } from './about.js';
-import { detectCapabilities, upgradeMessage } from '../capabilities.js';
 export type { AboutContext } from './about.js';
 
 const ABOUT_TOOL: Tool = {
@@ -222,6 +221,11 @@ export const TOOLS: Tool[] = [
           description: 'Include specific EU article references (default: false).',
           default: false,
         },
+        reference_types: {
+          type: 'array',
+          items: { type: 'string' },
+          description: 'Optional: filter by reference type (e.g., "implements", "transposes").',
+        },
       },
       required: ['document_id'],
     },
@@ -303,7 +307,6 @@ export const TOOLS: Tool[] = [
       type: 'object',
       properties: {
         document_id: { type: 'string', description: 'Hungarian statute identifier.' },
-        provision_ref: { type: 'string', description: 'Optional: check for a specific provision.' },
         eu_document_id: { type: 'string', description: 'Optional: check against a specific EU document.' },
       },
       required: ['document_id'],
@@ -312,20 +315,8 @@ export const TOOLS: Tool[] = [
   },
 ];
 
-export function buildTools(
-  db?: InstanceType<typeof Database>,
-  context?: AboutContext,
-): Tool[] {
+export function buildTools(context?: AboutContext): Tool[] {
   const tools = [...TOOLS, LIST_SOURCES_TOOL];
-
-  if (db) {
-    try {
-      db.prepare('SELECT 1 FROM definitions LIMIT 1').get();
-      // Could add a get_definitions tool here when definitions table exists
-    } catch {
-      // definitions table doesn't exist
-    }
-  }
 
   if (context) {
     tools.push(ABOUT_TOOL);
@@ -339,7 +330,7 @@ export function registerTools(
   db: InstanceType<typeof Database>,
   context?: AboutContext,
 ): void {
-  const allTools = buildTools(db, context);
+  const allTools = buildTools(context);
 
   server.setRequestHandler(ListToolsRequestSchema, async () => {
     return { tools: allTools };

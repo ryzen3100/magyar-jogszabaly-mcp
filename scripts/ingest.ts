@@ -16,10 +16,11 @@
  */
 
 import * as fs from 'fs';
+import { parseArgs as parseCliArgs } from 'util';
 import * as path from 'path';
 import { fileURLToPath } from 'url';
 import { fetchWithRateLimit, postJsonWithRateLimit } from './lib/fetcher.js';
-import { parseHungarianHtml, KEY_HUNGARIAN_ACTS, type ActIndexEntry, type ParsedAct } from './lib/parser.js';
+import { parseHungarianHtml, KEY_HUNGARIAN_ACTS, decodeHtmlEntities, type ActIndexEntry, type ParsedAct } from './lib/parser.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -29,7 +30,10 @@ const SEED_DIR = path.resolve(__dirname, '../data/seed');
 const BLOCK_ENDPOINT = 'https://njt.hu/ajax/njtGetBlock.json';
 const SEARCH_URL_ENDPOINT = 'https://njt.hu/ajax/get_search_url.json';
 
-type IngestStatus = 'OK' | 'cached' | 'METADATA_ONLY' | `HTTP ${number}` | 'NO_SECTION_CONTENT' | `ERROR: ${string}`;
+// ponytail: njt.hu default page size; only surfaced as a flag for no reason
+const DISCOVERY_PAGE_SIZE = 50;
+
+type IngestStatus = string;
 
 interface CliArgs {
   limit: number | null;
@@ -40,7 +44,6 @@ interface CliArgs {
   discoverOnly: boolean;
   refreshDiscovery: boolean;
   resume: boolean;
-  pageSize: 10 | 20 | 50;
 }
 
 interface DiscoverySeed {
@@ -91,107 +94,35 @@ function toMetadataOnlyAct(act: ActIndexEntry): ParsedAct {
 }
 
 function parseArgs(): CliArgs {
-  const args = process.argv.slice(2);
+  const { values } = parseCliArgs({
+    options: {
+      limit: { type: 'string' },
+      start: { type: 'string' },
+      'skip-fetch': { type: 'boolean', default: false },
+      full: { type: 'boolean', default: false },
+      'in-force-only': { type: 'boolean', default: false },
+      'discover-only': { type: 'boolean', default: false },
+      'refresh-discovery': { type: 'boolean', default: false },
+      resume: { type: 'boolean', default: false },
+    },
+  });
 
-  let limit: number | null = null;
-  let start = 1;
-  let skipFetch = false;
-  let full = false;
-  let inForceOnly = false;
-  let discoverOnly = false;
-  let refreshDiscovery = false;
-  let resume = false;
-  let pageSize: 10 | 20 | 50 = 50;
-
-  for (let i = 0; i < args.length; i++) {
-    const arg = args[i];
-
-    if (arg === '--limit' && args[i + 1]) {
-      const parsed = Number.parseInt(args[i + 1], 10);
-      if (Number.isFinite(parsed) && parsed > 0) {
-        limit = parsed;
-      }
-      i++;
-      continue;
-    }
-
-    if (arg === '--start' && args[i + 1]) {
-      const parsed = Number.parseInt(args[i + 1], 10);
-      if (Number.isFinite(parsed) && parsed > 0) {
-        start = parsed;
-      }
-      i++;
-      continue;
-    }
-
-    if (arg === '--page-size' && args[i + 1]) {
-      const parsed = Number.parseInt(args[i + 1], 10);
-      if (parsed === 10 || parsed === 20 || parsed === 50) {
-        pageSize = parsed;
-      }
-      i++;
-      continue;
-    }
-
-    if (arg === '--skip-fetch') {
-      skipFetch = true;
-      continue;
-    }
-
-    if (arg === '--full') {
-      full = true;
-      continue;
-    }
-
-    if (arg === '--in-force-only') {
-      inForceOnly = true;
-      continue;
-    }
-
-    if (arg === '--discover-only') {
-      discoverOnly = true;
-      continue;
-    }
-
-    if (arg === '--refresh-discovery') {
-      refreshDiscovery = true;
-      continue;
-    }
-
-    if (arg === '--resume') {
-      resume = true;
-      continue;
-    }
-  }
+  const toPositiveInt = (raw: string | undefined): number | null => {
+    if (!raw) return null;
+    const parsed = Number.parseInt(raw, 10);
+    return Number.isFinite(parsed) && parsed > 0 ? parsed : null;
+  };
 
   return {
-    limit,
-    start,
-    skipFetch,
-    full,
-    inForceOnly,
-    discoverOnly,
-    refreshDiscovery,
-    resume,
-    pageSize,
+    limit: toPositiveInt(values.limit),
+    start: toPositiveInt(values.start) ?? 1,
+    skipFetch: values['skip-fetch'] ?? false,
+    full: values.full ?? false,
+    inForceOnly: values['in-force-only'] ?? false,
+    discoverOnly: values['discover-only'] ?? false,
+    refreshDiscovery: values['refresh-discovery'] ?? false,
+    resume: values.resume ?? false,
   };
-}
-
-function decodeHtmlEntities(input: string): string {
-  const named = input
-    .replace(/&nbsp;/g, ' ')
-    .replace(/&amp;/g, '&')
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'")
-    .replace(/&ndash;/g, '-')
-    .replace(/&mdash;/g, '-')
-    .replace(/&shy;/g, '');
-
-  return named
-    .replace(/&#(\d+);/g, (_, code) => String.fromCodePoint(Number.parseInt(code, 10)))
-    .replace(/&#x([0-9a-fA-F]+);/g, (_, hex) => String.fromCodePoint(Number.parseInt(hex, 16)));
 }
 
 function htmlToText(input: string): string {
@@ -316,7 +247,7 @@ function discoveryCachePath(inForceOnly: boolean): string {
   return path.join(SOURCE_DIR, `law-discovery-${suffix}.json`);
 }
 
-function readDiscoveryCache(inForceOnly: boolean, expectedPageSize: number): DiscoveredLaw[] | null {
+function readDiscoveryCache(inForceOnly: boolean): DiscoveredLaw[] | null {
   const cacheFile = discoveryCachePath(inForceOnly);
   if (!fs.existsSync(cacheFile)) return null;
 
@@ -324,18 +255,18 @@ function readDiscoveryCache(inForceOnly: boolean, expectedPageSize: number): Dis
     const parsed = JSON.parse(fs.readFileSync(cacheFile, 'utf-8')) as DiscoverySeed;
     if (!Array.isArray(parsed.laws) || parsed.laws.length === 0) return null;
     if (parsed.inForceOnly !== inForceOnly) return null;
-    if (parsed.pageSize !== expectedPageSize) return null;
+    if (parsed.pageSize !== DISCOVERY_PAGE_SIZE) return null;
     return parsed.laws;
   } catch {
     return null;
   }
 }
 
-async function discoverLaws(inForceOnly: boolean, pageSize: 10 | 20 | 50): Promise<DiscoveredLaw[]> {
+async function discoverLaws(inForceOnly: boolean): Promise<DiscoveredLaw[]> {
   fs.mkdirSync(SOURCE_DIR, { recursive: true });
 
   const searchPath = await fetchSearchPathForLaws(inForceOnly);
-  const firstUrl = `https://njt.hu/search/${searchPath}/1/${pageSize}`;
+  const firstUrl = `https://njt.hu/search/${searchPath}/1/${DISCOVERY_PAGE_SIZE}`;
 
   const firstPageResponse = await fetchWithRateLimit(firstUrl);
   if (firstPageResponse.status !== 200) {
@@ -350,7 +281,7 @@ async function discoverLaws(inForceOnly: boolean, pageSize: 10 | 20 | 50): Promi
   }
 
   for (let page = 2; page <= totalPages; page++) {
-    const url = `https://njt.hu/search/${searchPath}/${page}/${pageSize}`;
+    const url = `https://njt.hu/search/${searchPath}/${page}/${DISCOVERY_PAGE_SIZE}`;
     const response = await fetchWithRateLimit(url);
     if (response.status !== 200) {
       throw new Error(`Discovery page ${page} failed (HTTP ${response.status})`);
@@ -373,7 +304,7 @@ async function discoverLaws(inForceOnly: boolean, pageSize: 10 | 20 | 50): Promi
     searchPath,
     generatedAt: new Date().toISOString(),
     inForceOnly,
-    pageSize,
+    pageSize: DISCOVERY_PAGE_SIZE,
     totalPages,
     totalDiscovered: laws.length,
     laws,
@@ -515,6 +446,9 @@ async function fetchAndParseActs(acts: ActIndexEntry[], skipFetch: boolean, resu
 
   const results: IngestionRow[] = [];
   const verbosePerAct = acts.length <= 20;
+  const progress = () => `[${processed + 1}/${acts.length}]`;
+  // One line per event; compact mode prefixes progress and trims detail.
+  const log = (verboseMsg: string, compactMsg: string) => console.log(verbosePerAct ? verboseMsg : compactMsg);
 
   for (const act of acts) {
     const sourceFile = path.join(SOURCE_DIR, `${parseSourceCacheKey(act)}.html`);
@@ -535,21 +469,13 @@ async function fetchAndParseActs(acts: ActIndexEntry[], skipFetch: boolean, resu
 
       if (skipFetch && fs.existsSync(sourceFile)) {
         html = fs.readFileSync(sourceFile, 'utf-8');
-        if (verbosePerAct) {
-          console.log(`  Using cached HTML for ${act.shortName ?? act.id}`);
-        }
+        log(`  Using cached HTML for ${act.shortName ?? act.id}`, `  ${progress()} ${act.shortName ?? act.id} -> cached`);
       } else {
-        if (verbosePerAct) {
-          process.stdout.write(`  Fetching ${act.shortName ?? act.id} (${act.url})...`);
-        }
+        log(`  Fetching ${act.shortName ?? act.id} (${act.url})...`, `  ${progress()} ${act.shortName ?? act.id} ...`);
         const result = await fetchWithRateLimit(act.url);
 
         if (result.status !== 200) {
-          if (verbosePerAct) {
-            console.log(` HTTP ${result.status}`);
-          } else {
-            console.log(`  [${processed + 1}/${acts.length}] ${act.shortName ?? act.id} -> HTTP ${result.status}`);
-          }
+          log(` HTTP ${result.status}`, `  ${progress()} ${act.shortName ?? act.id} -> HTTP ${result.status}`);
           results.push({
             act: act.shortName ?? act.id,
             provisions: 0,
@@ -568,11 +494,7 @@ async function fetchAndParseActs(acts: ActIndexEntry[], skipFetch: boolean, resu
           const metadataOnly = toMetadataOnlyAct(act);
           fs.writeFileSync(seedFile, `${JSON.stringify(metadataOnly, null, 2)}\n`);
 
-          if (verbosePerAct) {
-            console.log(' NO_SECTION_CONTENT -> METADATA_ONLY');
-          } else {
-            console.log(`  [${processed + 1}/${acts.length}] ${act.shortName ?? act.id} -> METADATA_ONLY (NO_SECTION_CONTENT)`);
-          }
+          log(' NO_SECTION_CONTENT -> METADATA_ONLY', `  ${progress()} ${act.shortName ?? act.id} -> METADATA_ONLY (NO_SECTION_CONTENT)`);
           results.push({
             act: act.shortName ?? act.id,
             provisions: 0,
@@ -583,9 +505,7 @@ async function fetchAndParseActs(acts: ActIndexEntry[], skipFetch: boolean, resu
           continue;
         }
 
-        if (verbosePerAct) {
-          console.log(` OK (${(html.length / 1024).toFixed(0)} KB)`);
-        }
+        log(` OK (${(html.length / 1024).toFixed(0)} KB)`, '');
       }
 
       const hydratedHtml = await hydrateDeferredBlocks(html, act, verbosePerAct);
@@ -598,11 +518,7 @@ async function fetchAndParseActs(acts: ActIndexEntry[], skipFetch: boolean, resu
         });
         fs.writeFileSync(seedFile, `${JSON.stringify(metadataOnly, null, 2)}\n`);
 
-        if (verbosePerAct) {
-          console.log('    -> 0 provisions extracted, stored as METADATA_ONLY');
-        } else {
-          console.log(`  [${processed + 1}/${acts.length}] ${act.shortName ?? act.id} -> METADATA_ONLY (NO_SECTION_CONTENT)`);
-        }
+        log('    -> 0 provisions extracted, stored as METADATA_ONLY', `  ${progress()} ${act.shortName ?? act.id} -> METADATA_ONLY (NO_SECTION_CONTENT)`);
 
         results.push({
           act: act.shortName ?? act.id,
@@ -627,23 +543,15 @@ async function fetchAndParseActs(acts: ActIndexEntry[], skipFetch: boolean, resu
         status: 'OK',
       });
 
-      const shouldLog = verbosePerAct || (processed + 1) % 25 === 0;
-      if (shouldLog) {
-        if (verbosePerAct) {
-          console.log(`    -> ${parsed.provisions.length} provisions, ${parsed.definitions.length} definitions extracted`);
-        } else {
-          console.log(
-            `  [${processed + 1}/${acts.length}] ok=${success} failed=${failed} cached=${cached} provisions=${totalProvisions} defs=${totalDefinitions}`
-          );
-        }
+      if (verbosePerAct || (processed + 1) % 25 === 0) {
+        log(
+          `    -> ${parsed.provisions.length} provisions, ${parsed.definitions.length} definitions extracted`,
+          `  ${progress()} ok=${success} failed=${failed} cached=${cached} provisions=${totalProvisions} defs=${totalDefinitions}`
+        );
       }
     } catch (error) {
       const message = error instanceof Error ? error.message : String(error);
-      if (verbosePerAct) {
-        console.log(`  ERROR ${act.shortName ?? act.id}: ${message}`);
-      } else {
-        console.log(`  [${processed + 1}/${acts.length}] ${act.shortName ?? act.id} -> ERROR: ${message.substring(0, 120)}`);
-      }
+      log(`  ERROR ${act.shortName ?? act.id}: ${message}`, `  ${progress()} ${act.shortName ?? act.id} -> ERROR: ${message.substring(0, 120)}`);
       results.push({
         act: act.shortName ?? act.id,
         provisions: 0,
@@ -709,7 +617,6 @@ async function main(): Promise<void> {
 
   if (args.full) {
     console.log(`  In-force only: ${args.inForceOnly ? 'yes' : 'no'}`);
-    console.log(`  Discovery page size: ${args.pageSize}`);
   }
 
   if (args.start > 1) console.log(`  --start ${args.start}`);
@@ -723,12 +630,12 @@ async function main(): Promise<void> {
 
   if (args.full) {
     let discovered = !args.refreshDiscovery
-      ? readDiscoveryCache(args.inForceOnly, args.pageSize)
+      ? readDiscoveryCache(args.inForceOnly)
       : null;
 
     if (!discovered) {
       console.log('\nDiscovering laws from njt.hu search index...');
-      discovered = await discoverLaws(args.inForceOnly, args.pageSize);
+      discovered = await discoverLaws(args.inForceOnly);
     } else {
       console.log(`\nLoaded discovery cache (${discovered.length} laws): ${discoveryCachePath(args.inForceOnly)}`);
     }

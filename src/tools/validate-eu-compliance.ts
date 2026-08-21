@@ -8,7 +8,6 @@ import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.j
 
 export interface ValidateEUComplianceInput {
   document_id: string;
-  provision_ref?: string;
   eu_document_id?: string;
 }
 

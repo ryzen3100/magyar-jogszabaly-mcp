@@ -85,19 +85,8 @@ describe('buildTools', () => {
     expect(names).not.toContain('about');
   });
 
-  it('runs definitions probe when db is provided and tolerates missing definitions table', () => {
-    const withDefinitions = trackDb(createTestDb({ withDefinitionsTable: true }));
-    const withoutDefinitions = trackDb(createTestDb({ withDefinitionsTable: false }));
-
-    const toolsWithDefinitions = buildTools(withDefinitions);
-    const toolsWithoutDefinitions = buildTools(withoutDefinitions);
-
-    expect(toolsWithDefinitions.map(t => t.name)).toContain('list_sources');
-    expect(toolsWithoutDefinitions.map(t => t.name)).toContain('list_sources');
-  });
-
   it('adds about when context is provided', () => {
-    const tools = buildTools(undefined, {
+    const tools = buildTools({
       version: '1.0.0',
       fingerprint: 'abc',
       dbBuilt: '2026-02-21T00:00:00Z',

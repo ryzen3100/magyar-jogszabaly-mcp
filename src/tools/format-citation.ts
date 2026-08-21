@@ -3,6 +3,7 @@
  */
 
 import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
+import { SECTION_FIRST_RE, SECTION_LAST_RE } from './validate-citation.js';
 import { resolveDocumentId } from '../utils/statute-id.js';
 import type Database from '@ansvar/mcp-sqlite';
 
@@ -24,8 +25,8 @@ function formatLegacyCitation(input: FormatCitationInput): FormatCitationResult 
   // Legacy tests call this helper without a DB. Preserve the previous English-style
   // formatter behavior for that direct call shape while the MCP tool path below
   // continues to return ToolResponse metadata and Hungarian § formatting.
-  const sectionFirst = trimmed.match(/^Section\s+(\d+[A-Za-z]*(?:\(\d+\))?)\s*[,;]?\s+(.+)$/i);
-  const sectionLast = trimmed.match(/^(.+?)\s*[,;]?\s+(?:s\.?\s+|Section\s+)(\d+[A-Za-z]*(?:\(\d+\))?)$/i);
+  const sectionFirst = trimmed.match(SECTION_FIRST_RE);
+  const sectionLast = trimmed.match(SECTION_LAST_RE);
 
   const section = sectionFirst?.[1] ?? sectionLast?.[2];
   const act = sectionFirst?.[2] ?? sectionLast?.[1] ?? trimmed;
@@ -73,10 +74,8 @@ export async function formatCitationTool(
   // Parse "document_id sNNN" format (e.g., "hu-law-2012-1-00-00 s116")
   const dbIdMatch = trimmed.match(/^(hu-law-\d{4}-\d+-\d{2}-\d{2})\s+s(\d+[A-Za-z]*(?:\/[A-Za-z])?)$/i);
 
-  // Parse "Section N <Act>" or "Section N, <Act>"
-  const sectionFirst = trimmed.match(/^Section\s+(\d+[A-Za-z]*(?:\(\d+\))?)\s*[,;]?\s+(.+)$/i);
-  // Parse "<Act> s N" or "<Act>, s N" or "<Act> Section N"
-  const sectionLast = trimmed.match(/^(.+?)\s*[,;]?\s+(?:s\.?\s+|Section\s+)(\d+[A-Za-z]*(?:\(\d+\))?)$/i);
+  const sectionFirst = trimmed.match(SECTION_FIRST_RE);
+  const sectionLast = trimmed.match(SECTION_LAST_RE);
 
   let section: string | undefined;
   let act: string;

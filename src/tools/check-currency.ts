@@ -9,7 +9,6 @@ import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.j
 export interface CheckCurrencyInput {
   document_id: string;
   provision_ref?: string;
-  as_of_date?: string;
 }
 
 export interface CheckCurrencyResult {

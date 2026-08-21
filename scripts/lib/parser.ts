@@ -61,7 +61,7 @@ interface NjtBlock {
   blockPos: number;
 }
 
-function decodeHtmlEntities(input: string): string {
+export function decodeHtmlEntities(input: string): string {
   const named = input
     .replace(/&nbsp;/g, ' ')
     .replace(/&amp;/g, '&')

@@ -8,7 +8,7 @@
  * Usage: npm run build:db
  */
 
-import Database from 'better-sqlite3';
+import Database from '@ansvar/mcp-sqlite';
 import * as fs from 'fs';
 import * as path from 'path';
 import { fileURLToPath } from 'url';
@@ -461,8 +461,13 @@ function buildDatabase(): void {
 
     const loadEuMappings = db.transaction(() => {
       for (const mapping of euMappings) {
-        // Insert EU document (if not already present from text extraction)
-        insertEuDocument.run(
+        // ponytail: @ansvar/mcp-sqlite can hold stale statement state after the
+        // big seed transaction, so prepare fresh here (14 rows, cost is nil).
+        // If the driver fixes statement reset, hoist these back out.
+        db.prepare(`
+          INSERT OR IGNORE INTO eu_documents (id, type, year, number, community, title, short_name, url_eur_lex, description)
+          VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+        `).run(
           mapping.eu_document_id,
           mapping.eu_type,
           mapping.eu_year,
@@ -483,7 +488,13 @@ function buildDatabase(): void {
 
         // Insert EU reference at document level
         try {
-          insertEuReference.run(
+          db.prepare(`
+            INSERT INTO eu_references
+              (source_type, source_id, document_id, provision_id, eu_document_id, eu_article,
+               reference_type, reference_context, full_citation, is_primary_implementation,
+               implementation_status, last_verified)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+          `).run(
             'document',                      // source_type
             mapping.hungarian_document_id,   // source_id
             mapping.hungarian_document_id,   // document_id
@@ -499,7 +510,11 @@ function buildDatabase(): void {
           );
           totalEuReferences++;
         } catch (e) {
-          // Ignore duplicates (UNIQUE constraint)
+          // Ignore duplicates (UNIQUE constraint); surface anything else
+          const msg = e instanceof Error ? e.message : String(e);
+          if (!msg.includes('UNIQUE constraint failed')) {
+            throw new Error(`EU mapping insert failed for ${mapping.hungarian_document_id} -> ${mapping.eu_document_id}: ${msg}`);
+          }
         }
         totalEuDocuments++;
       }

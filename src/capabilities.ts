@@ -5,17 +5,11 @@
 
 import type Database from '@ansvar/mcp-sqlite';
 
-export type Capability =
-  | 'core_legislation'
-  | 'eu_references'
-  | 'case_law'
-  | 'preparatory_works';
+export type Capability = 'core_legislation' | 'eu_references';
 
 const TABLE_MAP: Record<Capability, string[]> = {
   core_legislation: ['legal_documents', 'legal_provisions', 'provisions_fts'],
   eu_references: ['eu_documents', 'eu_references'],
-  case_law: ['case_law'],
-  preparatory_works: ['preparatory_works'],
 };
 
 export function detectCapabilities(db: InstanceType<typeof Database>): Set<Capability> {

@@ -24,8 +24,6 @@ async function rateLimit(): Promise<void> {
 export interface FetchResult {
   status: number;
   body: string;
-  contentType: string;
-  url: string;
 }
 
 async function requestWithRetry(
@@ -55,13 +53,7 @@ async function requestWithRetry(
       continue;
     }
 
-    const body = await response.text();
-    return {
-      status: response.status,
-      body,
-      contentType: response.headers.get('content-type') ?? '',
-      url: response.url,
-    };
+    return { status: response.status, body: await response.text() };
   }
 
   throw new Error(`Failed to fetch ${url} after ${maxRetries} retries`);

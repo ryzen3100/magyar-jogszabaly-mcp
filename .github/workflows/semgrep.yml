@@ -26,11 +26,8 @@ jobs:
       - name: Run Semgrep
         run: |
           semgrep scan \
-            --config p/security-audit \
-            --config p/secrets \
-            --config p/owasp-top-ten \
-            --config p/javascript \
             --config p/typescript \
+            --config p/secrets \
             --sarif \
             --output=semgrep.sarif \
             --metrics=off

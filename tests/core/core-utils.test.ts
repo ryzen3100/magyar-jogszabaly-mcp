@@ -3,9 +3,6 @@ import Database from '@ansvar/mcp-sqlite';
 
 import {
   DB_ENV_VAR,
-  PACKAGE_NAME,
-  REPOSITORY_URL,
-  SERVER_LABEL,
   SERVER_NAME,
   SERVER_VERSION,
 } from '../../src/constants.js';
@@ -34,9 +31,6 @@ describe('constants', () => {
   it('exports expected server/package identifiers', () => {
     expect(SERVER_NAME).toBe('hungarian-law-mcp');
     expect(SERVER_VERSION).toBe('1.0.0');
-    expect(SERVER_LABEL).toBe('Hungarian Law MCP');
-    expect(PACKAGE_NAME).toBe('@ansvar/hungarian-law-mcp');
-    expect(REPOSITORY_URL).toContain('Hungarian-law-mcp');
     expect(DB_ENV_VAR).toBe('HUNGARIAN_LAW_DB_PATH');
   });
 });
@@ -115,8 +109,7 @@ describe('capabilities', () => {
     const caps = detectCapabilities(db);
     expect(caps.has('core_legislation')).toBe(true);
     expect(caps.has('eu_references')).toBe(true);
-    expect(caps.has('case_law')).toBe(false);
-    expect(caps.has('preparatory_works')).toBe(false);
+    expect(caps.size).toBe(2);
   });
 
   it('reads db metadata and falls back when metadata table is missing', () => {

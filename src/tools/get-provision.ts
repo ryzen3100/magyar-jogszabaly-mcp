@@ -10,7 +10,6 @@ export interface GetProvisionInput {
   document_id: string;
   section?: string;
   provision_ref?: string;
-  as_of_date?: string;
 }
 
 export interface ProvisionResult {
@@ -35,7 +34,7 @@ export async function getProvision(
       results: [],
       _metadata: {
         ...generateResponseMetadata(db),
-        ...{ note: `No document found matching "${input.document_id}"` },
+        note: `No document found matching "${input.document_id}"`,
       },
     };
   }
@@ -99,7 +98,7 @@ export async function getProvision(
       results: [],
       _metadata: {
         ...generateResponseMetadata(db),
-        ...{ note: `Provision "${ref}" not found in document "${resolvedId}"` },
+        note: `Provision "${ref}" not found in document "${resolvedId}"`,
       },
     };
   }

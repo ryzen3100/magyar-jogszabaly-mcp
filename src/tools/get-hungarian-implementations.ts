@@ -32,7 +32,7 @@ export async function getHungarianImplementations(
       results: [],
       _metadata: {
         ...generateResponseMetadata(db),
-        ...{ note: 'EU references not available in this database tier' },
+        note: 'EU references not available in this database tier',
       },
     };
   }

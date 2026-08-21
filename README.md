@@ -18,13 +18,6 @@ Az [Ansvar Systems](https://ansvar.eu) Hungarian Law MCP-szerverére épül, és
 
 A szerver helyi hálózaton való futtatásra készült: nincs nyilvános végpont, és nincs szükség routeres porttovábbításra. Alapértelmezés szerint az MCP-végpont nem használ külön alkalmazásszintű hitelesítést; a hozzáférést az OpenMediaVault tűzfala korlátozza a helyi hálózatra.
 
-Ha egy MCP-kliens OAuth-hitelesítést igényel, engedélyezd azt az OpenMediaVaultot futtató gépen, a projekt könyvtárában található `.env` fájlban:
-
-```dotenv
-# OAUTH_ENABLED=true
-# BASE_URL=http://openmediavault.local:3000
-```
-
 Indítsd el a szolgáltatást:
 
 ```bash

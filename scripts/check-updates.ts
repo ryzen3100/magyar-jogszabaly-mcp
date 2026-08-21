@@ -27,15 +27,9 @@ const MAX_DB_AGE_DAYS = Number(process.env['MAX_DB_AGE_DAYS'] ?? '90');
 const PORTAL_URL = 'https://njt.hu';
 const PORTAL_NAME = 'Nemzeti Jogszabalytár (National Legislation Database)';
 
-interface CensusSummary {
+interface CensusData {
   total_laws?: number;
-  total_ingestable?: number;
-  total_ingested?: number;
-}
-
-interface CensusData extends CensusSummary {
   total_provisions?: number;
-  summary?: CensusSummary;
 }
 
 function daysSince(isoDate: string): number | null {
@@ -133,10 +127,7 @@ async function main(): Promise<void> {
   if (existsSync(CENSUS_PATH)) {
     try {
       const census = JSON.parse(readFileSync(CENSUS_PATH, 'utf-8')) as CensusData;
-      const expectedDocuments = census.total_laws
-        ?? census.summary?.total_ingested
-        ?? census.summary?.total_ingestable
-        ?? census.summary?.total_laws;
+      const expectedDocuments = census.total_laws;
       const expectedProvisions = census.total_provisions;
 
       if (expectedDocuments === undefined) {

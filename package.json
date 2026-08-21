@@ -41,14 +41,13 @@
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
     "ingest": "node --import tsx scripts/ingest.ts",
-    "ingest:discover": "node --import tsx scripts/ingest.ts --full --discover-only --page-size 50",
-    "ingest:full": "node --import tsx scripts/ingest.ts --full --resume --page-size 50",
-    "ingest:full:inforce": "node --import tsx scripts/ingest.ts --full --in-force-only --resume --page-size 50",
+    "ingest:discover": "node --import tsx scripts/ingest.ts --full --discover-only",
+    "ingest:full": "node --import tsx scripts/ingest.ts --full --resume",
+    "ingest:full:inforce": "node --import tsx scripts/ingest.ts --full --in-force-only --resume",
     "test:contract": "vitest run __tests__/contract/",
     "validate": "npm run lint && npm test && npm run test:contract",
     "lint": "tsc --noEmit",
     "prepublishOnly": "npm run build",
-    "postinstall": "test -d dist || npm run build || true",
     "check-updates": "node --import tsx scripts/check-updates.ts"
   },
   "dependencies": {
@@ -56,10 +55,8 @@
     "@modelcontextprotocol/sdk": "^1.30.0"
   },
   "devDependencies": {
-    "@types/better-sqlite3": "^7.6.13",
     "@types/node": "^22.20.1",
     "@vitest/coverage-v8": "^3.2.7",
-    "better-sqlite3": "^12.11.1",
     "tsx": "^4.23.12",
     "typescript": "^5.9.3",
     "vitest": "^3.2.7"

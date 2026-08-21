@@ -32,6 +32,9 @@ export interface ValidateCitationResult {
  * - "s 13" (section only, no document)
  * - Plain document reference (e.g., "Privacy Act 1988")
  */
+export const SECTION_FIRST_RE = /^Section\s+(\d+[A-Za-z]*(?:\(\d+\))?)\s*[,;]?\s+(.+)$/i;
+export const SECTION_LAST_RE = /^(.+?)\s*[,;]?\s+(?:s\.?\s+|Section\s+)(\d+[A-Za-z]*(?:\(\d+\))?)$/i;
+
 function parseCitation(citation: string): { documentRef: string; sectionRef?: string } | null {
   const trimmed = citation.trim();
   if (!trimmed) return null;
@@ -69,9 +72,7 @@ function parseCitation(citation: string): { documentRef: string; sectionRef?: st
   }
 
   // "Section N <Act>" or "Section N, <Act>"
-  const sectionFirst = trimmed.match(
-    /^Section\s+(\d+[A-Za-z]*(?:\(\d+\))?)\s*[,;]?\s+(.+)$/i
-  );
+  const sectionFirst = trimmed.match(SECTION_FIRST_RE);
   if (sectionFirst) {
     return { documentRef: sectionFirst[2].trim(), sectionRef: sectionFirst[1] };
   }
@@ -85,9 +86,7 @@ function parseCitation(citation: string): { documentRef: string; sectionRef?: st
   }
 
   // "<Act> Section N" or "<Act>, Section N"
-  const sectionWordLast = trimmed.match(
-    /^(.+?)\s*[,;]?\s+Section\s+(\d+[A-Za-z]*(?:\(\d+\))?)$/i
-  );
+  const sectionWordLast = trimmed.match(SECTION_LAST_RE);
   if (sectionWordLast) {
     return { documentRef: sectionWordLast[1].trim(), sectionRef: sectionWordLast[2] };
   }

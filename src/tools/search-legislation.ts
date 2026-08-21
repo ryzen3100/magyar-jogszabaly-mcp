@@ -4,7 +4,6 @@
 
 import type Database from '@ansvar/mcp-sqlite';
 import { buildFtsQueryVariants, buildLikePattern, sanitizeFtsInput } from '../utils/fts-query.js';
-import { normalizeAsOfDate } from '../utils/as-of-date.js';
 import { resolveDocumentId } from '../utils/statute-id.js';
 import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
 
@@ -12,7 +11,6 @@ export interface SearchLegislationInput {
   query: string;
   document_id?: string;
   status?: string;
-  as_of_date?: string;
   limit?: number;
 }
 

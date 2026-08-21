@@ -35,7 +35,7 @@ export async function searchEUImplementations(
       results: [],
       _metadata: {
         ...generateResponseMetadata(db),
-        ...{ note: 'EU documents not available in this database tier' },
+        note: 'EU documents not available in this database tier',
       },
     };
   }
