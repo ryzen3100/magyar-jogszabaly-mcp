@@ -9,6 +9,7 @@
 const USER_AGENT =
   'Hungarian-Law-MCP/1.0 (+https://github.com/Ansvar-Systems/Hungarian-law-mcp; hello@ansvar.eu)';
 const MIN_DELAY_MS = 1200;
+const MAX_RETRIES = 3;
 
 let lastRequestTime = 0;
 
@@ -26,17 +27,13 @@ export interface FetchResult {
   body: string;
 }
 
-async function requestWithRetry(
-  url: string,
-  init: RequestInit,
-  maxRetries: number
-): Promise<FetchResult> {
-  for (let attempt = 0; attempt <= maxRetries; attempt++) {
+async function requestWithRetry(url: string, init: RequestInit): Promise<FetchResult> {
+  for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
     let response: Response;
     try {
       response = await fetch(url, init);
     } catch (error) {
-      if (attempt < maxRetries) {
+      if (attempt < MAX_RETRIES) {
         const backoff = Math.pow(2, attempt + 1) * 1000;
         const message = error instanceof Error ? error.message : String(error);
         console.log(`  Network error for ${url}: ${message}. Retrying in ${backoff}ms...`);
@@ -46,7 +43,7 @@ async function requestWithRetry(
       throw error;
     }
 
-    if ((response.status === 429 || response.status >= 500) && attempt < maxRetries) {
+    if ((response.status === 429 || response.status >= 500) && attempt < MAX_RETRIES) {
       const backoff = Math.pow(2, attempt + 1) * 1000;
       console.log(`  HTTP ${response.status} for ${url}, retrying in ${backoff}ms...`);
       await new Promise(resolve => setTimeout(resolve, backoff));
@@ -56,13 +53,13 @@ async function requestWithRetry(
     return { status: response.status, body: await response.text() };
   }
 
-  throw new Error(`Failed to fetch ${url} after ${maxRetries} retries`);
+  throw new Error(`Failed to fetch ${url} after ${MAX_RETRIES} retries`);
 }
 
 /**
  * Fetch a URL with rate limiting and retries on transient failures.
  */
-export async function fetchWithRateLimit(url: string, maxRetries = 3): Promise<FetchResult> {
+export async function fetchWithRateLimit(url: string): Promise<FetchResult> {
   await rateLimit();
 
   return requestWithRetry(
@@ -73,16 +70,11 @@ export async function fetchWithRateLimit(url: string, maxRetries = 3): Promise<F
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
       },
       redirect: 'follow',
-    },
-    maxRetries
+    }
   );
 }
 
-export async function postJsonWithRateLimit(
-  url: string,
-  payload: unknown,
-  maxRetries = 3
-): Promise<FetchResult> {
+export async function postJsonWithRateLimit(url: string, payload: unknown): Promise<FetchResult> {
   await rateLimit();
 
   return requestWithRetry(
@@ -96,7 +88,6 @@ export async function postJsonWithRateLimit(
       },
       body: JSON.stringify(payload),
       redirect: 'follow',
-    },
-    maxRetries
+    }
   );
 }

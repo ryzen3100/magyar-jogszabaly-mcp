@@ -11,7 +11,6 @@
  *   npm run ingest -- --full --in-force-only        # Full discovery for in-force laws only
  *   npm run ingest -- --full --discover-only        # Discover all laws metadata only
  *   npm run ingest -- --full --resume               # Skip already-generated seed files
- *   npm run ingest -- --limit 50 --start 101        # Process windowed batch
  *   npm run ingest -- --skip-fetch                  # Reuse locally cached HTML where available
  */
 
@@ -33,11 +32,7 @@ const SEARCH_URL_ENDPOINT = 'https://njt.hu/ajax/get_search_url.json';
 // ponytail: njt.hu default page size; only surfaced as a flag for no reason
 const DISCOVERY_PAGE_SIZE = 50;
 
-type IngestStatus = string;
-
 interface CliArgs {
-  limit: number | null;
-  start: number;
   skipFetch: boolean;
   full: boolean;
   inForceOnly: boolean;
@@ -47,12 +42,8 @@ interface CliArgs {
 }
 
 interface DiscoverySeed {
-  searchPath: string;
-  generatedAt: string;
   inForceOnly: boolean;
   pageSize: number;
-  totalPages: number;
-  totalDiscovered: number;
   laws: DiscoveredLaw[];
 }
 
@@ -71,7 +62,7 @@ interface IngestionRow {
   act: string;
   provisions: number;
   definitions: number;
-  status: IngestStatus;
+  status: string;
 }
 
 function toMetadataOnlyAct(act: ActIndexEntry): ParsedAct {
@@ -96,8 +87,6 @@ function toMetadataOnlyAct(act: ActIndexEntry): ParsedAct {
 function parseArgs(): CliArgs {
   const { values } = parseCliArgs({
     options: {
-      limit: { type: 'string' },
-      start: { type: 'string' },
       'skip-fetch': { type: 'boolean', default: false },
       full: { type: 'boolean', default: false },
       'in-force-only': { type: 'boolean', default: false },
@@ -107,15 +96,7 @@ function parseArgs(): CliArgs {
     },
   });
 
-  const toPositiveInt = (raw: string | undefined): number | null => {
-    if (!raw) return null;
-    const parsed = Number.parseInt(raw, 10);
-    return Number.isFinite(parsed) && parsed > 0 ? parsed : null;
-  };
-
   return {
-    limit: toPositiveInt(values.limit),
-    start: toPositiveInt(values.start) ?? 1,
     skipFetch: values['skip-fetch'] ?? false,
     full: values.full ?? false,
     inForceOnly: values['in-force-only'] ?? false,
@@ -134,15 +115,6 @@ function htmlToText(input: string): string {
     .replace(/[\u00a0\u2000-\u200a\u202f\u205f\u3000]/g, ' ')
     .replace(/\s+/g, ' ')
     .trim();
-}
-
-function parseHungarianDateToIso(text: string | undefined): string | undefined {
-  if (!text) return undefined;
-
-  const match = text.match(/(\d{4})\.\s*(\d{2})\.\s*(\d{2})\./);
-  if (!match) return undefined;
-
-  return `${match[1]}-${match[2]}-${match[3]}`;
 }
 
 function extractNjtDocumentId(url: string): string | null {
@@ -187,8 +159,8 @@ function parseSearchResultPage(html: string): DiscoveredLaw[] {
     const titleEn = titleEnRaw ? htmlToText(titleEnRaw) : undefined;
 
     const dateSpan = htmlToText(chunk.match(/<span class=\"resultDate\"[^>]*>([\s\S]*?)<\/span>/i)?.[1] ?? '');
-    const dateMatches = [...dateSpan.matchAll(/\d{4}\.\s*\d{2}\.\s*\d{2}\./g)].map(m => m[0]);
-    const inForceDate = parseHungarianDateToIso(dateMatches[0]);
+    const dateMatch = dateSpan.match(/(\d{4})\.\s*(\d{2})\.\s*(\d{2})\./);
+    const inForceDate = dateMatch ? `${dateMatch[1]}-${dateMatch[2]}-${dateMatch[3]}` : undefined;
 
     let status: ActIndexEntry['status'] = 'amended';
     if (linkClasses.includes('now')) status = 'in_force';
@@ -301,12 +273,8 @@ async function discoverLaws(inForceOnly: boolean): Promise<DiscoveredLaw[]> {
   const laws = Array.from(discoveredMap.values()).sort((a, b) => a.documentId.localeCompare(b.documentId));
 
   const cache: DiscoverySeed = {
-    searchPath,
-    generatedAt: new Date().toISOString(),
     inForceOnly,
     pageSize: DISCOVERY_PAGE_SIZE,
-    totalPages,
-    totalDiscovered: laws.length,
     laws,
   };
 
@@ -619,8 +587,6 @@ async function main(): Promise<void> {
     console.log(`  In-force only: ${args.inForceOnly ? 'yes' : 'no'}`);
   }
 
-  if (args.start > 1) console.log(`  --start ${args.start}`);
-  if (args.limit) console.log(`  --limit ${args.limit}`);
   if (args.skipFetch) console.log('  --skip-fetch');
   if (args.resume) console.log('  --resume');
   if (args.discoverOnly) console.log('  --discover-only');
@@ -649,16 +615,12 @@ async function main(): Promise<void> {
     acts = [...KEY_HUNGARIAN_ACTS];
   }
 
-  const startIndex = Math.max(0, args.start - 1);
-  const fromStart = acts.slice(startIndex);
-  const selectedActs = args.limit ? fromStart.slice(0, args.limit) : fromStart;
-
   if (args.discoverOnly) {
-    console.log(`\nDiscovery-only run completed. Selected acts for ingestion would be: ${selectedActs.length}`);
+    console.log(`\nDiscovery-only run completed. Selected acts for ingestion would be: ${acts.length}`);
     return;
   }
 
-  await fetchAndParseActs(selectedActs, args.skipFetch, args.resume);
+  await fetchAndParseActs(acts, args.skipFetch, args.resume);
 }
 
 main().catch(error => {

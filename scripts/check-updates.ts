@@ -23,7 +23,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const DB_PATH = resolve(__dirname, '../data/database.db');
 const CENSUS_PATH = resolve(__dirname, '../data/census.json');
 
-const MAX_DB_AGE_DAYS = Number(process.env['MAX_DB_AGE_DAYS'] ?? '90');
+const MAX_DB_AGE_DAYS = 90;
 const PORTAL_URL = 'https://njt.hu';
 const PORTAL_NAME = 'Nemzeti Jogszabalytár (National Legislation Database)';
 
