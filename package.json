@@ -23,9 +23,9 @@
     "ansvar"
   ],
   "type": "module",
-  "main": "dist/index.js",
+  "main": "dist/src/index.js",
   "bin": {
-    "hungarian-law-mcp": "dist/index.js"
+    "hungarian-law-mcp": "dist/src/index.js"
   },
   "files": [
     "dist",
@@ -36,7 +36,7 @@
     "build": "tsc",
     "build:db": "node --import tsx scripts/build-db.ts",
     "dev": "node --import tsx src/index.ts",
-    "start": "node dist/index.js",
+    "start": "node dist/src/index.js",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
