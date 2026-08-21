@@ -58,12 +58,19 @@ export async function getEUBasis(
 
   const rows = db.prepare(sql).all(...params) as EUBasisResult[];
 
-  if (input.include_articles) {
+  if (input.include_articles && rows.length > 0) {
+    const articleRows = db.prepare(
+      'SELECT DISTINCT eu_document_id, eu_article FROM eu_references WHERE document_id = ?'
+    ).all(resolvedId) as { eu_document_id: string; eu_article: string | null }[];
+    const articlesByDoc = new Map<string, string[]>();
+    for (const r of articleRows) {
+      if (r.eu_article == null) continue;
+      const list = articlesByDoc.get(r.eu_document_id);
+      if (list) list.push(r.eu_article);
+      else articlesByDoc.set(r.eu_document_id, [r.eu_article]);
+    }
     for (const row of rows) {
-      const articles = db.prepare(
-        'SELECT DISTINCT eu_article FROM eu_references WHERE document_id = ? AND eu_document_id = ? AND eu_article IS NOT NULL'
-      ).all(resolvedId, row.eu_document_id) as { eu_article: string }[];
-      row.articles = articles.map(a => a.eu_article);
+      row.articles = articlesByDoc.get(row.eu_document_id) ?? [];
     }
   }
 

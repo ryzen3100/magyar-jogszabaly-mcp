@@ -3,7 +3,7 @@
  */
 
 import type Database from '@ansvar/mcp-sqlite';
-import { safeCount } from '../utils/metadata.js';
+import { cachedCount } from '../utils/metadata.js';
 
 export interface AboutContext {
   version: string;
@@ -13,16 +13,16 @@ export interface AboutContext {
 
 export function getAbout(db: InstanceType<typeof Database>, context: AboutContext) {
 
-  const euRefs = safeCount(db, 'SELECT COUNT(*) as count FROM eu_references');
+  const euRefs = cachedCount(db, 'SELECT COUNT(*) as count FROM eu_references');
 
   const stats: Record<string, number> = {
-    documents: safeCount(db, 'SELECT COUNT(*) as count FROM legal_documents'),
-    provisions: safeCount(db, 'SELECT COUNT(*) as count FROM legal_provisions'),
-    definitions: safeCount(db, 'SELECT COUNT(*) as count FROM definitions'),
+    documents: cachedCount(db, 'SELECT COUNT(*) as count FROM legal_documents'),
+    provisions: cachedCount(db, 'SELECT COUNT(*) as count FROM legal_provisions'),
+    definitions: cachedCount(db, 'SELECT COUNT(*) as count FROM definitions'),
   };
 
   if (euRefs > 0) {
-    stats.eu_documents = safeCount(db, 'SELECT COUNT(*) as count FROM eu_documents');
+    stats.eu_documents = cachedCount(db, 'SELECT COUNT(*) as count FROM eu_documents');
     stats.eu_references = euRefs;
   }
 

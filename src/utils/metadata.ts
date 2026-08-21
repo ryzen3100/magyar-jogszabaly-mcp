@@ -28,6 +28,24 @@ export function safeCount(db: InstanceType<typeof Database>, sql: string): numbe
   }
 }
 
+// Readonly DB → counts never change per connection.
+const countCache = new WeakMap<InstanceType<typeof Database>, Map<string, number>>();
+
+/** cachedCount: like safeCount, but memoized per db+sql (immutable facts). */
+export function cachedCount(db: InstanceType<typeof Database>, sql: string): number {
+  let bySql = countCache.get(db);
+  if (!bySql) {
+    bySql = new Map();
+    countCache.set(db, bySql);
+  }
+  let count = bySql.get(sql);
+  if (count === undefined) {
+    count = safeCount(db, sql);
+    bySql.set(sql, count);
+  }
+  return count;
+}
+
 export function generateResponseMetadata(
   db: InstanceType<typeof Database>,
 ): ResponseMetadata {
