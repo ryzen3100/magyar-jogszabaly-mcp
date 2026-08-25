@@ -41,6 +41,43 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const PORT = parseInt(process.env.PORT || '3000', 10);
 
+// ponytail: session cap + fixed idle TTL, no config knob (~68KB+ leaked per abandoned session).
+const MAX_SESSIONS = 500;
+const SESSION_TTL_MS = 30 * 60 * 1000;
+
+// Static icon — read once at startup (dist layout first, repo-root fallback).
+let iconBuffer: Buffer | null = null;
+try {
+  iconBuffer = readFileSync(
+    existsSync(join(__dirname, '..', 'icon.png'))
+      ? join(__dirname, '..', 'icon.png')
+      : join(__dirname, '..', '..', 'icon.png'),
+  );
+} catch { /* icon unavailable → /icon.png serves 404 */ }
+
+// Server card payload is fully static — stringify once.
+const SERVER_CARD_JSON = JSON.stringify({
+  serverInfo: {
+    name: SERVER_NAME,
+    version: SERVER_VERSION,
+    displayName: 'Hungarian Law MCP',
+    description: 'Full-text search across 4,300+ Hungarian statutes and 130,000+ provisions. Covers the full corpus from Nemzeti Jogszabálytár (njt.hu) including Ptk., Infotv., Mt., Btk., and EU cross-references. Database freshness is checked daily; new data is shipped with new container images.',
+    homepage: 'https://github.com/Ansvar-Systems/Hungarian-law-mcp',
+    keywords: ['hungarian-law', 'legislation', 'legal', 'mcp', 'gdpr', 'data-protection', 'cybersecurity', 'compliance', 'ptk', 'infotv'],
+    author: 'Ansvar Systems / AVIAN Care Kft.',
+    license: 'Apache-2.0',
+  },
+  capabilities: {
+    tools: true,
+    prompts: true,
+    resources: true,
+  },
+  transport: {
+    type: 'streamable-http',
+    url: '/mcp',
+  },
+});
+
 // ---------------------------------------------------------------------------
 // Session management
 // ---------------------------------------------------------------------------
@@ -53,7 +90,23 @@ function validSessionId(raw: string | undefined): string | undefined {
   return raw;
 }
 
-const sessions = new Map<string, StreamableHTTPServerTransport>();
+interface SessionEntry {
+  transport: StreamableHTTPServerTransport;
+  lastSeen: number;
+}
+
+const sessions = new Map<string, SessionEntry>();
+
+/** Drop sessions idle beyond SESSION_TTL_MS (runs opportunistically per /mcp request). */
+function sweepIdleSessions(): void {
+  const now = Date.now();
+  for (const [id, entry] of sessions) {
+    if (now - entry.lastSeen > SESSION_TTL_MS) {
+      sessions.delete(id);
+      try { entry.transport.close().catch(() => {}); } catch { /* already closed */ }
+    }
+  }
+}
 
 // ---------------------------------------------------------------------------
 // Main
@@ -150,17 +203,21 @@ async function main() {
       const { uri } = request.params;
       if (uri === 'hungarian-law://sources') {
         const sources = await listSourcesFn(db);
-        return { contents: [{ uri, mimeType: 'application/json', text: JSON.stringify(sources, null, 2) }] };
+        return { contents: [{ uri, mimeType: 'application/json', text: JSON.stringify(sources) }] };
       }
       if (uri === 'hungarian-law://stats') {
         const about = getAboutFn(db, aboutContext);
-        return { contents: [{ uri, mimeType: 'application/json', text: JSON.stringify(about, null, 2) }] };
+        return { contents: [{ uri, mimeType: 'application/json', text: JSON.stringify(about) }] };
       }
       throw new Error(`Unknown resource: ${uri}`);
     });
 
     return server;
   }
+
+  // /health COUNT pair is expensive on a large readonly DB — compute once on
+  // the first fully successful probe; failures and stub/empty results retry.
+  let healthCounts: { documents: number; provisions: number } | null = null;
 
   // -------------------------------------------------------------------------
   // HTTP server
@@ -187,13 +244,16 @@ async function main() {
       if (url.pathname === '/health' && (req.method === 'GET' || req.method === 'HEAD')) {
         let dbOk = false;
         try {
-          if (caps.has('core_legislation')) {
+          if (healthCounts) {
+            dbOk = true;
+          } else if (caps.has('core_legislation')) {
             const counts = db.prepare(`
               SELECT
                 (SELECT COUNT(*) FROM legal_documents) AS documents,
                 (SELECT COUNT(*) FROM legal_provisions) AS provisions
             `).get() as { documents: number; provisions: number };
             dbOk = Number(counts.documents) > 0 && Number(counts.provisions) > 0;
+            if (dbOk) healthCounts = counts; // cache success only — failures re-probe next call
           }
         } catch { /* DB not healthy */ }
 
@@ -213,7 +273,10 @@ async function main() {
 
         // Existing session — delegate
         if (sessionId && sessions.has(sessionId)) {
-          await sessions.get(sessionId)!.handleRequest(req, res);
+          const entry = sessions.get(sessionId)!;
+          entry.lastSeen = Date.now();
+          sweepIdleSessions();
+          await entry.transport.handleRequest(req, res);
           return;
         }
 
@@ -234,7 +297,19 @@ async function main() {
             sessionIdGenerator: () => newSessionId,
           });
 
-          sessions.set(newSessionId, transport);
+          // Evict the oldest session at capacity (Map preserves insertion order).
+          if (sessions.size >= MAX_SESSIONS) {
+            const oldestId = sessions.keys().next().value;
+            if (oldestId !== undefined) {
+              const oldest = sessions.get(oldestId);
+              sessions.delete(oldestId);
+              if (oldest) {
+                try { oldest.transport.close().catch(() => {}); } catch { /* ignore */ }
+              }
+            }
+          }
+
+          sessions.set(newSessionId, { transport, lastSeen: Date.now() });
 
           transport.onclose = () => {
             sessions.delete(newSessionId);
@@ -264,48 +339,23 @@ async function main() {
         return;
       }
 
-      // GET /icon.png — server icon
+      // GET /icon.png — server icon (read once at startup)
       if (url.pathname === '/icon.png' && (req.method === 'GET' || req.method === 'HEAD')) {
-        try {
-          // dist/icon.png (packaged/Docker layout) with repo-root fallback for plain local runs
-          const iconPath = existsSync(join(__dirname, '..', 'icon.png'))
-            ? join(__dirname, '..', 'icon.png')
-            : join(__dirname, '..', '..', 'icon.png');
-          const iconData = readFileSync(iconPath);
-          res.writeHead(200, { 'Content-Type': 'image/png', 'Cache-Control': 'public, max-age=86400', 'Content-Length': iconData.length.toString() });
-          if (req.method !== 'HEAD') res.end(iconData);
+        if (iconBuffer) {
+          res.writeHead(200, { 'Content-Type': 'image/png', 'Cache-Control': 'public, max-age=86400', 'Content-Length': iconBuffer.length.toString() });
+          if (req.method !== 'HEAD') res.end(iconBuffer);
           else res.end();
-        } catch {
+        } else {
           res.writeHead(404);
           res.end();
         }
         return;
       }
 
-      // GET /.well-known/mcp/server-card.json — MCP server card for registries
+      // GET /.well-known/mcp/server-card.json — MCP server card (static, prebuilt)
       if (url.pathname === '/.well-known/mcp/server-card.json' && req.method === 'GET') {
         res.writeHead(200, { 'Content-Type': 'application/json' });
-        res.end(JSON.stringify({
-          serverInfo: {
-            name: SERVER_NAME,
-            version: SERVER_VERSION,
-            displayName: 'Hungarian Law MCP',
-            description: 'Full-text search across 4,300+ Hungarian statutes and 130,000+ provisions. Covers the full corpus from Nemzeti Jogszabálytár (njt.hu) including Ptk., Infotv., Mt., Btk., and EU cross-references. Database freshness is checked daily; new data is shipped with new container images.',
-            homepage: 'https://github.com/Ansvar-Systems/Hungarian-law-mcp',
-            keywords: ['hungarian-law', 'legislation', 'legal', 'mcp', 'gdpr', 'data-protection', 'cybersecurity', 'compliance', 'ptk', 'infotv'],
-            author: 'Ansvar Systems / AVIAN Care Kft.',
-            license: 'Apache-2.0',
-          },
-          capabilities: {
-            tools: true,
-            prompts: true,
-            resources: true,
-          },
-          transport: {
-            type: 'streamable-http',
-            url: '/mcp',
-          },
-        }));
+        res.end(SERVER_CARD_JSON);
         return;
       }
 
@@ -331,7 +381,7 @@ async function main() {
 
   const shutdown = (signal: string) => {
     console.error(`[${SERVER_NAME}] Shutting down (${signal})...`);
-    for (const [, t] of sessions) t.close().catch(() => {});
+    for (const [, e] of sessions) e.transport.close().catch(() => {});
     sessions.clear();
     try { db.close(); } catch { /* ignore */ }
     httpServer.close(() => process.exit(0));

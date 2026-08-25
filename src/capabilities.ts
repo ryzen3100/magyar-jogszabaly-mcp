@@ -30,31 +30,52 @@ interface DbMetadata {
   built_at?: string;
 }
 
+// DB is opened readonly, so metadata never changes per connection.
+const metadataCache = new WeakMap<InstanceType<typeof Database>, DbMetadata>();
+
 export function readDbMetadata(db: InstanceType<typeof Database>): DbMetadata {
-  const meta: Record<string, string> = {};
-  try {
-    const rows = db.prepare('SELECT key, value FROM db_metadata').all() as { key: string; value: string }[];
-    for (const row of rows) {
-      meta[row.key] = row.value;
+  let cached = metadataCache.get(db);
+  if (!cached) {
+    const meta: Record<string, string> = {};
+    try {
+      const rows = db.prepare('SELECT key, value FROM db_metadata').all() as { key: string; value: string }[];
+      for (const row of rows) {
+        meta[row.key] = row.value;
+      }
+    } catch {
+      // db_metadata table may not exist
     }
-  } catch {
-    // db_metadata table may not exist
+    cached = Object.freeze({
+      tier: meta.tier ?? 'free',
+      schema_version: meta.schema_version ?? '1.0',
+      built_at: meta.built_at,
+    });
+    metadataCache.set(db, cached);
   }
-  return {
-    tier: meta.tier ?? 'free',
-    schema_version: meta.schema_version ?? '1.0',
-    built_at: meta.built_at,
-  };
+  return cached;
 }
+
+// Readonly DB → table presence never changes per connection.
+const euAvailabilityCache = new WeakMap<InstanceType<typeof Database>, Map<string, boolean>>();
 
 /** Probe whether an EU table exists. Callers pass compile-time table names only. */
 export function euAvailable(db: InstanceType<typeof Database>, table = 'eu_references'): boolean {
-  try {
-    db.prepare(`SELECT 1 FROM ${table} LIMIT 1`).get();
-    return true;
-  } catch {
-    return false;
+  let byTable = euAvailabilityCache.get(db);
+  if (!byTable) {
+    byTable = new Map();
+    euAvailabilityCache.set(db, byTable);
   }
+  let available = byTable.get(table);
+  if (available === undefined) {
+    try {
+      db.prepare(`SELECT 1 FROM ${table} LIMIT 1`).get();
+      available = true;
+    } catch {
+      available = false;
+    }
+    byTable.set(table, available);
+  }
+  return available;
 }
 
 export function euUnavailable(

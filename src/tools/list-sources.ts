@@ -4,7 +4,7 @@
 
 import type Database from '@ansvar/mcp-sqlite';
 import { readDbMetadata } from '../capabilities.js';
-import { generateResponseMetadata, safeCount, type ToolResponse } from '../utils/metadata.js';
+import { cachedCount, generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
 
 interface SourceInfo {
   name: string;
@@ -50,8 +50,8 @@ export async function listSources(
         tier: meta.tier,
         schema_version: meta.schema_version,
         built_at: meta.built_at,
-        document_count: safeCount(db, 'SELECT COUNT(*) as count FROM legal_documents'),
-        provision_count: safeCount(db, 'SELECT COUNT(*) as count FROM legal_provisions'),
+        document_count: cachedCount(db, 'SELECT COUNT(*) as count FROM legal_documents'),
+        provision_count: cachedCount(db, 'SELECT COUNT(*) as count FROM legal_provisions'),
       },
     },
     _metadata: generateResponseMetadata(db),

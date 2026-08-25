@@ -81,17 +81,12 @@ export function resolveDocumentId(
     }
   }
 
-  // Title/short_name substring match
+  // Title/short_name substring match — single case-insensitive pass
+  // (LOWER() is a superset of plain LIKE: it folds ASCII case like LIKE does)
   const titleResult = db.prepare(
-    "SELECT id FROM legal_documents WHERE title LIKE ? OR short_name LIKE ? OR title_en LIKE ? LIMIT 1"
-  ).get(`%${trimmed}%`, `%${trimmed}%`, `%${trimmed}%`) as { id: string } | undefined;
-  if (titleResult) return titleResult.id;
-
-  // Case-insensitive fallback
-  const lowerResult = db.prepare(
     "SELECT id FROM legal_documents WHERE LOWER(title) LIKE LOWER(?) OR LOWER(short_name) LIKE LOWER(?) OR LOWER(title_en) LIKE LOWER(?) LIMIT 1"
   ).get(`%${trimmed}%`, `%${trimmed}%`, `%${trimmed}%`) as { id: string } | undefined;
-  if (lowerResult) return lowerResult.id;
+  if (titleResult) return titleResult.id;
 
   return null;
 }

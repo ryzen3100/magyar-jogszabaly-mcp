@@ -25,6 +25,9 @@ export interface SearchLegislationResult {
   relevance: number;
 }
 
+/** Phase A ranking row; provision_id (= fts rowid) keys the phase B snippet fetch. */
+type RankedRow = SearchLegislationResult & { provision_id: number };
+
 const DEFAULT_LIMIT = 10;
 const MAX_LIMIT = 50;
 
@@ -58,16 +61,17 @@ export async function searchLegislation(
   }
 
   let queryStrategy = 'none';
+  // ponytail: rank rowids first without snippet(), then snippet() only the final deduped rows — snippet over every match dominates high-fanout queries. Phase B reuses the SAME MATCH expression (plain-rowid lookup loses highlight context); never re-MATCH unbounded.
   for (const ftsQuery of queryVariants) {
     let sql = `
       SELECT
+        lp.id as provision_id,
         lp.document_id,
         ld.title as document_title,
         lp.provision_ref,
         lp.chapter,
         lp.section,
         lp.title,
-        snippet(provisions_fts, 0, '>>>', '<<<', '...', 32) as snippet,
         bm25(provisions_fts) as relevance
       FROM provisions_fts
       JOIN legal_provisions lp ON lp.id = provisions_fts.rowid
@@ -90,12 +94,33 @@ export async function searchLegislation(
     params.push(fetchLimit);
 
     try {
-      const rows = db.prepare(sql).all(...params) as SearchLegislationResult[];
-      if (rows.length > 0) {
+      const ranked = db.prepare(sql).all(...params) as RankedRow[];
+      if (ranked.length > 0) {
         queryStrategy = ftsQuery === queryVariants[0] ? 'exact' : 'fallback';
-        const deduped = deduplicateResults(rows, limit);
+        const deduped = deduplicateResults(ranked, limit) as RankedRow[];
+        const ids = deduped.map((row) => row.provision_id);
+        const snippetRows = db
+          .prepare(
+            `
+              SELECT rowid, snippet(provisions_fts, 0, '>>>', '<<<', '...', 32) as snippet
+              FROM provisions_fts
+              WHERE provisions_fts MATCH ? AND rowid IN (${ids.map(() => '?').join(',')})
+            `,
+          )
+          .all(ftsQuery, ...ids) as { rowid: number; snippet: string }[];
+        const snippets = new Map(snippetRows.map((row) => [row.rowid, row.snippet]));
+        const results: SearchLegislationResult[] = deduped.map((row) => ({
+          document_id: row.document_id,
+          document_title: row.document_title,
+          provision_ref: row.provision_ref,
+          chapter: row.chapter,
+          section: row.section,
+          title: row.title,
+          snippet: snippets.get(row.provision_id) ?? '',
+          relevance: row.relevance,
+        }));
         return {
-          results: deduped,
+          results,
           _metadata: {
             ...generateResponseMetadata(db),
             ...(queryStrategy === 'fallback' ? { query_strategy: 'broadened' } : {}),
