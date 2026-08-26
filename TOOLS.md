@@ -81,7 +81,7 @@ Format a legal citation per standard conventions.
 | Name | Type | Required | Description |
 |------|------|----------|-------------|
 | `citation` | string | Yes | Citation to format |
-| `format` | string | No | `full`, `short`, or `pinpoint` |
+| `format` | string | No | `full` or `pinpoint` |
 
 **Returns:** Formatted citation string.
 
@@ -89,14 +89,13 @@ Format a legal citation per standard conventions.
 
 ## 7. check_currency
 
-Check whether a statute or provision is currently in force.
+Check whether a statute is currently in force.
 
 **Parameters:**
 
 | Name | Type | Required | Description |
 |------|------|----------|-------------|
 | `document_id` | string | Yes | Statute identifier or title |
-| `provision_ref` | string | No | Optional provision reference |
 
 **Returns:** Status (in_force/amended/repealed), dates, and warnings.
 

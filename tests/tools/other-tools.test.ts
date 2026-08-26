@@ -1,4 +1,4 @@
-import { afterEach, describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vitest';
 import Database from '@ansvar/mcp-sqlite';
 
 import { getAbout } from '../../src/tools/about.js';
@@ -12,20 +12,7 @@ import { getHungarianImplementations } from '../../src/tools/get-hungarian-imple
 import { searchEUImplementations } from '../../src/tools/search-eu-implementations.js';
 import { getProvisionEUBasis } from '../../src/tools/get-provision-eu-basis.js';
 import { validateEUCompliance } from '../../src/tools/validate-eu-compliance.js';
-import { createTestDb } from '../helpers/test-db.js';
-
-const opened: InstanceType<typeof Database>[] = [];
-
-function trackDb(db: InstanceType<typeof Database>): InstanceType<typeof Database> {
-  opened.push(db);
-  return db;
-}
-
-afterEach(() => {
-  while (opened.length > 0) {
-    opened.pop()?.close();
-  }
-});
+import { createTestDb, trackDb } from '../helpers/test-db.js';
 
 describe('about and sources tools', () => {
   it('returns populated about metadata and statistics', () => {
@@ -128,8 +115,8 @@ describe('formatCitationTool', () => {
     const full = await formatCitationTool(db, { citation: 'Section 3, In Force Act' });
     expect(full.results.formatted).toBe('In Force Act 3. §');
 
-    const short = await formatCitationTool(db, { citation: 'In Force Act s 3', format: 'short' });
-    expect(short.results.formatted).toBe('In Force Act 3. §');
+    const fullExplicit = await formatCitationTool(db, { citation: 'In Force Act s 3', format: 'full' });
+    expect(fullExplicit.results.formatted).toBe('In Force Act 3. §');
 
     const pinpoint = await formatCitationTool(db, { citation: 'In Force Act Section 3', format: 'pinpoint' });
     expect(pinpoint.results.formatted).toBe('3. §');
@@ -137,8 +124,8 @@ describe('formatCitationTool', () => {
     const noSection = await formatCitationTool(db, { citation: 'In Force Act' });
     expect(noSection.results.formatted).toBe('In Force Act');
 
-    const shortNoSection = await formatCitationTool(db, { citation: 'In Force Act', format: 'short' });
-    expect(shortNoSection.results.formatted).toBe('In Force Act');
+    const fullNoSection = await formatCitationTool(db, { citation: 'In Force Act', format: 'full' });
+    expect(fullNoSection.results.formatted).toBe('In Force Act');
 
     const pinpointNoSection = await formatCitationTool(db, { citation: 'In Force Act', format: 'pinpoint' });
     expect(pinpointNoSection.results.formatted).toBe('In Force Act');

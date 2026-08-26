@@ -55,30 +55,20 @@ export function resolveDocumentId(
   const trimmed = input.trim();
   if (!trimmed) return null;
 
-  // Direct ID match (exact)
-  const directMatch = db.prepare(
-    'SELECT id FROM legal_documents WHERE id = ?'
-  ).get(trimmed) as { id: string } | undefined;
-  if (directMatch) return directMatch.id;
-
-  // Hungarian formal format: "2012. évi I. törvény" → "hu-law-2012-1-00-00"
+  // Exact-ID candidates in priority order: trimmed input, Hungarian formal
+  // reference ("2012. évi I. törvény" → "hu-law-2012-1-00-00"), hu-law
+  // prefix with trailing extra characters stripped.
+  const candidates = [trimmed];
   const hungarianId = parseHungarianReference(trimmed);
-  if (hungarianId) {
-    const hunMatch = db.prepare(
-      'SELECT id FROM legal_documents WHERE id = ?'
-    ).get(hungarianId) as { id: string } | undefined;
-    if (hunMatch) return hunMatch.id;
-  }
+  if (hungarianId) candidates.push(hungarianId);
+  const prefixId = trimmed.match(/^(hu-law-\d{4}-\d+-\d{2}-\d{2})/)?.[1];
+  if (prefixId) candidates.push(prefixId);
 
-  // hu-law prefix match (strip trailing spaces/extra chars)
-  if (trimmed.startsWith('hu-law-')) {
-    const idMatch = trimmed.match(/^(hu-law-\d{4}-\d+-\d{2}-\d{2})/);
-    if (idMatch) {
-      const match = db.prepare(
-        'SELECT id FROM legal_documents WHERE id = ?'
-      ).get(idMatch[1]) as { id: string } | undefined;
-      if (match) return match.id;
-    }
+  for (const candidate of candidates) {
+    const hit = db.prepare(
+      'SELECT id FROM legal_documents WHERE id = ?'
+    ).get(candidate) as { id: string } | undefined;
+    if (hit) return hit.id;
   }
 
   // Title/short_name substring match — single case-insensitive pass

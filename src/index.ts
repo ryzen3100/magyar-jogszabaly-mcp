@@ -11,34 +11,28 @@ import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js'
 import Database from '@ansvar/mcp-sqlite';
 
 import { registerTools, type AboutContext } from './tools/registry.js';
-import { detectCapabilities, readDbMetadata } from './capabilities.js';
+import { readDbMetadata } from './capabilities.js';
 import { SERVER_NAME, SERVER_VERSION } from './constants.js';
-import { computeDbFingerprint, resolveDbPath } from './db-info.js';
+import { buildAboutContext, resolveDbPath } from './db-info.js';
 
 let db: InstanceType<typeof Database> | null = null;
 
 function getDb(): InstanceType<typeof Database> {
   if (!db) {
-    const dbPath = resolveDbPath();
-    db = new Database(dbPath, { readonly: true });
-    db.pragma('foreign_keys = ON');
+    db = new Database(resolveDbPath(), { readonly: true });
 
-    const caps = detectCapabilities(db);
     const meta = readDbMetadata(db);
-    console.error(`[${SERVER_NAME}] DB opened: tier=${meta.tier}, caps=[${[...caps].join(',')}]`);
+    console.error(`[${SERVER_NAME}] DB opened: tier=${meta.tier}`);
   }
   return db;
 }
 
-function computeAboutContext(): AboutContext {
-  const { fingerprint, dbBuilt: fileFallback } = computeDbFingerprint(resolveDbPath());
-  const dbBuilt = readDbMetadata(getDb()).built_at ?? fileFallback;
-  return { version: SERVER_VERSION, fingerprint, dbBuilt };
-}
-
 async function main() {
   const database = getDb();
-  const aboutContext = computeAboutContext();
+  const aboutContext: AboutContext = {
+    version: SERVER_VERSION,
+    ...buildAboutContext(resolveDbPath(), database),
+  };
 
   const server = new Server(
     { name: SERVER_NAME, version: SERVER_VERSION },
@@ -52,10 +46,7 @@ async function main() {
   console.error(`[${SERVER_NAME}] Server running on stdio`);
 
   const cleanup = () => {
-    if (db) {
-      db.close();
-      db = null;
-    }
+    if (db) db.close();
     process.exit(0);
   };
 

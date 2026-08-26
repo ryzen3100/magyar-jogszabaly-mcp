@@ -27,9 +27,6 @@ jobs:
       - name: Download current database artifact
         run: bash scripts/download-db.sh
 
-      - name: Build
-        run: npm run build
-
       - name: Check upstream freshness
         id: check
         shell: bash

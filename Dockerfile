@@ -28,7 +28,6 @@ RUN npm ci --omit=dev --ignore-scripts \
     && npm cache clean --force
 
 COPY --from=builder /app/dist ./dist
-COPY package.json ./dist/package.json
 COPY --from=builder /app/data/database.db ./dist/data/database.db
 COPY --from=builder /app/data/database.db.sha256 ./dist/data/database.db.sha256
 COPY icon.png ./dist/icon.png

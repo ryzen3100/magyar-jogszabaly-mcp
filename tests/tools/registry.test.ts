@@ -1,9 +1,7 @@
-import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
 import type { Server } from '@modelcontextprotocol/sdk/server/index.js';
 import { CallToolRequestSchema, ListToolsRequestSchema } from '@modelcontextprotocol/sdk/types.js';
-import Database from '@ansvar/mcp-sqlite';
-
-import { createTestDb } from '../helpers/test-db.js';
+import type Database from '@ansvar/mcp-sqlite';
 
 vi.mock('../../src/tools/search-legislation.js', () => ({ searchLegislation: vi.fn() }));
 vi.mock('../../src/tools/get-provision.js', () => ({ getProvision: vi.fn() }));
@@ -47,33 +45,37 @@ function mockServer() {
   return { server, handlers };
 }
 
-const opened: InstanceType<typeof Database>[] = [];
+// Every tool module is vi.mock'ed above, so registerTools never touches the db.
+const stubDb = {} as InstanceType<typeof Database>;
 
-function trackDb(db: InstanceType<typeof Database>): InstanceType<typeof Database> {
-  opened.push(db);
-  return db;
-}
-
-afterEach(() => {
-  while (opened.length > 0) opened.pop()?.close();
-});
+const TOOL_CALLS = [
+  { name: 'search_legislation', args: { query: 'x' }, fn: searchLegislation },
+  { name: 'get_provision', args: { document_id: 'x' }, fn: getProvision },
+  { name: 'validate_citation', args: { citation: 'x' }, fn: validateCitationTool },
+  { name: 'build_legal_stance', args: { query: 'x' }, fn: buildLegalStance },
+  { name: 'format_citation', args: { citation: 'x' }, fn: formatCitationTool },
+  { name: 'check_currency', args: { document_id: 'x' }, fn: checkCurrency },
+  { name: 'get_eu_basis', args: { document_id: 'x' }, fn: getEUBasis },
+  { name: 'get_hungarian_implementations', args: { eu_document_id: 'x' }, fn: getHungarianImplementations },
+  { name: 'search_eu_implementations', args: { query: 'x' }, fn: searchEUImplementations },
+  { name: 'get_provision_eu_basis', args: { document_id: 'x', provision_ref: '1' }, fn: getProvisionEUBasis },
+  { name: 'validate_eu_compliance', args: { document_id: 'x' }, fn: validateEUCompliance },
+  { name: 'list_sources', args: {}, fn: listSources },
+  { name: 'about', args: {}, fn: getAbout },
+];
 
 beforeEach(() => {
   vi.clearAllMocks();
 
-  (searchLegislation as unknown as ReturnType<typeof vi.fn>).mockResolvedValue({ tool: 'search_legislation' });
-  (getProvision as unknown as ReturnType<typeof vi.fn>).mockResolvedValue({ tool: 'get_provision' });
-  (validateCitationTool as unknown as ReturnType<typeof vi.fn>).mockResolvedValue({ tool: 'validate_citation' });
-  (buildLegalStance as unknown as ReturnType<typeof vi.fn>).mockResolvedValue({ tool: 'build_legal_stance' });
-  (formatCitationTool as unknown as ReturnType<typeof vi.fn>).mockResolvedValue({ tool: 'format_citation' });
-  (checkCurrency as unknown as ReturnType<typeof vi.fn>).mockResolvedValue({ tool: 'check_currency' });
-  (getEUBasis as unknown as ReturnType<typeof vi.fn>).mockResolvedValue({ tool: 'get_eu_basis' });
-  (getHungarianImplementations as unknown as ReturnType<typeof vi.fn>).mockResolvedValue({ tool: 'get_hungarian_implementations' });
-  (searchEUImplementations as unknown as ReturnType<typeof vi.fn>).mockResolvedValue({ tool: 'search_eu_implementations' });
-  (getProvisionEUBasis as unknown as ReturnType<typeof vi.fn>).mockResolvedValue({ tool: 'get_provision_eu_basis' });
-  (validateEUCompliance as unknown as ReturnType<typeof vi.fn>).mockResolvedValue({ tool: 'validate_eu_compliance' });
-  (listSources as unknown as ReturnType<typeof vi.fn>).mockResolvedValue({ tool: 'list_sources' });
-  (getAbout as unknown as ReturnType<typeof vi.fn>).mockReturnValue({ tool: 'about' });
+  for (const { name, fn } of TOOL_CALLS) {
+    const mock = fn as unknown as ReturnType<typeof vi.fn>;
+    // registry awaits every handler except about, whose result must stay sync
+    if (name === 'about') {
+      mock.mockReturnValue({ tool: name });
+    } else {
+      mock.mockResolvedValue({ tool: name });
+    }
+  }
 });
 
 describe('buildTools', () => {
@@ -97,10 +99,9 @@ describe('buildTools', () => {
 
 describe('registerTools', () => {
   it('registers list and call handlers and dispatches each tool', async () => {
-    const db = trackDb(createTestDb());
     const { server, handlers } = mockServer();
 
-    registerTools(server, db, {
+    registerTools(server, stubDb, {
       version: '1.0.0',
       fingerprint: 'abc',
       dbBuilt: '2026-02-21T00:00:00Z',
@@ -116,23 +117,7 @@ describe('registerTools', () => {
     expect(listedNames).toContain('about');
     expect(listedNames).toContain('list_sources');
 
-    const calls: Array<{ name: string; args: Record<string, unknown>; fn: ReturnType<typeof vi.fn> }> = [
-      { name: 'search_legislation', args: { query: 'x' }, fn: searchLegislation as unknown as ReturnType<typeof vi.fn> },
-      { name: 'get_provision', args: { document_id: 'x' }, fn: getProvision as unknown as ReturnType<typeof vi.fn> },
-      { name: 'validate_citation', args: { citation: 'x' }, fn: validateCitationTool as unknown as ReturnType<typeof vi.fn> },
-      { name: 'build_legal_stance', args: { query: 'x' }, fn: buildLegalStance as unknown as ReturnType<typeof vi.fn> },
-      { name: 'format_citation', args: { citation: 'x' }, fn: formatCitationTool as unknown as ReturnType<typeof vi.fn> },
-      { name: 'check_currency', args: { document_id: 'x' }, fn: checkCurrency as unknown as ReturnType<typeof vi.fn> },
-      { name: 'get_eu_basis', args: { document_id: 'x' }, fn: getEUBasis as unknown as ReturnType<typeof vi.fn> },
-      { name: 'get_hungarian_implementations', args: { eu_document_id: 'x' }, fn: getHungarianImplementations as unknown as ReturnType<typeof vi.fn> },
-      { name: 'search_eu_implementations', args: { query: 'x' }, fn: searchEUImplementations as unknown as ReturnType<typeof vi.fn> },
-      { name: 'get_provision_eu_basis', args: { document_id: 'x', provision_ref: '1' }, fn: getProvisionEUBasis as unknown as ReturnType<typeof vi.fn> },
-      { name: 'validate_eu_compliance', args: { document_id: 'x' }, fn: validateEUCompliance as unknown as ReturnType<typeof vi.fn> },
-      { name: 'list_sources', args: {}, fn: listSources as unknown as ReturnType<typeof vi.fn> },
-      { name: 'about', args: {}, fn: getAbout as unknown as ReturnType<typeof vi.fn> },
-    ];
-
-    for (const entry of calls) {
+    for (const entry of TOOL_CALLS) {
       const response = await (callHandler as Handler)({
         params: { name: entry.name, arguments: entry.args },
       });
@@ -143,9 +128,8 @@ describe('registerTools', () => {
   });
 
   it('returns explicit error for about when context is missing', async () => {
-    const db = trackDb(createTestDb());
     const { server, handlers } = mockServer();
-    registerTools(server, db);
+    registerTools(server, stubDb);
 
     const callHandler = handlers.get(CallToolRequestSchema) as Handler;
     const response = await callHandler({ params: { name: 'about', arguments: {} } });
@@ -154,9 +138,8 @@ describe('registerTools', () => {
   });
 
   it('returns explicit error for unknown tools', async () => {
-    const db = trackDb(createTestDb());
     const { server, handlers } = mockServer();
-    registerTools(server, db);
+    registerTools(server, stubDb);
 
     const callHandler = handlers.get(CallToolRequestSchema) as Handler;
     const response = await callHandler({ params: { name: 'missing_tool', arguments: {} } });
@@ -165,9 +148,8 @@ describe('registerTools', () => {
   });
 
   it('returns structured error when a tool throws', async () => {
-    const db = trackDb(createTestDb());
     const { server, handlers } = mockServer();
-    registerTools(server, db);
+    registerTools(server, stubDb);
 
     (searchLegislation as unknown as ReturnType<typeof vi.fn>).mockRejectedValueOnce(new Error('forced failure'));
     const callHandler = handlers.get(CallToolRequestSchema) as Handler;
@@ -179,9 +161,8 @@ describe('registerTools', () => {
   });
 
   it('stringifies non-Error throw values', async () => {
-    const db = trackDb(createTestDb());
     const { server, handlers } = mockServer();
-    registerTools(server, db);
+    registerTools(server, stubDb);
 
     (searchLegislation as unknown as ReturnType<typeof vi.fn>).mockRejectedValueOnce('raw-failure');
     const callHandler = handlers.get(CallToolRequestSchema) as Handler;

@@ -6,26 +6,22 @@
  */
 
 import { describe, it, expect, beforeAll, afterAll } from 'vitest';
-import Database from '@ansvar/mcp-sqlite';
-import * as path from 'path';
 import * as fs from 'fs';
-import { fileURLToPath } from 'url';
-import { realDbExists } from '../helpers/test-db.js';
+import * as path from 'path';
+import {
+  REAL_DATA_DIR,
+  REAL_DB_AVAILABLE,
+  describeIfRealDb,
+  openRealDb,
+} from '../helpers/test-db.js';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-const DB_PATH = path.resolve(__dirname, '../../data/database.db');
-const CENSUS_PATH = path.resolve(__dirname, '../../data/census.json');
+const CENSUS_PATH = path.join(REAL_DATA_DIR, 'census.json');
 
-const DB_EXISTS = realDbExists(DB_PATH);
-
-const describeIf = DB_EXISTS ? describe : describe.skip;
-
-let db: InstanceType<typeof Database>;
+let db: ReturnType<typeof openRealDb>;
 
 beforeAll(() => {
-  if (!DB_EXISTS) return;
-  db = new Database(DB_PATH, { readonly: true });
+  if (!REAL_DB_AVAILABLE) return;
+  db = openRealDb();
 });
 
 afterAll(() => {
@@ -36,7 +32,7 @@ afterAll(() => {
 // Database integrity
 // ---------------------------------------------------------------------------
 
-describeIf('Database integrity', () => {
+describeIfRealDb('Database integrity', () => {
   it('should have a large legal-documents corpus', () => {
     const row = db.prepare('SELECT COUNT(*) as cnt FROM legal_documents').get() as { cnt: number };
     expect(row.cnt).toBeGreaterThanOrEqual(4000);
@@ -71,7 +67,7 @@ describeIf('Database integrity', () => {
 // Census agreement
 // ---------------------------------------------------------------------------
 
-describeIf('Census agreement', () => {
+describeIfRealDb('Census agreement', () => {
   it('census.json exists and matches current DB counts', () => {
     expect(fs.existsSync(CENSUS_PATH)).toBe(true);
     const census = JSON.parse(fs.readFileSync(CENSUS_PATH, 'utf-8'));
@@ -89,35 +85,16 @@ describeIf('Census agreement', () => {
 // Article retrieval (hu-001 .. hu-004)
 // ---------------------------------------------------------------------------
 
-describeIf('Article retrieval', () => {
-  it('hu-001: Infotörvény § 1 — data protection scope', () => {
+describeIfRealDb('Article retrieval', () => {
+  it.each([
+    { case: 'hu-001', docId: 'act-cxii-2011-info-self-determination', section: '1' },
+    { case: 'hu-002', docId: 'act-l-2013-electronic-info-security', section: '11' },
+    { case: 'hu-003', docId: 'criminal-code-cybercrime', section: '422' },
+    { case: 'hu-004', docId: 'act-liv-2018-trade-secrets', section: '2' },
+  ])('$case: $docId § $section returns provision content', ({ docId, section }) => {
     const row = db.prepare(
-      "SELECT content FROM legal_provisions WHERE document_id = 'act-cxii-2011-info-self-determination' AND section = '1'"
-    ).get() as { content: string } | undefined;
-    expect(row).toBeDefined();
-    expect(row!.content.length).toBeGreaterThan(50);
-  });
-
-  it('hu-002: Ibtv. § 11 — incident reporting', () => {
-    const row = db.prepare(
-      "SELECT content FROM legal_provisions WHERE document_id = 'act-l-2013-electronic-info-security' AND section = '11'"
-    ).get() as { content: string } | undefined;
-    expect(row).toBeDefined();
-    expect(row!.content.length).toBeGreaterThan(50);
-  });
-
-  it('hu-003: Criminal Code § 422 — unauthorised access', () => {
-    const row = db.prepare(
-      "SELECT content FROM legal_provisions WHERE document_id = 'criminal-code-cybercrime' AND section = '422'"
-    ).get() as { content: string } | undefined;
-    expect(row).toBeDefined();
-    expect(row!.content.length).toBeGreaterThan(50);
-  });
-
-  it('hu-004: Trade Secrets Act § 2 — definition', () => {
-    const row = db.prepare(
-      "SELECT content FROM legal_provisions WHERE document_id = 'act-liv-2018-trade-secrets' AND section = '2'"
-    ).get() as { content: string } | undefined;
+      'SELECT content FROM legal_provisions WHERE document_id = ? AND section = ?'
+    ).get(docId, section) as { content: string } | undefined;
     expect(row).toBeDefined();
     expect(row!.content.length).toBeGreaterThan(50);
   });
@@ -127,25 +104,15 @@ describeIf('Article retrieval', () => {
 // Search (hu-005 .. hu-007)
 // ---------------------------------------------------------------------------
 
-describeIf('Search', () => {
-  it('hu-005: FTS search for "személyes adat" returns results', () => {
+describeIfRealDb('Search', () => {
+  it.each([
+    { case: 'hu-005', term: 'személyes adat' },
+    { case: 'hu-006', term: 'kiberbiztonsági' },
+    { case: 'hu-007', term: 'létfontosságú' },
+  ])('$case: FTS search for "$term" returns results', ({ term }) => {
     const row = db.prepare(
-      "SELECT COUNT(*) as cnt FROM provisions_fts WHERE provisions_fts MATCH 'személyes adat'"
-    ).get() as { cnt: number };
-    expect(row.cnt).toBeGreaterThan(0);
-  });
-
-  it('hu-006: FTS search for "kiberbiztonsági" returns results', () => {
-    const row = db.prepare(
-      "SELECT COUNT(*) as cnt FROM provisions_fts WHERE provisions_fts MATCH 'kiberbiztonsági'"
-    ).get() as { cnt: number };
-    expect(row.cnt).toBeGreaterThan(0);
-  });
-
-  it('hu-007: FTS search for "létfontosságú" returns results', () => {
-    const row = db.prepare(
-      "SELECT COUNT(*) as cnt FROM provisions_fts WHERE provisions_fts MATCH 'létfontosságú'"
-    ).get() as { cnt: number };
+      'SELECT COUNT(*) as cnt FROM provisions_fts WHERE provisions_fts MATCH ?'
+    ).get(term) as { cnt: number };
     expect(row.cnt).toBeGreaterThan(0);
   });
 });
@@ -154,19 +121,14 @@ describeIf('Search', () => {
 // Citation URL pattern (hu-008 .. hu-009)
 // ---------------------------------------------------------------------------
 
-describeIf('Citation URL pattern', () => {
-  it('hu-008: Infotörvény document has njt.hu URL', () => {
+describeIfRealDb('Citation URL pattern', () => {
+  it.each([
+    { case: 'hu-008', docId: 'act-cxii-2011-info-self-determination' },
+    { case: 'hu-009', docId: 'criminal-code-cybercrime' },
+  ])('$case: $docId document has njt.hu URL', ({ docId }) => {
     const row = db.prepare(
-      "SELECT url FROM legal_documents WHERE id = 'act-cxii-2011-info-self-determination'"
-    ).get() as { url: string } | undefined;
-    expect(row).toBeDefined();
-    expect(row!.url).toMatch(/njt\.hu/);
-  });
-
-  it('hu-009: Criminal Code document has njt.hu URL', () => {
-    const row = db.prepare(
-      "SELECT url FROM legal_documents WHERE id = 'criminal-code-cybercrime'"
-    ).get() as { url: string } | undefined;
+      'SELECT url FROM legal_documents WHERE id = ?'
+    ).get(docId) as { url: string } | undefined;
     expect(row).toBeDefined();
     expect(row!.url).toMatch(/njt\.hu/);
   });
@@ -176,7 +138,7 @@ describeIf('Citation URL pattern', () => {
 // EU cross-references (hu-010)
 // ---------------------------------------------------------------------------
 
-describeIf('EU cross-references', () => {
+describeIfRealDb('EU cross-references', () => {
   it('hu-010: Infotörvény references GDPR (Regulation 2016/679)', () => {
     const row = db.prepare(
       "SELECT COUNT(*) as cnt FROM eu_references WHERE document_id = 'act-cxii-2011-info-self-determination' AND eu_document_id LIKE '%2016/679%'"
@@ -189,7 +151,7 @@ describeIf('EU cross-references', () => {
 // Negative tests (hu-011 .. hu-012)
 // ---------------------------------------------------------------------------
 
-describeIf('Negative tests', () => {
+describeIfRealDb('Negative tests', () => {
   it('hu-011: non-existent document returns no provisions', () => {
     const row = db.prepare(
       "SELECT COUNT(*) as cnt FROM legal_provisions WHERE document_id = '2099-evi-MMMM-torveny-a-fikcio'"
@@ -209,18 +171,14 @@ describeIf('Negative tests', () => {
 // Key law categories present
 // ---------------------------------------------------------------------------
 
-describeIf('Key law categories are present', () => {
-  it('should contain törvény (statutes)', () => {
+describeIfRealDb('Key law categories are present', () => {
+  it.each([
+    { kind: 'törvény', label: 'törvény (statutes)' },
+    { kind: 'kormányrendelet', label: 'kormányrendelet (government decrees)' },
+  ])('should contain $label', ({ kind }) => {
     const row = db.prepare(
-      "SELECT COUNT(*) as cnt FROM legal_documents WHERE title LIKE '%törvény%'"
-    ).get() as { cnt: number };
-    expect(row.cnt).toBeGreaterThan(0);
-  });
-
-  it('should contain kormányrendelet (government decrees)', () => {
-    const row = db.prepare(
-      "SELECT COUNT(*) as cnt FROM legal_documents WHERE title LIKE '%kormányrendelet%'"
-    ).get() as { cnt: number };
+      'SELECT COUNT(*) as cnt FROM legal_documents WHERE title LIKE ?'
+    ).get(`%${kind}%`) as { cnt: number };
     expect(row.cnt).toBeGreaterThan(0);
   });
 });
@@ -229,7 +187,7 @@ describeIf('Key law categories are present', () => {
 // Metadata compatibility
 // ---------------------------------------------------------------------------
 
-describeIf('Metadata compatibility', () => {
+describeIfRealDb('Metadata compatibility', () => {
   it('should have db_metadata table with entries', () => {
     const row = db.prepare('SELECT COUNT(*) as cnt FROM db_metadata').get() as { cnt: number };
     expect(row.cnt).toBeGreaterThan(0);

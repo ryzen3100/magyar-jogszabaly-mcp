@@ -88,7 +88,7 @@ function normalizeExtractedText(input: string): string {
     .trim();
 }
 
-function htmlToText(html: string): string {
+export function htmlToText(html: string): string {
   const text = decodeHtmlEntities(
     html
       .replace(/<sup[^>]*class="fnSup"[^>]*>[\s\S]*?<\/sup>/gi, '')
@@ -191,9 +191,7 @@ function isSectionContentClass(blockClass: string): boolean {
   return /(szakasz|bekezdes|pont|alpont|mondat|szoveg|szelet)/i.test(blockClass);
 }
 
-function isLegacyContentClass(blockClass: string): boolean {
-  return /(preambulum|bekezdes|pont|alpont|mondat|szoveg|szelet)/i.test(blockClass);
-}
+const isLegacyContentClass = (blockClass: string) => /preambulum/i.test(blockClass) || isSectionContentClass(blockClass);
 
 function provisionTitleFromKey(key: string, section: string): string {
   if (key.startsWith('ART_')) return `${section}. Cikk`;

@@ -18,34 +18,12 @@ function hasBooleanOperators(input: string): boolean {
  * Preserves boolean operators (AND, OR, NOT) when detected.
  */
 export function sanitizeFtsInput(input: string): string {
-  if (hasBooleanOperators(input)) {
-    // Preserve boolean structure: only strip dangerous chars, keep quotes and parens
-    return input.replace(/[{}[\]^~*:]/g, ' ').replace(/\s+/g, ' ').trim();
-  }
-  // Preserve trailing * on words (FTS5 prefix search) but strip other special chars
-  return input
-    .replace(/['"(){}[\]^~:]/g, ' ')
-    .replace(/\*(?!\s|$)/g, ' ')    // strip * unless at end of word
-    .replace(/\s+/g, ' ')
-    .trim();
-}
-
-/**
- * Truncate common English suffixes for stemming fallback.
- * Returns stem + "*" ready string, or null if no stemming possible.
- */
-function stemWord(word: string): string | null {
-  if (word.length < 5) return null;
-  const lower = word.toLowerCase();
-  for (const suffix of [
-    'ies', 'ing', 'ers', 'tion', 'ment', 'ness',
-    'able', 'ible', 'ous', 'ive', 'ed', 'es', 'er', 'ly', 's',
-  ]) {
-    if (lower.endsWith(suffix) && lower.length - suffix.length >= 3) {
-      return lower.slice(0, -suffix.length);
-    }
-  }
-  return null;
+  const stripped = hasBooleanOperators(input)
+    ? // Preserve boolean structure: only strip dangerous chars, keep quotes and parens
+      input.replace(/[{}[\]^~*:]/g, ' ')
+    : // Preserve trailing * on words (FTS5 prefix search) but strip other special chars
+      input.replace(/['"(){}[\]^~:]/g, ' ').replace(/\*(?!\s|$)/g, ' ');
+  return stripped.replace(/\s+/g, ' ').trim();
 }
 
 /**
@@ -54,8 +32,7 @@ function stemWord(word: string): string | null {
  * 1. Exact phrase match
  * 2. All terms required (AND)
  * 3. Prefix AND (last term gets prefix wildcard)
- * 4. Stemmed prefix (suffix-truncated + wildcard)
- * 5. Any term matches (OR) — broad fallback
+ * 4. Any term matches (OR) — broad fallback
  *
  * When boolean operators are detected, passes query through as-is.
  */
@@ -87,15 +64,6 @@ export function buildFtsQueryVariants(sanitized: string): string[] {
     if (terms[0].length >= 3) {
       variants.push(`${terms[0]}*`);
     }
-  }
-
-  // Stemmed variant — truncate suffixes + wildcard
-  const stemmedTerms = terms.map(t => {
-    const stem = stemWord(t);
-    return stem ? `${stem}*` : t;
-  });
-  if (stemmedTerms.some((s, i) => s !== terms[i])) {
-    variants.push(stemmedTerms.join(' AND '));
   }
 
   // OR fallback — any term matches (broadest)
