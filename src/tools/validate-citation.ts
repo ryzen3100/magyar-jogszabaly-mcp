@@ -32,10 +32,17 @@ interface ValidateCitationResult {
  * - "s 13" (section only, no document)
  * - Plain document reference (e.g., "Privacy Act 1988")
  */
-export const SECTION_FIRST_RE = /^Section\s+(\d+[A-Za-z]*(?:\(\d+\))?)\s*[,;]?\s+(.+)$/i;
-export const SECTION_LAST_RE = /^(.+?)\s*[,;]?\s+(?:s\.?\s+|Section\s+)(\d+[A-Za-z]*(?:\(\d+\))?)$/i;
+const SECTION_FIRST_RE = /^Section\s+(\d+[A-Za-z]*(?:\(\d+\))?)\s*[,;]?\s+(.+)$/i;
+const SECTION_LAST_RE = /^(.+?)\s*[,;]?\s+(?:s\.?\s+|Section\s+)(\d+[A-Za-z]*(?:\(\d+\))?)$/i;
 
-function parseCitation(citation: string): { documentRef: string; sectionRef?: string } | null {
+export interface ParsedCitation {
+  documentRef: string;
+  sectionRef?: string;
+  /** True when documentRef is a formal Hungarian reference or a database ID. */
+  structured: boolean;
+}
+
+export function parseCitation(citation: string): ParsedCitation | null {
   const trimmed = citation.trim();
   if (!trimmed) return null;
 
@@ -44,7 +51,7 @@ function parseCitation(citation: string): { documentRef: string; sectionRef?: st
     /^(\d{4}\.\s*évi\s+[IVXLCDM]+\.\s*törvény)\s+(\d+(?::\d+)?(?:\/[A-Za-z])?)\.\s*§/i
   );
   if (hungarianFull) {
-    return { documentRef: hungarianFull[1].trim(), sectionRef: hungarianFull[2] };
+    return { documentRef: hungarianFull[1].trim(), sectionRef: hungarianFull[2], structured: true };
   }
 
   // Hungarian document only: "2012. évi I. törvény" (no section)
@@ -52,7 +59,7 @@ function parseCitation(citation: string): { documentRef: string; sectionRef?: st
     /^(\d{4}\.\s*évi\s+[IVXLCDM]+\.\s*törvény)$/i
   );
   if (hungarianDoc) {
-    return { documentRef: hungarianDoc[1].trim() };
+    return { documentRef: hungarianDoc[1].trim(), structured: true };
   }
 
   // Database ID + section: "hu-law-2012-1-00-00 s116" or "hu-law-2013-5-00-00 s6:272"
@@ -60,7 +67,7 @@ function parseCitation(citation: string): { documentRef: string; sectionRef?: st
     /^(hu-law-\d{4}-\d+-\d{2}-\d{2})\s+s?(\d+(?::\d+)?(?:\/[A-Za-z])?)$/i
   );
   if (dbIdWithSection) {
-    return { documentRef: dbIdWithSection[1], sectionRef: dbIdWithSection[2] };
+    return { documentRef: dbIdWithSection[1], sectionRef: dbIdWithSection[2], structured: true };
   }
 
   // Database ID only: "hu-law-2012-1-00-00"
@@ -68,31 +75,23 @@ function parseCitation(citation: string): { documentRef: string; sectionRef?: st
     /^(hu-law-\d{4}-\d+-\d{2}-\d{2})$/
   );
   if (dbIdOnly) {
-    return { documentRef: dbIdOnly[1] };
+    return { documentRef: dbIdOnly[1], structured: true };
   }
 
   // "Section N <Act>" or "Section N, <Act>"
   const sectionFirst = trimmed.match(SECTION_FIRST_RE);
   if (sectionFirst) {
-    return { documentRef: sectionFirst[2].trim(), sectionRef: sectionFirst[1] };
+    return { documentRef: sectionFirst[2].trim(), sectionRef: sectionFirst[1], structured: false };
   }
 
-  // "<Act> s N" or "<Act>, s N" or "<Act> s. N"
-  const sectionLast = trimmed.match(
-    /^(.+?)\s*[,;]?\s+s\.?\s+(\d+[A-Za-z]*(?:\(\d+\))?)$/i
-  );
+  // "<Act> s N" / "<Act>, s N" / "<Act> s. N" or "<Act> Section N" / "<Act>, Section N"
+  const sectionLast = trimmed.match(SECTION_LAST_RE);
   if (sectionLast) {
-    return { documentRef: sectionLast[1].trim(), sectionRef: sectionLast[2] };
-  }
-
-  // "<Act> Section N" or "<Act>, Section N"
-  const sectionWordLast = trimmed.match(SECTION_LAST_RE);
-  if (sectionWordLast) {
-    return { documentRef: sectionWordLast[1].trim(), sectionRef: sectionWordLast[2] };
+    return { documentRef: sectionLast[1].trim(), sectionRef: sectionLast[2], structured: false };
   }
 
   // Just a document reference (no section)
-  return { documentRef: trimmed };
+  return { documentRef: trimmed, structured: false };
 }
 
 export async function validateCitationTool(

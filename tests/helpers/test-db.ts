@@ -1,5 +1,8 @@
 import Database from '@ansvar/mcp-sqlite';
 import * as fs from 'fs';
+import * as path from 'path';
+import { fileURLToPath } from 'url';
+import { afterEach, describe } from 'vitest';
 
 export interface TestDbOptions {
   withEuTables?: boolean;
@@ -270,4 +273,50 @@ function seedCoreFixtures(
     metaStmt.run('built_at', '2026-02-21T00:00:00Z');
     metaStmt.run('builder', 'test-suite');
   }
+}
+
+// ---------------------------------------------------------------------------
+// Shared lifecycle: auto-close tracked in-memory databases after each test
+// ---------------------------------------------------------------------------
+
+const trackedDbs: InstanceType<typeof Database>[] = [];
+
+afterEach(() => {
+  for (const db of trackedDbs.splice(0)) db.close();
+});
+
+/**
+ * Register a test database for automatic close in the next afterEach.
+ * For per-test connections only; a connection shared across tests via
+ * beforeAll must be closed by its owner in afterAll instead.
+ */
+export function trackDb<T>(db: T): T {
+  trackedDbs.push(db as unknown as InstanceType<typeof Database>);
+  return db;
+}
+
+// ---------------------------------------------------------------------------
+// Real-database (data/database.db) helpers shared by DB-backed suites
+// ---------------------------------------------------------------------------
+
+/** Directory holding the generated database, census, and seed data. */
+export const REAL_DATA_DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../data');
+
+/** Absolute path of the generated production database. */
+const REAL_DB_PATH = path.join(REAL_DATA_DIR, 'database.db');
+
+/** True when the real database exists and is usable; DB-backed tests skip otherwise. */
+export const REAL_DB_AVAILABLE = realDbExists(REAL_DB_PATH);
+
+/** describe() when the real database is available, describe.skip otherwise. */
+export const describeIfRealDb = REAL_DB_AVAILABLE ? describe : describe.skip;
+
+/**
+ * Open the real database read-only. Meant to be called once per suite in
+ * beforeAll and closed by the caller in afterAll — deliberately not passed
+ * through trackDb, whose afterEach drain would close a connection shared
+ * across tests after the first test.
+ */
+export function openRealDb(): InstanceType<typeof Database> {
+  return new Database(REAL_DB_PATH, { readonly: true, fileMustExist: true });
 }

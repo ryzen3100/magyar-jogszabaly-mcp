@@ -28,7 +28,8 @@ export interface FetchResult {
 }
 
 async function requestWithRetry(url: string, init: RequestInit): Promise<FetchResult> {
-  for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
+  // No loop condition: the final attempt always returns or throws below.
+  for (let attempt = 0; ; attempt++) {
     let response: Response;
     try {
       response = await fetch(url, init);
@@ -52,42 +53,24 @@ async function requestWithRetry(url: string, init: RequestInit): Promise<FetchRe
 
     return { status: response.status, body: await response.text() };
   }
-
-  throw new Error(`Failed to fetch ${url} after ${MAX_RETRIES} retries`);
 }
 
 /**
  * Fetch a URL with rate limiting and retries on transient failures.
+ *
+ * Callers pass extra init (method, body, headers); the User-Agent is
+ * applied unless overridden via init.headers.
  */
-export async function fetchWithRateLimit(url: string): Promise<FetchResult> {
+export async function requestWithRateLimit(url: string, init: RequestInit = {}): Promise<FetchResult> {
   await rateLimit();
 
-  return requestWithRetry(
-    url,
-    {
-      headers: {
-        'User-Agent': USER_AGENT,
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-      },
-      redirect: 'follow',
-    }
-  );
-}
-
-export async function postJsonWithRateLimit(url: string, payload: unknown): Promise<FetchResult> {
-  await rateLimit();
-
-  return requestWithRetry(
-    url,
-    {
-      method: 'POST',
-      headers: {
-        'User-Agent': USER_AGENT,
-        'Accept': 'text/html,application/json,*/*',
-        'Content-Type': 'application/json; charset=utf-8',
-      },
-      body: JSON.stringify(payload),
-      redirect: 'follow',
-    }
-  );
+  return requestWithRetry(url, {
+    ...init,
+    redirect: 'follow',
+    headers: {
+      'User-Agent': USER_AGENT,
+      'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+      ...init.headers,
+    },
+  });
 }

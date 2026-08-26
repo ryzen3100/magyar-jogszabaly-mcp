@@ -1,23 +1,13 @@
 import { describe, it, expect, beforeAll, afterAll } from 'vitest';
-import Database from '@ansvar/mcp-sqlite';
-import * as path from 'path';
-import { fileURLToPath } from 'url';
-import { realDbExists } from '../helpers/test-db.js';
+import type Database from '@ansvar/mcp-sqlite';
+import { describeIfRealDb, openRealDb } from '../helpers/test-db.js';
 import { searchLegislation } from '../../src/tools/search-legislation.js';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-const DB_PATH = path.resolve(__dirname, '../../data/database.db');
-
-const DB_EXISTS = realDbExists(DB_PATH);
-
-const describeIf = DB_EXISTS ? describe : describe.skip;
-
-describeIf('searchLegislation', () => {
-  let db: InstanceType<typeof Database>;
+describeIfRealDb('searchLegislation', () => {
+  let db: ReturnType<typeof openRealDb>;
 
   beforeAll(() => {
-    db = new Database(DB_PATH, { readonly: true, fileMustExist: true });
+    db = openRealDb();
   });
   afterAll(() => {
     db.close();

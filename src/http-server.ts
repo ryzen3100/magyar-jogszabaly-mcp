@@ -29,9 +29,9 @@ import Database from '@ansvar/mcp-sqlite';
 import { registerTools } from './tools/registry.js';
 import { listSources as listSourcesFn } from './tools/list-sources.js';
 import { getAbout as getAboutFn, type AboutContext } from './tools/about.js';
-import { detectCapabilities, readDbMetadata } from './capabilities.js';
+import { coreTablesReady, readDbMetadata } from './capabilities.js';
 import { SERVER_NAME, SERVER_VERSION } from './constants.js';
-import { computeDbFingerprint, resolveDbPath } from './db-info.js';
+import { buildAboutContext, resolveDbPath } from './db-info.js';
 
 // ---------------------------------------------------------------------------
 // Configuration
@@ -55,13 +55,20 @@ try {
   );
 } catch { /* icon unavailable → /icon.png serves 404 */ }
 
+// Description fragments shared by the server card and the /mcp metadata
+// endpoint (each phrases the middle sentence differently).
+const DESCRIPTION_COVERAGE =
+  'Full-text search across 4,300+ Hungarian statutes and 130,000+ provisions';
+const DESCRIPTION_FRESHNESS =
+  'Database freshness is checked daily; new data is shipped with new container images.';
+
 // Server card payload is fully static — stringify once.
 const SERVER_CARD_JSON = JSON.stringify({
   serverInfo: {
     name: SERVER_NAME,
     version: SERVER_VERSION,
     displayName: 'Hungarian Law MCP',
-    description: 'Full-text search across 4,300+ Hungarian statutes and 130,000+ provisions. Covers the full corpus from Nemzeti Jogszabálytár (njt.hu) including Ptk., Infotv., Mt., Btk., and EU cross-references. Database freshness is checked daily; new data is shipped with new container images.',
+    description: `${DESCRIPTION_COVERAGE}. Covers the full corpus from Nemzeti Jogszabálytár (njt.hu) including Ptk., Infotv., Mt., Btk., and EU cross-references. ${DESCRIPTION_FRESHNESS}`,
     homepage: 'https://github.com/Ansvar-Systems/Hungarian-law-mcp',
     keywords: ['hungarian-law', 'legislation', 'legal', 'mcp', 'gdpr', 'data-protection', 'cybersecurity', 'compliance', 'ptk', 'infotv'],
     author: 'Ansvar Systems / AVIAN Care Kft.',
@@ -115,20 +122,14 @@ function sweepIdleSessions(): void {
 async function main() {
   const dbPath = resolveDbPath();
   const db = new Database(dbPath, { readonly: true });
-  db.pragma('foreign_keys = ON');
 
-  const caps = detectCapabilities(db);
   const meta = readDbMetadata(db);
   console.error(`[${SERVER_NAME}] Database: ${dbPath}`);
-  console.error(`[${SERVER_NAME}] Tier: ${meta.tier}, Capabilities: ${[...caps].join(', ')}`);
+  console.error(`[${SERVER_NAME}] Tier: ${meta.tier}`);
 
-  // About context for the about tool — sampled hash avoids loading the entire
-  // DB into memory (some are 200MB+); db_metadata built_at overrides mtime.
-  const { fingerprint, dbBuilt: mtimeFallback } = computeDbFingerprint(dbPath);
   const aboutContext: AboutContext = {
     version: SERVER_VERSION,
-    fingerprint,
-    dbBuilt: meta.built_at ?? mtimeFallback,
+    ...buildAboutContext(dbPath, db),
   };
 
   /** Create a fresh MCP server instance (one per session). */
@@ -246,7 +247,7 @@ async function main() {
         try {
           if (healthCounts) {
             dbOk = true;
-          } else if (caps.has('core_legislation')) {
+          } else if (coreTablesReady(db)) {
             const counts = db.prepare(`
               SELECT
                 (SELECT COUNT(*) FROM legal_documents) AS documents,
@@ -327,7 +328,7 @@ async function main() {
           res.end(JSON.stringify({
             name: SERVER_NAME,
             version: SERVER_VERSION,
-            description: 'Full-text search across 4,300+ Hungarian statutes and 130,000+ provisions from Nemzeti Jogszabálytár (njt.hu). Database freshness is checked daily; new data is shipped with new container images.',
+            description: `${DESCRIPTION_COVERAGE} from Nemzeti Jogszabálytár (njt.hu). ${DESCRIPTION_FRESHNESS}`,
             protocol: 'mcp',
             transport: 'streamable-http',
           }));

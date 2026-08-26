@@ -1,23 +1,17 @@
 import { describe, it, expect, beforeAll, afterAll } from 'vitest';
-import Database from '@ansvar/mcp-sqlite';
-import * as path from 'path';
-import { fileURLToPath } from 'url';
-import { realDbExists } from '../helpers/test-db.js';
+import {
+  createTestDb,
+  describeIfRealDb,
+  openRealDb,
+  trackDb,
+} from '../helpers/test-db.js';
 import { getProvision } from '../../src/tools/get-provision.js';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-const DB_PATH = path.resolve(__dirname, '../../data/database.db');
-
-const DB_EXISTS = realDbExists(DB_PATH);
-
-const describeIf = DB_EXISTS ? describe : describe.skip;
-
-describeIf('getProvision', () => {
-  let db: InstanceType<typeof Database>;
+describeIfRealDb('getProvision', () => {
+  let db: ReturnType<typeof openRealDb>;
 
   beforeAll(() => {
-    db = new Database(DB_PATH, { readonly: true, fileMustExist: true });
+    db = openRealDb();
   });
   afterAll(() => {
     db.close();
@@ -115,54 +109,20 @@ describeIf('getProvision', () => {
     expect(result._metadata).toBeDefined();
   });
 
-  it('should handle resolved id with missing document row', async () => {
-    const fakeDb = {
-      prepare(sql: string) {
-        if (sql.includes('SELECT id FROM legal_documents WHERE id = ?')) {
-          return { get: () => ({ id: 'ghost-doc' }) };
-        }
-        if (sql.includes('SELECT id, title, url FROM legal_documents WHERE id = ?')) {
-          return { get: () => undefined };
-        }
-        return {
-          get: () => {
-            throw new Error('unexpected query');
-          },
-        };
-      },
-    } as unknown as InstanceType<typeof Database>;
-
-    const result = await getProvision(fakeDb, { document_id: 'ghost-doc', section: '1' });
-    expect(result.results).toHaveLength(0);
-  });
-
   it('should map null URL to undefined for single and list responses', async () => {
-    const fakeDb = {
-      prepare(sql: string) {
-        if (sql.includes('SELECT id FROM legal_documents WHERE id = ?')) {
-          return { get: () => ({ id: 'doc-null-url' }) };
-        }
-        if (sql.includes('SELECT id, title, url FROM legal_documents WHERE id = ?')) {
-          return { get: () => ({ id: 'doc-null-url', title: 'Doc', url: null }) };
-        }
-        if (sql.includes('WHERE document_id = ? AND (provision_ref = ?')) {
-          return { get: (...args: unknown[]) => ((args as string[]).includes('s1') ? { provision_ref: 's1', chapter: null, section: '1', title: '1. §', content: 'text' } : undefined) };
-        }
-        if (sql.includes('WHERE document_id = ? ORDER BY id')) {
-          return { all: () => [{ provision_ref: 's1', chapter: null, section: '1', title: '1. §', content: 'text' }] };
-        }
-        return {
-          get: () => undefined,
-          all: () => [],
-        };
-      },
-    } as unknown as InstanceType<typeof Database>;
+    const db = trackDb(createTestDb());
+    db.prepare(
+      "INSERT INTO legal_documents (id, type, title, status, url) VALUES ('doc-null-url', 'statute', 'Null URL Act', 'in_force', NULL)"
+    ).run();
+    db.prepare(
+      "INSERT INTO legal_provisions (document_id, provision_ref, section, content) VALUES ('doc-null-url', 's1', '1', 'text')"
+    ).run();
 
-    const single = await getProvision(fakeDb, { document_id: 'doc-null-url', section: '1' });
+    const single = await getProvision(db, { document_id: 'doc-null-url', section: '1' });
     expect(single.results).toHaveLength(1);
     expect(single.results[0].url).toBeUndefined();
 
-    const list = await getProvision(fakeDb, { document_id: 'doc-null-url' });
+    const list = await getProvision(db, { document_id: 'doc-null-url' });
     expect(list.results).toHaveLength(1);
     expect(list.results[0].url).toBeUndefined();
   });

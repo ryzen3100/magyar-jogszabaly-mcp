@@ -166,15 +166,15 @@ export const TOOLS: Tool[] = [
     name: 'format_citation',
     description:
       'Format an Hungarian legal citation per standard conventions. ' +
-      'Three formats: "full" (formal, e.g., "Section 13, Privacy Act 1988"), ' +
-      '"short" (abbreviated, e.g., "Privacy Act 1988 s 13"), "pinpoint" (section reference only, e.g., "s 13").',
+      'Two formats: "full" (formal, e.g., "Section 13, Privacy Act 1988"), ' +
+      '"pinpoint" (section reference only, e.g., "s 13").',
     inputSchema: {
       type: 'object',
       properties: {
         citation: { type: 'string', description: 'Citation string to format.' },
         format: {
           type: 'string',
-          enum: ['full', 'short', 'pinpoint'],
+          enum: ['full', 'pinpoint'],
           description: 'Output format (default: "full").',
           default: 'full',
         },
@@ -186,7 +186,7 @@ export const TOOLS: Tool[] = [
   {
     name: 'check_currency',
     description:
-      'Check whether an Hungarian statute or provision is currently in force, amended, repealed, or not yet in force. ' +
+      'Check whether an Hungarian statute is currently in force, amended, repealed, or not yet in force. ' +
       'Returns the document status, issued date, in-force date, and warnings. ' +
       'Essential before citing any provision — always verify currency.',
     inputSchema: {
@@ -195,10 +195,6 @@ export const TOOLS: Tool[] = [
         document_id: {
           type: 'string',
           description: 'Statute identifier (Act title, abbreviation, or ID).',
-        },
-        provision_ref: {
-          type: 'string',
-          description: 'Optional: provision reference to check a specific section.',
         },
       },
       required: ['document_id'],
@@ -329,7 +325,7 @@ const HANDLERS: Record<string, (db: InstanceType<typeof Database>, args: never) 
   search_eu_implementations: searchEUImplementations,
   get_provision_eu_basis: getProvisionEUBasis,
   validate_eu_compliance: validateEUCompliance,
-  list_sources: (db) => listSources(db),
+  list_sources: listSources,
 };
 
 export function buildTools(context?: AboutContext): Tool[] {

@@ -19,7 +19,7 @@ export interface ToolResponse<T> {
   _metadata: ResponseMetadata;
 }
 
-export function safeCount(db: InstanceType<typeof Database>, sql: string): number {
+function safeCount(db: InstanceType<typeof Database>, sql: string): number {
   try {
     const row = db.prepare(sql).get() as { count: number } | undefined;
     return row ? Number(row.count) : 0;

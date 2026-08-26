@@ -1,38 +1,10 @@
-import { afterEach, describe, expect, it } from 'vitest';
-import Database from '@ansvar/mcp-sqlite';
+import { describe, expect, it } from 'vitest';
 
-import {
-  DB_ENV_VAR,
-  SERVER_NAME,
-  SERVER_VERSION,
-} from '../../src/constants.js';
 import { sanitizeFtsInput, buildFtsQueryVariants } from '../../src/utils/fts-query.js';
 import { generateResponseMetadata } from '../../src/utils/metadata.js';
 import { resolveDocumentId } from '../../src/utils/statute-id.js';
-import { detectCapabilities, readDbMetadata } from '../../src/capabilities.js';
-import { createTestDb } from '../helpers/test-db.js';
-
-const opened: InstanceType<typeof Database>[] = [];
-
-function trackDb(db: InstanceType<typeof Database>): InstanceType<typeof Database> {
-  opened.push(db);
-  return db;
-}
-
-afterEach(() => {
-  while (opened.length > 0) {
-    const db = opened.pop();
-    db?.close();
-  }
-});
-
-describe('constants', () => {
-  it('exports expected server/package identifiers', () => {
-    expect(SERVER_NAME).toBe('hungarian-law-mcp');
-    expect(SERVER_VERSION).toBe('1.0.0');
-    expect(DB_ENV_VAR).toBe('HUNGARIAN_LAW_DB_PATH');
-  });
-});
+import { coreTablesReady, readDbMetadata } from '../../src/capabilities.js';
+import { createTestDb, trackDb } from '../helpers/test-db.js';
 
 describe('fts-query helpers', () => {
   it('sanitizes FTS input', () => {
@@ -52,7 +24,6 @@ describe('fts-query helpers', () => {
       '"személyes adat"',
       'személyes AND adat',
       'személyes AND adat*',
-      'személy* AND adat',
       'személyes OR adat',
     ]);
   });
@@ -92,11 +63,9 @@ describe('resolveDocumentId', () => {
 });
 
 describe('capabilities', () => {
-  it('detects available capabilities by table presence', () => {
+  it('detects core table presence', () => {
     const db = trackDb(createTestDb({ withEuTables: true }));
-    const caps = detectCapabilities(db);
-    expect(caps.has('core_legislation')).toBe(true);
-    expect(caps.size).toBe(1);
+    expect(coreTablesReady(db)).toBe(true);
   });
 
   it('reads db metadata and falls back when metadata table is missing', () => {

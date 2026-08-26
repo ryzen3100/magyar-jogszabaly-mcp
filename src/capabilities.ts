@@ -1,27 +1,19 @@
 /**
- * Runtime capability detection for Hungarian Law MCP.
- * Detects which database tables are available to enable/disable features.
+ * Runtime table-availability detection for Hungarian Law MCP.
  */
 
 import type Database from '@ansvar/mcp-sqlite';
 import { generateResponseMetadata, type ToolResponse } from './utils/metadata.js';
 
-type Capability = 'core_legislation';
-
 const CORE_TABLES = ['legal_documents', 'legal_provisions', 'provisions_fts'];
 
-export function detectCapabilities(db: InstanceType<typeof Database>): Set<Capability> {
-  const caps = new Set<Capability>();
+/** True when all core legislation tables exist. */
+export function coreTablesReady(db: InstanceType<typeof Database>): boolean {
   const tables = new Set(
     (db.prepare("SELECT name FROM sqlite_master WHERE type='table'").all() as { name: string }[])
       .map(r => r.name)
   );
-
-  if (CORE_TABLES.every(t => tables.has(t))) {
-    caps.add('core_legislation');
-  }
-
-  return caps;
+  return CORE_TABLES.every(t => tables.has(t));
 }
 
 interface DbMetadata {

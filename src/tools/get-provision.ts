@@ -20,7 +20,6 @@ interface ProvisionResult {
   section: string;
   title: string | null;
   content: string;
-  section_number?: string;
   url?: string;
 }
 
@@ -54,7 +53,6 @@ export async function getProvision(
     section: String(p.section),
     title: p.title as string | null,
     content: String(p.content),
-    section_number: String(p.provision_ref).replace(/^s/, ''),
     url: docRow.url ?? undefined,
   });
 

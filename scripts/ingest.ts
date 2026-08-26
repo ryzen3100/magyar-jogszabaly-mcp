@@ -18,8 +18,8 @@ import * as fs from 'fs';
 import { parseArgs as parseCliArgs } from 'util';
 import * as path from 'path';
 import { fileURLToPath } from 'url';
-import { fetchWithRateLimit, postJsonWithRateLimit } from './lib/fetcher.js';
-import { parseHungarianHtml, KEY_HUNGARIAN_ACTS, decodeHtmlEntities, type ActIndexEntry, type ParsedAct } from './lib/parser.js';
+import { requestWithRateLimit } from './lib/fetcher.js';
+import { parseHungarianHtml, KEY_HUNGARIAN_ACTS, htmlToText, type ActIndexEntry, type ParsedAct } from './lib/parser.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -29,7 +29,6 @@ const SEED_DIR = path.resolve(__dirname, '../data/seed');
 const BLOCK_ENDPOINT = 'https://njt.hu/ajax/njtGetBlock.json';
 const SEARCH_URL_ENDPOINT = 'https://njt.hu/ajax/get_search_url.json';
 
-// ponytail: njt.hu default page size; only surfaced as a flag for no reason
 const DISCOVERY_PAGE_SIZE = 50;
 
 interface CliArgs {
@@ -104,17 +103,6 @@ function parseArgs(): CliArgs {
     refreshDiscovery: values['refresh-discovery'] ?? false,
     resume: values.resume ?? false,
   };
-}
-
-function htmlToText(input: string): string {
-  return decodeHtmlEntities(
-    input
-      .replace(/<br\s*\/?>/gi, '\n')
-      .replace(/<[^>]+>/g, ' ')
-  )
-    .replace(/[\u00a0\u2000-\u200a\u202f\u205f\u3000]/g, ' ')
-    .replace(/\s+/g, ' ')
-    .trim();
 }
 
 function extractNjtDocumentId(url: string): string | null {
@@ -195,7 +183,14 @@ async function fetchSearchPathForLaws(inForceOnly: boolean): Promise<string> {
     gazette_state: false,
   };
 
-  const response = await postJsonWithRateLimit(SEARCH_URL_ENDPOINT, payload);
+  const response = await requestWithRateLimit(SEARCH_URL_ENDPOINT, {
+    method: 'POST',
+    headers: {
+      'Accept': 'text/html,application/json,*/*',
+      'Content-Type': 'application/json; charset=utf-8',
+    },
+    body: JSON.stringify(payload),
+  });
   if (response.status !== 200) {
     throw new Error(`Search URL request failed (HTTP ${response.status})`);
   }
@@ -240,7 +235,7 @@ async function discoverLaws(inForceOnly: boolean): Promise<DiscoveredLaw[]> {
   const searchPath = await fetchSearchPathForLaws(inForceOnly);
   const firstUrl = `https://njt.hu/search/${searchPath}/1/${DISCOVERY_PAGE_SIZE}`;
 
-  const firstPageResponse = await fetchWithRateLimit(firstUrl);
+  const firstPageResponse = await requestWithRateLimit(firstUrl);
   if (firstPageResponse.status !== 200) {
     throw new Error(`Discovery page fetch failed (HTTP ${firstPageResponse.status})`);
   }
@@ -254,7 +249,7 @@ async function discoverLaws(inForceOnly: boolean): Promise<DiscoveredLaw[]> {
 
   for (let page = 2; page <= totalPages; page++) {
     const url = `https://njt.hu/search/${searchPath}/${page}/${DISCOVERY_PAGE_SIZE}`;
-    const response = await fetchWithRateLimit(url);
+    const response = await requestWithRateLimit(url);
     if (response.status !== 200) {
       throw new Error(`Discovery page ${page} failed (HTTP ${response.status})`);
     }
@@ -288,26 +283,19 @@ function buildFullCorpusActList(discovered: DiscoveredLaw[]): ActIndexEntry[] {
     'criminal-code-cybercrime',
   ]);
 
-  const curatedByDocId = new Map<string, ActIndexEntry[]>();
+  // First non-subset curated act per njt doc ID wins, in KEY_HUNGARIAN_ACTS order.
+  const curatedByDocId = new Map<string, ActIndexEntry>();
   for (const act of KEY_HUNGARIAN_ACTS) {
+    if (subsetOnlyIds.has(act.id)) continue;
     const docId = extractNjtDocumentId(act.url);
-    if (!docId) continue;
-
-    const arr = curatedByDocId.get(docId) ?? [];
-    arr.push(act);
-    curatedByDocId.set(docId, arr);
-  }
-
-  const fullCuratedByDocId = new Map<string, ActIndexEntry>();
-  for (const [docId, acts] of curatedByDocId.entries()) {
-    const fullAct = acts.find(a => !subsetOnlyIds.has(a.id));
-    if (fullAct) fullCuratedByDocId.set(docId, fullAct);
+    if (!docId || curatedByDocId.has(docId)) continue;
+    curatedByDocId.set(docId, act);
   }
 
   const result: ActIndexEntry[] = [];
 
   for (const law of discovered) {
-    const curatedFull = fullCuratedByDocId.get(law.documentId);
+    const curatedFull = curatedByDocId.get(law.documentId);
     if (curatedFull) {
       result.push({
         ...curatedFull,
@@ -336,14 +324,7 @@ function buildFullCorpusActList(discovered: DiscoveredLaw[]): ActIndexEntry[] {
     result.push(act);
   }
 
-  const dedupedById = new Map<string, ActIndexEntry>();
-  for (const act of result) {
-    if (!dedupedById.has(act.id)) {
-      dedupedById.set(act.id, act);
-    }
-  }
-
-  return Array.from(dedupedById.values());
+  return result;
 }
 
 function loadExistingSeedCounts(seedFile: string): { provisions: number; definitions: number } {
@@ -374,9 +355,13 @@ async function hydrateDeferredBlocks(html: string, act: ActIndexEntry, logHydrat
       range.last === null ? { start: range.start } : { start: range.start, last: range.last }
     );
 
-    const response = await postJsonWithRateLimit(BLOCK_ENDPOINT, {
-      documentId,
-      data: chunk,
+    const response = await requestWithRateLimit(BLOCK_ENDPOINT, {
+      method: 'POST',
+      headers: {
+        'Accept': 'text/html,application/json,*/*',
+        'Content-Type': 'application/json; charset=utf-8',
+      },
+      body: JSON.stringify({ documentId, data: chunk }),
     });
 
     if (response.status !== 200) {
@@ -440,7 +425,7 @@ async function fetchAndParseActs(acts: ActIndexEntry[], skipFetch: boolean, resu
         log(`  Using cached HTML for ${act.shortName ?? act.id}`, `  ${progress()} ${act.shortName ?? act.id} -> cached`);
       } else {
         log(`  Fetching ${act.shortName ?? act.id} (${act.url})...`, `  ${progress()} ${act.shortName ?? act.id} ...`);
-        const result = await fetchWithRateLimit(act.url);
+        const result = await requestWithRateLimit(act.url);
 
         if (result.status !== 200) {
           log(` HTTP ${result.status}`, `  ${progress()} ${act.shortName ?? act.id} -> HTTP ${result.status}`);

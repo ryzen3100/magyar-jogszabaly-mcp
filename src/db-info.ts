@@ -7,7 +7,10 @@ import { closeSync, existsSync, openSync, readSync, statSync } from 'fs';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
 
+import type Database from '@ansvar/mcp-sqlite';
+
 import { DB_ENV_VAR } from './constants.js';
+import { readDbMetadata } from './capabilities.js';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 
@@ -50,4 +53,16 @@ export function computeDbFingerprint(dbPath: string): { fingerprint: string; dbB
   } catch { /* non-fatal */ }
 
   return { fingerprint, dbBuilt };
+}
+
+/**
+ * About-tool context shared by the stdio and HTTP entry points:
+ * sampled fingerprint + db_metadata built_at overriding the mtime fallback.
+ */
+export function buildAboutContext(
+  dbPath: string,
+  db: InstanceType<typeof Database>,
+): { fingerprint: string; dbBuilt: string } {
+  const { fingerprint, dbBuilt: fallback } = computeDbFingerprint(dbPath);
+  return { fingerprint, dbBuilt: readDbMetadata(db).built_at ?? fallback };
 }
