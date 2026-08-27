@@ -3,14 +3,19 @@
 package tools
 
 import (
+	"context"
 	"database/sql"
-	"encoding/json"
 	"errors"
 	"fmt"
 	"strings"
 
 	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/statute"
 )
+
+// maxProvisionsPerDocument caps the section-omitted full-document listing —
+// the TS original streamed every row, which on a large act is megabytes of
+// JSON in one tool result.
+const maxProvisionsPerDocument = 500
 
 // getProvisionArgs mirrors GetProvisionInput.
 type getProvisionArgs struct {
@@ -34,84 +39,103 @@ type ProvisionResult struct {
 }
 
 // GetProvision is the exported handler for get_provision.
-func GetProvision(db *sql.DB, rawArgs json.RawMessage) (any, ResponseMetadata, error) {
-	var args getProvisionArgs
-	if len(rawArgs) > 0 {
-		if err := json.Unmarshal(rawArgs, &args); err != nil {
-			return nil, ResponseMetadata{}, err
-		}
-	}
-	if args.DocumentID == nil {
-		return nil, ResponseMetadata{}, fmt.Errorf("missing required argument %q", "document_id")
-	}
-
-	resolvedID, err := statute.ResolveDocumentId(db, *args.DocumentID)
-	if err != nil {
+func GetProvision(ctx context.Context, db *sql.DB, args map[string]any) (any, ResponseMetadata, error) {
+	var parsed getProvisionArgs
+	if err := decodeArgs(args, &parsed); err != nil {
 		return nil, ResponseMetadata{}, err
 	}
+	if parsed.DocumentID == nil {
+		return nil, ResponseMetadata{}, fmt.Errorf("missing required argument %q", "document_id")
+	}
+	if err := validateArgs(
+		checkMaxLength("document_id", parsed.DocumentID, maxDocumentIDLength),
+		checkMaxLength("section", parsed.Section, maxRefLength),
+		checkMaxLength("provision_ref", parsed.ProvisionRef, maxRefLength),
+	); err != nil {
+		return nil, ResponseMetadata{}, err
+	}
+
+	resolvedID, err := statute.ResolveDocumentId(ctx, db, *parsed.DocumentID)
+	if err != nil {
+		return nil, ResponseMetadata{}, fmt.Errorf("resolve document: %w", err)
+	}
 	if resolvedID == "" {
-		meta := GenerateResponseMetadata(db)
-		meta.Note = fmt.Sprintf("No document found matching \"%s\"", *args.DocumentID)
+		meta := GenerateResponseMetadata(ctx, db)
+		meta.Note = fmt.Sprintf("No document found matching \"%s\"", *parsed.DocumentID)
 		return []ProvisionResult{}, meta, nil
 	}
 
 	var docID, docTitle string
 	var docURL sql.NullString
-	err = db.QueryRow("SELECT id, title, url FROM legal_documents WHERE id = ?", resolvedID).Scan(&docID, &docTitle, &docURL)
+	err = db.QueryRowContext(ctx, "SELECT id, title, url FROM legal_documents WHERE id = ?", resolvedID).Scan(&docID, &docTitle, &docURL)
 	if errors.Is(err, sql.ErrNoRows) {
-		return []ProvisionResult{}, GenerateResponseMetadata(db), nil
+		return []ProvisionResult{}, GenerateResponseMetadata(ctx, db), nil
 	}
 	if err != nil {
-		return nil, ResponseMetadata{}, err
+		return nil, ResponseMetadata{}, fmt.Errorf("query document: %w", err)
 	}
 
 	// Specific provision lookup — one OR-query covers exact, "s"-prefixed,
 	// section-column, and fuzzy matches (same pattern as validate_citation).
-	ref := args.ProvisionRef
+	ref := parsed.ProvisionRef
 	if ref == nil {
-		ref = args.Section
+		ref = parsed.Section
 	}
 	if ref != nil && *ref != "" {
 		refTrimmed := strings.TrimSpace(*ref)
 
-		row := db.QueryRow(
+		row := db.QueryRowContext(
+			ctx,
 			"SELECT * FROM legal_provisions WHERE document_id = ? AND (provision_ref = ? OR provision_ref = ? OR section = ? OR provision_ref LIKE ? OR section LIKE ?)",
 			resolvedID, refTrimmed, "s"+refTrimmed, refTrimmed, "%"+refTrimmed+"%", "%"+refTrimmed+"%",
 		)
 		provision, err := scanProvision(row.Scan, resolvedID, docTitle, docURL)
 		if err != nil {
-			return nil, ResponseMetadata{}, err
+			return nil, ResponseMetadata{}, fmt.Errorf("query provision: %w", err)
 		}
 		if provision != nil {
-			return []ProvisionResult{*provision}, GenerateResponseMetadata(db), nil
+			return []ProvisionResult{*provision}, GenerateResponseMetadata(ctx, db), nil
 		}
 
-		meta := GenerateResponseMetadata(db)
+		meta := GenerateResponseMetadata(ctx, db)
 		// Note carries the ref as typed (untrimmed), like the TS template.
 		meta.Note = fmt.Sprintf("Provision \"%s\" not found in document \"%s\"", *ref, resolvedID)
 		return []ProvisionResult{}, meta, nil
 	}
 
-	// Return all provisions for the document
-	rows, err := db.Query("SELECT * FROM legal_provisions WHERE document_id = ? ORDER BY id", resolvedID)
+	// Return all provisions for the document, capped — a full act does not
+	// fit one tool result.
+	rows, err := db.QueryContext(ctx, "SELECT * FROM legal_provisions WHERE document_id = ? ORDER BY id", resolvedID)
 	if err != nil {
-		return nil, ResponseMetadata{}, err
+		return nil, ResponseMetadata{}, fmt.Errorf("query provisions: %w", err)
 	}
 	defer rows.Close()
 
 	results := []ProvisionResult{}
+	truncated := false
 	for rows.Next() {
+		if len(results) >= maxProvisionsPerDocument {
+			truncated = true
+			break
+		}
 		provision, err := scanProvision(rows.Scan, resolvedID, docTitle, docURL)
 		if err != nil {
-			return nil, ResponseMetadata{}, err
+			return nil, ResponseMetadata{}, fmt.Errorf("scan provision: %w", err)
 		}
 		results = append(results, *provision)
 	}
+	// Release the connection before the metadata read below: the pool is
+	// capped, and an early break leaves the rows (and their connection) open.
+	rows.Close()
 	if err := rows.Err(); err != nil {
-		return nil, ResponseMetadata{}, err
+		return nil, ResponseMetadata{}, fmt.Errorf("scan provisions: %w", err)
 	}
 
-	return results, GenerateResponseMetadata(db), nil
+	meta := GenerateResponseMetadata(ctx, db)
+	if truncated {
+		meta.Note = fmt.Sprintf("results truncated at %d provisions; pass section or provision_ref to narrow the query", maxProvisionsPerDocument)
+	}
+	return results, meta, nil
 }
 
 // scanProvision maps one legal_provisions row (SELECT * column order:

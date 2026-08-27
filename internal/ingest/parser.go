@@ -1,9 +1,11 @@
 package ingest
 
 import (
+	"cmp"
 	"fmt"
+	"maps"
 	"regexp"
-	"sort"
+	"slices"
 	"strconv"
 	"strings"
 	"unicode/utf8"
@@ -131,11 +133,11 @@ func parseSectionFromMarker(rawMarker string) string {
 }
 
 func parseSectionFromKey(key string) string {
-	switch {
-	case strings.HasPrefix(key, "ART_"):
-		return key[len("ART_"):]
-	case strings.HasPrefix(key, "LEGACY_"):
-		return key[len("LEGACY_"):]
+	if rest, ok := strings.CutPrefix(key, "ART_"); ok {
+		return rest
+	}
+	if rest, ok := strings.CutPrefix(key, "LEGACY_"); ok {
+		return rest
 	}
 	m := digitsSuffixPatt.FindStringSubmatch(key)
 	if m == nil {
@@ -440,11 +442,9 @@ func ParseHungarianHTML(html string, act ActIndexEntry) seed.DocumentSeed {
 		}
 	}
 
-	sortedSections := make([]*sectionAccumulator, 0, len(sections))
-	for _, acc := range sections {
-		sortedSections = append(sortedSections, acc)
-	}
-	sort.Slice(sortedSections, func(i, j int) bool { return sortedSections[i].firstPos < sortedSections[j].firstPos })
+	sortedSections := slices.SortedFunc(maps.Values(sections), func(a, b *sectionAccumulator) int {
+		return cmp.Compare(a.firstPos, b.firstPos)
+	})
 
 	provisions := []seed.ProvisionSeed{}
 	for _, sectionData := range sortedSections {

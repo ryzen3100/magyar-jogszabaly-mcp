@@ -6,6 +6,7 @@ import (
 	"io"
 	"net/http"
 	"net/http/httptest"
+	"strings"
 	"sync"
 	"testing"
 	"time"
@@ -125,8 +126,12 @@ func TestFetchRateLimitsConsecutiveRequests(t *testing.T) {
 	defer ts.Close()
 
 	minDelay := 100 * time.Millisecond
+	var sleeps []time.Duration
 	f := newTestFetcher(minDelay)
-	for i := 0; i < 3; i++ {
+	// Assert on the injected Sleep hook instead of wall-clock gaps between
+	// server-side timestamps: real sleeps flake under -race scheduling.
+	f.Sleep = func(d time.Duration) { sleeps = append(sleeps, d) }
+	for i := range 3 {
 		if _, err := f.Fetch(context.Background(), ts.URL, nil); err != nil {
 			t.Fatalf("Fetch %d: %v", i, err)
 		}
@@ -136,12 +141,14 @@ func TestFetchRateLimitsConsecutiveRequests(t *testing.T) {
 	if len(srv.times) != 3 {
 		t.Fatalf("got %d requests, want 3", len(srv.times))
 	}
-	for i := 1; i < len(srv.times); i++ {
-		gap := srv.times[i].Sub(srv.times[i-1])
-		// Server-side timestamps carry small network jitter; allow a
-		// 10ms epsilon under the configured minimum.
-		if gap < minDelay-10*time.Millisecond {
-			t.Errorf("gap before request %d = %v, want >= %v", i, gap, minDelay)
+	// Request 1 seeds lastRequestTime without waiting; requests 2 and 3 must
+	// each have waited the configured minimum (minus elapsed time).
+	if len(sleeps) != 2 {
+		t.Fatalf("got %d rate-limit sleeps, want 2 (before requests 2 and 3)", len(sleeps))
+	}
+	for i, d := range sleeps {
+		if d <= 0 || d > minDelay {
+			t.Errorf("rate-limit sleep %d = %v, want in (0, %v]", i+1, d, minDelay)
 		}
 	}
 }
@@ -221,6 +228,88 @@ type failingTransport struct{ calls *int }
 func (t failingTransport) RoundTrip(*http.Request) (*http.Response, error) {
 	*t.calls++
 	return nil, errors.New("boom")
+}
+
+func TestFetchDoesNotRetryCanceledContext(t *testing.T) {
+	calls := 0
+	f := newTestFetcher(0)
+	f.Client = &http.Client{Transport: canceledTransport{&calls}}
+	f.Logf = func(string, ...any) {}
+
+	ctx, cancel := context.WithCancel(context.Background())
+	cancel()
+	if _, err := f.Fetch(ctx, "http://unit.test/x", nil); !errors.Is(err, context.Canceled) {
+		t.Fatalf("err = %v, want context.Canceled", err)
+	}
+	if calls != 1 {
+		t.Errorf("calls = %d, want 1 (no retry on a canceled context)", calls)
+	}
+}
+
+type canceledTransport struct{ calls *int }
+
+func (t canceledTransport) RoundTrip(r *http.Request) (*http.Response, error) {
+	*t.calls++
+	return nil, r.Context().Err()
+}
+
+func TestFetchHonors429RetryAfter(t *testing.T) {
+	tests := []struct {
+		name       string
+		retryAfter string
+		want       time.Duration
+	}{
+		{"shorter than backoff", "1", 1 * time.Second},
+		{"capped at normal backoff", "99", 2 * time.Second},
+		{"unparseable", "soon", 2 * time.Second},
+		{"absent", "", 2 * time.Second},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			first := true
+			ts := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+				if first {
+					first = false
+					if tt.retryAfter != "" {
+						w.Header().Set("Retry-After", tt.retryAfter)
+					}
+					w.WriteHeader(http.StatusTooManyRequests)
+					return
+				}
+				w.Write([]byte("ok-body"))
+			}))
+			defer ts.Close()
+
+			var backoffs []time.Duration
+			f := newTestFetcher(0)
+			f.Sleep = func(d time.Duration) { backoffs = append(backoffs, d) }
+			f.Logf = func(string, ...any) {}
+
+			res, err := f.Fetch(context.Background(), ts.URL, nil)
+			if err != nil {
+				t.Fatalf("Fetch: %v", err)
+			}
+			if res.Status != 200 {
+				t.Errorf("status = %d, want 200", res.Status)
+			}
+			if len(backoffs) != 1 || backoffs[0] != tt.want {
+				t.Errorf("backoffs = %v, want [%v]", backoffs, tt.want)
+			}
+		})
+	}
+}
+
+func TestFetchRejectsOversizedBody(t *testing.T) {
+	ts := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		w.Write(make([]byte, maxBodyBytes+1))
+	}))
+	defer ts.Close()
+
+	f := newTestFetcher(0)
+	f.Logf = func(string, ...any) {}
+	if _, err := f.Fetch(context.Background(), ts.URL, nil); err == nil || !strings.Contains(err.Error(), "limit") {
+		t.Fatalf("err = %v, want a body-size limit error", err)
+	}
 }
 
 func TestBackoffFor(t *testing.T) {

@@ -5,8 +5,8 @@
 package tools
 
 import (
+	"context"
 	"database/sql"
-	"encoding/json"
 	"fmt"
 	"strings"
 
@@ -73,28 +73,25 @@ const (
         0 as relevance
       FROM legal_provisions lp
       JOIN legal_documents ld ON ld.id = lp.document_id
-      WHERE lp.content LIKE ?
+      WHERE lp.content LIKE ? ESCAPE '\'
     `
 )
 
 // SearchLegislation is the exported handler for search_legislation; it is
 // also the entry point other tools (build_legal_stance) reuse.
-func SearchLegislation(db *sql.DB, rawArgs json.RawMessage) (any, ResponseMetadata, error) {
-	args, err := parseSearchArgs(rawArgs)
-	if err != nil {
+func SearchLegislation(ctx context.Context, db *sql.DB, args map[string]any) (any, ResponseMetadata, error) {
+	var parsed searchArgs
+	if err := decodeArgs(args, &parsed); err != nil {
 		return nil, ResponseMetadata{}, err
 	}
-	return runSearch(db, args)
-}
-
-func parseSearchArgs(rawArgs json.RawMessage) (searchArgs, error) {
-	var args searchArgs
-	if len(rawArgs) > 0 {
-		if err := json.Unmarshal(rawArgs, &args); err != nil {
-			return args, err
-		}
+	if err := validateArgs(
+		checkMaxLength("query", parsed.Query, maxQueryLength),
+		checkMaxLength("document_id", parsed.DocumentID, maxDocumentIDLength),
+		checkEnum("status", parsed.Status, statusEnumValues...),
+	); err != nil {
+		return nil, ResponseMetadata{}, err
 	}
-	return args, nil
+	return runSearch(ctx, db, parsed)
 }
 
 // runSearch is the search core shared by search_legislation and
@@ -102,10 +99,11 @@ func parseSearchArgs(rawArgs json.RawMessage) (searchArgs, error) {
 // query problems: FTS syntax errors move to the next variant, a LIKE failure
 // degrades to empty results. Only infrastructure errors (document resolution,
 // closed database) surface as errors — the TS equivalents throw into the
-// registry catch.
-func runSearch(db *sql.DB, args searchArgs) (any, ResponseMetadata, error) {
+// registry catch. When every tier errors, the empty result carries a note
+// instead of looking like a legitimate zero-hit search.
+func runSearch(ctx context.Context, db *sql.DB, args searchArgs) (any, ResponseMetadata, error) {
 	if args.Query == nil || strings.TrimSpace(*args.Query) == "" {
-		return []SearchLegislationResult{}, GenerateResponseMetadata(db), nil
+		return []SearchLegislationResult{}, GenerateResponseMetadata(ctx, db), nil
 	}
 
 	// Math.min(Math.max(limit ?? 10, 1), 50); fetch extra rows for dedup.
@@ -116,17 +114,23 @@ func runSearch(db *sql.DB, args searchArgs) (any, ResponseMetadata, error) {
 	// Resolve document_id from title if provided (same resolution as get_provision)
 	var resolvedDocID string
 	if args.DocumentID != nil && *args.DocumentID != "" {
-		resolved, err := statute.ResolveDocumentId(db, *args.DocumentID)
+		resolved, err := statute.ResolveDocumentId(ctx, db, *args.DocumentID)
 		if err != nil {
-			return nil, ResponseMetadata{}, err
+			return nil, ResponseMetadata{}, fmt.Errorf("resolve document: %w", err)
 		}
 		if resolved == "" {
-			meta := GenerateResponseMetadata(db)
+			meta := GenerateResponseMetadata(ctx, db)
 			meta.Note = fmt.Sprintf("No document found matching \"%s\"", *args.DocumentID)
 			return []SearchLegislationResult{}, meta, nil
 		}
 		resolvedDocID = resolved
 	}
+
+	// lastErr + cleanTierRan separate "every tier failed" from "legitimately
+	// empty": a tier that completes without error (even with zero hits)
+	// proves the pipeline works, so the note only appears when no tier did.
+	var lastErr error
+	cleanTierRan := false
 
 	// ponytail: rank rowids first without snippet(), then snippet() only the
 	// final deduped rows — snippet over every match dominates high-fanout
@@ -149,17 +153,20 @@ func runSearch(db *sql.DB, args searchArgs) (any, ResponseMetadata, error) {
 		query += " ORDER BY relevance LIMIT ?"
 		params = append(params, fetchLimit)
 
-		ranked, err := queryRankedRows(db, query, params)
+		ranked, err := queryRankedRows(ctx, db, query, params)
 		if err != nil {
+			lastErr = err
 			continue // FTS query syntax error — try next variant
 		}
 		if len(ranked) == 0 {
+			cleanTierRan = true
 			continue
 		}
 
 		deduped := dedupeRanked(ranked, limit)
-		snippets, err := fetchSnippets(db, ftsQuery, deduped)
+		snippets, err := fetchSnippets(ctx, db, ftsQuery, deduped)
 		if err != nil {
+			lastErr = err
 			continue // same TS try block: a phase-B failure tries the next variant
 		}
 
@@ -172,7 +179,7 @@ func runSearch(db *sql.DB, args searchArgs) (any, ResponseMetadata, error) {
 			results = append(results, res)
 		}
 
-		meta := GenerateResponseMetadata(db)
+		meta := GenerateResponseMetadata(ctx, db)
 		if i > 0 { // winning variant is not variant 0 → 'broadened'
 			meta.QueryStrategy = "broadened"
 		}
@@ -181,7 +188,7 @@ func runSearch(db *sql.DB, args searchArgs) (any, ResponseMetadata, error) {
 
 	// LIKE fallback — final tier when FTS5 returns no results
 	{
-		likePattern := fts.BuildLikePattern(fts.SanitizeFtsInput(*args.Query))
+		likePattern := fts.BuildLikePattern(escapeLike(fts.SanitizeFtsInput(*args.Query)))
 		query := searchLikeSQL
 		params := []any{likePattern}
 
@@ -198,20 +205,35 @@ func runSearch(db *sql.DB, args searchArgs) (any, ResponseMetadata, error) {
 		query += " LIMIT ?"
 		params = append(params, fetchLimit)
 
-		rows, err := queryLikeRows(db, query, params)
+		rows, err := queryLikeRows(ctx, db, query, params)
+		if err != nil {
+			lastErr = err
+		} else {
+			cleanTierRan = true
+		}
 		if err == nil && len(rows) > 0 {
 			deduped := dedupeRanked(rows, limit)
 			results := make([]SearchLegislationResult, 0, len(deduped))
 			for _, row := range deduped {
 				results = append(results, toResult(row))
 			}
-			meta := GenerateResponseMetadata(db)
+			meta := GenerateResponseMetadata(ctx, db)
 			meta.QueryStrategy = "like_fallback"
 			return results, meta, nil
 		}
 	}
 
-	return []SearchLegislationResult{}, GenerateResponseMetadata(db), nil
+	meta := GenerateResponseMetadata(ctx, db)
+	if lastErr != nil && !cleanTierRan {
+		meta.Note = "search degraded: all query tiers failed"
+	}
+	return []SearchLegislationResult{}, meta, nil
+}
+
+// escapeLike escapes SQL LIKE wildcards so user input matches literally;
+// pair it with `ESCAPE '\'` in the LIKE clause.
+func escapeLike(s string) string {
+	return strings.NewReplacer(`\`, `\\`, `%`, `\%`, `_`, `\_`).Replace(s)
 }
 
 // rankedRow is a phase-A (or LIKE-tier) row before JSON shaping. Nullable
@@ -228,10 +250,10 @@ type rankedRow struct {
 	relevance     float64
 }
 
-func queryRankedRows(db *sql.DB, query string, params []any) ([]rankedRow, error) {
-	rows, err := db.Query(query, params...)
+func queryRankedRows(ctx context.Context, db *sql.DB, query string, params []any) ([]rankedRow, error) {
+	rows, err := db.QueryContext(ctx, query, params...)
 	if err != nil {
-		return nil, err
+		return nil, fmt.Errorf("query ranked rows: %w", err)
 	}
 	defer rows.Close()
 
@@ -239,17 +261,20 @@ func queryRankedRows(db *sql.DB, query string, params []any) ([]rankedRow, error
 	for rows.Next() {
 		var r rankedRow
 		if err := rows.Scan(&r.provisionID, &r.documentID, &r.documentTitle, &r.provisionRef, &r.chapter, &r.section, &r.title, &r.relevance); err != nil {
-			return nil, err
+			return nil, fmt.Errorf("scan ranked row: %w", err)
 		}
 		out = append(out, r)
 	}
-	return out, rows.Err()
+	if err := rows.Err(); err != nil {
+		return nil, fmt.Errorf("scan ranked rows: %w", err)
+	}
+	return out, nil
 }
 
-func queryLikeRows(db *sql.DB, query string, params []any) ([]rankedRow, error) {
-	rows, err := db.Query(query, params...)
+func queryLikeRows(ctx context.Context, db *sql.DB, query string, params []any) ([]rankedRow, error) {
+	rows, err := db.QueryContext(ctx, query, params...)
 	if err != nil {
-		return nil, err
+		return nil, fmt.Errorf("query like fallback: %w", err)
 	}
 	defer rows.Close()
 
@@ -258,18 +283,21 @@ func queryLikeRows(db *sql.DB, query string, params []any) ([]rankedRow, error) 
 		var r rankedRow
 		var relevance int64
 		if err := rows.Scan(&r.documentID, &r.documentTitle, &r.provisionRef, &r.chapter, &r.section, &r.title, &r.snippet, &relevance); err != nil {
-			return nil, err
+			return nil, fmt.Errorf("scan like row: %w", err)
 		}
 		r.relevance = float64(relevance)
 		out = append(out, r)
 	}
-	return out, rows.Err()
+	if err := rows.Err(); err != nil {
+		return nil, fmt.Errorf("scan like rows: %w", err)
+	}
+	return out, nil
 }
 
 // fetchSnippets runs phase B: snippet() over the same MATCH expression,
 // restricted to the deduped rowids. Missing rows simply stay ” via the
 // caller's map lookup.
-func fetchSnippets(db *sql.DB, ftsQuery string, deduped []rankedRow) (map[int64]string, error) {
+func fetchSnippets(ctx context.Context, db *sql.DB, ftsQuery string, deduped []rankedRow) (map[int64]string, error) {
 	placeholders := strings.TrimSuffix(strings.Repeat("?,", len(deduped)), ",")
 	params := make([]any, 0, len(deduped)+1)
 	params = append(params, ftsQuery)
@@ -277,9 +305,9 @@ func fetchSnippets(db *sql.DB, ftsQuery string, deduped []rankedRow) (map[int64]
 		params = append(params, row.provisionID)
 	}
 
-	rows, err := db.Query(searchSnippetSQL+placeholders+")", params...)
+	rows, err := db.QueryContext(ctx, searchSnippetSQL+placeholders+")", params...)
 	if err != nil {
-		return nil, err
+		return nil, fmt.Errorf("fetch snippets: %w", err)
 	}
 	defer rows.Close()
 
@@ -288,11 +316,14 @@ func fetchSnippets(db *sql.DB, ftsQuery string, deduped []rankedRow) (map[int64]
 		var rowid int64
 		var snippet string
 		if err := rows.Scan(&rowid, &snippet); err != nil {
-			return nil, err
+			return nil, fmt.Errorf("scan snippet: %w", err)
 		}
 		snippets[rowid] = snippet
 	}
-	return snippets, rows.Err()
+	if err := rows.Err(); err != nil {
+		return nil, fmt.Errorf("scan snippets: %w", err)
+	}
+	return snippets, nil
 }
 
 // dedupeRanked deduplicates by document_title + provision_ref, keeping the
@@ -340,16 +371,10 @@ func nullStringPtr(ns sql.NullString) *string {
 // clampLimit ports Math.min(Math.max(limit ?? def, 1), max). JSON numbers
 // are always finite (encoding/json rejects NaN/Infinity), so the float clamp
 // cannot overflow the int conversion.
-func clampLimit(v *float64, def, max float64) int {
+func clampLimit(v *float64, def, maxValue float64) int {
 	f := def
 	if v != nil {
 		f = *v
 	}
-	if f < 1 {
-		f = 1
-	}
-	if f > max {
-		f = max
-	}
-	return int(f)
+	return int(min(max(f, 1), maxValue))
 }

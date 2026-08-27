@@ -4,6 +4,7 @@
 package tools
 
 import (
+	"context"
 	"database/sql"
 
 	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/store"
@@ -37,8 +38,8 @@ type listSourcesResult struct {
 }
 
 // ListSources implements the list_sources MCP tool. It takes no arguments.
-func ListSources(db *sql.DB) (any, ResponseMetadata, error) {
-	meta := store.ReadDbMetadata(db)
+func ListSources(ctx context.Context, db *sql.DB) (any, ResponseMetadata, error) {
+	meta := store.ReadDbMetadata(ctx, db)
 
 	var builtAt *string
 	if meta.HasBuiltAt {
@@ -62,8 +63,8 @@ func ListSources(db *sql.DB) (any, ResponseMetadata, error) {
 			Tier:           meta.Tier,
 			SchemaVersion:  meta.SchemaVersion,
 			BuiltAt:        builtAt,
-			DocumentCount:  store.CachedCount(db, "SELECT COUNT(*) as count FROM legal_documents"),
-			ProvisionCount: store.CachedCount(db, "SELECT COUNT(*) as count FROM legal_provisions"),
+			DocumentCount:  store.CachedCount(ctx, db, "SELECT COUNT(*) as count FROM legal_documents"),
+			ProvisionCount: store.CachedCount(ctx, db, "SELECT COUNT(*) as count FROM legal_provisions"),
 		},
-	}, GenerateResponseMetadata(db), nil
+	}, GenerateResponseMetadata(ctx, db), nil
 }

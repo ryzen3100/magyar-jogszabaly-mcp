@@ -4,8 +4,8 @@
 package tools
 
 import (
+	"context"
 	"database/sql"
-	"encoding/json"
 	"fmt"
 
 	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/statute"
@@ -31,40 +31,44 @@ type euComplianceResult struct {
 // ValidateEUCompliance implements the validate_eu_compliance MCP tool. The
 // decision ladder reproduces the TS order exactly: unresolved doc → EU probe
 // fail → zero references → repealed → status distribution.
-func ValidateEUCompliance(db *sql.DB, rawArgs json.RawMessage) (any, ResponseMetadata, error) {
-	var args validateEUComplianceArgs
-	if len(rawArgs) > 0 {
-		if err := json.Unmarshal(rawArgs, &args); err != nil {
-			return nil, ResponseMetadata{}, err
-		}
+func ValidateEUCompliance(ctx context.Context, db *sql.DB, args map[string]any) (any, ResponseMetadata, error) {
+	var parsed validateEUComplianceArgs
+	if err := decodeArgs(args, &parsed); err != nil {
+		return nil, ResponseMetadata{}, err
 	}
-	if args.DocumentID == nil {
+	if parsed.DocumentID == nil {
 		return nil, ResponseMetadata{}, fmt.Errorf("missing required argument %q", "document_id")
 	}
-
-	resolvedID, err := statute.ResolveDocumentId(db, *args.DocumentID)
-	if err != nil {
+	if err := validateArgs(
+		checkMaxLength("document_id", parsed.DocumentID, maxDocumentIDLength),
+		checkMaxLength("eu_document_id", parsed.EuDocumentID, maxEuDocumentIDLength),
+	); err != nil {
 		return nil, ResponseMetadata{}, err
+	}
+
+	resolvedID, err := statute.ResolveDocumentId(ctx, db, *parsed.DocumentID)
+	if err != nil {
+		return nil, ResponseMetadata{}, fmt.Errorf("resolve document: %w", err)
 	}
 	if resolvedID == "" {
 		// The input is echoed exactly as typed (untrimmed).
 		return euComplianceResult{
-			DocumentID:        *args.DocumentID,
+			DocumentID:        *parsed.DocumentID,
 			DocumentTitle:     "Unknown",
 			ComplianceStatus:  "not_applicable",
 			EuReferencesFound: 0,
-			Warnings:          []string{fmt.Sprintf("Document not found: \"%s\"", *args.DocumentID)},
+			Warnings:          []string{fmt.Sprintf("Document not found: \"%s\"", *parsed.DocumentID)},
 			Recommendations:   []string{},
-		}, GenerateResponseMetadata(db), nil
+		}, GenerateResponseMetadata(ctx, db), nil
 	}
 
 	var docID, docTitle, docStatus string
-	if err := db.QueryRow("SELECT id, title, status FROM legal_documents WHERE id = ?", resolvedID).
+	if err := db.QueryRowContext(ctx, "SELECT id, title, status FROM legal_documents WHERE id = ?", resolvedID).
 		Scan(&docID, &docTitle, &docStatus); err != nil {
-		return nil, ResponseMetadata{}, err
+		return nil, ResponseMetadata{}, fmt.Errorf("query document: %w", err)
 	}
 
-	if !store.EUAvailable(db, "eu_references") {
+	if !store.EUAvailable(ctx, db, "eu_references") {
 		return euComplianceResult{
 			DocumentID:        resolvedID,
 			DocumentTitle:     docTitle,
@@ -72,18 +76,18 @@ func ValidateEUCompliance(db *sql.DB, rawArgs json.RawMessage) (any, ResponseMet
 			EuReferencesFound: 0,
 			Warnings:          []string{"EU references not available in this database tier"},
 			Recommendations:   []string{},
-		}, GenerateResponseMetadata(db), nil
+		}, GenerateResponseMetadata(ctx, db), nil
 	}
 
 	countSQL := "SELECT COUNT(*) as count FROM eu_references WHERE document_id = ?"
 	countParams := []any{resolvedID}
-	if args.EuDocumentID != nil && *args.EuDocumentID != "" {
+	if parsed.EuDocumentID != nil && *parsed.EuDocumentID != "" {
 		countSQL += " AND eu_document_id = ?"
-		countParams = append(countParams, *args.EuDocumentID)
+		countParams = append(countParams, *parsed.EuDocumentID)
 	}
 	var euRefCount int
-	if err := db.QueryRow(countSQL, countParams...).Scan(&euRefCount); err != nil {
-		return nil, ResponseMetadata{}, err
+	if err := db.QueryRowContext(ctx, countSQL, countParams...).Scan(&euRefCount); err != nil {
+		return nil, ResponseMetadata{}, fmt.Errorf("count eu references: %w", err)
 	}
 
 	if euRefCount == 0 {
@@ -96,7 +100,7 @@ func ValidateEUCompliance(db *sql.DB, rawArgs json.RawMessage) (any, ResponseMet
 			Recommendations: []string{
 				"No EU cross-references found for this Hungarian statute. Hungary is an EU Member State; EU references indicate transposition obligations.",
 			},
-		}, GenerateResponseMetadata(db), nil
+		}, GenerateResponseMetadata(ctx, db), nil
 	}
 
 	warnings := []string{}
@@ -110,11 +114,12 @@ func ValidateEUCompliance(db *sql.DB, rawArgs json.RawMessage) (any, ResponseMet
 	// The status distribution is intentionally NOT filtered by
 	// eu_document_id — same quirk as the TS original: the count above is
 	// filtered, this GROUP BY is not.
-	statusRows, err := db.Query(
+	statusRows, err := db.QueryContext(
+		ctx,
 		"SELECT implementation_status, COUNT(*) as count FROM eu_references WHERE document_id = ? GROUP BY implementation_status",
 		resolvedID)
 	if err != nil {
-		return nil, ResponseMetadata{}, err
+		return nil, ResponseMetadata{}, fmt.Errorf("query status distribution: %w", err)
 	}
 	statusCounts := map[string]int{}
 	for statusRows.Next() {
@@ -124,7 +129,7 @@ func ValidateEUCompliance(db *sql.DB, rawArgs json.RawMessage) (any, ResponseMet
 		)
 		if err := statusRows.Scan(&status, &n); err != nil {
 			statusRows.Close()
-			return nil, ResponseMetadata{}, err
+			return nil, ResponseMetadata{}, fmt.Errorf("scan status count: %w", err)
 		}
 		key := ""
 		if status.Valid {
@@ -134,7 +139,7 @@ func ValidateEUCompliance(db *sql.DB, rawArgs json.RawMessage) (any, ResponseMet
 	}
 	statusRows.Close()
 	if err := statusRows.Err(); err != nil {
-		return nil, ResponseMetadata{}, err
+		return nil, ResponseMetadata{}, fmt.Errorf("scan status counts: %w", err)
 	}
 
 	completeCount := statusCounts["complete"]
@@ -163,5 +168,5 @@ func ValidateEUCompliance(db *sql.DB, rawArgs json.RawMessage) (any, ResponseMet
 		EuReferencesFound: euRefCount,
 		Warnings:          warnings,
 		Recommendations:   recommendations,
-	}, GenerateResponseMetadata(db), nil
+	}, GenerateResponseMetadata(ctx, db), nil
 }

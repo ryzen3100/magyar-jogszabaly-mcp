@@ -4,7 +4,7 @@ package tools_test
 // searchEUImplementations describes in tests/tools/other-tools.test.ts.
 
 import (
-	"encoding/json"
+	"context"
 	"strings"
 	"testing"
 
@@ -16,7 +16,7 @@ func TestSearchEUImplementationsEUDocumentsUnavailable(t *testing.T) {
 	db := storetest.NewTestDb(t)
 	euDropTable(t, db, "eu_documents")
 
-	results, meta, err := tools.SearchEUImplementations(db, json.RawMessage(`{"query":"GDPR"}`))
+	results, meta, err := tools.SearchEUImplementations(context.Background(), db, argsMap(t, `{"query":"GDPR"}`))
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -33,7 +33,7 @@ func TestSearchEUImplementationsEUDocumentsUnavailable(t *testing.T) {
 func TestSearchEUImplementationsAllFilters(t *testing.T) {
 	db := storetest.NewTestDb(t)
 
-	results, _, err := tools.SearchEUImplementations(db, json.RawMessage(
+	results, _, err := tools.SearchEUImplementations(context.Background(), db, argsMap(t,
 		`{"query":"GDPR","type":"regulation","year_from":2015,"year_to":2016,`+
 			`"has_hungarian_implementation":true,"limit":500}`))
 	if err != nil {
@@ -62,7 +62,7 @@ func TestSearchEUImplementationsAllFilters(t *testing.T) {
 func TestSearchEUImplementationsDefaultLimitOrder(t *testing.T) {
 	db := storetest.NewTestDb(t)
 
-	results, _, err := tools.SearchEUImplementations(db, json.RawMessage(`{}`))
+	results, _, err := tools.SearchEUImplementations(context.Background(), db, argsMap(t, `{}`))
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -92,7 +92,7 @@ func TestSearchEUImplementationsLimitClamp(t *testing.T) {
 	}
 	for _, tc := range cases {
 		t.Run(tc.name, func(t *testing.T) {
-			results, _, err := tools.SearchEUImplementations(db, json.RawMessage(
+			results, _, err := tools.SearchEUImplementations(context.Background(), db, argsMap(t,
 				`{"limit":`+tc.limit+`}`))
 			if err != nil {
 				t.Fatal(err)
@@ -104,7 +104,7 @@ func TestSearchEUImplementationsLimitClamp(t *testing.T) {
 	}
 
 	// The clamped-minimum result is the newest document (year DESC).
-	results, _, err := tools.SearchEUImplementations(db, json.RawMessage(`{"limit":0}`))
+	results, _, err := tools.SearchEUImplementations(context.Background(), db, argsMap(t, `{"limit":0}`))
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -116,7 +116,7 @@ func TestSearchEUImplementationsLimitClamp(t *testing.T) {
 func TestSearchEUImplementationsQueryNoMatch(t *testing.T) {
 	db := storetest.NewTestDb(t)
 
-	results, meta, err := tools.SearchEUImplementations(db, json.RawMessage(`{"query":"no-such-eu-doc"}`))
+	results, meta, err := tools.SearchEUImplementations(context.Background(), db, argsMap(t, `{"query":"no-such-eu-doc"}`))
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -139,7 +139,7 @@ func TestSearchEUImplementationsHasHungarianImplementationFilterAndNulls(t *test
 	}
 
 	// Default: included, with explicit nulls on the wire.
-	results, meta, err := tools.SearchEUImplementations(db, json.RawMessage(`{}`))
+	results, meta, err := tools.SearchEUImplementations(context.Background(), db, argsMap(t, `{}`))
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -152,7 +152,7 @@ func TestSearchEUImplementationsHasHungarianImplementationFilterAndNulls(t *test
 	}
 
 	// has_hungarian_implementation=true (HAVING count > 0): excluded.
-	results, _, err = tools.SearchEUImplementations(db, json.RawMessage(
+	results, _, err = tools.SearchEUImplementations(context.Background(), db, argsMap(t,
 		`{"has_hungarian_implementation":true}`))
 	if err != nil {
 		t.Fatal(err)
@@ -168,7 +168,7 @@ func TestSearchEUImplementationsYearZeroMeansNoFilter(t *testing.T) {
 	db := storetest.NewTestDb(t)
 
 	// TS falsy check: year_from = 0 adds no filter at all.
-	results, _, err := tools.SearchEUImplementations(db, json.RawMessage(
+	results, _, err := tools.SearchEUImplementations(context.Background(), db, argsMap(t,
 		`{"year_from":0,"year_to":0}`))
 	if err != nil {
 		t.Fatal(err)
@@ -183,7 +183,7 @@ func TestSearchEUImplementationsClosedDB(t *testing.T) {
 	db.Close()
 
 	// Probe-first tool: closed DB → degraded empty result + note, no error.
-	results, meta, err := tools.SearchEUImplementations(db, json.RawMessage(`{}`))
+	results, meta, err := tools.SearchEUImplementations(context.Background(), db, argsMap(t, `{}`))
 	if err != nil {
 		t.Fatal(err)
 	}

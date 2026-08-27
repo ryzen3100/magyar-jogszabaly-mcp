@@ -4,8 +4,8 @@
 package tools
 
 import (
+	"context"
 	"database/sql"
-	"encoding/json"
 	"fmt"
 
 	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/store"
@@ -32,22 +32,23 @@ type hungarianImplementationResult struct {
 
 // GetHungarianImplementations implements the get_hungarian_implementations
 // MCP tool.
-func GetHungarianImplementations(db *sql.DB, rawArgs json.RawMessage) (any, ResponseMetadata, error) {
-	var args getHungarianImplementationsArgs
-	if len(rawArgs) > 0 {
-		if err := json.Unmarshal(rawArgs, &args); err != nil {
-			return nil, ResponseMetadata{}, err
-		}
+func GetHungarianImplementations(ctx context.Context, db *sql.DB, args map[string]any) (any, ResponseMetadata, error) {
+	var parsed getHungarianImplementationsArgs
+	if err := decodeArgs(args, &parsed); err != nil {
+		return nil, ResponseMetadata{}, err
 	}
-	if args.EuDocumentID == nil {
+	if parsed.EuDocumentID == nil {
 		return nil, ResponseMetadata{}, fmt.Errorf("missing required argument %q", "eu_document_id")
+	}
+	if err := checkMaxLength("eu_document_id", parsed.EuDocumentID, maxEuDocumentIDLength); err != nil {
+		return nil, ResponseMetadata{}, err
 	}
 
 	// Unlike get_eu_basis, the EU probe runs FIRST — before anything else —
 	// so even an unresolvable eu_document_id yields the tier note, not an
 	// empty-no-note result, when the table is missing.
-	if !store.EUAvailable(db, "eu_references") {
-		meta := GenerateResponseMetadata(db)
+	if !store.EUAvailable(ctx, db, "eu_references") {
+		meta := GenerateResponseMetadata(ctx, db)
 		meta.Note = store.EUUnavailableNote("eu_references")
 		return []hungarianImplementationResult{}, meta, nil
 	}
@@ -64,21 +65,21 @@ func GetHungarianImplementations(db *sql.DB, rawArgs json.RawMessage) (any, Resp
 		FROM eu_references er
 		JOIN legal_documents ld ON ld.id = er.document_id
 		WHERE er.eu_document_id = ?`
-	params := []any{*args.EuDocumentID}
+	params := []any{*parsed.EuDocumentID}
 
-	if args.PrimaryOnly != nil && *args.PrimaryOnly {
+	if parsed.PrimaryOnly != nil && *parsed.PrimaryOnly {
 		query += " AND er.is_primary_implementation = 1"
 	}
 
-	if args.InForceOnly != nil && *args.InForceOnly {
+	if parsed.InForceOnly != nil && *parsed.InForceOnly {
 		query += " AND ld.status = 'in_force'"
 	}
 
 	query += " GROUP BY ld.id, er.reference_type ORDER BY is_primary DESC, reference_count DESC"
 
-	rows, err := db.Query(query, params...)
+	rows, err := db.QueryContext(ctx, query, params...)
 	if err != nil {
-		return nil, ResponseMetadata{}, err
+		return nil, ResponseMetadata{}, fmt.Errorf("query implementations: %w", err)
 	}
 	defer rows.Close()
 
@@ -90,7 +91,7 @@ func GetHungarianImplementations(db *sql.DB, rawArgs json.RawMessage) (any, Resp
 		)
 		if err := rows.Scan(&r.DocumentID, &r.DocumentTitle, &r.Status, &r.ReferenceType,
 			&implStatus, &r.IsPrimary, &r.ReferenceCount); err != nil {
-			return nil, ResponseMetadata{}, err
+			return nil, ResponseMetadata{}, fmt.Errorf("scan implementation: %w", err)
 		}
 		if implStatus.Valid {
 			r.ImplementationStatus = &implStatus.String
@@ -98,8 +99,8 @@ func GetHungarianImplementations(db *sql.DB, rawArgs json.RawMessage) (any, Resp
 		results = append(results, r)
 	}
 	if err := rows.Err(); err != nil {
-		return nil, ResponseMetadata{}, err
+		return nil, ResponseMetadata{}, fmt.Errorf("scan implementations: %w", err)
 	}
 
-	return results, GenerateResponseMetadata(db), nil
+	return results, GenerateResponseMetadata(ctx, db), nil
 }

@@ -5,6 +5,7 @@
 package statute
 
 import (
+	"context"
 	"database/sql"
 	"errors"
 	"fmt"
@@ -16,6 +17,11 @@ var hungarianRefRe = regexp.MustCompile(`(?i)(\d{4})\.\s*évi\s+([IVXLCDM]+)\.\s
 
 // Unanchored: matches a hu-law ID prefix, so trailing extra characters are stripped.
 var huLawPrefixRe = regexp.MustCompile(`^(hu-law-\d{4}-\d+-\d{2}-\d{2})`)
+
+// Escapes SQL LIKE wildcards in user input so % and _ match literally; paired
+// with the ESCAPE '\' clause in the substring query below (unescaped
+// wildcards turn a title search into a corpus-wide scan).
+var likeWildcards = strings.NewReplacer(`\`, `\\`, `%`, `\%`, `_`, `\_`)
 
 var romanValues = map[byte]int{'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
 
@@ -60,7 +66,7 @@ func ParseHungarianReference(input string) string {
 // - Fuzzy title substring match
 //
 // Returns "" (TS null equivalent) with a nil error when nothing matches.
-func ResolveDocumentId(db *sql.DB, input string) (string, error) {
+func ResolveDocumentId(ctx context.Context, db *sql.DB, input string) (string, error) {
 	trimmed := strings.TrimSpace(input)
 	if trimmed == "" {
 		return "", nil
@@ -79,7 +85,7 @@ func ResolveDocumentId(db *sql.DB, input string) (string, error) {
 
 	for _, candidate := range candidates {
 		var id string
-		err := db.QueryRow(`SELECT id FROM legal_documents WHERE id = ?`, candidate).Scan(&id)
+		err := db.QueryRowContext(ctx, `SELECT id FROM legal_documents WHERE id = ?`, candidate).Scan(&id)
 		if err == nil {
 			return id, nil
 		}
@@ -89,11 +95,17 @@ func ResolveDocumentId(db *sql.DB, input string) (string, error) {
 	}
 
 	// Title/short_name substring match — single case-insensitive pass
-	// (LOWER() is a superset of plain LIKE: it folds ASCII case like LIKE does)
-	pattern := "%" + trimmed + "%"
+	// (LOWER() is a superset of plain LIKE: it folds ASCII case like LIKE does).
+	// ESCAPE '\' + likeWildcards keep user % and _ literal instead of letting
+	// them widen the scan.
+	pattern := "%" + likeWildcards.Replace(trimmed) + "%"
 	var id string
-	err := db.QueryRow(
-		`SELECT id FROM legal_documents WHERE LOWER(title) LIKE LOWER(?) OR LOWER(short_name) LIKE LOWER(?) OR LOWER(title_en) LIKE LOWER(?) LIMIT 1`,
+	err := db.QueryRowContext(ctx, `
+		SELECT id FROM legal_documents
+		WHERE LOWER(title) LIKE LOWER(?) ESCAPE '\'
+		   OR LOWER(short_name) LIKE LOWER(?) ESCAPE '\'
+		   OR LOWER(title_en) LIKE LOWER(?) ESCAPE '\'
+		LIMIT 1`,
 		pattern, pattern, pattern,
 	).Scan(&id)
 	if errors.Is(err, sql.ErrNoRows) {

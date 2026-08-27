@@ -17,8 +17,10 @@ import (
 	"flag"
 	"fmt"
 	"os"
+	"os/signal"
 	"path/filepath"
 	"strings"
+	"syscall"
 
 	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/ingest"
 )
@@ -42,7 +44,12 @@ func main() {
 	)
 	pipeline.BaseURL = strings.TrimRight(*baseURL, "/")
 
-	err := pipeline.Run(context.Background(), ingest.Options{
+	// Ctrl-C / SIGTERM unwind the context already threaded through
+	// Run -> Fetch instead of killing the process mid-write.
+	ctx, stop := signal.NotifyContext(context.Background(), os.Interrupt, syscall.SIGTERM)
+	defer stop()
+
+	err := pipeline.Run(ctx, ingest.Options{
 		Full:             *full,
 		Resume:           *resume,
 		RefreshDiscovery: *refreshDiscovery,

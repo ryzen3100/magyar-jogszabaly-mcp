@@ -5,17 +5,22 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"maps"
 	"net/http"
 	"os"
 	"path/filepath"
 	"regexp"
-	"sort"
+	"slices"
 	"strconv"
 	"strings"
 )
 
 // DiscoveryPageSize is the njt.hu search page size used during discovery.
 const DiscoveryPageSize = 50
+
+// maxDiscoveryPages caps the page count parsed from first-page HTML so a
+// corrupt/hostile value cannot turn discovery into an unbounded crawl.
+const maxDiscoveryPages = 10000
 
 // DiscoveredLaw is one law row from the njt.hu search index.
 type DiscoveredLaw struct {
@@ -54,6 +59,11 @@ type searchURLResponse struct {
 	URL     string `json:"url"`
 }
 
+// searchPathPattern bounds the tokenized search path njt.hu's AJAX endpoint
+// returns before it is embedded in discovery URLs (it is remote input); real
+// paths are slash-separated segments like "tok/en".
+var searchPathPattern = regexp.MustCompile(`^[A-Za-z0-9._/-]+$`)
+
 var (
 	njtDocIDPattern    = regexp.MustCompile(`/jogszabaly/([^/?#]+)`)
 	pageCountPattern   = regexp.MustCompile(`(?i)id="page-count">\s*/\s*(\d+)\s*<`)
@@ -74,7 +84,9 @@ func ExtractNjtDocumentID(rawURL string) string {
 	return ""
 }
 
-// ExtractTotalPages reads the total page count from a search result page.
+// ExtractTotalPages reads the total page count from a search result page,
+// clamped to maxDiscoveryPages so a corrupt/hostile count cannot drive an
+// unbounded crawl.
 func ExtractTotalPages(html string) int {
 	m := pageCountPattern.FindStringSubmatch(html)
 	if m == nil {
@@ -84,7 +96,7 @@ func ExtractTotalPages(html string) int {
 	if err != nil || n <= 0 {
 		return 1
 	}
-	return n
+	return min(n, maxDiscoveryPages)
 }
 
 // ParseSearchResultPage extracts the discovered laws from one search result
@@ -229,6 +241,9 @@ func (p *Pipeline) discoverLaws(ctx context.Context, inForceOnly bool) ([]Discov
 	if err != nil {
 		return nil, err
 	}
+	if !searchPathPattern.MatchString(searchPath) || strings.Contains(searchPath, "..") {
+		return nil, fmt.Errorf("search path %q has unexpected characters", searchPath)
+	}
 	firstURL := fmt.Sprintf("%s/search/%s/1/%d", p.BaseURL, searchPath, DiscoveryPageSize)
 
 	firstPage, err := p.Fetcher.Fetch(ctx, firstURL, nil)
@@ -267,11 +282,9 @@ func (p *Pipeline) discoverLaws(ctx context.Context, inForceOnly bool) ([]Discov
 		}
 	}
 
-	laws := make([]DiscoveredLaw, 0, len(discoveredMap))
-	for _, law := range discoveredMap {
-		laws = append(laws, law)
-	}
-	sort.Slice(laws, func(i, j int) bool { return laws[i].DocumentID < laws[j].DocumentID })
+	laws := slices.SortedFunc(maps.Values(discoveredMap), func(a, b DiscoveredLaw) int {
+		return strings.Compare(a.DocumentID, b.DocumentID)
+	})
 
 	if err := writeJSONFile(p.discoveryCachePath(inForceOnly), DiscoverySeed{
 		InForceOnly: inForceOnly,
@@ -281,6 +294,31 @@ func (p *Pipeline) discoverLaws(ctx context.Context, inForceOnly bool) ([]Discov
 		return nil, err
 	}
 	return laws, nil
+}
+
+// writeFileAtomic writes data to a temp file in path's directory and renames
+// it into place, so an interrupted run cannot leave a truncated file behind
+// (a truncated seed would also block --resume).
+func writeFileAtomic(path string, data []byte, perm os.FileMode) error {
+	tmp, err := os.CreateTemp(filepath.Dir(path), "."+filepath.Base(path)+".tmp")
+	if err != nil {
+		return err
+	}
+	name := tmp.Name()
+	if _, err := tmp.Write(data); err != nil {
+		tmp.Close()
+		os.Remove(name)
+		return err
+	}
+	if err := tmp.Close(); err != nil {
+		os.Remove(name)
+		return err
+	}
+	if err := os.Chmod(name, perm); err != nil {
+		os.Remove(name)
+		return err
+	}
+	return os.Rename(name, path)
 }
 
 // writeJSONFile writes v as indented JSON (HTML-unescaped, trailing newline),
@@ -293,5 +331,5 @@ func writeJSONFile(path string, v any) error {
 	if err := enc.Encode(v); err != nil {
 		return err
 	}
-	return os.WriteFile(path, buf.Bytes(), 0o644)
+	return writeFileAtomic(path, buf.Bytes(), 0o644)
 }

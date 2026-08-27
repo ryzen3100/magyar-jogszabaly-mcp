@@ -3,8 +3,8 @@
 package tools
 
 import (
+	"context"
 	"database/sql"
-	"encoding/json"
 	"errors"
 	"fmt"
 	"strings"
@@ -26,53 +26,57 @@ type FormatCitationResult struct {
 }
 
 // FormatCitation is the exported handler for format_citation.
-func FormatCitation(db *sql.DB, rawArgs json.RawMessage) (any, ResponseMetadata, error) {
-	var args formatCitationArgs
-	if len(rawArgs) > 0 {
-		if err := json.Unmarshal(rawArgs, &args); err != nil {
-			return nil, ResponseMetadata{}, err
-		}
+func FormatCitation(ctx context.Context, db *sql.DB, args map[string]any) (any, ResponseMetadata, error) {
+	var parsed formatCitationArgs
+	if err := decodeArgs(args, &parsed); err != nil {
+		return nil, ResponseMetadata{}, err
 	}
-	if args.Citation == nil {
+	if parsed.Citation == nil {
 		return nil, ResponseMetadata{}, fmt.Errorf("missing required argument %q", "citation")
+	}
+	if err := validateArgs(
+		checkMaxLength("citation", parsed.Citation, maxCitationLength),
+		checkEnum("format", parsed.Format, formatEnumValues...),
+	); err != nil {
+		return nil, ResponseMetadata{}, err
 	}
 
 	format := "full"
-	if args.Format != nil {
-		format = *args.Format
+	if parsed.Format != nil {
+		format = *parsed.Format
 	}
-	trimmed := strings.TrimSpace(*args.Citation)
+	trimmed := strings.TrimSpace(*parsed.Citation)
 
-	parsed := ParseCitation(trimmed)
+	parsedCitation := ParseCitation(trimmed)
 
 	var section string
 	var act string
 
-	if parsed != nil {
+	if parsedCitation != nil {
 		// Structured references (Hungarian formal, database ID) additionally
 		// get their full title resolved from the database.
-		if parsed.Structured {
-			docID, err := statute.ResolveDocumentId(db, parsed.DocumentRef)
+		if parsedCitation.Structured {
+			docID, err := statute.ResolveDocumentId(ctx, db, parsedCitation.DocumentRef)
 			if err != nil {
-				return nil, ResponseMetadata{}, err
+				return nil, ResponseMetadata{}, fmt.Errorf("resolve document: %w", err)
 			}
 			if docID != "" {
 				var title string
-				err := db.QueryRow("SELECT title FROM legal_documents WHERE id = ?", docID).Scan(&title)
+				err := db.QueryRowContext(ctx, "SELECT title FROM legal_documents WHERE id = ?", docID).Scan(&title)
 				if errors.Is(err, sql.ErrNoRows) {
-					act = parsed.DocumentRef
+					act = parsedCitation.DocumentRef
 				} else if err != nil {
-					return nil, ResponseMetadata{}, err
+					return nil, ResponseMetadata{}, fmt.Errorf("query document title: %w", err)
 				} else {
 					act = title
 				}
 			} else {
-				act = parsed.DocumentRef
+				act = parsedCitation.DocumentRef
 			}
 		} else {
-			act = parsed.DocumentRef
+			act = parsedCitation.DocumentRef
 		}
-		section = parsed.SectionRef
+		section = parsedCitation.SectionRef
 	} else {
 		act = trimmed
 	}
@@ -88,8 +92,8 @@ func FormatCitation(db *sql.DB, rawArgs json.RawMessage) (any, ResponseMetadata,
 	}
 
 	return FormatCitationResult{
-		Original:  *args.Citation,
+		Original:  *parsed.Citation,
 		Formatted: formatted,
 		Format:    format,
-	}, GenerateResponseMetadata(db), nil
+	}, GenerateResponseMetadata(ctx, db), nil
 }

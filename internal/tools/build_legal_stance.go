@@ -5,8 +5,8 @@
 package tools
 
 import (
+	"context"
 	"database/sql"
-	"encoding/json"
 )
 
 // stanceArgs mirrors the Pick<SearchLegislationInput, …> input.
@@ -29,22 +29,26 @@ type LegalStanceResult struct {
 }
 
 // BuildLegalStance is the exported handler for build_legal_stance.
-func BuildLegalStance(db *sql.DB, rawArgs json.RawMessage) (any, ResponseMetadata, error) {
-	var args stanceArgs
-	if len(rawArgs) > 0 {
-		if err := json.Unmarshal(rawArgs, &args); err != nil {
-			return nil, ResponseMetadata{}, err
-		}
+func BuildLegalStance(ctx context.Context, db *sql.DB, args map[string]any) (any, ResponseMetadata, error) {
+	var parsed stanceArgs
+	if err := decodeArgs(args, &parsed); err != nil {
+		return nil, ResponseMetadata{}, err
+	}
+	if err := validateArgs(
+		checkMaxLength("query", parsed.Query, maxQueryLength),
+		checkMaxLength("document_id", parsed.DocumentID, maxDocumentIDLength),
+	); err != nil {
+		return nil, ResponseMetadata{}, err
 	}
 
 	// Math.min(Math.max(input.limit ?? 5, 1), 20) — the search core re-clamps
 	// to its own [1,50], which is a no-op after this.
-	limit := clampLimit(args.Limit, 5, 20)
+	limit := clampLimit(parsed.Limit, 5, 20)
 	limitF := float64(limit)
 
-	response, meta, err := runSearch(db, searchArgs{
-		Query:      args.Query,
-		DocumentID: args.DocumentID,
+	response, meta, err := runSearch(ctx, db, searchArgs{
+		Query:      parsed.Query,
+		DocumentID: parsed.DocumentID,
 		Limit:      &limitF,
 	})
 	if err != nil {

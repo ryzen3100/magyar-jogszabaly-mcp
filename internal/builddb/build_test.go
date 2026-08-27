@@ -1,6 +1,7 @@
 package builddb
 
 import (
+	"bytes"
 	"database/sql"
 	"encoding/json"
 	"fmt"
@@ -250,6 +251,103 @@ func TestBuildEmptySeedDir(t *testing.T) {
 	defer db.Close()
 	if n := queryInt(t, db, `SELECT COUNT(*) FROM legal_documents`); n != 0 {
 		t.Errorf("legal_documents = %d, want 0", n)
+	}
+}
+
+// TestBuildKeepsExistingDatabaseOnFailure pins the atomic publish: a failed
+// rebuild must leave the previous database byte-identical and no .tmp
+// droppings behind.
+func TestBuildKeepsExistingDatabaseOnFailure(t *testing.T) {
+	dir := t.TempDir()
+	seedDir := filepath.Join(dir, "seed")
+	if err := os.MkdirAll(seedDir, 0o755); err != nil {
+		t.Fatal(err)
+	}
+	writeJSON(t, filepath.Join(seedDir, "001-act.json"), map[string]any{
+		"id": "act-good", "title": "Jó törvény",
+	})
+	outPath := filepath.Join(dir, "built.db")
+	quiet := func(string, ...any) {}
+	if err := Build(outPath, seedDir, filepath.Join(dir, "eu-mappings.json"), quiet); err != nil {
+		t.Fatalf("initial Build: %v", err)
+	}
+	before, err := os.ReadFile(outPath)
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	// Second build fails on an unparsable seed file, mid-transaction.
+	if err := os.WriteFile(filepath.Join(seedDir, "002-broken.json"), []byte("{not json"), 0o644); err != nil {
+		t.Fatal(err)
+	}
+	if err := Build(outPath, seedDir, filepath.Join(dir, "eu-mappings.json"), quiet); err == nil {
+		t.Fatal("second Build succeeded, want a seed parse error")
+	}
+	after, err := os.ReadFile(outPath)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if !bytes.Equal(before, after) {
+		t.Error("outPath changed after a failed build; the last-good database was clobbered")
+	}
+	leftovers, err := filepath.Glob(filepath.Join(dir, "built.db*"))
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(leftovers) != 1 || leftovers[0] != outPath {
+		t.Errorf("after failed build, dir holds %v, want only %s", leftovers, outPath)
+	}
+}
+
+// TestBuildMissingEuMappingsWarns covers the absent-mappings warning (E8); a
+// non-empty seed dir is required so the flow reaches the mappings block.
+func TestBuildMissingEuMappingsWarns(t *testing.T) {
+	dir := t.TempDir()
+	seedDir := filepath.Join(dir, "seed")
+	if err := os.MkdirAll(seedDir, 0o755); err != nil {
+		t.Fatal(err)
+	}
+	writeJSON(t, filepath.Join(seedDir, "001-act.json"), map[string]any{
+		"id": "act-good", "title": "Jó törvény",
+	})
+	var logs strings.Builder
+	outPath := filepath.Join(dir, "built.db")
+	if err := Build(outPath, seedDir, filepath.Join(dir, "absent.json"),
+		func(format string, args ...any) { fmt.Fprintf(&logs, format+"\n", args...) }); err != nil {
+		t.Fatalf("Build: %v", err)
+	}
+	if !strings.Contains(logs.String(), "No EU mappings file at") {
+		t.Errorf("log missing EU-mappings warning:\n%s", logs.String())
+	}
+	if _, err := os.Stat(outPath); err != nil {
+		t.Errorf("outPath not published: %v", err)
+	}
+}
+
+// TestIsUniqueViolation pins the duplicate classification behind the tolerated
+// EU-reference failures.
+func TestIsUniqueViolation(t *testing.T) {
+	db, err := sql.Open("sqlite", ":memory:")
+	if err != nil {
+		t.Fatal(err)
+	}
+	defer db.Close()
+	if _, err := db.Exec(`CREATE TABLE t (v TEXT UNIQUE)`); err != nil {
+		t.Fatal(err)
+	}
+	if _, err := db.Exec(`INSERT INTO t VALUES ('x')`); err != nil {
+		t.Fatal(err)
+	}
+	_, dup := db.Exec(`INSERT INTO t VALUES ('x')`)
+	if dup == nil || !isUniqueViolation(dup) {
+		t.Errorf("isUniqueViolation(%v) = false, want true", dup)
+	}
+	if _, err := db.Exec(`CREATE TABLE c (v TEXT CHECK (v <> 'bad'))`); err != nil {
+		t.Fatal(err)
+	}
+	_, chk := db.Exec(`INSERT INTO c VALUES ('bad')`)
+	if chk == nil || isUniqueViolation(chk) {
+		t.Errorf("isUniqueViolation(%v) = true, want false", chk)
 	}
 }
 

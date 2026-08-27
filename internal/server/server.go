@@ -3,6 +3,7 @@
 package server
 
 import (
+	"context"
 	"database/sql"
 	"fmt"
 	"os"
@@ -36,7 +37,7 @@ func openDB() (*sql.DB, string, error) {
 	if err != nil {
 		return nil, "", err
 	}
-	logf("DB opened: tier=%s", store.ReadDbMetadata(db).Tier)
+	logf("DB opened: tier=%s", store.ReadDbMetadata(context.Background(), db).Tier)
 	return db, path, nil
 }
 
@@ -53,7 +54,7 @@ func buildAboutContext(db *sql.DB, path string) *tools.AboutContext {
 	if fp, err := store.DbFingerprint(path); err == nil {
 		ctx.Fingerprint = fp
 	}
-	if m := store.ReadDbMetadata(db); m.HasBuiltAt {
+	if m := store.ReadDbMetadata(context.Background(), db); m.HasBuiltAt {
 		ctx.DbBuilt = m.BuiltAt
 	} else if st, err := os.Stat(path); err == nil {
 		ctx.DbBuilt = st.ModTime().UTC().Format(isoLayout)

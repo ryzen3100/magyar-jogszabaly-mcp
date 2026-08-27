@@ -19,7 +19,7 @@ copy_bootstrap_db() {
     exit 1
   fi
 
-  echo "Installing bundled database at $DB_PATH"
+  echo "Installing bundled database at $DB_PATH" >&2
   mkdir -p "$DB_DIR"
   tmp_db="${DB_PATH}.tmp.$$"
   tmp_checksum="${DB_CHECKSUM}.tmp.$$"
@@ -51,7 +51,7 @@ fi
 mkdir -p "$DB_DIR"
 
 if database_is_current; then
-  echo "Persistent database is current"
+  echo "Persistent database is current" >&2
 else
   copy_bootstrap_db
 fi

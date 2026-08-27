@@ -50,7 +50,7 @@ func renderPrompt(_ context.Context, req *mcp.GetPromptRequest) (*mcp.GetPromptR
 			"Research this Hungarian legal question using the legislation database. Cite specific provisions with section numbers.\n\nQuestion: %s",
 			orDefault(args["question"], "(no question provided)"))
 	default:
-		return nil, fmt.Errorf("Unknown prompt: %s", req.Params.Name)
+		return nil, fmt.Errorf("unknown prompt: %s", req.Params.Name)
 	}
 	return &mcp.GetPromptResult{
 		Messages: []*mcp.PromptMessage{{Role: mcp.Role("user"), Content: &mcp.TextContent{Text: text}}},

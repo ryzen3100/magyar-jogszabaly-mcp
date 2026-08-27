@@ -3,14 +3,31 @@
 package tools
 
 import (
+	"context"
 	"database/sql"
 	"encoding/json"
+	"strings"
 	"testing"
 )
 
+// testArgs decodes a JSON object literal into the argument map the Handler
+// contract carries, so tests keep writing arguments as JSON strings. An
+// empty literal is the empty (absent) argument map.
+func testArgs(t *testing.T, raw string) map[string]any {
+	t.Helper()
+	if strings.TrimSpace(raw) == "" {
+		return map[string]any{}
+	}
+	var m map[string]any
+	if err := json.Unmarshal([]byte(raw), &m); err != nil {
+		t.Fatalf("bad test args %s: %v", raw, err)
+	}
+	return m
+}
+
 func runGetProvisionJSON(t *testing.T, db *sql.DB, rawArgs string) (string, error) {
 	t.Helper()
-	results, meta, err := GetProvision(db, json.RawMessage(rawArgs))
+	results, meta, err := GetProvision(context.Background(), db, testArgs(t, rawArgs))
 	if err != nil {
 		return "", err
 	}
@@ -19,7 +36,7 @@ func runGetProvisionJSON(t *testing.T, db *sql.DB, rawArgs string) (string, erro
 
 func runValidateCitationJSON(t *testing.T, db *sql.DB, rawArgs string) (string, error) {
 	t.Helper()
-	results, meta, err := ValidateCitation(db, json.RawMessage(rawArgs))
+	results, meta, err := ValidateCitation(context.Background(), db, testArgs(t, rawArgs))
 	if err != nil {
 		return "", err
 	}
@@ -28,7 +45,7 @@ func runValidateCitationJSON(t *testing.T, db *sql.DB, rawArgs string) (string, 
 
 func runBuildLegalStanceJSON(t *testing.T, db *sql.DB, rawArgs string) (string, error) {
 	t.Helper()
-	results, meta, err := BuildLegalStance(db, json.RawMessage(rawArgs))
+	results, meta, err := BuildLegalStance(context.Background(), db, testArgs(t, rawArgs))
 	if err != nil {
 		return "", err
 	}
@@ -37,7 +54,7 @@ func runBuildLegalStanceJSON(t *testing.T, db *sql.DB, rawArgs string) (string, 
 
 func runFormatCitationJSON(t *testing.T, db *sql.DB, rawArgs string) (string, error) {
 	t.Helper()
-	results, meta, err := FormatCitation(db, json.RawMessage(rawArgs))
+	results, meta, err := FormatCitation(context.Background(), db, testArgs(t, rawArgs))
 	if err != nil {
 		return "", err
 	}
@@ -46,7 +63,7 @@ func runFormatCitationJSON(t *testing.T, db *sql.DB, rawArgs string) (string, er
 
 func runCheckCurrencyJSON(t *testing.T, db *sql.DB, rawArgs string) (string, error) {
 	t.Helper()
-	results, meta, err := CheckCurrency(db, json.RawMessage(rawArgs))
+	results, meta, err := CheckCurrency(context.Background(), db, testArgs(t, rawArgs))
 	if err != nil {
 		return "", err
 	}

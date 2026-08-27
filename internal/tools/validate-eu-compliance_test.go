@@ -6,7 +6,7 @@ package tools_test
 // with ad-hoc seeded rows.
 
 import (
-	"encoding/json"
+	"context"
 	"slices"
 	"testing"
 
@@ -100,7 +100,7 @@ func TestValidateEUComplianceStatusMatrix(t *testing.T) {
 				raw += `,"eu_document_id":"` + tc.euFilter + `"`
 			}
 			raw += `}`
-			results, meta, err := tools.ValidateEUCompliance(db, json.RawMessage(raw))
+			results, meta, err := tools.ValidateEUCompliance(context.Background(), db, argsMap(t, raw))
 			row := complianceResult(t, results, meta, err)
 
 			if row["compliance_status"] != tc.wantStatus {
@@ -135,7 +135,7 @@ func TestValidateEUCompliancePartialAndRepealed(t *testing.T) {
 		t.Fatal(err)
 	}
 
-	results, meta, err := tools.ValidateEUCompliance(db, json.RawMessage(`{"document_id":"doc-repealed"}`))
+	results, meta, err := tools.ValidateEUCompliance(context.Background(), db, argsMap(t, `{"document_id":"doc-repealed"}`))
 	row := complianceResult(t, results, meta, err)
 
 	if row["compliance_status"] != "partial" {
@@ -172,7 +172,7 @@ func TestValidateEUComplianceUnclearUnknownStatus(t *testing.T) {
 		t.Fatal(err)
 	}
 
-	results, meta, err := tools.ValidateEUCompliance(db, json.RawMessage(`{"document_id":"doc-unclear"}`))
+	results, meta, err := tools.ValidateEUCompliance(context.Background(), db, argsMap(t, `{"document_id":"doc-unclear"}`))
 	row := complianceResult(t, results, meta, err)
 
 	if row["compliance_status"] != "unclear" {
@@ -199,7 +199,7 @@ func TestValidateEUComplianceUnclearNullStatusNoRecommendation(t *testing.T) {
 		t.Fatal(err)
 	}
 
-	results, meta, err := tools.ValidateEUCompliance(db, json.RawMessage(`{"document_id":"doc-future"}`))
+	results, meta, err := tools.ValidateEUCompliance(context.Background(), db, argsMap(t, `{"document_id":"doc-future"}`))
 	row := complianceResult(t, results, meta, err)
 
 	if row["compliance_status"] != "unclear" {
@@ -226,7 +226,7 @@ func TestValidateEUComplianceDistributionIgnoresEUDocumentFilter(t *testing.T) {
 		t.Fatal(err)
 	}
 
-	results, meta, err := tools.ValidateEUCompliance(db, json.RawMessage(
+	results, meta, err := tools.ValidateEUCompliance(context.Background(), db, argsMap(t,
 		`{"document_id":"doc-inforce","eu_document_id":"regulation:2016/679"}`))
 	row := complianceResult(t, results, meta, err)
 
@@ -246,7 +246,7 @@ func TestValidateEUComplianceEUTablesUnavailable(t *testing.T) {
 	db := storetest.NewTestDb(t)
 	euDropTable(t, db, "eu_references")
 
-	results, meta, err := tools.ValidateEUCompliance(db, json.RawMessage(`{"document_id":"doc-inforce"}`))
+	results, meta, err := tools.ValidateEUCompliance(context.Background(), db, argsMap(t, `{"document_id":"doc-inforce"}`))
 	row := complianceResult(t, results, meta, err)
 
 	if row["compliance_status"] != "not_applicable" {
@@ -267,7 +267,7 @@ func TestValidateEUComplianceEUTablesUnavailable(t *testing.T) {
 func TestValidateEUComplianceMissingArgument(t *testing.T) {
 	db := storetest.NewTestDb(t)
 
-	_, _, err := tools.ValidateEUCompliance(db, json.RawMessage(`{}`))
+	_, _, err := tools.ValidateEUCompliance(context.Background(), db, argsMap(t, `{}`))
 	euWantErr(t, err, `missing required argument "document_id"`)
 }
 
@@ -275,7 +275,7 @@ func TestValidateEUComplianceClosedDB(t *testing.T) {
 	db := storetest.NewTestDb(t)
 	db.Close() // resolve-first tool → the closed DB surfaces as an error
 
-	if _, _, err := tools.ValidateEUCompliance(db, json.RawMessage(`{"document_id":"doc-inforce"}`)); err == nil {
+	if _, _, err := tools.ValidateEUCompliance(context.Background(), db, argsMap(t, `{"document_id":"doc-inforce"}`)); err == nil {
 		t.Fatal("expected error on closed db")
 	}
 }

@@ -4,8 +4,8 @@
 package tools
 
 import (
+	"context"
 	"database/sql"
-	"encoding/json"
 	"fmt"
 	"strings"
 
@@ -36,28 +36,32 @@ type euBasisResult struct {
 }
 
 // GetEUBasis implements the get_eu_basis MCP tool.
-func GetEUBasis(db *sql.DB, rawArgs json.RawMessage) (any, ResponseMetadata, error) {
-	var args getEUBasisArgs
-	if len(rawArgs) > 0 {
-		if err := json.Unmarshal(rawArgs, &args); err != nil {
-			return nil, ResponseMetadata{}, err
-		}
+func GetEUBasis(ctx context.Context, db *sql.DB, args map[string]any) (any, ResponseMetadata, error) {
+	var parsed getEUBasisArgs
+	if err := decodeArgs(args, &parsed); err != nil {
+		return nil, ResponseMetadata{}, err
 	}
-	if args.DocumentID == nil {
+	if parsed.DocumentID == nil {
 		return nil, ResponseMetadata{}, fmt.Errorf("missing required argument %q", "document_id")
+	}
+	if err := validateArgs(
+		checkMaxLength("document_id", parsed.DocumentID, maxDocumentIDLength),
+		checkStringList("reference_types", parsed.ReferenceTypes, maxReferenceTypes, maxReferenceTypeLen),
+	); err != nil {
+		return nil, ResponseMetadata{}, err
 	}
 
 	// Order of checks matters (as in the TS original): document resolution
 	// first — unresolved → empty results, no note — then the EU probe.
-	resolvedID, err := statute.ResolveDocumentId(db, *args.DocumentID)
+	resolvedID, err := statute.ResolveDocumentId(ctx, db, *parsed.DocumentID)
 	if err != nil {
-		return nil, ResponseMetadata{}, err
+		return nil, ResponseMetadata{}, fmt.Errorf("resolve document: %w", err)
 	}
 	if resolvedID == "" {
-		return []euBasisResult{}, GenerateResponseMetadata(db), nil
+		return []euBasisResult{}, GenerateResponseMetadata(ctx, db), nil
 	}
-	if !store.EUAvailable(db, "eu_references") {
-		meta := GenerateResponseMetadata(db)
+	if !store.EUAvailable(ctx, db, "eu_references") {
+		meta := GenerateResponseMetadata(ctx, db)
 		meta.Note = store.EUUnavailableNote("eu_references")
 		return []euBasisResult{}, meta, nil
 	}
@@ -75,20 +79,20 @@ func GetEUBasis(db *sql.DB, rawArgs json.RawMessage) (any, ResponseMetadata, err
 		WHERE er.document_id = ?`
 	params := []any{resolvedID}
 
-	if len(args.ReferenceTypes) > 0 {
-		placeholders := make([]string, len(args.ReferenceTypes))
+	if len(parsed.ReferenceTypes) > 0 {
+		placeholders := make([]string, len(parsed.ReferenceTypes))
 		for i := range placeholders {
 			placeholders[i] = "?"
-			params = append(params, args.ReferenceTypes[i])
+			params = append(params, parsed.ReferenceTypes[i])
 		}
 		query += " AND er.reference_type IN (" + strings.Join(placeholders, ", ") + ")"
 	}
 
 	query += " GROUP BY er.eu_document_id, er.reference_type ORDER BY reference_count DESC"
 
-	rows, err := db.Query(query, params...)
+	rows, err := db.QueryContext(ctx, query, params...)
 	if err != nil {
-		return nil, ResponseMetadata{}, err
+		return nil, ResponseMetadata{}, fmt.Errorf("query eu references: %w", err)
 	}
 	defer rows.Close()
 
@@ -102,7 +106,7 @@ func GetEUBasis(db *sql.DB, rawArgs json.RawMessage) (any, ResponseMetadata, err
 		)
 		if err := rows.Scan(&r.EuDocumentID, &docType, &title, &r.ReferenceType,
 			&r.ReferenceCount, &implStatus); err != nil {
-			return nil, ResponseMetadata{}, err
+			return nil, ResponseMetadata{}, fmt.Errorf("scan eu reference: %w", err)
 		}
 		if docType.Valid {
 			r.EuDocumentType = &docType.String
@@ -116,18 +120,18 @@ func GetEUBasis(db *sql.DB, rawArgs json.RawMessage) (any, ResponseMetadata, err
 		results = append(results, r)
 	}
 	if err := rows.Err(); err != nil {
-		return nil, ResponseMetadata{}, err
+		return nil, ResponseMetadata{}, fmt.Errorf("scan eu references: %w", err)
 	}
 
 	// Article expansion runs only when requested AND rows exist; every row
 	// then gets an `articles` key ([] when the document has no articles;
 	// NULL eu_article values are skipped).
-	if args.IncludeArticles != nil && *args.IncludeArticles && len(results) > 0 {
-		articleRows, err := db.Query(
+	if parsed.IncludeArticles != nil && *parsed.IncludeArticles && len(results) > 0 {
+		articleRows, err := db.QueryContext(ctx,
 			"SELECT DISTINCT eu_document_id, eu_article FROM eu_references WHERE document_id = ?",
 			resolvedID)
 		if err != nil {
-			return nil, ResponseMetadata{}, err
+			return nil, ResponseMetadata{}, fmt.Errorf("query eu articles: %w", err)
 		}
 		articlesByDoc := map[string][]string{}
 		for articleRows.Next() {
@@ -137,7 +141,7 @@ func GetEUBasis(db *sql.DB, rawArgs json.RawMessage) (any, ResponseMetadata, err
 			)
 			if err := articleRows.Scan(&docID, &article); err != nil {
 				articleRows.Close()
-				return nil, ResponseMetadata{}, err
+				return nil, ResponseMetadata{}, fmt.Errorf("scan eu article: %w", err)
 			}
 			if !article.Valid {
 				continue
@@ -146,7 +150,7 @@ func GetEUBasis(db *sql.DB, rawArgs json.RawMessage) (any, ResponseMetadata, err
 		}
 		articleRows.Close()
 		if err := articleRows.Err(); err != nil {
-			return nil, ResponseMetadata{}, err
+			return nil, ResponseMetadata{}, fmt.Errorf("scan eu articles: %w", err)
 		}
 		for i := range results {
 			list := articlesByDoc[results[i].EuDocumentID]
@@ -158,5 +162,5 @@ func GetEUBasis(db *sql.DB, rawArgs json.RawMessage) (any, ResponseMetadata, err
 		}
 	}
 
-	return results, GenerateResponseMetadata(db), nil
+	return results, GenerateResponseMetadata(ctx, db), nil
 }

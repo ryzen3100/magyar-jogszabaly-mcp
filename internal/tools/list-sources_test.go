@@ -4,6 +4,7 @@ package tools_test
 // tests/tools/other-tools.test.ts.
 
 import (
+	"context"
 	"encoding/json"
 	"strings"
 	"testing"
@@ -15,7 +16,7 @@ import (
 func TestListSourcesPopulated(t *testing.T) {
 	db := storetest.NewTestDb(t)
 
-	results, meta, err := tools.ListSources(db)
+	results, meta, err := tools.ListSources(context.Background(), db)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -89,7 +90,7 @@ func TestListSourcesBuiltAtOmittedWhenAbsent(t *testing.T) {
 	db := storetest.NewTestDb(t)
 	euDropTable(t, db, "db_metadata")
 
-	results, meta, err := tools.ListSources(db)
+	results, meta, err := tools.ListSources(context.Background(), db)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -113,7 +114,7 @@ func TestListSourcesCountsZeroWhenTablesMissing(t *testing.T) {
 	db := storetest.NewTestDb(t)
 	euDropTable(t, db, "legal_provisions")
 
-	results, _, err := tools.ListSources(db)
+	results, _, err := tools.ListSources(context.Background(), db)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -131,7 +132,7 @@ func TestListSourcesCountsZeroWhenTablesMissing(t *testing.T) {
 func TestListSourcesResultsJSONKeyOrder(t *testing.T) {
 	db := storetest.NewTestDb(t)
 
-	results, _, err := tools.ListSources(db)
+	results, _, err := tools.ListSources(context.Background(), db)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -158,7 +159,7 @@ func TestListSourcesClosedDB(t *testing.T) {
 	db.Close()
 
 	// listSources never throws: every read degrades to defaults/zero.
-	results, _, err := tools.ListSources(db)
+	results, _, err := tools.ListSources(context.Background(), db)
 	if err != nil {
 		t.Fatalf("closed db must degrade, not error: %v", err)
 	}

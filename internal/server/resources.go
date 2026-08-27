@@ -20,8 +20,8 @@ func registerResources(s *mcp.Server, db *sql.DB, about *tools.AboutContext) {
 		Name:        "Data Sources & Provenance",
 		Description: "Authoritative legal data sources, coverage scope, and database freshness metadata",
 		MIMEType:    "application/json",
-	}, func(_ context.Context, req *mcp.ReadResourceRequest) (*mcp.ReadResourceResult, error) {
-		results, meta, err := tools.ListSources(db)
+	}, func(ctx context.Context, req *mcp.ReadResourceRequest) (*mcp.ReadResourceResult, error) {
+		results, meta, err := tools.ListSources(ctx, db)
 		if err != nil {
 			return nil, err
 		}
@@ -33,8 +33,8 @@ func registerResources(s *mcp.Server, db *sql.DB, about *tools.AboutContext) {
 		Name:        "Database Statistics",
 		Description: "Document counts, provision counts, definition counts, and EU reference coverage",
 		MIMEType:    "application/json",
-	}, func(_ context.Context, req *mcp.ReadResourceRequest) (*mcp.ReadResourceResult, error) {
-		stats, _, err := tools.GetAbout(db, about)
+	}, func(ctx context.Context, req *mcp.ReadResourceRequest) (*mcp.ReadResourceResult, error) {
+		stats, _, err := tools.GetAbout(ctx, db, about)
 		if err != nil {
 			return nil, err
 		}

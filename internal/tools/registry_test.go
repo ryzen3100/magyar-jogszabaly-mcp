@@ -56,7 +56,7 @@ func TestDispatchAboutWithoutContext(t *testing.T) {
 	if !res.IsError {
 		t.Error("expected isError")
 	}
-	if got := resultText(t, res); got != "About tool not configured." {
+	if got := resultText(t, res); got != "about tool not configured" {
 		t.Errorf("text = %q", got)
 	}
 }
@@ -65,7 +65,7 @@ func TestDispatchHandlerErrorBecomesToolResult(t *testing.T) {
 	db := storetest.NewTestDb(t)
 
 	handlers := map[string]Handler{
-		"search_legislation": func(db *sql.DB, rawArgs json.RawMessage) (any, ResponseMetadata, error) {
+		"search_legislation": func(_ context.Context, _ *sql.DB, _ map[string]any) (any, ResponseMetadata, error) {
 			return nil, ResponseMetadata{}, errForTest("forced failure")
 		},
 	}
@@ -82,8 +82,8 @@ func TestDispatchSuccessEnvelope(t *testing.T) {
 	db := storetest.NewTestDb(t)
 
 	handlers := map[string]Handler{
-		"search_legislation": func(db *sql.DB, rawArgs json.RawMessage) (any, ResponseMetadata, error) {
-			return []SearchLegislationResult{{DocumentID: "doc-inforce", DocumentTitle: "In Force Act", ProvisionRef: "s1", Section: "1", Snippet: "snip", Relevance: -1.5}}, GenerateResponseMetadata(db), nil
+		"search_legislation": func(ctx context.Context, db *sql.DB, _ map[string]any) (any, ResponseMetadata, error) {
+			return []SearchLegislationResult{{DocumentID: "doc-inforce", DocumentTitle: "In Force Act", ProvisionRef: "s1", Section: "1", Snippet: "snip", Relevance: -1.5}}, GenerateResponseMetadata(ctx, db), nil
 		},
 	}
 	res := callDispatch(t, db, nil, handlers, "search_legislation", json.RawMessage(`{"query":"x"}`))
@@ -154,7 +154,7 @@ func TestHandlersCoverAllNonAboutTools(t *testing.T) {
 }
 
 func TestMarshalResponseOmitsEmptyOptionals(t *testing.T) {
-	meta := GenerateResponseMetadata(storetest.NewTestDb(t))
+	meta := GenerateResponseMetadata(context.Background(), storetest.NewTestDb(t))
 	out := MarshalResponse([]any{}, meta)
 	want := `{"results":[],"_metadata":{"data_source":` + quoteJSON(meta.DataSource) +
 		`,"jurisdiction":"HU","disclaimer":` + quoteJSON(meta.Disclaimer) +
@@ -165,12 +165,29 @@ func TestMarshalResponseOmitsEmptyOptionals(t *testing.T) {
 }
 
 func TestMarshalResponseIncludesNoteAndStrategy(t *testing.T) {
-	meta := GenerateResponseMetadata(storetest.NewTestDb(t))
+	meta := GenerateResponseMetadata(context.Background(), storetest.NewTestDb(t))
 	meta.Note = "n"
 	meta.QueryStrategy = "broadened"
 	out := MarshalResponse(map[string]any{}, meta)
 	if !strings.Contains(out, `,"note":"n","query_strategy":"broadened"`) {
 		t.Errorf("optional keys must come last in order: %s", out)
+	}
+}
+
+func TestDispatchRecoversHandlerPanic(t *testing.T) {
+	db := storetest.NewTestDb(t)
+
+	handlers := map[string]Handler{
+		"search_legislation": func(_ context.Context, _ *sql.DB, _ map[string]any) (any, ResponseMetadata, error) {
+			panic("boom")
+		},
+	}
+	res := callDispatch(t, db, nil, handlers, "search_legislation", json.RawMessage(`{}`))
+	if !res.IsError {
+		t.Error("expected isError")
+	}
+	if got := resultText(t, res); got != "Internal tool error" {
+		t.Errorf("text = %q, want %q", got, "Internal tool error")
 	}
 }
 

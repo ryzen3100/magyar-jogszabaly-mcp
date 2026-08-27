@@ -1,6 +1,7 @@
 package tools
 
 import (
+	"context"
 	"database/sql"
 	"encoding/json"
 	"fmt"
@@ -15,7 +16,7 @@ import (
 // and returns the marshaled envelope (or the handler error).
 func runSearchRaw(t *testing.T, db *sql.DB, rawArgs string) (string, error) {
 	t.Helper()
-	results, meta, err := SearchLegislation(db, json.RawMessage(rawArgs))
+	results, meta, err := SearchLegislation(context.Background(), db, testArgs(t, rawArgs))
 	if err != nil {
 		return "", err
 	}
@@ -122,7 +123,7 @@ func TestSearchLegislationLikeFallback(t *testing.T) {
 func TestSearchLegislationUnresolvableDocumentFilter(t *testing.T) {
 	db := storetest.NewTestDb(t)
 
-	results, meta, err := SearchLegislation(db, json.RawMessage(`{"query": "személyes", "document_id": "missing-doc"}`))
+	results, meta, err := SearchLegislation(context.Background(), db, testArgs(t, `{"query": "személyes", "document_id": "missing-doc"}`))
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -216,7 +217,7 @@ func TestSearchLegislationDegradedOnClosedDb(t *testing.T) {
 	db := storetest.NewTestDb(t)
 	db.Close() // every query now fails — handlers must degrade, not error
 
-	results, meta, err := SearchLegislation(db, json.RawMessage(`{"query": "személyes"}`))
+	results, meta, err := SearchLegislation(context.Background(), db, testArgs(t, `{"query": "személyes"}`))
 	if err != nil {
 		t.Fatalf("closed db must not error: %v", err)
 	}
@@ -226,13 +227,32 @@ func TestSearchLegislationDegradedOnClosedDb(t *testing.T) {
 	if meta.DataSource == "" {
 		t.Error("metadata must still be populated")
 	}
+	// Every tier errored → the empty result must say so (E4), not look like
+	// a legitimate zero-hit search.
+	if meta.Note != "search degraded: all query tiers failed" {
+		t.Errorf("note = %q, want degraded-search note", meta.Note)
+	}
 }
 
 func TestSearchLegislationBadArgs(t *testing.T) {
 	db := storetest.NewTestDb(t)
 
-	if _, _, err := SearchLegislation(db, json.RawMessage(`{"query": 123}`)); err == nil {
+	if _, _, err := SearchLegislation(context.Background(), db, map[string]any{"query": int64(123)}); err == nil {
 		t.Error("expected error for non-string query")
+	}
+}
+
+func TestSearchLegislationArgumentCaps(t *testing.T) {
+	db := storetest.NewTestDb(t)
+
+	_, _, err := SearchLegislation(context.Background(), db, map[string]any{"query": strings.Repeat("a", maxQueryLength+1)})
+	if err == nil || !strings.Contains(err.Error(), `invalid argument "query"`) {
+		t.Errorf("expected maxLength error, got %v", err)
+	}
+
+	_, _, err = SearchLegislation(context.Background(), db, map[string]any{"query": "x", "status": "bogus"})
+	if err == nil || !strings.Contains(err.Error(), `invalid argument "status"`) {
+		t.Errorf("expected enum error, got %v", err)
 	}
 }
 
@@ -262,7 +282,7 @@ func TestSearchLegislationRealDb(t *testing.T) {
 	}
 	for _, tc := range cases {
 		t.Run(tc.name, func(t *testing.T) {
-			results, _, err := SearchLegislation(db, json.RawMessage(`{"query": `+quoteJSON(tc.query)+`}`))
+			results, _, err := SearchLegislation(context.Background(), db, testArgs(t, `{"query": `+quoteJSON(tc.query)+`}`))
 			if err != nil {
 				t.Fatal(err)
 			}
@@ -274,7 +294,7 @@ func TestSearchLegislationRealDb(t *testing.T) {
 
 	t.Run("gibberish and empty queries return empty", func(t *testing.T) {
 		for _, q := range []string{"xyzzyflurble99", ""} {
-			results, _, err := SearchLegislation(db, json.RawMessage(`{"query": `+quoteJSON(q)+`}`))
+			results, _, err := SearchLegislation(context.Background(), db, testArgs(t, `{"query": `+quoteJSON(q)+`}`))
 			if err != nil {
 				t.Fatal(err)
 			}
@@ -285,7 +305,7 @@ func TestSearchLegislationRealDb(t *testing.T) {
 	})
 
 	t.Run("respects limit", func(t *testing.T) {
-		results, _, err := SearchLegislation(db, json.RawMessage(`{"query": "biztonsági", "limit": 3}`))
+		results, _, err := SearchLegislation(context.Background(), db, testArgs(t, `{"query": "biztonsági", "limit": 3}`))
 		if err != nil {
 			t.Fatal(err)
 		}
@@ -295,7 +315,7 @@ func TestSearchLegislationRealDb(t *testing.T) {
 	})
 
 	t.Run("filters by document_id", func(t *testing.T) {
-		results, _, err := SearchLegislation(db, json.RawMessage(`{"query": "biztonsági", "document_id": "act-l-2013-electronic-info-security"}`))
+		results, _, err := SearchLegislation(context.Background(), db, testArgs(t, `{"query": "biztonsági", "document_id": "act-l-2013-electronic-info-security"}`))
 		if err != nil {
 			t.Fatal(err)
 		}
@@ -311,7 +331,7 @@ func TestSearchLegislationRealDb(t *testing.T) {
 	})
 
 	t.Run("filters by status", func(t *testing.T) {
-		results, _, err := SearchLegislation(db, json.RawMessage(`{"query": "adat", "status": "in_force"}`))
+		results, _, err := SearchLegislation(context.Background(), db, testArgs(t, `{"query": "adat", "status": "in_force"}`))
 		if err != nil {
 			t.Fatal(err)
 		}

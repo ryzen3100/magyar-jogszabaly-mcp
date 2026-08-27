@@ -2,6 +2,7 @@ package ingest
 
 import (
 	"bytes"
+	"context"
 	"os"
 	"os/exec"
 	"path/filepath"
@@ -34,19 +35,18 @@ func TestCmdIngestEndToEnd(t *testing.T) {
 
 	dataDir := filepath.Join(t.TempDir(), "data")
 	var stdout, stderr bytes.Buffer
-	cmd := exec.Command(bin, "--full", "-base-url", ts.URL, "-data-dir", dataDir)
+	// CommandContext kills the child on timeout instead of leaking it.
+	ctx, cancel := context.WithTimeout(context.Background(), 120*time.Second)
+	defer cancel()
+	cmd := exec.CommandContext(ctx, bin, "--full", "-base-url", ts.URL, "-data-dir", dataDir)
 	cmd.Stdout = &stdout
 	cmd.Stderr = &stderr
 
-	done := make(chan error, 1)
-	go func() { done <- cmd.Run() }()
-	select {
-	case err := <-done:
-		if err != nil {
-			t.Fatalf("ingest exited %v\nstdout:\n%s\nstderr:\n%s", err, stdout.String(), stderr.String())
+	if err := cmd.Run(); err != nil {
+		if ctx.Err() == context.DeadlineExceeded {
+			t.Fatalf("ingest timed out\nstdout:\n%s", stdout.String())
 		}
-	case <-time.After(120 * time.Second):
-		t.Fatalf("ingest timed out\nstdout:\n%s", stdout.String())
+		t.Fatalf("ingest exited %v\nstdout:\n%s\nstderr:\n%s", err, stdout.String(), stderr.String())
 	}
 
 	out := stdout.String()

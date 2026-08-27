@@ -39,31 +39,36 @@ func TestParseSourceCacheKey(t *testing.T) {
 		{ActIndexEntry{URL: "https://example.com/nope", ID: "act-y"}, "act-y"},
 	}
 	for _, tt := range tests {
-		if got := ParseSourceCacheKey(tt.act); got != tt.want {
-			t.Errorf("ParseSourceCacheKey(%+v) = %q, want %q", tt.act, got, tt.want)
-		}
+		t.Run(tt.act.ID, func(t *testing.T) {
+			if got := ParseSourceCacheKey(tt.act); got != tt.want {
+				t.Errorf("ParseSourceCacheKey(%+v) = %q, want %q", tt.act, got, tt.want)
+			}
+		})
 	}
 }
 
 func TestExtractDeferredBlockStarts(t *testing.T) {
 	tests := []struct {
+		name string
 		html string
 		want []int
 	}{
-		{`<div class="pH borderStart"data-show-order="12">`, []int{12}},
-		{`<div class="pH borderStart"data-show-order="30"><div class="pH borderStart"data-show-order="4">`, []int{4, 30}},
-		{`nothing here`, nil},
+		{"single", `<div class="pH borderStart"data-show-order="12">`, []int{12}},
+		{"sorted ascending", `<div class="pH borderStart"data-show-order="30"><div class="pH borderStart"data-show-order="4">`, []int{4, 30}},
+		{"none", `nothing here`, nil},
 	}
 	for _, tt := range tests {
-		got := ExtractDeferredBlockStarts(tt.html)
-		if len(got) != len(tt.want) {
-			t.Fatalf("ExtractDeferredBlockStarts(%q) = %v, want %v", tt.html, got, tt.want)
-		}
-		for i := range got {
-			if got[i] != tt.want[i] {
-				t.Errorf("start %d = %d, want %d", i, got[i], tt.want[i])
+		t.Run(tt.name, func(t *testing.T) {
+			got := ExtractDeferredBlockStarts(tt.html)
+			if len(got) != len(tt.want) {
+				t.Fatalf("ExtractDeferredBlockStarts(%q) = %v, want %v", tt.html, got, tt.want)
 			}
-		}
+			for i := range got {
+				if got[i] != tt.want[i] {
+					t.Errorf("start %d = %d, want %d", i, got[i], tt.want[i])
+				}
+			}
+		})
 	}
 }
 
@@ -347,8 +352,12 @@ func TestFetchAndParseActsHTTPError(t *testing.T) {
 	p := newFastPipeline(t.TempDir(), t.TempDir())
 	p.BaseURL = ts.URL
 	acts := []ActIndexEntry{{ID: "act-x", Title: "X", Status: "in_force", URL: ts.URL + "/jogszabaly/2000-1-00-00"}}
-	if err := p.FetchAndParseActs(context.Background(), acts, false, false); err != nil {
-		t.Fatalf("FetchAndParseActs: %v", err)
+	err := p.FetchAndParseActs(context.Background(), acts, false, false)
+	if err == nil {
+		t.Fatal("expected a summary error when an act fails")
+	}
+	if !strings.Contains(err.Error(), "1 of 1 acts failed") {
+		t.Errorf("err = %v, want a failed-acts summary", err)
 	}
 	// A non-200 act page writes no seed file.
 	entries, err := os.ReadDir(p.SeedDir)
@@ -357,5 +366,55 @@ func TestFetchAndParseActsHTTPError(t *testing.T) {
 	}
 	if len(entries) != 0 {
 		t.Errorf("expected no seed files, got %v", entries)
+	}
+}
+
+func TestResolveURLOffOriginRejected(t *testing.T) {
+	p := newFastPipeline(t.TempDir(), t.TempDir())
+	p.BaseURL = "https://njt.hu"
+
+	if got := p.resolveURL("https://njt.hu/jogszabaly/2011-112-00-00"); got != "https://njt.hu/jogszabaly/2011-112-00-00" {
+		t.Errorf("on-origin URL rewritten: %q", got)
+	}
+	if got := p.resolveURL("http://evil.example.com/jogszabaly/2011-112-00-00"); got != "" {
+		t.Errorf("off-origin URL = %q, want rejection", got)
+	}
+	if got := p.resolveURL("notaurl"); got != "" {
+		t.Errorf("unparseable URL = %q, want rejection", got)
+	}
+}
+
+func TestFetchAndParseActsResumeCorruptSeedRefetches(t *testing.T) {
+	ts := newFakeNjtServer(t)
+	sourceDir := filepath.Join(t.TempDir(), "source")
+	seedDir := filepath.Join(t.TempDir(), "seed")
+
+	// A corrupt cached seed must not abort the --resume run; the act is
+	// re-fetched and its seed rewritten.
+	seedPath := filepath.Join(seedDir, "hu-law-1992-100-00-00.json")
+	if err := os.MkdirAll(seedDir, 0o755); err != nil {
+		t.Fatal(err)
+	}
+	if err := os.WriteFile(seedPath, []byte("{not json"), 0o644); err != nil {
+		t.Fatal(err)
+	}
+
+	p := newFastPipeline(sourceDir, seedDir)
+	p.BaseURL = ts.URL
+	acts := []ActIndexEntry{{ID: "hu-law-1992-100-00-00", Title: "1992. évi C. törvény", Status: "repealed", URL: ts.URL + "/jogszabaly/1992-100-00-00"}}
+	if err := p.FetchAndParseActs(context.Background(), acts, false, true); err != nil {
+		t.Fatalf("FetchAndParseActs: %v", err)
+	}
+
+	data, err := os.ReadFile(seedPath)
+	if err != nil {
+		t.Fatalf("seed not rewritten: %v", err)
+	}
+	var doc seed.DocumentSeed
+	if err := json.Unmarshal(data, &doc); err != nil {
+		t.Fatalf("seed still unreadable: %v", err)
+	}
+	if doc.ID != "hu-law-1992-100-00-00" || len(doc.Provisions) != 0 {
+		t.Errorf("rewritten seed = %+v", doc)
 	}
 }

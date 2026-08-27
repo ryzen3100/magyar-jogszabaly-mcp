@@ -3,8 +3,8 @@
 package tools
 
 import (
+	"context"
 	"database/sql"
-	"encoding/json"
 	"fmt"
 
 	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/statute"
@@ -27,40 +27,42 @@ type CheckCurrencyResult struct {
 }
 
 // CheckCurrency is the exported handler for check_currency.
-func CheckCurrency(db *sql.DB, rawArgs json.RawMessage) (any, ResponseMetadata, error) {
-	var args checkCurrencyArgs
-	if len(rawArgs) > 0 {
-		if err := json.Unmarshal(rawArgs, &args); err != nil {
-			return nil, ResponseMetadata{}, err
-		}
+func CheckCurrency(ctx context.Context, db *sql.DB, args map[string]any) (any, ResponseMetadata, error) {
+	var parsed checkCurrencyArgs
+	if err := decodeArgs(args, &parsed); err != nil {
+		return nil, ResponseMetadata{}, err
 	}
-	if args.DocumentID == nil {
+	if parsed.DocumentID == nil {
 		return nil, ResponseMetadata{}, fmt.Errorf("missing required argument %q", "document_id")
 	}
-
-	resolvedID, err := statute.ResolveDocumentId(db, *args.DocumentID)
-	if err != nil {
+	if err := checkMaxLength("document_id", parsed.DocumentID, maxDocumentIDLength); err != nil {
 		return nil, ResponseMetadata{}, err
+	}
+
+	resolvedID, err := statute.ResolveDocumentId(ctx, db, *parsed.DocumentID)
+	if err != nil {
+		return nil, ResponseMetadata{}, fmt.Errorf("resolve document: %w", err)
 	}
 	if resolvedID == "" {
 		return CheckCurrencyResult{
-			DocumentID: *args.DocumentID,
+			DocumentID: *parsed.DocumentID,
 			Title:      "Unknown",
 			Status:     "not_found",
-			Warnings:   []string{fmt.Sprintf("Document not found: \"%s\"", *args.DocumentID)},
-		}, GenerateResponseMetadata(db), nil
+			Warnings:   []string{fmt.Sprintf("Document not found: \"%s\"", *parsed.DocumentID)},
+		}, GenerateResponseMetadata(ctx, db), nil
 	}
 
 	var (
 		id, title, status       string
 		issuedDate, inForceDate sql.NullString
 	)
-	err = db.QueryRow(
+	err = db.QueryRowContext(
+		ctx,
 		"SELECT id, title, status, issued_date, in_force_date FROM legal_documents WHERE id = ?",
 		resolvedID,
 	).Scan(&id, &title, &status, &issuedDate, &inForceDate)
 	if err != nil {
-		return nil, ResponseMetadata{}, err
+		return nil, ResponseMetadata{}, fmt.Errorf("query document: %w", err)
 	}
 
 	warnings := []string{}
@@ -77,5 +79,5 @@ func CheckCurrency(db *sql.DB, rawArgs json.RawMessage) (any, ResponseMetadata, 
 		IssuedDate:  nullStringPtr(issuedDate),
 		InForceDate: nullStringPtr(inForceDate),
 		Warnings:    warnings,
-	}, GenerateResponseMetadata(db), nil
+	}, GenerateResponseMetadata(ctx, db), nil
 }

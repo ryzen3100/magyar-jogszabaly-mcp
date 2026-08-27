@@ -65,19 +65,22 @@ type euMapping struct {
 func Build(outPath, seedDir, euMappingsPath string, logf func(format string, args ...any)) error {
 	logf("Building Hungarian Law MCP database...\n")
 
-	if _, err := os.Stat(outPath); err == nil {
-		if err := os.Remove(outPath); err != nil {
-			return fmt.Errorf("delete existing database: %w", err)
-		}
-		logf("  Deleted existing database.\n")
-	} else if !errors.Is(err, os.ErrNotExist) {
-		return fmt.Errorf("stat %s: %w", outPath, err)
-	}
+	// Build into a sibling temp file and publish with a single rename once the
+	// database is fully settled — a failed build must never destroy the
+	// last-good artifact (the TS original deleted outPath up front).
+	tmpPath := outPath + ".tmp"
 	if err := os.MkdirAll(filepath.Dir(outPath), 0o755); err != nil {
 		return fmt.Errorf("create output directory: %w", err)
 	}
+	for _, p := range []string{tmpPath, tmpPath + "-wal", tmpPath + "-shm"} {
+		// A leftover from an interrupted run would poison this build.
+		if err := os.Remove(p); err != nil && !errors.Is(err, os.ErrNotExist) {
+			return fmt.Errorf("clear %s: %w", p, err)
+		}
+	}
+	defer os.Remove(tmpPath) // best-effort cleanup on failure; no-op after a successful rename
 
-	db, err := sql.Open("sqlite", "file:"+outPath)
+	db, err := sql.Open("sqlite", "file:"+tmpPath)
 	if err != nil {
 		return fmt.Errorf("open database: %w", err)
 	}
@@ -100,16 +103,16 @@ func Build(outPath, seedDir, euMappingsPath string, logf func(format string, arg
 	if err != nil {
 		if errors.Is(err, os.ErrNotExist) {
 			logf("No seed directory at %s — creating empty database.", seedDir)
-			return db.Close()
+			return publish(db, tmpPath, outPath)
 		}
 		return err
 	}
 	if len(seedFiles) == 0 {
 		logf("No seed files found. Database created with empty schema.")
-		return db.Close()
+		return publish(db, tmpPath, outPath)
 	}
 
-	var totalDocs, totalProvisions, totalDefs, totalEuDocuments, totalEuReferences int
+	var totalDocs, totalProvisions, totalDefs, totalEuDocuments, totalEuReferences, euRefFailures int
 	primarySeen := map[string]bool{} // "docID:euDocumentID" -> already has its first 'implements' ref
 
 	tx, err := db.Begin()
@@ -223,11 +226,16 @@ func Build(outPath, seedDir, euMappingsPath string, logf func(format string, arg
 				if ref.EUArticle != "" {
 					article = ref.EUArticle
 				}
-				// The TS original swallows every error here (bare catch{}), not
-				// just UNIQUE violations — e.g. FK failures after an
-				// eu_documents row was dropped by a CHECK constraint.
+				// The TS original swallowed every error here (bare catch{}),
+				// silently dropping rows from the shipped database. UNIQUE
+				// duplicates are still tolerated, but every other failure is
+				// now counted and reported in the summary below.
 				if _, err := insertEuReference.Exec("provision", sourceID, s.ID, provisionID, ref.EUDocumentID, article,
-					ref.ReferenceType, ref.ReferenceContext, ref.FullCitation, isPrimary, implStatus, lastVerified); err == nil {
+					ref.ReferenceType, ref.ReferenceContext, ref.FullCitation, isPrimary, implStatus, lastVerified); err != nil {
+					if !isUniqueViolation(err) {
+						euRefFailures++
+					}
+				} else {
 					totalEuReferences++
 				}
 			}
@@ -271,13 +279,17 @@ func Build(outPath, seedDir, euMappingsPath string, logf func(format string, arg
 		}
 
 		for _, m := range mappings {
-			if _, err := mInsertEuDocument.Exec(m.EUDocumentID, m.EUType, m.EUYear, m.EUNumber, m.EUCommunity,
-				m.EUTitle, m.EUShortName, nil, nil); err != nil {
+			res, err := mInsertEuDocument.Exec(m.EUDocumentID, m.EUType, m.EUYear, m.EUNumber, m.EUCommunity,
+				m.EUTitle, m.EUShortName, nil, nil)
+			if err != nil {
 				return fmt.Errorf("insert eu_document %s: %w", m.EUDocumentID, err)
+			}
+			if n, err := res.RowsAffected(); err == nil && n > 0 {
+				totalEuDocuments++
 			}
 
 			var id string
-			err := docExists.QueryRow(m.HungarianDocumentID).Scan(&id)
+			err = docExists.QueryRow(m.HungarianDocumentID).Scan(&id)
 			if errors.Is(err, sql.ErrNoRows) {
 				logf(`  ⚠ EU mapping skipped: Hungarian document "%s" not found in database`, m.HungarianDocumentID)
 				continue
@@ -293,19 +305,20 @@ func Build(outPath, seedDir, euMappingsPath string, logf func(format string, arg
 				m.EUDocumentID, nil, m.ReferenceType, "Manual mapping: "+m.EUShortName, m.EUTitle, primary,
 				m.ImplementationStatus, time.Now().UTC().Format(isoMillis)); err != nil {
 				// Tolerate only UNIQUE (duplicate) failures, like the TS original.
-				if !strings.Contains(err.Error(), "UNIQUE constraint failed") {
-					return fmt.Errorf("EU mapping insert failed for %s -> %s: %s", m.HungarianDocumentID, m.EUDocumentID, err)
+				if !isUniqueViolation(err) {
+					return fmt.Errorf("EU mapping insert failed for %s -> %s: %w", m.HungarianDocumentID, m.EUDocumentID, err)
 				}
 			} else {
 				totalEuReferences++
 			}
-			totalEuDocuments++
 		}
 		if err := mtx.Commit(); err != nil {
 			return fmt.Errorf("commit EU mappings transaction: %w", err)
 		}
 		logf("  Loaded %d EU mappings from seed file.", len(mappings))
-	} else if !errors.Is(err, os.ErrNotExist) {
+	} else if errors.Is(err, os.ErrNotExist) {
+		logf("  ⚠ No EU mappings file at %s — building without manual mappings.", euMappingsPath)
+	} else {
 		return fmt.Errorf("read %s: %w", euMappingsPath, err)
 	}
 
@@ -336,7 +349,29 @@ func Build(outPath, seedDir, euMappingsPath string, logf func(format string, arg
 		return fmt.Errorf("commit metadata transaction: %w", err)
 	}
 
-	// journal_mode DELETE for WASM compatibility, then finalize — as in TS.
+	if err := publish(db, tmpPath, outPath); err != nil {
+		return err
+	}
+
+	info, err := os.Stat(outPath)
+	if err != nil {
+		return fmt.Errorf("stat %s: %w", outPath, err)
+	}
+	if euRefFailures > 0 {
+		logf("  ⚠ %d EU references failed to insert", euRefFailures)
+	}
+	logf("\nBuild complete: %d documents, %d provisions, %d definitions, %d EU documents, %d EU references",
+		totalDocs, totalProvisions, totalDefs, totalEuDocuments, totalEuReferences)
+	logf("Output: %s (%.1f MB)", outPath, float64(info.Size())/1024/1024)
+	return nil
+}
+
+// publish finalizes the temp database in place — back to journal_mode DELETE
+// for WASM compatibility, then ANALYZE + VACUUM, as in TS — and closes it
+// with a checked error, since the file must be fully written before it can be
+// published. Only after a clean close with no -wal/-shm sidecars left beside
+// it is the temp file renamed over outPath.
+func publish(db *sql.DB, tmpPath, outPath string) error {
 	if _, err := db.Exec(`PRAGMA journal_mode = DELETE`); err != nil {
 		return fmt.Errorf("journal_mode pragma: %w", err)
 	}
@@ -346,15 +381,19 @@ func Build(outPath, seedDir, euMappingsPath string, logf func(format string, arg
 	if _, err := db.Exec(`VACUUM`); err != nil {
 		return fmt.Errorf("vacuum: %w", err)
 	}
-	db.Close()
-
-	info, err := os.Stat(outPath)
-	if err != nil {
-		return fmt.Errorf("stat %s: %w", outPath, err)
+	if err := db.Close(); err != nil {
+		return fmt.Errorf("close database: %w", err)
 	}
-	logf("\nBuild complete: %d documents, %d provisions, %d definitions, %d EU documents, %d EU references",
-		totalDocs, totalProvisions, totalDefs, totalEuDocuments, totalEuReferences)
-	logf("Output: %s (%.1f MB)", outPath, float64(info.Size())/1024/1024)
+	for _, p := range []string{tmpPath + "-wal", tmpPath + "-shm"} {
+		if _, err := os.Stat(p); err == nil {
+			return fmt.Errorf("%s still exists after close; refusing to publish an unsettled database", p)
+		} else if !errors.Is(err, os.ErrNotExist) {
+			return fmt.Errorf("stat %s: %w", p, err)
+		}
+	}
+	if err := os.Rename(tmpPath, outPath); err != nil {
+		return fmt.Errorf("publish %s: %w", outPath, err)
+	}
 	return nil
 }
 
@@ -409,4 +448,13 @@ func nullIfEmpty(s string) any {
 		return nil
 	}
 	return s
+}
+
+// isUniqueViolation reports an insert-tolerable duplicate. The modernc driver
+// exposes *sqlite.Error with a result code, but extended result codes are off
+// by default, so a UNIQUE violation is indistinguishable by code from any
+// other SQLITE_CONSTRAINT — match on the message (see the driver's
+// conn.ExtendedResultCodes if this ever needs to be exact).
+func isUniqueViolation(err error) bool {
+	return strings.Contains(err.Error(), "UNIQUE constraint failed")
 }

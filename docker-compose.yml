@@ -8,6 +8,10 @@ services:
       # Keep this port on the LAN; do not configure router port forwarding.
       - "3000:3000"
     environment:
+      # HOST=0.0.0.0 is required inside the container: the server defaults to
+      # loopback (it has no in-process auth), which docker-proxy could never
+      # reach. Exposure stays bounded by the ports mapping above.
+      HOST: "0.0.0.0"
       PORT: "3000"
       HUNGARIAN_LAW_DB_PATH: "/data/database.db"
     volumes:

@@ -6,6 +6,7 @@
 package tools
 
 import (
+	"context"
 	"database/sql"
 	"encoding/json"
 	"strings"
@@ -36,14 +37,14 @@ type ResponseMetadata struct {
 
 // GenerateResponseMetadata builds the base metadata block — port of
 // generateResponseMetadata in src/utils/metadata.ts. Freshness mirrors
-// readDbMetadata(db).built_at (key omitted when absent).
-func GenerateResponseMetadata(db *sql.DB) ResponseMetadata {
+// readDbMetadata(ctx, db).built_at (key omitted when absent).
+func GenerateResponseMetadata(ctx context.Context, db *sql.DB) ResponseMetadata {
 	meta := ResponseMetadata{
 		DataSource:   dataSourceConst,
 		Jurisdiction: jurisdictionConst,
 		Disclaimer:   disclaimerConst,
 	}
-	if m := store.ReadDbMetadata(db); m.HasBuiltAt {
+	if m := store.ReadDbMetadata(ctx, db); m.HasBuiltAt {
 		meta.Freshness = m.BuiltAt
 	}
 	return meta

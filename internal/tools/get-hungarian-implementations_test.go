@@ -4,7 +4,7 @@ package tools_test
 // getHungarianImplementations describes in tests/tools/other-tools.test.ts.
 
 import (
-	"encoding/json"
+	"context"
 	"strings"
 	"testing"
 
@@ -18,7 +18,7 @@ func TestGetHungarianImplementationsEUProbeRunsFirst(t *testing.T) {
 
 	// The EU probe precedes everything — even an unresolvable eu_document_id
 	// yields the tier note (not the silent empty result).
-	results, meta, err := tools.GetHungarianImplementations(db, json.RawMessage(
+	results, meta, err := tools.GetHungarianImplementations(context.Background(), db, argsMap(t,
 		`{"eu_document_id":"nonexistent:0000/0"}`))
 	if err != nil {
 		t.Fatal(err)
@@ -33,7 +33,7 @@ func TestGetHungarianImplementationsEUProbeRunsFirst(t *testing.T) {
 
 	// With tables present, an unknown EU document is a silent empty result.
 	db2 := storetest.NewTestDb(t)
-	results, meta, err = tools.GetHungarianImplementations(db2, json.RawMessage(
+	results, meta, err = tools.GetHungarianImplementations(context.Background(), db2, argsMap(t,
 		`{"eu_document_id":"nonexistent:0000/0"}`))
 	if err != nil {
 		t.Fatal(err)
@@ -50,7 +50,7 @@ func TestGetHungarianImplementationsEUProbeRunsFirst(t *testing.T) {
 func TestGetHungarianImplementationsOrderAndValues(t *testing.T) {
 	db := storetest.NewTestDb(t)
 
-	results, _, err := tools.GetHungarianImplementations(db, json.RawMessage(
+	results, _, err := tools.GetHungarianImplementations(context.Background(), db, argsMap(t,
 		`{"eu_document_id":"regulation:2016/679"}`))
 	if err != nil {
 		t.Fatal(err)
@@ -82,7 +82,7 @@ func TestGetHungarianImplementationsOrderAndValues(t *testing.T) {
 func TestGetHungarianImplementationsPrimaryOnly(t *testing.T) {
 	db := storetest.NewTestDb(t)
 
-	results, meta, err := tools.GetHungarianImplementations(db, json.RawMessage(
+	results, meta, err := tools.GetHungarianImplementations(context.Background(), db, argsMap(t,
 		`{"eu_document_id":"regulation:2016/679","primary_only":true}`))
 	if err != nil {
 		t.Fatal(err)
@@ -104,7 +104,7 @@ func TestGetHungarianImplementationsPrimaryOnly(t *testing.T) {
 func TestGetHungarianImplementationsInForceOnly(t *testing.T) {
 	db := storetest.NewTestDb(t)
 
-	results, _, err := tools.GetHungarianImplementations(db, json.RawMessage(
+	results, _, err := tools.GetHungarianImplementations(context.Background(), db, argsMap(t,
 		`{"eu_document_id":"regulation:2016/679","in_force_only":true}`))
 	if err != nil {
 		t.Fatal(err)
@@ -121,7 +121,7 @@ func TestGetHungarianImplementationsInForceOnly(t *testing.T) {
 func TestGetHungarianImplementationsMissingArgument(t *testing.T) {
 	db := storetest.NewTestDb(t)
 
-	_, _, err := tools.GetHungarianImplementations(db, nil)
+	_, _, err := tools.GetHungarianImplementations(context.Background(), db, nil)
 	euWantErr(t, err, `missing required argument "eu_document_id"`)
 }
 
@@ -132,7 +132,7 @@ func TestGetHungarianImplementationsClosedDB(t *testing.T) {
 	// Probe-first tool: a closed DB behaves like a missing EU table (the TS
 	// euAvailable catch swallows the probe error) — empty results + note, not
 	// an error.
-	results, meta, err := tools.GetHungarianImplementations(db, json.RawMessage(
+	results, meta, err := tools.GetHungarianImplementations(context.Background(), db, argsMap(t,
 		`{"eu_document_id":"regulation:2016/679"}`))
 	if err != nil {
 		t.Fatal(err)

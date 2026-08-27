@@ -1,7 +1,9 @@
 package tools
 
 import (
+	"context"
 	"encoding/json"
+	"fmt"
 	"strings"
 	"testing"
 
@@ -86,7 +88,7 @@ func TestGetProvisionAllProvisions(t *testing.T) {
 func TestGetProvisionNotFoundNotes(t *testing.T) {
 	db := storetest.NewTestDb(t)
 
-	_, meta, err := GetProvision(db, json.RawMessage(`{"document_id": "doc-inforce", "section": "999"}`))
+	_, meta, err := GetProvision(context.Background(), db, testArgs(t, `{"document_id": "doc-inforce", "section": "999"}`))
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -94,7 +96,7 @@ func TestGetProvisionNotFoundNotes(t *testing.T) {
 		t.Errorf("note = %q, want %q", meta.Note, want)
 	}
 
-	_, meta, err = GetProvision(db, json.RawMessage(`{"document_id": "missing-doc", "section": "1"}`))
+	_, meta, err = GetProvision(context.Background(), db, testArgs(t, `{"document_id": "missing-doc", "section": "1"}`))
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -152,7 +154,7 @@ func TestGetProvisionNullURLOmitted(t *testing.T) {
 func TestGetProvisionMissingRequiredArg(t *testing.T) {
 	db := storetest.NewTestDb(t)
 
-	_, _, err := GetProvision(db, json.RawMessage(`{}`))
+	_, _, err := GetProvision(context.Background(), db, testArgs(t, `{}`))
 	if err == nil || err.Error() != `missing required argument "document_id"` {
 		t.Errorf("err = %v, want missing required argument", err)
 	}
@@ -164,8 +166,29 @@ func TestGetProvisionDegradedOnClosedDb(t *testing.T) {
 
 	// Closed database is infrastructure failure, like the TS throw into the
 	// registry catch → error envelope.
-	if _, _, err := GetProvision(db, json.RawMessage(`{"document_id": "doc-inforce", "section": "1"}`)); err == nil {
+	if _, _, err := GetProvision(context.Background(), db, testArgs(t, `{"document_id": "doc-inforce", "section": "1"}`)); err == nil {
 		t.Error("expected error from closed db")
+	}
+}
+
+func TestGetProvisionAllProvisionsCapped(t *testing.T) {
+	db := storetest.NewTestDb(t)
+	for i := 1; i <= maxProvisionsPerDocument+1; i++ {
+		if _, err := db.Exec(`INSERT INTO legal_provisions (document_id, provision_ref, section, content)
+			VALUES ('doc-inforce', ?, ?, 'text')`, fmt.Sprintf("scap%d", i), fmt.Sprintf("%d", i)); err != nil {
+			t.Fatal(err)
+		}
+	}
+
+	results, meta, err := GetProvision(context.Background(), db, testArgs(t, `{"document_id": "doc-inforce"}`))
+	if err != nil {
+		t.Fatal(err)
+	}
+	if got := len(results.([]ProvisionResult)); got != maxProvisionsPerDocument {
+		t.Errorf("results = %d, want cap %d", got, maxProvisionsPerDocument)
+	}
+	if meta.Note == "" {
+		t.Error("expected truncation note in _metadata")
 	}
 }
 

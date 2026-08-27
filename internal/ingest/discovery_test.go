@@ -20,27 +20,33 @@ func TestExtractNjtDocumentID(t *testing.T) {
 		{"notaurl", ""},
 	}
 	for _, tt := range tests {
-		if got := ExtractNjtDocumentID(tt.url); got != tt.want {
-			t.Errorf("ExtractNjtDocumentID(%q) = %q, want %q", tt.url, got, tt.want)
-		}
+		t.Run(tt.url, func(t *testing.T) {
+			if got := ExtractNjtDocumentID(tt.url); got != tt.want {
+				t.Errorf("ExtractNjtDocumentID(%q) = %q, want %q", tt.url, got, tt.want)
+			}
+		})
 	}
 }
 
 func TestExtractTotalPages(t *testing.T) {
 	tests := []struct {
+		name string
 		html string
 		want int
 	}{
-		{`<span id="page-count"> / 7 </span>`, 7},
-		{`<span id="page-count">/1</span>`, 1},
-		{`<span id="Page-Count"> / 3 </span>`, 3},
-		{`no counter`, 1},
-		{`<span id="page-count"> / 0 </span>`, 1},
+		{"spaced", `<span id="page-count"> / 7 </span>`, 7},
+		{"tight", `<span id="page-count">/1</span>`, 1},
+		{"case-insensitive id", `<span id="Page-Count"> / 3 </span>`, 3},
+		{"no counter", `no counter`, 1},
+		{"zero pages", `<span id="page-count"> / 0 </span>`, 1},
+		{"clamped to max", `<span id="page-count"> / 424242 </span>`, maxDiscoveryPages},
 	}
 	for _, tt := range tests {
-		if got := ExtractTotalPages(tt.html); got != tt.want {
-			t.Errorf("ExtractTotalPages(%q) = %d, want %d", tt.html, got, tt.want)
-		}
+		t.Run(tt.name, func(t *testing.T) {
+			if got := ExtractTotalPages(tt.html); got != tt.want {
+				t.Errorf("ExtractTotalPages(%q) = %d, want %d", tt.html, got, tt.want)
+			}
+		})
 	}
 }
 
@@ -176,6 +182,17 @@ func TestFetchSearchPathForLawsErrors(t *testing.T) {
 		p := newFastPipeline(t.TempDir(), t.TempDir())
 		p.BaseURL = ts.URL
 		if _, err := p.fetchSearchPathForLaws(context.Background(), false); err == nil || !strings.Contains(err.Error(), "valid path") {
+			t.Errorf("err = %v", err)
+		}
+	})
+	t.Run("unsafe search path", func(t *testing.T) {
+		ts := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+			w.Write([]byte(`{"success":true,"url":"../escape?x=1"}`))
+		}))
+		defer ts.Close()
+		p := newFastPipeline(t.TempDir(), t.TempDir())
+		p.BaseURL = ts.URL
+		if _, err := p.discoverLaws(context.Background(), false); err == nil || !strings.Contains(err.Error(), "unexpected characters") {
 			t.Errorf("err = %v", err)
 		}
 	})

@@ -1,6 +1,7 @@
 package tools
 
 import (
+	"context"
 	"strings"
 	"testing"
 
@@ -84,7 +85,7 @@ func TestCheckCurrencyResolvesByTitle(t *testing.T) {
 func TestCheckCurrencyMissingRequiredArg(t *testing.T) {
 	db := storetest.NewTestDb(t)
 
-	_, _, err := CheckCurrency(db, []byte(`{}`))
+	_, _, err := CheckCurrency(context.Background(), db, testArgs(t, `{}`))
 	if err == nil || err.Error() != `missing required argument "document_id"` {
 		t.Errorf("err = %v, want missing required argument", err)
 	}

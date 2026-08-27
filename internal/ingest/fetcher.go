@@ -6,9 +6,11 @@ package ingest
 
 import (
 	"context"
+	"errors"
 	"fmt"
 	"io"
 	"net/http"
+	"strconv"
 	"strings"
 	"sync"
 	"time"
@@ -64,11 +66,15 @@ func NewFetcher() *Fetcher {
 	return &Fetcher{MinDelay: DefaultMinDelay, MaxRetries: DefaultMaxRetries}
 }
 
+// defaultHTTPClient stands in for http.DefaultClient (which has no Timeout)
+// so a stalled njt.hu connection cannot hang ingestion forever.
+var defaultHTTPClient = &http.Client{Timeout: 60 * time.Second}
+
 func (f *Fetcher) client() *http.Client {
 	if f.Client != nil {
 		return f.Client
 	}
-	return http.DefaultClient
+	return defaultHTTPClient
 }
 
 func (f *Fetcher) sleep(d time.Duration) {
@@ -77,6 +83,21 @@ func (f *Fetcher) sleep(d time.Duration) {
 		return
 	}
 	time.Sleep(d)
+}
+
+// sleepCtx is the retry-backoff variant of sleep: without the test hook it
+// returns early when ctx is done instead of sleeping through a cancellation.
+func (f *Fetcher) sleepCtx(ctx context.Context, d time.Duration) {
+	if f.Sleep != nil {
+		f.Sleep(d)
+		return
+	}
+	timer := time.NewTimer(d)
+	defer timer.Stop()
+	select {
+	case <-ctx.Done():
+	case <-timer.C:
+	}
 }
 
 func (f *Fetcher) logf(format string, args ...any) {
@@ -98,10 +119,27 @@ func (f *Fetcher) rateLimit() {
 	f.lastRequestTime = time.Now()
 }
 
-// backoffFor is 2^(attempt+1) seconds: 2s, 4s, 8s.
+// backoffFor is 2^(attempt+1) seconds: 2s, 4s, 8s. The shift is clamped so
+// an absurd attempt count cannot overflow.
 func backoffFor(attempt int) time.Duration {
-	return time.Duration(1<<uint(attempt+1)) * time.Second
+	return time.Duration(1<<min(attempt+1, 20)) * time.Second
 }
+
+// retryAfter parses a numeric Retry-After header (njt.hu sends seconds);
+// the HTTP-date form and unparseable values return 0.
+func retryAfter(h string) time.Duration {
+	secs, err := strconv.Atoi(strings.TrimSpace(h))
+	if err != nil || secs <= 0 {
+		return 0
+	}
+	return time.Duration(secs) * time.Second
+}
+
+// maxBodyBytes caps how much of a response body is read into memory.
+// ponytail: 20MB is ~20x the largest real njt.hu act page; a bigger body is
+// a broken/hostile origin, so it errors instead of OOMing the pipeline.
+// Upgrade path: stream to disk if a legitimate page ever outgrows this.
+const maxBodyBytes = 20 << 20
 
 // Fetch fetches a URL with rate limiting and retries on transient failures.
 // The User-Agent is applied unless overridden via opt.Headers.
@@ -132,24 +170,37 @@ func (f *Fetcher) Fetch(ctx context.Context, rawURL string, opt *RequestOptions)
 
 		resp, err := f.client().Do(req)
 		if err != nil {
+			// A dead context never recovers; retrying would just burn
+			// the backoff schedule.
+			if errors.Is(err, context.Canceled) || errors.Is(err, context.DeadlineExceeded) {
+				return FetchResult{}, err
+			}
 			if attempt < f.MaxRetries {
 				backoff := backoffFor(attempt)
 				f.logf("  Network error for %s: %v. Retrying in %dms...\n", rawURL, err, backoff.Milliseconds())
-				f.sleep(backoff)
+				f.sleepCtx(ctx, backoff)
 				continue
 			}
 			return FetchResult{}, err
 		}
-		body, readErr := io.ReadAll(resp.Body)
+		body, readErr := io.ReadAll(io.LimitReader(resp.Body, maxBodyBytes+1))
 		resp.Body.Close()
 		if readErr != nil {
-			return FetchResult{}, readErr
+			return FetchResult{}, fmt.Errorf("read response body from %s: %w", rawURL, readErr)
+		}
+		if len(body) > maxBodyBytes {
+			return FetchResult{}, fmt.Errorf("response body from %s exceeds the %d MB limit", rawURL, maxBodyBytes>>20)
 		}
 
 		if (resp.StatusCode == http.StatusTooManyRequests || resp.StatusCode >= 500) && attempt < f.MaxRetries {
 			backoff := backoffFor(attempt)
+			if resp.StatusCode == http.StatusTooManyRequests {
+				if ra := retryAfter(resp.Header.Get("Retry-After")); ra > 0 {
+					backoff = min(backoff, ra)
+				}
+			}
 			f.logf("  HTTP %d for %s, retrying in %dms...\n", resp.StatusCode, rawURL, backoff.Milliseconds())
-			f.sleep(backoff)
+			f.sleepCtx(ctx, backoff)
 			continue
 		}
 		return FetchResult{Status: resp.StatusCode, Body: string(body)}, nil

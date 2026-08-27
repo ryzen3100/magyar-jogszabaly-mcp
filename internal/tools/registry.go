@@ -7,6 +7,8 @@ import (
 	"database/sql"
 	"encoding/json"
 	"fmt"
+	"os"
+	"runtime/debug"
 
 	"github.com/google/jsonschema-go/jsonschema"
 	"github.com/modelcontextprotocol/go-sdk/mcp"
@@ -22,11 +24,41 @@ type AboutContext struct {
 	DbBuilt     string
 }
 
-// Handler is the common signature of every non-about tool handler. rawArgs
-// are the unvalidated JSON arguments from the client; handlers parse their
-// own input. A returned error becomes an in-band "Error: …" tool result,
-// never a protocol error.
-type Handler func(db *sql.DB, rawArgs json.RawMessage) (results any, meta ResponseMetadata, err error)
+// Handler is the common signature of every non-about tool handler. ctx is
+// the request context, so client disconnects cancel in-flight DB work; args
+// is the unvalidated argument map decoded from the call payload — handlers
+// parse and validate their own input. A returned error becomes an in-band
+// "Error: …" tool result, never a protocol error.
+type Handler func(ctx context.Context, db *sql.DB, args map[string]any) (results any, meta ResponseMetadata, err error)
+
+// decodeCallArgs parses the raw call payload into the argument map carried
+// by Handler; an empty payload is an empty map.
+func decodeCallArgs(raw json.RawMessage) (map[string]any, error) {
+	if len(raw) == 0 {
+		return map[string]any{}, nil
+	}
+	var args map[string]any
+	if err := json.Unmarshal(raw, &args); err != nil {
+		return nil, fmt.Errorf("decode arguments: %w", err)
+	}
+	return args, nil
+}
+
+// decodeArgs re-encodes the raw argument map into a handler's typed args
+// struct, preserving the pointer-optionality of absent keys.
+func decodeArgs(args map[string]any, out any) error {
+	if len(args) == 0 {
+		return nil
+	}
+	buf, err := json.Marshal(args)
+	if err != nil {
+		return fmt.Errorf("encode arguments: %w", err)
+	}
+	if err := json.Unmarshal(buf, out); err != nil {
+		return fmt.Errorf("decode arguments: %w", err)
+	}
+	return nil
+}
 
 // Handlers maps tool name → handler for the 12 non-about tools — port of the
 // HANDLERS record in src/tools/registry.ts.
@@ -43,8 +75,8 @@ func Handlers() map[string]Handler {
 		"search_eu_implementations":     SearchEUImplementations,
 		"get_provision_eu_basis":        GetProvisionEUBasis,
 		"validate_eu_compliance":        ValidateEUCompliance,
-		"list_sources": func(db *sql.DB, _ json.RawMessage) (any, ResponseMetadata, error) {
-			return ListSources(db)
+		"list_sources": func(ctx context.Context, db *sql.DB, _ map[string]any) (any, ResponseMetadata, error) {
+			return ListSources(ctx, db)
 		},
 	}
 }
@@ -195,7 +227,7 @@ func boolPtr(v bool) *bool { return &v }
 // Register adds all tools to the MCP server — port of registerTools in
 // src/tools/registry.ts. The about tool is registered only when about is
 // non-nil (mirroring the conditional ABOUT_TOOL push in buildTools), but a
-// call to it is still answered with "About tool not configured." when about
+// call to it is still answered with "about tool not configured" when about
 // is nil, exactly as the TypeScript dispatcher does.
 func Register(s *mcp.Server, db *sql.DB, about *AboutContext) {
 	handlers := Handlers()
@@ -214,33 +246,49 @@ func Register(s *mcp.Server, db *sql.DB, about *AboutContext) {
 }
 
 // dispatch builds the single MCP tool-call handler that special-cases `about`
-// and routes everything else through the Handlers map. Errors become in-band
-// "Error: …" text results with IsError set — a non-nil Go error return would
-// instead surface as a JSON-RPC protocol error, which the TypeScript server
-// never produces.
+// and routes everything else through the Handlers map, passing the request
+// context through so cancellation reaches the DB queries. Errors become
+// in-band "Error: …" text results with IsError set — a non-nil Go error
+// return would instead surface as a JSON-RPC protocol error, which the
+// TypeScript server never produces.
 func dispatch(db *sql.DB, about *AboutContext, handlers map[string]Handler) mcp.ToolHandler {
-	return func(_ context.Context, req *mcp.CallToolRequest) (*mcp.CallToolResult, error) {
+	return func(ctx context.Context, req *mcp.CallToolRequest) (result *mcp.CallToolResult, err error) {
 		name := req.Params.Name
+		// Panic isolation: the go-sdk contains no recover(), so an uncaught
+		// panic would kill the stdio server with a silent EOF. Log name, value
+		// and stack to stderr (never stdout — that is the protocol channel in
+		// stdio mode) and answer with a generic in-band error.
+		defer func() {
+			if r := recover(); r != nil {
+				fmt.Fprintf(os.Stderr, "panic in tool %q: %v\n%s\n", name, r, debug.Stack())
+				result = errorResult("Internal tool error")
+				err = nil
+			}
+		}()
 
 		var (
-			results any
-			meta    ResponseMetadata
-			err     error
+			results    any
+			meta       ResponseMetadata
+			handlerErr error
 		)
 		if name == "about" {
 			if about == nil {
-				return errorResult("About tool not configured."), nil
+				return errorResult(errAboutNotConfigured.Error()), nil
 			}
-			results, meta, err = GetAbout(db, about)
+			results, meta, handlerErr = GetAbout(ctx, db, about)
 		} else {
 			h, ok := handlers[name]
 			if !ok {
 				return errorResult(fmt.Sprintf("Error: Unknown tool \"%s\".", name)), nil
 			}
-			results, meta, err = h(db, req.Params.Arguments)
+			var args map[string]any
+			args, handlerErr = decodeCallArgs(req.Params.Arguments)
+			if handlerErr == nil {
+				results, meta, handlerErr = h(ctx, db, args)
+			}
 		}
-		if err != nil {
-			return errorResult("Error: " + err.Error()), nil
+		if handlerErr != nil {
+			return errorResult("Error: " + handlerErr.Error()), nil
 		}
 		text := MarshalResponse(results, meta)
 		if name == "about" {

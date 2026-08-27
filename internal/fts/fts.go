@@ -10,7 +10,9 @@ import (
 	"unicode/utf8"
 )
 
-var booleanOpsRe = regexp.MustCompile(`\b(AND|OR|NOT)\b`)
+// Case-insensitive: lowercase and/or/not are operators too and must reach the
+// boolean tier instead of silently degrading the search to the LIKE fallback.
+var booleanOpsRe = regexp.MustCompile(`(?i)\b(AND|OR|NOT)\b`)
 
 // Dangerous chars stripped in boolean mode (quotes and parens preserved).
 var booleanStripRe = regexp.MustCompile(`[{}\[\]^~*:]`)

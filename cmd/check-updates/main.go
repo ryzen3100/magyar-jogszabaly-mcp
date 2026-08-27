@@ -10,10 +10,12 @@
 package main
 
 import (
+	"context"
 	"database/sql"
 	"encoding/json"
 	"errors"
 	"fmt"
+	"io/fs"
 	"math"
 	"net/http"
 	"os"
@@ -50,10 +52,19 @@ func main() {
 
 	// --- 1. Database existence ---
 	if _, err := os.Stat(dbPath); err != nil {
-		fmt.Fprintln(os.Stderr, "ERROR: Database not found at", dbPath)
-		fmt.Fprintln(os.Stderr, `Run "go run ./cmd/build-db" first.`)
+		if errors.Is(err, fs.ErrNotExist) {
+			fmt.Fprintln(os.Stderr, "ERROR: Database not found at", dbPath)
+			fmt.Fprintln(os.Stderr, `Run "go run ./cmd/build-db" first.`)
+		} else {
+			// Not a missing-file problem (permissions, ...): report the real
+			// cause instead of mislabeling it "not found". The err is a
+			// *fs.PathError and already names the path.
+			fmt.Fprintln(os.Stderr, "Unexpected error:", err)
+		}
 		os.Exit(2)
 	}
+
+	ctx := context.Background()
 
 	updatesNeeded := false
 	checkError := false
@@ -78,7 +89,9 @@ func main() {
 		fmt.Println("ERROR: No built_at in db_metadata — cannot assess age")
 	case err != nil:
 		checkError = true
-		fmt.Println("ERROR: db_metadata table is missing")
+		// Keep the TS message prefix, but show the underlying error: it may
+		// be a missing table, or something else entirely (locked/corrupt DB).
+		fmt.Println("ERROR: db_metadata table is missing:", err)
 	default:
 		if age, ok := daysSince(time.Now(), builtAt); !ok {
 			checkError = true
@@ -92,8 +105,8 @@ func main() {
 	}
 
 	// --- 3. Document and provision count check ---
-	dbDocCount := countTable(db, "legal_documents", &checkError)
-	dbProvCount := countTable(db, "legal_provisions", &checkError)
+	dbDocCount := countTable(ctx, db, "legal_documents", &checkError)
+	dbProvCount := countTable(ctx, db, "legal_provisions", &checkError)
 
 	if dbDocCount < 1 || dbProvCount < 1 {
 		checkError = true
@@ -103,7 +116,7 @@ func main() {
 	// Compare against census if available
 	census, censusErr := readCensus(censusPath)
 	switch {
-	case os.IsNotExist(censusErr):
+	case errors.Is(censusErr, fs.ErrNotExist):
 		checkError = true
 		fmt.Println("ERROR: census.json is missing")
 	case censusErr != nil:
@@ -139,11 +152,11 @@ func main() {
 	// --- 4. Source portal reachability ---
 	fmt.Println()
 	fmt.Printf("Checking portal: %s\n", portalURL)
-	if checkPortal(portalClient(), portalURL) {
-		fmt.Printf("OK: %s is reachable\n", portalName)
-	} else {
+	if err := checkPortal(portalClient(), portalURL); err != nil {
 		checkError = true
-		fmt.Printf("ERROR: %s is unreachable\n", portalName)
+		fmt.Printf("ERROR: %s is unreachable: %v\n", portalName, err)
+	} else {
+		fmt.Printf("OK: %s is reachable\n", portalName)
 	}
 
 	// --- Result ---
@@ -190,8 +203,8 @@ func daysSince(now time.Time, isoDate string) (int, bool) {
 // check error. SafeCount collapses query errors to 0, so a missing table is
 // detected separately to keep the TS "Cannot count ..." message distinct from
 // a genuine count of zero (TS prints both messages in the error case).
-func countTable(db *sql.DB, table string, checkError *bool) int {
-	n := store.SafeCount(db, "SELECT COUNT(*) AS count FROM "+table)
+func countTable(ctx context.Context, db *sql.DB, table string, checkError *bool) int {
+	n := store.SafeCount(ctx, db, "SELECT COUNT(*) AS count FROM "+table)
 	if n > 0 || tableExists(db, table) {
 		fmt.Printf("DB %s: %d\n", strings.TrimPrefix(table, "legal_"), n)
 		return n
@@ -238,18 +251,24 @@ func portalClient() *http.Client {
 
 // checkPortal ports checkPortal(): a HEAD request counts as reachable when
 // the final status is <400 or one of the explicitly tolerated codes (301/302
-// redirects, and 403, which portals return when bot-blocked).
-func checkPortal(client *http.Client, url string) bool {
+// redirects, and 403, which portals return when bot-blocked). It returns the
+// underlying failure instead of a bare false so the caller's ERROR line can
+// say why the portal is unreachable — DNS failure vs timeout vs HTTP status
+// (client.Do errors are *url.Error and already name the operation and cause).
+func checkPortal(client *http.Client, url string) error {
 	req, err := http.NewRequest(http.MethodHead, url, nil)
 	if err != nil {
-		return false
+		return fmt.Errorf("building request: %w", err)
 	}
 	req.Header.Set("User-Agent", portalAgent)
 	res, err := client.Do(req)
 	if err != nil {
-		return false
+		return err
 	}
 	defer res.Body.Close()
-	return res.StatusCode < 400 ||
-		res.StatusCode == 301 || res.StatusCode == 302 || res.StatusCode == 403
+	if res.StatusCode < 400 ||
+		res.StatusCode == 301 || res.StatusCode == 302 || res.StatusCode == 403 {
+		return nil
+	}
+	return fmt.Errorf("unexpected HTTP status %s", res.Status)
 }

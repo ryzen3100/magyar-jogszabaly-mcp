@@ -1,7 +1,7 @@
 // hungarian-law-mcp is the single binary for all modes:
 //
 //	hungarian-law-mcp          MCP server over stdio (default; used by MCP clients)
-//	hungarian-law-mcp serve     Streamable HTTP server (PORT env, default 3000)
+//	hungarian-law-mcp serve     Streamable HTTP server (HOST/PORT env, default 127.0.0.1:3000)
 package main
 
 import (

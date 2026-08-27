@@ -1,6 +1,7 @@
 package statute
 
 import (
+	"context"
 	"database/sql"
 	"testing"
 
@@ -12,7 +13,8 @@ import (
 // resolveDocumentId, seeded to mirror tests/helpers/test-db.ts
 // (doc-inforce/doc-amended/doc-repealed/doc-future, provisions p1(s1),
 // p2(s2) under doc-inforce, p3(s3) under doc-amended). One extra doc
-// ("hu-law-2012-1-00-00") exercises the Hungarian-formal conversion path.
+// ("hu-law-2012-1-00-00") exercises the Hungarian-formal conversion path;
+// "doc-percent" (a % in its title) exercises LIKE-wildcard escaping.
 func newTestDB(t *testing.T) *sql.DB {
 	t.Helper()
 	db, err := sql.Open("sqlite", ":memory:")
@@ -48,7 +50,8 @@ CREATE TABLE legal_provisions (
 ('doc-amended', 'Amended Act', 'AA', 'Amended Act EN', 'amended'),
 ('doc-repealed', 'Repealed Act', 'RA', 'Repealed Act EN', 'repealed'),
 ('doc-future', 'Future Act', 'FA', 'Future Act EN', 'not_yet_in_force'),
-('hu-law-2012-1-00-00', '2012. évi I. törvény (canonical)', 'T2012', 'Act I of 2012 EN', 'in_force');`
+('hu-law-2012-1-00-00', '2012. évi I. törvény (canonical)', 'T2012', 'Act I of 2012 EN', 'in_force'),
+('doc-percent', '100% Guarantee Act', '100P', '100 Percent Act EN', 'in_force');`
 	if _, err := db.Exec(docs); err != nil {
 		t.Fatalf("seed docs: %v", err)
 	}
@@ -135,11 +138,14 @@ func TestResolveDocumentId(t *testing.T) {
 		{"hungarian reference without space after year dot", "2012.évi I. törvény", "hu-law-2012-1-00-00"},
 		{"hu-law prefix strips trailing garbage", "hu-law-2012-1-00-00 suffix junk", "hu-law-2012-1-00-00"},
 		{"amended doc by id", "doc-amended", "doc-amended"},
+		{"percent matches literal percent in title", "%", "doc-percent"},
+		{"escaped percent matches its document", "100%", "doc-percent"},
+		{"underscore stays literal, not a single-char wildcard", "In_Force", ""},
 		{"no match", "non-existent statute", ""},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			got, err := ResolveDocumentId(db, tt.input)
+			got, err := ResolveDocumentId(context.Background(), db, tt.input)
 			if err != nil {
 				t.Fatalf("ResolveDocumentId(%q) error: %v", tt.input, err)
 			}
@@ -162,7 +168,7 @@ func TestResolveDocumentIdCaseInsensitiveTitleFallback(t *testing.T) {
 		t.Fatalf("update: %v", err)
 	}
 
-	got, err := ResolveDocumentId(db, "mixedcase act")
+	got, err := ResolveDocumentId(context.Background(), db, "mixedcase act")
 	if err != nil {
 		t.Fatalf("ResolveDocumentId error: %v", err)
 	}

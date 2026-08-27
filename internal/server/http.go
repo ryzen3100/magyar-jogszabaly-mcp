@@ -15,6 +15,7 @@ import (
 	"os/signal"
 	"path/filepath"
 	"regexp"
+	"runtime/debug"
 	"strconv"
 	"sync"
 	"syscall"
@@ -35,6 +36,18 @@ const (
 // uuidV4RE is the TS UUID_RE — validates the session header before it is
 // used for anything, preventing injection via mcp-session-id.
 var uuidV4RE = regexp.MustCompile(`(?i)^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$`)
+
+const (
+	// maxBodyBytes caps every request body. 1 MiB is ample for JSON-RPC
+	// payloads; an oversized body fails the SDK's io.ReadAll with
+	// http.MaxBytesError, which it answers with a 413 (S2).
+	maxBodyBytes = 1 << 20
+
+	// Session-cap knobs approximating the TS server's 500-session hard cap
+	// with oldest-eviction (S4).
+	maxSessions    = 500
+	sessionIdleTTL = 30 * time.Minute
+)
 
 // Wire shapes, field order matching the TS JSON.stringify key order.
 
@@ -90,6 +103,14 @@ func RunHTTP() error {
 		}
 		port = p
 	}
+	// HOST defaults to loopback: the server has no in-process auth, so it
+	// must not reach beyond the local machine unless the operator opts in
+	// (docker-compose sets HOST=0.0.0.0 inside the container). LAN-only
+	// posture.
+	host := os.Getenv("HOST")
+	if host == "" {
+		host = "127.0.0.1"
+	}
 
 	db, path, err := openDB()
 	if err != nil {
@@ -98,14 +119,25 @@ func RunHTTP() error {
 	defer db.Close()
 
 	logf("Database: %s", path)
-	logf("Tier: %s", store.ReadDbMetadata(db).Tier)
+	logf("Tier: %s", store.ReadDbMetadata(context.Background(), db).Tier)
 
 	// Built once at startup, shared by every session.
 	about := buildAboutContext(db, path)
 	icon := loadIcon()
 
 	handler := newHTTPHandler(db, about, time.Now(), icon)
-	srv := &http.Server{Addr: ":" + strconv.Itoa(port), Handler: handler}
+	// Explicit timeouts bound slow-client connection exhaustion (S3).
+	// WriteTimeout also caps the SDK's SSE keepalive streams at 60s —
+	// harmless here: the server pushes no notifications, clients simply
+	// re-establish.
+	srv := &http.Server{
+		Addr:              net.JoinHostPort(host, strconv.Itoa(port)),
+		Handler:           handler,
+		ReadHeaderTimeout: 10 * time.Second,
+		ReadTimeout:       30 * time.Second,
+		WriteTimeout:      60 * time.Second,
+		IdleTimeout:       120 * time.Second,
+	}
 
 	ln, err := net.Listen("tcp", srv.Addr)
 	if err != nil {
@@ -114,7 +146,7 @@ func RunHTTP() error {
 	serveErr := make(chan error, 1)
 	go func() { serveErr <- srv.Serve(ln) }()
 
-	fmt.Fprintf(os.Stderr, "%s v%s HTTP server listening on port %d\n", serverName, serverVersion, port)
+	fmt.Fprintf(os.Stderr, "%s v%s HTTP server listening on %s\n", serverName, serverVersion, srv.Addr)
 
 	sigCh := make(chan os.Signal, 1)
 	signal.Notify(sigCh, os.Interrupt, syscall.SIGTERM)
@@ -128,10 +160,16 @@ func RunHTTP() error {
 			name = "SIGINT"
 		}
 		logf("Shutting down (%s)...", name)
-		// Match the TS 5s forced exit when connections refuse to drain.
-		timer := time.AfterFunc(5*time.Second, func() { os.Exit(1) })
-		defer timer.Stop()
-		return srv.Shutdown(context.Background())
+		// Drain for at most 4s so the deferred db.Close() above actually
+		// runs; the TS server's os.Exit(1) watchdog skipped cleanup. A
+		// timed-out drain is logged, not fatal — the process exits either
+		// way, which is what supervisors act on (K6).
+		ctx, cancel := context.WithTimeout(context.Background(), 4*time.Second)
+		defer cancel()
+		if err := srv.Shutdown(ctx); err != nil {
+			logf("Shutdown timed out: %v", err)
+		}
+		return nil
 	}
 }
 
@@ -155,15 +193,22 @@ func loadIcon() []byte {
 	return nil
 }
 
-// sessionServer builds a fresh MCP server per session — port of
-// createMCPServer in src/http-server.ts. HTTP mode advertises
-// tools+prompts+resources (stdio is tools-only).
-func sessionServer(db *sql.DB, about *tools.AboutContext) *mcp.Server {
+// sessionServer builds the MCP server — port of createMCPServer in
+// src/http-server.ts. HTTP mode advertises tools+prompts+resources (stdio is
+// tools-only). The transport keys session state itself, so one instance is
+// shared by every session (K6).
+func sessionServer(db *sql.DB, about *tools.AboutContext, sessions *sessionTracker) *mcp.Server {
 	s := mcp.NewServer(&mcp.Implementation{Name: serverName, Version: serverVersion}, &mcp.ServerOptions{
 		// TS generated session IDs with crypto.randomUUID(); the SDK's
 		// default generator uses a different shape that would fail the
 		// UUID validation in handleMCP, breaking session termination.
-		GetSessionID: newSessionID,
+		// Minted ids are registered with the session tracker so the S4
+		// cap counts sessions even before their first follow-up request.
+		GetSessionID: func() string {
+			id := newSessionID()
+			sessions.touch(id)
+			return id
+		},
 		// Explicit empty structs reproduce the TS
 		// capabilities: { tools: {}, prompts: {}, resources: {} } —
 		// without them the SDK infers listChanged:true for each.
@@ -187,6 +232,45 @@ func newSessionID() string {
 	b[6] = (b[6] & 0x0f) | 0x40
 	b[8] = (b[8] & 0x3f) | 0x80
 	return fmt.Sprintf("%x-%x-%x-%x-%x", b[0:4], b[4:6], b[6:8], b[8:10], b[10:16])
+}
+
+// sessionTracker approximates the TS server's 500-session hard cap (S4).
+// ponytail: this is a looser cap than the TS oldest-eviction one — new
+// sessions get a 429 while full instead of evicting, admission is checked
+// just before the SDK mints the session (a concurrent burst can overshoot
+// the cap slightly), and only minted sessions or requests bearing a valid
+// mcp-session-id are counted. Upgrade path: reject inside the GetSessionID
+// hook if the SDK ever allows it to fail.
+type sessionTracker struct {
+	mu       sync.Mutex
+	lastSeen map[string]time.Time
+}
+
+func newSessionTracker() *sessionTracker {
+	return &sessionTracker{lastSeen: make(map[string]time.Time)}
+}
+
+// touch records the id as seen now — both for freshly minted sessions and
+// for follow-up requests bearing a valid mcp-session-id.
+func (t *sessionTracker) touch(id string) {
+	t.mu.Lock()
+	t.lastSeen[id] = time.Now()
+	t.mu.Unlock()
+}
+
+// admit reports whether a new session may be created, first dropping
+// entries idle past sessionIdleTTL (the SDK sweeps its own idle sessions at
+// the same interval).
+func (t *sessionTracker) admit() bool {
+	t.mu.Lock()
+	defer t.mu.Unlock()
+	now := time.Now()
+	for id, seen := range t.lastSeen {
+		if now.Sub(seen) > sessionIdleTTL {
+			delete(t.lastSeen, id)
+		}
+	}
+	return len(t.lastSeen) < maxSessions
 }
 
 // newHTTPHandler builds the full route table — port of the createHttpServer
@@ -216,38 +300,55 @@ func newHTTPHandler(db *sql.DB, about *tools.AboutContext, start time.Time, icon
 		Transport:   "streamable-http",
 	})
 
+	// One shared Server instance: the transport keys session state itself,
+	// so the per-request rebuild of 13 tools + prompts + resources was pure
+	// waste (K6).
+	sessions := newSessionTracker()
+	shared := sessionServer(db, about, sessions)
 	mcpHandler := mcp.NewStreamableHTTPHandler(func(*http.Request) *mcp.Server {
-		return sessionServer(db, about)
-	}, &mcp.StreamableHTTPOptions{SessionTimeout: 30 * time.Minute}) // matches the TS server's 30-min idle sweep
-	// ponytail: the TS server also hand-rolled a 500-session hard cap with
-	// oldest-eviction; the SDK exposes no cap, only this timeout — idle
-	// sessions can still accumulate under sustained load. Upgrade path: a
-	// counting wrapper around the handler if a public deployment ever needs it.
+		return shared
+	}, &mcp.StreamableHTTPOptions{SessionTimeout: sessionIdleTTL}) // matches the TS server's 30-min idle sweep
 
-	// /health COUNT pair is expensive on a large readonly DB — compute once on
-	// the first fully successful probe; failures and stub/empty results retry.
+	// /health COUNT pair is expensive on a large readonly DB — probe OUTSIDE
+	// healthMu so concurrent hits coalesce on the DB instead of queueing
+	// behind one scan (K3), cache the first fully successful probe, and
+	// cache failures briefly so unauthenticated /health requests cannot
+	// amplify into a COUNT scan per hit (S6).
+	const healthFailureTTL = 15 * time.Second
 	var (
-		healthMu     sync.Mutex
-		healthCounts *[2]int
+		healthMu       sync.Mutex
+		healthCounts   *[2]int
+		healthFailedAt time.Time
 	)
-	probeHealth := func() bool {
+	probeHealth := func(ctx context.Context) bool {
 		healthMu.Lock()
-		defer healthMu.Unlock()
 		if healthCounts != nil {
+			healthMu.Unlock()
 			return true
 		}
-		if !store.CoreTablesReady(db) {
+		if !healthFailedAt.IsZero() && time.Since(healthFailedAt) < healthFailureTTL {
+			healthMu.Unlock()
 			return false
 		}
+		healthMu.Unlock()
+
+		ok := store.CoreTablesReady(ctx, db)
 		var counts [2]int
-		err := db.QueryRow(`SELECT
-				(SELECT COUNT(*) FROM legal_documents) AS documents,
-				(SELECT COUNT(*) FROM legal_provisions) AS provisions`).Scan(&counts[0], &counts[1])
-		if err != nil || counts[0] == 0 || counts[1] == 0 {
-			return false
+		if ok {
+			err := db.QueryRowContext(ctx, `SELECT
+					(SELECT COUNT(*) FROM legal_documents) AS documents,
+					(SELECT COUNT(*) FROM legal_provisions) AS provisions`).Scan(&counts[0], &counts[1])
+			ok = err == nil && counts[0] > 0 && counts[1] > 0
 		}
-		healthCounts = &counts // cache success only — failures re-probe next call
-		return true
+
+		healthMu.Lock()
+		defer healthMu.Unlock()
+		if ok {
+			healthCounts = &counts // cache success — failures retry after the TTL
+		} else {
+			healthFailedAt = time.Now()
+		}
+		return ok
 	}
 
 	handleMCP := func(w http.ResponseWriter, r *http.Request) {
@@ -257,8 +358,10 @@ func newHTTPHandler(db *sql.DB, about *tools.AboutContext, start time.Time, icon
 			sessionID = ""
 		}
 
-		// Existing session — delegate any method to the SDK transport.
+		// Existing session — refresh liveness, delegate any method to the
+		// SDK transport.
 		if sessionID != "" {
+			sessions.touch(sessionID)
 			mcpHandler.ServeHTTP(w, r)
 			return
 		}
@@ -267,17 +370,29 @@ func newHTTPHandler(db *sql.DB, about *tools.AboutContext, start time.Time, icon
 		case http.MethodDelete:
 			writeJSON(w, http.StatusNotFound, errJSON("Session not found"))
 		case http.MethodPost:
-			// New session (initialize) — the SDK handler creates it.
+			// New session (initialize) — hold it to the cap before the
+			// SDK creates one (S4).
+			if !sessions.admit() {
+				w.Header().Set("Retry-After", "60")
+				writeJSON(w, http.StatusTooManyRequests, errJSON("Too many sessions"))
+				return
+			}
 			mcpHandler.ServeHTTP(w, r)
 		case http.MethodGet, http.MethodHead:
 			// Sessionless GET — plain metadata doc, not an SSE stream.
 			writeJSON(w, http.StatusOK, metaJSON)
 		default:
-			writeJSON(w, http.StatusBadRequest, errJSON("Bad request — missing or invalid session"))
+			// 405, not 400: the route exists, the method does not (E10).
+			writeJSON(w, http.StatusMethodNotAllowed, errJSON("Method not allowed"))
 		}
 	}
 
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		// Cap the body before anything reads it. The raw w (not the
+		// wrapper below) must be passed so the server's requestTooLarge
+		// hook still fires and the connection closes after the 413 (S2).
+		r.Body = http.MaxBytesReader(w, r.Body, maxBodyBytes)
+
 		// CORS on every response, errors included.
 		h := w.Header()
 		h.Set("Access-Control-Allow-Origin", "*")
@@ -290,7 +405,7 @@ func newHTTPHandler(db *sql.DB, about *tools.AboutContext, start time.Time, icon
 		sw := &statusWriter{ResponseWriter: w}
 		defer func() {
 			if rec := recover(); rec != nil {
-				logf("Unhandled error: %v", rec)
+				logf("Unhandled error: %v\n%s", rec, debug.Stack())
 				if !sw.wroteHeader {
 					writeJSON(sw, http.StatusInternalServerError, errJSON("Internal server error"))
 				}
@@ -306,7 +421,7 @@ func newHTTPHandler(db *sql.DB, about *tools.AboutContext, start time.Time, icon
 		// GET/HEAD /health
 		if r.URL.Path == "/health" && (r.Method == http.MethodGet || r.Method == http.MethodHead) {
 			status, state := http.StatusOK, "ok"
-			if !probeHealth() {
+			if !probeHealth(r.Context()) {
 				status, state = http.StatusServiceUnavailable, "degraded"
 			}
 			body, _ := json.Marshal(healthPayload{
@@ -366,6 +481,19 @@ func (w *statusWriter) Write(b []byte) (int, error) {
 	w.wroteHeader = true
 	return w.ResponseWriter.Write(b)
 }
+
+// Flush forwards to the underlying flusher so the SDK's SSE keepalive
+// (http.NewResponseController(w).Flush()) reaches the client instead of
+// buffering behind proxies (C1).
+func (w *statusWriter) Flush() {
+	if f, ok := w.ResponseWriter.(http.Flusher); ok {
+		f.Flush()
+	}
+}
+
+// Unwrap lets http.ResponseController reach the wrapped writer's optional
+// interfaces (deadlines, close notify, ...).
+func (w *statusWriter) Unwrap() http.ResponseWriter { return w.ResponseWriter }
 
 // writeJSON mirrors TS writeHead(status, {'Content-Type': 'application/json'})
 // followed by res.end(body). net/http discards the body of HEAD responses

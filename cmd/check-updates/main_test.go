@@ -4,6 +4,9 @@ import (
 	"database/sql"
 	"encoding/json"
 	"errors"
+	"net/http"
+	"net/http/httptest"
+	"strings"
 	"testing"
 	"time"
 )
@@ -104,4 +107,45 @@ func TestCensusParsing(t *testing.T) {
 	if err := json.Unmarshal([]byte("nope"), &censusData{}); err == nil {
 		t.Fatal("expected parse error for invalid JSON")
 	}
+}
+
+// TestCheckPortal pins the reachability classification (301/302/403 tolerated,
+// other 4xx/5xx not) and that the returned error names the cause instead of
+// being collapsed to a bare false.
+func TestCheckPortal(t *testing.T) {
+	cases := []struct {
+		name        string
+		status      int
+		wantErr     bool
+		errContains string
+	}{
+		{"200 is reachable", http.StatusOK, false, ""},
+		{"403 bot-block is tolerated", http.StatusForbidden, false, ""},
+		{"301 without Location is tolerated", http.StatusMovedPermanently, false, ""},
+		{"500 names the status", http.StatusInternalServerError, true, "500"},
+	}
+	for _, tc := range cases {
+		t.Run(tc.name, func(t *testing.T) {
+			srv := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, _ *http.Request) {
+				w.WriteHeader(tc.status)
+			}))
+			defer srv.Close()
+			err := checkPortal(srv.Client(), srv.URL)
+			if (err != nil) != tc.wantErr {
+				t.Fatalf("checkPortal(%d) error = %v, wantErr %v", tc.status, err, tc.wantErr)
+			}
+			if tc.errContains != "" && !strings.Contains(err.Error(), tc.errContains) {
+				t.Fatalf("checkPortal(%d) error %q must name the status", tc.status, err)
+			}
+		})
+	}
+
+	t.Run("connection failure carries the cause", func(t *testing.T) {
+		srv := httptest.NewServer(http.HandlerFunc(func(http.ResponseWriter, *http.Request) {}))
+		srv.Close() // nothing listens anymore
+		err := checkPortal(srv.Client(), srv.URL)
+		if err == nil {
+			t.Fatal("expected error for a refused connection")
+		}
+	})
 }

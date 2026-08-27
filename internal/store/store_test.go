@@ -1,6 +1,7 @@
 package store_test
 
 import (
+	"context"
 	"crypto/sha256"
 	"database/sql"
 	"encoding/hex"
@@ -27,12 +28,12 @@ func mustDropTable(t *testing.T, db *sql.DB, table string) {
 
 func TestReadDbMetadata(t *testing.T) {
 	db := storetest.NewTestDb(t)
-	m := store.ReadDbMetadata(db)
+	m := store.ReadDbMetadata(context.Background(), db)
 	if m.Tier != "free" || m.SchemaVersion != "1.0" ||
 		m.BuiltAt != "2026-02-21T00:00:00Z" || !m.HasBuiltAt {
 		t.Fatalf("unexpected metadata: %+v", m)
 	}
-	if again := store.ReadDbMetadata(db); again != m {
+	if again := store.ReadDbMetadata(context.Background(), db); again != m {
 		t.Fatalf("metadata not cached per db: %+v vs %+v", again, m)
 	}
 }
@@ -40,7 +41,7 @@ func TestReadDbMetadata(t *testing.T) {
 func TestReadDbMetadataDefaultsWhenTableMissing(t *testing.T) {
 	db := storetest.NewTestDb(t)
 	mustDropTable(t, db, "db_metadata")
-	m := store.ReadDbMetadata(db)
+	m := store.ReadDbMetadata(context.Background(), db)
 	if m.Tier != "free" || m.SchemaVersion != "1.0" || m.HasBuiltAt || m.BuiltAt != "" {
 		t.Fatalf("expected free/1.0 defaults without built_at, got %+v", m)
 	}
@@ -51,11 +52,25 @@ func TestReadDbMetadataCacheIsolation(t *testing.T) {
 	withoutMeta := storetest.NewTestDb(t)
 	mustDropTable(t, withoutMeta, "db_metadata")
 
-	if m := store.ReadDbMetadata(withMeta); m.BuiltAt != "2026-02-21T00:00:00Z" {
+	if m := store.ReadDbMetadata(context.Background(), withMeta); m.BuiltAt != "2026-02-21T00:00:00Z" {
 		t.Fatalf("intact db lost its built_at: %+v", m)
 	}
-	if m := store.ReadDbMetadata(withoutMeta); m.HasBuiltAt {
+	if m := store.ReadDbMetadata(context.Background(), withoutMeta); m.HasBuiltAt {
 		t.Fatalf("cache leaked across *sql.DB handles: %+v", m)
+	}
+}
+
+// A failed read (here: a cancelled context) must return the defaults uncached
+// so a later call retries instead of pinning degraded metadata forever.
+func TestReadDbMetadataFailedReadNotCached(t *testing.T) {
+	db := storetest.NewTestDb(t)
+	cancelled, cancel := context.WithCancel(context.Background())
+	cancel()
+	if m := store.ReadDbMetadata(cancelled, db); m.HasBuiltAt {
+		t.Fatalf("failed read should return defaults, got %+v", m)
+	}
+	if m := store.ReadDbMetadata(context.Background(), db); m.BuiltAt != "2026-02-21T00:00:00Z" {
+		t.Fatalf("expected retry after failed read, got %+v", m)
 	}
 }
 
@@ -63,11 +78,11 @@ func TestReadDbMetadataCacheIsolation(t *testing.T) {
 
 func TestCoreTablesReady(t *testing.T) {
 	db := storetest.NewTestDb(t)
-	if !store.CoreTablesReady(db) {
+	if !store.CoreTablesReady(context.Background(), db) {
 		t.Fatal("expected core tables ready")
 	}
 	mustDropTable(t, db, "provisions_fts")
-	if store.CoreTablesReady(db) {
+	if store.CoreTablesReady(context.Background(), db) {
 		t.Fatal("expected not ready after dropping provisions_fts")
 	}
 
@@ -77,7 +92,7 @@ func TestCoreTablesReady(t *testing.T) {
 	}
 	empty.SetMaxOpenConns(1)
 	defer empty.Close()
-	if store.CoreTablesReady(empty) {
+	if store.CoreTablesReady(context.Background(), empty) {
 		t.Fatal("empty database should not be ready")
 	}
 }
@@ -86,19 +101,19 @@ func TestCoreTablesReady(t *testing.T) {
 
 func TestEUAvailable(t *testing.T) {
 	db := storetest.NewTestDb(t)
-	if !store.EUAvailable(db, "eu_references") {
+	if !store.EUAvailable(context.Background(), db, "eu_references") {
 		t.Fatal("eu_references should be available")
 	}
-	if !store.EUAvailable(db, "eu_documents") {
+	if !store.EUAvailable(context.Background(), db, "eu_documents") {
 		t.Fatal("eu_documents should be available")
 	}
 
 	missing := storetest.NewTestDb(t)
 	mustDropTable(t, missing, "eu_references")
-	if store.EUAvailable(missing, "eu_references") {
+	if store.EUAvailable(context.Background(), missing, "eu_references") {
 		t.Fatal("missing table should be unavailable")
 	}
-	if !store.EUAvailable(missing, "eu_documents") {
+	if !store.EUAvailable(context.Background(), missing, "eu_documents") {
 		t.Fatal("eu_documents should still be available")
 	}
 
@@ -109,7 +124,7 @@ func TestEUAvailable(t *testing.T) {
 	if _, err := empty.Exec("CREATE TABLE eu_references (id INTEGER)"); err != nil {
 		t.Fatal(err)
 	}
-	if !store.EUAvailable(empty, "eu_references") {
+	if !store.EUAvailable(context.Background(), empty, "eu_references") {
 		t.Fatal("existing-but-empty table should count as available")
 	}
 }
@@ -127,13 +142,13 @@ func TestEUUnavailableNote(t *testing.T) {
 
 func TestSafeCount(t *testing.T) {
 	db := storetest.NewTestDb(t)
-	if got := store.SafeCount(db, "SELECT COUNT(*) as count FROM legal_documents"); got != 4 {
+	if got := store.SafeCount(context.Background(), db, "SELECT COUNT(*) as count FROM legal_documents"); got != 4 {
 		t.Fatalf("legal_documents count = %d, want 4", got)
 	}
-	if got := store.SafeCount(db, "SELECT NULL as count"); got != 0 {
+	if got := store.SafeCount(context.Background(), db, "SELECT NULL as count"); got != 0 {
 		t.Fatalf("NULL count = %d, want 0", got)
 	}
-	if got := store.SafeCount(db, "SELECT COUNT(*) FROM no_such_table"); got != 0 {
+	if got := store.SafeCount(context.Background(), db, "SELECT COUNT(*) FROM no_such_table"); got != 0 {
 		t.Fatalf("error count = %d, want 0", got)
 	}
 }
@@ -141,13 +156,13 @@ func TestSafeCount(t *testing.T) {
 func TestCachedCount(t *testing.T) {
 	db := storetest.NewTestDb(t)
 	q := "SELECT COUNT(*) as count FROM legal_documents"
-	if got := store.CachedCount(db, q); got != 4 {
+	if got := store.CachedCount(context.Background(), db, q); got != 4 {
 		t.Fatalf("count = %d, want 4", got)
 	}
 	// Readonly-DB contract: the memoized value survives even though the
 	// underlying table is now gone (mirrors the TS WeakMap memoization).
 	mustDropTable(t, db, "legal_documents")
-	if got := store.CachedCount(db, q); got != 4 {
+	if got := store.CachedCount(context.Background(), db, q); got != 4 {
 		t.Fatalf("memoized count = %d, want 4", got)
 	}
 
@@ -155,8 +170,50 @@ func TestCachedCount(t *testing.T) {
 	// its own (0), not reuse the first db's 4.
 	other := storetest.NewTestDb(t)
 	mustDropTable(t, other, "legal_documents")
-	if got := store.CachedCount(other, q); got != 0 {
+	if got := store.CachedCount(context.Background(), other, q); got != 0 {
 		t.Fatalf("second db count = %d, want 0 (cache leaked across dbs?)", got)
+	}
+}
+
+// --- openReadOnly ------------------------------------------------------------
+
+// The DSN is built with net/url: '?' and '#' in the path must round-trip to
+// the real filename instead of splitting off query/fragment DSN parameters.
+func TestOpenReadOnlySpecialCharsInPath(t *testing.T) {
+	dir := t.TempDir()
+	plain := filepath.Join(dir, "plain.db")
+	db, err := sql.Open("sqlite", plain)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if _, err := db.Exec(`CREATE TABLE legal_documents (id TEXT)`); err != nil {
+		t.Fatal(err)
+	}
+	if _, err := db.Exec(`INSERT INTO legal_documents (id) VALUES ('doc-in-force')`); err != nil {
+		t.Fatal(err)
+	}
+	if err := db.Close(); err != nil {
+		t.Fatal(err)
+	}
+
+	// Built at a boring path, then renamed: a plain DSN could not even express
+	// this filename (the driver splits non-file: DSNs at the first '?').
+	weird := filepath.Join(dir, "law?#1.db")
+	if err := os.Rename(plain, weird); err != nil {
+		t.Fatal(err)
+	}
+
+	ro, err := store.OpenReadOnly(weird)
+	if err != nil {
+		t.Fatal(err)
+	}
+	defer ro.Close()
+	var n int
+	if err := ro.QueryRowContext(context.Background(), "SELECT COUNT(*) as count FROM legal_documents").Scan(&n); err != nil {
+		t.Fatal(err)
+	}
+	if n != 1 {
+		t.Fatalf("legal_documents count = %d, want 1 (DSN did not round-trip the path)", n)
 	}
 }
 
@@ -179,7 +236,7 @@ func TestResolveDbPathError(t *testing.T) {
 	if err == nil {
 		t.Fatal("expected error when no candidate exists")
 	}
-	want := "Database not found. Set HUNGARIAN_LAW_DB_PATH or place database.db in data/"
+	want := "database not found; set HUNGARIAN_LAW_DB_PATH or place database.db in data/"
 	if err.Error() != want {
 		t.Fatalf("error = %q, want %q", err.Error(), want)
 	}
@@ -238,7 +295,7 @@ func TestDbFingerprintMissingFileErrors(t *testing.T) {
 
 func TestDbBuiltOrMtimePrefersBuiltAt(t *testing.T) {
 	db := storetest.NewTestDb(t)
-	if got := store.DbBuiltOrMtime(db, t.TempDir()); got != "2026-02-21T00:00:00Z" {
+	if got := store.DbBuiltOrMtime(context.Background(), db, t.TempDir()); got != "2026-02-21T00:00:00Z" {
 		t.Fatalf("built_at = %q, want 2026-02-21T00:00:00Z", got)
 	}
 }
@@ -256,7 +313,7 @@ func TestDbBuiltOrMtimeFallsBackToMtime(t *testing.T) {
 		t.Fatal(err)
 	}
 	want := st.ModTime().UTC().Format(isoMillis)
-	if got := store.DbBuiltOrMtime(db, path); got != want {
+	if got := store.DbBuiltOrMtime(context.Background(), db, path); got != want {
 		t.Fatalf("mtime fallback = %q, want %q", got, want)
 	}
 }
@@ -264,7 +321,7 @@ func TestDbBuiltOrMtimeFallsBackToMtime(t *testing.T) {
 func TestDbBuiltOrMtimeFallsBackToNowWhenStatFails(t *testing.T) {
 	db := storetest.NewTestDb(t)
 	mustDropTable(t, db, "db_metadata")
-	got := store.DbBuiltOrMtime(db, filepath.Join(t.TempDir(), "missing.db"))
+	got := store.DbBuiltOrMtime(context.Background(), db, filepath.Join(t.TempDir(), "missing.db"))
 	if !regexp.MustCompile(`^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z$`).MatchString(got) {
 		t.Fatalf("now fallback = %q, want JS toISOString shape", got)
 	}
@@ -282,13 +339,13 @@ func TestRealDatabase(t *testing.T) {
 	}
 	defer db.Close()
 
-	if !store.CoreTablesReady(db) {
+	if !store.CoreTablesReady(context.Background(), db) {
 		t.Fatal("real database should have all core tables")
 	}
-	if n := store.SafeCount(db, "SELECT COUNT(*) as count FROM legal_documents"); n <= 0 {
+	if n := store.SafeCount(context.Background(), db, "SELECT COUNT(*) as count FROM legal_documents"); n <= 0 {
 		t.Fatalf("real legal_documents count = %d, want > 0", n)
 	}
-	m := store.ReadDbMetadata(db)
+	m := store.ReadDbMetadata(context.Background(), db)
 	if m.Tier == "" || m.SchemaVersion == "" {
 		t.Fatalf("real database metadata missing defaults: %+v", m)
 	}

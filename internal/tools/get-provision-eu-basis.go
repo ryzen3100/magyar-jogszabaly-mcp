@@ -4,8 +4,8 @@
 package tools
 
 import (
+	"context"
 	"database/sql"
-	"encoding/json"
 	"errors"
 	"fmt"
 	"strings"
@@ -32,51 +32,56 @@ type provisionEuBasisResult struct {
 }
 
 // GetProvisionEUBasis implements the get_provision_eu_basis MCP tool.
-func GetProvisionEUBasis(db *sql.DB, rawArgs json.RawMessage) (any, ResponseMetadata, error) {
-	var args getProvisionEUBasisArgs
-	if len(rawArgs) > 0 {
-		if err := json.Unmarshal(rawArgs, &args); err != nil {
-			return nil, ResponseMetadata{}, err
-		}
+func GetProvisionEUBasis(ctx context.Context, db *sql.DB, args map[string]any) (any, ResponseMetadata, error) {
+	var parsed getProvisionEUBasisArgs
+	if err := decodeArgs(args, &parsed); err != nil {
+		return nil, ResponseMetadata{}, err
 	}
-	if args.DocumentID == nil {
+	if parsed.DocumentID == nil {
 		return nil, ResponseMetadata{}, fmt.Errorf("missing required argument %q", "document_id")
 	}
-	if args.ProvisionRef == nil {
+	if parsed.ProvisionRef == nil {
 		return nil, ResponseMetadata{}, fmt.Errorf("missing required argument %q", "provision_ref")
+	}
+	if err := validateArgs(
+		checkMaxLength("document_id", parsed.DocumentID, maxDocumentIDLength),
+		checkMaxLength("provision_ref", parsed.ProvisionRef, maxRefLength),
+	); err != nil {
+		return nil, ResponseMetadata{}, err
 	}
 
 	// Order of checks: resolve document → EU probe → provision lookup. Both
 	// the unresolved-document and missing-provision paths yield empty results
 	// with NO note; only a failed EU probe adds the tier note.
-	resolvedID, err := statute.ResolveDocumentId(db, *args.DocumentID)
+	resolvedID, err := statute.ResolveDocumentId(ctx, db, *parsed.DocumentID)
 	if err != nil {
-		return nil, ResponseMetadata{}, err
+		return nil, ResponseMetadata{}, fmt.Errorf("resolve document: %w", err)
 	}
 	if resolvedID == "" {
-		return []provisionEuBasisResult{}, GenerateResponseMetadata(db), nil
+		return []provisionEuBasisResult{}, GenerateResponseMetadata(ctx, db), nil
 	}
 
-	if !store.EUAvailable(db, "eu_references") {
-		meta := GenerateResponseMetadata(db)
+	if !store.EUAvailable(ctx, db, "eu_references") {
+		meta := GenerateResponseMetadata(ctx, db)
 		meta.Note = store.EUUnavailableNote("eu_references")
 		return []provisionEuBasisResult{}, meta, nil
 	}
 
-	ref := strings.TrimSpace(*args.ProvisionRef)
+	ref := strings.TrimSpace(*parsed.ProvisionRef)
 	var provisionID int64
-	err = db.QueryRow(
+	err = db.QueryRowContext(
+		ctx,
 		"SELECT id FROM legal_provisions WHERE document_id = ? AND (provision_ref = ? OR provision_ref = ? OR section = ?)",
 		resolvedID, ref, "s"+ref, ref,
 	).Scan(&provisionID)
 	if errors.Is(err, sql.ErrNoRows) {
-		return []provisionEuBasisResult{}, GenerateResponseMetadata(db), nil
+		return []provisionEuBasisResult{}, GenerateResponseMetadata(ctx, db), nil
 	}
 	if err != nil {
-		return nil, ResponseMetadata{}, err
+		return nil, ResponseMetadata{}, fmt.Errorf("query provision: %w", err)
 	}
 
-	rows, err := db.Query(`
+	rows, err := db.QueryContext(ctx, `
 		SELECT
 		  er.eu_document_id,
 		  ed.type as eu_document_type,
@@ -90,7 +95,7 @@ func GetProvisionEUBasis(db *sql.DB, rawArgs json.RawMessage) (any, ResponseMeta
 		WHERE er.provision_id = ?
 		ORDER BY er.reference_type, er.eu_document_id`, provisionID)
 	if err != nil {
-		return nil, ResponseMetadata{}, err
+		return nil, ResponseMetadata{}, fmt.Errorf("query eu references: %w", err)
 	}
 	defer rows.Close()
 
@@ -106,7 +111,7 @@ func GetProvisionEUBasis(db *sql.DB, rawArgs json.RawMessage) (any, ResponseMeta
 		)
 		if err := rows.Scan(&r.EuDocumentID, &docType, &title, &article,
 			&r.ReferenceType, &referenceCtx, &fullCitation); err != nil {
-			return nil, ResponseMetadata{}, err
+			return nil, ResponseMetadata{}, fmt.Errorf("scan eu reference: %w", err)
 		}
 		if docType.Valid {
 			r.EuDocumentType = &docType.String
@@ -126,8 +131,8 @@ func GetProvisionEUBasis(db *sql.DB, rawArgs json.RawMessage) (any, ResponseMeta
 		results = append(results, r)
 	}
 	if err := rows.Err(); err != nil {
-		return nil, ResponseMetadata{}, err
+		return nil, ResponseMetadata{}, fmt.Errorf("scan eu references: %w", err)
 	}
 
-	return results, GenerateResponseMetadata(db), nil
+	return results, GenerateResponseMetadata(ctx, db), nil
 }

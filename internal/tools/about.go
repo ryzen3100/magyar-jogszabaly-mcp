@@ -4,6 +4,7 @@
 package tools
 
 import (
+	"context"
 	"database/sql"
 	"errors"
 
@@ -77,21 +78,25 @@ type aboutResult struct {
 	Network      aboutNetwork      `json:"network"`
 }
 
+// errAboutNotConfigured answers an about call when no AboutContext is
+// configured; the dispatcher surfaces it verbatim as the tool-result text.
+var errAboutNotConfigured = errors.New("about tool not configured")
+
 // GetAbout implements the about MCP tool.
-func GetAbout(db *sql.DB, about *AboutContext) (any, ResponseMetadata, error) {
+func GetAbout(ctx context.Context, db *sql.DB, about *AboutContext) (any, ResponseMetadata, error) {
 	if about == nil {
-		return nil, ResponseMetadata{}, errors.New("About tool not configured.")
+		return nil, ResponseMetadata{}, errAboutNotConfigured
 	}
 
-	euRefs := store.CachedCount(db, "SELECT COUNT(*) as count FROM eu_references")
+	euRefs := store.CachedCount(ctx, db, "SELECT COUNT(*) as count FROM eu_references")
 
 	stats := aboutStats{
-		Documents:   store.CachedCount(db, "SELECT COUNT(*) as count FROM legal_documents"),
-		Provisions:  store.CachedCount(db, "SELECT COUNT(*) as count FROM legal_provisions"),
-		Definitions: store.CachedCount(db, "SELECT COUNT(*) as count FROM definitions"),
+		Documents:   store.CachedCount(ctx, db, "SELECT COUNT(*) as count FROM legal_documents"),
+		Provisions:  store.CachedCount(ctx, db, "SELECT COUNT(*) as count FROM legal_provisions"),
+		Definitions: store.CachedCount(ctx, db, "SELECT COUNT(*) as count FROM definitions"),
 	}
 	if euRefs > 0 {
-		euDocuments := store.CachedCount(db, "SELECT COUNT(*) as count FROM eu_documents")
+		euDocuments := store.CachedCount(ctx, db, "SELECT COUNT(*) as count FROM eu_documents")
 		stats.EuDocuments = &euDocuments
 		stats.EuReferences = &euRefs
 	}
@@ -116,5 +121,5 @@ func GetAbout(db *sql.DB, about *AboutContext) (any, ResponseMetadata, error) {
 			OpenLaw:   "https://ansvar.eu/open-law",
 			Directory: "https://ansvar.ai/mcp",
 		},
-	}, GenerateResponseMetadata(db), nil
+	}, GenerateResponseMetadata(ctx, db), nil
 }

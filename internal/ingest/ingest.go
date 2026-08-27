@@ -10,7 +10,7 @@ import (
 	"os"
 	"path/filepath"
 	"regexp"
-	"sort"
+	"slices"
 	"strconv"
 	"strings"
 
@@ -65,18 +65,22 @@ func (p *Pipeline) printf(format string, args ...any) {
 }
 
 // resolveURL rewrites njt.hu URLs to the pipeline's base origin so the whole
-// flow can be pointed at a mirror/test server.
+// flow can be pointed at a mirror/test server. URLs that are neither on
+// njt.hu nor on the configured base origin return "" so a hostile act URL
+// cannot send the fetcher off-origin; callers treat "" as a rejection.
 func (p *Pipeline) resolveURL(rawURL string) string {
 	u, err := url.Parse(rawURL)
-	if err != nil || u.Host != "njt.hu" {
-		return rawURL
+	base, baseErr := url.Parse(p.BaseURL)
+	if err != nil || baseErr != nil {
+		return ""
 	}
-	base, err := url.Parse(p.BaseURL)
-	if err != nil {
-		return rawURL
+	if u.Host == "njt.hu" {
+		u.Scheme = base.Scheme
+		u.Host = base.Host
 	}
-	u.Scheme = base.Scheme
-	u.Host = base.Host
+	if u.Scheme != base.Scheme || u.Host != base.Host {
+		return ""
+	}
 	return u.String()
 }
 
@@ -256,7 +260,7 @@ func ExtractDeferredBlockStarts(html string) []int {
 		}
 		starts = append(starts, n)
 	}
-	sort.Ints(starts)
+	slices.Sort(starts)
 	return starts
 }
 
@@ -339,6 +343,10 @@ func ParseSourceCacheKey(act ActIndexEntry) string {
 	return act.ID
 }
 
+// cacheKeyPattern is the filename alphabet allowed for cache/seed stems;
+// anything else is rejected before it reaches the filesystem.
+var cacheKeyPattern = regexp.MustCompile(`^[A-Za-z0-9._-]+$`)
+
 func loadExistingSeedCounts(seedFile string) (provisions, definitions int, err error) {
 	data, err := os.ReadFile(seedFile)
 	if err != nil {
@@ -392,25 +400,45 @@ func (p *Pipeline) FetchAndParseActs(ctx context.Context, acts []ActIndexEntry, 
 
 	for _, act := range acts {
 		name := label(act)
-		sourceFile := filepath.Join(p.SourceDir, ParseSourceCacheKey(act)+".html")
+		cacheKey := ParseSourceCacheKey(act)
 		seedFile := filepath.Join(p.SeedDir, act.ID+".json")
+
+		// Filename stems are validated before any filepath use: a hostile
+		// act URL must not steer cache/seed paths outside the data dirs.
+		if !cacheKeyPattern.MatchString(cacheKey) || !cacheKeyPattern.MatchString(act.ID) {
+			log(
+				fmt.Sprintf("  ERROR %s: unsafe filename stem (act %q, cache key %q)", name, act.ID, cacheKey),
+				fmt.Sprintf("  %s %s -> ERROR: unsafe filename stem", progress(), name),
+			)
+			results = append(results, ingestionRow{act: name, status: "ERROR: unsafe filename stem"})
+			failed++
+			processed++
+			continue
+		}
 
 		if resume {
 			if _, err := os.Stat(seedFile); err == nil {
-				provisions, definitions, err := loadExistingSeedCounts(seedFile)
-				if err != nil {
-					return err
+				provisions, definitions, countsErr := loadExistingSeedCounts(seedFile)
+				if countsErr != nil {
+					// A corrupt cached seed must not abort the whole
+					// --resume run; re-fetch that act instead.
+					log(
+						fmt.Sprintf("  WARNING: cached seed for %s is unreadable (%v), re-fetching", name, countsErr),
+						fmt.Sprintf("  %s %s -> cached seed unreadable, re-fetching", progress(), name),
+					)
+				} else {
+					totalProvisions += provisions
+					totalDefinitions += definitions
+					results = append(results, ingestionRow{act: name, provisions: provisions, definitions: definitions, status: "cached"})
+					cached++
+					processed++
+					continue
 				}
-				totalProvisions += provisions
-				totalDefinitions += definitions
-				results = append(results, ingestionRow{act: name, provisions: provisions, definitions: definitions, status: "cached"})
-				cached++
-				processed++
-				continue
 			}
 		}
 
 		err := func() error {
+			sourceFile := filepath.Join(p.SourceDir, cacheKey+".html")
 			var html string
 
 			if skipFetch {
@@ -421,8 +449,12 @@ func (p *Pipeline) FetchAndParseActs(ctx context.Context, acts []ActIndexEntry, 
 			}
 
 			if html == "" {
+				fetchURL := p.resolveURL(act.URL)
+				if fetchURL == "" {
+					return fmt.Errorf("act url %q is not on origin %s", act.URL, p.BaseURL)
+				}
 				log(fmt.Sprintf("  Fetching %s (%s)...", name, act.URL), fmt.Sprintf("  %s %s ...", progress(), name))
-				result, fetchErr := p.Fetcher.Fetch(ctx, p.resolveURL(act.URL), nil)
+				result, fetchErr := p.Fetcher.Fetch(ctx, fetchURL, nil)
 				if fetchErr != nil {
 					return fetchErr
 				}
@@ -434,7 +466,7 @@ func (p *Pipeline) FetchAndParseActs(ctx context.Context, acts []ActIndexEntry, 
 				}
 
 				html = result.Body
-				if err := os.WriteFile(sourceFile, []byte(html), 0o644); err != nil {
+				if err := writeFileAtomic(sourceFile, []byte(html), 0o644); err != nil {
 					return err
 				}
 
@@ -550,7 +582,10 @@ func (p *Pipeline) FetchAndParseActs(ctx context.Context, acts []ActIndexEntry, 
 			}
 		}
 	}
-	p.printf("")
+	p.printf("\n")
+	if failed > 0 {
+		return fmt.Errorf("%d of %d acts failed", failed, len(acts))
+	}
 	return nil
 }
 

@@ -1,6 +1,7 @@
 package store
 
 import (
+	"context"
 	"crypto/sha256"
 	"database/sql"
 	"encoding/hex"
@@ -37,7 +38,7 @@ func ResolveDbPath() (string, error) {
 			}
 		}
 	}
-	return "", fmt.Errorf("Database not found. Set %s or place database.db in data/", dbEnvVar)
+	return "", fmt.Errorf("database not found; set %s or place database.db in data/", dbEnvVar)
 }
 
 // DbFingerprint computes the sampled sha256 fingerprint of the database file:
@@ -64,8 +65,8 @@ func DbFingerprint(path string) (string, error) {
 // mtime as a JavaScript-style ISO string — buildAboutContext in
 // src/db-info.ts. If the file cannot be stat'ed it falls back to now,
 // mirroring the non-fatal catch in computeDbFingerprint.
-func DbBuiltOrMtime(db *sql.DB, path string) string {
-	if m := ReadDbMetadata(db); m.HasBuiltAt {
+func DbBuiltOrMtime(ctx context.Context, db *sql.DB, path string) string {
+	if m := ReadDbMetadata(ctx, db); m.HasBuiltAt {
 		return m.BuiltAt
 	}
 	if st, err := os.Stat(path); err == nil {

@@ -1,7 +1,7 @@
 package tools
 
 import (
-	"encoding/json"
+	"context"
 	"strings"
 	"testing"
 
@@ -69,7 +69,7 @@ func TestValidateCitationParseFailure(t *testing.T) {
 func TestValidateCitationUnknownDocument(t *testing.T) {
 	db := storetest.NewTestDb(t)
 
-	results, meta, err := ValidateCitation(db, json.RawMessage(`{"citation": "Section 1 Missing Act"}`))
+	results, meta, err := ValidateCitation(context.Background(), db, testArgs(t, `{"citation": "Section 1 Missing Act"}`))
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -124,7 +124,7 @@ func TestValidateCitationSectionWord(t *testing.T) {
 func TestValidateCitationProvisionNotFound(t *testing.T) {
 	db := storetest.NewTestDb(t)
 
-	results, _, err := ValidateCitation(db, json.RawMessage(`{"citation": "Section 999 In Force Act"}`))
+	results, _, err := ValidateCitation(context.Background(), db, testArgs(t, `{"citation": "Section 999 In Force Act"}`))
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -167,7 +167,7 @@ func TestValidateCitationStatusWarnings(t *testing.T) {
 func TestValidateCitationStatusWarningBeforeProvisionCheck(t *testing.T) {
 	db := storetest.NewTestDb(t)
 
-	results, _, err := ValidateCitation(db, json.RawMessage(`{"citation": "Repealed Act s 99"}`))
+	results, _, err := ValidateCitation(context.Background(), db, testArgs(t, `{"citation": "Repealed Act s 99"}`))
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -192,7 +192,7 @@ func TestValidateCitationStatusWarningBeforeProvisionCheck(t *testing.T) {
 func TestValidateCitationMissingRequiredArg(t *testing.T) {
 	db := storetest.NewTestDb(t)
 
-	_, _, err := ValidateCitation(db, json.RawMessage(`{}`))
+	_, _, err := ValidateCitation(context.Background(), db, testArgs(t, `{}`))
 	if err == nil || err.Error() != `missing required argument "citation"` {
 		t.Errorf("err = %v, want missing required argument", err)
 	}

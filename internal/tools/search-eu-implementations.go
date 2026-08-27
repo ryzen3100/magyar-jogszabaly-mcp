@@ -4,9 +4,9 @@
 package tools
 
 import (
+	"context"
 	"database/sql"
-	"encoding/json"
-	"math"
+	"fmt"
 
 	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/store"
 )
@@ -33,26 +33,30 @@ type euImplementationSearchResult struct {
 }
 
 // SearchEUImplementations implements the search_eu_implementations MCP tool.
-func SearchEUImplementations(db *sql.DB, rawArgs json.RawMessage) (any, ResponseMetadata, error) {
-	var args searchEUImplementationsArgs
-	if len(rawArgs) > 0 {
-		if err := json.Unmarshal(rawArgs, &args); err != nil {
-			return nil, ResponseMetadata{}, err
-		}
+func SearchEUImplementations(ctx context.Context, db *sql.DB, args map[string]any) (any, ResponseMetadata, error) {
+	var parsed searchEUImplementationsArgs
+	if err := decodeArgs(args, &parsed); err != nil {
+		return nil, ResponseMetadata{}, err
+	}
+	if err := validateArgs(
+		checkMaxLength("query", parsed.Query, maxQueryLength),
+		checkEnum("type", parsed.Type, euTypeEnumValues...),
+	); err != nil {
+		return nil, ResponseMetadata{}, err
 	}
 
 	// Probes eu_documents (not eu_references) — note the different word.
-	if !store.EUAvailable(db, "eu_documents") {
-		meta := GenerateResponseMetadata(db)
+	if !store.EUAvailable(ctx, db, "eu_documents") {
+		meta := GenerateResponseMetadata(ctx, db)
 		meta.Note = store.EUUnavailableNote("eu_documents")
 		return []euImplementationSearchResult{}, meta, nil
 	}
 
 	limit := 20.0
-	if args.Limit != nil {
-		limit = *args.Limit
+	if parsed.Limit != nil {
+		limit = *parsed.Limit
 	}
-	clampedLimit := int(math.Min(math.Max(limit, 1), 100))
+	clampedLimit := int(min(max(limit, 1), 100))
 
 	query := `
 		SELECT
@@ -70,37 +74,38 @@ func SearchEUImplementations(db *sql.DB, rawArgs json.RawMessage) (any, Response
 
 	// Truthiness guards mirror the TS falsy checks: an empty query/type or a
 	// 0 year bound adds no filter (year 0 is never a real year).
-	if args.Query != nil && *args.Query != "" {
-		// Plain LIKE, no LOWER — case behaviour follows the database.
-		query += " AND (ed.title LIKE ? OR ed.short_name LIKE ? OR ed.description LIKE ?)"
-		pattern := "%" + *args.Query + "%"
+	if parsed.Query != nil && *parsed.Query != "" {
+		// Plain LIKE, no LOWER — case behaviour follows the database. User
+		// wildcards are escaped so the pattern matches literally.
+		query += " AND (ed.title LIKE ? ESCAPE '\\' OR ed.short_name LIKE ? ESCAPE '\\' OR ed.description LIKE ? ESCAPE '\\')"
+		pattern := "%" + escapeLike(*parsed.Query) + "%"
 		params = append(params, pattern, pattern, pattern)
 	}
-	if args.Type != nil && *args.Type != "" {
+	if parsed.Type != nil && *parsed.Type != "" {
 		query += " AND ed.type = ?"
-		params = append(params, *args.Type)
+		params = append(params, *parsed.Type)
 	}
-	if args.YearFrom != nil && *args.YearFrom != 0 {
+	if parsed.YearFrom != nil && *parsed.YearFrom != 0 {
 		query += " AND ed.year >= ?"
-		params = append(params, *args.YearFrom)
+		params = append(params, *parsed.YearFrom)
 	}
-	if args.YearTo != nil && *args.YearTo != 0 {
+	if parsed.YearTo != nil && *parsed.YearTo != 0 {
 		query += " AND ed.year <= ?"
-		params = append(params, *args.YearTo)
+		params = append(params, *parsed.YearTo)
 	}
 
 	query += " GROUP BY ed.id"
 
-	if args.HasHungarianImplementation != nil && *args.HasHungarianImplementation {
+	if parsed.HasHungarianImplementation != nil && *parsed.HasHungarianImplementation {
 		query += " HAVING hungarian_statute_count > 0"
 	}
 
 	query += " ORDER BY ed.year DESC, ed.number DESC LIMIT ?"
 	params = append(params, clampedLimit)
 
-	rows, err := db.Query(query, params...)
+	rows, err := db.QueryContext(ctx, query, params...)
 	if err != nil {
-		return nil, ResponseMetadata{}, err
+		return nil, ResponseMetadata{}, fmt.Errorf("query eu documents: %w", err)
 	}
 	defer rows.Close()
 
@@ -113,7 +118,7 @@ func SearchEUImplementations(db *sql.DB, rawArgs json.RawMessage) (any, Response
 		)
 		if err := rows.Scan(&r.EuDocumentID, &r.Type, &r.Year, &r.Number,
 			&title, &shortName, &r.HungarianStatuteCount); err != nil {
-			return nil, ResponseMetadata{}, err
+			return nil, ResponseMetadata{}, fmt.Errorf("scan eu document: %w", err)
 		}
 		if title.Valid {
 			r.Title = &title.String
@@ -124,8 +129,8 @@ func SearchEUImplementations(db *sql.DB, rawArgs json.RawMessage) (any, Response
 		results = append(results, r)
 	}
 	if err := rows.Err(); err != nil {
-		return nil, ResponseMetadata{}, err
+		return nil, ResponseMetadata{}, fmt.Errorf("scan eu documents: %w", err)
 	}
 
-	return results, GenerateResponseMetadata(db), nil
+	return results, GenerateResponseMetadata(ctx, db), nil
 }

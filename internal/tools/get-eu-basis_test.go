@@ -5,6 +5,7 @@ package tools_test
 // tools_test package live at the top of this file.
 
 import (
+	"context"
 	"database/sql"
 	"encoding/json"
 	"slices"
@@ -16,6 +17,17 @@ import (
 )
 
 // --- helpers shared by the tools_test package -------------------------------
+
+// argsMap decodes a JSON object literal into the argument map the tools
+// Handler contract carries, so tests keep writing arguments as JSON strings.
+func argsMap(t *testing.T, raw string) map[string]any {
+	t.Helper()
+	var m map[string]any
+	if err := json.Unmarshal([]byte(raw), &m); err != nil {
+		t.Fatalf("bad test args %s: %v", raw, err)
+	}
+	return m
+}
 
 // euDropTable drops a table from the fixture db (the Go equivalent of
 // createTestDb({withEuTables:false})).
@@ -123,7 +135,7 @@ func euWantErr(t *testing.T, err error, want string) {
 func TestGetEUBasisUnresolvedDocument(t *testing.T) {
 	db := storetest.NewTestDb(t)
 
-	results, meta, err := tools.GetEUBasis(db, json.RawMessage(`{"document_id":"missing-doc"}`))
+	results, meta, err := tools.GetEUBasis(context.Background(), db, argsMap(t, `{"document_id":"missing-doc"}`))
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -148,7 +160,7 @@ func TestGetEUBasisEUTablesUnavailable(t *testing.T) {
 	db := storetest.NewTestDb(t)
 	euDropTable(t, db, "eu_references")
 
-	results, meta, err := tools.GetEUBasis(db, json.RawMessage(`{"document_id":"doc-inforce"}`))
+	results, meta, err := tools.GetEUBasis(context.Background(), db, argsMap(t, `{"document_id":"doc-inforce"}`))
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -160,7 +172,7 @@ func TestGetEUBasisEUTablesUnavailable(t *testing.T) {
 func TestGetEUBasisFiltersAndArticleExpansion(t *testing.T) {
 	db := storetest.NewTestDb(t)
 
-	results, _, err := tools.GetEUBasis(db, json.RawMessage(
+	results, _, err := tools.GetEUBasis(context.Background(), db, argsMap(t,
 		`{"document_id":"doc-inforce","include_articles":true,"reference_types":["implements"]}`))
 	if err != nil {
 		t.Fatal(err)
@@ -192,7 +204,7 @@ func TestGetEUBasisArticlesOmittedUnlessRequested(t *testing.T) {
 	db := storetest.NewTestDb(t)
 
 	// Without include_articles the key must be absent from the wire.
-	results, meta, err := tools.GetEUBasis(db, json.RawMessage(`{"document_id":"doc-inforce"}`))
+	results, meta, err := tools.GetEUBasis(context.Background(), db, argsMap(t, `{"document_id":"doc-inforce"}`))
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -206,7 +218,7 @@ func TestGetEUBasisArticlesOmittedUnlessRequested(t *testing.T) {
 
 	// With include_articles every row carries the key — [] when the document
 	// has no non-NULL articles (doc-amended's two refs have NULL articles).
-	results, meta, err = tools.GetEUBasis(db, json.RawMessage(
+	results, meta, err = tools.GetEUBasis(context.Background(), db, argsMap(t,
 		`{"document_id":"doc-amended","include_articles":true}`))
 	if err != nil {
 		t.Fatal(err)
@@ -228,7 +240,7 @@ func TestGetEUBasisArticleExpansionSkipsNullsAndDedups(t *testing.T) {
 		}
 	}
 
-	results, _, err := tools.GetEUBasis(db, json.RawMessage(
+	results, _, err := tools.GetEUBasis(context.Background(), db, argsMap(t,
 		`{"document_id":"doc-inforce","include_articles":true}`))
 	if err != nil {
 		t.Fatal(err)
@@ -247,7 +259,7 @@ func TestGetEUBasisArticleExpansionSkipsNullsAndDedups(t *testing.T) {
 func TestGetEUBasisReferenceTypesFilter(t *testing.T) {
 	db := storetest.NewTestDb(t)
 
-	results, _, err := tools.GetEUBasis(db, json.RawMessage(
+	results, _, err := tools.GetEUBasis(context.Background(), db, argsMap(t,
 		`{"document_id":"doc-amended","reference_types":["references"]}`))
 	if err != nil {
 		t.Fatal(err)
@@ -256,7 +268,7 @@ func TestGetEUBasisReferenceTypesFilter(t *testing.T) {
 		t.Fatalf("rows = %d, want 2", len(rows))
 	}
 
-	results, _, err = tools.GetEUBasis(db, json.RawMessage(
+	results, _, err = tools.GetEUBasis(context.Background(), db, argsMap(t,
 		`{"document_id":"doc-amended","reference_types":["implements","references"]}`))
 	if err != nil {
 		t.Fatal(err)
@@ -265,7 +277,7 @@ func TestGetEUBasisReferenceTypesFilter(t *testing.T) {
 		t.Fatalf("rows = %d, want 2 (IN filter)", len(rows))
 	}
 
-	results, _, err = tools.GetEUBasis(db, json.RawMessage(
+	results, _, err = tools.GetEUBasis(context.Background(), db, argsMap(t,
 		`{"document_id":"doc-amended","reference_types":["implements"]}`))
 	if err != nil {
 		t.Fatal(err)
@@ -278,8 +290,8 @@ func TestGetEUBasisReferenceTypesFilter(t *testing.T) {
 func TestGetEUBasisMissingArgument(t *testing.T) {
 	db := storetest.NewTestDb(t)
 
-	for _, raw := range []json.RawMessage{nil, json.RawMessage(`{}`)} {
-		_, _, err := tools.GetEUBasis(db, raw)
+	for _, args := range []map[string]any{nil, argsMap(t, `{}`)} {
+		_, _, err := tools.GetEUBasis(context.Background(), db, args)
 		euWantErr(t, err, `missing required argument "document_id"`)
 	}
 }
@@ -288,7 +300,7 @@ func TestGetEUBasisClosedDB(t *testing.T) {
 	db := storetest.NewTestDb(t)
 	db.Close() // resolve-first tool → the closed DB surfaces as an error
 
-	if _, _, err := tools.GetEUBasis(db, json.RawMessage(`{"document_id":"doc-inforce"}`)); err == nil {
+	if _, _, err := tools.GetEUBasis(context.Background(), db, argsMap(t, `{"document_id":"doc-inforce"}`)); err == nil {
 		t.Fatal("expected error on closed db")
 	}
 }

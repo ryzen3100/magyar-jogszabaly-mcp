@@ -1,6 +1,7 @@
 package tools
 
 import (
+	"context"
 	"strings"
 	"testing"
 
@@ -113,7 +114,7 @@ func TestFormatCitationStructuredResolvesDbTitle(t *testing.T) {
 func TestFormatCitationMissingRequiredArg(t *testing.T) {
 	db := storetest.NewTestDb(t)
 
-	_, _, err := FormatCitation(db, []byte(`{}`))
+	_, _, err := FormatCitation(context.Background(), db, testArgs(t, `{}`))
 	if err == nil || err.Error() != `missing required argument "citation"` {
 		t.Errorf("err = %v, want missing required argument", err)
 	}

@@ -74,23 +74,26 @@ func TestHTMLToText(t *testing.T) {
 
 func TestParseSectionKeyFromBlockID(t *testing.T) {
 	tests := []struct {
+		name    string
 		blockID string
 		want    string
 	}{
-		{"SZ422", "422"},
-		{"SZ422A", "422A"},
-		{"SZ422@1", "422"},
-		{"SZ422@valami@2", "422"},
-		{"SZ1_B1", ""},
-		{"X1", ""},
-		{"SZ", ""},
-		{"SZABC", ""},
-		{"", ""},
+		{"digits", "SZ422", "422"},
+		{"digits and letter", "SZ422A", "422A"},
+		{"at suffix", "SZ422@1", "422"},
+		{"multiple at signs", "SZ422@valami@2", "422"},
+		{"underscore block", "SZ1_B1", ""},
+		{"missing SZ prefix", "X1", ""},
+		{"SZ only", "SZ", ""},
+		{"letters only", "SZABC", ""},
+		{"empty", "", ""},
 	}
 	for _, tt := range tests {
-		if got := parseSectionKeyFromBlockID(tt.blockID); got != tt.want {
-			t.Errorf("parseSectionKeyFromBlockID(%q) = %q, want %q", tt.blockID, got, tt.want)
-		}
+		t.Run(tt.name, func(t *testing.T) {
+			if got := parseSectionKeyFromBlockID(tt.blockID); got != tt.want {
+				t.Errorf("parseSectionKeyFromBlockID(%q) = %q, want %q", tt.blockID, got, tt.want)
+			}
+		})
 	}
 }
 
@@ -104,13 +107,15 @@ func TestSectionKeyRoundTrip(t *testing.T) {
 		{"1/B", "1B"},
 	}
 	for _, tt := range tests {
-		key := sectionToKey(tt.section)
-		if key != tt.wantKey {
-			t.Errorf("sectionToKey(%q) = %q, want %q", tt.section, key, tt.wantKey)
-		}
-		if back := parseSectionFromKey(key); back != tt.section {
-			t.Errorf("parseSectionFromKey(%q) = %q, want %q", key, back, tt.section)
-		}
+		t.Run(tt.section, func(t *testing.T) {
+			key := sectionToKey(tt.section)
+			if key != tt.wantKey {
+				t.Errorf("sectionToKey(%q) = %q, want %q", tt.section, key, tt.wantKey)
+			}
+			if back := parseSectionFromKey(key); back != tt.section {
+				t.Errorf("parseSectionFromKey(%q) = %q, want %q", key, back, tt.section)
+			}
+		})
 	}
 
 	// Non-numeric keys pass through; prefixed keys are stripped.
@@ -137,9 +142,11 @@ func TestToProvisionRef(t *testing.T) {
 		{"12/B", "s12b"},
 	}
 	for _, tt := range tests {
-		if got := toProvisionRef(tt.section); got != tt.want {
-			t.Errorf("toProvisionRef(%q) = %q, want %q", tt.section, got, tt.want)
-		}
+		t.Run(tt.section, func(t *testing.T) {
+			if got := toProvisionRef(tt.section); got != tt.want {
+				t.Errorf("toProvisionRef(%q) = %q, want %q", tt.section, got, tt.want)
+			}
+		})
 	}
 }
 
@@ -166,9 +173,11 @@ func TestShouldIncludeSection(t *testing.T) {
 		{"act-cxii-2011-info-self-determination", "I", true},
 	}
 	for _, tt := range tests {
-		if got := shouldIncludeSection(tt.actID, tt.section); got != tt.want {
-			t.Errorf("shouldIncludeSection(%q, %q) = %v, want %v", tt.actID, tt.section, got, tt.want)
-		}
+		t.Run(tt.actID+" "+tt.section, func(t *testing.T) {
+			if got := shouldIncludeSection(tt.actID, tt.section); got != tt.want {
+				t.Errorf("shouldIncludeSection(%q, %q) = %v, want %v", tt.actID, tt.section, got, tt.want)
+			}
+		})
 	}
 }
 
