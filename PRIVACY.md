@@ -15,7 +15,7 @@ This document addresses privacy and confidentiality considerations when using th
 
 **Safe Use Options:**
 1. **General Legal Research**: Use Tool for non-client-specific queries
-2. **Local npm Package**: Install `@ansvar/hungarian-law-mcp` locally — database queries stay on your machine
+2. **Local Go Binary**: Install via `go install github.com/ryzen3100/magyar-jogszabaly-mcp/cmd/hungarian-law-mcp@latest` — database queries stay on your machine
 3. **Remote Endpoint**: Vercel Streamable HTTP endpoint — queries transit Vercel infrastructure
 4. **On-Premise Deployment**: Self-host with local LLM for privileged matters
 
@@ -142,14 +142,14 @@ Example: "What are the penalties for fraud (csalás) under the Hungarian Btk. (2
 
 - Query pattern may reveal you are working on a fraud matter
 - Anthropic/Vercel logs may link queries to your API key
-- Consider using local npm package even for anonymized queries involving sensitive practice areas
+- Consider using the local Go binary even for anonymized queries involving sensitive practice areas
 
 ### HIGH RISK: Client-Specific Queries
 
 **DO NOT USE through cloud AI services:**
 
 - Remove ALL identifying details before using any cloud deployment
-- Use the local npm package with a self-hosted LLM
+- Use the local Go binary with a self-hosted LLM
 - Or use commercial legal databases (Complex, Jogtár) with proper adatfeldolgozási megállapodások
 - Queries containing client names, személyi azonosítószámok (personal identification numbers), cégjegyzékszámok (company registration numbers), or case references are HIGH RISK even if you consider them anonymized
 
@@ -180,7 +180,7 @@ The database is read-only. No user data is written to disk.
 
 ### For Solo Practitioners / Small Firms (Egyéni ügyvédek / Kisebb irodák)
 
-1. Use local npm package for maximum privacy
+1. Use the local Go binary for maximum privacy
 2. General research: Cloud AI is acceptable for fully non-client-specific queries
 3. Client matters: Use commercial legal databases (Complex, Jogtár) with proper adatfeldolgozási megállapodások under GDPR Article 28 and Infotv.
 4. Review MÜK ethics guidance on AI tool use before adopting any cloud-based legal AI tool
