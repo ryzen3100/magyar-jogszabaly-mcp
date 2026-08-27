@@ -34,7 +34,7 @@ func TestHasBooleanOperators(t *testing.T) {
 	}
 }
 
-func TestSanitizeFtsInput(t *testing.T) {
+func TestSanitizeInput(t *testing.T) {
 	t.Parallel()
 	tests := []struct {
 		name  string
@@ -53,14 +53,14 @@ func TestSanitizeFtsInput(t *testing.T) {
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			t.Parallel()
-			if got := SanitizeFtsInput(tt.input); got != tt.want {
-				t.Errorf("SanitizeFtsInput(%q) = %q, want %q", tt.input, got, tt.want)
+			if got := SanitizeInput(tt.input); got != tt.want {
+				t.Errorf("SanitizeInput(%q) = %q, want %q", tt.input, got, tt.want)
 			}
 		})
 	}
 }
 
-func TestBuildFtsQueryVariants(t *testing.T) {
+func TestBuildQueryVariants(t *testing.T) {
 	t.Parallel()
 	tests := []struct {
 		name      string
@@ -90,19 +90,19 @@ func TestBuildFtsQueryVariants(t *testing.T) {
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			t.Parallel()
-			got := BuildFtsQueryVariants(tt.sanitized)
+			got := BuildQueryVariants(tt.sanitized)
 			if !reflect.DeepEqual(got, tt.want) {
-				t.Errorf("BuildFtsQueryVariants(%q) = %#v, want %#v", tt.sanitized, got, tt.want)
+				t.Errorf("BuildQueryVariants(%q) = %#v, want %#v", tt.sanitized, got, tt.want)
 			}
 		})
 	}
 }
 
-// FuzzSanitizeFtsInput pins the sanitizer's structural invariants for every
+// FuzzSanitizeInput pins the sanitizer's structural invariants for every
 // input: whitespace comes out fully normalized (trimmed, single-spaced, no
 // raw tabs/newlines — NBSP etc. are the documented \s ceiling) and no
 // character targeted by the active strip pattern survives into the output.
-func FuzzSanitizeFtsInput(f *testing.F) {
+func FuzzSanitizeInput(f *testing.F) {
 	// Seeds from the table tests plus regex edge cases: repeated stars, bare
 	// operators, control bytes, multi-byte Hungarian.
 	for _, s := range []string{
@@ -124,23 +124,23 @@ func FuzzSanitizeFtsInput(f *testing.F) {
 		f.Add(s)
 	}
 	f.Fuzz(func(t *testing.T, input string) {
-		got := SanitizeFtsInput(input)
+		got := SanitizeInput(input)
 
 		if got != strings.TrimSpace(got) ||
 			strings.Contains(got, "  ") ||
 			strings.ContainsAny(got, "\t\n\f\r") {
-			t.Fatalf("SanitizeFtsInput(%q) = %q: whitespace not normalized", input, got)
+			t.Fatalf("SanitizeInput(%q) = %q: whitespace not normalized", input, got)
 		}
 
 		// Which strip pattern ran is decided by the raw input's boolean mode.
 		if HasBooleanOperators(input) {
 			if strings.ContainsAny(got, "{}[]^~*:") {
-				t.Fatalf("SanitizeFtsInput(%q) = %q: boolean-strip char survived", input, got)
+				t.Fatalf("SanitizeInput(%q) = %q: boolean-strip char survived", input, got)
 			}
 			return
 		}
 		if strings.ContainsAny(got, `'"(){}[]^~:`) {
-			t.Fatalf("SanitizeFtsInput(%q) = %q: non-boolean-strip char survived", input, got)
+			t.Fatalf("SanitizeInput(%q) = %q: non-boolean-strip char survived", input, got)
 		}
 	})
 }

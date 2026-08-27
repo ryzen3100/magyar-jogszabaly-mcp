@@ -44,18 +44,18 @@ var (
 	blockTagPattern   = regexp.MustCompile(
 		`(?i)</?(?:p|div|li|ul|ol|tr|td|th|table|tbody|thead|tfoot|h[1-6])[^>]*>`)
 	anyTagPattern              = regexp.MustCompile(`<[^>]+>`)
-	digitsSuffixPatt           = regexp.MustCompile(`^(\d+)([A-Z]+)?$`)
+	digitsSuffixPattern        = regexp.MustCompile(`^(\d+)([A-Z]+)?$`)
 	sectionPattern             = regexp.MustCompile(`^(\d+)(?:/([A-Za-z]+))?$`)
 	nonAlnumPattern            = regexp.MustCompile(`[^0-9A-Za-z]`)
 	szBlockIDPattern           = regexp.MustCompile(`^SZ(\d+)([A-Z]+)?(?:@.*)?$`)
 	sectionTextPattern         = regexp.MustCompile(`^(\d+[A-Za-z]?(?:/[A-Za-z]+)?)\s*\.?\s*§`)
-	articleTextPatt            = regexp.MustCompile(`(?i)^([IVXLCDM]+|\d+)\s*\.\s*(?:Czikk|Cikk|CZIKK)\.?`)
+	articleTextPattern         = regexp.MustCompile(`(?i)^([IVXLCDM]+|\d+)\s*\.\s*(?:Czikk|Cikk|CZIKK)\.?`)
 	jhIDMarkerPattern          = regexp.MustCompile(`<span class="jhId" id="([^"]+)"></span>`)
 	blockClassPattern          = regexp.MustCompile(`(?i)^<(?:div|h1|h2)\b[^>]*class="([^"]*)"`)
 	szakaszJelPattern          = regexp.MustCompile(`(?i)<span class="szakasz-jel">([\s\S]*?)</span>`)
 	legacyClassPattern         = regexp.MustCompile(`(?i)preambulum`)
 	sectionContentClassPattern = regexp.MustCompile(`(?i)szakasz|bekezdes|pont|alpont|mondat|szoveg|szelet`)
-	leadingDigitsPatt          = regexp.MustCompile(`^\d+`)
+	leadingDigitsPattern       = regexp.MustCompile(`^\d+`)
 
 	alkalmazasPattern = regexp.MustCompile(`(?i)alkalmazásában`)
 	// definitionPattern is the body of the TS lookahead pattern
@@ -65,11 +65,11 @@ var (
 	// bytes after it are absent (end of content) or match
 	// definitionFollowPattern. See extractDefinitions for why this is
 	// equivalent.
-	definitionPattern     = regexp.MustCompile(`\b\d+\.\s*([^:;]{2,120}):\s*([^;]{10,500})`)
-	definitionFollowPatt  = regexp.MustCompile(`^;\s*\d+\.`)
-	mainTitlePattern      = regexp.MustCompile(`(?i)<h1[^>]*class="[^"]*jogszabalyMainTitle[^"]*"[^>]*>([\s\S]*?)</h1>`)
-	subtitlePattern       = regexp.MustCompile(`(?i)<h2[^>]*class="([^"]*jogszabalySubtitle[^"]*)"[^>]*>([\s\S]*?)</h2>`)
-	mainTitleClassPattern = regexp.MustCompile(`(?i)\bmainTitle\b`)
+	definitionPattern       = regexp.MustCompile(`\b\d+\.\s*([^:;]{2,120}):\s*([^;]{10,500})`)
+	definitionFollowPattern = regexp.MustCompile(`^;\s*\d+\.`)
+	mainTitlePattern        = regexp.MustCompile(`(?i)<h1[^>]*class="[^"]*jogszabalyMainTitle[^"]*"[^>]*>([\s\S]*?)</h1>`)
+	subtitlePattern         = regexp.MustCompile(`(?i)<h2[^>]*class="([^"]*jogszabalySubtitle[^"]*)"[^>]*>([\s\S]*?)</h2>`)
+	mainTitleClassPattern   = regexp.MustCompile(`(?i)\bmainTitle\b`)
 )
 
 // DecodeHTMLEntities decodes the named entities njt.hu HTML uses, then
@@ -140,7 +140,7 @@ func parseSectionFromKey(key string) string {
 	if rest, ok := strings.CutPrefix(key, "LEGACY_"); ok {
 		return rest
 	}
-	m := digitsSuffixPatt.FindStringSubmatch(key)
+	m := digitsSuffixPattern.FindStringSubmatch(key)
 	if m == nil {
 		return key
 	}
@@ -174,7 +174,7 @@ func parseSectionFromText(blockHTML string) string {
 }
 
 func parseArticleFromText(blockHTML string) string {
-	m := articleTextPatt.FindStringSubmatch(HTMLToText(blockHTML))
+	m := articleTextPattern.FindStringSubmatch(HTMLToText(blockHTML))
 	if m == nil {
 		return ""
 	}
@@ -250,7 +250,7 @@ func toProvisionRef(section string) string {
 // the cybercrime alias keeps only Btk. 422-424.
 func shouldIncludeSection(actID, section string) bool {
 	base := 0
-	if m := leadingDigitsPatt.FindString(section); m != "" {
+	if m := leadingDigitsPattern.FindString(section); m != "" {
 		base, _ = strconv.Atoi(m)
 	}
 
@@ -279,7 +279,7 @@ func extractDefinitions(content, sourceProvision string, defs *[]seed.Definition
 
 	for _, loc := range definitionPattern.FindAllStringSubmatchIndex(content, -1) {
 		tail := content[loc[1]:]
-		if tail != "" && !definitionFollowPatt.MatchString(tail) {
+		if tail != "" && !definitionFollowPattern.MatchString(tail) {
 			continue
 		}
 

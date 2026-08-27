@@ -1,4 +1,4 @@
-package tools_test
+package tools
 
 // Tests for the get_provision_eu_basis tool — port of the
 // getProvisionEUBasis describes in tests/tools/other-tools.test.ts.
@@ -9,7 +9,6 @@ import (
 	"testing"
 
 	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/store/storetest"
-	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/tools"
 )
 
 func TestGetProvisionEUBasisUnresolvedDocWinsOverProbe(t *testing.T) {
@@ -19,12 +18,12 @@ func TestGetProvisionEUBasisUnresolvedDocWinsOverProbe(t *testing.T) {
 	// yields empty results with NO note even when the EU table is missing.
 	euDropTable(t, db, "eu_references")
 
-	results, meta, err := tools.GetProvisionEUBasis(context.Background(), db, argsMap(t,
+	results, meta, err := GetProvisionEUBasis(context.Background(), db, argsMap(t,
 		`{"document_id":"missing-doc","provision_ref":"1"}`))
 	if err != nil {
 		t.Fatal(err)
 	}
-	resultsDecoded, metaMap := euEnvelope(t, tools.MarshalResponse(results, meta))
+	resultsDecoded, metaMap := euEnvelope(t, MarshalResponse(results, meta))
 	if rows := euRows(t, resultsDecoded); len(rows) != 0 {
 		t.Fatalf("rows = %d, want 0", len(rows))
 	}
@@ -38,12 +37,12 @@ func TestGetProvisionEUBasisEUTablesUnavailable(t *testing.T) {
 	db := storetest.NewTestDb(t)
 	euDropTable(t, db, "eu_references")
 
-	results, meta, err := tools.GetProvisionEUBasis(context.Background(), db, argsMap(t,
+	results, meta, err := GetProvisionEUBasis(context.Background(), db, argsMap(t,
 		`{"document_id":"doc-inforce","provision_ref":"1"}`))
 	if err != nil {
 		t.Fatal(err)
 	}
-	_, metaMap := euEnvelope(t, tools.MarshalResponse(results, meta))
+	_, metaMap := euEnvelope(t, MarshalResponse(results, meta))
 	if metaMap["note"] != "EU references not available in this database tier" {
 		t.Fatalf("note = %v", metaMap["note"])
 	}
@@ -53,12 +52,12 @@ func TestGetProvisionEUBasisMissingProvision(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	results, meta, err := tools.GetProvisionEUBasis(context.Background(), db, argsMap(t,
+	results, meta, err := GetProvisionEUBasis(context.Background(), db, argsMap(t,
 		`{"document_id":"doc-inforce","provision_ref":"999"}`))
 	if err != nil {
 		t.Fatal(err)
 	}
-	resultsDecoded, metaMap := euEnvelope(t, tools.MarshalResponse(results, meta))
+	resultsDecoded, metaMap := euEnvelope(t, MarshalResponse(results, meta))
 	if rows := euRows(t, resultsDecoded); len(rows) != 0 {
 		t.Fatalf("rows = %d, want 0", len(rows))
 	}
@@ -71,7 +70,7 @@ func TestGetProvisionEUBasisFound(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	results, _, err := tools.GetProvisionEUBasis(context.Background(), db, argsMap(t,
+	results, _, err := GetProvisionEUBasis(context.Background(), db, argsMap(t,
 		`{"document_id":"doc-inforce","provision_ref":"1"}`))
 	if err != nil {
 		t.Fatal(err)
@@ -100,7 +99,7 @@ func TestGetProvisionEUBasisFound(t *testing.T) {
 	// provision_ref matches the s-prefixed form ('s1') and the section number
 	// alike, and the input is trimmed.
 	for _, ref := range []string{"s1", " 1 "} {
-		results, _, err = tools.GetProvisionEUBasis(context.Background(), db, argsMap(t,
+		results, _, err = GetProvisionEUBasis(context.Background(), db, argsMap(t,
 			`{"document_id":"doc-inforce","provision_ref":"`+ref+`"}`))
 		if err != nil {
 			t.Fatal(err)
@@ -115,12 +114,12 @@ func TestGetProvisionEUBasisNullArticleAndOrdering(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	results, meta, err := tools.GetProvisionEUBasis(context.Background(), db, argsMap(t,
+	results, meta, err := GetProvisionEUBasis(context.Background(), db, argsMap(t,
 		`{"document_id":"doc-amended","provision_ref":"s3"}`))
 	if err != nil {
 		t.Fatal(err)
 	}
-	payload := tools.MarshalResponse(results, meta)
+	payload := MarshalResponse(results, meta)
 	rows := euRows(t, results)
 	if len(rows) != 2 {
 		t.Fatalf("rows = %d, want 2", len(rows))
@@ -144,10 +143,10 @@ func TestGetProvisionEUBasisMissingArguments(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	_, _, err := tools.GetProvisionEUBasis(context.Background(), db, nil)
+	_, _, err := GetProvisionEUBasis(context.Background(), db, nil)
 	euWantErr(t, err, `missing required argument "document_id"`)
 
-	_, _, err = tools.GetProvisionEUBasis(context.Background(), db, argsMap(t, `{"document_id":"doc-inforce"}`))
+	_, _, err = GetProvisionEUBasis(context.Background(), db, argsMap(t, `{"document_id":"doc-inforce"}`))
 	euWantErr(t, err, `missing required argument "provision_ref"`)
 }
 
@@ -156,7 +155,7 @@ func TestGetProvisionEUBasisClosedDB(t *testing.T) {
 	db := storetest.NewTestDb(t)
 	db.Close() // resolve-first tool → the closed DB surfaces as an error
 
-	if _, _, err := tools.GetProvisionEUBasis(context.Background(), db, argsMap(t,
+	if _, _, err := GetProvisionEUBasis(context.Background(), db, argsMap(t,
 		`{"document_id":"doc-inforce","provision_ref":"1"}`)); err == nil {
 		t.Fatal("expected error on closed db")
 	}

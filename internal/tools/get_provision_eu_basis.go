@@ -19,13 +19,13 @@ type getProvisionEUBasisArgs struct {
 	ProvisionRef *string `json:"provision_ref"`
 }
 
-// provisionEuBasisResult mirrors the TS ProvisionEUBasisResult; every
+// provisionEUBasisResult mirrors the TS ProvisionEUBasisResult; every
 // nullable column is a pointer WITHOUT omitempty (explicit nulls).
-type provisionEuBasisResult struct {
-	EuDocumentID     string  `json:"eu_document_id"`
-	EuDocumentType   *string `json:"eu_document_type"`
-	EuDocumentTitle  *string `json:"eu_document_title"`
-	EuArticle        *string `json:"eu_article"`
+type provisionEUBasisResult struct {
+	EUDocumentID     string  `json:"eu_document_id"`
+	EUDocumentType   *string `json:"eu_document_type"`
+	EUDocumentTitle  *string `json:"eu_document_title"`
+	EUArticle        *string `json:"eu_article"`
 	ReferenceType    string  `json:"reference_type"`
 	ReferenceContext *string `json:"reference_context"`
 	FullCitation     *string `json:"full_citation"`
@@ -49,18 +49,18 @@ func GetProvisionEUBasis(ctx context.Context, db *sql.DB, args map[string]any) (
 	// Order of checks: resolve document → EU probe → provision lookup. Both
 	// the unresolved-document and missing-provision paths yield empty results
 	// with NO note; only a failed EU probe adds the tier note.
-	resolvedID, err := statute.ResolveDocumentId(ctx, db, *parsed.DocumentID)
+	resolvedID, err := statute.ResolveDocumentID(ctx, db, *parsed.DocumentID)
 	if err != nil {
 		return nil, ResponseMetadata{}, fmt.Errorf("resolve document: %w", err)
 	}
 	if resolvedID == "" {
-		return []provisionEuBasisResult{}, GenerateResponseMetadata(ctx, db), nil
+		return []provisionEUBasisResult{}, GenerateResponseMetadata(ctx, db), nil
 	}
 
 	if !store.EUAvailable(ctx, db, "eu_references") {
 		meta := GenerateResponseMetadata(ctx, db)
 		meta.Note = store.EUUnavailableNote("eu_references")
-		return []provisionEuBasisResult{}, meta, nil
+		return []provisionEUBasisResult{}, meta, nil
 	}
 
 	ref := strings.TrimSpace(*parsed.ProvisionRef)
@@ -71,7 +71,7 @@ func GetProvisionEUBasis(ctx context.Context, db *sql.DB, args map[string]any) (
 		resolvedID, ref, "s"+ref, ref,
 	).Scan(&provisionID)
 	if errors.Is(err, sql.ErrNoRows) {
-		return []provisionEuBasisResult{}, GenerateResponseMetadata(ctx, db), nil
+		return []provisionEUBasisResult{}, GenerateResponseMetadata(ctx, db), nil
 	}
 	if err != nil {
 		return nil, ResponseMetadata{}, fmt.Errorf("query provision: %w", err)
@@ -95,23 +95,23 @@ func GetProvisionEUBasis(ctx context.Context, db *sql.DB, args map[string]any) (
 	}
 	defer rows.Close()
 
-	results := []provisionEuBasisResult{}
+	results := []provisionEUBasisResult{}
 	for rows.Next() {
 		var (
-			r            provisionEuBasisResult
+			r            provisionEUBasisResult
 			docType      sql.Null[string]
 			title        sql.Null[string]
 			article      sql.Null[string]
 			referenceCtx sql.Null[string]
 			fullCitation sql.Null[string]
 		)
-		if err := rows.Scan(&r.EuDocumentID, &docType, &title, &article,
+		if err := rows.Scan(&r.EUDocumentID, &docType, &title, &article,
 			&r.ReferenceType, &referenceCtx, &fullCitation); err != nil {
 			return nil, ResponseMetadata{}, fmt.Errorf("scan eu reference: %w", err)
 		}
-		r.EuDocumentType = nullStringPtr(docType)
-		r.EuDocumentTitle = nullStringPtr(title)
-		r.EuArticle = nullStringPtr(article)
+		r.EUDocumentType = nullStringPtr(docType)
+		r.EUDocumentTitle = nullStringPtr(title)
+		r.EUArticle = nullStringPtr(article)
 		r.ReferenceContext = nullStringPtr(referenceCtx)
 		r.FullCitation = nullStringPtr(fullCitation)
 		results = append(results, r)

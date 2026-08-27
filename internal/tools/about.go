@@ -44,8 +44,8 @@ type aboutStats struct {
 	Documents    int  `json:"documents"`
 	Provisions   int  `json:"provisions"`
 	Definitions  int  `json:"definitions"`
-	EuDocuments  *int `json:"eu_documents,omitempty"`
-	EuReferences *int `json:"eu_references,omitempty"`
+	EUDocuments  *int `json:"eu_documents,omitempty"`
+	EUReferences *int `json:"eu_references,omitempty"`
 }
 
 type aboutDataSource struct {
@@ -98,8 +98,8 @@ func GetAbout(ctx context.Context, db *sql.DB, about *AboutContext) (any, Respon
 	}
 	if euRefs > 0 {
 		euDocuments := store.CachedCount(ctx, db, "SELECT COUNT(*) as count FROM eu_documents")
-		stats.EuDocuments = &euDocuments
-		stats.EuReferences = &euRefs
+		stats.EUDocuments = &euDocuments
+		stats.EUReferences = &euRefs
 	}
 
 	return aboutResult{
@@ -115,7 +115,7 @@ func GetAbout(ctx context.Context, db *sql.DB, about *AboutContext) (any, Respon
 				Authority: "Ministry of Justice",
 			},
 		},
-		Freshness:  aboutFreshness{DatabaseBuilt: about.DbBuilt},
+		Freshness:  aboutFreshness{DatabaseBuilt: about.DBBuilt},
 		Disclaimer: "This is a research tool, not legal advice. Verify critical citations against official sources.",
 		Network: aboutNetwork{
 			Name:      "Ansvar MCP Network",

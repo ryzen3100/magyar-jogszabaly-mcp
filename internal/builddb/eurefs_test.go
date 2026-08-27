@@ -7,7 +7,7 @@ import (
 	"testing"
 )
 
-func TestExtractEuReferences(t *testing.T) {
+func TestExtractEUReferences(t *testing.T) {
 	simple := EURef{
 		Type: "regulation", Community: "EU", Year: 2016, Number: 679,
 		EUDocumentID: "regulation:2016/679", EUArticle: "",
@@ -103,22 +103,22 @@ func TestExtractEuReferences(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			got := ExtractEuReferences(tt.text)
+			got := ExtractEUReferences(tt.text)
 			if !reflect.DeepEqual(got, tt.want) {
-				t.Fatalf("ExtractEuReferences() =\n  %#v\nwant\n  %#v", got, tt.want)
+				t.Fatalf("ExtractEUReferences() =\n  %#v\nwant\n  %#v", got, tt.want)
 			}
 		})
 	}
 }
 
-func TestExtractEuReferencesDistinctArticles(t *testing.T) {
+func TestExtractEUReferencesDistinctArticles(t *testing.T) {
 	// Same EU document cited twice, >120 chars apart so the context windows
 	// do not overlap; both references must survive dedupe with their own
 	// article number.
 	text := "Article 5 of Regulation (EU) 2016/679. " +
 		strings.Repeat("kitöltő ", 30) +
 		"Article 14 of Regulation (EU) 2016/679"
-	got := ExtractEuReferences(text)
+	got := ExtractEUReferences(text)
 	if len(got) != 2 {
 		t.Fatalf("len(got) = %d, want 2: %#v", len(got), got)
 	}
@@ -149,13 +149,13 @@ func TestCollapseSpace(t *testing.T) {
 	}
 }
 
-// FuzzExtractEuReferences checks the extractor's output invariants on random
+// FuzzExtractEUReferences checks the extractor's output invariants on random
 // input: every reference has a positive year/number, a known type and
 // reference kind, an empty-free citation/context, and a document id
 // consistent with its own fields. Seeds are real statute-style snippets
 // (GDPR, Consumer Rights Directive, two-digit-year EEC citations, multi-byte
 // padding that must not corrupt the rune-indexed context window).
-func FuzzExtractEuReferences(f *testing.F) {
+func FuzzExtractEUReferences(f *testing.F) {
 	seeds := []string{
 		"",
 		"  \n\t ",
@@ -172,7 +172,7 @@ func FuzzExtractEuReferences(f *testing.F) {
 	}
 	f.Fuzz(func(t *testing.T, text string) {
 		seen := map[string]bool{}
-		for _, r := range ExtractEuReferences(text) {
+		for _, r := range ExtractEUReferences(text) {
 			if r.Year <= 0 || r.Number <= 0 {
 				t.Errorf("non-positive year/number: %+v", r)
 			}

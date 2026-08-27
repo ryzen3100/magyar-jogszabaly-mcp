@@ -41,7 +41,7 @@ func CheckCurrency(ctx context.Context, db *sql.DB, args map[string]any) (any, R
 		return nil, ResponseMetadata{}, err
 	}
 
-	resolvedID, err := statute.ResolveDocumentId(ctx, db, *parsed.DocumentID)
+	resolvedID, err := statute.ResolveDocumentID(ctx, db, *parsed.DocumentID)
 	if err != nil {
 		return nil, ResponseMetadata{}, fmt.Errorf("resolve document: %w", err)
 	}

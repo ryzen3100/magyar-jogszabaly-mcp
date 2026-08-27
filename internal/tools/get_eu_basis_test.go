@@ -1,4 +1,4 @@
-package tools_test
+package tools
 
 // Tests for the get_eu_basis tool — port of the getEUBasis describes in
 // tests/tools/other-tools.test.ts. Shared wire-level helpers for the
@@ -13,7 +13,6 @@ import (
 	"testing"
 
 	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/store/storetest"
-	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/tools"
 )
 
 // --- helpers shared by the tools_test package -------------------------------
@@ -136,11 +135,11 @@ func TestGetEUBasisUnresolvedDocument(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	results, meta, err := tools.GetEUBasis(context.Background(), db, argsMap(t, `{"document_id":"missing-doc"}`))
+	results, meta, err := GetEUBasis(context.Background(), db, argsMap(t, `{"document_id":"missing-doc"}`))
 	if err != nil {
 		t.Fatal(err)
 	}
-	payload := tools.MarshalResponse(results, meta)
+	payload := MarshalResponse(results, meta)
 	if !strings.Contains(payload, `"results":[]`) {
 		t.Fatalf("expected literal empty array in payload, got %s", payload)
 	}
@@ -162,11 +161,11 @@ func TestGetEUBasisEUTablesUnavailable(t *testing.T) {
 	db := storetest.NewTestDb(t)
 	euDropTable(t, db, "eu_references")
 
-	results, meta, err := tools.GetEUBasis(context.Background(), db, argsMap(t, `{"document_id":"doc-inforce"}`))
+	results, meta, err := GetEUBasis(context.Background(), db, argsMap(t, `{"document_id":"doc-inforce"}`))
 	if err != nil {
 		t.Fatal(err)
 	}
-	_, metaMap := euEnvelope(t, tools.MarshalResponse(results, meta))
+	_, metaMap := euEnvelope(t, MarshalResponse(results, meta))
 	if metaMap["note"] != "EU references not available in this database tier" {
 		t.Fatalf("note = %v", metaMap["note"])
 	}
@@ -176,7 +175,7 @@ func TestGetEUBasisFiltersAndArticleExpansion(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	results, _, err := tools.GetEUBasis(context.Background(), db, argsMap(t,
+	results, _, err := GetEUBasis(context.Background(), db, argsMap(t,
 		`{"document_id":"doc-inforce","include_articles":true,"reference_types":["implements"]}`))
 	if err != nil {
 		t.Fatal(err)
@@ -209,11 +208,11 @@ func TestGetEUBasisArticlesOmittedUnlessRequested(t *testing.T) {
 	db := storetest.NewTestDb(t)
 
 	// Without include_articles the key must be absent from the wire.
-	results, meta, err := tools.GetEUBasis(context.Background(), db, argsMap(t, `{"document_id":"doc-inforce"}`))
+	results, meta, err := GetEUBasis(context.Background(), db, argsMap(t, `{"document_id":"doc-inforce"}`))
 	if err != nil {
 		t.Fatal(err)
 	}
-	payload := tools.MarshalResponse(results, meta)
+	payload := MarshalResponse(results, meta)
 	if strings.Contains(payload, `"articles"`) {
 		t.Fatalf("articles key must be omitted without include_articles: %s", payload)
 	}
@@ -223,12 +222,12 @@ func TestGetEUBasisArticlesOmittedUnlessRequested(t *testing.T) {
 
 	// With include_articles every row carries the key — [] when the document
 	// has no non-NULL articles (doc-amended's two refs have NULL articles).
-	results, meta, err = tools.GetEUBasis(context.Background(), db, argsMap(t,
+	results, meta, err = GetEUBasis(context.Background(), db, argsMap(t,
 		`{"document_id":"doc-amended","include_articles":true}`))
 	if err != nil {
 		t.Fatal(err)
 	}
-	payload = tools.MarshalResponse(results, meta)
+	payload = MarshalResponse(results, meta)
 	if got := strings.Count(payload, `"articles":[]`); got != 2 {
 		t.Fatalf(`"articles":[] occurrences = %d, want 2: %s`, got, payload)
 	}
@@ -246,7 +245,7 @@ func TestGetEUBasisArticleExpansionSkipsNullsAndDedups(t *testing.T) {
 		}
 	}
 
-	results, _, err := tools.GetEUBasis(context.Background(), db, argsMap(t,
+	results, _, err := GetEUBasis(context.Background(), db, argsMap(t,
 		`{"document_id":"doc-inforce","include_articles":true}`))
 	if err != nil {
 		t.Fatal(err)
@@ -266,7 +265,7 @@ func TestGetEUBasisReferenceTypesFilter(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	results, _, err := tools.GetEUBasis(context.Background(), db, argsMap(t,
+	results, _, err := GetEUBasis(context.Background(), db, argsMap(t,
 		`{"document_id":"doc-amended","reference_types":["references"]}`))
 	if err != nil {
 		t.Fatal(err)
@@ -275,7 +274,7 @@ func TestGetEUBasisReferenceTypesFilter(t *testing.T) {
 		t.Fatalf("rows = %d, want 2", len(rows))
 	}
 
-	results, _, err = tools.GetEUBasis(context.Background(), db, argsMap(t,
+	results, _, err = GetEUBasis(context.Background(), db, argsMap(t,
 		`{"document_id":"doc-amended","reference_types":["implements","references"]}`))
 	if err != nil {
 		t.Fatal(err)
@@ -284,7 +283,7 @@ func TestGetEUBasisReferenceTypesFilter(t *testing.T) {
 		t.Fatalf("rows = %d, want 2 (IN filter)", len(rows))
 	}
 
-	results, _, err = tools.GetEUBasis(context.Background(), db, argsMap(t,
+	results, _, err = GetEUBasis(context.Background(), db, argsMap(t,
 		`{"document_id":"doc-amended","reference_types":["implements"]}`))
 	if err != nil {
 		t.Fatal(err)
@@ -299,7 +298,7 @@ func TestGetEUBasisMissingArgument(t *testing.T) {
 	db := storetest.NewTestDb(t)
 
 	for _, args := range []map[string]any{nil, argsMap(t, `{}`)} {
-		_, _, err := tools.GetEUBasis(context.Background(), db, args)
+		_, _, err := GetEUBasis(context.Background(), db, args)
 		euWantErr(t, err, `missing required argument "document_id"`)
 	}
 }
@@ -309,7 +308,7 @@ func TestGetEUBasisClosedDB(t *testing.T) {
 	db := storetest.NewTestDb(t)
 	db.Close() // resolve-first tool → the closed DB surfaces as an error
 
-	if _, _, err := tools.GetEUBasis(context.Background(), db, argsMap(t, `{"document_id":"doc-inforce"}`)); err == nil {
+	if _, _, err := GetEUBasis(context.Background(), db, argsMap(t, `{"document_id":"doc-inforce"}`)); err == nil {
 		t.Fatal("expected error on closed db")
 	}
 }

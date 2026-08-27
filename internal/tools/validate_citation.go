@@ -50,8 +50,8 @@ var (
 	hungarianFullRe = regexp.MustCompile(`(?i)^(\d{4}\.\s*évi\s+[IVXLCDM]+\.\s*törvény)\s+` +
 		`(\d+(?::\d+)?(?:\/[A-Za-z])?)\.\s*§`)
 	hungarianDocRe = regexp.MustCompile(`(?i)^(\d{4}\.\s*évi\s+[IVXLCDM]+\.\s*törvény)$`)
-	dbIdWithSecRe  = regexp.MustCompile(`(?i)^(hu-law-\d{4}-\d+-\d{2}-\d{2})\s+s?(\d+(?::\d+)?(?:\/[A-Za-z])?)$`)
-	dbIdOnlyRe     = regexp.MustCompile(`^(hu-law-\d{4}-\d+-\d{2}-\d{2})$`)
+	dbIDWithSecRe  = regexp.MustCompile(`(?i)^(hu-law-\d{4}-\d+-\d{2}-\d{2})\s+s?(\d+(?::\d+)?(?:\/[A-Za-z])?)$`)
+	dbIDOnlyRe     = regexp.MustCompile(`^(hu-law-\d{4}-\d+-\d{2}-\d{2})$`)
 	sectionFirstRe = regexp.MustCompile(`(?i)^Section\s+(\d+[A-Za-z]*(?:\(\d+\))?)\s*[,;]?\s+(.+)$`)
 	sectionLastRe  = regexp.MustCompile(`(?i)^(.+?)\s*[,;]?\s+(?:s\.?\s+|Section\s+)(\d+[A-Za-z]*(?:\(\d+\))?)$`)
 )
@@ -75,12 +75,12 @@ func ParseCitation(citation string) *ParsedCitation {
 	}
 
 	// Database ID + section: "hu-law-2012-1-00-00 s116" / "… s6:272"
-	if m := dbIdWithSecRe.FindStringSubmatch(trimmed); m != nil {
+	if m := dbIDWithSecRe.FindStringSubmatch(trimmed); m != nil {
 		return &ParsedCitation{DocumentRef: m[1], SectionRef: m[2], Structured: true}
 	}
 
 	// Database ID only: "hu-law-2012-1-00-00"
-	if m := dbIdOnlyRe.FindStringSubmatch(trimmed); m != nil {
+	if m := dbIDOnlyRe.FindStringSubmatch(trimmed); m != nil {
 		return &ParsedCitation{DocumentRef: m[1], Structured: true}
 	}
 
@@ -124,7 +124,7 @@ func ValidateCitation(ctx context.Context, db *sql.DB, args map[string]any) (any
 		}, GenerateResponseMetadata(ctx, db), nil
 	}
 
-	docID, err := statute.ResolveDocumentId(ctx, db, parsedCitation.DocumentRef)
+	docID, err := statute.ResolveDocumentID(ctx, db, parsedCitation.DocumentRef)
 	if err != nil {
 		return nil, ResponseMetadata{}, fmt.Errorf("resolve document: %w", err)
 	}

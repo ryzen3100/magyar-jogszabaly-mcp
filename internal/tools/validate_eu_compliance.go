@@ -14,7 +14,7 @@ import (
 
 type validateEUComplianceArgs struct {
 	DocumentID   *string `json:"document_id"`
-	EuDocumentID *string `json:"eu_document_id"`
+	EUDocumentID *string `json:"eu_document_id"`
 }
 
 // euComplianceResult mirrors the TS EUComplianceResult (singular result
@@ -23,7 +23,7 @@ type euComplianceResult struct {
 	DocumentID        string   `json:"document_id"`
 	DocumentTitle     string   `json:"document_title"`
 	ComplianceStatus  string   `json:"compliance_status"`
-	EuReferencesFound int      `json:"eu_references_found"`
+	EUReferencesFound int      `json:"eu_references_found"`
 	Warnings          []string `json:"warnings"`
 	Recommendations   []string `json:"recommendations"`
 }
@@ -40,12 +40,12 @@ func ValidateEUCompliance(ctx context.Context, db *sql.DB, args map[string]any) 
 	if err := validateArgs(
 		checkRequired("document_id", parsed.DocumentID),
 		checkMaxLength("document_id", parsed.DocumentID, maxDocumentIDLength),
-		checkMaxLength("eu_document_id", parsed.EuDocumentID, maxEuDocumentIDLength),
+		checkMaxLength("eu_document_id", parsed.EUDocumentID, maxEUDocumentIDLength),
 	); err != nil {
 		return nil, ResponseMetadata{}, err
 	}
 
-	resolvedID, err := statute.ResolveDocumentId(ctx, db, *parsed.DocumentID)
+	resolvedID, err := statute.ResolveDocumentID(ctx, db, *parsed.DocumentID)
 	if err != nil {
 		return nil, ResponseMetadata{}, fmt.Errorf("resolve document: %w", err)
 	}
@@ -55,7 +55,7 @@ func ValidateEUCompliance(ctx context.Context, db *sql.DB, args map[string]any) 
 			DocumentID:        *parsed.DocumentID,
 			DocumentTitle:     "Unknown",
 			ComplianceStatus:  "not_applicable",
-			EuReferencesFound: 0,
+			EUReferencesFound: 0,
 			Warnings:          []string{fmt.Sprintf("Document not found: \"%s\"", *parsed.DocumentID)},
 			Recommendations:   []string{},
 		}, GenerateResponseMetadata(ctx, db), nil
@@ -72,7 +72,7 @@ func ValidateEUCompliance(ctx context.Context, db *sql.DB, args map[string]any) 
 			DocumentID:        resolvedID,
 			DocumentTitle:     docTitle,
 			ComplianceStatus:  "not_applicable",
-			EuReferencesFound: 0,
+			EUReferencesFound: 0,
 			Warnings:          []string{"EU references not available in this database tier"},
 			Recommendations:   []string{},
 		}, GenerateResponseMetadata(ctx, db), nil
@@ -80,9 +80,9 @@ func ValidateEUCompliance(ctx context.Context, db *sql.DB, args map[string]any) 
 
 	countSQL := "SELECT COUNT(*) as count FROM eu_references WHERE document_id = ?"
 	countParams := []any{resolvedID}
-	if parsed.EuDocumentID != nil && *parsed.EuDocumentID != "" {
+	if parsed.EUDocumentID != nil && *parsed.EUDocumentID != "" {
 		countSQL += " AND eu_document_id = ?"
-		countParams = append(countParams, *parsed.EuDocumentID)
+		countParams = append(countParams, *parsed.EUDocumentID)
 	}
 	var euRefCount int
 	if err := db.QueryRowContext(ctx, countSQL, countParams...).Scan(&euRefCount); err != nil {
@@ -94,7 +94,7 @@ func ValidateEUCompliance(ctx context.Context, db *sql.DB, args map[string]any) 
 			DocumentID:        resolvedID,
 			DocumentTitle:     docTitle,
 			ComplianceStatus:  "not_applicable",
-			EuReferencesFound: 0,
+			EUReferencesFound: 0,
 			Warnings:          []string{},
 			Recommendations: []string{
 				"No EU cross-references found for this Hungarian statute. " +
@@ -165,7 +165,7 @@ func ValidateEUCompliance(ctx context.Context, db *sql.DB, args map[string]any) 
 		DocumentID:        resolvedID,
 		DocumentTitle:     docTitle,
 		ComplianceStatus:  complianceStatus,
-		EuReferencesFound: euRefCount,
+		EUReferencesFound: euRefCount,
 		Warnings:          warnings,
 		Recommendations:   recommendations,
 	}, GenerateResponseMetadata(ctx, db), nil

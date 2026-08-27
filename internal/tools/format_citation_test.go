@@ -97,7 +97,7 @@ func TestFormatCitationOriginalEchoesUntrimmed(t *testing.T) {
 	}
 }
 
-func TestFormatCitationStructuredResolvesDbTitle(t *testing.T) {
+func TestFormatCitationStructuredResolvesDBTitle(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 	if _, err := db.Exec(`INSERT INTO legal_documents (id, type, title, status)

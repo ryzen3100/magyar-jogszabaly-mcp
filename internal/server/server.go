@@ -34,7 +34,7 @@ func logf(format string, args ...any) {
 // openDB resolves and opens the readonly database, mirroring getDb() in
 // src/index.ts / src/http-server.ts.
 func openDB() (*sql.DB, string, error) {
-	path, err := store.ResolveDbPath()
+	path, err := store.ResolveDBPath()
 	if err != nil {
 		return nil, "", err
 	}
@@ -42,7 +42,7 @@ func openDB() (*sql.DB, string, error) {
 	if err != nil {
 		return nil, "", err
 	}
-	logf("DB opened: tier=%s", store.ReadDbMetadata(context.Background(), db).Tier)
+	logf("DB opened: tier=%s", store.ReadDBMetadata(context.Background(), db).Tier)
 	return db, path, nil
 }
 
@@ -55,9 +55,9 @@ func buildAboutContext(db *sql.DB, path string) *tools.AboutContext {
 		Version:     serverVersion,
 		Fingerprint: "unknown",
 	}
-	if fp, err := store.DbFingerprint(path); err == nil {
+	if fp, err := store.DBFingerprint(path); err == nil {
 		ctx.Fingerprint = fp
 	}
-	ctx.DbBuilt = store.DbBuiltOrMtime(context.Background(), db, path)
+	ctx.DBBuilt = store.DBBuiltOrMtime(context.Background(), db, path)
 	return ctx
 }

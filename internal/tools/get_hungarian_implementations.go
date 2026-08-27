@@ -12,7 +12,7 @@ import (
 )
 
 type getHungarianImplementationsArgs struct {
-	EuDocumentID *string `json:"eu_document_id"`
+	EUDocumentID *string `json:"eu_document_id"`
 	PrimaryOnly  *bool   `json:"primary_only"`
 	InForceOnly  *bool   `json:"in_force_only"`
 }
@@ -40,8 +40,8 @@ func GetHungarianImplementations(ctx context.Context, db *sql.DB, args map[strin
 		return nil, ResponseMetadata{}, err
 	}
 	if err := validateArgs(
-		checkRequired("eu_document_id", parsed.EuDocumentID),
-		checkMaxLength("eu_document_id", parsed.EuDocumentID, maxEuDocumentIDLength),
+		checkRequired("eu_document_id", parsed.EUDocumentID),
+		checkMaxLength("eu_document_id", parsed.EUDocumentID, maxEUDocumentIDLength),
 	); err != nil {
 		return nil, ResponseMetadata{}, err
 	}
@@ -67,7 +67,7 @@ func GetHungarianImplementations(ctx context.Context, db *sql.DB, args map[strin
 		FROM eu_references er
 		JOIN legal_documents ld ON ld.id = er.document_id
 		WHERE er.eu_document_id = ?`
-	params := []any{*parsed.EuDocumentID}
+	params := []any{*parsed.EUDocumentID}
 
 	if parsed.PrimaryOnly != nil && *parsed.PrimaryOnly {
 		query += " AND er.is_primary_implementation = 1"

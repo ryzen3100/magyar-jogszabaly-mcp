@@ -167,7 +167,7 @@ func TestGetProvisionMissingRequiredArg(t *testing.T) {
 	}
 }
 
-func TestGetProvisionDegradedOnClosedDb(t *testing.T) {
+func TestGetProvisionDegradedOnClosedDB(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 	db.Close()

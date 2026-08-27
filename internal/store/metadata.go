@@ -5,28 +5,28 @@ import (
 	"database/sql"
 )
 
-// DbMetadata is the db_metadata key/value table distilled to the fields the
+// DBMetadata is the db_metadata key/value table distilled to the fields the
 // server uses. BuiltAt is only meaningful when HasBuiltAt is true — the Go
 // equivalent of the TypeScript `built_at?: string` optionality.
-type DbMetadata struct {
+type DBMetadata struct {
 	Tier          string
 	SchemaVersion string
 	BuiltAt       string
 	HasBuiltAt    bool
 }
 
-// metadataCache backs ReadDbMetadata; see the comment on cacheMu in store.go
+// metadataCache backs ReadDBMetadata; see the comment on cacheMu in store.go
 // for why this is keyed by *sql.DB instead of being a WeakMap.
-var metadataCache = map[*sql.DB]DbMetadata{}
+var metadataCache = map[*sql.DB]DBMetadata{}
 
-// ReadDbMetadata returns the metadata for db, applying the TypeScript defaults
+// ReadDBMetadata returns the metadata for db, applying the TypeScript defaults
 // (tier 'free', schema_version '1.0', built_at optional). A missing
 // db_metadata table is swallowed, exactly as in src/capabilities.ts. Only a
 // fully-read table is cached per db — the database is read-only, so complete
 // metadata never changes — and a failed read returns the defaults uncached,
 // so a later call retries instead of pinning degraded values for the process
 // lifetime.
-func ReadDbMetadata(ctx context.Context, db *sql.DB) DbMetadata {
+func ReadDBMetadata(ctx context.Context, db *sql.DB) DBMetadata {
 	cacheMu.Lock()
 	if m, ok := metadataCache[db]; ok {
 		cacheMu.Unlock()
@@ -34,7 +34,7 @@ func ReadDbMetadata(ctx context.Context, db *sql.DB) DbMetadata {
 	}
 	cacheMu.Unlock()
 
-	defaults := DbMetadata{Tier: "free", SchemaVersion: "1.0"}
+	defaults := DBMetadata{Tier: "free", SchemaVersion: "1.0"}
 	meta, complete := readMetadataTable(ctx, db)
 	if !complete {
 		return defaults

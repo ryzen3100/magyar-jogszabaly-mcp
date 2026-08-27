@@ -112,12 +112,12 @@ func runSearch(ctx context.Context, db *sql.DB, args searchArgs) (any, ResponseM
 	// Math.min(Math.max(limit ?? 10, 1), 50); fetch extra rows for dedup.
 	limit := clampLimit(args.Limit, defaultSearchLimit, maxSearchLimit)
 	fetchLimit := limit * 2
-	variants := fts.BuildFtsQueryVariants(fts.SanitizeFtsInput(*args.Query))
+	variants := fts.BuildQueryVariants(fts.SanitizeInput(*args.Query))
 
 	// Resolve document_id from title if provided (same resolution as get_provision)
 	var resolvedDocID string
 	if args.DocumentID != nil && *args.DocumentID != "" {
-		resolved, err := statute.ResolveDocumentId(ctx, db, *args.DocumentID)
+		resolved, err := statute.ResolveDocumentID(ctx, db, *args.DocumentID)
 		if err != nil {
 			return nil, ResponseMetadata{}, fmt.Errorf("resolve document: %w", err)
 		}
@@ -214,7 +214,7 @@ func runSearch(ctx context.Context, db *sql.DB, args searchArgs) (any, ResponseM
 // args.Query must be non-nil (runSearch's guard).
 func runLikeFallback(ctx context.Context, db *sql.DB, args searchArgs, resolvedDocID string, limit, fetchLimit int,
 ) ([]SearchLegislationResult, ResponseMetadata, error) {
-	pattern := fts.BuildLikePattern(escapeLike(fts.SanitizeFtsInput(*args.Query)))
+	pattern := fts.BuildLikePattern(escapeLike(fts.SanitizeInput(*args.Query)))
 	query := searchLikeSQL
 	params := []any{pattern}
 

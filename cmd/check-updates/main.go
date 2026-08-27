@@ -187,7 +187,7 @@ func run(dbPath, censusPath string, now func() time.Time, portal *http.Client, s
 // 'built_at'". It returns sql.ErrNoRows when the row is missing (or the value
 // is empty, which TS treats as falsy) so the caller can print the exact TS
 // message, and the raw query error when the table itself is missing — a
-// distinction store.ReadDbMetadata deliberately collapses.
+// distinction store.ReadDBMetadata deliberately collapses.
 func readBuiltAt(db *sql.DB) (string, error) {
 	var v string
 	if err := db.QueryRow("SELECT value FROM db_metadata WHERE key = 'built_at'").Scan(&v); err != nil {

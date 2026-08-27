@@ -299,9 +299,9 @@ func TestBuildKeepsExistingDatabaseOnFailure(t *testing.T) {
 	}
 }
 
-// TestBuildMissingEuMappingsWarns covers the absent-mappings warning (E8); a
+// TestBuildMissingEUMappingsWarns covers the absent-mappings warning (E8); a
 // non-empty seed dir is required so the flow reaches the mappings block.
-func TestBuildMissingEuMappingsWarns(t *testing.T) {
+func TestBuildMissingEUMappingsWarns(t *testing.T) {
 	dir := t.TempDir()
 	seedDir := filepath.Join(dir, "seed")
 	if err := os.MkdirAll(seedDir, 0o755); err != nil {

@@ -214,7 +214,7 @@ func TestSearchLegislationLimitAndDedup(t *testing.T) {
 	}
 }
 
-func TestSearchLegislationDegradedOnClosedDb(t *testing.T) {
+func TestSearchLegislationDegradedOnClosedDB(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 	db.Close() // every query now fails — handlers must degrade, not error

@@ -122,7 +122,7 @@ func TestParseHungarianReference(t *testing.T) {
 	}
 }
 
-func TestResolveDocumentId(t *testing.T) {
+func TestResolveDocumentID(t *testing.T) {
 	t.Parallel()
 	db := newTestDB(t)
 	tests := []struct {
@@ -146,12 +146,12 @@ func TestResolveDocumentId(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			got, err := ResolveDocumentId(context.Background(), db, tt.input)
+			got, err := ResolveDocumentID(context.Background(), db, tt.input)
 			if err != nil {
-				t.Fatalf("ResolveDocumentId(%q) error: %v", tt.input, err)
+				t.Fatalf("ResolveDocumentID(%q) error: %v", tt.input, err)
 			}
 			if got != tt.want {
-				t.Errorf("ResolveDocumentId(%q) = %q, want %q", tt.input, got, tt.want)
+				t.Errorf("ResolveDocumentID(%q) = %q, want %q", tt.input, got, tt.want)
 			}
 		})
 	}
@@ -159,7 +159,7 @@ func TestResolveDocumentId(t *testing.T) {
 
 // Replicates the TS test: even with case_sensitive_like ON, the LOWER()
 // fallback still folds ASCII case.
-func TestResolveDocumentIdCaseInsensitiveTitleFallback(t *testing.T) {
+func TestResolveDocumentIDCaseInsensitiveTitleFallback(t *testing.T) {
 	t.Parallel()
 	db := newTestDB(t)
 
@@ -170,11 +170,11 @@ func TestResolveDocumentIdCaseInsensitiveTitleFallback(t *testing.T) {
 		t.Fatalf("update: %v", err)
 	}
 
-	got, err := ResolveDocumentId(context.Background(), db, "mixedcase act")
+	got, err := ResolveDocumentID(context.Background(), db, "mixedcase act")
 	if err != nil {
-		t.Fatalf("ResolveDocumentId error: %v", err)
+		t.Fatalf("ResolveDocumentID error: %v", err)
 	}
 	if got != "doc-inforce" {
-		t.Errorf("ResolveDocumentId(%q) = %q, want %q", "mixedcase act", got, "doc-inforce")
+		t.Errorf("ResolveDocumentID(%q) = %q, want %q", "mixedcase act", got, "doc-inforce")
 	}
 }

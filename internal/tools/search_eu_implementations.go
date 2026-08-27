@@ -23,7 +23,7 @@ type searchEUImplementationsArgs struct {
 // euImplementationSearchResult mirrors the TS EUImplementationSearchResult.
 // title/short_name are nullable columns — explicit nulls on the wire.
 type euImplementationSearchResult struct {
-	EuDocumentID          string  `json:"eu_document_id"`
+	EUDocumentID          string  `json:"eu_document_id"`
 	Type                  string  `json:"type"`
 	Year                  int     `json:"year"`
 	Number                int     `json:"number"`
@@ -118,7 +118,7 @@ func SearchEUImplementations(ctx context.Context, db *sql.DB, args map[string]an
 			title     sql.Null[string]
 			shortName sql.Null[string]
 		)
-		if err := rows.Scan(&r.EuDocumentID, &r.Type, &r.Year, &r.Number,
+		if err := rows.Scan(&r.EUDocumentID, &r.Type, &r.Year, &r.Number,
 			&title, &shortName, &r.HungarianStatuteCount); err != nil {
 			return nil, ResponseMetadata{}, fmt.Errorf("scan eu document: %w", err)
 		}

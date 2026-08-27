@@ -57,7 +57,7 @@ func ParseHungarianReference(input string) string {
 	return fmt.Sprintf("hu-law-%s-%d-00-00", m[1], RomanToArabic(m[2]))
 }
 
-// ResolveDocumentId resolves a document identifier to a database document ID.
+// ResolveDocumentID resolves a document identifier to a database document ID.
 // Supports:
 // - Direct ID match (e.g., "hu-law-2012-1-00-00")
 // - Hungarian formal format (e.g., "2012. évi I. törvény")
@@ -66,7 +66,7 @@ func ParseHungarianReference(input string) string {
 // - Fuzzy title substring match
 //
 // Returns "" (TS null equivalent) with a nil error when nothing matches.
-func ResolveDocumentId(ctx context.Context, db *sql.DB, input string) (string, error) {
+func ResolveDocumentID(ctx context.Context, db *sql.DB, input string) (string, error) {
 	trimmed := strings.TrimSpace(input)
 	if trimmed == "" {
 		return "", nil
@@ -76,8 +76,8 @@ func ResolveDocumentId(ctx context.Context, db *sql.DB, input string) (string, e
 	// reference ("2012. évi I. törvény" → "hu-law-2012-1-00-00"), hu-law
 	// prefix with trailing extra characters stripped.
 	candidates := []string{trimmed}
-	if hungarianId := ParseHungarianReference(trimmed); hungarianId != "" {
-		candidates = append(candidates, hungarianId)
+	if hungarianID := ParseHungarianReference(trimmed); hungarianID != "" {
+		candidates = append(candidates, hungarianID)
 	}
 	if m := huLawPrefixRe.FindStringSubmatch(trimmed); m != nil {
 		candidates = append(candidates, m[1])

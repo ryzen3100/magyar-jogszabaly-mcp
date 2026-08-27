@@ -284,7 +284,7 @@ func TestDispatchAboutSuccessBareJSON(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	res := callDispatch(t, db, &AboutContext{Version: "1.0.0", Fingerprint: "fp", DbBuilt: "2026-02-21T00:00:00Z"},
+	res := callDispatch(t, db, &AboutContext{Version: "1.0.0", Fingerprint: "fp", DBBuilt: "2026-02-21T00:00:00Z"},
 		Handlers(), "about", json.RawMessage(`{}`))
 	if res.IsError {
 		t.Fatalf("unexpected error: %s", resultText(t, res))

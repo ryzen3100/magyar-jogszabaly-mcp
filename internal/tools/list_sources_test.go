@@ -1,4 +1,4 @@
-package tools_test
+package tools
 
 // Tests for the list_sources tool — port of the listSources describes in
 // tests/tools/other-tools.test.ts.
@@ -10,14 +10,13 @@ import (
 	"testing"
 
 	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/store/storetest"
-	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/tools"
 )
 
 func TestListSourcesPopulated(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	results, meta, err := tools.ListSources(context.Background(), db)
+	results, meta, err := ListSources(context.Background(), db)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -92,11 +91,11 @@ func TestListSourcesBuiltAtOmittedWhenAbsent(t *testing.T) {
 	db := storetest.NewTestDb(t)
 	euDropTable(t, db, "db_metadata")
 
-	results, meta, err := tools.ListSources(context.Background(), db)
+	results, meta, err := ListSources(context.Background(), db)
 	if err != nil {
 		t.Fatal(err)
 	}
-	payload := tools.MarshalResponse(results, meta)
+	payload := MarshalResponse(results, meta)
 	// TS drops the undefined key: built_at must be omitted, not null.
 	if strings.Contains(payload, `"built_at"`) {
 		t.Fatalf("built_at must be omitted when absent: %s", payload)
@@ -117,7 +116,7 @@ func TestListSourcesCountsZeroWhenTablesMissing(t *testing.T) {
 	db := storetest.NewTestDb(t)
 	euDropTable(t, db, "legal_provisions")
 
-	results, _, err := tools.ListSources(context.Background(), db)
+	results, _, err := ListSources(context.Background(), db)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -136,7 +135,7 @@ func TestListSourcesResultsJSONKeyOrder(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	results, _, err := tools.ListSources(context.Background(), db)
+	results, _, err := ListSources(context.Background(), db)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -164,7 +163,7 @@ func TestListSourcesClosedDB(t *testing.T) {
 	db.Close()
 
 	// listSources never throws: every read degrades to defaults/zero.
-	results, _, err := tools.ListSources(context.Background(), db)
+	results, _, err := ListSources(context.Background(), db)
 	if err != nil {
 		t.Fatalf("closed db must degrade, not error: %v", err)
 	}

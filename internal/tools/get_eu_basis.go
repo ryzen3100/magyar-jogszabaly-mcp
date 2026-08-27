@@ -26,9 +26,9 @@ type getEUBasisArgs struct {
 // non-empty result, and marshals as [] (not omitted) when a row has no
 // articles.
 type euBasisResult struct {
-	EuDocumentID         string    `json:"eu_document_id"`
-	EuDocumentType       *string   `json:"eu_document_type"`
-	EuDocumentTitle      *string   `json:"eu_document_title"`
+	EUDocumentID         string    `json:"eu_document_id"`
+	EUDocumentType       *string   `json:"eu_document_type"`
+	EUDocumentTitle      *string   `json:"eu_document_title"`
 	ReferenceType        string    `json:"reference_type"`
 	ReferenceCount       int       `json:"reference_count"`
 	ImplementationStatus *string   `json:"implementation_status"`
@@ -51,7 +51,7 @@ func GetEUBasis(ctx context.Context, db *sql.DB, args map[string]any) (any, Resp
 
 	// Order of checks matters (as in the TS original): document resolution
 	// first — unresolved → empty results, no note — then the EU probe.
-	resolvedID, err := statute.ResolveDocumentId(ctx, db, *parsed.DocumentID)
+	resolvedID, err := statute.ResolveDocumentID(ctx, db, *parsed.DocumentID)
 	if err != nil {
 		return nil, ResponseMetadata{}, fmt.Errorf("resolve document: %w", err)
 	}
@@ -102,12 +102,12 @@ func GetEUBasis(ctx context.Context, db *sql.DB, args map[string]any) (any, Resp
 			title      sql.Null[string]
 			implStatus sql.Null[string]
 		)
-		if err := rows.Scan(&r.EuDocumentID, &docType, &title, &r.ReferenceType,
+		if err := rows.Scan(&r.EUDocumentID, &docType, &title, &r.ReferenceType,
 			&r.ReferenceCount, &implStatus); err != nil {
 			return nil, ResponseMetadata{}, fmt.Errorf("scan eu reference: %w", err)
 		}
-		r.EuDocumentType = nullStringPtr(docType)
-		r.EuDocumentTitle = nullStringPtr(title)
+		r.EUDocumentType = nullStringPtr(docType)
+		r.EUDocumentTitle = nullStringPtr(title)
 		r.ImplementationStatus = nullStringPtr(implStatus)
 		results = append(results, r)
 	}
@@ -145,7 +145,7 @@ func GetEUBasis(ctx context.Context, db *sql.DB, args map[string]any) (any, Resp
 			return nil, ResponseMetadata{}, fmt.Errorf("scan eu articles: %w", err)
 		}
 		for i := range results {
-			list := articlesByDoc[results[i].EuDocumentID]
+			list := articlesByDoc[results[i].EUDocumentID]
 			if list == nil {
 				// TS `articlesByDoc.get(...) ?? []`: an empty (non-null) array.
 				list = []string{}

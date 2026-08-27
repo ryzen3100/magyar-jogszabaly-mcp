@@ -5,10 +5,10 @@
 // tools/parity/compare_db.py is the logical comparison used to verify that.
 package builddb
 
-// SCHEMA is the database DDL, copied verbatim from the SCHEMA const in
+// schema is the database DDL, copied verbatim from the SCHEMA const in
 // scripts/build-db.ts:70-232 (7 tables, 8 indexes, 2 FTS5 external-content
 // tables, 6 sync triggers).
-const SCHEMA = `
+const schema = `
 -- Legal documents (statutes)
 CREATE TABLE legal_documents (
   id TEXT PRIMARY KEY,

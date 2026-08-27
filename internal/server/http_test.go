@@ -427,7 +427,7 @@ func TestResourceReaders(t *testing.T) {
 	t.Parallel()
 	ctx := context.Background()
 	db := storetest.NewTestDb(t)
-	about := &tools.AboutContext{Version: "test", Fingerprint: "fp", DbBuilt: "2026-02-21T00:00:00Z"}
+	about := &tools.AboutContext{Version: "test", Fingerprint: "fp", DBBuilt: "2026-02-21T00:00:00Z"}
 
 	serverTransport, clientTransport := mcp.NewInMemoryTransports()
 	s := mcp.NewServer(&mcp.Implementation{Name: serverName, Version: serverVersion}, nil)

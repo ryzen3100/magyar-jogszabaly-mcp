@@ -43,11 +43,11 @@ func collapseSpace(s string) string {
 	return strings.Join(strings.Fields(s), " ")
 }
 
-// ExtractEuReferences finds EU directive/regulation citations in text — port
-// of extractEuReferences in scripts/build-db.ts:250-302. Patterns are applied
+// ExtractEUReferences finds EU directive/regulation citations in text — port
+// of extractEUReferences in scripts/build-db.ts:250-302. Patterns are applied
 // whole-text in order, sharing one dedupe key space, exactly like the
 // sequential JS exec loops.
-func ExtractEuReferences(text string) []EURef {
+func ExtractEUReferences(text string) []EURef {
 	if strings.TrimSpace(text) == "" {
 		return nil
 	}

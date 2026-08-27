@@ -1,4 +1,4 @@
-package tools_test
+package tools
 
 // Tests for the about tool — port of the getAbout describes in
 // tests/tools/other-tools.test.ts.
@@ -9,19 +9,18 @@ import (
 	"testing"
 
 	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/store/storetest"
-	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/tools"
 )
 
 func TestGetAboutPopulated(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
-	about := &tools.AboutContext{
+	about := &AboutContext{
 		Version:     "1.2.3",
 		Fingerprint: "abcdef123456",
-		DbBuilt:     "2026-02-21T00:00:00Z",
+		DBBuilt:     "2026-02-21T00:00:00Z",
 	}
 
-	results, meta, err := tools.GetAbout(context.Background(), db, about)
+	results, meta, err := GetAbout(context.Background(), db, about)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -115,13 +114,13 @@ func TestGetAboutPopulated(t *testing.T) {
 func TestGetAboutStatsKeyOrder(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
-	about := &tools.AboutContext{Version: "1.0.0", Fingerprint: "fp", DbBuilt: "2026-02-21T00:00:00Z"}
+	about := &AboutContext{Version: "1.0.0", Fingerprint: "fp", DBBuilt: "2026-02-21T00:00:00Z"}
 
-	results, meta, err := tools.GetAbout(context.Background(), db, about)
+	results, meta, err := GetAbout(context.Background(), db, about)
 	if err != nil {
 		t.Fatal(err)
 	}
-	payload := tools.MarshalResponse(results, meta)
+	payload := MarshalResponse(results, meta)
 	// stats key order = TS insertion order: documents, provisions,
 	// definitions, then the appended EU keys.
 	documents := strings.Index(payload, `"documents":4`)
@@ -143,13 +142,13 @@ func TestGetAboutMissingOptionalTables(t *testing.T) {
 	db := storetest.NewTestDb(t)
 	euDropTable(t, db, "definitions")
 	euDropTable(t, db, "eu_references")
-	about := &tools.AboutContext{Version: "1.0.0", Fingerprint: "fp", DbBuilt: "2026-02-21T00:00:00Z"}
+	about := &AboutContext{Version: "1.0.0", Fingerprint: "fp", DBBuilt: "2026-02-21T00:00:00Z"}
 
-	results, meta, err := tools.GetAbout(context.Background(), db, about)
+	results, meta, err := GetAbout(context.Background(), db, about)
 	if err != nil {
 		t.Fatal(err)
 	}
-	payload := tools.MarshalResponse(results, meta)
+	payload := MarshalResponse(results, meta)
 	root := euObject(t, results)
 
 	stats := euObject(t, root["stats"])
@@ -173,7 +172,7 @@ func TestGetAboutNilContext(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	if _, _, err := tools.GetAbout(context.Background(), db, nil); err == nil {
+	if _, _, err := GetAbout(context.Background(), db, nil); err == nil {
 		t.Fatal("expected error for nil about context")
 	}
 }
@@ -184,8 +183,8 @@ func TestGetAboutClosedDB(t *testing.T) {
 	db.Close()
 
 	// CachedCount degrades to 0 on a closed db — never throws.
-	about := &tools.AboutContext{Version: "1.0.0", Fingerprint: "fp", DbBuilt: "2026-02-21T00:00:00Z"}
-	results, _, err := tools.GetAbout(context.Background(), db, about)
+	about := &AboutContext{Version: "1.0.0", Fingerprint: "fp", DBBuilt: "2026-02-21T00:00:00Z"}
+	results, _, err := GetAbout(context.Background(), db, about)
 	if err != nil {
 		t.Fatalf("closed db must degrade, not error: %v", err)
 	}

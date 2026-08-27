@@ -15,10 +15,10 @@ import (
 )
 
 const (
-	dataSourceConst = "Nemzeti Jogszabálytár (National Legislation Database) (njt.hu) — " +
+	dataSource = "Nemzeti Jogszabálytár (National Legislation Database) (njt.hu) — " +
 		"Magyar Közlöny (Hungarian Official Gazette)"
-	jurisdictionConst = "HU"
-	disclaimerConst   = "This data is sourced from the Nemzeti Jogszabálytár " +
+	jurisdiction = "HU"
+	disclaimer   = "This data is sourced from the Nemzeti Jogszabálytár " +
 		"(National Legislation Database) under public domain. " +
 		"The authoritative versions are maintained by Magyar Közlöny (Hungarian Official Gazette). " +
 		"Always verify with the official Nemzeti Jogszabálytár (National Legislation Database) portal (njt.hu)."
@@ -42,11 +42,11 @@ type ResponseMetadata struct {
 // readDbMetadata(ctx, db).built_at (key omitted when absent).
 func GenerateResponseMetadata(ctx context.Context, db *sql.DB) ResponseMetadata {
 	meta := ResponseMetadata{
-		DataSource:   dataSourceConst,
-		Jurisdiction: jurisdictionConst,
-		Disclaimer:   disclaimerConst,
+		DataSource:   dataSource,
+		Jurisdiction: jurisdiction,
+		Disclaimer:   disclaimer,
 	}
-	if m := store.ReadDbMetadata(ctx, db); m.HasBuiltAt {
+	if m := store.ReadDBMetadata(ctx, db); m.HasBuiltAt {
 		meta.Freshness = m.BuiltAt
 	}
 	return meta

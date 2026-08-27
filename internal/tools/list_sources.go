@@ -41,7 +41,7 @@ type listSourcesResult struct {
 // always returns the single source record (never empty results), and never
 // sets _metadata.note — a missing built_at only omits database.built_at.
 func ListSources(ctx context.Context, db *sql.DB) (any, ResponseMetadata, error) {
-	meta := store.ReadDbMetadata(ctx, db)
+	meta := store.ReadDBMetadata(ctx, db)
 
 	var builtAt *string
 	if meta.HasBuiltAt {

@@ -21,7 +21,7 @@ import (
 type AboutContext struct {
 	Version     string
 	Fingerprint string
-	DbBuilt     string
+	DBBuilt     string
 }
 
 // Handler is the common signature of every non-about tool handler. ctx is

@@ -35,9 +35,9 @@ func HasBooleanOperators(input string) bool {
 	return booleanOpsRe.MatchString(input)
 }
 
-// SanitizeFtsInput sanitizes user input for safe FTS5 queries.
+// SanitizeInput sanitizes user input for safe FTS5 queries.
 // Preserves boolean operators (AND, OR, NOT) when detected.
-func SanitizeFtsInput(input string) string {
+func SanitizeInput(input string) string {
 	var stripped string
 	if HasBooleanOperators(input) {
 		// Preserve boolean structure: only strip dangerous chars, keep quotes and parens
@@ -49,7 +49,7 @@ func SanitizeFtsInput(input string) string {
 	return strings.TrimSpace(whitespaceRe.ReplaceAllString(stripped, " "))
 }
 
-// BuildFtsQueryVariants builds FTS5 query variants for a search term.
+// BuildQueryVariants builds FTS5 query variants for a search term.
 // Returns variants in order of specificity (most specific first):
 // 1. Exact phrase match
 // 2. All terms required (AND)
@@ -57,7 +57,7 @@ func SanitizeFtsInput(input string) string {
 // 4. Any term matches (OR) — broad fallback
 //
 // When boolean operators are detected, passes query through as-is.
-func BuildFtsQueryVariants(sanitized string) []string {
+func BuildQueryVariants(sanitized string) []string {
 	if strings.TrimSpace(sanitized) == "" {
 		return []string{}
 	}

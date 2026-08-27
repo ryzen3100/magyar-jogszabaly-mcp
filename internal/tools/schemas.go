@@ -20,7 +20,7 @@ import (
 const (
 	maxQueryLength        = 512
 	maxDocumentIDLength   = 256
-	maxEuDocumentIDLength = 128
+	maxEUDocumentIDLength = 128
 	maxCitationLength     = 512
 	maxRefLength          = 64
 	maxEnumLength         = 20
@@ -214,7 +214,7 @@ var getHungarianImplementationsSchema = &jsonschema.Schema{
 	Type: "object",
 	Properties: map[string]*jsonschema.Schema{
 		"eu_document_id": str("EU document ID (e.g., \"regulation:2016/679\" for GDPR, "+
-			"\"directive:2022/2555\" for NIS2).", maxEuDocumentIDLength),
+			"\"directive:2022/2555\" for NIS2).", maxEUDocumentIDLength),
 		"primary_only":  boolean("Return only primary referencing statutes (default: false).", "false"),
 		"in_force_only": boolean("Return only currently in-force statutes (default: false).", "false"),
 	},
@@ -254,7 +254,7 @@ var validateEUComplianceSchema = &jsonschema.Schema{
 	Type: "object",
 	Properties: map[string]*jsonschema.Schema{
 		"document_id":    str("Hungarian statute identifier.", maxDocumentIDLength),
-		"eu_document_id": str("Optional: check against a specific EU document.", maxEuDocumentIDLength),
+		"eu_document_id": str("Optional: check against a specific EU document.", maxEUDocumentIDLength),
 	},
 	PropertyOrder: []string{"document_id", "eu_document_id"},
 	Required:      []string{"document_id"},

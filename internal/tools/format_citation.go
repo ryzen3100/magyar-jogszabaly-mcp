@@ -56,7 +56,7 @@ func FormatCitation(ctx context.Context, db *sql.DB, args map[string]any) (any, 
 		// Structured references (Hungarian formal, database ID) additionally
 		// get their full title resolved from the database.
 		if parsedCitation.Structured {
-			docID, err := statute.ResolveDocumentId(ctx, db, parsedCitation.DocumentRef)
+			docID, err := statute.ResolveDocumentID(ctx, db, parsedCitation.DocumentRef)
 			if err != nil {
 				return nil, ResponseMetadata{}, fmt.Errorf("resolve document: %w", err)
 			}

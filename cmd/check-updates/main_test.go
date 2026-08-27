@@ -47,7 +47,7 @@ func TestDaysSince(t *testing.T) {
 
 // TestReadBuiltAt pins the missing-table vs missing-row distinction that the
 // TS port must preserve (two different error messages) and that
-// store.ReadDbMetadata collapses.
+// store.ReadDBMetadata collapses.
 func TestReadBuiltAt(t *testing.T) {
 	db, err := sql.Open("sqlite", ":memory:")
 	if err != nil {

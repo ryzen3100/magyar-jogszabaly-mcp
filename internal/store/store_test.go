@@ -40,54 +40,54 @@ func mustDropTable(t *testing.T, db *sql.DB, table string) {
 
 // --- readDbMetadata / generateResponseMetadata (freshness) concerns --------
 
-func TestReadDbMetadata(t *testing.T) {
+func TestReadDBMetadata(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
-	m := store.ReadDbMetadata(context.Background(), db)
+	m := store.ReadDBMetadata(context.Background(), db)
 	if m.Tier != "free" || m.SchemaVersion != "1.0" ||
 		m.BuiltAt != "2026-02-21T00:00:00Z" || !m.HasBuiltAt {
 		t.Fatalf("unexpected metadata: %+v", m)
 	}
-	if again := store.ReadDbMetadata(context.Background(), db); again != m {
+	if again := store.ReadDBMetadata(context.Background(), db); again != m {
 		t.Fatalf("metadata not cached per db: %+v vs %+v", again, m)
 	}
 }
 
-func TestReadDbMetadataDefaultsWhenTableMissing(t *testing.T) {
+func TestReadDBMetadataDefaultsWhenTableMissing(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 	mustDropTable(t, db, "db_metadata")
-	m := store.ReadDbMetadata(context.Background(), db)
+	m := store.ReadDBMetadata(context.Background(), db)
 	if m.Tier != "free" || m.SchemaVersion != "1.0" || m.HasBuiltAt || m.BuiltAt != "" {
 		t.Fatalf("expected free/1.0 defaults without built_at, got %+v", m)
 	}
 }
 
-func TestReadDbMetadataCacheIsolation(t *testing.T) {
+func TestReadDBMetadataCacheIsolation(t *testing.T) {
 	t.Parallel()
 	withMeta := storetest.NewTestDb(t)
 	withoutMeta := storetest.NewTestDb(t)
 	mustDropTable(t, withoutMeta, "db_metadata")
 
-	if m := store.ReadDbMetadata(context.Background(), withMeta); m.BuiltAt != "2026-02-21T00:00:00Z" {
+	if m := store.ReadDBMetadata(context.Background(), withMeta); m.BuiltAt != "2026-02-21T00:00:00Z" {
 		t.Fatalf("intact db lost its built_at: %+v", m)
 	}
-	if m := store.ReadDbMetadata(context.Background(), withoutMeta); m.HasBuiltAt {
+	if m := store.ReadDBMetadata(context.Background(), withoutMeta); m.HasBuiltAt {
 		t.Fatalf("cache leaked across *sql.DB handles: %+v", m)
 	}
 }
 
 // A failed read (here: a cancelled context) must return the defaults uncached
 // so a later call retries instead of pinning degraded metadata forever.
-func TestReadDbMetadataFailedReadNotCached(t *testing.T) {
+func TestReadDBMetadataFailedReadNotCached(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 	cancelled, cancel := context.WithCancel(context.Background())
 	cancel()
-	if m := store.ReadDbMetadata(cancelled, db); m.HasBuiltAt {
+	if m := store.ReadDBMetadata(cancelled, db); m.HasBuiltAt {
 		t.Fatalf("failed read should return defaults, got %+v", m)
 	}
-	if m := store.ReadDbMetadata(context.Background(), db); m.BuiltAt != "2026-02-21T00:00:00Z" {
+	if m := store.ReadDBMetadata(context.Background(), db); m.BuiltAt != "2026-02-21T00:00:00Z" {
 		t.Fatalf("expected retry after failed read, got %+v", m)
 	}
 }
@@ -243,10 +243,10 @@ func TestOpenReadOnlySpecialCharsInPath(t *testing.T) {
 
 // --- resolveDbPath -----------------------------------------------------------
 
-func TestResolveDbPathEnvOverride(t *testing.T) {
+func TestResolveDBPathEnvOverride(t *testing.T) {
 	want := filepath.Join(t.TempDir(), "custom", "law.sqlite")
 	t.Setenv("HUNGARIAN_LAW_DB_PATH", want)
-	p, err := store.ResolveDbPath()
+	p, err := store.ResolveDBPath()
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -255,9 +255,9 @@ func TestResolveDbPathEnvOverride(t *testing.T) {
 	}
 }
 
-func TestResolveDbPathError(t *testing.T) {
+func TestResolveDBPathError(t *testing.T) {
 	t.Setenv("HUNGARIAN_LAW_DB_PATH", "")
-	_, err := store.ResolveDbPath()
+	_, err := store.ResolveDBPath()
 	if err == nil {
 		t.Fatal("expected error when no candidate exists")
 	}
@@ -269,7 +269,7 @@ func TestResolveDbPathError(t *testing.T) {
 
 // --- fingerprint / built-at helpers ------------------------------------------
 
-func TestDbFingerprintSmallFileZeroPadded(t *testing.T) {
+func TestDBFingerprintSmallFileZeroPadded(t *testing.T) {
 	t.Parallel()
 	dir := t.TempDir()
 	path := filepath.Join(dir, "small.db")
@@ -282,7 +282,7 @@ func TestDbFingerprintSmallFileZeroPadded(t *testing.T) {
 	sum := sha256.Sum256(sample)
 	want := hex.EncodeToString(sum[:])[:12]
 
-	got, err := store.DbFingerprint(path)
+	got, err := store.DBFingerprint(path)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -291,7 +291,7 @@ func TestDbFingerprintSmallFileZeroPadded(t *testing.T) {
 	}
 }
 
-func TestDbFingerprintLargeFileFirst64KiBOnly(t *testing.T) {
+func TestDBFingerprintLargeFileFirst64KiBOnly(t *testing.T) {
 	t.Parallel()
 	dir := t.TempDir()
 	big := make([]byte, 64*1024+7)
@@ -305,7 +305,7 @@ func TestDbFingerprintLargeFileFirst64KiBOnly(t *testing.T) {
 	sum := sha256.Sum256(big[:64*1024])
 	want := hex.EncodeToString(sum[:])[:12]
 
-	got, err := store.DbFingerprint(path)
+	got, err := store.DBFingerprint(path)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -314,22 +314,22 @@ func TestDbFingerprintLargeFileFirst64KiBOnly(t *testing.T) {
 	}
 }
 
-func TestDbFingerprintMissingFileErrors(t *testing.T) {
+func TestDBFingerprintMissingFileErrors(t *testing.T) {
 	t.Parallel()
-	if _, err := store.DbFingerprint(filepath.Join(t.TempDir(), "missing.db")); err == nil {
+	if _, err := store.DBFingerprint(filepath.Join(t.TempDir(), "missing.db")); err == nil {
 		t.Fatal("expected error for missing file")
 	}
 }
 
-func TestDbBuiltOrMtimePrefersBuiltAt(t *testing.T) {
+func TestDBBuiltOrMtimePrefersBuiltAt(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
-	if got := store.DbBuiltOrMtime(context.Background(), db, t.TempDir()); got != "2026-02-21T00:00:00Z" {
+	if got := store.DBBuiltOrMtime(context.Background(), db, t.TempDir()); got != "2026-02-21T00:00:00Z" {
 		t.Fatalf("built_at = %q, want 2026-02-21T00:00:00Z", got)
 	}
 }
 
-func TestDbBuiltOrMtimeFallsBackToMtime(t *testing.T) {
+func TestDBBuiltOrMtimeFallsBackToMtime(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 	mustDropTable(t, db, "db_metadata")
@@ -343,16 +343,16 @@ func TestDbBuiltOrMtimeFallsBackToMtime(t *testing.T) {
 		t.Fatal(err)
 	}
 	want := st.ModTime().UTC().Format(isoMillis)
-	if got := store.DbBuiltOrMtime(context.Background(), db, path); got != want {
+	if got := store.DBBuiltOrMtime(context.Background(), db, path); got != want {
 		t.Fatalf("mtime fallback = %q, want %q", got, want)
 	}
 }
 
-func TestDbBuiltOrMtimeFallsBackToNowWhenStatFails(t *testing.T) {
+func TestDBBuiltOrMtimeFallsBackToNowWhenStatFails(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 	mustDropTable(t, db, "db_metadata")
-	got := store.DbBuiltOrMtime(context.Background(), db, filepath.Join(t.TempDir(), "missing.db"))
+	got := store.DBBuiltOrMtime(context.Background(), db, filepath.Join(t.TempDir(), "missing.db"))
 	if !regexp.MustCompile(`^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z$`).MatchString(got) {
 		t.Fatalf("now fallback = %q, want JS toISOString shape", got)
 	}
@@ -378,7 +378,7 @@ func TestRealDatabase(t *testing.T) {
 	if n := store.SafeCount(context.Background(), db, "SELECT COUNT(*) as count FROM legal_documents"); n <= 0 {
 		t.Fatalf("real legal_documents count = %d, want > 0", n)
 	}
-	m := store.ReadDbMetadata(context.Background(), db)
+	m := store.ReadDBMetadata(context.Background(), db)
 	if m.Tier == "" || m.SchemaVersion == "" {
 		t.Fatalf("real database metadata missing defaults: %+v", m)
 	}

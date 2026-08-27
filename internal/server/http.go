@@ -119,7 +119,7 @@ func RunHTTP() error {
 	defer db.Close()
 
 	logf("Database: %s", path)
-	logf("Tier: %s", store.ReadDbMetadata(context.Background(), db).Tier)
+	logf("Tier: %s", store.ReadDBMetadata(context.Background(), db).Tier)
 
 	// Built once at startup, shared by every session.
 	about := buildAboutContext(db, path)

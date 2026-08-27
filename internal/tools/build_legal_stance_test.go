@@ -118,7 +118,7 @@ func TestBuildLegalStanceStripsChapter(t *testing.T) {
 	}
 }
 
-func TestBuildLegalStanceDegradedOnClosedDb(t *testing.T) {
+func TestBuildLegalStanceDegradedOnClosedDB(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 	db.Close()
