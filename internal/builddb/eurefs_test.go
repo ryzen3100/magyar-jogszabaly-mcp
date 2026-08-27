@@ -1,0 +1,143 @@
+package builddb
+
+import (
+	"reflect"
+	"strings"
+	"testing"
+)
+
+func TestExtractEuReferences(t *testing.T) {
+	simple := EURef{
+		Type: "regulation", Community: "EU", Year: 2016, Number: 679,
+		EUDocumentID: "regulation:2016/679", EUArticle: "",
+		FullCitation: "Regulation (EU) 2016/679", ReferenceContext: "Regulation (EU) 2016/679",
+		ReferenceType: "references",
+	}
+
+	tests := []struct {
+		name string
+		text string
+		want []EURef
+	}{
+		{"empty text", "", nil},
+		{"whitespace-only text", "  \n\t ", nil},
+		{"no match", "a rendelet 2016/679 számú rendelkezése", nil},
+		{"pattern 1 community in parens", "Regulation (EU) 2016/679", []EURef{simple}},
+		{"pattern 2 trailing community", "a Directive 2011/83/EU szerint", []EURef{{
+			Type: "directive", Community: "EU", Year: 2011, Number: 83,
+			EUDocumentID: "directive:2011/83", EUArticle: "",
+			FullCitation: "Directive 2011/83/EU", ReferenceContext: "a Directive 2011/83/EU szerint",
+			ReferenceType: "references",
+		}}},
+		{"two-digit year pivots to 1900s", "a Directive 78/660/EEC szerint", []EURef{{
+			Type: "directive", Community: "EEC", Year: 1978, Number: 660,
+			EUDocumentID: "directive:1978/660", EUArticle: "",
+			FullCitation: "Directive 78/660/EEC", ReferenceContext: "a Directive 78/660/EEC szerint",
+			ReferenceType: "references",
+		}}},
+		{"two-digit year pivots to 2000s", "Directive 05/29/EC", []EURef{{
+			Type: "directive", Community: "EC", Year: 2005, Number: 29,
+			EUDocumentID: "directive:2005/29", EUArticle: "",
+			FullCitation: "Directive 05/29/EC", ReferenceContext: "Directive 05/29/EC",
+			ReferenceType: "references",
+		}}},
+		{"pattern 3 defaults community to EU", "említett Directive 2019/2161 rendelkezés", []EURef{{
+			Type: "directive", Community: "EU", Year: 2019, Number: 2161,
+			EUDocumentID: "directive:2019/2161", EUArticle: "",
+			FullCitation: "Directive 2019/2161", ReferenceContext: "említett Directive 2019/2161 rendelkezés",
+			ReferenceType: "references",
+		}}},
+		{"zero number skipped", "Directive 2019/0 vég", nil},
+		{
+			"case-insensitive, citation keeps raw casing",
+			"REGULATION (EU) 2016/679",
+			[]EURef{func() EURef {
+				r := simple
+				r.FullCitation = "REGULATION (EU) 2016/679"
+				r.ReferenceContext = "REGULATION (EU) 2016/679"
+				return r
+			}()},
+		},
+		{
+			"article extracted and implements detected in context",
+			"A rendelet rendelkezéseit implement kell alkalmazni, lásd Article 5(1) szerint, továbbá Regulation (EU) 2016/679",
+			[]EURef{func() EURef {
+				r := simple
+				r.EUArticle = "5(1)"
+				r.ReferenceType = "implements"
+				r.ReferenceContext = "A rendelet rendelkezéseit implement kell alkalmazni, lásd Article 5(1) szerint, továbbá Regulation (EU) 2016/679"
+				return r
+			}()},
+		},
+		{
+			"whitespace collapsed in context",
+			"sor\n\tsor\t  Regulation (EU) 2016/679",
+			[]EURef{func() EURef {
+				r := simple
+				r.ReferenceContext = "sor sor Regulation (EU) 2016/679"
+				return r
+			}()},
+		},
+		{
+			"context window cuts on runes, not bytes",
+			strings.Repeat("ő", 130) + "Regulation (EU) 2016/679",
+			[]EURef{func() EURef {
+				r := simple
+				r.ReferenceContext = strings.Repeat("ő", 120) + "Regulation (EU) 2016/679"
+				return r
+			}()},
+		},
+		{
+			"same document deduped across patterns",
+			"Regulation (EU) 2016/679 és továbbá a Regulation 2016/679 rendelet",
+			[]EURef{func() EURef {
+				r := simple
+				// The ±120-char window around the first citation spans the
+				// whole (short) text, including the later repeat.
+				r.ReferenceContext = "Regulation (EU) 2016/679 és továbbá a Regulation 2016/679 rendelet"
+				return r
+			}()},
+		},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			got := ExtractEuReferences(tt.text)
+			if !reflect.DeepEqual(got, tt.want) {
+				t.Fatalf("ExtractEuReferences() =\n  %#v\nwant\n  %#v", got, tt.want)
+			}
+		})
+	}
+}
+
+func TestExtractEuReferencesDistinctArticles(t *testing.T) {
+	// Same EU document cited twice, >120 chars apart so the context windows
+	// do not overlap; both references must survive dedupe with their own
+	// article number.
+	text := "Article 5 of Regulation (EU) 2016/679. " +
+		strings.Repeat("kitöltő ", 30) +
+		"Article 14 of Regulation (EU) 2016/679"
+	got := ExtractEuReferences(text)
+	if len(got) != 2 {
+		t.Fatalf("len(got) = %d, want 2: %#v", len(got), got)
+	}
+	for i, wantArticle := range []string{"5", "14"} {
+		r := got[i]
+		if r.EUArticle != wantArticle || r.EUDocumentID != "regulation:2016/679" || r.ReferenceType != "references" {
+			t.Errorf("got[%d] = %#v, want article %q of regulation:2016/679", i, r, wantArticle)
+		}
+	}
+}
+
+func TestCollapseSpace(t *testing.T) {
+	tests := []struct{ in, want string }{
+		{"", ""},
+		{"  szóköz  ", "szóköz"},
+		{"a\n\tb   c", "a b c"},
+	}
+	for _, tt := range tests {
+		if got := collapseSpace(tt.in); got != tt.want {
+			t.Errorf("collapseSpace(%q) = %q, want %q", tt.in, got, tt.want)
+		}
+	}
+}
