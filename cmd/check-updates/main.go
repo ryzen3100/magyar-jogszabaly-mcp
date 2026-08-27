@@ -51,7 +51,7 @@ func main() {
 	// --- 1. Database existence ---
 	if _, err := os.Stat(dbPath); err != nil {
 		fmt.Fprintln(os.Stderr, "ERROR: Database not found at", dbPath)
-		fmt.Fprintln(os.Stderr, `Run "npm run build:db" first.`)
+		fmt.Fprintln(os.Stderr, `Run "go run ./cmd/build-db" first.`)
 		os.Exit(2)
 	}
 

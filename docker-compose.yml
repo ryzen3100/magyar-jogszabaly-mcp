@@ -8,7 +8,6 @@ services:
       # Keep this port on the LAN; do not configure router port forwarding.
       - "3000:3000"
     environment:
-      NODE_ENV: production
       PORT: "3000"
       HUNGARIAN_LAW_DB_PATH: "/data/database.db"
     volumes:

@@ -18,29 +18,18 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
 
-    strategy:
-      matrix:
-        node-version: ['18', '22']
-
     steps:
       - uses: actions/checkout@v7
 
-      - uses: actions/setup-node@v7
+      - uses: actions/setup-go@v5
         with:
-          node-version: ${{ matrix.node-version }}
-          cache: 'npm'
+          go-version: '1.26'
 
-      - run: npm ci
+      - name: Vet
+        run: go vet ./...
 
-      - name: Lint (TypeScript type check)
-        run: npm run lint
-
-      - name: Unit tests
-        run: npm test
-
-      - name: Contract tests
-        run: npm run test:contract
+      - name: Tests
+        run: go test ./...
 
       - name: Build
-        run: npm run build
-
+        run: go build ./...

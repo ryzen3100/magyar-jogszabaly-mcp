@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-VERSION=$(node -p "require('./package.json').version")
+VERSION=$(sed -n 's/.*"version": *"\([^"]*\)".*/\1/p' server.json | head -1)
 REPO="Ansvar-Systems/Hungarian-law-mcp"
 TAG="v${VERSION}"
 ASSET="database-hungarian.db.gz"

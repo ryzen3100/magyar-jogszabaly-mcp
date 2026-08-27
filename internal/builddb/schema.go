@@ -1,8 +1,8 @@
 // Package builddb builds the law database from data/seed JSON files — port of
-// scripts/build-db.ts (npm run build:db). Seed files are iterated in sorted
-// order (see build.go), so rowids can differ from a TypeScript-built database
-// while the content is identical; tools/parity/compare_db.py is the logical
-// comparison used to verify that.
+// the TypeScript scripts/build-db.ts (kept on the dev branch). Seed files are
+// iterated in sorted order (see build.go), so rowids can differ from a
+// TypeScript-built database while the content is identical;
+// tools/parity/compare_db.py is the logical comparison used to verify that.
 package builddb
 
 // SCHEMA is the database DDL, copied verbatim from the SCHEMA const in

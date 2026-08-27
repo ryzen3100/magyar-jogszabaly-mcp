@@ -44,8 +44,8 @@ database_is_current() {
 
 if [ "$(id -u)" = "0" ]; then
   mkdir -p "$DB_DIR"
-  chown -R nodejs:nodejs "$DB_DIR"
-  exec su-exec nodejs "$0" "$@"
+  chown -R mcp:mcp "$DB_DIR"
+  exec su-exec mcp "$0" "$@"
 fi
 
 mkdir -p "$DB_DIR"

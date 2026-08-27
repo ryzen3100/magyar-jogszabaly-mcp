@@ -16,13 +16,9 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
-      - uses: actions/setup-node@v7
+      - uses: actions/setup-go@v5
         with:
-          node-version: '22'
-          cache: npm
-
-      - name: Install dependencies
-        run: npm ci --ignore-scripts
+          go-version: '1.26'
 
       - name: Download current database artifact
         run: bash scripts/download-db.sh
@@ -32,8 +28,14 @@ jobs:
         shell: bash
         run: |
           set +e
-          npm run check-updates 2>&1 | tee check-updates.log
-          STATUS=${PIPESTATUS[0]}
+          go build -o checker ./cmd/check-updates
+          if [ $? -ne 0 ]; then
+            echo "check-updates binary failed to build" | tee check-updates.log
+            STATUS=2
+          else
+            ./checker 2>&1 | tee check-updates.log
+            STATUS=${PIPESTATUS[0]}
+          fi
           echo "status_code=$STATUS" >> "$GITHUB_OUTPUT"
           if [ "$STATUS" -eq 1 ]; then
             echo "updates_found=true" >> "$GITHUB_OUTPUT"
@@ -77,9 +79,9 @@ jobs:
               `| Exit code | ${{ steps.check.outputs.status_code }} |`,
               '',
               '### Recommended actions',
-              '1. Run `npm run check-updates` locally for details',
+              '1. Run `go run ./cmd/check-updates` locally for details',
               '2. If updates available, run ingestion and rebuild database',
-              '3. Re-run contract tests before release',
+              '3. Re-run tests before release',
             ].join('\n');
 
             const { data: issues } = await github.rest.issues.listForRepo({

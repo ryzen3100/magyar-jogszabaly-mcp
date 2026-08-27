@@ -87,7 +87,22 @@ jobs:
           curl --fail --silent http://127.0.0.1:18080/mcp | grep -q 'streamable-http'
           python3 scripts/http-smoke.py http://127.0.0.1:18080
 
-          docker exec magyar-jogszabaly-mcp-smoke node --input-type=module -e "import Database from '@ansvar/mcp-sqlite'; const db = new Database('/data/database.db', { readonly: true }); const documents = Number(db.prepare('SELECT COUNT(*) AS count FROM legal_documents').get().count); const provisions = Number(db.prepare('SELECT COUNT(*) AS count FROM legal_provisions').get().count); const hit = db.prepare('SELECT rowid FROM provisions_fts LIMIT 1').get(); if (documents < 1 || provisions < 1 || !hit) throw new Error('Smoke database/search validation failed'); db.close();"
+          # Validate the bundled database actually shipped in the image
+          # (replaces the former in-container node/sqlite check — the Go image
+          # has no node; pull the DB out and inspect it with the runner's
+          # python3 sqlite3 stdlib instead).
+          docker cp magyar-jogszabaly-mcp-smoke:/data/database.db /tmp/smoke-database.db
+          python3 - <<'PY'
+          import sqlite3
+
+          con = sqlite3.connect("file:/tmp/smoke-database.db?mode=ro", uri=True)
+          documents = con.execute("SELECT COUNT(*) FROM legal_documents").fetchone()[0]
+          provisions = con.execute("SELECT COUNT(*) FROM legal_provisions").fetchone()[0]
+          hit = con.execute("SELECT rowid FROM provisions_fts LIMIT 1").fetchone()
+          if documents < 1 or provisions < 1 or hit is None:
+              raise SystemExit("Smoke database/search validation failed")
+          print(f"Smoke database OK: {documents} documents, {provisions} provisions")
+          PY
 
       - name: Retag and push verified image
         env:

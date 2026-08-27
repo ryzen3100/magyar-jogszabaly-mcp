@@ -1,5 +1,5 @@
 // Command build-db builds the law database from data/seed JSON files —
-// Go port of `npm run build:db` (scripts/build-db.ts).
+// Go port of the TypeScript scripts/build-db.ts (kept on the dev branch).
 //
 // Usage:
 //

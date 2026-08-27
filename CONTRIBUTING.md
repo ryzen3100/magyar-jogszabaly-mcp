@@ -7,7 +7,7 @@ Thank you for your interest in contributing!
 1. Fork the repository
 2. Create a feature branch from `dev` (never push directly to `main`)
 3. Make your changes
-4. Run tests: `npm test && npm run test:contract`
+4. Run checks: `go vet ./... && go test ./...`
 5. Submit a pull request targeting `dev`
 
 ## Branch Strategy
@@ -22,10 +22,10 @@ feature-branch → PR to dev → verify on dev → PR to main → deploy
 
 ## Code Standards
 
-- TypeScript strict mode
+- Go, `gofmt`-clean and `go vet`-clean
 - All SQL queries must use parameterized statements
-- All tools must declare typed JSON-Schema `inputSchema` objects with field descriptions
-- Run `npm run lint` before committing
+- All tools must declare JSON-Schema `inputSchema` objects with field descriptions
+- Run `go vet ./...` before committing
 
 ## Reporting Issues
 

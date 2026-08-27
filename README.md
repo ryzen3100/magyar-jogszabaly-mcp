@@ -182,19 +182,35 @@ A lekérdezések az MCP-protokollon keresztül jutnak el a szerverhez. Bizalmas 
 
 ## Fejlesztés
 
+A szerver Go-ban íródott — futtatásához már nincs szükség Node.js-re. Az építéshez Go 1.26 vagy újabb verzió szükséges, és cgo nélkül fordul.
+
 ### Telepítés
 
 ```bash
 git clone https://github.com/ryzen3100/magyar-jogszabaly-mcp
 cd magyar-jogszabaly-mcp
-npm install
-npm run build
+go build ./cmd/hungarian-law-mcp
 ```
+
+vagy a közzétett Go modulból (release címke megjelenése után):
+
+```bash
+go install github.com/ryzen3100/magyar-jogszabaly-mcp/cmd/hungarian-law-mcp@latest
+```
+
+### Futtatás
+
+```bash
+hungarian-law-mcp                   # stdio MCP (alapértelmezett)
+PORT=3000 hungarian-law-mcp serve   # Streamable HTTP a 3000-es porton
+```
+
+Az adatbázis helye alapértelmezés szerint `data/database.db`; a `HUNGARIAN_LAW_DB_PATH` környezeti változóval írható felül.
 
 ### Adatbázis-kezelés
 
 ```bash
-npm run build:db            # SQLite-adatbázis újraépítése
+go run ./cmd/build-db       # SQLite-adatbázis újraépítése a seed-fájlokból
 ```
 
 ### Az adatbázis biztonságos kézi frissítése
@@ -203,14 +219,12 @@ A szolgáltatás futás közben nem tölt le új adatokat az njt.hu-ról. A fris
 
 ```bash
 git switch -c data/update-YYYY-MM-DD
-npm ci
-npm run ingest -- --full --refresh-discovery
-npm run build:db
+go run ./cmd/ingest -full -refresh-discovery
+go run ./cmd/build-db
 
-npm run lint
-npm test
-npm run test:contract
-npm run check-updates
+go vet ./...
+go test ./...
+go run ./cmd/check-updates
 ```
 
 Az `ingest` szkript a hivatalos `njt.hu` oldalról frissíti a seed-fájlokat. A `data/census.json` és a `sources.yml` fájlokat nem módosítja automatikusan; a frissítés eredménye alapján nézd át, és szükség esetén kézzel módosítsd őket:
@@ -236,7 +250,7 @@ docker compose up -d
 docker compose ps
 ```
 
-Az `npm run check-updates` csak a helyi adatbázis korát, rekordszámát és az `njt.hu` elérhetőségét ellenőrzi; nem helyettesíti a teljes NJT-adatállomány újbóli betöltését. Az adatbetöltést ne az éles konténer shelljéből és ne MCP-eszközön keresztül futtasd.
+A `go run ./cmd/check-updates` csak a helyi adatbázis korát, rekordszámát és az `njt.hu` elérhetőségét ellenőrzi; nem helyettesíti a teljes NJT-adatállomány újbóli betöltését. Az adatbetöltést ne az éles konténer shelljéből és ne MCP-eszközön keresztül futtasd.
 
 ---
 

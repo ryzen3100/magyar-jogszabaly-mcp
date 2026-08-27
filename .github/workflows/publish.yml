@@ -7,7 +7,6 @@ on:
 
 permissions:
   contents: read
-  id-token: write
 
 jobs:
   publish:
@@ -17,19 +16,20 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
-      - uses: actions/setup-node@v7
+      - uses: actions/setup-go@v5
         with:
-          node-version: '20'
-          cache: 'npm'
-          registry-url: 'https://registry.npmjs.org'
+          go-version: '1.26'
 
-      - run: npm ci
-      - run: npm run lint
-      - run: npm test
-      - run: npm run test:contract
-      - run: npm run build
+      - name: Vet
+        run: go vet ./...
 
-      - name: Publish to npm
-        run: npm publish --access public --provenance
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Tests
+        run: go test ./...
+
+      - name: Build
+        run: go build ./...
+
+      # Release artifacts: the Docker image (the distributed artifact since the
+      # Go port) is built, smoke-tested, and pushed to GHCR by
+      # docker-publish.yml on the same v* tags. Standalone binaries would
+      # attach here if ever needed — deliberately no extra release tooling.

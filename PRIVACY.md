@@ -33,10 +33,11 @@ User Query -> MCP Client (Claude Desktop/Cursor/API) -> Anthropic Cloud -> MCP S
 
 ### Deployment Options
 
-#### 1. Local npm Package (Most Private)
+#### 1. Local Go Binary (Most Private)
 
 ```bash
-npx @ansvar/hungarian-law-mcp
+go install github.com/ryzen3100/magyar-jogszabaly-mcp/cmd/hungarian-law-mcp@latest
+hungarian-law-mcp
 ```
 
 - Database is local SQLite file on your machine
