@@ -91,7 +91,7 @@ export const TOOLS: Tool[] = [
       'Specify a document_id (Act title, abbreviation, or internal ID) and optionally a section or provision_ref. ' +
       'Omit section/provision_ref to get ALL provisions in the statute (use sparingly — can be large). ' +
       'Returns provision text, chapter, section number, and metadata. ' +
-      'Supports Act title references (e.g., "Privacy Act 1988"), abbreviations, and full titles. ' +
+      'Supports Act title references (e.g., "2011. évi CXII. törvény"), abbreviations, and full titles. ' +
       'Use this when you know WHICH provision you want. For discovery, use search_legislation instead.',
     inputSchema: {
       type: 'object',
@@ -99,8 +99,8 @@ export const TOOLS: Tool[] = [
         document_id: {
           type: 'string',
           description:
-            'Statute identifier: Act title (e.g., "Privacy Act 1988"), abbreviation, ' +
-            'or internal document ID (e.g., "privacy-act-1988").',
+            'Statute identifier: Act title (e.g., "2011. évi CXII. törvény"), abbreviation, ' +
+            'or internal document ID (e.g., "act-cxii-2011-info-self-determination").',
         },
         section: {
           type: 'string',
@@ -121,13 +121,13 @@ export const TOOLS: Tool[] = [
       'Validate an Hungarian legal citation against the database — zero-hallucination check. ' +
       'Parses the citation, checks that the document and provision exist, and returns warnings about status ' +
       '(repealed, amended). Use this to verify any citation BEFORE including it in a legal analysis. ' +
-      'Supports formats: "Section 13 Privacy Act 1988", "Privacy Act 1988 s 13", "s 13".',
+      'Supports formats: "2011. évi CXII. törvény 3. §", "act-cxii-2011-info-self-determination s 3", "s 3".',
     inputSchema: {
       type: 'object',
       properties: {
         citation: {
           type: 'string',
-          description: 'Citation string to validate. Examples: "Section 13 Privacy Act 1988", "Privacy Act 1988 s 13".',
+          description: 'Citation string to validate. Examples: "2011. évi CXII. törvény 3. §", "act-cxii-2011-info-self-determination s 3".',
         },
       },
       required: ['citation'],
@@ -166,8 +166,8 @@ export const TOOLS: Tool[] = [
     name: 'format_citation',
     description:
       'Format an Hungarian legal citation per standard conventions. ' +
-      'Two formats: "full" (formal, e.g., "Section 13, Privacy Act 1988"), ' +
-      '"pinpoint" (section reference only, e.g., "s 13").',
+      'Two formats: "full" (formal, e.g., "Infotörvény 3. §" from "Section 3 Infotörvény"), ' +
+      '"pinpoint" (section reference only, e.g., "3. §").',
     inputSchema: {
       type: 'object',
       properties: {
@@ -206,7 +206,7 @@ export const TOOLS: Tool[] = [
     description:
       'Get the EU legal basis that an Hungarian statute references or aligns with. ' +
       'As an EU Member State, Hungary transposes EU directives and implements EU regulations ' +
-      '(e.g., Privacy Act references GDPR concepts, SOCI Act aligns with NIS2 patterns). ' +
+      '(e.g., Infotörvény — the Hungarian data protection act — implements GDPR). ' +
       'Returns EU document identifiers, reference types, and alignment status.',
     inputSchema: {
       type: 'object',

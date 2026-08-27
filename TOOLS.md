@@ -13,6 +13,7 @@ Full-text search across all Hungarian statutes and regulations.
 | Name | Type | Required | Description |
 |------|------|----------|-------------|
 | `query` | string | Yes | Search query |
+| `document_id` | string | No | Optional: filter results to a specific statute by its document ID |
 | `limit` | number | No | Max results (default 10, max 50) |
 | `status` | string | No | Filter: `in_force`, `amended`, `repealed` |
 
@@ -30,6 +31,7 @@ Retrieve the full text of a specific provision from a statute.
 |------|------|----------|-------------|
 | `document_id` | string | Yes | Statute identifier or title |
 | `section` | string | No | Section/article number |
+| `provision_ref` | string | No | Direct provision reference (e.g., "s13"); alternative to `section` |
 
 **Returns:** Full provision text with document metadata.
 
@@ -66,6 +68,7 @@ Build a comprehensive set of citations for a legal question.
 | Name | Type | Required | Description |
 |------|------|----------|-------------|
 | `query` | string | Yes | Legal question or topic |
+| `document_id` | string | No | Optional: limit search to one statute by document ID |
 | `limit` | number | No | Max results per category (default 5) |
 
 **Returns:** Aggregated relevant provisions from multiple statutes.
@@ -119,12 +122,13 @@ Get EU legal basis (directives/regulations) for a statute.
 |------|------|----------|-------------|
 | `document_id` | string | Yes | Statute identifier |
 | `include_articles` | boolean | No | Include EU article references |
+| `reference_types` | string[] | No | Filter by reference type (e.g., "implements", "transposes") |
 
 **Returns:** EU instruments that the statute implements or references.
 
 ---
 
-## 10. get_{jurisdiction}_implementations
+## 10. get_hungarian_implementations
 
 Find statutes that implement a specific EU directive or regulation.
 
@@ -133,6 +137,8 @@ Find statutes that implement a specific EU directive or regulation.
 | Name | Type | Required | Description |
 |------|------|----------|-------------|
 | `eu_document_id` | string | Yes | EU document ID (e.g., "regulation:2016/679") |
+| `primary_only` | boolean | No | Return only primary referencing statutes (default false) |
+| `in_force_only` | boolean | No | Return only currently in-force statutes (default false) |
 
 **Returns:** Implementing statutes with status.
 
@@ -148,6 +154,10 @@ Search for EU documents with national implementation records.
 |------|------|----------|-------------|
 | `query` | string | No | Keyword search |
 | `type` | string | No | `directive` or `regulation` |
+| `year_from` | number | No | Filter by year (from) |
+| `year_to` | number | No | Filter by year (to) |
+| `has_hungarian_implementation` | boolean | No | If true, only EU documents referenced by Hungarian legislation |
+| `limit` | number | No | Max results (default 20, max 100) |
 
 **Returns:** EU documents with implementation counts.
 

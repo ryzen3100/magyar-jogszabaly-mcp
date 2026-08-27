@@ -100,7 +100,7 @@ A csatlakozás után természetes nyelven is felteheted a kérdéseidet:
 | `get_provision` | Konkrét rendelkezés lekérése a jogszabály azonosítója és a szakaszszám alapján |
 | `validate_citation` | Hivatkozás ellenőrzése az adatbázisban; a magyar formátumokat is támogatja (`"2012. évi I. törvény 116. §"`) |
 | `build_legal_stance` | Több jogszabály hivatkozásainak összesítése egy jogi témához |
-| `format_citation` | Hivatkozások formázása a magyar jogi gyakorlat szerint (teljes, rövid és pinpoint hivatkozás) |
+| `format_citation` | Hivatkozások formázása a magyar jogi gyakorlat szerint (teljes és pinpoint hivatkozás) |
 | `check_currency` | A jogszabály hatályának ellenőrzése (hatályos, módosított vagy hatályon kívül helyezett) |
 | `list_sources` | Az elérhető jogszabályok listázása metaadatokkal |
 | `about` | Szerverinformációk és adatbázis-statisztikák |

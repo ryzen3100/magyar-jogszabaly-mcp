@@ -11,11 +11,7 @@ This document addresses privacy and confidentiality considerations when using th
 **Key Risks:**
 - Queries through Claude API flow via Anthropic cloud infrastructure
 - Query content may reveal client matters and privileged information
-<<<<<<< HEAD
 - Hungarian Bar Association rules (Magyar Ügyvédi Kamara — MÜK, muk.hu) require strict confidentiality (ügyvédi titoktartás) under the 2017. évi LXXVIII. törvény az ügyvédi tevékenységről, §9
-=======
-- Hungarian Bar Association rules (Magyar Ügyvédi Kamara — MÜK) require strict confidentiality (ügyvédi titoktartás) and data processing controls
->>>>>>> origin/dev
 
 **Safe Use Options:**
 1. **General Legal Research**: Use Tool for non-client-specific queries
@@ -46,10 +42,7 @@ npx @ansvar/hungarian-law-mcp
 - Database is local SQLite file on your machine
 - No data transmitted to external servers (except to AI client for LLM processing)
 - Full control over data at rest
-<<<<<<< HEAD
 - Recommended for: general research, solo practitioners, matters involving any client context
-=======
->>>>>>> origin/dev
 
 #### 2. Remote Endpoint (Vercel)
 
@@ -57,7 +50,6 @@ npx @ansvar/hungarian-law-mcp
 Endpoint: https://hungarian-law-mcp.vercel.app/mcp
 ```
 
-<<<<<<< HEAD
 - Queries transit Vercel infrastructure (Vercel, Inc., USA)
 - Tool responses return through the same path
 - Subject to Vercel's privacy policy
@@ -66,17 +58,12 @@ Endpoint: https://hungarian-law-mcp.vercel.app/mcp
 #### 3. On-Premise Deployment (Most Secure)
 
 ```bash
-docker run -e DATABASE_PATH=/data/hungarian-law.db ansvar/hungarian-law-mcp
+docker run -p 3000:3000 ghcr.io/ryzen3100/magyar-jogszabaly-mcp
 ```
 
 - Full control: no data leaves your infrastructure
 - Pair with a self-hosted LLM (e.g., Ollama) to eliminate all external data flows
 - Required for: classified matters, government use, matters where titoktartási kötelezettség (confidentiality obligation) mandates no external processing
-=======
-- Queries transit Vercel infrastructure
-- Tool responses return through the same path
-- Subject to Vercel's privacy policy
->>>>>>> origin/dev
 
 ### What Gets Transmitted
 
@@ -96,7 +83,6 @@ When you use this Tool through an AI client:
 
 ### Hungarian Bar Association Rules
 
-<<<<<<< HEAD
 Hungarian lawyers (ügyvédek) are bound by strict confidentiality rules under the **2017. évi LXXVIII. törvény az ügyvédi tevékenységről** (Act LXXVIII of 2017 on Legal Practice) and the **MÜK ügyvédi etikai szabályzata**, enforced by the Magyar Ügyvédi Kamara (MÜK, muk.hu). Disciplinary matters are handled by the MÜK Fegyelmi Bizottsága.
 
 #### Titoktartási Kötelezettség (Duty of Confidentiality) — Ügyvédi Törvény §9
@@ -128,27 +114,6 @@ The 2011. évi CXII. törvény (Infotv.) predates GDPR and was significantly ame
 - Specific obligations for processing by public authorities and courts
 
 Ügyvédek processing client personal data must comply with both GDPR and Infotv. When in doubt, consult NAIH guidance at naih.hu, including published ajánlások (recommendations) and határozatok (decisions).
-=======
-Hungarian lawyers (ügyvédek) are bound by strict confidentiality rules under the 2017. évi LXXVIII. törvény az ügyvédi tevékenységről (Act LXXVIII of 2017 on Legal Practice) and the MÜK ügyvédi etikai szabályzata, enforced by the Magyar Ügyvédi Kamara (MÜK, magyarugyvedikamara.hu).
-
-#### Ügyvédi Titoktartás (Duty of Confidentiality)
-
-- All client communications are privileged under the Act on Legal Practice
-- Client identity may be confidential in sensitive matters
-- Case strategy and legal analysis are protected
-- Information that could identify clients or matters must be safeguarded
-- Breach of confidentiality may result in disciplinary proceedings (fegyelmi eljárás) before the MÜK Fegyelmi Bizottsága
-
-### Hungarian Personal Data Protection Act (Infotv.) and GDPR
-
-Under **GDPR Article 28** and the **2011. évi CXII. törvény az információs önrendelkezési jogról és az információszabadságról (Infotv.)**, when using services that process client data:
-
-- You are the **Data Controller** (adatkezelő)
-- AI service providers (Anthropic, Vercel) may be **Data Processors** (adatfeldolgozó)
-- A **Data Processing Agreement** (adatfeldolgozási megállapodás) may be required
-- Ensure adequate technical and organizational measures (technikai és szervezési intézkedések)
-- The National Authority for Data Protection and Freedom of Information (Nemzeti Adatvédelmi és Információszabadság Hatóság — NAIH, naih.hu) oversees compliance
->>>>>>> origin/dev
 
 ---
 
@@ -159,11 +124,7 @@ Under **GDPR Article 28** and the **2011. évi CXII. törvény az információs 
 **Safe to use through any deployment:**
 
 ```
-<<<<<<< HEAD
 Example: "What does § 6:519 of the Ptk. (2013. évi V. törvény) say about general tort liability?"
-=======
-Example: "What does § 6:519 of the Ptk. (Polgári Törvénykönyv) say about general tort liability?"
->>>>>>> origin/dev
 ```
 
 - No client identity involved
@@ -175,34 +136,21 @@ Example: "What does § 6:519 of the Ptk. (Polgári Törvénykönyv) say about ge
 **Use with caution:**
 
 ```
-<<<<<<< HEAD
 Example: "What are the penalties for fraud (csalás) under the Hungarian Btk. (2012. évi C. törvény)?"
-=======
-Example: "What are the penalties for fraud (csalás) under the Hungarian Btk. (Büntető Törvénykönyv)?"
->>>>>>> origin/dev
 ```
 
 - Query pattern may reveal you are working on a fraud matter
 - Anthropic/Vercel logs may link queries to your API key
-<<<<<<< HEAD
 - Consider using local npm package even for anonymized queries involving sensitive practice areas
-=======
->>>>>>> origin/dev
 
 ### HIGH RISK: Client-Specific Queries
 
 **DO NOT USE through cloud AI services:**
 
-<<<<<<< HEAD
 - Remove ALL identifying details before using any cloud deployment
 - Use the local npm package with a self-hosted LLM
 - Or use commercial legal databases (Complex, Jogtár) with proper adatfeldolgozási megállapodások
 - Queries containing client names, személyi azonosítószámok (personal identification numbers), cégjegyzékszámok (company registration numbers), or case references are HIGH RISK even if you consider them anonymized
-=======
-- Remove ALL identifying details
-- Use the local npm package with a self-hosted LLM
-- Or use commercial legal databases (Complex, Jogtár) with proper data processing agreements
->>>>>>> origin/dev
 
 ---
 
@@ -232,7 +180,6 @@ The database is read-only. No user data is written to disk.
 ### For Solo Practitioners / Small Firms (Egyéni ügyvédek / Kisebb irodák)
 
 1. Use local npm package for maximum privacy
-<<<<<<< HEAD
 2. General research: Cloud AI is acceptable for fully non-client-specific queries
 3. Client matters: Use commercial legal databases (Complex, Jogtár) with proper adatfeldolgozási megállapodások under GDPR Article 28 and Infotv.
 4. Review MÜK ethics guidance on AI tool use before adopting any cloud-based legal AI tool
@@ -243,27 +190,12 @@ The database is read-only. No user data is written to disk.
 2. Consider on-premise deployment with self-hosted LLM for client-facing work
 3. Train staff on safe vs. unsafe query patterns — include in annual GDPR and Infotv. compliance training
 4. Designate a Data Protection Officer (adatvédelmi tisztviselő) if required under GDPR Article 37 and Infotv.
-=======
-2. General research: Cloud AI is acceptable for non-client queries
-3. Client matters: Use commercial legal databases (Complex, Jogtár) with proper adatfeldolgozási megállapodások
-
-### For Large Firms / Corporate Legal (Nagy irodák / Vállalati jogi osztályok)
-
-1. Negotiate Data Processing Agreements (adatfeldolgozási megállapodások) with AI service providers
-2. Consider on-premise deployment with self-hosted LLM
-3. Train staff on safe vs. unsafe query patterns
->>>>>>> origin/dev
 
 ### For Government / Public Sector (Állami szervek / Közszféra)
 
 1. Use self-hosted deployment, no external APIs
-<<<<<<< HEAD
 2. Follow Hungarian government IT security requirements under the **2013. évi L. törvény az állami és önkormányzati szervek elektronikus információbiztonságáról (Ibtv.)** and SZTFH (Szabályozott Tevékenységek Felügyeleti Hatósága) requirements
 3. Air-gapped option available for matters classified under the **2009. évi CLV. törvény a minősített adat védelméről** (Act on the Protection of Classified Information)
-=======
-2. Follow Hungarian government IT security requirements (az információbiztonságról szóló törvény, Ibtv.)
-3. Air-gapped option available for classified matters
->>>>>>> origin/dev
 
 ---
 
@@ -271,14 +203,10 @@ The database is read-only. No user data is written to disk.
 
 - **Privacy Questions**: Open issue on [GitHub](https://github.com/Ansvar-Systems/Hungarian-law-mcp/issues)
 - **Anthropic Privacy**: Contact privacy@anthropic.com
-<<<<<<< HEAD
 - **MÜK Guidance**: Consult the Magyar Ügyvédi Kamara (muk.hu) for ethics guidance on AI tool use by ügyvédek
 - **NAIH**: For GDPR and Infotv. compliance queries, see naih.hu
-=======
-- **MÜK Guidance**: Consult the Magyar Ügyvédi Kamara (magyarugyvedikamara.hu) for ethics guidance on AI tool use
->>>>>>> origin/dev
 
 ---
 
-**Last Updated**: 2026-03-06
+**Last Updated**: 2026-08-27
 **Tool Version**: 1.0.0

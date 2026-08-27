@@ -69,7 +69,7 @@ const SERVER_CARD_JSON = JSON.stringify({
     version: SERVER_VERSION,
     displayName: 'Hungarian Law MCP',
     description: `${DESCRIPTION_COVERAGE}. Covers the full corpus from Nemzeti Jogszabálytár (njt.hu) including Ptk., Infotv., Mt., Btk., and EU cross-references. ${DESCRIPTION_FRESHNESS}`,
-    homepage: 'https://github.com/Ansvar-Systems/Hungarian-law-mcp',
+    homepage: 'https://ansvar.eu',
     keywords: ['hungarian-law', 'legislation', 'legal', 'mcp', 'gdpr', 'data-protection', 'cybersecurity', 'compliance', 'ptk', 'infotv'],
     author: 'Ansvar Systems / AVIAN Care Kft.',
     license: 'Apache-2.0',
