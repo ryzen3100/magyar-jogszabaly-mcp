@@ -23,15 +23,16 @@ RUN apk add --no-cache ca-certificates su-exec \
     && mkdir -p /data /app/dist/bin /app/dist/data \
     && chown mcp:mcp /data
 
-COPY --from=build /out/hungarian-law-mcp /app/dist/bin/hungarian-law-mcp
-COPY data/database.db /app/dist/data/database.db
-COPY icon.png /app/dist/icon.png
-COPY docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
+# --chown at COPY time instead of a chown -R in RUN: rewriting ownership in a
+# later layer would copy the 283 MB database into that layer (~2x image size).
+COPY --from=build --chown=mcp:mcp /out/hungarian-law-mcp /app/dist/bin/hungarian-law-mcp
+COPY --chown=mcp:mcp data/database.db /app/dist/data/database.db
+COPY --chown=mcp:mcp icon.png /app/dist/icon.png
+COPY --chown=mcp:mcp docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
 
 # The binary sits two levels under /app/dist so the server's exe-dir/../icon.png
 # lookup resolves to /app/dist/icon.png — same layout as the previous image.
 RUN chmod +x /usr/local/bin/docker-entrypoint.sh /app/dist/bin/hungarian-law-mcp \
-    && chown -R mcp:mcp /app \
     && sha256sum /app/dist/data/database.db | awk '{print $1}' > /app/dist/data/database.db.sha256 \
     && chown mcp:mcp /app/dist/data/database.db.sha256
 
