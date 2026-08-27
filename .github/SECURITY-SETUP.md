@@ -8,39 +8,24 @@ Configure these secrets in the GitHub repository settings:
 |--------|---------|--------|
 | `NPM_TOKEN` | npm publishing with provenance | npm.js account (Ansvar org) |
 
-## MCP Registry Publishing
+## npm Publishing
 
-Registry publishing uses Azure Key Vault for signing:
+Publishing is automated by `.github/workflows/publish.yml`: a `v*` tag push runs lint, unit tests, contract tests, and build, then `npm publish --provenance`. npm package names in the `@ansvar` scope and provenance signing require the `NPM_TOKEN` secret and a verified npm account.
 
-- **Vault:** `kv-ansvar-dev`
-- **Key:** `mcp-registry-signing-key`
-- **Algorithm:** ECDSA P-384
-- **DNS Auth:** `ansvar.eu` TXT record
-
-To publish:
-```bash
-mcp-publisher login dns azure-key-vault \
-  --domain="ansvar.eu" \
-  --vault "kv-ansvar-dev" \
-  --key "mcp-registry-signing-key"
-
-mcp-publisher publish
-```
+MCP registry submission (server.json / `mcpName`) is currently a manual step — see `server.json` for the registry metadata.
 
 ## Branch Protection
 
 Enable these rules on `main`:
 - Require pull request reviews (1 reviewer)
-- Require status checks to pass (ci, contract-tests)
+- Require status checks to pass (`test` from ci.yml, `publish` from publish.yml)
 - Require branches to be up to date
 - Do not allow bypassing the above settings
 
 ## Security Scanning
 
-All 6 scanners are configured in `.github/workflows/ci.yml`:
-- CodeQL (semantic SAST)
-- Semgrep (pattern SAST)
-- Trivy (dependency CVE)
-- Gitleaks (secret detection)
-- Socket Security (supply chain)
-- OSSF Scorecard (security posture)
+Scanners live in separate workflow files under `.github/workflows/`:
+- **Semgrep** (pattern SAST) — `semgrep.yml`, on PRs and pushes to `main`
+- **Trivy** (dependency CVE + container scan) — `trivy.yml`, on PRs, pushes to `main`, and daily schedule
+- **OSSF Scorecard** (security posture) — `scorecard.yml`
+- **npm audit** — advisory run inside `publish.yml` before publishing

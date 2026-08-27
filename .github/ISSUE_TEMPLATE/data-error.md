@@ -10,28 +10,27 @@ assignees: ''
 
 ### Which law or provision is affected?
 
-**Law name (Ustawa/Kodeks):**
-**Article number (Artykul):**
-**Dziennik Ustaw reference:**
-**Jurisdiction:** PL
+**Jogszabály megnevezése (pl. "2013. évi V. törvény (Ptk.)"):**
+**Szakasz/bekezdés (pl. "6:519. §" vagy "3. §"):**
+**njt.hu azonosító vagy link:**
 
 ### What is wrong?
 
-- [ ] Dziennik Ustaw reference incorrect
-- [ ] Amendment (nowelizacja) not reflected
-- [ ] Missing provision
-- [ ] Incorrect citation/URL
-- [ ] Missing EU cross-reference
-- [ ] Encoding issue (Polish characters)
-- [ ] Other (describe below)
+- [ ] njt.hu azonosító vagy hivatkozás hibás
+- [ ] Módosítás (módosító jogszabály) nincs tükrözve
+- [ ] Hiányzó rendelkezés (provision)
+- [ ] Hibás hivatkozás/URL
+- [ ] Hiányzó EU kereszthivatkozás
+- [ ] Karakterkódolási probléma (ékezetek)
+- [ ] Egyéb (írja le lent)
 
 ### Expected content
 
-Please provide the correct text or a link to the official source:
+Please provide the correct text or a link to the official source (a helyes szöveget vagy hivatalos forrást):
 
 ### Official source URL
 
-Link to the authoritative source showing the correct content (preferably isap.sejm.gov.pl):
+Link to the authoritative source showing the correct content (preferably [njt.hu](https://njt.hu) or [Magyar Közlöny](https://kozlony.gov.hu)):
 
 ### Additional context
 
