@@ -11,6 +11,7 @@ import (
 // the seeded fixture data, including Hungarian content round-tripping
 // through FTS5 and the rowid linkage between provisions and the FTS table.
 func TestNewTestDbSmoke(t *testing.T) {
+	t.Parallel()
 	db := NewTestDb(t)
 
 	count := func(query string) int {
@@ -65,6 +66,7 @@ func TestNewTestDbSmoke(t *testing.T) {
 }
 
 func TestRealDBPath(t *testing.T) {
+	t.Parallel()
 	if !strings.HasSuffix(RealDBPath(), filepath.Join("data", "database.db")) {
 		t.Fatalf("RealDBPath = %s, want .../data/database.db", RealDBPath())
 	}

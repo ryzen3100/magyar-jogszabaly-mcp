@@ -4,8 +4,11 @@ import (
 	"database/sql"
 	"encoding/json"
 	"errors"
+	"io/fs"
 	"net/http"
 	"net/http/httptest"
+	"os"
+	"path/filepath"
 	"strings"
 	"testing"
 	"time"
@@ -122,6 +125,8 @@ func TestCheckPortal(t *testing.T) {
 		{"200 is reachable", http.StatusOK, false, ""},
 		{"403 bot-block is tolerated", http.StatusForbidden, false, ""},
 		{"301 without Location is tolerated", http.StatusMovedPermanently, false, ""},
+		{"302 without Location is tolerated", http.StatusFound, false, ""},
+		{"404 is not tolerated unlike 403", http.StatusNotFound, true, "404"},
 		{"500 names the status", http.StatusInternalServerError, true, "500"},
 	}
 	for _, tc := range cases {
@@ -148,4 +153,42 @@ func TestCheckPortal(t *testing.T) {
 			t.Fatal("expected error for a refused connection")
 		}
 	})
+}
+
+// TestReadCensus exercises the file-level branches main() classifies: a valid
+// file parses, a malformed file errors without fs.ErrNotExist (the TS
+// JSON.parse catch), a missing file reports fs.ErrNotExist (the TS existsSync
+// branch), and an empty object parses with nil counts, which main() reports as
+// "no expected document count".
+func TestReadCensus(t *testing.T) {
+	dir := t.TempDir()
+
+	valid := filepath.Join(dir, "valid.json")
+	if err := os.WriteFile(valid, []byte(`{"total_laws":4326,"total_provisions":130220}`), 0o644); err != nil {
+		t.Fatal(err)
+	}
+	c, err := readCensus(valid)
+	if err != nil || c.TotalLaws == nil || *c.TotalLaws != 4326 || c.TotalProvisions == nil || *c.TotalProvisions != 130220 {
+		t.Fatalf("readCensus(valid) = (%+v, %v)", c, err)
+	}
+
+	malformed := filepath.Join(dir, "malformed.json")
+	if err := os.WriteFile(malformed, []byte(`{"total_laws":`), 0o644); err != nil {
+		t.Fatal(err)
+	}
+	if _, err := readCensus(malformed); err == nil || errors.Is(err, fs.ErrNotExist) {
+		t.Fatalf("readCensus(malformed) error = %v, want a parse error", err)
+	}
+
+	if _, err := readCensus(filepath.Join(dir, "missing.json")); !errors.Is(err, fs.ErrNotExist) {
+		t.Fatalf("readCensus(missing) error = %v, want fs.ErrNotExist", err)
+	}
+
+	empty := filepath.Join(dir, "empty.json")
+	if err := os.WriteFile(empty, []byte(`{}`), 0o644); err != nil {
+		t.Fatal(err)
+	}
+	if c, err := readCensus(empty); err != nil || c.TotalLaws != nil || c.TotalProvisions != nil {
+		t.Fatalf("readCensus(empty object) = (%+v, %v), want nil counts and no error", c, err)
+	}
 }

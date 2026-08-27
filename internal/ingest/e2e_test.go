@@ -20,7 +20,7 @@ func TestCmdIngestEndToEnd(t *testing.T) {
 		t.Skip("rate-limited binary e2e")
 	}
 
-	ts := newFakeNjtServer(t)
+	ts, _ := newFakeNjtServer(t)
 
 	repoRoot, err := filepath.Abs(filepath.Join("..", ".."))
 	if err != nil {

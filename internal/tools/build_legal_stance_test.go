@@ -10,6 +10,7 @@ import (
 )
 
 func TestBuildLegalStanceEmptyQuery(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	out, err := runBuildLegalStanceJSON(t, db, `{"query": ""}`)
@@ -22,6 +23,7 @@ func TestBuildLegalStanceEmptyQuery(t *testing.T) {
 }
 
 func TestBuildLegalStanceFindsMatches(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	out, err := runBuildLegalStanceJSON(t, db, `{"query": "személyes adat", "limit": 100}`)
@@ -40,6 +42,7 @@ func TestBuildLegalStanceFindsMatches(t *testing.T) {
 }
 
 func TestBuildLegalStanceLimitCap(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	for i := 1; i <= 21; i++ {
 		content := fmt.Sprintf("Korlátozó rendelkezés száma: %d.", i)
@@ -71,6 +74,7 @@ func TestBuildLegalStanceLimitCap(t *testing.T) {
 }
 
 func TestBuildLegalStanceDocumentFilter(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	out, err := runBuildLegalStanceJSON(t, db, `{"query": "adat", "document_id": "doc-inforce", "limit": 2}`)
@@ -94,6 +98,7 @@ func TestBuildLegalStanceDocumentFilter(t *testing.T) {
 }
 
 func TestBuildLegalStanceStripsChapter(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	out, err := runBuildLegalStanceJSON(t, db, `{"query": "személyes"}`)
@@ -114,6 +119,7 @@ func TestBuildLegalStanceStripsChapter(t *testing.T) {
 }
 
 func TestBuildLegalStanceDegradedOnClosedDb(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	db.Close()
 

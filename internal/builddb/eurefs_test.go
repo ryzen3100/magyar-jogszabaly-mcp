@@ -130,14 +130,20 @@ func TestExtractEuReferencesDistinctArticles(t *testing.T) {
 }
 
 func TestCollapseSpace(t *testing.T) {
-	tests := []struct{ in, want string }{
-		{"", ""},
-		{"  szóköz  ", "szóköz"},
-		{"a\n\tb   c", "a b c"},
+	tests := []struct {
+		name string
+		in   string
+		want string
+	}{
+		{"empty", "", ""},
+		{"outer whitespace trimmed", "  szóköz  ", "szóköz"},
+		{"newlines, tabs and runs collapse", "a\n\tb   c", "a b c"},
 	}
 	for _, tt := range tests {
-		if got := collapseSpace(tt.in); got != tt.want {
-			t.Errorf("collapseSpace(%q) = %q, want %q", tt.in, got, tt.want)
-		}
+		t.Run(tt.name, func(t *testing.T) {
+			if got := collapseSpace(tt.in); got != tt.want {
+				t.Errorf("collapseSpace(%q) = %q, want %q", tt.in, got, tt.want)
+			}
+		})
 	}
 }

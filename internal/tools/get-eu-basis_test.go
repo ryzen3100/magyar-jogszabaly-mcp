@@ -133,6 +133,7 @@ func euWantErr(t *testing.T, err error, want string) {
 // --- get_eu_basis ------------------------------------------------------------
 
 func TestGetEUBasisUnresolvedDocument(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	results, meta, err := tools.GetEUBasis(context.Background(), db, argsMap(t, `{"document_id":"missing-doc"}`))
@@ -157,6 +158,7 @@ func TestGetEUBasisUnresolvedDocument(t *testing.T) {
 }
 
 func TestGetEUBasisEUTablesUnavailable(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	euDropTable(t, db, "eu_references")
 
@@ -170,6 +172,7 @@ func TestGetEUBasisEUTablesUnavailable(t *testing.T) {
 }
 
 func TestGetEUBasisFiltersAndArticleExpansion(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	results, _, err := tools.GetEUBasis(context.Background(), db, argsMap(t,
@@ -201,6 +204,7 @@ func TestGetEUBasisFiltersAndArticleExpansion(t *testing.T) {
 }
 
 func TestGetEUBasisArticlesOmittedUnlessRequested(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	// Without include_articles the key must be absent from the wire.
@@ -230,6 +234,7 @@ func TestGetEUBasisArticlesOmittedUnlessRequested(t *testing.T) {
 }
 
 func TestGetEUBasisArticleExpansionSkipsNullsAndDedups(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	// Extra articles for the same group; the NULL eu_article must be skipped.
 	for _, article := range []any{"Article 9", nil} {
@@ -257,6 +262,7 @@ func TestGetEUBasisArticleExpansionSkipsNullsAndDedups(t *testing.T) {
 }
 
 func TestGetEUBasisReferenceTypesFilter(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	results, _, err := tools.GetEUBasis(context.Background(), db, argsMap(t,
@@ -288,6 +294,7 @@ func TestGetEUBasisReferenceTypesFilter(t *testing.T) {
 }
 
 func TestGetEUBasisMissingArgument(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	for _, args := range []map[string]any{nil, argsMap(t, `{}`)} {
@@ -297,6 +304,7 @@ func TestGetEUBasisMissingArgument(t *testing.T) {
 }
 
 func TestGetEUBasisClosedDB(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	db.Close() // resolve-first tool → the closed DB surfaces as an error
 

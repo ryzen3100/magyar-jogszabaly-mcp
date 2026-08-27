@@ -24,6 +24,7 @@ func runSearchRaw(t *testing.T, db *sql.DB, rawArgs string) (string, error) {
 }
 
 func TestSearchLegislationEmptyQuery(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	for _, query := range []string{``, `{"query": ""}`, `{"query": "   "}`, `{}`} {
@@ -38,6 +39,7 @@ func TestSearchLegislationEmptyQuery(t *testing.T) {
 }
 
 func TestSearchLegislationFindsProvisions(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	out, err := runSearchRaw(t, db, `{"query": "személyes adat"}`)
@@ -73,6 +75,7 @@ func TestSearchLegislationFindsProvisions(t *testing.T) {
 }
 
 func TestSearchLegislationBroadenedStrategy(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	// No single provision contains both terms, so only the OR variant hits.
@@ -95,6 +98,7 @@ func TestSearchLegislationBroadenedStrategy(t *testing.T) {
 }
 
 func TestSearchLegislationLikeFallback(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	// "zemélyes" is a substring of content but not an FTS token or prefix,
@@ -121,6 +125,7 @@ func TestSearchLegislationLikeFallback(t *testing.T) {
 }
 
 func TestSearchLegislationUnresolvableDocumentFilter(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	results, meta, err := SearchLegislation(context.Background(), db, testArgs(t, `{"query": "személyes", "document_id": "missing-doc"}`))
@@ -137,6 +142,7 @@ func TestSearchLegislationUnresolvableDocumentFilter(t *testing.T) {
 }
 
 func TestSearchLegislationDocumentAndStatusFilters(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	// "védelem" matches doc-inforce s2 and doc-amended s3.
@@ -165,6 +171,7 @@ func TestSearchLegislationDocumentAndStatusFilters(t *testing.T) {
 }
 
 func TestSearchLegislationLimitAndDedup(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	exec := func(query string, args ...any) {
 		t.Helper()
@@ -214,6 +221,7 @@ func TestSearchLegislationLimitAndDedup(t *testing.T) {
 }
 
 func TestSearchLegislationDegradedOnClosedDb(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	db.Close() // every query now fails — handlers must degrade, not error
 
@@ -235,6 +243,7 @@ func TestSearchLegislationDegradedOnClosedDb(t *testing.T) {
 }
 
 func TestSearchLegislationBadArgs(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	if _, _, err := SearchLegislation(context.Background(), db, map[string]any{"query": int64(123)}); err == nil {
@@ -243,6 +252,7 @@ func TestSearchLegislationBadArgs(t *testing.T) {
 }
 
 func TestSearchLegislationArgumentCaps(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	_, _, err := SearchLegislation(context.Background(), db, map[string]any{"query": strings.Repeat("a", maxQueryLength+1)})
@@ -259,7 +269,9 @@ func TestSearchLegislationArgumentCaps(t *testing.T) {
 // Real-database suite — port of tests/tools/search-legislation.test.ts,
 // guarded like the TS describeIfRealDb.
 func TestSearchLegislationRealDb(t *testing.T) {
+	t.Parallel()
 	if !storetest.RealDBAvailable() {
+		dbSkippedTests++
 		t.Skip("real database not available")
 	}
 	db, err := store.OpenReadOnly(storetest.RealDBPath())

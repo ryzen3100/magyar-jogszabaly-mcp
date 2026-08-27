@@ -24,6 +24,7 @@ func complianceResult(t *testing.T, results any, meta tools.ResponseMetadata, er
 }
 
 func TestValidateEUComplianceStatusMatrix(t *testing.T) {
+	t.Parallel()
 	cases := []struct {
 		name         string
 		documentID   string
@@ -126,6 +127,7 @@ func TestValidateEUComplianceStatusMatrix(t *testing.T) {
 }
 
 func TestValidateEUCompliancePartialAndRepealed(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	if _, err := db.Exec(
 		`INSERT INTO eu_references (
@@ -156,6 +158,7 @@ func TestValidateEUCompliancePartialAndRepealed(t *testing.T) {
 }
 
 func TestValidateEUComplianceUnclearUnknownStatus(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	if _, err := db.Exec(
 		`INSERT INTO legal_documents (
@@ -188,6 +191,7 @@ func TestValidateEUComplianceUnclearUnknownStatus(t *testing.T) {
 }
 
 func TestValidateEUComplianceUnclearNullStatusNoRecommendation(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	// A NULL implementation_status is neither complete, partial, nor unknown:
 	// → unclear with NO recommendation (TS only adds one when unknown > 0).
@@ -214,6 +218,7 @@ func TestValidateEUComplianceUnclearNullStatusNoRecommendation(t *testing.T) {
 }
 
 func TestValidateEUComplianceDistributionIgnoresEUDocumentFilter(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	// doc-inforce already has one 'complete' reference; add an 'unknown' one
 	// against a different EU document. The count IS filtered by
@@ -243,6 +248,7 @@ func TestValidateEUComplianceDistributionIgnoresEUDocumentFilter(t *testing.T) {
 }
 
 func TestValidateEUComplianceEUTablesUnavailable(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	euDropTable(t, db, "eu_references")
 
@@ -265,6 +271,7 @@ func TestValidateEUComplianceEUTablesUnavailable(t *testing.T) {
 }
 
 func TestValidateEUComplianceMissingArgument(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	_, _, err := tools.ValidateEUCompliance(context.Background(), db, argsMap(t, `{}`))
@@ -272,6 +279,7 @@ func TestValidateEUComplianceMissingArgument(t *testing.T) {
 }
 
 func TestValidateEUComplianceClosedDB(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	db.Close() // resolve-first tool → the closed DB surfaces as an error
 

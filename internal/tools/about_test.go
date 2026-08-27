@@ -13,6 +13,7 @@ import (
 )
 
 func TestGetAboutPopulated(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	about := &tools.AboutContext{
 		Version:     "1.2.3",
@@ -106,6 +107,7 @@ func TestGetAboutPopulated(t *testing.T) {
 }
 
 func TestGetAboutStatsKeyOrder(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	about := &tools.AboutContext{Version: "1.0.0", Fingerprint: "fp", DbBuilt: "2026-02-21T00:00:00Z"}
 
@@ -131,6 +133,7 @@ func TestGetAboutStatsKeyOrder(t *testing.T) {
 }
 
 func TestGetAboutMissingOptionalTables(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	euDropTable(t, db, "definitions")
 	euDropTable(t, db, "eu_references")
@@ -161,6 +164,7 @@ func TestGetAboutMissingOptionalTables(t *testing.T) {
 }
 
 func TestGetAboutNilContext(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	if _, _, err := tools.GetAbout(context.Background(), db, nil); err == nil {
@@ -169,6 +173,7 @@ func TestGetAboutNilContext(t *testing.T) {
 }
 
 func TestGetAboutClosedDB(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	db.Close()
 

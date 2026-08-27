@@ -13,6 +13,7 @@ import (
 )
 
 func TestGetHungarianImplementationsEUProbeRunsFirst(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	euDropTable(t, db, "eu_references")
 
@@ -48,6 +49,7 @@ func TestGetHungarianImplementationsEUProbeRunsFirst(t *testing.T) {
 }
 
 func TestGetHungarianImplementationsOrderAndValues(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	results, _, err := tools.GetHungarianImplementations(context.Background(), db, argsMap(t,
@@ -80,6 +82,7 @@ func TestGetHungarianImplementationsOrderAndValues(t *testing.T) {
 }
 
 func TestGetHungarianImplementationsPrimaryOnly(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	results, meta, err := tools.GetHungarianImplementations(context.Background(), db, argsMap(t,
@@ -102,6 +105,7 @@ func TestGetHungarianImplementationsPrimaryOnly(t *testing.T) {
 }
 
 func TestGetHungarianImplementationsInForceOnly(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	results, _, err := tools.GetHungarianImplementations(context.Background(), db, argsMap(t,
@@ -119,6 +123,7 @@ func TestGetHungarianImplementationsInForceOnly(t *testing.T) {
 }
 
 func TestGetHungarianImplementationsMissingArgument(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	_, _, err := tools.GetHungarianImplementations(context.Background(), db, nil)
@@ -126,6 +131,7 @@ func TestGetHungarianImplementationsMissingArgument(t *testing.T) {
 }
 
 func TestGetHungarianImplementationsClosedDB(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	db.Close()
 

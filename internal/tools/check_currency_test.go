@@ -9,6 +9,7 @@ import (
 )
 
 func TestCheckCurrencyNotFound(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	out, err := runCheckCurrencyJSON(t, db, `{"document_id": "missing-doc"}`)
@@ -30,6 +31,7 @@ func TestCheckCurrencyNotFound(t *testing.T) {
 }
 
 func TestCheckCurrencyStatusWarnings(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	tests := []struct {
@@ -70,6 +72,7 @@ func TestCheckCurrencyStatusWarnings(t *testing.T) {
 }
 
 func TestCheckCurrencyResolvesByTitle(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	out, err := runCheckCurrencyJSON(t, db, `{"document_id": "In Force Act"}`)
@@ -83,6 +86,7 @@ func TestCheckCurrencyResolvesByTitle(t *testing.T) {
 }
 
 func TestCheckCurrencyMissingRequiredArg(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	_, _, err := CheckCurrency(context.Background(), db, testArgs(t, `{}`))

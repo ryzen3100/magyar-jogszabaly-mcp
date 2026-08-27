@@ -4,11 +4,13 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"io"
 	"net/http"
 	"net/http/httptest"
 	"os"
 	"path/filepath"
 	"strings"
+	"sync"
 	"testing"
 
 	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/seed"
@@ -78,7 +80,9 @@ func TestHydrateDeferredBlocks(t *testing.T) {
 	mux := http.NewServeMux()
 	mux.HandleFunc("/ajax/njtGetBlock.json", func(w http.ResponseWriter, r *http.Request) {
 		buf := make([]byte, r.ContentLength)
-		r.Body.Read(buf)
+		if _, err := io.ReadFull(r.Body, buf); err != nil {
+			t.Errorf("read block body: %v", err)
+		}
 		bodies = append(bodies, string(buf))
 		blockNo++
 		fmt.Fprintf(w, `<span class="jhId" id="SZ200B"></span><div class="bekezdes">Hidratált blokk %d.</div>`, blockNo)
@@ -130,7 +134,9 @@ func TestHydrateDeferredBlocksChunking(t *testing.T) {
 	mux := http.NewServeMux()
 	mux.HandleFunc("/ajax/njtGetBlock.json", func(w http.ResponseWriter, r *http.Request) {
 		buf := make([]byte, r.ContentLength)
-		r.Body.Read(buf)
+		if _, err := io.ReadFull(r.Body, buf); err != nil {
+			t.Errorf("read block body: %v", err)
+		}
 		var req blockRequestBody
 		json.Unmarshal(buf, &req)
 		sizes = append(sizes, len(req.Data))
@@ -208,44 +214,51 @@ func TestBuildFullCorpusActList(t *testing.T) {
 
 // newFakeNjtServer builds an offline njt.hu: discovery endpoints, a rich act
 // page (with one deferred block) for 2011-112-00-00 and a metadata-only page
-// for 1992-100-00-00.
-func newFakeNjtServer(t *testing.T) *httptest.Server {
+// for 1992-100-00-00. The returned count func reports how often each endpoint
+// was hit (mutex-guarded: handlers run on their own goroutines).
+func newFakeNjtServer(t *testing.T) (*httptest.Server, func(string) int) {
 	t.Helper()
 	fixture := sampleActHTML(t)
 	deferred := fixture + `<div class="pH borderStart"data-show-order="5"></div>`
 
 	metadataOnly := `<html><head><title>1992. évi C. törvény</title></head><body><p>Nincs szakaszos tartalom.</p></body></html>`
 
-	mux := http.NewServeMux()
+	var mu sync.Mutex
 	requests := map[string]int{}
+	bump := func(name string) { mu.Lock(); requests[name]++; mu.Unlock() }
+	count := func(name string) int { mu.Lock(); defer mu.Unlock(); return requests[name] }
+
+	mux := http.NewServeMux()
 	mux.HandleFunc("/ajax/get_search_url.json", func(w http.ResponseWriter, r *http.Request) {
-		requests["search-url"]++
+		bump("search-url")
 		w.Write([]byte(`{"success":true,"url":"tok/en"}`))
 	})
 	mux.HandleFunc("/search/tok/en/1/50", func(w http.ResponseWriter, r *http.Request) {
-		requests["search-page"]++
-		w.Write([]byte(strings.Replace(searchPageHTML, " / 1 </span>", " / 1 </span>", 1)))
+		bump("search-page")
+		w.Write([]byte(searchPageHTML))
 	})
 	mux.HandleFunc("/jogszabaly/2011-112-00-00", func(w http.ResponseWriter, r *http.Request) {
-		requests["act-2011"]++
+		bump("act-2011")
 		w.Write([]byte(deferred))
 	})
 	mux.HandleFunc("/jogszabaly/1992-100-00-00", func(w http.ResponseWriter, r *http.Request) {
-		requests["act-1992"]++
+		bump("act-1992")
 		w.Write([]byte(metadataOnly))
 	})
 	mux.HandleFunc("/jogszabaly/2012-100-00-00", func(w http.ResponseWriter, r *http.Request) {
-		requests["act-2012"]++
+		bump("act-2012")
 		w.Write([]byte(metadataOnly))
 	})
 	mux.HandleFunc("/jogszabaly/2020-10-00-00", func(w http.ResponseWriter, r *http.Request) {
-		requests["act-2020"]++
+		bump("act-2020")
 		w.Write([]byte(metadataOnly))
 	})
 	mux.HandleFunc("/ajax/njtGetBlock.json", func(w http.ResponseWriter, r *http.Request) {
-		requests["block"]++
+		bump("block")
 		buf := make([]byte, r.ContentLength)
-		r.Body.Read(buf)
+		if _, err := io.ReadFull(r.Body, buf); err != nil {
+			t.Errorf("read block body: %v", err)
+		}
 		var req blockRequestBody
 		if err := json.Unmarshal(buf, &req); err != nil {
 			t.Errorf("block body: %v", err)
@@ -257,11 +270,104 @@ func newFakeNjtServer(t *testing.T) *httptest.Server {
 	})
 	ts := httptest.NewServer(mux)
 	t.Cleanup(ts.Close)
-	return ts
+	return ts, count
+}
+
+// TestPipelineRun exercises Pipeline.Run in-process with the fake njt.hu:
+// the full discover->fetch->parse->seed flow, the discovery-cache hit path
+// and a --resume run over pre-existing seeds. Replaces what only the
+// rate-limited binary e2e covered (TestCmdIngestEndToEnd).
+func TestPipelineRun(t *testing.T) {
+	sourceDir := filepath.Join(t.TempDir(), "source")
+	seedDir := filepath.Join(t.TempDir(), "seed")
+	ts, count := newFakeNjtServer(t)
+	ctx := context.Background()
+
+	seedNames := []string{
+		"act-cxii-2011-info-self-determination.json",
+		"act-cxii-2011-public-data.json",
+		"criminal-code-cybercrime.json",
+		"hu-law-1992-100-00-00.json",
+		"hu-law-2020-10-00-00.json",
+	}
+
+	// Full run: discovery, act fetch, hydration, parsing, seed writing.
+	p := newFastPipeline(sourceDir, seedDir)
+	p.BaseURL = ts.URL
+	var out strings.Builder
+	p.Stdout = &out
+	if err := p.Run(ctx, Options{Full: true}); err != nil {
+		t.Fatalf("Run: %v", err)
+	}
+	for _, want := range []string{
+		"Hungarian Law MCP -- Ingestion Pipeline",
+		"full corpus discovery",
+		"Discovered laws: 3",
+		"Ingestion act list: 5",
+		"hydrated 1 deferred block ranges",
+		"-> METADATA_ONLY",
+		"Ingestion Report",
+	} {
+		if !strings.Contains(out.String(), want) {
+			t.Errorf("output missing %q:\n%s", want, out.String())
+		}
+	}
+	if count("search-url") != 1 || count("search-page") != 1 {
+		t.Errorf("discovery requests = (%d, %d), want (1, 1)", count("search-url"), count("search-page"))
+	}
+
+	if _, err := os.Stat(filepath.Join(sourceDir, "law-discovery-all.json")); err != nil {
+		t.Errorf("discovery cache: %v", err)
+	}
+	for _, name := range seedNames {
+		if _, err := os.Stat(filepath.Join(seedDir, name)); err != nil {
+			t.Errorf("seed %s: %v", name, err)
+		}
+	}
+
+	// The rich act made it through fetch -> hydration -> parse -> seed.
+	data, err := os.ReadFile(filepath.Join(seedDir, seedNames[0]))
+	if err != nil {
+		t.Fatal(err)
+	}
+	var rich seed.DocumentSeed
+	if err := json.Unmarshal(data, &rich); err != nil {
+		t.Fatal(err)
+	}
+	if len(rich.Provisions) != 9 {
+		t.Errorf("got %d provisions, want 9 (8 parsed + 1 hydrated)", len(rich.Provisions))
+	}
+
+	// Second run hits the discovery cache: no discovery traffic, same acts.
+	p2 := newFastPipeline(sourceDir, seedDir)
+	p2.BaseURL = ts.URL
+	var out2 strings.Builder
+	p2.Stdout = &out2
+	if err := p2.Run(ctx, Options{Full: true}); err != nil {
+		t.Fatalf("cache-hit Run: %v", err)
+	}
+	if !strings.Contains(out2.String(), "Loaded discovery cache (3 laws)") {
+		t.Errorf("output should name the loaded discovery cache:\n%s", out2.String())
+	}
+	if count("search-url") != 1 || count("search-page") != 1 {
+		t.Errorf("cache-hit run re-discovered: (%d, %d), want (1, 1)", count("search-url"), count("search-page"))
+	}
+
+	// --resume over the existing seeds caches every act without network.
+	p3 := newFastPipeline(sourceDir, seedDir)
+	p3.BaseURL = "http://127.0.0.1:1" // nothing listens here
+	var out3 strings.Builder
+	p3.Stdout = &out3
+	if err := p3.Run(ctx, Options{Full: true, Resume: true}); err != nil {
+		t.Fatalf("resume Run: %v", err)
+	}
+	if !strings.Contains(out3.String(), "cached") {
+		t.Errorf("resume output should mark cached rows:\n%s", out3.String())
+	}
 }
 
 func TestFetchAndParseActsFullFlow(t *testing.T) {
-	ts := newFakeNjtServer(t)
+	ts, _ := newFakeNjtServer(t)
 	sourceDir := filepath.Join(t.TempDir(), "source")
 	seedDir := filepath.Join(t.TempDir(), "seed")
 
@@ -385,7 +491,7 @@ func TestResolveURLOffOriginRejected(t *testing.T) {
 }
 
 func TestFetchAndParseActsResumeCorruptSeedRefetches(t *testing.T) {
-	ts := newFakeNjtServer(t)
+	ts, _ := newFakeNjtServer(t)
 	sourceDir := filepath.Join(t.TempDir(), "source")
 	seedDir := filepath.Join(t.TempDir(), "seed")
 

@@ -9,6 +9,7 @@ import (
 )
 
 func TestParseCitation(t *testing.T) {
+	t.Parallel()
 	tests := []struct {
 		name        string
 		citation    string
@@ -54,6 +55,7 @@ func TestParseCitation(t *testing.T) {
 }
 
 func TestValidateCitationParseFailure(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	out, err := runValidateCitationJSON(t, db, `{"citation": "   "}`)
@@ -67,6 +69,7 @@ func TestValidateCitationParseFailure(t *testing.T) {
 }
 
 func TestValidateCitationUnknownDocument(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	results, meta, err := ValidateCitation(context.Background(), db, testArgs(t, `{"citation": "Section 1 Missing Act"}`))
@@ -89,6 +92,7 @@ func TestValidateCitationUnknownDocument(t *testing.T) {
 }
 
 func TestValidateCitationValidSection(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	out, err := runValidateCitationJSON(t, db, `{"citation": "In Force Act s 1"}`)
@@ -110,6 +114,7 @@ func TestValidateCitationValidSection(t *testing.T) {
 }
 
 func TestValidateCitationSectionWord(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	out, err := runValidateCitationJSON(t, db, `{"citation": "In Force Act Section 1"}`)
@@ -122,6 +127,7 @@ func TestValidateCitationSectionWord(t *testing.T) {
 }
 
 func TestValidateCitationProvisionNotFound(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	results, _, err := ValidateCitation(context.Background(), db, testArgs(t, `{"citation": "Section 999 In Force Act"}`))
@@ -144,6 +150,7 @@ func TestValidateCitationProvisionNotFound(t *testing.T) {
 }
 
 func TestValidateCitationStatusWarnings(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	out, err := runValidateCitationJSON(t, db, `{"citation": "Amended Act"}`)
@@ -165,6 +172,7 @@ func TestValidateCitationStatusWarnings(t *testing.T) {
 }
 
 func TestValidateCitationStatusWarningBeforeProvisionCheck(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	results, _, err := ValidateCitation(context.Background(), db, testArgs(t, `{"citation": "Repealed Act s 99"}`))
@@ -190,6 +198,7 @@ func TestValidateCitationStatusWarningBeforeProvisionCheck(t *testing.T) {
 }
 
 func TestValidateCitationMissingRequiredArg(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	_, _, err := ValidateCitation(context.Background(), db, testArgs(t, `{}`))

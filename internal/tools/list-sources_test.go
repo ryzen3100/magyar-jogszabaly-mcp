@@ -14,6 +14,7 @@ import (
 )
 
 func TestListSourcesPopulated(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	results, meta, err := tools.ListSources(context.Background(), db)
@@ -87,6 +88,7 @@ func sourcesList(t *testing.T, v any) []map[string]any {
 }
 
 func TestListSourcesBuiltAtOmittedWhenAbsent(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	euDropTable(t, db, "db_metadata")
 
@@ -111,6 +113,7 @@ func TestListSourcesBuiltAtOmittedWhenAbsent(t *testing.T) {
 }
 
 func TestListSourcesCountsZeroWhenTablesMissing(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	euDropTable(t, db, "legal_provisions")
 
@@ -130,6 +133,7 @@ func TestListSourcesCountsZeroWhenTablesMissing(t *testing.T) {
 }
 
 func TestListSourcesResultsJSONKeyOrder(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	results, _, err := tools.ListSources(context.Background(), db)
@@ -155,6 +159,7 @@ func TestListSourcesResultsJSONKeyOrder(t *testing.T) {
 }
 
 func TestListSourcesClosedDB(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	db.Close()
 

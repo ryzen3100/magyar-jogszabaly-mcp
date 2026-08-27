@@ -12,7 +12,7 @@ COPY internal ./internal
 RUN CGO_ENABLED=0 GOOS=linux go build -trimpath -ldflags="-s -w" -o /out/hungarian-law-mcp ./cmd/hungarian-law-mcp
 
 # ---- run ----
-FROM alpine:3.22
+FROM alpine:3.24
 
 ENV PORT=3000 \
     HUNGARIAN_LAW_DB_PATH=/data/database.db

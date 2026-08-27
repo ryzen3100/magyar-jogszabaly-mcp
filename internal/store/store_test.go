@@ -5,6 +5,7 @@ import (
 	"crypto/sha256"
 	"database/sql"
 	"encoding/hex"
+	"fmt"
 	"os"
 	"path/filepath"
 	"regexp"
@@ -17,6 +18,19 @@ import (
 // isoMillis mirrors the JavaScript Date#toISOString shape asserted below.
 const isoMillis = "2006-01-02T15:04:05.000Z07:00"
 
+// dbSkippedTests is incremented by every DB-backed skip site in this package;
+// TestMain turns it into one loud stderr notice (T6) so a green run can never
+// silently cover zero DB tests.
+var dbSkippedTests int
+
+func TestMain(m *testing.M) {
+	code := m.Run()
+	if dbSkippedTests > 0 {
+		fmt.Fprintf(os.Stderr, "SKIP NOTICE: %d DB-backed tests skipped — data/database.db unavailable\n", dbSkippedTests)
+	}
+	os.Exit(code)
+}
+
 func mustDropTable(t *testing.T, db *sql.DB, table string) {
 	t.Helper()
 	if _, err := db.Exec("DROP TABLE " + table); err != nil {
@@ -27,6 +41,7 @@ func mustDropTable(t *testing.T, db *sql.DB, table string) {
 // --- readDbMetadata / generateResponseMetadata (freshness) concerns --------
 
 func TestReadDbMetadata(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	m := store.ReadDbMetadata(context.Background(), db)
 	if m.Tier != "free" || m.SchemaVersion != "1.0" ||
@@ -39,6 +54,7 @@ func TestReadDbMetadata(t *testing.T) {
 }
 
 func TestReadDbMetadataDefaultsWhenTableMissing(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	mustDropTable(t, db, "db_metadata")
 	m := store.ReadDbMetadata(context.Background(), db)
@@ -48,6 +64,7 @@ func TestReadDbMetadataDefaultsWhenTableMissing(t *testing.T) {
 }
 
 func TestReadDbMetadataCacheIsolation(t *testing.T) {
+	t.Parallel()
 	withMeta := storetest.NewTestDb(t)
 	withoutMeta := storetest.NewTestDb(t)
 	mustDropTable(t, withoutMeta, "db_metadata")
@@ -63,6 +80,7 @@ func TestReadDbMetadataCacheIsolation(t *testing.T) {
 // A failed read (here: a cancelled context) must return the defaults uncached
 // so a later call retries instead of pinning degraded metadata forever.
 func TestReadDbMetadataFailedReadNotCached(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	cancelled, cancel := context.WithCancel(context.Background())
 	cancel()
@@ -77,6 +95,7 @@ func TestReadDbMetadataFailedReadNotCached(t *testing.T) {
 // --- coreTablesReady --------------------------------------------------------
 
 func TestCoreTablesReady(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	if !store.CoreTablesReady(context.Background(), db) {
 		t.Fatal("expected core tables ready")
@@ -100,6 +119,7 @@ func TestCoreTablesReady(t *testing.T) {
 // --- euAvailable / euUnavailable note ---------------------------------------
 
 func TestEUAvailable(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	if !store.EUAvailable(context.Background(), db, "eu_references") {
 		t.Fatal("eu_references should be available")
@@ -130,6 +150,7 @@ func TestEUAvailable(t *testing.T) {
 }
 
 func TestEUUnavailableNote(t *testing.T) {
+	t.Parallel()
 	if got := store.EUUnavailableNote("eu_references"); got != "EU references not available in this database tier" {
 		t.Fatalf("eu_references note = %q", got)
 	}
@@ -141,6 +162,7 @@ func TestEUUnavailableNote(t *testing.T) {
 // --- safeCount / cachedCount -------------------------------------------------
 
 func TestSafeCount(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	if got := store.SafeCount(context.Background(), db, "SELECT COUNT(*) as count FROM legal_documents"); got != 4 {
 		t.Fatalf("legal_documents count = %d, want 4", got)
@@ -154,6 +176,7 @@ func TestSafeCount(t *testing.T) {
 }
 
 func TestCachedCount(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	q := "SELECT COUNT(*) as count FROM legal_documents"
 	if got := store.CachedCount(context.Background(), db, q); got != 4 {
@@ -180,6 +203,7 @@ func TestCachedCount(t *testing.T) {
 // The DSN is built with net/url: '?' and '#' in the path must round-trip to
 // the real filename instead of splitting off query/fragment DSN parameters.
 func TestOpenReadOnlySpecialCharsInPath(t *testing.T) {
+	t.Parallel()
 	dir := t.TempDir()
 	plain := filepath.Join(dir, "plain.db")
 	db, err := sql.Open("sqlite", plain)
@@ -220,13 +244,14 @@ func TestOpenReadOnlySpecialCharsInPath(t *testing.T) {
 // --- resolveDbPath -----------------------------------------------------------
 
 func TestResolveDbPathEnvOverride(t *testing.T) {
-	t.Setenv("HUNGARIAN_LAW_DB_PATH", "/tmp/custom/law.sqlite")
+	want := filepath.Join(t.TempDir(), "custom", "law.sqlite")
+	t.Setenv("HUNGARIAN_LAW_DB_PATH", want)
 	p, err := store.ResolveDbPath()
 	if err != nil {
 		t.Fatal(err)
 	}
-	if p != "/tmp/custom/law.sqlite" {
-		t.Fatalf("env path = %q, want verbatim /tmp/custom/law.sqlite", p)
+	if p != want {
+		t.Fatalf("env path = %q, want verbatim %q", p, want)
 	}
 }
 
@@ -245,6 +270,7 @@ func TestResolveDbPathError(t *testing.T) {
 // --- fingerprint / built-at helpers ------------------------------------------
 
 func TestDbFingerprintSmallFileZeroPadded(t *testing.T) {
+	t.Parallel()
 	dir := t.TempDir()
 	path := filepath.Join(dir, "small.db")
 	if err := os.WriteFile(path, []byte("hello"), 0o644); err != nil {
@@ -266,6 +292,7 @@ func TestDbFingerprintSmallFileZeroPadded(t *testing.T) {
 }
 
 func TestDbFingerprintLargeFileFirst64KiBOnly(t *testing.T) {
+	t.Parallel()
 	dir := t.TempDir()
 	big := make([]byte, 64*1024+7)
 	for i := range big {
@@ -288,12 +315,14 @@ func TestDbFingerprintLargeFileFirst64KiBOnly(t *testing.T) {
 }
 
 func TestDbFingerprintMissingFileErrors(t *testing.T) {
+	t.Parallel()
 	if _, err := store.DbFingerprint(filepath.Join(t.TempDir(), "missing.db")); err == nil {
 		t.Fatal("expected error for missing file")
 	}
 }
 
 func TestDbBuiltOrMtimePrefersBuiltAt(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	if got := store.DbBuiltOrMtime(context.Background(), db, t.TempDir()); got != "2026-02-21T00:00:00Z" {
 		t.Fatalf("built_at = %q, want 2026-02-21T00:00:00Z", got)
@@ -301,6 +330,7 @@ func TestDbBuiltOrMtimePrefersBuiltAt(t *testing.T) {
 }
 
 func TestDbBuiltOrMtimeFallsBackToMtime(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	mustDropTable(t, db, "db_metadata")
 
@@ -319,6 +349,7 @@ func TestDbBuiltOrMtimeFallsBackToMtime(t *testing.T) {
 }
 
 func TestDbBuiltOrMtimeFallsBackToNowWhenStatFails(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	mustDropTable(t, db, "db_metadata")
 	got := store.DbBuiltOrMtime(context.Background(), db, filepath.Join(t.TempDir(), "missing.db"))
@@ -330,7 +361,9 @@ func TestDbBuiltOrMtimeFallsBackToNowWhenStatFails(t *testing.T) {
 // --- real database (data/database.db) ----------------------------------------
 
 func TestRealDatabase(t *testing.T) {
+	t.Parallel()
 	if !storetest.RealDBAvailable() {
+		dbSkippedTests++
 		t.Skip("real database (data/database.db) not available")
 	}
 	db, err := store.OpenReadOnly(storetest.RealDBPath())

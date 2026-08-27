@@ -13,6 +13,7 @@ import (
 )
 
 func TestSearchEUImplementationsEUDocumentsUnavailable(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	euDropTable(t, db, "eu_documents")
 
@@ -31,6 +32,7 @@ func TestSearchEUImplementationsEUDocumentsUnavailable(t *testing.T) {
 }
 
 func TestSearchEUImplementationsAllFilters(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	results, _, err := tools.SearchEUImplementations(context.Background(), db, argsMap(t,
@@ -60,6 +62,7 @@ func TestSearchEUImplementationsAllFilters(t *testing.T) {
 }
 
 func TestSearchEUImplementationsDefaultLimitOrder(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	results, _, err := tools.SearchEUImplementations(context.Background(), db, argsMap(t, `{}`))
@@ -77,6 +80,7 @@ func TestSearchEUImplementationsDefaultLimitOrder(t *testing.T) {
 }
 
 func TestSearchEUImplementationsLimitClamp(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	cases := []struct {
@@ -114,6 +118,7 @@ func TestSearchEUImplementationsLimitClamp(t *testing.T) {
 }
 
 func TestSearchEUImplementationsQueryNoMatch(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	results, meta, err := tools.SearchEUImplementations(context.Background(), db, argsMap(t, `{"query":"no-such-eu-doc"}`))
@@ -130,6 +135,7 @@ func TestSearchEUImplementationsQueryNoMatch(t *testing.T) {
 }
 
 func TestSearchEUImplementationsHasHungarianImplementationFilterAndNulls(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	// An EU document with no Hungarian references and a NULL title.
 	if _, err := db.Exec(
@@ -165,6 +171,7 @@ func TestSearchEUImplementationsHasHungarianImplementationFilterAndNulls(t *test
 }
 
 func TestSearchEUImplementationsYearZeroMeansNoFilter(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	// TS falsy check: year_from = 0 adds no filter at all.
@@ -179,6 +186,7 @@ func TestSearchEUImplementationsYearZeroMeansNoFilter(t *testing.T) {
 }
 
 func TestSearchEUImplementationsClosedDB(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	db.Close()
 

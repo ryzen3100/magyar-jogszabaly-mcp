@@ -9,6 +9,7 @@ import (
 )
 
 func TestFormatCitationStyles(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	tests := []struct {
@@ -81,6 +82,7 @@ func TestFormatCitationStyles(t *testing.T) {
 }
 
 func TestFormatCitationOriginalEchoesUntrimmed(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	out, err := runFormatCitationJSON(t, db, `{"citation": "  In Force Act s 3  "}`)
@@ -96,6 +98,7 @@ func TestFormatCitationOriginalEchoesUntrimmed(t *testing.T) {
 }
 
 func TestFormatCitationStructuredResolvesDbTitle(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	if _, err := db.Exec(`INSERT INTO legal_documents (id, type, title, status)
 		VALUES ('hu-law-2012-1-00-00', 'statute', 'Full Title Act', 'in_force')`); err != nil {
@@ -112,6 +115,7 @@ func TestFormatCitationStructuredResolvesDbTitle(t *testing.T) {
 }
 
 func TestFormatCitationMissingRequiredArg(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	_, _, err := FormatCitation(context.Background(), db, testArgs(t, `{}`))

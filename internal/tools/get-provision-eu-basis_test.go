@@ -13,6 +13,7 @@ import (
 )
 
 func TestGetProvisionEUBasisUnresolvedDocWinsOverProbe(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	// Document resolution runs BEFORE the EU probe: an unresolved document
 	// yields empty results with NO note even when the EU table is missing.
@@ -33,6 +34,7 @@ func TestGetProvisionEUBasisUnresolvedDocWinsOverProbe(t *testing.T) {
 }
 
 func TestGetProvisionEUBasisEUTablesUnavailable(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	euDropTable(t, db, "eu_references")
 
@@ -48,6 +50,7 @@ func TestGetProvisionEUBasisEUTablesUnavailable(t *testing.T) {
 }
 
 func TestGetProvisionEUBasisMissingProvision(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	results, meta, err := tools.GetProvisionEUBasis(context.Background(), db, argsMap(t,
@@ -65,6 +68,7 @@ func TestGetProvisionEUBasisMissingProvision(t *testing.T) {
 }
 
 func TestGetProvisionEUBasisFound(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	results, _, err := tools.GetProvisionEUBasis(context.Background(), db, argsMap(t,
@@ -108,6 +112,7 @@ func TestGetProvisionEUBasisFound(t *testing.T) {
 }
 
 func TestGetProvisionEUBasisNullArticleAndOrdering(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	results, meta, err := tools.GetProvisionEUBasis(context.Background(), db, argsMap(t,
@@ -136,6 +141,7 @@ func TestGetProvisionEUBasisNullArticleAndOrdering(t *testing.T) {
 }
 
 func TestGetProvisionEUBasisMissingArguments(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	_, _, err := tools.GetProvisionEUBasis(context.Background(), db, nil)
@@ -146,6 +152,7 @@ func TestGetProvisionEUBasisMissingArguments(t *testing.T) {
 }
 
 func TestGetProvisionEUBasisClosedDB(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	db.Close() // resolve-first tool → the closed DB surfaces as an error
 

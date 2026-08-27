@@ -12,6 +12,7 @@ import (
 )
 
 func TestGetProvisionBySection(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	out, err := runGetProvisionJSON(t, db, `{"document_id": "doc-inforce", "section": "1"}`)
@@ -47,6 +48,7 @@ func TestGetProvisionBySection(t *testing.T) {
 }
 
 func TestGetProvisionByDirectRef(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	out, err := runGetProvisionJSON(t, db, `{"document_id": "doc-inforce", "provision_ref": "s2"}`)
@@ -65,6 +67,7 @@ func TestGetProvisionByDirectRef(t *testing.T) {
 }
 
 func TestGetProvisionAllProvisions(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	out, err := runGetProvisionJSON(t, db, `{"document_id": "doc-inforce"}`)
@@ -86,6 +89,7 @@ func TestGetProvisionAllProvisions(t *testing.T) {
 }
 
 func TestGetProvisionNotFoundNotes(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	_, meta, err := GetProvision(context.Background(), db, testArgs(t, `{"document_id": "doc-inforce", "section": "999"}`))
@@ -106,6 +110,7 @@ func TestGetProvisionNotFoundNotes(t *testing.T) {
 }
 
 func TestGetProvisionLikeSectionFallback(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	// Section text "37/A" — querying "7/A" must find it via the LIKE arm.
 	if _, err := db.Exec(`INSERT INTO legal_provisions (document_id, provision_ref, chapter, section, title, content)
@@ -123,6 +128,7 @@ func TestGetProvisionLikeSectionFallback(t *testing.T) {
 }
 
 func TestGetProvisionNullURLOmitted(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	if _, err := db.Exec(`INSERT INTO legal_documents (id, type, title, status, url)
 		VALUES ('doc-null-url', 'statute', 'Null URL Act', 'in_force', NULL)`); err != nil {
@@ -152,6 +158,7 @@ func TestGetProvisionNullURLOmitted(t *testing.T) {
 }
 
 func TestGetProvisionMissingRequiredArg(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	_, _, err := GetProvision(context.Background(), db, testArgs(t, `{}`))
@@ -161,6 +168,7 @@ func TestGetProvisionMissingRequiredArg(t *testing.T) {
 }
 
 func TestGetProvisionDegradedOnClosedDb(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	db.Close()
 
@@ -172,6 +180,7 @@ func TestGetProvisionDegradedOnClosedDb(t *testing.T) {
 }
 
 func TestGetProvisionAllProvisionsCapped(t *testing.T) {
+	t.Parallel()
 	db := storetest.NewTestDb(t)
 	for i := 1; i <= maxProvisionsPerDocument+1; i++ {
 		if _, err := db.Exec(`INSERT INTO legal_provisions (document_id, provision_ref, section, content)
@@ -194,7 +203,9 @@ func TestGetProvisionAllProvisionsCapped(t *testing.T) {
 
 // Real-database suite — port of tests/tools/get-provision.test.ts.
 func TestGetProvisionRealDb(t *testing.T) {
+	t.Parallel()
 	if !storetest.RealDBAvailable() {
+		dbSkippedTests++
 		t.Skip("real database not available")
 	}
 	db, err := store.OpenReadOnly(storetest.RealDBPath())

@@ -31,7 +31,11 @@ func (s *recordingServer) handler(w http.ResponseWriter, r *http.Request) {
 	}
 	body := make([]byte, r.ContentLength)
 	if r.ContentLength > 0 {
-		r.Body.Read(body)
+		if _, err := io.ReadFull(r.Body, body); err != nil {
+			s.mu.Unlock()
+			http.Error(w, "read request body", http.StatusInternalServerError)
+			return
+		}
 	}
 	s.times = append(s.times, time.Now())
 	s.ua = append(s.ua, r.Header.Get("User-Agent"))

@@ -3,6 +3,7 @@ package ingest
 import (
 	"context"
 	"encoding/json"
+	"io"
 	"net/http"
 	"net/http/httptest"
 	"os"
@@ -112,7 +113,9 @@ func TestFetchSearchPathForLaws(t *testing.T) {
 	ts := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		gotPath = r.URL.Path
 		buf := make([]byte, r.ContentLength)
-		r.Body.Read(buf)
+		if _, err := io.ReadFull(r.Body, buf); err != nil {
+			t.Errorf("read search-url body: %v", err)
+		}
 		gotPayload = string(buf)
 		gotContentType = r.Header.Get("Content-Type")
 		gotAccept = r.Header.Get("Accept")
