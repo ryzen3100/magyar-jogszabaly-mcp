@@ -10,9 +10,6 @@ services:
     environment:
       NODE_ENV: production
       PORT: "3000"
-      # Optional OAuth for clients that require it:
-      # OAUTH_ENABLED: "true"
-      # BASE_URL: "http://openmediavault.local:3000"
       HUNGARIAN_LAW_DB_PATH: "/data/database.db"
     volumes:
       - law-data:/data

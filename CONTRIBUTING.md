@@ -24,7 +24,7 @@ feature-branch → PR to dev → verify on dev → PR to main → deploy
 
 - TypeScript strict mode
 - All SQL queries must use parameterized statements
-- All tools must have Zod schema with `.describe()` annotations
+- All tools must declare typed JSON-Schema `inputSchema` objects with field descriptions
 - Run `npm run lint` before committing
 
 ## Reporting Issues

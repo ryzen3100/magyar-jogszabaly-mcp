@@ -23,6 +23,6 @@ This server provides read-only access to Hungarian legislation. It does not:
 - Require authentication (public endpoint)
 
 The primary security concerns are:
-- **Supply chain**: Dependencies are audited via Trivy, npm audit, and Socket
-- **Secret scanning**: Gitleaks scans all commits
-- **Static analysis**: Semgrep + CodeQL scan on every push
+- **Supply chain**: Dependencies scanned via Trivy (on PRs, pushes to `main`, and daily); `npm audit` runs in the publish workflow
+- **Static analysis**: Semgrep scans pull requests and pushes to `main`
+- **Posture**: OpenSSF Scorecard checks run automatically

@@ -6,7 +6,7 @@
  * Supports:
  * - Database IDs: "hu-law-2012-1-00-00", "act-cxii-2011-info-self-determination"
  * - Hungarian formal: "2012. évi I. törvény"
- * - English titles: "Privacy Act 1988"
+ * - English/foreign titles: e.g., "Data Protection Act 2011"
  * - Fuzzy title substring match
  */
 
@@ -44,8 +44,8 @@ function parseHungarianReference(input: string): string | null {
  * Supports:
  * - Direct ID match (e.g., "hu-law-2012-1-00-00")
  * - Hungarian formal format (e.g., "2012. évi I. törvény")
- * - Title match (e.g., "Privacy Act 1988", "Privacy Act")
- * - Short name/abbreviation match (e.g., "SOCI Act")
+ * - Title match (e.g., "Infotörvény", "Data Protection Act")
+ * - Short name/abbreviation match (e.g., "Ptk.", "Btk.")
  * - Fuzzy title substring match
  */
 export function resolveDocumentId(

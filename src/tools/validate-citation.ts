@@ -26,11 +26,11 @@ interface ValidateCitationResult {
  * Supports:
  * - Hungarian formal: "2012. évi I. törvény 116. §"
  * - Database ID: "hu-law-2012-1-00-00 s116"
- * - "Section 13 Privacy Act 1988" / "Section 13, Privacy Act 1988"
- * - "Privacy Act 1988 s 13" / "Privacy Act 1988, s 13"
+ * - "Section 3 Infotörvény" / "Section 3, Infotörvény"
+ * - "Infotörvény s 3" / "Infotörvény, s 3"
  * - "[Act Title Year] s N"
  * - "s 13" (section only, no document)
- * - Plain document reference (e.g., "Privacy Act 1988")
+ * - Plain document reference (e.g., "Infotörvény")
  */
 const SECTION_FIRST_RE = /^Section\s+(\d+[A-Za-z]*(?:\(\d+\))?)\s*[,;]?\s+(.+)$/i;
 const SECTION_LAST_RE = /^(.+?)\s*[,;]?\s+(?:s\.?\s+|Section\s+)(\d+[A-Za-z]*(?:\(\d+\))?)$/i;
