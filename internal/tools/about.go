@@ -8,7 +8,7 @@ import (
 	"database/sql"
 	"errors"
 
-	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/store"
+	"github.com/ryzen3100/magyar-jogszabaly-mcp/v2/internal/store"
 )
 
 // aboutDescription is the long Hungarian server description, byte-identical

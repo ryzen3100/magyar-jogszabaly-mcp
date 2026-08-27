@@ -6,7 +6,7 @@ import (
 	"testing"
 	"unicode/utf8"
 
-	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/seed"
+	"github.com/ryzen3100/magyar-jogszabaly-mcp/v2/internal/seed"
 )
 
 func sampleActHTML(t *testing.T) string {

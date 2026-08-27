@@ -22,7 +22,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/ingest"
+	"github.com/ryzen3100/magyar-jogszabaly-mcp/v2/internal/ingest"
 )
 
 func main() {

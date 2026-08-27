@@ -14,7 +14,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/seed"
+	"github.com/ryzen3100/magyar-jogszabaly-mcp/v2/internal/seed"
 )
 
 const (

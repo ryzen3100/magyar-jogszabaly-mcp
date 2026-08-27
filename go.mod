@@ -1,4 +1,4 @@
-module github.com/ryzen3100/magyar-jogszabaly-mcp
+module github.com/ryzen3100/magyar-jogszabaly-mcp/v2
 
 go 1.26.6
 

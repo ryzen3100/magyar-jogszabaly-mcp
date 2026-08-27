@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/store/storetest"
+	"github.com/ryzen3100/magyar-jogszabaly-mcp/v2/internal/store/storetest"
 )
 
 func TestListSourcesPopulated(t *testing.T) {

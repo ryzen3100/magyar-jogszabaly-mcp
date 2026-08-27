@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/server"
+	"github.com/ryzen3100/magyar-jogszabaly-mcp/v2/internal/server"
 )
 
 func main() {

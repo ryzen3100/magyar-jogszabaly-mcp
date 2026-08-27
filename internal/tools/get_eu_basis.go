@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/statute"
-	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/store"
+	"github.com/ryzen3100/magyar-jogszabaly-mcp/v2/internal/statute"
+	"github.com/ryzen3100/magyar-jogszabaly-mcp/v2/internal/store"
 )
 
 type getEUBasisArgs struct {

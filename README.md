@@ -195,7 +195,7 @@ go build ./cmd/hungarian-law-mcp
 vagy a közzétett Go modulból (release címke megjelenése után):
 
 ```bash
-go install github.com/ryzen3100/magyar-jogszabaly-mcp/cmd/hungarian-law-mcp@latest
+go install github.com/ryzen3100/magyar-jogszabaly-mcp/v2/cmd/hungarian-law-mcp@latest
 ```
 
 ### Futtatás

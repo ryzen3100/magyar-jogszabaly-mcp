@@ -8,7 +8,7 @@ import (
 	"database/sql"
 
 	"github.com/modelcontextprotocol/go-sdk/mcp"
-	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/tools"
+	"github.com/ryzen3100/magyar-jogszabaly-mcp/v2/internal/tools"
 )
 
 // registerResources adds the two HTTP-mode resources. The TS

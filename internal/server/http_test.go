@@ -13,8 +13,8 @@ import (
 	"time"
 
 	"github.com/modelcontextprotocol/go-sdk/mcp"
-	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/store/storetest"
-	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/tools"
+	"github.com/ryzen3100/magyar-jogszabaly-mcp/v2/internal/store/storetest"
+	"github.com/ryzen3100/magyar-jogszabaly-mcp/v2/internal/tools"
 )
 
 // newTestHandler builds the route table with a nil DB — safe because tool

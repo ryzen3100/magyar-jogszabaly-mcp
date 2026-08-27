@@ -2,7 +2,7 @@
 
 ## Project shape
 
-- This is a Go MCP server (Go `>= 1.26`, module `github.com/ryzen3100/magyar-jogszabaly-mcp`); it builds with `CGO_ENABLED=0` — the SQLite driver (`modernc.org/sqlite`) is pure Go.
+- This is a Go MCP server (Go `>= 1.26`, module `github.com/ryzen3100/magyar-jogszabaly-mcp/v2`); it builds with `CGO_ENABLED=0` — the SQLite driver (`modernc.org/sqlite`) is pure Go.
 - Binaries live in `cmd/`: `hungarian-law-mcp` (default stdio MCP; the `serve` subcommand runs Streamable HTTP), plus `build-db`, `check-updates`, and `ingest`.
 - Shared server logic lives under `internal/` (`server`, `tools`, `store`, `statute`, `fts`, `builddb`, `ingest`, `seed`); there is no `src/`.
 - `data/seed/*.json` and `data/eu-mappings.json` are the database inputs. `go run ./cmd/build-db` writes a temporary file and atomically renames it over `data/database.db` on success; treat the database as generated, not hand-edited.

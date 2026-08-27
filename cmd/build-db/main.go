@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/builddb"
+	"github.com/ryzen3100/magyar-jogszabaly-mcp/v2/internal/builddb"
 )
 
 func main() {

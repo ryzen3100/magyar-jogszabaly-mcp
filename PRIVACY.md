@@ -15,7 +15,7 @@ This document addresses privacy and confidentiality considerations when using th
 
 **Safe Use Options:**
 1. **General Legal Research**: Use Tool for non-client-specific queries
-2. **Local Go Binary**: Install via `go install github.com/ryzen3100/magyar-jogszabaly-mcp/cmd/hungarian-law-mcp@latest` — database queries stay on your machine
+2. **Local Go Binary**: Install via `go install github.com/ryzen3100/magyar-jogszabaly-mcp/v2/cmd/hungarian-law-mcp@latest` — database queries stay on your machine
 3. **Remote Endpoint** (1.x only — not deployed for the Go server): Vercel Streamable HTTP endpoint — queries transit Vercel infrastructure
 4. **On-Premise Deployment**: Self-host with local LLM for privileged matters
 
@@ -36,7 +36,7 @@ User Query -> MCP Client (Claude Desktop/Cursor/API) -> Anthropic Cloud -> MCP S
 #### 1. Local Go Binary (Most Private)
 
 ```bash
-go install github.com/ryzen3100/magyar-jogszabaly-mcp/cmd/hungarian-law-mcp@latest
+go install github.com/ryzen3100/magyar-jogszabaly-mcp/v2/cmd/hungarian-law-mcp@latest
 hungarian-law-mcp
 ```
 

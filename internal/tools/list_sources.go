@@ -7,7 +7,7 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/store"
+	"github.com/ryzen3100/magyar-jogszabaly-mcp/v2/internal/store"
 )
 
 // sourceInfo mirrors the TS SourceInfo; the four descriptive strings are

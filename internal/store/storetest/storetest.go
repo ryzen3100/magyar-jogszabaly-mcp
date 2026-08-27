@@ -15,7 +15,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/store"
+	"github.com/ryzen3100/magyar-jogszabaly-mcp/v2/internal/store"
 
 	_ "modernc.org/sqlite" // registers the "sqlite" driver
 )

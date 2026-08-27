@@ -11,8 +11,8 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/store"
-	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/store/storetest"
+	"github.com/ryzen3100/magyar-jogszabaly-mcp/v2/internal/store"
+	"github.com/ryzen3100/magyar-jogszabaly-mcp/v2/internal/store/storetest"
 )
 
 // isoMillis mirrors the JavaScript Date#toISOString shape asserted below.

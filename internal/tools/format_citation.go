@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/statute"
+	"github.com/ryzen3100/magyar-jogszabaly-mcp/v2/internal/statute"
 )
 
 // formatCitationArgs mirrors FormatCitationInput.

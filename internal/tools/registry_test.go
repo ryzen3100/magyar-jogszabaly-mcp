@@ -9,7 +9,7 @@ import (
 
 	"github.com/modelcontextprotocol/go-sdk/mcp"
 
-	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/store/storetest"
+	"github.com/ryzen3100/magyar-jogszabaly-mcp/v2/internal/store/storetest"
 )
 
 // callDispatch drives the registry dispatcher with a raw call, like the TS

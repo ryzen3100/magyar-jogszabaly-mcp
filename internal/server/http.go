@@ -23,8 +23,8 @@ import (
 	"time"
 
 	"github.com/modelcontextprotocol/go-sdk/mcp"
-	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/store"
-	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/tools"
+	"github.com/ryzen3100/magyar-jogszabaly-mcp/v2/internal/store"
+	"github.com/ryzen3100/magyar-jogszabaly-mcp/v2/internal/tools"
 )
 
 // Description fragments shared by the server card and the /mcp metadata
@@ -315,7 +315,7 @@ func newHTTPHandler(db *sql.DB, about *tools.AboutContext, start time.Time, icon
 	shared := sessionServer(db, about, sessions)
 	mcpHandler := mcp.NewStreamableHTTPHandler(func(*http.Request) *mcp.Server {
 		return shared
-	}, &mcp.StreamableHTTPOptions{SessionTimeout: sessionIdleTTL}) // matches the TS server's 30-min idle sweep
+	}, &mcp.StreamableHTTPOptions{SessionTimeout: sessionIdleTTL, Logger: logger}) // matches the TS server's 30-min idle sweep
 
 	// /health COUNT pair is expensive on a large readonly DB — probe OUTSIDE
 	// healthMu so concurrent hits coalesce on the DB instead of queueing
