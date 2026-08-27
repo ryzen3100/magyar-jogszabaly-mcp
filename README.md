@@ -82,7 +82,7 @@ A csatlakozás után természetes nyelven is felteheted a kérdéseidet:
 |-----------|------|-----------|
 | **Jogszabályok** | 4 326 | Az njt.hu-ról származó teljes magyar joganyag |
 | **Rendelkezések** | 130 220 | FTS5-alapú teljes szövegű keresés |
-| **Uniós kereszthivatkozások** | 109 | Irányelvek és rendeletek magyar jogszabályokhoz kapcsolva |
+| **Uniós kereszthivatkozások** | 92 | Irányelvek és rendeletek magyar jogszabályokhoz kapcsolva |
 | **Adatbázis mérete** | 282 MB | Optimalizált SQLite-adatbázis |
 | **Frissítés** | Napi ellenőrzés | Az új adatok új konténerképpel jelennek meg |
 
@@ -202,10 +202,10 @@ go install github.com/ryzen3100/magyar-jogszabaly-mcp/cmd/hungarian-law-mcp@late
 
 ```bash
 hungarian-law-mcp                   # stdio MCP (alapértelmezett)
-PORT=3000 hungarian-law-mcp serve   # Streamable HTTP a 3000-es porton
+HOST=127.0.0.1 PORT=3000 hungarian-law-mcp serve   # Streamable HTTP a 3000-es porton
 ```
 
-Az adatbázis helye alapértelmezés szerint `data/database.db`; a `HUNGARIAN_LAW_DB_PATH` környezeti változóval írható felül.
+A `PORT` alapértelmezett értéke `3000`, a `HOST`-é `127.0.0.1` (loopback). Az adatbázis helye alapértelmezés szerint `data/database.db`, a futtatható állományhoz képest feloldva — mivel a `go run` ideiglenes könyvtárba fordít, fejlesztési futtatáshoz állítsd be a `HUNGARIAN_LAW_DB_PATH` környezeti változót, pl. `HUNGARIAN_LAW_DB_PATH=data/database.db go run ./cmd/hungarian-law-mcp`.
 
 ### Adatbázis-kezelés
 

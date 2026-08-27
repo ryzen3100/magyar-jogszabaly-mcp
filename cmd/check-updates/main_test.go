@@ -1,9 +1,12 @@
 package main
 
 import (
+	"bytes"
 	"database/sql"
 	"encoding/json"
 	"errors"
+	"fmt"
+	"io"
 	"io/fs"
 	"net/http"
 	"net/http/httptest"
@@ -190,5 +193,178 @@ func TestReadCensus(t *testing.T) {
 	}
 	if c, err := readCensus(empty); err != nil || c.TotalLaws != nil || c.TotalProvisions != nil {
 		t.Fatalf("readCensus(empty object) = (%+v, %v), want nil counts and no error", c, err)
+	}
+}
+
+// writeCheckDB creates a minimal database file carrying just the tables and
+// rows run() queries, for the offline classification test below.
+func writeCheckDB(t *testing.T, builtAt string, docs, provisions int) string {
+	t.Helper()
+	path := filepath.Join(t.TempDir(), "database.db")
+	db, err := sql.Open("sqlite", path)
+	if err != nil {
+		t.Fatal(err)
+	}
+	defer db.Close()
+	for _, ddl := range []string{
+		`CREATE TABLE db_metadata (key TEXT PRIMARY KEY, value TEXT)`,
+		`CREATE TABLE legal_documents (id TEXT)`,
+		`CREATE TABLE legal_provisions (id TEXT)`,
+	} {
+		if _, err := db.Exec(ddl); err != nil {
+			t.Fatal(err)
+		}
+	}
+	if builtAt != "" {
+		if _, err := db.Exec(`INSERT INTO db_metadata VALUES ('built_at', ?)`, builtAt); err != nil {
+			t.Fatal(err)
+		}
+	}
+	for i := range docs {
+		if _, err := db.Exec(`INSERT INTO legal_documents VALUES (?)`, fmt.Sprintf("doc-%d", i)); err != nil {
+			t.Fatal(err)
+		}
+	}
+	for i := range provisions {
+		if _, err := db.Exec(`INSERT INTO legal_provisions VALUES (?)`, fmt.Sprintf("prov-%d", i)); err != nil {
+			t.Fatal(err)
+		}
+	}
+	return path
+}
+
+// stubTransport answers every request with a fixed status without touching
+// the network; deadTransport fails like an unreachable portal.
+type stubTransport struct{ status int }
+
+func (t stubTransport) RoundTrip(*http.Request) (*http.Response, error) {
+	return &http.Response{
+		Status:     fmt.Sprintf("%d stub", t.status),
+		StatusCode: t.status,
+		Body:       io.NopCloser(strings.NewReader("")),
+		Header:     http.Header{},
+	}, nil
+}
+
+type deadTransport struct{}
+
+func (deadTransport) RoundTrip(*http.Request) (*http.Response, error) {
+	return nil, errors.New("connection refused")
+}
+
+// TestRunClassification pins the 0/1/2 exit-code contract of run() offline:
+// the clock is fixed and the portal is a stubbed HTTP client. It also pins
+// the stream discipline — "ERROR:" lines only on stderr, the RESULT line
+// only on stdout.
+func TestRunClassification(t *testing.T) {
+	now := time.Date(2026, 8, 28, 12, 0, 0, 0, time.UTC)
+	fresh := now.AddDate(0, 0, -7).Format(time.RFC3339)
+	stale := now.AddDate(0, 0, -(maxDBAgeDays + 1)).Format(time.RFC3339)
+	okPortal := &http.Client{Transport: stubTransport{http.StatusOK}}
+	deadPortal := &http.Client{Transport: deadTransport{}}
+	dir := t.TempDir()
+	currentCensus := filepath.Join(dir, "census.json")
+	if err := os.WriteFile(currentCensus, []byte(`{"total_laws":1,"total_provisions":1}`), 0o644); err != nil {
+		t.Fatal(err)
+	}
+	censusMissing := filepath.Join(dir, "absent.json")
+
+	tests := []struct {
+		name       string
+		db         func(t *testing.T) string
+		census     string
+		portal     *http.Client
+		want       int
+		wantErr    string // substring that must land on stderr
+		wantStdout string // substring that must land on stdout ("" for early exits)
+	}{
+		{
+			name:       "fresh database",
+			db:         func(t *testing.T) string { return writeCheckDB(t, fresh, 1, 1) },
+			census:     currentCensus,
+			portal:     okPortal,
+			want:       0,
+			wantStdout: "RESULT: Database appears current",
+		},
+		{
+			name:       "stale database",
+			db:         func(t *testing.T) string { return writeCheckDB(t, stale, 1, 1) },
+			census:     currentCensus,
+			portal:     okPortal,
+			want:       1,
+			wantStdout: "RESULT: Updates detected",
+		},
+		{
+			name:       "portal unreachable",
+			db:         func(t *testing.T) string { return writeCheckDB(t, fresh, 1, 1) },
+			census:     currentCensus,
+			portal:     deadPortal,
+			want:       2,
+			wantErr:    "is unreachable",
+			wantStdout: "RESULT: Freshness check failed",
+		},
+		{
+			name:       "census missing",
+			db:         func(t *testing.T) string { return writeCheckDB(t, fresh, 1, 1) },
+			census:     censusMissing,
+			portal:     okPortal,
+			want:       2,
+			wantErr:    "ERROR: census.json is missing",
+			wantStdout: "RESULT: Freshness check failed",
+		},
+		{
+			name:    "database missing",
+			db:      func(t *testing.T) string { return filepath.Join(t.TempDir(), "absent.db") },
+			census:  currentCensus,
+			portal:  okPortal,
+			want:    2,
+			wantErr: "ERROR: Database not found",
+		},
+		{
+			name:       "no built_at row",
+			db:         func(t *testing.T) string { return writeCheckDB(t, "", 1, 1) },
+			census:     currentCensus,
+			portal:     okPortal,
+			want:       2,
+			wantErr:    "ERROR: No built_at in db_metadata",
+			wantStdout: "RESULT: Freshness check failed",
+		},
+		{
+			name:       "invalid built_at",
+			db:         func(t *testing.T) string { return writeCheckDB(t, "not-a-date", 1, 1) },
+			census:     currentCensus,
+			portal:     okPortal,
+			want:       2,
+			wantErr:    "ERROR: Database built_at metadata is invalid",
+			wantStdout: "RESULT: Freshness check failed",
+		},
+		{
+			name:       "database without data",
+			db:         func(t *testing.T) string { return writeCheckDB(t, fresh, 0, 0) },
+			census:     currentCensus,
+			portal:     okPortal,
+			want:       2,
+			wantErr:    "ERROR: Database contains no legal data",
+			wantStdout: "RESULT: Freshness check failed",
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			var stdout, stderr bytes.Buffer
+			got := run(tt.db(t), tt.census, func() time.Time { return now }, tt.portal, &stdout, &stderr)
+			if got != tt.want {
+				t.Fatalf("run() = %d, want %d\nstdout:\n%s\nstderr:\n%s", got, tt.want, stdout.String(), stderr.String())
+			}
+			if tt.wantErr != "" && !strings.Contains(stderr.String(), tt.wantErr) {
+				t.Fatalf("stderr missing %q:\n%s", tt.wantErr, stderr.String())
+			}
+			if tt.wantStdout != "" && !strings.Contains(stdout.String(), tt.wantStdout) {
+				t.Fatalf("stdout missing %q:\n%s", tt.wantStdout, stdout.String())
+			}
+			// Stream discipline: ERROR lines never on stdout.
+			if strings.Contains(stdout.String(), "ERROR:") {
+				t.Errorf("stdout carries ERROR lines:\n%s", stdout.String())
+			}
+		})
 	}
 }

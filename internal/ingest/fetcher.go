@@ -54,7 +54,9 @@ type Fetcher struct {
 	// Sleep backs both the rate-limit wait and retry backoff; tests replace
 	// it to observe durations without waiting.
 	Sleep func(time.Duration)
-	// Logf receives retry progress messages; default prints to stdout.
+	// Logf receives retry progress messages. The fmt.Printf default is
+	// CLI-only: NewPipeline rewires it to the pipeline's Stdout sink so
+	// injected test harnesses capture retry lines too.
 	Logf func(format string, args ...any)
 
 	mu              sync.Mutex

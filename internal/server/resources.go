@@ -1,5 +1,6 @@
 // HTTP-only resources — port of the resources handlers in src/http-server.ts.
 // Like the prompts, these exist only in HTTP mode.
+
 package server
 
 import (

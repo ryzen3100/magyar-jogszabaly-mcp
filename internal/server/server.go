@@ -1,13 +1,14 @@
-// Shared helpers for the stdio and HTTP entrypoints — port of the common
-// pieces of src/index.ts, src/http-server.ts and src/db-info.ts.
+// Package server implements the two MCP entrypoints — stdio and Streamable
+// HTTP — and the plumbing they share; a port of the common pieces of
+// src/index.ts, src/http-server.ts and src/db-info.ts.
 package server
 
 import (
 	"context"
 	"database/sql"
 	"fmt"
+	"log/slog"
 	"os"
-	"time"
 
 	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/store"
 	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/tools"
@@ -15,15 +16,19 @@ import (
 
 const (
 	serverName    = "hungarian-law-mcp"
-	serverVersion = "1.0.0"
-	// isoLayout reproduces JavaScript Date.toISOString() (UTC, milliseconds).
-	isoLayout = "2006-01-02T15:04:05.000Z07:00"
+	serverVersion = "2.0.0"
 )
 
-// logf writes a stderr log line with the [hungarian-law-mcp] prefix. Stdout
-// carries only MCP protocol traffic in stdio mode, so logging stays on stderr.
+// logger is the package-wide sink for logf — JSON lines on stderr, so stdout
+// stays reserved for MCP protocol traffic in stdio mode. Both entrypoints
+// pass the same logger to the SDK via ServerOptions.Logger.
+var logger = slog.New(slog.NewJSONHandler(os.Stderr, nil))
+
+// logf writes a structured Info log line with the [hungarian-law-mcp] prefix.
+// Stdout carries only MCP protocol traffic in stdio mode, so logging stays on
+// stderr.
 func logf(format string, args ...any) {
-	fmt.Fprintf(os.Stderr, "["+serverName+"] "+format+"\n", args...)
+	logger.Info("[" + serverName + "] " + fmt.Sprintf(format, args...))
 }
 
 // openDB resolves and opens the readonly database, mirroring getDb() in
@@ -49,15 +54,10 @@ func buildAboutContext(db *sql.DB, path string) *tools.AboutContext {
 	ctx := &tools.AboutContext{
 		Version:     serverVersion,
 		Fingerprint: "unknown",
-		DbBuilt:     time.Now().UTC().Format(isoLayout),
 	}
 	if fp, err := store.DbFingerprint(path); err == nil {
 		ctx.Fingerprint = fp
 	}
-	if m := store.ReadDbMetadata(context.Background(), db); m.HasBuiltAt {
-		ctx.DbBuilt = m.BuiltAt
-	} else if st, err := os.Stat(path); err == nil {
-		ctx.DbBuilt = st.ModTime().UTC().Format(isoLayout)
-	}
+	ctx.DbBuilt = store.DbBuiltOrMtime(context.Background(), db, path)
 	return ctx
 }

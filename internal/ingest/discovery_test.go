@@ -1,7 +1,6 @@
 package ingest
 
 import (
-	"context"
 	"encoding/json"
 	"io"
 	"net/http"
@@ -126,7 +125,7 @@ func TestFetchSearchPathForLaws(t *testing.T) {
 	p := newFastPipeline(t.TempDir(), t.TempDir())
 	p.BaseURL = ts.URL
 
-	path, err := p.fetchSearchPathForLaws(context.Background(), true)
+	path, err := p.fetchSearchPathForLaws(t.Context(), true)
 	if err != nil {
 		t.Fatalf("fetchSearchPathForLaws: %v", err)
 	}
@@ -162,7 +161,7 @@ func TestFetchSearchPathForLawsErrors(t *testing.T) {
 		defer ts.Close()
 		p := newFastPipeline(t.TempDir(), t.TempDir())
 		p.BaseURL = ts.URL
-		if _, err := p.fetchSearchPathForLaws(context.Background(), false); err == nil || !strings.Contains(err.Error(), "HTTP 500") {
+		if _, err := p.fetchSearchPathForLaws(t.Context(), false); err == nil || !strings.Contains(err.Error(), "HTTP 500") {
 			t.Errorf("err = %v", err)
 		}
 	})
@@ -173,7 +172,7 @@ func TestFetchSearchPathForLawsErrors(t *testing.T) {
 		defer ts.Close()
 		p := newFastPipeline(t.TempDir(), t.TempDir())
 		p.BaseURL = ts.URL
-		if _, err := p.fetchSearchPathForLaws(context.Background(), false); err == nil || !strings.Contains(err.Error(), "not JSON") {
+		if _, err := p.fetchSearchPathForLaws(t.Context(), false); err == nil || !strings.Contains(err.Error(), "not JSON") {
 			t.Errorf("err = %v", err)
 		}
 	})
@@ -184,7 +183,7 @@ func TestFetchSearchPathForLawsErrors(t *testing.T) {
 		defer ts.Close()
 		p := newFastPipeline(t.TempDir(), t.TempDir())
 		p.BaseURL = ts.URL
-		if _, err := p.fetchSearchPathForLaws(context.Background(), false); err == nil || !strings.Contains(err.Error(), "valid path") {
+		if _, err := p.fetchSearchPathForLaws(t.Context(), false); err == nil || !strings.Contains(err.Error(), "valid path") {
 			t.Errorf("err = %v", err)
 		}
 	})
@@ -195,7 +194,7 @@ func TestFetchSearchPathForLawsErrors(t *testing.T) {
 		defer ts.Close()
 		p := newFastPipeline(t.TempDir(), t.TempDir())
 		p.BaseURL = ts.URL
-		if _, err := p.discoverLaws(context.Background(), false); err == nil || !strings.Contains(err.Error(), "unexpected characters") {
+		if _, err := p.discoverLaws(t.Context(), false); err == nil || !strings.Contains(err.Error(), "unexpected characters") {
 			t.Errorf("err = %v", err)
 		}
 	})
@@ -222,7 +221,7 @@ func TestDiscoverLawsPaginationAndCache(t *testing.T) {
 	p := newFastPipeline(sourceDir, t.TempDir())
 	p.BaseURL = ts.URL
 
-	laws, err := p.discoverLaws(context.Background(), false)
+	laws, err := p.discoverLaws(t.Context(), false)
 	if err != nil {
 		t.Fatalf("discoverLaws: %v", err)
 	}

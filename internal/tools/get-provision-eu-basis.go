@@ -1,5 +1,5 @@
-// get_provision_eu_basis — Get EU legal basis for a specific provision.
-// Port of src/tools/get-provision-eu-basis.ts.
+// get_provision_eu_basis — Get the EU legal basis for a single provision
+// (provision-level). Port of src/tools/get-provision-eu-basis.ts.
 
 package tools
 
@@ -37,13 +37,9 @@ func GetProvisionEUBasis(ctx context.Context, db *sql.DB, args map[string]any) (
 	if err := decodeArgs(args, &parsed); err != nil {
 		return nil, ResponseMetadata{}, err
 	}
-	if parsed.DocumentID == nil {
-		return nil, ResponseMetadata{}, fmt.Errorf("missing required argument %q", "document_id")
-	}
-	if parsed.ProvisionRef == nil {
-		return nil, ResponseMetadata{}, fmt.Errorf("missing required argument %q", "provision_ref")
-	}
 	if err := validateArgs(
+		checkRequired("document_id", parsed.DocumentID),
+		checkRequired("provision_ref", parsed.ProvisionRef),
 		checkMaxLength("document_id", parsed.DocumentID, maxDocumentIDLength),
 		checkMaxLength("provision_ref", parsed.ProvisionRef, maxRefLength),
 	); err != nil {
@@ -103,31 +99,21 @@ func GetProvisionEUBasis(ctx context.Context, db *sql.DB, args map[string]any) (
 	for rows.Next() {
 		var (
 			r            provisionEuBasisResult
-			docType      sql.NullString
-			title        sql.NullString
-			article      sql.NullString
-			referenceCtx sql.NullString
-			fullCitation sql.NullString
+			docType      sql.Null[string]
+			title        sql.Null[string]
+			article      sql.Null[string]
+			referenceCtx sql.Null[string]
+			fullCitation sql.Null[string]
 		)
 		if err := rows.Scan(&r.EuDocumentID, &docType, &title, &article,
 			&r.ReferenceType, &referenceCtx, &fullCitation); err != nil {
 			return nil, ResponseMetadata{}, fmt.Errorf("scan eu reference: %w", err)
 		}
-		if docType.Valid {
-			r.EuDocumentType = &docType.String
-		}
-		if title.Valid {
-			r.EuDocumentTitle = &title.String
-		}
-		if article.Valid {
-			r.EuArticle = &article.String
-		}
-		if referenceCtx.Valid {
-			r.ReferenceContext = &referenceCtx.String
-		}
-		if fullCitation.Valid {
-			r.FullCitation = &fullCitation.String
-		}
+		r.EuDocumentType = nullStringPtr(docType)
+		r.EuDocumentTitle = nullStringPtr(title)
+		r.EuArticle = nullStringPtr(article)
+		r.ReferenceContext = nullStringPtr(referenceCtx)
+		r.FullCitation = nullStringPtr(fullCitation)
 		results = append(results, r)
 	}
 	if err := rows.Err(); err != nil {

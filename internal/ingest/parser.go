@@ -34,14 +34,15 @@ var (
 	numericEntityPattern = regexp.MustCompile(`&#([0-9]+);`)
 	hexEntityPattern     = regexp.MustCompile(`&#x([0-9a-fA-F]+);`)
 
-	spaceRunesPattern          = regexp.MustCompile(`[\x{00a0}\x{2000}-\x{200a}\x{202f}\x{205f}\x{3000}]`)
-	whitespacePattern          = regexp.MustCompile(jsSpace + `+`)
-	spaceBeforePunct           = regexp.MustCompile(`(?:` + jsSpace + `+)([,.;:!?])`)
-	openParenSpace             = regexp.MustCompile(`\(` + jsSpace + `+`)
-	spaceCloseParen            = regexp.MustCompile(jsSpace + `+\)`)
-	fnSupPattern               = regexp.MustCompile(`(?i)<sup[^>]*class="fnSup"[^>]*>[\s\S]*?</sup>`)
-	brPattern                  = regexp.MustCompile(`(?i)<br\s*/?>`)
-	blockTagPattern            = regexp.MustCompile(`(?i)</?(?:p|div|li|ul|ol|tr|td|th|table|tbody|thead|tfoot|h[1-6])[^>]*>`)
+	spaceRunesPattern = regexp.MustCompile(`[\x{00a0}\x{2000}-\x{200a}\x{202f}\x{205f}\x{3000}]`)
+	whitespacePattern = regexp.MustCompile(jsSpace + `+`)
+	spaceBeforePunct  = regexp.MustCompile(`(?:` + jsSpace + `+)([,.;:!?])`)
+	openParenSpace    = regexp.MustCompile(`\(` + jsSpace + `+`)
+	spaceCloseParen   = regexp.MustCompile(jsSpace + `+\)`)
+	fnSupPattern      = regexp.MustCompile(`(?i)<sup[^>]*class="fnSup"[^>]*>[\s\S]*?</sup>`)
+	brPattern         = regexp.MustCompile(`(?i)<br\s*/?>`)
+	blockTagPattern   = regexp.MustCompile(
+		`(?i)</?(?:p|div|li|ul|ol|tr|td|th|table|tbody|thead|tfoot|h[1-6])[^>]*>`)
 	anyTagPattern              = regexp.MustCompile(`<[^>]+>`)
 	digitsSuffixPatt           = regexp.MustCompile(`^(\d+)([A-Z]+)?$`)
 	sectionPattern             = regexp.MustCompile(`^(\d+)(?:/([A-Za-z]+))?$`)
@@ -316,14 +317,8 @@ func extractOfficialTitle(html string) string {
 		subtitle = subtitleMatches[len(subtitleMatches)-1][2]
 	}
 
-	mainText := ""
-	if main != "" {
-		mainText = HTMLToText(main)
-	}
-	subtitleText := ""
-	if subtitle != "" {
-		subtitleText = HTMLToText(subtitle)
-	}
+	mainText := HTMLToText(main)
+	subtitleText := HTMLToText(subtitle)
 
 	combined := mainText
 	if subtitleText != "" && subtitleText != mainText {
@@ -351,21 +346,21 @@ func joinChapter(number, title string) string {
 	return strings.Join(parts, " - ")
 }
 
-// ParseHungarianHTML parses njt.hu HTML into a seed-compatible structure.
-// Port of parseHungarianHtml.
-func ParseHungarianHTML(html string, act ActIndexEntry) seed.DocumentSeed {
+// accumulateSections walks the blocks in document order and groups them into
+// sections keyed by block id, explicit section marker or article marker;
+// marker-less content blocks extend the active section. Chapter markers are
+// tracked along the way so each section records the chapter it appeared in.
+func accumulateSections(blocks []njtBlock) map[string]*sectionAccumulator {
 	sections := map[string]*sectionAccumulator{}
-	var definitions []seed.DefinitionSeed
-	blocks := extractNjtBlocks(html)
-
 	currentChapterNumber := ""
 	currentChapterTitle := ""
 	activeSectionKey := ""
 
 	for _, block := range blocks {
-		if block.blockClass == "fejezet" {
+		switch block.blockClass {
+		case "fejezet":
 			currentChapterNumber = HTMLToText(block.blockHTML)
-		} else if block.blockClass == "fejezetCim" {
+		case "fejezetCim":
 			currentChapterTitle = HTMLToText(block.blockHTML)
 		}
 
@@ -420,6 +415,16 @@ func ParseHungarianHTML(html string, act ActIndexEntry) seed.DocumentSeed {
 			acc.blocks = append(acc.blocks, block.blockHTML)
 		}
 	}
+
+	return sections
+}
+
+// ParseHungarianHTML parses njt.hu HTML into a seed-compatible structure.
+// Port of parseHungarianHtml.
+func ParseHungarianHTML(html string, act ActIndexEntry) seed.DocumentSeed {
+	blocks := extractNjtBlocks(html)
+	sections := accumulateSections(blocks)
+	var definitions []seed.DefinitionSeed
 
 	if len(sections) == 0 {
 		legacyIndex := 0

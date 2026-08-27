@@ -95,9 +95,12 @@ func toolDefs() []toolDef {
 	return []toolDef{
 		{
 			name: "search_legislation",
-			description: "Search Hungarian statutes and regulations by keyword using full-text search (FTS5 with BM25 ranking). " +
-				"Returns matching provisions with document context, snippets with >>> <<< markers around matched terms, and relevance scores. " +
-				"Supports FTS5 syntax: quoted phrases (\"exact match\"), boolean operators (AND, OR, NOT), and prefix wildcards (term*). " +
+			description: "Search Hungarian statutes and regulations by keyword using full-text " +
+				"search (FTS5 with BM25 ranking). " +
+				"Returns matching provisions with document context, snippets with >>> <<< " +
+				"markers around matched terms, and relevance scores. " +
+				"Supports FTS5 syntax: quoted phrases (\"exact match\"), boolean operators " +
+				"(AND, OR, NOT), and prefix wildcards (term*). " +
 				"Results are in English. Default limit is 10 results. For broad topics, increase the limit. " +
 				"Do NOT use this for retrieving a known provision — use get_provision instead.",
 			title:  "Search legislation",
@@ -125,7 +128,8 @@ func toolDefs() []toolDef {
 		},
 		{
 			name: "build_legal_stance",
-			description: "Build a comprehensive set of citations for a legal question by searching across all Hungarian statutes simultaneously. " +
+			description: "Build a comprehensive set of citations for a legal question by " +
+				"searching across all Hungarian statutes simultaneously. " +
 				"Returns aggregated results from multiple relevant provisions, useful for legal research on a topic. " +
 				"Use this for broad legal questions like \"What are the penalties for data breaches in Hungary?\" " +
 				"rather than looking up a specific known provision.",
@@ -192,7 +196,8 @@ func toolDefs() []toolDef {
 		{
 			name: "list_sources",
 			description: "Returns detailed provenance metadata for all data sources used by this server, " +
-				"including the Nemzeti Jogszabálytár (National Legislation Database) (Magyar Közlöny (Hungarian Official Gazette)). " +
+				"including the Nemzeti Jogszabálytár (National Legislation Database) " +
+				"(Magyar Közlöny (Hungarian Official Gazette)). " +
 				"Use this to understand what data is available, its authority, coverage scope, and known limitations. " +
 				"Also returns dataset statistics (document counts, provision counts) and database build timestamp. " +
 				"Call this FIRST when you need to understand what Hungarian legal data this server covers.",
@@ -279,7 +284,7 @@ func dispatch(db *sql.DB, about *AboutContext, handlers map[string]Handler) mcp.
 		} else {
 			h, ok := handlers[name]
 			if !ok {
-				return errorResult(fmt.Sprintf("Error: Unknown tool \"%s\".", name)), nil
+				return errorResult(fmt.Sprintf("Error: Unknown tool %q.", name)), nil
 			}
 			var args map[string]any
 			args, handlerErr = decodeCallArgs(req.Params.Arguments)

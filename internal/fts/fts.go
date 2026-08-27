@@ -72,7 +72,7 @@ func BuildFtsQueryVariants(sanitized string) []string {
 		return []string{}
 	}
 
-	var variants []string
+	variants := []string{}
 
 	if len(terms) > 1 {
 		// Exact phrase
@@ -80,8 +80,11 @@ func BuildFtsQueryVariants(sanitized string) []string {
 		// AND query
 		variants = append(variants, strings.Join(terms, " AND "))
 		// Prefix AND on last term
-		prefixTerms := append(append([]string{}, terms[:len(terms)-1]...), terms[len(terms)-1]+"*")
+		last := terms[len(terms)-1]
+		prefixTerms := append(append([]string{}, terms[:len(terms)-1]...), last+"*")
 		variants = append(variants, strings.Join(prefixTerms, " AND "))
+		// OR fallback — any term matches (broadest)
+		variants = append(variants, strings.Join(terms, " OR "))
 	} else {
 		// Single term
 		variants = append(variants, terms[0])
@@ -90,11 +93,6 @@ func BuildFtsQueryVariants(sanitized string) []string {
 		if utf8.RuneCountInString(terms[0]) >= 3 {
 			variants = append(variants, terms[0]+"*")
 		}
-	}
-
-	// OR fallback — any term matches (broadest)
-	if len(terms) > 1 {
-		variants = append(variants, strings.Join(terms, " OR "))
 	}
 
 	return variants

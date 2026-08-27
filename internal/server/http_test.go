@@ -92,6 +92,20 @@ func TestStatusWriterFlushAndUnwrap(t *testing.T) {
 	}
 }
 
+// A bare Write (no WriteHeader) must record the implicit 200 the access log
+// reports — net/http semantics.
+func TestStatusWriterImplicitStatus(t *testing.T) {
+	t.Parallel()
+	rec := httptest.NewRecorder()
+	sw := &statusWriter{ResponseWriter: rec}
+	if _, err := sw.Write([]byte("x")); err != nil {
+		t.Fatal(err)
+	}
+	if sw.status != http.StatusOK {
+		t.Fatalf("status = %d after a bare Write, want implicit 200", sw.status)
+	}
+}
+
 // --- CORS / OPTIONS preflight ------------------------------------------------
 
 func TestOptionsPreflightOnAnyPath(t *testing.T) {
@@ -261,26 +275,29 @@ func TestSessionCapRejectsWith429AndRetryAfter(t *testing.T) {
 	}
 }
 
-// The TS validSessionId guard: a malformed mcp-session-id never enters the
-// session tracker (and DELETE gets our JSON 404 instead of the SDK's), while
-// a well-formed one is touched and passed through to the SDK transport.
+// The TS validSessionId guard: a malformed mcp-session-id is stripped from
+// the request before the SDK transport sees it (the stripped POST then takes
+// the sessionless path), while a well-formed one is touched and passed
+// through to the SDK transport.
 func TestSessionHeaderValidationFallbacks(t *testing.T) {
 	t.Parallel()
 	h := newTestHandler()
 
-	// Malformed id on POST: the guard only keeps the id out of the session
-	// tracker — the raw header is still forwarded, and the SDK transport
-	// answers the unknown-session lookup with its own 404 (no new session is
-	// minted for a malformed id).
+	// Malformed id on POST: the header is stripped before delegation, so the
+	// request initializes a fresh session instead of hitting the SDK's
+	// unknown-session lookup with a junk id.
 	req := newInitializeRequest()
 	req.Header.Set("mcp-session-id", "not-a-uuid")
 	rec := httptest.NewRecorder()
 	h.ServeHTTP(rec, req)
-	if rec.Code != http.StatusNotFound {
-		t.Fatalf("POST with malformed session id: got %d, want 404 (SDK unknown-session lookup)", rec.Code)
+	if got := req.Header.Get("mcp-session-id"); got != "" {
+		t.Fatalf("malformed mcp-session-id %q still on the request — must be stripped before delegation", got)
 	}
-	if ct := rec.Header().Get("Content-Type"); strings.HasPrefix(ct, "application/json") {
-		t.Fatalf("POST with malformed session id answered %q, want the SDK transport's plain 404", ct)
+	if rec.Code != http.StatusOK {
+		t.Fatalf("POST with malformed session id: got %d, want 200 (stripped, sessionless initialize)", rec.Code)
+	}
+	if id := rec.Header().Get("mcp-session-id"); !uuidV4RE.MatchString(id) {
+		t.Fatalf("POST with malformed session id minted %q, want a fresh UUID v4", id)
 	}
 
 	// Malformed id on DELETE never reaches the SDK — our own JSON 404.

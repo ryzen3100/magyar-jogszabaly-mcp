@@ -53,9 +53,10 @@ func DbFingerprint(path string) (string, error) {
 	}
 	defer f.Close()
 	buf := make([]byte, 64*1024)
-	if _, err := io.ReadFull(f, buf); err != nil &&
-		!errors.Is(err, io.EOF) && !errors.Is(err, io.ErrUnexpectedEOF) {
-		return "", err
+	_, readErr := io.ReadFull(f, buf)
+	shortRead := errors.Is(readErr, io.EOF) || errors.Is(readErr, io.ErrUnexpectedEOF)
+	if readErr != nil && !shortRead {
+		return "", readErr
 	}
 	sum := sha256.Sum256(buf)
 	return hex.EncodeToString(sum[:])[:12], nil

@@ -64,7 +64,7 @@ func TestFormatCitationStyles(t *testing.T) {
 	}
 	for _, tc := range tests {
 		t.Run(tc.name, func(t *testing.T) {
-			out, err := runFormatCitationJSON(t, db, tc.rawArgs)
+			out, err := runHandlerJSON(t, FormatCitation, db, tc.rawArgs)
 			if err != nil {
 				t.Fatal(err)
 			}
@@ -85,7 +85,7 @@ func TestFormatCitationOriginalEchoesUntrimmed(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	out, err := runFormatCitationJSON(t, db, `{"citation": "  In Force Act s 3  "}`)
+	out, err := runHandlerJSON(t, FormatCitation, db, `{"citation": "  In Force Act s 3  "}`)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -105,7 +105,7 @@ func TestFormatCitationStructuredResolvesDbTitle(t *testing.T) {
 		t.Fatal(err)
 	}
 
-	out, err := runFormatCitationJSON(t, db, `{"citation": "hu-law-2012-1-00-00 s3"}`)
+	out, err := runHandlerJSON(t, FormatCitation, db, `{"citation": "hu-law-2012-1-00-00 s3"}`)
 	if err != nil {
 		t.Fatal(err)
 	}

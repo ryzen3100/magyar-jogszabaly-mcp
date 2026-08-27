@@ -16,7 +16,7 @@ This document addresses privacy and confidentiality considerations when using th
 **Safe Use Options:**
 1. **General Legal Research**: Use Tool for non-client-specific queries
 2. **Local Go Binary**: Install via `go install github.com/ryzen3100/magyar-jogszabaly-mcp/cmd/hungarian-law-mcp@latest` — database queries stay on your machine
-3. **Remote Endpoint**: Vercel Streamable HTTP endpoint — queries transit Vercel infrastructure
+3. **Remote Endpoint** (1.x only — not deployed for the Go server): Vercel Streamable HTTP endpoint — queries transit Vercel infrastructure
 4. **On-Premise Deployment**: Self-host with local LLM for privileged matters
 
 ---
@@ -45,7 +45,9 @@ hungarian-law-mcp
 - Full control over data at rest
 - Recommended for: general research, solo practitioners, matters involving any client context
 
-#### 2. Remote Endpoint (Vercel)
+#### 2. Remote Endpoint (Vercel) — 1.x only
+
+> The Vercel deployment (`hungarian-law-mcp.vercel.app`) is not part of the Go server; self-host instead (option 3 below).
 
 ```
 Endpoint: https://hungarian-law-mcp.vercel.app/mcp
@@ -202,7 +204,7 @@ The database is read-only. No user data is written to disk.
 
 ## Questions and Support
 
-- **Privacy Questions**: Open issue on [GitHub](https://github.com/Ansvar-Systems/Hungarian-law-mcp/issues)
+- **Privacy Questions**: Open issue on [GitHub](https://github.com/ryzen3100/magyar-jogszabaly-mcp/issues)
 - **Anthropic Privacy**: Contact privacy@anthropic.com
 - **MÜK Guidance**: Consult the Magyar Ügyvédi Kamara (muk.hu) for ethics guidance on AI tool use by ügyvédek
 - **NAIH**: For GDPR and Infotv. compliance queries, see naih.hu
@@ -210,4 +212,4 @@ The database is read-only. No user data is written to disk.
 ---
 
 **Last Updated**: 2026-08-27
-**Tool Version**: 1.0.0
+**Tool Version**: 2.0.0

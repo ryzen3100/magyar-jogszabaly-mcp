@@ -1,6 +1,7 @@
 package builddb
 
 import (
+	"fmt"
 	"reflect"
 	"strings"
 	"testing"
@@ -146,4 +147,52 @@ func TestCollapseSpace(t *testing.T) {
 			}
 		})
 	}
+}
+
+// FuzzExtractEuReferences checks the extractor's output invariants on random
+// input: every reference has a positive year/number, a known type and
+// reference kind, an empty-free citation/context, and a document id
+// consistent with its own fields. Seeds are real statute-style snippets
+// (GDPR, Consumer Rights Directive, two-digit-year EEC citations, multi-byte
+// padding that must not corrupt the rune-indexed context window).
+func FuzzExtractEuReferences(f *testing.F) {
+	seeds := []string{
+		"",
+		"  \n\t ",
+		"az Európai Parlament és a Tanács 2016/679 rendeletének megfelelően",
+		"A 2011/83/EU irányelv 5. cikkében foglalt kötelezettségek",
+		"Regulation (EU) 2016/679 Article 5(1), which the act implements",
+		"a 78/660/EGK irányelvben foglaltakkal összhangban",
+		"Directive 2019/2161 és azt megelőzően Regulation (EU) 2016/679",
+		"no citation here, csak szöveg",
+		strings.Repeat("ő", 150) + "Directive 05/29/EC",
+	}
+	for _, s := range seeds {
+		f.Add(s)
+	}
+	f.Fuzz(func(t *testing.T, text string) {
+		seen := map[string]bool{}
+		for _, r := range ExtractEuReferences(text) {
+			if r.Year <= 0 || r.Number <= 0 {
+				t.Errorf("non-positive year/number: %+v", r)
+			}
+			if r.Type != "regulation" && r.Type != "directive" {
+				t.Errorf("unexpected type %q: %+v", r.Type, r)
+			}
+			if r.ReferenceType != "references" && r.ReferenceType != "implements" {
+				t.Errorf("unexpected reference type %q: %+v", r.ReferenceType, r)
+			}
+			if want := fmt.Sprintf("%s:%d/%d", r.Type, r.Year, r.Number); r.EUDocumentID != want {
+				t.Errorf("document id %q, want %q: %+v", r.EUDocumentID, want, r)
+			}
+			if r.FullCitation == "" || r.ReferenceContext == "" {
+				t.Errorf("empty citation/context: %+v", r)
+			}
+			key := r.EUDocumentID + ":" + r.EUArticle
+			if seen[key] {
+				t.Errorf("duplicate reference %q returned twice", key)
+			}
+			seen[key] = true
+		}
+	})
 }

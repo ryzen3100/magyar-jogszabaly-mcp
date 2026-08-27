@@ -15,6 +15,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"io"
 	"io/fs"
 	"math"
 	"net/http"
@@ -46,22 +47,31 @@ type censusData struct {
 }
 
 func main() {
-	fmt.Println("Hungarian Law MCP — Data Freshness Check")
-	fmt.Printf("Portal: %s (%s)\n", portalName, portalURL)
-	fmt.Println()
+	os.Exit(run(dbPath, censusPath, time.Now, portalClient(), os.Stdout, os.Stderr))
+}
+
+// run executes the freshness check and returns the process exit code:
+// 0 = fresh, 1 = updates detected, 2 = check failed (same contract as the
+// TypeScript original). Progress lines go to stdout, "ERROR:" lines to
+// stderr, so CI summaries stay on stdout. The clock, portal HTTP client and
+// output streams are parameters so the classification is testable offline.
+func run(dbPath, censusPath string, now func() time.Time, portal *http.Client, stdout, stderr io.Writer) int {
+	fmt.Fprintln(stdout, "Hungarian Law MCP — Data Freshness Check")
+	fmt.Fprintf(stdout, "Portal: %s (%s)\n", portalName, portalURL)
+	fmt.Fprintln(stdout)
 
 	// --- 1. Database existence ---
 	if _, err := os.Stat(dbPath); err != nil {
 		if errors.Is(err, fs.ErrNotExist) {
-			fmt.Fprintln(os.Stderr, "ERROR: Database not found at", dbPath)
-			fmt.Fprintln(os.Stderr, `Run "go run ./cmd/build-db" first.`)
+			fmt.Fprintln(stderr, "ERROR: Database not found at", dbPath)
+			fmt.Fprintln(stderr, `Run "go run ./cmd/build-db" first.`)
 		} else {
 			// Not a missing-file problem (permissions, ...): report the real
 			// cause instead of mislabeling it "not found". The err is a
 			// *fs.PathError and already names the path.
-			fmt.Fprintln(os.Stderr, "Unexpected error:", err)
+			fmt.Fprintln(stderr, "Unexpected error:", err)
 		}
-		os.Exit(2)
+		return 2
 	}
 
 	ctx := context.Background()
@@ -71,14 +81,14 @@ func main() {
 
 	db, err := store.OpenReadOnly(dbPath)
 	if err != nil {
-		fmt.Fprintln(os.Stderr, "Unexpected error:", err)
-		os.Exit(2)
+		fmt.Fprintln(stderr, "Unexpected error:", err)
+		return 2
 	}
 	// The TS original opens eagerly (better-sqlite3 throws on a corrupt or
 	// unopenable file); sql.Open is lazy, so ping to surface that here.
 	if err := db.Ping(); err != nil {
-		fmt.Fprintln(os.Stderr, "Unexpected error:", err)
-		os.Exit(2)
+		fmt.Fprintln(stderr, "Unexpected error:", err)
+		return 2
 	}
 
 	// --- 2. Database age check ---
@@ -86,31 +96,31 @@ func main() {
 	switch {
 	case errors.Is(err, sql.ErrNoRows):
 		checkError = true
-		fmt.Println("ERROR: No built_at in db_metadata — cannot assess age")
+		fmt.Fprintln(stderr, "ERROR: No built_at in db_metadata — cannot assess age")
 	case err != nil:
 		checkError = true
 		// Keep the TS message prefix, but show the underlying error: it may
 		// be a missing table, or something else entirely (locked/corrupt DB).
-		fmt.Println("ERROR: db_metadata table is missing:", err)
+		fmt.Fprintln(stderr, "ERROR: db_metadata table is missing:", err)
 	default:
-		if age, ok := daysSince(time.Now(), builtAt); !ok {
+		if age, ok := daysSince(now(), builtAt); !ok {
 			checkError = true
-			fmt.Println("ERROR: Database built_at metadata is invalid")
+			fmt.Fprintln(stderr, "ERROR: Database built_at metadata is invalid")
 		} else if age > maxDBAgeDays {
-			fmt.Printf("STALE: Database is %d days old (threshold: %d days)\n", age, maxDBAgeDays)
+			fmt.Fprintf(stdout, "STALE: Database is %d days old (threshold: %d days)\n", age, maxDBAgeDays)
 			updatesNeeded = true
 		} else {
-			fmt.Printf("OK: Database is %d days old (threshold: %d days)\n", age, maxDBAgeDays)
+			fmt.Fprintf(stdout, "OK: Database is %d days old (threshold: %d days)\n", age, maxDBAgeDays)
 		}
 	}
 
 	// --- 3. Document and provision count check ---
-	dbDocCount := countTable(ctx, db, "legal_documents", &checkError)
-	dbProvCount := countTable(ctx, db, "legal_provisions", &checkError)
+	dbDocCount := countTable(ctx, db, "legal_documents", &checkError, stdout, stderr)
+	dbProvCount := countTable(ctx, db, "legal_provisions", &checkError, stdout, stderr)
 
 	if dbDocCount < 1 || dbProvCount < 1 {
 		checkError = true
-		fmt.Println("ERROR: Database contains no legal data")
+		fmt.Fprintln(stderr, "ERROR: Database contains no legal data")
 	}
 
 	// Compare against census if available
@@ -118,31 +128,31 @@ func main() {
 	switch {
 	case errors.Is(censusErr, fs.ErrNotExist):
 		checkError = true
-		fmt.Println("ERROR: census.json is missing")
+		fmt.Fprintln(stderr, "ERROR: census.json is missing")
 	case censusErr != nil:
 		// TS folds read errors and JSON errors into one catch.
 		checkError = true
-		fmt.Println("ERROR: Could not parse census.json")
+		fmt.Fprintln(stderr, "ERROR: Could not parse census.json")
 	default:
 		expectedDocuments := census.TotalLaws
 		expectedProvisions := census.TotalProvisions
 
 		if expectedDocuments == nil {
 			checkError = true
-			fmt.Println("ERROR: census.json has no expected document count")
+			fmt.Fprintln(stderr, "ERROR: census.json has no expected document count")
 		} else if dbDocCount < *expectedDocuments {
-			fmt.Printf("MISSING: DB has %d documents but census expects %d\n", dbDocCount, *expectedDocuments)
+			fmt.Fprintf(stdout, "MISSING: DB has %d documents but census expects %d\n", dbDocCount, *expectedDocuments)
 			updatesNeeded = true
 		} else {
-			fmt.Printf("OK: DB documents (%d) >= census expected (%d)\n", dbDocCount, *expectedDocuments)
+			fmt.Fprintf(stdout, "OK: DB documents (%d) >= census expected (%d)\n", dbDocCount, *expectedDocuments)
 		}
 
 		if expectedProvisions != nil {
 			if dbProvCount < *expectedProvisions {
-				fmt.Printf("MISSING: DB has %d provisions but census expects %d\n", dbProvCount, *expectedProvisions)
+				fmt.Fprintf(stdout, "MISSING: DB has %d provisions but census expects %d\n", dbProvCount, *expectedProvisions)
 				updatesNeeded = true
 			} else {
-				fmt.Printf("OK: DB provisions (%d) >= census expected (%d)\n", dbProvCount, *expectedProvisions)
+				fmt.Fprintf(stdout, "OK: DB provisions (%d) >= census expected (%d)\n", dbProvCount, *expectedProvisions)
 			}
 		}
 	}
@@ -150,25 +160,27 @@ func main() {
 	_ = db.Close()
 
 	// --- 4. Source portal reachability ---
-	fmt.Println()
-	fmt.Printf("Checking portal: %s\n", portalURL)
-	if err := checkPortal(portalClient(), portalURL); err != nil {
+	fmt.Fprintln(stdout)
+	fmt.Fprintf(stdout, "Checking portal: %s\n", portalURL)
+	if err := checkPortal(portal, portalURL); err != nil {
 		checkError = true
-		fmt.Printf("ERROR: %s is unreachable: %v\n", portalName, err)
+		fmt.Fprintf(stderr, "ERROR: %s is unreachable: %v\n", portalName, err)
 	} else {
-		fmt.Printf("OK: %s is reachable\n", portalName)
+		fmt.Fprintf(stdout, "OK: %s is reachable\n", portalName)
 	}
 
 	// --- Result ---
-	fmt.Println()
-	if checkError {
-		fmt.Println("RESULT: Freshness check failed")
-		os.Exit(2)
-	} else if updatesNeeded {
-		fmt.Println("RESULT: Updates detected — re-ingestion recommended")
-		os.Exit(1)
+	fmt.Fprintln(stdout)
+	switch {
+	case checkError:
+		fmt.Fprintln(stdout, "RESULT: Freshness check failed")
+		return 2
+	case updatesNeeded:
+		fmt.Fprintln(stdout, "RESULT: Updates detected — re-ingestion recommended")
+		return 1
 	}
-	fmt.Println("RESULT: Database appears current — no updates needed")
+	fmt.Fprintln(stdout, "RESULT: Database appears current — no updates needed")
+	return 0
 }
 
 // readBuiltAt ports the TS "SELECT value FROM db_metadata WHERE key =
@@ -203,14 +215,14 @@ func daysSince(now time.Time, isoDate string) (int, bool) {
 // check error. SafeCount collapses query errors to 0, so a missing table is
 // detected separately to keep the TS "Cannot count ..." message distinct from
 // a genuine count of zero (TS prints both messages in the error case).
-func countTable(ctx context.Context, db *sql.DB, table string, checkError *bool) int {
+func countTable(ctx context.Context, db *sql.DB, table string, checkError *bool, stdout, stderr io.Writer) int {
 	n := store.SafeCount(ctx, db, "SELECT COUNT(*) AS count FROM "+table)
 	if n > 0 || tableExists(db, table) {
-		fmt.Printf("DB %s: %d\n", strings.TrimPrefix(table, "legal_"), n)
+		fmt.Fprintf(stdout, "DB %s: %d\n", strings.TrimPrefix(table, "legal_"), n)
 		return n
 	}
 	*checkError = true
-	fmt.Println("ERROR: Cannot count " + table)
+	fmt.Fprintln(stderr, "ERROR: Cannot count "+table)
 	return n
 }
 

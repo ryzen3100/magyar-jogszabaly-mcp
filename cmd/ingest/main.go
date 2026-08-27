@@ -33,8 +33,10 @@ func main() {
 		skipFetch        = flag.Bool("skip-fetch", false, "reuse locally cached HTML where available")
 		discoverOnly     = flag.Bool("discover-only", false, "discover laws metadata only, without fetching acts")
 		inForceOnly      = flag.Bool("in-force-only", false, "restrict full discovery to in-force laws")
-		baseURL          = flag.String("base-url", ingest.DefaultBaseURL, "njt.hu origin (override points discovery and act fetches at a mirror/test server)")
-		dataDir          = flag.String("data-dir", "data", "root directory holding source HTML (<dir>/source) and seed JSON (<dir>/seed)")
+		baseURL          = flag.String("base-url", ingest.DefaultBaseURL,
+			"njt.hu origin (override points discovery and act fetches at a mirror/test server)")
+		dataDir = flag.String("data-dir", "data",
+			"root directory holding source HTML (<dir>/source) and seed JSON (<dir>/seed)")
 	)
 	flag.Parse()
 

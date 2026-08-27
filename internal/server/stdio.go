@@ -1,4 +1,5 @@
 // Stdio entrypoint — port of src/index.ts.
+
 package server
 
 import (
@@ -33,6 +34,9 @@ func RunStdio() error {
 		&mcp.Implementation{Name: serverName, Version: serverVersion},
 		&mcp.ServerOptions{
 			Capabilities: &mcp.ServerCapabilities{Tools: &mcp.ToolCapabilities{}},
+			// SDK diagnostics (keepalive failures, dropped notifications)
+			// go to the shared stderr logger instead of being discarded.
+			Logger: logger,
 		},
 	)
 	tools.Register(srv, db, aboutContext)

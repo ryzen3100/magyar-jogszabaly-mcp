@@ -1,9 +1,10 @@
 // HTTP entrypoint — port of src/http-server.ts (Streamable HTTP transport for
-// the Docker deployment). RunHTTP blocks until SIGINT/SIGTERM and returns nil
-// on clean shutdown.
+// the Docker deployment).
+
 package server
 
 import (
+	"cmp"
 	"context"
 	"crypto/rand"
 	"database/sql"
@@ -94,14 +95,13 @@ type healthPayload struct {
 	Uptime  int    `json:"uptime_seconds"`
 }
 
+// RunHTTP serves the MCP server over Streamable HTTP and blocks until
+// SIGINT/SIGTERM arrives. It returns nil on clean shutdown.
 func RunHTTP() error {
-	port := 3000
-	if raw := os.Getenv("PORT"); raw != "" {
-		p, err := strconv.Atoi(raw)
-		if err != nil {
-			return fmt.Errorf("invalid PORT %q", raw)
-		}
-		port = p
+	raw := cmp.Or(os.Getenv("PORT"), "3000")
+	port, err := strconv.Atoi(raw)
+	if err != nil {
+		return fmt.Errorf("invalid PORT %q", raw)
 	}
 	// HOST defaults to loopback: the server has no in-process auth, so it
 	// must not reach beyond the local machine unless the operator opts in
@@ -125,14 +125,19 @@ func RunHTTP() error {
 	about := buildAboutContext(db, path)
 	icon := loadIcon()
 
-	handler := newHTTPHandler(db, about, time.Now(), icon)
+	handler := newHTTPHandler(
+		db,
+		about,
+		time.Now(),
+		icon,
+	)
 	// Explicit timeouts bound slow-client connection exhaustion (S3).
 	// WriteTimeout also caps the SDK's SSE keepalive streams at 60s —
 	// harmless here: the server pushes no notifications, clients simply
 	// re-establish.
 	srv := &http.Server{
 		Addr:              net.JoinHostPort(host, strconv.Itoa(port)),
-		Handler:           handler,
+		Handler:           withAccessLog(handler),
 		ReadHeaderTimeout: 10 * time.Second,
 		ReadTimeout:       30 * time.Second,
 		WriteTimeout:      60 * time.Second,
@@ -146,7 +151,7 @@ func RunHTTP() error {
 	serveErr := make(chan error, 1)
 	go func() { serveErr <- srv.Serve(ln) }()
 
-	fmt.Fprintf(os.Stderr, "%s v%s HTTP server listening on %s\n", serverName, serverVersion, srv.Addr)
+	logf("v%s HTTP server listening on %s", serverVersion, srv.Addr)
 
 	sigCh := make(chan os.Signal, 1)
 	signal.Notify(sigCh, os.Interrupt, syscall.SIGTERM)
@@ -199,6 +204,9 @@ func loadIcon() []byte {
 // shared by every session (K6).
 func sessionServer(db *sql.DB, about *tools.AboutContext, sessions *sessionTracker) *mcp.Server {
 	s := mcp.NewServer(&mcp.Implementation{Name: serverName, Version: serverVersion}, &mcp.ServerOptions{
+		// SDK diagnostics (keepalive failures, dropped notifications) go
+		// to the shared stderr logger instead of being discarded.
+		Logger: logger,
 		// TS generated session IDs with crypto.randomUUID(); the SDK's
 		// default generator uses a different shape that would fail the
 		// UUID validation in handleMCP, breaking session termination.
@@ -352,9 +360,11 @@ func newHTTPHandler(db *sql.DB, about *tools.AboutContext, start time.Time, icon
 	}
 
 	handleMCP := func(w http.ResponseWriter, r *http.Request) {
-		// UUID-validate the header before using it (TS validSessionId).
+		// UUID-validate the header before using it (TS validSessionId); a
+		// malformed id is stripped so the SDK transport never sees it.
 		sessionID := r.Header.Get("mcp-session-id")
 		if !uuidV4RE.MatchString(sessionID) {
+			r.Header.Del("mcp-session-id")
 			sessionID = ""
 		}
 
@@ -400,13 +410,14 @@ func newHTTPHandler(db *sql.DB, about *tools.AboutContext, start time.Time, icon
 		h.Set("Access-Control-Allow-Headers", "Content-Type, mcp-session-id, Authorization")
 		h.Set("Access-Control-Expose-Headers", "mcp-session-id")
 
-		// Track header state so the panic handler knows whether a 500 body
-		// can still be written (TS res.headersSent).
+		// Track the response status so the panic handler knows whether a
+		// 500 body can still be written (TS res.headersSent); the access
+		// log middleware wraps the same writer from outside.
 		sw := &statusWriter{ResponseWriter: w}
 		defer func() {
 			if rec := recover(); rec != nil {
 				logf("Unhandled error: %v\n%s", rec, debug.Stack())
-				if !sw.wroteHeader {
+				if sw.status == 0 {
 					writeJSON(sw, http.StatusInternalServerError, errJSON("Internal server error"))
 				}
 			}
@@ -466,19 +477,39 @@ func newHTTPHandler(db *sql.DB, about *tools.AboutContext, start time.Time, icon
 	})
 }
 
-// statusWriter records whether response headers have been written.
-type statusWriter struct {
-	http.ResponseWriter
-	wroteHeader bool
+// withAccessLog writes one Info line per request — method, path, status,
+// duration — so abuse of the unauthenticated surface is visible in serve
+// mode. The stdio entrypoint has no HTTP surface, so it stays unwrapped.
+func withAccessLog(next http.Handler) http.Handler {
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		sw := &statusWriter{ResponseWriter: w}
+		start := time.Now()
+		defer func() {
+			logf("%s %s %d %s", r.Method, r.URL.Path, sw.status, time.Since(start))
+		}()
+		next.ServeHTTP(sw, r)
+	})
 }
 
+// statusWriter records the numeric response status — for the access log and
+// so the panic handler knows whether a 500 body can still be written.
+type statusWriter struct {
+	http.ResponseWriter
+	status int
+}
+
+// WriteHeader records the status and forwards the write.
 func (w *statusWriter) WriteHeader(status int) {
-	w.wroteHeader = true
+	w.status = status
 	w.ResponseWriter.WriteHeader(status)
 }
 
+// Write implies a 200 when WriteHeader was never called, matching net/http
+// semantics.
 func (w *statusWriter) Write(b []byte) (int, error) {
-	w.wroteHeader = true
+	if w.status == 0 {
+		w.status = http.StatusOK
+	}
 	return w.ResponseWriter.Write(b)
 }
 

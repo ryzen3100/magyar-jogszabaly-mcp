@@ -65,9 +65,10 @@ type searchURLResponse struct {
 var searchPathPattern = regexp.MustCompile(`^[A-Za-z0-9._/-]+$`)
 
 var (
-	njtDocIDPattern    = regexp.MustCompile(`/jogszabaly/([^/?#]+)`)
-	pageCountPattern   = regexp.MustCompile(`(?i)id="page-count">\s*/\s*(\d+)\s*<`)
-	mainLinkPattern    = regexp.MustCompile(`(?i)(<a[^>]*href="jogszabaly/([0-9]{4}-[0-9A-Z]+-00-00)"[^>]*>)([\s\S]*?)</a>`)
+	njtDocIDPattern  = regexp.MustCompile(`/jogszabaly/([^/?#]+)`)
+	pageCountPattern = regexp.MustCompile(`(?i)id="page-count">\s*/\s*(\d+)\s*<`)
+	mainLinkPattern  = regexp.MustCompile(
+		`(?i)(<a[^>]*href="jogszabaly/([0-9]{4}-[0-9A-Z]+-00-00)"[^>]*>)([\s\S]*?)</a>`)
 	linkClassPattern   = regexp.MustCompile(`(?i)class="([^"]*)"`)
 	descriptionPattern = regexp.MustCompile(`(?i)<p>([\s\S]*?)</p>`)
 	titleEnPattern     = regexp.MustCompile(`(?i)class="resultItem translation"[^>]*title="([^"]+)"`)

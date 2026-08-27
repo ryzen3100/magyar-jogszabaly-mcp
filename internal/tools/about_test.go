@@ -39,17 +39,22 @@ func TestGetAboutPopulated(t *testing.T) {
 
 	// Long Hungarian description, verbatim from about.ts:33-53.
 	desc := euStr(t, root, "description")
-	const descPrefix = "Magyar jogszabály-adatbázis a Nemzeti Jogszabálytár (njt.hu) hivatalos forrásából, Model Context Protocol (MCP) interfészen keresztül."
+	const descPrefix = "Magyar jogszabály-adatbázis a Nemzeti Jogszabálytár (njt.hu) " +
+		"hivatalos forrásából, Model Context Protocol (MCP) interfészen keresztül."
 	if !strings.HasPrefix(desc, descPrefix) {
 		t.Fatalf("description prefix mismatch: %q", desc[:min(len(desc), 120)])
 	}
-	const descSuffix = "Figyelmeztetés: ez kutatási eszköz, nem jogi tanácsadás — kritikus hivatkozásokat mindig ellenőrizze a hivatalos forráson (njt.hu)."
+	const descSuffix = "Figyelmeztetés: ez kutatási eszköz, nem jogi tanácsadás — " +
+		"kritikus hivatkozásokat mindig ellenőrizze a hivatalos forráson (njt.hu)."
 	if !strings.HasSuffix(desc, descSuffix) {
 		t.Fatalf("description suffix mismatch: %q", desc[max(0, len(desc)-120):])
 	}
 	for _, fragment := range []string{
-		"Az adatbázis több mint 4 300 hatályos és hatályon kívüli magyar jogszabályt tartalmaz, 130 000+ szakasz-szintű bekezdéssel és 5 000+ jogszabályi definícióval.",
-		"a teljes Polgári Törvénykönyv (Ptk. — 2013. évi V. tv.), az információs önrendelkezési törvény (Infotv. — 2011. évi CXII. tv.), a Munka Törvénykönyve (Mt. — 2012. évi I. tv.), a Büntető Törvénykönyv (Btk. — 2012. évi C. tv.)",
+		"Az adatbázis több mint 4 300 hatályos és hatályon kívüli magyar jogszabályt tartalmaz, " +
+			"130 000+ szakasz-szintű bekezdéssel és 5 000+ jogszabályi definícióval.",
+		"a teljes Polgári Törvénykönyv (Ptk. — 2013. évi V. tv.), az információs önrendelkezési törvény " +
+			"(Infotv. — 2011. évi CXII. tv.), a Munka Törvénykönyve (Mt. — 2012. évi I. tv.), " +
+			"a Büntető Törvénykönyv (Btk. — 2012. évi C. tv.)",
 		"(GDPR 2016/679, NIS2 2022/2555, e-Privacy, Kereskedelmi titkok irányelve 2016/943 stb.)",
 		"A keresés BM25 rangsorolású teljes szöveges kereséssel (FTS5) működik",
 	} {
@@ -95,7 +100,8 @@ func TestGetAboutPopulated(t *testing.T) {
 		t.Fatalf("meta freshness = %q", meta.Freshness)
 	}
 
-	if root["disclaimer"] != "This is a research tool, not legal advice. Verify critical citations against official sources." {
+	if root["disclaimer"] != "This is a research tool, not legal advice. "+
+		"Verify critical citations against official sources." {
 		t.Fatalf("disclaimer = %v", root["disclaimer"])
 	}
 	network := euObject(t, root["network"])

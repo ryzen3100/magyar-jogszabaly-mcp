@@ -25,16 +25,16 @@ type FormatCitationResult struct {
 	Format    string `json:"format"`
 }
 
-// FormatCitation is the exported handler for format_citation.
+// FormatCitation is the exported handler for format_citation. It never
+// returns empty results — an unparseable citation is echoed back verbatim as
+// the act name — and never sets _metadata.note.
 func FormatCitation(ctx context.Context, db *sql.DB, args map[string]any) (any, ResponseMetadata, error) {
 	var parsed formatCitationArgs
 	if err := decodeArgs(args, &parsed); err != nil {
 		return nil, ResponseMetadata{}, err
 	}
-	if parsed.Citation == nil {
-		return nil, ResponseMetadata{}, fmt.Errorf("missing required argument %q", "citation")
-	}
 	if err := validateArgs(
+		checkRequired("citation", parsed.Citation),
 		checkMaxLength("citation", parsed.Citation, maxCitationLength),
 		checkEnum("format", parsed.Format, formatEnumValues...),
 	); err != nil {

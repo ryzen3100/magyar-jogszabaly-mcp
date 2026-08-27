@@ -16,7 +16,9 @@ import (
 	"strings"
 	"sync"
 
-	_ "modernc.org/sqlite" // registers the "sqlite" driver
+	// Load-bearing blank import: registering the "sqlite" driver here is what
+	// lets every importer of this package sql.Open("sqlite", …) directly.
+	_ "modernc.org/sqlite"
 )
 
 // cacheMu guards the per-DB caches in this package. The TypeScript originals

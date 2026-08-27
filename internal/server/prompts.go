@@ -1,6 +1,7 @@
 // HTTP-only prompts — port of the prompts handlers in src/http-server.ts.
 // The stdio entrypoint advertises tools only; prompts exist solely in HTTP
 // mode.
+
 package server
 
 import (

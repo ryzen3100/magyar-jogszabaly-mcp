@@ -15,9 +15,11 @@ import (
 )
 
 const (
-	dataSourceConst   = "Nemzeti Jogszabálytár (National Legislation Database) (njt.hu) — Magyar Közlöny (Hungarian Official Gazette)"
+	dataSourceConst = "Nemzeti Jogszabálytár (National Legislation Database) (njt.hu) — " +
+		"Magyar Közlöny (Hungarian Official Gazette)"
 	jurisdictionConst = "HU"
-	disclaimerConst   = "This data is sourced from the Nemzeti Jogszabálytár (National Legislation Database) under public domain. " +
+	disclaimerConst   = "This data is sourced from the Nemzeti Jogszabálytár " +
+		"(National Legislation Database) under public domain. " +
 		"The authoritative versions are maintained by Magyar Közlöny (Hungarian Official Gazette). " +
 		"Always verify with the official Nemzeti Jogszabálytár (National Legislation Database) portal (njt.hu)."
 )

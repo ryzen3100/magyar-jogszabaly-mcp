@@ -78,7 +78,10 @@ const (
 )
 
 // SearchLegislation is the exported handler for search_legislation; it is
-// also the entry point other tools (build_legal_stance) reuse.
+// also the entry point other tools (build_legal_stance) reuse. Blank queries
+// and legitimate zero-hit searches return empty results with no note; an
+// unresolved document_id and an all-tiers failure each add a _metadata.note
+// (see runSearch).
 func SearchLegislation(ctx context.Context, db *sql.DB, args map[string]any) (any, ResponseMetadata, error) {
 	var parsed searchArgs
 	if err := decodeArgs(args, &parsed); err != nil {
@@ -187,47 +190,61 @@ func runSearch(ctx context.Context, db *sql.DB, args searchArgs) (any, ResponseM
 	}
 
 	// LIKE fallback — final tier when FTS5 returns no results
-	{
-		likePattern := fts.BuildLikePattern(escapeLike(fts.SanitizeFtsInput(*args.Query)))
-		query := searchLikeSQL
-		params := []any{likePattern}
-
-		if resolvedDocID != "" {
-			query += " AND lp.document_id = ?"
-			params = append(params, resolvedDocID)
-		}
-
-		if args.Status != nil && *args.Status != "" {
-			query += " AND ld.status = ?"
-			params = append(params, *args.Status)
-		}
-
-		query += " LIMIT ?"
-		params = append(params, fetchLimit)
-
-		rows, err := queryLikeRows(ctx, db, query, params)
-		if err != nil {
-			lastErr = err
-		} else {
-			cleanTierRan = true
-		}
-		if err == nil && len(rows) > 0 {
-			deduped := dedupeRanked(rows, limit)
-			results := make([]SearchLegislationResult, 0, len(deduped))
-			for _, row := range deduped {
-				results = append(results, toResult(row))
-			}
-			meta := GenerateResponseMetadata(ctx, db)
-			meta.QueryStrategy = "like_fallback"
-			return results, meta, nil
-		}
+	results, meta, likeErr := runLikeFallback(ctx, db, args, resolvedDocID, limit, fetchLimit)
+	if likeErr != nil {
+		lastErr = likeErr
+	} else {
+		cleanTierRan = true
+	}
+	if likeErr == nil && results != nil {
+		return results, meta, nil
 	}
 
-	meta := GenerateResponseMetadata(ctx, db)
+	meta = GenerateResponseMetadata(ctx, db)
 	if lastErr != nil && !cleanTierRan {
 		meta.Note = "search degraded: all query tiers failed"
 	}
 	return []SearchLegislationResult{}, meta, nil
+}
+
+// runLikeFallback is the final tier when FTS5 returns no results: a plain
+// LIKE scan over provision content, query_strategy "like_fallback" on a hit.
+// It returns (nil, empty, err) when the query fails — the caller records the
+// failure for the degrade note — and (nil, empty, nil) on zero rows.
+// args.Query must be non-nil (runSearch's guard).
+func runLikeFallback(ctx context.Context, db *sql.DB, args searchArgs, resolvedDocID string, limit, fetchLimit int,
+) ([]SearchLegislationResult, ResponseMetadata, error) {
+	pattern := fts.BuildLikePattern(escapeLike(fts.SanitizeFtsInput(*args.Query)))
+	query := searchLikeSQL
+	params := []any{pattern}
+
+	if resolvedDocID != "" {
+		query += " AND lp.document_id = ?"
+		params = append(params, resolvedDocID)
+	}
+	if args.Status != nil && *args.Status != "" {
+		query += " AND ld.status = ?"
+		params = append(params, *args.Status)
+	}
+	query += " LIMIT ?"
+	params = append(params, fetchLimit)
+
+	rows, err := queryLikeRows(ctx, db, query, params)
+	if err != nil {
+		return nil, ResponseMetadata{}, err
+	}
+	if len(rows) == 0 {
+		return nil, ResponseMetadata{}, nil
+	}
+
+	deduped := dedupeRanked(rows, limit)
+	results := make([]SearchLegislationResult, 0, len(deduped))
+	for _, row := range deduped {
+		results = append(results, toResult(row))
+	}
+	meta := GenerateResponseMetadata(ctx, db)
+	meta.QueryStrategy = "like_fallback"
+	return results, meta, nil
 }
 
 // escapeLike escapes SQL LIKE wildcards so user input matches literally;
@@ -237,15 +254,15 @@ func escapeLike(s string) string {
 }
 
 // rankedRow is a phase-A (or LIKE-tier) row before JSON shaping. Nullable
-// columns go through sql.NullString; chapter/title stay null in JSON.
+// columns go through sql.Null[string]; chapter/title stay null in JSON.
 type rankedRow struct {
 	provisionID   int64
 	documentID    string
 	documentTitle string
 	provisionRef  string
-	chapter       sql.NullString
+	chapter       sql.Null[string]
 	section       string
-	title         sql.NullString
+	title         sql.Null[string]
 	snippet       string
 	relevance     float64
 }
@@ -260,7 +277,8 @@ func queryRankedRows(ctx context.Context, db *sql.DB, query string, params []any
 	var out []rankedRow
 	for rows.Next() {
 		var r rankedRow
-		if err := rows.Scan(&r.provisionID, &r.documentID, &r.documentTitle, &r.provisionRef, &r.chapter, &r.section, &r.title, &r.relevance); err != nil {
+		if err := rows.Scan(&r.provisionID, &r.documentID, &r.documentTitle,
+			&r.provisionRef, &r.chapter, &r.section, &r.title, &r.relevance); err != nil {
 			return nil, fmt.Errorf("scan ranked row: %w", err)
 		}
 		out = append(out, r)
@@ -282,7 +300,8 @@ func queryLikeRows(ctx context.Context, db *sql.DB, query string, params []any) 
 	for rows.Next() {
 		var r rankedRow
 		var relevance int64
-		if err := rows.Scan(&r.documentID, &r.documentTitle, &r.provisionRef, &r.chapter, &r.section, &r.title, &r.snippet, &relevance); err != nil {
+		if err := rows.Scan(&r.documentID, &r.documentTitle, &r.provisionRef,
+			&r.chapter, &r.section, &r.title, &r.snippet, &relevance); err != nil {
 			return nil, fmt.Errorf("scan like row: %w", err)
 		}
 		r.relevance = float64(relevance)
@@ -295,7 +314,7 @@ func queryLikeRows(ctx context.Context, db *sql.DB, query string, params []any) 
 }
 
 // fetchSnippets runs phase B: snippet() over the same MATCH expression,
-// restricted to the deduped rowids. Missing rows simply stay ” via the
+// restricted to the deduped rowids. Missing rows simply stay empty via the
 // caller's map lookup.
 func fetchSnippets(ctx context.Context, db *sql.DB, ftsQuery string, deduped []rankedRow) (map[int64]string, error) {
 	placeholders := strings.TrimSuffix(strings.Repeat("?,", len(deduped)), ",")
@@ -360,11 +379,11 @@ func toResult(r rankedRow) SearchLegislationResult {
 	}
 }
 
-func nullStringPtr(ns sql.NullString) *string {
+func nullStringPtr(ns sql.Null[string]) *string {
 	if !ns.Valid {
 		return nil
 	}
-	s := ns.String
+	s := ns.V
 	return &s
 }
 

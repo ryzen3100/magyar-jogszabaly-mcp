@@ -31,16 +31,18 @@ type hungarianImplementationResult struct {
 }
 
 // GetHungarianImplementations implements the get_hungarian_implementations
-// MCP tool.
+// MCP tool. The EU-tier probe runs first, so a missing EU tier adds its
+// availability note (_metadata.note) even for an unresolvable id; zero
+// matching statutes return empty results with no note.
 func GetHungarianImplementations(ctx context.Context, db *sql.DB, args map[string]any) (any, ResponseMetadata, error) {
 	var parsed getHungarianImplementationsArgs
 	if err := decodeArgs(args, &parsed); err != nil {
 		return nil, ResponseMetadata{}, err
 	}
-	if parsed.EuDocumentID == nil {
-		return nil, ResponseMetadata{}, fmt.Errorf("missing required argument %q", "eu_document_id")
-	}
-	if err := checkMaxLength("eu_document_id", parsed.EuDocumentID, maxEuDocumentIDLength); err != nil {
+	if err := validateArgs(
+		checkRequired("eu_document_id", parsed.EuDocumentID),
+		checkMaxLength("eu_document_id", parsed.EuDocumentID, maxEuDocumentIDLength),
+	); err != nil {
 		return nil, ResponseMetadata{}, err
 	}
 
@@ -87,15 +89,13 @@ func GetHungarianImplementations(ctx context.Context, db *sql.DB, args map[strin
 	for rows.Next() {
 		var (
 			r          hungarianImplementationResult
-			implStatus sql.NullString
+			implStatus sql.Null[string]
 		)
 		if err := rows.Scan(&r.DocumentID, &r.DocumentTitle, &r.Status, &r.ReferenceType,
 			&implStatus, &r.IsPrimary, &r.ReferenceCount); err != nil {
 			return nil, ResponseMetadata{}, fmt.Errorf("scan implementation: %w", err)
 		}
-		if implStatus.Valid {
-			r.ImplementationStatus = &implStatus.String
-		}
+		r.ImplementationStatus = nullStringPtr(implStatus)
 		results = append(results, r)
 	}
 	if err := rows.Err(); err != nil {

@@ -36,7 +36,7 @@ func TestCmdIngestEndToEnd(t *testing.T) {
 	dataDir := filepath.Join(t.TempDir(), "data")
 	var stdout, stderr bytes.Buffer
 	// CommandContext kills the child on timeout instead of leaking it.
-	ctx, cancel := context.WithTimeout(context.Background(), 120*time.Second)
+	ctx, cancel := context.WithTimeout(t.Context(), 120*time.Second)
 	defer cancel()
 	cmd := exec.CommandContext(ctx, bin, "--full", "-base-url", ts.URL, "-data-dir", dataDir)
 	cmd.Stdout = &stdout

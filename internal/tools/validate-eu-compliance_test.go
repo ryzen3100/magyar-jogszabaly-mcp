@@ -55,7 +55,8 @@ func TestValidateEUComplianceStatusMatrix(t *testing.T) {
 			wantEchoID:   "doc-future",
 			wantWarnings: []string{},
 			wantRecs: []string{
-				"No EU cross-references found for this Hungarian statute. Hungary is an EU Member State; EU references indicate transposition obligations.",
+				"No EU cross-references found for this Hungarian statute. " +
+					"Hungary is an EU Member State; EU references indicate transposition obligations.",
 			},
 		},
 		{
@@ -89,7 +90,8 @@ func TestValidateEUComplianceStatusMatrix(t *testing.T) {
 			wantEchoID:   "doc-inforce",
 			wantWarnings: []string{},
 			wantRecs: []string{
-				"No EU cross-references found for this Hungarian statute. Hungary is an EU Member State; EU references indicate transposition obligations.",
+				"No EU cross-references found for this Hungarian statute. " +
+					"Hungary is an EU Member State; EU references indicate transposition obligations.",
 			},
 		},
 	}
@@ -137,7 +139,8 @@ func TestValidateEUCompliancePartialAndRepealed(t *testing.T) {
 		t.Fatal(err)
 	}
 
-	results, meta, err := tools.ValidateEUCompliance(context.Background(), db, argsMap(t, `{"document_id":"doc-repealed"}`))
+	results, meta, err := tools.ValidateEUCompliance(context.Background(), db,
+		argsMap(t, `{"document_id":"doc-repealed"}`))
 	row := complianceResult(t, results, meta, err)
 
 	if row["compliance_status"] != "partial" {
@@ -283,7 +286,8 @@ func TestValidateEUComplianceClosedDB(t *testing.T) {
 	db := storetest.NewTestDb(t)
 	db.Close() // resolve-first tool → the closed DB surfaces as an error
 
-	if _, _, err := tools.ValidateEUCompliance(context.Background(), db, argsMap(t, `{"document_id":"doc-inforce"}`)); err == nil {
+	if _, _, err := tools.ValidateEUCompliance(context.Background(), db,
+		argsMap(t, `{"document_id":"doc-inforce"}`)); err == nil {
 		t.Fatal("expected error on closed db")
 	}
 }

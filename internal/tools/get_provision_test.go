@@ -15,7 +15,7 @@ func TestGetProvisionBySection(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	out, err := runGetProvisionJSON(t, db, `{"document_id": "doc-inforce", "section": "1"}`)
+	out, err := runHandlerJSON(t, GetProvision, db, `{"document_id": "doc-inforce", "section": "1"}`)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -51,7 +51,7 @@ func TestGetProvisionByDirectRef(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	out, err := runGetProvisionJSON(t, db, `{"document_id": "doc-inforce", "provision_ref": "s2"}`)
+	out, err := runHandlerJSON(t, GetProvision, db, `{"document_id": "doc-inforce", "provision_ref": "s2"}`)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -70,7 +70,7 @@ func TestGetProvisionAllProvisions(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	out, err := runGetProvisionJSON(t, db, `{"document_id": "doc-inforce"}`)
+	out, err := runHandlerJSON(t, GetProvision, db, `{"document_id": "doc-inforce"}`)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -118,7 +118,7 @@ func TestGetProvisionLikeSectionFallback(t *testing.T) {
 		t.Fatal(err)
 	}
 
-	out, err := runGetProvisionJSON(t, db, `{"document_id": "doc-inforce", "section": "7/A"}`)
+	out, err := runHandlerJSON(t, GetProvision, db, `{"document_id": "doc-inforce", "section": "7/A"}`)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -139,11 +139,11 @@ func TestGetProvisionNullURLOmitted(t *testing.T) {
 		t.Fatal(err)
 	}
 
-	single, err := runGetProvisionJSON(t, db, `{"document_id": "doc-null-url", "section": "1"}`)
+	single, err := runHandlerJSON(t, GetProvision, db, `{"document_id": "doc-null-url", "section": "1"}`)
 	if err != nil {
 		t.Fatal(err)
 	}
-	list, err := runGetProvisionJSON(t, db, `{"document_id": "doc-null-url"}`)
+	list, err := runHandlerJSON(t, GetProvision, db, `{"document_id": "doc-null-url"}`)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -174,7 +174,8 @@ func TestGetProvisionDegradedOnClosedDb(t *testing.T) {
 
 	// Closed database is infrastructure failure, like the TS throw into the
 	// registry catch → error envelope.
-	if _, _, err := GetProvision(context.Background(), db, testArgs(t, `{"document_id": "doc-inforce", "section": "1"}`)); err == nil {
+	if _, _, err := GetProvision(context.Background(), db,
+		testArgs(t, `{"document_id": "doc-inforce", "section": "1"}`)); err == nil {
 		t.Error("expected error from closed db")
 	}
 }
@@ -215,7 +216,8 @@ func TestGetProvisionRealDb(t *testing.T) {
 	defer db.Close()
 
 	t.Run("Infotörvény § 1", func(t *testing.T) {
-		out, err := runGetProvisionJSON(t, db, `{"document_id": "act-cxii-2011-info-self-determination", "section": "1"}`)
+		out, err := runHandlerJSON(t, GetProvision, db,
+			`{"document_id": "act-cxii-2011-info-self-determination", "section": "1"}`)
 		if err != nil {
 			t.Fatal(err)
 		}
@@ -227,7 +229,8 @@ func TestGetProvisionRealDb(t *testing.T) {
 	})
 
 	t.Run("Ibtv. § 11 incident reporting", func(t *testing.T) {
-		out, err := runGetProvisionJSON(t, db, `{"document_id": "act-l-2013-electronic-info-security", "section": "11"}`)
+		out, err := runHandlerJSON(t, GetProvision, db,
+			`{"document_id": "act-l-2013-electronic-info-security", "section": "11"}`)
 		if err != nil {
 			t.Fatal(err)
 		}
@@ -239,7 +242,7 @@ func TestGetProvisionRealDb(t *testing.T) {
 	})
 
 	t.Run("Criminal Code § 422", func(t *testing.T) {
-		out, err := runGetProvisionJSON(t, db, `{"document_id": "criminal-code-cybercrime", "section": "422"}`)
+		out, err := runHandlerJSON(t, GetProvision, db, `{"document_id": "criminal-code-cybercrime", "section": "422"}`)
 		if err != nil {
 			t.Fatal(err)
 		}
@@ -251,7 +254,8 @@ func TestGetProvisionRealDb(t *testing.T) {
 	})
 
 	t.Run("direct provision_ref s423", func(t *testing.T) {
-		out, err := runGetProvisionJSON(t, db, `{"document_id": "criminal-code-cybercrime", "provision_ref": "s423"}`)
+		out, err := runHandlerJSON(t, GetProvision, db,
+			`{"document_id": "criminal-code-cybercrime", "provision_ref": "s423"}`)
 		if err != nil {
 			t.Fatal(err)
 		}
@@ -261,7 +265,8 @@ func TestGetProvisionRealDb(t *testing.T) {
 	})
 
 	t.Run("section column hit 37/A", func(t *testing.T) {
-		out, err := runGetProvisionJSON(t, db, `{"document_id": "act-cxii-2011-info-self-determination", "section": "37/A"}`)
+		out, err := runHandlerJSON(t, GetProvision, db,
+			`{"document_id": "act-cxii-2011-info-self-determination", "section": "37/A"}`)
 		if err != nil {
 			t.Fatal(err)
 		}
@@ -271,7 +276,8 @@ func TestGetProvisionRealDb(t *testing.T) {
 	})
 
 	t.Run("LIKE fallback 7/A → 37/A", func(t *testing.T) {
-		out, err := runGetProvisionJSON(t, db, `{"document_id": "act-cxii-2011-info-self-determination", "section": "7/A"}`)
+		out, err := runHandlerJSON(t, GetProvision, db,
+			`{"document_id": "act-cxii-2011-info-self-determination", "section": "7/A"}`)
 		if err != nil {
 			t.Fatal(err)
 		}
@@ -281,7 +287,7 @@ func TestGetProvisionRealDb(t *testing.T) {
 	})
 
 	t.Run("title_en fuzzy resolution", func(t *testing.T) {
-		out, err := runGetProvisionJSON(t, db, `{"document_id": "Informational Self-Determination", "section": "1"}`)
+		out, err := runHandlerJSON(t, GetProvision, db, `{"document_id": "Informational Self-Determination", "section": "1"}`)
 		if err != nil {
 			t.Fatal(err)
 		}
@@ -291,7 +297,7 @@ func TestGetProvisionRealDb(t *testing.T) {
 	})
 
 	t.Run("short_name resolution", func(t *testing.T) {
-		out, err := runGetProvisionJSON(t, db, `{"document_id": "Ibtv.", "section": "1"}`)
+		out, err := runHandlerJSON(t, GetProvision, db, `{"document_id": "Ibtv.", "section": "1"}`)
 		if err != nil {
 			t.Fatal(err)
 		}
@@ -305,7 +311,7 @@ func TestGetProvisionRealDb(t *testing.T) {
 			`{"document_id": "2099-evi-MMMM-torveny", "section": "1"}`,
 			`{"document_id": "act-cxii-2011-info-self-determination", "section": "999ZZZ"}`,
 		} {
-			out, err := runGetProvisionJSON(t, db, args)
+			out, err := runHandlerJSON(t, GetProvision, db, args)
 			if err != nil {
 				t.Fatal(err)
 			}

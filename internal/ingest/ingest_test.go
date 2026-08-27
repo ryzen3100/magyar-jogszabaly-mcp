@@ -1,7 +1,6 @@
 package ingest
 
 import (
-	"context"
 	"encoding/json"
 	"fmt"
 	"io"
@@ -96,7 +95,7 @@ func TestHydrateDeferredBlocks(t *testing.T) {
 	act := ActIndexEntry{ID: "act-x", URL: "https://njt.hu/jogszabaly/2000-1-00-00"}
 	html := `page<div class="pH borderStart"data-show-order="5">mid<div class="pH borderStart"data-show-order="9">`
 
-	got, err := p.HydrateDeferredBlocks(context.Background(), html, act, true)
+	got, err := p.HydrateDeferredBlocks(t.Context(), html, act, true)
 	if err != nil {
 		t.Fatalf("HydrateDeferredBlocks: %v", err)
 	}
@@ -122,7 +121,7 @@ func TestHydrateDeferredBlocks(t *testing.T) {
 
 	// No deferred blocks -> html unchanged, no request.
 	bodies = nil
-	same, err := p.HydrateDeferredBlocks(context.Background(), "plain", act, true)
+	same, err := p.HydrateDeferredBlocks(t.Context(), "plain", act, true)
 	if err != nil || same != "plain" || len(bodies) != 0 {
 		t.Errorf("no-op hydration = %q, %v, %d bodies", same, err, len(bodies))
 	}
@@ -160,7 +159,7 @@ func TestHydrateDeferredBlocksChunking(t *testing.T) {
 	}
 
 	act := ActIndexEntry{ID: "act-x", URL: "https://njt.hu/jogszabaly/2000-1-00-00"}
-	if _, err := p.HydrateDeferredBlocks(context.Background(), html.String(), act, false); err != nil {
+	if _, err := p.HydrateDeferredBlocks(t.Context(), html.String(), act, false); err != nil {
 		t.Fatalf("HydrateDeferredBlocks: %v", err)
 	}
 	if len(sizes) != 2 || sizes[0] != 20 || sizes[1] != 5 {
@@ -281,7 +280,7 @@ func TestPipelineRun(t *testing.T) {
 	sourceDir := filepath.Join(t.TempDir(), "source")
 	seedDir := filepath.Join(t.TempDir(), "seed")
 	ts, count := newFakeNjtServer(t)
-	ctx := context.Background()
+	ctx := t.Context()
 
 	seedNames := []string{
 		"act-cxii-2011-info-self-determination.json",
@@ -378,7 +377,7 @@ func TestFetchAndParseActsFullFlow(t *testing.T) {
 		{DocumentID: "1992-100-00-00", Title: "1992. évi C. törvény", Status: "repealed", URL: ts.URL + "/jogszabaly/1992-100-00-00"},
 		{DocumentID: "2011-112-00-00", Title: "2011. évi CXII. törvény", Status: "amended", URL: ts.URL + "/jogszabaly/2011-112-00-00"},
 	})
-	if err := p.FetchAndParseActs(context.Background(), acts, false, false); err != nil {
+	if err := p.FetchAndParseActs(t.Context(), acts, false, false); err != nil {
 		t.Fatalf("FetchAndParseActs: %v", err)
 	}
 
@@ -429,7 +428,7 @@ func TestFetchAndParseActsFullFlow(t *testing.T) {
 	p2.BaseURL = "http://127.0.0.1:1" // nothing listens here
 	var out strings.Builder
 	p2.Stdout = &out
-	if err := p2.FetchAndParseActs(context.Background(), acts, false, true); err != nil {
+	if err := p2.FetchAndParseActs(t.Context(), acts, false, true); err != nil {
 		t.Fatalf("resume run: %v", err)
 	}
 	if !strings.Contains(out.String(), "cached") {
@@ -441,7 +440,7 @@ func TestFetchAndParseActsFullFlow(t *testing.T) {
 	p3.BaseURL = "http://127.0.0.1:1"
 	out.Reset()
 	p3.Stdout = &out
-	if err := p3.FetchAndParseActs(context.Background(), acts[:1], true, false); err != nil {
+	if err := p3.FetchAndParseActs(t.Context(), acts[:1], true, false); err != nil {
 		t.Fatalf("skip-fetch run: %v", err)
 	}
 	if !strings.Contains(out.String(), "Using cached HTML") {
@@ -458,7 +457,7 @@ func TestFetchAndParseActsHTTPError(t *testing.T) {
 	p := newFastPipeline(t.TempDir(), t.TempDir())
 	p.BaseURL = ts.URL
 	acts := []ActIndexEntry{{ID: "act-x", Title: "X", Status: "in_force", URL: ts.URL + "/jogszabaly/2000-1-00-00"}}
-	err := p.FetchAndParseActs(context.Background(), acts, false, false)
+	err := p.FetchAndParseActs(t.Context(), acts, false, false)
 	if err == nil {
 		t.Fatal("expected a summary error when an act fails")
 	}
@@ -508,7 +507,7 @@ func TestFetchAndParseActsResumeCorruptSeedRefetches(t *testing.T) {
 	p := newFastPipeline(sourceDir, seedDir)
 	p.BaseURL = ts.URL
 	acts := []ActIndexEntry{{ID: "hu-law-1992-100-00-00", Title: "1992. évi C. törvény", Status: "repealed", URL: ts.URL + "/jogszabaly/1992-100-00-00"}}
-	if err := p.FetchAndParseActs(context.Background(), acts, false, true); err != nil {
+	if err := p.FetchAndParseActs(t.Context(), acts, false, true); err != nil {
 		t.Fatalf("FetchAndParseActs: %v", err)
 	}
 

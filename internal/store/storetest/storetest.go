@@ -128,35 +128,87 @@ func seedCoreFixtures(t *testing.T, db *sql.DB) {
 		id, type, title, title_en, short_name, status, issued_date, in_force_date, url, description
 	) VALUES (?, 'statute', ?, ?, ?, ?, ?, ?, ?, ?)`
 	mustExec(docStmt,
-		"doc-inforce", "In Force Act", "In Force Act EN", "IFA", "in_force",
-		"2020-01-01", "2020-06-01", "https://njt.hu/jogszabaly/inforce", "In-force document")
+		"doc-inforce",
+		"In Force Act",
+		"In Force Act EN",
+		"IFA",
+		"in_force",
+		"2020-01-01",
+		"2020-06-01",
+		"https://njt.hu/jogszabaly/inforce",
+		"In-force document")
 	mustExec(docStmt,
-		"doc-amended", "Amended Act", "Amended Act EN", "AA", "amended",
-		"2018-01-01", "2018-06-01", "https://njt.hu/jogszabaly/amended", "Amended document")
+		"doc-amended",
+		"Amended Act",
+		"Amended Act EN",
+		"AA",
+		"amended",
+		"2018-01-01",
+		"2018-06-01",
+		"https://njt.hu/jogszabaly/amended",
+		"Amended document")
 	mustExec(docStmt,
-		"doc-repealed", "Repealed Act", "Repealed Act EN", "RA", "repealed",
-		"2010-01-01", "2010-06-01", "https://njt.hu/jogszabaly/repealed", "Repealed document")
+		"doc-repealed",
+		"Repealed Act",
+		"Repealed Act EN",
+		"RA",
+		"repealed",
+		"2010-01-01",
+		"2010-06-01",
+		"https://njt.hu/jogszabaly/repealed",
+		"Repealed document")
 	mustExec(docStmt,
-		"doc-future", "Future Act", "Future Act EN", "FA", "not_yet_in_force",
-		"2030-01-01", "2031-01-01", "https://njt.hu/jogszabaly/future", "Future document")
+		"doc-future",
+		"Future Act",
+		"Future Act EN",
+		"FA",
+		"not_yet_in_force",
+		"2030-01-01",
+		"2031-01-01",
+		"https://njt.hu/jogszabaly/future",
+		"Future document")
 
 	provStmt := `INSERT INTO legal_provisions
 		(document_id, provision_ref, chapter, section, title, content, metadata)
 		VALUES (?, ?, ?, ?, ?, ?, ?)`
 	p1 := lastInsertID(t, mustExec(provStmt,
-		"doc-inforce", "s1", "I. Fejezet", "1", "1. §",
-		"A személyes adat kezelése és elektronikus aláírás szabályai.", nil))
+		"doc-inforce",
+		"s1",
+		"I. Fejezet",
+		"1",
+		"1. §",
+		"A személyes adat kezelése és elektronikus aláírás szabályai.",
+		nil))
 	p2 := lastInsertID(t, mustExec(provStmt,
-		"doc-inforce", "s2", "I. Fejezet", "2", "2. §",
-		"Kiberbiztonsági intézkedések és információs rendszer védelem.", nil))
+		"doc-inforce",
+		"s2",
+		"I. Fejezet",
+		"2",
+		"2. §",
+		"Kiberbiztonsági intézkedések és információs rendszer védelem.",
+		nil))
 	p3 := lastInsertID(t, mustExec(provStmt,
-		"doc-amended", "s3", "II. Fejezet", "3", "3. §",
-		"Üzleti titok és létfontosságú infrastruktúra védelme.", nil))
+		"doc-amended",
+		"s3",
+		"II. Fejezet",
+		"3",
+		"3. §",
+		"Üzleti titok és létfontosságú infrastruktúra védelme.",
+		nil))
 
 	ftsStmt := `INSERT INTO provisions_fts(rowid, content, title) VALUES (?, ?, ?)`
-	mustExec(ftsStmt, p1, "A személyes adat kezelése és elektronikus aláírás szabályai.", "1. §")
-	mustExec(ftsStmt, p2, "Kiberbiztonsági intézkedések és információs rendszer védelem.", "2. §")
-	mustExec(ftsStmt, p3, "Üzleti titok és létfontosságú infrastruktúra védelme.", "3. §")
+	mustExec(ftsStmt,
+		p1,
+		"A személyes adat kezelése és elektronikus aláírás szabályai.",
+		"1. §")
+	mustExec(ftsStmt,
+		p2,
+		"Kiberbiztonsági intézkedések és információs rendszer védelem.",
+		"2. §")
+	mustExec(ftsStmt,
+		p3,
+		"Üzleti titok és létfontosságú infrastruktúra védelme.",
+		"3. §")
 
 	mustExec(`INSERT INTO definitions (document_id, term, definition, source_provision)
 		VALUES ('doc-inforce', 'személyes adat', 'Az érintettre vonatkozó adat.', 's1')`)
@@ -171,14 +223,35 @@ func seedCoreFixtures(t *testing.T, db *sql.DB) {
 		reference_context, full_citation, implementation_status, is_primary_implementation
 	) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)`
 	mustExec(euStmt,
-		"doc-inforce", p1, "regulation:2016/679", "Article 6", "implements",
-		"Implements GDPR requirements.", "Regulation (EU) 2016/679", "complete", 1)
+		"doc-inforce",
+		p1,
+		"regulation:2016/679",
+		"Article 6",
+		"implements",
+		"Implements GDPR requirements.",
+		"Regulation (EU) 2016/679",
+		"complete",
+		1)
 	mustExec(euStmt,
-		"doc-amended", p3, "directive:2022/2555", nil, "references",
-		"References NIS2 baseline.", "Directive (EU) 2022/2555", "partial", 0)
+		"doc-amended",
+		p3,
+		"directive:2022/2555",
+		nil,
+		"references",
+		"References NIS2 baseline.",
+		"Directive (EU) 2022/2555",
+		"partial",
+		0)
 	mustExec(euStmt,
-		"doc-amended", p3, "regulation:2016/679", nil, "references",
-		"General GDPR reference.", "Regulation (EU) 2016/679", "unknown", 0)
+		"doc-amended",
+		p3,
+		"regulation:2016/679",
+		nil,
+		"references",
+		"General GDPR reference.",
+		"Regulation (EU) 2016/679",
+		"unknown",
+		0)
 
 	metaStmt := `INSERT INTO db_metadata(key, value) VALUES (?, ?)`
 	mustExec(metaStmt, "tier", "free")

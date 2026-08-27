@@ -2,6 +2,7 @@ package fts
 
 import (
 	"reflect"
+	"strings"
 	"testing"
 )
 
@@ -95,6 +96,53 @@ func TestBuildFtsQueryVariants(t *testing.T) {
 			}
 		})
 	}
+}
+
+// FuzzSanitizeFtsInput pins the sanitizer's structural invariants for every
+// input: whitespace comes out fully normalized (trimmed, single-spaced, no
+// raw tabs/newlines — NBSP etc. are the documented \s ceiling) and no
+// character targeted by the active strip pattern survives into the output.
+func FuzzSanitizeFtsInput(f *testing.F) {
+	// Seeds from the table tests plus regex edge cases: repeated stars, bare
+	// operators, control bytes, multi-byte Hungarian.
+	for _, s := range []string{
+		` "GDPR" (Article) 6* `,
+		"control*",
+		"a*b",
+		`"adat" AND (védelem)`,
+		`adat* ^2 OR "x:y"`,
+		`'gdpr' "article" 6:1(2)`,
+		"  adat\t\n védelem  ",
+		"a**b",
+		"**",
+		"NOT",
+		"and",
+		"\x00",
+		"év",
+		"személyes adat",
+	} {
+		f.Add(s)
+	}
+	f.Fuzz(func(t *testing.T, input string) {
+		got := SanitizeFtsInput(input)
+
+		if got != strings.TrimSpace(got) ||
+			strings.Contains(got, "  ") ||
+			strings.ContainsAny(got, "\t\n\f\r") {
+			t.Fatalf("SanitizeFtsInput(%q) = %q: whitespace not normalized", input, got)
+		}
+
+		// Which strip pattern ran is decided by the raw input's boolean mode.
+		if HasBooleanOperators(input) {
+			if strings.ContainsAny(got, "{}[]^~*:") {
+				t.Fatalf("SanitizeFtsInput(%q) = %q: boolean-strip char survived", input, got)
+			}
+			return
+		}
+		if strings.ContainsAny(got, `'"(){}[]^~:`) {
+			t.Fatalf("SanitizeFtsInput(%q) = %q: non-boolean-strip char survived", input, got)
+		}
+	})
 }
 
 func TestBuildLikePattern(t *testing.T) {

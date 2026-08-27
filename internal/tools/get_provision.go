@@ -38,16 +38,17 @@ type ProvisionResult struct {
 	URL           *string `json:"url,omitempty"`
 }
 
-// GetProvision is the exported handler for get_provision.
+// GetProvision is the exported handler for get_provision. Empty results mean
+// either an unresolved document_id ("No document found matching" note), a
+// section/provision_ref that matched nothing (note says so), or a document
+// with no provision rows at all (no note).
 func GetProvision(ctx context.Context, db *sql.DB, args map[string]any) (any, ResponseMetadata, error) {
 	var parsed getProvisionArgs
 	if err := decodeArgs(args, &parsed); err != nil {
 		return nil, ResponseMetadata{}, err
 	}
-	if parsed.DocumentID == nil {
-		return nil, ResponseMetadata{}, fmt.Errorf("missing required argument %q", "document_id")
-	}
 	if err := validateArgs(
+		checkRequired("document_id", parsed.DocumentID),
 		checkMaxLength("document_id", parsed.DocumentID, maxDocumentIDLength),
 		checkMaxLength("section", parsed.Section, maxRefLength),
 		checkMaxLength("provision_ref", parsed.ProvisionRef, maxRefLength),
@@ -66,8 +67,9 @@ func GetProvision(ctx context.Context, db *sql.DB, args map[string]any) (any, Re
 	}
 
 	var docID, docTitle string
-	var docURL sql.NullString
-	err = db.QueryRowContext(ctx, "SELECT id, title, url FROM legal_documents WHERE id = ?", resolvedID).Scan(&docID, &docTitle, &docURL)
+	var docURL sql.Null[string]
+	err = db.QueryRowContext(ctx, "SELECT id, title, url FROM legal_documents WHERE id = ?",
+		resolvedID).Scan(&docID, &docTitle, &docURL)
 	if errors.Is(err, sql.ErrNoRows) {
 		return []ProvisionResult{}, GenerateResponseMetadata(ctx, db), nil
 	}
@@ -84,11 +86,11 @@ func GetProvision(ctx context.Context, db *sql.DB, args map[string]any) (any, Re
 	if ref != nil && *ref != "" {
 		refTrimmed := strings.TrimSpace(*ref)
 
-		row := db.QueryRowContext(
-			ctx,
-			"SELECT * FROM legal_provisions WHERE document_id = ? AND (provision_ref = ? OR provision_ref = ? OR section = ? OR provision_ref LIKE ? OR section LIKE ?)",
-			resolvedID, refTrimmed, "s"+refTrimmed, refTrimmed, "%"+refTrimmed+"%", "%"+refTrimmed+"%",
-		)
+		row := db.QueryRowContext(ctx,
+			"SELECT "+provisionColumns+" FROM legal_provisions WHERE document_id = ? AND "+
+				"(provision_ref = ? OR provision_ref = ? OR section = ? "+
+				"OR provision_ref LIKE ? OR section LIKE ?)",
+			resolvedID, refTrimmed, "s"+refTrimmed, refTrimmed, "%"+refTrimmed+"%", "%"+refTrimmed+"%")
 		provision, err := scanProvision(row.Scan, resolvedID, docTitle, docURL)
 		if err != nil {
 			return nil, ResponseMetadata{}, fmt.Errorf("query provision: %w", err)
@@ -105,7 +107,8 @@ func GetProvision(ctx context.Context, db *sql.DB, args map[string]any) (any, Re
 
 	// Return all provisions for the document, capped — a full act does not
 	// fit one tool result.
-	rows, err := db.QueryContext(ctx, "SELECT * FROM legal_provisions WHERE document_id = ? ORDER BY id", resolvedID)
+	rows, err := db.QueryContext(ctx,
+		"SELECT "+provisionColumns+" FROM legal_provisions WHERE document_id = ? ORDER BY id", resolvedID)
 	if err != nil {
 		return nil, ResponseMetadata{}, fmt.Errorf("query provisions: %w", err)
 	}
@@ -133,20 +136,26 @@ func GetProvision(ctx context.Context, db *sql.DB, args map[string]any) (any, Re
 
 	meta := GenerateResponseMetadata(ctx, db)
 	if truncated {
-		meta.Note = fmt.Sprintf("results truncated at %d provisions; pass section or provision_ref to narrow the query", maxProvisionsPerDocument)
+		meta.Note = fmt.Sprintf("results truncated at %d provisions; "+
+			"pass section or provision_ref to narrow the query", maxProvisionsPerDocument)
 	}
 	return results, meta, nil
 }
 
-// scanProvision maps one legal_provisions row (SELECT * column order:
-// id, document_id, provision_ref, chapter, section, title, content, metadata)
-// to a ProvisionResult; nil (no error) when the row is empty.
-func scanProvision(scan func(dest ...any) error, resolvedID, docTitle string, docURL sql.NullString) (*ProvisionResult, error) {
+// provisionColumns lists the legal_provisions columns get_provision reads,
+// in scanProvision's scan order — an explicit list, not SELECT *, so a
+// schema change cannot silently shift the positional Scan.
+const provisionColumns = "id, document_id, provision_ref, chapter, section, title, content"
+
+// scanProvision maps one legal_provisions row (provisionColumns order) to a
+// ProvisionResult; nil (no error) when the row is empty.
+func scanProvision(scan func(dest ...any) error, resolvedID, docTitle string,
+	docURL sql.Null[string]) (*ProvisionResult, error) {
 	var (
 		id, documentID, provisionRef, section, content string
-		chapter, title, metadata                       sql.NullString
+		chapter, title                                 sql.Null[string]
 	)
-	if err := scan(&id, &documentID, &provisionRef, &chapter, &section, &title, &content, &metadata); err != nil {
+	if err := scan(&id, &documentID, &provisionRef, &chapter, &section, &title, &content); err != nil {
 		if errors.Is(err, sql.ErrNoRows) {
 			return nil, nil
 		}

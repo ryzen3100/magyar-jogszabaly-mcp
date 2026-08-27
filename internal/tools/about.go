@@ -32,7 +32,8 @@ const aboutDescription = "Magyar jogszabály-adatbázis a Nemzeti Jogszabálytá
 	"valamint átfogó jogi álláspont felépítése több jogszabály egyidejű keresésével. " +
 	"Az adatbázis naponta frissül az njt.hu hivatalos forrásából. " +
 	"Forrás: Magyar Közlöny / Nemzeti Jogszabálytár. " +
-	"Figyelmeztetés: ez kutatási eszköz, nem jogi tanácsadás — kritikus hivatkozásokat mindig ellenőrizze a hivatalos forráson (njt.hu)."
+	"Figyelmeztetés: ez kutatási eszköz, nem jogi tanácsadás — " +
+	"kritikus hivatkozásokat mindig ellenőrizze a hivatalos forráson (njt.hu)."
 
 // aboutStats mirrors the TS stats record: documents/provisions/definitions
 // always present, the two EU keys only when the eu_references count is > 0.

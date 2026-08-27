@@ -25,45 +25,11 @@ func testArgs(t *testing.T, raw string) map[string]any {
 	return m
 }
 
-func runGetProvisionJSON(t *testing.T, db *sql.DB, rawArgs string) (string, error) {
+// runHandlerJSON invokes a handler with raw JSON args and returns the
+// marshaled response envelope — the shared runner behind every handler test.
+func runHandlerJSON(t *testing.T, h Handler, db *sql.DB, rawArgs string) (string, error) {
 	t.Helper()
-	results, meta, err := GetProvision(context.Background(), db, testArgs(t, rawArgs))
-	if err != nil {
-		return "", err
-	}
-	return MarshalResponse(results, meta), nil
-}
-
-func runValidateCitationJSON(t *testing.T, db *sql.DB, rawArgs string) (string, error) {
-	t.Helper()
-	results, meta, err := ValidateCitation(context.Background(), db, testArgs(t, rawArgs))
-	if err != nil {
-		return "", err
-	}
-	return MarshalResponse(results, meta), nil
-}
-
-func runBuildLegalStanceJSON(t *testing.T, db *sql.DB, rawArgs string) (string, error) {
-	t.Helper()
-	results, meta, err := BuildLegalStance(context.Background(), db, testArgs(t, rawArgs))
-	if err != nil {
-		return "", err
-	}
-	return MarshalResponse(results, meta), nil
-}
-
-func runFormatCitationJSON(t *testing.T, db *sql.DB, rawArgs string) (string, error) {
-	t.Helper()
-	results, meta, err := FormatCitation(context.Background(), db, testArgs(t, rawArgs))
-	if err != nil {
-		return "", err
-	}
-	return MarshalResponse(results, meta), nil
-}
-
-func runCheckCurrencyJSON(t *testing.T, db *sql.DB, rawArgs string) (string, error) {
-	t.Helper()
-	results, meta, err := CheckCurrency(context.Background(), db, testArgs(t, rawArgs))
+	results, meta, err := h(context.Background(), db, testArgs(t, rawArgs))
 	if err != nil {
 		return "", err
 	}

@@ -20,7 +20,8 @@ const isoMillis = "2006-01-02T15:04:05.000Z07:00"
 
 const (
 	insertDocSQL = `
-    INSERT INTO legal_documents (id, type, title, title_en, short_name, status, issued_date, in_force_date, url, description)
+    INSERT INTO legal_documents
+      (id, type, title, title_en, short_name, status, issued_date, in_force_date, url, description)
     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
 
 	insertProvisionSQL = `
@@ -142,7 +143,12 @@ func Build(outPath, seedDir, euMappingsPath string, logf func(format string, arg
 		return fmt.Errorf("prepare insertEuReference: %w", err)
 	}
 
-	for _, name := range seedFiles {
+	for i, name := range seedFiles {
+		// A full corpus build is silent for minutes at a time; heartbeat so
+		// the log does not look stalled.
+		if (i+1)%500 == 0 {
+			logf("  Processed %d/%d seed files", i+1, len(seedFiles))
+		}
 		data, err := os.ReadFile(filepath.Join(seedDir, name))
 		if err != nil {
 			return fmt.Errorf("read %s: %w", name, err)
@@ -252,77 +258,117 @@ func Build(outPath, seedDir, euMappingsPath string, logf func(format string, arg
 		return fmt.Errorf("commit seed transaction: %w", err)
 	}
 
-	if raw, err := os.ReadFile(euMappingsPath); err == nil {
-		var mappings []euMapping
-		if err := json.Unmarshal(raw, &mappings); err != nil {
-			return fmt.Errorf("parse %s: %w", euMappingsPath, err)
-		}
+	euDocs, euRefs, err := applyEuMappings(db, euMappingsPath, logf)
+	if err != nil {
+		return err
+	}
+	totalEuDocuments += euDocs
+	totalEuReferences += euRefs
 
-		mtx, err := db.Begin()
-		if err != nil {
-			return fmt.Errorf("begin EU mappings transaction: %w", err)
-		}
-		defer mtx.Rollback() // no-op once committed
-		// The TS original re-prepared these per row to work around stale
-		// statement state in @ansvar/mcp-sqlite; modernc has no such issue.
-		mInsertEuDocument, err := mtx.Prepare(euDocumentInsertSQL)
-		if err != nil {
-			return fmt.Errorf("prepare mapping insertEuDocument: %w", err)
-		}
-		mInsertEuReference, err := mtx.Prepare(euReferenceInsertSQL)
-		if err != nil {
-			return fmt.Errorf("prepare mapping insertEuReference: %w", err)
-		}
-		docExists, err := mtx.Prepare(`SELECT id FROM legal_documents WHERE id = ?`)
-		if err != nil {
-			return fmt.Errorf("prepare docExists: %w", err)
-		}
-
-		for _, m := range mappings {
-			res, err := mInsertEuDocument.Exec(m.EUDocumentID, m.EUType, m.EUYear, m.EUNumber, m.EUCommunity,
-				m.EUTitle, m.EUShortName, nil, nil)
-			if err != nil {
-				return fmt.Errorf("insert eu_document %s: %w", m.EUDocumentID, err)
-			}
-			if n, err := res.RowsAffected(); err == nil && n > 0 {
-				totalEuDocuments++
-			}
-
-			var id string
-			err = docExists.QueryRow(m.HungarianDocumentID).Scan(&id)
-			if errors.Is(err, sql.ErrNoRows) {
-				logf(`  ⚠ EU mapping skipped: Hungarian document "%s" not found in database`, m.HungarianDocumentID)
-				continue
-			} else if err != nil {
-				return fmt.Errorf("check document %s: %w", m.HungarianDocumentID, err)
-			}
-
-			primary := 0
-			if m.IsPrimary {
-				primary = 1
-			}
-			if _, err := mInsertEuReference.Exec("document", m.HungarianDocumentID, m.HungarianDocumentID, nil,
-				m.EUDocumentID, nil, m.ReferenceType, "Manual mapping: "+m.EUShortName, m.EUTitle, primary,
-				m.ImplementationStatus, time.Now().UTC().Format(isoMillis)); err != nil {
-				// Tolerate only UNIQUE (duplicate) failures, like the TS original.
-				if !isUniqueViolation(err) {
-					return fmt.Errorf("EU mapping insert failed for %s -> %s: %w", m.HungarianDocumentID, m.EUDocumentID, err)
-				}
-			} else {
-				totalEuReferences++
-			}
-		}
-		if err := mtx.Commit(); err != nil {
-			return fmt.Errorf("commit EU mappings transaction: %w", err)
-		}
-		logf("  Loaded %d EU mappings from seed file.", len(mappings))
-	} else if errors.Is(err, os.ErrNotExist) {
-		logf("  ⚠ No EU mappings file at %s — building without manual mappings.", euMappingsPath)
-	} else {
-		return fmt.Errorf("read %s: %w", euMappingsPath, err)
+	if err := writeBuildMetadata(db, time.Now().UTC().Format(isoMillis)); err != nil {
+		return err
 	}
 
-	builtAt := time.Now().UTC().Format(isoMillis)
+	if err := publish(db, tmpPath, outPath); err != nil {
+		return err
+	}
+
+	info, err := os.Stat(outPath)
+	if err != nil {
+		return fmt.Errorf("stat %s: %w", outPath, err)
+	}
+	if euRefFailures > 0 {
+		logf("  ⚠ %d EU references failed to insert", euRefFailures)
+	}
+	logf("\nBuild complete: %d documents, %d provisions, %d definitions, %d EU documents, %d EU references",
+		totalDocs, totalProvisions, totalDefs, totalEuDocuments, totalEuReferences)
+	logf("Output: %s (%.1f MB)", outPath, float64(info.Size())/1024/1024)
+	return nil
+}
+
+// applyEuMappings loads the manual EU mappings file and inserts its
+// document-level EU documents/references, skipping mappings whose Hungarian
+// document is absent from the database. A missing file is not an error: the
+// build continues without manual mappings (with a warning, as in TS).
+// Returns the number of EU documents and references inserted.
+func applyEuMappings(db *sql.DB, euMappingsPath string, logf func(format string, args ...any)) (int, int, error) {
+	raw, err := os.ReadFile(euMappingsPath)
+	if errors.Is(err, os.ErrNotExist) {
+		logf("  ⚠ No EU mappings file at %s — building without manual mappings.", euMappingsPath)
+		return 0, 0, nil
+	}
+	if err != nil {
+		return 0, 0, fmt.Errorf("read %s: %w", euMappingsPath, err)
+	}
+	var mappings []euMapping
+	if err := json.Unmarshal(raw, &mappings); err != nil {
+		return 0, 0, fmt.Errorf("parse %s: %w", euMappingsPath, err)
+	}
+
+	totalEuDocuments, totalEuReferences := 0, 0
+	mtx, err := db.Begin()
+	if err != nil {
+		return 0, 0, fmt.Errorf("begin EU mappings transaction: %w", err)
+	}
+	defer mtx.Rollback() // no-op once committed
+	// The TS original re-prepared these per row to work around stale
+	// statement state in @ansvar/mcp-sqlite; modernc has no such issue.
+	mInsertEuDocument, err := mtx.Prepare(euDocumentInsertSQL)
+	if err != nil {
+		return 0, 0, fmt.Errorf("prepare mapping insertEuDocument: %w", err)
+	}
+	mInsertEuReference, err := mtx.Prepare(euReferenceInsertSQL)
+	if err != nil {
+		return 0, 0, fmt.Errorf("prepare mapping insertEuReference: %w", err)
+	}
+	docExists, err := mtx.Prepare(`SELECT id FROM legal_documents WHERE id = ?`)
+	if err != nil {
+		return 0, 0, fmt.Errorf("prepare docExists: %w", err)
+	}
+
+	for _, m := range mappings {
+		res, err := mInsertEuDocument.Exec(m.EUDocumentID, m.EUType, m.EUYear, m.EUNumber, m.EUCommunity,
+			m.EUTitle, m.EUShortName, nil, nil)
+		if err != nil {
+			return 0, 0, fmt.Errorf("insert eu_document %s: %w", m.EUDocumentID, err)
+		}
+		if n, err := res.RowsAffected(); err == nil && n > 0 {
+			totalEuDocuments++
+		}
+
+		var id string
+		err = docExists.QueryRow(m.HungarianDocumentID).Scan(&id)
+		if errors.Is(err, sql.ErrNoRows) {
+			logf(`  ⚠ EU mapping skipped: Hungarian document "%s" not found in database`, m.HungarianDocumentID)
+			continue
+		} else if err != nil {
+			return 0, 0, fmt.Errorf("check document %s: %w", m.HungarianDocumentID, err)
+		}
+
+		primary := 0
+		if m.IsPrimary {
+			primary = 1
+		}
+		if _, err := mInsertEuReference.Exec("document", m.HungarianDocumentID, m.HungarianDocumentID, nil,
+			m.EUDocumentID, nil, m.ReferenceType, "Manual mapping: "+m.EUShortName, m.EUTitle, primary,
+			m.ImplementationStatus, time.Now().UTC().Format(isoMillis)); err != nil {
+			// Tolerate only UNIQUE (duplicate) failures, like the TS original.
+			if !isUniqueViolation(err) {
+				return 0, 0, fmt.Errorf("EU mapping insert failed for %s -> %s: %w", m.HungarianDocumentID, m.EUDocumentID, err)
+			}
+		} else {
+			totalEuReferences++
+		}
+	}
+	if err := mtx.Commit(); err != nil {
+		return 0, 0, fmt.Errorf("commit EU mappings transaction: %w", err)
+	}
+	logf("  Loaded %d EU mappings from seed file.", len(mappings))
+	return totalEuDocuments, totalEuReferences, nil
+}
+
+// writeBuildMetadata records the db_metadata rows describing the build.
+func writeBuildMetadata(db *sql.DB, builtAt string) error {
 	mtx, err := db.Begin()
 	if err != nil {
 		return fmt.Errorf("begin metadata transaction: %w", err)
@@ -348,21 +394,6 @@ func Build(outPath, seedDir, euMappingsPath string, logf func(format string, arg
 	if err := mtx.Commit(); err != nil {
 		return fmt.Errorf("commit metadata transaction: %w", err)
 	}
-
-	if err := publish(db, tmpPath, outPath); err != nil {
-		return err
-	}
-
-	info, err := os.Stat(outPath)
-	if err != nil {
-		return fmt.Errorf("stat %s: %w", outPath, err)
-	}
-	if euRefFailures > 0 {
-		logf("  ⚠ %d EU references failed to insert", euRefFailures)
-	}
-	logf("\nBuild complete: %d documents, %d provisions, %d definitions, %d EU documents, %d EU references",
-		totalDocs, totalProvisions, totalDefs, totalEuDocuments, totalEuReferences)
-	logf("Output: %s (%.1f MB)", outPath, float64(info.Size())/1024/1024)
 	return nil
 }
 

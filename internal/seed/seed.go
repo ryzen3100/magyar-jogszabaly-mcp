@@ -3,6 +3,8 @@
 // scripts/build-db.ts:23-51. Shared by cmd/build-db and cmd/ingest.
 package seed
 
+// DocumentSeed mirrors one data/seed/<id>.json file: a statute with its
+// provisions and definitions.
 type DocumentSeed struct {
 	ID          string           `json:"id"`
 	Type        string           `json:"type"` // defaults to 'statute'
@@ -18,6 +20,7 @@ type DocumentSeed struct {
 	Definitions []DefinitionSeed `json:"definitions,omitempty"`
 }
 
+// ProvisionSeed is one provision (a legal_provisions row) within a DocumentSeed.
 type ProvisionSeed struct {
 	ProvisionRef string         `json:"provision_ref"`
 	Chapter      string         `json:"chapter,omitempty"`
@@ -27,6 +30,7 @@ type ProvisionSeed struct {
 	Metadata     map[string]any `json:"metadata,omitempty"`
 }
 
+// DefinitionSeed is one defined term (a definitions row) within a DocumentSeed.
 type DefinitionSeed struct {
 	Term            string `json:"term"`
 	Definition      string `json:"definition"`

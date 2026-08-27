@@ -12,7 +12,7 @@ func TestCheckCurrencyNotFound(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	out, err := runCheckCurrencyJSON(t, db, `{"document_id": "missing-doc"}`)
+	out, err := runHandlerJSON(t, CheckCurrency, db, `{"document_id": "missing-doc"}`)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -45,7 +45,7 @@ func TestCheckCurrencyStatusWarnings(t *testing.T) {
 	}
 	for _, tc := range tests {
 		t.Run(tc.name, func(t *testing.T) {
-			out, err := runCheckCurrencyJSON(t, db, `{"document_id": "`+tc.doc+`"}`)
+			out, err := runHandlerJSON(t, CheckCurrency, db, `{"document_id": "`+tc.doc+`"}`)
 			if err != nil {
 				t.Fatal(err)
 			}
@@ -59,11 +59,13 @@ func TestCheckCurrencyStatusWarnings(t *testing.T) {
 	}
 
 	t.Run("in force has no warnings", func(t *testing.T) {
-		out, err := runCheckCurrencyJSON(t, db, `{"document_id": "doc-inforce"}`)
+		out, err := runHandlerJSON(t, CheckCurrency, db, `{"document_id": "doc-inforce"}`)
 		if err != nil {
 			t.Fatal(err)
 		}
-		for _, want := range []string{`"status":"in_force"`, `"warnings":[]`, `"issued_date":"2020-01-01"`, `"in_force_date":"2020-06-01"`} {
+		for _, want := range []string{
+			`"status":"in_force"`, `"warnings":[]`, `"issued_date":"2020-01-01"`, `"in_force_date":"2020-06-01"`,
+		} {
 			if !strings.Contains(out, want) {
 				t.Errorf("missing %s in %s", want, out)
 			}
@@ -75,7 +77,7 @@ func TestCheckCurrencyResolvesByTitle(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	out, err := runCheckCurrencyJSON(t, db, `{"document_id": "In Force Act"}`)
+	out, err := runHandlerJSON(t, CheckCurrency, db, `{"document_id": "In Force Act"}`)
 	if err != nil {
 		t.Fatal(err)
 	}

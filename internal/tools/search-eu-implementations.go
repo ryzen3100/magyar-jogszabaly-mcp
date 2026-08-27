@@ -33,6 +33,8 @@ type euImplementationSearchResult struct {
 }
 
 // SearchEUImplementations implements the search_eu_implementations MCP tool.
+// Empty results mean no matches (no note) — unless the database lacks
+// eu_documents, in which case _metadata.note carries the availability note.
 func SearchEUImplementations(ctx context.Context, db *sql.DB, args map[string]any) (any, ResponseMetadata, error) {
 	var parsed searchEUImplementationsArgs
 	if err := decodeArgs(args, &parsed); err != nil {
@@ -113,19 +115,15 @@ func SearchEUImplementations(ctx context.Context, db *sql.DB, args map[string]an
 	for rows.Next() {
 		var (
 			r         euImplementationSearchResult
-			title     sql.NullString
-			shortName sql.NullString
+			title     sql.Null[string]
+			shortName sql.Null[string]
 		)
 		if err := rows.Scan(&r.EuDocumentID, &r.Type, &r.Year, &r.Number,
 			&title, &shortName, &r.HungarianStatuteCount); err != nil {
 			return nil, ResponseMetadata{}, fmt.Errorf("scan eu document: %w", err)
 		}
-		if title.Valid {
-			r.Title = &title.String
-		}
-		if shortName.Valid {
-			r.ShortName = &shortName.String
-		}
+		r.Title = nullStringPtr(title)
+		r.ShortName = nullStringPtr(shortName)
 		results = append(results, r)
 	}
 	if err := rows.Err(); err != nil {

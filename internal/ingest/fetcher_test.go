@@ -84,7 +84,7 @@ func TestFetchSendsDefaultHeadersAndBody(t *testing.T) {
 	defer ts.Close()
 
 	f := newTestFetcher(0)
-	res, err := f.Fetch(context.Background(), ts.URL+"/x", &RequestOptions{
+	res, err := f.Fetch(t.Context(), ts.URL+"/x", &RequestOptions{
 		Method: http.MethodPost,
 		Body:   `{"a":1}`,
 		Headers: map[string]string{
@@ -114,7 +114,7 @@ func TestFetchHeaderOverride(t *testing.T) {
 	defer ts.Close()
 
 	f := newTestFetcher(0)
-	if _, err := f.Fetch(context.Background(), ts.URL, &RequestOptions{
+	if _, err := f.Fetch(t.Context(), ts.URL, &RequestOptions{
 		Headers: map[string]string{"Accept": "application/json"},
 	}); err != nil {
 		t.Fatalf("Fetch: %v", err)
@@ -136,7 +136,7 @@ func TestFetchRateLimitsConsecutiveRequests(t *testing.T) {
 	// server-side timestamps: real sleeps flake under -race scheduling.
 	f.Sleep = func(d time.Duration) { sleeps = append(sleeps, d) }
 	for i := range 3 {
-		if _, err := f.Fetch(context.Background(), ts.URL, nil); err != nil {
+		if _, err := f.Fetch(t.Context(), ts.URL, nil); err != nil {
 			t.Fatalf("Fetch %d: %v", i, err)
 		}
 	}
@@ -179,7 +179,7 @@ func TestFetchRetriesOn500And429(t *testing.T) {
 			f := newTestFetcher(0)
 			f.Sleep = func(d time.Duration) { backoffs = append(backoffs, d) }
 
-			res, err := f.Fetch(context.Background(), ts.URL, nil)
+			res, err := f.Fetch(t.Context(), ts.URL, nil)
 			if err != nil {
 				t.Fatalf("Fetch: %v", err)
 			}
@@ -212,7 +212,7 @@ func TestFetchRetriesOnNetworkErrorThenFails(t *testing.T) {
 	f.Sleep = func(d time.Duration) { backoffs = append(backoffs, d) }
 	f.Logf = func(string, ...any) {}
 
-	_, err := f.Fetch(context.Background(), "http://unit.test/x", nil)
+	_, err := f.Fetch(t.Context(), "http://unit.test/x", nil)
 	if err == nil {
 		t.Fatal("expected error after exhausted network retries")
 	}
@@ -289,7 +289,7 @@ func TestFetchHonors429RetryAfter(t *testing.T) {
 			f.Sleep = func(d time.Duration) { backoffs = append(backoffs, d) }
 			f.Logf = func(string, ...any) {}
 
-			res, err := f.Fetch(context.Background(), ts.URL, nil)
+			res, err := f.Fetch(t.Context(), ts.URL, nil)
 			if err != nil {
 				t.Fatalf("Fetch: %v", err)
 			}
@@ -311,7 +311,7 @@ func TestFetchRejectsOversizedBody(t *testing.T) {
 
 	f := newTestFetcher(0)
 	f.Logf = func(string, ...any) {}
-	if _, err := f.Fetch(context.Background(), ts.URL, nil); err == nil || !strings.Contains(err.Error(), "limit") {
+	if _, err := f.Fetch(t.Context(), ts.URL, nil); err == nil || !strings.Contains(err.Error(), "limit") {
 		t.Fatalf("err = %v, want a body-size limit error", err)
 	}
 }

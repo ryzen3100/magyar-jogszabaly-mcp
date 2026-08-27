@@ -2,7 +2,6 @@ package tools
 
 import (
 	"context"
-	"database/sql"
 	"encoding/json"
 	"fmt"
 	"strings"
@@ -12,23 +11,12 @@ import (
 	"github.com/ryzen3100/magyar-jogszabaly-mcp/internal/store/storetest"
 )
 
-// runSearchRaw invokes the exported SearchLegislation handler with raw JSON
-// and returns the marshaled envelope (or the handler error).
-func runSearchRaw(t *testing.T, db *sql.DB, rawArgs string) (string, error) {
-	t.Helper()
-	results, meta, err := SearchLegislation(context.Background(), db, testArgs(t, rawArgs))
-	if err != nil {
-		return "", err
-	}
-	return MarshalResponse(results, meta), nil
-}
-
 func TestSearchLegislationEmptyQuery(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
 	for _, query := range []string{``, `{"query": ""}`, `{"query": "   "}`, `{}`} {
-		out, err := runSearchRaw(t, db, query)
+		out, err := runHandlerJSON(t, SearchLegislation, db, query)
 		if err != nil {
 			t.Fatalf("query %q: %v", query, err)
 		}
@@ -42,7 +30,7 @@ func TestSearchLegislationFindsProvisions(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	out, err := runSearchRaw(t, db, `{"query": "személyes adat"}`)
+	out, err := runHandlerJSON(t, SearchLegislation, db, `{"query": "személyes adat"}`)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -79,7 +67,7 @@ func TestSearchLegislationBroadenedStrategy(t *testing.T) {
 	db := storetest.NewTestDb(t)
 
 	// No single provision contains both terms, so only the OR variant hits.
-	out, err := runSearchRaw(t, db, `{"query": "személyes kiberbiztonsági"}`)
+	out, err := runHandlerJSON(t, SearchLegislation, db, `{"query": "személyes kiberbiztonsági"}`)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -103,7 +91,7 @@ func TestSearchLegislationLikeFallback(t *testing.T) {
 
 	// "zemélyes" is a substring of content but not an FTS token or prefix,
 	// so FTS finds nothing and the LIKE tier takes over.
-	out, err := runSearchRaw(t, db, `{"query": "zemélyes"}`)
+	out, err := runHandlerJSON(t, SearchLegislation, db, `{"query": "zemélyes"}`)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -128,7 +116,8 @@ func TestSearchLegislationUnresolvableDocumentFilter(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	results, meta, err := SearchLegislation(context.Background(), db, testArgs(t, `{"query": "személyes", "document_id": "missing-doc"}`))
+	results, meta, err := SearchLegislation(context.Background(), db,
+		testArgs(t, `{"query": "személyes", "document_id": "missing-doc"}`))
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -146,7 +135,7 @@ func TestSearchLegislationDocumentAndStatusFilters(t *testing.T) {
 	db := storetest.NewTestDb(t)
 
 	// "védelem" matches doc-inforce s2 and doc-amended s3.
-	out, err := runSearchRaw(t, db, `{"query": "védelem", "document_id": "In Force Act"}`)
+	out, err := runHandlerJSON(t, SearchLegislation, db, `{"query": "védelem", "document_id": "In Force Act"}`)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -154,14 +143,14 @@ func TestSearchLegislationDocumentAndStatusFilters(t *testing.T) {
 		t.Errorf("document filter not applied: %s", out)
 	}
 
-	out, err = runSearchRaw(t, db, `{"query": "titok", "status": "amended"}`)
+	out, err = runHandlerJSON(t, SearchLegislation, db, `{"query": "titok", "status": "amended"}`)
 	if err != nil {
 		t.Fatal(err)
 	}
 	if !strings.Contains(out, `"document_id":"doc-amended"`) {
 		t.Errorf("status filter dropped amended hit: %s", out)
 	}
-	out, err = runSearchRaw(t, db, `{"query": "személyes", "status": "repealed"}`)
+	out, err = runHandlerJSON(t, SearchLegislation, db, `{"query": "személyes", "status": "repealed"}`)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -189,7 +178,7 @@ func TestSearchLegislationLimitAndDedup(t *testing.T) {
 			fmt.Sprintf("sx%d", i), fmt.Sprintf("Tesztszabály %d rendelkezése.", i))
 	}
 
-	out, err := runSearchRaw(t, db, `{"query": "Tesztszabály", "limit": 2}`)
+	out, err := runHandlerJSON(t, SearchLegislation, db, `{"query": "Tesztszabály", "limit": 2}`)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -204,14 +193,19 @@ func TestSearchLegislationLimitAndDedup(t *testing.T) {
 	}
 
 	// Dedup: two documents sharing title + provision_ref collapse to one hit.
-	exec(`INSERT INTO legal_documents (id, type, title, status) VALUES ('doc-dup-a', 'statute', 'Dup Title Act', 'in_force')`)
-	exec(`INSERT INTO legal_documents (id, type, title, status) VALUES ('doc-dup-b', 'statute', 'Dup Title Act', 'in_force')`)
+	exec(`INSERT INTO legal_documents (id, type, title, status)
+		VALUES ('doc-dup-a', 'statute', 'Dup Title Act', 'in_force')`)
+	exec(`INSERT INTO legal_documents (id, type, title, status)
+		VALUES ('doc-dup-b', 'statute', 'Dup Title Act', 'in_force')`)
 	for _, id := range []string{"doc-dup-a", "doc-dup-b"} {
-		exec(`INSERT INTO legal_provisions (document_id, provision_ref, section, content) VALUES (?, 's9', '9', 'Egyedi kulcsszószabály.')`, id)
-		exec(`INSERT INTO provisions_fts(rowid, content) VALUES ((SELECT id FROM legal_provisions WHERE document_id = ? AND provision_ref = 's9'), 'Egyedi kulcsszószabály.')`, id)
+		exec(`INSERT INTO legal_provisions (document_id, provision_ref, section, content)
+			VALUES (?, 's9', '9', 'Egyedi kulcsszószabály.')`, id)
+		exec(`INSERT INTO provisions_fts(rowid, content)
+			VALUES ((SELECT id FROM legal_provisions WHERE document_id = ?
+				AND provision_ref = 's9'), 'Egyedi kulcsszószabály.')`, id)
 	}
 
-	out, err = runSearchRaw(t, db, `{"query": "kulcsszószabály"}`)
+	out, err = runHandlerJSON(t, SearchLegislation, db, `{"query": "kulcsszószabály"}`)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -255,7 +249,8 @@ func TestSearchLegislationArgumentCaps(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	_, _, err := SearchLegislation(context.Background(), db, map[string]any{"query": strings.Repeat("a", maxQueryLength+1)})
+	_, _, err := SearchLegislation(context.Background(), db,
+		map[string]any{"query": strings.Repeat("a", maxQueryLength+1)})
 	if err == nil || !strings.Contains(err.Error(), `invalid argument "query"`) {
 		t.Errorf("expected maxLength error, got %v", err)
 	}
@@ -327,7 +322,8 @@ func TestSearchLegislationRealDb(t *testing.T) {
 	})
 
 	t.Run("filters by document_id", func(t *testing.T) {
-		results, _, err := SearchLegislation(context.Background(), db, testArgs(t, `{"query": "biztonsági", "document_id": "act-l-2013-electronic-info-security"}`))
+		results, _, err := SearchLegislation(context.Background(), db,
+			testArgs(t, `{"query": "biztonsági", "document_id": "act-l-2013-electronic-info-security"}`))
 		if err != nil {
 			t.Fatal(err)
 		}

@@ -47,12 +47,13 @@ type ParsedCitation struct {
 // Citation grammars, ported regex for regex from validate-citation.ts.
 // All are RE2-safe; (?i) matches the JS /i flag.
 var (
-	hungarianFullRe = regexp.MustCompile(`(?i)^(\d{4}\.\s*évi\s+[IVXLCDM]+\.\s*törvény)\s+(\d+(?::\d+)?(?:\/[A-Za-z])?)\.\s*§`)
-	hungarianDocRe  = regexp.MustCompile(`(?i)^(\d{4}\.\s*évi\s+[IVXLCDM]+\.\s*törvény)$`)
-	dbIdWithSecRe   = regexp.MustCompile(`(?i)^(hu-law-\d{4}-\d+-\d{2}-\d{2})\s+s?(\d+(?::\d+)?(?:\/[A-Za-z])?)$`)
-	dbIdOnlyRe      = regexp.MustCompile(`^(hu-law-\d{4}-\d+-\d{2}-\d{2})$`)
-	sectionFirstRe  = regexp.MustCompile(`(?i)^Section\s+(\d+[A-Za-z]*(?:\(\d+\))?)\s*[,;]?\s+(.+)$`)
-	sectionLastRe   = regexp.MustCompile(`(?i)^(.+?)\s*[,;]?\s+(?:s\.?\s+|Section\s+)(\d+[A-Za-z]*(?:\(\d+\))?)$`)
+	hungarianFullRe = regexp.MustCompile(`(?i)^(\d{4}\.\s*évi\s+[IVXLCDM]+\.\s*törvény)\s+` +
+		`(\d+(?::\d+)?(?:\/[A-Za-z])?)\.\s*§`)
+	hungarianDocRe = regexp.MustCompile(`(?i)^(\d{4}\.\s*évi\s+[IVXLCDM]+\.\s*törvény)$`)
+	dbIdWithSecRe  = regexp.MustCompile(`(?i)^(hu-law-\d{4}-\d+-\d{2}-\d{2})\s+s?(\d+(?::\d+)?(?:\/[A-Za-z])?)$`)
+	dbIdOnlyRe     = regexp.MustCompile(`^(hu-law-\d{4}-\d+-\d{2}-\d{2})$`)
+	sectionFirstRe = regexp.MustCompile(`(?i)^Section\s+(\d+[A-Za-z]*(?:\(\d+\))?)\s*[,;]?\s+(.+)$`)
+	sectionLastRe  = regexp.MustCompile(`(?i)^(.+?)\s*[,;]?\s+(?:s\.?\s+|Section\s+)(\d+[A-Za-z]*(?:\(\d+\))?)$`)
 )
 
 // ParseCitation parses an Hungarian legal citation. Returns nil only for an
@@ -97,16 +98,19 @@ func ParseCitation(citation string) *ParsedCitation {
 	return &ParsedCitation{DocumentRef: trimmed}
 }
 
-// ValidateCitation is the exported handler for validate_citation.
+// ValidateCitation is the exported handler for validate_citation. It always
+// returns a singular result — unparseable citations and unknown documents
+// come back as valid:false plus warnings, not errors — and _metadata.note
+// stays unset.
 func ValidateCitation(ctx context.Context, db *sql.DB, args map[string]any) (any, ResponseMetadata, error) {
 	var parsed validateCitationArgs
 	if err := decodeArgs(args, &parsed); err != nil {
 		return nil, ResponseMetadata{}, err
 	}
-	if parsed.Citation == nil {
-		return nil, ResponseMetadata{}, fmt.Errorf("missing required argument %q", "citation")
-	}
-	if err := checkMaxLength("citation", parsed.Citation, maxCitationLength); err != nil {
+	if err := validateArgs(
+		checkRequired("citation", parsed.Citation),
+		checkMaxLength("citation", parsed.Citation, maxCitationLength),
+	); err != nil {
 		return nil, ResponseMetadata{}, err
 	}
 
@@ -132,15 +136,17 @@ func ValidateCitation(ctx context.Context, db *sql.DB, args map[string]any) (any
 		}, GenerateResponseMetadata(ctx, db), nil
 	}
 
-	var id, title, status string
-	err = db.QueryRowContext(ctx, "SELECT id, title, status FROM legal_documents WHERE id = ?", docID).Scan(&id, &title, &status)
+	var title, status string
+	err = db.QueryRowContext(ctx, "SELECT title, status FROM legal_documents WHERE id = ?",
+		docID).Scan(&title, &status)
 	if err != nil {
 		return nil, ResponseMetadata{}, fmt.Errorf("query document: %w", err)
 	}
 
-	if status == "repealed" {
+	switch status {
+	case "repealed":
 		warnings = append(warnings, "WARNING: This statute has been repealed.")
-	} else if status == "amended" {
+	case "amended":
 		warnings = append(warnings, "Note: This statute has been amended. Verify you are referencing the current version.")
 	}
 
@@ -150,8 +156,11 @@ func ValidateCitation(ctx context.Context, db *sql.DB, args map[string]any) (any
 		sectionClean := strings.Replace(parsedCitation.SectionRef, ":", "", 1)
 		var provisionRef string
 		err := db.QueryRowContext(ctx,
-			"SELECT provision_ref FROM legal_provisions WHERE document_id = ? AND (provision_ref = ? OR provision_ref = ? OR provision_ref = ? OR provision_ref = ? OR section = ? OR section = ?)",
-			docID, parsedCitation.SectionRef, "s"+parsedCitation.SectionRef, "s"+sectionClean, sectionClean, parsedCitation.SectionRef, sectionClean,
+			"SELECT provision_ref FROM legal_provisions WHERE document_id = ? AND "+
+				"(provision_ref = ? OR provision_ref = ? OR provision_ref = ? OR provision_ref = ? "+
+				"OR section = ? OR section = ?)",
+			docID, parsedCitation.SectionRef, "s"+parsedCitation.SectionRef,
+			"s"+sectionClean, sectionClean, parsedCitation.SectionRef, sectionClean,
 		).Scan(&provisionRef)
 		if errors.Is(err, sql.ErrNoRows) {
 			warnings = append(warnings, fmt.Sprintf("Provision \"%s. §\" not found in %s", parsedCitation.SectionRef, title))

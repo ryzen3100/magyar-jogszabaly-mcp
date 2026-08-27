@@ -106,7 +106,9 @@ func ResolveDocumentId(ctx context.Context, db *sql.DB, input string) (string, e
 		   OR LOWER(short_name) LIKE LOWER(?) ESCAPE '\'
 		   OR LOWER(title_en) LIKE LOWER(?) ESCAPE '\'
 		LIMIT 1`,
-		pattern, pattern, pattern,
+		pattern,
+		pattern,
+		pattern,
 	).Scan(&id)
 	if errors.Is(err, sql.ErrNoRows) {
 		return "", nil

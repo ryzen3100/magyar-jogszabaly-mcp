@@ -1,5 +1,5 @@
-// get_eu_basis — Get EU legal basis for an Hungarian statute.
-// Port of src/tools/get-eu-basis.ts.
+// get_eu_basis — Get the EU legal basis for a statute as a whole
+// (statute-level). Port of src/tools/get-eu-basis.ts.
 
 package tools
 
@@ -41,10 +41,8 @@ func GetEUBasis(ctx context.Context, db *sql.DB, args map[string]any) (any, Resp
 	if err := decodeArgs(args, &parsed); err != nil {
 		return nil, ResponseMetadata{}, err
 	}
-	if parsed.DocumentID == nil {
-		return nil, ResponseMetadata{}, fmt.Errorf("missing required argument %q", "document_id")
-	}
 	if err := validateArgs(
+		checkRequired("document_id", parsed.DocumentID),
 		checkMaxLength("document_id", parsed.DocumentID, maxDocumentIDLength),
 		checkStringList("reference_types", parsed.ReferenceTypes, maxReferenceTypes, maxReferenceTypeLen),
 	); err != nil {
@@ -100,23 +98,17 @@ func GetEUBasis(ctx context.Context, db *sql.DB, args map[string]any) (any, Resp
 	for rows.Next() {
 		var (
 			r          euBasisResult
-			docType    sql.NullString
-			title      sql.NullString
-			implStatus sql.NullString
+			docType    sql.Null[string]
+			title      sql.Null[string]
+			implStatus sql.Null[string]
 		)
 		if err := rows.Scan(&r.EuDocumentID, &docType, &title, &r.ReferenceType,
 			&r.ReferenceCount, &implStatus); err != nil {
 			return nil, ResponseMetadata{}, fmt.Errorf("scan eu reference: %w", err)
 		}
-		if docType.Valid {
-			r.EuDocumentType = &docType.String
-		}
-		if title.Valid {
-			r.EuDocumentTitle = &title.String
-		}
-		if implStatus.Valid {
-			r.ImplementationStatus = &implStatus.String
-		}
+		r.EuDocumentType = nullStringPtr(docType)
+		r.EuDocumentTitle = nullStringPtr(title)
+		r.ImplementationStatus = nullStringPtr(implStatus)
 		results = append(results, r)
 	}
 	if err := rows.Err(); err != nil {
@@ -137,7 +129,7 @@ func GetEUBasis(ctx context.Context, db *sql.DB, args map[string]any) (any, Resp
 		for articleRows.Next() {
 			var (
 				docID   string
-				article sql.NullString
+				article sql.Null[string]
 			)
 			if err := articleRows.Scan(&docID, &article); err != nil {
 				articleRows.Close()
@@ -146,7 +138,7 @@ func GetEUBasis(ctx context.Context, db *sql.DB, args map[string]any) (any, Resp
 			if !article.Valid {
 				continue
 			}
-			articlesByDoc[docID] = append(articlesByDoc[docID], article.String)
+			articlesByDoc[docID] = append(articlesByDoc[docID], article.V)
 		}
 		articleRows.Close()
 		if err := articleRows.Err(); err != nil {

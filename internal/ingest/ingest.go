@@ -24,8 +24,9 @@ const (
 	ajaxBlockPath  = "/ajax/njtGetBlock.json"
 
 	deferredBlockChunkSize  = 20
-	metadataOnlyDescription = "Metadata-only entry: section-level text could not be extracted from public njt.hu HTML for this statute."
-	discoveredDescription   = "Official Hungarian statute text from Nemzeti Jogszabalytar (njt.hu)."
+	metadataOnlyDescription = "Metadata-only entry: section-level text could not be " +
+		"extracted from public njt.hu HTML for this statute."
+	discoveredDescription = "Official Hungarian statute text from Nemzeti Jogszabalytar (njt.hu)."
 )
 
 // Options carries the CLI flags of cmd/ingest.
@@ -51,13 +52,17 @@ type Pipeline struct {
 
 // NewPipeline returns a Pipeline with production defaults.
 func NewPipeline(sourceDir, seedDir string) *Pipeline {
-	return &Pipeline{
+	p := &Pipeline{
 		BaseURL:   DefaultBaseURL,
 		SourceDir: sourceDir,
 		SeedDir:   seedDir,
 		Fetcher:   NewFetcher(),
 		Stdout:    os.Stdout,
 	}
+	// Retry lines share the pipeline's sink so an injected test harness
+	// captures them; a standalone Fetcher keeps its fmt.Printf default.
+	p.Fetcher.Logf = p.printf
+	return p
 }
 
 func (p *Pipeline) printf(format string, args ...any) {
@@ -277,7 +282,9 @@ type blockRequestBody struct {
 // HydrateDeferredBlocks fetches the deferred blocks of an act page via the
 // njtGetBlock.json endpoint and appends their HTML. Port of
 // hydrateDeferredBlocks.
-func (p *Pipeline) HydrateDeferredBlocks(ctx context.Context, html string, act ActIndexEntry, logHydration bool) (string, error) {
+func (p *Pipeline) HydrateDeferredBlocks(
+	ctx context.Context, html string, act ActIndexEntry, logHydration bool,
+) (string, error) {
 	starts := ExtractDeferredBlockStarts(html)
 	if len(starts) == 0 {
 		return html, nil
@@ -327,7 +334,8 @@ func (p *Pipeline) HydrateDeferredBlocks(ctx context.Context, html string, act A
 		appended.WriteString(resp.Body)
 	}
 
-	if logHydration && len(ranges) > 0 {
+	// ranges is never empty here: empty starts returned early above.
+	if logHydration {
 		p.printf("    -> hydrated %d deferred block ranges\n", len(ranges))
 	}
 
@@ -366,6 +374,32 @@ type ingestionRow struct {
 	status      string
 }
 
+// actRunner carries the state shared by the per-act steps of
+// FetchAndParseActs: the output pipeline, the verbose/compact logging
+// helpers and the report tallies mutated while processing each act.
+type actRunner struct {
+	p        *Pipeline
+	verbose  bool
+	progress func() string
+
+	results          []ingestionRow
+	processed        int
+	cached           int
+	failed           int
+	success          int
+	totalProvisions  int
+	totalDefinitions int
+}
+
+// log prints verboseMsg in verbose mode and compactMsg otherwise.
+func (r *actRunner) log(verboseMsg, compactMsg string) {
+	if r.verbose {
+		r.p.printf("%s\n", verboseMsg)
+	} else {
+		r.p.printf("%s\n", compactMsg)
+	}
+}
+
 // FetchAndParseActs fetches every act (unless cached) and writes its seed
 // file. Port of fetchAndParseActs.
 func (p *Pipeline) FetchAndParseActs(ctx context.Context, acts []ActIndexEntry, skipFetch, resume bool) error {
@@ -378,19 +412,8 @@ func (p *Pipeline) FetchAndParseActs(ctx context.Context, acts []ActIndexEntry, 
 		return err
 	}
 
-	processed, cached, failed := 0, 0, 0
-	totalProvisions, totalDefinitions, success := 0, 0, 0
-
-	results := []ingestionRow{}
-	verbosePerAct := len(acts) <= 20
-	progress := func() string { return fmt.Sprintf("[%d/%d]", processed+1, len(acts)) }
-	log := func(verboseMsg, compactMsg string) {
-		if verbosePerAct {
-			p.printf("%s\n", verboseMsg)
-		} else {
-			p.printf("%s\n", compactMsg)
-		}
-	}
+	r := &actRunner{p: p, verbose: len(acts) <= 20}
+	r.progress = func() string { return fmt.Sprintf("[%d/%d]", r.processed+1, len(acts)) }
 	label := func(act ActIndexEntry) string {
 		if act.ShortName != "" {
 			return act.ShortName
@@ -406,13 +429,13 @@ func (p *Pipeline) FetchAndParseActs(ctx context.Context, acts []ActIndexEntry, 
 		// Filename stems are validated before any filepath use: a hostile
 		// act URL must not steer cache/seed paths outside the data dirs.
 		if !cacheKeyPattern.MatchString(cacheKey) || !cacheKeyPattern.MatchString(act.ID) {
-			log(
+			r.log(
 				fmt.Sprintf("  ERROR %s: unsafe filename stem (act %q, cache key %q)", name, act.ID, cacheKey),
-				fmt.Sprintf("  %s %s -> ERROR: unsafe filename stem", progress(), name),
+				fmt.Sprintf("  %s %s -> ERROR: unsafe filename stem", r.progress(), name),
 			)
-			results = append(results, ingestionRow{act: name, status: "ERROR: unsafe filename stem"})
-			failed++
-			processed++
+			r.results = append(r.results, ingestionRow{act: name, status: "ERROR: unsafe filename stem"})
+			r.failed++
+			r.processed++
 			continue
 		}
 
@@ -422,118 +445,39 @@ func (p *Pipeline) FetchAndParseActs(ctx context.Context, acts []ActIndexEntry, 
 				if countsErr != nil {
 					// A corrupt cached seed must not abort the whole
 					// --resume run; re-fetch that act instead.
-					log(
+					r.log(
 						fmt.Sprintf("  WARNING: cached seed for %s is unreadable (%v), re-fetching", name, countsErr),
-						fmt.Sprintf("  %s %s -> cached seed unreadable, re-fetching", progress(), name),
+						fmt.Sprintf("  %s %s -> cached seed unreadable, re-fetching", r.progress(), name),
 					)
 				} else {
-					totalProvisions += provisions
-					totalDefinitions += definitions
-					results = append(results, ingestionRow{act: name, provisions: provisions, definitions: definitions, status: "cached"})
-					cached++
-					processed++
+					r.totalProvisions += provisions
+					r.totalDefinitions += definitions
+					r.results = append(r.results, ingestionRow{
+						act:         name,
+						provisions:  provisions,
+						definitions: definitions,
+						status:      "cached",
+					})
+					r.cached++
+					r.processed++
 					continue
 				}
 			}
 		}
 
-		err := func() error {
-			sourceFile := filepath.Join(p.SourceDir, cacheKey+".html")
-			var html string
-
-			if skipFetch {
-				if data, readErr := os.ReadFile(sourceFile); readErr == nil {
-					html = string(data)
-					log(fmt.Sprintf("  Using cached HTML for %s", name), fmt.Sprintf("  %s %s -> cached", progress(), name))
-				}
-			}
-
-			if html == "" {
-				fetchURL := p.resolveURL(act.URL)
-				if fetchURL == "" {
-					return fmt.Errorf("act url %q is not on origin %s", act.URL, p.BaseURL)
-				}
-				log(fmt.Sprintf("  Fetching %s (%s)...", name, act.URL), fmt.Sprintf("  %s %s ...", progress(), name))
-				result, fetchErr := p.Fetcher.Fetch(ctx, fetchURL, nil)
-				if fetchErr != nil {
-					return fetchErr
-				}
-				if result.Status != 200 {
-					log(fmt.Sprintf(" HTTP %d", result.Status), fmt.Sprintf("  %s %s -> HTTP %d", progress(), name, result.Status))
-					results = append(results, ingestionRow{act: name, status: fmt.Sprintf("HTTP %d", result.Status)})
-					failed++
-					return nil
-				}
-
-				html = result.Body
-				if err := writeFileAtomic(sourceFile, []byte(html), 0o644); err != nil {
-					return err
-				}
-
-				if !strings.Contains(html, "jogszabalyMainTitle") || !strings.Contains(html, `class="jhId"`) {
-					if err := writeJSONFile(seedFile, ToMetadataOnlyAct(act)); err != nil {
-						return err
-					}
-					log(" NO_SECTION_CONTENT -> METADATA_ONLY", fmt.Sprintf("  %s %s -> METADATA_ONLY (NO_SECTION_CONTENT)", progress(), name))
-					results = append(results, ingestionRow{act: name, status: "METADATA_ONLY"})
-					return nil
-				}
-
-				log(fmt.Sprintf(" OK (%d KB)", len(html)/1024), "")
-			}
-
-			hydratedHTML, err := p.HydrateDeferredBlocks(ctx, html, act, verbosePerAct)
-			if err != nil {
-				return err
-			}
-			parsed := ParseHungarianHTML(hydratedHTML, act)
-
-			if len(parsed.Provisions) == 0 {
-				metadataAct := act
-				metadataAct.Title = parsed.Title
-				if err := writeJSONFile(seedFile, ToMetadataOnlyAct(metadataAct)); err != nil {
-					return err
-				}
-
-				log("    -> 0 provisions extracted, stored as METADATA_ONLY", fmt.Sprintf("  %s %s -> METADATA_ONLY (NO_SECTION_CONTENT)", progress(), name))
-				results = append(results, ingestionRow{act: name, status: "METADATA_ONLY"})
-				return nil
-			}
-
-			if err := writeJSONFile(seedFile, parsed); err != nil {
-				return err
-			}
-
-			totalProvisions += len(parsed.Provisions)
-			totalDefinitions += len(parsed.Definitions)
-			success++
-
-			results = append(results, ingestionRow{
-				act:         name,
-				provisions:  len(parsed.Provisions),
-				definitions: len(parsed.Definitions),
-				status:      "OK",
-			})
-
-			if verbosePerAct || (processed+1)%25 == 0 {
-				log(
-					fmt.Sprintf("    -> %d provisions, %d definitions extracted", len(parsed.Provisions), len(parsed.Definitions)),
-					fmt.Sprintf("  %s ok=%d failed=%d cached=%d provisions=%d defs=%d", progress(), success, failed, cached, totalProvisions, totalDefinitions),
-				)
-			}
-			return nil
-		}()
-		if err != nil {
+		if err := r.ingestOneAct(ctx, act, name, cacheKey, seedFile, skipFetch); err != nil {
 			message := err.Error()
-			log(
+			r.log(
 				fmt.Sprintf("  ERROR %s: %s", name, truncateRunes(message, 120)),
-				fmt.Sprintf("  %s %s -> ERROR: %s", progress(), name, truncateRunes(message, 120)),
+				fmt.Sprintf("  %s %s -> ERROR: %s", r.progress(), name, truncateRunes(message, 120)),
 			)
-			results = append(results, ingestionRow{act: name, status: fmt.Sprintf("ERROR: %s", truncateRunes(message, 80))})
-			failed++
+			r.results = append(r.results, ingestionRow{
+				act: name, status: fmt.Sprintf("ERROR: %s", truncateRunes(message, 80)),
+			})
+			r.failed++
 		}
 
-		processed++
+		r.processed++
 	}
 
 	separator := strings.Repeat("=", 72)
@@ -542,24 +486,25 @@ func (p *Pipeline) FetchAndParseActs(ctx context.Context, acts []ActIndexEntry, 
 	p.printf("%s\n", separator)
 	p.printf("\n  Source:       %s\n", p.BaseURL)
 	p.printf("  Authority:    Nemzeti Jogszabalytar / Magyar Kozlony\n")
-	p.printf("  Processed:    %d\n", processed)
-	p.printf("  Cached:       %d\n", cached)
-	p.printf("  Failed:       %d\n", failed)
-	p.printf("  Provisions:   %d\n", totalProvisions)
-	p.printf("  Definitions:  %d\n", totalDefinitions)
+	p.printf("  Processed:    %d\n", r.processed)
+	p.printf("  Cached:       %d\n", r.cached)
+	p.printf("  Failed:       %d\n", r.failed)
+	p.printf("  Provisions:   %d\n", r.totalProvisions)
+	p.printf("  Definitions:  %d\n", r.totalDefinitions)
 
-	if len(results) <= 20 {
+	if len(r.results) <= 20 {
 		p.printf("\n  Per-Act breakdown:\n")
 		p.printf("  %-32s %12s %13s %16s\n", "Act", "Provisions", "Definitions", "Status")
-		p.printf("  %s %s %s %s\n", strings.Repeat("-", 32), strings.Repeat("-", 12), strings.Repeat("-", 13), strings.Repeat("-", 16))
+		p.printf("  %s %s %s %s\n",
+			strings.Repeat("-", 32), strings.Repeat("-", 12), strings.Repeat("-", 13), strings.Repeat("-", 16))
 
-		for _, result := range results {
+		for _, result := range r.results {
 			p.printf("  %-32s %12d %13d %16s\n", result.act, result.provisions, result.definitions, result.status)
 		}
 	} else {
 		metadataOnlyRows := 0
 		errorRows := []ingestionRow{}
-		for _, result := range results {
+		for _, result := range r.results {
 			switch {
 			case result.status == "METADATA_ONLY":
 				metadataOnlyRows++
@@ -567,7 +512,8 @@ func (p *Pipeline) FetchAndParseActs(ctx context.Context, acts []ActIndexEntry, 
 				errorRows = append(errorRows, result)
 			}
 		}
-		p.printf("  Window summary: %d OK, %d cached, %d metadata-only, %d failed/skipped\n", success, cached, metadataOnlyRows, failed)
+		p.printf("  Window summary: %d OK, %d cached, %d metadata-only, %d failed/skipped\n",
+			r.success, r.cached, metadataOnlyRows, r.failed)
 		if metadataOnlyRows > 0 {
 			p.printf("  Metadata-only entries in this window: %d\n", metadataOnlyRows)
 		}
@@ -583,8 +529,111 @@ func (p *Pipeline) FetchAndParseActs(ctx context.Context, acts []ActIndexEntry, 
 		}
 	}
 	p.printf("\n")
-	if failed > 0 {
-		return fmt.Errorf("%d of %d acts failed", failed, len(acts))
+	if r.failed > 0 {
+		return fmt.Errorf("%d of %d acts failed", r.failed, len(acts))
+	}
+	return nil
+}
+
+// ingestOneAct fetches (or reuses the cached) HTML for one act, hydrates the
+// deferred blocks, parses it and writes the seed file, appending the report
+// row. The returned error is a fetch/parse/write failure; the caller logs it
+// and records the ERROR row. Extracted from the former per-act closure.
+func (r *actRunner) ingestOneAct(
+	ctx context.Context, act ActIndexEntry, name, cacheKey, seedFile string, skipFetch bool,
+) error {
+	p := r.p
+	sourceFile := filepath.Join(p.SourceDir, cacheKey+".html")
+	var html string
+
+	if skipFetch {
+		if data, readErr := os.ReadFile(sourceFile); readErr == nil {
+			html = string(data)
+			if r.verbose {
+				p.printf("  Using cached HTML for %s\n", name)
+			} else {
+				p.printf("  %s %s -> cached\n", r.progress(), name)
+			}
+		}
+	}
+
+	if html == "" {
+		fetchURL := p.resolveURL(act.URL)
+		if fetchURL == "" {
+			return fmt.Errorf("act url %q is not on origin %s", act.URL, p.BaseURL)
+		}
+		r.log(fmt.Sprintf("  Fetching %s (%s)...", name, act.URL), fmt.Sprintf("  %s %s ...", r.progress(), name))
+		result, fetchErr := p.Fetcher.Fetch(ctx, fetchURL, nil)
+		if fetchErr != nil {
+			return fetchErr
+		}
+		if result.Status != 200 {
+			r.log(fmt.Sprintf(" HTTP %d", result.Status),
+				fmt.Sprintf("  %s %s -> HTTP %d", r.progress(), name, result.Status))
+			r.results = append(r.results, ingestionRow{act: name, status: fmt.Sprintf("HTTP %d", result.Status)})
+			r.failed++
+			return nil
+		}
+
+		html = result.Body
+		if err := writeFileAtomic(sourceFile, []byte(html), 0o644); err != nil {
+			return err
+		}
+
+		if !strings.Contains(html, "jogszabalyMainTitle") || !strings.Contains(html, `class="jhId"`) {
+			if err := writeJSONFile(seedFile, ToMetadataOnlyAct(act)); err != nil {
+				return err
+			}
+			r.log(" NO_SECTION_CONTENT -> METADATA_ONLY",
+				fmt.Sprintf("  %s %s -> METADATA_ONLY (NO_SECTION_CONTENT)", r.progress(), name))
+			r.results = append(r.results, ingestionRow{act: name, status: "METADATA_ONLY"})
+			return nil
+		}
+
+		r.log(fmt.Sprintf(" OK (%d KB)", len(html)/1024), "")
+	}
+
+	hydratedHTML, err := p.HydrateDeferredBlocks(ctx, html, act, r.verbose)
+	if err != nil {
+		return err
+	}
+	parsed := ParseHungarianHTML(hydratedHTML, act)
+
+	if len(parsed.Provisions) == 0 {
+		metadataAct := act
+		metadataAct.Title = parsed.Title
+		if err := writeJSONFile(seedFile, ToMetadataOnlyAct(metadataAct)); err != nil {
+			return err
+		}
+
+		r.log("    -> 0 provisions extracted, stored as METADATA_ONLY",
+			fmt.Sprintf("  %s %s -> METADATA_ONLY (NO_SECTION_CONTENT)", r.progress(), name))
+		r.results = append(r.results, ingestionRow{act: name, status: "METADATA_ONLY"})
+		return nil
+	}
+
+	if err := writeJSONFile(seedFile, parsed); err != nil {
+		return err
+	}
+
+	r.totalProvisions += len(parsed.Provisions)
+	r.totalDefinitions += len(parsed.Definitions)
+	r.success++
+
+	r.results = append(r.results, ingestionRow{
+		act:         name,
+		provisions:  len(parsed.Provisions),
+		definitions: len(parsed.Definitions),
+		status:      "OK",
+	})
+
+	if r.verbose || (r.processed+1)%25 == 0 {
+		r.log(
+			fmt.Sprintf("    -> %d provisions, %d definitions extracted",
+				len(parsed.Provisions), len(parsed.Definitions)),
+			fmt.Sprintf("  %s ok=%d failed=%d cached=%d provisions=%d defs=%d",
+				r.progress(), r.success, r.failed, r.cached, r.totalProvisions, r.totalDefinitions),
+		)
 	}
 	return nil
 }

@@ -13,7 +13,7 @@ func TestBuildLegalStanceEmptyQuery(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	out, err := runBuildLegalStanceJSON(t, db, `{"query": ""}`)
+	out, err := runHandlerJSON(t, BuildLegalStance, db, `{"query": ""}`)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -26,7 +26,7 @@ func TestBuildLegalStanceFindsMatches(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	out, err := runBuildLegalStanceJSON(t, db, `{"query": "személyes adat", "limit": 100}`)
+	out, err := runHandlerJSON(t, BuildLegalStance, db, `{"query": "személyes adat", "limit": 100}`)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -58,7 +58,7 @@ func TestBuildLegalStanceLimitCap(t *testing.T) {
 	}
 
 	// limit 100 clamps to 20 — the search core's cap of 50 must not apply.
-	out, err := runBuildLegalStanceJSON(t, db, `{"query": "Korlátozó rendelkezés", "limit": 100}`)
+	out, err := runHandlerJSON(t, BuildLegalStance, db, `{"query": "Korlátozó rendelkezés", "limit": 100}`)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -77,7 +77,7 @@ func TestBuildLegalStanceDocumentFilter(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	out, err := runBuildLegalStanceJSON(t, db, `{"query": "adat", "document_id": "doc-inforce", "limit": 2}`)
+	out, err := runHandlerJSON(t, BuildLegalStance, db, `{"query": "adat", "document_id": "doc-inforce", "limit": 2}`)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -101,7 +101,7 @@ func TestBuildLegalStanceStripsChapter(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	out, err := runBuildLegalStanceJSON(t, db, `{"query": "személyes"}`)
+	out, err := runHandlerJSON(t, BuildLegalStance, db, `{"query": "személyes"}`)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -109,7 +109,7 @@ func TestBuildLegalStanceStripsChapter(t *testing.T) {
 		t.Errorf("chapter key must be stripped: %s", out)
 	}
 	// The search tool keeps it — the two result types really differ.
-	searchOut, err := runSearchRaw(t, db, `{"query": "személyes"}`)
+	searchOut, err := runHandlerJSON(t, SearchLegislation, db, `{"query": "személyes"}`)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -123,7 +123,7 @@ func TestBuildLegalStanceDegradedOnClosedDb(t *testing.T) {
 	db := storetest.NewTestDb(t)
 	db.Close()
 
-	out, err := runBuildLegalStanceJSON(t, db, `{"query": "adat"}`)
+	out, err := runHandlerJSON(t, BuildLegalStance, db, `{"query": "adat"}`)
 	if err != nil {
 		t.Fatalf("closed db must degrade, not error: %v", err)
 	}

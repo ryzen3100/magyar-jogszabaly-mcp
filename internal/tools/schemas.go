@@ -69,6 +69,15 @@ func validateArgs(checks ...error) error {
 	return nil
 }
 
+// checkRequired reports the missing-argument error for a schema-required
+// field the decoded args left absent.
+func checkRequired[T any](name string, v *T) error {
+	if v == nil {
+		return fmt.Errorf("missing required argument %q", name)
+	}
+	return nil
+}
+
 // checkMaxLength enforces a schema maxLength on a decoded string argument.
 func checkMaxLength(name string, v *string, maxLength int) error {
 	if v != nil && utf8.RuneCountInString(*v) > maxLength {
@@ -141,7 +150,8 @@ var getProvisionSchema = &jsonschema.Schema{
 var validateCitationSchema = &jsonschema.Schema{
 	Type: "object",
 	Properties: map[string]*jsonschema.Schema{
-		"citation": str("Citation string to validate. Examples: \"2011. évi CXII. törvény 3. §\", \"act-cxii-2011-info-self-determination s 3\".", maxCitationLength),
+		"citation": str("Citation string to validate. Examples: \"2011. évi CXII. törvény 3. §\", "+
+			"\"act-cxii-2011-info-self-determination s 3\".", maxCitationLength),
 	},
 	PropertyOrder: []string{"citation"},
 	Required:      []string{"citation"},
@@ -150,7 +160,8 @@ var validateCitationSchema = &jsonschema.Schema{
 var buildLegalStanceSchema = &jsonschema.Schema{
 	Type: "object",
 	Properties: map[string]*jsonschema.Schema{
-		"query":       str("Legal question or topic to research (e.g., \"personal information\", \"critical infrastructure\").", maxQueryLength),
+		"query": str("Legal question or topic to research "+
+			"(e.g., \"personal information\", \"critical infrastructure\").", maxQueryLength),
 		"document_id": str("Optional: limit search to one statute by document ID.", maxDocumentIDLength),
 		"limit":       num("Max results per category (default: 5, max: 20).", "5"),
 	},
@@ -202,9 +213,10 @@ var getEUBasisSchema = &jsonschema.Schema{
 var getHungarianImplementationsSchema = &jsonschema.Schema{
 	Type: "object",
 	Properties: map[string]*jsonschema.Schema{
-		"eu_document_id": str("EU document ID (e.g., \"regulation:2016/679\" for GDPR, \"directive:2022/2555\" for NIS2).", maxEuDocumentIDLength),
-		"primary_only":   boolean("Return only primary referencing statutes (default: false).", "false"),
-		"in_force_only":  boolean("Return only currently in-force statutes (default: false).", "false"),
+		"eu_document_id": str("EU document ID (e.g., \"regulation:2016/679\" for GDPR, "+
+			"\"directive:2022/2555\" for NIS2).", maxEuDocumentIDLength),
+		"primary_only":  boolean("Return only primary referencing statutes (default: false).", "false"),
+		"in_force_only": boolean("Return only currently in-force statutes (default: false).", "false"),
 	},
 	PropertyOrder: []string{"eu_document_id", "primary_only", "in_force_only"},
 	Required:      []string{"eu_document_id"},

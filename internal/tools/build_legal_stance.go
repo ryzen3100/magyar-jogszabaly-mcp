@@ -28,7 +28,9 @@ type LegalStanceResult struct {
 	Relevance     float64 `json:"relevance"`
 }
 
-// BuildLegalStance is the exported handler for build_legal_stance.
+// BuildLegalStance is the exported handler for build_legal_stance. Empty
+// results and _metadata.note semantics follow runSearch: only an unresolved
+// document_id or an all-tiers-failed search carries a note.
 func BuildLegalStance(ctx context.Context, db *sql.DB, args map[string]any) (any, ResponseMetadata, error) {
 	var parsed stanceArgs
 	if err := decodeArgs(args, &parsed); err != nil {

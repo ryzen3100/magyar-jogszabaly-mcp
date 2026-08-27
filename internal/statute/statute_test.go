@@ -123,6 +123,7 @@ func TestParseHungarianReference(t *testing.T) {
 }
 
 func TestResolveDocumentId(t *testing.T) {
+	t.Parallel()
 	db := newTestDB(t)
 	tests := []struct {
 		name  string
@@ -159,6 +160,7 @@ func TestResolveDocumentId(t *testing.T) {
 // Replicates the TS test: even with case_sensitive_like ON, the LOWER()
 // fallback still folds ASCII case.
 func TestResolveDocumentIdCaseInsensitiveTitleFallback(t *testing.T) {
+	t.Parallel()
 	db := newTestDB(t)
 
 	if _, err := db.Exec(`PRAGMA case_sensitive_like = ON`); err != nil {

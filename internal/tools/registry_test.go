@@ -14,9 +14,11 @@ import (
 
 // callDispatch drives the registry dispatcher with a raw call, like the TS
 // registry tests do through the mock server.
-func callDispatch(t *testing.T, db *sql.DB, about *AboutContext, handlers map[string]Handler, name string, args json.RawMessage) *mcp.CallToolResult {
+func callDispatch(
+	t *testing.T, db *sql.DB, about *AboutContext, handlers map[string]Handler, name string, args json.RawMessage,
+) *mcp.CallToolResult {
 	t.Helper()
-	result, err := dispatch(db, about, handlers)(context.Background(), &mcp.CallToolRequest{
+	result, err := dispatch(db, about, handlers)(t.Context(), &mcp.CallToolRequest{
 		Params: &mcp.CallToolParamsRaw{Name: name, Arguments: args},
 	})
 	if err != nil {
@@ -87,7 +89,10 @@ func TestDispatchSuccessEnvelope(t *testing.T) {
 
 	handlers := map[string]Handler{
 		"search_legislation": func(ctx context.Context, db *sql.DB, _ map[string]any) (any, ResponseMetadata, error) {
-			return []SearchLegislationResult{{DocumentID: "doc-inforce", DocumentTitle: "In Force Act", ProvisionRef: "s1", Section: "1", Snippet: "snip", Relevance: -1.5}}, GenerateResponseMetadata(ctx, db), nil
+			return []SearchLegislationResult{{
+				DocumentID: "doc-inforce", DocumentTitle: "In Force Act", ProvisionRef: "s1",
+				Section: "1", Snippet: "snip", Relevance: -1.5,
+			}}, GenerateResponseMetadata(ctx, db), nil
 		},
 	}
 	res := callDispatch(t, db, nil, handlers, "search_legislation", json.RawMessage(`{"query":"x"}`))
@@ -161,7 +166,7 @@ func TestHandlersCoverAllNonAboutTools(t *testing.T) {
 
 func TestMarshalResponseOmitsEmptyOptionals(t *testing.T) {
 	t.Parallel()
-	meta := GenerateResponseMetadata(context.Background(), storetest.NewTestDb(t))
+	meta := GenerateResponseMetadata(t.Context(), storetest.NewTestDb(t))
 	out := MarshalResponse([]any{}, meta)
 	want := `{"results":[],"_metadata":{"data_source":` + quoteJSON(meta.DataSource) +
 		`,"jurisdiction":"HU","disclaimer":` + quoteJSON(meta.Disclaimer) +
@@ -173,7 +178,7 @@ func TestMarshalResponseOmitsEmptyOptionals(t *testing.T) {
 
 func TestMarshalResponseIncludesNoteAndStrategy(t *testing.T) {
 	t.Parallel()
-	meta := GenerateResponseMetadata(context.Background(), storetest.NewTestDb(t))
+	meta := GenerateResponseMetadata(t.Context(), storetest.NewTestDb(t))
 	meta.Note = "n"
 	meta.QueryStrategy = "broadened"
 	out := MarshalResponse(map[string]any{}, meta)
@@ -215,11 +220,11 @@ func connectTools(t *testing.T, db *sql.DB, about *AboutContext) *mcp.ClientSess
 	serverTransport, clientTransport := mcp.NewInMemoryTransports()
 	s := mcp.NewServer(&mcp.Implementation{Name: "test", Version: "0"}, nil)
 	Register(s, db, about)
-	if _, err := s.Connect(context.Background(), serverTransport, nil); err != nil {
+	if _, err := s.Connect(t.Context(), serverTransport, nil); err != nil {
 		t.Fatalf("connect server: %v", err)
 	}
 	client := mcp.NewClient(&mcp.Implementation{Name: "test-client", Version: "0"}, nil)
-	cs, err := client.Connect(context.Background(), clientTransport, nil)
+	cs, err := client.Connect(t.Context(), clientTransport, nil)
 	if err != nil {
 		t.Fatalf("connect client: %v", err)
 	}
@@ -231,7 +236,7 @@ func TestRegisterAllThirteenTools(t *testing.T) {
 	t.Parallel()
 	cs := connectTools(t, storetest.NewTestDb(t), &AboutContext{Version: "1.0.0"})
 
-	res, err := cs.ListTools(context.Background(), nil)
+	res, err := cs.ListTools(t.Context(), nil)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -261,7 +266,7 @@ func TestRegisterNilAboutSkipsAboutTool(t *testing.T) {
 	t.Parallel()
 	cs := connectTools(t, storetest.NewTestDb(t), nil)
 
-	res, err := cs.ListTools(context.Background(), nil)
+	res, err := cs.ListTools(t.Context(), nil)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -364,14 +369,15 @@ func TestSchemaRequiredMatchesHandlerEnforcement(t *testing.T) {
 				}
 				args[other] = v
 			}
-			_, _, err := h(context.Background(), db, args)
+			_, _, err := h(t.Context(), db, args)
 			if lenientRequired[def.name] {
 				if err != nil {
 					t.Errorf("%s: omitting %q must degrade to empty results, got %v", def.name, req, err)
 				}
 				continue
 			}
-			if err == nil || !strings.Contains(err.Error(), "missing required argument") || !strings.Contains(err.Error(), `"`+req+`"`) {
+			if err == nil || !strings.Contains(err.Error(), "missing required argument") ||
+				!strings.Contains(err.Error(), `"`+req+`"`) {
 				t.Errorf("%s: omitting required %q → err %v, want missing-argument error naming it", def.name, req, err)
 			}
 		}
@@ -387,13 +393,13 @@ func TestSchemaRequiredMatchesHandlerEnforcement(t *testing.T) {
 			}
 			args[req] = v
 		}
-		if _, _, err := h(context.Background(), db, args); err != nil && strings.Contains(err.Error(), "missing required argument") {
+		if _, _, err := h(t.Context(), db, args); err != nil && strings.Contains(err.Error(), "missing required argument") {
 			t.Errorf("%s: handler enforces a missing argument the schema does not require: %v", def.name, err)
 		}
 
 		// Empty args: required-carrying tools (except the lenient two) must
 		// fail their guard; the rest must sail through.
-		_, _, err := h(context.Background(), db, map[string]any{})
+		_, _, err := h(t.Context(), db, map[string]any{})
 		switch {
 		case len(schema.Required) > 0 && !lenientRequired[def.name]:
 			if err == nil || !strings.Contains(err.Error(), "missing required argument") {

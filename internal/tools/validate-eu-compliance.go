@@ -30,16 +30,15 @@ type euComplianceResult struct {
 
 // ValidateEUCompliance implements the validate_eu_compliance MCP tool. The
 // decision ladder reproduces the TS order exactly: unresolved doc → EU probe
-// fail → zero references → repealed → status distribution.
+// fail → zero references → repealed → status distribution. It always returns
+// a singular result — never empty results — and _metadata.note stays unset.
 func ValidateEUCompliance(ctx context.Context, db *sql.DB, args map[string]any) (any, ResponseMetadata, error) {
 	var parsed validateEUComplianceArgs
 	if err := decodeArgs(args, &parsed); err != nil {
 		return nil, ResponseMetadata{}, err
 	}
-	if parsed.DocumentID == nil {
-		return nil, ResponseMetadata{}, fmt.Errorf("missing required argument %q", "document_id")
-	}
 	if err := validateArgs(
+		checkRequired("document_id", parsed.DocumentID),
 		checkMaxLength("document_id", parsed.DocumentID, maxDocumentIDLength),
 		checkMaxLength("eu_document_id", parsed.EuDocumentID, maxEuDocumentIDLength),
 	); err != nil {
@@ -62,9 +61,9 @@ func ValidateEUCompliance(ctx context.Context, db *sql.DB, args map[string]any) 
 		}, GenerateResponseMetadata(ctx, db), nil
 	}
 
-	var docID, docTitle, docStatus string
-	if err := db.QueryRowContext(ctx, "SELECT id, title, status FROM legal_documents WHERE id = ?", resolvedID).
-		Scan(&docID, &docTitle, &docStatus); err != nil {
+	var docTitle, docStatus string
+	if err := db.QueryRowContext(ctx, "SELECT title, status FROM legal_documents WHERE id = ?", resolvedID).
+		Scan(&docTitle, &docStatus); err != nil {
 		return nil, ResponseMetadata{}, fmt.Errorf("query document: %w", err)
 	}
 
@@ -98,7 +97,8 @@ func ValidateEUCompliance(ctx context.Context, db *sql.DB, args map[string]any) 
 			EuReferencesFound: 0,
 			Warnings:          []string{},
 			Recommendations: []string{
-				"No EU cross-references found for this Hungarian statute. Hungary is an EU Member State; EU references indicate transposition obligations.",
+				"No EU cross-references found for this Hungarian statute. " +
+					"Hungary is an EU Member State; EU references indicate transposition obligations.",
 			},
 		}, GenerateResponseMetadata(ctx, db), nil
 	}
@@ -114,9 +114,9 @@ func ValidateEUCompliance(ctx context.Context, db *sql.DB, args map[string]any) 
 	// The status distribution is intentionally NOT filtered by
 	// eu_document_id — same quirk as the TS original: the count above is
 	// filtered, this GROUP BY is not.
-	statusRows, err := db.QueryContext(
-		ctx,
-		"SELECT implementation_status, COUNT(*) as count FROM eu_references WHERE document_id = ? GROUP BY implementation_status",
+	statusRows, err := db.QueryContext(ctx,
+		"SELECT implementation_status, COUNT(*) as count FROM eu_references "+
+			"WHERE document_id = ? GROUP BY implementation_status",
 		resolvedID)
 	if err != nil {
 		return nil, ResponseMetadata{}, fmt.Errorf("query status distribution: %w", err)
@@ -124,7 +124,7 @@ func ValidateEUCompliance(ctx context.Context, db *sql.DB, args map[string]any) 
 	statusCounts := map[string]int{}
 	for statusRows.Next() {
 		var (
-			status sql.NullString
+			status sql.Null[string]
 			n      int
 		)
 		if err := statusRows.Scan(&status, &n); err != nil {
@@ -133,7 +133,7 @@ func ValidateEUCompliance(ctx context.Context, db *sql.DB, args map[string]any) 
 		}
 		key := ""
 		if status.Valid {
-			key = status.String
+			key = status.V
 		}
 		statusCounts[key] = n
 	}

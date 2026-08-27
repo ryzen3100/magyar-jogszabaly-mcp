@@ -166,7 +166,8 @@ func TestGetEUBasisEUTablesUnavailable(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	if _, metaMap := euEnvelope(t, tools.MarshalResponse(results, meta)); metaMap["note"] != "EU references not available in this database tier" {
+	_, metaMap := euEnvelope(t, tools.MarshalResponse(results, meta))
+	if metaMap["note"] != "EU references not available in this database tier" {
 		t.Fatalf("note = %v", metaMap["note"])
 	}
 }
