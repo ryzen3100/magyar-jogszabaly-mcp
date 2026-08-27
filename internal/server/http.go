@@ -218,12 +218,11 @@ func newHTTPHandler(db *sql.DB, about *tools.AboutContext, start time.Time, icon
 
 	mcpHandler := mcp.NewStreamableHTTPHandler(func(*http.Request) *mcp.Server {
 		return sessionServer(db, about)
-	}, nil)
-	// ponytail: the TS server hand-rolled a 500-session cap, 30-min idle TTL
-	// sweep and oldest-eviction around its transport; the SDK's
-	// StreamableHTTPHandler owns session lifecycle now. If abandoned-session
-	// memory ever matters, set StreamableHTTPOptions.SessionTimeout to
-	// restore the TTL half.
+	}, &mcp.StreamableHTTPOptions{SessionTimeout: 30 * time.Minute}) // matches the TS server's 30-min idle sweep
+	// ponytail: the TS server also hand-rolled a 500-session hard cap with
+	// oldest-eviction; the SDK exposes no cap, only this timeout — idle
+	// sessions can still accumulate under sustained load. Upgrade path: a
+	// counting wrapper around the handler if a public deployment ever needs it.
 
 	// /health COUNT pair is expensive on a large readonly DB — compute once on
 	// the first fully successful probe; failures and stub/empty results retry.

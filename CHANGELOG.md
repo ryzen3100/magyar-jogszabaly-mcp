@@ -12,7 +12,7 @@ All notable changes to this project will be documented in this file.
 ### Behavioral changes
 - Missing-required-argument tool errors now return `Error: missing required argument "x"` instead of a leaked TypeError message
 - Unknown tools/prompts/resources are rejected by the SDK as JSON-RPC errors instead of TS's in-band text envelopes
-- HTTP session cap/TTL is now SDK-managed (the TS 500-session cap with a 30-minute sweep is gone)
+- HTTP idle sessions are closed by the SDK after 30 minutes (matching the TS server's TTL sweep); the TS 500-session hard cap with oldest-eviction has no SDK equivalent and was dropped
 - Rebuilt databases iterate seed files in sorted order, so provision rowids differ from TS-built databases (content identical; logical parity verified 14/14 with `tools/parity/compare_db.py`)
 - Go-built databases contain all 109 EU references; the stock TS builder silently dropped ~17 to a driver statement-reset bug (TS with its own workaround also yields 109)
 - `cmd/ingest` adds `-base-url` and `-data-dir` flags
