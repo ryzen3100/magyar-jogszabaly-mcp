@@ -97,8 +97,7 @@ func GetAbout(ctx context.Context, db *sql.DB, about *AboutContext) (any, Respon
 		Definitions: store.CachedCount(ctx, db, "SELECT COUNT(*) as count FROM definitions"),
 	}
 	if euRefs > 0 {
-		euDocuments := store.CachedCount(ctx, db, "SELECT COUNT(*) as count FROM eu_documents")
-		stats.EUDocuments = &euDocuments
+		stats.EUDocuments = new(store.CachedCount(ctx, db, "SELECT COUNT(*) as count FROM eu_documents"))
 		stats.EUReferences = &euRefs
 	}
 

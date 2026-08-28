@@ -383,8 +383,7 @@ func nullStringPtr(ns sql.Null[string]) *string {
 	if !ns.Valid {
 		return nil
 	}
-	s := ns.V
-	return &s
+	return new(ns.V)
 }
 
 // clampLimit ports Math.min(Math.max(limit ?? def, 1), max). JSON numbers

@@ -1,7 +1,6 @@
 package tools
 
 import (
-	"context"
 	"strings"
 	"testing"
 
@@ -110,7 +109,7 @@ func TestValidateCitationUnknownDocument(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	results, meta, err := ValidateCitation(context.Background(), db, testArgs(t, `{"citation": "Section 1 Missing Act"}`))
+	results, meta, err := ValidateCitation(t.Context(), db, testArgs(t, `{"citation": "Section 1 Missing Act"}`))
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -168,7 +167,7 @@ func TestValidateCitationProvisionNotFound(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	results, _, err := ValidateCitation(context.Background(), db, testArgs(t, `{"citation": "Section 999 In Force Act"}`))
+	results, _, err := ValidateCitation(t.Context(), db, testArgs(t, `{"citation": "Section 999 In Force Act"}`))
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -213,7 +212,7 @@ func TestValidateCitationStatusWarningBeforeProvisionCheck(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	results, _, err := ValidateCitation(context.Background(), db, testArgs(t, `{"citation": "Repealed Act s 99"}`))
+	results, _, err := ValidateCitation(t.Context(), db, testArgs(t, `{"citation": "Repealed Act s 99"}`))
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -239,7 +238,7 @@ func TestValidateCitationMissingRequiredArg(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	_, _, err := ValidateCitation(context.Background(), db, testArgs(t, `{}`))
+	_, _, err := ValidateCitation(t.Context(), db, testArgs(t, `{}`))
 	if err == nil || err.Error() != `missing required argument "citation"` {
 		t.Errorf("err = %v, want missing required argument", err)
 	}

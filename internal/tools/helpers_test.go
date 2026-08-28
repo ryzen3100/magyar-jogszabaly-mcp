@@ -3,7 +3,6 @@
 package tools
 
 import (
-	"context"
 	"database/sql"
 	"encoding/json"
 	"strings"
@@ -29,7 +28,7 @@ func testArgs(t *testing.T, raw string) map[string]any {
 // marshaled response envelope — the shared runner behind every handler test.
 func runHandlerJSON(t *testing.T, h Handler, db *sql.DB, rawArgs string) (string, error) {
 	t.Helper()
-	results, meta, err := h(context.Background(), db, testArgs(t, rawArgs))
+	results, meta, err := h(t.Context(), db, testArgs(t, rawArgs))
 	if err != nil {
 		return "", err
 	}

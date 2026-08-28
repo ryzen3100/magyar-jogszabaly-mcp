@@ -1,7 +1,6 @@
 package tools
 
 import (
-	"context"
 	"strings"
 	"testing"
 
@@ -118,7 +117,7 @@ func TestFormatCitationMissingRequiredArg(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	_, _, err := FormatCitation(context.Background(), db, testArgs(t, `{}`))
+	_, _, err := FormatCitation(t.Context(), db, testArgs(t, `{}`))
 	if err == nil || err.Error() != `missing required argument "citation"` {
 		t.Errorf("err = %v, want missing required argument", err)
 	}

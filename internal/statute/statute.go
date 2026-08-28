@@ -30,7 +30,7 @@ var romanValues = map[byte]int{'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 
 func RomanToArabic(roman string) int {
 	upper := strings.ToUpper(roman)
 	result := 0
-	for i := 0; i < len(upper); i++ {
+	for i := range len(upper) {
 		current := romanValues[upper[i]]
 		next := 0
 		if i+1 < len(upper) {

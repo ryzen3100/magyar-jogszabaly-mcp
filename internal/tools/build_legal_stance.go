@@ -46,12 +46,10 @@ func BuildLegalStance(ctx context.Context, db *sql.DB, args map[string]any) (any
 	// Math.min(Math.max(input.limit ?? 5, 1), 20) — the search core re-clamps
 	// to its own [1,50], which is a no-op after this.
 	limit := clampLimit(parsed.Limit, 5, 20)
-	limitF := float64(limit)
-
 	response, meta, err := runSearch(ctx, db, searchArgs{
 		Query:      parsed.Query,
 		DocumentID: parsed.DocumentID,
-		Limit:      &limitF,
+		Limit:      new(float64(limit)),
 	})
 	if err != nil {
 		return nil, ResponseMetadata{}, err

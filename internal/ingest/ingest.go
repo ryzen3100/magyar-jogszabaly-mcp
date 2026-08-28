@@ -143,7 +143,7 @@ func (p *Pipeline) Run(ctx context.Context, opts Options) error {
 		p.printf("  Ingestion act list: %d (includes compatibility aliases where needed)\n", len(acts))
 		p.printf("  Discovery cache: %s\n", p.discoveryCachePath(opts.InForceOnly))
 	} else {
-		acts = append([]ActIndexEntry(nil), KeyHungarianActs...)
+		acts = slices.Clone(KeyHungarianActs)
 	}
 
 	if opts.DiscoverOnly {
@@ -305,10 +305,7 @@ func (p *Pipeline) HydrateDeferredBlocks(
 
 	var appended strings.Builder
 	for i := 0; i < len(ranges); i += deferredBlockChunkSize {
-		end := i + deferredBlockChunkSize
-		if end > len(ranges) {
-			end = len(ranges)
-		}
+		end := min(i+deferredBlockChunkSize, len(ranges))
 
 		payload, err := json.Marshal(blockRequestBody{DocumentID: documentID, Data: ranges[i:end]})
 		if err != nil {

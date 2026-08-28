@@ -57,9 +57,9 @@ func TestExtractEUReferences(t *testing.T) {
 			[]EURef{{
 				Type: "regulation", Community: "EC", Year: 2006, Number: 561,
 				EUDocumentID: "regulation:2006/561", EUArticle: "",
-				FullCitation: "Regulation (EC) No 561/2006",
+				FullCitation:     "Regulation (EC) No 561/2006",
 				ReferenceContext: "Regulation (EC) No 561/2006",
-				ReferenceType: "references",
+				ReferenceType:    "references",
 			}},
 		},
 		{
@@ -70,9 +70,9 @@ func TestExtractEUReferences(t *testing.T) {
 			[]EURef{{
 				Type: "regulation", Community: "EEC", Year: 1985, Number: 3821,
 				EUDocumentID: "regulation:1985/3821", EUArticle: "",
-				FullCitation: "Regulation (EEC) No 3821/85",
+				FullCitation:     "Regulation (EEC) No 3821/85",
 				ReferenceContext: "Regulation (EEC) No 3821/85",
-				ReferenceType: "references",
+				ReferenceType:    "references",
 			}},
 		},
 		{
@@ -84,9 +84,9 @@ func TestExtractEUReferences(t *testing.T) {
 			[]EURef{{
 				Type: "regulation", Community: "EC", Year: 1997, Number: 9999,
 				EUDocumentID: "regulation:1997/9999", EUArticle: "",
-				FullCitation: "Regulation (EC) No 9999/97",
+				FullCitation:     "Regulation (EC) No 9999/97",
 				ReferenceContext: "Regulation (EC) No 9999/97",
-				ReferenceType: "references",
+				ReferenceType:    "references",
 			}},
 		},
 		{
@@ -98,9 +98,9 @@ func TestExtractEUReferences(t *testing.T) {
 			[]EURef{{
 				Type: "regulation", Community: "EU", Year: 1995, Number: 93,
 				EUDocumentID: "regulation:1995/93", EUArticle: "",
-				FullCitation: "Regulation 95/93",
+				FullCitation:     "Regulation 95/93",
 				ReferenceContext: "Regulation 95/93",
-				ReferenceType: "references",
+				ReferenceType:    "references",
 			}},
 		},
 		{"zero number skipped", "Directive 2019/0 vég", nil},

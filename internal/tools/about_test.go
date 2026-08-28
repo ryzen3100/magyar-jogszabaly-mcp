@@ -4,7 +4,6 @@ package tools
 // tests/tools/other-tools.test.ts.
 
 import (
-	"context"
 	"strings"
 	"testing"
 
@@ -20,7 +19,7 @@ func TestGetAboutPopulated(t *testing.T) {
 		DBBuilt:     "2026-02-21T00:00:00Z",
 	}
 
-	results, meta, err := GetAbout(context.Background(), db, about)
+	results, meta, err := GetAbout(t.Context(), db, about)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -116,7 +115,7 @@ func TestGetAboutStatsKeyOrder(t *testing.T) {
 	db := storetest.NewTestDb(t)
 	about := &AboutContext{Version: "1.0.0", Fingerprint: "fp", DBBuilt: "2026-02-21T00:00:00Z"}
 
-	results, meta, err := GetAbout(context.Background(), db, about)
+	results, meta, err := GetAbout(t.Context(), db, about)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -144,7 +143,7 @@ func TestGetAboutMissingOptionalTables(t *testing.T) {
 	euDropTable(t, db, "eu_references")
 	about := &AboutContext{Version: "1.0.0", Fingerprint: "fp", DBBuilt: "2026-02-21T00:00:00Z"}
 
-	results, meta, err := GetAbout(context.Background(), db, about)
+	results, meta, err := GetAbout(t.Context(), db, about)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -172,7 +171,7 @@ func TestGetAboutNilContext(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	if _, _, err := GetAbout(context.Background(), db, nil); err == nil {
+	if _, _, err := GetAbout(t.Context(), db, nil); err == nil {
 		t.Fatal("expected error for nil about context")
 	}
 }
@@ -184,7 +183,7 @@ func TestGetAboutClosedDB(t *testing.T) {
 
 	// CachedCount degrades to 0 on a closed db — never throws.
 	about := &AboutContext{Version: "1.0.0", Fingerprint: "fp", DBBuilt: "2026-02-21T00:00:00Z"}
-	results, _, err := GetAbout(context.Background(), db, about)
+	results, _, err := GetAbout(t.Context(), db, about)
 	if err != nil {
 		t.Fatalf("closed db must degrade, not error: %v", err)
 	}

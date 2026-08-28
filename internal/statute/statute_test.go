@@ -1,7 +1,6 @@
 package statute
 
 import (
-	"context"
 	"database/sql"
 	"testing"
 
@@ -146,7 +145,7 @@ func TestResolveDocumentID(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			got, err := ResolveDocumentID(context.Background(), db, tt.input)
+			got, err := ResolveDocumentID(t.Context(), db, tt.input)
 			if err != nil {
 				t.Fatalf("ResolveDocumentID(%q) error: %v", tt.input, err)
 			}
@@ -170,7 +169,7 @@ func TestResolveDocumentIDCaseInsensitiveTitleFallback(t *testing.T) {
 		t.Fatalf("update: %v", err)
 	}
 
-	got, err := ResolveDocumentID(context.Background(), db, "mixedcase act")
+	got, err := ResolveDocumentID(t.Context(), db, "mixedcase act")
 	if err != nil {
 		t.Fatalf("ResolveDocumentID error: %v", err)
 	}

@@ -5,6 +5,7 @@
 package server
 
 import (
+	"cmp"
 	"context"
 	"fmt"
 
@@ -44,23 +45,16 @@ func renderPrompt(_ context.Context, req *mcp.GetPromptRequest) (*mcp.GetPromptR
 	case "legal_review":
 		text = fmt.Sprintf(
 			"Review the following Hungarian legal document for compliance issues, risks, and missing elements.\n\nFocus area: %s\n\nDocument:\n%s",
-			orDefault(args["focus_area"], "all"),
-			orDefault(args["document_text"], "(no document provided)"))
+			cmp.Or(args["focus_area"], "all"),
+			cmp.Or(args["document_text"], "(no document provided)"))
 	case "legal_research":
 		text = fmt.Sprintf(
 			"Research this Hungarian legal question using the legislation database. Cite specific provisions with section numbers.\n\nQuestion: %s",
-			orDefault(args["question"], "(no question provided)"))
+			cmp.Or(args["question"], "(no question provided)"))
 	default:
 		return nil, fmt.Errorf("unknown prompt: %s", req.Params.Name)
 	}
 	return &mcp.GetPromptResult{
 		Messages: []*mcp.PromptMessage{{Role: mcp.Role("user"), Content: &mcp.TextContent{Text: text}}},
 	}, nil
-}
-
-func orDefault(s, fallback string) string {
-	if s == "" {
-		return fallback
-	}
-	return s
 }

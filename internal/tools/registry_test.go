@@ -4,6 +4,7 @@ import (
 	"context"
 	"database/sql"
 	"encoding/json"
+	"slices"
 	"strings"
 	"testing"
 
@@ -273,10 +274,8 @@ func TestRegisterNilAboutSkipsAboutTool(t *testing.T) {
 	if len(res.Tools) != 12 {
 		t.Fatalf("registered tools = %d, want 12 (about skipped)", len(res.Tools))
 	}
-	for _, tl := range res.Tools {
-		if tl.Name == "about" {
-			t.Fatal("about must not be registered when the AboutContext is nil")
-		}
+	if slices.ContainsFunc(res.Tools, func(tl *mcp.Tool) bool { return tl.Name == "about" }) {
+		t.Fatal("about must not be registered when the AboutContext is nil")
 	}
 }
 

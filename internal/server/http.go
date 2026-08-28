@@ -107,10 +107,7 @@ func RunHTTP() error {
 	// must not reach beyond the local machine unless the operator opts in
 	// (docker-compose sets HOST=0.0.0.0 inside the container). LAN-only
 	// posture.
-	host := os.Getenv("HOST")
-	if host == "" {
-		host = "127.0.0.1"
-	}
+	host := cmp.Or(os.Getenv("HOST"), "127.0.0.1")
 
 	db, path, err := openDB()
 	if err != nil {

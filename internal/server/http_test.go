@@ -2,7 +2,6 @@ package server
 
 import (
 	"bytes"
-	"context"
 	"database/sql"
 	"encoding/json"
 	"fmt"
@@ -53,7 +52,7 @@ func TestMaxBodyBytes413(t *testing.T) {
 func TestSessionTrackerCapAndPrune(t *testing.T) {
 	t.Parallel()
 	tr := newSessionTracker()
-	for i := 0; i < maxSessions; i++ {
+	for i := range maxSessions {
 		tr.touch(fmt.Sprintf("s%d", i))
 	}
 	if tr.admit() {
@@ -71,7 +70,7 @@ func TestSessionTrackerCapAndPrune(t *testing.T) {
 
 func TestRenderPromptUnknownName(t *testing.T) {
 	t.Parallel()
-	_, err := renderPrompt(context.Background(), &mcp.GetPromptRequest{
+	_, err := renderPrompt(t.Context(), &mcp.GetPromptRequest{
 		Params: &mcp.GetPromptParams{Name: "nope"},
 	})
 	if err == nil || err.Error() != "unknown prompt: nope" {
@@ -251,7 +250,7 @@ func TestSessionCapRejectsWith429AndRetryAfter(t *testing.T) {
 	t.Parallel()
 	h := newTestHandler()
 
-	for i := 0; i < maxSessions; i++ {
+	for i := range maxSessions {
 		rec := httptest.NewRecorder()
 		h.ServeHTTP(rec, newInitializeRequest())
 		if rec.Code != http.StatusOK {
@@ -386,7 +385,7 @@ func TestRenderPromptArguments(t *testing.T) {
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			t.Parallel()
-			res, err := renderPrompt(context.Background(), &mcp.GetPromptRequest{
+			res, err := renderPrompt(t.Context(), &mcp.GetPromptRequest{
 				Params: &mcp.GetPromptParams{Name: tt.prompt, Arguments: tt.args},
 			})
 			if tt.wantErr != "" {
@@ -425,7 +424,7 @@ func TestRenderPromptArguments(t *testing.T) {
 // enveloped, about bare.
 func TestResourceReaders(t *testing.T) {
 	t.Parallel()
-	ctx := context.Background()
+	ctx := t.Context()
 	db := storetest.NewTestDb(t)
 	about := &tools.AboutContext{Version: "test", Fingerprint: "fp", DBBuilt: "2026-02-21T00:00:00Z"}
 

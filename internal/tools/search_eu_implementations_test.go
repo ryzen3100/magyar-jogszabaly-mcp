@@ -4,7 +4,7 @@ package tools
 // searchEUImplementations describes in tests/tools/other-tools.test.ts.
 
 import (
-	"context"
+	"slices"
 	"strings"
 	"testing"
 
@@ -16,7 +16,7 @@ func TestSearchEUImplementationsEUDocumentsUnavailable(t *testing.T) {
 	db := storetest.NewTestDb(t)
 	euDropTable(t, db, "eu_documents")
 
-	results, meta, err := SearchEUImplementations(context.Background(), db, argsMap(t, `{"query":"GDPR"}`))
+	results, meta, err := SearchEUImplementations(t.Context(), db, argsMap(t, `{"query":"GDPR"}`))
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -34,7 +34,7 @@ func TestSearchEUImplementationsAllFilters(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	results, _, err := SearchEUImplementations(context.Background(), db, argsMap(t,
+	results, _, err := SearchEUImplementations(t.Context(), db, argsMap(t,
 		`{"query":"GDPR","type":"regulation","year_from":2015,"year_to":2016,`+
 			`"has_hungarian_implementation":true,"limit":500}`))
 	if err != nil {
@@ -64,7 +64,7 @@ func TestSearchEUImplementationsDefaultLimitOrder(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	results, _, err := SearchEUImplementations(context.Background(), db, argsMap(t, `{}`))
+	results, _, err := SearchEUImplementations(t.Context(), db, argsMap(t, `{}`))
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -95,7 +95,7 @@ func TestSearchEUImplementationsLimitClamp(t *testing.T) {
 	}
 	for _, tc := range cases {
 		t.Run(tc.name, func(t *testing.T) {
-			results, _, err := SearchEUImplementations(context.Background(), db, argsMap(t,
+			results, _, err := SearchEUImplementations(t.Context(), db, argsMap(t,
 				`{"limit":`+tc.limit+`}`))
 			if err != nil {
 				t.Fatal(err)
@@ -107,7 +107,7 @@ func TestSearchEUImplementationsLimitClamp(t *testing.T) {
 	}
 
 	// The clamped-minimum result is the newest document (year DESC).
-	results, _, err := SearchEUImplementations(context.Background(), db, argsMap(t, `{"limit":0}`))
+	results, _, err := SearchEUImplementations(t.Context(), db, argsMap(t, `{"limit":0}`))
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -120,7 +120,7 @@ func TestSearchEUImplementationsQueryNoMatch(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	results, meta, err := SearchEUImplementations(context.Background(), db, argsMap(t, `{"query":"no-such-eu-doc"}`))
+	results, meta, err := SearchEUImplementations(t.Context(), db, argsMap(t, `{"query":"no-such-eu-doc"}`))
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -144,7 +144,7 @@ func TestSearchEUImplementationsHasHungarianImplementationFilterAndNulls(t *test
 	}
 
 	// Default: included, with explicit nulls on the wire.
-	results, meta, err := SearchEUImplementations(context.Background(), db, argsMap(t, `{}`))
+	results, meta, err := SearchEUImplementations(t.Context(), db, argsMap(t, `{}`))
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -157,15 +157,16 @@ func TestSearchEUImplementationsHasHungarianImplementationFilterAndNulls(t *test
 	}
 
 	// has_hungarian_implementation=true (HAVING count > 0): excluded.
-	results, _, err = SearchEUImplementations(context.Background(), db, argsMap(t,
+	results, _, err = SearchEUImplementations(t.Context(), db, argsMap(t,
 		`{"has_hungarian_implementation":true}`))
 	if err != nil {
 		t.Fatal(err)
 	}
-	for _, row := range euRows(t, results) {
-		if row["eu_document_id"] == "decision:1999/1" {
-			t.Fatalf("unreferenced EU document must be filtered out: %v", row)
-		}
+	filtered := euRows(t, results)
+	if i := slices.IndexFunc(filtered, func(row map[string]any) bool {
+		return row["eu_document_id"] == "decision:1999/1"
+	}); i >= 0 {
+		t.Fatalf("unreferenced EU document must be filtered out: %v", filtered[i])
 	}
 }
 
@@ -174,7 +175,7 @@ func TestSearchEUImplementationsYearZeroMeansNoFilter(t *testing.T) {
 	db := storetest.NewTestDb(t)
 
 	// TS falsy check: year_from = 0 adds no filter at all.
-	results, _, err := SearchEUImplementations(context.Background(), db, argsMap(t,
+	results, _, err := SearchEUImplementations(t.Context(), db, argsMap(t,
 		`{"year_from":0,"year_to":0}`))
 	if err != nil {
 		t.Fatal(err)
@@ -190,7 +191,7 @@ func TestSearchEUImplementationsClosedDB(t *testing.T) {
 	db.Close()
 
 	// Probe-first tool: closed DB → degraded empty result + note, no error.
-	results, meta, err := SearchEUImplementations(context.Background(), db, argsMap(t, `{}`))
+	results, meta, err := SearchEUImplementations(t.Context(), db, argsMap(t, `{}`))
 	if err != nil {
 		t.Fatal(err)
 	}

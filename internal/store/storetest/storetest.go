@@ -288,31 +288,27 @@ var realDBPath = func() string {
 // RealDBPath is the absolute path of the generated production database.
 func RealDBPath() string { return realDBPath }
 
-var (
-	realDBOnce sync.Once
-	realDBOK   bool
-)
-
-// RealDBAvailable reports whether the real database exists and is usable
+// realDBOK memoizes whether the real database exists and is usable
 // (has legal_documents) — the port of realDbExists/REAL_DB_AVAILABLE,
-// computed once per process. DB-backed tests should t.Skip when false.
-func RealDBAvailable() bool {
-	realDBOnce.Do(func() {
-		if _, err := os.Stat(realDBPath); err != nil {
-			return
-		}
-		db, err := store.OpenReadOnly(realDBPath)
-		if err != nil {
-			return
-		}
-		defer db.Close()
-		var cnt int
-		if err := db.QueryRow(
-			"SELECT COUNT(*) as cnt FROM sqlite_master WHERE type='table' AND name='legal_documents'",
-		).Scan(&cnt); err != nil {
-			return
-		}
-		realDBOK = cnt > 0
-	})
-	return realDBOK
-}
+// computed once per process.
+var realDBOK = sync.OnceValue(func() bool {
+	if _, err := os.Stat(realDBPath); err != nil {
+		return false
+	}
+	db, err := store.OpenReadOnly(realDBPath)
+	if err != nil {
+		return false
+	}
+	defer db.Close()
+	var cnt int
+	if err := db.QueryRow(
+		"SELECT COUNT(*) as cnt FROM sqlite_master WHERE type='table' AND name='legal_documents'",
+	).Scan(&cnt); err != nil {
+		return false
+	}
+	return cnt > 0
+})
+
+// RealDBAvailable reports whether the real database exists and is usable.
+// DB-backed tests should t.Skip when false.
+func RealDBAvailable() bool { return realDBOK() }

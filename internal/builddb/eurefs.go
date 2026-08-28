@@ -175,13 +175,7 @@ func plausibleEUYear(y int) bool {
 // whitespace-collapsed — port of the TS
 // text.slice(start-120, end+120).replace(/\s+/g, ' ').trim().
 func contextWindow(runes []rune, startRune, endRune int) string {
-	lo := startRune - 120
-	if lo < 0 {
-		lo = 0
-	}
-	hi := endRune + 120
-	if hi > len(runes) {
-		hi = len(runes)
-	}
+	lo := max(startRune-120, 0)
+	hi := min(endRune+120, len(runes))
 	return collapseSpace(string(runes[lo:hi]))
 }

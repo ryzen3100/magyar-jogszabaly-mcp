@@ -37,7 +37,7 @@ var (
 )
 
 func str(desc string, maxLength int) *jsonschema.Schema {
-	return &jsonschema.Schema{Type: "string", Description: desc, MaxLength: &maxLength}
+	return &jsonschema.Schema{Type: "string", Description: desc, MaxLength: new(maxLength)}
 }
 
 func num(desc string, def string) *jsonschema.Schema {
@@ -55,8 +55,6 @@ func boolean(desc string, def string) *jsonschema.Schema {
 	}
 	return s
 }
-
-func intPtr(v int) *int { return &v }
 
 // validateArgs returns the first non-nil argument check error, so handlers
 // can list their checks in schema order.
@@ -127,7 +125,7 @@ var searchLegislationSchema = &jsonschema.Schema{
 			Type:        "string",
 			Description: "Optional: filter by legislative status.",
 			Enum:        []any{"in_force", "amended", "repealed"},
-			MaxLength:   intPtr(maxEnumLength),
+			MaxLength:   new(maxEnumLength),
 		},
 		"limit": num("Maximum results to return (default: 10, max: 50).", "10"),
 	},
@@ -178,7 +176,7 @@ var formatCitationSchema = &jsonschema.Schema{
 			Description: "Output format (default: \"full\").",
 			Enum:        []any{"full", "pinpoint"},
 			Default:     json.RawMessage(`"full"`),
-			MaxLength:   intPtr(maxEnumLength),
+			MaxLength:   new(maxEnumLength),
 		},
 	},
 	PropertyOrder: []string{"citation", "format"},
@@ -202,8 +200,8 @@ var getEUBasisSchema = &jsonschema.Schema{
 		"reference_types": {
 			Type:        "array",
 			Description: "Optional: filter by reference type (e.g., \"implements\", \"transposes\").",
-			Items:       &jsonschema.Schema{Type: "string", MaxLength: intPtr(maxReferenceTypeLen)},
-			MaxItems:    intPtr(maxReferenceTypes),
+			Items:       &jsonschema.Schema{Type: "string", MaxLength: new(maxReferenceTypeLen)},
+			MaxItems:    new(maxReferenceTypes),
 		},
 	},
 	PropertyOrder: []string{"document_id", "include_articles", "reference_types"},
@@ -230,7 +228,7 @@ var searchEUImplementationsSchema = &jsonschema.Schema{
 			Type:        "string",
 			Description: "Filter by EU document type.",
 			Enum:        []any{"directive", "regulation"},
-			MaxLength:   intPtr(maxEnumLength),
+			MaxLength:   new(maxEnumLength),
 		},
 		"year_from":                    num("Filter by year (from).", ""),
 		"year_to":                      num("Filter by year (to).", ""),

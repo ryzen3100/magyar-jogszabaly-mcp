@@ -5,7 +5,6 @@ package tools
 // tools_test package live at the top of this file.
 
 import (
-	"context"
 	"database/sql"
 	"encoding/json"
 	"slices"
@@ -135,7 +134,7 @@ func TestGetEUBasisUnresolvedDocument(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	results, meta, err := GetEUBasis(context.Background(), db, argsMap(t, `{"document_id":"missing-doc"}`))
+	results, meta, err := GetEUBasis(t.Context(), db, argsMap(t, `{"document_id":"missing-doc"}`))
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -161,7 +160,7 @@ func TestGetEUBasisEUTablesUnavailable(t *testing.T) {
 	db := storetest.NewTestDb(t)
 	euDropTable(t, db, "eu_references")
 
-	results, meta, err := GetEUBasis(context.Background(), db, argsMap(t, `{"document_id":"doc-inforce"}`))
+	results, meta, err := GetEUBasis(t.Context(), db, argsMap(t, `{"document_id":"doc-inforce"}`))
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -175,7 +174,7 @@ func TestGetEUBasisFiltersAndArticleExpansion(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	results, _, err := GetEUBasis(context.Background(), db, argsMap(t,
+	results, _, err := GetEUBasis(t.Context(), db, argsMap(t,
 		`{"document_id":"doc-inforce","include_articles":true,"reference_types":["implements"]}`))
 	if err != nil {
 		t.Fatal(err)
@@ -208,7 +207,7 @@ func TestGetEUBasisArticlesOmittedUnlessRequested(t *testing.T) {
 	db := storetest.NewTestDb(t)
 
 	// Without include_articles the key must be absent from the wire.
-	results, meta, err := GetEUBasis(context.Background(), db, argsMap(t, `{"document_id":"doc-inforce"}`))
+	results, meta, err := GetEUBasis(t.Context(), db, argsMap(t, `{"document_id":"doc-inforce"}`))
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -222,7 +221,7 @@ func TestGetEUBasisArticlesOmittedUnlessRequested(t *testing.T) {
 
 	// With include_articles every row carries the key — [] when the document
 	// has no non-NULL articles (doc-amended's two refs have NULL articles).
-	results, meta, err = GetEUBasis(context.Background(), db, argsMap(t,
+	results, meta, err = GetEUBasis(t.Context(), db, argsMap(t,
 		`{"document_id":"doc-amended","include_articles":true}`))
 	if err != nil {
 		t.Fatal(err)
@@ -245,7 +244,7 @@ func TestGetEUBasisArticleExpansionSkipsNullsAndDedups(t *testing.T) {
 		}
 	}
 
-	results, _, err := GetEUBasis(context.Background(), db, argsMap(t,
+	results, _, err := GetEUBasis(t.Context(), db, argsMap(t,
 		`{"document_id":"doc-inforce","include_articles":true}`))
 	if err != nil {
 		t.Fatal(err)
@@ -265,7 +264,7 @@ func TestGetEUBasisReferenceTypesFilter(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	results, _, err := GetEUBasis(context.Background(), db, argsMap(t,
+	results, _, err := GetEUBasis(t.Context(), db, argsMap(t,
 		`{"document_id":"doc-amended","reference_types":["references"]}`))
 	if err != nil {
 		t.Fatal(err)
@@ -274,7 +273,7 @@ func TestGetEUBasisReferenceTypesFilter(t *testing.T) {
 		t.Fatalf("rows = %d, want 2", len(rows))
 	}
 
-	results, _, err = GetEUBasis(context.Background(), db, argsMap(t,
+	results, _, err = GetEUBasis(t.Context(), db, argsMap(t,
 		`{"document_id":"doc-amended","reference_types":["implements","references"]}`))
 	if err != nil {
 		t.Fatal(err)
@@ -283,7 +282,7 @@ func TestGetEUBasisReferenceTypesFilter(t *testing.T) {
 		t.Fatalf("rows = %d, want 2 (IN filter)", len(rows))
 	}
 
-	results, _, err = GetEUBasis(context.Background(), db, argsMap(t,
+	results, _, err = GetEUBasis(t.Context(), db, argsMap(t,
 		`{"document_id":"doc-amended","reference_types":["implements"]}`))
 	if err != nil {
 		t.Fatal(err)
@@ -298,7 +297,7 @@ func TestGetEUBasisMissingArgument(t *testing.T) {
 	db := storetest.NewTestDb(t)
 
 	for _, args := range []map[string]any{nil, argsMap(t, `{}`)} {
-		_, _, err := GetEUBasis(context.Background(), db, args)
+		_, _, err := GetEUBasis(t.Context(), db, args)
 		euWantErr(t, err, `missing required argument "document_id"`)
 	}
 }
@@ -308,7 +307,7 @@ func TestGetEUBasisClosedDB(t *testing.T) {
 	db := storetest.NewTestDb(t)
 	db.Close() // resolve-first tool → the closed DB surfaces as an error
 
-	if _, _, err := GetEUBasis(context.Background(), db, argsMap(t, `{"document_id":"doc-inforce"}`)); err == nil {
+	if _, _, err := GetEUBasis(t.Context(), db, argsMap(t, `{"document_id":"doc-inforce"}`)); err == nil {
 		t.Fatal("expected error on closed db")
 	}
 }

@@ -1,7 +1,6 @@
 package tools
 
 import (
-	"context"
 	"encoding/json"
 	"fmt"
 	"strings"
@@ -92,7 +91,7 @@ func TestGetProvisionNotFoundNotes(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	_, meta, err := GetProvision(context.Background(), db, testArgs(t, `{"document_id": "doc-inforce", "section": "999"}`))
+	_, meta, err := GetProvision(t.Context(), db, testArgs(t, `{"document_id": "doc-inforce", "section": "999"}`))
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -100,7 +99,7 @@ func TestGetProvisionNotFoundNotes(t *testing.T) {
 		t.Errorf("note = %q, want %q", meta.Note, want)
 	}
 
-	_, meta, err = GetProvision(context.Background(), db, testArgs(t, `{"document_id": "missing-doc", "section": "1"}`))
+	_, meta, err = GetProvision(t.Context(), db, testArgs(t, `{"document_id": "missing-doc", "section": "1"}`))
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -161,7 +160,7 @@ func TestGetProvisionMissingRequiredArg(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
 
-	_, _, err := GetProvision(context.Background(), db, testArgs(t, `{}`))
+	_, _, err := GetProvision(t.Context(), db, testArgs(t, `{}`))
 	if err == nil || err.Error() != `missing required argument "document_id"` {
 		t.Errorf("err = %v, want missing required argument", err)
 	}
@@ -174,7 +173,7 @@ func TestGetProvisionDegradedOnClosedDB(t *testing.T) {
 
 	// Closed database is infrastructure failure, like the TS throw into the
 	// registry catch → error envelope.
-	if _, _, err := GetProvision(context.Background(), db,
+	if _, _, err := GetProvision(t.Context(), db,
 		testArgs(t, `{"document_id": "doc-inforce", "section": "1"}`)); err == nil {
 		t.Error("expected error from closed db")
 	}
@@ -190,7 +189,7 @@ func TestGetProvisionAllProvisionsCapped(t *testing.T) {
 		}
 	}
 
-	results, meta, err := GetProvision(context.Background(), db, testArgs(t, `{"document_id": "doc-inforce"}`))
+	results, meta, err := GetProvision(t.Context(), db, testArgs(t, `{"document_id": "doc-inforce"}`))
 	if err != nil {
 		t.Fatal(err)
 	}

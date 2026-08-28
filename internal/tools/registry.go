@@ -221,13 +221,11 @@ func annotations(title string) *mcp.ToolAnnotations {
 	return &mcp.ToolAnnotations{
 		Title:           title,
 		ReadOnlyHint:    true,
-		DestructiveHint: boolPtr(false),
+		DestructiveHint: new(false),
 		IdempotentHint:  true,
-		OpenWorldHint:   boolPtr(false),
+		OpenWorldHint:   new(false),
 	}
 }
-
-func boolPtr(v bool) *bool { return &v }
 
 // Register adds all tools to the MCP server — port of registerTools in
 // src/tools/registry.ts. The about tool is registered only when about is
