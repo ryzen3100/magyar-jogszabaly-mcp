@@ -5,6 +5,7 @@ import (
 	"regexp"
 	"strconv"
 	"strings"
+	"time"
 	"unicode/utf8"
 )
 
@@ -82,18 +83,29 @@ func ExtractEUReferences(text string) []EURef {
 				commIdx = -1
 			}
 
-			rawYear := text[m[yearIdx]:m[yearIdx+1]]
-			rawNumber := text[m[numIdx]:m[numIdx+1]]
-			parsedYear, _ := strconv.Atoi(rawYear)
-			year := parsedYear
-			if len(rawYear) == 2 { // two-digit year pivot, build-db.ts:277
-				if parsedYear >= 50 {
-					year = 1900 + parsedYear
-				} else {
-					year = 2000 + parsedYear
+			// EU citation order differs by instrument kind: directives are
+			// cited year-first ("Directive 95/46/EC"), regulations
+			// number-first ("Regulation (EC) No 561/2006" = number 561,
+			// year 2006), with modern regulations switching back to
+			// year-first ("Regulation (EU) 2016/399"). The patterns cannot
+			// tell which order a citation uses, so parse in citation order
+			// and swap the two numbers only when the result cannot be a
+			// year — the TS original always took the first number as the
+			// year and silently dropped (or corrupted the year of) every
+			// number-first citation.
+			// ponytail: deliberate TS-parity deviation; ambiguity remains
+			// only where BOTH orders yield plausible years (e.g.
+			// "Regulation 95/93"), of which the njt.hu corpus has one.
+			rawA := text[m[yearIdx]:m[yearIdx+1]]
+			rawB := text[m[numIdx]:m[numIdx+1]]
+			a, _ := strconv.Atoi(rawA)
+			b, err := strconv.Atoi(rawB)
+			year, number := euYear(a, rawA), b
+			if !plausibleEUYear(year) {
+				if swapped := euYear(b, rawB); plausibleEUYear(swapped) {
+					year, number = swapped, a
 				}
 			}
-			number, err := strconv.Atoi(rawNumber)
 			if year <= 0 || err != nil || number <= 0 {
 				continue
 			}
@@ -142,6 +154,29 @@ func ExtractEUReferences(text string) []EURef {
 	}
 
 	return refs
+}
+
+// euYear applies the two-digit year pivot (build-db.ts:277) to a parsed
+// citation number: "78" becomes 1978, "05" becomes 2005.
+func euYear(n int, raw string) int {
+	if len(raw) != 2 {
+		return n
+	}
+	if n >= 50 {
+		return 1900 + n
+	}
+	return 2000 + n
+}
+
+// plausibleEUYear reports whether y can be the year of an EU instrument. The
+// eu_documents schema CHECK allows [1957, 2100], but no instrument can
+// predate the EEC or be promulgated in the future — the future-year bound is
+// what exposes number-first citations such as "Regulation (EC) No 2027/97".
+// ponytail: clock-dependent parse — a rebuild in a later year parses a
+// first-number in (buildYear, 2100] as a year instead of swapping; only
+// affects genuinely ambiguous citations.
+func plausibleEUYear(y int) bool {
+	return y >= 1957 && y <= time.Now().Year()
 }
 
 // contextWindow returns the ±120-character window around [startRune,endRune),

@@ -48,6 +48,61 @@ func TestExtractEUReferences(t *testing.T) {
 			FullCitation: "Directive 2019/2161", ReferenceContext: "említett Directive 2019/2161 rendelkezés",
 			ReferenceType: "references",
 		}}},
+		{
+			// Number-first citation: the first number is the instrument
+			// number, the second the year — the direct parse (561) cannot be
+			// a year, so the numbers swap.
+			"number-first regulation swaps to year-second",
+			"Regulation (EC) No 561/2006",
+			[]EURef{{
+				Type: "regulation", Community: "EC", Year: 2006, Number: 561,
+				EUDocumentID: "regulation:2006/561", EUArticle: "",
+				FullCitation: "Regulation (EC) No 561/2006",
+				ReferenceContext: "Regulation (EC) No 561/2006",
+				ReferenceType: "references",
+			}},
+		},
+		{
+			// Two-digit year in a number-first citation still pivots after
+			// the swap.
+			"number-first regulation with two-digit year",
+			"Regulation (EEC) No 3821/85",
+			[]EURef{{
+				Type: "regulation", Community: "EEC", Year: 1985, Number: 3821,
+				EUDocumentID: "regulation:1985/3821", EUArticle: "",
+				FullCitation: "Regulation (EEC) No 3821/85",
+				ReferenceContext: "Regulation (EEC) No 3821/85",
+				ReferenceType: "references",
+			}},
+		},
+		{
+			// A first number that cannot be a year in any era (9999 > the
+			// schema's 2100 bound, unlike 2027 which becomes plausible in
+			// year 2027) is a number and swaps.
+			"future-impossible first number swaps",
+			"Regulation (EC) No 9999/97",
+			[]EURef{{
+				Type: "regulation", Community: "EC", Year: 1997, Number: 9999,
+				EUDocumentID: "regulation:1997/9999", EUArticle: "",
+				FullCitation: "Regulation (EC) No 9999/97",
+				ReferenceContext: "Regulation (EC) No 9999/97",
+				ReferenceType: "references",
+			}},
+		},
+		{
+			// ponytail ceiling: where BOTH orders yield plausible years the
+			// citation order wins ("Regulation 95/93" is really Reg 95/93 =
+			// 1993/95, but that is indistinguishable from year 1995 here).
+			"both orders plausible keeps citation order",
+			"Regulation 95/93",
+			[]EURef{{
+				Type: "regulation", Community: "EU", Year: 1995, Number: 93,
+				EUDocumentID: "regulation:1995/93", EUArticle: "",
+				FullCitation: "Regulation 95/93",
+				ReferenceContext: "Regulation 95/93",
+				ReferenceType: "references",
+			}},
+		},
 		{"zero number skipped", "Directive 2019/0 vég", nil},
 		{
 			"case-insensitive, citation keeps raw casing",
