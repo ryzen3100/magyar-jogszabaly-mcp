@@ -15,6 +15,7 @@ RUN CGO_ENABLED=0 GOOS=linux go build -trimpath -ldflags="-s -w" -o /out/hungari
 FROM alpine:3.24
 
 ENV PORT=3000 \
+    HOST=0.0.0.0 \
     HUNGARIAN_LAW_DB_PATH=/data/database.db
 
 RUN apk add --no-cache ca-certificates su-exec \

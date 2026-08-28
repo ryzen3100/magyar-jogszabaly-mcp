@@ -27,6 +27,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7
 
+      - name: Set up Go
+        uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7
+        with:
+          go-version-file: go.mod
+
+      # The Dockerfile COPYs data/database.db from the build context; the file
+      # is gitignored, so build it from the committed seed data first.
+      - name: Build database from seed data
+        run: go run ./cmd/build-db
+
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@37fe631027851001ddb9b187196cc803df7f5f0e # v4
 

@@ -10,6 +10,7 @@
 ## Commands
 
 - Build with `go build ./...`; static checks with `go vet ./...`.
+- Lint GitHub Actions workflows with `actionlint` (install once: `go install github.com/rhysd/actionlint/cmd/actionlint@latest`); run it after editing anything in `.github/workflows/`.
 - Run all tests with `go test ./...` (stdlib `testing`); focus a package/test with `go test ./internal/tools -run TestName`.
 - DB-backed tests skip when `data/database.db` is missing or lacks the required schema, so a green run may only cover in-memory tests; build a usable DB before relying on those results.
 - For stdio development use `go run ./cmd/hungarian-law-mcp`; for HTTP use `go run ./cmd/hungarian-law-mcp serve`. `PORT` defaults to `3000` and `HOST` to `127.0.0.1`; override the database with `HUNGARIAN_LAW_DB_PATH`.

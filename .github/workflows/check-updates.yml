@@ -20,8 +20,8 @@ jobs:
         with:
           go-version-file: go.mod
 
-      - name: Download current database artifact
-        run: bash scripts/download-db.sh
+      - name: Build database from seed data
+        run: go run ./cmd/build-db
 
       - name: Check upstream freshness
         id: check
