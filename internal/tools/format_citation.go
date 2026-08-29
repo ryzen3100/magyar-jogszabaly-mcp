@@ -1,5 +1,6 @@
 // format_citation — Format an Hungarian legal citation per standard
 // conventions. Port of src/tools/format-citation.ts.
+
 package tools
 
 import (

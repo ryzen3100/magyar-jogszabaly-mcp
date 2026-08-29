@@ -1,5 +1,6 @@
 // get_provision — Retrieve specific provision(s) from an Hungarian statute.
 // Port of src/tools/get-provision.ts.
+
 package tools
 
 import (

@@ -1,5 +1,6 @@
 // Registry for Hungarian Law MCP tools — port of src/tools/registry.ts.
 // Shared between the stdio and HTTP entrypoints.
+
 package tools
 
 import (
@@ -291,6 +292,11 @@ func dispatch(db *sql.DB, about *AboutContext, handlers map[string]Handler) mcp.
 			}
 		}
 		if handlerErr != nil {
+			// Server-side record: in-band results are invisible to the
+			// operator, so a broken DB would otherwise go unnoticed (stderr is
+			// safe in both transports — stdout is the protocol channel in
+			// stdio mode).
+			fmt.Fprintf(os.Stderr, "tool %q failed: %v\n", name, handlerErr)
 			return errorResult("Error: " + handlerErr.Error()), nil
 		}
 		text := MarshalResponse(results, meta)

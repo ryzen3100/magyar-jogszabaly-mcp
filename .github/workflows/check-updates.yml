@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7
         with:
@@ -51,7 +51,7 @@ jobs:
 
       - name: Upload check output
         if: always()
-        uses: actions/upload-artifact@v7
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: check-updates-log
           path: check-updates.log
@@ -59,7 +59,7 @@ jobs:
 
       - name: Create or update issue when updates found
         if: steps.check.outputs.updates_found == 'true' || steps.check.outputs.check_error == 'true'
-        uses: actions/github-script@v9
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9
         with:
           script: |
             const updatesFound = '${{ steps.check.outputs.updates_found }}' === 'true';
@@ -111,7 +111,7 @@ jobs:
 
       - name: Close stale issues when clean
         if: steps.check.outputs.updates_found == 'false' && steps.check.outputs.check_error == 'false'
-        uses: actions/github-script@v9
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9
         with:
           script: |
             const { data: issues } = await github.rest.issues.listForRepo({

@@ -2,6 +2,7 @@
 // question. Port of src/tools/build-legal-stance.ts: a thin wrapper over the
 // search_legislation core with research-oriented defaults (lower result cap,
 // no status filter) that strips chapter from every item.
+
 package tools
 
 import (

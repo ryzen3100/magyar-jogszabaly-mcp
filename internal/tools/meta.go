@@ -1,7 +1,5 @@
-// Package tools implements the MCP tool handlers for Hungarian Law MCP.
-//
-// This file ports the response-envelope helpers of src/utils/metadata.ts:
-// the _metadata block attached to every tool response and the compact JSON
+// meta — Response-envelope helpers. Port of src/utils/metadata.ts: the
+// _metadata block attached to every tool response and the compact JSON
 // serialization of the two-key envelope.
 package tools
 

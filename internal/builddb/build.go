@@ -164,7 +164,8 @@ func Build(outPath, seedDir, euMappingsPath string, logf func(format string, arg
 			s.Status = "in_force"
 		}
 
-		if _, err := insertDoc.Exec(s.ID, s.Type, s.Title, nullIfEmpty(s.TitleEn), nullIfEmpty(s.ShortName), s.Status,
+		if _, err := insertDoc.Exec(s.ID, s.Type, s.Title,
+			nullIfEmpty(s.TitleEn), nullIfEmpty(s.ShortName), s.Status,
 			nullIfEmpty(s.IssuedDate), nullIfEmpty(s.InForceDate), nullIfEmpty(s.URL), nullIfEmpty(s.Description)); err != nil {
 			return fmt.Errorf("insert document %s: %w", s.ID, err)
 		}
@@ -236,8 +237,8 @@ func Build(outPath, seedDir, euMappingsPath string, logf func(format string, arg
 				// silently dropping rows from the shipped database. UNIQUE
 				// duplicates are still tolerated, but every other failure is
 				// now counted and reported in the summary below.
-				if _, err := insertEUReference.Exec("provision", sourceID, s.ID, provisionID, ref.EUDocumentID, article,
-					ref.ReferenceType, ref.ReferenceContext, ref.FullCitation, isPrimary, implStatus, lastVerified); err != nil {
+				if _, err := insertEUReference.Exec("provision", sourceID, s.ID, provisionID, ref.EUDocumentID,
+					article, ref.ReferenceType, ref.ReferenceContext, ref.FullCitation, isPrimary, implStatus, lastVerified); err != nil {
 					if !isUniqueViolation(err) {
 						euRefFailures++
 					}

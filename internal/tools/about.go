@@ -12,7 +12,9 @@ import (
 )
 
 // aboutDescription is the long Hungarian server description, byte-identical
-// to the concatenated string literal in src/tools/about.ts:33-53.
+// to the concatenated string literal in src/tools/about.ts:33-53 except for
+// the freshness sentence (the TS claim of daily updates is false for the Go
+// server — refreshes are manual/CI-driven; database_built is authoritative).
 const aboutDescription = "Magyar jogszabály-adatbázis a Nemzeti Jogszabálytár (njt.hu) hivatalos forrásából, " +
 	"Model Context Protocol (MCP) interfészen keresztül. " +
 	"Az adatbázis több mint 4 300 hatályos és hatályon kívüli magyar jogszabályt tartalmaz, " +
@@ -30,7 +32,7 @@ const aboutDescription = "Magyar jogszabály-adatbázis a Nemzeti Jogszabálytá
 	"Elérhető funkciók: jogszabályszöveg lekérdezése szakaszszámra, hivatkozás-validálás " +
 	"(hallucinációmentes ellenőrzés), hatályossági státusz vizsgálat, EU-megfelelőségi ellenőrzés, " +
 	"valamint átfogó jogi álláspont felépítése több jogszabály egyidejű keresésével. " +
-	"Az adatbázis naponta frissül az njt.hu hivatalos forrásából. " +
+	"Az adatbázis az njt.hu hivatalos forrásából készül; frissessége a database_built mezőből ellenőrizhető. " +
 	"Forrás: Magyar Közlöny / Nemzeti Jogszabálytár. " +
 	"Figyelmeztetés: ez kutatási eszköz, nem jogi tanácsadás — " +
 	"kritikus hivatkozásokat mindig ellenőrizze a hivatalos forráson (njt.hu)."

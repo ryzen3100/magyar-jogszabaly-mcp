@@ -2,6 +2,7 @@
 // Port of src/tools/search-legislation.ts: two-phase FTS5 search (BM25 rank
 // query, then snippet re-MATCH restricted to the surviving rowids) with
 // per-variant error degradation and a final LIKE tier.
+
 package tools
 
 import (

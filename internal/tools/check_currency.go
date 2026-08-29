@@ -1,5 +1,6 @@
 // check_currency — Check whether an Hungarian statute is currently in force.
 // Port of src/tools/check-currency.ts.
+
 package tools
 
 import (

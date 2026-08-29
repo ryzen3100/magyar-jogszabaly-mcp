@@ -1,6 +1,7 @@
 // validate_citation — Validate an Hungarian legal citation against the
 // database. Port of src/tools/validate-citation.ts. ParseCitation is exported
 // and reused by format_citation, exactly like in TypeScript.
+
 package tools
 
 import (

@@ -2,6 +2,7 @@
 // in src/tools/registry.ts (property names, types, descriptions, enum values,
 // required lists, additionalProperties). PropertyOrder preserves the
 // TypeScript property insertion order in the rendered JSON.
+
 package tools
 
 import (
