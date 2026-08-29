@@ -71,12 +71,19 @@ const searchPageHTML = `<div class="resultWrapper">
     <span class="resultItem">2020. évi X. törvény</span>
   </a>
 </div>
+<div class="resultItemWrapper">
+  <a href="jogszabaly/2009-210-20-22" class="resultItemLink now">
+    <span class="resultItem">210/2009. (IX. 29.) Korm. rendelet</span>
+  </a>
+  <p>a kereskedelmi tevékenységek végzésének feltételeiről</p>
+  <span class="resultDate">2009. 10. 01.</span>
+</div>
 </div>`
 
 func TestParseSearchResultPage(t *testing.T) {
 	laws := ParseSearchResultPage(searchPageHTML, "https://njt.hu")
-	if len(laws) != 3 {
-		t.Fatalf("got %d laws, want 3: %+v", len(laws), laws)
+	if len(laws) != 4 {
+		t.Fatalf("got %d laws, want 4: %+v", len(laws), laws)
 	}
 
 	first := laws[0]
@@ -104,6 +111,18 @@ func TestParseSearchResultPage(t *testing.T) {
 	}
 	if laws[2].Status != "not_yet_in_force" || laws[2].InForceDate != "" {
 		t.Errorf("third law = %+v", laws[2])
+	}
+
+	// Korm. rendelet: same ID space, non-zero trailing groups.
+	rendelet := laws[3]
+	if rendelet.DocumentID != "2009-210-20-22" {
+		t.Errorf("rendelet doc id = %q", rendelet.DocumentID)
+	}
+	if rendelet.Status != "in_force" || rendelet.InForceDate != "2009-10-01" {
+		t.Errorf("rendelet = %+v", rendelet)
+	}
+	if rendelet.URL != "https://njt.hu/jogszabaly/2009-210-20-22" {
+		t.Errorf("rendelet url = %q", rendelet.URL)
 	}
 }
 
@@ -226,8 +245,8 @@ func TestDiscoverLawsPaginationAndCache(t *testing.T) {
 		t.Fatalf("discoverLaws: %v", err)
 	}
 	// Page 1 and page 2 serve the same body; the doc id rewritten on
-	// "page 2" is deduped to three unique laws.
-	if len(laws) != 3 {
+	// "page 2" is deduped to four unique laws.
+	if len(laws) != 4 {
 		t.Fatalf("got %d laws, want 3: %+v", len(laws), laws)
 	}
 	for i := 1; i < len(laws); i++ {
@@ -245,7 +264,7 @@ func TestDiscoverLawsPaginationAndCache(t *testing.T) {
 	if err := json.Unmarshal(data, &cached); err != nil {
 		t.Fatalf("cache not JSON: %v", err)
 	}
-	if cached.InForceOnly || cached.PageSize != DiscoveryPageSize || len(cached.Laws) != 3 {
+	if cached.InForceOnly || cached.PageSize != DiscoveryPageSize || len(cached.Laws) != 4 {
 		t.Errorf("cache = %+v", cached)
 	}
 	if !strings.HasSuffix(strings.TrimSpace(string(data)), "}") || !strings.Contains(string(data), "\n  \"laws\"") {
@@ -253,7 +272,7 @@ func TestDiscoverLawsPaginationAndCache(t *testing.T) {
 	}
 
 	// Same-mode cache is accepted; other modes and page sizes are rejected.
-	if got := p.readDiscoveryCache(false); len(got) != 3 {
+	if got := p.readDiscoveryCache(false); len(got) != 4 {
 		t.Errorf("readDiscoveryCache(false) = %d laws, want 3", len(got))
 	}
 	if got := p.readDiscoveryCache(true); got != nil {

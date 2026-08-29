@@ -53,8 +53,8 @@ func TestCmdIngestEndToEnd(t *testing.T) {
 	for _, want := range []string{
 		"Hungarian Law MCP -- Ingestion Pipeline",
 		"full corpus discovery",
-		"Discovered laws: 3",
-		"Ingestion act list: 5",
+		"Discovered laws: 4",
+		"Ingestion act list: 6",
 		"Ingestion Report",
 		"hydrated 1 deferred block ranges",
 		"-> METADATA_ONLY",

@@ -67,8 +67,14 @@ var searchPathPattern = regexp.MustCompile(`^[A-Za-z0-9._/-]+$`)
 var (
 	njtDocIDPattern  = regexp.MustCompile(`/jogszabaly/([^/?#]+)`)
 	pageCountPattern = regexp.MustCompile(`(?i)id="page-count">\s*/\s*(\d+)\s*<`)
-	mainLinkPattern  = regexp.MustCompile(
-		`(?i)(<a[^>]*href="jogszabaly/([0-9]{4}-[0-9A-Z]+-00-00)"[^>]*>)([\s\S]*?)</a>`)
+	// njt.hu hosts all statute types in one ID space: acts end in -00-00,
+	// decrees reuse year+number with non-zero blocks (210/2009. Korm. rendelet
+	// = 2009-210-20-22). The trailing groups are always two chars in the
+	// observed corpus.
+	// ponytail: trailing groups pinned to [0-9A-Z]{2}; widen if njt.hu
+	// introduces longer block numbers (the discovery census will show gaps).
+	mainLinkPattern = regexp.MustCompile(
+		`(?i)(<a[^>]*href="jogszabaly/([0-9]{4}-[0-9A-Z]+-[0-9A-Z]{2}-[0-9A-Z]{2})"[^>]*>)([\s\S]*?)</a>`)
 	linkClassPattern   = regexp.MustCompile(`(?i)class="([^"]*)"`)
 	descriptionPattern = regexp.MustCompile(`(?i)<p>([\s\S]*?)</p>`)
 	titleEnPattern     = regexp.MustCompile(`(?i)class="resultItem translation"[^>]*title="([^"]+)"`)

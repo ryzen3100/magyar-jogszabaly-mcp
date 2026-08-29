@@ -252,6 +252,10 @@ func newFakeNjtServer(t *testing.T) (*httptest.Server, func(string) int) {
 		bump("act-2020")
 		w.Write([]byte(metadataOnly))
 	})
+	mux.HandleFunc("/jogszabaly/2009-210-20-22", func(w http.ResponseWriter, r *http.Request) {
+		bump("rendelet-2009")
+		w.Write([]byte(metadataOnly))
+	})
 	mux.HandleFunc("/ajax/njtGetBlock.json", func(w http.ResponseWriter, r *http.Request) {
 		bump("block")
 		buf := make([]byte, r.ContentLength)
@@ -287,6 +291,7 @@ func TestPipelineRun(t *testing.T) {
 		"act-cxii-2011-public-data.json",
 		"criminal-code-cybercrime.json",
 		"hu-law-1992-100-00-00.json",
+		"hu-law-2009-210-20-22.json",
 		"hu-law-2020-10-00-00.json",
 	}
 
@@ -301,8 +306,8 @@ func TestPipelineRun(t *testing.T) {
 	for _, want := range []string{
 		"Hungarian Law MCP -- Ingestion Pipeline",
 		"full corpus discovery",
-		"Discovered laws: 3",
-		"Ingestion act list: 5",
+		"Discovered laws: 4",
+		"Ingestion act list: 6",
 		"hydrated 1 deferred block ranges",
 		"-> METADATA_ONLY",
 		"Ingestion Report",
@@ -345,7 +350,7 @@ func TestPipelineRun(t *testing.T) {
 	if err := p2.Run(ctx, Options{Full: true}); err != nil {
 		t.Fatalf("cache-hit Run: %v", err)
 	}
-	if !strings.Contains(out2.String(), "Loaded discovery cache (3 laws)") {
+	if !strings.Contains(out2.String(), "Loaded discovery cache (4 laws)") {
 		t.Errorf("output should name the loaded discovery cache:\n%s", out2.String())
 	}
 	if count("search-url") != 1 || count("search-page") != 1 {
