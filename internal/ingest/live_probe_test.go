@@ -5,10 +5,15 @@ package ingest
 // Run with: HU_LIVE_PROBE=1 go test ./internal/ingest -run TestLiveDiscoveryProbe -v
 
 import (
+	"context"
+	"encoding/json"
 	"fmt"
 	"os"
+	"path/filepath"
 	"strings"
 	"testing"
+
+	"github.com/ryzen3100/magyar-jogszabaly-mcp/v2/internal/seed"
 )
 
 func TestLiveDiscoveryProbe(t *testing.T) {
@@ -55,4 +60,85 @@ func TestLiveDiscoveryProbe(t *testing.T) {
 			}
 		})
 	}
+}
+
+// TestLiveFetchProbe fetches a small mixed sample through the production
+// FetchAndParseActs path to validate the act-page parser against the live
+// njt.jog.gov.hu layout before a multi-hour full run.
+// Run with: HU_LIVE_FETCH=1 go test ./internal/ingest -run TestLiveFetchProbe -v
+func TestLiveFetchProbe(t *testing.T) {
+	if os.Getenv("HU_LIVE_FETCH") != "1" {
+		t.Skip("set HU_LIVE_FETCH=1 to run")
+	}
+
+	data, err := os.ReadFile(filepath.Join("..", "..", "data", "source", "law-discovery-all-0000-2220.json"))
+	if err != nil {
+		t.Skipf("no discovery cache: %v", err)
+	}
+	var cached DiscoverySeed
+	if err := json.Unmarshal(data, &cached); err != nil {
+		t.Fatal(err)
+	}
+
+	mustFetch := map[string]bool{
+		// Acceptance-question documents.
+		"2012-1-00-00":   true,
+		"2009-210-20-22": true,
+		"2017-531-20-22": true,
+		// A known old act and a known metadata-only page in the old fixture.
+		"1992-100-00-00": true,
+	}
+	// Plus 12 deterministic spread-out rendeletek (skip every Nth until 12).
+	rendeletek := []DiscoveredLaw{}
+	for _, l := range cached.Laws {
+		if !mustFetch[l.DocumentID] && !strings.HasSuffix(l.DocumentID, "-00-00") {
+			rendeletek = append(rendeletek, l)
+		}
+	}
+	step := len(rendeletek) / 12
+	picked := []DiscoveredLaw{}
+	for i := 0; i < len(rendeletek) && len(picked) < 12; i += step {
+		picked = append(picked, rendeletek[i])
+	}
+	byID := map[string]DiscoveredLaw{}
+	for _, l := range append(picked, mustPick(cached.Laws, mustFetch)...) {
+		byID[l.DocumentID] = l
+	}
+	var acts []ActIndexEntry
+	for _, l := range byID {
+		acts = append(acts, BuildFullCorpusActList([]DiscoveredLaw{l})[0])
+	}
+
+	seedDir := t.TempDir()
+	p := NewPipeline(t.TempDir(), seedDir)
+	if err := p.FetchAndParseActs(context.Background(), acts, false, false); err != nil {
+		t.Fatalf("FetchAndParseActs: %v", err)
+	}
+
+	// Acceptance docs must have section-level provisions.
+	for _, want := range []string{"hu-law-2012-1-00-00", "hu-law-2009-210-20-22", "hu-law-2017-531-20-22"} {
+		raw, err := os.ReadFile(filepath.Join(seedDir, want+".json"))
+		if err != nil {
+			t.Errorf("%s: seed missing: %v", want, err)
+			continue
+		}
+		var doc seed.DocumentSeed
+		if err := json.Unmarshal(raw, &doc); err != nil {
+			t.Fatal(err)
+		}
+		fmt.Printf("%s: %d provisions, %d definitions\n", want, len(doc.Provisions), len(doc.Definitions))
+		if len(doc.Provisions) == 0 {
+			t.Errorf("%s: 0 provisions on live layout", want)
+		}
+	}
+}
+
+func mustPick(laws []DiscoveredLaw, ids map[string]bool) []DiscoveredLaw {
+	out := []DiscoveredLaw{}
+	for _, l := range laws {
+		if ids[l.DocumentID] {
+			out = append(out, l)
+		}
+	}
+	return out
 }
