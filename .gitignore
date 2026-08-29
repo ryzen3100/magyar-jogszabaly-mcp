@@ -14,3 +14,6 @@ data/database.db-wal
 /bin/
 *.test
 *.out
+agent/
+data/skills/
+skills-lock.json
