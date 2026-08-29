@@ -78,26 +78,38 @@ func GetProvision(ctx context.Context, db *sql.DB, args map[string]any) (any, Re
 		return nil, ResponseMetadata{}, fmt.Errorf("query document: %w", err)
 	}
 
-	// Specific provision lookup — one OR-query covers exact, "s"-prefixed,
-	// section-column, and fuzzy matches (same pattern as validate_citation).
+	// Specific provision lookup — the typed ref is normalized into exact
+	// match candidates (statute.SectionRefCandidates: "3. §" → section "3" /
+	// provision_ref "s3"); no fuzzy LIKE tier, which could return a wrong
+	// provision and break the zero-hallucination contract.
 	ref := parsed.ProvisionRef
 	if ref == nil {
 		ref = parsed.Section
 	}
 	if ref != nil && *ref != "" {
-		refTrimmed := strings.TrimSpace(*ref)
-
-		row := db.QueryRowContext(ctx,
-			"SELECT "+provisionColumns+" FROM legal_provisions WHERE document_id = ? AND "+
-				"(provision_ref = ? OR provision_ref = ? OR section = ? "+
-				"OR provision_ref LIKE ? OR section LIKE ?)",
-			resolvedID, refTrimmed, "s"+refTrimmed, refTrimmed, "%"+refTrimmed+"%", "%"+refTrimmed+"%")
-		provision, err := scanProvision(row.Scan, resolvedID, docTitle, docURL)
-		if err != nil {
-			return nil, ResponseMetadata{}, fmt.Errorf("query provision: %w", err)
-		}
-		if provision != nil {
-			return []ProvisionResult{*provision}, GenerateResponseMetadata(ctx, db), nil
+		candidates := statute.SectionRefCandidates(*ref)
+		if len(candidates) > 0 {
+			placeholders := strings.TrimRight(strings.Repeat("?,", len(candidates)), ",")
+			args := make([]any, 0, 2*len(candidates)+1)
+			args = append(args, resolvedID)
+			for _, c := range candidates {
+				args = append(args, c)
+			}
+			for _, c := range candidates {
+				args = append(args, c)
+			}
+			row := db.QueryRowContext(ctx,
+				"SELECT "+provisionColumns+" FROM legal_provisions WHERE document_id = ? AND "+
+					"(provision_ref IN ("+placeholders+") OR section IN ("+placeholders+")) "+
+					"ORDER BY id LIMIT 1",
+				args...)
+			provision, err := scanProvision(row.Scan, resolvedID, docTitle, docURL)
+			if err != nil {
+				return nil, ResponseMetadata{}, fmt.Errorf("query provision: %w", err)
+			}
+			if provision != nil {
+				return []ProvisionResult{*provision}, GenerateResponseMetadata(ctx, db), nil
+			}
 		}
 
 		meta := GenerateResponseMetadata(ctx, db)

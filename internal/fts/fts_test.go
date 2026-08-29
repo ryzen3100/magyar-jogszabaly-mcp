@@ -49,6 +49,10 @@ func TestSanitizeInput(t *testing.T) {
 		{"non-boolean strips quotes parens colon", `'gdpr' "article" 6:1(2)`, "gdpr article 6 1 2"},
 		{"quotes become spaces, star stays trailing", `"foo"* `, "foo *"},
 		{"collapses and trims whitespace", "  adat\t\n védelem  ", "adat védelem"},
+		{"trailing question mark is stripped (natural-language question)",
+			"Hány nap szabadság jár egy 42 éves munkavállalónak?",
+			"Hány nap szabadság jár egy 42 éves munkavállalónak"},
+		{"question mark inside boolean query also stripped", `adat? AND védelem`, `adat AND védelem`},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
@@ -75,14 +79,18 @@ func TestBuildQueryVariants(t *testing.T) {
 			`"személyes adat"`,
 			"személyes AND adat",
 			"személyes AND adat*",
+			"személyes* AND adat*", // deliberate TS divergence: prefix-all tier
 			"személyes OR adat",
 		}},
-		{"three terms, only last starred", "a b c", []string{
-			`"a b c"`,
-			"a AND b AND c",
-			"a AND b AND c*",
-			"a OR b OR c",
-		}},
+		{
+			// Deliberate TS divergence: prefix-all tier inserted before OR.
+			"three terms, only last starred", "a b c", []string{
+				`"a b c"`,
+				"a AND b AND c",
+				"a AND b AND c*",
+				"a* AND b* AND c*",
+				"a OR b OR c",
+			}},
 		{"boolean passthrough verbatim, whitespace not collapsed", "a AND  b", []string{"a AND  b"}},
 		// "év" is 2 UTF-16 units but 3 UTF-8 bytes: no star variant (TS length semantics)
 		{"two-rune hungarian term gets no prefix variant", "év", []string{"év"}},
@@ -165,5 +173,60 @@ func TestBuildLikePattern(t *testing.T) {
 				t.Errorf("BuildLikePattern(%q) = %q, want %q", tt.query, got, tt.want)
 			}
 		})
+	}
+}
+
+// Regression: natural-language questions carry punctuation (",", "?", "!"),
+// and any of it surviving into an FTS5 bareword kills every MATCH variant —
+// the query then degrades to the sentence-length LIKE tier (zero hits).
+func TestSanitizeInputStripsPunctuationFromQuestions(t *testing.T) {
+	t.Parallel()
+	tests := []struct {
+		input string
+		want  string
+	}{
+		{"Milyen engedély kell ahhoz, hogy nyissak egy kávézót?",
+			"Milyen engedély kell ahhoz hogy nyissak egy kávézót"},
+		{"Hány nap szabadság jár?", "Hány nap szabadság jár"},
+		{"adó-vám, 1,5%", "adó vám 1 5"},
+	}
+	for _, tt := range tests {
+		if got := SanitizeInput(tt.input); got != tt.want {
+			t.Errorf("SanitizeInput(%q) = %q, want %q", tt.input, got, tt.want)
+		}
+	}
+}
+
+// The natural-language-question tiers: Hungarian function words are dropped,
+// every term gets a prefix wildcard, and inflected terms get a stemmed
+// variant — so "Hány nap szabadság jár egy 42 éves munkavállalónak?" no
+// longer depends on the user knowing dictionary forms (audit follow-up to
+// the `?`-punctuation fix).
+func TestBuildQueryVariantsNaturalLanguageQuestion(t *testing.T) {
+	t.Parallel()
+	got := BuildQueryVariants("Hány nap szabadság jár egy 42 éves munkavállalónak")
+	want := []string{
+		`"nap szabadság jár 42 éves munkavállalónak"`,
+		"nap AND szabadság AND jár AND 42 AND éves AND munkavállalónak",
+		"nap AND szabadság AND jár AND 42 AND éves AND munkavállalónak*",
+		"nap* AND szabadság* AND jár* AND 42* AND éves* AND munkavállalónak*",
+		"nap AND szabadság AND jár AND 42 AND éves AND munkavállaló",
+		"nap OR szabadság OR jár OR 42 OR éves OR munkavállalónak",
+	}
+	if !reflect.DeepEqual(got, want) {
+		t.Errorf("BuildQueryVariants(question) = %#v, want %#v", got, want)
+	}
+
+	// All-stopword input falls back to the terms as typed (no empty query).
+	got = BuildQueryVariants("hogy kell egy")
+	want = []string{
+		`"hogy kell egy"`,
+		"hogy AND kell AND egy",
+		"hogy AND kell AND egy*",
+		"hogy* AND kell* AND egy*",
+		"hogy OR kell OR egy",
+	}
+	if !reflect.DeepEqual(got, want) {
+		t.Errorf("BuildQueryVariants(all stopwords) = %#v, want %#v", got, want)
 	}
 }

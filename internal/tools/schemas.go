@@ -139,8 +139,8 @@ var getProvisionSchema = &jsonschema.Schema{
 	Properties: map[string]*jsonschema.Schema{
 		"document_id": str("Statute identifier: Act title (e.g., \"2011. évi CXII. törvény\"), abbreviation, "+
 			"or internal document ID (e.g., \"act-cxii-2011-info-self-determination\").", maxDocumentIDLength),
-		"section":       str("Section number (e.g., \"13\", \"8\"). Omit to get all provisions.", maxRefLength),
-		"provision_ref": str("Direct provision reference (e.g., \"s13\"). Alternative to section parameter.", maxRefLength),
+		"section":       str("Section number; citation-style input is normalized (e.g., \"13\", \"13. §\", \"116/A\", \"6:272. §\", \"s13\"). Omit to get all provisions.", maxRefLength),
+		"provision_ref": str("Direct provision reference (e.g., \"s13\"); normalized the same way as section. Alternative to the section parameter.", maxRefLength),
 	},
 	PropertyOrder: []string{"document_id", "section", "provision_ref"},
 	Required:      []string{"document_id"},
@@ -243,7 +243,7 @@ var getProvisionEUBasisSchema = &jsonschema.Schema{
 	Type: "object",
 	Properties: map[string]*jsonschema.Schema{
 		"document_id":   str("Hungarian statute identifier.", maxDocumentIDLength),
-		"provision_ref": str("Provision reference (e.g., \"s13\" or \"13\").", maxRefLength),
+		"provision_ref": str("Provision reference (e.g., \"s13\", \"13\", or \"3. §\"); citation-style input is normalized.", maxRefLength),
 	},
 	PropertyOrder: []string{"document_id", "provision_ref"},
 	Required:      []string{"document_id", "provision_ref"},

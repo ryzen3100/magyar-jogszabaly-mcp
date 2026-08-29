@@ -15,10 +15,15 @@ import (
 var booleanOpsRe = regexp.MustCompile(`(?i)\b(AND|OR|NOT)\b`)
 
 // Dangerous chars stripped in boolean mode (quotes and parens preserved).
-var booleanStripRe = regexp.MustCompile(`[{}\[\]^~*:]`)
+// Punctuation must go: a stray `?` or `,` is an FTS5 query-syntax error in a
+// bareword, killing every variant down to the LIKE tier.
+var booleanStripRe = regexp.MustCompile(`[{}\[\]^~*:,.;!?–—]`)
 
-// Chars stripped in non-boolean mode (quotes/parens/colons included).
-var nonBooleanStripRe = regexp.MustCompile(`['"(){}\[\]^~:]`)
+// Chars stripped in non-boolean mode: everything that is not a letter
+// (any script — Hungarian accents must survive), a digit, whitespace, or a
+// meaningful `*` wildcard. Punctuation like `?` or a comma ("ahhoz, hogy")
+// is an FTS5 bareword-syntax error that kills every MATCH variant.
+var nonBooleanStripRe = regexp.MustCompile(`[^\p{L}\p{N}\s*]+`)
 
 // Mid-word `*` — a `*` NOT followed by whitespace or end-of-string.
 // RE2 has no negative lookahead, so the offending char is captured and
@@ -51,10 +56,18 @@ func SanitizeInput(input string) string {
 
 // BuildQueryVariants builds FTS5 query variants for a search term.
 // Returns variants in order of specificity (most specific first):
-// 1. Exact phrase match
-// 2. All terms required (AND)
-// 3. Prefix AND (last term gets prefix wildcard)
-// 4. Any term matches (OR) — broad fallback
+//  1. Exact phrase match
+//  2. All terms required (AND)
+//  3. Prefix AND (last term gets prefix wildcard)
+//  4. Prefix AND on every term — base-form queries match inflected corpus
+//     tokens ("kávézó*" finds "kávézót")
+//  5. Stemmed AND — light Hungarian suffix stripping turns inflected query
+//     terms into their base form ("munkavállalónak" → "munkavállaló")
+//  6. Any term matches (OR) — broad fallback
+//
+// Hungarian function words (házszintű kötőszavak: "hány", "milyen", "kell",
+// "hogy"…) are dropped from the term variants first — they occur in nearly
+// every provision, so AND-ing them makes every tier miss.
 //
 // When boolean operators are detected, passes query through as-is.
 func BuildQueryVariants(sanitized string) []string {
@@ -67,7 +80,7 @@ func BuildQueryVariants(sanitized string) []string {
 		return []string{sanitized}
 	}
 
-	terms := strings.Fields(sanitized)
+	terms := filterStopWords(strings.Fields(sanitized))
 	if len(terms) == 0 {
 		return []string{}
 	}
@@ -83,6 +96,16 @@ func BuildQueryVariants(sanitized string) []string {
 		last := terms[len(terms)-1]
 		prefixTerms := append(append([]string{}, terms[:len(terms)-1]...), last+"*")
 		variants = append(variants, strings.Join(prefixTerms, " AND "))
+		// Prefix AND on every term
+		allPrefixed := make([]string, len(terms))
+		for i, t := range terms {
+			allPrefixed[i] = t + "*"
+		}
+		variants = append(variants, strings.Join(allPrefixed, " AND "))
+		// Stemmed AND — skips when nothing actually stemmed
+		if stemmed := stemAll(terms); strings.Join(stemmed, " ") != strings.Join(terms, " ") {
+			variants = append(variants, strings.Join(stemmed, " AND "))
+		}
 		// OR fallback — any term matches (broadest)
 		variants = append(variants, strings.Join(terms, " OR "))
 	} else {
@@ -93,9 +116,86 @@ func BuildQueryVariants(sanitized string) []string {
 		if utf8.RuneCountInString(terms[0]) >= 3 {
 			variants = append(variants, terms[0]+"*")
 		}
+		if stem := stemTerm(terms[0]); stem != terms[0] {
+			variants = append(variants, stem)
+			if utf8.RuneCountInString(stem) >= 3 {
+				variants = append(variants, stem+"*")
+			}
+		}
 	}
 
 	return variants
+}
+
+// hungarianStopWords are function words with no discriminating power over the
+// corpus: nearly every provision contains them, so keeping them in AND/PREFIX
+// variants makes those tiers miss and pushes every natural-language question
+// down to the OR tier. Bounded hand-picked list — ponytail ceiling: a real
+// frequency-weighted stop list (or corpus-derived one) is the upgrade path.
+// "a" (definite article) is deliberately kept out to preserve the pinned
+// TS-parity variant shape for short queries.
+var hungarianStopWords = map[string]bool{
+	"hány": true, "mennyi": true, "milyen": true, "hogyan": true, "miért": true,
+	"hogy": true, "hogyha": true, "ahhoz": true, "ehhez": true, "egy": true,
+	"kell": true, "kellene": true, "lehet": true, "van": true, "vannak": true,
+	"az": true,
+}
+
+func filterStopWords(terms []string) []string {
+	kept := terms[:0:0]
+	for _, t := range terms {
+		if !hungarianStopWords[strings.ToLower(t)] {
+			kept = append(kept, t)
+		}
+	}
+	if len(kept) == 0 {
+		return terms // all function words — search them as typed
+	}
+	return kept
+}
+
+// Light Hungarian query stemming: strips ONE common suffix from a term so
+// inflected query forms reach their base ("munkavállalónak" → "munkavállaló",
+// "kávézót" → "kávézó", "szabadságát" → "szabadság"). ponytail ceiling: a
+// suffix list is a heuristic — it over-stems occasional words and knows
+// nothing about vowel harmony or compounding (alapszabadság stays opaque);
+// a real stemmer (e.g. a snowball hu port) is the upgrade path. The stem is
+// only ever an ADDITIONAL variant tier, so a wrong strip costs recall of one
+// fallback tier, never precision of the earlier ones.
+var hungarianSuffixes = []string{
+	// 3-char first (longest match wins)
+	"nak", "nek", "ban", "ben", "ból", "ből", "tól", "től", "ról", "ről",
+	"val", "vel", "juk", "jük", "hoz", "hez", "höz",
+	// 2-char
+	"ok", "ek", "ök", "ak", "ot", "et", "öt", "at", "ba", "be", "ra", "re",
+	"on", "en", "ön", "át", "uk", "ük",
+	// 1-char accusative, last resort
+	"t",
+}
+
+// minStemRuneCount keeps the strip from mangling short words ("hát" → "há").
+const minStemRuneCount = 4
+
+func stemTerm(term string) string {
+	lower := strings.ToLower(term)
+	lowerRunes := []rune(lower)
+	for _, suffix := range hungarianSuffixes {
+		s := []rune(suffix)
+		if len(lowerRunes) > len(s) && len(lowerRunes)-len(s) >= minStemRuneCount &&
+			string(lowerRunes[len(lowerRunes)-len(s):]) == suffix {
+			runes := []rune(term)
+			return string(runes[:len(runes)-len(s)])
+		}
+	}
+	return term
+}
+
+func stemAll(terms []string) []string {
+	stemmed := make([]string, len(terms))
+	for i, t := range terms {
+		stemmed[i] = stemTerm(t)
+	}
+	return stemmed
 }
 
 // BuildLikePattern builds a SQL LIKE pattern from search terms.

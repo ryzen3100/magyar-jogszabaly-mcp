@@ -108,21 +108,33 @@ func TestGetProvisionNotFoundNotes(t *testing.T) {
 	}
 }
 
-func TestGetProvisionLikeSectionFallback(t *testing.T) {
+func TestGetProvisionNoFuzzyCrossMatch(t *testing.T) {
 	t.Parallel()
 	db := storetest.NewTestDb(t)
-	// Section text "37/A" — querying "7/A" must find it via the LIKE arm.
+	// Section text "37/A". Querying "7/A" must NOT find it: the former LIKE
+	// arm matched substrings of unrelated provisions (audit E5 — a ref that
+	// resolves to the wrong provision breaks the zero-hallucination contract).
 	if _, err := db.Exec(`INSERT INTO legal_provisions (document_id, provision_ref, chapter, section, title, content)
 		VALUES ('doc-inforce', 's37/A', 'I. Fejezet', '37/A', NULL, 'Különös rendelkezés.')`); err != nil {
 		t.Fatal(err)
 	}
 
-	out, err := runHandlerJSON(t, GetProvision, db, `{"document_id": "doc-inforce", "section": "7/A"}`)
+	_, meta, err := GetProvision(t.Context(), db, testArgs(t, `{"document_id": "doc-inforce", "section": "7/A"}`))
+	if err != nil {
+		t.Fatal(err)
+	}
+	if want := `Provision "7/A" not found in document "doc-inforce"`; meta.Note != want {
+		t.Errorf("note = %q, want %q", meta.Note, want)
+	}
+
+	// The exact section itself still resolves, and citation punctuation is
+	// normalized away ("37/A. §" → section "37/A").
+	out, err := runHandlerJSON(t, GetProvision, db, `{"document_id": "doc-inforce", "section": "37/A. §"}`)
 	if err != nil {
 		t.Fatal(err)
 	}
 	if !strings.Contains(out, `"section":"37/A"`) {
-		t.Errorf("LIKE fallback failed: %s", out)
+		t.Errorf("normalized ref lookup failed: %s", out)
 	}
 }
 
@@ -274,14 +286,20 @@ func TestGetProvisionRealDb(t *testing.T) {
 		}
 	})
 
-	t.Run("LIKE fallback 7/A → 37/A", func(t *testing.T) {
+	t.Run("no fuzzy cross-match 7/A ↛ 37/A", func(t *testing.T) {
+		// Deliberate TS divergence (audit E5): a substring LIKE arm could
+		// resolve "7/A" to the unrelated "37/A" provision. Now it is a
+		// not-found, never a wrong provision.
 		out, err := runHandlerJSON(t, GetProvision, db,
 			`{"document_id": "act-cxii-2011-info-self-determination", "section": "7/A"}`)
 		if err != nil {
 			t.Fatal(err)
 		}
-		if !strings.Contains(out, `"section":"37/`) {
-			t.Errorf("expected 37/* section, got %s", out)
+		if strings.Contains(out, `"section":"37/`) {
+			t.Errorf("fuzzy cross-match still present: %s", out)
+		}
+		if !strings.Contains(out, `not found`) {
+			t.Errorf("expected not-found note, got %s", out)
 		}
 	})
 

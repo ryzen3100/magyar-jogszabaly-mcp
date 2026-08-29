@@ -118,3 +118,77 @@ func ResolveDocumentID(ctx context.Context, db *sql.DB, input string) (string, e
 	}
 	return id, nil
 }
+
+// Section-ref grammar after punctuation stripping: plain ("3"),
+// colon-structured ("6:272", "3:99/A"), letter-suffixed ("116/A"),
+// ranges ("1–290"), and the Ptk structure prefix ("Ptk4:1").
+var sectionRefGrammarRe = regexp.MustCompile(`^(?:[Pp]tk)?\d+(?::\d+)*(?:/[A-Za-z])?(?:[–-]\d+(?::\d+)*)*$`)
+
+// Matches a trailing subsection marker: "3. § (2)" → "3. §".
+var trailingSubsectionRe = regexp.MustCompile(`^(.+?)\s*\(\d+\)$`)
+
+// Removed when building the compact provision_ref form ("6:272" → "s6272").
+var compactSectionRe = strings.NewReplacer(":", "", "/", "", "–", "")
+
+// cutset for stripping citation punctuation around the reference itself.
+const sectionRefPunctuation = " \t\u00a0§."
+
+// SectionRefCandidates normalizes a user-typed section/provision reference —
+// "3", "3. §", "3.§ (2)", "s13", "116/A. §", "6:272. §", "1-290" — into the
+// forms stored in legal_provisions: the section column ("3", "116/A",
+// "6:272", "1–290", "Ptk4:1") and provision_ref ("s" + the section with
+// ':', '/' and '–' removed and lowercased: "s3", "s11a", "s6272", "s1290").
+// Candidates come back exact-match ready and deduplicated; a nil result
+// means the input carries no usable reference, and callers answer "not
+// found" instead of guessing (zero-hallucination: candidates only narrow to
+// canonical stored forms, never widen to fuzzy matches).
+func SectionRefCandidates(input string) []string {
+	clean := strings.Trim(strings.TrimSpace(input), sectionRefPunctuation)
+	if m := trailingSubsectionRe.FindStringSubmatch(clean); m != nil {
+		clean = strings.Trim(m[1], sectionRefPunctuation)
+	}
+	if clean == "" {
+		return nil
+	}
+	// Typed as a provision ref: strip the leading "s" marker ("s13" → "13").
+	base := clean
+	if len(base) >= 2 && (base[0] == 's' || base[0] == 'S') {
+		base = strings.Trim(base[1:], sectionRefPunctuation)
+	}
+	tidy := strings.NewReplacer(" ", "", "\u00a0", "", "-", "–", ".", "").Replace(base)
+	if strings.HasPrefix(strings.ToLower(tidy), "ptk") {
+		tidy = "Ptk" + tidy[3:] // the corpus stores the structure prefix capitalized
+	}
+	if !sectionRefGrammarRe.MatchString(tidy) {
+		// Not a known section form: keep the typed text (and its "s"-marked
+		// variant) as exact candidates so valid stored provision_refs that
+		// fall outside the grammar ("s13a" style) still resolve.
+		lower := strings.ToLower(strings.NewReplacer(" ", "", "\u00a0", "").Replace(base))
+		return dedupe([]string{lower, "s" + lower})
+	}
+	compact := compactSectionRe.Replace(strings.ToLower(tidy))
+	candidates := []string{tidy, "s" + compact}
+	if colon := strings.ReplaceAll(tidy, ":", ""); colon != tidy {
+		candidates = append(candidates, colon)
+	}
+	return dedupe(candidates)
+}
+
+// dedupe removes duplicates preserving first-seen order (candidate lists are
+// bounded, so a map is not worth it).
+func dedupe(candidates []string) []string {
+	out := candidates[:0]
+	for i, c := range candidates {
+		first := true
+		for _, prev := range candidates[:i] {
+			if prev == c {
+				first = false
+				break
+			}
+		}
+		if first {
+			out = append(out, c)
+		}
+	}
+	return out
+}

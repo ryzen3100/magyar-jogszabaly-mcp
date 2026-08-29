@@ -9,7 +9,11 @@
 > **D4** (trivy image-scan gate in docker-publish + all actions SHA-pinned),
 > **docs (c)(d)** (`internal/tools/doc.go` added, package-clause headers detached),
 > **docs (m)** (about.go freshness sentence), and **observability (c)** (tool-call
-> failures now logged server-side) are closed. Remaining, deliberately not fixed:
+> failures now logged server-side) are closed. **E5** (provision-ref lookup tolerance)
+> closed same day: `statute.SectionRefCandidates` is now the single normalization path
+> for get_provision, get_provision_eu_basis and validate_citation, and the fuzzy
+> `%ref%` LIKE tier was removed (deliberate TS divergence — it could resolve a ref to
+> an unrelated provision). Remaining, deliberately not fixed:
 >
 > - Regex suffix drift `…Pattern` (internal/ingest) vs `…Re` (fts/statute) — ~60
 >   identifier renames for zero behavior change; each file is internally consistent.

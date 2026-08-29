@@ -74,6 +74,21 @@ A csatlakozás után természetes nyelven is felteheted a kérdéseidet:
 - *"Milyen engedély kell kávézó nyitásához?"*
 - *"A partnerem 3 hónapja nem fizet, mit tegyek?"*
 
+### Keresési tippek
+
+A teljes szövegű keresés a **magyar nyelvű** jogszabályi szövegen fut, szótövezés
+(stemming) nélkül, ezért a keresőszavakra az alábbiak igazak:
+
+- **Magyar alanyesetű kulcsszavakkal** a legjobb a találat: a `szabadság munkavállaló`
+  kifejezés pontosabb, mint a `szabadságot a munkavállalónak`. A természetes nyelvű
+  kérdések is működnek (a központozás és a gyakori kötőszavak — *hány, milyen, kell,
+  hogy* — automatikusan kiszűrésre kerülnek, minden szó prefix-kereséssel és egy
+  egyszerű szótő-approximációval is próbálkozik), de a 2–4 kulcsszó pontosabb találatot ad.
+- Az uniós jogi aktusok címei **angolul** vannak tárolva — az `search_eu_implementations`
+  keresőben angolul érdemes keresni.
+- A `search_legislation` támogatja a `AND` / `OR` / `NOT` logikai operátorokat és a
+  szóvégi `*` prefix-keresést is.
+
 ---
 
 ## Az adatbázis tartalma

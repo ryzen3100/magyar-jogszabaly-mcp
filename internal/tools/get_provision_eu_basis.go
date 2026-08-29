@@ -63,13 +63,30 @@ func GetProvisionEUBasis(ctx context.Context, db *sql.DB, args map[string]any) (
 		return []provisionEUBasisResult{}, meta, nil
 	}
 
-	ref := strings.TrimSpace(*parsed.ProvisionRef)
+	// Exact-match candidates from the typed ref (statute.SectionRefCandidates:
+	// "3. §" → section "3" / provision_ref "s3"); no fuzzy tier.
+	candidates := statute.SectionRefCandidates(*parsed.ProvisionRef)
 	var provisionID int64
-	err = db.QueryRowContext(
-		ctx,
-		"SELECT id FROM legal_provisions WHERE document_id = ? AND (provision_ref = ? OR provision_ref = ? OR section = ?)",
-		resolvedID, ref, "s"+ref, ref,
-	).Scan(&provisionID)
+	if len(candidates) > 0 {
+		placeholders := strings.TrimRight(strings.Repeat("?,", len(candidates)), ",")
+		args := make([]any, 0, 2*len(candidates)+1)
+		args = append(args, resolvedID)
+		for _, c := range candidates {
+			args = append(args, c)
+		}
+		for _, c := range candidates {
+			args = append(args, c)
+		}
+		err = db.QueryRowContext(
+			ctx,
+			"SELECT id FROM legal_provisions WHERE document_id = ? AND "+
+				"(provision_ref IN ("+placeholders+") OR section IN ("+placeholders+")) "+
+				"ORDER BY id LIMIT 1",
+			args...,
+		).Scan(&provisionID)
+	} else {
+		err = sql.ErrNoRows
+	}
 	if errors.Is(err, sql.ErrNoRows) {
 		return []provisionEUBasisResult{}, GenerateResponseMetadata(ctx, db), nil
 	}

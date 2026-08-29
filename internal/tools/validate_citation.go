@@ -152,17 +152,29 @@ func ValidateCitation(ctx context.Context, db *sql.DB, args map[string]any) (any
 	}
 
 	if parsedCitation.SectionRef != "" {
-		// Normalize section ref: "6:272" → try "s6272", "s6:272", "6:272", "6272"
-		// (TS replace(':', '') removes only the first occurrence).
-		sectionClean := strings.Replace(parsedCitation.SectionRef, ":", "", 1)
+		// Same normalized exact-match candidates as get_provision (shared
+		// tolerance — audit E5): "6:272" → section "6:272"/"6272",
+		// provision_ref "s6272".
+		candidates := statute.SectionRefCandidates(parsedCitation.SectionRef)
 		var provisionRef string
-		err := db.QueryRowContext(ctx,
-			"SELECT provision_ref FROM legal_provisions WHERE document_id = ? AND "+
-				"(provision_ref = ? OR provision_ref = ? OR provision_ref = ? OR provision_ref = ? "+
-				"OR section = ? OR section = ?)",
-			docID, parsedCitation.SectionRef, "s"+parsedCitation.SectionRef,
-			"s"+sectionClean, sectionClean, parsedCitation.SectionRef, sectionClean,
-		).Scan(&provisionRef)
+		err := sql.ErrNoRows
+		if len(candidates) > 0 {
+			placeholders := strings.TrimRight(strings.Repeat("?,", len(candidates)), ",")
+			args := make([]any, 0, 2*len(candidates)+1)
+			args = append(args, docID)
+			for _, c := range candidates {
+				args = append(args, c)
+			}
+			for _, c := range candidates {
+				args = append(args, c)
+			}
+			err = db.QueryRowContext(ctx,
+				"SELECT provision_ref FROM legal_provisions WHERE document_id = ? AND "+
+					"(provision_ref IN ("+placeholders+") OR section IN ("+placeholders+")) "+
+					"ORDER BY id LIMIT 1",
+				args...,
+			).Scan(&provisionRef)
+		}
 		if errors.Is(err, sql.ErrNoRows) {
 			warnings = append(warnings, fmt.Sprintf("Provision \"%s. §\" not found in %s", parsedCitation.SectionRef, title))
 			return ValidateCitationResult{

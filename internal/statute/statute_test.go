@@ -177,3 +177,48 @@ func TestResolveDocumentIDCaseInsensitiveTitleFallback(t *testing.T) {
 		t.Errorf("ResolveDocumentID(%q) = %q, want %q", "mixedcase act", got, "doc-inforce")
 	}
 }
+
+func TestSectionRefCandidates(t *testing.T) {
+	t.Parallel()
+
+	tests := []struct {
+		input string
+		want  []string
+	}{
+		{"3", []string{"3", "s3"}},
+		{"3. §", []string{"3", "s3"}},
+		{"3.§", []string{"3", "s3"}},
+		{"  3.  § ", []string{"3", "s3"}},
+		{"§ 3", []string{"3", "s3"}},
+		{"3. § (2)", []string{"3", "s3"}},
+		{"s13", []string{"13", "s13"}},
+		{"116/A. §", []string{"116/A", "s116a"}},
+		{"6:272. §", []string{"6:272", "s6272", "6272"}},
+		{"3:99/A. §", []string{"3:99/A", "s399a", "399/A"}},
+		{"1-290", []string{"1–290", "s1290"}},
+		{"1–290. §", []string{"1–290", "s1290"}},
+		{"Ptk4. §", []string{"Ptk4", "sptk4"}},
+		{"Ptk. 4:1. §", []string{"Ptk4:1", "sptk41", "Ptk41"}},
+		// Grammar miss: typed provision_ref kept as exact candidates.
+		{"s13a", []string{"13a", "s13a"}},
+		{"zzz", []string{"zzz", "szzz"}},
+		// No usable reference at all.
+		{"", nil},
+		{"§", nil},
+		{"   ", nil},
+	}
+	for _, tt := range tests {
+		t.Run(tt.input, func(t *testing.T) {
+			t.Parallel()
+			got := SectionRefCandidates(tt.input)
+			if len(got) != len(tt.want) {
+				t.Fatalf("SectionRefCandidates(%q) = %q, want %q", tt.input, got, tt.want)
+			}
+			for i := range got {
+				if got[i] != tt.want[i] {
+					t.Fatalf("SectionRefCandidates(%q) = %q, want %q", tt.input, got, tt.want)
+				}
+			}
+		})
+	}
+}
