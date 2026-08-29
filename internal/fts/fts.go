@@ -130,15 +130,17 @@ func BuildQueryVariants(sanitized string) []string {
 // hungarianStopWords are function words with no discriminating power over the
 // corpus: nearly every provision contains them, so keeping them in AND/PREFIX
 // variants makes those tiers miss and pushes every natural-language question
-// down to the OR tier. Bounded hand-picked list — ponytail ceiling: a real
-// frequency-weighted stop list (or corpus-derived one) is the upgrade path.
-// "a" (definite article) is deliberately kept out to preserve the pinned
-// TS-parity variant shape for short queries.
+// down to the OR tier. "nem" and the definite article "a"/"az" are included —
+// they are the most frequent tokens in Hungarian legal prose and dominate
+// OR-tier ranking otherwise (the "a b c" variant-shape parity with the TS
+// tests is deliberately diverged from for this; see the pinned test).
+// Bounded hand-picked list — ponytail ceiling: a real frequency-weighted
+// stop list (or corpus-derived one) is the upgrade path.
 var hungarianStopWords = map[string]bool{
 	"hány": true, "mennyi": true, "milyen": true, "hogyan": true, "miért": true,
 	"hogy": true, "hogyha": true, "ahhoz": true, "ehhez": true, "egy": true,
 	"kell": true, "kellene": true, "lehet": true, "van": true, "vannak": true,
-	"az": true,
+	"az": true, "a": true, "nem": true,
 }
 
 func filterStopWords(terms []string) []string {

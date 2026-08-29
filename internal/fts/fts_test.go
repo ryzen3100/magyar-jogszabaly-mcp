@@ -83,13 +83,14 @@ func TestBuildQueryVariants(t *testing.T) {
 			"személyes OR adat",
 		}},
 		{
-			// Deliberate TS divergence: prefix-all tier inserted before OR.
-			"three terms, only last starred", "a b c", []string{
-				`"a b c"`,
-				"a AND b AND c",
-				"a AND b AND c*",
-				"a* AND b* AND c*",
-				"a OR b OR c",
+			// Deliberate TS divergence: prefix-all tier inserted before OR, and
+			// "a" (definite article) is filtered as a Hungarian stopword.
+			"three terms, article filtered", "a b c", []string{
+				`"b c"`,
+				"b AND c",
+				"b AND c*",
+				"b* AND c*",
+				"b OR c",
 			}},
 		{"boolean passthrough verbatim, whitespace not collapsed", "a AND  b", []string{"a AND  b"}},
 		// "év" is 2 UTF-16 units but 3 UTF-8 bytes: no star variant (TS length semantics)
