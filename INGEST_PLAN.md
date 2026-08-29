@@ -8,6 +8,39 @@ rendelet, 531/2017. (XII. 29.) Korm. rendelet — kiskereskedelmi/üzletnyitás)
 cannot be answered at all. Verified against the DB: of 4,326 documents, only 2
 mention "Korm. rendelet" in the title.
 
+## How this was found
+
+While testing the deployed dev container through its MCP tools, the
+natural-language acceptance question was:
+
+> **"Milyen engedély kell ahhoz, hogy nyissak egy kávézót?"**
+> *(What permits do I need to open a coffee shop?)*
+
+The search returned 5 results — all parliamentary acts matched on the generic
+token `engedély` (energetika, szőlőtelepítés, távhő, hulladékgazdálkodás,
+harmadik országbeli munkavállalás) — none of them the actual regulating
+legislation. The expected answers (known ground truth) were:
+
+- 210/2009. (IX. 29.) Korm. rendelet 1. §, 6. § és 22. §
+- 531/2017. (XII. 29.) Korm. rendelet 1. §
+
+Direct SQLite checks against `data/database.db` then showed the real cause —
+not search ranking, but missing data:
+
+```sql
+SELECT id, title FROM legal_documents
+WHERE id LIKE 'hu-law-2009-210%' OR title LIKE '%210/2009%';   -- 0 rows
+SELECT id, title FROM legal_documents
+WHERE id LIKE 'hu-law-2017-531%' OR title LIKE '%531/2017%';   -- 0 rows
+SELECT type, COUNT(*) FROM legal_documents GROUP BY type;      -- statute: 4326
+SELECT COUNT(*) FROM legal_documents
+WHERE title LIKE '%Korm. rendelet%';                           -- 2
+```
+
+The decrees that regulate café/restaurant opening were never ingested: the
+seed corpus was built from the **curated acts discovery**, not the full
+njt.hu corpus. Only a full-corpus ingest (below) can close the gap.
+
 ## Goal
 
 Extend the corpus from the curated act set to the **full njt.hu corpus**
