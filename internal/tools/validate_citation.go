@@ -159,19 +159,9 @@ func ValidateCitation(ctx context.Context, db *sql.DB, args map[string]any) (any
 		var provisionRef string
 		err := sql.ErrNoRows
 		if len(candidates) > 0 {
-			placeholders := strings.TrimRight(strings.Repeat("?,", len(candidates)), ",")
-			args := make([]any, 0, 2*len(candidates)+1)
-			args = append(args, docID)
-			for _, c := range candidates {
-				args = append(args, c)
-			}
-			for _, c := range candidates {
-				args = append(args, c)
-			}
+			where, args := provisionRefQuery(docID, candidates)
 			err = db.QueryRowContext(ctx,
-				"SELECT provision_ref FROM legal_provisions WHERE document_id = ? AND "+
-					"(provision_ref IN ("+placeholders+") OR section IN ("+placeholders+")) "+
-					"ORDER BY id LIMIT 1",
+				"SELECT provision_ref FROM legal_provisions WHERE "+where+" ORDER BY id LIMIT 1",
 				args...,
 			).Scan(&provisionRef)
 		}

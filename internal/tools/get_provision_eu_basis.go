@@ -8,7 +8,6 @@ import (
 	"database/sql"
 	"errors"
 	"fmt"
-	"strings"
 
 	"github.com/ryzen3100/magyar-jogszabaly-mcp/v2/internal/statute"
 	"github.com/ryzen3100/magyar-jogszabaly-mcp/v2/internal/store"
@@ -68,20 +67,10 @@ func GetProvisionEUBasis(ctx context.Context, db *sql.DB, args map[string]any) (
 	candidates := statute.SectionRefCandidates(*parsed.ProvisionRef)
 	var provisionID int64
 	if len(candidates) > 0 {
-		placeholders := strings.TrimRight(strings.Repeat("?,", len(candidates)), ",")
-		args := make([]any, 0, 2*len(candidates)+1)
-		args = append(args, resolvedID)
-		for _, c := range candidates {
-			args = append(args, c)
-		}
-		for _, c := range candidates {
-			args = append(args, c)
-		}
+		where, args := provisionRefQuery(resolvedID, candidates)
 		err = db.QueryRowContext(
 			ctx,
-			"SELECT id FROM legal_provisions WHERE document_id = ? AND "+
-				"(provision_ref IN ("+placeholders+") OR section IN ("+placeholders+")) "+
-				"ORDER BY id LIMIT 1",
+			"SELECT id FROM legal_provisions WHERE "+where+" ORDER BY id LIMIT 1",
 			args...,
 		).Scan(&provisionID)
 	} else {
