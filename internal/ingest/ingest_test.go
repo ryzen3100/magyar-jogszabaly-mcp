@@ -316,11 +316,11 @@ func TestPipelineRun(t *testing.T) {
 			t.Errorf("output missing %q:\n%s", want, out.String())
 		}
 	}
-	if count("search-url") != 1 || count("search-page") != 1 {
-		t.Errorf("discovery requests = (%d, %d), want (1, 1)", count("search-url"), count("search-page"))
+	if count("search-url") != 2 || count("search-page") != 2 {
+		t.Errorf("discovery requests = (%d, %d), want (2, 2)", count("search-url"), count("search-page"))
 	}
 
-	if _, err := os.Stat(filepath.Join(sourceDir, "law-discovery-all.json")); err != nil {
+	if _, err := os.Stat(filepath.Join(sourceDir, "law-discovery-all-0000-2220.json")); err != nil {
 		t.Errorf("discovery cache: %v", err)
 	}
 	for _, name := range seedNames {
@@ -353,8 +353,8 @@ func TestPipelineRun(t *testing.T) {
 	if !strings.Contains(out2.String(), "Loaded discovery cache (4 laws)") {
 		t.Errorf("output should name the loaded discovery cache:\n%s", out2.String())
 	}
-	if count("search-url") != 1 || count("search-page") != 1 {
-		t.Errorf("cache-hit run re-discovered: (%d, %d), want (1, 1)", count("search-url"), count("search-page"))
+	if count("search-url") != 2 || count("search-page") != 2 {
+		t.Errorf("cache-hit run re-discovered: (%d, %d), want (2, 2)", count("search-url"), count("search-page"))
 	}
 
 	// --resume over the existing seeds caches every act without network.

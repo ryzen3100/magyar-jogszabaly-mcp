@@ -9,6 +9,7 @@
 //	ingest -full -in-force-only             # full discovery for in-force laws only
 //	ingest -full -discover-only             # discover all laws metadata only
 //	ingest -full -resume                    # skip already-generated seed files
+//	ingest -full -author-types 2220         # discovery scoped to Korm. rendeletek
 //	ingest -skip-fetch                      # reuse locally cached HTML where available
 package main
 
@@ -33,7 +34,9 @@ func main() {
 		skipFetch        = flag.Bool("skip-fetch", false, "reuse locally cached HTML where available")
 		discoverOnly     = flag.Bool("discover-only", false, "discover laws metadata only, without fetching acts")
 		inForceOnly      = flag.Bool("in-force-only", false, "restrict full discovery to in-force laws")
-		baseURL          = flag.String("base-url", ingest.DefaultBaseURL,
+		authorTypes      = flag.String("author-types", strings.Join(ingest.DefaultAuthorTypes, ","),
+			"comma-separated njt.hu jogszabálytípus codes for discovery (0000 = törvény, 2220 = Korm. rendelet; empty = all types)")
+		baseURL = flag.String("base-url", ingest.DefaultBaseURL,
 			"njt.hu origin (override points discovery and act fetches at a mirror/test server)")
 		dataDir = flag.String("data-dir", "data",
 			"root directory holding source HTML (<dir>/source) and seed JSON (<dir>/seed)")
@@ -58,6 +61,7 @@ func main() {
 		SkipFetch:        *skipFetch,
 		DiscoverOnly:     *discoverOnly,
 		InForceOnly:      *inForceOnly,
+		AuthorTypes:      strings.Split(*authorTypes, ","),
 	})
 	if err != nil {
 		fmt.Fprintln(os.Stderr, "Fatal ingestion error:", err)

@@ -18,8 +18,10 @@ import (
 )
 
 const (
-	// DefaultBaseURL is the official njt.hu origin.
-	DefaultBaseURL = "https://njt.hu"
+	// DefaultBaseURL is the official njt.hu corpus origin. njt.hu now
+	// 301-redirects here and its POST endpoints fail across the redirect
+	// (HTTP 405), so the corpus origin is used directly (verified 2026-08-29).
+	DefaultBaseURL = "https://njt.jog.gov.hu"
 	ajaxSearchPath = "/ajax/get_search_url.json"
 	ajaxBlockPath  = "/ajax/njtGetBlock.json"
 
@@ -37,7 +39,18 @@ type Options struct {
 	SkipFetch        bool
 	DiscoverOnly     bool
 	InForceOnly      bool
+	// AuthorTypes selects the njt.hu jogszabálytípus filter codes passed to
+	// discovery (one search per code, results merged). "0000" = törvény,
+	// "2220" = Korm. rendelet; the empty string means every type. Empty
+	// slice falls back to DefaultAuthorTypes.
+	AuthorTypes []string
 }
+
+// DefaultAuthorTypes is the default discovery scope: parliamentary acts plus
+// Korm. rendeletek. Before 2026-08-29 discovery used only "0000" — which the
+// search dropdown reveals means "törvény", not "all types" — so every decree
+// was silently missing from the corpus.
+var DefaultAuthorTypes = []string{"0000", "2220"}
 
 // Pipeline wires the fetcher, on-disk directories and output sink together.
 type Pipeline struct {
@@ -103,6 +116,10 @@ func (p *Pipeline) Run(ctx context.Context, opts Options) error {
 	p.printf("  Mode: %s\n", mode)
 
 	if opts.Full {
+		if len(opts.AuthorTypes) == 0 {
+			opts.AuthorTypes = DefaultAuthorTypes
+		}
+		p.printf("  Author types: %s\n", strings.Join(opts.AuthorTypes, ", "))
 		p.printf("  In-force only: %s\n", yesNo(opts.InForceOnly))
 	}
 	if opts.SkipFetch {
@@ -123,25 +140,25 @@ func (p *Pipeline) Run(ctx context.Context, opts Options) error {
 	if opts.Full {
 		var discovered []DiscoveredLaw
 		if !opts.RefreshDiscovery {
-			discovered = p.readDiscoveryCache(opts.InForceOnly)
+			discovered = p.readDiscoveryCache(opts.InForceOnly, opts.AuthorTypes)
 		}
 
 		if discovered == nil {
 			p.printf("\nDiscovering laws from njt.hu search index...\n")
 			var err error
-			discovered, err = p.discoverLaws(ctx, opts.InForceOnly)
+			discovered, err = p.discoverLaws(ctx, opts.InForceOnly, opts.AuthorTypes)
 			if err != nil {
 				return err
 			}
 		} else {
-			p.printf("\nLoaded discovery cache (%d laws): %s\n", len(discovered), p.discoveryCachePath(opts.InForceOnly))
+			p.printf("\nLoaded discovery cache (%d laws): %s\n", len(discovered), p.discoveryCachePath(opts.InForceOnly, opts.AuthorTypes))
 		}
 
 		acts = BuildFullCorpusActList(discovered)
 
 		p.printf("  Discovered laws: %d\n", len(discovered))
 		p.printf("  Ingestion act list: %d (includes compatibility aliases where needed)\n", len(acts))
-		p.printf("  Discovery cache: %s\n", p.discoveryCachePath(opts.InForceOnly))
+		p.printf("  Discovery cache: %s\n", p.discoveryCachePath(opts.InForceOnly, opts.AuthorTypes))
 	} else {
 		acts = slices.Clone(KeyHungarianActs)
 	}

@@ -65,7 +65,7 @@ func TestCmdIngestEndToEnd(t *testing.T) {
 	}
 
 	// Discovery cache written under <data-dir>/source.
-	if _, err := os.Stat(filepath.Join(dataDir, "source", "law-discovery-all.json")); err != nil {
+	if _, err := os.Stat(filepath.Join(dataDir, "source", "law-discovery-all-0000-2220.json")); err != nil {
 		t.Errorf("discovery cache: %v", err)
 	}
 

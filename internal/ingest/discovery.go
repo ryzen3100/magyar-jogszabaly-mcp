@@ -61,8 +61,8 @@ type searchURLResponse struct {
 
 // searchPathPattern bounds the tokenized search path njt.hu's AJAX endpoint
 // returns before it is embedded in discovery URLs (it is remote input); real
-// paths are slash-separated segments like "tok/en".
-var searchPathPattern = regexp.MustCompile(`^[A-Za-z0-9._/-]+$`)
+// paths are colon-separated filter tokens like "-:0000:-:-:...".
+var searchPathPattern = regexp.MustCompile(`^[A-Za-z0-9.:/-]+$`)
 
 var (
 	njtDocIDPattern  = regexp.MustCompile(`/jogszabaly/([^/?#]+)`)
@@ -76,10 +76,12 @@ var (
 	mainLinkPattern = regexp.MustCompile(
 		`(?i)(<a[^>]*href="jogszabaly/([0-9]{4}-[0-9A-Z]+-[0-9A-Z]{2}-[0-9A-Z]{2})"[^>]*>)([\s\S]*?)</a>`)
 	linkClassPattern   = regexp.MustCompile(`(?i)class="([^"]*)"`)
-	descriptionPattern = regexp.MustCompile(`(?i)<p>([\s\S]*?)</p>`)
+	descriptionPattern = regexp.MustCompile(`(?i)<p[^>]*>([\s\S]*?)</p>`)
 	titleEnPattern     = regexp.MustCompile(`(?i)class="resultItem translation"[^>]*title="([^"]+)"`)
-	resultDatePattern  = regexp.MustCompile(`(?i)<span class="resultDate"[^>]*>([\s\S]*?)</span>`)
-	datePattern        = regexp.MustCompile(`(\d{4})\.\s*(\d{2})\.\s*(\d{2})\.`)
+	// resultDate may carry extra classes on the current layout
+	// ("resultDate text-xsmall").
+	resultDatePattern = regexp.MustCompile(`(?i)<span[^>]*class="[^"]*resultDate[^"]*"[^>]*>([\s\S]*?)</span>`)
+	datePattern       = regexp.MustCompile(`(\d{4})\.\s*(\d{2})\.\s*(\d{2})\.`)
 )
 
 // ExtractNjtDocumentID extracts the njt.hu document id from an act URL
@@ -113,7 +115,18 @@ func ParseSearchResultPage(html, baseURL string) []DiscoveredLaw {
 	laws := []DiscoveredLaw{}
 
 	for _, chunk := range chunks {
-		m := mainLinkPattern.FindStringSubmatch(chunk)
+		// The current njt.hu layout puts icon-only anchors (the "Indokolás"
+		// justification variant, IDs containing "-K0-") before the main
+		// result link; pick the first anchor that has a real title and is
+		// not a justification variant.
+		var m []string
+		for _, cand := range mainLinkPattern.FindAllStringSubmatch(chunk, -1) {
+			if strings.Contains(cand[2], "-K0-") || strings.TrimSpace(HTMLToText(cand[3])) == "" {
+				continue
+			}
+			m = cand
+			break
+		}
 		if m == nil {
 			continue
 		}
@@ -176,11 +189,14 @@ func ParseSearchResultPage(html, baseURL string) []DiscoveredLaw {
 
 // fetchSearchPathForLaws resolves the tokenized search path for the discovery
 // query via the get_search_url.json endpoint.
-func (p *Pipeline) fetchSearchPathForLaws(ctx context.Context, inForceOnly bool) (string, error) {
+// fetchSearchPathForLaws resolves the tokenized search path for the discovery
+// query via the get_search_url.json endpoint. authorType is the njt.hu
+// jogszabálytípus code ("0000" = törvény, "2220" = Korm. rendelet; "" = all).
+func (p *Pipeline) fetchSearchPathForLaws(ctx context.Context, inForceOnly bool, authorType string) (string, error) {
 	payload, err := json.Marshal(searchURLPayload{
 		Evszam:       "",
 		Sorszam:      "",
-		AuthorType:   "0000",
+		AuthorType:   authorType,
 		Szokereso:    "",
 		CsakHatalyos: inForceOnly,
 	})
@@ -213,18 +229,19 @@ func (p *Pipeline) fetchSearchPathForLaws(ctx context.Context, inForceOnly bool)
 	return parsed.URL, nil
 }
 
-func (p *Pipeline) discoveryCachePath(inForceOnly bool) string {
+func (p *Pipeline) discoveryCachePath(inForceOnly bool, authorTypes []string) string {
 	suffix := "all"
 	if inForceOnly {
 		suffix = "in-force"
 	}
-	return filepath.Join(p.SourceDir, "law-discovery-"+suffix+".json")
+	return filepath.Join(p.SourceDir, "law-discovery-"+suffix+"-"+strings.Join(authorTypes, "-")+".json")
 }
 
 // readDiscoveryCache returns the cached discovery results, or nil when the
-// cache is missing, unreadable, or does not match the requested mode.
-func (p *Pipeline) readDiscoveryCache(inForceOnly bool) []DiscoveredLaw {
-	data, err := os.ReadFile(p.discoveryCachePath(inForceOnly))
+// cache is missing, unreadable, or does not match the requested mode and
+// author types.
+func (p *Pipeline) readDiscoveryCache(inForceOnly bool, authorTypes []string) []DiscoveredLaw {
+	data, err := os.ReadFile(p.discoveryCachePath(inForceOnly, authorTypes))
 	if err != nil {
 		return nil
 	}
@@ -238,54 +255,56 @@ func (p *Pipeline) readDiscoveryCache(inForceOnly bool) []DiscoveredLaw {
 	return parsed.Laws
 }
 
-// discoverLaws walks the njt.hu search index and caches the results.
-func (p *Pipeline) discoverLaws(ctx context.Context, inForceOnly bool) ([]DiscoveredLaw, error) {
+// discoverLaws walks the njt.hu search index once per jogszabálytípus code
+// (authorTypes; the empty string means every type) and caches the merged
+// results.
+func (p *Pipeline) discoverLaws(ctx context.Context, inForceOnly bool, authorTypes []string) ([]DiscoveredLaw, error) {
 	if err := os.MkdirAll(p.SourceDir, 0o755); err != nil {
 		return nil, err
 	}
 
-	searchPath, err := p.fetchSearchPathForLaws(ctx, inForceOnly)
-	if err != nil {
-		return nil, err
-	}
-	if !searchPathPattern.MatchString(searchPath) || strings.Contains(searchPath, "..") {
-		return nil, fmt.Errorf("search path %q has unexpected characters", searchPath)
-	}
-	firstURL := fmt.Sprintf("%s/search/%s/1/%d", p.BaseURL, searchPath, DiscoveryPageSize)
-
-	firstPage, err := p.Fetcher.Fetch(ctx, firstURL, nil)
-	if err != nil {
-		return nil, err
-	}
-	if firstPage.Status != 200 {
-		return nil, fmt.Errorf("discovery page fetch failed (HTTP %d)", firstPage.Status)
-	}
-
-	totalPages := ExtractTotalPages(firstPage.Body)
 	discoveredMap := map[string]DiscoveredLaw{}
 
-	for _, law := range ParseSearchResultPage(firstPage.Body, p.BaseURL) {
-		discoveredMap[law.DocumentID] = law
-	}
-
-	for page := 2; page <= totalPages; page++ {
-		url := fmt.Sprintf("%s/search/%s/%d/%d", p.BaseURL, searchPath, page, DiscoveryPageSize)
-		resp, err := p.Fetcher.Fetch(ctx, url, nil)
+	for _, authorType := range authorTypes {
+		searchPath, err := p.fetchSearchPathForLaws(ctx, inForceOnly, authorType)
 		if err != nil {
 			return nil, err
 		}
-		if resp.Status != 200 {
-			return nil, fmt.Errorf("discovery page %d failed (HTTP %d)", page, resp.Status)
+		if !searchPathPattern.MatchString(searchPath) || strings.Contains(searchPath, "..") {
+			return nil, fmt.Errorf("search path %q has unexpected characters", searchPath)
+		}
+		firstURL := fmt.Sprintf("%s/search/%s/1/%d", p.BaseURL, searchPath, DiscoveryPageSize)
+
+		firstPage, err := p.Fetcher.Fetch(ctx, firstURL, nil)
+		if err != nil {
+			return nil, err
+		}
+		if firstPage.Status != 200 {
+			return nil, fmt.Errorf("discovery page fetch failed (HTTP %d)", firstPage.Status)
 		}
 
-		for _, law := range ParseSearchResultPage(resp.Body, p.BaseURL) {
-			if _, seen := discoveredMap[law.DocumentID]; !seen {
+		totalPages := ExtractTotalPages(firstPage.Body)
+		for _, law := range ParseSearchResultPage(firstPage.Body, p.BaseURL) {
+			discoveredMap[law.DocumentID] = law
+		}
+
+		for page := 2; page <= totalPages; page++ {
+			url := fmt.Sprintf("%s/search/%s/%d/%d", p.BaseURL, searchPath, page, DiscoveryPageSize)
+			resp, err := p.Fetcher.Fetch(ctx, url, nil)
+			if err != nil {
+				return nil, err
+			}
+			if resp.Status != 200 {
+				return nil, fmt.Errorf("discovery page %d failed (HTTP %d)", page, resp.Status)
+			}
+
+			for _, law := range ParseSearchResultPage(resp.Body, p.BaseURL) {
 				discoveredMap[law.DocumentID] = law
 			}
-		}
 
-		if page%10 == 0 || page == totalPages {
-			p.printf("  Discovery progress: page %d/%d (%d laws)\n", page, totalPages, len(discoveredMap))
+			if page%10 == 0 || page == totalPages {
+				p.printf("  Discovery progress: type %s, page %d/%d (%d laws)\n", authorType, page, totalPages, len(discoveredMap))
+			}
 		}
 	}
 
@@ -293,7 +312,7 @@ func (p *Pipeline) discoverLaws(ctx context.Context, inForceOnly bool) ([]Discov
 		return strings.Compare(a.DocumentID, b.DocumentID)
 	})
 
-	if err := writeJSONFile(p.discoveryCachePath(inForceOnly), DiscoverySeed{
+	if err := writeJSONFile(p.discoveryCachePath(inForceOnly, authorTypes), DiscoverySeed{
 		InForceOnly: inForceOnly,
 		PageSize:    DiscoveryPageSize,
 		Laws:        laws,

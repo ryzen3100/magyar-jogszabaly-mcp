@@ -144,7 +144,7 @@ func TestFetchSearchPathForLaws(t *testing.T) {
 	p := newFastPipeline(t.TempDir(), t.TempDir())
 	p.BaseURL = ts.URL
 
-	path, err := p.fetchSearchPathForLaws(t.Context(), true)
+	path, err := p.fetchSearchPathForLaws(t.Context(), true, "0000")
 	if err != nil {
 		t.Fatalf("fetchSearchPathForLaws: %v", err)
 	}
@@ -180,7 +180,7 @@ func TestFetchSearchPathForLawsErrors(t *testing.T) {
 		defer ts.Close()
 		p := newFastPipeline(t.TempDir(), t.TempDir())
 		p.BaseURL = ts.URL
-		if _, err := p.fetchSearchPathForLaws(t.Context(), false); err == nil || !strings.Contains(err.Error(), "HTTP 500") {
+		if _, err := p.fetchSearchPathForLaws(t.Context(), false, "0000"); err == nil || !strings.Contains(err.Error(), "HTTP 500") {
 			t.Errorf("err = %v", err)
 		}
 	})
@@ -191,7 +191,7 @@ func TestFetchSearchPathForLawsErrors(t *testing.T) {
 		defer ts.Close()
 		p := newFastPipeline(t.TempDir(), t.TempDir())
 		p.BaseURL = ts.URL
-		if _, err := p.fetchSearchPathForLaws(t.Context(), false); err == nil || !strings.Contains(err.Error(), "not JSON") {
+		if _, err := p.fetchSearchPathForLaws(t.Context(), false, "0000"); err == nil || !strings.Contains(err.Error(), "not JSON") {
 			t.Errorf("err = %v", err)
 		}
 	})
@@ -202,7 +202,7 @@ func TestFetchSearchPathForLawsErrors(t *testing.T) {
 		defer ts.Close()
 		p := newFastPipeline(t.TempDir(), t.TempDir())
 		p.BaseURL = ts.URL
-		if _, err := p.fetchSearchPathForLaws(t.Context(), false); err == nil || !strings.Contains(err.Error(), "valid path") {
+		if _, err := p.fetchSearchPathForLaws(t.Context(), false, "0000"); err == nil || !strings.Contains(err.Error(), "valid path") {
 			t.Errorf("err = %v", err)
 		}
 	})
@@ -213,7 +213,7 @@ func TestFetchSearchPathForLawsErrors(t *testing.T) {
 		defer ts.Close()
 		p := newFastPipeline(t.TempDir(), t.TempDir())
 		p.BaseURL = ts.URL
-		if _, err := p.discoverLaws(t.Context(), false); err == nil || !strings.Contains(err.Error(), "unexpected characters") {
+		if _, err := p.discoverLaws(t.Context(), false, []string{"0000"}); err == nil || !strings.Contains(err.Error(), "unexpected characters") {
 			t.Errorf("err = %v", err)
 		}
 	})
@@ -240,7 +240,7 @@ func TestDiscoverLawsPaginationAndCache(t *testing.T) {
 	p := newFastPipeline(sourceDir, t.TempDir())
 	p.BaseURL = ts.URL
 
-	laws, err := p.discoverLaws(t.Context(), false)
+	laws, err := p.discoverLaws(t.Context(), false, []string{"0000"})
 	if err != nil {
 		t.Fatalf("discoverLaws: %v", err)
 	}
@@ -255,7 +255,7 @@ func TestDiscoverLawsPaginationAndCache(t *testing.T) {
 		}
 	}
 
-	cachePath := filepath.Join(sourceDir, "law-discovery-all.json")
+	cachePath := filepath.Join(sourceDir, "law-discovery-all-0000.json")
 	data, err := os.ReadFile(cachePath)
 	if err != nil {
 		t.Fatalf("cache not written: %v", err)
@@ -272,23 +272,64 @@ func TestDiscoverLawsPaginationAndCache(t *testing.T) {
 	}
 
 	// Same-mode cache is accepted; other modes and page sizes are rejected.
-	if got := p.readDiscoveryCache(false); len(got) != 4 {
+	if got := p.readDiscoveryCache(false, []string{"0000"}); len(got) != 4 {
 		t.Errorf("readDiscoveryCache(false) = %d laws, want 3", len(got))
 	}
-	if got := p.readDiscoveryCache(true); got != nil {
+	if got := p.readDiscoveryCache(true, []string{"0000"}); got != nil {
 		t.Errorf("readDiscoveryCache(true) should reject mismatched mode, got %d", len(got))
 	}
 	broken := []byte(`{"inForceOnly":false,"pageSize":10,"laws":[]}`)
 	if err := os.WriteFile(cachePath, broken, 0o644); err != nil {
 		t.Fatal(err)
 	}
-	if got := p.readDiscoveryCache(false); got != nil {
+	if got := p.readDiscoveryCache(false, []string{"0000"}); got != nil {
 		t.Errorf("mismatched pageSize cache should be rejected, got %d", len(got))
 	}
 	if err := os.WriteFile(cachePath, []byte("not json"), 0o644); err != nil {
 		t.Fatal(err)
 	}
-	if got := p.readDiscoveryCache(false); got != nil {
+	if got := p.readDiscoveryCache(false, []string{"0000"}); got != nil {
 		t.Errorf("corrupt cache should be rejected, got %d", len(got))
+	}
+}
+
+// newLayoutPageHTML mirrors the 2026 njt.jog.gov.hu result markup: each chunk
+// starts with icon-only anchors (the "Indokolás" justification variant,
+// docid-K0-00) and time-status variants (docid.N) before the main link.
+const newLayoutPageHTML = `<div class="resultWrapper">
+<span id="page-count"> / 1 </span>
+<div class="resultItemWrapper">
+ <span class="document_info_icon"><i class="ri-prohibited-2-line" title="Már nem hatályos"></i></span>
+ <a class="document_justification_icon" href="jogszabaly/2009-210-K0-00" title="Indokolás"><i class="indokolas"></i></a>
+ <div class="resultItem">
+  <a class="past text-medium font-bold no-underline" href="jogszabaly/2009-210-20-22">210/2009. (IX. 29.) Korm. rendelet</a>
+  <br/>
+  <span class="resultDate text-xsmall">2009. 10. 01. – 2009. 10. 05.</span>
+  <p class="text-small">a kereskedelmi tevékenységek végzésének feltételeiről</p>
+ </div>
+ <a href="jogszabaly/2009-210-20-22.4"><i class="ri-calendar-2-line"></i></a>
+</div>
+</div>`
+
+func TestParseSearchResultPageNewLayout(t *testing.T) {
+	laws := ParseSearchResultPage(newLayoutPageHTML, "https://njt.jog.gov.hu")
+	if len(laws) != 1 {
+		t.Fatalf("got %d laws, want 1: %+v", len(laws), laws)
+	}
+	law := laws[0]
+	if law.DocumentID != "2009-210-20-22" {
+		t.Errorf("doc id = %q (justification link must be skipped)", law.DocumentID)
+	}
+	if law.Title != "210/2009. (IX. 29.) Korm. rendelet a kereskedelmi tevékenységek végzésének feltételeiről" {
+		t.Errorf("title = %q", law.Title)
+	}
+	if law.Status != "repealed" {
+		t.Errorf("status = %q", law.Status)
+	}
+	if law.InForceDate != "2009-10-01" {
+		t.Errorf("inForceDate = %q", law.InForceDate)
+	}
+	if law.URL != "https://njt.jog.gov.hu/jogszabaly/2009-210-20-22" {
+		t.Errorf("url = %q", law.URL)
 	}
 }
