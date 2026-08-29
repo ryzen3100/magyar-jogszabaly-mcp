@@ -1,5 +1,24 @@
 # Go Skills Audit — magyar-jogszabaly-mcp
 
+> **Status: 2026-08-29.** ~85% of the findings below have been implemented in commits
+> `69ed6da` (blocking tier), `d494be5` (important tier), `f23c6d9`+`2dffecc`+`fbe2ba7`
+> (suggestions/naming) and `d72accb` (modernize), and were re-verified against the live
+> tree. The sections below describe the codebase as of 2026-08-27, not today. Findings
+> still open after re-verification:
+>
+> - **T6** — DB-backed tests gate on runtime `t.Skip` (`RealDBAvailable()`) instead of a
+>   build tag (documented as intentional in `AGENTS.md`).
+> - **D4 (partial)** — `docker-publish.yml` never scans the built image; a few workflow
+>   actions remain tag-pinned rather than SHA-pinned.
+> - **Docs (c)(d)** — port-note headers still sit on the `package` clause of ~10
+>   `internal/tools` files; no `doc.go` exists under `internal/`.
+> - **Docs (m)** — `about.go` still claims the DB updates daily, contradicting the
+>   manual/CI-driven update model.
+> - **Observability (c, partial)** — tool-call handler errors are returned in-band
+>   without a server-side log (`internal/tools/registry.go` dispatch).
+> - Nits: `build.go` multi-arg `Exec` formatting; regex suffix drift `…Pattern`/`…Re`;
+>   `seed.DocumentSeed` stutter (deliberate TS parity).
+
 Date: 2026-08-27 · Method: 27 read-only sub-agents, one per skill-concern split, each applying its skill's audit/full-scan checklist to a distinct scope. Full-file reads + grep; only the test-execution agent ran the suite (`go test`, `-race`, `-cover`), only the tooling agents ran `gofmt`/`go vet`/`staticcheck`/`govulncheck`/the `modernize` analyzer. No files were modified.
 
 - ~12.1k lines of Go (8 `internal/` packages, 4 `cmd/` binaries), 27 test files, 67 Go files total.

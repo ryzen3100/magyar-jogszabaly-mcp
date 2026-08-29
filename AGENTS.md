@@ -106,8 +106,8 @@ Data inputs: `data/seed/*.json` (one JSON per statute, from njt.hu HTML),
   declares a JSON-Schema `inputSchema` with field descriptions. Keep SQL parameterized;
   reuse the existing FTS/query and document-ID helpers in `internal/fts` and `internal/statute`
   rather than constructing ad-hoc search or identifier parsing.
-- Audit/review docs live at repo root (`AUDIT_V3.md`, `AUDIT_v3-TODO.md`,
-  `AUDIT_GOLANG_SKILLS.md`); check them before re-doing a known review.
+- Audit/review docs live at repo root (`AUDIT_GOLANG_SKILLS.md`); check it before
+  re-doing a known review.
 
 ## Security and data-integrity considerations
 
