@@ -10,6 +10,7 @@ import (
 	"errors"
 	"fmt"
 	"regexp"
+	"slices"
 	"strings"
 )
 
@@ -179,14 +180,7 @@ func SectionRefCandidates(input string) []string {
 func dedupe(candidates []string) []string {
 	out := candidates[:0]
 	for i, c := range candidates {
-		first := true
-		for _, prev := range candidates[:i] {
-			if prev == c {
-				first = false
-				break
-			}
-		}
-		if first {
+		if !slices.Contains(candidates[:i], c) {
 			out = append(out, c)
 		}
 	}
