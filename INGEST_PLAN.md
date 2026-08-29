@@ -70,6 +70,22 @@ search cover decree-level law.
      Mt. 115–117. § (2012. évi I. törvény).
 7. PR → `dev` (never push directly to `main`).
 
+## Starting state: nothing is cached — everything must be scraped
+
+Verified 2026-08-29 against the data folder:
+
+- `data/seed/`: 4,326 files, all parliamentary acts. The 38 files whose title
+  contains "rendelet" are törvények that *mention* decrees (plus a 1945
+  conversion act) — **zero actual Korm. rendelet seeds**.
+- `data/source/`: does not exist — no cached HTML from any previous full run.
+- Only `census.json` and `eu-mappings.json` describe the current act-only
+  corpus.
+
+Consequence: the first `-full` run does **everything over the network** —
+discovery of the full njt.hu corpus plus rate-limited fetching of every
+document. `-resume` only helps on re-runs after an interruption. There is no
+offline shortcut.
+
 ## Accepted costs
 
 - **Repo size**: every seed JSON is committed; the full corpus grows the repo
