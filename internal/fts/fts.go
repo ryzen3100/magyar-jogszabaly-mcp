@@ -106,11 +106,18 @@ func BuildQueryVariants(sanitized string) []string {
 		}
 		variants = append(variants, strings.Join(allPrefixed, " AND "))
 		// Stemmed AND — skips when nothing actually stemmed
-		if stemmed := stemAll(terms); strings.Join(stemmed, " ") != strings.Join(terms, " ") {
+		stemmed := stemAll(terms)
+		if strings.Join(stemmed, " ") != strings.Join(terms, " ") {
 			variants = append(variants, strings.Join(stemmed, " AND "))
 		}
 		// OR fallback — any term matches (broadest)
 		variants = append(variants, strings.Join(terms, " OR "))
+		// Stemmed OR — inflected query words ("kávézót") must still reach
+		// their base form in the broadest tier, or provisions using only the
+		// base token stay invisible to the last recall tier.
+		if strings.Join(stemmed, " ") != strings.Join(terms, " ") {
+			variants = append(variants, strings.Join(stemmed, " OR "))
+		}
 	} else {
 		// Single term
 		variants = append(variants, terms[0])
@@ -167,9 +174,12 @@ func QueryTerms(sanitized string) []string {
 }
 
 // TermMatchCounts counts, per provision rowid, how many of the query terms
-// match it in the FTS index (prefix match, so base-form terms hit inflected
-// corpus tokens). Candidates the term-count query cannot see (deleted rows,
-// LIKE-tier hits) simply score 0.
+// match it in the FTS index. Each term is counted via its stemmed form:
+// prefixed for long terms (base form reaches inflected corpus tokens,
+// "kávézó*" hits "kávézót"), exact for short ones (prefixing "nap" would
+// inflate generic provisions via "napján"/"napellenző").
+// Candidates the term-count query cannot see (deleted rows, LIKE-tier hits)
+// simply score 0.
 func TermMatchCounts(ctx context.Context, db *sql.DB, terms []string, rowIDs []int64) (map[int64]int, error) {
 	counts := make(map[int64]int, len(rowIDs))
 	if len(terms) == 0 || len(rowIDs) == 0 {
@@ -177,11 +187,16 @@ func TermMatchCounts(ctx context.Context, db *sql.DB, terms []string, rowIDs []i
 	}
 	placeholders := strings.TrimSuffix(strings.Repeat("?,", len(rowIDs)), ",")
 	for _, term := range terms {
-		if strings.HasSuffix(term, "*") {
-			term = strings.TrimSuffix(term, "*")
+		term = stemTerm(strings.TrimSuffix(term, "*"))
+		if term == "" {
+			continue
+		}
+		pattern := term
+		if utf8.RuneCountInString(term) >= 5 {
+			pattern = term + "*"
 		}
 		params := make([]any, 0, len(rowIDs)+1)
-		params = append(params, term+"*")
+		params = append(params, pattern)
 		for _, id := range rowIDs {
 			params = append(params, id)
 		}

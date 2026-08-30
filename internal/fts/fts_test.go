@@ -213,6 +213,7 @@ func TestBuildQueryVariantsNaturalLanguageQuestion(t *testing.T) {
 		"nap* AND szabadság* AND jár* AND 42* AND éves* AND munkavállalónak*",
 		"nap AND szabadság AND jár AND 42 AND éves AND munkavállaló",
 		"nap OR szabadság OR jár OR 42 OR éves OR munkavállalónak",
+		"nap OR szabadság OR jár OR 42 OR éves OR munkavállaló",
 	}
 	if !reflect.DeepEqual(got, want) {
 		t.Errorf("BuildQueryVariants(question) = %#v, want %#v", got, want)
