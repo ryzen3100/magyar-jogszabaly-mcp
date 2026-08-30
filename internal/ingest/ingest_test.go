@@ -300,7 +300,7 @@ func TestPipelineRun(t *testing.T) {
 	p.BaseURL = ts.URL
 	var out strings.Builder
 	p.Stdout = &out
-	if err := p.Run(ctx, Options{Full: true}); err != nil {
+	if err := p.Run(ctx, Options{Full: true, AuthorTypes: []string{"0000", "2220"}}); err != nil {
 		t.Fatalf("Run: %v", err)
 	}
 	for _, want := range []string{
@@ -347,7 +347,7 @@ func TestPipelineRun(t *testing.T) {
 	p2.BaseURL = ts.URL
 	var out2 strings.Builder
 	p2.Stdout = &out2
-	if err := p2.Run(ctx, Options{Full: true}); err != nil {
+	if err := p2.Run(ctx, Options{Full: true, AuthorTypes: []string{"0000", "2220"}}); err != nil {
 		t.Fatalf("cache-hit Run: %v", err)
 	}
 	if !strings.Contains(out2.String(), "Loaded discovery cache (4 laws)") {
@@ -362,7 +362,7 @@ func TestPipelineRun(t *testing.T) {
 	p3.BaseURL = "http://127.0.0.1:1" // nothing listens here
 	var out3 strings.Builder
 	p3.Stdout = &out3
-	if err := p3.Run(ctx, Options{Full: true, Resume: true}); err != nil {
+	if err := p3.Run(ctx, Options{Full: true, Resume: true, AuthorTypes: []string{"0000", "2220"}}); err != nil {
 		t.Fatalf("resume Run: %v", err)
 	}
 	if !strings.Contains(out3.String(), "cached") {

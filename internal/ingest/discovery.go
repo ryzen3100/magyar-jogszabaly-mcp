@@ -3,6 +3,7 @@ package ingest
 import (
 	"bytes"
 	"context"
+	"crypto/sha256"
 	"encoding/json"
 	"fmt"
 	"maps"
@@ -234,7 +235,16 @@ func (p *Pipeline) discoveryCachePath(inForceOnly bool, authorTypes []string) st
 	if inForceOnly {
 		suffix = "in-force"
 	}
-	return filepath.Join(p.SourceDir, "law-discovery-"+suffix+"-"+strings.Join(authorTypes, "-")+".json")
+	scope := strings.Join(authorTypes, "-")
+	if len(scope) > 64 {
+		// The full 273-type scope overflows filesystem filename limits, so
+		// name long scopes by a digest of the sorted type list instead.
+		sorted := slices.Clone(authorTypes)
+		slices.Sort(sorted)
+		sum := sha256.Sum256([]byte(strings.Join(sorted, "-")))
+		scope = fmt.Sprintf("sha256-%x", sum[:8])
+	}
+	return filepath.Join(p.SourceDir, "law-discovery-"+suffix+"-"+scope+".json")
 }
 
 // readDiscoveryCache returns the cached discovery results, or nil when the

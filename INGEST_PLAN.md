@@ -1,6 +1,20 @@
 # Full-corpus ingestion plan — data/update track
 
-Status: **planned, not started.** Tackle as a dedicated effort — this is the
+Status: **in progress on branch `data/full-corpus-2026-08-30` (goal mode,
+started 2026-08-30).** Scope: the complete njt.hu register. Author-type census
+(live probe 2026-08-30, one search walk per dropdown code): **273 types,
+~82,400 docs** — határozatok ~36,800 (Korm. határozat ~14,050, KE ~11,900, ME
+~3,300, OGY ~2,850, AB ~2,200), rendeletek ~25,550 (Korm. rendelet ~10,400,
+MNB ~900, BM ~1,200, plus the ministerial long tail), utasítások ~12,800,
+törvény family ~4,600, közlemények/helyesbítések ~2,600. `DefaultAuthorTypes`
+now carries all 273 codes. Also fixed while starting this run: the ingest
+fetch path now stores pages stripped to the law-content region
+(`stripHTMLBody`, ~45% smaller cache), which surfaced and fixed a pre-existing
+parser bug inherited from the TS original — the last provision of 8,158/14,731
+docs (55%) swallowed page footer/scripts (the `njtConfig` JS block) into its
+content; re-parsing the stripped cache cleans those seeds.
+
+Original status: **planned, not started.** Tackle as a dedicated effort — this is the
 biggest job the repo does. Written 2026-08-29 after the coffee-shop question
 test: the current corpus answers only from parliamentary acts, so questions
 whose real answers live in government decrees (e.g. 210/2009. (IX. 29.) Korm.
@@ -182,3 +196,8 @@ offline shortcut.
   survives inside provision content (e.g. `hu-law-2024-35-20-22` s157) — a
   classification loss, not a text loss. Fix = add the definition-phrase
   pattern ("alkalmazásában … minősül/érti") to the parser, not a rewrite.
+- Idea (uncommitted, just a thought): a `data/source/*.html` → `*.md` pass for
+  LLM/RAG use — extract the law-only `#jogszab` region (drops the ~45% Angular
+  boilerplate) and map the semantic classes (`szakasz-jel`, `fejezetCim`) to
+  headings; no server "print view" exists (it's client-side DOM cloning), so
+  offline extraction of the already-scraped HTML is the only path.
