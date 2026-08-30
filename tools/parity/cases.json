@@ -1,0 +1,80 @@
+[
+  { "name": "search: személyes adat limit 3", "tool": "search_legislation", "arguments": { "query": "személyes adat", "limit": 3 } },
+  { "name": "search: kiberbiztonsági limit 3", "tool": "search_legislation", "arguments": { "query": "kiberbiztonsági", "limit": 3 } },
+  { "name": "search: üzleti titok limit 3", "tool": "search_legislation", "arguments": { "query": "üzleti titok", "limit": 3 } },
+  { "name": "search: gibberish query", "tool": "search_legislation", "arguments": { "query": "xyzzyflurble99" } },
+  { "name": "search: empty query", "tool": "search_legislation", "arguments": { "query": "" } },
+  { "name": "search: document_id filter", "tool": "search_legislation", "arguments": { "query": "biztonsági", "document_id": "act-l-2013-electronic-info-security", "limit": 5 } },
+  { "name": "search: status filter in_force", "tool": "search_legislation", "arguments": { "query": "adat", "status": "in_force", "limit": 5 } },
+  { "name": "search: status filter gibberish doc", "tool": "search_legislation", "arguments": { "query": "adat", "document_id": "no-such-document", "limit": 5 } },
+
+  { "name": "stance: személyes adat limit 3", "tool": "build_legal_stance", "arguments": { "query": "személyes adat", "limit": 3 } },
+  { "name": "stance: empty query", "tool": "build_legal_stance", "arguments": { "query": "" } },
+  { "name": "stance: document_id filter", "tool": "build_legal_stance", "arguments": { "query": "adat", "document_id": "act-l-2013-electronic-info-security", "limit": 2 } },
+  { "name": "stance: gibberish query", "tool": "build_legal_stance", "arguments": { "query": "xyzzyflurble99" } },
+
+  { "name": "provision: Infotörvény § 1", "tool": "get_provision", "arguments": { "document_id": "act-cxii-2011-info-self-determination", "section": "1" } },
+  { "name": "provision: section 37/A exact column", "tool": "get_provision", "arguments": { "document_id": "act-cxii-2011-info-self-determination", "section": "37/A" } },
+  { "name": "provision: section 7/A LIKE fallback", "tool": "get_provision", "arguments": { "document_id": "act-cxii-2011-info-self-determination", "section": "7/A" } },
+  { "name": "provision: provision_ref s423", "tool": "get_provision", "arguments": { "document_id": "criminal-code-cybercrime", "provision_ref": "s423" } },
+  { "name": "provision: title_en fuzzy match", "tool": "get_provision", "arguments": { "document_id": "Informational Self-Determination", "section": "1" } },
+  { "name": "provision: short_name Ibtv.", "tool": "get_provision", "arguments": { "document_id": "Ibtv.", "section": "1" } },
+  { "name": "provision: whole document listing", "tool": "get_provision", "arguments": { "document_id": "act-l-2013-electronic-info-security" } },
+  { "name": "provision: non-existent document", "tool": "get_provision", "arguments": { "document_id": "2099-evi-MMMM-torveny", "section": "1" } },
+  { "name": "provision: invalid section", "tool": "get_provision", "arguments": { "document_id": "act-cxii-2011-info-self-determination", "section": "999ZZZ-INVALID" } },
+  { "name": "provision: unknown doc id shape", "tool": "get_provision", "arguments": { "document_id": "completely-bogus-id", "provision_ref": "s1" } },
+
+  { "name": "citation: Hungarian formal with section", "tool": "validate_citation", "arguments": { "citation": "2011. évi CXII. törvény 3. §" } },
+  { "name": "citation: Hungarian formal doc only", "tool": "validate_citation", "arguments": { "citation": "2011. évi CXII. törvény" } },
+  { "name": "citation: hu-law db id with section", "tool": "validate_citation", "arguments": { "citation": "hu-law-1872-27-00-00 s1" } },
+  { "name": "citation: hu-law db id only", "tool": "validate_citation", "arguments": { "citation": "hu-law-1872-27-00-00" } },
+  { "name": "citation: Section-N format", "tool": "validate_citation", "arguments": { "citation": "Section 1 Infotörvény" } },
+  { "name": "citation: act title s N format", "tool": "validate_citation", "arguments": { "citation": "Ibtv. s 11" } },
+  { "name": "citation: whitespace only", "tool": "validate_citation", "arguments": { "citation": "   " } },
+  { "name": "citation: unknown document", "tool": "validate_citation", "arguments": { "citation": "Section 1 Missing Act" } },
+  { "name": "citation: known doc missing section", "tool": "validate_citation", "arguments": { "citation": "2011. évi CXII. törvény 999ZZZ. §" } },
+
+  { "name": "format: Hungarian formal full", "tool": "format_citation", "arguments": { "citation": "2011. évi CXII. törvény 3. §" } },
+  { "name": "format: Section-N pinpoint", "tool": "format_citation", "arguments": { "citation": "In Force Act Section 3", "format": "pinpoint" } },
+  { "name": "format: s-N full explicit", "tool": "format_citation", "arguments": { "citation": "In Force Act s 3", "format": "full" } },
+  { "name": "format: no section", "tool": "format_citation", "arguments": { "citation": "In Force Act" } },
+  { "name": "format: bogus format falls back to full", "tool": "format_citation", "arguments": { "citation": "In Force Act s 3", "format": "bogus" } },
+
+  { "name": "currency: in_force statute", "tool": "check_currency", "arguments": { "document_id": "act-cxii-2011-info-self-determination" } },
+  { "name": "currency: repealed statute", "tool": "check_currency", "arguments": { "document_id": "act-l-2013-electronic-info-security" } },
+  { "name": "currency: not_yet_in_force statute", "tool": "check_currency", "arguments": { "document_id": "hu-law-2018-130-00-00" } },
+  { "name": "currency: amended statute", "tool": "check_currency", "arguments": { "document_id": "hu-law-1872-27-00-00" } },
+  { "name": "currency: unknown document", "tool": "check_currency", "arguments": { "document_id": "missing-doc-9999" } },
+
+  { "name": "eu basis: Infotörvény with articles", "tool": "get_eu_basis", "arguments": { "document_id": "act-cxii-2011-info-self-determination", "include_articles": true } },
+  { "name": "eu basis: Infotörvény filtered implements", "tool": "get_eu_basis", "arguments": { "document_id": "act-cxii-2011-info-self-determination", "reference_types": ["implements"] } },
+  { "name": "eu basis: unknown document", "tool": "get_eu_basis", "arguments": { "document_id": "missing-doc" } },
+
+  { "name": "hu impls: GDPR primary only", "tool": "get_hungarian_implementations", "arguments": { "eu_document_id": "regulation:2016/679", "primary_only": true } },
+  { "name": "hu impls: GDPR in force only", "tool": "get_hungarian_implementations", "arguments": { "eu_document_id": "regulation:2016/679", "in_force_only": true } },
+  { "name": "hu impls: unknown eu document", "tool": "get_hungarian_implementations", "arguments": { "eu_document_id": "regulation:1999/42" } },
+
+  { "name": "eu search: query data limit 5", "tool": "search_eu_implementations", "arguments": { "query": "data", "limit": 5 } },
+  { "name": "eu search: regulation 2015-2016 with impls", "tool": "search_eu_implementations", "arguments": { "query": "protection", "type": "regulation", "year_from": 2015, "year_to": 2016, "has_hungarian_implementation": true } },
+  { "name": "eu search: empty args", "tool": "search_eu_implementations", "arguments": {} },
+  { "name": "eu search: gibberish query", "tool": "search_eu_implementations", "arguments": { "query": "xyzzyflurble99" } },
+
+  { "name": "provision eu basis: Infotörvény s1", "tool": "get_provision_eu_basis", "arguments": { "document_id": "act-cxii-2011-info-self-determination", "provision_ref": "s1" } },
+  { "name": "provision eu basis: missing provision", "tool": "get_provision_eu_basis", "arguments": { "document_id": "act-cxii-2011-info-self-determination", "provision_ref": "s999ZZZ" } },
+  { "name": "provision eu basis: unknown document", "tool": "get_provision_eu_basis", "arguments": { "document_id": "missing-doc", "provision_ref": "s1" } },
+
+  { "name": "compliance: Infotörvény (has EU refs)", "tool": "validate_eu_compliance", "arguments": { "document_id": "act-cxii-2011-info-self-determination" } },
+  { "name": "compliance: statute without EU refs", "tool": "validate_eu_compliance", "arguments": { "document_id": "act-cviii-2001-electronic-commerce" } },
+  { "name": "compliance: filtered by eu_document_id", "tool": "validate_eu_compliance", "arguments": { "document_id": "act-cxii-2011-info-self-determination", "eu_document_id": "regulation:2016/679" } },
+  { "name": "compliance: unknown document", "tool": "validate_eu_compliance", "arguments": { "document_id": "missing-doc" } },
+
+  { "name": "sources: list all", "tool": "list_sources", "arguments": {} },
+
+  { "name": "about: server info", "tool": "about", "arguments": {} },
+  {
+    "name": "unknown tool error",
+    "tool": "no_such_tool",
+    "arguments": {},
+    "xfail": "TS registry answers in-band (isError result 'Error: Unknown tool ...'); the Go SDK rejects unregistered tools with a JSON-RPC protocol error (-32602) before any handler runs — same semantics, different transport shape"
+  }
+]

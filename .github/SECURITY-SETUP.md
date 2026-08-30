@@ -2,17 +2,16 @@
 
 ## Required Secrets
 
-Configure these secrets in the GitHub repository settings:
+No repository secrets are required. The only credential used is the built-in `GITHUB_TOKEN` (GHCR image push in `docker-publish.yml`).
 
-| Secret | Purpose | Source |
-|--------|---------|--------|
-| `NPM_TOKEN` | npm publishing with provenance | npm.js account (Ansvar org) |
+The npm package (`@ansvar/hungarian-law-mcp`) is no longer published as of the Go port (v2.0.0); the `NPM_TOKEN` secret can be removed from repository settings.
 
-## npm Publishing
+## Release Publishing
 
-Publishing is automated by `.github/workflows/publish.yml`: a `v*` tag push runs lint, unit tests, contract tests, and build, then `npm publish --provenance`. npm package names in the `@ansvar` scope and provenance signing require the `NPM_TOKEN` secret and a verified npm account.
+- `.github/workflows/publish.yml`: a `v*` tag push runs `go vet`, `go test`, and `go build` as a release gate.
+- `.github/workflows/docker-publish.yml`: builds the multi-stage Go image and pushes it to GHCR (`ghcr.io/ryzen3100/magyar-jogszabaly-mcp`), then smoke-tests it with `scripts/http-smoke.py`.
 
-MCP registry submission (server.json / `mcpName`) is currently a manual step — see `server.json` for the registry metadata.
+MCP registry submission (`server.json`) is currently a manual step — see `server.json` for the registry metadata.
 
 ## Branch Protection
 
@@ -28,4 +27,3 @@ Scanners live in separate workflow files under `.github/workflows/`:
 - **Semgrep** (pattern SAST) — `semgrep.yml`, on PRs and pushes to `main`
 - **Trivy** (dependency CVE + container scan) — `trivy.yml`, on PRs, pushes to `main`, and daily schedule
 - **OSSF Scorecard** (security posture) — `scorecard.yml`
-- **npm audit** — advisory run inside `publish.yml` before publishing

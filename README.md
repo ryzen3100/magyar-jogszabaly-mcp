@@ -74,6 +74,21 @@ A csatlakozás után természetes nyelven is felteheted a kérdéseidet:
 - *"Milyen engedély kell kávézó nyitásához?"*
 - *"A partnerem 3 hónapja nem fizet, mit tegyek?"*
 
+### Keresési tippek
+
+A teljes szövegű keresés a **magyar nyelvű** jogszabályi szövegen fut, szótövezés
+(stemming) nélkül, ezért a keresőszavakra az alábbiak igazak:
+
+- **Magyar alanyesetű kulcsszavakkal** a legjobb a találat: a `szabadság munkavállaló`
+  kifejezés pontosabb, mint a `szabadságot a munkavállalónak`. A természetes nyelvű
+  kérdések is működnek (a központozás és a gyakori kötőszavak — *hány, milyen, kell,
+  hogy* — automatikusan kiszűrésre kerülnek, minden szó prefix-kereséssel és egy
+  egyszerű szótő-approximációval is próbálkozik), de a 2–4 kulcsszó pontosabb találatot ad.
+- Az uniós jogi aktusok címei **angolul** vannak tárolva — az `search_eu_implementations`
+  keresőben angolul érdemes keresni.
+- A `search_legislation` támogatja a `AND` / `OR` / `NOT` logikai operátorokat és a
+  szóvégi `*` prefix-keresést is.
+
 ---
 
 ## Az adatbázis tartalma
@@ -82,7 +97,7 @@ A csatlakozás után természetes nyelven is felteheted a kérdéseidet:
 |-----------|------|-----------|
 | **Jogszabályok** | 4 326 | Az njt.hu-ról származó teljes magyar joganyag |
 | **Rendelkezések** | 130 220 | FTS5-alapú teljes szövegű keresés |
-| **Uniós kereszthivatkozások** | 109 | Irányelvek és rendeletek magyar jogszabályokhoz kapcsolva |
+| **Uniós kereszthivatkozások** | 92 | Irányelvek és rendeletek magyar jogszabályokhoz kapcsolva |
 | **Adatbázis mérete** | 282 MB | Optimalizált SQLite-adatbázis |
 | **Frissítés** | Napi ellenőrzés | Az új adatok új konténerképpel jelennek meg |
 
@@ -182,19 +197,35 @@ A lekérdezések az MCP-protokollon keresztül jutnak el a szerverhez. Bizalmas 
 
 ## Fejlesztés
 
+A szerver Go-ban íródott — futtatásához már nincs szükség Node.js-re. Az építéshez Go 1.26 vagy újabb verzió szükséges, és cgo nélkül fordul.
+
 ### Telepítés
 
 ```bash
 git clone https://github.com/ryzen3100/magyar-jogszabaly-mcp
 cd magyar-jogszabaly-mcp
-npm install
-npm run build
+go build ./cmd/hungarian-law-mcp
 ```
+
+vagy a közzétett Go modulból (release címke megjelenése után):
+
+```bash
+go install github.com/ryzen3100/magyar-jogszabaly-mcp/v2/cmd/hungarian-law-mcp@latest
+```
+
+### Futtatás
+
+```bash
+hungarian-law-mcp                   # stdio MCP (alapértelmezett)
+HOST=127.0.0.1 PORT=3000 hungarian-law-mcp serve   # Streamable HTTP a 3000-es porton
+```
+
+A `PORT` alapértelmezett értéke `3000`, a `HOST`-é `127.0.0.1` (loopback). Az adatbázis helye alapértelmezés szerint `data/database.db`, a futtatható állományhoz képest feloldva — mivel a `go run` ideiglenes könyvtárba fordít, fejlesztési futtatáshoz állítsd be a `HUNGARIAN_LAW_DB_PATH` környezeti változót, pl. `HUNGARIAN_LAW_DB_PATH=data/database.db go run ./cmd/hungarian-law-mcp`.
 
 ### Adatbázis-kezelés
 
 ```bash
-npm run build:db            # SQLite-adatbázis újraépítése
+go run ./cmd/build-db       # SQLite-adatbázis újraépítése a seed-fájlokból
 ```
 
 ### Az adatbázis biztonságos kézi frissítése
@@ -203,14 +234,12 @@ A szolgáltatás futás közben nem tölt le új adatokat az njt.hu-ról. A fris
 
 ```bash
 git switch -c data/update-YYYY-MM-DD
-npm ci
-npm run ingest -- --full --refresh-discovery
-npm run build:db
+go run ./cmd/ingest -full -refresh-discovery
+go run ./cmd/build-db
 
-npm run lint
-npm test
-npm run test:contract
-npm run check-updates
+go vet ./...
+go test ./...
+go run ./cmd/check-updates
 ```
 
 Az `ingest` szkript a hivatalos `njt.hu` oldalról frissíti a seed-fájlokat. A `data/census.json` és a `sources.yml` fájlokat nem módosítja automatikusan; a frissítés eredménye alapján nézd át, és szükség esetén kézzel módosítsd őket:
@@ -236,7 +265,7 @@ docker compose up -d
 docker compose ps
 ```
 
-Az `npm run check-updates` csak a helyi adatbázis korát, rekordszámát és az `njt.hu` elérhetőségét ellenőrzi; nem helyettesíti a teljes NJT-adatállomány újbóli betöltését. Az adatbetöltést ne az éles konténer shelljéből és ne MCP-eszközön keresztül futtasd.
+A `go run ./cmd/check-updates` csak a helyi adatbázis korát, rekordszámát és az `njt.hu` elérhetőségét ellenőrzi; nem helyettesíti a teljes NJT-adatállomány újbóli betöltését. Az adatbetöltést ne az éles konténer shelljéből és ne MCP-eszközön keresztül futtasd.
 
 ---
 

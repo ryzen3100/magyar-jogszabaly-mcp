@@ -17,6 +17,22 @@ Full-text search across all Hungarian statutes and regulations.
 | `limit` | number | No | Max results (default 10, max 50) |
 | `status` | string | No | Filter: `in_force`, `amended`, `repealed` |
 
+**Query guidance** (also applies to `build_legal_stance`):
+
+- The statute corpus is **Hungarian**; queries in other languages return empty results.
+  Use Hungarian keywords.
+- The FTS tokenizer has **no Hungarian stemming**. Prefer **base (nominative) forms** —
+  `szabadság munkavállaló` beats `szabadságot a munkavállalónak`. Natural-language
+  questions still work (punctuation is stripped, function words like *hány/milyen/kell/hogy*
+  are ignored, every term is prefix-matched, and common inflection suffixes are
+  stemmed as a fallback tier), but keyword-style queries rank better.
+- 2–4 content words beat full sentences.
+- Results are merged across query tiers and re-ranked by how many query terms
+  each provision matches, so a provision matching most of the question beats
+  one matching a single generic word.
+- Boolean operators (`AND`, `OR`, `NOT`) and trailing `*` prefixes are supported.
+- Reverse case: `search_eu_implementations` searches **English** EU document titles.
+
 **Returns:** Matching provisions with document context, snippets, and relevance scores.
 
 ---
@@ -30,8 +46,8 @@ Retrieve the full text of a specific provision from a statute.
 | Name | Type | Required | Description |
 |------|------|----------|-------------|
 | `document_id` | string | Yes | Statute identifier or title |
-| `section` | string | No | Section/article number |
-| `provision_ref` | string | No | Direct provision reference (e.g., "s13"); alternative to `section` |
+| `section` | string | No | Section/article number; citation-style input is normalized (`"3"`, `"3. §"`, `"116/A"`, `"6:272. §"`, `"s13"`). Omit to get all provisions. |
+| `provision_ref` | string | No | Direct provision reference (e.g., `"s13"`); alternative to `section`, normalized the same way |
 
 **Returns:** Full provision text with document metadata.
 
@@ -172,7 +188,7 @@ Get EU legal basis for a specific provision (article-level precision).
 | Name | Type | Required | Description |
 |------|------|----------|-------------|
 | `document_id` | string | Yes | Statute identifier |
-| `provision_ref` | string | Yes | Provision reference |
+| `provision_ref` | string | Yes | Provision reference; citation-style input is normalized (`"3"`, `"3. §"`, `"116/A"`, `"s13"`) |
 
 **Returns:** EU references at the provision level.
 

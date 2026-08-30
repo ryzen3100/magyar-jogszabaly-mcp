@@ -19,7 +19,7 @@ copy_bootstrap_db() {
     exit 1
   fi
 
-  echo "Installing bundled database at $DB_PATH"
+  echo "Installing bundled database at $DB_PATH" >&2
   mkdir -p "$DB_DIR"
   tmp_db="${DB_PATH}.tmp.$$"
   tmp_checksum="${DB_CHECKSUM}.tmp.$$"
@@ -44,14 +44,14 @@ database_is_current() {
 
 if [ "$(id -u)" = "0" ]; then
   mkdir -p "$DB_DIR"
-  chown -R nodejs:nodejs "$DB_DIR"
-  exec su-exec nodejs "$0" "$@"
+  chown -R mcp:mcp "$DB_DIR"
+  exec su-exec mcp "$0" "$@"
 fi
 
 mkdir -p "$DB_DIR"
 
 if database_is_current; then
-  echo "Persistent database is current"
+  echo "Persistent database is current" >&2
 else
   copy_bootstrap_db
 fi

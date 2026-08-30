@@ -4,7 +4,7 @@
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 1.0.x   | :white_check_mark: |
+| 2.0.x   | :white_check_mark: |
 
 ## Reporting a Vulnerability
 
@@ -23,6 +23,6 @@ This server provides read-only access to Hungarian legislation. It does not:
 - Require authentication (public endpoint)
 
 The primary security concerns are:
-- **Supply chain**: Dependencies scanned via Trivy (on PRs, pushes to `main`, and daily); `npm audit` runs in the publish workflow
+- **Supply chain**: Dependencies scanned via Trivy (on PRs, pushes to `main`, and daily); Go module integrity is locked by `go.sum`
 - **Static analysis**: Semgrep scans pull requests and pushes to `main`
 - **Posture**: OpenSSF Scorecard checks run automatically

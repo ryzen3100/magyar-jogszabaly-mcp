@@ -15,8 +15,8 @@ This document addresses privacy and confidentiality considerations when using th
 
 **Safe Use Options:**
 1. **General Legal Research**: Use Tool for non-client-specific queries
-2. **Local npm Package**: Install `@ansvar/hungarian-law-mcp` locally — database queries stay on your machine
-3. **Remote Endpoint**: Vercel Streamable HTTP endpoint — queries transit Vercel infrastructure
+2. **Local Go Binary**: Install via `go install github.com/ryzen3100/magyar-jogszabaly-mcp/v2/cmd/hungarian-law-mcp@latest` — database queries stay on your machine
+3. **Remote Endpoint** (1.x only — not deployed for the Go server): Vercel Streamable HTTP endpoint — queries transit Vercel infrastructure
 4. **On-Premise Deployment**: Self-host with local LLM for privileged matters
 
 ---
@@ -33,10 +33,11 @@ User Query -> MCP Client (Claude Desktop/Cursor/API) -> Anthropic Cloud -> MCP S
 
 ### Deployment Options
 
-#### 1. Local npm Package (Most Private)
+#### 1. Local Go Binary (Most Private)
 
 ```bash
-npx @ansvar/hungarian-law-mcp
+go install github.com/ryzen3100/magyar-jogszabaly-mcp/v2/cmd/hungarian-law-mcp@latest
+hungarian-law-mcp
 ```
 
 - Database is local SQLite file on your machine
@@ -44,7 +45,9 @@ npx @ansvar/hungarian-law-mcp
 - Full control over data at rest
 - Recommended for: general research, solo practitioners, matters involving any client context
 
-#### 2. Remote Endpoint (Vercel)
+#### 2. Remote Endpoint (Vercel) — 1.x only
+
+> The Vercel deployment (`hungarian-law-mcp.vercel.app`) is not part of the Go server; self-host instead (option 3 below).
 
 ```
 Endpoint: https://hungarian-law-mcp.vercel.app/mcp
@@ -141,14 +144,14 @@ Example: "What are the penalties for fraud (csalás) under the Hungarian Btk. (2
 
 - Query pattern may reveal you are working on a fraud matter
 - Anthropic/Vercel logs may link queries to your API key
-- Consider using local npm package even for anonymized queries involving sensitive practice areas
+- Consider using the local Go binary even for anonymized queries involving sensitive practice areas
 
 ### HIGH RISK: Client-Specific Queries
 
 **DO NOT USE through cloud AI services:**
 
 - Remove ALL identifying details before using any cloud deployment
-- Use the local npm package with a self-hosted LLM
+- Use the local Go binary with a self-hosted LLM
 - Or use commercial legal databases (Complex, Jogtár) with proper adatfeldolgozási megállapodások
 - Queries containing client names, személyi azonosítószámok (personal identification numbers), cégjegyzékszámok (company registration numbers), or case references are HIGH RISK even if you consider them anonymized
 
@@ -179,7 +182,7 @@ The database is read-only. No user data is written to disk.
 
 ### For Solo Practitioners / Small Firms (Egyéni ügyvédek / Kisebb irodák)
 
-1. Use local npm package for maximum privacy
+1. Use the local Go binary for maximum privacy
 2. General research: Cloud AI is acceptable for fully non-client-specific queries
 3. Client matters: Use commercial legal databases (Complex, Jogtár) with proper adatfeldolgozási megállapodások under GDPR Article 28 and Infotv.
 4. Review MÜK ethics guidance on AI tool use before adopting any cloud-based legal AI tool
@@ -201,7 +204,7 @@ The database is read-only. No user data is written to disk.
 
 ## Questions and Support
 
-- **Privacy Questions**: Open issue on [GitHub](https://github.com/Ansvar-Systems/Hungarian-law-mcp/issues)
+- **Privacy Questions**: Open issue on [GitHub](https://github.com/ryzen3100/magyar-jogszabaly-mcp/issues)
 - **Anthropic Privacy**: Contact privacy@anthropic.com
 - **MÜK Guidance**: Consult the Magyar Ügyvédi Kamara (muk.hu) for ethics guidance on AI tool use by ügyvédek
 - **NAIH**: For GDPR and Infotv. compliance queries, see naih.hu
@@ -209,4 +212,4 @@ The database is read-only. No user data is written to disk.
 ---
 
 **Last Updated**: 2026-08-27
-**Tool Version**: 1.0.0
+**Tool Version**: 2.0.0

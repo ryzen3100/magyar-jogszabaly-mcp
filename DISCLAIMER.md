@@ -27,7 +27,7 @@ If you are a lawyer (ügyvéd), legal researcher, or other legal professional:
 
 **YOU MUST VERIFY EVERYTHING.** Do not cite, quote, or rely on any provision, case law, or legal interpretation from this Tool without:
 
-1. Checking the official source (njt.hu — Nemzeti Jogszabálytár, the National Law Register) and the Magyar Közlöny (kozlony.gov.hu) for acts as enacted
+1. Checking the official source (njt.hu — Nemzeti Jogszabálytár, the National Law Register) and the Magyar Közlöny (magyarkozlony.hu) for acts as enacted
 2. Verifying the provision is currently in force (hatályos) and has not been amended (módosított) or repealed (hatályon kívül helyezett)
 3. Reading the full context of cited provisions, including any átmeneti rendelkezések (transitional provisions)
 4. Consulting case law (bírói gyakorlat, joggyakorlat) and explanatory materials (törvényindokolás, miniszteri indokolás, országgyűlési irományok) for interpretation
@@ -42,7 +42,7 @@ This Tool aggregates data from official Hungarian legal databases. However:
 | Source Type | Authority Level | Use Case |
 |------------|----------------|----------|
 | **njt.hu (Nemzeti Jogszabálytár)** | Authoritative | Statute text, consolidated legislation (primary reference) |
-| **Magyar Közlöny (kozlony.gov.hu)** | Authoritative | Official gazette — legislation as enacted |
+| **Magyar Közlöny (magyarkozlony.hu)** | Authoritative | Official gazette — legislation as enacted |
 | **birosag.hu** | Official (court records) | Kúria and appellate court decisions |
 | **Community/open-data sources** | Supplementary | Cross-references, metadata (verify independently) |
 | **EUR-Lex / treaty databases** | Authoritative for EU/international law | EU directives, regulations, international obligations |
@@ -51,7 +51,7 @@ This Tool aggregates data from official Hungarian legal databases. However:
 
 ### Official Gazette (Magyar Közlöny)
 
-Hungarian legislation is officially published in the **Magyar Közlöny** (kozlony.gov.hu). The **Nemzeti Jogszabálytár** (njt.hu) publishes the authoritative consolidated text. Acts are cited by their year and number, e.g., 2013. évi V. törvény (Ptk. — Polgári Törvénykönyv / Civil Code) or Act V of 2013. Always verify the current hatályos (in-force) consolidated text on njt.hu.
+Hungarian legislation is officially published in the **Magyar Közlöny** (magyarkozlony.hu). The **Nemzeti Jogszabálytár** (njt.hu) publishes the authoritative consolidated text. Acts are cited by their year and number, e.g., 2013. évi V. törvény (Ptk. — Polgári Törvénykönyv / Civil Code) or Act V of 2013. Always verify the current hatályos (in-force) consolidated text on njt.hu.
 
 ### GDPR and Hungarian Data Protection Implementation
 
@@ -73,12 +73,12 @@ These services provide editorial oversight, comprehensive annotations (kommentá
 - Hungarian law changes continuously through new acts (törvények), government decrees (kormányrendeletek), ministerial decrees (miniszteri rendeletek), amendments (módosítások), and court decisions (bírósági döntések)
 - **Last-updated timestamps** in tool responses indicate data age, but should be treated as unreliable
 
-### Staleness Warnings
+### Staleness Signals
 
-The Tool includes staleness warnings when data is >30 days old. **These warnings are not exhaustive**:
+The Tool exposes **no per-query staleness warnings**. What exists is a `built_at` timestamp in the database metadata (returned in tool responses) and `go run ./cmd/check-updates`, which flags a database older than 90 days. **These signals are not exhaustive**:
 
 - Even "fresh" data may be outdated if recent amendments were published in the Magyar Közlöny
-- Staleness warnings do not guarantee completeness or accuracy
+- The built_at metadata and the check-updates result do not guarantee completeness or accuracy
 - Always check official sources for the current legal position (hatályos jogi helyzet) on njt.hu
 
 ### Amendments and Repeals
@@ -180,7 +180,7 @@ Using this Tool does not reduce your professional obligations to:
 ## Recommended Workflow for Professional Use
 
 1. **Initial Research**: Use Tool for preliminary research and hypothesis generation
-2. **Official Verification**: Cross-check ALL results with official sources (njt.hu, kozlony.gov.hu)
+2. **Official Verification**: Cross-check ALL results with official sources (njt.hu, magyarkozlony.hu)
 3. **Case Law Check**: Search Kúria and Alkotmánybíróság decisions at birosag.hu and alkotmanybirosag.hu
 4. **Commercial Databases**: Use professional legal databases (Complex, Jogtár) for authoritative, annotated versions with kommentárok
 5. **Professional Judgment**: Apply independent legal analysis and professional judgment
@@ -204,7 +204,7 @@ https://github.com/Ansvar-Systems/Hungarian-law-mcp/issues
 
 ## Summary: What You Must Do
 
-- **ALWAYS VERIFY** all legal information with official sources (njt.hu, kozlony.gov.hu, birosag.hu)
+- **ALWAYS VERIFY** all legal information with official sources (njt.hu, magyarkozlony.hu, birosag.hu)
 - **NEVER RELY** on this Tool as sole basis for legal advice or professional work
 - **UNDERSTAND** this is a research aid, not a substitute for professional legal databases (Complex, Jogtár)
 - **ACKNOWLEDGE** data may be incomplete, outdated, or incorrect
@@ -213,6 +213,6 @@ https://github.com/Ansvar-Systems/Hungarian-law-mcp/issues
 
 - **DO NOT** cite this Tool as an authority in legal documents
 - **DO NOT** use in professional legal work without independent verification
-- **DO NOT** rely on staleness warnings as guarantee of currency
+- **DO NOT** rely on the built_at metadata or check-updates output as guarantee of currency
 - **DO NOT** assume coverage is complete or comprehensive
 - **DO NOT** include confidential client information in queries

@@ -7,16 +7,6 @@
     "source": "github"
   },
   "homepage": "https://ansvar.eu",
-  "version": "1.0.0",
-  "license": "Apache-2.0",
-  "packages": [
-    {
-      "registryType": "npm",
-      "identifier": "@ansvar/hungarian-law-mcp",
-      "version": "1.0.0",
-      "transport": {
-        "type": "stdio"
-      }
-    }
-  ]
+  "version": "2.0.0",
+  "license": "Apache-2.0"
 }
