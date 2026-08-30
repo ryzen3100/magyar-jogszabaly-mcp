@@ -172,3 +172,13 @@ offline shortcut.
 - Btk part-prefixed citations: corpus stores Btk sections without the
   "6:" part prefix, so "6:272. §" validates as not-found; a prefix-drop
   fallback candidate in `statute.SectionRefCandidates` would cover it.
+- Definitions extraction for the new njt layout — narrower than it sounds.
+  Audit 2026-08-30 (seed-vs-Ansvar-DB comparison, all 4,314 overlap docs):
+  provision content is byte-identical to Ansvar's corpus (130,124 provisions,
+  0 diffs); the overlap corpus loses no definitions (5,099 vs 5,087). Of the
+  10,417 new-layout docs, 9,465 have 0 definitions but ~98.5% genuinely
+  contain none (amendment/promulgation decrees); only ~142 docs (~1.4%) have
+  definitions in the scraped HTML that go unextracted, and the text usually
+  survives inside provision content (e.g. `hu-law-2024-35-20-22` s157) — a
+  classification loss, not a text loss. Fix = add the definition-phrase
+  pattern ("alkalmazásában … minősül/érti") to the parser, not a rewrite.
