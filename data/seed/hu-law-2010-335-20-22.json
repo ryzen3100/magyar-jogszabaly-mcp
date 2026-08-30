@@ -1,0 +1,243 @@
+{
+  "id": "hu-law-2010-335-20-22",
+  "type": "statute",
+  "title": "335/2010. (XII. 27.) Korm. rendelet egyes központi államigazgatási szervek személyügyi nyilvántartási és integrált emberi erőforrás-gazdálkodási rendszeréről",
+  "status": "repealed",
+  "in_force_date": "2011-01-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2010-335-20-22",
+  "description": "egyes központi államigazgatási szervek személyügyi nyilvántartási és integrált emberi erőforrás-gazdálkodási rendszeréről",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § E rendelet hatálya a minisztériumokra, a Miniszterelnöki Kormányirodára, valamint az e szervekkel jogviszonyban álló foglalkoztatottakra terjed ki."
+    },
+    {
+      "provision_ref": "s1a",
+      "section": "1/A",
+      "title": "1/A. §",
+      "content": "1/A. § A Kormány a közszolgálati tisztviselőkről szóló törvény szerinti személyügyi központként a közszolgálati életpálya kidolgozásáért felelős minisztert (a továbbiakban: miniszter) jelöli ki."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § A jelen rendelet alkalmazásában: 1. Kormányzati személyügyi szolgálgató rendszer (a továbbiakban: KSzSzR): központi adatbázisra épülő, egységes alapokon megvalósuló, moduláris felépítésű személyügyi nyilvántartás és integrált emberi erőforrás-gazdálkodási rendszer, amely külső informatikai rendszerekhez is kapcsolódik; 2. Foglalkoztatott: a munkáltatónál foglalkoztatási jogviszonyban álló természetes személy, valamint – feltéve, hogy az adatkezeléshez hozzájárult – a nyugdíjasnak minősülő, a munkáltatónál korábban foglalkoztatási jogviszonyban állt természetes személy; 3. Nyugdíjas: a köztisztviselők jogállásáról szóló 1992. évi XXIII. törvény 19/A. § (1) bekezdésének a)–h) pontja, valamint a kormánytisztviselők jogállásáról szóló 2010. évi LVIII. törvény 10. § (3) bekezdése szerinti személy, amennyiben a munkáltató juttatást biztosít számára; 4. Modul: a KSzSzR-t felépítő egyes funkcionális rendszerelemek, melyek egymással közvetlen kapcsolatban állnak; 5. Interfész: két funkcionális egység összekapcsolhatóságát és együttműködését biztosító előírások összessége, a KSzSzR azon eleme, amely biztosítja a külső informatikai rendszerekkel történő kommunikációt (elektronikus adatátadás–átvétel); 6. Munkáltató: a minisztériumok, valamint a Miniszterelnöki Kormányiroda; 7. Állománytábla: a munkáltató szervezeti felépítéséhez igazodó, az egyes szervezeti egységekhez rendelt álláshelyek és az álláshelyekhez szükséges ismérvek összessége; 8. Felhasználó: a munkáltató azon munkatársa, aki a KSzSzR-t munkaköri feladatainak teljesítése céljából használja; 9. Okmány: minden olyan irat, amely személyre, vagy a személy jogviszonyára vonatkozóan állítást, tényt, körülményt, adatot, állapotot, jogot vagy kötelezettséget rögzít, és amelyet abból a célból készítettek, hogy az állítást, tényt, körülményt, adatot, állapotot, jogot vagy kötelezettséget a jövőben bizonyítani, igazolni, ellenőrizni lehessen; 10. Adatállomány: a KSzSzR-ben rögzített, oda importált, illetve ott előállított információk összessége; 11. Személyügyi intézkedés: a felhasználó által végrehajtott, valamely foglalkoztatott jogviszonyának adataiban változást eredményező tevékenység; 12. Jelentőfelelős: a központosított illetményszámfejtésről szóló 37/2001. (X. 25.) PM rendelet 2. § (1) bekezdés j) pontja szerinti jelentőfelelős; 13. Szerepkör: a meghatározott feladatkörrel és annak ellátásához szükséges jogosultsággal felruházott felhasználói pozíció; 14. Külső informatikai rendszerek működtetői: a Magyar Államkincstár és a NISZ Nemzeti Infokommunikációs Szolgáltató Zrt.; 15. Jogosultság: egy adott szerepkört betöltő felhasználó számára biztosított, a KSzSzR használatát lehetővé tévő egyes jogok (felhatalmazások) összessége; 16. Értékkészlet: a KSzSzR-ben rögzítendő egyes adatokra jellemző, választható elemek halmaza."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § A KSzSzR rendeltetése, hogy szolgáltatásai révén biztosítsa: a) a humánpolitikai feladatok ellátásának informatikai támogatását; b) a külön törvény szerinti közszolgálati alapnyilvántartás vezetését; c) a közszolgálati személyzeti politika alakításához szükséges statisztikai adatszolgáltatásokat; d) a feladatellátáshoz kapcsolódóan az adatkapcsolatot a külön törvényben és a jelen rendeletben meghatározott külső informatikai rendszerekkel."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) A KSzSzR egységes informatikai rendszerként magában foglalja a (2)–(4) bekezdés szerinti modulokat, kiszolgáló eszközöket és a külső informatikai rendszerekhez a kapcsolódást lehetővé tevő interfészeket. (2) A KSzSzR moduljai a következők: a) személyügyi adminisztráció, b) dokumentumtár, c) munkaidő és távollét nyilvántartás, d) képzés, oktatás, e) vezetői információs rendszer. (3) A KSzSzR kapcsolódó szolgáltatásai a következők: a) önkiszolgáló felület, b) ügyfélszolgálat. (4) A KSzSzR az alábbi külső informatikai rendszerekhez kapcsolódik: a) Központosított Illetményszámfejtő Rendszer (a továbbiakban: KIR), b) Szolgáltatási és Ellátási Alapadat Tár (a továbbiakban: SzEAT), c) a munkáltatók által alkalmazott iktató rendszerek (a továbbiakban: iktató rendszerek)."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § (1) A személyügyi adminisztráció modul a KSzSzR központi modulja, amely a) tartalmazza a munkáltatók állománytábláit; b) tartalmazza a foglalkoztatottaknak a közszolgálati alapnyilvántartás szerinti adatait; c) tartalmazza a szakmai vezetők és a kormánytisztviselők melléklet szerinti önéletrajzait; d) a felhasználók utasításának megfelelően vagy automatikusan feladatokat, műveleteket hajt végre a KSzSzR-ben kezelt személyes és szervezeti adatok és az ezekre vonatkozó intézkedések, folyamatok vonatkozásában. (2) A dokumentumtár modul biztosítja: a) az egységes okmánymintáknak megfelelően az okmányok előállítását, nyomtatását, tárolását; b) azon igazolások, nyilatkozatok, dokumentumok elektronikus formában történő tárolását, amelyeket a foglalkoztatottnak a jogviszonyával összefüggésben a munkáltató rendelkezésére kell bocsátani. (3) A munkaidő és távollét nyilvántartás modul tartalmazza a foglalkoztatott: a) éves szabadságát, b) szabadságtervének elkészítését, c) munkából való távolmaradásának nyilvántartását, d) fizetés nélküli szabadságának igénylését és engedélyezését, időtartamát, e) rendkívüli munkavégzésének elrendelését. (4) A képzés, oktatás modul: a) nyilvántartja a képzésekre vonatkozó adatokat, ideértve a kapcsolódó elektronikus tananyagokat is; b) kezeli a képzésekre vonatkozó igényeket, jóváhagyásokat, előírásokat; c) rögzíti a foglalkoztatottaknak a képzéseken megszerzett végzettségeit, kompetenciáit; d) nyilvántartja a tanulmányi szerződésekkel kapcsolatos adatokat. (5) A vezetői információs modul a vezetői feladatok támogatása céljából a KSzSzR-ben tárolt adatokról információkat szolgáltat, kimutatásokat készít. A lekérdezés történhet automatikusan vagy kezdeményezésre, illetve előre meghatározott vagy egyedi igény alapján."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § (1) Az önkiszolgáló felületen a foglalkoztatottak megtekinthetik saját adataikat, azokhoz dokumentumokat csatolhatnak, intézkedéseket kezdeményezhetnek, megteszik a távolléteikkel és a képzéseikkel kapcsolatos kezdeményezéseket, illetve ellátják a mindezekkel kapcsolatos feladataikat. Az egyes szervezeti egységek vezetői az irányításuk alá tartozó foglalkoztatottak adataiba betekinthetnek, elláthatnak egyes munkáltatói feladatokat (utasításadás, kezdeményezések jóváhagyása). (2) Az ügyfélszolgálat a felhasználók számára nyújt segítséget, továbbá lehetőséget biztosít a felhasználóknak a KSzSzR-t érintő bejelentések, igények megtételére."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § (1) A Magyar Államkincstár (a továbbiakban: Kincstár) ellátja a KIR interfész működtetésével kapcsolatos feladatait. A KSzSzR és a KIR közötti adatkapcsolatot a KIR-ben alkalmazott személy- és jogviszony azonosító biztosítja. (2) A munkáltatók az illetményszámfejtéshez szükséges humánpolitikai intézkedéseket tartalmazó adatszolgáltatást a KSzSzR-ből előállított okiratok, bizonylatok és elektronikus adatállományok útján teljesítik. (3) A KSzSzR-ben előállított okiratok és bizonylatok adattartalmának meg kell felelnie a központosított illetményszámfejtésről szóló 37/2001. (X. 25.) PM rendelet 1. számú mellékletében meghatározottaknak. (4) A jelentőfelelős feladata a következő: a) az állományok leválogatása személyügyi intézkedések esetén, amennyiben a humánpolitikai területért felelős szervezeti egységtől a hitelesített okirat megérkezik; b) a munkáltató különböző szervezeti egységei által a munkaidő és távollét nyilvántartás modulba bejegyzett távollétek és a távolléteket igazoló okmányok előzetes ellenőrzését követően a távollét jelentés átadásának indítása; c) az elektronikus állomány előállításával egyidejűleg a hozzá tartozó papír alapú okiratok, bizonylatok postázása; d) az ellenőrzések során felmerülő hibás adatok javíttatása és a javított adatok újbóli megküldése. (5) A Kincstár elektronikus úton adatszolgáltatást biztosít a KSzSzR részére a számfejtett illetményekről és a távollétekről."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § (1) A KSzSzR és a SzEAT közötti adatkapcsolat célja, hogy a Közbeszerzési és Ellátási Főigazgatóság ellátási körébe tartozó és a KSzSzR rendszert alkalmazó munkáltatók a SzEAT számára szükséges adatszolgáltatást közvetlenül, elektronikus úton teljesítsék. (2) A KSzSzR és a SzEAT közötti elektronikus adatkapcsolat a KSzSzR-ben alkalmazott szervezet-, szerepkör-, és személy azonosítók alapján jön létre."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § (1) A KSzSzR és a munkáltatók által üzemeltetett iktató rendszerek közötti adatkapcsolat biztosítja a KSzSzR-ben keletkező iratok automatikus iktatását. (2) A KSzSzR és az iktató rendszer közötti kapcsolatot a KSzSzR-ben alkalmazott jogviszony azonosítók biztosítják, melyeket az iktató rendszerben kézzel rögzíteni kell."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § (1) A munkáltatók és a külső informatikai rendszerek működtetői kötelesek együttműködni, ideértve különösen az észlelt hibák jelzését, illetőleg javítását, és a javítás megtörténtéről szóló értesítést. (2) A külső informatikai rendszerek működtetői egyeztetnek a miniszterrel, amennyiben a saját rendszerükben olyan változtatást kívánnak végrehajtani, amely az interfészekre hatással van."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § (1) A KSzSzR a személyügyi adminisztráció modulban, mint központi adatbázisban tárolt adatoknak a felhasználók által alkalmazási felületen keresztül történő közvetlen kezelésére épül. (2) A központi adatbázisban tárolt adatok hiteles okmányokon nyugszanak. Az adatokat a keletkezési helyük szerint illetékes munkáltató felhasználója rögzíti. A hiteles adatok ügyrend szerinti ellenőrzési eljárások után kerülnek az adatbázisba."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. § (1) A felhasználóknak a KSzSzR adataihoz és funkcióihoz való hozzáférését a jogosultságuk terjedelme alapján külön jogszabály határozza meg. A felhasználók az általuk megismert személyes adatokat kizárólag a jogosultságuk által meghatározott körben használhatják fel. (2) A KSzSzR a felhasználók által végzett, meghatározott adatkörökre vonatkozó módosító műveletről részletes, a felhasználó és a művelet beazonosításához szükséges adatokat tartalmazó nyilvántartást készít és tárol. (3) A modulokhoz és interfészekhez történő szabályozott hozzáférés érdekében minden felhasználót „Felhasználói névvel” kell azonosítani, és a rendszer adataihoz történő hozzáférését a KSzSzR jogosultsági rendszerén keresztül kell biztosítani, figyelembe véve az adatvédelmi előírásokat. (4) Az engedélyezett jogosultságokat nyilván kell tartani. A nyilvántartást úgy kell kialakítani, hogy megállapítható legyen, hogy egy adott időpontban egy meghatározott adathoz a felhasználók milyen köre fért hozzá, és részükre ezt a jogosultságot ki engedélyezte."
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. § (1) A KSzSzR működtetéséről a miniszter gondoskodik. (2) A KSzSzR működtetéséhez szükséges informatikai, műszaki üzemeltetési feltételeket – a NISZ Nemzeti Infokommunikációs Szolgáltató Zártkörűen Működő Részvénytársaság bevonásával – a miniszter biztosítja."
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14. §",
+      "content": "14. § A miniszter ellátja a KSzSzR szakmai felügyeletével kapcsolatos feladatokat. Ennek keretében különösen: a) felel a KSzSzR stratégiai fejlesztéséért; b) ellátja a KSzSzR szabályozásával kapcsolatos feladatokat; c) koordinációs bizottságot hoz létre és működtet."
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15. §",
+      "content": "15. § (1) A koordinációs bizottság (a továbbiakban: bizottság) véleményező, javaslattevő, döntés-előkészítő testületi szerv, amely ügyrendjét maga határozza meg. (2) A bizottság elnökét és titkárát a miniszter jelöli ki, tagjai a munkáltatók által delegált személyek. A bizottság elnöke további személyeket is meghívhat. (3) A bizottság szükség szerint, de legalább negyedévente ülésezik. A bizottság üléseiről emlékeztető készül, amelyet a miniszternek kell megküldeni."
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16. §",
+      "content": "16. § A miniszter a külön törvényben meghatározott lekérdezést a vezetői információs modulon keresztül végzi."
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17. §",
+      "content": "17. § (1) A személyügyi központ: a) a felhasználók részére működteti a 6. § (2) bekezdése szerinti ügyfélszolgálatot (a továbbiakban ügyfélszolgálat); b) gondoskodik a fejlesztési igényekről; c) a felhasználók tájékoztatása érdekében működteti a KSzSzR portált; d) (2) A személyügyi központ az ügyfélszolgálat segítségével: a) a felhasználók részére tájékoztatást nyújt a KSzSzR működésével kapcsolatos kérdésekben; b) kezeli a felhasználóktól érkező hibabejelentéseket, gondoskodik a hibák kijavításáról; c) a munkáltató kezdeményezésére beállítja, módosítja, törli az egyes felhasználók jogosultságait; d) gondoskodik az egyes modulok paraméterei, az értékkészletek és az okmányminták aktualizálásáról; e) tájékoztatókat készít, oktatásokat szervez a felhasználók számára a rendszerben megvalósított változtatásokról; f) segítséget nyújt a munkáltatók, és a közigazgatási minőségpolitikáért és személyzetpolitikáért felelős miniszter számára a vezetői információs igények kielégítésével kapcsolatos feladataik ellátásához. (3) A személyügyi központ a KSzSzR fejlesztése tekintetében: a) b) elvégzi a KSzSzR-ben végrehajtásra kerülő módosításokból, fejlesztésekből adódó tesztelési feladatokat. (4) A személyügyi központ a közigazgatási személyzetfejlesztési feladatai körében a) ellátja az integrált humánerőforrás-gazdálkodást támogató humáninformatikai rendszerre vonatkozó jogszabályban meghatározott feladatokat, az egységes toborzási adatbázis és a tartalékállomány egységes nyilvántartását biztosító tartinfó rendszerrel összefüggésben jogszabályban meghatározott feladatokat, b) bevezeti és működteti a központi humánkontrolling rendszert, c) biztosítja a jogszabályban meghatározott pályázati és kiválasztási eljárásokkal összefüggő szolgáltatásokat, d) a Nemzeti Közszolgálati Egyetem közreműködésével működteti a kompetencia és munkaköralapú közszolgálati továbbképzés tervezési, beiskolázási és módszertani feladatait, e)–g)"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18. §",
+      "content": "18. § A munkáltató ellátja a) a humánpolitikai feladatokkal összefüggő, b) a KSzSzR működése érdekében szükséges, c) továbbá az egyéb adminisztratív jellegű feladatokat."
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19. §",
+      "content": "19. § (1) A munkáltató humánpolitikai feladatai különösen: a) állománytábla feltöltése, módosítások folyamatos átvezetése; b) a foglalkoztatottak személyes adatainak felvitele, módosítása, törlése; c) az egyes személyügyi intézkedések végrehajtása, a kapcsolódó okmányok előállítása; d) a munkaidő és távollét nyilvántartás feladatainak ellátása; e) a képzések tervezésével, szervezésével és a hozzájuk kapcsolódó nyilvántartások vezetésével kapcsolatos feladatok ellátása; f) az interfészen keresztül történő adatátadások biztosítása. (2) A munkáltató a KSzSzR működése érdekében az alábbi feladatokat látja el: a) a rendszer használata során feltárt hibák, illetve módosítási igények megküldése a miniszter felé; b) a jogosultságok beállításával, törlésével kapcsolatos igények jelzése a miniszter felé; c) együttműködés a miniszterrel a KSzSzR-ben végrehajtott módosítások, fejlesztések felhasználói tesztelésében. (3) A munkáltató adminisztratív jellegű feladatai különösen: a) a KSzSzR-rel összefüggő belső szabályzatok felülvizsgálata; b) a vezetői információs igények kiszolgálása érdekében lekérdezések, kimutatások készítése."
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20. §",
+      "content": "20. § (1) A miniszter adatait a KSzSzR-be a közigazgatási minőségpolitikáért és személyzetpolitikáért felelős miniszter rögzíti, módosítja, törli, továbbá végrehajtja a személyügyi intézkedéseket, előállítja a kapcsolódó okmányokat. (2) A központi államigazgatási szervekről, valamint a Kormány tagjai és az államtitkárok jogállásáról szóló 2010. évi XLIII. törvény 7. § (4) bekezdése szerinti személyügyi nyilvántartás vezetése érdekében a munkáltató az államtitkárra, valamint a szakmai vezetőre vonatkozó, az általa végrehajtott személyügyi intézkedések okmányait átadja a Miniszterelnöki Kormányirodának."
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21. §",
+      "content": "21. § (1) A honvédelemért felelős miniszter által vezetett minisztériumban a Magyar Honvédség hivatásos és szerződéses állományú katonáinak jogállásáról szóló 2001. évi XCV. törvény hatálya alá tartozó foglalkoztatottak személyügyi nyilvántartását a honvédelemért felelős miniszter által vezetett minisztérium a rá vonatkozó szabályok alapján külön rendszerben vezeti. A honvédelemért felelős miniszter által vezetett minisztérium esetében a 4. § (2) bekezdés c)–d) pontja szerinti modul, valamint a (3) bekezdés a) pontja szerinti kapcsolódó szolgáltatás nem működik. (2) A Honvédelmi Minisztérium Költségvetési Gazdálkodási Információs Rendszer átadja a KSzSzR részére az illetmény-számfejtési adatokat. (3) A külpolitikáért felelős miniszter által vezetett minisztériumban foglalkoztatottak e rendelet szerinti személyzeti nyilvántartását a külpolitikáért felelős miniszter az általa üzemeltett KSzSzR rendszerben vezeti. A külpolitikáért felelős miniszter a) biztosítja saját szervezetére vonatkozóan a 13. § (2) bekezdésében meghatározott feltételeket, b) ellátja a 17. § (2) bekezdés b)–d) pontban meghatározott feladatokat, c) biztosítja a közigazgatási minőségpolitikáért és személyzetpolitikáért felelős miniszter 16. § szerinti feladata ellátásának feltételeit. (4) A honvédelemért felelős miniszter által vezetett minisztérium és a külpolitikáért felelős miniszter által vezetett minisztérium által foglalkoztatottak tekintetében a KSzSzR a 4. § (4) bekezdés szerinti külső informatikai rendszerekhez nem kapcsolódik."
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22. §",
+      "content": "22. § (1) A jelen rendelet 2011. január 1-jén lép hatályba. (2) A munkáltató a közszolgálati adatvédelmi szabályzatot a rendelet hatálybalépését követő 45 napon belül felülvizsgálja."
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23. §",
+      "content": "23. § A jogszabály alapján a személyügyi központ feladatkörébe utalt, a Közigazgatási és Igazságügyi Hivataltól a Közszolgálati Személyzetfejlesztési Főigazgatósághoz átkerülő feladat- és hatáskörök tekintetében – az ellátásukhoz kapcsolódó egyéb feladatokra, jogosultságokra és kötelezettségekre is kiterjedően – a Közigazgatási és Igazságügyi Hivatal jogutódja a Közszolgálati Személyzetfejlesztési Főigazgatóság."
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24. §",
+      "content": "24. § (1) A jogszabály alapján a személyügyi központ feladatkörébe utalt, a Közszolgálati Személyzetfejlesztési Főigazgatóságtól (a továbbiakban: KSZF) a Belügyminisztériumba átkerülő feladat- és hatáskörök tekintetében – az ellátásukhoz kapcsolódó egyéb feladatokra, jogosultságokra és kötelezettségekre is kiterjedően – a KSZF jogutódja a Belügyminisztérium. (2) A KSZF által ellátott, a központosított informatikai és elektronikus hírközlési szolgáltatásokról szóló 309/2011. (XII. 23.) Korm. rendelet 1. sz. mellékletében foglalt feladatokat a NISZ Nemzeti Infokommunikációs Szolgáltató Zártkörűen Működő Részvénytársaság látja el, és ezzel összefüggésben megilletik a KSZF magánjogi jogai és kötelezettségei, valamint az ezzel, illetve a KSZF munkavégzésével összefüggésben szükséges informatikai-telekommunikációs eszközökhöz kapcsolódó vagyonkezelői jogok és kötelezettségek."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "§ A jelen rendelet alkalmazásában",
+      "definition": "1. Kormányzati személyügyi szolgálgató rendszer (a továbbiakban: KSzSzR): központi adatbázisra épülő, egységes alapokon megvalósuló, moduláris felépítésű személyügyi nyilvántartás és integrált emberi erőforrás-gazdálkodási rendszer, amely külső informatikai rendszerekhez is kapcsolódik",
+      "source_provision": "s2"
+    },
+    {
+      "term": "Foglalkoztatott",
+      "definition": "a munkáltatónál foglalkoztatási jogviszonyban álló természetes személy, valamint – feltéve, hogy az adatkezeléshez hozzájárult – a nyugdíjasnak minősülő, a munkáltatónál korábban foglalkoztatási jogviszonyban állt természetes személy",
+      "source_provision": "s2"
+    },
+    {
+      "term": "Nyugdíjas",
+      "definition": "a köztisztviselők jogállásáról szóló 1992. évi XXIII. törvény 19/A. § (1) bekezdésének a)–h) pontja, valamint a kormánytisztviselők jogállásáról szóló 2010. évi LVIII. törvény 10. § (3) bekezdése szerinti személy, amennyiben a munkáltató juttatást biztosít számára",
+      "source_provision": "s2"
+    },
+    {
+      "term": "Modul",
+      "definition": "a KSzSzR-t felépítő egyes funkcionális rendszerelemek, melyek egymással közvetlen kapcsolatban állnak",
+      "source_provision": "s2"
+    },
+    {
+      "term": "Interfész",
+      "definition": "két funkcionális egység összekapcsolhatóságát és együttműködését biztosító előírások összessége, a KSzSzR azon eleme, amely biztosítja a külső informatikai rendszerekkel történő kommunikációt (elektronikus adatátadás–átvétel)",
+      "source_provision": "s2"
+    },
+    {
+      "term": "Munkáltató",
+      "definition": "a minisztériumok, valamint a Miniszterelnöki Kormányiroda",
+      "source_provision": "s2"
+    },
+    {
+      "term": "Állománytábla",
+      "definition": "a munkáltató szervezeti felépítéséhez igazodó, az egyes szervezeti egységekhez rendelt álláshelyek és az álláshelyekhez szükséges ismérvek összessége",
+      "source_provision": "s2"
+    },
+    {
+      "term": "Felhasználó",
+      "definition": "a munkáltató azon munkatársa, aki a KSzSzR-t munkaköri feladatainak teljesítése céljából használja",
+      "source_provision": "s2"
+    },
+    {
+      "term": "Okmány",
+      "definition": "minden olyan irat, amely személyre, vagy a személy jogviszonyára vonatkozóan állítást, tényt, körülményt, adatot, állapotot, jogot vagy kötelezettséget rögzít, és amelyet abból a célból készítettek, hogy az állítást, tényt, körülményt, adatot, állapotot, jogot vagy kötelezettséget a jövőben bizonyítani, igazolni, ellenőrizni lehessen",
+      "source_provision": "s2"
+    },
+    {
+      "term": "Adatállomány",
+      "definition": "a KSzSzR-ben rögzített, oda importált, illetve ott előállított információk összessége",
+      "source_provision": "s2"
+    },
+    {
+      "term": "Személyügyi intézkedés",
+      "definition": "a felhasználó által végrehajtott, valamely foglalkoztatott jogviszonyának adataiban változást eredményező tevékenység",
+      "source_provision": "s2"
+    },
+    {
+      "term": "Jelentőfelelős",
+      "definition": "a központosított illetményszámfejtésről szóló 37/2001. (X. 25.) PM rendelet 2. § (1) bekezdés j) pontja szerinti jelentőfelelős",
+      "source_provision": "s2"
+    },
+    {
+      "term": "Szerepkör",
+      "definition": "a meghatározott feladatkörrel és annak ellátásához szükséges jogosultsággal felruházott felhasználói pozíció",
+      "source_provision": "s2"
+    },
+    {
+      "term": "Külső informatikai rendszerek működtetői",
+      "definition": "a Magyar Államkincstár és a NISZ Nemzeti Infokommunikációs Szolgáltató Zrt.",
+      "source_provision": "s2"
+    },
+    {
+      "term": "Jogosultság",
+      "definition": "egy adott szerepkört betöltő felhasználó számára biztosított, a KSzSzR használatát lehetővé tévő egyes jogok (felhatalmazások) összessége",
+      "source_provision": "s2"
+    },
+    {
+      "term": "Értékkészlet",
+      "definition": "a KSzSzR-ben rögzítendő egyes adatokra jellemző, választható elemek halmaza.",
+      "source_provision": "s2"
+    }
+  ]
+}

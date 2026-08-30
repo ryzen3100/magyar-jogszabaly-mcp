@@ -5,17 +5,17 @@ jurisdiction: "HU"
 sources:
   - name: "Nemzeti Jogszabálytár (National Legislation Database)"
     authority: "Magyar Közlöny (Hungarian Official Gazette)"
-    official_portal: "https://njt.hu"
+    official_portal: "https://njt.jog.gov.hu"
     retrieval_method: "HTML_SCRAPE"
     update_frequency: "weekly"
-    last_ingested: "2026-02-21"
+    last_ingested: "2026-08-30"
     license_or_terms:
       type: "Official Hungarian legal text publication (see portal terms)"
-      url: "https://njt.hu"
+      url: "https://njt.jog.gov.hu"
       summary: "Legislative texts are sourced from the official national legislation portal."
     coverage:
-      scope: "Full indexed corpus of Hungarian statutes discoverable via njt.hu simple search (author_type=törvény), including canonical curated statutes and discovered hu-law-* records."
-      limitations: "As of 2026-02-21, 4 legacy statutes expose no extractable body text in public njt.hu HTML and are stored as metadata-only records (no fabricated provisions). Some canonical statutes are represented under stable curated MCP IDs with hu-law-* metadata aliases."
+      scope: "Full indexed corpus of Hungarian statutes discoverable via njt.jog.gov.hu search, scoped to jogszabálytípus codes 0000 (törvény) and 2220 (Korm. rendelet) — 14,723 documents including canonical curated statutes and discovered hu-law-* records. njt.hu redirects to njt.jog.gov.hu; the corpus origin is used directly because POST endpoints fail across the redirect."
+      limitations: "As of 2026-08-30, 8 statutes expose no extractable body text in public njt HTML and are stored as metadata-only records (no fabricated provisions). Some canonical statutes are represented under stable curated MCP IDs with hu-law-* metadata aliases. Ministerial rendeletek (other author_type codes) and the ~73k-document full index are out of scope for this update."
     languages:
       - "hu"
       - "en"
@@ -23,4 +23,4 @@ sources:
 data_freshness:
   automated_checks: true
   check_frequency: "weekly"
-  last_verified: "2026-02-21"
+  last_verified: "2026-08-30"

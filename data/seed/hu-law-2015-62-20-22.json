@@ -1,0 +1,84 @@
+{
+  "id": "hu-law-2015-62-20-22",
+  "type": "statute",
+  "title": "62/2015. (III. 24.) Korm. rendelet az önkormányzati ASP központról és a közfeladatot ellátó szervek iratkezelésének általános követelményeiről szóló 335/2005. (XII. 29.) Korm. rendelet módosításáról",
+  "status": "repealed",
+  "in_force_date": "2015-03-25",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2015-62-20-22",
+  "description": "az önkormányzati ASP központról és a közfeladatot ellátó szervek iratkezelésének általános követelményeiről szóló 335/2005. (XII. 29.) Korm. rendelet módosításáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § E rendelet alkalmazásában 1. alkalmazásüzemeltetés: alkalmazások elérhetővé tétele és működtetése, beleértve különösen a hardverkörnyezet fenntartását, programverziók frissítését, adatbázis-mentések és visszatöltések elvégzését, jogosultságkezelést, jogszabálykövetést, hibakezelést, 2. ASP központ: számítástechnikai hálózaton keresztül távoli alkalmazásszolgáltatást nyújtó informatikai rendszer (Application Service Provider), 3. keretrendszer: a szakrendszerek számára egységes felületet és átjárhatóságot, valamint a külső rendszerkapcsolatok kiépítésének lehetőségét biztosító rendszer, 4. szakrendszer: az ASP központ által nyújtott igazgatási feladatokat támogató alkalmazás."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § (1) A Kormány a Magyar Államkincstár (a továbbiakban: Kincstár) útján a települési önkormányzati feladatellátás informatikai támogatása céljából ASP központot (a továbbiakban: önkormányzati ASP központ) működtet. (2) Az önkormányzati ASP központ a csatlakozott települési önkormányzat (a továbbiakban: önkormányzat) számára központilag fejlesztett szakrendszereket és keretrendszert szolgáltat. (3) Az önkormányzati ASP központ szakrendszerei: a) iratkezelő rendszer, b) önkormányzati települési, illetve elektronikus ügyintézési portál rendszer, c) gazdálkodási rendszer, d) ingatlanvagyon-kataszter rendszer, e) önkormányzati adórendszer, f) ipar- és kereskedelmi rendszer. (4) Az önkormányzati ASP központ működtetéséhez kapcsolódó feladat: a) a csatlakozás- és szolgáltatás-menedzsment ellátása, e feladatkörben a csatlakozáshoz szükséges műszaki minimumfeltételek meghatározása, megismerhetőségének biztosítása, b) az önkormányzati ASP központ alapinfrastruktúrája működtetésének kivételével a szolgáltatási szerződések megkötése és módosítása, felelősségvállalás a szolgáltatás minőségéért, c) ügyfélszolgálat biztosításával a szolgáltatással kapcsolatos ügyfél-kapcsolattartási, tájékoztatási és adminisztratív feladatok ellátása, biztosítva a hibabejelentés lehetőségét, d) a szolgáltatásokkal kapcsolatos kommunikációs és képzési feladatok elvégzése, e) a szolgáltatások fejlesztéséért való felelősség a szakrendszer alkalmazásüzemeltetője által továbbított specifikációk alapján, f) a fejlesztési szerződések megkötése, a szakrendszerekkel kapcsolatos fejlesztési szerződések esetén a szakrendszer üzemeltetőjének bevonásával, g) a szakrendszerekben képződött adatok védelméről való gondoskodás, h) felhasználói szerződés megkötése az önkormányzati ASP központ alapinfrastruktúrája vonatkozásában, valamint szolgáltatási szerződés megkötése a 4. § (2) bekezdés a) pontjában meghatározott szakrendszer tekintetében az informatikai üzemeltetést ellátó szervezettel."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) A 2. § (3) bekezdés a) a) pontja szerinti szakrendszer esetében a köziratok kezelésének szakmai irányításáért felelős miniszter, b) b) pontja szerinti szakrendszer esetében a helyi önkormányzatokért felelős miniszter, c) c)–e) pontja szerinti szakrendszer esetében az államháztartásért felelős miniszter a helyi önkormányzatokért felelős miniszter egyetértésével, d) f) pontja szerinti szakrendszer esetében az iparügyekért felelős miniszter a kereskedelemért felelős miniszter egyetértésével ellenőrzi a szakrendszer működését és meghatározza a szakrendszer fejlesztésének irányait. (2) A helyi önkormányzatokért felelős miniszter, az államháztartásért felelős miniszter, valamint az adott szakrendszer vonatkozásában a kormányzati ágazati felelősséget gyakorló miniszter betekinthet az önkormányzati ASP központ szakrendszerében képződött azon adatokba, melyek megismerésére jogszabály alapján jogosult. (3) Az önkormányzati ASP központ szakrendszereiben képződött adatokat csatlakozó önkormányzatonként elkülönítve, az átjárhatóság kizárásával kell tárolni. (4) Az önkormányzati ASP rendszert úgy kell kialakítani, hogy az annak szakrendszereiben képződött adatokat a (2) bekezdésben foglaltak kivételével más ne ismerhesse meg."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) Az önkormányzati ASP központ működését biztosító adatközponti és hálózati informatikai infrastruktúra (a továbbiakban: alapinfrastruktúra) üzemeltetője a NISZ Nemzeti Infokommunikációs Szolgáltató Zártkörűen Működő Részvénytársaság (a továbbiakban: NISZ Zrt.). (2) A 2. § (3) bekezdés a) a)–b) pontjában meghatározott szakrendszerek alkalmazásüzemeltetője a NISZ Zrt., b) c)–f) pontjában meghatározott szakrendszerek alkalmazásüzemeltetője a Kincstár. (3) A Kincstár az (1) bekezdésben meghatározott alapinfrastruktúra vonatkozásában felhasználói szerződésben, míg a szakrendszeri keretrendszer és a (2) bekezdés a) pontja szerinti szakrendszerek üzemeltetésének részletes feltételeiről külön egyedi szolgáltatási szerződésben állapodik meg a NISZ Zrt.-vel azzal, hogy a NISZ által üzemeltetett rendszerek esetében a terméktámogatási szerződések megkötése is a NISZ hatáskörébe tartozik. A Kincstár a rendszer működtetéséhez a részére biztosított központi támogatásból fedezi a NISZ Zrt. által ellátott üzemeltetési feladatokat. (4) A (3) bekezdés alapján a NISZ Zrt. részére nyújtott támogatás az Európai Unió működéséről szóló szerződés 106. cikke (2) bekezdésének az általános gazdasági érdekű szolgáltatások nyújtásával megbízott egyes vállalkozások javára közszolgáltatás ellentételezése formájában nyújtott állami támogatásra való alkalmazásáról szóló, 2011. december 20-i 2012/21/EU bizottsági határozat (a továbbiakban: 2012/21/EU bizottsági határozat) szerinti közszolgáltatásért járó ellentételezésnek minősül. (5) A támogatás mértéke nem haladhatja meg a közszolgáltatási kötelezettségek teljesítéséhez szükséges nettó költséget, ide értve az ésszerű nyereséget is. A támogatás mértékét a 2012/21/EU bizottsági határozat 5. cikke szerint kell megállapítani. (6) Ha a kedvezményezett a 2012/21/EU bizottsági határozat 5. cikkének megfelelően meghatározott összeget meghaladó támogatásban részesül, köteles a túlkompenzációt visszafizetni. Ha a túlkompenzáció összege nem haladja meg az átlagos éves ellentételezés összegének 10%-át, a túlkompenzáció átvihető a következő időszakra, és levonható az arra az időszakra fizetendő támogatás összegéből. (7) A kedvezményezett a támogatásról olyan elkülönített elszámolást köteles vezetni, amelyből az (5) és (6) bekezdésben meghatározott követelmények ellenőrizhetőek."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § (1) Az önkormányzati ASP központ szolgáltatásainak igénybevételére az önkormányzat szolgáltatási szerződést köt. Az önkormányzati ASP központ szolgáltatásainak igénybevétele az önkormányzat számára térítésmentes. (2) Az önkormányzati ASP központhoz történő csatlakozást az önkormányzat kezdeményezheti a Kincstárnál."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § (1) Az önkormányzati ASP központhoz történő csatlakozás feltétele, hogy az önkormányzat a) megfeleljen a Kincstár által közzétett műszaki minimumfeltételeknek, b) teljesítse az állami és önkormányzati szervek elektronikus információbiztonságáról szóló törvényben előírt követelményeket, c) biztosítsa az önkormányzati ASP központhoz történő csatlakozáshoz szükséges helyi feltételeket és a meglévő adatok migrációját, d) vállalja, hogy a szakrendszer által támogatott feladatait a szakrendszer útján látja el. (2) Az önkormányzat csatlakoztatását az önkormányzati ASP központhoz a Kincstár a technikai-pénzügyi kapacitásoknak megfelelően folyamatosan végzi."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § A Kincstár és az önkormányzat által kötött szolgáltatási szerződés rögzíti legalább a) az önkormányzattal szemben támasztott, a csatlakozással összefüggő informatikai, szervezeti és jogi minimumkövetelményeket, és a folyamatos működés biztosítása érdekében megvalósítandó feladatokat, b) az önkormányzat által igénybe venni kívánt szakrendszereket és ezek szolgáltatási szintjét, c) az Európai Unió által támogatott projekt keretében történt csatlakozás folytán az önkormányzatot terhelő fenntartási kötelezettségről szóló kikötéseket, d) a szolgáltatás igénybevételével kapcsolatos jogokat és kötelezettségeket, e) az IT-biztonsági, valamint az igénybevétellel összefüggésben az információk bizalmas kezelésére vonatkozó követelményeket, f) a kapcsolattartók adatait, valamint g) az elektronikus ügyintézési szolgáltatások bevezetésére vonatkozó önkormányzati kötelezettségvállalást."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § (1) Ez a rendelet – a (2) bekezdésében meghatározott kivétellel – a kihirdetését követő napon lép hatályba. (2) Az 1–7. §, valamint a 9. és 10. § 2015. április 1-jén lép hatályba."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § E rendelet 4. § (3) bekezdése az Európai Unió működéséről szóló szerződés 106. cikke (2) bekezdésének az általános gazdasági érdekű szolgáltatások nyújtásával megbízott egyes vállalkozások javára közszolgáltatás ellentételezése formájában nyújtott állami támogatásra való alkalmazásáról szóló, 2011. december 20-i 2012/21/EU bizottsági határozat (HL L 7., 2012.1.11., 3. o.) hatálya alá tartozó támogatást tartalmaz."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. §"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. §"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "szakrendszer",
+      "definition": "az ASP központ által nyújtott igazgatási feladatokat támogató alkalmazás.",
+      "source_provision": "s1"
+    }
+  ]
+}
