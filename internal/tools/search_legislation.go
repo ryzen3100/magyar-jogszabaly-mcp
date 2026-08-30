@@ -225,9 +225,6 @@ func runSearch(ctx context.Context, db *sql.DB, args searchArgs) (any, ResponseM
 			if ca != cb {
 				return ca > cb
 			}
-			if a.tier != b.tier {
-				return a.tier < b.tier
-			}
 			return a.row.relevance < b.row.relevance
 		})
 	}
