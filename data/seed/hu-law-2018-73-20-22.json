@@ -1,0 +1,98 @@
+{
+  "id": "hu-law-2018-73-20-22",
+  "type": "statute",
+  "title": "73/2018. (IV. 20.) Korm. rendelet a helyi közszolgáltatás információs rendszerről",
+  "status": "in_force",
+  "in_force_date": "2018-04-21",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2018-73-20-22",
+  "description": "a helyi közszolgáltatás információs rendszerről",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § E rendelet alkalmazásában 1. alapinfrastruktúra: a helyi közszolgáltatás információs rendszer működését biztosító adatközponti és hálózati informatikai infrastruktúra, különösen a fizikai szerverek, hálózati eszközök és a virtualizációs platform; 2. alkalmazásüzemeltetés: a helyi közszolgáltatás információs rendszer alkalmazásoldali működtetése, ide nem értve a helyi közszolgáltatás információs rendszer működéséhez szükséges – nem informatikai jellegű – szakmai alkalmazástámogatói feladatokat (például az önkormányzati felhasználók napi szintű támogatása, önkormányzati és ágazati oldalról érkező fejlesztési igények meghatározása); 3. helyi közszolgáltatás: törvényben meghatározott helyi közügy, valamint helyben biztosítható közfeladat; 4. IKIR: helyi közszolgáltatás információs rendszer, amely a települési önkormányzatok által biztosított helyi közszolgáltatások tervezésének, valamint az operatív feladatellátás szervezésének és fejlesztésének támogatását szolgáló elektronikus információs és vezetői döntéstámogató rendszer; 5. központi szolgáltató: a NISZ Nemzeti Infokommunikációs Szolgáltató Zártkörűen Működő Részvénytársaság (a továbbiakban: NISZ Zrt.) és az IdomSoft Informatikai Zártkörűen Működő Részvénytársaság (a továbbiakban: IdomSoft Zrt.)."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § (1) Az IKIR-t a helyi önkormányzatokért felelős miniszter (a továbbiakban: miniszter) működteti. (2) Az IKIR elemei: a) adattárház, b) szakmai modulok, c) karbantartó, adatátviteli és támogató funkciók. (3) Az IKIR a felhasználói adatigényeket strukturált adattárolást biztosító, az 1. mellékletben meghatározott forrásrendszerekből (a továbbiakban: forrásrendszerek) átvett adatokra épülő adattárházi funkció segítségével szolgálja ki. (4) Az IKIR szakmai moduljai: a) elemzési modul, b) feladatellátás-tervezési és -elemzési modul, c) felmérés modul, d) okosváros modul, e) lakossági modul. (5) Az IKIR működéséhez szükséges – nem informatikai jellegű – szakmai alkalmazástámogatói feladatokat a miniszter által irányított minisztérium hivatali szervezetében működő IKIR Kompetencia Központ (a továbbiakban: Központ) látja el. A Központ feladata különösen a) a felhasználási feltételek kialakítása, b) a rendszerhasználathoz szükséges regisztráció menedzselése, támogatása, c) az ügyfélszolgálati feladatok ellátása, d) a központi forrásrendszerekből származó adatok ellenőrzése, tesztelése, betöltése és a rendszer belső adatösszhangjával kapcsolatos feladatok ellátása, e) az alkalmazástámogatás, f) a működés ellenőrzése és a fejlesztési irányok meghatározása, g) az incidenskezelés, hibaelhárítás koordinációja. h) a lakossági modul komponenseinek koordinálása."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) Az IKIR alapinfrastruktúra üzemeltetője és továbbfejlesztője a NISZ Zrt. (2) Az IKIR alkalmazásüzemeltetésének és az alkalmazás továbbfejlesztésének feladatait – a 2. § (5) bekezdés a)–h) pontja szerinti szakmai alkalmazástámogatói feladatok kivételével – az IdomSoft Zrt. látja el. (3) Az IKIR működési környezetét a Kormányzati Adatközpontban kell biztosítani. (4) A központi szolgáltatók által ellátott feladatokra vonatkozóan a Digitális Magyarország Ügynökség Zártkörűen Működő Részvénytársaság a központosított informatikai és elektronikus hírközlési szolgáltatásokról szóló 309/2011. (XII. 23.) Korm. rendelet 4. § (1) bekezdése és 4/A. §-a alapján közszolgáltatási szerződést köt, és a központi szolgáltatók által ellátott feladatok finanszírozása e közszolgáltatási szerződés keretein belül történik. Az egyes szolgáltatási szintek részletes tartalmáról a közszolgáltatási szerződés rendelkezik. (5) A (4) bekezdés szerinti közszolgáltatási szerződés megkötéséhez szükséges források rendelkezésre állásáról – a közszolgáltatási szerződések finanszírozását biztosító fejezeti kezelésű előirányzat javára történő átcsoportosításáról – a miniszter gondoskodik."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) Az IKIR szolgáltatásait a) a helyi önkormányzatok és regisztrált felhasználója, b) a helyi önkormányzatok és a helyi közszolgáltatások központi szakmai tervezését, koordinációját, a feladatellátás szakmai irányítását és felügyeletét, szabályozását és finanszírozását végző központi államigazgatási szerv, valamint szakirányú képzést biztosító felsőoktatási intézmény és szakirányú kutatást végző kutatóintézet, illetve az országos önkormányzati érdekszövetségek (a továbbiakban: központi szerv) regisztrált felhasználója és c) a lakossági modul vonatkozásában – regisztráció nélkül – bárki igénybe veheti. (2) Az (1) bekezdésben megjelölteken kívüli szervezet részére az IKIR szolgáltatásainak igénybevételére a miniszterrel kötött szerződés alapján van lehetőség. (3) Az (1)–(2) bekezdés szerinti szervek vezetői az IKIR-hez való csatlakozást a miniszternél önkéntes regisztráció útján kezdeményezhetik. A regisztráció az elektronikus ügyintézés és a bizalmi szolgáltatások általános szabályairól szóló 2015. évi CCXXII. törvény 35. § (1) bekezdés a)–d) pontja szerinti elektronikus azonosítási szolgáltatás igénybevételével történik. (4) A csatlakozás feltétele a miniszter által meghatározott adatkezelési tájékoztató és felhasználási feltételek elfogadása. (5) A regisztráció és az IKIR szolgáltatásainak igénybevétele térítésmentes."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § (1) Az IKIR forrásadatai: a) a forrásrendszerek, adatbázisok aggregált átadott adatai, b) az IKIR felhasználói által rögzített adatok és c) a felmérés modulban anonim módon megadott adatok. (2) Az IKIR működtetésének biztosításához a forrásrendszerek az 1. mellékletben meghatározott közérdekű vagy közérdekből nyilvános adatokat rendszeresen szolgáltatják. (3) A Központ szakmai vezetője és a forrásrendszer működtetéséért felelős szerv vezetője által kijelölt kapcsolattartó adatlap kitöltésével és aláírásával az alábbiakról rendelkezik: a) az átadott adatok leírása, jellemzése (adattartalom felsorolása, az egyes adatmezők leírása, a kötött értékkészlettel bíró adatkörök értékkészletének listázása és ismertetése), b) az átadott adatok formátumának specifikálása, c) az adatátadások rendszeressége, időzítése, d) a korábbi évek adatainak visszamenőleges átadhatósága, e múltbeli adatok esetleges strukturális átvezetéseinek specifikálása, e) az átadás technológiája (adathordozó, állomány le-, illetve feltöltések, online nézetek meghívása, illetve mindezek technikai paraméterei), f) normál üzemviteli, tesztelési, hibakezelési kapcsolattartók megadása és g) az átadott adatok láthatóságának esetleges speciális feltételei."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § (1) A forrásrendszerekből átadott adatok tartalmáért a forrásrendszer adatkezelője felel. (2) Az IKIR-t úgy kell kialakítani, hogy a feladatellátás-tervezési és -elemzési modulban és a felmérési modulban rögzített adatokhoz csak adatkezelő helyi önkormányzatok férhetnek hozzá, azokat más helyi önkormányzat kizárólag az adatkezelő helyi önkormányzat engedélyével ismerheti meg. (3) Az IKIR adattárházban lévő, a közérdekű és közérdekből nyilvános adatoknak az információs önrendelkezési jogról és az információszabadságról szóló 2011. évi CXII. törvény szerinti megismerését a miniszter által irányított minisztérium biztosítja, a forrásrendszerekből származó adat esetén a forrásrendszer adatkezelőjének, a feladatellátás-tervezési és -elemzési modulban és a felmérési modulban rögzített adat esetén az adatkezelő helyi önkormányzat segítségével. (4) Az IKIR lakossági modulját úgy kell kialakítani, hogy abban az 1. melléklet 1. táblázat 2., 15. pontja és 2. táblázat 3. pontja szerinti adatkörök egyes, meghatározott statisztikai adataiból készült diagramok, az IKIR-be betöltött önkormányzati törzsadattár közérdekből nyilvános adatai jelenjenek meg és legyenek bárki számára elérhetőek. A lakossági modulban a regisztrált felhasználó helyi önkormányzat jogosult felhívni a lakosság figyelmét az általa indított felmérésekben való részvételre. (5) Az IKIR felmérés moduljában indított, illetve indítandó felméréseket az adatkezelő önkormányzat nyilvánossá teheti saját nyilvános felületein."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § (1) Ez a rendelet – a (2) bekezdésben meghatározott kivétellel – a kihirdetését követő napon lép hatályba. (2) Az 1–6. § és a 8–9. § 2018. április 25. napján lép hatályba."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § (1) A 3. § a belső piaci szolgáltatásokról szóló 2006. december 12-i 2006/123/EK európai parlamenti és tanácsi irányelvnek való megfelelést szolgálja. (2) A 3. § tervezetének a belső piaci szolgáltatásokról szóló 2006. december 12-i 2006/123/EK európai parlamenti és tanácsi irányelv 15. cikk (7) bekezdése szerinti előzetes bejelentése megtörtént."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. §"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § 2. Az IKIR adattárház új forrásai és adatkörei A B Forrásrendszer Adatkör 1. Kultstat – Kulturális Statisztikai Rendszer A rendszerben kezelt alábbi adatkörök: A helyi kulturális közszolgáltatásokkal összefüggő látogatói, használati, állományi, illetve szolgáltatási nyilvános adatok 2. NEAK – Járóbeteg-szakellátás publikus információi A rendszerben kezelt alábbi adatkörök: Járóbeteg szakellátások, illetve fogászati szakellátások szolgálatok teljesítményadatai NEAK elszámolás szerint 3. Adatbázis a Digitális Jólét program által finanszírozott nyilvános elérésű vezeték nélküli internet-hozzáférési pontokról (DJP adatbázis) A rendszerben kezelt alábbi adatkörök: A településen elérhető DJP pontok száma 4. Fejlesztéspolitikai Adatbázis és Információs Rendszer (FAIR) A rendszerben kezelt alábbi adatkörök: A településeken Európai Uniós fejlesztési programokból finanszírozott projektek száma, igényelt, megítélt és kifizetett támogatási összegei, közérdekből nyilvános adatai. 5. Vállalkozásdemográfia Az ún. működő (árbevétellel vagy létszámmal rendelkező) vállalkozások demográfiai adatait (pl. alapítás, túlélés, megszűnés) mutatja be az adott tárgyévre vonatkozóan 6. OSAP 1229 – Hatósági statisztika A helyi önkormányzatok államigazgatási és önkormányzati hatósági ügyekben hozott elsőfokú döntéseinek adatai ágazatok szerint 7. Robotzsaru (Balesetek adatai) Személyi sérüléssel járó közúti közlekedési balesetek OSAP adatgyűjtés szerinti adatai 8. Pénzbeli és természetbeni ellátások rendszere Az alábbi szociális és gyermekvédelmi ellátásokra jogosultak száma életkori és állampolgárság/idegenrendészeti státusz szerinti bontásban Aktív korúak ellátására vonatkozó adatok Időskorúak járadékára vonatkozó adatok Gyermekek otthongondozási díjára vonatkozó adatok Ápolási díjra vonatkozó adatok Közgyógyellátásra vonatkozó adatok Egészségügyi szolgáltatásra való jogosultságra vonatkozó adatok Települési támogatásra vonatkozó adatok Rendszeres gyermekvédelmi kedvezményre vonatkozó adatok Gyermektartásdíj megelőlegezésre vonatkozó adatok 9. NAV adatbázisok A rendszerben kezelt alábbi adatkörök települési szintű statisztikai mutatói: SZJA bevallások adatai TAO bevallások adatai Gépjárműadó adatok 10. MEKH Energiainformációs Adattára A rendszerben kezelt alábbi adatkörök: Földgáz-fogyasztással kapcsolatos adatok Vezetékes PB gázfogyasztással kapcsolatos adatok Villamosenergia-felhasználással kapcsolatos adatok Távhőszolgáltatással kapcsolatos adatok"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "§ E rendelet alkalmazásában 1. alapinfrastruktúra",
+      "definition": "a helyi közszolgáltatás információs rendszer működését biztosító adatközponti és hálózati informatikai infrastruktúra, különösen a fizikai szerverek, hálózati eszközök és a virtualizációs platform",
+      "source_provision": "s1"
+    },
+    {
+      "term": "alkalmazásüzemeltetés",
+      "definition": "a helyi közszolgáltatás információs rendszer alkalmazásoldali működtetése, ide nem értve a helyi közszolgáltatás információs rendszer működéséhez szükséges – nem informatikai jellegű – szakmai alkalmazástámogatói feladatokat (például az önkormányzati felhasználók napi szintű támogatása, önkormányzati és ágazati oldalról érkező fejlesztési igények meghatározása)",
+      "source_provision": "s1"
+    },
+    {
+      "term": "helyi közszolgáltatás",
+      "definition": "törvényben meghatározott helyi közügy, valamint helyben biztosítható közfeladat",
+      "source_provision": "s1"
+    },
+    {
+      "term": "IKIR",
+      "definition": "helyi közszolgáltatás információs rendszer, amely a települési önkormányzatok által biztosított helyi közszolgáltatások tervezésének, valamint az operatív feladatellátás szervezésének és fejlesztésének támogatását szolgáló elektronikus információs és vezetői döntéstámogató rendszer",
+      "source_provision": "s1"
+    },
+    {
+      "term": "központi szolgáltató",
+      "definition": "a NISZ Nemzeti Infokommunikációs Szolgáltató Zártkörűen Működő Részvénytársaság (a továbbiakban: NISZ Zrt.) és az IdomSoft Informatikai Zártkörűen Működő Részvénytársaság (a továbbiakban: IdomSoft Zrt.).",
+      "source_provision": "s1"
+    }
+  ]
+}

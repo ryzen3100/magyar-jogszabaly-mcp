@@ -1,0 +1,113 @@
+{
+  "id": "hu-law-2017-467-20-22",
+  "type": "statute",
+  "title": "467/2017. (XII. 28.) Korm. rendelet a Kormányzati Adatközpont működéséről",
+  "status": "in_force",
+  "in_force_date": "2018-01-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2017-467-20-22",
+  "description": "a Kormányzati Adatközpont működéséről",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § (1) E rendelet hatálya a) a kormányzati adatközponti szolgáltatásokat nyújtó központi szolgáltatóra; b) a kormányzati adatközponti szolgáltatások igénybevételére vagy igénybevételének vizsgálatára kötelezett felhasználókra (a továbbiakban együtt: kötelezett felhasználó); c) a kormányzati célú hálózatokról szóló 346/2010. (XII. 28.) Korm. rendelet 4. § (1) bekezdése alapján a nemzeti távközlési gerinchálózat igénybevételére jogosult és e rendelet alapján a kormányzati adatközponti szolgáltatások igénybevételének vizsgálatára kötelezett felhasználónak nem minősülő szervekre (a továbbiakban: vizsgálatra kötelezett felhasználónak nem minősülő felhasználó); d) a kormányzati adatközponti szolgáltatásokkal érintett természetes személyekre, jogi személyekre és egyéb szervezetekre e) a Digitális Magyarország Ügynökség Zártkörűen Működő Részvénytársaságra (a továbbiakban: DMÜ) terjed ki. (2) A rendeletet a kötelezett felhasználó tekintetében az igénybevételi kötelezettség vizsgálatát megalapozó körülmény bekövetkezésétől kell alkalmazni. (3) E rendelet nem alkalmazandó a) a polgári nemzetbiztonsági, honvédelmi, katonai nemzetbiztonsági, rendvédelmi, diplomáciai és konzuli érdeket (a továbbiakban: védett érdek) érintő feladatokat ellátó szervezetek rendszereivel kapcsolatos fejlesztéseire, amelyek olyan kódolási, rendszerkapcsolati, működési-logikai, illetve egyéb fejlesztéstechnológiai megoldásokkal készültek, vagy ilyen megoldásokat tartalmaznak, amelyek mások általi megismerése közvetlenül sértheti vagy veszélyeztetheti a védett érdekeket, b) a védett érdeket érintő feladatokat ellátó szervezetek körébe nem tartozó szervek rendszereivel kapcsolatos fejlesztéseire, amelyek olyan kódolási, rendszerkapcsolati, működési-logikai, illetve egyéb fejlesztés-technológiai megoldásokkal készültek, vagy ilyen megoldásokat tartalmaznak, amelyek mások általi megismerése közvetlenül sértheti vagy veszélyeztetheti a védett érdekeket."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § E rendelet alkalmazásában a) Kormányzati Adatközpont: a kormányzat, a közigazgatás és a közszolgáltatások számára stabil és biztonságos informatikai infrastruktúra környezetet biztosító, felhő alapú szolgáltatások nyújtására képes központi informatikai infrastruktúrát magába foglaló, geo-redundánsan működő géptermek; b) Kormányzati Felhő: az EKOP-2.2.1-2012-2012-0001 „Kormányzati Felhő – Kormányzati adatközpont és IT értéknövelt szolgáltatásnyújtás megalapozása” projekt keretében létrehozott és a NISZ Nemzeti Infokommunikációs Szolgáltató Zártkörűen Működő Részvénytársaság által üzemeltetett, számítási-, és tárolókapacitást nyújtó, felhő technológián alapuló informatikai infrastruktúra szolgáltatások összessége; c) KÖFOP projektek: a 2014–2020. évekre kiterjedő időszakra elfogadott Közigazgatás- és Közszolgáltatás-fejlesztés Operatív Program alapján kormányhatározatban nevesített projekt alapján európai uniós finanszírozással végrehajtott projektek; d) forrás: norma szerinti alapszintű közszolgáltatások esetén a DMÜ-vel kötött közszolgáltatási szerződés keretében biztosított forrás; költségvetési előirányzattal nem rendelkező, az e rendelet hatálya alá tartozó gazdálkodó szervezet felhasználó esetén, valamint norma feletti alapszintű és emelt szintű szolgáltatások esetén a felhasználó által biztosított forrás; e) szolgáltatási tartalék: az az üzemi tartalékot meghaladó, folytatólagosan fenntartandó kapacitás tartalék, amely lehetővé teszi a szolgáltatási igények kiszolgálását, illetve a szolgáltatások időszakosságából adódó többletterhelésekhez szükséges kapacitás átmeneti biztosítását; f) üzemi tartalék: a Kormányzati Adatközpont felhő szolgáltatás és az azt biztosító informatikai eszközök műszaki, technikai sajátosságaiból adódó, szolgáltatás nyújtására közvetlenül fel nem használható erőforrás biztosítására szolgáló kapacitás tartalék, amelynek célja az IT eszközök saját működéséhez szükséges minimális kapacitás folyamatos biztosítása."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) A közigazgatási informatika infrastrukturális megvalósíthatóságának biztosításáért felelős miniszter (a továbbiakban: miniszter) a NISZ Nemzeti Infokommunikációs Szolgáltató Zártkörűen Működő Részvénytársaság (a továbbiakban: központi szolgáltató) útján működteti a Kormányzati Adatközpontot, amelynek keretében KAK Virtuális adatközpont szolgáltatást, KAK Hoszting szolgáltatást és adatmegőrzési szolgáltatást (a továbbiakban együtt: adatközponti szolgáltatások) nyújt a felhasználók részére. (2) A központi szolgáltató (1) bekezdés szerinti tevékenysége keretében igénybe vehető norma szerinti alapszintű, norma feletti alapszintű és emelt szintű szolgáltatások körének meghatározása a központosított informatikai és elektronikus hírközlési szolgáltatásokról szóló 341/2024. (XI. 14.) Korm. rendeletben (a továbbiakban: KR) foglaltak szerint történik. (3) A központi szolgáltató által nyújtott adatközponti szolgáltatások finanszírozására a KR-ben meghatározottak irányadók."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) Az adatközponti szolgáltatások igénybevétele a 6. § szerinti igénybevételi formában történhet. (2)"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. §"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § (1) A (2) bekezdésben meghatározott szervezet – az e rendeletben foglalt kivételekkel –, ha a) új szakrendszert fejleszt, amely új infrastruktúra-környezet kialakítását igényli, b) meglévő infrastruktúra amortizációs cseréjét igényli, c) meglévő infrastruktúra bővítését igényli, vagy d) meglévő vagy újólag fejlesztett rendszerének üzemeltetését nem képes a Magyarország kiberbiztonságáról szóló törvény szerinti biztonsági osztályhoz tartozó követelményeknek megfelelő szinten biztosítani, köteles a központi szolgáltatóval közösen megvizsgálni, hogy a fejlesztés révén kialakított rendszer vagy szakrendszer alkalmas-e az adatközponti szolgáltatások igénybevételére. (2) Az (1) bekezdés szerinti kötelezettség a következő szerveket terheli: a) a Kormány irányítása vagy felügyelete alá tartozó költségvetési szerv, a Miniszterelnöki Kormányiroda, b) az a) pontban szabályozott költségvetési szerv irányítása vagy felügyelete alá tartozó központi, területi és helyi költségvetési szerv vagy intézmény, c) a Kormány által alapított, illetve a Kormány vagy a Kormány tagja alapítói joggyakorlása alá tartozó alapítvány és közalapítvány, d) a Magyar Nemzeti Bank, valamint a Magyar Nemzeti Banknak a Polgári Törvénykönyvről szóló 2013. évi V. törvény (a továbbiakban: Ptk.) 8:2. §-a szerinti többségi befolyása alatt álló vagy az állami vagyonról szóló 2007. évi CVI. törvény 42/A. § (1) bekezdése szerinti kivezetésre szánt állami vagyon körébe tartozó gazdasági társaság kivételével azon gazdasági társaság, amelyben az állam a Ptk. 8:2. §-a szerinti többségi befolyást gyakorol. e) (2a) A vizsgálatra kötelezett felhasználónak nem minősülő felhasználó a 6. § (1) bekezdésében meghatározott célokból veheti igénybe az adatközponti szolgáltatásokat, ha az általa fenntartott rendszer működése adatközponti szolgáltatások igénybevételével biztosítható. (2b) A (2) bekezdés szerinti szerv az adatközponti szolgáltatások igénybevételének kötelező vizsgálatát, valamint a vizsgálatra kötelezett felhasználónak nem minősülő felhasználó az adatközponti szolgáltatások igénybevételére irányuló szándékát az e célra rendszeresített elektronikus űrlapon – az adatközponti szolgáltatások igénybevételéhez szükséges dokumentumokkal együtt – jelenti be a DMÜ-nek. (3) A (2) bekezdés szerinti szervezet nem köteles az adatközponti szolgáltatásokat igénybe venni, ha az (1) bekezdés szerinti vizsgálat eredménye alapján a (2) bekezdés szerinti szervezet kérelmére a digitális szolgáltatások felügyelete egyedi döntésében azt állapította meg, hogy a) a szervezet által fenntartott rendszer vagy szakrendszer működéséhez az adatközponti szolgáltatások felhasználása nem lehetséges, vagy b) az informatikai rendszer, szakrendszer a Kormányzati Adatközponttal legalább azonos informatikai biztonságot garantál. (4) A (3) bekezdésben foglalt eset kivételével a (2) bekezdés szerinti szerv úgy köteles kialakítani a fejlesztést, hogy a fejlesztett rendszer vagy szakrendszer alkalmas legyen az adatközponti szolgáltatások igénybevételére. (5) A (2) bekezdés szerinti szervezet az (1) bekezdés szerinti ok felmerülésével egy időben, haladéktalanul kezdeményezi a (3) bekezdésben foglaltak vizsgálatát. (6) A (4) bekezdésben foglalt esetben a szervezet kérelmére a digitális szolgáltatások felügyelete egyedi döntésben állapítja meg az adatközponti szolgáltatások kötelező igénybevételét. (6a) A digitális szolgáltatások felügyelete vizsgálatra kötelezett felhasználónak nem minősülő felhasználó által a (2a) bekezdés alapján benyújtott kérelem és az adatközponti szolgáltatások igénybevételéhez szükséges dokumentumok alapján – a központi szolgáltató javaslatát is mérlegelve – dönt a csatlakozás engedélyezéséről és annak legkorábbi időpontjáról, valamint a csatlakozással kapcsolatos finanszírozás módjáról. (6b) A digitális szolgáltatások felügyelete a (3), (6) és (6a) bekezdés szerinti döntéséről értesíti a központi szolgáltatót. (7) A (2) bekezdés szerinti szervezet nem köteles az (1) bekezdés szerinti vizsgálatra, ha az (1) bekezdés szerinti fejlesztés olyan rendszer vagy szakrendszer fejlesztését érinti, amely vonatkozásában a miniszter 2022. január 1-jét megelőzően megállapította a (3) bekezdés szerinti ok fennállását. (8) (9) Az alapszintű norma szerinti adatközponti szolgáltatások igénybevétele esetén az érintett szervezet a miniszternél kezdeményezi – a központi szolgáltatóval előzetesen egyeztetett, az éves üzemeltetési költség összegével megegyező forrás átcsoportosításáról szóló előirányzat-átcsoportosítási megállapodás tervezetének megküldésével –, hogy legkésőbb a tárgyévet követő év első napjától az általa igénybe vett adatközponti szolgáltatásokat a 10. § (2) bekezdésében foglalt közszolgáltatási szerződés alapján biztosítsa a központi szolgáltató. (9a) A (9) bekezdéstől eltérően az alapszintű norma szerinti adatközponti szolgáltatások igénybevétele esetén a költségvetési előirányzattal nem rendelkező, az e rendelet hatálya alá tartozó gazdálkodó szervezet felhasználó a központi szolgáltatónál kezdeményezi, hogy az általa igénybe vett adatközponti szolgáltatásokat – a központi szolgáltatóval előzetesen egyeztetett, az éves üzemeltetési költség összegével megegyező forrás biztosításával – a 10. § (2a) bekezdésében foglalt egyedi direktfinanszírozási szerződés alapján biztosítsa a központi szolgáltató. (9b) A vizsgálatra kötelezett felhasználónak nem minősülő felhasználó az adatközponti szolgáltatás finanszírozásáról a kezdeményezése alapján a (9) vagy (9a) bekezdésben foglaltak szerint gondoskodik a kezdeményezett finanszírozási formára e rendeletben előírt eljárási szabályok alkalmazásával."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. §"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § (1) A kötelezett felhasználó esetében – kivételesen indokolt esetben – egyedi kérelemre a digitális szolgáltatások felügyelete legfeljebb 12 hónapra szóló felmentést adhat az adatközponti szolgáltatások kötelező igénybevétele alól, ha a) az adatközponti szolgáltatások igénybevétele a szerv jogszabályban előírt feladatainak teljesítését veszélyeztetné, vagy b) a szerv feladata olyan speciális szolgáltatást igényel, amely a Kormányzati Adatközpont útján nem biztosítható, vagy c) az adatközponti szolgáltatások nyújtásához szükséges kapacitásokat a központi szolgáltató nem tudja biztosítani. (2) Az (1) bekezdésben meghatározott felmentési időszak lejártával újra meg kell vizsgálni a kötelező igénybevételt akadályozó tényező fennállását. Az (1) bekezdésben meghatározott indokok fennállása esetén a felmentés több alkalommal is megadható az (1) bekezdés szerinti időtartamra. (3) (4) A digitális szolgáltatások felügyelete az (1) bekezdés szerinti felmentést indokolni köteles, a felmentés körülményeinek vizsgálata hatósági eljárásnak nem minősül."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § Az adatközponti szolgáltatások nyújtásához szükséges infrastruktúrát a központi szolgáltató oly módon köteles működtetni, a kapacitásait bővíteni és a meglévő kapacitásaival gazdálkodni, hogy az adatközponti szolgáltatások igénybevétele tekintetében a kötelezett felhasználó részéről felmerülő igény a Kormányzati Adatközpontból teljeskörűen kiszolgálható, folyamatosan teljesíthető legyen."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § (1) A Kormányzati Adatközpont működtetését és ennek keretében az adatközponti szolgáltatások nyújtását – a DMÜ által meghatározott szakmai követelmények, valamint az e rendeletben meghatározott működtetési szabályok alapján – a központi szolgáltató önálló felelősséggel végzi. (2) A DMÜ az e rendelet szerinti norma szerinti alapszintű közszolgáltatások nyújtására a központi szolgáltatóval közszolgáltatási szerződést köt, amelyben a felek rögzítik az adatközponti szolgáltatások pontos tartalmát, a szolgáltatások elvárt szintjét, valamint az általános informatikai biztonsági követelményeket, a szolgáltatás elvárt szintjének mérésére, a felügyeleti szervre és a szolgáltatás kiesése esetén elvárt eljárásrendre vonatkozó szabályozást. (2a) A (2) bekezdéstől eltérően a költségvetési előirányzattal nem rendelkező, az e rendelet hatálya alá tartozó gazdálkodó szervezet felhasználó az alapszintű norma szerinti adatközponti szolgáltatások nyújtására közvetlenül egyedi direktfinanszírozás szerződést köt a szolgáltatóval, melyben a felek rögzítik az alapszintű norma szerinti adatközponti szolgáltatások pontos tartalmát, a szolgáltatások elvárt szintjét, valamint az általános informatikai biztonsági követelményeket, a szolgáltatás elvárt szintjének mérésére, a felügyeleti szervre és a szolgáltatás kiesése esetén elvárt eljárásrendre vonatkozó szabályozást. (3) Az alapszintű norma szerinti adatközponti szolgáltatások fedezetét a DMÜ biztosítja. (3a) A (3) bekezdéstől eltérően költségvetési előirányzattal nem rendelkező, az e rendelet hatálya alá tartozó gazdálkodó szervezet felhasználó esetén az adatközponti szolgáltatások ellentételezését a felhasználó biztosítja a központi szolgáltatóval közvetlenül megkötött egyedi direktfinanszírozási szerződésben foglalt pénzügyi kötelezettségek központi szolgáltató felé történő teljesítésével. (4) A központi szolgáltató – a (6) bekezdésben foglaltak figyelembevételével – éves viszonylatban a szolgáltatási tartalék mértékét legfeljebb a tárgyév utolsó napján a 11. § (1) bekezdése szerint tervezett adatközponti szolgáltatások által igénybe vett számítástechnikai erőforrás 20%-ában, az üzemi tartalék mértékét legfeljebb a tárgyév utolsó napján a 11. § (1) bekezdése szerint tervezett, szolgáltatási tartalékkal növelt adatközponti szolgáltatások által igénybe vett számítástechnikai erőforrás 20%-ában határozhatja meg. (5) A szolgáltató a szolgáltatási tartalék felhasznált részét a felhasználása ütemében folyamatosan – de legalább éves viszonylatban – a (3) bekezdés, valamint a 6. § (3) bekezdése alapján rendelkezésre álló, közszolgáltatási szerződés keretében biztosított forrásból, teljes mennyiségben visszapótolja. (6) A Kormány a költségvetés tervezésénél a (3) bekezdésben meghatározott költségelemeken túl figyelemmel van a központi szolgáltató által nyújtott adatközponti szolgáltatások kiterjesztésével összefüggő szolgáltatási terjedelemnövekedés, valamint a Kormányzati Adatközpont rendeltetésszerű működése során az infrastruktúra környezet elhasználódásából származó fizikai és erkölcsi avulás pénzügyi ellentételezésére, valamint a Kormányzati Adatközpont által biztosított szolgáltatások okán megvalósult megtakarításokra. (7) A központi szolgáltató az e rendelet szerint nyújtott közszolgáltatások ellentételezésére és észszerű nyereség elszámolására a KR-ben foglaltak szerint tarthat igényt."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § (1) A felhasználók minden év november 30-ig kötelesek a miniszter felé – a központi szolgáltató útján – bejelenteni az adatközponti szolgáltatások tekintetében a következő évben várható szolgáltatás igénybevétel bővítési szándékukat. (2) A központi szolgáltató minden év január 15-ig – az (1) bekezdés szerinti bejelentések alapján – javaslatot készít a DMÜ részére a már szolgáltatást igénybe vevő felhasználóktól beérkezett, valamint a csatlakozási szándékot új igénybevevőként bejelentő szervek részéről jelentkező bővítési célú fejlesztési igények megvalósításának műszaki, szakmai lehetőségeiről, azok javasolt megvalósítási sorrendjéről, valamint az ezekkel összefüggésben felmerülő fejlesztési, bővítési forrásigényekről."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. §"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. § (1) Ez a rendelet 2018. január 1-jén lép hatályba. (2) A Kormányzati Felhő infrastruktúra rendszerben található szakrendszerek üzemeltetéséről a központi szolgáltató gondoskodik a Kormányzati Adatközpont igénybevételével, a Kormányzati Felhő infrastruktúra rendszerre vonatkozó fenntartási időszak lejártát követően. (3) E rendelet rendelkezéseit a 2. mellékletben meghatározott projektek eredménytermékeire a megvalósulásukat követően kell alkalmazni azzal, hogy projektek megvalósítását e rendeletnek megfelelően kell végrehajtani. (4) A 2. mellékletben meghatározott projektek tekintetében a közszolgáltatási szerződéseket a szükséges források rendelkezésre állását követően lehet megkötni. Azon projektek tekintetében, ahol a források 2018. január 1-jén rendelkezésre állnak, a szerződéseket 2018. február 15-ig kell megkötni. (5) E rendeletnek az informatikai tárgyú, valamint elektronikus ügyintézéshez kapcsolódó kormányrendeletek módosításáról szóló 310/2023. (VII. 14.) Korm. rendelettel (a továbbiakban: Módr2.) megállapított és módosított rendelkezéseit a Módr2. hatálybalépésekor folyamatban lévő ügyekben is alkalmazni kell. (6) E rendeletnek az egyes kormányrendeleteknek a központosított informatikai, elektronikus hírközlési és adatközponti szolgáltatások rendszerének felülvizsgálatához kapcsolódó módosításáról szóló 342/2024. (XI. 14.)Korm. rendelettel (a továbbiakban: Módr3.) megállapított és módosított rendelkezéseit a Módr3. hatálybalépésekor folyamatban lévő ügyekben is alkalmazni kell."
+    },
+    {
+      "provision_ref": "s13a",
+      "section": "13/A",
+      "title": "13/A. §",
+      "content": "13/A. § (1) A központosított informatikai és elektronikus hírközlési szolgáltatásokkal összefüggő egyes kormányrendeletek módosításáról szóló 618/2022. (XII. 29.) Korm. rendelet (a továbbiakban: Módr.) hatálybalépését megelőző napon a 2. mellékletben meghatározott projektek keretében fejlesztett szakrendszerek és a 3. mellékletben meghatározott szakrendszerek esetében a szakrendszerek működéséért felelős szervezet számára a Módr. hatálybalépését követően is kötelező a Kormányzati Adatközpont igénybevétele. (2) A Módr. hatálybalépését követő 15 napon belül az elektronikus ügyintézési felügyelet határozatában állapítja meg a szakrendszerek tekintetében a Kormányzati Adatközpont (1) bekezdés szerinti kötelező igénybevételét."
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14. §",
+      "content": "14. § (1) Ez a rendelet a belső piaci szolgáltatásokról szóló, 2006. december 12-i 2006/123/EK európai parlamenti és tanácsi irányelvnek való megfelelést szolgálja. (2) E rendeletnek a belső piaci szolgáltatásokról szóló, 2006. december 12-i 2006/123/EK európai parlamenti és tanácsi irányelv szerinti előzetes bejelentése megtörtént."
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15. §",
+      "content": "15. §"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16. §",
+      "content": "16. §"
+    }
+  ]
+}

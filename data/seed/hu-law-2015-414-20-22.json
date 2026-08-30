@@ -1,0 +1,683 @@
+{
+  "id": "hu-law-2015-414-20-22",
+  "type": "statute",
+  "title": "414/2015. (XII. 23.) Korm. rendelet a személyazonosító igazolvány kiadása és az egységes arcképmás- és aláírás-felvételezés szabályairól",
+  "status": "in_force",
+  "in_force_date": "2016-01-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2015-414-20-22",
+  "description": "a személyazonosító igazolvány kiadása és az egységes arcképmás- és aláírás-felvételezés szabályairól",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "chapter": "I. Fejezet ALAPVETŐ RENDELKEZÉSEK",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § E rendelet alkalmazásában: a) aktiváló PIN kód: az állandó személyazonosító igazolvány tároló eleméhez rendelt, az állandó személyazonosító igazolványhoz tartozó PIN kód és az elektronikus aláíráshoz tartozó PIN kód létrehozásához szükséges aktiváló adat; b) állandó személyazonosító igazolványhoz tartozó PIN kód: az állandó személyazonosító igazolvány tároló eleméhez rendelt, annak elektronikus úton történő használatához szükséges, az okmány birtokosának hozzáférési jogosultságát igazoló adat; c) e-aláírási funkció: a polgárok személyi adatainak és lakcímének nyilvántartásáról szóló 1992. évi LXVI. törvény (a továbbiakban: Nytv.) 29/C. § (3) bekezdése szerinti funkció; d) elektronikus aláíráshoz tartozó PIN kód: az állandó személyazonosító igazolvány tároló eleméhez rendelt, az elektronikus aláírás létrehozásához szükséges, az aláíró hozzáférési jogosultságát ellenőrző adat; e) fogvatartott: a büntetés-végrehajtási intézetben fogva tartott ea) szabadságvesztésre ítélt, eb) elzárásra ítélt, ec) közérdekű munka helyébe lépő szabadságvesztést töltő, ed) pénzbüntetés helyébe lépő szabadságvesztést töltő, ee) letartóztatott, ef) rendbírság helyébe lépő elzárást töltő, eg) kényszergyógykezelt, eh) előzetes kényszergyógykezelt és ei) a szabálysértési elzárást, valamint a pénzbírság, a helyszíni bírság és a közérdekű munka helyébe lépő szabálysértési elzárást töltő polgár; f) gyártáshiba: a kártyatestnek a kártya megszemélyesítése során keletkező hibája; g) kijelölt hitelesítés-szolgáltató: az Nytv. 29/C. § (2) bekezdés b) pontja szerinti, külön kormányrendeletben kijelölt hitelesítés-szolgáltató; h) megrongálódás: a személyazonosító igazolvány kártyatestének vizuálisan érzékelhető, számottevő sérülése; i) PUK kód: az állandó személyazonosító igazolvány tároló eleméhez rendelt, az állandó személyazonosító igazolványhoz tartozó PIN kód és az elektronikus aláíráshoz tartozó PIN kód háromszori sikertelen megadása után használható feloldóadat; j) regisztrációs kód: az állandó személyazonosító igazolványhoz rendelt, az ügyfélkapu igénybevételéhez szükséges regisztráció elektronikus úton történő előterjesztéséhez szükséges ellenőrző adat; k) visszavonási jelszó: az elektronikus aláíráshoz tartozó tanúsítvány ügyfél kérelmére történő telefonos visszavonásához szükséges kód."
+    },
+    {
+      "provision_ref": "s2",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § Az állandó személyazonosító igazolvánnyal és az ideiglenes személyazonosító igazolvánnyal (a továbbiakban együtt: személyazonosító igazolvány) összefüggő, az e rendeletben meghatározott hatósági ügyekben a fővárosi és vármegyei kormányhivatal járási (fővárosi kerületi) hivatala (a továbbiakban: járási hivatal), a kormányablak, a polgárok személyi adatainak és lakcímének nyilvántartásáról szóló 1992. évi LXVI. törvény végrehajtásáról szóló 146/1993. (X. 26.) Korm. rendelet 10/B. §-ában kijelölt Budapest Főváros Kormányhivatala (a továbbiakban: kijelölt kormányhivatal), valamint a személyiadat- és lakcímnyilvántartásért felelős miniszter (a továbbiakban: nyilvántartást kezelő szerv) jár el."
+    },
+    {
+      "provision_ref": "s2a",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "2/A",
+      "title": "2/A. §",
+      "content": "2/A. § A magyar állampolgár állandó személyazonosító igazolvánnyal összefüggő hatósági ügyében a hivatásos konzuli tisztviselő (a továbbiakban: konzuli tisztviselő) jár el, ha az állandó személyazonosító igazolvány kiadása iránti kérelmet a magyar állampolgár konzuli tisztviselőnél terjeszti elő."
+    },
+    {
+      "provision_ref": "s3",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) A járási hivatal a) dönt a személyazonosító igazolvány kiadásáról, kiadásának megtagadásáról, valamint a személyazonosító igazolvány visszavonásáról, b) eljár a talált személyazonosító igazolvány visszaadásával kapcsolatban, c) továbbítja a nyilvántartást kezelő szervnek a személyazonosító igazolvány kitöltéséhez szükséges adatokat, d) intézkedik a személyazonosító igazolvánnyal kapcsolatos ügyintézés során tapasztalt vagy a polgár által bejelentett adatváltozásnak, adatjavításnak a személyiadat- és lakcímnyilvántartáson történő átvezetéséről, e) gondoskodik a személyazonosító igazolvány visszavonása, elvesztése, eltulajdonítása, megsemmisülése, megrongálódása, találása, érvénytelensége, érvénytelenítése, valamint leadása tényének a személyazonosító igazolvány nyilvántartáson történő átvezetéséről, f) kezeli a személyazonosító igazolvány kiadásának megtagadásával, a személyazonosító igazolvány visszavonásával, valamint leadásával kapcsolatos alapiratokat, továbbá gondoskodik az Nytv. 9. § (3) bekezdésében meghatározott iratok továbbításáról, g) átvezeti a személyazonosító igazolvány nyilvántartáson az anyakönyvvezető által megküldött, az érvénytelenített személyazonosító igazolványok adatait, h) lehetővé teszi a tároló elem adattartalmának ellenőrzését, i) lehetővé teszi az állandó személyazonosító igazolványhoz tartozó PIN kód cseréjét, j) nála előterjesztett kérelem esetén kiállítja az ideiglenes személyazonosító igazolványt, k) gondoskodik a nála leadott ideiglenes személyazonosító igazolvány megsemmisítéséről és a megsemmisítés tényének a személyazonosító igazolvány nyilvántartáson történő átvezetéséről, l) végzi a vészhelyzet esetén értesítendő telefonszám rögzítését, cseréjét és törlését, m) végzi az állandó személyazonosító igazolvány tároló elemén – erre irányuló kérelemre – a szolgáltatásazonosító rögzítését, n) végzi az állandó személyazonosító igazolvány tároló elemén a polgár lakcímének és személyi azonosítójának rögzítését. o) törvényben meghatározottak szerint adatszolgáltatást teljesít a személyazonosító igazolvány nyilvántartásból. (2) A kormányablak az e rendeletben meghatározott eljárásokkal összefüggő hatásköreit a kormányablakokról szóló kormányrendeletben meghatározottak szerint gyakorolja. Ezen eljárások tekintetében a kormányablak eljárására a járási hivatalra megállapított eljárási szabályok megfelelően irányadók. (3)"
+    },
+    {
+      "provision_ref": "s3a",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "3/A",
+      "title": "3/A. §",
+      "content": "3/A. § A kijelölt kormányhivatal 1. a nála előterjesztett kérelem esetén dönt a személyazonosító igazolvány kiadásáról, kiadásának megtagadásáról, valamint a személyazonosító igazolvány visszavonásáról, 2. hivatalból kiadja a személyazonosító igazolványt a 26. §-ban meghatározott esetben, 3. 4. kizárólagos hatáskörben kiadja az Nytv. 29/G. § (2) bekezdése szerinti személyazonosító igazolványt, 5. eljár a talált személyazonosító igazolvány visszaadásával kapcsolatban, 6. továbbítja a nyilvántartást kezelő szervnek a személyazonosító igazolvány kitöltéséhez szükséges adatokat, 7. intézkedik a személyazonosító igazolvánnyal kapcsolatos ügyintézés során tapasztalt vagy a polgár által bejelentett adatváltozásnak, adatjavításnak a személyiadat- és lakcímnyilvántartáson történő átvezetéséről, 8. gondoskodik a személyazonosító igazolvány visszavonása, elvesztése, eltulajdonítása, megsemmisülése, megrongálódása, találása, érvénytelensége, érvénytelenítése, valamint leadása tényének a személyazonosító igazolvány nyilvántartáson történő átvezetéséről, 9. kezeli a személyazonosító igazolvány kiadásának megtagadásával, a személyazonosító igazolvány visszavonásával, valamint leadásával kapcsolatos alapiratokat, továbbá gondoskodik az Nytv. 9. § (3) bekezdésében meghatározott iratok továbbításáról, 10. átvezeti a személyazonosító igazolvány nyilvántartáson a hazai anyakönyvezés végzésére kijelölt anyakönyvi szerv által megküldött, az érvénytelenített személyazonosító igazolványok adatait, 11. lehetővé teszi a tároló elem adattartalmának ellenőrzését, 12. lehetővé teszi az állandó személyazonosító igazolványhoz tartozó PIN-kód cseréjét, 13. a nála előterjesztett kérelem esetén kiállítja az ideiglenes személyazonosító igazolványt, 14. gondoskodik a nála leadott ideiglenes személyazonosító igazolvány megsemmisítéséről és a megsemmisítés tényének a személyazonosító igazolvány nyilvántartáson történő átvezetéséről, 15. a nála előterjesztett kérelem alapján végzi a vészhelyzet esetén értesítendő személy telefonszámának rögzítését, cseréjét és törlését, 16. törvényben meghatározottak szerint adatszolgáltatást teljesít a személyazonosító igazolvány nyilvántartásból, 17. a nála előterjesztett kérelem esetén végzi az állandó személyazonosító igazolvány tároló elemén a szolgáltatásazonosító rögzítését, 18. a nála előterjesztett kérelem esetén végzi az állandó személyazonosító igazolvány tároló elemén a polgár lakcímének és személyi azonosítójának rögzítését,"
+    },
+    {
+      "provision_ref": "s3b",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "3/B",
+      "title": "3/B. §",
+      "content": "3/B. § A konzuli tisztviselő a) a nála előterjesztett kérelem esetén dönt az állandó személyazonosító igazolvány kiadásáról, kiadásának megtagadásáról, b) továbbítja a nyilvántartást kezelő szervnek a személyazonosító igazolvány kitöltéséhez szükséges adatokat, c) értesíti a személyazonosító igazolvány találásáról, elvesztéséről, eltulajdonításáról, megsemmisüléséről, megrongálódásáról a kijelölt kormányhivatalt, valamint gondoskodik a személyazonosító igazolvány érvénytelenítése, leadása tényének a személyazonosító igazolvány nyilvántartáson történő átvezetéséről, d) kezeli a személyazonosító igazolvány kiadásának megtagadásával, valamint leadásával kapcsolatos alapiratokat, továbbá gondoskodik az Nytv. 9. § (3) bekezdésében meghatározott iratok továbbításáról, e) lehetővé teszi az állandó személyazonosító igazolványhoz tartozó PIN-kód cseréjét, f) a nála előterjesztett kérelem alapján végzi a vészhelyzet esetén értesítendő személy telefonszámának rögzítését, cseréjét és törlését, g) a nála előterjesztett kérelem esetén végzi az állandó személyazonosító igazolvány tároló elemén a polgár lakcímének és személyi azonosítójának rögzítését. h) eljár a magyar állampolgár nem nála előterjesztett kérelme esetén az állandó személyazonosító igazolvány átadásával kapcsolatban, i) gondoskodik a nála leadott ideiglenes személyazonosító igazolvány megsemmisítéséről és a megsemmisítés tényének a személyazonosító igazolvány nyilvántartáson történő átvezetéséről."
+    },
+    {
+      "provision_ref": "s3c",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "3/C",
+      "title": "3/C. §",
+      "content": "3/C. § A konzuli tisztviselő munkájában közreműködő, a külpolitikáért felelős miniszter által felhatalmazott, diplomáciai vagy hivatásos konzuli képviseleten igazgatási munkakörben konzuli feladatot ellátó személy, továbbá a külpolitikáért felelős miniszter által vezetett minisztérium konzuli ügyekben feladatkörrel rendelkező kormánytisztviselője közreműködik a 3/B. §-ban meghatározott feladatok ellátásában."
+    },
+    {
+      "provision_ref": "s3d",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "3/D",
+      "title": "3/D. §",
+      "content": "3/D. §"
+    },
+    {
+      "provision_ref": "s4",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § A nyilvántartást kezelő szerv a) dönt a személyazonosító igazolvány kiadásáról, kiadásának megtagadásáról, ha a polgár nem rendelkezik személyazonosság igazolására alkalmas más érvényes hatósági igazolvánnyal, valamint ha első alkalommal igényel tároló elemmel rendelkező személyazonosító igazolványt, a nála előterjesztett kérelem esetén, b) intézkedik a személyazonosító igazolvánnyal kapcsolatos ügyintézés során tapasztalt vagy a polgár által bejelentett adatváltozásnak, adatjavításnak a személyiadat- és lakcímnyilvántartáson történő átvezetéséről, c) gondoskodik a személyazonosító igazolvány elvesztése, eltulajdonítása, megsemmisülése, megrongálódása, érvénytelenítése, valamint leadása tényének a személyazonosító igazolvány nyilvántartáson történő átvezetéséről, d) a személyazonosító igazolvány nyilvántartásban rögzíti a személyazonosító igazolvány kitöltésének tényét, és kezeli – az Nytv. 9. § (3) bekezdése szerint – az eljárásban keletkezett alapiratokat, e) ellátja a személyazonosító igazolvány kiadásával és nyilvántartásával kapcsolatos hatósági tevékenység szakmai felügyeletét, f) törvényben meghatározottak szerint adatszolgáltatást teljesít a személyazonosító igazolvány nyilvántartásból, g) teljesíti a 44. § szerint előterjesztett kérelmet, h) a jogosult megkeresésére jelzést helyez el a személyazonosító igazolvány nyilvántartásban, és teljesíti az ezzel kapcsolatos, törvényen alapuló adatszolgáltatási kötelezettséget, i) a hatáskörébe tartozó eljárások lefolytatására és az ilyen eljárásban kiállított személyazonosító igazolványok kiadására ügyfélszolgálati irodát tart fenn, j) gondoskodik az érvénytelen személyazonosító igazolvány megsemmisítéséről, k) lehetővé teszi a tároló elem adattartalmának ellenőrzését, l) lehetővé teszi az állandó személyazonosító igazolványhoz tartozó PIN-kód cseréjét, m) nála előterjesztett kérelem esetén kiállítja az ideiglenes személyazonosító igazolványt, n) gondoskodik a nála leadott ideiglenes személyazonosító igazolvány megsemmisítéséről, o) kiállítja az állandó személyazonosító igazolványt, p) lehetővé teszi a vészhelyzet esetén értesítendő telefonszám rögzítését, cseréjét és törlését, q) ellátja az országos aláíró hitelesítő hatósági (CSCA) és a dokumentum-aláíró hatósági (DS) feladatokat, r) ellátja az országos ellenőrzőhitelesítő hatósági (CVCA), valamint a dokumentumellenőrző-hitelesítő hatósági (DV) feladatokat, s) a nála előterjesztett kérelem esetén végzi az állandó személyazonosító igazolvány tároló elemén a szolgáltatásazonosító rögzítését, t) a nála előterjesztett kérelem esetén végzi az állandó személyazonosító igazolvány tároló elemén a polgár lakcímének és személyi azonosítójának rögzítését, u) dönt az Nytv. 29. § (16a) bekezdésében meghatározott, az állandó személyazonosító igazolvány kiadásáról, kiadásának megtagadásáról, v) hivatalból kiadja a személyazonosító igazolványt a 31/A. § (1) bekezdése szerinti esetben, w)"
+    },
+    {
+      "provision_ref": "s5",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § (1) A nyilvántartást kezelő szerv országos aláíró hitelesítő hatóságként (CSCA) a) kiadja az önaláírt országos aláírás-hitelesítő tanúsítványt, b) aláírja a (2) bekezdés szerinti dokumentum-aláíró hatóság (DS) számára kiadott tanúsítványt, c) az általa kibocsátott tanúsítványokat, valamint az azokhoz kapcsolódó visszavonási listákat elektronikus dokumentum formájában közzéteszi. (2) A nyilvántartást kezelő szerv dokumentum-aláíró hatóságként (DS) aláírja az állandó személyazonosító igazolvány tároló elemében lévő adatokat, valamint az aláírást és az (1) bekezdés b) pontja szerinti tanúsítványt elhelyezi az állandó személyazonosító igazolvány tároló elemében. (3) A nyilvántartást kezelő szerv országos ellenőrzőhitelesítő hatóságként (CVCA) a) kiadja az önaláírt országos ellenőrző-hitelesítő tanúsítványt, b) tanúsítványt bocsát ki a (4) bekezdés szerinti dokumentumellenőrző-hitelesítő hatóság számára. (4) A nyilvántartást kezelő szerv dokumentumellenőrző-hitelesítő hatóságként (DV) tanúsítványt bocsát ki az állandó személyazonosító igazolványban elektronikusan tárolt adatok kiolvasására jogosultak ellenőrző eszközei számára, ennek keretében biztosítja a védett adatok kiolvasására jogosult külföldi hatóságok számára a dokumentumellenőrző-hitelesítő tanúsítvány (DV tanúsítvány), valamint a hazai hatóságok ellenőrző rendszerei számára történő ellenőrző rendszer tanúsítvány (IS tanúsítvány) kiállítását, továbbá az állandó személyazonosító igazolvány tekintetében ellátja a tagállami tanúsítványcserével és tanúsítvány felülhitelesítéssel kapcsolatos Single Point of Contact (SPOC) feladatait."
+    },
+    {
+      "provision_ref": "s6",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § E rendelet alapján kibocsátott biztonsági okmányokra vonatkozó adminisztratív védelmi szabályok megtartását a személyiadat- és lakcímnyilvántartásért felelős miniszter ellenőrzi."
+    },
+    {
+      "provision_ref": "s6a",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "6/A",
+      "title": "6/A. §",
+      "content": "6/A. § (1) A nyilvántartást kezelő szerv által kiállított állandó személyazonosító igazolvány, valamint a nyilvántartást kezelő szerv előtt indult eljárásban kiállított ideiglenes személyazonosító igazolvány kiállítójának Magyarország Kormányát kell tekinteni. Az ideiglenes és az állandó személyazonosító igazolványon Magyarország Kormányának rövidítése: MK. (2) Az (1) bekezdés szerinti kiállító meghatározása nem érinti a hatáskör gyakorlójának személyét."
+    },
+    {
+      "provision_ref": "s7",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § (1) Állandó személyazonosító igazolvány annak a személyiadat- és lakcímnyilvántartás hatálya alá tartozó magyar állampolgárnak, huzamos tartózkodási jogosultsággal rendelkező, illetve menekült vagy oltalmazott jogállású személynek adható, aki személyazonosságát és a személyazonosító igazolványban szereplő adatait megfelelően, különösen az e rendeletben meghatározott okiratokkal igazolja. (2) A huzamos tartózkodási jogosultsággal rendelkező, valamint a menekült és az oltalmazott jogállású személy köteles az állandó személyazonosító igazolvány kiadását kérni. (3) Ha a menekült vagy oltalmazott jogállással rendelkező személy a huzamos tartózkodási jogosultságot is megszerzi, e jogosultság megszerzése miatt nem köteles új személyazonosító igazolvány kiadását kérni. (4) A polgár egyidejűleg csak egy érvényes személyazonosító igazolvánnyal rendelkezhet."
+    },
+    {
+      "provision_ref": "s8",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § (1) A (4) bekezdésben meghatározott kivétellel annak, aki állandó személyazonosító igazolványra jogosult – állandó személyazonosító igazolvány iránti kérelmére – ideiglenes személyazonosító igazolványt kell kiadni, ha nem rendelkezik érvényes, személyazonosság igazolására alkalmas hatósági igazolvánnyal. (2) Az (1) bekezdéstől eltérően, ha a magyar állampolgár első személyazonosító igazolvánnyal való ellátására kerül sor, a járási hivatal, a kijelölt kormányhivatal és a nyilvántartást kezelő szerv a jogosult vagy törvényes képviselője kérelmére állít ki ideiglenes személyazonosító igazolványt. (3) Az állandó személyazonosító igazolvány kiadásáig az ideiglenes személyazonosító igazolvány ismételten kiadható. (4) A közreműködő hatóság és a konzuli tisztviselő előtt benyújtott kérelem alapján indult, valamint a 31/A. § és az Nytv. 29. § (16a) bekezdése szerinti állandó személyazonosító igazolvány kiadása iránti eljárásban ideiglenes személyazonosító igazolvány nem állítható ki."
+    },
+    {
+      "provision_ref": "s9",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § Az állandó személyazonosító igazolvány kiadására irányuló eljárás a 26. §-ban és a 31/A. §-ban meghatározott kivétellel kérelemre indul."
+    },
+    {
+      "provision_ref": "s10",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § Az állandó személyazonosító igazolvány kiadására irányuló kérelem elbírálásának ügyintézési határideje húsz nap."
+    },
+    {
+      "provision_ref": "s11",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § (1) Az állandó személyazonosító igazolvány kiadása iránti kérelem – az Nytv. 29/A. § (2) bekezdésében meghatározott kivétellel – a) bármely járási hivatalnál, b) a kijelölt kormányhivatalnál, c) – ha a polgár nem rendelkezik személyazonosság igazolására alkalmas más érvényes hatósági igazolvánnyal, valamint ha első alkalommal igényel tároló elemmel rendelkező személyazonosító igazolványt, vagy az Nytv. 29. § (16a) bekezdése szerinti esetben – a nyilvántartást kezelő szervnél, d) – magyar állampolgárságú kérelmező esetén – a konzuli tisztviselőnél (a továbbiakban együtt: eljáró hatóság) is előterjeszthető. (2) Az (1) bekezdés szerinti kérelmet az 1. mellékletében foglalt adattartalommal az eljáró hatóság állítja elő. (3) (3a) (4)"
+    },
+    {
+      "provision_ref": "s12",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. § (1) A személyazonosító igazolvány kiadására irányuló eljárásban a kérelmező – a (2) bekezdésben, a 31/A. §-ban és az Nytv. 29. § (16a) bekezdésében foglaltak kivételével – személyes megjelenésre köteles. (2) A 11. § (1) bekezdés d) pontja alapján a konzuli tisztviselő előtt indított eljárás kivételével, ha azt kéri, a járási hivatal és a kijelölt kormányhivatal előtt személyes megjelenésében egészségügyi okból akadályozott – és e tényt orvosi igazolással igazoló – kérelmező e rendelet szerinti adatait a hatóság a kérelmező lakcímén vagy egyéb fellelhetőségi helyén (különösen szociális vagy egészségügyi intézmény területén) rögzíti."
+    },
+    {
+      "provision_ref": "s13",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. §"
+    },
+    {
+      "provision_ref": "s14",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "14",
+      "title": "14. §",
+      "content": "14. § (1) A személyazonosító igazolvány iránti kérelem személyes előterjesztésekor a kérelmezőről az eljáró hatóság, illetve a büntetés-végrehajtási intézet (a továbbiakban: bv. szerv) a 29. § (2) bekezdésében és a 30. § (2) bekezdésében foglalt esetben arcképmás felvételt készít. (2) (3)"
+    },
+    {
+      "provision_ref": "s15",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "15",
+      "title": "15. §",
+      "content": "15. § (1) Az állandó személyazonosító igazolvány iránti kérelem előterjesztésekor, ha az Nytv. alapján az ujjnyomat rögzítésre kerül, a polgár ujjnyomatát a kézfejek két mutatóujjáról kell rögzíteni. A mutatóujjak bármely ok miatti alkalmatlansága esetén az ujjnyomat rögzítését a kézfej többi ujjáról kell megkísérelni a következő sorrend megtartásával: a) a kézfejek két középső ujja, b) a kézfejek két gyűrűsujja, c) a kézfejek két hüvelykujja. (1a) Ha az (1) bekezdés szerinti sorrend megtartásával az ujjnyomat nem rögzíthető, az ujjnyomatot a két kézfej azon (1) bekezdés szerinti ujjairól kell rögzíteni, amelyek az ujjnyomat rögzítésére alkalmasak. (1b) Az adat felvételezésekor és az okmányban jelölni kell, hogy mely ujjakról történt az ujjnyomat-rögzítés. (1c) Az Nytv. 29. § (16a) bekezdésében foglalt esetben az állandó személyazonosító igazolvány tároló elemén a polgár személyiadat- és lakcímnyilvántartásban nyilvántartott ujjnyomata kerül rögzítésre, az eljárás során ujjnyomat-felvételezésre nem kerül sor. (2) Az Nytv. 29. § (9) bekezdés c) pontja szerinti ujjnyomat adására fizikailag képtelenség ténye csak orvosi igazolással bizonyítható. Nincs szükség orvosi igazolás bemutatására, ha a fizikailag képtelenség ténye igazolás nélkül is egyértelműen megállapítható."
+    },
+    {
+      "provision_ref": "s16",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "16",
+      "title": "16. §",
+      "content": "16. § (1) Az állandó személyazonosító igazolvány iránti kérelem előterjesztésekor az eljáró hatóság ellenőrzi annak a tényét, hogy a polgár a kérelem benyújtásakor rendelkezik társadalombiztosítási azonosító jellel, adóazonosító jellel, személyi azonosítóval, illetve lakcímmel. Az ellenőrzés eredményéről a polgárt a hatóság tájékoztatja. (2) Az állandó személyazonosító igazolvány iránti kérelemben fel kell tüntetni annak tényét, hogy a polgár a kérelem benyújtásakor társadalombiztosítási azonosító jellel, adóazonosító jellel, személyi azonosítóval, illetve lakcímmel rendelkezik. (3) A tároló elem az Nytv. 29. § (7) bekezdés d) és e) pontjában meghatározott adatokat a polgárnak az adott azonosító kódot igazoló hatósági igazolványának megfelelően, az Nytv. 29. § (7) bekezdés i) és j) pontjában meghatározott adatokat a személyiadat- és lakcímnyilvántartás szerint tartalmazza."
+    },
+    {
+      "provision_ref": "s17",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "17",
+      "title": "17. §",
+      "content": "17. §"
+    },
+    {
+      "provision_ref": "s17a",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "17/A",
+      "title": "17/A. §",
+      "content": "17/A. § (1) A polgár – a 31/A. §-ban meghatározott kivétellel – a vészhelyzet esetén értesítendő telefonszám rögzítése iránti kérelmét az eljáró hatóságnál terjesztheti elő a) az állandó személyazonosító igazolvány kiadására irányuló kérelem előterjesztésével egyidejűleg, vagy b) tároló elemmel ellátott érvényes személyazonosító igazolvány birtokában. (2) A polgár a vészhelyzet esetén értesítendő telefonszámának cseréjét vagy törlését az eljáró hatóságnál kezdeményezheti. (3) A vészhelyzet esetén értesítendő telefonszámát a polgár elektronikus azonosítást követően elektronikus úton is rögzítheti, cserélheti vagy törölheti."
+    },
+    {
+      "provision_ref": "s17b",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "17/B",
+      "title": "17/B. §",
+      "content": "17/B. § A polgár lakcímének és személyi azonosítójának rögzítése iránti kérelmét az eljáró hatóságnál tároló elemmel ellátott érvényes személyazonosító igazolvány birtokában terjesztheti elő."
+    },
+    {
+      "provision_ref": "s17c",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "17/C",
+      "title": "17/C. §",
+      "content": "17/C. § A polgár a szolgáltatásazonosító rögzítése iránti kérelmét az eljáró hatóságnál – a konzuli tisztviselő kivételével – tároló elemmel ellátott érvényes személyazonosító igazolvány birtokában terjesztheti elő."
+    },
+    {
+      "provision_ref": "s17d",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "17/D",
+      "title": "17/D. §",
+      "content": "17/D. § Az Nytv. 29. § (16a) bekezdésében meghatározott állandó személyazonosító igazolvány kiadására irányuló eljárást a nyilvántartást kezelő szerv a digitális államról és a digitális szolgáltatások nyújtásának egyes szabályairól szóló törvény szerinti automatikus döntéshozatali eljárás útján folytatja le."
+    },
+    {
+      "provision_ref": "s18",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "18",
+      "title": "18. §",
+      "content": "18. § (1) A kérelmezőnek a személyazonosságát igazolnia szükséges. Ha a kérelmező a kérelem benyújtásakor rendelkezik vagy a kérelem benyújtását megelőző évben rendelkezett érvényes állandó személyazonosító igazolvánnyal vagy a személyazonosságát igazoló más érvényes okmánnyal, akkor az igazoláshoz ezt felhasználhatja. (2) Ha a kérelmező érvényes állandó személyazonosító igazolvánnyal vagy a személyazonosságát igazoló más érvényes okmánnyal nem rendelkezik, illetve ha a menekült vagy az oltalmazott jogállású kérelmező az útlevélen kívül más, személyazonosságot igazoló érvényes okmánnyal nem rendelkezik, és a kérelmező a kérelem benyújtását megelőző évben sem rendelkezett ilyen érvényes okmánnyal, a személyazonosságát egyéb módon igazolnia szükséges. Az igazoláshoz felhasználható különösen: a) a menekült, az oltalmazott jogállású és a huzamos tartózkodási jogosultsággal rendelkező kérelmező esetén a bevándorlási engedély, a menekültkénti vagy oltalmazottkénti elismerését igazoló okirat, a huzamos tartózkodási jogosultságot igazoló okmány, b) a menekült és az oltalmazott jogállású kérelmező esetén – ha első személyazonosító igazolvánnyal történő ellátására kerül sor – olyan fénykép, amelynek hátoldalán a menekültügyi hatóság feltüntette a kérelmező menekültkénti vagy az oltalmazottkénti elismeréséről szóló hatósági határozatának számát, továbbá a menekültként vagy oltalmazottként elismert személlyel való azonosságot bélyegzőlenyomattal és aláírással igazolta. (3) Ha a kérelmező érvényes állandó személyazonosító igazolvánnyal vagy a személyazonosságát igazoló más érvényes okmánnyal nem rendelkezik, de a kérelem benyújtásakor rendelkezik a magyar hatóság által kiállított születési anyakönyvi kivonattal és a névviselés megállapítására alkalmas, magyar hatóság által kiállított házassági anyakönyvi kivonattal, azt a kérelemhez bemutathatja. (4) Ha a kérelmező érvényes állandó személyazonosító igazolvánnyal vagy a személyazonosságát igazoló más érvényes okmánnyal nem rendelkezik, és a (3) bekezdésben foglalt okiratot nem mutatja be, az eljáró hatóság hivatalból intézkedik az illetékes anyakönyvvezető megkeresésével a szükséges adatok egyeztetése érdekében, ha a születést és a házasságkötést Magyarországon anyakönyvezték. (5) Ha a polgár a doktori címet 2006. február 1-jén vagy azt követően fennálló hallgatói jogviszony alapján szerezte, az Nytv. 17. § (9) bekezdésétől eltérően a doktori címre jogosító okiratot vagy annak másolatát bemutathatja."
+    },
+    {
+      "provision_ref": "s19",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "19",
+      "title": "19. §",
+      "content": "19. § A cselekvőképességet teljesen korlátozó gondnokság alatt álló kérelmező esetében a 18. §-ban meghatározottakon túl a törvényes képviselőnek igazolnia kell a gondnokság alá helyezést, továbbá a törvényes képviseletet, valamint a törvényes képviselő személyazonosságát is. Az igazolás történhet különösen jogerős bírósági, valamint végleges gyámhatósági határozattal."
+    },
+    {
+      "provision_ref": "s20",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "20",
+      "title": "20. §",
+      "content": "20. § Cselekvőképtelen kiskorú kérelmező esetében a 18. §-ban meghatározottakon túl a jelen lévő törvényes képviselő személyazonosságát is ellenőrizni kell."
+    },
+    {
+      "provision_ref": "s20a",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "20/A",
+      "title": "20/A. §",
+      "content": "20/A. §"
+    },
+    {
+      "provision_ref": "s20b",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "20/B",
+      "title": "20/B. §",
+      "content": "20/B. §"
+    },
+    {
+      "provision_ref": "s21",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "21",
+      "title": "21. §",
+      "content": "21. § (1) A 18. § (1) bekezdésében meghatározott esetben a kérelmezőnek nyilatkoznia kell arról, hogy a bemutatott okmány a természetes személyazonosító adatokat, így különösen a névviselését az anyakönyvbe bejegyzett adatokkal megegyezően tartalmazza, lejárt okmány esetén pedig nyilatkozik arról is, hogy adataiban nem történt változás. (1a) Az Nytv. 4. § (2a) bekezdés c) pontja szerinti kérelmezőnek az első személyazonosító igazolvány iránti kérelem benyújtásakor nyilatkoznia kell arról, hogy a személyi azonosítót és lakcímet igazoló hatósági igazolványa a természetes személyazonosító adatokat, így különösen a névviselését az anyakönyvbe bejegyzett adatokkal vagy a névmódosítását tartalmazó honosítási okirattal megegyezően tartalmazza. (2) Ha a kérelmező az állandó személyazonosító igazolványát nem tudja bemutatni, nyilatkoznia kell annak okáról. (3) Ha a kérelmező cselekvőképességet teljesen korlátozó gondnokság alá helyezése megszűnt, ezt igazolnia szükséges. Az igazoláshoz felhasználható különösen az erről szóló jogerős bírósági határozat. (4) Ha e rendelet valamely okirat vagy annak hiteles másolatának bemutatását lehetővé teszi, de nem teszi kötelezővé, a bemutatás elmaradása esetén az okiratban foglalt tény igazolásához szükséges intézkedéseket az eljáró hatóság megteszi."
+    },
+    {
+      "provision_ref": "s22",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "22",
+      "title": "22. §",
+      "content": "22. § (1) Az állandó személyazonosító igazolvány kiadására irányuló eljárásban a kérelmező jogosultságát, személyazonosságát, állampolgárságát és a fényképnek az azonosításra alkalmasságát ellenőrizni kell, amelynek keretében a) a kérelem adatait egyeztetni kell az állandó személyazonosító igazolvány vagy a személyazonosságát igazoló más érvényes okmány adattartalmával és a bemutatott okiratokban szereplő adatokkal, b) a kérelem, valamint a bemutatott okmányok adatait egyeztetni kell a személyiadat- és lakcímnyilvántartásban tárolt adatokkal, valamint c) a személyazonosítást jogszabályban meghatározott automatizált arcképmás összehasonlítással és – ha annak feltételei fennállnak – automatizált ujjnyomat összevetéssel is el kell végezni. (2) Ha az automatizált arcképmás összehasonlítás és az automatizált ujjnyomat összevetés nem lehetséges vagy eredménytelen, az eljáró hatóság az (1) bekezdés a) és b) pontja szerint végzi el a személyazonosság ellenőrzését. (2a) (3) A személyazonosító igazolványt a személyiadat- és lakcímnyilvántartásból átvett személyi adatokkal kell kiállítani. (4) Ha az (1) bekezdés b) pontja szerint végrehajtott adategyeztetéskor a személyiadat- és lakcímnyilvántartás adatai nem egyeznek meg a bemutatott okmány vagy okirat adataival, a járási hivatal, a kijelölt kormányhivatal és a nyilvántartást kezelő szerv megvizsgálja az eltérés okát, és indokolt esetben a személyiadat- és lakcímnyilvántartás adatait haladéktalanul javítja. A személyiadat- és lakcímnyilvántartás adatai a polgárok személyi adatainak és lakcímének nyilvántartásáról szóló 1992. évi LXVI. törvény végrehajtásáról szóló kormányrendeletben meghatározott okiratok alapján javíthatóak. (5) A kérelmező a 11. § (1) bekezdés d) pontja alapján a konzuli tisztviselő előtt indított eljárás kivételével az állandó személyazonosító igazolvány kiadásáig, illetve a kiadást megtagadó vagy visszavonó döntés közléséig bármikor írásban kérheti, hogy az eljárást a továbbiakban a lakóhelye, ennek hiányában tartózkodási helye szerint illetékes járási hivatal folytassa le. Ebben az esetben az ügy iratait haladéktalanul át kell tenni a kérelmező lakó- vagy tartózkodási helye szerint illetékes járási hivatalhoz."
+    },
+    {
+      "provision_ref": "s23",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "23",
+      "title": "23. §",
+      "content": "23. § (1) E rendelet eltérő rendelkezése hiányában a kérelem felvételét követően haladéktalanul az eljáró hatóság sértetlen, lezárt borítékban a kérelmező rendelkezésére bocsátja a) az állandó személyazonosító igazolványhoz tartozó PIN-kód létrehozásához szükséges aktiváló PIN-kódot és a regisztrációs kódot és b) a PUK-kódot. (2) A 12. § (2) bekezdésében foglalt esetekben az eljáró hatóság az (1) bekezdésben meghatározott kódokat átadás céljából a kérelmező meghatalmazottjának adja át. (3) (4) (5) (6) Az állandó személyazonosító igazolvány iránti kérelemnek az eljáró hatóság általi átvételét a kérelem másolati példányával igazolni kell. (7) Az (1) bekezdés szerinti kódok kérelmező általi átvételét, illetve az átvétel kérelmező általi megtagadását igazolni kell. (8) Az Nytv. 29. § (16a) bekezdésében foglalt esetben a nyilvántartást kezelő szerv az állandó személyazonosító igazolványhoz tartozó PIN kód létrehozásához szükséges aktiváló PIN kódot és a PUK kódot a kérelmező ajánlott elektronikus kézbesítési szolgáltatáshoz kapcsolódó tárhelyére küldi meg. (9)"
+    },
+    {
+      "provision_ref": "s24",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "24",
+      "title": "24. §",
+      "content": "24. § (1) A kérelmet az eljáró hatóság állandó személyazonosító igazolvány kiadásával teljesíti. (2) A járási hivatalban, a kijelölt kormányhivatalnál, a konzuli tisztviselőnél, illetve – a nála előterjesztett kérelem esetén – a nyilvántartást kezelő szervnél kell átadni az állandó személyazonosító igazolványt, ha a kérelem benyújtását követően az ügyfél birtokában marad a korábbi, még érvényes állandó személyazonosító igazolványa. (3) A (2) bekezdésben foglalt eseten kívül az állandó személyazonosító igazolványt belföldön a kérelmező választása szerint postai úton, könyvelt küldeményként kell továbbítani igazgatási szolgáltatási díj megfizetése esetén, vagy a járási hivatalban, a kijelölt kormányhivatalnál, a konzuli tisztviselőnél, illetve – a nála előterjesztett kérelem esetén – a nyilvántartást kezelő szervnél kell átadni a kérelmező, annak törvényes képviselője vagy meghatalmazottja részére. Ha a kérelmező az állandó személyazonosító igazolványt konzuli tisztviselőnél veszi át, akkor az állandó személyazonosító igazolványt választása szerint a konzuli tisztviselő külföldön postai úton, könyvelt küldeményként továbbítja. (3a) Az Nytv. 29. § (16a) bekezdésében foglalt esetben a nyilvántartást kezelő szerv az állandó személyazonosító igazolványt igazgatási szolgáltatási díj megfizetése esetén, belföldön postai úton, könyvelt küldeményként a kérelmező által megjelölt címre továbbítja. (3b) A kérelmező az Nytv. 29. § (16a) bekezdésében foglalt esetben az állandó személyazonosító igazolványt választása szerint a konzuli tisztviselőnél is átveheti. A konzuli tisztviselő az állandó személyazonosító igazolványt személyesen adja át vagy a kérelmező választása szerint külföldön postai úton, könyvelt küldeményként továbbítja. (3c) (4) (5) A postai úton át nem vett állandó személyazonosító igazolványt a kérelmező, annak törvényes képviselője vagy meghatalmazottja veheti át a kérelmező által az eljárás során a személyazonosító igazolvány kézbesítésére megjelölt cím szerint illetékes járási hivatalban. (6) Az át nem vett állandó személyazonosító igazolványokat – az átvételre való felhívást követően – a járási hivatal, a kijelölt kormányhivatal és a nyilvántartást kezelő szerv a személyazonosító igazolvány kiállításától számított hatvan nap elteltével átvétel hiányában érvényteleníti, és gondoskodik e ténynek a személyazonosító igazolvány nyilvántartásban való feltüntetéséről. Az át nem vett állandó személyazonosító igazolványokat – az átvételre való felhívást követően – a konzuli tisztviselő a személyazonosító igazolvány kiállításától számított egy év elteltével megküldi a kijelölt kormányhivatalnak, a kijelölt kormányhivatal az állandó személyazonosító igazolványt érvényteleníti, és gondoskodik e ténynek a személyazonosító igazolvány nyilvántartásban való feltüntetéséről."
+    },
+    {
+      "provision_ref": "s25",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "25",
+      "title": "25. §",
+      "content": "25. § Az eljáró hatóság az állandó személyazonosító igazolvány kiadását megtagadja, ha a) a 32. §-ban foglalt feltételek nem állnak fent, vagy b) a kérelmező az állandó személyazonosító igazolványra nem jogosult."
+    },
+    {
+      "provision_ref": "s26",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "26",
+      "title": "26. §",
+      "content": "26. § (1) Hivatalból állandó személyazonosító igazolványt kell kiadni annak a polgárnak, aki – a köztársasági elnök által kiadott honosítási, visszahonosítási okirat alapján – az állampolgársági eskü vagy fogadalom letételével magyar állampolgárságot szerzett. (2) Az (1) bekezdés szerinti személyazonosító igazolványt a kijelölt kormányhivatal állítja ki az állampolgársági ügyekben eljáró szerv által elektronikus úton megküldött értesítés alapján."
+    },
+    {
+      "provision_ref": "s27",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "27",
+      "title": "27. §",
+      "content": "27. § (1) A kijelölt kormányhivatal a hivatalból kiadott állandó személyazonosító igazolványt és attól elkülönítve a 23. § (1) bekezdése szerinti kódokat az állampolgársági eskü vagy fogadalom letételének helye szerinti polgármesternek vagy az eskütételi igazgatási szervnek küldi meg. Az állandó személyazonosító igazolványt és a 23. § (1) bekezdése szerinti kódokat a polgárnak – az állampolgársági eskü vagy fogadalom letételekor – a polgármester, az eskütételi igazgatási szerv tisztviselője adja át, egyidejűleg gondoskodik a magyarországi lakóhellyel rendelkező érintett korábbi személyazonosító igazolványa leadásáról. (2) A polgármester, az eskütételi igazgatási szerv a leadott személyazonosító igazolványt annak bevonása, érvénytelenítése céljából a kijelölt kormányhivatalnak küldi meg. (3) Ha a honosított az eskü- vagy fogadalomtétel kitűzött időpontjában nem szerezte meg a magyar állampolgárságot, ennek tényéről a polgármester, az eskütételi igazgatási szerv – a hivatalból kiállított állandó személyazonosító igazolvány érvénytelenítése érdekében – haladéktalanul értesíti a kijelölt kormányhivatalt. (4) A polgármester, az eskütételi igazgatási szerv a hivatalból kiállított állandó személyazonosító igazolványt haladéktalanul vagy – a magyar állampolgárságról szóló 1993. évi LV. törvény 16. § (6) bekezdésében meghatározott esetben – a honosítási okirat megküldésével egyidejűleg visszaküldi a kijelölt kormányhivatalnak, ha a honosított személy az eskü- vagy fogadalomtétel kitűzött időpontjában nem szerezte meg a magyar állampolgárságot."
+    },
+    {
+      "provision_ref": "s28",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "28",
+      "title": "28. §",
+      "content": "28. § (1) Ha az állampolgársági eskü vagy fogadalom letételének helye a külképviselet, a kijelölt kormányhivatal a hivatalból kiadott állandó személyazonosító igazolványt és attól elkülönítve a 23. § (1) bekezdése szerinti kódokat az állampolgársági eskü vagy fogadalom letételének helye szerinti külképviseletnek küldi meg. Az állandó személyazonosító igazolványt és a 23. § (1) bekezdése szerinti kódokat a polgárnak – az állampolgársági eskü vagy fogadalom letételekor – az azt lebonyolító konzuli tisztviselő vagy a külképviselet vezetője adja át, és egyidejűleg gondoskodik a magyarországi lakóhellyel rendelkező érintett korábbi személyazonosító igazolványának bevonásáról. (2) A konzuli tisztviselő a bevont személyazonosító igazolványt érvényteleníti, és gondoskodik e ténynek a személyazonosító igazolvány nyilvántartásban való feltüntetéséről. (3) Ha a honosított személy az eskü- vagy fogadalomtétel kitűzött időpontjában nem szerezte meg a magyar állampolgárságot, a konzuli tisztviselő a hivatalból kiállított állandó személyazonosító igazolványt érvénytelenítést követően a következő diplomáciai postával vagy – a magyar állampolgárságról szóló 1993. évi LV. törvény 16. § (6) bekezdésében meghatározott esetben – a honosítási okirat megküldésével egyidejűleg visszaküldi a kijelölt kormányhivatalnak."
+    },
+    {
+      "provision_ref": "s29",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "29",
+      "title": "29. §",
+      "content": "29. § (1) A külföldre utazásról szóló 1998. évi XII. törvény (a továbbiakban: Utv.) 16/D. § (1) bekezdésében meghatározott kényszerintézkedés elrendelése esetén a bíróság elveszi a polgár személyazonosító igazolványát és a (3) bekezdésben foglalt kényszerintézkedések elrendelése esetén egyidejűleg engedélyezi, hogy a polgár a kijelölt kormányhivatal (3) bekezdése szerinti idézésének – a bíróság ilyen döntése alapján rendőri kíséret mellett – eleget tehessen. Az elvett személyazonosító igazolványt a bíróság haladéktalanul továbbítja a kijelölt kormányhivatalnak. (2) Letartóztatás elrendelése esetén az Nytv. 29/G. § (2) bekezdésében meghatározott állandó személyazonosító igazolvány kiadásához a kényszerintézkedést foganatosító bv. szerv a külföldre utazási korlátozás hatálya alatt álló polgár személyazonosságát, állampolgárságát ellenőrzi, a külföldre utazási korlátozás hatálya alatt álló polgárról arcképmás felvételt készít, és ezt követően továbbítja a kijelölt kormányhivatalnak az Nytv. 29/G. § (2) bekezdésében meghatározott személyazonosító igazolvány kiadásához szükséges adatokat. Ennek során a megküldött adatokat egyezteti az állandó személyazonosító igazolvány vagy a személyazonosságot igazoló más érvényes okmány adattartalmával és a bemutatott okiratokban szereplő adatokkal. (3) Olyan bűnügyi felügyelet elrendelése esetén, amelynek során a bíróság a terhelt számára előírta, hogy lakást, egyéb helyiséget, intézményt vagy ahhoz tartozó bekerített helyet engedély nélkül nem hagyhat el, az Nytv. 29/G. § (2) bekezdésében meghatározott állandó személyazonosító igazolvány kiadásához szükséges adatok rögzítése, valamint a külföldre utazási korlátozás hatálya alatt álló személy személyazonosságának és állampolgárságának ellenőrzése céljából a kijelölt kormányhivatal a külföldre utazási korlátozás hatálya alatt álló személyt a kényszerintézkedés foganatosításának helye szerint illetékes járási hivatalba idézi a járási hivatal és a rendőrség egyidejű értesítése mellett. A kényszerintézkedés foganatosításának helye szerint illetékes járási hivatal a külföldre utazási korlátozás hatálya alatt álló polgár személyazonosságát, állampolgárságát ellenőrzi, a külföldre utazási korlátozás hatálya alatt álló polgárról arcképmás felvételt készít, és ezt követően továbbítja a kijelölt kormányhivatalnak az Nytv. 29/G. § (2) bekezdésében meghatározott személyazonosító igazolvány kiadásához szükséges adatokat. Ennek során a megküldött adatokat egyezteti az állandó személyazonosító igazolvány vagy a személyazonosságot igazoló más érvényes okmány adattartalmával és a bemutatott okiratokban szereplő adatokkal. (4) Az Nytv. 29/G. § (2) bekezdése szerinti személyazonosító igazolványt és a 23. § (1) bekezdése szerinti kódokat a kijelölt kormányhivatal – a jogosult választása szerint – igazgatási szolgáltatási díj megfizetése esetén belföldön, postai úton könyvelt küldeményként továbbítja, vagy a járási hivatalban, illetve a kijelölt kormányhivatalnál átadja a jogosult, annak törvényes képviselője vagy meghatalmazottja részére."
+    },
+    {
+      "provision_ref": "s30",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "30",
+      "title": "30. §",
+      "content": "30. § (1) Az Utv. 16/D. § (3) bekezdésében meghatározott esetben a bv. szerv elveszi a polgár személyazonosító igazolványát. Az elvett személyazonosító igazolványt a bv. szerv a (2) bekezdésben meghatározott eljárást követően haladéktalanul továbbítja a kijelölt kormányhivatalnak. (2) Az Nytv. 29/G. § (2) bekezdésében meghatározott állandó személyazonosító igazolvány kiadásához a bv. szerv a külföldre utazási korlátozás hatálya alatt álló polgár személyazonosságát, állampolgárságát ellenőrzi, a külföldre utazási korlátozás hatálya alatt álló polgárról arcképmás felvételt készít, ezt követően továbbítja a kijelölt kormányhivatalnak az Nytv. 29/G. § (2) bekezdésében meghatározott személyazonosító igazolvány kiadásához szükséges adatokat. Ennek során a megküldött adatokat egyezteti az állandó személyazonosító igazolvány vagy a személyazonosságot igazoló más érvényes okmány adattartalmával és a bemutatott okiratokban szereplő adatokkal. (3) Az Nytv. 29/G. § (2) bekezdése szerinti személyazonosító igazolványt és a 23. § (1) bekezdése szerinti kódokat a kijelölt kormányhivatal az adatot szolgáltató bv. szerv részére küldi meg átadás céljából."
+    },
+    {
+      "provision_ref": "s31",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "31",
+      "title": "31. §",
+      "content": "31. § (1) Az Utv. 16/D. § (1) és (3) bekezdése szerinti adatszolgáltatás kézhezvételét követően a kijelölt kormányhivatal haladéktalanul gondoskodik a személyazonosító igazolvány érvénytelensége tényének a személyazonosító igazolvány nyilvántartáson történő átvezetéséről. (2) Az elvett személyazonosító igazolványt a kijelölt kormányhivatal őrzi. Az elvett és érvényességi ideje miatt lejárt érvénytelen személyazonosító igazolványt selejtezi, és gondoskodik e ténynek a személyazonosító igazolvány nyilvántartáson történő átvezetéséről. (3) Az Utv. 16/D. § (2) és (4) bekezdése szerinti adatszolgáltatás kézhezvételét követően a kijelölt kormányhivatal – ha a személyazonosító igazolvány érvényességi ideje még nem járt le – haladéktalanul gondoskodik az elvett személyazonosító igazolvány érvényessége tényének a személyazonosító igazolvány nyilvántartáson történő átvezetéséről. (4) A kijelölt kormányhivatal azt a személyazonosító igazolványt, amelynek érvényességi ideje még nem járt le, a jogosult kérelmére – a 29. § (2) és (3) bekezdése és a 30. § (2) bekezdése alapján kiállított személyazonosító igazolvány polgár általi leadását követően – visszaadja."
+    },
+    {
+      "provision_ref": "s31a",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "31/A",
+      "title": "31/A. §",
+      "content": "31/A. § (1) Hivatalból állandó személyazonosító igazolványt kell kiadni az Nytv. 7. § (3) bekezdése szerinti újszülöttnek. (2) Az (1) bekezdésben meghatározott újszülött állandó személyazonosító igazolványa és a 23. § (1) bekezdésében meghatározott kódok törvényes képviselő részére személyesen az egészségügyi szolgáltatónál vagy az anyakönyvvezetőnél történő átadását a törvényes képviselő nyilatkozata alapján a születést anyakönyvező anyakönyvvezető végzi. (3) A születést anyakönyvező anyakönyvvezető a hivatalból kiadott állandó személyazonosító igazolvány törvényes képviselőnek történő átadása tényét bejegyzi a nyilvántartásba. (4) Az át nem vett, hivatalból kiadott állandó személyazonosító igazolványt és a 23. § (1) bekezdésében meghatározott kódokat a születést anyakönyvező anyakönyvvezető haladéktalanul átadja, vagy belföldön postai úton, könyvelt küldeményként megküldi az újszülött lakóhelye szerint illetékes járási hivatalnak. (5) A (4) bekezdésben foglalt esetben a járási hivatal a személyazonosító igazolványt és a 23. § (1) bekezdésében meghatározott kódokat személyesen adja át a hivatalban az újszülött törvényes képviselőjének. (6)"
+    },
+    {
+      "provision_ref": "s31b",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "31/B",
+      "title": "31/B. §",
+      "content": "31/B. §"
+    },
+    {
+      "provision_ref": "s32",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "32",
+      "title": "32. §",
+      "content": "32. § Érvényes személyazonosító igazolvány cseréjét a polgár akkor kezdeményezheti, ha a) az abban tárolt vagy azon szereplő adataiban változás következett be, ide nem értve az Nytv. 29. § (7) bekezdés d), e), i) és j) pontjában meghatározott adatokat, valamint a vészhelyzet esetén értesítendő telefonszámát, b) az gyártáshibás, c) az abban tárolt vagy azon szereplő téves adatok helyesbítésre kerültek, ide nem értve az Nytv. 29. § (7) bekezdés d), e), i) és j) pontjában meghatározott adatokat, valamint a vészhelyzet esetén értesítendő telefonszámát, d) családi állapot változás nyomán névadata megváltozott és kérelmét a családi állapot változásra okot adó esemény bekövetkeztét követő 90 napon belül benyújtja, e) a tároló elem nem vagy hibásan tartalmazza az Nytv.-ben meghatározott, a polgárnak vagy az igazolványnak a személyiadat- és lakcímnyilvántartásban szereplő adatait, f) az érvényességi idejéből legfeljebb 60 nap van hátra, g) a tároló elem nem működik, h) a 70. életévét betöltött kérelmező az Nytv. 29/E. § (2) bekezdése szerinti személyazonosító igazolványt igényel, i) az Nytv. 29. § (1) bekezdésében meghatározott elektronikus szolgáltatásai nem működnek, j) a személyazonosító igazolvány tároló eleme ujjnyomatot nem tartalmaz, és a polgár ujjnyomat rögzítését kéri."
+    },
+    {
+      "provision_ref": "s33",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "33",
+      "title": "33. §",
+      "content": "33. § (1) A nemzetiséghez tartozó polgár kérelmére családi és utónevét a személyazonosító igazolványba az anyakönyvbe bejegyzett mindkét nyelven be kell jegyezni. (2) A személyazonosító igazolványba a doktori címet a személyiadat- és lakcímnyilvántartásba történt bejegyzéssel egyezően kell feltüntetni. (3) A polgár kérelmére származási helyét az állandó személyazonosító igazolványba a (3a) bekezdésben meghatározottak szerint az elektronikus anyakönyvbe történt bejegyzés, ennek hiányában a polgár kérelmében foglaltak alapján kell feltüntetni. (3a) Származási helyként magyarországi település esetén a település elnevezése és Magyarország, külföldi település esetén a település elnevezése és az ország ISO-kódja kerül megjelenítésre. (4) A magyar állampolgár, a huzamos tartózkodási jogosultsággal rendelkező személy, a menekült és az oltalmazott jogállású személy állampolgársági adatát a személyazonosító igazolványban – az országnevek kódjaira vonatkozó nemzeti szabvány alkalmazásával – háromjegyű betűkód formájában kell feltüntetni. (5) A magyar állampolgár részére kiállított személyazonosító igazolvány az Nytv. 29. § (3) bekezdése szerinti gépi olvasásra alkalmas adatsora az ICAO 9303 számú dokumentum előírásai alapján épül fel. Az Nytv. 29/G. § (2) bekezdése alapján kiadott személyazonosító igazolvány a külföldre utazási korlátozás tényét a gépi olvasású adatsorban tartalmazza. (6) A magyar állampolgár részére kiadott állandó személyazonosító igazolvány vizuális megjelenésében eltér a huzamos tartózkodási jogosultsággal rendelkező személynek, illetve a menekült vagy oltalmazott jogállású személynek kiadott állandó személyazonosító igazolványtól."
+    },
+    {
+      "provision_ref": "s34",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "34",
+      "title": "34. §",
+      "content": "34. § (1) Az érvényes személyazonosító igazolványt a magyar állampolgár, a huzamos tartózkodási jogosultsággal rendelkező, illetve a menekült és az oltalmazott jogállású személy köteles sértetlenül megőrizni, jogszabályban meghatározott esetekben és módon – felhívásra – bemutatni, a személyazonosító igazolvány érvénytelenné válásakor, a visszavonás elrendelésekor vagy a jogosultság megszűnésekor, illetve az új állandó személyazonosító igazolvány kiadásakor – a 39. § (4) bekezdése szerinti kivétellel – a személyazonosító igazolvány átvételére jogosult hatóságnak leadni. (2) A személyazonosító igazolványt másra átruházni, – büntetés-végrehajtási intézetben fogvatartottakra vonatkozó eltérő jogszabályi rendelkezés esetét kivéve – letétbe helyezni, biztosítékul adni vagy átvenni nem szabad. (3) A cselekvőképességet teljesen korlátozó gondnokság alá helyezett és a kiskorú polgár személyazonosító igazolványának kiadásával, használatával, birtokban tartásával kapcsolatos kötelezettségek a törvényes képviselőt terhelik."
+    },
+    {
+      "provision_ref": "s35",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "35",
+      "title": "35. §",
+      "content": "35. § (1) Akinek a személyazonosító igazolványát eltulajdonították, megsemmisült, megrongálódott vagy elvesztette, köteles azt legkésőbb a tudomására jutásától számított három munkanapon belül bármely járási hivatalnál, a kijelölt kormányhivatalnál vagy külföldön a külképviseletnél bejelenteni. A személyazonosító igazolvány eltulajdonítása miatt a bejelentési kötelezettség a rendőrségnél tett feljelentéssel is teljesíthető. (2) Ha az (1) bekezdésben foglalt bejelentést a külképviseletnél teszik meg, úgy az haladéktalanul értesíti a kijelölt kormányhivatalt, amely haladéktalanul gondoskodik az okmány elvesztése, eltulajdonítása, megsemmisülése, megrongálódása tényének a személyazonosító igazolvány nyilvántartáson történő átvezetéséről. (3) Ha az (1) bekezdésben foglalt bejelentést a járási hivatalnál vagy a kijelölt kormányhivatalnál teszik meg, az haladéktalanul gondoskodik az okmány elvesztése, eltulajdonítása, megsemmisülése, megrongálódása tényének a személyazonosító igazolvány nyilvántartáson történő átvezetéséről. (4) Ha az (1) bekezdésben foglalt bejelentést a rendőrségnél tett feljelentéssel teljesítik, a rendőrség haladéktalanul, elektronikus úton értesíti a nyilvántartást kezelő szervet, amely haladéktalanul gondoskodik az okmány eltulajdonítása tényének a személyazonosító igazolvány nyilvántartáson történő átvezetéséről."
+    },
+    {
+      "provision_ref": "s36",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "36",
+      "title": "36. §",
+      "content": "36. § (1) Ha a polgár a személyazonosító igazolványát megtalálja, a megtalált személyazonosító igazolványról a megtalálástól számított három munkanapon belül értesíteni kell bármely járási hivatalt, a kijelölt kormányhivatalt, illetve külképviseletet. (2) Ha az (1) bekezdésben foglaltak szerint a külképviselet értesül az okmány megtalálásáról, úgy haladéktalanul értesíti a kijelölt kormányhivatalt, amely gondoskodik a találás tényének a személyazonosító igazolvány nyilvántartáson történő azonnali átvezetéséről. (3) Ha az (1) bekezdésben foglaltak szerint a járási hivatal vagy a kijelölt kormányhivatal értesül az okmány megtalálásáról, úgy haladéktalanul gondoskodik a találás tényének a személyazonosító igazolvány nyilvántartáson történő átvezetéséről. (4) Ha az (1) bekezdéstől eltérően a polgár a rendőrséget értesíti az okmány megtalálásáról, úgy a rendőrség haladéktalanul, elektronikus úton értesíti a találás helye szerint illetékes járási hivatalt vagy a nyilvántartást kezelő szervet, amely gondoskodik a találás tényének a személyazonosító igazolvány nyilvántartáson történő átvezetéséről. (5) Az állandó személyazonosító igazolvány elvesztéséről, eltulajdonításáról, megsemmisüléséről, megrongálódásáról, illetve megtalálásáról szóló bejelentésről felvett jegyzőkönyvet külföldön a külképviselet a kijelölt kormányhivatalnak továbbítja."
+    },
+    {
+      "provision_ref": "s37",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "37",
+      "title": "37. §",
+      "content": "37. § A jogosult a 23. § (1) bekezdése szerinti kódok, valamint az állandó személyazonosító igazolványhoz tartozó PIN kód használatát más személynek nem engedheti át, azokat más személynek nem hozhatja tudomására."
+    },
+    {
+      "provision_ref": "s38",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "38",
+      "title": "38. §",
+      "content": "38. § (1) A talált, más nevére szóló személyazonosító igazolványt le kell adni a) a találás helye szerint illetékes jegyzőnek, aki azt – a találásról felvett jegyzőkönyvvel együtt – haladéktalanul megküldi a találás helye szerint illetékes járási hivatalnak, b) a találás helye szerint illetékes járási hivatalnak, c) a találás helye szerint illetékes konzuli tisztviselőnek, aki azt – a találásról felvett jegyzőkönyvvel együtt – haladéktalanul megküldi a kijelölt kormányhivatalnak, vagy d) a kijelölt kormányhivatalnak. (2) A járási hivatal, illetve a kijelölt kormányhivatal visszaadja a talált személyazonosító igazolványt, ha az az Nytv. 29/F. §-a szerint nem tekinthető érvénytelennek, és a polgár új állandó személyazonosító igazolványt még nem kapott. (3) A talált személyazonosító igazolványt a járási hivatal vagy a kijelölt kormányhivatal belföldön postai úton, könyvelt küldeményként küldi meg az arra jogosultnak. Ha a polgár a személyazonosító igazolványt postai úton vagy felhívásra személyesen, törvényes képviselője vagy meghatalmazottja útján sem veszi át, a járási hivatal vagy a kijelölt kormányhivatal az igazolványt a találástól számított egy év eltelte után átvétel hiányában érvényteleníti, és gondoskodik e ténynek a személyazonosító igazolvány nyilvántartásban való feltüntetéséről."
+    },
+    {
+      "provision_ref": "s39",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "39",
+      "title": "39. §",
+      "content": "39. § (1) Az állandó személyazonosító igazolványt – a (9) bekezdésben meghatározott kivétellel – a kérelem benyújtásával le kell adni az eljáró hatóságnak, ha a jogosult új állandó személyazonosító igazolvány iránti kérelmet nyújtott be. (2) A jogosultság megszűnésétől számított 8 napon belül le kell adni az állandó személyazonosító igazolványt a lakóhely szerint illetékes járási hivatalnak vagy – külföldi tartózkodás esetén – a külképviseletnek, ha az arra való jogosultság megszűnt. (2a) Ha a nem magyar állampolgár állandó személyazonosító igazolványa a külföldi letelepedési szándék bejelentésének nyilvántartásba vételére tekintettel érvénytelen, a polgár az állandó személyazonosító igazolványt köteles a) személyesen, törvényes képviselő vagy meghatalmazott útján a külföldön való letelepedésre vonatkozó nyilatkozattal kapcsolatos eljárás megindításának helye szerint illetékes járási hivatalnál vagy konzuli tisztviselőnél leadni, vagy b) személyes megjelenés nélkül, postai úton megküldeni a külföldön való letelepedésre vonatkozó nyilatkozattal kapcsolatos eljárás megindításának helye szerint illetékes járási hivatalnak vagy konzuli tisztviselőnek. (3) Az Nytv. 29/F. § (5) bekezdés a) pontjában foglalt esetben a személyazonosító igazolványát a) a huzamos tartózkodási jogosultsággal rendelkező személy a lakóhelye szerint illetékes idegenrendészeti szervnél, b) a menekült és az oltalmazott a menekültügyi hatóságnál adja le, amely azt a lakóhely szerint illetékes járási hivatalnak küldi meg. (4) Ha az ideiglenes személyazonosító igazolvány érvényességi ideje lejár vagy a jogosult állandó személyazonosító igazolványt kapott, az ideiglenes személyazonosító igazolvány leadható bármely járási hivatalnál, a kijelölt kormányhivatalnál, a konzuli tisztviselőnél és – a nála előterjesztett kérelem esetén – a nyilvántartást kezelő szervnél. (5) A járási hivatal és a kijelölt kormányhivatal a leadott, vagy átvétel hiányában érvénytelen állandó személyazonosító igazolványt a leadástól, vagy az átvétel hiányában történő érvénytelenítéstől számított 30 napon belül megsemmisítés céljából megküldi a nyilvántartást kezelő szervnek. A járási hivatal és a kijelölt kormányhivatal a leadott ideiglenes személyazonosító igazolványt a leadástól számított 30 napon belül megsemmisíti, és gondoskodik e ténynek a személyazonosító igazolvány nyilvántartásban való feltüntetéséről. (5a) A konzuli tisztviselő a leadott, vagy átvétel hiányában érvénytelen állandó személyazonosító igazolványt a leadástól, vagy az átvétel hiányában történő érvénytelenítéstől számított 30 napon belül megküldi a kijelölt kormányhivatalnak. A kijelölt kormányhivatal a megküldött személyazonosító igazolványt érvényteleníti és megküldi megsemmisítés céljából a nyilvántartást kezelő szervnek. (5b) A konzuli tisztviselő a nála leadott ideiglenes személyazonosító igazolványt a leadástól számított 30 napon belül megsemmisíti, és gondoskodik e ténynek a személyazonosító igazolvány nyilvántartásban való feltüntetéséről. (6) A nyilvántartást kezelő szerv gondoskodik a nála leadott, vagy átvétel hiányában érvénytelenített személyazonosító igazolvány, valamint a járási hivatal és a kijelölt kormányhivatal által megküldött állandó személyazonosító igazolvány megsemmisítéséről. A nyilvántartást kezelő szerv gondoskodik a leadott, vagy átvétel hiányában érvénytelenített személyazonosító igazolvány megsemmisítése tényének a személyazonosító igazolvány nyilvántartáson történő átvezetéséről. (7) A nála leadott érvénytelen vagy átvétel hiányában érvénytelen személyazonosító igazolványt az eljáró hatóság átlyukasztással érvényteleníti. Ha az anyakönyvi eljárásról szóló törvényben foglaltak alapján az érvénytelenített személyazonosító igazolvány visszaadásának van helye, az átlyukasztással és könyv formátumú okmány esetén az adatoldalakon elhelyezett „érvénytelen” bélyegzőlenyomattal érvénytelenített állandó személyazonosító igazolványt – ilyen irányú kérelem esetén – az elhalt polgár hozzátartozója részére vissza kell adni. (8) Nem adható vissza az érvénytelenített állandó személyazonosító igazolvány, ha az hamis vagy meghamisították. (9) Nem kell leadni a bemutatott érvényes állandó személyazonosító igazolványt, ha a polgár egyéb érvényes személyazonosításra alkalmas okmánnyal nem rendelkezik vagy vállalja, hogy az új állandó személyazonosító igazolványát személyesen veszi át. Ebben az esetben a visszahagyott állandó személyazonosító igazolványt az új állandó személyazonosító igazolvány átvételekor kell leadni az eljáró hatóságnak. (10) Az, aki rendelkezik személyazonosításra alkalmas egyéb hatósági igazolvánnyal, állandó személyazonosító igazolványát az eljáró hatóságnak leadhatja."
+    },
+    {
+      "provision_ref": "s40",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "40",
+      "title": "40. §",
+      "content": "40. § A szabadságelvonással járó büntetés, intézkedés, kényszerintézkedés hatálya alatt álló polgár az állandó személyazonosító igazolványát a fogvatartást foganatosító szervnek köteles átadni."
+    },
+    {
+      "provision_ref": "s41",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "41",
+      "title": "41. §",
+      "content": "41. § (1) A személyazonosító igazolvány átvételére a 40. §-ban feljogosított fogvatartást foganatosító szervek kötelesek a személyazonosító igazolványt megőrizni, és azt a megőrzés oka megszűnése esetén a jogosultnak visszaadni. (2) A személyazonosító igazolványt a fogvatartást foganatosító szerv vezetője a fogvatartottnak – állampolgári jogai gyakorlásának időtartamára, illetve a hivatalos ügyei intézéséhez szükséges meghatározott időre – visszaadja."
+    },
+    {
+      "provision_ref": "s42",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "42",
+      "title": "42. §",
+      "content": "42. §"
+    },
+    {
+      "provision_ref": "s43",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "43",
+      "title": "43. §",
+      "content": "43. § Az elhalt személy személyazonosító igazolványát az egészségügyi vagy szociális intézmény, vagy az elhalt hozzátartozója a haláleset bejelentésekor köteles az illetékes anyakönyvvezetőnek leadni."
+    },
+    {
+      "provision_ref": "s44",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "44",
+      "title": "44. §",
+      "content": "44. § A polgár a személyes adataihoz való hozzáférési joga gyakorlására irányuló kérelmét a polgár lakó-, vagy tartózkodási helye szerinti illetékes települési önkormányzat jegyzőjénél vagy bármely járási hivatalnál, a kijelölt kormányhivatalnál, a konzuli tisztviselőnél, illetve a nyilvántartást kezelő szervnél is előterjesztheti."
+    },
+    {
+      "provision_ref": "s45",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "45",
+      "title": "45. §",
+      "content": "45. § A jegyző, a járási hivatal, a konzuli tisztviselő és a kijelölt kormányhivatal a 44. § szerint előterjesztett kérelmet a nyilvántartást kezelő szervnek küldi meg, amely a hozzáférési jog gyakorlását biztosítja."
+    },
+    {
+      "provision_ref": "s46",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "46",
+      "title": "46. §",
+      "content": "46. § (1) Az eljáró hatóság az állandó személyazonosító igazolvány kiadásának megtagadásával és a személyazonosító igazolvány visszavonásával kapcsolatos iratokat a határozat véglegessé válásától számított 5 évig őrzi meg, ezt követően azokat az iratkezelésre irányadó jogszabályok szerint selejtezi. (2) Az ideiglenes személyazonosító igazolvány adatlapokat az eljáró hatóság a kérelem felvételétől számított 5 évig őrzi, ezt követően azokat az iratkezelésre irányadó jogszabályok szerint selejtezi. (3) Az eljáró hatóság a személyazonosító igazolvány személyes átvételét tanúsító iratokat az átvételtől számított 5 évig őrzi, ezt követően azokat az iratkezelésre irányadó jogszabályok szerint selejtezi. (4) A vészhelyzet esetén értesítendő telefonszám rögzítése iránti kérelem adatlapokat az eljáró hatóság a kérelem felvételétől számított 5 évig őrzi, ezt követően azokat az iratkezelésre irányadó jogszabályok szerint selejtezi. (5) Az eljáró hatóság – a külképviselet kivételével – a személyazonosító igazolvány elvesztéséről, eltulajdonításáról, megsemmisüléséről, megrongálódásáról, illetve megtalálásáról szóló bejelentésről felvett jegyzőkönyvet a felvételétől számított 5 évig őrzi, ezt követően azokat az iratkezelésre irányadó jogszabályok szerint selejtezi. (6)"
+    },
+    {
+      "provision_ref": "s47",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "47",
+      "title": "47. §",
+      "content": "47. § (1) A postai úton továbbított átvételt tanúsító iratokat a nyilvántartást kezelő szerv a kérelem felvételétől számított 5 évig őrzi és kezeli, ezt követően azokat az iratkezelésre irányadó jogszabályok szerint selejtezi. (2) A postai úton továbbított, a 23. § (1) bekezdése szerinti kódok átvételét tanúsító iratokat az eljáró hatóság a kérelem felvételétől számított 5 évig őrzi és kezeli, ezt követően azokat az iratkezelésre irányadó jogszabályok szerint selejtezi. (3) Ha a kérelmező a 23. § (1) bekezdése szerinti kódok átvételét megtagadta, akkor a kódokat az eljáró hatóság a kérelem felvételétől számított 8 napig őrzi, ezt követően azokat az iratkezelésre irányadó jogszabályok szerint selejtezi. (4) A postai úton át nem vett 23. § (1) bekezdése szerinti kódokat a kérelmező, annak törvényes képviselője vagy meghatalmazottja veheti át a kérelmező által az eljárás során a személyazonosító igazolvány kézbesítésére megjelölt cím szerint illetékes járási hivatalban. Az át nem vett 23. § (1) bekezdése szerinti kódokat – az átvételre való felhívást követően – az azt birtokló eljáró hatóság a 23. § szerinti postai kézbesítést követő hatvan nap elteltével átvétel hiányában az iratkezelésre irányadó jogszabályok szerint selejtezi. (5) A talált, 23. § (1) bekezdése szerinti kódokat tartalmazó borítékot le kell adni a találás helye szerint illetékes járási hivatalnak vagy konzuli tisztviselőnek. A leadott, 23. § (1) bekezdése szerinti kódokat tartalmazó borítékot a járási hivatal haladéktalanul selejtezi, a konzuli tisztviselő pedig selejtezés céljából megküldi a kijelölt kormányhivatalnak."
+    },
+    {
+      "provision_ref": "s48",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "48",
+      "title": "48. §",
+      "content": "48. § A polgár a tároló elem tartalmát a járási hivatalnál, a kijelölt kormányhivatalnál vagy a nyilvántartást kezelő szervnél személyesen, vagy elektronikus azonosítást követően elektronikus úton ellenőrizheti."
+    },
+    {
+      "provision_ref": "s49",
+      "chapter": "II. Fejezet A SZEMÉLYAZONOSÍTÓ IGAZOLVÁNY KIADÁSÁVAL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "49",
+      "title": "49. §",
+      "content": "49. § (1) A polgár az állandó személyazonosító igazolványhoz tartozó PIN kód létrehozását a vonatkozó aktiváló PIN kód megadásával végezheti. A polgár az állandó személyazonosító igazolványhoz tartozó PIN kód létrehozását a vonatkozó aktiváló PIN kód hiányában a PUK kód megadásával végezheti. A polgár az állandó személyazonosító igazolványhoz tartozó PIN kód létrehozását PUK kód hiányában az eljáró hatóságnál személyesen, személyazonossága ellenőrzését követően igényelheti. (2) A polgár az állandó személyazonosító igazolványhoz tartozó PIN kód cseréjét a korábbi PIN kód megadásával végezheti. A polgár az állandó személyazonosító igazolványhoz tartozó PIN kód cseréjét a korábbi PIN kód hiányában a PUK kód megadásával végezheti. A polgár az állandó személyazonosító igazolványhoz tartozó PIN kód cseréjét PUK kód hiányában az eljáró hatóságnál személyesen, személyazonossága ellenőrzését követően igényelheti. (3) A polgár blokkolódott PUK kódjának feloldását az eljáró hatóságnál személyesen, személyazonossága ellenőrzését követően igényelheti."
+    },
+    {
+      "provision_ref": "s50",
+      "chapter": "III. Fejezet AZ E-ALÁÍRÁSI FUNKCIÓVAL ÉS IDŐBÉLYEGZÉSSEL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "50",
+      "title": "50. §",
+      "content": "50. § (1) A kijelölt hitelesítés-szolgáltató az állandó személyazonosító igazolvány e-aláírási funkciójához kapcsolódó hitelesítés-szolgáltatást az aláírás-létrehozó eszközön nyújtja. A kijelölt hitelesítés-szolgáltató olyan minősített időbélyegzés szolgáltatást (a továbbiakban: időbélyegzés szolgáltatás) is nyújt, amely kizárólag az állandó személyazonosító igazolvány e-aláírási funkciójához használható fel. (2) A nyilvántartást kezelő szerv a) a kijelölt hitelesítés-szolgáltatóval kötött együttműködési megállapodás alapján közreműködik az (1) bekezdés szerinti feladatok ellátásában; b) a nála előterjesztett kérelem esetében ba) bb) lehetővé teszi a tanúsítvány visszavonásával kapcsolatos bejelentés fogadását, bc) lehetővé teszi az elektronikus aláíráshoz tartozó PIN kód cseréjét. (2a) A kijelölt kormányhivatal a nála előterjesztett kérelem esetében a) b) lehetővé teszi a tanúsítvány visszavonásával kapcsolatos bejelentés fogadását, c) lehetővé teszi az elektronikus aláíráshoz tartozó PIN-kód cseréjét. (3) A járási hivatal a) b) lehetővé teszi a tanúsítvány visszavonásával kapcsolatos bejelentés fogadását, c) lehetővé teszi az elektronikus aláíráshoz tartozó PIN kód cseréjét."
+    },
+    {
+      "provision_ref": "s51",
+      "chapter": "III. Fejezet AZ E-ALÁÍRÁSI FUNKCIÓVAL ÉS IDŐBÉLYEGZÉSSEL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "51",
+      "title": "51. §",
+      "content": "51. §"
+    },
+    {
+      "provision_ref": "s52",
+      "chapter": "III. Fejezet AZ E-ALÁÍRÁSI FUNKCIÓVAL ÉS IDŐBÉLYEGZÉSSEL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "52",
+      "title": "52. §",
+      "content": "52. §"
+    },
+    {
+      "provision_ref": "s53",
+      "chapter": "III. Fejezet AZ E-ALÁÍRÁSI FUNKCIÓVAL ÉS IDŐBÉLYEGZÉSSEL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "53",
+      "title": "53. §",
+      "content": "53. § (1) (2) (3) (4) (5) A szolgáltatást igénybe vevő az elektronikus aláíráshoz tartozó PIN kód létrehozásához szükséges aktiváló PIN kód, az elektronikus aláíráshoz tartozó PIN kód és a visszavonási jelszó használatát más személynek nem engedheti át, azokat más személynek nem hozhatja tudomására. (5a) A talált, az elektronikus aláíráshoz tartozó PIN-kód létrehozásához szükséges aktiváló PIN-kódot és a visszavonási jelszót tartalmazó borítékot le kell adni a találás helye szerint illetékes járási hivatalnak. A leadott, (3) bekezdés szerinti kódokat tartalmazó borítékot a járási hivatal haladéktalanul selejtezi. (6)"
+    },
+    {
+      "provision_ref": "s54",
+      "chapter": "III. Fejezet AZ E-ALÁÍRÁSI FUNKCIÓVAL ÉS IDŐBÉLYEGZÉSSEL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "54",
+      "title": "54. §",
+      "content": "54. § (1) (2) Az aláírás-létrehozó adatot az Nytv. 29/C. § (1) bekezdése szerinti biztonságos aláírás-létrehozó eszközben kell tárolni. (3) Az aláírás-ellenőrző adatokat a nyilvántartást kezelő szerv átadja a kijelölt hitelesítés-szolgáltató részére. (4) A nyilvántartást kezelő szerv az aláírás-létrehozó adat kezelése során köteles olyan technikai intézkedéseket alkalmazni, amelyek biztosítják az aláírás-létrehozó adathoz történő jogosulatlan hozzáférés, annak jogosulatlan megváltoztatása, nyilvánosságra hozatala vagy törlése és a sérülés vagy a megsemmisülés elleni védelmet."
+    },
+    {
+      "provision_ref": "s55",
+      "chapter": "III. Fejezet AZ E-ALÁÍRÁSI FUNKCIÓVAL ÉS IDŐBÉLYEGZÉSSEL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "55",
+      "title": "55. §",
+      "content": "55. § (1) Az e-aláírási funkcióhoz kapcsolódó visszavonási jelszó előállítását a kijelölt hitelesítés- szolgáltató megbízásából a nyilvántartást kezelő szerv végzi. A nyilvántartást kezelő szerv tárolja a visszavonási jelszó lenyomatát, a tanúsítvány visszavonásához szükséges jogosultság ellenőrzése céljából. (2) (3) (4) A szolgáltatást igénybe vevő az elektronikus aláíráshoz tartozó PIN kód létrehozását a vonatkozó aktiváló PIN kód megadásával végezheti. A szolgáltatást igénybe vevő az elektronikus aláíráshoz tartozó PIN kód létrehozását a vonatkozó aktiváló PIN kód hiányában a PUK kód megadásával végezheti. A szolgáltatást igénybe vevő az elektronikus aláíráshoz tartozó PIN kód létrehozását PUK kód hiányában a járási hivatalnál, a kijelölt kormányhivatalnál vagy a nyilvántartást kezelő szervnél személyesen, személyazonossága ellenőrzését követően igényelheti. (5) A szolgáltatást igénybe vevő az elektronikus aláíráshoz tartozó PIN kód cseréjét a korábbi PIN kód megadásával végezheti. A szolgáltatást igénybe vevő az elektronikus aláíráshoz tartozó PIN kód cseréjét a korábbi PIN kód hiányában a PUK kód megadásával végezheti. A szolgáltatást igénybe vevő az elektronikus aláíráshoz tartozó PIN kód cseréjét PUK kód hiányában a járási hivatalnál, a kijelölt kormányhivatalnál vagy a nyilvántartást kezelő szervnél személyesen, személyazonossága ellenőrzését követően igényelheti."
+    },
+    {
+      "provision_ref": "s56",
+      "chapter": "III. Fejezet AZ E-ALÁÍRÁSI FUNKCIÓVAL ÉS IDŐBÉLYEGZÉSSEL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "56",
+      "title": "56. §",
+      "content": "56. § (1) A tanúsítványt a kijelölt hitelesítés-szolgáltató közzéteszi abban az esetben, ha a szolgáltatás igénybe vevője erről így nyilatkozott. (2) (3) (4) (5) (6) (7) (8)"
+    },
+    {
+      "provision_ref": "s57",
+      "chapter": "III. Fejezet AZ E-ALÁÍRÁSI FUNKCIÓVAL ÉS IDŐBÉLYEGZÉSSEL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "57",
+      "title": "57. §",
+      "content": "57. §"
+    },
+    {
+      "provision_ref": "s58",
+      "chapter": "III. Fejezet AZ E-ALÁÍRÁSI FUNKCIÓVAL ÉS IDŐBÉLYEGZÉSSEL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "58",
+      "title": "58. §",
+      "content": "58. § (1) A szolgáltatást igénybe vevő személyesen a járási hivatalnál, a kijelölt kormányhivatalnál és a nyilvántartást kezelő szervnél, valamint az országos telefonos ügyfélszolgálat útján kezdeményezheti tanúsítványa visszavonását. (2) A szolgáltatást igénybe vevő a tanúsítvány országos telefonos ügyfélszolgálat útján történő visszavonása esetén a visszavonási jogosultságát a visszavonási jelszó megadásával igazolja. A szolgáltatást igénybe vevő visszavonási jogosultságának ellenőrzését követően az országos telefonos ügyfélszolgálat a tanúsítvány visszavonása iránti kérelmet a kijelölt hitelesítés-szolgáltatónak azonnal továbbítja. A tanúsítványt a kijelölt hitelesítés-szolgáltató vonja vissza. (3) A szolgáltatást igénybe vevő személyesen a járási hivatalnál, a kijelölt kormányhivatalnál és a nyilvántartást kezelő szervnél a személyazonossága ellenőrzését követően kezdeményezheti tanúsítványa visszavonását. A tanúsítvány visszavonása iránti kérelmet a szolgáltatást igénybe vevő aláírja, és a kérelmet a járási hivatal, a kijelölt kormányhivatal, illetve a nyilvántartást kezelő szerv a kijelölt hitelesítés-szolgáltatónak azonnal továbbítja. A tanúsítványt a kijelölt hitelesítés-szolgáltató vonja vissza. (4) Ha a szolgáltatást igénybe vevő érvényes állandó személyazonosító igazolványán érvénytelen tanúsítvány szerepel, azt a kapcsolódó kulcspárral együtt a nyilvántartást kezelő szerv törli. (4a) (5) A szolgáltatást igénybe vevő az állandó személyazonosító igazolványon elhelyezett tanúsítvány felfüggesztését nem kezdeményezheti. (6) A tanúsítvány visszavonása egyben az időbélyegzés szolgáltatás igénybevételi jogosultságának megszűntetését jelenti."
+    },
+    {
+      "provision_ref": "s59",
+      "chapter": "III. Fejezet AZ E-ALÁÍRÁSI FUNKCIÓVAL ÉS IDŐBÉLYEGZÉSSEL KAPCSOLATOS ELJÁRÁS SZABÁLYAI",
+      "section": "59",
+      "title": "59. §",
+      "content": "59. § (1) A járási hivatalok, a kijelölt kormányhivatal és a nyilvántartást kezelő szerv kormánytisztviselői részt vehetnek az e-aláírási funkcióhoz kapcsolódóan a kijelölt hitelesítés-szolgáltató által nyújtott hitelesítés-szolgáltatásban. (2) Az e-aláírási funkcióhoz és az időbélyegzés szolgáltatáshoz kapcsolódó panaszokat a szolgáltatást igénybe vevő az országos telefonos ügyfélszolgálatnál – írásban, telefon és elektronikus levél útján – terjesztheti elő. A telefonos ügyfélszolgálat a panaszt haladéktalanul továbbítja a kijelölt hitelesítés-szolgáltatónak. (3) Az e-aláírás funkcióhoz tartozó, az egy aláírással tehető pénzügyi kötelezettségvállalás maximális mértéke 50 000 000 forint. (4)"
+    },
+    {
+      "provision_ref": "s60",
+      "chapter": "IV. Fejezet EGYSÉGES ARCKÉPMÁS- ÉS ALÁÍRÁS-FELVÉTELEZÉS",
+      "section": "60",
+      "title": "60. §",
+      "content": "60. § (1) Az Nytv. 15. § (2) bekezdése szerinti egységes arcképmás- és aláírás-felvételezés célja az egységes elektronikuskártya-kibocsátási keretrendszerről szóló törvény szerinti kártyafelhasználói regisztráció során a személyesen megjelent kérelmezőnek, valamint a digitális államról és a digitális szolgáltatások nyújtásának egyes szabályairól szóló törvényben meghatározott elektronikus azonosítási szolgáltatással és videotechnológiás kapcsolattal történő ügyintézéssel megvalósuló azonosítást követően a kérelmezőnek az Nytv. 29. § (2) bekezdés a)–g) pontjában megjelölt személyi adatainak ellenőrzése, és arcképmásának, valamint – ha a 12. életévét betöltötte – aláírásának rögzítése. (2) Az egységes arcképmás- és aláírás-felvételezésre irányuló eljárás az Nytv. 29. § (12) bekezdése szerinti személyazonosság igazolására alkalmas okmány kiadása iránti eljárás részét képezi. (3) Állandó személyazonosító igazolvány kiadására vonatkozó eljárásban e fejezet rendelkezéseit az I. és II. Fejezetben foglalt eltérésekkel kell alkalmazni. (4) E Fejezet rendelkezéseit az állandó személyazonosító igazolványon kívül más, személyazonosság igazolására alkalmas okmány kiadására irányuló eljárásban külön jogszabályban foglalt eltérésekkel kell alkalmazni."
+    },
+    {
+      "provision_ref": "s61",
+      "chapter": "IV. Fejezet EGYSÉGES ARCKÉPMÁS- ÉS ALÁÍRÁS-FELVÉTELEZÉS",
+      "section": "61",
+      "title": "61. §",
+      "content": "61. § (1) Az egységes arcképmás- és aláírás-felvételezésre irányuló eljárás kérelemre indul. (2) Az egységes arcképmás- és aláírás-felvételezésre irányuló kérelem – ha az nem része más eljárásnak – bármely járási hivatalnál, kormányablaknál, a kijelölt kormányhivatalnál, valamint a nyilvántartást kezelő szervnél előterjeszthető. (2a) Az egységes arcképmás- és aláírás-felvételezésre irányuló kérelem a digitális államról és a digitális szolgáltatások nyújtásának egyes szabályairól szóló törvényben meghatározott elektronikus azonosítási szolgáltatással és videotechnológiás kapcsolattal történő ügyintézéssel megvalósuló azonosítást követően a járási hivatalnál és az országos telefonos ügyfélszolgálatnál, mint eljáró hatóságnál elektronikus kapcsolattartás keretében is előterjeszthető. (3) A személyazonosító igazolvány iránti kérelem személyes előterjesztésekor a konzuli tisztviselő által a kérelmezőről készített arcképmás-felvételezésnek meg kell felelnie az okmányirodák működésének személyi és technikai feltételeiről alkotott rendelet szerint kiadott módszertani útmutatóban meghatározott követelményeknek. (4) A külképviselet rendszeres ügyfélfogadásra állandó jelleggel kialakított hivatali helyiségében az arcképmás konzuli tisztviselő általi felvételezésének külső körülményeit az okmányirodák működésének személyi és technikai feltételeiről alkotott rendelet szerint kiadott módszertani útmutatóban meghatározott minimális követelmények figyelembevételével kell kialakítani."
+    },
+    {
+      "provision_ref": "s62",
+      "chapter": "IV. Fejezet EGYSÉGES ARCKÉPMÁS- ÉS ALÁÍRÁS-FELVÉTELEZÉS",
+      "section": "62",
+      "title": "62. §",
+      "content": "62. § (1) Az egységes arcképmás- és aláírás-felvételezésre irányuló eljárásban a kérelmező – a 61. § (2a) bekezdésében meghatározott kivétellel – személyesen köteles megjelenni. (2) A kérelem előterjesztésekor az eljáró szerv a kérelmezőről arcképmás felvételt készít."
+    },
+    {
+      "provision_ref": "s63",
+      "chapter": "IV. Fejezet EGYSÉGES ARCKÉPMÁS- ÉS ALÁÍRÁS-FELVÉTELEZÉS",
+      "section": "63",
+      "title": "63. §",
+      "content": "63. § (1) A kérelmezőnek a kérelem benyújtásakor a személyazonosságát igazolnia szükséges. Az igazoláshoz felhasználható különösen a személyazonosság igazolására alkalmas érvényes hatósági igazolvány. (2) A cselekvőképességet teljesen korlátozó gondnokság alatt álló kérelmező esetében a kérelmezőnek igazolnia kell a gondnokság alá helyezést, továbbá a törvényes képviseletet. Az igazoláshoz felhasználható különösen jogerős bírósági határozat, valamint végleges gyámhatósági határozat. A törvényes képviselő személyazonosságát szintén igazolni szükséges."
+    },
+    {
+      "provision_ref": "s64",
+      "chapter": "IV. Fejezet EGYSÉGES ARCKÉPMÁS- ÉS ALÁÍRÁS-FELVÉTELEZÉS",
+      "section": "64",
+      "title": "64. §",
+      "content": "64. § (1) Az eljárásban a kérelmező személyazonosságát és a fényképnek az azonosításra alkalmasságát ellenőrizni kell. Ennek során a kérelem adatait egyeztetni kell a bemutatott személyazonosságot igazoló érvényes hatósági igazolvány adattartalmával és a bemutatott okiratokban szereplő adatokkal. (2) Az eljáró szerv az egyeztetést – a nyilvántartást kezelő szerv közreműködésével –- a személyiadat- és lakcímnyilvántartásban tárolt adatokkal is elvégzi."
+    },
+    {
+      "provision_ref": "s65",
+      "chapter": "IV. Fejezet EGYSÉGES ARCKÉPMÁS- ÉS ALÁÍRÁS-FELVÉTELEZÉS",
+      "section": "65",
+      "title": "65. §",
+      "content": "65. § (1) Az egységes arcképmás- és aláírás-felvételezés iránti kérelmet az arcképmás és – ha a kérelmező a 12. életévét betöltötte – az aláírás felvételezésével kell teljesíteni. (2) A korlátozottan cselekvőképes kiskorú jogosult az egységes arcképmás- és aláírás-felvételezésre irányuló kérelem ügyében eljárási képességgel bír."
+    },
+    {
+      "provision_ref": "s65a",
+      "chapter": "IV. Fejezet EGYSÉGES ARCKÉPMÁS- ÉS ALÁÍRÁS-FELVÉTELEZÉS",
+      "section": "65/A",
+      "title": "65/A. §",
+      "content": "65/A. § Az elektronikus ügyintézési pont az ott benyújtott elektronikuskártya-kibocsátási keretrendszer (a továbbiakban: NEK) kártyafelhasználói regisztráció nyomán felvételezett arcképmást és aláírást a személyiadat- és lakcímnyilvántartásnak küldi meg a NEK kártya kiállítása céljából."
+    },
+    {
+      "provision_ref": "s66",
+      "chapter": "V. Fejezet AZ ÁLLANDÓ SZEMÉLYAZONOSÍTÓ IGAZOLVÁNYHOZ RENDELHETŐ MÁSODLAGOS KÁRTYÁK KÖRE",
+      "section": "66",
+      "title": "66. §",
+      "content": "66. § A tároló elemmel ellátott állandó személyazonosító igazolványhoz másodlagos kártyaként – ha annak műszaki és technikai feltételei adottak – a 2. mellékletben megjelölt kártyák rendelhetőek."
+    },
+    {
+      "provision_ref": "s67",
+      "chapter": "VI. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "67",
+      "title": "67. §",
+      "content": "67. § Ez a rendelet 2016. január 1-jén lép hatályba."
+    },
+    {
+      "provision_ref": "s68",
+      "chapter": "VI. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "68",
+      "title": "68. §",
+      "content": "68. § (1) A személyazonosító igazolvány kiadásáról és nyilvántartásáról szóló 168/1999. (XI. 24.) Korm. rendelet hatálybalépése előtt kiadott érvényes személyazonosító igazolványba a lakcímmegszüntetés kivételével adatváltozás nem jegyezhető be. (2) A 25. § a) pontjától eltérően nem tagadható meg a személyazonosító igazolvány kiadása akkor, ha a 2016. január 1-jét megelőzően kiállított, érvényes személyazonosító igazolvánnyal rendelkező és állandó személyazonosító igazolványra jogosult polgár új személyazonosító igazolvány kiadását kezdeményezi. (3) (4) Ha a letelepedett a letelepedett jogállást igazoló okmányát, a menekült és az oltalmazott a menekültként vagy oltalmazottként való elismerést igazoló okiratát 2016. január 1-jét megelőzően veszi át, de személyazonosító igazolványa első kiadására 2015. december 31-ig nem került sor, a polgár lakóhelye szerinti illetékes járási hivatal az e rendelet szerinti szükséges eljárások lefolytatása és adatok rögzítése érdekében a polgárt idézi."
+    },
+    {
+      "provision_ref": "s68a",
+      "chapter": "VI. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "68/A",
+      "title": "68/A. §",
+      "content": "68/A. § (1) A 24. § (3) bekezdésében foglaltaktól eltérően, humánjárvány miatt kihirdetett veszélyhelyzet és a Kormány által elrendelt egészségügyi válsághelyzet idején az állandó személyazonosító igazolványt – a konzuli tisztviselőnél történő átvétel, továbbá a (2) bekezdésben, valamint a 24. § (2) bekezdésében meghatározott eset kivételével – kizárólag postai úton, könyvelt küldeményként kézbesíthető. Az át nem vett okmányokra a 24. § (5) bekezdését kell alkalmazni. (2) Az ügyfél a tároló elem aktiválása érdekében kérheti az állandó személyazonosító igazolványának az általa megjelölt járási hivatalban történő személyes átvételét."
+    },
+    {
+      "provision_ref": "s68b",
+      "chapter": "VI. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "68/B",
+      "title": "68/B. §",
+      "content": "68/B. § E rendelet az uniós polgárok személyazonosító igazolványai és a szabad mozgás jogával élő uniós polgárok és azok családtagjai részére kiállított tartózkodási okmányok biztonságának megerősítéséről szóló, 2019. június 20-i (EU) 2019/1157 európai parlamenti és tanácsi rendelet végrehajtásához szükséges rendelkezéseket állapít meg."
+    },
+    {
+      "provision_ref": "s68c",
+      "chapter": "VI. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "68/C",
+      "title": "68/C. §",
+      "content": "68/C. § Az Nytv. 52/I. § (2) bekezdése szerinti állandó személyazonosító igazolvány pótlásának időpontjában a polgár ujjnyomatát a személyiadat- és lakcímnyilvántartásnak tartalmaznia kell."
+    },
+    {
+      "provision_ref": "s68d",
+      "chapter": "VI. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "68/D",
+      "title": "68/D. §",
+      "content": "68/D. § A 2025. február 1. napja előtt a születési vagy a házasságkötés előtt közvetlenül viselt nevétől eltérő házassági nevet felvevő, Magyarországon házasságot kötő magyar állampolgárok részére hivatalból kiadott állandó személyazonosító igazolványok átadására, kézbesítésére, érvénytelenítésére e rendelet 2025. január 31. napján hatályos rendelkezéseit kell alkalmazni."
+    },
+    {
+      "provision_ref": "s69",
+      "chapter": "VI. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "69",
+      "title": "69. §",
+      "content": "69. §"
+    },
+    {
+      "provision_ref": "s70",
+      "chapter": "VI. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "70",
+      "title": "70. §",
+      "content": "70. §"
+    },
+    {
+      "provision_ref": "s71",
+      "chapter": "VI. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "71",
+      "title": "71. §",
+      "content": "71. §"
+    },
+    {
+      "provision_ref": "s72",
+      "chapter": "VI. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "72",
+      "title": "72. §",
+      "content": "72. §"
+    },
+    {
+      "provision_ref": "s73",
+      "chapter": "VI. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "73",
+      "title": "73. §",
+      "content": "73. §"
+    },
+    {
+      "provision_ref": "s74",
+      "chapter": "VI. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "74",
+      "title": "74. §",
+      "content": "74. §"
+    },
+    {
+      "provision_ref": "s75",
+      "chapter": "VI. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "75",
+      "title": "75. §",
+      "content": "75. §"
+    },
+    {
+      "provision_ref": "s76",
+      "chapter": "VI. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "76",
+      "title": "76. §",
+      "content": "76. §"
+    },
+    {
+      "provision_ref": "s77",
+      "chapter": "VI. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "77",
+      "title": "77. §",
+      "content": "77. § Az állandó személyazonosító igazolvány iránti kérelem a következő adatokat tartalmazza: 1. Személyi azonosítója 2. Családi és utóneve(i) (Kérelmére neve nemzetiségi nyelven) 3. Születési családi és utóneve(i) 4. Születési helye 5. Születési ideje 6. Anyja születési családi és utóneve(i) 7. Állampolgársága 8. Nem magyar állampolgársága esetén jogállása 9. Neme 9a. Származási helye (Kérelmére) 10. Annak tényét, hogy társadalombiztosítási azonosító jellel, adóazonosító jellel, személyi azonosítóval és lakcímmel a kiállítás időpontjában rendelkezik-e 10a. A 16. § (3) bekezdése szerinti esetben a kérelmező nyilatkozatát, hogy az Nytv. 29. § (7) bekezdés d) és e) pontja szerinti azonosító kód az azonosító kódot igazoló hatósági igazolványnak, az Nytv. 29. § (7) bekezdés i) és j) pontjában meghatározott adat a személyiadat- és lakcímnyilvántartásnak megfelelően került rögzítésre 11. Okmány kézbesítési címe 12. Arcképmása 13. Ujjnyomatának rögzítése 14. Ujjnyomat adására ideiglenesen fizikailag vagy fizikailag képtelenség ténye 15. Saját kezű aláírása 16. A kérelmet előterjesztő saját kezű aláírása 17. Az állandó személyazonosító igazolvány igénylésének oka 18. Az állandó személyazonosító igazolvány leadásának/le nem adásának oka 19. Az előző okmány azonosítója 20. Az ideiglenes személyazonosító igazolvány kiadásának oka, az okmány azonosítója, érvényességi ideje 21. 22. A regisztrációs kód, az állandó személyazonosító igazolványhoz tartozó PIN kód létrehozásához szükséges aktiváló PIN kód és a PUK kód átvételének ténye, vagy átvételének megtagadása, valamint a kódokat tartalmazó boríték azonosítója 23. 24. A vészhelyzet esetén értesítendő telefonszáma rögzítésének ténye, valamint a polgár nyilatkozata arról, hogy a vészhelyzet esetén értesítendő telefonszáma megfelelően került rögzítésre 25. A személyazonosító igazolvány kérelem és adatlap ügyszáma 26. Kapcsolattartási adatai (telefonszám, elektronikus levelezési cím) 27. Az ügyintéző viselt nevét, aláírását és a hatóság bélyegzőlenyomatát 28. A személyazonosító igazolvány kiállításáért, pótlásáért, valamint belföldön postai úton, könyvelt küldeményként történő kézbesítéséért fizetendő igazgatási szolgáltatási díj Az állandó személyazonosító kártyához rendelhető másodlagos kártyák: a) a személyszállítási szolgáltatásokról szóló 2012. évi XLI. törvény 6/A. § (2) és (3) bekezdése szerinti közlekedési kártya."
+    }
+  ]
+}

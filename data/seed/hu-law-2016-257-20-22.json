@@ -1,0 +1,187 @@
+{
+  "id": "hu-law-2016-257-20-22",
+  "type": "statute",
+  "title": "257/2016. (VIII. 31.) Korm. rendelet az önkormányzati ASP rendszerről",
+  "status": "in_force",
+  "in_force_date": "2016-09-03",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2016-257-20-22",
+  "description": "az önkormányzati ASP rendszerről",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § E rendelet alkalmazásában: 1. alapinfrastruktúra: az önkormányzati ASP rendszer működését biztosító adatközponti és hálózati informatikai infrastruktúra, valamint a szakrendszeri átjárhatóságot és a külső rendszerkapcsolatok kiépítésének lehetőségét biztosító integrációs platformszolgáltatás; 2. alkalmazásüzemeltetés: az alkalmazások elérhetővé tétele és működtetése, az alkalmazásokkal kapcsolatos képzési feladatok elvégzése, hibakezelés; a rendszertámogatási szerződések megkötése; 3. csatlakozás: az az aktus, amivel a helyi önkormányzat – a képviselő-testület, illetve a képviselő-testület szervei –, valamint a csatlakozásra jogosult megkezdi a szolgáltatások tényleges használatát; 3a. elektronikus fizetési és elszámolási rendszer: az elektronikus ügyintézés és a bizalmi szolgáltatások általános szabályairól szóló 2015. évi CCXXII. törvény 1. § 15. pontjában meghatározott központi elektronikus ügyintézési szolgáltatás; 4. interfész: adatok automatizált módon, elektronikus úton történő átadását lehetővé tevő kapcsolódási felület; 5. központi szolgáltató: a NISZ Nemzeti Infokommunikációs Szolgáltató Zártkörűen Működő Részvénytársaság (a továbbiakban: NISZ Zrt.), valamint az IdomSoft Informatikai Zártkörűen Működő Részvénytársaság (a továbbiakban: IdomSoft Zrt.); 5a. minimumkövetelmények: az önkormányzati ASP rendszer szakrendszereinek használatához szükséges felhasználói (önkormányzati) munkaállomásokkal szembeni minimális elvárások; 6. önkormányzati ASP rendszer: az önkormányzati feladatellátást támogató, számítástechnikai hálózaton keresztül távoli alkalmazásszolgáltatást (Application Service Provider, ASP) nyújtó elektronikus információs rendszer; 7. rendszertámogatás: a fejlesztési időszakot követő hibajavítás, verziófrissítés, jogszabálykövetés; 8. szakrendszer: az önkormányzati ASP rendszer által nyújtott, igazgatási feladatokat támogató szakalkalmazás; 9. ügyféltámogatás: a működéssel kapcsolatos felhasználói segítségkérelmek megválaszolása."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § (1) A Kormány az önkormányzati ASP rendszert a Magyar Államkincstár (a továbbiakban: Kincstár) útján működteti. (2) A Kincstár működtetési feladatai: a) a csatlakozás-, és szolgáltatás-menedzsment ellátása, b) a szolgáltatási szerződések csatlakozó szervezetekkel való megkötése és módosítása, c) ügyfélszolgálat biztosításával a szolgáltatással kapcsolatos ügyfél-kapcsolattartási, tájékoztatási és adminisztratív feladatok ellátása, biztosítva a hibabejelentés lehetőségét, d) a szolgáltatásokkal kapcsolatos kommunikációs és képzési feladatok koordinációja. (3) A Kincstár a 3. § (2) bekezdésében foglalt szakrendszerek, a keretrendszer és a támogató rendszerek tekintetében a csatlakozott önkormányzatok, valamint az önkormányzat által alapított költségvetési szervek adatfeldolgozójaként a) az elektronikus ügyintézés biztosítása céljából elektronikus ügyintézés és a bizalmi szolgáltatások általános szabályairól szóló törvény (a továbbiakban: E-ügyintézési tv.) szerinti ügyfél (a továbbiakban: ügyfél) személyes adatait az E-ügyintézési tv. szerinti központi elektronikus ügyintézési szolgáltatástól vagy szabályozott elektronikus ügyintézési szolgáltatástól (a továbbiakban együtt: SZEÜSZ) vagy annak közreműködésével átveszi, és a csatlakozott, az E-ügyintézési tv. szerinti elektronikus ügyintézést biztosító szerv részére továbbítja, b) a csatlakozott elektronikus ügyintézést biztosító szerv részére szóló küldeményeket az ügyféltől vagy más elektronikus ügyintézést biztosító szervtől elektronikusan átveszi, és az önkormányzat részére továbbítja, c) a csatlakozott elektronikus ügyintézést biztosító szervtől az ügyfél vagy más elektronikus ügyintézést biztosító szerv részére küldött küldeményeket elektronikusan átveszi, és a címzettnek továbbítja. (4) Az önkormányzati ASP rendszer – a 3. § (2) bekezdés c) pontja szerinti szakrendszer szolgáltatásainak igénybevétele esetén – a csatlakozott önkormányzat vonatkozásában az E-ügyintézési tv. 25. § (3) bekezdése szerinti követelményeknek megfelelő, elektronikus ügyintézést biztosító információs rendszernek minősül. (5) A 3. § (2) bekezdése szerinti szakrendszerek, a keretrendszer és a támogató rendszerek működtetéséhez szükséges SZEÜSZ-ök szolgáltatója a SZEÜSZ-öket, valamint a földmérési és térinformatikai államigazgatási szerv a számítógépes ingatlannyilvántartási rendszerből történő teljes tulajdoni lap adattartalmára vonatkozó adatszolgáltatását a csatlakozott önkormányzatok részére a Kincstár útján nyújtja. Ez nem zárja ki azt, hogy az önkormányzat – ha az önkormányzati ASP rendszer által nem támogatott feladatok ellátásához ez szükséges – a SZEÜSZ-öket vagy a földmérési és térinformatikai államigazgatási szerv számítógépes ingatlannyilvántartási rendszerből történő teljes tulajdoni lap adattartalmára vonatkozó adatszolgáltatását közvetlenül is igénybe vegye."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) Az önkormányzati ASP rendszer elemei: a) szakrendszerek, b) keretrendszer, c) támogató rendszerek és d) a Magyarország helyi önkormányzatairól szóló 2011. évi CLXXXIX. törvény (a továbbiakban: Mötv.) 114. § (4) bekezdése szerinti önkormányzati adattárház. (2) Az önkormányzati ASP rendszer szakrendszerei: a) iratkezelő rendszer, b) önkormányzati települési portál rendszer, c) az elektronikus ügyintézési portál rendszer, ideértve az elektronikus űrlap-szolgáltatást, d) gazdálkodási rendszer, e) ingatlanvagyon-kataszter rendszer, f) önkormányzati adórendszer, g) ipar- és kereskedelmi rendszer, h) hagyatéki leltár rendszer. (3) A keretrendszer a szakrendszerek számára egységes felületet és hozzáférést, az egységes felhasználó-, és jogosultságkezelést, valamint a rendszerszintű menedzsment (üzleti) funkciók elérését biztosítja. (4) A támogató rendszerek az önkormányzati ASP rendszer napi adminisztratív, ügyfélszolgálati és működtetési feladatait segítő alkalmazások. (5) Az iratkezelő rendszer – a Kincstár által közzétett formátumban – fogadja a helyi önkormányzatnak az iratkezelő rendszerhez történő csatlakozását megelőző napon használt iratkezelő rendszerében tárolt teljes adatállományt. (6) A (2) bekezdés c) pontja szerinti szakrendszerhez kapcsolódó elektronikus ügyintézési portál használatát érintő lakossági ügyfélszolgálati feladatok ellátását az elektronikus ügyintézés részletszabályairól szóló 451/2016. (XII. 19.) Korm. rendelet 40. § 3. pontja szerinti Kormányzati Ügyfélvonal (a továbbiakban: ügyfélszolgálat) biztosítja. Az ügyfélszolgálat ennek keretében a következő szolgáltatások ellátását biztosítja: a) segítségnyújtás a rendszerbe való belépéshez; b) technikai segítség az oldalon megjelenő szolgáltatások kapcsán; c) ügyfelek támogatása az ASP rendszer használata során; d) kapcsolattartás a központi szolgáltatóval, valamint az ügyféltámogatói feladatokat ellátó szervezetekkel; e) intézhető ügyekkel kapcsolatos tájékoztatás; f) SZEÜSZ-szel kapcsolatos panaszok, közérdekű bejelentések, észrevételek fogadása, kivizsgálása, továbbítása, megválaszolása."
+    },
+    {
+      "provision_ref": "s3a",
+      "section": "3/A",
+      "title": "3/A. §",
+      "content": "3/A. § A 3. § (1) bekezdés b) pontja szerinti keretrendszer – a 4. mellékletben meghatározott esetekben és adatkörökben – biztosíthatja más szakrendszerek felé a jegyző, valamint a jegyző nevében eljáró önkormányzati tisztviselő azonosítását, valamint jogosultságát."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) A 3. § (2) bekezdés a) a) pontja szerinti szakrendszer esetében a köziratok kezelésének szakmai irányításáért felelős miniszter, b) b)–c) pontja szerinti szakrendszer esetében az e-közigazgatásért felelős miniszter, c) d)–e) pontja szerinti szakrendszer esetében az államháztartásért, valamint az állami vagyonnal való gazdálkodás szabályozásáért felelős miniszter a helyi önkormányzatokért felelős miniszter egyetértésével, d) f) pontja szerinti szakrendszer esetében az adópolitikáért felelős miniszter, e) g) pontja szerinti szakrendszer esetében az iparügyekért felelős miniszter a kereskedelemért felelős miniszter egyetértésével, f) h) pontja szerinti szakrendszer esetében az igazságügyért felelős miniszter ellenőrzi a szakrendszer működését és meghatározza a szakrendszer fejlesztésének irányait. (2) Az önkormányzati ASP rendszer szakrendszereiben tárolt adatokat helyi önkormányzatonként, a gazdálkodási szakrendszer esetén önkormányzat által alapított költségvetési szervenként elkülönítve, az átjárhatóság kizárásával kell tárolni. (3) Az önkormányzati ASP rendszert úgy kell kialakítani, hogy az egyes szakrendszerekben tárolt adatokhoz csak az adatkezelő önkormányzat, valamint a képviselő-testület és annak szervei, gazdálkodási szakrendszer esetén az önkormányzat, a képviselő-testület és annak szervei vagy az önkormányzat által alapított költségvetési szerv férjen hozzá, azzal, hogy a 3. § (2) bekezdés f) pontja szerinti szakrendszerben tárolt adatokhoz kizárólag az önkormányzati adóhatóság férhet hozzá. (4) A szakrendszerekben tárolt adatok védelméről a Kincstár, a NISZ Zrt. és az IdomSoft Zrt. – az általuk ellátott feladatok körében – gondoskodik. (5) A 3. § (2) bekezdés g) pontja szerinti szakrendszer személyes adatot nem tartalmazó adattartalmát az önkormányzati ASP rendszerhez a 6. § (1) bekezdés a) pontja szerint csatlakozott önkormányzat jegyzője közvetlen adatkapcsolat útján továbbíthatja a kereskedelmi nyilvántartásokat tartalmazó országos nyilvántartás részére. (6) A kereskedelemről szóló 2005. évi CLXIV. törvény 6/H. §-a szerinti adatátadás a 3. § (2) bekezdés g) pontja szerinti szakrendszeren keresztül is teljesíthető. A statisztikai célra térítésmentesen leválogatott adatokat a Kincstár továbbítja a Központi Statisztikai Hivatal számára."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § (1) Az önkormányzati ASP rendszer alapinfrastruktúra – ideértve az alapinfrastruktúra üzemeltetésével összefüggő adatfeldolgozási feladatellátást is – üzemeltetője a NISZ Zrt. (2) Az önkormányzati ASP rendszer ügyféltámogatói feladatait, valamint az egyes elemei, szakrendszerei alkalmazásüzemeltetési – ideértve az alkalmazás üzemeltetésével összefüggő adatfeldolgozási feladatellátást is –, alkalmazásüzemeltetés-támogatási és alkalmazásfejlesztési feladatait a Kincstár és a központi szolgáltató, valamint a KINCSINFO Nonprofit Kft. látják el az 1. mellékletben meghatározottak szerint. (3) A központi szolgáltató által ellátott feladatokra vonatkozóan a közigazgatási informatika infrastrukturális megvalósíthatóságának biztosításáért felelős miniszter a központosított informatikai és elektronikus hírközlési szolgáltatásokról szóló 309/2011. (XII. 23.) Korm. rendelet 4. §-a alapján központi szolgáltatási megállapodást köt, a központi szolgáltató által ellátott feladatok finanszírozása e megállapodás keretein belül történik. Az egyes szolgáltatási szintek részletes tartalmát a központi szolgáltatási szerződés határozza meg. (4) A (3) bekezdés alapján a központi szolgáltató részére nyújtott ellentételezés az Európai Unió működéséről szóló szerződés 106. cikke (2) bekezdésének az általános gazdasági érdekű szolgáltatások nyújtásával megbízott egyes vállalkozások javára közszolgáltatás ellentételezése formájában nyújtott állami támogatásra való alkalmazásáról szóló, 2011. december 20-i 2012/21/EU bizottsági határozat (a továbbiakban: 2012/21/EU bizottsági határozat) szabályai szerint nyújtható."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § (1) A helyi önkormányzat az önkormányzati ASP rendszerhez a) a keretrendszer és a szakrendszerek igénybevételével (a továbbiakban: rendszercsatlakozás) vagy b) – az önkormányzati ASP rendszer által támogatott feladatok önálló informatikai támogatása mellett – az önkormányzati adattárház számára a 3. mellékletben meghatározott adatok átadását lehetővé tevő interfész kiépítésével (a továbbiakban: interfészes csatlakozás) csatlakozhat. (2) (3) Rendszercsatlakozás esetén a) a keretrendszer és a szakrendszer által támogatott feladatainak informatikai támogatását a helyi önkormányzat a keretrendszer és a szakrendszer útján látja el, b) a közös önkormányzati hivatalhoz tartozó minden helyi önkormányzat esetében a szakrendszerek használatának önkormányzatonkénti elkülönítését biztosítani kell, c) az általa használt szakrendszerekben tárolt adatok adatfelelőse a helyi önkormányzat. (4) Interfészes csatlakozás esetén a) az interfész kiépítéséhez szükséges fejlesztésekről a helyi önkormányzat saját erőből gondoskodik a Kincstár által meghatározott informatikai specifikációk alapján, b) az interfész technológiai megfelelőségét a csatlakozás előtt az e-közigazgatásért felelős miniszter ellenőrzi. (4a) Az interfészes csatlakozás a 3. melléklet szerinti adatoknak az önkormányzati adattárház számára történő automatizált elektronikus átadhatóságának biztosításával valósul meg. (4b) Az önkormányzati ASP rendszer működtetője interfészes csatlakozás esetén a csatlakozó önkormányzatnak a 3. § (2) bekezdés c) pontja szerinti szakrendszert biztosítja, ha az interfészes önkormányzat az arra vonatkozó igényét bejelenti a Kincstár felé. (4c) Az önkormányzati ASP rendszerhez interfészen keresztül csatlakozó önkormányzat a (4b) bekezdés szerinti igénybejelentését bármikor megteheti, azzal, hogy a szakrendszerhez való hozzáférés biztosításának kezdő időpontjáról, valamint annak módjáról a Kincstárral külön megállapodást köt. (5) Azon polgármesteri hivatal, illetve közös önkormányzati hivatali székhely esetében, ahol a Nemzeti Távközlési Gerinchálózat kiépítésre kerül, az önkormányzati ASP rendszerhez való csatlakozás ezen hálózaton keresztül valósul meg."
+    },
+    {
+      "provision_ref": "s6a",
+      "section": "6/A",
+      "title": "6/A. §",
+      "content": "6/A. § Azon önkormányzat esetében, ahol a polgármesteri hivatal vagy a közös önkormányzati hivatal, a nemzetiségi önkormányzat vagy az önkormányzati társulás számára olyan gazdálkodási, illetve adminisztrációs feladatot lát el, amelyet az önkormányzati ASP rendszer támogatni képes, e feladat ellátását az önkormányzat az önkormányzati ASP rendszer szakrendszerein keresztül is elláthatja."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § (1) Csatlakozását megelőzően a helyi önkormányzat szolgáltatási szerződést (a továbbiakban: szerződés) köt a Kincstárral. (2) A szerződésben a helyi önkormányzat vállalja, hogy a) – interfészes csatlakozás esetén – az interfész kiépítéséről gondoskodik, b) – rendszercsatlakozás esetén – a szerződés megkötésétől legkésőbb az első szakrendszerhez való csatlakozás időpontjáig tartó felkészülési idő alatt biztosítja az önkormányzati ASP rendszerhez történő csatlakozáshoz szükséges, a minimumkövetelményeknek való megfelelést, valamint azok folyamatos fenntartását; c) – a Kincstár útján, a helyi adókról szóló 1990. évi C. törvény (a továbbiakban: Htv.) 44. § (2) bekezdésével érintett helyi önkormányzatok esetében a Kincstár közreműködésével – gondoskodik az önkormányzati adórendszer esetében a csatlakozási időpontot megelőző, el nem évült adókötelezettségre vonatkozó adatállomány migrálásáról. (3) A szerződésben a Kincstár vállalja, hogy a csatlakozók önkormányzati ASP rendszerben tárolt adatai biztonságát technológiai és adminisztratív eszközökkel biztosítja és garantálja, hogy azokat csak törvényben meghatározott esetben, valamint a 3. § (2) bekezdés f) pontja szerinti szakrendszer kivételével, az e rendeletben meghatározott szerveknek teszi hozzáférhetővé. (4) (5) Az önkormányzati ASP rendszer szolgáltatásainak igénybevétele a helyi önkormányzat számára térítésmentes."
+    },
+    {
+      "provision_ref": "s7a",
+      "section": "7/A",
+      "title": "7/A. §",
+      "content": "7/A. § (1) A Kincstár a honlapján közzéteszi a rendszercsatlakozáshoz szükséges minimumkövetelményeket. (2) A Kincstár a minimumkövetelmények változását megelőzően legalább 180 nappal korábban köteles a változást és annak időpontját közzétenni."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § (1) A szerződés tartalmazza legalább a) a minimumkövetelmények, valamint a folyamatos működés biztosításához szükséges feladatok teljesítésének helyi önkormányzat általi vállalását, b) a helyi önkormányzat által igénybe vett szakrendszereket, ezek szolgáltatási szintjét, és a csatlakozási időpontot szakrendszerenként, c) a szolgáltatás igénybevételével kapcsolatos jogokat és kötelezettségeket, d) a kapcsolattartók adatait, e) az elektronikus ügyintézési szolgáltatások bevezetésére vonatkozó önkormányzati kötelezettségvállalást, f) az adatfeldolgozásra vonatkozó rendelkezéseket, valamint g) a csatlakozáshoz és az egyes szakrendszerek igénybevételéhez szükséges feladatok technikai, valamint informatikai meghatározását. (2) Az interfész kiépítése tekintetében kötött szerződésnek legalább a helyi önkormányzat 7. § (2) bekezdés a) pontja szerinti vállalását, valamint az (1) bekezdés a), c)–g) pontja szerinti elemeket kell tartalmaznia."
+    },
+    {
+      "provision_ref": "s8a",
+      "section": "8/A",
+      "title": "8/A. §",
+      "content": "8/A. § (1) Az önkormányzat vagy az önkormányzat társulása által alapított, gazdasági szervezettel a) rendelkező költségvetési szerv (a továbbiakban: önkormányzati költségvetési szerv) csatlakozására e § rendelkezéseit kell alkalmazni, b) nem rendelkező költségvetési szerv feladatellátását az önkormányzati ASP rendszer a csatlakozott önkormányzat vagy a csatlakozott önkormányzati költségvetési szerv útján támogatja. (2) Az önkormányzati költségvetési szerv csatlakozása önkéntes azzal, hogy ahhoz az alapító önkormányzat vagy önkormányzati társulás egyetértése is szükséges. (3) Az önkormányzati költségvetési szervnek – csatlakozását megelőzően – a minimumkövetelményeknek való megfelelést biztosítania kell. (4) Csatlakozását megelőzően az (1) bekezdés a) pontja szerinti önkormányzati költségvetési szerv szolgáltatási szerződést köt a Kincstárral. A szolgáltatási szerződés a) alapján az önkormányzati költségvetési szerv a 3. § (2) bekezdés d) pontja szerinti szakrendszerhez csatlakozik, illetve a 3. § (2) bekezdés a) pontja szerinti szakrendszerhez csatlakozhat, b) aláírója a Kincstár képviselője és az önkormányzati költségvetési szerv vezetője mellett az alapító önkormányzat polgármestere vagy önkormányzati társulás tanácsának elnöke, c) felmondási ideje három hónap, és csak a naptári év végével mondható fel. (5) Az önkormányzati ASP rendszer szolgáltatásainak igénybevétele az önkormányzati költségvetési szerv számára térítésmentes. (6) Az önkormányzati költségvetési szerv az önkormányzati ASP rendszerhez a csatlakozás kezdeményezését követő év január 1-jével csatlakozhat, a csatlakozást a megelőző év július 31-éig kezdeményezheti. Az önkormányzati költségvetési szerv a csatlakozás időpontjáról és módjáról a Kincstárral – ha az önkormányzati költségvetési szerv csatlakozása az önkormányzati ASP rendszerhez kötelezően csatlakozók ellátását nem veszélyezteti – megállapodik. (7) Az önkormányzati költségvetési szerv a (6) bekezdéstől eltérően az önkormányzati ASP rendszerhez – a Kincstárral kötött megállapodás alapján – év közben is csatlakozhat. A megállapodásnak tartalmaznia kell a csatlakozás időpontját és módját. A csatlakozás időpontját a Kincstár határozza meg a központi szolgáltató véleményének figyelembevételével."
+    },
+    {
+      "provision_ref": "s8b",
+      "section": "8/B",
+      "title": "8/B. §",
+      "content": "8/B. § (1) A térségi fejlesztési tanács – a feladatellátást végző költségvetési szerven keresztül – az önkormányzati ASP rendszerhez önként csatlakozhat. 64bek = (2) A csatlakozás tekintetében a 8/A. § rendelkezései irányadóak, azzal, hogy a szolgáltatási szerződés aláírója a Kincstár képviselője és a térségi fejlesztési tanács vezetője, továbbá a 8/A. § (2) bekezdését nem kell alkalmazni."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § (1) Az önkormányzati adattárház adattartalma a kormányzati és önkormányzati döntések előkészítését szolgálja. (2) Az önkormányzati adattárház működtetője a Kincstár. (3) Az önkormányzati adattárház adatainak forrása a) a szakrendszerekben képződött, b) a 6. § (1) bekezdés b) pontja szerinti interfészen átadott, valamint c) a Kincstár rendszereiben az önkormányzati körre vonatkozóan rendelkezésre álló személyes adatnak és adótitoknak nem minősülő, a 3. mellékletben meghatározott adat. (4) Az interfészen keresztül történő csatlakozás esetén a helyi önkormányzat a csatlakozást követően az önkormányzati adattárházba – a (3) bekezdésben foglaltakra figyelemmel – a 3. mellékletben meghatározott adatköröknek megfelelő adatokat köteles feltölteni. (5) Az önkormányzati adattárházba feltöltött adatok adatfelelőse – függetlenül attól, hogy interfésszel vagy rendszercsatlakozással csatlakozott az önkormányzati ASP rendszerhez – a rá vonatkozó adatok tekintetében a helyi önkormányzat, vagy az önkormányzati költségvetési szerv. (6) A Kincstár az önkormányzati adattárházban tárolt adatok tekintetében adatkezelői feladatokat lát el. Ennek keretében a Kincstár a) saját feladatainak ellátásához, b) az érintett helyi önkormányzat számára a saját álnevesített adatai, valamint a helyi önkormányzat és az önkormányzati érdekszövetségek számára más helyi önkormányzatok álnevesített adataiból összesített és átlagolt, így összehasonlításra és elemzésre alkalmas adatai vonatkozásában, c) a helyi önkormányzatokért, az adópolitikáért, az államháztartásért, valamint a gazdaságpolitikáért felelős miniszter, a Központi Statisztikai Hivatal és az Állami Számvevőszék számára jogszabályban rögzített feladataik ellátása céljából rendszeres és eseti adatlekérdezést, adatösszegzést és adatszolgáltatást végez. (7) Az önkormányzati adattárházban tárolt álnevesített adatok ismételt megszemélyesítését a saját adataik tekintetében kizárólag a helyi önkormányzatok végezhetik el."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § (1) Ez a rendelet a kihirdetését követő harmadik napon lép hatályba. (2)"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § (1) Az 5. § (3) bekezdése az Európai Unió működéséről szóló szerződés 106. cikke (2) bekezdésének az általános gazdasági érdekű szolgáltatások nyújtásával megbízott egyes vállalkozások javára közszolgáltatás ellentételezése formájában nyújtott állami támogatásra való alkalmazásáról szóló, 2011. december 20-i 2012/21/EU bizottsági határozat (HL L 7., 2012.1.11., 3. o.) hatálya alá tartozó támogatást tartalmaz. (2) Ez a rendelet a belső piaci szolgáltatásokról szóló 2006. december 12-i 2006/123/EK európai parlamenti és tanácsi irányelvnek való megfelelést szolgálja."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. § (1) A 2018. január 1. napjáig az önkormányzati ASP rendszerhez már csatlakozott önkormányzatokon túl a) b) 2019. június 1-jéig csatlakoznak az interfészes csatlakozók, a (2) bekezdésben meghatározott kivétellel. (2) Ha a helyi önkormányzat nem a Kincstár adófeldolgozó programrendszerét használja, akkor a 3. § (2) bekezdés f) pontja szerinti szakrendszerhez csak a Htv. 44. § (2) bekezdésében rögzített határnaptól csatlakozik; 2019. június 1-jétől azonban a 3. mellékletben foglalt táblázat 2. sora szerinti adatok teljes körének automatizált elektronikus átadását biztosítania kell az önkormányzati adattárház számára. (3) A 3. § (2) bekezdés b) pontja szerinti települési portál rendszer használata a helyi önkormányzat számára nem kötelező. A rendszer használatával vagy használatának mellőzésével kapcsolatos igényét a helyi önkormányzat évente egyszer, a tárgyévet megelőző év június 30-áig jelezheti a Kincstár számára. Az önkormányzati ASP rendszer a portálszolgáltatást az igény jelzését követő év január 1-jétől biztosítja vagy szünteti meg. A települési portál felületére feltöltött tartalmakért az önkormányzati települési portál rendszer igénybevétele esetén is a helyi önkormányzat felel. (4) (5) Az e §-ban megjelölt végső csatlakozási időpontnál korábbi csatlakozásra a Kincstár és a helyi önkormányzat megállapodása alapján kerülhet sor."
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. § (1) Interfésszel az a helyi önkormányzat csatlakozhat, amelynek interfészes csatlakozására az e-közigazgatásért felelős miniszter legkésőbb 2018. május 31-ig az engedélyt megadta. (2) (3) Ha az e-közigazgatásért felelős miniszter álláspontja szerint valószínűsíthető, hogy a teljes körű interfész kiépítésével a helyi önkormányzat a csatlakozási határidőre nem készül el, vagy az interfész technikai megvalósítása nem megfelelő, az e-közigazgatásért felelős miniszter az interfészes csatlakozáshoz történő hozzájárulását visszavonja. Ebben az esetben a helyi önkormányzat rendszercsatlakozással csatlakozik az önkormányzati ASP rendszerhez. A rendszercsatlakozás időpontjára a (7) bekezdést kell alkalmazni. (4) Az interfésszel csatlakozó helyi önkormányzatok a 3. mellékletben foglalt táblázat 1. sora szerinti, a 2018. évre vonatkozó végleges adataikat a Kincstár által meghatározott interfész-specifikációnak megfelelően 2019. augusztus 1-jéig az önkormányzati adattárházba feltöltik. (5) A (4) bekezdésben megjelölt időpontig a 2017. és 2018. évben rendszercsatlakozással csatlakozott helyi önkormányzatok 2018. évre vonatkozó végleges adatainak adattárházba töltését is el kell végezni. (6) (7) 2019. június 1-jét követően az interfésszel csatlakozott helyi önkormányzat az e-közigazgatásért felelős miniszternél kezdeményezheti a rendszercsatlakozásra történő csatlakozást. A rendszercsatlakozás időpontját az e-közigazgatásért felelős miniszter – a helyi önkormányzatokért felelős miniszter véleményének beszerzését követően – a Kincstárral együtt állapítja meg. (8) A Kincstár – a 3. melléklet szerinti adatok nyilvántartását szabályozó előírások 2019. évi módosításokhoz kapcsolódó adatstruktúra-változásokat is figyelembe véve – az interfész-specifikáció teljes körű, végleges változatát legkésőbb 2019. március 15-ig az érintett önkormányzatok rendelkezésére bocsátja."
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14. §",
+      "content": "14. § (1) Az önkormányzati ASP központról és a közfeladatot ellátó szervek iratkezelésének általános követelményeiről szóló 335/2005. (XII. 29.) Korm. rendelet módosításáról szóló 62/2015. (III. 24.) Korm. rendelet alapján az önkormányzati ASP központhoz csatlakozott önkormányzatokat e rendelet alkalmazásában csatlakozott önkormányzatnak kell tekinteni. (2) Az Mötv. 114. § (3) bekezdése alkalmazásában a csatlakozás végső időpontjának a rendszercsatlakozás határidejét kell tekinteni. (3) A Htv. 44. §-a alkalmazásában az önkormányzati ASP rendszer önkormányzati adórendszerét a Kincstár által rendelkezésre bocsátott számítógépes programrendszernek kell tekinteni. (4) A csatlakozási időpontot megelőző év vonatkozásában a zárási, évváltási, adatszolgáltatási és beszámolási feladatokat a korábban alkalmazott szoftverrel kell elvégezni."
+    },
+    {
+      "provision_ref": "s14a",
+      "section": "14/A",
+      "title": "14/A. §",
+      "content": "14/A. §"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15. §",
+      "content": "15. §"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16. §",
+      "content": "16. §"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17. §",
+      "content": "17. § Ha a szerződés a csatlakozási határidőig a helyi önkormányzat mulasztása miatt nem lép hatályba, a Kincstár a mulasztásról a törvényességi felügyeleti eljárás lefolytatása érdekében – az Mötv. 132. § (1) bekezdés e) pontjára tekintettel – értesíti a fővárosi és megyei kormányhivatalt."
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18. §",
+      "content": "18. § E rendelet alapján az önkormányzati ASP rendszerhez csatlakozott önkormányzat tekintetében az 1. § 3a. pontja szerinti központi elektronikus ügyintézési szolgáltatáshoz csatlakozott szervezet a Kincstár, amely az informatikai rendszerén keresztül biztosítja az elektronikus fizetési és elszámolási rendszer szolgáltatásaihoz szükséges fizetési feltételeket."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "§ E rendelet alkalmazásában",
+      "definition": "1. alapinfrastruktúra: az önkormányzati ASP rendszer működését biztosító adatközponti és hálózati informatikai infrastruktúra, valamint a szakrendszeri átjárhatóságot és a külső rendszerkapcsolatok kiépítésének lehetőségét biztosító integrációs platformszolgáltatás",
+      "source_provision": "s1"
+    },
+    {
+      "term": "interfész",
+      "definition": "adatok automatizált módon, elektronikus úton történő átadását lehetővé tevő kapcsolódási felület",
+      "source_provision": "s1"
+    },
+    {
+      "term": "önkormányzati ASP rendszer",
+      "definition": "az önkormányzati feladatellátást támogató, számítástechnikai hálózaton keresztül távoli alkalmazásszolgáltatást (Application Service Provider, ASP) nyújtó elektronikus információs rendszer",
+      "source_provision": "s1"
+    },
+    {
+      "term": "rendszertámogatás",
+      "definition": "a fejlesztési időszakot követő hibajavítás, verziófrissítés, jogszabálykövetés",
+      "source_provision": "s1"
+    },
+    {
+      "term": "szakrendszer",
+      "definition": "az önkormányzati ASP rendszer által nyújtott, igazgatási feladatokat támogató szakalkalmazás",
+      "source_provision": "s1"
+    },
+    {
+      "term": "ügyféltámogatás",
+      "definition": "a működéssel kapcsolatos felhasználói segítségkérelmek megválaszolása.",
+      "source_provision": "s1"
+    }
+  ]
+}
