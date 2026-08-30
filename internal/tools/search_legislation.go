@@ -9,6 +9,7 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
+	"sort"
 	"strings"
 
 	"github.com/ryzen3100/magyar-jogszabaly-mcp/v2/internal/fts"
@@ -140,6 +141,17 @@ func runSearch(ctx context.Context, db *sql.DB, args searchArgs) (any, ResponseM
 	// final deduped rows — snippet over every match dominates high-fanout
 	// queries. Phase B reuses the SAME MATCH expression (plain-rowid lookup
 	// loses highlight context); never re-MATCH unbounded.
+	//
+	// Tier merging: the first tier with any hit is NOT returned immediately —
+	// on the 14.7k-document corpus the AND tiers match generic table-like
+	// provisions (appendix lists full of numbers) that bury the regulating
+	// provision plain bm25 ranks first. Instead every non-phrase tier feeds
+	// a candidate pool, the pool is re-ranked by distinct query-term matches
+	// (then tier specificity, then bm25), and only that final ranking is
+	// returned. The exact-phrase tier keeps its early exit: a phrase hit is
+	// the best possible precision.
+	candidates := map[string]tierCandidate{} // key: documentTitle::provisionRef
+
 	for i, ftsQuery := range variants {
 		query := searchRankSQL
 		params := []any{ftsQuery}
@@ -166,46 +178,126 @@ func runSearch(ctx context.Context, db *sql.DB, args searchArgs) (any, ResponseM
 			cleanTierRan = true
 			continue
 		}
-
-		deduped := dedupeRanked(ranked, limit)
-		snippets, err := fetchSnippets(ctx, db, ftsQuery, deduped)
-		if err != nil {
-			lastErr = err
-			continue // same TS try block: a phase-B failure tries the next variant
+		if i == 0 {
+			return finishSearch(ctx, db, ftsQuery, dedupeRanked(ranked, limit), limit, "")
 		}
 
-		results := make([]SearchLegislationResult, 0, len(deduped))
-		for _, row := range deduped {
-			res := toResult(row)
-			if snippet, ok := snippets[row.provisionID]; ok {
-				res.Snippet = snippet
+		for _, row := range ranked {
+			key := row.documentTitle + "::" + row.provisionRef
+			if c, ok := candidates[key]; !ok || row.relevance < c.row.relevance {
+				candidates[key] = tierCandidate{row: row, tier: i, fts: ftsQuery}
 			}
-			results = append(results, res)
 		}
-
-		meta := GenerateResponseMetadata(ctx, db)
-		if i > 0 { // winning variant is not variant 0 → 'broadened'
-			meta.QueryStrategy = "broadened"
-		}
-		return results, meta, nil
 	}
 
-	// LIKE fallback — final tier when FTS5 returns no results
-	results, meta, likeErr := runLikeFallback(ctx, db, args, resolvedDocID, limit, fetchLimit)
-	if likeErr != nil {
-		lastErr = likeErr
+	if len(candidates) == 0 {
+		// LIKE fallback — final tier when FTS5 returns no results
+		results, meta, likeErr := runLikeFallback(ctx, db, args, resolvedDocID, limit, fetchLimit)
+		if likeErr != nil {
+			lastErr = likeErr
+		} else {
+			cleanTierRan = true
+		}
+		if likeErr == nil && results != nil {
+			return results, meta, nil
+		}
+
+		meta = GenerateResponseMetadata(ctx, db)
+		if lastErr != nil && !cleanTierRan {
+			meta.Note = "search degraded: all query tiers failed"
+		}
+		return []SearchLegislationResult{}, meta, nil
+	}
+
+	// Re-rank the merged pool by distinct query-term matches.
+	pool := make([]tierCandidate, 0, len(candidates))
+	for _, c := range candidates {
+		pool = append(pool, c)
+	}
+	counts, err := fts.TermMatchCounts(ctx, db, fts.QueryTerms(fts.SanitizeInput(*args.Query)),
+		poolRowIDs(pool))
+	if err != nil {
+		lastErr = err
 	} else {
-		cleanTierRan = true
-	}
-	if likeErr == nil && results != nil {
-		return results, meta, nil
+		sort.SliceStable(pool, func(i, j int) bool {
+			a, b := pool[i], pool[j]
+			ca, cb := counts[a.row.provisionID], counts[b.row.provisionID]
+			if ca != cb {
+				return ca > cb
+			}
+			if a.tier != b.tier {
+				return a.tier < b.tier
+			}
+			return a.row.relevance < b.row.relevance
+		})
 	}
 
-	meta = GenerateResponseMetadata(ctx, db)
-	if lastErr != nil && !cleanTierRan {
-		meta.Note = "search degraded: all query tiers failed"
+	bestTier := 0
+	deduped := make([]rankedRow, 0, limit)
+	seen := map[string]bool{}
+	for _, c := range pool {
+		key := c.row.documentTitle + "::" + c.row.provisionRef
+		if seen[key] {
+			continue
+		}
+		seen[key] = true
+		deduped = append(deduped, c.row)
+		if bestTier == 0 || c.tier < bestTier {
+			bestTier = c.tier
+		}
+		if len(deduped) >= limit {
+			break
+		}
 	}
-	return []SearchLegislationResult{}, meta, nil
+
+	strategy := ""
+	if bestTier > 0 {
+		strategy = "broadened"
+	}
+	return finishSearch(ctx, db, pool[0].fts, deduped, limit, strategy)
+}
+
+// finishSearch shapes a final ranked row set: snippets (phase B, same MATCH
+// expression), JSON mapping and response metadata. strategy is the
+// query_strategy override ("" = unset, "broadened").
+func finishSearch(ctx context.Context, db *sql.DB, ftsQuery string, deduped []rankedRow, limit int, strategy string,
+) (any, ResponseMetadata, error) {
+	if len(deduped) > limit {
+		deduped = deduped[:limit]
+	}
+	snippets, err := fetchSnippets(ctx, db, ftsQuery, deduped)
+	if err != nil {
+		return nil, ResponseMetadata{}, fmt.Errorf("fetch snippets: %w", err)
+	}
+	results := make([]SearchLegislationResult, 0, min(len(deduped), limit))
+	for _, row := range deduped {
+		res := toResult(row)
+		if snippet, ok := snippets[row.provisionID]; ok {
+			res.Snippet = snippet
+		}
+		results = append(results, res)
+	}
+	meta := GenerateResponseMetadata(ctx, db)
+	meta.QueryStrategy = strategy
+	return results, meta, nil
+}
+
+// tierCandidate is one merged-tier candidate row: which variant produced it
+// (tier 0 is the exact-phrase tier) and that variant's MATCH expression, kept
+// for the phase-B snippet query.
+type tierCandidate struct {
+	row  rankedRow
+	tier int
+	fts  string
+}
+
+// poolRowIDs returns the provision rowids of a candidate pool, in pool order.
+func poolRowIDs(pool []tierCandidate) []int64 {
+	ids := make([]int64, 0, len(pool))
+	for _, c := range pool {
+		ids = append(ids, c.row.provisionID)
+	}
+	return ids
 }
 
 // runLikeFallback is the final tier when FTS5 returns no results: a plain

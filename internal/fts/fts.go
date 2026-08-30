@@ -5,6 +5,9 @@
 package fts
 
 import (
+	"context"
+	"database/sql"
+	"fmt"
 	"regexp"
 	"strings"
 	"unicode/utf8"
@@ -154,6 +157,55 @@ func filterStopWords(terms []string) []string {
 		return terms // all function words — search them as typed
 	}
 	return kept
+}
+
+// QueryTerms returns the sanitized query's terms after stop-word filtering —
+// the same term list BuildQueryVariants builds its variants from. Used by the
+// search tool to score candidate rows by distinct term matches.
+func QueryTerms(sanitized string) []string {
+	return filterStopWords(strings.Fields(sanitized))
+}
+
+// TermMatchCounts counts, per provision rowid, how many of the query terms
+// match it in the FTS index (prefix match, so base-form terms hit inflected
+// corpus tokens). Candidates the term-count query cannot see (deleted rows,
+// LIKE-tier hits) simply score 0.
+func TermMatchCounts(ctx context.Context, db *sql.DB, terms []string, rowIDs []int64) (map[int64]int, error) {
+	counts := make(map[int64]int, len(rowIDs))
+	if len(terms) == 0 || len(rowIDs) == 0 {
+		return counts, nil
+	}
+	placeholders := strings.TrimSuffix(strings.Repeat("?,", len(rowIDs)), ",")
+	for _, term := range terms {
+		if strings.HasSuffix(term, "*") {
+			term = strings.TrimSuffix(term, "*")
+		}
+		params := make([]any, 0, len(rowIDs)+1)
+		params = append(params, term+"*")
+		for _, id := range rowIDs {
+			params = append(params, id)
+		}
+		rows, err := db.QueryContext(ctx,
+			"SELECT DISTINCT rowid FROM provisions_fts WHERE provisions_fts MATCH ? AND rowid IN ("+placeholders+")",
+			params...)
+		if err != nil {
+			return nil, fmt.Errorf("term match count: %w", err)
+		}
+		for rows.Next() {
+			var id int64
+			if err := rows.Scan(&id); err != nil {
+				rows.Close()
+				return nil, fmt.Errorf("scan term match: %w", err)
+			}
+			counts[id]++
+		}
+		err = rows.Err()
+		rows.Close()
+		if err != nil {
+			return nil, fmt.Errorf("iterate term match: %w", err)
+		}
+	}
+	return counts, nil
 }
 
 // Light Hungarian query stemming: strips ONE common suffix from a term so

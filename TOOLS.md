@@ -27,6 +27,9 @@ Full-text search across all Hungarian statutes and regulations.
   are ignored, every term is prefix-matched, and common inflection suffixes are
   stemmed as a fallback tier), but keyword-style queries rank better.
 - 2–4 content words beat full sentences.
+- Results are merged across query tiers and re-ranked by how many query terms
+  each provision matches, so a provision matching most of the question beats
+  one matching a single generic word.
 - Boolean operators (`AND`, `OR`, `NOT`) and trailing `*` prefixes are supported.
 - Reverse case: `search_eu_implementations` searches **English** EU document titles.
 
