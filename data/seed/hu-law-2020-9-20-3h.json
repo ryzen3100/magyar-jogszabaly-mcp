@@ -1,0 +1,107 @@
+{
+  "id": "hu-law-2020-9-20-3h",
+  "type": "statute",
+  "title": "9/2020. (XII. 10.) NMHH rendelet a nagy sebességű elektronikus hírközlő hálózatok felmérésének részletes szabályairól",
+  "status": "in_force",
+  "in_force_date": "2020-12-21",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2020-9-20-3H",
+  "description": "a nagy sebességű elektronikus hírközlő hálózatok felmérésének részletes szabályairól",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § E rendelet hatálya az elektronikus hírközlési szolgáltatóra terjed ki."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § E rendelet alkalmazásában 1. adatszolgáltató: mobil, illetve helyhez kötött internet-hozzáférés szolgáltatás nyújtására alkalmas elektronikus hírközlő hálózaton az időszakos adatszolgáltatás időpontját megelőző naptári évben internet-hozzáférés szolgáltatást nyújtó elektronikus hírközlési szolgáltató vagy ilyen hálózaton az időszakos adatszolgáltatás benyújtásának naptári évében internet-hozzáférés szolgáltatás nyújtását tervező elektronikus hírközlési szolgáltató, valamint a helyhez kötött internet-hozzáférés szolgáltatás nyújtására alkalmas elektronikus hírközlő hálózatot üzemeltető elektronikus hírközlési szolgáltató; 2. címhely: településre, utcára, házszámra kiterjedő címadattal vagy helyrajzi számmal meghatározott ingatlan; 3. elérhető címhely: olyan címhely, ahol a helyhez kötött internet-hozzáférés szolgáltatás nyújtása az erre irányuló igénybejelentéstől számított 30 napon belül megkezdhető; 4. ellátatlan terület: a jegyzékben meghatározott olyan terület, ahol rendkívül nagy kapacitású vagy legalább 100 Mbit/s letöltési sebességre alkalmas hálózat az időszakos adatszolgáltatás időpontját megelőző naptári év utolsó napján nem elérhető, és ilyen hálózat várhatóan az időszakos adatszolgáltatás benyújtásának évében sem válik elérhetővé; 5. jegyzék: az ellátatlan területeket tartalmazó lista és annak térképes megjelenítése; 6. kiépített címhely: olyan címhely, amely legalább egy kiépített, helyhez kötött internet-hozzáférés szolgáltatás igénybevételét lehetővé tevő előfizetői hozzáférési ponttal rendelkezik; 7. legalább 100 Mbit/s letöltési sebességre alkalmas hálózat: olyan elektronikus hírközlő hálózat, ahol a) a mobil internet-hozzáférés szolgáltatás tekintetében az előfizetők által elérhető jellemző letöltési sebesség legalább 100 Mbit/s, vagy b) a helyhez kötött internet-hozzáférés szolgáltatás tekintetében az előfizetők által elérhető maximális letöltési sebesség legalább 100 Mbit/s; 8. rendkívül nagy kapacitású hálózat: az elektronikus hírközlésről szóló 2003. évi C. törvény (a továbbiakban: Eht.) 188. § 116. pontja szerinti hálózat; 9. szélessávú szolgáltatás nyújtására alkalmas hálózat: olyan elektronikus hírközlő hálózat, ahol az internet-hozzáférés szolgáltatás tekintetében az előfizetők által elérhető maximális letöltési sebesség legalább 2 Mbit/s."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) A Nemzeti Média- és Hírközlési Hatóság (a továbbiakban: Hatóság) elnöke (a továbbiakban: Elnök) a 6. § (2) bekezdése szerint szolgáltatott adatok alapján felméri Magyarország szélessávú szolgáltatás nyújtására alkalmas hálózatokkal való lefedettségét. (2) Az Elnök az (1) bekezdés szerinti földrajzi felmérés keretében a 6. § (2) és (3) bekezdése szerinti adatszolgáltatás adatai alapján az időszakos adatszolgáltatás benyújtásának naptári évére vonatkozó előretekintő elemzést végez a rendkívül nagy kapacitású vagy legalább 100 Mbit/s letöltési sebességre alkalmas hálózatok várható jövőbeli lefedettségére, kiterjedésére, továbbá az ilyen hálózatok kiépítésére vonatkozó beruházási tervekkel kapcsolatos információkra, valamint az ellátatlan területekre vonatkozóan. (3) Az (1) és (2) bekezdés szerinti felmérés során az Elnök figyelembe veszi az adatszolgáltató által szolgáltatott adatokon kívül a Hatóság hatósági és nem hatósági feladatai ellátásával összefüggésben rendelkezésére álló adatokat is, így különösen a Hatóság nyilvántartásaiban szereplő adatokat, a Hatóság hatósági feladatai ellátása során elvégzett mérések eredményeit, továbbá az adatszolgáltató által hatósági eljárásban szolgáltatott adatokat, ha azokat az adatszolgáltató a Hatóság kötelező döntése vagy jogszabályban előírt – a Hatóság erre irányuló külön döntése nélküli – adatszolgáltatási kötelezettség alapján szolgáltatta. (4) Az Elnök a földrajzi felmérés eredményeként azonosítja az ellátatlan területeket."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) Az Elnök a 3. § szerinti földrajzi felmérés alapján minden naptári év december 21-ig jegyzéket készít. A Hatóság a jegyzéket a honlapján közzéteszi. (2) A jegyzékben szereplő ellátatlan területek vonatkozásában az Elnök hirdetményben közzétett felhívása alapján bármely adatszolgáltató – a hirdetményben megjelölt adatok megadásával – bejelentheti valamely ellátatlan terület rendkívül nagy kapacitású hálózattal vagy legalább 100 Mbit/s letöltési sebességre alkalmas hálózattal történő lefedésére vagy a meglévő hálózatának ilyen irányú továbbfejlesztésére vonatkozó szándékát (a továbbiakban: tervezett építési tevékenység). (3) Ha valamely adatszolgáltató egy ellátatlan területre vonatkozóan tervezett építési tevékenységet jelent be a (2) bekezdés alapján, az Elnök az adott területre ismételten hirdetményt tehet közzé, amely alapján bármely adatszolgáltató – a hirdetményben megjelölt adatok megadásával – jelezheti az adott ellátatlan területre vonatkozó tervezett építési tevékenységét. (4) Ha a jegyzékben szereplő valamely ellátatlan terület vonatkozásában valamely adatszolgáltató a (2) és (3) bekezdés szerint tervezett építési tevékenységet jelent be, az Elnök módosítja a jegyzékben szereplő adatokat, információkat."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § A Hatóság a földrajzi felmérés alapján előálló, a hálózatok elérhetőségére, így különösen a technológiára, lefedettségre és elérhető sebességre vonatkozó információkat – a törvény által védett titkok kivételével – területi bontásban évente közzéteszi honlapján, ha megállapítható, hogy nem áll a végfelhasználók rendelkezésére a szolgáltatók közötti választást elősegítő egyetlen olyan eszköz sem, amely kellő részletezettségű, és az elérhető sávszélességet Magyarország valamennyi településére kiterjedően bemutatja."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § (1) Az adatszolgáltató – az Elnök erre irányuló külön felhívása vagy döntése nélkül – minden naptári év március 31. napjáig köteles megküldeni az Elnöknek az adatszolgáltatás időpontját megelőző, valamint az adatszolgáltatás benyújtásának naptári évére vonatkozó, (2) és (3) bekezdés szerinti adatokat. A meglévő hálózatra vonatkozó adatokat az adatszolgáltatás időpontját megelőző naptári év utolsó napján fennálló állapotnak megfelelően, a tervezett hálózatra vonatkozó adatokat az adatszolgáltatás naptári évének utolsó napjára tervezett állapot szerint kell benyújtani. (2) Az adatszolgáltató a szélessávú szolgáltatás nyújtására alkalmas hálózatra vonatkozóan a (6) bekezdés szerinti elektronikus űrlapon szereplő bontásban az alábbi adatokat köteles benyújtani: a) mobil rádiótelefon-hálózat esetén területi egységenként aa) a technológiát, ab) a hálózati lefedettséget, ac) az átviteli sebességet és ad) a rádióállomás bekötésének módját; b) helyhez kötött elektronikus hírközlő hálózat esetén címhelyenként megjelölve ba) a címhely lefedettségét: vezetékes hálózat esetén jelölve, hogy a címhely elérhető, illetve kiépített címhely-e, bb) az átviteli közeget, bc) a technológiát, bd) a címhely típusát az előfizetés jellegének megfelelően, be) a címhelyen aktivált szolgáltatással rendelkező előfizetői hozzáférési pontok számát és bf) az átviteli sebességet. (3) Az adatszolgáltató az adatszolgáltatás benyújtásának naptári évében tervezett hálózattal összefüggésben a (2) bekezdés a) pont aa), ac) és ad) alpontjában, b) pont bb) és bc) alpontjában meghatározott adatokat a (6) bekezdés szerinti elektronikus űrlapon szereplő bontásban köteles adatszolgáltatásában benyújtani. (4) (5) (6) Az Elnök a (2) és (3) bekezdés szerinti adatszolgáltatásra elektronikus űrlapot rendszeresít, amelyet az adatszolgáltatási kötelezettség teljesítésére meghatározott határidő kezdete előtt legalább 60 nappal közzétesz a Hatóság internetes honlapján. Az adatszolgáltató az e § szerinti adatszolgáltatási kötelezettségét elektronikus űrlap kitöltésével köteles teljesíteni. A Hatóság az adatszolgáltatás teljesítéséhez szükséges pontos meghatározásokat, részletes műszaki paramétereket és az elektronikus űrlaphoz benyújtandó dokumentumok listáját közzéteszi a honlapján. (7) Ha az adatszolgáltatónak a (3) bekezdés szerint benyújtott, a tervezett hálózatra vonatkozó adatai a soron következő (1) és (2) bekezdés szerinti adatszolgáltatásban nem jelennek meg a meglévő hálózatra vonatkozó adatok között, akkor az Elnök szükség szerint módosítja a jegyzéket. (8) Ha az adatszolgáltató a 4. § (2) és (3) bekezdése szerinti hirdetmény alapján valamely területre tervezett építési tevékenységet jelentett be, és – a hirdetményben a vállalásokra meghatározott időtartam lejártát követő – az (1) és (2) bekezdés szerinti első adatszolgáltatásában az adott terület vonatkozásában nem jelenik meg az építési tevékenységhez köthető adat a meglévő hálózatra vonatkozó adatok között, akkor az Elnök szükség szerint módosítja a jegyzéket. (9) Az adatszolgáltatás során az adatszolgáltató felelős az adat tartalmának megfelelőségéért, időszerűségéért, hitelességéért, pontosságáért, ellenőrizhetőségéért és helyességéért. (10) Az e rendelet szerinti adatszolgáltatási kötelezettség teljesítését az Elnök általános hatósági felügyeleti eljárás keretében ellenőrzi. (11) Ha az Elnök az általános hatósági felügyeleti eljárásban a 4. § (2) és (3) bekezdése szerinti bejelentés tartalmának megfelelőségével összefüggésben jogsértést állapít meg, akkor az Eht. szerinti jogkövetkezményeket csak akkor alkalmazhatja, ha megállapítja, hogy az adatszolgáltató a bejelentésében tudatosan vagy súlyos gondatlanságból nyújtott be megtévesztő, téves vagy hiányos adatokat. A jogkövetkezmény alkalmazásánál az Eht. 49. § (2) bekezdése szerinti szempontokon túl figyelembe kell venni azt is, hogy az adatszolgáltató megvalósította-e a tervezett építési tevékenységet, illetve a kiépítési tervei megváltoztatását objektív módon indokolta-e."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § Ez a rendelet 2020. december 21-én lép hatályba."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § (1) Az adatszolgáltatóknak a 6. § szerinti időszakos adatszolgáltatást első alkalommal 2023. szeptember 30-ig kell teljesíteni. A meglévő elektronikus hírközlő hálózatra vonatkozó adatokat első alkalommal a 2023. június 30-án fennálló állapotnak megfelelően, a tervezett elektronikus hírközlő hálózatra vonatkozó adatokat 2023. december 31. napjára tervezett állapot szerint kell benyújtani. (2) Az Elnök az 4. § (1) bekezdése szerinti jegyzéket első alkalommal 2023. december 21-ig készíti el."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § Ez a rendelet az Európai Elektronikus Hírközlési Kódex létrehozásáról szóló, 2018. december 11-i (EU) 2018/1972 európai parlamenti és tanácsi irányelv 22. és 29. cikkének való megfelelést szolgálja. 1 A 2. § a 2/2023. (II. 27.) NMHH rendelet 1. §-ával megállapított szöveg. 2 A 2. § 1. pontja a 2/2026. (II. 12.) NMHH rendelet 1. § (1) bekezdésével megállapított szöveg. 3 A 2. § 2. pontja a 2/2026. (II. 12.) NMHH rendelet 1. § (1) bekezdésével megállapított szöveg. 4 A 2. § 6. pontja a 2/2026. (II. 12.) NMHH rendelet 1. § (2) bekezdésével megállapított szöveg. 5 A 2. § 7. pontja a 2/2026. (II. 12.) NMHH rendelet 1. § (2) bekezdésével megállapított szöveg. 6 A 3. § (2) bekezdése a 2/2026. (II. 12.) NMHH rendelet 3. § 1. pontja szerint módosított szöveg. 7 A 6. § (2) bekezdése a 2/2023. (II. 27.) NMHH rendelet 2. §-ával megállapított szöveg. 8 A 6. § (2) bekezdés a) pont aa) alpontja a 2/2026. (II. 12.) NMHH rendelet 3. § 2. pontja szerint módosított szöveg. 9 A 6. § (2) bekezdés b) pont bc) alpontja a 2/2026. (II. 12.) NMHH rendelet 3. § 3. pontja szerint módosított szöveg. 10 A 6. § (3) bekezdése a 2/2026. (II. 12.) NMHH rendelet 2. § (1) bekezdésével megállapított szöveg. 11 A 6. § (4) bekezdését a 2/2026. (II. 12.) NMHH rendelet 4. §-a hatályon kívül helyezte. 12 A 6. § (5) bekezdését a 2/2026. (II. 12.) NMHH rendelet 4. §-a hatályon kívül helyezte. 13 A 6. § (7) bekezdése a 2/2026. (II. 12.) NMHH rendelet 2. § (2) bekezdésével megállapított szöveg. 14 A 6. § (8) bekezdése a 2/2026. (II. 12.) NMHH rendelet 2. § (2) bekezdésével megállapított szöveg. 15 A 6. § (11) bekezdése a 2/2026. (II. 12.) NMHH rendelet 3. § 4. pontja szerint módosított szöveg. 16 A 8. § (1) bekezdése a 2/2023. (II. 27.) NMHH rendelet 3. §-ával megállapított szöveg."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "címhely",
+      "definition": "településre, utcára, házszámra kiterjedő címadattal vagy helyrajzi számmal meghatározott ingatlan",
+      "source_provision": "s2"
+    },
+    {
+      "term": "elérhető címhely",
+      "definition": "olyan címhely, ahol a helyhez kötött internet-hozzáférés szolgáltatás nyújtása az erre irányuló igénybejelentéstől számított 30 napon belül megkezdhető",
+      "source_provision": "s2"
+    },
+    {
+      "term": "ellátatlan terület",
+      "definition": "a jegyzékben meghatározott olyan terület, ahol rendkívül nagy kapacitású vagy legalább 100 Mbit/s letöltési sebességre alkalmas hálózat az időszakos adatszolgáltatás időpontját megelőző naptári év utolsó napján nem elérhető, és ilyen hálózat várhatóan az időszakos adatszolgáltatás benyújtásának évében sem válik elérhetővé",
+      "source_provision": "s2"
+    },
+    {
+      "term": "jegyzék",
+      "definition": "az ellátatlan területeket tartalmazó lista és annak térképes megjelenítése",
+      "source_provision": "s2"
+    },
+    {
+      "term": "kiépített címhely",
+      "definition": "olyan címhely, amely legalább egy kiépített, helyhez kötött internet-hozzáférés szolgáltatás igénybevételét lehetővé tevő előfizetői hozzáférési ponttal rendelkezik",
+      "source_provision": "s2"
+    },
+    {
+      "term": "legalább 100 Mbit/s letöltési sebességre alkalmas hálózat",
+      "definition": "olyan elektronikus hírközlő hálózat, ahol a) a mobil internet-hozzáférés szolgáltatás tekintetében az előfizetők által elérhető jellemző letöltési sebesség legalább 100 Mbit/s, vagy b) a helyhez kötött internet-hozzáférés szolgáltatás tekintetében az előfizetők által elérhető maximális letöltési sebesség legalább 100 Mbit/s",
+      "source_provision": "s2"
+    },
+    {
+      "term": "rendkívül nagy kapacitású hálózat",
+      "definition": "az elektronikus hírközlésről szóló 2003. évi C. törvény (a továbbiakban: Eht.) 188. § 116. pontja szerinti hálózat",
+      "source_provision": "s2"
+    },
+    {
+      "term": "szélessávú szolgáltatás nyújtására alkalmas hálózat",
+      "definition": "olyan elektronikus hírközlő hálózat, ahol az internet-hozzáférés szolgáltatás tekintetében az előfizetők által elérhető maximális letöltési sebesség legalább 2 Mbit/s.",
+      "source_provision": "s2"
+    }
+  ]
+}

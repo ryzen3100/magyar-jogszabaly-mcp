@@ -1,0 +1,863 @@
+{
+  "id": "hu-law-2008-9-b0-2k",
+  "type": "statute",
+  "title": "9/2008. (IX. 25.) NFGM utasítás a Nemzeti Fejlesztési és Gazdasági Minisztérium Informatikai Fejlesztési Szabályzatáról",
+  "status": "repealed",
+  "in_force_date": "2008-09-26",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2008-9-B0-2K",
+  "description": "A Nemzeti Fejlesztési és Gazdasági Minisztérium Informatikai Fejlesztési Szabályzatáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "1. A szabályzat célja"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "A miniszteri utasítás célja a Nemzeti Fejlesztési és Gazdasági Minisztérium (NFGM) informatikai rendszerét érintő fejlesztések szabályozott, projekt szemléletű irányításának, dokumentálhatóságának, nyomon követhetőségének, ellenőrizhetőségének kialakítása egy átfogó szabályozási keret segítségével."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "A fejlesztések szabályozott egységes rendszerben történő kezelése a folyamatok szabályozásával valósul meg:"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "a) Informatikai éves munkaterv (fejlesztési terv)"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "b) Fejlesztési igények keletkezése, kezelése"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "c) Fejlesztések kivitelezése, kapcsolódó szolgáltatások"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "d) Fejlesztésekhez kapcsolódó dokumentációs rend"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "e) Szervezeti működés"
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "A miniszteri utasítás célja továbbá a fejlesztések során alkalmazott fogalmak egységesített használata, azok fogalomtárban történő meghatározása."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "2. A miniszteri utasítás hatálya"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "2.1. A miniszteri utasítás személyi hatálya"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "A miniszteri utasítás személyi hatálya kiterjed a Nemzeti Fejlesztési és Gazdasági Minisztérium (NFGM) informatikai rendszerének minden felhasználójára. A jelen utasításban megfogalmazott, informatikai fejlesztési tevékenységben részt vevő szerződéses jogviszonyban álló személyekre, szervezetekre vonatkozó kötelezettségeket a hatályos szerződéseken keresztül kell érvényesíteni, hivatkozva jelen szabályzat által előírt és kötelezően betartandó követelményekre. A jelen utasítás rendelkezéseinek teljes körű és értelemszerű alkalmazása az NFGM valamennyi szervezeti egységére nézve kötelező, az NFGM felügyelete alá tartozó szerv(ek) számára pedig iránymutató."
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "2.2. A miniszteri utasítás tárgyi hatálya"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "Jelen utasítás tárgyi hatálya kiterjed minden a minisztérium informatikai rendszerét érintő fejlesztésre."
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "Az utasítás nem terjed ki a projektszerű működés elveinek, elvárásainak leírására, valamint a fejlesztésekhez szükséges szerződések megkötésének, valamint teljesítésének módjára."
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "Az NFGM IT egyedi Szolgáltatási megállapodásai tartalmazzák a részletes feladat- és felelősségmegosztást IT-fejlesztések tekintetében. Jelen dokumentum erre külön nem tér ki."
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "2.3. A miniszteri utasítás területi hatálya"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "A jelen utasítás rendelkezéseinek teljes körű és értelemszerű alkalmazása az NFGM valamennyi telephelyén elhelyezett valamennyi szervezeti egységére nézve kötelező."
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "3. Jogszabályi és szabályozási háttér"
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "a) A közbeszerzésekről szóló 2003. évi CXXIX. törvény – Célja a közpénzek ésszerű felhasználásának átláthatósága és széles körű ellenőrizhetőségének megteremtése, valamint a közbeszerzések során a verseny tisztaságának biztosítása."
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "b) A 2003. évi XXIV. törvénynek a közpénzek felhasználásával, a köztulajdon használatának nyilvánosságával, átláthatóbbá tételével és ellenőrzésének bővítésével összefüggő egyes törvények módosításáról – A törvény kiegészíti a személyes adatok védelméről és a közérdekű adatok nyilvánosságáról szóló 1992. évi LXII. törvényt azzal, hogy állami feladatot ellátó szerv rendszeresen közzéteszi a tevékenységével kapcsolatos legfontosabb – különösen a hatáskörére, illetékességére, szervezeti felépítésére, szakmai tevékenységére, annak eredményességére is kiterjedő értékelésre, a birtokában lévő adatfajtákra és a működéséről szóló jogszabályokra, valamint gazdálkodására vonatkozó – adatokat. A törvény 16. §-ában definiálja az üzleti titkot, valamint tételesen felsorolja, hogy mi az, ami nem minősül annak."
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "c) Magyar Információs Társadalom Stratégia."
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "d) Kormányzati Informatikai Stratégia."
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "e) 2118/2006. (VI. 30.) Korm. határozat az államháztartás hatékony működését elősegítő szervezeti átalakításokról és az azokat megalapozó intézkedésekről."
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "f) 44/2005. (III. 11.) Korm. rendelet a kormányzati informatika koordinációjáról és a kapcsolódó eljárási rendről."
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "3.1. Kapcsolódó belső szabályzatok"
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "a) 6/2008. Szabályzat a Gazdasági és Közlekedési Minisztériumban alapítandó projektek szervezeti és működési rendjéről"
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "b) Új rendszer átvétele üzemeltetésre (T-Systems Dataware) – Belső szabályzat, amely meghatározza T-Systems Dataware, mint külső szolgáltató számára üzemeltetésre átadni kívánt rendszerekkel szemben támasztott követelményeket, meghatározza a rendszerek tervszerű üzemeltetéséhez szükséges dokumentációkat, valamint azok kötelező adattartalmát"
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "c) KSZF-GKM/NFGM megállapodás"
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "d) NFGM-KHEM IT szolgáltatási megállapodás"
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "e) /2008. szabályzat a Gazdasági és Közlekedési Minisztérium szerződései megkötésének és nyilvántartásának általános szabályairól"
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "f) 5/2008-as Szabályzat a Gazdasági és Közlekedési Minisztérium fejezet 2008. évi egyes fejezeti kezelésű előirányzatainak felhasználásáról"
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "g) GKM IT Stratégia"
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "h) GKM Stratégiai akcióterv"
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "i) Informatikai éves munkaterv"
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "4. Fogalommeghatározások"
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "Fejlesztés: Új információs rendszer létrehozása, vagy egy meglévő rendszer átalakítására irányuló folyamat. Nem minősül fejlesztésnek egy meglévő rendszer hibajavítása és karbantartása, amely a normális napi működést szolgálja, valamint a rendszerkövetések, amelyek elsősorban törvényi, illetve jogszabályi változásokból eredő eltéréseket hivatottak módosítani"
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "Fejlesztési igény: A felhasználók által megfogalmazott igény, amely valamely új rendszer kialakítására, vagy egy meglévő átalakítására irányul"
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "A fejlesztési igények alapja a munkavégzésben, valamint a munkavégzés támogatásában felmerülő nehézségek, problémák megoldása"
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "Projektcsapat: A fejlesztésben, illetve a projektben részt vevő személyekből álló csoport"
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "Főosztály: Az NFGM szervezeti hierarchiában elhelyezkedő szervezeti egység"
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "Blokk: Szakállamtitkárság, illetve Kabinet"
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "KSZF: Központi Szolgáltatási Főigazgatóság"
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "Igénylést jóváhagyók köre: Kijelölt IT kapcsolattartók"
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "Igénylők köre: Főosztály, illetve szervezeti egység vezetői"
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "IFO: NFGM Informatikai Főosztály"
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "5. A fejlesztés eljárásrendje"
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "5.1. Induló fejlesztések meghatározása"
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "Az eljárás célja"
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "A fejlesztési igényt kiváltó probléma, a felhasználói igények, elvárások felmérése, megfogalmazása, valamint annak azon döntés-előkészítési feladat elvégzése, amely vizsgálja az elképzelt korszerűsítési igény végrehajtásához rendelkezésre álló feltételek, lehetőségek, úgymint: szükségesség, technológia, finanszírozhatóság, hasznosság meglétét."
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "Fejlesztési igény meghatározása"
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "Az igénylő főosztály feladata megfogalmazni a problémát, ami a szervezet munkáját akadályozza, ami zavarokat, végrehajtási nehézségeket okoz, illetve a folyamatot, amelynek a működési hatékonyságán javítani kell."
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "Az azonosított problémának megfelelően „Fejlesztési igény bejelentése” adatlapot kell kitölteni és leadni az IFO vezetőjének. (Minta: jelen szabályzat 7. fejezet 1. számú melléklet)"
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "A „Fejlesztési adatlap” kitöltéséről, leadásáról az igénylő főosztály vezetőjének kell gondoskodnia."
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "Az adatlapok jóváhagyója, aláírója – amennyiben az igény felmerülése nem a minisztérium szervezetén belülről érkezik, (valamely szolgáltató vagy szolgáltatást igénybe vevő szervezet) – mindig az együttműködést szabályzó dokumentumban rögzített hivatalos kapcsolattartó."
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "A „Fejlesztési igény bejelentése” adatlapnak tartalmaznia kell:"
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "– az igénylő főosztály, blokk, illetve a bejelentő kolléga adatait,"
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "– a fejlesztési igényt és a fejlesztési célokat, hasznosságot, prioritást."
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "A fejlesztési igény bejelentéséhez szükséges űrlap megtalálható az Együttműködési Portálon, az Informatikai főosztály/szakmai hátterünk oldalon."
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "5.1.1. A fejlesztési igények megvalósítása"
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "Az IFO részére eljuttatott, az IT kapcsolattartók által jóváhagyott „Fejlesztési igény bejelentése” adatlapokat az Informatikai főosztály alkalmazás szakértői megvizsgálják, és az adatlapok információiból kiegészítő adatokkal látják el, amelyek már a szakmai specifikációkat is tartalmazzák."
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "Kiegészítő információk:"
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "– igény pontos, szakmai leírása,"
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "– becsült ráfordítás, erőforrásigény, költségvonzat,"
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "– tervezett kezdési és befejezési határidő."
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "Ezt követően az IT kapcsolattartók egyeztetik egymással elektronikus formában (e-mail) a kiegészítésekkel együtt az igény megvalósítását, és közös megegyezés esetén az NFGM kapcsolattartója aláírásával jóváhagyja, felfüggeszti vagy elutasítja az igényt. Jóváhagyás esetén az alkalmazás szakértők megkezdik a megvalósítást."
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "5.1.2. Elutasítás/felfüggesztés"
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "Adott igény elutasítása vagy felfüggesztése minden esetben nyomon követhetően és indokoltan történik. Az igényléssel kapcsolatos adatok és a folyamat lépései az Együttműködési Portálon mentésre és archiválásra kerülnek."
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "Felfüggesztés esetén az igények közös megegyezéssel halasztásra kerülnek adott határidőig, amennyiben a kapcsolattartók nem tudnak megegyezni a halasztás határidejéig, a döntést a blokk vezetőkkel, illetve szükség esetén a Kabinettel egyeztetni szükséges mindkét minisztérium képviselőinek."
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "5.1.3. Megvalósítás – Fejlesztési projektek irányítása"
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "5.1.3.1. Szakmai követelmények megfogalmazása, projektek indítása"
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "A jóváhagyott Informatikai főosztály éves munkatervének megfelelőn kell a fejlesztési projektek indulását ütemezni. A projekt hivatalos alapítása a hatályos projektszabályzat által előírtan történik."
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "Első lépésként az igénylő főosztálynak feladata az igényléskor benyújtott fejlesztési igény megfogalmazása, szakmai követelmények meghatározásának támogatása. Az igényspecifikáció és a megoldási koncepció elkészítése az IFO feladata."
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "A szakmai követelményeket tartalmazó dokumentumnak kötelező adattartalma:"
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "a) Az igényelt fejlesztéssel szemben elvárt funkcionalitás ismertetése"
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "b) A fejlesztésre vonatkozó környezeti korlátok bemutatása"
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "c) Megvalósíthatóság vizsgálata"
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "d) Biztonsági, felhasználói és általános rendszer követelmények meghatározása"
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "e) A szakmai megoldási koncepció terv kötelező adattartalma"
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "f) Követelmények elemzése"
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "g) Kockázatok elemzése"
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "h) Megvalósítási lehetőségek ismertetése"
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "i) Szükséges, és ajánlott infrastruktúra ismertetése"
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "j) S rendszer kapcsolatainak ismertetése"
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "k) A megvalósításra kerülő funkciók és működésük ismertetése"
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "l) A megvalósítás tervezett ráfordításbecslése (költségek, emberi erőforrásigény)"
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "5.1.3.2. Fejlesztési projektek dokumentációs rendje, igények életciklusának nyilvántartása"
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "A fejlesztett rendszerhez kapcsolódó dokumentációk elkészítése az IFO, illetve a bevont vállalkozók feladata."
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "IT fejlesztések esetében a minimális dokumentációs igények:"
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "– Projektalapító Okirat"
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "– Követelmény-specifikáció, Megoldási koncepció"
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "– Műszaki dokumentáció vagy Rendszerterv"
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "– Tesztelési terv"
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "– Kommunikációs terv"
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "– Felhasználói dokumentációk"
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "– Üzemeltetési dokumentációk"
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "– Jegyzőkönyvek"
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "– Megbeszélés-emlékeztetők"
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "– Változáskezelési dokumentációk (amennyiben változáskezelés történt a projektben)"
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "– Projektzáró Okirat"
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "5.1.3.3. Külső személyek, szervezetek bevonása"
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "A IFO vezetője jóváhagyott éves munkaterve alapján meghatározza, hogy a megvalósítás során mely feladatok megoldására szükséges külső személyek, szervezetek segítségét igénybe venni. A közbeszerzésekről szóló 2003. évi CXXIX. törvényben megfogalmazottak alapján kell kiválasztani és bevonni a feladatok végrehajtásába. A vállalkozók által elvégzett tevékenységek teljesítésének ellenőrzése az IFO feladata, a projektvezető és a főosztályvezető felelősségi és hatásköre."
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "5.2. Éles üzem elindítása"
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "5.2.1. Dokumentációk elkészítése az üzemeltetésre történő átadáshoz"
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "Az üzemeltetésre történő átadás előkészítése az IFO feladata. A licencekhez, illetve eszközökhöz kapcsolódó támogatási szerződések megkötése a KSZF közreműködésével történik, ennek előfeltétele az ehhez szükséges keret átadása a KSZF részére. Ennek IT szakmai előkészítése, megalapozása az IFO feladata, megvalósítása a költségvetési és kontrolling főosztály feladata."
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "A szükséges szakmai dokumentációk elkészítéséről jelen szabályzat az 5.1.3.2. fejezetben rendelkezik."
+    },
+    {
+      "provision_ref": "s107",
+      "section": "107",
+      "title": "107",
+      "content": "5.2.2. Oktatás"
+    },
+    {
+      "provision_ref": "s108",
+      "section": "108",
+      "title": "108",
+      "content": "Az oktatás célja az új rendszert kezelő felhasználók képzése, valamint a jövőbeli karbantartó és üzemeltető személyzet betanítása."
+    },
+    {
+      "provision_ref": "s109",
+      "section": "109",
+      "title": "109",
+      "content": "Az oktatási terv és az oktatási anyagok elfogadása után az oktatások szervezéséről az IFO vezetőjének jóváhagyását követően a projektvezetőnek kell gondoskodnia a projekt élettartama alatt. Ezt követően egyedi megrendelések keretében igénykezelési folyamat részeként tud az IFO oktatásokat szervezni. Az oktatások elvégzéséről és az oktatási anyag számonkérésének eredményeiről jegyzőkönyvet (Jelenléti ív) kell készíteni, és eljuttatni az IFO vezetőjéhez jóváhagyás céljából. A jegyzőkönyv elkészítése a projektvezető felelőssége."
+    },
+    {
+      "provision_ref": "s110",
+      "section": "110",
+      "title": "110",
+      "content": "5.2.3. Teszt"
+    },
+    {
+      "provision_ref": "s111",
+      "section": "111",
+      "title": "111",
+      "content": "A projektterv alapján elkészült fejlesztési feladat üzemeltetésre való átadás feltétele egy átfogó teszt végrehajtása, amit két fázisban kell megvalósítani. Rendszerteszt során a rendszer üzemszerű működését, működtethetőségét, a felhasználói teszt során pedig a fejlesztési igényben megfogalmazott elvárások minőségi teljesülését kell vizsgálat alá venni. Felhasználói tesztelés során keletkezett észrevételek figyelembevételre és javításra kerülnek amennyiben szakmailag indokolt, ehhez szükséges az igénylő szervezeti egységgel való egyeztetés. Az egyeztetést követően a rendelkezésre álló információk alapján az informatikai főosztály vezetője hagyja jóvá a módosítások végrehajtását."
+    },
+    {
+      "provision_ref": "s112",
+      "section": "112",
+      "title": "112",
+      "content": "5.2.3.1. Rendszerteszt"
+    },
+    {
+      "provision_ref": "s113",
+      "section": "113",
+      "title": "113",
+      "content": "Az IFO által előzetesen jóváhagyott Műszaki leírásban szereplő tesztterv alapján a szükséges teszteket el kell végezni."
+    },
+    {
+      "provision_ref": "s114",
+      "section": "114",
+      "title": "114",
+      "content": "A teszteknek az alábbi területeket kell érinteniük:"
+    },
+    {
+      "provision_ref": "s115",
+      "section": "115",
+      "title": "115",
+      "content": "– Integrációs teszt"
+    },
+    {
+      "provision_ref": "s116",
+      "section": "116",
+      "title": "116",
+      "content": "– Teljesítményteszt"
+    },
+    {
+      "provision_ref": "s117",
+      "section": "117",
+      "title": "117",
+      "content": "– Terhelési teszt"
+    },
+    {
+      "provision_ref": "s118",
+      "section": "118",
+      "title": "118",
+      "content": "– Katasztrófateszt"
+    },
+    {
+      "provision_ref": "s119",
+      "section": "119",
+      "title": "119",
+      "content": "A tervben meghatározott feladatok elvégzéséről tesztjegyzőkönyvet kell készíteni, amelyet az IFO vezetőjének kell jóváhagynia. A tesztjegyzőkönyv készítéséről a projektvezetőnek kell gondoskodnia. A tesztek végrehajtását, a kötelező dokumentumok adattartalmát a fejlesztéshez kapcsolódó Projekttervben kell definiálni."
+    },
+    {
+      "provision_ref": "s120",
+      "section": "120",
+      "title": "120",
+      "content": "5.2.3.2. Felhasználói teszt"
+    },
+    {
+      "provision_ref": "s121",
+      "section": "121",
+      "title": "121",
+      "content": "A teszt végrehajtását a Műszaki leírásban szereplő felhasználói tesztterv alapján kiválasztott felhasználóknak kell elvégezni, és az elvégzett feladatokat dokumentálniuk kell a terv mellékleteként csatolt „Felhasználói teszt” jegyzőkönyvben. A felhasználói teszt végrehajtását, a kötelező dokumentumok adattartalmát a Projektalapító Okiratban kell definiálni."
+    },
+    {
+      "provision_ref": "s122",
+      "section": "122",
+      "title": "122",
+      "content": "A tesztjegyzőkönyvet az NFGM IFO vezetőjének kell elfogadnia."
+    },
+    {
+      "provision_ref": "s123",
+      "section": "123",
+      "title": "123",
+      "content": "5.2.4. Éles üzembe helyezés"
+    },
+    {
+      "provision_ref": "s124",
+      "section": "124",
+      "title": "124",
+      "content": "5.2.4.1. Próbaüzem"
+    },
+    {
+      "provision_ref": "s125",
+      "section": "125",
+      "title": "125",
+      "content": "A teljes rendszer sikeres tesztje után kezdetét veszi a próbaüzem, amelynek keretén belül az igénylők megkezdik a rendszer rendeltetésszerű használatát. A próbaüzem időtartama a próbaüzem során feltárt hibák kijavításáig és a sikeres elfogadási tesztig tart. Az elfogadás tényéről egy funkció/rendszer átadás-átvételi jegyzőkönyvet szükséges készíteni, mely a projekt vezetőjének feladata. A jegyzőkönyvet az adott funkció vagy rendszer adatgazdája/folyamatgazdája hagyja jóvá."
+    },
+    {
+      "provision_ref": "s126",
+      "section": "126",
+      "title": "126",
+      "content": "5.2.4.2. Fejlesztői felügyelet"
+    },
+    {
+      "provision_ref": "s127",
+      "section": "127",
+      "title": "127",
+      "content": "Az éles üzem első három hónapjában a fejlesztői csoportnak az IFO vezetője által kijelölt kapcsolattartón keresztül folyamatos felügyeletet kell biztosítania, a szerződésben előzőleg megállapodott szolgáltatási szint megállapodásoknak megfelelően."
+    },
+    {
+      "provision_ref": "s128",
+      "section": "128",
+      "title": "128",
+      "content": "A fejlesztői felügyelet időszaka alatt történő rendkívüli eseményekről jegyzőkönyveket kell készíteni (Rendszer-felügyeleti jegyzőkönyv) és eljuttatni az IFO vezetőjéhez jóváhagyásra."
+    },
+    {
+      "provision_ref": "s129",
+      "section": "129",
+      "title": "129",
+      "content": "5.2.5. Átadás üzemeltetésre a KSZF felé"
+    },
+    {
+      "provision_ref": "s130",
+      "section": "130",
+      "title": "130",
+      "content": "A projekt során készített, és a szerver és infrastruktúra üzemeltetéséhez szükséges dokumentációkat szükséges átadni a KSZF üzemeltetésért felelős vezetője számára. Az átadásról jegyzőkönyv készül."
+    },
+    {
+      "provision_ref": "s131",
+      "section": "131",
+      "title": "131",
+      "content": "5.2.6. Projektkönyvtár"
+    },
+    {
+      "provision_ref": "s132",
+      "section": "132",
+      "title": "132",
+      "content": "Az IFO projektvezetője gondoskodik az elektronikus, illetve kiemelt termékek esetén a papír alapú projektkönyvtár naprakészségéről, illetve az érintettek számára hozzáférés biztosításáról."
+    },
+    {
+      "provision_ref": "s133",
+      "section": "133",
+      "title": "133",
+      "content": "A dokumentumok eredeti példányai az aláíróknál és a projektkönyvtárakban találhatóak."
+    },
+    {
+      "provision_ref": "s134",
+      "section": "134",
+      "title": "134",
+      "content": "Az elektronikus, verziókezelt projektdokumentáció az Együttműködési Portálon található: a http://e-min címen érhető el, a projektek menüpont alatt."
+    },
+    {
+      "provision_ref": "s135",
+      "section": "135",
+      "title": "135",
+      "content": "6. Záró rendelkezés"
+    },
+    {
+      "provision_ref": "s136",
+      "section": "136",
+      "title": "136",
+      "content": "A jelen utasítás a közzétételét követő napon lép hatályba."
+    },
+    {
+      "provision_ref": "s137",
+      "section": "137",
+      "title": "137",
+      "content": "Bajnai Gordon s. k.,"
+    },
+    {
+      "provision_ref": "s138",
+      "section": "138",
+      "title": "138",
+      "content": "nemzeti fejlesztési és gazdasági miniszter"
+    },
+    {
+      "provision_ref": "s139",
+      "section": "139",
+      "title": "139",
+      "content": "7. Mellékletek"
+    },
+    {
+      "provision_ref": "s140",
+      "section": "140",
+      "title": "140",
+      "content": "Igénylő szervezet és felhasználó adatai Felhasználó neve: Minisztérium neve: Szervezeti egysége: SZÁT: Érintett alkalmazás/alkalmazások alapadatai Alkalmazás neve: Igényelt szolgáltatás: Igény rövid leírása: Igény prioritása: Megjegyzés:"
+    },
+    {
+      "provision_ref": "s141",
+      "section": "141",
+      "title": "141",
+      "content": "Igény kezelése-szakértők töltik ki (IFO) Szakértő neve: Szolgáltatás besorolása: Igény szakértői leírása: Javasolt megoldás: Tervezett ráfordítás: <embernapban> Tervezett kezdés: 2008. XX. YY. Tervezett befejezés: 2008. XX. YY. Kockázat megadása: Megjegyzés:"
+    },
+    {
+      "provision_ref": "s142",
+      "section": "142",
+      "title": "142",
+      "content": "Tény kezdés: 2008. XX. YY. Tény véglegesítés: 2008. XX. YY. Keletkezett dokumentumok: Elektronikus elérése: * Az utasítás az NFGM belső honlapján 2008. szeptember 25-én került közzétételre. Az utasítást a 18/2014. (VII. 4.) NGM utasítás 2. § 19. pontja hatályon kívül helyezte 2014. július 5. napjával."
+    }
+  ]
+}

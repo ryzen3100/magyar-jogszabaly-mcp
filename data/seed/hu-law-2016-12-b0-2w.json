@@ -1,0 +1,48 @@
+{
+  "id": "hu-law-2016-12-b0-2w",
+  "type": "statute",
+  "title": "12/2016. (VII. 5.) NFM utasítás a Központi Informatikai Beszerzési Rendszer működtetéséről",
+  "status": "repealed",
+  "in_force_date": "2016-07-06",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2016-12-B0-2W",
+  "description": "a Központi Informatikai Beszerzési Rendszer működtetéséről",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § Az utasítás hatálya az infokommunikációs tárgyú beszerzések, valamint az infokommunikációs infrastruktúra központi nyilvántartásáról szóló 1235/2016. (V. 13.) Korm. határozat (a továbbiakban: Korm. határozat) 1. pontja alapján a Központi Informatikai Beszerzési Rendszer működtetésére, szükség esetén továbbfejlesztésére és a hozzáférési jogosultsági rendszer kialakítására (a továbbiakban együtt: működtetés) terjed ki."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § Az utasítás alkalmazásában: Központi Informatikai Beszerzési Rendszer (a továbbiakban: KIBER): egy olyan folyamatosan frissülő központi adatbázis, amely tartalmazza a Korm. határozat szerinti szervezetek (a továbbiakban: felhasználók) tervezett és lebonyolított infokommunikációs tárgyú beszerzését, továbbá informatikai környezetének leíró adatait."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) A nemzeti fejlesztési miniszter a Korm. határozat 1. pontjában foglaltak ellátásával az irányítása alá tartozó Kormányzati Informatikai Fejlesztési Ügynökséget (a továbbiakban: KIFÜ) bízza meg. (2) A KIFÜ a KIBER működtetéséhez közreműködőket vehet igénybe."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) A KIFÜ KIBER működtetésével kapcsolatos feladatai különösen: a) ellátja az állami és önkormányzati szervek elektronikus információbiztonságáról szóló 2013. évi L. törvényben meghatározottak szerint a KIBER adatkezelői feladatait; b) biztosítja a rendszer biztonságos üzemelésének feltételeit, melynek keretében megköti a szükséges üzemeltetési, informatikai támogatási és szolgáltatási szinteket szabályozó szerződéseket, valamint igazolja az azokban foglaltak teljesítését; c) gondoskodik a KIBER – felhasználói igények mentén történő – továbbfejlesztéséről a rendelkezésre álló forrás keretéig; d) a KIBER felhasználói számára ügyfélszolgálatot biztosít; e) gondoskodik a KIBER működéséhez szükséges auditok lefolytatásáról és megújításáról; f) ellátja a jogosultságok kezelésével kapcsolatos feladatokat; g) közreműködik a Korm. határozat 5. pontja szerinti, a KIBER működésének tapasztalatairól, a kötelezettek adatszolgáltatási fegyelméről, valamint a kötelezettek adatszolgáltatása révén az infokommunikációs beszerzések adatairól és egyéb infokommunikációval kapcsolatos összesített adatról szóló jelentés elkészítésében; h) gondoskodik a felhasználók által igényelt, KIBER-ből előállítható jelentések elkészítéséről a rendelkezésre álló kapacitás függvényében. (2) A KIBER működtetése során a KIFÜ köteles a Nemzeti Fejlesztési Minisztérium (a továbbiakban: NFM) infokommunikációért felelős helyettes államtitkárával együttműködni, ennek keretében a KIFÜ a) a működtetés kapcsán a napi, technikai szintet meghaladó problémákról tájékoztatást ad, valamint szükség esetén azokat döntésre felterjeszti az NFM infokommunikációért felelős helyettes államtitkárának; b) a fejlesztési és pénzügyi döntést igénylő ügyeket felterjeszti az NFM infokommunikációért felelős helyettes államtitkárának."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § Ez az utasítás a közzétételét követő napon lép hatályba. 1 Az utasítást a 26/2020. (IX. 10.) ITM utasítás 1. § i) pontja hatályon kívül helyezte 2020. szeptember 11. napjával."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "§ Az utasítás alkalmazásában",
+      "definition": "Központi Informatikai Beszerzési Rendszer (a továbbiakban: KIBER): egy olyan folyamatosan frissülő központi adatbázis, amely tartalmazza a Korm. határozat szerinti szervezetek (a továbbiakban: felhasználók) tervezett és lebonyolított infokommunikációs tárgyú beszerzését, továbbá informatikai környezetének leíró adatait.",
+      "source_provision": "s2"
+    }
+  ]
+}

@@ -1,0 +1,711 @@
+{
+  "id": "hu-law-2024-19-b0-9d",
+  "type": "statute",
+  "title": "19/2024. (VII. 25.) KTM utasítás a Közigazgatási és Területfejlesztési Minisztérium Informatikai Biztonsági Szabályzatáról",
+  "status": "repealed",
+  "in_force_date": "2024-07-31",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2024-19-B0-9D",
+  "description": "a Közigazgatási és Területfejlesztési Minisztérium Informatikai Biztonsági Szabályzatáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "chapter": "I. Fejezet ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § (1) A Közigazgatási és Területfejlesztési Minisztérium Informatikai Biztonsági Szabályzatának (a továbbiakban: IBSZ) célja, hogy a Közigazgatási és Területfejlesztési Minisztériumban (a továbbiakban: minisztérium) az állami és önkormányzati szervek elektronikus információbiztonságáról szóló 2013. évi L. törvény (a továbbiakban: Ibtv.) 1. § 14b. pont b) alpontja szerinti elektronikus információs rendszer (a továbbiakban: informatikai rendszer) védelmét és biztonságos működését az állami és önkormányzati szervek elektronikus információbiztonságáról szóló 2013. évi L. törvényben meghatározott technológiai biztonsági, valamint a biztonságos információs eszközökre, termékekre, továbbá a biztonsági osztályba és biztonsági szintbe sorolásra vonatkozó követelményekről szóló 41/2015. (VII. 15.) BM rendelet (a továbbiakban: BM rendelet) előírásainak megfelelően szabályozza. (2) Az (1) bekezdésben foglalt cél elérése érdekében az IBSZ meghatározza a) az információbiztonsági intézkedéseket, b) az informatikai, számítástechnikai eszköz (a továbbiakban: informatikai eszköz) használatának szabályait, c) az elektronikus adatkezelés folyamatának információbiztonsági szabályait, d) az a)–c) pont szerinti feladatellátáshoz kapcsolódó szerepköröket, e) a feladatellátásban részt vevő szereplők információbiztonságot érintő feladatait és a kapcsolódó magatartási és felelősségi szabályokat, f) az informatikai rendszer biztonsága érdekében szükséges kötelezettségeket és felelősségi köröket, g) azokat a védelmi intézkedéseket, amelyek az informatikai rendszerben tárolt elektronikus adatok bizalmasságát, sértetlenségét és rendelkezésre állását biztosítják, az informatikai rendszer elleni támadásokat megelőzik, és a károkat mérsékelik a működőképesség fenntartása érdekében."
+    },
+    {
+      "provision_ref": "s2",
+      "chapter": "I. Fejezet ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § Az IBSZ alkalmazásában 1. adatgazda: azon szervezeti egység vezetője, ahol a minisztérium informatikai rendszereinek alkalmazásával az adat keletkezik, illetve amely a szervezeti egységhez jogszabály vagy közjogi szervezetszabályozó eszköz az adat kezelését vagy nyilvántartását rendeli, 2. biztonsági osztály: az elektronikus információs rendszer védelmének elvárt erőssége, 3. biztonsági szint: a szervezet felkészültsége az Ibtv.-ben és a végrehajtására kiadott jogszabályokban meghatározott biztonsági feladatok kezelésére, 4. felhasználó: a minisztérium informatikai rendszerét a) igénybe vevő vagy üzemeltető természetes és jogi személy, illetve jogi személyiséggel nem rendelkező szervezet, valamint b) a minisztériummal szerződéses kapcsolatban álló külső személy vagy szerv a szerződésben rögzített mértékben, illetve a titoktartási nyilatkozat alapján, 5. kockázatelemzés: az informatikai rendszer értékének, sérülékenységének (gyenge pontjainak), fenyegetéseinek, a várható károknak és ezek gyakoriságának felmérése útján a kockázatok feltárása és értékelése, 6. kockázatkezelés: az informatikai rendszerre ható kockázatok csökkentésére irányuló intézkedésrendszer kidolgozása."
+    },
+    {
+      "provision_ref": "s3",
+      "chapter": "I. Fejezet ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) Az IBSZ területi hatálya kiterjed a minisztériumi székhelyére és telephelyeire, továbbá olyan épületekre és helyiségekre, amelyekben a tárgyi hatálya alá tartozó informatikai rendszer felhasználásával az Ibtv. 1. § (1) bekezdés 2. pontja szerinti adatfeldolgozási tevékenységet (a továbbiakban: adatfeldolgozás), illetve 4. pontja szerinti adatkezelési tevékenységet (a továbbiakban: adatkezelés) végeznek. (2) Az IBSZ tárgyi hatálya kiterjed a) a minisztériumi feladatellátás körében keletkező elektronikus adatok teljes körére, a minisztérium adataival és adatainak kezelésével összefüggésben használt bármilyen adatrögzítésre, tárolásra, feldolgozásra vagy továbbításra képes elektronikus információs eszközre és ezek működési környezetére, ideértve a kormányzati informatikai szolgáltató által biztosított és üzemeltetett eszközöket, valamint a távoli munkavégzéshez használt eszközöket és ezek működési környezetét is; b) az a) pontban meghatározottakra vonatkozó bármely dokumentációra; c) az a) és b) pontban meghatározottak működéséhez alkalmazott szoftverekre, illetve az elektronikus információs eszközökkel rögzített, tárolt, feldolgozott vagy továbbított adatokra és információkra. (3) Az IBSZ tárgyi hatálya nem terjed ki a külön szabályozott, minősített adatokat kezelő informatikai rendszerre és a minősített adatokra. (4) Az IBSZ személyi hatálya kiterjed a minisztériumnál munkavégzésre irányuló bármely jogviszonyban álló, a minisztérium informatikai rendszereivel kapcsolatba kerülő, azokat telepítő, üzemeltető, javító, fejlesztő és használó természetes személyekre, jogi személyekre és jogi személyiséggel nem rendelkező szervezetekre."
+    },
+    {
+      "provision_ref": "s4",
+      "chapter": "I. Fejezet ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) Az IBSZ a minisztérium szervezeti szintű informatikai biztonsági szabályozó rendszerének egyik alapvető eleme. Az IBSZ a hatályos jogszabályokkal, a minisztérium működési és ügyrendi előírásaival összhangban megteremti az elektronikus információ kezelésének és felhasználásának biztonságát. (2) Az IBSZ tartalmazza a) a kockázatelemzés módszertanát (1. melléklet), b) a biztonsági események kezelésének rendjét (2. melléklet), c) a minisztérium biztonsági szintbe, valamint a minisztérium rendelkezésében lévő elektronikus információs rendszerek biztonsági osztályba sorolásának értékét (3. melléklet). (2) A minisztérium biztonsági szintbe sorolása, valamint a minisztérium rendelkezésében álló informatikai rendszerek megnevezése, azok biztonsági osztályba sorolása az információs önrendelkezési jogról és az információszabadságról szóló 2011. évi CXII. törvény 27. § (5) bekezdése értelmében nem nyilvános adatnak minősülnek, ezért azok elkülönítve, nem nyilvánosan kezelendők. (3) Az IBSZ tervezetét a Szervezetbiztonsági és Dokumentációs Főosztály (a továbbiakban: SZDF) elektronikus információbiztonságért felelős tagja (a továbbiakban: informatikai biztonsági vezető) készíti el és a miniszter hagyja jóvá."
+    },
+    {
+      "provision_ref": "s5",
+      "chapter": "I. Fejezet ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § (1) Az IBSZ-t szükség szerint, de legalább kétévente felül kell vizsgálni. Soron kívüli felülvizsgálat szükséges a) az informatikai rendszer biztonságát érintő jogszabályi változást, b) új informatikai rendszer vagy rendszerelem bevezetését, c) a minisztérium státuszát, szervezetét, feladatkörét, az általa kezelt vagy feldolgozott adatok körét érintő változást vagy d) súlyos informatikai biztonsági eseményt követően. (2) A felülvizsgálat kezdeményezése, valamint a módosítás az informatikai biztonsági vezető feladata. A módosítások engedélyezése és az újabb változat jóváhagyása a miniszter hatásköre."
+    },
+    {
+      "provision_ref": "s6",
+      "chapter": "I. Fejezet ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § Hivatalos eljárásrendként kell megismertetni és elfogadtatni a Nemzeti Infokommunikációs Szolgáltatóval (a továbbiakban: NISZ Zrt.) az IBSZ-ben meghatározott azon eljárásrendeket, amelyek végrehajtásában a NISZ Zrt. mint központosított informatikai szolgáltató a feladat, illetve folyamat részfelelőse vagy az eljárás, illetve folyamat közreműködője."
+    },
+    {
+      "provision_ref": "s7",
+      "chapter": "I. Fejezet ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § (1) A minisztérium informatikai rendszerének elemeiről leltárt kell készíteni, azt folyamatosan vezetni, aktualizálni kell. (2) Az informatikai rendszerben kezelt adatok biztonságát az Ibtv. 5. §-a szerint a zárt, teljes körű, folytonos és kockázatokkal arányos védelem elve alapján, teljes életciklusuk időtartama alatt, a tervezés, az üzembe helyezés, az üzemeltetés, az éles üzemből történő kivonás és archiválás, valamint a selejtezés szakaszaiban is biztosítani szükséges."
+    },
+    {
+      "provision_ref": "s8",
+      "chapter": "I. Fejezet ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § A minisztériumban az informatikai rendszert és az informatikai eszközt csak olyan felhasználó vagy külső személy veheti igénybe, illetve kezelheti, aki a) az IBSZ rendelkezéseit megismerte és arról írásban nyilatkozott, valamint b) hozzáférési jogosultságot kapott a használandó informatikai rendszerhez."
+    },
+    {
+      "provision_ref": "s9",
+      "chapter": "I. Fejezet ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § (1) A felhasználónak és a külső személynek a használat során úgy kell eljárnia, ahogy az az adott helyzetben általában elvárható, továbbá tartózkodnia kell minden károkozó tevékenységtől. (2) A felhasználó és a külső személy felelősséggel tartozik a munkavégzés és feladatellátás céljából a minisztériumtól, a NISZ Zrt.-től vagy más szolgáltatótól átvett eszközökért, kötelesek azok célnak megfelelő, rendeltetésszerű használatára."
+    },
+    {
+      "provision_ref": "s10",
+      "chapter": "I. Fejezet ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § A miniszter meghatározza a minisztérium informatikai rendszere védelmének felelőseire, feladataira és az ehhez szükséges hatáskörökre, felhasználókra vonatkozó szabályokat, illetve kiadja az IBSZ-t."
+    },
+    {
+      "provision_ref": "s11",
+      "chapter": "I. Fejezet ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § A minisztérium közigazgatási államtitkára a) figyelemmel kíséri a minisztérium informatikai rendszerének biztonságát és az elektronikus információbiztonsági feladatok ellátásával összefüggő tevékenységet, b) biztosítja a jogszabályban meghatározott követelmények teljesülését és gondoskodik az ehhez szükséges feltételek biztosításáról, c) kinevezi az informatikai biztonsági vezetőt, d) jóváhagyja a minisztérium biztonsági szintjének meghatározását és a minisztérium rendelkezésében lévő informatikai rendszer biztonsági osztályba sorolását, e) dönt az elektronikus információbiztonsággal kapcsolatban javasolt főbb kezdeményezések elbírálásáról, a kapcsolódó biztonsági intézkedések bevezetéséről, f) gondoskodik a minisztérium állományának információbiztonsági tárgyú oktatásáról, tudatosításáról, g) ellenőrzi az Ibtv.-ben meghatározott elektronikus információbiztonsági követelmények teljesülését és jogszabályi megfelelőségét, h) gondoskodik az informatikai rendszer eseményeinek kezeléséről és nyomon követéséről, valamint az érintettek tájékoztatásáról."
+    },
+    {
+      "provision_ref": "s12",
+      "chapter": "I. Fejezet ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. § Az informatikai biztonsági vezető a) elkészíti és aktualizálja az IBSZ-t és annak mellékleteit, b) gondoskodik az IBSZ elérhetőségéről, valamint a minisztérium biztonsági szintjének meghatározását és a minisztérium rendelkezésében lévő informatikai rendszer biztonsági osztályba sorolását tartalmazó leírás őrzéséről és védelméről, c) irányítja a minisztérium informatikai rendszerének kockázatelemzését, d) tervezi, irányítja, koordinálja és ellenőrzi az informatikai rendszer biztonságával és védelmével összefüggő tevékenységeket, e) információbiztonsági felülvizsgálatot tart a minisztérium szervezeti egységeinél, f) gondoskodik a biztonsági események kivizsgálásáról, kezeléséről, az ezzel összefüggő adatszolgáltatási kötelezettségekről és nyilvántartást vezet az eseményekről, g) együttműködik a minisztérium adatvédelmi tisztviselőjével, h) véleményezi az informatikai biztonság szempontjából a minisztérium közjogi szervezetszabályozó eszközeinek és polgári jogi szerződéseinek tervezeteit, i) koordinálja a minisztérium által kezelt adatokat feldolgozó informatikai rendszer sérülékenységvizsgálatát, j) együttműködik a felhasználókkal, k) kapcsolatot tart az Ibtv. szerinti hatósággal és eseménykezelő központtal, illetve a részükre előírt adatszolgáltatásokat az érintettek bevonásával előkészíti és teljesíti, l) kapcsolatot tart a NISZ Zrt.-vel, valamint az informatikai rendszer más üzemeltetőivel (a továbbiakban együtt: üzemeltető)."
+    },
+    {
+      "provision_ref": "s13",
+      "chapter": "I. Fejezet ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. § Az SZDF vezetője az elektronikus információbiztonsággal összefüggő feladatellátása során az informatikai biztonsági vezetővel együttműködve részt vesz a) az IBSZ és mellékletei elkészítésében, illetve aktualizálásában, b) a biztonsági események kivizsgálásában."
+    },
+    {
+      "provision_ref": "s14",
+      "chapter": "I. Fejezet ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "14",
+      "title": "14. §",
+      "content": "14. § Az adatgazda a) az informatikai biztonsági vezető irányítása mellett, az SZDF vezetője közreműködésével meghatározza és rendszeresen felülvizsgálja az informatikai rendszerhez jogosultságot igénylő személyek körét, b) az információbiztonságot érintő fejlesztés tervezési folyamatába az adatgazda bevonja az informatikai biztonsági vezetőt és az SZDF vezetőjét."
+    },
+    {
+      "provision_ref": "s15",
+      "chapter": "I. Fejezet ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "15",
+      "title": "15. §",
+      "content": "15. § A NISZ Zrt. a központosított informatikai és elektronikus hírközlési szolgáltatásokról szóló 309/2011. (XII. 23.) Korm. rendeletben meghatározott, az Ellátási szolgáltatási katalógusban rögzített szolgáltatási körben végzett feladatellátásával összefüggően a) közreműködik a minisztérium és az informatikai biztonsági vezető feladatainak ellátásában; b) ellátja a központosított informatikai és elektronikus hírközlési szolgáltató információbiztonsággal kapcsolatos feladatköréről szóló 186/2015. (VII. 13.) Korm. rendelet [a továbbiakban: 186/2015. (VII. 13.) Korm. rendelet] szerinti feladatokat; c) részt vesz az általa biztosított infrastruktúrán üzemeltetett informatikai rendszer biztonsági osztályba sorolásában."
+    },
+    {
+      "provision_ref": "s16",
+      "chapter": "I. Fejezet ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "16",
+      "title": "16. §",
+      "content": "16. § A minisztérium informatikai rendszerét szerződéses kapcsolat alapján működtető üzemeltető felelős az informatikai biztonság fenntartásáért az érintett rendszer tekintetében."
+    },
+    {
+      "provision_ref": "s17",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "17",
+      "title": "17. §",
+      "content": "17. § (1) Az informatikai rendszer és az azokban kezelt adatok kockázatokkal arányos védelmének kialakítása érdekében az adatgazda – az informatikai biztonsági vezető és az SZDF vezetője szakmai irányítása mellett – az 1. melléklet szerint kockázatelemzési módszertan alapján elkészíti a minisztérium kezelésében álló informatikai rendszerre vonatkozó kockázatelemzést. (2) A kockázatelemzést az IBSZ 5. §-a szerint kell felülvizsgálni és aktualizálni."
+    },
+    {
+      "provision_ref": "s18",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "18",
+      "title": "18. §",
+      "content": "18. § A kockázatkezelő intézkedések: a) a meglévő védelmi intézkedések megváltoztatása vagy fejlesztése, b) a kockázatok csökkentése érdekében a BM rendelet által előírt új védelmi intézkedések vagy helyettesítő intézkedések alkalmazása, c) a kockázatok tudatos, objektív felvállalása, ha a védelmi intézkedés közvetlen és közvetett anyagi vonzata nagyobb vagy közel azonos, mint a fenyegetés által elszenvedhető közvetlen és közvetett anyagi kár, d) a kockázatok elkerülése azáltal, hogy a minisztérium átmenetileg vagy véglegesen nem használja azokat az informatikai rendszereket, szolgáltatásokat, eljárásokat, ahol az adott kockázatok előfordulnak, e) a kockázatok másik fél részére történő áthárítása a kockázatos szolgáltatások, eljárások esetében."
+    },
+    {
+      "provision_ref": "s19",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "19",
+      "title": "19. §",
+      "content": "19. § (1) A minisztérium biztonsági szintbe sorolását az informatikai biztonsági vezető és az SZDF vezetője közösen végzi el az Ibtv. 9. és 10. §-a, valamint a BM rendelet 2. melléklete szerint. (2) Az informatikai rendszer elemeinek biztonsági osztályba sorolását az adatgazda az informatikai biztonsági vezető szakmai irányítása mellett, az SZDF vezetője közreműködésével és az üzemeltető bevonásával végzi el az Ibtv. 7. és 8. §-a szerint. (3) A biztonsági osztály rögzítését az informatikai biztonsági vezető az SZDF vezetője közreműködésével végzi el. (4) Az üzemeltető útján igénybe vett informatikai rendszernél a biztonsági osztályba sorolást az informatikai biztonsági vezető az adatgazda bevonásával és az üzemeltetővel együttműködve készíti el, figyelemmel a NISZ Zrt. által a 186/2015. (VII. 13.) Korm. rendelet alapján biztosított információbiztonsági környezetre. (5) Az aktuális biztonsági osztály meghatározása az érintett elektronikus információs rendszerben kezelt adatok adatgazdájának a felelőssége."
+    },
+    {
+      "provision_ref": "s20",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "20",
+      "title": "20. §",
+      "content": "20. § A minisztérium biztonsági szintbe sorolását, valamint a minisztérium elektronikus biztonsági rendszereinek biztonsági osztályba sorolását az IBSZ 5. §-a szerint kell felülvizsgálni és aktualizálni."
+    },
+    {
+      "provision_ref": "s21",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "21",
+      "title": "21. §",
+      "content": "21. § (1) A felhasználók jogosultságalapú hozzáférését, valamint az illetéktelen személyek hozzáférésének megakadályozását az informatikai rendszer védelméhez kapcsolódó adminisztratív, fizikai és logikai intézkedések rendszere biztosítja. (2) A hozzáférés jogosultsági szintje határozza meg, hogy egy adott felhasználó milyen fizikai, illetve logikai biztonsági tartományba (szerverhelyiség, adott alkalmazás, hálózati szegmens, munkaállomás stb.) történő belépésre jogosult a részére engedélyezett hozzáférési jogokkal. (3) Megfelelő szintű, felhasználói, üzemeltetői vagy támogatói (support) hozzáférésnek, jogosultságnak tekinthető az a hozzáférés, amely igazodik a „szükségesség” elvéhez, mely alapján kizárólag olyan mértékű hozzáférés, jogosultság engedélyezhető, amely a feladat elvégzéséhez elengedhetetlenül szükséges, előre meghatározott célhoz kötött és a tevékenység elvégzéséhez szükséges, illetve arra kifejezetten alkalmas. E tekintetben javasolt a hierarchikus vagy szerepalapú jogosultságok kialakítása. (4) A hozzáféréseket, jogosultságokat az adatgazda engedélyezi, intézkedik az engedélyek nyilvántartásáról, rendszeres vagy időszakos felülvizsgálatáról, valamint kezdeményezi annak visszavonását."
+    },
+    {
+      "provision_ref": "s22",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "22",
+      "title": "22. §",
+      "content": "22. § (1) A felhasználó részére hozzáférési jogosultságot igényelni, megváltoztatni, visszavonni a) a NISZ Zrt. általi üzemeltetés esetén elektronikus úton, a rendszeresített eljárás keretében, b) más szolgáltató esetében az általa meghatározott módon van lehetőség. (2) A felhasználói jogosultság visszavonását, megszüntetését az illetékes szervezeti egység vezetője kezdeményezi. (3) A felhasználói azonosítót a visszavonás kezdeményezése szerint, de legkésőbb az utolsó munkában töltött napon le kell tiltani."
+    },
+    {
+      "provision_ref": "s23",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "23",
+      "title": "23. §",
+      "content": "23. § (1) A jogosultságok kezelése során a) az informatikai rendszerhez jogosultságot a felhasználók részére csak a feladatkörük ellátásához szükséges és azzal arányos mértékben lehet biztosítani, kizárólag a munkavégzés időtartamára; b) a felhasználói jogosultságot a szervezeti egység vezetője, szükség esetén az adatgazda bevonásával határozza meg; c) a felhasználók jogosultságait szerepkörök szintjén kell kialakítani és a felhasználókat a kialakított szerepkörökbe kell besorolni; d) a felhasználók azonosítására egyedi felhasználó azonosítókat kell alkalmazni; e) a jogosultságok kiadását és visszavonását folyamatosan ellenőrizni és karbantartani szükséges. (2) A szervezeti egység vezetője a kiosztott hozzáférési jogosultságokat szükség szerint, de évente legalább egy alkalommal dokumentált módon felülvizsgálja."
+    },
+    {
+      "provision_ref": "s24",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "24",
+      "title": "24. §",
+      "content": "24. § Technikai postafiókok létrehozása és alkalmazása szükséges azokban az esetekben, amikor a hivatali munkavégzés, feladatellátás során a levelezőrendszerben tárolt adatokhoz és információkhoz – többek között a felhasználók helyettesítési rendje értelmében – több felhasználó együttes, szükség szerint egyidejű hozzáférése szükséges."
+    },
+    {
+      "provision_ref": "s25",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "25",
+      "title": "25. §",
+      "content": "25. § Az informatikai rendszer és a hálózati szolgáltatások eléréséhez a felhasználók személyre szóló azonosítót és jelszót kapnak. A felhasználói azonosító az elektronikus információs rendszert használó személy egyedi, ellenőrizhető és hitelesítésre alkalmas megjelenítése, amelyet a hozzáférés szabályozására, az adatok és az információk védelmére, valamint a hitelesítés támogatására kell felhasználni. Különböző felhasználók részére megegyező felhasználói azonosító nem adható ki."
+    },
+    {
+      "provision_ref": "s26",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "26",
+      "title": "26. §",
+      "content": "26. § (1) A felhasználó a felelős az egyedi azonosítójának és személyes jelszavainak kezeléséért, azokat csak a részére beállított jogosultságnak megfelelően használhatja és harmadik fél részére nem adhatja át. A felhasználó jogosult jelszavának megváltoztatására. (2) Az azonosítót és jelszót megfelelően védeni kell, mások által hozzáférhető helyen történő tárolása tilos. Az adott elektronikus információs rendszer szabályainak figyelembevételével a belépéskor kapott ideiglenes jelszót az első bejelentkezéskor kötelező megváltoztatni. Más személy azonosítójának és jelszavának használata tilos."
+    },
+    {
+      "provision_ref": "s27",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "27",
+      "title": "27. §",
+      "content": "27. § (1) A felhasználói jelszavaknak meg kell felelniük a következő követelményeknek: a) a jelszó legalább 12 karakter hosszúságú legyen, b) a jelszót a kisbetűk (a–z), a nagybetűk (A–Z), a számok (0–9) és a jelek halmazából legalább két csoport felhasználásával kell képezni, azzal, hogy a jelszó nem lehet egyforma betűből vagy számból álló sorozat, és nem tartalmazhatja egymást követő karakterek sorozatát, c) a jelszó nem utalhat a felhasználói névre, az e-mail-címre, a telefonszámra vagy a gépnévre, továbbá olyan személynévre, személyes adatra, amely a megfejtését megkönnyíti, d) a jelszó 12 hónapig és legalább 3 jelszóváltásig nem ismételhető, e) a jelszó maximális élettartama 60 nap, f) a jelszó 5 sikertelen kísérlet után zárolásra kerül, g) a központi jelszó megadása utáni első bejelentkezéskor kötelező a jelszó cseréje, h) a jelszavakat tilos nyílt formában tárolni az informatikai rendszerben, a jelszófájlokat megfelelő kódolási védelemmel kell ellátni. (2) Ha a felhasználó tudomására jut, hogy a jelszava elveszett vagy az harmadik fél részére megismerhetővé vált, köteles azt azonnal megváltoztatni az informatikai biztonsági vezető értesítése mellett."
+    },
+    {
+      "provision_ref": "s28",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "28",
+      "title": "28. §",
+      "content": "28. § (1) A felhasználói azonosítók, jelszavak, kriptográfiai kulcsok és az ezekhez tartozó jelszavak papíralapú tárolása kizárólag nyomtatott formában, lezárt, lepecsételt borítékban, lemezszekrényben történhet. A lezárt borítékot a lezárónak alá kell írni a lezárás dátumának feltüntetése mellett. (2) A NISZ Zrt. által biztosított felhasználói azonosító és jelszó tekintetében az általa kiadott szabályozás és alkalmazott protokoll szerint kell eljárni. A NISZ Zrt. által biztosított munkaállomást a felhasználó csak a kiosztott azonosítóval és jelszóval használhatja. (3) Más felhasználó munkaállomása csak a munkaállomás nevesített felhasználója vezetőjének előzetes írásbeli engedélyével vehető igénybe az ebben az erre az alkalomra kiosztott külön azonosító és jelszó használatával."
+    },
+    {
+      "provision_ref": "s29",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "29",
+      "title": "29. §",
+      "content": "29. § A biztonsági osztályba sorolt informatikai rendszer esetében – a NISZ Zrt.-vel kötött közszolgáltatási vagy az üzemeltetést ellátó külső személlyel kötött egyéb szerződés tárgyi hatályára vonatkozóan is – olyan hozzáférés-védelmi rendeket kell kialakítani, amelyek részletesen tartalmazzák az informatikai rendszerre vonatkozó jogosultsági szinteket, a jogosultságigénylés és kiadás folyamatait."
+    },
+    {
+      "provision_ref": "s30",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "30",
+      "title": "30. §",
+      "content": "30. § (1) A minisztériummal szerződéses kapcsolatban álló külső személy vagy szerv (a továbbiakban együtt: szerződéses partner) csak egyedileg meghatározott feladat ellátása érdekében, célhoz kötötten és meghatározott időre látható el a minisztériumi informatikai rendszerhez kapcsolódó jogosultsággal, amelyet szerződésben kell dokumentálni. (2) Az (1) bekezdés szerinti szerződés tervezetét az adatgazda készíti el és az informatikai biztonság vezető véleményezi. (3) A szerződéses partner megfelelő biztonsági intézkedéseket köteles foganatosítani annak érdekében, hogy a kicserélt (átadott/átvett) adatok és dokumentumok véletlen vagy szándékos kompromittálódását megakadályozzák, illetve a kockázatokat minimalizálják."
+    },
+    {
+      "provision_ref": "s31",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "31",
+      "title": "31. §",
+      "content": "31. § (1) A minisztérium és a szerződéses partner közötti informatikai rendszert érintő polgári jogi szerződéseket a Ptk., az Ibtv., valamint a BM rendelet és jelen IBSZ előírásainak megfelelően köteles elkészíteni. (2) A szerződés kötelező tartalmi elemei: a) a szolgáltatás tárgya, a teljesítés minősége, a szolgáltatási időszak meghatározása, b) a szerződéses partner nyilatkozata arra vonatkozóan, hogy informatikai rendszere a vállalt feladat ellátására alkalmas, c) az informatikai rendszer biztonsági osztályba sorolása, a sérülékenységvizsgálatra vonatkozó kikötés, d) a felelősségi szabályok meghatározása, e) az ellenőrizhetőségére, monitorozására vonatkozó kitétel, f) a felmerülő problémák kezelésének rendje, g) a jelentéskészítési struktúra és rendszer, h) a változáskezelések egyértelmű és meghatározott folyamata, i) a védelmi intézkedések meghatározása, j) a biztonsági események kezelése, a kivizsgálása s jelentési rendje, k) az információk másolásának és nyilvánosságra hozatalának feltételei, a titoktartási kötelezettség, l) a szellemi tulajdon védelmére és másolására vonatkozó jogok és kötelezettségek, m) a teljesítési garanciák. (3) A szerződésben elő kell írni, hogy a minisztérium információs vagyonelemei a szerződés lejártát követően visszakerülnek a minisztérium birtokába, a szerződéses partnernél, alvállalkozóinál és közreműködőinél pedig véglegesen és helyreállíthatatlanul törlésre kerülnek."
+    },
+    {
+      "provision_ref": "s32",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "32",
+      "title": "32. §",
+      "content": "32. § (1) A szerződésben rögzíteni kell, hogy a szerződéses partner igénybe vehet-e alvállalkozót, illetve a kezelendő adat, információ feldolgozása történhet-e további közreműködő útján kiszervezéssel. (2) Az alvállalkozó, illetve közreműködőt meg kell nevezni és részletesen meg kell határozni a rá vonatkozó hozzáférési jogosultságokat. A szerződésben vállalt kötelezettség az alvállalkozóra és a közreműködőre is vonatkozik, továbbá a szerződésnek mellékletként a titoktartási nyilatkozatukat is tartalmaznia kell. (3) A szerződéses partner a szerződés tárgyát képező adatokat és információkat a szerződés, illetve titoktartási nyilatkozat aláírása előtt nem ismerheti meg."
+    },
+    {
+      "provision_ref": "s33",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "33",
+      "title": "33. §",
+      "content": "33. § (1) A felhasználó számára a hatályos IBSZ az Intraneten elérhető. (2) Harmadik fél részére a hatályos IBSZ megismerését a Szervezetbiztonsági és Dokumentációs Főosztály biztosítja."
+    },
+    {
+      "provision_ref": "s34",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "34",
+      "title": "34. §",
+      "content": "34. § A felhasználó jogosult a) az informatikai rendszer használatára munkavégzés céljából, b) a munkájához szükséges adatállományok elérésére, c) részt venni az információbiztonsági tudatossági előadásokon, képzéseken, d) meghibásodás, üzemzavar esetén a hibaelhárítás igénylésére."
+    },
+    {
+      "provision_ref": "s35",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "35",
+      "title": "35. §",
+      "content": "35. § A felhasználó felelősséggel tartozik a) az IBSZ betartásáért, b) a tudomására jutott információk bizalmasságának megfelelő kezeléséért, c) az informatikai rendszerben azonosítójával és jelszavával végzett műveletekért, d) az elektronikus információs eszközök szakszerű, szabályszerű kezeléséért, e) a személyi használatra átvett eszközök megfelelő fizikai védelméért."
+    },
+    {
+      "provision_ref": "s36",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "36",
+      "title": "36. §",
+      "content": "36. § A felhasználó köteles a) az adatkezelését jogosultságának keretein belül gyakorolni, az informatikai rendszert kizárólag munkavégzés céljára használni, b) a jogosulatlan hozzáférést, rendellenes működést, egyéb biztonsági eseményt vagy azok gyanúját az informatikai biztonsági vezetőnek azonnal jelenteni, azok kivizsgálásában közreműködni, c) a részére kiosztott azonosítókat, kódokat, jelszavakat titokban tartani és az IBSZ-ben leírtak szerint kezelni, d) a közös használatú nyomtatókból a legrövidebb időn belül eltávolítani az adatot tartalmazó saját iratot, e) valamennyi, rendelkezésére álló technikai és szervezési intézkedést megtenni az adatok, információk védelme és a jogosulatlan megismerés elkerülése érdekében, f) informatikai, infokommunikációs eszköz használata során kizárólag védett hálózati kapcsolat (titkosított WIFI-hálózat) révén hozzáférni és továbbítani a minisztérium adatvagyonát, g) az állandó munkavégzés helyétől eltérő, az Egységes Infrastruktúra hálózatán kívül történő munkavégzés során is betartani a hivatali szervezet / a kijelölt informatikai szolgáltató biztonsági szabályait, h) a nem használt alkalmazásokból kijelentkezni, illetve a munkaállomás elhagyásakor az illetéktelen hozzáférés megakadályozása érdekében a munkaállomást zárolni, i) a rendelkezésre bocsátott eszközöket megóvni, j) a kötelező informatikai és információbiztonsági előadásokon, képzéseken részt venni, k) az információbiztonsági szakterülettel együttműködni."
+    },
+    {
+      "provision_ref": "s37",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "37",
+      "title": "37. §",
+      "content": "37. § A felhasználó a munkavégzés folyamatában köteles a) a monitorok elhelyezését úgy kell kialakítani, hogy a képernyők tartalma ne legyen olvasható illetéktelen személyek számára, b) a munkaállomását zárolni, ha azt őrizetlenül hagyja, illetve kikapcsolni az épületből való tartós idejű távozás esetén, c) a munkafázis végeztével kijelentkezni az alkalmazásokból, d) a munkavégzés befejezésével a munkaállomás környezetéből és az íróasztalról minden iratot zárt szekrényben elhelyezni."
+    },
+    {
+      "provision_ref": "s38",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "38",
+      "title": "38. §",
+      "content": "38. § A felhasználó munkavégzése során nem engedélyezett a) a hivatali munkavégzés és feladatellátás céljából kiadott infokommunikációs eszközök magáncélú használata, magáncélú adatfeldolgozás és adatkezelés, b) az informatikai rendszerben tárolt adat jogosultság nélküli megismerése, másolása, továbbítása, szabályoktól eltérő felhasználása, c) az informatikai és infokommunikációs eszközökhöz – különösen a hordozható eszközökhöz – a felhasználón kívül további személy részére hozzáférés biztosítása, d) más felhasználó jogosultságainak használata, más felhasználói jelszavak kipróbálása, illetve ezek kísérlete, e) más felhasználó munkaállomásán vagy hálózati meghajtóján szereplő adat illetéktelen megtekintése, másolása, jogosultság nélküli továbbítása, f) a nem megbízható, nem titkosított WIFI- vagy egyéb hálózatokhoz történő csatlakozás, g) a központi informatikai szolgáltató által meghatározott védelmi, eszköz hozzáférést korlátozó megoldás (pl. jelszó) kikapcsolása vagy bármely egyéb módon való megkerülése, felfüggesztése, h) a feladatellátáshoz nem szükséges vagy ahhoz nem kapcsolódó, továbbá az eszköz gyártója által nem javasolt eszköz vagy szoftver telepítése, i) az informatikai rendszer elemét képező, hivatalosan telepített szoftver törlése, j) az informatikai eszközök megbontása, a hardver konfigurációk megváltoztatása, engedély nélküli csatlakoztatása, áthelyezése, k) a minisztériumi munkához köthető adat, információ, dokumentum közösségi média (pl. Facebook, LinkedIn) igénybevételével való mozgatása vagy tárolása, l) nem kormányzati online tárhelyek, ingyenes levelező szolgáltatások használata, nem kormányzati online szolgáltatások (webáruház, társkereső szolgáltatás, pénzügyi szolgáltatások stb.) igénybevételéhez a minisztériumi azonosítók használata."
+    },
+    {
+      "provision_ref": "s39",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "39",
+      "title": "39. §",
+      "content": "39. § A felhasználók csak a minisztérium vagy a NISZ Zrt. által biztosított informatikai eszközöket és engedélyezett szoftvereket használhatják munkavégzésre. Ettől eltérni csak az érintett szervezeti egység vezetőjének kezdeményezésére, az informatikai biztonsági vezető előzetes jóváhagyásával lehet."
+    },
+    {
+      "provision_ref": "s40",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "40",
+      "title": "40. §",
+      "content": "40. § A minisztérium információs javait tartalmazó adathordozó, informatikai eszköz javítását, adat-visszaállítását, illetve adatmentést kizárólag a minisztérium által engedélyezett eljárásrendben lehet igénybe venni. Tilos a gyártó által működtetett hivatalos szakszerviz vagy szolgáltató közvetlen igénybevétele."
+    },
+    {
+      "provision_ref": "s41",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "41",
+      "title": "41. §",
+      "content": "41. § (1) Az adatokat a kiszolgálók vagy hálózati tárterületek megfelelő könyvtáraiban kell tárolni, ahol biztosítható azok rendszeres mentése és biztonságos tárolása. A megfelelő könyvtárba mentés a felhasználó felelőssége. (2) Nem tárolható adat a munkaállomás, informatikai eszköz saját tárhelyén."
+    },
+    {
+      "provision_ref": "s42",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "42",
+      "title": "42. §",
+      "content": "42. § (1) A felhasználó kötelességszegése esetén a szervezeti egység vezetője a munkáltatói jogkör gyakorlójának engedélyével jogosult ezzel kapcsolatos ellenőrzést kezdeményezni, és azt az informatikai biztonsági vezető útján és közreműködésével lefolytatni. (2) Az ellenőrzés keretében sor kerülhet a felhasználó használatba adott informatikai eszköz és a felhasználó tevékenységével összefüggő adatok, naplófájlok vizsgálatára. Az ellenőrzést követően a munkáltatói jogkör gyakorlója saját hatáskörében dönt az alkalmazandó szankcióról."
+    },
+    {
+      "provision_ref": "s43",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "43",
+      "title": "43. §",
+      "content": "43. § Számítástechnikai eszközöket, adathordozókat, programokat kizárólag a szervezeti egységek vezetőinek írásos engedélyével, meghatározott időtartamra szabad kivinni a minisztériumból a személyi felelősség egyértelművé tételével. Ez alól kivételt képeznek a NISZ Zrt. által a feladatellátáshoz biztosított mobil eszközök, melyek dokumentált átadásával válik jogosulttá a felhasználó azok házon kívüli használatára."
+    },
+    {
+      "provision_ref": "s44",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "44",
+      "title": "44. §",
+      "content": "44. § A felhasználók munkaállomásainak beállításait a NISZ Zrt., illetve az erre feljogosított személyek végezhetik el."
+    },
+    {
+      "provision_ref": "s45",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "45",
+      "title": "45. §",
+      "content": "45. § A felhasználók az általuk használt informatikai eszköz hibáját a NISZ Zrt. ügyfélszolgálatán az erre a célra rendszeresített e-mail-címen vagy telefonszámon jelenthetik be."
+    },
+    {
+      "provision_ref": "s46",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "46",
+      "title": "46. §",
+      "content": "46. § (1) A minisztérium részére a nyílt internet szolgáltatást, a szolgáltatás védelmét és felügyeletét a NISZ Zrt. biztosítja. (2) Az internet szolgáltatás igénybevételére kizárólag a munkavégzéssel összefüggően és a hivatali feladatok ellátása érdekében van lehetőség. Fájlokat letölteni kizárólag a feladatellátáshoz kapcsolódóan lehet."
+    },
+    {
+      "provision_ref": "s47",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "47",
+      "title": "47. §",
+      "content": "47. § Az internethasználat során nem engedélyezett a) a munkavégzéshez nem szükséges, jogvédett, illetve illegális tartalmak, fájlok letöltése, b) fájlletöltő szolgáltatások használata, c) az internetböngésző, illetve a munkaállomás egyéb biztonsági beállításainak megváltoztatása, kiiktatása, d) a szervezeti egység vezetője, valamint az informatikai biztonsági vezető jóváhagyása nélkül a munkavégzéshez nem kapcsolódó internetes szolgáltatást nyújtó külső féllel hálózati kapcsolat kialakítása, e) a munkahelyi e-mail-címmel a munkavégzéssel, feladatellátással össze nem függő vagy a foglalkoztatáshoz nem kötődő szolgáltatásokra való regisztráció, feliratkozás, bármilyen egyéb visszaélésszerű használat, f) jogsértő módon terjesztett anyagot továbbító („warez”), szerencsejáték- és egyéb onlinejáték-oldalak látogatása, online filmnézés."
+    },
+    {
+      "provision_ref": "s48",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "48",
+      "title": "48. §",
+      "content": "48. § (1) A minisztérium részére a levelező szolgáltatást és annak felügyeletét a NISZ Zrt. biztosítja. (2) A levelezési szolgáltatás rendszergazdai feladatait ellátó a NISZ Zrt. a munkahelyi postafiókról az információbiztonság érdekében biztonsági mentést valamint a postafiók inaktiválása után archív állományt készít. (3) A NISZ Zrt. által rendelkezésre bocsátott hivatalos levelezési szolgáltatáson kívül hivatali célra egyéb, alternatív levelezési szolgáltatások (pl. Gmail) nem használhatóak."
+    },
+    {
+      "provision_ref": "s49",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "49",
+      "title": "49. §",
+      "content": "49. § A levelezőrendszer használata során nem engedélyezett a) a hivatali e-mail-címet nem hivatalos minőségben használni (pl. regisztráció letöltési weboldalakra, online játék oldalakra, közösségi oldalakra, nem munkához köthető szolgáltatások igénybevételére stb.), b) a reklám vagy egyéb üzleti célra történő használat, c) a hivatali e-mail-címről spamek, lánclevelek küldése és továbbküldése, d) ismeretlen helyről származó, gyanús e-mail (csatolmány) megnyitása."
+    },
+    {
+      "provision_ref": "s50",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "50",
+      "title": "50. §",
+      "content": "50. § A minisztérium által biztosított, névre szólóan kiadott elektronikus levélcímek (keresztnév.vezetéknév@ktm.gov.hu), valamint a meghatározott célból és feladatellátásra létrehozott technikai postafiókok, illetve szolgáltatások kizárólag a munkavégzéssel összefüggésben és annak érdekében használhatók."
+    },
+    {
+      "provision_ref": "s51",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "51",
+      "title": "51. §",
+      "content": "51. § (1) Magáncélú használatnak minősül a szervezeti egység ügyrendjéhez, a beosztási okiratban vagy a munkaköri leírásban foglaltakhoz nem igazodó, valamint a minisztérium ügyviteli folyamataihoz, SZMSZ-ben rögzített feladatainak ellátáshoz nem kapcsolódó levelek, adatok kezelése, tárolása, fogadása és továbbítása. (2) Magáncélú levelezésre a munkáltató által a NISZ Zrt. révén biztosított internet-hozzáférésen keresztül vehető igénybe alternatív levelezési szolgáltatás."
+    },
+    {
+      "provision_ref": "s52",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "52",
+      "title": "52. §",
+      "content": "52. § Nem minősül magáncélú használatnak az olyan személyes adatok levelezőrendszerben vagy egyéb infokommunikációs eszközön, rendszerben való kezelése, tárolása, műveletek végzése, amelyek egyértelműen az ügyviteli folyamatokhoz kapcsolódóan a feladatellátás érdekében, illetve a munkavégzés során keletkeznek, vagy azokhoz kapcsolódnak."
+    },
+    {
+      "provision_ref": "s53",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "53",
+      "title": "53. §",
+      "content": "53. § A magáncélú használat tiltása alól kivételt képez a központi szolgáltató által biztosított publikus internet szakmai tájékozódást, ismeretszerzést, továbbképzést, kutatást támogató/elősegítő igénybevétele, amennyiben az nem hátráltatja a feladatellátást vagy annak minőségét."
+    },
+    {
+      "provision_ref": "s54",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "54",
+      "title": "54. §",
+      "content": "54. § (1) A felhasználó a magánjellegű személyes adatokat tartalmazó leveleket, fájlokat, mellékleteket köteles egyértelműen azonosítható és elkülönített, „PRIVÁT” elnevezésű mappába rendezni, továbbá azokat a tárhely és erőforrás gazdálkodás támogatása érdekében rendszeres időközönként eltávolítani vagy azokat archiválni. (2) A munkavégzéssel összefüggésben keletkezett és tárolt magáncélú levelek egységes adatbázisként kerülnek mentésre. A magánjellegű, magáncélú levelek elkülönítése a felhasználó feladata és felelőssége."
+    },
+    {
+      "provision_ref": "s55",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "55",
+      "title": "55. §",
+      "content": "55. § (1) Amennyiben a feladatellátás során a hivatali munkavégzés során nem támogatott levelezési szolgáltatást kell igénybe venni, úgy a levél törzsszövegébe kizárólag publikus információk foglalhatók bele. (2) Az (1) bekezdés szerinti adattovábbítás esetén a minisztérium adatvagyonát képző információt tartalmazó dokumentumot jelszóval védett mellékletként kell a levélhez csatolni, a melléklet megnyitásához szükséges jelszót pedig külön csatornán (pl. SMS) kell megküldeni a fogadó fél részére."
+    },
+    {
+      "provision_ref": "s56",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "56",
+      "title": "56. §",
+      "content": "56. § A munkafolyamatok folyamatosságának és zökkenőmentességének fenntartása érdekében az adatgazda meghatározhatja a munkavégzés során keletkezett levelek, fájlok, információk közös tárhelyen, illetve a hálózati meghajtón való tárolási rendjét, rendszerét."
+    },
+    {
+      "provision_ref": "s57",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "57",
+      "title": "57. §",
+      "content": "57. § A minisztérium informatikai rendszerében kezelt kormányzati igazgatási irat tekintetében a Közigazgatási és Területfejlesztési Minisztérium Egyedi Iratkezelési Szabályzatáról szóló 11/2024. (III. 7.) KTM utasítás 69. §-a rendelkezéseit kell alkalmazni."
+    },
+    {
+      "provision_ref": "s58",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "58",
+      "title": "58. §",
+      "content": "58. § (1) A minisztérium ellenőrizheti a munkavégzéshez biztosított információtechnológiai vagy számítástechnikai eszközök és rendszerek állapotát, meglétét, rendeltetésszerű használatát. (2) Az ellenőrzés során a minisztérium technikai, információtechnológiai eszközöket alkalmaz, valamint igénybe veszi az adatfeldolgozásban, üzemeltetésben, érintett szolgáltató vagy más szerződéses partner közreműködését az adatok célhoz kötött elemzése, felhasználása, következtetések levonása érdekében. (3) Az ellenőrzés elrendelésére a hivatali szervezet vezetője vagy a hivatali szervezet vezetőjének egyidejű írásbeli tájékoztatása és jóváhagyása mellett a vizsgálattal érintett dolgozó munkáltatói jogkörének gyakorlója jogosult."
+    },
+    {
+      "provision_ref": "s59",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "59",
+      "title": "59. §",
+      "content": "59. § (1) Az ellenőrzés alá vonható infokommunikációs eszközök: a) a számítógépek, informatikai rendszerek, b) napló/log állományok, automatikusan rögzített eseménybejegyzések, c) önálló adatbázissal rendelkező alkalmazások, d) munkavégzés céljából rendelkezésre bocsátott munkaállomások, e) hordozható infokommunikációs eszközök (laptop, telefon, tablet, hordozható adattárolók stb.). (2) A kizárólag munkahelyi tárgyú hivatalos levelezés, illetve az ügyviteli tevékenységhez, feladatellátáshoz kapcsolódó tárgyú levelek kiadása, valamint a nem személyhez rendelt postafiókokban tárolt levél korlátozás nélkül megismerhető."
+    },
+    {
+      "provision_ref": "s60",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "60",
+      "title": "60. §",
+      "content": "60. § (1) Az ellenőrzés során a fokozatosság, arányosság és szükségesség elvét érvényesítve olyan vizsgálati eszköz, megoldás alkalmazható, amely alkalmas a cél elérésére, a legkisebb beavatkozással jár az érintett privát szférájába, és amely során az adatkezelés nem terjeszkedik túl a cél eléréséhez szükséges eszközökön és személyes adatokon. (2) A vizsgálat kizárólag az informatikai biztonsági vezető irányításával, az SZDF vezetője, illetve szükség esetén az adatvédelmi tisztviselő bevonásával folytatható le. (3) Az ellenőrzés nem terjedhet ki a felhasználó által létrehozott „PRIVÁT” vagy hasonló jelölésű, egyértelműen magánjellegű adat tárolására létrehozott mappákra, tárolókra."
+    },
+    {
+      "provision_ref": "s61",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "61",
+      "title": "61. §",
+      "content": "61. § (1) Az ellenőrzést dokumentált formában, a helyszíni ellenőrzést jegyzőkönyv felvételével kell végrehajtani. Az ellenőrzési dokumentáció tartalmazza a) a vizsgálatot elrendelő nevét, beosztását, b) a vizsgálatot elrendelő feljegyzést, utasítást, c) a vizsgálattal érintett munkatárs azonosítására vonatkozó adatokat, d) a vizsgálat elrendelésének indokolását (a vizsgálat célja, szükségességét alátámasztó tények, adatok rögzítése), e) a vizsgálat módszertanát, f) a vizsgálat kezdő és záró időpontját, időtartamát, g) a vizsgálatban részt vevők megnevezését (szakterület, beosztás). (2) A vizsgálat megkezdéséről értesíteni szükséges a) a hivatali szerv vezetőjét, b) a vizsgálattal érintett munkatársat, amennyiben az értesítés nem veszélyezteti a vizsgálat lefolytatását és annak eredményességét), c) a munkáltatói jogkört gyakorló vezetőt."
+    },
+    {
+      "provision_ref": "s62",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "62",
+      "title": "62. §",
+      "content": "62. § (1) A vizsgálat eredményét összefoglaló jelentést az SZDF vezetője és az informatikai biztonsági vezető készíti el. (2) Az összefoglaló jelentés megismerésére korlátozás nélkül jogosult a hivatali szervezet vezetője és az általa feljogosított munkatárs, illetve a munkáltatói jogkör gyakorlója. (3) A vizsgálat eredménye alapján a hivatali szervezet vezetője dönt a további jogi, munkáltatói intézkedések szükségességéről és azok alkalmazásáról."
+    },
+    {
+      "provision_ref": "s63",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "63",
+      "title": "63. §",
+      "content": "63. § A kilépő vagy az áthelyezéssel szervezeti egységet váltó felhasználó esetén az adatgazda saját hatáskörben intézkedik az érintett felhasználó számítógépén tárolt adatvagyon elszámoltatásáról, valamint kezdeményezi a felhasználó részére kiadott hozzáférési jogosultságok megszüntetését."
+    },
+    {
+      "provision_ref": "s64",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "64",
+      "title": "64. §",
+      "content": "64. § (1) A kilépő vagy felmentési idejét töltő, illetve a szervezeti egységet váltó felhasználó legkésőbb a felmentési, felmondási idő végéig köteles felülvizsgálni a levelezését, az általa használt közös meghajtók és számítógép, egyéb információtechnológiai eszköz tartalmát, és köteles arról eltávolítani az IBSZ-szel ellentétes tartalmú adatokat, információkat. (2) A felhasználó kizárólag a magánjellegű, a munkavégzéshez, a foglalkoztatáshoz, ügyviteli tevékenységhez nem kapcsolódó, ügyviteli értéket nem képviselő leveleket, adatokat, fájlokat jogosult saját eszközre menteni."
+    },
+    {
+      "provision_ref": "s65",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "65",
+      "title": "65. §",
+      "content": "65. § (1) Az adatgazda kezdeményezésére, a felhasználó helyettesítésére jogosult vagy az adatgazda által írásban kijelölt munkatárs jogosult meghatározott ideig a tartós távolléten lévő vagy vis maior helyzetből következően nem elérhető munkatárs levelezésébe, valamint az infokommunikációs eszközein található adatokba való betekintésre. (2) A betekintés tényét, idejét és célját dokumentálni kell, annak végrehajtása során a 72. § előírásai szerint kell eljárni."
+    },
+    {
+      "provision_ref": "s66",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "66",
+      "title": "66. §",
+      "content": "66. § Soron kívüli jogviszony megszüntetése vagy egyedi kilépési eljárás esetén a szervezeti egység vezetője vagy a humánpolitikai szakterület a jogosultságok teljes körű megvonásának kezdeményezése érdekében közvetlenül értesíti a NISZ Zrt.-t és az informatikai biztonsági vezetőt."
+    },
+    {
+      "provision_ref": "s67",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "67",
+      "title": "67. §",
+      "content": "67. § A munkáltató előzetes figyelmeztetés nélkül, a minisztérium biztonsági érdekeinek vagy a szervezeti integritás védelme érdekében bármely időpontban jogosult korlátozni vagy megszüntetni a felhasználó jogosultságát, valamint a munkavégzéssel nem összefüggő, nem rendeltetésszerű felhasználói tevékenységet."
+    },
+    {
+      "provision_ref": "s68",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "68",
+      "title": "68. §",
+      "content": "68. § (1) A védelmi intézkedés katalógus a minisztérium adatait kezelő informatikai rendszerre érvényes biztonsági osztályokhoz rendelt követelményeket és azok teljesítésének módját határozza meg. (2) A minisztérium az elvégzett besorolás alapján az informatikai rendszerre érvényes biztonsági osztályhoz rendelt követelményeket a BM rendelet 3. melléklete alapján köteles teljesíteni."
+    },
+    {
+      "provision_ref": "s69",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "69",
+      "title": "69. §",
+      "content": "69. § (1) Amennyiben a minisztérium az informatikai rendszernek csak egyes elemeit vagy funkcióit üzemelteti vagy használja, úgy az adott biztonsági osztály tekintetében meghatározott követelményeket ezen elemek és funkciók tekintetében kell teljesíteni. (2) Amennyiben az adott informatikai rendszert több szervezet használja, az informatikai rendszer üzemeltetője az üzemeltetés elektronikus információbiztonságához szükséges követelményeket az informatikai rendszeren tevékenységet végző minden, informatikai rendszerrel rendelkező szervezet tekintetében érvényesíti."
+    },
+    {
+      "provision_ref": "s70",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "70",
+      "title": "70. §",
+      "content": "70. § A minisztérium a védelmi intézkedés katalógusban meghatározott minimális követelményeket a BM rendelet 4. melléklete szerinti egyedi eltérésekkel és helyettesítő biztonsági intézkedésekkel is teljesítheti, a rendszerre meghatározott biztonsági kockázati szintnek megfelelő intézkedések kiválasztásával, azzal, hogy az érintett szervezetre érvényes minden kötelezettséget figyelembe kell venni."
+    },
+    {
+      "provision_ref": "s71",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "71",
+      "title": "71. §",
+      "content": "71. § (1) A minisztérium rendelkezésében álló, külső személy által üzemeltetett informatikai rendszer tekintetében a védelmi intézkedés katalógusban meghatározott feladatok ellátását szerződéses kötelemként kell meghatározni, különös tekintettel a BM rendeletben meghatározott adminisztratív, fizikai és logikai védelmi intézkedésekkel összefüggően a szerződő fél feladatkörébe tartozó kötelezően biztosítandó dokumentumok elkészítésének előírására. (2) A kötelezően biztosítandó dokumentumok elkészítése az Ibtv. által az informatikai rendszer biztonságának felügyeletére meghatározott hatóságnak az informatikai rendszer biztonsági osztályba sorolásával kapcsolatban előírt adatszolgáltatási követelményeire, így a követelmények teljesítését igazoló összefoglaló adattábla elkészítésére is vonatkozik."
+    },
+    {
+      "provision_ref": "s72",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "72",
+      "title": "72. §",
+      "content": "72. § A fizikai védelmi intézkedések a BM rendelet 4. melléklet 3. Védelmi intézkedés katalógus pont 3.2. alpontjában foglaltak figyelembevételével az informatikai rendszer biztonsági osztályaihoz igazítva kerülnek meghatározásra."
+    },
+    {
+      "provision_ref": "s73",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "73",
+      "title": "73. §",
+      "content": "73. § (1) A fizikai biztonsági zónákba mint biztonsági területekbe való belépési jogosultságokat úgy kell meghatározni, hogy az egyes személyeket és azok csoportjait az informatikai rendszerben vagy környezetében betöltött szerepük alapján kell hozzárendelni a helyiségekhez. (2) A minisztérium azon helyiségeiben, ahol informatikai rendszer működik, vagy ahol számítástechnikai eszközök vannak, csak azok a személyek tartózkodhatnak, akik ott dolgoznak vagy a minisztérium állományába tartoznak. Más személyek csak kísérettel és állandó felügyelet mellett tartózkodhatnak ezekben a helyiségekben. (3) A biztonsági területekre és az egyes biztonsági zónákba való belépést, beléptetést ellenőrizni és naplózni kell."
+    },
+    {
+      "provision_ref": "s74",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "74",
+      "title": "74. §",
+      "content": "74. § (1) A minisztérium irodáinak védelme érdekében a kulcsokat tilos nyilvános, idegenek számára is könnyen hozzáférhető helyen tárolni, a helyiségek elhagyásakor – ha az felügyelet nélkül marad –, az ajtókat kulccsal zárni kell. (2) Az informatikai rendszer használata során a 39. § szerint kell eljárni. A távozáskor ki nem jelentkezett munkaállomás felhasználó profiljának védelme érdekében jelszóvédett, automatikus zárolás kerül biztosításra a NISZ Zrt. által nyújtott szolgáltatás keretében."
+    },
+    {
+      "provision_ref": "s75",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "75",
+      "title": "75. §",
+      "content": "75. § Az elektronikus információs eszközök biztonsága érdekében a) az eszközöket úgy kell elhelyezni és védelmüket úgy kell kialakítani, hogy az megakadályozza az illetéktelen hozzáférést és a helyiség észrevétlen megközelítését; b) a munkaállomást és a perifériákat a napi munkavégzés befejezésekor ki kell kapcsolni, ez alól csak azok az eszközök kivételek, amelyek automatikusan kikapcsolnak (pl. hálózati nyomtatók); c) az elektronikus információs eszközöket üzem közben letakarni, a szellőzőnyílásokat eltakarni tilos; d) be kell tartani a tűzvédelmi előírásokat; e) a mobilitás és a kis méret miatt a mobil elektronikus információs eszközöket védeni kell a lopás ellen, azokat nem szabad őrizetlenül hagyni olyan helyen, illetve helyiségben, ahol idegen személy hozzáférhet; f) a mobil elektronikus információs eszközök eltűnése esetén az eltűnését az észlelést követően azonnal jelenteni kell a közvetlen munkahelyi vezetőnek és az informatikai biztonsági vezetőnek a további intézkedések megtétele céljából, valamint tájékoztatni kell őket arról, hogy az eszköz tartalmazott-e hivatali információt."
+    },
+    {
+      "provision_ref": "s76",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "76",
+      "title": "76. §",
+      "content": "76. § Az elektronikus információs eszközök használatát a minisztérium területén kívül a legszükségesebb mértékűre kell korlátozni. Hivatali munkavégzésre elsődlegesen a minisztérium vagy a kormányzati informatikai szolgáltató tulajdonát képező hordozható elektronikus információs eszköz használata engedélyezhető."
+    },
+    {
+      "provision_ref": "s77",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "77",
+      "title": "77. §",
+      "content": "77. § A folyamatos működés érdekében a minisztérium elektronikus információs eszközeinek karbantartása és ellenőrzése az üzemeltető saját, a jelen IBSZ rendelkezéseivel összhangban lévő eljárása szerint történik."
+    },
+    {
+      "provision_ref": "s78",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "78",
+      "title": "78. §",
+      "content": "78. § Az elektronikus információs eszközök biztonságos újrahasznosítása vagy mások rendelkezésére bocsátása előtt a szolgáltatónak vagy az eszközt biztosító szervezetnek gondoskodnia kell arról, hogy az elektronikus információs eszközökön tárolt információk visszaállíthatatlanul eltávolításra kerüljenek."
+    },
+    {
+      "provision_ref": "s79",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "79",
+      "title": "79. §",
+      "content": "79. § Amennyiben a felhasználó, vagy az üzemeltető a minisztérium adatait kezelő informatikai rendszerben biztonsági eseményt észlel, haladéktalanul e-mailben jelzi az informatikai biztonsági vezetőnek és az érintett szervezeti egység vezetőjének. Ha az e-mailben történő bejelentés nem lehetséges, telefon útján is sor kerülhet a bejelentésre."
+    },
+    {
+      "provision_ref": "s80",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "80",
+      "title": "80. §",
+      "content": "80. § Az informatikai biztonsági vezető a beérkezett és rögzített bejelentések alapján, az érintett felhasználó és az üzemeltető bevonásával a) vizsgálatot kezdeményez és folytat le, b) intézkedik a szükséges hatósági bejelentések megtételéről, c) gondoskodik a vizsgálat eredményének közléséről a bejelentő és az érintett szervezeti egység vezetőjének irányába."
+    },
+    {
+      "provision_ref": "s81",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "81",
+      "title": "81. §",
+      "content": "81. § Az informatikai biztonsági vezető az egyes eseményeket, illetve eseménytípusokat az aktuális helyzet függvényében, a minisztérium szervezetére és feladatellátására gyakorolt hatásukat figyelembe véve jelenti a közigazgatási államtitkárnak, illetve e-mailben tájékoztatást ad a minisztérium felhasználóinak."
+    },
+    {
+      "provision_ref": "s82",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "82",
+      "title": "82. §",
+      "content": "82. § Az informatikai biztonsági vezető a biztonsági eseményeket folyamatosan nyomon követi és az üzemeltető bevonásával haladéktalanul intézkedik a zavartalan működés visszaállása érdekébent."
+    },
+    {
+      "provision_ref": "s83",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "83",
+      "title": "83. §",
+      "content": "83. § Az informatikai eszközökön tapasztalt biztonsági eseménynek nem minősülő rendellenességeket, működési zavarokat is jelenteni kell az üzemeltetőnek. Ilyen esetben is rögzíteni kell a zavaró jelenséget és a hibaüzenetet, majd be kell szüntetni az adott eszközön folytatott tevékenységet."
+    },
+    {
+      "provision_ref": "s84",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "84",
+      "title": "84. §",
+      "content": "84. § Illetéktelen beavatkozás vagy vírustámadás gyanúja esetén az érintett munkaállomást ki kell kapcsolni és azonnal le kell választani a hálózatról, a hordozható adathordozókat (pendrive, CD-ROM) pedig az SZDF-nek vizsgálat céljából át kell adni, és kizárólag a biztonsági ellenőrzést követően használhatók újra."
+    },
+    {
+      "provision_ref": "s85",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "85",
+      "title": "85. §",
+      "content": "85. § Az informatikai biztonsági vezető az üzemeltető bevonásával a Nemzeti Kibervédelmi Intézet által jelzett eseményeket kivizsgálja, a szükséges védelmi intézkedéseket megteszi és tájékoztatja az érintett felhasználókat, valamint jelentést teszt a Nemzeti Kibervédelmi Intézet részére."
+    },
+    {
+      "provision_ref": "s86",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "86",
+      "title": "86. §",
+      "content": "86. § (1) A minisztérium által kiadott mobil adathordozó kizárólag a munkavégzéssel összefüggésben használható fel. A feldolgozásokhoz, mentésekhez, archiválásokhoz alkalmas adathordozók biztosításáról az SZDF a NISZ Zrt. bevonásával gondoskodik. Az adathordozók kiadása, fogadása az SZDF által dokumentált és ellenőrzött módon történik. (2) Az adathordozókat zárható szekrényben kell elhelyezni úgy, hogy tárolás közben ne sérüljenek, ne károsodjanak. A munkaasztalon csak azokat az adathordozókat szabad tárolni, amelyek az aktuális feldolgozáshoz, munkához szükségesek. (3) A minisztérium által kiadott adathordozókról az SZDF nyilvántartást vezet. A nyilvántartó lapot és az adathordozót együttesen tűzálló lemezszekrényben kell tárolni. (4) Adathordozót minisztériumon kívül más szervezet vagy személy részére átadni csak az adatgazda szervezeti egység vezető engedélyével lehet. (5) Az adathordozók szállítása során az adatvesztés megakadályozása céljából gondoskodni kell az adathordozó mechanikai és mágneses védelméről."
+    },
+    {
+      "provision_ref": "s87",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "87",
+      "title": "87. §",
+      "content": "87. § (1) A mobil adathordozón nem tárolható a) a minisztérium jó hírnevét, megítélését negatívan befolyásoló vagy a minisztériumot rossz színben feltüntető tartalom, b) szellemi tulajdonjog által védett tartalom, a jog tulajdonosának engedélye nélkül. (2) Az adathordozón tárolt adatok kockázatokkal arányos védelméért továbbá az adathordozón található adatok törléséért a felhasználó felel. A törlési folyamat során úgy kell eljárni, hogy az adatok logikai-fizikai úton a törlést követően ne legyenek visszaállíthatók."
+    },
+    {
+      "provision_ref": "s88",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "88",
+      "title": "88. §",
+      "content": "88. § Esetleges újrafelhasználás előtt, illetve selejtezéskor az adathordozóról minden adattartalmat a rajta lévő adatok megsemmisítése céljából törölni kell."
+    },
+    {
+      "provision_ref": "s89",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "89",
+      "title": "89. §",
+      "content": "89. § Az adathordozók őrzési idejére a Közigazgatási és Területfejlesztési Minisztérium Egyedi Iratkezelési Szabályzatáról szóló 11/2024. (III. 7.) KTM utasítás mellékletét képező Irattári Tervben megállapított megőrzési idő az irányadó."
+    },
+    {
+      "provision_ref": "s90",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "90",
+      "title": "90. §",
+      "content": "90. § Selejtezni kell és a selejtezés során fizikai roncsolással használhatatlanná és olvashatatlanná kell tenni azt az adathordozót, amely a) fizikailag sérült és javíthatatlan, b) gyártási, tárolási hibából következően felhasználásra alkalmatlan, c) nem formatálható, a formatálás rossz adatterületeket mutat, vagy egyéb módon biztonsági kockázatot hordoz."
+    },
+    {
+      "provision_ref": "s91",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "91",
+      "title": "91. §",
+      "content": "91. § A minisztérium részére a NISZ Zrt. biztosítja a munkaállomások, az internet és elektronikus levélforgalom rendszeresen frissített vírusvédelmét."
+    },
+    {
+      "provision_ref": "s92",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "92",
+      "title": "92. §",
+      "content": "92. § A vírusok elleni védelem kialakítása során a minisztérium adatait kezelő informatikai rendszer esetében – figyelemmel a NISZ Zrt. vírusvédelmi rendszerére – az alábbiak szerint kell eljárni: a) vírusvédelem nélkül sem hálózati, sem önálló munkaállomás vagy hordozható számítógép nem használható, b) dokumentumok esetében kerülni kell a makrók megnyitását, c) külső forrásból érkező dokumentumok esetében a makrók megnyitását nem szabad engedélyezni, d) ha a vírus helye nem lokalizálható, az informatikai szakterület és a NISZ Zrt. jogosult a hálózat egyes funkcióit vagy a teljes hálózat felhasználói szolgáltatásait a vírusveszély elhárításáig felfüggeszteni az informatikai biztonsági vezető értesítése mellett."
+    },
+    {
+      "provision_ref": "s93",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "93",
+      "title": "93. §",
+      "content": "93. § (1) Vírus észlelését vagy gyanúját minden esetben jelezni kell az informatikai biztonsági vezetőnek a szervezeti egység vezetőjének tájékoztatása mellett. A felhasználó köteles a vírusgyanús levelet megküldeni az informatikai biztonsági vezető részére a levél mellékletének vagy hivatkozásainak további vizsgálata céljából. (2) Vírusfertőzés estén az informatikai biztonsági vezető az SZDF bevonásával, a NISZ Zrt.-vel közösen gondoskodik a vírus további terjedésének megakadályozásáról és a szükséges védelmi intézkedésekről. (3) A vírusfertőzés felszámolása alatt az érintett informatikai rendszer működése, a gyors és teljes körű vírusmentesítés érdekében az erre szükséges mértékben felfüggeszthető."
+    },
+    {
+      "provision_ref": "s94",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "94",
+      "title": "94. §",
+      "content": "94. § Az informatikai biztonsági vezető az SZDF bevonásával a Nemzeti Kibervédelmi Intézet, a NISZ Zrt. biztonsági szakterülete által tett jelzések alapján értesíti a felhasználókat a rendszerhibát okozó lánclevelekről, illetve az illegális programok használatának veszélyeiről, továbbá figyelmezteti a felhasználókat a frissen megjelent fenyegetésekről."
+    },
+    {
+      "provision_ref": "s95",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "95",
+      "title": "95. §",
+      "content": "95. § (1) Az informatikai biztonsági vezető az SZDF bevonásával a minisztérium rendelkezésében lévő informatikai rendszer esetében sérülékenység tesztet végeztet az Ibtv. 18. §-ában meghatározott szervezet által, ha azt az elektronikus információs rendszer fejlesztési, üzemeltetési és használati körülményei lehetővé teszik. (2) A sérülékenység teszt elvégzését az adatgazda szakterület kezdeményezésére az informatikai biztonsági vezető jóváhagyását követően a közigazgatási államtitkár engedélyezi. (3) A sérülékenység teszt eredményét az üzemeltető az érintettek bevonásával elemzi, a feltárt hibák elhárításhoz a szükséges intézkedéseket – az informatikai biztonsági vezető előzetes tájékoztatása mellett – megteszi, vagy azokra javaslatot tesz."
+    },
+    {
+      "provision_ref": "s96",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "96",
+      "title": "96. §",
+      "content": "96. § (1) Az informatikai biztonsági vezető az SZDF bevonásával, a biztonságtudatosító program keretében rendszeresen megtartásra kerülő előadásokkal, valamint hír- és körlevelek segítségével gondoskodik arról, hogy a) a felhasználók tisztában legyenek az alapvető információbiztonsági veszélyekkel és fenyegetésekkel, azok felhasználói szintű kezeléséhez a szükséges ismereteket megszerezzék, b) információbiztonsági ismereteiket szinten tartsák és folyamatosan bővítsék, c) munkavégzésük során biztonságtudatos magatartást tanúsítsanak. (2) A biztonságtudatossági programon való részvétel és a szervezett képzéseken való részvételt az SZDF dokumentálja. (3) A Probono rendszer használatára jogosult felhasználók éves képzési kötelezettségüket a felületen közzétett információbiztonsági képzések elvégzésével is teljesíthetik."
+    },
+    {
+      "provision_ref": "s97",
+      "chapter": "III. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "97",
+      "title": "97. §",
+      "content": "97. § Az IBSZ rendelkezéseinek szándékos, gondatlan vagy mulasztásból eredő megsértése, megkerülése, figyelmen kívül hagyása munkajogi, súlyosabb esetben büntetőjogi következményeket von maga után."
+    },
+    {
+      "provision_ref": "s98",
+      "chapter": "III. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "98",
+      "title": "98. §",
+      "content": "98. § A felhasználók tájékoztatása érdekében az IBSZ szövegét a) elektronikus formában a minisztérium intranetes felületén közzé kell tenni, b) kinyomtatott formában az SZDF irattárában szükséges elérhetővé kell tenni, illetve igény szerint szerződéses partner részére másolatban rendelkezésre bocsátani."
+    },
+    {
+      "provision_ref": "s99",
+      "chapter": "III. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "99",
+      "title": "99. §",
+      "content": "99. § Ez az utasítás 2024. július 31. napján lép hatályba. 1. A kockázatelemzés lépései 1.1. Az elektronikus információs rendszert érintő fenyegetések azonosítása és azok rangsorának meghatározására során a) első lépésként a számításba vehető fenyegető tényezőket kell rögzíteni (pl. kártékony kódok, szolgáltatásmegtagadást okozó támadások, szolgáltatás kiesések, jogosulatlan adathozzáférést vagy módosítást elérő támadások, célzott támadások, kéretlen levelek, social engineering, üzemeltetési hiányosságok, kapacitás problémák, szabályozási hiányosságok), majd b) az a) pont alapján azonosított fenyegetések várható bekövetkezési valószínűségének (alacsony, mérsékelt, közepes, fokozott, magas) és a bekövetkezés által okozott kár nagyságának (jelentéktelen, csekély, közepes, magas, kritikus) meghatározását kell elvégezni az alábbi 1. segédtáblával. 1. segédtábla alacsony mérsékelt közepes fokozott magas jelentéktelen csekély közepes magas kritikus 1.2. Az 1. segédtábla kitöltését a kitöltést megelőző egy év során szerzett adatgazdai, üzemeltetői és biztonsági tapasztalatok alapján kell elvégezni, ahol a fenyegetés bekövetkezési valószínűsége lehet 1. alacsony: 1 éven belül nem várható az előfordulása, 2. mérsékelt: 1 éven belül várható az előfordulása, 3. közepes: 1 éves távlatban többször várható az előfordulása, 4. fokozott: időnként előforduló, azaz havonta előfordulhat az esemény, 5. magas (elkerülhetetlen): azaz hetente vagy akár naponta is előfordulhat az esemény. 1.3. A károk meghatározásánál mérlegelni kell a közvetlen és a közvetett kategóriákba sorolt károkat, melyek lehetnek elsődleges, másodlagos, illetve harmadlagos károk. Az elsődleges kár az adott rendszerben felmerült tényleges kár mértéke, a helyreállítás költsége. A másodlagos és harmadlagos kár az elsődleges kár által okozott kölcsönhatásokon keresztül a szervezetben realizálódott egyéb veszteség mértéke. A közvetlen kár maga az adatvesztés, rendszerleállás, hardver- és szoftverkárok számszerűsített értéke (pl. csere költsége). A közvetett kár, amely nem számszerűsíthető. 1.4. A BM rendelet 1. melléklet 2. pontja alapján a károkat az alábbiak szerint kell meghatározni: a) személyeket, csoportokat érintő károk, káros hatások, b) társadalmi-politikai káros hatások és károk, ideértve a jogszabály által védett adatok sérüléséből, azokkal való visszaélésből (jogsértés, kötelezettség elmulasztása) eredő károkat, c) közvetlen anyagi kár (pl. elmaradt haszon), d) közvetett anyagi kár (pl. dologi károk helyreállítási költségek). 1.5. A kockázatelemzést támogató 1. segédtábla kitöltéséhez az alábbi kárkategóriák kerülnek meghatározásra, a bekövetkezett kár mértékére vonatkozóan: 1. jelentéktelen, ha a kár elsődleges, kis összegű; 2. csekély, ha a kár másodlagos, nagyobb összegű; 3. közepes, ha a kár fennakadást okozhat az informatikai rendszerben, felmerülhet a személyek veszélyeztetettsége; 4. magas, ha a kár a szervezet alapfolyamatában fennakadást okozhat, a személyek veszélyeztetettsége is fennáll, személyi sérülés következik be; 5. kritikus, ha a kár az informatikai rendszer időleges kiesését, az alapfolyamatok megszakadását, bizalomvesztést és személyek súlyos sérülését eredményezi. 1.6. Az 1. segédtábla alapján kialakított fenyegetési rangsor alapján a bizalmasság, sértetlenség, rendelkezésre állás figyelembevételével is el kell végezni a károk meghatározását, az alábbi 2. segédtábla felhasználásával. 2. segédtábla Fenyegetettség Bekövetkezési valószínűség Kármérték Bizalmasság Sértetlenség Rendelkezésre állás 1.7. A kockázati tényezők meghatározásakor nem a lehetséges legnagyobb kárértéket, hanem a bekövetkezési valószínűséggel korrigált, fenyegetések által okozható kárt, káros hatást kell figyelembe venni, amely meghatározásához a 3. segédtáblát kell felhasználni. Ez esetben a kárérték meghatározásakor a bizalmasság, sértetlenség, rendelkezésre állás károsodásának rögzítése során a legmagasabb értékkel rendelkezőt kell alapul venni, és ehhez igazítani a bekövetkezési valószínűséget. A 3. segédtáblában a sor és az oszlop metszésénél lévő cella tartalmazza a kockázat értékét. 3. segédtábla 1.8. A 3. segédtábla alapján rögzített kockázati érték alapján az alábbi 4. segédtábla kockázatelemzési táblázatának kockázati oszlopát kell kitölteni. 4. segédtábla Fenyegetettség Bekövetkezési valószínűség Kármérték Kockázat Bizalmasság Sértetlenség Rendelkezésre állás 1.9. A 4. segédtábla kockázat oszlopának értéke alapján meghatározható a kockázatok sorrendje és rögzíthetők azok az ún. maradvány kockázatok, amelyekkel a védelmi intézkedések meghatározásánál vezetői döntés alapján már nem szükséges foglalkozni. 1. A dokumentum célja A biztonsági események kezelésére vonatkozó belső szabályozás célja a Közigazgatási és Területfejlesztési Minisztérium (a továbbiakban: minisztérium) adatait kezelő elektronikus információs rendszerek által kezelt adatvagyonnal és az IT infrastruktúra elemekkel kapcsolatban bekövetkezett biztonsági események figyelésére, jelentésére, kezelésére és oktatására vonatkozó eljárás szintű szabályozó dokumentum létrehozása, valamint az abban leírtakhoz kapcsolódó ellenőrzések megalapozása. 2. Eltérések Azon minisztérium vagy külső személy által üzemeltetett, valamint adatait kezelő elektronikus információs rendszerek esetében, melyek külön szabályozással rendelkeznek és nem képzik az alap infrastruktúra részét, a vonatkozó Rendszerszintű Informatikai Biztonsági Szabályzatban (RIBSZ) foglaltak az irányadók. Az adott elektronikus információs rendszer specifikus szabályzása szintjén a RIBSZ-ek tartalmazzák a biztonsági események kezelésének előkészítésére, észlelésére, vizsgálatára, elszigetelésére, megszüntetésére és a helyreállítására vonatkozó szabályozást. 3. A biztonsági eseménykezelés általános folyamata 4. Biztonsági események észlelése, jelentése 4.1. A biztonsági események a bejelentő szerint az alábbi kategóriákba sorolhatók: a) a jogszabályban meghatározott szervezettől érkező bejelentések: az állami és önkormányzati szervek elektronikus információbiztonságáról szóló 2013. évi L. törvényben és végrehajtási rendeleteiben nevesített szervezetek – legfőképp a Nemzetbiztonsági Szakszolgálat Nemzeti Kibervédelmi Intézet (a továbbiakban: NBSZ NKI) és a Kormányzati Eseménykezelő Központ (a továbbiakban: GovCERT) – felől érkező bejelentés; b) a központosított informatikai és elektronikus hírközlési szolgáltatótól érkező bejelentések: a központosított informatikai és elektronikus hírközlési szolgáltatásokról szóló 309/2011. (XII. 23.) Korm. rendeletben meghatározott szolgáltatótól – a NISZ Nemzeti Infokommunikációs Szolgáltatótól (a továbbiakban: NISZ) – érkező bejelentés; c) hatósági megkeresések: a magyar jogszabályokban hatósági jogkörrel rendelkező szervezetektől érkező bejelentés; d) szervezeten belülről érkező bejelentések: a minisztériummal munkavégzésre irányuló bármely jogviszonyban, valamint egyéb szerződéses kapcsolatban álló személyektől érkező bejelentés; e) szervezeten kívülről érkező bejelentések: az első négy kategóriába nem sorolható jogi személytől érkező bejelentés. 4.2. Bejelentésre kötelezett események A minisztérium adatait kezelő informatikai rendszerben jelentkező vagy rendszerekkel kapcsolatos hálózattal, eszközökkel, alkalmazásokkal kapcsolatban felmerülő rendellenes működés, jelenség, jelzés, melyek nem kizárólagosan az alábbiak lehetnek: a) kéretlen levél, spam; b) malware gyanú (vírus, kémprogram, reklámprogram); c) adathalászat gyanú (phishing); d) social engineering (megtévesztéssel történő információszerzés); e) informatikai eszközöket érintő fizikai behatások (rongálódás, természeti csapások); f) illetéktelen hozzáférés informatikai eszközhöz; g) felhasználói név és/vagy jelszó kompromittálódás; h) minden a fenti felsorolásba nem tartozó esemény, amely az informatikai biztonságot érinti. 4.3. Biztonsági események jelentése A minisztérium adatait kezelő elektronikus információs rendszerek tekintetében a bejelentéseket az informatikai biztonsági vezetőnek kell megküldeni az alábbi esetekben: a) biztonsági esemény: A biztonságot érintő, valamint a bejelentésre kötelezett eseményekről a felfedezésük után haladéktalanul, a felfedező közvetlen munkahelyi vezetője tájékoztatása mellett. Az események kivizsgálására az informatikai biztonsági vezető az SZDF bevonásával jogosult. b) szoftverzavarok: Az elektronikus információs rendszerekben tapasztalt szoftverzavarokról a NISZ ügyfélszolgálatának tájékoztatása mellett, az események kivizsgálására a NISZ jogosult. 5. Biztonsági események vizsgálata, kezelése A biztonsági események megtervezett és begyakorolt kezelésével biztosítható hatékony vizsgálatuk, elszigetelésük, megszüntetésük és az érintett elektronikus információs rendszerek helyreállítása. A biztonsági események bejelentései a beérkezésüket követően minden esetben visszaigazolásra kerülnek. A feldolgozás során a biztonsági esemény tartalmi ellenőrzése, szükség esetén a bejelentővel végrehajtott pontosítása után a szükséges intézkedések meghatározásra, valamint az érintettek értesítésre kerülnek. A biztonsági eseményt az Ibtv.-ben meghatározott körben az informatikai biztonsági vezető bejelenti az NBSZ NKI eseménykezelő központja részére. 6. Adatvédelmi incidens Amennyiben a biztonsági esemény az információs önrendelkezési jogról és az információszabadságról szóló 2011. évi CXII. törvény 3. § 26. pontját, valamint a természetes személyeknek a személyes adatok kezelése tekintetében történő védelméről és az ilyen adatok szabad áramlásáról, valamint a 95/46/EK irányelv hatályon kívül helyezéséről szóló, 2016. április 27-i (EU) 2016/679 európai parlamenti és tanácsi rendelet 4. cikk 12. pontját érinti, úgy az informatikai biztonsági vezető tájékoztatja az adatvédelmi tisztviselőt, szükség esetén a további intézkedéseket együtt határozzák meg. 7. Biztonsági események dokumentálása A biztonsági események nyilvántartása, dokumentálása az informatikai biztonság vezető feladata, melyet az SZDF bevonásával lát el. 8. Felülvizsgálat, tanulságok levonása A bekövetkezett biztonsági eseményekhez kapcsolódóan végrehajtott eseménykezelési tevékenységekből levont tanulságok beépülnek a megfelelő folyamatokba, meghatározásokba és az informatikai biztonsági tudatosító programba. 1. A Közigazgatási és Területfejlesztési Minisztérium biztonsági szintbe sorolása Szervezet megnevezése Biztonsági szint Indokolás a 41/2015. (VII. 15.) BM rendelet alapján A Közigazgatási és Területfejlesztési Minisztérium biztonsági szintje 3 A Közigazgatási és Területfejlesztési Minisztérium a szakfeladatai ellátását támogató elektronikus információs rendszereket használ, de nem üzemelteti azokat. A Közigazgatási és Területfejlesztési Minisztérium kritikus adatot, nem minősített, de nem közérdekű, vagy közérdekből nyilvános adatot kezel, központi üzemeltetésű, és több szervezetre érvényes biztonsági megoldásokkal védett elektronikus információs rendszerek vagy zárt célú elektronikus információs rendszer felhasználója, illetve feladatai támogatására más külső szolgáltatót is igénybe vesz. 2. A Közigazgatási és Területfejlesztési Minisztérium elektronikus információs rendszereinek biztonsági osztályba sorolása Elektronikus információs rendszer megnevezése Leírás Üzemeltető Bizalmasság Sértetlenség Rendelkezésre állás EBR42 Önkormányzati pályázati rendszer Az Ebr42 webalapú, pénzügyikontrolling-számviteli feladatokat ellátó, folyamatkövető információs rendszer, a helyi önkormányzatok és többcélú kistérségi társulások normatív hozzájárulásainak, normatív, kötött felhasználású támogatásainak és egyes pályázati támogatásainak igénylési rendszere. NISZ Zrt. 3 3 3 Helyi közszolgáltatás információs rendszer (IKIR) Az IKIR helyi közszolgáltatás információs rendszer, amely a települési önkormányzatok által biztosított helyi közszolgáltatások tervezésének, valamint az operatív feladatellátás szervezésének és fejlesztésének támogatását szolgáló elektronikus információs és vezetői döntéstámogató rendszer. IdomSoft Zrt. 3 3 3 1 Az utasítást az 5/2026. (III. 26.) KTM utasítás 4. §-a hatályon kívül helyezte 2026. március 27. napjával."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "kockázatelemzés",
+      "definition": "az informatikai rendszer értékének, sérülékenységének (gyenge pontjainak), fenyegetéseinek, a várható károknak és ezek gyakoriságának felmérése útján a kockázatok feltárása és értékelése, 6. kockázatkezelés: az informatikai rendszerre ható kockázatok csökkentésére irányuló intézkedésrendszer kidolgozása.",
+      "source_provision": "s2"
+    }
+  ]
+}

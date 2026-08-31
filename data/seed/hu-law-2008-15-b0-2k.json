@@ -1,0 +1,1043 @@
+{
+  "id": "hu-law-2008-15-b0-2k",
+  "type": "statute",
+  "title": "15/2008. (IX. 25.) NFGM utasítás a Nemzeti Fejlesztési és Gazdasági Minisztérium közszolgálati adatvédelmi szabályairól",
+  "status": "amended",
+  "in_force_date": "2008-09-26",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2008-15-B0-2K",
+  "description": "A Nemzeti Fejlesztési és Gazdasági Minisztérium közszolgálati adatvédelmi szabályairól",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A Nemzeti Fejlesztési és Gazdasági Minisztérium (a továbbiakban: minisztérium) közszolgálati nyilvántartásával összefüggő legfontosabb adatvédelmi, információbiztonsági szabályairól, az adatkezeléssel, adattovábbítással és nyilvánosságra hozatallal kapcsolatos adatvédelmi követelményekről a következők szerint rendelkezem:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "I. Általános rendelkezések"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "1. Az utasítás jogalapját képező jogszabályok:"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "– a személyes adatok védelméről és a közérdekű adatok nyilvánosságáról szóló 1992. évi LXIII. törvény;"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "– a statisztikáról szóló 1993. évi XLVI. törvény;"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "– a köztisztviselők jogállásáról szóló 1992. évi XXIII. törvény (a továbbiakban: Ktv.);"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "– a központi államigazgatási szervekről, valamint a Kormány tagjai és az államtitkárok jogállásáról szóló 2006. évi LVII. törvény;"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "– a nemzetbiztonsági szolgálatokról szóló 1995. évi CXXV. törvény;"
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "– a rendőrségről szóló 1994. évi XXXIV. törvény;"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "– a közszolgálati jogviszonnyal összefüggő adatkezelésre és közszolgálati nyilvántartásra vonatkozó szabályokról szóló 233/2001. (XII. 10.) Korm. rendelet (a továbbiakban: R);"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "– a köztisztviselők tartalékállományba helyezéséről és a betöltetlen köztisztviselői állások nyilvános közzétételéről szóló 150/1998. (IX. 18.) Korm. rendelet;"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "– a közszolgálati nyilvántartás egyes kérdéseiről szóló 7/2002. (III. 12.) BM rendelet (továbbiakban: Vhr.)."
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "2. Az utasítás hatálya kiterjed a minisztériumban foglalkoztatott köztisztviselőkre, munkavállalókra, állami vezetőkre (a továbbiakban együtt: köztisztviselő), valamint a közszolgálati jogviszonnyal kapcsolatos személyi iratok kezelésével összefüggő teljes ügyviteli és informatikai folyamatra."
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "II. Részletes szabályok"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "1. A személyi irat"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "(1) Közszolgálati szempontból személyi irat minden – bármilyen anyagon, alakban és bármilyen eszköz felhasználásával keletkezett – adathordozó, amely a közszolgálati jogviszony létesítésekor (ideértve a közszolgálati jogviszony létrehozását kezdeményező iratokat is), fennállása alatt, megszűnésekor, illetve azt követően keletkezik és a köztisztviselő személyével összefüggésben adatot, megállapítást tartalmaz."
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "(2) A személyi iratok köre:"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "– a személyi anyag [Ktv. 64. § (1) bekezdés] iratai [lásd: 2. pont (5) bekezdés],"
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "– a közszolgálati jogviszonnyal összefüggő egyéb iratok,"
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "– a köztisztviselőnek a közszolgálati jogviszonyával összefüggő más jogviszonyaival kapcsolatos iratok (adóbevallás, fizetési letiltás stb.),"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "– a köztisztviselő saját kérelmére kiállított vagy önként átadott adatokat tartalmazó iratok."
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "(3) A minisztérium SzMSz-ének a Humánigazgatási Főosztály feladatainak felsorolása alapján a minisztérium állományába tartozó köztisztviselők személyi iratainak őrzése és kezelése, a humán számítógépes nyilvántartó és információs rendszer működtetése a Humánigazgatási Főosztály feladata. Kivételt képeznek a köztisztviselők illetményének számfejtéséhez és egyéb juttatásainak megállapításához, a társadalombiztosítási ellátáshoz, családi pótlék folyósításához szükséges, valamint a személyi jövedelemadóval összefüggő adatok, amelyeket a Humánigazgatási Főosztály, vagy a köztisztviselő az e feladatok ellátásáért felelős szervezeti egység rendelkezésére bocsát."
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "2. A személyi irat kezelése"
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "(1) A minisztériumban keletkezett személyi iratok kezelése jelen utasítás, valamint az iratkezelési szabályzat előírásai alapján történik."
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "(2) A minisztériummal közszolgálati jogviszonyban álló személyekkel kapcsolatos személyi iratok – a minisztérium iratkezelő rendszerének működtetésével – a Humánigazgatási Főosztály „Nem nyilvános” iktatókönyveibe kerülnek beikatásra az alábbi csoportosításban:"
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "HUM/főszám/alszám/év"
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "– közszolgálati jogviszony létesítése,"
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "– megszüntetése,"
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "– módosítása,"
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "– minősítés,"
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "– teljesítményértékelés,"
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "– besorolás, fizetési fokozat, besorolás-, fizetési fokozat változása,"
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "– vezetői megbízás, és annak visszavonása,"
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "– címadományozás, és annak visszavonása,"
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "– jubileumi jutalom,"
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "– egyéb jutalmak és juttatások,"
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "– fegyelmi, kártérítési ügyek,"
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "– lakásügyek (munkáltatói kölcsön, albérleti díj hozzájárulás stb.),"
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "– tanulmányi szerződéssel, a köztisztviselők beiskolázásával, képzésével, vizsgakötelezettségek teljesítésével, ösztöndíjakkal, szakmai tanulmányutakkal kapcsolatos személyi iratok,"
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "– nyugdíjazással kapcsolatos iratok,"
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "– kegyeleti és szociális ügyek iratai,"
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "– kitüntetések iratai,"
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "– vagyonnyilatkozat-tételi kötelezettséggel kapcsolatos iratok,"
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "– a köztisztviselői álláshelyekre kiírt pályázatokkal kapcsolatos iratok,"
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "– megbízási szerződésekkel kapcsolatos iratok,"
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "– ösztöndíjas foglalkoztatási jogviszonnyal kapcsolatos iratok,"
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "– cafeteriával kapcsolatos iratok,"
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "– a nemzeti fejlesztési és gazdasági miniszter munkáltatói jogkörébe tartozó költségvetési intézmények, gazdasági társaságok, közhasznú szervezetek, alapítványok vezetőinek közszolgálati jogviszonyával kapcsolatos iratok,"
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "– egyéb, a közszolgálati jogviszonnyal összefüggő iratok."
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "(3) A személyi iratokba – kivéve a köztisztviselői vagyonnyilatkozatot, illetve a vagyonnyilatkozati iratokat – az alábbi szervek és személyek jogosultak betekinteni:"
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "– a Ktv. 63. § (1) bekezdésében meghatározott személyek:"
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "– más jogviszony alapján keletkezett iratokba az arra vonatkozó törvény szerint jogosultak (adóellenőr, társadalombiztosítási ellenőr stb.)."
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "(4) A személyi iratra csak olyan adat és megállapítás vezethető, amelynek alapja:"
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "– közokirat, vagy a köztisztviselő írásbeli nyilatkozata,"
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "– a munkáltatói jogkör gyakorlójának írásbeli rendelkezése,"
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "– bíróság vagy más hatóság döntése,"
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "– jogszabályi rendelkezés."
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "(5) A közszolgálati jogviszony létrehozásának elmaradása esetén a közszolgálati jogviszony létrehozását kezdeményező iratokat vissza kell adni az érintettnek, illetve a személyi anyagot annak a szervnek, amely azt megküldte."
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "(6) A személyi anyag tartalma a Ktv. 64. §ának (1) bekezdése alapján:"
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "– a köztisztviselő öt évnél nem régebbi fényképe,"
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "– a közszolgálati alapnyilvántartás adatlapja,"
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "– az önéletrajz,"
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "– az erkölcsi bizonyítvány,"
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "– az esküokmány,"
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "– a kinevezés és annak módosítása,"
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "– a főtisztviselői kinevezés,"
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "– a vezetői megbízás és annak visszavonása,"
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "– a címadományozás,"
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "– a besorolásról, illetve a visszatartásról készült okirat, illetve annak alapjául szolgáló dokumetumok,"
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "– az áthelyezésről rendelkező iratok,"
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "– a teljesítményértékelés,"
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "– a minősítés,"
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "– a közszolgálati jogviszonyt megszüntető irat,"
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "– a hatályban lévő fegyelmi büntetést kiszabó határozat,"
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "– a közszolgálati igazolás másolata."
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "(7) A személyi anyagba tartozó iratokat minden esetben együttesen kell tárolni."
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "(8) A közszolgálati jogviszony létesítésekor a Humánigazgatási Főosztály összeállítja a köztisztviselő személyi anyagát. Törvény eltérő rendelkezésének hiányában a személyi anyagban a (6) bekezdésben felsorolt személyi iratokon kívül más irat nem tárolható."
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "(9) A személyi iratokat tartalmuknak megfelelően csoportosítva, keletkezésük sorrendjében, az e célra személyenként kialakított iratgyűjtőben kell őrizni. Az elhelyezett iratokról tartalomjegyzéket kell készíteni, amely tartalmazza az iktatószámot és az ügyirat keletkezésének időpontját is."
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "(10) A személyi anyagnak „betekintési lap”-ot is kell tartalmaznia, amelyen dokumentálni kell a személyi anyagba történő betekintés tényét, jogosultjának személyét, jogszabályi alapját és időpontját, a megismerni kívánt adatok körét, a betekintő aláírását. A betekintési lapot a személyi anyag részeként kell kezelni."
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "(11) A köztisztviselő személyi anyagába, egyéb személyi irataiba, illetve az alapnyilvántartásba a Ktv. 63. §-ának (1) bekezdésében felsorolt személyek a „betekintési lap” kitöltését követően jogosultak betekinteni, kivéve a nemzetbiztonsági szolgálatokról szóló 1995. évi CXXV. törvény 42. §-ában foglalt eseteket."
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "(12) A közszolgálati jogviszony megszűnése esetén a tartalomjegyzéket és a betekintési lapot le kell zárni, és a személyi anyagot irattározni kell. A közszolgálati jogviszony megszűnése után a köztisztviselő személyi iratait – kivéve a vagyonnyilatkozat-tétellel összefüggő személyi iratokat – a minisztérium irattári terve rendelkezéseinek megfelelően a központi irattárban kell elhelyezni. Az irattárba helyezése előtt az iratgyűjtő tartalomjegyzékén fel kell tüntetni az irattározás tényét, időpontját és az iratkezelő aláírását. Az irattárból személyi irat közvetlenül csak a Humánigazgatási Főosztály részére szolgáltatható ki. Az irattárból illetményszámfejtés céljából az illetményadatokat tartalmazó irat az illetményszámfejtést végző szervezeti egységnek is kiadható."
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "(13) A személyi anyagot – kivéve, amelyet a Ktv. 64. §-ának (3) bekezdése alapján átadtak – a közszolgálati jogviszony megszűnésétől számított ötven évig meg kell őrizni."
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "(14) A köztisztviselőre vonatkozó – közérdekűnek nem minősülő – személyes adatokat tartalmazó írott anyag kizárólag lezárt borítékban, a címzett saját kezű felbontásának megjelölésével továbbítható belső és külső iratforgalomban egyaránt."
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "3. A közszolgálati alapnyilvántartás"
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "(1) A minisztérium a köztisztviselőkről a Ktv. 3. sz. melléklete szerinti adatkörre kiterjedő nyilvántartást vezet (közszolgálati alapnyilvántartás). A mellékletben nem szereplő körben – törvény eltérő rendelkezése hiányában – adatszerzés nem végezhető, ilyen adatot nyilvántartani nem lehet."
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "(2) A közérdekű adatokon túl a köztisztviselő nyilvántartott adatairól tájékoztatás nem adható. A köztisztviselő személyi anyagát az áthelyezéshez kapcsolódó eset kivételével kiadni nem lehet."
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "(3) A köztisztviselő a saját anyagába, az alapnyilvántartásba, illetve a személyes adatait tartalmazó egyéb nyilvántartásokba, személyi iratokba korlátozás nélkül betekinthet, azokról másolatot vagy kivonatot kérhet, illetve kérheti adatai helyesbítését, kijavítását. Tájékoztatást kérhet személyi irataiba történt betekintésről, adatszolgáltatásról, személyi anyagának más szervhez történő megküldéséről."
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "(4) A köztisztviselő az adatai helyesbítését és kijavítását a Humánigazgatási Főosztály vezetőjénél írásban kérheti."
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "(5) Az iratokban szereplő személyes adatokra a személyes adatok védelméről és a közérdekű adatok nyilvánosságáról szóló törvény rendelkezései vonatkoznak."
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "(6) A köztisztviselő az adataiban bekövetkező változásokról 8 napon belül köteles tájékoztatni a munkáltatói jogkör gyakorlóját, aki 8 napon belül köteles intézkedni az adatok aktualizálásáról."
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "(7) A Humánigazgatási Főosztály a köztisztviselők (1) bekezdésben meghatározott adatairól elektronikus formátumban tárolt közszolgálati alapnyilvántartást (a továbbiakban: alapnyilvántartás) működtet. A közszolgálati alapnyilvántartáshoz hozzáférés csak a Humánigazgatási Főosztály vezetője által kijelölt munkatársaknak lehetséges, jelszó általi azonosítással. A jelszóval kapcsolatos biztonsági intézkedéseket, az NFGM hatályos Információ Biztonsági Szabályzatában (a továbbiakban: IBSz), valamint az ahhoz tartozó Munkautasításokban foglaltak szerint kell alkalmazni."
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "(8) Az alapnyilvántartás adataiból statisztikai célokra csak személyazonosításra alkalmatlan módon szolgáltatható információ."
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "(9) A közszolgálati alapnyilvántartás adatlapjainak vezetését a – szabadsággal összefüggő adatok kivételével – a Humánigazgatási Főosztály végzi. A Humánigazgatási Főosztály vezetője a munkáltatói jogkört gyakorló vezetőket tájékoztatja az irányításuk alá tartozó köztisztviselők éves szabadságnapjainak számáról. A szabadság kiadásáról, illetve folyamatos nyilvántartásáról a munkáltatói jogkört gyakorló vezetők kötelesek gondoskodni. A munkáltatói jogkört gyakorló vezetők a tárgyévet követő január 5. napjáig megküldik a szabadságok kiadásáról készült nyilvántartó lapot a Humánigazgatási Főosztálynak, amely a nyilvántartás birtokában kiszámolja a tárgyévre vonatkozó szabadságnapok számát."
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "(10) Az elektronikus formátumban tárolt adatokat ki kell nyomtatni a köztisztviselő"
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "– adatainak első alkalommal történő felvételekor,"
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "– áthelyezésekor,"
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "– közszolgálati jogviszonyának megszűnése esetén,"
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "– a betekintési jog gyakorlójának erre irányuló külön kérelmére azokat az adatokat, amelyekre betekintési joga kiterjed."
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "(11) Az elektronikus formátumban tárolt alapnyilvántartásból azonnal és véglegesen törölni kell a köztisztviselő személyazonosító adatait áthelyezéskor vagy a közszolgálati jogviszony megszűnésekor."
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "(12) A tartalékállományba helyezéssel és annak megszüntetésével kapcsolatosan keletkezett iratokat az érintett személyi anyagában kell kezelni."
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "(13) A köztisztviselői álláshelyekre kiírt pályázatokra (álláshirdetésekre) beérkezett, valamint az elbírálás során keletkezett iratokat személyi iratként kell kezelni."
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "4. Felelősség a közszolgálati jogviszonnyal összefüggő adatok kezeléséért"
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "(1) A közigazgatási ügyekért felelős szakállamtitkár felel a közszolgálati jogviszonnyal összefüggő adatok védelmére és kezelésére vonatkozó jogszabályok, valamint a jelen utasításban rögzített előírások megtartásnak ellenőrzéséért. E felelősségi körén belül"
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "– gondoskodik a közszolgálati adatvédelmi utasítás kiadásáról és közzétételéről,"
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "– rendelkezik a szükséges ellenőrzések elvégzéséről."
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "(2) Az (1) bekezdésben foglaltak mellett a minisztériumban a közszolgálati jogviszonnyal összefüggő adatok kezeléséért"
+    },
+    {
+      "provision_ref": "s107",
+      "section": "107",
+      "title": "107",
+      "content": "– az érintett köztisztviselő tekintetében a munkáltatói jogkör gyakorlója;"
+    },
+    {
+      "provision_ref": "s108",
+      "section": "108",
+      "title": "108",
+      "content": "– a minősítést, illetve teljesítményértékelést végző vezető;"
+    },
+    {
+      "provision_ref": "s109",
+      "section": "109",
+      "title": "109",
+      "content": "– a Humánigazgatási Főosztály vezetője;"
+    },
+    {
+      "provision_ref": "s110",
+      "section": "110",
+      "title": "110",
+      "content": "– a humánpolitikai feladatot ellátó köztisztviselő (ügyintéző);"
+    },
+    {
+      "provision_ref": "s111",
+      "section": "111",
+      "title": "111",
+      "content": "– a köztisztviselő a saját adatainak közlése tekintetében"
+    },
+    {
+      "provision_ref": "s112",
+      "section": "112",
+      "title": "112",
+      "content": "tartozik felelősséggel."
+    },
+    {
+      "provision_ref": "s113",
+      "section": "113",
+      "title": "113",
+      "content": "(3) A köztisztviselő munkáltatói jogkör gyakorlója felelősségi körén belül minden esetben köteles a Ktv. 63. §-ának (1) bekezdésében és 64. §ának (2) bekezdésében foglalt jogosultságának gyakorlása esetén a Vhr. 1. számú melléklete szerinti „Közszolgálati Alapnyilvántartás Adatlapja” nyomtatvány borítóján is dokumentálni a jogosultság gyakorlásának jogalapját, valamint a megismerni kívánt adatok körét."
+    },
+    {
+      "provision_ref": "s114",
+      "section": "114",
+      "title": "114",
+      "content": "(4) A minősítést, illetve teljesítményértékelést végző vezető felelősségi körén belül gondoskodik arról, hogy a minősítés, illetve teljesítményértékelés folyamatában a Ktv. 35. §-ának (1) bekezdése alapján bevont harmadik személy kizárólag csak a jogszerű és tárgyilagos minősítéshez, illetve teljesítményértékeléshez szükséges adatokat ismerhesse meg."
+    },
+    {
+      "provision_ref": "s115",
+      "section": "115",
+      "title": "115",
+      "content": "5. A Humánigazgatási Főosztály további feladatai"
+    },
+    {
+      "provision_ref": "s116",
+      "section": "116",
+      "title": "116",
+      "content": "(1) A Humánigazgatási Főosztály vezetője felelősségi körén belül köteles intézkedni a személyi iratok kezelésével, vezetésével, nyilvántartásával, a minisztérium e körbe tartozó adatszolgáltatási kötelezettségével kapcsolatos feladatok (a továbbiakban: közszolgálati nyilvántartás) jogszabályi, valamint jelen utasítás előírásainak megfelelő ellátásáért. Ezen belül gondoskodik"
+    },
+    {
+      "provision_ref": "s117",
+      "section": "117",
+      "title": "117",
+      "content": "– a közszolgálati nyilvántartás megbízható, naprakész vezetéséről,"
+    },
+    {
+      "provision_ref": "s118",
+      "section": "118",
+      "title": "118",
+      "content": "– arról, hogy a közszolgálati nyilvántartásban szereplő, közérdekűnek nem minősülő személyes adat csak törvényben meghatározott esetekben és célokra kerüljön felhasználásra,"
+    },
+    {
+      "provision_ref": "s119",
+      "section": "119",
+      "title": "119",
+      "content": "– a közszolgálati nyilvántartásban lévő adatok biztonságáról, azoknak a technikai, szervezési intézkedéseknek és eljárási szabályoknak az alkalmazásáról, amelyek az adatvédelmi szabályok érvényre juttatásához szükségesek, különösen a jogosulatlan hozzáférés, megváltoztatás, nyilvánosságra hozatal, törlés, sérülés, megsemmisítés ellen,"
+    },
+    {
+      "provision_ref": "s120",
+      "section": "120",
+      "title": "120",
+      "content": "– a betekintési jog gyakorlásának feltételeiről,"
+    },
+    {
+      "provision_ref": "s121",
+      "section": "121",
+      "title": "121",
+      "content": "– a közszolgálati nyilvántartás vezetésével megbízott köztisztviselők felelősségének elhatárolásáról,"
+    },
+    {
+      "provision_ref": "s122",
+      "section": "122",
+      "title": "122",
+      "content": "– az R. 8. § (3) bekezdésében foglalt esetben az adatot a megfelelő személyi iratra haladéktalanul rávezessék,"
+    },
+    {
+      "provision_ref": "s123",
+      "section": "123",
+      "title": "123",
+      "content": "– a köztisztviselő által szolgáltatott és igazolt adatok helyesbítését és kijavítását az R. 5. § (2) bekezdése alapján történt kezdeményezés és igazolás alapján átvezessék,"
+    },
+    {
+      "provision_ref": "s124",
+      "section": "124",
+      "title": "124",
+      "content": "– ha a köztisztviselő az R. 5. § (2) bekezdése alapján egyéb, nem általa szolgáltatott adatainak kijavítását, vagy helyesbítését kéri, kezdeményezi a munkáltatói jogkör gyakorlójánál az adathelyesbítés, illetve kijavítás engedélyezését. A munkáltatói jogkör gyakorlójának döntése alapján haladéktalanul köteles eljárni."
+    },
+    {
+      "provision_ref": "s125",
+      "section": "125",
+      "title": "125",
+      "content": "(2) A humánpolitikai feladatot ellátó köztisztviselőn minden olyan köztisztviselőt kell érteni, aki a közigazgatási szervnél tevékenysége során a közszolgálati nyilvántartással és a személyi irattal összefüggő adatot kezel. A humánpolitikai feladatot ellátó köztisztviselő felelősségi körén belül köteles"
+    },
+    {
+      "provision_ref": "s126",
+      "section": "126",
+      "title": "126",
+      "content": "– gondoskodni arról, hogy a köztisztviselők közszolgálati jogviszonyával összefüggő adatkezelés annak teljes folyamatában megfeleljen az R. 8. § (3) bekezdésében foglaltaknak,"
+    },
+    {
+      "provision_ref": "s127",
+      "section": "127",
+      "title": "127",
+      "content": "– gondoskodni arról, hogy a személyi iratra csak olyan adat, illetve megállapítás kerülhessen, amely az R. 8. § (3) bekezdésében foglalt adatforráson alapul,"
+    },
+    {
+      "provision_ref": "s128",
+      "section": "128",
+      "title": "128",
+      "content": "– a közszolgálati jogviszonnyal összefüggő adat helyesbítését és törlését kezdeményezni a Humánigazgatási Főosztály vezetőjénél, ha megítélése szerint a személyi iraton szereplő adat a valóságnak már nem felel meg,"
+    },
+    {
+      "provision_ref": "s129",
+      "section": "129",
+      "title": "129",
+      "content": "– az adatokat a keletkezésüktől, illetve a változásuktól számított legkésőbb 3 napon belül kötelesek a megfelelő személyi iratra rávezetni, illetve nyilvántartásba venni,"
+    },
+    {
+      "provision_ref": "s130",
+      "section": "130",
+      "title": "130",
+      "content": "– mindazokat a technikai, szervezési intézkedéseket megtenni, illetve eljárási szabályokat betartani, amelyek a közszolgálati nyilvántartásban lévő adatok biztonságát szolgálják,"
+    },
+    {
+      "provision_ref": "s131",
+      "section": "131",
+      "title": "131",
+      "content": "– a személyi iratok előírásszerű őrzését biztosítani."
+    },
+    {
+      "provision_ref": "s132",
+      "section": "132",
+      "title": "132",
+      "content": "(3) A köztisztviselő felelős azért, hogy az általa a közigazgatási szerv részére átadott, bejelentett adatok hitelesek, pontosak, teljesek és aktuálisak legyenek."
+    },
+    {
+      "provision_ref": "s133",
+      "section": "133",
+      "title": "133",
+      "content": "6. Az elektronikusan tárolt nyilvántartások, adathordozók biztonsága"
+    },
+    {
+      "provision_ref": "s134",
+      "section": "134",
+      "title": "134",
+      "content": "(1) A közszolgálati nyilvántartást tartalmazó elektronikus formátumban tárolt adatok fizikai biztonsága érdekében:"
+    },
+    {
+      "provision_ref": "s135",
+      "section": "135",
+      "title": "135",
+      "content": "– az elektronikus formátumban tárolt nyilvántartásokhoz tartozó informatikai alkalmazása humánpolitikai számítógépes nyilvántartó és információs rendszert, közszolgálati nyilvántartás adathordozó eszközeit az Informatikai Főosztály munkatársai üzemeltetik, szükség szerint a Humánigazgatási Főosztály munkatársainak bevonásával,"
+    },
+    {
+      "provision_ref": "s136",
+      "section": "136",
+      "title": "136",
+      "content": "– a berendezéseket, az adathordozókat védeni kell a káros környezeti hatások ellen, az IBSz tárolásra vonatkozó követelményeinek megfelelően."
+    },
+    {
+      "provision_ref": "s137",
+      "section": "137",
+      "title": "137",
+      "content": "– a számítógépek környezetében tűzoltó készüléket szükséges elhelyezni az érvényes tűzrendészeti előírásoknak megfelelően,"
+    },
+    {
+      "provision_ref": "s138",
+      "section": "138",
+      "title": "138",
+      "content": "– a közszolgálati nyilvántartás elhelyezésére szolgáló helyiséget biztonsági zárral kell ellátni, a helyiség elhagyása esetén zárásáról minden esetben gondoskodni kell,"
+    },
+    {
+      "provision_ref": "s139",
+      "section": "139",
+      "title": "139",
+      "content": "– azokban a helyiségekben, ahol a számítógépes adatkezelés folyik, az oda beosztott dolgozókon kívül más személy csak hivatalos feladataival összhangban tartózkodhat,"
+    },
+    {
+      "provision_ref": "s140",
+      "section": "140",
+      "title": "140",
+      "content": "– külső személy általi karbantartás, javítás az NFGM IBSz szerinti információ biztonsági megbízott engedélyével,,a Humánigazgatási Főosztály egy köztisztviselője jelenlétében történhet. A végzett javítást, karbantartást dokumentálni kell."
+    },
+    {
+      "provision_ref": "s141",
+      "section": "141",
+      "title": "141",
+      "content": "(2) A közszolgálati nyilvántartást tartalmazó elektronikus formátumban tárolt adatok bizalmasságának, sértetlenségének és rendelkezésre állásának biztosítása érdekében:"
+    },
+    {
+      "provision_ref": "s142",
+      "section": "142",
+      "title": "142",
+      "content": "– az adatkezelésre használt számítástechnikai eszközöket – az azokhoz történő illetéktelen hozzáférés megakadályozása érdekében – csak az arra jogosult felhasználók vehetik használatba, eToken biztonsági hardvereszköz általi autentikációval. A helyiség elhagyása esetén gondoskodni kell a munkaállomások lezárásáról az IBSz Felhasználói Tevékenységek Szabályozása munkautasításban foglaltak szerint."
+    },
+    {
+      "provision_ref": "s143",
+      "section": "143",
+      "title": "143",
+      "content": "(3) A (2) bekezdésben foglalt szabályokat kell alkalmazni az elektronikus formátumban tárolt közszolgálati nyilvántartásból történő adatszolgáltatásra is."
+    },
+    {
+      "provision_ref": "s144",
+      "section": "144",
+      "title": "144",
+      "content": "(4) A közszolgálati nyilvántartást tartalmazó számítógépes rendszerek biztonságos üzemeltetése érdekében:"
+    },
+    {
+      "provision_ref": "s145",
+      "section": "145",
+      "title": "145",
+      "content": "– össze kell állítani a számítástechnikai eszközök használatára felhatalmazott személyek névsorát, feladataikat munkaköri leírásukban kell meghatározni,"
+    },
+    {
+      "provision_ref": "s146",
+      "section": "146",
+      "title": "146",
+      "content": "– meg kell határozni az adatokhoz való hozzáférés szintjének szabályait,"
+    },
+    {
+      "provision_ref": "s147",
+      "section": "147",
+      "title": "147",
+      "content": "– külső személy – pl. karbantartás, javítás, fejlesztés céljából – a számítástechnikai eszközökhöz lehetőleg úgy férjen hozzá, hogy a kezelt adatokat ne ismerje meg,"
+    },
+    {
+      "provision_ref": "s148",
+      "section": "148",
+      "title": "148",
+      "content": "– a számítástechnikai rendszert – ideértve a programokat is – dokumentálni kell. A rendszer vagy annak bármely eleme csak a Humánigazgatási Főosztály főosztályvezetője felhatalmazásával változtatható meg, amelyet ellenőrizni kell. A dokumentációk őrzéséről gondoskodni kell,"
+    },
+    {
+      "provision_ref": "s149",
+      "section": "149",
+      "title": "149",
+      "content": "– a hozzáférés jelszavait időközönként, de az üzemeltető személyének megváltozásakor azzal egyidejűleg meg kell változtatni. Jelszót ismételten nem lehet kiadni,"
+    },
+    {
+      "provision_ref": "s150",
+      "section": "150",
+      "title": "150",
+      "content": "– a számítástechnikai rendszer üzemeltetéséről nyilvántartást kell vezetni, amelyet a Humánigazgatási Főosztály vezetőjének a Humánigazgatási Főosztály kijelölt munkatársa útján folyamatosan ellenőriztetnie kell,"
+    },
+    {
+      "provision_ref": "s151",
+      "section": "151",
+      "title": "151",
+      "content": "– a rendszerbe kerülő adatokat tartalmazó (hagyományos vagy számítástechnikai eszközzel olvasható) dokumentumokat úgy kell kezelni, hogy elvesztésük, lecserélésük vagy meghibásodásuk elkerülhető, kiküszöbölhető legyen,"
+    },
+    {
+      "provision_ref": "s152",
+      "section": "152",
+      "title": "152",
+      "content": "– a feldolgozás során nyomtatással keletkezett hibás, vagy feleslegessé vált, aktualitását vesztett listákat, táblázatokat, nyomtatványokat, képernyőkivonatokat stb. kidobni, bezúzás nélkül elszállítani tilos. Megfelelő megsemmisítésükről a Humánigazgatási Főosztály vezetője köteles gondoskodni."
+    },
+    {
+      "provision_ref": "s153",
+      "section": "153",
+      "title": "153",
+      "content": "(5) A közszolgálati nyilvántartást tartalmazó számítógépre ellenőrző programokat kell telepíttetni, és ezek rendszeres, meghatározott időközönkénti lefuttatásával a winchester állapotát és a vírusmentességet ellenőrizni kell."
+    },
+    {
+      "provision_ref": "s154",
+      "section": "154",
+      "title": "154",
+      "content": "(6) A közszolgálati nyilvántartást tartalmazó számítógépes rendszerek technikai biztonsága érdekében:"
+    },
+    {
+      "provision_ref": "s155",
+      "section": "155",
+      "title": "155",
+      "content": "– az adatállományok részleges, vagy teljes megsemmisülése esetére gondoskodni kell az adatok rekonstruálhatóságáról, és az adatállományok tartalmát képező adattételek (rekordok) folyamatos ellenőrzéséről,"
+    },
+    {
+      "provision_ref": "s156",
+      "section": "156",
+      "title": "156",
+      "content": "– gondoskodni kell az adatállomány naponkénti – kivehető mágneses adathordozóra történő – biztonsági mentéséről, meghatározott időközönkénti archiválásáról, valamint a mágneslemez páncélszekrényben történő elhelyezéséről,"
+    },
+    {
+      "provision_ref": "s157",
+      "section": "157",
+      "title": "157",
+      "content": "– az adatok rekonstruálhatósága érdekében gondoskodni kell az adatállomány negyedévente történő kinyomtatásáról, és annak tűzbiztos páncélszekrényben való elhelyezéséről,"
+    },
+    {
+      "provision_ref": "s158",
+      "section": "158",
+      "title": "158",
+      "content": "– a biztonsági mentéseket csak az adatállomány helyreállításához szabad felhasználni,"
+    },
+    {
+      "provision_ref": "s159",
+      "section": "159",
+      "title": "159",
+      "content": "– programfejlesztés, vagy próba során valódi adatok csak a közszolgálati alapnyilvántartás helyén lehetnek,"
+    },
+    {
+      "provision_ref": "s160",
+      "section": "160",
+      "title": "160",
+      "content": "– az adatbevitel során a bevitt adatok helyességét ellenőrizni kell,"
+    },
+    {
+      "provision_ref": "s161",
+      "section": "161",
+      "title": "161",
+      "content": "– a közszolgálati nyilvántartás számítógépes feldolgozását felügyelet nélkül hagyni tilos. A programból mindig szabályos módon ki kell lépni, programot magára hagyni nem szabad."
+    },
+    {
+      "provision_ref": "s162",
+      "section": "162",
+      "title": "162",
+      "content": "7. Információtovábbítás"
+    },
+    {
+      "provision_ref": "s163",
+      "section": "163",
+      "title": "163",
+      "content": "A közszolgálati nyilvántartást tartalmazó számítógépes rendszerekről történő információtovábbítás részletszabályai:"
+    },
+    {
+      "provision_ref": "s164",
+      "section": "164",
+      "title": "164",
+      "content": "– a minisztériumi közszolgálati alapnyilvántartás számítógépes információs rendszeréből adatot szolgáltatni is csak az utasításban meghatározottak szerint lehet,"
+    },
+    {
+      "provision_ref": "s165",
+      "section": "165",
+      "title": "165",
+      "content": "– a központi közszolgálati nyilvántartás részére az adatszolgáltatás mágnes lemezen történik;"
+    },
+    {
+      "provision_ref": "s166",
+      "section": "166",
+      "title": "166",
+      "content": "– a központi közszolgálati nyilvántartás részére történt adatszolgáltatást a Vhr. szerinti nyomtatványon kell dokumentálni és azt irattárban kell elhelyezni,"
+    },
+    {
+      "provision_ref": "s167",
+      "section": "167",
+      "title": "167",
+      "content": "– az adatszolgáltatást végző köztisztviselő köteles a mágneslemez sérülés nélküli eljuttatásáról gondoskodni. A szolgáltatott adatokról készült lemezmásolatot 3 évig elkülönítetten meg kell őrizni."
+    },
+    {
+      "provision_ref": "s168",
+      "section": "168",
+      "title": "168",
+      "content": "III. Záró rendelkezések"
+    },
+    {
+      "provision_ref": "s169",
+      "section": "169",
+      "title": "169",
+      "content": "1. Jelen utasítás a közzétételét követő napon lép hatályba."
+    },
+    {
+      "provision_ref": "s170",
+      "section": "170",
+      "title": "170",
+      "content": "2. Az utasítás a minisztérium belső számítógépes hálózatán (intranet) kerül közzétételre."
+    },
+    {
+      "provision_ref": "s171",
+      "section": "171",
+      "title": "171",
+      "content": "Bajnai Gordon s. k.,"
+    },
+    {
+      "provision_ref": "s172",
+      "section": "172",
+      "title": "172",
+      "content": "nemzeti fejlesztési és gazdasági miniszter * Az utasítás az NFGM belső honlapján 2008. szeptember 25-én került közzétételre."
+    }
+  ]
+}

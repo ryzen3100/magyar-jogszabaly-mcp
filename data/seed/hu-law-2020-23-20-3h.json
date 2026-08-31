@@ -1,0 +1,315 @@
+{
+  "id": "hu-law-2020-23-20-3h",
+  "type": "statute",
+  "title": "23/2020. (XII. 21.) NMHH rendelet a szolgáltatóváltás és számhordozás részletes szabályairól",
+  "status": "in_force",
+  "in_force_date": "2020-12-22",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2020-23-20-3H",
+  "description": "a szolgáltatóváltás és számhordozás részletes szabályairól",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § A rendelet hatálya a) az előfizetőkhöz hívószámot rendelő és az internet-hozzáférési szolgáltatást nyújtó elektronikus hírközlési szolgáltatóra (a továbbiakban: szolgáltató), valamint b) az előfizetőre, a számhasználóra és a felhasználóra terjed ki."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § E rendelet alkalmazásában 1. átadó szolgáltató: az a szolgáltató, amelynek előfizetője a szolgáltatóváltási eljárásban az előfizetői szerződést a meglévő szolgáltatásokra megszünteti, vagy a számhordozási eljárásban az előfizetői szerződés megszüntetésével, vagy egyes számok esetében módosításával a számot egy másik szolgáltatóhoz átviszi; 2. átvevő szolgáltató: az a szolgáltató, amelynek jövőbeni előfizetője a szolgáltatóváltási eljárásban az előfizetői szerződést az új szolgáltatásokra megköti, vagy a számhordozási eljárásban a számát egy másik szolgáltatótól áthozza; 3. berendezés kód: a szolgáltató által adott háromjegyű számból álló kód, amely földrajzi szám esetében megjelöli azt a kapcsolási eszközt, amelyhez a hordozott szám előfizetője csatlakozik, vagy azt az összekapcsolási pontot, amelyen keresztül a hordozott szám előfizetője közvetlenül elérhető; 4. együttműködési teszt: a szolgáltató elméleti és műszaki alkalmasságának ellenőrzése a központi referencia adatbázis használatához; 5. hatóság: a Nemzeti Média- és Hírközlési Hatóság Hivatala; 6. hely szerinti számhordozás: helyhez kötött telefonszolgáltatásnál az előfizetői szám megtartása a számozási körzeten belül, az igénybevétel helyének vagy technológiájának – az irányítási információ változásával járó – megváltoztatása esetén; 7. hívásirányítás: az a hálózati funkció, amely a hordozott számra kezdeményezett hívás esetén meghatározza és beilleszti a valós végződésre utaló irányítási információt, és a hívást a hívott fél valós végződtető hálózata felé továbbítja; 8. hordozott szám: az előfizetői szerződésben szereplő azon szám, amelyet az előfizető az átadó szolgáltatótól az átvevő szolgáltatóhoz való áttéréskor, vagy helyhez kötött telefonszolgáltatás esetén a számozási körzeten belül az igénybevétel helyének vagy technológiájának – hívásirányítási információ változásával járó – megváltoztatásakor megtart; 9. irányítási információ: a hordozott számot, a hozzá tartozó irányítási számot és az érvényesség időtartamát tartalmazó információ; 10. irányítási szám: szolgáltatókódból és berendezés kódból álló információ, amely a hordozott számokra irányuló hívások és jelzések megfelelő irányítását teszi lehetővé; 11. irányítást végző szolgáltató: az a szolgáltató, amely a hívások vagy jelzések hordozott számokra való irányításához szükséges irányítási számot a hívásba vagy jelzésbe beiktatja; 12. jelzésirányítás: az a hálózati funkció, amely a hívásirányításon kívüli, a számhordozás során is biztosítandó szolgáltatások megvalósításához szükséges jelzéseket elemzi, és hordozott számok esetén beilleszti a valós végződésre utaló jelzésirányítási információt, és a jelzést a valós végződtető hálózat felé irányítja; 13. jelzés relé funkció: olyan jelzéshálózati funkció, amely mind a hívásfelépítéssel kapcsolatos, mind a hívásfelépítéstől független jelzésüzenetek esetében képes a hordozott számok felismerésére és szükség esetén azok irányítási információval való ellátására; 14. kapcsolattartó: az a személy, aki jogosult a szolgáltató nevében a központi referencia adatbázissal kapcsolatos adminisztratív kérdésekben eljárni; 15. késleltetés: a szolgáltatóváltási vagy számhordozási megállapodásban rögzített nap és a szolgáltatáskiesés nélkül végrehajtott szolgáltatóváltás vagy számhordozás napja közötti, napokban kifejezett időtartam, minden megkezdett napot teljes napnak számítva; 16. központi referencia adatbázis, vagy KRA: az a számhordozás érdekében létrehozott rendszer, amely tartalmazza és kezeli az összes hordozott számmal kapcsolatos irányítási információt, valamint a szolgáltatók e rendeletben meghatározott adatait, továbbá elektronikus adatkapcsolaton keresztül biztosítja az irányítási adatok összegyűjtését és a szolgáltatók, valamint más jogszabály alapján erre jogosultak részére való szétosztását; 17. számátadási időablak: minden munkanap 20 órától kezdődő 4 óra hosszúságú időtartomány, amelyben a számhordozás és számmezőátadás érvényesítéséhez szükséges műszaki intézkedéseket a szolgáltatók végrehajtják, és amely időtartam alatt a számátadással érintett számokon a szolgáltatás részben vagy egészben szünetelhet; 18. számhasználó: az elektronikus hírközlő hálózatok azonosítóinak nemzeti felosztási tervéről és az azonosítógazdálkodás rendjéről szóló NMHH rendelet szerinti számhasználó; 19. számhordozás kezdeményezője: a számhordozási eljárás kezdeményezésére jogosult előfizető, számhasználó, és az utólagos számhordozás esetén a megszűnt előfizetői szerződés előfizetője; 20. számhordozási megállapodás: a számhordozásra vonatkozó igénybejelentés alapján a számhordozás kezdeményezője és az átvevő szolgáltató között létrejövő megállapodás, amely a hordozandó összes számot és a hordozások számátadási időablakát is tartalmazza; 21. szolgáltatáskiesés: szolgáltatóváltás vagy számhordozás esetén a szolgáltatás átadó szolgáltatónál történő megszűnése és az átvevő szolgáltatónál való megkezdése közötti, napokban kifejezett időtartam, minden megkezdett napot teljes napnak számítva; 22. szolgáltatóváltási megállapodás: az internet-hozzáférési szolgáltatóváltásra vonatkozó igénybejelentés alapján az előfizető és az átvevő szolgáltató között létrejövő megállapodás, amely az átadó szolgáltatónál megszüntetendő szolgáltatásokat és a szolgáltatóváltás dátumát is tartalmazza; 23. szolgáltatókód: a hatóság által adott háromjegyű számból álló kód, amely a KRA-ban a szolgáltatót, vagy a szolgáltató üzletág részegységét jelöli; 24. tranzakció: egy adott szám vagy számtartomány átadására, egy hordozott szám vagy számtartomány hordozottságának vagy számhasználatának megszüntetésére, továbbá a KRA adatainak letöltésére vonatkozó, a KRA-ban rögzített, tranzakcióazonosítóval ellátott bejelentési, jóváhagyási, módosítási, törlési vagy letöltési művelet; 25. tranzakcióazonosító: a szolgáltató vagy a hatóság által adott egyedi azonosító; 26. tranzakciózárás: a számátadási időablak kezdetét 8 órával megelőző időpont, amely után a KRA az adott számátadási időablakra vonatkozó tranzakciót – letöltési művelet kivételével – nem fogad el; 27. utólagos számhordozás: az előfizetői szerződés megszűnését követő 31 napon belül kérelmezett számhordozás az előfizetői felmondással megszűnt előfizetői szerződésben szereplő számra, a megszűnt szerződés szolgáltatója mint átadó szolgáltató és a megszűnt előfizetői szerződés előfizetője által megbízott átvevő szolgáltató között; 28. üzenet: a KRA-ból a szolgáltató által letöltendő, a KRA által elektronikus formában tárolt, a szolgáltatót érintő, számhordozással kapcsolatos információ."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) Az internet-hozzáférési szolgáltatás esetén a szolgáltató a szolgáltatóváltást e rendelet szerint biztosítja. (2) A gépek közötti szolgáltatás nyújtására használt átviteli szolgáltatás számmezők (SHS = 71), az üzleti hálózati számmezők (SHS = 38), és a 14 kezdetű díjmentes szolgáltatás rövid számok esetében a szolgáltató lehetővé teszi a szolgáltatóváltást az elektronikus hírközlő hálózatok azonosítóinak nemzeti felosztási tervéről és az azonosítógazdálkodás rendjéről szóló NMHH rendeletben (a továbbiakban: ANFT rendelet) meghatározott azonosítóátadás hatósági eljárás keretében. (3) Az ANFT rendeletben meghatározott földrajzi, mobil, díjmentes (SHS = 80), emelt díjas (SHS = 90, 91), valamint nomadikus (SHS = 21) belföldi számokon nyújtott számfüggő személyközi hírközlési szolgáltatás esetében a szolgáltatónak biztosítania kell a számhordozhatóságot. (4) A helyhez kötött telefonszolgáltatást nyújtó szolgáltató lehetővé teheti a földrajzi szám megtartását az igénybevétel helyének számozási körzeten belül történő megváltoztatása, vagy a szolgáltatás nyújtás technológiájának megváltozása esetén hely szerinti számhordozás igénybevételével. (5) A szolgáltatók a szolgáltatóváltás és számhordozás jogát, az utólagos számhordozást is ideértve, nem korlátozhatják. (6) A szolgáltatóváltás és a számhordozás folyamatát az átvevő szolgáltató irányítja, és az internet-hozzáférési szolgáltatóváltás során az előfizető vagy a számhordozási eljárás során a számhordozás kezdeményezőjének megbízása alapján eljár az átadó szolgáltatónál. (7) A szolgáltatóváltási és számhordozási eljárás feltételeiről, kezdeményezéséről és eljárásrendjéről, valamint az előfizetői és számhasználói kompenzáció feltételeiről az érintett szolgáltató általános tájékoztatást ad az elektronikus hírközlésről szóló 2003. évi C. törvény (a továbbiakban: Eht.) 144. § (1) bekezdése szerint. (8) A szolgáltatóváltási és számhordozási folyamat előtt és alatt az érintett szolgáltató az előfizető vagy számhasználó kérésére az egyedi szolgáltatóváltási vagy számhordozási ügy részleteiről tájékoztatást ad az ügyfélszolgálatán. (9) A szolgáltató a szolgáltatóváltási és számhordozási eljárás kezdeményezését lehetővé teszi a) ügyfélszolgálatán, ideértve a telefonos és – ha a szolgáltató ilyet működtet – az internetes ügyfélszolgálatot is, ha az internet-hozzáférési szolgáltatóváltás során az előfizető, vagy a számhordozási eljárás során a számhordozás kezdeményezője megfelelően azonosítható és b) valamennyi olyan kereskedelmi képviselőjénél, amely ügyfélszolgálati feladatokat is ellát. (10) A szolgáltatók a szolgáltatóváltás és a számhordozás megvalósítása érdekében együttműködnek."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) Internet-hozzáférési szolgáltatóváltás esetén az előfizetőt átvevő szolgáltatónak biztosítania kell, hogy a szolgáltatásnyújtás műszaki feltételeire figyelemmel, az igénybejelentéshez legközelebbi, a szolgáltatóváltási megállapodás szerinti napon kezdje meg az internet-hozzáférési szolgáltatást úgy, hogy a szolgáltatóváltás miatti szolgáltatáskiesés időtartama nem haladja meg az egy munkanapot. (2) Azon internet-hozzáférési szolgáltatást tartalmazó szolgáltatáscsomagra vonatkozó szolgáltatóváltás esetén, amely nem tartalmaz a 3. § (3) bekezdése szerinti számfüggő személyközi elektronikus hírközlési szolgáltatást, az internet-hozzáférési szolgáltatóváltás szabályait a szolgáltatáscsomag egészére alkalmazni kell. (3) A szolgáltatóváltást kezdeményező előfizető az internet-hozzáférési szolgáltatóváltási igényét – az új előfizetői szerződés megkötésére vonatkozó igénybejelentésével egyidejűleg – az átvevő szolgáltató részére jelenti be. (4) Ha az igényelt szolgáltatás vagy szolgáltatáscsomag nyújtásának műszaki feltételei teljesülnek, az igénybejelentés során a) az átvevő szolgáltató azonosítja a szolgáltatóváltást kezdeményező előfizetőt, és új előfizetői szerződést köt; b) az átvevő szolgáltató és a szolgáltatóváltást kezdeményező előfizető szolgáltatóváltási megállapodásban rögzíti a szolgáltatóváltás napját, és az átadó szolgáltatónál megszüntetésre kerülő szolgáltatást vagy szolgáltatásokat; és c) a szolgáltatóváltást kezdeményező előfizető megbízza az átvevő szolgáltatót, hogy a szolgáltatás vagy a szolgáltatáscsomag megszüntetése, és ha szükséges, a szolgáltatóváltás műszaki megvalósítása ügyében az átadó szolgáltatónál a nevében eljárjon. (5) Ha a szolgáltatóváltás más szolgáltató hálózati infrastruktúrájához való nagykereskedelmi hozzáféréssel valósul meg, vagy más műszaki okból a szolgáltatóváltás dátuma az igénybejelentéssel egyidejűleg nem állapítható meg, a szükséges egyeztetések és vizsgálatok lefolytatásával a szolgáltatóváltási megállapodást az igénybejelentéstől számított 5 munkanapon belül meg kell kötni. (6) A szolgáltatóváltási megállapodásban rögzített szolgáltatóváltás dátuma megállapodással, igazolható módon módosítható. (7) A szolgáltatóváltást kezdeményező előfizető a szolgáltatóváltási igényét az átvevő szolgáltatónál legkésőbb a szolgáltatóváltás előtti munkanapon visszavonhatja. Az átvevő szolgáltató a szolgáltatóváltási igény visszavonásáról az átadó szolgáltatót haladéktalanul értesíti. (8) Az átvevő szolgáltató az átadó szolgáltatót értesíti a szolgáltatóváltásról az előfizetői adatok, a megszüntetendő szolgáltatások, a szolgáltatóváltás dátuma, valamint – ha szükséges – a műszaki megvalósításra vonatkozó információk megküldésével. (9) Az igényt az átadó szolgáltató elutasíthatja a) az előfizető sikertelen azonosítása esetén; b) ha az előfizetőnek a szolgáltatóváltási igény átvevő szolgáltató részére történt bejelentése időpontjában az átadó szolgáltatóval szemben több mint 30 napja lejárt számlatartozása van, amelyről az átadó szolgáltató az előfizetőt az Eht. 144. §-a szerint igazolhatóan értesítette; c) ha a szolgáltatóváltás műszaki megvalósításához a szolgáltatóváltást kezdeményező előfizetővel további egyeztetés, intézkedés szükséges. (10) Ha az átadó szolgáltató a szolgáltatóváltási igényt elutasította, az átvevő szolgáltató a szolgáltatóváltást kezdeményező előfizetőt erről haladéktalanul értesíti, és a szolgáltatóváltási folyamat a sikeres azonosításig vagy a műszaki feltételek egyeztetéséig szünetel, ezt követően a szolgáltatóváltási folyamat – ha szükséges, a (6) bekezdés szerinti módosítással – folytatható. (11) A szolgáltatóváltási igény elfogadása esetén az átvevő szolgáltató a szolgáltatások teljes körű nyújtásának megkezdését követően haladéktalanul értesíti az átadó szolgáltatót a sikeres szolgáltatóváltásról. (12) Az átadó szolgáltató a szolgáltatásait – ha műszakilag lehetőség van az átadó és átvevő szolgáltató szolgáltatásainak egyidejű nyújtására – az átadó szolgáltató (11) bekezdés szerinti értesítéséig fenntartja. Ilyen lehetőség hiányában az átadó szolgáltató a szolgáltatását a szolgáltatóváltási megállapodásban rögzített napig fenntartja. (13) A sikeresen végrehajtott szolgáltatóváltás időpontjában az átadó szolgáltatónál az előfizetői szerződés az átadott szolgáltatások vonatkozásában megszűnik. (14) Ha az internet-hozzáférési szolgáltatóváltás szolgáltatóváltási megállapodás nélkül, vagy nem az átadó szolgáltató előfizetői szerződésében szereplő előfizető kérésére történt meg, az átvevő szolgáltatónál a szolgáltatást meg kell szüntetni, és az átadó szolgáltató előfizetőjének kérésére a szolgáltatást az átadó szolgáltatónál haladéktalanul vissza kell állítani. Az átvevő szolgáltató az általa nyújtott szolgáltatásért díjat nem számíthat fel. (15) Az előfizetőnek az átadó szolgáltatóval szemben az előfizetői szerződés szolgáltatóváltás miatti megszűnéséig az előfizetői szerződés alapján keletkező számlatartozását, és az Eht. 134. § (15a) bekezdése szerinti, az előfizető által igénybe vett kedvezmények megtérítését az átvevő szolgáltató átvállalhatja. Erről az átvevő szolgáltató nyilatkozik az átadó szolgáltatónak. Átvállalás hiányában az előfizető a számlatartozást, és az igénybe vett kedvezményeket az átadó szolgáltató által kiállított számla alapján a szolgáltatóváltás kezdeményezését követően az átadó szolgáltatónál megfizeti. (16) Az átvevő szolgáltató jogosult az előfizető részére a (15) bekezdés szerint átvállalt tartozását kiszámlázni vagy annak kiegyenlítéséről, rendezéséről az előfizetővel egyéb módon megállapodni."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § (1) A számhordozási eljárás zavartalansága és a szolgáltatók közötti együttműködés érdekében a szolgáltatók egymás felé a számhordozási eljárások lebonyolítására fenntartott folyamatos elérhetőséget, legalább e-mail-címet és telefonszámot biztosítanak. (2) Ha számhordozás esetén a hívott szám hívásának díjazása megváltozhat amiatt, hogy a hívó fél szolgáltatója különböző díjazást alkalmaz a földrajzi, a mobil vagy a nomadikus számok különböző szolgáltatók felé irányuló hívásánál, a hívó fél szolgáltatója a hívó számára, a hívás előtt közvetlenül, saját hálózatából díjmentes tájékozódási lehetőséget biztosít ügyfélszolgálati, vagy egyéb díjmentesen hívható számán keresztül, vagy díjmentes alkalmazás igénybevételével arról, hogy a hívott szám melyik szolgáltató előfizetőjét azonosítja. Ezen adatot a hívásrészletezőn is fel kell tüntetni. (3) Az átadó szolgáltató a fennálló szerződésben szereplő, hordozásra kerülő számokon nyújtott szolgáltatások folyamatosságát a számátadási időablak kezdetéig biztosítja. (4) Azon szolgáltatáscsomagnak, amely tartalmaz a 3. § (3) bekezdése szerinti számfüggő személyközi elektronikus hírközlési szolgáltatást, a számhordozásban nem érintett szolgáltatásaira vonatkozó szolgáltatóváltást a számátadási időablak napján kell végrehajtani úgy, hogy a szolgáltatáskiesés nem haladhatja meg az egy munkanapot. (5) A számhordozás sikertelensége esetén az átvevő szolgáltató egyeztetést kezdeményez az átadó szolgáltatóval a szolgáltatás nyújtásának lehető legrövidebb időn belül történő megvalósításáról. Ha ehhez az átadó szolgáltatásának visszaállítása szükséges, akkor az átadó szolgáltató mindaddig változatlan feltételekkel fenntartja szolgáltatásait, amíg a számhordozás eredményesen megtörténik. (6) A szolgáltatáscsomag átadásával, valamint a hálózati szolgáltatással együtt megvalósuló számhordozás, a díjmentes szolgáltatás, az emelt díjas szolgáltatás és a tízet meghaladó számot magában foglaló üzleti előfizetés számainak hordozása, valamint egybefüggő számtartomány részleges hordozása esetében a számhordozás időzítése és végrehajtása érdekében az átvevő szolgáltató az átadó szolgáltatóval – és szükség esetén a számhordozás kezdeményezőjével – előzetesen egyeztet. (7) Az átvevő szolgáltató az előfizető részére a számhordozás kezdeményezésétől a számhordozás sikeres megvalósulásáig ideiglenes számot biztosíthat. Sikertelen számhordozás esetén az ideiglenes számon nyújtott szolgáltatás alapját képező előfizetői szerződést az előfizető az Eht. 134. § (15) és (15b) bekezdése szerint hátrányos jogkövetkezmények nélkül felmondhatja. (8) Ha a (7) bekezdés szerinti ideglenes számon nyújtott szolgáltatás időtartama nem haladja meg a 30 napot, az ideiglenes szám használatára az ANFT rendeletben meghatározott, a szám új előfizetőhöz rendelhetőségére vonatkozó korlátozás nem alkalmazandó."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § (1) A szolgáltató a határozott időtartamra kedvezményesen vagy egyéb módon kedvezményesen értékesített készülék ellenértékének kifizetését vagy az átvevő szolgáltató (3) bekezdés szerinti nyilatkozatának kézhezvételét követően a készülék hálózati zárát az előfizető kérésére külön díjazás nélkül haladéktalanul feloldja. (2) Összefüggő számtartomány hordozása esetében az átadó szolgáltató a számhordozás igénybevételéért az átvevő szolgáltató által fizetendő hordozásonkénti egyszeri díjat az összefüggő számtartomány mint egy egység hordozásával összefüggésben felmerült indokolt költségek alapján határozza meg. Összefüggő tartomány részleges hordozása esetén az átadó szolgáltató az elhordozott számokra az egyedi számok hordozására megállapított díját alkalmazhatja. (3) Az előfizetőnek az átadó szolgáltatóval szemben az előfizetői szerződés számhordozás miatti megszűnéséig az előfizetői szerződés alapján keletkező számlatartozását, és az Eht. 134. § (15a) bekezdése szerinti, az előfizető által igénybe vett kedvezmények megtérítését az átvevő szolgáltató átvállalhatja. Erről az átvevő szolgáltató nyilatkozik az átadó szolgáltatónak. Átvállalás hiányában az előfizető a számlatartozást, és az Eht. 134. § (15a) bekezdése szerinti, az előfizető által igénybe vett kedvezményeket az átadó szolgáltató által kiállított számla alapján a számhordozás kezdeményezését követően az átadó szolgáltatónál fizeti meg. (4) Az átvevő szolgáltató jogosult az előfizető részére a (3) bekezdés szerint átvállalt tartozását kiszámlázni, vagy annak kiegyenlítéséről, rendezéséről az előfizetővel egyéb módon megállapodni. (5) A felhasználó az átadó szolgáltatónál kérelmezheti az előrefizetett szolgáltatás fennmaradó összegének visszatérítését a számhordozást vagy utólagos számhordozást követő 30 napon belül. A fennmaradó összeg visszatérítése akkor lehet díjköteles, ha ezt az előfizetői szerződés rögzítette. E díjnak arányosnak és összemérhetőnek kell lennie az átadó szolgáltatónál a visszatérítés nyújtása során jelentkező tényleges költségekkel."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § (1) A számhordozás kezdeményezőjét az átvevő szolgáltató az általános szerződési feltételeiben meghatározott módon, és az átadó szolgáltatóval kötött előfizetői szerződésben foglalt adatok alapján azonosítja. (2) Az átvevő szolgáltató befogadja a számhordozási igényt, ha a számhordozás kezdeményezőjével előfizetői vagy számhasználati szerződést köt. (3) Az előfizető az átadó szolgáltatóval fennálló előfizetői szerződésében szereplő valamennyi számra vagy egyes számokra kérheti a számhordozást. Egy adott hálózati végponthoz rendelt egybefüggő számtartomány az 5. § (6) bekezdése és 6. § (2) bekezdése szerint részlegesen is hordozható. (4) A fennálló szerződésben szereplő azon számokra, amelyekre az előfizető nem igényelte a számhordozást, az átadó szolgáltató a szolgáltatást az érvényes szerződés módosításával fenntartja, vagy az előfizető kérésére a szolgáltatást megszünteti. Az előfizetői szerződés megszüntetését az előfizető az átadó szolgáltatónál kezdeményezheti. (5) Az előfizető jogosult a hordozott számot más szolgáltatóhoz tovább hordozni, más szolgáltató alatt értve bármely előző szolgáltatót is. (6) Ha az előfizetői szerződés az előfizető általi felmondással szűnt meg, a volt előfizető utólagos számhordozást kezdeményezhet a megszűnt szerződésben szereplő valamennyi számra, vagy a számok egy részére a szerződés megszűnését követő 31 napon belül, ha e jogáról az előfizetői szerződésben nem mondott le. (7) Ha a megszűnt előfizetői szerződés volt előfizetője a számhordozási igénybejelentés napján jogosult az utólagos számhordozásra, ez a jogosultság az átvevő szolgáltató 8. § (6) bekezdése szerinti jelzése alapján az átadó szolgáltatónál fennmarad az igény 8. § (5) bekezdése szerinti megküldéséig, és elutasítás esetén az igény 10. § (3) bekezdése szerinti ismételt benyújtásáig, a számhordozás megvalósítására kitűzött számátadási időablaktól függetlenül. (8) A megszűnt előfizetői szerződés volt előfizetője az utólagos számhordozás kezdeményezésére nyitva álló időtartam alatt a számra a korábbi szolgáltatójával is jogosult előfizetői szerződést kötni. (9) Az átadó szolgáltató a számhordozási igényt akkor tagadhatja meg, ha a) a számhordozás kezdeményezője nem azonosítható az (1) bekezdés alapján; b) a számhordozás kezdeményezőjének a számhordozási igény átvevő szolgáltató részére történt bejelentése időpontjában az átadó szolgáltatóval szemben több mint 30 napja lejárt számlatartozása van, amelyről az átadó szolgáltató a számhordozás kezdeményezőjét az Eht. 144. §-a szerint igazolhatóan értesítette; c) az 5. § (6) bekezdése szerinti esetekben további egyeztetés szükséges, vagy d) a (6) bekezdés szerinti utólagos számhordozásra a megszűnt előfizetői szerződés előfizetője nem jogosult. (10) Az átadó szolgáltató erre vonatkozó igénye esetén az átvevő szolgáltató átadja számára az előfizető számhordozási igényét és a képviseletére vonatkozó meghatalmazást, eredeti formáját változtathatatlanul rögzítve elektronikus úton. (11) Ha a számhordozás számhordozási megállapodás nélkül, vagy nem az átadó szolgáltató előfizetői vagy számhasználati szerződésében szereplő előfizető vagy számhasználó kérésére történt meg, az átvevő szolgáltatónál a szolgáltatást meg kell szüntetni, és az átadó szolgáltató előfizetőjének vagy számhasználójának kérésére a szolgáltatást az átadó szolgáltatónál haladéktalanul vissza kell állítani. Utólagos számhordozás esetén a megszűnt előfizetői szerződésben szereplő előfizető – ha utólagos számhordozásra jogosult – visszakapja e jogosultságát. Az átvevő szolgáltató az általa nyújtott szolgáltatásért díjat nem számíthat fel."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § (1) A számhordozás kezdeményezője – az új előfizetői szerződés megkötésére vonatkozó igénybejelentésével egyidejűleg – az átvevő szolgáltatónak jelenti be a számhordozási igényét. Ha az előfizetői vagy számhasználati szerződés megkötésének feltételei teljesülnek, az igénybejelentés során a) az átvevő szolgáltató azonosítja a számhordozás kezdeményezőjét, és új szerződést köt; b) az átvevő szolgáltató és a számhordozás kezdeményezője számhordozási megállapodásban rögzíti az elhordozni kívánt számokat és a számátadási időablakot, amely alatt a számhordozás megtörténik, valamint szolgáltatáscsomag esetén a további szolgáltatásokat; továbbá c) a számhordozás kezdeményezője az átvevő szolgáltatónak megbízást ad a számhordozás és szolgáltatóváltás lebonyolítására. (2) A számhordozás kezdeményezője és az átvevő szolgáltató a számátadási időablakot a számhordozás kezdeményezőjének igényétől és a számhordozás műszaki feltételeitől függően közösen állapítják meg, amely során a szolgáltató felajánlja a legközelebbi számátadási időablakot. Indokolt akadályoztatás hiányában a munkanapon 16 óráig beérkezett igénybejelentés esetén a bejelentést követő második munkanap számátadási időablakát kell felajánlani. (3) Ha az 5. § (6) bekezdése szerinti esetekben a számátadási időablak az igénybejelentéssel egyidejűleg nem állapítható meg, a szükséges egyeztetések és vizsgálatok lefolytatásával az (1) bekezdés b) pontja szerinti számhordozási megállapodást az igénybejelentéstől számított 5 munkanapon belül meg kell kötni. (4) Az átvevő szolgáltató a számhordozási igénybejelentésnek megfelelő módon tájékoztatja a számhordozás kezdeményezőjét arról, hogy a) a számátadási időablak alatt a szolgáltatás részben vagy egészben szünetelhet; b) a hangposta üzenetek nem vihetők át; c) az átadó szolgáltató által kedvezménnyel értékesített, hálózati zárral ellátott készülék akkor használható az átvevő szolgáltató hálózatában, ha az átadó szolgáltató a hálózati zárat a 6. § (1) bekezdése szerint feloldotta; d) az előrefizetett szolgáltatás esetén a fel nem használt összeg számhordozás után az átadó szolgáltatónál a 6. § (5) bekezdése szerint visszaigényelhető; e) az előfizető a 6. § (3) bekezdése szerinti tartozását az átadó szolgáltatónál fizeti meg, vagy – ha az átvevő szolgáltató a tartozást átvállalta – a 6. § (4) bekezdése szerint jár el; f) az 5. § (6) bekezdése szerinti esetekben a számhordozási megállapodás megkötéséhez az átvevő szolgáltató a számhordozást az átadó szolgáltatóval egyezteti, amely az előfizető vagy számhasználó közreműködését is igényelheti; valamint g) a számhordozás késedelmes megvalósítása, és egy munkanapot meghaladó szolgáltatáskiesés esetén az átvevő szolgáltató az előfizetőnek vagy számhasználónak kompenzációt fizet. (5) Az átvevő szolgáltató a számhordozási megállapodásban rögzített igényről a munkanapon 16 óráig rögzített számhordozási megállapodás esetén az átadó szolgáltatót az adott munkanapon 20 óráig, későbbi rögzítés esetén a következő munkanapon 20 óráig értesíti. (6) Az utólagos számhordozásra vonatkozó igényt az átvevő szolgáltató minden esetben – az 5. § (6) bekezdése szerinti eseteket is beleértve – jelzi az átadó szolgáltatónak. (7) Az átvevő szolgáltató a számhordozást a 17. § (1) bekezdése szerint a KRA-nak bejelenti. (8) Az átadó szolgáltatóval fennálló előfizetői szerződés vagy számhasználói szerződés a sikeresen végrehajtott számhordozás megvalósulásával megszűnik, vagy a 7. § (4) bekezdése szerint módosul."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § (1) Az átadó szolgáltató a számhordozás elfogadásáról vagy elutasításáról és annak indokáról legkésőbb az átvevő szolgáltató általi értesítést követő munkanapon 20 óráig értesíti az átvevő szolgáltatót. (2) Az átadó szolgáltató a bejelentett számhordozást a KRA-ban a 17. § (2) bekezdése szerint jóváhagyja vagy elutasítja."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § (1) A számhordozás a 7. § (9) bekezdésében meghatározott okból utasítható el. (2) A számhordozási igény elutasításáról az átvevő szolgáltató a számhordozás kezdeményezőjét az Eht. 144. § (4) bekezdésének megfelelően az elutasítástól számított egy munkanapon belül értesíti. (3) A számhordozási eljáráshoz kapcsolódó határidők a számhordozás kezdeményezőjének újabb azonosítását, vagy a 7. § (9) bekezdés b) pontja szerint lejárt követelések kiegyenlítésének a számhordozás kezdeményezője általi bejelentését követően a hordozási igény átvevő szolgáltató részére történő ismételt benyújtásának napján újrakezdődnek. Utólagos számhordozás elutasítása esetén az ismételt igény az elutasítást követő 15 napon belül nyújtható be. (4) A számhordozás kezdeményezője a számhordozási igényét az átvevő szolgáltatónál a számátadási időablakot megelőző második munkanapon 16 óráig visszavonhatja, ez esetben az átvevő szolgáltató az igény törléséről az átadó szolgáltatót 20 óráig értesíti, valamint a KRA-ba bejelentett hordozást törli. (5) A számátadási időablak megállapodással, igazolható módon módosítható."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § (1) Az átvevő szolgáltató internet-hozzáférési szolgáltatóváltás esetén az előfizető, vagy számhordozási eljárás esetén a számhordozás kezdeményezője részére kompenzációt fizet, a) ha a szolgáltatóváltás és számhordozás során a megállapodásban rögzített szolgáltatásra vagy a szolgáltatáscsomag bármely elemére a szolgáltatáskiesés meghaladja az egy munkanapot, vagy b) ha a szolgáltatóváltás és számhordozás késleltetve – ideértve a karbantartási és beszerelési időpontok elmulasztásának esetét is –, nem a megállapodás szerinti napon történik meg. (2) A kompenzáció megállapodásonként számítandó, mértéke nem függ a számhordozási megállapodásban szereplő számok vagy a szolgáltatóváltásban érintett szolgáltatások számától. (3) A kompenzáció összege szolgáltatáskiesés esetén az egy munkanapot meghaladó minden további napra 10 000 Ft, de legfeljebb 50 000 Ft. (4) Késleltetés esetén a kompenzáció összege 5000 Ft naponként, de legfeljebb 25 000 Ft. (5) Ha a szolgáltatóváltás a 4. § (14) bekezdése szerint, vagy a számhordozás a 7. § (11) bekezdése szerint valósult meg, a szolgáltatás átadó szolgáltatónál való visszaállításáig okozott szolgáltatáskiesésre az előfizetőt vagy számhasználót az átadó szolgáltatótól a (2) és (3) bekezdés szerinti kompenzáció illeti meg. (6) Nem jogosult az előfizető vagy a számhasználó kompenzációra, ha a szolgáltatáskiesést vagy késleltetést az előfizető, a számhasználó, vagy harmadik személy okozta azzal, hogy a műszaki megvalósításhoz szükséges tevékenységet a szolgáltató részére nem tette lehetővé."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. § (1) Az átvevő szolgáltató a kompenzáció összegét – a (4) bekezdésben foglalt kivétellel – az elektronikus hírközlési előfizetői szerződések részletes szabályairól szóló 22/2020. (XII. 21.) NMHH rendelet 3. § (4) bekezdésének alkalmazásával téríti meg. (2) Az átadó szolgáltató a kompenzáció összegét az átvevő szolgáltató kérésére az átvevő szolgáltató részére megtéríti, ha a szolgáltatáskiesés vagy késleltetés oka az, hogy az átadó szolgáltató a számhordozási igényt a) indokolás nélkül elutasította; b) a számhordozás kezdeményezőjének megfelelő azonosítása ellenére elutasította; c) nem a 7. § (9) bekezdés b) pontja szerint lejárt és értesített tartozás miatt utasította el; d) a 9. § (1) bekezdése szerinti elfogadást követően a KRA-ban elutasította; vagy e) a műszaki feltételek biztosításához szükséges tevékenységet nem végezte el a megállapodás szerinti határidővel. (3) A 11. § (5) bekezdése szerinti esetben a kompenzáció összegét az átvevő szolgáltató az átadó szolgáltató részére megtéríti. (4) A KRA-nak a hatóság által – a 22. § (9) bekezdése szerint – igazolt hibája esetén a 11. § (4) bekezdése szerinti kompenzáció összegét az átvevő szolgáltató kérésére a hatóság az átvevő szolgáltató részére megtéríti. Ebben az esetben az átvevő szolgáltató a kompenzáció összegét közvetlenül az előfizető vagy számhasználó részére egy összegben fizeti meg."
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. § (1) A hordozott számokra irányuló hívások megfelelő irányításáért az a szolgáltató a felelős, a) amelynek a hálózatában a hívást belföldön kezdeményezik, vagy b) amely a hívást a nemzetközi hálózatból fogadja. (2) A hordozott mobil számokra irányuló SMS és MMS üzenetek jelzésirányításáért a) az a szolgáltató a felelős, amelynek a hálózatából a szolgáltatás igénybevételét kezdeményezték, vagy b) az a szolgáltató a felelős, amely a szolgáltatás kezdeményezését a nemzetközi hálózatból fogadja, valamint c) az a mobil rádiótelefon-szolgáltató felelős, amelyhez a nemzetközi hálózattal rendelkező szolgáltató azt továbbította. (3) A hívásirányításra a „lekérdezés minden hívásnál” (All Call Query) módszert kell alkalmazni, amelyben az irányítási információt tartalmazó adatbázis lekérdezését minden hívás során végrehajtják. A hívásirányításra és az SMS és MMS jelzés irányítására a mobil rádiótelefon-hálózatokban a jelzés relé funkció és egyéb, erre alkalmas szabványos eljárás is alkalmazható. (4) (5) A hordozott számról kezdeményezett segélyhívás irányítását az átvevő szolgáltató biztosítja a segélyhívást fogadó szolgálatokkal kötött megállapodásnak megfelelően. (6) A hívásirányításért és jelzésirányításért felelős szolgáltató az irányítás elvégzésével más szolgáltatót is megbízhat. (7) A hívás- és jelzésirányításért felelős szolgáltató, vagy az általa megbízott szolgáltató az irányítás hordozott számoknak megfelelő módosítását a számátadási időablakban végrehajtja. (8) (9) Egybefüggő számtartomány számainak részleges hordozása esetén az egybefüggő számmező feloldását, a hordozott és a nem hordozott számok beállítását az átadó szolgáltató a számhordozás és a számtartomány átadás számátadási időablakában elvégzi. (10) A hívásirányítás és a hívások továbbításának járulékos többletköltségeit a szolgáltatók között hordozott számra irányuló hívás irányításáért az (1) bekezdés szerinti, a jelzésirányítás költségeit a (2) bekezdés szerinti felelős szolgáltató viseli."
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14. §",
+      "content": "14. § (1) A hatóság működteti a KRA-t és kezeli a szolgáltatókkal kapcsolatos adatokat. (2) A KRA működésével kapcsolatos költségeket a hatóság az azonosítók lekötésének és használatának díjából származó bevételéből fedezi. (3) A KRA a következő szolgáltatói adatokat tárolja: a) a szolgáltató neve, a kapcsolattartó, vagy kapcsolattartók neve, telefonszáma, e-mail-címe; b) a KRA eléréséhez és használatához szükséges azonosítók és elektronikus aláírások adatai és c) az 5. § (1) bekezdése szerinti elérhetőségi adatok. (4) A szolgáltató a hatóság rendelkezésére bocsátja a (3) bekezdés szerinti adatokat, továbbá az adatokban történt változást 15 napon belül bejelenti a hatóság KRA ügyfélszolgálatának. (5) A hatóság a szolgáltatókkal egyezteti a szolgáltatók és a KRA közötti kommunikációs interfészre, az adatszolgáltatás és a tranzakciók módjára vonatkozó részletes műszaki leírásokat, valamint azok esetleges változásait, és ezt követően ezekről a szolgáltatókóddal rendelkező szolgáltatókat értesíti. (6) A hatóság a szolgáltatók részére a honlapján elérhetővé teszi a műszaki leírásokat, valamint a KRA ügyfélszolgálat és a KRA hibabejelentő elérhetőségét. (7) A hatóság – mint a KRA működtetője – biztosítja, hogy a KRA folyamatosan fogadja a szolgáltatóktól érkező irányítási információkat és folyamatosan hozzáférhetővé tegye a szolgáltatók, valamint a jogszabály alapján erre jogosultak számára a kapott jogosultságuknak megfelelő adatokat. (8) A hatóság biztosítja az adatbázisban tárolt adatok és a szolgáltatók által megadott adatok egyezőségét. (9) A vitatható esetek kezelhetősége, valamint a hatósági nyilvántartás vezetése és az azonosítók használati díjával kapcsolatos számlázási adatok hitelessége érdekében a KRA naplóban rögzít minden tranzakciót. A naplóhoz a szolgáltatók nem jogosultak hozzáférni. A szolgáltató indokolt kérése esetén a hatóság a naplóból a kért adatokat átadja. (10) A hatóság a szolgáltató indokolt kérelmére jogosult számhordozási tranzakciókat végezni, ha a KRA üzemszerű elérésében a szolgáltató ideiglenesen akadályoztatva van."
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15. §",
+      "content": "15. § (1) A KRA és a szolgáltató közötti adatcsere elektronikus formában, hitelesített adatkapcsolat útján történik. Mind a KRA, mind a szolgáltató által küldött üzenetet legalább fokozott biztonságú elektronikus aláírással vagy legalább fokozott biztonságú elektronikus bélyegzővel kell ellátni. A hatóság a KRA zavartalan működése érdekében a szolgáltató által küldött üzenetet – a 14. § (5) bekezdése szerinti műszaki leírásokban foglalt szabályoknak megfelelően – elektronikus aláírás nélkül is elfogadhatja, ha az elektronikusan aláírt üzenet KRA részére történő továbbítása objektív műszaki okból nem lehetséges. (2) A hordozott számokra vonatkozó irányítási információkat a szolgáltató számhordozási tranzakció keretében jelenti be a KRA számára. (3) A KRA számhordozási tranzakciókat a számátadási időablak kezdő időpontjaira fogad el. (4) A KRA a nem megfelelő formátumú, hiányos vagy nem megfelelő időben küldött tranzakciót elutasítja, és erről a bejelentő szolgáltatót értesíti. (5) A KRA által a szolgáltató számára tárolt üzenetek letöltését a szolgáltató kezdeményezi. A szolgáltatót – kérésére – a számára készített új üzenetekről a KRA e-mailben értesíti. (6) A szolgáltató jogosultsága és kötelezettsége, hogy a KRA-ban tárolt hívásirányítási információhoz megfelelő időben és módon hozzájusson és a hívások irányításánál ezeket alkalmazza. A KRA-ban tárolt információ kizárólag irányításhoz, vagy a számhordozáshoz kapcsolódó tájékoztatási kötelezettség teljesítéséhez használható fel. (7) A hordozott számokra irányuló hívások és jelzések irányításáért felelős, vagy a felelős szolgáltató megbízásából irányítást végző szolgáltató az üzemi adatbázisában a hordozott számokra vonatkozó irányítási információ érvényesítését a megadott számátadási időablakban elvégzi."
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16. §",
+      "content": "16. § (1) Az irányítási információk alapvető adatbeviteli eljárásai a következők: a) számhordozás bejelentése és jóváhagyása; b) számhasználat megszűnésének bejelentése; c) hely szerinti számhordozás bejelentése; valamint d) hely szerinti számhordozás megszüntetés bejelentése. (2) A bejelentésnek a 14. § (5) bekezdése szerinti részletes műszaki leírásokban szereplő adatokat kell tartalmaznia. (3) Az (1) bekezdés szerinti adatbeviteli eljárások egyedi számokra vagy összefüggő számtartományokra alkalmazhatók. Összefüggő számtartomány hordozása esetében az egész számtartomány hordozása együtt utasítható el, vagy hagyható jóvá."
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17. §",
+      "content": "17. § (1) A számhordozást az átvevő szolgáltató legkésőbb a számátadási időablak napját megelőző napon 12 óráig bejelenti a KRA számára. (2) A számhordozás bejelentéséről a KRA az átadó szolgáltató részére jóváhagyást kérő üzenetet készít. A bejelentést az átadó szolgáltató a tranzakciózárásig jóváhagyja vagy a 7. § (9) bekezdésében meghatározott indok alapján elutasítja. (3) Ha az átadó szolgáltató a számhordozás – a (2) bekezdésben meghatározott – jóváhagyási határidején belül nem válaszol, úgy kell tekinteni, hogy a bejelentés adatait jóváhagyta, és ennek alapján a számhordozást a KRA elfogadottá teszi. (4) A KRA a számhordozás bejelentés adatainak elfogadásáról, vagy elutasításáról az átvevő szolgáltató részére üzenetet készít. (5) Az átvevő szolgáltató a számhordozás bejelentését a tranzakciózárásig törölheti. Szabályos törlési kérelem esetén a KRA a számhordozás bejelentését törli, a törlésről az átvevő és az átadó szolgáltató részére üzenetet készít."
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18. §",
+      "content": "18. § (1) Az átvevő szolgáltató a hordozott számra vonatkozó számhasználati joga megszűnését a 23. §-ban foglaltak figyelembevételével a KRA-nak legkésőbb a számátadási időablak tranzakciózárásáig bejelenti. (2) A szám hordozottsága a bejelentésben megadott számátadási időablak kezdő időpontjától a KRA-ban megszűnik. (3) A KRA üzenetet készít a számra vonatkozó kijelölési engedély jogosultja részére a számhasználati jog visszakerüléséről, valamint a bejelentő szolgáltató részére a számhasználati jog elvesztéséről. (4) A bejelentő szolgáltató a számhasználat megszűnésének bejelentését a tranzakciózárásig törölheti. A törlésről a KRA a bejelentőnek és a kijelölési engedély jogosultjának is üzenetet készít."
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19. §",
+      "content": "19. § (1) A szolgáltató a hely szerinti számhordozást a bejelentésben megadott számátadási időablak tranzakciózárásáig jelentheti be. A bejelentés a tranzakciózárásig törölhető. (2) Ha a hely szerint hordozott, de szolgáltatók között nem hordozott számra a szám hordozottsága megszűnik, a szolgáltató a hely szerinti számhordozás megszüntetését bejelenti. A szolgáltató a hely szerinti számhordozás megszüntetésének bejelentését a tranzakciózárásig törölheti."
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20. §",
+      "content": "20. § (1) A szolgáltató a részére készített általános üzeneteket és jóváhagyást kérő üzeneteket tetszőleges időpontban letöltheti. (2) A rendelkezésre álló irányítási információk letöltését a szolgáltató kezdeményezi. (3) A KRA a számátadási időablakra vonatkozó tranzakciózárás után az alábbi irányítási listákat hozza létre letöltésre: a) következő időablakra vonatkozó irányítási lista: időablakonként létrehozott lista, amely az adott időablakban érvényessé váló tranzakciók irányítási információit tartalmazza; b) teljes irányítási lista: időablakonként létrehozott lista, amely az adott időablakban érvényes összes irányítási információt tartalmazza. (4) Az üzemi adatbázisok frissítéséhez szükséges irányítási listát a létrehozását követően a számátadási időablak kezdetéig kell a szolgáltatónak letölteni."
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21. §",
+      "content": "21. § (1) A KRA rendszerhez minden olyan szolgáltató csatlakozik, amely a 3. § (3) bekezdése szerinti számfüggő személyközi hírközlési szolgáltatáshoz tartozó számmező kijelölési engedélyével rendelkezik. Ezen számok kijelölési engedélyének visszavonása esetén a hatóság a szolgáltató KRA rendszerhez való hozzáférését megszünteti. (2) A szolgáltatónak a KRA-hoz történő első csatlakozása előtt együttműködési tesztet kell végrehajtania. A csatlakozás csak sikeres teszt után hajtható végre. Ha a szolgáltató a tesztet a hatóság felszólításában kitűzött határidőre sem hajtja végre, az (1) bekezdés szerinti kijelölési engedélyeket a hatóság visszavonja. (3) A hatóság az (1) bekezdés szerinti kijelölési engedély visszavonásáról dönt abban az esetben is, ha a szolgáltató a KRA rendszerrel való kapcsolattartásban nem biztosítja a tranzakciók végrehajtásának feltételeit. (4) A szolgáltatókódot a hatóság jelöli ki. Egy szolgáltató részére több szolgáltatókód is kijelölhető. A hatóság a szolgáltatókódokat a honlapján közzéteszi. (5) A szolgáltató jogutód nélküli megszűnése esetén a szolgáltatókódját a hatóság visszavonja és az irányítási információkat a változásnak megfelelően módosítja. (6) A szolgáltatókóddal rendelkező szolgáltató jogutódlással való megszűnése esetén a jogelőd szolgáltatóhoz rendelt szolgáltatókódot vagy kódokat a hatóság a jogutód szolgáltatóhoz rendeli. (7) A szolgáltatókóddal rendelkező szolgáltató szolgáltatási tevékenységének átadása esetén az átadó szolgáltatóhoz rendelt szolgáltatókód nem adható át. (8) A szolgáltatókódokban történő változásról a KRA a szolgáltatók számára üzenetet készít."
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22. §",
+      "content": "22. § (1) A KRA éves rendelkezésre állása legalább az éves üzemidő 99,5%-a. A rendelkezésre állás számítása a 14. § (5) bekezdése szerinti műszaki leírásban meghatározottak szerint történik. (2) A KRA meghibásodását a szolgáltató a hét minden napján 0.00–24.00 óra között telefonon, és ezzel egyidejűleg e-mailben jelenti be a hatóság KRA hibabejelentőjének. (3) A hibabejelentésnek a következőket kell tartalmaznia: a) a szolgáltató megnevezése; b) a bejelentő neve, elérhetősége; c) a szolgáltató részéről a hibaelhárításban közreműködő személy neve, elérhetősége; d) a hiba pontos leírása; e) a hiba észlelésének időpontja és f) a bejelentés időpontja. (4) A hatóság a hiba bejelentését követően haladéktalanul megkezdi a hiba behatárolását. A hatóság a hibabehatárolás befejezése után tájékoztatja a szolgáltatót az elhárítás várható idejéről. (5) A hatóság a hibát a lehető legrövidebb időn belül hárítja el. (6) A hatóság úgy alakítja ki az üzemeltetési környezetet, hogy teljes működést befolyásoló hiba esetén a hibajavítást 4 órán belül megkezdhesse, és a hibát 12 órán belül elhárítsa. (7) Ha a hibaelhárításhoz szükséges a szolgáltató közreműködése, a hatóság felveszi a kapcsolatot a szolgáltató által megadott közreműködővel. Ha ez a személy nem érhető el, vagy a szolgáltató a szükséges közreműködést nem tudja biztosítani, a közreműködés kérésétől a közreműködés biztosításáig eltelt idő az e jogszabályban meghatározott hibaelhárítási időbe nem számít bele. (8) A hatóság a hiba bejelentéséről hibajegyet készít, továbbá a hibaelhárítási folyamat lezárásakor telefonon vagy e-mailben tájékoztatást ad az érintett szolgáltatóknak a hiba megszüntetéséről. (9) Ha a számhordozás késleltetését a KRA meghibásodása okozza, a szolgáltató kérésére a hatóság erről igazolást állít ki."
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23. §",
+      "content": "23. § (1) Ha az előfizető szolgáltatót változtat és számhordozást vesz igénybe, a hordozott szám használati joga és az ezzel összefüggő kötelezettségek az átvevő szolgáltatóhoz kerülnek, egyidejűleg az átadó szolgáltatónál megszűnnek, de a kijelölési engedély jogosultja továbbra is az a szolgáltató marad, amely számára a hatóság a hordozott számot tartalmazó számmezőt kijelölte. (2) A hordozott számra vonatkozó előfizetői szerződés megszűnése után az átvevő szolgáltató a számot új előfizetőhöz az ANFT rendelet előírásai szerint rendelheti. (3) A megszűnt előfizetői szerződésben szereplő hordozott szám használatba vételére vonatkozó 6 hónapos korlátozás időtartama után – ha a számot időközben nem hordozták el, és a számra nem kötöttek új előfizetői szerződést – a hordozott szám használati joga visszakerül a számot tartalmazó számmező kijelölési engedélyének jogosultjához, és a szám újra előfizetőhöz rendelhetővé válik. (4) Az átvevő szolgáltató a hordozott szám újra előfizetőhöz való rendelhetőségének időpontját legalább 30 nappal korábban a KRA-ba számhasználat megszűnésként bejelenti, amelyről a KRA a hordozott számot tartalmazó számmező kijelölési engedélyének jogosultját értesíti. (5) Ha a szolgáltató KRA rendszerhez való hozzáférését a hatóság megszünteti, a (2) és (3) bekezdés szerinti korlátozás alkalmazása nélkül a szolgáltatóhoz hordozott szám használati jogát is megszünteti. Ebben az esetben a szám használatba vételére vonatkozó korlátozások alkalmazásáról a számmező kijelölési engedélyének jogosultja gondoskodik."
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24. §",
+      "content": "24. § (1) Ez a rendelet – a (2) bekezdésben foglalt kivétellel – a kihirdetését követő napon lép hatályba. (2) A 26. § (1) bekezdése 2021. június 30. napján lép hatályba."
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25. §",
+      "content": "25. § E rendeletet 2021. június 30. napjától kell alkalmazni."
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26. §",
+      "content": "26. § (1) (2)"
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27. §",
+      "content": "27. § Ez a rendelet az Európai Elektronikus Hírközlési Kódex létrehozásáról szóló, 2018. december 11-i (EU) 2018/1972 európai parlamenti és tanácsi irányelv 106. cikkének való megfelelést szolgálja. 1 A 3. § (2) bekezdése a 3/2025. (III. 11.) NMHH rendelet 7. §-a szerint módosított szöveg. 2 A 4. § (12) bekezdése a 6/2021. (VII. 8.) NMHH rendelet 12. §-a szerint módosított szöveg. 3 A 13. § (4) bekezdését a 26. § (2) bekezdése hatályon kívül helyezte. 4 A 13. § (8) bekezdését a 26. § (2) bekezdése hatályon kívül helyezte. 5 A 26. § (1) bekezdése a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette. 6 A 26. § (2) bekezdése a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "§ E rendelet alkalmazásában 1. átadó szolgáltató",
+      "definition": "az a szolgáltató, amelynek előfizetője a szolgáltatóváltási eljárásban az előfizetői szerződést a meglévő szolgáltatásokra megszünteti, vagy a számhordozási eljárásban az előfizetői szerződés megszüntetésével, vagy egyes számok esetében módosításával a számot egy másik szolgáltatóhoz átviszi",
+      "source_provision": "s2"
+    },
+    {
+      "term": "átvevő szolgáltató",
+      "definition": "az a szolgáltató, amelynek jövőbeni előfizetője a szolgáltatóváltási eljárásban az előfizetői szerződést az új szolgáltatásokra megköti, vagy a számhordozási eljárásban a számát egy másik szolgáltatótól áthozza",
+      "source_provision": "s2"
+    },
+    {
+      "term": "berendezés kód",
+      "definition": "a szolgáltató által adott háromjegyű számból álló kód, amely földrajzi szám esetében megjelöli azt a kapcsolási eszközt, amelyhez a hordozott szám előfizetője csatlakozik, vagy azt az összekapcsolási pontot, amelyen keresztül a hordozott szám előfizetője közvetlenül elérhető",
+      "source_provision": "s2"
+    },
+    {
+      "term": "együttműködési teszt",
+      "definition": "a szolgáltató elméleti és műszaki alkalmasságának ellenőrzése a központi referencia adatbázis használatához",
+      "source_provision": "s2"
+    },
+    {
+      "term": "hatóság",
+      "definition": "a Nemzeti Média- és Hírközlési Hatóság Hivatala",
+      "source_provision": "s2"
+    },
+    {
+      "term": "hely szerinti számhordozás",
+      "definition": "helyhez kötött telefonszolgáltatásnál az előfizetői szám megtartása a számozási körzeten belül, az igénybevétel helyének vagy technológiájának – az irányítási információ változásával járó – megváltoztatása esetén",
+      "source_provision": "s2"
+    },
+    {
+      "term": "hívásirányítás",
+      "definition": "az a hálózati funkció, amely a hordozott számra kezdeményezett hívás esetén meghatározza és beilleszti a valós végződésre utaló irányítási információt, és a hívást a hívott fél valós végződtető hálózata felé továbbítja",
+      "source_provision": "s2"
+    },
+    {
+      "term": "hordozott szám",
+      "definition": "az előfizetői szerződésben szereplő azon szám, amelyet az előfizető az átadó szolgáltatótól az átvevő szolgáltatóhoz való áttéréskor, vagy helyhez kötött telefonszolgáltatás esetén a számozási körzeten belül az igénybevétel helyének vagy technológiájának – hívásirányítási információ változásával járó – megváltoztatásakor megtart",
+      "source_provision": "s2"
+    },
+    {
+      "term": "irányítási információ",
+      "definition": "a hordozott számot, a hozzá tartozó irányítási számot és az érvényesség időtartamát tartalmazó információ",
+      "source_provision": "s2"
+    },
+    {
+      "term": "irányítási szám",
+      "definition": "szolgáltatókódból és berendezés kódból álló információ, amely a hordozott számokra irányuló hívások és jelzések megfelelő irányítását teszi lehetővé",
+      "source_provision": "s2"
+    },
+    {
+      "term": "irányítást végző szolgáltató",
+      "definition": "az a szolgáltató, amely a hívások vagy jelzések hordozott számokra való irányításához szükséges irányítási számot a hívásba vagy jelzésbe beiktatja",
+      "source_provision": "s2"
+    },
+    {
+      "term": "jelzésirányítás",
+      "definition": "az a hálózati funkció, amely a hívásirányításon kívüli, a számhordozás során is biztosítandó szolgáltatások megvalósításához szükséges jelzéseket elemzi, és hordozott számok esetén beilleszti a valós végződésre utaló jelzésirányítási információt, és a jelzést a valós végződtető hálózat felé irányítja",
+      "source_provision": "s2"
+    },
+    {
+      "term": "jelzés relé funkció",
+      "definition": "olyan jelzéshálózati funkció, amely mind a hívásfelépítéssel kapcsolatos, mind a hívásfelépítéstől független jelzésüzenetek esetében képes a hordozott számok felismerésére és szükség esetén azok irányítási információval való ellátására",
+      "source_provision": "s2"
+    },
+    {
+      "term": "kapcsolattartó",
+      "definition": "az a személy, aki jogosult a szolgáltató nevében a központi referencia adatbázissal kapcsolatos adminisztratív kérdésekben eljárni",
+      "source_provision": "s2"
+    },
+    {
+      "term": "késleltetés",
+      "definition": "a szolgáltatóváltási vagy számhordozási megállapodásban rögzített nap és a szolgáltatáskiesés nélkül végrehajtott szolgáltatóváltás vagy számhordozás napja közötti, napokban kifejezett időtartam, minden megkezdett napot teljes napnak számítva",
+      "source_provision": "s2"
+    },
+    {
+      "term": "központi referencia adatbázis, vagy KRA",
+      "definition": "az a számhordozás érdekében létrehozott rendszer, amely tartalmazza és kezeli az összes hordozott számmal kapcsolatos irányítási információt, valamint a szolgáltatók e rendeletben meghatározott adatait, továbbá elektronikus adatkapcsolaton keresztül biztosítja az irányítási adatok összegyűjtését és a szolgáltatók, valamint más jogszabály alapján erre jogosultak részére való szétosztását",
+      "source_provision": "s2"
+    },
+    {
+      "term": "számátadási időablak",
+      "definition": "minden munkanap 20 órától kezdődő 4 óra hosszúságú időtartomány, amelyben a számhordozás és számmezőátadás érvényesítéséhez szükséges műszaki intézkedéseket a szolgáltatók végrehajtják, és amely időtartam alatt a számátadással érintett számokon a szolgáltatás részben vagy egészben szünetelhet",
+      "source_provision": "s2"
+    },
+    {
+      "term": "számhasználó",
+      "definition": "az elektronikus hírközlő hálózatok azonosítóinak nemzeti felosztási tervéről és az azonosítógazdálkodás rendjéről szóló NMHH rendelet szerinti számhasználó",
+      "source_provision": "s2"
+    },
+    {
+      "term": "számhordozás kezdeményezője",
+      "definition": "a számhordozási eljárás kezdeményezésére jogosult előfizető, számhasználó, és az utólagos számhordozás esetén a megszűnt előfizetői szerződés előfizetője",
+      "source_provision": "s2"
+    },
+    {
+      "term": "számhordozási megállapodás",
+      "definition": "a számhordozásra vonatkozó igénybejelentés alapján a számhordozás kezdeményezője és az átvevő szolgáltató között létrejövő megállapodás, amely a hordozandó összes számot és a hordozások számátadási időablakát is tartalmazza",
+      "source_provision": "s2"
+    },
+    {
+      "term": "szolgáltatáskiesés",
+      "definition": "szolgáltatóváltás vagy számhordozás esetén a szolgáltatás átadó szolgáltatónál történő megszűnése és az átvevő szolgáltatónál való megkezdése közötti, napokban kifejezett időtartam, minden megkezdett napot teljes napnak számítva",
+      "source_provision": "s2"
+    },
+    {
+      "term": "szolgáltatóváltási megállapodás",
+      "definition": "az internet-hozzáférési szolgáltatóváltásra vonatkozó igénybejelentés alapján az előfizető és az átvevő szolgáltató között létrejövő megállapodás, amely az átadó szolgáltatónál megszüntetendő szolgáltatásokat és a szolgáltatóváltás dátumát is tartalmazza",
+      "source_provision": "s2"
+    },
+    {
+      "term": "szolgáltatókód",
+      "definition": "a hatóság által adott háromjegyű számból álló kód, amely a KRA-ban a szolgáltatót, vagy a szolgáltató üzletág részegységét jelöli",
+      "source_provision": "s2"
+    },
+    {
+      "term": "tranzakció",
+      "definition": "egy adott szám vagy számtartomány átadására, egy hordozott szám vagy számtartomány hordozottságának vagy számhasználatának megszüntetésére, továbbá a KRA adatainak letöltésére vonatkozó, a KRA-ban rögzített, tranzakcióazonosítóval ellátott bejelentési, jóváhagyási, módosítási, törlési vagy letöltési művelet",
+      "source_provision": "s2"
+    },
+    {
+      "term": "tranzakcióazonosító",
+      "definition": "a szolgáltató vagy a hatóság által adott egyedi azonosító",
+      "source_provision": "s2"
+    },
+    {
+      "term": "tranzakciózárás",
+      "definition": "a számátadási időablak kezdetét 8 órával megelőző időpont, amely után a KRA az adott számátadási időablakra vonatkozó tranzakciót – letöltési művelet kivételével – nem fogad el",
+      "source_provision": "s2"
+    },
+    {
+      "term": "utólagos számhordozás",
+      "definition": "az előfizetői szerződés megszűnését követő 31 napon belül kérelmezett számhordozás az előfizetői felmondással megszűnt előfizetői szerződésben szereplő számra, a megszűnt szerződés szolgáltatója mint átadó szolgáltató és a megszűnt előfizetői szerződés előfizetője által megbízott átvevő szolgáltató között",
+      "source_provision": "s2"
+    },
+    {
+      "term": "üzenet",
+      "definition": "a KRA-ból a szolgáltató által letöltendő, a KRA által elektronikus formában tárolt, a szolgáltatót érintő, számhordozással kapcsolatos információ.",
+      "source_provision": "s2"
+    }
+  ]
+}

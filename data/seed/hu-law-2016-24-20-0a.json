@@ -1,0 +1,466 @@
+{
+  "id": "hu-law-2016-24-20-0a",
+  "type": "statute",
+  "title": "24/2016. (VI. 30.) BM rendelet a bizalmi szolgáltatásokra és ezek szolgáltatóira vonatkozó részletes követelményekről",
+  "status": "in_force",
+  "in_force_date": "2016-07-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2016-24-20-0A",
+  "description": "a bizalmi szolgáltatásokra és ezek szolgáltatóira vonatkozó részletes követelményekről",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "chapter": "I. Fejezet - ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § E rendelet hatálya az elektronikus ügyintézés és a bizalmi szolgáltatások általános szabályairól szóló 2015. évi CCXXII. törvényben (a továbbiakban: E-ügyintézési tv.) meghatározott, Magyarország területén letelepedett bizalmi szolgáltatókra és az általuk nyújtott bizalmi szolgáltatásokra terjed ki."
+    },
+    {
+      "provision_ref": "s2",
+      "chapter": "I. Fejezet - ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § E rendelet alkalmazásában: 1. bizalmi munkakör: a) a szolgáltató informatikai rendszeréért általánosan felelős vezetői munkakör, b) biztonsági tisztviselő munkakör: a szolgáltatás biztonságáért általánosan felelős személy munkaköre, c) rendszeradminisztrátori munkakör: az informatikai rendszer telepítését, konfigurálását, karbantartását végző személy munkaköre, d) rendszerüzemeltető munkakör: az informatikai rendszer folyamatos üzemeltetését, mentését és helyreállítását végző személy munkaköre, e) független rendszervizsgálói munkakör: a szolgáltató naplózott, illetve archivált adatállományát vizsgáló, a szolgáltató által a szabályszerű működés érdekében megvalósított kontroll intézkedések betartásának ellenőrzéséért, a meglévő eljárások folyamatos vizsgálatáért és monitorozásáért felelős személy munkaköre, valamint f) regisztrációs felelős munkakör: a tanúsítványok előállításának, kibocsátásának, visszavonásának és felfüggesztésének jóváhagyásáért felelős személy munkaköre; 2. bizalmi szolgáltatást megvalósító termék: a belső piacon történő elektronikus tranzakciókhoz kapcsolódó elektronikus azonosításról és bizalmi szolgáltatásokról, valamint az 1999/93/EK irányelv hatályon kívül helyezéséről szóló, 2014. július 23-i 910/2014/EU európai parlamenti és tanácsi rendelet (a továbbiakban: eIDAS Rendelet) 3. cikk 21. pontja szerinti termék; 3. igénylő: a tanúsítvány iránti igényt benyújtó személy; 4. információbiztonsági irányítási rendszer: a szolgáltatónál az információ bizalmasságának, sértetlenségének és rendelkezésre állásának megőrzése érdekében működtetett irányítási rendszer; 5. informatikai rendszer: a szolgáltató által a bizalmi szolgáltatásokhoz, illetve annak elemeihez, így különösen a szolgáltatói kulcspár kezeléséhez, az aláírás-létrehozó adat előállításához, a tanúsítványok kibocsátásához, a kibocsátott tanúsítványt tartalmazó nyilvántartáshoz, a visszavonási nyilvántartásokhoz és a visszavonás kezeléséhez, az időbélyegzés-szolgáltatáshoz, az elektronikus archiválás szolgáltatás, valamint e tevékenységek informatikai védelméhez használt, az eIDAS Rendelet 24. cikk (2) bekezdés e) és f) pontja szerinti megbízható rendszerek és termékek; 6. kriptográfiai kulcs: olyan kriptográfiai transzformációt vezérlő egyedi jelsorozat, amelynek ismerete a kriptográfiai transzformáció elvégzéséhez, különösen az elektronikus aláírás vagy bélyegző előállításához vagy ellenőrzéséhez szükséges; 7. minőségirányítási rendszer: a szolgáltatónál a minőségbiztosítás érdekében működtetett irányítási rendszer; 8. rendkívüli üzemeltetési helyzet: olyan, a szolgáltató üzemmenetében zavart okozó rendkívüli helyzet, amelyben a szolgáltató rendes üzemmenetének folytatására ideiglenesen vagy véglegesen nincsen lehetőség. Rendkívüli üzemeltetési helyzetnek minősül az is, ha a szolgáltató szolgáltatói magánkulcsa olyan személy birtokába kerül, aki a szolgáltatói magánkulcs birtoklására nincsen feljogosítva, illetve, ha a fenti esemény megtörténte alappal feltételezhető, vagy annak közvetlen veszélye fennáll; 9. szolgáltató: az E-ügyintézési tv. szerinti bizalmi szolgáltató; 10. szolgáltatói kulcspár: a szolgáltatói magánkulcs és a szolgáltatói nyilvános kulcs; 11. szolgáltatói magánkulcs: olyan kriptográfiai kulcs, amelyet a szolgáltató saját bizalmi szolgáltatásának igazolására, így különösen a tanúsítvány kibocsátására, a visszavonási nyilvántartásokra, az időbélyegzésre, a naplózáshoz, az archiváláshoz használ; 12. szolgáltatói nyilvános kulcs: olyan kriptográfiai kulcs, amelyet a szolgáltatói magánkulcs használatával létrehozott elektronikus aláírás ellenőrzésére használnak; 13. tanúsítvány kibocsátása: a tanúsítvány rendelkezésre bocsátása a tanúsítvány alany, illetve igénylő részére, valamint a szolgáltató nyilvántartásában a tanúsítvány elérhetővé tétele a tanúsítvány alany hozzájárulása esetén; 14. tanúsítvány kibocsátásával kapcsolatos szolgáltatás: az elektronikus aláírással és elektronikus bélyegzővel kapcsolatos szolgáltatás, valamint a weboldal hitelesítési szolgáltatás, ide nem értve az elektronikus aláírás és elektronikus bélyegző érvényesítésével és megőrzésével kapcsolatos szolgáltatást; 15. változáskezelés: azon szabályok összessége, amelyek meghatározzák a szolgáltatási folyamatokban és az azt kiszolgáló informatikai szolgáltatásokban bekövetkező módosítások, változások biztonságos végrehajtását; 16. visszavonás kezelése: az E-ügyintézési tv. 86. és 87. §-ában meghatározottak szerinti, a kibocsátott tanúsítványok visszavonására és felfüggesztésére vonatkozó eljárások lefolytatása; 17. visszavonási nyilvántartások: nyilvántartások a felfüggesztett, valamint a visszavont tanúsítványokról, amelyek tartalmazzák legalább a felfüggesztés vagy visszavonás tényét és a felfüggesztés vagy visszavonás időpontját."
+    },
+    {
+      "provision_ref": "s3",
+      "chapter": "II. Fejezet - A MINŐSÍTETT ÉS NEM MINŐSÍTETT SZOLGÁLTATÓKRA VONATKOZÓ KÖZÖS KÖVETELMÉNYEK",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) A szolgáltató köteles biztosítani, hogy a bizalmi szolgáltatási szerződés a jogszabályok által előírt követelményeken túl a következő rendelkezéseket is tartalmazza: a) az alkalmazott bizalmi szolgáltatási rend azonosítója, b) a tanúsítvány érvényességi időtartama és a szolgáltatás használatával kapcsolatos korlátozások (így különösen a tanúsítvány alkalmazási körére vagy a szolgáltatói felelősség korlátozására vonatkozó rendelkezések), c) a bizalmi szolgáltatásra irányadó anyagi jog, ha az nem azonos a bizalmi szolgáltatási ügyfél szokásos tartózkodási helye szerinti ország jogával, d) a bizalmi szolgáltatást használó, arra hagyatkozó, bizalmi szolgáltatási ügyfélnek nem minősülő személyek számára a bizalmi szolgáltatás használata során szükséges tájékoztatás elérhetősége. (2) A szolgáltató bizalmi szolgáltatási szabályzata tartalmazza a) a szolgáltatás megkezdésének és folytatásának általános szabályairól szóló törvény szerinti, a szolgáltatót azonosító adatokat, b) azt, hogy a szolgáltató a szolgáltatást a bizalmi felügyeletnek mikor jelentette be, és a bizalmi felügyelet nyilvántartásának elérhetőségét, c) a szolgáltatási szabályzat változatának azonosítóját (verziószámát), d) a szolgáltatási szabályzat hatálybalépésének és hatálya megszűnésének időpontját, e) a bizalmi szolgáltatással kapcsolatos ügyfélszolgálat elérhetőségét, nyitva tartását, a panaszok bejelentésének elérhetőségét, a panaszok kezelését, tájékoztatást a szolgáltatással összefüggő jogviták peres és peren kívüli kezdeményezésének lehetőségéről és feltételeiről, a békéltető testülethez való fordulás jogáról, az eljárásra jogosult hatóságok és békéltető testület vagy más vitarendező szervezetek megnevezését, elérhetőségeit, f) az adatvédelmi és az adatbiztonsági szabályzat (nyilvánosságra hozható részének kivonata) elérhetőségét, g) a bizalmi szolgáltatással kapcsolatos eseménynaplók megőrzésének időtartamát. (3) Ha a bizalmi szolgáltató a bizalmi szolgáltatás keretében a fogyasztók számára is tanúsítványt bocsát ki, a fogyasztók részére a szolgáltatási kivonatot is elérhetővé tesz, amely a bizalmi szolgáltatási rend vagy szolgáltatási szabályzat rendelkezéseivel összhangban, tömören, jól áttekinthető módon, összefoglaló jelleggel az alábbi adatokat és tájékoztatást tartalmazza, szükség szerint a szolgáltatási szerződés, szolgáltatási szabályzat vagy bizalmi szolgáltatási rend vonatkozó rendelkezéseire hivatkozásokkal: a) az (1) bekezdés b) és c) pontjában, valamint a (2) bekezdés a), e) és f) pontjában foglalt adatok, b) a bizalmi szolgáltatási ügyfeleket terhelő fő kötelezettségek, c) az alkalmazandó szolgáltatási szerződés, szolgáltatási szabályzat és hitelesítési rend elérhetősége, d) a díj mértéke és a díjvisszatérítés esetei (ha van), e) a szolgáltató bizalmi szolgáltatása milyen felügyeleti szervnek lett bejelentve, ennek részeként azon bizalmi lista elérhetősége, amelyen a bizalmi szolgáltatás szerepel, f) ha a szolgáltatót vagy a szolgáltatása megfelelőségét megfelelőségértékelő szerv értékelte, e szerv és a megfelelőségértékelési igazolás és jelentés azonosítója, valamint az igazolt követelmények hivatkozása (ha a megfelelőségértékelő szerv a szolgáltatás valamely bizalmi szolgáltatási rendnek való megfelelését értékelte, akkor a bizalmi szolgáltatási rend azonosítója)."
+    },
+    {
+      "provision_ref": "s4",
+      "chapter": "II. Fejezet - A MINŐSÍTETT ÉS NEM MINŐSÍTETT SZOLGÁLTATÓKRA VONATKOZÓ KÖZÖS KÖVETELMÉNYEK",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § A feladatkörök elhatárolása végett a szolgáltató gondoskodik arról, hogy a) a biztonsági tisztviselő ne láthassa el a független rendszervizsgáló és az informatikai rendszerért általánosan felelős vezető feladatait, és b) a független rendszervizsgáló ne láthassa el az informatikai rendszerért általánosan felelős vezető feladatait."
+    },
+    {
+      "provision_ref": "s5",
+      "chapter": "II. Fejezet - A MINŐSÍTETT ÉS NEM MINŐSÍTETT SZOLGÁLTATÓKRA VONATKOZÓ KÖZÖS KÖVETELMÉNYEK",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § (1) A szolgáltatónak a megbízhatóság biztosítása érdekében felelősségbiztosítással kell rendelkeznie, amelynek ki kell terjednie a szolgáltató által nyújtott bizalmi szolgáltatásokkal összefüggésben okozott alábbi károkra és költségekre: a) a bizalmi szolgáltatási ügyfélnek a bizalmi szolgáltatási szerződés megszegésével összefüggésben okozott károkra, b) a bizalmi szolgáltatási ügyfélnek és harmadik személynek szerződésen kívüli okozott károkra, c) az E-ügyintézési tv. 88. §-ában foglalt kötelezettségek nem teljesítése miatt a bizalmi felügyeletnél felmerült, az E-ügyintézési tv. 89. §-a szerinti költségekre, és d) az eIDAS Rendelet 17. cikk (4) bekezdés e) pontja alapján a bizalmi felügyelet által felkért megfelelőségértékelő szervek eljárásának költségeire, ha azt a bizalmi felügyelet eljárási költségként érvényesíti. (2) A szolgáltatónak biztosítania kell, hogy az általa az (1) bekezdésben foglaltaknak való megfelelés érdekében kötött biztosítási szerződés kiterjedjen az (1) bekezdés szerinti költségekre és károkra. A biztosítási szerződésben szereplő felelősségvállalási érték káreseményenként nem lehet alacsonyabb, mint 3 000 000 forint. (3) Ha a szolgáltató állami költségvetési szerv, az (1) bekezdésben meghatározott károk és költségek fedezetéről a (2) bekezdésben meghatározott mértékig költségvetése terhére köteles gondoskodni."
+    },
+    {
+      "provision_ref": "s6",
+      "chapter": "III. Fejezet - EGYES, MINŐSÍTETT ÉS NEM MINŐSÍTETT SZOLGÁLTATÁSOKRA EGYARÁNT VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § Az elektronikus aláírással, bélyegzővel kapcsolatos szolgáltatást nyújtó szolgáltatónak, valamint az időbélyeg szolgáltatónak biztosítania kell a szolgáltatói nyilvános kulcsának sértetlenségét, hitelességét és elérhetőségét. Ennek érdekében a szolgáltatói nyilvános kulcsot interneten is elérhetővé kell tennie."
+    },
+    {
+      "provision_ref": "s7",
+      "chapter": "III. Fejezet - EGYES, MINŐSÍTETT ÉS NEM MINŐSÍTETT SZOLGÁLTATÁSOKRA EGYARÁNT VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § Az elektronikus aláírással vagy bélyegzővel kapcsolatos szolgáltatást nyújtó szolgáltató tevékenysége befejezésekor az informatikai rendszerében foglalt adatairól teljes körű, időbélyegzővel ellátott mentést készít. A szolgáltató a mentett adatállományokat védi a jogosulatlan módosítástól, és biztosítja, hogy az adatállomány tartalmához jogosulatlan személy nem férhet hozzá. A szolgáltató biztosítja, hogy az adatok a megőrzési időn belül az arra jogosult személyek számára hozzáférhetőek és értelmezhetőek."
+    },
+    {
+      "provision_ref": "s8",
+      "chapter": "III. Fejezet - EGYES, MINŐSÍTETT ÉS NEM MINŐSÍTETT SZOLGÁLTATÁSOKRA EGYARÁNT VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § Tanúsítvány kibocsátásával kapcsolatos bizalmi szolgáltatás esetén a szolgáltató a 3. § (3) bekezdésében foglalt adatokon túl a szolgáltatási kivonatban az alábbi adatokat is rögzíti: a) a tanúsítvány típusa és a tanúsítványban foglalt adatok szolgáltató általi ellenőrzésének módja; b) a bizalmi szolgáltatási ügyfélnek nem minősülő tanúsítvány alany fő kötelezettségei; c) tanúsítványra hagyatkozó harmadik felek által elvégezhető ellenőrzés módja, így a tanúsítvány érvényességének ellenőrzésére vonatkozó tájékoztatás."
+    },
+    {
+      "provision_ref": "s9",
+      "chapter": "III. Fejezet - EGYES, MINŐSÍTETT ÉS NEM MINŐSÍTETT SZOLGÁLTATÁSOKRA EGYARÁNT VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § (1) Az archiválási szolgáltató a felek megállapodása esetén olyan archiválási szolgáltatást is nyújthat, amelynek alapján a bizalmi szolgáltatási ügyfél nem bocsátja az archiválási szolgáltató rendelkezésére személyazonosító adatait. (2) Az archiválási szolgáltató az archiválási szolgáltatásából csak a dokumentumok vagy azok lenyomatának megőrzésre való átvételét szüneteltetheti."
+    },
+    {
+      "provision_ref": "s10",
+      "chapter": "III. Fejezet - EGYES, MINŐSÍTETT ÉS NEM MINŐSÍTETT SZOLGÁLTATÁSOKRA EGYARÁNT VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § Az archiválási szolgáltató a 3. § (3) bekezdése szerinti adatokon túl a szolgáltatási kivonatban arról is köteles tájékoztatást adni, hogy a bizalmi szolgáltatási ügyfélen kívüli harmadik személy milyen módon férhet hozzá a bizalmi szolgáltatási ügyfél által átadott elektronikus dokumentumhoz."
+    },
+    {
+      "provision_ref": "s11",
+      "chapter": "III. Fejezet - EGYES, MINŐSÍTETT ÉS NEM MINŐSÍTETT SZOLGÁLTATÁSOKRA EGYARÁNT VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § Az archiválási szolgáltató az elektronikus dokumentum vagy lenyomat átvételekor ellenőrzi az elektronikus aláírást vagy bélyegzőt, majd beszerzi az elektronikus aláírás vagy bélyegző hosszú távú érvényesítéséhez szükséges információkat, így különösen: a) a tanúsítvánnyal kapcsolatos információkat, az elektronikus aláírást vagy bélyegzőt érvényesítő adat, valamint a tanúsítvány aktuális állapotára, visszavonására vonatkozó információkat; b) az a) pontban felsoroltakon túl a tanúsítvány kibocsátójának szolgáltatói elektronikus aláírást vagy bélyegzőt érvényesítő adataira és annak visszavonására vonatkozó információkat."
+    },
+    {
+      "provision_ref": "s12",
+      "chapter": "III. Fejezet - EGYES, MINŐSÍTETT ÉS NEM MINŐSÍTETT SZOLGÁLTATÁSOKRA EGYARÁNT VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. § Ha az elektronikus aláírás vagy bélyegző hosszú távú érvényesítéséhez szükséges információk nem szerezhetők be, az archiválási szolgáltató köteles erről a tényről a bizalmi szolgáltatási ügyfelet haladéktalanul tájékoztatni. Ha az archiválási szolgáltató a tájékoztatást elmulasztja, az ezzel okozott kárért az eIDAS Rendelet 13. cikk (1) bekezdése szerint felel."
+    },
+    {
+      "provision_ref": "s13",
+      "chapter": "III. Fejezet - EGYES, MINŐSÍTETT ÉS NEM MINŐSÍTETT SZOLGÁLTATÁSOKRA EGYARÁNT VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. § (1) A 11. §-ban meghatározott információk beszerzése után az archiválási szolgáltató az érvényességi láncon minősített szolgáltató által kibocsátott időbélyegzőt helyez vagy helyeztet el, és erről értesíti a bizalmi szolgáltatási ügyfelet. (2) Az archiválási szolgáltató az erre vonatkozó határozat kézhezvételét követően a határozatban előírt időpontban köteles minősített szolgáltató által kibocsátott időbélyegzőt elhelyezni vagy elhelyeztetni az érvényességi láncon. (3) Az archiválási szolgáltató köteles a rábízott elektronikus dokumentumot vagy lenyomatot oly módon megőrizni, amely kizárja az utólagos módosítás lehetőségét, folyamatosan biztosítja a jogosultak hozzáférését, valamint – a szolgáltatási szabályzat erre vonatkozó rendelkezése esetén – az elektronikus dokumentum értelmezhetőségét (olvashatóságát). Az archiválási szolgáltató az elektronikus dokumentumot köteles védeni a jogosulatlan hozzáférés, módosítás, törlés vagy megsemmisítés ellen."
+    },
+    {
+      "provision_ref": "s14",
+      "chapter": "III. Fejezet - EGYES, MINŐSÍTETT ÉS NEM MINŐSÍTETT SZOLGÁLTATÁSOKRA EGYARÁNT VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "14",
+      "title": "14. §",
+      "content": "14. § Az elektronikus dokumentum tartalmát az archiválási szolgáltató, valamint alkalmazottja vagy a megbízásából eljáró személy csak a bizalmi szolgáltatási ügyfél írásbeli engedélyével ismerheti meg."
+    },
+    {
+      "provision_ref": "s15",
+      "chapter": "III. Fejezet - EGYES, MINŐSÍTETT ÉS NEM MINŐSÍTETT SZOLGÁLTATÁSOKRA EGYARÁNT VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "15",
+      "title": "15. §",
+      "content": "15. § Az archiválási szolgáltató a szolgáltatási szerződésben rögzítettek szerint állandó hozzáférést biztosít a bizalmi szolgáltatási ügyfélnek az általa átadott elektronikus dokumentumhoz."
+    },
+    {
+      "provision_ref": "s16",
+      "chapter": "III. Fejezet - EGYES, MINŐSÍTETT ÉS NEM MINŐSÍTETT SZOLGÁLTATÁSOKRA EGYARÁNT VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "16",
+      "title": "16. §",
+      "content": "16. § Ha az érvényességi láncnak az elektronikus dokumentum nem része, – a szolgáltatási szabályzat ellenkező rendelkezése hiányában – a bizalmi szolgáltatási ügyfél köteles az archiválási szolgáltató felhívására a szolgáltatási szabályzatban meghatározott időközönként és esetekben az elektronikus dokumentumnak a bizalmi felügyelet határozata szerinti, elfogadott kriptográfiai algoritmus alkalmazásával képzett lenyomatát az archiválási szolgáltató számára átadni. Ha a bizalmi szolgáltatási ügyfél e kötelezettségének a szolgáltató felhívása ellenére nem tesz eleget, az archiválási szolgáltató mentesül az eIDAS Rendelet 13. cikk (1) bekezdésében szabályozott felelőssége alól."
+    },
+    {
+      "provision_ref": "s17",
+      "chapter": "III. Fejezet - EGYES, MINŐSÍTETT ÉS NEM MINŐSÍTETT SZOLGÁLTATÁSOKRA EGYARÁNT VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "17",
+      "title": "17. §",
+      "content": "17. § (1) Ha az archiválási szolgáltató ellen végelszámolási eljárása megindult vagy a felszámolását elrendelték, köteles e tényről haladéktalanul tájékoztatni a bizalmi felügyeletet, megnevezve az eljárást lefolytató szervezetet. A bizalmi felügyelet az eljárás időtartama alatt jogosult a végelszámolótól vagy felszámolótól az ügy állásáról tájékoztatást kérni. (2) Az archiválási szolgáltató megszűnése vagy az archiválási szolgáltatás befejezése esetén a bizalmi felügyelet törli az archiválási szolgáltatót a nyilvántartásból."
+    },
+    {
+      "provision_ref": "s18",
+      "chapter": "III. Fejezet - EGYES, MINŐSÍTETT ÉS NEM MINŐSÍTETT SZOLGÁLTATÁSOKRA EGYARÁNT VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "18",
+      "title": "18. §",
+      "content": "18. § A bejelentési kötelezettséget követően az archiválási szolgáltató minősített szolgáltató által kibocsátott időbélyegzőt köteles elhelyezni vagy elhelyeztetni az érvényességi láncon, és azt a bizalmi szolgáltatási ügyfélnek köteles átadni. Az érvényességi láncot ezt követően visszaállíthatatlan módon törölni kell az archiválási szolgáltató informatikai rendszeréből."
+    },
+    {
+      "provision_ref": "s19",
+      "chapter": "IV. Fejezet - MINŐSÍTETT SZOLGÁLTATÓKRA VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "19",
+      "title": "19. §",
+      "content": "19. § (1) A minősített szolgáltató a minősített szolgáltatás megszűnésével kapcsolatos költségek biztosítása és a megbízhatóság érdekében köteles a 20–22. §-ban meghatározott pénzügyi követelmények legalább egyikének megfelelni. (2) Ha a szolgáltató állami költségvetési szerv a minősített szolgáltatás megszűnésével kapcsolatos költségek fedezetéről az (1) bekezdésben előírt pénzügyi követelménynek megfelelő mértékig költségvetése terhére köteles gondoskodni."
+    },
+    {
+      "provision_ref": "s20",
+      "chapter": "IV. Fejezet - MINŐSÍTETT SZOLGÁLTATÓKRA VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "20",
+      "title": "20. §",
+      "content": "20. § (1) A minősített szolgáltatónak legalább huszonötmillió forint összegű, feltétel nélküli és visszavonhatatlan bankgaranciával kell rendelkeznie. (2) Az (1) bekezdésben meghatározott bankgaranciának legalább az alábbiakat kell tartalmaznia: a) a garanciavállaló megnevezését, bankszámlaszámát, b) a minősített szolgáltató (megbízó) nevét, székhelyét, bankszámlaszámát, c) annak a tevékenységnek (célnak) a megnevezését, amellyel kapcsolatban a garancianyilatkozatot kiadták, d) a bankgarancia összegét számmal és betűvel, e) a bankgarancia kezdő és végső időpontját, a garancia lejártát, amely a végső időpontot követő harminc nap, f) a garanciavállaló arra vonatkozó nyilatkozatát, hogy a lejáraton belül benyújtott és a bankgarancia kezdő és végső időpontja között keletkezett fizetési kötelezettségről szóló igénybejelentéseket fogadja el, g) kedvezményezettként a bizalmi felügyelet megnevezését, és h) a garanciavállaló feltétel nélküli kötelezettségvállalását arra vonatkozóan, hogy ha a minősített szolgáltató a bizalmi felügyeletnek az E-ügyintézési tv. 89. § (1) bekezdése szerinti feladatai ellátása miatt felmerült költségeit nem fizeti ki a bizalmi felügyelet erre irányuló felszólításától számított 15 napon belül, a garanciavállaló a bizalmi felügyelet első írásbeli felszólítására, az alapjogviszony vizsgálata nélkül, a felszólítás kézhezvételétől számított három banki munkanapon belül a felszólításban megjelölt kincstári számlára megfizeti a minősített szolgáltató lejárt fizetési kötelezettségét. (3) A (2) bekezdés h) pontja szerinti felszólításnak tartalmaznia kell a minősített szolgáltató nevét és címét, a fizetési kötelezettség alapján fizetendő összeget, az előírt és nem teljesített fizetési határidőt. (4) A bejelentéshez mellékelt bankgaranciának a szolgáltatás megkezdése napjától (a továbbiakban: kezdő időpont) kell lehívhatónak lennie. A bankgaranciának legalább a kezdő időponttól számított két évig érvényesnek kell lennie. A bankgaranciában a garanciavállalónak vállalnia kell, hogy a bankgarancia érvényességének lejárta előtt három hónappal értesítést küld a bizalmi felügyeletnek, amely értesítés tartalmazza a minősített szolgáltató nevét és székhelyét, valamint a bankgarancia lejártának idejét. (5) A minősített szolgáltató köteles a bankgarancia lejártát megelőző második hónap végéig igazolni a bizalmi felügyeletnek, hogy a bankgaranciát meghosszabbította vagy más pénzügyi intézménnyel az itt meghatározott követelményeknek megfelelő új szerződést kötött. (6) A garanciavállaló jogosult a garancia összegének módosítására, illetve a lejárat meghosszabbítására. Ilyen esetben a garanciavállalás folyamatossága érdekében a módosításnak tartalmaznia kell a garanciavállaló kötelezettségvállalását arra, hogy az előző garancia érvényességi ideje alatt keletkező fizetési kötelezettségekről szóló igénybejelentéseket 30 napon belül elfogadja. (7) A bankgaranciában a garanciavállalónak vállalnia kell, hogy garanciavállalási kötelezettségének határidő előtti visszavonásáról hitelt érdemlő módon értesíti a kedvezményezett hatóságot. A visszavonás az értesítés kedvezményezett általi kézbesítését követő 30. napon léphet csak hatályba. A garanciavállaló a garanciavállalási kötelezettség alól a visszavonás hatálybalépésétől számított 30. napon mentesülhet."
+    },
+    {
+      "provision_ref": "s21",
+      "chapter": "IV. Fejezet - MINŐSÍTETT SZOLGÁLTATÓKRA VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "21",
+      "title": "21. §",
+      "content": "21. § (1) A minősített szolgáltató a bizalmi felügyelet mint jogosult javára, az E-ügyintézési tv. 89. § (1) bekezdése szerinti költségek megfizetésének biztosítására pénzügyi intézménynél óvadékot alapít. Az óvadék összege legalább huszonötmillió forint. (2) A bizalmi felügyelet az (1) bekezdésben meghatározott óvadékból akkor használhatja fel a kielégítést, ha a minősített szolgáltató a bizalmi felügyeletnek az E-ügyintézési tv. 89. § (1) bekezdése szerinti feladatai ellátása miatt felmerült költségeit a bizalmi felügyelet erre irányuló felszólításától számított 15 napon belül nem fizette ki. (3) Az óvadék vagy annak egy része a minősített szolgáltatónak akkor jár vissza, ha a) a minősített szolgáltató a bizalmi felügyeletnek az E-ügyintézési tv. 89. § (1) bekezdése szerinti feladatai ellátása miatt felmerült költségeit kifizette, b) az óvadékból történő kielégítés nem merült fel, vagy c) a bizalmi felügyelet az említett költségeit az óvadékból kielégítette. A költségek kifizetéséről, a költségek felmerülésének hiányáról, illetve a kielégítés megtörténtéről a bizalmi felügyelet értesíti a pénzügyi intézményt."
+    },
+    {
+      "provision_ref": "s22",
+      "chapter": "IV. Fejezet - MINŐSÍTETT SZOLGÁLTATÓKRA VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "22",
+      "title": "22. §",
+      "content": "22. § Az E-ügyintézési tv. 89. § (1) bekezdése szerinti költségek minősített szolgáltató általi megfizetéséért legalább százmillió forint jegyzett tőkéjű, az Európai Gazdasági Térségben letelepedett vállalkozás készfizető kezességet vállalhat. A kezességvállalás mértéke legalább huszonötmillió forintig terjed."
+    },
+    {
+      "provision_ref": "s23",
+      "chapter": "IV. Fejezet - MINŐSÍTETT SZOLGÁLTATÓKRA VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "23",
+      "title": "23. §",
+      "content": "23. § A minősített szolgáltató a minősített szolgáltatás bejelentése előtt szolgáltatási szabályzatot készít, amelyben az 1. mellékletben foglalt információkat is rögzíti, feltüntetve bizalmi szolgáltatási rendenként az eltéréseket."
+    },
+    {
+      "provision_ref": "s24",
+      "chapter": "IV. Fejezet - MINŐSÍTETT SZOLGÁLTATÓKRA VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "24",
+      "title": "24. §",
+      "content": "24. § (1) A minősített szolgáltató a jogszabályoknak és szabályzatainak megfelelő és naprakész belső irányítási és ellenőrzési eljárásrendet és kapcsolódó felelősségi rendszert köteles folyamatosan működtetni. A rendszer megfelelő működését a független rendszervizsgáló ellenőrzési tevékenysége biztosítja. (2) A minősített szolgáltató külső, független rendszervizsgáló által folyamatosan ellenőrzött minőségirányítási és információbiztonsági irányítási rendszerrel kell, hogy rendelkezzen. (3) A minősített szolgáltató a minősített szolgáltatás nyújtása során létrejövő és kezelt adatot a jogszabályok és a szolgáltatási szabályzatban meghatározott kockázatelemzés alapján biztonsági osztályba sorolja, és gondoskodik azok megfelelő nyilvántartásáról, ellenőrzéséről, védelméről, valamint az ehhez szükséges felelősségi rendszer működtetéséről."
+    },
+    {
+      "provision_ref": "s25",
+      "chapter": "IV. Fejezet - MINŐSÍTETT SZOLGÁLTATÓKRA VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "25",
+      "title": "25. §",
+      "content": "25. § (1) A minősített szolgáltatónál bizalmi munkakört csak olyan személy tölthet be, akinek a bizalmi munkakör betöltéséhez szükséges befolyásmentességét, szakértelmét a minősített szolgáltató szakmai gyakorlattal, végzettséggel és szakképesítéssel igazolni tudja. (2) Az informatikai rendszerért általánosan felelős munkakört olyan személynek kell betöltenie, aki szakirányú felsőfokú végzettséggel és legalább három év, az informatikai biztonsággal összefüggésben szerzett szakmai gyakorlattal rendelkezik. (3) A (2) bekezdés tekintetében szakirányú felsőfokú végzettség a matematikusi, fizikusi egyetemi végzettség vagy a műszaki tudományterületre tartozó mérnöki szakon szerzett főiskolai vagy egyetemi végzettség."
+    },
+    {
+      "provision_ref": "s26",
+      "chapter": "IV. Fejezet - MINŐSÍTETT SZOLGÁLTATÓKRA VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "26",
+      "title": "26. §",
+      "content": "26. § A minősített szolgáltatónak törekednie kell a bizalmi munkakörök teljes személyi elválasztására azzal, hogy a feladatkörök elhatárolása végett a minősített szolgáltató a 4. §-ban foglaltakon túl köteles az alábbi feladatköröket is elválasztani: a) a biztonsági tisztviselő nem láthatja el a rendszeradminisztrátor feladatait, és b) a független rendszervizsgáló nem láthatja el a regisztrációs felelős és a rendszeradminisztrátor feladatait."
+    },
+    {
+      "provision_ref": "s27",
+      "chapter": "IV. Fejezet - MINŐSÍTETT SZOLGÁLTATÓKRA VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "27",
+      "title": "27. §",
+      "content": "27. § (1) A minősített szolgáltató a bizalmi munkakört betöltő személyt munkaviszonyban köteles foglalkoztatni, és a bizalmi munkakört betöltő személynek függetlennek kell lennie minden olyan érdektől, amely hátrányosan érintheti a minősített szolgáltatás megbízhatóságát és biztonságát. (2) A minősített szolgáltatónak gondoskodnia kell arról, hogy a minősített szolgáltatások nyújtásával kapcsolatban álló személy a szükséges és megfelelően naprakész tudással és tapasztalattal rendelkezzen."
+    },
+    {
+      "provision_ref": "s28",
+      "chapter": "IV. Fejezet - MINŐSÍTETT SZOLGÁLTATÓKRA VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "28",
+      "title": "28. §",
+      "content": "28. § (1) A szolgáltatói magánkulcs létrehozását, mentését és helyreállítását fizikailag védett környezetben, legalább két bizalmi munkakört betöltő személy együttes részvételével, más személy jelenlétének kizárásával kell végezni. (1a) Szolgáltatói gyökérhitelesítő magánkulcs létrehozása esetében az (1) bekezdésben foglalt feltételek mellett külső független auditor vagy közjegyző egyidejű részvétele is megengedett. (2) A szolgáltatói magánkulcsot biztonságos módon kell tárolni. Meg kell akadályozni, hogy a szolgáltatói magánkulcshoz jogosulatlan személy hozzáférhessen, és a kulcsot arra jogosulatlan személy használhassa. (3) Ha a minősített szolgáltató a szolgáltatói magánkulcsot többé nem kívánja használni, az lejárt vagy kompromittálódott, azt olyan módon kell megsemmisítenie, hogy a kulcs további használata lehetetlenné váljon."
+    },
+    {
+      "provision_ref": "s29",
+      "chapter": "IV. Fejezet - MINŐSÍTETT SZOLGÁLTATÓKRA VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "29",
+      "title": "29. §",
+      "content": "29. § (1) A minősített szolgáltató biztosítja a minősített szolgáltatás nyújtásához a szabályozott változáskezelést és a megbízható üzemeltetést, továbbá az üzemeltetés elválasztását a fejlesztéstől. (2) A minősített szolgáltató köteles az informatikai rendszer minden felhasználóját és az adminisztratív folyamatok minden szereplőjét személy szerint azonosítani, kivéve azt a kizárólag olvasási jogosultsággal rendelkező felhasználót, aki csak a minősített szolgáltatót terhelő nyilvánosságra hozatali kötelezettségek körébe eső nyilvántartásokhoz fér hozzá."
+    },
+    {
+      "provision_ref": "s30",
+      "chapter": "IV. Fejezet - MINŐSÍTETT SZOLGÁLTATÓKRA VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "30",
+      "title": "30. §",
+      "content": "30. § (1) A minősített szolgáltatás nyújtásával összefüggésben használt bizalmi szolgáltatást megvalósító terméket, valamint azt a helyiséget, amelyben a minősített szolgáltató az ilyen terméket elhelyezi, fizikailag is védeni kell a jogosulatlan hozzáféréstől a jogosulatlan személyek bejutásának kizárásával. (2) A minősített szolgáltató naplóban rögzíti a belépésre jogosultak belépésének időpontját, tartózkodásának célját, időtartamát, és kilépésének időpontját. (3) A fizikai és környezeti biztonság komplex kezelése magába foglalja az élet- és vagyonvédelem alábbi területeit is: tűz, árvíz, elárasztás, fizikai behatolás, sugárzás, áramellátás-kimaradás elleni megfelelő szintű védelem."
+    },
+    {
+      "provision_ref": "s31",
+      "chapter": "IV. Fejezet - MINŐSÍTETT SZOLGÁLTATÓKRA VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "31",
+      "title": "31. §",
+      "content": "31. § (1) A minősített szolgáltatónak a szolgáltatás folytonosságának biztosítása érdekében az eIDAS Rendelet 24. cikk (2) bekezdés i) pontjában foglalt megszüntetési terv által lefedett körön kívüli rendkívüli üzemeltetési helyzetek esetére olyan eljárással kell rendelkeznie, amely lehetővé teszi a minősített szolgáltatás mielőbbi helyreállítását. (2) A visszavonási nyilvántartások megbízható üzemeltetésének helyreállítása rendkívüli üzemeltetési helyzet bekövetkezése esetén minden más szolgáltatás vagy tevékenység helyreállítását megelőzi. (3) Ha a rendkívüli üzemeltetési helyzet a 36. és 45. §-ban foglalt időtartamot meghaladja, a minősített szolgáltató köteles – az eIDAS Rendelet 19. cikke szerinti és a Bizottság végrehajtási jogi aktusain alapuló kötelezettségein túl – a bizalmi felügyeletet haladéktalanul értesíteni a rendkívüli üzemeltetési helyzettel kapcsolatos alábbi információkról is: a) a rendkívüli üzemeltetési helyzet kezdetének, és ha eltér, észlelésének időpontja és a rendkívüli üzemeltetési helyzet leírása, b) a rendkívüli üzemeltetési helyzet hatása (ennek részeként biztonsági esemény esetén az érintett szolgáltatások, informatikai vagyonelemek és az érintett személyes adatok körének leírása, az érintett bizalmi szolgáltatási ügyfelek száma), c) a rendkívüli üzemeltetési helyzet várható időtartama, d) a rendkívüli üzemeltetési helyzet elhárítása és jövőbeli elkerülése érdekében tett és tervezett intézkedések, és e) a rendkívüli üzemeltetési helyzet megszűnése."
+    },
+    {
+      "provision_ref": "s32",
+      "chapter": "IV. Fejezet - MINŐSÍTETT SZOLGÁLTATÓKRA VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "32",
+      "title": "32. §",
+      "content": "32. § (1) A minősített szolgáltató az üzemmenet folytonossága és az adatvesztés elkerülése érdekében mentéseket végez, és biztosítja az informatikai rendszer egészének szükség esetén való helyreállíthatóságát. (2) A mentéseket védeni kell a jogosulatlan módosítástól, törléstől, megsemmisüléstől és a jogosulatlan hozzáféréstől. (3) A rendkívüli helyzetekre való felkészülés magában foglalja a kidolgozott tervek adott esetekre történő alkalmazását és tesztelését is."
+    },
+    {
+      "provision_ref": "s33",
+      "chapter": "IV. Fejezet - MINŐSÍTETT SZOLGÁLTATÓKRA VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "33",
+      "title": "33. §",
+      "content": "33. § A minősített szolgáltató minden, az informatikai rendszerével és a minősített szolgáltatás nyújtásával kapcsolatos eseményt – az üzemmenet folytonossága, az adatvesztés elkerülése, valamint az informatikai biztonság biztosítása érdekében – folyamatosan naplóz. A naplózott adatállománynak a minősített szolgáltatás nyújtásának teljes folyamatát át kell fognia, és alkalmasnak kell lennie a minősített szolgáltatással kapcsolatos minden esemény rekonstruálására a valós helyzetek megítéléséhez szükséges mértékben."
+    },
+    {
+      "provision_ref": "s34",
+      "chapter": "IV. Fejezet - MINŐSÍTETT SZOLGÁLTATÓKRA VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "34",
+      "title": "34. §",
+      "content": "34. § (1) A naplózott adatállomány a naplózott esemény bekövetkeztének naptári napját és pontos idejét, az esemény követhetőségéhez, rekonstruálásához szükséges adatokat és az eseményt előidéző felhasználó vagy más személy nevét tartalmazza. (2) A naplózott adatállomány minden bejegyzését védeni kell a módosítástól és a jogosulatlan hozzáféréstől. (3) A naplót úgy kell kezelni, hogy kizárható legyen a napló megsemmisítése, a napló bejegyzéseinek törlése, módosítása, a bejegyzések sorrendjének bármilyen módon történő megváltoztatása. A minősített szolgáltató a naplóról rendszeres mentést készít. (4) A minősített szolgáltató gondoskodik a naplóadatok folyamatos értékeléséről és ellenőrzéséről."
+    },
+    {
+      "provision_ref": "s35",
+      "chapter": "IV. Fejezet - MINŐSÍTETT SZOLGÁLTATÓKRA VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "35",
+      "title": "35. §",
+      "content": "35. § (1) A minősített szolgáltató az E-ügyintézési tv. 84. § (1) bekezdése szerinti adatokat az ott előírt határidőig, az azon kívüli naplózott adatokat a keletkezésüktől, a szolgáltatási szabályzatot és annak módosításait pedig hatályon kívül helyezésétől számított 10 évig köteles megőrizni, vagy megőrzéséről gondoskodni. (2) A minősített szolgáltató az (1) bekezdés szerint archivált adatállomány minden bejegyzését védi a jogosulatlan módosítástól, törléstől, megsemmisüléstől és jogosulatlan hozzáféréstől. Az elektronikus formában tárolt archivált adatállományt legalább fokozott biztonságú elektronikus aláírással vagy bélyegzővel, és időbélyegzővel kell ellátni. (3) A minősített szolgáltató köteles biztosítani, hogy mindaddig, amíg az (1) bekezdés szerinti adatokat őrzi, az adatok hitelesek, az arra jogosult személyek számára hozzáférhetőek és értelmezhetőek legyenek."
+    },
+    {
+      "provision_ref": "s36",
+      "chapter": "V. Fejezet - EGYES MINŐSÍTETT SZOLGÁLTATÁSOKRA VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "36",
+      "title": "36. §",
+      "content": "36. § A minősített szolgáltató biztosítja a visszavonási nyilvántartás, a kibocsátott tanúsítványokat tartalmazó nyilvántartás és a visszavonás-kezelés legalább naptári éves szinten számított 99,9%-os rendelkezésre állását. Egy eseti szolgáltatáskiesés időtartama nem haladhatja meg a három órát."
+    },
+    {
+      "provision_ref": "s37",
+      "chapter": "V. Fejezet - EGYES MINŐSÍTETT SZOLGÁLTATÁSOKRA VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "37",
+      "title": "37. §",
+      "content": "37. § A tanúsítványt kibocsátó szolgáltató a tanúsítványok előállításához, a kibocsátott tanúsítványt tartalmazó nyilvántartáshoz és a visszavonási nyilvántartáshoz használt szolgáltatói magánkulcsokat csak fizikailag védett környezetben, az adott kulcsra meghatározott rendeltetési célra használhatja fel."
+    },
+    {
+      "provision_ref": "s38",
+      "chapter": "V. Fejezet - EGYES MINŐSÍTETT SZOLGÁLTATÁSOKRA VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "38",
+      "title": "38. §",
+      "content": "38. § Tanúsítvány kibocsátásával kapcsolatos bizalmi szolgáltatás esetén a minősített szolgáltató a 3. § (3) bekezdésében és a 8. §-ban foglalt követelményeken túl a szolgáltatási kivonatban az alábbi adatokat is rögzíti: a) a tanúsítvány visszavonásának, felfüggesztésének lehetősége, b) a tanúsítvány érvényessége, érvényességi idejének lejárta, c) a tanúsítvánnyal kapcsolatos, a tanúsítványban meghatározott tárgybeli, időbeli, földrajzi vagy egyéb korlátozások, d) a szolgáltatói nyilvános kulcs, valamint annak elérhetősége."
+    },
+    {
+      "provision_ref": "s39",
+      "chapter": "V. Fejezet - EGYES MINŐSÍTETT SZOLGÁLTATÁSOKRA VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "39",
+      "title": "39. §",
+      "content": "39. § (1) Ha törvény vagy a törvény végrehajtására kiadott kormányrendelet eltérően nem rendelkezik, a minősített szolgáltató által kibocsátott minősített tanúsítvány érvényességi ideje nem haladhatja meg azt az időt, amely időpontig a felhasznált kriptográfiai algoritmusok a bizalmi felügyelet E-ügyintézési tv. 92. § (1) bekezdés b) pontja szerint kibocsátott határozata értelmében biztonságosan felhasználhatók, de legfeljebb a kibocsátástól számított három évet. (2) A minősített szolgáltató a kibocsátott minősített tanúsítvány felhasználását a tanúsítványban meghatározott tárgybeli, időbeli, földrajzi vagy egyéb korlátok szerint korlátozhatja, ha a korlátozás a tanúsítványból egyértelműen kitűnik. A korlátozásról és ennek következményeiről a minősített szolgáltató köteles a tanúsítvány alanyt megfelelően tájékoztatni. (3) A minősített tanúsítványnak tartalmaznia kell azt az időtartamot, ameddig a minősített szolgáltató egy tanúsítvánnyal kapcsolatosan rendelkezésére álló információkat az E-ügyintézési tv. 84. § (1) bekezdése szerint megőrzi. (4) A minősített szolgáltató gondoskodik arról, hogy a tanúsítványba foglalt személyazonosító adat az adott szolgáltatás keretében mindig egyedi maradjon."
+    },
+    {
+      "provision_ref": "s40",
+      "chapter": "V. Fejezet - EGYES MINŐSÍTETT SZOLGÁLTATÁSOKRA VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "40",
+      "title": "40. §",
+      "content": "40. § (1) A minősített szolgáltató visszavonási vagy felfüggesztési kérelem esetén csak azt követően teljesítheti a kérést, hogy a kérelmező ezen jogosultságáról meggyőződött. (2) A minősített szolgáltató köteles a benyújtott visszavonási vagy felfüggesztési kérelmeket haladéktalanul, minden más típusú tevékenysége (így különösen tanúsítvány előállítása vagy kibocsátás) előtt feldolgozni, és az arra jogosult által benyújtott kérelmeket teljesíteni. (3) A minősített szolgáltató biztosítja, hogy egy tanúsítvány visszavonása vagy felfüggesztése a visszavonási vagy felfüggesztési kérelem teljesítésével egyidejűleg megjelenik a visszavont és felfüggesztett tanúsítványok nyilvántartásában. (4) A minősített szolgáltató gondoskodik róla, hogy a visszavont és felfüggesztett tanúsítványok nyilvántartásában szereplő adatokat szükség esetén az arra jogosult harmadik személyek értelmezni tudják, így különösen egy szolgáltatás befejezése esetén."
+    },
+    {
+      "provision_ref": "s41",
+      "chapter": "V. Fejezet - EGYES MINŐSÍTETT SZOLGÁLTATÁSOKRA VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "41",
+      "title": "41. §",
+      "content": "41. § A minősített szolgáltató valamennyi bizalmi munkakör betöltését köteles biztosítani, és a bizalmi munkaköröket a szolgáltatási szabályzatban is nevesítenie kell."
+    },
+    {
+      "provision_ref": "s42",
+      "chapter": "V. Fejezet - EGYES MINŐSÍTETT SZOLGÁLTATÁSOKRA VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "42",
+      "title": "42. §",
+      "content": "42. § (1) A minősített szolgáltató elkülönítve kezeli és működteti a) a minősített szolgáltatás nyújtásához használt bizalmi szolgáltatást megvalósító terméket az egyéb tevékenységeihez használt termékektől, b) a minősített szolgáltatások nyújtásához használt bizalmi szolgáltatást megvalósító termékeit a nem minősített szolgáltatásokhoz használt bizalmi szolgáltatást megvalósító termékektől. (2) A minősített szolgáltató egyéb tevékenységeihez használt termékek nem befolyásolhatják a bizalmi szolgáltatást megvalósító termék megbízható üzemeltetését. (3) A minősített szolgáltató a bizalmi szolgáltatást megvalósító terméket a szolgáltatási szabályzatban meghatározott kockázatelemzések alapján biztonsági osztályokba sorolja, és ezekről nyilvántartást vezet. (4) Mielőtt a minősített szolgáltató a minősített szolgáltatás nyújtásához használt bizalmi szolgáltatást megvalósító terméket a saját maga által végzett szolgáltatásnyújtáson kívüli célokra használja fel, megbizonyosodik arról, hogy a termék nem tartalmaz olyan adatot, amely bizalmi szolgáltatáshoz fűződik, valamint arról, hogy az ilyen adatot nem lehet visszaállítani. E vizsgálatot és a vizsgálat eredménye alapján végrehajtott intézkedést a minősített szolgáltató naplózza."
+    },
+    {
+      "provision_ref": "s43",
+      "chapter": "V. Fejezet - EGYES MINŐSÍTETT SZOLGÁLTATÁSOKRA VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "43",
+      "title": "43. §",
+      "content": "43. § (1) Ha a minősített szolgáltató az elektronikus aláírás vagy bélyegző létrehozásához használt adat előállításáról és annak elektronikus aláírást vagy bélyegzőt létrehozó eszközben való elhelyezéséről maga gondoskodik, a (2)–(6) bekezdés szerinti követelményeket is köteles teljesíteni. (2) A minősített szolgáltató az elektronikus aláírás vagy bélyegző létrehozásához használt adat előállítását fizikailag védett környezetben köteles végezni, kizárólag bizalmi munkakört betöltő személyek részvételével. (3) A minősített szolgáltató az elektronikus aláírás vagy bélyegző létrehozásához használt adatot csak a tanúsítvány alany elektronikus aláírást vagy bélyegzőt létrehozó eszközében tárolhatja. Ha az elektronikus aláírás vagy bélyegző létrehozásához használt adatot az elektronikus aláírást vagy bélyegzőt létrehozó eszközön kívül hozzák létre, az elektronikus aláírás vagy bélyegző létrehozásához használt adat elektronikus aláírást vagy bélyegzőt létrehozó eszközön kívüli minden másolatát azonnal törölni kell, amint az elektronikus aláírás vagy bélyegző létrehozásához használt adat az elektronikus aláírást vagy bélyegzőt létrehozó eszközbe kerül. Az elektronikus aláírás vagy bélyegző létrehozásához használt adat másolatát a minősített szolgáltató olyan módon köteles törölni, hogy a törölt másolat további használata lehetetlenné váljon. (4) A minősített szolgáltató biztosítja, hogy az elektronikus aláírás vagy bélyegző létrehozásához használt adathoz mások ne férhessenek hozzá. (5) A minősített szolgáltató az elektronikus aláírást vagy bélyegzőt létrehozó eszköz használatához szükséges, a tanúsítvány alany hozzáférési jogosultságát ellenőrző adatot (így különösen PIN-kódot) csak abból a célból rögzítheti, hogy azt a tanúsítvány alany számára – másolat megőrzése nélkül – átadhassa. (6) A minősített szolgáltató az elektronikus aláírást vagy bélyegzőt létrehozó eszközt, valamint az aláíró hozzáférési jogosultságát ellenőrző adatot csak közvetlenül a tanúsítvány alany – bélyegző esetén a tanúsítvány alany által feljogosított természetes személy – számára adhatja át. A minősített szolgáltatónak azt is naplóznia kell, hogy az elektronikus aláírás vagy bélyegző létrehozásához használt adatot mikor adta át az arra jogosultnak."
+    },
+    {
+      "provision_ref": "s44",
+      "chapter": "V. Fejezet - EGYES MINŐSÍTETT SZOLGÁLTATÁSOKRA VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "44",
+      "title": "44. §",
+      "content": "44. § A minősített elektronikus aláírással vagy bélyegzővel kapcsolatos bizalmi szolgáltatás esetén a minősített szolgáltató a 3. § (3) bekezdésében, a 8. §-ban és a 41. §-ban foglalt követelményeken túl a szolgáltatási kivonatban az alábbi adatokat is rögzíti: a) az elektronikus aláírás vagy bélyegző létrehozásához használt adat használatával kapcsolatosan szükséges biztonsági intézkedések, és b) a bizalmi szolgáltatást megvalósító termék használata, ha az igénylő ezt a szolgáltatótól szerzi be."
+    },
+    {
+      "provision_ref": "s45",
+      "chapter": "V. Fejezet - EGYES MINŐSÍTETT SZOLGÁLTATÁSOKRA VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "45",
+      "title": "45. §",
+      "content": "45. § (1) A minősített szolgáltató biztosítja, hogy a minősített időbélyegzővel kapcsolatos szolgáltatás folyamatosan rendelkezésre áll. Egy eseti szolgáltatáskiesés időtartama nem haladhatja meg a három órát. (2) A minősített szolgáltató a minősített időbélyeg elhelyezésére használt szolgáltatói magánkulcsokat csak fizikailag védett környezetben, az adott kulcsra meghatározott rendeltetési célra használhatja fel."
+    },
+    {
+      "provision_ref": "s46",
+      "chapter": "V. Fejezet - EGYES MINŐSÍTETT SZOLGÁLTATÁSOKRA VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "46",
+      "title": "46. §",
+      "content": "46. § (1) A minősített archiválási szolgáltató biztosítja, hogy a bizalmi szolgáltatási ügyfél az elektronikus dokumentum minősített archiválási szolgáltató általi átvételét megelőzően magát a szolgáltatási szabályzatban meghatározott módon azonosítani tudja. Az azonosítás a bizalmi szolgáltatási ügyfél egyedi azonosítását lehetővé tévő bármely módon, álnév, tanúsítvány vagy egyéb azonosító alkalmazásával is történhet. (2) A minősített archiválási szolgáltató az elektronikus aláírás vagy bélyegző hosszú távú érvényesítéséhez szükséges információkat köteles haladéktalanul, de legfeljebb három naptári napon belül beszerezni."
+    },
+    {
+      "provision_ref": "s47",
+      "chapter": "V. Fejezet - EGYES MINŐSÍTETT SZOLGÁLTATÁSOKRA VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "47",
+      "title": "47. §",
+      "content": "47. § (1) A szolgáltatási szabályzatban meghatározott formátumokban átadott elektronikus dokumentumok olvashatóságának és megjeleníthetőségének folyamatos fenntartása érdekében a minősített archiválási szolgáltató a szerződésben, illetve az archiválási szabályzatban meghatározott megőrzési ideig köteles biztosítani az adathordozók olvashatóságát és a dokumentumok megjeleníthetőségét biztosító szoftver- és hardverkörnyezetet. (2) Az (1) bekezdésben meghatározottak érdekében a minősített archiválási szolgáltató köteles a szolgáltatási szabályzat részeként archiválási szabályzatot alkotni."
+    },
+    {
+      "provision_ref": "s48",
+      "chapter": "V. Fejezet - EGYES MINŐSÍTETT SZOLGÁLTATÁSOKRA VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "48",
+      "title": "48. §",
+      "content": "48. § (1) A minősített archiválási szolgáltató a bizalmi szolgáltatási ügyfél számára igazolást köteles kiadni az alábbi tényekről: a) a megőrzésében lévő elektronikus dokumentumon elhelyezett fokozott biztonságú vagy minősített elektronikus aláírás, bélyegző vagy időbélyegző, illetve az azokhoz kapcsolódó tanúsítvány az időbélyegzés időpontjában érvényes volt, b) a megőrzésében lévő lenyomathoz kapcsolódó fokozott biztonságú vagy minősített elektronikus aláírás, bélyegző vagy időbélyegző, illetve az azokhoz kapcsolódó tanúsítvány az aláírás, bélyegzés vagy időbélyegzés időpontjában érvényes volt, c) a megőrzésében lévő, az érvényességi lánc részét képező elektronikus dokumentum tartalma megegyezik a bizalmi szolgáltatási ügyfél által bemutatott elektronikus dokumentummal, d) a megőrzésében lévő, az érvényességi lánc részét képező lenyomat megegyezik a bizalmi szolgáltatási ügyfél által bemutatott elektronikus dokumentum lenyomatával, e) a megőrzésében lévő, az érvényességi lánc részét képező elektronikus dokumentumon, amelynek tartalma megegyezik a bizalmi szolgáltatási ügyfél által bemutatott elektronikus dokumentummal, meghatározott személy érvényes elektronikus aláírást vagy bélyegzőt helyezett el, f) a megőrzésében lévő, az érvényességi lánc részét képező elektronikus dokumentumon, amelynek tartalma megegyezik a bizalmi szolgáltatási ügyfél által bemutatott elektronikus dokumentummal, meghatározott időpontban érvényes elektronikus aláírást, bélyegzőt vagy időbélyegzőt helyeztek el. (2) Az (1) bekezdésben meghatározott tényekről együttes igazolás is kiadható. (3) Az igazolás harmadik személy számára is kiadható, ha a kérelméhez csatolja a bizalmi szolgáltatási ügyfél teljes bizonyító erejű magánokiratba vagy közokiratba foglalt meghatalmazását. (4) Ha az igazolást a minősített archiválási szolgáltató elektronikus úton állítja ki, az elektronikus dokumentumon minősített elektronikus aláírást vagy bélyegzőt kell elhelyeznie, valamint minősített szolgáltató által kibocsátott időbélyegzőt elhelyeznie vagy elhelyeztetnie."
+    },
+    {
+      "provision_ref": "s49",
+      "chapter": "V. Fejezet - EGYES MINŐSÍTETT SZOLGÁLTATÁSOKRA VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "49",
+      "title": "49. §",
+      "content": "49. § A szolgáltatási szerződés megszűnése vagy a bizalmi szolgáltatási ügyfél ilyen rendelkezése esetén a minősített archiválási szolgáltató köteles az érvényességi láncot visszaállíthatatlan módon törölni az informatikai rendszeréből."
+    },
+    {
+      "provision_ref": "s50",
+      "chapter": "V. Fejezet - EGYES MINŐSÍTETT SZOLGÁLTATÁSOKRA VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "50",
+      "title": "50. §",
+      "content": "50. § A minősített archiválási szolgáltató a 3. § (3) bekezdésében és a 8. §-ban foglalt követelményeken túl a szolgáltatási kivonatban az alábbi tájékoztatásokat is rögzíti: a) a tájékoztatás azon dokumentumformátumokról, amelyek vonatkozásában a minősített archiválási szolgáltató vállalja az értelmezhetőség (olvashatóság) folyamatos fenntartását a szolgáltatási szabályzat szerint, b) a tájékoztatás arról, hogy ha az érvényességi lánc nem tartalmazza az elektronikus dokumentumot, a bizalmi szolgáltatási ügyfél kötelezettsége, hogy a szolgáltatási szerződésben meghatározott időközönként és esetekben az elektronikus dokumentumnak a bizalmi felügyelet által közzétett elfogadott kriptográfiai algoritmus alkalmazásával képzett lenyomatát a minősített archiválási szolgáltató számára átadja, valamint tájékoztatás e kötelezettség elmulasztásának következményeiről, c) a tájékoztatás az elektronikus aláírások vagy bélyegzők hosszú távú érvényesítéséhez szükséges információk köréről, valamint annak következményeiről, ha az elektronikus aláírás vagy bélyegző hosszú távú érvényesítéséhez szükséges információk nem szerezhetők be."
+    },
+    {
+      "provision_ref": "s51",
+      "chapter": "V. Fejezet - EGYES MINŐSÍTETT SZOLGÁLTATÁSOKRA VONATKOZÓ KÖVETELMÉNYEK",
+      "section": "51",
+      "title": "51. §",
+      "content": "51. § A minősített archiválási szolgáltatás nyújtásával összefüggésben azt a helyiséget, amelyben a minősített archiválási szolgáltató az archiválásra átvett adatokat őrzi, a jogosulatlan személyek bejutásának kizárásával a jogosulatlan hozzáféréstől fizikailag is védeni kell."
+    },
+    {
+      "provision_ref": "s52",
+      "chapter": "VI. Fejezet - ZÁRÓ RENDELKEZÉSEK",
+      "section": "52",
+      "title": "52. §",
+      "content": "52. § Ez a rendelet 2016. július 1-jén lép hatályba."
+    },
+    {
+      "provision_ref": "s53",
+      "chapter": "VI. Fejezet - ZÁRÓ RENDELKEZÉSEK",
+      "section": "53",
+      "title": "53. §",
+      "content": "53. § A 2016. július 1-jét megelőzően kibocsátott, nem minősített aláíró tanúsítványok, valamint az ilyen tanúsítványon alapuló elektronikus aláírások Magyarországon 2016. július 15-ig bírnak mindazon, jogszabály által előírt joghatással, amellyel 2016. június 30-án rendelkeztek, feltéve, hogy ezen időszak alatt az elektronikus aláírásról szóló 2001. évi XXXV. törvény és végrehajtási rendeleteiben foglalt, 2016. június 30-án hatályos követelményeknek megfelelnek."
+    },
+    {
+      "provision_ref": "s54",
+      "chapter": "VI. Fejezet - ZÁRÓ RENDELKEZÉSEK",
+      "section": "54",
+      "title": "54. §",
+      "content": "54. § Ez a rendelet a belső piacon történő elektronikus tranzakciókhoz kapcsolódó elektronikus azonosításról és bizalmi szolgáltatásokról, valamint az 1999/93/EK irányelv hatályon kívül helyezéséről szóló 2014. július 23-i 910/2014/EU európai parlamenti és tanácsi rendelet III. fejezetének végrehajtásához szükséges rendelkezéseket állapít meg. 1. Minden minősített bizalmi szolgáltatásra vonatkozó kötelező tartalom a) annak leírása, hogy a minősített szolgáltató miként biztosítja a szolgáltatási szabályzatban előírt folyamatos rendelkezésre állást; b) annak leírása, hogy ha a minősített szolgáltató a minősített szolgáltatás nyújtását befejezi, milyen módon fog megfelelni az E-ügyintézési tv. 88. §-ában foglalt előírásoknak; c) annak leírása, hogy a minősített szolgáltató ca) milyen módon felel meg az üzemeltetési és hozzáférési biztonsági követelményeknek, cb) milyen termékeket használ a minősített szolgáltatás nyújtásához, illetve ahhoz, hogy az üzemeltetési és hozzáférési biztonsági követelményeknek megfeleljen, cc) miként kívánja az üzemeltetés során előforduló hibákat, így különösen a karbantartási és telepítési hibákat elkerülni, cd) az üzemeltetés ellenőrzéséhez milyen eljárásokat alkalmaz, ce) miként teljesíti a 38. §-ban az E-ügyintézési tv. 84. §-ában foglalt megőrzési kötelezettségét; d) annak leírása, hogy az informatikai rendszer felhasználóinak milyen hozzáférési jogosultsággal kell rendelkezniük ahhoz, hogy az informatikai rendszerben bizonyos tevékenységeket elvégezhessenek; e) a rendkívüli üzemeltetési helyzet esetén követendő eljárás leírása; f) annak leírása, hogy az igénylő milyen esetben nyújthatja be igénylését minősített elektronikus aláírással ellátott elektronikus dokumentum formájában; g) a bizalmi munkakörök megnevezése és leírása; h) az adatszolgáltatás iránti megkeresések teljesítésekor követendő eljárásrend. 2. A minősített elektronikus aláírással, bélyegzővel és időbélyegzővel kapcsolatos szolgáltatásra vonatkozó kötelező tartalom (az 1. pontban foglaltakon túl) a) annak leírása, hogy a minősített szolgáltató az igénylő visszavonási vagy felfüggesztési jogosultságáról milyen módon győződik meg; b) annak leírása, hogy milyen feltételei vannak a visszavonási, illetve felfüggesztési kérelem benyújtásának; c) annak leírása, hogy a minősített szolgáltató milyen eljárási rend szerint teljesíti a visszavonás-kezelés iránti kérelmeket; d) a tanúsítványok kibocsátása, valamint a visszavonás-kezelés, és aláírás-létrehozási szolgáltatások kapcsán alkalmazott adatformátumok, azaz a szolgáltatói magán- és nyilvános kulcs és az aláírás-létrehozó adat formátuma, a kibocsátott tanúsítványok formátuma, a visszavonási és – ha a minősített szolgáltató ilyet nyújt – felfüggesztési kérelem formátuma; e) a kibocsátott tanúsítványok leghosszabb érvényességi ideje; f) a szolgáltatói magánkulcsok létrehozásának módja és a kulcsok létrehozásának eljárási rendje; g) az elektronikus aláírás vagy bélyegző létrehozásához használt adatok létrehozásának módja, és adatok létrehozásának eljárási rendje; h) a minősített szolgáltató által alkalmazott referencia időforrások megnevezése, azok pontosságának és az időszinkronizáció menetének ismertetése; i) a szolgáltató nyilatkozata arról, hogy a szolgáltatás nyújtásához használt, minősített elektronikus aláírást, illetve bélyegzőt létrehozó eszköz rendelkezik az eIDAS rendelet 30. cikk (1), illetve 39. cikk (2) bekezdése szerinti igazolással. 3. A minősített archiválási szolgáltatásra vonatkozó kötelező tartalom (az 1. pontban foglaltakon túl) a) a minősített archiválási szolgáltató által vállalt egyes nyitva tartási és rendelkezésre állási idők; b) tájékoztatás a minősített archiválási szolgáltató által nyújtott szolgáltatásokról és azok felhasználásának módjáról; c) a bizalmi szolgáltatási ügyféllel való együttműködés szabályai abban az esetben, ha a minősített archiválási szolgáltató által megőrzött érvényességi láncnak az elektronikus dokumentum nem része, így azon időtartam és események meghatározása, amely eltelte vagy amelyek beállta esetén a bizalmi szolgáltatás ügyfele köteles az elektronikus dokumentumnak a bizalmi felügyelet által meghatározott elfogadott kriptográfiai algoritmus alkalmazásával képzett lenyomatát a minősített archiválási szolgáltató számára átadni; d) archiválási szabályzat, amely tartalmazza azon dokumentumformátumok felsorolását, amelyek vonatkozásában a minősített archiválási szolgáltató vállalja a értelmezhetőség (olvashatóság) és megjeleníthetőség folyamatos fenntartását, az értelmezhetőség és megjeleníthetőség biztosítását szolgáló eljárásrendet, ideértve a hardver- és szoftvereszközök rendelkezésre állásának biztosítására (emuláció) vonatkozó szabályokat, illetve az új adathordozóra vagy új formátumba történő átvitellel (migráció) kapcsolatos eljárásrendet is, valamint az ezen dokumentumformátumokban őrzött dokumentumokkal kapcsolatban a minősített archiválási szolgáltató működésének befejezése esetén követendő eljárást; e) az igazolások kiadása során követett eljárás; f) annak leírása, hogy a minősített archiválási szolgáltató miként biztosítja a szolgáltatási szabályzatban előírt folyamatos rendelkezésre állást; g) annak leírása, hogy a minősített archiválási szolgáltató ga) milyen módon felel meg az üzemeltetési és hozzáférési biztonsági követelményeknek, gb) milyen termékeket használ a minősített archiválási szolgáltatás nyújtásához, illetve ahhoz, hogy az üzemeltetési és hozzáférési biztonsági követelményeknek megfeleljen, gc) miként kívánja az üzemeltetés során előforduló hibákat, így különösen a karbantartási és telepítési hibákat elkerülni, gd) az üzemeltetés ellenőrzéséhez milyen eljárásokat alkalmaz; h) annak leírása, hogy az informatikai rendszer felhasználóinak milyen hozzáférési jogosultsággal kell rendelkezniük ahhoz, hogy az informatikai rendszerben bizonyos tevékenységeket elvégezhessenek; i) a rendkívüli üzemeltetési helyzet esetén követendő eljárás leírása; j) a bizalmi munkakörök nevesítése és leírása; k) a bizalmi szolgáltatás ügyfelének azonosítására szolgáló eljárás; l) a 25. § szerinti megkeresésekre, adatszolgáltatási igényekre és adatátadásokra vonatkozó nyilvántartás vezetésének módja. 1 Az 5. § (3) bekezdését a 37/2018. (XII. 28.) BM rendelet 36. §-a iktatta be. 2 A 19. § a 37/2018. (XII. 28.) BM rendelet 37. §-ával megállapított szöveg. 3 A 28. § (1a) bekezdését a 12/2021. (V. 10.) BM rendelet 5. §-a iktatta be. 4 A 39. § (1) bekezdése a 12/2021. (V. 10.) BM rendelet 6. §-a szerint módosított szöveg."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "bizalmi szolgáltatást megvalósító termék",
+      "definition": "a belső piacon történő elektronikus tranzakciókhoz kapcsolódó elektronikus azonosításról és bizalmi szolgáltatásokról, valamint az 1999/93/EK irányelv hatályon kívül helyezéséről szóló, 2014. július 23-i 910/2014/EU európai parlamenti és tanácsi rendelet (a továbbiakban: eIDAS Rendelet) 3. cikk 21. pontja szerinti termék",
+      "source_provision": "s2"
+    },
+    {
+      "term": "igénylő",
+      "definition": "a tanúsítvány iránti igényt benyújtó személy",
+      "source_provision": "s2"
+    },
+    {
+      "term": "információbiztonsági irányítási rendszer",
+      "definition": "a szolgáltatónál az információ bizalmasságának, sértetlenségének és rendelkezésre állásának megőrzése érdekében működtetett irányítási rendszer",
+      "source_provision": "s2"
+    },
+    {
+      "term": "kriptográfiai kulcs",
+      "definition": "olyan kriptográfiai transzformációt vezérlő egyedi jelsorozat, amelynek ismerete a kriptográfiai transzformáció elvégzéséhez, különösen az elektronikus aláírás vagy bélyegző előállításához vagy ellenőrzéséhez szükséges",
+      "source_provision": "s2"
+    },
+    {
+      "term": "minőségirányítási rendszer",
+      "definition": "a szolgáltatónál a minőségbiztosítás érdekében működtetett irányítási rendszer",
+      "source_provision": "s2"
+    },
+    {
+      "term": "rendkívüli üzemeltetési helyzet",
+      "definition": "olyan, a szolgáltató üzemmenetében zavart okozó rendkívüli helyzet, amelyben a szolgáltató rendes üzemmenetének folytatására ideiglenesen vagy véglegesen nincsen lehetőség. Rendkívüli üzemeltetési helyzetnek minősül az is, ha a szolgáltató szolgáltatói magánkulcsa olyan személy birtokába kerül, aki a szolgáltatói magánkulcs birtoklására nincsen feljogosítva, illetve, ha a fenti esemény megtörténte alappal feltételezhető, vagy annak közvetlen veszélye fennáll",
+      "source_provision": "s2"
+    },
+    {
+      "term": "szolgáltató",
+      "definition": "az E-ügyintézési tv. szerinti bizalmi szolgáltató",
+      "source_provision": "s2"
+    },
+    {
+      "term": "szolgáltatói kulcspár",
+      "definition": "a szolgáltatói magánkulcs és a szolgáltatói nyilvános kulcs",
+      "source_provision": "s2"
+    },
+    {
+      "term": "szolgáltatói magánkulcs",
+      "definition": "olyan kriptográfiai kulcs, amelyet a szolgáltató saját bizalmi szolgáltatásának igazolására, így különösen a tanúsítvány kibocsátására, a visszavonási nyilvántartásokra, az időbélyegzésre, a naplózáshoz, az archiváláshoz használ",
+      "source_provision": "s2"
+    },
+    {
+      "term": "szolgáltatói nyilvános kulcs",
+      "definition": "olyan kriptográfiai kulcs, amelyet a szolgáltatói magánkulcs használatával létrehozott elektronikus aláírás ellenőrzésére használnak",
+      "source_provision": "s2"
+    },
+    {
+      "term": "tanúsítvány kibocsátása",
+      "definition": "a tanúsítvány rendelkezésre bocsátása a tanúsítvány alany, illetve igénylő részére, valamint a szolgáltató nyilvántartásában a tanúsítvány elérhetővé tétele a tanúsítvány alany hozzájárulása esetén",
+      "source_provision": "s2"
+    },
+    {
+      "term": "tanúsítvány kibocsátásával kapcsolatos szolgáltatás",
+      "definition": "az elektronikus aláírással és elektronikus bélyegzővel kapcsolatos szolgáltatás, valamint a weboldal hitelesítési szolgáltatás, ide nem értve az elektronikus aláírás és elektronikus bélyegző érvényesítésével és megőrzésével kapcsolatos szolgáltatást",
+      "source_provision": "s2"
+    },
+    {
+      "term": "változáskezelés",
+      "definition": "azon szabályok összessége, amelyek meghatározzák a szolgáltatási folyamatokban és az azt kiszolgáló informatikai szolgáltatásokban bekövetkező módosítások, változások biztonságos végrehajtását",
+      "source_provision": "s2"
+    },
+    {
+      "term": "visszavonás kezelése",
+      "definition": "az E-ügyintézési tv. 86. és 87. §-ában meghatározottak szerinti, a kibocsátott tanúsítványok visszavonására és felfüggesztésére vonatkozó eljárások lefolytatása",
+      "source_provision": "s2"
+    },
+    {
+      "term": "visszavonási nyilvántartások",
+      "definition": "nyilvántartások a felfüggesztett, valamint a visszavont tanúsítványokról, amelyek tartalmazzák legalább a felfüggesztés vagy visszavonás tényét és a felfüggesztés vagy visszavonás időpontját.",
+      "source_provision": "s2"
+    }
+  ]
+}

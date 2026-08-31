@@ -1,0 +1,126 @@
+{
+  "id": "hu-law-2015-36-20-2c",
+  "type": "statute",
+  "title": "36/2015. (IX. 24.) MNB rendelet az értékpapírszámla, ügyfélszámla belépési azonosító és jelszó megképzésének módszertanáról, a kapcsolódó adatszolgáltatásról, valamint az adatbiztonsági követelményeket rögzítő szabályzat kötelező tartalmi elemeiről",
+  "status": "in_force",
+  "in_force_date": "2016-01-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2015-36-20-2C",
+  "description": "az értékpapírszámla, ügyfélszámla belépési azonosító és jelszó megképzésének módszertanáról, a kapcsolódó adatszolgáltatásról, valamint az adatbiztonsági követelményeket rögzítő szabályzat kötelező tartalmi elemeiről",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § E rendelet alkalmazásában: 1. értékpapírszámla: a tőkepiacról szóló 2001. évi CXX. törvény (a továbbiakban: Tpt.) 5. § (1) bekezdés 46. pontja szerinti fogalom; 2. jelentés: a befektetési vállalkozásokról és az árutőzsdei szolgáltatókról, valamint az általuk végezhető tevékenységek szabályairól szóló 2007. évi CXXXVIII. törvény (a továbbiakban: Bszt.) 69. és 69/A. §-a szerinti tájékoztatás; 2a. jelszó-előtag: a számlavezető által generált, anonim, numerikus, három decimális számjegyből álló szám, amely adott számlatulajdonos esetében egyedileg jelöli a számlát, a számla megszűnéséig állandó, és amely nem lehet azonos természetes személy számlatulajdonos esetén a számlavezető által kezelt személyes adattal, nem természetes személy számlatulajdonos esetén a számlavezető által kezelt, a számlatulajdonos azonosítására szolgáló adattal, valamint nem származtatható azokból; 3. lekérdező rendszer: a Magyar Nemzeti Bank (a továbbiakban: MNB) honlapján a Tpt. 142/A. § (1) bekezdése szerinti tájékozódás lehetőségét biztosító megoldás; 4. számlatulajdonos: a számlavezetővel értékpapírszámla-szerződés alapján szerződő fél; 5. számlavezető: a Tpt. 140. § (1) bekezdése szerinti, értékpapírszámla vezetését végző szervezet; 6. tartós adathordozó: a Bszt. 4. § (2) bekezdés 65. pontja szerinti fogalom; 7. UTF-8: unicode karakterkódolási eljárás; 8. ügyfélszámla: a Tpt. 5. § (1) bekezdés 130. pontja szerinti fogalom."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § (1) A Tpt. 142/A. § (1) bekezdésében meghatározott belépési azonosító (a továbbiakban: belépési azonosító) huszonnégy, decimális számjegyből álló szám, amelynek a) első nyolc számjegye a számlavezető törzsszámával egyezik meg, b) második nyolc számjegye a számlavezető által saját célra felhasználható belső kód, c) harmadik nyolc számjegye a 00 000 001 és a 99 999 999 tartományba eső, véletlenszerű számsorozat eleme. (2) A számlatulajdonoshoz egyedileg nem rendelhető értékpapírok összesített állományához kapcsolódó belépési azonosító (1) bekezdés b) pontjában meghatározott második nyolc számjegye nyolc darab „0” karakterből áll. (3) A Tpt. 142/A. § (1) bekezdésében meghatározott, a Bszt. 68. §-a és 69/A. § d) pontja alapján a jelentés adattartalmát képező jelszó (a továbbiakban: jelszó) a jelszó-előtag és az ahhoz kötőjellel kapcsolódó, UTF-8 kódolású, tizenkét alfanumerikus, nem ékezetes karakterből – kis- és nagybetű, szám – álló, véletlenszerűen előállított kifejezés, amely tartalmaz legalább egy kis- és egy nagy alfabetikus, valamint egy numerikus karaktert. (4) A számlavezető a belépési azonosító (1) bekezdés c) pontja szerinti részéhez, valamint a jelszó jelszó-előtagon kívüli részének előállításához olyan algoritmusokat alkalmaz, amelyek biztosítják, hogy azok véletlenszerű sorozatok elemeit alkossák. Az algoritmusokat a számlavezető szabadon választhatja meg. (5) A számlavezető a belépési azonosító és a jelszó előállítását követően ellenőrzi a Tpt. 142/A. § (2) bekezdésben foglaltak teljesülését."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) A belépési azonosító előállítása az e rendelet hatálybalépését követő első jelentés előállításával egyidejűleg történik. (2) A jelszó előállítása az aktuális havi jelentés előállításával egyidejűleg történik."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) A számlavezető a Tpt. 142/A. § (3) bekezdésében előírt, az értékpapírszámla- és ügyfélszámla egyenlegre és adatokra vonatkozó anonimizált adatszolgáltatást (a továbbiakban: adatszolgáltatás) az 1. melléklet szerinti táblaszerkezetben és tartalommal, a tőkepiaci szervezetek által a jegybanki információs rendszerhez elsődlegesen a Magyar Nemzeti Bank felügyeleti feladatai ellátása érdekében teljesítendő adatszolgáltatási kötelezettségekről szóló MNB rendeletben előírt módon küldi meg az MNB részére. (2) A számlavezető az adatszolgáltatás alapjául szolgáló dokumentumokat, a számviteli, nyilvántartási, informatikai rendszerekben tárolt információkat a tőkepiaci szervezetek által a jegybanki információs rendszerhez elsődlegesen a Magyar Nemzeti Bank felügyeleti feladatai ellátása érdekében teljesítendő adatszolgáltatási kötelezettségekről szóló MNB rendeletben meghatározott időtartamig őrzi meg."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § A Tpt. 142/A. § (5) bekezdése szerinti, adatbiztonsági követelményeket rögzítő szabályzat (a továbbiakban: szabályzat) tartalmazza legalább a) a belépési azonosító és a jelszó kezelésének folyamatát, valamint b) a belépési azonosító és a jelszó számlatulajdonos felé történő átadásának rendjét."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § A számlavezető a szabályzatban a belépési azonosító és a jelszó kezelésének folyamatára vonatkozóan meghatározza a) a belépési azonosító és a jelszó előállításának, tárolásának, megőrzésének, valamint törlésének szabályait, b) a belépési azonosító és a jelszó előállítási folyamatára vonatkozó eljárásokat, c) a belépési azonosító és a jelszó 2. § (5) bekezdése szerinti ellenőrzésére vonatkozó eljárásokat, d) a bizalmasság biztosításához rendelt technikai intézkedéseket és az elvárt adatbiztonsági szintet biztosító beállításokat, valamint e) a d) pont teljesítésére vonatkozó időszakos adatbiztonsági ellenőrzés folyamatát."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § (1) A belépési azonosító a számlatulajdonos adataihoz kapcsolódóan olyan különálló állományban kerül tárolásra, amelynek hozzáférése a számlatulajdonos adataihoz beállított hozzáféréstől függetlenül állítható be. (2) Az aktuális havi jelentéshez, illetve az MNB felé átadandó aktuális havi adatokhoz kapcsolódó jelszó olyan különálló állományban kerül tárolásra, amelynek hozzáférése az aktuális havi jelentéshez, illetve az MNB felé átadandó aktuális havi adatokhoz beállított hozzáférésektől függetlenül állítható be."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § A számlavezető biztosítja, hogy a belépési azonosító és a jelszó az ügyféladatokra vonatkozóan a pénzügyi intézmények, a befektetési vállalkozások és az árutőzsdei szolgáltatók informatikai rendszerének védelmére vonatkozó jogszabályi rendelkezésekben előírtakkal legalább azonos adatbiztonsági védelemben részesüljön. Ennek érdekében a számlavezető a) a belépési azonosítónál és a jelszónál alkalmazott konkrét képzési és tárolási eljárásához kapcsolódóan meghatározza, és a szabályzatban rögzíti azon természetes személyek és technikai felhasználók körét, akik vagy amelyek a megképzett belépési azonosítókhoz és jelszavakhoz hozzáférhetnek, valamint b) kidolgozza, és a szabályzatban rögzíti azokat a hozzáférés-jogosultsági szabályokat (érintett erőforrások, felhasználók, csoportbeosztások, az erőforrásokhoz rendelt hozzáférési jogosultsági beállítások), amelyek biztosítják, hogy a belépési azonosítóhoz és a jelszóhoz csak azon felhasználók férhessenek hozzá, akiknek feltétlenül szükséges, és kizárólag olyan műveleti jogosultsággal, amely munkájuk elvégzéséhez elengedhetetlen."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § A számlavezető a szabályzatban a belépési azonosító és a jelszó számlatulajdonos felé történő átadásának rendjére vonatkozóan meghatározza a) az átadás folyamatát, b) az átadás folyamatában alkalmazott adatbiztonsági előírásokat, valamint c) a számlatulajdonosok számára a rendszer biztonságos használatára vonatkozó szabályok megismertetésének módját."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § (1) A számlavezető a belépési azonosítót a jelentéstől elkülönítve adja át a számlatulajdonosnak. A számlavezető a belépési azonosítót a számlatulajdonos kérésére bármikor, de legalább évente egy alkalommal ismételten átadja a számlatulajdonosnak. (2) A belépési azonosító átadása a) írásban, b) más tartós adathordozón, vagy c) a számlavezető által meghatározott honlapon történhet. (3) A belépési azonosítónak más tartós adathordozón vagy a honlapon történő átadása a papíron történő átadás helyett akkor választható, ha az értesítési módokra vonatkozóan a számlatulajdonos ezen átadási módokhoz szerződésben hozzájárulását adta, és megjelölte, hogy az átadásra melyik tartós adathordozót, illetve a honlapon történő átadást választotta. Amennyiben a belépési azonosító a jelentéssel azonos értesítési csatornán kerül átadásra, a számlatulajdonos külön nyilatkozatától el lehet tekinteni. (4) Tartós adathordozón történő átadás esetén az adathordozón nem szerepelhet egyidejűleg a belépési azonosító és a jelszó. (5) A belépési azonosító honlapon történő átadása esetén a belépési azonosító eléréséhez rendelt ügyfél hitelesítési eljárás nem lehet alacsonyabb biztonságú, mint a számlakivonatok eléréséhez alkalmazott hitelesítési eljárás. (6) A belépési azonosító honlapon keresztüli átadása esetében szükséges a kétfaktoros, ún. „erős” felhasználói hitelesítés alkalmazása. (7) A belépési azonosító adathálózaton keresztül történő átadása esetén a belépési azonosítót rejtjelezett állományban vagy a számlavezető és a számlatulajdonos között kiépített rejtjelezett csatornán kell átadni. (8) A belépési azonosító nyomtatása és borítékolása, tartós adathordozóra történő rögzítése, valamint honlapon történő átadása során a folyamat zártságának biztosításával és lehető legmagasabb szintű automatizálásával kell az adatok biztonságát garantálni. (9) A jelszó átadása kizárólag a jelentés átadásával valósítható meg. A jelentésnek a jelszót QR-kód szimbológiájú szabvány szerinti adatbeviteli módra vonatkozó fő technikai paramétereket tartalmazó, az MNB honlapján közzétett útmutató alapján megképzett formában is tartalmaznia kell."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § A számlavezető a belépési azonosító, illetve a jelszó minden átadásakor tájékoztatja a számlatulajdonost a) a belépési azonosító és a jelszó bizalmas kezelésének a fontosságáról, b) a belépési azonosító és a jelszó pótlásának eljárásáról, c) az ügyféloldali biztonság [kártékony szoftverek (pl. vírusok) elleni végponti védelmi szoftver, tűzfal alkalmazásának] jelentőségéről, d) a nem saját gépről történő, valamint a nyilvános internet pontokon keresztüli lekérdezések veszélyeiről, kockázatairól."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. § Ez a rendelet 2016. január 1-jén lép hatályba."
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. § A számlavezető az értékpapírszámla, ügyfélszámla belépési azonosító és jelszó megképzésének módszertanáról, a kapcsolódó adatszolgáltatásról, valamint az adatbiztonsági követelményeket rögzítő szabályzat kötelező tartalmi elemeiről szóló 36/2015. (IX. 24.) MNB rendelet módosításáról szóló 3/2022. (II. 2.) MNB rendelettel módosított előírások szerinti jelszót első alkalommal a 2022. augusztus 31. napjának helyzetét mutató jelentés előállításával egyidejűleg állítja elő. 1. Az adatszolgáltatás táblája 30U Ügyfélszámlák adatai Nagyságrend: egységnyi Sorszám Sorkód Megnevezés ISIN/egyéb azonosító Instrumentum megnevezése Devizanem Mennyiség Névérték Mód 1 2 3 4 5 6 a b c d e z A számlatulajdonos számára megjelenítendő adatok 001 30U0000001 A számlatulajdonos belépési azonosítója 002 30U00000011 Vonatkozási időpont 003 30U00000012 Számlatípus azonosító 004 30U00000013 Értékpapírok jogi készlete 005 30U000000130001 értékpapír...... 30U000000139999 értékpapír 006 30U00000014 Pénzeszközök jogi egyenlege 007 30U000000140001 devizanem...... 30U000000149999 devizanem A számlatulajdonos számára nem megjelenítendő, tájékoztató és korrekciós adatok 008 30U00000015 Szektorkód 30U00000016 Ügyfélszámla azonosítóhoz tartozó aktuális jelszó 009 30U00000017 Elszámolás alatt lévő értékpapír (+/-) 010 30U000000170001 értékpapírok...... 30U000000179999 értékpapírok Jelmagyarázat Tilos 2. A tábla kitöltésére vonatkozó előírások 2.1. Általános előírások 2.1.1. Az 1. pontban foglalt táblát úgy kell kitölteni, hogy abból a számlatulajdonos részére megküldött jelentés adattartalma reprodukálható legyen. 2.1.2. A tábla ismétlő blokkjait számlatulajdonosként, illetve azon számlatulajdonos esetében, amely több értékpapírszámla szerződéssel is rendelkezik (pl. általános értékpapír- és ügyfélszámla vezetés mellett TBSZ, illetve NYESZ is), és a számlaértesítőt számlánként kapja meg, értékpapírszámla-szerződésenként kell kitölteni. 2.1.3. A tábla „A számlatulajdonos számára megjelenítendő adatok” részében a jogi készletet kell jelenteni. Pénzügyi eszközök esetében a számlatulajdonos tulajdonában lévő (az ügyfélszámlán nyilvántartott), illetve az őt megillető eszközöket kell szerepeltetni. Pénzeszközök esetén az ügyfélszámlán nyilvántartott eszközöket korrigálni kell a pénzkövetelésekkel és a pénzkötelezettségekkel. A hitelintézeti befektetési szolgáltatónak, amennyiben a befektetési tevékenység elszámolása a számlatulajdonos bankszámláján történik, a pénzeszközök jogi egyenlegét nem kell megadnia. 2.1.4. Az ügyféltulajdonban lévő, de egy konkrét számlatulajdonoshoz nem köthető értékpapírokat ún. technikai számlán, összevontan kell jelenteni. A technikai számla egyedi azonosítójának a második 8 karaktere csak nullából állhat. 2.1.5. A nullás állománnyal, de még élő értékpapírszámla szerződéssel rendelkező számlatulajdonosra vonatkozó adatokat is jelenteni kell. 2.2. Részletes előírások 2.2.1. A tábla egyes oszlopai 2.2.1.1 Devizanem Az elszámolás devizaneme. Csak létező devizanemet lehet használni. 2.2.1.2. Mennyiség A táblában az adatokat darabban kell megadni, az oszlopot minden jelentett értékpapír esetében ki kell tölteni. Pénzeszközök esetén a devizanemben kifejezett érték. 2.2.1.3. Névérték Csak hitelviszonyt megtestesítő értékpapírok esetében töltendő ki. Az elszámolás devizanemében kell megadni. 2.2.2. A tábla egyes sorai 2.2.2.1 Számlatípus azonosító A jelentésben szereplő számla megnevezése (NYESZ, TBSZ2014, általános számla stb.) szabad szöveges mező. Összevont adatokat tartalmazó jelentés esetén az „összevont” megjelölést kell alkalmazni. 2.2.2.2. Szektorkód A számlatulajdonos szektorát a jegybanki információs rendszerhez elsődlegesen a Magyar Nemzeti Bank alapvető feladatai ellátása érdekében teljesítendő adatszolgáltatási kötelezettségekről szóló MNB rendelet 2. melléklet I. A. pontjában szereplő szektorkódok alkalmazásával kell meghatározni. A számlatulajdonos szektorkódját alapvetően a főszektor kódját egy karakterrel megadva kell jelenteni, kivéve a C és a D szektorba tartozó számlatulajdonosokat, amelyek esetében a szervezetek két-, illetve három karakteres szektorkódjai jelentendőek, az MNB rendelet 3. melléklet 1. pontja szerinti, az MNB honlapján közzétett technikai segédletben foglaltaknak megfelelően. 2.2.2.3. Elszámolás alatt lévő értékpapírok (+/-) A T+ elszámolású értékpapír ügyletek esetén a T nap és az SD nap közötti ügyleteket kell előjel helyesen szerepeltetni, ahol „-” az elszámolás alatt lévő vételi, „+” az elszámolás alatt lévő eladási ügyleteket jelenti. Itt kell – szintén előjel helyesen – szerepeltetni az értékpapír transzferek esetén az úton lévő tételeket is. 1 Az 1. § 2a. pontját a 3/2022. (II. 2.) MNB rendelet 1. §-a iktatta be. 2 A 2. § (3) bekezdése a 3/2022. (II. 2.) MNB rendelet 4. § a)–b) pontja szerint módosított szöveg. 3 A 2. § (4) bekezdése a 3/2022. (II. 2.) MNB rendelet 4. § c) pontja szerint módosított szöveg. 4 A 10. § (1) bekezdése az 54/2016. (XII. 22.) MNB rendelet 1. §-ával megállapított szöveg. 5 A 10. § (9) bekezdése a 3/2022. (II. 2.) MNB rendelet 2. §-ával megállapított szöveg. 6 A 13. § a 3/2022. (II. 2.) MNB rendelet 3. §-ával megállapított szöveg."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "§ E rendelet alkalmazásában",
+      "definition": "1. értékpapírszámla: a tőkepiacról szóló 2001. évi CXX. törvény (a továbbiakban: Tpt.) 5. § (1) bekezdés 46. pontja szerinti fogalom",
+      "source_provision": "s1"
+    },
+    {
+      "term": "lekérdező rendszer",
+      "definition": "a Magyar Nemzeti Bank (a továbbiakban: MNB) honlapján a Tpt. 142/A. § (1) bekezdése szerinti tájékozódás lehetőségét biztosító megoldás",
+      "source_provision": "s1"
+    },
+    {
+      "term": "számlatulajdonos",
+      "definition": "a számlavezetővel értékpapírszámla-szerződés alapján szerződő fél",
+      "source_provision": "s1"
+    },
+    {
+      "term": "számlavezető",
+      "definition": "a Tpt. 140. § (1) bekezdése szerinti, értékpapírszámla vezetését végző szervezet",
+      "source_provision": "s1"
+    },
+    {
+      "term": "tartós adathordozó",
+      "definition": "a Bszt. 4. § (2) bekezdés 65. pontja szerinti fogalom",
+      "source_provision": "s1"
+    },
+    {
+      "term": "UTF-8",
+      "definition": "unicode karakterkódolási eljárás",
+      "source_provision": "s1"
+    },
+    {
+      "term": "ügyfélszámla",
+      "definition": "a Tpt. 5. § (1) bekezdés 130. pontja szerinti fogalom.",
+      "source_provision": "s1"
+    }
+  ]
+}

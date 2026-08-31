@@ -1,0 +1,101 @@
+{
+  "id": "hu-law-2009-33-b0-2m",
+  "type": "statute",
+  "title": "33/2009. (V. 27.) KHEM utasítás a Közlekedési, Hírközlési és Energiaügyi Minisztérium adatainak archiválási rendjéről",
+  "status": "in_force",
+  "in_force_date": "2009-05-28",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2009-33-B0-2M",
+  "description": "a Közlekedési, Hírközlési és Energiaügyi Minisztérium adatainak archiválási rendjéről",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § Jelen utasítás célja a) a jogszabályoknak, belső szabályozásoknak, illetve az adatgazdák igényeinek megfelelő adatarchiválás-folyamat rögzítése, b) az archiválással kapcsolatos fogalmak egységesítése."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § (1) Jelen utasítás személyi hatálya kiterjed a Közlekedési, Hírközlési és Energiaügyi Minisztérium (a továbbiakban: KHEM vagy minisztérium) által használt informatikai rendszerek minden felhasználójára, azzal, hogy a jelen utasításban megfogalmazott, az adatarchiválási tevékenységben részt vevő szerződéses jogviszonyban álló személyekre, szervezetekre vonatkozó kötelezettségeket a hatályos szerződéseken keresztül kell érvényesíteni. (2) Jelen utasítás tárgyi hatálya kiterjed a minisztérium által használt valamennyi jelenlegi és jövőbeli adatára. (3) A jelen utasítás rendelkezéseinek teljes körű és értelemszerű alkalmazása a KHEM valamennyi épületében elhelyezett valamennyi szervezeti egységére nézve kötelező."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § a) Archiválás: ritkán használt, elavult, illetve egyéb célból megőrzendő adatok, adatbázisrészek változatlan formában történő hosszú távú megőrzése. b) Adatgazdálkodási referens: Az adatgazdálkodással, adatokkal foglalkozó erre megbízott személy (jelenleg: Információ Biztonsági Megbízott). c) Adatgazdálkodásért felelős: a minisztérium szervezeti egységeinek vezetői, akik az általuk kezelt adatok felügyeletét látják el. d) Elérhetőség (ULR) (Uniform Resource Locator): egy hálózaton elérhető erőforrás címe. e) Mentés: az adatok biztonsági okokból történő, fizikailag elkülönülő médián való rendszeres eltárolása. f) Médiák megsemmisítése: használt adathordozók adattartalmának végleges és visszavonhatatlan megszüntetése. g) Sémanév: egy adatbázisszerveren több egymástól független adatbázis is futhat egy időben. A sémanév az adatbázis műszakilag önálló részének a hivatkozási neve. h) Táblatérnév: a logikai adattárolás legnagyobb egységének neve (több adatbázistáblát, indexet is tartalmazó adatfájlokat és objektumokat logikailag foglal keretbe)."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § Az archiválás célja: a) az elavult, b) a ritkán használt, c) a jogszabályok, belső szabályozások rendelkezéseire figyelemmel megőrzendő adatok változatlan állapotban, hosszú távon történő megőrzésének biztosítása."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § (1) A gazdasági és ágazatfinanszírozási szakállamtitkár (a továbbiakban: GSZÁT) évente egyszer, a tárgyév első negyedévében felméri az adatok archiválására vonatkozó igényeket. (2) Az igényfelmérés kapcsán minimálisan az alábbi alapadatok megjelölése szükséges: a) az archiválandó adatrész pontos meghatározása: – adatbázis, – táblatér, – könyvtár/file-név, – szűrőparaméterek (valamely időnél régebbi adatok, nem módosított adatok stb.), b) az archiválás pontos időpontja, c) az archivált adatok jogosultsági beállításai. d) Igényelt megőrzési idő: az az időszak, amelyben az adatokat az éles rendszerből való kikerülése után még el kell érni. e) Indokolás: az archiválási igény indoklása. Lehetséges válaszok: – törvényi előírás, – belső előírás, – szervezeti működéshez szükséges, – egyéb. f) Titkosítási igény: az archivált adatok titkosításának igénye."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § (1) Az előzetesen felmért igények feldolgozását követően – a Központi Szolgáltatási Főigazgatóság (a továbbiakban: KSzF) és a minisztérium közötti „Együttműködési megállapodás” alapján – az archiválás elindítását a GSZÁT kezdeményezi a KSzF-től. (2) Az archiválási igény indításakor minimálisan az igényfelméréskor megjelölt információk megadása szükséges."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § Eseti jellegű archiválási igény akkor indítható, ha az adatokban, adatbázisokban történő jelentős változás/változtatás előtt ez szükségessé válik. Az igényt az adatgazdálkodásért felelős indítja az előzetesen felmért igény indításánál leírt adattartalmak megadásával."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § (1) Rendkívüli archiválási igény lép fel akkor, ha az üzemeltetési körülmények olyan mértékben változnak, hogy ez az archiválást szükségessé teszi. (2) A szakmai felelősök, illetve a szervezeti egységek vezetői által megfogalmazott rendkívüli archiválási igények esetében az igénylőlapot az előzetesen felmért igény indításánál leírt adattartalmak, illetve az igény indításánál leírt adatok összességével kell beadni. (3) A rendkívüli archiválást az adatgazdálkodásért felelős a következő tényezők alapján kezdeményezheti: a) olyan mértékű teljesítményhiány, amely a minisztérium működését hátráltatja, b) olyan mértékű kapacitáshiány, amely a minisztérium működését hátráltatja, c) jelentős változás az IT-rendszerben."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § Az archiválást a minisztérium és a KSzF között létrejött „Együttműködési megállapodás” alapján, a KSzF végzi. Ennek folyamatát a KSzF a belső szabályzataiban rögzíti."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § A visszatölthetőség ellenőrzéséről – az „Együttműködési megállapodás” alapján – a KSzF belső szabályzata szerint gondoskodik."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § Az archivált anyagok azonosításáról, tárolásáról, kezeléséről és mozgatásáról – az „Együttműködési megállapodás” alapján – a KSzF belső utasítása/szabályzata szerint gondoskodik."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. § (1) Az archiválás dokumentáltságáról – az „Együttműködési megállapodás” alapján – a KSzF belső utasításai/szabályzata szerint gondoskodik. (2) Igény szerint az archiválási dokumentumokat a KSzF az adatgazdálkodási felelős, illetve a GSZÁT részére megküldi. (3) Az archiválás tényéről a KSzF az adatgazdálkodásért felelős vezetőt, illetve a GSZÁT-ot tájékoztatja."
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. § Az archivált adatokhoz való hozzáférést a felhasználók az adatgazdálkodásért felelőstől kérhetik. A kérelem jóváhagyását követően az adatgazdálkodásért felelős a hozzáférési igényt benyújtja a KSzF-hez. Az igények teljesítése az „Együttműködési megállapodás”-hoz kapcsolódó szolgáltatási megállapodás alapján történik."
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14. §",
+      "content": "14. § A leselejtezett archivált anyagok megsemmisítéséről – az „Együttműködési megállapodás” alapján – a KSzF belső szabályzata szerint gondoskodik."
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15. §",
+      "content": "15. § A jelen utasítás a közzétételt követő napon lép hatályba."
+    }
+  ]
+}

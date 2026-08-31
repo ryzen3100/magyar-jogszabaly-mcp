@@ -1,0 +1,1967 @@
+{
+  "id": "hu-law-2015-5-b0-8e",
+  "type": "statute",
+  "title": "5/2015. (IV. 16.) ORFK utasítás az általános rendőrségi feladatok ellátására létrehozott szerv tevékenység-irányítási központjai, egyes rendőri szervek ügyeletei, valamint a segélyhívásokat fogadó központok egységes működéséről szóló 57/2013. (XII. 21.) ORFK utasítás módosításáról",
+  "status": "repealed",
+  "in_force_date": "2015-04-24",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2015-5-B0-8E",
+  "description": "az általános rendőrségi feladatok ellátására létrehozott szerv tevékenység-irányítási központjai, egyes rendőri szervek ügyeletei, valamint a segélyhívásokat fogadó központok egységes működéséről szóló 57/2013. (XII. 21.) ORFK utasítás módosításáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A jogalkotásról szóló 2010. évi CXXX. törvény 23. § (4) bekezdés c) pontjában, valamint a Rendőrségről szóló 1994. évi XXXIV. törvény 6. § (1) bekezdés b) pontjában kapott felhatalmazás alapján az általános rendőrségi feladatok ellátására létrehozott szerv ügyeleti szolgálatai részére előírt jelentési és tájékoztatási kötelezettség teljesítésének szakszerű végrehajtása érdekében, az általános rendőrségi feladatok ellátására létrehozott szerv tevékenység-irányítási központjai, egyes rendőri szervek ügyeletei, valamint a segélyhívásokat fogadó központok egységes működéséről szóló 57/2013. (XII. 21.) ORFK utasítás módosítására kiadom az alábbi utasítást:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "1. Az általános rendőrségi feladatok ellátására létrehozott szerv tevékenység-irányítási központjai, egyes rendőri szervek ügyeletei, valamint a segélyhívásokat fogadó központok egységes működéséről szóló 57/2013. (XII. 21.) ORFK utasítás (a továbbiakban: Ut.) 2. pontja a következő f)–j) alponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "(Az utasítás alkalmazásában:)"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "„f) CCCBar: a HIR IP alapon kiépített informatikai hálózatra épülő telefonrendszer (telefónia) és a TIK-ekben lévő IP telefonkészülékek társítását végző informatikai alkalmazás;"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "g) mobil eszköz: a Robotzsaru-Neo integrált ügyviteli és ügyfeldolgozó rendszerben (a továbbiakban: Robotzsaru rendszer), a Robotzsaru NOVA Tevékenység-irányítási Rendszer (a továbbiakban: TIR) részeként működő alkalmazásokat futtató olyan számítástechnikai eszköz, amely"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "ga) biztosítja a bevetési egységek feladatainak végrehajtásához szükséges informatikai hátteret,"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "gb) együttműködik a TIR-rel az önálló esemény- és státuszkezelésben,"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "gc) közvetlen elérést biztosít az alkalmazott nyilvántartásokhoz,"
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "gd) támogatja a videó-, kép- és hangfelvétel kezelését,"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "ge) navigáció segítségével útvonaltervezést végez,"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "gf) lehetőséget biztosít a segítségkérésre úgy, hogy manuálisan kiváltott riasztás esetén vészhelyzetben a TIK számára információkat küld;"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "h) geokódolás: térképi azonosítás;"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "i) SOS-szám: a TIK-ekben létrehozott, elkülönített olyan belügyi szám, amelyre a Hívásfogadó Központból (a továbbiakban: HIK) a folyamatban lévő események bejelentőit kiemelt prioritású hívásként kapcsolják át, amely minden munkaállomáson lévő telefonkészüléken egy időben csörög;"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "j) Safe TIR: rendszerkiesés esetén a TIR tartalék rendszere, amely a 10.18.2.158/Safetir címen érhető el.”"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "2. Az Ut. 8. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "„8. Szükség esetén a KR parancsnoka, az RRI igazgatója és az MRFK vezetője engedélyét követően a KR Központi Ügyelet, az RRI ügyelet vagy a TIK (fő)osztályvezetője, akadályoztatása esetén az ügyeletvezető, a feladattal érintett rendőri szakterületről vagy szakszolgálatról megerősítő erőt rendel be az ügyeleti szolgálatokra vagy a TIK-be a helyi viszonyok, a terület közbiztonsága, továbbá a mindenkori bűnügyi és határrendészeti helyzet függvényében, valamint kiemelt fontosságú eseménnyel összefüggésben, a tevékenység-irányítás zavartalan ellátása érdekében.”"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "3. Az Ut. 10. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "„10. Az ORFK állandó ügyeleti szolgálatának feladatait az ORFK Rendészeti Főigazgatóság Ügyeleti Főosztály Ügyeleti Osztálya (a továbbiakban: ORFK Főügyelet) látja el.”"
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "4. Az Ut. 12. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "„12. A TIK és az ügyeleti szolgálatok állománya a Rendőrség hivatásos állományú tagjainak szolgálatteljesítési idejéről, valamint a szolgálati időrendszerekről szóló ORFK utasítás szerint kombinált szolgálati időrendszer szerint I. számú váltásos (váltásonként 12 óra szolgálat, 24 óra szabadidő; 12 óra szolgálat, 48 óra szabadidő) és a vezényléses szolgálati időrendszerek kombinációja szerint teljesítik szolgálatukat. A TIK-ben a szolgálatváltást időben csúsztatva úgy kell végrehajtani, hogy a TIK ügyeletvezetője és főügyeletese, valamint szükség esetén az ügyeletesek váltása legalább két különböző időpontban történjen. A TIK-ekben a csúsztatott szolgálatváltás időpontjait az MRFK vezetője határozza meg.”"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "5. Az Ut. II. fejezet 4. alcím címének helyébe a következő cím lép:"
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "„4. A TIK alapfeladatai”"
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "6. Az Ut. 27. pont c) alpontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "(A TIK osztályvezetői, valamint a BRFK főosztályvezetője az alábbi jogköröket gyakorolják, valamint a következő feladatokat végzik:)"
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "„c) a TIK állománya tekintetében a Robotzsaru rendszer szolgálatvezénylési felületén történő eligazítással, személyre szabottan meghatározzák a feladatokat, és kijelölik az irányítandó rendőrkapitányságok körét, illetve ahol van, a határrendészeti kirendeltségek irányítójának személyét;”"
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "7. Az Ut. 27. pont f) alpontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "(A TIK osztályvezetői, valamint a BRFK főosztályvezetője az alábbi jogköröket gyakorolják, valamint a következő feladatokat végzik:)"
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "„f) teljesítik ellenőrzési kötelezettségüket – kiemelt figyelemmel az elektronikus lekérdező rendszerek jelszavainak meglétére és érvényességére, valamint a HIR-ből érkező adatlapokkal kapcsolatos reagálási időkre –, amelynek dokumentálását a Robotzsaru rendszer vezetői ellenőrzések dokumentálása moduljában kell végrehajtaniuk.”"
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "8. Az Ut. 29. pontja a következő k) alponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "(29. A TIK ügyeletvezetője hivatali munkaidőn kívül az MRFK vezetőjének jogkörében az alábbi elsődleges intézkedéseket teszi meg, amelyekről az MRFK vezetőjének jelentést tesz:)"
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "„k) a Terrorelhárítási Központ (a továbbiakban: TEK) Műveleti Igazgatóság egységeinek kirendelése érdekében halaszthatatlan esetben a TEK ügyeletével – hivatali munkaidőben is – felveszi a kapcsolatot.”"
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "9. Az Ut. 30. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "„30. A TIK ügyeletvezetője:"
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "a) irányítja, felügyeli és ellenőrzi a főügyeletesek és az ügyeletesek munkáját;"
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "b) a főügyeletessel megosztva irányítja, felügyeli és ellenőrzi a szolgálat átadás-átvétel folyamatát;"
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "c) irányítja, felügyeli és ellenőrzi a számítógépes rendszerekből történő ki- és belépés ütemezését és végrehajtását;"
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "d) irányítja, felügyeli és ellenőrzi a CCCBar-ba történő bejelentkezés megtörténtét;"
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "e) összehangolja a szakmai munkavégzést;"
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "f) teljesíti jelentési kötelezettségeit az ORFK Főügyelete és az MRFK vezetője, valamint az MRFK vezetője által meghatározott vezetők részére,"
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "g) a TIK osztályvezetője, valamint a BRFK főosztályvezetője akadályoztatása esetén gyakorolja a 27. pont c) alpontjában meghatározott jogköröket.”"
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "10. Az Ut. 34. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "„34. A TIK ügyeletvezető, a TIK főügyeletes és a TIK ügyeletes (a továbbiakban együtt: TIK Ügyeletesek) felelősségi körébe tartozó, a terhelt mozgását nyomon követő technikai eszköz elektronikus adatait megjelenítő 3M webes alkalmazásnak (a továbbiakban: Webes alkalmazás) és a TIR integrált felületnek figyelemmel kísérése, valamint riasztás esetén a szükséges intézkedések megtétele tekintetében a TIK ügyeletvezetője gondoskodik a feladat végrehajtásának ellenőrzéséről.”"
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "11. Az Ut. a következő 34/A–34/B. ponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "„34/A. A rendőri szervek a Webes alkalmazás igénybevételével végrehajtott házi őrizettel kapcsolatosan kezelt iratanyagok másolati példányát megküldik a TIK-nek. Az iratanyagok, valamint a folyamatban lévő intézkedésekkel kapcsolatos, illetve a Webes alkalmazás működését befolyásoló információk átadás-átvétel tárgyát képezik."
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "34/B. A szolgálat átadás-átvétele során a szolgálatát leadó TIK ügyeletvezető kilép, a szolgálatát megkezdő TIK ügyeletvezető belép a Webes alkalmazásba.”"
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "12. Az Ut. 39. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "„39. A TIK ügyeletvezetője elkészíti a 0.00 órától 24.00 óráig tartó időszakra vonatkozó MRFK Napi Jelentést (a továbbiakban: NJ), és azt e-mailen keresztül minden nap 6.00 óráig megküldi vagy hozzáférhetővé teszi az MRFK vezetője által meghatározott személyeknek. A személyes adatot tartalmazó NJ-t az MRFK vezetője által meghatározott személyek ismerhetik csak meg. Az MRFK vezetőjének döntése alapján az NJ korlátozott adattartalommal is elkészíthető. A korlátozott adattartalommal elkészített NJ-ben nem szerepelhet személyes adat, valamint olyan esemény, amellyel kapcsolatban valamely jelentésre kötelezett rendőri szerv „sajtóban nem közölhető” kritériumot fogalmazott meg.”"
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "13. Az Ut. 41. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "„41. A TIK ügyeletvezetője – ha ez a munkaköri leírásában feladatként szerepel – a TIK elhelyezésére szolgáló objektumban működő fogda tekintetében teljesíti ellenőrzési kötelezettségét.”"
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "14. Az Ut. 42. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "„42. A TIK ügyeletvezetője által végrehajtott ellenőrzéseket elsősorban a Robotzsaru rendszer vezetői ellenőrzések dokumentálása moduljában kell rögzíteni. A dokumentálást szükség esetén az ellenőrzés helyszínén rendszeresített ellenőrzési naplóban is végre lehet hajtani.”"
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "15. Az Ut. 43. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "„43. A TIK főügyeletese a TIK ügyeletvezetőt – annak akadályoztatása vagy távolléte esetén – helyettesíti, és az MRFK-n a megyeszékhelyi rendőrkapitányság vonatkozásában végrehajtja a 18., a 30–36. és a 42. pontban foglalt feladatokat.”"
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "16. Az Ut. 44. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "„44. A TIK főügyeletesének akadályoztatása esetében a feladatokat a TIK ügyeletvezetője által kijelölt személy látja el. A TIK főügyeletes szükség esetén ellátja a 45–51. pontban meghatározott ügyeletesi feladatokat is.”"
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "17. Az Ut. 46. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "„46. A TIK ügyeletese feladatkörében közvetlen utasítást adhat az MRFK területén lévő rendőrkapitányságok irányított személyi állományának – alosztályvezetői szintig bezárólag – és a szolgálatparancsnoknak. Ha szakmai szempontból szükséges, az irányított állomány részére a TIK ügyeletese által korábban adott utasítással ellentétes utasítást a szolgálatparancsnok csak a TIK ügyeletesével történt előzetes egyeztetést követően, annak engedélyével adhat.”"
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "18. Az Ut. a következő 46/A. ponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "„46/A. A TIK ügyeletes a 24. pontban meghatározott alapfeladatok végrehajtása érdekében, a szolgálatparancsnok a helyi szerv feladatai ellátása érdekében irányítja a közterületi állományt. A TIK ügyeletes és a szolgálatparancsnok a közterületi állomány megfelelő irányítása, illetve a jelentkező feladatok szakszerű és hatékony végrehajtása érdekében a szükséges információkról kötelesek egymást tájékoztatni és a kölcsönös segítséget egymás részére megadni.”"
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "19. Az Ut. 52. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "„52. A TIK-ben elhelyezett videófal megosztott monitorain vagy a projektor kivetítő felületén folyamatosan futtatni kell a TIR Térképet, a TIR Esetirányítást és a Webes alkalmazást. A TIK Ügyeletesek az általuk koordinált feladatokkal kapcsolatban, az irányított állomány jelentése alapján beállítják a TIR térképén az egységek státuszát. Az irányított állomány minden esetben a mobil eszközön és EDR rádión is jelenti a TIK Ügyeleteseknek a státuszok változását. Az irányított állomány akadályoztatása esetén a TIK Ügyeletesek feladata az egységek státuszainak a beállítása.”"
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "20. Az Ut. kiegészül a következő 54/A–54/F. ponttal:"
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "„54/A. A HIK-ből továbbkapcsolt segélyhívásokon túl a TIK Ügyeleteseknek egyéb módon (vezetékes telefonon, közvetlenül vagy átkapcsolással érkező, illetve az irányított állomány számára közvetlenül, valamint e-mail útján) tudomására jutott segélykérésekről adatlapot kell felvenniük a TIR-ben, majd azzal kapcsolatosan a szükséges intézkedéseket meg kell tenniük."
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "54/B. Az előre tervezett és ismert eseményeket, akciókat, intézkedéseket, útlezárásokat, forgalomkorlátozásokat az illetékes rendőri szerv tekintetében elsősorban az ügy előadója, annak akadályoztatása esetén a szolgálatparancsnok vagy erre kijelölt más személy, továbbá halaszthatatlan esetben az adott szolgálatuk során tudomásukra jutott aznapra szóló információkat, valamint az előre nem tervezhető eseményeket a TIK Ügyeletesek rögzítik – szükség esetén törlik – a TIR Térkép felületén."
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "54/C. A TIK Ügyeletesek kötelesek a küldési adatlapon a bejelentéssel kapcsolatos esemény helyszínét – lehetőség szerinti legnagyobb pontossággal – a TIR Esetirányítás térképén pontosan azonosítani (geokódolás) annak érdekében, hogy a küldött egység a mobil eszközön valós címet lásson."
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "54/D. Bármely TIR mobil eszközről leadott vészjelzés esetén a TIK Ügyeletesek az illetékességi területüktől függetlenül kötelesek a riasztási felületen soron kívül azonosítani a riasztást adó egységet, annak pozícióját, illetve a legrövidebb úton fel kell velük venni a kapcsolatot. Ha a kapcsolatfelvétel sikertelen, abban az esetben azonnal megerősítő egységet vagy egységeket kell küldeni az adott helyszínre."
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "54/E. A TIK Ügyeleteseknek a TIR alábbi funkcióit kell használniuk:"
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "a) esetirányítás a megfelelő rádióforgalmazási kód és minősítés alkalmazásával;"
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "b) kiegészítő lehetőségek (feladatok, közérdekű telefonszámok, chat, hanganyag-visszahallgatás);"
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "c) TIR térkép rétegkezelés;"
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "d) POI lehetőségek megjelenítése;"
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "e) térképi funkciók (távolságmérés, területmérés);"
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "f) járőrkörzet-elhagyás kezelése;"
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "g) egységekkel összefüggő információk (eszközök, eligazítás, kompetenciák) megjelenítése;"
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "h) több megyét érintő irányítási térkép támogatása;"
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "i) irányítás szerinti szűrési lehetőségek a TIR térképen és az esetirányításban egyaránt."
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "54/F. A TIK ügyeletesek a TIR verzióváltása vagy egyéb leállása esetén a Safe TIR tartalékrendszert kötelesek használni. A Safe TIR rendszer használatára történő átállás tényét, illetve annak befejezését az ügyeletvezető jelenti az ORFK Főügyelet részére.”"
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "21. Az Ut. kiegészül a következő 56/A. ponttal:"
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "„56/A. A Robotzsaru és a Robotzsaru-Netzsaru Ügyviteli és Ügyfeldolgozó Rendszer (a továbbiakban: Netzsaru rendszer) ügyeleti moduljaiból (NJ, eseménynapló, statisztika, küldések), valamint a Netzsaru Vezetői Információs Rendszerből kinyerhető adatoknak a kigyűjtésére a TIK Ügyeleteseket nem lehet igénybe venni. A vezetői beszámolás érdekében az adatok megismeréséről az 1. pont f) és g) alpontja szerinti rendőri szervek vezetői saját hatáskörben gondoskodnak.”"
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "22. Az Ut. 57. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "„57. A TIK Ügyeletesek az általuk irányított állomány tekintetében engedélyezik a megkülönböztető jelzés használatát, amelyet a TIR-ben és a Robotzsaru rendszerben dokumentálnak.”"
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "23. Az Ut. 58. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "„58. Abban az esetben, ha az irányított állomány saját elhatározásból használja a megkülönböztető jelzést, azt haladéktalanul jelenti a TIK-nek, amit a TIK Ügyeletesek kötelesek a TIR-ben és a Robotzsaru rendszerben rögzíteni. Ha a rögzített adatok listázása a TIR-ből végrehajtható, abban az esetben a rögzítést csak a TIR-ben kell végrehajtani.”"
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "24. Az Ut. a következő 58/A. ponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "„58/A. A megkülönböztető és figyelmeztető jelzést adó készülékek felszerelésének és használatának szabályairól szóló IRM rendelet alapján az egyéb szervektől érkező bejelentés szerint az egyéb szerv megkülönböztető jelzést adó készüléke használatának kezdetét és végét, valamint a szerv megnevezését a TIK ügyeletvezetője főnyilvántartó számmal ellátott nyilvántartásban rögzíti.”"
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "25. Az Ut. 59. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "„59. A 112-es egységes európai segélyhívó és a 107-es nemzeti segélyhívó számokra érkező és a HIK-ből továbbkapcsolt hívásokat és megküldött elektronikus adatlapokat, valamint az egyéb módon tudomására jutott, beavatkozást igénylő segélykéréseket a TIK kezeli, amely során megteszi az azokkal kapcsolatos intézkedéseket.”"
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "26. Az Ut. 63. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "„63. A HIK-ből kiemelt prioritással, „életveszély” jelzéssel érkező adatlapokat, illetve az SOS-számra kapcsolt segélyhívásokat illetékességi területre és egyéb szolgálati feladatra tekintet nélkül a TIK Ügyeletesek kötelesek azonnal átvenni és intézkedni.”"
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "27. Az Ut. 65. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "„65. A tudásbázis adattartalmát a TIR-ben és a HIR-ben havi rendszerességgel dokumentáltan ellenőrizni és aktualizálni kell. A már rögzített személyi kompetenciák adattartalmát változás esetén az adott MRFK Humánigazgatási Szolgálat vezetője által humánigazgatási feladatokat ellátó, kijelölt személynek aktualizálnia kell. A tudásbázis adattartalmának ellenőrzése és aktualizálása érdekében az MRFK-n és a HIK-ben arra felelős személyeket kell kijelölni (a BRFK-n 5 főt, a többi MRFK-n 2 főt, a HIK-ben 2 főt). A tudásbázis aktualizált változásait a TIK és a HIK (fő)osztályvezetői kizárólag elektronikus levélben minden hónap 5-éig az ORFK Ügyeleti Főosztály vezetőjének felterjesztik.”"
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "28. Az Ut. a következő 69/A–69/E. ponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "„69/A. A TIK Ügyeletesek az EDR diszpécserállomás alábbi funkcióit kötelesek használni:"
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "a) csoport-, egyéni és vészhívások kezelése;"
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "b) csoportok összevonása;"
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "c) felügyeleti szintek kezelése;"
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "d) beszédelem-megszakítás;"
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "e) üzenetek küldése és fogadása;"
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "f) csoporttagok kezelése halaszthatatlan esetben."
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "69/B. Az ügyeletvezetők az EDR diszpécserállomáshoz kötődő hangrögzítő rendszert kötelesek használni."
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "69/C. Az EDR rádiókat úgy kell programozni, hogy az azokról kezdeményezett vészhívások a diszpécser terminálon előre meghatározott és beállított Ügyeleteshez rendelt vészhívó csoportra, a Pest MRFK TIK-jében egyéni hívásablakba fussanak be. A beállításnak alkalmasnak kell lennie a vészhívást kezdeményező EDR rádió mikrofonjának kihangosított és beszédváltó gomb használata nélküli működtetésre, ezáltal biztosítva az EDR rádió környezetébe történő behallgatás lehetőségét a TIK Ügyeletesek számára."
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "69/D. A TIK Ügyeletesek az EDR vészhívást irányított szektortól függetlenül kötelesek kezelni. Ennek során a környezetbe történő behallgatás végrehajtásával meg kell győződni a veszélyhelyzet fennállásáról. A diszpécserállomáson először nyugtázni kell a vészhívást, egyben fenn kell tartani a környezetbe történő behallgatást. Ha a TIK Ügyeletesek kétséget kizáróan meggyőződnek arról, hogy a vészhívás okán nincs szükség intézkedésre, bontják a kapcsolatot. A vészhívásokat minden esetben csak így lehet lezárni."
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "69/E. Abban az esetben, ha kétséget kizáróan nem állapítható meg a vészhívás valótlansága, a TIR térkép vagy EDR pozíció alapján vagy a szolgálatparancsnok közreműködésével meg kell határozni az egység tartózkodási helyét, egyben megerősítő erőt kell a helyszínre irányítani.”"
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "29. Az Ut. 75. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "„75. Az irányított állomány adatlekérdezés során – ha az rendelkezésére áll – köteles a mobil eszközt használni. Ebben az esetben az adatokat nem kell a TIK-en keresztül visszaellenőrizni, azonban a megtett intézkedéseket jelenteni kell a TIK részére. A mobil eszköz meghibásodása vagy használatának akadályoztatása esetén az irányított állomány köteles az EDR Prio rendszert alkalmazni. Ezek alól kivétel, ha az intézkedés körülményei vagy a lekérendő adatok, információk a közvetlen rádiókapcsolat szükségességét indokolják.”"
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "30. Az Ut. a következő 79/A. ponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s107",
+      "section": "107",
+      "title": "107",
+      "content": "„79/A. Az ORFK Főügyelet ügyeletvezetőjének feladatai:"
+    },
+    {
+      "provision_ref": "s108",
+      "section": "108",
+      "title": "108",
+      "content": "a) kapcsolatot tart az alárendelt ügyeletekkel, munkájukhoz szakmai irányítást, támogatást nyújt;"
+    },
+    {
+      "provision_ref": "s109",
+      "section": "109",
+      "title": "109",
+      "content": "b) elemzi, értékeli a jelentőszolgálat útján beérkezett jelentéseket, azokon elvégzi a szükséges módosításokat, illetve kiegészítéseket, a jelentési kötelezettség alá tartozó kiemelt eseményekről igény szerint kivonatot készít, és továbbítja az érintett vezető részére;"
+    },
+    {
+      "provision_ref": "s110",
+      "section": "110",
+      "title": "110",
+      "content": "c) figyelemmel kíséri a folyamatban lévő és további jelentési kötelezettség alá tartozó eseményeket, szükség esetén gondoskodik a háttéranyagok beszerzéséről;"
+    },
+    {
+      "provision_ref": "s111",
+      "section": "111",
+      "title": "111",
+      "content": "d) közreműködik a BRFK NJ-t is tartalmazó Napi Tájékoztató Jelentés (a továbbiakban: NTJ) elkészítésében, gondoskodik annak továbbításáról;"
+    },
+    {
+      "provision_ref": "s112",
+      "section": "112",
+      "title": "112",
+      "content": "e) a jelentőszolgálati normában előírtaknak megfelelően teljesíti a jelentési, tájékoztatási kötelezettségét;"
+    },
+    {
+      "provision_ref": "s113",
+      "section": "113",
+      "title": "113",
+      "content": "f) országos szinten naprakész nyilvántartást vezet a megyei fogdák, őrzött szállások férőhelyeinek számáról, szükség esetén információt nyújt a szabad férőhelyekről, dönt az esetleges átcsoportosításokról;"
+    },
+    {
+      "provision_ref": "s114",
+      "section": "114",
+      "title": "114",
+      "content": "g) folyamatosan figyelemmel kíséri a Marathon Terra rendszert, amely segítségével kezeli a társszervektől beérkező üzeneteket;"
+    },
+    {
+      "provision_ref": "s115",
+      "section": "115",
+      "title": "115",
+      "content": "h) folyamatosan figyelemmel kíséri a Marathon Terra rendszerbe integrált Polgári Veszélyhelyzeti Információs Rendszer informatikai felületét, és ellátja az alkalmazás üzemeltetésével kapcsolatosan meghatározott feladatokat;"
+    },
+    {
+      "provision_ref": "s116",
+      "section": "116",
+      "title": "116",
+      "content": "i) figyelemmel kíséri a hazánkban tartózkodó külföldi katonák (SFOR, KFOR erők) vonulását, valamint az idegenrendészeti eljárás alá vont személyek szállítását;"
+    },
+    {
+      "provision_ref": "s117",
+      "section": "117",
+      "title": "117",
+      "content": "j) szükség esetén helyettesíti a Nemzeti Koordinációs Központ ügyeletvezetőjét;"
+    },
+    {
+      "provision_ref": "s118",
+      "section": "118",
+      "title": "118",
+      "content": "k) végrehajtja a különleges jogrendre vonatkozó tervekben a részére meghatározott feladatokat;"
+    },
+    {
+      "provision_ref": "s119",
+      "section": "119",
+      "title": "119",
+      "content": "l) több MRFK-t érintő, irányítást igénylő esemény során az EDR kommunikációban használandó csoportot kijelöli, és az azon történő forgalmazást figyelemmel kíséri.”"
+    },
+    {
+      "provision_ref": "s120",
+      "section": "120",
+      "title": "120",
+      "content": "31. Az Ut. 88. pontjának nyitó szövegrésze helyébe a következő szöveg lép:"
+    },
+    {
+      "provision_ref": "s121",
+      "section": "121",
+      "title": "121",
+      "content": "„88. A helyi szervek vezetői az ügyeleteik vagy szolgálatparancsnokaik útján, valamint az MRFK-k szervezeti elemeinek vezetői a TIK-nek, a TIK, valamint a 4. pont b)–c) alpontjaiban szereplő ügyeleti szolgálatok – tekintet nélkül arra, hogy előzetesen szóban már jelentettek az ORFK hatáskörrel rendelkező vezetőjének – az ORFK Főügyeletnek jelentik”"
+    },
+    {
+      "provision_ref": "s122",
+      "section": "122",
+      "title": "122",
+      "content": "32. Az Ut. a következő 88/A. ponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s123",
+      "section": "123",
+      "title": "123",
+      "content": "„88/A. Az ORFK Főügyeletnek tett jelentéssel egyidejűleg a TIK (a TIK főügyeletesének bevonásával) az MRFK, a 4. pont b)–c) alpontjában szereplő ügyeleti szolgálatok a KR, illetve az RRI hatáskör szerint érintett vezetőjének is jelentést tesz.”"
+    },
+    {
+      "provision_ref": "s124",
+      "section": "124",
+      "title": "124",
+      "content": "33. Az Ut. 89. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s125",
+      "section": "125",
+      "title": "125",
+      "content": "„89. A 88. pont a) alpontjában foglaltaknak megfelelően a „K” eseményről készített összefoglaló jelentést az esemény tudomásra jutását követően írásban soron kívül, de legkésőbb 8 órán belül a Robotzsaru, illetve a Netzsaru rendszerben továbbítani kell.”"
+    },
+    {
+      "provision_ref": "s126",
+      "section": "126",
+      "title": "126",
+      "content": "34. Az Ut. 91. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s127",
+      "section": "127",
+      "title": "127",
+      "content": "„91. A TIK a 90. pontban meghatározott kötelezettségét az esemény tudomásra jutását követően, legkésőbb 24 órán belül a 4. mellékletben szereplő adatlap kitöltésével teljesíti. Az adatlapot e-mailben küldi meg a Külgazdasági és Külügyminisztérium Konzuli Főosztálya által összeállított adatbázisban szereplő címre. A kitöltött és megküldött adatlapokat a TIK (fő)osztályvezetője külön iktatószám alatt, az iratkezelésre vonatkozó szabályok szerint kezeli.”"
+    },
+    {
+      "provision_ref": "s128",
+      "section": "128",
+      "title": "128",
+      "content": "35. Az Ut. 100. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s129",
+      "section": "129",
+      "title": "129",
+      "content": "„100. Az 1. melléklet 1–5., 12., 19., 30. A., 31. A., 32. A., 33. B., 39., 43., 44. B–C., 44. E., 68., 69. A–B., 72., 76. A., 87. B., 97. A. pontjában meghatározott eseményeket az ORFK Főügyelet soron kívül szóban, majd elektronikus levélben vagy rövid szöveges üzenetben az illetékes vezetőnek, az 1. melléklet 106. pont j) alpontjában meghatározott gépjárművek eltulajdonításával kapcsolatos statisztikai adatokat az érintett területi szintű szerv megjelölésével, összesítve minden nap 4.00 óráig elektronikus levélben az ORFK Bűnügyi Főigazgatóság Bűnügyi Főosztály, az ORFK Rendészeti Főigazgatóság Ügyeleti Főosztály és az ORFK Főügyelet vezetőjének jelenti.”"
+    },
+    {
+      "provision_ref": "s130",
+      "section": "130",
+      "title": "130",
+      "content": "36. Az Ut. a következő 106/A. ponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s131",
+      "section": "131",
+      "title": "131",
+      "content": "„106/A. A TIK funkcionális e-mail címére érkező és onnan küldött elektronikus levelek archiválását és legalább 60 napig történő tárolását felhasználótól és a számítógépes munkaállomásoktól független módon automatikusan, az informatikai rendszer hálózati meghajtóján kell megoldani. Az így tárolt elektronikus levelek törléséről a TIK (fő)osztályvezetői és helyettesei vagy azok elöljárói jogosultak dönteni.”"
+    },
+    {
+      "provision_ref": "s132",
+      "section": "132",
+      "title": "132",
+      "content": "37. Az Ut. 107. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s133",
+      "section": "133",
+      "title": "133",
+      "content": "„107. Az autópályák, autóutak és főutak használatáért fizetendő, megtett úttal arányos díj megfizetésével kapcsolatos ellenőrzési kötelezettség keretén belül a TIK a 6. melléklet kitöltésével elektronikus levélben tájékoztatja a Nemzeti Útdíjfizetési Szolgáltató Zrt.-t, az útdíjköteles elemi útszakasz vagy útszakaszok lezárásáról, forgalmának eltereléséről, illetve a lezárás, elterelés megszüntetéséről. A kitöltött és megküldött adatlapokat a TIK osztályvezetője a tárgykört tartalmazó külön főszámon és annak alszámain iktatja, és az iratkezelésre vonatkozó szabályok szerint kezeli.”"
+    },
+    {
+      "provision_ref": "s134",
+      "section": "134",
+      "title": "134",
+      "content": "38. Az Ut. a következő 107/A–107/B. ponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s135",
+      "section": "135",
+      "title": "135",
+      "content": "„107/A. A TIK-ek az 1. mellékletben meghatározott összes „K” eseményről – az elsődleges intézkedések megtételét követően ellenőrzött információkat – az MRFK vezetőjének vagy az általa meghatározott személynek, illetve az ORFK Főügyeletnek jelentenek, majd ezt követően azokról tájékoztatják az MRFK sajtóügyeletét. Ezekről az eseményekről az ORFK Főügyelet az országos rendőrfőkapitánynak vagy az általa meghatározott személynek, illetve a BM Ügyeletnek történő jelentést követően köteles az ORFK Kommunikációs Szolgálat sajtóügyeletét tájékoztatni."
+    },
+    {
+      "provision_ref": "s136",
+      "section": "136",
+      "title": "136",
+      "content": "107/B. A TIK az ORFK Főügyeletnek jelenti, az MRFK sajtóügyeletét tájékoztatja, az ORFK Főügyelet az ORFK Kommunikációs Szolgálat sajtóügyeletét tájékoztatja az 1. melléklet 6. A., 7. A., 21., 22., 23., 25., ha azt határátkelőhelyen követik el, 31. M., 32. M., 33. C., 34. A., 40. A., 41. A., 51., 56., 57., 59., 60. B., 61. D., 84., 85., 95. B., 95. H., 99., 100., 102. és 103. pontjában lévő „R” eseményekről.”"
+    },
+    {
+      "provision_ref": "s137",
+      "section": "137",
+      "title": "137",
+      "content": "39. Az Ut. II. fejezet 17. alcím címének helyébe a következő cím lép:"
+    },
+    {
+      "provision_ref": "s138",
+      "section": "138",
+      "title": "138",
+      "content": "„17. A TIK-ben és az ügyeleti szolgálatokon használt nyilvántartások, alkalmazások”"
+    },
+    {
+      "provision_ref": "s139",
+      "section": "139",
+      "title": "139",
+      "content": "40. Az Ut. 123–125. pontja helyébe a következő rendelkezések lépnek:"
+    },
+    {
+      "provision_ref": "s140",
+      "section": "140",
+      "title": "140",
+      "content": "„123. A TIK és az ügyeleti szolgálatok az elektronikus nyilvántartásokat a Robotzsaru rendszerben és a TIR-ben rögzítik."
+    },
+    {
+      "provision_ref": "s141",
+      "section": "141",
+      "title": "141",
+      "content": "124. A Robotzsaru rendszerben a szolgálatparancsnoki modultól elkülönítve rendszerezett alábbi alkalmazásokat egységesen kell vezetni, illetve használni:"
+    },
+    {
+      "provision_ref": "s142",
+      "section": "142",
+      "title": "142",
+      "content": "a) szolgálatátadás és ahhoz tartozó átadási jegyzék tételes és hiteles vezetése;"
+    },
+    {
+      "provision_ref": "s143",
+      "section": "143",
+      "title": "143",
+      "content": "b) ügyeleti jelentőrendszer;"
+    },
+    {
+      "provision_ref": "s144",
+      "section": "144",
+      "title": "144",
+      "content": "c) ügyeleti statisztika készítése;"
+    },
+    {
+      "provision_ref": "s145",
+      "section": "145",
+      "title": "145",
+      "content": "d) ügyeleti naplók és nyilvántartások megtekintése;"
+    },
+    {
+      "provision_ref": "s146",
+      "section": "146",
+      "title": "146",
+      "content": "e) gyors iktatószámadás;"
+    },
+    {
+      "provision_ref": "s147",
+      "section": "147",
+      "title": "147",
+      "content": "f) harcértékbekérés/-jelentés;"
+    },
+    {
+      "provision_ref": "s148",
+      "section": "148",
+      "title": "148",
+      "content": "g) hivatalos feljegyzés készítése."
+    },
+    {
+      "provision_ref": "s149",
+      "section": "149",
+      "title": "149",
+      "content": "125. A TIR menüben az alábbi alkalmazásokat és azok kiegészítő funkcióit kell egységesen használni:"
+    },
+    {
+      "provision_ref": "s150",
+      "section": "150",
+      "title": "150",
+      "content": "a) esetirányítással összefüggésben"
+    },
+    {
+      "provision_ref": "s151",
+      "section": "151",
+      "title": "151",
+      "content": "aa) szükség esetén új bejelentés rögzítése,"
+    },
+    {
+      "provision_ref": "s152",
+      "section": "152",
+      "title": "152",
+      "content": "ab) HIK-ből érkező adatlap átvétele,"
+    },
+    {
+      "provision_ref": "s153",
+      "section": "153",
+      "title": "153",
+      "content": "ac) adatlap kezelése (esetté minősítés, beavatkozást nem igényel, intézkedést nem igényel, sztornó),"
+    },
+    {
+      "provision_ref": "s154",
+      "section": "154",
+      "title": "154",
+      "content": "ad) rádióforgalmazási kód meghatározása,"
+    },
+    {
+      "provision_ref": "s155",
+      "section": "155",
+      "title": "155",
+      "content": "ae) a küldéshez egységek hozzárendelése és azok nyomon követése (státuszok állítása),"
+    },
+    {
+      "provision_ref": "s156",
+      "section": "156",
+      "title": "156",
+      "content": "af) az eset minősítése, intézkedés rögzítése és lezárás,"
+    },
+    {
+      "provision_ref": "s157",
+      "section": "157",
+      "title": "157",
+      "content": "ag) szükség esetén a TIR Esetirányítás térképen GPS koordináta használatával történő geokódolás;"
+    },
+    {
+      "provision_ref": "s158",
+      "section": "158",
+      "title": "158",
+      "content": "b) egységkövetés új ablakban"
+    },
+    {
+      "provision_ref": "s159",
+      "section": "159",
+      "title": "159",
+      "content": "ba) a TIR térképen az egységek helyzetének és státuszainak folyamatos nyomon követése; szükség esetén a státuszok állítása,"
+    },
+    {
+      "provision_ref": "s160",
+      "section": "160",
+      "title": "160",
+      "content": "bb) járőrkörzet-elhagyások kezelése,"
+    },
+    {
+      "provision_ref": "s161",
+      "section": "161",
+      "title": "161",
+      "content": "bc) térképi funkciók széles körű, szükség szerinti használata,"
+    },
+    {
+      "provision_ref": "s162",
+      "section": "162",
+      "title": "162",
+      "content": "bd) térképi objektumok rögzítése a meghatározott feladatok alapján.”"
+    },
+    {
+      "provision_ref": "s163",
+      "section": "163",
+      "title": "163",
+      "content": "41. Az Ut. 128. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s164",
+      "section": "164",
+      "title": "164",
+      "content": "„128. A TIR esetirányítási felületén a TIK Ügyeleteseknek minden bejelentést rögzíteni kell, függetlenül attól, hogy az milyen módon jutott tudomásukra.”"
+    },
+    {
+      "provision_ref": "s165",
+      "section": "165",
+      "title": "165",
+      "content": "42. Az Ut. 131. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s166",
+      "section": "166",
+      "title": "166",
+      "content": "„131. A 124. pont b) alpontjában meghatározott alkalmazásban jóváhagyott eseményeket a Robotzsaru rendszer automatikusan generálja az NJ-be, annak további szerkesztése az ügyeletvezető feladata.”"
+    },
+    {
+      "provision_ref": "s167",
+      "section": "167",
+      "title": "167",
+      "content": "43. Az Ut. a következő 133/A. ponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s168",
+      "section": "168",
+      "title": "168",
+      "content": "„133/A. Az alábbi nyilvántartásokhoz és alkalmazásokhoz a TIK Ügyeleteseknek belépési jogosultságot kell adni:"
+    },
+    {
+      "provision_ref": "s169",
+      "section": "169",
+      "title": "169",
+      "content": "a) Hermon Körözési Információs Rendszer (KIR);"
+    },
+    {
+      "provision_ref": "s170",
+      "section": "170",
+      "title": "170",
+      "content": "b) Közigazgatási és Elektronikus Közszolgáltatások Központi Hivatala (KEKKH) Integrált Portál-alapú Lekérdező rendszer (IPL), ezen belül:"
+    },
+    {
+      "provision_ref": "s171",
+      "section": "171",
+      "title": "171",
+      "content": "ba) személy- és lakcímnyilvántartás,"
+    },
+    {
+      "provision_ref": "s172",
+      "section": "172",
+      "title": "172",
+      "content": "bb) úti okmány és személyazonosító okmány lekérdezés,"
+    },
+    {
+      "provision_ref": "s173",
+      "section": "173",
+      "title": "173",
+      "content": "bc) vezetői engedély nyilvántartás,"
+    },
+    {
+      "provision_ref": "s174",
+      "section": "174",
+      "title": "174",
+      "content": "bd) bűnügyi nyilvántartás,"
+    },
+    {
+      "provision_ref": "s175",
+      "section": "175",
+      "title": "175",
+      "content": "be) idegenrendészeti nyilvántartás,"
+    },
+    {
+      "provision_ref": "s176",
+      "section": "176",
+      "title": "176",
+      "content": "bf) járműnyilvántartás (ezen belül a Prümi Egyezmény alapján létrehozott alkalmazás);"
+    },
+    {
+      "provision_ref": "s177",
+      "section": "177",
+      "title": "177",
+      "content": "c) Nemzeti Komplex Okmány-nyilvántartó rendszer (NEKOR);"
+    },
+    {
+      "provision_ref": "s178",
+      "section": "178",
+      "title": "178",
+      "content": "d) Határellenőrző és Regisztrációs Rendszer (HERR);"
+    },
+    {
+      "provision_ref": "s179",
+      "section": "179",
+      "title": "179",
+      "content": "e) ORFK Központi Rendszer, ezen belül:"
+    },
+    {
+      "provision_ref": "s180",
+      "section": "180",
+      "title": "180",
+      "content": "ea) Fegyver lekérdező,"
+    },
+    {
+      "provision_ref": "s181",
+      "section": "181",
+      "title": "181",
+      "content": "eb) EU Lőfegyvertartási Nyilvántartás,"
+    },
+    {
+      "provision_ref": "s182",
+      "section": "182",
+      "title": "182",
+      "content": "ec) Gáz-, riasztófegyver Nyilvántartás,"
+    },
+    {
+      "provision_ref": "s183",
+      "section": "183",
+      "title": "183",
+      "content": "ed) Flóbert Nyilvántartás,"
+    },
+    {
+      "provision_ref": "s184",
+      "section": "184",
+      "title": "184",
+      "content": "ee) Jogi személy tartási engedély Nyilvántartás,"
+    },
+    {
+      "provision_ref": "s185",
+      "section": "185",
+      "title": "185",
+      "content": "ef) Lőfegyver-kereső engedély Nyilvántartás;"
+    },
+    {
+      "provision_ref": "s186",
+      "section": "186",
+      "title": "186",
+      "content": "f) Robotzsaru rendszer (a munkakörhöz szükséges jogosultságok);"
+    },
+    {
+      "provision_ref": "s187",
+      "section": "187",
+      "title": "187",
+      "content": "g) Netzsaru rendszer.”"
+    },
+    {
+      "provision_ref": "s188",
+      "section": "188",
+      "title": "188",
+      "content": "44. Az Ut. 134. pontja a következő d) alponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s189",
+      "section": "189",
+      "title": "189",
+      "content": "(134. A TIK-ben az alábbi főnyilvántartó számmal ellátott nyomtatványokat kell vezetni:)"
+    },
+    {
+      "provision_ref": "s190",
+      "section": "190",
+      "title": "190",
+      "content": "„d) egyéb szervek által bejelentett megkülönböztető jelzés használatának nyilvántartása.”"
+    },
+    {
+      "provision_ref": "s191",
+      "section": "191",
+      "title": "191",
+      "content": "45. Az Ut. a következő 134/A. ponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s192",
+      "section": "192",
+      "title": "192",
+      "content": "„134/A. Azokban a TIK-ekben, ahol a telefax útján érkező küldemények fogadása és küldése során a címzettnek történő nyomon követhető továbbítása a 106/A. pontban meghatározott módon a TIK funkcionális e-mail címére átirányítva megvalósítható, a 134. pont c) alpontjában rögzített nyilvántartás vezetésétől el lehet tekinteni.”"
+    },
+    {
+      "provision_ref": "s193",
+      "section": "193",
+      "title": "193",
+      "content": "46. Az Ut. 139. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s194",
+      "section": "194",
+      "title": "194",
+      "content": "„139. A TIK-ben tárolt nyilvántartásokat az iratkezelésre vonatkozó szabályok szerint kell kezelni. Az 1. pont f) és g) alpontjában megjelölt szervek a TIK-ben tárolandó nem minősített iratokat, terveket elektronikus úton, szkennelt formában soron kívül megküldik a TIK részére. Ezek a nyílt iratok, tervek elsősorban:"
+    },
+    {
+      "provision_ref": "s195",
+      "section": "195",
+      "title": "195",
+      "content": "a) értesítési terv;"
+    },
+    {
+      "provision_ref": "s196",
+      "section": "196",
+      "title": "196",
+      "content": "b) veszélyelhárítási feladatterv;"
+    },
+    {
+      "provision_ref": "s197",
+      "section": "197",
+      "title": "197",
+      "content": "c) autópálya és kiemelt főközlekedési út terelési terve;"
+    },
+    {
+      "provision_ref": "s198",
+      "section": "198",
+      "title": "198",
+      "content": "d) tűzriadó terv;"
+    },
+    {
+      "provision_ref": "s199",
+      "section": "199",
+      "title": "199",
+      "content": "e) járőrútirány és körzetleírás;"
+    },
+    {
+      "provision_ref": "s200",
+      "section": "200",
+      "title": "200",
+      "content": "f) körzeti megbízottak illetékességi területeit és elérhetőségeit tartalmazó irat.”"
+    },
+    {
+      "provision_ref": "s201",
+      "section": "201",
+      "title": "201",
+      "content": "47. Az Ut. 147. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s202",
+      "section": "202",
+      "title": "202",
+      "content": "„147. A HIK-ben a munka törvénykönyve hatálya alá tartozó munkavállalóként műszakvezető supervisorok (a továbbiakban: műszakvezető), csoportvezető supervisorok (a továbbiakban: csoportvezető) és 112-es hívásfogadó operátorok (a továbbiakban: hívásfogadók) látnak el híváskezelési, hívástovábbítási feladatokat.”"
+    },
+    {
+      "provision_ref": "s203",
+      "section": "203",
+      "title": "203",
+      "content": "48. Az Ut. 149. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s204",
+      "section": "204",
+      "title": "204",
+      "content": "„149. A műszakvezetők, a csoportvezetők és a hívásfogadók munkaidőkeret alkalmazásával, több műszakos munkarendben teljesítik szolgálatukat.”"
+    },
+    {
+      "provision_ref": "s205",
+      "section": "205",
+      "title": "205",
+      "content": "49. Az Ut. 151. pont b) alpontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s206",
+      "section": "206",
+      "title": "206",
+      "content": "(A HIK elsődleges feladata:)"
+    },
+    {
+      "provision_ref": "s207",
+      "section": "207",
+      "title": "207",
+      "content": "„b) a segélyhívás alapján – szükség esetén az élőhang továbbkapcsolásával, az elektronikus adatlap továbbításával vagy egyéb elektronikus, infokommunikációs úton – a bejelentés közvetítése a Rendőrség, a mentők és a katasztrófavédelmi szervek (a továbbiakban együtt: készenléti szervek) felé;”"
+    },
+    {
+      "provision_ref": "s208",
+      "section": "208",
+      "title": "208",
+      "content": "50. Az Ut. a következő 151/A. ponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s209",
+      "section": "209",
+      "title": "209",
+      "content": "„151/A. A TIK és a HIK (fő)osztályvezetői havi rendszerességgel értékelik a szakmai tapasztalatokat. Az értékelő jelentéseket a tárgyhónapot követő hónap 10-éig az ORFK Ügyeleti Főosztály vezetőjének elektronikus levélben terjesztik fel.”"
+    },
+    {
+      "provision_ref": "s210",
+      "section": "210",
+      "title": "210",
+      "content": "51. Az Ut. 152. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s211",
+      "section": "211",
+      "title": "211",
+      "content": "„152. A HIK a TIK-kel, a hivatásos katasztrófavédelmi szerv műveletirányító ügyeleteivel, valamint a mentők mentésirányítási központjaival együttműködve látja el feladatát.”"
+    },
+    {
+      "provision_ref": "s212",
+      "section": "212",
+      "title": "212",
+      "content": "52. Az Ut. a következő 154/A–154/C. ponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s213",
+      "section": "213",
+      "title": "213",
+      "content": "„154/A. A TIK tudomására jutott kiemelt biztonsági kockázattal járó rendezvényekről, útlezárásokról, terelésekről a tudomásra jutást követően soron kívül mobiltelefonon tájékoztatni kell a HIK szolgálatban lévő műszakvezetőjét."
+    },
+    {
+      "provision_ref": "s214",
+      "section": "214",
+      "title": "214",
+      "content": "154/B. A TIK részéről elsősorban a TIK ügyeletvezetője tarthatja a kapcsolatot a HIK szolgálatban lévő műszakvezetőjével."
+    },
+    {
+      "provision_ref": "s215",
+      "section": "215",
+      "title": "215",
+      "content": "154/C. Konkrét bejelentéssel kapcsolatos információcsere esetén a hívásfogadó és a bejelentést kezelő ügyeletes a TIR-ben erre a célra kialakított chatfelületet használhat.”"
+    },
+    {
+      "provision_ref": "s216",
+      "section": "216",
+      "title": "216",
+      "content": "53. Az Ut. 156. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s217",
+      "section": "217",
+      "title": "217",
+      "content": "„156. Az azonnalos intézkedést igénylő segélyhívásokat a HIK késedelem nélkül átkapcsolja az illetékes TIK-be, elsősorban az SOS-számra.”"
+    },
+    {
+      "provision_ref": "s218",
+      "section": "218",
+      "title": "218",
+      "content": "54. Az Ut. 157. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s219",
+      "section": "219",
+      "title": "219",
+      "content": "„157. A HIK-ben intézkedő hívásfogadónak meg kell győződnie a továbbkapcsolás eredményességéről, és csak ez után léphet ki a beszélgetésből.”"
+    },
+    {
+      "provision_ref": "s220",
+      "section": "220",
+      "title": "220",
+      "content": "55. Az Ut. II. fejezet 21. alcím címének helyébe a következő cím lép:"
+    },
+    {
+      "provision_ref": "s221",
+      "section": "221",
+      "title": "221",
+      "content": "„21. A HIK műszakvezetőjének jogköre, feladata”"
+    },
+    {
+      "provision_ref": "s222",
+      "section": "222",
+      "title": "222",
+      "content": "56. Az Ut. II. fejezet 22. alcím címének helyébe a következő cím lép:"
+    },
+    {
+      "provision_ref": "s223",
+      "section": "223",
+      "title": "223",
+      "content": "„22. A HIK csoportvezetőjének jogköre, feladata”"
+    },
+    {
+      "provision_ref": "s224",
+      "section": "224",
+      "title": "224",
+      "content": "57. Az Ut. II. fejezet 23. alcím címének helyébe a következő cím lép:"
+    },
+    {
+      "provision_ref": "s225",
+      "section": "225",
+      "title": "225",
+      "content": "„23. A HIK hívásfogadójának jogköre, feladatai”"
+    },
+    {
+      "provision_ref": "s226",
+      "section": "226",
+      "title": "226",
+      "content": "58. Az Ut. 165–166. pontja helyébe a következő rendelkezések lépnek:"
+    },
+    {
+      "provision_ref": "s227",
+      "section": "227",
+      "title": "227",
+      "content": "„165. A HIK hívásfogadója a csoportvezető szakmai irányítása mellett önállóan látja el feladatát."
+    },
+    {
+      "provision_ref": "s228",
+      "section": "228",
+      "title": "228",
+      "content": "166. A HIK hívásfogadója"
+    },
+    {
+      "provision_ref": "s229",
+      "section": "229",
+      "title": "229",
+      "content": "a) a napszaknak megfelelően köszön, majd a „Segélyhívó központ. Miben segíthetek?” egységes operátori bejelentkezést alkalmazza;"
+    },
+    {
+      "provision_ref": "s230",
+      "section": "230",
+      "title": "230",
+      "content": "b) fogadja és kezeli a 112-es egységes európai segélyhívó és a nemzeti segélyhívó számokra érkező, valamint az egyéb kommunikációs csatornákon bejövő hívásokat;"
+    },
+    {
+      "provision_ref": "s231",
+      "section": "231",
+      "title": "231",
+      "content": "c) a HIR segítségével meghatározza:"
+    },
+    {
+      "provision_ref": "s232",
+      "section": "232",
+      "title": "232",
+      "content": "ca) a segélyhívás kezdeményezőjének földrajzi helyét,"
+    },
+    {
+      "provision_ref": "s233",
+      "section": "233",
+      "title": "233",
+      "content": "cb) a bejelentéshez használt kommunikációs eszköz hívószámát,"
+    },
+    {
+      "provision_ref": "s234",
+      "section": "234",
+      "title": "234",
+      "content": "cc) a segélyhívás időpontját;"
+    },
+    {
+      "provision_ref": "s235",
+      "section": "235",
+      "title": "235",
+      "content": "d) kikérdezi a bejelentőt, és a kapott információkat az elektronikus adatlapon és térképi felületen rögzíti;"
+    },
+    {
+      "provision_ref": "s236",
+      "section": "236",
+      "title": "236",
+      "content": "e) ha lehetséges, a segélyhívás fogadása során megállapítja és rögzíti:"
+    },
+    {
+      "provision_ref": "s237",
+      "section": "237",
+      "title": "237",
+      "content": "ea) a bejelentő személyes adatait,"
+    },
+    {
+      "provision_ref": "s238",
+      "section": "238",
+      "title": "238",
+      "content": "eb) a segélyhívás alapjául szolgáló vészhelyzet vagy esemény földrajzi helyét,"
+    },
+    {
+      "provision_ref": "s239",
+      "section": "239",
+      "title": "239",
+      "content": "ec) a segélyhívás alapjául szolgáló vészhelyzet vagy esemény leírását,"
+    },
+    {
+      "provision_ref": "s240",
+      "section": "240",
+      "title": "240",
+      "content": "ed) a kikérdezés során ismertté vált egyéb szükséges információkat és adatokat;"
+    },
+    {
+      "provision_ref": "s241",
+      "section": "241",
+      "title": "241",
+      "content": "f) értékeli a segélyhívásokat, és ennek alapján:"
+    },
+    {
+      "provision_ref": "s242",
+      "section": "242",
+      "title": "242",
+      "content": "fa) felvilágosítást ad,"
+    },
+    {
+      "provision_ref": "s243",
+      "section": "243",
+      "title": "243",
+      "content": "fb) kiszűri a zaklató hívásokat,"
+    },
+    {
+      "provision_ref": "s244",
+      "section": "244",
+      "title": "244",
+      "content": "fc) ha a segélyhívás készenléti szerv intézkedését teszi szükségessé, továbbítja az elektronikus adatlapot, valamint szükség esetén haladéktalanul továbbkapcsolja a segélyhívást a hatáskörrel rendelkező készenléti szervnek,"
+    },
+    {
+      "provision_ref": "s245",
+      "section": "245",
+      "title": "245",
+      "content": "fd) ha a segélyhívás a készenléti szerveken kívüli közmű-üzemeltető, hatóság, hivatalos szerv vagy szervezet helyszíni intézkedését teszi szükségessé, gondoskodik a tudásbázis felhasználásával a szervek értesítéséről;"
+    },
+    {
+      "provision_ref": "s246",
+      "section": "246",
+      "title": "246",
+      "content": "g) a rosszindulatú hívások kiszűrése érdekében intézkedik a hívó fél azonosítására;"
+    },
+    {
+      "provision_ref": "s247",
+      "section": "247",
+      "title": "247",
+      "content": "h) kapcsolatot tart a készenléti szervek, közmű-üzemeltetők vagy készenléti szerveken kívüli hatóságok, hivatalos szervek vagy szervezetek azonos beosztású munkatársaival;"
+    },
+    {
+      "provision_ref": "s248",
+      "section": "248",
+      "title": "248",
+      "content": "i) a segélyhívó számok rendeltetéstől eltérő igénybevétele szabálysértési tényállás megvalósulása esetén csoportvezetőjén és műszakvezetőjén keresztül kezdeményezi a szabálysértési eljárás lefolytatását;"
+    },
+    {
+      "provision_ref": "s249",
+      "section": "249",
+      "title": "249",
+      "content": "j) köteles az elektronikus adatlapon a bejelentéssel kapcsolatos esemény helyszínét a HIR-ben pontosan azonosítani (geokódolás) annak érdekében, hogy a TIK, illetve a küldendő egység a mobil eszközön valós címet lásson.”"
+    },
+    {
+      "provision_ref": "s250",
+      "section": "250",
+      "title": "250",
+      "content": "59. Az Ut. a következő 171/A. ponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s251",
+      "section": "251",
+      "title": "251",
+      "content": "„171/A. A HIK-ek és a TIK-ek (fő)osztályvezetői a HIK-ek hívásfogadói és a TIK-ek tevékenység-irányítói munkáját érintően hozzájuk érkezett állampolgári panaszok, közérdekű bejelentések számáról – az előző hónapra vonatkozóan – minden hónap 5-éig kizárólag elektronikus levélben jelentést terjesztenek fel az ORFK Ügyeleti Főosztály vezetőjének. A jelentés táblázatos formában tartalmazza göngyölítve az állampolgári panaszok, közérdekű bejelentések számát, illetve ebből a megalapozottak számát, valamint az adott hónapban érkezett és az abból megalapozottak számát, továbbá az adott hónapban megalapozottak okát és a tett intézkedések rövid leírását.”"
+    },
+    {
+      "provision_ref": "s252",
+      "section": "252",
+      "title": "252",
+      "content": "60. Az Ut. 1. melléklet 60. pontjának nyitó szövegrésze helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s253",
+      "section": "253",
+      "title": "253",
+      "content": "„60. Közúti közlekedési balesetet (autópályán történt közlekedési baleset esetén, ha teljes vagy részleges útlezárás, forgalomelterelés történt, akkor azzal kapcsolatos információkat is), ha:”"
+    },
+    {
+      "provision_ref": "s254",
+      "section": "254",
+      "title": "254",
+      "content": "61. Az Ut. 1. melléklet 95. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s255",
+      "section": "255",
+      "title": "255",
+      "content": "„95. Jelentésköteles egyéb eseményeket:"
+    },
+    {
+      "provision_ref": "s256",
+      "section": "256",
+      "title": "256",
+      "content": "95. A. Kettő vagy több személy egyazon időben és helyen szenvedett vízbefulladásos balesete,"
+    },
+    {
+      "provision_ref": "s257",
+      "section": "257",
+      "title": "257",
+      "content": "95. B. Egyéb vízbefulladásos balesetek,"
+    },
+    {
+      "provision_ref": "s258",
+      "section": "258",
+      "title": "258",
+      "content": "95. C. Kihűléses halálesetek (fagyhalál),"
+    },
+    {
+      "provision_ref": "s259",
+      "section": "259",
+      "title": "259",
+      "content": "95. D. Eltűnési ügyekben, ha az eltűnés 10 éves kor alatti gyermeket érint, vagy az elsődleges adatok alapján bűncselekmény potenciális áldozataként szóba jöhető kiskorú,"
+    },
+    {
+      "provision_ref": "s260",
+      "section": "260",
+      "title": "260",
+      "content": "95. E. Az eltűnt gyermekkorú ön- és közveszélyes, elmebeteg, vagy az eltűnt gyermeket vagy fiatalkorút vélhetően elmebeteg vagy beteges hajlamú személy csalta el, vitte magával, vagy az eltűnés összes körülménye arra utal, hogy az eltűnt személy fokozott veszélyhelyzetben van,"
+    },
+    {
+      "provision_ref": "s261",
+      "section": "261",
+      "title": "261",
+      "content": "95. F. A rendkívüli halált, kivéve jelen mellékletben már felsorolt eseményeket, valamint az öngyilkosságot, ha annak ténye vagy körülménye várhatóan nem vált ki számottevő közérdeklődést,"
+    },
+    {
+      "provision_ref": "s262",
+      "section": "262",
+      "title": "262",
+      "content": "95. G. Díjkitűzések elrendelését és visszavonását (díjkitűzések elrendelésével és visszavonásával kapcsolatos minden ismert adatot),"
+    },
+    {
+      "provision_ref": "s263",
+      "section": "263",
+      "title": "263",
+      "content": "95. H. Autópályán történt teljes vagy részleges útlezárást, forgalomelterelést, ha az útlezárás vagy forgalomelterelés oka nem az 1. melléklet 60. pontjában felsorolt (halálos baleset, tömegszerencsétlenség vagy gépjárművek tömeges ütközése) események egyike."
+    },
+    {
+      "provision_ref": "s264",
+      "section": "264",
+      "title": "264",
+      "content": "95 A „K” Kettő vagy több személy egyazon időben és helyen bekövetkezett vízbefulladásos balesete"
+    },
+    {
+      "provision_ref": "s265",
+      "section": "265",
+      "title": "265",
+      "content": "95 B „R” Egyéb vízbefulladásos balesetek"
+    },
+    {
+      "provision_ref": "s266",
+      "section": "266",
+      "title": "266",
+      "content": "95 C „R” Kihűléses halálesetek (fagyhalál)"
+    },
+    {
+      "provision_ref": "s267",
+      "section": "267",
+      "title": "267",
+      "content": "95 D „K” Kiemelt eltűnések"
+    },
+    {
+      "provision_ref": "s268",
+      "section": "268",
+      "title": "268",
+      "content": "95 E „R” Eltűnések"
+    },
+    {
+      "provision_ref": "s269",
+      "section": "269",
+      "title": "269",
+      "content": "95 F „K” Rendkívüli halálesetek"
+    },
+    {
+      "provision_ref": "s270",
+      "section": "270",
+      "title": "270",
+      "content": "95 G „R” Díjkitűzések elrendelése és visszavonása"
+    },
+    {
+      "provision_ref": "s271",
+      "section": "271",
+      "title": "271",
+      "content": "95 H „K” Autópályán történt teljes vagy részleges útlezárás, forgalomelterelés (halálos baleset, tömegszerencsétlenség vagy gépjárművek tömeges ütközése kivételével)”"
+    },
+    {
+      "provision_ref": "s272",
+      "section": "272",
+      "title": "272",
+      "content": "62. Az Ut. 1. melléklet 106. pont j) alpontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s273",
+      "section": "273",
+      "title": "273",
+      "content": "„j) az elmúlt 24 órában eltulajdonított gépjárművek számát, az esemény helyszínét, az esemény időpontját, a bejelentés időpontját, az eltulajdonított gépjármű gyártmányát, típusát, gyártási évét, színét, a forgalmi rendszámát, az eljáró hatóság megnevezését, illetve egyéb lényeges körülményt, valamint a gépjárműfeltörések számát;”"
+    },
+    {
+      "provision_ref": "s274",
+      "section": "274",
+      "title": "274",
+      "content": "63. Az Ut. 1. melléklet 106. pont második bekezdése helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s275",
+      "section": "275",
+      "title": "275",
+      "content": "„A c)–x) alpontokban szereplő adatokat a Robotzsaru rendszer automatikusan generálja, az a)–b), k) és y) alpontokban szereplő adatokat a TIK Ügyeletesek manuálisan rögzítik. Naponta – a 0.00 órától 24.00 óráig terjedő időszak eseményeit a 24.00 órai helyzetnek megfelelően – a helyi szerv a tárgynapot követő nap 1.00 óráig, a KR, az RRI és a TIK a tárgynapot követő nap 2.00 óráig számítógépes hálózaton vagy írásban az alábbiakat jelenti:”"
+    },
+    {
+      "provision_ref": "s276",
+      "section": "276",
+      "title": "276",
+      "content": "64. Az Ut. 1. melléklet 106. pontja az alábbi új k) alponttal egészül ki, egyben a k)–y) alpontok megjelölése l)–z)-re változik:"
+    },
+    {
+      "provision_ref": "s277",
+      "section": "277",
+      "title": "277",
+      "content": "„k) egyes egészséget veszélyeztető bűncselekmények kapcsán az elmúlt 24 órában elrendelt nyomozások száma kábítószer-kereskedelem, kábítószer birtoklása, kóros szenvedélykeltés, kábítószer készítésének elősegítése, kábítószer-prekurzorral visszaélés bűncselekményi bontásban.”"
+    },
+    {
+      "provision_ref": "s278",
+      "section": "278",
+      "title": "278",
+      "content": "65. Az Ut. 1. melléklet 107. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s279",
+      "section": "279",
+      "title": "279",
+      "content": "„107. A Nemzeti Koordinációs Központ által – az előző nap 0.00 órától 24.00 óráig terjedő időszak eseményeit összefoglaló – készített napi jelentés az alábbi adatokat tartalmazza:"
+    },
+    {
+      "provision_ref": "s280",
+      "section": "280",
+      "title": "280",
+      "content": "a) MRFK szerinti bontásban az elmúlt 24 órában a horvát, szerb, román, ukrán határszakaszra, a schengeni külső járattal rendelkező repülőtérre vonatkozó és az ország mélységében történt, az illegális migrációhoz kapcsolódó határrendészeti eseményeket [tiltott határátlépés (THS), embercsempészés], azok rövid leírását, az elkövetők létszámát, állampolgárságát, az elkövetés helyét, pontos idejét (zöldhatár, határátkelőhely, tranzit stb.), irányát (be/ki), elkövetés módszerét, intézkedő rendőri szerv megjelölését, egyéb megjegyzést;"
+    },
+    {
+      "provision_ref": "s281",
+      "section": "281",
+      "title": "281",
+      "content": "b) a külső határon történt emberkereskedelmet, lopott (körözött) gépjármű felfedését, a jelentős és különösen jelentős mennyiségű kábítószer birtoklását, kábítószer-kereskedelmet, 5 millió forint feletti értékre elkövetett jövedéki áruk csempészetét [költségvetési csalás, fegyver- vagy robbanóanyag-csempészés, -birtoklás, az esemény rövid leírásával (elkövetés helye és ideje, elkövetők száma, állampolgársága, elkövetés iránya)];"
+    },
+    {
+      "provision_ref": "s282",
+      "section": "282",
+      "title": "282",
+      "content": "c) az egyéb államhatárt érintő eseményeket, azok rövid leírásával (határforgalom jelentős korlátozása, akadályozása, szüneteltetése, az ellenőrzés rendjének megváltoztatása, visszaállítása, a más ország területén történt és a határforgalom ellenőrzését jelentősen befolyásoló vagy akadályozó esemény bekövetkezése vagy fennállása, a súlyosabb határrendsértés, az útiokmány tekintetében elkövetett közokirat-hamisítás, a határjel rongálása, áthelyezése, elmozdítása tekintetében);"
+    },
+    {
+      "provision_ref": "s283",
+      "section": "283",
+      "title": "283",
+      "content": "d) határátkelőhelyeken a határforgalomban történő legalább egyórás várakozásokat (vasúti határátkelőhely esetén 15 perc) alegység/határátkelőhely bontásban, a várakozás kezdő és befejező időpontja, iránya (be/ki), várakozási idő (perc) és oka, a várakozás forgalmi jellege (személy/teher) és a közúti határátkelőhelyen üzemelő sávok, rendelkezésre álló állomány számának jelölésével;"
+    },
+    {
+      "provision_ref": "s284",
+      "section": "284",
+      "title": "284",
+      "content": "e) a túltartózkodott személyek (THS szabálysértését be, belső határon elfogás ki) számát összesítve és határszakaszok, állampolgárság bontásban;"
+    },
+    {
+      "provision_ref": "s285",
+      "section": "285",
+      "title": "285",
+      "content": "f) határrendészeti eseményeket (tiltott határátlépés, embercsempészés, közokirat-hamisítás, túltartózkodás, egyéb) az elfogott, őrizetbe vett, valamint menekült kérelmet előterjesztő elkövetők száma szerinti bontásban;"
+    },
+    {
+      "provision_ref": "s286",
+      "section": "286",
+      "title": "286",
+      "content": "g) a bekövetkezett jogellenes cselekményeket állampolgárság szerint összesítve és határszakaszra, jogellenes cselekményre vonatkozó bontásban;"
+    },
+    {
+      "provision_ref": "s287",
+      "section": "287",
+      "title": "287",
+      "content": "h) folyamatban lévő eseményeket (jelentés készítése napján 0.00 és 7.00 óra között történt), az érintett szerv és szervezeti elem megjelölésével az esemény bekövetkezésének helyét, pontos idejét, az elkövetők létszámát, állampolgárságát;"
+    },
+    {
+      "provision_ref": "s288",
+      "section": "288",
+      "title": "288",
+      "content": "i) az őrzött szállások összesített létszámát az 5.00 órai állásnak megfelelően a férőhelyek, az összes fogvatartott és a szabad férőhelyek számának megjelölésével.”"
+    },
+    {
+      "provision_ref": "s289",
+      "section": "289",
+      "title": "289",
+      "content": "66. Az Ut. 3. melléklet 1. pont utolsó mondata helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s290",
+      "section": "290",
+      "title": "290",
+      "content": "„A TIK-ek és az ügyeleti szolgálatok az ORFK Főügyelet részére naponta a 20.00 órás helyzetnek megfelelően 22.00 óráig jelentik a különleges jogrend bevezetése vagy készenlétbe helyezés elrendelése esetén végrehajtott feladatokat.”"
+    },
+    {
+      "provision_ref": "s291",
+      "section": "291",
+      "title": "291",
+      "content": "67. Az Ut. az 1. melléklet szerinti 6. melléklettel egészül ki."
+    },
+    {
+      "provision_ref": "s292",
+      "section": "292",
+      "title": "292",
+      "content": "68. Az Ut."
+    },
+    {
+      "provision_ref": "s293",
+      "section": "293",
+      "title": "293",
+      "content": "a) 2. pont d) alpontjában és 67. pontjában a „segélyhívást fogadó operátor” szövegrész helyébe a „hívásfogadó” szöveg;"
+    },
+    {
+      "provision_ref": "s294",
+      "section": "294",
+      "title": "294",
+      "content": "b) 33. pontjában a „Robotzsaru NOVA Tevékenység-irányítási Rendszerben (a továbbiakban: TIR)” szövegrész helyébe a „TIR-ben” szöveg;"
+    },
+    {
+      "provision_ref": "s295",
+      "section": "295",
+      "title": "295",
+      "content": "c) 60. pontjában a „köteles” szövegrész helyébe a „kötelesek” szöveg;"
+    },
+    {
+      "provision_ref": "s296",
+      "section": "296",
+      "title": "296",
+      "content": "d) 81. pontjában a „Terrorelhárítási Központ (a továbbiakban: TEK)” szövegrész helyébe a „TEK” szöveg;"
+    },
+    {
+      "provision_ref": "s297",
+      "section": "297",
+      "title": "297",
+      "content": "e) 83. pontjában az „a BRFK NJ-t is tartalmazó Napi Tájékoztató Jelentést (a továbbiakban: NTJ)” szövegrész helyébe az „NTJ-t” szöveg;"
+    },
+    {
+      "provision_ref": "s298",
+      "section": "298",
+      "title": "298",
+      "content": "f) 97. pontjában a „helyi rendőri szervek” szövegrész helyébe a „helyi szervek” szöveg;"
+    },
+    {
+      "provision_ref": "s299",
+      "section": "299",
+      "title": "299",
+      "content": "g) 98. pontjában a „helyi rendőri szerv” szövegrész helyébe a „helyi szerv” szöveg;"
+    },
+    {
+      "provision_ref": "s300",
+      "section": "300",
+      "title": "300",
+      "content": "h) 160. pontjában a „műszakvezetője (supervisora)” szövegrész helyébe a „műszakvezetője” szöveg, a „csoportvezetői (supervisori)” szövegrész helyébe a „csoportvezetői” szöveg, a „112-es hívásfogadói (operátori)” szövegrész helyébe a „hívásfogadói” szöveg;"
+    },
+    {
+      "provision_ref": "s301",
+      "section": "301",
+      "title": "301",
+      "content": "i) 161. pontjának nyitó szövegrészében a „műszakvezetője (supervisora)” szövegrész helyébe a „műszakvezetője” szöveg, az a), b) és e) alpontjában a „csoportvezetők (supervisorok)” szövegrész helyébe a „csoportvezetők” szöveg, a „112-es hívásfogadók (operátorok)” szövegrész helyébe a „hívásfogadók” szöveg;"
+    },
+    {
+      "provision_ref": "s302",
+      "section": "302",
+      "title": "302",
+      "content": "j) 162. pontjában a „műszakvezetője (supervisora)” szövegrész helyébe a „műszakvezetője” szöveg;"
+    },
+    {
+      "provision_ref": "s303",
+      "section": "303",
+      "title": "303",
+      "content": "k) 163. pontjában a „csoportvezetője (supervisora)” szövegrész helyébe a „csoportvezetője” szöveg, a „112-es hívásfogadói (operátori)” szövegrész helyébe a „hívásfogadói” szöveg;"
+    },
+    {
+      "provision_ref": "s304",
+      "section": "304",
+      "title": "304",
+      "content": "l) 164. pontjának nyitó szövegrészében a „csoportvezetője (supervisora)” szövegrész helyébe a „csoportvezetője” szöveg, az a), b) és e) alpontjában a „112-es hívásfogadók (operátorok)” szövegrész helyébe a „hívásfogadók” szöveg, h) alpontjában a „112-es hívásfogadó (operátor)” szövegrész helyébe a „hívásfogadó” szöveg;"
+    },
+    {
+      "provision_ref": "s305",
+      "section": "305",
+      "title": "305",
+      "content": "m) 167. pontjában a „112-es hívásfogadó (operátor)” szövegrész helyébe a „hívásfogadó” szöveg;"
+    },
+    {
+      "provision_ref": "s306",
+      "section": "306",
+      "title": "306",
+      "content": "n) 170. pontjában az „uvio@orfk.police.hu” szövegrész helyébe az „ugyeletifo.orfk@orfk.police.hu” szöveg;"
+    },
+    {
+      "provision_ref": "s307",
+      "section": "307",
+      "title": "307",
+      "content": "o) 1. mellékletének 27. pontjában a „Terrorelhárítási Központ (a továbbiakban: TEK)” szövegrész helyébe a „TEK” szöveg;"
+    },
+    {
+      "provision_ref": "s308",
+      "section": "308",
+      "title": "308",
+      "content": "p) 1. mellékletének 33. pontjában a „33 C „R” Emberölés kísérlete” szövegrész helyébe a „33 C „K” Emberölés kísérlete” szöveg;"
+    },
+    {
+      "provision_ref": "s309",
+      "section": "309",
+      "title": "309",
+      "content": "q) 1. melléklete 106. pontjának első bekezdésében a „Készenléti Rendőrség (a továbbiakban: KR), a Repülőtéri Rendőr Igazgatóság (a továbbiakban: RRI) és megyei (fővárosi) rendőr-főkapitányságok (a továbbiakban: MRFK)” szövegrész helyébe a „KR, az RRI és az MRFK-k” szöveg"
+    },
+    {
+      "provision_ref": "s310",
+      "section": "310",
+      "title": "310",
+      "content": "lép."
+    },
+    {
+      "provision_ref": "s311",
+      "section": "311",
+      "title": "311",
+      "content": "69. A Magyar Köztársaság Rendőrségének Járőr- és Őrszolgálati Szabályzata kiadásáról szóló 22/1997. (XI. 18.) ORFK utasítás 82. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s312",
+      "section": "312",
+      "title": "312",
+      "content": "„82. A rendőri szerv állományának irányítása szempontjából kiemelt jelentőségű tervek és más okmányok egy példányát a szolgálatirányító parancsnoknál, valamint a TIK-ben vagy az ügyeleti szolgálaton is el kell helyezni, amelyek átadás-átvétel tárgyát képezik. A TIK-ben ezeket a terveket és okmányokat elektronikusan, szkennelt formában is lehet tárolni.”"
+    },
+    {
+      "provision_ref": "s313",
+      "section": "313",
+      "title": "313",
+      "content": "70. A rendőrségi gépjárművek megkülönböztető jelzéseinek használatáról, valamint a gépjárművek pszichológiai alkalmassági vizsgálatáról szóló 63/2007. (OT 34.) ORFK utasítás 14. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s314",
+      "section": "314",
+      "title": "314",
+      "content": "„14. Beszámoltatáskor a gépjárművezető köteles az engedélyező vagy utasítást adó elöljáróval, az ügyeletessel vagy a szolgálatparancsnokkal, a BRFK esetében a készenléti csoportvezetővel a megkülönböztető jelzés használatáról szóló bejegyzést láttamoztatni. A szolgálatparancsnok vagy a készenléti csoportvezető a láttamozást a Tevékenység-irányítási Központtal történt egyeztetést követően, annak egyetértésével vagy a Tevékenység-irányítási Rendszerben történt előzetes ellenőrzést követően teheti meg. Az indokolatlan használatot vagy az indokolatlan engedélyezést ki kell vizsgálni, és indokolt esetben fegyelmi eljárást kell kezdeményezni.”"
+    },
+    {
+      "provision_ref": "s315",
+      "section": "315",
+      "title": "315",
+      "content": "71. Ez az utasítás a közzétételét követő nyolcadik napon lép hatályba."
+    },
+    {
+      "provision_ref": "s316",
+      "section": "316",
+      "title": "316",
+      "content": "72. Ez az utasítás a hatálybalépését követő napon hatályát veszti."
+    },
+    {
+      "provision_ref": "s317",
+      "section": "317",
+      "title": "317",
+      "content": "„6. melléklet az 57/2013. (XII. 21.) ORFK utasításhoz"
+    },
+    {
+      "provision_ref": "s318",
+      "section": "318",
+      "title": "318",
+      "content": "Értesítés útlezárásról/forgalomterelésről"
+    },
+    {
+      "provision_ref": "s319",
+      "section": "319",
+      "title": "319",
+      "content": "a Nemzeti Útdíjfizetési Szolgáltató Zrt. részére"
+    },
+    {
+      "provision_ref": "s320",
+      "section": "320",
+      "title": "320",
+      "content": "(vezenyles@nemzetiutdij.hu)"
+    },
+    {
+      "provision_ref": "s321",
+      "section": "321",
+      "title": "321",
+      "content": "Kelt: …………………………………………"
+    },
+    {
+      "provision_ref": "s322",
+      "section": "322",
+      "title": "322",
+      "content": "……………………………………… aláírás"
+    },
+    {
+      "provision_ref": "s323",
+      "section": "323",
+      "title": "323",
+      "content": "Értesítés útlezárás/forgalomterelés megszüntetéséről"
+    },
+    {
+      "provision_ref": "s324",
+      "section": "324",
+      "title": "324",
+      "content": "Kelt: …………………………………………"
+    },
+    {
+      "provision_ref": "s325",
+      "section": "325",
+      "title": "325",
+      "content": "……………………………………… aláírás"
+    },
+    {
+      "provision_ref": "s326",
+      "section": "326",
+      "title": "326",
+      "content": "” 1 Az utasítás a 72. pont alapján hatályát vesztette 2015. április 25. napjával."
+    }
+  ]
+}

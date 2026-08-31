@@ -1,0 +1,59 @@
+{
+  "id": "hu-law-2007-5-20-53",
+  "type": "statute",
+  "title": "5/2007. (III. 28.) PM rendelet a származtatott (derivatív) ügyletek fedezetbe vonásáról és nyilvántartásáról",
+  "status": "in_force",
+  "in_force_date": "2007-04-05",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2007-5-20-53",
+  "description": "a származtatott (derivatív) ügyletek fedezetbe vonásáról és nyilvántartásáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § (1) A jelzálog-hitelintézet a jelzálog-hitelintézetről és a jelzáloglevélről szóló 1997. évi XXX. törvényben (a továbbiakban: Jht.) és az e rendeletben meghatározott feltételek teljesülése esetén rendes fedezetként veheti figyelembe az általa kibocsátott jelzáloglevelekkel, valamint az ezen jelzáloglevelek fedezeteivel kapcsolatban kötött származtatott (derivatív) ügyleteket. (2) E rendelet alkalmazásában 1. nominális érték: a pénzáramlások futamidő végéig számított, a tárgynapon ismert ügyletek és feltételek alapján összesített értéke; 2. nettósított érték: a származtatott (derivatív) ügylet tárgynapon számított jelenértéke korrigálva a derivatív partnernek átadott, vagy a derivatív partnertől kapott biztosítékok összegével."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § A származtatott (derivatív) ügylet rendes fedezetként történő nyilvántartásba vételéről, valamint a fedezetnyilvántartásból való törléséről a derivatív partnert a tárgynapon kell értesíteni."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § A származtatott (derivatív) ügyletből származó jelzálog-hitelintézeti követelés biztosítéka készpénz, illetve tőzsdén vagy más elismert piacon jegyzett, vagy egyébként az adott időpontban a felektől függetlenül meghatározható árral rendelkező forgalomképes értékpapír lehet."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) Nem vonható rendes fedezetbe az olyan származtatott (derivatív) ügylet, amelynek alapjául áru szolgál. (2) A nominális értéken és jelenértéken is nyilvántartott fedezetek között a származtatott (derivatív) ügyletet ugyancsak ki kell mutatni nominális értéken és jelenértéken is. (3) A nominális értéken történő nyilvántartásba vételt oly módon kell elvégezni, hogy a származtatott (derivatív) ügyleteket elemi pénzáramokra kell bontani, a pénzáramokat pedig azok tőke vagy kamat jellegétől függően kell besorolni. A derivatív partnernek átadott, illetve a derivatív partnertől kapott biztosítékokkal a rendes fedezetek tőkeösszegét kell korrigálni. (4) A jelenértéken történő nyilvántartásba vételt oly módon kell elvégezni, hogy a származtatott (derivatív) ügylet nettósított értékét kell a rendes fedezetek között figyelembe venni. (5) A deviza vagy a deviza alapú fedezetek, valamint a devizában finanszírozott (denominált) jelzáloglevelek értékét a Magyar Nemzeti Bank által a tárgynapon közzétett árfolyamon számolva, forintban kell kimutatni."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § (1) A származtatott (derivatív) ügylet tárgynapon számított nettósított értékének meghatározásakor az ügylet jelenértéke akkor korrigálható a derivatív partnernek átadott, vagy a derivatív partnertől kapott biztosítékok összegével, ha a) szerződés vagy külön megállapodás a derivatív partner nem-teljesítésének kockázatát csökkentő külön kikötést tartalmaz, b) a jelzálog-hitelintézet a biztosítékot feltétel nélkül és azonnali hatállyal érvényesítheti, és c) a követeléseket a szerződés fennállása alatt meghatározott időközönként korrigálják a biztosíték összegével. (2) Az (1) bekezdésben foglalt feltételeknek megfelelő biztosítékok akkor is a fedezetbe bevont származtatott ügyletek részének tekintendők, ha azok a derivatív partnernél vannak elhelyezve. (3) A származtatott (derivatív) ügyletből származó követelés biztosítékaként átadott készpénz vagy értékpapír kamatát biztosítékként nem lehet figyelembe venni."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § Ez a rendelet a kihirdetését követő 8. napon lép hatályba."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "évi XXX. törvényben (a továbbiakban",
+      "definition": "Jht.) és az e rendeletben meghatározott feltételek teljesülése esetén rendes fedezetként veheti figyelembe az általa kibocsátott jelzáloglevelekkel, valamint az ezen jelzáloglevelek fedezeteivel kapcsolatban kötött származtatott (derivatív) ügyleteket. (2) E rendelet alkalmazásában 1. nominális érték: a pénzáramlások futamidő végéig számított, a tárgynapon ismert ügyletek és feltételek alapján összesített értéke",
+      "source_provision": "s1"
+    },
+    {
+      "term": "nettósított érték",
+      "definition": "a származtatott (derivatív) ügylet tárgynapon számított jelenértéke korrigálva a derivatív partnernek átadott, vagy a derivatív partnertől kapott biztosítékok összegével.",
+      "source_provision": "s1"
+    }
+  ]
+}

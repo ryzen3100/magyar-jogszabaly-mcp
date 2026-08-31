@@ -1,0 +1,359 @@
+{
+  "id": "hu-law-2017-25-b0-8e",
+  "type": "statute",
+  "title": "25/2017. (VIII. 17.) ORFK utasítás az Európai Rendőrségi Hivatal által működtetett Európai Biztonságos Hálózat alkalmazásainak felhasználásával megvalósuló együttműködés és információcsere rendjéről szóló 23/2016. (IX. 15.) BM–NGM együttes utasítás végrehajtásáról",
+  "status": "in_force",
+  "in_force_date": "2017-08-25",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2017-25-B0-8E",
+  "description": "az Európai Rendőrségi Hivatal által működtetett Európai Biztonságos Hálózat alkalmazásainak felhasználásával megvalósuló együttműködés és információcsere rendjéről szóló 23/2016. (IX. 15.) BM–NGM együttes utasítás végrehajtásáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A jogalkotásról szóló 2010. évi CXXX. törvény 23. § (4) bekezdés c) pontjában, valamint a Rendőrségről szóló 1994. évi XXXIV. törvény 6. § (1) bekezdés b) pontjában kapott felhatalmazás alapján az Európai Rendőrségi Hivatal által működtetett Európai Biztonságos Hálózat alkalmazásainak felhasználásával megvalósuló együttműködés és információcsere rendjéről szóló 23/2016. (IX. 15.) BM–NGM együttes utasítás végrehajtására kiadom az alábbi utasítást:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "I. FEJEZET"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "ÁLTALÁNOS RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "1. Hatály"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "1. Az utasítás hatálya kiterjed"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "a) az Országos Rendőr-főkapitányság Bűnügyi Főigazgatóság Nemzetközi Bűnügyi Együttműködési Központra (a továbbiakban: NEBEK);"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "b) a Készenléti Rendőrségre;"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "c) a Repülőtéri Rendőr Igazgatóságra;"
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "d) a vármegyei (fővárosi) rendőr-főkapitányságokra"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "(a továbbiakban együtt: együttműködő szerv)."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "2. Értelmező rendelkezések"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "2. Az utasítás alkalmazásában:"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "a) ESN rendszer: az Európai Rendőrségi Hivatal által működtetett Európai Biztonságos Hálózat alkalmazásainak felhasználásával megvalósuló együttműködés és információcsere rendjéről szóló 23/2016. (IX. 15.) BM–NGM együttes utasítás 2. § a) pontja szerinti Európai Biztonságos Hálózat;"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "b) Europol Információs Rendszer: az Europol központi bűnügyi és bűnüldözési adatbázisa;"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "c) nem teljes jogú végponti felhasználó: kizárólag olvasási és választervezet-készítési jogosultsággal rendelkező felhasználó;"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "d) postafiók: az együttműködő szerv megjelenési formája a SIENA rendszerben;"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "e) SIENA rendszer: az ESN rendszer biztonságos információcserét elősegítő hálózati alkalmazása."
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "II. FEJEZET"
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "RÉSZLETES RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "3. Az ESN rendszer felhasználásával kapcsolatos személyi követelmények"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "3. Az együttműködő szerv vezetője az irányítása alá tartozó szerv állományából olyan létszámú végponti felhasználót köteles kijelölni – szükség esetén pótlásukról gondoskodni –, amellyel biztosítható az együttműködő szerv által használt postafiók rendszeres ellenőrzése."
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "4. Az együttműködő szerv vezetője a postafiók rendszeres ellenőrzésének biztosítása érdekében köteles gondoskodni a végponti felhasználók közötti beosztás elkészítéséről. A végponti felhasználó akadályoztatása vagy távolléte esetén a helyettesítésre kijelölt végponti felhasználó rendszeresen ellenőrzi az együttműködő szerv postafiókját."
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "5. A végponti felhasználók munkaköri leírásában rögzíteni kell az ESN rendszer használatára, a postafiók rendszeres ellenőrzésére, a fordítások elkészítésére vonatkozó kötelezettségét."
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "4. A NEBEK feladatai"
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "6. A NEBEK vezetője felelős a végponti felhasználók folyamatos képzéséért és a végponti felhasználók naprakész nyilvántartásának a vezetéséért."
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "7. A végponti felhasználók nyilvántartása tartalmazza a végponti felhasználó:"
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "a) nevét;"
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "b) rendfokozatát;"
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "c) szolgálati helyét;"
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "d) telefonszámát;"
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "e) e-mail-címét;"
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "f) hozzáférési jogosultságának szintjét."
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "8. A NEBEK-en belül működő Europol Nemzeti Iroda (a továbbiakban: ENI) felügyeli a SIENA rendszerben a postafiókjába (postafióknév: „LBHU”), valamint hivatali munkaidőben a NEBEK postafiókjába (postafióknév: „ENU”) érkezett üzeneteket, és hivatali munkaidőben intézkedik – szükség esetén a hatáskörrel és illetékességgel rendelkező szerv bevonásával – a külföldi megkeresés teljesítésére."
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "9. Az ENI hivatali munkaidőben a magyar nem teljes jogú végponti felhasználók által a SIENA rendszeren keresztül külföldre küldendő megkeresések és válaszok vázlatát ellenőrzi, véglegesíti és továbbítja a címzett(ek)nek, illetve szükség esetén hiánypótlásra visszaküldi az együttműködő szervnek."
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "10. A NEBEK felügyeli a SIENA rendszerben a postafiókjába (postafióknév: „ENU”) érkezett üzeneteket, és sürgős esetben hivatali munkaidőn túl intézkedik – szükség esetén a hatáskörrel és illetékességgel rendelkező szerv bevonásával – a külföldi megkeresés teljesítésére."
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "11. A NEBEK sürgős esetben hivatali munkaidőn kívül a magyar nem teljes jogú végponti felhasználók által a SIENA rendszeren keresztül külföldre küldendő megkeresések és válaszok vázlatát ellenőrzi, véglegesíti és továbbítja a címzett(ek)nek, illetve szükség esetén azt hiánypótlásra visszaküldi az együttműködő szervnek."
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "12. A NEBEK a megkeresés véglegesítéséről és továbbításáról értesíti a megkereső együttműködő szervet."
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "13. Az együttműködő szerv azon hozzáférési jogosultságát, amely alapján hozzáférhet a SIENA rendszeren továbbított üzenetekhez, a NEBEK vezetője határozza meg."
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "5. A hazai megkeresések elintézésével kapcsolatos kötelezettségek"
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "14. Az együttműködő szerv által folytatott eljárás előadója – ha nem kijelölt végponti felhasználó – magyar nyelven elkészíti a megkeresést, amelyet továbbít az együttműködő szerv kijelölt végponti felhasználójának."
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "15. A végponti felhasználó az eljárás előadója által készített megkeresés alapján ellenőrzést végez az Europol Információs Rendszerben, amelynek eredményét belefoglalja az általa elkészítendő üzenetbe. Az ellenőrzés eredményéről tájékoztatja az eljárás előadóját."
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "16. A nem teljes jogosultsággal rendelkező végponti felhasználó megkeresés vázlatot készít, ehhez csatolja a magyar nyelvű megkeresést, amelyeket"
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "a) hivatali munkaidőben az ENI postafiókjába továbbít;"
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "b) sürgős esetben hivatali munkaidőn túl a NEBEK postafiókjába továbbít, amelyről telefonon értesíti a NEBEK folyamatos elérhetőséget biztosító egységét."
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "17. A teljes jogosultsággal rendelkező végponti felhasználó elkészíti a megkeresést és azt közvetlenül továbbítja a címzett(ek)nek."
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "18. A végponti felhasználó a megkeresést vagy annak vázlatát angol nyelven készíti el."
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "6. A végponti felhasználók külföldi megkeresések elintézésével kapcsolatos feladatai"
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "19. Külföldről érkező megkeresés esetén készítendő választervezetet a nem teljes jogosultsággal rendelkező végponti felhasználó"
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "a) hivatali munkaidőben az ENI postafiókjába továbbítja;"
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "b) sürgős esetben hivatali munkaidőn túl a NEBEK postafiókjába továbbítja, amelyről telefonon értesíti a NEBEK folyamatos elérhetőséget biztosító egységét."
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "20. Külföldről érkező megkeresés esetén a teljes jogosultsággal rendelkező végponti felhasználó elkészíti a megkeresésre a választ és közvetlenül továbbítja a címzett(ek)nek."
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "21. A végponti felhasználó a választ vagy a választervezetet elsősorban angol nyelven vagy megfelelő nyelvtudása esetén a megkeresés nyelvén készíti el."
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "22. Azon nem magyar nyelvű üzenet esetén, amelynek további felhasználása a hazai eljárásban szükséges, a végponti felhasználó jelentés formájában elkészíti annak a magyar nyelvű fordítását, amelyhez csatolja az eredeti üzenetet is. A jelentést a melléklettel együtt az együttműködő szerv iktatja."
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "23. A SIENA rendszeren kívüli iktatástól el lehet tekinteni, ha az üzenet az alkalmazáson belül megválaszolható, illetve továbbítható, és az üzenet sem papíralapú, sem más formátumú adathordozón nem jelenik meg."
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "24. Az Európai Rendőrségi Hivatal által működtetett Európai Biztonságos Hálózat alkalmazásainak felhasználásával megvalósuló együttműködés és információcsere rendjéről szóló 23/2016. (IX. 15.) BM–NGM együttes utasítás 8. §-ában meghatározott esetben a végponti felhasználónak az Europol megfelelő szervezeti eleme felé jeleznie kell, hogy az adatot elemzési céllal bocsátja az Europol részére."
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "III. FEJEZET"
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "ZÁRÓ RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "25. Ez az utasítás a közzétételét követő 8. napon lép hatályba. 1 Az 1. pont a 17/2025. (VI. 30.) ORFK utasítás 44. pontjával megállapított szöveg. 2 A 6. pont a 17/2025. (VI. 30.) ORFK utasítás 45. pont a) alpontja szerint módosított szöveg. 3 A 8. pont a 17/2025. (VI. 30.) ORFK utasítás 45. pont b) alpontja szerint módosított szöveg. 4 A 9. pont a 17/2025. (VI. 30.) ORFK utasítás 45. pont b) alpontja szerint módosított szöveg. 5 A 13. pont a 17/2025. (VI. 30.) ORFK utasítás 45. pont b) alpontja szerint módosított szöveg. 6 A 16. pont a) alpontja a 17/2025. (VI. 30.) ORFK utasítás 45. pont b) alpontja szerint módosított szöveg. 7 A 16. pont b) alponjta a 17/2025. (VI. 30.) ORFK utasítás 45. pont d) alpontja szerint módosított szöveg. 8 A 19. pont a) alpontja a 17/2025. (VI. 30.) ORFK utasítás 45. pont c) alpontja szerint módosított szöveg. 9 A 19. pont b) alpontja a 17/2025. (VI. 30.) ORFK utasítás 45. pont d) alpontja szerint módosított szöveg."
+    }
+  ]
+}

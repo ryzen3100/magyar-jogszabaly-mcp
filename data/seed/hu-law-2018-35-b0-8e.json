@@ -1,0 +1,935 @@
+{
+  "id": "hu-law-2018-35-b0-8e",
+  "type": "statute",
+  "title": "35/2018. (VI. 27.) ORFK utasítás a Titkos Információgyűjtés Adatkezelési Rendjével, valamint a „D” és „F” adattárakkal kapcsolatos feladatokról",
+  "status": "in_force",
+  "in_force_date": "2018-07-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2018-35-B0-8E",
+  "description": "a Titkos Információgyűjtés Adatkezelési Rendjével, valamint a „D” és „F” adattárakkal kapcsolatos feladatokról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A jogalkotásról szóló 2010. évi CXXX. törvény 23. § (4) bekezdés c) pontjában és a Rendőrségről szóló 1994. évi XXXIV. törvény 6. § (1) bekezdés b) pontjában kapott felhatalmazás alapján az általános rendőrségi feladatok ellátására létrehozott szerv titkos információgyűjtő tevékenységéből, valamint a leplezett eszközök alkalmazásából származó adatokkal és információkkal kapcsolatos feladatok meghatározása érdekében kiadom az alábbi utasítást:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "I. FEJEZET"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "ÁLTALÁNOS RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "1. Az utasítás szervi hatálya az általános rendőrségi feladatok ellátására létrehozott szerv titkos információgyűjtésre és leplezett eszköz-alkalmazásra jogosult szerveire terjed ki."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "2. Az utasítás tárgyi hatálya:"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "a) a titkos információgyűjtések adataira;"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "b) a leplezett eszközök alkalmazásának adataira;"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "c) a titkos információgyűjtéssel, valamint a leplezett eszközök alkalmazásával érintett személyek adataira;"
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "d) a titkos információgyűjtésre, valamint a leplezett eszközök alkalmazására feljogosított szervvel titkosan együttműködő személyek adataira;"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "e) az adatok, információk rögzítésére, tárolására, feldolgozására, továbbítására, módosítására, koordinációjára"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "terjed ki."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "3. Az utasítás hatálya nem terjed ki a Rendőrségről szóló 1994. évi XXXIV. törvény 64. § h) pontja, valamint a büntetőeljárásról szóló 2017. évi XC. törvény 225. §-a alapján elrendelt titkos információgyűjtésre."
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "4. Az utasítás alkalmazásában:"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "a) azonosításra alkalmas adat: az érintett neve, születési helye, ideje, anyja neve, valamint a jogi személy, a jogi személyiséggel nem rendelkező szervezet, természetes személyekből álló csoport neve, az intézmény formája;"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "b) azonossági szám: a „D” és az „F” adattárakban szereplő személyek egyedi, nyolcjegyű számsorozata;"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "c) „D” adattár: a titkos információgyűjtéssel és a leplezett eszközök alkalmazásával érintett személyekre, valamint a velük kapcsolatban folytatott eljárásra vonatkozó adatokat tartalmazó nyilvántartás;"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "d) „F” adattár:"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "da) a tanulmányozott személyek személyes adatait,"
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "db) az informátorok személyes adatait,"
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "dc) a bizalmi személyek (a titkos munkatárs, a rezidens, az „F” objektum kezelő) személyes adatait,"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "dd) a db)–dc) alpontban foglalt személyekkel történő kapcsolattartásra, valamint a személyek hírszerző lehetőségeire vonatkozó adatokat,"
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "de) a dc) alpontban foglalt személyek személyi tulajdonságaikra vonatkozó adatokat"
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "tartalmazó nyilvántartás;"
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "e) személy: a természetes személy, a jogi személy, a jogi személyiséggel nem rendelkező szervezet, valamint egyéb, természetes személyekből álló csoport vagy intézmény;"
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "f) területi szerv: a Készenléti Rendőrség, a Repülőtéri Rendőri Igazgatóság és a vármegyei (fővárosi) rendőr-főkapitányságok;"
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "g) TIAR: a Titkos Információgyűjtés Adatkezelési Rendje, amely tartalmazza a titkos információgyűjtésből, valamint a leplezett eszközök alkalmazásából eredő információkat."
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "5. A TIAR, valamint a „D” és az „F” adattárak alkalmazásának célja:"
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "a) a titkos információgyűjtéssel, valamint a leplezett eszközök alkalmazásával érintett személyekre irányuló párhuzamos eljárások kiszűrése, az eljáró szervek értesítése;"
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "b) egységes elvekre épülő információs rendszer működtetése, amely a rendőri szervek titkos információgyűjtésből, valamint a leplezett eszközök alkalmazásából származó adatainak rendszerezett gyűjtésével, az információk tárolásával, bűnelemzési támogatással elősegíti a titkos információgyűjtés és a leplezett eszközök alkalmazása céljainak elérését, a bűnüldözési tevékenységet, az erőforrások optimális elosztását, és a területi, valamint az országos koordinációt;"
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "c) a titkos információgyűjtések, valamint a leplezett eszközök alkalmazása során keletkezett információk és adatok visszakereshető tárolásának megvalósítása, az összefüggések felismeréséhez történő segítségnyújtás;"
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "d) az informátorok, a tanulmányozás alá vont, továbbá a bizalmi személyek párhuzamos tanulmányozásának, kapcsolattartásának kiszűrése, a tanulmányozó, illetve a kapcsolattartó szerv értesítése."
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "II. FEJEZET"
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "RÉSZLETES RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "1. A TIAR szintjei, feladatai"
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "6. A TIAR-ban történő helyi szintű adatkezelési feladatokat az a szervezeti elem látja el, ahol a kezelendő információ keletkezik."
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "7. Helyi szintű adatkezelési feladat a titkos információgyűjtés, valamint a leplezett eszközök alkalmazása során helyben keletkező, valamint az adatkezelés során más szervtől érkező, de hatáskör és illetékesség alapján az adott szervhez kapcsolódó adatok kezelése, valamint az adatoknak a nyilvántartásokban rögzítése céljából"
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "a) a területi szerv és a rendőrkapitányságok 6. pont szerinti szervezeti eleme által a 8. pontban meghatározott szervezeti elemnek;"
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "b) az Országos Rendőr-főkapitányság 6. pont szerinti szervezeti eleme által a 10. pontban meghatározott szervezeti elemnek"
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "történő megküldése."
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "8. A területi szerv és a rendőrkapitányságok 6. pont szerinti szervezeti eleme tekintetében a TIAR-ban történő területi szintű adatkezelési feladatokat a területi szervnél a titkos információgyűjtésből, illetve a leplezett eszközök alkalmazásából származó információk feldolgozására, értékelésére és koordinálására létrehozott szervezeti elem (a továbbiakban: elemző-értékelő szervezeti elem) látja el."
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "9. Területi szintű adatkezelési feladat:"
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "a) a 7. pont alapján megküldött adatoknak a nyilvántartásokban történő rögzítése;"
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "b) a titkos információgyűjtések, valamint alkalmazott leplezett eszközök nyilvántartása;"
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "c) a titkos információgyűjtés, valamint a leplezett eszközök alkalmazása során keletkezett információkban szereplő adatok (a továbbiakban: információs objektumok) nyilvántartása;"
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "d) az információs objektumok közötti kapcsolatok regisztrálása, feltárása;"
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "e) az információ feldolgozása során felmerülő azonos információs objektumok előfordulásának figyelemmel kísérése;"
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "f) információszolgáltatás az operatív és stratégiai értékelési feladatokhoz;"
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "g) bűnügyi információn alapuló megkeresések koordinálása."
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "10. A TIAR-ban történő országos szintű adatkezelési feladatokat az Országos Rendőr-főkapitányság Bűnügyi Főigazgatóság Bűnügyi Elemző-Értékelő Főosztály (a továbbiakban: Főosztály) látja el."
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "11. Országos szintű adatkezelési feladat:"
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "a) az Országos Rendőr-főkapitányság 6. pont szerinti szervezeti eleme tekintetében a 9. pontban foglalt feladatok ellátása;"
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "b) az elemző-értékelő szervezeti elemek által kezelt adatok országos összesítése;"
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "c) a területi szerv országos rendszerből történő lekérdezéseinek biztosítása;"
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "d) az elemző-értékelő szervezeti elemek közötti koordináció biztosítása;"
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "e) információszolgáltatás az országos szintű operatív és stratégiai értékelési feladatokhoz."
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "2. A TIAR-ban történő adatrögzítés"
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "12. Az adatszolgáltatási kötelezettség alá eső információkat az alábbi iratokból kell teljesíteni:"
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "a) a titkos információgyűjtés elrendeléséről készült feljegyzés, felülvizsgálatról készült összefoglaló jelentés, a titkos információgyűjtés befejezéséről készült összefoglaló jelentés és feljegyzés;"
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "b) a titkos információgyűjtés eszközeinek eredményéről készült irat;"
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "c) a titkos információgyűjtéssel, valamint a leplezett eszközök alkalmazásával érintett személy adatairól kiállított „B” adatlap;"
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "d) a leplezett eszközök alkalmazására készült alkalmazási terv, indítvány, előterjesztés, a végrehajtásról készült feljegyzés."
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "13. A TIAR-ban nem rögzíthetők az alábbiak:"
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "a) az információforrást egyértelműen azonosító adatok;"
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "b) a „T” ellátmány felhasználásával kapcsolatos adatok;"
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "c) a titkos együttműködési megállapodás adatai;"
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "d) az „F” objektum alkalmazásával kapcsolatos adatok;"
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "e) a fedett nyomozó vagy a fedővállalkozás alkalmazásával kapcsolatos adatok."
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "3. Adatszolgáltatás a TIAR-ból"
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "14. Az adatkérésre jogosult nem rendőri szerv részére történő adatszolgáltatás módjára az e szervvel kötött együttműködési megállapodásban foglaltak az irányadók."
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "4. A „D” és „F” adattárak tekintetében ellátandó feladatok"
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "15. A Főosztály a „D” és „F” adattárak tekintetében ellátja az alábbi feladatokat:"
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "a) a titkos információgyűjtéssel, a leplezett eszközök alkalmazásával érintett személyek, valamint a tanulmányozás alá vont személyek, az informátorok, továbbá a bizalmi személyek adatainak központi nyilvántartása;"
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "b) a titkos információgyűjtéssel, valamint a leplezett eszközök alkalmazásával érintett személyekre irányuló párhuzamos eljárások kiszűrése, az eljáró szervek értesítése;"
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "c) a tanulmányozás alá vont személyek, továbbá az informátorok, a bizalmi személyek párhuzamos tanulmányozásának, kapcsolattartásának kiszűrése, a tanulmányozó, illetve a kapcsolattartó szerv értesítése;"
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "d) meghatározott feladat ellátásra alkalmas informátor és bizalmi személy keresése-kutatása."
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "5. A titkos információgyűjtéssel, valamint a leplezett eszköz alkalmazásával érintett személlyel kapcsolatos adatközlési kötelezettség teljesítése"
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "16. A titkos információgyűjtéssel, valamint a leplezett eszközök alkalmazásával érintett személyről a nyilvántartási adatok felvétele céljából akkor kell „B” adatlapot kitölteni, ha az érintett személy azonosítására alkalmas – és a személy- és lakcímnyilvántartóban leellenőrzött – adatai ismertté válnak."
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "17. A nyilvántartási adatok módosításáról „B” adatlapot kell kitölteni, ha:"
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "a) az érintett személynek a nyilvántartásban szereplő adataitól eltérő személyes vagy egyéb adat válik ismertté;"
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "b) a körözött személyt felkutatták, tartózkodási helyét megállapították;"
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "c) a titkos információgyűjtést, valamint a büntetőeljárást"
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "ca) átadják,"
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "cb) átveszik,"
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "cc) egyesítik,"
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "cd) elkülönítik,"
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "ce) befejezik,"
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "cf) folytatják;"
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "d) a titkos információgyűjtés során beszerzett adat büntetőeljárás kezdeményezését alapozta meg."
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "18. A titkos információgyűjtés, a büntetőeljárás átadása, átvétele, valamint egyesítés vagy elkülönítés esetén, legkésőbb az átvételt követő harmadik munkanapon az átadó és az átvevő is köteles a nyilvántartásba vett személyről a „B” adatlapot kitölteni és megküldeni az elemző-értékelő szervezeti elemnek. Ha az átvevő szerv nem rendőri szerv, az adatszolgáltatást a titkos információgyűjtés, valamint leplezett eszközök alkalmazásának befejezését követő három munkanapon belül az átadó rendőri szerv köteles teljesíteni, és intézkedni a nyilvántartásba vett személyek adatainak módosítására."
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "19. Legkésőbb a „D” adattárban történő ellenőrzést követő harmadik munkanapon a titkos információgyűjtéssel, valamint a leplezett eszközök alkalmazásával érintett személyről az eljáró szerv a „B” adatlapot a rendszeresített célprogrammal egy elektronikus példányban kitölti és egy példányban kinyomtatja. A titkos információgyűjtés során alkalmazott eszköz, valamint a leplezett eszköz alkalmazásának megkezdését követően az 1. számú papíralapú példányt a 2. számú elektronikus példányt tartalmazó adathordozóval együtt az elemző-értékelő szervezeti elemnek kell megküldeni."
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "20. Ha az ellenőrzést nem az eljáró szerv hajtja végre, a 19. pontban meghatározott határidőt az ellenőrzés eredményéről szóló tájékoztatás beérkezésétől kell számolni."
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "21. Az elemző-értékelő szervezeti elem a „B” adatlap 2. számú példányát átemeli a TIAR-ba, és annak dátumát rögzíti a „B” adatlap 1. számú példányán."
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "22. A Főosztály az elemző-értékelő szervezeti elem által a TIAR-ban rögzített és 24 órán belül a központi feldolgozásba bekerülő adatlapokon szereplő adatokat a beérkezéstől számított 3 munkanapon belül ellenőrzi és az adattárban rögzíti. Ezt követően a rögzítés tényét és a rögzített adatlapon szereplő érintett azonossági számát, hibás adatlap esetén a hiba leírását a TIAR minősített levelező rendszerén keresztül az elemző-értékelő szervezeti elemnek megküldi."
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "23. Az elemző-értékelő szervezeti elem az azonossági számot rávezeti a „B” adatlap 1. számú példányára, majd azt visszaküldi az eljáró szervnek. Ha a Főosztálytól kapott értesítés hibát jelez, az elemző-értékelő szervezeti elem rájegyzi a hibát a papíralapú példányra, amelyet visszaküld javításra az eljáró szervnek. Az eljáró szerv 3 munkanapon belül visszaküldi a javított adatlapot. Az elemző-értékelő szervezeti elem a javított adatok alapján módosítja a TIAR-ban elhelyezett adatlapot, amely 24 órán belül automatikusan megjelenik a Főosztálynál."
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "24. A „B” adatlap 1. számú példányát az eljáró szerv elhelyezi a titkos információgyűjtés vagy a leplezett eszköz dossziéjában."
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "25. Zárt adatkezelés elrendelése esetén az eljáró szerv a „B” adatlap 1. számú papíralapú és 2. számú elektronikus példányát közvetlenül a Főosztálynak továbbítja."
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "6. A titkos információgyűjtésre és a leplezett eszközök alkalmazására feljogosított szervvel titkosan együttműködő személlyel kapcsolatos adatközlési kötelezettség teljesítése"
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "26. A titkos információgyűjtésre és a leplezett eszközök alkalmazására feljogosított szervvel titkosan együttműködő személlyel kapcsolatos adatszolgáltatást a „C1”, a C2”, a „C3” és a „C4” adatlapok (a továbbiakban együtt: „C” adatlapok) kitöltésével és a Főosztály részére történő megküldésével kell teljesíteni."
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "27. A „C” adatlapokat az adat elhelyezését kérő személy a rendszeresített célprogrammal egy elektronikus példányban kitölti, és egy példányban kinyomtatja. Az adat elhelyezését kérő személy az elektronikus adathordozót közvetlenül – három munkanapon belül – a nyilvántartásba vétel céljából továbbítja a Főosztálynak, a papíralapú példányt elhelyezi a dossziéban."
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "28. A tanulmányozás alá vont személy azonosító adatairól az „F” adattárban történő ellenőrzést követő harmadik munkanapon a tanulmányozást kezdeményező személy „C1” adatlapot állít ki."
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "29. Ha az ellenőrzést nem az eljáró szerv hajtja végre, a 28. pontban meghatározott határidőt az ellenőrzés eredményéről szóló tájékoztatás beérkezésétől kell számolni."
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "30. A „C1” adatlapot kell kitölteni:"
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "a) a tanulmányozott személy adatainak nyilvántartásba vétele;"
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "b) az azonosító adatok módosítása;"
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "c) informátor bevonása"
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "esetén."
+    },
+    {
+      "provision_ref": "s107",
+      "section": "107",
+      "title": "107",
+      "content": "31. A „C2” adatlapot kell kitölteni:"
+    },
+    {
+      "provision_ref": "s108",
+      "section": "108",
+      "title": "108",
+      "content": "a) a jelölt meghiúsult bevonása;"
+    },
+    {
+      "provision_ref": "s109",
+      "section": "109",
+      "title": "109",
+      "content": "b) a bevonástól elállás;"
+    },
+    {
+      "provision_ref": "s110",
+      "section": "110",
+      "title": "110",
+      "content": "c) a jelölt eredményes bevonása;"
+    },
+    {
+      "provision_ref": "s111",
+      "section": "111",
+      "title": "111",
+      "content": "d) az informátor, valamint a bizalmi személy végleges átadása, átvétele;"
+    },
+    {
+      "provision_ref": "s112",
+      "section": "112",
+      "title": "112",
+      "content": "e) a bizalmi személy pihentetése;"
+    },
+    {
+      "provision_ref": "s113",
+      "section": "113",
+      "title": "113",
+      "content": "f) az informátor, valamint a bizalmi személy kizárása;"
+    },
+    {
+      "provision_ref": "s114",
+      "section": "114",
+      "title": "114",
+      "content": "g) az informátorral, valamint bizalmi személlyel a kapcsolat újrafelvétele;"
+    },
+    {
+      "provision_ref": "s115",
+      "section": "115",
+      "title": "115",
+      "content": "h) az informátor, a bizalmi személy halála"
+    },
+    {
+      "provision_ref": "s116",
+      "section": "116",
+      "title": "116",
+      "content": "esetén."
+    },
+    {
+      "provision_ref": "s117",
+      "section": "117",
+      "title": "117",
+      "content": "32. Ha a bevonás végrehajtása során a jelölt személy az együttműködést vállalta, a további adatok és információk felvétele, illetve a későbbiekben azok módosítása vagy törlése érdekében"
+    },
+    {
+      "provision_ref": "s118",
+      "section": "118",
+      "title": "118",
+      "content": "a) az informátorral, valamint bizalmi személlyel folytatott kapcsolattartás adatairól a „C2” adatlapot;"
+    },
+    {
+      "provision_ref": "s119",
+      "section": "119",
+      "title": "119",
+      "content": "b) az informátor, valamint a bizalmi személy hírszerző lehetőségeinek adatairól a „C3” adatlapot;"
+    },
+    {
+      "provision_ref": "s120",
+      "section": "120",
+      "title": "120",
+      "content": "c) a bizalmi személy személyi tulajdonságainak adatairól a „C4” adatlapot"
+    },
+    {
+      "provision_ref": "s121",
+      "section": "121",
+      "title": "121",
+      "content": "a kapcsolattartó személy kitölti, és legkésőbb az adatszolgáltatásra okot adó körülménytől számított harmadik munkanapon továbbítja a Főosztály felé."
+    },
+    {
+      "provision_ref": "s122",
+      "section": "122",
+      "title": "122",
+      "content": "33. Ha az átvevő szerv nem rendőri szerv, az adatszolgáltatást az együttműködés megszüntetésével (a bizalmi személy, illetve az informátor kizárásával) az átadó rendőri szerv három munkanapon belül teljesíti, és intézkedik a kapcsolattartás adatainak módosítására."
+    },
+    {
+      "provision_ref": "s123",
+      "section": "123",
+      "title": "123",
+      "content": "7. Az adattárakban történő zárt adatkezelés"
+    },
+    {
+      "provision_ref": "s124",
+      "section": "124",
+      "title": "124",
+      "content": "34. Ha az adat zárt adatkezelését rendelték el, az adattárakban történő ellenőrzéskor a lekérdező nem kap választ, egyúttal az adatot elhelyező értesítést kap az ellenőrzés tényéről."
+    },
+    {
+      "provision_ref": "s125",
+      "section": "125",
+      "title": "125",
+      "content": "35. Az adattárakban az informátorok, valamint a foglalkoztatott és a pihentetettet bizalmi személyek azonosításra alkalmas adatai zárt kezelésűek."
+    },
+    {
+      "provision_ref": "s126",
+      "section": "126",
+      "title": "126",
+      "content": "36. Előterjesztés alapján az adattárakban zárt adatkezelés alá vonhatók:"
+    },
+    {
+      "provision_ref": "s127",
+      "section": "127",
+      "title": "127",
+      "content": "a) a tanulmányozás alá vont személyek;"
+    },
+    {
+      "provision_ref": "s128",
+      "section": "128",
+      "title": "128",
+      "content": "b) a kizárt bizalmi személyek;"
+    },
+    {
+      "provision_ref": "s129",
+      "section": "129",
+      "title": "129",
+      "content": "c) a titkos információgyűjtés eszközével, valamint a leplezett eszközök alkalmazásával érintett személy azonosítására alkalmas adatai."
+    },
+    {
+      "provision_ref": "s130",
+      "section": "130",
+      "title": "130",
+      "content": "37. A zárt adatkezelésről szóló előterjesztést a titkos információgyűjtést folytató szerv vezetője a szolgálati út betartásával a bűnügyi országos rendőrfőkapitány-helyetteshez terjeszti fel. A zárt adatkezelés elrendeléséről a bűnügyi országos rendőrfőkapitány-helyettes dönt."
+    },
+    {
+      "provision_ref": "s131",
+      "section": "131",
+      "title": "131",
+      "content": "38. A bűnügyi országos rendőrfőkapitány-helyettes a zárt adatkezelés elrendeléséről, fenntartásáról vagy elutasításáról a Főosztály vezetőjén keresztül tájékoztatja az eljáró szervet."
+    },
+    {
+      "provision_ref": "s132",
+      "section": "132",
+      "title": "132",
+      "content": "39. A zárt adatkezelés a titkos információgyűjtés vagy a leplezett eszköz alkalmazásának befejezéséig tart, amelynek időpontjáról a kezdeményező szerv három munkanapon belül értesítést küld a Főosztálynak."
+    },
+    {
+      "provision_ref": "s133",
+      "section": "133",
+      "title": "133",
+      "content": "8. Ellenőrzés és koordináció"
+    },
+    {
+      "provision_ref": "s134",
+      "section": "134",
+      "title": "134",
+      "content": "40. A TIAR-ban történő ellenőrzést a jogosultsággal rendelkező személyek az erre kialakított célprogrammal hajtják végre."
+    },
+    {
+      "provision_ref": "s135",
+      "section": "135",
+      "title": "135",
+      "content": "41. A titkos információgyűjtésben, valamint a leplezett eszköz-alkalmazásban eljáró személy az eljárás megkezdése előtt ellenőrzi vagy az elemző-értékelő szervezeti elem útján ellenőrizteti a TIAR-ban a kezdeményezés alapjául szolgáló információkat. Ha az információ szerepel az adatbázisban, ennek tényéről írásban tájékoztatni kell az eljáró szerv bűnügyi vezetőjét."
+    },
+    {
+      "provision_ref": "s136",
+      "section": "136",
+      "title": "136",
+      "content": "42. Folyamatban levő eljárás esetén a beérkezett információt az elemző-értékelő szervezeti elem ellenőrzi a TIAR-ban. Ha az információ szerepel az adatbázisban, ennek tényéről az elemző-értékelő szervezeti elem értesíti az információ szolgáltatóját."
+    },
+    {
+      "provision_ref": "s137",
+      "section": "137",
+      "title": "137",
+      "content": "43. A TIAR-ban kialakított koordinációs felület biztosítja, hogy a rögzített információs objektumok napi szinten legyenek összehasonlítva. Az elemző-értékelő szervezeti elemek megegyezőség esetén erről az érintett szervezeti elemeket írásban tájékoztatják."
+    },
+    {
+      "provision_ref": "s138",
+      "section": "138",
+      "title": "138",
+      "content": "44. A „D” és az „F” adattárakban a titkos információgyűjtés eszközével, valamint a leplezett eszközök alkalmazásával érintett, vagy a titkos információgyűjtésre és a leplezett eszközök alkalmazására feljogosított szervvel titkosan együttműködő személy azonosításra alkalmas adatai alapján ellenőrizni a priorálási jogosultságnak megfelelően közvetlenül vagy a Főosztály írásos megkeresése útján lehet."
+    },
+    {
+      "provision_ref": "s139",
+      "section": "139",
+      "title": "139",
+      "content": "9. Jogosultságok"
+    },
+    {
+      "provision_ref": "s140",
+      "section": "140",
+      "title": "140",
+      "content": "45. A TIAR területi adatbázisába adatrögzítői jogosultságot az elemző-értékelő szervezeti elem vezetőjének javaslata alapján a területi szerv vezetője engedélyezi, amelyről nyilvántartást kell vezetni."
+    },
+    {
+      "provision_ref": "s141",
+      "section": "141",
+      "title": "141",
+      "content": "46. A TIAR országos adatbázisába, valamint a „D” és az „F” adattárakhoz a lekérdezői jogosultságot az elemző-értékelő szervezeti elem vezetőjének javaslata alapján a Főosztály vezetője engedélyezi."
+    },
+    {
+      "provision_ref": "s142",
+      "section": "142",
+      "title": "142",
+      "content": "47. A Főosztály a jogosultságokról informatikai úton központi nyilvántartást vezet, az alábbi adattartalommal:"
+    },
+    {
+      "provision_ref": "s143",
+      "section": "143",
+      "title": "143",
+      "content": "a) a jogosultsággal rendelkező neve, szolgálati helye;"
+    },
+    {
+      "provision_ref": "s144",
+      "section": "144",
+      "title": "144",
+      "content": "b) a jogosultsággal rendelkező felhasználói neve;"
+    },
+    {
+      "provision_ref": "s145",
+      "section": "145",
+      "title": "145",
+      "content": "c) a jogosultság kezdő és befejező időpontja;"
+    },
+    {
+      "provision_ref": "s146",
+      "section": "146",
+      "title": "146",
+      "content": "d) a jogosultságot kérő irat iktatószáma;"
+    },
+    {
+      "provision_ref": "s147",
+      "section": "147",
+      "title": "147",
+      "content": "e) a jogosultság terjedelme."
+    },
+    {
+      "provision_ref": "s148",
+      "section": "148",
+      "title": "148",
+      "content": "III. FEJEZET"
+    },
+    {
+      "provision_ref": "s149",
+      "section": "149",
+      "title": "149",
+      "content": "ZÁRÓ RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s150",
+      "section": "150",
+      "title": "150",
+      "content": "48. Ez az utasítás 2018. július 1-jén lép hatályba."
+    },
+    {
+      "provision_ref": "s151",
+      "section": "151",
+      "title": "151",
+      "content": "49. A TIAR és a hozzá kialakított célprogram alkalmazását valamennyi felhasználó részére jogosultságának megfelelően oktatni kell, amelyet a Főosztály koordinál és hajt végre."
+    },
+    {
+      "provision_ref": "s152",
+      "section": "152",
+      "title": "152",
+      "content": "50. Az elemző-értékelő szervezeti elem vezetője intézkedik – a Főosztály által szervezett oktatáson részt vett munkatársak bevonásával – a titkos információgyűjtésben, valamint a leplezett eszközök alkalmazásában eljáró állomány oktatására."
+    },
+    {
+      "provision_ref": "s153",
+      "section": "153",
+      "title": "153",
+      "content": "51. A Főosztály elkészíti az adatszolgáltatási kötelezettség alá eső információk köréről, valamint azok rögzítésének módjáról szóló módszertani útmutatót, továbbá a „B” adatlapot és a „C” adatlapokat, amelyeket – a bűnügyi országos rendőrfőkapitány-helyettes jóváhagyását követően – az utasítás hatálya alá tartozó szervek kötelesek alkalmazni."
+    },
+    {
+      "provision_ref": "s154",
+      "section": "154",
+      "title": "154",
+      "content": "52. 1 A 4. pont f) alpontja a 40/2022. (XII. 30.) ORFK utasítás 149. pontja, a 17/2025. (VI. 30.) ORFK utasítás 47. pontja szerint módosított szöveg. 2 Az 52. pont a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette."
+    }
+  ]
+}

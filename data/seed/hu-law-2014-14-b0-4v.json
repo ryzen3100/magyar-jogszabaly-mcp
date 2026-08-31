@@ -1,0 +1,4763 @@
+{
+  "id": "hu-law-2014-14-b0-4v",
+  "type": "statute",
+  "title": "14/2014. (XII. 31.) BM OKF utasítás a Műszaki Mentési Műveleti Szabályzat kiadásáról",
+  "status": "repealed",
+  "in_force_date": "2015-01-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2014-14-B0-4V",
+  "description": "a Műszaki Mentési Műveleti Szabályzat kiadásáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A jogalkotásról szóló 2010. évi CXXX. törvény 23. § (4) bekezdés c) pontjának felhatalmazása, valamint a katasztrófavédelemről és a hozzá kapcsolódó egyes törvények módosításáról szóló 2011. évi CXXVIII. törvény 23. § (2) bekezdése és a tűz elleni védekezésről, a műszaki mentésről és a tűzoltóságról szóló 1996. évi XXXI. törvény 24/A. § i) pontja alapján a műszaki mentési tevékenységek részletes szabályozása érdekében kiadom az alábbi utasítást:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "1. Az utasítás hatálya kiterjed a hivatásos katasztrófavédelmi szervekre, az önkormányzati, a létesítményi tűzoltóságokra, a beavatkozó önkéntes tűzoltó egyesületekre (a továbbiakban együtt: tűzoltóság), továbbá azon közreműködő önkéntes tűzoltó egyesületekre, amelyek alapszabályukban vállalták a tűzoltási és a műszaki mentési tevékenységet, és a működési terület szerinti hivatásos tűzoltósággal együttműködési megállapodást kötöttek."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "2. A BM Országos Katasztrófavédelmi Főigazgatóság (a továbbiakban: BM OKF) Műszaki Mentési Műveleti Szabályzatát az utasítás melléklete tartalmazza."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "3. Ez az utasítás a közzétételét követő napon lép hatályba,"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "MŰSZAKI MENTÉSI MŰVELETI SZABÁLYZAT"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "I. fejezet"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "1. Általános előírások"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "1.1. Ezen utasítás fejezeteinek előírásait a tűzoltóság tűzoltási és műszaki mentési tevékenységének általános szabályairól szóló 39/2011. (XI. 15.) BM rendeletben (a továbbiakban: R.), valamint a BM OKF Tűzoltás-taktikai Szabályzatában meghatározottak figyelembevételével, azokkal együtt kell értelmezni."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "1.2. Ezen utasítás fejezeteiben meghatározott esetekben a jelzés vételekor elsődlegesen a jelzés értékeléséhez szükséges elengedhetetlen adatok begyűjtésére kell törekedni. A jelzésről szóló bekezdéseknél, az azokban felsorolt szempontok szerinti információgyűjtés során keletkezett adatokat (melyeket nem kötelező a riasztást megelőzően gyűjteni) a műveletirányító ügyeletnek továbbítania kell a vonuló egységek felé."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "II. fejezet"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "Beavatkozás építményekben bekövetkezett károk elhárításánál"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "1. Általános előírások"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "1.1. Ha az építménykárral egyidejűleg tűzeset is bekövetkezett vagy bekövetkezésével számolni lehet, a mentési csoport kijelölésével egyidejűleg a tűzoltásra is fel kell készülni."
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "1.2. A romok, törmelékek megbontását, eltávolítását a kirendelt szakemberek véleményének figyelembevételével és a megfelelő technikai eszközök igénybevételével kell végrehajtani."
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "1.3. A műszaki mentés területét, illetve a veszélyeztetett területet – ha az indokolt – zárt területté kell nyilvánítani, lezárásról intézkedni kell. A zárt területen tartózkodókról nyilvántartást kell vezetni."
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "2. Jelzés"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "2.1. Az R. előírásai mellett, lehetőség szerint, az alábbiakra terjedjen ki a jelzés fogadása, illetve annak értékelése, valamint az információgyűjtés:"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "a) épület szerkezetére, rendeltetésére, szintek számára;"
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "b) az épület szerkezetében, valamint közművekben károsodás történt-e, ha igen, az milyen mértékű;"
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "c) kapcsolatban van-e, vagy lehet-e az esemény helyszíne veszélyes létesítménnyel."
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "3. Felderítés"
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "3.1. Az R. előírásai mellett a felderítés az alábbiakra terjedjen ki:"
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "a) mekkora a kárterület vagy kárterületek kiterjedése;"
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "b) a káresemény összetettségének megítélésére (több veszélyforrás együttes veszélye, mit veszélyeztet még, kialakulhat-e dominóhatás);"
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "c) milyen mértékű az anyagi javak vesztesége, illetve a fellépő károsodás;"
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "d) meg kell állapítani a bajbajutott személyek számát és helyét;"
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "e) kárterületen található közművek állapota és a keletkezett kár mértéke;"
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "f) építmény méreteit, szintek számát, épületek rendeltetését (iroda, raktár, tárolt anyagok);"
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "g) épületek, építmények sérüléseit és helyzetük megváltozását az alaphoz képest (elmozdulás, süllyedés, megdőlés, borulás);"
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "h) szükség van-e romkutatásra mentőszervezetek igénybevételére;"
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "i) a kárhelyszín megközelíthetőségi viszonyaira, különleges gépek, eszközök megtelepítési lehetőségeire."
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "4. Beavatkozás előkészítése"
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "4.1. Az R. előírásai mellett a beavatkozás előkészítése során nagy figyelmet kell fordítani az alábbiakra:"
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "a) a romok eltávolítását minden esetben az életben maradt személyek jelenlétének feltételezésével kell megszervezni és végrehajtani;"
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "b) felkutatásukra alkalmazható lehetőségek: megmenekültek kikérdezése, kopogtatás, mentőkutyák igénybevétele, hőkamera;"
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "c) meg kell állapítani az épületbe tartózkodók létszámát;"
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "d) a szakfeladatok (és esetleges tüzek) lokalizálásához (oltásához) szükséges erők meghatározása;"
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "e) az értékelt adatok alapján a helyzetről szóló információk továbbítása a meghatározott vezetési szintekre;"
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "f) a bevonásra kerülő kárelhárító erők feladatainak kidolgozása és elosztása rövid és hosszabb távra;"
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "g) a felderítésben, a mentésben és mentesítésben részt vevő, a közvetlenül és közvetve veszélyeztetett személyi állomány védelmével kapcsolatos feladatok (védőeszközök és tartalékok) meghatározása;"
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "h) a kárelhárító egységek váltásának megszervezése;"
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "i) szükség esetén további egységek kijelölése és felkészítése a várható feladatokra."
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "5. Beavatkozás"
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "5.1. Az R. előírásai figyelembevételével."
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "5.2. Az építménykárok elhárításánál alapelvnek tekinthetők (sorrendjét a mentésvezetőnek kell meghatározni) az alábbiak:"
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "a) emberélet mentése, életveszély elhárítása;"
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "b) megrongált közművezetékek (például villamos-, víz- és gázvezetékek kiszakaszolása);"
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "c) tűz- és robbanásveszély elhárítása;"
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "d) további kár megelőzése az omlással fenyegető részek eltávolításával vagy rögzítésével;"
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "e) lakosságvédelmi intézkedések,"
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "f) anyagi javak mentése."
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "5.3. Építménykár-elhárítási munkálatok:"
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "a) támasztás (egyszerű, kettős, dúc, ékek);"
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "b) függesztés, feszítés;"
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "c) áthidalás;"
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "d) elmozgatás;"
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "e) bontás, döntés;"
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "f) áttörés."
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "5.4. A romosodás alapján meg kell határozniuk a mentés irányait. Ez történhet oldalirányból, felülről, valamint romok között mentőalagút létesítésével."
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "5.5. Ha feltételezhető, hogy az épület romjai alatt személy van, a kiszabadítást minden igénybe vehető erővel és eszközzel azonnal meg kell kezdeni."
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "5.6. Meg kell határozni a behatolás útvonalát, veszély esetén a menekülés útvonaláról gondoskodni kell."
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "5.7. Minden esetben gondoskodni kell tartalék személyzet készenlétbe tartásáról (a munka nehézsége miatt váltás vagy baleset esetén mentés miatt)."
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "5.8. A sérült épületbe behatolók biztonsága érdekében az építményszerkezeteket figyeltetni kell erre a feladatra függetlenített tűzoltókkal. Bármilyen változás esetén azonnal jelenteni kell a mentésvezetőnek, aki haladéktalanul tájékoztatja a behatoló tűzoltókat. Bonyolultabb építményrom esetén a figyelést több irányból célszerű megszervezni."
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "5.9. A betemetett személy mentéséhez intézkedni kell az igénybe vehető, erre alkalmas földmunkagép(ek) helyszínre rendelésére és munkába állítására. A gépek munkába állításáig a mentést kézi erővel, haladéktalanul meg kell kezdeni, és azt folyamatosan kell végezni. Ilyen esetben gondoskodni kell a végrehajtást végzők váltásáról."
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "5.10. A betemetett személy valószínűsíthető helyéhez közeledve munkagépet alkalmazni tilos, a kéziszerszámokat is csak nagyfokú óvatossággal lehet használni."
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "5.11. A mentésnél törekedni kell a mentendő személy fejének gyors megközelítésére, kiszabadítására, a halaszthatatlan egészségügyi beavatkozások lehetőségének biztosítása érdekében."
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "5.12. A füsttel, gázzal szennyezett tér szellőztetését biztosítani kell. Ilyen esetben a sérült légzésvédelméről – amennyiben azt a helyzete és a körülmények lehetővé teszik – gondoskodni kell."
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "5.13. A külvilágtól elzárt, betemetett személy levegővel történő ellátásáról gondoskodni kell."
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "5.14. A földtömegtől és egyéb anyagoktól megszabadított személy kiemelését minden esetben annak a feltételezésével kell végrehajtani, hogy nem látható sérüléseket, belső zúzódásokat is szenvedhetett."
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "5.15. A helyszínen a porképződés megakadályozására porlasztott vízsugarat kell biztosítani, amelynek során figyelemmel kell lenni, hogy a romokban megakadályozzuk a feliszapolódást."
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "5.16. Az állványbaleset (omlás) esetén elsődlegesen az állványon tartózkodók lementéséről kell gondoskodni. A mentés során ügyelni kell a súlyeloszlás folyamatos változására és az ebből adódó veszélyekre."
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "5.17. Állvány meghibásodásnál a dőlés veszélyét figyelembe kell venni, annak környezetében a személyek mozgásánál különös gondossággal kell eljárni."
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "5.18. Az állvány bontása, sérült elemek cseréje csak szakirányítással végezhető."
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "5.19. Talajszint alatti térből – mélyből – mentés végrehajtásakor (például alapozás, munkaárok, munkagödör, kút baleseteknél) a mentés megkezdése előtt intézkedni kell a villamos vezetékek, szerelvények, berendezések elektromos leválasztására."
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "5.20. Laza talajviszonyoknál, valamint amikor a betemetett személy helyzete nem ismert, a megközelítésre, mentésre a munkagödör szélesítés módszerét kell alkalmazni. A munkagödör szélesítése legalább a beomlott gödör mélységével egyező sugarú körben történjen."
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "5.21. Munkaárok, munkagödör baleseteknél a talajviszonyoktól, a mélységtől, a szélességtől függően, szükség szerinti pallózás elrendelésével intézkedni kell a munkagödör oldalfalai további omlásának megakadályozására."
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "5.22. A munkagödör szélét a kitermelt anyaggal, illetve személyekkel, felszerelésekkel terhelni tilos. A kitermelt anyagot a természetes rézsűszögön kívül kell elhelyezni."
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "5.23. A beomlott munkagödörnél minden esetben feltételezni kell, hogy a betemetett személy életben van mindaddig, amíg annak ellenkezőjét az orvos nem állapította meg."
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "6. A beavatkozás biztonsági előírásai"
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "6.1. Építménykárok elhárítása során kerülni kell az épület állékonyságát veszélyeztető beavatkozásokat. A bontási, dúcolási, kitámasztási munkálatok végrehajtásához szükség esetén statikus szakembert kell igénybe venni."
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "6.2. A beomlással fenyegető részeket eltávolítani vagy megfelelő módon kell rögzíteni."
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "6.3. Bezuhanás, lezuhanás veszélye esetén mászóöv, alpintechnikai eszközök, mentőkötelek igénybevétele indokolt. Felderítésnél, kutatásnál felső szintekről lefele haladva a felső szinten célszerű a biztosító kötelet rögzíteni."
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "6.4. A bontási munkák megkezdése előtt meg kell vizsgálni, hogy az építmény milyen anyagból készült, található-e azbeszttartalmú anyag az épületen. Az azbeszttartalmú épületek bontásánál használt egyéni védőeszközöket és védőruhákat elkülönítetten kell tárolni."
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "6.5. Munkamegszakítás esetén biztosítani kell a bontás közbeni, valamint a megmaradó épületszerkezetek állékonyságát."
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "6.6. Az épületek összefüggő szerkezeti részeit több szinten egyszerre bontani nem szabad."
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "6.7. Meglazult vagy bizonytalan teherbírású épületszerkezetekre, födémekre állványt vagy dúcolást nem szabad helyezni. A bontás során használt aládúcolásokat, kitámasztásokat, kiváltásokat úgy kell kialakítani, hogy az elbírja a megtartani kívánt épületszerkezeteket."
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "6.8. A döntés irányába eső területet szabaddá kell tenni, és el kell keríteni. Bontásnál a falmagasság kétszeresének megfelelő sávot kell veszélyes zónának tekinteni."
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "6.9. Aknákban, árkokban munkát végezni csak akkor szabad, ha a munkavégzés megkezdése előtt a munka irányítója meggyőződött arról, hogy ott gázok vagy egyéb veszélyes anyagok nem képződtek, vagy a képződött ilyen anyagok a munka során felhasznált anyagokkal vagy eszközökkel reakcióba lépve nem veszélyeztetik a munkavégzőket."
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "6.10. Aknákban, árokban végzendő munka esetén a szükséges helyi adottságoktól függő biztonsági előírásokat a munkavégzés irányítójának meg kell határoznia, és ismertetnie kell a munkát végzőkkel."
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "6.11. Az akna vagy árok lejáratánál figyelő személyeket kell biztosítani, akik a bent tartózkodókkal kapcsolatot tartanak. Biztosítani kell, hogy megfelelő nagyságú és számú bebúvónyílás álljon rendelkezésre a munkavégzés idején, hogy veszély és/vagy baleset esetén a szűk teret minden időben, gyorsan el lehessen hagyni, a balesetet szenvedettet pedig ki lehessen menteni."
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "6.12. A beomlott épületbe csak életmentés céljából szabad tűzoltókat beküldeni."
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "6.13. A sérült építménybe csak a legszükségesebb létszámú tűzoltót szabad igénybe venni."
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "6.14. A beavatkozók biztosítása érdekében legalább 2 fő álljon mentésre készenlétben. Amennyiben szükséges a biztosításban részt vevők létszámát növelni kell."
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "III. fejezet"
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "Beavatkozás közművekben, csatornarendszerekben (közműalagutakban) bekövetkezett baleseteknél"
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "1. Általános előírások"
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "1.1. Közművekben, csatornarendszerekben (közműalagutakban) a balesetek, károk felszámolásakor fel kell készülni:"
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "a) az ivó-, ipari-, szennyvízvezeték meghibásodására (elárasztás);"
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "b) a gázvezeték meghibásodására (szivárgás, gázömlés, robbanás, tűz, mérgezés);"
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "c) az elektromos kábel meghibásodására (robbanás, tűz, áramütés);"
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "d) a gőz-, melegvíz-vezeték meghibásodására (gőzkifúvás, forróvíz-kiáramlás);"
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "e) az útbeszakadás miatt bekövetkező csatorna (közműalagút) meghibásodására;"
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "f) az idegen anyagok (tűz- és robbanásveszélyes, valamint egyéb veszélyes anyagok) csatornába, közműalagútba jutására."
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "1.2. Meg kell állapítani, hogy a káreset során egy adott közművezetékkel, annak sérülésével vagy több vezeték együttes sérülésével kell-e számolnunk."
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "2. Jelzés"
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "2.1. Az R. előírásai mellett, lehetőség szerint, az alábbiakra terjedjen ki a jelzés fogadása, illetve annak értékelése, valamint az információgyűjtés:"
+    },
+    {
+      "provision_ref": "s107",
+      "section": "107",
+      "title": "107",
+      "content": "a) közműrendszer alaprajzi és térbeli paramétereire;"
+    },
+    {
+      "provision_ref": "s108",
+      "section": "108",
+      "title": "108",
+      "content": "b) a közműalagútba milyen vezetékek helyezkednek el;"
+    },
+    {
+      "provision_ref": "s109",
+      "section": "109",
+      "title": "109",
+      "content": "c) közműalagút járhatóságára, bejutási helyekre, térbeli elhelyezkedésére;"
+    },
+    {
+      "provision_ref": "s110",
+      "section": "110",
+      "title": "110",
+      "content": "d) előre gyártott elemes vagy zárt rendszerű építésű módra;"
+    },
+    {
+      "provision_ref": "s111",
+      "section": "111",
+      "title": "111",
+      "content": "e) az érintett terület nagyságára, kiterjedésére;"
+    },
+    {
+      "provision_ref": "s112",
+      "section": "112",
+      "title": "112",
+      "content": "f) közműfolyosós rendszernél az érintett épületek veszélyeztetett lakosok számára;"
+    },
+    {
+      "provision_ref": "s113",
+      "section": "113",
+      "title": "113",
+      "content": "g) a szakaszolás lehetőségeire, illetve a beavatkozást nehezítő körülményekre;"
+    },
+    {
+      "provision_ref": "s114",
+      "section": "114",
+      "title": "114",
+      "content": "h) az érintett szakaszon munkát végzők, ott tartózkodó személyek számára;"
+    },
+    {
+      "provision_ref": "s115",
+      "section": "115",
+      "title": "115",
+      "content": "i) beépített tűzvédelmi berendezésekre (tűzjelző, gázérzékelő, sprinkler, csappantyú);"
+    },
+    {
+      "provision_ref": "s116",
+      "section": "116",
+      "title": "116",
+      "content": "j) a tárolt, felhasznált anyagokra, azok várható veszélyeire;"
+    },
+    {
+      "provision_ref": "s117",
+      "section": "117",
+      "title": "117",
+      "content": "k) a közműalagút feszültségmentesítése megtörtént-e;"
+    },
+    {
+      "provision_ref": "s118",
+      "section": "118",
+      "title": "118",
+      "content": "l) helyi szakember jelenlétére, illetve elérhetőségére;"
+    },
+    {
+      "provision_ref": "s119",
+      "section": "119",
+      "title": "119",
+      "content": "m) a szintek számára;"
+    },
+    {
+      "provision_ref": "s120",
+      "section": "120",
+      "title": "120",
+      "content": "n) terepszinthez viszonyított mélység meghatározására."
+    },
+    {
+      "provision_ref": "s121",
+      "section": "121",
+      "title": "121",
+      "content": "2.2. A riasztást követően haladéktalanul értesíteni kell a fenntartót és az üzemeltetőt, az illetékes szakembereket, és ha az indokolt, további szakértők kirendeléséről kell gondoskodni."
+    },
+    {
+      "provision_ref": "s122",
+      "section": "122",
+      "title": "122",
+      "content": "3. Felderítés"
+    },
+    {
+      "provision_ref": "s123",
+      "section": "123",
+      "title": "123",
+      "content": "3.1. Az R. előírásai mellett a felderítés az alábbiakra terjedjen ki:"
+    },
+    {
+      "provision_ref": "s124",
+      "section": "124",
+      "title": "124",
+      "content": "a) a behatolási lehetőségekre;"
+    },
+    {
+      "provision_ref": "s125",
+      "section": "125",
+      "title": "125",
+      "content": "b) a behatolás útvonalára és a visszavonulás biztosítására;"
+    },
+    {
+      "provision_ref": "s126",
+      "section": "126",
+      "title": "126",
+      "content": "c) a szabad mozgást akadályozó egyéb tárgyakra, építészeti kialakításokra;"
+    },
+    {
+      "provision_ref": "s127",
+      "section": "127",
+      "title": "127",
+      "content": "d) a bent tartózkodók és a mentendő személyek számára, elhelyezkedésére, állapotára;"
+    },
+    {
+      "provision_ref": "s128",
+      "section": "128",
+      "title": "128",
+      "content": "e) a talajszint alatti helyiségek megközelítési útvonalaira, méreteire (hosszára, szélességére), kialakítására, járataira, födém- és falszerkezetére;"
+    },
+    {
+      "provision_ref": "s129",
+      "section": "129",
+      "title": "129",
+      "content": "f) szakaszolási lehetőségekre;"
+    },
+    {
+      "provision_ref": "s130",
+      "section": "130",
+      "title": "130",
+      "content": "g) a közművezetékek terhelésének csökkentési, áramtalanítási, a közüzemi rendszerek utánpótlásának leállítási lehetőségeire;"
+    },
+    {
+      "provision_ref": "s131",
+      "section": "131",
+      "title": "131",
+      "content": "h) a bekövetkezett és bekövetkezhető meghibásodásokra, közművezetékek állapotának felmérésére;"
+    },
+    {
+      "provision_ref": "s132",
+      "section": "132",
+      "title": "132",
+      "content": "i) közműfolyosós rendszer esetén a veszélyeztetett személyek kiürítésének lehetőségeire, szükségességére és módjára;"
+    },
+    {
+      "provision_ref": "s133",
+      "section": "133",
+      "title": "133",
+      "content": "j) a közműalagutakkal érintett terület környezetében tartózkodókra, a veszélyes zónában közlekedőkre."
+    },
+    {
+      "provision_ref": "s134",
+      "section": "134",
+      "title": "134",
+      "content": "3.2. A zárt térben történő felderítésre kijelöltek helyezzék készenlétbe a légzőkészüléket, és vegyenek magukhoz megfelelő világító eszközt és szükség esetén mentőkötelet."
+    },
+    {
+      "provision_ref": "s135",
+      "section": "135",
+      "title": "135",
+      "content": "4. Beavatkozás előkészítése"
+    },
+    {
+      "provision_ref": "s136",
+      "section": "136",
+      "title": "136",
+      "content": "4.1. Az R. előírásai mellett a beavatkozás előkészítése során nagy figyelmet kell fordítani az alábbiakra:"
+    },
+    {
+      "provision_ref": "s137",
+      "section": "137",
+      "title": "137",
+      "content": "a) a mentési munkálatokat csak a felderítést követően, a szükséges erők és eszközök kirendelése és megfelelő előkészítése után, a káreset jellegének megfelelő védőeszközök, felszerelések megléte esetén szabad megkezdeni, illetve végezni;"
+    },
+    {
+      "provision_ref": "s138",
+      "section": "138",
+      "title": "138",
+      "content": "b) a mentésvezető a feladatok végrehajtását a szakemberek, szakértők véleményének figyelembevételével irányítsa;"
+    },
+    {
+      "provision_ref": "s139",
+      "section": "139",
+      "title": "139",
+      "content": "c) a beavatkozás megkezdése előtt, lehetőség szerint be kell szerezni az érintett közműalagút térképét, és tájékozódni kell, hogy más szolgáltató is csatlakozhat-e az érintett szakaszhoz. Egy gyengeáramú közműalagút (távközlés, forgalomjelző lámpák) esetenként közös szakaszon működhet a közvilágítás elektromos, esetenként nagyfeszültségű hálózatával."
+    },
+    {
+      "provision_ref": "s140",
+      "section": "140",
+      "title": "140",
+      "content": "5. Beavatkozás"
+    },
+    {
+      "provision_ref": "s141",
+      "section": "141",
+      "title": "141",
+      "content": "5.1. Az R. előírásai figyelembevételével."
+    },
+    {
+      "provision_ref": "s142",
+      "section": "142",
+      "title": "142",
+      "content": "5.2. Csővezeték törése esetén intézkedni kell a vezeték kiszakaszolására. Közterületen levő vezetéknél a vezetékszakasz lezárását minden esetben az illetékes közműszolgáltatótól kell kérni."
+    },
+    {
+      "provision_ref": "s143",
+      "section": "143",
+      "title": "143",
+      "content": "5.3. A víz által elöntött területen elsődlegesen az életveszély elhárítására kell törekedni, majd ezt követően vagy ezzel párhuzamosan a robbanásveszélyt, illetve a kiáramlott víz veszélyes anyaggal történő szennyeződését kell megakadályozni."
+    },
+    {
+      "provision_ref": "s144",
+      "section": "144",
+      "title": "144",
+      "content": "5.4. A beavatkozás során minden nem nyitott elvezető rendszernél a felszabaduló gőzök és gázok fajtáját és koncentrációját méréssel folyamatosan ellenőrizni vagy ellenőriztetni kell."
+    },
+    {
+      "provision_ref": "s145",
+      "section": "145",
+      "title": "145",
+      "content": "5.5. Ha csatornában, alagútban életveszélyt kell elhárítani, oda minimum két főt kell leküldeni a feladat, illetve a biztosítás végrehajtására. További két főnek pedig megfelelő szintű védőfelszerelésben készenlétben kell állnia a feladat végrehajtásában részt vevők mentésére. Folyadék-közegáramlás esetén a folyási irányt is figyelembe kell venni. Az alagútban, csatornában történő életmentést szükség esetén kötélbiztosítása mellett kell végrehajtani."
+    },
+    {
+      "provision_ref": "s146",
+      "section": "146",
+      "title": "146",
+      "content": "5.6. Tartály sérülése esetén meg kell akadályozni, hogy az abból kiömlő mérgező, illetőleg tűz- vagy robbanásveszélyes anyag a csatornába jusson (a csatornaszemek – ideiglenes jelleggel – lezárásával, kiömlő anyag elterelésével, szétfolyás megakadályozásával, kiömlés megszüntetésével)."
+    },
+    {
+      "provision_ref": "s147",
+      "section": "147",
+      "title": "147",
+      "content": "5.7. Nagymennyiségű mérgező, tűz- vagy robbanásveszélyes anyag csatornába ömlése esetén a veszélyes anyag felhígítására, közömbösítésére felhasználható anyag fajtáját, alkalmazásának módját az illetékes szakemberek javaslata, szakvéleménye figyelembevételével kell meghatározni:"
+    },
+    {
+      "provision_ref": "s148",
+      "section": "148",
+      "title": "148",
+      "content": "a) tájékozódni kell a csatorna nyomvonaláról és a nyomvonalon bekövetkezhető eseményekről (mérgezés-, robbanás-, tűzveszély),"
+    },
+    {
+      "provision_ref": "s149",
+      "section": "149",
+      "title": "149",
+      "content": "b) mérlegelni kell a csatorna elzárásának lehetőségét és annak várható következményeit (visszaáramlás),"
+    },
+    {
+      "provision_ref": "s150",
+      "section": "150",
+      "title": "150",
+      "content": "c) szükség szerint a lakosságvédelmi intézkedések megtételére intézkedni kell."
+    },
+    {
+      "provision_ref": "s151",
+      "section": "151",
+      "title": "151",
+      "content": "5.8. A postai kábelek járható aknáiban, alagútjaiban csak az illetékes vezető által meghatározott biztonsági szabályok megtartása mellett szabad dolgozni."
+    },
+    {
+      "provision_ref": "s152",
+      "section": "152",
+      "title": "152",
+      "content": "5.9. A távfűtő- és melegvíz-szállító vezetékek sérüléseinél a forró gőz és víz miatt – a leforrázás elkerülése érdekében – a vezetékek elzárásáig szórt sugarat kell alkalmazni."
+    },
+    {
+      "provision_ref": "s153",
+      "section": "153",
+      "title": "153",
+      "content": "5.10. Gázzal szennyezett helyszínen a szakemberek véleményét ki kell kérni, de ennek hiányában is fel kell deríteni:"
+    },
+    {
+      "provision_ref": "s154",
+      "section": "154",
+      "title": "154",
+      "content": "a) a környezet kiürítésének szükségességét, lehetőségét,"
+    },
+    {
+      "provision_ref": "s155",
+      "section": "155",
+      "title": "155",
+      "content": "b) a gázömlés megszüntetésének, valamint a szellőzés, szellőztetés lehetőségeit."
+    },
+    {
+      "provision_ref": "s156",
+      "section": "156",
+      "title": "156",
+      "content": "5.11. Törekedni kell a sérült vezetékszakasz vagy berendezés mielőbbi leválasztására. Zárószerelvények hiánya, meghibásodása, hozzáférhetetlensége esetén az épületen (üzemrészen) kívül levő főelzárót – a technológia figyelembevétele mellett – kell lezárni."
+    },
+    {
+      "provision_ref": "s157",
+      "section": "157",
+      "title": "157",
+      "content": "5.12. Gázüzemű berendezések sérülése esetén gondoskodni kell a táplálás megszüntetéséről."
+    },
+    {
+      "provision_ref": "s158",
+      "section": "158",
+      "title": "158",
+      "content": "5.13. Tűz- és robbanásveszélyes gázok kiszabadulása esetén a gyújtóforrások eltávolításán túl a veszélyes koncentrációt meg kell szüntetni, vagy a kialakulását meg kell akadályozni."
+    },
+    {
+      "provision_ref": "s159",
+      "section": "159",
+      "title": "159",
+      "content": "5.14. A mérgező, maró vagy robbanásveszélyes gázokat, gőzöket – ha a víz alkalmazható – vízpermettel, szórt vízsugárral kell lekötni, illetve hígítani."
+    },
+    {
+      "provision_ref": "s160",
+      "section": "160",
+      "title": "160",
+      "content": "6. A beavatkozás biztonsági előírásai"
+    },
+    {
+      "provision_ref": "s161",
+      "section": "161",
+      "title": "161",
+      "content": "6.1. Közműalagútba, csatornába lehatoláskor légzőkészülék használata kötelező."
+    },
+    {
+      "provision_ref": "s162",
+      "section": "162",
+      "title": "162",
+      "content": "6.2. Tűz- és robbanásveszélyes anyaggal kapcsolatos esemény bekövetkezésekor csatornában, közműalagútban, aknában, illetve ezek közelében az illetékes szakember véleménye alapján meghatározott távolságon belül, ennek hiányában legalább 100 méteren belül a dohányzást és nyílt láng használatát meg kell tiltani. Ha az indokolt, a helyszínt zárt területté kell nyilvánítani."
+    },
+    {
+      "provision_ref": "s163",
+      "section": "163",
+      "title": "163",
+      "content": "6.3. A befagyott ajtók, az aknák fedlapjának kiolvasztására éghető gáz, gőz vagy folyadék jelenléte esetén nyílt láng nem használható."
+    },
+    {
+      "provision_ref": "s164",
+      "section": "164",
+      "title": "164",
+      "content": "6.4. Kis- és nagyfeszültségű kábelek, gyűjtősínek járható csatornáiba – közvetlen életveszély esetén is – csak feszültségmentesítés után szabad lemenni. A kábelek, gyűjtősínek feszültségmentesítésének végrehajtására az illetékes vezetőnek kell intézkedést tenni, és a feszültségmentesítés tényét írásban kell rögzíteni."
+    },
+    {
+      "provision_ref": "s165",
+      "section": "165",
+      "title": "165",
+      "content": "6.5. A közművek kiszakaszolása csak a technológia figyelembevételével történhet. A kiszakaszolásnál figyelemmel kell lenni a kritikus infrastruktúra elemek érintettségére."
+    },
+    {
+      "provision_ref": "s166",
+      "section": "166",
+      "title": "166",
+      "content": "6.6. A bent tartózkodó beavatkozásban részt vevőkről nyilvántartást kell készíteni, amelyben jelölni kell a létszámukon túl a behatolás időpontját, a bent tartózkodás idejét, valamint a visszavonulás megkezdésének időpontját. A mentésvezető jelöljön ki legalább 1 főt, aki ezt a nyilvántartást vezeti és őt folyamatosan információval látja el a beavatkozásban részt vevőkről."
+    },
+    {
+      "provision_ref": "s167",
+      "section": "167",
+      "title": "167",
+      "content": "6.7. Kétirányú behatolás esetén meg kell kettőzni a biztonsági feladatokat. Mindkét oldalon önállóan kell a nyilvántartást vezetni, illetve ebben az esetben meg kell szervezni a nyilvántartást végzők információcseréjét az alagút kétirányú elhagyásának lehetőségéről."
+    },
+    {
+      "provision_ref": "s168",
+      "section": "168",
+      "title": "168",
+      "content": "6.8. A talajszint alatti árnyékolás miatt a rádióösszeköttetés megszűnhet, ezért fokozott figyelemmel és biztonsági idők meghatározásával kell biztonságosabbá tenni a beavatkozást."
+    },
+    {
+      "provision_ref": "s169",
+      "section": "169",
+      "title": "169",
+      "content": "6.9. A beavatkozók biztosítására legalább 2 fő álljon mentésre készenlétben légzőkészülékkel. Amennyiben szükséges a biztosításban részt vevők létszámát növelni kell. Ezen biztosító személyek a tartalékképzés során nem számíthatóak be."
+    },
+    {
+      "provision_ref": "s170",
+      "section": "170",
+      "title": "170",
+      "content": "6.10. Egészségügyi biztosításról vagy elsősegélynyújtás lehetőségéről (lehetőleg a behatolás megkezdésekor) gondoskodni kell."
+    },
+    {
+      "provision_ref": "s171",
+      "section": "171",
+      "title": "171",
+      "content": "6.11. Behatoláskor a mentésvezető vagy az általa kijelölt személy győződjön meg:"
+    },
+    {
+      "provision_ref": "s172",
+      "section": "172",
+      "title": "172",
+      "content": "a) a bevetésben részt vevők védőfelszereléseinek biztonságos, megfelelő alkalmazásáról;"
+    },
+    {
+      "provision_ref": "s173",
+      "section": "173",
+      "title": "173",
+      "content": "b) a beavatkozó állomány beavatkozást segítő eligazításáról."
+    },
+    {
+      "provision_ref": "s174",
+      "section": "174",
+      "title": "174",
+      "content": "7. Utómunkálatok"
+    },
+    {
+      "provision_ref": "s175",
+      "section": "175",
+      "title": "175",
+      "content": "7.1. Az R. előírásai mellett az utómunkálat során nagy figyelmet kell fordítani arra, hogy a beavatkozás befejezése után a műszaki mentésben részt vevő személyek, illetőleg a szennyezett gépjárművek, felszerelések megtisztítását – legalább részleges mentesítését – el kell végezni."
+    },
+    {
+      "provision_ref": "s176",
+      "section": "176",
+      "title": "176",
+      "content": "IV. fejezet"
+    },
+    {
+      "provision_ref": "s177",
+      "section": "177",
+      "title": "177",
+      "content": "Közlekedési baleseteknél történő beavatkozás szabályai"
+    },
+    {
+      "provision_ref": "s178",
+      "section": "178",
+      "title": "178",
+      "content": "1. Általános előírások"
+    },
+    {
+      "provision_ref": "s179",
+      "section": "179",
+      "title": "179",
+      "content": "1.1. A közlekedési balesetről beérkezett jelzés vételét követően értesíteni kell a rendőrséget, a mentőket, a szükséges közreműködő szervezeteket, és ha az indokolt, szakértő(k) kirendelésére kell intézkedni."
+    },
+    {
+      "provision_ref": "s180",
+      "section": "180",
+      "title": "180",
+      "content": "1.2. Vasúti, légi, valamint vízi közlekedés területén bekövetkezett baleset esetén a Közlekedésbiztonsági Szervezet által végzett vizsgálatokban – felkérés esetén – közre kell működni."
+    },
+    {
+      "provision_ref": "s181",
+      "section": "181",
+      "title": "181",
+      "content": "1.3. A biztonságos tűzoltói beavatkozáshoz szükséges a kárhely – a rendőri, polgárőri erők által végrehajtott – részleges vagy teljes lezárása, amennyiben lehetséges a forgalom elterelése. A beavatkozói állomány a kárhely részleges vagy teljes lezárását tűzoltó gépjárművel, és/vagy jelzőeszközök segítségével a helyszínre érkezés után kezdje meg."
+    },
+    {
+      "provision_ref": "s182",
+      "section": "182",
+      "title": "182",
+      "content": "2. Beavatkozás közúti járművek baleseténél"
+    },
+    {
+      "provision_ref": "s183",
+      "section": "183",
+      "title": "183",
+      "content": "2.1. Jelzés"
+    },
+    {
+      "provision_ref": "s184",
+      "section": "184",
+      "title": "184",
+      "content": "2.1.1. Az R. előírásai mellett, lehetőség szerint, az alábbiakra terjedjen ki a jelzés fogadása, illetve annak értékelése, valamint az információgyűjtés:"
+    },
+    {
+      "provision_ref": "s185",
+      "section": "185",
+      "title": "185",
+      "content": "a) milyen fajtájú jármű(vek) szenvedett (szenvedtek) balesetet (személy- és tehergépjármű, autóbusz);"
+    },
+    {
+      "provision_ref": "s186",
+      "section": "186",
+      "title": "186",
+      "content": "b) melyek a szállító jármű, illetve a rakomány legfőbb jellemzői (platós, tartányos, konténer);"
+    },
+    {
+      "provision_ref": "s187",
+      "section": "187",
+      "title": "187",
+      "content": "c) látható-e veszélyt jelző tábla vagy bárca, ha igen, mit tartalmaz;"
+    },
+    {
+      "provision_ref": "s188",
+      "section": "188",
+      "title": "188",
+      "content": "d) történt-e anyagkifolyás, és ha igen, melyek a veszélyes anyag látható jellemzői;"
+    },
+    {
+      "provision_ref": "s189",
+      "section": "189",
+      "title": "189",
+      "content": "e) mi a látható jellemzője az üzemelési módnak (normál, gázos, hibrid gépjármű);"
+    },
+    {
+      "provision_ref": "s190",
+      "section": "190",
+      "title": "190",
+      "content": "f) milyen volt a balesetet szenvedett jármű(vek) haladási iránya;"
+    },
+    {
+      "provision_ref": "s191",
+      "section": "191",
+      "title": "191",
+      "content": "g) milyen a járművek baleset utáni elhelyezkedése (felborult, árokba hajtott, keresztbe fordult);"
+    },
+    {
+      "provision_ref": "s192",
+      "section": "192",
+      "title": "192",
+      "content": "h) vannak-e beszorult személyek, egyéb sérültek, illetve azok száma;"
+    },
+    {
+      "provision_ref": "s193",
+      "section": "193",
+      "title": "193",
+      "content": "i) képez-e forgalmi akadályt;"
+    },
+    {
+      "provision_ref": "s194",
+      "section": "194",
+      "title": "194",
+      "content": "j) milyenek a megközelítési lehetőségek (torlódás);"
+    },
+    {
+      "provision_ref": "s195",
+      "section": "195",
+      "title": "195",
+      "content": "k) milyenek a helyszínen tapasztalható meteorológiai viszonyok (szélirány, csapadék);"
+    },
+    {
+      "provision_ref": "s196",
+      "section": "196",
+      "title": "196",
+      "content": "l) közművezeték sérült-e."
+    },
+    {
+      "provision_ref": "s197",
+      "section": "197",
+      "title": "197",
+      "content": "2.2. Vonulás"
+    },
+    {
+      "provision_ref": "s198",
+      "section": "198",
+      "title": "198",
+      "content": "2.2.1. Az R. előírásai mellett a vonulás az alábbiak figyelembevételével történjen:"
+    },
+    {
+      "provision_ref": "s199",
+      "section": "199",
+      "title": "199",
+      "content": "a) vonulás során a helyszín megközelítésével kapcsolatban további információkat kell kérni (torlódás, útlezárás, súlykorlátozás, magasság korlátozás), szükség szerint a vonuló egységek parancsnoka határozzon meg másik vonulási útvonalat;"
+    },
+    {
+      "provision_ref": "s200",
+      "section": "200",
+      "title": "200",
+      "content": "b) a forgalom várható torlódása miatt lehetőleg a sérült jármű menetirányával ellentétes irányból, illetve a legközelebbi keresztező útról kell megközelíteni a helyszínt;"
+    },
+    {
+      "provision_ref": "s201",
+      "section": "201",
+      "title": "201",
+      "content": "c) veszélyes anyag szállítása során bekövetkezett káresetnél a meteorológiai és terepviszonyok, valamint ezen utasítás veszélyes anyagokkal kapcsolatos beavatkozások előírásainak fokozott figyelembevételével történjen a vonulás."
+    },
+    {
+      "provision_ref": "s202",
+      "section": "202",
+      "title": "202",
+      "content": "2.3. Felderítés"
+    },
+    {
+      "provision_ref": "s203",
+      "section": "203",
+      "title": "203",
+      "content": "2.3.1. Az R. előírásai mellett a felderítés az alábbiakra terjedjen ki:"
+    },
+    {
+      "provision_ref": "s204",
+      "section": "204",
+      "title": "204",
+      "content": "a) a járművön és vontatmányon elhelyezett veszélyt jelző táblák, bárcák, illetve menetokmányból információszerzés a szállítmányra vonatkozólag;"
+    },
+    {
+      "provision_ref": "s205",
+      "section": "205",
+      "title": "205",
+      "content": "b) életveszély esetén meg kell határozni a bajba jutott személyek számát, elhelyezkedésüket;"
+    },
+    {
+      "provision_ref": "s206",
+      "section": "206",
+      "title": "206",
+      "content": "c) elektromos és más légvezeték, híd, közúti felüljáró, aluljáró védelme szükséges-e;"
+    },
+    {
+      "provision_ref": "s207",
+      "section": "207",
+      "title": "207",
+      "content": "d) biztonságos megközelítési, illetve a tűzoltó technika működési távolság lehetőségeinek felderítése;"
+    },
+    {
+      "provision_ref": "s208",
+      "section": "208",
+      "title": "208",
+      "content": "e) jármű, rakomány elmozdulásának lehetősége;"
+    },
+    {
+      "provision_ref": "s209",
+      "section": "209",
+      "title": "209",
+      "content": "f) időjárási viszonyok befolyásoló hatása."
+    },
+    {
+      "provision_ref": "s210",
+      "section": "210",
+      "title": "210",
+      "content": "2.4. Beavatkozás előkészítése"
+    },
+    {
+      "provision_ref": "s211",
+      "section": "211",
+      "title": "211",
+      "content": "2.4.1. Az R. előírásai mellett a beavatkozás előkészítése során nagy figyelmet kell fordítani az alábbiakra:"
+    },
+    {
+      "provision_ref": "s212",
+      "section": "212",
+      "title": "212",
+      "content": "a) a rendőrség kiérkezéséig a helyszín biztosítása, forgalom elterelése, kárhely szükség szerinti lezárása;"
+    },
+    {
+      "provision_ref": "s213",
+      "section": "213",
+      "title": "213",
+      "content": "b) intézkedni kell a terület biztosítására, a lakosságvédelmi intézkedések megtételére, szükség szerint a társszervek, illetve a közreműködő szakemberek [rendőrség, mentő, az illetékes Kormányhivatal Népegészségügyi Szakigazgatási Szerve (a továbbiakban: NSZSZ), közműszolgáltatók, közlekedési vállalatok, nemzetközi áthaladó szállítmány esetén a Nemzeti Adó- és Vámhivatal] kirendelésére, valamint egyéb speciális erők-eszközök riasztására;"
+    },
+    {
+      "provision_ref": "s214",
+      "section": "214",
+      "title": "214",
+      "content": "c) a nem aktiválódott légzsák biztonsági rögzítéséről gondoskodni kell."
+    },
+    {
+      "provision_ref": "s215",
+      "section": "215",
+      "title": "215",
+      "content": "2.5. Beavatkozás"
+    },
+    {
+      "provision_ref": "s216",
+      "section": "216",
+      "title": "216",
+      "content": "2.5.1. Az R. előírásai figyelembevételével."
+    },
+    {
+      "provision_ref": "s217",
+      "section": "217",
+      "title": "217",
+      "content": "2.5.2. Egy kárhelyszínen több sérült járműnél, illetve több kárhelyszínen történő egyidejű beavatkozás esetén intézkedni kell, hogy lehetőleg az összes kárhelyszínen folyamatosan történjenek a mentési munkálatok."
+    },
+    {
+      "provision_ref": "s218",
+      "section": "218",
+      "title": "218",
+      "content": "2.5.3. Különös figyelemmel és körültekintéssel kell eljárni a sérült jármű(vek)ben a roncsok között lévő személyek felkutatásánál, mentésénél, figyelembe kell venni az orvos, illetőleg a mentők véleményét. A sérült, eszméleténél lévő személlyel folyamatos pozitív kommunikáció szükséges, amellyel a mentést tudjuk elősegíteni, illetve adott esetben a pánikban lévő személyt megnyugtatni."
+    },
+    {
+      "provision_ref": "s219",
+      "section": "219",
+      "title": "219",
+      "content": "2.5.4. Több sérült esetén az orvos, illetőleg a mentők véleményének figyelembevételével meg kell határozni a mentés végrehajtásának sorrendjét, gondoskodni kell a balesetet szenvedettek segítségnyújtási, ellátási helyének kijelöléséről."
+    },
+    {
+      "provision_ref": "s220",
+      "section": "220",
+      "title": "220",
+      "content": "2.5.5. Meg kell akadályozni az anyagok további kifolyását, szétszóródását."
+    },
+    {
+      "provision_ref": "s221",
+      "section": "221",
+      "title": "221",
+      "content": "2.5.6. A már kifolyt, kiszóródott anyagok továbbterjedését, csatornába, közműalagútba, aknába való jutását körülhatárolással, árkolással, letakarással kell megakadályozni."
+    },
+    {
+      "provision_ref": "s222",
+      "section": "222",
+      "title": "222",
+      "content": "2.5.7. A felborult járművek felállítását, biztonságba helyezését a bevont szakemberek véleményének figyelembevételével, illetve közreműködésükkel kell végrehajtani."
+    },
+    {
+      "provision_ref": "s223",
+      "section": "223",
+      "title": "223",
+      "content": "2.5.8. A sérült közúti járművek áramtalanítását és elmozdulás elleni rögzítését haladéktalanul el kell végezni."
+    },
+    {
+      "provision_ref": "s224",
+      "section": "224",
+      "title": "224",
+      "content": "2.5.9. Intézkedni kell a kifolyt üzemanyag eltávolítására, a jármű(vek) teljes feszültségmentesítésére, az akkumulátorok biztonságba helyezésére."
+    },
+    {
+      "provision_ref": "s225",
+      "section": "225",
+      "title": "225",
+      "content": "2.5.10. A gázüzemű gépjárművek balesete esetén a gépjármű gázellátó rendszerének épségét meg kell vizsgálni, és a gázcsapokat el kell zárni."
+    },
+    {
+      "provision_ref": "s226",
+      "section": "226",
+      "title": "226",
+      "content": "2.5.11. A sérült közúti jármű áramtalanítását és elmozdulás elleni rögzítését követően, ha nincs életveszély és a jármű nem okoz forgalmi akadályt, a helyszínt át kell adni a rendőrség, közútkezelő helyszínre érkező szakemberének."
+    },
+    {
+      "provision_ref": "s227",
+      "section": "227",
+      "title": "227",
+      "content": "2.5.12. Mentés közben törekedni kell a kárhelyszín legkisebb mértékű megváltoztatására (gépjárművek, roncsok, féknyomok), ezzel elősegítve a rendőrség helyszínelő tevékenységét."
+    },
+    {
+      "provision_ref": "s228",
+      "section": "228",
+      "title": "228",
+      "content": "2.6. A beavatkozás biztonsági előírásai"
+    },
+    {
+      "provision_ref": "s229",
+      "section": "229",
+      "title": "229",
+      "content": "2.6.1. Gépjármű motorjának leállítása, áramtalanítás, az akkumulátor saruinak eltávolítása."
+    },
+    {
+      "provision_ref": "s230",
+      "section": "230",
+      "title": "230",
+      "content": "2.6.2. A jármű stabilizálása, mert a deformálódás miatt a súlypont megváltozhat, baleset-, illetve borulásveszély következhet be."
+    },
+    {
+      "provision_ref": "s231",
+      "section": "231",
+      "title": "231",
+      "content": "2.6.3. Fokozott figyelmet kell fordítani a járművekben elhelyezett biztonsági berendezésekre és azokat működtető rendszerekre, melyek hő- vagy mechanikai hatásra üzemszerű vagy attól eltérő folyamatokat idézhetnek elő."
+    },
+    {
+      "provision_ref": "s232",
+      "section": "232",
+      "title": "232",
+      "content": "2.7. Utómunkálatok"
+    },
+    {
+      "provision_ref": "s233",
+      "section": "233",
+      "title": "233",
+      "content": "2.7.1. Az R. előírásai mellett az utómunkálat során nagy figyelmet kell fordítani az alábbiakra:"
+    },
+    {
+      "provision_ref": "s234",
+      "section": "234",
+      "title": "234",
+      "content": "a) a további környezeti károk megakadályozására;"
+    },
+    {
+      "provision_ref": "s235",
+      "section": "235",
+      "title": "235",
+      "content": "b) a tűzoltási, kárelhárítási tevékenység befejeztével gondoskodni kell a forgalmi akadály megszüntetéséről, további veszélyhelyzeteket okozó körülmények elhárításáról, illetve a közútkezelő szervezet kirendeléséről."
+    },
+    {
+      "provision_ref": "s236",
+      "section": "236",
+      "title": "236",
+      "content": "3. Beavatkozás speciális szabályai hibrid, elektromos, gáz üzemű járművek baleseteinél"
+    },
+    {
+      "provision_ref": "s237",
+      "section": "237",
+      "title": "237",
+      "content": "A jelzés vételétől a felderítésig megegyezik a beavatkozás közúti járművek baleseténél említettekkel."
+    },
+    {
+      "provision_ref": "s238",
+      "section": "238",
+      "title": "238",
+      "content": "3.1. Felderítés"
+    },
+    {
+      "provision_ref": "s239",
+      "section": "239",
+      "title": "239",
+      "content": "3.1.1. A felderítés az alábbiakra terjedjen ki:"
+    },
+    {
+      "provision_ref": "s240",
+      "section": "240",
+      "title": "240",
+      "content": "a) az üzemelési mód jellemzőjét, azonosító jeleket, feliratokat, külső jeleket fel kell kutatni (típusjelzés mellett, szélvédőn, külső csatlakozó mellett: Hybrid, Hybrid Synergy Drive, Elektric Drive, LPG,);"
+    },
+    {
+      "provision_ref": "s241",
+      "section": "241",
+      "title": "241",
+      "content": "b) a műszerfalon elhelyezkedik-e külön töltés-feszültségmérő, valamint mellette Power feliratú nyomógomb;"
+    },
+    {
+      "provision_ref": "s242",
+      "section": "242",
+      "title": "242",
+      "content": "c) a nagy- vagy középfeszültségű (narancssárga vagy kék) kábelek helyét."
+    },
+    {
+      "provision_ref": "s243",
+      "section": "243",
+      "title": "243",
+      "content": "3.2. Beavatkozás előkészítése"
+    },
+    {
+      "provision_ref": "s244",
+      "section": "244",
+      "title": "244",
+      "content": "3.2.1. A beavatkozás előkészítése során nagy figyelmet kell fordítani az alábbiakra:"
+    },
+    {
+      "provision_ref": "s245",
+      "section": "245",
+      "title": "245",
+      "content": "a) hibrid üzemmód esetén a nagyfeszültségű rendszer áramtalanításáig az alvó hatásból adódó balesetek elkerülése érdekében a járművet rögzíteni kell (hibrid gépjármű belsőégésű motorja a jármű álló helyzetében kikapcsolt állapotban van, ha a sérült járművezető vagy a beavatkozást végző személy véletlenül a gázpedált megnyomja, akkor a jármű elindul és balesetet okozhat);"
+    },
+    {
+      "provision_ref": "s246",
+      "section": "246",
+      "title": "246",
+      "content": "b) nagyfeszültségű rendszer áramtalanítását az arra kijelölt elemmel kell elvégezni, (helyét piktogramok jelzik, csomagtérben, vagy a hátsó üléssor mellett, alatt, egyes típusoknál a pótkerék alatt található);"
+    },
+    {
+      "provision_ref": "s247",
+      "section": "247",
+      "title": "247",
+      "content": "c) a beavatkozás során figyelembe kell venni, hogy az áramtalanítás után a műszerfal elsötétül, ezután a nagyfeszültségű rendszer még több percig (körülbelül 5 perc) áram alatt van, ezalatt a nagyfeszültségű vezetéket elvágni, vagy megbontani tilos. Ez idő alatt aktiválódhatnak még a jármű biztonsági berendezései, a légzsákok és övfeszítők is;"
+    },
+    {
+      "provision_ref": "s248",
+      "section": "248",
+      "title": "248",
+      "content": "d) a jármű nagyfeszültségű rendszere kikapcsol, amennyiben a légzsákok működésbe léptek. Amennyiben a légzsákok nem léptek működésbe egy újabb veszélyforrással kell számolnunk;"
+    },
+    {
+      "provision_ref": "s249",
+      "section": "249",
+      "title": "249",
+      "content": "e) az ilyen járművek esetén csak az érintésvédelmi előírásoknak megfelelő (szigetelt nyelű csavarhúzó, csípőfogó) szerszámokat szabad használni."
+    },
+    {
+      "provision_ref": "s250",
+      "section": "250",
+      "title": "250",
+      "content": "3.2.2. A gázüzemű gépjárművek balesete esetén a gépjármű gázellátó rendszerének épségét meg kell vizsgálni és a gázcsapokat el kell zárni, amennyiben hőhatás érte, a tartály hűtéséről gondoskodni kell."
+    },
+    {
+      "provision_ref": "s251",
+      "section": "251",
+      "title": "251",
+      "content": "3.3. Beavatkozás"
+    },
+    {
+      "provision_ref": "s252",
+      "section": "252",
+      "title": "252",
+      "content": "3.3.1. A jármű stabilizálása során fokozott figyelmet kell fordítani a nagyfeszültségű kábelekre, azok esetleges megsértésére."
+    },
+    {
+      "provision_ref": "s253",
+      "section": "253",
+      "title": "253",
+      "content": "3.3.2. Amennyiben a járművön található gyári alátámasztási pont, akkor azokat kell használni."
+    },
+    {
+      "provision_ref": "s254",
+      "section": "254",
+      "title": "254",
+      "content": "3.4. A beavatkozás biztonsági előírásai"
+    },
+    {
+      "provision_ref": "s255",
+      "section": "255",
+      "title": "255",
+      "content": "3.4.1. Gépjármű motorjának leállítása, áramtalanítás. A kiegészítő akkumulátor saruinak eltávolítása."
+    },
+    {
+      "provision_ref": "s256",
+      "section": "256",
+      "title": "256",
+      "content": "3.4.2. A jármű indítókulcsának a gépjárműtől legalább 10 méterre történő eltávolítása."
+    },
+    {
+      "provision_ref": "s257",
+      "section": "257",
+      "title": "257",
+      "content": "3.4.3. A jármű stabilizálása, mert a deformálódás miatt a súlypont megváltozhat, baleset-, illetve borulásveszély következhet be."
+    },
+    {
+      "provision_ref": "s258",
+      "section": "258",
+      "title": "258",
+      "content": "3.4.4. A tároló akkumulátorok feszültsége sorba kötött modulok esetében 150–650 V. Az akkumulátor telep fedelének eltávolítása tilos, ekkor ugyanis komoly elektromos égés, sokk vagy áramütés veszélye áll fenn. Az akkumulátorok elektrolitja az emberi szövetet roncsoló maróanyag, ami az elektródák között helyezkedik el."
+    },
+    {
+      "provision_ref": "s259",
+      "section": "259",
+      "title": "259",
+      "content": "3.4.5. A biztonságtechnikai berendezések ismeretében, a beavatkozás biztonságos végrehajtása megköveteli a feszültségmentesítést, ezért kellő gyakorlattal és megfelelő védőfelszereléssel rendelkező tűzoltó azt a mentésvezető irányításával végrehajthatja. Áramtalanítás csak a megjelölt helyen lévő áramtalanító retesz, illetve főbiztosíték eltávolításával hajtható végre, amennyiben ez nem lehetséges, a főkábelt csak a megjelölt helyen szabad elvágni."
+    },
+    {
+      "provision_ref": "s260",
+      "section": "260",
+      "title": "260",
+      "content": "3.4.6. Nagyfeszültségű rendszer akkumulátorának sérülése esetén légzésvédelmi eszköz használata kötelező."
+    },
+    {
+      "provision_ref": "s261",
+      "section": "261",
+      "title": "261",
+      "content": "3.5. Utómunkálatok"
+    },
+    {
+      "provision_ref": "s262",
+      "section": "262",
+      "title": "262",
+      "content": "Jelen utasítás Közlekedési baleseteknél történő beavatkozás szabályai 2.7. pontja és annak alpontjai alapján."
+    },
+    {
+      "provision_ref": "s263",
+      "section": "263",
+      "title": "263",
+      "content": "4. Beavatkozás kötöttpályás járművek baleseteinél"
+    },
+    {
+      "provision_ref": "s264",
+      "section": "264",
+      "title": "264",
+      "content": "4.1. Általános előírások"
+    },
+    {
+      "provision_ref": "s265",
+      "section": "265",
+      "title": "265",
+      "content": "4.1.1. Jelen fejezetben a sínen haladó járművek baleseteinek felszámolásánál alkalmazandó szabályok kerültek rögzítésre."
+    },
+    {
+      "provision_ref": "s266",
+      "section": "266",
+      "title": "266",
+      "content": "4.1.2. A gumikerekes, felsővezetékhez kötött járművek balesetei során a felsővezeték feszültség mentesítése után jelen utasítás Beavatkozás közúti járművek baleseténél 2. pontban meghatározottak szerint kell végezni a beavatkozást, annak figyelembevételével, hogy egyes járművek a beavatkozásban részt vevőkre veszélyt rejtő – a hibrid és elektromos járművekhez hasonlóan – nagyfeszültségű áramforrásokat tartalmaznak."
+    },
+    {
+      "provision_ref": "s267",
+      "section": "267",
+      "title": "267",
+      "content": "4.2. Jelzés"
+    },
+    {
+      "provision_ref": "s268",
+      "section": "268",
+      "title": "268",
+      "content": "4.2.1. Az R. előírásai mellett, lehetőség szerint, az alábbiakra terjedjen ki a jelzés fogadása, illetve annak értékelése, valamint az információgyűjtés:"
+    },
+    {
+      "provision_ref": "s269",
+      "section": "269",
+      "title": "269",
+      "content": "a) amennyiben a jelzés a vasúttól érkezik és vasúti kilométerszelvényben határozzák meg a helyszínt, vissza kell kérdezni a helyszín pontos meghatározása érdekében;"
+    },
+    {
+      "provision_ref": "s270",
+      "section": "270",
+      "title": "270",
+      "content": "b) milyen típusú jármű(vek) szenvedett (szenvedtek) balesetet;"
+    },
+    {
+      "provision_ref": "s271",
+      "section": "271",
+      "title": "271",
+      "content": "c) vannak-e beszorult személyek, további sérültek;"
+    },
+    {
+      "provision_ref": "s272",
+      "section": "272",
+      "title": "272",
+      "content": "d) adott pályaszakasz feszültségmentesítése megtörtént-e;"
+    },
+    {
+      "provision_ref": "s273",
+      "section": "273",
+      "title": "273",
+      "content": "e) milyen jellegű a szállító jármű (személy, teher, tartányos);"
+    },
+    {
+      "provision_ref": "s274",
+      "section": "274",
+      "title": "274",
+      "content": "f) mi a rakomány (éghetősége; veszélyessége; halmazállapota; veszélyt jelző tábla vagy bárca információi);"
+    },
+    {
+      "provision_ref": "s275",
+      "section": "275",
+      "title": "275",
+      "content": "g) mit tartalmaznak az okmányok;"
+    },
+    {
+      "provision_ref": "s276",
+      "section": "276",
+      "title": "276",
+      "content": "h) milyen volt a jármű haladási iránya, valamint a balesetet követően milyen az elhelyezkedése, nyílt pályán, lakott területen kívül történt-e a baleset, történt-e pályaelhagyás, kisiklás, borulás, frontális ütközés, felsővezeték- szakadás;"
+    },
+    {
+      "provision_ref": "s277",
+      "section": "277",
+      "title": "277",
+      "content": "i) milyenek az időjárási viszonyok;"
+    },
+    {
+      "provision_ref": "s278",
+      "section": "278",
+      "title": "278",
+      "content": "j) milyen a beavatkozás helyszínének megközelítése;"
+    },
+    {
+      "provision_ref": "s279",
+      "section": "279",
+      "title": "279",
+      "content": "k) vontató, toló jármű hajtóanyaga (diesel, elektromos, szilárd)."
+    },
+    {
+      "provision_ref": "s280",
+      "section": "280",
+      "title": "280",
+      "content": "4.3. Vonulás"
+    },
+    {
+      "provision_ref": "s281",
+      "section": "281",
+      "title": "281",
+      "content": "4.3.1. Az R. előírásai mellett a vonulás az alábbiak figyelembevételével történjen:"
+    },
+    {
+      "provision_ref": "s282",
+      "section": "282",
+      "title": "282",
+      "content": "a) vonulás megkezdése előtt vagy közben (amennyiben vasúton történt a káreset), intézkedni kell a vasúti baleset-elhárító egységek helyszínre történő riasztásáról is;"
+    },
+    {
+      "provision_ref": "s283",
+      "section": "283",
+      "title": "283",
+      "content": "b) vonulás során a helyszín megközelítésével kapcsolatban további információkat kell kérni (torlódás, útlezárás, súlykorlátozás és magasságkorlátozás), szükség szerint a vonuló egységek parancsnoka határozzon meg másik vonulási útvonalat."
+    },
+    {
+      "provision_ref": "s284",
+      "section": "284",
+      "title": "284",
+      "content": "4.4. Felderítés"
+    },
+    {
+      "provision_ref": "s285",
+      "section": "285",
+      "title": "285",
+      "content": "4.4.1. Az R. előírásai mellett a felderítés az alábbiakra terjedjen ki:"
+    },
+    {
+      "provision_ref": "s286",
+      "section": "286",
+      "title": "286",
+      "content": "a) a feszültségmentesítés végrehajtására (feszültség alatti felső vezetéket, elektromos egységet 2 méteren belül tilos megközelíteni);"
+    },
+    {
+      "provision_ref": "s287",
+      "section": "287",
+      "title": "287",
+      "content": "b) a személymentés végrehajtásának szükségességére, a mentendő személyek számára, elhelyezkedésére, a mentés módjára;"
+    },
+    {
+      "provision_ref": "s288",
+      "section": "288",
+      "title": "288",
+      "content": "c) a látható jelenségek (anyagkifolyás, szétszóródás) alapján a várható következményekre (tűz- vagy robbanásveszély lehetőségét);"
+    },
+    {
+      "provision_ref": "s289",
+      "section": "289",
+      "title": "289",
+      "content": "d) a járműveken, tartányokon van-e elhelyezve veszélyes anyag jelenlétére utaló tábla vagy bárca;"
+    },
+    {
+      "provision_ref": "s290",
+      "section": "290",
+      "title": "290",
+      "content": "e) forgalom leállítására, elterelésének lehetőségeire, szükség szerint a terület lezárására;"
+    },
+    {
+      "provision_ref": "s291",
+      "section": "291",
+      "title": "291",
+      "content": "f) elektromos és más légvezeték, híd, közúti felüljáró, aluljáró védelmére;"
+    },
+    {
+      "provision_ref": "s292",
+      "section": "292",
+      "title": "292",
+      "content": "g) biztonságos megközelítési, illetve a tűzoltó technika működési távolságra;"
+    },
+    {
+      "provision_ref": "s293",
+      "section": "293",
+      "title": "293",
+      "content": "h) jármű, rakomány elmozdulásának lehetőségére:"
+    },
+    {
+      "provision_ref": "s294",
+      "section": "294",
+      "title": "294",
+      "content": "i) a sérült vagonok elhelyezkedésére, sérülésük mértékére."
+    },
+    {
+      "provision_ref": "s295",
+      "section": "295",
+      "title": "295",
+      "content": "4.5. Beavatkozás előkészítése"
+    },
+    {
+      "provision_ref": "s296",
+      "section": "296",
+      "title": "296",
+      "content": "4.5.1. Az R. előírásai mellett a beavatkozás előkészítése során nagy figyelmet kell fordítani az alábbiakra:"
+    },
+    {
+      "provision_ref": "s297",
+      "section": "297",
+      "title": "297",
+      "content": "a) intézkedni kell a főmenetirányító értesítésére és meg kell határozni számára a kért segítséget (feszültségmentesítés, szakember helyszínre rendelése, baleset-elhárító egység, vegyi beavatkozó egység, vasúti daru);"
+    },
+    {
+      "provision_ref": "s298",
+      "section": "298",
+      "title": "298",
+      "content": "b) intézkedéseket kell tenni a mentési terület biztosítására (szükség esetén a helyszínt zárt területté kell nyilvánítani);"
+    },
+    {
+      "provision_ref": "s299",
+      "section": "299",
+      "title": "299",
+      "content": "c) szükség esetén a mentésben részt vevők biztonsága érdekében el kell rendelni a vasúti közlekedés sebességkorlátozását."
+    },
+    {
+      "provision_ref": "s300",
+      "section": "300",
+      "title": "300",
+      "content": "4.6. Beavatkozás"
+    },
+    {
+      "provision_ref": "s301",
+      "section": "301",
+      "title": "301",
+      "content": "4.6.1. Az R. előírásai figyelembevételével."
+    },
+    {
+      "provision_ref": "s302",
+      "section": "302",
+      "title": "302",
+      "content": "4.6.2. Különös figyelemmel és körültekintéssel kell eljárni a sérült jármű(vek)ben a roncsok között lévő személyek felkutatásánál, mentésénél, figyelembe kell venni az orvos, illetőleg a mentők véleményét."
+    },
+    {
+      "provision_ref": "s303",
+      "section": "303",
+      "title": "303",
+      "content": "4.6.3. A beavatkozást csak a felsővezeték áramtalanítása, földelése (hitelt érdemlő módon történő igazolása) után szabad megkezdeni."
+    },
+    {
+      "provision_ref": "s304",
+      "section": "304",
+      "title": "304",
+      "content": "4.6.4. Mentés megkezdése előtt a szerelvény vezetőjével is kapcsolatba kell lépni, tőle információkat kell kérni."
+    },
+    {
+      "provision_ref": "s305",
+      "section": "305",
+      "title": "305",
+      "content": "4.6.5. Tömeges balesetnél meg kell határozni a mentés végrehajtásának sorrendjét, gondoskodni kell a balesetet szenvedettek segítségnyújtási, ellátási helyének kijelöléséről."
+    },
+    {
+      "provision_ref": "s306",
+      "section": "306",
+      "title": "306",
+      "content": "4.6.6. Tömeges balesetnél a kárhelyet, helyszíneket lezárt területté kell nyilvánítani."
+    },
+    {
+      "provision_ref": "s307",
+      "section": "307",
+      "title": "307",
+      "content": "4.6.7. Meg kell akadályozni az anyagok további kifolyását, szétszóródását."
+    },
+    {
+      "provision_ref": "s308",
+      "section": "308",
+      "title": "308",
+      "content": "4.6.8. Már kifolyt, kiszóródott anyagok továbbterjedését, csatornába, közműalagútba, aknába való jutását körülhatárolással, árkolással, letakarással meg kell akadályozni."
+    },
+    {
+      "provision_ref": "s309",
+      "section": "309",
+      "title": "309",
+      "content": "4.6.9. A felborult járművek felállításában, biztonságba helyezésében közre kell működni."
+    },
+    {
+      "provision_ref": "s310",
+      "section": "310",
+      "title": "310",
+      "content": "4.6.10. A sérült járművek szétválasztását, lehetőleg el kell végezni."
+    },
+    {
+      "provision_ref": "s311",
+      "section": "311",
+      "title": "311",
+      "content": "4.6.11. Szükség esetén a helyszínre érkezett vasúti baleset-elhárító egységet a munkálatokba be kell vonni."
+    },
+    {
+      "provision_ref": "s312",
+      "section": "312",
+      "title": "312",
+      "content": "4.7. Utómunkálatok"
+    },
+    {
+      "provision_ref": "s313",
+      "section": "313",
+      "title": "313",
+      "content": "4.7.1. Az R. előírásai mellett az utómunkálat során nagy figyelmet kell fordítani arra, hogy a sérültek kiemelése után a járműve(ke)t a vasúti pályáról, átjáróból el kell távolítani, a forgalmi akadály megszüntetésében közre kell működni."
+    },
+    {
+      "provision_ref": "s314",
+      "section": "314",
+      "title": "314",
+      "content": "5. Beavatkozás vízijármű-balesetnél"
+    },
+    {
+      "provision_ref": "s315",
+      "section": "315",
+      "title": "315",
+      "content": "5.1. Jelzés"
+    },
+    {
+      "provision_ref": "s316",
+      "section": "316",
+      "title": "316",
+      "content": "5.1.1. Az R. előírásai mellett, lehetőség szerint, az alábbiakra terjedjen ki a jelzés fogadása, illetve annak értékelése, valamint az információgyűjtés:"
+    },
+    {
+      "provision_ref": "s317",
+      "section": "317",
+      "title": "317",
+      "content": "a) vízi jármű fajtája, mérete, merülési mélysége, pozíciója, rakománya, legénységének, szállított utasainak száma, valamint manőverező képessége;"
+    },
+    {
+      "provision_ref": "s318",
+      "section": "318",
+      "title": "318",
+      "content": "b) manőverezni képtelen vagy csak korlátozottan képes jármű várható pozíciójának meghatározáshoz szükséges az utolsó ismert pozíció pontos ideje is."
+    },
+    {
+      "provision_ref": "s319",
+      "section": "319",
+      "title": "319",
+      "content": "5.2. Vonulás"
+    },
+    {
+      "provision_ref": "s320",
+      "section": "320",
+      "title": "320",
+      "content": "5.2.1. Az R. előírásai mellett a vonulás az alábbiak figyelembevételével történjen:"
+    },
+    {
+      "provision_ref": "s321",
+      "section": "321",
+      "title": "321",
+      "content": "a) lehetőség szerint kérni kell a helyszínre mentésre alkalmas vízi járművet és búvárokat;"
+    },
+    {
+      "provision_ref": "s322",
+      "section": "322",
+      "title": "322",
+      "content": "b) amennyiben életveszély van, fel kell készülni vízből mentésre, és a mentőket is riasztani kell."
+    },
+    {
+      "provision_ref": "s323",
+      "section": "323",
+      "title": "323",
+      "content": "5.3. Felderítés"
+    },
+    {
+      "provision_ref": "s324",
+      "section": "324",
+      "title": "324",
+      "content": "5.3.1. Az R. előírásai mellett a felderítés az alábbiakra terjedjen ki:"
+    },
+    {
+      "provision_ref": "s325",
+      "section": "325",
+      "title": "325",
+      "content": "a) fel kell venni a kapcsolatot a személyzettel, minden egyéb információt tőlük lehet beszerezni (milyen mentési tevékenységet végeztek eddig, milyen egyéb veszély van még);"
+    },
+    {
+      "provision_ref": "s326",
+      "section": "326",
+      "title": "326",
+      "content": "b) veszélyes áru szállítása esetén az adott úszómű milyen távolságra van a part menti létesítményektől, lakott területtől;"
+    },
+    {
+      "provision_ref": "s327",
+      "section": "327",
+      "title": "327",
+      "content": "c) az úszómű hajózási útvonalon helyezkedik-e el."
+    },
+    {
+      "provision_ref": "s328",
+      "section": "328",
+      "title": "328",
+      "content": "5.4. Beavatkozás előkészítése"
+    },
+    {
+      "provision_ref": "s329",
+      "section": "329",
+      "title": "329",
+      "content": "5.4.1. Az R. előírásai mellett a beavatkozás előkészítése során nagy figyelmet kell fordítani az alábbiakra:"
+    },
+    {
+      "provision_ref": "s330",
+      "section": "330",
+      "title": "330",
+      "content": "a) intézkedéseket kell tenni a mentési terület biztosítására (hajóforgalom leállítására vagy korlátozására), sodródó jármű esetén az általa veszélyeztetett járművek, létesítmények biztosítására, tájékoztatására, esetleg kiürítésére;"
+    },
+    {
+      "provision_ref": "s331",
+      "section": "331",
+      "title": "331",
+      "content": "b) amennyiben rendelkezésre áll rohamcsónak, annak megtelepítésére, életveszély esetén azok vízből mentésére történő felszerelésére (létszám, eszközök) intézkedni kell."
+    },
+    {
+      "provision_ref": "s332",
+      "section": "332",
+      "title": "332",
+      "content": "5.5. Beavatkozás"
+    },
+    {
+      "provision_ref": "s333",
+      "section": "333",
+      "title": "333",
+      "content": "5.5.1. Az R. előírásai figyelembevételével."
+    },
+    {
+      "provision_ref": "s334",
+      "section": "334",
+      "title": "334",
+      "content": "5.5.2. A műszaki mentést végző állomány részére – a vízbe esés megakadályozása céljából – folyamatos biztosítást kell nyújtani vízből mentésre alkalmas eszközökkel."
+    },
+    {
+      "provision_ref": "s335",
+      "section": "335",
+      "title": "335",
+      "content": "5.5.3. A biztosítás helyének meghatározásakor figyelembe kell venni a vízmozgást (sodrást, áramlást) és a szélirányt."
+    },
+    {
+      "provision_ref": "s336",
+      "section": "336",
+      "title": "336",
+      "content": "5.5.4. Biztosításra a vízből mentésre alkalmas vízi jármű és/vagy búvárok is bevethetőek."
+    },
+    {
+      "provision_ref": "s337",
+      "section": "337",
+      "title": "337",
+      "content": "5.5.5. Olyan életmentésre, ahol szükséges a bajba jutott hajóra történő átszállás, a mentést végzőket be kell szállítani arra alkalmas úszójárművel."
+    },
+    {
+      "provision_ref": "s338",
+      "section": "338",
+      "title": "338",
+      "content": "5.5.6. A mentést végző vízi jármű minimum kezelői létszáma nem vehető igénybe olyan feladatra, amely esetén a járművüket el kell hagyniuk, a manőverező képesség megőrzése miatt."
+    },
+    {
+      "provision_ref": "s339",
+      "section": "339",
+      "title": "339",
+      "content": "5.5.7. A mentésre igénybe vett vízi járművekkel végrehajtandó feladat végrehajtásának módjáról (szükséges manőverek, szállítható létszám) annak kapitánya, illetve vezetője dönt."
+    },
+    {
+      "provision_ref": "s340",
+      "section": "340",
+      "title": "340",
+      "content": "5.5.8. A bajba jutott vízi járművet a lehető leghamarabb a hajózási útvonalon kívül kell biztosítani az elsodródás és elmerülés ellen."
+    },
+    {
+      "provision_ref": "s341",
+      "section": "341",
+      "title": "341",
+      "content": "5.6. A beavatkozás biztonsági előírásai"
+    },
+    {
+      "provision_ref": "s342",
+      "section": "342",
+      "title": "342",
+      "content": "5.6.1. A beavatkozói állomány védőfelszerelésének biztosítani kell az esetleges vízbe kerülés esetén az elmerülés elleni védelmet."
+    },
+    {
+      "provision_ref": "s343",
+      "section": "343",
+      "title": "343",
+      "content": "5.7. Utómunkálatok"
+    },
+    {
+      "provision_ref": "s344",
+      "section": "344",
+      "title": "344",
+      "content": "5.7.1. Az R. előírásai mellett az utómunkálat során a bajba jutott vízi jármű hajózási útvonalon kívüli biztosításáról gondoskodni kell."
+    },
+    {
+      "provision_ref": "s345",
+      "section": "345",
+      "title": "345",
+      "content": "6. Beavatkozás légijármű-balesetnél"
+    },
+    {
+      "provision_ref": "s346",
+      "section": "346",
+      "title": "346",
+      "content": "6.1. Általános előírások"
+    },
+    {
+      "provision_ref": "s347",
+      "section": "347",
+      "title": "347",
+      "content": "6.1.1. A repülőtéri tűzoltóságoknak a Nemzetközi Polgári Repülési Szervezet (a továbbiakban: ICAO) vonatkozó előírásait is figyelembe kell venni."
+    },
+    {
+      "provision_ref": "s348",
+      "section": "348",
+      "title": "348",
+      "content": "6.1.2. Az állandóan üzemelő repülőtéren, illetve közvetlen környezetében bekövetkező rendkívüli esemény felszámolása érdekében a repülőtérnek a vonatkozó jogszabályok, ajánlások alapján készített kényszerhelyzeti tervvel kell rendelkeznie. A működési terület szerinti HTP parancsnokának a főbb légijármű-típusokra, a kategóriájának megfelelő – külön előírásban meghatározottak szerint – egyszerűsített Tűzoltási Műszaki Mentési Tervet (a továbbiakban: ETMMT) kell készítenie."
+    },
+    {
+      "provision_ref": "s349",
+      "section": "349",
+      "title": "349",
+      "content": "6.1.3. A légijárművekre készített ETMMT-ket az állandóan üzemelő repülőtereken, a működési terület szerinti műveletirányító ügyeleteken és a tűzoltóságokon egyaránt el kell helyezni."
+    },
+    {
+      "provision_ref": "s350",
+      "section": "350",
+      "title": "350",
+      "content": "6.1.4. A balesetet szenvedett légijármű utasait – még abban az esetben is, ha a légijármű nem ég – közvetlen életveszélyben lévőknek kell tekinteni. Kimentésük érdekében mentési csoportot (csoportokat) kell szervezni."
+    },
+    {
+      "provision_ref": "s351",
+      "section": "351",
+      "title": "351",
+      "content": "6.1.5. Repülőtereken a gurulóutakat, kifutópályát érintő vonulás során hangjelzés nem használható."
+    },
+    {
+      "provision_ref": "s352",
+      "section": "352",
+      "title": "352",
+      "content": "6.1.6. A baleset, rendkívüli esemény következtében elhunytakat, a roncsokat, csomagokat, fekete dobozt a feltalálás helyéről elmozdítani, a helyszínt megváltoztatni csak időlegesen és különösen indokolt esetben – életmentés, tűzoltás érdekében – szabad. A megtalált fedélzeti dokumentumokat meg kell őrizni, és a hatóságoknak át kell adni."
+    },
+    {
+      "provision_ref": "s353",
+      "section": "353",
+      "title": "353",
+      "content": "6.2. Jelzés"
+    },
+    {
+      "provision_ref": "s354",
+      "section": "354",
+      "title": "354",
+      "content": "6.2.1. Az R. előírásai mellett, lehetőség szerint, az alábbiakra terjedjen ki a jelzés fogadása, illetve annak értékelése, valamint az információgyűjtés:"
+    },
+    {
+      "provision_ref": "s355",
+      "section": "355",
+      "title": "355",
+      "content": "a) a légi irányítás meglétéről;"
+    },
+    {
+      "provision_ref": "s356",
+      "section": "356",
+      "title": "356",
+      "content": "b) a jármű repüléstervében (fly plan) leadott előzetes útvonaláról;"
+    },
+    {
+      "provision_ref": "s357",
+      "section": "357",
+      "title": "357",
+      "content": "c) a várható vagy bekövetkezett légijármű-esemény esetén a földet érés helyéről, koordinátájáról, a lehetséges megközelítési útvonalakról;"
+    },
+    {
+      "provision_ref": "s358",
+      "section": "358",
+      "title": "358",
+      "content": "d) légijármű repülőtéri földi eseménye esetén a jármű tartózkodási helyéről;"
+    },
+    {
+      "provision_ref": "s359",
+      "section": "359",
+      "title": "359",
+      "content": "e) a légijármű esemény okáról;"
+    },
+    {
+      "provision_ref": "s360",
+      "section": "360",
+      "title": "360",
+      "content": "f) a légijármű fajtájáról, típusáról;"
+    },
+    {
+      "provision_ref": "s361",
+      "section": "361",
+      "title": "361",
+      "content": "g) az üzemanyag fajtájáról, mennyiségéről (tömege tonnában);"
+    },
+    {
+      "provision_ref": "s362",
+      "section": "362",
+      "title": "362",
+      "content": "h) a fedélzeten tartózkodók pontos számáról;"
+    },
+    {
+      "provision_ref": "s363",
+      "section": "363",
+      "title": "363",
+      "content": "i) a rakományról, különös tekintettel a veszélyes és sugárzó anyagokra;"
+    },
+    {
+      "provision_ref": "s364",
+      "section": "364",
+      "title": "364",
+      "content": "j) katonai gép esetén a fedélzeten lévő fegyverzetről, robbanóanyagokról;"
+    },
+    {
+      "provision_ref": "s365",
+      "section": "365",
+      "title": "365",
+      "content": "k) a jármű műveleti folyamatáról (leszálláshoz készülődik vagy már leszállt)."
+    },
+    {
+      "provision_ref": "s366",
+      "section": "366",
+      "title": "366",
+      "content": "6.2.2. Légijármű rendkívüli eseményről a beérkezett jelzés értékelését követően a riasztást a műveletirányító tervek alapján kell végrehajtani. A riasztási fokozat meghatározása az alábbiak szerint történjen:"
+    },
+    {
+      "provision_ref": "s367",
+      "section": "367",
+      "title": "367",
+      "content": "a) készenléti tűzoltó szolgálattal rendelkező, ICAO előírásoknak megfelelő repülőterek esetén a repülőgépen tartózkodó személyek száma, amennyiben erre vonatkozó adat nincs, az érintett légijármű kategóriája alapján;"
+    },
+    {
+      "provision_ref": "s368",
+      "section": "368",
+      "title": "368",
+      "content": "b) készenléti tűzoltószolgálattal nem rendelkező, illetve ICAO hatálya alá nem tartozó, használaton kívüli repülőtereken, valamint azok területén kívül várható vagy bekövetkezett légijármű-esemény során az érintett légijármű kategóriája alapján;"
+    },
+    {
+      "provision_ref": "s369",
+      "section": "369",
+      "title": "369",
+      "content": "c) – aza) és b) bekezdéshez rendelt adatok hiányában (ismeretlen légijármű, ismeretlen utasszám, rakomány esetén), legalább IV-es kiemelt riasztási fokozatot kell elrendelni. A kiemelt fokozathoz vízszállító gépjárművet és műszaki mentő gépjárművet kötelezően vonultatni kell;"
+    },
+    {
+      "provision_ref": "s370",
+      "section": "370",
+      "title": "370",
+      "content": "d) repülőtereken „készenléti állapot” esetén legalább I-es kiemelt riasztási fokozatot kell elrendelni a várható vagy bekövetkezett légijármű esemény esetén szükséges riasztási fokozathoz rendelt, riasztást és segítségnyújtást meghatározó tervek szerinti tűzoltóságok egyidejű tájékoztatása mellett."
+    },
+    {
+      "provision_ref": "s371",
+      "section": "371",
+      "title": "371",
+      "content": "6.2.3. Ha a légijármű még nem szállt le, meg kell tudni a várható földet érés helyét, idejét és a leszállás irányát."
+    },
+    {
+      "provision_ref": "s372",
+      "section": "372",
+      "title": "372",
+      "content": "6.3. Vonulás"
+    },
+    {
+      "provision_ref": "s373",
+      "section": "373",
+      "title": "373",
+      "content": "6.3.1. Az R. előírásai mellett a vonulás az alábbiak figyelembevételével történjen:"
+    },
+    {
+      "provision_ref": "s374",
+      "section": "374",
+      "title": "374",
+      "content": "a) a repülőtéren belüli vonulás, annak sorrendje és a helyszín megközelítése a Tűzoltási Műszaki Mentési Terv (a továbbiakban: TMMT) figyelembevételével, a mentésvezető által meghatározott módon történjen;"
+    },
+    {
+      "provision_ref": "s375",
+      "section": "375",
+      "title": "375",
+      "content": "b) vonulás során fel kell készíteni az állományt egy esetlegesen bekövetkező robbanásra, tűzoltási feladatok végrehajtására is."
+    },
+    {
+      "provision_ref": "s376",
+      "section": "376",
+      "title": "376",
+      "content": "6.4. Felderítés"
+    },
+    {
+      "provision_ref": "s377",
+      "section": "377",
+      "title": "377",
+      "content": "6.4.1. Az R. előírásai mellett a felderítés az alábbiakra terjedjen ki:"
+    },
+    {
+      "provision_ref": "s378",
+      "section": "378",
+      "title": "378",
+      "content": "a) a veszélyes zónák figyelembevételére a jármű megközelítésekor;"
+    },
+    {
+      "provision_ref": "s379",
+      "section": "379",
+      "title": "379",
+      "content": "b) az életveszélyben levők helyzetének és számának megismerésére;"
+    },
+    {
+      "provision_ref": "s380",
+      "section": "380",
+      "title": "380",
+      "content": "c) a mentésre, beavatkozásra használható kijáratok, vészkijáratok és vágási felületek felderítésére;"
+    },
+    {
+      "provision_ref": "s381",
+      "section": "381",
+      "title": "381",
+      "content": "d) a veszélytelen és szabaddá tehető mentési útvonalak kijelölésére;"
+    },
+    {
+      "provision_ref": "s382",
+      "section": "382",
+      "title": "382",
+      "content": "e) a járműutastér, raktér, szerkezeti részek, üzemanyagtartályok, palackok veszélyeztetettségére;"
+    },
+    {
+      "provision_ref": "s383",
+      "section": "383",
+      "title": "383",
+      "content": "f) a veszélyes anyagok elhelyezkedésére, tulajdonságaira;"
+    },
+    {
+      "provision_ref": "s384",
+      "section": "384",
+      "title": "384",
+      "content": "g) a fedélzeten levő fel nem robbant robbanóeszközökre, lőszerekre."
+    },
+    {
+      "provision_ref": "s385",
+      "section": "385",
+      "title": "385",
+      "content": "6.4.2. A felderítés folyamatosan terjedjen ki az alábbi veszélyforrásokra:"
+    },
+    {
+      "provision_ref": "s386",
+      "section": "386",
+      "title": "386",
+      "content": "a) a légijármű típusa (polgári, katonai);"
+    },
+    {
+      "provision_ref": "s387",
+      "section": "387",
+      "title": "387",
+      "content": "b) fegyverzet (robbanásveszély);"
+    },
+    {
+      "provision_ref": "s388",
+      "section": "388",
+      "title": "388",
+      "content": "c) hajtóművek (gyújtóképes hőmérséklet, működő hajtómű);"
+    },
+    {
+      "provision_ref": "s389",
+      "section": "389",
+      "title": "389",
+      "content": "d) szárnyak (üzemanyagfolyás, vészkijáratokon keresztül történő mentés lehetősége a szárnyon keresztül);"
+    },
+    {
+      "provision_ref": "s390",
+      "section": "390",
+      "title": "390",
+      "content": "e) futóművek állapota (hőmérséklete, becsuklás lehetősége)."
+    },
+    {
+      "provision_ref": "s391",
+      "section": "391",
+      "title": "391",
+      "content": "6.4.3. Katonai rendeltetésű, valamint veszélyes anyagot, vegyszereket szállító légijárművek esetében a helyszínt fokozott gondossággal, fegyverzettel rendelkező légijárművet pedig csak oldalról szabad megközelíteni (ezzel együtt számítani kell a fegyverzet bármely irányba történő veszélyeztetésével)."
+    },
+    {
+      "provision_ref": "s392",
+      "section": "392",
+      "title": "392",
+      "content": "6.4.4. Az elsőnek helyszínre érkező raj parancsnoka haladéktalanul közölje a káreset helyszínére vonuló rajokkal, valamint a műveletirányító ügyelettel a légijármű tartózkodási helyét, koordinátáit."
+    },
+    {
+      "provision_ref": "s393",
+      "section": "393",
+      "title": "393",
+      "content": "6.5. Beavatkozás előkészítése"
+    },
+    {
+      "provision_ref": "s394",
+      "section": "394",
+      "title": "394",
+      "content": "6.5.1. Az R. előírásai mellett a beavatkozás előkészítése során nagy figyelmet kell fordítani az alábbiakra:"
+    },
+    {
+      "provision_ref": "s395",
+      "section": "395",
+      "title": "395",
+      "content": "a) amennyiben repülőtéren következik be a káreset, akkor a repülőtéri kényszerhelyzeti terv alapján történjen a beavatkozás. Ha repülőtéren kívül van az esemény, akkor az érintett hatóság és a társszervek véleményének figyelembevételével kell a beavatkozást végrehajtani;"
+    },
+    {
+      "provision_ref": "s396",
+      "section": "396",
+      "title": "396",
+      "content": "b) a szerek felállítási helyét úgy kell meghatározni, hogy a beavatkozás során szükségszerű helyváltoztatás lehetősége biztosított legyen;"
+    },
+    {
+      "provision_ref": "s397",
+      "section": "397",
+      "title": "397",
+      "content": "c) a mentésvezető tartson folyamatos kapcsolatot a légiirányítással (amennyiben van ilyen feladatot ellátó személy, illetve erre a lehetőség adott), valamint az ügyeletes repülőtéri vezetővel;"
+    },
+    {
+      "provision_ref": "s398",
+      "section": "398",
+      "title": "398",
+      "content": "d) a mentésvezető jelölje ki azt a területet (helyet), ahol a kimenekített személyek átadásra kerülnek a közreműködő mentő erőknek. A mentésvezető biztosítsa a repülőesemény vizsgálóinak tevékenységét."
+    },
+    {
+      "provision_ref": "s399",
+      "section": "399",
+      "title": "399",
+      "content": "6.6. Beavatkozás"
+    },
+    {
+      "provision_ref": "s400",
+      "section": "400",
+      "title": "400",
+      "content": "6.6.1. Az R. előírásai figyelembevételével."
+    },
+    {
+      "provision_ref": "s401",
+      "section": "401",
+      "title": "401",
+      "content": "6.6.2. Gondoskodni kell a veszélyes zóna (zárt terület) határainak kijelöléséről."
+    },
+    {
+      "provision_ref": "s402",
+      "section": "402",
+      "title": "402",
+      "content": "6.6.3. Számítani kell a következőkre:"
+    },
+    {
+      "provision_ref": "s403",
+      "section": "403",
+      "title": "403",
+      "content": "a) a szétfolyó üzemanyag meggyulladhat;"
+    },
+    {
+      "provision_ref": "s404",
+      "section": "404",
+      "title": "404",
+      "content": "b) vissza kell vonni az erőket, eszközöket tűz keletkezése miatt;"
+    },
+    {
+      "provision_ref": "s405",
+      "section": "405",
+      "title": "405",
+      "content": "c) katonai gép fegyverzete sérülhet és aktiválódhat."
+    },
+    {
+      "provision_ref": "s406",
+      "section": "406",
+      "title": "406",
+      "content": "6.6.4. A mentésvezető a beavatkozás eredményessége érdekében fokozott figyelemmel legyen az alábbi légijármű szerkezeti sajátosságokra:"
+    },
+    {
+      "provision_ref": "s407",
+      "section": "407",
+      "title": "407",
+      "content": "a) alkáli fémötvözetekből készült félhéj, önhordó szerkezet;"
+    },
+    {
+      "provision_ref": "s408",
+      "section": "408",
+      "title": "408",
+      "content": "b) különböző helyeken nagymennyiségű éghető folyadékok;"
+    },
+    {
+      "provision_ref": "s409",
+      "section": "409",
+      "title": "409",
+      "content": "c) nagy nyomás alatt lévő (20–200 bar) hidraulikus csővezetékek;"
+    },
+    {
+      "provision_ref": "s410",
+      "section": "410",
+      "title": "410",
+      "content": "d) forgó, csukló, mozgó alkatrészek;"
+    },
+    {
+      "provision_ref": "s411",
+      "section": "411",
+      "title": "411",
+      "content": "e) a gép teljes terjedelmében bárhol előforduló feszültség alatt lévő elektromos vezetékek;"
+    },
+    {
+      "provision_ref": "s412",
+      "section": "412",
+      "title": "412",
+      "content": "f) oxigén- és légkondicionáló rendszer."
+    },
+    {
+      "provision_ref": "s413",
+      "section": "413",
+      "title": "413",
+      "content": "6.6.5. A törzsbe történő behatolás előtt a légijármű sajátosságokat figyelembe véve fel kell becsülni a géptörzs állapotát, állékonyságát. Vizsgálni kell a törzs és a burkolat roncsolódásának mértékét."
+    },
+    {
+      "provision_ref": "s414",
+      "section": "414",
+      "title": "414",
+      "content": "6.6.6. A behatolásra lehetőség szerint a természetes nyílásokat kell használni, nyitni."
+    },
+    {
+      "provision_ref": "s415",
+      "section": "415",
+      "title": "415",
+      "content": "6.6.7. Amennyiben bontást kell alkalmazni, törekedni kell a megjelölt vészvágati helyeken történő vágásra. Ha nincs jelölés, lehetőség szerint a törzs felsőrész középvonalánál, az ablakoknál vagy ezek között, a székkarfa szint és a kalaptartó szint közötti területen kell a behatolást végrehajtani."
+    },
+    {
+      "provision_ref": "s416",
+      "section": "416",
+      "title": "416",
+      "content": "6.6.8. A törzsbe behatoló mentő személyek minden esetben kötelesek légzőkészüléket használni. A törzsbe történő behatolás sugárvédelem mellett történjen."
+    },
+    {
+      "provision_ref": "s417",
+      "section": "417",
+      "title": "417",
+      "content": "6.6.9. Ajtók nyitása esetén a nyitást végző tájékozódjon a vészcsúszda állapotáról, valamint a géptörzsben meglévő túlnyomásról."
+    },
+    {
+      "provision_ref": "s418",
+      "section": "418",
+      "title": "418",
+      "content": "6.6.10. Túlnyomás során a kifelé nyíló ajtók, vészkijárati nyílások nyitásakor fokozott figyelemmel kell eljárni."
+    },
+    {
+      "provision_ref": "s419",
+      "section": "419",
+      "title": "419",
+      "content": "6.6.11. Futómű túlmelegedéskor annak megközelítése a géptörzs hosszirányához viszonyítva lehetőség szerint 45°-ban történjen."
+    },
+    {
+      "provision_ref": "s420",
+      "section": "420",
+      "title": "420",
+      "content": "6.6.12. A futóművek hűtését haladéktalanul meg kell kezdeni – lehetőség szerint – ventilátorral történő levegőfúvatással. A hűtés ideje alatt sugárvédelmet kell biztosítani. Ventilátor hiányában porlasztott vízsugár szakaszos üzemben történő alkalmazását kell előnyben részesíteni."
+    },
+    {
+      "provision_ref": "s421",
+      "section": "421",
+      "title": "421",
+      "content": "6.6.13. Katonai repülőgépek esetén a mentésvezető tájékozódjon:"
+    },
+    {
+      "provision_ref": "s422",
+      "section": "422",
+      "title": "422",
+      "content": "a) a fegyverzet állapotáról. Veszélyes zóna a repülőgép előtt és mögött körülbelül 1000 méter. Elforgatható csöves fegyverzet esetén a veszélyes zóna a fegyverzet irányvonalában alakul ki;"
+    },
+    {
+      "provision_ref": "s423",
+      "section": "423",
+      "title": "423",
+      "content": "b) a katapultrendszerek állapotáról. Személy 15 m-es körzeten belül csak indokolt esetben tartózkodhat;"
+    },
+    {
+      "provision_ref": "s424",
+      "section": "424",
+      "title": "424",
+      "content": "c) szétszóródott robbanószerekről, veszélyeztetettségük mértékéről;"
+    },
+    {
+      "provision_ref": "s425",
+      "section": "425",
+      "title": "425",
+      "content": "d) a fedélzeten található speciális anyagokról (hidrazin)."
+    },
+    {
+      "provision_ref": "s426",
+      "section": "426",
+      "title": "426",
+      "content": "6.7. A beavatkozás biztonsági előírásai"
+    },
+    {
+      "provision_ref": "s427",
+      "section": "427",
+      "title": "427",
+      "content": "6.7.1. A bajba jutott légijárművek kutatásával-mentésével összefüggő feladatokat a bajba jutott légi járművek megsegítését, valamint a katasztrófák elleni védekezéssel és a mentéssel összefüggő tevékenységet ellátó légi kutató-mentő szolgálat szervezetéről, működésének, fenntartásának, riasztásának és a mentéssel járó költségek viselésének rendjéről, e tevékenységek engedélyezésére vonatkozó szabályokról szóló 267/2011. (XII. 13.) Korm. rendelet, az Országos Légi Kutató- Mentő Tervben foglaltak végrehajtásával kapcsolatos feladatokról szóló 12/2013. számú BM OKF Intézkedés, a Műveleti Terv és BM OKF Részműveleti Terve szerint kell végezni."
+    },
+    {
+      "provision_ref": "s428",
+      "section": "428",
+      "title": "428",
+      "content": "6.7.2. A mentésvezető intézkedjen a gép elgurulásának megakadályozására, a terület lezárására olyan mértékben, hogy a mentés végrehajtható legyen, de le kell zárni a területet legalább a légijármű első földet érési helyétől a teljes megállásig tartó terület – a körülmények mérlegelése alapján – mentésvezető által meghatározott körzetében. Határozza meg a lezárt területen tartózkodók, belépésre jogosultak körét."
+    },
+    {
+      "provision_ref": "s429",
+      "section": "429",
+      "title": "429",
+      "content": "V. fejezet"
+    },
+    {
+      "provision_ref": "s430",
+      "section": "430",
+      "title": "430",
+      "content": "Beavatkozás szabályai természeti csapásoknál"
+    },
+    {
+      "provision_ref": "s431",
+      "section": "431",
+      "title": "431",
+      "content": "1. Általános előírások"
+    },
+    {
+      "provision_ref": "s432",
+      "section": "432",
+      "title": "432",
+      "content": "1.1. Természeti csapás következtében tömegesen jelentkező műszaki mentési feladatoknál az alábbi vezetési, szervezési, irányítási elveket kell alkalmazni:"
+    },
+    {
+      "provision_ref": "s433",
+      "section": "433",
+      "title": "433",
+      "content": "a) a természeti csapás által érintett területre kiterjesztve kell értelmezni a beavatkozás helyszínét. A természeti csapás által részben vagy egészben érintett működési területet részterületekre – szektorokra, körzetekre – kell felosztani;"
+    },
+    {
+      "provision_ref": "s434",
+      "section": "434",
+      "title": "434",
+      "content": "b) a vezetési irányítási módot ennek a kiterjesztett helyszínnek megfelelően kell megválasztani;"
+    },
+    {
+      "provision_ref": "s435",
+      "section": "435",
+      "title": "435",
+      "content": "c) a mentésvezető a természeti csapás jellegétől függően vezető irányító feladatait – folyamatos felderítés mellett – elsősorban mozgó vezetési pontból (tűzoltás-vezetői gépjármű), szükség esetén az állomáshelyén kialakított vezetési pontból látja el."
+    },
+    {
+      "provision_ref": "s436",
+      "section": "436",
+      "title": "436",
+      "content": "2. Vonulás"
+    },
+    {
+      "provision_ref": "s437",
+      "section": "437",
+      "title": "437",
+      "content": "2.1. Természeti csapás feladatainak elhárítására a különleges szerek önállóan vonultathatóak saját, illetve átcsoportosított, de legalább 2 fő létszámmal;"
+    },
+    {
+      "provision_ref": "s438",
+      "section": "438",
+      "title": "438",
+      "content": "2.2. A működési terület szektorain belül az azonosan értékelt feladatokhoz történő vonulás során a célszerűséget is figyelembe kell venni."
+    },
+    {
+      "provision_ref": "s439",
+      "section": "439",
+      "title": "439",
+      "content": "3. Felderítés"
+    },
+    {
+      "provision_ref": "s440",
+      "section": "440",
+      "title": "440",
+      "content": "3.1. A felderítés az alábbiakra terjedjen ki:"
+    },
+    {
+      "provision_ref": "s441",
+      "section": "441",
+      "title": "441",
+      "content": "a) a természeti csapással érintett terület felderítési alapfeladatait elsősorban a mentésvezető hajtja végre. A mentésvezető döntése alapján további felderítő csoportok hozhatók létre;"
+    },
+    {
+      "provision_ref": "s442",
+      "section": "442",
+      "title": "442",
+      "content": "b) a felderítés során a természeti csapás által okozott valamennyi kár, illetve feladat felderítését végre kell hajtani;"
+    },
+    {
+      "provision_ref": "s443",
+      "section": "443",
+      "title": "443",
+      "content": "c) szükség szerint intézkedni kell a hatáskörrel, illetve intézkedési kényszerrel rendelkező további szervezetek felderítésbe történő bevonására, a felderítés adatainak átadására."
+    },
+    {
+      "provision_ref": "s444",
+      "section": "444",
+      "title": "444",
+      "content": "4. Beavatkozás előkészítése"
+    },
+    {
+      "provision_ref": "s445",
+      "section": "445",
+      "title": "445",
+      "content": "4.1. A folyamatos felderítés alapján a kárhelyre riasztott erők részére előre meg kell határozni a beavatkozáshoz szükséges további eszközöket, szakfelszereléseket, védőfelszereléseket."
+    },
+    {
+      "provision_ref": "s446",
+      "section": "446",
+      "title": "446",
+      "content": "4.2. A kárhelyre riasztott egység vezető állomását tájékoztatni kell a várható feladatokról, a beavatkozások várható körülményeiről, hogy a riasztott állomány a szükséges előkészületeket megtehesse, egyéni felszereléseit kiegészíthesse."
+    },
+    {
+      "provision_ref": "s447",
+      "section": "447",
+      "title": "447",
+      "content": "4.3. A mentésvezető döntése alapján a szektorokon belül – a riaszthatóság fenntartása mellett – a rajok létszámának megosztására van lehetőség úgy, hogy egy kárhelyen minimum 2 fő tevékenykedjen."
+    },
+    {
+      "provision_ref": "s448",
+      "section": "448",
+      "title": "448",
+      "content": "4.4. Természeti csapás esetén a rendelkezésre álló erők és eszközök hatékony alkalmazása céljából szükség esetén:"
+    },
+    {
+      "provision_ref": "s449",
+      "section": "449",
+      "title": "449",
+      "content": "a) a minimumlétszám emeléséről intézkedni kell;"
+    },
+    {
+      "provision_ref": "s450",
+      "section": "450",
+      "title": "450",
+      "content": "b) a tartalék szereket készenlétbe kell állítani;"
+    },
+    {
+      "provision_ref": "s451",
+      "section": "451",
+      "title": "451",
+      "content": "c) a rendelkezésre álló készenléti szerekből szükség esetén minél több önálló beavatkozásra képes rajt kell képezni."
+    },
+    {
+      "provision_ref": "s452",
+      "section": "452",
+      "title": "452",
+      "content": "5. Beavatkozás"
+    },
+    {
+      "provision_ref": "s453",
+      "section": "453",
+      "title": "453",
+      "content": "5.1. Természeti csapások során a beavatkozási sorrend kialakításánál figyelembe kell venni a nemzetgazdasági szempontból kiemelt létesítmények és a kritikus infrastruktúra veszélyeztetettségét."
+    },
+    {
+      "provision_ref": "s454",
+      "section": "454",
+      "title": "454",
+      "content": "5.2. A belvízelvezetés során mindig előnyben kell részesíteni azokat a megoldásokat, amelyek a víz természetes, gravitációs elvű elvezetését biztosítják."
+    },
+    {
+      "provision_ref": "s455",
+      "section": "455",
+      "title": "455",
+      "content": "5.3. A természetes és mesterséges elvezetésnél lehetőség szerint ki kell kérni az elhárításért felelős műszaki szakemberek véleményét annak érdekében, hogy az elvezetett víz újabb helyen kárt ne okozhasson."
+    },
+    {
+      "provision_ref": "s456",
+      "section": "456",
+      "title": "456",
+      "content": "5.4. Talaj vagy műszaki és tereptárgyak megbontásával járó vízelvezetést csak az elhárításáért felelős szerv rendelhet el a közművek előzetes felmérésével."
+    },
+    {
+      "provision_ref": "s457",
+      "section": "457",
+      "title": "457",
+      "content": "5.5. Vízre érzékeny anyagból (vályog) épült épületek környezetében végzett vízeltávolítási munkák során, szükség esetén, értesíteni kell műszaki szakembert az épület állékonyságának megvizsgálása céljából."
+    },
+    {
+      "provision_ref": "s458",
+      "section": "458",
+      "title": "458",
+      "content": "5.6. Belvíz, talajvíz, talajszint alatti helyiségből történő eltávolítása előtt műszaki szakember véleményét lehetőség szerint ki kell kérni. Ennek hiányában a vizet csak életmentés vagy indokolt esetben a tulajdonos írásos kérelmére tárgymentés céljából lehet eltávolítani."
+    },
+    {
+      "provision_ref": "s459",
+      "section": "459",
+      "title": "459",
+      "content": "6. Beavatkozás biztonsági előírásai"
+    },
+    {
+      "provision_ref": "s460",
+      "section": "460",
+      "title": "460",
+      "content": "6.1. Szélsőséges időjárási viszonyok – heves esőzés, hóvihar, ónos eső, jégeső, köd, erős zúzmaraképződés, szélvihar, zivatar, villámlás – során a beavatkozásokat az esemény súlyosságának figyelembevételével, a beavatkozó állomány veszélyeztetése nélkül kell végrehajtani."
+    },
+    {
+      "provision_ref": "s461",
+      "section": "461",
+      "title": "461",
+      "content": "6.2. Természeti csapás elhárítási munkálatai során az állományt el kell látni az időjárásnak és a beavatkozások jellegének megfelelő védőeszközökkel, védőruházattal."
+    },
+    {
+      "provision_ref": "s462",
+      "section": "462",
+      "title": "462",
+      "content": "6.3. A fertőzési, mérgezési veszéllyel járó természeti csapások során végzett munkálatok elhárításába bevont állomány egészségügyi ellátásába be kell vonni a foglalkozás egészségügyi orvosszolgálat, valamint az illetékes Népegészségügyi Intézet szakembereit. Amennyiben szükséges, kötelező védőoltás elrendeléséről gondoskodni kell."
+    },
+    {
+      "provision_ref": "s463",
+      "section": "463",
+      "title": "463",
+      "content": "6.4. Magasban végzett kárelhárítási munka során a leesés elleni védelmet folyamatosan biztosítani kell."
+    },
+    {
+      "provision_ref": "s464",
+      "section": "464",
+      "title": "464",
+      "content": "6.5. A természeti csapás által érintett építmények, elektromos berendezések és hálózatok feszültségmentesítéséről az elhárítási munkálatok megkezdése előtt intézkedjen a mentésvezető. A feszültségmentes állapotról feszültség detektor alkalmazásával meg kell győződni."
+    },
+    {
+      "provision_ref": "s465",
+      "section": "465",
+      "title": "465",
+      "content": "7. Utómunkálatok"
+    },
+    {
+      "provision_ref": "s466",
+      "section": "466",
+      "title": "466",
+      "content": "7.1. Utómunkálatok során a további kárnövekedés megelőzésére kell törekedni."
+    },
+    {
+      "provision_ref": "s467",
+      "section": "467",
+      "title": "467",
+      "content": "7.2. A már tényleges kárelhárítási feladatot nem végző erőket folyamatosan ki kell vonni az adott térségből."
+    },
+    {
+      "provision_ref": "s468",
+      "section": "468",
+      "title": "468",
+      "content": "7.3. A használt eszközök, felszerelések tisztítását, karbantartását és fertőtlenítését el kell végezni, és mihamarabbi készenlétbe állításukról gondoskodni kell."
+    },
+    {
+      "provision_ref": "s469",
+      "section": "469",
+      "title": "469",
+      "content": "VI. fejezet"
+    },
+    {
+      "provision_ref": "s470",
+      "section": "470",
+      "title": "470",
+      "content": "Beavatkozás veszélyes anyagok jelenlétében"
+    },
+    {
+      "provision_ref": "s471",
+      "section": "471",
+      "title": "471",
+      "content": "1. Általános előírások"
+    },
+    {
+      "provision_ref": "s472",
+      "section": "472",
+      "title": "472",
+      "content": "1.1. Az elsőnek kiérkező tűzoltó és más járművek a veszély jellegének, mértékének ismerete nélkül a helyszínt 100 méteren belül lehetőleg ne közelítsék meg."
+    },
+    {
+      "provision_ref": "s473",
+      "section": "473",
+      "title": "473",
+      "content": "1.2. Intézkedni kell a környezetbe jutott anyagok azonosításáról, mennyiségének folyamatos ellenőrzéséről, a koncentráció méréséről."
+    },
+    {
+      "provision_ref": "s474",
+      "section": "474",
+      "title": "474",
+      "content": "1.3. A veszélyes terület megközelítése csak a szükséges védelem biztosításával, a mentésvezető engedélyével történhet meg. Illetéktelen személyek bejutását meg kell akadályozni."
+    },
+    {
+      "provision_ref": "s475",
+      "section": "475",
+      "title": "475",
+      "content": "1.4. A beavatkozás teljes időtartama alatt a veszélyes anyaggal, illetve a veszélyhelyzet elhárításával kapcsolatos – speciális ismereteket igénylő – feladatok meghatározását a Katasztrófavédelmi Mobil Labor (a továbbiakban: KML) a Katasztrófavédelmi Sugárfelderítő Egység (a továbbiakban: KSE) illetve szakemberek véleményének figyelembevételével kell végrehajtani."
+    },
+    {
+      "provision_ref": "s476",
+      "section": "476",
+      "title": "476",
+      "content": "2. Jelzés"
+    },
+    {
+      "provision_ref": "s477",
+      "section": "477",
+      "title": "477",
+      "content": "2.1. Az R. előírásai mellett, lehetőség szerint, az alábbiakra terjedjen ki a jelzés fogadása, illetve annak értékelése, valamint az információgyűjtés:"
+    },
+    {
+      "provision_ref": "s478",
+      "section": "478",
+      "title": "478",
+      "content": "a) meteorológiai helyzet (szélirány, csapadék);"
+    },
+    {
+      "provision_ref": "s479",
+      "section": "479",
+      "title": "479",
+      "content": "b) van-e a káreset közelében csatornahálózat;"
+    },
+    {
+      "provision_ref": "s480",
+      "section": "480",
+      "title": "480",
+      "content": "c) az anyag tulajdonságai (halmazállapota), tárolási módja;"
+    },
+    {
+      "provision_ref": "s481",
+      "section": "481",
+      "title": "481",
+      "content": "d) kikerült veszélyes anyag mennyisége;"
+    },
+    {
+      "provision_ref": "s482",
+      "section": "482",
+      "title": "482",
+      "content": "e) látható-e veszélyre utaló jelölés (tábla, bárca, felirat);"
+    },
+    {
+      "provision_ref": "s483",
+      "section": "483",
+      "title": "483",
+      "content": "f) káresettől a legközelebbi lakott terület távolsága;"
+    },
+    {
+      "provision_ref": "s484",
+      "section": "484",
+      "title": "484",
+      "content": "g) baleset pontos helyszíne, bekövetkezésének körülményei (előállítás, tárolás, szállítás során alakult ki a káreset);"
+    },
+    {
+      "provision_ref": "s485",
+      "section": "485",
+      "title": "485",
+      "content": "h) lakott terület kritikus infrastruktúra vagy annak közelsége;"
+    },
+    {
+      "provision_ref": "s486",
+      "section": "486",
+      "title": "486",
+      "content": "i) a megközelítés lehetséges iránya;"
+    },
+    {
+      "provision_ref": "s487",
+      "section": "487",
+      "title": "487",
+      "content": "j) út- és forgalmi viszonyok;"
+    },
+    {
+      "provision_ref": "s488",
+      "section": "488",
+      "title": "488",
+      "content": "k) a káreset körülményei, a rendelkezésre álló első tapasztalatok;"
+    },
+    {
+      "provision_ref": "s489",
+      "section": "489",
+      "title": "489",
+      "content": "l) a közvetlen veszélyben lévő személyek, azok száma, holléte."
+    },
+    {
+      "provision_ref": "s490",
+      "section": "490",
+      "title": "490",
+      "content": "2.2. Amennyiben szállítás közben történik a baleset, akkor a következőkre terjedjen ki az információgyűjtés:"
+    },
+    {
+      "provision_ref": "s491",
+      "section": "491",
+      "title": "491",
+      "content": "a) milyen fajtájú jármű(vek) szenvedtek balesetet (személy- vagy tehergépjármű, autóbusz);"
+    },
+    {
+      "provision_ref": "s492",
+      "section": "492",
+      "title": "492",
+      "content": "b) melyek a szállító jármű, illetve a rakomány legfőbb jellemzői (platós, tartányos, konténer);"
+    },
+    {
+      "provision_ref": "s493",
+      "section": "493",
+      "title": "493",
+      "content": "c) látható-e veszélyre utaló jelölés (tábla, bárca, felirat), ha igen, mit tartalmaz;"
+    },
+    {
+      "provision_ref": "s494",
+      "section": "494",
+      "title": "494",
+      "content": "d) történt-e anyagkifolyás, és ha igen, melyek a veszélyes anyag látható jellemzői;"
+    },
+    {
+      "provision_ref": "s495",
+      "section": "495",
+      "title": "495",
+      "content": "e) mi a látható jellemzője a hajtóanyagnak (például gázos gépjármű);"
+    },
+    {
+      "provision_ref": "s496",
+      "section": "496",
+      "title": "496",
+      "content": "f) milyen volt a balesetet szenvedett jármű(vek) haladási iránya;"
+    },
+    {
+      "provision_ref": "s497",
+      "section": "497",
+      "title": "497",
+      "content": "g) milyen a baleset utáni elhelyezkedésük (felborult, árokba hajtott, keresztbe fordult);"
+    },
+    {
+      "provision_ref": "s498",
+      "section": "498",
+      "title": "498",
+      "content": "h) vannak-e beszorult személyek;"
+    },
+    {
+      "provision_ref": "s499",
+      "section": "499",
+      "title": "499",
+      "content": "i) képez-e forgalmi akadályt;"
+    },
+    {
+      "provision_ref": "s500",
+      "section": "500",
+      "title": "500",
+      "content": "j) milyenek a megközelítési lehetőségek (torlódás);"
+    },
+    {
+      "provision_ref": "s501",
+      "section": "501",
+      "title": "501",
+      "content": "k) milyenek a helyszínen tapasztalható meteorológiai viszonyok (szélirány, csapadék)."
+    },
+    {
+      "provision_ref": "s502",
+      "section": "502",
+      "title": "502",
+      "content": "2.3. A jelzését követően intézkedni kell a KML vagy az eset jellegéből adódóan a KSE riasztására, szakemberek, szakigazgatási szervek és szükség szerint a helyszín zárását biztosító erők kirendelésére, értesítésére. A lakosság védelme érdekében értesíteni kell a polgármestert és az illetékes kirendeltségvezetőt. Intézkedni kell a veszélyes anyagra vonatkozó lehető legtöbb információ beszerzésére, megbízható információ hiányában a veszélyes anyagot minden szempontból a legveszélyesebbnek kell tekinteni."
+    },
+    {
+      "provision_ref": "s503",
+      "section": "503",
+      "title": "503",
+      "content": "2.4. A riasztás elrendelésénél figyelembe kell venni a veszélyes zóna nagyságát, az életveszélyt, a kiürítési feladatokat, a veszélyes anyag fajtáját, koncentrációját, a lekötéséhez, közömbösítéséhez szükséges erőket, eszközöket."
+    },
+    {
+      "provision_ref": "s504",
+      "section": "504",
+      "title": "504",
+      "content": "3. Vonulás"
+    },
+    {
+      "provision_ref": "s505",
+      "section": "505",
+      "title": "505",
+      "content": "3.1. Az R. előírásai mellett a vonulás az alábbiak figyelembevételével történjen:"
+    },
+    {
+      "provision_ref": "s506",
+      "section": "506",
+      "title": "506",
+      "content": "a) a helyszín közvetlen megközelítése lehetőleg a szél irányával megegyező irányból történjen. Az információk gyűjtését már menet közben meg kell kezdeni."
+    },
+    {
+      "provision_ref": "s507",
+      "section": "507",
+      "title": "507",
+      "content": "4. Felderítés"
+    },
+    {
+      "provision_ref": "s508",
+      "section": "508",
+      "title": "508",
+      "content": "4.1. Az R. előírásai mellett a felderítés az alábbiakra terjedjen ki:"
+    },
+    {
+      "provision_ref": "s509",
+      "section": "509",
+      "title": "509",
+      "content": "a) a szabadba áramló anyag (veszélyt jelentő) tulajdonságainak, mennyiségének, terjedési irányának megállapítására;"
+    },
+    {
+      "provision_ref": "s510",
+      "section": "510",
+      "title": "510",
+      "content": "b) a tűz és a veszélyes anyag egymásra hatásából adódó veszélyek megismerésére (a keletkező bomlás- és égéstermékek hatásaira);"
+    },
+    {
+      "provision_ref": "s511",
+      "section": "511",
+      "title": "511",
+      "content": "c) a már meglévő, valamint a várható életveszély felmérése alapján az életmentés lehetséges módozatainak meghatározására;"
+    },
+    {
+      "provision_ref": "s512",
+      "section": "512",
+      "title": "512",
+      "content": "d) az időjárási viszonyokra;"
+    },
+    {
+      "provision_ref": "s513",
+      "section": "513",
+      "title": "513",
+      "content": "e) a kiürítendő területek behatárolására;"
+    },
+    {
+      "provision_ref": "s514",
+      "section": "514",
+      "title": "514",
+      "content": "f) az alkalmazandó oltó-, közömbösítő, felitató és mentesítő anyagok megválasztásához szükséges információszerzésre, illetve azok kirendelésére;"
+    },
+    {
+      "provision_ref": "s515",
+      "section": "515",
+      "title": "515",
+      "content": "g) a veszélyes, átmeneti és biztonságos zóna meghatározására, illetve a lezárandó terület, útvonalak kijelölésére;"
+    },
+    {
+      "provision_ref": "s516",
+      "section": "516",
+      "title": "516",
+      "content": "h) a mentési útvonal megválasztására;"
+    },
+    {
+      "provision_ref": "s517",
+      "section": "517",
+      "title": "517",
+      "content": "i) a beavatkozás útvonalainak kijelölésére;"
+    },
+    {
+      "provision_ref": "s518",
+      "section": "518",
+      "title": "518",
+      "content": "j) a kiürítés megszervezésére;"
+    },
+    {
+      "provision_ref": "s519",
+      "section": "519",
+      "title": "519",
+      "content": "k) a látható jelenségek alapján (anyagkifolyás, szétszóródás) meg kell határozni a várható következményeket (tűz- vagy robbanásveszélyt);"
+    },
+    {
+      "provision_ref": "s520",
+      "section": "520",
+      "title": "520",
+      "content": "l) a járművön van-e elhelyezve veszélyes anyag jelenlétére utaló tábla vagy bárca;"
+    },
+    {
+      "provision_ref": "s521",
+      "section": "521",
+      "title": "521",
+      "content": "m) mit tartalmaznak a fuvarokmányok;"
+    },
+    {
+      "provision_ref": "s522",
+      "section": "522",
+      "title": "522",
+      "content": "n) szükség van-e forgalom leállítására, elterelésre;"
+    },
+    {
+      "provision_ref": "s523",
+      "section": "523",
+      "title": "523",
+      "content": "o) szükség van-e sérült járművek szétválasztásának elvégzésére;"
+    },
+    {
+      "provision_ref": "s524",
+      "section": "524",
+      "title": "524",
+      "content": "p) tartányos jármű esetén átfejtés lehetőségére;"
+    },
+    {
+      "provision_ref": "s525",
+      "section": "525",
+      "title": "525",
+      "content": "q) a veszélyes anyagokról kapott információk (mérési adatok, szélirány, szélerősség) folyamatos értékelésére."
+    },
+    {
+      "provision_ref": "s526",
+      "section": "526",
+      "title": "526",
+      "content": "4.2. A felderítést minden esetben megfelelő védőfelszerelésben, különösen nagy körültekintéssel legalább 2 fő végezze, további két fő álljon készenlétben ugyanolyan védőfelszerelésben."
+    },
+    {
+      "provision_ref": "s527",
+      "section": "527",
+      "title": "527",
+      "content": "4.3. A mentés vezetője már a felderítés megkezdése előtt:"
+    },
+    {
+      "provision_ref": "s528",
+      "section": "528",
+      "title": "528",
+      "content": "a) ismeretlen veszélyes anyagok jelenléte vagy jelenlétük feltételezhetősége esetén teljes test- és légzésvédelmet rendeljen el, továbbá ellenőriztesse a védőfelszerelések működőképességét;"
+    },
+    {
+      "provision_ref": "s529",
+      "section": "529",
+      "title": "529",
+      "content": "b) tűz- és robbanásveszélyes gázok, gőzök, porok előfordulásakor fokozott figyelmet fordítson arra, hogy az elrendelt eszközök, felszerelések tűz- és robbanásbiztosak legyenek, illetve használatuk esetén tüzet vagy robbanást ne okozzanak."
+    },
+    {
+      "provision_ref": "s530",
+      "section": "530",
+      "title": "530",
+      "content": "4.4. A tűzoltóság állományán kívüli szakember a felderítésben személyesen akkor vehet részt, ha számára megfelelő védőfelszerelést biztosítanak, annak használatára alkalmas állapotban van, valamint a feladat elvégzését önként vállalja, és erről írásban vagy tanúk előtt nyilatkozik."
+    },
+    {
+      "provision_ref": "s531",
+      "section": "531",
+      "title": "531",
+      "content": "5. Beavatkozás előkészítése"
+    },
+    {
+      "provision_ref": "s532",
+      "section": "532",
+      "title": "532",
+      "content": "5.1. Az R. előírásai mellett a beavatkozás előkészítése során nagy figyelmet kell fordítani az alábbiakra:"
+    },
+    {
+      "provision_ref": "s533",
+      "section": "533",
+      "title": "533",
+      "content": "a) meg kell határozni a veszélyes, átmeneti és biztonságos zónát, a határok kijelölésére és a terület lezárására a mentésvezető intézkedjen, valamint jelölje ki az ellenőrző, áteresztő pontokat (EÁP). A kijelölés után a veszélyes zónán belül mérgező gázok, gőzök, porok valamint tűz- és robbanásveszélyes gázok, gőzök, porok jelenléte esetén a járművek helyváltoztatása, valamint a nem robbanásbiztos elektromos berendezések, felszerelések működtetése csak a mentésvezető engedélyével végezhető;"
+    },
+    {
+      "provision_ref": "s534",
+      "section": "534",
+      "title": "534",
+      "content": "b) a beavatkozó állomány részére a megfelelő szintű védőruházat és védőeszközök használatát el kell rendelni (megbízható információ hiányában a veszélyes anyagot mérgezőnek kell tekinteni, ennek megfelelő szintű védőfelszerelésben kell végezni a beavatkozást);"
+    },
+    {
+      "provision_ref": "s535",
+      "section": "535",
+      "title": "535",
+      "content": "c) a technikai eszközök, valamint a kezelőszemélyzetet igénylő felszerelések a veszélyes anyag kiáramlás, illetve a terjedés irányába nem helyezhetők el;"
+    },
+    {
+      "provision_ref": "s536",
+      "section": "536",
+      "title": "536",
+      "content": "d) gondoskodni kell a közreműködő személyek és a technikai eszközök mentesítéséről, a veszélyes zónán kívül mentesítő állomás létesítéséről;"
+    },
+    {
+      "provision_ref": "s537",
+      "section": "537",
+      "title": "537",
+      "content": "e) szükség szerint lakosságvédelmi intézkedések és logisztikai feladatok ellátására intézkedni kell;"
+    },
+    {
+      "provision_ref": "s538",
+      "section": "538",
+      "title": "538",
+      "content": "f) lehetőség szerint végre kell hajtani a veszélyes anyag beazonosítását."
+    },
+    {
+      "provision_ref": "s539",
+      "section": "539",
+      "title": "539",
+      "content": "6. Beavatkozás"
+    },
+    {
+      "provision_ref": "s540",
+      "section": "540",
+      "title": "540",
+      "content": "6.1. Az R. előírásai figyelembevételével."
+    },
+    {
+      "provision_ref": "s541",
+      "section": "541",
+      "title": "541",
+      "content": "6.2. Az életmentést lehetőleg szennyezéstől mentes útvonalakon kell végrehajtani. Ha erre nincs mód a rendelkezésre álló védőfelszerelésekkel kell menteni."
+    },
+    {
+      "provision_ref": "s542",
+      "section": "542",
+      "title": "542",
+      "content": "6.3. Gondoskodni kell a kimentett személyek azonnali egészségügyi ellátásáról."
+    },
+    {
+      "provision_ref": "s543",
+      "section": "543",
+      "title": "543",
+      "content": "6.4. A szabadba került anyagok közül azoknál, amelyeknél víz vagy tűzoltóhab felhasználható, a letakarás, hígítás, közömbösítés során csak szórt vagy porlasztott víz, illetve habsugár alkalmazható."
+    },
+    {
+      "provision_ref": "s544",
+      "section": "544",
+      "title": "544",
+      "content": "6.5. A sérült technológiai rendszer, tartály kiiktatása, leürítése, valamint a felforrósodott, felizzott rendszer visszahűtése előtt a szakemberek véleményét figyelembe kell venni."
+    },
+    {
+      "provision_ref": "s545",
+      "section": "545",
+      "title": "545",
+      "content": "6.6. A terjedés irányába a zárt terület kijelölését haladéktalanul el kell rendelni, ha a gáz halmazállapotú vagy gyorsan illó folyékony anyagok elnyeletése vízsugárral nem eredményes vagy a közömbösítés, hígítás mérgező gázokat, gőzöket szabadít vagy szabadíthat fel, illetve azokkal kémiai reakcióba léphet."
+    },
+    {
+      "provision_ref": "s546",
+      "section": "546",
+      "title": "546",
+      "content": "6.7. Por alakú vagy apró szemcsés vegyi anyagok szabadba jutása esetén a felszedésre vagy a letakarásra kell intézkedni."
+    },
+    {
+      "provision_ref": "s547",
+      "section": "547",
+      "title": "547",
+      "content": "6.8. A folyadékok, olvadékok szétfolyását, csatornába, élővízbe jutását körülsáncolással, irányított elvezetéssel, csatornanyílások lezárásával kell megakadályozni, a folyamatos felszívatásra, eltávolításra intézkedni kell."
+    },
+    {
+      "provision_ref": "s548",
+      "section": "548",
+      "title": "548",
+      "content": "6.9. Közlekedési balesetek esetén gondoskodni kell a járművek áramtalanításáról, a tűz és robbanásveszély elhárításáról, melynek kapcsán esetleges átfejtés során biztosítani kell az érintett járművek, eszközök egyenpotenciálra hozását, védőföldelésének kialakítását."
+    },
+    {
+      "provision_ref": "s549",
+      "section": "549",
+      "title": "549",
+      "content": "6.10. A veszélyes és átmeneti zónában tartózkodókról nyilvántartást kell vezetni, melyet a beavatkozás után is meg kell őrizni."
+    },
+    {
+      "provision_ref": "s550",
+      "section": "550",
+      "title": "550",
+      "content": "6.11. Figyelembe kell venni, hogy a tűzoltóságoknál rendszeresített kármentő edények, illetve átfejtéshez, felszíváshoz, felitatásához szükséges szivattyúk, tömlők és egyéb felszerelések nem minden veszélyes anyag esetében használhatók. Ha megállapítást nyert, hogy felszereléseink az adott anyag esetében nem használhatóak, intézkedni kell a megfelelő eszközök helyszínre rendeléséről. Cseppfolyós éghető gázok esetében az előbbi eszközökön túl fáklyázó berendezést is szükséges a kárhelyszínre kérni."
+    },
+    {
+      "provision_ref": "s551",
+      "section": "551",
+      "title": "551",
+      "content": "6.12. Az átfejtést, átrakást csak a szükséges óvintézkedések szigorú betartása mellett szabad végezni."
+    },
+    {
+      "provision_ref": "s552",
+      "section": "552",
+      "title": "552",
+      "content": "7. A beavatkozás biztonsági előírásai"
+    },
+    {
+      "provision_ref": "s553",
+      "section": "553",
+      "title": "553",
+      "content": "7.1. Veszélyes anyagok jelenlétében történő beavatkozás során a mentésvezető által meghatározott védőruházat és védőeszközök használata kötelező."
+    },
+    {
+      "provision_ref": "s554",
+      "section": "554",
+      "title": "554",
+      "content": "7.2. Tűz- és robbanásveszélyes anyaggal kapcsolatos esemény bekövetkezésekor a kárhelyszínen, illetve ezek közelében az illetékes szakember véleménye alapján meghatározott távolságon belül, ennek hiányában legalább 100 méteren belül a dohányzást és nyílt láng használatát meg kell tiltani."
+    },
+    {
+      "provision_ref": "s555",
+      "section": "555",
+      "title": "555",
+      "content": "7.3. A mentesítőhely kialakításánál minden esetben figyelembe kell venni az időjárási tényezőket és környezeti adottságokat."
+    },
+    {
+      "provision_ref": "s556",
+      "section": "556",
+      "title": "556",
+      "content": "7.4. A szerek, felszerelések működési helyének meghatározása a veszélyes anyag terjedési irányát figyelembe véve, lehetőleg azt kikerülve történjen úgy, hogy a veszélyes zónából való visszavonásuk rövid idő alatt, gyorsan, biztonságosan végrehajtható legyen. A visszavonulás biztosítására tartalék mentési csoportot kell szervezni."
+    },
+    {
+      "provision_ref": "s557",
+      "section": "557",
+      "title": "557",
+      "content": "7.5. A közvetlen beavatkozást végzőket, valamint védőruházataik, védőfelszereléseik állapotát rendszeresen ellenőrizni kell. A legkisebb rendellenesség vagy személyi sérülés esetén az érintett került személy(eke)t azonnal le kell váltani."
+    },
+    {
+      "provision_ref": "s558",
+      "section": "558",
+      "title": "558",
+      "content": "7.6. A KML szakembereinek igénybevételével intézkedni kell a környezetbe jutott veszélyes anyagok mennyiségének folyamatos ellenőrzéséről, a koncentráció méréséről, illetve a meteorológiai viszonyokról."
+    },
+    {
+      "provision_ref": "s559",
+      "section": "559",
+      "title": "559",
+      "content": "8. Utómunkálatok"
+    },
+    {
+      "provision_ref": "s560",
+      "section": "560",
+      "title": "560",
+      "content": "8.1. Az R. előírásai mellett az utómunkálat során nagy figyelmet kell fordítani az alábbiakra:"
+    },
+    {
+      "provision_ref": "s561",
+      "section": "561",
+      "title": "561",
+      "content": "a) a használt eszközök, felszerelések mentesítését, fertőtlenítését végre kell hajtani, csak azután kerülhetnek vissza málházási helyükre;"
+    },
+    {
+      "provision_ref": "s562",
+      "section": "562",
+      "title": "562",
+      "content": "b) a felhasznált gázvédő ruhákat, a helyszíni mentesítés után, az arra szolgáló tároló edénybe vagy speciális zsákba gyűjtve a központi mentesítő helyre kell szállítani;"
+    },
+    {
+      "provision_ref": "s563",
+      "section": "563",
+      "title": "563",
+      "content": "c) a veszélyes anyagok átrakása, átfejtése után a forgalmi akadály megszüntetéséről gondoskodni kell. A beavatkozás végrehajtása után a területet át kell adni az illetékes hatóságnak, az esetleges talajcsere elvégzése céljából."
+    },
+    {
+      "provision_ref": "s564",
+      "section": "564",
+      "title": "564",
+      "content": "VII. fejezet"
+    },
+    {
+      "provision_ref": "s565",
+      "section": "565",
+      "title": "565",
+      "content": "Beavatkozás sugárveszélyes anyagok jelenlétében"
+    },
+    {
+      "provision_ref": "s566",
+      "section": "566",
+      "title": "566",
+      "content": "1. Általános előírások"
+    },
+    {
+      "provision_ref": "s567",
+      "section": "567",
+      "title": "567",
+      "content": "1.1. Radiológiai káresemények az alábbiak során fordulhatnak elő:"
+    },
+    {
+      "provision_ref": "s568",
+      "section": "568",
+      "title": "568",
+      "content": "a) az ellenőrizetlen (elhagyott, elveszett, ellopott vagy talált) radioaktív vagy nukleáris anyagokat tartalmazó sugárforrások, a veszélyes ipari (például ipari röntgenforrások), kutatási célú és egészségügyi (terápiás) sugárforrások helytelen használatával kapcsolatos cselekmények;"
+    },
+    {
+      "provision_ref": "s569",
+      "section": "569",
+      "title": "569",
+      "content": "b) ismeretlen eredetű lakossági sugárterhelések és szennyeződések;"
+    },
+    {
+      "provision_ref": "s570",
+      "section": "570",
+      "title": "570",
+      "content": "c) káros nagyságú dózisterhelések (nukleáris létesítmény balesete következtében);"
+    },
+    {
+      "provision_ref": "s571",
+      "section": "571",
+      "title": "571",
+      "content": "d) rosszindulatú fenyegetések, tevékenységek;"
+    },
+    {
+      "provision_ref": "s572",
+      "section": "572",
+      "title": "572",
+      "content": "e) szállítási balesetek."
+    },
+    {
+      "provision_ref": "s573",
+      "section": "573",
+      "title": "573",
+      "content": "1.2. Minden olyan anyagot, eszközt, amely sugárterhelést okozhat, sugárforrásnak kell tekinteni."
+    },
+    {
+      "provision_ref": "s574",
+      "section": "574",
+      "title": "574",
+      "content": "1.3. Szennyező anyagok: a radioaktív anyag füst, por vagy folyékony halmazállapotban megjelenő formái, amelyek személyekkel vagy tárgyakkal való érintkezés során azok elszennyeződését okozhatják."
+    },
+    {
+      "provision_ref": "s575",
+      "section": "575",
+      "title": "575",
+      "content": "1.4. A felderítés adatai alapján, a KML vagy a KSE parancsnokának útmutatása szerint a mentésvezető jelölje ki a veszélyes zóna határait, be- és kiléptetési pontokkal, ahol a kárelhárításban részt vevők monitorozását és regisztrálását el lehet végezni."
+    },
+    {
+      "provision_ref": "s576",
+      "section": "576",
+      "title": "576",
+      "content": "1. táblázat"
+    },
+    {
+      "provision_ref": "s577",
+      "section": "577",
+      "title": "577",
+      "content": "(Radiológiai veszélyhelyzet esetén az első beavatkozok feladatai)"
+    },
+    {
+      "provision_ref": "s578",
+      "section": "578",
+      "title": "578",
+      "content": "1.5. Az elsődleges veszélyességi zóna a további felderítés eredménye során, szükség esetén módosítható. Mivel a dózisteljesítmény nem tükrözi vissza valamennyi besugárzási útvonal hatását, ezért azt csak a terület határainak növelésére lehet használni, és tilos az értéke alapján a belső lezárt terület határait zsugorítani!"
+    },
+    {
+      "provision_ref": "s579",
+      "section": "579",
+      "title": "579",
+      "content": "1.6. Mindaddig feltételezni kell, hogy potenciális radiológiai kockázatok jelen vannak, amíg a radiológiai értékelés meg nem történt, amely megerősíti, vagy visszavonja a feltételezést."
+    },
+    {
+      "provision_ref": "s580",
+      "section": "580",
+      "title": "580",
+      "content": "1.7. Sugárveszélyes környezetben minden beavatkozási tevékenységet az 1. táblázatban foglaltak betartása mellett lehet megkezdeni. Amennyiben nem rendelkezünk információval a veszélyforrásról, illetve nincs a helyszínen sugárvédelmi szakember, akkor a terület lezárása, illetve csak életmentés hajtható végre, a rendelkezésre álló védőfelszerelésekkel. Ebben az esetben azonnali mentesítésről, egészségügyi ellátásról gondoskodni kell."
+    },
+    {
+      "provision_ref": "s581",
+      "section": "581",
+      "title": "581",
+      "content": "1.8. A kimenekített személyeket biztonságos elkülönített helyre kell szállítani."
+    },
+    {
+      "provision_ref": "s582",
+      "section": "582",
+      "title": "582",
+      "content": "1.9. A radiológiai veszélyhelyzetben, a beavatkozás fő feladatai:"
+    },
+    {
+      "provision_ref": "s583",
+      "section": "583",
+      "title": "583",
+      "content": "a) védeni a lakosságot;"
+    },
+    {
+      "provision_ref": "s584",
+      "section": "584",
+      "title": "584",
+      "content": "b) a lakosságot veszélyeztető determinisztikus hatások elkerülése és a sztochasztikus hatások csökkentése;"
+    },
+    {
+      "provision_ref": "s585",
+      "section": "585",
+      "title": "585",
+      "content": "c) védeni a beavatkozó állományt a veszélyhelyzet alatt."
+    },
+    {
+      "provision_ref": "s586",
+      "section": "586",
+      "title": "586",
+      "content": "1.10. Műszaki mentési tevékenységet a sugárzó anyagot előállító, használó és tároló létesítmények, a szállítás munkavédelmi, biztonságtechnikai szabályai, a veszélyes létesítmények címjegyzéke és azok intézkedési terve alapján készített TMMT, valamint jelen utasítás előírásai szerint kell végezni."
+    },
+    {
+      "provision_ref": "s587",
+      "section": "587",
+      "title": "587",
+      "content": "1.11. A műveletirányító ügyeleteken és a tűzoltóságok ügyeletein, „Sugárveszélyes létesítmények” jegyzéket kell készíteni a területileg illetékes NSZSZ nyilvántartása alapján azon létesítményekről, amelyekben sugárzó anyagot állítanak elő, tárolnak vagy használnak és ezek következtében rendes körülmények között vagy tűz- és káreset következményeként veszélyes sugárzási szint vagy rádióizotóp szennyeződés lehetséges. A nyilvántartást évente felül kell vizsgálni."
+    },
+    {
+      "provision_ref": "s588",
+      "section": "588",
+      "title": "588",
+      "content": "1.12. Azokon a helyeken, ahol radioaktív anyagok jelenlétével – radioaktív sugárzással, radioaktív izotópos szennyeződéssel (kontaminációval) – kell számolni, elsősorban a munkahely dolgozói, a létesítmény tűzoltósága és ezt követően a hivatásos, valamint önkormányzati tűzoltóság tagjai avatkozzanak be. Ezen anyagok szállítása során a munkahely dolgozója alatt a jármű vezetőjét és a rakomány kísérőjét kell érteni, aki a külön jogszabály alapján részére kiadott utasításban foglaltak szerint jár el."
+    },
+    {
+      "provision_ref": "s589",
+      "section": "589",
+      "title": "589",
+      "content": "1.13. El kell készíteni és készenlétben kell tartani a beavatkozók sugárterhelési adataira vonatkozó nyilvántartásokat, gondoskodni kell azok naprakész vezetéséről."
+    },
+    {
+      "provision_ref": "s590",
+      "section": "590",
+      "title": "590",
+      "content": "1.14. Fel kell készülni a műszaki mentéssel egyidejű tűzoltási feladatokra is."
+    },
+    {
+      "provision_ref": "s591",
+      "section": "591",
+      "title": "591",
+      "content": "2. Jelzés"
+    },
+    {
+      "provision_ref": "s592",
+      "section": "592",
+      "title": "592",
+      "content": "2.1. Az R. előírásai mellett, lehetőség szerint, az alábbiakra terjedjen ki a jelzés fogadása, illetve annak értékelése, valamint az információgyűjtés:"
+    },
+    {
+      "provision_ref": "s593",
+      "section": "593",
+      "title": "593",
+      "content": "a) épületszerkezeti károsodás történt-e, ha igen, az milyen mértékű;"
+    },
+    {
+      "provision_ref": "s594",
+      "section": "594",
+      "title": "594",
+      "content": "b) kapcsolatban van-e az esemény helyszíne veszélyes létesítménnyel;"
+    },
+    {
+      "provision_ref": "s595",
+      "section": "595",
+      "title": "595",
+      "content": "c) milyen intézkedések történtek vagy történnek a jelzéssel egyidejűleg."
+    },
+    {
+      "provision_ref": "s596",
+      "section": "596",
+      "title": "596",
+      "content": "2.2. A riasztott egység parancsnokának a „Káresetfelvételi lappal” együtt át kell adni a „Sugárvédelmi Tervet” vagy a TMMT-t, valamint a sugárterhelés adataira vonatkozó nyilvántartást."
+    },
+    {
+      "provision_ref": "s597",
+      "section": "597",
+      "title": "597",
+      "content": "2.3. Haladéktalanul intézkedni kell:"
+    },
+    {
+      "provision_ref": "s598",
+      "section": "598",
+      "title": "598",
+      "content": "a) az üzemi sugárvédelmi szakember;"
+    },
+    {
+      "provision_ref": "s599",
+      "section": "599",
+      "title": "599",
+      "content": "b) KSE, KML;"
+    },
+    {
+      "provision_ref": "s600",
+      "section": "600",
+      "title": "600",
+      "content": "c) a rendőrség;"
+    },
+    {
+      "provision_ref": "s601",
+      "section": "601",
+      "title": "601",
+      "content": "d) a területileg illetékes NSZSZ;"
+    },
+    {
+      "provision_ref": "s602",
+      "section": "602",
+      "title": "602",
+      "content": "e) az Országos Mentőszolgálat;"
+    },
+    {
+      "provision_ref": "s603",
+      "section": "603",
+      "title": "603",
+      "content": "f) Országos Sugáregészségügyi Készenléti Szolgálat (OSKSZ);"
+    },
+    {
+      "provision_ref": "s604",
+      "section": "604",
+      "title": "604",
+      "content": "g) a környezetvédelmi hatóság szakembereinek"
+    },
+    {
+      "provision_ref": "s605",
+      "section": "605",
+      "title": "605",
+      "content": "értesítésére, riasztására."
+    },
+    {
+      "provision_ref": "s606",
+      "section": "606",
+      "title": "606",
+      "content": "2.4. Ha radioaktív anyagok szállítása során következik be baleset, akkor fentieken kívül további információkat kell kérni a jelzés vétele során:"
+    },
+    {
+      "provision_ref": "s607",
+      "section": "607",
+      "title": "607",
+      "content": "a) lakott területen belül vagy kívül történt a baleset;"
+    },
+    {
+      "provision_ref": "s608",
+      "section": "608",
+      "title": "608",
+      "content": "b) milyen volt a balesetet szenvedett jármű haladási iránya;"
+    },
+    {
+      "provision_ref": "s609",
+      "section": "609",
+      "title": "609",
+      "content": "c) milyen a baleset utáni elhelyezkedése (felborult, árokba hajtott, keresztbe fordult);"
+    },
+    {
+      "provision_ref": "s610",
+      "section": "610",
+      "title": "610",
+      "content": "d) sérüléseket szenvedtek-e a sugárzó anyagot tartalmazó szállító egységek (kazetták);"
+    },
+    {
+      "provision_ref": "s611",
+      "section": "611",
+      "title": "611",
+      "content": "e) vannak beszorult személyek;"
+    },
+    {
+      "provision_ref": "s612",
+      "section": "612",
+      "title": "612",
+      "content": "f) képez-e forgalmi akadályt;"
+    },
+    {
+      "provision_ref": "s613",
+      "section": "613",
+      "title": "613",
+      "content": "g) milyenek a megközelítési lehetőségek (torlódás);"
+    },
+    {
+      "provision_ref": "s614",
+      "section": "614",
+      "title": "614",
+      "content": "h) meteorológiai viszonyokkal kapcsolatos információk."
+    },
+    {
+      "provision_ref": "s615",
+      "section": "615",
+      "title": "615",
+      "content": "3. Vonulás"
+    },
+    {
+      "provision_ref": "s616",
+      "section": "616",
+      "title": "616",
+      "content": "3.1. Az R. előírásai mellett a vonulás az alábbiak figyelembevételével történjen:"
+    },
+    {
+      "provision_ref": "s617",
+      "section": "617",
+      "title": "617",
+      "content": "a) a helyszín közvetlen megközelítésével kapcsolatban szükség szerint sugárvédelmi szakember véleményét kell kérni, lehetőleg a szél irányával megegyező irányból történjen az érkezés. Az információk gyűjtését már vonulás közben meg kell kezdeni,"
+    },
+    {
+      "provision_ref": "s618",
+      "section": "618",
+      "title": "618",
+      "content": "b) elő kell készíteni a védőfelszereléseket, mérőműszereket, amennyiben rendelkezésre áll személyi dózismérőket, és ellenőrizni kell azok használhatóságát."
+    },
+    {
+      "provision_ref": "s619",
+      "section": "619",
+      "title": "619",
+      "content": "4. Felderítés"
+    },
+    {
+      "provision_ref": "s620",
+      "section": "620",
+      "title": "620",
+      "content": "4.1. Az R. előírásai figyelembevételével."
+    },
+    {
+      "provision_ref": "s621",
+      "section": "621",
+      "title": "621",
+      "content": "4.2. A kárhelyszínre érkezéskor a mentésvezető hajtson végre távolsági felderítést (legalább 100 m), és keressen különböző veszélyekre utaló jeleket:"
+    },
+    {
+      "provision_ref": "s622",
+      "section": "622",
+      "title": "622",
+      "content": "a) esetleges radiológiai és más kockázatok jeleit;"
+    },
+    {
+      "provision_ref": "s623",
+      "section": "623",
+      "title": "623",
+      "content": "b) veszélyeztetett embereket;"
+    },
+    {
+      "provision_ref": "s624",
+      "section": "624",
+      "title": "624",
+      "content": "c) biztonsági kockázatok jeleit, például fegyveres személyek, robbanó anyagok;"
+    },
+    {
+      "provision_ref": "s625",
+      "section": "625",
+      "title": "625",
+      "content": "d) veszélyes anyagok szállítására utaló jeleket /címkéket, bárcákat/ feliratokat vagy UN számokat."
+    },
+    {
+      "provision_ref": "s626",
+      "section": "626",
+      "title": "626",
+      "content": "5. A beavatkozás előkészítése"
+    },
+    {
+      "provision_ref": "s627",
+      "section": "627",
+      "title": "627",
+      "content": "5.1. Az R. előírásai mellett a beavatkozás előkészítése során nagy figyelmet kell fordítani az alábbiakra:"
+    },
+    {
+      "provision_ref": "s628",
+      "section": "628",
+      "title": "628",
+      "content": "a) a védőruházat felvételének, a sugárzásmérő-műszer használatának szükségességére;"
+    },
+    {
+      "provision_ref": "s629",
+      "section": "629",
+      "title": "629",
+      "content": "b) a veszélybe került személyek mentésének sorrendjére, módjára;"
+    },
+    {
+      "provision_ref": "s630",
+      "section": "630",
+      "title": "630",
+      "content": "c) a beavatkozás lehetőségeire;"
+    },
+    {
+      "provision_ref": "s631",
+      "section": "631",
+      "title": "631",
+      "content": "d) a beavatkozásban részt vevők működési körzetére;"
+    },
+    {
+      "provision_ref": "s632",
+      "section": "632",
+      "title": "632",
+      "content": "e) a veszélyes zónában tartózkodás idejére (biztonsági idő)."
+    },
+    {
+      "provision_ref": "s633",
+      "section": "633",
+      "title": "633",
+      "content": "5.2. Meg kell jelölni az átmeneti és biztonságos zóna határát, a dekontamináció helyét, és a biztonsági őrök kijelölésével gondoskodni kell az őrzésről. Ki kell jelölni a kivont, illetve a bevetésre felkészített személyi állomány tartózkodási helyét."
+    },
+    {
+      "provision_ref": "s634",
+      "section": "634",
+      "title": "634",
+      "content": "6. Beavatkozás"
+    },
+    {
+      "provision_ref": "s635",
+      "section": "635",
+      "title": "635",
+      "content": "6.1. Az R. előírásai figyelembevételével."
+    },
+    {
+      "provision_ref": "s636",
+      "section": "636",
+      "title": "636",
+      "content": "6.2. Sugárveszélyes területen sugárvédelmi szakemberek engedélye nélkül csak akkor szabad megkezdeni a beavatkozást, ha közvetlen életveszély áll fenn."
+    },
+    {
+      "provision_ref": "s637",
+      "section": "637",
+      "title": "637",
+      "content": "6.3. Beavatkozás során a sugárterhelést folyamatosan mérni kell."
+    },
+    {
+      "provision_ref": "s638",
+      "section": "638",
+      "title": "638",
+      "content": "6.4. Elsődleges feladat a veszélybe került személyek mentése, biztonságba helyezése."
+    },
+    {
+      "provision_ref": "s639",
+      "section": "639",
+      "title": "639",
+      "content": "6.5. A beavatkozás megkezdésével egy időben mentesítő helyet kell kialakítani, és az állomány, a technikai eszközök, a kimentett személyek sugármentesítését el kell végezni."
+    },
+    {
+      "provision_ref": "s640",
+      "section": "640",
+      "title": "640",
+      "content": "7. A beavatkozás biztonsági előírásai"
+    },
+    {
+      "provision_ref": "s641",
+      "section": "641",
+      "title": "641",
+      "content": "7.1. A beavatkozás során meg kell akadályozni a sugárveszélyes anyagok szétterjedését, szétszóródását."
+    },
+    {
+      "provision_ref": "s642",
+      "section": "642",
+      "title": "642",
+      "content": "7.2. A beavatkozást lehetőleg az építmények, terep adta lehetőségek (árnyékoló felületek) igénybevételével és a sugárforrástól lehető legtávolabbról kell végrehajtani."
+    },
+    {
+      "provision_ref": "s643",
+      "section": "643",
+      "title": "643",
+      "content": "7.3. A feladatokat csak a feltétlenül szükséges létszám és felszerelés minél rövidebb idejű igénybevételével kell végrehajtani."
+    },
+    {
+      "provision_ref": "s644",
+      "section": "644",
+      "title": "644",
+      "content": "7.4. Ha a helyszínen felelős szakszemélyzet nincs, a műszaki mentést csak akkor szabad végrehajtani, ha a mentésvezető alapos helyismerettel rendelkezik és a szükséges felszerelések (védőeszközök) rendelkezésre állnak. Minden más esetben az élet és testi épség védelmére kell intézkedéseket tenni."
+    },
+    {
+      "provision_ref": "s645",
+      "section": "645",
+      "title": "645",
+      "content": "7.5. Közvetlenül a sugárforrás közelében tevékenykedők biztonsága érdekében, az azonnali visszavonulás lehetőségét minden esetben biztosítani kell, valamint a teljes munkavégzés ideje alatt, a közvetlenül beavatkozókkal legalább azonos szintű védőfelszerelésekkel ellátva minimum 2 fő álljon készen a romhatáron kívül. Nagy létszámú közvetlen beavatkozó esetén a biztosításban részt vevők számának növelésére intézkedni kell."
+    },
+    {
+      "provision_ref": "s646",
+      "section": "646",
+      "title": "646",
+      "content": "7.6. A belső lezárt területről való kilépést követően a beavatkozók külső sugárszennyezettségének ellenőrzését el kell végezni. A személy fejétől (haj, arc) mozgatva a detektort lefelé, azután oldalirányban a nyak mentén, a gallérnál, a kar, csukló, kéz, hónalj, oldal, mellkas (ruhán zsebek), majd a lábak, hát, talp irányában."
+    },
+    {
+      "provision_ref": "s647",
+      "section": "647",
+      "title": "647",
+      "content": "7.7. A káresemény elhárításában részt vevő személy sugárterhelése nem haladhatja meg az 50 mSv effektív dózist. Az érintettek körén belül kivételt képez ez alól a népesség jelentős sugárterhelésének megakadályozásában és életmentésben részt vevő személy. Ebben az esetben törekedni kell arra, hogy a sugárterhelés a 100 mSv effektív dózist, az életmentésben részt vevő személy sugárterhelése a 250 mSv effektív dózist ne haladja meg."
+    },
+    {
+      "provision_ref": "s648",
+      "section": "648",
+      "title": "648",
+      "content": "8. Utómunkálatok"
+    },
+    {
+      "provision_ref": "s649",
+      "section": "649",
+      "title": "649",
+      "content": "8.1. Az R. előírásai mellett az utómunkálat során nagy figyelmet kell fordítani az alábbiakra:"
+    },
+    {
+      "provision_ref": "s650",
+      "section": "650",
+      "title": "650",
+      "content": "a) a műszaki mentés befejezése után – a sugárveszélyes üzem belső előírásai alapján és az illetékes NSZSZ, valamint orvos közreműködésével – végre kell hajtani a beavatkozó személyi állomány és felszerelés mentesítését, a sugárszennyezettség ellenőrzését, amelyek tapasztalatairól nyilatkozatot (zárójelentést) kell kérni;"
+    },
+    {
+      "provision_ref": "s651",
+      "section": "651",
+      "title": "651",
+      "content": "b) meg kell állapítani a személyi állományt ért sugáradag értékét, és azt a sugárterhelés-nyilvántartásba be kell jegyezni."
+    },
+    {
+      "provision_ref": "s652",
+      "section": "652",
+      "title": "652",
+      "content": "VIII. fejezet"
+    },
+    {
+      "provision_ref": "s653",
+      "section": "653",
+      "title": "653",
+      "content": "Atomerőművek, kutatóreaktorok, kiégett nukleáris fűtőelemek átmeneti száraz tárolóinak tűzoltási és műszaki mentési követelményei"
+    },
+    {
+      "provision_ref": "s654",
+      "section": "654",
+      "title": "654",
+      "content": "A beavatkozást a Tűzoltási-taktikai Szabályzat vonatkozó fejezetében foglaltak szerint kell végrehajtani."
+    },
+    {
+      "provision_ref": "s655",
+      "section": "655",
+      "title": "655",
+      "content": "IX. fejezet"
+    },
+    {
+      "provision_ref": "s656",
+      "section": "656",
+      "title": "656",
+      "content": "Beavatkozás gázvezeték sérülése esetén"
+    },
+    {
+      "provision_ref": "s657",
+      "section": "657",
+      "title": "657",
+      "content": "1. Általános előírások"
+    },
+    {
+      "provision_ref": "s658",
+      "section": "658",
+      "title": "658",
+      "content": "1.1. E fejezet előírásait földgázvezeték sérülése kapcsán, valamint a Tűzoltás-taktikai Szabályzat, a gázt szállító járművek, a gázvezetékek, a gáztartályok és a gázpalackok tüzeinek oltása című fejezet előírásaival együttesen kell alkalmazni."
+    },
+    {
+      "provision_ref": "s659",
+      "section": "659",
+      "title": "659",
+      "content": "1.2. A bejelentett gázszivárgás, gázömlés során – az illetékes gázszolgáltató igénybevételével és véleménye figyelembevételével – a legrövidebb idő alatt meg kell szüntetni a szivárgást, ömlést, robbanásveszélyt."
+    },
+    {
+      "provision_ref": "s660",
+      "section": "660",
+      "title": "660",
+      "content": "1.3. Amennyiben a jelzés tartalmából gázvezeték meghibásodására és annak következtében gáz kiáramlására lehet következtetni, tájékozódni kell a közvetlen életveszélyben lévő személyekről, és meg kell állapítani a kiáramló gáz terjedési irányát és várható hatását, valamint fel kell készülni tűzoltási feladatokra is."
+    },
+    {
+      "provision_ref": "s661",
+      "section": "661",
+      "title": "661",
+      "content": "2. Jelzés"
+    },
+    {
+      "provision_ref": "s662",
+      "section": "662",
+      "title": "662",
+      "content": "2.1. Az R. előírásai mellett lehetőség szerint az alábbiakra terjedjen ki a jelzés fogadása, illetve annak értékelése, valamint az információgyűjtés:"
+    },
+    {
+      "provision_ref": "s663",
+      "section": "663",
+      "title": "663",
+      "content": "a) észlelhető-e gázszivárgás;"
+    },
+    {
+      "provision_ref": "s664",
+      "section": "664",
+      "title": "664",
+      "content": "b) mekkora nyomású a gázvezeték (kicsi, közép, magas);"
+    },
+    {
+      "provision_ref": "s665",
+      "section": "665",
+      "title": "665",
+      "content": "c) káresethez legközelebb található lakott település, ingatlan;"
+    },
+    {
+      "provision_ref": "s666",
+      "section": "666",
+      "title": "666",
+      "content": "d) meteorológiai helyzet (szélirány, csapadék);"
+    },
+    {
+      "provision_ref": "s667",
+      "section": "667",
+      "title": "667",
+      "content": "e) gáz elzárási, kiszakaszolási lehetősége."
+    },
+    {
+      "provision_ref": "s668",
+      "section": "668",
+      "title": "668",
+      "content": "2.2. Az esemény súlya és körülményei szerint intézkedni kell a KML vonultatására."
+    },
+    {
+      "provision_ref": "s669",
+      "section": "669",
+      "title": "669",
+      "content": "2.3. Gázszivárgás, gázömlés esetén minden esetben intézkedni kell a területileg illetékes gázszolgáltató és a rendőrség riasztására."
+    },
+    {
+      "provision_ref": "s670",
+      "section": "670",
+      "title": "670",
+      "content": "3. Vonulás"
+    },
+    {
+      "provision_ref": "s671",
+      "section": "671",
+      "title": "671",
+      "content": "3.1. Az R. előírásai mellett a vonulás az alábbiak figyelembevételével történjen:"
+    },
+    {
+      "provision_ref": "s672",
+      "section": "672",
+      "title": "672",
+      "content": "a) a vonulás és a kárhely megközelítése során vegye figyelembe a szélirányt;"
+    },
+    {
+      "provision_ref": "s673",
+      "section": "673",
+      "title": "673",
+      "content": "b) a vonuló egységeket biztonságos távolságban és helyen kell felállítani a felderítés idejére (minimum: 50 méter)."
+    },
+    {
+      "provision_ref": "s674",
+      "section": "674",
+      "title": "674",
+      "content": "4. Felderítés"
+    },
+    {
+      "provision_ref": "s675",
+      "section": "675",
+      "title": "675",
+      "content": "4.1. Az R. előírásai mellett a felderítés az alábbiakra terjedjen ki:"
+    },
+    {
+      "provision_ref": "s676",
+      "section": "676",
+      "title": "676",
+      "content": "a) a felderítést legalább két fővel kell végrehajtani, használva az egyéni védőfelszereléseket, légzésvédő készüléket és lehetőség szerint személyi gázérzékelő műszert;"
+    },
+    {
+      "provision_ref": "s677",
+      "section": "677",
+      "title": "677",
+      "content": "b) gyújtásveszélyre, szikrát nem okozó felszerelések és – ha indokolt – védősugár, tűzoltó készülék biztosítására;"
+    },
+    {
+      "provision_ref": "s678",
+      "section": "678",
+      "title": "678",
+      "content": "c) az esetleges életveszély és a lehetséges menekítési útvonalak meghatározására;"
+    },
+    {
+      "provision_ref": "s679",
+      "section": "679",
+      "title": "679",
+      "content": "d) a gázömlés körülményeire: úgymint a sérült vezeték mérete, nyomvonal iránya, elhelyezkedése, terjedési irányai, az időjárási körülmények, azok változékonysága, a terület beépítettsége és domborzati viszonyai;"
+    },
+    {
+      "provision_ref": "s680",
+      "section": "680",
+      "title": "680",
+      "content": "e) a gázvezeték vagy egyéb szerelvény kiszakaszolási, elzárási lehetőségeire."
+    },
+    {
+      "provision_ref": "s681",
+      "section": "681",
+      "title": "681",
+      "content": "5. Beavatkozás előkészítése"
+    },
+    {
+      "provision_ref": "s682",
+      "section": "682",
+      "title": "682",
+      "content": "5.1. Az R. előírásai mellett a beavatkozás előkészítése során nagy figyelmet kell fordítani az alábbiakra:"
+    },
+    {
+      "provision_ref": "s683",
+      "section": "683",
+      "title": "683",
+      "content": "a) gázömlés esetén a veszélyességi övezetet a szélirány felől indulva, a helyszíni adottságoknak megfelelően, lehetőleg több irányból haladva, folyamatos gázkoncentráció méréssel kell kijelölni;"
+    },
+    {
+      "provision_ref": "s684",
+      "section": "684",
+      "title": "684",
+      "content": "b) intézkedni kell a veszélyeztetett terület lezárására, a lezárt terület kiürítésére a környezetben lévők tájékoztatására és a forgalom elterelésére a társszervek bevonásával;"
+    },
+    {
+      "provision_ref": "s685",
+      "section": "685",
+      "title": "685",
+      "content": "c) ki kell jelölni a tűzoltó gépjárművek felállítási helyét, ahol a káresethez a lehető legközelebb, de még biztonságos körülmények között működhetnek;"
+    },
+    {
+      "provision_ref": "s686",
+      "section": "686",
+      "title": "686",
+      "content": "d) gázvezeték sérülése esetén fel kell venni a kapcsolatot a vezeték üzemeltetőjével, és intézkedni kell a vezeték kiszakaszolásáról a gázkiáramlás megszüntetése céljából."
+    },
+    {
+      "provision_ref": "s687",
+      "section": "687",
+      "title": "687",
+      "content": "6. Beavatkozás"
+    },
+    {
+      "provision_ref": "s688",
+      "section": "688",
+      "title": "688",
+      "content": "6.1. Az R. előírásai figyelembevételével."
+    },
+    {
+      "provision_ref": "s689",
+      "section": "689",
+      "title": "689",
+      "content": "6.2. A gázvezetékek szivárgásakor, gázömlésekor ki kell kérni a vezeték üzemeltetőjének véleményét, és vele együttműködve kell a feladatot végrehajtani."
+    },
+    {
+      "provision_ref": "s690",
+      "section": "690",
+      "title": "690",
+      "content": "6.3. A kiáramlás környezetének nedvesítésével kell csökkenteni a robbanásveszélyt, azonban figyelembe kell venni, hogy a kiáramló (be nem gyulladt) gázhűtést nem igényel, így a közvetlenül a gázvezeték sérülésére irányított vízsugárral a munkaterület kezelése, a későbbi beavatkozás körülményei válnak nehézkessé."
+    },
+    {
+      "provision_ref": "s691",
+      "section": "691",
+      "title": "691",
+      "content": "7. Beavatkozás biztonsági előírásai"
+    },
+    {
+      "provision_ref": "s692",
+      "section": "692",
+      "title": "692",
+      "content": "7.1. A gázkoncentráció mérésére lehetőség szerint intézkedni kell."
+    },
+    {
+      "provision_ref": "s693",
+      "section": "693",
+      "title": "693",
+      "content": "7.2. Gázömlés esetén tilos a nem robbanásbiztos kivitelű eszközök használata a védőzónán belül."
+    },
+    {
+      "provision_ref": "s694",
+      "section": "694",
+      "title": "694",
+      "content": "7.3. A beavatkozásban részt vevők biztonsága érdekében, az azonnali visszavonulás lehetőségét minden esetben biztosítani kell."
+    },
+    {
+      "provision_ref": "s695",
+      "section": "695",
+      "title": "695",
+      "content": "7.4. Zárt terekben gondoskodni kell a szabadba szellőztetésről, a gázkiáramlás megszüntetéséről, áramtalanításról és a gyújtóforrások megszüntetéséről."
+    },
+    {
+      "provision_ref": "s696",
+      "section": "696",
+      "title": "696",
+      "content": "7.5. A veszélyességi övezeten belül kizárólag a biztosítási és beavatkozási feladatokkal megbízott állomány tartózkodhat."
+    },
+    {
+      "provision_ref": "s697",
+      "section": "697",
+      "title": "697",
+      "content": "X. fejezet"
+    },
+    {
+      "provision_ref": "s698",
+      "section": "698",
+      "title": "698",
+      "content": "Életmentés szabályai"
+    },
+    {
+      "provision_ref": "s699",
+      "section": "699",
+      "title": "699",
+      "content": "Az életmentés általános szabályait az R. „Az életmentés” című fejezete tartalmazza."
+    },
+    {
+      "provision_ref": "s700",
+      "section": "700",
+      "title": "700",
+      "content": "1. Vízből mentés szabályai"
+    },
+    {
+      "provision_ref": "s701",
+      "section": "701",
+      "title": "701",
+      "content": "1.1. Általános előírások"
+    },
+    {
+      "provision_ref": "s702",
+      "section": "702",
+      "title": "702",
+      "content": "1.1.1. Vízből mentésnek kell tekinteni minden olyan esetet, amikor a mentendő személy vízben van és önerejéből nem képes biztonságba jutni."
+    },
+    {
+      "provision_ref": "s703",
+      "section": "703",
+      "title": "703",
+      "content": "1.2. Jelzés"
+    },
+    {
+      "provision_ref": "s704",
+      "section": "704",
+      "title": "704",
+      "content": "1.2.1. Az R. előírásai mellett, lehetőség szerint, az alábbiakra terjedjen ki a jelzés fogadása, illetve annak értékelése, valamint az információgyűjtés:"
+    },
+    {
+      "provision_ref": "s705",
+      "section": "705",
+      "title": "705",
+      "content": "a) a víz típusára (álló, illetve folyóvíz);"
+    },
+    {
+      "provision_ref": "s706",
+      "section": "706",
+      "title": "706",
+      "content": "b) a mentendő személyek számára;"
+    },
+    {
+      "provision_ref": "s707",
+      "section": "707",
+      "title": "707",
+      "content": "c) a vízfelület pontos meghatározására (például több bányató egy helyen);"
+    },
+    {
+      "provision_ref": "s708",
+      "section": "708",
+      "title": "708",
+      "content": "d) a vízparthoz való lejutás lehetőségeire."
+    },
+    {
+      "provision_ref": "s709",
+      "section": "709",
+      "title": "709",
+      "content": "1.2.2. A riasztás során törekedjünk arra, hogy a kiérkező rajok rendelkezzenek a tűzoltóság által rendszeresített csónakkal vagy a helyszínen lévő megfelelő vízi járművel."
+    },
+    {
+      "provision_ref": "s710",
+      "section": "710",
+      "title": "710",
+      "content": "1.2.3. Vízi baleseteknél lehetőség szerint riasztásra kerüljenek búvárok is, hogy egy esetleges eltűnés esetén minél előbb be tudjanak avatkozni."
+    },
+    {
+      "provision_ref": "s711",
+      "section": "711",
+      "title": "711",
+      "content": "1.2.4. A búvárok vízi jármű nélkül is bevethetőek vízből mentésre."
+    },
+    {
+      "provision_ref": "s712",
+      "section": "712",
+      "title": "712",
+      "content": "1.2.5. Értesíteni kell a társszerveket (mentőszolgálatot, rendőrséget), folyó esetén a vízirendészetet, szükség esetén vízi mentésre alkalmas mentőszervezetet."
+    },
+    {
+      "provision_ref": "s713",
+      "section": "713",
+      "title": "713",
+      "content": "1.3. Vonulás"
+    },
+    {
+      "provision_ref": "s714",
+      "section": "714",
+      "title": "714",
+      "content": "1.3.1. Az R. előírásai mellett a vonulás az alábbiak figyelembevételével történjen:"
+    },
+    {
+      "provision_ref": "s715",
+      "section": "715",
+      "title": "715",
+      "content": "a) a vonulás alatt meg kell határozni, hogy a mentésben kinek mi lesz a feladata (közvetlen mentők, parti segítők);"
+    },
+    {
+      "provision_ref": "s716",
+      "section": "716",
+      "title": "716",
+      "content": "b) a mentésvezető határozza meg a mentéshez előkészítendő és használandó eszközöket, amelyeket a vonulás megkezdése előtt vagy közben a lehetőségektől és a körülményektől függően elő kell készíteni;"
+    },
+    {
+      "provision_ref": "s717",
+      "section": "717",
+      "title": "717",
+      "content": "c) határozza meg a mentésvezető a bevetés alatt szükséges ruházatot, amennyiben van a szeren mentőmellény, illetve búvárruha, akkor azt a vonulás megkezdése előtt vagy közben törekedjünk a felvételére;"
+    },
+    {
+      "provision_ref": "s718",
+      "section": "718",
+      "title": "718",
+      "content": "d) vonulás során tekintettel kell lenni a hullámzás által keltett másodlagos veszélyekre, például felborítás, meglökés."
+    },
+    {
+      "provision_ref": "s719",
+      "section": "719",
+      "title": "719",
+      "content": "1.4. Felderítés"
+    },
+    {
+      "provision_ref": "s720",
+      "section": "720",
+      "title": "720",
+      "content": "1.4.1. Az R. előírásai mellett a felderítés az alábbiakra terjedjen ki:"
+    },
+    {
+      "provision_ref": "s721",
+      "section": "721",
+      "title": "721",
+      "content": "a) folyóvíznél távolsági felderítéssel határozzuk meg, a mentés várható helyszínét a folyó sodrásából, illetve a partra történő lejutásból;"
+    },
+    {
+      "provision_ref": "s722",
+      "section": "722",
+      "title": "722",
+      "content": "b) a mentendő személy megközelítésének meghatározásánál vagy biztonságosabb helyzetbe hozásánál a lehető leggyorsabb megoldást válasszuk a biztonság figyelembevételével;"
+    },
+    {
+      "provision_ref": "s723",
+      "section": "723",
+      "title": "723",
+      "content": "c) a mentés megkezdése előtt a helyszíni sajátosságokat figyelembe véve határozzuk meg a vízre szállás módját, amennyiben közvetlen személymentést hajtunk végre (begyalogolás, beereszkedés, beugrás)."
+    },
+    {
+      "provision_ref": "s724",
+      "section": "724",
+      "title": "724",
+      "content": "1.5. Beavatkozás előkészítése"
+    },
+    {
+      "provision_ref": "s725",
+      "section": "725",
+      "title": "725",
+      "content": "1.5.1. Az R. előírásai mellett a beavatkozás előkészítése során nagy figyelmet kell fordítani az alábbiakra:"
+    },
+    {
+      "provision_ref": "s726",
+      "section": "726",
+      "title": "726",
+      "content": "a) a feladatok meghatározásánál egyértelműen határozzuk meg, hogy melyik személyt ki fogja biztosítani a mentés során, illetve kinek hol kell elhelyezkednie;"
+    },
+    {
+      "provision_ref": "s727",
+      "section": "727",
+      "title": "727",
+      "content": "b) a mentésre alkalmas eszközök közül határozzuk meg a körülményekhez legoptimálisabbat, és azokat készítsék elő;"
+    },
+    {
+      "provision_ref": "s728",
+      "section": "728",
+      "title": "728",
+      "content": "c) a mentésvezető által megjelölt személyek foglalják el a megfelelő felszerelésekkel a meghatározott pontot, ahonnan a mentést fogják végezni."
+    },
+    {
+      "provision_ref": "s729",
+      "section": "729",
+      "title": "729",
+      "content": "1.6. Beavatkozás"
+    },
+    {
+      "provision_ref": "s730",
+      "section": "730",
+      "title": "730",
+      "content": "1.6.1. Az R. előírásai figyelembevételével."
+    },
+    {
+      "provision_ref": "s731",
+      "section": "731",
+      "title": "731",
+      "content": "1.6.2. Elsődlegesen törekedjünk a mentendő személy pozitív felhajtóerővel történő fixálására, mentő eszköz odadobásával, odanyújtásával."
+    },
+    {
+      "provision_ref": "s732",
+      "section": "732",
+      "title": "732",
+      "content": "1.6.3. A mentett személlyel folyamatos pozitív kommunikáció szükséges, amellyel a mentést tudjuk elősegíteni, illetve adott esetben a pánikban lévő személyt megnyugtatni."
+    },
+    {
+      "provision_ref": "s733",
+      "section": "733",
+      "title": "733",
+      "content": "1.6.4. A helyszínre érkezés pillanatától egy személy folyamatosan tartsa szemmel a bajba jutottat, és igyekezzen meghatározni annak helyét minél pontosabban, arra az esetre, ha elmerül."
+    },
+    {
+      "provision_ref": "s734",
+      "section": "734",
+      "title": "734",
+      "content": "1.6.5. Vegyük figyelembe a vízmozgás és szél irányát, sebességét, az esetlegesen arra közlekedő hajókat a mentési módszer és sorrend meghatározásakor."
+    },
+    {
+      "provision_ref": "s735",
+      "section": "735",
+      "title": "735",
+      "content": "1.7. A beavatkozás biztonsági előírásai"
+    },
+    {
+      "provision_ref": "s736",
+      "section": "736",
+      "title": "736",
+      "content": "1.7.1. A mentésre csak jó vízbiztonsággal és úszástudással rendelkező személy vehető igénybe."
+    },
+    {
+      "provision_ref": "s737",
+      "section": "737",
+      "title": "737",
+      "content": "1.7.2. Az eszközök meghatározása során törekedjen a parancsnok arra, hogy az eszközöknek legyen felhajtóereje."
+    },
+    {
+      "provision_ref": "s738",
+      "section": "738",
+      "title": "738",
+      "content": "1.7.3. Az előkészített mentőeszközök melyek nem kerülnek felhasználásra, maradjanak készenlétben a beavatkozás végéig."
+    },
+    {
+      "provision_ref": "s739",
+      "section": "739",
+      "title": "739",
+      "content": "1.7.4. A vízi jármű esetében a kezelőn kívül minimum 1 fő szükséges egy fő mentéséhez. Kötél használata ajánlott."
+    },
+    {
+      "provision_ref": "s740",
+      "section": "740",
+      "title": "740",
+      "content": "1.7.5. Vízijárműben tartózkodóknak mentőmellény viselése kötelező."
+    },
+    {
+      "provision_ref": "s741",
+      "section": "741",
+      "title": "741",
+      "content": "1.7.6. A mentésben részt vevők sisakot és mászóövet ne viseljenek, ruházatuk az időjárásnak megfelelően könnyíthető."
+    },
+    {
+      "provision_ref": "s742",
+      "section": "742",
+      "title": "742",
+      "content": "1.8. Utómunkálatok"
+    },
+    {
+      "provision_ref": "s743",
+      "section": "743",
+      "title": "743",
+      "content": "1.8.1. Amennyiben szükséges, meg kell kezdeni az elsősegélynyújtást (kihűlés, vérzéscsillapítás, újraélesztés). A sérültet azonnal el kell kezdeni – lehetőségekhez képest – megszabadítani a vizes ruháktól."
+    },
+    {
+      "provision_ref": "s744",
+      "section": "744",
+      "title": "744",
+      "content": "2. Jégről mentés szabályai"
+    },
+    {
+      "provision_ref": "s745",
+      "section": "745",
+      "title": "745",
+      "content": "2.1. Általános előírások"
+    },
+    {
+      "provision_ref": "s746",
+      "section": "746",
+      "title": "746",
+      "content": "2.1.1. Jégről mentésnek kell tekinteni minden olyan esemény, ahol egy vagy több személy vagy állat jégbe szakad, és önerejéből nem képes kijutni biztonságos területre."
+    },
+    {
+      "provision_ref": "s747",
+      "section": "747",
+      "title": "747",
+      "content": "2.2. Jelzés"
+    },
+    {
+      "provision_ref": "s748",
+      "section": "748",
+      "title": "748",
+      "content": "2.2.2. A tűzoltó szerekkel együttesen értesítsük a társszerveket (mentőszolgálatot, rendőrséget), valamint a búvárokat."
+    },
+    {
+      "provision_ref": "s749",
+      "section": "749",
+      "title": "749",
+      "content": "2.3. Vonulás"
+    },
+    {
+      "provision_ref": "s750",
+      "section": "750",
+      "title": "750",
+      "content": "2.3.1. Az R. előírásai mellett a vonulás az alábbiak figyelembevételével történjen:"
+    },
+    {
+      "provision_ref": "s751",
+      "section": "751",
+      "title": "751",
+      "content": "a) a vonulás alatt meg kell határozni a mentésben részt vevők várható feladatait (közvetlen mentők, parti segítők);"
+    },
+    {
+      "provision_ref": "s752",
+      "section": "752",
+      "title": "752",
+      "content": "b) a mentésvezető határozza meg a mentéshez előkészítendő és használandó eszközöket, amelyeket a vonulás megkezdése előtt vagy közben a lehetőségektől és a körülményektől függően elő kell készíteni;"
+    },
+    {
+      "provision_ref": "s753",
+      "section": "753",
+      "title": "753",
+      "content": "c) a mentésvezető határozza meg a bevetés alatt szükséges ruházatot, amennyiben van a szeren mentőmellény, illetve búvárruha, akkor törekedni kell a mielőbbi felvételére."
+    },
+    {
+      "provision_ref": "s754",
+      "section": "754",
+      "title": "754",
+      "content": "2.4. Felderítés"
+    },
+    {
+      "provision_ref": "s755",
+      "section": "755",
+      "title": "755",
+      "content": "2.4.1. Az R. előírásai mellett a felderítés az alábbiakra terjedjen ki:"
+    },
+    {
+      "provision_ref": "s756",
+      "section": "756",
+      "title": "756",
+      "content": "a) honnan lehet a leggyorsabban elérni a mentendőt (számítani kell arra, hogy a bajba jutott körül könnyen törik a jég);"
+    },
+    {
+      "provision_ref": "s757",
+      "section": "757",
+      "title": "757",
+      "content": "b) a felderítéssel egy időben az eszközöket mentésre kész állapotba kell hozni (például létra összeszerelése és kötél biztosítása)."
+    },
+    {
+      "provision_ref": "s758",
+      "section": "758",
+      "title": "758",
+      "content": "2.5. Beavatkozás előkészítése"
+    },
+    {
+      "provision_ref": "s759",
+      "section": "759",
+      "title": "759",
+      "content": "2.5.1. Az R. előírásai mellett a beavatkozás előkészítése során nagy figyelmet kell fordítani az alábbiakra:"
+    },
+    {
+      "provision_ref": "s760",
+      "section": "760",
+      "title": "760",
+      "content": "a) a feladatok meghatározásánál egyértelműen határozzuk meg, hogy melyik személyt ki fogja biztosítani a mentés során, illetve kinek hol kell elhelyezkednie;"
+    },
+    {
+      "provision_ref": "s761",
+      "section": "761",
+      "title": "761",
+      "content": "b) a mentésre alkalmas eszközök közül határozzuk meg a körülményekhez legoptimálisabbat, és azokat készítsék elő;"
+    },
+    {
+      "provision_ref": "s762",
+      "section": "762",
+      "title": "762",
+      "content": "c) a mentésvezető által megjelölt személyek foglalják el a megfelelő felszerelésekkel a meghatározott pontot, ahonnan a mentést fogják végezni."
+    },
+    {
+      "provision_ref": "s763",
+      "section": "763",
+      "title": "763",
+      "content": "2.6. Beavatkozás"
+    },
+    {
+      "provision_ref": "s764",
+      "section": "764",
+      "title": "764",
+      "content": "2.6.1. Az R. előírásai figyelembevételével."
+    },
+    {
+      "provision_ref": "s765",
+      "section": "765",
+      "title": "765",
+      "content": "2.6.2. Legelső legfontosabb cselekvés, kommunikáció a bajba jutottal (kitartásra biztatni, hívjuk fel a figyelmét, hogy nagyobb felületen terüljön el ha még nem szakadt teljesen be), és ha lehetőség van (távolság miatt) a partról kötelet dobni neki. Ugyanakkor a sérült szempontjából számítanunk kell a cselekvőképesség hiányára, a téli ruházat plusz súlyára, várhatóan közvetlen mentést kell megkezdeni azonnal."
+    },
+    {
+      "provision_ref": "s766",
+      "section": "766",
+      "title": "766",
+      "content": "2.6.3. Fontos a mentők elmerülés elleni biztosítása. Az olyan védőruhában (például Bristol), mely rendelkezik felhajtóerővel, biztonsággal végrehajtható a mentés, de ha lehetőség van, akkor ilyenkor is használjuk a mentőmellényt."
+    },
+    {
+      "provision_ref": "s767",
+      "section": "767",
+      "title": "767",
+      "content": "2.6.4. Ha van mentőstég, azt kell használni, de ilyenkor is legyen készenlétben a létra."
+    },
+    {
+      "provision_ref": "s768",
+      "section": "768",
+      "title": "768",
+      "content": "2.6.5. Olyan hosszú létrát kell megszerelni, amilyet csak lehet. Ha több egység is érkezik a helyszínre, akkor egymás létráját meghosszabbíthatják."
+    },
+    {
+      "provision_ref": "s769",
+      "section": "769",
+      "title": "769",
+      "content": "2.6.6. Amennyiben a mentő is vízbe került, akkor maximum 5 percig tud aktívan menteni, tehát ez időt meghaladva már ő is mentendőnek minősül (kivétel, ha búvárruhát visel)."
+    },
+    {
+      "provision_ref": "s770",
+      "section": "770",
+      "title": "770",
+      "content": "2.7. A beavatkozás biztonsági előírásai"
+    },
+    {
+      "provision_ref": "s771",
+      "section": "771",
+      "title": "771",
+      "content": "2.7.1. Vízi jármű alkalmazása a mentésre csak olyan körülmények között javasolt, amikor a mentendő, összefüggő vízfelületen keresztül is megközelíthető."
+    },
+    {
+      "provision_ref": "s772",
+      "section": "772",
+      "title": "772",
+      "content": "2.7.2. Sodrásban (folyóban) történő mentést csak megfelelő (jég roncsoló hatása ellen védett, valamint a megfelelő manőverezhetősége is biztosított) vízi járművel vagy alpin technikával hajtsunk végre."
+    },
+    {
+      "provision_ref": "s773",
+      "section": "773",
+      "title": "773",
+      "content": "2.7.3. A vízi jármű esetében a kezelőn kívül minimum 1 fő szükséges egy fő mentéséhez. Kötél használata ajánlott. Vízi járműben tartózkodóknak mentőmellény viselése kötelező."
+    },
+    {
+      "provision_ref": "s774",
+      "section": "774",
+      "title": "774",
+      "content": "2.7.4. Közvetlen mentésre csak úszni tudó és lehetőség szerint kisebb súlyú személyt kell választani."
+    },
+    {
+      "provision_ref": "s775",
+      "section": "775",
+      "title": "775",
+      "content": "2.7.5. Minden mentő személy, aki a jégre megy, viseljen kötélbiztosítást."
+    },
+    {
+      "provision_ref": "s776",
+      "section": "776",
+      "title": "776",
+      "content": "2.7.6. A mentésre használt eszközök is legyenek kötéllel biztosítva."
+    },
+    {
+      "provision_ref": "s777",
+      "section": "777",
+      "title": "777",
+      "content": "2.7.7. A biztosító kötelek engedését vagy húzását kizárólag a mentésvezető utasítására szabad végezni."
+    },
+    {
+      "provision_ref": "s778",
+      "section": "778",
+      "title": "778",
+      "content": "2.7.8. Mentőstég alkalmazása esetén is be kell tartani a biztonsági előírásokat."
+    },
+    {
+      "provision_ref": "s779",
+      "section": "779",
+      "title": "779",
+      "content": "2.8. Utómunkálatok"
+    },
+    {
+      "provision_ref": "s780",
+      "section": "780",
+      "title": "780",
+      "content": "2.8.1. A sérültet elsősegélyben kell részesíteni az orvos, illetve a mentőknek történő átadásig."
+    },
+    {
+      "provision_ref": "s781",
+      "section": "781",
+      "title": "781",
+      "content": "2.8.2. A sérültet azonnal el kell kezdeni – lehetőségekhez képest – megszabadítani a vizes ruháktól."
+    },
+    {
+      "provision_ref": "s782",
+      "section": "782",
+      "title": "782",
+      "content": "2.8.3. Amennyiben orvosi segítségre még várni kell, száraz pokrócokkal, ruhákkal be kell a sérültet takarni. A felmelegítést melléfekvéssel, és ha lehetséges meleg itallal is el lehet kezdeni."
+    },
+    {
+      "provision_ref": "s783",
+      "section": "783",
+      "title": "783",
+      "content": "3. Állatok, tárgyak mentése"
+    },
+    {
+      "provision_ref": "s784",
+      "section": "784",
+      "title": "784",
+      "content": "3.1. Állatok, tárgyak és anyagok mentésénél emberélet és testi épség nem veszélyeztethető, csak az emberéletmentés befejezése után végezhető. Kivételt képez az olyan anyag, ami az emberekre, az oltásban/mentésben részt vevőkre közvetlen életveszélyt jelent, vagy tömegszerencsétlenséget, katasztrófát idézhet elő."
+    },
+    {
+      "provision_ref": "s785",
+      "section": "785",
+      "title": "785",
+      "content": "3.2. Állatmentés csak abban az esetben végezhető, ha a tűzoltói beavatkozás elmaradásával az állat(ok) közvetlen életveszélybe kerül(nek)."
+    },
+    {
+      "provision_ref": "s786",
+      "section": "786",
+      "title": "786",
+      "content": "3.3. Minden esetben, amikor állatmentés válik szükségessé, értesíteni kell az állatvédelmi hatóság ügyeletes állatorvosát. Ha nincs a helyszínen állatorvos, a mentésvezetőnek mérlegelni kell, hogy az állat menthető-e, mentendő-e."
+    },
+    {
+      "provision_ref": "s787",
+      "section": "787",
+      "title": "787",
+      "content": "3.4. Az állatok, a tárgyak és az anyagok mentését csak a mentésvezetője rendelheti el."
+    },
+    {
+      "provision_ref": "s788",
+      "section": "788",
+      "title": "788",
+      "content": "3.5. Állatmentés az állatjóléti szempontok figyelembevételével történhet."
+    },
+    {
+      "provision_ref": "s789",
+      "section": "789",
+      "title": "789",
+      "content": "3.6. A mentést szakember bevonásával, véleménye figyelembevételével, tűzoltói irányítással lehet végrehajtani."
+    },
+    {
+      "provision_ref": "s790",
+      "section": "790",
+      "title": "790",
+      "content": "3.7. A megmentett állatok, tárgyak és anyagok őrzésére a körülmények figyelembevételével – az együttműködő szervek, tulajdonosok, illetékes vezetők útján – kell intézkedni."
+    },
+    {
+      "provision_ref": "s791",
+      "section": "791",
+      "title": "791",
+      "content": "3.8. A mentési sorrendet a mentésvezető dönti el, az értékük, illetve – amennyiben a helyszínen tartózkodik – a tulajdonos kérésének figyelembevételével."
+    },
+    {
+      "provision_ref": "s792",
+      "section": "792",
+      "title": "792",
+      "content": "3.9. Veszélyhelyzetben az állatok viselkedése megváltozik, támadóvá válhatnak, ezért a mentést végző készüljön fel a rúgás, harapás, csípés, marás kivédésére. 1 Az utasítást a 6/2016. (VI. 24.) BM OKF utasítás 6. §-a hatályon kívül helyezte 2016. június 25. napjával. 2 A 3. pont a 2010: CXXX. törvény 12. § (2) bekezdése alapján módosított szöveg."
+    }
+  ]
+}

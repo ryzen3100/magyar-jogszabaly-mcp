@@ -1,0 +1,1277 @@
+{
+  "id": "hu-law-2020-6-b0-6y",
+  "type": "statute",
+  "title": "6/2020. (V. 15.) NKFIH utasítás a Nemzeti Kutatási, Fejlesztési és Innovációs Hivatal adatvédelmi és adatbiztonsági szabályzatáról",
+  "status": "repealed",
+  "in_force_date": "2020-05-16",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2020-6-B0-6Y",
+  "description": "a Nemzeti Kutatási, Fejlesztési és Innovációs Hivatal adatvédelmi és adatbiztonsági szabályzatáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "Az Európai Parlament és Tanács 2016/679. számú rendeletében, továbbá az információs önrendelkezési jogról és az információszabadságról szóló 2011. évi CXII. törvény 25/A. § (3) bekezdésében, 30. § (6) bekezdésében, valamint 35. § (3) bekezdésében foglaltak szerint, a jogalkotásról szóló 2010. évi CXXX. törvény 23. § (4) bekezdés c) pontjában meghatározott feladatkörömben eljárva, a Nemzeti Kutatási, Fejlesztési és Innovációs Hivatal adatvédelmi, általános adatbiztonsági és a közérdekű adatok megismerésére vonatkozó, valamint közzétételi szabályzatát az alábbiak szerint határozom meg:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "I. FEJEZET"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "ÁLTALÁNOS RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "1. A szabályzat hatálya, alkalmazási köre"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "1. Jelen utasítás (a továbbiakban: Szabályzat) alkalmazási köre a Nemzeti Kutatási, Fejlesztési és Innovációs Hivatalnál (a továbbiakban: NKFI Hivatal) a személyes adatok védelméhez fűződő jogok érvényesülésének biztosítására, az NKFI Hivatal által kezelt személyes adatok jogosulatlan felhasználásának megakadályozására, továbbá az NKFI Hivatal kezelésben lévő közérdekű és közérdekből nyilvános adatok nyilvánosságának biztosítására terjed ki."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "2. A Szabályzat hatálya kiterjed az NKFI Hivatal kormánytisztviselőire, munkajogviszonyban álló munkavállalóira, az NKFI Hivatallal munkavégzésre irányuló egyéb jogviszonyban álló személyekre, továbbá az NKFI Hivatalnál szakmai gyakorlatot teljesítőkre (a továbbiakban együtt: munkatársak). A Szabályzat rendelkezéseit alkalmazni kell az NKFI Hivatallal szerződéses jogviszonyban álló jogi személyekre és jogi személyiséggel nem rendelkező szervezetekre is, amennyiben vonatkozásukban személyes adat kezelésére kerül sor."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "3. A kormányzati igazgatásról szóló 2018. évi CXXV. törvény (a továbbiakban: Kit.) 175. §-a szerinti, a közszolgálati alapnyilvántartásával összefüggő adatvédelmi szabályokról az NKFI Hivatal közszolgálati adatvédelmi szabályzata rendelkezik."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "4. Az NKFI Hivatal hatáskörébe tartozó kutatás-fejlesztési és innovációs pályázatokra vonatkozó adatvédelmi és adatkezelési szabályokat az NKFI Hivatal elnöke külön utasításban határozza meg."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "2. Értelmező rendelkezések"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "5. A Szabályzat alkalmazása során az Európai Parlament és Tanács 2016/679. számú rendeletében (a továbbiakban: GDPR) meghatározott fogalmak irányadóak."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "6. A GDPR-ban meghatározott fogalmakon túl:"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "a) adatbiztonság: a személyes adatok jogosulatlan megszerzése, módosítása, megsemmisítése elleni műszaki megoldások és eljárási szabályok összessége (technikai és szervezési intézkedések);"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "b) adatvédelem: a személyes adatok és személyes adatok különleges kategóriájának (különleges adatok) kezelésének normatív szabályozása az érintett információs önrendelkezési jogának érvényesítése érdekében;"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "c) információs önrendelkezési jog: az Alaptörvény VI. cikk (3) bekezdésében biztosított személyes adatok védelméhez való jognak azon tartalma, amely szerint mindenki maga rendelkezik személyes adatainak feltárásáról és felhasználásáról;"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "d) információszabadság: az Alaptörvény VI. cikk (3) bekezdésében biztosított jog, amely a közérdekű adatokhoz való hozzáférést és terjesztést rögzíti."
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "II. FEJEZET"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "SZEMÉLYES ADATOKRA VONATKOZÓ RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "3. Személyes adatok kezelésének jogszabályi alapjai"
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "7. Az NKFI Hivatal mint adatkezelő az alaptevékenységéhez kapcsolódóan a tudományos kutatásról, fejlesztésről és innovációról szóló 2014. évi LXXVI. törvény (a továbbiakban: KFItv.) 23. § (1) bekezdésének rendelkezéseire figyelemmel, a Nemzeti Kutatási, Fejlesztési és Innovációs Hivatalról, valamint a Nemzeti Kutatási, Fejlesztési és Innovációs Alap kezelő szervének kijelöléséről szóló 344/2019. (XII. 23.) Korm. rendelet 5. §-a szerinti feladatok ellátásáért felelős, amelynek körében pályázati adatkezelést, ennek körében személyes adatokra vonatkozó adatkezelést is végez, a KFItv. 1. mellékletében meghatározott adattartalommal, a KFItv. 23. § (2)–(3) bekezdésének rendelkezése alapján. Az NKFI Hivatal alaptevékenységének ellátásához a IV. fejezetben meghatározott tartalommal további adatkezelést végez."
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "8. Az NKFI Hivatal mint költségvetési szerv, munkáltató a Kit., valamint a munka törvénykönyvéről szóló 2012. évi I. törvény, továbbá a közszolgálati személyügyi nyilvántartásra és statisztikai adatgyűjtésre, a közszolgálati alkalmazottak és a munkavállalók személyi irataira vonatkozó szabályokról, valamint a kormányzati igazgatási szervek álláshelyeinek nyilvántartásáról szóló 87/2019. (IV. 23.) Korm. rendeletnek megfelelően, az abban meghatározott tartalommal kezeli a munkatársak személyes adatait. Az egyes vagyonnyilatkozat-tételi kötelezettségekről szóló 2007. évi CLII. törvény alapján, az annak melléklete szerinti adattartalmú vagyonnyilatkozatok őrzéséért a munkáltatói jogkör gyakorlója a felelős."
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "9. Az NKFI Hivatal a 7–8. pontban foglaltak esetében elsősorban jogszabályi rendelkezés alapján kezel személyes adatokat a jelen szabályzatban foglaltak szerint. Törvényi felhatalmazás hiányában az érintettnek a GDPR 6. cikk (1) bekezdés a) pontjában meghatározott (írásbeli) hozzájárulása esetén kezel személyes adatot. Az NKFI Hivatal az érintett vonatkozásában különleges adatot kizárólag teljes körű előzetes tájékoztatást követően a GDPR 9. cikk (2) bekezdésében foglalt esetekben kezel. Az NKFI Hivatal tevékenysége során az előzőekben megjelölt jogalapokon túl a GDPR 6. cikk (1) bekezdésében megjelölt egyéb jogalapok alapján is folytat adatkezelést. A személyes adatok kezelése során az NKFI Hivatal kiemelt figyelmet fordít arra, hogy tevékenysége megfeleljen az információs önrendelkezési jogról és az információszabadságról szóló 2011. évi CXII. törvény rendelkezéseinek, különös tekintettel e törvény 5. §-ában foglaltakra."
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "4. Adatkezelés elvei"
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "10. Az NKFI Hivatal adatkezelését a GDPR 5. cikkében rögzített alapelvek betartásával végzi."
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "11. Az NKFI Hivatal által kezelt személyes adat csak a jogszabályi rendelkezésben vagy a hozzájárulásban megjelölt célból használható fel, annak magáncélra történő felhasználása tilos."
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "5. Általános adatkezelési jogosultságok"
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "12. Az NKFI Hivatal elnöke betekinthet az NKFI Hivatalnál minden olyan iratba, nyilvántartásba, amely személyes adatot tartalmaz; ezen adatokon adatkezelést végezhet és végeztethet, azonban ezen adatkezeléseknek is meg kell felelnie a hatályos jogszabályok, így különösen a GDPR rendelkezéseinek."
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "13. Különleges adatot az NKFI Hivatal vezetői és munkatársai – az e pontban meghatározott kivétellel – nem kezelhetnek. Az NKFI Hivatal elnöke, továbbá a Jogi, Beszerzési és Személyügyi Főosztály vezetője, a Személyügyi Osztály munkatársa a munkatársakra vonatkozó különleges adatok közül kizárólag az egészségügyi alkalmassági vizsgálat során megállapított alkalmasság vagy alkalmatlanság tényét ismerheti meg."
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "14. Az NKFI Hivatal elnökhelyettesei a 12. pont szerinti iratokba és nyilvántartásokba az NKFI Hivatal Szervezeti és Működési Szabályzata (a továbbiakban: SzMSz) szerinti, az elnököt helyettesítő jogkörükben, valamint az NKFI Hivatal elnökének külön, írásbeli, általános vagy eseti rendelkezése alapján tekinthetnek be."
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "15. Az NKFI Hivatal elnökhelyettesei, főosztályvezetői és munkatársai az SzMSz, az NKFI Hivatal elnöke által kiadott utasítások, a főosztályi ügyrendek, az adatkezelésre irányuló eseti meghatalmazás, valamint a munkaköri leírásuk rendelkezéseiben rögzített feladat- és hatáskörök keretein belül, a feladatellátásuk céljából és időtartamában teljeskörűen tekinthetnek be a személyes adatokat tartalmazó iratokba, nyilvántartásokba, továbbá végezhetnek és végeztethetnek e körben adatkezelést."
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "6. Adatkezelők, a kezelt adatok köre és az adatkezelés célja"
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "16. Az NKFI Hivatal szervezeti egységeinek munkatársai a 15. pontban meghatározottak alapján általános jelleggel az alábbiak szerint végeznek adatkezelést:"
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "a) Elnöki Kabinet:"
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "aa) Kommunikációs Osztályának munkatársai a hivatali rendezvények, konferenciák, médiakapcsolati és sajtóesemények címlistáját kezelik kapcsolattartás céljából;"
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "ab) Kommunikációs Osztályának munkatársai a magánszemélyek által rendelkezésre bocsátott elektronikus postafiókcímek kezelését végzik hírlevél szolgáltatás céljából, valamint a hivatalos honlap védett területeinek elérése érdekében;"
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "ac) munkatársai a külső ellenőrzések koordinálásával és a külső ellenőrzések alapján készült intézkedési tervek végrehajtásáról készült nyilvántartással kapcsolatosan kezelhetnek személyes adatokat."
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "b) Kiemelt Programok Főosztály:"
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "ba) Ügyfélkapcsolati Osztályának munkatársai kezelik az általános ügyfélkapcsolati tevékenység körében az ügyfelek által megadott elérhetőségi adatokat, valamint a telefonos Ügyfélszolgálaton rögzített hangfelvételeket;"
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "bb) Tudásközpontok és Innovatív Programok Fejlesztési Osztályának munkatársai a KFItv. 23. §-ának felhatalmazása alapján adatkezelést végeznek a Nemzeti Laboratóriumok Alaprész terhére finanszírozott felhívások pályázatait kezelő szakrendszeren keresztül, a KFItv. 1. mellékletében meghatározott adattartalommal, a KFItv. 23. § (2)–(3) bekezdése rendelkezéseinek megfelelően, az NKFI Hivatal külön szabályzata szerint."
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "c) Jogi, Beszerzési és Személyügyi Főosztály:"
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "ca) Jogi és Beszerzési Osztályának munkatársai a harmadik országbeli állampolgár kutatókat fogadó kutatószervezetek akkreditációjáról, valamint a fogadási megállapodásról szóló 181/2007. (VII. 6.) Korm. rendelet alapján lefolytatott hatósági eljárásban kezelik a benyújtott kérelmekben szereplő személyes adatokat, illetve a 10. §-a alapján az akkreditált kutatószervezetekről nyilvántartást vezetnek, továbbá a 13–14. §-a rendelkezései alapján nyilvántartják a fogadási megállapodásokat, amelyek tartalmazzák a kutatók személyes adatait;"
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "cb) Jogi és Beszerzési Osztályának munkatársai a közérdekű adatok megismerésére irányuló kérelmekkel kapcsolatosan az adatkérő nevét és elérhetőségi adatait;"
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "cc) Jogi és Beszerzési Osztályának munkatársai a pályázatokkal kapcsolatos iratbetekintés és kifogáskezelési feladatkörében eljárva kezelik az érintett személyes adatait, valamint – feladataik teljesítéséhez szükséges mértékben – a kapcsolódó pályázatban megadott személyes adatokat;"
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "cd) Személyügyi Osztályának munkatársai kezelik a munkatársak 8. pontban meghatározott jogszabályok, továbbá az NKFI Hivatal külön közszolgálati adatvédelmi szabályzata szerinti személyi iratait, köztük a foglalkozás-egészségügyi alkalmassági vizsgálat eredményét (alkalmasságot vagy alkalmatlanságot) tartalmazó véleményt, valamint a vagyonnyilatkozatot, továbbá az érintett hozzájárulása alapján a jogviszony létesítése céljából a toborzással kapcsolatos adatokat;"
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "ce) Személyügyi Osztályának munkatársai elektronikus személyügyi nyilvántartó programot, elektronikus teljesítményértékelési rendszert (TÉR), valamint Probono képzésszervező alkalmazást használnak, amelyekre vonatkozó részletszabályokat az NKFI Hivatal elnökének külön utasítása határozza meg;"
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "cf) központi érkeztetési-postázási, valamint a központi irattározási feladatot ellátó munkatársai személyes adatot feladataik ellátásához szükséges célból és mértékben kezelhetnek;"
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "cg) vezetője és Személyügyi Osztályának munkatársai jogosultak a Nemzeti Infokommunikációs Szolgáltató Zrt. által üzemeltetett Szolgáltatási és Ellátási Alapadattár (SZEAT) rendszerének használatára, amely a munkatársak nevét, beosztását és elérhetőségét tartalmazza."
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "d) Költségvetési Főosztály:"
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "da) Gazdasági és Üzemeltetési Osztályának munkatársai a munkatársak és a Nemzeti Akkreditáló Hatóság munkatársai vonatkozásában a nem rendszeres személyi juttatások számfejtésével, valamint az illetmény és illetményen kívüli juttatások folyósításának előkészítésével, adatszolgáltatással és a személyi jövedelemadó-bevallással kapcsolatosan, az államháztartásról szóló 2011. évi CXCV. törvény (a továbbiakban: Áht.) 44. §-a, valamint az államháztartásról szóló törvény végrehajtásáról szóló 368/2011. (XII. 31.) Korm. rendelet 62. §-a rendelkezéseinek megfelelően, az abban meghatározott adattartalommal végeznek adatkezelést;"
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "db) üzemeltetési munkatársai a hivatali célra igénybe vett saját tulajdonú gépjárműhasználattal kapcsolatban kezelik a gépjármű adatait (forgalmi rendszámát, forgalmi engedély számát és érvényességét, gyártmányát, típusát, tömegét stb.); hivatali gépjármű esetén a munkatárs vezetői engedélyének számát."
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "dc) Informatikai Osztályának munkatársai betekinthetnek minden olyan számítógépes nyilvántartásba, amelynek rendszerét üzemeltetik, működtetik, karbantartják, fejlesztik. Az adatbiztonság vagy az informatikai rendszer védelme okán – így különösen abból a célból, hogy a védett rendszerbe ne kerülhessen be elektronikus kártevő – az informatikai hálózatot üzemeltető, fenntartó rendszergazda vagy informatikus a számítógép tartalmába is jogosult betekinteni, ugyanakkor az így megismert adatokat harmadik személy számára nem jogosult továbbítani;"
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "e) Belső Ellenőrzés munkatársai az Áht. 70. § (3) bekezdése alapján, a költségvetési szervek belső kontrollrendszeréről és belső ellenőrzéséről szóló 370/2011. (XII. 31.) Korm. rendelet 25. §-ára figyelemmel jogosultak az ellenőrzés tárgyához kapcsolódó iratokba betekinteni, azokról másolatot, kivonatot, illetve tanúsítványt készíttetni, indokolt esetben az eredeti dokumentumokat másolat hátrahagyása mellett jegyzőkönyvben rögzítetten átvenni."
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "f) Elszámolási Főosztály munkatársai a KFItv. 23. §-a felhatalmazása alapján pályázati adatkezelést végeznek az innovációs (alkalmazott kutatási) és esetenként a kutatás-fejlesztési (alapkutatási) pályázatokat kezelő rendszeren keresztül, a KFItv. 1. mellékletében meghatározott adattartalommal, a KFItv. 23. § (2)–(3) bekezdése rendelkezésének megfelelően, az NKFI Hivatal külön szabályzata szerint."
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "g) Pályázattervezési és Döntés-előkészítési Főosztály munkatársai kezelik a KFItv. szerinti testületek tagjai, valamint a versenypályázati értékelési rendszer szakértői adatbázisában regisztrált innovációs szakértők személyes adatait, az NKFI Hivatal külön szabályzata szerint."
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "h) Kutatói Kiválósági Főosztály:"
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "ha) munkatársai a KFItv. 23. §-ának felhatalmazása alapján adatkezelést végeznek a kutatás-fejlesztési (alapkutatási) elektronikus pályázatkezelő szakrendszer keresztül, a KFItv. 1. mellékletében meghatározott adattartalommal, a KFItv. 23. § (2)–(3) bekezdése rendelkezésének megfelelően, az NKFI Hivatal külön szabályzata szerint;"
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "hb) munkatársai kezelik a KFItv. szerinti testületek tagjai, valamint a versenypályázati értékelési rendszer szakértői adatbázisában regisztrált kutatás-fejlesztési szakértők személyes adatait, az NKFI Hivatal külön szabályzata szerint."
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "i) Nemzetközi Főosztály:"
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "ia) munkatársai nyilvántartást vezetnek az EU keretprogramok egyes alprogramjaihoz rendelten működő programbizottsági tagokról (PC-k) és szakértőkről, valamint a nemzeti kapcsolattartókról (NCP), továbbá a Külgazdasági és Külügyminisztériummal együttműködve a Tudományos és Technológiai Együttműködés Támogatása képviselőiről (TéT-attasékról);"
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "ib) munkatársai kezelik az EU keretprogramok (így a Hetedik Kutatási Technológiafejlesztési és Demonstrációs Keretprogram, valamint a Horizont 2020) pályázatainak közös nyilvántartását tartalmazó E-Corda adatbázist, valamint elemzéseket készítenek a magyarországi részvételre vonatkozó adatok alapján. Az elemzések készítése során az E-Corda adatbázis adatvédelmi szabályzata szerint, a személyes adatok közösségi intézmények és szervek által történő feldolgozása tekintetében az egyének védelméről, valamint az ilyen adatok szabad áramlásáról szóló, 2000. december 18-i 45/2001/EK európai parlamenti és tanácsi rendelet értelmében személyi adatok nem közölhetők, valamint nem közölhető olyan adat sem, amelynek kiszolgáltatása az Európai Unió, annak valamely intézménye (különösen az Európai Bizottság) vagy valamely tagállama, a foglalkoztató vagy az Európai Unió valamely állampolgára számára hátrányos vagy jogellenesen előnyös következményekkel járna;"
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "ic) munkatársai kezelik az NKFI Hivatal munkatársainak a hivatalos utazásaik szervezésével kapcsolatos személyes adatait az NKFI Hivatal elnökének vonatkozó utasítása szerint."
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "j) Stratégiai és Intézményi Kiválósági Főosztály:"
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "ja) elemzési munkatársai a kutatás-fejlesztési és innovációs pályázatokkal, valamint a kutatás-fejlesztés és innováció területét érintő adatokkal kapcsolatosan elemzési, nyilvántartási adatkezelést végeznek;"
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "jb) munkatársai kezelik a Kutatási Infrastruktúra Regiszterben regisztrált kutatási infrastruktúra tulajdonos jogi személy kapcsolattartójának elérhetőségét, valamint a kapcsolódó értékelő rendszerben az értékelő nevét és elektronikus levélcímét;"
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "jc) kezelik a KFItv. szerinti testületek tagjai, valamint a versenypályázati értékelési rendszer szakértői adatbázisában regisztrált kutatás-fejlesztési szakértők személyes adatait, az NKFI Hivatal külön szabályzata szerint."
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "k) Az adatvédelmi tisztviselő betekinthet minden olyan személyes adatokat tartalmazó iratba, nyilvántartásba, amely a hatályos jogszabályok, illetve belső szabályozás alapján az adatvédelemmel kapcsolatos feladatainak ellátásához szükségesek."
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "l) HET Végrehajtási Főosztály munkatársai a Magyarország Helyreállítási és Ellenállóképességi Terve végrehajtásának alapvető szabályairól és felelős intézményeiről szóló 413/2021. (VII. 13.) Korm. rendelet alapján adatkezelést végeznek az érintett pályázatokat kezelő szakrendszeren keresztül."
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "17. Az NKFI Hivatal által a KFItv. 25. § (2) bekezdése szerinti létrehozott szakértői csoportok elnökei kezelik a szakértői adatbázisban regisztrált kutatás-fejlesztési és innovációs szakértők személyes adatait az anonim szakértők véleményének kikérése céljából, az NKFI Hivatal külön szabályzata szerint."
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "18. Az NKFI Hivatal szervezeti egységei által kezelt személyes adatok részletes körét az NKFI Hivatal adatkezelési tevékenység nyilvántartásba rendezi, melyet a belső szervezet számára megismerhetővé tesz az NKFI Hivatal intranet elérhetőségén."
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "7. Adatfeldolgozók"
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "19. Az NKFI Hivatal működése során a felhasználói informatikai hátteret a Nemzeti Infokommunikációs Szolgáltató Zrt. (a továbbiakban: NISZ Zrt.) mint adatfeldolgozó által üzemeltetett Központi Rendszer biztosítja."
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "20. Az NKFI Hivatal telefonos Ügyfélszolgálatára beérkező hívások rögzítését a NISZ Zrt. mint adatfeldolgozó végzi."
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "21. A közfeladatot ellátó szervek iratkezelésének általános követelményeiről szóló 335/2005. (XII. 29.) Korm. rendelet alapján az egységes kormányzati ügyiratkezelő rendszer útján érkező küldemények bontását és érkeztetését külön adatfeldolgozási szerződés és az NKFI Hivatal iratkezelési szabályzata alapján, az abban meghatározott körben a NISZ Zrt. mint adatfeldolgozó végzi."
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "22. Az NKFI Hivatal és az adatfeldolgozók közötti jogviszony vonatkozásában a GDPR 28. cikkében foglaltak az irányadóak azzal, hogy valamennyi adatfeldolgozó vonatkozásában az NKFI Hivatal és az adatfeldolgozó között létrejött szerződésben szükséges részletesen meghatározni a felek között létrejött jogviszonyban az adatkezelés és adatfeldolgozás feltételeit."
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "8. Adatbiztonsági rendelkezések"
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "23. Az NKFI Hivatal biztosítja a GDPR-ban előírt adatbiztonsági követelményeket a privacy by design és privacy by default elvének figyelembevételével és beépítésével. Az adatbiztonsági rendelkezéseket a 24. és 25. pontban megjelölt szabályzatokban foglaltakkal összhangban rendszeresen felül kell vizsgálni."
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "24. Az NKFI Hivatal külön iratkezelési szabályzata rendezi a munkatársak (papíralapú és elektronikus) iratkezelésére vonatkozó, személyes adatok védelmét szolgáló előírásokat."
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "25. Az NKFI Hivatal külön informatikai biztonsági szabályzata rendezi a speciális informatikai biztonsági előírásokat, különösen az informatikai jogosultságok nyilvántartására vonatkozó rendelkezéseket."
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "9. Az érintettek jogai"
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "26. Jogszabályi rendelkezés hiányában az NKFI Hivatal az érintett hozzájárulása alapján, egyes jogviszonyokban a szerződés teljesítése érdekében, illetve jogos érdek vagy a GDPR 6. cikk (1) bekezdésében foglalt egyéb jogalap alapján kezelhet személyes adatot."
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "27. Az érintett tájékoztatáshoz való jogát az NKFI Hivatal ügygazda szervezeti egységénél érvényesítheti, amely az érintett személyes adataira vonatkozó tájékoztatást a GDPR 13–14. cikkének megfelelően köteles megadni, míg a hozzáférési jog gyakorlása esetén a GDPR 15. cikke szerinti információkról kell az érintettet tájékoztatni."
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "28. Az érintett az NKFI Hivatal ügygazda szervezeti egységénél tiltakozhat személyes adatainak kezelése ellen, továbbá az ügygazda szervezeti egységnél kérheti személyes adatainak helyesbítését, adatai kezelésének zárolását, valamint a GDPR 17. cikke alapján személyes adatai törlését. Az ügygazda szervezeti egység eljárására a kérelem teljesítése során a GDPR 16–22. cikkeinek rendelkezései irányadók."
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "29. A kérelem elutasítása esetén az érintett tájékoztatásáról az ügygazda szervezeti egység gondoskodik."
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "30. Az érintett az adatkezeléssel kapcsolatban őt ért sérelem esetén megkereséssel fordulhat az NKFI Hivatal elnökéhez. A megkeresés kivizsgálására az NKFI Hivatal elnöke az adatvédelmi tisztviselőt kéri fel, aki a vizsgálat eredményéről haladéktalanul tájékoztatja az NKFI Hivatal elnökét."
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "31. Az érintett jogosult jogainak megsértése esetén bírósághoz fordulni. Az NKFI Hivatal az érintettet kérelemre részletesen tájékoztatja a per elbírálására hatáskörrel és illetékességgel rendelkező bíróságról, a perindítás lehetőségéről. A tájékoztatásról az ügygazda szervezeti egység gondoskodik, szükség esetén a Jogi, Beszerzési és Személyügyi Főosztály közreműködésével."
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "32. A kérelem elutasítása esetén az érintettet tájékoztatni kell arról, hogy panaszával közvetlenül fordulhat a Nemzeti Adatvédelmi és Információszabadság Hatósághoz (cím: 1125 Budapest, Szilágyi Erzsébet fasor 22/C; telefon: +36-1-391-1400; e-mail: ugyfelszolgalat@naih.hu; honlap: www.naih.hu; a továbbiakban: Hatóság) is."
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "10. Egyéb adatvédelmi rendelkezések"
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "33. Az NKFI Hivatal az adatvédelemi incidensek kezelését az NKFI Hivatal elnökének külön utasításában meghatározott rend szerint végzi."
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "34. Az NKFI Hivatal által kezelt személyes adatok tárolási idejét a 24. és a 25. pontban megjelölt szabályzatok tartalmazzák."
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "35. Az NKFI Hivatal a GDPR 30. cikke értelmében az általa végzett adatkezelési tevékenységekről a GDPR-ban elvárt tartalommal nyilvántartást vezet. A nyilvántartás rendszeres felülvizsgálatáért az adatvédelmi tisztviselő felelős."
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "36. Az NKFI Hivatal a GDPR 37. cikke értelmében adatvédelmi tisztviselőt jelöl ki. Az adatvédelmi tisztviselő feladatai:"
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "a) tájékoztat és szakmai tanácsot ad az NKFI Hivatal, továbbá az adatkezelést végző munkatársak részére a GDPR, valamint az egyéb uniós vagy hazai adatvédelmi rendelkezések szerinti kötelezettségeikkel kapcsolatban;"
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "b) ellenőrzi a GDPR-nak, valamint az egyéb uniós vagy hazai adatvédelmi rendelkezéseknek, továbbá az NKFI Hivatal személyes adatok védelmével kapcsolatos belső szabályainak való megfelelést, ideértve a feladatkörök kijelölését, az adatkezelési műveletekben részt vevő munkatársak tudatosságnövelését és képzését, valamint a kapcsolódó auditokat is;"
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "c) kérésre szakmai tanácsot ad az adatvédelmi hatásvizsgálatra vonatkozóan, valamint nyomon követi a hatásvizsgálat GDPR 35. cikke szerinti elvégzését;"
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "d) együttműködik a GDPR szerinti felügyeleti hatósággal;"
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "e) az adatkezeléssel összefüggő ügyekben – ideértve a GDPR 36. cikkében említett előzetes konzultációt is – kapcsolattartó pontként szolgál a felügyeleti hatóság felé, valamint adott esetben bármely egyéb kérdésben konzultációt folytat vele;"
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "f) ellátja a feladatkörébe tartozó, egyéb adatvédelmi tárgyú feladatokat."
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "III. FEJEZET"
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "KÖZÉRDEKŰ ADATOKRA VONATKOZÓ RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "11. A közérdekű adat megismerésére irányuló igények teljesítésének eljárásrendje"
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "37. A közérdekű adat megismerésére szóban (telefonon), írásban (postai úton) vagy elektronikus úton (e-mail) bárki igényt nyújthat be az NKFI Hivatalhoz. A közérdekből nyilvános adatok megismerésére az információs önrendelkezési jogról és az információszabadságról szóló 2011. évi CXII. törvény (a továbbiakban: Infotv.) III. fejezetének a közérdekű adatok megismerésére vonatkozó rendelkezéseit, valamint a kapcsolódó jogszabályokat kell alkalmazni."
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "38. Az NKFI Hivatal a közérdekű adatok megismerésére irányuló kérelmeket a Jogi, Beszerzési és Személyügyi Főosztályán keresztül fogadja. A más szervezeti egységhez érkezett kérelmet haladéktalanul meg kell küldeni a Jogi, Beszerzési és Személyügyi Főosztálynak, továbbá a személyesen érdeklődőt a Jogi, Beszerzési és Személyügyi Főosztályhoz kell irányítani. A közérdekű adat iránti igénylés teljesítéséről a Jogi, Beszerzési és Személyügyi Főosztály az adatvédelmi tisztviselővel együttesen dönt. Véleményeltérés esetén a közérdekű adat iránti igény teljesítéséről az NKFI Hivatal elnöke dönt."
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "39. Ha a kérelem nem az NKFI Hivatal által kezelt és tevékenységére vonatkozó vagy feladatellátása során keletkezett közérdekű adatokra irányul, azt a kérelmező egyidejű értesítése mellett meg kell küldeni a hatáskörrel és illetékességgel rendelkező szervnek vagy személynek, amennyiben ezen szerv vagy személy egyértelműen megállapítható. A továbbküldésről a kért adattal kapcsolatban szakmai kompetenciával rendelkező szervezeti egység vezetője a Jogi, Beszerzési és Személyügyi Főosztály vezetőjével együttesen dönt. Véleményeltérés esetén a továbbküldésről az NKFI Hivatal elnöke határoz. Amennyiben az illetékes szerv vagy személy nem állapítható meg, ezen tényről a kérelmezőt értesíteni kell."
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "40. A közérdekű adat megismerésére irányuló igénynek a Jogi, Beszerzési és Személyügyi Főosztály az Infotv. 28–31. §-ában meghatározott határidőre és formában tesz eleget. Ha a kérelem olyan adatra irányul, amelyet az NKFI Hivatal jogszabály vagy a Szabályzat alapján már közzétett, az igény teljesíthető a nyilvános forrás megjelölésével is."
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "41. Amennyiben a közérdekű adatra vonatkozó kérelem nem teljesíthető, úgy a kérelem megtagadásáról – annak indokaival, illetve a jogorvoslati lehetőségek feltüntetésével együtt – a Jogi, Beszerzési és Személyügyi Főosztály a közzétételi egységek alapján felelős (illetékes) szervezeti egység közreműködésével az Infotv.-ben meghatározott határidőn belül írásban értesíti az igénylőt. A kérelem teljesítésének megtagadásáról a kért adattal kapcsolatban szakmai kompetenciával rendelkező szervezeti egység vezetője a Jogi, Beszerzési és Személyügyi Főosztály vezetőjével együttesen dönt. Véleményeltérés esetén az NKFI Hivatal elnöke határoz."
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "42. A közérdekű adatok iránti kérelmekről, azok teljesítéséről vagy elutasításáról, valamint az elutasítás indokairól a Jogi, Beszerzési és Személyügyi Főosztály nyilvántartást vezet, amelyről minden év január 31-ig tájékoztatja a Hatóságot."
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "43. A közérdekű adatok megismerése iránti kérelem elutasítása vagy az adatszolgáltatás nem megfelelő teljesítése esetén az igénylő a Fővárosi Törvényszékhez fordulhat jogorvoslatért. Az eljárás soron kívüli és illetékmentes. Az érintett vizsgálatot kezdeményezhet továbbá a Hatóságnál."
+    },
+    {
+      "provision_ref": "s107",
+      "section": "107",
+      "title": "107",
+      "content": "12. A közérdekű adat közzétételének eljárásrendje"
+    },
+    {
+      "provision_ref": "s108",
+      "section": "108",
+      "title": "108",
+      "content": "44. Az NKFI Hivatal az Infotv. alapján kötelezően közzéteendő közérdekű adatokat, a közzétételi listákon szereplő adatok közzétételéhez szükséges közzétételi mintákról szóló 18/2005. (XII. 27.) IHM rendelet szerinti tagolásban – jegyzék és közzétételi egységek –, digitális formában a hivatalos honlapján teszi közzé."
+    },
+    {
+      "provision_ref": "s109",
+      "section": "109",
+      "title": "109",
+      "content": "45. Az NKFI Hivatal az Áht. rendelkezéseinek megfelelően gondoskodik a kincstári monitoring rendszerbe történő adatszolgáltatásról."
+    },
+    {
+      "provision_ref": "s110",
+      "section": "110",
+      "title": "110",
+      "content": "46. A honlap üzemeltetéséért és a közérdekű adatok menüpont kialakításáért a Kommunikációs Osztály felel."
+    },
+    {
+      "provision_ref": "s111",
+      "section": "111",
+      "title": "111",
+      "content": "47. Az egyes közzétételi egységek adattartalmának biztosításáért, az adatközlőnek átadott közérdekű adat tartalmáért és annak az előírásoknak megfelelő időközönkénti frissítéséért az 1. mellékletben feltüntetett szervezeti egységek felelnek."
+    },
+    {
+      "provision_ref": "s112",
+      "section": "112",
+      "title": "112",
+      "content": "48. Az adatfelelős szervezeti egység által szolgáltatott adatok feltöltéséért a Kommunikációs Osztály mint adatközlő felel."
+    },
+    {
+      "provision_ref": "s113",
+      "section": "113",
+      "title": "113",
+      "content": "49. A Kommunikációs Osztály gondoskodik és felelős a kezelésében lévő, közérdekű adatot tartalmazó honlapok, adatbázisok és nyilvántartások leíró adatainak az informatikáért felelős miniszternek (a továbbiakban: miniszter) történő továbbításáról és a továbbított közérdekű adatok rendszeres frissítéséről (központi elektronikus jegyzék). Az NKFI Hivatal a miniszter részére történő adatközlést a közérdekű adatok elektronikus közzétételére, az egységes közadatkereső rendszerre, valamint a központi jegyzék adattartalmára, az adatintegrációra vonatkozó részletes szabályokról szóló 305/2005. (XII. 25.) Korm. rendeletnek megfelelően teljesíti."
+    },
+    {
+      "provision_ref": "s114",
+      "section": "114",
+      "title": "114",
+      "content": "IV. FEJEZET"
+    },
+    {
+      "provision_ref": "s115",
+      "section": "115",
+      "title": "115",
+      "content": "FELELŐSSÉG ÉS FELADATOK"
+    },
+    {
+      "provision_ref": "s116",
+      "section": "116",
+      "title": "116",
+      "content": "50. Az NKFI Hivatal elnöke – általános irányítási jogkörében – felelős a személyes adatok védelmére és a közérdekű adatok nyilvánosságára vonatkozó jogszabályokban és jelen Szabályzatban előírt feltételek szerinti teljesítéséhez szükséges intézkedések megtételéért, a kapcsolódó személyi és tárgyi eszközök biztosításáért, az adatkezeléssel kapcsolatos szabályozások kialakításáért és az adatkezeléssel kapcsolatos előírások folyamatos ellenőrzéséért."
+    },
+    {
+      "provision_ref": "s117",
+      "section": "117",
+      "title": "117",
+      "content": "51. Az NKFI Hivatal elnökhelyettesei, főosztályvezetői – az irányításuk alá tartozó területen – kötelesek gondoskodni a személyes adatok védelmére és a közérdekű adatok nyilvánosságára vonatkozó szabályok betartásáról, az ehhez szükséges technikai, szervezési intézkedések megtételéről, különösen az iratok megfelelő, zárt helyen való tárolásáról, indokolt esetben lemezszekrény biztosításáról, informatikai hozzáférési jogosultságok megfelelő biztosításáról, továbbá kötelesek az intézkedések betartását ellenőrizni."
+    },
+    {
+      "provision_ref": "s118",
+      "section": "118",
+      "title": "118",
+      "content": "52. Az NKFI Hivatal vezetői és munkatársai fegyelmi, kártérítési, szabálysértési és büntetőjogi felelősséggel tartoznak a személyes adatok jogszerű kezeléséért, valamint a közérdekű adatok nyilvánosságának biztosításáért."
+    },
+    {
+      "provision_ref": "s119",
+      "section": "119",
+      "title": "119",
+      "content": "53. Az adatvédelmi tisztviselő a GDPR 39. cikkében foglaltakon túl az NKFI Hivatal elnökének felkérésére eseti ellenőrzést végez, valamint figyelemmel kíséri az információs önrendelkezési joggal és információszabadsággal kapcsolatos jogszabályváltozásokat, adatvédelmi kérdésben megkeresést fogalmaz meg a Hatóság részére állásfoglalás kérése céljából, továbbá közreműködik a Hatóság NKFI Hivatalnál folytatott vizsgálati vagy hatósági eljárásában."
+    },
+    {
+      "provision_ref": "s120",
+      "section": "120",
+      "title": "120",
+      "content": "54. Az NKFI Hivatal szakmailag illetékes szervezeti egysége (adatkezelő szervezeti egység) felelős az 1. melléklet szerinti közzétételi egységekben szereplő közérdekű adatok pontos, naprakész és folyamatos biztosításáért, az adatok hitelességéért, hozzáférhetőségéért."
+    },
+    {
+      "provision_ref": "s121",
+      "section": "121",
+      "title": "121",
+      "content": "55. Az adatvédelemmel, adatbiztonsággal és a közérdekű adatok megismerésével, közzétételével kapcsolatos kötelezettségek teljesítése érdekében az NKFI Hivatal szervezeti egységei és munkatársai kötelesek együttműködni (adatot szolgáltatni, tájékoztatást adni stb.)."
+    },
+    {
+      "provision_ref": "s122",
+      "section": "122",
+      "title": "122",
+      "content": "V. FEJEZET"
+    },
+    {
+      "provision_ref": "s123",
+      "section": "123",
+      "title": "123",
+      "content": "ZÁRÓ RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s124",
+      "section": "124",
+      "title": "124",
+      "content": "56. Az NKFI Hivatal valamennyi szervezeti egységének vezetője a munkatársai vonatkozásában köteles jelen Szabályzat igazolható módon történő megismertetéséről gondoskodni."
+    },
+    {
+      "provision_ref": "s125",
+      "section": "125",
+      "title": "125",
+      "content": "57. Ez az utasítás a közzétételét követő napon lép hatályba."
+    },
+    {
+      "provision_ref": "s126",
+      "section": "126",
+      "title": "126",
+      "content": "58."
+    },
+    {
+      "provision_ref": "s127",
+      "section": "127",
+      "title": "127",
+      "content": "59. Jelen Szabályzat hatályos és teljes szövege az Infotv. 1. melléklete alapján az NKFI Hivatal hivatalos honlapján közzétételre kerül."
+    },
+    {
+      "provision_ref": "s128",
+      "section": "128",
+      "title": "128",
+      "content": "Közérdekű adatok menüpont szerkezete"
+    },
+    {
+      "provision_ref": "s129",
+      "section": "129",
+      "title": "129",
+      "content": "A Nemzeti Kutatási, Fejlesztési és Innovációs Hivatal (a továbbiakban: NKFI Hivatal) honlapján közzéteendő közérdekű adatokat és közérdekből nyilvános adatokat az NKFI Hivatal honlapjának nyitólapjáról közvetlenül, a Közérdekű adatok hivatkozás alatt elérhető oldalon kell közzétenni."
+    },
+    {
+      "provision_ref": "s130",
+      "section": "130",
+      "title": "130",
+      "content": "A jegyzéket a közzétételi listákon szereplő adatok közzétételéhez szükséges közzétételi mintákról szóló 18/2005. (XII. 27.) IHM rendelet szerint kell kialakítani úgy, hogy az NKFI Hivatal vonatkozásában értelmezhetetlen közzétételi egységeket is fel kell tüntetni, de a pontos tájékoztatás érdekében jelezni kell, hogy az adott közérdekű adat a szervnél nem áll rendelkezésre."
+    },
+    {
+      "provision_ref": "s131",
+      "section": "131",
+      "title": "131",
+      "content": "Az egyes közzétételi egységek adattartalmának biztosításáért, annak tartalmáért és az előírásoknak megfelelő időközönkénti frissítéséért az egyes szervezeti egységek az alábbiak szerint felelnek."
+    },
+    {
+      "provision_ref": "s132",
+      "section": "132",
+      "title": "132",
+      "content": "Közérdekű adatok menüpont tartalma"
+    },
+    {
+      "provision_ref": "s133",
+      "section": "133",
+      "title": "133",
+      "content": "I. SZERVEZETI, SZEMÉLYZETI ADATOK"
+    },
+    {
+      "provision_ref": "s134",
+      "section": "134",
+      "title": "134",
+      "content": "1.1. Kapcsolat, szervezet, vezetők"
+    },
+    {
+      "provision_ref": "s135",
+      "section": "135",
+      "title": "135",
+      "content": "1.1.1. Elérhetőségi adatok (Felelős: Elnöki Kabinet)"
+    },
+    {
+      "provision_ref": "s136",
+      "section": "136",
+      "title": "136",
+      "content": "Frissítés: a változásokat követően azonnal; Megőrzés: az előző állapot törlendő"
+    },
+    {
+      "provision_ref": "s137",
+      "section": "137",
+      "title": "137",
+      "content": "1.1.2. A szervezeti struktúra (Felelős: Jogi, Beszerzési és Személyügyi Főosztály)"
+    },
+    {
+      "provision_ref": "s138",
+      "section": "138",
+      "title": "138",
+      "content": "Frissítés: a változásokat követően azonnal; Megőrzés: az előző állapot törlendő"
+    },
+    {
+      "provision_ref": "s139",
+      "section": "139",
+      "title": "139",
+      "content": "1.1.3. Az NKFI Hivatal vezetői (Felelős: Jogi, Beszerzési és Személyügyi Főosztály)"
+    },
+    {
+      "provision_ref": "s140",
+      "section": "140",
+      "title": "140",
+      "content": "Frissítés: a változásokat követően azonnal; Megőrzés: az előző állapot törlendő"
+    },
+    {
+      "provision_ref": "s141",
+      "section": "141",
+      "title": "141",
+      "content": "1.2. A felügyelt költségvetési szervek"
+    },
+    {
+      "provision_ref": "s142",
+      "section": "142",
+      "title": "142",
+      "content": "1.2.1. Az NKFI Hivatal irányítása, felügyelete vagy ellenőrzése alatt álló vagy alárendeltségében működő más közfeladatot ellátó szerv"
+    },
+    {
+      "provision_ref": "s143",
+      "section": "143",
+      "title": "143",
+      "content": "Nincs felügyelt költségvetési szerv."
+    },
+    {
+      "provision_ref": "s144",
+      "section": "144",
+      "title": "144",
+      "content": "1.3. Gazdálkodó szervezetek (Felelős: Jogi, Beszerzési és Személyügyi Főosztály)"
+    },
+    {
+      "provision_ref": "s145",
+      "section": "145",
+      "title": "145",
+      "content": "1.3.1. Az NKFI Hivatal tulajdonában álló vagy részvételével működő gazdálkodó szervezetek"
+    },
+    {
+      "provision_ref": "s146",
+      "section": "146",
+      "title": "146",
+      "content": "1.4. Közalapítványok"
+    },
+    {
+      "provision_ref": "s147",
+      "section": "147",
+      "title": "147",
+      "content": "1.4.1. Az NKFI Hivatal által alapított közalapítványok"
+    },
+    {
+      "provision_ref": "s148",
+      "section": "148",
+      "title": "148",
+      "content": "Nincs közalapítvány."
+    },
+    {
+      "provision_ref": "s149",
+      "section": "149",
+      "title": "149",
+      "content": "1.5. Lapok"
+    },
+    {
+      "provision_ref": "s150",
+      "section": "150",
+      "title": "150",
+      "content": "1.5.1. Lapok"
+    },
+    {
+      "provision_ref": "s151",
+      "section": "151",
+      "title": "151",
+      "content": "Nincs hivatalos lap."
+    },
+    {
+      "provision_ref": "s152",
+      "section": "152",
+      "title": "152",
+      "content": "1.6. Felettes, felügyeleti, törvényességi ellenőrzést vagy felügyeletet gyakorló szerv (Felelős: Jogi, Beszerzési és Személyügyi Főosztály)"
+    },
+    {
+      "provision_ref": "s153",
+      "section": "153",
+      "title": "153",
+      "content": "Frissítés: a változásokat követően azonnal; Megőrzés: az előző állapot 1 évig archívumban tartásával"
+    },
+    {
+      "provision_ref": "s154",
+      "section": "154",
+      "title": "154",
+      "content": "1.7. Költségvetési szervek"
+    },
+    {
+      "provision_ref": "s155",
+      "section": "155",
+      "title": "155",
+      "content": "Nincs alapított költségvetési szerv."
+    },
+    {
+      "provision_ref": "s156",
+      "section": "156",
+      "title": "156",
+      "content": "II. TEVÉKENYSÉGRE, MŰKÖDÉSRE VONATKOZÓ ADATOK"
+    },
+    {
+      "provision_ref": "s157",
+      "section": "157",
+      "title": "157",
+      "content": "2.1. A szerv alaptevékenysége, feladat- és hatásköre (Felelős: Jogi, Beszerzési és Személyügyi Főosztály)"
+    },
+    {
+      "provision_ref": "s158",
+      "section": "158",
+      "title": "158",
+      "content": "Frissítés: a változásokat követően azonnal; Megőrzés: az előző állapot 1 évig archívumban tartásával"
+    },
+    {
+      "provision_ref": "s159",
+      "section": "159",
+      "title": "159",
+      "content": "2.2. A hatósági ügyek intézésének rendjével kapcsolatos adatok (Felelős: Jogi, Beszerzési és Személyügyi Főosztály)"
+    },
+    {
+      "provision_ref": "s160",
+      "section": "160",
+      "title": "160",
+      "content": "2.3. Közszolgáltatások"
+    },
+    {
+      "provision_ref": "s161",
+      "section": "161",
+      "title": "161",
+      "content": "Nincsenek közszolgáltatások."
+    },
+    {
+      "provision_ref": "s162",
+      "section": "162",
+      "title": "162",
+      "content": "2.4. Az NKFI Hivatal nyilvántartásai (Felelős: Elszámolási Főosztály, Kutatói Kiválósági Főosztály, Informatikai Osztály, Jogi, Beszerzési és Személyügyi Főosztály, Nemzetközi Főosztály)"
+    },
+    {
+      "provision_ref": "s163",
+      "section": "163",
+      "title": "163",
+      "content": "Frissítés: a változásokat követően azonnal; Megőrzés: az előző állapot 1 évig archívumban tartásával"
+    },
+    {
+      "provision_ref": "s164",
+      "section": "164",
+      "title": "164",
+      "content": "2.5. Nyilvános kiadványok (Felelős: Kommunikációs Osztály)"
+    },
+    {
+      "provision_ref": "s165",
+      "section": "165",
+      "title": "165",
+      "content": "Frissítés: negyedévente; Megőrzés: az előző állapot 1 évig archívumban tartásával"
+    },
+    {
+      "provision_ref": "s166",
+      "section": "166",
+      "title": "166",
+      "content": "2.6. Döntéshozatal, ülések"
+    },
+    {
+      "provision_ref": "s167",
+      "section": "167",
+      "title": "167",
+      "content": "Nincsenek testületi döntések."
+    },
+    {
+      "provision_ref": "s168",
+      "section": "168",
+      "title": "168",
+      "content": "2.7. Az NKFI Hivatal döntései, koncepciók, tervezetek, javaslatok"
+    },
+    {
+      "provision_ref": "s169",
+      "section": "169",
+      "title": "169",
+      "content": "Nincsenek adatok."
+    },
+    {
+      "provision_ref": "s170",
+      "section": "170",
+      "title": "170",
+      "content": "2.8. Pályázatok (Felelős: Pályázattervezési és Döntés-előkészítési Főosztály)"
+    },
+    {
+      "provision_ref": "s171",
+      "section": "171",
+      "title": "171",
+      "content": "Frissítés: folyamatosan; Megőrzés: az előző állapot 1 évig archívumban tartásával"
+    },
+    {
+      "provision_ref": "s172",
+      "section": "172",
+      "title": "172",
+      "content": "2.9. Hirdetmények (Felelős: Kommunikációs Osztály)"
+    },
+    {
+      "provision_ref": "s173",
+      "section": "173",
+      "title": "173",
+      "content": "Frissítés: folyamatosan; Megőrzés: az előző állapot 1 évig archívumban tartásával"
+    },
+    {
+      "provision_ref": "s174",
+      "section": "174",
+      "title": "174",
+      "content": "2.10. Közérdekű adatok igénylése (Felelős: Jogi, Beszerzési és Személyügyi Főosztály)"
+    },
+    {
+      "provision_ref": "s175",
+      "section": "175",
+      "title": "175",
+      "content": "Frissítés: negyedévente; Megőrzés: az előző állapot törlendő"
+    },
+    {
+      "provision_ref": "s176",
+      "section": "176",
+      "title": "176",
+      "content": "2.11. Közzétételi listák (Felelős: Elszámolási Főosztály, Kutatói Kiválósági Főosztály)"
+    },
+    {
+      "provision_ref": "s177",
+      "section": "177",
+      "title": "177",
+      "content": "Frissítés: a változásokat követően azonnal; Megőrzés: az előző állapot törlendő"
+    },
+    {
+      "provision_ref": "s178",
+      "section": "178",
+      "title": "178",
+      "content": "III. GAZDÁLKODÁSI ADATOK"
+    },
+    {
+      "provision_ref": "s179",
+      "section": "179",
+      "title": "179",
+      "content": "3.1. A működés törvényessége, ellenőrzések"
+    },
+    {
+      "provision_ref": "s180",
+      "section": "180",
+      "title": "180",
+      "content": "3.1.1. Vizsgálatok, ellenőrzések listája (Felelős: Elnöki Kabinet, Költségvetési Főosztály, Belső Ellenőrzés)"
+    },
+    {
+      "provision_ref": "s181",
+      "section": "181",
+      "title": "181",
+      "content": "Frissítés: a vizsgálatról szóló jelentés megismerését követően haladéktalanul; Megőrzés: az előző állapot 1 évig archívumban tartásával"
+    },
+    {
+      "provision_ref": "s182",
+      "section": "182",
+      "title": "182",
+      "content": "3.1.2. Az Állami Számvevőszék ellenőrzései (Felelős: Költségvetési Főosztály)"
+    },
+    {
+      "provision_ref": "s183",
+      "section": "183",
+      "title": "183",
+      "content": "Frissítés: a vizsgálatról szóló jelentés megismerését követően haladéktalanul; Megőrzés: az előző állapot 1 évig archívumban tartásával"
+    },
+    {
+      "provision_ref": "s184",
+      "section": "184",
+      "title": "184",
+      "content": "3.1.3. Egyéb ellenőrzések, vizsgálatok (Felelős: Elnöki Kabinet, Költségvetési Főosztály, Belső Ellenőrzés)"
+    },
+    {
+      "provision_ref": "s185",
+      "section": "185",
+      "title": "185",
+      "content": "Frissítés: a vizsgálatról szóló jelentés megismerését követően haladéktalanul; Megőrzés: az előző állapot 1 évig archívumban tartásával"
+    },
+    {
+      "provision_ref": "s186",
+      "section": "186",
+      "title": "186",
+      "content": "3.1.4. A működés eredményessége, teljesítmény"
+    },
+    {
+      "provision_ref": "s187",
+      "section": "187",
+      "title": "187",
+      "content": "Nincsenek ilyen mutatók."
+    },
+    {
+      "provision_ref": "s188",
+      "section": "188",
+      "title": "188",
+      "content": "3.1.5. Működési statisztika (Felelős: Költségvetési Főosztály, Stratégiai és Intézményi Kiválósági Főosztály)"
+    },
+    {
+      "provision_ref": "s189",
+      "section": "189",
+      "title": "189",
+      "content": "Frissítés: évente; Megőrzés: az előző állapot 1 évig archívumban tartásával"
+    },
+    {
+      "provision_ref": "s190",
+      "section": "190",
+      "title": "190",
+      "content": "3.2. Költségvetések, beszámolók"
+    },
+    {
+      "provision_ref": "s191",
+      "section": "191",
+      "title": "191",
+      "content": "3.2.1. Éves költségvetések (Felelős: Költségvetési Főosztály)"
+    },
+    {
+      "provision_ref": "s192",
+      "section": "192",
+      "title": "192",
+      "content": "Frissítés: a változásokat követően azonnal; Megőrzés: a közzétételt követő 10 évig"
+    },
+    {
+      "provision_ref": "s193",
+      "section": "193",
+      "title": "193",
+      "content": "3.2.2. Számviteli beszámolók (Felelős: Költségvetési Főosztály)"
+    },
+    {
+      "provision_ref": "s194",
+      "section": "194",
+      "title": "194",
+      "content": "Frissítés: a változásokat követően azonnal; Megőrzés: a közzétételt követő 10 évig"
+    },
+    {
+      "provision_ref": "s195",
+      "section": "195",
+      "title": "195",
+      "content": "3.2.3. A költségvetés végrehajtása (Felelős: Költségvetési Főosztály)"
+    },
+    {
+      "provision_ref": "s196",
+      "section": "196",
+      "title": "196",
+      "content": "Frissítés: a változásokat követően azonnal; Megőrzés: a közzétételt követő 10 évig"
+    },
+    {
+      "provision_ref": "s197",
+      "section": "197",
+      "title": "197",
+      "content": "3.3. Működés"
+    },
+    {
+      "provision_ref": "s198",
+      "section": "198",
+      "title": "198",
+      "content": "3.3.1. A foglalkoztatottak (Felelős: Költségvetési Főosztály, Jogi, Beszerzési és Személyügyi Főosztály)"
+    },
+    {
+      "provision_ref": "s199",
+      "section": "199",
+      "title": "199",
+      "content": "Frissítés: negyedévente; Megőrzés: a külön jogszabályban meghatározott ideig, de legalább 1 évig archívumban tartásával"
+    },
+    {
+      "provision_ref": "s200",
+      "section": "200",
+      "title": "200",
+      "content": "3.3.2. Támogatások (Felelős: Költségvetési Főosztály)"
+    },
+    {
+      "provision_ref": "s201",
+      "section": "201",
+      "title": "201",
+      "content": "Frissítés: a döntés meghozatalát követő hatvanadik napig; Megőrzés: a közzétételt követő 5 évig"
+    },
+    {
+      "provision_ref": "s202",
+      "section": "202",
+      "title": "202",
+      "content": "3.3.3. Szerződések (Felelős: Költségvetési Főosztály)"
+    },
+    {
+      "provision_ref": "s203",
+      "section": "203",
+      "title": "203",
+      "content": "Frissítés: a döntés meghozatalát követő hatvanadik napig; Megőrzés: a közzétételt követő 5 évig"
+    },
+    {
+      "provision_ref": "s204",
+      "section": "204",
+      "title": "204",
+      "content": "3.3.4. Koncessziók"
+    },
+    {
+      "provision_ref": "s205",
+      "section": "205",
+      "title": "205",
+      "content": "Nincs koncesszió."
+    },
+    {
+      "provision_ref": "s206",
+      "section": "206",
+      "title": "206",
+      "content": "3.3.5. Egyéb kifizetések (Felelős: Költségvetési Főosztály)"
+    },
+    {
+      "provision_ref": "s207",
+      "section": "207",
+      "title": "207",
+      "content": "Frissítés: negyedévente; Megőrzés: a külön jogszabályban meghatározott ideig, de legalább 1 évig archívumban tartásával"
+    },
+    {
+      "provision_ref": "s208",
+      "section": "208",
+      "title": "208",
+      "content": "3.3.6. Európai Unió által támogatott fejlesztések (Felelős: Költségvetési Főosztály)"
+    },
+    {
+      "provision_ref": "s209",
+      "section": "209",
+      "title": "209",
+      "content": "Frissítés: negyedévente; Megőrzés: legalább 1 évig archívumban tartásával"
+    },
+    {
+      "provision_ref": "s210",
+      "section": "210",
+      "title": "210",
+      "content": "3.3.7. Közbeszerzés (Felelős: Jogi, Beszerzési és Személyügyi Főosztály)"
+    },
+    {
+      "provision_ref": "s211",
+      "section": "211",
+      "title": "211",
+      "content": "Frissítés: negyedévente; Megőrzés: legalább 1 évig archívumban tartásával"
+    }
+  ]
+}

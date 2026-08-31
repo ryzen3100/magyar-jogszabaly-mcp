@@ -1,0 +1,707 @@
+{
+  "id": "hu-law-2013-7-b0-4v",
+  "type": "statute",
+  "title": "7/2013. (XI. 22.) BM OKF utasítás a BM Országos Katasztrófavédelmi Főigazgatóság minőségirányítási rendszeréről és a területi szervek minőségirányítási rendszereire vonatkozó általános szabályokról",
+  "status": "repealed",
+  "in_force_date": "2013-11-23",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2013-7-B0-4V",
+  "description": "a BM Országos Katasztrófavédelmi Főigazgatóság minőségirányítási rendszeréről és a területi szervek minőségirányítási rendszereire vonatkozó általános szabályokról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A jogalkotásról szóló 2010. évi CXXX. törvény 23. § (4) bekezdés c) pontjának felhatalmazása alapján a BM Országos Katasztrófavédelmi Főigazgatóság minőségirányítási rendszerének működtetésére, valamint a megyei/fővárosi katasztrófavédelmi igazgatóságok minőségirányítási rendszerei általános szabályainak meghatározására a következő utasítást adom ki:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "Az utasítás hatálya kiterjed a BM Országos Katasztrófavédelmi Főigazgatóság teljes szervezetére és személyi állományára, a BM OKF minőségirányítási rendszere részeként kezelt BM OKF Gazdasági Ellátó Központra (a továbbiakban együttesen: BM OKF), továbbá a BM OKF irányítása alatt álló területi és helyi szervekre (a továbbiakban együttesen: területi szervek)."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "I. Fogalmak:"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "1. minőségirányítás: irányítási rendszer, amely a szervezet működésébe integrálódik, és a szakmai tevékenység minőség szempontjából történő szabályozására irányul."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "2. minőségirányítási rendszer (a továbbiakban: MIR): a minőségirányítás megvalósításához szükséges szervezeti felépítés, a felelősségi körök, a folyamatok, az eljárások, az erőforrások összessége. Az egységes katasztrófavédelmi MIR célja az ügyfelek rendvédelmi szolgáltatással szembeni elégedettségének növelése."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "3. minőségpolitika: a minőségre vonatkozóan a vezetőség által megfogalmazott és kinyilvánított átfogó szándék, irányvonal. Alapul szolgál a szervezetre vonatkozó általános, valamint a munkafolyamatokra vonatkozó konkrét minőségi célok kialakításához."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "4. minőségcél: konkrét, mérhető célkitűzés az adott folyamatra, teljesítésével a szolgáltatás minősége egzakt mérőszámokkal igazolható."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "5. ügyfél: jogi személy, magánszemély, szervezet, amely a katasztrófavédelmi szervezet szolgáltatását igénybe veszi."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "6. ügyfél elégedettség: az ügyfél megítélése arról, hogy a szolgáltatással szembeni követelményei milyen mértékben teljesültek."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "7. folyamat, folyamatmodell: a szakmai tevékenység egy részterülete, tevékenységsorozat, amely a MIR-ben egy adott eljárással szabályozott. A MIR valamennyi folyamata és ezek kölcsönhatása alkotja a folyamatmodellt, leképezi a szervezeti struktúrát, a feladatmegosztás rendszerét, figyelembe véve a szabvány előírásait is."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "8. minőségügyi vezető (BM OKF), minőségirányítási vezető (területi szervek): a legfelső vezetőség tagja. Felelős a MIR kialakításáért, működtetéséért, felülvizsgálatáért, folyamatos továbbfejlesztéséért, és azért, hogy a szervezet minden szintjén ismerjék és értsék a követelményeket. Rendelkezik a szükséges felelősségi és hatáskörrel, képzettséggel és felkészültséggel. A BM OKF minőségügyi vezető ezen túl a területi szervek MIR-jeinek koordinálásért is felelős."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "9. minőségirányítási felelős: segíti a minőségügyi, minőségirányítási vezető munkáját, ellátja az operatív és koordinációs feladatokat."
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "10. folyamatgazda: adott folyamat szabályozásának (kezelés, kidolgozás, aktualizálás), tervezésének és értékelésének operatív felelőse."
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "11. dokumentációs rendszer: a MIR működésével, a szolgáltatás minőségével kapcsolatos dokumentumok (a Minőségirányítási Kézikönyv, a folyamatleírások, a külső, belső szabályozók, és minőségügyi feljegyzések) összessége."
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "12. minőségirányítási kézikönyv: a MIR alapdokumentuma a minőségpolitika, a minőségirányítási rendszer és gyakorlat közzétételére."
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "13. folyamatleírás: a folyamat részletes minőségirányítási szabályozása, az adott szakterület tevékenységének minőségével összefüggő feladatok, felelősségi körök, előírások, készítendő feljegyzések."
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "14. feljegyzés: a MIR hatékonyságára, vagy a szolgáltatás minőségére vonatkozó információkat rögzítő, vagy az elvégzett tevékenységet bizonyító információforrás."
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "15. formanyomtatvány: kitöltetlen, de előre meghatározott írásos vagy számítógépes forma, amelyet a szervezeti egységek egységesen használnak, és kitöltve válik feljegyzéssé."
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "16. belső felülvizsgálat (audit): az önellenőrzés eszköze, a MIR-ben lévő hibák, eltérések feltárására, a helyesbítésre, a fejlesztési lehetőségek felkutatására. Célja annak megállapítása, hogy a MIR szabályozása, a szabvány, a jogszabályok és a belső normák előírásai, valamint a gyakorlati működés összhangban vannak-e egymással. A belső felülvizsgálat végrehajtója a belső auditor."
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "17. eltérés: az előírt követelmények nem teljesülése, attól való eltérés vagy annak hiánya."
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "18. helyesbítő tevékenység: eltérés esetén az okok elemzésén alapuló intézkedés, eljárásbeli módosítás az eltérés ismételt előfordulásának elkerülésére."
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "19. hibajavító tevékenység: nem megfelelő szolgáltatással (reklamáció, panasz) kapcsolatos teendők meghatározása és végrehajtása annak érdekében, hogy a szolgáltatás minősége a megfelelő, elvárt legyen."
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "20. megelőző tevékenység: információk gyűjtésén, elemzésén, értékelésén alapuló tevékenység, amelynek célja a lehetséges eltérések elkerülése."
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "21. vezetőségi átvizsgálás: a rendszerfelügyelet legfelső szintű eszköze, a MIR működésének értékelő fóruma."
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "II. A MIR"
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "Alkalmazási terület, folyamatmodell"
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "22. A BM OKF és a területi szervek az MSZ EN ISO 9001:2009 szabvány követelményei szerint kialakított és tanúsított minőségirányítási rendszert működtetnek, amely egzakt minőségi paraméterek alapján ki tudja mutatni a katasztrófavédelem operativitásának, hatékonyságának minőségi fejlődését."
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "23. A minőségirányítási rendszer alkalmazási területe: katasztrófavédelmi igazgatás – katasztrófavédelmi, tűzvédelmi, polgári védelmi, iparbiztonsági rendvédelmi szolgáltatás, a BM OKF MIR-jében az alkalmazott szabvány 7.5.2. szakaszának [a termék-előállítási és a szolgáltatásnyújtási folyamatok érvényesítése (validálása)], a területi szervek MIR-jében a szabvány 7.3 szakaszának (tervezés és fejlesztés) és 7.5.2. szakaszának [a termék-előállítási és a szolgáltatás-nyújtási folyamatok érvényesítése (validálása)] kizárásával."
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "24. A BM OKF folyamatmodellje:"
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "MF01 Rendszerfelügyelet, belső audit"
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "MF02 Dokumentumok és feljegyzések kezelése"
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "MF03 Tűzvédelmi hatósági és piacfelügyeleti tevékenység"
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "MF04 Tűzoltási és műszaki mentési tevékenység szakfelügyelete"
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "MF05 Pv veszélyhelyzet tervezési, szervezési és műveleti folyamatok"
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "MF06 Lakosságvédelem"
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "MF07 Katasztrófavédelmi ügyelet működtetése"
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "MF08 Iparbiztonsági tevékenység"
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "MF09 Egészségvédelem"
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "MF10 Igazgatási tevékenység"
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "MF11 Nemzetközi kapcsolatok"
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "MF12 Ellenőrzési folyamatok"
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "MF13 Humán erőforrás kezelés"
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "MF14 Gazdasági erőforrás kezelés"
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "MF15 Beszerzések, beruházás, logisztikai tevékenység"
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "MF16 Informatikai és kommunikációs rendszerek működtetése"
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "MF17 Jogi és jogi képviseleti tevékenység"
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "MF18 Kommunikáció"
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "25. A területi szervek egységes folyamatmodellje:"
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "MF 01 Rendszerfelügyelet, belső audit"
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "MF02 Dokumentumok és feljegyzések kezelése"
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "MF10 Igazgatás (belső kapcsolattartás, panaszok kezelése, jogi folyamatok, vezetői fórumrendszer)"
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "MF11 Integrált hatósági tevékenység"
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "MF12 Tűzoltás, műszaki mentés"
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "MF13 Polgári védelmi tevékenység (tervezési, szervezési és műveleti folyamat)"
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "MF14 Lakosságvédelem"
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "MF15 Katasztrófavédelmi ügyelet működtetése"
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "MF16 Iparbiztonsági tevékenység"
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "MF17 Egészségvédelem (egészségügy, pszichológia, munkavédelem)"
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "MF20 Ellenőrzés"
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "MF21 Humán erőforrás kezelés"
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "MF22 Gazdasági erőforrás kezelés (gazdálkodás, beszerzés, beruházás, logisztika)"
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "MF23 Informatikai és kommunikációs rendszer működtetése"
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "MF24 Külső kommunikáció"
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "Minőségtervezés"
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "26. A minőségpolitika deklarálja a vezetőség elkötelezettségét a MIR fenntartása, működtetése és folyamatos továbbfejlesztése iránt. A hivatásos katasztrófavédelmi szerv minőségpolitikáját a BM OKF vezetése határozza meg. A BM OKF minőségpolitikáját a főigazgató adja ki minden év november 5-ig."
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "27. A területi szervek minőségpolitikáját a BM OKF minőségpolitikája alapján az igazgató adja ki olyan időpontban, hogy az ennek alapján összeállításra kerülő minőségcélok – figyelemmel a 27. pontban a területi szervek részére meghatározott határidőre – végrehajtásra kiadásra kerüljenek."
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "28. A minőségpolitika és a szakterületi stratégiai tervek alapján a folyamatokat működtető vezetők meghatározzák a következő évre vonatkozó minőségcéljaikat, a BM OKF esetében minden év november 20-ig, a területi szervek december 5-ig. A minőségcélokkal szembeni követelmények az egzakt módon, mérőszámokkal való mérhetőség és értékelhetőség, a realitás, a fejlődési trend kimutathatósága, és minden minőségcélhoz felelős és végrehajtási határidő kapcsolódik."
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "29. A folyamatokra meghatározott minőségcél-javaslatokat a minőségügyi, minőségirányítási vezető összhangba hozza a munkaprogrammal, szervezeti munkatervekkel, és összeállítja a szervezet Éves Minőségcéljait és Minőségi Tervét. A Minőségi Terv tartalmazza a folyamatokra lebontott konkrét célokat, a mérésre szolgáló mutatószámokat, a kapcsolódó célértékeket, felelősöket, határidőket. Az Éves Minőségcélokat és Minőségi Tervet a minőségügyi, minőségirányítási vezető felterjesztésére a BM OKF főigazgatója, illetve az igazgató hagyja jóvá és adja ki végrehajtásra."
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "30. A BM OKF folyamataira meghatározott minőségcélok teljesítését évente két alkalommal, június 30-ig időarányosan, valamint az adott évet érintően a következő év január 31-ig. Az értékelést a folyamatot működtető vezető készíti el, és küldi meg a minőségügyi vezetőnek."
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "31. A területi szervek a BM OKF felé a MIR-jük működéséről készített éves beszámoló jelentés keretében értékelik a minőségcéljaik teljesítését a következő év január 31-ig."
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "32. Az aktuális minőségpolitikáról és az éves minőségcélokról kiadásuk után a minőségügyi/minőségirányítási vezető értesíti a folyamatokért felelős vezetőket, a dokumentumokat a belső informatikai hálózaton hozzáférhetővé teszi. A minőségpolitikát és az adott szakterületre meghatározott éves minőségcélokat az irodákban ki kell helyezni."
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "33. A minőségpolitika és a minőségcélok oktatásáért, az érintett állománnyal történő megismertetéséért és végrehajtásra történő kiadásért az adott szervezeti egység vezetője a felelős. Az oktatást minden esetben feljegyzés formájában dokumentálni kell."
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "Felelősi rend"
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "34. A MIR irányítói feladatait a minőségügyi, minőségirányítási vezető látja el. A minőségügyi, minőségirányítási vezető a mindenkori hivatalvezető."
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "35. A minőségügyi, minőségirányítási vezető munkáját a minőségirányítási felelős segíti, aki ellátja az operatív feladatokat, koordinálja a MIR működtetésével összefüggő feladatok elvégzését, összeállítja és kiadmányozásra előkészíti a szükséges dokumentumokat."
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "36. A folyamat működtetéséért a szakterület vezetője a felelős. A folyamat kezelésének, kidolgozásának, aktualizálásának operatív felelőse a folyamatgazda. Személyét a szakterület vezetője jelöli ki."
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "37. A belső felülvizsgálat végrehajtója a belső auditor. Az auditor a vizsgált területtől független, a felülvizsgálat elvégzésére megbízólevelet kap a minőségügyi, minőségirányítási vezetőtől. A részletes eljárási rendet a jelen utasítás 50–51. pontjai tartalmazzák."
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "38. A 33–36. pontok szerinti felelősök a MIR-rel kapcsolatos feladataikat csatolt munkakörben látják el, a főigazgató, igazgató által kiadott megbízólevél alapján. A feladat ellátásához minőségirányítási képzettség megléte szükséges. A képzésre vonatkozó részleteket a 65–66. pontok tartalmazzák."
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "Dokumentációs rendszer"
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "39. A Minőségirányítási Kézikönyvet (a továbbiakban: Kézikönyv) a minőségügyi, minőségirányítási vezető állítja össze és aktualizálja, a főigazgató, igazgató a címlap aláírásával hagyja jóvá. Ez a törzspéldány, amelyet a minőségügyi, minőségirányítási vezető őriz meg."
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "40. A minőségügyi, minőségirányítási vezető a felsővezetők részére a Kézikönyvből nyomtatott másolatot készít, az állomány az érvényes változatot a számítógépes hálózaton érheti el."
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "41. A Kézikönyv tartalmazza a szervezet minőségpolitikáját, a MIR alkalmazási területét a kizárásokkal, a szervezeti felépítést és a hozzá kapcsolódó folyamatmodellt, részletesen meghatározza a vezetőség feladat- és felelősségi körét a MIR működtetésében, a dokumentációs rendszert, a személyi és tárgyi feltételeket, a szolgáltatással, annak minőségével összefüggő folyamatokat, rögzíti a MIR folyamatok figyelemmel kísérésének eljárását, az ügyfél elégedettség vizsgálatának módját, szabályozza az eltérések kezelésének rendjét, a helyesbítő, megelőző tevékenységet, a továbbfejlesztést."
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "42. A Kézikönyv összeállításának, módosításának részletes előírásait, a formai követelményeket az MF02 Dokumentumok és feljegyzések kezelése minőségirányítási folyamatleírás rögzíti."
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "43. A folyamatleírást, módosítását a folyamatgazda készíti el, aktuális tartalmáért a szakterület vezetője felelős. A folyamatleírást előzetes áttekintés után a minőségügyi, minőségirányítási vezető terjeszti fel a főigazgatónak, igazgatónak kiadmányozásra, aki azt a címlap aláírásával hagyja jóvá. Az így létrejött hiteles törzspéldányt a minőségügyi, minőségirányítási vezetőnél kell megőrizni."
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "44. A minőségügyi, minőségirányítási vezető gondoskodik a folyamatleírás érvényes változatának a belső számítógépes hálózaton (Szakmai Információtárban) történő elhelyezéséről."
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "45. A folyamatleírás az adott szakterület tevékenységének minőségirányítási szabályozása keretében tartalmazza a szakterület tevékenységének minőségével összefüggő feladatok, felelősségi körök, előírások meghatározását, a készítendő feljegyzéseket. Összeállításának, módosításának részletes előírásait, a formai követelményeket az MF02 Dokumentumok és feljegyzések kezelése minőségirányítási folyamatleírás rögzíti."
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "46. Az adott folyamatleíráshoz kapcsolódó alkalmazott formanyomtatványok összeállítása, frissítése a folyamatgazda feladata, eljárásmódja megegyezik a 42–44. pontban rögzítettekkel."
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "47. A dokumentáció évente egy alkalommal kerül áttekintésre, egyidejűleg a struktúrában, feladatkörben, külső, belső szabályozási környezetben végbemenő változások következtében szükségessé váló vagy a gyakorlati működtetési tapasztalatok, a tanúsító eljárás során feltárt eltérések miatt indokolt aktualizálások végrehajtásra. A dokumentáció aktualizálásának határideje minden év december 15., ezt követően kerül sor az aktualizált dokumentáció felterjesztésére a főigazgatónak, igazgatónak, majd alkalmazásra kiadásra."
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "Belső audit"
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "48. Az érvényes dokumentáció kiadását követően évente egy alkalommal belső rendszer-felülvizsgálatra kerül sor. A belső felülvizsgálat a BM OKF esetében minden évben január 20-ig lezajlik. A területi szervek esetében a belső felülvizsgálat úgy kerül ütemezésre, hogy a jelen utasítás 55. pontban meghatározottak szerinti minden év január 20-ig lebonyolításra kerülő vezetőségi átvizsgálásra már eredménye ismert. Indokolt esetben a minőségügyi, minőségirányítási vezető ennél nagyobb gyakoriságot is meghatározhat."
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "49. A belső felülvizsgálat célja annak a megállapítása, vagy ennek hiányában feladat-meghatározás annak érdekében, hogy a MIR szabályozás, a szabvány és a jogszabályok, belső normák előírásai, valamint a gyakorlati működés összhangban vannak-e. Valamennyi újonnan bevezetett, vagy módosított szabályozás a következő belső felülvizsgálat alkalmával kiemelten kerül vizsgálatra. A felülvizsgálat a szabványtanúsításra történő felkészülés része, egyben annak előfeltétele."
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "50. A belső felülvizsgálatot a minőségügyi, minőségirányítási vezető rendeli el. Elkészíti az Összevont felülvizsgálati ütemterv és naplót, amely rögzíti az auditorok feladatait, a vizsgálat végrehajtásának ütemezését. A részletes eljárásrendet az MF01 Rendszerfelügyelet, belső audit minőségirányítási folyamatleírás rögzíti."
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "51. A belső felülvizsgálatot a vizsgált folyamattól független belső auditor végzi, a minőségügyi, minőségirányítási vezető által kiadott megbízólevél alapján. A BM OKF MIR-jében valamennyi folyamatgazda egy másik folyamat auditora is egyben."
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "52. A vizsgálat előkészítéseként az auditor kérdéslistát állít össze, azaz a folyamatleírásban rögzítetteket összeveti a szabvány előírásokkal, a szabályozókkal, majd helyszíni vizsgálat során győződik meg arról, hogy a dokumentáció lefedi-e az adott szakterület gyakorlatát. Feltárja a folyamatban lévő hibákat, a helyesbítésre szoruló területeket, a fejlesztési lehetőségeket, hiányosság esetén szükséges korrekciót ír elő és utóellenőrzést határoz meg. A felülvizsgálat eredményét jelentésben rögzíti és minősíti."
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "53. A felülvizsgálati eljárás végeredményének dokumentálása az Összevont felülvizsgálati ütemterv és naplóban történik."
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "54. A belső felülvizsgálat eredménye, a tapasztalatok értékelése a vezetői átvizsgáló értekezlet alap bemenő adata."
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "Vezetőségi átvizsgálás"
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "55. A vezetőségi átvizsgálás a rendszerfelügyelet legfelső szintű eszköze, a MIR működésének értékelő fóruma. A vezetőségi átvizsgálás során a vezetőség értékeli a minőségpolitikában és a minőségcélokban foglaltak megvalósítását, a rendszer hatékonyságát, meghatározza, hogy szükség van-e valamilyen változtatásra, fejlesztésre az eljárásokban, a módszerekben, a minőségpolitikában és a minőségi tervben. Az értékelés végső célja a feladatszabás annak érdekében, hogy a MIR hatékonyan működtethető legyen, a tevékenységgel és a szervezettel szemben támasztott követelményeknek való megfelelés elősegítésére, az ügyfélelégedettség növelésére."
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "56. A vezetőségi átvizsgálásra évente egy alkalommal kerül sor, a MIR aktualizálása után, a belső felülvizsgálatot követően, a BM OKF esetében minden év február 15-ig, a területi szerveknél minden év január 20-ig."
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "57. Az értekezletet a minőségügyi, minőségirányítási vezető tervezi és készíti elő, és a főigazgató, igazgató vezeti. Állandó résztvevői a szervezet felsővezetése, a szervezettől függően a főigazgató-helyettesek, igazgató-helyettesek, a szolgálatvezetők, az országos főfelügyelők, a főfelügyelők, a minőségügyi, minőségirányítási vezető. Indokolt esetben a főigazgató, igazgató további résztvevőket is kijelölhet. A további résztvevők személyére a minőségügyi, minőségirányítási vezető is tehet javaslatot."
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "58. A vezetőségi átvizsgáló értekezleten áttekintésre kerül az előző vezetőségi átvizsgálás döntéseinek, előirányzott feladatainak végrehajtása, a belső audit tapasztalatai, a minőségpolitika érvényesülése, a minőségcélok megvalósítása, a MIR működésének hatékonysága, a fejlesztési lehetőségek, az ügyfél elégedettségi mutatók, az esetleges panaszok, a helyesbítő tevékenység, a MIR működtetéséhez szükséges erőforrások, továbbá a szakmai és a MIR képzés témaköre. A vezetőségi átvizsgáló értekezleten valamennyi napirendi pontban döntés születik, a meghatározásra kerülő feladatok végrehajtását a minőségügyi, minőségirányítási vezető folyamatosan figyelemmel kíséri."
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "59. A vezetőségi átvizsgáló értekezletről készült jegyzőkönyv a MIR egyik legfontosabb feljegyzése, a tanúsító eljárás során vizsgált alapdokumentum. A minőségügyi, minőségirányítási vezető gondoskodik a jegyzőkönyv belső informatikai hálózaton (Szakmai Információtárban) történő közzétételéről."
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "Szabványtanúsítás"
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "60. A katasztrófavédelmi MIR-t független tanúsító szervezet auditálja. A tanúsító eljárás 3 éves ciklusú, első évében szabványtanúsítás, a második és harmadik évben rendszer-felülvizsgálat. Az auditálás mintavételen alapuló, ún. mátrix rendszerben zajlik, a teljes szervezetrendszer a 3 év folyamán kerül áttekintésre, 1-1 alkalommal a mintaként kiválasztott igazgatóságok, illetve a BM OKF rendszerének értékelése alapján kerül odaítélésre valamennyi szervezetnek a szabványtanúsítás. Az adott év katasztrófavédelmi tevékenységének minősítése a minta szervezetek eredményének függvénye."
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "61. A szabványtanúsítás célja annak ellenőrzése, hogy a mintaként vizsgált irányítási rendszerek teljesítik-e az alkalmazott MSZ EN ISO 9001:2009 szabvány, a jogszabályok, továbbá a saját belső szabályozók által előírt követelményeket. A BM OKF-nél a vizsgálat a fő folyamatokra, különös figyelemmel a vezetés-irányításra, a területi MIR-ek esetében pedig valamennyi működési folyamatra kiterjed."
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "62. Az auditeljárás előzetes dokumentumvizsgálatból, vezetői interjúkból és a folyamatok helyszíni áttekintéséből tevődik össze. A helyszíni szemle a szakmai tevékenység és a szakterület minőségirányítási szabályozásának együttes áttekintése."
+    },
+    {
+      "provision_ref": "s107",
+      "section": "107",
+      "title": "107",
+      "content": "63. Az egységes katasztrófavédelmi MIR tanúsító eljárásának koordinált előkészítéséért, az előzetes dokumentációvizsgálat lebonyolításáért, a felkészülésért, az ütemterv egyeztetéséért, az auditprogram összeállításáért a BM OKF minőségügyi vezető felelős."
+    },
+    {
+      "provision_ref": "s108",
+      "section": "108",
+      "title": "108",
+      "content": "64. Az eljárásra a tanúsításra kerülő szerv teljes állománya köteles megfelelően felkészülni, a szabványtanúsításon történő megfelelésért a szerve vezetője felelős. Az eljárás lebonyolítása a minőségügyi, minőségirányítási vezető, a helyszíni szemlék előkészítése a vizsgálatra kerülő folyamat folyamatgazdájának feladata, a személyes interjúk alanya a folyamatot működtető vezető."
+    },
+    {
+      "provision_ref": "s109",
+      "section": "109",
+      "title": "109",
+      "content": "65. A tanúsítási embléma kisarculatban történő egységes megjelenítése a jelen utasítás hatálya alá tartozó valamennyi szervezet és szervezeti egység részére kötelező."
+    },
+    {
+      "provision_ref": "s110",
+      "section": "110",
+      "title": "110",
+      "content": "Minőségirányítási képzés"
+    },
+    {
+      "provision_ref": "s111",
+      "section": "111",
+      "title": "111",
+      "content": "66. A MIR tevékenység színvonalának biztosítására a BM OKF minőségügyi vezető e-learning rendszert tart fenn, amely interaktív, egyéni tanulásra alkalmas, informatikailag támogatott képzési módszer és vizsgalehetőség a minőségügyi, minőségirányítási vezetők, folyamatgazdák és belső felülvizsgálók képzésére."
+    },
+    {
+      "provision_ref": "s112",
+      "section": "112",
+      "title": "112",
+      "content": "67. A felkészülés a belső informatikai hálózaton elhelyezett tananyag alapján történik, a vizsgákat a BM OKF minőségirányítási felelőse koordinálja és bonyolítja le. Sikeres vizsga esetén a BM OKF minőségügyi vezető Bizonyítványt állít ki, amely igazolja a szükséges MIR képzettség meglétét."
+    },
+    {
+      "provision_ref": "s113",
+      "section": "113",
+      "title": "113",
+      "content": "III. Záró rendelkezések"
+    },
+    {
+      "provision_ref": "s114",
+      "section": "114",
+      "title": "114",
+      "content": "68. A területi szerveknek a jelen utasítás alapján 2013. november 20-ig el kell készíteniük, illetve módosítaniuk kell a MIR működtetésére vonatkozó belső szabályozásukat. A feladatok végrehajtását a 28., 30–31., 47–48., valamint az 56. pontokban meghatározott határidőkre figyelemmel kell ütemezni."
+    },
+    {
+      "provision_ref": "s115",
+      "section": "115",
+      "title": "115",
+      "content": "69. Az utasításban nem szabályozott kérdésekben az MSZ EN ISO 9001:2009 szabvány, valamint a BM OKF, illetve a területi szervek Minőségirányítási Kézikönyvében foglalt rendelkezések az irányadóak."
+    },
+    {
+      "provision_ref": "s116",
+      "section": "116",
+      "title": "116",
+      "content": "70. Ez az utasítás a kiadását követő napon lép hatályba, és rendelkezéseit az utasítás hatálya alá tartozó személyi állománnyal ismertetni kell. 1 Az utasítást a 3/2023. (IV. 3.) BM OKF utasítás 27. § a) pontja hatályon kívül helyezte 2023. április 4. napjával. 2 A 70. pont a 2010: CXXX. törvény 12. § (2) bekezdése alapján módosított szöveg."
+    }
+  ]
+}

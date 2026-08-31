@@ -1,0 +1,725 @@
+{
+  "id": "hu-law-2022-14-b0-8e",
+  "type": "statute",
+  "title": "14/2022. (IV. 7.) ORFK utasítás az informatikai alkalmazásfejlesztési folyamatok szabályozásáról",
+  "status": "in_force",
+  "in_force_date": "2022-04-08",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2022-14-B0-8E",
+  "description": "az informatikai alkalmazásfejlesztési folyamatok szabályozásáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A jogalkotásról szóló 2010. évi CXXX. törvény 23. § (4) bekezdés c) pontjában, valamint a Rendőrségről szóló 1994. évi XXXIV. törvény 6. § (1) bekezdés b) pontjában kapott felhatalmazás alapján az informatikai alkalmazásfejlesztési folyamatok egységes szabályozására kiadom az alábbi utasítást:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "I. FEJEZET"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "ÁLTALÁNOS RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "1. Hatály"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "1. Az utasítás hatálya kiterjed:"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "a) az Országos Rendőr-főkapitányságra (a továbbiakban: ORFK);"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "b) a Készenléti Rendőrségre, a Repülőtéri Rendőr Igazgatóságra, a Rendőrségi Oktatási és Kiképző Központra (a továbbiakban: ROKK), a Nemzetközi Oktatási Központra, a vármegyei (fővárosi) rendőr-főkapitányságokra (a továbbiakban együtt: területi szervek), valamint"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "c) a rendőrkapitányságokra és a határrendészeti kirendeltségekre."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "2. Az utasítás tárgyi hatálya – a minősített adatokat kezelő rendszerek kivételével – az Informatikai Biztonsági Szabályzatról szóló 18/2018. (V. 31.) ORFK utasítás (a továbbiakban: IBSZ) 3. pont y) alpontjában meghatározott, az általános rendőrségi feladatok ellátására létrehozott szerv használatában lévő vagy általa üzemeltetett információs rendszerrel összefüggő alkalmazásfejlesztési folyamatokra terjed ki."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "3. Az utasítást a Robotzsaru NEO és NOVA.Irat együttes integrált ügyviteli, ügyfeldolgozó és elektronikus iratkezelő rendszer és kapcsolódó moduljai vonatkozásában a Robotzsaru integrált ügyviteli, ügyfeldolgozó és elektronikus iratkezelő rendszer egységes és kötelező használatáról, jogosultsági rendjéről, az adatvédelem, valamint a rendszerfejlesztés előírásairól szóló ORFK utasításban foglalt eltérésekkel kell alkalmazni."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "2. Értelmező rendelkezések"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "4. Ezen utasítás alkalmazásában"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "a) alkalmazás: az IBSZ 3. pont d) alpontjában meghatározott szoftver;"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "b) beavatkozás: a szolgáltatás működési logikájában észlelt hiba javítását, illetve az informatikai szolgáltatás módosítását eredményező folyamat;"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "c) élesüzemű bevezetés: a késztermék megrendelő vagy annak képviselője által történő átvételét követő üzemszerű működés megkezdése;"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "d) fejlesztés: egy új, még nem létező alkalmazás vagy rendszer létrehozására, továbbá egy már létező alkalmazás vagy rendszer funkcióbővítésére irányuló tevékenység;"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "e) fejlesztő: az ORFK-val szerződéses viszonyban vagy együttműködési megállapodásban álló szervezet;"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "f) felhasználói kézikönyv: az alkalmazás használatának felhasználói szintű leírása;"
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "g) informatikai koordinátor: a gazdasági országos rendőrfőkapitány-helyettes által kijelölt olyan személy, aki az adott fejlesztés során a fejlesztő és a szakterületi felelős közötti koordinációért felel;"
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "h) iratmintatár: a https://my.police.hu oldalon közzétett iratminták együttese;"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "i) képzési terv: az alkalmazást vagy rendszert használó végfelhasználói állomány képzéseinek meghatározása, ütemezése, melynek tartalmi felelőse a szakterületi vezető;"
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "j) késztermék: a fejlesztés során létrehozott új szoftver vagy egy már meglévő alkalmazás módosításával létrejövő új verzió;"
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "k) követelményspecifikáció: informatikai megoldások megvalósítására, továbbfejlesztésére irányuló követelményelemzésen alapuló részletes leírás, melynek célja a fejlesztéssel kapcsolatosan a szakterületi vezető által konkrétan megfogalmazott elvárások, valamint a feladathoz kapcsolódó, nem megváltoztatható feltételekből, paraméterekből adódó egyértelmű követelmények meghatározása;"
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "l) külső résztvevő: a fejlesztés tárgyában érintett, az utasítás hatálya alá nem tartozó személy vagy szervezet;"
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "m) megrendelő: az országos rendőrfőkapitány vagy a kötelezettségvállalás, a pénzügyi és jogi ellenjegyzés, az utalványozás, az érvényesítés és a teljesítés igazolás rendjének meghatározásáról szóló ORFK utasítás alapján a gazdasági országos rendőrfőkapitány-helyettes;"
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "n) modul: a rendszer logikailag elkülönülő egysége;"
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "o) monitoring: a fejlesztett alkalmazás vagy rendszer élesüzemű bevezetését követően történő módszeres megfigyelés;"
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "p) monitoring jelentés: a fejlesztett alkalmazás vagy rendszer működéséről szóló beszámoló, amelynek célja a garanciális javítás bejelentése szabályozott formában, melynek tartalmi felelőse a szakterületi vezető;"
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "q) munkacsoport: a fejlesztés végrehajtására, annak időtartamára létrehozott ideiglenes munkaszervezet;"
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "r) rendszer: az állami és önkormányzati szervek elektronikus információbiztonságáról szóló 2013. évi L. törvény 1. § (1) bekezdés 14b. pontjában és 1. § (3) bekezdésében meghatározott rendszer;"
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "s) rendszerbeavatkozási kérelem: a beavatkozás teljes folyamatát részletező, az engedélyezést is tartalmazó dokumentum, az ORFK Gazdasági Főigazgatóság (a továbbiakban: ORFK GF) Informatikai Főosztály (a továbbiakban: INFO) vezetője által meghatározott tartalommal;"
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "t) szakterületi felelős: a szakterületi vezető által kijelölt olyan személy, aki a fejlesztés folyamata során a szakterületi koordinációs tevékenységért felel;"
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "u) szakterületi oktató: a szakterületi vezető által kijelölt és a szakterületi vezető alárendeltségébe tartozó személy, aki a fejlesztett alkalmazás vagy rendszer, illetve a kapcsolódó moduljai oktatóanyagainak szakterületi részéért és azok oktatásának megszervezéséért felelős;"
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "v) szakterületi tesztelő: a szakterületi vezető által kijelölt olyan személy, aki az alkalmazás vagy rendszer, illetve a kapcsolódó moduljai felhasználói eseteinek, folyamatainak és funkcióinak működését ellenőrzi;"
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "w) szakterületi vezető: az országos rendőrfőkapitány-helyettes, az ORFK Titkársági Főosztály vezetője, az ORFK Hivatal vezetője, az ORFK Kommunikációs Szolgálat vezetője, az ORFK Költségvetési Ellenőrzési Iroda vezetője, az ORFK Ellenőrzési Szolgálat vezetője;"
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "x) teljesítési igazolás: a megrendelő vagy a szerződésben meghatározottak szerint annak képviselője által a fejlesztő felé kiállított dokumentum, mely azt igazolja, hogy a késztermék a megrendelésben és a követelményspecifikációban foglaltaknak megfelelő tartalommal és minőségben elkészült, és a számla vagy részszámla benyújtható;"
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "y) területi informatikai felelős: a területi szervek informatikai szakterületének vezetője által kijelölt személy;"
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "z) teszteset: a megrendelt alkalmazás vagy rendszer követelményeiben meghatározott működés ellenőrzésére alkalmas, az alkalmazás vagy rendszer folyamatait kipróbáló modellezett szituáció;"
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "aa) tesztjegyzőkönyv: a fejlesztés egyes részletének tesztelése során tapasztalt jelenségek leírása, amely tartalmának felelőse a szakterületi tesztelő;"
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "bb) ütemterv: a fejlesztés feladatainak leírása, összefüggéseinek és időtartamának meghatározása, melynek létrehozásában közreműködik a szakterületi vezető;"
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "cc) végrehajtó: a beavatkozást végrehajtó, a beavatkozással érintett alkalmazást vagy rendszert üzemeltető személy, csoport, szervezet."
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "II. FEJEZET"
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "RÉSZLETES RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "3. A fejlesztési igények felmerülése"
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "5. A fejlesztési folyamat az igény felmerülésével kezdődik. A területi szervek esetében fejlesztési igényt a területi szerv vezetője vagy annak a fejlesztés tárgyában illetékes szakterületi helyettesei nyújthatnak be – a területi szerv informatikai szakterületért felelős vezető egyidejű tájékoztatásával – a fejlesztés tárgyában érintett szakterületi vezetőnek, aki az igényt elbírálja, és dönt annak támogathatóságáról."
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "6. Amennyiben a szakterületi vezető úgy ítéli meg, hogy a fejlesztés támogatható, a beérkezett fejlesztési igény elbírálását követően – a szakterületi felelős kijelölésével egyidejűleg – intézkedik annak az ORFK GF részére történő továbbítására. A szakterületi vezető önállóan is nyújthat be fejlesztési igényt. Ha a fejlesztés tárgya szerint érintett szakterületi vezető a gazdasági országos rendőrfőkapitány-helyettes, úgy a szakterületi felelős kijelöléséről ő gondoskodik."
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "7. A beérkezett fejlesztési igényt az ORFK GF megvizsgálja, és annak támogathatósága esetén intézkedik a fejlesztéshez kapcsolódó eljárás megindítására. Ha a javaslatot nem tartja támogathatónak, az előterjesztett igényt és az elutasítás indokolását az országos rendőrfőkapitány részére döntéshozatalra 30 napon belül felterjeszti."
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "8. Az országos rendőrfőkapitány döntése alapján, ha"
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "a) a fejlesztés támogatott, az ORFK GF intézkedik a fejlesztéshez kapcsolódó eljárás megindítására;"
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "b) a fejlesztés nem támogatott, az ORFK GF értesíti a döntésről az érintett szakterületet."
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "4. A fejlesztés előkészítése, megrendelése"
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "9. A fejlesztés megrendelésére kizárólag a megrendelő jogosult."
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "10. A fejlesztési igények tartalmának megfelelően, ha azt az igényelt fejlesztés nagyságrendje szükségessé teszi, az informatikai fejlesztések koordinációját ellátó INFO – az igényt benyújtó szakterületi vezető tájékoztatásával egyidejűleg – munkacsoport létrehozását kezdeményezi a szakterületi vezetőnél."
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "11. A munkacsoport tagjai, szükség szerint:"
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "a) a szakterületi felelős;"
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "b) az informatikai koordinátor;"
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "c) a szakterületi tesztelő;"
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "d) a szakterületi oktató;"
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "e) az INFO E-biztonság Felügyeleti Osztály vezetője által kijelölt személy;"
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "f) valamint meghívás alapján"
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "fa) a fejlesztő delegáltja(i),"
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "fb) a külső résztvevő képviselője,"
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "fc) az egyéb szakértők."
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "12. A munkacsoportban egy személy több szerepkört is betölthet. A munkacsoport fejlesztéssel kapcsolatos minden tevékenységét a késztermék átadásának befejezéséig írásban kell dokumentálni, a megbeszélésekről a szakterületi felelős emlékeztetőt készít, amely tartalmazza az ott elhangzott feladatokat, felelősöket és határidőket."
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "13. A követelményspecifikáció összeállítása érdekében a munkacsoport – annak hiányában a szakterületi felelős – meghatározza a részletes szakmai elvárásokat, melyet követelményspecifikáció-tervezet formájában megküld az ORFK GF részére, amely az abban foglaltak figyelembevételével intézkedik annak véglegesítéséről."
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "14. A projektdokumentációhoz szükséges iratmintákat és az azok elkészítéséért felelősök körét a munkacsoport határozza meg. A fejlesztés folyamata alatt – annak nagyságrendje figyelembevételével – elkészítendő projektdokumentáció részelemei az alábbiak lehetnek:"
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "a) a fejlesztés követelményspecifikációja;"
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "b) a fejlesztés ütemezése, határideje és az ütemekhez tartozó köztes határidők;"
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "c) az alkalmazás vagy rendszer kockázatelemzésen alapuló biztonsági osztályba sorolásának eredménye, időpontja;"
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "d) a biztonsági osztályhoz rendelt követelmények meghatározása;"
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "e) az IBSZ 22. pontja szerinti Rendszerbiztonsági Terv követelményei, elkészültének, átadásának tervezett időpontja;"
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "f) az átvételi tesztek megkezdésének időpontja;"
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "g) a felelősök kijelölése;"
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "h) sérülékenységvizsgálat tervezett időpontja, követelményei;"
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "i) az élesüzemű bevezetéshez szükséges képzés szervezése, módszere, tematikája, a számonkérés rendje és az érintett személyi kör;"
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "j) osztályba sorolás és védelmi intézkedések űrlap (OVI-mátrix) kitöltésének tervezett időpontja, a hatósági nyilvántartásba vétel tervezett időpontja;"
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "k) az élesüzemű bevezetés tervezett időpontja;"
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "l) a monitoringkövetelmények."
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "15. A projektdokumentáció egyes elemeit a munkacsoport – annak hiányában a szakterületi felelős – terjeszti fel a szakterületi vezető részére jóváhagyásra. A jóváhagyást követően a projektdokumentáció – a fejlesztési igény lényegét nem érintő – módosítása kizárólag a szakterületi vezető engedélyével történhet."
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "16. A megrendelő az Országos Rendőr-főkapitányság Közbeszerzési és Beszerzési Szabályzatáról szóló ORFK utasítás alapján kezdeményezi a beszerzési eljárás lefolytatását, mely eljárás részeként kiválasztásra kerülő nyertes fejlesztőtől megrendeli a fejlesztést."
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "17. A szerződésben ki kell kötni, hogy a fejlesztő"
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "a) a szakterületi tesztelő és a szakterületi oktató bevonásával elkészíti a felhasználói kézikönyvet;"
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "b) a szakterületi tesztelő és a szakterületi oktató bevonásával elkészíti az oktatáshoz szükséges tananyagokat, ismertetőket;"
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "c) fejlesztés monitoringjának befejezését követően megrendelő megkeresése alapján végezze a garanciális hibajavítást."
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "5. Teszt"
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "18. A fejlesztés során létrehozott új alkalmazás, illetve rendszer, vagy egy már meglévő alkalmazás, rendszer módosításával létrejövő új verzió átvételének feltétele a hozzá kapcsolódó szerződésben meghatározottak szerinti teljes dokumentáció megléte, továbbá az eseménykezelő központok feladat- és hatásköréről, valamint a biztonsági események kezelésének és műszaki vizsgálatának, továbbá a sérülékenységvizsgálat lefolytatásának szabályairól szóló 271/2018. (XII. 20.) Korm. rendeletben foglaltak szerint elvégzett sérülékenységvizsgálat megtörténte."
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "19. A munkacsoport – annak hiányában a szakterületi felelős – az átvételi tesztek megkezdésének projektdokumentációban rögzített időpontjára kidolgozza az átvételi tesztek végrehajtásának módszerét, a szükséges számú és tartalmú tesztesetre figyelemmel."
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "20. A szakterületi vezető a fejlesztő bevonásával megfelelő számú és tartalmú teszteset elkészítéséről gondoskodik. A tesztesetek kidolgozásakor figyelemmel kell lenni arra, hogy a fejlesztés minden elemének tesztelése megtörténjen."
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "21. Az átvételi tesztek informatikai környezetének biztosításáért az INFO vezetője, megszervezéséért és lebonyolításáért a szakterületi vezető a felelős."
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "22. A fejlesztő által készített felhasználói kézikönyvet és az oktatási anyagokat az átvételi tesztek eredménye alapján a munkacsoport – annak hiányában a szakterületi tesztelő és a szakterületi oktató – véleményezi, illetve a szakterületi vezető hagyja jóvá. A jóváhagyás a teljesítési igazolás kiadásának feltétele."
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "23. A munkacsoport – annak hiányában a szakterületi felelős – az átvételi teszteket folyamatosan értékeli, és azok lebonyolítása után az informatikai koordinátort a szolgálati út betartásával írásban tájékoztatja a tesztelés során szerzett tapasztalatairól, az esetlegesen felfedezett hibákról és módosítási igényekről, aki intézkedik a fejlesztő felé a hibák elhárítása, valamint az esetleges módosítások végrehajtása érdekében."
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "24. A szakterületi vezető a szakterületi tesztelő által elvégzett teszt eredményei alapján dönt az alkalmazás vagy rendszer éles üzembe állításáról, döntéséről a tesztjegyzőkönyv megküldésével egyidejűleg tájékoztatja a megrendelőt. Az alkalmazást vagy rendszert az IBSZ 24. alcímében meghatározottaknak megfelelően a biztonsági előírások igazolt teljesülése esetén, továbbá a hatósági nyilvántartásba vételt követően lehet használatba venni."
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "6. Késztermék átvétele"
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "25. A késztermék átvételéről a 14. pont szerint elkészített iratok meglétének függvényében a munkacsoport, annak hiányában a szakterületi vezető javaslatára a megrendelő dönt."
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "26. A teljesítési igazolás a sikeres élesüzemű bevezetést követően állítható ki a fejlesztő részére, a szerződésben meghatározottak szerint."
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "7. Monitoring"
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "27. Az alkalmazás élesüzemű bevezetését követően a szakterületi vezető intézkedik a folyamatos monitoring lebonyolítási rendjéről."
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "28. A fejlesztés monitoringjának befejezését követően a munkacsoport – annak hiányában a szakterületi felelős – elkészíti a monitoring jelentést, és azt megküldi a megrendelő részére. Az informatikai koordinátor a jelentésben foglalt esetleges hibák garanciális kijavítására megteszi a szükséges intézkedéseket a fejlesztő irányában."
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "29. A fejlesztés a projektzáró dokumentum megrendelő részére történő felterjesztésével zárul, melynek előkészítéséről a szakterületi vezető gondoskodik."
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "8. Képzés"
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "30. Új alkalmazás vagy az ahhoz kapcsolódó modul fejlesztése esetén gondoskodni kell a felhasználók képzéséről. Az érintett állomány képzésének kezdeményezéséért a szakterületi vezető a felelős."
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "31. A képzésre vonatkozó igényről a szakterületi vezető a projektdokumentáció képzésre vonatkozó kivonatának megküldésével tájékoztatja a ROKK-ot. A képzés megszervezéséről, a helyszín és a szükséges eszközök biztosításáról, a jegyzetek sokszorosításáról és terjesztéséről a ROKK intézkedik. A szakterületi vezető a képzéseket önállóan is megszervezheti, ha rendelkezik az oktatás végrehajtásához szükséges erőforrással."
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "32. A szakterületi oktató gondoskodik a képzési terv elkészítéséről, amely tartalmazza"
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "a) a képzés tárgyát;"
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "b) a képzést végrehajtó személyeket (a központi képzés esetén a szakterületi felelős és a fejlesztő által kijelölt személyek, a területi és helyi képzések esetén az országos/központi képzésen részt vett területi szakirányítók, igény szerint a területi informatikai felelősökkel kiegészítve);"
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "c) a képzésben érintett felhasználói kört;"
+    },
+    {
+      "provision_ref": "s107",
+      "section": "107",
+      "title": "107",
+      "content": "d) a képzés ütemezését."
+    },
+    {
+      "provision_ref": "s108",
+      "section": "108",
+      "title": "108",
+      "content": "9. Az alkalmazásokat, rendszereket érintő, tervezett beavatkozások folyamata"
+    },
+    {
+      "provision_ref": "s109",
+      "section": "109",
+      "title": "109",
+      "content": "33. Az ORFK tulajdonát képező alkalmazás vagy rendszer belső vagy szerződés, továbbá jogi szabályozó szerinti külső üzemeltetőjének írásban, indokolással jelzett igénye alapján a szolgáltatás működési logikájában észlelt hiba javítását, illetve az informatikai szolgáltatás módosítását az INFO vezetője engedélyezi. A beavatkozás érdekében, annak végrehajtása céljából a kitöltött rendszerbeavatkozási kérelemnek (a továbbiakban: RBK) az elvégzendő beavatkozás előtt legalább 3 munkanappal kell beérkeznie."
+    },
+    {
+      "provision_ref": "s110",
+      "section": "110",
+      "title": "110",
+      "content": "34. Ha a beavatkozást követően az alkalmazás vagy a rendszer előzetes tesztelése szükséges, az INFO vezetője – a szakterületi vezető egyetértésével – a beavatkozást csak a sikeres tesztet követően engedélyezheti."
+    },
+    {
+      "provision_ref": "s111",
+      "section": "111",
+      "title": "111",
+      "content": "35. A beavatkozást az INFO koordinálja, annak végrehajthatóságáról az INFO vezetője tájékoztatja a beavatkozást végrehajtót és a Készenléti Rendőrség Különleges Szolgálatok Igazgatósága Informatikai Üzemeltetési Osztályát."
+    },
+    {
+      "provision_ref": "s112",
+      "section": "112",
+      "title": "112",
+      "content": "36. Az RBK benyújtója a beavatkozás megtörténtéről az RBK-ban meghatározott személyeket e-mail útján tájékoztatja."
+    },
+    {
+      "provision_ref": "s113",
+      "section": "113",
+      "title": "113",
+      "content": "37. Az alkalmazásokban, rendszerekben fellépő, az elektronikus ügyintézés és iratkezelés végrehajtását befolyásoló üzemszünet, üzemzavar esetén az RBK kitöltésére és INFO részére történő megküldésére vonatkozó szabályokat a Rendőrség elektronikus ügyintézés biztosításával kapcsolatos incidensek kezelésére vonatkozó eljárási szabályokkal összhangban kell alkalmazni."
+    },
+    {
+      "provision_ref": "s114",
+      "section": "114",
+      "title": "114",
+      "content": "III. FEJEZET"
+    },
+    {
+      "provision_ref": "s115",
+      "section": "115",
+      "title": "115",
+      "content": "ZÁRÓ RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s116",
+      "section": "116",
+      "title": "116",
+      "content": "38. Ez az utasítás a közzétételét követő napon lép hatályba."
+    },
+    {
+      "provision_ref": "s117",
+      "section": "117",
+      "title": "117",
+      "content": "39. Az INFO vezetője gondoskodik a fejlesztéssel kapcsolatos iratmintatárban található iratminták naprakészen tartásáról."
+    },
+    {
+      "provision_ref": "s118",
+      "section": "118",
+      "title": "118",
+      "content": "40. Az utasítás rendelkezéseit a folyamatban lévő fejlesztések tekintetében is alkalmazni kell."
+    },
+    {
+      "provision_ref": "s119",
+      "section": "119",
+      "title": "119",
+      "content": "41. 1 Az 1. pont b) alpontja a 40/2022. (XII. 30.) ORFK utasítás 176. pontja, a 17/2025. (VI. 30.) ORFK utasítás 61. pont a) alpontja szerint módosított szöveg. 2 A 4. pont w) alpontja a 17/2025. (VI. 30.) ORFK utasítás 61. pont b) alpontja szerint módosított szöveg. 3 A 41. pont a 2011: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "hu-law-2023-11-20-8p",
+  "type": "statute",
+  "title": "11/2023. (VI. 22.) GFM rendelet az árfigyelő rendszerbe tartozó termékkategóriákról és termékekről",
+  "status": "in_force",
+  "in_force_date": "2023-06-23",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2023-11-20-8P",
+  "description": "az árfigyelő rendszerbe tartozó termékkategóriákról és termékekről",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § E rendelet alkalmazásában 1. eladási ár típusa: az 1. melléklet szerinti termékkategóriákra vonatkozóan meghatározott bruttó eladási ár, amely lehet dobozár, darabár vagy csomagár; 2. termékkategória: az árfigyelő rendszerbe bevont élelmiszer termékcsoport megnevezése, amelynek leíró adatait az 1. melléklet tartalmazza; 3. termék azonosításához szükséges egyéb adat: a 2. mellékletben meghatározott, az árfigyelő rendszerben rögzítendő termékek pontos azonosítását lehetővé tevő adatok."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § Az árfigyelő rendszerbe tartozó termékkategóriák megnevezését, az egyes termékkategóriákon belül a bejelentési kötelezettséggel érintett termékek körének meghatározását a termékek kiszerelése és leírása alapján, valamint az egyes termékekhez tartozó napi ár és törzsvásárlói ár típusát az 1. melléklet tartalmazza."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) A kereskedő valamennyi üzletére vonatkozóan köteles az egyes termékkategóriákon belül minden olyan általa forgalmazott termékre adatot szolgáltatni, amely megfelel az 1. mellékletben meghatározott leírásnak és kiszerelésnek. (2) A kereskedő az adatszolgáltatás során a termékekre vonatkozóan köteles feltüntetni a termék napi árát oly módon, hogy – az 1. mellékletnek megfelelően – megjelöli az egységárat és a termékhez tartozó eladási ár típusa szerinti árat. A termékek eladási ára és egységára, továbbá a szolgáltatások díja feltüntetésének részletes szabályairól szóló 4/2009. (I. 30.) NFGM–SZMM együttes rendelet szerinti árcsökkentés bejelentése, valamint a háborús élelmiszerár-infláció csökkentése érdekében szükséges intézkedésekről szóló 162/2023. (V. 5.) Korm. rendelet szerinti kötelező árcsökkentés esetén a kereskedő a napi ár mellett köteles feltüntetni a termék korábbi árát – az 1. mellékletnek megfelelően – a termék korábbi egységára és a termékhez tartozó eladási ár típusa szerinti korábbi ár megjelölésével. (3) Törzsvásárlói ár alkalmazása esetén a kereskedő a (2) bekezdés szerinti napi ár és a korábbi ár mellett köteles feltüntetni a termék bruttó törzsvásárlói árát oly módon, hogy – az 1. mellékletnek megfelelően – megjelöli az egységárat és a termékhez tartozó eladási ár típusa szerinti árat."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § Ez a rendelet a kihirdetését követő napon lép hatályba."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § A Gazdasági Tevékenységek Egységes Ágazati Osztályozási Rendszerében „47.75 – Illatszer, kozmetikai cikk, tisztálkodószer kiskereskedelme” megjelöléssel feltüntetett kereskedelmi tevékenységet főtevékenységként végző kereskedő, aki e rendelet hatálybalépése napján megfelel az árfigyelő rendszer létrehozásáról és működéséről szóló 163/2023. (V. 8.) Korm. rendelet 6. §-a szerinti feltételeknek, első alkalommal 2025. június 1-jén tesz eleget a 3. § szerinti kötelezettségének az 1. mellékletnek megfelelően. Az árfigyelő rendszerbe tartozó termékek azonosításához szükséges egyéb adatok a) a termékkategória árfigyelő rendszer szerinti egyedi azonosítója, b) a termék termékképe és fájlkiterjesztése vagy a termékképre mutató elérhetőség, valamint c) a termék neve. 1 Az 5. §-t a 15/2025. (V. 23.) NGM rendelet 1. §-a iktatta be. 2 A hatálybalépés időpontja 2025. május 31. 3 Az 1. melléklet a 15/2025. (V. 23.) NGM rendelet 2. §-ával megállapított szöveg."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "§ E rendelet alkalmazásában 1. eladási ár típusa",
+      "definition": "az 1. melléklet szerinti termékkategóriákra vonatkozóan meghatározott bruttó eladási ár, amely lehet dobozár, darabár vagy csomagár",
+      "source_provision": "s1"
+    },
+    {
+      "term": "termékkategória",
+      "definition": "az árfigyelő rendszerbe bevont élelmiszer termékcsoport megnevezése, amelynek leíró adatait az 1. melléklet tartalmazza",
+      "source_provision": "s1"
+    },
+    {
+      "term": "termék azonosításához szükséges egyéb adat",
+      "definition": "a 2. mellékletben meghatározott, az árfigyelő rendszerben rögzítendő termékek pontos azonosítását lehetővé tevő adatok.",
+      "source_provision": "s1"
+    }
+  ]
+}

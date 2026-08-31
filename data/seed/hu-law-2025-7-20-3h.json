@@ -1,0 +1,65 @@
+{
+  "id": "hu-law-2025-7-20-3h",
+  "type": "statute",
+  "title": "7/2025. (V. 30.) NMHH rendelet a kiskorú felhasználóra tekintettel nyújtott biztonságos szolgáltatással összefüggő részletes szabályokról",
+  "status": "in_force",
+  "in_force_date": "2025-06-02",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2025-7-20-3H",
+  "description": "a kiskorú felhasználóra tekintettel nyújtott biztonságos szolgáltatással összefüggő részletes szabályokról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § E rendelet alkalmazásában 1. kiskorú felhasználóra tekintettel nyújtott biztonságos szolgáltatás: az elektronikus hírközlésről szóló 2003. évi C. törvény (a továbbiakban: Eht.) 149/F. § (1) bekezdése alapján nyújtott szolgáltatás; 2. mobil internet-hozzáférési szolgáltatás: az Eht. 163/Q. § (3) bekezdésében meghatározott szolgáltatás."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § (1) A Nemzeti Média- és Hírközlési Hatóság elnöke (a továbbiakban: Elnök) az Eht. 149/F. § (3) bekezdése szerinti listát (a továbbiakban: lista) a Magyarországról leggyakrabban látogatott ezer – kifejezetten pornográf tartalom bemutatását célzó – honlap címével, gépi olvasható formában teszi hozzáférhetővé a szolgáltatók számára, amely a teljesen specifikált doménneveket fejléc és lábléc sor nélkül, a listaelemeket új sor karakterrel elválasztva tartalmazza. (2) Az Elnök a lista tartalmát legalább havonta felülvizsgálja, és szükség szerint módosítja, valamint a módosítást követően a (3) bekezdésben meghatározottak szerint elérhetővé teszi a szolgáltatók részére (a továbbiakban: aktuális lista). (3) Az aktuális lista a Nemzeti Média- és Hírközlési Hatóság (a továbbiakban: Hatóság) által erre a célra létrehozott és fenntartott URL-en keresztül érhető el a szolgáltatók számára, forrás IP-cím és elektronikus tanúsítvány alapú hozzáférés szabályozás mellett. (4) Az Elnök valamennyi, korábban a szolgáltatók részére elérhetővé tett listát (a továbbiakban: archivált lista) annak elérhetővé tételét követő három évig tárolja, és biztosítja a hozzáférést a szolgáltatók részére a (3) bekezdésben meghatározott módon. (5) Az aktuális és az archivált lista pontos elérhetőségéről, valamint a lista műszaki jellemzőiről a Hatóság hivatalos honlapján tájékoztatót tesz közzé."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) A szolgáltató az internet-hozzáférési szolgáltatás nyújtása során, az előfizető Eht. 149/F. § (1) bekezdése szerinti, a szolgáltatás igénybevételéről szóló nyilatkozata esetén – annak visszavonásáig – megakadályozza az aktuális listában szereplő honlapok elérését a kiskorú felhasználóra tekintettel nyújtott biztonságos szolgáltatás használata esetén. (2) Az aktuális lista szerinti honlapokhoz történő hozzáférés megakadályozását a szolgáltató az elektronikus hírközlési hálózatában üzemeltetett DNS szerverek lekérdezési adatbázisainak módosítása útján végzi el. A szolgáltató DNS szerverein, az aktuális listában szereplő teljesen specifikált doménnevekhez tartozó elérési információs rekordokban az autoritatív DNS szerverektől kapott elérési információk helyett a (3) bekezdés szerinti honlap elérési adatait kell tárolni, és az aktuális listán szereplő bármely honlapra irányuló lekérdezés esetén válaszként visszaküldeni. (2a) Az Eht. 149/F. § (2) bekezdése szerinti, külön-külön is hozzáférhető szolgáltatások esetén – a (2b) bekezdésben foglalt kivétellel – a szolgáltató nem írhat elő a felhasználó számára semmilyen rendszeres, a felhasználó közreműködését igénylő azonosítást az internet-hozzáférési szolgáltatás igénybevételéhez használt végberendezésen, továbbá a szolgáltatás nyújtását nem kötheti más, egyedi készülékbeállítások felhasználó általi elvégzéséhez, így különösen nem kötheti a felhasználó által elvégzendő egyedi DNS szerver beállításhoz. (2b) Ha a szolgáltató a (2a) bekezdés szerinti bármely szolgáltatás nyújtásához rádiós helyi hálózatot használ, a szolgáltató a rádiós helyi hálózat azonosítóját (SSID) és az ennek eléréséhez szükséges hozzáférési jelszó megadását kérheti a felhasználótól. (3) A szolgáltató tájékoztató honlapot üzemeltet a kiskorú felhasználóra tekintettel nyújtott biztonságos szolgáltatással kapcsolatban, amelyre átirányítanak az aktuális listában azonosított honlapokra irányuló, a szolgáltató szerverei által kiszolgált DNS lekérdezések. (4) A szolgáltató minden munkanap 04:00–08:00 óra között gondoskodik az aktuális lista letöltéséről és az abban foglalt adatok megfelelő beállításáról az internet-hozzáférési szolgáltatás nyújtásához használt DNS kiszolgáló rendszereiben. (5) Az Elnök a kiskorú felhasználóra tekintettel nyújtott biztonságos szolgáltatás hatékony, az informatikai környezet változásaihoz igazodó megvalósítása érdekében a szolgáltatásnyújtás módjával kapcsolatos legjobb gyakorlatokról ajánlást adhat ki."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) A szolgáltató az előfizetőket az Eht. 149/F. § (1) bekezdése szerint, utólag igazolható módon tájékoztatja a kiskorú felhasználóra tekintettel nyújtott biztonságos szolgáltatás igénybevételének lehetőségéről és feltételeiről. (2) A szolgáltató az előfizetőket a kiskorú felhasználóra tekintettel nyújtott biztonságos szolgáltatás igénybevételének lehetőségéről és feltételeiről – az Eht. 149/F. § (1) bekezdésében foglalt tájékoztatási módok mellett – internetes honlapján és ügyfélszolgálatán tájékoztatja. A szolgáltató a tájékoztatást az internetes honlapon könnyen megtalálható helyen, így különösen az egyes internet-hozzáférési szolgáltatásokat bemutató aloldalakon vagy a gyermekvédelemmel foglalkozó aloldalon helyezi el. (3) A tájékoztatás megfelelőségét a Hatóság rendszeresen ellenőrzi. (4) A kiskorú felhasználóra tekintettel nyújtott biztonságos szolgáltatás nyújtásának részletes feltételeit a szolgáltató az általános szerződési feltételeiben határozza meg. (5) A szolgáltatónak legalább a telefonos ügyfélszolgálatán biztosítania kell, hogy a kiskorú felhasználóra tekintettel nyújtott biztonságos szolgáltatás igénybevételére vonatkozó nyilatkozatát az előfizető bármikor ingyenesen megtehesse vagy visszavonhassa. A nyilatkozat megtétele vagy annak visszavonása nem minősül az előfizetői szerződés módosításának. Az előfizető nyilatkozatában megjelöli azt az előfizetői hozzáférési pontot, amelyen a kiskorú felhasználóra tekintettel nyújtott biztonságos szolgáltatás nyújtását kéri. (5a) A szolgáltató az előfizető nyilatkozatának megfelelő, a kiskorú felhasználóra tekintettel nyújtott biztonságos szolgáltatás nyújtását a) mobil internet-hozzáférési szolgáltatás esetén haladéktalanul, de legfeljebb a szolgáltatás igénybevételére vonatkozó nyilatkozat megtételétől számított 48 órán belül, b) helyhez kötött internet-hozzáférési szolgáltatás esetén legfeljebb a szolgáltatás igénybevételére vonatkozó nyilatkozat megtételétől számított 60 napon belül biztosítja. (6) Új mobil internet-hozzáférési szolgáltatás igénybevételére irányuló előfizetői szerződés megkötése esetén, ha azzal összefüggésben az előfizető a kiskorú felhasználóra tekintettel nyújtott biztonságos szolgáltatás igénybevételére vonatkozó nyilatkozatot tett, a szolgáltató csak a kiskorú felhasználóra tekintettel nyújtott biztonságos beállításokkal kezdheti meg a szolgáltatás nyújtását. (7) Új helyhez kötött internet-hozzáférési szolgáltatásra irányuló előfizetői szerződés megkötése esetén a kiskorú felhasználóra tekintettel nyújtott biztonságos szolgáltatás nyújtását a szolgáltató legkésőbb az előfizetői szerződés megkötésétől számított 60 napon belül megkezdi. Amennyiben a felek az elektronikus hírközlési előfizetői szerződések részletes szabályairól szóló 22/2020. (XII. 21.) NMHH rendelet 8. § (1) vagy (2) bekezdése szerint az internet-hozzáférési szolgáltatás nyújtásának megkezdésére későbbi időpontban állapodtak meg, a kiskorú felhasználóra tekintettel nyújtott biztonságos szolgáltatás nyújtását is a felek megállapodása szerinti későbbi időpontban kell megkezdeni. (8) Új helyhez kötött hozzáférési pont létesítése esetén a (7) bekezdés szabályainak értelemszerű alkalmazásával kell eljárni."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § (1) Ez a rendelet – a (2) bekezdésben foglalt kivétellel – a kihirdetését követő harmadik napon lép hatályba. (2) A 3. és a 4. § 2026. január 1-jén lép hatályba."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § A 2. § (1) bekezdése szerinti listát az Elnök első alkalommal e rendelet hatálybalépését követő tizenöt napon belül, az első módosítását 2025. november 30-ig teszi elérhetővé a szolgáltatók számára."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § A 3. § és a 4. § rendelkezéseit a 10 000-nél kevesebb előfizetővel rendelkező, Magyarországon letelepedett, helyhez kötött internet-hozzáférés szolgáltatást nyújtó szolgáltató esetében 2027. január 1-jétől kell alkalmazni. 1 A 3. § (1) bekezdése a 10/2026. (V. 26.) NMHH rendelet 4. § a) és b) pontja szerint módosított szöveg. 2 A 3. § (2a) bekezdését a 10/2026. (V. 26.) NMHH rendelet 1. §-a iktatta be. 3 A 3. § (2b) bekezdését a 10/2026. (V. 26.) NMHH rendelet 1. §-a iktatta be. 4 A 3. alcím címe a 10/2026. (V. 26.) NMHH rendelet 4. § c) pontja szerint módosított szöveg. 5 A 4. § (1) bekezdése a 10/2026. (V. 26.) NMHH rendelet 4. § d) pontja szerint módosított szöveg. 6 A 4. § (5) bekezdése a 10/2026. (V. 26.) NMHH rendelet 2. § (1) bekezdésével megállapított szöveg. 7 A 4. § (5a) bekezdését a 10/2026. (V. 26.) NMHH rendelet 2. § (1) bekezdése iktatta be. 8 A 4. § (6) bekezdése a 10/2026. (V. 26.) NMHH rendelet 2. § (2) bekezdésével megállapított szöveg. 9 A 4. § (7) bekezdése a 10/2026. (V. 26.) NMHH rendelet 2. § (2) bekezdésével megállapított szöveg. 10 A 4. § (8) bekezdését a 10/2026. (V. 26.) NMHH rendelet 2. § (2) bekezdése iktatta be. 11 A 7. §-t a 10/2026. (V. 26.) NMHH rendelet 3. §-a iktatta be."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "§ E rendelet alkalmazásában 1. kiskorú felhasználóra tekintettel nyújtott biztonságos szolgáltatás",
+      "definition": "az elektronikus hírközlésről szóló 2003. évi C. törvény (a továbbiakban: Eht.) 149/F. § (1) bekezdése alapján nyújtott szolgáltatás",
+      "source_provision": "s1"
+    },
+    {
+      "term": "mobil internet-hozzáférési szolgáltatás",
+      "definition": "az Eht. 163/Q. § (3) bekezdésében meghatározott szolgáltatás.",
+      "source_provision": "s1"
+    }
+  ]
+}

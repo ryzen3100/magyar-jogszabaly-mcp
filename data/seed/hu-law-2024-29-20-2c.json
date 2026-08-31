@@ -1,0 +1,312 @@
+{
+  "id": "hu-law-2024-29-20-2c",
+  "type": "statute",
+  "title": "29/2024. (VI. 24.) MNB rendelet a Magyar Nemzeti Bank által felügyelt szolgáltatók által alkalmazott auditált elektronikus hírközlő eszköz és működtetésének, belső szabályozása minimumkövetelményeinek, auditálása módjának, valamint az ilyen eszköz útján végzett elektronikus ügyfél-átvilágítás végrehajtásának részletszabályairól",
+  "status": "in_force",
+  "in_force_date": "2024-07-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2024-29-20-2C",
+  "description": "a Magyar Nemzeti Bank által felügyelt szolgáltatók által alkalmazott auditált elektronikus hírközlő eszköz és működtetésének, belső szabályozása minimumkövetelményeinek, auditálása módjának, valamint az ilyen eszköz útján végzett elektronikus ügyfél-átvilágítás végrehajtásának részletszabályairól",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § E rendelet hatálya a pénzmosás és a terrorizmus finanszírozása megelőzéséről és megakadályozásáról szóló 2017. évi LIII. törvény (a továbbiakban: Pmt.) 1. § (1) bekezdés a)–e) és m) pontja, valamint 1. § (1a) bekezdése szerinti szolgáltatóra (a továbbiakban együtt: szolgáltató) terjed ki."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § E rendeletet a szolgáltató által végzett vagy kiszervezett, auditált elektronikus hírközlő eszköz útján történő ügyfél-átvilágítási intézkedésre kell alkalmazni."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) E rendelet alkalmazásában 1. auditált elektronikus hírközlő eszköz: az ügyfél távoli, elektronikus adatátviteli csatornán történő átvilágítására, az ügyfél nyilatkozatainak megtételére, az ügyfél által tett nyilatkozat értelmezésére, biztonságos tárolására, a tárolt adatok visszakeresésére és ellenőrzésére alkalmas auditált elektronikus rendszer; 2. biometrikus adatok: a természetes személyeknek a személyes adatok kezelése tekintetében történő védelméről és az ilyen adatok szabad áramlásáról, valamint a 95/46/EK irányelv hatályon kívül helyezéséről szóló, 2016. április 27-i (EU) 2016/679 európai parlamenti és tanácsi rendelet 4. cikk 14. pontja szerinti fogalom; 3. elektronikus ügyfélazonosító és nyilatkozattételi rendszer: olyan személyre szabott elektronikus eljárást biztosító rendszer, amely a nyilatkozattevő személyének és a nyilatkozat megtétele időpontjának egyértelmű azonosítására és a jognyilatkozat tartalmának változatlan visszaidézésére alkalmas formában teszi lehetővé a jognyilatkozat megtételét; 4. elektronikus ügyfél-átvilágítás: a szolgáltatótól fizikailag távol lévő ügyfél vonatkozásában auditált elektronikus hírközlő eszközzel végzett ügyfél-átvilágítási intézkedés; 5. erős ügyfél-hitelesítés: hitelesítés legalább két olyan a) ismeret, azaz csak az ügyfél által ismert információ, b) birtok, azaz csak az ügyfél által birtokolt dolog és c) biológiai tulajdonság, azaz az ügyfél jellemzője kategóriába sorolható elem felhasználásával, amely kategóriák egymástól függetlenek annyiban, hogy az egyik feltörése nem befolyásolja a többi megbízhatóságát, és az eljárás kialakítása révén biztosított az azonosítási adatok bizalmassága; 6. IKT- és biztonsági kockázat: a bizalmasság megsértéséből, a rendszerek és adatok sértetlenségének sérüléséből, a rendszerek és adatok nemmegfelelőségéből vagy elérhetetlenségéből, illetve a környezeti vagy üzleti követelmények változása esetén az információs technológia észszerű időn belül és költségekkel járó megváltoztatására való (agilitás-) képtelenségből adódó veszteség kockázata, ide tartoznak a nem megfelelő vagy rosszul működő belső folyamatokból vagy külső eseményekből eredő biztonsági kockázatok, beleértve a kibertámadásokat vagy a nem megfelelő fizikai biztonságot is; 7. megerősített eljárás: az ügyfélben, a termékben, a szolgáltatásban, az ügyletben, az alkalmazott eszközben vagy a földrajzi kitettségben rejlő kockázat kezelésére szolgáló kockázatalapú intézkedések együttesét magába foglaló fokozott monitoring; 8. pénzmosási és terrorizmusfinanszírozási kockázat: a pénzmosás vagy a terrorizmus finanszírozása felmerülésének valószínűsége és hatása; 9. visszaéléssel érintett ügylet: minden olyan, a pénzforgalmi szolgáltatás nyújtásáról szóló 2009. évi LXXXV. törvény szerinti fizetési művelet – ide nem értve a kártyaalapú fizetési műveletet –, amely esetében észszerű okból csalás gyanúja merül fel azzal kapcsolatban, hogy a fizetési műveletet az ügyfél nem kívánta jóváhagyni, vagy tévedésben lévő ügyfél hagyta jóvá. (2) E rendelet ügyfélre vonatkozó rendelkezéseit az ügyfél szolgáltatónál eljáró meghatalmazottjára, rendelkezésre jogosultjára és képviselőjére is alkalmazni kell."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) A szolgáltató – jogszabály eltérő rendelkezése hiányában – egy új auditált elektronikus hírközlő eszköz bevezetését megelőzően minden esetben mérlegeli az auditált elektronikus hírközlő eszköz bevezetésének indokoltságát, és elvégzi az auditált elektronikus hírközlő eszköz előzetes értékelését. (2) Az előzetes értékelés legalább az alábbiakra terjed ki: a) az auditált elektronikus hírközlő eszköz útján összegyűjtendő adatok és dokumentumok teljességére és pontosságára, valamint a felhasznált információforrások megbízhatóságára és függetlenségére; b) az auditált elektronikus hírközlő eszköz alkalmazásának hatására a szolgáltató egészét érintő kockázatokat illetően, beleértve a pénzmosással és a terrorizmus finanszírozásával kapcsolatos technológiai, működési, reputációs és jogi kockázatokat; c) a b) pont szerinti értékelés során azonosított valamennyi kockázatra vonatkozó érdemi kockázatmérséklő intézkedésekre és a korrekciós intézkedések, felelősök és határidők meghatározására; d) a visszaéléssel érintett ügylet kockázatainak – többek között a személyazonosító vagy -hitelesítő adatokkal való visszaéléssel kapcsolatos és más IKT- és biztonsági kockázatok – értékelésére szolgáló tesztekre, mely da) teszteket olyan független tesztelők végezhetik, akik a 14. § f) pontja szerinti ismeretekkel, készségekkel és szakértelemmel rendelkeznek az információbiztonsági intézkedések tesztelésében, és akik nem vesznek részt az információbiztonsági intézkedések kidolgozásában, db) tesztek során az üzleti folyamatok és rendszerek azonosított kockázati szintjével arányos sérülékenységi vizsgálatok és behatolási tesztek – ideértve a fenyegetésalapú behatolásvizsgálatokat, ahol szükséges és megfelelő – elvégzésre kerülnek; továbbá e) az elektronikus ügyfél-átvilágítási szabályzat által meghatározott ügyfelekre, termékekre és szolgáltatásokra irányuló működésének végponttól végpontig terjedő tesztelésére."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § A szolgáltató a Magyar Nemzeti Bank (a továbbiakban: MNB) felhívására igazolja, hogy az auditált elektronikus hírközlő eszköz bevezetése előtt előzetes értékelést végzett. Ennek keretében a szolgáltató az MNB-nek bemutatja az értékelés eredményét, valamint azt, hogy a megoldás alkalmazása megfelel-e az érintett ügyféltípus, szolgáltatás, földrajzi jellemző és termék tekintetében azonosított pénzmosási és terrorizmusfinanszírozással kapcsolatos kockázatoknak."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § A szolgáltató csak abban az esetben alkalmazhatja az auditált elektronikus hírközlő eszközt, ha az 5. § szerinti előzetes értékelés alapján megbizonyosodott arról, hogy az a belső kontrollrendszerébe integrálható, valamint hogy a szolgáltató képes arra, hogy megfelelően kezelje az auditált elektronikus hírközlő eszköz alkalmazásából eredő, a pénzmosással és terrorizmusfinanszírozással összefüggő kockázatokat."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § (1) A szolgáltató elektronikus ügyfél-átvilágítás esetében – az ügyfél azonosítása, személyazonosság-igazoló ellenőrzése, valamint az üzleti kapcsolat céljára és tervezett jellegére vonatkozó értékelés és információszerzés érdekében – olyan kockázatérzékenységi alapú elektronikus ügyfél-átvilágítási szabályzatot és eljárásrendet (a továbbiakban együtt: elektronikus ügyfél-átvilágítási szabályzat) készít, amely tartalmazza a szolgáltató által alkalmazott valamennyi auditált elektronikus hírközlő eszköz útján végzett elektronikus ügyfél-átvilágítás teljesítésének szabályait. Az elektronikus ügyfél-átvilágítási szabályzat a szolgáltató döntése szerint a Pmt. 65. § (1) bekezdése szerinti belső szabályzatának részét is képezheti. (2) Az elektronikus ügyfél-átvilágítási szabályzat tartalmazza legalább 1. az elektronikus ügyfél-átvilágítás során az információk gyűjtésére, ellenőrzésére és rögzítésére bevezetett auditált elektronikus hírközlő eszköz általános leírását, jellemzőinek és működésének ismertetését; 2. azokat a helyzeteket, amikor az adott auditált elektronikus hírközlő eszköz alkalmazható, beleértve az auditált elektronikus hírközlő eszköz útján végzett ügyfél-átvilágításra alkalmas ügyfelek, termékek és szolgáltatások kategóriájának leírását, figyelembe véve az ügyfelekkel, országokkal vagy földrajzi területekkel, termékekkel, szolgáltatásokkal, ügyletekkel és szállítási csatornákkal kapcsolatos kockázati tényezőket, valamint a szolgáltató kockázatértékelésében azonosított és értékelt kockázati tényezőket; 3. annak leírását, hogy mely lépések automatizáltak teljes mértékben, melyek és milyen terjedelemben igényelnek emberi beavatkozást, valamint a beavatkozásra vonatkozó eljárást; 4. azokat a kontrollmechanizmusokat, amelyek biztosítják, hogy az ügyféllel kötött első ügyletet csak akkor hajtsa végre a szolgáltató, ha valamennyi kötelező ügyfél-átvilágítási intézkedés elvégzésre került; 5. azoknak a bevezető és rendszeres képzési programoknak az előírását, amelyek biztosítják a szolgáltató foglalkoztatottjának naprakész ismereteit az auditált elektronikus hírközlő eszköz működésével, a kapcsolódó kockázatokkal, valamint az ilyen kockázatok mérséklését célzó intézkedésekkel kapcsolatban; 6. az auditált elektronikus hírközlő eszköz értékelésének hatókörét, gyakoriságát, lépéseit és a nyilvántartás vezetésére vonatkozó követelményeket; 7. az auditált elektronikus hírközlő eszköz útján gyűjtött adatok minőségének, teljességének, pontosságának és megfelelőségének folyamatos biztosítása érdekében tett lépéseket, amelyeknek arányban kell állniuk a szolgáltatót érintő, pénzmosással és terrorizmusfinanszírozással kapcsolatos kockázatokkal; 8. az auditált elektronikus hírközlő eszközre vonatkozó rendszeres felülvizsgálatok hatókörét és gyakoriságát; 9. az eseti felülvizsgálatokra okot adó körülményeket, figyelemmel a 9. § (2) bekezdésében foglaltakra; 10. az auditált elektronikus hírközlő eszköz útján végzett ügyfél-átvilágítás hatékonyságára és eredményességére hatással lévő kockázat vagy hiba kiküszöbölését célzó korrekciós intézkedéseket, figyelemmel a 10. §-ban foglaltakra; 11. az ügyfél azonosításához szükséges információk körét, azon dokumentumok, adatok vagy információk típusait, amelyeket a szolgáltató az ügyfél személyazonosságának ellenőrzéséhez felhasznál, valamint az említett információk ellenőrzésének módját; 12. azon információk körét, amelyekre az ügyfél azonosítása, személyazonosságának igazoló ellenőrzése, valamint az üzleti kapcsolat céljára és tervezett jellegére vonatkozó értékelés és információszerzés érdekében szükség van; 13. azon információk körét, amelyeket az ügyfél az online felületen manuálisan ad meg, beleértve annak ellenőrzését is, továbbá amit a szolgáltató automatikusan rögzít az ügyfél által rendelkezésre bocsátott dokumentumok alapján, valamint amit a szolgáltató más belső vagy külső forrásokból gyűjt össze; 14. annak szabályait, hogy mely kategóriákba tartozó jogi személyek ügyfél-átvilágítása végezhető el az auditált elektronikus hírközlő eszköz útján, figyelembe véve az egyes kategóriákhoz kapcsolódó pénzmosási és terrorizmusfinanszírozási kockázatok szintjét, illetve az azonosító információk validálásához szükséges emberi beavatkozás mértékét; 15. azokat az üzleti-kapcsolat létesítése során alkalmazott szabályokat, amelyek előírják, hogy hogyan módosítják saját dokumentációs sablonjaikat, milyen dokumentumokat fogadnak el, és ezen dokumentumok ellenőrzésére milyen kontrollmechanizmusokat alkalmaznak; valamint 16. az ügyfél-átvilágítás kiszervezés keretében ellátott funkcióinak és tevékenységeinek felsorolását és szabályait. (3) Az elektronikus ügyfél-átvilágítási szabályzatnak alkalmasnak kell lennie arra, hogy a szolgáltató meg tudjon felelni az e rendeletben előírt követelményeknek."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § (1) A szolgáltató Pmt. 63. § (5) bekezdése szerint kijelölt megfelelési vezetője – az ügyfél-átvilágítási követelményeknek való megfelelést szolgáló szabályzatok és eljárásrendek kidolgozására vonatkozó általános feladata részeként – gondoskodik arról, hogy a szolgáltató az elektronikus ügyfél-átvilágítási szabályzatot hatékonyan hajtsa végre, rendszeresen, jogszabályi, belső szabályozási vagy alkalmazási környezetben, a technológiában vagy munkafolyamatban bekövetkező lényegi változás esetén, de legalább évente, felülvizsgálja és aktualizálja. (2) A szolgáltató irányítási funkciót betöltő testülete jóváhagyja az elektronikus ügyfél-átvilágítási szabályzatot, a kijelölt felelős vezető útján pedig felügyeli annak végrehajtását."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § (1) A szolgáltató folyamatosan – rendszeres és eseti felülvizsgálatok révén − ellenőriz minden általa alkalmazott auditált elektronikus hírközlő eszközt a belső szabályzatainak és a jogszabályok elvárásainak megfelelő működés biztosítása érdekében. (2) A szolgáltató eseti felülvizsgálatot végez legalább a következő esetekben: a) a szolgáltatót érintő, pénzmosással és terrorizmusfinanszírozással kapcsolatos kockázatoknak való kitettségben bekövetkezett változások, b) az auditált elektronikus hírközlő eszköz működésében a monitoring-, audit-, külső ellenőrzési funkció által vagy felügyeleti tevékenység során feltárt hiányosságok, c) a visszaélési kísérletek érzékelhető fokozódása, valamint d) a jogi vagy egyéb szabályozási keretrendszer változása."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § (1) A szolgáltató korrekciós intézkedési tervvel rendelkezik olyan kockázat felmerülése vagy hiba feltárása esetére, amely hatással van az auditált elektronikus hírközlő eszköz útján végzett elektronikus ügyfél-átvilágítás hatékonyságára és eredményességére. (2) A korrekciós intézkedések kiterjednek legalább az alábbiakra: a) az összes érintett üzleti kapcsolat felülvizsgálatára annak értékelése céljából, hogy a szolgáltató megfelelő ügyfél-átvilágítási szintet alkalmazott-e a személyazonosság-igazoló ellenőrzésére, a tényleges tulajdonos azonosítására és az üzleti kapcsolat céljának és jellegének feltárására vonatkozó jogszabályi rendelkezéseknek való megfelelés érdekében, különös figyelemmel azokra, amelyek esetén a pénzmosással és terrorizmusfinanszírozással kapcsolatos kockázat a legmagasabb; és b) figyelembe véve az a) pont szerinti felülvizsgálat során szerzett információkat, annak értékelésére, hogy az érintett üzleti kapcsolat esetében szükség van-e ba) további ügyfél-átvilágítási intézkedésekre, bb) a Pmt. 65. §-a szerinti belső szabályzatban meghatározott korlátozások alkalmazására, bc) az üzleti kapcsolat felmondására, bd) a pénzügyi információs egység felé bejelentés megtételére, továbbá be) az ügyfél kockázati szintbe történő besorolásának módosítására."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § (1) A szolgáltató biztosítja, hogy az auditált elektronikus hírközlő eszköz folyamatos megfelelőségének és megbízhatóságának nyomon követésére a leghatékonyabb módszert alkalmazza. (2) Az (1) bekezdésben foglaltak teljesítéséhez a szolgáltató az automatizált kritikus riasztások és értesítések mellett az alábbi módszerek közül legalább az egyiket alkalmazza: a) minőségbiztosítási vizsgálat, b) külső ellenőrzési funkció, c) a minőségre vonatkozó rendszeres, automatizált jelentések, d) mintavételen alapuló vizsgálat, e) manuális felülvizsgálat."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. § A szolgáltató a felülvizsgálati és korrekciós intézkedésekről nyilvántartást vezet, és az MNB felhívására bemutatja, hogy milyen felülvizsgálatokat és korrekciós intézkedéseket hajtott végre az általa alkalmazott auditált elektronikus hírközlő eszköz teljes alkalmazási időtartama alatt feltárt hiányosságok kezelésére."
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. § Az elektronikus hírközlő eszköz akkor auditálható és működtethető, ha legalább az alábbi informatikai biztonsági követelményeknek megfelel: a) elemei azonosíthatók és dokumentáltak, b) üzemeltetési folyamatai szabályozottak, dokumentáltak és az üzemeltetési szabályzat szerinti gyakorisággal ellenőrzöttek, c) változáskezelési folyamatai biztosítják, hogy a rendszer paraméterezésében és a szoftverkódban bekövetkező változások csak tesztelt és dokumentált módon valósulhassanak meg, d) adatmentési és -visszaállítási rendje biztosítja a rendszer biztonságos visszaállítását, továbbá a mentés-visszaállítás az üzemeltetési szabályzat szerinti gyakorisággal és dokumentáltan tesztelt, e) a felhasználói hozzáférés mind alkalmazási, mind infrastruktúra-szinten szabályozott, dokumentált és az üzemeltetési szabályzat szerinti gyakorisággal ellenőrzött, f) a felállított végfelhasználói hozzáférések egységes, zárt rendszert alkotnak, biztosítják az azonosítási folyamat megvalósulását, továbbá felhasználóinak tevékenysége naplózott, a rendkívüli eseményekről automatikus figyelmeztetések generálódnak, g) a hozzáférést biztosító kiemelt jogosultságok szabályozottak, dokumentáltak és az üzemeltetési szabályzat szerinti gyakorisággal ellenőrzöttek, a kiemelt jogosultságokkal elvégzett tevékenység naplózott, a naplófájlok sérthetetlensége biztosított, és a kritikus rendkívüli eseményekről automatikus figyelmeztetések generálódnak, h) a távoli hozzáférés szabályozott, dokumentált és az üzemeltetési szabályzat szerinti gyakorisággal ellenőrzött, i) a vírusok és más rosszindulatú kódok és cselekmények elleni védelem biztosított, j) adatkommunikációja és rendszerkapcsolatai dokumentáltak és ellenőrzöttek, az adatkommunikáció bizalmassága, sérthetetlensége és hitelessége biztosított, k) a katasztrófa-helyreállítási terv rendszeresen tesztelt, l) karbantartása szabályozott, m) adathordozóinak védelme szabályozott, továbbá biztosított, hogy az adathordozókhoz csak az arra jogosult személyek és csak az adatkezelési cél teljesülése érdekében férnek hozzá, ennek felülvizsgálata és ellenőrzése rendszeresen megtörténik, n) saját kontrolljai és az üzemeltetési szabályzat gondoskodnak a rendszerelemek és a kezelt információk sértetlenségéről és védelméről, és o) biztosított a megfelelő szintű fizikai védelem, az elkülönített környezet és az egyes biztonsági események detektálása és kezelése."
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14. §",
+      "content": "14. § A szolgáltató az auditált elektronikus hírközlő eszköz vonatkozásában gondoskodik arról, hogy a) az ügyféllel felépített elektronikus átviteli csatornán keresztül folyó távadatátvitel megfelelően biztonságos, titkosított, bizalmas, sértetlen és hiteles legyen, b) az ügyfél megkapja a szolgáltatás igénybevételének feltételeiről való tájékoztatást, beleértve a szolgáltatás biztonságára vonatkozó ügyféloldali felelősségről, valamint az adatkezelésről szóló tájékoztatást is, c) a szolgáltatóoldali ügyfél-átvilágításban – amennyiben emberi beavatkozásra szükség van – csak a szükséges mértékben és csak olyan személy vegyen részt, aki – a szolgáltató által alkalmazott megoldástól függően – a közvetett vagy közvetlen elektronikus ügyfél-átvilágítás végrehajtásához szükséges jogi, technikai és biztonsági oktatásban részesült, d) az elektronikus hírközlő eszközre és az elektronikus ügyfél-átvilágítási folyamatra vonatkozó olyan vizsgálati jelentéssel rendelkezzen, amely igazolja, hogy ezek informatikai védelme a biztonsági kockázatokkal arányos, és megfelel különösen a 13. §-ban foglalt követelményeknek, e) a d) pont szerinti vizsgálati jelentés a jogi szabályozásban, az alkalmazott technológiában vagy az üzleti folyamatban történt releváns, a működésre kiható változás esetén, de legalább kétévente megújításra kerüljön, f) a d) pont szerinti vizsgálati jelentést olyan, az Európai Gazdasági Térség valamely tagállamában bejegyzett szervezet állítsa ki, amely szervezetnél a vizsgálatban igazolhatóan részt vevő személy rendelkezik legalább fa) az Information Systems Audit and Control Association (ISACA) által kiadott Certified Information Systems Auditor (CISA); fb) az Information Systems Audit and Control Association (ISACA) által kiadott Certified Information Security Manager (CISM) vagy fc) az International Information Systems Security Certification Consortium Inc. által kiadott Certified Information Systems Security Professional (CISSP) képesítéssel és minősítéssel, g) az elektronikus ügyfél-átvilágítás során a szolgáltató birtokába jutott személyes adatokat és személyes adatnak nem minősülő adatokat az adatkezelés időtartama alatt az érintett részére hozzáférhetővé tegye, átadja, valamint h) az elektronikus ügyfél-átvilágítás folyamatáról elektronikusan eltárolt adatok oly módon kerüljenek rögzítésre, hogy azok a későbbiekben alkalmasak legyenek az ügyfél-átvilágításra vonatkozó rendelkezések betartásának és az ügyfél-átvilágítási intézkedések végrehajtásának utólagos ellenőrzésére."
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15. §",
+      "content": "15. § Amennyiben a szolgáltató a dokumentumokból származó információk automatikus olvasására alkalmas funkciókat használ, gondoskodik arról, hogy ezek az eszközök pontosan és következetesen rögzítsék az információkat."
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16. §",
+      "content": "16. § A szolgáltató teljeskörűen azonosítja és kezeli az elektronikus ügyfél-átvilágítási folyamat használatához kapcsolódó IKT- és biztonsági kockázatokat, beleértve azokat az eseteket is, amikor a szolgáltató az elektronikus ügyfél-átvilágítást vagy annak egy részét kiszervezi."
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17. §",
+      "content": "17. § Amennyiben a szolgáltató az elektronikus ügyfél-átvilágítási folyamat lebonyolítására többcélú eszközt használ, a szolgáltató a kockázatokkal arányosan gondoskodik arról, hogy a többcélú eszközön az alkalmazás vagy a szoftverkód biztonságos környezetben kerüljön futtatásra. A szolgáltató további biztonsági intézkedéseket hajt végre az applikáció vagy a szoftverkód és az összegyűjtött adatok biztonságának és megbízhatóságának biztosítása érdekében."
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18. §",
+      "content": "18. § Az auditált elektronikus hírközlő eszköznek alkalmasnak kell lennie az ügyfélre vonatkozó, a Pmt. 7–10. §-a szerinti valamennyi adat, dokumentáció és információ befogadására, automatizált megoldás esetén az információ feldolgozására és ellenőrzésére is, kivéve azon dokumentumokat, amelyeket az ügyfél a szolgáltató elektronikus ügyfélazonosító és nyilatkozattételi rendszerében is benyújthat."
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19. §",
+      "content": "19. § (1) A szolgáltató az elektronikus ügyfél-átvilágítás során a Pmt. szerinti ügyfél-azonosítást és személyazonosság-igazoló ellenőrzést végez, felhívja az ügyfelet az ügyfélre irányadó, a Pmt. szerinti nyilatkozatok megtételére és okiratok bemutatására, továbbá értékeli az üzleti kapcsolat célját és tervezett jellegét, és ehhez indokolt esetben alátámasztó információkat szerez be. (2) A szolgáltató az elektronikus ügyfél-átvilágítás rendszerét a fogyatékos személyek jogairól és esélyegyenlőségük biztosításáról szóló törvényben foglalt, a fogyatékos személyt megillető jogokra figyelemmel alakítja ki. (3) A szolgáltató az elektronikus ügyfél-átvilágításra vonatkozó követelmények teljesülését az elektronikus ügyfél-átvilágítási szabályzatban meghatározott foglalkoztatottja által, az elektronikus ügyfél-átvilágítási szabályzatban meghatározott módon ellenőrzi. Az ellenőrzés és az arra vonatkozó szabályozás kiterjed a munkamenet rögzítésére vonatkozó követelmények betartására is."
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20. §",
+      "content": "20. § (1) A szolgáltató az elektronikus ügyfél-átvilágítást közvetlen, illetve közvetett elektronikus módon végezheti. (2) Auditált elektronikus hírközlő eszköz igénybevétele esetén, ha a szolgáltató a tényleges tulajdonosi és kiemelt közszereplői nyilatkozatokat, okmánymásolatokat, ügyfélismereti kérdőíveket, valamint a pénzeszköz, illetve vagyon forrásáról szóló nyilatkozatokat elektronikus ügyfélazonosító és nyilatkozattételi rendszerének használatával szerzi be, ezen nyilatkozatok és okmánymásolatok beszerzéséig, valamint az ügyfél egyedi kockázatbesorolása alapján elvégzendő valamennyi ügyfél-átvilágítási intézkedés megtételéig ügylet nem teljesíthető. (3) A (2) bekezdés szerinti korlátozás nem alkalmazandó, ha az okmánymásolat megküldése okmánycsere vagy adatváltozás miatt korábban már teljeskörűen átvilágított ügyfél esetében szükséges."
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21. §",
+      "content": "21. § A szolgáltató ellenőrzi és biztosítja, hogy a) az auditált elektronikus hírközlő eszközön keresztül szerzett információk naprakészek, és megfelelnek a Pmt. 12. §-ában meghatározott követelményeknek, és b) a kép-, hang-, valamint kép- és hangfelvételek és adatok olvasható formátumban és megfelelő minőségben rögzítettek úgy, hogy az ügyfél egyértelműen felismerhető legyen."
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22. §",
+      "content": "22. § Az elektronikus ügyfél-átvilágítás során gyűjtött megőrzendő dokumentumokat és információkat a szolgáltató időbélyegzővel látja el, és biztonságosan eltárolja. A szolgáltató biztosítja, hogy a tárolt nyilvántartások tartalma olvasható formátumban álljon rendelkezésre, és lehetővé tegye az utólagos ellenőrzést."
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23. §",
+      "content": "23. § (1) A szolgáltató megfelelő mechanizmusokat vezet be az automatikusan gyűjtött információk megbízhatóságának biztosítása érdekében. (2) A szolgáltató gondoskodik kontrollmechanizmus alkalmazásáról a kapcsolódó kockázatok kezelésére, beleértve az adatok automatikus rögzítésével kapcsolatos kockázatokat, ezen belül az ügyfél készüléke helymeghatározásának megzavarásával, illetve hamis IP-címek, virtuális magánhálózatok (VPN) vagy más hasonló szolgáltatások használatával kapcsolatos kockázatokat."
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24. §",
+      "content": "24. § (1) Amennyiben a szolgáltató biometrikus adatok használata révén ellenőrzi a természetes személy ügyfél személyazonosságát, gondoskodik arról, hogy a biometrikus adatok kellően egyediek legyenek ahhoz, hogy egyértelműen egyetlen természetes személyhez lehessen kötni őket. (2) A szolgáltató algoritmusokat használ annak ellenőrzésére, hogy a benyújtott személyazonosító okmányon megadott biometrikus adatok ténylegesen az adott természetes személy ügyfélhez tartoznak-e. Kockázatérzékenységi megközelítéssel a benyújtott személyazonosító okmányon megadott biometrikus adatok ellenőrzéséhez további kontrollmechanizmusokat is meghatároz a szolgáltató."
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25. §",
+      "content": "25. § A szolgáltató kockázatérzékenységi megközelítés alapján az alábbiak közül legalább egy kontrollmechanizmust vagy más hasonló intézkedést alkalmaz az ellenőrzési folyamat megbízhatóságának fokozása érdekében: a) az első kifizetésnek az ügyfél nevére szóló (kizárólagos vagy közös tulajdonú), az Európai Unió területén belül vagy olyan harmadik országban működő szabályozott hitel- vagy pénzintézetnél vezetett számlára történő teljesítése, amely ország a pénzmosás és a terrorizmusfinanszírozás elleni küzdelem tekintetében legalább a pénzügyi rendszerek pénzmosás vagy terrorizmusfinanszírozás céljára való felhasználásának megelőzéséről, a 648/2012/EU európai parlamenti és tanácsi rendelet módosításáról, valamint a 2005/60/EK európai parlamenti és tanácsi irányelv és a 2006/70/EK bizottsági irányelv hatályon kívül helyezéséről szóló, 2015. május 20-i 2015/849/EU európai parlamenti és tanácsi irányelvben előírtaknak megfelelő vagy azoknál szigorúbb követelményeket alkalmaz; b) egyszer használatos és korlátozott időre szóló, véletlenszerűen generált azonosító kód küldése az ügyfélnek a távoli ellenőrzési folyamat során való jelenlét megerősítésére, és a kód ügyfél általi visszaküldése a szolgáltató által választott kommunikációs formában; c) biometrikus adatok gyűjtése más, független és megbízható közhiteles forrásokból gyűjtött adatokkal történő összehasonlítás céljából; d) telefonos kapcsolattartás az ügyféllel; e) közvetlen – elektronikus és postai – küldemények küldése az ügyfélnek."
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26. §",
+      "content": "26. § (1) A szolgáltató az elektronikus ügyfél-átvilágítás vagy annak egy részének kiszervezése előtt megbizonyosodik arról, hogy a) a kiszervezett tevékenységet végző fél auditált elektronikus hírközlő eszközzel összefüggő elektronikus ügyfél-átvilágítási folyamatai és eljárásai, valamint az ezzel összefüggésben gyűjtött információk és adatok elégségesek, és összhangban vannak a jogszabályokban meghatározott követelményekkel, b) a kiszervezett tevékenységet végző fél biztosítani tudja az ügyfél, illetve a szolgáltatók közötti üzleti kapcsolatok folytonosságát az olyan eseményekkel szembeni védelem érdekében, amelyek során hiányosságokra derülhet fény a kiszervezett tevékenységet végző fél által auditált elektronikus hírközlő eszköz igénybevételével végzett elektronikus ügyfél-átvilágítási folyamattal kapcsolatban, valamint c) a kiszervezett tevékenységet végző fél által működtetett auditált elektronikus hírközlő eszköz megfelel az e rendeletben meghatározott követelményeknek, és mindenkor az e rendelet szerinti érvényes vizsgálati jelentéssel rendelkezik. (2) A szolgáltató biztosítja, hogy a kiszervezés nem eredményezi az üzleti kapcsolat létesítésével kapcsolatos döntési jogkör átadását."
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27. §",
+      "content": "27. § (1) A szolgáltató az elektronikus ügyfél-átvilágítási folyamat vagy annak egy részének kiszervezése előtt és a kiszervezés során kockázatérzékenységi megközelítés alapján a) rendszeres jelentéstételi kötelezettség előírásával, folyamatos nyomon követéssel, helyszíni szemlével, illetve mintavételes vizsgálat útján történő ellenőrzéssel biztosítja, hogy a kiszervezett tevékenységet végző fél a kiszervezési megállapodással összhangban ténylegesen végrehajtsa a szolgáltató elektronikus ügyfél-átvilágításra vonatkozó belső szabályait, és azoknak megfelelően járjon el, b) a személyzet képzésével, a technológiai alkalmasságával és az adatirányítással összefüggő értékeléseket végez annak biztosítása érdekében, hogy a kiszervezett tevékenységet végző fél megfelelő személyi és tárgyi feltételekkel rendelkezzen az elektronikus ügyfél-átvilágítási folyamat, részfolyamat elvégzésére, valamint c) biztosítja, hogy a kiszervezett tevékenységet végző fél előzetesen tájékoztassa a szolgáltatót az elektronikus ügyfél-átvilágítási folyamattal kapcsolatban felmerült bármely módosítási javaslatról. (2) A szolgáltató gondoskodik arról, hogy a kiszervezési megállapodás tartalmazza az érintetti joggyakorlással kapcsolatos adatvédelmi kérelmek teljesítésének rendjét."
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28. §",
+      "content": "28. § Amennyiben a kiszervezett tevékenységet végző fél az elektronikus ügyfél-átvilágítási folyamat során az ügyfélre vonatkozó adatokat – többek között kép- és hangfelvételeket, továbbá dokumentumokat – tárol, a szolgáltató biztosítja, hogy a) a kiszervezett tevékenységet végző fél kizárólag a szükséges ügyfél adatokat gyűjtse és tárolja, a Pmt. 56–58. §-ában meghatározott adatmegőrzési időtartamnak megfelelően, b) az adatokhoz való hozzáférés szigorúan korlátozott és nyilvántartott legyen, valamint c) a kiszervezett tevékenységet végző fél megfelelő biztonsági intézkedéseket hajtson végre a tárolt adatok védelmének biztosítása érdekében."
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29. §",
+      "content": "29. § (1) A szolgáltató a közvetett elektronikus ügyfél-átvilágítást olyan eszköz útján végzi, amely képes a) megállapítani, hogy az átvilágítás alanyaként a távoli helyszínen megjelenő ügyfél valós, élő személy, az auditált elektronikus hírközlő eszközt valós időben személyesen használja, és az élő kép nem manipulált, valamint b) az ügyfélről az ügyfél-átvilágítás során készített fényképet és az átvilágításhoz felhasznált okiratban szereplő képmást összehasonlítani olyan módon, hogy az alapján kétséget kizáróan megállapítható, hogy a személyazonosság igazolására alkalmas hatósági igazolványban szereplő személy azonos a fényképfelvételen szereplő személlyel. (2) A szolgáltató közvetett elektronikus ügyfél-átvilágítás alkalmazása esetében az auditált elektronikus hírközlő eszköz vonatkozásában biztosítja az ügyfél-átvilágításra vonatkozó feltételeket, ha a) az ügyfél a közvetett elektronikus ügyfél-átvilágítás feltételeit részletesen megismerte, és ahhoz kifejezetten hozzájárult, b) erős ügyfél-hitelesítést alkalmaz, c) a képátvitelt lehetővé tévő elektronikus hírközlő eszköz képfelbontása és a kép megvilágítása alkalmas az ügyfél nemének, korának, arcjellemzőinek felismerésére és az ügyfél által bemutatott fényképes azonosító okmánnyal való összevetésre, a bemutatott személyazonosság igazolására alkalmas hatósági igazolvány biztonsági elemeinek azonosítására, valamint d) az ügyfél-átvilágítási folyamat szabályozott és a szolgáltató belső szabályzatában meghatározott módon folyamatosan ellenőrzött."
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30. §",
+      "content": "30. § (1) A szolgáltató a közvetett elektronikus ügyfél-átvilágítás során a szolgáltató és az ügyfél között létrejött teljes munkamenetet, az ügyfél közvetett elektronikus ügyfél-átvilágítással kapcsolatos részletes tájékoztatását és az ügyfélnek a közvetett elektronikus ügyfél-átvilágításhoz történő kifejezett hozzájárulását visszakereshető módon rögzíti. (2) A közvetett elektronikus ügyfél-átvilágítás érdekében a szolgáltató a) gondoskodik arról, hogy olyan felvétel készüljön az ügyfélről, amelyen arcképe felismerhető és rögzíthető, b) meggyőződik arról, hogy az ügyfél valós, élő személy, az auditált elektronikus hírközlő eszközt valós időben személyesen használja, és az élő kép nem manipulált, valamint c) olyan módon rögzíti az ügyfél-átvilágításhoz használt okiratokat, hogy az azokon található biztonsági elemek és adatsorok felismerhetők és tárolhatók legyenek. (3) A közvetett elektronikus ügyfél-átvilágítást végző szolgáltató megbizonyosodik arról, hogy a felhasznált személyazonosság igazolására alkalmas hatósági igazolvány alkalmas a közvetett elektronikus ügyfél-átvilágítás elvégzésére, így a) a személyazonosság igazolására alkalmas hatósági igazolvány egyes elemei és azok elhelyezkedése megfelel a személyazonosság igazolására alkalmas hatósági igazolványt kiállító hatóság előírásainak, valamint b) az egyes biztonsági elemek – így különösen a hologram, a kinegram vagy ezekkel megegyező más biztonsági elemek – felismerhetők és sérülésmentesek. (4) A szolgáltató megbizonyosodik arról, hogy a) az ügyfél arcképe felismerhető és azonosítható az általa bemutatott személyazonosság igazolására alkalmas hatósági igazolványon látható arcképpel, valamint b) a Pmt. által előírt azonosítási adatok teljeskörűen beszerzésre kerültek, és a személyazonosság igazolására alkalmas hatósági igazolványokon megtalálható adatok logikailag megfeleltethetők az ügyfélről a szolgáltatónál rendelkezésre álló adatokkal."
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31. §",
+      "content": "31. § (1) A szolgáltató a közvetett elektronikus ügyfél-átvilágítási eljárás során az ügyfélről rögzített fényképet és a személyazonosság igazolására alkalmas hatósági igazolványban szereplő képmást az auditált elektronikus hírközlő eszköz segítségével összehasonlítja. (2) A Pmt. által előírt, az ügyfél egyedi kockázatbesorolása alapján elvégzett valamennyi ügyfél-átvilágítási intézkedés eredményének ismeretében a szolgáltató a rögzítést követő 2 banki napon belül értesítést küld az ügyfélnek az ügyfél-átvilágítás eredményéről."
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32. §",
+      "content": "32. § (1) A szolgáltató nem hajtja végre a közvetett elektronikus ügyfél-átvilágítást, ha a) az ügyfél az ügyfél-átvilágítás során visszavonja az adatrögzítéshez vagy a közvetett elektronikus ügyfél-átvilágítás elvégzéséhez adott hozzájárulását, b) az ügyfél által bemutatott személyazonosság igazolására alkalmas hatósági igazolvány fizikai és adattartalmi követelményei nem felelnek meg a 30. § (3) bekezdésében foglalt feltételeknek, c) az ügyfél által bemutatott személyazonosság igazolására alkalmas hatósági igazolvány vizuális azonosításának feltételei nem adottak, d) a szolgáltató nem tudja elkészíteni a képfelvételt, vagy nem tudja rögzíteni a 30. § (1) bekezdésében meghatározott munkamenetet, e) az ügyfél-átvilágítás során ellentmondás vagy bizonytalanság lép fel, vagy f) az azonosítási folyamat nem folytatható, mert műszaki hiányosságokat vagy váratlan csatlakozási fennakadásokat észlelnek. (2) A szolgáltató az ügyfelet haladéktalanul személyes megjelenés mellett világítja át, vagy közvetlen elektronikus ügyfél-átvilágítást végez, ha az ügyfél tevékenysége vonatkozásában felmerül a pénzmosás vagy terrorizmusfinanszírozás kockázata és az ügyfél együttműködik a megváltozott módon történő ügyfél-átvilágítás végrehajtásában, és ezáltal a szolgáltató a felfedés tilalmát nem sérti meg."
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33. §",
+      "content": "33. § (1) A szolgáltató a közvetett elektronikus ügyfél-átvilágítást a) Központi Azonosítási Ügynök (a továbbiakban: KAÜ szolgáltatás) igénybevételével, b) elektronikus tárolóelemet tartalmazó, személyazonosság igazolására alkalmas hatósági igazolványból az ügyfél azonosításra alkalmas, hiteles természetes azonosító adatok kiolvasásával, c) a digitális államról és a digitális szolgáltatások nyújtásának egyes szabályairól szóló 2023. évi CIII. törvény (a továbbiakban: Dáptv.) 46. § (1) bekezdés a) pontja szerinti eAzonosítás igénybevételével vagy d) egyéb módon, a 38. § szerinti korlátozásra figyelemmel végzi el. (2) A szolgáltató az (1) bekezdés c) pontja szerinti eAzonosítással végzi a közvetett elektronikus ügyfél-átvilágítást, ha az ügyfél a Dáptv. szerinti elektronikus azonosítási szolgáltatással azonosítja magát."
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34. §",
+      "content": "34. § A 33. § (1) bekezdés a) pontjában foglalt elektronikus azonosítási szolgáltatás megvalósítása érdekében a szolgáltató a) az auditált elektronikus hírközlő eszköz útján csatlakozik a KAÜ szolgáltatáshoz, és annak segítségével biztosítja, hogy az ügyfél-átvilágítás során az ügyfél azonosítsa magát, és b) az általa biztosított auditált elektronikus hírközlő eszköz útján a KAÜ-től visszakapott információk alapján ellenőrzi az ügyfél személyazonosságát."
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35. §",
+      "content": "35. § (1) A szolgáltató a 33. § (1) bekezdés b) pontja szerint végzi a közvetett elektronikus ügyfél-átvilágítást, ha a) az ügyfél által bemutatott, elektronikus tárolóelemet tartalmazó, személyazonosság igazolására alkalmas hatósági igazolványból a szolgáltató az ügyfél személyes azonosításra alkalmas, hiteles természetes személyazonosító adatait és a személyazonosság igazolására alkalmas hatósági igazolványt kiállító hatóság által az ügyfélről készített fényképfelvételt az auditált elektronikus hírközlő eszköz útján elektronikus úton kiolvassa, és összeveti az ügyfél által megadott, illetve az azonosítás során felvett adatokkal és készített fényképfelvétellel, és b) az adatok és fényképfelvételek auditált elektronikus hírközlő eszközzel történő összehasonlítása során kétséget kizáróan megállapítható, hogy a személyazonosság igazolására alkalmas hatósági igazolványban szereplő személy azonos az auditált elektronikus hírközlő eszközzel az átvilágítás során készített fényképfelvételen szereplő személlyel, valamint hogy a személyazonosság igazolására alkalmas hatósági igazolványt arra hatáskörrel rendelkező hatóság állította ki, és az elektronikusan tárolt és kiolvasott adatok változatlanok és hitelesek. (2) A szolgáltató a 32. §-ban meghatározott eseteken túlmenően nem hajtja végre az ügyfél-átvilágítást akkor sem, ha az átvilágítás során nem sikerül az elektronikus személyazonosító igazolvány elektronikus tároló eleméből minden vonatkozó adatot kiolvasni, kétség merül fel a személyazonosság igazolására alkalmas hatósági igazolvány vagy a személyazonosság igazolására alkalmas hatósági igazolványból kiolvasott adatok hitelessége vonatkozásában, vagy a kiolvasott adatok alapján a szolgáltató nem képes az ügyfelet kétséget kizáró módon azonosítani."
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36. §",
+      "content": "36. § A 33. § (1) bekezdés c) pontjában meghatározott közvetett elektronikus ügyfél-átvilágítás alkalmazása esetében a Dáptv. és a Dáptv.-ben foglalt felhatalmazás alapján kiadott jogszabályban meghatározott követelmények az irányadók."
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37. §",
+      "content": "37. § A szolgáltató a 34. és 35. §-ban meghatározott esetben az ügyfél által az auditált elektronikus hírközlő eszköz használatával bemutatott személyazonosság igazolására alkalmas hatósági igazolvány érvényességét ellenőrzi, ideértve különösen, hogy a személyazonosság igazolására alkalmas hatósági igazolvány nem érvénytelen-e, nem került-e visszavonásra vagy érvénytelenítésre, valamint nem jelentették-e elvesztését, eltulajdonítását, megsemmisülését, megrongálódását, megtalálását, illetve nem adták-e le az illetékes hatóság számára."
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38. §",
+      "content": "38. § A szolgáltató a 33. § (1) bekezdés d) pontja alapján közvetett elektronikus ügyfél-átvilágítást akkor végezhet, ha az ügyfél tevékenységét az üzleti kapcsolat létrehozásának időpontjától számítva egy évig megerősített eljárásban nyomon követi."
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39. §",
+      "content": "39. § (1) A közvetlen elektronikus ügyfél-átvilágítás során a szolgáltató a 29. § (1) bekezdésében meghatározottaknak megfelelő eszköz útján összeveti az ügyfélről készített fényképet és az átvilágításhoz felhasznált személyazonosság igazolására alkalmas hatósági igazolványban szereplő képmást. Az ügyfél-átvilágítás megfelelő, ha kétséget kizáróan megállapítható, hogy a személyazonosság igazolására alkalmas hatósági igazolványban szereplő személy azonos a fénykép- vagy videófelvételen szereplő személlyel. (2) A szolgáltató a közvetlen elektronikus ügyfél-átvilágítást egy, a célnak megfelelő helyiségben végzi. (3) A közvetlen elektronikus ügyfél-átvilágítást csak a szolgáltató olyan vezetője és foglalkoztatottja végezheti, aki a szolgáltató által előzőleg e tevékenység ellátására szervezett képzésen részt vett, a képzés során megfelelő ismereteket szerzett az auditált elektronikus hírközlő eszköz útján végzett ügyfél-átvilágításhoz kapcsolódó megtévesztési technikák alkalmazásának felismerésére és megelőzésére, és aki a képzést követően eredményes vizsgát tett. (4) Az ügyfél és a szolgáltató foglalkoztatottja közötti összejátszás elkerülése érdekében a szolgáltató biztosítja a közvetlen elektronikus ügyfél-átvilágítások vonatkozásában a részt vevő foglalkoztatott véletlenszerű beosztását."
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40. §",
+      "content": "40. § (1) A szolgáltató kérdés-felelet formájú útmutatót készít, amely meghatározza a közvetlen elektronikus ügyfél-átvilágítás egymást követő lépéseit, valamint a foglalkoztatottól elvárt intézkedéseket. Az útmutató iránymutatást tartalmaz a közvetlen elektronikus ügyfél-átvilágítás során gyanús viselkedést jelző pszichológiai tényezők és egyéb jellemzők megfigyelésére és azonosítására vonatkozóan. (2) A szolgáltató az auditált elektronikus hírközlő eszköz vonatkozásában biztosítja az ügyfél átvilágítására vonatkozó feltételeket, amennyiben a) az ügyfél a közvetlen elektronikus ügyfél-átvilágítás feltételeit részletesen megismerte, és ahhoz kifejezetten hozzájárult, az adatkezelésről tájékoztatást kapott, és azt tudomásul vette, b) a valós idejű kép- és hangátvitelt lehetővé tévő elektronikus hírközlő eszköz képfelbontása és a kép megvilágítása alkalmas az ügyfél nemének, korának, arcjellemzőinek felismerésére, és c) az ügyfél-átvilágítási folyamat szabályozott és folyamatosan ellenőrzött."
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41. §",
+      "content": "41. § (1) A szolgáltató a közvetlen elektronikus ügyfél-átvilágítás során a szolgáltató és az ügyfél között létrejött teljes kommunikációt, az ügyfél közvetlen elektronikus ügyfél-átvilágítással kapcsolatos részletes tájékoztatását és az ügyfél ehhez történő kifejezett hozzájárulását visszakereshető módon kép- és hangfelvételen rögzíti. (2) A közvetlen elektronikus ügyfél-átvilágítás során a szolgáltató biztosítja, hogy az ügyfél a) úgy nézzen bele a kamerába, hogy arcképe felismerhető és rögzíthető legyen, b) érthető módon közölje a közvetlen elektronikus ügyfél-átvilágításhoz használt személyazonosság igazolására alkalmas hatósági igazolvány azonosítóját, és c) úgy mozgassa a közvetlen elektronikus ügyfél-átvilágításhoz használt személyazonosság igazolására alkalmas hatósági igazolványát, hogy az azon található biztonsági elemek és adatsorok felismerhetők és rögzíthetők legyenek. (3) A közvetlen elektronikus ügyfél-átvilágítást végző szolgáltató köteles megbizonyosodni arról, hogy a közvetlen elektronikus ügyfél-átvilágításhoz használt személyazonosság igazolására alkalmas hatósági igazolvány alkalmas a közvetlen elektronikus ügyfél-átvilágítás elvégzésére, így a) a személyazonosság igazolására alkalmas hatósági igazolvány egyes elemei és azok elhelyezkedése megfelel a személyazonosság igazolására alkalmas hatósági igazolványt kiállító hatóság előírásainak, illetve a vonatkozó jogszabályi előírásoknak, b) az egyes biztonsági elemek – így különösen a hologram, a kinegram vagy ezekkel megegyező más biztonsági elemek – felismerhetők és sérülésmentesek, és c) a személyazonosság igazolására alkalmas hatósági igazolvány okmányazonosítója megegyezik az ügyfél által közölt okmányazonosítóval, felismerhető és sérülésmentes. (4) A közvetlen elektronikus ügyfél-átvilágítást végző szolgáltató megbizonyosodik arról, hogy a) az ügyfél arcképe felismerhető és azonosítható az általa bemutatott személyazonosság igazolására alkalmas hatósági igazolványon látható arckép alapján, és b) a személyazonosság igazolására alkalmas hatósági igazolványban megtalálható adatok logikailag megfeleltethetők az ügyfélről a szolgáltatónál rendelkezésre álló adatokkal. (5) A szolgáltató az ügyfél által bemutatott személyazonosság igazolására alkalmas hatósági igazolvány érvényességét ellenőrzi, ideértve különösen, hogy a személyazonosság igazolására alkalmas hatósági igazolvány nem érvénytelen-e, nem került-e visszavonásra vagy érvénytelenítésre, valamint nem jelentették-e elvesztését, eltulajdonítását, megsemmisülését, megrongálódását, megtalálását, illetve nem adták-e le az illetékes hatóság számára. (6) A szolgáltató egy alfanumerikus kódból álló, központilag, véletlenszerűen generált azonosítási kódot küld az ügyfélnek a szolgáltató választása szerint az ügyfél azonosítására alkalmas e-mail-címre vagy SMS-ben mobiltelefonszámra, amely kódot az ügyfél a közvetlen elektronikus ügyfél-átvilágítás befejezéséig a szolgáltató által választott kommunikációs formában küldi vissza a szolgáltatónak."
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42. §",
+      "content": "42. § A szolgáltató megszakítja a közvetlen elektronikus ügyfél-átvilágítást, ha a) az ügyfél a közvetlen elektronikus ügyfél-átvilágítás során visszavonja az adatrögzítéshez adott hozzájárulását, b) az ügyfél által bemutatott személyazonosság igazolására alkalmas hatósági igazolvány fizikai és adattartalmi követelményei nem felelnek meg a 41. § (3) bekezdésében előírt feltételeknek, c) az ügyfél által bemutatott személyazonosság igazolására alkalmas hatósági igazolvány vizuális azonosításának feltételei nem adottak, d) a szolgáltató nem tudja elkészíteni a hang- és képfelvételt, e) az ügyfél nem, nem teljes egészében vagy hibásan küldi vissza az azonosítási kódot, f) az ügyfél nem tesz nyilatkozatot, vagy a szolgáltató számára észlelhetően befolyás alatt tesz nyilatkozatot, vagy g) az ügyfél-átvilágítás során ellentmondás vagy bizonytalanság lép fel."
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43. §",
+      "content": "43. § (1) Ez a rendelet – a (2) bekezdésben foglalt kivétellel – 2024. július 1-jén lép hatályba. (2) A 3. alcím 2025. január 1-jén lép hatályba."
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44. §",
+      "content": "44. § (1) A szolgáltató felméri, hogy e rendelet hatálybalépésekor már alkalmazott auditált elektronikus hírközlő eszköze milyen mértékben felel meg az e rendeletben foglaltaknak, és a teljes körű megfelelésig intézkedéseket alkalmaz az auditált elektronikus hírközlő eszköz igénybevételéből eredő releváns kockázatok csökkentése érdekében. (2) A szolgáltató az (1) bekezdés szerinti értékelés során figyelembe veszi különösen azt, hogy az általa alkalmazott auditált elektronikus hírközlő eszköz kiterjed-e az alábbi kockázatok kezelésére: a) a hitelesítéssel járó kockázatok és elektronikus ügyfél-átvilágítási szabályzatban meghatározott egyedi kockázatcsökkentő intézkedések, különös tekintettel a személyazonossággal való visszaéléssel kapcsolatos kockázatokra, b) annak a kockázata, hogy az ügyfél nem azonos azzal a személlyel, akinek kiadja magát, valamint c) az elveszett, ellopott, felfüggesztett, visszavont vagy lejárt személyazonosító okmányok használatának kockázata, beleértve adott esetben a személyazonossággal való visszaélés felderítésére és megelőzésére szolgáló eszközöket is. (3) Az e rendelet hatálybalépésének napján már alkalmazott auditált elektronikus hírközlő eszköz tekintetében a szolgáltató 2024. október 31-ig köteles az (1) bekezdés szerinti felmérést elvégezni, és legkésőbb 2025. május 1-jéig megfelelni e rendelet előírásainak."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "§ (1) E rendelet alkalmazásában 1. auditált elektronikus hírközlő eszköz",
+      "definition": "az ügyfél távoli, elektronikus adatátviteli csatornán történő átvilágítására, az ügyfél nyilatkozatainak megtételére, az ügyfél által tett nyilatkozat értelmezésére, biztonságos tárolására, a tárolt adatok visszakeresésére és ellenőrzésére alkalmas auditált elektronikus rendszer",
+      "source_provision": "s3"
+    },
+    {
+      "term": "biometrikus adatok",
+      "definition": "a természetes személyeknek a személyes adatok kezelése tekintetében történő védelméről és az ilyen adatok szabad áramlásáról, valamint a 95/46/EK irányelv hatályon kívül helyezéséről szóló, 2016. április 27-i (EU) 2016/679 európai parlamenti és tanácsi rendelet 4. cikk 14. pontja szerinti fogalom",
+      "source_provision": "s3"
+    },
+    {
+      "term": "elektronikus ügyfélazonosító és nyilatkozattételi rendszer",
+      "definition": "olyan személyre szabott elektronikus eljárást biztosító rendszer, amely a nyilatkozattevő személyének és a nyilatkozat megtétele időpontjának egyértelmű azonosítására és a jognyilatkozat tartalmának változatlan visszaidézésére alkalmas formában teszi lehetővé a jognyilatkozat megtételét",
+      "source_provision": "s3"
+    },
+    {
+      "term": "elektronikus ügyfél-átvilágítás",
+      "definition": "a szolgáltatótól fizikailag távol lévő ügyfél vonatkozásában auditált elektronikus hírközlő eszközzel végzett ügyfél-átvilágítási intézkedés",
+      "source_provision": "s3"
+    },
+    {
+      "term": "erős ügyfél-hitelesítés",
+      "definition": "hitelesítés legalább két olyan a) ismeret, azaz csak az ügyfél által ismert információ, b) birtok, azaz csak az ügyfél által birtokolt dolog és c) biológiai tulajdonság, azaz az ügyfél jellemzője kategóriába sorolható elem felhasználásával, amely kategóriák egymástól függetlenek annyiban, hogy az egyik feltörése nem befolyásolja a többi megbízhatóságát, és az eljárás kialakítása révén biztosított az azonosítási adatok bizalmassága",
+      "source_provision": "s3"
+    },
+    {
+      "term": "megerősített eljárás",
+      "definition": "az ügyfélben, a termékben, a szolgáltatásban, az ügyletben, az alkalmazott eszközben vagy a földrajzi kitettségben rejlő kockázat kezelésére szolgáló kockázatalapú intézkedések együttesét magába foglaló fokozott monitoring",
+      "source_provision": "s3"
+    },
+    {
+      "term": "pénzmosási és terrorizmusfinanszírozási kockázat",
+      "definition": "a pénzmosás vagy a terrorizmus finanszírozása felmerülésének valószínűsége és hatása",
+      "source_provision": "s3"
+    }
+  ]
+}

@@ -1,0 +1,1505 @@
+{
+  "id": "hu-law-2016-11-b0-6y",
+  "type": "statute",
+  "title": "11/2016. (VI. 17.) NKFIH utasítás az eszközök és források leltározási és leltárkészítési szabályzatáról",
+  "status": "repealed",
+  "in_force_date": "2016-06-18",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2016-11-B0-6Y",
+  "description": "az eszközök és források leltározási és leltárkészítési szabályzatáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A számvitelről szóló 2000. évi C. törvény 14. § (5) bekezdés a) pontjában, az államháztartásról szóló 2011. évi CXCV. törvény 10. § (5) bekezdésében, az államháztartásról szóló törvény végrehajtásáról szóló 368/2011. (XII. 31.) Korm. rendelet 13. § (2) bekezdés a) pontjában foglaltak alapján, tekintettel a jogalkotásról szóló 2010. évi CXXX. törvény 23. § (4) bekezdés c) pontjára és a tudományos kutatásról, fejlesztésről és innovációról szóló 2014. évi LXXVI. törvény 6. §-ára és 8. § (1) bekezdésére a következő utasítást adom ki:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "1. A szabályzat alkalmazási köre"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "1. A jelen utasítást (a továbbiakban: szabályzat) a Nemzeti Kutatási, Fejlesztési és Innovációs Hivatal hivatali szervezete (a továbbiakban: NKFI Hivatal) által kezelt eszközökre és forrásokra kell alkalmazni."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "2. A szabályzat rendelkezései az NKFI Hivatal valamennyi szervezeti egységére, illetve az NKFI Hivatal állományába tartozó személyekre terjednek ki. A szabályzatban foglalt feladatok és kötelezettségek teljesítéséért – amennyiben a szabályzat másként nem rendelkezik – az NKFI Hivatal Költségvetési Főosztálya (a továbbiakban: Költségvetési Főosztály) vagy annak a szabályzatban kijelölt szervezeti egysége felelős."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "2. Értelmező rendelkezések"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "3. A szabályzat alkalmazásában:"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "a) egyeztetés: az a leltározási módszer, amikor egyeztető levéllel vagy személyes egyeztetéssel kerül megállapításra az eszköz, forrás mennyisége (általában a követelések és kötelezettségek leltározására szolgál), másrészt a főkönyvi számlák egyeztetését jelenti az analitikus nyilvántartásokkal, illetve a főkönyvi könyvelés okmányaival;"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "b) belső egyeztetés: az NKFI Hivatalnál már rendelkezésre álló, a másik fél által korábban megküldött szerződések, megállapodások, számlák, átadás-átvételt igazoló okmányok, pénzforgalmi kivonatok, értesítések, piaci értéket igazoló dokumentumok alapján történő egyeztetés, mely során a főkönyvi számlák egyeztetését jelenti az analitikus nyilvántartásokkal, illetve a főkönyvi könyvelés okmányaival;"
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "c) leltár: olyan tételes kimutatás, amely a könyvviteli mérlegben kimutatott eszközök és források, valamint kötelezettségvállalások valós állományát egy meghatározott időpontra vonatkozóan mennyiségben és értékben is tartalmazza;"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "d) leltárellenőr: a leltározásban részt vevőktől független, a leltározással kapcsolatos tevékenységében a leltározás vezetőjének irányítása alatt álló személy, aki a leltározás teljes folyamatában és a leltár befejezése után ellenőrzi a leltárfelvétel teljes körűségét, illetve a mennyiségi felvételek helyességét, a leltári tárgyak azonosításának szakszerűségét, a leltárak alaki és tartalmi követelményeinek betartását;"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "e) leltárfelelős: az a leltári körzetenként kijelölt kormánytisztviselő vagy kormányzati ügykezelő, akinek feladata az eszközmozgások bizonylatainak kezelése, közreműködés a leltározás előkészítésében, lebonyolításában, a leltári eltérések rendezésében, a felesleges eszközök feltárásában, a használatból kivont eszközök elkülönítésében, a szabályzatban meghatározott feladatok végrehajtásában;"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "f) leltárjegy: az analitikus nyilvántartás tényadatainak aktualizálását biztosító dokumentum, Forrás KGR rendszer által előállított szigorúan sorszámozott bizonylat;"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "g) leltárkörzet: a Szervezeti és Működési Szabályzatban meghatározott szervezeti egységek, valamint az elhelyezési körülmények figyelembevételével kialakított helyiségek csoportja;"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "h) leltárkülönbözet: a leltározás eredményeként megállapított mennyiség és a nyilvántartásokban szereplő mennyiség közötti eltérés, amely lehet hiány vagy többlet;"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "i) leltározás: olyan tevékenység, amellyel az NKFI Hivatal a vagyonkezelésében lévő vagy tartós használatba adott eszközöket és azok forrásait, valamint kötelezettségvállalásait számba veszi, megállapítja azoknak a valóságban meglévő állományát; a leltározási tevékenység kiterjed az NKFI Hivatal birtokában lévő idegen eszközökre is;"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "j) leltározási ütemterv: olyan feladatterv, amelynek összeállításáról a Költségvetési Főosztály vezetője (a továbbiakban: gazdasági vezető) gondoskodik a leltározást megelőzően, mely kiterjed az összes eszköz- és forráscsoport leltározási feladataira, tartalmazva a gazdasági vezető javaslatát a leltári körzetekre, a leltárfelelősök személyére, a leltározók és a leltárellenőrök kijelölésére;"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "k) leltározó: az a személy, aki a leltározást ténylegesen lebonyolítja;"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "l) mennyiségi felvétel: olyan leltározási módszer, amelynél az eszközök számbavétele tényleges számlálással, méréssel történik. A mennyiségi felvétel történhet a nyilvántartással való összehasonlítással vagy a nyilvántartástól függetlenül;"
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "m) speciális egyeztetés: az a leltározási módszer, amikor a bizonylatok adatait kell összehasonlítani a nyilvántartás alapadataival;"
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "n) szobaleltár: fizikailag elhatárolható és azonosítható területhez tartozó tárgyak felsorolása, jegyzéke."
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "3. A leltározásra vonatkozó előírások"
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "4. Az NKFI Hivatal könyveinek év végi zárásához, az éves költségvetési beszámoló elkészítéséhez, a mérleg tételeinek alátámasztásához olyan leltárt kell összeállítani és megőrizni, amely tételesen, ellenőrizhető módon tartalmazza a mérlegben szereplő, a mérleg fordulónapján meglévő eszközöket és forrásokat mennyiségben és értékben. A leltár összeállításáért a Költségvetési Főosztály Gazdasági Osztálya felelős."
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "5. A mérleg fordulónapjára a költségvetési számvitelben kimutatott kötelezettségvállalásokat is leltározni kell."
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "6. A leltározást a számvitelről szóló 2000. évi C. törvény (a továbbiakban: Szt.) 69. §-ában foglaltak alapján kell végrehajtani azzal, hogy"
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "a) a vagyonkezelésbe adott eszközöket a működtető vagy a vagyonkezelő által elkészített és hitelesített leltárral kell alátámasztani;"
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "b) a vagyonkezelői szerződésben rögzíteni kell, hogy a működtető vagy a vagyonkezelő köteles a leltározást külön térítés és díjazás nélkül évente elvégezni;"
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "c) a használt, de a mérlegben értékkel nem szereplő immateriális javakat, tárgyi eszközöket, készleteket a szabályzatban meghatározott módon kell leltározni."
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "7. Amennyiben az NKFI Hivatal megszűnik, kötelező a megszűnés fordulónapján teljes körű leltározást lefolytatni, amely magában foglalja a mennyiségi felvételt, az egyeztetést és a mérlegben értékkel nem szereplő tételek mennyiségi felvételét."
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "8. A mérleg teljessége érdekében a leltár tételesen tartalmazza az NKFI Hivatal mérlegében kimutatandó minden eszközét és ezek forrásait, függetlenül attól, hogy azok a leltározás időpontjában az NKFI Hivatal területén vannak-e vagy sem."
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "9. Leltárnak kell tekinteni a mennyiségi felvételt nem igénylő vagyonrészek nyilvántartását tartalmazó, egyeztetéssel ellenőrzött és a főkönyvi könyveléssel egyező analitikus nyilvántartásokból készített kivonatokat is."
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "10. A leltározás során az NKFI Hivatal tárgyieszköz-nyilvántartásával megbízott kormánytisztviselője nem lehet leltárfelelős, leltározó és leltárellenőr."
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "11. A leltározási tevékenységhez tartozik:"
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "a) a leltár előkészítése, megszervezése;"
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "b) az NKFI Hivatal tulajdonában (kezelésében) lévő eszköz- és forrásállomány tényleges mennyiségi, valamint értékben történő megállapítása;"
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "c) a könyv szerinti és a tényleges állomány közötti különbözet (a hiányok és többletek) megállapítása és rendezése (elszámolása);"
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "d) az esetlegesen úton lévő készletek jegyzékbe vétele;"
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "e) az adósok és hitelezők, valamint a munkavállalók tartozásainak és követeléseinek egyeztetett és tisztázott, az év végi fordulónappal készített leltára;"
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "f) a szabályszerűen végrehajtott leltározás alapján helyesbített és ellenőrzött, a főkönyvi könyveléssel egyező analitikus nyilvántartások."
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "4. A leltározásra vonatkozó elvek és általános követelmények"
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "12. A leltározás során biztosítani kell, hogy valamennyi vagyontárgy felvételre kerüljön, és ennek eredményeként a mérlegvalódiság érvényesüljön."
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "13. A leltárnak lehetővé kell tenni:"
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "a) az éves beszámoló tételeinek alátámasztását, a mérleg valódiságának biztosítását;"
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "b) a főkönyvi könyvelés és az analitikus nyilvántartások pontosságának, egyezőségének ellenőrzését, a bizonylati fegyelem megszilárdításának elősegítését;"
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "c) az eltérések kimutatását, a nyilvántartások tényleges vagyoni helyzetnek megfelelő rendezését;"
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "d) a vagyon védelmét, az anyagi felelősök elszámoltatását."
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "14. A leltározás időpontjában az NKFI Hivatal területén lévő, de vagyonkezelésébe nem tartozó eszközöket egyéb rendelkezés hiányában a leltárban érték nélkül kell kimutatni, kivéve a Nemzeti Infokommunikációs Szolgáltatató Zrt. (a továbbiakban: NISZ Zrt.) vagyonkezelésében levő eszközöket. Ezek leltárát, eltérő megállapodás hiányában, a leltározás befejezését követő 30 napon belül a tulajdonosoknak meg kell küldeni."
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "15. Amennyiben a kijelölt leltározási körzetben nem található leltározandó eszköz, akkor ezt a teljesség elvének érvényesítése érdekében jegyzőkönyvben rögzíteni kell."
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "16. A valódiság biztosítása céljából a leltárnak az eszközök leltározáskor felvett tényleges mennyiségét és nyilvántartási értékét kell tartalmaznia."
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "17. Mindazon eszközöket, amelyeket méréssel, számlálással, számítással vagy egyéb módon számba lehet venni, tényleges mennyiségi felvétellel kell leltározni. A tényleges felvétellel számba nem vehető eszközöket és forrásokat a hitelt érdemlő okmányokkal egyeztetett analitikus nyilvántartások és főkönyvi számlák alapján kell leltározni. A leltár valódisága előfeltétele a mérleg valódiságának."
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "18. A világosság elve alapján a leltárnak az eszközöket leltározási helyek szerint, ezen belül fajta, típus, minőség szerinti részletességgel kell tartalmaznia a helyes számbavétel és értékelés lehetőségének biztosítása érdekében. Az egy helyen tárolt és összecserélhető tételeket – eltérő belső szabályozás hiányában – nem szabad összevonni. Nem szabad összevonni továbbá az ugyanazon adósnak vagy hitelezőnek több számlából adódó, azonos jellegű tartozásait vagy követeléseit, hanem azokat tételesen, bruttó módon kell a leltárban kimutatni."
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "19. Az egyedi értékelés elvéből következik, hogy az eszközöket és a kötelezettségeket a könyvvezetés- és a költségvetési beszámoló készítés során egyedileg kell rögzíteni és értékelni. Az Szt. alapján az eszközöket és a kötelezettségeket leltározással, egyeztetéssel ellenőrizni és egyedenként értékelni kell. A leltárnak az eszközök és források mennyisége, fajtája mellett tartalmaznia kell az egységárat (ahol ez releváns) és az (össz)értéket is, az Szt.-ben előírt módon."
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "20. A leltár áttekinthetősége érdekében a leltárral kapcsolatos okmányokon a javítást csak a hibás bejegyzés áthúzásával és a helyes adat fölé vagy alá írásával szabad elvégezni úgy, hogy a javítást végző személy „javította” jelzéssel, dátummal és kézjegyével látja el a leltári dokumentumot."
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "21. A leltár hitelessége érdekében biztosítani kell, hogy a bizonylatok – így különösen a leltárjegyek –, továbbá az egyéb dokumentációk – így különösen a jegyzőkönyvek és a kimutatások – az előírásoknak megfelelően, egyértelműen és hiánytalanul legyenek kitöltve, valamint a szükséges záradékok és aláírások (leltározás vezetője, leltározók, leltárellenőrök, számadásra kötelezett személy aláírása) a dokumentumokon rajta legyenek."
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "5. A leltározás felelőseinek, lebonyolítóinak és a leltározás ellenőrének feladatai, felelőssége"
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "22. Az NKFI Hivatal elnökének feladatai:"
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "a) a Nemzeti Kutatási, Fejlesztési és Innovációs Hivatal Szervezeti és Működési Szabályzatáról szóló 2/2015. (I. 16.) MvM utasítás 1. melléklet 33. § (1) bekezdés c) pontjában foglaltak szerinti elnöki rendelkezésként jóváhagyja a leltározási ütemtervet és annak módosításait;"
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "b) megbízza a leltározás vezetőjét, valamint a leltározási ütemterv szerinti leltárfelelősöket, leltározókat és leltárellenőröket;"
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "c) a leltárkiértékelést követően a gazdasági vezető javaslata alapján dönt a feltárt eltérés tárgyi eszköz nyilvántartásban és a főkönyvi könyvelésben történő átvezetéséről, valamint az esetleges kártérítési eljárás megindításáról."
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "23. Az NKFI Hivatal gazdasági vezetőjének feladata:"
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "a) legfeljebb a leltározást megelőző 30 nappal elkészíti a leltározási ütemtervet;"
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "b) gondoskodik az elnök által jóváhagyott leltározási ütemterv NKFI Hivatal belső intranetes felületén való közzétételéről;"
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "c) a leltározási ütemterv alapján gondoskodik a leltározás vezetője, a leltárfelelősök, a leltározók és a leltárellenőrök megbízóleveleinek előkészítéséről és elnöki jóváhagyásra való felterjesztéséről;"
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "d) szükség esetén előkészíti a leltározási ütemterv módosítását;"
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "e) koordinálja a leltározás megkezdését megelőző feladatok végrehajtását, jelzi az NKFI Hivatal elnöke felé a vezetői döntések szükségességét, üzemeltetési és szükség esetén informatikai kormánytisztviselő útján gondoskodik a leltározás lebonyolításához szükséges tárgyi, technikai feltételek biztosításáról;"
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "f) gondoskodik a kijelölt leltárkörzetek leltározásra történő előkészítéséről;"
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "g) a leltározás megkezdése előtt leltárértekezletet tart;"
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "h) a leltározás folyamán a leltározók és leltárellenőrök részére szakmai tájékoztatást nyújt a munkák szakszerű viteléhez;"
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "i) ellenőrzi a szabályzatban és a leltározási ütemtervben foglaltak maradéktalan betartását."
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "24. A leltározás vezetője leltározás irányításával kapcsolatban felelős:"
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "a) a jogszabályi rendelkezések betartatásáért;"
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "b) a leltározási feladat határidőre történő elvégzéséért;"
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "c) a leltár teljességéért, valódiságáért;"
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "d) a leltárbizonylatok teljeskörűségéért;"
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "e) a bizonylati rendért;"
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "f) a leltárellenőrzés végrehajtásáért;"
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "g) az értékelés helyességéért;"
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "h) a leltári többletek és hiányok kimutatásáért."
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "25. A leltárfelelős feladata:"
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "a) a gazdasági vezető iránymutatása alapján biztosítja a leltározók számára a szervezeti egységükhöz rendelt leltárkörzetekben a leltározandó eszközök hozzáférhetőségét, valamint a szervezeti egységükhöz rendelt leltárkörzetekben ellenőrzi a leltár teljeskörűségét;"
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "b) aláírásával igazolja a tárgyi eszközök (ingatlanok és kapcsolódó vagyoni értékű jogok, gépek, berendezések, felszerelések és járművek) leltárfelvételét követően a Költségvetési Főosztály Gazdasági Osztálya által megküldött – a leltározók és leltárellenőr által aláírt – leltárjegyeken a leltárfelvételt."
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "26. A leltározó feladata:"
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "a) a kijelölt leltárkörzetekben vonalkód-leolvasó eszköz alkalmazásával elvégzi a leltározandó eszközök azonosítását;"
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "b) kigenerálja és ellenőrzi a leltárjegyeket;"
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "c) ellenőrzi a leltározandó eszközök teljeskörűségét;"
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "d) elvégez minden olyan adminisztrációs munkát, amely a leltározás során, illetve annak befejezése után a leltározással kapcsolatban felmerül;"
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "e) a mennyiségileg nem számba vehető eszközöknél és forrásoknál elvégzi az egyeztetési feladatokat."
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "27. A leltárellenőr feladata:"
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "a) a leltár előkészítésének, előfeltételei biztosításának ellenőrzése;"
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "b) a leltározás előírt időbeli ütemezés szerinti megvalósításának ellenőrzése;"
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "c) a leltározás végrehajtása során ellenőrzi, hogy ne történjenek meg nem engedett eszközmozgatások;"
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "d) ellenőrzi, hogy a különböző helyeken lévő, azonos eszközök leltározása egy időben történjen;"
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "e) ellenőrzi, hogy a leltározási előírások maradéktalanul betartásra kerüljenek;"
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "f) ellenőrzi a leltározás során keletkezett dokumentumok, nyomtatványok sorszámozással történő kezelését és pontos elszámolását;"
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "g) a leltározás során észlelt, az NKFI Hivatal vagyonát veszélyeztető körülményeket haladéktalanul jelezi a leltározás vezetőjének;"
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "h) szúrópróbaszerűen ellenőrzi a leltárbizonylatok adatainak valódiságát;"
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "i) ellenőrzi a leltárbizonylatok helyes és szakszerű kitöltését;"
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "j) ellenőrzi a leltárjegyek generálását;"
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "k) az ellenőrzés tényét valamennyi ellenőrzött bizonylaton, összesítőn, kiértékelésen aláírásával igazolja."
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "6. A leltározás megkezdését megelőző feladatok"
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "28. A leltározás előtt – a feleslegessé vált vagyontárgyak hasznosítására és selejtezésére vonatkozó szabályokra tekintettel – teljes körűen le kell zárni a feleslegessé vált eszközök felülvizsgálatát, az esetlegesen felmerülő értékesítéseket, illetve a selejtezési eljárást, beleértve az eszközök elszállítását, megsemmisítését és nyilvántartásokból történő kivezetését is."
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "29. A Költségvetési Főosztály Gazdasági Osztályának fel kell mérnie a leltározással összefüggő elvégzendő feladatokat, időben gondoskodnia kell arról, hogy a szükséges létszám (leltározók) és munkaeszköz (laptop, vonalkód-leolvasó) rendelkezésre álljanak. A leltározási feladatok a kormánytisztviselő kinevezésében és munkaköri leírásában foglalt feladatok végrehajtását nem akadályozhatják. Amennyiben a leltározási feladatok akadályozzák a kormánytisztviselő alapfeladatainak végrehajtását, az érintett szervezeti egység vezetője helyette új munkatársat jelölhet a leltárellenőri feladatokra."
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "30. A leltározási ütemtervben ki kell jelölni a leltárkörzeteket, valamint a leltározásban részt vevőket (leltárfelelős, leltározó, leltárellenőr), amennyiben azok nem a Költségvetési Főosztály munkatársai, az érintett szervezeti egység vezetőjének javaslata alapján. A tárgyieszköz-nyilvántartást végző kormánytisztviselő köteles felülvizsgálni a szobaleltárakat és az évközi eszközmozgások átvezetését. Intézkedni kell, hogy a leltárfelvétel idején az eszközmozgások a lehetőségekhez képest szüneteljenek, illetve csak indokolt esetben történjenek."
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "31. A leltározás megkezdése előtt a végrehajtásba bevont személyek körében leltárértekezletet kell tartani, melynek keretében tételesen meg kell határozni a leltározás módját, ismertetni kell a leltározási szabályzatot, a leltározási ütemtervet, az elvégzendő feladatokat, valamint a kapcsolódó nyilvántartások rendelkezésre bocsátásának és alkalmazásának módját. A leltárértekezletről jegyzőkönyvet kell felvenni, megtartása után pedig a leltározásra rendelt résztvevők a jelenléti íven aláírásukkal igazolják, hogy feladataikat részletesen megismerték, és a feladatok végrehajtásához szükséges tájékoztatást megkapták. A hiányzók részére aláírással igazolt pótértekezletet kell tartani."
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "7. A leltározás időpontja, módja, a leltárak felvétele"
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "32. A leltározás végrehajtását leltárral kell alátámasztani. A költségvetési évről december 31-ei fordulónappal készített könyvviteli mérlegben kimutatott eszközöket és forrásokat – ideértve az aktív és passzív pénzügyi elszámolásokat is – minden évben leltározni kell, kivéve azon tárgyi eszközöket, amelyekről az NKFI Hivatal Gazdasági osztálya folyamatos mennyiségi nyilvántartást vezet. Ezen eszközöket december 31-i fordulónappal csak háromévenként kell leltározni. A december 31-ei időponttól eltérő – rendkívüli – leltár elrendelésére a Hivatal elnöke jogosult."
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "33. Az eszközök – kivéve az immateriális javakat és a követeléseket – leltározását mennyiségi felvétellel, a csak értékben kimutatott eszközök – az immateriális javak, a követelések, az idegen helyen tárolt letétbe helyezett, vagyonkezelésben lévő értékpapírok – és a források leltározását egyeztetéssel kell végrehajtani."
+    },
+    {
+      "provision_ref": "s107",
+      "section": "107",
+      "title": "107",
+      "content": "34. Az idegen helyen tárolt saját eszközök, a saját területen tárolt idegen eszközök – a NISZ Zrt. vagyonkezelésében lévő eszközök kivételével – és az üzemeltetésre átadott eszközök nyilvántartásban szereplő adatait egyeztetés végett az érdekelt félnek meg kell küldeni, és nyilatkoztatni kell az eszközök meglétéről."
+    },
+    {
+      "provision_ref": "s108",
+      "section": "108",
+      "title": "108",
+      "content": "35. A gazdasági vezető köteles gondoskodni az üzemeltetésre, kezelésre átadott eszközök vonatkozásában az üzemeltetést, kezelést végző szerv által elkészített, december 31-ei fordulónapi leltár bekéréséről."
+    },
+    {
+      "provision_ref": "s109",
+      "section": "109",
+      "title": "109",
+      "content": "36. A könyvviteli mérlegben értékkel nem szereplő, kis értékű tárgyi eszközök, immateriális javak és 0-ra leírt tárgyi eszközök leltározása a könyvviteli mérlegben értékkel szereplő eszközökkel azonos módon történik."
+    },
+    {
+      "provision_ref": "s110",
+      "section": "110",
+      "title": "110",
+      "content": "37. Az NKFI Hivatal az immateriális javakról és tárgyi eszközökről egyedi nyilvántartást vezet a költségvetési gazdálkodás informatikai rendszerének (a továbbiakban: Forrás KGR rendszer) a eszköz moduljában. A leltárfelvétel során az immateriális javakat és tárgyi eszközöket egyedileg kell felvenni."
+    },
+    {
+      "provision_ref": "s111",
+      "section": "111",
+      "title": "111",
+      "content": "38. Az NKFI Hivatal a kötelezettségvállalások állományát is köteles leltározni a mérleg fordulónapjára, és köteles elkülöníteni és kimutatni a tárgyéven túli kötelezettségvállalásokat."
+    },
+    {
+      "provision_ref": "s112",
+      "section": "112",
+      "title": "112",
+      "content": "39. Az analitikus nyilvántartásba felvett összes eszköz (főkönyvi számlák szerint csoportosított) összesített bruttó értékét, halmozott értékcsökkenését, nettó értékét egyeztetni kell a főkönyvi számlákkal. Eltérés esetén a hibát fel kell tárni, és a nyilvántartásokat helyesbíteni kell. Amennyiben a főkönyvi számlákon a hiba nem található meg, akkor a főkönyvi számlát az ellenőrzött analitikára kell helyesbíteni."
+    },
+    {
+      "provision_ref": "s113",
+      "section": "113",
+      "title": "113",
+      "content": "8. Leltározandó eszközök és források"
+    },
+    {
+      "provision_ref": "s114",
+      "section": "114",
+      "title": "114",
+      "content": "8.1. Befektetett eszközök"
+    },
+    {
+      "provision_ref": "s115",
+      "section": "115",
+      "title": "115",
+      "content": "8.1.1. Immateriális javak"
+    },
+    {
+      "provision_ref": "s116",
+      "section": "116",
+      "title": "116",
+      "content": "40. Az immateriális javakat csak értékben kell nyilvántartani, a leltárral való alátámasztásuk is csak értékben egyeztetéssel történik. Az immateriális javak leltározását minden évben kötelező végrehajtani. Az egyeztetést a főkönyvi számlák analitikus nyilvántartásokkal, egyéb dokumentumokkal való összevetésével kell elvégezni, melyet az informatikai területért vagy az érintett immateriális javakért felelős más szervezeti egység igazol."
+    },
+    {
+      "provision_ref": "s117",
+      "section": "117",
+      "title": "117",
+      "content": "8.1.2. Tárgyi eszközök"
+    },
+    {
+      "provision_ref": "s118",
+      "section": "118",
+      "title": "118",
+      "content": "41. Az épületeket, építményeket és tartozékaikat évente mennyiségi felvétellel kell leltározni. A leltározás minden esetben a helyszínen történik a helyszínrajzok, tulajdoni lapok, egyéb okmányok alapján."
+    },
+    {
+      "provision_ref": "s119",
+      "section": "119",
+      "title": "119",
+      "content": "42. Gépek, berendezések, egyéb felszerelések, valamint a járművek és tartozékaik leltározását évente mennyiségi felvétellel kell végrehajtani. Az ilyen eszközök leltározása során ki kell mutatni a rendeltetésszerűen használatba vett, üzembe helyezett, a tevékenységet szolgáló számítás- és ügyvitel-, valamint híradástechnikai eszközöket, továbbá az ezen eszközökön és a mérlegben nem szerepeltethető ilyen eszközökön végzett és aktivált beruházásokat és felújításokat, valamint az üzembe nem helyezett, használatba nem vett kisértékű tárgyi eszközöket."
+    },
+    {
+      "provision_ref": "s120",
+      "section": "120",
+      "title": "120",
+      "content": "43. Egyeztetéssel kell számba venni a mérleg adatokat az ingatlanok beszerzése, létesítése, az informatikai eszközök beszerzése, létesítése vagy az egyéb tárgyi eszközök beszerzése, létesítése rovatokhoz vezetett nyilvántartási számlákon nyilvántartott végleges kötelezettségvállalások, más fizetési kötelezettségek közül:"
+    },
+    {
+      "provision_ref": "s121",
+      "section": "121",
+      "title": "121",
+      "content": "a) a rendeltetésszerűen használatba nem vett, üzembe nem helyezett tárgyi eszközök végleges kötelezettségvállalásként, más fizetési kötelezettségként nyilvántartott vételárát, kisajátítás útján szerzett ingatlan esetén a kártalanítás összegét;"
+    },
+    {
+      "provision_ref": "s122",
+      "section": "122",
+      "title": "122",
+      "content": "b) az Szt. 47. § (5) és (6) bekezdése szerinti munkák pénzügyi számvitelben elszámolt költségeit;"
+    },
+    {
+      "provision_ref": "s123",
+      "section": "123",
+      "title": "123",
+      "content": "c) a tárgyi eszközök bővítését, rendeltetésszerű megváltoztatását, átalakítását, valamint élettartamának növelését eredményező költségeket az üzembe helyezésig, rendeltetésszerű használatba vételig."
+    },
+    {
+      "provision_ref": "s124",
+      "section": "124",
+      "title": "124",
+      "content": "44. A felújításoknál az ingatlanok felújítása, informatikai eszközök felújítása, egyéb tárgyi eszközök felújítása rovatokhoz vezetett nyilvántartási számlákon nyilvántartott végleges kötelezettségvállalások, más fizetési kötelezettségek közül a mérlegben szereplő és a mérlegben nem szerepeltetett tárgyi eszközökön végzett, az Szt. 3. § (4) bekezdés 8. pontja szerinti tevékenységek kimutatott költségeit egyeztetéssel kell számba venni."
+    },
+    {
+      "provision_ref": "s125",
+      "section": "125",
+      "title": "125",
+      "content": "8.1.3. Befektetett pénzügyi eszközök"
+    },
+    {
+      "provision_ref": "s126",
+      "section": "126",
+      "title": "126",
+      "content": "45. A befektetett pénzügyi eszközök leltározását minden év végén egyeztetéssel kell elvégezni, melynek során a szerződések, az analitikus nyilvántartás és a mérleg adatainak egyezőségét kell vizsgálni."
+    },
+    {
+      "provision_ref": "s127",
+      "section": "127",
+      "title": "127",
+      "content": "8.1.4. Vagyonkezelésbe adott, vagyonkezelésbe vett eszközök"
+    },
+    {
+      "provision_ref": "s128",
+      "section": "128",
+      "title": "128",
+      "content": "46. A vagyonkezelésbe adott eszközök leltározása során az eszközök tételes leltári számot is tartalmazó jegyzékét meg kell küldeni az érintett fél részére, és nyilatkoztatni kell az eszközök meglétéről."
+    },
+    {
+      "provision_ref": "s129",
+      "section": "129",
+      "title": "129",
+      "content": "47. A vagyonkezelésbe vett eszközöket évente mennyiségi felvétellel leltározni kell."
+    },
+    {
+      "provision_ref": "s130",
+      "section": "130",
+      "title": "130",
+      "content": "8.2. Forgó eszközök"
+    },
+    {
+      "provision_ref": "s131",
+      "section": "131",
+      "title": "131",
+      "content": "48. Az NKFI Hivatal raktárral nem rendelkezik, a készletek a beszerzést követően egy összegben kiadásként kerülnek elszámolásra, így az NKFI Hivatal év végén készletet nem tart nyilván."
+    },
+    {
+      "provision_ref": "s132",
+      "section": "132",
+      "title": "132",
+      "content": "49. A követeléseket a leltárban csak értékben kell szerepeltetni, a leltározás december 31-ei nappal, egyeztetéssel történik. Az egyeztetés során vizsgálni kell a főkönyv és"
+    },
+    {
+      "provision_ref": "s133",
+      "section": "133",
+      "title": "133",
+      "content": "a) a vonatkozó számlakivonat egyezését pénzintézettel szembeni követelésnél;"
+    },
+    {
+      "provision_ref": "s134",
+      "section": "134",
+      "title": "134",
+      "content": "b) a vonatkozó számlák egyezését másokkal szembeni követeléseknél;"
+    },
+    {
+      "provision_ref": "s135",
+      "section": "135",
+      "title": "135",
+      "content": "c) az analitikus nyilvántartások egyezését az adósokkal és a munkavállalókkal szembeni követeléseknél;"
+    },
+    {
+      "provision_ref": "s136",
+      "section": "136",
+      "title": "136",
+      "content": "d) az egyeztető levelek egyezését vevőkkel, adósokkal szembeni követeléseknél."
+    },
+    {
+      "provision_ref": "s137",
+      "section": "137",
+      "title": "137",
+      "content": "50. A követelések vevő általi elismerésének minősül, ha az egyeztető leveleket a vevők aláírásukkal igazolják, illetve, ha az egyeztető levél kézhezvételétől számított 5 munkanapon belül nem érkezik válasz."
+    },
+    {
+      "provision_ref": "s138",
+      "section": "138",
+      "title": "138",
+      "content": "51. A mérlegvalódiság elvéből fakadóan a könyvvitelben rögzített és a beszámolóban szereplő tételeknek a valóságban is megtalálhatónak és bizonyíthatónak kell lenniük. Követeléseknek azok az aktívák tekinthetők, illetve a mérlegben csak azok szerepeltethetők, melyeket az adós elismert."
+    },
+    {
+      "provision_ref": "s139",
+      "section": "139",
+      "title": "139",
+      "content": "52. A pénzeszközöket minden év december 31-én, könyv szerinti értéken kell a leltárban szerepeltetni, és egyeztetéssel kell leltározni a pénztár fordulónapi pénzkészletének figyelembevételével."
+    },
+    {
+      "provision_ref": "s140",
+      "section": "140",
+      "title": "140",
+      "content": "53. A pénzintézettel szemben mutatkozó követeléseket az év utolsó napjával a kivonatok, bankértesítések alapján egyeztetéssel kell leltározni."
+    },
+    {
+      "provision_ref": "s141",
+      "section": "141",
+      "title": "141",
+      "content": "54. December 31-én a pénztárkönyv zárása alapján jegyzőkönyvbe kell foglalni címletenként a pénzkészlet állományát, valamint a pénztárban kezelt, a készpénzt helyettesítő fizetési eszközöket sorszámonként nyilvántartva (így különösen: utalvány, átadásra váró utazásra jogosító bérletszelvény)."
+    },
+    {
+      "provision_ref": "s142",
+      "section": "142",
+      "title": "142",
+      "content": "55. Az aktív és passzív pénzügyi elszámolások leltározása december 31-ei nappal, speciális egyeztetéssel történik. Az aktív és passzív pénzügyi elszámolásokról részletes, a keletkezés okát is feltüntető, tételes kimutatást kell készíteni, és az egyeztetés során a bizonylatok adatait kell összehasonlítani a nyilvántartás adataival. Nem számolható el aktív pénzügyi elszámolásként olyan tétel, amelynek következménye a tartalékok valóságnak nem megfelelő bemutatása. A tételes egyeztetés során a függő elszámolások rendezése érdekében szükséges intézkedéseket a számviteli politikában foglaltak szerint kell megtenni."
+    },
+    {
+      "provision_ref": "s143",
+      "section": "143",
+      "title": "143",
+      "content": "8.3. Források"
+    },
+    {
+      "provision_ref": "s144",
+      "section": "144",
+      "title": "144",
+      "content": "56. A források (saját tőke, tartalékok, kötelezettségek, egyéb passzív pénzügyi elszámolások) leltározásánál az egyeztetés módszerét kell alkalmazni, melynek során a főkönyvi könyvelés adatait kell az analitikus nyilvántartás adataival egyeztetni. A mérlegben a könyv szerinti értéket kell figyelembe venni."
+    },
+    {
+      "provision_ref": "s145",
+      "section": "145",
+      "title": "145",
+      "content": "57. A tartós tőke mérlegbe beállítandó, fordulónapi értékének egyeztetése az analitikából történik. Tartós tőkeként kell a mérlegben kimutatni az alapítással egyidejűleg az alapító által rendelkezésre bocsátott forrást, figyelembe véve az átszervezés alkalmával történt változásokat."
+    },
+    {
+      "provision_ref": "s146",
+      "section": "146",
+      "title": "146",
+      "content": "58. A kötelezettségek (szállítók, egyéb kötelezettség) leltározását december 31-ei nappal az analitikus nyilvántartásokkal való egyeztetéssel, de az analitikák alapdokumentumait is vizsgálva kell elvégezni. Ha a szállítókkal szembeni kötelezettség devizában keletkezett, úgy az analitikus nyilvántartást devizanemenként is vezetni kell."
+    },
+    {
+      "provision_ref": "s147",
+      "section": "147",
+      "title": "147",
+      "content": "59. Az egyéb forrásokat az analitikus nyilvántartásokkal való egyeztetést követően kell a mérlegbe beállítani."
+    },
+    {
+      "provision_ref": "s148",
+      "section": "148",
+      "title": "148",
+      "content": "9. Az eszközmozgatás rendje a leltározás alatt"
+    },
+    {
+      "provision_ref": "s149",
+      "section": "149",
+      "title": "149",
+      "content": "60. A leltározás időszaka alatt a tárgyi eszközök mozgatása kizárólag leltárkörzeten belül lehetséges. Olyan leltárkörzetben, ahol éppen folyik a leltárfelvétel, csak olyan mértékű eszközmozgatás lehetséges, mely a leltárfelvételt nem akadályozza."
+    },
+    {
+      "provision_ref": "s150",
+      "section": "150",
+      "title": "150",
+      "content": "61. Rendkívüli esetben – így különösen elromlott számítógép azonnali cseréjének szükségessége – az átadás-átvételi bizonylatokat alá kell íratni az érintett területek leltárfelelősével is."
+    },
+    {
+      "provision_ref": "s151",
+      "section": "151",
+      "title": "151",
+      "content": "10. A leltár és a mérleg kapcsolata"
+    },
+    {
+      "provision_ref": "s152",
+      "section": "152",
+      "title": "152",
+      "content": "62. A mérlegvalódiság elvéből következően a leltárba nem lehet saját tulajdonként felvenni"
+    },
+    {
+      "provision_ref": "s153",
+      "section": "153",
+      "title": "153",
+      "content": "a) a bérelt vagy kölcsönvett;"
+    },
+    {
+      "provision_ref": "s154",
+      "section": "154",
+      "title": "154",
+      "content": "b) az eladott, de el nem szállított;"
+    },
+    {
+      "provision_ref": "s155",
+      "section": "155",
+      "title": "155",
+      "content": "c) az NKFI Hivatalnál tárolt, idegen tulajdont képező"
+    },
+    {
+      "provision_ref": "s156",
+      "section": "156",
+      "title": "156",
+      "content": "eszközöket."
+    },
+    {
+      "provision_ref": "s157",
+      "section": "157",
+      "title": "157",
+      "content": "63. A leltárnak mennyiségileg és a tulajdonviszonyok, továbbá az eszközállapot minősítése szempontjából is a valóságot kell tükröznie. A leltárban nem szerepelhet csökkent értékű eszköz teljes értékűként."
+    },
+    {
+      "provision_ref": "s158",
+      "section": "158",
+      "title": "158",
+      "content": "11. A leltározás lebonyolítási folyamata"
+    },
+    {
+      "provision_ref": "s159",
+      "section": "159",
+      "title": "159",
+      "content": "64. Az éves leltározási feladatok ellátásához a Forrás KGR rendszert és a hozzá kapcsolódó Eszköz és Vonalkódos leltár modult kell alkalmazni."
+    },
+    {
+      "provision_ref": "s160",
+      "section": "160",
+      "title": "160",
+      "content": "65. A leltározás során az Eszköz modulból a Vonalkódos leltár modulba át kell tölteni az adatokat a tényleges leltár lebonyolítására, ezt követően az adatokat vissza kell küldeni az Eszköz modulnak, és a Leltár modul leltárívei alapján kigenerált leltárjegyeket ki kell nyomtatni. A tényleges fizikai számbavételezést követően kerül sor a felvett és a nyilvántartási adatok egyeztetésére. Az egyeztetés során megállapított eltérésekről (hiány, többlet) jegyzőkönyvet kell felvenni, melyben fel kell tüntetni az eltérések okát és körülményét."
+    },
+    {
+      "provision_ref": "s161",
+      "section": "161",
+      "title": "161",
+      "content": "66. Az eltérések rendezését követően a leltárfelvétel lezárása után a leltárjegyeket ki kell nyomtatni. A leltározásban részt vevőknek (leltárfelelős, leltározó, leltárellenőr) a leltár hitelességét aláírásukkal igazolni kell."
+    },
+    {
+      "provision_ref": "s162",
+      "section": "162",
+      "title": "162",
+      "content": "67. A leltár zárásáról leltárzáró jegyzőkönyvet kell készíteni, amelyet a leltározás vezetője, a leltárellenőr és a leltározók aláírnak."
+    },
+    {
+      "provision_ref": "s163",
+      "section": "163",
+      "title": "163",
+      "content": "12. A leltározás bizonylati rendje és a leltár alaki követelményei"
+    },
+    {
+      "provision_ref": "s164",
+      "section": "164",
+      "title": "164",
+      "content": "68. A Leltár modulból számítógéppel előállított nyomtatványokat leltározási bizonylatnak kell tekinteni, ennek megfelelően kell kezelni és irattárazni."
+    },
+    {
+      "provision_ref": "s165",
+      "section": "165",
+      "title": "165",
+      "content": "69. A leltározási bizonylatok fajtái:"
+    },
+    {
+      "provision_ref": "s166",
+      "section": "166",
+      "title": "166",
+      "content": "a) megbízólevél;"
+    },
+    {
+      "provision_ref": "s167",
+      "section": "167",
+      "title": "167",
+      "content": "b) leltárív;"
+    },
+    {
+      "provision_ref": "s168",
+      "section": "168",
+      "title": "168",
+      "content": "c) leltárjegy;"
+    },
+    {
+      "provision_ref": "s169",
+      "section": "169",
+      "title": "169",
+      "content": "d) leltárkülönbözet-kivizsgálási jegyzőkönyv;"
+    },
+    {
+      "provision_ref": "s170",
+      "section": "170",
+      "title": "170",
+      "content": "e) leltárösszesítő, amely főkönyvi számonként tartalmazza értékben és mennyiségben a leltározott tételeket;"
+    },
+    {
+      "provision_ref": "s171",
+      "section": "171",
+      "title": "171",
+      "content": "f) leltárzáró jegyzőkönyv."
+    },
+    {
+      "provision_ref": "s172",
+      "section": "172",
+      "title": "172",
+      "content": "70. A leltárív az alábbiakat tartalmazza [a Forrás-KGR leltár modulja által használt (paraméterezett) elnevezés feltüntetésével]:"
+    },
+    {
+      "provision_ref": "s173",
+      "section": "173",
+      "title": "173",
+      "content": "a) a leltárív sorszáma;"
+    },
+    {
+      "provision_ref": "s174",
+      "section": "174",
+      "title": "174",
+      "content": "b) a gazdálkodó szervezet megnevezése;"
+    },
+    {
+      "provision_ref": "s175",
+      "section": "175",
+      "title": "175",
+      "content": "c) a szervezeti egység megnevezése (munkahely);"
+    },
+    {
+      "provision_ref": "s176",
+      "section": "176",
+      "title": "176",
+      "content": "d) a leltár fordulónapja;"
+    },
+    {
+      "provision_ref": "s177",
+      "section": "177",
+      "title": "177",
+      "content": "e) a leltárfelvétel időpontja (kiállítás kelte);"
+    },
+    {
+      "provision_ref": "s178",
+      "section": "178",
+      "title": "178",
+      "content": "f) a leltározási körzet megnevezése;"
+    },
+    {
+      "provision_ref": "s179",
+      "section": "179",
+      "title": "179",
+      "content": "g) a személyeknek kiadott eszközök esetében az érintett személy neve;"
+    },
+    {
+      "provision_ref": "s180",
+      "section": "180",
+      "title": "180",
+      "content": "h) a leltározott tárgyi eszközök leltári száma (vonalkód), megnevezése/leírása, gyártási száma, eszközazonosító és leltározott mennyiség;"
+    },
+    {
+      "provision_ref": "s181",
+      "section": "181",
+      "title": "181",
+      "content": "i) a leltárfelelősök és a leltározó aláírása;"
+    },
+    {
+      "provision_ref": "s182",
+      "section": "182",
+      "title": "182",
+      "content": "j) a leltárellenőr – amennyiben az adott leltárfelvételt ellenőrizte – aláírása."
+    },
+    {
+      "provision_ref": "s183",
+      "section": "183",
+      "title": "183",
+      "content": "71. A leltárjegy az alábbiakat tartalmazza:"
+    },
+    {
+      "provision_ref": "s184",
+      "section": "184",
+      "title": "184",
+      "content": "a) a leltárjegy sorszáma;"
+    },
+    {
+      "provision_ref": "s185",
+      "section": "185",
+      "title": "185",
+      "content": "b) a gazdálkodó szervezet megnevezése;"
+    },
+    {
+      "provision_ref": "s186",
+      "section": "186",
+      "title": "186",
+      "content": "c) a szervezeti egység megnevezése (tárhely típus);"
+    },
+    {
+      "provision_ref": "s187",
+      "section": "187",
+      "title": "187",
+      "content": "d) a leltár fordulónapja;"
+    },
+    {
+      "provision_ref": "s188",
+      "section": "188",
+      "title": "188",
+      "content": "e) a leltározási körzet megnevezése;"
+    },
+    {
+      "provision_ref": "s189",
+      "section": "189",
+      "title": "189",
+      "content": "f) a leltározott tárgyi eszközök leltári száma, megnevezése, gyári száma, vonalkód leltározott mennyiség, eszközazonosító;"
+    },
+    {
+      "provision_ref": "s190",
+      "section": "190",
+      "title": "190",
+      "content": "g) a tényleges leltárfelvétel mennyiségét;"
+    },
+    {
+      "provision_ref": "s191",
+      "section": "191",
+      "title": "191",
+      "content": "h) a ténylegesen felvett és az eszköz nyilvántartás közötti eltéréseket;"
+    },
+    {
+      "provision_ref": "s192",
+      "section": "192",
+      "title": "192",
+      "content": "i) a leltárfelelősök és a leltározó aláírása;"
+    },
+    {
+      "provision_ref": "s193",
+      "section": "193",
+      "title": "193",
+      "content": "j) a leltárellenőr és a leltározás vezetőjének aláírása."
+    },
+    {
+      "provision_ref": "s194",
+      "section": "194",
+      "title": "194",
+      "content": "72. Egy leltárívre csak egy leltárkörzeten belüli eszközök vehetők fel. A leltáríven és a leltárjegyen minden eszközt darabonként egyedileg kell feltüntetni, csoportos leltárfelvétel nem engedélyezett."
+    },
+    {
+      "provision_ref": "s195",
+      "section": "195",
+      "title": "195",
+      "content": "73. Az ingatlanok, gépjárművek leltározása során az analitikus nyilvántartásból kinyomtatott eszköz törzslap adatait egyeztetni kell a tulajdoni lappal, törzslappal, forgalmi engedély adataival."
+    },
+    {
+      "provision_ref": "s196",
+      "section": "196",
+      "title": "196",
+      "content": "74. Az egyeztetéssel végzett leltárfelvételről jegyzőkönyvet kell készíteni az egyeztetést végzők aláírásával. A jegyzőkönyvben részletesen rögzíteni kell az egyeztetés lefolytatását, az egyeztetés eredményét, melyhez csatolni kell az egyeztetést tanúsító levelezést, feljegyzést."
+    },
+    {
+      "provision_ref": "s197",
+      "section": "197",
+      "title": "197",
+      "content": "75. Számítógépes leltárfelvételi modul alkalmazása esetén a leltárbizonylatok előzetesen nem kerülnek kiadásra, kizárólag a leltárfelvételt követően kerülnek – aláírás céljából – átadásra."
+    },
+    {
+      "provision_ref": "s198",
+      "section": "198",
+      "title": "198",
+      "content": "76. A leltárbizonylatok kitöltése során mindenben eleget kell tenni a következő tartalmi követelményeknek:"
+    },
+    {
+      "provision_ref": "s199",
+      "section": "199",
+      "title": "199",
+      "content": "a) a leltárban radírozni vagy olyan vegyszert használni, amelynek segítségével az eredeti bejegyzés megváltoztatható, nem szabad;"
+    },
+    {
+      "provision_ref": "s200",
+      "section": "200",
+      "title": "200",
+      "content": "b) a leltárakon javítást végrehajtani csak a 20. pont szerint lehet;"
+    },
+    {
+      "provision_ref": "s201",
+      "section": "201",
+      "title": "201",
+      "content": "c) a leltározónak minden egyes leltárívet és leltárjegyet aláírásával kell igazolnia;"
+    },
+    {
+      "provision_ref": "s202",
+      "section": "202",
+      "title": "202",
+      "content": "d) a leltárellenőrnek az általa ellenőrzött leltáríveket, illetve egyéb, a leltározáshoz kapcsolódó ellenőrzött 69. pont szerinti bizonylatot aláírásával kell igazolnia."
+    },
+    {
+      "provision_ref": "s203",
+      "section": "203",
+      "title": "203",
+      "content": "77. A leltárbizonylatokat a leltárfelvételi modulban kell kitölteni."
+    },
+    {
+      "provision_ref": "s204",
+      "section": "204",
+      "title": "204",
+      "content": "78. Minden leltárnak tartalmaznia kell:"
+    },
+    {
+      "provision_ref": "s205",
+      "section": "205",
+      "title": "205",
+      "content": "a) az NKFI Hivatal pontos megnevezését, címét;"
+    },
+    {
+      "provision_ref": "s206",
+      "section": "206",
+      "title": "206",
+      "content": "b) a leltárbizonylatok sorszámát;"
+    },
+    {
+      "provision_ref": "s207",
+      "section": "207",
+      "title": "207",
+      "content": "c) a leltár fordulónapját;"
+    },
+    {
+      "provision_ref": "s208",
+      "section": "208",
+      "title": "208",
+      "content": "d) a leltározási körzetet;"
+    },
+    {
+      "provision_ref": "s209",
+      "section": "209",
+      "title": "209",
+      "content": "e) a leltározás megkezdésének és befejezésének időpontját;"
+    },
+    {
+      "provision_ref": "s210",
+      "section": "210",
+      "title": "210",
+      "content": "f) az eszköz megjelölését;"
+    },
+    {
+      "provision_ref": "s211",
+      "section": "211",
+      "title": "211",
+      "content": "g) a leltározott eszközök és források tételeinek vagy azok csoportjainak pontos meghatározását, a beazonosításukhoz szükséges adatokat (gyári szám, típus, nyilvántartási szám stb.);"
+    },
+    {
+      "provision_ref": "s212",
+      "section": "212",
+      "title": "212",
+      "content": "h) a leltározott eszközök ténylegesen talált mennyiségét, egységárát és összértékét, a források értékét az Szt.-ben előírt módon;"
+    },
+    {
+      "provision_ref": "s213",
+      "section": "213",
+      "title": "213",
+      "content": "i) a leltárkülönbözetek (hiányok és többletek) kimutatását;"
+    },
+    {
+      "provision_ref": "s214",
+      "section": "214",
+      "title": "214",
+      "content": "j) a leltározás végrehajtásáért és ellenőrzéséért felelős, valamint a személyi használatra kiadott eszközök leltára során számadásra kötelezett személyek aláírását."
+    },
+    {
+      "provision_ref": "s215",
+      "section": "215",
+      "title": "215",
+      "content": "13. A leltár értékelése"
+    },
+    {
+      "provision_ref": "s216",
+      "section": "216",
+      "title": "216",
+      "content": "79. Az eszközöket és kötelezettségeket leltározással, egyeztetéssel ellenőrizni és egyedenként értékelnie kell az eszköznyilvántartást ellátó kormánytisztviselőnek. A mérlegtételek értékelésének szabályait külön utasítás határozza meg. Az értékelést jegyzőkönyvben kell rögzíteni a mérlegsor pontos megjelölésével. A jegyzőkönyvben megállapított különbözetek okait ki kell vizsgálni és rendezni kell."
+    },
+    {
+      "provision_ref": "s217",
+      "section": "217",
+      "title": "217",
+      "content": "80. A kivizsgálást követően a jegyzőkönyvben rögzíteni kell a leltárkülönbözet mennyiségét és értékét, valamint a különbözetet előidéző okokat."
+    },
+    {
+      "provision_ref": "s218",
+      "section": "218",
+      "title": "218",
+      "content": "14. Tárgyi eszköz leltárjegyek egyeztetése az analitikával"
+    },
+    {
+      "provision_ref": "s219",
+      "section": "219",
+      "title": "219",
+      "content": "81. A tárgyi eszközök nyilvántartása tárolási helyenként történik. A leltárkörzetek ennek megfelelően kerülnek kialakításra."
+    },
+    {
+      "provision_ref": "s220",
+      "section": "220",
+      "title": "220",
+      "content": "82. A leltározás és a könyvviteli nyilvántartás egyeztetése során a Forrás KGR rendszerből ki kell nyomtatni a leltárjegyeket. A leltárjegyen szereplő eszközöket és azok adatait a tárgyi eszköz nyilvántartásért felelős kormánytisztviselő ellenőrzi, az eltérésekről jegyzőkönyvet készít, valamint az elnöki jóváhagyást követően intézkedik a módosítások eszköz analitikában történő átvezetéséről."
+    },
+    {
+      "provision_ref": "s221",
+      "section": "221",
+      "title": "221",
+      "content": "83. Számítógépes leltármodul alkalmazásával az egyeztetést az ügyviteli rendszer automatikusan elvégzi. Az eltérésekről az eszköznyilvántartást ellátó kormánytisztviselőnek összesítő kimutatást kell készítenie, és azt ki kell nyomtatnia."
+    },
+    {
+      "provision_ref": "s222",
+      "section": "222",
+      "title": "222",
+      "content": "15. Leltárkülönbözetek"
+    },
+    {
+      "provision_ref": "s223",
+      "section": "223",
+      "title": "223",
+      "content": "84. A leltározás eredményeként megállapított eltérésekről – hiányokról és többletekről – a leltározási ütemtervben meghatározott időpontig a Költségvetési Főosztály Gazdasági Osztályának jegyzőkönyvet kell készítenie, amely alapján vizsgálni kell az eltérés okát. A leltárkülönbözetekről készült jegyzőkönyvnek tartalmaznia kell a leltárkülönbözetek pontos megnevezését, mennyiségét, értékét, továbbá mindazon tényezőket, amelyek indokolják a különbözetek keletkezését."
+    },
+    {
+      "provision_ref": "s224",
+      "section": "224",
+      "title": "224",
+      "content": "85. A nyilvántartásokat a szabályszerűen felvett leltár alapján helyesbíteni kell. A leltározás kapcsán feltárt eltérések, a hiányok és többletek kivizsgálása a gazdasági vezető által kijelölt személy feladata."
+    },
+    {
+      "provision_ref": "s225",
+      "section": "225",
+      "title": "225",
+      "content": "86. A gazdasági vezető minden esetben köteles intézkedni a hiányt előidéző okok megszüntetéséről."
+    },
+    {
+      "provision_ref": "s226",
+      "section": "226",
+      "title": "226",
+      "content": "87. A leltárkülönbözeteket legkésőbb a leltározást követő könyvviteli zárlat alkalmával kell rendezni. A leltáreltéréseket (hiány, többlet) a megfelelő eszközszámlán fel kell venni, vagy ki kell vezetni a nyilvántartásokból az eszköz nyilvántartási feladatokat ellátó kormánytisztviselőnek a pénzügyi számvitelben rögzített szabályok szerint. Az éves mérlegbe csak a leltárkülönbözetekkel módosított eszközérték vehető fel."
+    },
+    {
+      "provision_ref": "s227",
+      "section": "227",
+      "title": "227",
+      "content": "88. A tárgyi eszközök hiányait terven felüli értékcsökkenésként kell elszámolni. A tárgyi eszközök többleteit piaci, forgalmi értéken állományba kell venni."
+    },
+    {
+      "provision_ref": "s228",
+      "section": "228",
+      "title": "228",
+      "content": "16. A leltározás ellenőrzése"
+    },
+    {
+      "provision_ref": "s229",
+      "section": "229",
+      "title": "229",
+      "content": "89. A leltározás vezetője ellenőrzi a leltározási folyamat teljeskörűségét. Az ellenőrzés kiterjed:"
+    },
+    {
+      "provision_ref": "s230",
+      "section": "230",
+      "title": "230",
+      "content": "a) az előkészítő munkák során kiadott intézkedések jogszabályi előírásoknak, belső szabályzatoknak és utasításoknak megfelelő végrehajtására;"
+    },
+    {
+      "provision_ref": "s231",
+      "section": "231",
+      "title": "231",
+      "content": "b) a leltárfelvételi bizonylatok adatainak valódiságára, számszerű és tartalmi helyességére;"
+    },
+    {
+      "provision_ref": "s232",
+      "section": "232",
+      "title": "232",
+      "content": "c) a leltárkülönbözetek megállapításának helyességére, az esetleges kompenzálások szabályszerűségére;"
+    },
+    {
+      "provision_ref": "s233",
+      "section": "233",
+      "title": "233",
+      "content": "d) a leltározás során felvételre kerülő leltározási jegyzőkönyv megnyitására, tartalmára és befejezésére;"
+    },
+    {
+      "provision_ref": "s234",
+      "section": "234",
+      "title": "234",
+      "content": "e) a végleges hiányok, többletek könyvviteli elszámolásának megtörténtére és helyességére."
+    },
+    {
+      "provision_ref": "s235",
+      "section": "235",
+      "title": "235",
+      "content": "90. Az ellenőrzés megtörténtét és eredményét a leltári bizonylatokon a leltározás vezetője aláírásával igazolja."
+    },
+    {
+      "provision_ref": "s236",
+      "section": "236",
+      "title": "236",
+      "content": "17. A leltározás és az éves költségvetési beszámoló"
+    },
+    {
+      "provision_ref": "s237",
+      "section": "237",
+      "title": "237",
+      "content": "91. Az éves költségvetési beszámoló bizonylati alátámasztását a leltárkészítés során helyesbített analitikus nyilvántartással számszerűen egyező főkönyvi számlák, illetve az ezek alapján készített főkönyvi kivonaton kívül az alábbiak szolgáltatják:"
+    },
+    {
+      "provision_ref": "s238",
+      "section": "238",
+      "title": "238",
+      "content": "a) megbízólevelek (leltározás vezetője, leltárfelelősök, leltározók, leltárellenőrök);"
+    },
+    {
+      "provision_ref": "s239",
+      "section": "239",
+      "title": "239",
+      "content": "b) az egyeztetés során felvett, a szabályszerű végrehajtást igazoló bizonylatok (leltárívek, leltárjegyek, leltárkülönbözeti kimutatások, egyeztető okmányok, jegyzőkönyvek);"
+    },
+    {
+      "provision_ref": "s240",
+      "section": "240",
+      "title": "240",
+      "content": "c) a leltárkészítés ellenőrzése során készített feljegyzések;"
+    },
+    {
+      "provision_ref": "s241",
+      "section": "241",
+      "title": "241",
+      "content": "d) az adósok és hitelezők, a kormánytisztviselők tartozásának és egyéb kötelezettségeknek az év végi fordulónappal készített és egyeztetett kivonata, elismerő nyilatkozatok az idegen helyen tárolt eszközökről;"
+    },
+    {
+      "provision_ref": "s242",
+      "section": "242",
+      "title": "242",
+      "content": "e) az eltérések, azok kivizsgálását és rendezését tartalmazó okmányok;"
+    },
+    {
+      "provision_ref": "s243",
+      "section": "243",
+      "title": "243",
+      "content": "f) leltárzáró jegyzőkönyv."
+    },
+    {
+      "provision_ref": "s244",
+      "section": "244",
+      "title": "244",
+      "content": "18. Egyéb rendelkezések"
+    },
+    {
+      "provision_ref": "s245",
+      "section": "245",
+      "title": "245",
+      "content": "92. A szabályzat kiadásáért – mint a költségvetési szerv vezetője – az NKFI Hivatal elnöke felelős. A szabályzat előkészítéséért, aktualizálásáért és annak végrehajtásáért az NKFI Hivatal gazdasági vezetője a felelős. Az NKFI Hivatal munkatársai a szabályzatban foglaltak végrehajtásáért a Nemzeti Kutatási, Fejlesztési és Innovációs Hivatal Szervezeti és Működési Szabályzatáról szóló 2/2015. (I. 16.) MvM utasítás szerinti feladat- és hatáskörükben felelősek."
+    },
+    {
+      "provision_ref": "s246",
+      "section": "246",
+      "title": "246",
+      "content": "19. Záró rendelkezések"
+    },
+    {
+      "provision_ref": "s247",
+      "section": "247",
+      "title": "247",
+      "content": "93. Ez az utasítás a közzétételét követő napon lép hatályba."
+    },
+    {
+      "provision_ref": "s248",
+      "section": "248",
+      "title": "248",
+      "content": "94. A szabályzat rendelkezéseit a hatálybalépésekor folyamatban lévő ügyekben is alkalmazni kell."
+    },
+    {
+      "provision_ref": "s249",
+      "section": "249",
+      "title": "249",
+      "content": "95. 1 Az utasítást a 10/2020. (VIII. 14.) NKFIH utasítás 23. pontja hatályon kívül helyezte 2020. augusztus 15. napjával. 2 A 95. pont a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette."
+    }
+  ]
+}

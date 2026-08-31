@@ -1,0 +1,41 @@
+{
+  "id": "hu-law-2013-147-40-00",
+  "type": "statute",
+  "title": "2013. MK 147. szám helyesbítés",
+  "status": "in_force",
+  "in_force_date": "2013-09-10",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2013-147-40-00",
+  "description": "Helyesbítés",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "Helyesbítés:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "A Magyar Közlöny 2013. szeptember 5-én megjelent 145. számának 66536. oldalán a 331/2013. (IX. 5.) Korm. rendelet 1. mellékletében a minimális pályázati ajánlati ár kiszámításának képlete helyesen a következő:"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "„"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "MPÁ = ((ST*s1)+(((AE/(1+DR)0)+(AE*(1+PV)/(1+DR))+ (AE*(1+PV)2/((1+DR)2))+ (AE*(1+PV)3/((1+DR)3))+ (AE*(1+PV)4/((1+DR)4))+ (AE*(1+PV)5/((1+DR)5)))*s2))*PÜ"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "”"
+    }
+  ]
+}

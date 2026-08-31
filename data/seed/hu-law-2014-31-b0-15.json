@@ -1,0 +1,54 @@
+{
+  "id": "hu-law-2014-31-b0-15",
+  "type": "statute",
+  "title": "31/2014. (IV. 14.) HM utasítás az Egységes Digitális Rádió-távközlő Rendszer üzemeltetésével és használatával kapcsolatos feladatokról",
+  "status": "in_force",
+  "in_force_date": "2014-04-15",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2014-31-B0-15",
+  "description": "az Egységes Digitális Rádió-távközlő Rendszer üzemeltetésével és használatával kapcsolatos feladatokról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § Az utasítás hatálya a Honvédelmi Minisztériumra (a továbbiakban: HM), a honvédelemért felelős miniszter közvetlen alárendeltségébe tartozó szervezetekre, valamint a Magyar Honvédség (a továbbiakban: MH) katonai szervezeteire (a továbbiakban együtt: honvédségi szervezetek) terjed ki."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § Az utasítás alkalmazásában 1. általános VPN használati szabályzat: a kormányzati célú hálózatokról szóló 346/2010. (XII. 28.) Korm. rendelet (a továbbiakban: Korm. rendelet) 11. § 8. pontja szerinti szabályozó, 2. EDR: Egységes Digitális Rádió-távközlő Rendszer, a Schengeni Megállapodás Schengenben, 1990. június 19-én aláírt Végrehajtási Egyezményének 132., illetve 44. cikkében meghatározott követelményeket kielégítő digitális, nyalábolt (trönkölt), kormányzati célú rádióhálózat, 3. felhasználó szervezet: EDR MH által felügyelt virtuális magánhálózat menedzselését végző, illetve az MH EDR VPN alá tartozó eszközök használatát tervező, szervező és az eszközellátást végző, valamint az eszközöket programozó, üzemeltető és használó honvédségi szervezet, 4. különös VPN használati szabályzat: a Korm. rendelet 11. § 9. pontja szerinti szabályozó, 5. MH KCEHH: MH Kormányzati Célú Elkülönült Hírközlő Hálózat, a nyilvános hírközlő hálózatoktól elkülönült, az MH honvédelmi feladatainak híradó és informatikai támogatása érdekében üzemeltetett állandó és tábori telepítésű híradó és informatikai rendszer, 6. VPN: a Korm. rendelet 2. § 8. pontja szerinti virtuális magánhálózat."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) Az MH EDR VPN az MH KCEHH részét képezi. (2) Az MH EDR VPN gazdaszervezet feladatait a Honvéd Vezérkar Híradó, Informatikai és Információvédelmi Csoportfőnökség (a továbbiakban: HVK HIICSF) látja el. Az MH EDR VPN-en belüli felhasználói licence-gazdálkodás a HVK HIICSF csoportfőnökének mint VPN gazdának a jogköre. (3) Az MH EDR VPN központi menedzselési feladatait az MH vitéz Szurmay Sándor Budapest Helyőrség Dandár (a továbbiakban: MH BHD) végzi."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) Az MH EDR VPN gazdaszervezetre, valamint az MH EDR VPN szolgáltatásait igénybe vevő honvédségi szervezetekre vonatkozó, a Korm. rendelet 14. § f) pontja szerinti felhasználói szerződést – a HVK HIICSF csoportfőnökének ellenjegyzésével – az MH BHD köti meg az EDR kormányzati célú hírközlési szolgáltatóval. (2) A felhasználói szerződésben rögzíteni szükséges a Korm. rendeletben meghatározott megállapodások előkészítésének és megkötésének eljárásrendjét, valamint a megállapodások megkötéséért felelős honvédségi szervezeteket. Az egyéb, különösen az együttműködési, az eszközellátási és az átadás-átvételi feladatok, illetve az egyes feladatok dokumentálásának módja és a felelős honvédségi szervezetek nevesítése szintén a felhasználói szerződésben kerül rögzítésre. (3) Az együttműködési megállapodások megkötésére a HVK HIICSF előzetes egyetértését követően kerülhet sor. Az aláírt felhasználói szerződés, illetve az aláírt együttműködési megállapodások egy-egy példánya a HVK HIICSF és az MH BHD részére is megküldésre kerül."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § (1) Ez az utasítás a közzétételét követő napon lép hatályba. (2) A HVK HIICSF csoportfőnöke szakutasításban adja ki az MH EDR VPN-re vonatkozó általános VPN használati szabályzatot, valamint jelöli ki a különös VPN használati szabályzat készítésére kötelezett felhasználó szervezeteket."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § 1 A 4. § (1) bekezdése a 47/2016. (VIII. 31.) HM utasítás 51. §-a szerint módosított szöveg. 2 A 6. § a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "különös VPN használati szabályzat",
+      "definition": "a Korm. rendelet 11. § 9. pontja szerinti szabályozó, 5. MH KCEHH: MH Kormányzati Célú Elkülönült Hírközlő Hálózat, a nyilvános hírközlő hálózatoktól elkülönült, az MH honvédelmi feladatainak híradó és informatikai támogatása érdekében üzemeltetett állandó és tábori telepítésű híradó és informatikai rendszer, 6. VPN: a Korm. rendelet 2. § 8. pontja szerinti virtuális magánhálózat.",
+      "source_provision": "s2"
+    }
+  ]
+}

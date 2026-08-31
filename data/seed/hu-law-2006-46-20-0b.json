@@ -1,0 +1,35 @@
+{
+  "id": "hu-law-2006-46-20-0b",
+  "type": "statute",
+  "title": "46/2006. (XII. 27.) EüM rendelet a várólista adatainak honlapon történő közzétételére vonatkozó szabályairól",
+  "status": "in_force",
+  "in_force_date": "2007-01-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2006-46-20-0B",
+  "description": "a várólista adatainak honlapon történő közzétételére vonatkozó szabályairól",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § (1) A külön jogszabály szerinti várólistán szereplő adatok közül az Országos Vérellátó Szolgálat Központja (a továbbiakban: OVSZK), illetve az egészségügyi szolgáltató honlapján – a külön jogszabályban meghatározottak szerint közzétett – egyedi azonosítón, valamint az ellátás igénybevételének várható időpontján és helyén túl közzé kell tenni a várólistán elfoglalt aktuális helyet, és a várólistára történő felkerülés időpontját is. A várólistán szereplő betegek külön jogszabály szerinti személyazonosító adatai nem nyilvánosak. (2) (3) A külön jogszabály szerinti központi várólistát az OVSZK várólista-kezelő számítógépes program felhasználásával teszi közzé. (4) A várólista személyes adatokat is tartalmazó változata nem helyezhető el olyan számítógépre, amely nincs ellátva operációs rendszer szintű jelszavas védelemmel, tűzfalas védelem nélkül az internetre csatlakozik, továbbá amelyen a várólista kezeléséhez tartozó állományok a várólista kezelésére fel nem jogosított személyek számára is hozzáférhetőek. A várólistát kezelő számítógép minden felhasználójának személyesen azonosítottnak kell lennie. (5) A várólista kezelésére vonatkozó, az egészségügyi szolgáltató sajátosságainak megfelelő szabályokat az egészségügyi szolgáltató adatvédelmi szabályzata tartalmazza. (6) A kötelező egészségbiztosítás ellátásairól szóló 1997. évi LXXXIII. törvény 5/B. § k) pontja szerinti intézményi várólistának, illetve u) pontja szerinti előjegyzési listának az egészségügyi szolgáltató honlapjáról elérhetőnek kell lennie. (7) A várólista alapján nyújtható ellátások részletes szabályairól szóló 287/2006. (XII. 23.) Korm. rendelet 12. § (1) bekezdésében meghatározott PET/CT központi várólista nyilvántartási rendszernek a PET-ellátásra szóló beutaló kiállítására jogosult szakorvos egészségügyi szolgáltatója, valamint a PET-ellátást végző egészségügyi szolgáltató honlapjáról elérhetőnek kell lennie."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § A kezelőorvos a várólistán szereplő beteget – kérésére – legkésőbb 5 napon belül tájékoztatni köteles a várólistának a honlapon közzétett, az adott betegre vonatkozó tartalmáról."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. §"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) Ez a rendelet 2007. január 1-jén lép hatályba azzal, hogy az egészségügyi intézmény adatvédelmi szabályzatát e rendelet hatálybalépésétől számított 30 napon belül kell a várólista kezelésére vonatkozó szabályokkal kiegészíteni. (2)"
+    }
+  ]
+}

@@ -1,0 +1,1307 @@
+{
+  "id": "hu-law-2011-17-b0-8e",
+  "type": "statute",
+  "title": "17/2011. (IX. 23.) ORFK utasítás a bűnügyi nyilvántartási rendszerrel, a bűnügyi és rendészeti biometrikus adatok nyilvántartásával és a mintavétellel kapcsolatban az általános rendőrségi feladatok ellátására létrehozott szervre háruló feladatokról",
+  "status": "repealed",
+  "in_force_date": "2011-10-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2011-17-B0-8E",
+  "description": "a bűnügyi nyilvántartási rendszerrel, a bűnügyi és rendészeti biometrikus adatok nyilvántartásával és a mintavétellel kapcsolatban az általános rendőrségi feladatok ellátására létrehozott szervre háruló feladatokról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A bűnügyi nyilvántartási rendszerről, az Európai Unió tagállamainak bíróságai által magyar állampolgárokkal szemben hozott ítéletek nyilvántartásáról, valamint a bűnügyi és rendészeti biometrikus adatok nyilvántartásáról szóló 2009. évi XLVII. törvény (a továbbiakban: Bnytv.), a bűnügyi nyilvántartási rendszer egyes nyilvántartásai részére történő adatközlés szabályairól szóló 20/2009. (VI. 19.) IRM rendelet (a továbbiakban: Bnyr.), továbbá a bűnügyi és rendészeti biometrikus adatok nyilvántartása részére történő adatközlés, valamint az ujj- és tenyérnyomatvétel és a szájnyálkahártya-törlet levételének részletes technikai szabályairól szóló 21/2009. (VI. 19.) IRM rendelet (a továbbiakban: Brnyr.) végrehajtása, az eljárások szakszerűségének elősegítése és az egységes gyakorlat kialakítása céljából kiadom az alábbi utasítást:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "I. Általános és értelmező rendelkezések"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "1. Az utasítás hatálya kiterjed:"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "a) az Országos Rendőr-főkapitányságra (a továbbiakban: ORFK);"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "b) a megyei (fővárosi) rendőr-főkapitányságokra, a Készenléti Rendőrségre, a Repülőtéri Rendőr Igazgatóságra és a Bűnügyi Szakértői és Kutatóintézetre, a Nemzetközi Bűnügyi Együttműködési Központra, valamint a Rendőrségi Oktatási és Kiképző Központra (a továbbiakban együtt: területi szervek);"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "c) a rendőrkapitányságokra."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "(a továbbiakban együtt: Rendőrség)"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "2. Az utasítás alkalmazásában:"
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "a) nyilvántartásba vételi tevékenység végzésére jogosult személy: az eljáró nyomozó hatóság vagy nyomozó szervezeti egység tagja, aki a gyanúsított és egyéb személyek tekintetében a Rendőrségi Oktatási és Kiképző Központ (a továbbiakban: oktatást végző szerv) által kiadott igazolás (tanúsítvány) alapján arcképmás rögzítésére, ujj- és tenyérnyomatvételre és DNS-mintavételre jogosult;"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "b) egyéb személy: tanú, sértett vagy ismeretlen személyazonosságú személy, holttest, hozzátartozó;"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "c) bűncselekmény 17 jegyű azonosító kód: az egységes nyomozó hatósági és ügyészségi bűnügyi statisztikáról szóló miniszteri rendelet rendelkezéseinek megfelelően a Robotzsaru NEO integrált ügyviteli és ügyfeldolgozó rendszer (a továbbiakban: Robotzsaru NEO) által automatikusan előállított kód;"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "d) egyedi azonosító kód: az arcképmásokhoz a Robotzsaru NEO-rendszer által hozzárendelt egyedi, alfanumerikus azonosító;"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "e) belső azonosító kód: a Bűnügyi Szakértői és Kutatóintézet (a továbbiakban: BSZKI) által meghatározott tartományú alfanumerikus azonosító, amely a BSZKI által kezelt biometrikus adatokat hozzárendeli a Közigazgatási és Elektronikus Közszolgáltatások Központi Hivatala (a továbbiakban KEKKH) mint bűnügyi nyilvántartó szerv által kezelt nyilvántartásokban szereplő adatokhoz (ujjnyomat- és DNS-kód);"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "f) megfelelő adattartalmú ujjnyomatlap: az INTERPOL-szabványnak megfelelő, a Brnyr. 3. mellékletében meghatározott minta;"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "g) INTERPOL-szabvány: az INTERPOL közgyűlése által elfogadott ujjnyomatlap-nyomtatványok szabványosítása, amely a méretek és az adatok meghatározása, elhelyezési szempontjai szerint egységesíti az ujjnyomatolást."
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "3. Nyilvántartásba vételi tevékenység kizárólag abban az esetben kezdhető meg, ha a rögzítést végző személy személyazonosításra alkalmas okirat alapján meggyőződött a rögzítésen megjelent személy személyazonosságáról."
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "4. A nyilvántartásba vételi tevékenység szakszerűségéért az azt végrehajtó személy felel."
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "II. A Rendőrség központi, területi és helyi nyomozó hatóságai, illetve nyomozó szervezeti egységei vezetőinek feladatai"
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "5. A Rendőrség központi, területi és helyi nyomozó hatóságai és nyomozó szervezeti egységeinek vezetői (a továbbiakban együtt: nyomozó szervek vezetői) felelősek a bűnügyi nyilvántartásba vételi eljárással kapcsolatos feladatok jogszabályoknak és vonatkozó normáknak megfelelő végrehajtásáért, az ezzel összefüggő jogok gyakorlásáért és kötelezettségek teljesítéséért."
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "6. A nyomozó szervek vezetői:"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "a) gondoskodnak arról, hogy a bűnügyi nyilvántartásba vételi eljárás – így az arcképmásrögzítés, az ujj- és tenyérnyomatvétel, valamint a DNS-mintavétel – alá vont személyeket megfelelően dokumentálják, azzal, hogy a nyilvántartást kell vezetniük a külön erre a célra rendszeresített főkönyvi számmal ellátott papír alapú adathordozón (a továbbiakban: bűnügyi nyilvántartásba vételi eljárásról vezetett nyilvántartó könyv), amely tartalmazza"
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "aa) a sorszámot,"
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "ab) a bűnügyi számot,"
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "ac) a bűnügyi nyilvántartásba vételt foganatosító személy nevét, rendfokozatát, jelvényszámát,"
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "ad) a bűnügyi nyilvántartásba vétel időpontját,"
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "ae) az arcképmásrögzítés tényét,"
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "af) az ujj- és tenyérnyomat belső azonosító kódot, valamint"
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "ag) a DNS-mintavételi egységcsomag belső azonosító kódját;"
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "b) kötelesek kijelölni és a bűnügyi nyilvántartásba vételi eljárásról vezetett nyilvántartó könyvben külön lapon – név, rendfokozat, jelvényszám megjelölésével – feltüntetni, továbbá folyamatosan aktualizálni a bűnügyi nyilvántartásba vételi eljárást folytató személyeket, gondoskodni a nyilvántartásba vételhez szükséges képzésben történő részvételükről, koordinálni és ellenőrizni a tevékenységüket;"
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "c) gondoskodnak arról, hogy a bűnügyi nyilvántartásba vételi eljáráshoz kapcsolódó fényképfelvételek, nyomatok, minták és adatok dokumentáltan kerüljenek megküldésre a vonatkozó jogszabályokban meghatározott, megfelelő szervezetnek az ott meghatározott határidő betartásával olyan módon, hogy a továbbküldések számát és idejét mindenkor kimutathatóan, vissza-ellenőrizhető módon kell nyilvántartani;"
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "d) félévente jelentést készíttetnek a sikertelen mintavételek számáról, valamint a megkeresés alapján végrehajtott nyilvántartásba vételi tevékenységről, amelyet minden naptári év július 15-ig, valamint az aktuális naptári évet követő év január 15-ig megküldenek a BSZKI igazgatója bűnügyi helyettese részére, a jelentés tartalmazza különösen:"
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "da) a nyilvántartásba vételi eljárás alá vont személyek számát,"
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "db) a nyilvántartásba vételek számát,"
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "dc) az ujj- és tenyérnyomatvételek számát, valamint"
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "dd) a DNS-mintavételek számát;"
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "e) kötelesek biztosítani a nyilvántartásba vételi tevékenység zökkenőmentes és folyamatos ellátását;"
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "f) szükség szerint felveszik a kapcsolatot az oktatást végző szerv vezetőjével a bűnügyi nyilvántartásba vételi eljárásra kijelölt újabb személyek képzésével kapcsolatosan;"
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "g) gondoskodnak a nyilvántartásba vételi eljáráshoz szükséges anyagi, technikai és személyi feltételek rendelkezésre állásáról, ennek végrehajtása érdekében:"
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "ga) a bűnügyi nyilvántartásba vételi eljáráshoz szükséges informatikai igényeket, a felmerülő hibákat jelzik az illetékes informatikai egység vezetője felé,"
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "gb) a bűnügyi nyilvántartásba vételi eljáráshoz szükséges mintavételi, illetve egyéb eszköz- (arcképmás rögzítéséhez szükséges fényképezőgép, bűnügyi számtábla, előírt színárnyalatú háttér; ujj- és tenyérnyomat- vételhez szükséges papír, festék, henger; DNS-mintavételi eljáráshoz szükséges egységcsomag) igényüket jelzik a területileg illetékes műszaki egység vezetője felé,"
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "gc) a jogszabályi feltételeknek megfelelő, a bűnügyi nyilvántartásba vételi eljárás lefolytatására alkalmas helyiség kialakításával, fenntartásával kapcsolatos problémákat jelzik a területileg illetékes gazdasági egység vezetője felé."
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "III. A bűnügyi nyilvántartásba vételi eljárás során használható eszközök"
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "7. Az arcképmás rögzítéséhez a jogszabályokban és egyéb vonatkozó normákban meghatározott feltételeknek megfelelő eszközöket kell használni, amennyiben ezek nem biztosítottak, úgy a korábbi szabályozásnak megfelelően beszerzett eszközök használata is megengedett."
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "8. A gyanúsítottól és egyéb személytől történő ujj- és tenyérnyomatvétel során a krimináltechnikában e célra alkalmazott és rendszeresített eszközök használhatóak. A gyanúsítottól történő ujjnyomatvételhez kizárólag a Brnyr. által meghatározott adattartalmú ujjnyomatlapot lehet használni azzal, hogy a Brnyr. 3. számú mellékletében lévő ujjnyomatlap kizárólag abban az esetben alkalmazható, ha a Robotzsaru NEO-rendszer meghibásodása miatt az ujjnyomatlap kinyomtatása nem lehetséges. Tenyérnyomatvételhez a Robotzsaru NEO-rendszerben szereplő és kinyomtatott tenyérnyomatlap, vagy annak hiányában a megfelelő adatokkal kitöltött A/4 méretű másolópapír használható."
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "9. A helyszíni DNS-mintarögzítést, valamint a személyi DNS-mintavételt a BSZKI által előzetesen jóváhagyott eszközzel kell végezni."
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "IV. Az azonosító kódok"
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "Az egyedi azonosító kód"
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "10. Az egyedi azonosító kódot az ORFK Gazdasági Főigazgatóság Informatikai Fejlesztési Főosztály képezi, és azt a Robotzsaru NEO-rendszer a Bnytv. alapján meghatározott adatlapokon jeleníti meg."
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "11. A Bnyr. 1. számú melléklete szerinti – „Adatközlés a büntetőeljárási cselekményekről” című – 1. számú adatlapra (a továbbiakban: 1. számú adatlap) a Robotzsaru NEO által generált arckép egyedi azonosító kerül fel."
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "12. Az arcképmások egyedi azonosító kódjait az arcképmásrögzítés során az 1. számú adatlap 3.1. mezőjében kell feltüntetni."
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "A belső azonosító kód"
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "13. A daktiloszkópiai nyilvántartás belső azonosító kód számkontingensét a BSZKI adja meg a Robotzsaru NEO-rendszer részére. Rendszerzavar esetén az ujjnyomatlapokhoz felhasználásra kerülő belső azonosító kódot tartalmazó vonalkódos etikett címkéket a BSZKI megfelelő példányban elkészíti, és továbbítja a területi szervek hivatalai részére. A vonalkódokat kizárólag a gyanúsított személyek nyomatait tartalmazó ujjnyomatlapokhoz lehet felhasználni."
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "14. A hivatali szakszolgálatok a 13. pontban meghatározott vonalkódos etikett címkéket igény szerint elosztják az illetékességi területükön mintavételre jogosult rendőri szervek között."
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "15. A DNS-profil nyilvántartási belső azonosító kód megegyezik a nyilvántartásba vétel céljára felhasznált DNS-mintavételi egységcsomag külső csomagolásán található vonalkód számsorával."
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "16. A belső azonosító kód a BSZKI és a KEKKH által nyilvántartott adatok egymáshoz rendelése céljából készül. A vonalkódos etikett címke használata esetén a vonalkód számsorát a Robotzsaru NEO-rendszerben az 1. számú adatlap „3.2. Belső azonosító kód ujj- és tenyérnyomathoz”, valamint „3.3. Belső azonosító kód DNS-mintához” elnevezésű mezőjébe kell pontosan beírni."
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "V. A gyanúsított személyről történő arcképmás készítésének részletes szabályai"
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "17. Az arcképmásrögzítést kizárólag olyan személy végezheti, aki munkaköri leírásában rögzített munkaköre keretében a nyilvántartásba vételi tevékenység végzésére jogosult, és erre a tevékenységre irányuló képzésben részesült."
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "18. Az eljáró szerv – a Bnytv. 6. § (2) bekezdésében meghatározott esetek kivételével – a megalapozott gyanú közlését követően haladéktalanul köteles gondoskodni az arcképmás elkészítéséről gondatlan és szándékos bűncselekmény esetén egyaránt."
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "19. Az arcképmás rögzítését az 1. számú melléklet alapján kell végrehajtani."
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "20. Az arcképmás rögzítését végző személy az elkészített arcképmásokat a Robotzsaru NEO-rendszerben – az egyedi azonosító kód karaktereinek figyelembevételével – az adott ügyben a megfelelő személyhez haladéktalanul rögzíti annak érdekében, hogy a KEKKH felé történő adatszolgáltatás három munkanapon belül teljesülhessen."
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "21. A visszaküldött arcképmás ismételt rögzítését a visszajelzésről készült irat iktatását követően haladéktalanul végre kell hajtani."
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "VI. A gyanúsítottól történő ujj- és tenyérnyomat vételének részletes szabályai"
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "22. Az ujj- és tenyérnyomatvételt kizárólag olyan személy végezheti, aki munkaköri leírásában rögzített munkaköre keretében a nyilvántartásba vételi tevékenység végzésére jogosult, és erre a tevékenységre vonatkozó képzésben részesült."
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "23. A Bnytv. 44. § (1) bekezdésben felsorolt bűncselekmény elkövetésének megalapozott gyanúja miatt büntetőeljárás alá vont személyektől ujj- és tenyérnyomatot kell rögzíteni a 8. pontban meghatározott eszközökkel, a 2. számú mellékletben meghatározott módon."
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "24. A nem megfelelően rögzített, a BSZKI által visszaküldött ujj- és tenyérnyomatok ismételt rögzítését a Brnyr. 7. § (4) bekezdése szerint kell elvégezni. Az ismételt nyomatolást a visszajelzésről készült irat iktatását követően haladéktalanul végre kell hajtani. A megismételt nyomatolást az ügyben a Robotzsaru NEO-rendszerben lévő, az eredeti belső azonosító kóddal ellátott nyomatlapra, annak újbóli kinyomtatását követően kell elvégezni. Amennyiben a nem megfelelő nyomatvétel vonalkódos etikett címkével ellátott nyomatlapra történt, az ismételt nyomatvétel során a felhasználásra kerülő nyomatlapra az eredeti lapon szereplő vonalkód számsorát (belső azonosító kódot) kell a „Belső azonosító” mezőbe írni. A BSZKI felé az adatszolgáltatást a megismételt mintavételt követően, az elkészített ujj- és tenyérnyomatlappal és a visszaküldött (nem megfelelő) ujj- és tenyérnyomatlappal együtt kell teljesíteni."
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "25. Amennyiben az ismételt nyomatolás nem lehetséges, úgy annak tényéről és okáról a BSZKI-t írásban értesíteni kell."
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "VII. A gyanúsítottól történő DNS-minta vételének részletes szabályai"
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "26. DNS-profil meghatározása céljából a mintavételt kizárólag olyan személy végezheti, aki munkaköri leírásában rögzített munkaköre keretében a nyilvántartásba vételi tevékenység végzésére jogosult, és erre a tevékenységre vonatkozó képzésben részesült."
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "27. A Bnytv. 59. §-ában meghatározott bűncselekmény elkövetésének megalapozott gyanúja miatt büntetőeljárás alá vont személyektől a DNS-mintavételt a BSZKI által a személyi DNS-mintavételre jóváhagyott és biztosított eszközzel kell végezni, az oktatott, illetőleg a mintavételi csomagban levő használati utasításban meghatározott módon."
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "28. A személyi DNS-mintavételi egységcsomagot kizárólag a gyanúsítottól – nyilvántartásba vétel céljából – történő szájnyálkahártya-törlet biztosítására lehet használni."
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "29. A mintavételről az eljáró szerv a megalapozott gyanú közlését követően haladéktalanul gondoskodik."
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "30. A DNS-mintavételt megelőzően a kizárólag nyilvántartásba vétel céljára felhasználható DNS-mintavételi egységcsomagot a gyanúsított kihallgatását végző előadó átveszi a mintavételi egységcsomagok tárolásával megbízott személytől."
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "31. A mintavételt megelőzően a mintaadásra kötelezett személyt tájékoztatni kell arról, hogy a szájnyálkahártya-törlet levételének célja a DNS-elemzés."
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "32. A mintavétel abban az esetben kezdhető meg, ha"
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "a) a mintavétel alapjául szolgáló bűnügy már rendelkezik végleges ügyszámmal (bü.);"
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "b) a mintavételt végző személy ellenőrizte a mintavételi egységcsomagban a belső azonosító kódok hiánytalan meglétét;"
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "c) a DNS-mintavételi adatlap a Robotzsaru NEO-rendszerből kinyomtatásra került, azt a mintát vevő személy ellátta egy darab belső azonosító kóddal, vagy rendszerhiba esetén az egységcsomagban lévő mintavételi adatlapot a mintát vevő személy kitöltötte és ellátta egy darab belső azonosító kóddal;"
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "d) a mintavétel technikai feltételei biztosítottak."
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "33. Nem megfelelő DNS-minta esetén a mintavételt a Brnyr. 7. § (4) bekezdése alapján meg kell ismételni. Az ismételt rögzítést a visszajelzésről készült irat iktatását követően haladéktalanul végre kell hajtani. A megismételt DNS-mintavételt követően a BSZKI-t az előzményi adatokra hivatkozva írásban értesíteni kell. Az ismételt mintavételből adódó belső azonosító kód változás átvezetése céljából az új belső azonosító kódot tartalmazó 1. számú adatlap ismételt előállításával a KEKKH-t értesíteni kell. Amennyiben az ismételt mintavétel nem lehetséges, erről a BSZKI-t írásban értesíteni kell."
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "A DNS-mintavevő egységcsomagok tárolásának, kiadásának rendje"
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "34. A DNS-mintavételi egységcsomagokat a központi beszerzést követően a BSZKI osztja el. A nyomozó szerv vezetője köteles kijelölni a tárolásért, a kiadásért és nyilvántartásért felelős személyt."
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "35. Az egységcsomagok átadása, átvétele, tárolása és továbbítása során a következők szerint kell eljárni:"
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "a) a csomagok átvétele az egységcsomagon található vonalkód alatt lévő számsor (belső azonosító kód) szerint történik, amelyet az átvételi okmányokon (utalványon) is fel kell tüntetni, ennek másolatát főnyilvántartási számmal ellátott nyilvántartókönyv mellékleteként kell kezelni;"
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "b) az egységcsomagok vonalkódjának számsorát nyilvántartókönyvbe kell bevezetni;"
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "c) a csomagokat további felhasználás céljából az adatszolgáltatásra kötelezett szervezeti egységek, szervezeti elemek részére kell átadni;"
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "d) az átadást a nyilvántartókönyvben dokumentálni kell;"
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "e) az egységcsomagokat elzárva kell tárolni."
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "36. Az egységcsomagok felhasználását, rongálódását, továbbá a feldolgozó szerv részére történő megküldését úgy kell dokumentálni, hogy a csomagok helye, útja egyértelműen megállapítható, követhető legyen."
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "37. Rontott, szennyeződött minta esetén, vagy ha az egységcsomag hiányos, illetve bármely eleme sérült, megrongálódott, a csomagot megsemmisítés céljából a BSZKI-nak kell megküldeni. A megsemmisítés, valamint annak dokumentálása a BSZKI feladata."
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "VIII. Az adatközlés közös szabályai"
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "38. A mintaadásra kötelezett személlyel a megalapozott gyanú közlésekor készült, „Jegyzőkönyv gyanúsított kihallgatásáról” című iratban (a továbbiakban: gyanúsítotti jegyzőkönyv) írásba foglalva közölni kell a mintavételt megelőzően, hogy:"
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "a) arcképmás készítésére, ujj- és tenyérnyomat, illetve DNS-minta levételére kerül sor;"
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "b) a DNS-minta (szájnyálkahártya-törlet) levételi célja a DNS-elemzés."
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "39. Ha a megalapozott gyanú alapjául szolgáló büntetőeljárásban korábban csak arcképmáskészítés történt, de a megváltozott minősítés miatt indokolt ujj- és tenyérnyomatvétel, illetve DNS-mintavétel, úgy kizárólag azt kell végrehajtani, amelyre nézve a Bnytv. 44. §-a vagy 59. §-a mintavételi kötelezettséget határoz meg. Ebben az esetben az adatközlés teljesülése érdekében a Robotzsaru NEO-rendszerben ismételten létre kell hozni az 1. számú adatlapot."
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "40. Az arcképmások és az 1. számú adatlap továbbküldésére való figyelmeztetést az ügyben a Robotzsaru NEO-rendszer jelzi, azzal, hogy a közvetlen (online) továbbítás a KEKKH felé csak az ügy előadójának jóváhagyásával (hitelesítés) történhet meg."
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "41. Az ügy előadója ellenőrzi, hogy az ügyben készített ujj- és tenyérnyomatlapok, valamint DNS-minta a rögzítést követő három munkanapon belül megküldésre kerültek-e, amennyiben nem, úgy ennek okáról soron kívül átiratban értesíti a KEKKH-t."
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "42. Megkeresés esetén az adatközlést az utasítás 53–68. pontjaiban foglaltak szerint kell végrehajtani."
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "Adatközlés a bűnügyi nyilvántartás részére"
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "43. A bűnügyi nyilvántartás részére – a Bnytv. 22. § (2) bekezdésében meghatározott esetek kivételével – minden gondatlan, illetve szándékos bűncselekmény esetén adatot kell szolgáltatni. Az adatszolgáltatást az 1. számú adatlap kitöltésével kizárólag a gyanúsított személyéhez kötötten kell teljesíteni."
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "44. Az adatszolgáltatást"
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "a) a megalapozott gyanú közlésének,"
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "b) a nyomozás felfüggesztéséről vagy megszüntetéséről hozott határozat esetén a jogorvoslatra nyitva álló határidő elteltének,"
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "c) a felfüggesztett nyomozás folytatását elrendelő határozathozatal,"
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "d) ha az nem esik egybe az a) alpont szerinti időponttal, az arcképmás rögzítésének"
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "napjától számított három munkanapon belül kell végrehajtani."
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "45. A megfelelően kitöltött 1. számú adatlapot a Robotzsaru NEO-rendszerben hitelesíteni kell ahhoz, hogy az elektronikus adatok a KEKKH felé továbbításra kerüljenek."
+    },
+    {
+      "provision_ref": "s107",
+      "section": "107",
+      "title": "107",
+      "content": "46. A ügyben eljáró nyomozó szerv a büntetőügyek egyesítése, illetve elkülönítése esetén a határozatok meghozatalát követő három munkanapon belül értesítést (átiratot) készít, amelyet megküld a KEKKH-nak."
+    },
+    {
+      "provision_ref": "s108",
+      "section": "108",
+      "title": "108",
+      "content": "47. A büntetőügy áttétele esetén az áttételt elrendelő nyomozó szerv, és az ügyet átvevő nyomozó szerv az átvett ügyről az áttétel és az átvétel napját követő három munkanapon belül értesítést készít, amelyet megküldi a KEKKH-nak."
+    },
+    {
+      "provision_ref": "s109",
+      "section": "109",
+      "title": "109",
+      "content": "Adatközlés a bűnügyi és rendészeti biometrikus adatok nyilvántartása részére"
+    },
+    {
+      "provision_ref": "s110",
+      "section": "110",
+      "title": "110",
+      "content": "48. A mintavételt végző személy legkésőbb a mintavételt követő munkanapon a gyanúsítottól levett, belső azonosító kóddal ellátott ujjnyomatlap két példányát, a tenyérnyomatlap egy-egy példányát, illetve a DNS-mintát tartalmazó egységcsomagot továbbítja az ügy előadójának."
+    },
+    {
+      "provision_ref": "s111",
+      "section": "111",
+      "title": "111",
+      "content": "49. Az ügy előadója a mintavételt követő három munkanapon belül gondoskodik a gyanúsítottól – nyilvántartásba vétel céljából – levett ujj- és tenyérnyomatlapok, valamint DNS-mintát tartalmazó egységcsomag BSZKI-nak történő megküldéséről."
+    },
+    {
+      "provision_ref": "s112",
+      "section": "112",
+      "title": "112",
+      "content": "50. A BSZKI részére értesítést (átiratot) kell készíteni, amelyet papír alapon meg kell küldeni:"
+    },
+    {
+      "provision_ref": "s113",
+      "section": "113",
+      "title": "113",
+      "content": "a) ha a nyomozás megszüntetésére vagy a büntetőeljárás jogerős befejezésére azért került sor, mert a nyilvántartásba vétel alapjául szolgáló cselekmény nem bűncselekmény vagy a nyomozás adatai alapján nem állapítható meg bűncselekmény elkövetése, és az eljárás folytatásától sem várható eredmény, úgy a határozat jogerőre emelkedésétől számított három munkanapon belül;"
+    },
+    {
+      "provision_ref": "s114",
+      "section": "114",
+      "title": "114",
+      "content": "b) ha a büntetőeljárásban megállapítható, hogy a bűncselekmény helyszínén rögzített, a daktiloszkópiai nyilvántartás részére korábban megküldött ujj- és tenyérnyom, vagy a DNS-profil nyilvántartásba vétele céljából megküldött DNS-mintából megállapított DNS-profil olyan személytől származik, aki nem hozható összefüggésbe a nyilvántartásba vétel alapjául szolgáló bűncselekmény elkövetésével, úgy ennek tényéről a büntetőeljárás befejezésétől számított három munkanapon belül."
+    },
+    {
+      "provision_ref": "s115",
+      "section": "115",
+      "title": "115",
+      "content": "Kényszerítés az arcképmás rögzítés, az ujj-tenyér nyomat és DNS-minta vétele során"
+    },
+    {
+      "provision_ref": "s116",
+      "section": "116",
+      "title": "116",
+      "content": "51. A mintavételt a mintaadásra kötelezett személy fizikai sértetlenségének biztosításával kell végezni. A mintaadásra kötelezett személy ellenszegülése esetén vele szemben testi kényszer alkalmazható, erről a mintavételt megelőzően a gyanúsítotti jegyzőkönyvben írásba foglalva tájékoztatni kell. A testi kényszer alkalmazására a Rendőrségről szóló törvény rendelkezéseit kell megfelelően alkalmazni."
+    },
+    {
+      "provision_ref": "s117",
+      "section": "117",
+      "title": "117",
+      "content": "52. A gyanúsítottat a mintavétel helyszínére kell kísérni. A mintavételen a mintaadásra kötelezett, a mintavételt végző személy, valamint a kísérő hivatásos állomány tagja van jelen."
+    },
+    {
+      "provision_ref": "s118",
+      "section": "118",
+      "title": "118",
+      "content": "IX. Megkeresések"
+    },
+    {
+      "provision_ref": "s119",
+      "section": "119",
+      "title": "119",
+      "content": "Rendőrségtől érkező megkeresés teljesítése"
+    },
+    {
+      "provision_ref": "s120",
+      "section": "120",
+      "title": "120",
+      "content": "53. A Rendőrségtől érkező megkeresés esetén a gyanúsítottat a Robotzsaru NEO-rendszerben általános ügyszámon, a bűnügyi ügyszámra való hivatkozással kell kihallgatni, majd a kihallgatását követően haladéktalanul meg kell tenni a nyilvántartásba vétel érdekében szükséges intézkedéseket."
+    },
+    {
+      "provision_ref": "s121",
+      "section": "121",
+      "title": "121",
+      "content": "54. A gyanúsítotti jegyzőkönyv hitelesítését követően az ujj- és tenyérnyomatlapot úgy kell kinyomtatni, hogy rajta legyen a megkereső szerv Robotzsaru NEO-rendszer által készített formátumú bűnügyi ügyszáma."
+    },
+    {
+      "provision_ref": "s122",
+      "section": "122",
+      "title": "122",
+      "content": "55. Arcképmás készítése esetén a V. fejezet rendelkezéseit jelen fejezetben meghatározott eltérésekkel kell alkalmazni, és az 1. számú melléklet szerint kell végrehajtani."
+    },
+    {
+      "provision_ref": "s123",
+      "section": "123",
+      "title": "123",
+      "content": "56. Ujj- és tenyérnyomatvétel esetén a VI. fejezet rendelkezéseit jelen fejezetben meghatározott eltérésekkel kell alkalmazni, és a 2. számú melléklet szerint kell végrehajtani."
+    },
+    {
+      "provision_ref": "s124",
+      "section": "124",
+      "title": "124",
+      "content": "57. DNS-mintavétel esetén a VII. fejezet rendelkezéseit jelen fejezetben meghatározott eltérésekkel kell alkalmazni és végrehajtani. A mintavételi jegyzőkönyv elkészítésekor ügyelni kell arra, hogy a megkereső szerv ügyszáma is szerepeljen rajta."
+    },
+    {
+      "provision_ref": "s125",
+      "section": "125",
+      "title": "125",
+      "content": "58. A keletkezett iratokat, az ujj- és tenyérnyomatlapot, a DNS-mintavételi egységcsomagot, valamint – szükség esetén – az arcképmásokat a megkeresés teljesítését követően haladéktalanul meg kell küldeni a megkereső szervnek. Az arcképmást elektronikus úton meg kell küldeni a megkereső szerv részére. A határidőre történő megküldésért a megkeresést teljesítő szerv felel."
+    },
+    {
+      "provision_ref": "s126",
+      "section": "126",
+      "title": "126",
+      "content": "59. A megkereső szerv részéről az ügy előadója a beérkezett adatok alapján a Robotzsaru NEO-rendszerben elektronikusan előállítja az 1. számú adatlapot, illetve – amennyiben mintavételre is sor került – a BSZKI részére is teljesíti az adatszolgáltatást."
+    },
+    {
+      "provision_ref": "s127",
+      "section": "127",
+      "title": "127",
+      "content": "Egyéb hatóságtól érkező megkeresés teljesítése"
+    },
+    {
+      "provision_ref": "s128",
+      "section": "128",
+      "title": "128",
+      "content": "60. Az ügyészség vagy a katonai nyomozó hatóság részére (a továbbiakban: megkereső hatóság) arcképmás rögzítését, ujj- és tenyérnyomat, vagy DNS-minta vételét, az ujj- és tenyérnyom vagy a DNS-minta rögzítését a megkeresett hatóság székhelye szerint illetékes rendőrkapitányság végzi."
+    },
+    {
+      "provision_ref": "s129",
+      "section": "129",
+      "title": "129",
+      "content": "61. A gyanúsított megjelenéséről – a szabadlábon lévő gyanúsított idézésével vagy a fogva lévő terhelt előállításának elrendelésével – a megkereső hatóság gondoskodik. A fogva lévő gyanúsítottat – kivéve, ha a szabadságvesztés megkezdését követően kerül sor a büntetőeljárásra – a megkereső hatóság székhelye szerint illetékes helyi rendőrkapitányság kíséri át."
+    },
+    {
+      "provision_ref": "s130",
+      "section": "130",
+      "title": "130",
+      "content": "62. Az arcképmás rögzítése és a mintavétel csak akkor teljesíthető, ha a megkereső hatóság a mintavétel elvégzéséhez előzetesen megküldi a személyes és bűncselekményi adatokkal megfelelően kitöltött 1. számú adatlapot, és két példányban az ujjnyomat-, illetve egy-egy példányban a tenyérnyomatlapot. A vonalkódokról – amennyiben hiányoznak az ujjnyomatlapokról – az illetékes rendőrkapitányság köteles gondoskodni."
+    },
+    {
+      "provision_ref": "s131",
+      "section": "131",
+      "title": "131",
+      "content": "63. A megkeresést teljesítő szerv előadója – amennyiben a Robotzsaru NEO-ban nincs lehetőség az 1. számú adatlap kitöltésére – az „Arcképmás kísérő adatlap” elnevezésű, általános ügyiratszámra iktatott iratot állítja elő a megkereső hatóság ügyszámára való hivatkozással."
+    },
+    {
+      "provision_ref": "s132",
+      "section": "132",
+      "title": "132",
+      "content": "64. Arcképmásrögzítés esetén az 1. számú melléklet szerint kell eljárni."
+    },
+    {
+      "provision_ref": "s133",
+      "section": "133",
+      "title": "133",
+      "content": "65. Az arcképmásokat nem kell a Robotzsaru NEO-rendszerben rögzíteni, kizárólag elektronikus úton vagy adathordozón kell visszaküldeni a megkereső hatóságnak három munkanapon belül az ujj- és tenyérnyomatlappal, a DNS-mintavételi egységcsomaggal és az 1. számú adatlappal együtt."
+    },
+    {
+      "provision_ref": "s134",
+      "section": "134",
+      "title": "134",
+      "content": "66. Ujjnyomatvétel esetén a 2. számú melléklet szerint kell eljárni. A vonalkódot az ujjnyomatlapra és az 1. számú adatlap 3.2. mezőjére is fel kell ragasztani."
+    },
+    {
+      "provision_ref": "s135",
+      "section": "135",
+      "title": "135",
+      "content": "67. DNS-mintavétel esetén a VII. fejezet rendelkezéseit jelen címben meghatározott eltérésekkel kell alkalmazni és végrehajtani. A megkereső hatóság ügyiratszámát a DNS-mintavételi egységcsomagban lévő mintavételi jegyzőkönyvre is fel kell vezetni. A vonalkódot a mintavételi jegyzőkönyvre, valamint az 1. számú adatlap 3.3. mezőjére kell ragasztani."
+    },
+    {
+      "provision_ref": "s136",
+      "section": "136",
+      "title": "136",
+      "content": "68. Az arcképmás nem megfelelő rögzítését, illetve a nem megfelelő ujj- és tenyérnyomatvételt, DNS-mintavételt – a mintavételt végző szerv költségére – meg kell ismételni."
+    },
+    {
+      "provision_ref": "s137",
+      "section": "137",
+      "title": "137",
+      "content": "X. A bűncselekménnyel összefüggésben rögzített nyomokkal, anyagmaradványokkal kapcsolatos szabályok"
+    },
+    {
+      "provision_ref": "s138",
+      "section": "138",
+      "title": "138",
+      "content": "69. A nyomozási cselekményekkel összefüggésben rögzített ujj- és tenyérnyom esetében az adatszolgáltatás teljesítése érdekében – amennyiben a nyomozást végző szerv arról dönt, hogy a rögzített ujj- és tenyérnyom nyilvántartásba vételét kezdeményezi – a bűnügyi és rendészeti biometrikus adatok nyilvántartása részére a rögzítést követő három munkanapon belül megküldi az ügy előadója az alábbiakat:"
+    },
+    {
+      "provision_ref": "s139",
+      "section": "139",
+      "title": "139",
+      "content": "a) a Robotzsaru NEO-rendszerben elkészített „Adatlap nyomrögzítésről” című nyomtatványt (egyedi azonosító kódok kitöltése nélkül);"
+    },
+    {
+      "provision_ref": "s140",
+      "section": "140",
+      "title": "140",
+      "content": "b) a BSZKI részére a nyilvántartásba vétel kezdeményezéséről szóló szakértő kirendelő határozatot;"
+    },
+    {
+      "provision_ref": "s141",
+      "section": "141",
+      "title": "141",
+      "content": "c) a krimináltechnikai tevékenységre vonatkozó normák ajánlásai szerint rögzített, hitelesített és csomagolt ujj- és tenyérnyomokat."
+    },
+    {
+      "provision_ref": "s142",
+      "section": "142",
+      "title": "142",
+      "content": "70. Amennyiben a nyomozást végző szerv arról dönt, hogy a rögzített ismeretlen DNS-anyagmaradvány nyilvántartásba vételét a Bnytv. 54. § (1) bekezdés alapján kezdeményezi, úgy a DNS-profil megállapításra a Bnytv. 57. § (1) bekezdés alapján a szakterületek ágazati követelményeiért felelős szervek kijelöléséről, valamint a meghatározott szakkérdésekben kizárólagosan eljáró és egyes szakterületeken szakvéleményt adó szervekről szóló kormányrendeletben (a továbbiakban: Kormányrendelet) meghatározott szervet kell kirendelni."
+    },
+    {
+      "provision_ref": "s143",
+      "section": "143",
+      "title": "143",
+      "content": "71. A DNS-profil meghatározása céljából kirendelt szerv részére az ügy előadója megküldi:"
+    },
+    {
+      "provision_ref": "s144",
+      "section": "144",
+      "title": "144",
+      "content": "a) a Robotzsaru NEO-rendszerben elkészített „Adatlap nyomrögzítésről” című nyomtatványt;"
+    },
+    {
+      "provision_ref": "s145",
+      "section": "145",
+      "title": "145",
+      "content": "b) szakértő kirendelő határozatot;"
+    },
+    {
+      "provision_ref": "s146",
+      "section": "146",
+      "title": "146",
+      "content": "c) a helyszínen a rendszeresített mintavevő eszközzel és/vagy eredetben rögzített, hitelesített, előírásoknak megfelelően csomagolt anyagmaradványt, bűnjeltárgyat."
+    },
+    {
+      "provision_ref": "s147",
+      "section": "147",
+      "title": "147",
+      "content": "72. A kirendelő határozatban a bűnügyi és rendészeti biometrikus adatok nyilvántartás részére teljesítendő adatszolgáltatásról minden esetben rendelkezni kell a kirendelt szerv felé."
+    },
+    {
+      "provision_ref": "s148",
+      "section": "148",
+      "title": "148",
+      "content": "XI. Ismeretlen személyazonosságú elhunyt személlyel kapcsolatos mintavétel és adatközlés rendje"
+    },
+    {
+      "provision_ref": "s149",
+      "section": "149",
+      "title": "149",
+      "content": "73. Az ismeretlen személyazonosságú elhunyt azonosítása érdekében, valamint szükség esetén a rendkívüli haláleset miatt folyó közigazgatási hatósági eljárásban ujj- és tenyérnyomat, valamint DNS-minta levételére kell intézkedni."
+    },
+    {
+      "provision_ref": "s150",
+      "section": "150",
+      "title": "150",
+      "content": "74. Az ujj- és tenyérnyomat levételére, valamint a DNS-minta rögzítésére a holttest állapotának megfelelő krimináltechnikai módszert kell alkalmazni. A módszer helyes megválasztásáért és a levétel szakszerűségéért a levételt végrehajtó személy felel. Amennyiben a körülmények indokolttá teszik, különös szakismerettel rendelkező személyt (pl.: boncmester) kell igénybe venni."
+    },
+    {
+      "provision_ref": "s151",
+      "section": "151",
+      "title": "151",
+      "content": "75. A levett ujjnyomatokat a 2. pont f) alpontjában meghatározott ujjnyomatlap megfelelő mezőiben kell elhelyezni. Az ujjnyomatlapot, a tenyérnyomatlapot és a csomagolóanyagot is piros színű, „FERTŐZÉSVESZÉLY!” felirattal kell ellátni."
+    },
+    {
+      "provision_ref": "s152",
+      "section": "152",
+      "title": "152",
+      "content": "76. Közigazgatási hatósági eljárás során az ismeretlen holttestről rögzített ujj- és tenyérnyomatokat összehasonlítás céljából meg kell küldeni a BSZKI részére. Ebben az esetben a bűnügyi és rendészeti biometrikus adatok nyilvántartása részére helyszíni nyom adatlapot nem kell készíteni."
+    },
+    {
+      "provision_ref": "s153",
+      "section": "153",
+      "title": "153",
+      "content": "77. Amennyiben a közigazgatási hatósági eljárásban az ismeretlen holttesttől levett ujj- és tenyérnyomat daktiloszkópiai nyilvántartásban történő keresésre nem alkalmas, úgy a holttestből rögzített DNS-mintából a bűnügyi és rendészeti biometrikus adatok nyilvántartásában való keresésre alkalmas profil meghatározására a Kormányrendeletben meghatározott szervet kell kirendelni. A végzésben a bűnügyi és rendészeti biometrikus adatok nyilvántartásában történő összehasonlítás elvégzéséről is rendelkezni kell."
+    },
+    {
+      "provision_ref": "s154",
+      "section": "154",
+      "title": "154",
+      "content": "78. Amennyiben büntetőeljárás indul, úgy az ismeretlen személyazonosságú elhunyt személyről rögzített ujj- és tenyérnyomattal kapcsolatban a 69. pont, a DNS-mintával kapcsolatban a 71–72. pont szerint kell eljárni."
+    },
+    {
+      "provision_ref": "s155",
+      "section": "155",
+      "title": "155",
+      "content": "XII. Egyéb személytől való mintavétel rendje"
+    },
+    {
+      "provision_ref": "s156",
+      "section": "156",
+      "title": "156",
+      "content": "79. Mintavételt egyéb személytől kizárólag nyilvántartásba vételi tevékenység végzésére jogosult személy hajthat végre. A mintavételről jegyzőkönyvet kell kiállítani."
+    },
+    {
+      "provision_ref": "s157",
+      "section": "157",
+      "title": "157",
+      "content": "80. Egyéb személytől történő ujj- és tenyérnyomatvételhez vonalkódok felhasználásra nem kerülhetnek."
+    },
+    {
+      "provision_ref": "s158",
+      "section": "158",
+      "title": "158",
+      "content": "81. Egyéb személytől történő DNS-mintavételre elsősorban a helyszíni DNS anyagmaradvány rögzítésére rendszeresített egységcsomagot kell használni, annak hiányában alapvető követelmény, hogy a szájnyálkahártya-törlet biztosítására felhasználásra kerülő mintavételi eszköz steril legyen. A mintavétel során a mintavevőnek az egyszer használatos kesztyűt viselnie kell."
+    },
+    {
+      "provision_ref": "s159",
+      "section": "159",
+      "title": "159",
+      "content": "XIII. Oktatás, képzés"
+    },
+    {
+      "provision_ref": "s160",
+      "section": "160",
+      "title": "160",
+      "content": "82. A nyilvántartásba vételi tevékenység végzésére jogosító képzést folytatni, valamint annak elvégzéséről igazolást (tanúsítványt) kiállítani az oktatást végző szerv jogosult, amely a kiadott igazolásokról nyilvántartást vezet, a nyilvántartásba vételről értesítést küld a BSZKI-nak."
+    },
+    {
+      "provision_ref": "s161",
+      "section": "161",
+      "title": "161",
+      "content": "XIV. Záró és vegyes rendelkezések"
+    },
+    {
+      "provision_ref": "s162",
+      "section": "162",
+      "title": "162",
+      "content": "83. A Robotzsaru NEO-rendszer adatai, valamint az utasítás 6. pontja d) alpontjában meghatározott szempontok szerint elkészített jelentések alapján a központi szakmai irányítást végző szerv minden év február 5-ig elkészíti összefoglaló jelentését, és azt felterjeszti az ORFK bűnügyi főigazgatója részére."
+    },
+    {
+      "provision_ref": "s163",
+      "section": "163",
+      "title": "163",
+      "content": "84. A területi szerv köteles gondoskodni:"
+    },
+    {
+      "provision_ref": "s164",
+      "section": "164",
+      "title": "164",
+      "content": "a) a nyilvántartási tevékenységről szóló jogszabályok, valamint ezen utasításban foglalt feladatok végrehajtásához szükséges technikai háttér biztosításáról, valamint"
+    },
+    {
+      "provision_ref": "s165",
+      "section": "165",
+      "title": "165",
+      "content": "b) az eszközök javíttatásáról, cseréjéről, pótlásáról."
+    },
+    {
+      "provision_ref": "s166",
+      "section": "166",
+      "title": "166",
+      "content": "85. A bűnügyi nyilvántartásba vételi tevékenységhez használt közepes és nagy értékű speciális krimináltechnikai eszközöket központi ellátásként kell meghatározni egyszeri bekerülési értékként, majd évenkénti bekerülési és karbantartási értékként. Ennek végrehajtásáért az ORFK gazdasági főigazgatója, a szakmai szempontok érvényesítéséért a BSZKI igazgatója felelős."
+    },
+    {
+      "provision_ref": "s167",
+      "section": "167",
+      "title": "167",
+      "content": "86. Ezen utasítás október 1-jén lép hatályba."
+    },
+    {
+      "provision_ref": "s168",
+      "section": "168",
+      "title": "168",
+      "content": "Az arcképmásrögzítés módja"
+    },
+    {
+      "provision_ref": "s169",
+      "section": "169",
+      "title": "169",
+      "content": "A helyiség technikai követelményei"
+    },
+    {
+      "provision_ref": "s170",
+      "section": "170",
+      "title": "170",
+      "content": "A fényképek elkészítését olyan helyiségben kell végrehajtani, amely megfelel az arcképmáskészítés feltételeinek. Biztosítja a homogén világosszürke, sík, nem tükröződő hátteret. A képmezőben a fényképezett személyen kívül más tárgy, felirat, személy nem lehet. Az állóképen a háttérben a metrikus skálának látszódnia kell."
+    },
+    {
+      "provision_ref": "s171",
+      "section": "171",
+      "title": "171",
+      "content": "A metrikus skála méretezése egységesen minden arcképmáskészítő helyen fehér alapon fekete színű számokkal legyen jelölve. A fényképezés során állvánnyal kell biztosítani az egységes minőségű, éles, torzításmentes képalkotást."
+    },
+    {
+      "provision_ref": "s172",
+      "section": "172",
+      "title": "172",
+      "content": "Az arcképmások rögzítése"
+    },
+    {
+      "provision_ref": "s173",
+      "section": "173",
+      "title": "173",
+      "content": "Az arcképmások rögzítése során legalább 16,7 millió színfelbontású (24 bit/képpont), legalább 600Ű800 pixel képfelbontású, a szemek között legalább 120 pixel távolságú normál minőségű tömörítéssel készített digitális adatot kell létrehozni, amelynek mérete 1,2 megabájtnál nem lehet nagyobb. A fényképfelvételeket a fényképezőgép függőlegesre állított képsíkjával kell végrehajtani."
+    },
+    {
+      "provision_ref": "s174",
+      "section": "174",
+      "title": "174",
+      "content": "Az arcképmás mellképeinek rögzítésekor a gyanúsítottat olyan helyzetbe kell beállítani, hogy az így készült felvétel a lehető legjobb minőségű, és a célnak megfelelő legyen, a fenti paraméterek betartása mellett."
+    },
+    {
+      "provision_ref": "s175",
+      "section": "175",
+      "title": "175",
+      "content": "A gyanúsítottat úgy kell a háttér elé állítani (10–15 cm távolságra, támaszkodás nélkül), hogy a rendelkezésre álló eszközökkel biztosítani lehessen az árnyék- és torzításmentes felvétel készítését. A megvilágítást felső megvilágítással vagy alsó megvilágítással (ebben az esetben dobogó használata indokolt a világító berendezés eltakarásához) megfelelő villanó berendezéssel kell biztosítani úgy, hogy a fényesség ne legyen túltelített. Derítőeszköz használata megengedett. Egyéb digitális berendezés használata (eltérő intézkedésig) megengedett, amennyiben az így elkészült felvétel minőségileg nem kifogásolható."
+    },
+    {
+      "provision_ref": "s176",
+      "section": "176",
+      "title": "176",
+      "content": "A gyanúsítottat, kabát és sapka nélkül, amennyiben más ruházatot nem visel, akkor kabátban kell lefényképezni."
+    },
+    {
+      "provision_ref": "s177",
+      "section": "177",
+      "title": "177",
+      "content": "A gyanúsított szemeinek teljesen nyitva kell lenni, arckifejezése nem lehet szándékosan torzított, homloka és fülei, ha a viselettel nem ellentétes, a hajzattól szabadon legyenek, láttatva a homlokot és az arcélet. Ha a gyanúsított általában szemüveget visel (ide nem értve a napszemüveget), az arcképmásrögzítés során viselnie kell saját szemüvegét."
+    },
+    {
+      "provision_ref": "s178",
+      "section": "178",
+      "title": "178",
+      "content": "A terheltről három arcot ábrázoló felvételt és két egészalakos állóképet kell rögzíteni."
+    },
+    {
+      "provision_ref": "s179",
+      "section": "179",
+      "title": "179",
+      "content": "A három arckép készítése esetén a képeken szerepelnie kell azonosító táblának, vagy a digitális képen megjelenő digitális feliratnak, utóbbi (eltérő rendelkezésig) megjelenhet a képmező más részén is, amennyiben tartalmazza a tábla adattartalmát."
+    },
+    {
+      "provision_ref": "s180",
+      "section": "180",
+      "title": "180",
+      "content": "A nem digitális azonosító tábla cserélhető számrendszerrel rendelkezik."
+    },
+    {
+      "provision_ref": "s181",
+      "section": "181",
+      "title": "181",
+      "content": "Első számcsoport: nyilvántartási szám (nyilvántartókönyv sorszáma);"
+    },
+    {
+      "provision_ref": "s182",
+      "section": "182",
+      "title": "182",
+      "content": "Második számcsoport: fénykép készítésének éve;"
+    },
+    {
+      "provision_ref": "s183",
+      "section": "183",
+      "title": "183",
+      "content": "Harmadik számcsoport: fényképezett személy magassága centiméter mértékegységben meghatározva (amennyiben 2 karakternek van helye, úgy az utolsó két számjegyet kell jelölni pl. 183 cm esetén a 83-at)."
+    },
+    {
+      "provision_ref": "s184",
+      "section": "184",
+      "title": "184",
+      "content": "Negyedik számcsoport: nyilvántartásba vételt végző szerv kódja."
+    },
+    {
+      "provision_ref": "s185",
+      "section": "185",
+      "title": "185",
+      "content": "Egyéb feliratot az azonosító rész nem tartalmazhat."
+    },
+    {
+      "provision_ref": "s186",
+      "section": "186",
+      "title": "186",
+      "content": "Megengedett a korábbi törvényi szabályozás ideje alatt beszerzett, még működő eszközök használata, a megfelelő módosítások elvégzésével."
+    },
+    {
+      "provision_ref": "s187",
+      "section": "187",
+      "title": "187",
+      "content": "Az arcról készített fényképfelvételek elkészítését a következők szerint kell végrehajtani:"
+    },
+    {
+      "provision_ref": "s188",
+      "section": "188",
+      "title": "188",
+      "content": "– A rögzített arcképnek a függőlegesre állított képmező közepében kell elhelyezkednie, a képen a fej és az azonosító tábla töltse ki az egész képmezőt, a fej a képmező felső, a tábla alsó széle a képmező alsó szélére illesztve helyezkedjen el. A tábla a képkivágás 1/3-ánál nem lehet nagyobb, és úgy kell elhelyezni, hogy a tábla felső széle a megfelelő testhelyzetben lévő gyanúsított állcsúcsától függőlegesen lefele 10–12 cm-re kerüljön."
+    },
+    {
+      "provision_ref": "s189",
+      "section": "189",
+      "title": "189",
+      "content": "– 1. kép: a gyanúsított természetes fejtartással, egész testhelyzettel oldalnézetben szerepeljen úgy, hogy a fényképezőgép felé a jobb arcfele nézzen, fényképezőgép optikai tengelyére merőlegesen."
+    },
+    {
+      "provision_ref": "s190",
+      "section": "190",
+      "title": "190",
+      "content": "– 2. kép: a gyanúsított egyenes fejtartással, a fényképezőgép optikai tengelyére merőlegesen, szembenézetben kerüljön rögzítésre."
+    },
+    {
+      "provision_ref": "s191",
+      "section": "191",
+      "title": "191",
+      "content": "– 3. kép: a gyanúsított egyenes fejtartással, kissé jobbra fordított bal arcéllel kerüljön rögzítésre úgy, hogy teste a fényképezőgép optikai tengelyére merőlegesen helyezkedjen el, csak az arca forduljon el jobbra oly módon, hogy bal arcfele, valamint a füle is látható legyen."
+    },
+    {
+      "provision_ref": "s192",
+      "section": "192",
+      "title": "192",
+      "content": "Az egészalakos fényképfelvételek elkészítését a következők szerint kell végrehajtani:"
+    },
+    {
+      "provision_ref": "s193",
+      "section": "193",
+      "title": "193",
+      "content": "– 4. kép: egész alakot ábrázol, álló helyzetben szemből, úgy, hogy a gyanúsított magassága a háttérben rögzített metrikus skáláról leolvasható legyen."
+    },
+    {
+      "provision_ref": "s194",
+      "section": "194",
+      "title": "194",
+      "content": "– 5. kép: egész alakot ábrázol, álló helyzetben baloldalról úgy, hogy a gyanúsított magassága a háttérben rögzített metrikus skáláról leolvasható legyen."
+    },
+    {
+      "provision_ref": "s195",
+      "section": "195",
+      "title": "195",
+      "content": "Az arcképmást a RZs-NEO-ban történő rögzítést megelőzően, amennyiben szükséges, a megfelelő irányba (élőképnek megfelelően) el kell fordítani."
+    },
+    {
+      "provision_ref": "s196",
+      "section": "196",
+      "title": "196",
+      "content": "Egyedi azonosító jegyek (pl.: tetoválások, hegek) fényképezése"
+    },
+    {
+      "provision_ref": "s197",
+      "section": "197",
+      "title": "197",
+      "content": "A fényképfelvételeket a fenti megvilágító berendezések és fényképezési beállítások mellett oly módon kell elkészíteni, hogy az egyedi azonosító jelek elhelyezkedéséről először áttekintő felvétel készüljön. Ezt követően egyesével minden jelről külön-külön metrikus felvételt kell készíteni oly módon, hogy a bűnügyi nyilvántartásba vételhez az arcképmásrögzítés során használt, és egyező adattartamú azonosító tábla a kép függőleges vagy vízszintes síkjára illeszkedjen (függ az egyedi azonosító jegy elhelyezkedésétől), a fényképezőgép optikai tengelye merőleges legyen. A tábla hosszabb szélére a metrikus képekhez „cm” jelölésű mérőeszközt kell helyezni, és így kell a felvételeket elkészíteni."
+    },
+    {
+      "provision_ref": "s198",
+      "section": "198",
+      "title": "198",
+      "content": "Amennyiben az egyedi azonosító jegy intim helyen található, a fényképezést azonos nemű személy végezze."
+    },
+    {
+      "provision_ref": "s199",
+      "section": "199",
+      "title": "199",
+      "content": "Az ujj- és tenyérnyomatvétel módja"
+    },
+    {
+      "provision_ref": "s200",
+      "section": "200",
+      "title": "200",
+      "content": "Az ujj- és tenyérnyomatvételt megelőzően az alábbiakat kell végrehajtani:"
+    },
+    {
+      "provision_ref": "s201",
+      "section": "201",
+      "title": "201",
+      "content": "a) az ujjnyomatlapot két példányban ki kell nyomtatni a RZs-NEO-ból (kizárólag a mérőléccel és címerrel ellátott, méretarányos lap használható, rajta a személyes adatokkal és a nyilvántartásba vételt megalapozó bűncselekmény miatt indított büntetőeljárás ügyszámával, Btk. szerinti minősítésével),"
+    },
+    {
+      "provision_ref": "s202",
+      "section": "202",
+      "title": "202",
+      "content": "b) a tenyérnyomatlapot egy-egy példányban ki kell nyomtatni (jobb tenyér és bal tenyér, rajta a személyes adatokkal és a nyilvántartásba vételt megalapozó bűncselekmény miatt indított büntetőeljárás ügyszámával, azonban a tenyérnyomatlapra vonalkód nem kerülhet)."
+    },
+    {
+      "provision_ref": "s203",
+      "section": "203",
+      "title": "203",
+      "content": "A kitöltött ujj- és tenyérnyomatlapot a gyanúsítottnak, írni-olvasni nem tudó terhelt esetén a hatósági tanúnak, valamint az ujj- és tenyérnyomatot felvevő személynek egyaránt olvasható módon alá kell írnia."
+    },
+    {
+      "provision_ref": "s204",
+      "section": "204",
+      "title": "204",
+      "content": "Az ujj- és tenyérnyomat felvétele előtt a gyanúsított kezeit szappannal, meleg vízzel meg kell mosatni, és szárazra kell törölni. Ehhez szükséges tisztítószert és törlőeszközt és a mosdók tisztántartását folyamatosan biztosítani kell."
+    },
+    {
+      "provision_ref": "s205",
+      "section": "205",
+      "title": "205",
+      "content": "Az ujjnyomatok felvételét az ujjak befestékezését követően – az ujjnyomatlap első oldalának megfelelő rovataiban – az ujjak körömszéltől körömszélig történő átforgatásával kell elvégezni."
+    },
+    {
+      "provision_ref": "s206",
+      "section": "206",
+      "title": "206",
+      "content": "A rá- és az átforgatást a jobb hüvelykujjal kezdve – sorban haladva – a bal kisujjal befejezve kell végrehajtani."
+    },
+    {
+      "provision_ref": "s207",
+      "section": "207",
+      "title": "207",
+      "content": "Az együttes nyomatok rovatba a hüvelykujjakat egyenként, a többi ujjakat együttesen, átforgatás nélkül kell a papírra helyezni. Az ujjakat az együttes nyomaton úgy kell elhelyezni, hogy a két hüvelykujj a mező középen elosztott vonalai mellé kerüljön két oldalról, a négy ujjat együttesen pedig a maradék helyen úgy kell elhelyezni, hogy elférjen, ehhez megengedett az ujjak együttes elfordítása a középvonal irányába."
+    },
+    {
+      "provision_ref": "s208",
+      "section": "208",
+      "title": "208",
+      "content": "Ha valamelyik ujjról nem lehet nyomatot venni (hiányzik, csonkolt, roncsolt stb.), annak okát fel kell tüntetni a megfelelő mezőbe nyomtatással, kézi vagy gépi írással bejegyezve."
+    },
+    {
+      "provision_ref": "s209",
+      "section": "209",
+      "title": "209",
+      "content": "Amennyiben rendszerhiba miatt nem az RZsNEO-rendszerből kinyomtatott és belső azonosító kóddal automatikusan ellátott ujjnyomatlapra történt a mintavétel, a nyomatolás minőségének ellenőrzését követően a vonalkódokat az ujjnyomatlap mindkét példányának „Belső azonosító” mezőjébe fel kell ragasztani."
+    },
+    {
+      "provision_ref": "s210",
+      "section": "210",
+      "title": "210",
+      "content": "A bal és jobb kéz tenyérnyomatát egy-egy példányban külön, a RZs-NEO-ból kinyomtatott tenyérnyomatlapra kell felvenni. A jobb tenyérhez a jobb, a bal tenyérhez a bal mutatóujjat és tenyérélt is a megfelelő mezőben el kell helyezni. Amennyiben nem áll rendelkezésre a megfelelő mezőkkel kialakított tenyérnyomatlap, a tenyérél nyomatát a tenyérnyomattól jobbra, a mutatóujj nyomatát a jobb alsó sarokba kell felvenni."
+    },
+    {
+      "provision_ref": "s211",
+      "section": "211",
+      "title": "211",
+      "content": "A tenyérnyomat felvételénél a tenyér festékezését hengerrel kell végrehajtani úgy, hogy a bőrfodorszál-rajzolatok, valamint a tenyér minden része – a hüvelykujjpárna, a kisujjpárna, a csukló feletti rész, az ujjak alatti rész, valamint a tenyér közepe és az éle – összefüggően, jól látható legyen. Ehhez íves, erre a célra kialakított felületet kell használni. A festékhenger használatánál ügyelni kell arra, hogy az ujjakon és a tenyéren többletfestéket, csíkozást ne okozzon."
+    },
+    {
+      "provision_ref": "s212",
+      "section": "212",
+      "title": "212",
+      "content": "Az ujj- és tenyérnyomat lapokat összetűzni nem lehet, csak a gemkapocs használata megengedett."
+    },
+    {
+      "provision_ref": "s213",
+      "section": "213",
+      "title": "213",
+      "content": "Egyéb személy ujj- és tenyérnyomatvétele"
+    },
+    {
+      "provision_ref": "s214",
+      "section": "214",
+      "title": "214",
+      "content": "Bizonyítási eljárás és nyomozási cselekmény során rögzített ujj- és tenyérnyomok esetén a sértett és más vétlen személyekről – lehetőség szerint – a helyszínen kell az ujj- és tenyérnyomatot levenni."
+    },
+    {
+      "provision_ref": "s215",
+      "section": "215",
+      "title": "215",
+      "content": "Az ujj- és tenyérnyomatlapot 1 példányban a fenti rendelkezéseknek megfelelő módon, külön-külön lapra kell levenni."
+    },
+    {
+      "provision_ref": "s216",
+      "section": "216",
+      "title": "216",
+      "content": "A mintavétel után a kéztisztítási lehetőséget biztosítani kell. 1 Az utasítást a 35/2016. (XII. 22.) ORFK utasítás 85. pont b) pontja hatályon kívül helyezte 2017. január 1. napjával. 2 Az 1. pont b) alpontja a 13/2015. (VII. 10.) ORFK utasítás 52. pontjával megállapított szöveg. 3 A 2. pont a) alpontja a 13/2015. (VII. 10.) ORFK utasítás 53. pontjával megállapított szöveg. 4 A 10. pont a 13/2015. (VII. 10.) ORFK utasítás 54. pontja szerint módosított szöveg."
+    }
+  ]
+}

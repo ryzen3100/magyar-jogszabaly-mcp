@@ -1,0 +1,173 @@
+{
+  "id": "hu-law-2023-3-b0-4t",
+  "type": "statute",
+  "title": "3/2023. (V. 19.) OBH utasítás az Országos Bírósági Hivatal és a bíróságok elektronikus aláírási és elektronikus bélyegzési szabályzatáról",
+  "status": "in_force",
+  "in_force_date": "2023-07-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2023-3-B0-4T",
+  "description": "az Országos Bírósági Hivatal és a bíróságok elektronikus aláírási és elektronikus bélyegzési szabályzatáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § Ezen utasítás (a továbbiakban: szabályzat) célja az Országos Bírósági Hivatal (a továbbiakban: OBH) igazgatási, valamint a bíróságok igazságszolgáltatási és igazgatási tevékenysége során az elektronikus aláírás és az elektronikus bélyegző létrehozására, annak alkalmazására és az elektronikus aláírással és az elektronikus bélyegzővel hitelesített dokumentumok ellenőrzésére vonatkozó azon szabályok meghatározása, amelyek alapján az elektronikus aláírás és elektronikus bélyegző érvényesnek tekinthető az aláíró és címzett felek számára."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § (1) A szabályzat szervi hatálya a bíróságok szervezetéről és igazgatásáról szóló 2011. évi CLXI. törvény (a továbbiakban: Bszi.) 16. §-ában meghatározott bíróságokra és az OBH-ra terjed ki. (2) A szabályzat személyi hatálya az elektronikus aláírással és elektronikus bélyegzővel történő hitelesítésre jogszabály vagy belső szabályzat által feljogosított személyekre, az aláíró és bélyegző tanúsítványok igénylésében, visszavonásában, felfüggesztésében, visszaállításában, megújításában, nyilvántartásában közreműködőkre, az elektronikus aláírással, illetve elektronikus bélyegzővel hitelesített dokumentum címzettjére terjed ki. (3) A szabályzat tárgyi hatálya az arra jogosult személyek által létrehozott aláírással és bélyegzővel ellátott dokumentumok készítésére, kiadmányozására, elektronikus úton történő megküldésére, hitelességének és sérthetetlenségének ellenőrzésére, a küldő személy azonosítására, az aláíró és bélyegző tanúsítványok igénylésére, felfüggesztésére és a visszavonásával kapcsolatos intézkedésekre, az aláíró és bélyegző tanúsítványok nyilvántartására, illetve elektronikus aláírásnak és elektronikus bélyegzőnek a tárolt és elektronikus aláírással vagy elektronikus bélyegzővel ellátott dokumentumok hitelességének hosszú távú megőrzési kötelezettsége miatt szükséges archiválására, valamint az ezekkel összefüggő automatizmusokra terjed ki."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § E szabályzat alkalmazásában 1. aláíró: a belső piacon történő elektronikus tranzakciókhoz kapcsolódó elektronikus azonosításról és bizalmi szolgáltatásokról, valamint az 1999/93/EK irányelv hatályon kívül helyezéséről szóló, 2014. július 23-i 910/2014/EU európai parlamenti és tanácsi rendelet (a továbbiakban: eIDAS Rendelet) 3. cikk 9. pontjában meghatározott személy; 2. bizalmi szolgáltatás: az eIDAS Rendelet 3. cikk 16. pontja szerinti szolgáltatás; 3. címzett: az a bíróságokkal, illetve az OBH-val szolgálati jogviszonyban álló bíró, igazságügyi alkalmazott, akinek a feladó az iratot küldi; 4. elektronikus aláírás: az eIDAS Rendelet 3. cikk 10. pontjában meghatározott adat; 5. elektronikus aláírás létrehozásához használt adat: az eIDAS Rendelet 3. cikk 13. pontjában meghatározott adat; 6. elektronikus aláírást létrehozó eszköz: az eIDAS Rendelet 3. cikk 22. pontjában meghatározott eszköz; 7. elektronikus bélyegző: az eIDAS Rendelet 3. cikk 25. pontjában meghatározott adat; 8. elektronikus időbélyegző: az eIDAS Rendelet 3. cikk 33. pontjában meghatározott adat; 9. érvényesítés: az eIDAS Rendelet 3. cikk 41. pontjában meghatározott folyamat; 10. érvényességi lánc: az elektronikus ügyintézés és a bizalmi szolgáltatások általános szabályairól szóló 2015. évi CCXXII. törvény (a továbbiakban: E-ügyintézési tv.) 1. § 21. pontjában meghatározott dokumentum, lenyomat, információ; 11. hitelesítés-szolgáltató: az a természetes vagy jogi személy, aki bizalmi szolgáltatóként a szabályzatban meghatározott bizalmi szolgáltatásokat nyújtja; 12. kompromittálódás: olyan esemény, amely során az aláírás-létrehozó adat vagy az elektronikus aláírást létrehozó eszköz hozzáférését korlátozó PIN-kód illetéktelen személy birtokába jut; 13. tanúsítvány: az E-ügyintézési tv. 1. § 44. pontjában meghatározott tanúsítvány, igazolás; 14. tanúsítvány alanya: az E-ügyintézési tv. 1. § 43. pontjában meghatározott természetes személy."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) Az OBH és a bíróság az elektronikus ügyintézés során elektronikus formában készít iratokat, vagy papíralapú iratokról készít elektronikus másolatot, és azokat elektronikus aláírással és időbélyegzővel vagy elektronikus bélyegzővel és időbélyegzővel látja el. (2) Az OBH, illetve a bíróság nevében használt elektronikus aláírás tartalmazza az aláíró nevét és az OBH vagy az adott bíróság megnevezését (egyéni aláírás). (3) Az OBH, illetve a bíróság nevében használt elektronikus bélyegző tartalmazza az OBH vagy az adott bíróság megnevezését (szervezeti aláírás). (4) Az időbélyeg tartalmazza az időbélyegzett dokumentum lenyomatát, az időbélyegzés időpontját, és igazolja, hogy egy adott dokumentum egy adott időpillanatban már létezett. (5) Ha egy dokumentumon elektronikus aláírás és időbélyeg egyaránt szerepel, akkor az igazolja, hogy a dokumentumot az a személy írta alá, akinek a tanúsítványa az aláírásban szerepel, továbbá azt, hogy a dokumentumot az időbélyegben szereplő időpontban írta alá, és azt azóta nem változtatta meg. (6) Ha egy dokumentumon bélyegző és időbélyeg egyaránt szerepel, akkor az igazolja, hogy a dokumentumot az adott bíróság bocsátotta ki az időbélyegen szereplő időpontban, és a dokumentum tartalma azóta nem változott."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § (1) Aláírásra jogosult személy kizárólag elektronikus aláírást létrehozó eszköz birtokában és a hozzá tartozó PIN-kód megadásával, illetve a hitelesítés-szolgáltató által a kormányzati informatikai rendszerben biztosított, valamint az OBH, illetve a bíróság által bevezetett, aláírásra alkalmas szoftverrel hozhat létre elektronikus aláírást az elektronikus dokumentumon, és kizárólag statikus tartalmú dokumentumot hitelesíthet elektronikus aláírással és időbélyeggel. (2) Az elektronikus aláírás használatára jogosult személy az elektronikus aláírási jogosultságát kizárólag hivatali célból, igazgatási, valamint igazságszolgáltatási tevékenységével összefüggő feladata ellátása során alkalmazhatja. (3) Az aláíró nem hitelesítheti a dokumentumot, amennyiben az elektronikus aláírás érvényesítéshez szükséges információk nem szerezhetők be, különösen, ha az aláíró tanúsítvány állapota nem ellenőrizhető, továbbá ha az aláíró hálózati megszakadást tapasztal. (4) Az aláíró tanúsítvány érvényességét, valamint az abban rögzített adatok érvényességét és helyességét az aláíró köteles nyomon követni. (5) Az elektronikus aláírás használatára jogosult személy az elektronikus aláírást létrehozó eszköz használatát másnak nem adhatja át, köteles a részére kiadott elektronikus aláírást létrehozó eszközt és a hozzá tartotó PIN-kódot biztonságos, az illetéktelen hozzáférés ellen védelmet nyújtó helyen tárolni. Az elektronikus aláírás használatára jogosult személy az elektronikus aláírást létrehozó eszközért és az azon lévő tanúsítványokért, azok rendeltetésszerű használatáért fegyelmi és kártérítési felelősséggel tartozik. (6) Az elektronikus aláírást létrehozó eszköz vagy annak használatához szükséges PIN-kód elvesztése vagy az elektronikus aláírást létrehozó eszköz meghibásodása esetén soron kívül intézkedni kell a tanúsítvány visszavonásáról. Az elektronikus aláírást létrehozó eszköz elvesztését vagy meghibásodását az elektronikus aláírás használatára jogosult személy köteles a szolgálati út betartásával a munkáltatónak bejelenteni. A munkáltató az elektronikus aláírást létrehozó eszköz megjavítása vagy kicserélése iránt haladéktalanul intézkedik a hitelesítés-szolgáltatónál."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § (1) Az elektronikusan átvett dokumentumon a címzett mint az elektronikus aláírás vagy elektronikus bélyegző elfogadója az érvényességi lánc vizsgálatával elvégzi az elektronikus aláírás és az elektronikus bélyegző ellenőrzését. (2) Az ellenőrzése magában foglalja a) a dokumentum sértetlenségének, b) a tanúsítványnak, valamint c) az időbélyegnek az ellenőrzését. (3) Nem fogadható el az elektronikus aláírás vagy az elektronikus bélyegző, ha az elektronikus aláírás vagy az elektronikus bélyegző, az aláíró vagy bélyegző tanúsítvány, illetve az érvényességi lánc tanúsítványának valamely adata az elektronikus aláírás vagy az elektronikus bélyegző érvénytelenségére utal. (4) Amennyiben az elektronikus aláíráshoz időbélyegző van rendelve, annak ellenőrzése során az elektronikus aláírás vagy elektronikus bélyegző elfogadójának meg kell győződnie arról, hogy az időbélyegző valóban a lebélyegzett dokumentumhoz tartozik, valamint hogy az időbélyegző szolgáltató által elhelyezett, az időbélyeghez tartozó elektronikus aláírás vagy elektronikus bélyegző érvényes. (5) Nem fogadható el az időbélyeg, ha az időbélyegen elhelyezett elektronikus aláírás, az elektronikus bélyegző tanúsítványa vagy az érvényességi lánc tanúsítványának valamely adata annak érvénytelenségére utal. (6) Az elektronikus aláírás vagy elektronikus bélyegző állapotára vonatkozó ellenőrzés és az egyéb érvényességi feltételek megfelelősségének igazolása szoftveres és webes eszközök alkalmazásával is elvégezhető."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § (1) A hitelesítés-szolgáltató felé az aláíró tanúsítvány igénylése iránt a Bszi. 16. § (1) bekezdés a)–c) pontjában meghatározott bíróságok maguk intézkednek. Az OBH-ba beosztott bírák és igazságügyi alkalmazottak (a továbbiakban együtt: alkalmazott) vonatkozásában az aláíró tanúsítvány igénylését az OBH Informatikai és Elektronikus Ügyintézési Főosztálya intézi. (2) Az OBH, illetve a bíróság részére bélyegző tanúsítvány igénylése iránt az OBH Informatikai és Elektronikus Ügyintézési Főosztálya intézkedik. (3) Az aláíró vagy bélyegző tanúsítvány igénylése a hitelesítés-szolgáltató által meghatározott eljárásrendben történik. Az aláírásra jogosult személy aláírási jogának igazolása a hitelesítés-szolgáltató által előírt formában tett jognyilatkozatban történik. A kérelmeket az OBH és a Bszi. 16. § (1) bekezdés a)–c) pontjában meghatározott bíróság elnöke által kijelölt és a hitelesítés-szolgáltató által azonosított ügyintézők nyújtják be, és a folyamatba később a tanúsítványok alanyai is bekapcsolódnak. (4) A hitelesítés-szolgáltató által kibocsátott aláíró tanúsítványban szereplő adatokat haladéktalanul be kell vezetni a nyilvántartásba."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § Az aláíró és bélyegző tanúsítvány érvénytelen, és az elektronikusan aláírt vagy elektronikusan bélyegzett dokumentumot vissza kell utasítani, ha a) a tanúsítvány érvényességi lánca nem építhető fel egy megbízható hitelesítés-szolgáltatóig, illetve a hitelesítés-szolgáltató tanúsítványa kompromittálódott, b) a kiállított időbélyeghez tartozó tanúsítvány érvényességi lánca nem építhető fel egy megbízható hitelesítés-szolgáltatóig, illetve a hitelesítés-szolgáltató tanúsítványa kompromittálódott, c) az aláírás-létrehozó adat kompromittálódott, d) az aláíráshoz vagy a bélyegzőhöz, illetve az időbélyeghez tartozó tanúsítvány a hitelesítés-szolgáltató visszavonási listáján szerepel, e) a címzett tudomására jut, hogy az aláírás-létrehozó adat bizalmassága sérült, vagy azzal visszaélés történt, f) az elektronikus aláírás vagy elektronikus bélyegző alkalmazásakor használt algoritmusok nem megfelelőek vagy nem biztonságosak, g) az elektronikus aláírás vagy elektronikus bélyegzés egy olyan időpontban történt, amikor az aláíráshoz vagy bélyegzőhöz, illetve időbélyeghez tartozó tanúsítvány érvényessége lejárt, illetve a tanúsítvány még nem volt érvényes, h) a tanúsítványban szereplő adatok nem felelnek meg a valóságnak, i) az elektronikus aláíráshoz vagy elektronikus bélyegzőhöz kibocsátott tanúsítvány nem teljesíti az elektronikus ügyintézési szolgáltatások nyújtására felhasználható elektronikus aláíráshoz és bélyegzőhöz kapcsolódó követelményekről szóló 137/2016. (VI. 13.) Korm. rendeletben (a továbbiakban: Korm. rendelet) meghatározott követelményeket, j) a tanúsítványból hiányzik az aláíró neve."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § (1) A hitelesítés-szolgáltató felé a tanúsítványok felfüggesztése vagy visszavonása iránt aláíró tanúsítvány esetén saját alkalmazottja vonatkozásában az OBH Informatikai és Elektronikus Ügyintézési Főosztálya, illetve a Bszi. 16. § (1) bekezdés a)–c) pontjában meghatározott bíróság, bélyegző tanúsítvány esetén az OBH Informatikai és Elektronikus Ügyintézési Főosztálya intézkedik. (2) Az aláíró tanúsítvány visszavonása iránt kell intézkedni különösen, ha a) az aláírás-létrehozó adat vagy az elektronikus aláírást létrehozó eszköz hozzáférését korlátozó PIN-kód kompromittálódott, b) az elektronikus aláírást létrehozó eszköz elveszett, meghibásodott, c) a munkatárs nevében változás történt, d) a hitelesítés-szolgáltató adataiban változás történt, e) a hitelesítés-szolgáltató szolgáltatása megszűnt, f) az elektronikus aláírással rendelkező személy beosztása megváltozott, szolgálati viszonya, kiadmányozási vagy aláírási jogosultsága megszűnt. (3) A bélyegző tanúsítvány visszavonása iránt kell intézkedni különösen, ha a) a hitelesítés-szolgáltató adataiban változás történt, b) a hitelesítés-szolgáltató szolgáltatása megszűnt. (4) A (2) bekezdés a) pontja szerinti esetben az elektronikus aláírás használatára jogosult személy köteles az esetet haladéktalanul – a szolgálati út betartásával – a munkáltatónak bejelenteni. (5) A közvetlen vezető – a szolgálati út betartásával – a munkáltatónál kezdeményezi azon személy elektronikus aláírást létrehozó eszközének a visszavonását, akinek szolgálati viszonya, aláírási vagy kiadmányozási jogosultsága megszűnik. (6) A visszavonással a tanúsítvány véglegesen érvényét veszti, és a visszavont tanúsítvány alapján létrehozott elektronikus aláírás vagy bélyegző a továbbiakban dokumentumhitelesítésre nem alkalmas. (7) Az aláíró tanúsítványt fel kell függeszteni, ha a (2) bekezdés a) és b) pontja szerinti esetek gyanúja felmerült, továbbá ha az elektronikus aláírással rendelkező személy szolgálati viszonya szünetel, vagy az egyéb okból indokolt. (8) A tanúsítvány felfüggesztésének vagy visszavonásának tényét és annak időpontját haladéktalanul át kell vezetni a nyilvántartáson."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § (1) A visszaállítási igényt a közvetlen vezető – a szolgálati út betartásával – kezdeményezi a munkáltatónál, aki intézkedik a hitelesítés-szolgáltató felé az aláíró tanúsítvány felfüggesztésének megszüntetéséről. (2) A tanúsítvány felfüggesztése megszüntetésének tényét és időpontját haladéktalanul át kell vezetni a nyilvántartáson."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § (1) Az aláíró tanúsítvány megújítása érdekében a Bszi. 16. § (1) bekezdés a)–c) pontjában meghatározott bíróságok maguk intézkednek. Az OBH-alkalmazottak vonatkozásában a tanúsítvány megújítását az OBH Informatikai és Elektronikus Ügyintézési Főosztálya intézi. (2) A bélyegző tanúsítvány megújítása iránt az OBH Informatikai és Elektronikus Ügyintézési Főosztálya intézkedik. (3) A tanúsítvány megújítása során az aláíró vagy bélyegző tanúsítvány érvényességi ideje meghosszabbodik."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. § (1) Az aláíró tanúsítványokról saját alkalmazottai tekintetében az OBH Informatikai és Elektronikus Ügyintézési Főosztálya, illetve a Bszi. 16. § (1) bekezdés a)–c) pontjában meghatározott bíróság az általános adatvédelmi rendelet előírásainak figyelembevételével nyilvántartást vezet. (2) A bélyegző tanúsítványokról az OBH Informatikai és Elektronikus Ügyintézési Főosztálya az általános adatvédelmi rendelet előírásainak figyelembevételével nyilvántartást vezet. (3) Elektronikus aláírás esetén a nyilvántartás tartalmazza a) a tanúsítványt kibocsátó hitelesítés-szolgáltató nevét, b) a tanúsítvány típusát, sorszámát, c) a tanúsítvány alanyának nevét, beosztását, e-mail-címét, d) a munkáltató megnevezését, e) a tanúsítvány kibocsátásának és lejáratának időpontját, f) a tanúsítvány aktuális státuszát (érvényes, felfüggesztve, visszavonva, érvénytelen). (4) Elektronikus bélyegző esetén a nyilvántartás tartalmazza a) a tanúsítványt kibocsátó hitelesítés-szolgáltató nevét, b) a tanúsítvány típusát, sorszámát, c) a szervezet teljes nevét, d) a tanúsítvány kibocsátásának és lejáratának időpontját, e) a tanúsítvány aktuális státuszát (érvényes, felfüggesztve, visszavonva, érvénytelen). (5) A nyilvántartást úgy kell vezetni, hogy a tanúsítvány teljes élettörténete, valamennyi státusza, annak kezdete és vége időpontjának feltüntetésével visszakövethető legyen. (6) A Korm. rendelet 13. § (5) bekezdése és 14. § (5) bekezdése szerint közzéteendő adatokat az OBH és a Bszi. 16. § (1) bekezdés a)–c) pontjában meghatározott bíróság saját honlapján közzéteszi."
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. § (1) A tanúsítvány alanya az aláíró tanúsítványban rögzített személyes adataiban bekövetkezett változást köteles – a szolgálati út betartásával – a munkáltatónak bejelenteni. Az adatváltozásról a munkáltató haladéktalanul tájékoztatja a hitelesítés-szolgáltatót. (2) A bélyegző tanúsítványban rögzített szervezeti adatok megváltozásáról a munkáltató tájékoztatja a hitelesítés-szolgáltatót. (3) Az adatváltozás nyilvántartásban történő átvezetése iránt a munkáltató haladéktalanul intézkedik."
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14. §",
+      "content": "14. § (1) Az OBH és a bíróság az általa létrehozott és elektronikus aláírással vagy elektronikus bélyegzővel hitelesített dokumentumok tekintetében gondoskodik arról, hogy a bíróságok egységes iratkezelési szabályzata szerinti irattári tervben meghatározott megőrzési idő lejártáig az azokban foglaltak értelmezhetők (olvashatók) és visszakereshetők maradjanak, valamint azok az aláírás vagy bélyegzés időpontja szerinti változatlan formában legyenek elérhetőek. (2) Az OBH és a bíróság az archiválás során: a) védi a dokumentumok bizalmasságát és integritását, b) gondoskodik a jogosulatlan hozzáférés megakadályozásáról, c) kizárja az utólagos módosítás lehetőségét. (3) Amennyiben több dokumentumon egy elektronikus aláírás vagy bélyegző került elhelyezésre, akkor a megőrzési idő leteltéig a dokumentumokat együtt, egy fájlszerveren kell tárolni. (4) Az irattári tervben meghatározott megőrzési idő alatt gondoskodni kell az elektronikus aláírás és elektronikus bélyegző hosszú távú érvényesítéséhez szükséges információk, azaz az érvényességi lánc beszerzéséről és megőrzéséről, valamint szükség esetén időbélyegző elhelyezéséről az érvényességi láncon."
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15. §",
+      "content": "15. § Ez az utasítás 2023. július 1. napján lép hatályba."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "§ E szabályzat alkalmazásában 1. aláíró",
+      "definition": "a belső piacon történő elektronikus tranzakciókhoz kapcsolódó elektronikus azonosításról és bizalmi szolgáltatásokról, valamint az 1999/93/EK irányelv hatályon kívül helyezéséről szóló, 2014. július 23-i 910/2014/EU európai parlamenti és tanácsi rendelet (a továbbiakban: eIDAS Rendelet) 3. cikk 9. pontjában meghatározott személy",
+      "source_provision": "s3"
+    },
+    {
+      "term": "bizalmi szolgáltatás",
+      "definition": "az eIDAS Rendelet 3. cikk 16. pontja szerinti szolgáltatás",
+      "source_provision": "s3"
+    },
+    {
+      "term": "címzett",
+      "definition": "az a bíróságokkal, illetve az OBH-val szolgálati jogviszonyban álló bíró, igazságügyi alkalmazott, akinek a feladó az iratot küldi",
+      "source_provision": "s3"
+    },
+    {
+      "term": "elektronikus aláírás",
+      "definition": "az eIDAS Rendelet 3. cikk 10. pontjában meghatározott adat",
+      "source_provision": "s3"
+    },
+    {
+      "term": "elektronikus aláírás létrehozásához használt adat",
+      "definition": "az eIDAS Rendelet 3. cikk 13. pontjában meghatározott adat",
+      "source_provision": "s3"
+    },
+    {
+      "term": "elektronikus aláírást létrehozó eszköz",
+      "definition": "az eIDAS Rendelet 3. cikk 22. pontjában meghatározott eszköz",
+      "source_provision": "s3"
+    },
+    {
+      "term": "elektronikus bélyegző",
+      "definition": "az eIDAS Rendelet 3. cikk 25. pontjában meghatározott adat",
+      "source_provision": "s3"
+    },
+    {
+      "term": "elektronikus időbélyegző",
+      "definition": "az eIDAS Rendelet 3. cikk 33. pontjában meghatározott adat",
+      "source_provision": "s3"
+    },
+    {
+      "term": "érvényesítés",
+      "definition": "az eIDAS Rendelet 3. cikk 41. pontjában meghatározott folyamat",
+      "source_provision": "s3"
+    },
+    {
+      "term": "érvényességi lánc",
+      "definition": "az elektronikus ügyintézés és a bizalmi szolgáltatások általános szabályairól szóló 2015. évi CCXXII. törvény (a továbbiakban: E-ügyintézési tv.) 1. § 21. pontjában meghatározott dokumentum, lenyomat, információ",
+      "source_provision": "s3"
+    },
+    {
+      "term": "hitelesítés-szolgáltató",
+      "definition": "az a természetes vagy jogi személy, aki bizalmi szolgáltatóként a szabályzatban meghatározott bizalmi szolgáltatásokat nyújtja",
+      "source_provision": "s3"
+    },
+    {
+      "term": "kompromittálódás",
+      "definition": "olyan esemény, amely során az aláírás-létrehozó adat vagy az elektronikus aláírást létrehozó eszköz hozzáférését korlátozó PIN-kód illetéktelen személy birtokába jut",
+      "source_provision": "s3"
+    },
+    {
+      "term": "tanúsítvány",
+      "definition": "az E-ügyintézési tv. 1. § 44. pontjában meghatározott tanúsítvány, igazolás",
+      "source_provision": "s3"
+    },
+    {
+      "term": "tanúsítvány alanya",
+      "definition": "az E-ügyintézési tv. 1. § 43. pontjában meghatározott természetes személy.",
+      "source_provision": "s3"
+    }
+  ]
+}

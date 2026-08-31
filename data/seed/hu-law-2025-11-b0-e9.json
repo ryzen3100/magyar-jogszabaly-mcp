@@ -1,0 +1,120 @@
+{
+  "id": "hu-law-2025-11-b0-e9",
+  "type": "statute",
+  "title": "11/2025. (XI. 20.) LÜ utasítás az egyes ingatlan-nyilvántartási eljárásokkal kapcsolatos ügyészségi feladatokról",
+  "status": "in_force",
+  "in_force_date": "2025-12-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2025-11-B0-E9",
+  "description": "az egyes ingatlan-nyilvántartási eljárásokkal kapcsolatos ügyészségi feladatokról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § Az utasítás hatálya kiterjed valamennyi, az elektronikus ingatlan-nyilvántartási eljáráshoz és adatigényléshez kapcsolódó ügyészségi feladat ellátására."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § (1) Az utasítás alkalmazásában a) dokumentumkezelő rendszer: a Magyarország kiberbiztonságáról szóló 2024. évi LXIX. törvény 4. § 24. pont b) alpontja szerinti, az adott szervezeti egységnél alkalmazott, a dokumentumok kezelésére és megőrzésére szolgáló elektronikus információs rendszer, b) E-ing adminisztrátor: az ügyintézők jogosultságkezelését ellátó, erre kijelölt ügyészségi alkalmazott, c) elektronikus út: ügyészségi elektronikus dokumentumkezelő rendszeren keresztül történő irattovábbítás, d) eljáró ügyész: a hatósági határozatot meghozó ügyész, e) hatósági felhívás: az ügyész tény bejegyzése és törlése iránti felhívása, f) hatósági felhívás tárgya: az ügyészi felhívás és ügyészi fellépés tényének bejegyzésére irányuló eljárás, zár alá vétel tényének bejegyzésére és törlésére irányuló eljárás, g) hatóság határozata: az ügyész büntetőügyben hozott határozata, valamint az ingatlanügyi hatóság döntése vagy döntésének elmulasztása miatt benyújtott ügyészi felhívás, h) ügyészi felhívás: az ügyészség közérdekvédelmi feladatairól szóló 3/2012. (I. 6.) LÜ utasítás 32. §-a szerinti felhívás, i) ügyintéző: a hatósági felhívást teljesítő, a feladat ellátására kijelölt, jogász és államtudományi szakon oklevelet szerzett ügyészségi megbízott vagy ügyész. (2) Az utasításban nem szabályozott fogalmakra az ingatlan-nyilvántartásról szóló 2021. évi C. törvény (a továbbiakban: Inytv.) és az ingatlan-nyilvántartásról szóló 2021. évi C. törvény végrehajtásáról szóló 179/2023. (V. 15.) Korm. rendelet (a továbbiakban: Inyvhr.) rendelkezéseit kell alkalmazni."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) Az elektronikus ingatlan-nyilvántartási rendszerhez (a továbbiakban: E-ing rendszer) a központi elektronikus ügyintézési szolgáltatáson keresztül interfésszel történő csatlakozás, valamint a kapcsolat folyamatos fenntartása a Legfőbb Ügyészség Informatikai Főosztályának (a továbbiakban: Informatikai Főosztály) a feladata. (2) Az ügyészségi hozzáférés biztosításáért és a hozzáférések utólagos ellenőrzésének lehetővé tételéért az Informatikai Főosztály vezetője felelős. (3) Az Informatikai Főosztály naprakész nyilvántartást vezet az E-ing adminisztrátorokról és az ügyintézőkről."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) Az Informatikai Főosztály vezetője írásban kijelöli az E-ing adminisztrátori feladatot ellátó, az Informatikai Főosztályon szolgálatot teljesítő ügyészségi alkalmazottat. (2) Az Informatikai Főosztály vezetője jogosult az E-ing adminisztrátori kijelölést visszavonni, és helyette másik E-ing adminisztrátort kijelölni, feltéve, hogy az a folyamatos feladatellátást nem veszélyezteti. (3) Az Informatikai Főosztály vezetője az E-ing adminisztrátor kijelölésének visszavonásáról és az új E-ing adminisztrátor kijelöléséről egyidejűleg tájékoztatja a Legfőbb Ügyészség Közérdekvédelmi Főosztályát (a továbbiakban: Közérdekvédelmi Főosztály). (4) E-ing adminisztrátornak az jelölhető ki, aki a szükséges informatikai hozzáféréssel rendelkezik, és hozzájárul azonosító adatainak az Inytv. 20. § (2) és (5) bekezdése szerinti kezeléséhez."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § (1) A Közérdekvédelmi Főosztály vezetője írásban kijelöli a Közérdekvédelmi Főosztályon szolgálatot teljesítő ügyintézőt, egyúttal intézkedik a 6. § (1) bekezdése szerinti regisztráció elvégzése iránt. (2) A Közérdekvédelmi Főosztály vezetője jogosult az ügyintézői kijelölést visszavonni, és helyette másik ügyintézőt kijelölni, feltéve, hogy kijelölése a folyamatos feladatellátást nem veszélyezteti. (3) Ügyintézőnek az jelölhető ki, aki a szükséges informatikai hozzáféréssel rendelkezik, és hozzájárul azonosító adatainak az Inytv. 20. § (2) és (5) bekezdése szerinti kezeléséhez."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § (1) Az E-ing adminisztrátor a Közérdekvédelmi Főosztály vezetőjének írásbeli kijelölése alapján köteles az ügyintézőt az E-ing rendszerben haladéktalanul regisztrálni, a kijelölés visszavonása esetén pedig az ügyintézőt törölni. (2) Az E-ing adminisztrátor ellátja az E-ing rendszer adminisztrációjával kapcsolatos valamennyi feladatot."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. §"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. §"
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. §"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. §"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § (1) Az E-ing rendszerben hozzáférhető tulajdoni lap szemlét és másolatot, térképmásolatot és földkönyvet az ügyészségi felhasználó csak a hatásköre gyakorlása során, az ügy feldolgozásához szükséges körben és terjedelemben szerezheti be. (2) Az (1) bekezdés szerinti iratok lekérdezésének rendjét, valamint a lekérdezésre jogosultakat a szervezeti egység vezetője írásban szabályozza. (3) A szervezeti egység vezetője köteles szabályozni az ügyészségi alkalmazott által beszerzett, (1) bekezdés szerinti elektronikus iratok ügyészségi elektronikus dokumentumkezelő rendszerbe történő feltöltését. A másolatok lekérdezését minden esetben lekérdezésenként az ügy iratai között, a helyben szokásos módon, fel kell tüntetni."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. § (1) Az Informatikai Főosztály a 11. § szerinti lekérdezéseket szervezeti egységenként naplózza. A napló tartalmazza a lekérdezés tényét, időpontját, fajtáját, az érintett ügy ügyszámát, valamint a lekérdezést végrehajtó ügyészségi alkalmazott személyét. (2) Az Informatikai Főosztály az (1) bekezdés szerinti naplót tárgyhót követő harmadik munkanapig a szervezeti egység vezetője rendelkezésére bocsátja. (3) A szervezeti egység vezetője ellenőrzi a lekérdezés jogszerűségét és indokoltságát."
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. § (1) Az ingatlan-nyilvántartási iratok elektronikus úton történő beszerzésének lehetőségét az Informatikai Főosztály vezetője biztosítja. (2) Az ingatlan-nyilvántartási iratok beszerzésére hatáskörében és a szükséges mértékben az ügy előadója jogosult, azzal, hogy az ingatlan-nyilvántartási iratokat az ügyészségi elektronikus dokumentumkezelő rendszerben kell tárolni."
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14. §",
+      "content": "14. § A fellebbviteli főügyész, a főügyész és a Legfőbb Ügyészség érintett szervezeti egységének vezetője az eljáró ügyészre irányadó további részletszabályokat, valamint a felterjesztés rendjét a helyben szokásos módon szabályozza."
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15. §",
+      "content": "15. § (1) Ez az utasítás – a (2) bekezdésben foglalt kivétellel – 2025. december 1-jén lép hatályba. (2) A 3. alcím és a Melléklet az egyes agrártárgyú törvények módosításáról szóló 2024. évi LXXX. törvény 148. § (9) bekezdése szerinti határozattal megállapított naptári napon lép hatályba."
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16. §",
+      "content": "16. § (1) A 4. § (1) bekezdése és az 5. § (1) bekezdése szerinti kijelölést az utasítás hatálybalépését követő három munkanapon belül kell teljesíteni. (2) A 11. § (2) bekezdése és a 14. § szerinti szabályozást az utasítás hatálybalépésétől számított 15 napon belül kell elkészíteni."
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17. §",
+      "content": "17. §"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "(I. 6.) LÜ utasítás 32. §-a szerinti felhívás, i) ügyintéző",
+      "definition": "a hatósági felhívást teljesítő, a feladat ellátására kijelölt, jogász és államtudományi szakon oklevelet szerzett ügyészségi megbízott vagy ügyész. (2) Az utasításban nem szabályozott fogalmakra az ingatlan-nyilvántartásról szóló 2021. évi C. törvény (a továbbiakban: Inytv.) és az ingatlan-nyilvántartásról szóló 2021. évi C. törvény végrehajtásáról szóló 179/2023. (V. 15.) Korm. rendelet (a továbbiakban: Inyvhr.) rendelkezéseit kell alkalmazni.",
+      "source_provision": "s2"
+    }
+  ]
+}

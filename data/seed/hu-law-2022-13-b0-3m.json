@@ -1,0 +1,881 @@
+{
+  "id": "hu-law-2022-13-b0-3m",
+  "type": "statute",
+  "title": "13/2022. (V. 31.) BVOP utasítás a Járműkövető Rendszer működtetéséről",
+  "status": "repealed",
+  "in_force_date": "2022-06-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2022-13-B0-3M",
+  "description": "a Járműkövető Rendszer működtetéséről",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A jogalkotásról szóló 2010. évi CXXX. törvény 23. § (4) bekezdés c) pontja alapján – figyelemmel a Járműkövető Rendszer működtetéséről szóló 14/2021. (VIII. 31.) BM utasításra – a büntetés-végrehajtási szervezetben működtetett Járműkövető Rendszerről az alábbi utasítást adom ki:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "I. ÁLTALÁNOS RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "1. A Járműkövető Rendszer (a továbbiakban: JKR) működtetési kötelezettségének hatálya kiterjed"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "a) a Büntetés-végrehajtás Országos Parancsnokságára (a továbbiakban: BVOP), a büntetés-végrehajtási intézetekre és intézményekre (a továbbiakban együtt: bv. szerv),"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "b) a büntetés-végrehajtási szervezet (a továbbiakban: bv. szervezet) teljes személyi állományára,"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "c) a bv. szervezet tulajdonában, üzemeltetésében lévő gépjárművekre (a továbbiakban: szolgálati gépjármű)."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "II. SZEREPKÖRÖK, JOGOSULTSÁGOK ÉS FELADATOK"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "1. JKR szerepkörök"
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "2. A JKR felületen a feladat-végrehajtás az alábbi jogosultságok alapján történik:"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "a) a Büntetés-végrehajtás Gazdasági Ellátó Intézete (a továbbiakban: BV GEI) Gépjármű Osztály (a továbbiakban: BV GEI GO) vezetője és gépjármű főreferense (a továbbiakban: JKR Szakelőadó) a BV GEI GO állományában szolgálatot teljesítő teljes jogú JKR belügyi szervi adminisztrátor jogosultsággal rendelkezik,"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "b) a BVOP Műszaki és Ellátási Főosztály (a továbbiakban: MEF) főosztályvezető-helyettese a BVOP vonatkozásában JKR csoportadminisztrátori (a továbbiakban: JKR Csoportadminisztrátor) jogosultsággal rendelkezik. A BVOP, valamint az agglomerációs központokhoz tartozó bv. szervekért felelős JKR Csoportadminisztrátor a hozzá rendelt bv. szervek tekintetében JKR csoportadminisztrátori jogosultsággal rendelkezik,"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "c) a JKR felhasználó (a továbbiakban: JKR felhasználó) kizárólag az adott bv. szerv gépjárműveinek forgalmazási adataihoz fér hozzá a JKR felhasználói felületén (a továbbiakban: DashBoard felület),"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "d) nyílt parancs vagy megbízólevél alapján a JKR ellenőr adatlekérdezési lehetőséggel rendelkezik a JKR felületen,"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "e) az egyes bv. szervek kijelölt állományi tagjai csak JKR felhasználói szintű jogosultsággal rendelkezhetnek."
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "2. Jogosultságok"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "3. A JKR Szakelőadó jogosultságai"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "a) betekintési jogosultsággal rendelkezik valamennyi bv. szerv és a BVOP alapértelmezett hierarchia szint és különálló csoportok adataiba,"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "b) a DashBoard felületen valamennyi műveleti csempéről riportot kérhet le,"
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "c) az időszakosan vagy véglegesen átadott szolgálati gépjárművek adatait megoszthatja az átvevő bv. szervvel,"
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "d) robotriportot állíthat be az adatigény alapján,"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "e) a bv. szervek JKR Csoportadminisztrátorainak és a BVOP Felhasználóinak jogosultságot állíthat be és vonhat vissza,"
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "f) jogosult a JKR Csoportadminisztrátorok számára az elfelejtett jelszó helyett új jelszót beállítani a belépés érdekében."
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "4. A JKR Csoportadminisztrátor jogosultságai"
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "a) betekintési jogosultsággal rendelkezik az adott bv. szerv adataiba,"
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "b) a DashBoard felületen valamennyi műveleti csempéről riportot kérhet le, kivéve a tartós magáncélú igénybevételi engedéllyel rendelkező gépjármű WE Monitor térképen történő követésére,"
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "c) az időszakosan vagy véglegesen átadott szolgálati gépjármű adatait megoszthatja az átvevő bv. szervvel,"
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "d) robotriportot állíthat be az adatigény alapján,"
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "e) jogosult az adott bv. szerv JKR Felhasználói részére jogosultságot beállítani és visszavonni,"
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "f) jogosult az adott bv. szerv JKR Felhasználói számára az elfelejtett jelszó helyett új jelszót beállítani a belépés érdekében,"
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "g) a BVOP tulajdonában lévő gépjármű WE Monitor szerinti aktuális pozíció adatlekérdezését kizárólag a JKR Szakelőadó, valamint az erre feljogosított JKR Felhasználó jogosult végrehajtani."
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "5. A jogosultságkezelés szabályai:"
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "a) a JKR Felhasználó jogosultságai az érintett szakterület ügyrendjében kerülnek meghatározásra,"
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "b) az állandó informatikai (hardver és szoftver) hozzáférési jogosultság a feladatellátás érdekében biztosított,"
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "c) a BVOP Felhasználójának JKR-ben rögzített járműforgalmazási adatokhoz való hozzáférését, a Felhasználó kérelmére a BVOP MEF vezetőjének javaslatára, a BV GEI Felhasználójának JKR-ben rögzített járműforgalmazási adatokhoz való hozzáférését, a Felhasználó kérelmére a BV GEI GO vezetője engedélyezheti,"
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "d) a bv. szerv Felhasználójának JKR-ben rögzített járműforgalmazási adatokhoz való hozzáférését, a Felhasználó kérelmére a c) alpontban foglalt vezető kivételével a bv. szerv vezetője engedélyezheti,"
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "e) a BVOP, BV GEI és bv. szerv vonatkozásában a feladatszabó, ellenőrző és módosító tevékenységet a JKR felületen a JKR Szakelőadó a JKR Csoportadminisztrátorok közreműködésével hajthatja végre,"
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "f) a BV GEI kezeli, irányítja a bv. szervek gépjármű flottáját a JKR felületen,"
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "g) a DashBoard felületen elérhető WE Monitor jogosultság a tartós magáncélú engedéllyel rendelkező szolgálati gépjárművek, valamint a BVOP kezelésében lévő szolgálati gépjárművek térképi nyomon követésére szolgáló műveletet kizárólag a JKR Szakelőadó és a BVOP-n ellenőrzési feladatra kijelölt Felhasználók számára lehet elérhetővé tenni,"
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "h) a JKR Felhasználó a DashBoard felületen a részére és a feladatellátás szempontjából meghatározott jogosultságok alapján köteles feladatait végrehajtani."
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "3. Feladatok"
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "6. A JKR Szakelőadó feladatai"
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "a) átfogó ismerettel rendelkezik a JKR rendszer működésével és használatával kapcsolatban, képes hibaelemzésre, feltárásra, átfogóan ismeri a Felhasználói tudásszint igényt, képes felvenni a rendszerbe új járműveket, felhasználókat, csoportokat, ismeri a járműegységek beállíthatóságát, működését,"
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "b) a JKR üzemeltetése érdekében folyamatos kapcsolatot tart a Belügyminisztérium JKR Adminisztrátorával (a továbbiakban: BM JKR Adminisztrátor), JKR Csoportadminisztrátorával, részükre adatokat és hibajelentéseket továbbít,"
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "c) a BMAdmin webfelületen keresztül látja el feladatait,"
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "d) a JKR Szakelőadó külön kezeli, irányítja a bv. szervek és a BVOP szolgálati gépjármű flottáját,"
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "e) végrehajtja a JKR felületet és a kezelt járműforgalmazási adatokat érintő módosításokat, korrigálásokat és változtatásokat mind a bv. szervek, mind a BVOP esetében,"
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "f) a központilag irányított, országos szintű gépjármű-szakterületi ellenőrzésekhez szükséges járműforgalmazási adatlekérdezések biztosítása érdekében a JKR Szakelőadó a BVOP-n szolgálatot teljesítő foglalkoztatott részére JKR Felhasználói jogosultságot állít be, és ezen felhasználókat Felhasználói Csoportba rendezi,"
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "g) a JKR felületen rögzített járműforgalmazási adat országos ellenőrzését és a rendszerből történő adatlekérdezések végrehajtását a jogosultsággal rendelkező JKR Felhasználó a hozzá rendelt Csoportnak megfelelően és a JKR Szakelőadó jogosultak megvalósítani,"
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "h) a bv. szervektől és a BVOP-tól érkező nagy mennyiségű adathalmazokat a feladatra alkalmas Microsoft Excel® template fájlok segítségével importálja a JKR felületre,"
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "i) feltölti a bv. szervek és a BVOP szolgálati gépjárműveinek adatait a JKR felületre, nagy mennyiségű gépjármű feltöltése esetén az adatokat importálás alapján hajtja végre,"
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "j) létrehozza a bv. szervek JKR Csoportadminisztrátorai és a BVOP JKR Felhasználói jogosultságát, a nagy mennyiségű adatokat importálás alapján tölti fel a JKR felületre,"
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "k) feltölti az egyes bv. szervek és a BVOP gépjárművezetőinek adatait, a nagy mennyiségű adat gyors feltöltése érdekében adatimportot hajt végre,"
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "l) a szolgálati gépjárművekbe épített JKR járműegység eszközök járműegység gyári számai és a beépítés ideje szerint összerendeli a gépjármű rendszámát a járműegység adataival, nagy mennyiségű adatfeltöltés esetén adatimportot alkalmaz,"
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "m) a BVOP tulajdonában lévő szolgálati gépjármű adásvételét követően megvalósítja a beépített járműegység virtuális leválasztását, ezt követően a járműegység adatait továbbítja az átvevő bv. intézethez,"
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "n) kialakítja a bv. szervek és a BVOP alapértelmezett csoporthierarchia szerinti gépjármű flottákat és flottaalegységeket, csoportkódokkal látja el az alapértelmezett hierarchia szinteket,"
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "o) hozzárendeli a BVOP üzemeltetésében lévő szolgálati gépjárműveket a kialakított alapértelmezett hierarchia rendszer csoportkódjaihoz,"
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "p) az alapértelmezett hierarchián kívüli JKR Felhasználói csoportokat hozhat létre a JKR rendszerben történő középirányító szervi ellenőrzések, illetve a JKR adatfeldolgozás végrehajtása érdekében,"
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "q) fogadja a bv. szervektől beérkező hibabejelentő leveleket, a hatáskörében javítható hibák megszüntetésére közreműködően intézkedik, a hatáskörét meghaladó hibákról a hibabejelentést továbbítja a BM JKR Adminisztrátornak,"
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "r) összesíti a bv. szervektől beérkező telematikai eszközszerelési igényeket, melyet engedélyezés céljából továbbít a Belügyminisztérium Műszaki Főosztályára,"
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "s) megszervezi a bv. szervezetre vonatkozó engedélyezett telematikai eszközszereléseket,"
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "t) a kiszerelt vagy fel nem használt telematikai eszközök számára raktárkészletet alakít ki,"
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "u) a telematikai eszközökről nyilvántartást vezet,"
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "v) ellenőrzi és elkészíti a bv. szervezetre vonatkozó, megvalósult havi szerelési összesítőt,"
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "w) intézkedik a járműhöz tartozó üzemanyag-vételezési adat JKR Programba való feltöltésére,"
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "x) legalább negyedévente végrehajtja a BVOP vonatkozásában az e-menetlevelek ellenőrzését."
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "7. A JKR Csoportadminisztrátor feladatai"
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "a) az egyes agglomerációs központokhoz rendelt bv. szervek fő csoportját kezelheti, ahol jogosult járműcsoportokat létrehozni, a csoportokhoz járművet rendelni, felhasználókat menedzselni,"
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "b) a szolgálati helye szerinti bv. szerv JKR üzemeltetése érdekében folyamatos kapcsolatot tart fenn a JKR Szakelőadóval,"
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "c) a BMAdmin webfelületen keresztül látja el feladatait,"
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "d) munkája során a JKR felületre feltölti a járművek, járművezetők, eszközök, csoport hierarchia, JKR Felhasználók adatait,"
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "e) a JKR felületre történő nagy adatmennyiség egyidejű feltöltése érdekében a feltöltendő adatoknak megfelelő Microsoft Excel® template fájlokat megküldi a JKR Szakelőadóknak,"
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "f) a hatáskörébe tartozó szolgálati gépjárművekbe épített JKR járműegység eszközök járműegység gyári számai és beépítés ideje szerint összerendeli a gépjármű rendszámát a járműegység adataival,"
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "g) a szolgálati gépjármű átadás-átvételét követően megvalósítja a beépített járműegység virtuális leválasztását, ezt követően a járműegység adatait továbbítja az átvevő bv. szervhez,"
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "h) a JKR Szakelőadó által kialakított alapértelmezett csoporthierarchia szerinti gépjármű flottákat és flottaalegységeket a változásokat figyelembe véve módosítja, új csoportkódok létrehozása során figyelembe kell vennie a JKR Szakelőadó által létrehozott elnevezések logikáját,"
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "i) kialakítja az alapértelmezett hierarchia szerinti gépjármű flottákat és flottaalegységeket,"
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "j) saját hatáskörben jogosult létrehozni és megszüntetni az ellenőrizni kívánt gépjármű-kategóriák és egyéb szempontoknak megfelelő Csoportokat,"
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "k) saját hatáskörben jogosult kinevezni az ellenőrzés szempontjából kialakított Csoportokban történő munkavégzésre a JKR Felhasználót,"
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "l) a bv. szervi JKR Felhasználók és a JKR Csoportfelhasználói hibabejelentéseket továbbítja a hibabejelentő levelezésen keresztül a JKR Szakelőadó számára,"
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "m) hozzárendeli a bv. szerv üzemeltetésében lévő szolgálati gépjárműveket a kialakított alapértelmezett hierarchia rendszer csoportkódjaihoz,"
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "n) az alapértelmezett hierarchián kívüli JKR Felhasználói csoportokat hozhat létre a JKR rendszerben történő ellenőrzések, valamint a JKR adatfeldolgozás végrehajtása érdekében,"
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "o) fogadja a Felhasználóktól beérkező hibabejelentő leveleket, köteles az önálló hibabejelentés kezdeményezésére, a hatáskörében javítható hibák megszüntetésére közreműködően intézkedik, a hatáskörét meghaladó hibákról a hibabejelentést továbbítja a JKR Szakelőadónak,"
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "p) intézkedik a járműhöz tartozó üzemanyag-vételezési adat JKR Programba való feltöltésére,"
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "q) minden hónap 5. napjáig végrehajtja az e-menetlevelek ellenőrzését."
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "8. A JKR Felhasználók feladatai"
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "a) a DashBoard felületen követi a járműveket, és elkészíti a riportokat a jármű forgalmi adatairól,"
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "b) a szolgálati helye szerinti bv. szerv a JKR üzemeltetése érdekében folyamatos kapcsolatot tart fenn az illetékes JKR Csoportadminisztrátorral,"
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "c) munkája során azokban a csoportkód szerinti gépjármű flottákban, flottaalegységekben végez feladatot, amelyekre az illetékes JKR Csoportadminisztrátor jogosultságot állított be,"
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "d) a bv. szervben a ténylegesen elvégezhető műveleteket az illetékes parancsnok határozza meg,"
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "e) a DashBoard felületen a következő riportokat kérheti le:"
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "ea) Műszaki/Üzemóra,"
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "eb) Határátlépés,"
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "ec) Gyorshajtás,"
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "ed) Teljes útvonal szenzorértékekkel,"
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "ee) Összes utak és állomások szenzorértékekkel,"
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "ef) Látogatások,"
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "eg) Flotta POI látogatása,"
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "eh) Üzemanyag fogyasztás,"
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "ei) Fogyasztás,"
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "ej) Teljes napló,"
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "ek) Útnyilvántartás,"
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "el) Jármű POI látogatásai,"
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "em) POI,"
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "en) Vezetési stílus,"
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "eo) Rendszerüzenetek,"
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "ep) Dokumentumtár megtekintése,"
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "eq) Menetlevél megtekintése,"
+    },
+    {
+      "provision_ref": "s107",
+      "section": "107",
+      "title": "107",
+      "content": "er) Menetlevél előkészítése,"
+    },
+    {
+      "provision_ref": "s108",
+      "section": "108",
+      "title": "108",
+      "content": "es) Nem gépjárművezető azonosított útszakaszok,"
+    },
+    {
+      "provision_ref": "s109",
+      "section": "109",
+      "title": "109",
+      "content": "et) Hálózaton kívül, el nem érhető járművek,"
+    },
+    {
+      "provision_ref": "s110",
+      "section": "110",
+      "title": "110",
+      "content": "eu) Fényhíd, vagy hangjelzés használat,"
+    },
+    {
+      "provision_ref": "s111",
+      "section": "111",
+      "title": "111",
+      "content": "ev) Hibakóddal rendelkező járművek,"
+    },
+    {
+      "provision_ref": "s112",
+      "section": "112",
+      "title": "112",
+      "content": "ew) Műszaki/Üzemóra részletes riport,"
+    },
+    {
+      "provision_ref": "s113",
+      "section": "113",
+      "title": "113",
+      "content": "ex) Műszak üzemóra összegző riport,"
+    },
+    {
+      "provision_ref": "s114",
+      "section": "114",
+      "title": "114",
+      "content": "ey) Forgalmazó járművek riport,"
+    },
+    {
+      "provision_ref": "s115",
+      "section": "115",
+      "title": "115",
+      "content": "ez) Minősített használati járművek,"
+    },
+    {
+      "provision_ref": "s116",
+      "section": "116",
+      "title": "116",
+      "content": "eaa) Hálózaton kívüli, el nem érhető járművek külföld,"
+    },
+    {
+      "provision_ref": "s117",
+      "section": "117",
+      "title": "117",
+      "content": "ebb) Dokumentum tár,"
+    },
+    {
+      "provision_ref": "s118",
+      "section": "118",
+      "title": "118",
+      "content": "ecc) Útszakaszok sebesség diagrammal,"
+    },
+    {
+      "provision_ref": "s119",
+      "section": "119",
+      "title": "119",
+      "content": "edd) Tankolás karbantartó,"
+    },
+    {
+      "provision_ref": "s120",
+      "section": "120",
+      "title": "120",
+      "content": "eee) Tankolás riport,"
+    },
+    {
+      "provision_ref": "s121",
+      "section": "121",
+      "title": "121",
+      "content": "eff) Flotta utolsó pozíciója,"
+    },
+    {
+      "provision_ref": "s122",
+      "section": "122",
+      "title": "122",
+      "content": "f) feladatellátása során a JKR felületen észlelt gépjármű forgalmazási hibákat jelenti az illetékes JKR Csoportadminisztrátornak, valamint a közvetlen szolgálati elöljárójának,"
+    },
+    {
+      "provision_ref": "s123",
+      "section": "123",
+      "title": "123",
+      "content": "g) a JKR DashBoard felületen történő munkavégzése során készített riportokat és gépjármű forgalmazási adatokat rendszám szerint elkülönítve, elektronikusan archiválja,"
+    },
+    {
+      "provision_ref": "s124",
+      "section": "124",
+      "title": "124",
+      "content": "h) a JKR Csoportadminisztrátori és szolgálati elöljárói utasításra jelentést készít a szolgálati gépjárművekről."
+    },
+    {
+      "provision_ref": "s125",
+      "section": "125",
+      "title": "125",
+      "content": "9. A járművezetők feladatai"
+    },
+    {
+      "provision_ref": "s126",
+      "section": "126",
+      "title": "126",
+      "content": "a) a részére kiadott Dallas chipért vagyoni és fegyelmi felelősséggel tartozik,"
+    },
+    {
+      "provision_ref": "s127",
+      "section": "127",
+      "title": "127",
+      "content": "b) a gépjármű igénybevétel során, a sípoló jelzést követően használja a chipet a járművezető azonosítása érdekében,"
+    },
+    {
+      "provision_ref": "s128",
+      "section": "128",
+      "title": "128",
+      "content": "c) a járműforgalmazás végén ismételten használja a chipet az adott szolgálati út vagy magáncélú igénybevétel lezárása érdekében,"
+    },
+    {
+      "provision_ref": "s129",
+      "section": "129",
+      "title": "129",
+      "content": "d) tartós magáncélú szolgálati gépjármű igénybevétellel rendelkező Járművezető kötelezően használja a „Magáncél/hivatali út” kapcsolót a különböző igénybevételek elkülönítésére az igénybevétel céljának megfelelően,"
+    },
+    {
+      "provision_ref": "s130",
+      "section": "130",
+      "title": "130",
+      "content": "e) a járműegységben bekövetkezett meghibásodást (például fizikai sérülés, sípoló jelzés elmaradása) jelenti a JKR Felhasználónak vagy közvetlenül az illetékes JKR Csoportadminisztrátornak."
+    },
+    {
+      "provision_ref": "s131",
+      "section": "131",
+      "title": "131",
+      "content": "III. HIBABEJELENTÉS"
+    },
+    {
+      "provision_ref": "s132",
+      "section": "132",
+      "title": "132",
+      "content": "10. Hibaelhárítási feladatra kötelezett a JKR Szakelőadó, a JKR Csoportadminisztrátorok és a BV GEI informatikai szakterülete."
+    },
+    {
+      "provision_ref": "s133",
+      "section": "133",
+      "title": "133",
+      "content": "11. A végfelhasználói ponton keletkező szemantikai hibák (tévesen rögzített gépjárművek, járműegység téves virtuális kiszerelése, csoporthierarchia szintek hibás beállítása), azaz a JKR felület működtetéséből keletkező hibák megoldását a hiba keletkezésének helyén kell kezelni."
+    },
+    {
+      "provision_ref": "s134",
+      "section": "134",
+      "title": "134",
+      "content": "12. Hozzáférési jogosultságokkal kapcsolatos hibajelenségek megszüntetésére a hiba keletkezési helyén kell intézkedéseket tenni."
+    },
+    {
+      "provision_ref": "s135",
+      "section": "135",
+      "title": "135",
+      "content": "13. A BM Műszaki és Vagyongazdálkodási Főosztály, valamint a hibakezelést segítő szolgáltató felé történő hibajelentés megküldésére kizárólag a JKR Szakelőadó jogosult."
+    },
+    {
+      "provision_ref": "s136",
+      "section": "136",
+      "title": "136",
+      "content": "14. A hibabejelentések továbbításának menete"
+    },
+    {
+      "provision_ref": "s137",
+      "section": "137",
+      "title": "137",
+      "content": "a) a Járművezető az észlelt hibajelenséget szóban jelenti a JKR Felhasználónak vagy közvetlenül az illetékes JKR Csoportadminisztrátornak,"
+    },
+    {
+      "provision_ref": "s138",
+      "section": "138",
+      "title": "138",
+      "content": "b) a JKR Felhasználó a hierarchia szint szerint illetékes JKR Csoportadminisztrátornak tesz jelentést a hibabejelentő adatlap kitöltésével az általa észlelt hibákról,"
+    },
+    {
+      "provision_ref": "s139",
+      "section": "139",
+      "title": "139",
+      "content": "c) a JKR Csoportadminisztrátor az általa észlelt vagy a részére szóban vagy írásban átadott hibabejelentéseket továbbítja a BV GEI JKR Szakelőadónak, aki továbbítja azt a BM Műszaki és Vagyongazdálkodási Főosztálya felé. A BM által kiadott hibakezelési eljárási rendnek megfelelően a MEF a 13. pont szerint jár el."
+    },
+    {
+      "provision_ref": "s140",
+      "section": "140",
+      "title": "140",
+      "content": "IV. EGYÉB FELADATOK"
+    },
+    {
+      "provision_ref": "s141",
+      "section": "141",
+      "title": "141",
+      "content": "15. A JKR felületet használók (JKR Szakelőadók, JKR Csoportadminisztrátorok, JKR Felhasználók) munkaköri leírásában rögzíteni szükséges a JKR használatával kapcsolatos többletfeladatokat és felelősségi jogköröket."
+    },
+    {
+      "provision_ref": "s142",
+      "section": "142",
+      "title": "142",
+      "content": "16. Minden bv. szerv esetében a járművezetők számára a Dallas chipek kiadása és visszavétele átadás-átvétel keretében történik. A chip kiadása mellett átadásra kerül a chip használati útmutató és az adatkezelésről szóló érintetti tájékoztató. Az átadás-átvételi dokumentumban rögzíteni kell az átadó és átvevő nevét és rendfokozatát, a Dallas chip azonosítószámát, az átadás-átvétel helyét, idejét, az iktatószámot, valamint az átadott dokumentumokat. A chip és a dokumentumok átadásával egy időben a járművezetőt rögzíteni szükséges a JKR felületen."
+    },
+    {
+      "provision_ref": "s143",
+      "section": "143",
+      "title": "143",
+      "content": "17. A chip leadását szintén átadás-átvételi dokumentációban szükséges rögzíteni. Az elveszett, illetve leadott chipek járművezetőkhöz történő hozzárendelését meg kell szüntetni a JKR felületen. A chip elvesztéséről jelentést kell készíteni a közvetlen elöljárónak, aki a jelentést továbbítja az illetékes állományi tagnak a fegyelmi vagy kártérítési eljárás lefolytatása érdekében."
+    },
+    {
+      "provision_ref": "s144",
+      "section": "144",
+      "title": "144",
+      "content": "V. ZÁRÓ RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s145",
+      "section": "145",
+      "title": "145",
+      "content": "18. Ez az utasítás a közzétételét követő napon lép hatályba. 1 Az utasítást a 18/2025. (VIII. 21.) BVOP utasítás 26. pontja hatályon kívül helyezte 2025. augusztus 22. napjával. 2 A 2. pont a 36/2023. (VII. 31.) BVOP utasítás 1. pontjával megállapított szöveg. 3 Az 5. pont a 36/2023. (VII. 31.) BVOP utasítás 2. pontjával megállapított szöveg. 4 A 6. pont b) alpontja a 36/2023. (VII. 31.) BVOP utasítás 3. pontjával megállapított szöveg. 5 A 6. pont l) alpontja a 36/2023. (VII. 31.) BVOP utasítás 4. pontjával megállapított szöveg. 6 A 7. pont a) alpontja a 36/2023. (VII. 31.) BVOP utasítás 5. pontjával megállapított szöveg. 7 A 7. pont g) alpontja a 36/2023. (VII. 31.) BVOP utasítás 6. pontjával megállapított szöveg. 8 A 7. pont n) alpontja a 36/2023. (VII. 31.) BVOP utasítás 7. pontjával megállapított szöveg. 9 A 7. pont q) alpontja a 36/2023. (VII. 31.) BVOP utasítás 8. pontjával megállapított szöveg. 10 A 10. pont a 36/2023. (VII. 31.) BVOP utasítás 9. pontjával megállapított szöveg. 11 A 13. pont a 36/2023. (VII. 31.) BVOP utasítás 10. pontjával megállapított szöveg. 12 A 14. pont c) alpontja a 36/2023. (VII. 31.) BVOP utasítás 11. pontjával megállapított szöveg. 13 A 15. pont a 36/2023. (VII. 31.) BVOP utasítás 12. pontjával megállapított szöveg."
+    }
+  ]
+}

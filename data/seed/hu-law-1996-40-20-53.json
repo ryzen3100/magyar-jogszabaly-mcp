@@ -1,0 +1,53 @@
+{
+  "id": "hu-law-1996-40-20-53",
+  "type": "statute",
+  "title": "40/1996. (XII. 28.) PM rendelet a befektetési vállalkozások nyitott pozícióinak számítási szabályairól",
+  "status": "repealed",
+  "in_force_date": "1997-01-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/1996-40-20-53",
+  "description": "a befektetési vállalkozások nyitott pozícióinak számítási szabályairól",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § Az Épt. 3. §-a (2) bekezdésének 39. pontjában meghatározott nyitott pozíció számításának módjára a következő szabályokat kell alkalmazni."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § A nyitott pozíció értéke: a) értékpapír adásvételi szerződés alapján a befektetési vállalkozás által az ügyfelével szemben fennálló követelés (pénz, értékpapír) az ügylet értékén, illetve az ügyfél által még nem teljesített mértékben; b) bizományi szerződés alapján a befektetési vállalkozás ügyfele által letétbe nem helyezett pénz és értékpapír; c) a befektetési vállalkozás által vállalt jegyzési garancia összege – ide nem értve annak viszontgaranciával fedezett részét – azon időpontig ameddig a garancia érvényesíthető; d) a befektetési vállalkozás által előre meghirdetett árfolyamon és mennyiségben történő értékpapír – ide nem értve az állampapírokat – vásárlására szóló ajánlat; e) opciós szerződés esetén a befektetési vállalkozás által vállalt vételi vagy eladási kötelezettség értéke napi árfolyamértéken számítva; f) szabványosított határidős ügylet esetén az ügyfél által a befektetési vállalkozásnál letétként el nem helyezett értékpapír és pénz; g) nem szabványosított határidős ügylet esetén az ügyfél által a befektetési vállalkozásnál letétként el nem helyezett értékpapír és pénz; h) az elfogadott aukciós ajánlat értéke az aukció napja és a fizetési kötelezettség napja közötti időtartam alatt az ügyfél által letéttel nem fedezett mértékig; i) visszavásárlási kötelezettséggel kötött adásvételi szerződés esetén az ügylet értéke mind a vevői, mind az eladói pozícióban lévő befektetési vállalkozásnál; j) minden ügylet esetén a szerződésben kikötött teljesítési idő lejártával a késedelem időtartama alatt az ügyfél által nem teljesített kötelezettség értéke."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) A 2. §-ban meghatározott ügyletek értékeként az ügyletben szereplő értékpapír (egyéb befektetési eszköz) aznapi tőzsdei záróárfolyamát kell figyelembe venni. Ha aznapi tőzsdei ügyletkötés nem történt, a legutolsó tőzsdei záróárfolyam figyelembevételével kell a nyitott pozíció értékét kiszámítani. (2) Ha az (1) bekezdésben meghatározott árfolyam figyelembe vételére nincs lehetőség, a nyitott pozíció értékét a szerződésben meghatározott árfolyam figyelembevételével kell meghatározni."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § A 2. § d) pontjában meghatározott vételi árfolyam kötés esetén a nyitott pozíció tényleges értékét a) tőzsdére bevezetett értékpapír esetén 0,3, b) tőzsdére nem bevezetett értékpapír esetén 0,7 szorzószám alkalmazásával kell megállapítani oly módon, hogy a meghirdetett értékpapír-mennyiséget meg kell szorozni a meghirdetett árfolyammal, majd a szorzószámmal."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § (1) A 2. § j) pontjában meghatározott esetben a késedelmes teljesítés értékét a (2) bekezdés szerint kell megállapítani. (2) Ha a késedelem mértéke a) az öt napot meghaladja 0,1, b) a tizenöt napot meghaladja 0,5, c) a harminc napot meghaladja 0,8, d) a negyvenöt napot meghaladja 1,0 szorzószámmal kell megszorozni a nem teljesített értéket."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § A befektetési vállalkozás nyitott pozíciójának tényleges értékét naponta köteles megállapítani."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § Ez a rendelet 1997. január 1. napján lép hatályba, rendelkezéseit 1997. április 1. napjától kezdődően kell alkalmazni. 1 A rendeletet a 46/2011. (XII. 21.) NGM rendelet 1. § f) pontja hatályon kívül helyezte 2011. december 22. napjával."
+    }
+  ]
+}

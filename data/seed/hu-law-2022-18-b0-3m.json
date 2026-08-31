@@ -1,0 +1,1361 @@
+{
+  "id": "hu-law-2022-18-b0-3m",
+  "type": "statute",
+  "title": "18/2022. (VII. 13.) BVOP utasítás a büntetés-végrehajtási szervezet ügyeleti tevékenységéről és a jelentések rendjéről, valamint a különleges figyelmet igénylő fogvatartottakkal összefüggő eljárásrendről",
+  "status": "in_force",
+  "in_force_date": "2022-08-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2022-18-B0-3M",
+  "description": "a büntetés-végrehajtási szervezet ügyeleti tevékenységéről és a jelentések rendjéről, valamint a különleges figyelmet igénylő fogvatartottakkal összefüggő eljárásrendről",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A jogalkotásról szóló 2010. évi CXXX. törvény 23. § (4) bekezdés c) pontja alapján – figyelemmel a Belügyminisztérium és a belügyminiszter irányítása alá tartozó szervek ügyeleti szolgálatai által teljesítendő tájékoztatási kötelezettség rendjéről, valamint a Kormányügyelet működéséről szóló 33/2011. (XII. 2.) BM utasításra – a büntetés-végrehajtási szervek ügyeleti tevékenységének és az események jelentési rendjének egységes szabályozása érdekében az alábbi utasítást adom ki:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "I. FEJEZET"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "ÁLTALÁNOS RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "1. Az utasítás hatálya kiterjed"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "a) a Büntetés-végrehajtás Országos Parancsnokságára (a továbbiakban: BVOP);"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "b) a büntetés-végrehajtási intézetekre (a továbbiakban: bv. intézet) és intézményekre, továbbá a fogvatartottak kötelező foglalkoztatására létrehozott gazdasági társaságokra (a továbbiakban: Kft.) (a továbbiakban együtt: bv. szerv)."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "2. Az utasítás alkalmazásában"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "a) agglomerációs készenléti szolgálat: az agglomerációs központok által készenléti jelleggel működtetett szolgálat, amely az agglomerációs központ vezetőjének külön meghatározása szerint lát el feladatot;"
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "b) agglomerációs ügyelet: az agglomerációs központ vezetője által működtetett állandó ügyeleti szolgálat;"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "c) állandó ügyeleti szolgálat: a jelentési kötelezettség rendjét teljesítő, a rendkívüli eseményekkel összefüggésben az elsődleges intézkedések megtétele érdekében intézkedő, továbbá a büntetés-végrehajtás folyamatos feladatellátását a nap 24 órájában biztosító szolgálat;"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "d) bv. szerv vezetője: intézetparancsnok, parancsnokhelyettes, főigazgató, ügyvezető igazgató;"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "e) BVOP főügyelete: a Biztonsági Szolgálat Ügyeleti és Védelmi Osztálya által működtetett állandó ügyeleti szolgálat;"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "f) csoport: legalább három főből álló, egységes akaratelhatározással fellépő személyek köre;"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "g) egyéb szigorú számadású nyomtatvány: a számvitelről szóló 2000. évi C. törvény alapján a szigorú számadási kötelezettség alá tartozó bizonylat, nyomtatvány;"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "h) elektronikus jelentés: e-mail formájában, a RobotZsaru integrált ügyviteli, ügyfeldolgozó és elektronikus iratkezelési rendszeren (a továbbiakban: RobotZsaru), a Navigátor vagy a Főnix3 alkalmazásban tett jelentés, adatszolgáltatás;"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "i) életveszélyes állapot: életet veszélyeztető külső és belső vérzés, a keletkezési helye, mechanizmusa alapján akár az élet kioltására alkalmas enyhébb sebzések, keringési és/vagy légzési leállással járó állapot, eszméletlen állapot, mérgezéses állapot, a testfelület legalább 5%-ára kiterjedő II. fokú égési sérülések, fagyási sérülések, eszméletvesztéssel járó áramütés, elektro trauma, olyan fertőzéses megbetegedések, amelyek jelentési kötelezettségét jogszabály írja elő, valamint az életet veszélyeztető állapotot önmagában vagy szövődményeik által előidéző fertőző megbetegedések okoznak;"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "j) esemény: a fogvatartás biztonságát súlyosan sértő vagy veszélyeztető, külön intézkedések bevezetését szükségessé tevő, továbbá a bv. szerv biztonsága és működtetése szempontjából fontosnak tartott történés;"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "k) fogvatartott: a büntetések, az intézkedések, egyes kényszerintézkedések és a szabálysértési elzárás végrehajtásáról szóló 2013. évi CCXL. törvény szerint elítélt és az egyéb jogcímen fogvatartott személy;"
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "l) folyamatos ügyeleti tevékenység: az események megelőzését, megakadályozását, megszakítását, felszámolását segítő, továbbá a bv. szervre háruló jelentési kötelezettség teljesítését biztosító kötelezettség;"
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "m) halál bekövetkezése, egészségügyi állapotra, sérülésre vonatkozó minősítés: elsődleges vélemény alapján vagy orvos által megállapított állapot;"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "n) készenléti szolgálat: a BVOP szakirányító szakterületei vagy az Ellenőrzési Szolgálat által készenléti jelleggel működtetett szolgálat, amely az országos parancsnok vagy az országos parancsnok biztonsági és fogvatartási helyettesének (a továbbiakban: OPBFH) külön meghatározása szerint lát el feladatot;"
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "o) kiemelt események: az 1. melléklet I. táblázatában nevesített események;"
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "p) kiemelt figyelmet igénylő fogvatartott: az elkövetett bűncselekmény jellege, az elkövetés módja, a fogvatartott előélete, a bv. szervben tanúsított magatartása, veszélyeztetettsége miatt ebbe a kategóriába sorolt, valamint az országos írott vagy elektronikus sajtóban nevesített és nagy nyilvánosságot kapott – a BVOP Biztonsági Szolgálat által meghatározott központi listán feltüntetett – fogvatartott;"
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "q) megalapozott gyanú a személyi állomány vonatkozásában: olyan, a személyi állomány által fogvatartottak sérelmére elkövetett cselekmény elkövetésére utaló gyanú, amelyre konkrét bizonyítékok szolgálnak a fogvatartott nyilatkozata mellett, különösen az elektronikus megfigyelési eszköz által rögzített felvételek és a személyi állomány jelentései;"
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "r) részben vagy egészben működésképtelenné, használhatatlanná tétel: az eszköz, berendezés, adathordozó, illetve számítógépes program rendeltetésszerű használhatósága, működtetése ellen irányuló szándékos vagy gondatlan cselekmény;"
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "s) súlyos munkabaleset: a munkavédelemről szóló 1993. évi XCIII. törvény 87. § 3. pontjában meghatározott esetek;"
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "t) súlyos sérülés: orvos által megállapítottan 8 napon túl gyógyuló időtartamú sérülés;"
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "u) szolgálati jármű: a bv. szerv tulajdonában vagy használatában lévő közúti szállító- vagy vontatóeszköz, önjáró vagy vontatott munkagép;"
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "v) tömeg: egységes akaratelhatározással fellépő vagy vétlenül az esemény részesévé váló, tíz főt meghaladó létszámú személyek köre;"
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "w) vezető ügyeleti szolgálat: a BVOP-n működtetett, készenléti jellegű, egyszemélyi szolgálat, amelyet a BVOP állományába tartozó kijelölt szolgálatvezető vagy főosztályvezető külön meghatározottak szerint lát el."
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "II. FEJEZET"
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "AZ ÜGYELETI TEVÉKENYSÉGGEL ÉS A JELENTÉSI RENDDEL KAPCSOLATOS RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "1. Ügyeleti tevékenységi rendszer"
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "3. A szolgálati feladatok maradéktalan végrehajtása érdekében állandó ügyeleti szolgálatot kell működtetni a BVOP-n, az agglomerációs központokban és valamennyi bv. intézetnél."
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "4. A 3. pontban meghatározottakon kívül az országos parancsnok engedélyezheti ügyeleti szolgálat létrehozását, amelyre az utasítás rendelkezéseit értelemszerűen alkalmazni kell."
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "5. Az állandó ügyeleti szolgálatot működtető agglomerációs központ és bv. intézet vezetője őr- vagy szolgálati utasításban határozza meg az ügyeleti szolgálatot ellátók által a hivatali munkaidőn kívül gyakorolható jogköröket és a foganatosítható elsődleges intézkedéseket."
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "6. Szükség esetén az OPBFH, az agglomerációhoz tartozó bv. intézetek vonatkozásában az agglomerációs központ vezetője, bv. intézet vonatkozásában annak vezetője a feladattal érintett szakterületről megerősítő erőt rendelhet be, vagy meglévő szolgálatból csoportosíthat át az ügyeleti szolgálatokra."
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "7. Készenlétbe helyezés és különleges jogrend kihirdetése esetén a BVOP főügyeletét, az agglomerációs ügyeleteket és a bv. intézet állandó ügyeleti szolgálatát az OPBFH utasításának megfelelően meg kell erősíteni, indokolt esetben az OPBFH vagy az igazgató rendelkezésére a Büntetés-végrehajtási Szervezet Oktatási, Továbbképzési és Rehabilitációs Központjában ideiglenes ügyeleti szolgálatot kell létrehozni."
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "8. A büntetés-végrehajtási szervezet ügyeleti tevékenységi rendszeréhez kötődő feladatokat a vezető ügyeleti szolgálat, a BVOP főügyelete, az agglomerációs ügyeletek, továbbá a bv. intézet állandó ügyeleti szolgálatai látják el."
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "9. A BVOP főügyelete, az agglomerációs ügyeletek, valamint a bv. intézet állandó ügyeleti szolgálata váltásos időrendszer szerint látja el feladatait."
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "10. Az állandó ügyeleti szolgálat személyi állománya részére a szolgálatellátás során az egyenruha viselése kötelező, melynek részletszabályait őr- vagy szolgálati utasításban rögzíteni kell."
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "11. Az állandó ügyeleti szolgálat személyi állománya a szolgálat ellátása során a rendszeresített kényszerítő eszközöket és lőfegyvert az arra kijelölt helyen köteles tárolni. Az agglomerációs ügyelet személyi állománya szolgálati feladatait lőfegyver és kényszerítő eszköz nélkül látja el."
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "2. Szakmai irányítás"
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "12. Az országos parancsnok az ügyeleti tevékenység szakmai irányítását hivatali időben a BVOP Biztonsági Szolgálat vezetője, hivatali időn kívül a BVOP-n szolgálatot teljesítő főügyeletes (a továbbiakban: főügyeletes) útján látja el."
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "13. Az agglomerációs központ vezetője az ügyeleti tevékenység szakmai irányítását az agglomerációs ügyelet tekintetében hivatali időben az Agglomerációs Osztály vezetője, hivatali időn kívül az általa kijelölt személy útján, az agglomerációs központ alárendeltségébe tartozó bv. intézetek tekintetében az agglomerációs ügyelet útján látja el."
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "14. A bv. intézet vezetője – az Igazságügyi Megfigyelő és Elmegyógyító Intézet kivételével – az ügyeleti tevékenység szakmai irányítását hivatali időben a biztonsági szakterület vezetője, hivatali időn kívül a szolgálatban lévő biztonsági tiszt, az Igazságügyi Megfigyelő és Elmegyógyító Intézetben a körlet-főfelügyelő útján látja el."
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "15. A bv. intézet – az Igazságügyi Megfigyelő és Elmegyógyító Intézet kivételével – ügyeleti szolgálatát közvetlenül a szolgálatban lévő biztonsági tiszt, az Igazságügyi Megfigyelő és Elmegyógyító Intézetben a körlet-főfelügyelő irányítja."
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "3. Készenléti szolgálat"
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "16. Az agglomerációs készenléti szolgálat hajtja végre az agglomeráción belül bekövetkezett események kivizsgálását."
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "17. A készenléti szolgálat hajtja végre az események kivizsgálását"
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "a) az 1. melléklet I. Kiemelt események esetén,"
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "b) az országos parancsnok vagy az OPBFH utasítására."
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "18. Amennyiben a bekövetkezett esemény vizsgálatát a készenléti szolgálat hajtja végre, az agglomerációs készenléti szolgálat további utasításig az esemény kapcsán intézkedéseket nem foganatosít. A kivizsgálás során keletkezett dokumentációt a BVOP a vizsgálat lezárását követően az agglomeráció rendelkezésére bocsátja."
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "18/A. Amennyiben a bekövetkezett esemény vizsgálatát az agglomerációs készenléti szolgálat hajtja végre, a kivizsgálás során keletkezett dokumentációt a főügyelet, valamint az eseményben érintett szakterületek részére a vizsgálat lezárását követően rendelkezésre bocsátja. A kivizsgálás során keletkezett jelentés kiváltja a 47. pontban nevesített parancsnoki kivizsgálási jelentést."
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "4. A vezető ügyeletes jogállása"
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "19. Az országos parancsnok jóváhagyásával vezető ügyeleti szolgálat teljesítésére kijelölt (a továbbiakban: vezető ügyeletes), BVOP állományába tartozó szolgálatvezető vagy főosztályvezető felelős a bv. szervnél bekövetkezett, az OPBFH vagy az országos parancsnok gazdasági és informatikai helyettese (a továbbiakban: OPGIH) által aktuálisan meghatározott eseményekhez kötődő kivizsgálási feladatok szakszerű és hatékony végrehajtásának koordinálásáért, a BVOP vezetőinek folyamatos tájékoztatásáért, valamint a szükséges jelentések elkészítéséért."
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "20. A vezető ügyeletes jogosult"
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "a) indokolt esetben, hivatali munkaidőn kívül, az esemény kivizsgálásában érintett személyi állomány részére – beleértve a bv. szerv intézkedő vezetőjét és a főügyeletest is – utasítást adni, feladatot meghatározni,"
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "b) az eseményhez kötődő szolgálati feladat végrehajtására a személyi állomány bármely tagját berendelni, berendeltetni,"
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "c) a bv. szerv részéről tett jelentésekkel kapcsolatban kiegészítő információkat kérni,"
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "d) tájékoztatni és szükség szerint együttműködésre felkérni a társszervek vezetőit."
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "21. A vezető ügyeletes köteles"
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "a) hivatali munkaidőn kívül intézkedésre alkalmas és szolgálatképes állapotban a folyamatos elérhetőségét biztosítani,"
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "b) saját elhatározásra vagy elöljárói utasításra az esemény helyszínén és/vagy szolgálati helyén szolgálatot teljesíteni,"
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "c) az eseményről, valamint az azzal összefüggésben megtett intézkedéseiről az országos parancsnoknak és illetékes helyettesének – az általuk meghatározott formában és módon – jelentést tenni."
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "5. A főügyeletes jogállása"
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "22. A főügyeletes részére feladatot az országos parancsnok és helyettesei, a Biztonsági Szolgálat vezetője, a Biztonsági Főosztály vezetője, az Ügyeleti és Védelmi Osztály vezetője és a vezető ügyeletes határozhat meg."
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "23. A főügyeletes köteles"
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "a) fogadni és rögzíteni a bv. szerv által jelentett eseményeket, információkat, adatokat, minden lényeges körülményt, a megtett intézkedéseket, az eseményekkel kapcsolatos jelentéseket elemezni, értékelni, szükségszerűen módosítani, indokolt esetben az események felszámolásával, kivizsgálásával kapcsolatosan szakmai iránymutatást adni,"
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "b) az 1. mellékletben meghatározott rend szerinti (további) jelentéseket megtenni,"
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "c) a bv. szerv, a társ rendvédelmi szervek (fő)ügyeleteivel kapcsolatot tartani, valamint a Belügyminisztérium és a belügyminiszter irányítása alá tartozó szervek ügyeleti szolgálatai által teljesítendő tájékoztatási kötelezettség rendjéről, valamint a Kormányügyelet működéséről szóló 33/2011. (XII. 2.) BM utasítás alapján a Belügyminisztérium Ügyelete, valamint a Nemzeti Információs Központ kijelölt szervezeti egysége felé jelentést tenni,"
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "d) folyamatosan figyelemmel kísérni a Marathon Terra és az elektronikus távfelügyeleti rendszert,"
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "e) hivatali időn kívül, valamint munkaszüneti és ünnepnapokon figyelemmel kísérni az elektronikus faxot érkeztető „BV” e-mail-fiókot,"
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "f) végrehajtani a készenlétbe helyezéssel összefüggő, valamint a különleges jogrend kihirdetése esetén meghatározott feladatokat,"
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "g) a bv. szerv működésével összefüggésben tudomására jutott panaszügyekben felvilágosítást adni, a felmerülő szükséges intézkedéseket megtenni,"
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "h) a tudomására jutott, bv. szerv rendjét, a fogvatartás biztonságát veszélyeztető körülmények esetén az intézkedés alapjául szolgáló információkról az érintett bv. szervet, valamint szükség szerint a társ rendvédelmi szervet értesíteni,"
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "i) a kiemelt eseményekkel kapcsolatban a rendészeti államtitkár részére a jelentés vételét követő 1 órán belül elektronikus formában írásos jelentést előkészíteni."
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "24. A főügyeletes jogosult"
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "a) a bv. szervtől, agglomerációs ügyelettől beérkező jelentésekkel összefüggésben további információkat kérni, annak teljesítését határidőhöz kötni,"
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "b) a bv. szerv, agglomerációs ügyelet által jelentett események minősítését, kategorizálását felülbírálni,"
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "c) a bv. szervtől, agglomerációs ügyelettől eseti adatszolgáltatást kérni,"
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "d) az országos parancsnok utasítása alapján a bv. szerv értesítését és készenlétbe helyezését, a személyi állományi tagok és eszközök átcsoportosítását elrendelni,"
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "e) bármilyen elemzést, értékelést igénylő eseményről 24 órán belüli parancsnoki kivizsgálási jelentést bekérni,"
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "f) indokolt esetben a bekövetkezett eseménnyel, valamint a soron kívüli adatszolgáltatás meghatározásával összefüggésben az érintett bv. szerv vezetőjével, az agglomerációs központ vezetőjének helyettesével konzultálni, soron kívüli intézkedését kérni."
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "6. Az agglomerációs ügyeletes jogállása"
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "25. Az agglomerációs ügyeletes köteles"
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "a) folyamatosan figyelemmel kísérni az elektronikus távfelügyeleti rendszert az agglomeráción belül reintegrációs őrizetbe helyezett fogvatartottak tekintetében, rendellenesség észlelése esetén egyeztetni a reintegrációs őrizetes kihelyezésében illetékes bv. intézettel,"
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "b) fogadni az agglomerációba tartozó bv. szerv által jelentett eseményeket,"
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "c) az írásbeli és szóbeli továbbjelentési kötelezettségnek eleget tenni,"
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "d) a részére, valamint az általa jelentett eseményekről naprakész statisztikai kimutatásokat vezetni, valamint a részére megküldött írásos jelentéseket kezelni, azokról havi, illetve görgetett havi mentést készíteni,"
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "e) közvetlen szolgálati elöljárója, az agglomerációs központ vezetője, a BVOP Biztonsági Szolgálat vezetője, valamint a főügyeletes utasításait végrehajtani."
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "f) havi ellenőrzési terv alapján – kameraképen keresztül – ellenőrzést végezni, arról a vezető által meghatározott formában jelentést készíteni."
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "26. Az agglomerációs ügyeletes – az agglomerációra vonatkozóan – jogosult"
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "a) a tudomására jutott releváns információk alapján fogvatartottal szembeni vagy az érintett bv. szervre vonatkozó biztonsági intézkedés foganatosítását elrendelni,"
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "b) eseti adatszolgáltatást kérni, amennyiben az adat a rendelkezésre álló szakrendszerekben (Főnix3, Navigátor, RobotZsaru) nem áll rendelkezésre,"
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "c) indokolt esetben a személyi állomány értesítését elrendelni,"
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "d) kameraképen keresztül, havi ellenőrzési terv alapján ellenőrzést végezni, arról a vezető által meghatározott formában jelentést készíteni, továbbá különösen indokolt esetben – rendkívüli esemény megelőzése, megszakítása, felszámolása érdekében – ellenőrzést elrendelni,"
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "e) az agglomerációban humánerőt, eszközöket biztosítani, átcsoportosítani,"
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "f) a bv. szerv által jelentett esemény minősítését, kategorizálását – a főügyelettel történt egyeztetést követően – felülbírálni,"
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "g) a bv. szervtől beérkező jelentésekkel összefüggésben, szóban vagy írásban további – a rendelkezésre álló szakrendszerekben nem elérhető – adatokat, információkat kérni, annak teljesítését határidőhöz kötni,"
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "h) szolgálati, illetve munkaköri feladatainak ellátásával összefüggésben az intranetes és internetes alkalmazások használatára, továbbá a közhiteles elektronikus nyilvántartási rendszerben, illetve a Navigátor rendszerben az agglomerációba tartozó bv. szervek adatait megismerni,"
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "i) az e fejezetben meghatározott tevékenységek irányítása érdekében az agglomerációba tartozó bv. intézetek ügyeleti szolgálatai részére utasítást adni,"
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "j) a bekövetkezett rendkívüli eseménnyel összefüggésben az agglomerációs központ vezetője jóváhagyásával"
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "ja) berendelni vagy ideiglenesen másik szolgálati helyre (bv. szervhez) átirányítani a személyi állomány bármely tagját,"
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "jb) az agglomerációba tartozó bv. szerv parancsnokának kivételével a személyi állomány bármely tagja részére utasítást adni,"
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "jc) zárást, létszámellenőrzést elrendelni,"
+    },
+    {
+      "provision_ref": "s107",
+      "section": "107",
+      "title": "107",
+      "content": "jd) tájékoztatni a társszerveket, intézkedés kezdeményezését kérni,"
+    },
+    {
+      "provision_ref": "s108",
+      "section": "108",
+      "title": "108",
+      "content": "je) a bekövetkezett eseménnyel kapcsolatban a bv. szerv vezetőjétől a tett intézkedésekről tájékoztatást kérni,"
+    },
+    {
+      "provision_ref": "s109",
+      "section": "109",
+      "title": "109",
+      "content": "jf) a személyi állomány által foganatosított intézkedéseket – a jogszabályi keretek között – felülbírálni, indokolt esetben további feladatokat meghatározni."
+    },
+    {
+      "provision_ref": "s110",
+      "section": "110",
+      "title": "110",
+      "content": "27. Az agglomerációs ügyeletes az agglomerációba tartozó bv. szervek egyes biztonsági feladatainak végrehajtása, rendkívül események megelőzése érdekében folyamatosan kapcsolatot tart az intézetekkel, a humánerőforrás-igényeket az intézetek biztonsági vagy biztonsági és fogvatartási osztály vezetői egyeztetik."
+    },
+    {
+      "provision_ref": "s111",
+      "section": "111",
+      "title": "111",
+      "content": "28. Az agglomerációs ügyeletes az agglomeráción belüli átszállítások, célszállítások tekintetében folyamatos kapcsolatot tart az intézetek nyilvántartási szakterületeivel, a szállítások adatait nyilvántartja. A szállításokat a Nyilvántartási és Logisztikai Főosztály engedélye alapján a nyilvántartási szakterületek egyeztetik és szervezik."
+    },
+    {
+      "provision_ref": "s112",
+      "section": "112",
+      "title": "112",
+      "content": "29. Az agglomerációs ügyeletes a bv. intézeten kívül történő napi előállítások koordinálása érdekében a végrehajtandó előállítások számát a végrehajtást megelőző munkanapon köteles egyeztetni az agglomerációs bv. intézetek illetékes szakterületeivel, melyről nyilvántartást vezet."
+    },
+    {
+      "provision_ref": "s113",
+      "section": "113",
+      "title": "113",
+      "content": "30. Az agglomerációhoz tartozó bv. intézetekben elhelyezett kiemelt fogvatartottakról az agglomerációs ügyeletes nyilvántartást vezet, amelyet folyamatosan aktualizál. A kiemelt fogvatartottak bv. intézeten kívül történő mozgatása, valamint elhelyezésük megváltoztatása az agglomerációs központ vezetőjének jóváhagyásával, iránymutatásával hajtható végre, amely feladatok főbb mozzanatait az agglomerációs ügyelet felé jelenteni kell."
+    },
+    {
+      "provision_ref": "s114",
+      "section": "114",
+      "title": "114",
+      "content": "31. Az agglomerációs ügyeletes koordinálja az intézetelhagyással, valamint visszaérkezéssel kapcsolatos tevékenységek megvalósulását, amelyről statisztikát vezet. Amennyiben a fogvatartott visszaérkezése határidőben nem történik meg, azt a biztonsági tiszt haladéktalanul köteles jelenteni az agglomerációs ügyeletes felé, aki iránymutatást ad és ellenőrzi a megtett intézkedéseket, valamint tájékoztatja az illetékes vármegyei rendőr-főkapitányság tevékenység-irányítási központját."
+    },
+    {
+      "provision_ref": "s115",
+      "section": "115",
+      "title": "115",
+      "content": "32. Az agglomerációs szintű biztonsági vizsgálatok, szemlék irányítása érdekében a végrehajtással kapcsolatos adatok, információk rendelkezésre állását az agglomerációs ügyeleten biztosítani kell. A megfelelő adatszolgáltatási rendszer előkészítése érdekében a végrehajtást megelőző napon az érintett bv. intézetekkel egyeztetni kell."
+    },
+    {
+      "provision_ref": "s116",
+      "section": "116",
+      "title": "116",
+      "content": "33. Az agglomeráción belül bekövetkező, központi intézkedést igénylő rendkívüli vagy egyéb jelentésre kötelezett esemény esetén az agglomerációs ügyeletes köteles az elsődleges intézkedések és jelentések megtételére, az intézkedésre köteles állomány értesítésére, indokolt esetben az illetékesség szempontjából kijelölt műveleti egység készenlétbe beosztott tagjainak, továbbá amennyiben a BVOP részéről kivizsgáló bizottság nem kerül helyszíni delegálásra, úgy az agglomerációban e feladatra kijelölt személyi állományi tagok – az agglomerációs központ vezetője jóváhagyásával történő – berendelésére."
+    },
+    {
+      "provision_ref": "s117",
+      "section": "117",
+      "title": "117",
+      "content": "7. A bv. intézet állandó ügyeleti szolgálatainak jogállása"
+    },
+    {
+      "provision_ref": "s118",
+      "section": "118",
+      "title": "118",
+      "content": "34. A szolgálatellátás érdekében a bv. intézetben folyamatos ügyeleti tevékenységet kell végezni. A bv. intézet ügyeleti tevékenységi feladatait a biztonsági vagy biztonsági és fogvatartási osztály hajtja végre."
+    },
+    {
+      "provision_ref": "s119",
+      "section": "119",
+      "title": "119",
+      "content": "35. A bv. intézet biztonsági vagy biztonsági és fogvatartási osztálya az állandó ügyeleti tevékenysége során köteles"
+    },
+    {
+      "provision_ref": "s120",
+      "section": "120",
+      "title": "120",
+      "content": "a) a bv. szerv rendjét, a fogvatartás biztonságát veszélyeztető körülmények, események bekövetkezését megelőzni, valamint a bekövetkezetteket – egyes esetekben a rendelkezésre álló tervekben meghatározottak szerint, a személyi állományi létszám és az eszközök összehangolt irányításával – hatékonyan felszámolni,"
+    },
+    {
+      "provision_ref": "s121",
+      "section": "121",
+      "title": "121",
+      "content": "b) hivatali munkaidőn kívüli időpontban az 1. mellékletben meghatározott eseményekről – beleértve a Kft.-k területén, valamint tevékenységük során bekövetkezőket is – a főügyeletes vagy az agglomerációs ügyeletes részére jelentést tenni,"
+    },
+    {
+      "provision_ref": "s122",
+      "section": "122",
+      "title": "122",
+      "content": "c) a vezető ügyeletes, a főügyeletes és az agglomerációs ügyeletes utasításait végrehajtani,"
+    },
+    {
+      "provision_ref": "s123",
+      "section": "123",
+      "title": "123",
+      "content": "d) az elektronikus távfelügyeleti rendszer felügyeletét ellátni, a Marathon Terra rendszer üzeneteit folyamatosan figyelemmel kísérni,"
+    },
+    {
+      "provision_ref": "s124",
+      "section": "124",
+      "title": "124",
+      "content": "e) a bv. szerv vagy az agglomerációs központ vezetőjének utasítása alapján a bv. szerv személyi állományára kiterjedő értesítéssel, továbbá különleges jogrendi működéssel összefüggő feladatokat végrehajtani,"
+    },
+    {
+      "provision_ref": "s125",
+      "section": "125",
+      "title": "125",
+      "content": "f) az elektronikus levelezési csatornát – szolgálati okoseszközön is – folyamatosan figyelemmel kísérni."
+    },
+    {
+      "provision_ref": "s126",
+      "section": "126",
+      "title": "126",
+      "content": "8. Jelentési rend"
+    },
+    {
+      "provision_ref": "s127",
+      "section": "127",
+      "title": "127",
+      "content": "36. A jelentési kötelezettség körébe tartozó eseményeket, valamint a jelentés megtételének határidejével és illetékességével szemben támasztott követelményeket az 1. melléklet tartalmazza, amely a http://intranet2.bv.hu/tudastar/lista/14459/oldal elérési útvonalon található."
+    },
+    {
+      "provision_ref": "s128",
+      "section": "128",
+      "title": "128",
+      "content": "37. A bv. szerv személyi állományának tagjai az 1. mellékletben nevesített események bekövetkezésének közvetlen veszélyéről, valamint bekövetkezéséről – az észlelést, tudomásra jutást, valamint a hatáskörükbe tartozó és halaszthatatlan intézkedések megtételét követően – a közvetlen szolgálati elöljárójuknak haladéktalanul kötelesek jelentést tenni."
+    },
+    {
+      "provision_ref": "s129",
+      "section": "129",
+      "title": "129",
+      "content": "38. Az eseményekről a jelentéseket az 1. mellékletben meghatározott rend szerint kell megtenni. A bv. intézet rendjét, biztonságát közvetlenül érintő események vonatkozásában az a bv. intézet kötelezett jelentésre, amelynek illetékességi területén bekövetkezett. A Kft.-t, valamint a Büntetés-végrehajtás Gazdasági Ellátó Intézete egyes agglomerációs osztályait érintő, a fogvatartás rendjét, biztonságát veszélyeztető jelentésköteles események vonatkozásában a szóbeli és írásbeli jelentést a területileg illetékes bv. intézet köteles megtenni az országos vezetők és a BVOP főügyelete vagy az agglomerációs vezető, illetve az agglomerációs ügyelet felé a Bv. Holding Kft., illetve a Büntetés-végrehajtás Gazdasági Ellátó Intézete vezetőjének egyidejű tájékoztatása mellett."
+    },
+    {
+      "provision_ref": "s130",
+      "section": "130",
+      "title": "130",
+      "content": "39. A belügyminiszternek és a rendészeti államtitkárnak az országos parancsnok tesz jelentést."
+    },
+    {
+      "provision_ref": "s131",
+      "section": "131",
+      "title": "131",
+      "content": "40. A bv. szerv vezetője az 1. mellékletben foglaltak szerint szóbeli jelentést tesz az illetékes törvényességi felügyeletet ellátó ügyész felé. Amennyiben a bv. ügyész a rendkívüli eseménnyel kapcsolatos írásos tájékoztatást kér, azt 72 órán belül teljesíteni kell. Amennyiben a szóbeli jelentéstétel az ügyeletes ügyész vagy helyettese részére többszöri próbálkozás ellenére sikertelen, a bv. szerv vezetője a Fogvatartási Ügyek Szolgálata útján intézkedik a Legfőbb Ügyészség Büntetés-végrehajtási Törvényességi Felügyeleti és Jogvédelmi Önálló Osztály tájékoztatására."
+    },
+    {
+      "provision_ref": "s132",
+      "section": "132",
+      "title": "132",
+      "content": "41. A bv. szerv vezetőjének az eseményekről, a fogvatartás rendjét, a bv. szerv biztonságát veszélyeztető, megzavaró események megelőzése, megszakítása, felszámolása érdekében tett, halaszthatatlan intézkedések megtételét követően – eltérő utasítás hiányában – az 1. mellékletben jelentési határidőként megjelölt időtartamon belül kell szóban, valamint írásban jelentést tenni."
+    },
+    {
+      "provision_ref": "s133",
+      "section": "133",
+      "title": "133",
+      "content": "42. A kiemelt eseményekről a bv. szerv vezetője a halaszthatatlanul sürgős intézkedések megtételét követően azonnal – 2. mellékletben meghatározottak szerint – az országos parancsnoknak és illetékes helyettesének köteles előzetes, tényszerű szóbeli jelentést tenni. A bv. szerv vezetője döntése alapján szervezetszerű helyettese vagy a helyettesítésével megbízott vezető köteles az előzetes jelentést az országos parancsnok illetékes helyettesének megtenni. A további jelentési kötelezettség teljesítése az országos parancsnok, valamint illetékes helyettesének utasítása szerint történik."
+    },
+    {
+      "provision_ref": "s134",
+      "section": "134",
+      "title": "134",
+      "content": "43. Abban az esetben, ha az országos parancsnok akadályoztatva van, úgy a jelentést a helyettesítési rendnek megfelelően a bv. szerv vezetője köteles az OPBFH, az OPGIH, akadályoztatásuk esetén a vezető ügyeletes és az esemény kapcsán érintett szakterületi vezető felé megtenni."
+    },
+    {
+      "provision_ref": "s135",
+      "section": "135",
+      "title": "135",
+      "content": "44. A jelentésre kötelezett – az 1. mellékletben megjelölt esemény bekövetkezési körülményeit, a megtett és bevezetendő intézkedéseket részleteiben ismerő – személy a főügyeletes vagy az agglomerációs ügyeletes felé a bv. szerv vezetője vagy helyettese által az országos parancsnok és illetékes helyettesének vagy az agglomerációs vezetőnek tett jelentésével egyidejűleg, egyéb esemény esetén anélkül köteles jelentést tenni."
+    },
+    {
+      "provision_ref": "s136",
+      "section": "136",
+      "title": "136",
+      "content": "45. Hivatali munkaidőben az esemény jellege szerint illetékes szakterület vezetője tesz jelentést a főügyeletesnek vagy az agglomerációs ügyeletesnek, a gyors és hatékony információáramlás érdekében – valamennyi releváns információ beszerzése okán – köteles a szolgálatban lévő biztonsági tiszt részére valamennyi feltárt információt, dokumentumot rendelkezésre bocsátani."
+    },
+    {
+      "provision_ref": "s137",
+      "section": "137",
+      "title": "137",
+      "content": "46. A jelentésre kötelezett személy az esemény felszámolását követően, a főügyeletes vagy az agglomerációs ügyeletes külön utasítására, az általa meghatározott tartalommal – a bv. szerv részére előírt írásbeli jelentési kötelezettség teljesítésén kívül – a legrövidebb időn belül köteles tényszerű, írásbeli tájékoztató jelentést tenni."
+    },
+    {
+      "provision_ref": "s138",
+      "section": "138",
+      "title": "138",
+      "content": "47. Az 1. mellékletben külön megjelölt eseményekről részletes parancsnoki kivizsgálási jelentést kell készíteni, melyet az országos parancsnoknak címezve a Biztonsági Szolgálat vezetője részére az esemény bekövetkezésétől számított 24 órán belül kell felterjeszteni RobotZsarun keresztül. A jelentés kiadmányozott példányát az agglomerációs vezető jóváhagyását követően haladéktalanul a BVOP főügyelete részére elektronikus formában is meg kell küldeni."
+    },
+    {
+      "provision_ref": "s139",
+      "section": "139",
+      "title": "139",
+      "content": "48. A beérkezett jelentések nyilvántartása, véleményezése, kezelése, jelentések megtétele – az érintett szakterülettel együttműködésben – a Biztonsági Szolgálat feladata."
+    },
+    {
+      "provision_ref": "s140",
+      "section": "140",
+      "title": "140",
+      "content": "49. A BVOP és a Büntetés-végrehajtás Gazdasági Ellátó Intézete, valamint a Bv. Holding Kft. szervezeti elemeinek vezetői az 1. mellékletben megjelölt, az alárendeltségükbe tartozó beosztottakkal, továbbá a szervezeti elem működésével kapcsolatos eseményekről a közvetlen szolgálati elöljárójuknak kötelesek jelentést tenni, továbbá a főügyeletest tájékoztatni."
+    },
+    {
+      "provision_ref": "s141",
+      "section": "141",
+      "title": "141",
+      "content": "50. Az 1. melléklet 15. és 23. sorszám szerinti tervezett látogatásról vagy ellenőrzésről való tudomásszerzést követően a jelentést szóban haladéktalanul meg kell tenni. Az írásbeli jelentéssel szemben támasztott minimum követelmény, hogy tartalmazza"
+    },
+    {
+      "provision_ref": "s142",
+      "section": "142",
+      "title": "142",
+      "content": "a) az ellenőrző, szakmai látogató nevét, beosztását (munkakörét),"
+    },
+    {
+      "provision_ref": "s143",
+      "section": "143",
+      "title": "143",
+      "content": "b) az érkezés időpontját, célját,"
+    },
+    {
+      "provision_ref": "s144",
+      "section": "144",
+      "title": "144",
+      "content": "c) az ellenőrzés, szakmai látogatás eseményeit (ki fogadta, mit tekintett meg, kivel/kikkel milyen körülmények között folytatott beszélgetést, kire irányulóan végzett vizsgálatot stb.),"
+    },
+    {
+      "provision_ref": "s145",
+      "section": "145",
+      "title": "145",
+      "content": "d) a tett észrevételeket, megállapításokat, a bv. szerv vezetőjének címzett felkéréseket,"
+    },
+    {
+      "provision_ref": "s146",
+      "section": "146",
+      "title": "146",
+      "content": "e) a távozás időpontját."
+    },
+    {
+      "provision_ref": "s147",
+      "section": "147",
+      "title": "147",
+      "content": "50/A. Az 1. melléklet 16. pontja szerinti öngyilkossági kísérletnek minősítendő, amennyiben az érintett a cselekményét valós elhalálozási szándékkal követte el, és az elkövetés módja alkalmas lett volna halál közvetlen okozására, függetlenül az egészségügyi következményektől, a gyógytartamtól, továbbá attól, hogy a későbbi meghallgatása során az öngyilkossági szándékáról lemond-e. Nem minősül jelentésköteles eseménynek az azon módszerrel vagy eszköz felhasználásával elkövetett cselekmény, mellyel befejezett öngyilkosság nem követhető el. A manipulatív, nem valós elhalálozási szándékkal elkövetett cselekményt szándékos önkárosításnak kell minősíteni, amennyiben életveszélyes állapot, súlyos egészségkárosodás vagy maradandó fogyatékosság következik be."
+    },
+    {
+      "provision_ref": "s148",
+      "section": "148",
+      "title": "148",
+      "content": "51. A fogvatartott és a személyi állomány egészségügyi állapotát is érintő jelentéstétel esetén a személyes adatokra vonatkozó adatvédelmi és adatbiztonsági szabályok szerint kell eljárni."
+    },
+    {
+      "provision_ref": "s149",
+      "section": "149",
+      "title": "149",
+      "content": "52. A főügyeletes vagy az agglomerációs ügyeletes részére történő jelentés teljesítése a jogszabályokban és más belső szabályozó eszközökben meghatározott szóbeli és írásbeli jelentési, tájékoztatási kötelezettséget nem korlátozza és nem váltja ki."
+    },
+    {
+      "provision_ref": "s150",
+      "section": "150",
+      "title": "150",
+      "content": "53. A Büntető Törvénykönyvről szóló 2012. évi C. törvényben meghatározott katonák, valamint a magyar büntetőjog hatálya alá tartozó szövetséges fegyveres erő tagjainak elhelyezésére szolgáló részleg vonatkozásában, továbbá a személyi állomány tagjai által – szolgálati feladataival összefüggésben – elkövetett cselekmények parancsnoki kivizsgálását követően, annak eredményétől függően, bűncselekmény gyanúja esetén parancsnoki nyomozást kell elrendelni vagy feljelentést kell tenni."
+    },
+    {
+      "provision_ref": "s151",
+      "section": "151",
+      "title": "151",
+      "content": "54. Abban az esetben, ha az esemény vizsgálata elhúzódik, minősítése, jellege megváltozik, új adat vagy bizonyíték merül fel, továbbá az esemény során indult büntetőeljárás bármilyen okból megszüntetésre vagy felfüggesztésre kerül, az országos parancsnok vagy a jelentést telefonon fogadó személy, vezető ügyeletes által meghatározott határidőn belül és módon kiegészítő jelentést kell tenni."
+    },
+    {
+      "provision_ref": "s152",
+      "section": "152",
+      "title": "152",
+      "content": "55. A személyi állomány, valamint a fogvatartottak által elkövetett bűncselekmény gyanúja okán indított büntetőeljárás eredményéről a bv. szerv általi tudomásra jutást követően a főügyeletet tájékoztatni kell."
+    },
+    {
+      "provision_ref": "s153",
+      "section": "153",
+      "title": "153",
+      "content": "56. Amennyiben az esemény jellege, minősítése az 1. mellékletben rögzített határidőn belül teljes pontossággal nem állapítható meg, továbbá egyes dokumentumok (jegyzőkönyv, jelentés, látlelet stb.) hiánya a jelentéstételnek nem lehet akadálya, a hiányzó információkat vagy dokumentumokat a beszerzésüket követően részjelentésként meg kell küldeni."
+    },
+    {
+      "provision_ref": "s154",
+      "section": "154",
+      "title": "154",
+      "content": "57. A minisztériumi vezetők, az országos parancsnok vagy helyettesei jelenlétében megrendezett szervezeti eseményekről a bv. szerv és a BVOP Hivatal Koordinációs Főosztálya a főügyeletest a végrehajtást megelőző napon szóban, valamint a lebonyolítást követően szóban, majd 18 óráig írásban tájékoztatja."
+    },
+    {
+      "provision_ref": "s155",
+      "section": "155",
+      "title": "155",
+      "content": "58."
+    },
+    {
+      "provision_ref": "s156",
+      "section": "156",
+      "title": "156",
+      "content": "59. A főügyeletes vagy az agglomerációs ügyeletes részére külön jelzés nélkül elektronikus formában az Eseményjelentő Modulon keresztül rendelkezésre kell bocsátani a jelentéssel összefüggésben keletkezett valamennyi dokumentációt, különös tekintettel a keletkezett meghallgatási jegyzőkönyvekre, látleletekre, fényképekre, kamerafelvételre, azok elkészülését és mentését követően, az egészségügyi és a hozzájuk kapcsolódó személyes adatok kezeléséről és védelméről szóló 1997. évi XLVII. törvény II. fejezet 4. § (2) bekezdés e) pontja alapján, a (4) bekezdésében foglaltakra figyelemmel."
+    },
+    {
+      "provision_ref": "s157",
+      "section": "157",
+      "title": "157",
+      "content": "60. A főügyeletes és az agglomerációs ügyeletes jogosult a személyi állomány érintettsége esetén, az állománytag személyes adatainak megismerésére a büntetés-végrehajtási szervezetről szóló 1995. évi CVII. törvény 4. § (3) bekezdés g) pontja és 5. § b) pontja alapján."
+    },
+    {
+      "provision_ref": "s158",
+      "section": "158",
+      "title": "158",
+      "content": "61. A bekövetkezett eseményről minden esetben fotókat kell készíteni a büntetés-végrehajtási szervezetről szóló 1995. évi CVII. törvény 11. § (8) bekezdése alapján. A fotók elkészítésekor törekedni kell arra, hogy azok minél jobban szemléltessék az esemény körülményeit, különösen a sérülés jellegét, tiltott tárgy esetén az előtalálás helyét. Az elkészített fényképeket és – amennyiben rendelkezésre áll – a kamerarendszer által rögzített videofelvételeket a legrövidebb időn belül, de legkésőbb az esemény bekövetkezését követő nap 6 óráig a főügyeletes vagy az agglomerációs ügyeletes által meghatározott módon számára elérhetővé kell tenni. Szükség esetén az informatikai szakterület segítségét kell kérni."
+    },
+    {
+      "provision_ref": "s159",
+      "section": "159",
+      "title": "159",
+      "content": "62."
+    },
+    {
+      "provision_ref": "s160",
+      "section": "160",
+      "title": "160",
+      "content": "63. A főügyeletes és az agglomerációs ügyeletes a bv. szerv állandó ügyeleti szolgálata részére rendszeresen vagy eseti jelleggel meghatározhat jelentési kötelezettséget – a rendelkezésre álló szakrendszerekben nem elérhető információk tekintetében –, melyeket a bv. szerv határidőre köteles teljesíteni."
+    },
+    {
+      "provision_ref": "s161",
+      "section": "161",
+      "title": "161",
+      "content": "64. A bv. szerv biztonsági tisztje vagy a helyettesítését ellátó személy köteles minden nap 24 óráig elektronikus formában a bv. szervet érintő napi adattáblát feltölteni a Navigátor alkalmazás „éjféli adatszolgáltatás” almoduljába. Az adattábla tartalmi elemeinek módosítására az Ügyeleti és Védelmi Osztály vezetője jogosult, aki az esetlegesen időközben alkalmazott módosításokról az ügyeleti tevékenységet ellátók és a biztonsági szakterületek vezetői részére tájékoztatást küld."
+    },
+    {
+      "provision_ref": "s162",
+      "section": "162",
+      "title": "162",
+      "content": "65."
+    },
+    {
+      "provision_ref": "s163",
+      "section": "163",
+      "title": "163",
+      "content": "66."
+    },
+    {
+      "provision_ref": "s164",
+      "section": "164",
+      "title": "164",
+      "content": "67. A főügyeletre vagy az agglomerációs ügyeletre történő jelentések tényét a 3. melléklet szerint, annak pontos kitöltésével rögzíteni kell, amely a Navigátor alkalmazás „E-naplók” modul, „Jelentésre kötelezett események nyilvántartása” naplóban történik. A közmű szolgáltatások tartós leállása esetén elzárva biztosítani kell a 3. melléklet nyomtatott formában történő elhelyezését a biztonsági tiszt szolgálati helyiségében."
+    },
+    {
+      "provision_ref": "s165",
+      "section": "165",
+      "title": "165",
+      "content": "68. Valamennyi esemény során továbbítani kell a főügyeletes vagy az agglomerációs ügyeletes részére mindazon információkat, amelyet a bv. szerv vezetője vagy helyettese az országos parancsnok és helyettesei felé jelent."
+    },
+    {
+      "provision_ref": "s166",
+      "section": "166",
+      "title": "166",
+      "content": "9. A főügyeletes és az agglomerációs ügyeletes jelentése"
+    },
+    {
+      "provision_ref": "s167",
+      "section": "167",
+      "title": "167",
+      "content": "69. A főügyeletes a bv. szerv által jelentett eseményeket – szolgálatteljesítése kezdőnapjának 0 órájától 24 órájáig terjedő időszakára vonatkoztatva – a szolgálatteljesítés másnapján 3 óráig köteles összegezni, arról jelentést készíteni. Hétvége és munkaszüneti nap esetén a jelentés az utolsó munkanap 0 órájától az első munkanapot megelőző nap 24 órájáig bekövetkezett eseményeket tartalmazza."
+    },
+    {
+      "provision_ref": "s168",
+      "section": "168",
+      "title": "168",
+      "content": "70. Az agglomerációs ügyeletes a jelentést az agglomerációba tartozó bv. intézetek tekintetében a BVOP által meghatározott adattartalommal – az agglomerációs központ vezetője által elvárt esetleges többletadatokkal – készíti el, melyet minden nap 23.30 óráig e-mail formájában megküld a főügyeletre."
+    },
+    {
+      "provision_ref": "s169",
+      "section": "169",
+      "title": "169",
+      "content": "71. A főügyeletes az 1. mellékletben meghatározottak szerint munkanapokon 6 óra és 21 óra között, munkaszüneti napokon 7 óra és 21 óra között szöveges üzenetben és elektronikus formában tesz jelentést. A kiemelt események tekintetében a megjelölt időpontokon túl a vezető ügyeletes meghagyása alapján tesz jelentést a meghatározott címzetti körnek."
+    },
+    {
+      "provision_ref": "s170",
+      "section": "170",
+      "title": "170",
+      "content": "72. A főügyeletes a szolgálata alatt történt eseményekről az 1. mellékletben meghatározottak, továbbá a jogszabályokban, belső szabályozó eszközökben rögzítettek szerint köteles jelentést tenni, továbbá valamennyi, részére jelentett eseményről szöveges üzenetet küldeni az országos parancsnok és helyettesei, valamint az érintett szolgálatok, főosztályok vezetői részére. Az esemény jellegétől függetlenül a jelentett eseményekről szöveges üzenetet kell küldeni továbbá a Hivatal, a Biztonsági Szolgálat, a Humán Szolgálat, az Ellenőrzési Szolgálat, a Fogvatartási Ügyek Szolgálata, a Kommunikációs Főosztály, a Biztonsági Szolgálat Ügyeleti és Védelmi Osztálya, a Nemzeti Védelmi Szolgálat Büntetés-végrehajtási Főosztálya vezetőjének, valamint a BVOP sajtószóvivőjének."
+    },
+    {
+      "provision_ref": "s171",
+      "section": "171",
+      "title": "171",
+      "content": "73. A főügyeletes a jelentését személyes adatokat tartalmazó és korlátozott adattartalommal is köteles elkészíteni."
+    },
+    {
+      "provision_ref": "s172",
+      "section": "172",
+      "title": "172",
+      "content": "74. A főügyeletes a személyes adatokat tartalmazó jelentést köteles minden nap 3 óráig elektronikus formában továbbítani a Belügyminisztérium Ügyelete, valamint a Nemzeti Információs Központ felé."
+    },
+    {
+      "provision_ref": "s173",
+      "section": "173",
+      "title": "173",
+      "content": "75. A főügyeletes a korlátozott adattartalommal készült jelentést valamennyi bv. szerv vezetője részére köteles megküldeni, valamint a Biztonsági Szolgálat vezetője – akadályoztatása esetén a helyettesítését ellátó vezető – jóváhagyását követően az intranet hálózat http://intranet2.bv.hu/napi-jelentesek/oldal/ elérési útra feltölteni."
+    },
+    {
+      "provision_ref": "s174",
+      "section": "174",
+      "title": "174",
+      "content": "76. A főügyeletes és az agglomerációs ügyeletes jelentésében az események lényegi tartalmát az alábbi eseménytípusokra bontva készíti el:"
+    },
+    {
+      "provision_ref": "s175",
+      "section": "175",
+      "title": "175",
+      "content": "a) a személyi állománnyal kapcsolatos kiemelt események,"
+    },
+    {
+      "provision_ref": "s176",
+      "section": "176",
+      "title": "176",
+      "content": "b) a személyi állománnyal kapcsolatos egyéb események,"
+    },
+    {
+      "provision_ref": "s177",
+      "section": "177",
+      "title": "177",
+      "content": "c) a fogvatartottakkal kapcsolatos kiemelt események,"
+    },
+    {
+      "provision_ref": "s178",
+      "section": "178",
+      "title": "178",
+      "content": "d) a fogvatartottakkal kapcsolatos egyéb események,"
+    },
+    {
+      "provision_ref": "s179",
+      "section": "179",
+      "title": "179",
+      "content": "e) egyéb kiemelt események,"
+    },
+    {
+      "provision_ref": "s180",
+      "section": "180",
+      "title": "180",
+      "content": "f) egyéb jelentésköteles események,"
+    },
+    {
+      "provision_ref": "s181",
+      "section": "181",
+      "title": "181",
+      "content": "g) kábítószergyanús anyag előtalálása,"
+    },
+    {
+      "provision_ref": "s182",
+      "section": "182",
+      "title": "182",
+      "content": "h) nem engedélyezett mobiltelefon előtalálása."
+    },
+    {
+      "provision_ref": "s183",
+      "section": "183",
+      "title": "183",
+      "content": "77. A főügyeletes által készített jelentésben megjelenítendő események körét a Biztonsági Szolgálat vezetője határozza meg."
+    },
+    {
+      "provision_ref": "s184",
+      "section": "184",
+      "title": "184",
+      "content": "78. A bv. szervek a jelentésre kötelezett eseményeket a 3. melléklet szerint, annak pontos kitöltésével rögzítik a Navigátor alkalmazás „E-naplók” modul, „Jelentésre kötelezett események nyilvántartása” naplóban. A közműszolgáltatások tartós leállása esetére biztosítani kell a 3. melléklet szerinti napló nyomtatott formában történő rendelkezésre állását, elzárva a biztonsági tiszt szolgálati helyiségében."
+    },
+    {
+      "provision_ref": "s185",
+      "section": "185",
+      "title": "185",
+      "content": "79. A bv. szerv vezetője vagy döntése alapján a helyettesítésével megbízott vezető az utasításban meghatározottakon kívül a saját megítélése szerint fontosnak tartott, a mindennapitól eltérő, a média érdeklődését kiváltó eseményekről is köteles jelentést tenni az országos parancsnoknak, az országos parancsnok illetékes helyettesének, az agglomerációs központ vezetőjének, valamint – a jelentésre kötelezett személyen keresztül – a főügyeletesnek és az agglomerációs ügyeletesnek."
+    },
+    {
+      "provision_ref": "s186",
+      "section": "186",
+      "title": "186",
+      "content": "10. A BVOP főügyeletén, az agglomerációs ügyeleten és az állandó ügyeleti szolgálaton használt nyilvántartások"
+    },
+    {
+      "provision_ref": "s187",
+      "section": "187",
+      "title": "187",
+      "content": "80. A BVOP főügyeletén, az agglomerációs ügyeleten és az állandó ügyeleti szolgálaton az alábbi okmányokat kell vezetni:"
+    },
+    {
+      "provision_ref": "s188",
+      "section": "188",
+      "title": "188",
+      "content": "a) a 4. melléklet szerinti RobotZsaru ügyeleti napló és nyilvántartások,"
+    },
+    {
+      "provision_ref": "s189",
+      "section": "189",
+      "title": "189",
+      "content": "b) szolgálatátadás és ahhoz tartozó átadási jegyzék,"
+    },
+    {
+      "provision_ref": "s190",
+      "section": "190",
+      "title": "190",
+      "content": "c) ügyeleti statisztikák,"
+    },
+    {
+      "provision_ref": "s191",
+      "section": "191",
+      "title": "191",
+      "content": "d) Navigátor alkalmazás ellenőrzési napló (kivéve agglomerációs ügyeletek),"
+    },
+    {
+      "provision_ref": "s192",
+      "section": "192",
+      "title": "192",
+      "content": "e) fegyverzeti szakanyagok nyilvántartására szolgáló napló (kivéve agglomerációs ügyeletek),"
+    },
+    {
+      "provision_ref": "s193",
+      "section": "193",
+      "title": "193",
+      "content": "f) beépített tűzjelző berendezés üzemeltetési és karbantartási napló (kivéve agglomerációs ügyeletek)."
+    },
+    {
+      "provision_ref": "s194",
+      "section": "194",
+      "title": "194",
+      "content": "81. A bv. szervek ügyeleti tevékenységét ellátók az alábbi okmányokat kötelesek vezetni:"
+    },
+    {
+      "provision_ref": "s195",
+      "section": "195",
+      "title": "195",
+      "content": "a) RobotZsaru szolgálati napló és nyilvántartások,"
+    },
+    {
+      "provision_ref": "s196",
+      "section": "196",
+      "title": "196",
+      "content": "b) szolgálatátadás és ahhoz tartozó átadási jegyzék,"
+    },
+    {
+      "provision_ref": "s197",
+      "section": "197",
+      "title": "197",
+      "content": "c) Navigátor alkalmazás ellenőrzési napló,"
+    },
+    {
+      "provision_ref": "s198",
+      "section": "198",
+      "title": "198",
+      "content": "d) fegyverzeti szakanyagok nyilvántartására szolgáló napló."
+    },
+    {
+      "provision_ref": "s199",
+      "section": "199",
+      "title": "199",
+      "content": "III. FEJEZET"
+    },
+    {
+      "provision_ref": "s200",
+      "section": "200",
+      "title": "200",
+      "content": "KIEMELT FIGYELMET IGÉNYLŐ FOGVATARTOTTAKKAL KAPCSOLATOS FELADATOK"
+    },
+    {
+      "provision_ref": "s201",
+      "section": "201",
+      "title": "201",
+      "content": "82. A BVOP főügyelet országos, az agglomerációs ügyelet agglomerációs nyilvántartást vezet a kiemelt figyelmet igénylő fogvatartottakról (e fejezetben a továbbiakban: nyilvántartás)."
+    },
+    {
+      "provision_ref": "s202",
+      "section": "202",
+      "title": "202",
+      "content": "83. A kiemelt figyelmet igénylő fogvatartottak nyilvántartásában szereplő személy a bv. intézetek feladatrendszerének szempontjából azon fogvatartott, aki a bv. intézetben történő tartózkodása során az általánostól eltérő kezelést igényel az alábbiakra tekintettel:"
+    },
+    {
+      "provision_ref": "s203",
+      "section": "203",
+      "title": "203",
+      "content": "a) bűncselekménye vagy az azzal kapcsolatos büntetőeljárás kiemelt sajtónyilvánosságot kapott az országos médiában vagy folyamatos médiaérdeklődés kíséri,"
+    },
+    {
+      "provision_ref": "s204",
+      "section": "204",
+      "title": "204",
+      "content": "b) szervezett bűnözői kör(ök) tagja vagy azok vezetője,"
+    },
+    {
+      "provision_ref": "s205",
+      "section": "205",
+      "title": "205",
+      "content": "c) terrorcselekmény, terrorizmus finanszírozása bűncselekmény elkövetője,"
+    },
+    {
+      "provision_ref": "s206",
+      "section": "206",
+      "title": "206",
+      "content": "d) a bv. intézeten belüli magatartása súlyosan sérti vagy veszélyezteti a bv. intézet rendjét, biztonságát,"
+    },
+    {
+      "provision_ref": "s207",
+      "section": "207",
+      "title": "207",
+      "content": "e) közszereplő, médiaszemélyiség, bv. intézetbe történő bekerülését megelőzően valamilyen szervezet, politikai párt képviselője, vezetője volt,"
+    },
+    {
+      "provision_ref": "s208",
+      "section": "208",
+      "title": "208",
+      "content": "f) etnikum elleni, faji alapon elkövetett bűncselekmény elkövetője,"
+    },
+    {
+      "provision_ref": "s209",
+      "section": "209",
+      "title": "209",
+      "content": "g) migrációval kapcsolatos erőszakos bűncselekmény elkövetője,"
+    },
+    {
+      "provision_ref": "s210",
+      "section": "210",
+      "title": "210",
+      "content": "h) személye, a bűncselekmény jellege, valamint a várható ítélet hossza miatt fokozott figyelmet igényel,"
+    },
+    {
+      "provision_ref": "s211",
+      "section": "211",
+      "title": "211",
+      "content": "i) fogvatartása alatt kiemelt súlyú bűncselekményt követett el."
+    },
+    {
+      "provision_ref": "s212",
+      "section": "212",
+      "title": "212",
+      "content": "84. A nyilvántartásba kerülésről, valamint az onnan történő törlésről a Biztonsági Szolgálat vezetője rendelkezik, ugyanakkor az agglomerációs központ vagy a bv. intézet vezetője a Biztonsági Szolgálat részére – RobotZsarun keresztül megküldött – javaslattal élhet alapos és körültekintő mérlegelést követően."
+    },
+    {
+      "provision_ref": "s213",
+      "section": "213",
+      "title": "213",
+      "content": "85. A nyilvántartásban szereplő fogvatartottak részére minden esetben egyedi biztonsági előírást szükséges készíteni, amit a fogvatartottal érintkező valamennyi személyi állományi tagnak ismernie kell. Az egyedi biztonsági előírást a befogadás vagy a nyilvántartásba kerülést követően soron kívül el kell készíteni."
+    },
+    {
+      "provision_ref": "s214",
+      "section": "214",
+      "title": "214",
+      "content": "86. A kiemelt figyelmet igénylő fogvatartottak elhelyezését, zárkatársának kiválasztását az operatív felderítő feladatokat ellátó társ rendvédelmi szervek bevonásával, azok beleegyezésével, javaslatára kell végrehajtani."
+    },
+    {
+      "provision_ref": "s215",
+      "section": "215",
+      "title": "215",
+      "content": "87. Folyamatosan figyelemmel kell kísérni a kiemelt figyelmet igénylő fogvatartottak napi tevékenységét, mozgását, mozgatását, azt a szolgálatot teljesítő körletfelügyelő szolgálati naplójába vagy bv. intézeten kívül történő mozgatása során az előállító felügyelő, szállítmányvezető az e célra rendszeresített okmányában dokumentálni köteles. Rendellenesség esetén a szolgálatban lévő biztonsági tiszt részére soron kívül jelentést kell tenni. Az egyes intézkedéseket kizárólag a bv. intézet vezetője engedélyével lehet foganatosítani."
+    },
+    {
+      "provision_ref": "s216",
+      "section": "216",
+      "title": "216",
+      "content": "88. A bv. intézet köteles folyamatosan figyelemmel kísérni a kiemelt figyelmet igénylő fogvatartott fegyelmi helyzetét, fogvatartotti populációban betöltött szerepét, munkáltatását, esetlegesen folyamatban lévő ügyeit, az adott ítéletből hátralévő időt, és ezekre tekintettel 3 havonta előterjesztést tenni az adott fogvatartott nyilvántartásban történő további feltüntetésére vagy törlésére."
+    },
+    {
+      "provision_ref": "s217",
+      "section": "217",
+      "title": "217",
+      "content": "89. A bv. intézet a Biztonsági Szolgálat vezetője részére háromhavi rendszerességgel adatot szolgáltat a kiemelt figyelmet igénylő fogvatartott hangulatáról, reintegrációs tevékenységéről (foglalkozások, jutalmazás, fegyelmi helyzet, kapcsolattartás, sporttevékenység), bv. intézeti magaviseletéről."
+    },
+    {
+      "provision_ref": "s218",
+      "section": "218",
+      "title": "218",
+      "content": "90. A Biztonsági Szolgálat vezetője havonta felülvizsgálja a nyilvántartást, amennyiben további szerepeltetése nem indokolt, az érintett fogvatartott a nyilvántartásból törlésre kerül."
+    },
+    {
+      "provision_ref": "s219",
+      "section": "219",
+      "title": "219",
+      "content": "91. A főügyelet hetente az első munkanapot megelőző napon aktualizálja a nyilvántartást, valamint végrehajtja a szükséges egyeztetéseket az agglomerációs ügyeletesekkel."
+    },
+    {
+      "provision_ref": "s220",
+      "section": "220",
+      "title": "220",
+      "content": "92. A mindenkori aktualizált nyilvántartás a \\\\BvOrg\\PUBLIKUS\\Kiemelt Fogvatartottak mappában érhető el."
+    },
+    {
+      "provision_ref": "s221",
+      "section": "221",
+      "title": "221",
+      "content": "93. A bv. intézet elhagyásával járó – tervezett és nem tervezett – mozgatásokat a nyilvántartásban szereplő fogvatartottak vonatkozásában a főügyelet és az agglomerációs ügyelet részére szóban jelenteni kell."
+    },
+    {
+      "provision_ref": "s222",
+      "section": "222",
+      "title": "222",
+      "content": "IV. FEJEZET"
+    },
+    {
+      "provision_ref": "s223",
+      "section": "223",
+      "title": "223",
+      "content": "ZÁRÓ RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s224",
+      "section": "224",
+      "title": "224",
+      "content": "94. Ez az utasítás a közzétételét követő hónap első napján lép hatályba."
+    },
+    {
+      "provision_ref": "s225",
+      "section": "225",
+      "title": "225",
+      "content": "95."
+    }
+  ]
+}

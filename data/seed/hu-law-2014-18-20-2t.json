@@ -1,0 +1,377 @@
+{
+  "id": "hu-law-2014-18-20-2t",
+  "type": "statute",
+  "title": "18/2014. (III. 13.) KIM rendelet a hitelbiztosítéki nyilvántartás részletes szabályainak megállapításáról",
+  "status": "in_force",
+  "in_force_date": "2014-03-15",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2014-18-20-2T",
+  "description": "a hitelbiztosítéki nyilvántartás részletes szabályainak megállapításáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § (1) E rendelet alkalmazásában hitelbiztosítéki rendszer: a Magyar Országos Közjegyzői Kamarának (a továbbiakban: országos kamara) a Polgári Törvénykönyv és a hitelbiztosítéki nyilvántartásról szóló 2013. évi CCXXI. törvény (a továbbiakban: Hbnytv.) szerinti hitelbiztosítéki nyilatkozatok megtételének technikai támogatására szolgáló, a közjegyzők, a regisztrált és nem regisztrált felhasználók, valamint a közfeladatot ellátó szervek részére rendelkezésre álló, az interneten elérhető országosan egységes számítástechnikai rendszere. (2) A hitelbiztosítéki nyilvántartásnak a Hbnytv. 25. § (1) bekezdése szerint azonosítás nélkül megismerhető adatait az országos kamara azonosítás nélkül, ingyenesen elérhetővé teszi az interneten; e célból az országos kamara honlapot üzemeltet. (3) Az országos kamara a felhasználók számára a hitelbiztosítéki rendszer használatának elősegítésére a hitelbiztosítéki rendszer nem regisztrált felhasználók számára elérhető felületén is folyamatosan működtetett elektronikus úton elérhető technikai tájékoztatást nyújt a hitelbiztosítéki rendszer használata vonatkozásában."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § (1) A hitelbiztosítéki rendszert úgy kell kialakítani, hogy alkalmas legyen a kifejezetten emberi közreműködést nem igénylő műveletek automatizált, gépi adatfeldolgozással történő elvégzésére. (2) A hitelbiztosítéki rendszert úgy kell kialakítani, hogy a hitelbiztosítéki nyilatkozatot automatikusan, azonnal rögzítse a hitelbiztosítéki rendszerben. A hitelbiztosítéki rendszer az automatikus műveletek elvégzésekor egy adott kötelezett tekintetében a bejegyzések rangsorát a bejegyzések időpontjára és a bejegyzett ranghelyszerződésre tekintettel állítja fel. (3) A hitelbiztosítéki rendszert úgy kell kialakítani, hogy alkalmas legyen a regisztrált felhasználók számára fenntartott műveletek elvégzésének, a felhasználó azonosítását követően történő naplózására. (4) A naplózási rendszernek alkalmasnak kell lennie a regisztrált felhasználók, a nem regisztrált felhasználók, valamint a Hbnytv. 26. §-a szerint adatigénylésre jogosultak által végzett művelet szelektív leválogatására. (5) Az országos kamara rendszere naplót készít különösen a következő eseményekről: a) rendszerindítások és -leállítások, b) rendszeróra-állítások, c) az azonosítási és a hitelesítési mechanizmus használata, d) a rendszer által végzett cselekményekről, azok időpontjának feltüntetésével, e) a Hbnytv. 26. §-a szerinti adatigénylésről, az adatigénylőről, az adattovábbítás időpontjáról és az ahhoz megadott adatok és a szolgáltatott adatok megjelölésével, f) az üzemzavar terjedelméről és időtartamáról, g) a naplóból történt adatszolgáltatásról a szolgáltatott adatok körének, az adatigénylő nevének és címének, az adatigénylésben feltüntetett adatigénylési jogalapnak, az adatszolgáltatás időpontjának, valamint az adatszolgáltatást végző azonosító adatainak feltüntetésével."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) A hitelbiztosítéki rendszer alkalmazásgazdája és adatgazdája az országos kamara elnöke. (2) Az országos kamara a hitelbiztosítéki rendszer üzemeltetésével vagy fejlesztésével akkor bízhat meg más személyt (a továbbiakban: külső szolgáltató), ha az vállalta az e rendeletben előírt követelmények betartását és azt, hogy a hitelbiztosítéki rendszer kezelésével megbízott személyek az e tevékenységük végzése során tudomásukra jutott adatok tekintetében titoktartási nyilatkozatot tesznek, valamint kötelezettséget vállalnak a tudomásukra jutott titok jogszabály szerinti megtartására. (3) A (2) bekezdésben foglaltak érvényesítését az országos kamarának a külső szolgáltatóval megkötött szerződésben kell biztosítania. (4) Az országos kamarának folyamatosan ellenőriznie kell, hogy a külső szolgáltató teljesíti-e a szerződéses kikötéseket."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. §"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § (1) Ha a regisztrált felhasználónak több állandó képviselője van, tárhelyéhez valamennyi állandó képviselő hozzáfér és hitelbiztosítéki nyilatkozatot tehet. A hitelbiztosítéki rendszert úgy kell kialakítani, hogy az állandó képviselők egyidejűleg is hozzáférjenek a tárhelyhez és a regisztrált felhasználók számára nyújtott szolgáltatásokat egyidejűleg, egymástól függetlenül igénybe vehessék. Az állandó képviselő saját felhasználónevének és jelszavának megadásával veheti igénybe a hitelbiztosítéki rendszert. (2) Annak a személynek, aki a hitelbiztosítéki rendszerbe állandó képviselőként regisztrált, a regisztráció során külön felhasználónevet és jelszót kell adni arra az esetre, ha a hitelbiztosítéki rendszer szolgáltatásait állandó képviselőként kívánja igénybe venni és arra az estre, ha nem állandó képviselőként kívánja a hitelbiztosítéki rendszer szolgáltatásait igénybe venni, kivéve ha a regisztráció során úgy nyilatkozik, hogy a hitelbiztosítéki rendszert kizárólag állandó képviselőként kívánja igénybe venni. (3) Nem természetes személy regisztrált felhasználó esetén kizárólag a regisztrált felhasználó állandó képviselője férhet hozzá a regisztrált felhasználó tárhelyéhez. (4) Ha a természetes személy regisztrált felhasználó a hitelbiztosítéki rendszer regisztrált felhasználójává személyes regisztráció útján vált, vagy utóbb személyesen regisztrált a hitelbiztosítéki rendszerbe, tárhelyéhez az állandó képviselő mellett maga is hozzáférhet és nyilatkozatot tehet."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § (1) A rendszerüzenetben fel kell tüntetni legalább a) a rendszerüzenet érkezésének időpontját, b) – szükség esetén – az arról szóló tájékoztatást, hogy a rendszerüzenettel érintett hitelbiztosítéki nyilatkozatot hogyan tekintheti meg, c) a hitelbiztosítéki nyilatkozat azonosítóját. (2) A hitelbiztosítéki rendszert úgy kell kialakítani, hogy rendszerüzenetnek a címzett tárhelyére érkezéséről a hitelbiztosítéki rendszer nem biztonságos csatornán megvalósuló elektronikus úton figyelmeztetést küldjön a regisztrált felhasználó ebből a célból megadott elektronikus levelezési címére. A figyelmeztetésnek tartalmaznia kell a rendszerüzenet érkezéséről szóló tájékoztatást, annak tárgyát, valamint annak érkezésének időpontját. (3) Ha a regisztrált felhasználónak több állandó képviselője van, a rendszerüzenet érkezéséről valamennyi állandó képviselő a (2) bekezdés szerinti figyelmeztetést kap. (4) Ha a természetes személy regisztrált felhasználó a hitelbiztosítéki rendszer regisztrált felhasználójává személyes regisztráció útján vált, vagy utóbb személyesen regisztrált a hitelbiztosítéki rendszerbe, a rendszerüzenet érkezéséről mind a természetes személy regisztrált felhasználó, mind annak állandó képviselője (2) bekezdés szerinti figyelmeztetést kap. (5) Ha a regisztrált felhasználó helyett a hitelbiztosítéki nyilatkozatot a Hbnytv. 8. §-a szerint a közjegyző vagy a Hbnytv. 10. §-a alapján a hitelbiztosítéki rendszerben azonosított, regisztrált felhasználó ügyvéd vagy kamarai jogtanácsos teszi meg, a hitelbiztosítéki nyilatkozattal kapcsolatos rendszerüzenetet a regisztrált felhasználó és a közjegyző, illetve az ügyvéd vagy kamarai jogtanácsos tárhelyére is meg kell küldeni. (6) A regisztrált felhasználó rendszerben rögzített adatainak módosulásáról rendszerüzenetben kell tájékoztatást adni azon regisztrált felhasználók számára, akik a módosulással érintett regisztrált felhasználó hitelbiztosítéki nyilatkozatával érintettek."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § (1) Az országos kamarának a tervezett karbantartások időpontját, és időtartamát legalább 3 munkanappal a karbantartást megelőzően kell közzétennie. (2) A karbantartás időpontját az országos kamarának akként kell ütemeznie, hogy az lehetőség szerint a munkanapon 8 órától 20 óráig terjedő időszakon kívülre essen."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § (1) Az országos kamara a hitelbiztosítéki rendszer regisztrált vagy nem regisztrált felhasználóként történő használatának feltételeit szabályzatban (a továbbiakban: felhasználói szabályzat) állapítja meg. (2) A felhasználói szabályzat kötelező tartalmi elemei a következők: a) a hitelbiztosítéki rendszer igénybevétele során a felhasználók részéről betartandó informatikai követelmények, b) a felhasználói szabályzat és a módosítása regisztrált és nem regisztrált felhasználó által történő elfogadásának módja, c) tájékoztató a hitelbiztosítéki rendszer regisztrált és nem regisztrált felhasználók számára nyújtott szolgáltatásairól és az egyes szolgáltatások igénybe vételének módjáról, d) a jelszó elvesztése esetén követendő eljárás szabályai, e) tájékoztatás a hitelbiztosítéki rendszerbe történő betekintés módjáról, f) a hitelbiztosítéki rendszerhez tartozó, a regisztrált felhasználók rendelkezésére álló technikai tájékoztató tartalma. (3) A felhasználói szabályzatot és annak módosítását az országos kamara a felhasználók számára honlapján közzéteszi; az a közzétételtől számított harminc napot követően alkalmazandó. (4) A nyilatkozattevő a felhasználói szabályzat módosítása esetén a (3) bekezdésben meghatározott határidőt követően a hitelbiztosítéki rendszer útján műveletet csak azt követően végezhet, hogy a felhasználói szabályzat módosítását – a hitelbiztosítéki rendszer felületén, erre szolgáló művelet elvégzésével – elfogadta."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § (1) Ha a miniszter álláspontja szerint az országos kamara által megállapított felhasználói szabályzat nem alkalmas arra, hogy a felhasználók a Hbnytv.-ben előírt módon igénybe vegyék a hitelbiztosítéki rendszert, vagy az egyébként a Hbnytv. vagy e rendelet előírásaiba ütközne, határidő tűzésével felhívja az országos kamarát a felhasználói szabályzat módosítására. (2) Ha az országos kamara a miniszter felhívását határidőre nem teljesíti, a miniszter a felhasználói szabályzat meghatározására egyeztető bizottságot (a továbbiakban: bizottság) hív össze. (3) Az országos kamara hitelbiztosítéki rendszer felületén közzétett felhasználói szabályzata a bizottság eljárásától függetlenül alkalmazandó."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § (1) A bizottságba két főt az országos kamara, két főt a miniszter delegál. (2) A bizottságban minden delegáltnak egy szavazata van. (3) Ha a bizottság egyhangúlag vagy három igen szavazattal és egy tartózkodással a felhasználói szabályzat vitatott pontjaiban megállapodik, az országos kamara a bizottság döntésének megfelelően jár el. A felhasználói szabályzat módosítására vonatkozó döntés esetén az országos kamara a felhasználói szabályzatot a bizottság döntésének megfelelően alakítja át, és erről a hitelbiztosítéki rendszer felületén a 8. § (3) bekezdés szerint ad tájékoztatást. (4) Ha a bizottság a felhasználói szabályzattal kapcsolatban nem jut a (3) bekezdésben meghatározott módon döntésre, szakmai álláspontját döntéshozatal érdekében döntésre felterjeszti a miniszternek. (5) A miniszter által hozott döntés kötelezi az országos kamarát."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § (1) A Hbnytv.-ben meghatározott sikeres regisztrációs kérelem és azonossági nyilatkozat tételét követően az országos kamara a kérelmezőt regisztrált felhasználóként nyilvántartásba veszi. (2) Az országos kamara a sikeres regisztrációs kérelem esetén a kérelmezőnek felhasználónevet, jelszót, valamint tárhelyet bocsát a rendelkezésére; a felhasználónév a kérelmező által ebből a célból megadott elektronikus levelezési címe. (3) A kérelmező a regisztrációs kérelem sikeres benyújtását követő tizenöt munkanapon belül köteles a Hbnytv.-ben rögzített azonossági nyilatkozatot tenni; e határidő elmulasztása esetén új regisztrációs kérelmet kell előterjeszteni a hitelbiztosítéki rendszer erre biztosított felületén. (4) Az azonossági nyilatkozat megtétele tényének hitelbiztosítéki rendszerben történő rögzítésével egyidejűleg az eljáró közjegyző a hitelbiztosítéki rendszer útján a regisztrált felhasználót egyéni azonosítóval látja el. (5) Az eljáró közjegyző a regisztrált felhasználó számára tanúsítványt állít ki a regisztrált felhasználó hitelbiztosítéki rendszerben rögzített adatairól. (6) A regisztrált felhasználót a sikeres regisztrációról és a sikeres azonossági nyilatkozat megtételéről rendszerüzenet útján kell értesíteni. (7) A hitelbiztosítéki rendszert úgy kell kialakítani, hogy a regisztrált felhasználó kizárhassa, hogy nevében meghatalmazottként hitelbiztosítéki nyilatkozat legyen tehető."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. § Ha a regisztrációját kérő állandó képviselőként, önálló bírósági végrehajtóként (a továbbiakban: végrehajtó) kíván eljárni, a regisztráció során ezt jelölnie, az azonossági nyilatkozat megtételékor pedig állandó képviselőként, végrehajtóként való eljárási jogosultságát igazolnia kell."
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. § Ha a regisztrált felhasználónak a regisztráció során rögzített adataiban változás következett be, a regisztrált felhasználónak megváltozott adatait a felhasználóként történő regisztráció szabályai szerint kell megadnia."
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14. §",
+      "content": "14. § A hitelbiztosítéki rendszert úgy kell kialakítani, hogy az alkalmas legyen arra, hogy a közjegyző a regisztrált felhasználó hitelbiztosítéki regisztrációját törölje."
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15. §",
+      "content": "15. § A hitelbiztosítéki rendszert úgy kell kialakítani, hogy a nem regisztrált felhasználók a hitelbiztosítéki rendszer következő szolgáltatásait vehessék igénybe: a) felhasználói szabályzat megtekintése, b) nem regisztrált felhasználók számára elérhető rendszertájékoztatók megtekintése, c) betekintés a hitelbiztosítéki nyilvántartásba, d) adatkérési eredmények megtekintése és nyomtatása."
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16. §",
+      "content": "16. § (1) A regisztrált felhasználó felhasználónevének és jelszavának megadásával veheti igénybe – hitelbiztosítéki nyilatkozat tételét kivéve – a hitelbiztosítéki rendszer regisztrált felhasználók részére nyújtott szolgáltatásait. (2) A hitelbiztosítéki rendszert úgy kell kialakítani, hogy a regisztrált felhasználó elektronikus levelezési címét megváltoztathassa. Az elektronikus levelezési cím változásával a regisztrált felhasználó felhasználóneve is megváltozik. (3) A hitelbiztosítéki rendszert úgy kell kialakítani, hogy lehetővé tegye a rendszerüzeneteknek kinyomtatását."
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17. §",
+      "content": "17. § (1) A közjegyző a Hbnytv. 8. §-a szerinti esetben a nyilatkozatot tevő hitelbiztosítéki nyilatkozatát tartalmazó irat két példányát záradéki tanúsítvánnyal látja el, melynek egy példányát átadja a nyilatkozatot tevőnek, a másik példányát pedig 5 évig őrzi. (2) A közjegyző választása szerint a hitelbiztosítéki nyilatkozat megtételének tanúsítását jegyzőkönyvbe is foglalhatja, ebben rögzítve különösen a hitelbiztosítéki nyilatkozat adatait. A jegyzőkönyvet archiválni nem kell."
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18. §",
+      "content": "18. § (1) A közjegyző és az ügyvéd vagy kamarai jogtanácsos a Hbnytv. 9. §-ában foglalt esetben jogosult arra, hogy azon regisztrált felhasználó esetében, aki a hitelbiztosítéki nyilatkozat kötelezettje lesz, foglalással éljen. (2) Az (1) bekezdésben meghatározott foglalással érintett nyilatkozatot tevő személyt kivéve a foglalással érintett regisztrált felhasználóra vonatkozóan a foglalás időszakában hitelbiztosítéki nyilatkozat nem tehető; ezt a hitelbiztosítéki rendszer útján kell biztosítani. A foglalás időszaka legfeljebb négy óráig tarthat. (3) A foglalásra jogosult a hitelbiztosítéki nyilatkozatot a foglalás során az általános szabályok szerint rögzítheti."
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19. §",
+      "content": "19. § (1) A hitelbiztosítéki rendszert úgy kell kialakítani, hogy a végrehajtó által tett hitelbiztosítéki nyilatkozat bejegyzésére is alkalmas legyen. A végrehajtónak a végrehajtási ügyszámot a hitelbiztosítéki nyilatkozat tételekor rögzítenie kell a hitelbiztosítéki rendszerben. (2) A hitelbiztosítéki rendszer végrehajtók számára biztosított szolgáltatásai kizárólag az (1) bekezdésben foglalt követelmények teljesítése esetén érhetőek el. (3) A hitelbiztosítéki rendszert úgy kell kialakítani, hogy ha a végrehajtó tesz hitelbiztosítéki nyilatkozatot, a hitelbiztosítéki rendszer ne kérjen hozzájárulást azon hitelbiztosítéki nyilatkozatokról, melyek egyébként hozzájáruláshoz kötöttek. A végrehajtó hitelbiztosítéki nyilatkozatáról a hitelbiztosítéki nyilatkozattal érintettek rendszerüzenet útján értesülnek."
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20. §",
+      "content": "20. § A hitelbiztosítéki nyilvántartásba történő bejegyzés alapjául a hitelbiztosítéki nyilatkozat tételére jogosult által tett hitelbiztosítéki nyilatkozat szolgál."
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21. §",
+      "content": "21. § (1) A hitelbiztosítéki rendszernek alkalmasnak kell lennie arra, hogy a hitelbiztosítéki nyilvántartásba történő bejegyzés, a bejegyzés módosításának és törlésének alapjául szolgáló következő hitelbiztosítéki nyilatkozatok megtehetőek legyenek: a) zálogjog esetén aa) a bejegyzésre irányuló nyilatkozat, ab) a bejegyzéshez hozzájáruló zálogkötelezetti nyilatkozat, ac) a bejegyzés módosítására irányuló nyilatkozat, ad) a bejegyzés módosításához hozzájáruló nyilatkozat, ae) a bejegyzés törlésére irányuló nyilatkozat, af) a bejegyzés törlésére irányuló nyilatkozat esetén a bejegyzés törléséhez hozzájáruló zálogjogosulti nyilatkozat, ag) a zálogjog ranghelyének előzetes biztosítására irányuló tulajdonosi nyilatkozat, ah) a bejegyzés törlésére irányuló nyilatkozat esetén a bejegyzés fenntartására irányuló zálogjogosulti nyilatkozat, b) a vagyontárgy tulajdonjog fenntartással történő eladása esetén ba) a bejegyzésre irányuló eladói nyilatkozat, bb) a bejegyzés módosítására irányuló eladói nyilatkozat, bc) a bejegyzés törlésére irányuló nyilatkozat, bd) a bejegyzés törlésére irányuló nyilatkozat esetén a bejegyzés fenntartására irányuló eladói nyilatkozat, be) a bejegyzés törlésére irányuló nyilatkozat esetén a bejegyzés törléséhez hozzájáruló eladói nyilatkozat, c) faktorálás esetén ca) a bejegyzésére irányuló faktori nyilatkozat, cb) a bejegyzés módosítására irányuló faktori nyilatkozat, cc) a bejegyzés törlésére irányuló nyilatkozat, cd) a bejegyzés törlésére irányuló nyilatkozat esetén a bejegyzés fenntartására irányuló faktori nyilatkozat, ce) a bejegyzés törlésére irányuló nyilatkozat esetén a bejegyzés törléséhez hozzájáruló faktori nyilatkozat, d) pénzügyi lízing esetén da) a bejegyzése irányuló lízingbeadói nyilatkozat, db) a bejegyzés módosítására irányuló lízingbeadói nyilatkozat, dc) a bejegyzés törlésére irányuló nyilatkozat, dd) a bejegyzés törlésére irányuló nyilatkozat esetén a bejegyzés fenntartására irányuló lízingbeadói nyilatkozat, de) a bejegyzés törlésére irányuló nyilatkozat esetén a pénzügyi lízing bejegyzés törléséhez hozzájáruló lízingbeadói nyilatkozat. e) ranghelyszerződés megkötése esetén ea) a bejegyzésre irányuló zálogjogosulti nyilatkozat, eb) a bejegyzésre irányuló tulajdonosi nyilatkozat, ec) a bejegyzéshez hozzájáruló tulajdonosi nyilatkozat, ed) a bejegyzéshez hozzájáruló zálogjogosulti nyilatkozat, ee) a bejegyzéshez hozzájáruló érdekelti nyilatkozat, f) a vagyontárgy biztosítéki célból történő átruházása esetén fa) a bejegyzésre irányuló jogszerzésre jogosulti nyilatkozat, fb) a bejegyzés módosítására irányuló jogszerzésre jogosulti nyilatkozat, fc) a bejegyzés törlésére irányuló nyilatkozat, fd) a bejegyzés törlésére irányuló nyilatkozat esetén a bejegyzés fenntartására irányuló jogszerzésre jogosulti nyilatkozat, fe) a bejegyzés törlésére irányuló nyilatkozat esetén a bejegyzés törléséhez hozzájáruló jogszerzésre jogosulti nyilatkozat, g) biztosítéki célú vételi jog alapítása esetén ga) a bejegyzésre irányuló vételi jog jogosulti nyilatkozat, gb) a bejegyzés módosítására irányuló vételi jog jogosulti nyilatkozat, gc) a bejegyzés törlésére irányuló nyilatkozat, gd) a bejegyzés törlésére irányuló nyilatkozat esetén a bejegyzés fenntartására irányuló vételi jog jogosulti nyilatkozat, ge) a bejegyzés törlésére irányuló nyilatkozat esetén a bejegyzés törléséhez hozzájáruló vételi jog jogosulti nyilatkozat. (2) A hitelbiztosítéki rendszert úgy kell kialakítani, hogy ha a jogosult vagy a kötelezett személye a Hbnytv. 24. § (2), (4) vagy (6) bekezdésében foglalt okból változik meg, az bejelenthető legyen."
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22. §",
+      "content": "22. § (1) Az országos kamara a hitelbiztosítéki nyilatkozat kitöltésére kódtárat rendszeresíthet. (2) Ha az országos kamara a hitelbiztosítéki nyilatkozat kitöltésére kódtárat rendszeresít, a kódtár alkalmazása kötelező. (3) A hitelbiztosítéki nyilatkozat megtételére szolgáló felületet el kell látni a hitelbiztosítéki nyilatkozatok megtételére szolgáló felület használatának módjára vonatkozó tájékoztatással. A tájékoztatás megtehető akként is, hogy azt az országos kamara honlapján teszi közzé."
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23. §",
+      "content": "23. § A hitelbiztosítéki rendszer útján a hitelbiztosítéki nyilatkozat bejegyzésének megkezdése és befejezése közötti időtartam alatt a hitelbiztosítéki nyilatkozattal érintett regisztrált felhasználónak rendszerüzenetben kell tájékoztatást adni, ha a regisztrált felhasználó tekintetében hitelbiztosítéki nyilatkozat tétele már folyamatban van vagy utóbb megkezdődik."
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24. §",
+      "content": "24. § (1) A hitelbiztosítéki bejegyzésre irányuló hitelbiztosítéki nyilatkozat adattartalmát a 2. melléklet határozza meg. (2) A hitelbiztosítéki nyilatkozat tételekor a nyilatkozatot tevőnek a 2. melléklet szerint kell megadnia a hitelbiztosítéki nyilatkozattal érintett személyek Hbnytv.-ben rögzített adatait. A hitelbiztosítéki rendszert úgy kell kialakítani, hogy ha a regisztráció során megadott adatok és a hitelbiztosítéki nyilatkozatban megadott adatok között eltérés van, úgy a hitelbiztosítéki rendszer a hitelbiztosítéki nyilatkozatot ne rögzítse. (3) A hitelbiztosítéki rendszer akként is kialakítható, hogy a felhasználói szabályzatban előírt azonosító adatok megadását követően, a regisztrált felhasználó regisztráció során megadott adatai a hitelbiztosítéki rendszer útján automatizáltan kerüljenek kitöltésre. (4) A hitelbiztosítéki rendszernek alkalmasnak kell lennie arra, hogy a regisztrált felhasználó hitelbiztosítéki nyilatkozatát annak megtételekor minősített aláírással és időbélyegzővel tudja ellátni."
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25. §",
+      "content": "25. § (1) A hitelbiztosítéki rendszert úgy kell kialakítani, hogy egy hitelbiztosítéki nyilatkozatban egy vagy több vagyontárgy a hitelbiztosítéki rendszer e célra rendszeresített felületén egyedileg az alábbiak szerint legyen megadható: a) gépjármű esetében az egyes gépjárművek alvázszámának feltüntetésével, vagy b) az a) ponton kívüli egyéb vagyontárgy esetében ba) gyártási évének, bb) gyártója nevének (elnevezésének), bc) gyártási számának, bd) gyártó által adott egyedi azonosítójának, be) gyártó által adott elnevezésének rögzítésével. (2) A hitelbiztosítéki rendszert úgy kell kialakítani, hogy alkalmas legyen az (1) bekezdés b) pontja szerint egyedileg meghatározott vagyontárgy lekérdezésére is. A hitelbiztosítéki rendszert úgy kell kialakítani, hogy ha a lekérdezés során megadott adatok közül legalább három adat egyezik bármely (1) bekezdés b) pontja szerint egyedileg megjelölt vagyontárgy adataival, a hitelbiztosítéki rendszer a lekérdezés eredményeként azt megjelenítse. (3) Abban az esetben, ha már nyilvántartásba vett hitelbiztosítéki nyilatkozatban a vagyontárgy, vagy a vagyontárgyak köre körülírással vagy nem az (1) bekezdés szerinti módon, egyedileg került megjelölésre, ugyanezen vagyontárgy vagy vagyontárgyakra vonatkozó további hitelbiztosítéki nyilatkozat e nyilatkozatban a rendszer által létrehozott azonosítóra hivatkozással is megtehető. (4) A hitelbiztosítéki rendszert úgy kell kialakítani, hogy vagyontárgy körülírással vagy nem az (1) bekezdés szerinti módon, egyedileg történő megjelölése esetén a vagyontárgy legalább tízezer karakterben megadható legyen az erre szolgáló mezőben (a továbbiakban: a vagyontárgy megjelölésére szolgáló mező). (5) Egy vagy több vagyontárgy a (4) bekezdés szerinti módon egy vagy több, a vagyontárgy megjelölésére szolgáló mezőben is megjelölhető. (6) A hitelbiztosítéki rendszert úgy kell kialakítani, hogy több jogosult vagy kötelezett közös nyilatkozatát vagy több jogosulttal vagy kötelezettel szembeni nyilatkozatot egy bejegyzésben rögzítse, ha a jogosultak vagy a kötelezettek annak a jogviszonynak az egyetemleges jogosultjai vagy egyetemleges kötelezettjei, amelyre tekintettel a hitelbiztosítéki nyilatkozatot tették. (7) A hitelbiztosítéki rendszert úgy kell kialakítani, hogy a hitelbiztosítéki nyilatkozat alapjául szolgáló jogügylettel kapcsolatos megjegyzések legalább ezer karakterben megadhatóak legyenek az erre szolgáló mezőben."
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26. §",
+      "content": "26. § (1) A hitelbiztosítéki rendszernek alkalmasnak kell lennie arra, hogy a Hbnytv. és az e rendeletben meghatározott adatok sikeres rögzítését követően annak megtörténtéről és tartalmáról a nyilatkozattevőt (a képviselőt) és a hitelbiztosítéki nyilatkozattal érintettet rendszerüzenetben értesítse. (2) Ha a hitelbiztosítéki rendszer hitelbiztosítéki nyilatkozat megtételére biztosított felületén az adatok rögzítése sikertelen, a hitelbiztosítéki rendszer erről rendszerüzenetben értesíti a nyilatkozattevőt „sikertelen nyilatkozat” megjelöléssel és az arról való tájékoztatással, hogy a hitelbiztosítéki nyilatkozat a hitelbiztosítéki rendszerben nem került rögzítésre, továbbá – ha az a hitelbiztosítéki rendszer útján emberi közreműködés nélkül megállapítható – a sikertelenség okáról."
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27. §",
+      "content": "27. § Előzetesen biztosított ranghelyre történő zálogjogi bejegyzésre irányuló hitelbiztosítéki nyilatkozat esetén a hitelbiztosítéki nyilatkozatban ranghely biztosítási azonosító jelölhető meg."
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28. §",
+      "content": "28. § A hitelbiztosítéki rendszert úgy kell kialakítani, hogy a nyilatkozattevő – választása szerint – meghatározott összeget jelölhessen meg, amelynek erejéig a zálogtárgy kielégítésére fedezetet biztosít."
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29. §",
+      "content": "29. § (1) A hitelbiztosítéki rendszert úgy kell kialakítani, hogy a hitelbiztosítéki bejegyzésre irányuló hitelbiztosítéki nyilatkozathoz való hozzájárulás vagy fenntartás megtehető legyen, ha arra a regisztrált felhasználó a Hbnytv. alapján jogosult. (2) Az (1) bekezdésben foglalt szabályokat kell alkalmazni abban az esetben is, ha a hitelbiztosítéki nyilatkozat a hitelbiztosítéki bejegyzés módosítására vagy törlésére irányul. (3) A hitelbiztosítéki rendszert úgy kell kialakítani, hogy a nyilatkozatot tevő a Hbnytv. 20. § (3) bekezdésében és e rendelet 35/A. §-ában foglalt esetre tekintettel nyilatkozatában kérhesse azt, hogy a hitelbiztosítéki rendszer útján rendszerüzenetben arról is tájékoztatást kapjanak az érintett regisztrált felhasználók, hogy a módosítással érintett zálogjogi bejegyzést követő ranghelyen álló jogosultak, illetve a ranghely megváltoztatására irányuló nyilatkozatban megjelölt bejegyzések közötti ranghelyen álló bejegyzések jogosultjai a hitelbiztosítéki bejegyzés módosítására, illetve a ranghely megváltoztatására irányuló hitelbiztosítéki nyilatkozat nyilvántartásba történő rögzítéséhez hozzájárulhatnak."
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30. §",
+      "content": "30. § (1) A hitelbiztosítéki rendszernek alkalmasnak kell lennie arra, hogy a következő hozzájáruló hitelbiztosítéki nyilatkozatok megtehetőek legyenek: a) zálogjog esetén aa) zálogkötelezetti hozzájáruló nyilatkozat a bejegyzésére irányuló zálogjogosulti nyilatkozathoz, ab) zálogkötelezetti hozzájáruló nyilatkozat a bejegyzés módosítására irányuló zálogjogosulti nyilatkozathoz, ac) zálogjogosulti hozzájáruló nyilatkozat a bejegyzés módosítására irányuló zálogkötelezetti nyilatkozathoz, ad) zálogjogosulti hozzájáruló nyilatkozat a bejegyzés törlésére irányuló zálogkötelezetti nyilatkozathoz, ae) ha a módosítással érintett bejegyzést követő ranghelyen további bejegyzések állnak, e bejegyzések jogosultjainak hozzájáruló nyilatkozata, af) ha a ranghely megváltoztatására irányuló nyilatkozatban szereplő bejegyzések közötti ranghelyen további bejegyzések állnak, e bejegyzések jogosultjainak hozzájáruló nyilatkozata, b) a vagyontárgy tulajdonjog fenntartással történő eladása esetén az eladó hozzájáruló nyilatkozata a bejegyzés törlésére irányuló vevői nyilatkozathoz, c) faktorálás esetén a faktor hozzájáruló nyilatkozata az adós bejegyzés törlésére irányuló nyilatkozatához, d) pénzügyi lízing esetén a lízingbeadó hozzájáruló nyilatkozata a bejegyzés törlésére irányuló lízingbevevői nyilatkozathoz, e) a vagyontárgy biztosítéki célból történő átruházása esetén jogszerzésre jogosulti hozzájáruló nyilatkozat a bejegyzés törlésére irányuló átruházói nyilatkozathoz, f) biztosítéki célú vételi jog alapítása esetén a vételi jog jogosulti hozzájáruló nyilatkozat a bejegyzés törlésére irányuló vételi jogot engedői nyilatkozathoz. (2) Ha a hitelbiztosítéki bejegyzés módosításának indoka, hogy a felek személye a Hbnytv. 24. § (2), (4) vagy (6) bekezdésben foglaltak szerint változik meg, a hitelbiztosítéki rendszernek alkalmasnak kell lennie arra, hogy a (3)–(6) bekezdésben meghatározott hozzájáruló hitelbiztosítéki nyilatkozatok megtehetőek legyenek. (3) Zálogjog esetén a hitelbiztosítéki rendszernek alkalmasnak kell lennie arra, hogy a) ha a bejegyzett zálogkötelezett jelenti be, hogy a zálogkötelezett személye megváltozott, az új zálogkötelezett és a zálogjogosult hozzájáruló nyilatkozata, b) ha az új zálogkötelezett jelenti be, hogy a zálogkötelezett személye megváltozott, a zálogjogosult hozzájáruló nyilatkozata, c) ha a zálogkötelezett jelenti be, hogy a zálogjogosult személye megváltozott, a bejegyzett és az új zálogjogosult hozzájáruló nyilatkozata, d) ha a zálogjogosult jelenti be, hogy a zálogkötelezett személye megváltozott, az új zálogkötelezett hozzájáruló nyilatkozata, e) ha az új zálogjogosult jelenti be, hogy a zálogjogosult személye megváltozott, a bejegyzett zálogjogosult hozzájáruló nyilatkozata megtehető legyen. (4) Vagyontárgy tulajdonjog fenntartással történő eladása esetén a hitelbiztosítéki rendszernek alkalmasnak kell lennie arra, hogy, ha az új eladó jelenti be, hogy az eladó személye megváltozott a bejegyzett eladó hozzájáruló nyilatkozata megtehető legyen. (5) Faktorálás esetén a hitelbiztosítéki rendszernek alkalmasnak kell lennie arra, hogy, ha az új faktor jelenti be, hogy a faktor személye megváltozott, a bejegyzett faktor hozzájáruló nyilatkozata megtehető legyen. (6) Pénzügyi lízing esetén a hitelbiztosítéki rendszernek alkalmasnak kell lennie arra, hogy, ha az új lízingbeadó jelenti be, hogy a lízingbeadó személye megváltozott, a bejegyzett lízingbeadó hozzájáruló nyilatkozata megtehető legyen. (7) Vagyontárgy biztosítéki célból történő átruházása esetén a hitelbiztosítéki rendszernek alkalmasnak kell lennie arra, hogy ha az új jogszerzésre jogosult jelenti be, hogy a jogszerzésre jogosult személye megváltozott, a bejegyzett jogszerzésre jogosult hozzájáruló nyilatkozata megtehető legyen. (8) Biztosítéki célú vételi jog alapítása esetén a hitelbiztosítéki rendszernek alkalmasnak kell lennie arra, hogy ha az új vételi jog jogosult jelenti be, hogy a vételi jog jogosult személye megváltozott, a bejegyzett vételi jog jogosult hozzájáruló nyilatkozata megtehető legyen."
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31. §",
+      "content": "31. § A hitelbiztosítéki rendszernek alkalmasnak kell lennie a következő, a hitelbiztosítéki bejegyzés fenntartására irányuló hitelbiztosítéki nyilatkozatok megtételére: a) bejegyzés törlésére irányuló zálogkötelezetti nyilatkozat esetén, a bejegyzés fenntartására irányuló zálogjogosulti nyilatkozat, b) a bejegyzés törlésére irányuló vevői nyilatkozat esetén, a bejegyzés fenntartására irányuló eladói nyilatkozat, c) a bejegyzés törlésére irányuló adósi nyilatkozat esetén, a bejegyzés fenntartására irányuló faktori nyilatkozat, d) a bejegyzés törlésére irányuló lízingbevevői nyilatkozat esetén, a bejegyzés fenntartására irányuló lízingbeadói nyilatkozat, e) a bejegyzés törlésére irányuló átruházói nyilatkozat esetén, a bejegyzés fenntartására irányuló jogszerzésre jogosulti nyilatkozat, f) a bejegyzés törlésére irányuló vételi jogot engedői nyilatkozat esetén, a bejegyzés fenntartására irányuló jogosulti nyilatkozat."
+    },
+    {
+      "provision_ref": "s31a",
+      "section": "31/A",
+      "title": "31/A. §",
+      "content": "31/A. § A hitelbiztosítéki rendszernek alkalmasnak kell lennie arra, hogy a 36/B. § szerinti módosítás esetén a Hbnytv. 24/A. § (8)–(9) bekezdése szerinti fenntartó nyilatkozatok megtehetőek legyenek. A Hbnytv. 24/A. § (8)–(9) bekezdése szerinti fenntartó nyilatkozat esetén a 36/B. § szerinti módosítás nem hajtható végre."
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32. §",
+      "content": "32. § A zálogjog ranghelyének előzetes biztosítására irányuló tulajdonosi nyilatkozat adattartalmát a 3. melléklet határozza meg."
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33. §",
+      "content": "33. § (1) Hitelbiztosítéki bejegyzés módosítására irányuló hitelbiztosítéki nyilatkozat megtétele során a nyilatkozattevő a bejegyzés módosításra irányuló hitelbiztosítéki nyilatkozat tételekor köteles a nyilatkozattevő – és képviselet esetén a képviselő –, valamint a hitelbiztosítéki nyilatkozattal érintett másik fél azonosító adatait a hitelbiztosítéki rendszer erre biztosított felületén rögzíteni. (2) A hitelbiztosítéki rendszernek alkalmasnak kell lennie arra, hogy a hitelbiztosítéki bejegyzés módosítására irányuló nyilatkozat megtétele során a) a hitelbiztosítéki bejegyzés adatai megjelenjenek a hitelbiztosítéki rendszer erre biztosított felületén és b) a nyilatkozattevő a hitelbiztosítéki bejegyzés adatai mellett jelölhesse, hogy az adat törlésére, illetve módosítására irányul a hitelbiztosítéki nyilatkozata. (3) A hitelbiztosítéki nyilatkozattal érintett másik fél rendszerüzenet úján kap értesítést a hitelbiztosítéki bejegyzés módosítására irányuló hitelbiztosítéki nyilatkozatról."
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34. §",
+      "content": "34. § (1) A hitelbiztosítéki bejegyzés módosítására irányuló hitelbiztosítéki nyilatkozathoz való hozzájárulás, illetve fenntartás csak a módosításra irányuló hitelbiztosítéki nyilatkozat egésze vonatkozásában tehető meg. (2) A hitelbiztosítéki rendszernek alkalmasnak kell lennie arra, hogy hitelbiztosítéki bejegyzés módosítására irányuló hitelbiztosítéki nyilatkozat esetén a nyilatkozatot tevő a hitelbiztosítéki bejegyzés megtekintését követően hagyja jóvá annak módosítását vagy tegyen a hitelbiztosítéki bejegyzés fenntartására irányuló nyilatkozatot."
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35. §",
+      "content": "35. § (1) Alvázszám módosítására abban az esetben kerülhet sor, ha a nyilatkozattevő a hitelbiztosítéki rendszer erre biztosított felületén nyilatkozik arról, hogy az alvázszám módosítása véglegessé vált hatósági döntésen alapul. (2) Az alvázszám változása esetén a hitelbiztosítéki rendszerben az új alvázszám mellett a régi alvázszámot is meg kell jeleníteni és lekérdezhetővé kell tenni. (3) A hitelbiztosítéki rendszert úgy kell kialakítani, hogy ha bejegyzés módosítására irányuló hitelbiztosítéki nyilatkozat jogerős bírósági határozat végrehajtására irányul, a határozatot hozó bíróság megjelölése és a határozat száma a hitelbiztosítéki nyilatkozatban jelölhető legyen."
+    },
+    {
+      "provision_ref": "s35a",
+      "section": "35/A",
+      "title": "35/A. §",
+      "content": "35/A. § A hitelbiztosítéki nyilvántartásnak alkalmasnak kell lennie arra, hogy ranghelyszerződés esetén a ranghely megváltoztatására irányuló hitelbiztosítéki nyilatkozat elektronikus adatlapon megtehető legyen. A ranghely-szerződés megkötése tényének bejegyzésére irányuló hitelbiztosítéki nyilatkozat adattartalmát az 5. melléklet határozza meg."
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36. §",
+      "content": "36. § A 33–35/A. §-ban nem szabályozott kérdések tekintetében a hitelbiztosítéki bejegyzésre irányuló hitelbiztosítéki nyilatkozat tételére vonatkozó szabályokat kell megfelelően alkalmazni."
+    },
+    {
+      "provision_ref": "s36a",
+      "section": "36/A",
+      "title": "36/A. §",
+      "content": "36/A. § A feljegyzett ranghely megváltoztatásra irányuló nyilatkozat jogosultja a felhasználók által nem módosítható. A hitelbiztosítéki rendszernek alkalmasnak kell lennie arra, hogy a feljegyzett ranghely megváltoztatásra irányuló nyilatkozat jogosultjaként a rendszer mindig annak a jelzálogjognak a mindenkori jogosultját tüntesse fel, aki a ranghely megváltoztatása során előrelépett jelzálognak a jogosultja."
+    },
+    {
+      "provision_ref": "s36b",
+      "section": "36/B",
+      "title": "36/B. §",
+      "content": "36/B. § (1) A zálogjogosult vagy zálogkötelezett személyében átalakulás vagy egyesülés folytán bekövetkező jogutódlás bejelentésére szolgáló és jogutódi hozzáférési jogosultság biztosítása iránti kérelem elektronikus adatlapjának adattartalmát a 6. melléklet határozza meg. (2) Az (1) bekezdés szerinti kérelmet a hitelbiztosítéki rendszer a kérelmező székhelye szerint illetékes közjegyzőnek továbbítja. Ha a kérelmező székhelye szerint több közjegyző is illetékes, a kérelmet a kérelmező az illetékes közjegyzők közül általa választott álláshelyen (a fővárosban: működési körzetben) működő közjegyzőhöz terjeszti elő. Az eljáró közjegyző személyéről és a kérelem hitelbiztosítéki rendszer által képzett egyedi azonosítójáról a kérelmező rendszerüzenetben értesül. (3) Az (1) bekezdés szerinti kérelemhez a Hbnytv. 24/A. § (2) bekezdése szerint csatolandó iratot a kérelmezőnek a kérelem benyújtását követő 3 munkanapon belül kell az eljáró közjegyző részére továbbítani, vagy annak elektronikus másolatát az eljáró közjegyzőhöz benyújtania. (4) A hitelbiztosítéki rendszernek alkalmasnak kell lennie arra, hogy ha közjegyző a Hbnytv. 24/A. § (4) bekezdése alapján a jogutód felhasználó számára hozzáférést engedett a jogelőd bejegyzéseihez, a hozzáférésre jogosult felhasználó a jogosult, illetve a kötelezett személyének megváltoztatása iránt mindazon bejegyzések tekintetében módosító nyilatkozatot tehessen a jogutódlás átvezetéséről, amelyek tekintetében számára a közjegyző jogutódi hozzáférést engedett. (5) A hitelbiztosítéki rendszernek alkalmasnak kell lennie arra, hogy a Hbnytv. 24/A. § (4) bekezdése alapján jogutódi hozzáféréssel rendelkező felhasználó mindazon bejegyzések tekintetében, melyek tekintetében a (4) bekezdés szerinti nyilatkozatot megtette, a jogelőd felhasználó jogutódjának a képviselőjeként mindaddig megtehesse a 30. § és a 31. § szerinti nyilatkozatokat, amíg a jogosult, illetve a kötelezett a Hbnytv. 24/A. § (8) vagy (9) bekezdése szerinti nyilatkozatot nem tesz."
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37. §",
+      "content": "37. § (1) A hitelbiztosítéki nyilatkozatok törlésének adattartalmát a 4. melléklet határozza meg. (2) A hitelbiztosítéki nyilatkozat törlésére irányuló hitelbiztosítéki nyilatkozat vonatkozásában a hitelbiztosítéki bejegyzésre irányuló hitelbiztosítéki nyilatkozat tételére vonatkozó szabályokat (22–24. §, 26. §) kell megfelelően alkalmazni."
+    },
+    {
+      "provision_ref": "s37a",
+      "section": "37/A",
+      "title": "37/A. §",
+      "content": "37/A. § A feljegyzett ranghely megváltoztatásra irányuló nyilatkozat a felhasználók által nem törölhető. A hitelbiztosítéki rendszernek alkalmasnak kell lennie arra, hogy a feljegyzett ranghely megváltoztatásra irányuló nyilatkozatot annak a jelzálogjognak a törlésével egyidejűleg törölje, amely a ranghely megváltoztatása folytán a rangsorban előrelépett."
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38. §",
+      "content": "38. § (1) A hitelbiztosítéki rendszer a hitelbiztosítéki nyilatkozat megtétele során hitelbiztosítéki bejegyzési sorszámot képez. A bejegyzési sorszám, a hitelbiztosítéki bejegyzés azonosítására szolgál, képzésének szabályait az országos kamara állapítja meg. (2) A hitelbiztosítéki rendszer a hitelbiztosítéki nyilatkozat alapjául szolgáló vagyontárgyat a bejegyzéssel egyidejűleg nyilvántartási azonosítóval látja el."
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39. §",
+      "content": "39. § A hitelbiztosítéki rendszer az előzetesen biztosított ranghelyre történő zálogjog bejegyzésére irányuló nyilatkozat esetén a nyilatkozat alapjául szolgáló vagyontárgyat ranghely biztosítási azonosítóval látja el."
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40. §",
+      "content": "40. § (1) Az országos kamara a hitelbiztosítéki nyilvántartás létesítésének, működtetésének és fejlesztésének költségeit a költségtérítésből fedezi. (2) A hitelbiztosítéki nyilatkozat tételének költségtérítése 7000 forint, amely tartalmazza a hitelbiztosítéki nyilatkozathoz hozzájáruló vagy a hitelbiztosítéki bejegyzés fenntartására irányuló hitelbiztosítéki nyilatkozat költségtérítését is. (3) A hitelbiztosítéki bejegyzésre irányuló hitelbiztosítéki nyilatkozat tételéért fizetendő költségtérítés fejében a hitelbiztosítéki bejegyzés tekintetében egy törlésre irányuló nyilatkozat további költségtérítés megfizetése nélkül tehető. Ha a hitelbiztosítéki nyilatkozatban egyedileg, illetve körülírással több vagyontárgy van megjelölve a 25. § (1) bekezdése, illetve a 25. § (5) bekezdése szerinti módon, e nyilatkozat vonatkozásában kizárólag valamely vagyontárgy vagy vagyontárgyak törlésére irányuló további egy-egy hitelbiztosítéki nyilatkozat költségtérítés megfizetése nélkül tehető, feltéve hogy e nyilatkozatot a hitelbiztosítéki rendszer e célra rendszeresített felületén keresztül rögzítik. (4) A költségtérítés megfizetésére irányuló kötelezettséget az országos kamara honlapján közzétett tájékoztatás szerint, az abban megjelölt fizetési számla javára kell teljesíteni. (5) Ha a hitelbiztosítéki nyilatkozatban a nyilatkozatot tevő több gépjárművet jelöl meg egyedileg az e célra biztosított mezőben, a (2) bekezdésben meghatározott költségtérítésen felül a második gépjárműtől kezdve gépjárművenként 3500 forint költségtérítést kell megfizetni. (6) Ha a hitelbiztosítéki nyilatkozatban a nyilatkozatot tevő több vagyontárgyat jelöl meg a 25. § (1) bekezdés b) pontjában, a 25. § (3) vagy (5) bekezdésében meghatározott módon az e célra biztosított mezőben, a (2) bekezdésben meghatározott költségtérítésen felül a második vagyontárgytól kezdve vagyontárgyanként 3500 forint költségtérítést kell megfizetni. (7) Ha a hitelbiztosítéki nyilatkozatban több vagyontárgy kerül megjelölésre, az erre a célra biztosított mezőben alvázszámmal, illetve a 25. § (1) bekezdés b) pontjában, a 25. § (3) vagy (5) bekezdésében meghatározott módon, a (2) bekezdésben meghatározott költségtérítésen felül a második vagyontárgytól kezdve vagyontárgyanként 3500 forint költségtérítést kell megfizetni. (8) Ha a hitelbiztosítéki nyilatkozatban a vagyontárgyak megjelölésére a 25. § (3) bekezdése szerinti megjelölés mellett az erre a célra biztosított mezőben alvázszámmal, illetve a 25. § (1) bekezdés b) pontjában, a 25. § (3) vagy (5) bekezdésében meghatározott módon is sor kerül, a (2) bekezdésben meghatározott költségtérítésen felül vagyontárgyanként (gépjárművenként) 3500 forint költségtérítést kell megfizetni. (9) A költségtérítés megfizetése szempontjából törlésre irányuló hitelbiztosítéki nyilatkozat alatt az olyan hitelbiztosítéki nyilatkozatot kell érteni, amely a) a bejegyzéssel érintett hitelbiztosítéki nyilatkozatban meghatározott valamennyi vagyontárgy, b) – ha a bejegyzéssel érintett hitelbiztosítéki nyilatkozatban több vagyontárgy van megjelölve a 25. § (1) bekezdése szerinti módon – valamely vagyontárgy, c) – ha a bejegyzéssel érintett hitelbiztosítéki nyilatkozatban több vagyontárgy van megjelölve a 25. § (4) bekezdése szerinti módon – a vagyontárgy megjelölésére szolgáló mezőben megjelölt valamennyi vagyontárgy, d) – ha a bejegyzéssel érintett hitelbiztosítéki nyilatkozatban több vagyontárgy van megjelölve több, a vagyontárgy megjelölésére szolgáló mezőben [25. § (5) bekezdés] – a valamely, a vagyontárgy megjelölésére szolgáló mezőben megjelölt valamennyi vagyontárgy törlésére irányul."
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41. §",
+      "content": "41. § (1) A költségtérítést a hitelbiztosítéki rendszer útján bankkártyával kezdeményezett átutalással, online fizetési felület igénybevételével kell megfizetni. (2) A közjegyző által rögzített hitelbiztosítéki nyilatkozat esetében a költségtérítést bankkártyával kezdeményezett átutalással, online fizetési felület igénybevételével kell megfizetni."
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42. §",
+      "content": "42. § (1) Hitelbiztosítéki nyilatkozat tétele esetén a fizetésre kötelezett a költségtérítés megfizetését az országos kamarával kötött szerződés alapján úgy is teljesítheti, hogy az általa meghatározott összeget átutalja az országos kamarának az erre a célra rendszeresített fizetési számlájára. (2) Ha nyilatkozattevő által átutalt összeg nem fedezi a megfizetendő költségtérítés összegét, az országos kamara figyelmezteti a nyilatkozattevőt, arra, hogy a költségtérítést meg kell fizetnie. (3) Ha a szerződésben meghatározott időszakot követően az országos kamara fizetési számlaszámán fel nem használt pénzösszeg marad, azt az országos kamara a megállapodásban meghatározottak szerint kezeli. (4) A fél által előre megfizetett pénzösszeg kezeléséért – az országos kamara és a fél erre irányuló eltérő megállapodása hiányában – az országos kamara kezelési költséget nem számíthat fel, és a fél kamatot nem igényelhet. (5) Az országos kamara a szerződésben meghatározott időszak utolsó napját követő 10. napig összesítőt küld a nyilatkozattevőnek, amely tartalmazza a nyilatkozattevő által tett és elszámolt hitelbiztosítéki nyilatkozatok költségtérítését."
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43. §",
+      "content": "43. § A költségtérítés megfizetéséről a számviteli bizonylatot az országos kamara állítja ki. Az elektronikus számviteli bizonylatot a költségtérítés megfizetőjének el kell fogadnia, ha a hitelbiztosítéki nyilatkozatot elektronikus úton tette."
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44. §",
+      "content": "44. § (1) Túlfizetés esetén a többletet kérelemre harminc napon belül kell visszatéríteni; a kérelemben meg kell jelölni a visszatérítés okát, a számlatulajdonos nevét, a számlaszámot vagy a postai címet, ahová a kérelmező a visszatérített összeg utalását, kiutalását kéri. A visszafizetéssel járó költséget a kérelmező viseli. (2) Az országos kamara a visszatérítés iránt akkor intézkedik, ha a túlfizetés a 400 forintot meghaladja. (3) A kérelmező az át nem vett összeg visszatérítését, az eredménytelen visszatérítést követően öt évig kérheti."
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45. §",
+      "content": "45. § (1) Ez a rendelet – a (2)–(5) bekezdésben foglalt kivétellel – 2014. március 15-én lép hatályba. (2) A 17. § (2) bekezdése 2014. április 15-én lép hatályba. (3) A 40. § (5)–(8) bekezdése, valamint az 57. § (1) bekezdése 2014. december 1-jén lép hatályba. (4) Az 57. § (2) bekezdése 2015. március 15-én lép hatályba. (5) A 42. § 2016. március 15-én lép hatályba."
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46. §",
+      "content": "46. § 2014. március 15. napjától 2014. március 23. napjáig a hitelbiztosítéki rendszerbe történő regisztrációra és azonossági nyilatkozat tételére van mód."
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47. §",
+      "content": "47. § (1) 2014. március 24. napjától 2014. április 14. napjáig hitelbiztosítéki nyilatkozatot az e §-ban foglalt eltérésekkel kell megtenni. (2) Hitelbiztosítéki nyilatkozat tételére a Hbnytv. 8. §-a és 9. § a) pontja szerint van lehetőség. (3) A hitelbiztosítéki nyilatkozatot a 2–4. mellékletben meghatározott adattartalommal az országos kamara által rendszeresített és az interneten elérhetővé tett űrlapok igénybevételével lehet megtenni. (4) Ha a hitelbiztosítéki nyilatkozatban több jogosult vagy több kötelezett szerepel, a hitelbiztosítéki nyilatkozatot a közjegyző előtt együttesen kell megtenniük. Ha a hitelbiztosítéki nyilatkozat hozzájáruláshoz kötött vagy arra fenntartó nyilatkozat tehető, akkor a nyilatkozatot tevőknek a hitelbiztosítéki nyilatkozatokat a közjegyző előtt együttesen kell megtenniük. (5) A nyilatkozatot tevőnek az űrlapot gépírással (író- vagy számítógéppel) kell kitöltenie és azt a közjegyzőnek a nyilatkozat tételekor átadnia. (6) A közjegyző az űrlapot megvizsgálja, és ha annak alapján a hitelbiztosítéki nyilatkozatot bejegyzésre alkalmasnak találja, annak digitalizált másolatát hivatali elektronikus aláírásával hitelesíti. A digitalizált és hivatali elektronikus aláírással ellátott másolatot a közjegyző az országos kamarának megküldi. (7) Az országos kamara a megküldött, digitalizált és hivatali elektronikus aláírással ellátott másolatot haladéktalanul megvizsgálja és haladéktalanul jelzi a közjegyzőnek, hogy az alapján helye van-e a hitelbiztosítéki nyilatkozat hitelbiztosítéki rendszerben történő rögzítésének. (8) Ha az országos kamara elektronikus úton arról ad tájékoztatást, hogy a hitelbiztosítéki nyilatkozat alkalmas a hitelbiztosítéki rendszerben történő rögzítésre, a közjegyző a fél által kitöltött űrlapot záradékolja; a záradékban azt kell feltüntetni, hogy az űrlap alapján a hitelbiztosítéki nyilatkozat alkalmas a hitelbiztosítéki rendszerben történő rögzítésre. (9) Ha a közjegyző a hitelbiztosítéki nyilatkozatot bejegyzésre nem találja alkalmasnak vagy az országos kamara arról ad tájékoztatást, hogy a megküldött digitalizált és hivatali elektronikus aláírással ellátott másolat alapján nincs helye a hitelbiztosítéki nyilatkozat hitelbiztosítéki rendszerben történő rögzítésének, a közjegyző az űrlap záradékolását megtagadja."
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48. §",
+      "content": "48. § (1) Az országos kamara a 47. § (8) bekezdés szerinti hitelbiztosítéki nyilatkozatot a záradékolást követő munkanapon 10 óráig rögzíti a hitelbiztosítéki rendszerben. (2) Az országos kamara a hitelbiztosítéki nyilatkozat bejegyzéséről elektronikus levélben értesíti a hitelbiztosítéki nyilatkozattal érintetteket."
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49. §",
+      "content": "49. § (1) Az országos kamara 2014. március 24. napjától biztosítja a Hbnytv. 25. és 27. § szerinti lekérdezést a hitelbiztosítéki nyilvántartásból. (2) Az országos kamara a 47. § (8) bekezdés szerinti hitelbiztosítéki nyilatkozat alapján rögzített adatok kereshetőségét azok rögzítését követően biztosítja. (3) A Hbnytv. 26. §-a szerinti közfeladatot ellátó szerv 2014. április 14. napjáig az országos kamarától papír alapon igényelhet a Hbnytv. 26. §-a szerinti adatot. Az országos kamara az adatszolgáltatást a közfeladatot ellátó szerv megkeresésére papír alapon teljesíti. (4) Az egyes közjegyzői nemperes eljárásokról szóló 2008. évi XLV. törvény 36/P. §-a szerinti jogutódlás megállapítására 2014. április 14. napját követően van lehetőség."
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50. §",
+      "content": "50. § A 40. §-ban foglaltaktól eltérően a hitelbiztosítéki nyilatkozat tétele 2014. április 14. napjáig mentes a költségtérítés fizetése alól, eddig az időpontig a nyilatkozat megtételével a költségtérítés megfizetettnek tekintendő."
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51. §",
+      "content": "51. § A 8. § (3) bekezdésben foglaltaktól eltérően 2014. április 16. napját megelőzően a felhasználók számára a hitelbiztosítéki rendszer felületén közzétett felhasználói szabályzat a közzététel napjától alkalmazandó."
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52. §",
+      "content": "52. § Az országos kamara a hitelbiztosítéki nyilvántartás elektronikus rendszerének tervezése, kialakítása és működtetése, valamint az adatkapcsolat-szolgáltatások nyújtása során 2016. március 15. napjáig gondoskodik az állami és önkormányzati szervek elektronikus információbiztonságáról szóló 2013. évi L. törvény (a továbbiakban e §-ban: törvény) és végrehajtási rendeletei előírásainak való megfelelésről, valamint a törvény 15. §-a szerinti nyilvántartásba vétel érdekében szükséges bejelentésről."
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53. §",
+      "content": "53. § E rendelet alkalmazásában közfeladatot ellátó szerv a Hbnytv. 26. § (1) bekezdésében meghatározott szerv, amely közfeladatának ellátása során térítésmentesen (így különösen a felmerülő költségek megtérítése alól mentesen) adatot igényel."
+    },
+    {
+      "provision_ref": "s5456",
+      "section": "54–56",
+      "title": "54–56. §",
+      "content": "54–56. §"
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57. §",
+      "content": "57. § (1) (2)"
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58. §",
+      "content": "58. § 1. A bejegyzésre irányuló hitelbiztosítéki nyilatkozat típusa 1.1. a zálogjog bejegyzésére irányuló nyilatkozat 1.2. a tulajdonjog fenntartással történő eladásra vonatkozó nyilatkozat 1.3. faktori nyilatkozat 1.4. lízingbeadói nyilatkozat 1.5. jogszerzésre jogosulti nyilatkozat 1.6. vételi jog jogosulti nyilatkozat 2. Nyilatkozattevő adatai – annak jelölésével, hogy a nyilatkozattevő zálogjogosult, zálogkötelezett, eladó, faktor, lízingbe adó, jogszerzésre jogosult, vételi jog jogosult – 2.1. természetes személy esetén 2.1.1. családi és utónév 2.1.2. születési családi és utónév 2.1.3. anyja születési neve 2.1.4. születési idő 2.1.5. lakcím 2.2. jogi személy, jogalanyisággal rendelkező egyéb szervezet esetén 2.2.1. elnevezés 2.2.2. székhely 2.2.3. cégjegyzékbe bejegyzett szervezet esetén 2.2.3.1. cégjegyzékszáma 2.2.3.2. adószáma 2.2.4. egyéb, nyilvántartásba vett szervezet esetén 2.2.4.1. adószáma 2.2.4.2. nyilvántartási száma 2.2.4.3. a nyilvántartást vezető bíróság, hatóság megnevezése 2.2.5. nyilvántartásba nem vett szervezet esetén 2.2.5.1. adószáma 3. A másik fél adatai – annak jelölésével, hogy a másik fél zálogjogosult, zálogkötelezett, vevő, eladó, faktor, adós, lízingbe adó vagy lízingbe vevő, átruházó, vételi jogot engedő – 3.1. természetes személy esetén 3.1.1. családi és utónév 3.1.2. születési családi és utónév 3.1.3. anyja születési neve 3.1.4. születési idő 3.1.5. lakcím 3.2. jogi személy, jogalanyisággal rendelkező egyéb szervezet esetén 3.2.1. elnevezés 3.2.2. székhely 3.2.3. cégjegyzékbe bejegyzett szervezet esetén 3.2.3.1. cégjegyzékszáma 3.2.3.2. adószáma 3.2.4. egyéb, nyilvántartásba vett szervezet esetén 3.2.4.1. adószáma 3.2.4.2. nyilvántartási száma 3.2.4.3. a nyilvántartást vezető bíróság, hatóság megnevezése 3.2.5. nyilvántartásba nem vett szervezet esetén 3.2.5.1. adószáma 4. Képviselő esetén 4.1. állandó képviselő esetén 4.1.1. családi és utónév 4.1.2. születési családi és utónév 4.1.3. anyja születési neve 4.1.4. születési idő 4.1.5. lakcím 4.2. ügyvéd vagy kamarai jogtanácsos meghatalmazott esetén 4.2.1. családi és utónév 4.2.2. születési családi és utónév 4.2.3. anyja születési neve 4.2.4. születési idő 4.2.5. lakcím 4.2.6. nyilatkozat arról, hogy a képviseleti jogosultság érvényes és hatályos írásbeli meghatalmazáson alapul 5. Vagyontárgy 5.1. ha a vagyontárgy ingó 5.1.1. gépjármű egyedileg történő elzálogosítása esetén 5.1.1.1. alvázszám 5.1.2. – ha az ingó azonosítására körülírással kerül sor, vagy ha ingó egyedi azonosításra alkalmas, és arra nem az 5.1.1. pont szerinti módon, de egyedi azonosításra alkalmas módon kerül sor – 5.1.2.1. az ingó egyedi azonosításra alkalmas meghatározása 5.1.2.2. ingó körülírással történő meghatározása 5.1.3. a nyilatkozatot kitöltő választása esetén, közös tulajdonban álló dolognak kötelezett tulajdonában lévő tulajdoni hányada 5.2. ha a vagyontárgy jog 5.2.1. a jog körülírással történő meghatározása 5.2.2. a nyilatkozattevő választása esetén, több személyt megillető jognak a kötelezettet megillető hányada 5.3. ha a vagyontárgy követelés 5.3.1. a követelés körülírással történő meghatározása 5.3.2. a nyilatkozattevő választása esetén, osztható követelés meghatározott részének meghatározására vonatkozó adat 5.4. a nyilatkozatot tevő választása szerint 5.4.1. ha a vagyontárgy már más hitelbiztosítéki nyilatkozattal érintett 5.4.1.1. az 5.1–5.3. ponttól eltérően a vagyontárgy nyilvántartási azonosítója 5.4.2. előzetesen biztosított ranghelyre történő zálogjog bejegyzésére irányuló nyilatkozat esetén az 5.1–5.3. ponttól eltérően 5.4.2.1. előzetesen biztosított ranghely esetén a ranghely biztosítás azonosítója 5.4.2.2. a zálogjog nyilvántartási azonosítója 5.4.3. az összeg, amelynek erejéig a zálogtárgy a kielégítésre fedezetet biztosít 6. A hitelbiztosítéki nyilatkozat bejegyzése iránti határozott nyilatkozat 7. Ha a hitelbiztosítéki nyilatkozat alapjául szolgáló jogügylet 7.1. tulajdonjog-fenntartás 7.1.1. a tulajdonjog-fenntartás ténye 7.2. pénzügyi lízingszerződés 7.2.1. a lízingbeadás ténye 7.3. faktoring szerződés 7.3.1. faktorálás ténye 7.4. vagyontárgy biztosítéki célból történő átruházása 7.4.1. biztosítéki célból történő átruházás ténye 7.5. biztosítéki célú vételi jog alapítása 7.5.1. vételi jog 7.6. a hitelbiztosítéki nyilatkozat alapjául szolgáló jogügylettel kapcsolatos megjegyzések 8. Nyilatkozat megtételének időpontja. 1. Tulajdonos adatai 1.1. a 2. melléklet 2. pontjában előírt adatok 2. Képviselő esetén 2.1. a 2. melléklet 4. pontjában előírt adatok 3. Vagyontárgy 3.1. a 2. melléklet 5. pontjában előírt adatok 4. Az az összeg, amelynek erejéig a tulajdonos zálogjogot kíván alapítani 5. A tulajdonos választása esetén a jogosult megjelölése 6. A zálogjog ranghelyének előzetes biztosítására irányuló tulajdonosi nyilatkozat rögzítése iránti nyilatkozat 7. Nyilatkozat megtételének időpontja 8. A hitelbiztosítéki nyilatkozat alapjául szolgáló jogügylettel kapcsolatos megjegyzések 1. A törlésre irányuló hitelbiztosítéki nyilatkozat típusa 1.1. a zálogjog törlésére irányuló nyilatkozat 1.2. a tulajdonjog fenntartással történő eladásra vonatkozó bejegyzés törlésére irányuló nyilatkozat 1.3. faktorálási bejegyzés törlésére irányuló nyilatkozat 1.4. pénzügyi lízing bejegyzésének törlésére irányuló nyilatkozat 1.5. vagyontárgy biztosítéki célból történő átruházása bejegyzés törlésére irányuló nyilatkozat 1.6. vételi jog bejegyzésének törlésére irányuló nyilatkozat 2. Nyilatkozattevő adatai – annak jelölésével, hogy a nyilatkozattevő zálogjogosult, zálogkötelezett, eladó, vevő, faktor, adós, lízingbe adó, lízingbe vevő, jogszerzésre jogosult, átruházó, vételi jog jogosult, vételi jogot engedő – 2.1. természetes személy esetén 2.1.1. családi és utónév 2.1.2. születési családi és utónév 2.1.3. anyja születési neve 2.1.4. születési idő 2.1.5. lakcím 2.2. jogi személy, jogalanyisággal rendelkező egyéb szervezet esetén 2.2.1. elnevezés 2.2.2. székhely 2.2.3. cégjegyzékbe bejegyzett szervezet esetén 2.2.3.1. cégjegyzékszáma 2.2.3.2. adószáma 2.2.4. egyéb, nyilvántartásba vett szervezet esetén 2.2.4.1. adószáma 2.2.4.2. nyilvántartási száma 2.2.4.3. a nyilvántartást vezető bíróság, hatóság megnevezése 2.2.5. nyilvántartásba nem vett szervezet esetén 2.2.5.1. adószáma 3. A másik fél adatai – annak jelölésével, hogy a másik fél zálogjogosult, zálogkötelezett, eladó, vevő, faktor, adós, lízingbe adó, lízingbe vevő, jogszerzésre jogosult, átruházó, vételi jog jogosult, vételi jogot engedő – 3.1. természetes személy esetén 3.1.1. családi és utónév 3.1.2. születési családi és utónév 3.1.3. anyja születési neve 3.1.4. születési idő 3.1.5. lakcím 3.2. jogi személy, jogalanyisággal rendelkező egyéb szervezet esetén 3.2.1. elnevezés 3.2.2. székhely 3.2.3. cégjegyzékbe bejegyzett szervezet esetén 3.2.3.1. cégjegyzékszáma 3.2.3.2. adószáma 3.2.4. egyéb, nyilvántartásba vett szervezet esetén 3.2.4.1. adószáma 3.2.4.2. nyilvántartási száma 3.2.4.3. a nyilvántartást vezető bíróság, hatóság megnevezése 3.2.5. nyilvántartásba nem vett szervezet esetén 3.2.5.1. adószáma 4. Képviselő esetén 4.1. állandó képviselő esetén 4.1.1. családi és utónév 4.1.2. születési családi és utónév 4.1.3. anyja születési neve 4.1.4. születési idő 4.1.5. lakcím 4.2. meghatalmazott esetén 4.2.1. családi és utónév 4.2.2. születési családi és utónév 4.2.3. anyja születési neve 4.2.4. születési idő 4.2.5. lakcím 4.2.6. nyilatkozat arról, hogy a képviseleti jogosultság érvényes és hatályos írásbeli meghatalmazáson alapul 5. A bejegyzett hitelbiztosítéki nyilatkozat megjelölése 5.1. A bejegyzett hitelbiztosítéki nyilatkozat nyilvántartási száma 6. A bejegyzett hitelbiztosítéki nyilatkozat törlésére irányuló nyilatkozat 7. Ha a törlés bírósági határozat végrehajtására irányul 7.1. határozatot hozó bíróság megjelölése 7.2. határozat száma 8. A nyilatkozat megtételének időpontja 1. Nyilatkozattevő adatai – annak jelölésével, hogy a nyilatkozattevő zálogjogosult vagy zálogkötelezett – 1.1. a 2. melléklet 2. pontjában előírt adatok 2. A másik fél adatai – annak jelölésével, hogy a másik fél zálogjogosult vagy zálogkötelezett – 2.1. a 2. melléklet 3. pontjában előírt adatok 3. Képviselő esetén 3.1. a 2. melléklet 4. pontjában előírt adatok 4. Annak a zálogjognak a hitelbiztosítéki azonosítója, amely a ranghely megváltoztatása folytán előre lép 5. Azoknak a zálogjogoknak a hitelbiztosítéki azonosítói, amelyek a ranghely megváltoztatása folytán hátrébb kerülnek 6. Ranghelyszerződés megkötése tényének bejegyzésére irányuló nyilatkozat rögzítése iránti nyilatkozat 7. Nyilatkozat megtételének időpontja 8. A hitelbiztosítéki nyilatkozat alapjául szolgáló jogügylettel kapcsolatos megjegyzések 1. Kérelmező (jogutód) adatai 1.1. a 2. melléklet 2. pontjában előírt adatok 2. Képviselő esetén 2.1. a 2. melléklet 4. pontjában előírt adatok 3. A jogutódi hozzáférésre jogosult adatai 3.1. a 2. melléklet 4. pontjában előírt adatok 4. A jogelőd adatai 4.1. a 2. melléklet 2. pontjában előírt adatok 5. A kérelmező nyilatkozata arról, hogy a papíralapú mellékleteket a kérelem benyújtását követő 3 munkanapon belül az eljáró közjegyzőnek megküldi 6. Arra irányuló határozott kérelem, hogy jogutódi hozzáférésre jogosult a jogelőd hitelbiztosítéki rendszerben tárolt nyilatkozataihoz, illetve bejegyzéseihez jogutódi hozzáférési jogosultságot kapjon, valamint hogy a jogelőd valamennyi állandó képviselőjének a képviseleti jogosultságára vonatkozó nyilvántartási adat törlésre kerüljön 1 A 2. § (2) bekezdése a 10/2017. (VIII. 11.) IM rendelet 4. § (1) bekezdésével megállapított szöveg. 2 A 4. §-t a 29/2019. (XII. 20.) IM rendelet 100. § e) pontja hatályon kívül helyezte. 3 A 6. § (5) bekezdése a 20/2017. (XII. 21.) IM rendelet 42. § a) pontja szerint módosított szöveg. 4 A 9. alcím címe a 20/2017. (XII. 21.) IM rendelet 42. § c) pontja szerint módosított szöveg. 5 A 18. § (1) bekezdése a 20/2017. (XII. 21.) IM rendelet 42. § b) pontja szerint módosított szöveg. 6 A 21. § (1) bekezdés e) pontját a 10/2017. (VIII. 11.) IM rendelet 4. § (2) bekezdése iktatta be. 7 A 21. § (1) bekezdés f) pontját a 10/2017. (VIII. 11.) IM rendelet 4. § (2) bekezdése iktatta be. 8 A 21. § (1) bekezdés g) pontját a 10/2017. (VIII. 11.) IM rendelet 4. § (2) bekezdése iktatta be. 9 A 25. § az 57. § (2) bekezdésével megállapított szöveg. 10 A 25. § (7) bekezdését a 10/2017. (VIII. 11.) IM rendelet 4. § (3) bekezdése iktatta be. 11 A 29. § (3) bekezdése a 10/2017. (VIII. 11.) IM rendelet 4. § (4) bekezdésével megállapított szöveg. 12 A 30. § (1) bekezdése a 10/2017. (VIII. 11.) IM rendelet 4. § (5) bekezdésével megállapított szöveg. 13 A 30. § (7) bekezdését a 10/2017. (VIII. 11.) IM rendelet 4. § (6) bekezdése iktatta be. 14 A 30. § (8) bekezdését a 10/2017. (VIII. 11.) IM rendelet 4. § (6) bekezdése iktatta be. 15 A 31. § e) pontját a 10/2017. (VIII. 11.) IM rendelet 4. § (7) bekezdése iktatta be. 16 A 31. § f) pontját a 10/2017. (VIII. 11.) IM rendelet 4. § (7) bekezdése iktatta be. 17 A 31/A. §-t a 10/2017. (VIII. 11.) IM rendelet 4. § (8) bekezdése iktatta be. 18 A 35. § (1) bekezdése a 20/2017. (XII. 21.) IM rendelet 42. § d) pontja szerint módosított szöveg. 19 A 35/A. §-t a 20/2014. (XII. 23.) IM rendelet 19. § (3) bekezdése iktatta be, szövege a 10/2017. (VIII. 11.) IM rendelet 4. § (9) bekezdésével mgállapított szöveg. 20 A 36. § a 20/2014. (XII. 23.) IM rendelet 19. § (7) bekezdés a) pontja szerint módosított szöveg. 21 A 36/A. §-t a 10/2017. (VIII. 11.) IM rendelet 4. § (10) bekezdése iktatta be. 22 A 15/A. alcímet (36/B. §) a 10/2017. (VIII. 11.) IM rendelet 5. §-a iktatta be. 23 A 37/A. §-t a 10/2017. (VIII. 11.) IM rendelet 6. §-a iktatta be. 24 A 40. § (3) bekezdése a 20/2014. (XII. 23.) IM rendelet 19. § (4) bekezdésével megállapított, ugyanezen módosító rendelet 19. § (7) bekezdés b) pontja szerint módosított szöveg. 25 A 40. § (6) bekezdése a 20/2014. (XII. 23.) IM rendelet (7) bekezdés f) pontja szerint módosított szöveg. 26 A 40. § (7) bekezdése a 20/2014. (XII. 23.) IM rendelet (7) bekezdés g) pontja szerint módosított szöveg. 27 A 40. § (8) bekezdése a 20/2014. (XII. 23.) IM rendelet (7) bekezdés h) pontja szerint módosított szöveg. 28 A 40. § (9) bekezdését a 20/2014. (XII. 23.) IM rendelet 19. § (5) bekezdése iktatta be. 29 A 40. § (9) bekezdés c) pontja a 20/2014. (XII. 23.) IM rendelet (7) bekezdés i) pontja szerint módosított szöveg. 30 A 40. § (9) bekezdés d) pontja a 20/2014. (XII. 23.) IM rendelet (7) bekezdés j) pontja szerint módosított szöveg. 31 A 45. § (1) bekezdése az 5/2015. (III. 13.) IM rendelet 2. § (1) bekezdése szerint módosított szöveg. 32 A 45. § (4) bekezdése az 5/2015. (III. 13.) IM rendelet 1. § (1) bekezdésével megállapított szöveg. 33 A 45. § (5) bekezdését az 5/2015. (III. 13.) IM rendelet 1. § (2) bekezdése iktatta be. 34 Az 52. § az 5/2015. (III. 13.) IM rendelet 2. § (2) bekezdése szerint módosított szöveg. 35 Az 54–56. § a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette. 36 Az 57. § (1) bekezdése a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette. 37 Az 57. § (2) bekezdése a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette. 38 Az 58. § a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette. 39 Az 1. mellékletet a 29/2019. (XII. 20.) IM rendelet 100. § e) pontja hatályon kívül helyezte. 40 A 2. melléklet a 10/2017. (VIII. 11.) IM rendelet 7. § (2) bekezdésével megállapított szöveg. 41 A 2. melléklet 4.2. pontja a 20/2017. (XII. 21.) IM rendelet 42. § b) pontja szerint módosított szöveg. 42 A 3. melléklet a 10/2017. (VIII. 11.) IM rendelet 7. § (3) bekezdésével megállapított szöveg. 43 A 4. melléklet a 10/2017. (VIII. 11.) IM rendelet 7. § (4) bekezdésével megállapított szöveg. 44 Az 5. mellékletet a 10/2017. (VIII. 11.) IM rendelet 7. § (5) bekezdése iktatta be. 45 A 6. mellékletet a 10/2017. (VIII. 11.) IM rendelet 7. § (6) bekezdése iktatta be."
+    }
+  ]
+}

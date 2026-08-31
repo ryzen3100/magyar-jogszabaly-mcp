@@ -1,0 +1,143 @@
+{
+  "id": "hu-law-2011-32-b0-0a",
+  "type": "statute",
+  "title": "32/2011. (XII. 2.) BM utasítás a Polgári Veszélyhelyzeti Információs Rendszer és a Marathon Terra védelmi igazgatási célú infokommunikációs alkalmazás létrehozásáról és üzemeltetéséről",
+  "status": "repealed",
+  "in_force_date": "2011-12-03",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2011-32-B0-0A",
+  "description": "a Polgári Veszélyhelyzeti Információs Rendszer és a Marathon Terra védelmi igazgatási célú infokommunikációs alkalmazás létrehozásáról és üzemeltetéséről",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § Az utasítás hatálya kiterjed a katasztrófaveszély és veszélyhelyzet kezelésében közreműködő belügyminisztériumi hivatali szervezetekre és a belügyminiszter irányítása alá tartozó önálló szervekre (a továbbiakban: önálló belügyi szervek)."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § (1) A Magyarország biztonságát érintő rendkívüli események, katasztrófaveszély és veszélyhelyzetek elhárítására való felkészülés, a bekövetkezett események hatásai csökkentésének, megszüntetésének, valamint az eredeti helyzet visszaállításának támogatására Polgári Veszélyhelyzeti Információs Rendszer (a továbbiakban: NEO PVIR) működik. (2) A védelmi és biztonsági igazgatási célokra független, zárt, megbízható, fájltípus korlátozás nélküli adatforgalmazásra képes informatikai rendszerként Marathon Terra infokommunikációs alkalmazás (a továbbiakban: Marathon Terra) működik. (3) A NEO PVIR és a Marathon Terra a) normál működési állapotban (a továbbiakban: I. fázis) vagy b) magasabb szintű működési állapotban, ezen belül ba) polgári veszélyhelyzeti működési állapotban (a továbbiakban: II. fázis) vagy bb) az élet- és vagyonbiztonságot veszélyeztető esemény miatt kihirdetett veszélyhelyzeti működési állapotban (a továbbiakban: III. fázis) működik. (4) Az I. fázis biztosítja a lakosság biztonságát veszélyeztető eseményre és annak várható következményeire való felkészülést, valamint a magasabb szintű működési állapot bevezetésének lehetőségét. (5) A II. fázis elősegíti a lakosság biztonságát veszélyeztető, de a III. fázis szintjét el nem érő esetekben a lakosság megfelelő tájékoztatását. (6) A III. fázisban a lakosság biztonságát veszélyeztető katasztrófa- és veszélyhelyzetek kockázatainak csökkentése érdekében a védelmi és biztonsági igazgatás országos koordinációjával lakosságvédelmi óvintézkedés bevezetése szükséges."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) A NEO PVIR az I. fázisban webalapú szolgáltatásként tájékoztatást nyújt a várható események kezelésére való felkészülésről, a helyreállításról, újjáépítésről. (2) A NEO PVIR mindhárom fázisban az alábbi általános információk folyamatos elérhetőségét biztosítja a katasztrófa- és veszélyhelyzetek megelőzésével, kialakulásának veszélyével, a bekövetkezett veszélyek kezelésével és a helyreállítással, újjáépítéssel kapcsolatban: a) jogszabályok, közjogi szervezetszabályozó eszközök, b) elkülönítetten a vis maior eseményekhez kapcsolódó jogszabályok és a helyreállításra, újjáépítésre vonatkozó normák, c) rendvédelmi szervek elérhetőségei, d) karitatív szervek elérhetőségei, e) polgármesteri hivatalok, önkormányzatok cím- és elérhetőségi jegyzéke, valamint f) egyes veszélyhelyzetekben követendő magatartási szabályok. (3) A NEO PVIR a II. és III. fázisban a bekövetkezett eseményekhez kapcsolódóan tartalmazza a (2) bekezdésben foglaltakon túl a) a katasztrófaveszély és veszélyhelyzetek kezelésével összefüggő kormányzati döntéseket, b) a kormányzati koordinációs szerv döntéseit, a kormányzati koordinációs szerv munkaszervei és egyéb törzsek intézkedéseit, tájékoztatóit, c) a területi és a helyi védelmi bizottságok döntéseit, határozatait és jelentéseit, d) a katasztrófaveszély vagy veszélyhelyzettel érintett települések felsorolását. (4) A NEO PVIR a II. és III. fázisban a veszélyeztetett területen tevékenykedő és az oda vezényelt erők helyzetéről dinamikus adatállományt tartalmaz, amely kiterjed a) a védekező és a vezényelt erőkre, eszközök számára, helyére, feladatára, b) a beavatkozó állomány által végrehajtott intézkedésekre (pl. kitelepítés, kimenekítés, útlezárás, forgalomterelés), azok főbb adataira (helye, kezdete, befejezése), c) az igényelt erőkre, eszközökre, d) a tervezett, bevezetett lakosságvédelmi intézkedésekre, e) a veszélyeztetett település lakosságának mindennapi életét akadályozó körülményekre, f) a védekezést ellátó szerv tevékenységét akadályozó problémákra, g) a rendkívüli eseményekre, h) a javaslatokra, felvetésekre."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § A Marathon Terra mindhárom fázisban folyamatosan működik."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § A NEO PVIR üzemeltetését a BM Informatikai Főosztálya (a továbbiakban: BM IFO), a Marathon Terra üzemeltetését a BM Országos Katasztrófavédelmi Főigazgatóság (a továbbiakban: BM OKF) végzi."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § (1) A NEO PVIR működtetését a katasztrófaveszély és veszélyhelyzetek kezelése során a BM OKF és az Országos Rendőr-főkapitányság központi ügyelete (a továbbiakban együtt: központi ügyeletek) a védekezésben, kárelhárításban részt vevő területi és helyi szervekkel közösen látják el. (2) A III. fázisban a központi ügyeletek feladatkörét Központi Értékelő Csoport (a továbbiakban: KÉCS) veszi át. (3) A KÉCS tevékenységét a kormányzati koordinációs szerv operatív munkaszerve működési helyén, a Nemzeti Helyzetértékelő Központban, a kormányzati koordinációs szerv operatív munkaszerve vezetőjének alárendeltségében végzi. A KÉCS munkarendje a kormányzati koordinációs szerv operatív munkaszervének munkarendjével egyezik meg. (4) A KÉCS feladat-végrehajtáshoz kijelölt létszáma – 3 fős váltásban – 15 fő védelmi és biztonsági igazgatási és a NEO PVIR-hez szükséges informatikai ismeretekben jártas szakember, melyből a) 5 főt az BM OKF, b) 5 főt az Országos Rendőr-főkapitányság, valamint c) 5 főt a Belügyminisztérium Önkormányzati Feladatok Főosztályának és Önkormányzati Gazdasági Főosztályának állományából kell kijelölni. (5) A kormányzati koordinációs szerv operatív munkaszerve részére tartott felkészítő foglalkozásokon, gyakorlatokon a KÉCS állománya is részt vesz."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § (1) A NEO PVIR lehetővé teszi, hogy a katasztrófaveszély és veszélyhelyzet-kezelésben részt vevő szervek az események kezelésével kapcsolatos dinamikus adatokat egységes felületen közzétegyék, és az informatikai rendszerben található információkat elérhessék. (2) A KÉCS és a központi ügyeletek folyamatosan felügyelik, fogadják a jelzéseket, és végzik a honlap felületein lévő adatok elemzését, a honlapra beérkező jelentéseket regisztrálják, ellenőrzik, szükséges esetben javításukat kezdeményezik. (3) Azon információk esetében, amelyek azonnali központi intézkedést vagy továbbítást igényelnek, a központi ügyeletek és a KÉCS tagjai intézkednek az információk továbbítására, követésére és visszaigazolására. (4) A NEO PVIR-ben megjelenő azon információk esetében, amelyek azonnali területi intézkedést vagy továbbítást igényelnek, az érintett önálló belügyi szervek megyei vezetői a megtett intézkedéseikről tájékoztatót készítenek, és azt a NEO PVIR felületén elhelyezik. (5) A központi ügyeletek és a KÉCS az eseményhez kapcsolódó főbb információkat elhelyezik a helyszínhez kapcsolódó számítógépes felületre."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § (1) A II. és III. fázisban a veszélyhelyzet-kezelésben részt vevő szervek információikat a NEO PVIR internetes felületen rögzítik. (2) A védekezésben és a kárelhárításban részt vevő szervek alkalmasak arra, hogy az internetes felületen történő rögzítés akadályoztatása esetén SMS-ben, MMS-ben, EDR-en vagy telefonkapcsolaton keresztül továbbítsák az információkat, amelyeket a központi ügyeletek és a KÉCS képes fogadni. (3) SMS, MMS küldéséhez, EDR és telefonos kapcsolathoz a BM IFO helpdesk számot tesz közzé."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § A III. fázisban a veszélyeztetett területen működő szervek és a katasztrófavédelmi tevékenységben közreműködő erők vezetői első alkalommal soron kívül, ezt követően naponta két alkalommal, 24:00 órás zárással 02:00 óráig és 15:00 órás zárással 17:00 óráig jelentést készítenek az aktuális helyzetről, melyet a NEO PVIR felületén elhelyeznek."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § (1) A területi védelmi bizottságok elnökei a rendszeres tájékoztatóik kiadása, valamint a felkészítések tartása során közzéteszik a NEO PVIR elérhetőségeit a kerületi és a helyi védelmi bizottságok elnökei, valamint a települések polgármesterei részére és a „Veszély-elhárítási Intézkedési Terveikben” elhelyezik ezen utasítás egy példányát. (2) A területi és helyi védelmi bizottság állandó és meghívott tagjainak, az ideiglenesen vagy állandó jelleggel felállított operatív törzseknek lehetőséget kell biztosítani a NEO PVIR folyamatos figyelemmel kísérésére, az általuk szükségesnek tartott információk feltöltésére. A rendszerhez való hozzáféréshez szükséges jogosultságok elbírálását, kiosztását és a jogosultsággal rendelkezők regisztrálását a BM IFO hajtja végre. (3) A BM IFO nyilvántartja a területi és a helyi védelmi bizottságok, a polgármesterek és a (2) bekezdésben meghatározott személyek NEO PVIR hozzáférési jogosultságait."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § A rendszerbe bevitt információért az információt bejelentő személy és szervezet vezetője felelős, az információt a központi ügyeletek és a KÉCS tagja nem módosíthatja."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. § A rendszerben tárolt adatok használatára és feltöltésére a jogosultság kiosztását követően van mód."
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. § A NEO PVIR-en belül a közérdekű telefonszámokat a BM IFO folyamatosan karbantartja."
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14. §",
+      "content": "14. § (1) Az Országos Nukleárisbaleset-elhárítási Intézkedési Terv 4.3.1.4. pontjában megfogalmazottak szerint, az Országos Nukleárisbaleset-elhárítási Rendszer veszélyhelyzeti hír- és adatközlésben alkalmazott egyik kommunikációs eszköze a Marathon Terra. (2) Az Országos Nukleárisbaleset-elhárítási Rendszer központi szerveinél, a megyei, fővárosi közigazgatási és a központi államigazgatási szerveknél a szöveges formában történő információtovábbítás elsődleges kommunikációs eszköze a Marathon Terra."
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15. §",
+      "content": "15. § Az állami szervek, a BM fejezeten kívüli költségvetési szervek, az egyéb jogi személyek részére a Marathon Terra jogosultságot a BM OKF külön együttműködés keretében biztosítja."
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16. §",
+      "content": "16. § A Marathon Terra használata során követendő szempontokat a program alaprendeltetése szerinti működéshez szükséges dokumentációk (Felhasználói Kézikönyv, Üzemeltetési Szabályzat, Informatikai Biztonsági Szabályzat) tartalmazzák."
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17. §",
+      "content": "17. § (1) A Marathon Terra rendszert kizárólag regisztrált felhasználók vehetik igénybe. (2) A regisztráció az Üzemeltetési Szabályzatban foglaltak szerint az üzemeltetőtől igényelt regisztrációs űrlap kitöltésével és visszaküldésével (e-mail: marathon@katved.gov.hu) történik. (3) A regisztrációs igényt az üzemeltető hagyja jóvá. (4) A jóváhagyott regisztrációs igényt követően az adatlapon bekért információkat a rendszer üzemeltetője egységesíti, feltölti a rendszer címjegyzékébe, ezt követően hitelesíti és létrehozza a felhasználó postafiókját, majd e-mailben tájékoztatja a felhasználót a sikeres regisztrációról. Az üzemeltető rendszergazda elvégzi a szükséges tűzfalbeállításokat."
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18. §",
+      "content": "18. § Az utasításban foglaltak az általános jelentési kötelezettséget nem érintik."
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19. §",
+      "content": "19. § (1) A Marathon Terra fejlesztése során törekedni kell a felhasználók teljes körű bevonására és a más rendszerekkel való (kompatibilitás, interoperabilitás) együttműködésre. (2) A NEO PVIR-t fejlesztése során oly módon kell integrálni a Marathon Terra védelmi és biztonsági igazgatási célú infokommunikációs alkalmazásba, hogy funkciói a védelmi és biztonsági igazgatás komplex rendszerében regisztrált és betekintési jogosultságokkal rendelkező felhasználók számára is elérhetőek legyenek. (3) A Marathon Terra fejlesztési tervet az üzemeltető hagyja jóvá."
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20. §",
+      "content": "20. § (1) A 6. § (4) bekezdésében meghatározott személyek kijelölését és felkészítését az érintett szervek vezetői az utasítás hatályba lépését követő 10 napon belül hajtsák végre, majd erről a BM IFO vezetőjét tájékoztassák. (2) A Marathon Terra alkalmazás részletes szabályait az önálló belügyi szerv vezetője intézkedésében szabályozza. (3) Az utasítás hatálya alá tartozó szervek vezetői az utasításban foglaltak ismertetésére, az érintettek felkészítésére az utasítás hatályba lépését követő 15 napon belül intézkednek."
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21. §",
+      "content": "21. § Ez az utasítás a közzétételét követő napon lép hatályba."
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22. §",
+      "content": "22. § 1 Az utasítást a 30/2023. (XI. 30.) BM utasítás 9. §-a hatályon kívül helyezte 2023. december 1. napjával. Alkalmazására lásd e hatályon kívül helyező utasítás 10. §-át. 2 A 2. § (2) bekezdése a 20/2022. (XII. 9.) BM utasítás 2. § a) pontja szerint módosított szöveg. 3 A 2. § (6) bekezdése a 20/2022. (XII. 9.) BM utasítás 2. § a) pontja szerint módosított szöveg. 4 A 3. § (3) bekezdés c) pontja a 20/2022. (XII. 9.) BM utasítás 2. § b) pontja szerint módosított szöveg. 5 A 6. § (4) bekezdés nyitó szövegrésze a 20/2022. (XII. 9.) BM utasítás 2. § a) pontja szerint módosított szöveg. 6 A 10. § (1) bekezdése a 20/2022. (XII. 9.) BM utasítás 2. § c) pontja szerint módosított szöveg. 7 A 10. § (2) bekezdése a 20/2022. (XII. 9.) BM utasítás 2. § b) pontja szerint módosított szöveg. 8 A 10. § (3) bekezdése a 20/2022. (XII. 9.) BM utasítás 2. § d) pontja szerint módosított szöveg. 9 A 19. § (2) bekezdése a 20/2022. (XII. 9.) BM utasítás 2. § e) pontja szerint módosított szöveg. 10 A 22. § a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette."
+    }
+  ]
+}

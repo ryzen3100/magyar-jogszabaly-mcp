@@ -1,0 +1,1955 @@
+{
+  "id": "hu-law-2023-33-b0-3m",
+  "type": "statute",
+  "title": "33/2023. (VII. 14.) BVOP utasítás a büntetés-végrehajtási szervezet Beszerzési Szabályzatáról",
+  "status": "repealed",
+  "in_force_date": "2023-07-15",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2023-33-B0-3M",
+  "description": "a büntetés-végrehajtási szervezet Beszerzési Szabályzatáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A jogalkotásról szóló 2010. évi CXXX. törvény 23. § (4) bekezdés c) pontja alapján – figyelemmel a közbeszerzésekről szóló 2015. évi CXLIII. törvényben, a védelmi és biztonsági célú beszerzésekről szóló 2016. évi XXX. törvényben, az államháztartásról szóló törvény végrehajtásáról szóló 368/2011. (XII. 31.) Korm. rendelet 13. § (2) bekezdés b) pontjában foglaltakra – a következő utasítást adom ki:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "1. Az utasítás célja, hogy a Büntetés-végrehajtás Országos Parancsnoksága (a továbbiakban: BVOP), a bv. intézetek, intézmények (a továbbiakban: bv. szervek) beszerzéseinek átláthatósága és nyilvános ellenőrizhetősége érdekében egységesen szabályozza a beszerzések előkészítésének, lebonyolításának, dokumentálásának, valamint ellenőrzésének rendjét."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "2. Az utasítás célja továbbá, hogy a közpénzek felhasználása szabályozott, valamint átlátható legyen, azonos és egyenlő feltételeket biztosítva az ajánlattevők számára, garantálva ezzel a verseny tisztaságát és annak nyilvánosságát."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "3. Az utasítás a mindenkori költségvetési törvényben megállapított közbeszerzési értékhatárokat el nem érő árubeszerzések, építési beruházások és szolgáltatások igénybevétele esetén meghatározza az eljárási szabályokat."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "4. A BVOP és a bv. szervek valamennyi beszerzéseinek lebonyolítója, vagyis a beszerzési eljárás lefolytatásáért és a beszerzéssel kapcsolatos jogszabályi előírások betartásáért a Büntetés-végrehajtás Gazdasági Ellátó Intézete (a továbbiakban: BV GEI) felel."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "5. Az utasítás személyi hatálya kiterjed"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "a) a BVOP-ra, a bv. szervekre, valamint a BV GEI-re mint közreműködőre és lebonyolítóra a bv. szervek mint ajánlatkérők nevében lefolytatott beszerzési eljárások esetében,"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "b) a BVOP Szervezeti és Működési szabályzata és a jelen utasításban meghatározott hatáskörök figyelembevételével a beszerzési eljárások előkészítésében, lebonyolításában közreműködő szervezeti elemekre (a továbbiakban: kezdeményező szakterület) és azok személyi állományi tagjaira."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "6. Az utasítás tárgyi hatálya kiterjed"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "a) a közbeszerzésekről szóló 2015. évi CXLIII. törvény (a továbbiakban: Kbt.) szerinti, a mindenkori közbeszerzési értékhatárokat el nem érő becsült értékű vagy a Kbt. 9. § (1) bekezdés a)–k) pontja, 9. § (8) bekezdése, 9. § (9) bekezdése vagy 111. §-a szerinti kivételi körbe tartozó árubeszerzésekre, építési beruházásokra, építési koncessziókra, szolgáltatási koncessziókra és szolgáltatások megrendelésére, amennyiben jogszabály azt eltérő módon nem határozza meg,"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "b) a védelmi és biztonsági célú beszerzésekről szóló 2016. évi XXX. törvény (a továbbiakban: Vbt.) szerinti, a Vbt. 7. §-ában meghatározott kivételi körbe tartozó árubeszerzésekre, építési beruházásokra és szolgáltatások megrendelésére."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "7. Az utasítás tárgyi hatálya nem terjed ki"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "a) a katasztrófa okozta károk elhárítása érdekében szükségessé váló, azonnali beszerzésekre,"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "b) a büntetés-végrehajtási szervezet részéről a központi államigazgatási szervek és a rendvédelmi szervek irányában fennálló egyes ellátási kötelezettségekről, a termékek és szolgáltatások átadás-átvételének és azok ellentételezésének rendjéről szóló 44/2011. (III. 23.) Korm. rendelet és a büntetés-végrehajtási szervezet részéről a büntetés-végrehajtásért felelős miniszter vezetése, irányítása vagy felügyelete alá tartozó szervek irányában fennálló ellátási kötelezettségről, a fogvatartottak kötelező foglalkoztatása keretében előállított termékekről és szolgáltatásokról, azok átadás-átvételéről és az ellentételezés rendjéről szóló 9/2011. (III. 23.) BM rendelet szerinti beszerzésekre,"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "c) a közbeszerzésekre,"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "d) olyan beszerzésekre, amikor az adott szolgáltatást, tevékenységet hatósági jogosítvánnyal rendelkező gazdasági szereplő teljesíthet (pl. ún. kijelölt szervezet)."
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "8. Jelen utasítás hatálya alá tartozó beszerzés kizárólag a jóváhagyott, illetve módosított előirányzatok terhére, a bevételi előirányzatok teljesülésével összhangban valósítható meg."
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "9. A pályázati támogatásból megvalósuló beszerzések esetén az eljárás során a jelen utasításba foglaltakon túl a projektútmutatóban foglaltakat is figyelembe venni szükséges."
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "10. A jelen utasítás szempontjából irányadó alapfogalmakat a Kbt. és az államháztartásról szóló 2011. évi CXCV. törvény értelmező rendelkezései tartalmazzák, azzal, hogy a fentieken túlmenően az utasításban használt fogalmak a következők:"
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "a) ajánlattevő: azon gazdasági szereplő, amely a beszerzési eljárás során ajánlatot nyújt be,"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "b) beszerzés: a jelen utasítás tárgyi hatálya alá tartozó beszerzési tárgyak beszerzését célzó, megrendeléssel vagy szerződéskötéssel megvalósuló, visszterhes – pénzbeli ellenérték megfizetésével járó – jogügylet, amelyet a BVOP, valamint a bv. szervek feladatainak folyamatos ellátása érdekében köt,"
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "c) beszerzési eljárás: valamely beszerzés szabályszerű megvalósítását célzó intézkedések és cselekmények összessége,"
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "d) beszerzés tervezett értéke: a beszerzés megkezdésekor annak tárgyáért az adott piacon általában kért vagy kínált, általános forgalmi adó nélkül számított nettó és bruttó összegben is meghatározott teljes ellenszolgáltatás,"
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "e) becsült érték: a beszerzés megkezdésekor annak tárgyáért a Kbt. 16. § (1) bekezdésében meghatározottak szerint – a Kbt. 17–20. §-ában foglaltakra tekintettel – számított nettó teljes ellenszolgáltatás (egybeszámított becsült érték). Opcionális részt tartalmazó ajánlatkérés esetén a teljes ellenszolgáltatásba az opcionális részt is bele kell érteni,"
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "f) egyszerű beszerzés: azon beszerzés, amelynek tervezett értéke eléri vagy meghaladja a bruttó kettőszázezer forintot (az Európai Unió támogatásával megvalósuló beszerzés esetén a bruttó százezer forintot), de nem haladja meg a nettó egymillió forintot, becsült értéke pedig nem éri el a Kbt. 15. § (1) bekezdés b) pontja szerinti nemzeti értékhatárokat,"
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "g) értékhatár alatti beszerzési eljárás: azon beszerzés, amelynek tervezett értéke meghaladja a nettó egymillió forintot, becsült értéke pedig nem éri el a Kbt. 15. § (1) bekezdés b) pontja szerinti nemzeti értékhatárokat (a továbbiakban: ÉHA beszerzés),"
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "h) gazdasági szereplő: bármely természetes személy, jogi személy, egyéni cég vagy személyes joga szerint jogképes szervezet, aki, illetve amely a piacon áruk szállítását vagy szolgáltatások nyújtását kínálja,"
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "i) Jegyzék: a Vbt. szerinti biztonsági beszerzési eljárásokban kötelezően érvényesítendő biztonsági követelményeknek megfelelő gazdasági szereplőknek az Alkotmányvédelmi Hivatal (a továbbiakban: AH) által vezetett listája,"
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "j) kezdeményező: az a szervezeti elem, amelynek feladatellátása során a beszerzési igény keletkezett,"
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "k) kis értékű beszerzés: azon beszerzés, amelynek tervezett értéke nem éri el a bruttó kettőszázezer forintot (az Európai Unió támogatásával megvalósuló beszerzés esetén a bruttó százezer forintot), becsült értéke pedig nem éri el a Kbt. 15. § (1) bekezdés b) pontja szerinti nemzeti értékhatárokat,"
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "l) kötelezettségvállaló: az a kötelezettségvállalás, ellenjegyzés, teljesítésigazolás, utalványozás és érvényesítés rendjének szabályozásáról szóló BVOP utasításban (a továbbiakban: kötelezettségvállalási szabályzat) meghatározott vezető, aki a BVOP képviseletében a megrendelőlap vagy szerződés aláírására jogosult,"
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "m) központosított közbeszerzés: a központosított közbeszerzési rendszerről, valamint a központi beszerző szervezet feladat- és hatásköréről szóló 168/2004. (V. 25.) Korm. rendelet, a Nemzeti Hírközlési és Informatikai Tanácsról, valamint a Digitális Kormányzati Ügynökség Zártkörűen Működő Részvénytársaság és a kormányzati informatikai beszerzések központosított közbeszerzési rendszeréről szóló 301/2018. (XII. 27.) Korm. rendelet, a központi beszerző szerv kijelöléséről, a védelmi és biztonsági feladatokkal összefüggő beszerzések körének meghatározásáról és a védelmi és biztonsági feladatokkal összefüggő beszerzések központosított rendszeréről szóló 329/2019. (XII. 20.) Korm. rendelet, valamint a Nemzeti Kommunikációs Hivatal jogállásáról és a kormányzati kommunikációs beszerzésekről szóló 162/2020. (IV. 30.) Korm. rendelet hatálya alá tartozó beszerzések,"
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "n) megrendelés: ha a felek beszerzési ügyletre vonatkozó jognyilatkozatát egyrészről a BVOP által aláírt és kiküldött megrendelőlap, másrészről a megrendelésben foglaltak gazdasági szereplő általi elfogadása/visszaigazolása tartalmazza,"
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "o) mentesített beszerzési eljárás: a Kbt. 9. § (1) bekezdés a) és b) pontja szerinti, valamint a Vbt. 7. § (1) bekezdés 4. pontja szerinti eljárás,"
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "p) szerződéskötés vagy szerződés: ha a felek beszerzési ügyletre vonatkozó jognyilatkozatát a Polgári Törvénykönyvről szóló 2013. évi V. törvény (a továbbiakban: Ptk.) szerinti, a szerződések szokásos formai kellékeinek megfelelően elkészített, a felek által közösen aláírt szerződési okirat tartalmazza,"
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "q) TBT: telephely biztonsági tanúsítvány."
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "11. Jelen utasítás alkalmazandó a támogatásból megvalósuló beszerzésekre is, azzal, hogy amennyiben a pályázati útmutató szigorúbb szabályokat tartalmaz a versenyeztetésre, szállító kiválasztására vonatkozóan akkor azon eltérések figyelembevételével kell eljárni."
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "12. A közbeszerzési értékhatárokat elérő beszerzések esetén a büntetés-végrehajtási szervezet Közbeszerzési Szabályzatáról szóló 29/2023. (IV. 28.) BVOP utasításban foglaltak az irányadóak."
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "13. Az utasítás hatálya alá tartozó beszerzés megvalósításához az alábbi beszerzési típusok valamelyikét kell lefolytatni:"
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "a) kis értékű beszerzés,"
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "b) egyszerű beszerzési eljárás,"
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "c) értékhatár alatti beszerzési eljárás,"
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "d) mentesített beszerzési eljárás."
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "14. Az utasítás hatálya alá tartozó beszerzésekre vonatkozó, alkalmazandó eljárásfajtákat az 1. mellékletben foglalt táblázat foglalja össze."
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "15. A beszerzési eljárás fajtát a BV GEI Beszerzési Osztály (a továbbiakban: BV GEI BO) határozza meg. A beszerzések eljárásrendje meghatározásának elmulasztása vagy nem megfelelő eljárásrendben történő megindítása, illetve a (köz)beszerzés mellőzése esetén a felelősség a BV GEI vezetőjét terheli."
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "16. Amennyiben a beszerzés tárgya a Kormány irányítása alá tartozó fejezetek költségvetési szerveinek eszközbeszerzéseiről szóló 1982/2013. (XII. 29.) Korm. határozatban meghatározott beszerzési tilalom hatálya alá tartozik, az érintett eszközök esetében a beszerzési eljárás csak a Miniszterelnökséget vezető miniszter engedélyével indítható meg."
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "17. A jelen utasítás hatálya alá tartozó központosított közbeszerzések esetében a külön jogszabályokban meghatározott, a központi beszerző szervekkel való kapcsolattartást a BV GEI BO biztosítja."
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "18. A jelen utasítás hatálya alá tartozó beszerzések során a beszerzésben részt vevő valamennyi személynek a hatékony és felelős gazdálkodás elvét szem előtt tartva kell eljárnia."
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "19. Az ajánlatkérő az ajánlattételre felhívandó gazdasági szereplők kiválasztásakor diszkriminációmentesen, az egyenlő bánásmód elvének megfelelően jár el. Az ajánlattételre felhívandó gazdasági szereplőket lehetőség szerint az ajánlatkérő székhelye (telephelye) vagy a szerződés tárgyát képező szolgáltatás, árubeszerzés vagy építési beruházás teljesítésének helye szerinti mikro-, kis- vagy középvállalkozások közül választja ki."
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "20. Valamennyi beszerzés esetén a beszerzési eljárást a BV GEI BO hajtja végre."
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "21. A kezdeményező a bruttó 200 000 Ft (az Európai Unió támogatásával megvalósuló beszerzés esetén a bruttó 100 000 Ft) tervezett értéket el nem érő értékű beszerzési igény felmerülése esetén a III. fejezet szerint jár el."
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "22. A kezdeményező a bruttó 200 000 Ft (az Európai Unió támogatásával megvalósuló beszerzés esetén a bruttó 100 000 Ft) tervezett értéket elérő vagy meghaladó értékű beszerzési igény felmerülése esetén beszerzés-kezdeményezést készít a büntetés-végrehajtás országos parancsnok gazdasági és informatikai helyettese (a továbbiakban: OPGIH) részére. A bv. szervek beszerzései esetén az agglomerációs központ megküldi a beszerzési kezdeményezőt a BV GEI Igazgatója részére, aki köteles jóváhagyás céljából megküldeni az OPGIH részére."
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "23. A beszerzéskezdeményezés kötelező tartalmi elemei:"
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "a) a beszerzés tárgya,"
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "b) a beszerzés szükségességének részletes indokolása,"
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "c) a beszerzés mennyisége,"
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "d) a beszerzés becsült értéke (BV GEI BO),"
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "e) a nettó 1 000 000 Ft tervezett értéket meghaladó beszerzés esetén továbbá"
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "ea) a teljesítés helye, határideje,"
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "eb) a szerződéskötéshez szükséges lényeges feltételek (különösen a szerződés szakmai tartalmát érintő feltételek, teljesítési feltételek, fizetési feltételek),"
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "ec) a beszerzési eljárásban történő részvételre a kezdeményező szakterület állományából kijelölt személy neve, elérhetőségei."
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "24. A 22. pont szerinti kezdeményezésben a beszerzés tárgyát röviden, a beszerezni kívánt áru, szolgáltatás vagy építési beruházás főbb jellemzőinek leírásával kell meghatározni. Központosított közbeszerzés esetén, amennyiben a beszerzés tárgya a központi beszerző szerv által megkötött keretmegállapodásból elérhető, a beszerzés tárgyának cikkszámát is meg kell adni."
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "25. A beszerzés tárgyának részletes paramétereit a műszaki leírásban kell rögzíteni. A műszaki leírás azoknak az előírásoknak az összessége, amelyek meghatározzák azokat a beszerzés tárgya tekintetében megkövetelt jellemzőket, amelyek alapján a beszerzés tárgya olyan módon írható le, hogy az megfeleljen az ajánlatkérő által igényelt rendeltetésnek. A műszaki leírást elsősorban a teljesítmény és funkcionális követelmények megadásával, illetve szabványokra, műszaki engedélyre vagy műszaki előírásra történő hivatkozással kell megadni."
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "26. A beszerzési kezdeményezés elkészítéshez szükséges műszaki-szakmai specifikáció, az alkalmassági követelmények meghatározása a kezdeményező feladata, illetve felelőssége."
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "27. A műszaki leírás hivatkozhat meghatározott gyártmányú vagy eredetű dologra, illetve konkrét eljárásra, amely egy adott gazdasági szereplő termékeit vagy az általa nyújtott szolgáltatásokat jellemzi, vagy védjegyre, szabadalomra, tevékenységre, személyre, típusra vagy adott származásra vagy gyártási folyamatra is. Az ilyen megnevezés mellett a „vagy azzal egyenértékű” kifejezést kell szerepeltetni, és meg kell határozni azokat a fő paramétereket, amelyeknek az ajánlatnak meg kell felelnie. Központosított közbeszerzés esetén, amennyiben a beszerzés tárgya a központi beszerző szerv által megkötött keretmegállapodásból elérhető, az adott cikkszámhoz tartozó jellemzőket kell feltüntetni."
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "28. A beszerzés becsült értékét a 2. mellékletet képező jegyzőkönyvminta használatával, objektív alapú módszer alkalmazásával, nettó és bruttó összegben is meg kell állapítani. Amennyiben központi beszerző szerv részére a beszerzés értékének meghatározásához ettől eltérő formátumú dokumentum benyújtása szükséges, úgy köteles a BV GEI BO eltérő dokumentumot benyújtani."
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "29. A becsült érték objektív alapú megállapításának módszere különösen"
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "a) a beszerzés tárgyára vonatkozó, legalább három gazdasági szereplőtől bekért indikatív ajánlatban meghatározott ellenszolgáltatás számtani átlaga. A nettó 200 000 Ft-ot, illetve a nettó 1 000 000 Ft tervezett értéket meg nem haladó beszerzés esetén elegendő legalább kettő indikatív árajánlat, amely esetében elegendő egyetlen gazdasági szereplő megszólítása, a beszerzés tervezett értékének megállapításához egyetlen indikatív ajánlat is elegendő,"
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "b) az internetes piackutatás: legalább három gazdasági szereplő interneten elérhető, a beszerzés tárgyára vonatkozó ajánlatában meghatározott ellenszolgáltatás számtani átlaga. A nettó 1 000 000 Ft tervezett értéket meghaladó beszerzés, amikor elegendő egyetlen gazdasági szereplő megszólítása, a beszerzés tervezett értékének megállapításához egyetlen, interneten elérhető ajánlat is elegendő,"
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "c) a BVOP által megkötött korábbi, hasonló tárgyra irányuló szerződés elemzése, figyelembe véve a korábbi szerződéskötés óta bekövetkezett inflációt és az adott piacon bekövetkezett, az ellenértékre kiható változásokat,"
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "d) az igazságügyi szakértő igénybevétele, szakmai kamarák által ajánlott díjszabások."
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "30. A kezdeményezőnek az ajánlattételre felhívandó gazdasági szereplők kiválasztásakor diszkriminációmentesen, az egyenlő bánásmód elvének megfelelően kell eljárnia. A kezdeményező a különböző eljárásokban ajánlattételre felhívni kívánt gazdasági szereplők személyét lehetőség szerint változtatja."
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "31. A beszerzéskezdeményezés mintáját a 3. melléklet tartalmazza."
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "32. A beszerzés kezdeményezéséhez az alábbi mellékleteket kell csatolni:"
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "a) a 2. melléklet szerint készített, a beszerzés becsült értékének megállapításáról szóló jegyzőkönyv, valamint az abban foglaltakat alátámasztó dokumentumok (különösen indikatív ajánlatok, internetes piackutatás során fellelt internetes ajánlatokról készített képernyőképek, figyelembe vett korábbi szerződés, szakértői vélemény, központosított közbeszerzés esetén kosárelemzés), melynek elvégzése a BV GEI BO feladata,"
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "b) a beszerzés műszaki leírása, melynek kötelező tartalmi elemei,"
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "ba) a termék specifikációja,"
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "bb) a kapcsolódó szolgáltatások (pl. betanítás, próbaüzem, karbantartás) megnevezése, szolgáltatás esetén annak ismertetése, építési beruházás esetén a tervdokumentáció,"
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "bc) a legfontosabb szerződéses feltételekre (határidő, részteljesítés lehetősége, fizetési feltételek, kötbérek, jótállás stb.), valamint az értékelési és alkalmassági szempontokra történő javaslatot."
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "33. A műszaki leírás nem korlátozhatja az ajánlattétel során az ajánlattevők esélyegyenlőségét és az egyenlő elbánásra vonatkozó alapelvek érvényesülését."
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "34. Az OPGIH dönt a beszerzés jóváhagyásáról vagy elutasításáról, és döntéséről tájékoztatja a BVOP Közgazdasági Főosztály (a továbbiakban: BVOP KGFO) vezetőjét. A beszerzés elutasításáról a BVOP KGFO tájékoztatja a kezdeményező szervezeti egységet. A beszerzés jóváhagyása esetén a BVOP KGFO vezetője – amennyiben a BVOP költségvetéséből kerül megvalósításra a beszerzés, a tervezett értékkel megegyező összegben fedezetigazolást állít ki – a kezdeményezés dokumentumait megküldi a Kezdeményező részére. A továbbiakban a kezdeményező felelőssége, hogy az aláírt, jóváhagyott beszerzési dokumentumokat, valamint a fedezetigazolást együttesen megküldje a BV GEI BO részére."
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "35. A BV GEI a kezdeményezés és a rendelkezésére álló információk alapján a Kbt. 16–20. §-ára figyelemmel meghatározza a beszerzés becsült értékét."
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "36. Amennyiben az adott beszerzés becsült értéke eléri az irányadó közbeszerzési értékhatárt, akkor a BV GEI BO a kezdeményező szervezeti egységtől bekéri a közbeszerzési eljáráshoz szükséges további adatokat, dokumentumokat, és lefolytatja a közbeszerzési eljárást a büntetés-végrehajtási szervezet közbeszerzési Szabályzatáról szóló 29/2023. (IV. 28.) BVOP utasításban foglaltak szerint."
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "37. Központosított közbeszerzés esetén a beszerzés megvalósítása érdekében a BV GEI BO a vonatkozó jogszabályban foglaltak szerint jár el."
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "38. Amennyiben az adott beszerzés nem központosított közbeszerzés, vagy a központi beszerző szerv a saját hatáskörű beszerzést engedélyezi, és a beszerzés becsült értéke nem éri el az irányadó közbeszerzési értékhatárt, akkor a BV GEI BO az irányadó beszerzési típus szerinti rendelkezéseknek megfelelően jár el."
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "39. A beszerzés kis értékű beszerzésként valósítható meg abban az esetben, ha a beszerzés"
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "a) tervezett értéke nem éri el a bruttó 200 000 Ft-ot (az Európai Unió támogatásával megvalósuló beszerzés esetén a bruttó 100 000 Ft-ot), és"
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "b) becsült értéke nem éri el a nemzeti közbeszerzési értékhatárt."
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "40. A kis értékű beszerzést a kezdeményező a kötelezettségvállalási szabályzat 5. melléklete szerinti előterjesztés OPGIH részére történő megküldésével indítja. Az előterjesztéshez mellékelni kell a beszerzés műszaki leírását."
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "41. Az OPGIH dönt a kis értékű beszerzés jóváhagyásáról vagy elutasításáról és döntéséről tájékoztatja a BVOP KGFO vezetőjét. A beszerzés elutasításáról a BVOP KGFO tájékoztatja a kezdeményezőt. A beszerzés jóváhagyása esetén a BVOP KGFO vezetője aláírásával látja el a kötelezettségvállalási szabályzat 5. melléklete szerinti előterjesztést. A BVOP KGFO a kezdeményező részére a fedezetigazolást megküldi – amennyiben a BVOP költségvetéséből kerül megvalósításra a beszerzés –, így a továbbiakban a kezdeményező felelőssége, hogy az aláírt, jóváhagyott beszerzési dokumentumokat, valamint a fedezetigazolást együttesen megküldje a BV GEI BO részére, amely a kis értékű beszerzésekről nyilvántartást vezet az egybeszámítás okán. A BV GEI BO köteles a 2. melléklet szerint a becsült értékről a jegyzőkönyvet elkészíteni az objektív alapú módszer alkalmazásával, a dokumentumok megérkezését követően 3 napon belül. Az OPGIH jogosult arra, hogy szúrópróbaszerűen bármikor ellenőrizze az egybeszámítási kötelezettség teljesítését."
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "42. A BV GEI BO az előterjesztés dokumentumait ellenőrzi, a beszerzési igényt nyilvántartásba veszi, és megvizsgálja, hogy a beszerzés központosított közbeszerzés hatálya alá tartozik-e. Amennyiben a beszerzés központosított közbeszerzés hatálya alá tartozik, a BV GEI a vonatkozó jogszabályban foglaltak szerint jár el. Amennyiben a beszerzés nem tartozik központosított közbeszerzés hatálya alá, vagy a központi beszerző szerv a saját hatáskörű beszerzést engedélyezi, és a becsült érték nem éri el a közbeszerzési értékhatárt, a BV GEI BO a beszerzési dokumentumokat továbbítja a kötelezettségvállaló részére."
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "43. A kötelezettségvállaló aláírását követően a beszerzés szóbeli megrendeléssel végrehajtható."
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "44. Amennyiben a beszerzés nem valósul meg, a kezdeményező köteles erről tájékoztatni a BV GEI-t."
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "45. A kis értékű beszerzés során is törekedni kell arra, hogy – azonos (vagy helyettesítő) termék kiskereskedelmi árának több forgalmazónál történő ellenőrzésével, internetes vagy más nyilvános árlisták/adatbázisok adatainak dokumentált összevetésével – a beszerzés a leggazdaságosabb módon történjen."
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "46. Amennyiben a kiállított számla a kezdeményezőhöz érkezik, úgy azt köteles a BVOP KGFO részére megküldenie az ellenérték megfizetése céljából."
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "47. A beszerzés egyszerű beszerzésként valósítható meg abban az esetben, ha a beszerzés"
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "a) tervezett értéke eléri vagy meghaladja a bruttó 200 000 Ft-ot (az Európai Unió támogatásával megvalósuló beszerzés esetén a bruttó 100 000 Ft-ot), és nem haladja meg a nettó 1 000 000 Ft-ot, és"
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "b) becsült értéke nem éri el a nemzeti közbeszerzési értékhatárt."
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "48. Az OPGIH dönt a beszerzés jóváhagyásáról vagy elutasításáról. A döntéséről tájékoztatja a BVOP KGFO vezetőjét. A beszerzés elutasításáról a BVOP KGFO tájékoztatja a kezdeményező szervezeti elemet."
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "49. Jóváhagyás esetén a BVOP KGFO a kezdeményező szervezeti elemnek a fedezetigazolást – amennyiben a BVOP költségvetéséből kerül megvalósításra a beszerzés – a rendelkezésére álló dokumentumokkal együttesen megküldi, így a továbbiakban a kezdeményező felelőssége, hogy az aláírt, jóváhagyott beszerzési dokumentumokat, valamint a fedezetigazolást együttesen megküldje a BV GEI BO részére, amely az egyszerű beszerzésekről nyilvántartást vezet az egybeszámítás folyamatos nyomon követése céljából."
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "50. Egyszerű beszerzési eljárás esetén a BV GEI a kezdeményezés érkezésétől – vagy ha a központi beszerző szerv a saját hatáskörű beszerzést engedélyezi, az erről való tudomásszerzéstől – számított 3 munkanapon belül feljegyzésben rögzíti a becsült érték meghatározását, és amennyiben az egyszerű beszerzés lefolytatásának feltételei fennállnak, az OPGIH előzetes jóváhagyását követően a beszerzést a BV GEI BO hajtja végre."
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "51. Az OPGIH jóváhagyása esetén a kötelezettségvállalás iránt a kezdeményező intézkedik a kötelezettségvállalási szabályzat rendelkezései szerint (írásbeli megrendelés vagy szerződéskötés)."
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "52. Amennyiben a beszerzés tárgya központosított közbeszerzés hatálya alá tartozik, és a központi beszerző szerv által kötött keretmegállapodásból a beszerzés tárgya elérhető, akkor a termék keretmegállapodásból történő megrendelése iránt a BV GEI BO intézkedik."
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "53. A BV GEI BO köteles a 2. melléklet szerint a becsült értékről a jegyzőkönyvet elkészíteni legfeljebb kettő érvényes indikatív árajánlattal a dokumentumok megérkezését követően 10 napon belül. Az OPGIH jogosult arra, hogy szúrópróbaszerűen bármikor ellenőrizze az egybeszámítási kötelezettség teljesítését."
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "54. Az egyszerű beszerzés során is törekedni kell arra – azonos (vagy helyettesítő) termék kiskereskedelmi árának több forgalmazónál történő ellenőrzésével, internetes vagy más nyilvános árlisták/adatbázisok adatainak dokumentált összevetésével –, hogy a beszerzés a leggazdaságosabb módon történjen."
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "55. A beszerzési eljárás eredményeképpen kiküldött megrendelés vagy megkötött szerződés másolati példányát a beszerzést végrehajtó szervezeti egység két munkanapon belül nyilvántartásba vétel céljából elektronikus úton megküldi a BV GEI részére."
+    },
+    {
+      "provision_ref": "s107",
+      "section": "107",
+      "title": "107",
+      "content": "56. A beszerzés értékhatár alatti (a továbbiakban: ÉHA) beszerzésként valósítható meg abban az esetben, ha a beszerzés"
+    },
+    {
+      "provision_ref": "s108",
+      "section": "108",
+      "title": "108",
+      "content": "a) tervezett értéke meghaladja a nettó 1 000 000 Ft-ot, és"
+    },
+    {
+      "provision_ref": "s109",
+      "section": "109",
+      "title": "109",
+      "content": "b) becsült értéke nem éri el a nemzeti közbeszerzési értékhatárt."
+    },
+    {
+      "provision_ref": "s110",
+      "section": "110",
+      "title": "110",
+      "content": "57. Amennyiben az OPGIH másként nem rendelkezik, az ÉHA beszerzési eljárást a BV GEI BO folytatja le, azzal, hogy köteles előzetes jóváhagyás céljából megküldeni az OPGIH részére."
+    },
+    {
+      "provision_ref": "s111",
+      "section": "111",
+      "title": "111",
+      "content": "58. Az OPGIH dönt a beszerzés jóváhagyásáról vagy elutasításáról. Döntéséről tájékoztatja a BVOP KGFO vezetőjét. A beszerzés elutasításáról vagy elfogadásáról a BVOP KGFO tájékoztatja a kezdeményező szervezeti elemet, így a továbbiakban a kezdeményező felelőssége, hogy az aláírt, jóváhagyott beszerzési dokumentumokat, valamint a fedezetigazolást együttesen megküldje a BV GEI BO részére, aki köteles az ÉHA beszerzésekről nyilvántartást vezetni az egybeszámítás szabályainak betartása miatt, valamint köteles a közbeszerzési értékhatárhoz közeledve az érintett beszerzési tárgyat érintően jelentést készíteni az OPGIH részére, amennyiben bekövetkezhet esetleges közbeszerzési eljárás megindítása az értékre való tekintettel."
+    },
+    {
+      "provision_ref": "s112",
+      "section": "112",
+      "title": "112",
+      "content": "59. A nettó 1 000 000 Ft-ot elérő, de a közbeszerzési értékhatárt el nem érő beszerzések esetén kötelező biztosítani a versenyeztetést, oly módon, hogy legalább három gazdasági szereplőt hivatalos árajánlatkérő formájában a műszaki tartalom részletezésével ajánlattételre szükséges felhívni."
+    },
+    {
+      "provision_ref": "s113",
+      "section": "113",
+      "title": "113",
+      "content": "60. A beszerzési eljárás lefolytatására bizottság kerül létrehozásra, kivéve, ha a beszerzés központosított közbeszerzés hatálya alá tartozik, és a beszerzés központi beszerző szerv által kötött keretmegállapodásból történő megrendeléssel kerül megvalósításra."
+    },
+    {
+      "provision_ref": "s114",
+      "section": "114",
+      "title": "114",
+      "content": "61. A BV GEI BO köteles a 2. melléklet szerint a becsült értékről a jegyzőkönyvet elkészíteni legfeljebb három érvényes indikatív árajánlattal a pályáztatás megindítása előtt. Az OPGIH jogosult arra, hogy szúrópróbaszerűen bármikor ellenőrizze az egybeszámítási kötelezettség teljesítését."
+    },
+    {
+      "provision_ref": "s115",
+      "section": "115",
+      "title": "115",
+      "content": "62. A bizottságot a BV GEI vezetője jelöli ki előterjesztés jóváhagyásával. A bizottság tagjai:"
+    },
+    {
+      "provision_ref": "s116",
+      "section": "116",
+      "title": "116",
+      "content": "a) a BV GEI beszerzésekért felelős vezetője,"
+    },
+    {
+      "provision_ref": "s117",
+      "section": "117",
+      "title": "117",
+      "content": "b) a kezdeményező képviselője,"
+    },
+    {
+      "provision_ref": "s118",
+      "section": "118",
+      "title": "118",
+      "content": "c) a BV GEI vezetője által kijelölt, a BV GEI BO állományába tartozó személy (a továbbiakban: ügyintéző),"
+    },
+    {
+      "provision_ref": "s119",
+      "section": "119",
+      "title": "119",
+      "content": "d) egyéb, az OPGIH, a BV GEI vezetője vagy a kezdeményező szervezeti egység vezetője által javasolt személy."
+    },
+    {
+      "provision_ref": "s120",
+      "section": "120",
+      "title": "120",
+      "content": "63. A bizottság tagjai, valamint a döntéshozó kötelesek jelenteni a felettesük részére, amennyiben velük szemben a Kbt. 25. §-a szerinti összeférhetetlenségi ok áll fenn. Összeférhetetlenség fennállása esetén az érintett személy a beszerzési eljárás lefolytatásában nem vehet részt."
+    },
+    {
+      "provision_ref": "s121",
+      "section": "121",
+      "title": "121",
+      "content": "64. Amennyiben szervezeten kívüli szakértő bizottsági tag kerül kijelölésre, a bizottsági tagság érdekében megbízási szerződést kell kötni. 1. Az eljárás lebonyolítása"
+    },
+    {
+      "provision_ref": "s122",
+      "section": "122",
+      "title": "122",
+      "content": "65. A BV GEI BO által kijelölt beszerzési ügyintéző a kezdeményező által készített beszerzési eljáráshoz kapcsolódó kezdeményezést megvizsgálja, hogy az alkalmas-e az eljárás megkezdéséhez, szükség esetén javaslatot tesz a kezdeményezés módosítására, kiegészítésére. A kezdeményezés kiegészítése, módosítása történhet írásban vagy a BV GEI és a kezdeményező között személyes egyeztetés keretében, melyről feljegyzést kell készíteni. A beszerzés becsült értékének megállapításához szükséges piacfelmérés és költségfelmérés elvégzése a BV GEI BO feladata."
+    },
+    {
+      "provision_ref": "s123",
+      "section": "123",
+      "title": "123",
+      "content": "66. A kezdeményezés alapján az ügyintéző összeállítja a beszerzési eljárás dokumentumait (ajánlatkérés, szerződéstervezet stb.). A beszerzési eljárás dokumentumainak kidolgozásában a beszerzés tárgyához tartozó kérdésekben szakmai segítséget nyújt a kezdeményező képviselője."
+    },
+    {
+      "provision_ref": "s124",
+      "section": "124",
+      "title": "124",
+      "content": "67. Az előterjesztés tartalmazza legalább"
+    },
+    {
+      "provision_ref": "s125",
+      "section": "125",
+      "title": "125",
+      "content": "a) a beszerzés tárgyát, mennyiségét, részajánlattétel lehetőségét és adott esetben az egyes részek tartalmát,"
+    },
+    {
+      "provision_ref": "s126",
+      "section": "126",
+      "title": "126",
+      "content": "b) a beszerzést kezdeményező szervezeti egység és/vagy elem megnevezését,"
+    },
+    {
+      "provision_ref": "s127",
+      "section": "127",
+      "title": "127",
+      "content": "c) a bizottság tagjait,"
+    },
+    {
+      "provision_ref": "s128",
+      "section": "128",
+      "title": "128",
+      "content": "d) az egybeszámításra vonatkozó információkat,"
+    },
+    {
+      "provision_ref": "s129",
+      "section": "129",
+      "title": "129",
+      "content": "e) a beszerzés becsült értékét,"
+    },
+    {
+      "provision_ref": "s130",
+      "section": "130",
+      "title": "130",
+      "content": "f) a rendelkezésre álló fedezet mértékét,"
+    },
+    {
+      "provision_ref": "s131",
+      "section": "131",
+      "title": "131",
+      "content": "g) a beszerzési eljárás módját,"
+    },
+    {
+      "provision_ref": "s132",
+      "section": "132",
+      "title": "132",
+      "content": "h) a felkérendő gazdasági szereplők nevét, címét és elérhetőségét,"
+    },
+    {
+      "provision_ref": "s133",
+      "section": "133",
+      "title": "133",
+      "content": "i) egyéb, az eljárás lefolytatása szempontjából jelentőséggel bíró szempontokat,"
+    },
+    {
+      "provision_ref": "s134",
+      "section": "134",
+      "title": "134",
+      "content": "j) a 61. pont szerinti jegyzőkönyvet."
+    },
+    {
+      "provision_ref": "s135",
+      "section": "135",
+      "title": "135",
+      "content": "68. A BV GEI BO a szerződéstervezetet megküldi a BVOP Hivatal Jogi és Adatkezelési Főosztály (a továbbiakban: BVOP JAFO) részére jogi szempontú ellenőrzés céljából. Nem kell ellenőrzésre megküldeni a szerződéstervezetet, ha a szerződéstervezet nem tér el a szerződésmintákat tartalmazó iratmintatárban található szerződésmintától (intranet)."
+    },
+    {
+      "provision_ref": "s136",
+      "section": "136",
+      "title": "136",
+      "content": "69. A BVOP JAFO a szerződéstervezettel kapcsolatos észrevételeit 5 munkanapon belül megküldi a BV GEI BO részére."
+    },
+    {
+      "provision_ref": "s137",
+      "section": "137",
+      "title": "137",
+      "content": "70. Nettó 10 millió Ft feletti becsült értékű szerződés esetén a bizottság jogi szakértelemmel rendelkező tagja a szerződéstervezetet megküldi a BVOP Belső Ellenőrzési Főosztálya (a továbbiakban: BVOP BEF) részére annak tanácsadás keretében történő véleményezése céljából, a szolgálati út betartásával, az RZS rendszeren keresztül."
+    },
+    {
+      "provision_ref": "s138",
+      "section": "138",
+      "title": "138",
+      "content": "71. A BVOP BEF a szerződéstervezettel kapcsolatos észrevételeit 5 munkanapon belül megküldi a BV GEI BO részére a szolgálati út betartásával, az RZS rendszeren keresztül. A szerződéstervezet ellenőrzése során figyelembe kell venni, hogy a közbeszerzési eljárás lefolytatását követően a szerződéstervezetben foglalt feltételekkel kell a szerződést megkötni, abban az eljárás lezárását követően módosításra nincs lehetőség."
+    },
+    {
+      "provision_ref": "s139",
+      "section": "139",
+      "title": "139",
+      "content": "72. A szerződéstervezet véglegesítése a BVOP JAFO és a BVOP BEF észrevételeinek figyelembevételével történik meg."
+    },
+    {
+      "provision_ref": "s140",
+      "section": "140",
+      "title": "140",
+      "content": "73. A beszerzési eljárás dokumentumainak véglegesítését követően az ügyintéző jegyzőkönyvet készít a végleges beszerzési dokumentumok bizottsági tagok általi jóváhagyásáról, majd előterjesztést készít az OPGIH részére."
+    },
+    {
+      "provision_ref": "s141",
+      "section": "141",
+      "title": "141",
+      "content": "74. Az előterjesztést a beszerzési eljárást megindító dokumentumokkal egyidejűleg a BV GEI megküldi az OPGIH részére jóváhagyásra."
+    },
+    {
+      "provision_ref": "s142",
+      "section": "142",
+      "title": "142",
+      "content": "75. A 73. pont szerinti jóváhagyást követően a BV GEI BO a hivatalos ajánlatkérést megküldi legalább 3 gazdasági szereplő részére."
+    },
+    {
+      "provision_ref": "s143",
+      "section": "143",
+      "title": "143",
+      "content": "76. Nem szükséges 3 ajánlat bekérése az alábbi esetekben:"
+    },
+    {
+      "provision_ref": "s144",
+      "section": "144",
+      "title": "144",
+      "content": "a) a szerződés műszaki-technikai sajátosságok vagy kizárólagos jogok védelme miatt kizárólag egy meghatározott gazdasági szereplővel köthető meg, feltéve, hogy a verseny hiánya nem annak a következménye, hogy a közbeszerzés tárgyát a versenyt indokolatlanul szűkítő módon határozták meg,"
+    },
+    {
+      "provision_ref": "s145",
+      "section": "145",
+      "title": "145",
+      "content": "b) jogszabályon alapuló kizárólagosság – kizárólagosság fennállása esetén a kizárólagosság igazolása,"
+    },
+    {
+      "provision_ref": "s146",
+      "section": "146",
+      "title": "146",
+      "content": "c) a szerződés célja egyedi művészeti alkotás vagy művészi előadás létrehozása vagy az ajánlatkérő általi megszerzése,"
+    },
+    {
+      "provision_ref": "s147",
+      "section": "147",
+      "title": "147",
+      "content": "d) a Ptk. 6:272. §-a szerinti megbízási szerződést eredményező beszerzés,"
+    },
+    {
+      "provision_ref": "s148",
+      "section": "148",
+      "title": "148",
+      "content": "e) szoftver, elektronikus jogtár, elektronikus cégtár beszerzése,"
+    },
+    {
+      "provision_ref": "s149",
+      "section": "149",
+      "title": "149",
+      "content": "f) egészségügyi tevékenység végzésére irányuló közreműködői vagy megbízási szerződés esetén,"
+    },
+    {
+      "provision_ref": "s150",
+      "section": "150",
+      "title": "150",
+      "content": "g) a beszerzés kivételesen kedvező feltételei csak rövid ideig állnak fenn, és az ellenszolgáltatás a piaci árakhoz képest lényegesen alacsonyabb, továbbá e kedvező feltételek igénybevétele jelen fejezet szerinti szabályok alkalmazása esetén meghiúsulna,"
+    },
+    {
+      "provision_ref": "s151",
+      "section": "151",
+      "title": "151",
+      "content": "h) a szerződés tárgya közüzemi szolgáltatások vagy internetszolgáltatás megrendelése,"
+    },
+    {
+      "provision_ref": "s152",
+      "section": "152",
+      "title": "152",
+      "content": "i) az ajánlatkérő piackutatás eredményeképpen igazolható módon meggyőződött arról, hogy az adott piacon háromnál kevesebb gazdasági szereplő lelhető fel, így potenciális versenyhelyzet nincs az adott beszerzési tárgy tekintetében,"
+    },
+    {
+      "provision_ref": "s153",
+      "section": "153",
+      "title": "153",
+      "content": "j) a szerződés tárgya egyedi gyártású áru beszerzése, feltéve, hogy az áru egyediségét a gyártó igazolja,"
+    },
+    {
+      "provision_ref": "s154",
+      "section": "154",
+      "title": "154",
+      "content": "k) a beszerzés tanfolyamra, képzésre, belföldi konferenciára történő jelentkezéssel kapcsolatos,"
+    },
+    {
+      "provision_ref": "s155",
+      "section": "155",
+      "title": "155",
+      "content": "l) a szerződést külföldön kell megkötni vagy teljesíteni,"
+    },
+    {
+      "provision_ref": "s156",
+      "section": "156",
+      "title": "156",
+      "content": "m) az ajánlatkérő által előre nem látható okból előállt rendkívüli sürgősségű beszerzés esetén,"
+    },
+    {
+      "provision_ref": "s157",
+      "section": "157",
+      "title": "157",
+      "content": "n) az ajánlatkérő eltekinthet attól, hogy a szerződést a három ajánlatot benyújtó gazdasági szereplő valamelyikével kösse meg, ha a benyújtott árajánlatok magasabbak az interneten elérhető és összehasonlítható módon kiválasztható alacsonyabb vételárú, az ajánlatkérés tárgyával megegyező árunál vagy szolgáltatásnál. Ebben az esetben az ajánlatkérő az interneten történt összehasonlító vizsgálat eredményét dokumentálja, a szerződést pedig az interneten történt összehasonlító vizsgálat eredményeként alacsonyabb árat ajánló gazdasági szereplővel köti meg,"
+    },
+    {
+      "provision_ref": "s158",
+      "section": "158",
+      "title": "158",
+      "content": "o) a beszerzés közfoglalkoztatási program keretében történik,"
+    },
+    {
+      "provision_ref": "s159",
+      "section": "159",
+      "title": "159",
+      "content": "p) a szerződés tárgya személyhez kötött, bizalmi jellegű szolgáltatás teljesítése,"
+    },
+    {
+      "provision_ref": "s160",
+      "section": "160",
+      "title": "160",
+      "content": "q) a szerződés tárgya állami vezetők hivatali tevékenységéhez kapcsolódó, bizalmi jellegű szolgáltatások beszerzése (különösen beszédíró, fotós, személyi kommunikációs tanácsadó, személyi tolmácsolás),"
+    },
+    {
+      "provision_ref": "s161",
+      "section": "161",
+      "title": "161",
+      "content": "r) a szerződés tárgya veszélyes hulladék megsemmisítése."
+    },
+    {
+      "provision_ref": "s162",
+      "section": "162",
+      "title": "162",
+      "content": "77. A 76. pont szerinti esetben, amennyiben a kiválasztott gazdasági szereplőtől származó érvényes ajánlat áll rendelkezésre, az ajánlattevő részére csak a szerződéstervezetet vagy megrendeléstervezetet kell megküldeni, és be kell szerezni az ajánlattevő nyilatkozatát az abban, valamint a 86. pontban foglaltak elfogadásáról. Ezen dokumentumok rendelkezésre állása esetén a kötelezettségvállalásra (megrendelés vagy szerződés) sor kerülhet."
+    },
+    {
+      "provision_ref": "s163",
+      "section": "163",
+      "title": "163",
+      "content": "78. Nem fogadható el ajánlat olyan gazdasági szereplőtől,"
+    },
+    {
+      "provision_ref": "s164",
+      "section": "164",
+      "title": "164",
+      "content": "a) akinek lejárt köztartozása van,"
+    },
+    {
+      "provision_ref": "s165",
+      "section": "165",
+      "title": "165",
+      "content": "b) aki nem rendelkezik rendezett munkaügyi kapcsolatokkal,"
+    },
+    {
+      "provision_ref": "s166",
+      "section": "166",
+      "title": "166",
+      "content": "c) aki gazdasági, vagy szakmai tevékenységével kapcsolatban bűncselekményt követett el, és a bűncselekmény elkövetése jogerős bírósági ítéletben megállapítást nyert, vagy akinek a tevékenységét a büntetőjogi intézkedésekről szóló törvény alapján a bíróság jogerősen korlátozta mindaddig, amíg a hátrányok alól nem mentesült,"
+    },
+    {
+      "provision_ref": "s167",
+      "section": "167",
+      "title": "167",
+      "content": "d) azon gazdasági szereplőnek, akinek a tevékenységét felfüggesztették, vagy végelszámolás, csődeljárás, felszámolás alatt áll,"
+    },
+    {
+      "provision_ref": "s168",
+      "section": "168",
+      "title": "168",
+      "content": "e) aki nem minősül átlátható szervezetnek,"
+    },
+    {
+      "provision_ref": "s169",
+      "section": "169",
+      "title": "169",
+      "content": "f) aki az ajánlatkérésben előírt adatszolgáltatási kötelezettség teljesítése során a valóságnak nem megfelelő adatot szolgáltat (hamis adat), valamint hamis adatot tartalmazó nyilatkozatot tesz."
+    },
+    {
+      "provision_ref": "s170",
+      "section": "170",
+      "title": "170",
+      "content": "79. A 78. pont szerinti kizáró tényezők ellenőrzése történhet előzetesen nyilvános adatbázisokban fellelhető adatok vagy az ajánlatkérés során az ajánlattevő által benyújtott nyilatkozat alapján."
+    },
+    {
+      "provision_ref": "s171",
+      "section": "171",
+      "title": "171",
+      "content": "80. Az ajánlatkérés tartalmát úgy kell meghatározni, hogy annak alapján a gazdasági szereplők megfelelő ajánlatot tehessenek, és az ajánlatok összehasonlíthatóak legyenek."
+    },
+    {
+      "provision_ref": "s172",
+      "section": "172",
+      "title": "172",
+      "content": "81. Az ajánlat benyújtási határidejét úgy kell megállapítani, hogy az ajánlattevők egyenlő eséllyel tudjanak ajánlatot tenni, és – tekintettel a szerződés tárgyára, a benyújtandó ajánlatok összetettségére, a benyújtandó dokumentumok körére – elegendő idő álljon rendelkezésre az ajánlat összeállításához és benyújtásához."
+    },
+    {
+      "provision_ref": "s173",
+      "section": "173",
+      "title": "173",
+      "content": "82. Az ajánlatok összehasonlítására alkalmazandó értékelési szempontok meghatározása során objektív szempontokat kell alkalmazni (a Kbt. értékelési szempontokra vonatkozó rendelkezéseit mintaként véve)."
+    },
+    {
+      "provision_ref": "s174",
+      "section": "174",
+      "title": "174",
+      "content": "83. Értékelési szempontként alkalmazhatóak:"
+    },
+    {
+      "provision_ref": "s175",
+      "section": "175",
+      "title": "175",
+      "content": "a) a legalacsonyabb ár,"
+    },
+    {
+      "provision_ref": "s176",
+      "section": "176",
+      "title": "176",
+      "content": "b) a legalacsonyabb költség, amelyet az ajánlatkérő által meghatározott költséghatékonysági módszer alkalmazásával kell kiszámítani, vagy"
+    },
+    {
+      "provision_ref": "s177",
+      "section": "177",
+      "title": "177",
+      "content": "c) a legjobb ár-érték arányt megjelenítő olyan – különösen minőségi, környezetvédelmi, szociális – szempontok, amelyek között az ár vagy költség is szerepel."
+    },
+    {
+      "provision_ref": "s178",
+      "section": "178",
+      "title": "178",
+      "content": "84. Az ajánlatkérésnek legalább az alábbiakat kell tartalmaznia:"
+    },
+    {
+      "provision_ref": "s179",
+      "section": "179",
+      "title": "179",
+      "content": "a) az ajánlatkérő nevét, székhelyét, adószámát, telefonszámát, e-mail-címét,"
+    },
+    {
+      "provision_ref": "s180",
+      "section": "180",
+      "title": "180",
+      "content": "b) a beszerzés tárgyának pontos meghatározását, főbb adatait, mennyiségét, a beszerzés tárgyára vonatkozó műszaki leírást,"
+    },
+    {
+      "provision_ref": "s181",
+      "section": "181",
+      "title": "181",
+      "content": "c) az ajánlat benyújtásának határidejét (a továbbiakban: ajánlattételi határidő),"
+    },
+    {
+      "provision_ref": "s182",
+      "section": "182",
+      "title": "182",
+      "content": "d) az ajánlat benyújtásának helyét, módját, nyelvét, példányszámát, az ajánlattevő által benyújtandó dokumentumok körét és a szükséges mellékleteket,"
+    },
+    {
+      "provision_ref": "s183",
+      "section": "183",
+      "title": "183",
+      "content": "e) az ajánlatok bírálatának szempontjait, módszerét,"
+    },
+    {
+      "provision_ref": "s184",
+      "section": "184",
+      "title": "184",
+      "content": "f) a teljesítés helyét, határidejét, ütemezését, feltételeit,"
+    },
+    {
+      "provision_ref": "s185",
+      "section": "185",
+      "title": "185",
+      "content": "g) tájékoztatást arról, hogy az ajánlatkérő kiköti azt a jogot, hogy az eljárást eredménytelenné nyilváníthatja, és a szerződéskötést megtagadhatja,"
+    },
+    {
+      "provision_ref": "s186",
+      "section": "186",
+      "title": "186",
+      "content": "h) tájékoztatást arról, hogy a nyertes ajánlattevő – figyelemmel az államháztartásról szóló 2011. évi CXCV. törvény 41. § (6) bekezdésében foglaltakra – a nemzeti vagyonról szóló 2011. évi CXCVI. törvény átlátható szervezet fogalmára vonatkozó feltételeknek való megfelelőség igazolására átláthatósági nyilatkozatot köteles benyújtani legkésőbb a szerződéskötésig, melynek elmaradása a szerződéskötéstől való visszalépésének minősül,"
+    },
+    {
+      "provision_ref": "s187",
+      "section": "187",
+      "title": "187",
+      "content": "i) tájékoztatást arról, hogy a nyertes ajánlattevő visszalépése esetén az ajánlatkérő a következő legkedvezőbb érvényes ajánlatot benyújtó ajánlattevővel szerződést köthet."
+    },
+    {
+      "provision_ref": "s188",
+      "section": "188",
+      "title": "188",
+      "content": "85. Az ajánlatkérés mellékletét képezi a szerződéstervezet, a részletes műszaki leírás, az átláthatósági nyilatkozat, nyilatkozat szerződés elfogadásáról, illetve az ajánlattételi adatlap."
+    },
+    {
+      "provision_ref": "s189",
+      "section": "189",
+      "title": "189",
+      "content": "86. Az ajánlattételi adatlapnak tartalmaznia kell az ajánlattevő által aláírandó nyilatkozatot arról, hogy"
+    },
+    {
+      "provision_ref": "s190",
+      "section": "190",
+      "title": "190",
+      "content": "a) az ajánlati ár tartalmazza az ajánlatkérésnek megfelelő teljesítéssel felmerülő minden költséget – árubeszerzés esetén beleértve a termékek teljesítési helyre történő szállítását is –, és azonfelül egyéb költségek nem kerülnek felszámításra,"
+    },
+    {
+      "provision_ref": "s191",
+      "section": "191",
+      "title": "191",
+      "content": "b) az ajánlattevő az ajánlatkérésben és annak mellékleteiben foglaltakat elfogadja,"
+    },
+    {
+      "provision_ref": "s192",
+      "section": "192",
+      "title": "192",
+      "content": "c) az ajánlattevő a beszerzési eljárás során tudomására jutott információkat, adatokat és tényeket sem az eljárás befejezése előtt, sem azt követően harmadik személy tudomására nem hozza,"
+    },
+    {
+      "provision_ref": "s193",
+      "section": "193",
+      "title": "193",
+      "content": "d) az ajánlattevő az ajánlatkérésben szereplő szerződéstervezetet elfogadja,"
+    },
+    {
+      "provision_ref": "s194",
+      "section": "194",
+      "title": "194",
+      "content": "e) az ajánlatkérővel szemben nincs fennálló, lejárt határidejű tartozása,"
+    },
+    {
+      "provision_ref": "s195",
+      "section": "195",
+      "title": "195",
+      "content": "f) az eljárást megindító felhívás megküldésétől visszafelé számítva 60 napnál régebben lejárt esedékességű köztartozása nincsen,"
+    },
+    {
+      "provision_ref": "s196",
+      "section": "196",
+      "title": "196",
+      "content": "g) a megajánlott áru vagy szolgáltatás mindenben megfelel az ajánlatkérésben előírtaknak,"
+    },
+    {
+      "provision_ref": "s197",
+      "section": "197",
+      "title": "197",
+      "content": "h) építési beruházás esetén az ajánlattevő igénybe kíván-e venni alvállalkozót, amennyiben igen, akkor kit, és a teljesítés mely részéhez kívánja igénybe venni, alvállalkozó nevével, székhelyével feltüntetve."
+    },
+    {
+      "provision_ref": "s198",
+      "section": "198",
+      "title": "198",
+      "content": "87. Az ajánlatkérésben meghatározott feltételek az ajánlat benyújtására előírt határidő lejártáig módosíthatóak. A módosított feltételekről az eredeti benyújtási határidő lejárta előtt egyidejűleg, közvetlenül tájékoztatni kell az ajánlattételre felhívott gazdasági szereplőket. Az ajánlattételi határidő nem rövidíthető le, azonban adott esetben hosszabbítható."
+    },
+    {
+      "provision_ref": "s199",
+      "section": "199",
+      "title": "199",
+      "content": "88. Az ajánlatkérést az ajánlattételi határidő lejártáig az ajánlattételre felhívott gazdasági szereplők egyidejűleg történő, közvetlen tájékoztatásával, indokolás nélkül vissza lehet vonni."
+    },
+    {
+      "provision_ref": "s200",
+      "section": "200",
+      "title": "200",
+      "content": "89. Bármely gazdasági szereplő, akit az adott beszerzési eljárásban ajánlattételre felhívtak, írásban kiegészítő tájékoztatást kérhet. A kiegészítő tájékoztatást a kérés beérkezését követően észszerű határidőn belül kell megadni."
+    },
+    {
+      "provision_ref": "s201",
+      "section": "201",
+      "title": "201",
+      "content": "90. Az ajánlatkérő köteles az összes ajánlattevő és részvételre jelentkező számára azonos feltételekkel biztosítani a hiánypótlás lehetőségét, valamint az ajánlatban vagy részvételi jelentkezésben található, nem egyértelmű kijelentés, nyilatkozat, igazolás tartalmának tisztázása érdekében az ajánlattevőtől vagy részvételre jelentkezőtől felvilágosítást kérni."
+    },
+    {
+      "provision_ref": "s202",
+      "section": "202",
+      "title": "202",
+      "content": "91. A hiánypótlásra vagy a felvilágosítás nyújtására vonatkozó felszólítást az ajánlatkérő a többi ajánlattevő vagy részvételre jelentkező egyidejű értesítése mellett közvetlenül köteles az ajánlattevő, valamint részvételre jelentkező részére megküldeni, megjelölve a határidőt, továbbá a hiánypótlási felhívásban a pótlandó hiányokat."
+    },
+    {
+      "provision_ref": "s203",
+      "section": "203",
+      "title": "203",
+      "content": "92. Ha a hiánypótlást, a felvilágosítás megadását nem, vagy nem az előírt határidőben teljesítették, kizárólag az eredeti ajánlatot lehet figyelembe venni az elbírálás során."
+    },
+    {
+      "provision_ref": "s204",
+      "section": "204",
+      "title": "204",
+      "content": "93. A szerződéstervezetben való módosítás csak az ajánlattételi határidő lejártáig lehetséges, azzal, hogy minden ajánlattételre felhívott gazdasági szereplő részére a módosított tervezetet a BV GEI BO köteles megküldeni."
+    },
+    {
+      "provision_ref": "s205",
+      "section": "205",
+      "title": "205",
+      "content": "94. Az ajánlatot az ajánlatkérésben foglaltak szerint"
+    },
+    {
+      "provision_ref": "s206",
+      "section": "206",
+      "title": "206",
+      "content": "a) személyesen vagy postai úton az ajánlatkérésben meghatározott példányban, írásban, zárt borítékban kell benyújtani az ajánlatkérésben megjelölt címre, vagy"
+    },
+    {
+      "provision_ref": "s207",
+      "section": "207",
+      "title": "207",
+      "content": "b) az ajánlatkérésben meghatározott e-mail-címre kell megküldeni PDF-formátumban."
+    },
+    {
+      "provision_ref": "s208",
+      "section": "208",
+      "title": "208",
+      "content": "95. Az ajánlatok bontása, bírálata az ajánlattételi határidő lejártát követően kezdhető meg."
+    },
+    {
+      "provision_ref": "s209",
+      "section": "209",
+      "title": "209",
+      "content": "96. A beérkezett ajánlatokat a bizottság az ajánlattételi határidő lejártát követően megvizsgálja. Az ajánlatok elbírálása során meg kell vizsgálni, hogy az ajánlatok megfelelnek-e az ajánlatkérésben és a műszaki leírásban meghatározott feltételeknek."
+    },
+    {
+      "provision_ref": "s210",
+      "section": "210",
+      "title": "210",
+      "content": "97. Ha az ajánlatban az értékelésre kiható számítási hiba van, annak javítását az ajánlatkérő végzi el úgy, hogy a beszerzés tárgya elemeinek tételesen meghatározott értékeit mint alapadatokat alapul véve kell kiszámítani az összesített ellenértéket vagy más, az ajánlatban megtalálható számításon alapuló adatot. A számítási hiba javításáról az ajánlattevőt közvetlenül, írásban, haladéktalanul tájékoztatni kell."
+    },
+    {
+      "provision_ref": "s211",
+      "section": "211",
+      "title": "211",
+      "content": "98. Az ajánlatkérésben és a műszaki leírásban meghatározott feltételeknek megfelelő ajánlatokat kell az ajánlatkérésben meghatározott értékelési szempont szerint értékelni."
+    },
+    {
+      "provision_ref": "s212",
+      "section": "212",
+      "title": "212",
+      "content": "99. Amennyiben nem érkezik be három ajánlat, úgy a beérkezett ajánlat, ajánlatok alapján lehet dönteni."
+    },
+    {
+      "provision_ref": "s213",
+      "section": "213",
+      "title": "213",
+      "content": "100. Érvénytelen az ajánlat, amennyiben"
+    },
+    {
+      "provision_ref": "s214",
+      "section": "214",
+      "title": "214",
+      "content": "a) az ajánlattevő a benyújtási határidő lejártát követően nyújtja be ajánlatát,"
+    },
+    {
+      "provision_ref": "s215",
+      "section": "215",
+      "title": "215",
+      "content": "b) az ajánlatban meghatározott ellenszolgáltatás mértéke eléri az adott beszerzésre vonatkozó közbeszerzési értékhatárt,"
+    },
+    {
+      "provision_ref": "s216",
+      "section": "216",
+      "title": "216",
+      "content": "c) az ajánlat aránytalanul alacsony ellenszolgáltatást vagy más, teljesíthetetlen feltételt tartalmaz,"
+    },
+    {
+      "provision_ref": "s217",
+      "section": "217",
+      "title": "217",
+      "content": "d) az ajánlat nem felel meg az ajánlatkérésben meghatározott feltételeknek, ide nem értve a BVOP által előírt formai követelményeket,"
+    },
+    {
+      "provision_ref": "s218",
+      "section": "218",
+      "title": "218",
+      "content": "e) az ajánlattevőt az eljárásból kizárták,"
+    },
+    {
+      "provision_ref": "s219",
+      "section": "219",
+      "title": "219",
+      "content": "f) az ajánlattevő felszámolás, végelszámolás vagy más, – a vállalkozás jogi formájára irányadó jogszabályok szerinti – megszüntetésre irányuló eljárás alatt áll,"
+    },
+    {
+      "provision_ref": "s220",
+      "section": "220",
+      "title": "220",
+      "content": "g) az ajánlattevőnek 60 napnál régebbi, a 78. pont a) alpontja szerinti lejárt köztartozása áll fenn."
+    },
+    {
+      "provision_ref": "s221",
+      "section": "221",
+      "title": "221",
+      "content": "101. Az ajánlatok érvényességének/érvénytelenségének megállapítása, valamint az ajánlatok értékelési szempont szerinti értékelése, összehasonlítása, továbbá ezek alapján az ajánlatokra vonatkozó szakvélemény és döntési javaslat elkészítése a döntéshozó részére a BV GEI BO feladata."
+    },
+    {
+      "provision_ref": "s222",
+      "section": "222",
+      "title": "222",
+      "content": "102. Amennyiben a beszerzési eljárásban csak egyetlen ajánlatot nyújtottak be, továbbá az ajánlattevő az ajánlatkéréssel egyidejűleg megküldött szerződéstervezet módosítását kezdeményezi, és az ajánlatkérő a módosítási javaslattal vagy annak egy részével egyetért, akkor az ajánlattevő ajánlatát úgy kell tekinteni, mint amely megfelel az ajánlatkérésben meghatározott feltételeknek. Ebben az esetben a szerződést a módosításnak megfelelően meg lehet kötni."
+    },
+    {
+      "provision_ref": "s223",
+      "section": "223",
+      "title": "223",
+      "content": "103. Eredménytelen a beszerzési eljárás, ha"
+    },
+    {
+      "provision_ref": "s224",
+      "section": "224",
+      "title": "224",
+      "content": "a) nem nyújtottak be ajánlatot,"
+    },
+    {
+      "provision_ref": "s225",
+      "section": "225",
+      "title": "225",
+      "content": "b) kizárólag érvénytelen ajánlatokat nyújtottak be,"
+    },
+    {
+      "provision_ref": "s226",
+      "section": "226",
+      "title": "226",
+      "content": "c) egyik ajánlattevő sem vagy az összességében legelőnyösebb ajánlatot benyújtó sem nyújtott be – az ajánlatkérő rendelkezésére álló anyagi fedezet mértékére tekintettel – megfelelő ajánlatot,"
+    },
+    {
+      "provision_ref": "s227",
+      "section": "227",
+      "title": "227",
+      "content": "d) valamelyik ajánlattevő az eljárás tisztaságát vagy a többi ajánlattevő érdekeit súlyosan sértő cselekményt követ el,"
+    },
+    {
+      "provision_ref": "s228",
+      "section": "228",
+      "title": "228",
+      "content": "e) az ajánlatkérő az eljárás eredménytelenné nyilvánításáról dönt."
+    },
+    {
+      "provision_ref": "s229",
+      "section": "229",
+      "title": "229",
+      "content": "104. A beszerzési eljárás nyertese az az ajánlatevő, aki az eljárást megindító felhívásban meghatározott értékelési szempont szerint a legkedvezőbb érvényes ajánlatot tette. A nyertes ajánlattevő írásbeli visszalépése esetén a következő legkedvezőbb ajánlatot tevő ajánlattevővel köthető meg a szerződés."
+    },
+    {
+      "provision_ref": "s230",
+      "section": "230",
+      "title": "230",
+      "content": "105. Az ajánlatok bírálatáról az ügyintéző döntési javaslatot is tartalmazó jegyzőkönyvet készít, amelyet a nyertes ajánlattevő személyére vonatkozó javaslatával terjeszt az OPGIH elé jóváhagyásra. A jegyzőkönyvet legalább 3 bizottsági tag, köztük a kezdeményező képviselője, a BV GEI BO vezetője, illetve a BV GEI BO ezen eljárás ügyintézője írja alá."
+    },
+    {
+      "provision_ref": "s231",
+      "section": "231",
+      "title": "231",
+      "content": "106. A beszerzési eljárást lezáró döntés meghozatalára az OPGIH jogosult. Nettó 10 millió Ft-ot elérő értékű nyertes ajánlat esetén az eljárást lezáró döntés meghozatala előtt a BV GEI-nek a BVOP BEF-től meg kell kérni a kötelezettségvállalási szabályzat szerinti támogató záradékot."
+    },
+    {
+      "provision_ref": "s232",
+      "section": "232",
+      "title": "232",
+      "content": "107. A BV GEI BO-nak szükséges megküldenie azon gazdasági szereplők adatait, akikkel szerződést kívánnak kötni a BVOP által meghatározott értékhatárt elérő beszerzések esetében, az eljárás megindítása előtt legalább 6 héttel."
+    },
+    {
+      "provision_ref": "s233",
+      "section": "233",
+      "title": "233",
+      "content": "108. Az ajánlatkérő eltekinthet attól, hogy a szerződést a három ajánlatot benyújtó gazdasági szereplő valamelyikével kösse meg, ha a benyújtott árajánlatok magasabbak az interneten elérhető és összehasonlítható módon kiválasztható, alacsonyabb vételárú, az ajánlatkérés tárgyával megegyező árunál vagy szolgáltatásnál. Ebben az esetben az ügyintéző az interneten történt összehasonlító vizsgálat eredményét a döntési javaslatot tartalmazó jegyzőkönyvben dokumentálja, a szerződéskötésre pedig az interneten történt összehasonlító vizsgálat eredményeként legalacsonyabb árat ajánló gazdasági szereplővel kerülhet sor."
+    },
+    {
+      "provision_ref": "s234",
+      "section": "234",
+      "title": "234",
+      "content": "109. Az ügyintéző valamennyi ajánlattevőt tájékoztatja az eljárás rá vonatkozó eredményéről vagy annak eredménytelenné nyilvánításáról, ajánlatának érvénytelenné nyilvánításáról, kizárásáról, valamint ezek részletes indokáról, az erről hozott döntést követően a lehető leghamarabb, de legkésőbb öt munkanapon belül. 2. Szerződéskötés"
+    },
+    {
+      "provision_ref": "s235",
+      "section": "235",
+      "title": "235",
+      "content": "110. Az eljárás eredményének jóváhagyása esetén a BV GEI BO a nyertes ajánlat adatai alapján véglegesíti a szerződéstervezetet. A szerződésnek tartalmaznia kell a nyertes ajánlat azon elemeit, amelyek értékelésre kerültek."
+    },
+    {
+      "provision_ref": "s236",
+      "section": "236",
+      "title": "236",
+      "content": "111. A nyertes ajánlattevő visszalépése esetén az ajánlatok értékelése során a következő legkedvezőbb ajánlatot tevőnek minősített ajánlattevővel kell a szerződést megkötni, ha őt az ajánlatok elbírálásáról szóló írásbeli döntés megjelölte."
+    },
+    {
+      "provision_ref": "s237",
+      "section": "237",
+      "title": "237",
+      "content": "112. A szerződés mindkét fél általi aláíratásáról a BV GEI gondoskodik."
+    },
+    {
+      "provision_ref": "s238",
+      "section": "238",
+      "title": "238",
+      "content": "113. A szerződés aláírását követően a szerződés egyes példányainak – akár elektronikusan, akár fizikailag aláírt példányokról legyen szó – érintettek részére történő megküldéséről a BV GEI gondoskodik."
+    },
+    {
+      "provision_ref": "s239",
+      "section": "239",
+      "title": "239",
+      "content": "114. A szerződés aláírását követően 5 napon belül a BV GEI köteles megküldeni a kezdeményező szervezeti egység részére, aki köteles 5 napon belül a szerződés adatait, illetve a szkennelt szerződést a szerződés-nyilvántartó programban rögzíteni. 3. Az eljárás dokumentálása"
+    },
+    {
+      "provision_ref": "s240",
+      "section": "240",
+      "title": "240",
+      "content": "115. A beszerzési eljárások cselekményeit azok előkészítésétől a beszerzési eljárás eredményeként létrejött szerződés teljesítéséig dokumentálni kell. A beszerzési eljárást alátámasztó alapdokumentumok különösen, amelyeket a beszerzési eljárás iratanyagába kell iktatni:"
+    },
+    {
+      "provision_ref": "s241",
+      "section": "241",
+      "title": "241",
+      "content": "a) a kezdeményező irat,"
+    },
+    {
+      "provision_ref": "s242",
+      "section": "242",
+      "title": "242",
+      "content": "b) a műszaki leírás,"
+    },
+    {
+      "provision_ref": "s243",
+      "section": "243",
+      "title": "243",
+      "content": "c) a fedezetigazolás,"
+    },
+    {
+      "provision_ref": "s244",
+      "section": "244",
+      "title": "244",
+      "content": "d) az eljárás megindítására vonatkozó előterjesztés,"
+    },
+    {
+      "provision_ref": "s245",
+      "section": "245",
+      "title": "245",
+      "content": "e) az ajánlatkérés,"
+    },
+    {
+      "provision_ref": "s246",
+      "section": "246",
+      "title": "246",
+      "content": "f) az ajánlattevők által benyújtott ajánlatok,"
+    },
+    {
+      "provision_ref": "s247",
+      "section": "247",
+      "title": "247",
+      "content": "g) értékelési jegyzőkönyv, döntés,"
+    },
+    {
+      "provision_ref": "s248",
+      "section": "248",
+      "title": "248",
+      "content": "h) az aláírt szerződés. 4. A szerződés módosítása, megszüntetése"
+    },
+    {
+      "provision_ref": "s249",
+      "section": "249",
+      "title": "249",
+      "content": "116. Amennyiben a megkötött szerződést a felek módosítani kívánják, közös megegyezéssel meg kívánják szüntetni vagy fel kívánják bontani, a jelen fejezetben foglaltak szerint kell eljárni."
+    },
+    {
+      "provision_ref": "s250",
+      "section": "250",
+      "title": "250",
+      "content": "117. A beszerzési eljárás eredményeként megkötött szerződés nem módosítható, ha"
+    },
+    {
+      "provision_ref": "s251",
+      "section": "251",
+      "title": "251",
+      "content": "a) a módosítás olyan feltételeket határoz meg, amelyek ha szerepeltek volna a szerződéskötést megelőző beszerzési eljárásban, a nyertes ajánlat helyett másik ajánlat nyertességét lehetővé tették volna,"
+    },
+    {
+      "provision_ref": "s252",
+      "section": "252",
+      "title": "252",
+      "content": "b) a módosítás a szerződés gazdasági egyensúlyát a nyertes ajánlattevő javára változtatja meg vagy"
+    },
+    {
+      "provision_ref": "s253",
+      "section": "253",
+      "title": "253",
+      "content": "c) a módosítás a szerződés tárgyától, illetve rendeltetésétől független, az eredeti szerződésben foglalt ajánlattevői kötelezettséghez képest új elemre terjeszti ki,"
+    },
+    {
+      "provision_ref": "s254",
+      "section": "254",
+      "title": "254",
+      "content": "d) a módosítás esetén a szerződés értéke elérné a beszerzés tárgyára vonatkozó nemzeti közbeszerzési értékhatárt."
+    },
+    {
+      "provision_ref": "s255",
+      "section": "255",
+      "title": "255",
+      "content": "118. Amennyiben a kezdeményező a szerződést módosítani kívánja, a szerződés módosítására vonatkozó kezdeményezést készít az OPGIH részére, melynek kötelező tartalmi elemei:"
+    },
+    {
+      "provision_ref": "s256",
+      "section": "256",
+      "title": "256",
+      "content": "a) a módosítani kívánt szerződés tárgya, RZS száma,"
+    },
+    {
+      "provision_ref": "s257",
+      "section": "257",
+      "title": "257",
+      "content": "b) a módosítandó rendelkezések megjelölése,"
+    },
+    {
+      "provision_ref": "s258",
+      "section": "258",
+      "title": "258",
+      "content": "c) a módosítás indokolása,"
+    },
+    {
+      "provision_ref": "s259",
+      "section": "259",
+      "title": "259",
+      "content": "d) a szerződésben foglalt érték változása esetén a megváltozott nettó értéke."
+    },
+    {
+      "provision_ref": "s260",
+      "section": "260",
+      "title": "260",
+      "content": "119. Amennyiben a szerződés módosítható, a módosítást a BV GEI BO hajtja végre, a szerződéskötésre vonatkozó rendelkezések megfelelő alkalmazásával."
+    },
+    {
+      "provision_ref": "s261",
+      "section": "261",
+      "title": "261",
+      "content": "120. Amennyiben a kezdeményező a szerződést fel akarja mondani, vagy attól el akar állni, a megfelelő jogi megoldás kiválasztása és a szükséges dokumentáció elkészítése érdekében a BVOP Hivatal közreműködését kell kérni. Az elkészített jognyilatkozat tervezetét a BVOP Hivatal – jogi szignálást követően – megküldi a kezdeményezőnek, aki a szakmai szignálást követően a dokumentumokat a kötelezettségvállalónak aláírásra megküldi. A kezdeményező a szignált és aláírt jognyilatkozat, továbbá a szerződő fél általi átvétel időpontját igazoló irat egy-egy példányát két munkanapon belül a BVOP KGFO-nak és a BV GEI-nek megküldi."
+    },
+    {
+      "provision_ref": "s262",
+      "section": "262",
+      "title": "262",
+      "content": "121. Ha a megkötött szerződést a szerződött partner mondja fel, a kezdeményező erről a felmondás megküldésével a BVOP KGFO-t és a BV GEI-t két munkanapon belül értesíti."
+    },
+    {
+      "provision_ref": "s263",
+      "section": "263",
+      "title": "263",
+      "content": "122. A BV GEI BO köteles folyamatosan figyelemmel kísérni a szerződés (megrendelés) teljesítését, és a felek együttműködési kötelezettsége keretében minden tőle elvárhatót megtenni a megfelelő mennyiségben és minőségben történő teljesítés biztosítása érdekében. Ha felmerül a veszélye, hogy határidőben és/vagy megfelelő mennyiségben, minőségben a szerződött gazdasági szereplő fél neki felróható okból nem teljesít, kezdeményezni kell a szerződött gazdasági szereplő képviselőjével történő mielőbbi egyeztetést, és a szerződést biztosító mellékkötelezettségek érvényesítésére írásban fel kell hívni a figyelmét."
+    },
+    {
+      "provision_ref": "s264",
+      "section": "264",
+      "title": "264",
+      "content": "123. Amennyiben a beszerzés során keretszerződés megkötésére került sor, a BV GEI BO köteles az adott keretszerződés keretösszegének rendelkezésre állását, illetve a szerződés hatályosságát a keretszerződésből történő beszerzés előtt ellenőrizni."
+    },
+    {
+      "provision_ref": "s265",
+      "section": "265",
+      "title": "265",
+      "content": "124. A szerződött gazdasági szereplő – szerződéses mellékkötelezettségekre kiható – akadályközlése esetén értesíteni kell a BV GEI-t. A BV GEI felhívja a gazdasági szereplőt a részletes indokok közlésére, majd előterjesztésben javaslatot tesz az OPGIH részére annak elfogadásáról vagy elutasításáról. Az akadályközlés elfogadásáról vagy elutasításáról a szerződött gazdasági szereplőt a BV GEI BO tájékoztatja."
+    },
+    {
+      "provision_ref": "s266",
+      "section": "266",
+      "title": "266",
+      "content": "125. A szerződés (megrendelés) teljesítését a kezdeményezőnek ellenőriznie kell. Kizárólag a szerződésben meghatározott feltételeknek megfelelő teljesítés igazolható. Ha azt a szerződés tartalmazza, a teljesítés elfogadására vagy el nem fogadására vonatkozó nyilatkozatot – utóbbiban megjelölve a kijavítandó, pótolandó hibákat és az annak teljesítésére meghatározott határidőt – a szerződő partner képviselőjének dokumentáltan át kell adni."
+    },
+    {
+      "provision_ref": "s267",
+      "section": "267",
+      "title": "267",
+      "content": "126. A BVOP KGFO és/vagy a BV GEI a hozzá beérkező számlát – a vonatkozó jogszabályokkal összhangban – köteles megvizsgálni, hogy annak adatai (felek adatai, a szerződés száma, tárgya, összege) megegyeznek-e a kapcsolódó szerződés adataival."
+    },
+    {
+      "provision_ref": "s268",
+      "section": "268",
+      "title": "268",
+      "content": "127. A szerződést kötő fél feladata a szerződés teljesítését követően felmerülő szavatossági vagy jótállási igények jelzése a szerződő partner felé, az ezzel összefüggő egyeztetések lefolytatása és a szerződés vagy a jogszabályok alapján rendelkezésre álló intézkedésekre javaslattétel a kötelezettségvállalónak."
+    },
+    {
+      "provision_ref": "s269",
+      "section": "269",
+      "title": "269",
+      "content": "128. Amennyiben a szerződés (megrendelés) tárgyát képező szolgáltatást vagy terméket folyamatosan biztosítani kell, a kezdeményező köteles a beszerzésre irányuló szerződések lejártát figyelemmel kísérve gondoskodni a szolgáltatás, illetve termékellátás folyamatosságáról. A szerződések módosításánál, új szerződési igény kezdeményezésénél a kezdeményezőnek figyelemmel kell lennie a szükséges beszerzési eljárás lefolytatásának időigényére."
+    },
+    {
+      "provision_ref": "s270",
+      "section": "270",
+      "title": "270",
+      "content": "129. A kezdeményező a szerződés meghiúsulását, illetve annak csak részleges teljesülését köteles a BVOP KGFO-nak és a BV GEI-nek jelezni a kötelezettségvállalással lekötött pénzügyi keret felszabadítása, illetve az egybeszámításról szóló hiteles nyilatkozattétel érdekében."
+    },
+    {
+      "provision_ref": "s271",
+      "section": "271",
+      "title": "271",
+      "content": "130. A mentesített beszerzési eljárások lefolytatására az OPGIH jelöli ki a szervezeti egységet. Az eljárást az V. Fejezet ÉHA eljárásra vonatkozó szabályainak alkalmazásával, a jelen fejezetben meghatározott eltérésekkel és a jó gazda gondosságával kell lefolytatni."
+    },
+    {
+      "provision_ref": "s272",
+      "section": "272",
+      "title": "272",
+      "content": "131. A mentesített beszerzési eljárások során a beszerzés értékhatárai, valamint a becsült érték megállapítása tekintetében a Kbt. és a Vbt. szabályai, valamint az V. Fejezetben foglaltak az irányadók."
+    },
+    {
+      "provision_ref": "s273",
+      "section": "273",
+      "title": "273",
+      "content": "132. A beszerzési eljárás megindításakor a kezdeményező irathoz csatolni kell a BV GEI által a mentesítési eljáráshoz készített és az OPGIH által előzetesen jóváhagyott előterjesztést és az Országgyűlés illetékes bizottságának mentesítésre vonatkozó döntését."
+    },
+    {
+      "provision_ref": "s274",
+      "section": "274",
+      "title": "274",
+      "content": "133. A Kbt., illetve a Vbt. alóli mentesítési kérelmet a vonatkozó jogszabályban meghatározottaknak megfelelően, a kezdeményező javaslatban foglaltak alapján a kötelezettségvállaló hagyja jóvá."
+    },
+    {
+      "provision_ref": "s275",
+      "section": "275",
+      "title": "275",
+      "content": "134. Mentesített eljárásban nem szükséges legalább 3 ajánlat bekérése, a szerződés jelen utasításban foglaltak alapján megköthető, amennyiben a mentesítési kérelemben megjelölésre kerül az a gazdasági szereplő, akivel az ajánlatkérő a beszerzést meg kívánja valósítani."
+    },
+    {
+      "provision_ref": "s276",
+      "section": "276",
+      "title": "276",
+      "content": "135. A mentesített beszerzési eljárásban eredménytelenné lehet nyilvánítani a beszerzési eljárást akkor is, ha a jogorvoslati szerv megsemmisíti a BVOP valamely – az eljárás érdemére kiható – döntését és erre tekintettel a BVOP új beszerzési eljárás lefolytatását határozza el, vagy eláll az eljárás lefolytatásának szándékától. Nem nyilvánítható azonban eredménytelennek az eljárás akkor, ha a jogszerűtlen eljárást lezáró döntés megsemmisítését követően jogszerű döntés meghozatalával az eljárás jogszerűsége helyreállítható. 5. A gazdasági szereplőkkel szemben támasztott követelmények"
+    },
+    {
+      "provision_ref": "s277",
+      "section": "277",
+      "title": "277",
+      "content": "136. Amennyiben a döntéshozó által meghatározásra kerül, mentesített beszerzési eljárásban kizárólag a 10. pont i) alpontja szerinti Jegyzéken szereplő gazdasági szereplő részére küldhető meg az ajánlatkérés. Amennyiben a Jegyzéken szereplő gazdasági szereplő részére küldhető meg az ajánlatkérés, úgy a beszerzési eljárás megindítását megelőzően a kezdeményező megkéri az aktuális Jegyzéket az AH az ajánlattételre felkérni tervezett gazdasági szereplők, továbbá az eljárás során a benyújtott ajánlatban megjelölt alvállalkozók ellenőrzése érdekében. Amennyiben a megszólítani tervezett gazdasági szereplő nem szerepel a Jegyzéken, kezdeményezni kell az érintett gazdasági szereplők és alvállalkozók ellenőrzésének lefolytatását."
+    },
+    {
+      "provision_ref": "s278",
+      "section": "278",
+      "title": "278",
+      "content": "137. Az olyan beszerzési eljárás esetében, amelyek minősített adatokat keletkeztetnek, használnak fel, igényelnek vagy tartalmaznak, a beszerzési eljárás során keletkezett dokumentációban meg kell határozni az érintett adatok megfelelő szintű biztonságának biztosításához szükséges és a minősített adat védelméről szóló 2009. évi CLV. törvény (a továbbiakban: Mav tv.) rendelkezéseinek megfelelő intézkedéseket és követelményeket."
+    },
+    {
+      "provision_ref": "s279",
+      "section": "279",
+      "title": "279",
+      "content": "138. Megkövetelhető, hogy az ajánlat tartalmazza"
+    },
+    {
+      "provision_ref": "s280",
+      "section": "280",
+      "title": "280",
+      "content": "a) a kötelezettségvállalást az ajánlattevő és a már azonosított alvállalkozók részéről arra vonatkozólag, hogy megfelelően biztosítják az összes, birtokukban lévő, illetve a szerződés időtartama alatt vagy annak lezárása után tudomásukra jutó minősített adat védelmét a vonatkozó törvényekkel, rendeletekkel és igazgatási rendelkezésekkel összhangban,"
+    },
+    {
+      "provision_ref": "s281",
+      "section": "281",
+      "title": "281",
+      "content": "b) a kötelezettségvállalást az ajánlattevő részéről arra vonatkozólag, hogy az a) alpontban előírt kötelezettségvállalást az alvállalkozói szerződés megkötésével egyidejűleg megszerzi a szerződés teljesítése során általa alkalmazott többi alvállalkozótól,"
+    },
+    {
+      "provision_ref": "s282",
+      "section": "282",
+      "title": "282",
+      "content": "c) elegendő adatot a már azonosított alvállalkozóról, amely az ajánlatkérő számára lehetővé teszi annak megállapítását, hogy az alvállalkozó rendelkezik a szükséges erőforrásokkal mindazon minősített adat védelméhez, amelyhez hozzáfér, illetve amely az alvállalkozásban elvégzett teljesítés során keletkezik,"
+    },
+    {
+      "provision_ref": "s283",
+      "section": "283",
+      "title": "283",
+      "content": "d) a kötelezettségvállalást az ajánlattevő részéről arra vonatkozólag, hogy az alvállalkozói szerződések megkötése előtt az új alvállalkozókkal kapcsolatban átadja a c) alpontban megkövetelt információkat."
+    },
+    {
+      "provision_ref": "s284",
+      "section": "284",
+      "title": "284",
+      "content": "139. Az ajánlatkérésben meghatározható a teljesítés biztonságára vonatkozó követelmény. Így a BVOP előírhat különösen"
+    },
+    {
+      "provision_ref": "s285",
+      "section": "285",
+      "title": "285",
+      "content": "a) olyan tanúsítványokat vagy dokumentumokat, amelyek bizonyítják, hogy az ajánlattevő képes teljesíteni a szerződéshez kapcsolódó áruk exportjával, szállításával és továbbításával kapcsolatos kötelezettségeit, beleértve az érintett tagállam vagy tagállamok részéről ezt alátámasztó dokumentációt,"
+    },
+    {
+      "provision_ref": "s286",
+      "section": "286",
+      "title": "286",
+      "content": "b) az ajánlatkérőre vonatkozó minden olyan korlátozás feltüntetését, amely a termékek vagy szolgáltatások, illetve a termékek vagy szolgáltatások eredményének nyilvánosságra hozatalára, átadására vagy használatára vonatkozik, és amely exportkorlátozást vagy biztonsági intézkedéseket eredményezhet,"
+    },
+    {
+      "provision_ref": "s287",
+      "section": "287",
+      "title": "287",
+      "content": "c) olyan tanúsítványokat vagy dokumentumokat, amelyek bizonyítják, hogy az ajánlattevő ellátási láncának elhelyezkedése és megszervezése lehetővé teszi a teljesítés biztonsága érdekében előírt követelmények teljesítését, valamint arra vonatkozó kötelezettségvállalást, hogy az ellátási láncban a szerződés teljesítése során bekövetkező változások nem gátolják majd az e követelményeknek való megfelelést,"
+    },
+    {
+      "provision_ref": "s288",
+      "section": "288",
+      "title": "288",
+      "content": "d) az ajánlattevő kötelezettségvállalását arra, hogy az ajánlatkérő válság eredményeképp megnövekedett igényeinek kielégítése érdekében erőforrásokat hoz létre és tart fenn a közösen megállapított feltételeknek megfelelően,"
+    },
+    {
+      "provision_ref": "s289",
+      "section": "289",
+      "title": "289",
+      "content": "e) az ajánlattevő nemzeti hatóságaitól származó bármilyen dokumentumot annak alátámasztására, hogy az ajánlattevő válság esetén eleget tesz az ajánlatkérő megnövekedett igényeinek,"
+    },
+    {
+      "provision_ref": "s290",
+      "section": "290",
+      "title": "290",
+      "content": "f) az ajánlattevő kötelezettségvállalását arra, hogy biztosítja a szerződés tárgyát képező áruk karbantartását, korszerűsítését és fejlesztését,"
+    },
+    {
+      "provision_ref": "s291",
+      "section": "291",
+      "title": "291",
+      "content": "g) az ajánlattevő kötelezettségvállalását arra, hogy időben értesíti az ajánlatkérőt a szervezetében, ellátási láncában vagy ipari stratégiájában bekövetkezett olyan változásokról, amelyek érinthetik az ajánlatkérő irányában fennálló kötelezettségeit, vagy"
+    },
+    {
+      "provision_ref": "s292",
+      "section": "292",
+      "title": "292",
+      "content": "h) az ajánlattevő kötelezettségvállalását arra, hogy a közösen megállapított feltételeknek megfelelően minden, a pótalkatrészek, összetevők, összeállított egységek és speciális tesztberendezések készítéséhez szükséges eszközt az ajánlatkérő rendelkezésére bocsát, amennyiben ő maga többé nem képes ezek biztosítására."
+    },
+    {
+      "provision_ref": "s293",
+      "section": "293",
+      "title": "293",
+      "content": "140. Az ajánlatkérésben kell szerepeltetni, hogy a beszerzési eljárás milyen minősítési szintű adatokat érint."
+    },
+    {
+      "provision_ref": "s294",
+      "section": "294",
+      "title": "294",
+      "content": "141. A „Bizalmas!” vagy annál magasabb minősítési szintű adatot érintő beszerzési eljárásban kizárólag az a gazdasági szereplő vehet részt, illetve kizárólag annak a gazdasági szereplőnek lehet az ajánlatkérést megküldeni, aki érvényes és megfelelő szintű TBT-vel rendelkezik."
+    },
+    {
+      "provision_ref": "s295",
+      "section": "295",
+      "title": "295",
+      "content": "142. A mentesített beszerzési eljárásban a nyilatkozatokat írásban kell megtenni, és postai, személyes vagy elektronikus kézbesítés útján kell a másik fél részére megküldeni. A minősített adatokat tartalmazó írásbeli nyilatkozatok postai úton, elektronikus úton és faxon nem teljesíthetőek. Minősített adatokat tartalmazó írásbeli nyilatkozatok kizárólag közvetlen, személyes kézbesítés útján teljesíthetők. Az ajánlatkérésnek tartalmaznia kell azt a rendelkezést, hogy az ajánlatoknak a benyújtásra nyitva álló határidőben be kell érkezniük, azaz nem elegendő az ajánlatok postára adása."
+    },
+    {
+      "provision_ref": "s296",
+      "section": "296",
+      "title": "296",
+      "content": "143. Az ezen alcím szerinti eljárásrend alkalmazásával lefolytatott beszerzési eljárásban való részvételre referenciaként a gazdasági szereplő csak a BVOP előzetes, írásos engedélye alapján hivatkozhat."
+    },
+    {
+      "provision_ref": "s297",
+      "section": "297",
+      "title": "297",
+      "content": "144. Az ajánlatkérésben előírható, hogy ha az ajánlattételre felhívott nem nyújt be ajánlatot, köteles az ajánlattételi határidőig visszaküldeni az ajánlatkéréssel kapcsolatos összes iratot. A kizárt, az érvénytelen vagy a nem nyertes ajánlatot benyújtó ajánlattevő az értesítés kézhezvételétől számított tizenöt napon belül köteles a beszerzéssel kapcsolatos összes iratot visszaküldeni. A nyertes ajánlattevő a szerződés teljesítését követő harminc napon belül a beszerzéssel kapcsolatos minősített adatot tartalmazó valamennyi iratot köteles visszaküldeni."
+    },
+    {
+      "provision_ref": "s298",
+      "section": "298",
+      "title": "298",
+      "content": "145. Ha az ajánlattevő a rendelkezésére bocsátott iratokat a 137. pont szerinti határidőben hiánytalanul nem küldi vissza, a kötelezettségvállaló az AH egyidejű értesítése mellett felszólítja az összes irat visszaszolgáltatására."
+    },
+    {
+      "provision_ref": "s299",
+      "section": "299",
+      "title": "299",
+      "content": "146. Az eljárásból ki kell zárni az olyan ajánlattevőt vagy alvállalkozót,"
+    },
+    {
+      "provision_ref": "s300",
+      "section": "300",
+      "title": "300",
+      "content": "a) akinek a nemzetbiztonsági ellenőrzése során kockázati tényező vagy a BVOP rendeltetésszerű működését veszélyeztető biztonsági kockázati tényező fennállása került megállapításra,"
+    },
+    {
+      "provision_ref": "s301",
+      "section": "301",
+      "title": "301",
+      "content": "b) akit a Jegyzékből a beszerzési eljárás alatt töröltek,"
+    },
+    {
+      "provision_ref": "s302",
+      "section": "302",
+      "title": "302",
+      "content": "c) aki a megelőző öt éven belül a Jegyzékre való felvételére irányuló eljárás során adatszolgáltatási kötelezettségének teljesítésekor hamis adatot szolgáltatott, illetve hamis nyilatkozatot tett."
+    },
+    {
+      "provision_ref": "s303",
+      "section": "303",
+      "title": "303",
+      "content": "147. A „Bizalmas!” vagy annál magasabb minősítési szintű adatot érintő beszerzési eljárásból ki kell zárni azt a részvételre jelentkezőt, aki nem rendelkezik megfelelő szintű TBT-vel, vagy akitől a beszerzési eljárás alatt visszavonják a megfelelő szintű TBT-t."
+    },
+    {
+      "provision_ref": "s304",
+      "section": "304",
+      "title": "304",
+      "content": "148. A „Korlátozott terjesztésű!” minősítési szintű adatot érintő beszerzési eljárásból ki kell zárni az olyan ajánlattevőt, aki nem teljesíti a Mav tv.-ben a „Korlátozott terjesztésű!” minősítési szintű adatok felhasználásához előírt feltételeket. 6. Az alvállalkozókra vonatkozó rendelkezések"
+    },
+    {
+      "provision_ref": "s305",
+      "section": "305",
+      "title": "305",
+      "content": "149. Az ajánlatkérésben elő kell írni, hogy az ajánlattevő az ajánlatban köteles megjelölni a szerződés teljesítésébe bevonni kívánt alvállalkozót. Az ajánlatkérésben elő lehet írni, hogy az ajánlattevő kizárólag a Jegyzéken szereplő alvállalkozót vonhat be a teljesítésbe. Ha az ajánlattevő valamelyik alvállalkozójával szemben nemzetbiztonsági kockázati tényező merül fel, az ajánlattevő ezen alvállalkozó helyett mást jelölhet meg."
+    },
+    {
+      "provision_ref": "s306",
+      "section": "306",
+      "title": "306",
+      "content": "150. Az ajánlattevő által a beszerzési eljárás folyamán vagy a nyertes ajánlattevő által a szerződés teljesítése során kiválasztott alvállalkozó teljesítésbe történő bevonása elutasítható. Az elutasítás csak a beszerzési eljárás során alkalmazott kizárási okokon, valamint azon alkalmassági követelményeken alapulhat, amelyeknek az alvállalkozó önállóan köteles megfelelni. Az elutasítást írásban kell indokolni az ajánlattevő vagy a nyertes ajánlattevő felé."
+    },
+    {
+      "provision_ref": "s307",
+      "section": "307",
+      "title": "307",
+      "content": "151. Az ajánlattevő a szerződés teljesítése során köteles bejelenteni a szerződés teljesítéséhez igénybe vett alvállalkozók szintjén bekövetkező változtatási igényét. Amennyiben az ajánlatkérés azt tartalmazta, a nyertes ajánlattevőként szerződő fél a szerződés teljesítésébe az ajánlatában megjelölteken kívül új alvállalkozót különösen indokolt esetben, a BVOP előzetes írásbeli engedélyével vonhat be. Amennyiben az ajánlatkérés arra vonatkozó követelményt tartalmaz, hozzájárulás csak akkor adható, ha a bevonni kívánt alvállalkozó szerepel a Jegyzéken, és megfelel a saját eljárásrendben az alvállalkozókra előírt követelményeknek."
+    },
+    {
+      "provision_ref": "s308",
+      "section": "308",
+      "title": "308",
+      "content": "152. Az ajánlatkérésben tárgyalás tartását lehet biztosítani."
+    },
+    {
+      "provision_ref": "s309",
+      "section": "309",
+      "title": "309",
+      "content": "153. A beszerzési eljárásban lehetőség szerint legalább három gazdasági szereplőt kell ajánlattételre felhívni. Egy ajánlat is bekérhető, ha a beszerzés tárgya a beszerzés tárgyának műszaki-technikai sajátosságai, a nemzetbiztonsági érdek fokozott védelme vagy kizárólagos jogok védelme miatt csak egy meghatározott gazdasági szereplőtől szerezhető be."
+    },
+    {
+      "provision_ref": "s310",
+      "section": "310",
+      "title": "310",
+      "content": "154. A beszerzési eljárás során az ajánlattevőkkel más ajánlattevőre, illetve annak ajánlatára vonatkozó információ nem közölhető. Ha a beszerzési eljárásban tárgyalás tartása szükséges – az ajánlattevő megnevezése nélkül –, az ajánlati árakról az ajánlattevőknek felvilágosítás adható."
+    },
+    {
+      "provision_ref": "s311",
+      "section": "311",
+      "title": "311",
+      "content": "155. Az ajánlatok elbírálásáról hozott döntés nyilvánosan nem hirdethető ki. 7. A szerződés megszűnése"
+    },
+    {
+      "provision_ref": "s312",
+      "section": "312",
+      "title": "312",
+      "content": "156. Amennyiben az eljárás során előírás volt a Jegyzéken való szereplés követelménye, és a nyertes ajánlattevőt az AH a Jegyzékről törli, a törlést elrendelő döntésével – a törléssel egyidejűleg – a szerződés megszűnik. Ezzel egyidejűleg a szerződő felek között elszámolási kötelezettség keletkezik."
+    },
+    {
+      "provision_ref": "s313",
+      "section": "313",
+      "title": "313",
+      "content": "157. Amennyiben az ajánlatkérés az ajánlattevővel szemben érvényes TBT meglétének követelményét írta elő, a szerződés megszűnik, ha a nyertes ajánlattevő TBT-jét visszavonják. Ezzel egyidejűleg a szerződő felek között elszámolási kötelezettség keletkezik."
+    },
+    {
+      "provision_ref": "s314",
+      "section": "314",
+      "title": "314",
+      "content": "158. A szerződés megszűnéséből eredő károkért a gazdasági szereplő kártérítési felelősséggel tartozik, ha a szerződés a 156–157. pontban meghatározott ok miatt szűnik meg, és a Jegyzékről való törlés, a Jegyzéken való adatváltozás, illetve a TBT visszavonása neki felróható."
+    },
+    {
+      "provision_ref": "s315",
+      "section": "315",
+      "title": "315",
+      "content": "159. A szerződést fel kell mondani, vagy – a Ptk.-ban foglaltak szerint – attól el kell állni, ha a szerződés megkötését követően a BVOP tudomására jut, hogy a szerződő fél tekintetében a beszerzési eljárás során kizáró ok állt fenn, és ezért ki kellett volna zárni a beszerzési eljárásból."
+    },
+    {
+      "provision_ref": "s316",
+      "section": "316",
+      "title": "316",
+      "content": "160. A BVOP jogosult és egyben köteles a szerződést felmondani – ha szükséges, olyan határidővel, amely lehetővé teszi, hogy a szerződéssel érintett feladata ellátásáról gondoskodni tudjon –, ha"
+    },
+    {
+      "provision_ref": "s317",
+      "section": "317",
+      "title": "317",
+      "content": "a) a Kbt. 143. § (3) bekezdésében meghatározott feltétel következik be,"
+    },
+    {
+      "provision_ref": "s318",
+      "section": "318",
+      "title": "318",
+      "content": "b) a nemzetbiztonsági ellenőrzés nemzetbiztonsági kockázatot vagy a BVOP rendeltetésszerű működését veszélyeztető biztonsági kockázatot állapít meg."
+    },
+    {
+      "provision_ref": "s319",
+      "section": "319",
+      "title": "319",
+      "content": "161. A felmondási okokat a szerződésbe kell foglalni."
+    },
+    {
+      "provision_ref": "s320",
+      "section": "320",
+      "title": "320",
+      "content": "162. Ez az utasítás a közzétételét követő napon lép hatályba."
+    },
+    {
+      "provision_ref": "s321",
+      "section": "321",
+      "title": "321",
+      "content": "163. Ezen utasításban nem szabályozott kérdések tekintetében a Kbt. és a vonatkozó jogszabályok rendelkezései az irányadóak."
+    },
+    {
+      "provision_ref": "s322",
+      "section": "322",
+      "title": "322",
+      "content": "164. Ezen utasítás rendelkezéseit a hatálybalépését követően indult beszerzési eljárások esetében kell alkalmazni."
+    },
+    {
+      "provision_ref": "s323",
+      "section": "323",
+      "title": "323",
+      "content": "165. Ezen utasítás hatálya alá tartozó bv. szervek a saját beszerzési szabályzatukat ezen utasítás hatálybalépésétől számított 60 napon belül kötelesek felülvizsgálni."
+    },
+    {
+      "provision_ref": "s324",
+      "section": "324",
+      "title": "324",
+      "content": "166."
+    }
+  ]
+}

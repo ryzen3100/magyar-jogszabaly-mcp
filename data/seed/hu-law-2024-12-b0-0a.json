@@ -1,0 +1,167 @@
+{
+  "id": "hu-law-2024-12-b0-0a",
+  "type": "statute",
+  "title": "12/2024. (V. 31.) BM utasítás a Belügyminisztérium feladat- és hatáskörébe tartozó informatikai alkalmazásfejlesztések rendjéről",
+  "status": "in_force",
+  "in_force_date": "2024-06-30",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2024-12-B0-0A",
+  "description": "a Belügyminisztérium feladat- és hatáskörébe tartozó informatikai alkalmazásfejlesztések rendjéről",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § A Belügyminisztérium feladat- és hatáskörébe tartozó informatikai alkalmazásfejlesztések és infrastruktúra-fejlesztések előkészítésével és végrehajtásával kapcsolatos feladatok eljárásrendjét az 1. mellékletben foglaltak szerint határozom meg. 1. § Az utasítás személyi hatálya kiterjed a) a Belügyminisztériumnak a Belügyminisztérium Szervezeti és Működési Szabályzatáról szóló 12/2022. (VI. 28.) BM utasítás (a továbbiakban: BM SZMSZ) 3. függeléke szerinti szervezeti egységeire (a továbbiakban: szervezeti egység); b) a BM SZMSZ 4. függelékében felsorolt, a miniszter által irányított, felügyelt szervezetekre (a továbbiakban: irányított, felügyelt szervezet); c) a BM SZMSZ 4. függelék C) pontja szerinti, a minisztérium szakmai felügyelete alatt álló gazdasági társaságoknak (a továbbiakban: gazdasági társaságok) az a) és b) pont alá nem tartozó tulajdonosi joggyakorlóira, kizárólag a tulajdonosi joggyakorlásukba tartozó gazdasági társaságok szerződései vonatkozásában."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § Ez az utasítás a közzétételét követő harmincadik napon lép hatályba. 2. § Az utasítás tárgyi hatálya kiterjed a Belügyminisztérium szervezeti egységei, az irányított, felügyelt szervezetek és a gazdasági társaságok által fejlesztett vagy használatában lévő vagy általuk működtetett vagy üzemeltetett alkalmazások alkalmazásfejlesztésére és alkalmazás-továbbfejlesztésére (a továbbiakban együtt: fejlesztés)."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § A jelen utasítás rendelkezéseit a jelen utasítás hatálybalépését követően indult fejlesztési eljárásokra kell alkalmazni. 3. § Ezen utasítás alkalmazásában 1. alkalmazás: az egységes Állami Alkalmazás-fejlesztési Környezetről és az Állami Alkalmazás-katalógusról, valamint az egyes kapcsolódó kormányrendeletek módosításáról szóló 314/2018. (XII. 27.) Korm. rendelet [a továbbiakban: 314/2018. (XII. 27.) Korm. rendelet] szerinti alkalmazás; 2. alkalmazásfejlesztés: a 314/2018. (XII. 27.) Korm. rendelet szerinti alkalmazásfejlesztés; 3. alkalmazás-továbbfejlesztés: a 314/2018. (XII. 27.) Korm. rendelet szerinti alkalmazás-továbbfejlesztés; 4. alkalmazásfejlesztő: a jelen utasítás személyi hatálya alá tartozó személy, szervezeti egység, szerv vagy szervezet, valamint a Belügyminisztériummal, illetve az 1. § a)–c) pontjában megjelölt szervezeti egységekkel, felügyelt szervekkel, gazdasági társaságokkal szerződéses jogviszonyban álló személy, gazdasági társaság, amely az alkalmazásfejlesztést végzi; 5. illetékes szakterület: a BM SZMSZ alapján feladatköre szerint felelős önálló szervezeti egység; 6. központi infrastruktúra és infokommunikációs szolgáltató: a központosított informatikai és elektronikus hírközlési szolgáltatásokról szóló 309/2011. (XII. 23.) Korm. rendelet szerinti központi infrastruktúra- és infokommunikációs szolgáltató; 7. megrendelő szerv: a 314/2018. (XII. 27.) Korm. rendelet szerinti megrendelő szerv; 8. minőségbiztosító: a 314/2018. (XII. 27.) Korm. rendelet szerinti központi termék minőségbiztosító; 9. műszaki-szakmai átadás-átvétel: a 314/2018. (XII. 27.) Korm. rendelet szerinti műszaki-szakmai átadás-átvétel."
+    },
+    {
+      "provision_ref": "s4",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § A fejlesztés résztvevői: a) megrendelő szerv, b) illetékes szakterület, c) alkalmazásfejlesztő, d) minőségbiztosító, e) központi infrastruktúra és infokommunikációs szolgáltató, f) a Belügyminisztérium Informatikai Helyettes Államtitkársága (a továbbiakban: BM IHÁT), g) a BM Gazdasági Helyettes Államtitkársága (a továbbiakban: BM GHÁT)."
+    },
+    {
+      "provision_ref": "s5",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § (1) A BM IHÁT a BM fejezet tárgyévet követő évi költségvetési tervjavaslatának megalapozása érdekében felméri a fejlesztési igényeket, azok forrásigényét és rendelkezésre állását. A BM IHÁT a fejlesztési igényeket felülvizsgálja, egyezteti, majd véleményes javaslatával megküldi a BM GHÁT részére. (2) A fejlesztési folyamat az igény felmerülésével kezdődik. A fejlesztési igényt a megrendelő szerv az illetékes szakterület részére terjeszti elő a 2. melléklet szerinti igénybejelentő lap (a továbbiakban: igénybejelentő lap) I. blokkjának kitöltésével. Ha a fejlesztési igény az illetékes szakterületen merül fel, az igénybejelentő lap I. blokkjának kitöltéséről az illetékes szakterület gondoskodik. (3) Ha az illetékes szakterület úgy ítéli meg, hogy a fejlesztés támogatható, az igénybejelentő lapot továbbítja a BM IHÁT részére."
+    },
+    {
+      "provision_ref": "s6",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § (1) A BM IHÁT ellenőrzi az igénybejelentő lap I. blokkjában foglaltak helytállóságát, és amennyiben szükséges, öt munkanapos határidő tűzése mellett további információkat kér be az illetékes szakterülettől. (2) A BM IHÁT a megrendelő szerv és az illetékes szakterület szükség szerinti bevonásával kitölti az igénybejelentő lap II. blokkját, ahol nyilatkozik arról, hogy engedélyezi-e a fejlesztést, illetve igényt tart-e arra, hogy a fejlesztést szorosan nyomon kövesse. Amennyiben igen, úgy a megrendelő szerv kötelezettsége a fejlesztési feladatlap kitöltése és folyamatos aktualizálása. (3) A tervezés során biztosítani kell, hogy a fejlesztések minden költségeleme előre tervezhető, kiszámítható és dokumentált legyen, oly módon, hogy az megfelelő információt szolgáltasson a fejlesztés eredményterméke számviteli előírások szerinti bekerülési értékének pontos megállapításához. A költségkalkuláció elkészítése, valamint a fejlesztés eredményeként létrejött vagyonelem nyilvántartásba vétele során a költségvetési szerv számvitelről szóló 2000. évi C. törvény 14. §-ában meghatározott szabályzataiban foglaltak szerint kell eljárni. (4) A BM IHÁT az igénybejelentő lap I. és II. blokkjában foglaltak alapján megállapítja, hogy a fejlesztési igény a Belügyminisztérium tulajdonosi joggyakorlása alatt álló alkalmazásfejlesztő vagy más alkalmazásfejlesztő által teljesíthető-e. (5) A Belügyminisztérium tulajdonosi joggyakorlása alatt álló alkalmazásfejlesztő tekintetében, amennyiben szükséges, a jogszabályi kijelölés, valamint a kijelölés alapján a közszolgáltatási szerződés előkészítése iránt a BM IHÁT intézkedik."
+    },
+    {
+      "provision_ref": "s7",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § A megrendelés folyamata a 3. melléklet szerinti fejlesztési feladatlap (a továbbiakban: fejlesztési feladatlap) kitöltésével indul, ami a megrendelő szerv és az alkalmazásfejlesztő közötti szerződés (a továbbiakban: szerződés) elválaszthatatlan mellékletét képezi."
+    },
+    {
+      "provision_ref": "s8",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § (1) A pénzügyi fedezet rendelkezésre állása esetén a fejlesztési feladatlap alapján a megrendelő szerv a fejlesztés megvalósítása érdekében az adott alkalmazásfejlesztés kapcsán irányadó jogszabályok szerint kezdeményezi a) közszolgáltatási szerződés megkötését, b) közbeszerzési vagy beszerzési eljárás megindítását vagy c) a teljesítés megkezdését. (2) A szerződés csak a jelen utasításban foglalt előírások szerint köthető meg."
+    },
+    {
+      "provision_ref": "s9",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § (1) A szerződés megkötésének feltételeként meg kell határozni, hogy az alkalmazásfejlesztő kitölti a fejlesztési feladatlap III. blokkját és a 4. melléklet szerinti műszaki specifikációt (a továbbiakban: műszaki specifikáció). (2) Amennyiben az alkalmazásfejlesztés vonatkozásában infrastruktúra-fejlesztési igény merül fel, úgy e körülményt az illetékes szakterület haladéktalanul írásban jelzi a BM IHÁT felé. A BM IHÁT jóváhagyását követően az illetékes szakterület egyeztet a központi infrastruktúra és infokommunikációs szolgáltatóval. (3) A BM IHÁT az alkalmazásfejlesztővel, a megrendelő szervvel, az illetékes szakterülettel és – a BM Fejezeti kezelésű előirányzata terhére megvalósuló fejlesztés esetén – a BM GHÁT-tal történő szükség szerinti egyeztetést követően véglegesíti a fejlesztési feladatlapot, és az informatikai helyettes államtitkár jóváhagyásával ellátva megküldi az illetékes szakterület részére."
+    },
+    {
+      "provision_ref": "s10",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § A BM IHÁT a fejlesztési igényekről nyilvántartást vezet. A nyilvántartás a fejlesztési igény vonatkozásában a következő adatokat tartalmazza: a) sorszám, b) a Fejlesztési Feladatlap iktatószáma, c) a megrendelő szerv megnevezése, d) az illetékes szakterület megnevezése, igényt beküldő elérhetősége, e) a megrendelő szerv megnevezése, f) a fejlesztési igény tárgya, g) a fejlesztési igény forrásigénye, h) a fejlesztési igény beérkezésének időpontja, i) a fejlesztés végrehajtásának határideje, j) a fejlesztés végrehajtásának időpontja, k) megjegyzés."
+    },
+    {
+      "provision_ref": "s11",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § (1) A fejlesztési feladatlapban és a fejlesztés tárgyában megkötött szerződésben foglalt, valamint ezen §-ban, és a 12. §-ban részletezett rendelkezések, illetve ütemezés szerint az alkalmazásfejlesztő végrehajtja a fejlesztést és a tesztelést. (2) A megrendelő szerv az eredményes fejlesztéshez szükség szerint tesztadatot biztosít az alkalmazásfejlesztő részére. (3) Az alkalmazásfejlesztő a tesztelésbe a megrendelő szervet bevonhatja, részére a szükséges adatokat átadhatja. (4) A megrendelő szerv a szerződésben rögzíti, hogy a tesztelés során az alkalmazásfejlesztő a) minden szakmailag indokolt tesztelési folyamatot elvégez; b) a rendszer tűrőképességét legalább négyszeres túlterheléssel járó terheléses teszttel vizsgálja; c) dokumentált felhasználói tesztet végez; d) dokumentált fejlesztői biztonsági tesztelést végez; e) a feltárt hibák kijavításáról intézkedési tervet készít, és annak alapján a javításokat elvégzi, és a teljesítés részeként a verziók tesztelését követően kiállított összes tesztjegyzőkönyvet a megrendelő szerv részére jóváhagyásra és a BM IHÁT részére tájékoztatásul megküldi."
+    },
+    {
+      "provision_ref": "s12",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. § (1) A megrendelő szerv a szerződésben rögzíti, hogy a sikeres tesztelések és a szükséges hibajavítások elvégzését követően az alkalmazásfejlesztő az informatikai sérülékenységi vizsgálatok elvégzése érdekében a fejlesztési dokumentációt és az alkalmazás elérhetőségét a megrendelő szerv információbiztonsági szakterülete részére megküldi. (2) Az alkalmazás informatikai sérülékenységi vizsgálata iránt, amennyiben szükséges, a megrendelő szerv információbiztonsági szakterülete intézkedik."
+    },
+    {
+      "provision_ref": "s13",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. § (1) A megrendelő szerv információbiztonsági szakterülete a sérülékenységi vizsgálat eredményéről kiállított dokumentumot megküldi az illetékes szakterület és a megrendelő szerv számára. (2) A megrendelő szerv az 5. melléklet szerint nyilatkozik az illetékes szakterület felé arról, hogy a fejlesztés megfelel a fejlesztési feladatlapban és a fejlesztés tárgyában megkötött szerződésben foglaltaknak, és a teljesítés igazolható. Az illetékes szakterület a megfelelőségi nyilatkozatot megküldi a BM IHÁT részére."
+    },
+    {
+      "provision_ref": "s14",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "14",
+      "title": "14. §",
+      "content": "14. § (1) A műszaki-szakmai átadás-átvétel alapdokumentuma a 6. melléklet szerinti átadás-átvételi jegyzőkönyv (a továbbiakban: átadás-átvételi jegyzőkönyv), amely tartalmazza valamennyi, a teljesítés részét képező eredménytermék megjelölését, az elvégzett feladatok leírását oly módon, hogy a fejlesztési feladatlapban megjelölt fejlesztési igény teljesítése ellenőrizhető legyen. (2) A megrendelő szerv a szerződésben rögzíti, hogy az alkalmazásfejlesztő az általa aláírt átadás-átvételi jegyzőkönyvet – az aláírók számánál eggyel több példányban – a részére, valamint tájékoztatásul a BM IHÁT és az illetékes szakterület részére megküldi. (3) Az illetékes szakterület szakmai szempontból ellenjegyzi az átadás-átvételi jegyzőkönyvet, és a megfelelőségi nyilatkozat csatolásával megküldi a BM IHÁT részére. (4) A megrendelő szerv a szerződésben rögzíti, hogy az alkalmazásfejlesztő a végleges, elfogadott dokumentumokat elektronikus adathordozón is átadja a BM IHÁT részére, aki ezt követően gondoskodik a végleges dokumentumok mentéséről. (5) Az alkalmazás szükség szerinti nyilvántartásba vételét a BM IHÁT kezdeményezi a leltározásra a BM SZMSZ alapján feladatköre szerint illetékes szervezeti egységnél. (6) A 7. melléklet szerinti teljesítésigazolás (a továbbiakban: teljesítésigazolás) az átadás-átvételi jegyzőkönyv aláírását követően állítható ki az alkalmazásfejlesztő részére, a fejlesztés tárgyában megkötött szerződésben meghatározottak szerint. (7) A teljesítésigazolás további feltételeit a fejlesztés tárgyában megkötött szerződés határozza meg."
+    },
+    {
+      "provision_ref": "s15",
+      "chapter": "III. Fejezet KÜLÖNÖS RENDELKEZÉSEK",
+      "section": "15",
+      "title": "15. §",
+      "content": "15. § (1) A központosított informatikai és elektronikus hírközlési szolgáltatásokról szóló 309/2011. (XII. 23.) Korm. rendelet szerinti központosított informatikai és elektronikus hírközlési szolgáltatás esetén az I. és II. Fejezetben foglaltakat a (2)–(4) bekezdésben foglalt eltéréssel kell alkalmazni. (2) A BM IHÁT a Digitális Magyarország Ügynökség Zrt. (a továbbiakban: DMÜ) bevonásával folytatja le a fejlesztés koordinációját, az ajánlat bekérését és elfogadását, a DMÜ-vel erre a folyamatra kialakított fejlesztési feladatlap kiállítását és ellenjegyzését. (3) Amennyiben a fejlesztési feladatok fedezete rendelkezésre áll, és annak átadását nem előzte meg kormánydöntés, az előirányzat átadása költségvetési megállapodás alapján történik. (4) A költségvetési megállapodást a BM IHÁT közreműködésével a BM GHÁT készíti elő, és lefolytatja annak koordinációját a Miniszterelnöki Kabinetirodával. A BM IHÁT által előkészített, szakmailag ellenjegyzett fejlesztési feladatlapok a költségvetési megállapodás mellékletét képezik. (5) Az informatikai szakmai teljesítésigazolás a BM IHÁT felelősségi körébe rendelten történik."
+    },
+    {
+      "provision_ref": "s16",
+      "chapter": "III. Fejezet KÜLÖNÖS RENDELKEZÉSEK",
+      "section": "16",
+      "title": "16. §",
+      "content": "16. § (1) A jogszabályalkotás során felmerülő fejlesztési igények esetén az I. és II. Fejezetben foglaltakat a (2) és (3) bekezdésben foglalt eltéréssel kell alkalmazni. (2) Az informatikai helyettes államtitkár a BM SZMSZ 5. függeléke szerinti jogszabály-előkészítő tevékenység során azonosítja a Belügyminisztérium tulajdonosi joggyakorlása alatt álló fejlesztőszervezet által fejlesztett rendszerek, valamint a 309/2011. (XII. 23.) Korm. rendeletben szereplő, a Belügyminisztérium hatáskörébe tartozó rendszerek informatikai fejlesztési igényeit. (3) Az informatikai helyettes államtitkár a szabályozási javaslat vagy jogszabálytervezet vizsgálata során a) meghatározza a fejlesztés időtartamát a várható éles üzembe állítás időpontjának megjelölésével; b) meghatározza a fejlesztés várható költségeit és a megvalósítást követő időszaki működtetés várható forrásigényét, valamint az üzemeltetési tevékenység keretében a hibaelhárítás kapcsán a rendelkezésre állási és a reagálási időtartamokat. A fejlesztés megnevezése, rövid neve A megvalósítandó feladat(ok) ismertetése, a fejlesztés célja (nem jogszabályi leírás) A fejlesztéssel érintett rendszerelemek, komponensek bemutatása Az alkalmazott technológiai megoldás(ok), fejlesztői és futtató környezet (opcionális) Az egyes komponensek rövid, technikai összefoglalása, kapcsolódó fejlesztési feladatok Logikai felépítés, belső és külső kapcsolatokat szemléltető folyamatábra Módosítandó és új funkciók az alkalmazás(ok)ban Funkció 1 Funkció 2 A feladatban érintett menüpontok (amennyiben már rendelkezésre áll) Új/megújítandó rendszerkapcsolat(ok) bemutatása (ábrákkal) (új / változás esetén) Belső Külső Input, output adatok (opcionális) Adatbázis, adatszerkezeti módosítások (változás esetén) A rendszer(ek) által kezelt adatok A rendszer(ek)ben kezelendő adatok (új / változás esetén) Naplóadatok (opcionális) Szükséges migrálások (opcionális) Képernyőtervek (új rendszer vagy új képernyő esetén) Bevezetéssel kapcsolatos követelmények (opcionális) Migráció Tesztelés Oktatás Üzemeltetéssel összefüggő változások bemutatása (új / változás esetén) Melléklet 1. melléklet: Folyamatábra (opcionális) Egyéb feladatok Alulírott, …………………………………………………………… mint a(z) ……………………………… iktatószámú …………………………… szerződés Megrendelője képviseletében nyilatkozom, hogy a(z) ………… nyilvántartási számú, ………………………………………………………………………… tárgyú szerződésben és mellékleteiben meghatározott feladatok a megrendelő szerv elvárásai szerint, az abban hivatkozott jogszabályi előírásoknak megfelelően, az előírt igazgatási folyamatok megvalósításával teljesültek. Budapest, 20… ……………… …………………………………………… név beosztás szervezet Alulírott, ……………………………………………………………… mint a megrendelő szerv teljesítésigazolásra jogosult munkatársa nyilatkozom, hogy a(z) …………………………………… iktatószámú fejlesztési feladatlapban foglaltakat a(z) ………………………………………………… (Fejlesztő szervezet neve) maradéktalanul teljesítette, részére a feladat teljesítésének ellenértékeként betervezett nettó ………………………………………… Ft + ÁFA, azaz összesen bruttó …………………………… Ft összeg elszámolható a(z) …………………………… iktatószámú ……………………………… szerződés keretében. Érintett és kapcsolódó rendszerek: A teljesített feladat részletes leírása: Átadott eredménytermékek/dokumentumok: A fenti dokumentációk legutolsó elfogadott verziói és a forráskódok 20… …………… hó …… napján 1-1, azaz egy-egy példányban fizikai adathordozón átadásra kerültek a megrendelő és a BM IHÁT részére. Az alkalmazás informatikai biztonsági megfelelőségét a(z) …………… iktatószámú tanúsítvány igazolja. A fent részletezett fejlesztést az igénylő szerv a(z) …………… iktatószámú, csatolt megfelelőségi nyilatkozatában elfogadta. A megrendelt fejlesztés eredménytermékeit az alkalmazásfejlesztő határidőre leszállította, mennyiségi és minőségi átvételük megtörtént. Kelt: Budapest, 20… hó ……………… Alkalmazásfejlesztő aláírása: …………………………………………… vezető tisztségviselő Informatikai teljesítést igazoló aláírása: …………………………………………… főosztályvezető IT biztonsági megfelelést igazoló aláírása: …………………………………………… adott szervezet informatikai biztonsági felelőse Illetékes szakterület aláírása: …………………………………………… szervezeti egység vezetője Megrendelő szerv aláírása: …………………………………………… szervezeti egység vezetője"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "§ Ezen utasítás alkalmazásában 1. alkalmazás",
+      "definition": "az egységes Állami Alkalmazás-fejlesztési Környezetről és az Állami Alkalmazás-katalógusról, valamint az egyes kapcsolódó kormányrendeletek módosításáról szóló 314/2018. (XII. 27.) Korm. rendelet [a továbbiakban: 314/2018. (XII. 27.) Korm. rendelet] szerinti alkalmazás",
+      "source_provision": "s3"
+    },
+    {
+      "term": "alkalmazásfejlesztés",
+      "definition": "a 314/2018. (XII. 27.) Korm. rendelet szerinti alkalmazásfejlesztés",
+      "source_provision": "s3"
+    },
+    {
+      "term": "alkalmazás-továbbfejlesztés",
+      "definition": "a 314/2018. (XII. 27.) Korm. rendelet szerinti alkalmazás-továbbfejlesztés",
+      "source_provision": "s3"
+    },
+    {
+      "term": "alkalmazásfejlesztő",
+      "definition": "a jelen utasítás személyi hatálya alá tartozó személy, szervezeti egység, szerv vagy szervezet, valamint a Belügyminisztériummal, illetve az 1. § a)–c) pontjában megjelölt szervezeti egységekkel, felügyelt szervekkel, gazdasági társaságokkal szerződéses jogviszonyban álló személy, gazdasági társaság, amely az alkalmazásfejlesztést végzi",
+      "source_provision": "s3"
+    },
+    {
+      "term": "illetékes szakterület",
+      "definition": "a BM SZMSZ alapján feladatköre szerint felelős önálló szervezeti egység",
+      "source_provision": "s3"
+    },
+    {
+      "term": "központi infrastruktúra és infokommunikációs szolgáltató",
+      "definition": "a központosított informatikai és elektronikus hírközlési szolgáltatásokról szóló 309/2011. (XII. 23.) Korm. rendelet szerinti központi infrastruktúra- és infokommunikációs szolgáltató",
+      "source_provision": "s3"
+    },
+    {
+      "term": "megrendelő szerv",
+      "definition": "a 314/2018. (XII. 27.) Korm. rendelet szerinti megrendelő szerv",
+      "source_provision": "s3"
+    },
+    {
+      "term": "minőségbiztosító",
+      "definition": "a 314/2018. (XII. 27.) Korm. rendelet szerinti központi termék minőségbiztosító",
+      "source_provision": "s3"
+    },
+    {
+      "term": "műszaki-szakmai átadás-átvétel",
+      "definition": "a 314/2018. (XII. 27.) Korm. rendelet szerinti műszaki-szakmai átadás-átvétel.",
+      "source_provision": "s3"
+    }
+  ]
+}

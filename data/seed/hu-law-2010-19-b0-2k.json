@@ -1,0 +1,617 @@
+{
+  "id": "hu-law-2010-19-b0-2k",
+  "type": "statute",
+  "title": "19/2010. (V. 7.) NFGM utasítás a Nemzeti Fejlesztési és Gazdasági Minisztérium Informatikai Szolgáltatásfolytonossági Szabályzatáról",
+  "status": "repealed",
+  "in_force_date": "2010-05-08",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2010-19-B0-2K",
+  "description": "a Nemzeti Fejlesztési és Gazdasági Minisztérium Informatikai Szolgáltatásfolytonossági Szabályzatáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A Nemzeti Fejlesztési és Gazdasági Minisztérium Informatikai Szolgáltatásfolytonossági Szabályzatáról az alábbiak szerint rendelkezem:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "1."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "1.1. Fogalmak"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "a) Kockázat: Egy vagy több informatikai szolgáltatás vagy infrastruktúraelem veszélyek miatti leállása, minőségcsökkenése."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "b) Proaktív intézkedés: Előkészítő, a kockázat bekövetkezését megelőző intézkedések, amelyek a szolgáltatásfolytonosság reaktív intézkedéseit segítik elő."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "c) Reaktív intézkedés: A kockázat bekövetkezésekor végrehajtandó előre megtervezett válaszintézkedés."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "d) Szolgáltatásfolytonossági koordinátor: A szolgáltatásfolytonossági menedzser helyettese és támogatója elsősorban operatív feladatok ellátásában."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "e) Szolgáltatásfolytonossági menedzser: Az informatikai szolgáltatásfolytonosság mint folyamat irányítója, az NFGM Informatikai Főosztály (a továbbiakban: IFO) vezetője."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "f) Szolgáltatásfolytonossági veszélyforrás: Nem kívánatos külső, fizikai körülmény általi fenyegetés, amely bekövetkezése esetén súlyosan veszélyezteti egy vagy több informatikai szolgáltatás vagy infrastruktúraelem működését, működőképes állapotát, illetve épségét."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "g) Szolgáltatásfolytonossági veszélyhelyzet: Olyan esemény vagy események együttese, amelyek a Nemzeti Fejlesztési és Gazdasági Minisztériumot (a továbbiakban: NFGM) érintő informatikai szolgáltatásainak kiesésével vagy nagymértékű minőségcsökkenésével, több erőforrásra kiterjedő és nehezen helyreállítható károsodásával járnak."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "h) Tartalék telephely: Dedikált vagy megosztott elhelyezési lehetőség, ahová szolgáltatásfolytonossági helyzetben szolgáltatásokat, eszközöket lehet telepíteni és/vagy humán erőforrást átcsoportosítani akár megelőző jelleggel, akár szolgáltatásfolytonossági terv végrehajtásának keretében."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "1.2. A szabályzat célja"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "a) Az NFGM Informatikai Szolgáltatásfolytonossági Szabályzatának (a továbbiakban: ISZSZ) alapvető céljai a következők:"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "b) az NFGM vagy magasabb szintű működésfolytonossági stratégiák támogatása, a vonatkozó előírásokkal és utasításokkal összhangban;"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "c) az NFGM informatikai szolgáltatásainak áttekintése és besorolása szolgáltatásfolytonossági helyzetek (katasztrófaszituációk) lehetséges hatásai, illetve ezen helyzetekkel szembeni védettsége szempontjából;"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "d) az IFO szolgáltatásfolytonossági helyzetben történő működésének szabályozása, beleértve a szolgáltatásfolytonossági szervezet felállítását és a tartalékmegoldások elindítását;"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "e) a szolgáltatásfolytonossági helyzet megszűnése után a normál működésmódra való visszaállás szabályainak meghatározása."
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "1.3. Az utasítás hatálya"
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "Az utasítás személyi hatálya kiterjed az NFGM valamennyi alkalmazottjára, és minden olyan külső személyre, akik az NFGM tulajdonában lévő, általa üzemeltetett vagy használt informatikai rendszerekkel kapcsolatba kerülnek. Az utasítás tárgyi hatálya kiterjed az NFGM tulajdonában lévő és az általa üzemeltetett vagy használt más szervezetek tulajdonát képező informatikai hardver (szerverek, munkaállomások, hálózati eszközök, telefonok, adathordozók, eToken) és szoftvereszközökre (operációs rendszer, dobozos és saját fejlesztésű alkalmazói szoftvercsomagok, felhasználói segédprogramok, szoftverek dokumentációi és licencinformációi), valamint a fenti eszközök alkalmazásával megvalósított informatikai szolgáltatásokra és ezek dokumentációjára, a Szolgáltatási Szint Megállapodásokat (a továbbiakban: SLA) is beleértve."
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "1.4. Az utasításhoz kapcsolódó stratégiák, előírások"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "Az utasításhoz kapcsolódó stratégiák, előírások az alábbiak:"
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "a) a Közigazgatási Informatikai Bizottság 25. számú ajánlása;"
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "b) NFGM–Központi Szolgáltatási Főigazgatóság (a továbbiakban: KSZF) szolgáltatási megállapodás;"
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "c) NFGM informatikai stratégia 2009–2011;"
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "d) NFGM információbiztonsági stratégia 2010–2012;"
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "e) az informatikai rendszerekre vonatkozó szabványok, ajánlások (ITIL, ISO 20000)."
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "1.5. Szerepkörök"
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "Az egyes szerepköröket betöltő konkrét személyeket az 1. melléklet azonosítja."
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "1.5.1. Szolgáltatásfolytonossági menedzser"
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "A szolgáltatásfolytonossági menedzser:"
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "a) szerepkörét az IFO vezetője látja el;"
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "b) felel az IT-szolgáltatásfolytonosság-menedzsment folyamat irányításáért, fejlesztéséért;"
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "c) gondoskodik arról, hogy a szolgáltatásfolytonosság-menedzsment folyamat átfogó kezelése és fejlesztése az ISZSZ előírásainak megfelelően történjen;"
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "d) szolgáltatásfolytonossági ügyekben kapcsolatot tart az ügyfelekkel és szállítókkal;"
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "e) gondoskodik az ISZSZ aktualizálásáról és betartásáról;"
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "f) szolgáltatásfolytonossági veszélyhelyzetben irányítja a tartalékmegoldások bevezetését, a helyreállítást és a normál működésre való visszaállás teljes folyamatát."
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "1.5.2. Szolgáltatásfolytonossági koordinátor"
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "Az NFGM szolgáltatásfolytonossági koordinátor szerepkörét a szolgáltatásfolytonossági menedzser által kijelölt munkatárs látja el. A szolgáltatásfolytonossági koordinátor elsősorban az IT szolgáltatásfolytonossági folyamat operatív feladatait látja el, ugyanakkor teljeskörűen helyettesítheti a szolgáltatásfolytonossági menedzsert annak megbízása szerint."
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "1.5.3. Szolgáltatásfolytonossági bizottság"
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "A szolgáltatásfolytonossági bizottság (továbbiakban SZFB):"
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "a) állandó tagjait a szolgáltatásfolytonossági menedzser jelöli ki, a tagsága állandó, de nem szükséges, hogy minden SZFB-tag részt vegyen az üléseken;"
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "b) üléseit a szolgáltatásfolytonossági menedzser hívja össze, évente legalább egy alkalommal;"
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "c) ülésére a külső résztvevőket a szolgáltatásfolytonossági menedzser hívja meg. Az SZFB ülésén a meghívottaknak meg kell jelenniük vagy képviseltetniük kell magukat;"
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "d) ülése a szolgáltatásfolytonossági menedzser döntése alapján személyes találkozó helyett más módon is megvalósulhat (telefon- vagy videokonferencia, elektronikus kommunikáció, fórum stb.);"
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "e) állásfoglalásokat hoz a szolgáltatásfolytonossági menedzser által beterjesztett napirendi pontokról, valamint új napirendi pont felvételére vagy elhalasztására is javaslatot tehet;"
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "f) állandó tagjai indokolt esetben a szolgáltatásfolytonossági menedzserrel történő előzetes egyeztetés alapján az SZFB ülésének összehívását kezdeményezhetik;"
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "g) működésével kapcsolatban a végső döntés és felelősség minden esetben a szolgáltatásfolytonossági menedzseré;"
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "h) üléseiről jegyzőkönyvet kell készíteni, amelyet minden tagnak illetve a meghívottaknak is alá kell írnia;"
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "i) a jegyzőkönyvnek az SZFB ülésén meghozott állásfoglalásokat, ajánlásokat és a felmerült ellenvéleményeket is tartalmaznia kell;"
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "j) a szolgáltatásfolytonossági menedzser a fentieken túl további szabályokat és gyakorlatokat vezethet be az SZFB működésével kapcsolatban."
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "1.6. Veszélyek és kockázatok"
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "Az informatikai – és ezzel a szakmai – működést fenyegető külső veszélyek kezelésére jelen szabályzatban az alábbiakat kell figyelembe venni:"
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "a) infrastrukturális kár, megsemmisülés – tűz, csőtörés, árvíz, robbanás, robbantás, földrengés, épület statikai sérülése, betörés;"
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "b) telephely megközelíthetetlensége – infrastrukturális kárral kombinálva vagy anélkül; a minisztérium épületei tüntetés, blokád, árvíz megsemmisülés stb. miatt megközelíthetetlenek vagy nem használhatóak;"
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "c) KSZF folytonossági veszélyhelyzet – hálózati szolgáltatás tartós kimaradása, szerverinfrastruktúra tartós elérhetetlensége, alaprendszer sérülése vagy részleges megsemmisülése, információtartalom sérülése, részleges vagy teljes megsemmisülése;"
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "d) egyéb szállítói folytonossági helyzet – szerződésszegés vagy vis maior miatt alkalmazást támogató szállító szolgáltatásának megszűnése;"
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "e) humán folytonossági helyzet – kritikus humán erőforrás (szakértők) tartós kiesésével járó szolgáltatásfolytonossági szituáció, amikor egy vagy több szolgáltatás SLA szerinti működtetése lehetetlenné válik. A konkrét kockázatok azonosítását és a fenti kategóriákba történő besorolását a 2. melléklet, a szolgáltatásfolytonosság szempontjából kritikus alkalmazásokat a 3. melléklet tartalmazza. A kockázatok beazonosításáról a szolgáltatásfolytonossági menedzser dönt."
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "1.7. Válaszintézkedések kiválasztása és megtervezése"
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "A kockázatok bekövetkezésekor jelentkező negatív hatásokat válaszintézkedésekkel kell mérsékelni. A válaszintézkedések alkalmazásának proaktív és reaktív kidolgozását az utasítás 4. melléklete tartalmazza. A szolgáltatásfolytonossági menedzser az 1.6 pontban szereplő veszélyhelyzetek mérlegelését követően kiválasztja és elrendeli a válaszintézkedés végrehajtását az 5. melléklet alapján."
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "1.8. Megvalósítás"
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "A proaktív intézkedések és a szolgáltatásfolytonossági intézkedések végrehajtása a szolgáltatásfolytonossági menedzser hatáskörébe tartozik. A válaszintézkedések megvalósítása a szolgáltatásfolytonossági menedzser döntése és ütemezése alapján történik, az általa kijelölt szereplők irányításával."
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "1.9. Fenntartás"
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "A bevezetett válaszintézkedések fenntartásának feladatai a következők:"
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "a) érintettek (ügyfél, szállítók, munkatársak) rendszeres, ismételt tájékoztatása a tudatosság fenntartása érdekében;"
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "b) intézkedések tesztelése;"
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "c) a szolgáltatásfolytonossági szabályzat, a kapcsolódó megállapodások és munkautasítások rendszeres felülvizsgálata és aktualizálása;"
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "d) a változáskezelésből érkező, szolgáltatásfolytonosság szempontjából releváns változások átvezetése."
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "1.10. A szolgáltatásfolytonossági veszélyhelyzet kezelése"
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "A szolgáltatásfolytonossági menedzser jogosult arra, hogy megállapítsa a szolgáltatásfolytonossági intézkedések alkalmazásának szükségességét. A szolgáltatásfolytonossági menedzser az előre megtervezett intézkedések megvalósítása mellett jogosult ad hoc intézkedések megtételére is."
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "A szolgáltatásfolytonossági időszak kezdetét és befejezését egyaránt kommunikálni kell az érintett ügyfél és szállító oldali partnerek számára. A teljes szolgáltatásfolytonossági időszak a normál működésre történő teljes visszaállás és a normál állapot konszolidálása után ér véget. A teljes szolgáltatásfolytonossági időszak okait, a kezelés módját és tapasztalatait utólag ki kell értékelni és a jelen szabályzatot, a vonatkozó megállapodásokat, munkautasításokat és más dokumentumokat az értékeléshez adaptálva kell korrigálni. A módosítások szükségességéről a szolgáltatásfolytonossági menedzser dönt."
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "2."
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "2.1. A szolgáltatásfolytonosság és az incidenskezelés és kapcsolata"
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "Azokról az incidensekről, melyek szolgáltatásfolytonossági veszélyhelyzetet idéznek elő, vagy annak ténye nem egyértelműen megállapítható, a szolgáltatásfolytonossági menedzsert értesíteni kell és azok utólagos kivizsgálásába is be kell vonni."
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "2.2. A szolgáltatásfolytonosság és a változáskezelés kapcsolata"
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "Azokról a változáskezelésekről, melyek hatással lehetnek a szolgáltatásfolytonossági intézkedésekre és tervekre is, értesíteni kell a szolgáltatásfolytonossági menedzsert, aki köteles a szükséges korrekciókat elvégezni a szolgáltatásfolytonossági terveken és munkautasításokon. Amennyiben egy változás nehezen vagy csak hosszabb idő alatt, jelentős erőforrások bevonásával kezelhető szolgáltatásfolytonossági oldalról, akkor a szolgáltatásfolytonossági menedzser kérheti a változtatás elutasítását vagy bevezetésének elhalasztását. Vitás esetben a változáskezelés megvalósításáról az Információ Biztonsági Szabályzat (a továbbiakban: IBSz) szerinti információbiztonsági igazgató dönt."
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "2.3. A szolgáltatásfolytonosság és a szolgáltatási szint menedzsment kapcsolata"
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "Az SLA-megállapodásokban rendelkezni kell arról, hogy szolgáltatásfolytonossági veszélyhelyzetben a felek milyen tevékenységeket kötelesek elvégezni, illetve a szolgáltató milyen szolgáltatási szinteket és helyreállítási opciókat vállal szolgáltatásfolytonosság helyzet kialakulása esetén."
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "2.4. A szolgáltatásfolytonosság és az információbiztonság kapcsolata"
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "Az IBSz előírásait fokozottan be kell tartani válaszintézkedések kialakításakor, alkalmazásakor és a normál működésre való visszaálláskor egyaránt."
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "A szolgáltatásfolytonossági helyzet utólagos felülvizsgálatát az információbiztonság szempontjából is el kell végezni."
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "Minden olyan kérdésben, amelyről a szolgáltatásfolytonossági menedzser úgy ítéli meg, hogy az kiemelt kockázatot jelent információbiztonsági szempontból, az információbiztonsági igazgatót minden esetben tájékoztatni kell."
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "Záró rendelkezések"
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "3.1. Az NFGM valamennyi, informatikai eszközöket használó személye (felhasználója) számára kötelező az ISZSZ általános rendelkezéseinek, valamint az általa ellátott feladatokra vonatkozó részeinek ismerete."
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "A külsős munkatársak részére a szabályzat ismertetése az őket felügyelő és/vagy velük szerződésben álló szervezeti egységek feladata."
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "Az utasítás rendelkezéseit minden újonnan üzembe helyezett informatikai rendszer esetében teljeskörűen alkalmazni kell."
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "Az ISZSZ rendelkezéseit a szállítókkal történő szerződéskötéskor is figyelembe kell venni."
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "Az utasítást évente felül kell vizsgálni a jogszabályi környezet és a szakmai-technikai feltételek változása szempontjából."
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "3.2."
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "3.3. Ez az utasítás a közzétételt követő napon lép hatályba."
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "3.4. Az utasítás 3.2 pontja a közzétételt követő második napon hatályát veszti."
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "Az SZFB tagjai"
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "Az SZFB-t a szolgáltatásfolytonossági menedzser hívja össze szolgáltatásfolytonossági veszélyhelyzet kialakulása vagy annak potenciális lehetősége miatt, a szolgáltatásfolytonossági intézkedések felülvizsgálata, módosítása vagy tesztelése céljából."
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "A bizottsági ülés formáját, helyszínét, egyéb adatait a szolgáltatásfolytonossági menedzser jelöli ki."
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "* A szolgáltatásfolytonossági menedzser a szolgáltatásfolytonossági veszélyhelyzetnek megfelelően hívja meg esetileg azokat az illetékes személyeket és szakembereket, akik a fenti listában nem szerepelnek, de az adott szolgáltatásfolytonossági veszélyhelyzet kezelésében érintettek."
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "Veszélyek és kockázatok besorolása"
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "Szolgáltatásfolytonosság szempontjából kritikus alkalmazások"
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "Proaktív és reaktív intézkedések, alkalmazásaik"
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "NFGM IFO IT folytonossági tartalékintézkedések"
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "Az informatikai szolgáltatásfolytonosság folyamata"
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "Az informatikai szolgáltatásfolytonosság kezelésének folyamatát a következő ábra szemlélteti."
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "1. ábra – Az NFGM informatikai szolgáltatásfolytonosság kezelésének modellje 1 Az utasítást a 18/2014. (VII. 4.) NGM utasítás 2. § 1. pontja hatályon kívül helyezte 2014. július 5. napjával. 2 A 3.2. pontot a 3.4. pont hatályon kívül helyezte."
+    }
+  ]
+}

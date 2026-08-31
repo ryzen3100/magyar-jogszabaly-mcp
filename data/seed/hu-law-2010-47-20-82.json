@@ -1,0 +1,415 @@
+{
+  "id": "hu-law-2010-47-20-82",
+  "type": "statute",
+  "title": "47/2010. (IV. 27.) FVM rendelet a globális műholdas helymeghatározó rendszerek alkalmazásával végzett pontmeghatározások végrehajtásáról, dokumentálásáról, ellenőrzéséről, vizsgálatáról és átvételéről",
+  "status": "repealed",
+  "in_force_date": "2010-05-05",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2010-47-20-82",
+  "description": "a globális műholdas helymeghatározó rendszerek alkalmazásával végzett pontmeghatározások végrehajtásáról, dokumentálásáról, ellenőrzéséről, vizsgálatáról és átvételéről",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "chapter": "I. Fejezet - ÉRTELMEZŐ RENDELKEZÉSEK",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § E rendelet alkalmazásában: 1. GNSS: a globális műholdas helymeghatározó rendszerek (GPS NAVSTAR, GLONASSZ, Galileo, COMPASS, GINSS) közös elnevezése; 2. WGS 84: a GPS rendszer hivatalos vonatkoztatási rendszere, geocentrikusan elhelyezett ellipszoid; 3. ETRS89: a GNSS méréseknek az európai kontinensen érvényes térbeli derékszögű (XYZ) vonatkoztatási rendszere; 4. EUREF: az európai szintű geodéziai vonatkoztatási rendszerek fenntartásáért és fejlesztéséért felelős szakmai szervezet; 5. EPN (EUREF Permanens Hálózat): az ETRS89 referencia rendszert a gyakorlatban megtestesítő aktív GNSS hálózat; 6. Aktív GNSS hálózat: GNSS referencia állomások magyarországi hálózata; 7. EOV (Egységes Országos Vetületi rendszer): ferdetengelyű, szögtartó, süllyesztett hengervetület, az állami térképek vetületi rendszere; 8. HD72: a magyarországi vízszintes alappont-hálózat vonatkoztatási rendszere; 9. EOVA (Egységes Országos Vízszintes Alaphálózat): az egységes országos vetületi rendszert fizikailag képviselő vízszintes alappontok hálózata; 10. OGPSH (Országos GPS Hálózat): az EOVA hálózatból kiválasztott, az ETRS89 rendszerben GPS mérésekkel meghatározott alappontokból álló hálózat; 11. EOMA (Egységes Országos Magassági Alaphálózat): a balti alapszintre vonatkozó normál magassági rendszer; 12. Integrált geodéziai alappont: több mérési technikával – GNSS, szintezés, és lehetőleg gravimetriai mérés is – meghatározott mérőszámokkal jellemzett alappont; 13. Permanens állomás: ismert alapponton folyamatosan észlelő GNSS vevőberendezés; 14. Referencia állomás: az aktív GNSS hálózat részét képező, hitelesített és minőségbiztosítással ellátott permanens állomás; 15. Bázisállomás: korábban meghatározott alapponton felállított, a relatív helymeghatározásokhoz szükséges referencia-méréseket végző GNSS vevőberendezés; 16. Virtuális állomás: a referencia állomások méréseire támaszkodva, az aktív GNSS hálózattal lefedett terület tetszőleges helyére generált virtuális mérési adatok, korrekciók; 17. Fázis-többértelműség: a GNSS vevő és a műhold közötti távolságra eső vivőhullám egész ciklusszámának bizonytalansága; 18. Fix megoldás: a fázis-többértelműség egész számként történő meghatározása; 19. Float megoldás: sikertelen fix megoldás esetén alkalmazott közelítő megoldás; 20. PDOP: a műholdak geometriai helyzetéből levezethető, a háromdimenziós pozíció várható pontosságát jellemző mérőszám; 21. Ppm (parts per million): relatív pontossági egység, az adott egység egy milliomod része; 22. Konfidencia intervallum: adott szignifikancia-szinten a becsült változó alsó és felső korlátja; 23. Root Mean Square (RMS): a térbeli vektor meghatározási középhibája; 24. RTK (Real Time Kinematic): valós idejű kinematikus helymeghatározás, amikor a helymeghatározást végző vevők különálló bázis-, permanens- vagy referencia állomásokra támaszkodnak; 25. Hálózati RTK: az országos hálózatban elhelyezett referencia állomások méréseire támaszkodó, a felhasználó pozíciójára optimalizált valós idejű adatok előállítása a homogén pontosságú helymeghatározások biztosítására; 26. Félkinematikus módszer: „stop and go” technikával végzett mérés; 27. RINEX: utófeldolgozáshoz használt, a vevők típusától független egységes GNSS ASCII adatformátum; 28. EHT2 (EUREF-EOV Hivatalos Helyi Térbeli Transzformáció): az OGPSH-ra támaszkodó, egységes, országos, ETRS89-EOV referencia rendszerek közötti lokális, 7 paraméteres Helmert transzformáció; 29. VITEL: valós idejű GNSS helymeghatározásnál használatos terepi transzformációs eljárás, az EHT2 valós idejű változata; 30. GNSS Szolgáltató Központ: a helymeghatározás pontosságának javítására a beérkezett GNSS mérési adatok feldolgozásával valós idejű korrekciókat és utófeldolgozáshoz szükséges adatokat előállító és szolgáltató szervezet. 31. Epocha: GNSS mérések egységnyi időtartama, átlagos értéke utófeldolgozással való mérés esetén 15 másodperc, valós idejű mérésnél 1 másodperc."
+    },
+    {
+      "provision_ref": "s2",
+      "chapter": "II. Fejezet - GNSS VONATKOZTATÁSI RENDSZEREK",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § (1) A GNSS vonatkozatási rendszerének a fizikai megvalósítását az OGPSH-, valamint az aktív GNSS hálózat pontjai képezik. E hálózatok létesítése, fenntartása és üzemeltetése a Földmérési és Távérzékelési Intézet (a továbbiakban: FÖMI) hatáskörébe tartozik. (2) Az OGPSH hálózat létesítése során 80 km2/pont sűrűséggel kell biztosítani az EOVA, EOMA geodéziai vonatkoztatási rendszerekkel való kapcsolatot, valamint az OGPSH vonatkozási rendszere és az EOV közötti transzformáció végrehajtását. (3) Az aktív GNSS hálózat pontjait képező referencia állomások létesítése során biztosítani kell a 3000 km2/állomás pontsűrűséget az általános földmérési és térképészeti feladatok ellátásához. (4) A GNSS referencia állomások létesítését, fenntartását, üzemeltetését, a valós idejű korrekciók és utólagos felhasználású referencia mérések előállítását, valamint a GNSS felhasználók támogatását a FÖMI GNSS Szolgáltató Központja végzi."
+    },
+    {
+      "provision_ref": "s3",
+      "chapter": "II. Fejezet - GNSS VONATKOZTATÁSI RENDSZEREK",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) Az aktív GNSS hálózat referencia állomásának létesítése során biztosítani kell, hogy a) a referencia pont periodikus mozgásának amplitúdója vízszintes értelemben kisebb legyen, mint 5 mm és magassági értelemben kisebb legyen, mint 10 mm; b) a pontnak a környező pontokhoz viszonyított relatív sebessége ne haladja meg az 5 mm/év értéket. (2) A referencia állomás pontleírásának tartalmaznia kell a) a referencia pont koordinátáinak értékeit ETRS89 (X, Y, Z és φ, λ, h), valamint EOV(y, x, H) vonatkozási rendszerekben, és b) az antenna és környékének fényképét az elsődleges környezeti hatások bemutatása céljából. (3) A felhasználók számára tájékoztatás céljából nyilvános számítógépes hálózaton on-line módban a referencia állomásokra vonatkozóan a FÖMI GNSS Szolgáltató Központjának elérhetővé kell tenni a következő adatokat: a) valós időben mely műholdakra történik az észlelés, b) az észlelt műholdak számát az idő függvényében lehetséges, vagy tényleges ábrával, és c) a referencia állomás koordinátáinak változását éves idősor ábrában, a napi rendszerességgel végzett ellenőrző feldolgozások eredményének grafikus ábrázolásával."
+    },
+    {
+      "provision_ref": "s4",
+      "chapter": "II. Fejezet - GNSS VONATKOZTATÁSI RENDSZEREK",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) Új referencia állomás létesítése esetén az állomás tervezett helyén a GNSS frekvenciákon interferencia-méréseket kell végezni. Zavaró rádiójelek kimutatása esetén, annak megszüntetése céljából, értesíteni kell a zavarás megszüntetésére hatáskörrel rendelkező hatóságot. (2) A referencia állomás tervezett helyén el kell végezni az észlelést befolyásoló környezeti hatások vizsgálatát. A referencia állomást úgy kell elhelyezni, hogy 15 fokos magassági szög felett ne legyen kitakaró objektum, és ez az állapot hosszabb távon is fenntartható legyen. (3) Az új referencia állomás koordinátáit az állami földmérés aktív GNSS hálózatára, valamint az EPN-re támaszkodva kell meghatározni. (4) A meghatározást legkevesebb három hétig tartó, napi 24 órás mérésekkel, tudományos szintű feldolgozó programmal kell elvégezni."
+    },
+    {
+      "provision_ref": "s5",
+      "chapter": "III. Fejezet - A GNSS ALKALMAZÁSÁVAL VÉGZETT PONTMEGHATÁROZÁSOK ÁLTALÁNOS SZABÁLYAI",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § Az állami alapadatok felhasználásával végzett földmérési és térképészeti tevékenység keretében a GNSS technológia alkalmazásával történő pontmeghatározásokat – a felmérési alappontok és részletpontok meghatározása – csak a 2. § (1) bekezdésében meghatározott vonatkoztatási rendszerekre támaszkodva kell végezni."
+    },
+    {
+      "provision_ref": "s6",
+      "chapter": "III. Fejezet - A GNSS ALKALMAZÁSÁVAL VÉGZETT PONTMEGHATÁROZÁSOK ÁLTALÁNOS SZABÁLYAI",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § (1) A rendelet alkalmazásában az ötödrendű és a felmérési alappontok (a továbbiakban: felmérési alappontok) meghatározásának módja és pontossága azonos. Az újonnan meghatározott pontok állandósítását a rendűségének megfelelően kell elvégezni. (2) Alappontok meghatározását utólagos vagy valós idejű feldolgozással kell végrehajtani. (3) A felmérési alappontok meghatározásához szükséges állami alapadatok: a) a megyei földhivataloktól, országos szinten a FÖMI adat- és térképtárától, b) nyilvános számítógépes hálózaton keresztül a FÖMI szolgáltatása alapján, vagy c) valós idejű meghatározáshoz a FÖMI GNSS Szolgáltató Központ által nyújtott szolgáltatás keretében szerezhetők be. (4) Alappontot egyetlen ismert pontról mért vektorral meghatározni nem szabad, ilyen esetekben a pont meghatározásához további fölös méréseket kell mérni ismert pontokra. A fölös méréseket be kell vonni az új pontok koordinátáinak meghatározásába. (5) Alappont meghatározást kézben tartott vevővel végezni tilos. Az antennát a meghatározandó ponton a mérés idejére műszerállványon vagy igazított libellával és kitámasztókkal ellátott antennatartó rúdon kell helyezni és a ponton rögzíteni."
+    },
+    {
+      "provision_ref": "s7",
+      "chapter": "III. Fejezet - A GNSS ALKALMAZÁSÁVAL VÉGZETT PONTMEGHATÁROZÁSOK ÁLTALÁNOS SZABÁLYAI",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § (1) Korábban meghatározott, adott koordinátájú pontok esetében azon a pontjelen kell a mérést végezni, amelyen az eredeti meghatározás történt. A vasbetonlapos védőberendezéssel ellátott pontokon a fejelőkövet el kell távolítani és az anyaponton kell a mérést végezni. (2) Az iránypontok eredeti koordinátái a vasbetonlapokkal körülvett felső kőre vonatkoznak, ezért ezeknek a pontoknak a védőberendezését megbontani tilos."
+    },
+    {
+      "provision_ref": "s8",
+      "chapter": "III. Fejezet - A GNSS ALKALMAZÁSÁVAL VÉGZETT PONTMEGHATÁROZÁSOK ÁLTALÁNOS SZABÁLYAI",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § (1) A GNSS mérésekről a mérés helyszínén mérési jegyzőkönyvet kell készíteni. A jegyzőkönyv lehet elektronikus vagy manuális. A jegyzőkönyvnek tartalmaznia kell a) az álláspont azonosítóját, valamint utalást arra, hogy mérés végrehajtása virtuális állomás- vagy hálózati RTK alkalmazásával történt, b) a mérés dátumát, a GNSS vevő és GNSS antenna azonosítóját, az antennamagasságot, és c) az észlelő nevét. (2) Elektronikus jegyzőkönyvezésre nem alkalmas vevőknél manuális jegyzőkönyvben kell rögzíteni a mérési periódus kezdetének és befejezésének időpontját, a mérési fájl azonosítóját, valamint a mérést végző nevét. (3) A nem valós idejű méréseket úgy kell dokumentálni, hogy a dokumentáció alapján a mérési adatokból a pontmeghatározás nyomon követhető és újból számítható legyen. (4) Az antennának az alappont fölötti magasságát az antenna vonatkoztatási pontjáig kell mérni. A konkrét megoldást rajzzal vagy fotóval is lehet dokumentálni. (5) Egyfrekvenciás vevők geodéziai célú pontmeghatározásnál legfeljebb 15 km-es bázistávolságig használhatók. (6) Minden mérésnek ki kell elégítenie a pontmeghatározásra vonatkozó hibahatárt, az 1. mellékletben megadott követelmények szerint."
+    },
+    {
+      "provision_ref": "s9",
+      "chapter": "III. Fejezet - A GNSS ALKALMAZÁSÁVAL VÉGZETT PONTMEGHATÁROZÁSOK ÁLTALÁNOS SZABÁLYAI",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § (1) Saját bázisállomására támaszkodó alappont-meghatározás esetén a mérés szempontjából referencia pontként kell felhasználni a) OPGSH pontot, integrált geodéziai alappontot vagy az OPGSH vonatkoztatási rendszerében korábban már meghatározott, állami alapadatként elfogadott pontot, vagy b) ideiglenes, a mérés végrehajtása előtt még ismeretlen pontot, amelynek ETRS89 rendszerű koordinátáit legalább két OGPSH pontra vonatkozó GNSS-mérések felhasználásával, vagy az aktív GNSS hálózatra támaszkodva meg kell határozni. (2) A térbeli vektorok mérése szempontjából az alappont-sűrítést poláris vagy hálózatszerű elrendezéssel kell megoldani. (3) Poláris elrendezés esetén a relatív méréshez kiválasztott referencia ponton fel kell állítani a referencia-vevő antennáját és mindaddig végezni kell a folyamatos észlelést, ameddig az újonnan meghatározandó pontokon mérések folynak. (4) Hálózatszerű elrendezést akkor kell alkalmazni, ha az új pontok meghatározása azonos időintervallumban, több vevő alkalmazásával történik. (5) Az új pontokon végzett méréseknél a mérés időtartamát – a referencia vevő távolságának, az észlelhető műholdak számának, valamint a PDOP értékének függvényében – úgy kell megválasztani, hogy a fázis-többértelműség feloldása egész számként, fix megoldással nagy biztonsággal elvégezhető legyen. Alappont-meghatározás esetén float megoldás nem fogadható el."
+    },
+    {
+      "provision_ref": "s10",
+      "chapter": "III. Fejezet - A GNSS ALKALMAZÁSÁVAL VÉGZETT PONTMEGHATÁROZÁSOK ÁLTALÁNOS SZABÁLYAI",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § (1) Alappontok meghatározásánál ellenőrzés céljából fölös mérési adatokat kell biztosítani. (2) Egyetlen referencia pont használata esetén a mérést egyszerre több új ponton, több vevővel, szinkronban kell végrehajtani. Ebben az esetben a feldolgozás során vektorzárást vagy térbeli hálózatkiegyenlítést kell végezni. A referencia pont ellenőrzésére az új – meghatározandó – pontok közé fel kell venni legalább egy ismert, korábban már meghatározott pontot is. (3) Ha a mérés csak egy vevőpárral történik, az új pontok meghatározását legalább két referencia pontról kell elvégezni. (4) Az ellenőrzés elvégezhető hagyományos mérőeszközzel végzett irány- és távméréssel is. Irány- és távmérésnél két tájékozó irány és egy távolság mérését biztosítani kell. Csak irányméréssel történő ellenőrzés esetén legalább két – de lehetőség szerint több – korábban meghatározott alappontra menő tájékozó irányt kell mérni, ahol az iránypároknak 90 ±30 fokos szöget kell bezárni; a megengedett legnagyobb irányeltéréseket az 1. melléklet tartalmazza. (5) A hagyományos mérőeszközökkel végzett ellenőrző méréseket mérési és számítási jegyzőkönyvben dokumentálni kell."
+    },
+    {
+      "provision_ref": "s11",
+      "chapter": "III. Fejezet - A GNSS ALKALMAZÁSÁVAL VÉGZETT PONTMEGHATÁROZÁSOK ÁLTALÁNOS SZABÁLYAI",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § (1) GNSS infrastruktúrára támaszkodó alappont-meghatározás során a mérések végrehajtásához szükséges valós vagy virtuális referencia állomásokra vonatkozó ETRS89 rendszerbeli koordinátákat, nyers mérési adatokat RINEX formátumban a GNSS Szolgáltató Központ biztosítja. A hozzáférési jogosultsággal rendelkező felhasználók részére a referencia állomások adatai nyilvános számítógépes hálózaton keresztül letölthetők. (2) Alappont-meghatározás céljából végzett mérések ellenőrzését fölös mérési adatokat kell biztosítani a) két vagy több referencia állomás, vagy virtuális referencia állomás mérési adatainak felhasználásával, b) egy referencia állomás használata esetén több vevővel egyidejűleg több új ponton történő méréssel, amellyel meghatározható a vektorzárás, vagy elvégezhető a hálózatkiegyenlítés, c) egy referencia állomásra támaszkodó méréssel abban az esetben, ha legkevesebb 15 perc elteltével – új inicializálás mellett – megismételt mérést végeztek, vagy d) hagyományos mérőeszközökkel a 10. § (4) és (5) bekezdése szerint."
+    },
+    {
+      "provision_ref": "s12",
+      "chapter": "III. Fejezet - A GNSS ALKALMAZÁSÁVAL VÉGZETT PONTMEGHATÁROZÁSOK ÁLTALÁNOS SZABÁLYAI",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. § (1) A valós időben végzett alappont-meghatározások vonatkoztatási rendszereként az OGPSH hálózatot vagy az aktív GNSS hálózatot kell használni. Ha a meghatározás egyedi alappontokra támaszkodva történik, akkor referencia pontként az OGPSH rendszerében korábban, vagy a munka során már meghatározott és a rendűségének megfelelően azonosítható alappont használható fel. (2) A meghatározandó ponton a mérést az RTK fix megoldás elérése után – másodpercenkénti beállítással – legkevesebb 180 epochán keresztül kell folytatni."
+    },
+    {
+      "provision_ref": "s13",
+      "chapter": "III. Fejezet - A GNSS ALKALMAZÁSÁVAL VÉGZETT PONTMEGHATÁROZÁSOK ÁLTALÁNOS SZABÁLYAI",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. § (1) Saját bázisállomásra támaszkodó, saját bázist használó RTK mérésnél alappont-meghatározás ellenőrzéséhez szükséges fölös mérési adatokat kell biztosítani. (2) Ha az alappont-meghatározás egyetlen OGPSH hálózatban meghatározott ponton létesített bázisállomásra támaszkodik, valamennyi új alappontra vonatkozóan legalább 15 perc elteltével – új inicializálás mellett – megismételt mérést kell végezni. A bázisállomás ellenőrzésére a meghatározandó pontok közé legalább egy másik, az OGPSH hálózatban már meghatározott ponton is kell mérni. Ha a bevont OGPSH pont esetében hibahatárt meghaladó eltérés jelentkezik, akkor az ellenőrzésbe másik ismert OGPSH pontot is be kell vonni, és a hibahatárt meghaladó eltéréssel rendelkező pontról a FÖMI-t tájékoztatni kell. (3) A fölös mérési adatok valamennyi új alappontra vonatkozó, egy másik bázisállomásra támaszkodó megismételt méréssel is biztosíthatók. (4) Hagyományos mérőeszközökkel végzett mérés esetében a 10. § (4) és (5) bekezdése szerint kell eljárni."
+    },
+    {
+      "provision_ref": "s14",
+      "chapter": "III. Fejezet - A GNSS ALKALMAZÁSÁVAL VÉGZETT PONTMEGHATÁROZÁSOK ÁLTALÁNOS SZABÁLYAI",
+      "section": "14",
+      "title": "14. §",
+      "content": "14. § (1) GNSS infrastruktúrára támaszkodó, alap- és részletpontok meghatározására irányuló mérések esetében a hagyományos alappontokkal meghatározott referencia rendszert az aktív GNSS hálózat helyettesíti. RTK mérést csak az aktív GNSS hálózatra támaszkodva lehet végezni. (2) A FÖMI által működtetett hálózaton kívüli külső permanens állomás koordinátáit minden földmérési munkánál ismételten meg kell határozni a hivatalos vonatkoztatási rendszerben, és csatolni kell a leadandó munkarészekhez. A külső permanens állomás meghatározása és az új alappontok meghatározására irányuló mérések között eltelt idő nem lehet több 7 napnál. (3) Az alappont-meghatározást egyetlen referencia állomásra vagy több referencia állomás adatainak együttes felhasználására, hálózati RTK-ra támaszkodva kell elvégezni. Mindkét esetben a mérés megismétlése szükséges, az ismételt mérést új inicializálással kell végezni. Az alappont-meghatározásra referencia állomásokat használó RTK mérésnél az ellenőrzéshez szükséges fölös mérési adatokat kell biztosítani. (4) Egyetlen referencia állomásra támaszkodó alappont-meghatározás esetén valamennyi új alappontra vonatkozóan legkevesebb 15 perc elteltével – új inicializálás mellett – a mérést meg kell ismételni. Ha a referencia állomás távolsága és a feldolgozó szoftver lehetővé teszi, az újbóli RTK méréshez az elsőtől különböző referencia állomást kell választani. (5) Ha az alappont-meghatározás valamelyik hálózati RTK módszerrel történik, akkor valamennyi új alappontra vonatkozóan a mérést legkevesebb 15 perc elteltével, új inicializálás mellett meg kell ismételni. (6) Hagyományos mérőeszközökkel végzett mérés esetében a 10. § (4) és (5) bekezdése szerint kell eljárni."
+    },
+    {
+      "provision_ref": "s15",
+      "chapter": "IV. Fejezet - A GNSS RÉSZLETMÉRÉS ÁLTALÁNOS SZABÁLYAI",
+      "section": "15",
+      "title": "15. §",
+      "content": "15. § (1) Részletpontok meghatározása esetén referencia állomás lehet a) az aktív GNSS hálózat referencia állomása, b) a virtuális referencia állomás, az aktív GNSS hálózat vonatkoztatási rendszerének felhasználásával, c) az aktív GNSS hálózaton kívül üzemeltetett külső permanens állomás a 13. § (1) bekezdésében meghatározottak szerint, d) OGPSH hálózat pontja, vagy az OGPSH rendszerében korábban meghatározott és a földhivatal által átvett pont, vagy e) EOVA alappont, EOV-OGPSH transzformációval a 22. § előírásai szerint. (2) Az (1) bekezdés e) pontjában meghatározott esetben a vonatkoztatási rendszer ellenőrzésére a meghatározandó pontok közé legalább egy másik, már korábban meghatározott országos alappontot is be kell vonni. (3) Ideiglenes WGS 84 koordinátákkal meghatározott helyi térbeli rendszerű, vagy közelítő koordinátákkal rendelkező ismeretlen pont esetében a végleges koordinátákat csak EOV rendszerben kell kiszámítani. (4) Az egyedi transzformációs paraméterekkel végzett lokális transzformáció végrehajtását dokumentálni kell."
+    },
+    {
+      "provision_ref": "s16",
+      "chapter": "IV. Fejezet - A GNSS RÉSZLETMÉRÉS ÁLTALÁNOS SZABÁLYAI",
+      "section": "16",
+      "title": "16. §",
+      "content": "16. § (1) Utólagos feldolgozással végzett részletmérés során csak azok a mért pontok fogadhatók el, amelyekre a fázis-többértelműség értékét egész számként lehetett meghatározni. A részletpontok koordinátáinak meghatározására a float megoldás nem fogadható el. (2) A részletpontok koordinátáinak meghatározását ellenőrző méréssel vizsgálni kell. Az ellenőrzött részletpontok számát a 2. mellékletben megadott táblázat szerint kell meghatározni. (3) A mintavételezés a minőségellenőrzés tárgyát képező adatállomány által lefedett földrajzi térség teljes területét kihasználva, véletlenszerű kiválasztással történik. A mintaelemek kiválasztásakor ügyelni kell arra, hogy meghatározott részletpontokból a megfelelő mennyiségű részletpont kiválasztása történjen meg, a mérés kiterjedése szerinti csoportokban és területileg is egyenletes eloszlásban. (4) A félkinematikus módszerrel mért részletpontok ellenőrzése történhet: a) új inicializálással történő megismételt félkinematikus GNSS méréssel, ugyanazon referencia pont mellett, b) megismételt GNSS méréssel, az eredetitől eltérő referencia pont alkalmazásával, c) megismételt GNSS méréssel, az eredetitől eltérő mérési módszerrel, utófeldolgozással vagy valós idejű (RTK) módszerrel, vagy d) a részletpontok közötti távolságok mérésével, legalább két, korábban már meghatározott ismert pont bevonásával. (5) A részletmérés során meghatározott részletpontok ellenőrzése elvégezhető hagyományos mérőeszközökkel végzett irány- és távméréssel, az alábbi módon: a) alapponton vagy az ellenőrzésbe bevont pontokkal azonos rendű részletponton létesített álláspontról az ellenőrzendő részletpontokra vagy korábban meghatározott alappontokra irány- és távolságmérést, vagy távolságmérést kell végezni, b) a mérési eredmények alapján számítani kell a tájékozás irány- és hossz eltéréseit, az ellenőrzésbe vont részletpontok poláris koordinátaméréssel meghatározott koordinátáit, és c) az irány-, hossz- és a koordináta eltérések mértékét az 1. melléklet szerint kell meghatározni."
+    },
+    {
+      "provision_ref": "s17",
+      "chapter": "IV. Fejezet - A GNSS RÉSZLETMÉRÉS ÁLTALÁNOS SZABÁLYAI",
+      "section": "17",
+      "title": "17. §",
+      "content": "17. § (1) Saját bázisra támaszkodó, valós időben végzett részletmérés esetén a saját bázist az OPGSH pontjaira vagy az ETRS89 rendszerben korábban meghatározott és a földhivatal által átvett alappontokra támaszkodva kell létesíteni. Mérési adatok rögzítését akkor szabad megkezdeni, amikor a mérőeszközön kijelzett pontossági érték – vízszintes értelmű ponthiba, 95%-os konfidenciánál – el nem éri a ±3 cm-t. A részletponton a mérést – másodpercenkénti mérés beállítással – legkevesebb 2 epochán keresztül kell folytatni. (2) A részletpontok ellenőrzését a 16. § (2)–(5) bekezdése szerint kell elvégezni."
+    },
+    {
+      "provision_ref": "s18",
+      "chapter": "IV. Fejezet - A GNSS RÉSZLETMÉRÉS ÁLTALÁNOS SZABÁLYAI",
+      "section": "18",
+      "title": "18. §",
+      "content": "18. § (1) GNSS infrastruktúrára támaszkodó, valós időben végzett részletmérés során a mérési adatok rögzítését akkor szabad megkezdeni, amikor a mérőeszközön kijelzett pontossági érték – vízszintes értelmű ponthiba, 95%-os konfidenciánál – el nem éri a ±3 cm-t. A részletponton a mérést – másodpercenkénti mérés beállítással – legkevesebb 2 epochán keresztül kell folytatni. (2) A részletpontok ellenőrzését a 16. § (2)–(5) bekezdése szerint kell elvégezni."
+    },
+    {
+      "provision_ref": "s19",
+      "chapter": "IV. Fejezet - A GNSS RÉSZLETMÉRÉS ÁLTALÁNOS SZABÁLYAI",
+      "section": "19",
+      "title": "19. §",
+      "content": "19. § Részletpontok GNSS technikával való kitűzése során a kitűzést követően valamennyi kitűzött részletpontot be kell mérni. Az ellenőrző RTK bemérés dokumentálására a 29. § előírásait kell alkalmazni."
+    },
+    {
+      "provision_ref": "s20",
+      "chapter": "V. Fejezet - A GNSS MÉRÉSEK FELDOLGOZÁSA",
+      "section": "20",
+      "title": "20. §",
+      "content": "20. § (1) Térbeli vektorok számítása esetén a vektorszámítást a mérést végző akkor fogadhatja el, ha a fázis-többértelműség egész szám. A fázis-többértelműségre vonatkozó információt a vektorkiértékelési naplófájlban tárolni kell. (2) Egy térbeli vektor meghatározási középhibája nem haladhatja meg a ±10 mm + 1 ppm értéket. (3) Ha a meghatározott térbeli vektorokból zárt poligonokat alakítanak ki, akkor a vektorzárás komponensenként nem haladhatja meg a ±2 cm-t. A vektorzárás számítható külön vízszintes és magassági komponensekre, ez esetben a ±2 cm-es hibahatár csak a vízszintes komponensekre vonatkozik. Hálózatkiegyenlítés esetén a vektorzárás bemutatása nem szükséges."
+    },
+    {
+      "provision_ref": "s21",
+      "chapter": "V. Fejezet - A GNSS MÉRÉSEK FELDOLGOZÁSA",
+      "section": "21",
+      "title": "21. §",
+      "content": "21. § (1) Az új pontok ETRS89 rendszerű koordinátáinak számításához adott pontként az OGPSH hálózat pontjait, az aktív GNSS hálózat referencia állomásait, valamint az ETRS89 rendszerben meghatározott EOVA alappontokat kell felhasználni. (2) Az új pontok ETRS89 végleges koordinátáit – az adott pontok és a mért vektorok felhasználásával – közepeléssel vagy térbeli hálózat-kiegyenlítéssel kell kiszámítani. (3) Ha az alappontok térbeli koordinátáinak számítása közepeléssel történik, és csak egy referencia pont kerül felhasználásra, akkor a koordináta középértéke és a számításba bevont koordináta közötti eltérés nem lehet több mint ±3 cm. (4) Ha az alappontok számítása közepeléssel történik, és több adott pont kerül felhasználásra, akkor a koordináta középértéke és a számításba bevont koordináta közötti eltérés nem lehet több mint ±3 cm. (5) Ha az alappontok térbeli koordinátáinak számítása hálózatkiegyenlítéssel történik, a kiegyenlítés akkor fogadható el, ha az új pontok koordináta középhibái vízszintes értelemben nem haladják meg a ±3 cm-t. (6) Az ETRS89 rendszerű koordinátákat térbeli derékszögű koordináták (X, Y, Z), vagy földrajzi ellipszoidi koordináták (φ, λ, h) formájában lehet dokumentálni. A metrikus adatokat mm élességgel, a földrajzi koordinátákat 0,0001” élességgel kell közölni."
+    },
+    {
+      "provision_ref": "s22",
+      "chapter": "V. Fejezet - A GNSS MÉRÉSEK FELDOLGOZÁSA",
+      "section": "22",
+      "title": "22. §",
+      "content": "22. § (1) A GNSS eljárásokkal meghatározott pontokat OGPSH-EOV transzformáció alkalmazásával az állami térkép vetületi rendszerébe kell transzformálni. (2) Utófeldolgozás esetében a hitelesített EHT2 alkalmazást vagy azzal egyenértékű szoftvert kell használni. (3) Nem hitelesített transzformációs eljárás alkalmazása esetén az eljárás megfelelőségét az EHT2 alkalmazással kell ellenőrizni, legalább két pont újbóli átszámításával. (4) Utófeldolgozás esetében a hitelesített EHT2 alkalmazást kell használni, mely esetben az ott megadott dokumentáció csatolása szükséges digitálisan vagy nyomtatott formában. (5) Bármely más, azonos eredményt szolgáltató, nem hitelesített transzformációs eljárás vagy transzformációs modell alkalmazása esetén az eljárás megfelelőségét az EHT2 alkalmazással kell ellenőrizni, legalább két pont újbóli átszámításával."
+    },
+    {
+      "provision_ref": "s23",
+      "chapter": "V. Fejezet - A GNSS MÉRÉSEK FELDOLGOZÁSA",
+      "section": "23",
+      "title": "23. §",
+      "content": "23. § (1) A geocentrikus koordináták átszámítását az EOV/EOMA rendszerbe nem hitelesített transzformációs eljárás alkalmazásával, legkevesebb 4 közös pont alapján kell elvégezni. (2) Az (1) bekezdés szerinti esetben a közös pontokat elsősorban a munkaterületen lévő, valamint az azt körülvevő OGPSH pontokból, vagy integrált geodéziai alappontok közül úgy kell kiválasztani, hogy a) a legtávolabbi közös pontok közötti távolság ne haladja meg a 30 kilométert, b) a jobb vízszintes értelmű helyi illeszkedés érdekében a közös pontok közé be lehet vonni az ETRS89 rendszerben adott koordinátákkal is rendelkező EOVA alappontok is, és c) a közös pontok geometriája optimális legyen, minden égtáj irányában legyen kiválasztott pont."
+    },
+    {
+      "provision_ref": "s24",
+      "chapter": "V. Fejezet - A GNSS MÉRÉSEK FELDOLGOZÁSA",
+      "section": "24",
+      "title": "24. §",
+      "content": "24. § (1) A transzformáció végrehajtása után a maradék ellentmondások vízszintes értelemben nem léphetik túl a ±10 cm-t. Azokat a pontokat, ahol a maradék ellentmondás ±10 cm-nél nagyobb, a transzformációból ki kell zárni, valamint felül kell vizsgálni a pontok EOV és OGPSH koordinátáit. Ha a felülvizsgálat során egy OGPSH pont koordinátáinak megbízhatósága kérdésessé válik, arról a FÖMI-t tájékoztatni kell. (2) Ha a mérés során a pontok magasságágának meghatározását is végzik, a magasságmérés megbízhatóságának fokozása érdekében szintezési alappontokat és integrált geodéziai alappontokat is be kell vonni a GNSS mérésbe, valamint a transzformációba."
+    },
+    {
+      "provision_ref": "s25",
+      "chapter": "V. Fejezet - A GNSS MÉRÉSEK FELDOLGOZÁSA",
+      "section": "25",
+      "title": "25. §",
+      "content": "25. § (1) Valós idejű mérések esetében a feldolgozást a mozgó vevő végzi a helyszínen. A mérési paraméterek megfelelő beállítása és a beállított hibahatárok ellenőrzése a mérést végző feladata. (2) A mérés során a beállított mérési paraméterekre, a felhasznált referencia pontra és a részletpontok pontossági mérőszámaira vonatkozó adatokat 28. § előírásai szerint kell dokumentálni."
+    },
+    {
+      "provision_ref": "s26",
+      "chapter": "VI. Fejezet - ELLENŐRZÉS",
+      "section": "26",
+      "title": "26. §",
+      "content": "26. § (1) Ha az alappont meghatározásakor a mérést végző az ellenőrző méréshez szükséges fölös méréseket biztosította, és a számítást az összes mérés figyelembevételével, a megadott hibahatárok betartásával végezte el, további ellenőrző méréseket nem kell végezni. (2) Ellenőrzési jegyzőkönyvet kell készíteni, ha külön ellenőrző mérésekre kerül sor, vagy olyan mérések esetében, amelyeket az új pontok meghatározásába nem vontak be. (3) Ha az új pontok között ellenőrzés céljából adott koordinátájú pontokat is meghatároztak, akkor az EOV rendszerben adott koordináták és a GNSS mérés alapján számított vízszintes koordináták közötti eltérés legfeljebb ±5 cm lehet. Ennél nagyobb eltérés esetén a pontot ellenőrzésbe bevonni nem lehet. (4) Alappontok mérése esetén, ha az eredeti pontmeghatározástól függetlenül, de ugyanazon adott pontok, vagy az eredeti meghatározásba bevont pontok felhasználásával az alappontok koordinátáit újból meghatározzák, akkor az eredeti és az újbóli mérésből kapott EOV koordináták közötti eltérés legfeljebb ±3 cm lehet. (5) Részletpontok ismételt meghatározása során az eredeti és az ismételt mérésből kapott EOV koordináták közötti eltérés meghatározására az állami alapadatok felhasználásával végzett sajátos célú földmérési és térképészeti tevékenységről szóló 46/2010. (IV. 27.) FVM rendelet 3. mellékletének A) táblázatában foglalt eltéréseket kell figyelembe venni."
+    },
+    {
+      "provision_ref": "s27",
+      "chapter": "VI. Fejezet - ELLENŐRZÉS",
+      "section": "27",
+      "title": "27. §",
+      "content": "27. § (1) Hagyományos mérőeszközök alkalmazásával végzett ellenőrző mérések kiértékelése esetén az irány- és távolságeltéréseket az 1. melléklet előírásai szerint kell számítani. (2) A GNSS vektorok vagy GNSS koordináták, valamint az irány- és távmérések felhasználásával együttes hálózat alakítható ki. Ebben az esetben az irányeltérésekre és a távolságeltérésekre vonatkozó hibahatárként az 1. mellékletben szereplő hibahatár 75%-át kell figyelembe venni."
+    },
+    {
+      "provision_ref": "s28",
+      "chapter": "VII. Fejezet - A GNSS PONTMEGHATÁROZÁS DOKUMENTÁLÁSA",
+      "section": "28",
+      "title": "28. §",
+      "content": "28. § (1) A GNSS mérések utófeldolgozása során a mérőeszközhöz tartozó feldolgozó programmal előállított dokumentumban szereplő idegen nyelvű meghatározásokat magyar nyelvű fordítással kell ellátni. (2) A mérés dokumentálásához szükséges munkarészeket – a mérési és feldolgozási folyamat automatizáltságára és az adatok nagy terjedelmére tekintettel – csak elektronikus formában kell elkészíteni. Az elektronikus munkarészek elkészítése meghatározott formátumhoz nincs kötve. (3) A mérőeszközhöz tartozó feldolgozó program által előállított elektronikus munkarészek alapvető tartalmi követelményeit a 30. és 31. § előírásai határozzák meg. A munkarészek ennél több adatot is tartalmazhatnak, ha a megjelenő adatok mennyisége és formátuma a felhasználó által szabályozható. (4) Elektronikusan vagy nyomtatott formában a 30. § (2)–(3) és (5) bekezdésében, valamint a 31. § (1), (4)–(6) bekezdésében meghatározott munkarészeket kell leadni. (5) A nyomtatásban leadandó munkarészeket címlappal kell ellátni. A címlapnak tartalmaznia kell a) a munkaterület megnevezését, b) a készítés időpontját, c) a munka elvégzésével megbízott vállalkozás nevét és d) a munka azonosítóját, valamint a munkaszámot. A rajzi munkarészekhez külön címlapot készíteni nem kell, a szükséges adatokat a rajzon kell feltüntetni. (6) A GNSS mérés végeredménye az újonnan meghatározott pontok koordináta-jegyzéke EOV rendszerben a balti alapszintre vonatkozó magassági adatokra vonatkoztatva."
+    },
+    {
+      "provision_ref": "s29",
+      "chapter": "VII. Fejezet - A GNSS PONTMEGHATÁROZÁS DOKUMENTÁLÁSA",
+      "section": "29",
+      "title": "29. §",
+      "content": "29. § (1) A valós idejű mérés dokumentációját úgy kell elkészíteni, hogy az egybázisos RTK eljárás, és a hálózati RTK eljárás alkalmazása megkülönböztethető legyen. Az egybázisos RTK eljárásban a referencia pont lehet bázisállomás, permanens állomás, valamint referencia állomás. (2) Az egybázisos valós idejű mérést a (3) bekezdésben és a 31. §-ban meghatározott munkarészekkel, valamint olyan RTK jegyzőkönyvvel kell dokumentálni, amely tartalmazza a) a felhasznált referencia pont azonosítóját és ETRS89 vagy EOV rendszerbeli koordinátáit, valamint b) az aktív GNSS hálózat állomásai kivételével a referencia pont antennamagasságát és az antenna típusát. (3) Mindkét mérési típusnál dokumentálni kell a) az aktív GNSS hálózat használatánál a GNSS Szolgáltató Központ honlapjáról letölthető igazolást, a méréseket dokumentáló, kódszámmal ellátott listával, b) a méréseket végző személy nevét, c) a mért részletpontokon használt antenna típusát és az antennamagasságot, d) az alkalmazott OGPSH-EOV transzformációs eljárás dokumentációját, e) VITEL alkalmazása esetén a felhasználói licenc számát, f) saját számítású lokális transzformáció esetén az alkalmazott szoftver nevét, azonosítóját, g) a mért pontok koordinátáit EOV rendszerben és a pont mérésének időpontját, valamint h) a mért pontok pontossági mérőszámait (vízszintes ponthiba, magassági középhiba, térbeli ponthiba és koordináta-középhibák)."
+    },
+    {
+      "provision_ref": "s30",
+      "chapter": "VII. Fejezet - A GNSS PONTMEGHATÁROZÁS DOKUMENTÁLÁSA",
+      "section": "30",
+      "title": "30. §",
+      "content": "30. § (1) A GNSS pontmeghatározások földhivatali vizsgálatához és átvételéhez a (2)–(6) bekezdésben és a 31. §-ban meghatározott munkarészeket kell leadni. (2) A pontmeghatározásokról meghatározási tervet kell készíteni, amely alkalmas méretarányban megjeleníti a felhasznált, már korábban meghatározott alappontokat, az újonnan meghatározott alappontokat és a számított vektorokat. Poláris elrendezés esetén referencia pontonként külön-külön is elkészíthető. (3) Ha a rajz telítettsége miatt a vázlat nem áttekinthető, akkor a meghatározási terv helyettesíthető a mérések időbeli lefolyását bemutató grafikonnal (idődiagram, Gannt diagram). Hálózatkiegyenlítés esetén a meghatározási tervnek ábrázolnia kell a kiegyenlítésbe bevont összes vektort, valamint az adott és új pontokat. (4) A mérési jegyzőkönyvnek tartalmaznia kell a 8. § (1), (2) és (4) bekezdésében meghatározott adatokat elektronikus formában vagy manuálisan elkészítve. Az elektronikus mérési jegyzőkönyvet a vektorkiértékelési naplófájl helyettesíti, ha az a megadott adatokat tartalmazza. Utólagos feldolgozásnál a nyers mérési adatokat – beleértve a referencia-méréseket is – elektronikus (RINEX) formátumban kell benyújtani. (5) Az ellenőrzési jegyzőkönyvben dokumentálni kell a felhasznált pontok koordinátáit vagy az azokból számított adatokat, a vizsgálati adatokat, az eltéréseket és a hibahatárokat. (6) A térbeli kiegyenlítés jegyzőkönyvének tartalmaznia kell a felhasznált pontok és az újonnan meghatározott pontok koordinátáit, az új pontok kiegyenlített koordinátáit és középhibáit, a számításba bevont vektorok összetevőit és javításaikat."
+    },
+    {
+      "provision_ref": "s31",
+      "chapter": "VII. Fejezet - A GNSS PONTMEGHATÁROZÁS DOKUMENTÁLÁSA",
+      "section": "31",
+      "title": "31. §",
+      "content": "31. § (1) A transzformációs jegyzőkönyvnek tartalmaznia kell a transzformációs eljárás jellegét, a közös pontok azonosítóit és a maradék-ellentmondásokat, külön vízszintes és magassági értelemben (EHT2 output lista). (2) A transzformációs vázlaton a közös pontok elhelyezkedését kell ábrázolni alkalmas méretarányban, a munkaterület körvonalával kiegészítve. Ha a transzformáció a VITEL vagy az EHT2 alkalmazással történt, transzformációs vázlatot nem kell készíteni. (3) A vektorkiértékelési naplófájlnak tartalmaznia kell a kiértékelt vektor kezdő- és végpontjának azonosítóját, a mérés kezdő és záró időpontját (vagy időtartamát), a vektor-összetevőket és a kovariancia elemeket. A fázis-többértelműség feloldására alkalmazott megoldásra utalni kell. Ha a naplófájl a mérőeszköz pontraállásra (antennatípusra, antennamagasságra) vonatkozó adatait is tartalmazza, külön mérési jegyzőkönyvet nem kell készíteni. (4) Az ETRS89 koordináta-jegyzékben számsorrendben fel kell tüntetni a felhasznált alappontok és az újonnan meghatározott pontok számát, állandósításának módját és ETRS89 koordinátáit, X, Y, Z vagy φ, λ, h formában. Részletmérés esetén csak a felhasznált alappontok ETRS89 koordinátáit kell közölni. (5) Az EOVA és az EOMA koordináta-jegyzékben számsorrendben kell feltüntetni a felhasznált pontok és az újonnan meghatározott pontok számát, állandósításának módját, EOV koordinátáit (y, x) és Balti alapszint feletti M magasságát cm élességgel, valamint az ingatlan-nyilvántartás tartalmát érintő sajátos célú földmérési és térképészeti tevékenység végzésének általános előírásairól szóló jogszabály szerinti pontkódokat. A felhasznált vízszintes és magassági alappontokat a pontok rendűségének megfelelően el kell különíteni. (6) Műszaki leírást kell készíteni az elvégzett munkafeladat és az alkalmazott technológia rövid leírásával, amely tartalmazza a vonatkoztatási rendszerre, a transzformációs megoldásra, valamint a mérés és feldolgozás körülményeire utaló leírást is."
+    },
+    {
+      "provision_ref": "s32",
+      "chapter": "VIII. Fejezet - A GNSS TECHNIKÁVAL VÉGZETT MUNKÁK FÖLDHIVATALI VIZSGÁLATA ÉS ÁTVÉTELE",
+      "section": "32",
+      "title": "32. §",
+      "content": "32. § GNSS alkalmazásával végzett geodéziai munkák földhivatali átvételét a 3. mellékletben meghatározott „GNSS alkalmazásával végzett pontmeghatározások és kitűzések átvételi jegyzőkönyve” alapján kell végezni."
+    },
+    {
+      "provision_ref": "s33",
+      "chapter": "VIII. Fejezet - A GNSS TECHNIKÁVAL VÉGZETT MUNKÁK FÖLDHIVATALI VIZSGÁLATA ÉS ÁTVÉTELE",
+      "section": "33",
+      "title": "33. §",
+      "content": "33. § (1) Az átvételi jegyzőkönyv 1–2. pontjában a hivatalos referencia rendszer és a hivatalos transzformáció kötelező használatának ellenőrzését kell dokumentálni. (2) A felhasználónak a 29. § (3) bekezdés a) pontjában foglaltak szerint igazolnia kell, hogy a munka során az állami földmérés referencia rendszerére támaszkodott. (3) Az igazolást a regisztrált felhasználóknak kell lekérni a GNSS Szolgáltató Központ honlapján található ellenőrző rendszer segítségével. Az igazolás lista formátumban tartalmazza, hogy az aktív GNSS hálózatot használva mely időpontokban történtek a be- és kilépések. (4) Az igazolásnak tartalmaznia kell a GNSS Szolgáltató Központ által adott, 8 karakterből álló azonosítót, amely alapján a földhivatal ellenőrizheti a mérés helyére és idejére vonatkozó információkat."
+    },
+    {
+      "provision_ref": "s34",
+      "chapter": "VIII. Fejezet - A GNSS TECHNIKÁVAL VÉGZETT MUNKÁK FÖLDHIVATALI VIZSGÁLATA ÉS ÁTVÉTELE",
+      "section": "34",
+      "title": "34. §",
+      "content": "34. § (1) Az egységes transzformációs eljárás használatának ellenőrzése érdekében a felhasználónak kell igazolnia, hogy a GNSS koordinátarendszerből az EOV rendszerbe való átszámítást milyen transzformációs eljárással végezte el. (2) Valós idejű pontmeghatározás és a VITEL alkalmazás használata esetén a földhivatalnak az ellenőrzést a felhasználó által leadott VITEL licencszám, és műszerszám beírásával a GNSS Szolgáltató Központ adatbankjából kell elvégeznie. (3) Utólagos feldolgozással történő pontmeghatározásnál az EHT2 használatának ellenőrzését az alkalmazás output listájának megtekintésével, azonosításával kell elvégezni. (4) Más transzformációs eljárás használata esetén a földhivatalnak az ellenőrzést az EHT2 alkalmazással, legalább két pontra kell elvégezni. A transzformációt akkor lehet elfogadni, ha a lineáris eltérések (térbeli távolság) nagysága ±3cm-nél kisebb. (5) Ha az EHT2 alkalmazásával végzett ellenőrzés szisztematikus eltéréseket mutat, a 24. § (1) bekezdésében foglaltak szerint kell eljárni."
+    },
+    {
+      "provision_ref": "s35",
+      "chapter": "VIII. Fejezet - A GNSS TECHNIKÁVAL VÉGZETT MUNKÁK FÖLDHIVATALI VIZSGÁLATA ÉS ÁTVÉTELE",
+      "section": "35",
+      "title": "35. §",
+      "content": "35. § (1) Az ellenőrzés során kiemelten vizsgálni kell: a) felmérési alappontok meghatározását (ha végeztek ilyen meghatározást), b) részletpontok meghatározását, c) készítő által végzett ellenőrző méréseket, és d) a mérés dokumentálását. (2) A földhivatal a munkát akkor veheti át, ha az a 3. mellékletben foglalt követelmények valamennyi pontjának megfelelt. (3) A munka átvétele az átvevő földhivatal vizsgálója által aláírt átadási jegyzőkönyv kiadásával zárul."
+    },
+    {
+      "provision_ref": "s36",
+      "chapter": "IX. Fejezet - ZÁRÓ RENDELKEZÉSEK",
+      "section": "36",
+      "title": "36. §",
+      "content": "36. § Ez a rendelet a kihirdetését követő 8. napon lép hatályba. GNSS alkalmazásával végzett pontmeghatározások ellenőrzése 1. Tájékozás számítása a hagyományos mérőeszközök alkalmazásával, csak irányméréssel végzett ellenőrző mérések kiértékelése esetén 1.1. ha a tájékozásban csak a GNSS pontmeghatározásból származó pontok vannak az irányeltérés (e) nem haladhatja meg az értéket, ahol t az irány hossza km-ben, 1.2. ha a tájékozásba más ismert vízszintes alappontokat is bevonnak, akkor a hibahatár,ahol t az irány hossza km-ben. 2. Tájékozás számítása a hagyományos mérőeszközök alkalmazásával csak távméréssel végzett ellenőrző mérések kiértékelése esetén a koordinátákból számítható távolság és a mért távolság különbsége, a távolságeltérés (E) 2.1. csak a GNSS pontmeghatározásból származó pontok esetében nem haladhatja meg az értéket, ahol t a mért hossz kilométerben, vagy 2.2. ha az ellenőrző mérésbe más ismert vízszintes alappontokat is bevontak, akkor nem haladhatja meg értéket, ahol t a mért hossz kilométerben. Az ellenőrzendő részletpontok számának meghatározása GNSS alkalmazásával végzett pontmeghatározások és kitűzések átvételi jegyzőkönyve A munkát végző cég/személy: Munkaterület: Munkafeladat: Leadás dátuma: Dátum............................ .................................. átvevő 1 A rendeletet a 15/2013. (III. 11.) VM rendelet 93. § b) pontja hatályon kívül helyezte 2013. március 19. napjával, alkalmazására lásd e módosító rendelet 94. §-át."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "§ E rendelet alkalmazásában",
+      "definition": "1. GNSS: a globális műholdas helymeghatározó rendszerek (GPS NAVSTAR, GLONASSZ, Galileo, COMPASS, GINSS) közös elnevezése",
+      "source_provision": "s1"
+    },
+    {
+      "term": "WGS 84",
+      "definition": "a GPS rendszer hivatalos vonatkoztatási rendszere, geocentrikusan elhelyezett ellipszoid",
+      "source_provision": "s1"
+    },
+    {
+      "term": "ETRS89",
+      "definition": "a GNSS méréseknek az európai kontinensen érvényes térbeli derékszögű (XYZ) vonatkoztatási rendszere",
+      "source_provision": "s1"
+    },
+    {
+      "term": "EUREF",
+      "definition": "az európai szintű geodéziai vonatkoztatási rendszerek fenntartásáért és fejlesztéséért felelős szakmai szervezet",
+      "source_provision": "s1"
+    },
+    {
+      "term": "EPN (EUREF Permanens Hálózat)",
+      "definition": "az ETRS89 referencia rendszert a gyakorlatban megtestesítő aktív GNSS hálózat",
+      "source_provision": "s1"
+    },
+    {
+      "term": "Aktív GNSS hálózat",
+      "definition": "GNSS referencia állomások magyarországi hálózata",
+      "source_provision": "s1"
+    },
+    {
+      "term": "EOV (Egységes Országos Vetületi rendszer)",
+      "definition": "ferdetengelyű, szögtartó, süllyesztett hengervetület, az állami térképek vetületi rendszere",
+      "source_provision": "s1"
+    },
+    {
+      "term": "HD72",
+      "definition": "a magyarországi vízszintes alappont-hálózat vonatkoztatási rendszere",
+      "source_provision": "s1"
+    },
+    {
+      "term": "EOVA (Egységes Országos Vízszintes Alaphálózat)",
+      "definition": "az egységes országos vetületi rendszert fizikailag képviselő vízszintes alappontok hálózata",
+      "source_provision": "s1"
+    },
+    {
+      "term": "OGPSH (Országos GPS Hálózat)",
+      "definition": "az EOVA hálózatból kiválasztott, az ETRS89 rendszerben GPS mérésekkel meghatározott alappontokból álló hálózat",
+      "source_provision": "s1"
+    },
+    {
+      "term": "EOMA (Egységes Országos Magassági Alaphálózat)",
+      "definition": "a balti alapszintre vonatkozó normál magassági rendszer",
+      "source_provision": "s1"
+    },
+    {
+      "term": "Integrált geodéziai alappont",
+      "definition": "több mérési technikával – GNSS, szintezés, és lehetőleg gravimetriai mérés is – meghatározott mérőszámokkal jellemzett alappont",
+      "source_provision": "s1"
+    },
+    {
+      "term": "Permanens állomás",
+      "definition": "ismert alapponton folyamatosan észlelő GNSS vevőberendezés",
+      "source_provision": "s1"
+    },
+    {
+      "term": "Referencia állomás",
+      "definition": "az aktív GNSS hálózat részét képező, hitelesített és minőségbiztosítással ellátott permanens állomás",
+      "source_provision": "s1"
+    },
+    {
+      "term": "Bázisállomás",
+      "definition": "korábban meghatározott alapponton felállított, a relatív helymeghatározásokhoz szükséges referencia-méréseket végző GNSS vevőberendezés",
+      "source_provision": "s1"
+    },
+    {
+      "term": "Virtuális állomás",
+      "definition": "a referencia állomások méréseire támaszkodva, az aktív GNSS hálózattal lefedett terület tetszőleges helyére generált virtuális mérési adatok, korrekciók",
+      "source_provision": "s1"
+    },
+    {
+      "term": "Fázis-többértelműség",
+      "definition": "a GNSS vevő és a műhold közötti távolságra eső vivőhullám egész ciklusszámának bizonytalansága",
+      "source_provision": "s1"
+    },
+    {
+      "term": "Fix megoldás",
+      "definition": "a fázis-többértelműség egész számként történő meghatározása",
+      "source_provision": "s1"
+    },
+    {
+      "term": "Float megoldás",
+      "definition": "sikertelen fix megoldás esetén alkalmazott közelítő megoldás",
+      "source_provision": "s1"
+    },
+    {
+      "term": "PDOP",
+      "definition": "a műholdak geometriai helyzetéből levezethető, a háromdimenziós pozíció várható pontosságát jellemző mérőszám",
+      "source_provision": "s1"
+    },
+    {
+      "term": "Ppm (parts per million)",
+      "definition": "relatív pontossági egység, az adott egység egy milliomod része",
+      "source_provision": "s1"
+    },
+    {
+      "term": "Konfidencia intervallum",
+      "definition": "adott szignifikancia-szinten a becsült változó alsó és felső korlátja",
+      "source_provision": "s1"
+    },
+    {
+      "term": "Root Mean Square (RMS)",
+      "definition": "a térbeli vektor meghatározási középhibája",
+      "source_provision": "s1"
+    },
+    {
+      "term": "RTK (Real Time Kinematic)",
+      "definition": "valós idejű kinematikus helymeghatározás, amikor a helymeghatározást végző vevők különálló bázis-, permanens- vagy referencia állomásokra támaszkodnak",
+      "source_provision": "s1"
+    },
+    {
+      "term": "Hálózati RTK",
+      "definition": "az országos hálózatban elhelyezett referencia állomások méréseire támaszkodó, a felhasználó pozíciójára optimalizált valós idejű adatok előállítása a homogén pontosságú helymeghatározások biztosítására",
+      "source_provision": "s1"
+    },
+    {
+      "term": "Félkinematikus módszer",
+      "definition": "„stop and go” technikával végzett mérés",
+      "source_provision": "s1"
+    },
+    {
+      "term": "RINEX",
+      "definition": "utófeldolgozáshoz használt, a vevők típusától független egységes GNSS ASCII adatformátum",
+      "source_provision": "s1"
+    },
+    {
+      "term": "EHT2 (EUREF-EOV Hivatalos Helyi Térbeli Transzformáció)",
+      "definition": "az OGPSH-ra támaszkodó, egységes, országos, ETRS89-EOV referencia rendszerek közötti lokális, 7 paraméteres Helmert transzformáció",
+      "source_provision": "s1"
+    },
+    {
+      "term": "VITEL",
+      "definition": "valós idejű GNSS helymeghatározásnál használatos terepi transzformációs eljárás, az EHT2 valós idejű változata",
+      "source_provision": "s1"
+    },
+    {
+      "term": "GNSS Szolgáltató Központ",
+      "definition": "a helymeghatározás pontosságának javítására a beérkezett GNSS mérési adatok feldolgozásával valós idejű korrekciókat és utófeldolgozáshoz szükséges adatokat előállító és szolgáltató szervezet. 31. Epocha: GNSS mérések egységnyi időtartama, átlagos értéke utófeldolgozással való mérés esetén 15 másodperc, valós idejű mérésnél 1 másodperc.",
+      "source_provision": "s1"
+    }
+  ]
+}

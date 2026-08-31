@@ -1,0 +1,233 @@
+{
+  "id": "hu-law-2013-7-b0-0a",
+  "type": "statute",
+  "title": "7/2013. (III. 29.) BM utasítás a határrendészeti, igazgatásrendészeti, idegenrendészeti, közrendvédelmi, közlekedésrendészeti egységes rendészeti statisztikai rendszer használatának szabályairól",
+  "status": "in_force",
+  "in_force_date": "2013-07-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2013-7-B0-0A",
+  "description": "a határrendészeti, igazgatásrendészeti, idegenrendészeti, közrendvédelmi, közlekedésrendészeti egységes rendészeti statisztikai rendszer használatának szabályairól",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A jogalkotásról szóló 2010. évi CXXX. törvény 23. § (4) bekezdés c) pontja alapján, az egyes miniszterek, valamint a Miniszterelnökséget vezető államtitkár feladat- és hatásköréről szóló 212/2010. (VII. 1.) Korm. rendelet 37. § g)–h), j)–o) pontjai szerint megállapított feladatkörömben eljárva a következő utasítást adom ki:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "1. Az utasítás hatálya az általános rendőrségi feladatok ellátására létrehozott szervre terjed ki."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "2. Ezen utasítás alkalmazásában:"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "a) HIIKK rendszer: az általános rendőrségi feladatok ellátására létrehozott szerveknél alkalmazott határrendészeti, igazgatásrendészeti, idegenrendészeti, közrendvédelmi, közlekedésrendészeti egységes rendészeti statisztikai rendszer;"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "b) Robotzsaru Neo rendszer: olyan integrált ügyviteli, ügyfeldolgozó és elektronikus iratkezelő alkalmazás, amely strukturált adatbázis formában tárolja az ügyvitel és ügyfeldolgozás során rögzített adatokat, magában foglalja az elektronikus iratkezelést az ügyirat érkeztetésétől az ügyirat selejtezéséig;"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "c) Netzsaru rendszer: olyan országos digitális, elektronikus adatbázis, amely 24 órás folyamatos üzemmódban áll rendelkezésre a felhasználó szerv részére maximum 12 órás adatfrissítési késéssel; a Netzsaru rendszer strukturált adatbázis formájában magában foglalja a Robotzsaru Neo rendszer használata során rögzített ügyek, események reprezentáns adatait az ügy selejtezéséig; felületén keresztül statisztikai adatok nyerhetők ki, valamint kereső, kutató tevékenységek végezhetők a Robotzsaru rendszer jogosultsági rendjének keretei között, illetve a Netzsaru rendszerben készülnek a felhasználó szervek ügyeleti szolgálati jelentései is;"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "d) Robotzsaru rendszer: olyan informatikai alkalmazás, amely a felhasználó felé négy alkalmazási felületen, így a Robotzsaru Neo rendszeren, a Térképmodulon, a Netzsaru rendszeren, valamint a Dokumentumtáron keresztül biztosít elérést;"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "e) hitelesítés: a Robotzsaru, illetve a Netzsaru rendszerben végrehajtott tevékenység, amely arra irányul, hogy az elkészített iratok, a rögzített intézkedések, valamint a statisztikai adatrögzítések megfelelő végrehajtását ellenőrizze, és ezt dokumentálja;"
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "f) statisztikai adat: a Robotzsaru rendszerben előállított, annak HIIKK rendszer adatbázisában tárolt, a Netzsaru rendszer táblázataiban megtekinthető számadat, amely hivatalos közlés alapjául szolgál a vizsgált jelenség időszaki állapotáról;"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "g) rendészeti statisztikai adat: a határrendészeti, az igazgatásrendészeti, a közlekedésrendészeti és a közrendvédelmi szolgálati ágak, valamint az idegenrendészeti szakterület statisztikai adatai."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "3. A HIIKK rendszer célja, hogy az Országos Rendőr-főkapitányság (a továbbiakban: ORFK) és a Belügyminisztérium szerveit gyorsan, megbízhatóan és hitelesen lássa el rendészeti statisztikai adatokkal."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "4. A HIIKK rendszer fejlesztésének szakmai koordinációját az ORFK Rendészeti Főigazgatóság, a fejlesztés informatikai feladatait az ORFK Gazdasági Főigazgatóság Informatikai Alkalmazás és Rendszerfejlesztési Főosztály látja el."
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "5. A HIIKK rendszer használata technikai jellegű szabályainak megállapításáról az ORFK Rendészeti Főigazgatóság gondoskodik."
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "6. A HIIKK rendszer működési elve azon alapul, hogy a Robotzsaru rendszerben különböző módon előállított statisztikai adatok bekerülnek a HIIKK rendszer adatbázisába, mely a Netzsaru rendszerben megtekinthető. A Netzsaru rendszerben nem lehet adatot bevinni a HIIKK rendszer adatbázisába."
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "7. A Robotzsaru rendszerben a statisztikai adatok bevitele az ügyfeldolgozáshoz kapcsolódik. A rendszer elsősorban az iktatás, irat előállítás és intézkedés rögzítés során megadott adatokat használja fel."
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "8. A HIIKK rendszer"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "a) a határrendészeti szolgálati ág, azon belül kiemelten az idegenrendészeti szakterület,"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "b) az igazgatásrendészeti szolgálati ág,"
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "c) a közrendvédelmi szolgálati ág,"
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "d) a közlekedésrendészeti szolgálati ág"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "statisztikai adatait gyűjti. A más szolgálati ágak személyi állománya által generált rendészeti statisztikai adatok az adat tartalmának megfelelő szolgálati ág HIIKK statisztikai adatbázisába kerülnek be."
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "9. A szolgálati ágaknak és a határrendészeti szolgálati ág részét képező idegenrendészeti szakterületnek megfelelő öt statisztikai kategória az alábbi betűjelekkel kerül megjelölésre:"
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "a) határrendészet (H),"
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "b) idegenrendészet (I),"
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "c) igazgatásrendészet (G),"
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "d) közrendvédelem (R),"
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "e) közlekedésrendészet (Z)."
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "10. A HIIKK rendszer használata során az alábbiak szerint több szintű hitelesítési rend működik:"
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "a) saját hitelesítés: a Robotzsaru rendszerben iratot előállító vagy egyéb rögzítést végrehajtó személy a saját iratát, rögzítését hitelesíti;"
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "b) parancsnoki hitelesítés: a Robotzsaru rendszerben elkészült irat vagy egyéb rögzítés szakmai revízióját végző személy ellenőrzi a rögzítéssel generált statisztikai adatot, majd azt a rendszerben hitelesíti;"
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "c) szakterületi (kategória) hitelesítés: a Netzsaru rendszerben a szakterületi vezető a saját szakterületi kategóriájába bekerült statisztikai adatok tekintetében ellenőrzi a parancsnoki hitelesítés meglétét, majd a Netzsaru rendszerben hitelesíti a kategóriát. A hitelesítést helyi, területi és központi szinten is végre kell hajtani, területi szinten a szakterületi vezetők a megyei rendőr-főkapitányság beosztottjai, központi szinten az ORFK Rendészeti Főigazgatóság főosztályai által generált statisztikát hitelesítik;"
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "d) helyi szintű hitelesítés: a Netzsaru rendszerben a rendőrkapitányság, a határrendészeti kirendeltség vezetője, a Repülőtéri Rendőr Igazgatóság igazgatója és a Készenléti Rendőrség rendészeti igazgatója, az ORFK Rendészeti Főigazgatóság tekintetében a Rendészeti Elemző-Értékelő Osztály vezetője, illetve az általuk kijelölt személy ellenőrzi a szakterületi (kategória) hitelesítések meglétét, majd a Netzsaru rendszerben hitelesíti a helyi szerv statisztikáját;"
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "e) területi szintű hitelesítés: a Netzsaru rendszerben a megyei rendőr-főkapitányság rendészeti igazgatója, Budapest rendőrfőkapitányának rendészeti helyettese, illetve az általa kijelölt személy, valamint a Készenléti Rendőrség és Repülőtéri Rendőr Igazgatóság és az ORFK Rendészeti Főigazgatóság tekintetében az ORFK Rendészeti Főigazgatóságon kijelölt személy ellenőrzi a helyi szintű hitelesítések meglétét, majd a Netzsaru rendszerben hitelesíti az ellenőrzött szerv statisztikáját."
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "11. Az ORFK Rendészeti Főigazgatóság, a Készenléti Rendőrség, a Repülőtéri Rendőr Igazgatóság és a rendőr-főkapitányságok hitelesített statisztikai adatait az ORFK Rendészeti Főigazgatóság összesíti és ellenőrzi, majd az ellenőrzést követően a feltárt hibáról az adatot beküldő szervet értesíti. Az adatjavítás befejezése után az ORFK Rendészeti Főigazgatóság az országos HIIKK rendszer statisztikát lezárja és azt az időállapot szerint véglegesíti. A statisztikai adatok ezt követően használhatóak fel adatszolgáltatásra."
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "12. A hitelesítés feloldását minden szinten a felettes szerv engedélyezi és hajtja végre."
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "13. Ez az utasítás 2013. július 1-jén lép hatályba. Az utasítás rendelkezéseit a hatálybalépést követően keletkezett statisztikai adatokra kell alkalmazni."
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "14. 1 Az 1. pont a 13/2018. (VII. 11.) BM utasítás 13. § (1) bekezdésével megállapított szöveg. 2 A 2. pont e) alpontja a 13/2018. (VII. 11.) BM utasítás 13. § (2) bekezdésével megállapított szöveg. 3 A 2. pont f) alpontja a 13/2018. (VII. 11.) BM utasítás 13. § (2) bekezdésével megállapított szöveg. 4 A 11. pont a 13/2018. (VII. 11.) BM utasítás 13. § (3) bekezdésével megállapított szöveg. 5 A 14. pont a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette."
+    }
+  ]
+}

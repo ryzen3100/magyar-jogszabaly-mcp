@@ -1,0 +1,575 @@
+{
+  "id": "hu-law-2018-41-b0-8e",
+  "type": "statute",
+  "title": "41/2018. (VII. 11.) ORFK utasítás a büntetőeljárási törvényben meghatározott kép- és hangfelvételek rögzítésére szolgáló technikai eszközök alkalmazásának szabályairól",
+  "status": "in_force",
+  "in_force_date": "2018-07-12",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2018-41-B0-8E",
+  "description": "a büntetőeljárási törvényben meghatározott kép- és hangfelvételek rögzítésére szolgáló technikai eszközök alkalmazásának szabályairól",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A jogalkotásról szóló 2010. évi CXXX. törvény 23. § (4) bekezdés c) pontjában, valamint a Rendőrségről szóló 1994. évi XXXIV. törvény 6. § (1) bekezdés b) pontjában foglaltak alapján, a büntetőeljárásról szóló 2017. évi XC. törvény szerinti kép-, folyamatos hang-, valamint kép- és hangfelvételek készítésével összefüggő feladatok és eljárásrend meghatározása érdekében kiadom az alábbi utasítást:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "I. FEJEZET"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "ÁLTALÁNOS RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "1. Az utasítás hatálya az általános rendőrségi feladatok ellátására létrehozott szervre (a továbbiakban: Rendőrség) terjed ki."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "2. Az utasítást a Rendőrség nyomozó hatóságai által a büntetőeljárásról szóló 2017. évi XC. törvényben (a továbbiakban: Be.) foglaltak alapján a kép-, a hang-, valamint a kép- és hangrögzítő eszközzel készített kép-, folyamatos hang-, illetve kép- és hangfelvétel készítése és kezelése során kell alkalmazni."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "3. Az utasítás alkalmazásában:"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "a) adatkezelés: a büntetőeljárásban történő felhasználás céljából az utasítás alapján készített vagy csatolt adatállomány kezelése;"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "b) adatrögzítés: az a folyamat, amelynek során a technikai eszköz rendeltetésszerű használatának útján az eljárási cselekményről kép-, folyamatos hang-, illetve kép- és hangfelvétel készül;"
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "c) átadás-átvételi nyilvántartás: az a főnyilvántartási számmal azonosítható átvételi okmány, amely alapján a technikai eszköz aktuális helye és a kezeléséért felelős személye megállapítható;"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "d) felvétel: az adatrögzítés során keletkező"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "da) képet,"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "db) folyamatos hangot vagy"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "dc) képet és hangot egyaránt"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "tartalmazó adatállomány, amely a Be.-ben meghatározottak szerint készült és az eljárásban történő felhasználásra alkalmas;"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "e) felvétel átadása, kiadása: a felvételhez hozzáférési jogosultság adása, valamint a felvétel másolatának adathordozón történő átadása;"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "f) informatikai szakmunkatárs: aki a technikai eszköz beüzemeléséhez, illetve működtetéséhez, esetleg karbantartásához szükséges ismeretekkel – legalább középfokú informatikai szakirányú végzettséggel – rendelkezik, és munkaköri leírásában az ezzel összefüggő feladatok ellátása szerepel;"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "g) kezelés: a technikai eszközzel összefüggő minden cselekmény;"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "h) Központi Médiatár: az egyes büntetőeljárási cselekményekre és a büntetőeljárásban részt vevő személyekre vonatkozó szabályokról szóló 12/2018. (VI. 12.) IM rendelet 63/A. §-ában meghatározott informatikai rendszer;"
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "i) munkapéldány: az adatrögzítés során az önálló technikai eszközben elhelyezett adathordozón létrejövő adatállomány;"
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "j) Nova Média Tár: a felvételek feltöltése és torzítása céljából létrehozott átmeneti tárhely, amely a Robotzsaru NEO Integrált Ügyviteli és Ügyfeldolgozó Rendszer (a továbbiakban: Robotzsaru rendszer) felületéről érhető el;"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "k) próbafelvétel: az eljárási cselekmény megkezdése előtt, a technikai eszköz működőképességének, beállításainak, elhelyezésének, valamint az adatrögzítés eredményességének ellenőrzése céljából rögzített olyan adatállomány, amely az eljárás céljához rendelt adatokat nem tartalmaz;"
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "l) technikai eszköz:"
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "la) az eljárási cselekményről kép- és hangfelvétel rögzítésére alkalmas, vagyonátadó leltárban nyilvántartásba vett kézi kamera és tartozékai (önálló technikai eszköz),"
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "lb) a telekommunikációs eszköz útján végrehajtott eljárási cselekményről készített folyamatos hang- vagy kép- és hangfelvétel rögzítésére alkalmas eszköz és tartozékai (beépített technikai eszköz),"
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "lc) egyéb, kép-, folyamatos hang- vagy kép- és hangfelvétel rögzítésére alkalmas eszköz (egyéb technikai eszköz, így különösen diktafon, szolgálati mobiltelefon);"
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "m) torzítás: a felvételen végrehajtott olyan beavatkozás, amely kizárólag az eljárási cselekménnyel érintett személy személyazonosságának megállapítására alkalmas jellemzőit, illetve jogszabály erre irányuló rendelkezése alapján az érintett személyazonosságára, elérhetőségére vonatkozó – akár közvetett – információt tartalmazó nyilatkozat részleteket teszi felismerhetetlenné."
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "II. FEJEZET"
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "RÉSZLETES RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "1. Az adatkezelést megelőző feladatok"
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "4. A technikai eszközöket az adatkezelő szervnél kialakított rend szerint átadás-átvételi nyilvántartásba kell venni. Az átadás-átvételi nyilvántartást naprakészen, a technikai eszköz helyének és a kezeléséért felelős személyének megállapítására alkalmas módon kell vezetni. Az átadás-átvételi nyilvántartás tartalmazza:"
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "a) az átadás-átvétel keltét, időpontját;"
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "b) az eszköz átadója és átvevője nevét;"
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "c) az eljárási cselekménnyel érintett ügyszámot;"
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "d) az eszköz tartozékainak meglétére és működőképességére vonatkozó ellenőrzés tényét;"
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "e) a visszavétel keltét, időpontját;"
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "f) a megjegyzés rovatot."
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "5. A rendőrségi adatkezelő szerv vezetője"
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "a) kijelöli az átadás-átvételi nyilvántartás vezetéséért felelős személyt és a technikai eszköz tárolásának helyét;"
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "b) meghatározza a technikai eszköz átadás-átvételének rendjét;"
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "c) kijelöli a Központi Médiatárhoz való hozzáférési jogosultságok nyilvántartásáért felelős személyt;"
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "d) meghatározza a felvételek feltöltésének és a munkapéldányok kezelésének rendjét;"
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "e) kijelöli a technikai eszköz karbantartásáért felelős személyt;"
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "f) intézkedik a személyi állománynak az utasításban foglaltak végrehajtására történő felkészítésére, ennek keretében az adatrögzítés folyamatának, illetőleg a kapcsolódó eljárásjogi, iratkezelési és adatvédelmi szabályok megismertetésére, és az oktatásnak az oktatási naplóban történő dokumentálására;"
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "g) intézkedik az utasítással érintett feladatoknak a személyi állomány munkaköri leírásában történő rögzítésére."
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "6. Az eszköz alkalmazásával érintett szervezeti egység vezetője a Belügyminisztérium nyilvántartásokért felelős szakterülete által erre a célra rendszeresített adatlapon az érintettek számára a Központi Médiatárhoz való hozzáférést kezdeményezi."
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "7. Az informatikai szakmunkatárs"
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "a) a technikai eszköz átadás-átvétele során ellenőrzi annak működőképességét;"
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "b) az önálló technikai eszköz alkalmazásán kívüli időszakban gondoskodik az akkumulátorok töltéséről;"
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "c) a technikai eszköz kiadása előtt ellenőrzi, szükség esetén formatálja a tartozék memóriakártyákat;"
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "d) a technikai eszköz kezelése során felmerülő bármely, rendeltetésszerű használatot akadályozó vagy kizáró rendellenesség esetén intézkedik annak javítása vagy az eszköz cseréje iránt;"
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "e) az eljárási cselekmények során az eljárási cselekmény vezetőjének igénye esetén segíti az eszköz működtetését;"
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "f) a felvételnek a Robotzsaru rendszerbe való feltöltése, torzítása során az eljáró kérésére jelen van, erre irányuló igény esetén segítséget nyújt, illetve végrehajtja a feltöltéssel, torzítással összefüggő feladatokat."
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "8. Az eljárási cselekmény vezetője"
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "a) a technikai eszköz működtetése során felel annak kezeléséért, szükség esetén informatikai szakmunkatárs közreműködését kezdeményezi;"
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "b) ha a technikai eszköz működtetéséhez közreműködőt vesz igénybe, a közreműködő számára a technikai eszköz beállításához, megfelelő elhelyezéséhez szükséges tájékoztatást megadja;"
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "c) gondoskodik arról, hogy a felvétel tartalmazza az eljárási cselekmény jogszerű lefolytatásának megítélése szempontjából releváns valamennyi adatot, ennek érdekében a felvétel előkészítése, megtervezése, valamint a felvétel torzítása során az eljárásjogi, az iratkezelési és az adatvédelmi szabályoknak megfelelően jár el;"
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "d) ellátja a felvételnek a Robotzsaru rendszerbe való feltöltése, torzítása során az adatkezelő szerv vezetője által meghatározott feladatokat;"
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "e) ha ennek feltételei fennállnak, az eljárási cselekmény megkezdése előtt elhelyezi a felvétel készítésére vonatkozó tájékoztatót az eljárási cselekménnyel érintett helyiség ajtaján."
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "9. A beépített technikai eszközzel ellátott helyiségek ajtaján állandó jelleggel, az önálló technikai eszköz alkalmazásával érintett helyiség ajtaján pedig az alkalmazás idejére jól látható módon figyelemfelhívó és tájékoztató feliratot kell elhelyezni. A felirat a helyiségbe belépni szándékozóknak szóló, az eljárási cselekmény idejére való távolmaradásra történő felszólítást, valamint a rögzített felvétel típusára (kép, folyamatos hang- vagy kép- és hangfelvétel) vonatkozó információt tartalmazza."
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "2. Az adatrögzítés esetei"
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "10. Az eljárási cselekménynek kép- és hangfelvételen történő rögzítésére jogszabályban meghatározott esetekben, valamint jogszabály felhatalmazása alapján a nyomozó szerv önálló döntése vagy a jogosultak erre irányuló indítványára kerülhet sor."
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "11. A Be. 88. § (1) bekezdés d) pontjában, 89. § (4) bekezdés b) pontjában, 125. § (2) bekezdésében meghatározottakon túl folyamatos kép- és hangfelvétel készítése kötelező:"
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "a) a lefoglalásról, ha a lefoglalt dolgot az érintett őrizetében hagyja vagy egyes szervek őrizetébe és kezelésébe adja;"
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "b) a lefoglalt dolognak értékesítése és megsemmisítése, elkobzása esetén, ha az érintett dolog vonatkozásában a mintavétel nem értelmezhető, és a képfelvétel önmagában az érintett dolog lényeges tulajdonságainak visszatükrözésére nem alkalmas;"
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "c) írni-olvasni nem tudó személy részvételével folytatott eljárási cselekmény esetén;"
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "d) ha az eljárási cselekménnyel érintett gyanúsított vagy védője, illetve a sértett erre irányuló indítványt tett, feltéve, hogy a költségeket megelőlegezte, és az illetékes gazdasági szakszolgálat azt visszaigazolta;"
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "e) minden egyéb esetben, amikor jogszabály előírja, vagy jogszabály felhatalmazása alapján az eljárási cselekmény végrehajtásával összefüggően utasítási jogkörrel rendelkező személy egyedi döntése ezt az eljárási cselekmény vezetője számára meghatározza."
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "3. Az adatrögzítés megkezdése, megszakítása és befejezése, valamint az adatállomány megismerése"
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "12. Az adatrögzítés megkezdése előtt az eljárási cselekménnyel érintett valamennyi személy jelenlétében próbafelvételt kell készíteni. A próbafelvételt az eljárási cselekmény vezetője megtekinti, és ha az a felvétellel szemben támasztott követelményeknek megfelel, a próbafelvételt törli."
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "13. Az adatrögzítés az erre történő figyelemfelhívással, a rögzítést előíró jogszabályi rendelkezésről vagy döntésről adott rövid tájékoztatással kezdődik, az eljárási cselekmény csak a tájékoztatást követően kezdhető meg."
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "14. Az adatrögzítés az eljárási cselekmény vezetőjének döntése alapján akkor szakítható meg, ha az eljárási cselekményt meg kell szakítani, és a megszakítására okot adó körülmény felvételen történő rögzítése az eljárás céljával összeegyeztethetetlen."
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "15. Ha az adatrögzítést az eljárási cselekmény vezetője megszakította vagy az technikai okból megszakadt, az eljárási cselekmény folytatásakor az adatrögzítést az arról szóló tájékoztatás megismétlésével kell indítani, közölni kell az eljárási cselekmény jellegét, megkezdésének, megszakításának és tovább folytatásának időpontját. Ha az eljárási cselekményt az adatrögzítés megszakításakor vagy megszakadásakor nem függesztették fel, az eljárási cselekményről készült jegyzőkönyvnek az adatrögzítéssel nem érintett tartalmát az ismételt tájékoztatást követően az eljárási cselekmény vezetője összefoglalja."
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "16. Az eljárási cselekmény befejezése előtt az érintettet tájékoztatni kell a felvétellel kapcsolatos adatkezelésre vonatkozó szabályokról, valamint a felvétellel kapcsolatos eljárási jogairól. Az eljárási cselekményről készült jegyzőkönyvet az érintett elé kell tárni, és azt vele alá kell íratni, az aláírás megtagadása esetén annak tényét kell a jegyzőkönyvben rögzíteni, az adatrögzítés ezt követően fejezhető be."
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "4. A felvételek felhasználása"
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "17. Az eljárási cselekményről készült felvétel tárolási helye átmenetileg a Nova Média Tár, majd a Központi Médiatár, ezen kívül a rendőrségi adatkezelő szerv vezetője által meghatározott rendben a munkapéldányok tárolási helye lehet."
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "18. A felvételt a rögzítést követő legkésőbb 5. napon fel kell tölteni a Nova Média Tárba. A feltöltés eredményességét a Nova Média Tárban visszajátszással ellenőrizni, majd a memóriakártyát törölni, szükség esetén formatálni kell."
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "19. Az eredeti felvétel az ügyben eljáró ügyész, bíró, szakértő számára adható át."
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "20. Ha a felvételen zártan kezelt adat hangzik el, a zártan kezelt adatok elhangzásának idejére hangelnyomással torzítást kell alkalmazni. Az így torzított felvétel az ügyiratok részét képezi. A Be. 99. § (5) bekezdésében meghatározott jogosultakon, valamint a zártan kezelt adat érintettjén kívül bármely más személy részére a megismerési jog kizárólag az így torzított felvétel átadásával biztosítható. Zártan kezelt adatot felismerhetően tartalmazó felvétel másolatban a zártan kezelt adat érintettje számára sem adható ki."
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "21. Ha a felvétel másolatban történő kiadására vagy a saját részre történő másolat vagy felvétel készítésére irányuló kérelem érkezik, a nyomozó hatóság a kérelmet a kérelmező megismeréshez fűződő joga és a felvételen szereplő más személyek személyhez fűződő jogainak fokozott figyelembevételével bírálja el. Ha a nyomozó hatóság úgy ítéli meg, hogy a Be. 100. § (6) bekezdése alapján indokolt a megismerési jog korlátozása, a kép pixelezésével és a hang transzponálásával torzított példányt hoz létre, és a kérelmezőnek torzított másolatot ad át. A másolatban kiadott torzított felvételt az ügyiratok között kivonat megjelöléssel el kell helyezni."
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "22. Külön engedély nélkül jogosult a felvételek megtekintésére az ellenőrzési feladatok ellátása körében a szakmai, valamint az adatkezelési tevékenység ellenőrzésére felhatalmazással rendelkező személy."
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "5. A felvétel költségeinek megelőlegezése"
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "23. Az eljárási cselekményről szóló idézés, értesítés tartalmazza a felvétel készítésének lehetőségéről, valamint az erre irányuló indítvány elbírálásának feltételeiről szóló tájékoztatást."
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "24. A felvétel költségeinek megelőlegezése a felvétel készítése során működtetett önálló technikai eszköz nyilvántartási helye szerint illetékes, beépített technikai eszköz alkalmazása esetén az eljárást folytató szerv szerint illetékes területi szerv gazdasági szakszolgálata által megadott előirányzat-felhasználási keretszámlára történő befizetéssel valósul meg."
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "25. A nyomozó hatósághoz kapcsolódó előirányzat-felhasználási keretszámlára érkező befizetésekről a gazdasági szakszolgálat vezetője által kijelölt személy az érintett szerveket soron kívül tájékoztatja, illetve az általános pénzügyi karbantartó felületen rögzített követelések teljesülését visszaigazolja."
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "26. A tájékoztatás, illetve a visszaigazolás a befizetés közleménye alapján történik. A befizetés közleményének tartalmaznia kell az eljárási cselekménnyel érintett ügy szervkódot is tartalmazó iktatószámát és az eljárási cselekmény megnevezését."
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "III. FEJEZET"
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "ZÁRÓ RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "27. Ez az utasítás a közzétételét követő napon lép hatályba."
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "28. Az utasítással érintett eszközök használatának, valamint a felvételek készítésének, illetve kezelésének rendjére irányuló ellenőrzés részletes szabályait a rendőrségi adatkezelő szerv vezetője határozza meg azzal, hogy:"
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "a) az eszköz átadás-átvételével, a nyilvántartás vezetésével és az eszköz karbantartásával kapcsolatos rendelkezések betartásának ellenőrzését az eszköz átadás-átvételi nyilvántartásának vezetéséért felelős személy közvetlen vezetője útján;"
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "b) a felvételek és munkapéldányok kezelése rendjének ellenőrzését a rendszergazda és az adatvédelmi tisztviselő az ellenőrzésre jogosult általi bevonásával"
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "kell negyedévente végrehajtani."
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "29. Az ellenőrzés során szabálytalanságok, hiányosságok feltárása esetén meg kell tenni a szükséges intézkedéseket a fegyelmi és kártérítési felelősség megállapítása iránt, a felvételek készítésével és kezelésével kapcsolatos szabálytalanság esetén gondoskodni kell az érintett állomány soron kívüli oktatáson való részvételre kötelezéséről."
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "30. Az utasítással érintett eszközök használatának, valamint a felvételek készítésének, illetve kezelésének rendjére a bűnügyi országos rendőrfőkapitány-helyettes, a rendészeti országos rendőrfőkapitány-helyettes és a gazdasági országos rendőrfőkapitány-helyettes az utasítás hatálybalépését követő 8 napon belül szakterületét érintő módszertani ajánlást ad ki, amit szükség szerint soron kívül, valamint minden év október 31. napjáig felülvizsgálni, és ennek eredménye függvényében módosítani kötelesek."
+    }
+  ]
+}

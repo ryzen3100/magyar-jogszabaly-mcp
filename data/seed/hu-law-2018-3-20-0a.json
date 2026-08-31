@@ -1,0 +1,446 @@
+{
+  "id": "hu-law-2018-3-20-0a",
+  "type": "statute",
+  "title": "3/2018. (II. 21.) BM rendelet a közfeladatot ellátó szerveknél alkalmazható iratkezelési szoftverekkel szemben támasztott követelményekről",
+  "status": "in_force",
+  "in_force_date": "2018-03-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2018-3-20-0A",
+  "description": "a közfeladatot ellátó szerveknél alkalmazható iratkezelési szoftverekkel szemben támasztott követelményekről",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § E rendelet hatálya a) a közfeladatot ellátó szervekre (a továbbiakban: szerv) és b) a szerveknél alkalmazható iratkezelési szoftver (a továbbiakban: ISZ) megfelelőségét jogszabály szerint tanúsító szervezetek iratkezelési szoftvertanúsító tevékenységére terjed ki."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § (1) E rendelet rendelkezéseit a minősített adatok kezelését biztosító ISZ-ekre a külön jogszabályban foglalt eltérésekkel kell alkalmazni. (2) Az ISZ a maradandó értékű elektronikus iratok levéltári átadását külön jogszabályban foglaltak szerint biztosítja. (3) E rendelet rendelkezéseit az iratkezelési szoftvernek nem minősülő, iratnyilvántartási funkciót is ellátó szakrendszerek tekintetében is alkalmazni szükséges. (4) E rendelet rendelkezéseit a bíróságnál alkalmazott iratkezelési szoftverekre és szakrendszerekre a bírósági eljárási, ügyviteli és iratkezelési szabályokról szóló szabályokban foglalt eltérésekkel kell alkalmazni. (5) Az ISZ külön jogszabályban foglalt követelmények szerint biztosítja az ISZ és az általa tárolt iratok és metaadatok tekintetében a sértetlenség, bizalmasság és rendelkezésre állás követelményét."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § E rendelet alkalmazásában 1. adminisztrátor: az a személy, aki az ISZ-szel kapcsolatban telepítéssel és karbantartással, rendszernaplók gondozásával, valamint az ISZ működésének ellenőrzésével foglalkozik; 2. besorolás: ügyirat beazonosítása és hozzárendelése a besorolási séma egy kiválasztott kategóriájába; 3. besorolási séma: ügyirat besorolását, osztályozását lehetővé tevő zárt adatkészlet, amelyhez az adott szervnél előforduló ügyirat hozzárendelhető; 4. elektronikus archiválás: a közfeladatot ellátó szervek iratkezelésének általános követelményeiről szóló 335/2005. (XII. 29.) Korm. rendelet (a továbbiakban: Korm. rendelet) 2. § 6. pontjában meghatározott tevékenység; 5. elektronikus átvételi csomag: az elektronikus formában tárolt iratok közlevéltári átvételének eljárásrendjéről és műszaki követelményeiről szóló 34/2016. (XI. 30.) EMMI rendelet 2. § 3. pontja szerinti állomány; 6. elektronikus érkeztető nyilvántartás: a Korm. rendelet 2. § 7. pontjában meghatározott nyilvántartás; 7. elektronikus iktatókönyv: a Korm. rendelet 2. § 8. pontjában meghatározott szolgáltatásegyüttes; 8. elektronikus iratátadási csomag: olyan tömörítetlen állomány, amely egy vagy több elektronikus irat és kapcsolódó metaadataik meghatározott formátumú és struktúrájú, meghatározott átvétel céljából összekapcsolt együttese; 9. előzményezés: az iratkezelési folyamat azon művelete, amely során megállapításra kerül, hogy az új irat egy már meglévő ügyirattal kapcsolatban áll-e, vagy az új iratot új ügy első irataként kell-e nyilvántartásba venni; 10. elsődleges besorolási séma: a szerv irattári terve; 11. eseménynapló: olyan adatok rendezett összessége, amely az események rekonstruálására alkalmas részletességben tárol információt az iratkezelési eseményekről és egyéb tevékenységekről; 12. expediálás: a Korm. rendelet 2. § 16. pontjában meghatározott tevékenység; 13. feladat: a vezető által meghatározott irattal vagy ügyirattal kapcsolatos elvégzendő munka; 14. felhasználó: az a személy, aki az adott funkció használatára jogosult, és a funkció működtetése során számára ismertté váló vagy módosítható adatokhoz rendelkezik a betekintési vagy módosítási jogosultsággal; 15. használható minősítésű iratkezelési szoftver: a 2. mellékletben szereplő követelményrendszer szerint legalább 60 pontot elérő és tanúsítással rendelkező ISZ; 16. hivatali tárhely: az elektronikus ügyintézésről szóló jogszabályok alapján a kijelölt szolgáltató által biztosított tárhely, biztonságos kézbesítési szolgáltatási cím; 17. irat: a köziratokról, a közlevéltárakról és a magánlevéltári anyag védelméről szóló 1995. évi LXVI. törvény 3. § c) pontja szerinti adategyüttes; 18. iratkezelési szoftver: a Korm. rendelet 2. § 20. pontjában meghatározott szoftver; 19. iratnyilvántartási funkció: az irat egyedi azonosítóval történő ellátása és nyilvántartásba vétele; 20. irattá nyilvánítás: az az eljárás, amely során egyedi döntés vagy előre meghatározott szabályok alapján automatikusan a papíralapú vagy elektronikus dokumentumot a szerv működése szempontjából lényegesnek minősítenek, és ezért érkeztetésére, iktatására kerül sor; 21. iratpéldány: az irat eredeti és másolati megjelenési formája, amely a címzett kivételével azonos metaadat-tartalommal rendelkezik; 22. irattári tételbe történő besorolás: az iratnak, ügyiratnak az irattári terv mint elsődleges besorolási séma alapján történő besorolása; 23. jogosultság: egy adott művelet elvégzésének lehetősége az ISZ-ben – egy adott személyre vagy rendszerelemre vonatkozóan, szerepkör hozzárendelése vagy hozzáférés vezérlési lista alapján; 24. keüsz: az elektronikus ügyintézésről szóló jogszabályoknak megfelelő központi elektronikus ügyintézési szolgáltatás; 25. kézbesítés: a Korm. rendelet 2. § 27. pontjában meghatározott tevékenység; 26. kiadmányozás: a már felülvizsgált végleges kiadmánytervezetet a kiadmányozó jóváhagyja, és elküldését engedélyezi, a feljogosított vezető a kiadmánytervezetet vagy saját kezűleg írja alá és keltezéssel látja el, vagy elektronikus aláírással és időbélyeggel hitelesíti; 27. KRX fájl: strukturált zip tömörítésű könyvtár és fájlszerkezet, mely a csomag egészére vonatkozó metaadatokat is tartalmaz egy külön könyvtárban, és ettől elkülönítve külön könyvtárakban elhelyezett, tetszőleges számú csatolmány kezelésére alkalmas; 28. küldemény: a Korm. rendelet 2. § 30. pontjában meghatározott adategyüttes; 29. metaadat: az iratkezelési folyamat során kezelt és nyilvántartott adatot leíró adat; 30. szakrendszer: valamely közfeladat tekintetében az ügyintézést megvalósító vagy támogató informatikai alkalmazás, amely iratnyilvántartási feladatokat is ellát; 31. szerelés: a Korm. rendelet 2. § 45. pontjában meghatározott tevékenység; 32. szignálás: a Korm. rendelet 2. § 46. pontjában meghatározott tevékenység; 33. továbbítás: a Korm. rendelet 2. § 47. pontjában meghatározott tevékenység; 34. ügyirat: a Korm. rendelet 2. § 51. pontjában meghatározott irategyüttes; 35. vegyes ügyirat: papíralapú és elektronikus iratokat egyaránt tartalmazó ügyirat."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) Az ISZ képes támogatni a Korm. rendeletben előírt iratkezelési folyamat teljesülését, ennek érdekében a) az ellenőrzött, biztonságos és nyomon követhető iratkezelést és az elektronikus ügyintézést, valamint b) az irathoz kapcsolódó metaadatok egységes nyilvántartását és felhasználóbarát megjelenítését. (2) Az ISZ az 1. mellékletben szereplő metaadatokat kezeli. (3) Az ISZ használható kialakítására vonatkozó követelményeket a 2. melléklet határozza meg. Használható minősítés a követelményrendszer szerint legalább 60 pontot elérő ISZ-nek adható. (4) Az ISZ biztosítja a nyilvántartott adatok biztonságos kezelését, az érkeztetési és iktatási nyilvántartás nyomtathatóságát és exportálhatóságát és a felhasználó számára olvasható, értelmezhető formátumú nyomtatását. (5) Az e rendelet hatálybalépését követően tanúsított ISZ-ből történő adatmigrálás esetén a migrálás az 1. melléklet szerinti metaadatok átadására és átvételére kiterjed a köziratok kezeléséért felelős miniszter által a minisztérium honlapján közzétett adatcsereséma szerint. (6) Érvényes tanúsítvánnyal nem rendelkező ISZ-ből történő adatmigrálás esetén a migrálás minimálisan az 1. melléklet XV. pontja szerinti metaadatok átadására és átvételére terjed ki, a migrálásra nem kerülő metaadatok külön jogszabályban foglalt megőrzési kötelezettségének biztosítása mellett."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § (1) Az ISZ képes támogatni az érkeztető nyilvántartás a) létrehozását, b) kezelését és c) lezárását. (2) Az ISZ alkalmas 109 érkeztető szám képzésére és kezelésére. (3) Az ISZ az érkeztető könyvek létrehozása során képes támogatni az iktatókönyvhöz a) strukturált numerikus vagy alfanumerikus hivatkozási kód alkalmazását vagy b) egyedi szöveges megnevezés hozzárendelését. (4) Az ISZ a küldemények érkeztetése során képes támogatni a) a vonatkozó metaadatok kezelését és tárolását; b) kézi érkeztetés esetén felhasználói kezdeményezésre az érkeztetési azonosító automatikus képzését; c) automatikus érkeztetés esetén felhasználói beavatkozás nélkül automatikus érkeztető azonosító generálását és a feladónak az erre vonatkozó előzetes beállításától függően az érkeztetésről automatikus visszaigazolás küldését; d) a csatolt dokumentumok megjelenítését. (5) Az ISZ biztosítja az érkeztető könyvek hitelesítését önállóan vagy gépi interfészen keresztül elérhető külső szolgáltatás révén. (6) Az ISZ lehetővé teszi egy vagy több előre meghatározott e-mail-címre, illetve útvonalon érkező küldemények kézi és automatizált érkeztetését."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § (1) Az ISZ képes támogatni az iktatókönyvek a) létrehozását, b) kezelését és c) lezárását. (2) Az ISZ képes több iktatókönyv kezelésére. (3) Az ISZ biztosítja az iktatási számrend egy iktatókönyvön belüli folytonosságát és az iktatás nyomonkövethetőségét. Minden iktatott iratnak kapcsolódnia kell legalább egy ügyirathoz. Minden ügyirathoz kapcsolódnia kell legalább egy iratnak. (4) Az ISZ az iktatókönyvek létrehozása során az egyedi azonosítás céljából biztosít egy strukturált numerikus vagy alfanumerikus hivatkozási kódot vagy ezek tetszőleges kombinációját, amelyet az iktatószám elemeként az ügyirathoz, irathoz rendel. (5) Az ISZ biztosítja, hogy az 1. mellékletben szereplő metaadatok az iktatókönyvhöz, az iktatott irathoz, ügyirathoz társíthatóak legyenek. (6) Téves iktatás esetén az iktatás érvénytelenítése során az ISZ az iktatáshoz kapcsolódó funkciók elvégzését az eredeti metaadatok megtartása mellett biztosítja. (7) Az ISZ biztosítja a lezárt iktatókönyvek észlelhetetlen változását kizáró védelmét, továbbá biztosítja a lezárt iktatókönyvek hitelesítését és archiválását önállóan vagy gépi interfészen keresztül elérhető külső szolgáltatás révén. (8) Az ISZ lehetővé teszi meghatározott címre érkező e-mail-küldemények kézi és automatizált iktatását."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § Az ISZ biztosítja az érkeztetett, iktatott iratoknak, ügyiratoknak a nyilvántartásba vételét, kezelését és nyomon követését."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § (1) Az ISZ biztosítja az irathoz az 1. melléklet szerinti metaadatok hozzárendelését, a metaadatok felhasználásával további iratpéldányok létrehozását, az irat ügyirathoz történő hozzárendelését. (2) Az ISZ biztosítja a szervnél létrehozott iratpéldányok kezelését. (3) Az ISZ biztosítja az iktatókönyv lezárását és az iktatókönyv elektronikus archív másodpéldányának elkészítését és tárolását. Az ISZ biztosítja le nem zárt iktatókönyv esetén a korábban lezárt ügyirat újranyitását, ahhoz új irat iktatását és a kapcsolódó metaadatok változtatását, az ügyirat újbóli lezárását. (4) Az ISZ a (3) bekezdés szerinti funkciókat már lezárt iktatókönyvek esetében a Korm. rendelet 41. § (4) bekezdése szerinti éven túli iktatás esetén biztosítja. (5) Az ISZ a metaadatok felhasználásával lehetővé teszi, hogy egy ügyirathoz szerelt előzmény ügyirat ahhoz az ügyirathoz kapcsolódjon, amelyhez a szerelését elvégezték."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § (1) Az ISZ biztosítja a szervek vonatkozó szabályzatainak megfelelő szignálási rend támogatását. (2) Az ISZ biztosítja a szignálási felület önálló webes alkalmazáson keresztüli elérését. (3) Az ISZ biztosítja az irat szignálásakor az irat megjelenítését és az ügy elintézésére vonatkozó adatok rögzítésének lehetőségét. (4) Az ISZ biztosítja a szignálásra jogosult szignálása nélkül, felhasználói döntés vagy előzetes beállítás alapján automatizáltan az ügyintéző kijelölését és a feladat végrehajtására vonatkozó utasítások meghatározását, rögzítését. (5) Az ISZ biztosítja, hogy az iratok, ügyiratok továbbítása, szignálása és tárolási helye megállapítható legyen. (6) Az ISZ biztosítja a szignálás címzettje számára az elektronikus irathoz, metaadataihoz és a kapcsolódó szignálási adatokhoz való hozzáférést. (7) Az ISZ biztosítja az iratok csoportos szignálását, egy címzett számára több irat és több címzett számára egy irat továbbítását. (8) Az ISZ a szignálás során biztosítja határidő meghatározásának lehetőségét."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § (1) Az ISZ lehetővé teszi elektronikus iratok továbbítását kiadmányozásra elektronikus úton. (2) Az ISZ biztosítja az elektronikus irat több azonos szintű jóváhagyó általi aláírását a kiadmányozást megelőzően. (3) Az ISZ biztosítja több példány egyszerre történő kiadmányozását. (4) Az ISZ biztosítja az elektronikus iratot jóváhagyó és kiadmányozó személyeknek az adott folyamatra vonatkozó megjegyzései rögzítésének lehetőségét. (5) Az ISZ biztosítja az expediálási adatok manuális és szabályozott elektronikus ügyintézési szolgáltatás (a továbbiakban: SZEÜSZ), valamint keüsz igénybevételével történő előállítását. (6) Az ISZ biztosítja a felterjesztő értesítését a beállított jóváhagyások és a kiadmányozás megtörténtéről. (7) Az ISZ biztosítja a továbbított elektronikus irat visszautasításának lehetőségét jóváhagyók és kiadmányozó számára. (8) Az ISZ biztosítja a visszautasítás oka vagy egyéb megjegyzések rögzítésének lehetőségét a visszautasítás során. (9) Az ISZ az aláírásra továbbított irat visszautasítás esetén lehetővé teszi az iktatószám mögött tárolt elektronikus irat cseréjét, az előző irat megőrzése mellett. (10) Az ISZ biztosítja a kiadmányozási felület önálló webes alkalmazáson keresztüli elérését."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § Az ISZ képes támogatni a papíralapú iratok és az elektronikus iratok összerendelését, a vegyes ügyiratok létrehozását és kezelését."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. § Az ISZ biztosítja az ügyirat más ügyirathoz csatolását, valamint az ügyirat tetszőleges számú ügyirathoz kapcsolódásának rögzítését."
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. § (1) Az ISZ jogosultsághoz rendelten biztosítja az elektronikus iratok, illetve valamennyi iratra vonatkozóan az 1. mellékletben szereplő metaadatok a felhasználást, megjelenítést, a kapcsolódó keresési funkciókat és a metaadatok felhasználásával statisztikák, mennyiségi és időintervallum szerinti kimutatások készítését. (2) Az ISZ biztosítja a) az időintervallumok használatát a keresések során; b) a metaadatok vonatkozásában indított keresés eredményeként kapott találatok képernyőn történő megjelenítését, eredményének egyedi vagy csoportosított tárolását, listázását, nyomtatását, exportálását; c) a keresési minták rögzítését és tárolását; d) a név- és tárgymutató időintervallumok alapján történő megjelenítését, nyomtatását, exportálását."
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14. §",
+      "content": "14. § Az ISZ az ügyirathoz és az iktatott irathoz kapcsolódóan képes támogatni a) a feladat kiosztását; b) a kiadott feladathoz határidő rendelését; c) több feladat hozzárendelését; d) egy feladat több szereplőhöz történő hozzárendelését; e) a feladat címzett általi megtekintésének naplózását; f) egy feladathoz több kapcsolódó feladat létrehozását; g) azt, hogy a feladat kiosztója bármikor lezárja vagy törölje a feladatot; h) azt, hogy a feladat címzettje rögzíthesse a feladat elintézését; i) a kiadott feladat továbbdelegálásának lehetőségét; j) azt, hogy az egy ügyirathoz vagy irathoz tartozó feladatok legyenek listázhatóak és személyenként csoportosíthatóak."
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15. §",
+      "content": "15. § Az ISZ az iratok, ügyiratok kezelése során felületéről biztosítja a) az elektronikus aláírás, elektronikus bélyegző érvényességének technikai ellenőrzését, az irat sértetlenségének ellenőrzését és az ellenőrzés eredményének metaadatként történő rögzítését; b) az elektronikus iratok minősített vagy minősített tanúsítványon alapuló fokozott biztonságú elektronikus aláírással, elektronikus bélyegzővel és időbélyeggel történő ellátását; c) az eredeti papíralapú példány selejtezési vagy megsemmisítési eljárás alá vonását."
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16. §",
+      "content": "16. § (1) Az ISZ papíralapú és vegyes ügyiratok esetén képes támogatni, elektronikus iratok esetén biztosítja a 1. mellékletben szereplő metaadatok szerinti irattári kezelést, selejtezést, levéltárba adást és ezeknek a műveleteknek a csoportos végrehajtását. (2) Az ISZ biztosítja az elektronikus iratok elektronikus dokumentumtárolási szolgáltatás szabályainak figyelembevételével kialakított elektronikus tárolását. (3) Az irattárazott iratok esetén az ISZ nyilvántartja a papíralapú iratok kölcsönzéséhez kapcsolódó metaadatokat, és a kölcsönzésnek megfelelő hozzáférést és naplózást biztosít az elektronikus iratok esetében."
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17. §",
+      "content": "17. § (1) Az ISZ biztosítja a szerv iratkezelési szabályzata szerinti többszintű, a szerv irattári tételeihez illeszkedő elsődleges besorolási sémának a létrehozását, továbbá az ügyiratoknak a besorolási séma alapján az irattári tételbe történő besorolását. (2) Az ISZ biztosítja az elsődleges besorolási sémához év közben új tétel hozzáadását és meglévő tétel módosítását, valamint az adott év iktatókönyvéhez tartozó mentését, egy éven belül több irattári terv létrehozását és alkalmazását. (3) Az ISZ-nek az elsődleges besorolási sémán belüli tételek kezelésére minimum kétféle elnevezési mechanizmust kell biztosítania a) strukturált numerikus vagy alfanumerikus hivatkozási kódot, azaz sorrendiséget biztosító egyedinek számító azonosító jel és b) egyedi szöveges megnevezés hozzárendelését minden tételhez. (4) Az ISZ nem teszi lehetővé az ügyiratok tételszám szerinti besorolás nélküli irattárba helyezését. (5) Az ISZ képes támogatni az irattári anyag tételszámok szerinti megosztását, az átadás-átvételi jegyzékek elkészítését és a tárolt elektronikus iratok csoportos átadását feladat- és hatáskör változása esetén. (6) Az ISZ biztosítja az elektronikus nyilvántartásba nem vett munkapéldányok automatikus törlését az ügyirat levéltárba adásakor."
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18. §",
+      "content": "18. § (1) Az ISZ-nek kezelnie kell a besorolási sémához kapcsolódó őrzési és selejtezési határidőket, amelyhez kapcsolódóan meghatározott időintervallumra lekérdezéseket kell biztosítania az ügyiratokra vonatkozóan. (2) Az ISZ biztosítja a megfelelő metaadatok rögzítését az ügyirat átmeneti (operatív) és központi irattárba való elhelyezésével kapcsolatban. (3) Az ISZ-nek az elsődleges besorolási séma alapján – ügyiratonkénti bontásban és összesítve – felhasználói lekérdezésre biztosítania kell az átadás (átmeneti irattárba és levéltárba) és a selejtezés (megsemmisítés) kiválasztását és a kapcsolódó metaadatoknak a strukturált rögzítését. (4) Az ISZ-nek biztosítania kell a besorolási sémához kapcsolódó őrzési és selejtezési határidők módosítását, ehhez kapcsolódóan új őrzési idő rögzítését, a selejtezés és az átadás időpontjának megváltoztatását, a döntésnek és okának, valamint a kapcsolódó metaadatoknak a strukturált rögzítését. (5) Az ISZ-nek támogatnia kell a selejtezési folyamatot a selejtezés alá vont ügyiratok kezelésével, az ügyirathoz tartozó metaadatok és a rájuk vonatkozó besorolási séma szerinti őrzési időtartamok és a tárolási helyek rögzítésével, feldolgozásával. (6) Az ISZ biztosítja a selejtezési jegyzék készítését, amely a besorolási sémához igazodóan, irattári tételszámonként és azon belül iktatószámonként tartalmazza az ügyiratokat. (7) A selejtezés során az ISZ biztosítja az elektronikus iratoknak a – felhasználói jóváhagyás alapján történő – a Korm. rendelet 64. § (6) bekezdése szerinti törlését és jelöli a selejtezett állapotot. (8) Az ISZ biztosítja a vegyes ügyiratok selejtezése (megsemmisítése) során a papíralapú iratok selejtezési (megsemmisítési) állapotának rögzítését. (9) Az ISZ biztosítja a lejárt megőrzési idejű, azonos tételszámmal jelölt ügyiratok egyidejű selejtezését, a selejtezés időpontjának a besorolási séma alapján az adott irattári tételhez tartozó ügyiratokhoz történő hozzárendelésével. (10) Az ISZ – a selejtezési eljárás során a Korm. rendelet 64. § (6) bekezdésében foglaltak figyelembevételével – az iratkezelés folyamatában keletkező valamennyi adatra, adategyüttesre vonatkozó metaadat számára biztosítja a folyamatos, a dokumentum törlésétől független védelmet. (11) Az ISZ a selejtezést követően biztosítja a selejtezett iratok metaadatainak archiválását."
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19. §",
+      "content": "19. § (1) Az ISZ az ügyiratok levéltárba adásának támogatása érdekében a metaadatok felhasználásával biztosítja az átadásra kerülő ügyiratokról jegyzék készítését. (2) Az ISZ biztosítja azt, hogy az iratok levéltárba adása ne járjon a metaadatok törlésével. (3) Az ISZ nyújtson lehetőséget az iratok levéltárba adását követően a vonatkozó metaadatok archiválására. (4) Az ISZ képes támogatni az elektronikus iratok levéltárba adásának előkészítését, a külön jogszabályban előírt iratátadási csomagok létrehozását."
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20. §",
+      "content": "20. § (1) Az ISZ képes támogatni a felhasználó azonosítása során külső autentikációs megoldás alkalmazását az Elektronikus Ügyintézési Felügyelet (a továbbiakban: Felügyelet) által kiadott műszaki irányelv szerint. (2) Az ISZ biztosítja a jogosultságok differenciált meghatározását az elektronikusan támogatott ügyintézési cselekményekre és a manuális ügyintézési feladatokra egyaránt. (3) Az ISZ képes támogatni irathoz, illetve funkcióhoz kapcsolódó jogosultsági rendszer kialakítását. (4) Az irat, ügyirat adattartalmának megismerését, az adatok kezelését az ISZ csak az arra jogosult felhasználó számára biztosítja. (5) Az ISZ a jogosultsági rendszer alapján funkcionális és hozzáférési jogokat biztosít, ezen belül a) a metaadatokhoz igazodó, egyes szoftverfunkciókhoz való hozzáférésre felhasználói csoportok létrehozását, egyes felhasználók ezen csoportokhoz történő beosztását; b) a létrehozott szoftverfunkciókhoz való hozzáférés felhasználókra vagy felhasználói csoportokra történő hozzárendelését. (6) Az ISZ-ben végrehajtott műveletek nem tárhatnak fel a felhasználó számára olyan adatokat és metaadatokat, amelyekre vonatkozóan nem rendelkezik jogosultsággal."
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21. §",
+      "content": "21. § Az ISZ biztosítja a hozzáférési szabályok és biztonsági előírások megsértésére irányuló valós idejű jelzést."
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22. §",
+      "content": "22. § Az ISZ nem teszi lehetővé az érkeztető nyilvántartásban és az iktatókönyvekben rögzített adatok és az elektronikus irat tartalmának naplózás nélküli megváltoztatását."
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23. §",
+      "content": "23. § (1) Az ISZ biztosítja a szervezet belső szervezeti hierarchiájának rögzítését és annak adminisztrátori szintű változáskezelését. (2) Az ISZ biztosítja, hogy a) egyéni felhasználói és csoportos hozzáférési jogosultságok egyaránt kioszthatóak, b) egyes funkciókhoz társított felhasználói csoportok létrehozhatóak és c) egyes felhasználók tetszőleges számú felhasználói csoport tagjai legyenek."
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24. §",
+      "content": "24. § Az ISZ biztosítja a) a rendszer konfigurálásakor beállított paraméterek lekérdezését, megjelenítését és módosítását; b) rendszeres (naponta, hetente, havonta, negyedévente) és ad hoc jelentések készítését az iratforgalom tekintetében."
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25. §",
+      "content": "25. § Az ISZ-nek rendelkeznie kell naprakész telepítési, üzemeltetési és felhasználói kézikönyvvel."
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26. §",
+      "content": "26. § (1) Az ISZ-nek minden metaadat-változást és -műveletet naplóznia kell. (2) Az ISZ biztosítja a metaadatok manuális és automatizált, rendszeres, adatbázisszintű biztonsági mentését, archiválását és a metaadatok helyreállítását. (3) Az ISZ a mentés, az archiválás és a helyreállítás eredményeiről – a sikerességéről, sikertelenségéről, a hibákról – automatikus értesítést ad az arra jogosultsággal rendelkező felhasználó részére. (4) Az ISZ biztosítja az érkeztető nyilvántartás és az iktatókönyvek állományainak (metaadatok, napló állományok és címtárak stb.), valamint a rendszerben tárolt elektronikus iratoknak mentését, archiválását. (5) Az ISZ biztosítja a naplóállományok nyilvántartásoktól független kezelhetőségét."
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27. §",
+      "content": "27. § (1) Az ISZ eseménynaplót vezet, amelyben rögzíti és tárolja a) az iratok, ügyiratok és a kapcsolódó metaadatok változtatására irányuló műveletek (a továbbiakban: objektum) egyedi azonosítóját; b) az objektum megnevezését; c) az adott műveletet kezdeményező, végrehajtó felhasználó nevét, azonosítóját, munkaállomásának azonosítóját; d) a művelet megnevezését, az eredeti és a megváltozott állapotot; e) az esemény dátumát és időpontját; f) a rendszeradminisztrációs paraméterekkel, jogosultságokkal kapcsolatos változtatásra irányuló műveleteket és g) az ISZ-ben bekövetkezett hibák időpontját és jellemzőit. (2) Az eseménynapló rögzíti és tárolja az iratokkal, ügyiratokkal, az érkeztető nyilvántartással és az iktatókönyvekkel kapcsolatos összes iratkezelési eseményt, ideértve a lekérdezést, rögzítést, módosítást, átadást érintő műveletet biztosítja ezekről felhasználónkénti jelentés elkészítésének lehetőségét. (3) Az ISZ az adott eseményt egyértelműen azonosítható módon biztosítja a jogosultsággal rendelkező felhasználó számára az eseménynapló adatainak teljes vagy részleges megtekintését és megjelenítését, nyomtatását, exportálását és ezek tárolását. (4) Az ISZ biztosítja az eseménynapló bejegyzéseinek más szoftverek által történő automatikus feldolgozhatóságát. (5) Az ISZ biztosítja az eseménynapló bejegyzéseinek sértetlenségét. (6) Az ISZ eseménynapló bejegyzéseit időbélyeggel látja el, a keletkezett naplóbejegyzéseket paraméterezhető időszakonként minősített időbélyegzővel hitelesíti oly módon, hogy a bejegyzések észlelhetetlen változása ne következhessen be. (7) Az ISZ biztosítja az eseménynapló állományaihoz való hozzáférés követhetőségét, a betekintések dokumentálását. (8) Az ISZ-nek alkalmasnak kell lennie arra, hogy jogosultság függvényében az arra kijelölt munkaállomásokon használhatóak legyenek a mentési, helyreállítási funkciók."
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28. §",
+      "content": "28. § Az ISZ az adatok átadása, exportálása során a) iktatókönyvek esetében az iktatókönyvhöz tartozó összes, a besorolási séma szerinti irattári tétel, b) irattári tétel esetében az irattári tételszámhoz tartozó összes ügyirat, c) ügyiratok esetében az ügyirathoz kapcsolt összes irat, d) az eseménynapló 27. §-ban leírt bejegyzéseit és az azokhoz tartozó kötelező metaadatok átadását, exportálását biztosítja."
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29. §",
+      "content": "29. § (1) Az ISZ biztosítja, hogy az iratok, ügyiratok és a kapcsolódó metaadatok átadására, exportálására a műveletek egyetlen sorozatával kerüljön sor oly módon, hogy közben a) nem sérül a metaadatok tartalma és struktúrája, b) az irat, ügyirat valamennyi összetevője egy szerves egységet képezve kerül exportálásra, és c) az irat, ügyirat és annak metaadatai közötti kapcsolat változatlan tartalommal megőrzésre kerül. (2) Az ISZ-nek az átadás, exportálás eredményéről, – az adatintegritás biztosításának sikerességéről, sikertelenségéről, a hibákról – az ezekhez kapcsolódó információkról, az eseménynapló adatairól – külön jelölve a sikertelen átadással, exportálással érintett iratokat, ügyiratokat – jelentést kell készítenie, biztosítva annak képernyőn történő megjelenítését és nyomtatását. (3) Vegyes ügyiratok átadása, exportálása során az ISZ biztosítja annak külön jelölését, hogy az iratok, ügyiratok átadása kapcsán megtörtént-e az elektronikus irathoz kapcsolódó papíralapú iratok átadása."
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30. §",
+      "content": "30. § (1) Az ISZ biztosítja az átvétel, importálás során átvett metaadatok ellenőrzését, konzisztenciáját. (2) Az ISZ-nek az átvétel, importálás eredményéről, – a sikerességéről, sikertelenségéről, a hibákról – az ezekhez kapcsolódó információkról, az eseménynapló adatairól – külön jelölve a sikertelen átvétellel, importálással érintett iratokat, ügyiratokat – jelentést kell készítenie, biztosítva annak képernyőn történő megjelenítését és nyomtatását."
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31. §",
+      "content": "31. § (1) Az ISZ biztosítja az egységes kormányzati ügyiratkezelő rendszer érkeztető rendszeréből érkező küldemények és az érkeztetési nyilvántartás adatainak ISZ-be történő automatikus bevezetését. (2) Az ISZ biztosítja az egységes kormányzati ügyiratkezelő rendszerbe bevont szervek számára biztonságos kézbesítési szolgáltatás (a továbbiakban: bksz) igénybevételével a küldemények hivatali tárhelyre történő megküldését, a bksz cím vagy a címzett egységes kormányzati ügyiratkezelő rendszer szerinti azonosító kódja feltüntetésével."
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32. §",
+      "content": "32. § (1) Az ISZ legyen képes a gépi kapcsolódásra és automatizált kommunikációra a Felügyelet által kiadott irányelv szerint. (2) Az ISZ biztosítja a hivatali tárhelyre érkező küldemények letöltését és – ha a közfeladatot ellátó szerv iratkezelési szabályzata ezt lehetővé teszi – automatikus érkeztetését, valamint a letöltött titkosított dokumentumok visszafejtését. (3) Az ISZ a küldemény fogadásáról és érkeztető számáról visszaigazolást küld a feladó számára. (4) Az ISZ biztosítja a feltöltött küldeményekhez kapcsolódó nyugták és visszaigazolások automatikus hozzárendelését az irathoz. (5) Az ISZ biztosítja a hivatali tárhelyről letöltött KR vagy KRX borítékba helyezett állományok a küldemény metaadatok között elhelyezett metaadatainak automatikus beemelését az ISZ-be, illetve elkészíti a KRX borítékot a kiküldendő küldeményekhez. (6) Az ISZ lehetővé teszi a küldeményeknek a címzett nyilvános kulcsával történő titkosítását, ehhez biztosítja a megfelelő kulcstárból a nyilvános titkosító kulcs letöltését."
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33. §",
+      "content": "33. § Az ISZ képes az elektronikus irat hiteles papíralapú irattá alakításának keüsz-szel való együttműködésre a keüsz szolgáltató által kiadott specifikáció szerint."
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34. §",
+      "content": "34. § Az ISZ legyen képes az irat beérkezése és az expediálás során ellenőrizni, a Rendelkezési Nyilvántartás keüsz használatával, a címzett által meghatározott kapcsolattartási módokat."
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35. §",
+      "content": "35. § Az ISZ biztosítja az iratok az ügyfelek központi ügyfélazonosítási nyilvántartás regisztrációhoz kapcsolódó tárhelyére történő megküldését."
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36. §",
+      "content": "36. § (1) Az ISZ az interfészen keresztül az alábbi funkciók elérését biztosítja a köziratok kezeléséért felelős miniszter által a minisztérium honlapján közzétett specifikáció szerint a) érkeztetés, b) iktatás, c) dokumentumtárolás, d) irat és ügyirat átadása-átvétele, e) irat szignálása, f) irat kiadmányozása, g) irat expediálása. (2) Az ISZ vele létesített interfészen keresztül biztosítja a szakrendszer kapcsolatát és az ügyfél időszaki értesítése keüsz szolgáltatáshoz az 1. mellékletben szereplő metaadattábla, illetve a köziratok kezeléséért felelős miniszter által a minisztérium honlapján közzétett specifikáció szerint."
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37. §",
+      "content": "37. § Az ISZ képes a hálózati működésre és LDAP vagy azzal egyenértékű szabványokra épülő nagyvállalati címtármegoldások kezelésére."
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38. §",
+      "content": "38. § Az ISZ által támogatott operációs rendszernek széles körűen alkalmazottnak és terméktámogatottnak kell lennie."
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39. §",
+      "content": "39. § Az ISZ támogassa a szabványos dokumentumformátumok, a nyílt forráskódú programok használatát."
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40. §",
+      "content": "40. § Ez a rendelet 2018. március 1-jén lép hatályba."
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41. §",
+      "content": "41. § (1) Az érvényes tanúsítvánnyal rendelkező és a szerv használatában lévő ISZ a tanúsítvány érvényességi idejének lejáratáig alkalmazható. (2) 2018. március 1-jét követően csak azon ISZ részére adható ki tanúsítvány, amely az e rendeletben előírt feltételeknek megfelel. (3) A szerv 2018. március 1-jét követően csak az e rendelet előírásainak megfelelő és érvényes tanúsítvánnyal rendelkező ISZ-t vezethet be. (4)"
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42. §",
+      "content": "42. § A rendelet tervezetének a műszaki szabályokkal és az információs társadalom szolgáltatásaira vonatkozó szabályokkal kapcsolatos információszolgáltatási eljárás megállapításáról szóló, 2015. szeptember 9-i (EU) 2015/1535 európai parlamenti és tanácsi irányelv szerinti bejelentése megtörtént."
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43. §",
+      "content": "43. §"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "§ E rendelet alkalmazásában 1. adminisztrátor",
+      "definition": "az a személy, aki az ISZ-szel kapcsolatban telepítéssel és karbantartással, rendszernaplók gondozásával, valamint az ISZ működésének ellenőrzésével foglalkozik",
+      "source_provision": "s3"
+    },
+    {
+      "term": "besorolás",
+      "definition": "ügyirat beazonosítása és hozzárendelése a besorolási séma egy kiválasztott kategóriájába",
+      "source_provision": "s3"
+    },
+    {
+      "term": "besorolási séma",
+      "definition": "ügyirat besorolását, osztályozását lehetővé tevő zárt adatkészlet, amelyhez az adott szervnél előforduló ügyirat hozzárendelhető",
+      "source_provision": "s3"
+    },
+    {
+      "term": "elektronikus archiválás",
+      "definition": "a közfeladatot ellátó szervek iratkezelésének általános követelményeiről szóló 335/2005. (XII. 29.) Korm. rendelet (a továbbiakban: Korm. rendelet) 2. § 6. pontjában meghatározott tevékenység",
+      "source_provision": "s3"
+    },
+    {
+      "term": "elektronikus átvételi csomag",
+      "definition": "az elektronikus formában tárolt iratok közlevéltári átvételének eljárásrendjéről és műszaki követelményeiről szóló 34/2016. (XI. 30.) EMMI rendelet 2. § 3. pontja szerinti állomány",
+      "source_provision": "s3"
+    },
+    {
+      "term": "elektronikus érkeztető nyilvántartás",
+      "definition": "a Korm. rendelet 2. § 7. pontjában meghatározott nyilvántartás",
+      "source_provision": "s3"
+    },
+    {
+      "term": "elektronikus iktatókönyv",
+      "definition": "a Korm. rendelet 2. § 8. pontjában meghatározott szolgáltatásegyüttes",
+      "source_provision": "s3"
+    },
+    {
+      "term": "elektronikus iratátadási csomag",
+      "definition": "olyan tömörítetlen állomány, amely egy vagy több elektronikus irat és kapcsolódó metaadataik meghatározott formátumú és struktúrájú, meghatározott átvétel céljából összekapcsolt együttese",
+      "source_provision": "s3"
+    },
+    {
+      "term": "előzményezés",
+      "definition": "az iratkezelési folyamat azon művelete, amely során megállapításra kerül, hogy az új irat egy már meglévő ügyirattal kapcsolatban áll-e, vagy az új iratot új ügy első irataként kell-e nyilvántartásba venni",
+      "source_provision": "s3"
+    },
+    {
+      "term": "elsődleges besorolási séma",
+      "definition": "a szerv irattári terve",
+      "source_provision": "s3"
+    },
+    {
+      "term": "eseménynapló",
+      "definition": "olyan adatok rendezett összessége, amely az események rekonstruálására alkalmas részletességben tárol információt az iratkezelési eseményekről és egyéb tevékenységekről",
+      "source_provision": "s3"
+    },
+    {
+      "term": "expediálás",
+      "definition": "a Korm. rendelet 2. § 16. pontjában meghatározott tevékenység",
+      "source_provision": "s3"
+    },
+    {
+      "term": "feladat",
+      "definition": "a vezető által meghatározott irattal vagy ügyirattal kapcsolatos elvégzendő munka",
+      "source_provision": "s3"
+    },
+    {
+      "term": "felhasználó",
+      "definition": "az a személy, aki az adott funkció használatára jogosult, és a funkció működtetése során számára ismertté váló vagy módosítható adatokhoz rendelkezik a betekintési vagy módosítási jogosultsággal",
+      "source_provision": "s3"
+    },
+    {
+      "term": "használható minősítésű iratkezelési szoftver",
+      "definition": "a 2. mellékletben szereplő követelményrendszer szerint legalább 60 pontot elérő és tanúsítással rendelkező ISZ",
+      "source_provision": "s3"
+    },
+    {
+      "term": "hivatali tárhely",
+      "definition": "az elektronikus ügyintézésről szóló jogszabályok alapján a kijelölt szolgáltató által biztosított tárhely, biztonságos kézbesítési szolgáltatási cím",
+      "source_provision": "s3"
+    },
+    {
+      "term": "irat",
+      "definition": "a köziratokról, a közlevéltárakról és a magánlevéltári anyag védelméről szóló 1995. évi LXVI. törvény 3. § c) pontja szerinti adategyüttes",
+      "source_provision": "s3"
+    },
+    {
+      "term": "iratkezelési szoftver",
+      "definition": "a Korm. rendelet 2. § 20. pontjában meghatározott szoftver",
+      "source_provision": "s3"
+    },
+    {
+      "term": "iratnyilvántartási funkció",
+      "definition": "az irat egyedi azonosítóval történő ellátása és nyilvántartásba vétele",
+      "source_provision": "s3"
+    },
+    {
+      "term": "irattá nyilvánítás",
+      "definition": "az az eljárás, amely során egyedi döntés vagy előre meghatározott szabályok alapján automatikusan a papíralapú vagy elektronikus dokumentumot a szerv működése szempontjából lényegesnek minősítenek, és ezért érkeztetésére, iktatására kerül sor",
+      "source_provision": "s3"
+    },
+    {
+      "term": "iratpéldány",
+      "definition": "az irat eredeti és másolati megjelenési formája, amely a címzett kivételével azonos metaadat-tartalommal rendelkezik",
+      "source_provision": "s3"
+    },
+    {
+      "term": "irattári tételbe történő besorolás",
+      "definition": "az iratnak, ügyiratnak az irattári terv mint elsődleges besorolási séma alapján történő besorolása",
+      "source_provision": "s3"
+    },
+    {
+      "term": "jogosultság",
+      "definition": "egy adott művelet elvégzésének lehetősége az ISZ-ben – egy adott személyre vagy rendszerelemre vonatkozóan, szerepkör hozzárendelése vagy hozzáférés vezérlési lista alapján",
+      "source_provision": "s3"
+    },
+    {
+      "term": "keüsz",
+      "definition": "az elektronikus ügyintézésről szóló jogszabályoknak megfelelő központi elektronikus ügyintézési szolgáltatás",
+      "source_provision": "s3"
+    },
+    {
+      "term": "kézbesítés",
+      "definition": "a Korm. rendelet 2. § 27. pontjában meghatározott tevékenység",
+      "source_provision": "s3"
+    },
+    {
+      "term": "kiadmányozás",
+      "definition": "a már felülvizsgált végleges kiadmánytervezetet a kiadmányozó jóváhagyja, és elküldését engedélyezi, a feljogosított vezető a kiadmánytervezetet vagy saját kezűleg írja alá és keltezéssel látja el, vagy elektronikus aláírással és időbélyeggel hitelesíti",
+      "source_provision": "s3"
+    },
+    {
+      "term": "KRX fájl",
+      "definition": "strukturált zip tömörítésű könyvtár és fájlszerkezet, mely a csomag egészére vonatkozó metaadatokat is tartalmaz egy külön könyvtárban, és ettől elkülönítve külön könyvtárakban elhelyezett, tetszőleges számú csatolmány kezelésére alkalmas",
+      "source_provision": "s3"
+    },
+    {
+      "term": "küldemény",
+      "definition": "a Korm. rendelet 2. § 30. pontjában meghatározott adategyüttes",
+      "source_provision": "s3"
+    },
+    {
+      "term": "metaadat",
+      "definition": "az iratkezelési folyamat során kezelt és nyilvántartott adatot leíró adat",
+      "source_provision": "s3"
+    },
+    {
+      "term": "szakrendszer",
+      "definition": "valamely közfeladat tekintetében az ügyintézést megvalósító vagy támogató informatikai alkalmazás, amely iratnyilvántartási feladatokat is ellát",
+      "source_provision": "s3"
+    },
+    {
+      "term": "szerelés",
+      "definition": "a Korm. rendelet 2. § 45. pontjában meghatározott tevékenység",
+      "source_provision": "s3"
+    },
+    {
+      "term": "szignálás",
+      "definition": "a Korm. rendelet 2. § 46. pontjában meghatározott tevékenység",
+      "source_provision": "s3"
+    },
+    {
+      "term": "továbbítás",
+      "definition": "a Korm. rendelet 2. § 47. pontjában meghatározott tevékenység",
+      "source_provision": "s3"
+    },
+    {
+      "term": "ügyirat",
+      "definition": "a Korm. rendelet 2. § 51. pontjában meghatározott irategyüttes",
+      "source_provision": "s3"
+    },
+    {
+      "term": "vegyes ügyirat",
+      "definition": "papíralapú és elektronikus iratokat egyaránt tartalmazó ügyirat.",
+      "source_provision": "s3"
+    }
+  ]
+}

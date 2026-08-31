@@ -1,0 +1,269 @@
+{
+  "id": "hu-law-2017-19-20-2c",
+  "type": "statute",
+  "title": "19/2017. (VII. 19.) MNB rendelet a pénzmosás és a terrorizmus finanszírozása megelőzéséről és megakadályozásáról szóló törvény végrehajtásának az MNB által felügyelt szolgáltatókra vonatkozó, valamint az Európai Unió és az ENSZ Biztonsági Tanácsa által elrendelt pénzügyi és vagyoni korlátozó intézkedések végrehajtásáról szóló törvény szerinti szűrőrendszer kidolgozásának és működtetése minimumkövetelményeinek részletes szabályairól",
+  "status": "repealed",
+  "in_force_date": "2017-07-20",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2017-19-20-2C",
+  "description": "a pénzmosás és a terrorizmus finanszírozása megelőzéséről és megakadályozásáról szóló törvény végrehajtásának az MNB által felügyelt szolgáltatókra vonatkozó, valamint az Európai Unió és az ENSZ Biztonsági Tanácsa által elrendelt pénzügyi és vagyoni korlátozó intézkedések végrehajtásáról szóló törvény szerinti szűrőrendszer kidolgozásának és működtetése minimumkövetelményeinek részletes szabályairól",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § E rendelet hatálya a Magyarországon székhellyel, fiókteleppel vagy telephellyel rendelkező hitelintézetre, a pénzmosás és a terrorizmus finanszírozása megelőzéséről és megakadályozásáról szóló 2017. évi LIII. törvény (a továbbiakban: Pmt.) szerinti hitelintézetre, pénzügyi szolgáltatóra, foglalkoztatói nyugdíj szolgáltató intézményre, önkéntes kölcsönös biztosítópénztárra, nemzetközi postautalvány-felvételt és -kézbesítést végzőre és bizalmi vagyonkezelőre (a továbbiakban együtt: szolgáltató) terjed ki."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § E rendelet alkalmazásában: 1. auditált elektronikus hírközlő eszköz: az ügyfél távoli, elektronikus adatátviteli csatornán történő ügyfél-átvilágításra, az általa tett nyilatkozat értelmezésére, biztonságos tárolására, a tárolt adatok visszakeresésére és ellenőrzésére alkalmas elektronikus valós idejű kép- és hangátviteli rendszer, 2. kockázati profil: a beazonosított pénzmosási és terrorizmusfinanszírozási kockázatok csökkentését követően megmaradó kockázat általános jellege, beleértve a kockázat típusát és szintjét is, 3. megerősített eljárás: az ügyfélben, a termékben, a szolgáltatásban, az ügyletben, az alkalmazott eszközben vagy a földrajzi kitettségben rejlő kockázat kezelésére szolgáló kockázatalapú intézkedések együttesét magába foglaló fokozott monitoring, 4. monitoring: az üzleti kapcsolat folyamatos figyelemmel kísérése, 5. pénzmosási és terrorizmusfinanszírozási kockázat: a pénzmosás vagy a terrorizmus finanszírozása felmerülésének valószínűsége és hatása, 6. szokatlan ügylet: olyan ügylet, a) amely nincs összhangban a termékkel vagy a szolgáltatással kapcsolatban általánosan követett eljárásokkal, b) amelynek nincs világosan érthető gazdasági célja vagy jogi alapja, c) amely esetében az ügyfél korábbi tevékenységéhez képest indokolatlanul megváltozik az ügyletek gyakorisága, nagysága."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) Az elektronikus hírközlő eszköz akkor auditálható és működtethető, ha legalább az alábbi informatikai biztonsági követelményeknek megfelel: a) elemei azonosíthatók és dokumentáltak, b) üzemeltetési folyamatai szabályozottak, dokumentáltak és az üzemeltetési szabályzat szerinti gyakorisággal ellenőrzöttek, c) változáskezelési folyamatai biztosítják, hogy a rendszer paraméterezésében és a szoftverkódban bekövetkező változások csak tesztelt és dokumentált módon valósulhassanak meg, d) adatmentési és -visszaállítási rendje biztosítja a rendszer biztonságos visszaállítását, továbbá a mentés-visszaállítás az üzemeltetési szabályzat szerinti gyakorisággal és dokumentáltan tesztelt, e) a felhasználói hozzáférés mind alkalmazási, mind infrastruktúraszinten szabályozott, dokumentált és az üzemeltetési szabályzat szerinti gyakorisággal ellenőrzött, f) a felállított végfelhasználói hozzáférések egységes, zárt rendszert alkotnak, biztosítják az azonosítási folyamat megvalósulását, továbbá felhasználóinak tevékenysége naplózott, a rendkívüli eseményekről automatikus figyelmeztetések generálódnak, g) a hozzáférést biztosító kiemelt jogosultságok szabályozottak, dokumentáltak és az üzemeltetési szabályzat szerinti gyakorisággal ellenőrzöttek, a kiemelt jogosultságokkal elvégzett tevékenység naplózott, a naplófájlok sérthetetlensége biztosított, és a kritikus rendkívüli eseményekről automatikus figyelmeztetések generálódnak, h) a távoli hozzáférés szabályozott, dokumentált és az üzemeltetési szabályzat szerinti gyakorisággal ellenőrzött, i) a vírusok és más rosszindulatú kódok és cselekmények elleni védelem biztosított, j) adatkommunikációja és rendszerkapcsolatai dokumentáltak és ellenőrzöttek, az adatkommunikáció bizalmassága, sérthetetlensége és hitelessége biztosított, k) a katasztrófa-helyreállítási terv rendszeresen tesztelt, l) karbantartása szabályozott, m) adathordozóinak védelme szabályozott, biztosított, hogy az adathordozókhoz csak az arra jogosult személyek és csak az adatkezelési cél teljesülése érdekében férnek hozzá, ennek felülvizsgálata és ellenőrzése rendszeresen megtörténik, n) saját kontrolljai és az üzemeltetési szabályzat gondoskodnak a rendszerelemek és a kezelt információk sértetlenségéről és védelméről, o) biztosított a megfelelő szintű fizikai védelem, az elkülönített környezet és az egyes biztonsági események detektálása. (2) A szolgáltató az auditált elektronikus hírközlő eszköz vonatkozásában gondoskodik arról, hogy a) az ügyféllel felépített elektronikus átviteli csatornán keresztül folyó távadatátvitel megfelelően biztonságos, titkosított, bizalmas, sértetlen és hiteles legyen, b) az ügyfél megkapja a szolgáltatás igénybevételének feltételeiről való tájékoztatását, beleértve a szolgáltatás biztonságára vonatkozó ügyfél oldali felelősséget is, c) a szolgáltató oldali azonosításban csak a szükséges mértékben és csak olyan személy vegyen részt, aki a valós idejű ügyfél-azonosítás végrehajtásához szükséges jogi, technikai és biztonsági oktatásban részesült, d) az elektronikus hírközlő eszközre, és az ügyfél-átvilágítási folyamatra vonatkozó olyan vizsgálati jelentéssel rendelkezzen, amely igazolja, hogy ezek informatikai védelme a biztonsági kockázatokkal arányos, és megfelel különösen az (1) bekezdésben foglalt követelményeknek, e) a jogi szabályozásban, az alkalmazott technológiában vagy az üzleti folyamatban történt releváns, a működésre kiható változás esetén, de legalább kétévente a vizsgálati jelentést megújítsa, f) a d) pontban meghatározott vizsgálati jelentést olyan, az Európai Gazdasági Térség valamely tagállamában bejegyzett szervezet állítsa ki, amely szervezetnél a vizsgálatban igazolhatóan részt vevő személy rendelkezik legalább fa) az Information Systems Audit and Control Association (ISACA) által kiadott Certified Information Systems Auditor (CISA), fb) az Information Systems Audit and Control Association (ISACA) által kiadott Certified Information Security Manager (CISM), fc) az International Information Systems Security Certification Consortium Inc. által kiadott Certified Information Systems Security Professional (CISSP) vagy fd) az Információbiztonsági irányítási rendszerekre vonatkozó ISO/IEC 27001 Vezető Auditor (Lead Auditor) képesítéssel és minősítéssel, g) az ügyfél kérésére az ügyfél számára lehetővé tegye az ügyfél-átvilágítással kapcsolatos adatoknak az adatkezelés céljának megfelelő ideig történő tartós tárolását és a tárolt adatok változatlan formában és tartalommal történő megjelenítését."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) A szolgáltató vezetője, foglalkoztatottja, illetve segítő családtagja az auditált elektronikus hírközlő eszköz útján végzett valós idejű ügyfél-átvilágítást (a továbbiakban: valós idejű ügyfél-átvilágítás) egy erre a célra elkülönített és felszerelt helyiségben végzi. (2) A szolgáltató visszakereshető módon rögzíti a) a helyiségbe belépő személyét, b) a helyiségből kilépő személyét, valamint c) a be- és kilépés időpontját. (3) A valós idejű ügyfél-átvilágítást csak a szolgáltató olyan vezetője, foglalkoztatottja és segítő családtagja végezheti, akinek a szolgáltató előzőleg e tevékenység ellátására képzést szervezett, és aki azt követően eredményes vizsgát tett. (4) A szolgáltató az auditált elektronikus hírközlő eszköz vonatkozásában biztosítja az ügyfél átvilágítására vonatkozó biztonságos feltételeket, amennyiben a) az ügyfél a valós idejű ügyfél-átvilágítás feltételeit részletesen megismerte, és ahhoz kifejezetten hozzájárult, b) a valós idejű ügyfél-átvilágítás legalább kétfaktoros – amelyek közül egyik kép- és hangátvitelt lehetővé tevő elektronikus hírközlő eszköz –, és a faktorai legalább két eltérő technológián alapulnak, c) a valós idejű kép- és hangátvitelt lehetővé tévő elektronikus hírközlő eszköz képfelbontása és a kép megvilágítása alkalmas az ügyfél nemének, korának, arcjellemzőinek felismerésére és az ügyfél által bemutatott fényképes azonosító okmánnyal való összevetésre, az okmányban foglalt adatok és a bemutatott okmány biztonsági elemeinek azonosítására, d) az ügyfél-átvilágítási folyamat szabályozott és folyamatosan ellenőrzött, e) az átvilágítás megfelelőségét további, második szintű ellenőrzés követi a szolgáltatón belül."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § (1) A szolgáltató a valós idejű ügyfél-átvilágítás során a szolgáltató és az ügyfél között létrejött teljes kommunikációt, az ügyfél valós idejű ügyfél-átvilágítással kapcsolatos részletes tájékoztatását és az ügyfél ehhez történő kifejezett hozzájárulását visszakereshető módon kép- és hangfelvételen rögzíti. (2) A valós idejű ügyfél-átvilágítást végző szolgáltató vezetője, foglalkoztatottja, illetve segítő családtagja felszólítja az ügyfelet arra, hogy a) úgy nézzen bele a kamerába, hogy arcképe felismerhető és rögzíthető legyen, b) érthető módon közölje a valós idejű ügyfél-átvilágításhoz használt kártyaformátumú személyazonosító igazolvány vagy vezetői engedély okmányazonosítóját, és c) úgy mozgassa a valós idejű ügyfél-átvilágításhoz használt kártyaformátumú személyazonosító igazolványát vagy vezetői engedélyét, hogy az azon található biztonsági elemek és adatsorok felismerhetők és rögzíthetők legyenek. (3) A valós idejű ügyfél-átvilágítást végző szolgáltató vezetője, foglalkoztatottja, illetve segítő családtagja köteles megbizonyosodni arról, hogy a valós idejű ügyfél-átvilágításhoz használt kártyaformátumú személyazonosító igazolvány vagy vezetői engedély alkalmas a valós idejű ügyfél-átvilágítás elvégzésére, így a) a kártyaformátumú személyazonosító igazolvány vagy vezetői engedély egyes elemei és azok elhelyezkedése megfelel az okmányt kiállító hatóság előírásainak, b) az egyes biztonsági elemek – különösen a hologram, a kinegram vagy ezekkel megegyező más biztonsági elemek – felismerhetők és sérülésmentesek, c) a kártyaformátumú személyazonosító igazolvány vagy vezetői engedély rendelkezik gépi adatolvasást lehetővé tevő mezővel, d) a kártyaformátumú személyazonosító igazolvány vagy vezetői engedély okmányazonosítója megegyezik az ügyfél által közölt okmányazonosítóval, felismerhető és sérülésmentes. (4) A valós idejű ügyfél-átvilágítást végző alkalmazott köteles megbizonyosodni arról, hogy a) az ügyfél arcképe felismerhető és azonosítható az általa bemutatott kártyaformátumú személyazonosító igazolványon vagy vezetői engedélyen látható arckép alapján, és b) a kártyaformátumú személyazonosító igazolványon vagy vezetői engedélyen megtalálható adatok logikailag megfeleltethetők az ügyfélről a szolgáltatónál rendelkezésre álló adatokkal. (5) A szolgáltató a valós idejű ügyfél-átvilágítás során az ügyfél által bemutatott kártyaformátumú személyazonosító igazolvány vagy vezetői engedély adatait összeveti nyilvánosan hozzáférhető nyilvántartás vagy olyan nyilvántartás adataival, amelynek kezelőjétől törvény alapján adatigénylésre jogosult. (6) A szolgáltató egy alfanumerikus kódból álló, központilag, véletlenszerűen generált azonosítási kódot küld az ügyfélnek az ügyfél választása szerint az ügyfél azonosítására alkalmas e-mail-címre vagy SMS-ben mobil- telefonszámra, amely kódot az ügyfélnek a valós idejű ügyfél-átvilágítás befejezéséig a szolgáltató által választott kommunikációs formában küld vissza a szolgáltatónak."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § (1) A szolgáltató a valós idejű ügyfél-átvilágítás során az ügyfélre irányadó, Pmt. szerinti nyilatkozatok megtételére és okiratok bemutatására hívja fel az ügyfelet. (2) A szolgáltató az (1) bekezdés alapján bemutatott okiratok adatait összeveti nyilvánosan hozzáférhető nyilvántartás vagy olyan nyilvántartás adataival, amelynek kezelőjétől törvény alapján adatigénylésre jogosult."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § (1) A szolgáltató megszakítja a valós idejű ügyfél-átvilágítást, amennyiben a) az ügyfél a valós idejű ügyfél-átvilágítás során visszavonja az adatrögzítéshez adott hozzájárulását, b) az ügyfél által bemutatott okmányok, illetve okiratok fizikai és adattartalmi követelményei nem adottak, c) az ügyfél, az általa bemutatott okmányok, illetve okiratok vizuális azonosításának feltételei nem adottak, d) a szolgáltató nem tudja elkészíteni a hang- és képfelvételt, e) az ügyfél nem, nem teljes egészében vagy hibásan küldi vissza az azonosítási kódot, f) az ügyfél nem vagy a szolgáltató vezetője, foglalkoztatottja, illetve segítő családtagja számára észlelhetően befolyás alatt tesz nyilatkozatot, vagy g) az eljárás során azzal kapcsolatban bármilyen ellentmondás vagy bizonytalanság lép fel. (2) Pénzmosásra, terrorizmus finanszírozására vagy dolog büntetendő cselekményből való származására utaló adat, tény, illetve körülmény felmerülése esetében, a szolgáltató az (1) bekezdésben írt feltételek fennállása ellenére is elvégzi a valós idejű ügyfél-átvilágítást, amelyet követően haladéktalanul bejelentést tesz a pénzügyi információs egységnél."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § A valós idejű ügyfél-átvilágítást a szolgáltató belső szabályzatban meghatározott foglalkoztatottjának a valós idejű ügyfél-átvilágítás egészére kiterjedő ellenőrzése zárja le."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § A szolgáltató a valós idejű ügyfél-átvilágítás rendszerét úgy alakítja ki, hogy azt a fogyatékos személyek jogairól és esélyegyenlőségük biztosításáról szóló törvény szerinti fogyatékos személy is igénybe tudja venni."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § (1) Az üzleti kapcsolat létesítését és az ügyleti megbízás teljesítését a Pmt.-ben meghatározottakon felül ügyfélkockázati tényezők alapján a szolgáltató belső szabályzatban meghatározott vezetője hagyja jóvá az alábbi esetekben: a) amennyiben az üzleti kapcsolat létesítése során arra utaló adat, tény, illetve körülmény merül fel, hogy a szolgáltatás mögött ténylegesen nem az a személy áll, aki a szerződéskötési kérelemben feltüntetésre került, b) amennyiben az üzleti kapcsolat létesítése során havi ötvenmillió forintot meghaladó készpénzforgalom lebonyolítását jelzi az ügyfél, c) amennyiben az ügyleti megbízás az ötvenmillió forintot meghaladja, d) amennyiben az ügyfél olyan társaság, amelynek bemutatóra szóló részvénye van, vagy amelynek részvényesét részvényesi meghatalmazott képviseli, e) amennyiben az ügyfél olyan társaság, amelynek tulajdonosi szerkezete a társaság üzleti tevékenységének jellegéhez képest szokatlannak vagy túlzottan összetettnek tűnik. (2) Az üzleti kapcsolat létesítését és az ügyleti megbízás teljesítését termékhez, szolgáltatáshoz, ügylethez vagy alkalmazott eszközhöz kapcsolódó kockázati tényezők alapján a szolgáltató belső szabályzatban meghatározott vezetője hagyja jóvá az alábbi esetekben: a) privátbanki üzleti kapcsolat létesítése, b) személyesen meg nem jelent természetes személy ügyféllel okirat hiteles másolata alapján létrejött üzleti kapcsolat vagy ügylet, c) új termékek vagy új üzleti gyakorlatok, többek között új teljesítési mechanizmus, valamint új vagy fejlődő technológiák alkalmazása mind új, mind korábban meglévő termékek esetében. (3) Az üzleti kapcsolat létesítését és az ügyleti megbízás teljesítését földrajzi kockázati tényezők alapján a szolgáltató belső szabályzatban meghatározott vezetője hagyja jóvá az alábbi esetekben: a) ha az ügyfél stratégiai hiányosságokkal rendelkező, kiemelt kockázatot jelentő harmadik országban lakcímmel vagy székhellyel rendelkezik, b) ha az ügyfél tulajdonosai között stratégiai hiányosságokkal rendelkező, kiemelt kockázatot jelentő harmadik országban székhellyel rendelkező jogi személy vagy jogi személyiséggel nem rendelkező szervezet található, c) ha az ügyfél tényleges tulajdonosa, rendelkezésre jogosultja, képviselője vagy meghatalmazottja stratégiai hiányosságokkal rendelkező, kiemelt kockázatot jelentő harmadik országban rendelkezik lakcímmel."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § (1) A szolgáltató a Pmt.-ben meghatározottakon kívül egyszerűsített ügyfél-átvilágítást alkalmazhat, amennyiben ügyfele 1. a Pmt. 1. § (1) bekezdés a)–e) pontjában meghatározott, az Európai Unió területén székhellyel rendelkező szolgáltató vagy olyan, harmadik országban székhellyel rendelkező – a Pmt. 1. § (1) bekezdés a)–e) pontjában meghatározott – szolgáltató, amelyre a Pmt.-ben meghatározottakkal egyenértékű követelmények vonatkoznak, és amely ezek betartása tekintetében felügyelet alatt áll, 2. olyan társaság, amelynek értékpapírját egy vagy több tagállamban bevezették a szabályozott piacra, vagy olyan harmadik országbeli társaság, amelyre a közösségi joggal összhangban lévő közzétételi követelmények vonatkoznak, 3. a Pmt. 5. §-ában meghatározott felügyeletet ellátó szerv, 4. helyi önkormányzat, a helyi önkormányzat költségvetési szerve vagy a 3. pontba nem tartozó központi államigazgatási szerv, 5. az Európai Parlament, az Európai Unió Tanácsa, az Európai Bizottság, az Európai Unió Bírósága, az Európai Számvevőszék, az Európai Gazdasági és Szociális Bizottság, a Régiók Bizottsága, az Európai Központi Bank, az Európai Beruházási Bank vagy az Európai Unió más intézménye vagy szerve, 6. sem visszavásárlási értékkel, sem lejárati szolgáltatással nem rendelkező, tisztán kockázati haláleseti életbiztosítást köt, 7. az életbiztosítási ágba tartozó biztosítás esetén, olyan biztosítást köt, amelynek az éves biztosítási díja nem haladja meg a kettőszázhatvanezer forintot vagy amennyiben az egyszeri biztosítási díj nem haladja meg a hatszázötvenezer forintot, 8. számára az önkéntes kölcsönös biztosító pénztárba a munkáltatója által az Önkéntes Kölcsönös Biztosító Pénztárakról szóló törvény szerinti munkáltatói hozzájárulásként fizetett havi összeg nem haladja meg egészségpénztár, önsegélyező pénztár, egészség- és önsegélyező pénztár esetén a tárgyév első napján érvényes havi minimálbér 30%-át, önkéntes nyugdíjpénztár esetén a tárgyév első napján érvényes havi minimálbér 50%-át, 9. munkáltatója által az önkéntes kölcsönös biztosító pénztárba az alkalmazottai javára fizetett, az Önkéntes Kölcsönös Biztosító Pénztárakról szóló törvény szerinti célzott szolgáltatás finanszírozására teljesített összes befizetés éves szinten nem haladja meg a munkáltatónak a szolgáltatóban tagsági jogviszonnyal rendelkező alkalmazottainak létszáma és a tárgyév első napján érvényes havi minimálbér szorzatának összegét, 10. által az önkéntes kölcsönös biztosító pénztárba befizetett összeg éves szinten nem haladja meg a személyi jövedelemadóról szóló törvény szerint érvényesíthető adókedvezmény maximális mértékének igénybevételéhez jogosító befizetés összegét, 11. a személyi jövedelemadóról szóló törvény szerinti nyugdíjbiztosítást köt, ide nem értve a szerződés teljes vagy részleges visszavásárlására vonatkozó ügyletet, 12. lakás-előtakarékossági szerződést köt, amely alapján az éves elhelyezendő megtakarítás összege nem haladja meg a lakástakarékpénztárakról szóló törvény szerinti legmagasabb összegű éves állami támogatás maradéktalan igénybevételéhez szükséges összeget, vagy 13. elektronikuspénz-birtokos, és a részére kibocsátott elektronikus pénz a) mindenkori egyenlege nem haladja meg a hatszázötvenezer forintot, és adott naptári évben legfeljebb kettőszázhatvanezer forint értékben történő elektronikus pénz visszaváltását teszi lehetővé a kibocsátó, és ebből a készpénzben kivett vagy készpénzre beváltott összeg nem haladja meg a huszonötezer forintot, és b) olyan elektronikus pénz terhére vagy más olyan jellegű forrás felhasználásával nem tölthető fel, amely esetében az ügyfél azonosítása nem történt meg. (2) A Pmt. 3. § 25. pontjában meghatározott Posta Elszámolási Központot működtető intézmény a Pmt.-ben és az (1) bekezdésben meghatározottakon kívül egyszerűsített ügyfél-átvilágítást alkalmazhat, amennyiben ügyfele nem stratégiai hiányosságokkal rendelkező, kiemelt kockázatot jelentő harmadik országban rendelkezik lakhellyel vagy székhellyel, és kettőmillió-ötszázezer forintot el nem érő összegű, belföldön kezdeményezett és belföldön teljesítendő áru- vagy szolgáltatásnyújtás ellenértékének teljesítésére irányulóan ad ügyleti megbízást."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. § (1) A szolgáltató a Pmt.-ben meghatározottakon kívül fokozott ügyfél-átvilágítást alkalmazhat, amennyiben ügyfele: a) nem állami vagy önkormányzati tulajdonban lévő nonprofit gazdasági társaság, b) olyan jogi személy vagy jogi személyiséggel nem rendelkező szervezet, amelynek tényleges tulajdonosa stratégiai hiányosságokkal rendelkező, kiemelt kockázatot jelentő harmadik országban földrajzi területen rendelkezik lakcímmel, c) olyan társaság, amelynek bemutatóra szóló részvénye van, vagy amelynek részvényesét részvényesi meghatalmazott képviseli, d) olyan társaság, amelynek tulajdonosi szerkezete a társaság üzleti tevékenységének jellegéhez képest szokatlannak vagy túlzottan összetettnek tűnik. (2) Amennyiben a szolgáltató az (1) bekezdés szerinti ügyfelet nem sorolja fokozott ügyfél-átvilágítás alá, azt belső kockázatértékelésében indokolja. (3) A (2) bekezdésben meghatározott esetben a szolgáltató a belső kockázatértékeléséhez előzetesen a Magyar Nemzeti Bank (a továbbiakban: MNB) engedélyét kéri."
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. § A szolgáltató a Pmt.-ben meghatározottakon kívül a következő esetekben alkalmaz megerősített eljárást: a) személyesen meg nem jelent természetes személy ügyféllel okirat hiteles másolata alapján létrejött üzleti kapcsolat vagy ügylet esetén, b) nem állami vagy önkormányzati tulajdonban lévő nonprofit gazdasági társaság tekintetében, c) stratégiai hiányosságokkal rendelkező, kiemelt kockázatot jelentő harmadik országban lakóhellyel vagy székhellyel rendelkező ügyfél tekintetében, d) stratégiai hiányosságokkal rendelkező, kiemelt kockázatot jelentő harmadik országban lakóhellyel rendelkező tényleges tulajdonos tekintetében, e) a takarékbetétről szóló törvényerejű rendelet szerinti nem névre szóló takarékbetét névre szólóvá alakításával érintett ügyfél tekintetében, amennyiben a névre szólóvá alakítani kívánt takarékbetétek összértéke eléri a hárommillió-hatszázezer forintot, f) amennyiben az ügyfél olyan társaság, amelynek bemutatóra szóló részvénye van, vagy amelynek részvényesét részvényesi meghatalmazott képviseli, g) amennyiben az ügyfél olyan társaság, amelynek tulajdonosi szerkezete a társaság üzleti tevékenységének jellegéhez képest szokatlannak vagy túlzottan összetettnek tűnik, vagy h) amennyiben az ügyfelet a szolgáltató tízmillió forintot meghaladó pénzváltás miatt világítja át."
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14. §",
+      "content": "14. § A szolgáltató belső kockázatértékelése alapján a belső szabályzatában határozza meg, hogy a Pmt.-ben és az e rendeletben meghatározottakon kívül mely esetekben alkalmaz megerősített eljárást."
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15. §",
+      "content": "15. § (1) A szolgáltató a megerősített eljárás során az alábbi intézkedéseket hajtja végre: a) további információ szerzése aa) az ügyfélről, ab) a tervezett ügylet természetéről, ac) az ügyfél pénzügyi eszközéről és annak forrásáról, ad) a tervezett vagy végrehajtott ügylet céljáról, b) az ügyfélhez kötődő üzleti kapcsolatok számának és időzítésének kiemelt vizsgálata és c) további vizsgálatok céljából ügylet kiválasztása. (2) A szolgáltató az (1) bekezdés c) pontja szerinti vizsgálatok elvégzése céljából kiválasztja legalább a tízmillió forintot elérő vagy meghaladó összegű ügyletet. (3) Amennyiben a (2) bekezdés szerinti ügylet készpénzbefizetés vagy pénzváltás, a szolgáltató beszerzi a pénzügyi eszközök forrására vonatkozó információt is."
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16. §",
+      "content": "16. § (1) A belső kockázatértékelés alkalmazása során a szolgáltató beazonosítja a már ismert kockázatai közül azokat, amelyek hatással vannak a pénzmosási és terrorizmusfinanszírozási kockázataira. (2) A szolgáltató az (1) bekezdésben meghatározott beazonosítás során figyelembe veszi a már rendelkezésre álló kockázati profilt."
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17. §",
+      "content": "17. § (1) A szolgáltató a kockázati tényezők beazonosítása során a Pmt.-ben meghatározottakon kívül az alábbiakat veszi figyelembe: a) az Európai Bizottság nemzetek feletti kockázatértékelését, b) az európai felügyeleti hatóságok véleményét az európai uniós pénzügyi ágazatot érintő pénzmosási és terrorizmusfinanszírozási kockázatokról, c) az MNB által kiadott ajánlást, d) az MNB által nyilvánosságra hozott információkat és e) az MNB által folytatott eljárás során keletkezett és nyilvánosságra hozott dokumentumokat. (2) A szolgáltató a kockázati tényezők beazonosítása során különösen a) a civil társadalomtól, b) az értékelés alá vont tagállam pénzmosás és a terrorizmus finanszírozása elleni rendszere megfelelőségével és hatékonyságával, korrupcióellenes és adózási rendszerrel kapcsolatos értékeléséből, c) nyilvános forrásból és d) tudományos intézményektől származó információkat vehet figyelembe."
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18. §",
+      "content": "18. § (1) Amennyiben a szolgáltató ki van téve más tagállam vagy harmadik ország pénzmosási és terrorizmusfinanszírozási kockázatainak, a szolgáltató ezeket a kockázatokat is beazonosítja. (2) A szolgáltató az (1) bekezdés szerinti kockázatokat különösen abban az esetben azonosítja be, amennyiben a szolgáltató a) üzleti kapcsolatot tart fenn más tagállammal vagy harmadik országban bejegyzett vagy letelepedett személlyel, b) egy másik tagállamban vagy harmadik országban létrehozott pénzügyi csoport tagja, c) tényleges tulajdonosa másik tagállamban vagy harmadik országban rendelkezik lakóhellyel, vagy d) olyan kapcsolatot tart fenn más tagállammal vagy harmadik országgal, amely arra utal, hogy a szolgáltató ki van téve az adott ország pénzmosási és terrorizmusfinanszírozási kockázatainak. (3) A szolgáltató beszerzi az (1) bekezdés szerinti tagállamhoz vagy harmadik országhoz köthető pénzmosási és terrorizmusfinanszírozási kockázatokkal kapcsolatos azon információkat, amelyek hatással lehetnek az általa végzett tevékenységre. (4) A szolgáltató a tudomásszerzéstől számított három munkanapon belül bejelentést tesz az MNB-hez, amennyiben az (1) bekezdés szerinti kockázatok beazonosítását és a (3) bekezdés szerinti információk beszerzését követően olyan hiányosság jut a tudomására, amelyek veszélyt jelentenek az Európai Unió pénzügyi rendszerére."
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19. §",
+      "content": "19. § A szolgáltató az alábbi szempontokat veszi figyelembe belső kockázatértékelésének elkészítésekor: a) tulajdonosi és vállalati szerkezete, figyelemmel arra, hogy a szolgáltató nemzetközi, külföldi vagy belföldi intézmény, anyavállalat, leányvállalat, fiók vagy egyéb szervezet, b) szervezetének és szerkezetének összetettsége és átláthatósága, c) a felsővezetők, a vezető testület tagjainak és a minősített befolyással bíró tulajdonosának hírneve és integritása, d) a kínált termék vagy szolgáltatás, az elvégzett tevékenység és ügylet természete és összetettsége, e) a használt alkalmazott eszköz, beleértve az ingyenes szolgáltatásnyújtást, az ügynök vagy a közvetítő használatát, f) a kiszolgált ügyfelek típusai, g) az üzleti tevékenység földrajzi területe, különösen, amennyiben azt stratégiai hiányosságokkal rendelkező, kiemelt kockázatot jelentő harmadik országban végzi, vagy az ügyfelei jelentős részének származási országa stratégiai hiányosságokkal rendelkező, kiemelt kockázatot jelentő harmadik ország, h) a belső irányítási megoldás és szerkezet minősége, beleértve a belső ellenőrzési és megfelelési funkció hatékonyságát, a pénzmosás és a terrorizmus finanszírozása megelőzésével és megakadályozásával összefüggő jogi követelménynek való megfelelést és belső kockázatértékelésének hatékonyságát, i) az uralkodó vállalati kultúra, különösen a megfelelési és átláthatósági kultúra, j) a hatóságokkal való együttműködés tapasztalatai és k) egyéb prudenciális szempontok."
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20. §",
+      "content": "20. § (1) A 17–19. § szerinti pénzmosási és terrorizmusfinanszírozási kockázati tényezők együttesen képezik a szolgáltató kockázatértékelésének alapját. (2) A szolgáltató értékeli a 17–19. § szerinti pénzmosási és terrorizmusfinanszírozási kockázati tényezők szolgáltatóra gyakorolt hatását és a szolgáltatónál működő kockázatalapú ellenőrzési rendszer és folyamat megfelelőségét a pénzmosási és terrorizmusfinanszírozási kockázat enyhítése érdekében. (3) A szolgáltató a kockázati tényező relatív jelentősége alapján eltérően súlyozhatja a kockázatot és az azokat mérséklő tényezőt, azonban nem térhet el az MNB által kötelezően előírt kockázat beépítésétől és az ahhoz kapcsolódó átvilágítási mód alkalmazásától. (4) A szolgáltató a kockázatokat legalább alacsony, átlagos és magas kockázati kategóriába sorolja. (5) A szolgáltató a kockázatokat legalább ügyfél, termék, szolgáltatás, alkalmazott eszköz, földrajzi kockázati csoportba sorolja."
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21. §",
+      "content": "21. § (1) A szolgáltató a kockázat értékelése és a jogszabály figyelembevételével meghatározza, hogy milyen esetben alkalmaz egyszerűsített vagy fokozott ügyfél-átvilágítást. (2) A beazonosított kockázat értékelése alapján meghatározza, hogy mely esetben kér be ügyfelétől a pénzügyi eszköz forrására vonatkozó információt, mikor alkalmaz megerősített eljárást, és milyen időszakonként vizsgálja felül az általa beszerzett ügyfél-átvilágítási adatot. (3) A szolgáltató a beazonosított kockázat értékelése alapján meghatározza, hogy milyen intézkedésre van szükség a feltárt kockázat kezelése érdekében. A meghatározott intézkedést határidőhöz köti és kijelöli a végrehajtásért felelős személyt. (4) A szolgáltató az általa elvégzett belső kockázatértékelésről jelentést készít, amelyben dokumentálja a kockázati tényezőt és az alapjául szolgáló információt, a kockázat értékelését, a kockázat kezelésére tett intézkedést, a felelős személyt, a határidőt és a tervezett felülvizsgálat időpontját. (5) A szolgáltató vezető tisztségviselője vagy vezető testülete a belső kockázatértékelésről szóló jelentést jóváhagyja."
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22. §",
+      "content": "22. § (1) A szolgáltató a belső kockázatértékelését az alapjául szolgáló információ időszakos és eseti felülvizsgálatával aktualizálja. (2) A szolgáltató által az (1) bekezdés alapján elvégzett felülvizsgálat ütemezése arányban kell hogy álljon a szolgáltatóhoz kapcsolódó pénzmosási és terrorizmusfinanszírozási kockázattal. (3) A szolgáltató a belső kockázatértékelését soron kívül felülvizsgálja, amennyiben a) külső hatás megváltoztatja a kockázat természetét, b) új típusú pénzmosási és terrorizmusfinanszírozási kockázat merül fel, c) az MNB által tett megállapítás ilyen intézkedést tartalmaz, d) a szolgáltató saját maga által tett, kockázatot csökkentő intézkedéséből ez következik, e) a szolgáltató tulajdonosaival, a vezető testület tagjaival, a fő funkciókat ellátó személyekkel vagy a szervezetével kapcsolatban új információk merülnek fel, továbbá f) minden egyéb esetben, amikor a szolgáltatónak alapos oka van azt feltételezni, hogy a kockázatértékelés alapjául szolgáló információ már nem alkalmazható."
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23. §",
+      "content": "23. § (1) A szolgáltató meghatározza az ügyfélnek adandó tájékoztatást, valamint belső szabályzatában rögzíti szervezeti egységeinek kötelezettségét és felelősségét az ügylet felfüggesztése során. (2) Az (1) bekezdésben meghatározott tájékoztatás nem utalhat az ügylet felfüggesztésének tényére és a felfüggesztés indokára. (3) A szolgáltató biztosítja, hogy a) a felfüggesztés tényéről a szolgáltató tudomással bíró vezetője, foglalkoztatottja és segítő családtagja az (1) bekezdés szerinti tájékoztatás szerint jár el, b) a felfüggesztés teljesítéséhez csak a szükséges szervezeti egységet vonja be, c) a felfüggesztési kötelezettség teljesítésére utaló adat, tény, illetve körülmény felmerülésekor telefonon értesíthesse a pénzügyi információs egységként működő hatóságot, és ebben az esetben a tőle kapott instrukciók szerint járjon el, valamint d) a felfüggesztés ideje alatt a telefonos kapcsolattartás a pénzügyi információs egységként működő hatósággal a kijelölt személy akadályoztatása esetén is folyamatos legyen. (4) A szolgáltató az általa vezetett nyilvántartáson belül az ügylet felfüggesztését igazoló iratot vagy annak másolatát elkülönítetten kezeli."
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24. §",
+      "content": "24. § Ezen alcím alkalmazásában: a) automatikus szűrőrendszer: ügyfél és ügylet pénzmosás és terrorizmus finanszírozása szempontjából előzetes paraméterezés alapján történő, emberi beavatkozást nem igénylő leválogatására alkalmas informatikai rendszer, b) manuális szűrés: ügyfél és ügylet pénzmosás és terrorizmus finanszírozása szempontjából történő, emberi beavatkozást igénylő leválogatása."
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25. §",
+      "content": "25. § (1) A szolgáltatónak rendelkeznie kell olyan – az ügyfelek jelentős száma esetén automatikus – szűrőrendszerrel, amely biztosítani képes a pénzmosás és a terrorizmus finanszírozása szempontjából kockázatos ügyfél és szokatlan ügylet kiszűrését. (2) A szolgáltató – az ügyfelek nem jelentős száma esetén – manuális szűréssel biztosítja a pénzmosás és a terrorizmus finanszírozása szempontjából ügyfél és szokatlan ügylet leválogatását. (3) A szolgáltató a (2) bekezdésben meghatározott esetben automatikus szűrést is alkalmazhat. (4) Az ügyfelek száma jelentős, amennyiben azok száma a tárgyévet megelőző év végén több mint ötvenezer."
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26. §",
+      "content": "26. § (1) A szolgáltató a következő ügyfél-, illetve ügylettípusokra végez szűrést: a) huszonötmillió forintot elérő vagy meghaladó összegű készpénzbefizetés természetes személy ügyfél részére, b) ötvenmillió forintot elérő vagy meghaladó összegű készpénzbefizetés jogi személy és jogi személyiséggel nem rendelkező ügyfél részére, c) huszonötmillió forintot elérő vagy meghaladó összegű készpénzkifizetés természetes személy ügyfél részére, d) ötvenmillió forintot elérő vagy meghaladó összegű készpénzkifizetés jogi személy és jogi személyiséggel nem rendelkező ügyfél részére, és e) stratégiai hiányosságokkal rendelkező, kiemelt kockázatot jelentő harmadik országból kezdeményezett vagy oda továbbított ötmillió forintot elérő vagy meghaladó összegű ügylet. (2) A szolgáltató a szűrési feltételeit az (1) bekezdésben meghatározottakon túl a nemzeti kockázatértékelés és a belső kockázatértékelése alapján határozza meg. (3) A szolgáltató a szűrési feltételeit folyamatosan felülvizsgálja."
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27. §",
+      "content": "27. § (1) A szolgáltató a pénzmosás és terrorizmus finanszírozása szempontjából a szűrést folyamatosan végzi. (2) A kiszűrt ügyfél, illetve ügylet pénzmosás és terrorizmus finanszírozása szempontjából történő elemzését és értékelését a szolgáltató a 26. § (1) bekezdésében foglalt esetben a szűrést követő tíz munkanapon, minden más esetben a szűrést követő harminc munkanapon belül végzi el. A szűrés végrehajtásának napja a határidőbe nem számít bele. (3) A kiszűrt ügyfél, illetve ügylet elemzésének és értékelésének folyamatát a szolgáltató úgy dokumentálja, hogy a szolgáltató vezetője, foglalkoztatottja és segítő családtagja által végrehajtott intézkedés eredménye és az az alapján hozott döntés utólag rekonstruálható legyen."
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28. §",
+      "content": "28. § (1) A szolgáltató a belső ellenőrző és információs rendszer részeként névtelenséget biztosító visszaélés-bejelentési rendszert (a továbbiakban: bejelentési rendszer) működtet. (2) Bejelentést a bejelentési rendszeren keresztül a szolgáltató azon vezetője, foglalkoztatottja vagy segítő családtagja tehet, aki tudomással bír arról, hogy a szolgáltató a Pmt. rendelkezéseit megsérti vagy megsértette. (3) A bejelentést a szolgáltató harminc napon belül kivizsgálja. A határidőbe a bejelentés megtételének napja nem számít bele. (4) A bejelentés kivizsgálásában nem vehet részt az, aki a bejelentést tette és a bejelentéssel érintett személy. (5) Amennyiben a szolgáltató azt állapítja meg, hogy pénzmosásra, terrorizmusfinanszírozásra vagy dolog büntetendő cselekményből való származására utaló adat, tény, illetve körülmény merül fel, úgy a kijelölt személy haladéktalanul bejelentést tesz a pénzügyi információs egységnek. (6) Amennyiben a szolgáltató azt állapítja meg, hogy bűncselekmény gyanúja áll fenn, úgy haladéktalanul feljelentést tesz a hatáskörrel és illetékességgel rendelkező nyomozó hatóságnál. (7) Amennyiben a szolgáltató az (5) és (6) bekezdésben foglalt eseteken kívül a Pmt., az Európai Unió és az ENSZ Biztonsági Tanácsa által elrendelt pénzügyi és vagyoni korlátozó intézkedések végrehajtásáról szóló törvény vagy e rendelet megsértését állapítja meg, úgy a kijelölt személy haladéktalanul bejelentést tesz az MNB felé. (8) A szolgáltatónak a bejelentés megtételét követően biztosítania kell, hogy ahhoz a bejelentéssel vagy annak kivizsgálásában érintett személyen kívül más személy ne férhessen hozzá."
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29. §",
+      "content": "29. § A szolgáltató biztosítja, hogy a belső ellenőrző és információs rendszer képes legyen az üzleti kapcsolat a) személyes adat, b) számlaszám, c) ügyfélszám, d) ügylettípus vagy e) összeghatár alapján történő leválogatására."
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30. §",
+      "content": "30. § A szolgáltató biztosítja, hogy a belső ellenőrző és információs rendszer képes legyen a benne rögzített adatoknak a Pmt.-ben meghatározott időtartam alatt visszakereshetőséget lehetővé tevő nyilvántartására."
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31. §",
+      "content": "31. § Ezen alcím alkalmazásában: a) automatikus szűrőrendszer: az ügyfél, a tényleges tulajdonos, a rendelkezésre jogosult, a meghatalmazott és a képviselő személyes adatainak az uniós jogi aktusokban és az ENSZ Biztonsági Tanácsa (a továbbiakban: ENSZ BT) határozataiban szereplő személyek adataival való folyamatos, emberi beavatkozást nem igénylő összehasonlítására alkalmas informatikai rendszer, b) manuális szűrés: az ügyfél, a tényleges tulajdonos, a rendelkezésre jogosult, a meghatalmazott és a képviselő személyes adatainak az uniós jogi aktusokban és az ENSZ BT határozataiban szereplő személyek adataival való összehasonlítására alkalmas, emberi beavatkozást igénylő eljárás, c) tényleges tulajdonos: a Pmt. 3. § 38. pontja szerinti természetes személy, d) ügyfél: a Pmt. 3. § 41. pont a) alpontjában meghatározott személy."
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32. §",
+      "content": "32. § (1) A szolgáltatónak rendelkeznie kell olyan – az ügyfelek jelentős száma esetén automatikus – szűrőrendszerrel, amely biztosítani képes a pénzügyi és vagyoni korlátozásokat elrendelő uniós jogi aktusok és ENSZ BT határozatok késedelem nélküli végrehajtását. (2) A szolgáltató – az ügyfelek nem jelentős száma esetén – manuális szűréssel biztosítja a pénzügyi és vagyoni korlátozásokat elrendelő uniós jogi aktusok és ENSZ BT határozatok késedelem nélküli végrehajtását. (3) A szolgáltató a (2) bekezdésben meghatározott esetben automatikus szűrést is alkalmazhat. (4) A szolgáltató ügyfeleinek száma jelentős, amennyiben azok száma a tárgyévet megelőző év végén több mint ezer."
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33. §",
+      "content": "33. § (1) A szolgáltató az Európai Unió és az ENSZ BT által elrendelt pénzügyi és vagyoni korlátozó intézkedésekre vonatkozó szűrést folyamatosan végzi. (2) A szolgáltató a kiszűrt találatokat elemzi és értékeli. (3) A kiszűrt találatok elemzésének és értékelésének folyamatát a szolgáltató úgy dokumentálja, hogy a szolgáltató vezetője, foglalkoztatottja és segítő családtagja által végrehajtott intézkedés eredménye és az az alapján hozott döntés utólag rekonstruálható legyen."
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34. §",
+      "content": "34. § (1) A szolgáltató a pénzmosás és a terrorizmus finanszírozása megelőzésével és megakadályozásával, valamint az Európai Unió és az ENSZ BT által elrendelt pénzügyi és vagyoni korlátozó intézkedésekkel összefüggő tevékenység ellátásában részt vevő szolgáltató vezetőjét, foglalkoztatottját és segítő családtagját a belépést követő 30 napon belül általános ügyintézői képzésben részesíti, és részére évente legalább egy alkalommal továbbképzést (a továbbiakban együtt: általános ügyintézői képzés) szervez. (2) Amennyiben a szolgáltató külön szervezeti egységet működtet a pénzmosás és a terrorizmus finanszírozása megelőzése és megakadályozása, valamint az Európai Unió és az ENSZ BT által elrendelt pénzügyi és vagyoni korlátozó intézkedések végrehajtása érdekében, úgy ennek a szervezeti egységnek a tagját a pénzmosás és a terrorizmus finanszírozása megelőzésével és megakadályozásával és az Európai Unió és az ENSZ BT által elrendelt pénzügyi és vagyoni korlátozó intézkedések végrehajtásával kapcsolatban az általános ügyintézői képzési szintet meghaladó speciális képzésben és évente legalább egy alkalommal továbbképzésben (a továbbiakban együtt: speciális képzés) részesíti."
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35. §",
+      "content": "35. § Az általános ügyintézői képzés és a speciális képzés programja az egyes munkakörök betöltéséhez szükséges mértékben legalább a következő témaköröket tartalmazza: a) a 2013. június 30-ig hatályban volt Büntető Törvénykönyvről szóló 1978. évi IV. törvényben büntetni rendelt aa) terrorcselekmény, ab) nemzetközi gazdasági tilalom megszegése, ac) gazdasági titok megsértése, ad) pénzmosás, ae) a pénzmosással kapcsolatos bejelentési kötelezettség elmulasztása, b) a Büntető Törvénykönyvről szóló 2012. évi C. törvényben büntetni rendelt ba) terrorcselekmény, bb) terrorcselekmény feljelentésének elmulasztása, bc) terrorizmus finanszírozása, bd) nemzetközi gazdasági tilalom megszegése, be) nemzetközi gazdasági tilalom megszegése feljelentésének elmulasztása, bf) pénzmosás, bg) pénzmosással kapcsolatos bejelentési kötelezettség elmulasztása, bh) gazdasági titok megsértése bűncselekmény törvényi tényállása és annak jogi szempontú elemzése, c) Pmt., valamint az Európai Unió és az ENSZ BT által elrendelt pénzügyi és vagyoni korlátozó intézkedések végrehajtásáról szóló törvény fogalmainak ismertetése, d) ügyfél-átvilágítás teljesítésének kötelező esetei, e) ügyfél-átvilágítási intézkedések ea) a Pmt. 7–14. §-a alapján elvégzett ügyfél-átvilágítás, eb) egyszerűsített ügyfél-átvilágítás, ec) fokozott ügyfél-átvilágítás és ed) más szolgáltató által elvégzett ügyfél-átvilágítás esetén, f) az ügyfél-átvilágítás során használt nyilvántartások, g) a pénzátutalási tevékenységet végző szolgáltató esetében az e tevékenység végzése során rögzítendő adatkör, h) a bejelentési és felfüggesztési kötelezettség teljesítésnek részletes szabályai, i) a felfedés tilalma és annak gyakorlati jelentősége, j) a pénzmosás és a terrorizmus finanszírozása megelőzésével és megakadályozásával összefüggésben végzett tevékenység, valamint az Európai Unió és az ENSZ BT által elrendelt pénzügyi és vagyoni korlátozó intézkedések végrehajtása kapcsán felmerülő ja) adatvédelmi, jb) nyilvántartási és jc) statisztikai kérdések, k) a szolgáltató által a pénzmosás és a terrorizmus finanszírozása megelőzésével és megakadályozásával, valamint az Európai Unió és az ENSZ BT által elrendelt pénzügyi és vagyoni korlátozó intézkedések végrehajtásával összefüggésben alkalmazott szűrőrendszerek működtetésének szabályai, l) a megerősített eljárás fogalma és a szolgáltató által a megerősített eljárás keretében alkalmazott eljárásrend és intézkedés ismertetése, m) a nemzeti kockázatértékelés-szolgáltató specifikus vonatkozásai, n) a szolgáltató saját eljárásrendje és o) a szolgáltató belső kockázatértékelése."
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36. §",
+      "content": "36. § A szolgáltató a valós idejű ügyfél-átvilágítást végző szolgáltató vezetőjét, foglalkoztatottját és segítő családtagját – az általános ügyintézői képzési programon túl – és a 34. § (2) bekezdés szerinti szervezeti egység tagját – a speciális képzés programján túlmenően – a következő ismeretekre (a továbbiakban: valós idejű ügyfél-átvilágításra vonatkozó képzés) kiterjedő képzésben részesíti: a) a valós idejű ügyfél-átvilágítás jogi háttere, b) a technikai követelmények, adatvédelmi, adat- és informatikai biztonsági ismeretek, c) a valós idejű ügyfél-azonosítás menetének ismertetése, d) okmányismeret, e) az okmányok hamisítási módjai, f) az okmányok hamisítási módjainak felismerése és g) az ügyfél oldali felelősségekre vonatkozó ismeretek."
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37. §",
+      "content": "37. § (1) A kijelölt személy felelős az általános ügyintézői képzési program és a valós idejű ügyfél-átvilágításra vonatkozó képzés kidolgozásáért és végrehajtásáért. (2) A 34. § (2) bekezdése szerinti esetben a szervezeti egység vezetője felelős speciális képzés és a valós idejű ügyfél-átvilágításra vonatkozó képzés kidolgozásáért és végrehajtásáért."
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38. §",
+      "content": "38. § (1) Amennyiben a szolgáltató vezetője, foglalkoztatottja vagy segítő családtagja akadályoztatva van az általános ügyintézői képzésben, a speciális képzésben vagy a valós idejű ügyfél-átvilágításra vonatkozó képzésben való részvételben, úgy az akadályoztatás megszűnését követő 30 napon belül a szolgáltatónak biztosítania kell a képzésben való részvétel lehetőségét. (2) A szolgáltató az általános ügyintézői képzés, a speciális képzés, és a valós idejű ügyfél-átvilágításra vonatkozó képzés során elsajátított ismeretet írásbeli vizsgával ellenőrzi. (3) Amennyiben a szolgáltató vezetője, foglalkoztatottja vagy segítő családtagja, illetve a 36. § (2) bekezdése szerinti szervezeti egység tagja akadályoztatva van a vizsga letételében, úgy az akadályoztatás megszűnését követő harminc napon belül a szolgáltatónak biztosítania kell a vizsga letételének lehetőségét."
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39. §",
+      "content": "39. § A szolgáltató az általános ügyintézői képzés, a speciális képzés, a valós idejű ügyfél-átvilágításra vonatkozó képzés, valamint az ezekhez kapcsolódó vizsga anyagát, a javítókulcsot, a vizsgázók névsorát és vizsgázónként a vizsgaeredményeket a vizsga napjától számított öt évig őrzi."
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40. §",
+      "content": "40. § (1) Ez a rendelet – a (2) bekezdésben foglalt kivétellel – a kihirdetését követő napon lép hatályba. (2) A 8. és a 9. alcím 2018. július 1-jén lép hatályba."
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41. §",
+      "content": "41. § Amennyiben a szolgáltató belső kockázatértékelése nem képezi részét a pénzmosás és a terrorizmus finanszírozása megelőzéséről és megakadályozásáról szóló szabályzatának, úgy azt a szolgáltatónak a nemzeti kockázatértékelés megismerését követő negyvenöt napon belül kell elkészítenie, amelyről öt napon belül tájékoztatja az MNB-t. 1 A rendeletet a 45/2018. (XII. 17.) MNB rendelet 49. §-a hatályon kívül helyezte 2019. január 1. napjával. 2 A 11. § a 39/2017. (XII. 27.) MNB rendelet 1. §-ával megállapított szöveg."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "§ Ezen alcím alkalmazásában",
+      "definition": "a) automatikus szűrőrendszer: ügyfél és ügylet pénzmosás és terrorizmus finanszírozása szempontjából előzetes paraméterezés alapján történő, emberi beavatkozást nem igénylő leválogatására alkalmas informatikai rendszer, b) manuális szűrés: ügyfél és ügylet pénzmosás és terrorizmus finanszírozása szempontjából történő, emberi beavatkozást igénylő leválogatása.",
+      "source_provision": "s24"
+    },
+    {
+      "term": "§ 38. pontja szerinti természetes személy, d) ügyfél",
+      "definition": "a Pmt. 3. § 41. pont a) alpontjában meghatározott személy.",
+      "source_provision": "s31"
+    }
+  ]
+}

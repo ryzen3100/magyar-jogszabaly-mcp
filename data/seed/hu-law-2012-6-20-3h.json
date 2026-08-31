@@ -1,0 +1,53 @@
+{
+  "id": "hu-law-2012-6-20-3h",
+  "type": "statute",
+  "title": "6/2012. (I. 26.) NMHH rendelet a digitális televízió-médiaszolgáltatások vételére alkalmas készülékek együttműködő képessége érdekében szükséges intézkedésekről",
+  "status": "repealed",
+  "in_force_date": "2012-02-25",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2012-6-20-3H",
+  "description": "a digitális televízió-médiaszolgáltatások vételére alkalmas készülékek együttműködő képessége érdekében szükséges intézkedésekről",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § (1) A rendelet hatálya a) a műsorterjesztőkre, b) az analóg televízió-vevőkészülékek, a digitális televíziókészülékek, digitális vevődekóderek gyártóira, forgalmazóira, valamint c) a Nemzeti Média- és Hírközlési Hatóságra (a továbbiakban: Hatóság) terjed ki. (2) E rendeletet kell alkalmazni a) a digitális televízió médiaszolgáltatással összefüggő elektronikus hírközlő hálózatok kiépítésére és üzemeltetésére, b) a forgalomba hozott analóg televízió-vevőkészülékekre, digitális televíziókészülékekre és digitális vevődekóderekre."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § E rendelet alkalmazásában a) elismert európai szabványügyi szervezet: az Európai Szabványügyi Bizottság (Comité Européen de Normalisation, CEN), az Európai Elektrotechnikai Szabványügyi Bizottság (Comité Européen de Normalisation Electrotechnique, CENELEC) és az Európai Távközlési Szabványügyi Intézet (European Telecommunications Standards Institute, ETSI); b) forgalomba hozatal: analóg televízió-vevőkészülék, digitális televíziókészülék, digitális vevődekóder visszterhes vagy ingyenes, első ízben történő belföldi rendelkezésre bocsátása, beleértve a bérbeadást is; c) forgalmazó: az értékesítési láncban a gyártón kívüli azon természetes, jogi személy vagy jogi személyiséggel nem rendelkező szervezet, aki vagy amely forgalmazza a terméket; d) hagyományos digitális jelek: DVB-T, DVB-C vagy DVB-S szabvány és ezek változatai szerinti digitális jelek; e) iparági specifikáció: a digitális televízió-médiaszolgáltatással összefüggő átviteli rendszerek európai iparágán belül elfogadott specifikáció."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) Az átviteli rendszernek alkalmasnak kell lennie a széles képformátumú műsorszámok továbbítására. (2) Az átviteli rendszerben a beérkező széles képformátumú műsorszámokat változatlan képformátummal kell az előfizetők vagy felhasználók felé továbbítani úgy, hogy az egyes műsorszámokhoz a médiaszolgáltató által hozzárendelt képarány átjelzést (AFD, WSS, MPEG képarány bitek) a műsorterjesztő hálózatának szabványa szerint, az eredeti képarány átjelzési célt megvalósítva az elérhető legjobb képminőséget biztosítsa."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § A hagyományos digitális jelek vételére szánt valamennyi, Magyarország területén forgalomba hozott digitális televíziókészüléknek, digitális vevődekódernek képesnek kell lennie a) azon kódolt hagyományos digitális jelek dekódolására, amelyek megfelelnek egy, elismert európai szabványügyi szervezet által ajánlott európai közös kódolási algoritmusnak, különösen a DVB-CSA titkosítási algoritmusnak; b) a titkosítás nélkül továbbított hagyományos digitális jelek megjelenítésére, feltéve, hogy amennyiben a berendezést bérlik, a bérlő a vonatkozó bérleti szerződésnek megfelelően jár el."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § (1) Minden, 42 cm-t meghaladó látható átlóméretű beépített képernyővel rendelkező analóg televíziókészüléket, amelyet Magyarország területén forgalomba hoznak, el kell látni legalább egy, elismert európai szabványügyi szervezet által szabványosított nyílt interfészaljzattal, amely lehetővé teszi a perifériák, különösen a kiegészítő dekóderek és digitális vevők egyszerű csatlakoztatását. Ezen kötelezettség teljesíthető például az európai szabványokat bevezető magyar nemzeti szabványokban (pl.: MSZ EN 50049-1:2002) meghatározott aljzat alkalmazásával. (2) Minden, 30 cm-t meghaladó látható átlóméretű beépített képernyővel rendelkező digitális televíziókészüléket, amelyet Magyarország területén forgalomba hoznak, el kell látni legalább egy, elismert európai szabványügyi szervezet által szabványosított vagy ilyen szervezet által elfogadott szabványnak vagy valamely iparági specifikációnak megfelelő – nyílt interfészaljzattal, különösen a digitális videóműsorszórásban alkalmazott MSZ EN 50221:1999 szabványban meghatározott DVB közös interfészcsatlakozóval, amely lehetővé teszi a perifériák egyszerű csatlakoztatását, és továbbítani tudja a digitális televíziójel valamennyi elemét, beleértve az interaktív és a feltételes hozzáférésű szolgáltatásokkal kapcsolatos adatokat."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § (1) E rendeletben foglaltak teljesítéséért a forgalmazó felel. (2) E rendeletben foglaltak érvényesülését a Hatóság az elektronikus hírközlésről szóló 2003. évi C. törvényben meghatározott általános hatósági felügyeleti eljárás keretében ellenőrzi."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § (1) E rendelet a kihirdetését követő harmincadik napon lép hatályba. (2) Ez a rendelet a) az egyetemes szolgáltatásról, valamint az elektronikus hírközlő hálózatokhoz és elektronikus hírközlési szolgáltatásokhoz kapcsolódó felhasználói jogokról szóló 2002. március 7-i 2002/22/EK európai parlamenti és tanácsi irányelvnek („Egyetemes szolgáltatási irányelv”), valamint b) az egyetemes szolgáltatásról, valamint az elektronikus hírközlő hálózatokhoz és elektronikus hírközlési szolgáltatásokhoz kapcsolódó felhasználói jogokról szóló 2002/22/EK irányelv, az elektronikus hírközlési ágazatban a személyes adatok kezeléséről, feldolgozásáról és a magánélet védelméről szóló 2002/58/EK irányelv és a fogyasztóvédelmi jogszabályok alkalmazásáért felelős nemzeti hatóságok közötti együttműködésről szóló 2006/2004/EK rendelet módosításáról szóló 2009. november 25-i 2009/136/EK európai parlamenti és tanácsi irányelvnek való megfelelést szolgálja. 1 A rendeletet a 17/2020. (XII. 17.) NMHH rendelet 10. §-a hatályon kívül helyezte 2020. december 21. napjával."
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "hu-law-2015-2-b0-4t",
+  "type": "statute",
+  "title": "2/2015. (III. 18.) OBH utasítás a felszámoló kijelölő program üzemeltetési szabályzatáról",
+  "status": "repealed",
+  "in_force_date": "2015-03-26",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2015-2-B0-4T",
+  "description": "a felszámoló kijelölő program üzemeltetési szabályzatáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § E szabályzat hatálya a felszámoló kijelölő programot készítő, működtető és felhasználását végző szervezetekre és személyekre terjed ki."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § (1) A felszámoló kijelölő programot az Országos Bírósági Hivatal (a továbbiakban: OBH) elnöke által kiírt belső pályázat keretében – elsősorban a bíróságokon dolgozó informatikusok közreműködésével – kell elkészíteni és gondoskodni a változó jogszabályoknak megfelelő folyamatos karbantartásáról és továbbfejlesztéséről. (2) A program kifejlesztése és folyamatos karbantartása érdekében a pályázatot az OBH Informatikai Főosztálya készíti el. (3) Az OBH Informatikai Főosztálya a fejlesztési és tesztelési feladatok elvégzése érdekében tesztrendszert üzemeltet, melynek feladata: a) a felhasználói oktatás gyakorlati megvalósítása és b) a programváltozások, módosítások tesztelése, a felhasználói funkciók működésének ellenőrzése. (4) A sorsolás befejezésekor az 1. mellékletben meghatározott okiratot kell kinyomtatni, és azt az iratokhoz kell érkeztetni."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) A rendszer folyamatos és biztonságos üzemeltetése az OBH Informatikai Főosztályának a feladata. (2) A felszámoló kijelölő program változásai (verziói) kizárólag a tesztrendszeren végrehajtott sikeres próbaüzemet követően, az OBH Informatikai Főosztálya vezetőjének jóváhagyása után tölthetők be az üzemeltetett rendszerbe."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) A felszámoló kijelölő program működését szükség szerint, de évente legalább egy alkalommal, az év március 31. napjáig az OBH informatikai biztonsági felelőse ellenőrzi abból a szempontból, hogy az előző évi véletlenszerű sorsolások megfeleltek-e a hatályos jogszabályok előírásainak. (2) Az ellenőrzés eredményét írásba kell foglalni, és azt az Informatikai Főosztály vezetője véleményével együtt jóváhagyás végett nyolc napon belül továbbítja az OBH elnökének. (3) Jelen szabályzat hatálybalépését követő minden második évben külső informatikus biztonsági szakértő közreműködését kell igénybe venni az (1) bekezdésben előírt ellenőrzés végrehajtásához."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § A felszámolók sorsolását támogató informatikai rendszer üzemeltetését az OBH végzi. Minden nap automatikusan teljes mentés készül a rendszer valamennyi összetevőjéről, amely magában foglalja az operációs rendszert, a felszámolók sorsolását végző program állományait, annak kimeneteit és a program által használt adatbázist és webszervert is. A napi mentéseket legalább két hétig meg kell őrizni az esetleges rendszer-visszaállítás érdekében."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § (1) A felszámoló kijelölő program felhasználói kezelésére – a rendszer-adminisztrátori feladatok ellátásának kivételével – bírót, bírósági titkárt és bírósági ügyintézőt lehet feljogosítani. (2) Az (1) bekezdés szerint a program felhasználói kezelésére jogosultak körét a törvényszék elnöke határozza meg. (3) A program felhasználóit felhasználónevük azonosítja, a program használatához felhasználónév és a felhasználó által beállított, minimum hat karakterből álló jelszó szükséges."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § A program minden sorsolási és egyéb műveletet, annak időpontját és azok minden adatát naplózza. A naplózás adatait a felszámolási eljárás jogerős befejezéséig, de legalább három évig kell archiválni."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § A felszámoló kijelölő program gyakorlati alkalmazásának elősegítése érdekében az alkalmazandó műveletekről leírást kell készíteni, melynek a felhasználók számára a programból közvetlenül elérhetőnek kell lennie."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § (1) A felszámolók névjegyzékébe bejegyzett felszámolók körére és azok adataira vonatkozó változásokat tartalmazó határozatot a felszámolók névjegyzékét vezető szervezet a Cégközlönyben történő közzétételt megelőzően, elektronikus úton a Központi Elektronikus Szolgáltató Rendszer (KR) hivatali kapu szolgáltatásának igénybevételével küldi el az OBH hivatali kapuján keresztül az OBH postafiókjába. (2) Az OBH hivatali kapu postafiókjába a felszámolók névjegyzékét vezető szervezettől érkező elektronikus küldeményeket az OBH Informatikai Főosztályvezetője által kijelölt személy kezeli, és a felszámolók adataiban bekövetkezett változásokat haladéktalanul átvezeti a rendszer adatain (felszámolók adatainak karbantartása). (3) Amennyiben a felszámolók névjegyzékét vezető szervezet által megküldött határozat alapján a felszámoló szervezet egyértelműen nem azonosítható az OBH felszámoló kijelölő programjában, a felszámolók adatainak karbantartását végző személy ezt haladéktalanul, elektronikus úton, a hivatali kapun keresztül jelzi a felszámolók névjegyzékét vezető szervezetnek. (4) Ha az üzemeltető a hozzá érkezett visszajelzések alapján észleli, hogy a felszámoló szervezet és a névjegyzéket vezető szervezet által közölt adatok nem egyeznek a felszámoló szervezet cégjegyzéki adataival, ezt haladéktalanul, elektronikus úton közli a névjegyzéket vezető szervezettel."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § (1) A felhasználó által nem javítható adatok helyesbítését, illetve az ismételt sorsolás lehetővé tételét a 2. mellékletet képező adatlap kitöltésével kell kezdeményezni elektronikus úton az adatvaltoztatas@obh.birosag.hu e-mail címre megküldve. (2) A hibajavítást az OBH elnöke által kijelölt felelősök végzik el – legkésőbb az adatlap megérkezését követő munkanapon –, és erről az adatlapot feladó elektronikus címére tájékoztatást küldenek. (3) Ha a hibát a javítást kezdeményező felhasználó maga is kijavíthatja, ennek módjáról az adatlap beérkezését követő munkanapon tájékoztatni kell a (2) bekezdésben írt módon. (4) A felszámoló szervezet a róla nyilvántartott adatok módosítását, javítását a felszámolók névjegyzékét vezető szervezetnél kezdeményezheti."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § (1) Az OBH Informatikai Főosztálya minden negyedév első hónapjának 15. napjáig közzéteszi az előző negyedévi felszámoló sorsolási adatokat. (2) A felszámoló szervezet az üzemeltetőhöz küldött kérelmére az OBH Informatikai Főosztálya 30 nap alatt tájékoztatást nyújt a szervezet folyamatban lévő ügyeinek számáról és a nyilvántartásban kezelt adatairól. (3) A sorsolási műveletek naplózásának adatairól az üzemeltető akkor adhat tájékoztatást, ha a kérelmező jogi érdekét igazolja. (4) A 4. § (2) bekezdésben szabályozott éves ellenőrzés eredményéről készült írásbeli jelentést a bíróságok központi internetes oldalán minden év május 31. napjáig nyilvánosságra kell hozni. (5) Az OBH a 10. § (1) bekezdésében szabályozott hibajavításra vonatkozó adatlapokat a hiba elhárításától számított három évig megőrzi, és a hibabejelentések számáról és a gyakran előforduló hibákról minden év július 20. és január 20. napjáig tájékoztatást tesz közzé a bíróságok központi intranetes és központi internetes oldalán."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. § Ez az utasítás a közzétételét követő 8. napon lép hatályba azzal, hogy a 11. § (5) bekezdésében írt tájékoztatót első ízben 2015. július 20. napján kell közzétenni. ………………………………… Törvényszék Fpk. Cspk. Apk. Vpk. Cgt. Kt. Pk. A …………………………………………………………………… számú ügyben a felszámoló kijelölő program az elektronikus kijelölés eredményeként a cégnév székhely cégjegyzékszám felszámoló szervezetet sorsolta ki a …………………………………………………………………… ügyében folyamatban lévő ügyben. Dátum kezelő A felszámoló kijelölő rendszerben felhasználói jogosultsággal el nem végezhető adatváltoztatások kezdeményezése Bíróság megnevezése: ………………………………………………………………. Bíró/titkár neve: ……………………………………………………………………… Kelt ………………………………………… ………………………………………………… bíró/titkár aláírása Az Ön által kért adatváltoztatás fajtáját, kérjük, jelölje X-szel. A „Kezdeményezett adatváltoztatás fajtája” megnevezésű oszlopok közül egy sorban csak egyféle adatváltoztatás jelölhető! Az „Adatváltoztatás kérésének indokolása” rovat kitöltése minden esetben kötelező! 1 Az utasítást a 9/2015. (XII. 17.) OBH utasítás 1. §-a hatályon kívül helyezte 2016. január 1. napjával."
+    }
+  ]
+}

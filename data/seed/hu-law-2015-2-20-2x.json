@@ -1,0 +1,60 @@
+{
+  "id": "hu-law-2015-2-20-2x",
+  "type": "statute",
+  "title": "2/2015. (II. 3.) NGM rendelet a számla és a nyugta adóigazgatási azonosításáról, valamint az elektronikus formában megőrzött számlák adóhatósági ellenőrzéséről szóló 23/2014. (VI. 30.) NGM rendelet módosításáról",
+  "status": "repealed",
+  "in_force_date": "2016-01-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2015-2-20-2X",
+  "description": "a számla és a nyugta adóigazgatási azonosításáról, valamint az elektronikus formában megőrzött számlák adóhatósági ellenőrzéséről szóló 23/2014. (VI. 30.) NGM rendelet módosításáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § A számla és a nyugta adóigazgatási azonosításáról, valamint az elektronikus formában megőrzött számlák adóhatósági ellenőrzéséről szóló 23/2014. (VI. 30.) NGM rendelet (a továbbiakban: Rendelet) 2. §-a a következő 5. ponttal egészül ki: (E rendelet alkalmazásában) „5. adatexport: az adóalany által elektronikus adathordozón tárolt adatoknak az adóhatóság rendelkezésére bocsátása a 2. melléklet szerint és a 3. mellékletben meghatározott adatszerkezetben.”"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § A Rendelet 8. § (1) bekezdése a következő c) ponttal egészül ki: (A számlázó programmal szemben követelmény, hogy) „c) rendelkezzen a 11/A. § szerinti, „adóhatósági ellenőrzési adatszolgáltatás” elnevezésű funkcióval.”"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § A Rendelet a következő 11/A. §-sal egészül ki: „11/A. § A számlázó programnak olyan önálló, de a programba beépített, „adóhatósági ellenőrzési adatszolgáltatás” elnevezésű funkcióval kell rendelkeznie, amelynek elindításával adatexport végezhető a) a kezdő és záró dátum (év, hónap, nap) megadásával meghatározható időszakban kibocsátott, illetve b) a kezdő és a záró számlasorszám megadásával meghatározható sorszámtartományba tartozó számlákra.”"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § A Rendelet a következő 24. §-sal egészül ki: „24. § A rendelet tervezetének a műszaki szabványok és szabályok terén történő információszolgáltatási eljárás és az információs társadalom szolgáltatásaira vonatkozó szabályok megállapításáról szóló, 1998. június 22-i 98/34/EK európai parlamenti és tanácsi irányelv 8–10. cikke szerinti előzetes bejelentése megtörtént.”"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § A Rendelet 8. § (1) bekezdés b) pontjában a „11.§ szerint bejelentsék.” szövegrész helyébe a „11. § szerint bejelentsék, és” szövegrész lép."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § Ez a rendelet 2016. január 1-jén lép hatályba."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § A rendelet tervezetének a műszaki szabványok és szabályok terén történő információszolgáltatási eljárás és az információs társadalom szolgáltatásaira vonatkozó szabályok megállapításáról szóló, 1998. június 22-i 98/34/EK európai parlamenti és tanácsi irányelv 8–10. cikke szerinti előzetes bejelentése megtörtént. 1 A rendelet a 2010: CXXX. törvény 12. § (3) bekezdése alapján hatályát vesztette 2016. január 2. napjával."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "(VI. 30.) NGM rendelet (a továbbiakban",
+      "definition": "Rendelet) 2. §-a a következő 5. ponttal egészül ki: (E rendelet alkalmazásában) „5. adatexport: az adóalany által elektronikus adathordozón tárolt adatoknak az adóhatóság rendelkezésére bocsátása a 2. melléklet szerint és a 3. mellékletben meghatározott adatszerkezetben.”",
+      "source_provision": "s1"
+    }
+  ]
+}

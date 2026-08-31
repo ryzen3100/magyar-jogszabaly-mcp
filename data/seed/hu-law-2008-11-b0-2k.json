@@ -1,0 +1,917 @@
+{
+  "id": "hu-law-2008-11-b0-2k",
+  "type": "statute",
+  "title": "11/2008. (IX. 25.) NFGM utasítás a Nemzeti Fejlesztési és Gazdasági Minisztérium adatainak archiválási rendjéről",
+  "status": "repealed",
+  "in_force_date": "2008-09-26",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2008-11-B0-2K",
+  "description": "A Nemzeti Fejlesztési és Gazdasági Minisztérium adatainak archiválási rendjéről",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "1. A szabályzat célja:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "a) előírásoknak, törvényeknek, illetve az adatgazdák igényeinek megfelelő adatarchiválás folyamatának rögzítése,"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "b) archiválással kapcsolatos fogalmak egységesítése."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "2. A szabályzat hatálya"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "2.1. A szabályzat személyi hatálya"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "A szabályzat személyi hatálya kiterjed a Nemzeti Fejlesztési és Gazdasági Minisztérium (NFGM) informatikai rendszerének minden felhasználójára."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "A jelen szabályzatban megfogalmazott, az adatarchiválási tevékenységben részt vevő szerződéses jogviszonyban álló személyekre, szervezetekre vonatkozó kötelezettségeket a hatályos szerződéseken keresztül kell érvényesíteni. A jelen szabályzat rendelkezéseinek teljes körű és értelemszerű alkalmazása az NFGM valamennyi szervezeti egységére nézve kötelező, az NFGM felügyelete alá tartozó szervek számára pedig iránymutató."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "2.2. A szabályzat tárgyi hatálya"
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "Jelen szabályzat tárgyi hatálya kiterjed a minisztériumok által használt valamennyi jelenlegi és jövőbeli elektronikusan tárolt adatra."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "A szabályzat hatályos és alkalmazni kell az NFGM minden elektronikusan tárolt adatára."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "3. Kapcsolódó jogszabályok és az állami irányítás egyéb jogi eszközei"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "a) 1995. évi LXV. tv. az államtitokról és a szolgálati titokról – Az adatkezelés során különös körültekintést igényel a minősített adatok kezelése, amire a fenti törvény rendelkezései az irányadóak."
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "b) 1214/2002. (XII. 28.) Korm. határozat a Magyar Információs Társadalom Stratégia készítéséről, a további feladatok ütemezéséről és tárcaközi bizottság létrehozásáról – A kormányhatározat célja, hogy Magyarország felzárkózzon az Európai Unióhoz (EU), ami azt a célt tűzte ki maga elé, hogy 2010-re a világ legversenyképesebb tudás alapú gazdasági térségévé váljon. Ennek érdekében a Kormány létrehozta az Információs Társadalom Koordinációs Tárcaközi Bizottságot, ami koordinálja a Magyar Információs Stratégiába beépülő ágazati stratégiákat és operatív intézkedési terveket, továbbá biztosítja azok összhangját a Nemzeti Fejlesztési Tervvel és az EU-s irányelvekkel. Az NFGM a gazdasági és a közlekedési részstratégia kidolgozásáért felelős."
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "c) 1992. évi LXII. tv. a személyes adatok védelméről és a közérdekű adatok nyilvánosságáról – A törvény célja annak biztosítása, hogy személyes adataival mindenki maga rendelkezzen, és a közérdekű adatokat mindenki megismerhesse. Az NFGM-nek figyelembe kell vennie az adatkezelés során a törvény személyes adatok továbbításáról, biztonságáról, valamint az érintettek jogairól szóló rendelkezéseit, illetve fel kell készülnie arra, hogy a törvényben meghatározott 15 napos határidőn belül a kezelésében lévő közérdekű adatot a kérelmező rendelkezésére bocsássa."
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "d) 2003. évi XXIV. törvény a közpénzek felhasználásával, a köztulajdon használatának nyilvánosságával, átláthatóbbá tételével és ellenőrzésének bővítésével összefüggő egyes törvények módosításáról – A törvény kiegészíti az 1992. évi LXII. tv. a személyes adatok védelméről és a közérdekű adatok nyilvánosságáról szóló törvényt azzal, hogy állami feladatot ellátó szerv rendszeresen közzéteszi a tevékenységével kapcsolatos legfontosabb – különösen a hatáskörére, illetékességére, szervezeti felépítésére, szakmai tevékenységére, annak eredményességére is kiterjedő értékelésre, a birtokában lévő adatfajtákra és a működéséről szóló jogszabályokra, valamint gazdálkodására vonatkozó – adatokat. A törvény 16. §-ában definiálja az üzleti titkot, valamint tételesen felsorolja, hogy mi az, ami nem minősül annak."
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "e) 1993. évi XLVI. törvény a statisztikáról – A törvény szabályozza a statisztikai adatgyűjtések, illetve az Országos Statisztikai Adatgyűjtési program (OSAP) végrehajtásának módját."
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "3.1. Kapcsolódó belső szabályozások"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "a) A Gazdasági és Közlekedési Minisztérium Információbiztonsági Szabályzata – Az IBSZ az NFGM-ben működtetett informatikai rendszerre vonatkozóan a biztonsági intézkedéseket szabályozza, meghatározza az adatkezelés folyamatának biztonsági szabályait, továbbá az informatikai szerepköröket, és előírja az egyes szereplők informatikai biztonságot érintő feladatait. Az IBSZ által biztosítható az adatállományok formai és tartalmi helyességének és épségének megőrzése, az adatállományok biztonságos mentése, a felhasznált és keletkezett írásos dokumentumok megfelelő kezelésének biztosítása."
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "b) A Nemzeti Fejlesztési és Gazdasági Minisztérium informatikai rendszerének üzemeltetési szabályzata (Informatikai Üzemeltetési Szabályzat) – Az Üzemeltetési Szabályzat ide vonatkozó célja, hogy biztosítsa az információk, illetve adatok hitelességét és jellegüktől függő bizalmas kezelését."
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "c) A Nemzeti Fejlesztési és Gazdasági Minisztérium Adatgazdálkodási Szabályzata – A Nemzeti Fejlesztési és Gazdasági Minisztérium adatbeszerzését adatfeldolgozását, az adatok nyilvánosságra hozatalát és kivezetését tartalmazó szabályzat."
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "4. Fogalommeghatározások"
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "Archiválás: Ritkán használt adatok, adatbázisrészek, kivont szerverek adatai változatlan formában történő hosszú távú megőrzése"
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "Elérhetőség (URL): Uniform Resource Locator: Egy hálózaton elérhető erőforrás címe"
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "Mentés: Adatok biztonsági okokból történő fizikailag elkülönülő médián való rendszeres eltárolása"
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "Médiák megsemmisítése: Használt adathordozók adattartalmának végleges és visszavonhatatlan megszüntetése"
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "Map név: A File szerver megosztott könyvtárának neve (pl. U:)"
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "Sémanév: Egy adatbázis szerveren több egymástól független adatbázis is futhat egy időben. A sémanév az adatbázis műszakilag önálló részének a hivatkozási neve"
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "IFO: NFGM Informatikai Főosztály"
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "5. Az archiválás eljárásai"
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "5.1. Az archiválás célja:"
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "a) az elavult,"
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "b) a ritkán használt,"
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "c) a belső szabályzatok, törvények, rendeletek miatt megőrzendő"
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "adatok változatlan állapotban, hosszú távon történő megőrzésének biztosítása."
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "5.2. Archiválási igények felmérése"
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "Az NFGM Informatikai Főosztály (IFO) évente egyszer, a tárgyév első negyedévében a KSZF üzemeltetési osztályával közösen meghatározza a kezelésébe tartozó adatok archiválásra vonatkozó igényeit. A rendszereket lefedő teljes szervermentés, adatbázismentés és fájlszervermentésen kívül jelentkező alkalmazás-specifikus mentéseket egyenként számba kell venni. Ezeknél az alkalmazáshoz adott archiválási eljárást kell követni."
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "Alkalmazás-specifikus archiválások számbavétele:"
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "a) adatcsoport azonosítója,"
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "szakmai felelős,"
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "adatcsoport elérhetősége:"
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "a) szerverazonosító,"
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "b) elérhetőség (url),"
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "c) adatbázis név,"
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "d) sémanév,"
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "e) táblatér név,"
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "működtető környezet:"
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "a) hardver,"
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "b) operációs rendszer,"
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "c) adatbázis kezelő,"
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "d) alkalmazás."
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "Kitöltendő terület"
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "a) Igényelt megőrzési idő: Az az időszak, amelyben az adatokat az éles rendszerből való kikerülése után még el kell tudni érni."
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "b) Indoklás: Az archiválási igény indoklása. Lehetséges válaszok:"
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "– törvényi előírás,"
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "– belső előírás (szabályzat),"
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "– szervezeti működéshez szükséges,"
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "– egyéb."
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "Titkosítási igény: Az archivált adatok titkosításának igénye."
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "Az archiválási folyamatot elindító esemény: Az esemény vagy időpont, amikor az archiválási folyamatnak el kell indulnia. Lehetséges válaszok:"
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "– egy adott feladat/projekt lezárása,"
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "– év végi összesítés, pénzügyi zárás,"
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "– külső törvényi előírás által meghatározott időpontban,"
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "– egyéb."
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "Visszakeresési igény esetén az elvárt visszakeresési válaszidő. Az archivált adatok elérésekor elvárt válaszidő."
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "5.3. Adatarchiválás indításának igénylése"
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "5.3.1. Előzetesen felmért igény indítása"
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "Az archiválás konkrét elindítását a kérvényezőnek kezdeményeznie kell."
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "Teljes file szerver-levelezési rendszer archiválását kér egy terület, az csak SZÁT-engedéllyel történhet."
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "Az Archiválás indítás igénylő lap adattartalma:"
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "a) az archiválandó adatrész pontos meghatározása:"
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "– adatbázis,"
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "– táblatér,"
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "– könyvtár/file-név,"
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "– szűrőparaméterek (valamely időnél régebbi adatok, nem módosított adatok stb.),"
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "b) az archiválás pontos időpontja,"
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "c) az archivált adatok jogosultsági beállításai."
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "Az előzetesen felmért, archiválásra vonatkozó igénybejelentéseket az IFO az archiválás megkezdése előtt 1 hónappal fogad."
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "5.4. Rendkívüli archiválási igény benyújtása"
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "Rendkívüli archiválási igény lép fel akkor, ha az üzemeltetési körülmények olyan mértékben változnak, hogy ez az archiválást szükségessé teszi, illetve az archiválandó rendszer állapotát indokolt megőrizni."
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "A szakmai felelősök, illetve a szervezeti egységvezetők által megfogalmazott rendkívüli archiválási igények esetében az igénylőlapot az Előzetesen felmért igény indításánál leírt adattartalmak, illetve az igény indításánál leírt adatok összességével kell beadni."
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "Az IFO rendkívüli archiválási igényeket a következő tényezők alapján kezdeményezhet:"
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "a) Olyan mértékű kapacitáshiány, amely a Minisztérium működését hátráltatja,"
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "b) Jelentős változás a szervezetben, átadás-átvétel a rendszer kapcsán,"
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "c) Jelentős változás az IT rendszerben."
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "Az IFO a rendkívüli archiválási igényt az érintett szakmai felelősökkel, illetve a szervezeti egységek vezetőivel köteles egyeztetni."
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "5.5. Archiválás rendje"
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "Az archiválás folyamatát rendszerenként az a központi archiváló rendszer alá vonva kell végrehajtani."
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "5.5.1. Archiválás munkautasítás elkészítése"
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "Ha a rendszer speciális eljárást igényel, az archiválási munkautasítást a rendszer szállítója, fejlesztője készíti el. Az archiválási munkautasítás rendszerenként különböző."
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "Az archiválási munkautasítást a rendszer fejlesztése, változtatása után felül kell vizsgálni. Minden más esetben a központi archiváló rendszer alá bevonva kell az archiválást elvégezni."
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "Az archiválási munkautasítás adattartalma:"
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "a) archiválás indításának feltételei,"
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "b) archiváláshoz használható szoftvereszközök ismertetése,"
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "c) archiváláshoz használható hardvereszközök ismertetése,"
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "d) beállítások,"
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "e) archiválás eredményének ellenőrzése,"
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "f) tárolás,"
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "g) azonosítás,"
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "h) nyilvántartás,"
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "i) visszakeresés,"
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "j) dokumentációk."
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "5.5.2. Archiválás végrehajtása"
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "Az archiválást az archiválási munkautasításban leírtak alapján az üzemeltetők hajtják végre."
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "Az archiválási folyamat végrehajtása után az archivált adatok olvashatóságát és az eredeti adatokkal való azonosságát az archiválást végző informatikus köteles ellenőrizni. Az ellenőrzés után az éles rendszeren tárolt adatokat az üzemeltetők megszüntetik, illetve a kivont szerver lekapcsolható."
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "5.5.3. Visszatölthetőség ellenőrzése"
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "Az archív anyagokat az archív média gyártója által meghatározott adatmegőrzési időszakon belül 10 alkalommal, de legalább évente próbavisszatöltéssel ellenőrizni kell. A tesztet minden olyan esetben is végre kell hajtani, ha az archiválási eljárás, eszköz vagy az archiválást érintő rendszerkörnyezet megváltozik, illetve az archiválással érintett rendszer jellemzőiben lényeges változás következik be (pl. jelentős méretnövekedés, új háttértár, verzióváltozás, új modulok telepítése stb.)."
+    },
+    {
+      "provision_ref": "s107",
+      "section": "107",
+      "title": "107",
+      "content": "5.5.4. Archivált anyagok azonosítása, tárolása, kezelése, mozgatása"
+    },
+    {
+      "provision_ref": "s108",
+      "section": "108",
+      "title": "108",
+      "content": "Az archivált adathordozókat egyértelmű azonosító címkékkel kell ellátni. Az azonosító rendszernek a következőket kell tartalmaznia:"
+    },
+    {
+      "provision_ref": "s109",
+      "section": "109",
+      "title": "109",
+      "content": "a) archivált adat azonosítója,"
+    },
+    {
+      "provision_ref": "s110",
+      "section": "110",
+      "title": "110",
+      "content": "b) archiválás dátuma,"
+    },
+    {
+      "provision_ref": "s111",
+      "section": "111",
+      "title": "111",
+      "content": "c) archiválást végző neve,"
+    },
+    {
+      "provision_ref": "s112",
+      "section": "112",
+      "title": "112",
+      "content": "d) titkosított-e,"
+    },
+    {
+      "provision_ref": "s113",
+      "section": "113",
+      "title": "113",
+      "content": "e) megőrzési idő,"
+    },
+    {
+      "provision_ref": "s114",
+      "section": "114",
+      "title": "114",
+      "content": "f) hardveregység megnevezése, egyedi azonosítója,"
+    },
+    {
+      "provision_ref": "s115",
+      "section": "115",
+      "title": "115",
+      "content": "g) előző visszatöltési teszt időpontja, igazolása,"
+    },
+    {
+      "provision_ref": "s116",
+      "section": "116",
+      "title": "116",
+      "content": "h) visszatöltési teszt következő időpontja."
+    },
+    {
+      "provision_ref": "s117",
+      "section": "117",
+      "title": "117",
+      "content": "Az azonosító rendszer változásait a régebbi archívumokra is érvényesíteni kell."
+    },
+    {
+      "provision_ref": "s118",
+      "section": "118",
+      "title": "118",
+      "content": "Az archivált adatok adathordozóit a média típustól függetlenül két, egymástól fizikailag elkülönült helyszínen, a mágneses adathordozókra vonatkoztatva legalább 1 órás tűzállóságot és elektromágneses zavaroktól védettséget biztosító térben, a gyártó tárolási előírásainak megfelelően kell tárolni."
+    },
+    {
+      "provision_ref": "s119",
+      "section": "119",
+      "title": "119",
+      "content": "Az archívumokat csak olyan adathordozóra szabad elkészíteni, mely fizikailag képes az adatot megbízhatóan megőrizni a tárolási idő végéig."
+    },
+    {
+      "provision_ref": "s120",
+      "section": "120",
+      "title": "120",
+      "content": "Az archívumot tartalmazó médiákat a gyári specifikációjukban meghatározott számú használat, illetve idő elteltével, másolat készítése után a forgalomból ki kell vonni, és azokat a megsemmisítés előtt egy évre archívumban kell tárolni."
+    },
+    {
+      "provision_ref": "s121",
+      "section": "121",
+      "title": "121",
+      "content": "Az archivált adathordozó szállításánál az adott adathordozó gyártó által javasolt tárolási, szállítási eljárásait, illetve az Információbiztonsági szabályzatban leírtakat szükséges betartani."
+    },
+    {
+      "provision_ref": "s122",
+      "section": "122",
+      "title": "122",
+      "content": "Az adathordozókat zárt csomagolásban szükséges szállítani, mely megvéd:"
+    },
+    {
+      "provision_ref": "s123",
+      "section": "123",
+      "title": "123",
+      "content": "a) a mechanikai károsodásoktól (pl. törés, por, nedvesség.),"
+    },
+    {
+      "provision_ref": "s124",
+      "section": "124",
+      "title": "124",
+      "content": "b) az elektromos és mágneses zavaroktól (sztatikus feltöltődés, elektromos eszközök, járművek elektromágneses terei stb.),"
+    },
+    {
+      "provision_ref": "s125",
+      "section": "125",
+      "title": "125",
+      "content": "c) a hőmérsékleti és levegő-páratartalom szélsőségektől."
+    },
+    {
+      "provision_ref": "s126",
+      "section": "126",
+      "title": "126",
+      "content": "Az adathordozó mozgatását az üzemeltetés dokumentálja."
+    },
+    {
+      "provision_ref": "s127",
+      "section": "127",
+      "title": "127",
+      "content": "5.5.5. Archiválás dokumentációs követelményei"
+    },
+    {
+      "provision_ref": "s128",
+      "section": "128",
+      "title": "128",
+      "content": "Az archiválást minden esetben dokumentálni kell. Az archiválási napló adattartalma:"
+    },
+    {
+      "provision_ref": "s129",
+      "section": "129",
+      "title": "129",
+      "content": "a) archiválási igény száma,"
+    },
+    {
+      "provision_ref": "s130",
+      "section": "130",
+      "title": "130",
+      "content": "b) vonatkozó archiválási terv azonosítója,"
+    },
+    {
+      "provision_ref": "s131",
+      "section": "131",
+      "title": "131",
+      "content": "c) archiválás dátuma,"
+    },
+    {
+      "provision_ref": "s132",
+      "section": "132",
+      "title": "132",
+      "content": "d) archiválást végző személy,"
+    },
+    {
+      "provision_ref": "s133",
+      "section": "133",
+      "title": "133",
+      "content": "e) archivált adat azonosító,"
+    },
+    {
+      "provision_ref": "s134",
+      "section": "134",
+      "title": "134",
+      "content": "f) hardveregység megnevezése egyedi azonosítója,"
+    },
+    {
+      "provision_ref": "s135",
+      "section": "135",
+      "title": "135",
+      "content": "g) archívum (média) azonosítója,"
+    },
+    {
+      "provision_ref": "s136",
+      "section": "136",
+      "title": "136",
+      "content": "h) visszatöltési teszt megtörtént? (aláírás),"
+    },
+    {
+      "provision_ref": "s137",
+      "section": "137",
+      "title": "137",
+      "content": "i) eredeti anyag törlése megtörtént? (aláírás),"
+    },
+    {
+      "provision_ref": "s138",
+      "section": "138",
+      "title": "138",
+      "content": "j) szállításra előkészítés megtörtént? (aláírás),"
+    },
+    {
+      "provision_ref": "s139",
+      "section": "139",
+      "title": "139",
+      "content": "k) tárolás megtörtént? (aláírás)."
+    },
+    {
+      "provision_ref": "s140",
+      "section": "140",
+      "title": "140",
+      "content": "Az archiválási naplókat az adatgazdálkodásért felelős vezető rendszerezetten visszakereshetően gyűjti."
+    },
+    {
+      "provision_ref": "s141",
+      "section": "141",
+      "title": "141",
+      "content": "5.5.6. Tájékoztatás"
+    },
+    {
+      "provision_ref": "s142",
+      "section": "142",
+      "title": "142",
+      "content": "Az archiválás tényéről az üzemeltetők az adatgazdálkodásért felelős vezetőt is tájékoztatják, aki az archivált adatok által érintett felhasználókat tájékoztatja az adatok archiválásáról és az elérés módjáról. Az archiválás megtörténtéről az IFO vezető is tájékoztatást kap az üzemeltetőktől."
+    },
+    {
+      "provision_ref": "s143",
+      "section": "143",
+      "title": "143",
+      "content": "5.6. Archivált adatokhoz való hozzáférés"
+    },
+    {
+      "provision_ref": "s144",
+      "section": "144",
+      "title": "144",
+      "content": "5.6.1. Hozzáférés igénylése, jóváhagyása"
+    },
+    {
+      "provision_ref": "s145",
+      "section": "145",
+      "title": "145",
+      "content": "Az archivált adatokhoz való hozzáférést a felhasználók az üzemeltetésen, a Help-desken keresztül kérhetik. Az igényeket az adatgazdálkodásért felelős vezető hagyja jóvá."
+    },
+    {
+      "provision_ref": "s146",
+      "section": "146",
+      "title": "146",
+      "content": "5.7. Leselejtezett archív médiák megsemmisítése"
+    },
+    {
+      "provision_ref": "s147",
+      "section": "147",
+      "title": "147",
+      "content": "A lejárt érvényességi idejű vagy nem használható archívumokat az üzemeltetést végző csoportnak dokumentáltan, végleges adat-megsemmisítési módszerrel kell olvashatatlanná tennie, és fizikai megsemmisítéséről gondoskodnia."
+    },
+    {
+      "provision_ref": "s148",
+      "section": "148",
+      "title": "148",
+      "content": "6. Záró rendelkezés"
+    },
+    {
+      "provision_ref": "s149",
+      "section": "149",
+      "title": "149",
+      "content": "A jelen utasítás a közzétételét követő napon lép hatályba."
+    },
+    {
+      "provision_ref": "s150",
+      "section": "150",
+      "title": "150",
+      "content": "Bajnai Gordon s. k.,"
+    },
+    {
+      "provision_ref": "s151",
+      "section": "151",
+      "title": "151",
+      "content": "nemzeti fejlesztési és gazdasági miniszter * Az utasítás az NFGM belsõ honlapján 2008. szeptember 25-én került közzétételre. Az utasítást a 18/2014. (VII. 4.) NGM utasítás 2. § 17. pontja hatályon kívül helyezte 2014. július 5. napjával."
+    }
+  ]
+}

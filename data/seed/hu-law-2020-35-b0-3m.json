@@ -1,0 +1,1769 @@
+{
+  "id": "hu-law-2020-35-b0-3m",
+  "type": "statute",
+  "title": "35/2020. (VII. 16.) BVOP utasítás a Telekom hálózatos, nem nyilvános mobil távközlési szolgáltatás fogvatartottak részére történő működtetésével kapcsolatos feladatokról",
+  "status": "in_force",
+  "in_force_date": "2020-07-17",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2020-35-B0-3M",
+  "description": "a Telekom hálózatos, nem nyilvános mobil távközlési szolgáltatás fogvatartottak részére történő működtetésével kapcsolatos feladatokról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A jogalkotásról szóló 2010. évi CXXX. törvény 23. § (4) bekezdés c) pontja alapján – figyelemmel a büntetések, az intézkedések, egyes kényszerintézkedések és a szabálysértési elzárás végrehajtásáról szóló 2013. évi CCXL. törvényre, valamint a szabadságvesztés, az elzárás, az előzetes letartóztatás és a rendbírság helyébe lépő elzárás végrehajtásának részletes szabályairól szóló 16/2014. (XII. 19.) IM rendeletre – az alábbi utasítást adom ki:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "I. ÁLTALÁNOS RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "1. Az utasítás hatálya a Büntetés-végrehajtás Országos Parancsnokságára (a továbbiakban: BVOP) és valamennyi büntetés-végrehajtási intézetre, intézményre (a továbbiakban: bv. intézet) terjed ki."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "2. Értelmező rendelkezések"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "a) IMEI szám: International Mobile Equipment Identity, azaz a mobiltelefonok beazonosítására szolgáló 15 számjegyből álló számsorozat,"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "b) Konfigurációs Menedzsment Portál: a fogvatartotti mobiltelefonok nyilvántartására szolgáló webes felület,"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "c) közösségi telefon: a bv. intézet személyi állományának kezelésében lévő készülék vagy a fogvatartott által önállóan használható, falra erősített mobilkészülék, amelyet a mobiltelefonnal nem rendelkező fogvatartott használhat az intézetparancsnok által meghatározottak szerint,"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "d) MK azonosító: a telefon hátoldalán található azonosító, amely használatával a fogvatartott részére kiadott mobiltelefon a felszerelési modulba rögzítésre kerül,"
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "e) mobilegyenleg: a fogvatartott által a kiétkezés során az előre meghatározott összegek alapján a mobilszolgáltatás igénybevételére feltöltött összeg,"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "f) mobiltelefon: a fogvatartottak részére kiadott hordozható rádiótelefon-készülék összeszerelve, melynek tartozéka a töltő, 10 cm-es kábellel,"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "g) mobiltelefon óvadék (a továbbiakban:óvadék): a fogvatartott letéti pénzéből a fogvatartottal kötött szerződés alapján zárolt összeg, melyet a bv. intézet a fogvatartott kártérítési felelősségének megállapítása esetén a mobiltelefon javítására, pótlására használhat fel,"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "h) SysAid: a Magyar Telekom Nyrt. központi rendszere, amelyet az ügyfélszolgálat részére biztosít,"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "i) szolgáltató: a Magyar Telekom Nyrt. és a Mobil Kapcsolat Zrt.,"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "j)"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "k) Ügyfélszolgálat (a továbbiakban: ÜSZ): a fogvatartotti mobiltelefonokkal kapcsolatos javítások, hibakezelések ügyintézésére működtetett szolgálat. Tagjai a bv. szervezet személyi állományából kerültek megbízásra."
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "l) PRISMA rendszer: a PRISMA Service Kontroll Központ lehetőséget biztosít a Fogvatartotti Mobil Rendszer széles körű távfelügyeletére és irányítására,"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "m) Tablet: a fogvatartottak részére kiadott, Android alapú FMR3 eszköz összeszerelve, amely a BVOP által jóváhagyott funkciókra alkalmas,"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "n) FMR eszközök: a Fogvatartotti Mobil Rendszerhez tartozó mobiltelefonok és tabletek."
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "3. A fogvatartottakat tájékoztatni kell a telefonálási lehetőségekről (1. melléklet)."
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "4. A mobiltelefonokat a fogvatartottak részére a felszerelési raktáros adja ki a FŐNIX fogvatartotti nyilvántartó-rendszer (a továbbiakban: FŐNIX rendszer) használatával. Fogvatartott részére a felszerelési raktárból mobiltelefon az alábbi feltételek együttes megléte esetén adható ki:"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "a) a fogvatartott a fogvatartotti nyilvántartásban rögzített, engedélyezett, telefonos elérhetőséggel bíró kapcsolattartóval és/vagy hivatalos minőségben kapcsolattartóval rendelkezik,"
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "b) fogvatartott a mobilszolgáltatóval a nem nyilvános mobilszolgáltatás igénybevételére egyedi felhasználási szerződést köt. A korlátozottan cselekvőképes, cselekvőképességében részlegesen korlátozott, illetve cselekvőképtelen fogvatartott (mint például fiatalkorú, gyámság vagy gondnokság alatt álló) esetében a szerződést a törvényes képviselőnek vagy kirendelt gyámnak, kirendelt gondnoknak is alá kell írnia,"
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "c) a fogvatartott szerződésben vállalja, hogy a levonások után megmaradt letéti pénzéből (szabadon felhasználható egyenleg, célzott pénz, védett pénz, szükségleti cikkre fordítható pénz) 35 000 Ft összegű óvadék zárolásra kerüljön a fogvatartott kártérítési felelősségének megállapítása esetére, ha a mobiltelefon készülék javítása vagy annak pótlása szükséges. A fogvatartott kérelme alapján a bv. intézet parancsnoka engedélyezheti az óvadék legfeljebb hathavi részletben történő megfizetését. Részletfizetés engedélyezése esetén a készülék az első részlet zárolását követően adható ki a fogvatartott részére. Amennyiben a bv. intézet az esedékes havi részletet zárolni nem tudja, a fogvatartott köteles leadni a készüléket a felszerelési raktárba. Amennyiben a fogvatartott által okozott kár az e célra elkülönített összegből kielégítésre kerül, a 35 000 Ft összegű biztosíték és a kár kielégítésére fordított összeg különbözete a kielégítést követő 5 munkanapon belül a jogszabályban meghatározott levonások után a fogvatartott megmaradt letéti pénzéből (szabadon felhasználható egyenleg, célzott pénz, védett pénz, szükségleti cikkre fordítható pénz) automatikusan elkülönítésre kerül, melyet a fogvatartott választása szerint egy összegben vagy maximum 6 havi részletben is teljesíthet. A havi részlet legalacsonyabb összege – az utolsó részlet kivételével – 5833 Ft."
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "5. A fogvatartotti mobiltelefonnal rendelkező fogvatartottal is szerződést kell kötni az óvadék zárolásáról és felhasználásáról (3. melléklet)."
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "6. A mobilszolgáltatás igénybevétele esetén a FŐNIX rendszerben nyilvántartott adatok alapján a fogvatartottra érvényes rezsimkategória érvényesül. A telefonbeszélgetések – az arra kijelölt rendszerben történő – ellenőrzésére valamennyi bv. intézetben személyi állományi tagokat kell kijelölni. A kijelölésnél figyelembe kell venni, hogy az ellenőrzési tevékenység a napi szolgáltatási idő teljes terjedelmére kiterjedjen."
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "7. A készülék kiadása előtt a fogvatartottal szerződést kell kötni (4. melléklet) az óvadék zárolásáról és felhasználásáról, melyben vállalja, hogy a bv. intézet az óvadék összegét letéti pénzéből zárolja, és a mobiltelefonban vagy tartozékaiban keletkezett kárt a fogvatartott kártérítési felelősségének megállapítása esetén a javítási számla alapján az óvadék összegből megtéríti."
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "8. Az egyedi felhasználási szerződés megkötéséért a felszerelési raktáros a felelős. A szerződés első példánya a fogvatartotté, a második példányt a felszerelési lap mellett meg kell őrizni."
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "8/A. A fogvatartott egyidejűleg csak mobiltelefonnal vagy csak tablettel rendelkezhet. Az egyedi felhasználási szerződésben szükséges feltüntetni, hogy a fogvatartott részére mobiltelefon vagy tablet került átadásra."
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "9. Az írni-olvasni nem tudó fogvatartott részére a tájékoztatót, az egyedi felhasználási szerződést és az óvadék zárolásáról és felhasználásáról szóló szerződést az általa ismert nyelven fel kell olvasni, és nyilatkoztatni, hogy az abban foglaltakat megértette-e. Ezt követően az iratokat a fogvatartott a kézjegyével ellátja, majd jelenlétében két tanú aláírja. A tájékoztatást a büntetések, az intézkedések, egyes kényszerintézkedések és a szabálysértési elzárás végrehajtásáról szóló 2013. évi CCXL. törvény (a továbbiakban: Bv. tv.) 12. § (8) és (9) bekezdései szerint kell elvégezni."
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "10. A fogvatartott részére kiadott mobiltelefont tartozékaival együtt a fogvatartott felszerelési kartonjára manuálisan is fel kell vezetni, az átadás-átvétel tényét a kartonon a fogvatartottal alá kell íratni."
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "11. A fogvatartott a bv. intézet által biztosított mobiltelefon igénybevételéről bármikor lemondhat, külön nyilatkozat kitöltésével (5. melléklet). A nyilatkozatot 2 példányban kell kitölteni, ahol az első példány a fogvatartotté, a második példányt a fogvatartott felszerelési kartonja mellett meg kell őrizni. A nyilatkozat alapján a fogvatartott felszerelési lapjára fel kell jegyezni, hogy a mobiltelefont nem igényelte („nem igényelte” megjegyzéssel)."
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "12. A fogvatartott bv. intézetből történő végszállítása esetén a mobiltelefont a fogvatartottól nem kell visszavenni."
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "13. A fogvatartott szállítása előtt a felszerelési raktáros köteles ellenőrizni a mobiltelefon hátlapján található és a FŐNIX rendszerben rögzített MK azonosítót. Amennyiben az MK azonosítók nem egyeznek, abban az esetben a mobiltelefon IMEI számát ellenőrizni kell a Konfigurációs Menedzsment Portálon. Az IMEI szám egyezősége esetén a fogvatartott a mobiltelefont a szállításban magával viheti, de a felszerelési raktáros köteles a fogadó bv. intézet ÜSZ-t írásban értesíteni – az IMEI szám feltüntetésével – az MK azonosító eltéréséről, így a készülék javításra küldésének szükségességéről. Az IMEI számot csak NFC olvasó funkcióval rendelkező eszközzel lehet kiolvasni a készülékből."
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "14. Központosított szállítás, szállítás alatt alkalmazandó szabályok:"
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "a) Szállítás közben a fogvatartott a mobiltelefont nem tarthatja magánál. A mobiltelefont egyéni felszerelési tárgyként kell kezelni. A szállító gépjárműre történő felszállás előtt a szállítmányvezető ellenőrzi, hogy az utastérbe ne tudjanak telefont felvinni a fogvatartottak, hanem azok a személyes dolgaik között, a raktérben legyenek elhelyezve. A mobiltelefon készülék megfelelő csomagolása a fogvatatott feladata."
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "b) A szállítást megelőzően az átadás-átvételi dokumentumok előkészítését az intézetparancsok által kijelölt szakterület képviselője hajtja végre. A szállítmányvezetők az átadás-átvételi jegyzéken jelöljék meg, mely fogvatartottak visznek telefonkészüléket magukkal a szállítás során."
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "c) A szállítás megkezdése előtt a nyilvántartási szakterület munkatársai az érintett fogvatartottak telefonjait inaktiválják a „szállítás alatt” státusz beállításával."
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "d) A szállítások ideje alatt a FŐNIX rendszerben „szállítás alatt” státuszú fogvatartottak esetében a rendszer automatikusan tiltja a mobiltelefon-szolgáltatás elérését. A szolgáltatás akkor válik elérhetővé, ha a fogadó bv. intézet végrehajtja a fogvatartott befogadását."
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "e) A Budapesti Fegyház és Börtön és a szállítási útvonal egyéb más bv. intézeteinek szállítózárkáiból történő kiléptetést követően a célintézet szállítmányvezetői ellenőrzik a mobiltelefonok meglétét és sértetlenségét a központosított szállítás alkalmával."
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "f) A fogvatartott szállítása után, a célintézetbe történő megérkezését követően a felszerelési raktáros köteles ellenőrzést végrehajtani a mobiltelefon pontos azonosítása érdekében."
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "15. A fogvatartott előállítása esetén a mobilkészüléket a bv. intézetből nem viheti magával, azt kikapcsolt állapotban köteles a zárkaszekrényébe elzárni. A zárkaszekrény zárhatóságáról a fogvatartott köteles gondoskodni."
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "16. Munkahelyre, közösségi foglalkozásra, oktatásra, egészségügyi, (szak)orvosi rendelésen történő előállítás idejére a fogvatartott a mobiltelefont nem viheti magával. Ezekben az esetekben a fogvatartott a mobiltelefont a zárkaszekrényébe köteles elzárni."
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "17. A bv. intézet parancsnoka helyi intézkedésben köteles szabályozni, hogy a bv. intézet 24 órát meghaladó, jogszerű elhagyása esetén a mobiltelefonok elhelyezésére, tárolására milyen rendelkezések az irányadóak."
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "18. Amennyiben a fogvatartott a mobiltelefon elzárásáról nem gondoskodik, a készülék rongálódásából vagy eltűnéséből eredően kártérítési eljárást kell lefolytatni a fogvatartottal szemben."
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "19. A mobiltelefon töltéséről a fogvatartott saját maga gondoskodik a tartozékként megkapott telefontöltővel. A telefon töltését csak a fogvatartott elhelyezésére szolgáló zárkában, lakóhelyiségben lehet végrehajtani. A bv. intézetnek, az intézeti költségvetés terhére a mobiltelefonok feltöltéséhez a zárka létszámához viszonyítva elegendő villamosáram-vételi csatlakozást kell biztosítania."
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "20. Fegyelmi és biztonsági elkülönítésnél a fogvatartott külön rendelkezés szerint tarthatja, vagy nem tarthatja magánál mobiltelefonját. Amennyiben a külön rendelkezés alapján a fogvatartott nem tarthatja magánál a mobiltelefont, úgy a készülék elhelyezésére a fegyelmi zárkán kívüli zárkaszekrény szolgál. A zárkaszekrény zárásáról a fogvatartott köteles gondoskodni. Ebben az esetben a fegyelmi zárkára helyezett fogvatartott telefonálását és a mobiltelefon töltését a reintegrációs tiszt kezeli."
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "21. A mobiltelefon esetleges megrongálódását, az abban történő károkozást az észlelő személyi állomány tagjának kárjelentő lap kiállításával dokumentálni kell. A kitöltött kárjelentő lapot legkésőbb a következő munkanapon a gazdasági osztály részére át kell adni. A javítás és a kártérítési összeg megállapítása céljából a fogvatartottól a telefont jegyzőkönyvezve át kell venni, majd azt az ügyfélszolgálat részére át kell adni, aki a hibalapot (6. melléklet) kezeli. Amennyiben a bv. szervezet személyi állományának tagja károkozást, illetve egyéb fegyelemsértést észlel, azt – a kártérítési eljárás ügyintézése mellett – haladéktalanul köteles írásban jelenteni. Az elítélt fegyelmi felelősségéről fegyelmi eljárás lefolytatása során kell dönteni. A fogvatartott a javítás ideje alatt kizárólag a közösségi telefont használhatja. Ameddig a fogvatartott az óvadék összegét teljes egészében vissza nem pótolja, újabb mobiltelefon nem adható ki részére."
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "22. Az ÜSZ a javításra átadott mobiltelefont megvizsgálja. Ha a javítás nem végezhető el az ÜSZ-en, akkor az átadott telefont a szolgáltató javításra elszállíttatja. A mobiltelefonok bv. intézetbe történő el- és visszaszállítását külső szállító végzi. A mobiltelefonok szállítása a központosított szállítás napjának kivételével a megadott munkanapon történik (bv. intézetenként eltérően heti egy, illetve két alkalom, továbbá külön igény esetén). Tárolódobozt csak szállítólevél kíséretében lehet átadni a szállítócég részére. A szállítólevelet a tárolódoboz belsejében kell elhelyezni. A szállítólevél kitöltéséért az ÜSZ felel."
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "23. A mobiltelefonok szállítását zárt, számozott plombával ellátott tárolódobozokban végzik, amelyet a javítást végző biztosít az ÜSZ részére. A tárolódobozok zárását és nyitását csak az ÜSZ végezheti el. A tárolódobozok átvételét munkaidőben az ÜSZ, munkaidőn túl a biztonsági osztály erre kijelölt tagja végzi el. Sérült plombával ellátott dobozt átvenni tilos, arról a szállító által rendszeresített jegyzőkönyvet kell felvenni."
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "24. A működésképtelen mobiltelefon javításának összegéről a szolgáltató a bv. intézet központi e-mail-címének használatával a gazdasági vezetőt vagy az általa megbízott személyt tájékoztatja a készülékjavítási értesítőn keresztül. Kivételt képeznek a meghatározott árú szolgáltatások, így az elveszett készülék, elveszett vagy hibás töltő, melyekről nem készül külön értesítő. A szolgáltató havonta, a megelőző tárgyhónapban történt valamennyi javításról analitikát (7. melléklet) küld az intézet részére a számla mellékleteként."
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "25. A bevizsgálási díj nettó 3000 Ft, a térítéses javítások esetében akkor is felszámításra kerül, amennyiben a fogvatartott nem kéri a javítást. Amennyiben a fogvatartott kéri a javítást, akkor külön nem kerül felszámításra a bevizsgálási díj."
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "26. A kártérítés összegét a 24. pont szerinti tájékoztatás alapján kell meghatározni, és a kártérítési eljárást ez alapján kell lefolytatni a fogvatartottal szemben."
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "27. A mobiltelefonok javítási költségéről a bv. intézet részére havonta összesített számla kerül kiállításra (8. melléklet). A számla megküldésre kerül a bv. intézetek részére. A számla mellékletében, a beazonosíthatóság érdekében szerepelnie kell a fogvatartott nyilvántartási számának és a mobiltelefon MK azonosítójának."
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "28. A számlán feltüntetett összeg nem térhet el a 24. pont szerinti tájékoztatóban szereplő értéktől. Eltérés esetén a számlát a gazdasági vezetőnek vagy az általa megbízott személynek 2 munkanapon belül meg kell reklamálnia."
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "II. A KÖZÖSSÉGI TELEFON HASZNÁLATA ÉS AZ ELSZÁMOLÁS MENETE"
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "29. A közösségi telefon havi díja 0 Ft, percdíjai a mobiltelefonok percdíjaival megegyeznek."
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "30. A személyi állomány kezelésében lévő közösségi telefon használata előtt az intézetparancsnok által kijelölt személy az MK azonosító FŐNIX rendszerben történő rögzítésével hozzárendeli az adott mobiltelefont a fogvatartotthoz. A fogvatartotthoz való rendelés a hívás idejére szól. A hívás kezdeményezésekor a fogvatartott egyéni számlája zárolásra kerül. Ezt követően a szolgáltató felé elküldésre kerül a felhasználható telefonálási időtartam (ami a megkezdhető percet jelenti). A hívás befejeztével a telefonálás ellenértéke a fogvatartottól levonásra kerül. A beszélgetés után a személyi állomány kezelésében lévő közösségitelefon-hozzárendelést meg kell szüntetni. Amennyiben a fogvatartott egyéni számlalapján nincs megfelelő nagyságú összeg a hívás díjának kiegyenlítésére, úgy a telefon használatára nincs lehetősége. A személyi állomány kezelésében lévő közösségi telefon használatának, kiadásának és tárolásának részletszabályait a bv. intézet parancsnoka helyi intézkedésben szabályozza."
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "31. A fogvatartott által önállóan használható közösségi telefon használata előtt – a fogvatartotti kiétkező kártya elektronikus készülékkel történő leolvasásával – a telefonkészülék és a fogvatartott összerendelése automatizáltan történik. A hívás kezdeményezésekor a fogvatartott egyéni számlája zárolásra kerül. Ezt követően a szolgáltató felé elküldésre kerül a felhasználható telefonálási időtartam (ami a megkezdhető percet jelenti). A hívás befejeztével a telefonálás ellenértéke a fogvatartottól levonásra kerül. A beszélgetés után a telefon és a fogvatartott összerendelése automatikusan megszűnik. Amennyiben a fogvatartott egyéni számlalapján nincs megfelelő nagyságú összeg a hívás díjának kiegyenlítésére, úgy a fogvatartott által önállóan használható közösségi telefon használatára nincs lehetőség."
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "32. A szolgáltató a közösségi telefon használatáról telephelyenkénti és kapcsolási számonkénti bontásban havi számlát állít ki, melyet postai úton küld meg a bv. intézet részére."
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "33. A közösségi telefon fogvatartotthoz történő hozzárendelésével a telefonálásra vonatkozó rezsimszabályok és a telefonon történő kommunikáció ellenőrzése biztosítottá válik."
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "34. A Bv. tv. 175. § (4) bekezdése szerinti esetben a fogvatartott kérelmére a parancsnok döntése alapján haladéktalanul intézkedni kell a telefonbeszélgetés költségének bv. intézet általi megelőlegezésére."
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "III. A MOBILTELEFONOK EGYENLEGFELTÖLTÉSE"
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "35. A fogvatartottak a telefonegyenlegüket a kiétkezési boltban tölthetik fel. A célzott telefonálás jogcímen beérkezett pénzösszegek nem kerülnek automatikusan feltöltésre a mobilegyenlegre."
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "36. A mobiltelefon egyenlegre feltöltött összegek a következők lehetnek: 1500 Ft, 3000 Ft, 5000 Ft, 10 000 Ft. Az összegek változtatására nincs lehetőség."
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "37. A mobiltelefonok egyenlegének feltöltését elsősorban a fogvatartott egyéni számlalapján címzett pénzéből elkülönített egyenlegből kell biztosítani, másodsorban a szabadon felhasználható keretből, harmadsorban a kiétkezésre elkülönített keretből. A telefonegyenlegre feltöltött összeg időkorlát nélkül, a felhasználásig vehető igénybe, mely egyenleg maximált összege 150 000 Ft lehet."
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "38. A mobilegyenlegek feltöltésére a címzett pénzéből fordított összegeket a bv. intézetek a szolgáltató által kiállított számla alapján utalják át a szolgáltató számlaszámára. A számla melléklete a kiétkezéseken vásárolt egyenlegek összegét, az egyenlegfeltöltések számát és a fogvatartottak nyilvántartási számát tartalmazó összesítő."
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "39. A mobilegyenleg feltöltésénél a kiétkező bolt vásárlásitétel-összesítőt (terhelési összesítő) ad a feltöltés mértékének megfelelően. Áfás számla igényét a fogvatartottnak külön kell jeleznie az ÜSZ-en. A mobilegyenleg vásárlása után a mobilegyenlegen való jóváírás 24 órát is igénybe vehet."
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "IV. A FOGVATARTOTTAK MOBILTELEFON EGYENLEGÉNEK ELSZÁMOLÁSA AZ INTÉZETBŐL SZABADULÓ FOGVATARTOTT ESETÉN"
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "40. A mobiltelefont a fogvatartott szabadítása előtt 10 nappal köteles leadni a felszerelési raktárba. A mobiltelefon bevizsgálását és szükség esetén a kártérítési eljárást a szabadítás előtt, gyorsított eljárásban le kell folytatni. A bevizsgálási díjat kizárólag abban az esetben lehet felszámolni, ha leadáskor a készüléken látható sérülés van, vagy működésképtelenség tapasztalható."
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "41. A telefon raktáros részére történő átadását követően, a raktáros az 1-es gombot hosszan lenyomva a telefonon a képernyő aljára navigálva leolvassa az egyenleget."
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "a) Amennyiben az egyenleg meghaladja az 500 Ft-ot, kiállítja a 9. melléklet szerinti Tájékoztatót az intézetből szabaduló fogvatartott mobiltelefon egyenleg elszámolásához. Könyvelés céljából a raktáros a nyomtatványt eljuttatja a letéti csoport részére. A letéti könyvelő az összeget telefonálási célzott pénzként lekönyveli, majd végrehajtja a szabadítási folyamatot. A kifizetett összeget – a munkabérekhez hasonlóan – a letéti könyvelő 5 munkanapon belül bekéri a javadalomtól a letéti számlára, ahol a bank könyvelésekor összevezeti a lekönyvelt tétellel. A szolgáltató átutalja az összeget a bv. intézet javadalmi számlájára, melyhez küldi a saját listáját, amit egyeztetni kell az intézeti kifizetésekkel. A 9. melléklet eredeti példánya, a pénztári kifizetés alapbizonylata, a hitelesített másolat 1-1 példánya a javadalmi és letéti bank melléklete."
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "b) Amennyiben az egyenleg nem haladja meg az 500 Ft-ot, a raktáros felajánlja a fogvatartottnak az egyenleg lebeszélését. Amennyiben a fogvatartott azt nem kívánja igénybe venni, a 41. pont a) alpontjában leírtakat kell alkalmazni."
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "c) Amennyiben a telefon meghibásodása miatt az egyenleg lekérdezése nem hajtható végre, a 9. melléklet kitöltésével tájékoztatni kell a fogvatartottat, hogy a szolgáltató által megküldött egyenlegértesítő kézhezvételét és az összeg visszautalásának lekönyvelését követő 5 munkanapon belül lakcímre utalással kerül kifizetésre a le nem beszélt egyenleg. A nyomtatvány kitöltését és aláírását követően átadásra kerül a letéti csoport részére. Miután a szolgáltató átutalja az összeget a bv. intézet javadalmi számlájára – melyhez küldi a saját listáját – az intézet gondoskodik az összeg 9. mellékletben szereplő lakcímre történő utalásáról. Abban az esetben, ha a jóváírt összeg nem fedezi a lakcímre utalás költségét, az összeget letéti pénzmaradványként kell lekönyvelni (a megbízás nélküli ügyvitel szabályai szerinti őrzés szabályainak figyelembevételével)."
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "42. A készülék leadását követően – amennyiben az rendeltetésszerűen használható, és azon sérülés, rongálás nem látható – az óvadék zárolását fel kell oldani."
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "43. Amennyiben a készülék elveszett, rongált, nem működő, úgy azt az ÜSZ által bevizsgálásra, javításra kell szállítani. A javításról történő visszaérkezésig az óvadék összege nem feloldható."
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "V. A MOBILTELEFON EGYENLEGÉNEK ELSZÁMOLÁSA A BÍRÓSÁGRÓL SZABADULÓ FOGVATARTOTT ESETÉBEN"
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "44. Amennyiben nem tér vissza a bv. intézetbe a szabadult fogvatartott, a körletfelügyelő jegyzőkönyvön keresztül átadja a felszerelési raktárba a fogvatartott tárgyait, elszámolandó felszerelését."
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "45. A telefon raktáros részére történő átadását követően, a raktáros két tanú jelenlétében:"
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "a) működőképes készülék esetén az 1-es gombot hosszan lenyomva lehallgatja az egyenleget, majd kitölti a 10. melléklet szerinti Tájékoztatót a bíróságról szabaduló fogvatartott mobiltelefon egyenleg elszámolásához,"
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "b) működésképtelen készülék esetén annak tényéről, hogy az egyenleg lekérdezése nem hajtható végre, kiállítja a 10. mellékletet."
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "46. Könyvelés céljából a raktáros a 10. mellékletet eljuttatja a letéti csoport részére."
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "47. Miután a szolgáltató megküldi az egyenlegértesítőt, és az összeget visszautalja a bv. intézet javadalmi számlájára, a bv. intézet gondoskodik az összeg 10. mellékletben szereplő lakcímre utalásáról. Abban az esetben, ha a jóváírt összeg nem fedezi a lakcímre utalás költségét, az összeget letéti pénzmaradványként kell lekönyvelni (a megbízás nélküli ügyvitel szabályai szerinti őrzés szabályainak figyelembevételével)."
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "VI. ELJÁRÁS A FOGVATARTOTTI MOBILTELEFONT MÁR NEM IGÉNYLŐ FOGVATARTOTT ESETÉBEN"
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "48. A fogvatartottnak a felszerelési raktárban le kell adnia a nevére kiadott mobiltelefont."
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "49. A telefon raktáros részére történő átadását követően, a raktáros az 1-es gombot hosszan lenyomva a telefonon a képernyő aljára navigálva leolvassa az egyenleget."
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "a) Amennyiben az egyenleg meghaladja az 500 Ft-ot, kiállítja a 11. melléklet szerinti Tájékoztatót a fogvatartotti mobiltelefont már nem igénylő fogvatartott mobiltelefon egyenleg elszámolásához. Könyvelés céljából a raktáros a nyomtatványt eljuttatja a letéti csoport részére. A letéti könyvelő az összeget telefonálási célzott pénzként lekönyveli. A szolgáltató átutalja az összeget a bv. intézet javadalmi számlájára, melyhez küldi a saját listáját, amit egyeztetni kell a bv. intézeti kifizetésekkel."
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "b) Amennyiben az egyenleg nem haladja meg az 500 Ft-ot a raktáros felajánlja a fogvatartottnak az egyenleg lebeszélését. Amennyiben a fogvatartott nem kívánja igénybe venni a 49. pont a) alpontjában leírtakat kell alkalmazni."
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "c) Amennyiben a készülék meghibásodása miatt az egyenleg lekérdezése nem hajtható végre, a 11. melléklet kitöltésével tájékoztatni kell a fogvatartottat, hogy a szolgáltató által megküldött egyenlegértesítő kézhezvételét és az összeg visszautalásának lekönyvelését követő 5 munkanapon belül kerül jóváírásra telefonálási célzott pénzként az egyéni számláján."
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "50. Írni-olvasni nem tudó fogvatartott esetében a nyomtatványt a raktáros felolvassa, majd a fogvatartott két tanú jelenlétében aláírja."
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "51. Külföldi fogvatartott esetében a Bv. tv. 210. §-ában foglaltaknak megfelelően kell eljárni."
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "52. Reintegrációs őrizetbe helyezés esetén a IV. Fejezetben foglalt rendelkezések az irányadóak."
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "VII. A FOGVATARTOTT SZABADULÁSAKOR ALKALMAZOTT ELJÁRÁS"
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "53. A felszerelési raktáros a mobiltelefon átvételekor köteles a mobiltelefon működőképességét az alábbi módon ellenőrizni:"
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "a) szemrevételezéssel a készülék és a töltő fizikai állapotát (kijelző, burkolat, törés, repedés, erős karcolás, csatlakozók állapota, töltőnél kábel sértetlensége stb.),"
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "b) a készülék MK azonosítóját, a FŐNIX rendszerben történő egyeztetéssel,"
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "c) a működés ellenőrzését bekapcsolással, tesztszám hívásával (tesztszám: 06-30/9800807), a nyomógombok működésének ellenőrzésével,"
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "d) IMEI szám ellenőrzésével (az IMEI számot csak NFC olvasó funkcióval rendelkező eszközzel lehet kiolvasni a készülékből)."
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "54. Amennyiben a mobiltelefont a fogvatartott visszaadja, és azon sérülés nem tapasztalható, intézkedni kell az óvadék feloldására. A mobiltelefon rendellenes működése esetén, vagy tartozék hiányában a felszerelési raktáros köteles kárjelentő lapot kiállítani, és a készüléket az ÜSZ-nek javítás vagy a hiányos tartozék pótlása céljából átadni. Javítás, pótlás esetén csak akkor oldható fel az óvadék, amikor a szolgáltató megküldte a javításról szóló számlát."
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "55. Amennyiben a fogvatartott szabadítása soron kívül történik, szabadításkor kártérítési eljárás nem folytatható le, intézkedni kell a 35 000 Ft feloldására."
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "56. A készülék pótlásával, illetve fő alkatrész cseréjével járó javítások esetében a javítási költség összegét kell megállapítani (12. melléklet). Tartozék- vagy egyéb készülékjavításra vonatkozóan a javítási költség mértékét a javítási árajánlat alapján kell megállapítani."
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "57. A szabadulótól visszavett mobiltelefon a visszavétel napjától számított 2 nap (48 óra) után adható ki újra. A fogvatartott szabadulásakor a felszerelési raktáros köteles a szabadulás/elhalálozás esetére szóló nyomtatványt 2 példányban kitölteni. A kitöltött nyomtatvány első példánya a fogvatartotté, a második példányt a felszerelési raktáros őrzi meg. A fogvatartott elhalálozása esetén a nyomtatvány 1 példányát a felszerelési raktáros köteles a letétkönyvelők részére átadni."
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "58. A kiadható mobiltelefonok listája a Konfigurációs Menedzsment Portál használatával lekérhető."
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "58/A. A kiadható tabletek listája a PRISMA rendszerben is lekérdezhető. Tablet ismételten akkor adható ki, ha a rendszerben a „Raktárkészlet” felirat látható."
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "VIII. AZ ÜGYFÉLSZOLGÁLAT MŰKÖDÉSE"
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "59. Az ÜSZ-t a fogvatartott csak előre engedélyezett kérelmi lap alapján veheti igénybe. Az ÜSZ igénybevételének engedélyezése előtt a reintegrációs tisztnek ellenőriznie kell az 1-es gomb lenyomásával, hogy a fogvatartott rendelkezik-e felhasználható mobilegyenleggel. Híváskezdeményezési probléma esetén akkor veheti igénybe az ÜSZ-t, ha egyenlegén van telefonálásra használható keretösszeg. Hibás, sérült, törött, elveszett mobiltelefon bevizsgálása és javítása céljából akkor is igénybe veheti az ÜSZ-t, ha nem rendelkezik felhasználható mobilegyenleggel."
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "60. Az ÜSZ nyitvatartási idejét úgy kell kialakítani, hogy a mobiltelefonok szállításával kapcsolatos teendők – a szállítócégnek történő átadás-átvétel – a nyitvatartási idő alatt kerüljenek ügyintézésre."
+    },
+    {
+      "provision_ref": "s107",
+      "section": "107",
+      "title": "107",
+      "content": "61. Az ÜSZ feladatai:"
+    },
+    {
+      "provision_ref": "s108",
+      "section": "108",
+      "title": "108",
+      "content": "a) mobiltelefon hibáinak ügyintézése, elérhetősége (13. melléklet),"
+    },
+    {
+      "provision_ref": "s109",
+      "section": "109",
+      "title": "109",
+      "content": "b) készülékek elsődleges bevizsgálása,"
+    },
+    {
+      "provision_ref": "s110",
+      "section": "110",
+      "title": "110",
+      "content": "c) hiba rögzítése a SysAid rendszerben,"
+    },
+    {
+      "provision_ref": "s111",
+      "section": "111",
+      "title": "111",
+      "content": "d) hibás mobiltelefonok és tartozékok összekészítése szállításra,"
+    },
+    {
+      "provision_ref": "s112",
+      "section": "112",
+      "title": "112",
+      "content": "e) javított mobiltelefonok fogadása és fogvatartott részére történő átadása,"
+    },
+    {
+      "provision_ref": "s113",
+      "section": "113",
+      "title": "113",
+      "content": "f) fogvatartotti kérelmek ügyintézése."
+    },
+    {
+      "provision_ref": "s114",
+      "section": "114",
+      "title": "114",
+      "content": "62. A szolgáltató által biztosított egyéb szolgáltatások (14. melléklet) díja az aktuálisan a fogvatartott nevén lévő telefonszám egyenlegéből kerül levonásra, amennyiben az egyenleg fedezi a díjat, ellenkező esetben nem kérhető a szolgáltatás. A fizetős szolgáltatások igénybevételéről a szolgáltató fogvatartottanként köteles számlát kiállítani. A számla a BVOP nevére kerül kiállításra."
+    },
+    {
+      "provision_ref": "s115",
+      "section": "115",
+      "title": "115",
+      "content": "63."
+    },
+    {
+      "provision_ref": "s116",
+      "section": "116",
+      "title": "116",
+      "content": "64. A javított mobiltelefonokról az ÜSZ értesítő e-mailt küld a bv. intézetben működő büntetés-végrehajtási osztály vezetőjének. Az osztályvezető ügyfélszolgálati időben gondoskodik a fogvatartottak előállításáról a javított mobiltelefonok átvételére, valamint a bv. intézetből időközben elszállított fogvatartottak mobiltelefonjának utánküldéséről."
+    },
+    {
+      "provision_ref": "s117",
+      "section": "117",
+      "title": "117",
+      "content": "IX. A MOBILTELEFONOK NYILVÁNTARTÁSA, ÁTADÁS-ÁTVÉTELE AZ INTÉZETEK KÖZÖTT"
+    },
+    {
+      "provision_ref": "s118",
+      "section": "118",
+      "title": "118",
+      "content": "65. Az FMR eszközök szétosztása központilag történik. A készülékek bv. intézetek közötti mozgása a Büntetés-végrehajtás Gazdasági Ellátó Intézete személyi állományi tagja által a Forras.Net programban kerül könyvelésre. Az FMR eszközöket a Forras.Net program eszközmoduljában egyedileg, tartozékokkal, IMEI számmal és MK azonosítóval ellátva kell nyilvántartani. Az MK azonosítót a karakterek száma miatt a „megnevezés 2” mezőben kell szerepeltetni. Azokat a készülékeket, amelyek nem a bv. szervezet tulajdonában állnak, idegen tulajdonként kell nyilvántartani."
+    },
+    {
+      "provision_ref": "s119",
+      "section": "119",
+      "title": "119",
+      "content": "66. A megvásárolt mobiltelefonokat 1 leltárkörzeten gyűjtve kell nyilvántartani. Amennyiben a mobiltelefon más bv. intézetbe kerül át, a nyilvántartását társintézményi átadással kell továbbítani aláírt, kinyomtatott, állománycsökkenési bizonylattal együtt (EEC) a fogadó bv. intézetnek a szállítást követően haladéktalanul."
+    },
+    {
+      "provision_ref": "s120",
+      "section": "120",
+      "title": "120",
+      "content": "X. MOBILTELEFONOK SZÁMÁNAK RENDEZÉSE"
+    },
+    {
+      "provision_ref": "s121",
+      "section": "121",
+      "title": "121",
+      "content": "67. A bv. intézetek a hó utolsó munkanapján kötelesek ellenőrizni az intézetben fellelhető mobiltelefonok számát a Konfigurációs Menedzsment Portál segítségével, amelybe beletartozik a felszerelési raktárban elhelyezett, de még nem deaktivált és törölt, a kiadható, a fogvatartottak részére kiadott és a javításra elküldött mobiltelefonok, valamint a selejtezésre váró telefonok száma is. A december 31-én végzett ellenőrzést a Forrás.Dot.Net programból a telefonok leltárkörzetére kinyomtatott leltárfelvételi íven kell végrehajtani. A leltárfelvételi ív kitöltése a telefonokhoz kapcsolódó éves leltározási kötelezettség végrehajtásának minősül. Amennyiben a bv. intézet felszerelési raktárában a készülékek száma olyan mértékben csökken, hogy átcsoportosítás szükséges, úgy azt a bv. intézetnek haladéktalanul jeleznie kell az Informatikai Főosztály részére. A bv. intézetek közti átcsoportosítást az Informatikai Főosztály engedélyezi és koordinálja. A bv. intézetek között történő átadás-átvételt a Forrás.Dot.Net programban a mobiltelefonok nyilvántartása és átadás-átvétele bekezdésben meghatározottak alapján kell végrehajtani."
+    },
+    {
+      "provision_ref": "s122",
+      "section": "122",
+      "title": "122",
+      "content": "68. Amennyiben a bv. intézetek mobiltelefonnal történő ellátása átcsoportosítással nem megoldható, abban az esetben a készülékek biztosítása a tartalékkeret felhasználásával történik. A tartalékkeretből lehívott telefonok esetében az eljárásrend megegyezik a központi biztosítású telefonok eljárásrendjével."
+    },
+    {
+      "provision_ref": "s123",
+      "section": "123",
+      "title": "123",
+      "content": "XI. A MOBILTELEFONOK ÉS TARTOZÉKOK SELEJTEZÉSE"
+    },
+    {
+      "provision_ref": "s124",
+      "section": "124",
+      "title": "124",
+      "content": "69. A bv. tulajdonában lévő, javításra megküldött, de nem javítható vagy gazdaságtalan javítású mobiltelefonokat a selejtezés napjáig a szolgáltató őrzi, valamint lehetőséget biztosít azok bármikor történő megtekintésére. A szolgáltató a javíthatatlansági nyilatkozatot térítésmentesen a BVOP rendelkezésére bocsátja. Ezeket a készülékeket a szolgáltató dokumentáltan, a környezetvédelmi előírásokat betartva megsemmisíti. A megsemmisítésről szóló dokumentációt a szolgáltató a megsemmisítést követő munkanapon átadja a BVOP részére."
+    },
+    {
+      "provision_ref": "s125",
+      "section": "125",
+      "title": "125",
+      "content": "70. A BVOP által selejtté nyilvánított mobiltelefonokat és tartozékokat az intézetek társintézményi átadással adják vissza a BVOP részére, ahol az eszközök központi selejtezése történik. Ezeket a készülékeket BVOP dokumentáltan, a környezetvédelmi előírásokat betartva megsemmisíti."
+    },
+    {
+      "provision_ref": "s126",
+      "section": "126",
+      "title": "126",
+      "content": "XI/A. TABLETTEL KAPCSOLATOS SZABÁLYOK"
+    },
+    {
+      "provision_ref": "s127",
+      "section": "127",
+      "title": "127",
+      "content": "70/A. Tablet használata kivételes esetben engedélyezhető a IV. és V. kategóriába sorolt elítélt, valamint a szigorúbb rezsimkategóriába sorolt letartóztatott részére, függetlenül a speciális részlegen történő elhelyezéstől."
+    },
+    {
+      "provision_ref": "s128",
+      "section": "128",
+      "title": "128",
+      "content": "70/B. A 70/A. pontban foglaltakon túl figyelembe kell venni a fogvatartott bv. intézeti magatartását, fegyelmi helyzetét és együttműködési készségét."
+    },
+    {
+      "provision_ref": "s129",
+      "section": "129",
+      "title": "129",
+      "content": "70/C. A tablet igénylésével kapcsolatos kérelemben a fogvatartásért felelős szakterület osztályvezetője hoz döntést."
+    },
+    {
+      "provision_ref": "s130",
+      "section": "130",
+      "title": "130",
+      "content": "70/D. A döntéssel szembeni panaszt a bv. intézet parancsnoka bírálja el."
+    },
+    {
+      "provision_ref": "s131",
+      "section": "131",
+      "title": "131",
+      "content": "70/E. A fogvatartottak részére a tabletek kiadása esetén a 4. pontban foglaltakat az alábbi a)–c) alpontban foglalt eltérésekkel kell alkalmazni:"
+    },
+    {
+      "provision_ref": "s132",
+      "section": "132",
+      "title": "132",
+      "content": "a) a tablet kiadását a FŐNIX rendszeren kívül a PRISMA rendszerben is szükséges adminisztrálni,"
+    },
+    {
+      "provision_ref": "s133",
+      "section": "133",
+      "title": "133",
+      "content": "b) a tablet kiadásának nem feltétele, hogy a fogvatartott a fogvatartotti nyilvántartásban rögzített, engedélyezett, telefonos elérhetőséggel bíró kapcsolattartóval vagy hivatalos minőségben kapcsolattartóval rendelkezzen,"
+    },
+    {
+      "provision_ref": "s134",
+      "section": "134",
+      "title": "134",
+      "content": "c) tablet igénylése esetén nem kerül letéti pénz zárolásra."
+    },
+    {
+      "provision_ref": "s135",
+      "section": "135",
+      "title": "135",
+      "content": "70/F. A tablet igénylésével, javításával, felmondásával kapcsolatos díjak a szolgáltató és a fogvatartott között létrejött szerződés alapján a DOMINO egyenlegből kerülnek elszámolásra, levonásra."
+    },
+    {
+      "provision_ref": "s136",
+      "section": "136",
+      "title": "136",
+      "content": "70/G. A fogvatartott szabadulása esetén a tablet átvételekor az 53. pontban foglaltakon túl az alábbi szempontokat szükséges figyelembe venni:"
+    },
+    {
+      "provision_ref": "s137",
+      "section": "137",
+      "title": "137",
+      "content": "a) töltő működésének ellenőrzése,"
+    },
+    {
+      "provision_ref": "s138",
+      "section": "138",
+      "title": "138",
+      "content": "b) kijelző hibátlan működésének ellenőrzése a tesztfelület kijelző szín menüpontban,"
+    },
+    {
+      "provision_ref": "s139",
+      "section": "139",
+      "title": "139",
+      "content": "c) SIM fedél sértetlenségének ellenőrzése."
+    },
+    {
+      "provision_ref": "s140",
+      "section": "140",
+      "title": "140",
+      "content": "XII. ZÁRÓ RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s141",
+      "section": "141",
+      "title": "141",
+      "content": "71. Ez az utasítás a közzétételét követő napon lép hatályba."
+    },
+    {
+      "provision_ref": "s142",
+      "section": "142",
+      "title": "142",
+      "content": "72."
+    },
+    {
+      "provision_ref": "s143",
+      "section": "143",
+      "title": "143",
+      "content": "73. Az Igazságügyi Megfigyelő és Elmegyógyító Intézet főigazgató főorvosa – az országos parancsnok engedélyével – jelen utasítás előírásaitól eltérően rendelkezhet."
+    },
+    {
+      "provision_ref": "s144",
+      "section": "144",
+      "title": "144",
+      "content": "a fogvatartotti telefonálási lehetőségekről"
+    },
+    {
+      "provision_ref": "s145",
+      "section": "145",
+      "title": "145",
+      "content": "1. A bv. intézet a büntetések, az intézkedések, egyes kényszerintézkedések és a szabálysértési elzárás végrehajtásáról szóló 2013. évi CCXL. törvény (a továbbiakban: Bv. tv.) 173. § (1) bekezdés b) pontjában foglaltaknak megfelelően a fogvatartott telefonbeszélgetését a bv. intézet által biztosított telefonnal teljesíti."
+    },
+    {
+      "provision_ref": "s146",
+      "section": "146",
+      "title": "146",
+      "content": "2. A bv. intézet a hivatkozott jogszabályi rendelkezéseket az alábbi módokon és feltételekkel biztosítja a fogvatartott részére:"
+    },
+    {
+      "provision_ref": "s147",
+      "section": "147",
+      "title": "147",
+      "content": "a) a fogvatartott szükség szerint a telefonálás idejére igénybe veheti a bv. intézet személyi állományának kezelésében lévő vagy falra erősített mobilkészüléket, amelyet a mobiltelefonnal nem rendelkező fogvatartott használhat az intézetparancsnok által meghatározottak szerint (a továbbiakban: közösségi telefon),"
+    },
+    {
+      "provision_ref": "s148",
+      "section": "148",
+      "title": "148",
+      "content": "b) a fogvatartott jogosult mobiltelefon készülék kizárólagos használatára és birtoklására a külön szerződésben részletezett feltételek és kötelezettségek teljesülése szerint, valamint az intézetparancsnok által meghatározottak szerint (a továbbiakban: mobiltelefon készülék)."
+    },
+    {
+      "provision_ref": "s149",
+      "section": "149",
+      "title": "149",
+      "content": "3. A közösségi telefon használatára külön biztosíték megfizetése nem szükséges. A mobiltelefon készülék használatának a feltétele külön 35 000 Ft összeg megfizetéséhez kötött, melyet a fogvatartott az alábbiak szerint teljesíthet:"
+    },
+    {
+      "provision_ref": "s150",
+      "section": "150",
+      "title": "150",
+      "content": "a) Fogvatartottnak a jogszabályban meghatározott levonások után megmaradt letéti pénzéből (szabadon felhasználható egyenleg, célzott pénz, védett pénz, szükségleti cikkre fordítható pénz), illetve munkadíjából és kiétkezési pénzéből 35 000 Ft elkülönítésre kerül egy összegben, illetve választása szerint legfeljebb hathavi egyenlő részletben. Amennyiben a fogvatartott tudomásul veszi, hogy részletfizetés engedélyezése esetén a mobiltelefon készülék az első részlet elkülönítését követően adható ki a részére, továbbá amennyiben a bv. intézet az esedékes havi részletet elkülöníteni nem tudja, a fogvatartott köteles leadni a mobiltelefon készüléket a felszerelési raktárba."
+    },
+    {
+      "provision_ref": "s151",
+      "section": "151",
+      "title": "151",
+      "content": "b) Feloldás után az elkülönített pénzösszeg az elkülönítés előtti jogcímen kerül könyvelésre."
+    },
+    {
+      "provision_ref": "s152",
+      "section": "152",
+      "title": "152",
+      "content": "4. Amennyiben fogvatartott a mobiltelefon készülék használatának a lehetőségét nem kívánja igénybe venni, vagy egyéb okból nem jogosult annak igénybevételére, abban az esetben is biztosított számára a telefonbeszélgetés a közösségi telefonon a 2. pont a) alpontjában meghatározottak szerint."
+    },
+    {
+      "provision_ref": "s153",
+      "section": "153",
+      "title": "153",
+      "content": "5. Fogvatartott fogvatartása alatt bármikor jogosult igénybe venni mobiltelefon készülék használatának a lehetőségét a külön feltételek teljesítése esetén. Alulírott …………………………………………………………………………………………………………………… (………………………………………………………………) mint fogvatartott kijelentem, hogy: – a fogvatartotti telefonálási lehetőségekről szóló fenti tájékoztatást megismertem és megértettem, – az intézet parancsnoka által meghatározott telefonálási rendet mind a közösségi telefon, mind a mobiltelefon készülék tekintetében megismertem és megértettem, – a mobiltelefonra vonatkozó külön szerződés tartalmát megismertem és megértettem. Kijelentem, hogy a fentiek ismeretében a közösségi telefont / mobiltelefon készüléket kívánom igénybe venni telefonbeszélgetéseim során. Kelt: ………………………………, ………… év ………… hó ……. nap ………………………………… fogvatartott"
+    },
+    {
+      "provision_ref": "s154",
+      "section": "154",
+      "title": "154",
+      "content": "(van már mobilja) SZERZŐDÉS ÓVADÉK ADÁSÁRÓL amely létrejött egyrészről: ……………………………………………………………………………………………………………………………………… (………………………………………………………………………), jogosult (a továbbiakban mint bv. intézet), másrészről: ………………………………………………………………………………………………………………………… (………………………………………………………………), kötelezett (a továbbiakban mint fogvatartott) között a mai napon az alábbiak szerint:"
+    },
+    {
+      "provision_ref": "s155",
+      "section": "155",
+      "title": "155",
+      "content": "1. Szerződő felek rögzítik, hogy a bv. intézet a büntetések, az intézkedések, egyes kényszerintézkedések és a szabálysértési elzárás végrehajtásáról szóló 2013. évi CCXL. törvény (a továbbiakban: Bv. tv.) 173. § (1) bekezdés b) pontjában foglaltaknak megfelelően a fogvatartott telefonbeszélgetését a bv. intézet által biztosított telefonnal teljesíti."
+    },
+    {
+      "provision_ref": "s156",
+      "section": "156",
+      "title": "156",
+      "content": "2. Szerződő felek rögzítik, hogy jelen szerződés elválaszthatatlan részét képezi a fogvatartotti telefonálási lehetőségeket ismertető és a fogvatartott által aláírt tájékoztató. A tájékoztató tartalma szerint a fogvatartott a számára biztosított telefonálási lehetőségek részleteit megismerte. Fogvatartott a tájékoztató tartalma szerint telefonbeszélgetéseire a mobiltelefon készüléket kívánja igénybe venni, mely szándékát jelen szerződés aláírásával is megerősíti."
+    },
+    {
+      "provision_ref": "s157",
+      "section": "157",
+      "title": "157",
+      "content": "3. Szerződő felek egybehangzó megállapodása alapján a mobiltelefon készülék javítása, illetve pótlásának biztosítása érdekében óvadékot alapítanak 35 000 Ft összeg erejéig. A fogvatartott jelen szerződés aláírásával egyidejűleg hozzájárulását adja ahhoz, hogy a bv. intézet az óvadékot egyéni letéti számlalapján nyilvántartsa, és azt kezelje elkülönítetten az alábbiak szerint:"
+    },
+    {
+      "provision_ref": "s158",
+      "section": "158",
+      "title": "158",
+      "content": "a) Fogvatartott jelen szerződés aláírásával egyidejűleg hozzájárulását adja, hogy a jogszabályban meghatározott levonások után megmaradt letéti pénzéből (szabadon felhasználható egyenleg, célzott pénz, védett pénz, szükségleti cikkre fordítható pénz), illetve munkadíjából és kiétkezési pénzéből 35 000 Ft összegű óvadék elkülönítésre kerüljön egy összegben, illetve választása szerint legfeljebb hathavi egyenlő részletben. Fogvatartott tudomásul veszi, hogy részletfizetés engedélyezése esetén a mobiltelefon az első részlet elkülönítését követően adható ki a részére. Fogvatartott továbbá tudomásul veszi, hogy amennyiben a jogosult az esedékes havi részletet elkülöníteni nem tudja, köteles leadni a mobiltelefon készüléket a felszerelési raktárba."
+    },
+    {
+      "provision_ref": "s159",
+      "section": "159",
+      "title": "159",
+      "content": "b) Szerződő felek egybehangzóan megállapítják, hogy a fogvatartott egyéni számlalapján a teljes 35 000 Ft összeg / korábban engedélyezett részletfizetés esetén ………………………… Ft összeg elkülönítésre került. Erre tekintettel a bv. intézet a fogvatartott birtokába adta a bv. intézet tulajdonát képező ………………………………. típusú …………………………………… IMEI számú mobiltelefon készüléket."
+    },
+    {
+      "provision_ref": "s160",
+      "section": "160",
+      "title": "160",
+      "content": "4. A bv. intézet az óvadékot elfogadta."
+    },
+    {
+      "provision_ref": "s161",
+      "section": "161",
+      "title": "161",
+      "content": "5. Fogvatartott jelen szerződés aláírásával egyidejűleg vállalja, hogy az előzetesen megtekintett, hibátlan állapotban átvett mobiltelefon készüléket megőrzi, rendeltetésszerűen használja, azt másik fogvatartottnak át nem adhatja, továbbá vállalja, hogy azt a rendelkezésére bocsátott, megtekintett hibamentes állapotban adja vissza a bv. intézet részére. Fogvatartott tudomásul veszi, hogy a mobiltelefon készülékben keletkezett kárért, illetve annak elvesztése miatt a Bv. tv. 144. §-a szerint kártérítési felelőséggel tartozik."
+    },
+    {
+      "provision_ref": "s162",
+      "section": "162",
+      "title": "162",
+      "content": "6. Fogvatartott jelen szerződés aláírásával egyidejűleg hozzájárulását adja ahhoz, hogy amennyiben a büntetés-végrehajtási intézetben fogvatartott elítéltekkel és egyéb jogcímen fogvatartottakkal kapcsolatos kártérítési eljárás szabályairól szóló 12/2014. (XII. 16.) IM rendelet szabályai szerint lefolytatott kártérítési eljárás alapján megállapításra kerül a fogvatartott kártérítési felelőssége, a bv. intézet az óvadék tárgyából az okozott kár összeg erejéig élhet közvetlen kielégítési jogával."
+    },
+    {
+      "provision_ref": "s163",
+      "section": "163",
+      "title": "163",
+      "content": "7. A bv. intézet a kár összegét a szakszerviz által kiállított bizonylattal köteles igazolni a fogvatartott felé."
+    },
+    {
+      "provision_ref": "s164",
+      "section": "164",
+      "title": "164",
+      "content": "8. Fogvatartott már most, jelen szerződés aláírásával egyidejűleg hozzájárulását adja ahhoz, hogy amennyiben a kártérítési eljárás során a felelőssége megállapításra, és a bv. intézet követelése az óvadékból kielégítésre került, az intézet az ezt követő 5 munkanapon belül a jogszabályban meghatározott levonások után a fogvatartott megmaradt letéti pénzéből (szabadon felhasználható egyenleg, célzott pénz, védett pénz, szükségleti cikkre fordítható pénz), illetve munkadíjából és kiétkezési pénzéből az okozott kárral megegyező összeget elkülöníti mobiltelefon óvadék céljából."
+    },
+    {
+      "provision_ref": "s165",
+      "section": "165",
+      "title": "165",
+      "content": "9. A fogvatartott az ismételten elkülönítendő összeget egy összegben vagy választása szerint maximum 6 havi részletben is teljesítheti. Szerződő felek a havi részletek legalacsonyabb összegét 5833 Ft összegben határozzák meg, kivéve az utolsó havi részletet, melynek összegét szerződő felek nem korlátozzák. A fogvatartott tudomásul veszi, hogy teljes összegű kifizetés vagy részletfizetés engedélyezése esetén az újabb mobiltelefon készülék kizárólag az óvadék teljes egészében történő visszapótlását követően adható ki a részére."
+    },
+    {
+      "provision_ref": "s166",
+      "section": "166",
+      "title": "166",
+      "content": "10. Fogvatartott tudomásul veszi, hogy amennyiben a kártérítés kielégítését követően a fennmaradó összeg kevesebb, mint az egyhavi részlet legalacsonyabb összege, vagy ezen összeg erejéig a bv. intézet a fenti határidőn belül nem tudja az elkülönítést végrehajtani, a szerződő felek kötelesek egymással írásban elszámolni, az elszámolás eredményeként megmaradó összeg a fogvatartottat illeti."
+    },
+    {
+      "provision_ref": "s167",
+      "section": "167",
+      "title": "167",
+      "content": "11. Fogvatartott tudomásul veszi, hogy amennyiben a bv. intézet a kár megtérítésére határozattal kötelezte, ellene a bv. intézet székhelye szerint illetékes bíróságnál a közléstől számított harminc napos jogvesztő határidőn belül keresetet indíthat, továbbá tudomásul veszi, hogy a keresetindítás tényének a bv. intézet óvadékból történő közvetlen kielégítési jogára nincs halasztó hatálya."
+    },
+    {
+      "provision_ref": "s168",
+      "section": "168",
+      "title": "168",
+      "content": "12. Szerződő felek rögzítik, hogy a fogvatartott a Bv. tv. 144. § (4) bekezdése szerint mentesül a kártérítési felelősség alól, azaz a kárt a bv. intézet viseli, ha a károkozásért a fogvatartott felelőssége nem állapítható meg."
+    },
+    {
+      "provision_ref": "s169",
+      "section": "169",
+      "title": "169",
+      "content": "13. Fogvatartott tudomásul veszi, hogy a mobiltelefon készülék igénybevételéről fogvatartása alatt írásban – a mobiltelefon készülék felszerelési raktárba történő egyidejű leadása mellett – bármikor lemondhat. Abban az esetben, ha a mobiltelefon készüléken sérülés nem tapasztalható, intézkedni kell az óvadék feloldásáról, azonban ha a mobiltelefon készülék sérült, illetve felmerül a gyanú, hogy meghibásodott, a készüléket bevizsgálás céljából meg kell küldeni a szakszerviznek. Amennyiben a szakszerviz megállapítja, hogy a készülék meghibásodott, az intézet lefolytatja a kártérítési eljárást, és ezt követően a fentiek szerint kell a továbbiakban eljárni."
+    },
+    {
+      "provision_ref": "s170",
+      "section": "170",
+      "title": "170",
+      "content": "14. Az óvadékot csak a kielégítés céljára szabad felhasználni. Amennyiben az óvadékot részben vagy egészben felhasználják, illetve a fogvatartott írásban lemondott a mobiltelefon készülék további igénybevételéről, a felek kötelesek egymással írásban elszámolni. Az elszámolás eredményeként megmaradó összeg fogvatartottat illeti."
+    },
+    {
+      "provision_ref": "s171",
+      "section": "171",
+      "title": "171",
+      "content": "15. Szerződő felek megállapodnak, hogy a fogvatartott a birtokában lévő mobiltelefon készüléket legkésőbb a szabadítása előtt 10 nappal köteles leadni a felszerelési raktárba, annak érdekében, hogy az esetleges bevizsgálást és kártérítési eljárást még a fogvatartott szabadlábra helyezése előtt lefolytathassák."
+    },
+    {
+      "provision_ref": "s172",
+      "section": "172",
+      "title": "172",
+      "content": "16. Amennyiben a fogvatartottat nem a bv. intézet szabadítja, vagy egyéb okból nincs lehetőség lefolytatni a kártérítési eljárást, a szabaduló fogvatartottnak aláírása ellenében az egyéni számlalapján elkülönített óvadékot az elkülönítés előtti jogcímbe kell visszahelyezni, és a jogszabályi előírásoknak megfelelő levonásokkal csökkentett összeget ki kell adni. Ha a fogvatartott harminc napon belül nem jelentkezik a bv. intézetben, az egyéni számlalapján elkülönített óvadékot – az át nem vett letéti pénz terhére – a bv. intézet postai úton megküldi a szabaduló fogvatartott bv. intézet által nyilvántartott lakcímére."
+    },
+    {
+      "provision_ref": "s173",
+      "section": "173",
+      "title": "173",
+      "content": "17. Szerződő felek jelen szerződést elolvasás után mint akaratukkal mindenben megegyezőt, jóváhagyólag aláírták. Jelen szerződésben nem szabályozott kérdésekben a Polgári Törvénykönyvről szóló 2013. évi V. törvény, illetve Bv. tv. ide vonatkozó rendelkezései az irányadók. Kelt: ……………………, ………… év ……………… hó …… napján …………………………………… …………………………………… bv. intézet fogvatartott"
+    },
+    {
+      "provision_ref": "s174",
+      "section": "174",
+      "title": "174",
+      "content": "(még nincs mobil) SZERZŐDÉS ÓVADÉK ADÁSÁRÓL amely létrejött egyrészről: ………………………………………………………………………………………………………………………………... (………………………………………………………………………), jogosult (a továbbiakban mint bv. intézet), másrészről: …………………………………………………………………………………………………………………… (………………………………………………………………), kötelezett (a továbbiakban mint fogvatartott) között a mai napon az alábbiak szerint:"
+    },
+    {
+      "provision_ref": "s175",
+      "section": "175",
+      "title": "175",
+      "content": "1. Szerződő felek rögzítik, hogy a bv. intézet a büntetések, az intézkedések, egyes kényszerintézkedések és a szabálysértési elzárás végrehajtásáról szóló 2013. évi CCXL. törvény (a továbbiakban: Bv. tv.) 173. § (1) bekezdés b) pontjában foglaltaknak megfelelően a fogvatartott telefonbeszélgetését a bv. intézet által biztosított telefonnal teljesíti."
+    },
+    {
+      "provision_ref": "s176",
+      "section": "176",
+      "title": "176",
+      "content": "2. Szerződő felek rögzítik, hogy jelen szerződés elválaszthatatlan részét képezi a fogvatartotti telefonálási lehetőségeket ismertető és a fogvatartott által aláírt tájékoztató. A tájékoztató tartalma szerint a fogvatartott a számára biztosított telefonálási lehetőségek részleteit megismerte. Fogvatartott a tájékoztató tartalma szerint telefonbeszélgetéseire a mobiltelefon készüléket kívánja igénybe venni, mely szándékát jelen szerződés aláírásával is megerősíti."
+    },
+    {
+      "provision_ref": "s177",
+      "section": "177",
+      "title": "177",
+      "content": "3. Szerződő felek egybehangzó megállapodása alapján a mobiltelefon készülék javítása, illetve pótlásának biztosítása érdekében óvadékot alapítanak 35 000 Ft összeg erejéig. A fogvatartott jelen szerződés aláírásával egyidejűleg hozzájárulását adja ahhoz, hogy a bv. intézet az óvadékot egyéni letéti számlalapján nyilvántartsa, és azt kezelje elkülönítetten az alábbiak szerint:"
+    },
+    {
+      "provision_ref": "s178",
+      "section": "178",
+      "title": "178",
+      "content": "a) Fogvatartott jelen szerződés aláírásával egyidejűleg hozzájárulását adja, hogy a jogszabályban meghatározott levonások után megmaradt letéti pénzéből (szabadon felhasználható egyenleg, célzott pénz, védett pénz, szükségleti cikkre fordítható pénz), illetve munkadíjából és kiétkezési pénzéből 35 000 Ft összegű óvadék elkülönítésre kerüljön egy összegben, illetve választása szerint legfeljebb hathavi egyenlő részletben. Fogvatartott tudomásul veszi, hogy részletfizetés engedélyezése esetén a mobiltelefon az első részlet elkülönítését követően adható ki a részére. Fogvatartott továbbá tudomásul veszi, hogy amennyiben a jogosult az esedékes havi részletet elkülöníteni nem tudja, köteles leadni a mobiltelefon készüléket a felszerelési raktárba."
+    },
+    {
+      "provision_ref": "s179",
+      "section": "179",
+      "title": "179",
+      "content": "b) A fogvatartott jelen szerződés aláírásával egyidejűleg hozzájárulását adja ahhoz, hogy a 35 000 Ft összegű óvadék egy összegben / 6 havi egyenlő részletben elkülönítésre kerüljön egyéni számlalapján."
+    },
+    {
+      "provision_ref": "s180",
+      "section": "180",
+      "title": "180",
+      "content": "4. A bv. intézet az óvadékot elfogadja. Feloldás után az elkülönített pénzösszeg az elkülönítés előtti jogcímen kerül könyvelésre."
+    },
+    {
+      "provision_ref": "s181",
+      "section": "181",
+      "title": "181",
+      "content": "5. Szerződő felek rögzítik, hogy a bv. intézet a fogvatartott birtokába adja a bv. intézet tulajdonát képező …………………………………… típusú ………………………………………. IMEI számú mobiltelefon készüléket azt követően, hogy a 35 000 Ft egy összegben elkülönítésre került, illetve amennyiben a fogvatartott a részletfizetés lehetőségével élt az első részlet elkülönítését követően."
+    },
+    {
+      "provision_ref": "s182",
+      "section": "182",
+      "title": "182",
+      "content": "6. Fogvatartott jelen szerződés aláírásával egyidejűleg vállalja, hogy az előzetesen megtekintett, hibátlan állapotban átvett mobiltelefon készüléket megőrzi, rendeltetésszerűen használja, azt másik fogvatartottnak át nem adhatja, továbbá vállalja, hogy azt a rendelkezésére bocsátott, megtekintett hibamentes állapotban adja vissza a bv. intézet részére. Fogvatartott tudomásul veszi, hogy a mobiltelefon készülékben keletkezett kárért, illetve annak elvesztése miatt a Bv. tv. 144. §-a szerint kártérítési felelőséggel tartozik."
+    },
+    {
+      "provision_ref": "s183",
+      "section": "183",
+      "title": "183",
+      "content": "7. Fogvatartott jelen szerződés aláírásával egyidejűleg hozzájárulását adja ahhoz, hogy amennyiben a büntetés-végrehajtási intézetben fogvatartott elítéltekkel és egyéb jogcímen fogvatartottakkal kapcsolatos kártérítési eljárás szabályairól szóló 12/2014. (XII. 16.) IM rendelet szabályai szerint lefolytatott kártérítési eljárás alapján megállapításra kerül a fogvatartott kártérítési felelőssége, a bv. intézet az óvadék tárgyából az okozott kár összeg erejéig élhet közvetlen kielégítési jogával."
+    },
+    {
+      "provision_ref": "s184",
+      "section": "184",
+      "title": "184",
+      "content": "8. A bv. intézet a kár összegét a szakszerviz által kiállított bizonylattal köteles igazolni a fogvatartott felé."
+    },
+    {
+      "provision_ref": "s185",
+      "section": "185",
+      "title": "185",
+      "content": "9. Fogvatartott már most, jelen szerződés aláírásával egyidejűleg hozzájárulását adja ahhoz, hogy amennyiben a kártérítési eljárás során a felelőssége megállapításra, és a bv. intézet követelése az óvadékból kielégítésre került, az intézet az ezt követő 5 munkanapon belül a jogszabályban meghatározott levonások után a fogvatartott megmaradt letéti pénzéből (szabadon felhasználható egyenleg, célzott pénz, védett pénz, szükségleti cikkre fordítható pénz), illetve munkadíjából és kiétkezési pénzéből az okozott kárral megegyező összeget elkülöníti mobiltelefon óvadék céljából."
+    },
+    {
+      "provision_ref": "s186",
+      "section": "186",
+      "title": "186",
+      "content": "10. A fogvatartott az ismételten elkülönítendő összeget egy összegben vagy választása szerint maximum 6 havi részletben is teljesítheti. Szerződő felek a havi részletek legalacsonyabb összegét 5833 Ft összegben határozzák meg, kivéve az utolsó havi részletet, melynek összegét szerződő felek nem korlátozzák. Fogvatartott tudomásul veszi, hogy teljes összegű kifizetés vagy részletfizetés engedélyezése esetén az újabb mobiltelefon készülék kizárólag az óvadék teljes egészében történő visszapótlását követően adható ki a részére."
+    },
+    {
+      "provision_ref": "s187",
+      "section": "187",
+      "title": "187",
+      "content": "11. Fogvatartott tudomásul veszi, hogy amennyiben a kártérítés kielégítését követően a fennmaradó összeg kevesebb, mint az egyhavi részlet legalacsonyabb összege, vagy ezen összeg erejéig a bv. intézet a fenti határidőn belül nem tudja az elkülönítést végrehajtani, a szerződő felek kötelesek egymással írásban elszámolni, az elszámolás eredményeként megmaradó összeg a fogvatartottat illeti."
+    },
+    {
+      "provision_ref": "s188",
+      "section": "188",
+      "title": "188",
+      "content": "12. Fogvatartott tudomásul veszi, hogy amennyiben a bv. intézet a kár megtérítésére határozattal kötelezte, ellene a bv. intézet székhelye szerint illetékes bíróságnál a közléstől számított harminc napos jogvesztő határidőn belül keresetet indíthat, továbbá tudomásul veszi, hogy a keresetindítás tényének a bv. intézet óvadékból történő közvetlen kielégítési jogára nincs halasztó hatálya."
+    },
+    {
+      "provision_ref": "s189",
+      "section": "189",
+      "title": "189",
+      "content": "13. Szerződő felek rögzítik, hogy a fogvatartott a Bv. tv. 144. § (4) bekezdése szerint mentesül a kártérítési felelősség alól, azaz a kárt a bv. intézet viseli, ha a károkozásért a fogvatartott felelőssége nem állapítható meg."
+    },
+    {
+      "provision_ref": "s190",
+      "section": "190",
+      "title": "190",
+      "content": "14. Az óvadékot csak a kielégítés céljára szabad felhasználni. Amennyiben az óvadékot részben vagy egészben felhasználják, illetve a fogvatartott írásban lemondott a mobiltelefon készülék további igénybevételéről, a felek kötelesek egymással írásban elszámolni. Az elszámolás eredményeként megmaradó összeg fogvatartottat illeti."
+    },
+    {
+      "provision_ref": "s191",
+      "section": "191",
+      "title": "191",
+      "content": "15. Szerződő felek megállapodnak, hogy a fogvatartott a birtokában lévő mobiltelefon készüléket legkésőbb a szabadítása előtt 10 nappal köteles leadni a felszerelési raktárba, annak érdekében, hogy az esetleges bevizsgálást és kártérítési eljárást még a fogvatartott szabadlábra helyezése előtt lefolytathassák."
+    },
+    {
+      "provision_ref": "s192",
+      "section": "192",
+      "title": "192",
+      "content": "16. Amennyiben fogvatartottat nem a bv. intézet szabadítja, vagy egyéb okból nincs lehetőség lefolytatni a kártérítési eljárást, a szabaduló fogvatartottnak aláírása ellenében az egyéni számlalapján elkülönített óvadékot az elkülönítés előtti jogcímbe kell visszahelyezni, és a jogszabályi előírásoknak megfelelő levonásokkal csökkentett összeget ki kell adni. Ha a fogvatartott harminc napon belül nem jelentkezik a bv. intézetben, az egyéni számlalapján elkülönített óvadékot – az át nem vett letéti pénz terhére – a bv. intézet postai úton megküldi a szabaduló fogvatartott bv. intézet által nyilvántartott lakcímére."
+    },
+    {
+      "provision_ref": "s193",
+      "section": "193",
+      "title": "193",
+      "content": "17. Szerződő felek jelen szerződést elolvasás után mint akaratukkal mindenben megegyezőt, jóváhagyólag aláírták. Jelen szerződésben nem szabályozott kérdésekben a Polgári Törvénykönyvről szóló 2013. évi V. törvény, illetve Bv. tv. ide vonatkozó rendelkezései az irányadók. Kelt: ……………………, ………… év ……………… hó …… napján …………………………………… …………………………………… bv. intézet fogvatartott"
+    },
+    {
+      "provision_ref": "s194",
+      "section": "194",
+      "title": "194",
+      "content": "Intézet megnevezése"
+    },
+    {
+      "provision_ref": "s195",
+      "section": "195",
+      "title": "195",
+      "content": "LEMONDÓ NYILATKOZAT"
+    },
+    {
+      "provision_ref": "s196",
+      "section": "196",
+      "title": "196",
+      "content": "Alulírott ………………………………… (nyilvántartási szám: ……………………) kijelentem, hogy jelen nyilatkozat aláírásával a fogvatartottaknak a bv. intézet által biztosított mobiltelefon készülék igénybevételének lehetőségéről lemondok."
+    },
+    {
+      "provision_ref": "s197",
+      "section": "197",
+      "title": "197",
+      "content": "Kelt:"
+    },
+    {
+      "provision_ref": "s198",
+      "section": "198",
+      "title": "198",
+      "content": "……………………………………"
+    },
+    {
+      "provision_ref": "s199",
+      "section": "199",
+      "title": "199",
+      "content": "Minta"
+    },
+    {
+      "provision_ref": "s200",
+      "section": "200",
+      "title": "200",
+      "content": "0R03926_0"
+    },
+    {
+      "provision_ref": "s201",
+      "section": "201",
+      "title": "201",
+      "content": "MINTA"
+    },
+    {
+      "provision_ref": "s202",
+      "section": "202",
+      "title": "202",
+      "content": "2R03057M_0"
+    },
+    {
+      "provision_ref": "s203",
+      "section": "203",
+      "title": "203",
+      "content": "Fogvatartottra vonatkozó adatok:"
+    },
+    {
+      "provision_ref": "s204",
+      "section": "204",
+      "title": "204",
+      "content": "Neve:"
+    },
+    {
+      "provision_ref": "s205",
+      "section": "205",
+      "title": "205",
+      "content": "Nyilvántartási száma:"
+    },
+    {
+      "provision_ref": "s206",
+      "section": "206",
+      "title": "206",
+      "content": "Szabadulás időpontja:"
+    },
+    {
+      "provision_ref": "s207",
+      "section": "207",
+      "title": "207",
+      "content": "Mobiltelefonhoz kapcsolódó adatok:"
+    },
+    {
+      "provision_ref": "s208",
+      "section": "208",
+      "title": "208",
+      "content": "Telefonszáma:"
+    },
+    {
+      "provision_ref": "s209",
+      "section": "209",
+      "title": "209",
+      "content": "IMEI száma:"
+    },
+    {
+      "provision_ref": "s210",
+      "section": "210",
+      "title": "210",
+      "content": "MK azonosító:"
+    },
+    {
+      "provision_ref": "s211",
+      "section": "211",
+      "title": "211",
+      "content": "A részemre 20…… év ……………… hó ………. napján leadott készülék"
+    },
+    {
+      "provision_ref": "s212",
+      "section": "212",
+      "title": "212",
+      "content": "□ sérülésmentes □ sérült"
+    },
+    {
+      "provision_ref": "s213",
+      "section": "213",
+      "title": "213",
+      "content": "Az egyenleg az 1-es gomb lenyomásával"
+    },
+    {
+      "provision_ref": "s214",
+      "section": "214",
+      "title": "214",
+      "content": "□ megállapítható. A lebeszélhető egyenleg …………………… Ft"
+    },
+    {
+      "provision_ref": "s215",
+      "section": "215",
+      "title": "215",
+      "content": "□ nem megállapítható"
+    },
+    {
+      "provision_ref": "s216",
+      "section": "216",
+      "title": "216",
+      "content": "A fogvatartottat a felhasználható egyenlegről tájékoztattam, nyilatkozata alapján az egyenleget"
+    },
+    {
+      "provision_ref": "s217",
+      "section": "217",
+      "title": "217",
+      "content": "□ lebeszéli □ telefonálási célzott pénzként visszakéri"
+    },
+    {
+      "provision_ref": "s218",
+      "section": "218",
+      "title": "218",
+      "content": "Abban az esetben, ha a készülék hibájából adódóan az egyenleg az 1-es gomb megnyomásával nem lehallgatható:"
+    },
+    {
+      "provision_ref": "s219",
+      "section": "219",
+      "title": "219",
+      "content": "A fogvatartott tudomásul veszi, hogy a készülék hibájából az egyenleg nem megállapítható, ezért a szabadulásával egyidejűleg annak kifizetése nem lehetséges. A szolgáltató által kiállított egyenlegértesítő kézhezvételét követően az összeg kiutalásra kerül az általa megadott lakcímre:"
+    },
+    {
+      "provision_ref": "s220",
+      "section": "220",
+      "title": "220",
+      "content": "Lakcím:"
+    },
+    {
+      "provision_ref": "s221",
+      "section": "221",
+      "title": "221",
+      "content": "Abban az esetben, ha az egyenleg összege nem fedezi a lakcímre utalás költségét, a kiutalásra nem kerül sor, azt az intézet letéti pénzmaradványként lekönyveli, és a megbízás nélküli ügyvitel szabályai szerinti őrzés szabályainak fegyelembevételével megőrzi."
+    },
+    {
+      "provision_ref": "s222",
+      "section": "222",
+      "title": "222",
+      "content": "Kelt: …………………………………………."
+    },
+    {
+      "provision_ref": "s223",
+      "section": "223",
+      "title": "223",
+      "content": "………………………………………. raktáros aláírása"
+    },
+    {
+      "provision_ref": "s224",
+      "section": "224",
+      "title": "224",
+      "content": "A tájékoztatást megkaptam, a benne foglaltakat elfogadom."
+    },
+    {
+      "provision_ref": "s225",
+      "section": "225",
+      "title": "225",
+      "content": "………………………………………. fogvatartott aláírása"
+    },
+    {
+      "provision_ref": "s226",
+      "section": "226",
+      "title": "226",
+      "content": "Könyvelésre vonatkozó adatok"
+    },
+    {
+      "provision_ref": "s227",
+      "section": "227",
+      "title": "227",
+      "content": "Könyvelés dátuma: ………………………… Kiutalás díja: ………………Ft"
+    },
+    {
+      "provision_ref": "s228",
+      "section": "228",
+      "title": "228",
+      "content": "Könyvelt egyenleg"
+    },
+    {
+      "provision_ref": "s229",
+      "section": "229",
+      "title": "229",
+      "content": "□ lehallgatás alapján …………………… Ft"
+    },
+    {
+      "provision_ref": "s230",
+      "section": "230",
+      "title": "230",
+      "content": "□ T-System által megküldött egyenlegértesítő lapján …………………… Ft"
+    },
+    {
+      "provision_ref": "s231",
+      "section": "231",
+      "title": "231",
+      "content": "Az egyenleg"
+    },
+    {
+      "provision_ref": "s232",
+      "section": "232",
+      "title": "232",
+      "content": "□ kiutalásra került. Utalt összeg: …………………… Ft. Utalás dátuma: ……………………"
+    },
+    {
+      "provision_ref": "s233",
+      "section": "233",
+      "title": "233",
+      "content": "□ pénzmaradványként nyilvántartásba lett véve …………………… Ft"
+    },
+    {
+      "provision_ref": "s234",
+      "section": "234",
+      "title": "234",
+      "content": "…………………………………… könyvelő aláírása"
+    },
+    {
+      "provision_ref": "s235",
+      "section": "235",
+      "title": "235",
+      "content": "Fogvatartottra vonatkozó adatok:"
+    },
+    {
+      "provision_ref": "s236",
+      "section": "236",
+      "title": "236",
+      "content": "Neve:"
+    },
+    {
+      "provision_ref": "s237",
+      "section": "237",
+      "title": "237",
+      "content": "Nyilvántartási száma:"
+    },
+    {
+      "provision_ref": "s238",
+      "section": "238",
+      "title": "238",
+      "content": "Szabadulás időpontja:"
+    },
+    {
+      "provision_ref": "s239",
+      "section": "239",
+      "title": "239",
+      "content": "Mobiltelefonhoz kapcsolódó adatok:"
+    },
+    {
+      "provision_ref": "s240",
+      "section": "240",
+      "title": "240",
+      "content": "Telefonszáma:"
+    },
+    {
+      "provision_ref": "s241",
+      "section": "241",
+      "title": "241",
+      "content": "IMEI száma:"
+    },
+    {
+      "provision_ref": "s242",
+      "section": "242",
+      "title": "242",
+      "content": "MK azonosító:"
+    },
+    {
+      "provision_ref": "s243",
+      "section": "243",
+      "title": "243",
+      "content": "A fogvatartott a tárgyalását követően nem tért vissza a(z) …………………………………… (bv. intézet/intézmény neve)."
+    },
+    {
+      "provision_ref": "s244",
+      "section": "244",
+      "title": "244",
+      "content": "A(z) ……………………………… számú jegyzőkönyv alapján a részemre 20…. év ……………… hó ……… napján leadott készülék"
+    },
+    {
+      "provision_ref": "s245",
+      "section": "245",
+      "title": "245",
+      "content": "□ sérülésmentes"
+    },
+    {
+      "provision_ref": "s246",
+      "section": "246",
+      "title": "246",
+      "content": "□ sérült"
+    },
+    {
+      "provision_ref": "s247",
+      "section": "247",
+      "title": "247",
+      "content": "Az egyenleg az 1-es gomb lenyomásával"
+    },
+    {
+      "provision_ref": "s248",
+      "section": "248",
+      "title": "248",
+      "content": "□ megállapítható. A lebeszélhető egyenleg …………………… Ft"
+    },
+    {
+      "provision_ref": "s249",
+      "section": "249",
+      "title": "249",
+      "content": "□ nem megállapítható"
+    },
+    {
+      "provision_ref": "s250",
+      "section": "250",
+      "title": "250",
+      "content": "Kelt: …………………………………………"
+    },
+    {
+      "provision_ref": "s251",
+      "section": "251",
+      "title": "251",
+      "content": "……………………………………… raktáros aláírása"
+    },
+    {
+      "provision_ref": "s252",
+      "section": "252",
+      "title": "252",
+      "content": "Könyvelésre vonatkozó adatok"
+    },
+    {
+      "provision_ref": "s253",
+      "section": "253",
+      "title": "253",
+      "content": "A T-System által megküldött egyenlegértesítő kézhezvétele: …………………………………"
+    },
+    {
+      "provision_ref": "s254",
+      "section": "254",
+      "title": "254",
+      "content": "Az egyenlegértesítőn szereplő összeg: ……………………………… Ft"
+    },
+    {
+      "provision_ref": "s255",
+      "section": "255",
+      "title": "255",
+      "content": "A jóváírás dátuma: …………………………… Ft"
+    },
+    {
+      "provision_ref": "s256",
+      "section": "256",
+      "title": "256",
+      "content": "Jóváírt összeg: ………………………………… Ft"
+    },
+    {
+      "provision_ref": "s257",
+      "section": "257",
+      "title": "257",
+      "content": "A fogvatartotti nyilvántartó programban szereplő lakcím:"
+    },
+    {
+      "provision_ref": "s258",
+      "section": "258",
+      "title": "258",
+      "content": "Kiutalás díja: ………………………………… Ft"
+    },
+    {
+      "provision_ref": "s259",
+      "section": "259",
+      "title": "259",
+      "content": "Abban az esetben, ha az egyenleg összege nem fedezi a lakcímre utalás költségét, a kiutalásra nem kerül sor, azt az intézet letéti pénzmaradványként lekönyveli, és a megbízás nélküli ügyvitel szabályai szerinti őrzés szabályainak fegyelembevételével megőrzi."
+    },
+    {
+      "provision_ref": "s260",
+      "section": "260",
+      "title": "260",
+      "content": "Az egyenleg"
+    },
+    {
+      "provision_ref": "s261",
+      "section": "261",
+      "title": "261",
+      "content": "□ kiutalásra került. Utalt összeg: …………………… Ft. Utalás dátuma: ………………………."
+    },
+    {
+      "provision_ref": "s262",
+      "section": "262",
+      "title": "262",
+      "content": "□ pénzmaradványként nyilvántartásba lett véve …………………………. Ft."
+    },
+    {
+      "provision_ref": "s263",
+      "section": "263",
+      "title": "263",
+      "content": "……………………………………… könyvelő aláírása"
+    },
+    {
+      "provision_ref": "s264",
+      "section": "264",
+      "title": "264",
+      "content": "Fogvatartottra vonatkozó adatok:"
+    },
+    {
+      "provision_ref": "s265",
+      "section": "265",
+      "title": "265",
+      "content": "Neve:"
+    },
+    {
+      "provision_ref": "s266",
+      "section": "266",
+      "title": "266",
+      "content": "Nyilvántartási száma:"
+    },
+    {
+      "provision_ref": "s267",
+      "section": "267",
+      "title": "267",
+      "content": "Mobiltelefonhoz kapcsolódó adatok:"
+    },
+    {
+      "provision_ref": "s268",
+      "section": "268",
+      "title": "268",
+      "content": "Telefonszáma:"
+    },
+    {
+      "provision_ref": "s269",
+      "section": "269",
+      "title": "269",
+      "content": "IMEI száma:"
+    },
+    {
+      "provision_ref": "s270",
+      "section": "270",
+      "title": "270",
+      "content": "MK azonosító:"
+    },
+    {
+      "provision_ref": "s271",
+      "section": "271",
+      "title": "271",
+      "content": "A részemre 20…. év ……………….. hó ………. napján leadott készülék"
+    },
+    {
+      "provision_ref": "s272",
+      "section": "272",
+      "title": "272",
+      "content": "□ sérülésmentes"
+    },
+    {
+      "provision_ref": "s273",
+      "section": "273",
+      "title": "273",
+      "content": "□ sérült"
+    },
+    {
+      "provision_ref": "s274",
+      "section": "274",
+      "title": "274",
+      "content": "Az egyenleg az 1-es gomb lenyomásával"
+    },
+    {
+      "provision_ref": "s275",
+      "section": "275",
+      "title": "275",
+      "content": "□ megállapítható. A lebeszélhető egyenleg …………………… Ft"
+    },
+    {
+      "provision_ref": "s276",
+      "section": "276",
+      "title": "276",
+      "content": "□ nem megállapítható"
+    },
+    {
+      "provision_ref": "s277",
+      "section": "277",
+      "title": "277",
+      "content": "A fogvatartottat a felhasználható egyenlegről tájékoztattam, nyilatkozata alapján az egyenleget"
+    },
+    {
+      "provision_ref": "s278",
+      "section": "278",
+      "title": "278",
+      "content": "□ lebeszéli"
+    },
+    {
+      "provision_ref": "s279",
+      "section": "279",
+      "title": "279",
+      "content": "□ telefonálási célzott pénzként visszakéri"
+    },
+    {
+      "provision_ref": "s280",
+      "section": "280",
+      "title": "280",
+      "content": "Kelt: …………………………………………."
+    },
+    {
+      "provision_ref": "s281",
+      "section": "281",
+      "title": "281",
+      "content": "……………………………………… raktáros aláírása"
+    },
+    {
+      "provision_ref": "s282",
+      "section": "282",
+      "title": "282",
+      "content": "A tájékoztatást megkaptam, a benne foglaltakat elfogadom."
+    },
+    {
+      "provision_ref": "s283",
+      "section": "283",
+      "title": "283",
+      "content": "……………………………………… fogvatartott aláírása"
+    },
+    {
+      "provision_ref": "s284",
+      "section": "284",
+      "title": "284",
+      "content": "Könyvelésre vonatkozó adatok"
+    },
+    {
+      "provision_ref": "s285",
+      "section": "285",
+      "title": "285",
+      "content": "Könyvelés dátuma: …………………………"
+    },
+    {
+      "provision_ref": "s286",
+      "section": "286",
+      "title": "286",
+      "content": "Könyvelt egyenleg"
+    },
+    {
+      "provision_ref": "s287",
+      "section": "287",
+      "title": "287",
+      "content": "□ lehallgatás alapján …………………… Ft"
+    },
+    {
+      "provision_ref": "s288",
+      "section": "288",
+      "title": "288",
+      "content": "□ T-System által megküldött egyenlegértesítő lapján ………………………… Ft"
+    },
+    {
+      "provision_ref": "s289",
+      "section": "289",
+      "title": "289",
+      "content": "……………………………………… könyvelő aláírása"
+    },
+    {
+      "provision_ref": "s290",
+      "section": "290",
+      "title": "290",
+      "content": "Javítási árlista"
+    },
+    {
+      "provision_ref": "s291",
+      "section": "291",
+      "title": "291",
+      "content": "* A készülék teljes javítási költsége (készülék cseréje) megadásra kell, hogy kerüljön. Amennyiben a bevizsgálás alapján a teljes javítás (készülékcsere) nem szükséges, úgy a fentiek szerinti javítási díjak alapján kerül végrehajtásra a javítás."
+    },
+    {
+      "provision_ref": "s292",
+      "section": "292",
+      "title": "292",
+      "content": "2. számú árlista A ügyfélszolgálat által biztosított szolgáltatások díja Megnevezés Nettó szolgáltatási díj (Ft/alkalom) Bruttó szolgáltatási díj (Ft/alkalom) Hívásrészletező 1500.00 1905.00 Mobilegyenlegen történő pénzmozgás kimutatása* 1500.00 1905.00 Áfás számla igénylése mobilegyenleg feltöltésről 1500.14 1095.18 Összesen: 4500.14 5715.18"
+    },
+    {
+      "provision_ref": "s293",
+      "section": "293",
+      "title": "293",
+      "content": "* Feltöltések időpontja és értéke. 1 A 2. pont b) alpontja a 15/2022. (VI. 30.) BVOP utasítás 10. pont a) alpontja szerint módosított szöveg. 2 A 2. pont i) alpontja a 15/2022. (VI. 30.) BVOP utasítás 10. pont b) alpontja szerint módosított szöveg. 3 A 2. pont j) alpontját az 5/2026. (II. 5.) BVOP utasítás 7. pont a) alpontja hatályon kívül helyezte. 4 A 2. pont l) alpontját az 5/2026. (II. 5.) BVOP utasítás 1. pontja iktatta be. 5 A 2. pont m) alpontját az 5/2026. (II. 5.) BVOP utasítás 1. pontja iktatta be. 6 A 2. pont n) alpontját az 5/2026. (II. 5.) BVOP utasítás 1. pontja iktatta be. 7 A 4. pont b) alpontja az 1/2025. (I. 9.) BVOP utasítás 1. pont a) alpontja szerint módosított szöveg. 8 A 8/A. pontot az 5/2026. (II. 5.) BVOP utasítás 2. pontja iktatta be. 9 A 13. pont a 15/2022. (VI. 30.) BVOP utasítás 1. pontjával megállapított szöveg. 10 A 14. pont nyitó szövegrésze a 35/2021. (VI. 10.) BVOP utasítás 1. pontjával megállapított szöveg. 11 A 14. pont e) alpontja a 35/2021. (VI. 10.) BVOP utasítás 2. pontjával megállapított szöveg. 12 A 21. pont a 37/2023. (VII. 31.) BVOP utasítás 1. pontjával megállapított szöveg. 13 A 22. pont a 15/2022. (VI. 30.) BVOP utasítás 2. pontjával megállapított szöveg. 14 A 24. pont a 15/2022. (VI. 30.) BVOP utasítás 10. pont c) alpontja szerint módosított szöveg. 15 A 25. pont a 15/2022. (VI. 30.) BVOP utasítás 3. pontjával megállapított szöveg. 16 A 32. pont a 15/2022. (VI. 30.) BVOP utasítás 4. pontjával megállapított szöveg. 17 A 37. pont a 15/2022. (VI. 30.) BVOP utasítás 5. pontjával megállapított szöveg. 18 A 40. pont a 35/2021. (VI. 10.) BVOP utasítás 4. pontjával megállapított szöveg. 19 Az 53. pont d) alpontja a 15/2022. (VI. 30.) BVOP utasítás 6. pontjával megállapított szöveg. 20 Az 58. pont a 15/2022. (VI. 30.) BVOP utasítás 10. pont d) alpontja szerint módosított szöveg. 21 Az 58/A. pontot az 5/2026. (II. 5.) BVOP utasítás 3. pontja iktatta be. 22 A 62. pont a 15/2022. (VI. 30.) BVOP utasítás 7. pontjával megállapított szöveg. 23 A 63. pontot az 5/2026. (II. 5.) BVOP utasítás 7. pont b) alpontja hatályon kívül helyezte. 24 A 65. pont az 5/2026. (II. 5.) BVOP utasítás 4. pontjával megállapított szöveg. 25 A 67. pont a 15/2022. (VI. 30.) BVOP utasítás 10. pont f) alpontja szerint módosított szöveg. 26 A 69. pont a 15/2022. (VI. 30.) BVOP utasítás 8. pontjával megállapított szöveg. 27 A 70. pont a 15/2022. (VI. 30.) BVOP utasítás 9. pontjával megállapított szöveg. 28 A XI/A. fejezetet (70/A–70/G. pontot) az 5/2026. (II. 5.) BVOP utasítás 5. pontja iktatta be. 29 A 72. pont a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette. 30 Az 1. melléklet a 35/2021. (VI. 10.) BVOP utasítás 5. pontja szerint módosított szöveg. * Megfelelő aláhúzandó. 31 A 2. mellékletet az 1/2025. (I. 9.) BVOP utasítás 1. pont b) alpontja hatályon kívül helyezte. 32 A 3. melléklet a 35/2021. (VI. 10.) BVOP utasítás 6–7. pontja szerint módosított szöveg. 33 A 3. melléklet 9. pontja a 37/2023. (VII. 31.) BVOP utasítás 2. pontjával megállapított szöveg. 34 A 4. melléklet a 35/2021. (VI. 10.) BVOP utasítás 8–10. pontja szerint módosított szöveg. * Megfelelő aláhúzandó. 35 A 4. melléklet 10. pontja a 37/2023. (VII. 31.) BVOP utasítás 3. pontjával megállapított szöveg. 36 A 7. melléklet a 15/2022. (VI. 30.) BVOP utasítás 10. pont g) alpontja szerint módosított szöveg. 37 A 12. melléklet a 15/2022. (VI. 30.) BVOP utasítás 12. pontjával megállapított szöveg. 38 A 13. melléklet az 5/2026. (II. 5.) BVOP utasítás 6. pontjával megállapított szöveg."
+    }
+  ]
+}

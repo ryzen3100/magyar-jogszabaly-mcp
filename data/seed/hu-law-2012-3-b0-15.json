@@ -1,0 +1,59 @@
+{
+  "id": "hu-law-2012-3-b0-15",
+  "type": "statute",
+  "title": "3/2012. (I. 13.) HM utasítás a honvédelmi tárca általános elektronikus információbiztonsági követelményeinek meghatározásáról és a védelmi rendszabályok pontosításáról",
+  "status": "repealed",
+  "in_force_date": "2012-01-14",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2012-3-B0-15",
+  "description": "a honvédelmi tárca általános elektronikus információbiztonsági követelményeinek meghatározásáról és a védelmi rendszabályok pontosításáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § Az utasítás hatálya a Honvédelmi Minisztériumra (a továbbiakban: HM), a honvédelmi miniszter közvetlen alárendeltségébe és közvetlen irányítása alá tartozó szervezetekre, továbbá a Magyar Honvédség (a továbbiakban: MH) katonai szervezeteire (a továbbiakban együtt: honvédelmi szervezetek) terjed ki."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § Az utasítás alkalmazásában: a) adatgazda: a meghatározott elektronikus adatkezelő rendszerbe kerülő adatok előállításáért felelős szervezet vezetője, aki az adatok kezelésének szabályozásáért, valamint a szabályok érvényre juttatásáért felel, meghatározza a bizalmasság, sértetlenség és rendelkezésre állás követelményeit. b) alkalmazó szervezet: honvédelmi vagy egyéb szolgáltató szervezet által nyújtott elektronikus adatkezelő szolgáltatást igénybe vevő szervezet. c) általános elektronikus információbiztonsági követelmények: a honvédelmi tárca információbiztonsági politikája szerinti, a honvédelmi tárcánál központilag meghatározott, elektronikus adatok kezelésére meghatározott biztonsági követelmények. d) elektronikus információbiztonsági szabályzat: a vonatkozó biztonsági követelmények alapján a szükséges védelmi rendszabályokat meghatározó rendszer-specifikus szabályozó. e) hálózatgazda: meghatározott elkülönített hírközlő, elektronikus adatkezelő szolgáltatási tevékenység végzésre jogosult, vagy több szervezet által alkalmazott szolgáltatások felügyeletével felhatalmazott vezető. f) rendszer-specifikus biztonsági követelmények: az általános elektronikus információbiztonsági követelmények alapján egy elektronikus adatkezelő szolgáltatásra, szolgáltatás elemre vagy azok egy csoportjára meghatározható biztonsági követelmények. g) szolgáltatásgazda: meghatározott elektronikus adatkezelő szolgáltatás tervezéséért, fejlesztéséért felelős, szolgáltatásainak teljes körű felügyeletével felhatalmazott vezető. h) üzemeltető szervezet: más honvédelmi szervezet, és saját szervezeti elemek részére elektronikus adatkezelő szolgáltatást biztosító szervezet, amely felelős a követelmények alapján a szolgáltatás biztosításáért, az erőforrások felhasználásáért valamint a műszaki és logisztikai biztosítás igényléséért."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) Az utasítás 1. mellékletében meghatározott általános biztonsági követelményeket a honvédelmi szervezeteknél alkalmazott valamennyi, továbbá az egyéb (nem honvédelmi) szervezet által alkalmazott, de honvédelmi szervezet által üzemeltetett, vagy szolgáltatott, elektronikus adatkezelő rendszerek és eszközök esetében kötelezően érvényesíteni kell. (2) A rendszer-specifikus biztonsági követelmények meghatározása: a) az MH Kormányzati Célú Elkülönített Hírközlő Hálózat (a továbbiakban: MH KCEHH) esetében az MH KCEHH hálózatgazdájának feladata; b) az egyéb – egy szervezet által alkalmazott – elektronikus adatkezelő rendszer esetében az adatkezelésért felelős honvédelmi szervezet vezetőjének kötelezettsége; c) az egyéb – több szervezet által alkalmazott – elektronikus adatkezelő rendszer esetében a szolgáltatásgazda szervezet, érvényesítése az alkalmazó honvédelmi szervezet vezetőjének kötelezettsége."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) Az MH KCEHH rendszer-specifikus biztonsági követelményeit az MH KCEHH hálózatgazdája 2012. március 15-ig meghatározza. (2) A Katonai Nemzetbiztonsági Szolgálat elektronikus adatkezelő szolgáltatásaira vonatkozó rendszer-specifikus biztonsági követelményeket a szolgáltatásgazdák 2012. március 15-ig meghatározzák. (3) Az egyéb elektronikus adatkezelő rendszerekre vonatkozó rendszer-specifikus biztonsági követelmények kiadási határidejét: a) az MH Összhaderőnemi Parancsnokság (a továbbiakban: MH ÖHP) szolgálati alárendeltségében található katonai szervezetek részére az MH ÖHP parancsnoka; b) az MH Támogató Dandár (a továbbiakban: MH TD) esetében az MH TD parancsnoka; c) az a) és b) pontban fel nem sorolt szervezetek esetében a HM közigazgatási államtitkára és a HVKF közösen határozza meg."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § (1) A biztonsági követelményeket meghatározott védelmi rendszabályokon és kialakított eljárásokon keresztül kell érvényesíteni, amelyeket Elektronikus Információbiztonsági Szabályzat (a továbbiakban: EIBSZ) formájában kell megfogalmazni, jóváhagyatni és alkalmazni. (2) Az üzemeltető szervezetek vezetői jelen utasítás hatályba lépésétől számított 90 napon belül az általános biztonsági követelmények alapján pontosítják, szükség szerint kiegészítik a Magyar Honvédség Informatikai Szabályzata 199. pontja szerinti Számítástechnikai Védelmi Szabályzatban megfogalmazott rendszabályokat. (3) Az EIBSZ-t a honvédelmi szervezet vezetője hagyja jóvá. (4) Az MH KCEHH-re vonatkozó EIBSZ-t az üzemeltető szervezetek a hálózatgazdához terjesztik fel jóváhagyásra. (5) A (2) bekezdés alapján módosított rendszabályokról az érintett üzemeltetői állomány jóváhagyást követő 30 napon belül oktatás keretein belül tájékoztatást kap. A tájékoztatás hiányában a rendszerekhez történő hozzáférés nem engedélyezett. (6) Az alkalmazó szervezet üzemeltető szervezete EIBSZ-ének jóváhagyását követő 90 napon belül – a (2) bekezdésben foglaltak alapján – kiadja a felhasználókra vonatkozó biztonsági szabályokat. (7) A (6) bekezdés alapján módosított rendszabályokról az érintett alkalmazói állomány a jóváhagyást követően 60 napon belül oktatás keretein belül tájékoztatást kap. A tájékoztatás hiányában a rendszerekhez történő hozzáférés nem engedélyezett."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § Új elektronikus adatkezelő rendszer kialakítása vagy üzemelő rendszer üzemeltetési és biztonsági szabályozásának pontosítása csak jelen utasítás szerint meghatározott rendszer-specifikus biztonsági követelményeknek megfelelően történhet."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § (1) Az utasítás 1. mellékletét képező általános elektronikus biztonsági követelményeket a honvédelmi szervezetek elosztó szerint kapják meg. (2) Az általános elektronikus biztonsági követelmények naprakészen tartása az információvédelmi szakirányítást támogató HM szerv feladata."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § Ez az utasítás a közzétételét követő napon lép hatályba. 1 Az utasítást az 53/2022. (XII. 28.) HM utasítás 8. §-a hatályon kívül helyezte 2022. december 29. napjával."
+    }
+  ]
+}

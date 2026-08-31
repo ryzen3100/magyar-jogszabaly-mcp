@@ -1,0 +1,1649 @@
+{
+  "id": "hu-law-2020-4-b0-3m",
+  "type": "statute",
+  "title": "4/2020. (III. 6.) BVOP utasítás a büntetés-végrehajtási szervezet elektronikus távfelügyeleti rendszer működtetésével kapcsolatos feladatainak végrehajtásáról",
+  "status": "repealed",
+  "in_force_date": "2020-03-07",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2020-4-B0-3M",
+  "description": "a büntetés-végrehajtási szervezet elektronikus távfelügyeleti rendszer működtetésével kapcsolatos feladatainak végrehajtásáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A jogalkotásról szóló 2010. évi CXXX. törvény 23. § (4) bekezdés c) pontja alapján – figyelemmel a büntetések, az intézkedések, egyes kényszerintézkedések és a szabálysértési elzárás végrehajtásáról szóló 2013. évi CCXL. törvény, a szabadságvesztés, az elzárás, az előzetes letartóztatás és a rendbírság helyébe lépő elzárás végrehajtásának részletes szabályairól szóló 16/2014. (XII. 19.) IM rendelet, a Pártfogó Felügyelői Szolgálat tevékenységéről szóló 8/2013. (VI. 29.) KIM rendelet, az elektronikus távfelügyeleti eszköz működését biztosító rendszer létesítésének és üzemeltetésének, az elektronikus távfelügyeleti eszköz alkalmazásának, továbbá a büntetés-végrehajtási szervezet, valamint a rendőri szerv ezzel kapcsolatos feladatának részletes szabályairól szóló 10/2015. (III. 30.) BM rendelet előírásaira – a büntetés-végrehajtási szervezet elektronikus távfelügyeleti rendszer működtetésével összefüggő feladatok végrehajtására az egységes szabályozás érdekében a következő utasítást adom ki:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "I. FEJEZET"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "ÁLTALÁNOS RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "1. Az utasítás hatálya a Büntetés-végrehajtás Országos Parancsnokságára (a továbbiakban: BVOP) és a büntetés-végrehajtási intézetekre (a továbbiakban: bv. intézetek) terjed ki."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "2. Az elektronikus távfelügyeleti rendszerben működtetett technikai eszköz (a továbbiakban: távfelügyeleti eszköz) a büntetések, az intézkedések, egyes kényszerintézkedések és a szabálysértési elzárás végrehajtásáról szóló 2013. évi CCXL. törvényben (a továbbiakban: Bv. tv.) meghatározottak alapján biztonsági intézkedés, valamint reintegrációs őrizet céljából az intézkedés alá vont elítélt bv. intézeten kívüli földrajzi helyzetének (a továbbiakban: tartózkodási hely) meghatározására, valamint a részére előírt magatartási szabályok megtartásának ellenőrzésére alkalmazható."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "3. Amennyiben a bv. intézetbe reintegrációs őrizet végrehajtása miatt érkezik elítélt, az igazgatási és reintegrációs iratait soron kívül ellenőrizni kell, továbbá intézkedni kell reintegrációs tiszti és büntetés-végrehajtási pártfogó felügyelői (a továbbiakban: bv. pártfogó felügyelő) meghallgatására."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "4. Az érintett elítéltet a reintegrációs őrizetbe történő szabadon bocsátást megelőzően legkevesebb egy munkanappal – dokumentáltan – oktatásban kell részesíteni a büntetés-végrehajtási bíró (a továbbiakban: bv. bíró) végzésében foglalt, továbbá az általánosan követendő viselkedési és az előírt magatartási szabályokról, a távfelügyeleti eszköz működtetéséről, működéséről, amit számára meg kell mutatni. A tájékoztatásnak ki kell terjednie az eszköz lehetséges jelzéseinek értelmezésére és az ezek alapján elvárt tevékenységekre. Az oktatást a bv. intézet parancsnoka által kijelölt személyek kötelesek végrehajtani."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "5. A szabadon bocsátás során az elítélt okmány-, érték- és tárgyletétjét részére át kell adni. Tájékoztatni kell arról, hogy az esetlegesen érvényességi idejét vesztő személyi okmányok pótlása csak a bv. bíró – kijelölt terület e célból történő elhagyására vonatkozó – előzetes engedélyével lehetséges."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "II. FEJEZET"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "A NYILVÁNTARTÁSI SZAKTERÜLET FELADATAI"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "6. A reintegrációs őrizetre vonatkozó bv. intézeti előterjesztések, továbbá az elítélt által beadott kérelmek ügyintézése során a kérelmekre és büntetés-végrehajtási ügyekre (a továbbiakban: bv. ügy) vonatkozó általános szabályokat az e címben foglalt eltérésekkel kell alkalmazni."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "7. A reintegrációs őrizet jogintézményéről, alkalmazhatóságának feltételeiről az elítéltet a befogadása napján dokumentált módon tájékoztatni kell. A reintegrációs őrizetbe helyezés lehetséges legkorábbi időpontját a foganatba vételi értesítőlapon fel kell tüntetni, és egy példányát az elítéltnek át kell adni. Az időpontról az elítélt reintegrációs tisztjét írásban tájékoztatni kell."
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "8. A reintegrációs őrizetre vonatkozó kérelem előterjesztésére csak írásban kerülhet sor. Amennyiben az elítélt nem tud írni, úgy kérelmét két tanú jelenlétében, jegyzőkönyvben kell rögzíteni. A védő által előterjesztett kérelem ügyintézése csak akkor kezdhető meg, ha azzal az elítélt írásos nyilatkozata alapján egyetért."
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "9. Ha az elítélt nyilvántartási adatai alapján a Bv. tv. 187/A. § (1) bekezdésében foglalt feltételek nem teljesülnek, vagy a Bv. tv. 187/C. §-ában meghatározott kizáró okok valamelyike fennáll, erről az elítéltet – és amennyiben a kérelmet a védő terjesztette elő, őt is – tájékoztatni kell. A tájékoztatásnak ki kell terjednie a Bv. tv. 61/A. § (2) bekezdésének kérelem benyújtására vonatkozó részére is."
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "10. Ha a kérelem ügyintézése során megállapítást nyer, hogy az elítélt korábban már élt a reintegrációs őrizet kérelmezésének lehetőségével, a bv. intézet az előterjesztést mellőzi, erről az elítéltet írásban tájékoztatja."
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "10/A. Ha az elítélt jogosult a reintegrációs őrizetre, de kérelmet – beleértve a védőjét is – nem terjesztett elő, a bv. intézet köteles megvizsgálni a jogintézmény alkalmazásának lehetőségét, majd annak eredményétől függően hivatalból előterjesztést tenni a büntetés-végrehajtási bíró részére. Amennyiben bármely okból az előterjesztés hivatalból nem indítható meg, annak indokairól a bv. intézet nyilvántartási szakterülete köteles feljegyzést készíteni és azt a nyilvántartási rendszerben rögzíteni."
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "11. A bv. intézet által történő kezdeményezés esetén, vagy ha a kérelem nem tartalmazza egyértelműen, hogy az elítélt a reintegrációs őrizet feltételeit vállalja, az erre vonatkozó nyilatkozatát (1. melléklet) írásban fel kell venni, és a bv. ügy irataihoz kell csatolni. Ha az elítélt úgy nyilatkozik, hogy nem vállalja a feltételeket, vagy a nyilatkozattételt megtagadja, de a reintegrációs őrizetbe helyezésre vonatkozó kérelmét ezek mellett is fenntartja, a bv. intézet nem mellőzheti annak előterjesztését."
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "12. Az elítélt kérésére – különös tekintettel a bv. intézet kezdeményezése alapján történő előterjesztésekre – a bv. intézet a reintegrációs őrizet feltételeit, a vállalt magatartási szabályokat összefoglaló írásos anyagot bocsát rendelkezésére."
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "13. Ha az elítélt vagy védője által előterjesztett kérelem tartalmazza a reintegrációs őrizet helyéül szolgáló ingatlanra vonatkozó, a szabadságvesztés, az elzárás, az előzetes letartóztatás és a rendbírság helyébe lépő elzárás végrehajtásának szabályiról szóló 16/2014. (XII. 19.) IM rendelet (a továbbiakban: Rendelet) 136/A. §-ában meghatározott adatokat, úgy az ingatlan felmérésére vonatkozó megkeresés az elítélt Befogadási és Fogvatartási Bizottság (a továbbiakban: BFB) általi meghallgatását megelőzően is megküldhető."
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "14. A nyilvántartási szakterület az előterjesztéshez csatolja az ítéletkiadmányt és a jogerős bírói értesítőlap másolatát. Ha nem áll rendelkezésre ítéletkiadmány, azt rövid úton beszerzi az illetékes bíróságtól."
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "14/A. Amennyiben arról érkezik értesítés, hogy az ügyészség fellebbezést nyújtott be a reintegrációs őrizetet elrendelő végzés ellen – tekintettel annak halasztó hatályára –, az elítélt a jogerős másodfokú bírói döntésig nem helyezhető reintegrációs őrizetbe."
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "15. Reintegrációs őrizet elrendelése esetén az elítélt szabadon bocsátására az a bv. bíró által kijelölt ingatlan elhelyezkedése szerinti megyében (fővárosban) található bv. intézet az illetékes, amelyben a vonatkozó jogszabályok szerint az elítélt ideiglenes elhelyezése, továbbá befogadása vagy szabadítása lehetséges. Amelyik megyében több bv. intézet működik, a bv. pártfogó felügyelők illetékességi területe határozza meg, hogy az elítéltet melyik bv. intézetbe kell szállítani a reintegrációs őrizetbe történő szabadítása céljából. A fiatalkorú és a női elítélt szabadon bocsátását a részére kijelölt ingatlanhoz legközelebb eső, az elhelyezésére kijelölt bv. intézetben kell végrehajtani."
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "16. Ha a reintegrációs őrizet elrendelésekor nem a 15. pont szerint illetékes bv. intézetben kerül sor az elhelyezésre, az elítéltet a tervezett szabadon bocsátást megelőzően legalább három munkanappal – elsődlegesen a heti körszállítással – végleg át kell szállítani a szabadon bocsátásra illetékes bv. intézetbe. A Komárom-Esztergom megye területén elhelyezkedő ingatlanok esetén a Fővárosi Büntetés-végrehajtási Intézet az illetékes. A Budapest területén elhelyezkedő ingatlanok esetén az illetékesség tekintetében a fővárosban működő bv. intézetek között megkötött együttműködési megállapodásban foglaltak az irányadóak, amelynek tartalmaznia kell a kerületek intézetek közötti megosztását. Ha az ingatlan Pest megye területén helyezkedik el, a női elítéltek reintegrációs őrizetbe helyezését a Fővárosi Büntetés-végrehajtási Intézet hajtja végre."
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "17. Amennyiben a reintegrációs őrizet tartama alatt a bv. bíró másik ingatlant jelöl ki annak végrehajtási helyéül, a távfelügyelet ellátásával kapcsolatos feladatokat szükség szerint át kell adni a kijelölt ingatlan helye szerint illetékes bv. intézetnek, a 15–16. pontban foglaltak figyelembevételével."
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "18. Abban az esetben, ha a reintegrációs őrizetbe helyezett elítélt részére a bíróság engedélyezi, hogy bv. intézetben tartózkodó engedélyezett kapcsolattartóját meglátogathassa, a reintegrációs őrizet felügyeletét ellátó bv. intézet soron kívül felveszi a kapcsolatot a látogatást biztosító bv. intézettel a szükséges tájékoztatás és intézkedések megtétele céljából. A látogatófogadás szakszerű végrehajtása érdekében, a reintegrációs őrizetbe helyezésről szóló bv. bírói engedélyező határozatot a látogatást biztosító bv. intézetnek meg kell küldeni."
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "19. A Rendelet 136/C. § (3) bekezdésében meghatározott, a bv. intézeten kívüli jogszerű tartózkodásról szóló igazolásnak tartalmaznia kell"
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "a) az elítélt személyes adatait,"
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "b) a szabadon bocsátó és az elektronikus távfelügyeletet ellátó bv. intézet megnevezését, elérhetőségét,"
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "c) a reintegrációs őrizet kezdő és lejárati napját,"
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "d) a bv. bíró által kijelölt ingatlan címét,"
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "e) a tartózkodásra és mozgásra vonatkozó főbb szabályokat (pl. munkahely neve és munkaidő, jelentkezési kötelezettség, a meghatározott ingatlanban való kötelező tartózkodás)."
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "20. Az elítéltet szabadon bocsátását megelőzően a 2. melléklet szerinti általános tájékoztatóban foglaltakról és a bv. bíró határozatában foglalt egyéb magatartási szabályokról tájékoztatni kell. A nyilatkozat elítélt által aláírt egy példányát a bv. ügy iratai közé kell helyezni, másik példányát az elítélt részére át kell adni. Amennyiben a reintegrációs őrizet leteltét követően bármely jogcímen további szabadságelvonás vár végrehajtásra, úgy ennek tényéről, a befizetés lehetőségéről, továbbá a jelentkezési kötelezettségről és elmulasztásának lehetséges büntetőjogi következményeiről az elítéltet különös körültekintéssel kell kioktatni."
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "21. Amennyiben a tartózkodásra kijelölt ingatlan más megyében van, a bv. bírót a reintegrációs őrizetre vonatkozó döntéshozatal előtt tájékoztatni kell arról, hogy engedélyezés esetén az elítélt átszállítása, továbbá a távfelügyeleti eszköz programozása, tesztelése legkevesebb három munkanapot vesz igénybe a következő körszállítástól számítva."
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "22. Amennyiben a 21. pontban foglalt tájékoztatás után a bv. bíró az abban foglaltaknál korábbi kezdőnapot határoz meg, a jogszabályokban előírtakat soron kívül végre kell hajtani, indokolt esetben a célintézet előzetes tájékoztatása és a vonatkozó egyéb intézkedések együttes megtétele mellett célszállítás foganatosításával."
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "23. Abban az esetben, ha a bv. bíró vagy a törvényszék másodfokú tanácsa nem jelöli meg a reintegrációs őrizet kezdő vagy befejező időpontját, annak pontosítása céljából soron kívül meg kell keresni. Az egyeztetésről írásos feljegyzést kell készíteni."
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "24. A reintegrációs őrizetbe helyezett elítélt részére szabadon bocsátásakor dokumentáltan át kell adni a bv. bírói végzést – ha az eredeti példány nem áll még rendelkezésre a másolati példányt –, a magatartási szabályokról szóló írásos tájékoztatót és a bv. intézeten kívüli jogszerű tartózkodásról szóló igazolást. A kapcsolattartás céljából megadott telefonszámot ismételten egyeztetni kell."
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "25. Ha az elítélt a reintegrációs őrizetbe helyezésről szóló határozatban foglalt magatartási szabályok módosítását kezdeményezi, azt írásban kell előterjesztenie a szabadon bocsátó bv. intézetnek. Amennyiben a magatartási szabályok megváltoztatását a bv. intézetnek telefon útján jelenti be, fel kell hívni a figyelmét az írásos előterjesztés megtételére, amelyről feljegyzést kell készíteni, és dokumentáltan rögzíteni kell a nyilvántartási rendszerben. A beérkező kérelmet a nyilvántartási szakterület soron kívül továbbítja a bv. bíró részére."
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "26. Amennyiben a feltételes szabadságra bocsátott reintegrációs őrizetbe helyezett elítélt annak kezdőnapját megelőző napon megjelenik a bv. intézetben, számára – a távfelügyeleti eszköz leadása után – át kell adni a következő napra vonatkozó szabadulási igazolást, majd el kell bocsátani az intézetből."
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "III. FEJEZET"
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "A BV. PÁRTFOGÓ FELÜGYELŐ FELADATAI"
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "27. Az ingatlan alkalmasságára és a távfelügyeleti eszköz alkalmazhatóságára irányuló felmérés foganatosítása és a környezettanulmány elkészítése érdekében, a bv. pártfogó felügyelő a Pártfogó Felügyelői Szolgálat tevékenységéről szóló 8/2013. (VI. 29.) KIM rendelet (a továbbiakban: Pfr.) 62/C. § (2) bekezdésében meghatározott személlyel (a továbbiakban: kontaktszemély) köteles felvenni a kapcsolatot. Amennyiben az előzetesen egyeztetett időpontban a kontaktszemély nem jelenik meg, azonban utólag távollétét igazolja, a bv. pártfogó felügyelő újabb időpontot köteles megjelölni a felmérés végrehajtása céljából. Ha az ingatlan megtekintése és a felmérés elvégzése a kontaktszemély távolléte miatt ismételten akadályba ütközik, a bv. pártfogó felügyelő a továbbiakban a vizsgálatot nem köteles lefolytatni."
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "28. A bv. pártfogó felügyelő a felmérés eredményéről a 3. melléklet szerint jegyzőkönyvet készít."
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "29. A felmérés alapján nem alkalmas az ingatlan, vagy a távfelügyeleti eszköz alkalmazhatósága kizárt, ha"
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "a) az ingatlanban nem áll rendelkezésre elektromos hálózat és emiatt a távfelügyeleti eszköz feltöltése nem biztosítható,"
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "b) nem áll rendelkezésre a távfelügyeleti eszköz adatforgalmazásához szükséges hálózati lefedettség és jelerősség az ingatlan valamennyi helyiségében,"
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "c) az elítélt által megjelölt kontaktszemély vagy az ingatlanban életvitelszerűen tartózkodók bármelyike kriminológiai szempontból veszélyezteti a reintegrációs őrizetbe helyezendő elítélt eredményes reintegrációját."
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "30. Az ingatlan elhelyezkedése szerint illetékes bv. intézet a felmérésről készült jegyzőkönyvet soron kívül köteles megküldeni a fogva tartó bv. intézet parancsnokának."
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "31. Az ingatlan alkalmasságáról készült jegyzőkönyv tartalmát, annak írásba foglalását követő három munkanapon belül az elítélttel ismertetni kell. Ha az ingatlan alkalmatlan a reintegrációs őrizet végrehajtására, az elítélt a Rendelet 136/A. § (7) bekezdése szerint jogosult eljárni. Ha az elítélt által megjelölt második ingatlanban végzett felmérés eredménye ismételten alkalmatlan minősítésű, a bv. intézet a Rendelet 136/A. § (8) bekezdése szerint köteles eljárni."
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "32. Az elítélt által megjelölt ingatlan elhelyezkedése szerint illetékes bv. intézet parancsnoka által kijelölt bv. pártfogó felügyelő, a Bv. tv. 187/B. § (1) bekezdése szerinti megkeresés alapján a környezettanulmányt a Pfr. 62/C. § (3)–(6) bekezdésére figyelemmel a 4. melléklet szerint készíti el, amennyiben a felmérés alapján az elítélt által megjelölt ingatlan alkalmas, és a távfelügyeleti eszköz alkalmazhatósága nem kizárt."
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "33. A környezettanulmányt a Bv. tv. 187/B. § (3) bekezdésében foglalt határidőre kell elkészíteni, figyelemmel a Bv. tv. 20. § (4) bekezdésében foglaltakra. A környezettanulmány elkészítésekor a bv. pártfogó felügyelő a Bv. tv. 76. § (2) bekezdés s) pontjában foglalt adatok kezelésére jogosult és köteles."
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "34. A fogva tartó bv. intézet az ingatlan alkalmasságának, a távfelügyeleti eszköz alkalmazhatóságának felmérésére, valamint a környezettanulmány elkészítésére vonatkozó írásos megkereséséhez köteles csatolni az elítélt bv. pártfogó felügyelő általi meghallgatásáról készült jegyzőkönyvet, amelyet az elítélt által megjelölt ingatlan elhelyezkedése szerint illetékes bv. intézet parancsnoka által kijelölt bv. pártfogó felügyelő köteles figyelembe venni. Az ingatlan elhelyezkedése szerint illetékes bv. intézet az elkészült környezettanulmányt soron kívül köteles megküldeni a fogva tartó bv. intézet parancsnokának, amelyhez – amennyiben még nem állt rendelkezésre – csatolni kell a felmérés vagy a környezettanulmány elkészítése során, a tulajdonos vagy bérlő által bv. pártfogó felügyelőnek átadott befogadó nyilatkozatot."
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "35. A helyszíni felmérést és a környezettanulmányt minden esetben a bv. szervezetre utaló jelzések nélküli gépjárművel – és amennyiben a bv. intézet hivatásos állományú tagja is jelen van – polgári öltözetben kell végrehajtani."
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "36. Az elítélt kérelmére induló eljárásban a Bv. tv. 187/B. § (5) bekezdésében foglaltak az irányadóak azzal, hogy ha a bv. bíró indokoltnak tartja az elítélt által megjelölt ingatlan felmérését és környezettanulmány elkészítését, a bv. pártfogó felügyelő a 27–35. pontokban foglaltak szerint köteles eljárni."
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "37. A bv. intézet kijelölt bv. pártfogó felügyelője a reintegrációs őrizetbe helyezés engedélyezéséről szóló bv. bírói határozat kézhezvételét követően, a reintegrációs őrizetbe kihelyezést megelőzően tájékoztatja az elítéltet"
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "a) a Pfr. 62/C. § (9) bekezdésében foglaltakról,"
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "b) személyéről és elérhetőségéről,"
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "c) a kapcsolatfelvétel módjáról,"
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "d) az általa nyújtott, az elítélt eredményes reintegrációját elősegítő támogatás formáiról."
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "38. A tájékoztatásról jegyzőkönyvet kell felvenni az 5. melléklet szerint, amelynek egy példányát a reintegrációs őrizetbe helyezett elítélt részére kell átadni. A jegyzőkönyvet az elítéltnek is alá kell írnia. Abban az esetben, ha a reintegrációs őrizet végrehajtására kijelölt ingatlan nem a reintegrációs őrizetbe helyezett elítélt tulajdona, a bv. pártfogó felügyelő a jegyzőkönyv egy példányát köteles megküldeni a kontaktszemélynek."
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "39. Az ellenőrzés gyakoriságára vonatkozóan a Pfr. 62/C. § (8) bekezdésében foglaltak az irányadóak azzal, hogy ha a Bv. tv. 187/D. § (2) bekezdése szerint illetékes bv. pártfogó felügyelő azt tapasztalja, hogy az elítélt a reintegrációs őrizet egyes szabályait megszegi, azonban az még nem teszi indokolttá a reintegrációs őrizet megszüntetésének kezdeményezését, vagy az elítélt élethelyzetében olyan változás áll be, amely miatt fokozott reintegrációs célú támogatásra szorul, úgy az ellenőrzések gyakoriságát fokoznia kell."
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "40. A Bv. tv. 187/D. § (2) bekezdésében meghatározott szempontok végrehajtásán túlmenően, az ellenőrzések során a bv. pártfogó felügyelőnek a kontroll és a támogató funkciót a szükséges mértékű arányok megtartása mellett kell érvényesítenie. Az ellenőrzések befejezésekor annak tapasztalatairól az elítéltet tájékoztatni kell. A tájékoztatásban a bv. pártfogó felügyelőnek ki kell térnie a reintegrációs folyamat értékelésére is."
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "41. Az elítéltet megilletik azok a támogatási formák, amelyeket a bv. pártfogó felügyelő a reintegrációs gondozás során a Pfr. 62/E. § (4) bekezdés a), b) és c) pontjaiban foglaltak szerint az elítélt részére biztosít. Indokolt esetben a bv. pártfogó felügyelő az elítélt társadalomba történő sikeres visszailleszkedésének elősegítése érdekében a vele együttműködő helyi önkormányzatok, munkáltatók, karitatív és öntevékeny szervezetek tevékenységét koordinálja. A munkavállalás és a képzés elősegítése érdekében együttműködik továbbá a fővárosi (megyei) kormányhivatalok munkaügyi szerveivel és a szabadult elítéltek munkaerőpiaci integrációjában közreműködő munkáltatókkal, valamint az oktatási, képző intézményekkel."
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "42. Az ellenőrzés tapasztalatairól a bv. pártfogó felügyelő öt munkanapon belül készíti el a jelentést. Abban az esetben, ha az ellenőrzés során megállapításra kerül, hogy az elítélt a reintegrációs őrizet végrehajtása alól szándékosan kivonja magát, vagy a távfelügyeleti eszközt szándékosan megrongálta vagy eltávolította, vagy a bv. bíró által előírt magatartási szabályokat súlyosan megszegte, a bv. pártfogó felügyelő a jelentését soron kívül köteles elkészíteni és a bv. intézet parancsnoka útján haladéktalanul továbbítani a bv. bírónak. Ezzel egyidejűleg, a bv. intézet parancsnoka a Bv. tv. 61/C. § (1a) bekezdésében foglaltak szerint köteles eljárni, figyelemmel a Rendelet 136/D. § (2a) bekezdésére. A bv. intézeti előterjesztésben fel kell hívni a bv. ügyész figyelmét a Bv. tv. 61/C. § (1c) bekezdése alapján a szabadságvesztés ideiglenes foganatba vétele érdekében az elítélt rendőrség útján történő elővezetése elrendelésére. A bv. bíró által előírt magatartási szabályok megszegésén túlmenően, súlyos magatartási szabályszegésnek minősül különösen, ha az elítélt"
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "a) magatartása a reintegrációs célokkal nem összeegyeztethető,"
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "b) a bv. bíró által előírt magatartási szabályokat megtartja, de életvitele, magatartása megbotránkozást vált ki a lakókörnyezetében,"
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "c) magatartása veszélyezteti a vele közös háztartásban életvitelszerűen tartózkodókat, vagy fennáll a családon belüli erőszak kockázata,"
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "d) rendszeresen leittasodik vagy kábító hatású szereket fogyaszt,"
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "e) ismétlődő jelleggel, sorozatosan zónasértést követ el,"
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "f) az a)–e) pontokban foglaltak elkövetése miatt vele szemben rendőri intézkedés válik szükségessé."
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "43. Az elektronikus távfelügyeleti eszköz működését biztosító rendszer létesítésének és üzemeltetésének, az elektronikus távfelügyeleti eszköz alkalmazásának, továbbá a büntetés-végrehajtási szervezet, valamint a rendőri szerv ezzel kapcsolatos feladatának részletes szabályairól szóló 10/2015. (III. 30.) BM rendelet 6. § (7) bekezdésében foglalt, nem szabotázs jellegű jelzések kivizsgálása elsődlegesen a bv. intézet technikai központjának (a továbbiakban: intézeti ügyelet) a feladata. Ennek keretében köteles telefon útján az elítélttel felvenni a kapcsolatot és tájékoztatást kérni a jelzés okáról. Ha többszöri próbálkozás ellenére nem sikerül telefon útján az elítélttel való kapcsolatfelvétel, értesíti a bv. pártfogó felügyelőt, aki hivatali munkaidejében személyesen ellenőrzi az elítéltet. Az ellenőrzés eredményéről annak végrehajtását követően a bv. pártfogó felügyelő soron kívül köteles értesíteni az intézeti ügyeletet. Ha az ellenőrzés során megállapítást nyer, hogy az elítélt a magatartási szabályokat súlyosan megszegte, vagy a távfelügyeleti eszközt szándékosan megrongálta, vagy eltávolította és kivonta magát a végrehajtás alól, a bv. pártfogó felügyelő és a bv. intézet parancsnoka a 42. pontban foglaltak szerint köteles a bv. bíró, valamint a bv. ügyész felé intézkedni."
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "44. Hivatali munkaidőn kívül, ha nem sikerül telefon útján az elítélttel való kapcsolatfelvétel, és a távfelügyeleti eszköz nem rendeltetésszerű működésére és a meghatározott magatartási szabályok megszegésére vonatkozó jelzések értékelése alapján további intézkedések foganatosítása indokolt, vagy ha a szabotázs jellegű cselekmény elkövetése egyértelműen megállapítható, az intézeti ügyelet haladéktalanul értesíti az ingatlan területi elhelyezkedése szerint illetékes megyei (fővárosi) rendőr-főkapitányság tevékenység-irányítási központját. A megtett intézkedésekről az intézeti ügyelet a következő munkanapon hivatali munkakezdéskor köteles tájékoztatni a bv. pártfogó felügyelőt."
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "45. A Rendelet 136/E. § (1) bekezdésében meghatározott esetekben a bv. pártfogó felügyelő az összefoglaló jelentésben a Pfr. 62/C. § (10) bekezdésében foglaltakon túlmenően bemutatja és értékeli különösen"
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "a) az elítélt együttműködési készségét,"
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "b) motivációját,"
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "c) a bűnismétlési kockázat mértékét,"
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "d) a reintegrációs folyamat eredményét."
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "46. Ha az elítélt feltételes szabadságra bocsátásának engedélyezését a bv. pártfogó felügyelő az ellenőrzése tapasztalatai alapján javasolja, ugyanakkor úgy ítéli meg, hogy az elítélt életvitelének további figyelemmel kísérése, így irányítása és ellenőrzése szükséges, összefoglaló jelentésében javaslatot tesz a pártfogó felügyelet elrendelésére. A pártfogó felügyelet eredményes végrehajtása érdekében, az elítélt társadalmi reintegrációja elősegítésére a bv. pártfogó felügyelő külön magatartási szabályok előírását kezdeményezheti. A tervezett magatartási szabályokról az elítéltet tájékoztatni kell, egyben nyilatkoztatni arról, hogy azok megtartását vállalja-e és képes-e teljesíteni. A nyilatkozatot az összefoglaló jelentéshez csatolni kell."
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "47. Ha a bv. bíró engedélyezte az elítélt feltételes szabadságra bocsátását, és elrendelte az elítélt pártfogó felügyeletét, a bv. pártfogó felügyelő megkezdi a pártfogó felügyelet végrehajtásának előkészítését."
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "48. Fiatalkorú elítélt esetében a bv. pártfogó felügyelő a Rendelet 158. §-a alapján köteles eljárni. A környezettanulmány elkészítésekor a fiatalkorúval együtt élő szülőt vagy gyámot, ennek hiányában a gondozót is meg kell hallgatni."
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "49. A tizennyolcadik életévét be nem töltött fiatalkorú ügyében hivatalból, kérelemre vagy a védő által indított eljárás kézhezvételét követően a bv. pártfogó felügyelő köteles felvenni a kapcsolatot az elítélt lakóhelye vagy tartózkodási helye szerint illetékes gyermekjóléti szolgálattal, valamint a járási gyámhivatallal, amelynek során tájékozódik az elítélt esetleges korábbi gondozásának, védelembe, valamint nevelésbe vételének tapasztalatairól."
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "50. A Bv. tv. 187/E. § (1) bekezdés b) pontjában foglalt esetben a bv. pártfogó felügyelő soron kívül kezdeményezi a reintegrációs őrizet megszüntetését. Erre irányuló összefoglaló jelentését a bv. intézet parancsnokának továbbítja. Az összefoglaló jelentésben a bv. pártfogó felügyelő köteles részletesen bemutatni az általa végzett ellenőrzések során feltárt tapasztalatokat, és az azokat alátámasztó dokumentumokat csatolni. A bv. intézet parancsnoka köteles a Bv. tv. 61/C. § (1a) bekezdése szerint intézkedni, figyelemmel a Rendelet 136/D. § (2a) bekezdésére. Ha az illetékes ügyész a szabadságvesztés ideiglenes foganatba vételét nem rendeli el, a bv. pártfogó felügyelő a bv. bírói végzést annak kézhezvételét követően soron kívül kézbesíti az elítélt részére. Az elítélt köteles a bv. bírói határozatban megjelölt napon és időpontban a bv. intézetben megjelenni."
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "51. Ha a bv. ügyész a Bv. tv. 61/C. § (1) bekezdésében foglalt okok miatt a szabadságvesztés ideiglenes foganatba vételét elrendeli, az elítélt elővezetését követően – amennyiben arra hivatali munkaidőben kerül sor – a BFB köteles soron kívül ülést tartani az elítélt rezsim- és biztonsági kockázati besorolásának megállapítása céljából. Hivatali időn kívüli befogadás esetében a besorolást a következő munkanapon kell végrehajtani."
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "52. Amennyiben a bv. bíró vagy a másodfokú bíróság a Rendelet 136/D. § (4) bekezdésében foglaltak szerint határoz, az elítélt reintegrációs őrizetbe történő kihelyezést megelőzően a 4–5., a 19–20., a 31., valamint a 37–38. pontban foglalt feladatokat ismételten végre kell hajtani."
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "53. Ha az ideiglenes foganatba vételre a Bv. tv. 187/E. § (1) bekezdés b) pontja miatt került sor, és a Bv. tv. 61/C. § (1c) bekezdésében foglalt időtartamig a bv. bíró nem hoz döntést, az elítéltet – feltéve, hogy a magatartási szabályok megszegése vagy a távfelügyeleti eszköz szándékos megrongálása miatt nem indult ellene új büntetőeljárás és a rendelkezési jogkör gyakorlója letartóztatását nem rendelte el – szabadon kell bocsátani szabadulásának napján."
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "54."
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "55. Ha a reintegrációs őrizet azért fejeződik be, mert a tartama letelt, a bv. pártfogó felügyelő az utolsó ellenőrzésekor felhívja az elítélt figyelmét a Rendelet 136/F. § (3) bekezdésében foglalt kötelezettsége teljesítésére. Amennyiben az elítélt a szabadulása napján a bv. intézetnél történő jelentkezési kötelezettségének nem tesz eleget, a bv. pártfogó felügyelő a Rendelet 136/F. § (5) bekezdésében foglaltak szerint hivatali munkaidőben köteles intézkedni. Amennyiben az elítélttel való személyes kapcsolatfelvétel eredményre vezet, a távfelügyeleti eszköz átvételéről a bv. pártfogó felügyelő veszi fel a jegyzőkönyvet, amelyben rögzíti annak meglétét, állapotát, és az esetleges károkozás tényét. A távfelügyeleti eszköz ingatlanban történő átvételére minden esetben legkevesebb plusz egy fő, a távfelügyeleti eszköz eltávolítására kiképzett személyi állományú tag jelenlétében kerülhet sor az eszköz szakszerű eltávolítására. A távfelügyeleti eszközt és a jegyzőkönyvet a bv. pártfogó felügyelő köteles az átvétel napján a bv. intézethez eljuttatni."
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "56. A Bv. tv. 187/G. §-ban foglalt esetben a szabadságvesztés foganatba vételére irányuló bv. intézeti felhívást a bv. pártfogó felügyelő legkésőbb a reintegrációs őrizet utolsó napját megelőző munkanapon kézbesíti az elítélt részére. A felhívásnak tartalmaznia kell a Büntető Törvénykönyvről szóló 2012. évi C. törvény 283. § (3a) bekezdésében foglaltakat, valamint a jelentkezési kötelezettség elmulasztásának az elítéltre vonatkozó jogkövetkezményeit."
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "57. Ha a Rendelet 136/F. § (1) bekezdés e) pontjában foglalt ok miatt szűnik meg a reintegrációs őrizet, a bv. bírói határozatban foglalt megszűnési határnapon hivatali munkaidőben a bv. pártfogó felügyelő köteles kézbesíteni a megszüntető határozatot az elítélt részére. A kézbesítést megelőzően – a bv. intézet és a helyi illetékes rendőrkapitányság között kialakított együttműködés alapján – intézkedni kell az illetékes rendőrkapitányság közreműködésére, az elítélt befogadása érdekében történő visszaszállítása iránt."
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "IV. FEJEZET"
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "AZ INFORMATIKAI SZAKTERÜLET FELADATAI"
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "58. A Büntetés-végrehajtás Gazdasági Ellátó Intézete Informatikai, Hír- és Biztonságtechnikai Igazgató-helyettese (a továbbiakban: BV GEI informatikai igazgató-helyettes) a Nemzeti Távközlési Gerinchálózaton biztosítja a BVOP és az Országos Rendőr-főkapitányság (a továbbiakban: ORFK) között a biztonságos informatikai összeköttetést, amelyen elérhető az elektronikus távfelügyeleti rendszer központi szoftvere."
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "59. A hozzáférések kezelésére (új felvitel, módosítás, törlés) vonatkozó kéréseket a BV GEI informatikai igazgató-helyettes a beérkezést követő 5 munkanapon belül továbbítja a távfelügyeleti rendszert üzemeltető szerv részére."
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "60. A távfelügyeleti eszköz bv. intézetek közötti elosztását a BV GEI informatikai igazgató-helyettes koordinálja, törekedve a rendelkezésre álló távfelügyeleti eszközök mennyiségétől függően a felhasználással arányos bv. intézetek közötti elosztásra, továbbá a javítási tartalék biztosítására."
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "61. A távfelügyeleti eszköz meghibásodását a bv. intézet köteles jelenteni a BV GEI informatikai igazgató-helyettes, valamint a BVOP Főügyeletese (a továbbiakban: Főügyeletes) részére. A meghibásodott eszközök javíttatását a BV GEI informatikai igazgató-helyettes koordinálja."
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "62. A reintegrációs őrizet elrendelését követően a bv. bíró határozatában meghatározott kezdőnap előtt a bv. intézet személyi állományának kijelölt, az ehhez szükséges elméleti és gyakorlati ismeretekkel rendelkező tagja előkészíti a távfelügyeleti eszközt a használatba vételre, beállítja az elektronikus távfelügyeleti rendszerben a bv. bíró által meghatározott magatartási szabályokat, valamint – a magatartási szabályokat előíró bv. bírói határozat változása esetén – elvégzi a szükséges módosításokat."
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "63. A távfelügyeleti eszközt minden esetben feltöltött állapotban kell felhelyezni, azt – és a későbbi eltávolítást – kizárólag az elítélttel azonos nemű személyi állományú tag végezheti el. Ennek érdekében szükséges a feladatok végrehajtásába bevonható női és férfi állományi tagok részére a megszerzett ismeretek – dokumentált – átadására intézkedni. A feladatellátás folyamatossága érdekében a biztonsági tisztek (biztonsági főfelügyelők) oktatását végre kell hajtani. A távfelügyeleti eszköz tényleges alkalmazását és az eszköz levételét – azok megkezdése előtti munkanapon – jelenteni kell a Főügyeletesnek."
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "64. A bv. bíró reintegrációs őrizet végrehajtására vonatkozó határozatát soron kívül, legkésőbb a beérkezést követő munkanapon át kell adni a távfelügyeleti rendszert kezelő személynek. Amennyiben az elrendelt módosítások a rendszer alaptulajdonságai miatt abban nem rögzíthetők vagy rögzítésük ellehetetlenítené a távfelügyelet végrehajtását, erről a nyilvántartási szakterületen keresztül haladéktalanul tájékoztatni kell a bv. bírót, kérve a határozat megváltoztatását."
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "65. A bv. intézet személyi állományának kijelölt, oktatásban részesült tagja rögzíti a távfelügyeleti eszközt az elítéltre."
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "66. Ha az elítélt önállóan vagy hozzátartozói révén jut el a számára meghatározott helyszínre, fel kell szólítani, hogy érkezéskor telefonon jelentkezzen az intézeti ügyeletnél."
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "67. A reintegrációs őrizet megszűnése esetén, amennyiben az elítélt jelentkezik a bv. intézetben, a távfelügyeleti eszközt a kijelölt személy eltávolítja az elítéltről, és elvégzi a távfelügyeleti rendszerben az ezzel kapcsolatos feladatokat. Amennyiben az elítélt nem jelentkezik a bv. intézetben, a megszüntetéssel kapcsolatos feladatokat a bv. pártfogó felügyelővel együttműködve kell végrehajtani."
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "68. A reintegrációs őrizetben lévő elítélt szabadításakor a leszerelt távfelügyeleti eszközöket tisztítást és fertőtlenítést követően újból alkalmassá kell tenni az ismételt alkalmazásra."
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "69. A bv. intézet részére rendelkezésre bocsátott, de még használatba nem vett távfelügyeleti eszközök karbantartását rendszeresen el kell végezni. A haladéktalan beüzemelés biztosítása érdekében minden bv. intézet saját hatáskörben szabályozza azt a készenléti kontingenst, amit feltöltött állapotban tart. Az ezen felüli eszközök tárolását, töltését a 6. melléklet szerinti gyártói ajánlásoknak megfelelően kell végrehajtani. A hosszabb távú reintegrációs őrizet időtartama alatt a bv. pártfogó felügyelő mellett időszakosan az eszköz technikai ellenőrzésére alkalmas személyi állományú tag is köteles részt venni a helyszíni vizsgálaton."
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "V. FEJEZET"
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "A BIZTONSÁGI SZAKTERÜLET FELADATAI"
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "70. Az elítélttel szemben a távfelügyeleti eszköz biztonsági intézkedésként történő alkalmazása során a szabadságvesztés, az elzárás, az előzetes letartóztatás és a rendbírság helyébe lépő elzárás végrehajtásának részletes szabályairól szóló 16/2014. (XII. 19.) IM rendelet 56. §-ában, valamint a tesztelésre, működtetésre vonatkozóan a IV. fejezetben meghatározott szabályokat kell alkalmazni."
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "71. A távfelügyeleti eszköz biztonsági intézkedésként akkor alkalmazható, ha annak feltételei adottak, és a magatartási szabályokat megsértő elítélttel szemben az elrendelő bv. intézet hatékony intézkedéseket tud foganatosítani. Ennek érdekében a bv. intézet parancsnokának, valamint a BFB-nek a távfelügyeleti eszköz alkalmazására vonatkozó döntése előtt a 29. pontban foglaltak eredményét köteles figyelembe venni, továbbá fel kell venni a kapcsolatot az elítélt várható tartózkodási helye szerint illetékes bv. intézettel és általános rendőrségi feladatok ellátására létrehozott szervvel (a továbbiakban: rendőri szerv)."
+    },
+    {
+      "provision_ref": "s107",
+      "section": "107",
+      "title": "107",
+      "content": "72. A bv. intézet az elítélt tervezett tartózkodási helye szerint illetékes rendőri szervet a távfelügyeleti eszköz felhelyezését megelőző 5 napon belül tájékoztatni köteles."
+    },
+    {
+      "provision_ref": "s108",
+      "section": "108",
+      "title": "108",
+      "content": "73. A távfelügyeleti eszköz alkalmazásának előkészítése és végrehajtása során az érintett bv. intézetek kötelesek egymással, valamint a Főügyeletessel együttműködni. Annak során a meghatározott adminisztratív és jelentési kötelezettségeket mind a biztonsági intézkedés, mind a reintegrációs őrizet esetén be kell tartani, továbbá a távfelügyeleti eszköz alkalmazásával összefüggő szolgálati feladatokat, intézkedéseket (felhelyezés, eltávolítás, szabotázs, kijelölt terület elhagyása stb.) az elektronikus szolgálati naplóban „A szolgálat alatt történt események” rovatában rögzíteni kell."
+    },
+    {
+      "provision_ref": "s109",
+      "section": "109",
+      "title": "109",
+      "content": "74. Az intézeti ügyeletre beérkező, a magatartási szabályok megsértésére utaló jelzések kiváltó okainak kivizsgálása a bv. intézet parancsnokának intézkedésében meghatározott szabályok szerint a bv. intézet biztonsági tisztje, valamint a bv. pártfogó felügyelő kötelessége. Ennek érdekében a beérkező jelzéseket a technikai rendszert kezelő személyi állományi tag folyamatosan értékeli, amennyiben rendellenességet tapasztal, azt haladéktalanul jelenti a szolgálati elöljárójának."
+    },
+    {
+      "provision_ref": "s110",
+      "section": "110",
+      "title": "110",
+      "content": "75. A bv. intézet által értékelt, a magatartási szabályok megszegésének gyanúját felvető jelzések kivizsgálásának eredményéről, a bevezetett intézkedésekről, valamint az eszközök esetleges működési zavaráról a Főügyeletesnek jelentést kell tenni."
+    },
+    {
+      "provision_ref": "s111",
+      "section": "111",
+      "title": "111",
+      "content": "76. A Főügyeletes az országos felügyeleti központ – adott bv. intézet által nem nyugtázott – jelzéseinek okát haladéktalanul megvizsgálja, utasítja az érintett biztonsági tisztet a körülmények kivizsgálására, amelynek eredményéről részére a bv. intézet soron kívül jelentést tesz."
+    },
+    {
+      "provision_ref": "s112",
+      "section": "112",
+      "title": "112",
+      "content": "77. A biztonsági intézkedés alóli kibúvás gyanúja esetén, valamint amennyiben bebizonyosodik, hogy az elítélt a reintegrációs őrizet hatálya alól kivonta magát – az illetékes rendőri szerv együttműködését kérve – haladéktalanul intézkedni kell az elítélt tartózkodási helyének beazonosítására, az elítélt elfogására, bv. intézetbe történő visszaszállítására."
+    },
+    {
+      "provision_ref": "s113",
+      "section": "113",
+      "title": "113",
+      "content": "VI. FEJEZET"
+    },
+    {
+      "provision_ref": "s114",
+      "section": "114",
+      "title": "114",
+      "content": "AZ EGÉSZSÉGÜGYI SZAKTERÜLET FELADATAI"
+    },
+    {
+      "provision_ref": "s115",
+      "section": "115",
+      "title": "115",
+      "content": "78. Amennyiben az elítélt olyan krónikus megbetegedésben szenved, amelyek gondozása, gyógykezelése során – várhatóan a reintegrációs őrizet tartama alatt is – gyakran vagy rendszeresen szükséges orvostechnikai eszközökkel történő vizsgálatok, kezelések elvégzése, állásfoglalást kell kérni a bv. intézet alapellátó orvosa útján az elítéltet gondozó szakorvostól arról, hogy a távfelügyeleti eszköz alkalmazása mellett a szükséges vizsgálatok, kezelések elvégezhetők-e."
+    },
+    {
+      "provision_ref": "s116",
+      "section": "116",
+      "title": "116",
+      "content": "79. Az egészségügyi szakterület – az elítélt bv. intézetből reintegrációs őrizetbe történő kihelyezését megelőzően – a fogvatartottak egészségügyi ellátása tárgyában kiadott egyéb szervezetszabályozó eszközökben meghatározottak szerint köteles eljárni."
+    },
+    {
+      "provision_ref": "s117",
+      "section": "117",
+      "title": "117",
+      "content": "80. A reintegrációs őrizet hatálya alatt álló elítélt az egészségügyi alapellátásra nem a bv. intézetben, hanem a kijelölt ingatlan helye szerint illetékes település háziorvosi szolgálatánál jogosult. Amennyiben háziorvos igénybevételére kerül sor, az elítélt kötelezettsége, hogy erről a tényről a bv. intézetet előzetesen – ha ezt egészségi állapota lehetővé teszi – írásban értesítse. Ez esetben a bv. intézet soron kívül köteles intézkedni a bv. bírói engedély beszerzése iránt. Ha a háziorvosi vizsgálatot követően járó- vagy fekvőbeteg-szakellátás válik szükségessé, erről a körülményről is köteles az elítélt értesíteni a bv. intézetet, amely köteles megtenni a szükséges intézkedéseket."
+    },
+    {
+      "provision_ref": "s118",
+      "section": "118",
+      "title": "118",
+      "content": "81. Sürgősségi betegellátás esetén a reintegrációs őrizet hatálya alatt álló elítélt soron kívül köteles telefonon értesíteni a szabadon bocsátó bv. intézetet. Amennyiben az elítélt magatehetetlen, úgy a vele életvitelszerűen együtt élő hozzátartozó kötelezettsége a bv. intézet értesítése, amelyhez való hozzájárulását az általa tett befogadó nyilatkozaton fel kell tüntetni. Az elektronikus távfelügyeleti rendszer kontrollja alatt álló személy életveszélye esetén – a megfelelő egészségügyi ellátás érdekében – tanúsított cselekvések nem minősülnek a magatartási szabályok megszegésének."
+    },
+    {
+      "provision_ref": "s119",
+      "section": "119",
+      "title": "119",
+      "content": "82. A 80. és 81. pontban meghatározott esetekben is előfordulhat, hogy a fogvatartott számára olyan egészségügyi eszközös vizsgálatot rendelnek el, amelynek kivitelezéséhez a távfelügyeleti eszköz ideiglenes eltávolítása vagy kikapcsolása szükséges. Az elítélt – amennyiben cselekvőképes – köteles erről a tényről a bv. intézetet előzetesen értesíteni. Ez esetben a bv. intézet soron kívül köteles megtenni a szükséges biztonsági és egyéb intézkedéseket."
+    },
+    {
+      "provision_ref": "s120",
+      "section": "120",
+      "title": "120",
+      "content": "VII. FEJEZET"
+    },
+    {
+      "provision_ref": "s121",
+      "section": "121",
+      "title": "121",
+      "content": "A REINTEGRÁCIÓS ŐRIZETBE HELYEZETT ELÍTÉLT ELHALÁLOZÁSA ESETÉN TEENDŐ INTÉZKEDÉSEK"
+    },
+    {
+      "provision_ref": "s122",
+      "section": "122",
+      "title": "122",
+      "content": "83. A reintegrációs őrizetben lévő személy váratlan halálesetének bv. intézet számára történő ismertté válása esetén, a biztonsági tiszt az elhalálozásról azonnal köteles jelentést tenni a Főügyeletesnek."
+    },
+    {
+      "provision_ref": "s123",
+      "section": "123",
+      "title": "123",
+      "content": "84. A bv. intézet vezetője által kijelölt személy(ek) köteles(ek) a helyszínen megjelenni, és a következő intézkedéseket végrehajtani"
+    },
+    {
+      "provision_ref": "s124",
+      "section": "124",
+      "title": "124",
+      "content": "a) amennyiben a lakóhely szerint illetékes rendőri és egészségügyi szervek a hivatalos halottvizsgálati eljárást befejezték, lehetőleg még a kijelölt tartózkodási helyen intézkedni kell az eszköz elhunyt elítélt végtagjáról történő eltávolítására,"
+    },
+    {
+      "provision_ref": "s125",
+      "section": "125",
+      "title": "125",
+      "content": "b) az eltávolítást a megfelelő védő- és fertőtlenítő eszközök használatával és alkalmazásával a halottszállító vagy a rendőrorvos közreműködésével kell végrehajtani,"
+    },
+    {
+      "provision_ref": "s126",
+      "section": "126",
+      "title": "126",
+      "content": "c) az eltávolított eszköz – műanyagzsákban történő – bv. intézetbe szállítását egészségügyi szempontból körültekintően és biztonságosan kell végrehajtani. A bv. intézetbe szállított eszköz fertőtlenítése, továbbá tárolásra történő előkészítése a bv. intézet parancsnoka által kijelölt személy feladata,"
+    },
+    {
+      "provision_ref": "s127",
+      "section": "127",
+      "title": "127",
+      "content": "d) az eszköz eltávolításának végrehajtásáról jegyzőkönyvet kell felvenni."
+    },
+    {
+      "provision_ref": "s128",
+      "section": "128",
+      "title": "128",
+      "content": "85. Az eszköz eltávolításának, bv. intézetbe szállításának és további tárolásának részletszabályait a bv. intézet vezetője intézetparancsnoki intézkedésben köteles rögzíteni."
+    },
+    {
+      "provision_ref": "s129",
+      "section": "129",
+      "title": "129",
+      "content": "86. A helyszíni szemléről készült rendőrségi jegyzőkönyvet minden esetben be kell kérni az intézkedést végrehajtó rendőri szervtől, valamint az eszköz eltávolításának tényéről tájékoztatni kell az illetékes bv. ügyészt. Az elhalálozással kapcsolatos feladatok végrehajtása tekintetében egyebekben a Rendelet 147. §-ában foglaltak az irányadók."
+    },
+    {
+      "provision_ref": "s130",
+      "section": "130",
+      "title": "130",
+      "content": "VIII. FEJEZET"
+    },
+    {
+      "provision_ref": "s131",
+      "section": "131",
+      "title": "131",
+      "content": "ZÁRÓ RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s132",
+      "section": "132",
+      "title": "132",
+      "content": "87. Az elektronikus távfelügyeleti rendszer működtetéséhez szükséges helyi feltételeket a bv. intézet parancsnoka biztosítja."
+    },
+    {
+      "provision_ref": "s133",
+      "section": "133",
+      "title": "133",
+      "content": "88. A bv. intézetek az utasítás hatálybalépését követő 30 napon belül a helyi intézkedésüket kötelesek felülvizsgálni."
+    },
+    {
+      "provision_ref": "s134",
+      "section": "134",
+      "title": "134",
+      "content": "89. A fővárosban működő bv. intézetek a 16. pontban foglalt együttműködési megállapodást az utasítás hatálybalépését követő 30 napon belül kötelesek felülvizsgálni."
+    },
+    {
+      "provision_ref": "s135",
+      "section": "135",
+      "title": "135",
+      "content": "90. Az utasítás rendelkezéseit a folyamatban lévő, reintegrációs őrizetbe helyezésre irányuló bv. intézeti kezdeményezések és az elítélt vagy védője által benyújtott kérelmek ügyintézése során is alkalmazni kell."
+    },
+    {
+      "provision_ref": "s136",
+      "section": "136",
+      "title": "136",
+      "content": "91. Ez az utasítás a közzétételét követő napon lép hatályba."
+    },
+    {
+      "provision_ref": "s137",
+      "section": "137",
+      "title": "137",
+      "content": "92."
+    },
+    {
+      "provision_ref": "s138",
+      "section": "138",
+      "title": "138",
+      "content": "A reintegrációs őrizet büntetés-végrehajtási intézet általi kezdeményezése/elítélt vagy védője általi kérelmezése* alapján, a vonatkozó szabályok ismeretéről és azok elfogadásáról"
+    },
+    {
+      "provision_ref": "s139",
+      "section": "139",
+      "title": "139",
+      "content": "1. Alulírott ……………………………… (név), …………… nyilvántartási számú elítélt úgy nyilatkozom, hogy:"
+    },
+    {
+      "provision_ref": "s140",
+      "section": "140",
+      "title": "140",
+      "content": "a) A büntetés-végrehajtási intézet (a továbbiakban: bv. intézet) arról tájékoztatott, hogy esetemben kezdeményezi a reintegrációs őrizetbe helyezést. A bv. intézet kezdeményezése alapján a reintegrációs őrizetbe helyezést vállalom/nem vállalom.*"
+    },
+    {
+      "provision_ref": "s141",
+      "section": "141",
+      "title": "141",
+      "content": "b) Saját kérelmem alapján kérem a reintegrációs őrizetbe helyezésemet, amelynek szabályait vállalom.*"
+    },
+    {
+      "provision_ref": "s142",
+      "section": "142",
+      "title": "142",
+      "content": "c) A meghatalmazott védőm, jogi képviselőm által benyújtott kérelemmel egyetértve kérem a reintegrációs őrizetbe helyezésemet, amelynek szabályait vállalom.*"
+    },
+    {
+      "provision_ref": "s143",
+      "section": "143",
+      "title": "143",
+      "content": "2. Kijelentem továbbá, hogy a reintegrációs őrizet jogszabályokban és büntetés-végrehajtási normákban rögzített fő szabályait megismertem, illetve a bv. intézet azokról engem szóban vagy kérelmemre írásos összefoglaló útján tájékoztatott."
+    },
+    {
+      "provision_ref": "s144",
+      "section": "144",
+      "title": "144",
+      "content": "3. Elfogadom, hogy a reintegrációs őrizetbe helyezéshez szükséges lakóingatlan határidőben történő megjelölésének, továbbá a szükséges fogadónyilatkozat beszerzésének kötelessége engem terhel. A lakóingatlan határidőben történő megjelölésének elmulasztása és a fogadónyilatkozat hiánya a reintegrációs őrizetbe helyezés törvényi akadályát képezi."
+    },
+    {
+      "provision_ref": "s145",
+      "section": "145",
+      "title": "145",
+      "content": "4. Fenti b), illetve c) eset megjelölése esetén nyilatkozom továbbá arról, hogy tisztában vagyok azzal, hogy a vonatkozó jogszabály szerint minden elítélt csak egy alkalommal kezdeményezheti reintegrációs őrizetbe helyezését fogva tartása során, függetlenül annak eredményétől. Kelt: ……………………, 202… ……………… …… ………………………………… elítélt saját kezű aláírása ––––––––––––––––––––––– * A megfelelő részek értelemszerűen aláhúzandók, illetve a választott betűjel bekarikázandó."
+    },
+    {
+      "provision_ref": "s146",
+      "section": "146",
+      "title": "146",
+      "content": "A reintegrációs őrizet hatálya alatt tanúsítandó egyes magatartási és eljárási szabályokról"
+    },
+    {
+      "provision_ref": "s147",
+      "section": "147",
+      "title": "147",
+      "content": "FIGYELMEZTETÉS!"
+    },
+    {
+      "provision_ref": "s148",
+      "section": "148",
+      "title": "148",
+      "content": "1. Az alábbi tájékoztató a reintegrációs őrizetbe helyezés kapcsán a legfontosabb szabályokat tartalmazza. Ezek folyamatos teljesítése elengedhetetlenül szükséges a reintegrációs őrizet végrehajtása során. Amennyiben ezen általános szabályokat önhibájából megszegi, a büntetés-végrehajtási intézet (a továbbiakban: bv. intézet) kezdeményezheti a reintegrációs őrizet megszüntetését! Olvassa el figyelmesen az alábbi tájékoztatót, majd az utolsó oldalon töltse ki és írja alá a nyilatkozatot. A nyilatkozat aláírása szükséges előfeltétele a bv. intézetből való szabadon bocsátásának!"
+    },
+    {
+      "provision_ref": "s149",
+      "section": "149",
+      "title": "149",
+      "content": "2. Az elektronikus távfelügyeleti eszközre vonatkozó szabályok"
+    },
+    {
+      "provision_ref": "s150",
+      "section": "150",
+      "title": "150",
+      "content": "a) A végtagjára felszerelt jeladó eszközért, illetve a hozzá tartozó hálózati töltőért és egyéb kiegészítőkért, azok tételes, írásbeli átvételét követően, egészen azok leadásáig, kártérítési felelősséggel tartozik."
+    },
+    {
+      "provision_ref": "s151",
+      "section": "151",
+      "title": "151",
+      "content": "b) A jeladó rendeltetésszerű működése során információkat továbbít a hatóságoknak a tartózkodási helyzetéről. Ennek szándékos akadályozása vagy gátolása a reintegrációs őrizet szabályainak súlyos megszegése!"
+    },
+    {
+      "provision_ref": "s152",
+      "section": "152",
+      "title": "152",
+      "content": "c) A jeladó eszköz akkumulátorral működik, amelyet minden nap kötelező feltölteni. A töltéshez csak a jeladóhoz biztosított hálózati töltő használható, a töltés ideje naponta legalább 3–4 óra kell, hogy legyen. Az akkumulátor szándékos lemerítése a reintegrációs őrizet szabályainak súlyos megszegése!"
+    },
+    {
+      "provision_ref": "s153",
+      "section": "153",
+      "title": "153",
+      "content": "d) A jeladó és az azt rögzítő szíj és csat egy megbonthatatlan egységet képez. A szíj hosszának állítására a felhelyezés után nincsen mód. A szíjat és a csatot bármilyen módon feszegetni, elvágni, felnyitni szigorúan tilos! Amennyiben ezt megkísérli, a büntetés-végrehajtás azonnal intézkedést tesz a reintegrációs őrizet megszüntetésére."
+    },
+    {
+      "provision_ref": "s154",
+      "section": "154",
+      "title": "154",
+      "content": "e) Tilos a jeladót a mindennapi élet szokásos igénybevételétől jelentősen eltérő körülményeknek kitenni! Amennyiben valamilyen engedélyezett tevékenység során a jeladót fokozott terhelés (extrém hideg vagy meleg környezet, nagy víznyomás stb.) érné, azokról előzetesen köteles tájékoztatni a 3. pontban leírt módon a távfelügyeletet, és a továbbiakban az ő utasításaik szerint eljárni!"
+    },
+    {
+      "provision_ref": "s155",
+      "section": "155",
+      "title": "155",
+      "content": "f) Tilos a jeladón bármiféle karbantartási, javítási tevékenységet megkísérelni! Bármely működési rendellenesség gyanúja esetén haladéktalanul köteles tájékoztatni a 3. pontban leírt módon a távfelügyeletet, és a továbbiakban az ő utasításaik szerint eljárni!"
+    },
+    {
+      "provision_ref": "s156",
+      "section": "156",
+      "title": "156",
+      "content": "3. A kapcsolattartásra, tájékoztatásra vonatkozó szabályok"
+    },
+    {
+      "provision_ref": "s157",
+      "section": "157",
+      "title": "157",
+      "content": "a) A reintegrációs őrizet során a távfelügyeletet ellátja: ………………………………………… (bv. intézet megnevezése) ………………………………………… (távfelügyelet telefonos elérhetősége)"
+    },
+    {
+      "provision_ref": "s158",
+      "section": "158",
+      "title": "158",
+      "content": "b) A reintegrációs őrizet végrehajtása során a bv. bíró, illetve a bv. intézet erre vonatkozó utasításai szerint, továbbá, ha bármely egyéb okból az szükséges, a 3. pont a) alpontban megjelölt telefonszámot kell hívnia. Foglalt jelzés esetén legfeljebb 5 percenkénti ismételt hívással addig kell próbálkoznia, amíg kapcsolatba tud lépni a távfelügyelettel."
+    },
+    {
+      "provision_ref": "s159",
+      "section": "159",
+      "title": "159",
+      "content": "c) A bv. intézetből történő szabadon bocsátása előtt kötelező megadnia egy Magyarországi szolgáltató állományába tartozó mobiltelefonszámot, amelyen a távfelügyelet, a bv. pártfogó felügyelő, továbbá a büntetés-végrehajtás távfelügyeleti központja felveheti a kapcsolatot."
+    },
+    {
+      "provision_ref": "s160",
+      "section": "160",
+      "title": "160",
+      "content": "d) A 3. pont c) alpontban megadott telefonon a reintegrációs őrizet tartama alatt fenn kell tartania a szolgáltatást, továbbá folyamatosan elérhető állapotban kell tartania, azt kikapcsolni, más személynek átadni szigorúan tilos! Amennyiben a készüléken nem fogadott hívás jelzés van a 3. pont c) alpontban felsoroltak ismert telefonszámairól, azokat köteles haladéktalanul visszahívni."
+    },
+    {
+      "provision_ref": "s161",
+      "section": "161",
+      "title": "161",
+      "content": "e) Bármely esetben, amikor valamely magatartási, tartózkodási vagy mozgási szabályt, objektív körülmények miatt előreláthatóan nem tud megtartani, erről haladéktalanul telefonon tájékoztatnia kell a távfelügyeletet."
+    },
+    {
+      "provision_ref": "s162",
+      "section": "162",
+      "title": "162",
+      "content": "f) Amennyiben a bv. bíró, kérelme alapján eseti vagy rendszeres jelleggel más mozgási, tartózkodási szabályokat engedélyez, ennek tényéről és tartalmáról tájékoztatni köteles a távfelügyeletet vagy a bv. pártfogó felügyelőt."
+    },
+    {
+      "provision_ref": "s163",
+      "section": "163",
+      "title": "163",
+      "content": "g) A jeladó eszköz egy rezgőmotort tartalmaz. Amennyiben erre háromszori rezgő jelzés érkezik, haladéktalanul köteles telefonon kapcsolatba lépni a távfelügyelettel!"
+    },
+    {
+      "provision_ref": "s164",
+      "section": "164",
+      "title": "164",
+      "content": "h) Ha a kapcsolattartás e fejezetben szabályozott egyik módja sem lehetséges, hivatali munkaidőben jelentkezzen a szabadon bocsátó bv. intézetben!"
+    },
+    {
+      "provision_ref": "s165",
+      "section": "165",
+      "title": "165",
+      "content": "4. Egyéb szabályok"
+    },
+    {
+      "provision_ref": "s166",
+      "section": "166",
+      "title": "166",
+      "content": "a) A reintegrációs őrizet tartama alatt a szabadon bocsátáskor kapott igazolást mindig köteles magánál tartani. Bármely rendőrhatósági eljárás, intézkedés, de különösen az igazoltatás alkalmával, külön kérés nélkül köteles ezt az iratot az intézkedő rendőrnek átadni."
+    },
+    {
+      "provision_ref": "s167",
+      "section": "167",
+      "title": "167",
+      "content": "b) A távfelügyeleti program megszüntetésének napján köteles telefonon bejelentkezni a távfelügyeletre, és tájékoztatást kérni a további teendőkről. A kapott utasítások szerint ezt követően köteles a szabadon bocsátó bv. intézetben megjelenni, a jeladó, a hálózati töltő és minden egyéb tartozék leadása céljából."
+    },
+    {
+      "provision_ref": "s168",
+      "section": "168",
+      "title": "168",
+      "content": "c) Köteles együttműködni a bv. pártfogó felügyelővel annak ellenőrzései során, illetve adatkérései esetén."
+    },
+    {
+      "provision_ref": "s169",
+      "section": "169",
+      "title": "169",
+      "content": "d) A szabadon bocsátó bv. intézet a jelen szabályozás mellett, további magatartási szabályokat határozhat meg a kapcsolattartás formáit és rendszerességét illetően."
+    },
+    {
+      "provision_ref": "s170",
+      "section": "170",
+      "title": "170",
+      "content": "e) A bv. bíró által meghatározott magatartási szabályok – a jelen tájékoztató mellett – kötelezően betartandók! Amennyiben a két szabályozás összeütközésben áll, a bv. bíró által meghatározottak szerint köteles eljárni!"
+    },
+    {
+      "provision_ref": "s171",
+      "section": "171",
+      "title": "171",
+      "content": "f) A reintegrációs őrizet időtartama alatt jogosult a kijelölt ingatlan helye szerint illetékes településen háziorvost választani. Amennyiben szükséges a háziorvosi, járóbeteg- szakellátási, kórházi vagy sürgősségi betegellátás igénybevétele, soron kívül köteles telefonon értesíteni a szabadon bocsátó bv. intézetet."
+    },
+    {
+      "provision_ref": "s172",
+      "section": "172",
+      "title": "172",
+      "content": "g) Ha a reintegrációs őrizet tartama alatt a számára kijelölt lakást és az ahhoz tartozó bekerített helyet vagy a számára meghatározott napirend szerinti tartózkodási helyet a reintegrációs őrizet szabályainak megszegésével abból a célból hagyja el, hogy a szabadságvesztés végrehajtása alól kivonja magát, a Büntető Törvénykönyvről szóló 2012. évi C. törvény (Btk.) 283. § (3a) bekezdése alapján egy évig terjedő szabadságvesztéssel büntetendő! Ugyanezt a jogkövetkezményt vonja maga után, ha a reintegrációs őrizetet követően végrehajtandó szabadságvesztés végrehajtása céljából önként nem jelentkezik a bv. intézetben. II. NYILATKOZAT"
+    },
+    {
+      "provision_ref": "s173",
+      "section": "173",
+      "title": "173",
+      "content": "1. Alulírott ……………………………… (név), …………… nyilvántartási számú elítélt úgy nyilatkozom, hogy a fentebb – az 1–3. pont g) alpontban – megfogalmazott magatartási szabályokat megismertem, azokat magamra nézve kötelezőnek elfogadom, a reintegrációs őrizet időtartama alatt betartom. A bv. bíró által megszabott egyéb magatartási szabályokról, illetve a megszegés lehetséges következményeiről kioktattak. A tájékoztató egy példányát részemre átadták. Kelt:……………………, 202… ……………… …………………………………………… elítélt saját kezű aláírása"
+    },
+    {
+      "provision_ref": "s174",
+      "section": "174",
+      "title": "174",
+      "content": "Ügyszám: ……………. J E G Y Z Ő K Ö N Y V Készült ……… év ………… hó ……. napján, a ………………………………………… szám alatti ingatlan felmérése tárgyában, reintegrációs őrizetbe helyezés büntetés-végrehajtási bírói elbírálása céljából, ………………………… elítélt ügyében."
+    },
+    {
+      "provision_ref": "s175",
+      "section": "175",
+      "title": "175",
+      "content": "1. Jelen vannak: ………………………………………………… büntetés-végrehajtási pártfogó felügyelő; ………………………………………………… (bv. intézet megnevezése, címe, elérhetősége) ………………………………………………, kontaktszemély (sz:, anyja neve: ……………………………………………... lakcíme: ……………………………………, egyéb elérhetősége: …………………………………………………………… személyazonosításra alkalmas igazolványa megnevezése, száma: ……………………………………………………………."
+    },
+    {
+      "provision_ref": "s176",
+      "section": "176",
+      "title": "176",
+      "content": "2. Más jelen levő megnevezése: Név: ………………………………………, személyazonosító adatai: ……………………………………………………….. rokonsági fok: ………………………………… Név: ………………………………………, személyazonosító adatai: ……………………………………………………….. rokonsági fok: ………………………………… Név: ………………………………………, személyazonosító adatai: ……………………………………………………….. rokonsági fok: …………………………………"
+    },
+    {
+      "provision_ref": "s177",
+      "section": "177",
+      "title": "177",
+      "content": "3. A büntetés-végrehajtási pártfogó felügyelő ismerteti a jegyzőkönyvi meghallgatás okát:"
+    },
+    {
+      "provision_ref": "s178",
+      "section": "178",
+      "title": "178",
+      "content": "a) A büntetések, az intézkedések, egyes kényszerintézkedések és a szabálysértési elzárás végrehajtásáról szóló 2013. évi CCXL. törvény 61/A. § (2) bekezdése, valamint a 187/B. § (1)–(2) bekezdései alapján indított eljárás."
+    },
+    {
+      "provision_ref": "s179",
+      "section": "179",
+      "title": "179",
+      "content": "b) A jegyzőkönyv a Pártfogó Felügyelői Szolgálat tevékenységéről szóló 8/2013. (VI. 29.) KIM rendelet 62/C. § (1)–(2) bekezdései alapján készült."
+    },
+    {
+      "provision_ref": "s180",
+      "section": "180",
+      "title": "180",
+      "content": "4. A vizsgálat lefolytatását gátló körülmények, azok részletes bemutatása: ……………………………………………………………………………………………………………………………… ……………………………………………………………………………………………………………………………… ……………………………………………………………………………………………………………………………… ………………………………………………………………………………………………………………………………"
+    },
+    {
+      "provision_ref": "s181",
+      "section": "181",
+      "title": "181",
+      "content": "5. Vizsgált szempontok: (A megfelelő rész aláhúzandó!)"
+    },
+    {
+      "provision_ref": "s182",
+      "section": "182",
+      "title": "182",
+      "content": "a) Az ingatlanban rendelkezésre áll/nem áll rendelkezésre elektromos hálózat. A távfelügyeleti eszköz feltöltése biztosítható/nem biztosítható. Rendelkezésre áll/nem áll rendelkezésre a távfelügyeleti eszköz adatforgalmazásához szükséges hálózati lefedettség és jelerősség az ingatlan valamennyi helyiségében. Az ingatlan lakhatásra alkalmas/alkalmatlan."
+    },
+    {
+      "provision_ref": "s183",
+      "section": "183",
+      "title": "183",
+      "content": "b) Ha nem alkalmas, a feltárt körülmények bemutatása: ……………………………………………………………………………………………………………………… ……………………………………………………………………………………………………………………… ………………………………………………………………………………………………………………………"
+    },
+    {
+      "provision_ref": "s184",
+      "section": "184",
+      "title": "184",
+      "content": "c) A fogvatartott által megjelölt kontaktszemély vagy az ingatlanban életvitelszerűen tartózkodók bármelyike kriminológiai szempontból nem veszélyezteti/veszélyezteti a reintegrációs őrizetbe helyezendő fogvatartott eredményes reintegrációját."
+    },
+    {
+      "provision_ref": "s185",
+      "section": "185",
+      "title": "185",
+      "content": "6. A vizsgálat összegző eredménye: ……………………………………………………………………………………………………………………………… ……………………………………………………………………………………………………………………………… ……………………………………………………………………………………………………………………………… ……………………………………………………………………………………………………………………………… ……………………………………………………………………………………………………………………………… ……………………………………………………………………………………………………………………………… ………………………………………………………………………………………………………………………………"
+    },
+    {
+      "provision_ref": "s186",
+      "section": "186",
+      "title": "186",
+      "content": "7. A jegyzőkönyvet elolvasás után helybenhagyólag aláírják, egy példányát a megjelent(ek)nek a büntetés-végrehajtási pártfogó felügyelő átadja. kmf. ……………………………… ………………………………………… Név kontaktszemély Névbüntetés-végrehajtási pártfogó felügyelő"
+    },
+    {
+      "provision_ref": "s187",
+      "section": "187",
+      "title": "187",
+      "content": "Ügyszám: ……………"
+    },
+    {
+      "provision_ref": "s188",
+      "section": "188",
+      "title": "188",
+      "content": "Tárgy: ………………………………… elítélt reintegrációs őrizetbe helyezésének ügye"
+    },
+    {
+      "provision_ref": "s189",
+      "section": "189",
+      "title": "189",
+      "content": "KÖRNYEZETTANULMÁNY"
+    },
+    {
+      "provision_ref": "s190",
+      "section": "190",
+      "title": "190",
+      "content": "A KEZDŐIRATRA, AZ ELÍTÉLTRE ÉS A REINTEGRÁCIÓS ŐRIZET VÉGREHAJTÁSÁRA KIJELÖLENDŐ INGATLANRA VONATKOZÓ ADATOK"
+    },
+    {
+      "provision_ref": "s191",
+      "section": "191",
+      "title": "191",
+      "content": "1. Az eljárás jellege: Az elítélt reintegrációs őrizetbe helyezése feltételeinek vizsgálata."
+    },
+    {
+      "provision_ref": "s192",
+      "section": "192",
+      "title": "192",
+      "content": "2. A környezettanulmány beszerzését elrendelő bv. intézet megnevezése, székhelye:"
+    },
+    {
+      "provision_ref": "s193",
+      "section": "193",
+      "title": "193",
+      "content": "3. Ügyszáma, az elrendelés ideje:"
+    },
+    {
+      "provision_ref": "s194",
+      "section": "194",
+      "title": "194",
+      "content": "4. Az elítélt által elkövetett bűncselekmény Btk. szerinti megnevezése és minősítése, az elkövetés időpontja:"
+    },
+    {
+      "provision_ref": "s195",
+      "section": "195",
+      "title": "195",
+      "content": "5. Az elítélt által töltött szabadságvesztésre vonatkozó alapadatok:"
+    },
+    {
+      "provision_ref": "s196",
+      "section": "196",
+      "title": "196",
+      "content": "6. Az elítélt természetes személyazonosító adatai és lakcíme:"
+    },
+    {
+      "provision_ref": "s197",
+      "section": "197",
+      "title": "197",
+      "content": "7. Az elítélt által megjelölt ingatlan lakcím adatai, a tulajdonjogi viszonyok, a lakáshasználati jogosultságokra vonatkozó adatok:"
+    },
+    {
+      "provision_ref": "s198",
+      "section": "198",
+      "title": "198",
+      "content": "8. Az elítélt által a büntetés-végrehajtási pártfogó felügyelővel (a továbbiakban: bv. pártfogó felügyelő) való kapcsolattartásra megjelölt személy neve és elérhetősége(i):"
+    },
+    {
+      "provision_ref": "s199",
+      "section": "199",
+      "title": "199",
+      "content": "9. Az érkeztetés ideje:"
+    },
+    {
+      "provision_ref": "s200",
+      "section": "200",
+      "title": "200",
+      "content": "10. A környezettanulmány elkészítésének határideje:"
+    },
+    {
+      "provision_ref": "s201",
+      "section": "201",
+      "title": "201",
+      "content": "A KÖRNYEZETTANULMÁNY ELKÉSZÍTÉSÉRE VONATKOZÓ ADATOK"
+    },
+    {
+      "provision_ref": "s202",
+      "section": "202",
+      "title": "202",
+      "content": "1. A környezettanulmány készítésének helyszíne és időpontja:"
+    },
+    {
+      "provision_ref": "s203",
+      "section": "203",
+      "title": "203",
+      "content": "2. A környezettanulmány írásba foglalásának a napja:"
+    },
+    {
+      "provision_ref": "s204",
+      "section": "204",
+      "title": "204",
+      "content": "3. Az elítélt által megjelölt ingatlan megtekintésének időpontja, az esetlegesen felmerült akadály bemutatása:"
+    },
+    {
+      "provision_ref": "s205",
+      "section": "205",
+      "title": "205",
+      "content": "4. Az illetékes bv. intézet megnevezése, a környezettanulmányt készítő bv. pártfogó felügyelő neve, elérhetősége (telefon, e-mail):"
+    },
+    {
+      "provision_ref": "s206",
+      "section": "206",
+      "title": "206",
+      "content": "5. A környezettanulmány készítésében közreműködő bv. intézet megnevezése:"
+    },
+    {
+      "provision_ref": "s207",
+      "section": "207",
+      "title": "207",
+      "content": "6. A közreműködő bv. pártfogó felügyelő neve, elérhetősége (telefon, e-mail):"
+    },
+    {
+      "provision_ref": "s208",
+      "section": "208",
+      "title": "208",
+      "content": "7. A környezettanulmány készítése során meghallgatott személyek megnevezése, az elítélthez fűződő kapcsolatuk, együttműködési készségük és az általuk közöltek bemutatása: (A reintegrációs őrizet végrehajtására kijelölendő lakásban életvitelszerűen tartózkodó személyek vonatkozásában külön-külön kell bemutatni!)"
+    },
+    {
+      "provision_ref": "s209",
+      "section": "209",
+      "title": "209",
+      "content": "8. Irattanulmányozás: (Irat származása, száma, kelte, tartalma)"
+    },
+    {
+      "provision_ref": "s210",
+      "section": "210",
+      "title": "210",
+      "content": "9. Felvilágosítás-, adat-, iratbekérés: (Megnevezése, tartalma)"
+    },
+    {
+      "provision_ref": "s211",
+      "section": "211",
+      "title": "211",
+      "content": "10. Egyéb alkalmazott módszer bemutatása:"
+    },
+    {
+      "provision_ref": "s212",
+      "section": "212",
+      "title": "212",
+      "content": "11. A bv. pártfogó felügyelő által csatolt mellékletek felsorolása:"
+    },
+    {
+      "provision_ref": "s213",
+      "section": "213",
+      "title": "213",
+      "content": "SZAKMAI TÉNYMEGÁLLAPÍTÁSOK"
+    },
+    {
+      "provision_ref": "s214",
+      "section": "214",
+      "title": "214",
+      "content": "1. Az elítélt"
+    },
+    {
+      "provision_ref": "s215",
+      "section": "215",
+      "title": "215",
+      "content": "a) családi körülményei, baráti és kisközösségi kapcsolati helyzete:"
+    },
+    {
+      "provision_ref": "s216",
+      "section": "216",
+      "title": "216",
+      "content": "b) vagyoni, jövedelmi viszonyai:"
+    },
+    {
+      "provision_ref": "s217",
+      "section": "217",
+      "title": "217",
+      "content": "c) egészségi állapota, esetleges káros szenvedélyei:"
+    },
+    {
+      "provision_ref": "s218",
+      "section": "218",
+      "title": "218",
+      "content": "d) iskolai végzettségére, szaktudására, tanulmányai folytatására vonatkozó adatok:"
+    },
+    {
+      "provision_ref": "s219",
+      "section": "219",
+      "title": "219",
+      "content": "e) foglalkoztatására, munkatapasztalatára, várható munkaerő-piaci helyzetére vonatkozó információk:"
+    },
+    {
+      "provision_ref": "s220",
+      "section": "220",
+      "title": "220",
+      "content": "f) munkavállalási, illetve tanulmányai folytatásának lehetőségei:"
+    },
+    {
+      "provision_ref": "s221",
+      "section": "221",
+      "title": "221",
+      "content": "g) eredményes reintegrációjára vonatkozó tervei:"
+    },
+    {
+      "provision_ref": "s222",
+      "section": "222",
+      "title": "222",
+      "content": "2. A reintegrációs őrizet végrehajtására kijelölendő ingatlan"
+    },
+    {
+      "provision_ref": "s223",
+      "section": "223",
+      "title": "223",
+      "content": "a) mérete és az életvitelszerűen bent lakó személyek száma:"
+    },
+    {
+      "provision_ref": "s224",
+      "section": "224",
+      "title": "224",
+      "content": "b) tulajdonjogi és lakáshasználati viszonyai:"
+    },
+    {
+      "provision_ref": "s225",
+      "section": "225",
+      "title": "225",
+      "content": "c) elrendezése, állapota, állaga, alkalmassága:"
+    },
+    {
+      "provision_ref": "s226",
+      "section": "226",
+      "title": "226",
+      "content": "3. A befogadó környezet vizsgálata"
+    },
+    {
+      "provision_ref": "s227",
+      "section": "227",
+      "title": "227",
+      "content": "a) az életvitelszerűen ingatlanban lakóknak az elítélthez fűződő kapcsolata, az elítéltnek az ingatlanba történő befogadásához való viszonyulása:"
+    },
+    {
+      "provision_ref": "s228",
+      "section": "228",
+      "title": "228",
+      "content": "b) a befogadó környezetre, a befogadó környezetnek az elítélt által elkövetett bűncselekményéhez való viszonya:"
+    },
+    {
+      "provision_ref": "s229",
+      "section": "229",
+      "title": "229",
+      "content": "c) az elítélt reintegrációs őrizetbe helyezésekor milyen módon jut el a bv. intézetből a kijelölt ingatlanba:"
+    },
+    {
+      "provision_ref": "s230",
+      "section": "230",
+      "title": "230",
+      "content": "4. A reintegráció eredményességének vizsgálata során az elítélt"
+    },
+    {
+      "provision_ref": "s231",
+      "section": "231",
+      "title": "231",
+      "content": "a) reintegrációs őrizet során megvalósítandó, visszailleszkedését célzó tervei:"
+    },
+    {
+      "provision_ref": "s232",
+      "section": "232",
+      "title": "232",
+      "content": "b) a visszailleszkedését célzó segítségnyújtási-támogatási igények bemutatása:"
+    },
+    {
+      "provision_ref": "s233",
+      "section": "233",
+      "title": "233",
+      "content": "c) a társadalmi visszailleszkedése elősegítésébe bevonható személyek, szervezetek köre:"
+    },
+    {
+      "provision_ref": "s234",
+      "section": "234",
+      "title": "234",
+      "content": "FELTÁRT ADATOKON ÉS KÖVETKEZTETÉSEKEN"
+    },
+    {
+      "provision_ref": "s235",
+      "section": "235",
+      "title": "235",
+      "content": "ALAPULÓ ÖSSZEGZŐ VÉLEMÉNY"
+    },
+    {
+      "provision_ref": "s236",
+      "section": "236",
+      "title": "236",
+      "content": "Kelt: …………………………………………"
+    },
+    {
+      "provision_ref": "s237",
+      "section": "237",
+      "title": "237",
+      "content": "………………………………………………………"
+    },
+    {
+      "provision_ref": "s238",
+      "section": "238",
+      "title": "238",
+      "content": "büntetés-végrehajtási pártfogó felügyelő"
+    },
+    {
+      "provision_ref": "s239",
+      "section": "239",
+      "title": "239",
+      "content": "Ügyszám: …………… J E G Y Z Ő K Ö N Y V Készült a ……………………………… (bv. intézet megnevezése) hivatali helyiségében, ……… év ………………… hó …… napján, ………………………………………… elítélt reintegrációs őrizetbe helyezését megelőző tájékoztatása ügyében"
+    },
+    {
+      "provision_ref": "s240",
+      "section": "240",
+      "title": "240",
+      "content": "1. Jelen vannak: ……………………………………...…… büntetés-végrehajtási pártfogó felügyelő (a továbbiakban: bv. pártfogó felügyelő) ………………………………… elítélt (sz: ………..……, anyja neve: …………………………………, reintegrációs őrizet végrehajtására kijelölt lakás címe: ………………………………………………………………………………………….…) A reintegrációs őrizetbe helyezett elítélt egyéb elérhetősége: …………………………………………………………………"
+    },
+    {
+      "provision_ref": "s241",
+      "section": "241",
+      "title": "241",
+      "content": "2. A bv. pártfogó felügyelő ismerteti a jegyzőkönyvi meghallgatás okát:"
+    },
+    {
+      "provision_ref": "s242",
+      "section": "242",
+      "title": "242",
+      "content": "a) A ………………… Törvényszék a …………………… kelt és jogerőre emelkedett ……… számú végzésével a ………………… Bíróság ……… számú ítéletével kiszabott ……………… (ítélet tartamának megnevezése) fogház/börtön/fegyház fokozatú szabadságvesztés hátralévő részéből ……………………… kezdőnappal, illetve ……………………… befejező nappal elrendelte a reintegrációs őrizet végrehajtását."
+    },
+    {
+      "provision_ref": "s243",
+      "section": "243",
+      "title": "243",
+      "content": "b) A reintegrációs őrizet alatt …………………………………………… szám alatti lakásban köteles tartózkodni. A lakás (és a hozzá tartozó bekerített terület, amennyiben releváns), valamint annak elhagyására vonatkozó, büntetés-végrehajtási bírói (a továbbiakban: bv. bíró) végzésben foglalt rendelkezések, magatartási szabályok: ………………………………………………………………………………………………………………………...…"
+    },
+    {
+      "provision_ref": "s244",
+      "section": "244",
+      "title": "244",
+      "content": "3. A bv. pártfogó felügyelő az elítélt reintegrációs őrizetbe helyezését megelőzően az alábbiakról tájékoztatja az elítéltet:"
+    },
+    {
+      "provision_ref": "s245",
+      "section": "245",
+      "title": "245",
+      "content": "a) A reintegrációs őrizetbe helyezett elítélt ellenőrzésére kijelölt bv. pártfogó felügyelő aa) neve: ………………………………… bv. pártfogó felügyelő, ab) elérhetősége: …………………………………………………………………………………………………… ac) a büntetés-végrehajtási intézet megnevezése, címe, telefonos elérhetősége: …………………………………"
+    },
+    {
+      "provision_ref": "s246",
+      "section": "246",
+      "title": "246",
+      "content": "4. A bv. pártfogó felügyelő ellenőrzési feladata körében:"
+    },
+    {
+      "provision_ref": "s247",
+      "section": "247",
+      "title": "247",
+      "content": "a) ellenőrzi a bv. bíró határozatában foglalt magatartási szabályok és az elektronikus távfelügyeleti eszköz vállalt alkalmazási szabályainak megtartását,"
+    },
+    {
+      "provision_ref": "s248",
+      "section": "248",
+      "title": "248",
+      "content": "b) a büntetések, az intézkedések, egyes kényszerintézkedések és a szabálysértési elzárás végrehajtásáról szóló 2013. évi CCXL. törvényben meghatározott adatkörben adatokat gyűjthet ba) az elítélt közvetlen lakókörnyezetében, bb) az elítélt munkahelyén, bc) az elítélt által látogatott oktatási intézményben, bd) szükség szerint az elítélt sikeres reintegrációját támogató szervezetektől,"
+    },
+    {
+      "provision_ref": "s249",
+      "section": "249",
+      "title": "249",
+      "content": "c) folyamatosan figyelemmel kíséri az elítélt kisközösségi-, családi-, baráti kapcsolatait és értékeli az azokból eredő, esetlegesen bűnismétléshez vezető veszélyforrásokat,"
+    },
+    {
+      "provision_ref": "s250",
+      "section": "250",
+      "title": "250",
+      "content": "d) szükség szerint egyéni tanácsadás keretében segítséget nyújt az elítélt társadalomba történő visszailleszkedése elősegítésére."
+    },
+    {
+      "provision_ref": "s251",
+      "section": "251",
+      "title": "251",
+      "content": "e) A bv. pártfogó felügyelő az ellenőrzést jogosult bármely napszakban végrehajtani, amelynek során az elítélt köteles együttműködni. Az ellenőrzéskor a bv. pártfogó felügyelővel egyidejűleg a bv. intézet személyi állományú tagja polgári öltözetben részt vehet, a távfelügyeleti eszköz időszakos vizsgálata céljából. Az elítélt köteles továbbá a bv. bíró által meghatározott magatartási szabályokat megtartani."
+    },
+    {
+      "provision_ref": "s252",
+      "section": "252",
+      "title": "252",
+      "content": "f) Az elítélt jogosult a bv. pártfogó felügyelővel felvenni a kapcsolatot, amennyiben a reintegrációs őrizet végrehajtása alatt az alábbi, a Pártfogó Felügyelői Szolgálat tevékenységéről szóló 8/2013. (VI. 26.) KIM rendelet 62/E. § (4) bekezdésében felsorolt támogatási formákat igénybe szeretné venni."
+    },
+    {
+      "provision_ref": "s253",
+      "section": "253",
+      "title": "253",
+      "content": "5. A bv. pártfogó felügyelő által nyújtott támogatások különösen:"
+    },
+    {
+      "provision_ref": "s254",
+      "section": "254",
+      "title": "254",
+      "content": "a) egyéni tanácsadás keretében az elítélt tájékoztatása aa) ha szükséges, egészségügyi, szociális intézményi ellátásának vagy elhelyezésének, ab) munkaerő-piacon való elhelyezkedésének, munkavégzésének, ac) oktatásban, képzésben, szakképzésben való részvételének, lehetőségeiről és szabályairól;"
+    },
+    {
+      "provision_ref": "s255",
+      "section": "255",
+      "title": "255",
+      "content": "b) egyéni esetkezelés keretében az elítélt ba) szociális ügyintézésre való felkészítésének elősegítése, bb) életviteli problémáinak feltárásával azok csökkentése, bc) szenvedélybetegségeihez kapcsolódó szociális és mentális deficitek kezelésével az ártalmas következmények csökkentése, bd) rosszul berögzült vagy hiányzó szocializációs készségeinek és képességeinek feltárása, elemzése és fejlesztése, be) jövőképének felmérése, elemzése és közreműködés reális terv kialakításában."
+    },
+    {
+      "provision_ref": "s256",
+      "section": "256",
+      "title": "256",
+      "content": "6. Az elítélt köteles a bv. pártfogó felügyelővel felvenni a kapcsolatot, ha életében olyan kedvezőtlen fordulat áll be, amely a reintegrációs őrizet végrehajtását veszélyezteti."
+    },
+    {
+      "provision_ref": "s257",
+      "section": "257",
+      "title": "257",
+      "content": "7. Abban az esetben, ha az ellenőrzés során megállapításra kerül, hogy az elítélt a reintegrációs őrizet végrehajtása alól szándékosan kivonja magát, vagy a távfelügyeleti eszközt szándékosan megrongálta vagy eltávolította, vagy a bv. bíró által előírt magatartási szabályokat súlyosan megszegte, a bv. pártfogó felügyelő a bv. intézet parancsnoka útján haladéktalanul értesíti a lakás elhelyezkedése szerint illetékes bv. bírót, a reintegrációs őrizet megszüntetésére."
+    },
+    {
+      "provision_ref": "s258",
+      "section": "258",
+      "title": "258",
+      "content": "8. A bv. bíró által előírt magatartási szabályok megszegésén túlmenően, súlyos magatartási szabályszegésnek minősül különösen, ha az elítélt:"
+    },
+    {
+      "provision_ref": "s259",
+      "section": "259",
+      "title": "259",
+      "content": "a) magatartása a reintegrációs célokkal nem összeegyeztethető;"
+    },
+    {
+      "provision_ref": "s260",
+      "section": "260",
+      "title": "260",
+      "content": "b) a bv. bíró által előírt magatartási szabályokat megtartja, de életvitele, magatartása megbotránkozást vált ki a lakókörnyezetében, magatartása veszélyezteti a vele közös háztartásban életvitelszerűen tartózkodókat, vagy fennáll a családon belüli erőszak kockázata;"
+    },
+    {
+      "provision_ref": "s261",
+      "section": "261",
+      "title": "261",
+      "content": "c) rendszeresen leittasodik vagy kábító hatású szereket fogyaszt;"
+    },
+    {
+      "provision_ref": "s262",
+      "section": "262",
+      "title": "262",
+      "content": "d) ismétlődő jelleggel, sorozatosan zónasértést követ el;"
+    },
+    {
+      "provision_ref": "s263",
+      "section": "263",
+      "title": "263",
+      "content": "e) a fentiekben foglaltak elkövetése miatt vele szemben rendőri intézkedés válik szükségessé."
+    },
+    {
+      "provision_ref": "s264",
+      "section": "264",
+      "title": "264",
+      "content": "9. Az elítélt nyilatkozata:"
+    },
+    {
+      "provision_ref": "s265",
+      "section": "265",
+      "title": "265",
+      "content": "a) A bv. pártfogó felügyelő tájékoztatását megértettem, tudomásul vettem. Hozzájárulok ahhoz, hogy az ellenőrzések során, a bv. pártfogó felügyelővel egyidejűleg a bv. intézet személyi állományú tagja időszakosan részt vegyen a távfelügyeleti eszköz vizsgálata céljából."
+    },
+    {
+      "provision_ref": "s266",
+      "section": "266",
+      "title": "266",
+      "content": "b) A jegyzőkönyvet elolvasás után helybenhagyólag aláírják, egy példányát a megjelent(ek)nek a bv. pártfogó felügyelő átadja. kmf."
+    },
+    {
+      "provision_ref": "s267",
+      "section": "267",
+      "title": "267",
+      "content": "0R01496_0 …………………………………………. ……………………………………………. elítélt2 büntetés-végrehajtási pártfogó felügyelő 2 Amennyiben az elítélt írni-olvasni nem tud, 2 tanú igazolása szükséges."
+    },
+    {
+      "provision_ref": "s268",
+      "section": "268",
+      "title": "268",
+      "content": "1. Teljesen feltöltött állapotban tárolni az eszközöket negatív hatással van az akkumulátor élettartamára. Az alábbi gyártói javaslatok segítenek javítani az akkumulátorok teljesítményét:"
+    },
+    {
+      "provision_ref": "s269",
+      "section": "269",
+      "title": "269",
+      "content": "a) Az akkumulátorokat kb. félig ajánlott tölteni/hagyni lemerülni, az ideális állapot 40%-os."
+    },
+    {
+      "provision_ref": "s270",
+      "section": "270",
+      "title": "270",
+      "content": "b) Vegyék le az eszközt a töltőről (ne legyen folyamatosan töltés alatt)."
+    },
+    {
+      "provision_ref": "s271",
+      "section": "271",
+      "title": "271",
+      "content": "c) Tárolják hűvös, száraz helyen, ne tegyék ki direkt napfénynek."
+    },
+    {
+      "provision_ref": "s272",
+      "section": "272",
+      "title": "272",
+      "content": "d) Hosszú idejű tárolás esetén (12 hónapot meghaladóan) az akkumulátorok lassan lemerülnek, ezért időről-időre ellenőrizni kell a töltöttség állapotát, ha szükséges, ismét feltölteni 40% körüli értékre. Mivel a töltöttség állapota az eszközökön pontosan nem mérhető, ezért a gyártó javaslata, hogy heti egyszer egy–másfél órát töltsenek minden eszközt, ez segít az élettartamukat a legtovább megőrizni."
+    },
+    {
+      "provision_ref": "s273",
+      "section": "273",
+      "title": "273",
+      "content": "2. Az optimális tárolásra vonatkozó 40%-os érték az akkumulátorgyártók és független kutatások által javasolt érték. Az alábbi táblázat illusztrálja, hogyan romlik idővel a kapacitás, figyelembe véve a töltöttség szintjét és a tárolás hőmérsékletét. Akkumulátor hőmérséklet Végleges kapacitásveszteség 40%-os töltöttségi állapotú tárolásnál (javasolt tárolási szint) Végleges kapacitásveszteség 100%-os töltöttségi állapotú tárolásnál (általános felhasználói töltöttségi szint) 0°C 2% veszteség egy év alatt, 98% megmaradt 6% veszteség egy év alatt, 94% megmaradt 25°C 3% veszteség egy év alatt, 97% megmaradt 15% veszteség egy év alatt, 85% megmaradt 40°C 15% veszteség egy év alatt, 85% megmaradt 35% veszteség egy év alatt, 65% megmaradt 60°C 25% veszteség egy év alatt, 75% megmaradt 40% veszteség 3 hónap után 1 Az utasítást a 22/2023. (III. 29.) BVOP utasítás 97. pontja hatályon kívül helyezte 2023. március 30. napjával. 2 A 10/A. pontot a 7/2022. (IV. 21.) BVOP utasítás 1. pontja iktatta be. 3 A 14/A. pontot a 7/2022. (IV. 21.) BVOP utasítás 2. pontja iktatta be. 4 Az 50. pont a 7/2022. (IV. 21.) BVOP utasítás 3. pontjával megállapított szöveg. 5 Az 54. pontot a 7/2022. (IV. 21.) BVOP utasítás 6. pontja hatályon kívül helyezte. 6 Az 56. pont a 7/2022. (IV. 21.) BVOP utasítás 4. pontjával megállapított szöveg. 7 Az 58. pont a 9/2023. (I. 31.) BVOP utasítás 1. pont a) pontja szerint módosított szöveg. 8 Az 59. pont a 9/2023. (I. 31.) BVOP utasítás 1. pont b) pontja szerint módosított szöveg. 9 A 60. pont a 9/2023. (I. 31.) BVOP utasítás 1. pont b) pontja szerint módosított szöveg. 10 A 61. pont a 9/2023. (I. 31.) BVOP utasítás 1. pont c) pontja szerint módosított szöveg. 11 A 68. pont a 7/2022. (IV. 21.) BVOP utasítás 5. pontjával megállapított szöveg. 12 A 92. pont a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette. 13 Amennyiben a fogvatartott írni-olvasni nem tud, 2 tanú igazolása szükséges."
+    }
+  ]
+}

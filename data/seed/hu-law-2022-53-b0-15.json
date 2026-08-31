@@ -1,0 +1,59 @@
+{
+  "id": "hu-law-2022-53-b0-15",
+  "type": "statute",
+  "title": "53/2022. (XII. 28.) HM utasítás a honvédelmi szervezetek általános elektronikus információbiztonsági követelményeinek meghatározásáról és a védelmi rendszabályokról",
+  "status": "in_force",
+  "in_force_date": "2022-12-29",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2022-53-B0-15",
+  "description": "a honvédelmi szervezetek általános elektronikus információbiztonsági követelményeinek meghatározásáról és a védelmi rendszabályokról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § Az utasítás hatálya – a Katonai Nemzetbiztonsági Szolgálat kivételével – a honvédelemről és a Magyar Honvédségről szóló 2021. évi CXL. törvény 3. § 14. pontja szerinti honvédelmi szervezetekre (a továbbiakban: honvédelmi szervezetek) terjed ki."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § Az utasítás alkalmazásában a) adatgazda: a meghatározott elektronikus információs rendszerbe kerülő adatok előállításáért felelős szervezet vezetője, aki az adatok kezelésének szabályozásáért, valamint a szabályok érvényre juttatásáért felel, meghatározza a bizalmasság, sértetlenség és rendelkezésre állás követelményeit, b) alkalmazó szervezet: honvédelmi vagy egyéb szolgáltató szervezet által nyújtott elektronikus információs rendszert mint szolgáltatást (a továbbiakban együtt: elektronikus információs rendszer) igénybe vevő szervezet, c) általános elektronikus információbiztonsági követelmények: a hatályos jogszabályok és a honvédelmi ágazat információbiztonsági politikája szerinti, elektronikus adatok kezelésére meghatározott biztonsági követelmények, d) elektronikus információbiztonsági szabályzat: a hatályos jogszabályok és biztonsági követelmények alapján egy elektronikus információs rendszer védelmi rendszabályokat meghatározó rendszerspecifikus szabályozó dokumentuma – szervezetenként a felhasználói és az üzemeltetői szintű védelmi intézkedéseket elkülönült dokumentumban történő szabályozó eszköz – amely eleget tesz az állami és önkormányzati szervek elektronikus információbiztonságáról szóló 2013. évi L. törvényben az informatikai biztonsági szabályzattal szemben támasztott követelményeknek, e) hálózatgazda: meghatározott elkülönített hírközlő, elektronikus információs rendszerrel összefüggő szolgáltatási tevékenység végzésre jogosult vagy több szervezet által alkalmazott szolgáltatások felügyeletével felhatalmazott vezető, f) rendszerspecifikus biztonsági követelmények: az általános elektronikus információbiztonsági követelmények alapján egy elektronikus információs rendszerre, elemre vagy azok egy csoportjára meghatározható biztonsági követelmények, g) szolgáltatásgazda: meghatározott elektronikus információs rendszer tervezéséért, fejlesztéséért felelős, szolgáltatásainak teljes körű felügyeletével felhatalmazott vezető, h) üzemeltető szervezet: más honvédelmi szervezet és saját szervezeti elemek részére a szolgáltatás biztosításáért, az erőforrások felhasználásáért, valamint a műszaki és logisztikai biztosítás igényléséért felelős elektronikus információs rendszert biztosító szervezet."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) Az elektronikus információbiztonságra vonatkozó követelményeket az 1. melléklet határozza meg. Az 1. melléklet szerinti általános biztonsági követelményeket a honvédelmi szervezeteknél alkalmazott valamennyi, továbbá az egyéb, nem honvédelmi szervezet által alkalmazott, de honvédelmi szervezet által üzemeltetett vagy szolgáltatott elektronikus információs rendszerek és eszközök esetében a következők szerint kell érvényesíteni: a) ha az általános biztonsági követelmény szerepel az állami és önkormányzati szervek elektronikus információbiztonságáról szóló 2013. évi L. törvényben meghatározott technológiai biztonsági, valamint a biztonságos információs eszközökre, termékekre, továbbá a biztonsági osztályba és biztonsági szintbe sorolásra vonatkozó követelményekről szóló 41/2015. (VII. 15.) BM rendelet Védelmi intézkedés katalógusában (a továbbiakban: katalógus) és a rendszer biztonsági osztályára vonatkozóan a katalógus kötelező védelmi elemként határozza meg, akkor azt érvényesíteni kell, b) ha az általános biztonsági követelmény szerepel a katalógusban, de a rendszer biztonsági osztályára vonatkozóan a katalógus nem kötelező védelmi elemként határozza meg, akkor érvényesítése nem kötelező, c) ha az általános biztonsági követelmény nem szerepel a katalógusban, akkor osztályba sorolástól függetlenül minden rendszerre kötelezően érvényesíteni szükséges. (2) A rendszerspecifikus biztonsági követelmények meghatározása: a) a Magyar Honvédség (a továbbiakban: MH) Kormányzati Célú Elkülönített Hírközlő Hálózat (a továbbiakban: MH KCEHH) esetében az MH KCEHH hálózatgazdájának, b) az egyéb – egy szervezet által alkalmazott – elektronikus információs rendszer esetében az adatkezelésért felelős honvédelmi szervezet vezetőjének és c) az egyéb – több szervezet által alkalmazott – elektronikus információs rendszer esetében a szolgáltatásgazda szervezet érvényesítése az alkalmazó honvédelmi szervezet vezetőjének kötelezettsége. (3) Az egyéb, nem honvédelmi szervezet által üzemeltetett vagy szolgáltatott, de a honvédelmi szervezet által alkalmazott elektronikus információs rendszer esetében is teljesíteni kell a katalógusban a rendszer biztonsági osztályára vonatkozó követelményeket, amelyet a) a központilag biztosított szabályozók átvételével és szervezeti szintű kiegészítésével, ennek hiányában b) a szervezet által kidolgozott formában, az 1. melléklet figyelembevételével kell biztosítani."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) A biztonsági követelményeket védelmi rendszabályokon és kialakított eljárásokon keresztül kell érvényesíteni, amelyeket Elektronikus Információbiztonsági Szabályzatban (a továbbiakban: EIBSZ) kell meghatározni, amelyet a honvédelmi szervezet vezetője hagy jóvá. (2) Az MH KCEHH központi üzemeltetésű rendszereire vonatkozó EIBSZ-t az adott központi rendszert üzemeltető szervezet a hálózatgazdához terjeszti fel jóváhagyásra. (3) A központi üzemeltetésű rendszerekre vonatkozó EIBSZ alkalmazó szervezeteket érintő kivonatát az adott központi rendszert üzemeltető szervezet megküldi az azt alkalmazó szervezetek részére."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § (1) Új elektronikus információs rendszer kialakítása vagy üzemelő rendszer üzemeltetési és biztonsági szabályozásának pontosítása csak az 1. melléklet szerint meghatározott rendszerspecifikus biztonsági követelményeknek megfelelően történhet. (2) Az általános elektronikus biztonsági követelmények naprakészen tartása az MH információvédelmi szakirányítását végrehajtó szervezeti egységének feladata."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § Ez az utasítás a közzétételét követő napon lép hatályba."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § (1) Az üzemeltető szervezetek vezetői az utasítás hatálybalépésétől számított 90 napon belül az általános biztonsági követelmények alapján pontosítják a szervezet EIBSZ-ében megfogalmazott rendszabályokat. Indokolt esetben az üzemeltető szervezet külön szabályozhatja a felhasználókra és az üzemeltető állományra vonatkozó rendszabályokat. (2) Az (1) bekezdés alapján módosított rendszabályokról az érintett üzemeltetői állomány a jóváhagyást követő 30 napon belül oktatásban részesül. (3) Az oktatás végrehajtása az alkalmazó szervezet Elektronikus Információs Rendszerek Biztonságáért Felelősnek kijelölt személy felelőssége. (4) Oktatás hiányában a rendszerekhez történő hozzáférés nem engedélyezett. (5) Az alkalmazó szervezet az üzemeltető szervezete EIBSZ-ének jóváhagyását követő 60 napon belül kiadja a saját szervezetére vonatkozó EIBSZ-t. (6) A módosított rendszabályokról a honvédelmi szervezet teljes állománya a jóváhagyást követően 30 napon belül oktatásban részesül, melynek hiányában a rendszerekhez történő hozzáférés nem engedélyezett."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. §"
+    }
+  ]
+}

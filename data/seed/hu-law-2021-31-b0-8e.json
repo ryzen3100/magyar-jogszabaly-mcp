@@ -1,0 +1,623 @@
+{
+  "id": "hu-law-2021-31-b0-8e",
+  "type": "statute",
+  "title": "31/2021. (XII. 22.) ORFK utasítás az Iratkezelési Szabályzatról szóló 40/2017. (XII. 29.) ORFK utasítás módosításáról",
+  "status": "repealed",
+  "in_force_date": "2022-01-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2021-31-B0-8E",
+  "description": "az Iratkezelési Szabályzatról szóló 40/2017. (XII. 29.) ORFK utasítás módosításáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A jogalkotásról szóló 2010. évi CXXX. törvény 23. § (4) bekezdés c) pontjában és a Rendőrségről szóló 1994. évi XXXIV. törvény 6. § (1) bekezdés b) pontjában, valamint a köziratokról, a közlevéltárakról és a magánlevéltári anyag védelméről szóló 1995. évi LXVI. törvény 10. § (3) bekezdésében kapott felhatalmazás alapján, a közfeladatot ellátó szervek iratkezelésének általános követelményeiről szóló 335/2005. (XII. 29.) Korm. rendelet, az elektronikus formában tárolt iratok közlevéltári átvételének eljárásrendjéről és műszaki követelményeiről szóló 34/2016. (XI. 30.) EMMI rendelet, az elektronikus ügyintézés és a bizalmi szolgáltatások általános szabályairól szóló 2015. évi CCXXII. törvény, valamint a végrehajtására kiadott, az elektronikus ügyintézés részletszabályairól szóló 451/2016. (XII. 19.) Korm. rendelet rendelkezéseinek figyelembevételével, a köziratok kezelésének szakmai irányításáért felelős miniszter és a Magyar Nemzeti Levéltár egyetértésével az Iratkezelési Szabályzatról szóló 40/2017. (XII. 29.) ORFK utasítás módosítására kiadom az alábbi utasítást:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "1. Az Iratkezelési Szabályzatról szóló 40/2017. (XII. 29.) ORFK utasítás (a továbbiakban: Utasítás) 4. pontja a következő 4.44. alponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "(A Szabályzat alkalmazásában:)"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "„4.44. KÉR azonosító: a Közszolgáltatási e-címregiszterben nyilvántartott, szervezeti egység szintű címezhetőséget biztosító azonosító;”"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "2. Az Utasítás 4. pontja a következő 4.55. alponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "(A Szabályzat alkalmazásában:)"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "„4.55. NEO Posta: a Robotzsaru rendszerben elérhető speciális funkció, amely biztosítja a rendőri szervek között az ügyiratok alszámainak vagy a teljes ügyirat és metaadatainak továbbítását;”"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "3. Az Utasítás 89. pontja a következő m) alponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "(Az elektronikus ügyintézést és iratkezelést biztosító szerv érkeztető pontjának ügykezelői végzik:)"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "„m) amennyiben a címzett szervezeti eleme vagy felettes szervezeti egysége/eleme nem rendelkezik ügykezelővel, az iratok iktatását, előzmény esetén az iratok alszámra iktatását, papíralapú irat esetén az ügyintézővel egyeztetve az irattári tételszám rögzítését.”"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "4. Az Utasítás 90. pontja a következő h) alponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "(A szervezeti elemek ügykezelői végzik:)"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "„h) a papír alapon érkezett irat esetében az ügyintézővel egyeztetve az irattári tételszám rögzítését az iktatás során, de legkésőbb az iktatást követő munkanapon.”"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "5. Az Utasítás a következő 120/A. ponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "„120/A. A Posta SZEÜSZ alkalmazásával kézbesített, azonban sikertelen kézbesítés miatt a feladónak visszaküldött küldeményeket az érkeztetőpont a selejtezési és megsemmisítési eljárás mellőzésével azonnal megsemmisíti. A kivételi körbe tartozó küldeményként feladott, sikertelen kézbesítés miatt a feladónak visszaküldött küldeményeket az érkeztetőpont a feladó szervezeti elem ügykezelési feladatait ellátó munkatársának átadja, aki az ügyintézővel egyeztetve intézkedik a visszaérkezett küldemény ügyiratban történő elhelyezésére vagy megsemmisítésére.”"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "6. Az Utasítás a következő 124/A. ponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "„124/A. Amennyiben a panaszostól, közérdekű bejelentőtől vagy egyéb bejelentő személytől érkezett elektronikus küldemény (e-mail) címzettjei között – ide nem értve a „másolatot kap” mezőben szereplő címzetteket – több rendőri szerv vagy szervezeti elem hivatalos elektronikus postafiók címe is szerepel, akkor az elsőként megjelölt hivatalos elektronikus postafiókhoz tartozó szerv vagy szervezeti elem intézkedik a küldemény iktatására, valamint a küldeményben foglalt feladatok végrehajtására, így különösen a hatáskör és az illetékesség vizsgálatára, valamint ennek alapján az ügy szükség szerinti áttételére. Ilyen esetben a további címzettek az e-mail-beadványt a küldemény érkeztetését követően nem iktatandó jelöléssel látják el, és a megjegyzés mezőben a „Nem iktatandó az Iratkezelési Szabályzat 124/A. pontja alapján.” szöveget tüntetik fel.”"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "7. Az Utasítás 150. pont c) alpontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "(Az irat előszignálására/szignálására jogosult vezető az érkeztetést követő egy munkanapon belül:)"
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "„c) közli az elintézéssel kapcsolatos utasításait – így különösen az elvégzendő feladatot, a határidőt, a sürgősségi fokot –, papír alapon érkezett irat esetén rendelkezik a megsemmisítési jegyzőkönyvről való törlésről;”"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "8. Az Utasítás 150/B–150/C. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "„150/B. Papíralapú irat esetén a vezető az „Elektronikus szignálás alapján!” utasítást keltezéssel és aláírással hitelesíti az előadói íven, majd a kitöltött előadói ívbe helyezett iratot visszaadja az ügykezelőnek."
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "150/C. A vezető azon iratok esetében, amelyekhez nem kell előadói ív, az „Elektronikus szignálás alapján!” utasítást az iratra jegyzi rá, és azt visszaadja az ügykezelőnek.”"
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "9. Az Utasítás a következő 183/A. ponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "„183/A. A visszaérkező tértivevényeket az érkeztető pont dátumbélyegzővel látja el, majd a küldeményt feladó szervezeti elem részére átadja. A szervezeti elem – a tevékenységére vonatkozó jogszabályokkal összhangban – intézkedik a tértivevényről készített hiteles elektronikus másolat alszámhoz történő csatolására. A papíralapú tértivevényt a szervezeti elem az ügy irattári tételszámát figyelembe véve 90 napot követően selejtezési eljárás mellőzésével megsemmisíti vagy megőrzi.”"
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "10. Az Utasítás 202. pontja a következő h) alponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "(A kiadmányozott iratot:)"
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "„h) a hivatali munkaidőn túl a 24 órás ügyeleti jellegű szolgálatok esetén NOVA SZEÜSZ/koordinációs küldési mód mellett e-mail küldési móddal”"
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "(kell továbbítani.)"
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "11. Az Utasítás a következő 230/B. ponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "„230/B. A vezetői engedélyezést követően, amennyiben az ügyintéző személye megegyezik az ügykezelő személyével, akkor nem kell külön rögzíteni az irattározás feltételeit a Robotzsaru rendszer „Utasítás az ügykezelőnek” rovatában.”"
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "12. Az Utasítás a következő 302/A. ponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "„302/A. Azon ügyekről, amelyek irattári besorolásuk alapján a jogerősen kiszabott bírságösszeg megfizetését követően azonnal selejtezhetők, az ügyintézők ügylistát készítenek, ami elektronikus adathordozóra kimentve képezi az illetékes közlevéltárnak küldött jegyzőkönyv mellékletét.”"
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "13. Az Utasítás a következő 310/A. ponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "„310/A. Az elektronikus ügyintézést és iratkezelést biztosító szerv szervezeti egységének vagy szervezeti elemének megszűnése esetén a nem lezárt ügyiratokat a jogutód szervezeti egység vagy szervezeti elem részére át kell adni, jogutód hiányában le kell zárni. A megszűnt szervezeti egység vagy szervezeti elem lezárt ügyiratait a központi irattárnak át kell adni.”"
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "14. Az Utasítás 350. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "„350. A folyamatban lévő iratokat – függetlenül attól, hogy személyes adatot tartalmaznak-e, vagy sem – munkaidőn kívül lemezszekrényben vagy zárható irodai bútorokban kell tárolni. A lemezszekrény kulcsait kulcsdobozban vagy másik lemezszekrényben kell elhelyezni, a zárható irodai bútorok kulcsát pedig eltávozáskor mások által hozzá nem férhető helyen kell elhelyezni.”"
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "15. Az Utasítás a következő 371/A. ponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "„371/A. A bűnügyi iratok kezelése során a 150. pontban foglaltakat a büntetőeljárásról szóló 2017. évi XC. törvény (a továbbiakban: Be.) 379. § (1) bekezdésében meghatározott határidő figyelembevételével kell alkalmazni.”"
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "16. Az Utasítás 376. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "„376. Az egyes eljárási cselekmények végrehajtása érdekében küldött megkeresést – ideértve az elfogatóparanccsal érintett személy vonatkozásában a körözési rendszerben kért eljárási cselekményekkel kapcsolatban keletkező valamennyi iratot – a megkeresett szerv megkeresések (megk.) iktatókönyvébe kell iktatni. A megkeresés teljesítésekor keletkező iratok bűnügyi iktatószámot a megkereső szervnél kapnak.”"
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "17. Az Utasítás 381. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "„381. A fegyverrel kapcsolatos kérelmek és engedélyek iratait a Robotzsaru rendszerben, külön erre a célra megnyitott iktatókönyvbe kell iktatni. Az ügyiratokat folyamatosan a kérelmező főszámán kell nyilvántartani, és az egyes ügyiratokat külön-külön alszámra kell iktatni, olyan módon, hogy a főszámhoz kapcsolódóan minden tárgyévben 0-ról indul az új alszámozású iktatás. Az így keletkezett alszámos iratok az adott év végén történő lezáráskor a kérelmező főszámához tartozó iratban megjelennek.”"
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "18. Az Utasítás 382. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "„382. Az egyéni, illetve társas vállalkozás keretében végzett személy- és vagyonvédelmi, illetve magánnyomozói tevékenység engedélyezése, valamint a tevékenység személyes végzésére jogosító rendőrhatósági igazolvány kiadása, illetve a kiadott engedély érvényességének meghosszabbítása iránt benyújtott kérelmeket és a kiadott engedélyekkel kapcsolatos iratokat a Robotzsaru rendszerben, külön erre a célra megnyitott iktatókönyvbe kell iktatni. Az ügyiratokat folyamatosan a kérelmező főszámán kell nyilvántartani, és az egyes ügyiratokat külön-külön alszámra kell iktatni, olyan módon, hogy a főszámhoz kapcsolódóan minden tárgyévben 0-ról indul az új alszámozású iktatás. Az így keletkezett alszámos iratok az adott év végén történő lezáráskor a kérelmező főszámához tartozó iratban megjelennek. Az igazolvány és a működési engedély kiadására vonatkozó kérelmeket ugyanazon személy vagy vállalkozás esetében is önálló főszámra kell iktatni.”"
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "19. Az Utasítás 387. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "„387. A feljelentő rendőri szerv a feljelentést elektronikusan NOVA SZEÜSZ küldési móddal, valamint indokolt esetben NEO Postával a hatáskörrel és illetékességgel rendelkező rendőrkapitányság szabálysértési hatóságának, a szabálysértési modulra küldi meg.”"
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "20. Az Utasítás 410. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "„410. Az ügykezelők a Szabályzatból a kinevezésüket követő három hónapon belül, de legkésőbb a véglegesítésig online formában vagy az elektronikus ügyintézést és iratkezelést biztosító szerv vezetője vagy az elektronikus ügyintézés és iratkezelés felügyeletét ellátó vezető által kijelölt bizottság előtt kötelesek vizsgát tenni. Az ügykezelői munkakörbe történő véglegesítés a sikeres vizsga esetén történhet meg. A vizsga eredményes letételéről szóló igazolás egy példányát az érintett személyügyi iratai között kell elhelyezni.”"
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "21. Az Utasítás 412. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "„412. Az elektronikus ügyintézést és iratkezelést biztosító szervek vezetői kötelesek gondoskodni arról, hogy a Szabályzat rendelkezéseit az állomány részére rendszeresen – évente legalább egy alkalommal – továbbképzés keretében oktassák. Az oktatáson történő részvételt és a Szabályzat tartalmának megismerését jelenléti oktatás esetén az érintettek aláírásával ellátott nyilatkozata, online oktatás esetén az oktatásra történő bejelentkezése igazolja.”"
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "22. Az Utasítás az 1. melléklet szerinti 2. melléklettel egészül ki."
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "23. Az Utasítás 1. függeléke a 2. melléklet szerint módosul."
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "24. Az Utasítás"
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "a) 4. pont 4.63. alpontjában az „az egységes kormányzati ügyiratkezelő rendszer (KÉR)” szövegrész helyébe az „a KÉR” szöveg;"
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "b) 56. pontjában az „a papíralapú” szövegrész helyébe az „a Korm. rendelet és a 2. melléklet, továbbá a papíralapú” szöveg;"
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "c) 193. pont nyitó szövegrészében a „szervezeti elem” szövegrész helyébe a „szervezeti elemei” szöveg;"
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "d) 202. pont b) alpontjában az „EKÜR rendszerhez csatlakozott címzettek” szövegrész helyébe az „egységes kormányzati ügyiratkezelő rendszerbe bevont szervek” szöveg;"
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "e) 220. pont d) alpontjában a „helyiséget” szövegrész helyébe a „helyiségben tárolt anyagokat” szöveg;"
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "f) 230. pontjában a „végrehajtásról szóló jelentésben” szövegrész helyébe az „elintézése során” szöveg;"
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "g) 295. pontjában a „biztosító szerv szerv által” szövegrész helyébe a „biztosító szerv által” szöveg;"
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "h) 375. pont d) alpontjában a „büntetőeljárásról szóló 2017. évi XC. törvény (a továbbiakban: Be.)” szövegrész helyébe a „Be.” szöveg"
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "lép."
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "25. Ez az utasítás 2022. január 1-jén lép hatályba."
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "26. Hatályát veszti az Utasítás"
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "a) 89. pont d) alpontjában az „iktatását,” szövegrész;"
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "b) 117. pont nyitó szövegrészében a „Korm. rendelet 2. mellékletének hatálya alá tartozó” szövegrész;"
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "c) 118. pontjában az „Amennyiben a küldemény a KÉR rendszeren keresztül érkezett, a továbbítás tényéről a KÉR rendszert – a 4. melléklet szerinti minta felhasználásával – is értesíteni kell.” szövegrész;"
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "d) 119. pontja;"
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "e) 128–129. pontja;"
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "f) 183. pont j) alpontja;"
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "g) 343. pontjában az „A Robotzsaru rendszerhez biztosított hozzáférési jogosultságot folyamatosan naprakészen kell tartani olyan módon, hogy az a dolgozó munkaköri leírásában szerepeljen.” szövegrész;"
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "h) 4–6. melléklete."
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "27. Ez az utasítás a hatálybalépését követő napon hatályát veszti."
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "„2. melléklet a 40/2017. (XII. 29.) ORFK utasításhoz"
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "A Korm. rendelet 2. mellékletében meghatározott további, speciális kivételi körbe tartozó iratfajták:"
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "1. a „Címzett kezébe (ck.)!”, a „Csak orvos bonthatja fel!”, illetve a „Csak pszichológus bonthatja fel!” kezelési utasítással ellátott küldemények;"
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "2. a Tanúvédelmi Szolgálat címére érkező küldemények;"
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "3. a Nemzetközi Rendészeti Akadémia (ILEA) címére érkező küldemények.”"
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "1. Az Utasítás 1. függelék 8. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "2. Az Utasítás 1. függelék 22. pontja a következő j) alponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "3. Az Utasítás 1. függelék 49. pontja a következő v)–aa) alponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "4. Az Utasítás 1. függelék 63. pontja a következő m) alponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "5. Az Utasítás 1. függelék 74. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "6. Az Utasítás 1. függelék 101. pont d) alpontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "7. Az Utasítás 1. függelék 101. pontja a következő f) alponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "8. Az Utasítás 1. függelék IV. alcímében foglalt táblázatot megelőző szövegrészben a „165-ig” szövegrész helyébe a „168-ig” szöveg lép."
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "9. Az Utasítás 1. függelék 154. pont b) alpontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "10. Az Utasítás 1. függelék IV. alcímében foglalt táblázat a következő 166–168. ponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "11. Az Utasítás 1. függelék 223. pontja a következő g) alponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "12. Az Utasítás 1. függelék 261. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "13. Az Utasítás 1. függelék 263. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "14. Az Utasítás 1. függelék 267. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "15. Az Utasítás 1. függelék 314. pontja a következő j) alponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "16. Az Utasítás 1. függelék VII. alcímében foglalt táblázatot megelőző szövegrészben a „427-ig” szövegrész helyébe a „429-ig” szöveg lép."
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "17. Az Utasítás 1. függelék 383. pontja a következő s) alponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "18. Az Utasítás 1. függelék 385. pontja a következő f) alponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "19. Az Utasítás 1. függelék 406. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "20. Az Utasítás 1. függelék 422. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "21. Az Utasítás 1. függelék VII. alcímében foglalt táblázat a következő 428–429. ponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "22. Az Utasítás 1. függelék VIII. alcímében foglalt táblázatot megelőző szövegrészben a „464-ig” szövegrész helyébe a „465-ig” szöveg lép."
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "23. Az Utasítás 1. függelék VIII. alcímében foglalt táblázat a következő 465. ponttal egészül ki:"
+    }
+  ]
+}

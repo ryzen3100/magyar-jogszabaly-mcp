@@ -1,0 +1,227 @@
+{
+  "id": "hu-law-2009-15-b0-2k",
+  "type": "statute",
+  "title": "15/2009. (VII. 1.) NFGM utasítás a Nemzeti Fejlesztési és Gazdasági Minisztérium Információbiztonsági Szabályzatáról szóló 7/2008. (IX. 25.) NFGM utasítás módosításáról",
+  "status": "repealed",
+  "in_force_date": "2009-07-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2009-15-B0-2K",
+  "description": "a Nemzeti Fejlesztési és Gazdasági Minisztérium Információbiztonsági Szabályzatáról szóló 7/2008. (IX. 25.) NFGM utasítás módosításáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A Nemzeti Fejlesztési és Gazdasági Minisztérium Információbiztonsági Szabályzatáról szóló 7/2008. (IX. 25.) NFGM utasítás (a továbbiakban: U.) módosítására kiadom a következő utasítást:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "1. Az U. 3. pontjában található, A szabályzathoz kapcsolódó munkautasítások jegyzéke című felsorolás a következő szövegrésszel egészül ki:"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "2. Az U. 6.1.2.1. pontja az alábbi szövegrésszel egészül ki:"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "– „Az adminisztrátori hozzáféréseket az Adminisztrátori Hozzáférések Szabályozása Munkautasítás tartalmazza.”"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "3. Az U. az ezen utasítás mellékletét képező Adminisztrátori Hozzáférések Szabályozása Munkautasítással egészül ki."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "4. Ez az utasítás a közzététele napján lép hatályba."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "Adminisztrátori Hozzáférések Szabályozása Munkautasítás"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "1. Adminisztrátori hozzáférési tevékenységek"
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "1.1. A munkautasítás célja"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "A munkautasítás célja a Nemzeti Fejlesztési és Gazdasági Minisztérium (a továbbiakban: Minisztérium) munkaállomásain a lokális adminisztrátori hozzáférések szabályozása, az Információbiztonsági Szabályzattal (IBSz), Informatikai Üzemeltetési Szabályzattal (IUSz), és az Informatikai Fejlesztési Szabályzattal (fejlesztési szabályzat) összhangban."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "1.2. A munkautasítás hatálya"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "A munkautasítás tárgyi és személyi hatálya megegyezik az Információbiztonsági Szabályzat 2. pontjában írtakkal."
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "1.3. Adminisztrátori felhasználók"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "1.3.1. Alkalmazásgazdák"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "A Minisztérium alkalmazásainak folyamatos informatikai, vagy szakmai tartalmú felhasználói támogatását biztosító munkatársak, akiknek feladataik ellátásához az alap hozzáféréseken túl magasabb szintű jogosultság szükséges."
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "Külsős munkatársak esetén ehhez szükséges, hogy szerződéses jogviszonyban álljanak a minisztériummal."
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "1.3.2. Fejlesztők"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "A Minisztérium alkalmazásaihoz kapcsolódó fejlesztési feladatokat ellátó munkatársak, akiknek munkavégzéséhez az alap hozzáféréseken túl magasabb szintű jogosultság szükséges."
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "Külsős munkatársak esetén ehhez szükséges, hogy szerződéses jogviszonyban álljanak a minisztériummal."
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "1.3.3. Ideiglenes jogkörrel felruházott felhasználók"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "Azok a munkatársak, akiknek bizonyos feladataik ellátáshoz egy adott alkalmazáshoz az alap hozzáféréseken túl magasabb szintű hozzáférés szükséges."
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "Külsős munkatársak esetén ehhez szükséges, hogy szerződéses jogviszonyban álljanak a minisztériummal."
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "1.4. Hozzáférés igénylése"
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "1.4.1. Alkalmazásgazdai és fejlesztői hozzáférések igénylése"
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "Az 1.3.1. és 1.3.2. pont alá tartozó adminisztrátori felhasználók esetén a hozzáférési igény a Minisztérium Együttműködési Portálján belül üzemelő IT Szolgáltatások igénylése nevű funkcionális portálon keresztül jelenthető be."
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "1.4.2. Ideiglenes hozzáférésekhez szükséges igénylés"
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "Az 1.3.3. pont alá tartozó felhasználók esetén a hozzáférés kérése az Informatikai Főosztály vezetőjének megküldött hivatalos levélben szakállamtitkári, vagy annál magasabb beosztású vezetői jóváhagyással történhet."
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "1.5. Igénylések jóváhagyása"
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "A hozzáférési kérések engedélyezéséhez minden esetben az Információ Biztonsági Megbízott, valamint az IBSz szerinti mindenkori informatikai üzemeltetésért felelős vezető együttes jóváhagyása szükséges. A beérkező hozzáférési kérelmek továbbításáról az Információ Biztonsági Megbízott és az üzemeltetési vezető részére az Informatikai Főosztály vezetője gondoskodik."
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "1.6. Hozzáférések technikai beállítása"
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "Az 1.5. pontban jóváhagyott igények technikai beállításáról az informatikai üzemeltetésért felelős vezető a jóváhagyást követően 1 munkanapon belül intézkedik."
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "1.7. Jogosultságok visszavonása"
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "1.7.1. Alkalmazásgazdai és fejlesztői hozzáférések megszűnése"
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "Az alkalmazásgazdák és fejlesztők hozzáférései létrehozásukat követően 1 év múlva automatikusan visszavonásra kerülnek, meghosszabbításuk az 1.4.1. pont szerinti eljárás alapján lehetséges."
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "1.7.2. Ideiglenes hozzáférések megszüntetése"
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "Az ideiglenes hozzáférés létrehozásától számítva 48 óra elteltével automatikusan megszűnik, amennyiben ezen felül is indokolt a hozzáférés, azt az igénylésben előzetesen jelezni szükséges az igénylők részéről.” 1 Az utasítást a 18/2014. (VII. 4.) NGM utasítás 2. § 10. pontja hatályon kívül helyezte 2014. július 5. napjával."
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "id": "hu-law-2010-46-20-82",
+  "type": "statute",
+  "title": "46/2010. (IV. 27.) FVM rendelet az állami alapadatok felhasználásával végzett sajátos célú földmérési és térképészeti tevékenységről",
+  "status": "repealed",
+  "in_force_date": "2010-05-05",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2010-46-20-82",
+  "description": "az állami alapadatok felhasználásával végzett sajátos célú földmérési és térképészeti tevékenységről",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § A rendelet alkalmazásában 1. adat: a határvonal, a határvonalat alkotó pontok; 2. alakzat: a digitális alaptérkép állami alapadatai közül a felületszerű objektum; 3. attribútum adat: a digitális alaptérkép objektumainak leíró adata; 4. azonosító: a felületszerű objektumok esetében a helyrajzi szám, alrészlet jel és minőségi osztály jel; 5. DAT adatcsere formátum: a digitális alaptérképek készítésére vonatkozó jogszabályban meghatározott adatcsere formátum; 6. EOV: az egységes országos vetületi rendszer; 7. EOTR: az egységes országos térképrendszer; 8. ingatlan-nyilvántartási térképi adatbázis: az állami földmérési alaptérkép adatbázisa, amely az egységes ingatlan-nyilvántartási adatbázis geometriai részét képezi; 9. egységes ingatlan-nyilvántartási adatbázis: olyan adatbázis, mely az ingatlanoknak az ingatlan-nyilvántartásról szóló törvényben meghatározott tartalommal rendelkező adatbázisából és az ingatlan-nyilvántartási térképi adatbázisból áll; 10. geometriai változással érintett objektum (alakzat): a változással érintett és az ahhoz közvetlenül csatlakozó objektum, melynek a változás során létrejövő új határpontok miatt a geometriája megváltozik; 11. geometriai leírás: az objektumok (alakzatok) pontokkal és vonalösszekötésekkel (szakaszokkal) való meghatározása; 12. határpont: a közigazgatási egység, az alegység, a földrészlet, az alrészlet és a minőségi osztály határvonal valamely pontja; 13. határvonal: a közigazgatási, az alegység, a földrészlet, az alrészlet, valamint a minőségi osztály határpontjait összekötő egyenes szakaszok; 14. változási vázrajz: az ingatlan-nyilvántartási térképi adatbázis tartalmának felhasználásával készített digitális és papír alapú földmérési munkarész; 15. változási állomány: a változással érintett földrészletek határvonalán belül csak az ingatlan-nyilvántartási térképi adatbázis tartalmát érintő, változás utáni állapotot tartalmazó adatállomány."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § A rendelet alkalmazásában a 2007. december 31. előtt hatályos, analóg (papír, fólia stb. adathordozón lévő) ingatlan-nyilvántartási térképek digitális átalakításával létrehozott adatbázisokat a földmérési és térképészeti tevékenységről szóló 1996. évi LXXVI. törvény (a továbbiakban: Fttv.). 23. § (4) bekezdése alapján az analóg ingatlan-nyilvántartási térképek digitális másolatának kell tekinteni és az ingatlan-nyilvántartásról szóló 1997. évi CXLI. törvény 21. § (2) bekezdése alapján ingatlan-nyilvántartási térképként kell használni."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) Az ingatlan-nyilvántartási térképi adatbázis állami alapadatainak felhasználásával készülő sajátos célú földmérési munkákhoz történő adatszolgáltatás előtt a földmérési munkával érintett terület ingatlan-nyilvántartási adatainak és attribútumainak egymással való összhangját a földhivatalnak ellenőriznie kell. Ennek keretében vizsgálni kell, hogy az érintett alakzatok ingatlan-nyilvántartási térképi adatbázisban tárolt műszaki területei összhangban vannak-e a nyilvántartott területekkel. A vizsgálat szoftveres eljárással végzendő, az adatszolgáltatás átfutási idején belül. (2) Az ingatlan-nyilvántartási térképi adatbázisban tárolt, felületszerű objektumok által meghatározott alakzatok területét műszaki területnek kell tekinteni. (3) Amennyiben a nyilvántartott területi adatok és az ingatlan-nyilvántartási térképi adatbázis adataiból számítható műszaki területi adatok közötti különbség meghaladja a 20. § (1) bekezdésében meghatározottak szerinti megengedett eltérést, a földhivatal a 59–61. §-ban foglaltak szerint köteles eljárni."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) Az átnézeti térképek digitális változatát az ingatlan-nyilvántartási térképi adatbázisból generalizálással kell előállítani, az állami térképre vonatkozó jogszabályokban meghatározott tartalmi és pontossági előírások figyelembevételével. (2) Analóg adathordozón lévő átnézeti térképek szolgáltatásakor a másolaton fel kell tüntetni a rendelkezésre álló térkép készítésének és az adattartalom utolsó aktualizálásának időpontját. (3) Az (1) bekezdés szerint elkészített digitális átnézeti térkép a földhivatallal előzetesen egyeztetett formátumban, vagy szelvényenkénti kinyomtatásban szolgáltatható."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § A változási állományt a változási vázrajz adataiból kell előállítani, amely a változással érintett földrészletek határvonalán belül csak az ingatlan-nyilvántartási térképi adatbázis tartalmát érintő, változás utáni állapotot tartalmazza."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § (1) Közigazgatási egységek határvonalának változásával összefüggő változási vázrajz fajtái: a) az államhatár változásával összefüggő változási vázrajz, valamint b) a közigazgatási határ – ideértve a megyehatár, a település, kerületenkénti ingatlan-nyilvántartási egység esetében a kerület, valamint a fekvés határát – változásával összefüggő változási vázrajz. (2) Földrészlet határ változásával összefüggő változási vázrajz fajtái: a) a megosztással összefüggő változási vázrajz; b) a telekegyesítéssel összefüggő változási vázrajz; c) a telekhatár-rendezéssel összefüggő változási vázrajz; d) telekcsoport újraosztásával összefüggő változási vázrajz, továbbá e) a kisajátítási változási vázrajz. (3) Földrészleten belüli állami alapadatok változásával összefüggő változási vázrajz fajtái: a) az épületek, önálló tulajdonú épületek, valamint a közterületről nyíló pincék feltüntetésével vagy ábrázolásának megszüntetésével összefüggő változási vázrajz; b) a művelési ág változásával összefüggő változási vázrajz. (4) Változási vázrajzként kell kezelni az ingatlan-nyilvántartási térképi adatbázis tartalmában változást nem eredményező alábbi változási vázrajzokat, térképeket és vázlatokat: a) jog bejegyzésére szolgáló változási vázrajz; b) tény feljegyzésére szolgáló változási vázrajz; c) kitűzési vázrajz és kitűzési vázlat; d) felmérési vázlat, megvalósulási térkép; e) földrészleten belüli használati megosztással összefüggő vázrajz."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § (1) A változási vázrajz készítése az Fttv. 21. § (1) bekezdése alapján szakképzettséghez kötött tevékenység. A vázrajz készítőjének a földmérési és térképészeti tevékenységről szóló 1996. évi LXXVI. törvény egyes rendelkezéseinek végrehajtásáról szóló 21/1997. (III. 12.) FM–HM együttes rendelet 8. §-ában felsorolt szakképzettségek valamelyikével kell rendelkeznie. (2) A változási vázrajz minőségtanúsítását az Fttv. 21. § (4) bekezdés b) pontja alapján ingatlanrendező földmérői minősítést adó engedéllyel rendelkező személy végezheti. (3) Telekalakítással és kisajátítással kapcsolatos vázrajzok esetében a telekalakításra, valamint a kisajátításra vonatkozó jogszabályoknak a készítő jogosultságára vonatkozó előírásait figyelembe kell venni."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § (1) A változási vázrajzokat hitelesített állami alapadatok felhasználásával kell elkészíteni. A vázrajz megnevezése – a 6. § (4) bekezdés c)–e) pontjában említettek kivételével – minden esetben: változási vázrajz. (2) A változási vázrajzot 1:1000, 1:2000, vagy 1:4000 méretarányban kell kinyomtatni. Indokolt esetben – a jobb áttekinthetőség érdekében – a földhivatallal egyeztetett módon ettől el lehet térni. (3) A változási vázrajzon és munkarészein az alaptérkép jelölései, valamint a 25. melléklet szerinti jelölések használhatóak. Amennyiben ezektől eltérő jelölések használata válik szükségessé, azokat – jelmagyarázatban – a vázrajzon külön fel kell tüntetni. (4) A változási vázrajzot és a hozzátartozó területkimutatást a rendelet mellékleteiben megadott minták szerinti formában és tartalommal kell kinyomtatni. (5) A kinyomtatott változási vázrajznak lehetőleg északi tájolásúnak kell lennie. Nem északi tájolás esetén az északi irányt a vázrajzon fel kell tüntetni."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § (1) A változási vázrajz címfeliratának tartalmaznia kell a település nevét, a fekvést, az érintett helyrajzi számokat, a változás jellegét, a vázrajz méretarányát, a vetület megnevezését, továbbá a készítő vállalkozó vagy vállalkozás nevét, a munkaszámot vagy iktatószámot. (2) Több közigazgatási egységre kiterjedő változás esetén a változási vázrajzot közigazgatási egységenként kell elkészíteni. Közigazgatási egységen belüli több fekvést érintő változás esetén a változási vázrajzot fekvésenként kell elkészíteni. (3) A földrészlet határvonalának változásával és kitűzésével kapcsolatos földmérési munka megkezdése előtt a munkavégzőnek be kell szereznie a megrendelő írásbeli nyilatkozatát arról, hogy az érintett földrészlet határvonalával kapcsolatosan volt-e, vagy jelenleg van-e folyamatban bírósági eljárás. (4) Ha a határvonal helyét korábban jogerős bírósági ítélettel állapították meg, akkor a munkát végző csak olyan vázrajzot készíthet, amely a bíróság által megállapított határvonalat és az ennek megfelelő területi adatokat tartalmazza. (5) Ha az adatok szolgáltatása és a munka leadása között 30 napnál hosszabb idő telik el, az adatszolgáltatáskor kiadott adatokat a munka leadása előtt a földhivatalnál egyeztetni kell. Az adatokban bekövetkezett időközi változásokat a munka elkészítése során a készítőnek figyelembe kell vennie."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § (1) A változási vázrajzon a készítőnek fel kell tüntetni: a) a készítés időpontját; b) a földmérő nevét (nyomtatott betűvel) és aláírását; c) a minőségtanúsítást végző nevét (nyomtatott betűvel), aláírását, az ingatlanrendező földmérői minősítésének számát; d) a készítő földmérő vállalkozó vagy vállalkozás bélyegzőlenyomatát; e) „A feltüntetett méretek a helyszínen mért mérési adatok” szövegű záradékot; f) „A változás akaratunknak megfelelően történt.” záradékszöveg alatt az érdekelt felek aláírására fenntartott helyet; g) a minőségtanúsítási záradékot a 45. § (5) bekezdése szerinti záradékszöveggel; h) a földmérési záradékot az 51. § (1) és (2) bekezdése szerint, valamint i) a záradékolást végző személy nevének, aláírásának és a földhivatal körbélyegzőjének fenntartott helyet. (2) A 7. § (3) bekezdésében meghatározott esetekben az építészeti-műszaki szakterületen érvényes geodéziai tervezési jogosultság megnevezését és számát fel kell tüntetni a változási vázrajzon az ingatlanrendező földmérői minősítés száma alatt. (3) A változási vázrajz vizsgálatra és záradékolásra történő benyújtásának nem feltétele a változással érintett földrészletek tulajdonosai aláírásának megléte a vázrajzon. (4) A rendeletben előírt és meghatározott záradékokon kívül a változási vázrajzon más záradékot a készítő nem tüntethet fel."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § (1) A változási vázrajzon ábrázolni kell az előzetes változásokkal kiegészített hatályos ingatlan-nyilvántartási térképi adatbázisnak megfelelő tartalommal a változás előtti, valamint a változás után keletkező állapotot. Ezen belül ábrázolni kell a meglévő és az új földrészletek helyrajzi számát, az alrészleteket és betűjelüket, a minőségi osztályok határvonalait, a művelési ágakat és a minőségi osztályok jeleit. Az épület feltüntetéséről készített változási vázrajzon ábrázolni kell az új vagy változott épületet, az utcanevet és a házszámot. (2) A változás utáni új földrészletek határvonalát és a változott épületeket 0,5 mm vastag, folytonos vonallal, a változott alrészletek határvonalát 0,5 mm vastag pontozott vonallal, valamint a megszűnt határvonalakat és egyéb térképi elemeket a megszüntetés jelével kiegészítve kell feltüntetni, a megváltozott régi helyrajzi számokat, alrészlet betűjeleket, utcaneveket, házszámokat át kell húzni és az újakat fel kell tüntetni. (3) A változási vázrajzon ábrázolni kell a változással érintett földrészletekhez csatlakozó szomszédos földrészletek helyrajzi számát, valamint a szomszédos földrészletek határvonalait (a változási vázrajzon mért legalább 2 cm hosszúságban). (4) A 16. § (3) bekezdésében meghatározott esetekben a változási vázrajzon a földrészlet változással érintett részét, valamint ennek környezetében a szomszédos földrészletek határvonalát (a változási vázrajzon mért legalább 2 cm hosszúságban) kell ábrázolni. A változási állománynak azonban a teljes földrészletet tartalmaznia kell. (5) A változási vázrajzon csak a változott vonalak jellemző terepi méreteit kell feltüntetni. Egyéb – ellenőrző, beillesztéshez szükséges stb. – méreteket a mérési jegyzetnek, a mérési vázlatnak, vagy tömbrajznak kell tartalmaznia."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. § (1) A változási vázrajzokhoz az ingatlan-nyilvántartási átvezetés céljának megfelelő területkimutatás tartozik. (2) A területkimutatás változás előtti része tartalmazza a hatályos ingatlan-nyilvántartásnak megfelelően a) a változás előtti helyrajzi számokat növekvő sorrendben; b) a földrészletek, az alrészletek betűjelét, művelési ágát és minőségi osztályát, c) a földrészletek, az alrészletek és a minőségi osztályok területi és kataszteri tiszta jövedelmi adatait (Ak), valamint d) a földrészletek területének összegét. (3) A területkimutatás változás utáni része tartalmazza a) a változás utáni helyrajzi számokat növekvő sorrendben, b) a földrészletek, az alrészletek betűjelét, művelési ágát és minőségi osztályát c) a földrészletek, az alrészletek és a minőségi osztályok területi és kataszteri tiszta jövedelmi adatait (Ak), d) az alrészletek (a minőségi osztályok) területének és kataszteri tiszta jövedelmének összegét földrészletenként, e) a földrészletek területének összegét, továbbá f) a változás utáni tervezett tulajdoni állapotot (amennyiben a megrendelő azt kéri, és az ehhez szükséges adatokat biztosítja). (4) A fővárosban a változás előtti és változás utáni rész között az eleső és hozzájövő részterületek kimutathatóak."
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. § (1) A változott területi adatokat a készítőnek a munkarészekhez csatolt területszámítási jegyzőkönyvből kell átvennie. A területkimutatás külön munkarészként is elkészíthető, de ebben az esetben a változási vázrajzot „A változási vázrajz a területkimutatással együtt hatályos.” záradékkal kell ellátni. (2) A külön munkarészként elkészített területkimutatáson – a változási vázrajz méretaránya kivételével – fel kell tüntetni a 9. § (1) bekezdésében, valamint a 10. § (1) bekezdés a) pontjában foglaltakat."
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14. §",
+      "content": "14. § (1) A változási vázrajzok készítése során a terepi méréseket a digitális alaptérképek készítésére vonatkozó jogszabály tartalmi és pontossági előírásai szerint kell végrehajtani. A határvonalak azonosítása során a hatályos ingatlan-nyilvántartási térképi adatbázis kialakításához a digitálisan átalakított állami földmérési alaptérkép készítésénél alkalmazott mérési, térképezési és területszámítási pontossági előírásokat kell figyelembe venni. (2) A földmérési és térképészeti tevékenységről szóló 1996. évi LXXVI. törvény végrehajtásáról szóló 16/1997. (III. 5.) FM rendelet (továbbiakban: FM vhr.) 34. § (1) bekezdése által meghatározott esetekben a felmérést végző köteles a munkát a megyei földhivatalhoz bejelenteni. (3) A változási vázrajzok készítésének helyszíni munkálatai során – fekvéstől függetlenül – olyan mérési módszert kell alkalmazni, ami az ellenőrzött és az újonnan meghatározott pontok EOV koordinátáit eredményezi. (4) A változás során keletkező új földrészlet határpontokat a munka keretében a természetben ki kell tűzni és meg kell jelölni. (5) A változási vázrajz készítéséhez használt mérőeszközöknek ki kell elégíteni a mérésügyről szóló jogszabályok idevonatkozó előírásait."
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15. §",
+      "content": "15. § (1) A kisajátítási változási vázrajz és a hozzá tartozó területkimutatás elkészítésénél a kisajátításról szóló jogszabályok előírásait is figyelembe kell venni. (2) Erdőművelési ágban nyilvántartott földrészlet vagy alrészlet határvonalának változása esetében figyelembe kell venni az erdőről, az erdő védelméről és az erdőgazdálkodásról szóló jogszabályok előírásait is."
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16. §",
+      "content": "16. § (1) Az állami alapadatok felhasználásával készülő sajátos célú földmérési munka megkezdése előtt a munkát végző az érintett terület vonatkozásában ellenőrizni köteles az ingatlan-nyilvántartási térképi adatbázis adatainak egymással, valamint a helyszíni állapottal való összhangját, az attribútum adatokra is kiterjedően. (2) A földrészletek határvonalának azonosítását és ellenőrzését – függetlenül a változási vázrajz fajtájától – minden esetben el kell végezni, a 17. és 18. § előírásainak figyelembevételével. (3) Hosszan elnyúló földrészletek (utak, csatornák, vízfolyások, vasutak, egyéb vonalas létesítmények), valamint külterületen a 10 hektár területet meghaladó földrészletek esetében, ha a változással érintett terület nem haladja meg az összterület 25%-át, akkor a földrészletek adatainak és határvonalainak azonosítását csak a változással érintett területre kell elvégezni. (4) A földrészletek határvonalainak azonosításához és ellenőrzéséhez fel kell használni a hatályos ingatlan-nyilvántartási térképi adatbázist, valamint a földhivatalban rendelkezésre álló mérési, kitűzési adatokat is. Térképmásolatról méretlevétellel megállapított méreteket tilos felhasználni. (5) Ha az ellentmondás mértéke az ellenőrzött határvonal helyzetében a 18. és 19. § szerinti megengedett legnagyobb eltérést meghaladja, akkor az észlelt hibát – az ellenőrzést dokumentáló munkarészek csatolásával – a földhivatalnak írásban be kell jelenteni. A földhivatal a 59–62. § előírásai szerint köteles eljárni."
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17. §",
+      "content": "17. § (1) A földrészletek határvonalának helyszíni ellenőrzése során a rendelkezésre álló korábbi mérési adatokat és az ingatlan-nyilvántartási térképi adatbázis adataiból számítható méreteket a helyszíni ellenőrző mérések eredményeivel össze kell hasonlítani. Az ellenőrző méreteket – a mérési jegyzeten vagy a mérési vázlaton – a többi adattól eltérő módon kell dokumentálni. (2) Az ingatlan-nyilvántartási térképi adatbázisban tervezett (szaggatott) vonallal ábrázolt, vagy erre utaló attribútummal megjelölt határvonal helyzetét a tervezési méretek és a területi adatok alapján kell ellenőrizni. Ha a földrészletet részben folytonos, részben tervezett vonalak határolják, a folytonos vonal helyzetét általában térképi adatok, a tervezett vonal helyzetét pedig a tervezési méretek, vagy ha más adat nem áll rendelkezésre, a nyilvántartott területi adatok felhasználásával kell ellenőrizni. Amennyiben a természetbeni használat iránya eltér az adatbázisban ábrázolt iránytól, akkor azt a munkát végző a természetbeni állapotot tartalmazó vázrajz és a vele összhangban levő mérési adatok átadásával egyidejűleg köteles jelezni a földhivatalnak. (3) Ha a terület eredeti tervezése hibásan történt, a földhivatal a 59–61. § előírásai szerint köteles eljárni."
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18. §",
+      "content": "18. § (1) A térképi és természetbeni állapotot azonosnak kell tekinteni, és a terepmunkához a természetbeni állapotot, az irodai feldolgozáshoz a térképi állapotot és a nyilvántartott területi adatokat kell kiinduló adatként elfogadni, ha a természetben állandó módon megjelölt pontok esetén a) a szabatosan felmért területen a térképi és természetbeni állapot között az eltérés aa) megtalálható és szabatosan megjelölt birtokhatár esetén a földrészlethatár helyzetében a ±0,1 métert, ab) fel nem lelhető birtokhatár-jelölés esetén a földrészlethatár helyzetében ±0,2 métert nem lépi túl; b) a földrészletről korábbi munkarészekben (felvételi előrajzon, mérési vázlaton stb.) számszerű mérési vagy kitűzési adatok állnak rendelkezésre, az eredeti számszerű méretek és az ellenőrző méretek közötti eltérés nem nagyobb ±0,3 méternél; c) az EOTR földmérési alaptérkép terepi kiegészítő mérések nélküli digitális átalakításával készült térképi adatbázis esetén a 1. melléklet A) táblázatban megadott értéknél kisebb az eltérés, vagy d) a nem EOV vetületi rendszerű alaptérkép terepi kiegészítő mérések nélküli digitális átalakításával készült adatbázis esetén a 1. melléklet B) táblázatban megadott értéknél kisebb az eltérés. (2) A természetben állandó módon meg nem jelölt pontok esetén, ha az eltérés ellentétele a vizsgált hely környezetében kimutatható, akkor az (1) bekezdés a)–d) pontja alapján a térképi és a természetbeni állapot nem tekinthető azonosnak. (3) Több földrészlet töréspontjainak folyamatos összemérése a földrészletek szélességének megállapításánál mérési vonalnak minősül. Amennyiben a mérési vonalra vonatkozó, a természetben mért és a grafikus térképi alapú adatbázisból meghatározott végméret közötti különbség (záróhiba) nem haladja meg a 1. melléklet A) és B) táblázataiban szereplő (méterben kifejezett) megengedett eltérés értékét, a mérési vonalon belül a részletpontok helyzetét a záróhiba arányos elosztásával kell meghatározni. Az így meghatározott részletpontok esetében az (1) bekezdés c) és d) pontja alapján kell a térképi és természetbeni állapot azonosságát megállapítani. (4) Szabatosan megjelölt és meghatározott részletpontok esetében a koordinátákból (mérési eredményekből) számított és a terepen mért távolság közötti eltérés nem haladhatja meg a 2. melléklet C) táblázatában, méterben megadott értéket."
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19. §",
+      "content": "19. § (1) A digitális alaptérképek készítéséről szóló jogszabály előírásai szerinti újfelméréssel vagy terepi mérésekkel (tömbkontúros felméréssel) kiegészített digitális átalakítással készült alaptérképi adatbázisok esetén az 3. melléklet táblázataiban megadott tűréshatárokat kell alkalmazni. (2) Terepi kiegészítő mérésekkel végzett digitális átalakítással készült térképi adatbázisok esetén a tömbbelsőkben lévő pontokra a digitálisan átalakított állami földmérési alaptérkép készítésénél alkalmazott mérési, térképezési pontossági előírásokat kell figyelembe venni."
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20. §",
+      "content": "20. § (1) Az ingatlan-nyilvántartásban nyilvántartott terület és az ingatlan-nyilvántartási térképi adatbázisban tárolt határvonalak által meghatározott alakzat műszaki területe összhangban van, ha az ellenőrző területszámítás a) az EOTR ingatlan-nyilvántartási térkép digitális átalakításával előállított ingatlan-nyilvántartási térképi adatbázis esetében a nyilvántartott terület és az ellenőrzésképpen számított terület közötti eltérés nem lépi túl a 4. mellékletben megadott értékek másfélszeresét, b) a nem EOV vetületi rendszerű ingatlan-nyilvántartási térkép digitális átalakításával előállított ingatlan-nyilvántartási térképi adatbázis esetében a nyilvántartott és ellenőrzésképpen számított területi adatok közötti eltérés nem haladja meg a 5. mellékletben feltüntetett értékek másfélszeresét, valamint c) az alrészletek területszámítása esetén a megengedett eltérés nem haladja meg a 4. és 5. mellékletben feltüntetett értékek kétszeresét. (2) Az eredetileg EOV koordinátákból számított nyilvántartott területnek az ellenőrző numerikus területszámításból nyert területtel m2-re kell egyeznie. (3) A nem EOV előtti vetületi rendszerbeli koordinátákból számított nyilvántartott terület és az EOV koordinátákból számított terület megengedett eltérését az érintett területre számítható EOV vetületi méretarányszorzó alkalmazásával kell megállapítani."
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21. §",
+      "content": "21. § (1) A változási vázrajzok elkészítéséhez szükséges részletmérés során a változással érintett területen az állami alapadatok tartalmában bekövetkezett változásokat be kell mérni. (2) A részletpontok csoportosítását és a tűrési osztályok meghatározását az 3. melléklet szerint kell végezni. A részletpontok kódolásánál a 6. mellékletben megadott pontkódokat kell alkalmazni."
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22. §",
+      "content": "22. § (1) A műholdas helymeghatározáson alapuló mérések esetében a globális műholdas helymeghatározó rendszerek alkalmazásával végzett pontmeghatározásokról szóló jogszabály előírásait kell alkalmazni. (2) Terepi adatrögzítővel rendelkező hagyományos mérőeszközök alkalmazása esetén a rögzített mérési adatokat adathordozón kell leadni. Adatrögzítővel nem rendelkező hagyományos mérőeszközök alkalmazásával végzett mérések esetében a mérési eredményeket mérési jegyzőkönyvben vagy mérési jegyzeten kell feltüntetni. (3) A méréseket úgy kell dokumentálni, hogy a dokumentáció alapján a mérési adatokból a pontmeghatározás nyomon követhető és újból számítható legyen. (4) A mérési jegyzet a helyszínen készített alakhelyes vázlat, amelyen fel kell tüntetni minden helyszínen mért méretet és gyűjtött adatot. (5) Épületfeltüntetéshez az új, vagy megváltozott épületeket úgy kell bemérni, hogy a mérési adatok alkalmasak legyenek az ingatlan-nyilvántartási térképi adatbázisba történő beillesztésre."
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23. §",
+      "content": "23. § (1) A határvonalak helyzetének ellenőrzésére mérések és a részletmérés eredményéről mérési és számítási vázlatot kell készíteni. (2) A mérési és számítási vázlat manuálisan vagy számítógéppel készített méretarányos vázlat, amely a 12. és 16. melléklet mintájára tartalmaz minden méretet és adatot, amelyek a változási vázrajz rajzi részének szerkesztéséhez szükségesek. A mérési és számítási vázlat a változás típusától függően tartalmazza: 1. a munka számát (azonosítóját), 2. az ingatlan-nyilvántartási térképi adatbázis adataival egyezően változás előtti állapotot és a hozzá tartozó mérési adatokat, 3. az új állapotnak megfelelő vonalakat, 4. a mérési eredményeket, 5. a változás előtti és a változás utáni helyrajzi számokat, 6. a művelési ágak, alrészletek és minőségi osztályok jelölését, 7. a mérési vonalakat eredmény-vonallal, az ordináta vonalakat vékony szaggatott vonallal, 8. a pontok egyedi azonosítóit, 9. a megszűnt vonalakat kettős áthúzással érvénytelenítve, 10. a térkép-terepazonosság megállapításához végzett ellenőrző mérések és egyéb helyszíni mérések adatait az előzőektől eltérő módon feltüntetve, 11. a település és a fekvés nevét, 12. a házszámokat és utcaneveket, 13. szükséges esetben az északi irány megjelölését, 14. a készítő személy nevét (nyomtatott betűvel) és aláírását, 15. a minőségtanúsítást végző nevét (nyomtatott betűvel), aláírását, 16. a készítés dátumát és 17. a készítő vállalkozó vagy vállalkozás bélyegzőlenyomatát. (3) A mérési és számítási vázlaton feltüntethető a tulajdonosok neve, lakcíme. A földrészlet határpontok megjelölésének (állandósításának) módját jelkulcsi jellel kell jelölni (karó, kő stb.). (4) A mérési és számítási vázlatot a földhivatalnak leadandó munkarészekhez analóg formában csatolni kell. (5) Ha a mérési és számítási vázlat több lapból áll, a vázlatlapok elhelyezkedéséről, kapcsolatáról áttekintő vázlatot kell készíteni."
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24. §",
+      "content": "24. § (1) A 18. § előírásai szerint ellenőrzött és azonosnak talált határvonalak esetében a változás előtti műszaki terület az ingatlan-nyilvántartási térképi adatbázisban tárolt határvonalak által meghatározott alakzat területe, a változás utáni alakzat műszaki területe az új alakzatok koordinátáiból számított érték. A változás előtti és a változás utáni műszaki területek összegének azonosnak kell lenni. (2) A területszámítás során a változás előtti ingatlan-nyilvántartási területet csak akkor szabad felhasználni, ha a 20. § előírásai teljesülnek. (3) A változott alakzatok végleges területét a m2 -re kerekített műszaki területből kiindulva a területarányos ráosztás módszerével úgy kell meghatározni, hogy területösszegük a változás előtti ingatlan-nyilvántartási területek összegével megegyező legyen. A változott alakzatok végleges területének meghatározását területszámítási jegyzőkönyvben kell dokumentálni. (4) A földrészleten belüli alrészletek területösszegének a földrészlet területével, az alrészleteken belül a minőségi osztályok területösszegének pedig az alrészlet területével kell megegyeznie. (5) A területkimutatásban a kataszteri tisztajövedelem (Ak érték) változás előtti és változás utáni értékei eltérhetnek egymástól."
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25. §",
+      "content": "25. § (1) Felmérési, térképezési és területszámítási hiba kijavításához készített változási vázrajz esetén a változás előtti és utáni területösszegek eltérhetnek. Ezekben az esetekben a közigazgatási egység területelszámolását el kell készíteni. (2) A területszámítás során a változással meghatározott vonalpontot töréspontként kell kezelni. A vonalponttal érintett, de egyébként nem változó földrészleteket geometriai változással érintett objektumnak kell tekinteni. A területszámításba az ilyen alakzatot is be kell vonni. A változási vázrajz területkimutatásába ezeket a földrészleteket nem kell felvenni."
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26. §",
+      "content": "26. § (1) Amennyiben az új állami földmérési alaptérképi adatbázis állami átvételi vizsgálatra alkalmasságáról a földhivatal a nyilatkozatot még nem adta ki, a változási vázrajzot a hatályos ingatlan-nyilvántartási térképi adatbázis és a hozzátartozó területi adatok, továbbá az egyéb munkarészek alapján kell elkészíteni. (2) Az új állami földmérési alaptérképi adatbázis állami átvételre való alkalmasságára vonatkozó nyilatkozat kiadását követően – az ingatlan-nyilvántartás átalakításának befejezéséig és az új ingatlan-nyilvántartási térképi adatbázis forgalomba adásáig terjedő időszakban – mind az új, mind a hatályos ingatlan-nyilvántartási térképi adatbázis, valamint hozzátartozó munkarészek alapján kell a változási munkarészeket elkészíteni. A kettős munkarészek közötti összhang biztosítása a készítő feladata. (3) A forgalomba nem adott munkarészekből szolgáltatott adatokat „Ingatlan-nyilvántartás átalakítása előtti állapot” figyelmeztető felirattal kell ellátni."
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27. §",
+      "content": "27. § (1) Az állami földmérési alaptérképi adatbázis készítéséhez szükséges első földhivatali adatszolgáltatás időpontjától az alaptérkép készítésére vonatkozó szerződésben meghatározott időpontig az elkészült sajátos célú, új vagy változott állami alapadatot tartalmazó, jogerős változási munkarészeket összegyűjtve, rendszerezve, bedolgozás céljából a felmérést végző részére a földhivatal kéthavonta köteles átadni. Az átadás-átvételt a felmérési törzskönyvben dokumentálni kell. Jogerős határozat nélkül az ingatlan-nyilvántartás tartalmát érintő változási vázrajz bedolgozására – az épületfeltüntetési vázrajzok kivételével – intézkedni nem szabad. (2) Az állami földmérési alaptérképi adatbázis készítés helyszíni munkáinak befejezése, vagy a munka záróhelyszínelése után érkezett változási vázrajzok átvezetéséről – az állami átvételt követően – a földhivatal gondoskodik az új állami földmérési alaptérképen."
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28. §",
+      "content": "28. § (1) Az államhatár változásával kapcsolatos földmérési munkákat hatósági jogkörében eljárva a FÖMI végzi. (2) A változási vázrajzot és a kapcsolódó munkarészeket a hatályos ingatlan-nyilvántartási adatokat felhasználva a FÖMI készíti el a 7. és 8. mellékletekben megadott minta szerint, melyet vizsgálatra, záradékolásra és átvezetésre az érintett megyei földhivatal útján ad át a földhivatalnak."
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29. §",
+      "content": "29. § (1) Közigazgatási egységek és fekvések határvonalának változásához szükséges vázrajzokat az érintett település önkormányzatának képviselő-testületi határozata szerint kell elkészíteni. Az ilyen munkarészek záradékolásához a képviselő-testületi határozatot is csatolni kell. (2) Közigazgatási egységek és fekvések között közvetlenül csak egész földrészletek csatolhatóak át. Ha az átcsatolás csak a földrészlet egy részét érinti, akkor azt még az eredeti nyilvántartási egységben meg kell osztani. (3) Az átcsatolás után felhasználható helyrajzi számokat az adatszolgáltatáskor a földhivatal adja meg. (4) A változási vázrajzot a határátcsatolással érintett teljes területre vonatkozóan – az Fttv. 16. § (3) bekezdésére figyelemmel, a változással érintett közigazgatási egységek és fekvések hatályos ingatlan-nyilvántartási térképi adatbázisait is figyelembe véve – a nagyobb pontosságot biztosító technológiai eljárás követelményeinek betartásával, a 7. és 8. mellékletben lévő minta szerint kell elkészíteni."
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30. §",
+      "content": "30. § (1) A telekalakítási és kisajátítási eljárások esetén a földrészletek határvonalának változásáról változási vázrajzot kell készíteni. A vázrajzok készítése során a telekalakításra, valamint a kisajátításra vonatkozó jogszabályok előírásait is figyelembe kell venni. (2) A változott földrészletek helyrajzi számozását a helyrajzi számozásra vonatkozó jogszabály szerint kell végrehajtani. (3) A földrészlet határvonalak változási vázrajzának mintáit a 9–11. melléklet tartalmazza."
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31. §",
+      "content": "31. § (1) Az épületfeltüntetéshez készített változási vázrajzon az új vagy változott épületet 0,5 mm vastag folytonos vonallal kell ábrázolni. (2) Az épületfeltüntetéshez készített változási vázrajz kötelező tartalma a művelési ág feltüntetése. Az épületfeltüntetéshez készített változási vázrajz mintáját a 13. melléklet tartalmazza. (3) Ha a földrészletnek és a rajta lévő épületnek nem azonos a tulajdonosa, az épületfeltüntetéshez készített változási vázrajzon az épületet a földrészlethez kell kapcsolni. Az épületet vagy épületeket a helyrajzi számozásra vonatkozó jogszabály előírásainak megfelelően az „ABC” nagy betűivel kell megjelölni. A vázrajzon a 14. és 15. melléklet mintájára fel kell tüntetni a földrészlet helyrajzi számát, összterületét és az épület betűjelét, az épület alapterületét, rendeltetését, a helyszínen megállapítható utcanevet és a házszámot. (4) A (3) bekezdés szerinti épületről a változási vázrajzot abban az esetben is el kell készíteni, ha az épület az ingatlan-nyilvántartási térképi adatbázisban már szerepel. Az önálló tulajdonú épület betűjelét az ingatlan-nyilvántartási térképi adatbázisban is fel kell tüntetni."
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32. §",
+      "content": "32. § (1) Ha a változás új művelési ágat keletkeztet, a változási vázrajzon feltüntetett változott művelési ágat és annak minőségi osztályát a földhivatalnak a záradékolási eljárás során hivatalból kell megállapítania. (2) Amennyiben a művelési ág változás a földrészlet vagy adott alrészlet teljes területét érinti, a művelési ág változásának ingatlan-nyilvántartási térképi adatbázisban történő átvezetéséről a földhivatal gondoskodik."
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33. §",
+      "content": "33. § (1) Telki szolgalmi jog és földhasználati jog ingatlan-nyilvántartási bejegyzéséhez szükséges változási vázrajzon – a 17. melléklet mintájára – 0,5 mm vastagságú, hosszú szaggatott vonallal kell feltüntetni annak a területrésznek a határát, ameddig a szolgalmi jog vagy a földhasználati jog terjed. (2) A közös tulajdonban lévő ingatlanra vonatkozó több vagyonkezelői jog, villamos-berendezések elhelyezését biztosító használati jog, vezetékjog, vízvezetési és bányaszolgalmi jog bejegyzésével kapcsolatos változási vázrajzon – a 18. melléklet mintájára – 0,5 mm vastagságú hosszú szaggatott vonallal kell feltüntetni annak a területnek a határvonalát, amelyre a vagyonkezelői, vagy egyéb jog kiterjed. Az így kialakult földrészlet-részeket római számokkal kell megjelölni. (3) A villamos-berendezések elhelyezését biztosító használati jog ingatlan-nyilvántartási bejegyzéséhez szükséges változási vázrajzon a villamos-berendezéshez csatlakozó vezeték nyomvonalát a 19. melléklet mintájára kell ábrázolni. (4) Az ingatlan-nyilvántartási jogszabályokban meghatározott jogilag jelentős tény feljegyzésére szolgáló változási vázrajzokat a 17. melléklet mintájára kell elkészíteni. A változási vázrajz megnevezésében utalni kell a tárgyi tényre. A jogilag jelentős tény által érintett terület határvonalát 0,5 mm vastagságú hosszú szaggatott vonallal kell feltüntetni, az így kialakult földrészletrészeket római számokkal kell megjelölni. (5) A nagy területi kiterjedésű, több földrészletet sorozatban, a tömbkontúron érintő (pl. belterületen vagy különleges külterületen történő vezeték jogi bejegyzés esetén) változási vázrajzok készítésénél a 16. § (3) bekezdésében foglalt előírásokat figyelembe kell venni. A tömbbelsőkben csak azoknak a birtokhatárpontoknak az ellenőrzését kell elvégezni, amelyeket a változás érinti."
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34. §",
+      "content": "34. § (1) A változási vázrajzon fel kell tüntetni a megjelölt területrészre vonatkozó jog, valamint tény tárgyát, területét és annak jogosultjait. (2) A 33. § (4) bekezdésében meghatározott esetekben a változási vázrajzhoz tartozó területkimutatást külön munkarészként kell elkészíteni az (1) bekezdésben megjelölt tartalommal a 20. és 21. melléklet mintájára. (3) A földmérési jelek elhelyezését biztosító használati jog ingatlan-nyilvántartási bejegyzéséhez nem kell változási vázrajzot készíteni, azt az alappont ingatlan-nyilvántartási térképi adatbázisban tárolt adata helyettesíti. Ennek tényét a földhivatalnak a bejegyzés alapját képező ügyiratra fel kell jegyeznie. (4) A 33. § szerinti változási vázrajzok esetében változási állományt nem kell készíteni. A változási vázrajz térképi részét digitális állományban, vektoros formátumban a földhivatalnak át kell adni. Az adathordozón text típusú fájlban el kell helyezni az állomány rétegkiosztására vonatkozó információkat is."
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35. §",
+      "content": "35. § (1) A felmérés során a földrészletek és a földrészleten belüli állami alapadatok (alrészlet, épület, építmény, egyéb természetes vagy mesterséges tereptárgy stb.), valamint az alapadatok tényleges helyzetét kell meghatározni vízszintes, és a megrendelő igénye esetén magassági értelemben. A felmérés során a pontmeghatározások megbízhatóságára az 3. melléklet szerinti tűréshatárokat kell alkalmazni. (2) Az állami alapadatok felhasználásával végzett földrészleten belüli felmérések, valamint megvalósulási térképek készítése során az adott földrészlet határvonalainak természetbeni helyzetére ellenőrző méréseket kell végezni. (3) A felmérés eredményét felmérési vázrajzon vagy megvalósulási térképen kell ábrázolni, változási állományt nem kell készíteni. (4) A földhivatal részére – az Fttv. 16. § (4) bekezdésében foglalt rendelkezése alapján – a felmérési vázrajz egy kinyomtatott példányát, valamint felmérés egyéb munkarészeit át kell adni. Megvalósulási térkép esetében a felmérés eredményét elégséges adathordozón digitális, vektoros állományban, az állomány rétegkiosztására vonatkozó információt is tartalmazó kísérő bizonylattal átadni a földhivatalnak. (5) Az átadott munkarészeket a földhivatal nem záradékolja."
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36. §",
+      "content": "36. § (1) Az Fttv. 16. § (4) bekezdésében foglalt rendelkezés alapján az állami alapadatok felhasználásával végzett – legalább egy felmérési tömb vagy egy közterületi földrészlet területét érintő – tervezési célú térképek készítése esetén a közterületi földrészletek főbb töréspontjaira ellenőrző mérést kell végezni, a földrészletek természetbeni és jogi határvonala közötti eltérések feltárása érdekében. (2) Az ellenőrző mérések eredményét a határpontokat tartalmazó vektoros adatállományban vagy pontszámokkal beazonosítható koordináta jegyzékben elektronikus dokumentum formában, valamint az ellenőrző pontmeghatározás mérési adatait elektronikus formában kell a földhivatalnak átadni. Az ellenőrzések eredményét tartalmazó munkarészek kísérő bizonylattal együtt elektronikus levél formájában is benyújthatók a földhivatalhoz. (3) Az átadott munkarészeket a földhivatal nem záradékolja, az állami alapadatok ellenőrző mérése során meghatározott koordinátákat településenkénti bontásban, az állami alapadatoktól elkülönítve tárolja."
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37. §",
+      "content": "37. § (1) Földrészlet használati megosztása az közös tulajdonban lévő földrészleten belüli használati rend tervezésére, rögzítésére és dokumentálására irányuló földmérési tevékenység. (2) A használati megosztást az ingatlan-nyilvántartási adatok (térkép, tulajdoni lap) felhasználásával a 30. § (1) bekezdésében foglalt előírásokat figyelembevételével kell végezni. (3) A használati megosztási vázrajzon az elkülönülő használati határokat 0,5 mm vastagságú hosszú szaggatott vonallal kell ábrázolni. A földrészlet-részeket római számokkal kell megjelölni. Fel kell tüntetni az egyes részek területét és jogosultját. A vázrajzot az „Ez a vázrajz ingatlan-nyilvántartási átvezetésre nem használható!” szövegű záradékkal kell ellátni."
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38. §",
+      "content": "38. § (1) A kitűzés a hatályos ingatlan-nyilvántartási térképi adatbázisban tárolt földrészlet határpontjainak helyszíni kijelölésére irányuló földmérési tevékenység. (2) A kitűzési munkát végzőnek az Fttv. 21. § (4) bekezdése szerint ingatlanrendező földmérői minősítést adó engedéllyel kell rendelkeznie. A kitűzési munka minőségéért a munkát végző földmérő felelős. (3) A kitűzési munka megkezdése előtt a 9. § (3) és (4) bekezdésében foglaltaknak megfelelően kell eljárnia. (4) Kitűzési munka peres eljárás alatt levő földrészleten nem végezhető, kivéve, ha a bíróság a peres eljárást a felek kérelmére – a kitűzési munka elvégzéséig – felfüggesztette, továbbá ha az igazságügyi földmérő szakértő a bíróság kirendelésére végez kitűzési munkát. (5) Ha a földrészlet ingatlan-nyilvántartási térképi adatbázisban tárolt határvonala eltér a 9. § (4) bekezdés szerinti jogerősen megállapított határvonaltól, a kitűzést fel kell függeszteni és az eltérésről a munkát végző köteles értesíteni a földhivatalt. (6) Ha a földrészlet határvonalára vonatkozó bírósági határozat nem áll a földhivatal rendelkezésére, akkor a földhivatal hivatalból megkeresi a bíróságot, kérve az ítélet és az annak alapját képező változási vázrajz megküldését."
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39. §",
+      "content": "39. § (1) Ismételt kitűzés esetén, vagy ha a szomszédos földrészlet kitűzése korábban már megtörtént, a korábbi munkarészek mérési adatait – pl. mérési és kitűzési vázlat, változási vázrajz stb. – figyelembe kell venni, a 18. § (1) bekezdés b) pontjának megfelelően. (2) A kitűzés előkészítésekor vizsgálni kell, hogy az ingatlan-nyilvántartási térképi adatbázisban szereplő alakzat összhangban van-e a rendelkezésre álló adatokkal és ezek milyen mértékben használhatóak fel a földrészlet határ kitűzésénél. Az alakzat és a mérési, valamint a területi adatok összhangja esetén meg kell határozni a kitűzési méreteket, továbbá azokat a méreteket is, amelyek alkalmasak a kitűzéshez felhasználható térkép-terep azonos pontok kiválasztásához. (3) A kitűzés előkészítése során észlelt felmérési, térképezési vagy területszámítási hiba kijavítását a földhivatalnál kezdeményezni kell. Ebben az esetekben a kitűzési munkálatokat fel kell függeszteni és csak a hiba kijavítására vonatkozó földhivatali határozat jogerőre emelkedése után szabad azt folytatni. (4) Az ingatlan-nyilvántartási térképi adatbázisban tervezett határvonallal ábrázolt földrészlet határok kitűzése esetén a tervezés alapjául szolgáló munkarészeket – amennyiben rendelkezésre állnak – az előkészítésbe be kell vonni. Ha a kitűzött határvonal a 3. mellékletben megadott tűrési határon belül megegyezik az adatbázisban tárolt határvonallal, a határvonalat az adatbázisban a kitűzési méretek alapján érvényesíteni kell. Ennek megtörténtét a vázrajzon „A kitűzött határvonal az ingatlan-nyilvántartási térképi adatbázisban átvezetve!” záradékszöveg elhelyezésével dokumentálni kell."
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40. §",
+      "content": "40. § (1) A földrészlet határ helyszíni kitűzését kitűzési vázlat alapján kell végezni. A 22. melléklet mintájára elkészített vázlaton fel kell tüntetni a kitűzendő és az ellenőrzés céljára felhasználható pontokat, határvonalakat, méreteket és a felhasznált egyéb adatokat. (2) A kitűzési vázlatot ki kell egészíteni a helyszínen mért adatokkal, és fel kell tüntetni, hogy a kitűzött határvonal töréspontjait hogyan jelölték meg. (3) Ha a kitűzött határvonal helyzete a tényleges használattól a 18. és 19. § előírásai szerint meghatározott értéknél nagyobb mértékben tér el, akkor a természetben használt határvonalat be kell mérni, annak helyét és meghatározó méreteit a kitűzési vázlaton a jogerős állapottól eltérő módon fel kell tüntetni. A kitűzött és a jogi állapot közötti terület különbségét ki kell számítani. A kitűzési vázlaton a térképi és a természetbeni állapot közötti eltérésnek megfelelő területrészt meg kell jelölni. (4) A kitűzés során az eljáró földmérő köteles a kitűzendő pont természetbeni helyét a 3. mellékletben megadott tűréshatárokon belül – az alkalmazott módszertől függetlenül – az eltérés arányos elosztásával meghatározni. A természetben már megjelölt határponthoz képest a megadott tűréshatáron belül újabb határjelet elhelyezni nem szabad. (5) A kitűzött határpontokat vízszintes értelemben centiméter élességgel azonosítható jellel kell megjelölni."
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41. §",
+      "content": "41. § (1) A kitűzésről a megrendelő részére – a főbb kitűzési méreteket tartalmazó – kitűzési vázrajzot kell készíteni. Ha a kitűzés során a helyszíni és térképi állapot a 3. mellékletben megadott tűréshatáron túl eltér egymástól, a kitűzési vázrajzon az a) vagy a b) pontja szerinti záradékot értelemszerűen, a c) pont szerinti záradékot pedig minden esetben fel kell feltüntetni az alábbiak szerint: a) „A...helyrajzi számú földrészlet tulajdonosa a vázrajzon jelölt területrészt nem használja. A földrészletet csak a jogszabályban meghatározott feltételek esetén használhatja (pl. a szomszédos helyrajzi számú földrészlet tulajdonosának hozzájárulása, jogerős közigazgatási határozat vagy bírósági ítélet (egyezséget jóváhagyó végzés) [23. melléklet], b) „A...helyrajzi számú földrészletből a vázrajzon jelölt területrész az ingatlan-nyilvántartási térképi adatbázis szerint nem tartozik a kitűzött földrészlethez.” [24. melléklet], valamint c) „A kitűzött földrészlet határ pontjait... (pl. kővel, fakaróval stb.)... jelöltem meg.” (2) A kitűzés során keletkezett valamennyi munkarész egy példányát – a külön jogszabály rendelkezése alapján – a földhivatalnak meg kell küldeni."
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42. §",
+      "content": "42. § (1) A változás során kialakuló objektumok szerkesztését a digitális alaptérkép készítéséről szóló jogszabály előírásainak megfelelően kell végrehajtani. (2) A változási állománynak a változással érintett területre vonatkozóan csak a) az ingatlan-nyilvántartási térképi adatbázisban szerepelő és a változás ingatlan-nyilvántartási átvezetése után is hatályban maradó adatokat, továbbá b) az olyan új vagy változott adatokat, amelyek a változás ingatlan-nyilvántartási átvezetése után válnak hatályossá, valamint c) a digitális alaptérképek készítéséről szóló jogszabály szerinti kötelező attribútum adatokat kell tartalmaznia. (3) A változási állományt a földhivatalnak vizsgálatra és záradékolásra DAT adatcsere formátumban kell átadni. (4) A változási állományt tartalmazó adathordozón külön text típusú fájlban el kell helyezni a) a készítő nevét, b) munka számát, c) a munka megnevezését (település megnevezését, fekvését, változás típusát), d) az érintett földrészletek helyrajzi számait, és e) az adatállomány méretét."
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43. §",
+      "content": "43. § (1) A változási állományok átadása esetén a záradékolás iránti kérelemnek tartalmaznia kell a) a készítő nevét, b) a munkaszámot, c) a munka megnevezését (település megnevezését, fekvését, változás típusát), d) érintett földrészletek helyrajzi számait, e) a földhivatal által a munka megkezdésekor szolgáltatott és a földhivatali vizsgálatra, záradékolásra leadott adatállomány típusát, nevét, nagyságát, formátumát, f) a nyilatkozatot arról, hogy a feltüntetett adatállományok szerepelnek az átadott adathordozón, g) a földhivatali vizsgálatra, záradékolásra leadás dátumát, h) az átadó és az átvevő személy nevét, aláírását, bélyegzőlenyomatát, i) az adathordozó vírusmentességének igazolását (vírusvizsgáló program nevét, vírusvizsgálat időpontját, vírusvizsgálatot végző nyilatkozatát, aláírását), és j) az átadott digitális adatok tartalomjegyzékét. (2) A földhivatali vizsgálatra és záradékolásra történő átadáskor a földhivatal ellenőrzi, hogy a változási állomány a nyilatkozatban feltüntetett nevű, típusú, nagyságú adatállomány, és olvasásra megnyitható."
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44. §",
+      "content": "44. § (1) A változással érintett területen az ingatlan-nyilvántartási térképi adatbázisban tárolt pontok pontszámait megváltoztatni nem szabad, pontkódjaik esetleges változása esetén az 6. melléklet előírásait kell alkalmazni. A változás során megszűnő pontok megtartják eredeti pontszámaikat. (2) A változási állományban az új pontokat 1-től kezdődően folyamatos számozással kell ellátni. Az új pontok pontkódjait az 6. melléklet szerint kell meghatározni. (3) A fővárosi változási vázrajzok készítéséhez az új határpontokat az ingatlan fekvése szerint illetékes budapesti Járási Földhivatal által előírt pontszámokkal kell megjelölni."
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45. §",
+      "content": "45. § (1) A változási vázrajz és a hozzá tartozó munkarészek belső vizsgálatát és minőségének tanúsítását az FM vhr. 31. § (1)–(5) bekezdésében foglalt előírásoknak megfelelően kell elvégezni. A belső vizsgálatot és annak tanúsítását, valamint a munka tényleges minőségét a földhivatal ellenőrzi. (2) A belső vizsgálat során a helyszíni munka tényleges minőségét és az irodai munka helyességét kell ellenőrizni. A vizsgálat elvégzését és a feltárt hibák javítását dokumentálni kell. A minőség tanúsítását a műszaki leírásban a 26. melléklet alapján és a térképi munkarészeken fel kell tüntetni. (3) A belső vizsgálat végrehajtásáról vizsgálati jegyzőkönyvet abban az esetben kell készíteni, ha a változás előtti és a változás utáni földrészletek együttes száma ötnél több. (4) Változás előtt és után összesen ötnél kevesebb földrészletet érintő munka esetén műszaki leírást készíteni nem kell, ilyen esetben a munka minőségét a vizsgálatot végző az aláírásával tanúsítja. (5) A belső vizsgálat alapján a tartalmi és pontossági szempontból megfelelő munka minőségét „A változási vázrajz megfelel a 46/2010. (IV. 27.) FVM rendeletben foglalt tartalmi és pontossági előírásoknak.” záradék feltüntetésével és a vizsgálatot végző személy aláírásával kell tanúsítani."
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46. §",
+      "content": "46. § A változási vázrajz vizsgálatához és záradékolásához – a változási vázrajz fajtáitól és az alkalmazott mérési módszertől függően – az alábbi iratokat és munkarészeket kell a földhivatalnak átadni: 1. vizsgálat és záradékolás iránti kérelmet, 2. borítólapot vagy dossziét, 3. tartalomjegyzéket, 4. műszaki leírást (minőségi tanúsítványt), 5. vizsgálati jegyzőkönyvet, 6. adatszolgáltatási számla számát, 7. a felhasznált alappontok helyszínelés eredményével kiegészített pontleírásait, 8. a felhasznált és újonnan létesített alappontok és részletpontok koordináta-jegyzékét és pontleírását, 9. mérési- és számítási jegyzőkönyveket kinyomtatva és adathordozón, 10. mérési és számítási vázlatot (tömbrajzot, pontszámos mérési vázlatot), tervezési és kitűzési (kiosztási) vázlatot adathordozón PDF-formátumban, valamint ezek kinyomtatott változatát, 11. mérési jegyzetet papíron, 12. területkimutatást a változási vázrajzon vagy külön munkarészként, 13. területszámítási munkarészeket, 14. változási vázrajzot adathordozón PDF-formátumban, valamint ennek kinyomtatott változatát a megrendelő által kért, de legalább 6 példányban, 15. a 33. § szerinti változási vázrajzok esetében a 34. § (4) bekezdése szerinti adatállományt, 16. változási vázrajzhoz tartozó változási állományt adathordozón, 17. épületfeltüntetéshez és bontáshoz készített vázrajz esetén a jogerős használatbavételi, fennmaradási vagy bontási engedélyt, építésügyi hatósági bizonyítványt és kérelmet az ingatlan-nyilvántartási bejegyzéshez."
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47. §",
+      "content": "47. § (1) A változási vázrajzok vizsgálatát és záradékolását a közigazgatási hatósági eljárás és szolgáltatás általános szabályairól szóló 2004. évi CXL. törvény (a továbbiakban: Ket.) előírásai szerint kell végrehajtani. Ha a munka során új alappont létesítésére is sor került, az alappont-sűrítést a megyei földhivatal külön eljárásban vizsgálja. (2) A vizsgálat során ellenőrizni kell: 1. a munkát végző személy jogosultságát a munka elkészítésére; 2. az adatszolgáltatási és a vizsgálati igazgatási szolgáltatási díj befizetésének igazolását; 3. ha a munka bejelentési kötelezettség alá tartozik, a bejelentés megtörtént-e, és a készítő figyelembe vette-e a visszaigazolásban előírtakat; 4. az 45. § szerinti belső vizsgálatot és a minőség tanúsítását arra jogosult személy végezte-e; 5. az alappont-sűrítésre a vonatkozó előírások betartását; 6. a vázrajznak az e rendeletben meghatározott alaki és tartalmi követelményeinek való megfelelőségét; 7. a változási vázrajz területkimutatásának változás előtti oldala egyezőségét a hatályos ingatlan-nyilvántartási állapottal, valamint a hatályos záradékkal rendelkező, előzetesen nyilvántartásba vett állapottal; 8. kettős munkarész készítése esetén az új alaptérkép szerinti állapot változás előtti oldalának az adatszolgáltatás szerinti állapottal való egyezését; 9. a helyrajzi számozásra vonatkozó jogszabály előírásainak való megfelelőséget; 10. a területszámítás helyességét, a 24. § (3) bekezdésében előírt munkarészek becsatolását; 11. a leadott digitális állományok vírusmentességét; valamint 12. a leadott változási vázrajz digitális adatállománya és a kinyomtatott változási vázrajz egyezőségét. (3) A vizsgálat során ellenőrző területszámítást kell végezni. (4) A változási munkarészek eseti helyszíni vizsgálata során a földhivatal mintavételes eljárással győződik meg arról, hogy a földmérési munkarészekben feltüntetett állapot az 1. és a 3. melléklet táblázataiban megadott tűréshatáron belül megegyezik-e a természetben található állapottal. (5) Vizsgálni kell a változási állomány geometriai és topológiai helyességét. (6) Termőföldet, valamint mező-, erdőgazdasági művelés alatt álló földet érintő változás esetén a változási vázrajzot a földmérési vizsgálattal egy eljárásban földminősítési szempontból is vizsgálni kell."
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48. §",
+      "content": "48. § (1) Ha a 47. § (2) bekezdés 1. és 4. pontjában előírt feltételek valamelyike nem teljesül, a záradékolási kérelmet el kell utasítani. (2) Bejelentésre kötelezett munkáknál az alappontsűrítést a megyei földhivatal vizsgálja. Ha a betekintő vizsgálat alapján megállapítható, hogy az alappontsűrítés a földmérési és térképészeti tevékenységről szóló jogszabályok előírásainak nem felel meg, azt további vizsgálat nélkül el kell utasítani. (3) Bejelentésre kötelezett munkáknál a földhivatal vizsgálata során e rendeletben foglalt előírásoknak megfelelően jár el, függetlenül az alappontsűrítés megyei földhivatali vizsgálatától."
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49. §",
+      "content": "49. § (1) Ha a 47. § (2) bekezdés 6–10. pontjában, továbbá a 47. § (3)–(5) bekezdésében előírtaknak a munka nem vagy csak részben felel meg, akkor a tételes vizsgálati jegyzőkönyvvel együtt a földhivatal hiánypótlásra vagy javításra visszaadja a záradékolást kérelmezőnek. (2) A munkát a hibajavítás végrehajtása után a földhivatalnak felül kell vizsgálnia, ellenőrizni kell a hibajavítás végrehajtását. Ha a készítő nem javította ki az összes feltárt hibát, vagy a hibajavítás során újabb hibák keletkeztek, a munkát ismételt javításra – vizsgálati jegyzőkönyvvel együtt – a záradékolást kérelmezőnek vissza kell adni. (3) A munka korábban nem kifogásolt tartalmi elemeit a hibajavítás ellenőrzése során új hibaként feltárni és annak javítását előírni nem lehet. Az olyan hibát, amelyet az első vizsgálat során nem tártak fel, a földhivatalnak kell kijavítania. A változási vázrajz záradékolása csak a feltárt hibák kijavítása után végezhető el. (4) Ha a vizsgálatra és záradékolásra benyújtott változási vázrajz, változási állomány, valamint a hozzátartozó munkarészek átvezetésre alkalmatlanok, vagy a feltárt hibák nem javíthatóak, a záradékolás iránti kérelmet el kell utasítani."
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50. §",
+      "content": "50. § (1) A megvizsgált és helyesnek talált változási vázrajzot a földhivatal záradékolja. (2) A záradékolással egyidejűleg a földhivatal a változási vázrajzot előzetes nyilvántartásba veszi, továbbá gondoskodik a változás ingatlan-nyilvántartási térképi adatbázisban történő előzetes átvezetéséről. (3) Ha a záradék időbeli hatályán belül az átvezetésre már korábban benyújtott változási vázrajzon kezelt földrészletek adatai időközben megváltoztak, akkor – az ingatlan-nyilvántartási átvezetés előtt – a vázrajz átdolgozása a földhivatal feladata. (4) Kisajátítással kapcsolatos változási munkarészeket a kisajátításról szóló jogszabályok előírásai szerint kell vizsgálni és záradékolni."
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51. §",
+      "content": "51. § (1) A földrészlethatár változással járó változási vázrajzokat a földhivatal „A helyrajzi számozás és a területszámítás helyes. Ez a záradék a keltezéstől számított egy évig hatályos, későbbi felhasználás előtt a vázrajzot újra záradékoltatni kell.” szövegű záradékkal látja el. (2) A földhivatal a 6. § (4) bekezdése szerinti változási vázrajzokat vizsgálat és nyilvántartásba vétel után „Az állami alapadat tartalom az ingatlan-nyilvántartási térképi adatbázis tartalmával megegyezik. Ez a záradék a keltezéstől számított egy évig hatályos, későbbi felhasználás előtt a vázrajzot újra záradékoltatni kell.” záradékszöveggel látja el. (3) A földhivatal a kitűzési, felmérési vázrajzokat, valamint a használati megosztáshoz készült vázrajzokat a településenkénti nyilvántartásába jegyzi be. Ezeket a vázrajzokat záradékolni nem kell, azonban a későbbi munkáknál ezek adatait figyelembe kell venni. (4) A (3) bekezdés szerinti vázrajzok esetében a földhivatal az 47. § (2) bekezdés 1–8. pontjában foglalt előírásoknak való megfelelőséget vizsgálja. Ezzel egyidejűleg a vázrajzokra a földhivatali nyilvántartási számot rá kell vezetni."
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52. §",
+      "content": "52. § (1) Épületváltozással kapcsolatos változási vázrajzok benyújtása esetében a tulajdonos aláírásával ellátott bejegyzési kérelmet is mellékelni kell. (2) A földhivatal az (1) bekezdés szerinti esetben a változási vázrajzot a rendeletben előírtak szerint megvizsgálja, nyilvántartásba veszi, majd a vázrajz valamennyi példányát „Előzetesen átvezetve.” záradékkal látja el, és intézkedik az épület ingatlan-nyilvántartási bejegyzése iránt. (3) Ha az (1) bekezdésben foglalt feltételek maradéktalanul nem teljesülnek a földhivatal az épületváltozással kapcsolatos változási vázrajzot előzetes nyilvántartásba veszi, az ingatlan-nyilvántartási térképi adatbázisban előzetesen átvezeti, majd a vázrajz valamennyi példányát „Előzetesen átvezetve.” záradékkal látja el. (4) Előzetesként nyilvántartott épületváltozást érvényteleníteni nem szabad. A kiadott térképmásolaton az előzetesként nyilvántartott épületváltozás nem szerepelhet."
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53. §",
+      "content": "53. § (1) A változási vázrajzok újrazáradékolására csak akkor kerülhet sor, ha a változási vázrajz változás előtti adatai megegyeznek a hatályos ingatlan-nyilvántartási adatokkal. Ebben az esetekben a változási vázrajzot „A záradék az újrazáradékolás keltezésétől számított egy évig hatályos.” záradékszöveggel kell ellátni és a záradékolást elvégezni. (2) Ha a lejárt hatályú záradékkal rendelkező változási vázrajz változás előtti adatai megváltoztak, az újrazáradékolásra nem kerülhet sor. Ebben az esetben a vázrajzot át kell dolgozni vagy új vázrajzot kell készíteni. Az átdolgozás, vagy új vázrajz készítése nem a földhivatal feladata."
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54. §",
+      "content": "54. § (1) Ha 1 évnél régebben záradékolt, és a változások előzetes nyilvántartásából már törtölt változásról készített változási vázrajz újrazáradékolását kérik, és a záradékolásnak egyéb akadálya nincs, a változást újból záradékolni kell, és ezzel egyidejűleg ismételten fel kell venni az előzetes változások nyilvántartásába. (2) Ha a földhivatal azt állapítja meg, hogy felmérési, térképezési vagy területszámítási hibával terhelt változási vázrajzot záradékolt, akkor a záradékot hatályon kívül kell helyezni. Ha a hibás vázrajz alapján már az ingatlan-nyilvántartási átvezetés megtörtént, akkor az Fttv. 11. § (7) bekezdése szerint kell eljárni."
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55. §",
+      "content": "55. § (1) A földhivatal az ingatlan-nyilvántartási térképi adatbázis tartalmában bekövetkező változásokat előzetes nyilvántartásba veszi. A nyilvántartásnak tartalmaznia kell a változással érintett földrészletek valamennyi változás előtti és változás utáni adatát, valamint biztosítani kell a változások mindkét irányban történő nyomon követhetőségét. (2) A változások előzetes nyilvántartását a) „A földrészletek változásának előzetes nyilvántartása” című nyomtatvány, vagy ezzel egyenértékű számítógépes nyilvántartás, b) az ingatlan-nyilvántartási térképi adatbázis, továbbá c) a területjegyzék és melléklete, vagy ezzel egyenértékű számítógépes nyilvántartás vezetésével kell végezni. (3) „A földrészletek változásának előzetes nyilvántartása” című nyomtatvány közigazgatási egységenként – az érintett földrészletek fekvés szerinti megkülönböztetése nélkül – időrendben, a következő adatokat tartalmazza: a) a változás előtti és utáni helyrajzi számot, b) a változási vázrajz iktatószámát, a változási jegyzék tételszámát, c) a záradékolás idejét, d) jegyzetrovatot, amelyben hivatkozni kell a tétel esetleges érvénytelenítésére, a helyrajzi szám további változására és a végleges átvezetésre. (4) Az előzetes nyilvántartásban településenként, évente 1-től kezdődően, változási okiratonként kell a sorszámozást végezni. A sorszámot mind a változási vázrajzon, mind pedig a mellékletét képező munkarészeken fel kell tüntetni. A változás előtti és a változással kialakult új földrészletek helyrajzi számát – a megfelelő oszlopba – soronként kell beírni. (5) A bejegyzéssel egyidejűleg a területjegyzék „Utalás a változásokra” című rovatában – az érintett földrészlettel egy sorban – az előzetes változásra utaló bejegyzéssel hivatkozni kell a nyilvántartásba vétel sor- és évszámára. További változás esetén a területjegyzék mellékletében – a helyrajzi szám sorában – kell az előzetes változás sor- és évszámára utalni."
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56. §",
+      "content": "56. § (1) Több egymásra épülő előzetes változás esetén a később benyújtott változási vázrajzra a „Megelőzi az E../... számú változási vázrajz átvezetése.” záradékot vezeti rá a földhivatal. (2) Ha az előzetes változással érintett földrészletre vonatkozóan a záradék hatályának ideje alatt a földhivatalhoz újabb változási vázrajz érkezik, melynek készítője azonos az eredeti munka készítőjével, valamint a vázrajz tartalmában csak módosítás történt, a változási vázrajzot az előzmény átdolgozásának kell tekinteni, ha az előzmény benyújtását követően a földrészletet érintő további változást a földhivatal nem vette nyilvántartásba. (3) A (2) bekezdés szerint átdolgozott vázrajzot az előzmény egyidejű érvénytelenítése mellett, az eredeti változási vázrajzzal azonos szám alatt kell nyilvántartani. Egyéb esetben az hatályos záradékkal rendelkező változási vázrajzot a földhivatal az „Hatályon kívül helyezi az E../... számú vázrajz.” szövegű záradékkal hatálytalanítja. (4) Amennyiben azonos kiinduló adatok felhasználásával különböző tartalmú változási vázrajzokat nyújtanak be záradékolásra, azokat előzetes változásként egyidejűleg kell nyilvántartani az egyik változat jogerőre emelkedéséig. Ilyen változási vázrajzokat csak folyamatban lévő bírósági ügyek esetében – a bírósági végzés egyidejű csatolásával – lehet benyújtani. Ezeket a változási vázrajzokat a „Jogerőre emelkedésével hatályon kívül helyezi az E../... számú vázrajzot (vázrajzokat).” záradékszöveggel kell ellátni. (5) A változások előzetes nyilvántartását a földhivatalnak rendszeresen felül kell vizsgálni. Azokat a tételeket, amelyekre vonatkozóan – a záradékolástól számított egy éven belül – átvezetésre alkalmas okiratot (ingatlan-nyilvántartási kérelmet) nem nyújtottak be, törölni kell."
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57. §",
+      "content": "57. § (1) Az előzetesen nyilvántartott változások végleges átvezetését az egységes ingatlan-nyilvántartási adatbázisban ingatlan-nyilvántartási eljárás keretében kell végrehajtani. (2) A jogerőre emelkedett változások átvezetését a) az ingatlan-nyilvántartási térképi adatbázisban, valamint b) a település területjegyzékében és annak mellékletében, vagy az ezzel egyenértékű számítógépes nyilvántartásban kell végrehajtani. (3) Az ingatlan-nyilvántartás tartalmát érintő változási vázrajznak a bejegyzési kérelemhez csatolt példányát átvezetés után az ingatlan-nyilvántartási ügyirattal együtt, a földmérési vizsgálathoz benyújtott eredeti változási vázrajzot pedig a „Jogerős.../... szám alatt” szövegű záradékkal, keltezéssel és aláírással ellátva a földhivatal adat- és térképtárában kell tárolni. (4) A jogerős változási okirat megérkezése után – a változás végleges átvezetésével egyidejűleg – az előzetes nyilvántartás sorszámát érvényteleníteni kell, valamint a jegyzet rovatban fel kell tüntetni az ingatlan-nyilvántartási határozat számát. A területjegyzékben a változási jegyzék, vagy a területjegyzék melléklete tételszámára való utalás bejegyzésekor az előzetes nyilvántartás adatait érvényteleníteni kell, a szomszédos földrészletek topológiai egyezősége mellett. (5) Az állami alapadatok változásáról készített munkarészeket a későbbi visszakereshetőség érdekében nyilvántartásba kell venni. A változásvezetés következtében megszűnő térképi információkat meg kell őrizni, azok az ingatlan-nyilvántartási térképi adatbázisból fizikailag nem törölhetőek. Biztosítani kell, hogy a megszüntetett adatok bármikor visszakereshetőek legyenek."
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58. §",
+      "content": "58. § (1) Az ingatlan-nyilvántartási térképi adatbázis változásvezetésének általános követelményei: a) a változásoknak az ingatlan-nyilvántartási térképi adatbázisában folyamatosan, időrendi sorrendben nyomon követhetőnek kell lennie; b) az előzetesen és véglegesen átvezetett változások esetén a változás előtti állapotnak bármikor visszaállíthatónak kell lennie. (2) A földhivatalhoz beérkező változási vázrajzok és változási állományok eredeti adathordozóit nyilvántartásba kell venni, településenként be kell sorszámozni, és megfelelő tárolásukról gondoskodni kell. Az eredeti adathordozó és hozzátartozó változási vázrajz azonosíthatóságát biztosítani kell."
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59. §",
+      "content": "59. § (1) Az Fttv. 11. § (7) bekezdése szerinti felmérési, térképezési vagy területszámítási hiba kijavítását a földhivatal az FM vhr. 3. § e) pontjában biztosított hatósági jogkörében eljárva köteles lefolytatni, melynek során a rendelkezésére álló munkarészek mellett a helyszíni állapotot is vizsgálnia kell. (2) A felmérési, térképezési, területszámítási hiba kijavítása nem érinti és nem változtatja meg a természetbeni határvonalat és a birtoklási viszonyokat. A hiba kijavításához nincs szükség előzetes hatósági, bírósági határozatra vagy engedélyre. (3) A hiba kijavítását nem zárja ki a hibával terhelt földrészleteket érintő, folyamatban lévő bírósági eljárás. Ha a folyamatban lévő bírósági eljárásról a földhivatal tudomást szerzett, a hiba kijavításáról szóló határozatot az eljáró bíróságnak is meg kell küldeni. (4) A hatályos térképi ábrázolás és a földrészlet ingatlan-nyilvántartási adata felmérési, térképezési vagy területszámítási hiba jogcímén földhivatali hatáskörben akkor változtatható meg, ha a hiba bizonyíthatóan az alaptérkép vagy a változási munkarészek készítése, vagy annak átvezetése során elkövetett mulasztásból vagy tévedésből származik. (5) Bejelentési kötelezettség elmulasztása miatt elmaradt változásátvezetés nem pótolható felmérési vagy térképezési hiba kijavítása jogcímén. (6) A hiba kijavításáról szóló földhivatali határozathoz a helyrajzi számozás és a területszámítás helyessége szempontjából záradékolt változási vázrajzot kell mellékelni. A változási vázrajzot akkor is el kell készíteni, ha a hiba kijavítása területváltozással nem jár."
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60. §",
+      "content": "60. § (1) Felmérési, térképezési vagy területszámítási hiba kijavítását földhivatali hatósági eljárásban a következő esetekben lehet végrehajtani: a) a mérés során tévesen azonosították a határvonalat és a helyes határvonal helyett nem megfelelő határvonalat mértek; b) fotogrammetriai feldolgozás során tévesen értékelték ki a látható határvonalat, s így a tényleges határvonal helyett a térképre téves határvonal került (pl. szőlőlugas sort tévesen kerítésvonalnak értékeltek); c) tévesen olvasták le vagy tévesen jegyezték fel (rögzítették) a mérési eredményeket; d) a térképen tévesen ábrázolták a helyszínen mért (rögzített) méretet (rajzi elírás), és a téves térképi ábrázolás alapján számították a földrészlet területét; e) helyesen mértek és térképeztek, de a területszámítás során számítási hibát követtek el, nem a megfelelő geometriai alakzatot (pontokat) vonták be a területszámításba, és ez a téves adat került a tulajdoni lapon átvezetésre; f) a területi adat átvezetésekor elírás történt; g) az elhatárolás során nem az Fttv. 13. §-ában, valamint az FM vhr. 26. §-ában előírtak betartásával jártak el, és ezzel a földrészlet határvonalának megállapítása hibásan történt; h) tervezett földrészlet határok hibás meghatározásából eredő hiba esetén, amikor ha) téves arányok szerint történt a földrészlet határvonalának tervezése; hb) a régi térképről hibás méretet vettek le; hc) a felhasznált műszaki munkarészek felmérési hibát tartalmaztak; hd) az eredeti térkép felmérési, térképezési vagy területszámítási hibával volt terhelt; i) a felhasznált korábbi állami alapadatok hibás értékkel történő átvétele, vagy az ebből eredő tervezési hibák esetén; vagy j) az időközi változási munkarészek készítése és átvezetése során elkövetett felmérési, térképezési vagy területszámítási hibái, vagy a változás téves állományi rögzítéséből eredő hibák esetén. (2) Az (1) bekezdés g) pontja szerinti esetben a kijavítás utáni határvonal eltérhet a természetbeni állapottól. (3) Felmérési, térképezési vagy területszámítási hiba kijavítását földhivatali eljárásban – az (1) bekezdésben foglaltakon túlmenően – az analóg térképek digitális átalakítása, vagy a digitális alaptérképek adatbázisának készítése során elkövetett alábbi hibák esetén lehet végrehajtani: a) a korábbi numerikus vagy digitális adatok átvételénél elkövetett azonosítási, számítási, adatrögzítési és vonal-összekötési hibák esetén; b) az analóg térképek digitalizálása során a digitalizálás, az azonosítás és az összekötések téves végrehajtásából származó hibák esetén; c) tévesen ábrázolták, vagy foglalták adatállományba a helyes mérési adatokat, vagy hibás összekötéseket hajtottak végre a struktúrák előállításánál, és ezek alapján végezték a területszámítást."
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61. §",
+      "content": "61. § (1) Ha olyan határvonallal kapcsolatban válik szükségessé felmérési, térképezési vagy területszámítási hiba kijavítása, amelyet jogerős bírósági ítélettel jogerős földrészlet határként megállapítottak, vagy elfogadtak, a hiba kijavítását elrendelő jogerős földhivatali határozatot az illetékes bírósággal is közölni kell. (2) Ha a hiba kijavítása ingatlan-nyilvántartási átvezetést is igényel, gondoskodni kell arról, hogy az átvezetés megtörténjen. Ilyenkor a hiba kijavításával egyidejűleg dönt a földhivatal a bejegyzésről. (3) A felmérési, térképezési vagy területszámítási hiba kijavítására irányuló eljárásban érintett földrészletek változási vázrajzát be kell sorolni a többi változási vázrajz közé. (4) A felmérési és térképezési hiba kiigazítása során a forgalomban levő térképre vonatkozó azonosítási és pontossági előírásokat kell figyelembe venni. A digitális átalakítással készített alaptérképek esetén az átalakítás alapjául szolgáló térképekre vonatkozó azonosítási és pontossági előírásokat kell alkalmazni. (5) Forgalomba még nem adott ingatlan-nyilvántartási térképi adatbázisnak az ingatlan-nyilvántartás átalakítása előtt történő kijavításáról nem kell határozatot hozni, azonban a változási munkarészeket e rendelet előírásai szerint el kell készíteni és a változási vázrajzok közé be kell sorolni."
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62. §",
+      "content": "62. § (1) Ha a határvonalak azonosítása során egy közigazgatási egység teljes belterületi vagy különleges külterületi fekvését lefedő ingatlan-nyilvántartási térképi adatbázis alapján a földrészlet határok jelentős részénél a 1. vagy a 2. melléklet táblázataiban megadott értékeket lényegesen meghaladó eltérések állapíthatók meg, akkor a megyei földhivatallal egyezetett műszaki, technológiai megoldást kell alkalmazni mindaddig, amíg az érintett közigazgatási egység vagy fekvés újfelmérése nem történik meg. (2) A megyei földhivatalnak a technológiai eljárás kialakítása során figyelembe kell vennie a változási vázrajz készítésének célját, valamint az ellentmondások feloldására alkalmazható – gazdaságosan és rövid átfutási idő alatt elvégezhető – műszaki megoldásokat."
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63. §",
+      "content": "63. § (1) A változott állami alapadatok átvezetésén túlmenően az ingatlan-nyilvántartási térképi adatbázis állami alapadat tartalmát a földhivatal időszakonkénti helyszíneléssel ellenőrzi. Az eljárás során az ellenőrzött területen vizsgálni kell az ingatlan-nyilvántartási térképi adatbázis tartalmának és a helyszíni állapotnak az egyezőségét. A feltárt eltéréseket földrészletenként tételesen rögzíteni kell. (2) A helyszínelés célja azoknak a természetbeni változásoknak a feltárása, amelyekkel kapcsolatban az Fttv. 12. § (4) bekezdésében előírt változás-bejelentési kötelezettség teljesítését elmulasztották. (3) A helyszínelést a közigazgatási egység vagy annak valamely fekvése teljes területére kiterjedően kell végrehajtani. (4) A helyszínelést a megyei földhivatal által összeállított (a földhivatallal egyeztetett) ütemterv szerint, de egy-egy település tekintetében legalább 10 évenként kell elvégezni."
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64. §",
+      "content": "64. § (1) A helyszínelés során az ingatlan-nyilvántartási térképi adatbázis állami alapadat tartalmában bekövetkezett változásokat a 14. § (1) bekezdésében előírtak szerint kell felmérni. (2) A terepi munka megszervezéséhez és végzéséhez felhasználhatók a rendelkezésre álló, friss információt tartalmazó légifényképek is. (3) A mérési eredményeket az érintett földrészletek helyrajzi számának sorrendjében összefűzött mérési vázlaton vagy mérési jegyzeten kell feltüntetni. (4) A helyszínelés során észlelt változásokról az e rendeletben meghatározott változási vázrajzokat kell készíteni, valamint az előírt munkarészeket kell mellékelni. A változási vázrajzokat a földhivatalnak vizsgálni és záradékolni kell. (5) Termőföldön, valamint mező-, erdőgazdasági művelés alatt álló földön észlelt művelési ág változásokról eltérési jegyzéket kell készíteni, melyet át kell adni a földhivatal földvédelmi szakterületének a szükséges intézkedések megtételére."
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65. §",
+      "content": "65. § Ez a rendelet a kihirdetését követő 8. napon lép hatályba."
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66. §",
+      "content": "66. § Azokat az eljárásokat, amelyekben a sajátos célú földmérési és térképészeti munkához szükséges állami alapadatok szolgáltatása a rendelet hatálybalépése előtt már megtörtént, az adatszolgáltatás időpontjában hatályos rendelkezések szerint kell befejezni."
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67. §",
+      "content": "67. § (1) Az FM vhr. 21. §-ában az „a szakmai szabályzatokban” szövegrész helyébe az „az állami alapadatok felhasználásával végzett sajátos célú földmérési és térképészeti tevékenység végzésének általános előírásairól szóló jogszabály” szöveg, valamint a 30. § (2) bekezdésében az „a szakmai szabályzatban (szabvány) ” szövegrész helyébe az „az állami alapadatok felhasználásával végzett sajátos célú földmérési és térképészeti tevékenység végzésének általános előírásairól szóló jogszabály” szöveg lép. (2) Az FM vhr. 24. § (4) bekezdésében az „földhivatali vizsgálat és záradékolás után –„ szövegrész helyébe az „az épületváltozások kivételével – a földhivatali vizsgálat és záradékolás után” szöveg lép."
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68. §",
+      "content": "68. §"
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69. §",
+      "content": "69. § Megengedett eltérések a határvonalak jogi (térképi) és természetbeni állapotának összehasonlítására A) EOTR földmérési alaptérkép alapú adatbázis B) Régi vetületi rendszerű alaptérkép alapú adatbázis Megengedett eltérések több földrészlet töréspontjainak folyamatos összemérésénél A) EOTR földmérési alaptérkép alapú adatbázis esetén B) Régi vetületi rendszerű alaptérkép alapú adatbázis esetén C) Szabatosan megjelölt és meghatározott részletpontok koordinátákból (mérési eredményekből) számított és a terepen mért távolság közötti eltérés Megengedett eltérések a határvonalak jogi (térképi) és természetbeni állapotának összehasonlítására digitális alaptérképek esetén A) A részletpontok meghatározott helyzete és az ellenőrző mérésből számított helyzet közötti megengedett eltérés (± cm) T1 T11 T21 R1 9 15 R2 15 21 R3 18 30 R4 24 57 B) A méretek megengedett eltérése belterületen (±cm) T11 R1 R2 R3 R4 R1 12 18 21 27 R2 21 24 27 R3 24 30 R4 33 C) A méretek megengedett eltérése külterületen (±cm) T21 R1 R2 R3 R4 R1 21 27 33 39 R2 30 36 42 R3 39 45 R4 51 A tűrési osztályok jelentése: T1 belterület T11: digitális újfelméréssel és térképfelújítással történő térképkészítés, valamint kiegészítő terepi felmérésekkel végzett digitális átalakítás T2 külterület T21: digitális újfelméréssel és térképfelújítással történő térképkészítés, valamint kiegészítő terepi felmérések digitális átalakítás A részletpontok rendűsége: R1: a közigazgatási egységek és fekvések határvonalának töréspontjai, valamint a belterületi földrészletek közterülettel érintkező valamennyi határpontja. Ezeket állandó módon, szabatosan kell megjelölni úgy, hogy belterületen legalább ±3 cm, míg külterületen legalább ±5 cm pontossággal azonosíthatók legyenek, és fennmaradásuk biztosított legyen, R2: a közigazgatási egységek és fekvések, valamint a belterületi földrészletek előbb fel nem sorolt határpontjai, a külterületi földrészletetek állandó módon megjelölt határpontjai, továbbá az épületek, építmények és a vezetékek felszíni létesítményeinek belterületen legalább ±5 cm, míg külterületen legalább ±7 cm pontossággal azonosítható töréspontjai, R3: a külterületi földrészletek előzőekben fel nem sorolt határpontjai, az épületeknek, építményeknek és a vezeték felszíni létesítményeinek minden további töréspontja, valamint a közlekedési és vízügyi létesítményeknek, függőpályáknak és műtárgyainak belterületen legalább ±6 cm, míg külterületen legalább ±10 cm pontossággal azonosítható töréspontjai, R4: azon részletpontok mindegyike, amelyek az előző három rendbe nem sorolhatók be, és nem tartoznak az R5 rendbe. Ilyenek például a melléképületek sarokpontjai, alrészlethatárok pontjai és a különféle létesítmények előző rendűségekbe nem sorolható töréspontjai (pl. árok, töltés stb.), melyeket belterületen legalább ±8 cm, míg külterületen legalább ±19 cm pontossággal lehet azonosítani. A területszámítás megengedett hibahatárai EOTR ingatlan-nyilvántartási térkép digitális átalakításával készült adatbázis esetén A területszámítás megengedett hibahatárai EOTR előtti vetületi rendszerű ingatlan-nyilvántartási térkép digitális átalakításával készült térképi adatbázis esetén PONTKÓDOK az ingatlan-nyilvántartási térképi adatbázisban V Á L T O Z Á S E L Ő T T V Á L T O Z Á S U T Á N Átvett terület Átadott terület H R S Z F Ö L D R É S Z L E T A L R É S Z L E T A L O S Z T Á L Y H R S Z A tulajdonos neve és lakcíme F Ö L D R É S Z L E T A L R É S Z L E T A L O S Z T Á L Y Területi szabv. miatti AK elt. H R S Z A tulajdonos neve és lakcíme F Ö L D R É S Z L E T t e r ü l e t A K jel művelési ága t e r ü l e t A K min oszt t e r ü l e t A K t e r ü l e t A K jel művelési ága t e r ü l e t A K min oszt t e r ü l e t A K t e r ü l e t A K h a m2 h a m2 h a m2 h a m2 h a m2 h a m2 h a m2 021/5 4 3699 121.48 szántó 4 3699 121.48 2 4 3699 121.48 021/5 Az 1999. évi LXXX. tv. alapján nem része a magyar ingatlan-nyilvántartásnak. 4 3699 121.48 022/3 7227 0.00 Ipoly folyó 7227 0.00 7227 0.00 022/3 Az 1999. évi LXXX. tv. alapján nem része a magyar ingatlan-nyilvántartásnak. 7227 0.00 079 Magyar Állam, vagyonkezelő a Kincstári Vagyoni Igazgatóság (1054 Budapest, Zoltán u. 16. KSH-szám: 15325828) 1 7250 8.05 a gyep/L/ 4469 3.58 2 4469 3.58 b erdő 1 2781 4.47 4 1 2781 4.47 080 Magyar Állam, vagyonkezelő a Kincstári Vagyoni Igazgatóság (1054 Budapest, Zoltán u. 16. KSH-szám: 15325828) 7950 0.00 Ipoly 7950 0.00 7950 0.00 Összesen: 5 926 121.48 5 926 121.48 5 926 121.48 Összesen ⁄ 2 5200 8.05 2 5200 8.05 2 5200 8.05 Összesen ⁄ 5 926 121.48 A változással érintett település(ek) területkimutatása Tésa külterületének változása Tésa település összes területének változása Változás előtt Változás Változás után Változás előtt Változás Változás után A Magyar Állam területe 2 5726 m2-rel csökkent. Terület Terület Terület Terület Terület Terület ha m2 ha m2 ha m2 ha m2 ha m2 ha m2 380 5366 Átvett terület: + 2 5200 377 9640 481 9655 Átvett terület: + 2 5200 479 3929 Átadott terület: - 5 926 Átadott terület: - 5 926 Összesen: - 2 5726 Összesen: - 2 5726 Változás előtt Változás Változás után Készítette: Budapest, 2010. január 16..................................... készítő.................................... minőséget tanúsító földmérő P.H. Ing.rend.min.sz. 1459/1995 (FÖMI) Terület Terület Terület ha m2 ha m2 ha m2 380 5366 Átvett terület: + 2 5200 377 9640 Átadott terület: - 5 926 Összesen: - 2 5726 Területkimutatás vezetékjog bejegyzéséhez Külterület esetén Belterület esetén A műszaki leírás kötelező tartalma ........................................... a munkát végző neve ................................. a munka száma MŰSZAKI LEÍRÁS 1. A munka megnevezése: 2. A földmérési munkát végző szerv neve és címe: 3. A megbízó neve és címe: 4. Mely községekre terjed ki a munka: 5. A munka megkezdésének időpontja (év, hónap, nap): 6. A munka befejezésének időpontja (év, hónap, nap): 7. Felhasznált alapadatok: 8. A munka elvégzése milyen utasítás vagy szabályzat szerint történt: 9. A munka elkészítésének rövid leírása (különös tekintettel a szabályzat/utasítás előírásaitól eltérő megoldásokra): 10. A munkára vonatkozó egyéb feljegyzés: 11. A munka belső vizsgálója: 12. A munka minőségét tanúsító neve: Kelt: ......................................................... felmérést végző aláírása 1 A rendeletet a 25/2013. (IV. 16.) VM rendelet 63. § (2) bekezdése hatályon kívül helyezte 2013. április 24. napjával, alkalmazására lásd e hatályon kívül helyező rendelet 62. §-át. 2 A 9. § (5) bekezdése az 1/2011. (I. 11.) VM rendelet 1. § (46) bekezdése szerint módosított szöveg. E módosító rendelet 3. §-a alapján a 2011. január 14-ét követően indult ügyekben és megismételt eljárásokban kell alkalmazni. 3 A 44. § (3) bekezdése a 151/2012. (XII. 29.) VM rendelet 44. §-a szerint módosított szöveg. 4 A 68. §-t a 69. § hatályon kívül helyezte. 5 A 69. § ugyanezen § alapján hatályát vesztette. 6 A 7. melléklet az 53/2010. (V. 4.) FVM rendelet 1. §-ával megállapított, az 5/2012. (II. 10.) VM rendelet 49. §-a szerint módosított szöveg. 7 A 8. melléklet az 53/2010. (V. 4.) FVM rendelet 1. §-ával megállapított, az 5/2012. (II. 10.) VM rendelet 49. §-a szerint módosított szöveg. 8 A 9. melléklet az 53/2010. (V. 4.) FVM rendelet 1. §-ával megállapított szöveg. 9 A 10. melléklet az 53/2010. (V. 4.) FVM rendelet 1. §-ával megállapított szöveg. 10 A 11. melléklet az 53/2010. (V. 4.) FVM rendelet 1. §-ával megállapított szöveg. 11 A 12. melléklet az 53/2010. (V. 4.) FVM rendelet 1. §-ával megállapított szöveg. 12 A 13. melléklet az 53/2010. (V. 4.) FVM rendelet 1. §-ával megállapított szöveg. 13 A 14. melléklet az 53/2010. (V. 4.) FVM rendelet 1. §-ával megállapított szöveg. 14 A 15. melléklet az 53/2010. (V. 4.) FVM rendelet 1. §-ával megállapított szöveg. 15 A 16. melléklet az 53/2010. (V. 4.) FVM rendelet 1. §-ával megállapított szöveg. 16 A 17. melléklet az 53/2010. (V. 4.) FVM rendelet 1. §-ával megállapított szöveg. 17 A 18. melléklet az 53/2010. (V. 4.) FVM rendelet 1. §-ával megállapított szöveg. 18 A 19. melléklet az 53/2010. (V. 4.) FVM rendelet 1. §-ával megállapított szöveg. 19 A 20. melléklet az 53/2010. (V. 4.) FVM rendelet 1. §-ával megállapított szöveg. 20 A 21. melléklet az 53/2010. (V. 4.) FVM rendelet 1. §-ával megállapított szöveg. 21 A 22. melléklet az 53/2010. (V. 4.) FVM rendelet 1. §-ával megállapított szöveg. 22 A 23. melléklet az 53/2010. (V. 4.) FVM rendelet 1. §-ával megállapított szöveg. 23 A 24. melléklet az 53/2010. (V. 4.) FVM rendelet 1. §-ával megállapított szöveg. 24 A 25. melléklet az 53/2010. (V. 4.) FVM rendelet 1. §-ával megállapított szöveg."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "§ A rendelet alkalmazásában 1. adat",
+      "definition": "a határvonal, a határvonalat alkotó pontok",
+      "source_provision": "s1"
+    },
+    {
+      "term": "alakzat",
+      "definition": "a digitális alaptérkép állami alapadatai közül a felületszerű objektum",
+      "source_provision": "s1"
+    },
+    {
+      "term": "attribútum adat",
+      "definition": "a digitális alaptérkép objektumainak leíró adata",
+      "source_provision": "s1"
+    },
+    {
+      "term": "azonosító",
+      "definition": "a felületszerű objektumok esetében a helyrajzi szám, alrészlet jel és minőségi osztály jel",
+      "source_provision": "s1"
+    },
+    {
+      "term": "DAT adatcsere formátum",
+      "definition": "a digitális alaptérképek készítésére vonatkozó jogszabályban meghatározott adatcsere formátum",
+      "source_provision": "s1"
+    },
+    {
+      "term": "EOV",
+      "definition": "az egységes országos vetületi rendszer",
+      "source_provision": "s1"
+    },
+    {
+      "term": "EOTR",
+      "definition": "az egységes országos térképrendszer",
+      "source_provision": "s1"
+    },
+    {
+      "term": "ingatlan-nyilvántartási térképi adatbázis",
+      "definition": "az állami földmérési alaptérkép adatbázisa, amely az egységes ingatlan-nyilvántartási adatbázis geometriai részét képezi",
+      "source_provision": "s1"
+    },
+    {
+      "term": "egységes ingatlan-nyilvántartási adatbázis",
+      "definition": "olyan adatbázis, mely az ingatlanoknak az ingatlan-nyilvántartásról szóló törvényben meghatározott tartalommal rendelkező adatbázisából és az ingatlan-nyilvántartási térképi adatbázisból áll",
+      "source_provision": "s1"
+    },
+    {
+      "term": "geometriai változással érintett objektum (alakzat)",
+      "definition": "a változással érintett és az ahhoz közvetlenül csatlakozó objektum, melynek a változás során létrejövő új határpontok miatt a geometriája megváltozik",
+      "source_provision": "s1"
+    },
+    {
+      "term": "geometriai leírás",
+      "definition": "az objektumok (alakzatok) pontokkal és vonalösszekötésekkel (szakaszokkal) való meghatározása",
+      "source_provision": "s1"
+    },
+    {
+      "term": "határpont",
+      "definition": "a közigazgatási egység, az alegység, a földrészlet, az alrészlet és a minőségi osztály határvonal valamely pontja",
+      "source_provision": "s1"
+    },
+    {
+      "term": "határvonal",
+      "definition": "a közigazgatási, az alegység, a földrészlet, az alrészlet, valamint a minőségi osztály határpontjait összekötő egyenes szakaszok",
+      "source_provision": "s1"
+    },
+    {
+      "term": "változási vázrajz",
+      "definition": "az ingatlan-nyilvántartási térképi adatbázis tartalmának felhasználásával készített digitális és papír alapú földmérési munkarész",
+      "source_provision": "s1"
+    },
+    {
+      "term": "változási állomány",
+      "definition": "a változással érintett földrészletek határvonalán belül csak az ingatlan-nyilvántartási térképi adatbázis tartalmát érintő, változás utáni állapotot tartalmazó adatállomány.",
+      "source_provision": "s1"
+    },
+    {
+      "term": "évi LXXVI. törvény (a továbbiakban",
+      "definition": "Fttv.). 23. § (4) bekezdése alapján az analóg ingatlan-nyilvántartási térképek digitális másolatának kell tekinteni és az ingatlan-nyilvántartásról szóló 1997. évi CXLI. törvény 21. § (2) bekezdése alapján ingatlan-nyilvántartási térképként kell használni.",
+      "source_provision": "s2"
+    }
+  ]
+}

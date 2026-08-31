@@ -1,0 +1,113 @@
+{
+  "id": "hu-law-2012-38-20-2t",
+  "type": "statute",
+  "title": "38/2012. (VIII. 23.) KIM rendelet az elektronikus árverési rendszer informatikai alkalmazásának működtetésére vonatkozó részletes szabályokról szóló 27/2008. (XII. 10.) IRM rendelet módosításáról",
+  "status": "repealed",
+  "in_force_date": "2012-09-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2012-38-20-2T",
+  "description": "az elektronikus árverési rendszer informatikai alkalmazásának működtetésére vonatkozó részletes szabályokról szóló 27/2008. (XII. 10.) IRM rendelet módosításáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § Az elektronikus árverési rendszer informatikai alkalmazásának működtetésére vonatkozó részletes szabályokról szóló 27/2008. (XII. 10.) IRM rendelet (a továbbiakban: R.) 1. § g) és h) pontja helyébe a következő rendelkezés lép: (E rendelet alkalmazásában:) „g) licitnapló: az elektronikus árverési rendszerben közzétett valamennyi vételi ajánlat adatait tartalmazó adatsorok összessége; h) árverés befejezése: elektronikus ingóárverés esetén az árverési hirdetmény elektronikus árverési hirdetmények nyilvántartásában való közzétételét követő 30. napnak, ingatlanárverés esetén az árverési hirdetmény elektronikus árverési hirdetmények nyilvántartásában való közzétételét követő 60. napnak, ingatlan átvételi eljárás esetén az átvételi hirdetmény elektronikus árverési hirdetmények nyilvántartásában való közzétételét követő 15. napnak, a bírósági végrehajtásról szóló 1994. évi LIII. törvény (a továbbiakban: Vht.) 159. § (4) bekezdése alapján indult ingatlanárverés esetén az árverési hirdetmény elektronikus árverési hirdetmények nyilvántartásában való közzétételét követő 30. napnak (ha az nem munkanap, akkor a következő munkanapnak) az árverési hirdetményben megjelölt órája (óra, perc);”"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § Az R. a 6. §-t követően az alábbi alcímmel és 6/A. §-sal egészül ki: „Az informatikai alkalmazás működtetésének bejelentése és felügyelete"
+    },
+    {
+      "provision_ref": "s6a",
+      "section": "6/A",
+      "title": "6/A. §",
+      "content": "6/A. § (1) Az igazságügyért felelős miniszter az informatikai alkalmazás működtetésével kapcsolatban ellátja a szabályozott elektronikus ügyintézési szolgáltatásokról és az állam által kötelezően nyújtandó szolgáltatásokról szóló 83/2012. (IV. 21.) Korm. rendelet (a továbbiakban: kormányrendelet) 12. § (2) bekezdés a)–e) és g)–i) pontjában meghatározott feladatokat. (2) A kamara a) 2012. december 31-éig köteles bejelenteni – a kormányrendelet 18. §-ában foglaltak szerint – az igazságügyért felelős miniszternek az informatikai alkalmazás működtetésével kapcsolatos szolgáltatásnyújtást, b) legkésőbb 2013. június 30-ig köteles biztosítani az informatikai alkalmazás működtetésével kapcsolatban – a Vht.-ban és e rendeletben foglalt eltérésekkel – a kormányrendeletben foglaltaknak való megfelelést.”"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § Az R. 13. § (1) bekezdés d) pontja helyébe a következő rendelkezés lép: (Az informatikai alkalmazást úgy kell kialakítani, hogy az – a nem regisztrált felhasználók számára elérhető szolgáltatásokon túl – a következő műveletek elvégzését tegye lehetővé a végrehajtó számára:) „d) hagyományos ingóárverés hirdetményének, a 21. § (1) bekezdés d) pontja szerinti ingatlanárverési hirdetménynek, a sikertelen ingatlanárverés hirdetményének, valamint az ingatlanok folyamatos árverezése iránti hirdetménynek a törlése;”"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § Az R. 21. §-a helyébe a következő rendelkezés lép: „21. § (1) Az elektronikus árverési hirdetmények nyilvántartása (a továbbiakban e fejezetben: nyilvántartás) tartalmazza a) a hagyományos ingóárverések hirdetményeinek [Vht. 122. § (4) bekezdés], b) az elektronikus ingóárverések [Vht. 132/D. § (1) bekezdés] hirdetményeinek, c) az ingatlanárverések [Vht. 145/A. §, valamint 159. § (4) és (5) bekezdés] hirdetményeinek, d) a Vht. 305. § (4) bekezdése szerinti, 2009. január 1-je előtt lefoglalt ingatlanok 2012. július 1-je és 2012. augusztus 31-e között készített árverési hirdetményeinek, e) a sikertelen ingatlanárverések hirdetményeinek [Vht. 155. § (2) bekezdés], f) az ingatlan átvételi eljárások hirdetményeinek [Vht. 158. § (3) bekezdés] és g) az ingatlanok folyamatos árverezése iránti, a Vht. 159. § (1) bekezdése szerinti hirdetményeknek [az a)–g) pontban foglaltak a továbbiakban együtt: árverési hirdetmény] adatait. (2) Az informatikai alkalmazást úgy kell kialakítani, hogy az erre szolgáló elektronikus adatlap kitöltésével egyidejűleg – a közzététel időpontjával kiegészítve – automatikusan közzétegye a nyilvántartásban a Vht. 143. § (2) bekezdése szerinti általános tájékoztatást.”"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § Az R. 22. §-a a következő (3)–(5) bekezdéssel egészül ki: „(3) Az informatikai alkalmazást úgy kell kialakítani, hogy a Vht. 155. § (1) bekezdés a) pontjában foglalt okból sikertelen árverés esetében a Vht. 155. § (2) bekezdésben foglalt adatokat – az eredetileg közzétett hirdetmény és a hozzá tartozó adatlap és ahhoz csatolt fénykép alapján, a közzététel időpontjával kiegészítve – a licitnapló lezárásával egyidejűleg automatikusan tegye közzé a nyilvántartásban. (4) Az ingatlan átvételi eljárás hirdetményének közzétételére az (1) és (2) bekezdésben foglalt rendelkezéseket kell alkalmazni. (5) Az ingatlan folyamatos árverezése iránti hirdetménynek a nyilvántartásba történő bejegyzéséhez – a (2) bekezdés a) és c) pontjában foglalt műveletek elvégzése helyett – a végrehajtó automatikus hirdetmény-készítési műveletet is igénybe vehet. Ennek érdekében az informatikai alkalmazást úgy kell kialakítani, hogy a bejegyzésre szolgáló adatlap kitöltésével egyidejűleg automatikusan generálja és tegye közzé a hirdetményt a korábban kitöltött adatlapnak és árverési hirdetménynek a Vht. 143. § (1) bekezdés a)–h) és j) pontjában foglalt adataiból és az adatlaphoz automatikusan csatolja a korábban csatolt digitális fényképeket.”"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § Az R. 23. § d)–g) pontja helyébe a következő rendelkezés lép és a § a következő h)–j) ponttal egészül ki: (Az informatikai alkalmazást úgy kell kialakítani, hogy a felhasználók számára biztosított legyen a hirdetmények közötti keresés legalább következő szűkítési feltételek megadásával:) „d) sikertelen ingatlanárverések hirdetményei, e) ingatlan átvételi eljárások hirdetményei, f) az ingatlanok folyamatos árverezése iránti hirdetmények, g) a 21. § (1) bekezdés c) és e)–g) pontjai szerinti ingatlanárverések hirdetményei az ingatlanok kikiáltási ára alapján, h) a 21. § (1) bekezdés c) és e)–g) pontjai szerinti ingatlanárverések hirdetményei az ingatlanok földrajzi fekvése alapján, i) árverések hirdetményei, melyeken a lekérdezés időpontjában elektronikus vételi ajánlat tehető és amelyek esetében a licitnapló lezárásra került, j) a 21. § (1) bekezdés d) pontja szerinti ingatlanárverések hirdetményei között az ügyszám és az árverés napja alapján.”"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § (1) Az R. 24. § c) pontja helyébe a következő rendelkezés lép: (Az informatikai alkalmazást úgy kell kialakítani, hogy az árverési hirdetményt) „c) ingatlanárverés és ingatlan átvételi eljárás esetén a licitnapló lezárását követő 30. napon,” (automatikusan törölje a nyilvántartásból.) (2) Az R. 24. §-a a következő e) és f) ponttal egészül ki: (Az informatikai alkalmazást úgy kell kialakítani, hogy az árverési hirdetményt) „e) sikertelen ingatlanárverés hirdetménye esetében a második árverés hirdetményének a nyilvántartásban történő közzétételével egyidejűleg vagy azt megelőzően a végrehajtó intézkedésére, f) az ingatlanok folyamatos árverezése iránti hirdetmény esetében a Vht. 159. § (4) vagy (5) bekezdés szerinti árverés hirdetményének a nyilvántartásban történő közzétételével egyidejűleg vagy azt megelőzően a végrehajtó intézkedésére” (automatikusan törölje a nyilvántartásból.)"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § (1) Az R. 25. § (2) bekezdése helyébe a következő rendelkezés lép: „(2) Az informatikai alkalmazást úgy kell kialakítani, hogy a) akkor legyen mód az aktiválási kérelem elküldésére, ha az árverező települési önkormányzat kérelme – amennyiben a részére a lakások és helyiségek bérletéről és az elidegenítésükről szóló törvény által meghatározott elővásárlási jog alapján előárverezési jog gyakorlása érdekében kéri az aktiválást – tartalmazza a nyilatkozattételt arról, hogy az adós kérelmére írásban kötelezettséget vállalt arra, hogy a megvásárolt lakóingatlant az adósnak bérbe adja, valamint a Vht. 123. § (2) bekezdés a) és b) pontja szerinti árverező kérelme azt a nyilatkozatot, hogy a Vht. 123. § (3) bekezdésében foglalt melyik ok alapján illeti meg őt az árverésen való részvétel joga; b) az aktiválási kérelem előterjesztésére szolgáló adatlapon nyilatkozatot lehessen tenni arról, hogy a kérelmező még nem rendelkezik olyan mennyiségű termőföldtulajdonnal, amely a termőföldről szóló törvény rendelkezései szerint kizárná az árverésre kerülő termőföld árveréssel történő megszerzését.” (2) Az R. 25. §-a következő (4) és (5) bekezdéssel egészül ki: „(4) A felhasználói név és jelszó ingatlan átvételi eljárás tekintetében történő aktiválása iránti kérelem előterjesztésére az (1)–(3) bekezdésben foglalt rendelkezéseket kell alkalmazni azzal, hogy az árverési előleg megfizetéséről a kérelemben nyilatkozni nem kell. (5) A felhasználói név és jelszó ingatlan folyamatos árverezése tekintetében történő aktiválása iránti kérelem előterjesztésére az (1)–(3) bekezdésben foglalt rendelkezéseket kell alkalmazni azzal, hogy egyidejűleg a vételi ajánlatot is meg kell tenni és ennek érdekében a kérelem előterjesztésére szolgáló adatlapon a vételi ajánlat összegét is meg kell jelölni. A végrehajtó az aktiválási kérelmet – az aktiváláshoz szükséges egyéb feltételek fennállása esetén – az elektronikus árverési rendszerben közzétehető összegű vételi ajánlat tétele esetén teljesítheti; az aktiválással egyidejűleg pedig intézkedik az ingatlanárverési hirdetménynek a Vht. 159. § (4) bekezdése szerinti közzététele iránt.”"
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § Az R. 26. § (1) bekezdése a következő mondattal egészül ki: „A felhasználói név és jelszó ingatlan átvételi eljárás tekintetében történő aktiválásának nem feltétele árverési előleg befizetése.”"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § Az R. 27. § b) pontja helyébe a következő rendelkezés lép: (Az informatikai alkalmazást úgy kell kialakítani, hogy) „b) a végrehajtók, valamint az árverezők számára a licitnapló nyomtatható is legyen.”"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § Az R. 28. § (3) bekezdése helyébe a következő rendelkezés lép és a § a következő (4) és (5) bekezdéssel egészül ki: „(3) Az (1) és (2) bekezdésben foglaltakat megfelelően alkalmazni kell az előárverezési jog gyakorlására szolgáló nyilatkozat megtételére is azzal, hogy az az összeg megjelölésének hiányában is közzétehető; ez a nyilatkozat minősül a megelőzően közzétett vételi ajánlat vonatkozásában megtett előárverezési jogot gyakorló nyilatkozatnak. (4) Az átvételi ajánlat megtétele a vételi ajánlat megtételére vonatkozó, az (1) és (2) bekezdésben foglalt rendelkezések alkalmazásával történik. (5) Az informatikai alkalmazást úgy kell kialakítani, hogy az ingatlan folyamatos árverése során történő felhasználói név és jelszó aktiválással a vételi ajánlat automatikusan kerüljön közzétételre a licitnaplóban, valamint a Vht 159. § (4) bekezdése szerint közzétételre kerülő ingatlanárverési hirdetményhez tartozó licitnaplóban is.”"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. § (1) Az R. 30. § a) pontja helyébe a következő rendelkezés lép: (Az informatikai alkalmazást úgy kell kialakítani, hogy) „a) az árverés befejezésének időpontjában, ha pedig ezen időpontot megelőzően öt percen belül újabb vételi ajánlat kerül közzétételre, az újabb vételi ajánlat közzétételétől számított öt perc elteltével, az utolsó vételi ajánlat közzétételét követően pedig az ötödik perc végén automatikusan lezárja a licitnaplót;” (2) Az R. 30. § c) pontja helyébe a következő rendelkezés lép: (Az informatikai alkalmazást úgy kell kialakítani, hogy) „c) a licitnapló lezárását követően ne biztosítsa vételi ajánlat és előárverezési jog gyakorlására vonatkozó nyilatkozat megtételének lehetőségét.”"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. § Az R. 32. § (1) bekezdése helyébe a következő rendelkezés lép: „(1) A végrehajtó az árverés befejezését követően az árverési jegyzőkönyv aláírására és az árverési vételár kifizetésére (elektronikus ingóárverés esetén az ingóság átvételére) vonatkozó felhívását [Vht. 132/G. § (3) bekezdés, 152. § (2) bekezdés] az erre szolgáló elektronikus adatlap kitöltésével az elektronikus árverési rendszer útján közli az árverezővel.”"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14. §",
+      "content": "14. § Az R. a) 13. § (1) bekezdés g) pontjában a „bírósági végrehajtásról szóló 1994. évi LIII. törvény (a továbbiakban: Vht.)” szövegrész helyébe a „Vht.” szöveg, valamint a „152. § (4) bekezdés” szövegrész helyébe az „ingatlanárverés esetében a 142. § folytán alkalmazandó 132/F. § (7) bekezdés” szöveg, b) 22. § (2) bekezdés c) pontjában az „ingatlant” szövegrész helyébe az „árverésre kerülő vagyontárgyat” szöveg, c) 26. § (2) bekezdés b) pontjában az „elővásárlási” szövegrész helyébe az „előárverezési” szöveg, d) 29. § (1) bekezdésében a „145/C. § (4) bekezdés” szövegrész helyébe a „132/F. § (4) bekezdés, 145/C. § (4) bekezdés” szöveg, e) 29. § (2) bekezdés a) pontjában az „elővásárlási” szövegrész helyébe „előárverezési” szöveg lép."
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15. §",
+      "content": "15. § Az R. a) 13. § (1) bekezdés f) és j) pontjában a „teljes” szövegrész, b) 13. § (1) bekezdés h) pontja, c) 16. § a) pontja, d) 31. §-a és az azt megelőző alcím a hatályát veszti."
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16. §",
+      "content": "16. § Ez a rendelet 2012. szeptember 1. napján lép hatályba. 1 A rendelet a 2010: CXXX. törvény 12. § (3) bekezdése alapján hatályát vesztette 2012. szeptember 2. napjával."
+    }
+  ]
+}

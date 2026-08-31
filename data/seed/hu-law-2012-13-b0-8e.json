@@ -1,0 +1,1217 @@
+{
+  "id": "hu-law-2012-13-b0-8e",
+  "type": "statute",
+  "title": "13/2012. (VII. 30.) ORFK utasítás a büntetőeljárások keretében lefolytatandó szemlék végrehajtásáról és a bűnügyi technikai tevékenység egységes szabályozásáról",
+  "status": "repealed",
+  "in_force_date": "2012-09-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2012-13-B0-8E",
+  "description": "a büntetőeljárások keretében lefolytatandó szemlék végrehajtásáról és a bűnügyi technikai tevékenység egységes szabályozásáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "Az általános rendőrségi feladatok ellátására létrehozott szerv által a büntetőeljárási jog keretei között – a közlekedési balesetek és a közlekedés körében elkövetett bűncselekmények kivételével – a helyszínen lefolytatandó szemle egységes elvek alapján történő szakszerű végrehajtása érdekében kiadom az alábbi utasítást:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "I. Általános rész"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "1. Értelmező rendelkezések, alapelvek"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "1. Az utasítás hatálya kiterjed:"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "a) az Országos Rendőr-főkapitányságra (a továbbiakban: ORFK);"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "b) a Készenléti Rendőrségre (a továbbiakban: KR), a Repülőtéri Rendőr Igazgatóságra és a megyei (fővárosi) rendőr-főkapitányságokra;"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "c) a rendőrkapitányságokra"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "[a továbbiakban az a)–c) alpont együtt: rendőrség]."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "2. Az utasítás alkalmazásában"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "a) helyszínbiztosító: a rendőrség hivatásos állományú tagja, aki a helyszínre érkezésekor talált állapotot biztosítja, a szemle során – és szükség esetén azt követően – a helyszín zárását, őrzését a Rendőrségről szóló törvény, valamint a rendőrség szolgálati szabályzatáról szóló miniszteri rendelet (a továbbiakban: Szolgálati Szabályzat) alapján végrehajtja;"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "b) helyszín: mindazon hely, terület, amely a bűncselekmény elkövetésével összefüggésben illetve a tényállás tisztázása, valamint a bizonyítás szempontjából relevanciával bírhat;"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "c) szemle: olyan bizonyítási cselekmény, amelynek végrehajtása során a büntetőeljárásról szóló törvény által meghatározott eljárási szabályok betartása és garanciák érvényesítése mellett megfigyelik, rögzítik a helyszín, személy és tárgy vonatkozásában talált állapotot, helyzetet, körülményeket, felkutatják és olyan módon rögzítik az objektumokat, nyomokat, anyagmaradványokat, egyéb elváltozásokat, valamint mindezek összefüggéseit, hogy a szemle eredménye bizonyításra alkalmas adatokat nyújtson az eljárás számára;"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "d) helyszínelő egység: szemle lefolytatása céljából létrehozott speciális szervezeti elem, amely a Készenléti Rendőrség Nemzeti Nyomozó Iroda (a továbbiakban: KR NNI) Bűnügyi Technikai Főosztály, a megyei (fővárosi) rendőr-főkapitányságoknál a technikai osztály, a rendőrkapitányságoknál pedig a technikai osztály, alosztály vagy csoport;"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "e) szemlebizottság: a szemle lefolytatásához kapcsolódó feladatokat (a továbbiakban: helyszínelő tevékenységet) végrehajtó, a büntetőeljárás lefolytatására hatáskörrel és illetékességgel rendelkező rendőri szerv vezetője által összeállított, legalább két főből álló személyegyüttes;"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "f)–h)"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "i) dokumentáció: mindazoknak az eszközöknek és módszereknek az összessége, amelyek alkalmasak arra, hogy a megfelelő részletességgel, objektíven, azonosítható módon rögzítsék a helyszínen tapasztalt körülményeket és a bizonyítási eszközök felkutatásának, rögzítésének folyamatát, módját így különösen a szemlejegyzőkönyv, a képfelvétel, a hangfelvétel, a kép- és hangfelvétel, a speciális eszköz által biztosított vizsgálati dokumentáció, a helyszínvázlat, a helyszínrajz."
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "2/A. Az utasítás célja a büntetőeljárás keretében ellátandó helyszínelő tevékenység és e tevékenység szakmai irányításának egységes szabályozása."
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "3. A szemle lefolytatásának alapelvei:"
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "a) jogszerűség, szakszerűség: a szemlét – a büntetőeljárási garanciák szem előtt tartásával – úgy kell lefolytatni, hogy az megfeleljen a hatályos normatív előírásoknak, továbbá kiemelt figyelmet kell fordítani a szemlére vonatkozó kriminalisztikai és egyéb szakmai előírások betartására;"
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "b) tárgyilagosság: a helyszínt elfogulatlanul kell vizsgálni, az ott tapasztaltakat a helyszín szemlekori állapotának megfelelően, tényszerűen kell rögzíteni;"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "c) részletesség, teljesség, arányosság: a szemlét teljeskörűen, az eredményes felderítés és bizonyítás érdekében szükséges részletességgel kell végrehajtani, amelynek során a nyomkutatás és nyomrögzítés érdekében kiválasztott módszereknek arányban kell állniuk az elérni kívánt eredménnyel;"
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "d) egységesség: a szemle lefolytatása és dokumentálása során a szakmai fogalmakat, jelöléseket egyértelműen és következetesen kell alkalmazni;"
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "e) halaszthatatlanság: a szemle lefolytatását megalapozó körülmény tudomásra jutását követően késedelem nélkül intézkedni kell a szemle megkezdésére."
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "4. A helyszínelő egység munkájához szükséges tárgyi feltételek biztosításáról – az egység vezetőjének jelzése alapján – a büntetőeljárás lefolytatására hatáskörrel és illetékességgel rendelkező rendőri szerv vezetője köteles intézkedni."
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "5. Különleges biztonsági előírásokkal rendelkező intézményekben – így különösen a Magyar Honvédség, illetve a rendvédelmi szervek objektumaiban, továbbá büntetés-végrehajtási intézetekben, őrzött szállásokon – végrehajtott helyszínelő tevékenységet az érintett intézmények biztonsági és egyéb előírásainak figyelembevételével kell lefolytatni."
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "5/A. Kiemelt jelentőségű vagy speciális technikai felszereltséget igénylő ügyekben az országos rendőrfőkapitány egyedi utasítása alapján a KR helyszínelő egysége közreműködhet és bűnügyi technikai tevékenységet végezhet más területi vagy helyi nyomozó hatóság által folytatott eljárási cselekmény helyszínén is."
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "5/B. A KR-en belül létrehozott helyszínelő egység – a területi szerv vezetőjének vagy helyettesének megkeresésére – bűnügyi technikai tevékenységet végezhet a területi vagy helyi szervnél folyamatban lévő büntető ügyben végzett eljárási cselekmény során is."
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "5/C."
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "2. A szemlebizottság összetétele, a bizottságvezető és a bűnügyi technikusok jogai és kötelezettségei"
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "6. A szemlebizottságot a vizsgált esemény jellegének, a helyszín sajátosságainak figyelembevételével az eljárást folytató rendőri szerv vezetője állítja össze. A szemlebizottság alapvetően:"
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "a) bizottságvezetőből,"
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "b) bűnügyi technikus(ok)ból, valamint"
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "c) szükség esetén kutyavezető(k)ből áll."
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "6/A. A szemlebizottság vezetőjeként a rendőrség hivatásos állományának azon tagja járhat el, akit munkaköri leírásában az utasításban a bizottságvezető számára meghatározott feladatok bűnügyi szolgálati ág feladatrendszeréhez kapcsolódó más tevékenységek melletti ellátására felhatalmaztak."
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "6/B. A szemlebizottságban bűnügyi technikusként a rendőrség hivatásos állományának az a bűnügyi technikusi szaktanfolyammal rendelkező tagja járhat el, akit a munkaköri leírásában felhatalmaztak az utasításban a bűnügyi technikus számára meghatározott feladatok ellátására."
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "6/C. A szemlebizottságban bűnügyi technikusként a KR, a Repülőtéri Rendőr Igazgatóság és a megyei (fővárosi) rendőr-főkapitányságok esetében kizárólag segédtechnikus, technikus, technikus tiszt, főtechnikus, kiemelt főtechnikus beosztásba kinevezett személy vagy ezek vezetője működhet közre. A rendőrkapitányságok esetében a szemlebizottságban bűnügyi technikusként segédtechnikus, technikus, technikus tiszt, főtechnikus, kiemelt főtechnikus beosztásba kinevezett személy vagy ezek vezetője részvétele biztosíthatóságának hiányában kivételesen bűnügyi technikusi szaktanfolyammal rendelkező más személy járhat el."
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "6/D. A rendőrkapitányságon segédtechnikus, technikus, technikus tiszt, főtechnikus, kiemelt főtechnikus beosztásba kinevezett személy feladatellátása során az érintett által munkaköri leírása alapján a bűnügyi szolgálati ág feladatrendszeréhez kapcsolódó más tevékenységek végzése mellett a bűnügyi technikusi feladatok ellátásának elsődlegességét kell biztosítani."
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "7."
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "8. A bizottságvezető felelősséggel tartozik a szemle ideje alatt adott utasításai jogszerűségéért és szakszerűségéért."
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "9. A bizottságvezető jogosult:"
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "a) jelentést kérni a helyszínbiztosítótól;"
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "b)"
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "c) meghatározni, hogy a szemlén kik vehetnék részt, és az érintett területen kik tartózkodhatnak;"
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "d) a szemle befejezéséről dönteni."
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "10. A bizottságvezető köteles:"
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "a) szolgálatba lépéskor a munkavégzéséhez szükséges tárgyi feltételek meglétét ellenőrizni, hiány esetén – szükség szerint elöljárója útján – azok pótlására intézkedni;"
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "b) bűncselekményről való tudomásszerzést követően – utasításra – haladéktalanul a helyszínre indulni;"
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "c) a helyszínre érkezést követően, illetve lehetőség szerint azt megelőzően is, a helyszínre vonulás közben tájékozódni a történtekről, amennyiben szükséges, intézkedni a halaszthatatlan feladatok végrehajtása iránt;"
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "d) a szemlebizottság tagjainak tevékenységét irányítani;"
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "e) amennyiben szükséges közvetlenül vagy a tevékenység-irányítási központon (a továbbiakban: TIK), vagy az egyéb rendőri szerv ügyeleti szolgálatán keresztül értesíteni és a helyszínre irányíttatni a társszerveket (így például katasztrófavédelem, munkavédelem);"
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "f) meghatározni a szemle menetét, lefolytatását, a helyszínre történő belépés rendjét;"
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "g) meghatározni és kijelölni a helyszín területén belül a mozgási útvonalakat;"
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "h) gondoskodni a szemle szakszerű és jogszerű lefolytatásáról, dokumentálásáról;"
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "i) gondoskodni a szemlejegyzőkönyv elkészítéséről;"
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "j) kapcsolatot tartani az ügyben eljáró nyomozókkal, társszervekkel, valamint jelenteni a szemlebizottságot irányító TIK-nek;"
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "k) folyamatosan ellenőrizni a nyomok, anyagmaradványok, elváltozások szakszerű felkutatását;"
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "l) a biztonságos munkavégzésre vonatkozó szabályokat megtartani, azok megtartásáról gondoskodni, így különösen az egyéni, illetve csoportos védőeszközöket, felszereléseket használni;"
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "m) a helyszínen található, ellátásra szoruló személyek, állatok ellátására és elhelyezésére – szükség szerint – intézkedni;"
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "n) a szemle során készített jegyzőkönyvet, annak mellékleteit, továbbá a helyszínen rögzített nyomokat, anyagmaradványokat – szükség esetén – az arra illetékes szerv részére átadni."
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "11. A bizottságvezető az alkalmazandó eljárások, módszerek, eszközök kiválasztásával kapcsolatos döntést megelőzően – szükség esetén – kikéri a helyszínen jelen lévő szakértő, szaktanácsadó véleményét."
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "12."
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "13. A bűnügyi technikus a szemle során a bizottságvezető alárendeltségében, annak utasításai alapján, vele együttműködve hajtja végre feladatait, ennek során köteles:"
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "a) szolgálatba lépéskor a munkavégzéséhez szükséges tárgyi feltételek meglétét ellenőrizni, hiány esetén azt jelenteni a bizottságvezetőnek;"
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "b) bűncselekmény tudomásra jutását követően a szemlebizottsággal haladéktalanul a helyszínre indulni;"
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "c) a bizottságvezető utasításait végrehajtani;"
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "d) a helyszínre érkezést követően a történtekről tájékozódni;"
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "e) a bizottságvezetővel együtt felmérni és meghatározni a szemlével érintett terület határait, a szemle lefolytatásához szükséges személyi és tárgyi feltételeket;"
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "f) a szemle során gondoskodni a képfelvételek, hangfelvételek, kép- és hangfelvételek elkészítéséről, a tényállás tisztázása és a bizonyítás szempontjából releváns tárgyi bizonyítási eszközök felkutatásáról, előhívásáról, rögzítéséről, csomagolásáról, hitelesítéséről, további vizsgálatra alkalmas módon történő biztosításáról, szállításáról;"
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "g) ellátni a holttest helyszínen történő mozgatásával, vetkőztetésével járó tevékenységet;"
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "h) közreműködni a szemlejegyzőkönyv, valamint az annak mellékletét képező helyszínvázlat, helyszínrajz és a képfelvételek, hangfelvételek, kép- és hangfelvételek, speciális eszköz által biztosított vizsgálati dokumentáció elkészítésében;"
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "i) tevékenysége során nyomkutatásra, nyomelőhívásra és -rögzítésre alkalmas eszközöket használni;"
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "j) gondoskodni a bizottságvezetővel történt egyeztetést követően – jogszabályban meghatározott esetekben – a bűnjeltárgyak arra illetékes részére történő átadásáról;"
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "k)"
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "l) az igénybevételről a bűnügyi technikai statisztikai iratot (statisztikai jegyzéket) naprakészen vezetni."
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "14."
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "15. A krimináltechnikai nyomkutatási és nyomrögzítési eljárást, a megfelelő nyomkutatási sorrend alkalmazását, valamint a csomagolás során alkalmazott helyes módszert, eszközöket – a bizottságvezető ezzel ellentétes utasításának hiányában – a bűnügyi technikus választja meg, amelynek jogszerű, szakszerű és eredményes alkalmazásáért felelősséggel tartozik."
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "16."
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "3. Az ügyeleti, illetve bevetésirányító szolgálat"
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "17. A szemlebizottságok tevékenységét koordináló ügyeleti vagy bevetésirányító szolgálat a szemlék eredményes lefolytatása érdekében:"
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "a) a szolgálatba lépő szemlebizottságok összetételéről tájékoztatást kér;"
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "b) a helyszín biztosítására intézkedik;"
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "c) a szemlebizottságot – a rendelkezésre álló adatok mérlegelésével – haladéktalanul a helyszínre irányítja, illetve indokolt esetben a küldést mellőzi;"
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "d) a szemlebizottság részére a szemle lefolytatásához szükséges és annak menetét befolyásoló információkat megadja;"
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "e) a szemlebizottság kérésére intézkedik a személyi, technikai, tárgyi feltételek biztosítására;"
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "f) az ügy vonatkozásában tájékoztatást kér a szemlebizottság tagjaitól, illetve a szemlebizottság munkáját segítő személyektől."
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "4. A helyszínbiztosítás"
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "18. A helyszínt a Szolgálati Szabályzatban foglaltak alapján kell biztosítani, ennek keretében a helyszínt biztosító rendőr köteles különösen:"
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "a) a helyszínen történő mozgása során fokozottan ügyelni a helyszín eredeti állapotban történő megőrzésére, így kizárólag a szolgálati feladatai ellátásával szükségszerűen együtt járó változtatásokat hajthat végre;"
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "b) egyéni védőeszközöket viselni;"
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "c) a szükséges biztonsági intézkedéseket megtenni, szükség szerint a TIK-en vagy egyéb rendőri szerv ügyeleti szolgálatán keresztül a társszerveket, így például a tűzszerészeket, a katasztrófavédelemért, munkavédelemért felelős szerveket értesíteni;"
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "d) a tényállás tisztázása és a bizonyítás szempontjából releváns adatokat, információkat, a helyszín kiérkezéskori állapotát, valamint az ott történt változtatásokat feljegyezni;"
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "e) segítséget nyújtani a szemlebizottságnak, különösen a tanúk felkutatása, a mintavételre történő előállítás, az ismeretlen személyazonosságú sérültek, elhunytak kilétének megállapítása, ruházatuk megóvása, illetve biztosítása során;"
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "f) a bűnjelek, járművek, egyéb gazdátlanul maradt értékek ideiglenes őrzéséről gondoskodni;"
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "g) a helyszín jellegétől és kiterjedtségétől függően kettős területzárást (kordonozást) alkalmazni;"
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "h) a kiérkező bizottságvezetőnek jelentést tenni a tett megállapításokról és foganatosított intézkedésekről;"
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "i) a helyszínbiztosító jelentés mellékletét képező – a Robotzsaru integrált ügyviteli, ügyfeldolgozó és elektronikus iratkezelő rendszerben elérhető – helyszínbiztosító munkalapot szakszerűen kitölteni, amely a szemlebizottság tagjainak adatain kívül tartalmazza a helyszín biztosításának megkezdését követően a helyszínre belépő és a helyszínről távozó személyek adatait."
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "19. A területi nyomozó hatóság hatáskörébe tartozó bűncselekmény elkövetésének helyszínén az elsőként intézkedő rendőr a szemle lefolytatására hatáskörrel és illetékességgel rendelkező szemlebizottság kiérkezését köteles megvárni."
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "5. A szemle"
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "20. Ha a szemle megtartása – az előzményi és a helyszíni adatok alapján – indokolatlan, a helyszínen intézkedő rendőr a tapasztalatairól és a megállapításairól rendőri jelentést készít."
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "21. A bizottságvezető a helyszínre érkezését követően:"
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "a) tájékozódik, összegzi az előzményi és a helyszínen tudomására jutott információkat;"
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "b) amennyiben még nem történt meg és indokolt, úgy intézkedik az azonnal végrehajtandó eljárási cselekmények végrehajtására;"
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "c) dokumentálja a cselekmény észlelése és a helyszínre érkezése közötti időben a helyszínen végrehajtott intézkedéseket, változtatásokat;"
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "d) jogszabályban meghatározott esetekben intézkedik hatósági tanúk bevonására;"
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "e) gondoskodik a hatósági tanú kioktatásáról;"
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "f) a megfelelő védőeszközök használatával, az általa meghatározott személyek bevonásával a szükséges mértékben megtekinti a helyszínt, és meghatározza a szemlével érintett terület határait, kiemelt figyelmet fordítva a helyszín állapotának megőrzésére,"
+    },
+    {
+      "provision_ref": "s107",
+      "section": "107",
+      "title": "107",
+      "content": "g) a megállapítottak alapján eligazítást tart a szemlebizottság tagjainak, segítőinek, valamint a helyszínbiztosítónak;"
+    },
+    {
+      "provision_ref": "s108",
+      "section": "108",
+      "title": "108",
+      "content": "h) felméri a szemléhez szükséges személyi és tárgyi feltételek meglétét, szükség szerint intézkedik a hiányzó feltételek pótlására;"
+    },
+    {
+      "provision_ref": "s109",
+      "section": "109",
+      "title": "109",
+      "content": "i) ha az ügy körülményei megkívánják, speciális szakértelemmel rendelkező személy, így szakértő, szaktanácsadó bevonásáról dönt."
+    },
+    {
+      "provision_ref": "s110",
+      "section": "110",
+      "title": "110",
+      "content": "22. A szemle során a szemle valamennyi résztvevője köteles betartani a biztonságos munkavégzésre vonatkozó szabályokat és egyéni védőeszközt használni."
+    },
+    {
+      "provision_ref": "s111",
+      "section": "111",
+      "title": "111",
+      "content": "23. A bizottságvezető a körülmények ismeretében meghatározza a szemle lefolytatásának menetét azzal, hogy a szemlebizottság a bűncselekmény során keletkezett objektumok, elváltozások, rögzített nyomok, anyagmaradványok jelölésére köteles – arab számok használatával – kriminalisztikai jelöléseket alkalmazni."
+    },
+    {
+      "provision_ref": "s112",
+      "section": "112",
+      "title": "112",
+      "content": "24. A helyszín állapotát – a nyomok, az anyagmaradványok felkutatását és rögzítését megelőzően – utólag rekonstruálható módon, részletesen dokumentálni kell."
+    },
+    {
+      "provision_ref": "s113",
+      "section": "113",
+      "title": "113",
+      "content": "25. A nyomok, anyagmaradványok felkutatásának és rögzítésének sorrendjéről a bizottságvezető határoz azzal, hogy – a helyszín jellegéből fakadóan – a dokumentáció és a nyomok rögzítése szakaszosan váltakozhat a szemle lefolytatása során."
+    },
+    {
+      "provision_ref": "s114",
+      "section": "114",
+      "title": "114",
+      "content": "26. A szemle során rögzíteni kell a szemle tárgyának a megtalálás időpontja szerinti helyzetét és állapotát, továbbá vizsgálni kell az érintett területre való behatolás, az érintett területen történő mozgás, valamint az érintett területről történő távozás szempontjából releváns helyeket, így különösen a nyílászárók, a zárszerkezetek, a biztonságtechnikai eszközök megtalálás időpontja szerinti helyzetét, állapotát, az azokon keletkezett elváltozásokat, nyomokat, anyagmaradványokat."
+    },
+    {
+      "provision_ref": "s115",
+      "section": "115",
+      "title": "115",
+      "content": "27. A szemle során minden olyan helyet vizsgálni kell, amellyel az elkövető a cselekmény során fizikai érintkezésbe léphetett, ezeken a területeken a nyomrögzítés során a különféle módszereket olyan sorrendben kell alkalmazni, amely nem zárja ki a más módszerrel történő további nyomkutatás lehetőségét."
+    },
+    {
+      "provision_ref": "s116",
+      "section": "116",
+      "title": "116",
+      "content": "28. Az elkövető által esetlegesen hátrahagyott tárgyat, az elkövetés eszközét, továbbá bármely, a bizonyítás szempontjából releváns vagy a büntetőeljárási törvény alapján elkobzás alá eső egyéb dolgot – a dokumentálást követően – lefoglalással biztosítani kell."
+    },
+    {
+      "provision_ref": "s117",
+      "section": "117",
+      "title": "117",
+      "content": "29. A bizottságvezető utasítása alapján a szemle során a nyomok és anyagmaradványok felkutatására és rögzítésére alkalmazott egyes fizikai és kémiai vagy fizikai-kémiai eljárások meghatározó stádiumait képfelvételen dokumentálni kell."
+    },
+    {
+      "provision_ref": "s118",
+      "section": "118",
+      "title": "118",
+      "content": "30. A szemle során rögzített nyomokat, anyagmaradványokat egyedileg megjelölve, hitelesítve kell csomagolni olyan módon, hogy a csomagolást roncsolásmentesen ne lehessen felnyitni, majd a csomagoláson szabályosan kitöltött bűnjelcímkét vagy a bűnjelcímkével megegyező tartalmú öntapadós zárócímkét kell elhelyezni. A hitelesített bűnjelekről képfelvételt, illetve kép- és hangfelvételt is kell készíteni."
+    },
+    {
+      "provision_ref": "s119",
+      "section": "119",
+      "title": "119",
+      "content": "31. Amennyiben a szemle során a helyszínen tapasztalt körülmények, illetve a talált nyomok, anyagmaradványok vizsgálata alapján kétséges, hogy a cselekmény adott módon megvalósulhatott-e, a bizottságvezető ezzel kapcsolatos megállapításait külön jelentésben rögzíti."
+    },
+    {
+      "provision_ref": "s120",
+      "section": "120",
+      "title": "120",
+      "content": "32. A bizottságvezető indokolt esetben köteles a szemlével érintett területet kiterjeszteni a bűncselekmény létrejöttével kapcsolatos nyomok, elváltozások, releváns adatok és információk beszerzése érdekében."
+    },
+    {
+      "provision_ref": "s121",
+      "section": "121",
+      "title": "121",
+      "content": "33. A helyszínen intézkedőknek, illetve a szemlebizottság tagjainak kiemelt figyelmet kell fordítaniuk a helyszínen és annak környezetében telepített képfelvevők elhelyezkedésére, az azok által megfigyelt területek dokumentálására."
+    },
+    {
+      "provision_ref": "s122",
+      "section": "122",
+      "title": "122",
+      "content": "34. A bűnjeleket a szemlebizottság lefoglalja."
+    },
+    {
+      "provision_ref": "s123",
+      "section": "123",
+      "title": "123",
+      "content": "35. A bizottságvezető a szemlét:"
+    },
+    {
+      "provision_ref": "s124",
+      "section": "124",
+      "title": "124",
+      "content": "a) befejezettnek nyilvánítja, amennyiben a szemle ideje alatt a szemle menetét befolyásoló új adatok nem merültek fel és a helyszín maradéktalan feldolgozása megtörtént;"
+    },
+    {
+      "provision_ref": "s125",
+      "section": "125",
+      "title": "125",
+      "content": "b) felfüggeszti, ha"
+    },
+    {
+      "provision_ref": "s126",
+      "section": "126",
+      "title": "126",
+      "content": "ba) a környezeti körülmények hátrányos változása nem teszi lehetővé annak további folytatását,"
+    },
+    {
+      "provision_ref": "s127",
+      "section": "127",
+      "title": "127",
+      "content": "bb) a szemle folytatásához szükséges személyi vagy tárgyi feltételek nem adottak, vagy azokban olyan változás állt be, amely a helyszínen tapasztalt, előre nem látható körülmények feldolgozását nem teszi lehetővé;"
+    },
+    {
+      "provision_ref": "s128",
+      "section": "128",
+      "title": "128",
+      "content": "bc) vezetői utasítás így rendelkezik."
+    },
+    {
+      "provision_ref": "s129",
+      "section": "129",
+      "title": "129",
+      "content": "36. A szemle folytatásának felfüggesztése esetén a helyszín megváltozásának elkerülése érdekében annak további biztosításáról a bizottságvezető intézkedik."
+    },
+    {
+      "provision_ref": "s130",
+      "section": "130",
+      "title": "130",
+      "content": "5/A. A bűnügyi helyszínelő tevékenység feletti szakmai irányítás"
+    },
+    {
+      "provision_ref": "s131",
+      "section": "131",
+      "title": "131",
+      "content": "36/A. A szemlebizottság vezetői feladatokat ellátók tevékenysége felett – a Rendőrség bűnügyi tevékenységének szakmai irányításáról szóló ORFK utasításban (a továbbiakban: ORFK utasítás) foglaltak szerint – az ORFK Bűnügyi Főigazgatóság Bűnügyi Főosztály Bűnügyi Osztály gyakorol szakirányító tevékenységet."
+    },
+    {
+      "provision_ref": "s132",
+      "section": "132",
+      "title": "132",
+      "content": "36/B. A KR NNI Bűnügyi Technikai Főosztály a főosztályvezető irányításával kezdeményezi a területi szervek bűnügyi technikai egységeinek működéséhez szükséges egyes speciális nyomkutató eszközök, nyomrögzítő szakanyagok országos beszerzését, elosztását, felhasználásainak bűnügyi technikai szakmai ellenőrzését."
+    },
+    {
+      "provision_ref": "s133",
+      "section": "133",
+      "title": "133",
+      "content": "36/C. A bűnügyi technikai és bűnügyi kutyavezetői feladatot ellátók tevékenysége felett – az ORFK utasításban foglaltak szerint – a KR NNI Bűnügyi Technikai Főosztály gyakorol szakirányító tevékenységet."
+    },
+    {
+      "provision_ref": "s134",
+      "section": "134",
+      "title": "134",
+      "content": "II. Különös rész"
+    },
+    {
+      "provision_ref": "s135",
+      "section": "135",
+      "title": "135",
+      "content": "37. A szemlebizottság jelen utasítás rendelkezéseit az alábbiakban felsorolt helyszíntípusok szemléje során az egyes helyszíntípusokra meghatározott eltérésekkel és kiegészítésekkel alkalmazza."
+    },
+    {
+      "provision_ref": "s136",
+      "section": "136",
+      "title": "136",
+      "content": "6. Halálesetek helyszíne"
+    },
+    {
+      "provision_ref": "s137",
+      "section": "137",
+      "title": "137",
+      "content": "38. A szemlét elsősorban a halottszemlével kell kezdeni, olyan módon, hogy a holttestet – a védőfelszerelések használata mellett – a lehető legrövidebb útvonalon kell megközelíteni, úgy, hogy közben a kriminalisztikai számozást folyamatosan alkalmazva a megközelítési útvonalon található releváns nyomokat, tárgyi bizonyítási eszközöket, elváltozásokat rögzíteni, illetve rögzítésre biztosítani szükséges."
+    },
+    {
+      "provision_ref": "s138",
+      "section": "138",
+      "title": "138",
+      "content": "39. Halottszemlét elsősorban a holttest megtalálási helyén kell foganatosítani, amennyiben az a helyszínen – kegyeleti okból, nem megfelelő időjárási és egyéb körülmények fennállása vagy a szemlén részt vevők testi épségének veszélyeztetettsége miatt – nem végezhető el, boncteremben kell lefolytatni."
+    },
+    {
+      "provision_ref": "s139",
+      "section": "139",
+      "title": "139",
+      "content": "40. A szemle és halottszemle során minden esetben rögzíteni és dokumentálni kell:"
+    },
+    {
+      "provision_ref": "s140",
+      "section": "140",
+      "title": "140",
+      "content": "a) a holttest megtalálási helyzetét, állapotát, ruházatát;"
+    },
+    {
+      "provision_ref": "s141",
+      "section": "141",
+      "title": "141",
+      "content": "b) a lemeztelenített holttesten a sérülések típusát, méretét, elhelyezkedését."
+    },
+    {
+      "provision_ref": "s142",
+      "section": "142",
+      "title": "142",
+      "content": "41. A holttest arcáról, illetve az egész testről képfelvételeket kell készíteni, különösen a testen lévő műtéti hegekről, tetoválásokról, illetve a további, egyedi azonosításra alkalmas elváltozásokról azzal, hogy az elhunyt személy ujj- és tenyérnyomatát, valamint a szájnyálkahártya-törletet minden esetben rögzíteni kell."
+    },
+    {
+      "provision_ref": "s143",
+      "section": "143",
+      "title": "143",
+      "content": "42. Az azonosítás érdekében az ismeretlen személyazonosságú holttestről rögzíteni kell:"
+    },
+    {
+      "provision_ref": "s144",
+      "section": "144",
+      "title": "144",
+      "content": "a) haj- és fanszőrzetmintát;"
+    },
+    {
+      "provision_ref": "s145",
+      "section": "145",
+      "title": "145",
+      "content": "b) a holttest pontos hosszát;"
+    },
+    {
+      "provision_ref": "s146",
+      "section": "146",
+      "title": "146",
+      "content": "c) a holttestre vonatkozó minden további – így különösen az Alfonz Személyleírási Rendszer bevezetésével és alkalmazásával kapcsolatos feladatokról szóló 26/2017. (VIII. 25.) ORFK utasítás 3–4. melléklete szerinti – releváns adatot;"
+    },
+    {
+      "provision_ref": "s147",
+      "section": "147",
+      "title": "147",
+      "content": "d) vizsgálatra alkalmas mintát a genetikai azonosítás érdekében."
+    },
+    {
+      "provision_ref": "s148",
+      "section": "148",
+      "title": "148",
+      "content": "43. Amennyiben a holttestet borító ruházat egészben történő eltávolítására nincs lehetőség, úgy a ruházatot a varrás, illetve az illesztések mentén kell szétvágni olyan módon, hogy a ruha a későbbiek során szakértői vizsgálatra alkalmas maradjon. A ruházatot, a benne található tárgyakat, valamint a holttesten lévő dolgokat – különös tekintettel az értéktárgyakra – minden esetben le kell foglalni."
+    },
+    {
+      "provision_ref": "s149",
+      "section": "149",
+      "title": "149",
+      "content": "44. A holttest mozgatása előtt a testen és a ruházatán lévő biológiai és mikroméretű anyagmaradványokat rögzíteni kell."
+    },
+    {
+      "provision_ref": "s150",
+      "section": "150",
+      "title": "150",
+      "content": "45. Halálesetek helyszínén kötelező gondoskodni igazságügyi orvostani szakvizsgával rendelkező orvos részvételéről."
+    },
+    {
+      "provision_ref": "s151",
+      "section": "151",
+      "title": "151",
+      "content": "7. Járművekkel kapcsolatos bűncselekmények helyszíne"
+    },
+    {
+      "provision_ref": "s152",
+      "section": "152",
+      "title": "152",
+      "content": "46. A jármű egyedi azonosító jeleit és a kilométeróra számlálójának állását – amennyiben a jármű rendelkezik azokkal, és az a helyszínen dokumentálható – a szemlejegyzőkönyvben leírással, valamint képfelvételen is rögzíteni kell."
+    },
+    {
+      "provision_ref": "s153",
+      "section": "153",
+      "title": "153",
+      "content": "47. Amennyiben a szemle megkezdéséig nem történt meg, úgy intézkedni kell a jármű nyilvántartásokban történő ellenőrzésére."
+    },
+    {
+      "provision_ref": "s154",
+      "section": "154",
+      "title": "154",
+      "content": "48. Amennyiben a zárszerkezet eredetben történő rögzítése, illetve a jármű egyes szerkezeti elemeinek megbontása indokolt, úgy annak megfelelő szakértelemmel rendelkező személy segítségével történő kiszerelésére az eljáró nyomozó szervnek intézkednie kell."
+    },
+    {
+      "provision_ref": "s155",
+      "section": "155",
+      "title": "155",
+      "content": "49. A szemlének a jármű valamennyi részére – így különösen a motortérre, az utastérre, a csomagtérre, valamint a raktérre – ki kell terjednie."
+    },
+    {
+      "provision_ref": "s156",
+      "section": "156",
+      "title": "156",
+      "content": "50. A jármű elszállításáról – amennyiben szükséges – olyan módon kell gondoskodni, hogy az ne eredményezze a nyomok, anyagmaradványok megváltoztatását, megsemmisülését."
+    },
+    {
+      "provision_ref": "s157",
+      "section": "157",
+      "title": "157",
+      "content": "8. Nemi erkölcs elleni bűncselekmények helyszíne"
+    },
+    {
+      "provision_ref": "s158",
+      "section": "158",
+      "title": "158",
+      "content": "51."
+    },
+    {
+      "provision_ref": "s159",
+      "section": "159",
+      "title": "159",
+      "content": "52. A szemle során intézkedni kell:"
+    },
+    {
+      "provision_ref": "s160",
+      "section": "160",
+      "title": "160",
+      "content": "a) a testfelületen, illetve a testüregekben lévő anyagmaradványok orvos bevonásával történő rögzítésére;"
+    },
+    {
+      "provision_ref": "s161",
+      "section": "161",
+      "title": "161",
+      "content": "b) a sértett elkövetéskor viselt ruházatának eredetben történő lefoglalására;"
+    },
+    {
+      "provision_ref": "s162",
+      "section": "162",
+      "title": "162",
+      "content": "c) a sértett DNS mintájának nem nyilvántartási célú mintavevő eszközzel történő rögzítésére;"
+    },
+    {
+      "provision_ref": "s163",
+      "section": "163",
+      "title": "163",
+      "content": "d) a sértettet védekezésre képtelen állapotba helyezésével összefüggésbe hozható tárgyak, anyagmaradványok felkutatására és rögzítésére."
+    },
+    {
+      "provision_ref": "s164",
+      "section": "164",
+      "title": "164",
+      "content": "9. Tűzesetek, robbanások helyszíne"
+    },
+    {
+      "provision_ref": "s165",
+      "section": "165",
+      "title": "165",
+      "content": "53. Tűzeset helyszínén az elsődleges intézkedések megtétele után – a tűzoltásvezető engedélyével – szemle lefolytatása kötelező, amelynek során törekedni kell a tűz lehetséges keletkezési körülményeinek, okainak, helyének, idejének megállapítására, a tűz terjedési irányának meghatározására."
+    },
+    {
+      "provision_ref": "s166",
+      "section": "166",
+      "title": "166",
+      "content": "54. Amennyiben a tűzeset szemléjén a szemlebizottság munkáját segítő személyként tűzvizsgáló van jelen, úgy"
+    },
+    {
+      "provision_ref": "s167",
+      "section": "167",
+      "title": "167",
+      "content": "a) a tűzeset körülményeivel kapcsolatos szóbeli megállapításait a jegyzőkönyvben szerepeltetni kell;"
+    },
+    {
+      "provision_ref": "s168",
+      "section": "168",
+      "title": "168",
+      "content": "b) a nyomok, tárgyi bizonyítási eszközök szakszerű felkutatását, összegyűjtését, rögzítését és csomagolását iránymutatásainak figyelembevételével kell végrehajtani azzal, hogy a helyszínelő egységnek a szemlét – lehetőség szerint – a tűzvédelmi hatóság által folytatott szemlével egy időben kell végrehajtania."
+    },
+    {
+      "provision_ref": "s169",
+      "section": "169",
+      "title": "169",
+      "content": "10. Robbantással elkövetett bűncselekmények, és katasztrófa jellegű események helyszíne"
+    },
+    {
+      "provision_ref": "s170",
+      "section": "170",
+      "title": "170",
+      "content": "55. A tűzszerész járőrt a Szolgálati Szabályzatban meghatározottak szerint kell kirendelni."
+    },
+    {
+      "provision_ref": "s171",
+      "section": "171",
+      "title": "171",
+      "content": "56. Robbantás helyszínének biztonsági átvizsgálásáért a tűzszerész járőr és annak jelenlévő parancsnoka felel, a szemle megkezdésére csak az átvizsgálás és a szemlebizottság részére történő helyszínátadás után kerülhet sor."
+    },
+    {
+      "provision_ref": "s172",
+      "section": "172",
+      "title": "172",
+      "content": "57. A szemle során a tűzszerész szaktanácsadóként segíti a szemlebizottság munkáját, a robbanással kapcsolatba hozható elváltozások, tárgyi bizonyítási eszközök szakszerű felkutatását, összegyűjtését, rögzítését, csomagolását és szállítását a tűzszerész iránymutatása szerint kell végrehajtani."
+    },
+    {
+      "provision_ref": "s173",
+      "section": "173",
+      "title": "173",
+      "content": "58. Nyílt területen történt robbantás esetén az érintett terület lezárásának mértékét olyan méretű körre kell kiterjeszteni, amelynek sugara legalább 50%-kal nagyobb, mint a robbanás középpontja és az attól legtávolabb talált repesz közötti távolság."
+    },
+    {
+      "provision_ref": "s174",
+      "section": "174",
+      "title": "174",
+      "content": "59. Zárt tér esetén – amennyiben nincs repeszkiszóródás – a robbantás helyszínével szomszédos helyiségeket le kell zárni, repeszkiszóródás esetén a nyílt területen területzárást kell alkalmazni."
+    },
+    {
+      "provision_ref": "s175",
+      "section": "175",
+      "title": "175",
+      "content": "60. A helyszínen lefoglalt robbanásveszélyes bűnjeleket (robbanóanyagot) és szemletárgyakat a Készenléti Rendőrség Személy- és Objektumvédelmi Igazgatóság Tűzszerész Szolgálatának kell átadni."
+    },
+    {
+      "provision_ref": "s176",
+      "section": "176",
+      "title": "176",
+      "content": "61. Folyékony és szilárd halmazállapotú ismeretlen összetételű anyag helyszíni azonosításához a Készenléti Rendőrség Személy- és Objektumvédelmi Igazgatóság Tűzszerész Szolgálatát, légnemű és részben folyékony anyag esetén az BM Országos Katasztrófavédelmi Főigazgatóság szakembereit kell kirendelni."
+    },
+    {
+      "provision_ref": "s177",
+      "section": "177",
+      "title": "177",
+      "content": "11. Kábítószerrel kapcsolatos bűncselekmények helyszíne"
+    },
+    {
+      "provision_ref": "s178",
+      "section": "178",
+      "title": "178",
+      "content": "62. A visszaélés kábítószerrel bűncselekmény nyomozása során a rendőrség szerveire háruló feladatokról szóló ORFK utasítás rendelkezéseinek figyelembevételével kábítószer, kábítószer-prekurzor vagy kábítószer előállításához szükséges anyagok, berendezések, felszerelések megtalálása esetén szemlét kell lefolytatni, így különösen"
+    },
+    {
+      "provision_ref": "s179",
+      "section": "179",
+      "title": "179",
+      "content": "a) kábítószernövény-ültetvények;"
+    },
+    {
+      "provision_ref": "s180",
+      "section": "180",
+      "title": "180",
+      "content": "b) kábítószer laboratóriumok;"
+    },
+    {
+      "provision_ref": "s181",
+      "section": "181",
+      "title": "181",
+      "content": "c) kábítószer elosztására, csomagolására, terjesztésére szolgáló objektumok felszámolása során."
+    },
+    {
+      "provision_ref": "s182",
+      "section": "182",
+      "title": "182",
+      "content": "63. Kábítószerrel kapcsolatos bűncselekmény gyanúja esetén lehetőség szerint kábítószer-kereső kutyát kell igénybe venni. Ilyen esetben minősítéssel rendelkező, a károkozás elkerülése érdekében lehetőség szerint passzív jelzésű kábítószer-kereső kutyát kell alkalmazni."
+    },
+    {
+      "provision_ref": "s183",
+      "section": "183",
+      "title": "183",
+      "content": "64. Kábítószer előállítására használt illegális laboratóriumok szemléje esetén – a balesetek elkerülése érdekében – értesíteni kell a Nemzeti Szakértői és Kutató Központ (a továbbiakban: NSZKK) Kábítószervizsgáló Szakértői Intézetet."
+    },
+    {
+      "provision_ref": "s184",
+      "section": "184",
+      "title": "184",
+      "content": "12. Fegyverrel kapcsolatos bűncselekmények helyszíne"
+    },
+    {
+      "provision_ref": "s185",
+      "section": "185",
+      "title": "185",
+      "content": "65. Fegyverrel kapcsolatos bűncselekmények helyszínén kiemelt figyelmet kell fordítani a lövedékek, töltényhüvelyek felkutatására, elhelyezkedésük és jellemzőik dokumentálására, valamint eredetben történő rögzítésükre, illetve a lövedékek – indokolt esetben – humán vérteszttel történő vizsgálatára."
+    },
+    {
+      "provision_ref": "s186",
+      "section": "186",
+      "title": "186",
+      "content": "66. Amennyiben a helyszínen fegyver, töltény található, úgy intézkedni kell:"
+    },
+    {
+      "provision_ref": "s187",
+      "section": "187",
+      "title": "187",
+      "content": "a) azok elhelyezkedésének, állapotának pontos dokumentálására;"
+    },
+    {
+      "provision_ref": "s188",
+      "section": "188",
+      "title": "188",
+      "content": "b) a fegyver töltetlenségének ellenőrzésére azzal, hogy ürítésére lehetőség szerint fegyverszakértő bevonásával kerüljön sor;"
+    },
+    {
+      "provision_ref": "s189",
+      "section": "189",
+      "title": "189",
+      "content": "c) a fegyveren található jelzések alapján a fegyver típusának, gyártmányának, azonosító számának rögzítésére, illetve ezek hiányában a különös ismertető jelek dokumentálására;"
+    },
+    {
+      "provision_ref": "s190",
+      "section": "190",
+      "title": "190",
+      "content": "d) anyagmaradványok, valamint daktiloszkópiai nyom rögzítésére;"
+    },
+    {
+      "provision_ref": "s191",
+      "section": "191",
+      "title": "191",
+      "content": "e) a fegyver csövének dugózására az anyagmaradványok megőrzése érdekében;"
+    },
+    {
+      "provision_ref": "s192",
+      "section": "192",
+      "title": "192",
+      "content": "f) a fegyver, a tár, a töltény megfelelő csomagolására;"
+    },
+    {
+      "provision_ref": "s193",
+      "section": "193",
+      "title": "193",
+      "content": "g) a töltény jellemzőinek dokumentálására."
+    },
+    {
+      "provision_ref": "s194",
+      "section": "194",
+      "title": "194",
+      "content": "67. A nyomok, anyagmaradványok, elváltozások dokumentálása és rögzítése érdekében fel kell kutatni, és vizsgálni kell:"
+    },
+    {
+      "provision_ref": "s195",
+      "section": "195",
+      "title": "195",
+      "content": "a) a feltételezett lőállást, lőirányt és azok környezetét, továbbá"
+    },
+    {
+      "provision_ref": "s196",
+      "section": "196",
+      "title": "196",
+      "content": "b) a becsapódási hely, illetve a lövedék megtalálásának környezetét"
+    },
+    {
+      "provision_ref": "s197",
+      "section": "197",
+      "title": "197",
+      "content": "azzal, hogy a vélelmezett helyekről a másodlagos lőtényezőket GSR mintavevővel biztosítani szükséges."
+    },
+    {
+      "provision_ref": "s198",
+      "section": "198",
+      "title": "198",
+      "content": "68. Szervezett keretek között végzett tevékenység (vadászat, lövészet, egyéb fegyverrel kapcsolatos rendezvény) esetén az adott tevékenység végrehajtását szabályozó, a szemle idején rendelkezésre álló leíró dokumentációt, így különösen a fegyvertartási engedélyt, műszaki lapot, állami vadászjegyet le kell foglalni."
+    },
+    {
+      "provision_ref": "s199",
+      "section": "199",
+      "title": "199",
+      "content": "III. Záró rendelkezések"
+    },
+    {
+      "provision_ref": "s200",
+      "section": "200",
+      "title": "200",
+      "content": "69. Az utasítás a közzétételét követő második hónap első napján lép hatályba."
+    },
+    {
+      "provision_ref": "s201",
+      "section": "201",
+      "title": "201",
+      "content": "70. A KR parancsnoka az NSZKK által kidolgozott eljárási és módszertani javaslat figyelembevételével gondoskodik a bűnügyi technikai tevékenységet segítő egységes módszertani útmutató kiadásáról. 1 Az utasítást a 32/2020. (XI. 19.) ORFK utasítás 6. pontja hatályon kívül helyezte 2020. november 27. napjával. 2 Az 1. pont b) alpontja a 38/2016. (XII. 29.) ORFK utasítás 16. pontjával megállapított szöveg. 3 A 2. pont b) alpontja a 29/2018. (VI. 21.) ORFK utasítás 1. pontjával megállapított szöveg. 4 A 2. pont c) alpontja a 29/2018. (VI. 21.) ORFK utasítás 1. pontjával megállapított szöveg. 5 A 2. pont d) alpontja a 29/2018. (VI. 21.) ORFK utasítás 1. pontjával megállapított szöveg. 6 A 2. pont f)–h) alpontját a 33/2017. (XI. 16.) ORFK utasítás 3. pont a) alpontja hatályon kívül helyezte. 7 A 2. pont i) alpontja a 29/2018. (VI. 21.) ORFK utasítás 2. pontjával megállapított szöveg. 8 A 2/A. pontot a 33/2017. (XI. 16.) ORFK utasítás 1. pontja iktatta be. 9 Az 5/A. pontot a 35/2014. (X. 10.) ORFK utasítás 1. pontja iktatta be, szövege a 29/2018. (VI. 21.) ORFK utasítás 3. pontjával megállapított szöveg. 10 Az 5/B. pontot a 35/2014. (X. 10.) ORFK utasítás 1. pontja iktatta be, szövege a 29/2018. (VI. 21.) ORFK utasítás 3. pontjával megállapított szöveg. 11 Az 5/C. pontot a 38/2016. (XII. 29.) ORFK utasítás 19. pontja iktatta be, hatályon kívül helyezte a 29/2018. (VI. 21.) ORFK utasítás 22. pont a) alpontja. 12 A 6/A. pontot a 33/2017. (XI. 16.) ORFK utasítás 2. pontja iktatta be. 13 A 6/B. pontot a 33/2017. (XI. 16.) ORFK utasítás 2. pontja iktatta be. 14 A 6/C. pontot a 33/2017. (XI. 16.) ORFK utasítás 2. pontja iktatta be, szövege a 29/2018. (VI. 21.) ORFK utasítás 4. pontjával megállapított szöveg. 15 A 6/D. pontot a 33/2017. (XI. 16.) ORFK utasítás 2. pontja iktatta be, szövege a 29/2018. (VI. 21.) ORFK utasítás 4. pontjával megállapított szöveg. 16 A 7. pontot a 29/2018. (VI. 21.) ORFK utasítás 22. pont b) alpontja hatályon kívül helyezte. 17 A 8. pont a 29/2018. (VI. 21.) ORFK utasítás 5. pontjával megállapított szöveg. 18 A 9. pont b) alpontját a 29/2018. (VI. 21.) ORFK utasítás 22. pont c) alpontja hatályon kívül helyezte. 19 A 9. pont d) alpontja a 29/2018. (VI. 21.) ORFK utasítás 6. pontjával megállapított szöveg. 20 A 10. pont e) alpontja az 59/2013. (XII. 21.) ORFK utasítás 87. pontjával megállapított szöveg. 21 A 10. pont j) alpontja az 59/2013. (XII. 21.) ORFK utasítás 88. pontjával megállapított szöveg. 22 A 11. pont a 29/2018. (VI. 21.) ORFK utasítás 7. pontjával megállapított szöveg. 23 A 12. pontot a 29/2018. (VI. 21.) ORFK utasítás 22. pont d) alpontja hatályon kívül helyezte. 24 A 13. pont h) alpontja a 29/2018. (VI. 21.) ORFK utasítás 8. pontjával megállapított szöveg. 25 A 13. pont k) alpontját a 29/2018. (VI. 21.) ORFK utasítás 22. pont e) alpontja hatályon kívül helyezte. 26 A 14. pontot a 33/2017. (XI. 16.) ORFK utasítás 3. pont c) alpontja hatályon kívül helyezte. 27 A 15. pont a 29/2018. (VI. 21.) ORFK utasítás 9. pontjával megállapított szöveg. 28 A 16. pontot a 29/2018. (VI. 21.) ORFK utasítás 22. pont f) alpontja hatályon kívül helyezte. 29 A 18. pont c) alpontja az 59/2013. (XII. 21.) ORFK utasítás 89. pontjával megállapított szöveg. 30 A 18. pont i) alpontja a 29/2018. (VI. 21.) ORFK utasítás 10. pontjával megállapított szöveg. 31 A 20. pont a 29/2018. (VI. 21.) ORFK utasítás 11. pontjával megállapított szöveg. 32 A 22. pont a 29/2018. (VI. 21.) ORFK utasítás 12. pontjával megállapított szöveg. 33 A 23. pont a 29/2018. (VI. 21.) ORFK utasítás 12. pontjával megállapított szöveg. 34 A 24. pont a 29/2018. (VI. 21.) ORFK utasítás 12. pontjával megállapított szöveg. 35 A 26. pont a 29/2018. (VI. 21.) ORFK utasítás 13. pontjával megállapított szöveg. 36 A 29. pont a 29/2018. (VI. 21.) ORFK utasítás 14. pontjával megállapított szöveg. 37 A 30. pont a 29/2018. (VI. 21.) ORFK utasítás 14. pontjával megállapított szöveg. 38 A 32. pont a 29/2018. (VI. 21.) ORFK utasítás 15. pontjával megállapított szöveg. 39 A 34. pont a 29/2018. (VI. 21.) ORFK utasítás 22. pont g) alpontja szerint módosított szöveg. 40 Az 5/A. címet (36/A–36/C. pont) a 38/2016. (XII. 29.) ORFK utasítás 20. pontja iktatta be. Az 5/A. alcím címe a 29/2018. (VI. 21.) ORFK utasítás 16. pontjával megállapított szöveg. 41 A 36/A. pont a 29/2018. (VI. 21.) ORFK utasítás 17. pontjával megállapított szöveg. 42 A 36/C. pont a 29/2018. (VI. 21.) ORFK utasítás 18. pontjával megállapított szöveg. 43 A 39. pont a 29/2018. (VI. 21.) ORFK utasítás 19. pontjával megállapított szöveg. 44 A 40. pont a) alpontja a 29/2018. (VI. 21.) ORFK utasítás 21. pont a) alpontja szerint módosított szöveg. 45 A 40. pont b) alpontja a 29/2018. (VI. 21.) ORFK utasítás 22. pont h) alpontja szerint módosított szöveg. 46 A 42. pont a 29/2018. (VI. 21.) ORFK utasítás 20. pontjával megállapított szöveg. 47 Az 51. pontot a 29/2018. (VI. 21.) ORFK utasítás 22. pont i) alpontja hatályon kívül helyezte. 48 Az 52. pont c) alpontja a 29/2018. (VI. 21.) ORFK utasítás 21. pont b) alpontja szerint módosított szöveg. 49 A 60. pont a 29/2018. (VI. 21.) ORFK utasítás 21. pont c) alpontja szerint módosított szöveg. 50 A 61. pont a 29/2018. (VI. 21.) ORFK utasítás 21. pont d) alpontja szerint módosított szöveg. 51 A 64. pont a 38/2016. (XII. 29.) ORFK utasítás 22. pont b) alpontja szerint módosított szöveg. 52 A 66. pont d) alpontja a 29/2018. (VI. 21.) ORFK utasítás 21. pont e) alpontja szerint módosított szöveg. 53 A 70. pont a 38/2016. (XII. 29.) ORFK utasítás 21. pontjával megállapított szöveg."
+    }
+  ]
+}

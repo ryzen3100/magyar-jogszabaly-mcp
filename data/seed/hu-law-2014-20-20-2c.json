@@ -1,0 +1,47 @@
+{
+  "id": "hu-law-2014-20-20-2c",
+  "type": "statute",
+  "title": "20/2014. (VI. 3.) MNB rendelet az ISIN azonosítóról",
+  "status": "in_force",
+  "in_force_date": "2014-06-04",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2014-20-20-2C",
+  "description": "az ISIN azonosítóról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § (1) E rendelet alkalmazásában a) kibocsátó: a tőkepiacról szóló 2001. évi CXX. törvény 5. § (1) bekezdés 67. pontjában meghatározott személy, b) magyar kibocsátó: a magyar állampolgárságú természetes személy, a magyarországi székhellyel rendelkező szervezet és a magyar állam. (2) E rendelet hatálya a sorozatban kibocsátott értékpapír kibocsátójára, a tőzsdei tevékenységet végző szervezetre és a központi értéktárra terjed ki. (3) E rendelet hatálya kiterjed a) a sorozatban kibocsátott értékpapírra, ha aa) annak forgalomba hozatalára Magyarország területén kerül sor, ab) annak forgalomba hozatalára magyar kibocsátó által – ide nem értve az államot – az Európai Unió területén nyilvánosan kerül sor, vagy ac) a sorozatban kibocsátott értékpapír Magyarország területén működő tőzsdére kerül bevezetésre, és b) az egyéb tőzsdei termékre."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § (1) A kibocsátó, illetve a tőzsdei tevékenységet végző szervezet (a továbbiakban együtt: kérelmező) az ISIN azonosító kiadását – a (6) bekezdésben meghatározott eset figyelembevételével – értékpapír esetén az 1. mellékletben, egyéb tőzsdei termék esetén a 2. mellékletben meghatározott adatok központi értéktárral való közlésével igényli. (2) A kérelmező a központi értéktárral közölt adatok változását, valamint az ISIN azonosító törlését megalapozó körülményt, annak bekövetkeztétől számított 5 napon belül bejelenti a központi értéktárnak. (3) Dematerializált úton előállított kötvény, jelzáloglevél, befektetési jegy esetében, amennyiben a forgalomba hozatalra jegyzési eljárás keretében kerül sor, a központi értéktár a kérelmező által az ISIN azonosító igénylésekor megadott, az 1. melléklet 3.1., 3.4., 3.7., 3.8. és a 3.12.1. alpontjában felsorolt adatokban az értékpapír keletkeztetésig bekövetkezett változásokat külön kérelem nélkül, a kibocsátó keletkeztetéshez adott utasítása alapján a központi értékpapír-nyilvántartásban véglegesíti. (4) Amennyiben a központi értéktár eljárása során az ISIN azonosító törlését megalapozó körülményt – így különösen a kibocsátó jogutód nélküli megszűnését – észlel, úgy a központi értéktár az ISIN azonosítót – a Magyar Nemzeti Bank egyidejű tájékoztatása mellett – törli. (5) Az 1. és 2. mellékletben meghatározott adatokat a kérelmező papír alapú okiraton vagy – a központi értéktár által biztosított esetekben – elektronikus úton juttatja el a központi értéktárhoz. Az adatok papír alapú okiraton történő bejelentésére szolgáló adatlapot a központi értéktár a honlapján elérhetővé teszi, valamint kérelemre rendelkezésre bocsátja. Az elektronikus úton történő bejelentéshez a központi értéktár elektronikus felületet működtet. (6) A tőzsdei tevékenységet végző szervezet és a központi értéktár jogosult az ISIN azonosító iránti kérelem benyújtására és az ISIN azonosító központi értéktár általi kiadására vonatkozóan az e rendeletben meghatározottaktól írásbeli megállapodás alapján eltérni."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) Az ISIN azonosítót alkotó – betűkből és számjegyekből álló – jelsorozat tizenkét elemből áll. (2) A jelsorozat első két karaktere a kibocsátás országának azonosítására szolgáló latin betű. (3) A jelsorozat harmadik karaktertől tizenegyedik karakterig terjedő része az alfanumerikus nemzeti azonosító. (4) A jelsorozat arab számjegyű tizenkettedik karaktere az ellenőrzőszám."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) Az egy sorozatba tartozó értékpapírok – a (2) bekezdésben foglalt kivétellel – azonos ISIN azonosítóval rendelkeznek. (2) Ha a) az egy sorozaton belül eltérő időpontban forgalomba hozott értékpapírok átmenetileg nem azonos jogokat testesítenek meg, vagy b) tőzsdén már jegyzett értékpapírral azonos értékpapír-sorozatba tartozó értékpapírok forgalomba hozatala esetén a később forgalomba hozott értékpapírok ugyanazon tőzsdére történő bevezetésére nem a forgalomba hozatallal egy időben kerül sor, az egy sorozatba tartozó, később forgalomba hozott értékpapírok ISIN azonosítója eltér a korábban forgalomba hozott értékpapírok ISIN azonosítójától. (3) Amennyiben a kérelmező ideiglenes részvény vagy ideiglenes befektetési jegy sorozatra kér ISIN azonosítót, úgy köteles ezt megelőzően a részvény vagy befektetési jegy sorozatra is ISIN azonosítót igényelni, amely ISIN azonosítóra az ideiglenes részvény vagy ideiglenes befektetési jegy sorozathoz történő ISIN azonosító igénylésekor hivatkozni kell."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § (1) A kiadott ISIN azonosítóról és az ahhoz kapcsolódóan nyilvántartott adatokról a központi értéktár az általa kiállított igazolást postai vagy elektronikus úton küldi meg a kérelmező részére. (2) A központi értéktár honlapján közzéteszi az általa kiadott aktív ISIN azonosítók listáját. A központi értéktár jogosult az ISIN azonosítót, valamint a hozzá tartozó adatokat az általa vezetett központi értékpapír-nyilvántartásban szerepeltetni."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § (1) Ez a rendelet a kihirdetését követő napon lép hatályba. (2) A kérelmező az értékpapír-sorozatra vonatkozó ISIN azonosító igénylésekor a következő, az adott értékpapírra vonatkozó adatokat bocsátja a központi értéktár rendelkezésére: 1. A kérelmezőre vonatkozó információk A kérelmező 1.1. neve, 1.2. postai címe, e-mail címe, telefonszáma. 2. A kibocsátóra vonatkozó információk (befektetési jegy esetében az alapkezelőre vonatkozó információk) A kibocsátó 2.1. teljes neve, 2.2. rövid neve, 2.3. székhelye, 2.4. adószáma, 2.5. cégjegyzékszáma. 3. Az értékpapír-sorozatra vonatkozó információk 3.1. az értékpapír neve, 3.2. az értékpapír előállítási módja (dematerializált vagy nyomdai úton előállított), 3.3. az értékpapír forgalomba hozatalának módja (nyilvános vagy zártkörű), 3.4. az értékpapír kibocsátásának időpontja, 3.5. az értékpapír devizaneme, 3.6. az értékpapír névértéke, 3.7. a forgalomba hozott értékpapír-sorozat össznévértéke, 3.8. határozott futamidejű értékpapír esetén az értékpapír lejáratának napja, határozatlan futamidő esetén ennek megjelölése, 3.9. az ideiglenes részvényre, ideiglenes befektetési jegyre vonatkozó adatok: 3.9.1. a teljesített vagyoni hozzájárulás mértéke százalékosan vagy névértéken meghatározva, 3.9.2. a befizetési kötelezettség teljesítésének határideje, 3.9.3. a végleges értékpapír sorozatra igényelt ISIN azonosító megjelölése, 3.10. részvényre vonatkozó adatok: 3.10.1. részvényfajta, 3.10.2. részvényosztály, 3.11. hitelviszonyt megtestesítő értékpapír esetében: 3.11.1. kibocsátó fajtája (állam, jegybank, önkormányzat, jogi személyiséggel rendelkező gazdálkodó szervezet vagy jogi személyiséggel rendelkező külföldi gazdálkodó szervezet fióktelepe, nemzetközi szervezet vagy saját joga alapján kötvény kibocsátására jogosult külföldi szervezet, hitelintézet, jelzálog-hitelintézet, külön törvényben erre feljogosított szervezet, egyéb), 3.11.2. értékpapír fajtája (kötvény, kincstárjegy, jelzáloglevél, takarékjegy, letéti jegy, egyéb), 3.12. befektetési jegy esetében a befektetési alapra vonatkozó információk (részalap esetében a részalapra vonatkoztatható információkat is meg kell adni): 3.12.1. befektetési alap teljes neve, 3.12.2. befektetési alapműködési formája (zártkörű vagy nyilvános), 3.12.3. befektetési alap fajtája (nyílt végű vagy zárt végű), 3.12.4. befektetési alap elsődleges eszközkategória szerinti típusa (értékpapíralap, vegyes alap, ingatlanalap, kockázati tőkealap, magántőkealap), 3.12.5. határozott futamidejű befektetési alap, illetve részalap esetén az alap, illetve részalap futamidejének vége. A kérelmező egyéb tőzsdei termékre vonatkozó ISIN azonosító igénylésekor a következő, az adott egyéb tőzsdei termékre vonatkozó adatokat bocsátja a központi értéktár rendelkezésére, amennyiben azok az adott (egyéb) tőzsdei termék vonatkozásában értelmezhetők: 1. A tőzsdei tevékenységet végző szervezetre vonatkozó információk A tőzsdei tevékenységet végző szervezet 1.1. teljes neve, 1.2. rövid neve, 1.3. székhelye, 1.4. adószáma, 1.5. cégjegyzékszáma, 1.6. kapcsolattartó munkatársának neve, 1.7. kapcsolattartó munkatársának telefonszáma, telefaxszáma, e-mail címe, 2. A termékre vonatkozó információk 2.1. a termék neve, 2.2. a termék lejárata, 2.3. kötési egység, 2.4. első kereskedési nap, 2.5. utolsó kereskedési nap, 2.6. teljesítés módja (valódi vagy cash), 2.7. kereskedési pénznem, 2.8. elszámolási pénznem, 2.9. a termék típusa (határidős vagy opciós) 2.10. opció típusa (put vagy call), 2.11. opció stílusa (amerikai vagy európai), 2.12. küszöbár. 1 A 6. § (2) bekezdése a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette. 2 Az 1. melléklet 3.12.4. pontja a 22/2024. (VI. 10.) MNB rendelet 1. §-ával megállapított szöveg."
+    }
+  ]
+}

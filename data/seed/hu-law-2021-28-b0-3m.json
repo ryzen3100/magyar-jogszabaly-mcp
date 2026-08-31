@@ -1,0 +1,761 @@
+{
+  "id": "hu-law-2021-28-b0-3m",
+  "type": "statute",
+  "title": "28/2021. (V. 19.) BVOP utasítás a kamerarendszerek alkalmazásának és a kameraképek megfigyelésének optimalizálásáról, valamint a technikai rendszerkezelő feladatairól",
+  "status": "in_force",
+  "in_force_date": "2021-05-20",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2021-28-B0-3M",
+  "description": "a kamerarendszerek alkalmazásának és a kameraképek megfigyelésének optimalizálásáról, valamint a technikai rendszerkezelő feladatairól",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A jogalkotásról szóló 2010. évi CXXX. törvény 23. § (4) bekezdés c) pontja alapján – figyelemmel a büntetés-végrehajtási szervezetről szóló 1995. évi CVII. törvény, valamint a büntetések, az intézkedések, egyes kényszerintézkedések és a szabálysértési elzárás végrehajtásáról szóló 2013. évi CCXL. törvény, továbbá a szabadságvesztés, az elzárás, az előzetes letartóztatás és a rendbírság helyébe lépő elzárás végrehajtásának részletes szabályairól szóló 16/2014. (XII. 19.) IM rendelet előírásaira – a technikai rendszerkezelő feladatainak meghatározása, valamint a büntetés-végrehajtási szerveknél üzemeltetett kamerarendszerek alkalmazásának és a kameraképek megfigyelésének optimalizálása, továbbá a rendkívüli események bekövetkezésének hatékony megelőzése és a biztonságos fogvatartás fenntartásának támogatása érdekében a következő utasítást adom ki:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "I. FEJEZET"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "ÁLTALÁNOS ÉS ÉRTELMEZŐ RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "1. Az utasítás hatálya a Büntetés-végrehajtás Országos Parancsnokságára (a továbbiakban: BVOP), a büntetés-végrehajtási intézetekre és intézményekre, valamint a fogvatartottak kötelező foglalkoztatására létrehozott gazdasági társaságokra (a továbbiakban együtt: bv. szervek), és azok személyi állományára terjed ki."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "2. Az utasítás célja a bv. szerveknél üzemeltetett kamerarendszerek alkalmazásának és az azzal összefüggő optimális megfigyelési tevékenység kialakításának elősegítése a rendkívüli események bekövetkezésének megelőzése érdekében."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "3. A technikai ügyelet (a továbbiakban: TRK helyiség) a bv. szervek azon központi helyisége, ahol a bv. szerv működéséhez és biztonságának fenntartásához szükséges valamennyi információ összefogására lehetőség nyílik."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "4. A TRK helyiség szerves részét képezi a bv. szervek biztonsági rendszerének, ezért azt azzal összhangban kell kiépíteni, a biztonsági kockázat minimális szinten tartása mellett."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "5. A technikai rendszerkezelő a bv. szerv személyi állományának azon tagja, aki a szolgálatban lévő biztonsági tiszt – akadályoztatása esetén a biztonsági főfelügyelő – közvetlen alárendeltségében a technikai rendszer kezelésével, kameraképek megfigyelésével összefüggő biztonsági tevékenységet lát el."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "6. A technikai rendszerkezelő szolgálati beosztást ellátó hivatásos állomány részletes feladatait szolgálati okmányban (őrutasításban vagy szolgálati utasításban, továbbá rendvédelmi igazgatási alkalmazotti jogviszonyban foglalkoztatott és munkaviszonyban álló személyi állomány esetén munkaköri leírásban és annak biztonsági mellékletében) kell rögzíteni. További feladatait a büntetés-végrehajtási szervezet Biztonsági Szabályzatában rögzítettek figyelembevételével, eligazítás alapján, valamint a biztonsági tiszt utasításai szerint látja el."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "6/A. A BVOP V/A. Fejezet szerinti jogosultsággal rendelkező szakterületei jogosultak valamennyi bv. szervben és pilóta nélküli állami légi járművön (a továbbiakban: drón) telepített kamerák képeinek megtekintésére, mentésére, az agglomerációk jogosultsággal rendelkező szakterületei pedig jogosultak az adott agglomerációba tartozó bv. szervekben és drónokra telepített kamerák képeinek megtekintésére, továbbá elemzésére, értékelésére a kamerakezelő szoftver alkalmazásával."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "7. A bv. szerv elektronikus megfigyelési eszközeiről (a továbbiakban: kamerák) a darabszám és működőképesség tekintetében a bv. szerv vagy a Büntetés-végrehajtás Gazdasági Ellátó Intézete (a továbbiakban: BV GEI) helyi informatikai szakterületének (a továbbiakban: informatikai szakterület) pontos, naprakész nyilvántartással kell rendelkeznie."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "8. A kamerák telepítésének meghatározása és a már telepített kamerák elhelyezésének megváltoztatása, továbbá a drónok repülési útvonalainak meghatározása és annak megváltoztatása minden esetben a bv. szerv vezetőjének hatásköre. Ennek keretében az általa vezetett bizottsággal dokumentáltan végrehajtja a kamerák elhelyezésének és a drónok repülési útvonalainak időszakos felülvizsgálatát, továbbá az új kamerák üzembe helyezése előtt azok helyének kiválasztását. A kamerarendszer működésének, a kamerák elhelyezésének, a drónok repülési útvonalainak, valamint a kamerák megfigyelésére vonatkozó helyi rendelkezések vizsgálatát legalább az átfogó biztonsági vizsgálatok alkalmával el kell végezni. A bizottság tagjai:"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "a) biztonsági szakterület vezetője,"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "b) informatikai szakterület vezetője,"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "c) gazdasági szakterület vezetője,"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "d) fogvatartotti foglalkoztatásbiztonsági alosztályvezető."
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "9. A bv. szerv vezetőjének a döntése során figyelembe kell venni a bizottság tagjai által tett javaslatokat, a megfigyelt vagy megfigyelni tervezett terület biztonsági kockázatát, az oda már telepített egyéb technikai eszközök típusát, számát, a megfigyelés folyamatosságának szükségességét, valamint a megfigyelésre rendelkezésre álló élőerő létszámát és az elmúlt időszak eseményeit is."
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "10. A kamerarendszer telepítése, valamint a drónok repülési útvonalainak kialakítása, működtetése során figyelemmel kell lenni a következőkre:"
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "a) Szem előtt kell tartani, hogy a biztonság megteremtése, fenntartása és fejlesztése minden esetben alacsonyabb ráfordítással és költséggel jár az események bekövetkezése előtt, mint azokat követően."
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "b) A kamerarendszer eredményes működése érdekében fel kell mérni annak alapvető igényeit, kerülve a túlbiztosítást, de törekedve annak legmagasabb szintű hatékonyságának kialakítására."
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "c) A kamerarendszer kialakítása a jellemző veszélyforrások megszüntetésére vonatkozó szempontokon túl, a ritkán vagy eddig még meg nem történt események vonatkozásában is segítséget kell, hogy nyújtson, továbbá az egyedi események bekövetkezése kapcsán is értékelhető visszatekintésre kell, hogy lehetőséget adjon."
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "d) Kerülni kell a szükségtelen megfigyelési tevékenységet, mely elvonhatja a feladatot végrehajtó figyelmét a valós veszélyforrásokról, biztonsági kockázatokról."
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "e) A kamerarendszer elemeinek vizsgálata során fel kell mérni a működését tekintve a meghibásodott vagy nem optimális hatékonysággal funkcionáló eszközök számát, és gondoskodni kell azok selejtezéséről, cseréjéről."
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "f) A kamerarendszer fejlesztésére, új eszközök beszerzésére folyamatos gondot szükséges fordítani. A fejlesztés során innovatív megoldások bevezetésére kell törekedni annak érdekében, hogy az esetlegesen bekövetkező rendkívüli események kockázata a minimális szinthez közelire legyen redukálható."
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "g) Az informatikai, valamint a biztonsági szakterületek vezetőinek közös feladata a biztonságtechnikai rendszer működtetése, a bv. szerv működésére veszélyt jelentő hatások figyelemmel kísérése, továbbá új körülmények fellépése esetén a gyors, szakszerű és a leghatékonyabb reakció meghatározása."
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "h) Meg kell teremteni annak lehetőségét, hogy hivatali munkaidőn kívül, továbbá munkaszüneti napokon a szolgálatban lévő biztonsági tiszt és biztonsági főfelügyelő vagy technikai rendszerkezelő a felvételeket vissza tudja nézni."
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "II. FEJEZET"
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "A TECHNIKAI ÜGYELETEN ELHELYEZETT KAMERAKÉPEK, MONITOROK"
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "11. A kamerarendszer TRK helyiségben történő beállítása során az alábbiakra kell figyelemmel lenni:"
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "a) a TRK helyiségben üzemeltetett monitorok elhelyezése, valamint a megfigyelni kívánt terület biztonsági prioritása,"
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "b) a biztonsági szempontból kritikus, veszélynek kitett területek megfigyelésének a technikai rendszerkezelő központi látóterébe, fő figyelési sávjába kerülése,"
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "c) az alacsony biztonsági kockázattal bíró területek kameraképeinek periférikus, de jól megfigyelhető, belátható távolságban történő elhelyezése úgy, hogy azok ne zavarják a központi tevékenységet,"
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "d) a megfigyelt tevékenység, valamint személyek egyértelmű beazonosítási lehetőségének fennállása a kameraképek minősége, felbontása és mérete által,"
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "e) a kamerák által biztonsági szempontból aktuálisan irreleváns helyiségek, területek vagy tereptárgyak megjelenítésének mellőzése,"
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "f) a mozgásérzékelésre képes, valamint az állapotjelző eszközök riasztása esetén az érintett területet megfigyelő kamera automatikusan megjelenített képe ne korlátozza a többi kamerakép megfigyelését, az automatikusan, előre meghatározott időtartamban megjelenített kép csak a figyelemfelhívó célt szolgálja, amelyet egy, a láthatóság szempontjából megfelelő méretű monitoron kell megjeleníteni,"
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "g) a TRK helyiségben olyan darabszámú és méretű monitorokat kell üzemeltetni, melyeken legalább a 3×3-as osztású kameraképek jól láthatóak, a 32”-nál kisebb monitorokon – a megfelelő láthatóság érdekében – a 3×3-as képkiosztásnál több kamerakép megjelenítése nem javasolt, a monitorokat számjelöléssel kell ellátni."
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "III. FEJEZET"
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "A KAMERAKÉPEK FOLYAMATOS ÉS IDŐSZAKOK SZERINTI MEGFIGYELÉSE"
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "12. A bv. szervekben üzemeltetett TRK helyiségben megjelenített kameraképek megfigyelése lehet:"
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "a) folyamatos vagy"
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "b) időszakos."
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "13. A 12. pont b) alpontja szerinti megfigyelési időszakok meghatározása a bv. szerv vezetőjének hatásköre, amelyre a biztonsági és az informatikai szakterület tesz javaslatot. A meghatározás során figyelemmel kell lenni a 11. pontban foglaltakra. A megfigyelési időszakokat igazítani kell a nappali és éjszakás szolgálatokhoz vagy a fogvatartotti részlegek nyitásához, zárásához, emellett az egyes napirendi pontok megfelelő megfigyelési gyakorlatát is ki kell alakítani."
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "14. Amennyiben a kamerarendszer szoftveres környezete azt lehetővé teszi, a technikai rendszerkezelő szolgálatellátásának elősegítése céljából a meghatározott megfigyelési időszakok szerinti képkiosztások kamerarendszerben történő előzetes beállítása és mentése a biztonsági szakterület javaslatai alapján az informatikai szakterület feladata. Amennyiben a kamerarendszer lehetővé teszi, megengedett az egyes időszakokban megjelenített kamerakép-kiosztások szoftverben előre meghatározott ütemezés szerinti automatikus váltásának beállítása."
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "15. A bv. szerv biztonságos működése szempontjából az alábbi területek folyamatos megfigyelése indokolt:"
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "a) személy- és gépjárműbejárati kapu,"
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "b) folyamatos munkarendű – fogvatartottak foglalkoztatására szolgáló – munkaterületek,"
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "c) biztonsági szempontból kiemelt fogvatartotti részlegek, amennyiben ott fogvatartott tartózkodik,"
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "d) áthatolásjelzővel nem rendelkező kerítés, valamint bástyafalszakaszok,"
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "e) fogvatartotti részlegek folyosói (elsősorban nyitott vagy egyedi biztonsági előírással rendelkező fogvatartottak elhelyezésére szolgáló részlegek folyosói),"
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "f) biztonsági szakterület kamerával megfigyelt területei (különösen az ügyelet, a fegyverzeti szakanyagok tárolására szolgáló helyiségek bejárata, belső területei, valamint a töltő-ürítő helyiség),"
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "g) az állandó felügyelet nélküli fogvatartotti részlegek (amennyiben ilyen részleg a bv. szervben üzemel, és ott fogvatartott tartózkodik),"
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "h) kiemelt fogvatartotti zárkák (amennyiben ott fogvatartott tartózkodik),"
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "i) biztonsági részlegek területei (amennyiben ott fogvatartott tartózkodik),"
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "j) szuicid szempontból veszélyeztetett fogvatartottak elhelyezésére szolgáló zárkák (amennyiben ott fogvatartott tartózkodik),"
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "k) kamerával megfigyelt biztonsági és fegyelmi elkülönítő zárkák, magánelzárásra szolgáló zárkák (amennyiben ott fogvatartott tartózkodik)."
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "16. A bv. szerv biztonságos működése szempontjából alapvetően az alábbi területek időszakos megfigyelése indokolt:"
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "a) szabad levegőn tartózkodás biztosítására szolgáló területek a napirendi pont végrehajtásának időtartamára,"
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "b) nem folyamatos munkarendű – fogvatartottak foglalkoztatására szolgáló – munkaterületek, a munkavégzés időtartamában,"
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "c) látogatóhelyiség a napirendi pont lebonyolításának időtartamában,"
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "d) kiétkezőhelyiség a napirendi pont végrehajtásáig, de legkésőbb hivatali munkaidő végéig,"
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "e) fogvatartottak részére kialakított kondicionálóteremben a fogvatartotti foglalkozás időtartamában,"
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "f) fogvatartotti kultúrhelyiség, vallásgyakorlás céljából üzemeltetett kápolna, terem, továbbá oktatási célú tanterem a foglalkozások idejére,"
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "g) motozóhelyiség a fogvatartottak motozásának időtartamára."
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "17. Az egyes megfigyelési időszakokban megjelenített kameraképek száma csökkenthető a biztonsági szempontból kevésbé kockázatos területek kameraképeinek elrejtésével és csak mozgás érzékelése esetén történő automatikus megjelenítés beállításával."
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "18. Az éjszakai időszakban az alábbi területek folyamatos megfigyelésének szükségességét kell mérlegelni, annak érdekében, hogy a technikai rendszerkezelő biztonsági szempontból kevesebb kockázattal bíró kamerakép megfigyelésére ne legyen kötelezett:"
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "a) fogvatartottak, valamint személyi állomány által éjszakai időszakban nem használt folyosószakaszok, lépcsőházak, egyéb területek,"
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "b) azon kerítés- és bástyafalszakaszok, valamint közterülettel határos falszakaszok, melyek mozgásérzékelő eszközzel, áthatolásjelzővel ellátottak, és bármilyen mozgás esetén az adott terület kameraképei az ügyeleten automatikusan megjelennek (felugró kép formájában)."
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "IV. FEJEZET"
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "TECHNIKAI RENDSZERKEZELŐ FELADATAI"
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "19. A technikai rendszerkezelő szolgálati okmányában meghatározásra kerülő, általa ellátandó biztonsági tevékenység keretében az őrzésére vagy felügyeletére bízott"
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "a) személyek: a bv. szervben tartózkodó szolgálatban levő, valamint szolgálaton kívüli személyi állomány, az objektumban elhelyezett fogvatartottak, valamint a bv. szerv területén egyéb okból jelen lévő más személyek,"
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "b) területek: a biztonságtechnikai rendszeren keresztül ellenőrzött területek, objektumok, épületek, udvarok és belső területek,"
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "c) javak: a bv. szerv területén és épületeiben elhelyezett anyagok, járművek, gépek, berendezési tárgyak, felszerelések, technikai és egyéb eszközök."
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "20. A technikai rendszerkezelő részére csak az általa megfigyelhető vagy felugró kameraképen látható terület és az ott lévő személyek, javak őrzése vagy felügyelete határozható meg."
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "21. A technikai rendszer kezelése során legalább az alábbi témakörök szerint kell a szolgálati okmányban a feladatokat részletesen szabályozni, meghatározni:"
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "a) a biztonságtechnikai rendszer, a jelző-, riasztó- és híradóeszközök és az ezekre vonatkozó kezelési utasítások ismerete,"
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "b) a biztonságtechnikai rendszer működésének és jelzéseinek folyamatos figyelemmel kísérése, a jelzések, riasztások kivizsgálása, valamint a kameraképeken keresztül az őrzésére, felügyeletére bízott személyek, területek, javak ellenőrzése, továbbá a biztonsági feladatokat ellátók, nagyobb fogvatartotti csoportok mozgatását végzők tevékenységének nyomon követése,"
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "c) a megfelelő összeköttetés fenntartása és annak módja a szolgálatban lévő biztonsági feladatot ellátó állománnyal,"
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "d) az Egységes Digitális Rádiórendszer készülék kezelésével és a rádióforgalmazással kapcsolatos feladatok,"
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "e) a személyi riasztóról beérkező jelzések esetén teendő elsődleges intézkedések körében az arra vonatkozó feladatok meghatározása,"
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "f) a bv. szerv sajátossága szerint, amennyiben az elektromos zárak kezelőpanelje a TRK helyiségben van elhelyezve, a biztonsági szakterület elhelyezési egységének és egyéb területek ajtóinak kezelése, valamint annak szabályai,"
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "g) az elektronikus távfelügyeleti rendszer (reintegrációs őrizet) szoftverének működtetése, alkalmazása és kezelése, meghatározások a folyamatos felügyeletről, a szükséges intézkedésekről és a jelentési rendről,"
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "h) a bv. szerven kívülről érkező telefonhívások fogadásával és a hívás tárgyában érintett mellékekre kapcsolásával összefüggő feladatok,"
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "i) a technikai rendszerrel kapcsolatos hibák, hiányosságok észlelelése esetén előírt jelentési rend,"
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "j) a szolgálat alatt tapasztaltak és az információ átadása, annak módja, ideje,"
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "k) a szolgálat alatti közbenső váltások szabályai, annak dokumentálása,"
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "l) a zárkákban elhelyezett kamerák képeinek megfigyelésével összefüggő feladatok, különös tekintettel az ön- és közveszélyes fogvatartott elhelyezésére szolgáló zárkára (amennyiben azokban fogvatartott van elhelyezve),"
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "m) a technikai rendszeren keresztül észlelt rendkívüli esemény vagy annak gyanúja esetén a halaszthatatlan intézkedések megtételére vonatkozó meghatározások,"
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "n) a kameraképek folyamatos és időszakos megfigyelésével összefüggő meghatározások, feladatok, ehhez igazodóan az aktuális kamerakép-kiosztások beállításával összefüggő feladatok, a napirendi feladatok alapján biztonsági szempontból priorizált megfigyelési tevékenység meghatározása,"
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "o) a biztonságtechnikai rendszer egyes elemeinek, állapotának figyelemmel kísérésével, jelzések, riasztások szabályszerű kezelésével összefüggő feladatok (a meghatározásoknak részletesen ki kell terjednie a végponti eszközök tételes meghatározására, az időszakok szerint élesített, valamint készenléti állapotban tartásuk konkrét időtartamára, a beállításokkal kapcsolatos feladatokra),"
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "p) feszültségkimaradás, üzemzavar esetén teendő intézkedésekre, jelentési kötelezettségekre vonatkozó előírások,"
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "q) a technikai rendszerben a proximity-kártyákkal, a be- és kilépők szoftveres nyilvántartásának kezelésével összefüggő, szükség esetén annak aktualizálásával kapcsolatos feladatok,"
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "r) a személyi állomány technikai rendszeren keresztül történő értesítését végrehajtó szoftver kezelésének megfelelő ismerete és annak készségszintű alkalmazása."
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "s) a drónok kezelésével, valamint az általuk közvetített kameraképek megfigyelésével összefüggő feladatok."
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "22. A technikai rendszerkezelőnek a szolgálatellátás folyamatosságát fent kell tartani. Ennek megfelelően a technikai rendszer kezelésével megbízott személyi állományi tag figyelmét még időszakosan sem lehet a szolgálatellátástól elvonni."
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "23. A technikai rendszerkezelő váltásával összefüggésben kiemelt figyelemmel kell lenni a képernyő előtti munkavégzés minimális egészségügyi és biztonsági követelményeiről szóló 50/1999. (XI. 3.) EüM rendelet 4. §-ában foglaltak megfelelő biztosítására."
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "24. A váltások során az átadás-átvétel tényét helyileg kialakított módon kell dokumentálni az átvétel pontos idejével, valamint az átadó és átvevő személyi állományi tag aláírásával, továbbá az alkalmazott szoftverekben a felhasználóváltást is végre kell hajtani. Az átadó az átvevőt tájékoztatja a szolgálat alatt történt eseményekről, tapasztaltakról, a folyamatban lévő feladatokról, az adott napi szolgálatellátásra meghatározott, kiemelt fontosságú tevékenységekről."
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "V. FEJEZET"
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "A KAMERAKÉPEK TECHNIKAI ÜGYELETEN KÍVÜLI ŐR- ÉS SZOLGÁLATI HELYEKEN TÖRTÉNŐ MEGFIGYELÉSE"
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "25. A TRK helyiségben szolgálatot teljesítő technikai rendszerkezelőn kívül a biztonsági és körletfelügyelők kameraképek megfigyelésére vonatkozó feladatai a fogvatartás rendjének és biztonságának fenntartására, a házirendben foglaltak megkövetelésére, valamint a napirendi pontok betartására vonatkozó – felsőbb szintű szabályozókban meghatározott – alapfeladatok kiegészítésére szolgálnak, a szabályozási környezetet azok végrehajtásának támogatására, velük összhangban kell meghatározni."
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "26. A fogvatartottak elhelyezésére szolgáló részlegeken és egyéb szolgálatteljesítési helyeken megfigyelt kameraképek személyi állomány általi hozzáférését lehetőség szerint oly módon kell kialakítani, hogy az ott szolgálatot teljesítők helyi vagy a technikai rendszerkezelő által történő távoli beállítási, konfigurálási lehetőséggel rendelkezzenek az adott eszköz tekintetében. A kialakítás során figyelemmel kell lenni arra, hogy a mindenkor megfigyelt terület valóban releváns, a szolgálat ellátását és a fogvatartás biztonságát ténylegesen elősegítő képeket közvetítsen."
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "27. A megfelelő informatikai infrastruktúra kialakítása után az érintett szolgálatteljesítési helyeken feladatot végrehajtó kollégák őr- és szolgálati utasításában meg kell jelennie a meghatározott kamerák megfigyelésével kapcsolatos konkrét feladatoknak és kötelmeknek, továbbá a dokumentumok vonatkozó része egyértelmű és racionális feladat-meghatározást kell, hogy tartalmazzon, az elvárt szolgálati tevékenység megjelölésével."
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "28. A nappalos és éjszakás szolgálatban történő kamerakép megfigyelését – a napirendi pontok végrehajtásának elsődlegessége miatt – el kell különíteni, éjszakás szolgálatban gyakoribb kameraképen keresztül történő ellenőrzést szükséges elrendelni."
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "V/A. FEJEZET A KAMERAKÉPEK MEGFIGYELÉSÉVEL, A RÖGZÍTETT FELVÉTELEK MEGTEKINTÉSÉVEL, VALAMINT ARCHIVÁLÁSÁVAL (FELVÉTELEK MENTÉSÉVEL) ÖSSZEFÜGGŐ JOGOSULTSÁGI SZABÁLYOK"
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "28/A. A kamerarendszer szoftvere vonatkozásában az alábbiak szerint biztosíthatóak jogosultságok a feladatok végrehajtásához:"
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "a) a társ- és együttműködő szervek részére: jogszabályi felhatalmazás alapján, a büntetés-végrehajtás országos parancsnokának engedélyével és együttműködési megállapodásban foglaltak szerint,"
+    },
+    {
+      "provision_ref": "s107",
+      "section": "107",
+      "title": "107",
+      "content": "b) a BVOP Informatikai Főosztálya részére: adminisztrátori jogosultság,"
+    },
+    {
+      "provision_ref": "s108",
+      "section": "108",
+      "title": "108",
+      "content": "c) a BVOP Biztonsági Szolgálat és Főügyelet, valamint az Ellenőrzési Szolgálat arra feljogosított munkatársa részére: élőkép-megfigyelési, valamint a rögzített felvételek tekintetében megtekintési és mentési jogosultság valamennyi bv. szerv tekintetében,"
+    },
+    {
+      "provision_ref": "s109",
+      "section": "109",
+      "title": "109",
+      "content": "d) az agglomerációs osztályok (agglomerációs ügyeletek), valamint az agglomerációs ellenőrzési osztályok részére: élőkép-megfigyelési és a rögzített felvételek tekintetében megtekintési jogosultság kizárólag az agglomerációba tartozó bv. szervek vonatkozásában,"
+    },
+    {
+      "provision_ref": "s110",
+      "section": "110",
+      "title": "110",
+      "content": "e) a bv. szervek vezetői, szervezetszerű helyettesei és a biztonsági szakterület vezetői (osztályvezető, alosztályvezető) részére: személyre szóló profil létrehozásával élőkép-megfigyelési és a rögzített felvételek tekintetében megtekintési és mentési jogosultság,"
+    },
+    {
+      "provision_ref": "s111",
+      "section": "111",
+      "title": "111",
+      "content": "f) a bv. szervek e) alpontban meghatározottakon kívüli osztályvezetői, alosztályvezetői, fegyelmi és nyomozó tisztjei, valamint a bv. szervek vezetői által megbízott személyi állományi tagok részére: személyre szóló profil létrehozásával élőkép-megfigyelési és a rögzített felvételek tekintetében megtekintési jogosultság, amennyiben a szolgálati feladataik, illetve az ellenőrzéseik végrehajtásához szükséges,"
+    },
+    {
+      "provision_ref": "s112",
+      "section": "112",
+      "title": "112",
+      "content": "g) a kinevezett, illetve megbízott biztonsági tisztek, biztonsági főfelügyelők részére: személyre szóló profil létrehozásával élőkép-megfigyelési és az ellenőrzések végrehajtása céljából a rögzített felvételek tekintetében megtekintési és mentési jogosultság,"
+    },
+    {
+      "provision_ref": "s113",
+      "section": "113",
+      "title": "113",
+      "content": "h) a nem kinevezett, illetve nem megbízott, de eseti jelleggel biztonsági tiszti szolgálatot ellátó személyi állománytagok részére: nem személyre szóló profil létrehozásával élőkép-megfigyelési és az ellenőrzések végrehajtása céljából a rögzített felvételek tekintetében megtekintési és mentési jogosultság,"
+    },
+    {
+      "provision_ref": "s114",
+      "section": "114",
+      "title": "114",
+      "content": "i) a technikai rendszerkezelők részére: szolgálati helyre létrehozott profil alkalmazásával kizárólag élőkép-megfigyelési jogosultság,"
+    },
+    {
+      "provision_ref": "s115",
+      "section": "115",
+      "title": "115",
+      "content": "j) az informatikai szakterülete részére: élőkép-megfigyelési és a rögzített felvételek tekintetében megtekintési és mentési jogosultság, valamint adminisztrátori jogosultság az adott bv. szerv tekintetében."
+    },
+    {
+      "provision_ref": "s116",
+      "section": "116",
+      "title": "116",
+      "content": "28/B. A 28/A. pont h) alpontja szerinti nem személyre szóló profilhoz tartozó felhasználónevet és jelszót az alkalmazásig pecséttel ellátott zárt borítékban kell a biztonsági tiszt szolgálati helyiségében elzárva tárolni. A profil alkalmazását a biztonsági tiszt szolgálati okmányában dokumentálni kell. A profil alkalmazását követően a biztonsági szakterület vezetője köteles az informatikai szakterülettől új jelszót igényelni. Az új jelszó létrehozásáig a biztonsági tiszt köteles az alkalmazott felhasználónevet és jelszót zártan kezelni."
+    },
+    {
+      "provision_ref": "s117",
+      "section": "117",
+      "title": "117",
+      "content": "VI. FEJEZET"
+    },
+    {
+      "provision_ref": "s118",
+      "section": "118",
+      "title": "118",
+      "content": "ZÁRÓ RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s119",
+      "section": "119",
+      "title": "119",
+      "content": "29. A bv. szervek kötelesek jelen utasításban foglaltak figyelembevétele mellett felülvizsgálni az érintett személyi állományi tagok szolgálati okmányait."
+    },
+    {
+      "provision_ref": "s120",
+      "section": "120",
+      "title": "120",
+      "content": "30. A technikai rendszerkezelő szolgálati okmányának mellékleteként kell kiadni – meghatározott megfigyelési időszakok szerinti bontásban – a monitorokon megjelenített kameraképek kiosztását és elrendezését, valamint az arra képes kamerák mozgásérzékeléssel összefüggő beállításait tartalmazó dokumentumot."
+    },
+    {
+      "provision_ref": "s121",
+      "section": "121",
+      "title": "121",
+      "content": "31. A 30. pontban foglaltakat úgy kell kialakítani, hogy a meghatározott kamerakép-kiosztás a technikai rendszerkezelőnek megfelelően biztosítsa a tájékozódási lehetőséget az időszakok szerinti megfigyeléshez. Ennek keretében a táblázatos vagy ábrás kialakításon túl, az egyes időszakok szerinti ténylegesen konfigurált kamerakép-kiosztásokról fotómellékletek is csatolhatóak."
+    },
+    {
+      "provision_ref": "s122",
+      "section": "122",
+      "title": "122",
+      "content": "32. A kameraképek megfigyelésének meghatározásával összefüggésben kiadott okmányt a technikai rendszerkezelő és a kamerák megfigyelésével megbízott egyéb szolgálatot ellátó személyi állományi tagok részére elérhetővé kell tenni a szolgálatteljesítési helyükön."
+    },
+    {
+      "provision_ref": "s123",
+      "section": "123",
+      "title": "123",
+      "content": "33. A napi feladatok figyelembevételével, az adott szolgálatra vonatkozóan az eligazítások során meg kell határozni a kameraképek megfigyelésével és a technikai rendszer kezelésével összefüggően a prioritásként kezelendő feladatokat, területeket, személyeket."
+    },
+    {
+      "provision_ref": "s124",
+      "section": "124",
+      "title": "124",
+      "content": "34. A biztonsági szakterület vezetője negyedévente, dokumentáltan köteles beszámoltatni a technikai rendszerkezelőt a kameraképek megfigyelésével és a technikai rendszer kezelésével összefüggően meghatározott feladatairól és tapasztalatairól."
+    },
+    {
+      "provision_ref": "s125",
+      "section": "125",
+      "title": "125",
+      "content": "35. Ez az utasítás a közzétételét követő napon lép hatályba. 1 Az 1. pont a 31/2023. (IV. 28.) BVOP utasítás 3. pont a) alpontja szerint módosított szöveg. 2 A 6. pont a 31/2023. (IV. 28.) BVOP utasítás 3. pont b) alpontja szerint módosított szöveg. 3 A 6/A. pontot a 43/2022. (XII. 30.) BVOP utasítás 13. pontja iktatta be, szövege a 21/2024. (VII. 12.) BVOP utasítás 20. pontjával megállapított szöveg. 4 A 7. pont a 31/2023. (IV. 28.) BVOP utasítás 3. pont c) alpontja szerint módosított szöveg. 5 A 8. pont a 21/2024. (VII. 12.) BVOP utasítás 21. pontjával megállapított szöveg. 6 A 10. pont nyitó szövegrésze a 21/2024. (VII. 12.) BVOP utasítás 22. pontjával megállapított szöveg. 7 A 15. pont e) alpontja a 11/2024. (IV. 4.) BVOP utasítás 23. pontja szerint módosított szöveg. 8 A 15. pont f) alpontja a 31/2023. (IV. 28.) BVOP utasítás 3. pont d) alpontja szerint módosított szöveg. 9 A 21. pont f) alpontja a 31/2023. (IV. 28.) BVOP utasítás 3. pont e) alpontja szerint módosított szöveg. 10 A 21. pont s) alpontját a 21/2024. (VII. 12.) BVOP utasítás 23. pontja iktatta be. 11 A V/A. Fejezetet (28/A-28/B. §-t) a 31/2023. (IV. 28.) BVOP utasítás 2. pontja iktatta be. 12 A 29. pontot a 6/2022. (IV. 21.) BVOP utasítás 20. pontjával megállapított szöveg. 13 A 34. pont a 31/2023. (IV. 28.) BVOP utasítás 3. pont f) alpontja szerint módosított szöveg."
+    }
+  ]
+}

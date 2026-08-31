@@ -1,0 +1,2969 @@
+{
+  "id": "hu-law-2019-39-b0-8e",
+  "type": "statute",
+  "title": "39/2019. (XI. 19.) ORFK utasítás az adatvédelmi szabályzatról",
+  "status": "in_force",
+  "in_force_date": "2019-12-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2019-39-B0-8E",
+  "description": "az adatvédelmi szabályzatról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A jogalkotásról szóló 2010. évi CXXX. törvény 23. § (4) bekezdés c) pontjában, valamint a Rendőrségről szóló 1994. évi XXXIV. törvény 6. § (1) bekezdés b) pontjában foglaltak alapján, a természetes személyeknek a személyes adatok kezelése tekintetében történő védelméről és az ilyen adatok szabad áramlásáról, valamint a 95/46/EK irányelv hatályon kívül helyezéséről szóló, 2016. április 27-i 2016/679 európai parlamenti és tanácsi rendelet 24. cikk (2) bekezdésében, valamint az információs önrendelkezési jogról és az információszabadságról szóló 2011. évi CXII. törvény 25/A. § (3) bekezdésében és a 35. § (3) bekezdésében meghatározottak végrehajtása érdekében kiadom az alábbi utasítást:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "I. FEJEZET"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "ÁLTALÁNOS RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "1. Hatály"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "1. Az utasítás hatálya kiterjed"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "a) az Országos Rendőr-főkapitányságra (a továbbiakban: ORFK);"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "b) a Készenléti Rendőrségre, a Repülőtéri Rendőr Igazgatóságra, a Rendőrségi Oktatási és Kiképző Központra, a Nemzetközi Oktatási Központra, a vármegyei (fővárosi) rendőr-főkapitányságokra (a továbbiakban együtt: területi szervek);"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "c) a rendőrkapitányságokra és a határrendészeti kirendeltségekre (a továbbiakban együtt: helyi szervek)"
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "[az a)–c) alpontok a továbbiakban együtt: rendőrségi adatkezelő szervek]."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "2. Az utasítás hatálya kiterjed"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "a) a rendőrségi adatkezelő szervek kezelésében lévő közérdekű adatokra és közérdekből nyilvános adatokra;"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "b) a személyes adatokra;"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "c) a különleges adatokra;"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "d) a bűnügyi személyes adatra"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "vonatkozó, az információszabadsággal kapcsolatos követelmények teljesülésének biztosítására."
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "3. A bűncselekmények megelőzése, felderítése, a büntetőeljárás lefolytatása vagy a büntetőjogi szankciók végrehajtása céljából történő, valamint a közbiztonságot fenyegető veszélyekkel szembeni védelmet és ezen veszélyek megelőzését szolgáló adatkezelés tervezése, illetve végrehajtása kapcsán – jogszabály eltérő rendelkezése hiányában – az utasításnak a hozzájáruláson alapuló adatkezelésre, az adatvédelmi hatásvizsgálat lefolytatására, az adatvédelmi incidens bejelentésére és az előzetes konzultációra vonatkozó rendelkezései nem alkalmazhatók."
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "4. A minősített adatok kezelésére vonatkozó jogszabály eltérő rendelkezésének hiányában az utasítást alkalmazni kell a minősített adathordozóban szerepeltetett személyes adatok kezelése során is."
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "5. Az általános rendőrségi feladatok ellátására létrehozott szerv (a továbbiakban: Rendőrség) adatkezelési tevékenységében állandó vagy eseti jelleggel részt vevő vagy abban közreműködő, a Rendőrség érdekkörében adatfeldolgozóként vagy közös adatkezelőként eljáró természetes és jogi személyekkel, jogi személyiséggel nem rendelkező szervezetekkel kötendő szerződésekben, megállapodásokban érvényesíteni kell a személyes adatok kezelésére vonatkozóan az utasításban meghatározott követelményeket."
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "6. Az utasításban foglaltakat kell alkalmazni a rendőrségi adatkezelő szervek által folytatott adatkezelési műveletekre az adatok megjelenési formájától függetlenül, az adatkezelés teljes folyamatára kiterjedően – az adatok megszerzésétől vagy a rendőrségi adatkezelő szervnél történő keletkezésétől azok törléséig, illetve megsemmisítéséig –, függetlenül attól, hogy az adatok valamely nyilvántartási rendszer vagy valamely ügyben keletkezett irat részét képezik-e."
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "2. Alapelvek"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "7. A rendőrségi adatkezelő szerv"
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "a) köteles a személyes adatok kezelését – jogszabály eltérő rendelkezése hiányában – az érintett számára átlátható módon kialakítani és végrehajtani;"
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "b) személyes adatot csak a jogszabályban meghatározott feladatkörének ellátásával összefüggő cél elérése érdekében gyűjthet, rögzíthet vagy vehet át, személyes adatot az eredeti céllal össze nem egyeztethető célból vagy pontosan meghatározható cél hiányában nem kezelhet;"
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "c) kizárólag az adatkezelés céljának teljesítéséhez szükséges, megfelelő és releváns adatokat kezelhet;"
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "d) intézkedéseket hoz és hajt végre annak érdekében, hogy az adatkezelés céljai szempontjából felesleges vagy pontatlan személyes adatok haladéktalanul törlésre vagy – amennyiben az adatkezelés jellegéből fakadóan az értelmezhető – helyesbítésre kerüljenek;"
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "e) biztosítja, hogy az érintett azonosítására alkalmas személyes adatok csak az adatkezelés céljainak eléréséhez szükséges ideig kerüljenek megőrzésre, a cél elérését és az adatkezelés erre figyelemmel meghatározott határidejének lejártát követően az adatok kizárólag – a vonatkozó jogszabályi rendelkezések által meghatározott keretek között – közérdekű archiválás céljából, tudományos és történelmi kutatási célból vagy statisztikai célból őrizhetők meg;"
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "f) biztosítja a személyes adatok teljes körű, folytonos és kockázatokkal arányos védelmét, szervezési és technikai intézkedéseket tesz különösen az adatok jogosulatlan vagy jogellenes kezelésével, véletlen elvesztésével, megsemmisülésével vagy károsodásával szembeni védelmének kialakítása érdekében;"
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "g) biztosítja a gyermekek és más kiszolgáltatott érintetti csoportok különös védelmét, a kifejezetten rájuk vonatkozó adatkezelés kapcsán minden tájékoztatást és kommunikációt olyan módon hajt végre, amelyet az érintettek képesek megérteni."
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "8. A rendőrségi adatkezelő szerv vezetője köteles az alapelveknek történő megfelelést – ahol az értelmezhető, dokumentált módon – igazolni, így különösen"
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "a) az érintett jogainak biztosítására és hozzájárulásának megszerzésére;"
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "b) a végrehajtott ellenőrzésekre és oktatásokra;"
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "c) az előírt nyilvántartások vezetésére;"
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "d) az adatvédelmi hatásvizsgálatokhoz kapcsolódó feladatokra"
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "vonatkozóan."
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "3. Értelmező rendelkezések"
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "9. Az utasítás alkalmazásában:"
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "a) adatbiztonság: a személyes adatok jogosulatlan vagy jogellenes kezelése, véletlen elvesztése, megsemmisítése vagy károsodása elleni szervezési, technikai megoldások, valamint eljárási szabályok összessége, az adatkezelés azon állapota, amelyben a kockázati tényezőket – és ezáltal a fenyegetettséget – az alkalmazott védelmi intézkedések a minimálisra csökkentik;"
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "b) adathordozó: bármely alakban, bármilyen eszköz felhasználásával és bármely eljárással előállított, személyes adatot tartalmazó vagy azt megjelenítő tárgy vagy eszköz;"
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "c) adatvédelem: a személyes adatok jogszerű kezelését, az érintett személyek védelmét és információs önrendelkezési jogának teljesülését biztosító alapelvek, szabályok, eljárások, adatkezelési eszközök és módszerek összessége;"
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "d) adatvédelmi hatásvizsgálat: a rendőrségi adatkezelő szerv által a természetes személyek jogaira és szabadságaira nézve valószínűsíthetően magas kockázatot jelentő adatkezelés megkezdése előtt lefolytatott, majd azt követően rendszeresen megismételt eljárás, amelynek célja az adatkezelésnek az érintett természetes személyek jogaira gyakorolt hatásának vizsgálata és a magas kockázatú adatkezelési műveletek jelentette kockázatok mérséklése;"
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "e) általános közzétételi lista: az információs önrendelkezési jogról és az információszabadságról szóló 2011. évi CXII. törvény (a továbbiakban: Infotv.) 1. mellékletében meghatározott, a közfeladatot ellátó szervek által kötelezően közzéteendő közérdekű adatok köre;"
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "f) belső adatfelelős: az adatfelelős szervezetén belül, az 1–5. mellékletben az egyes közzétételi egységeknél a közérdekű adat tárgya szerint kijelölt szervezeti elem vezetője;"
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "g) egyedi közzétételi lista: az Infotv. 37. § (3) bekezdésében meghatározottak szerinti lista;"
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "h) egységes elektronikus adatvédelmi nyilvántartás: a rendőrségi adatkezelő szervek által végzett adatkezelési tevékenységeket összesítő egységes nyilvántartás;"
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "i) elektronikus közzététel: a közérdekű adatoknak az Infotv. 33. § (1) bekezdése szerinti közzététele;"
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "j) hírközlő eszköz: bármilyen technikai eszköz, technológiai eljárás, amely jelzések, adatok, információk továbbítására, fogadására alkalmas, különösen azok a készülékek, amelyek egy vagy több fogadó személy számára kép, hang, adat továbbítására alkalmasak, így például a távbeszélő, a rádió, valamint az elektronikus adatátviteli lehetőséget biztosító eszköz;"
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "k) hozzáférési jogosultság: az a jogosultság, amelynek birtokában a jogosult személy számára elérhetővé, megismerhetővé válnak az adott adatállományban kezelt személyes adatok;"
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "l) közös adatkezelés: olyan adatkezelés, amely esetében a rendőrségi adatkezelő szerv a feladatkörébe tartozó adatkezelés céljait és eszközeit más adatkezelő szervvel közösen határozza meg, így különösen a közös elektronikus információs rendszer vagy adatkezelési felület alkalmazása;"
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "m) közvetlen hozzáférési jogosultság: adott adatállomány informatikai alkalmazás igénybevételével kezelt adatainak megismeréséhez adott olyan jogosultság, amely a jogosultnak lehetőséget biztosít arra, hogy az adatállományban kezelt adatokhoz az általa megválasztott időpontban lekérdezéssel hozzáférjen;"
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "n) közvetlen lekérdezés: az adott adatállományban kezelt adatokba – az adatkezelő által előzetesen rendelkezésre bocsátott közvetlen hozzáférési jogosultság felhasználásával – előre meghatározatlan időpontban és alkalommal, naplózott formában történő betekintés, valamint a lekérdező döntése alapján az így megismerhetővé vált információk kinyomtatása vagy más módon történő rögzítése;"
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "o) különös közzétételi lista: az Infotv. 37. § (2) bekezdésében meghatározottak szerinti lista;"
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "p) leíró adatok: a közérdekű adatok elektronikus közzétételére, az egységes közadatkereső rendszerre, valamint a központi jegyzék adattartalmára, az adatintegrációra vonatkozó részletes szabályokról szóló 305/2005. (XII. 25.) Korm. rendelet (a továbbiakban: 305/2005. Korm. rendelet) 1. melléklet IV. pontja szerinti formátumú és tartalmú nyilvántartási adatok, amelyek az egységes közadatkereső rendszer működéséhez szükségesek."
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "II. FEJEZET"
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "ADATVÉDELMI RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "4. A rendőrségi adatkezelő szerv vezetőjének feladatai"
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "10. A rendőrségi adatkezelő szerv vezetője az általa vezetett rendőrségi adatkezelő szerv vonatkozásában felel"
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "a) az adatvédelmi és adatbiztonsági intézményrendszer kiépítéséért és működtetéséért;"
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "b) a személyes adatok védelméhez és az információszabadsággal kapcsolatos követelmények érvényesüléséhez szükséges személyi, tárgyi és technikai feltételek biztosítását célzó, a hatáskörébe tartozó intézkedések meghozataláért;"
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "c) az alárendelt személyi állomány adatvédelmi oktatásáért és rendszeres továbbképzéséért;"
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "d) a rendszeres adatvédelmi ellenőrzésért, az ellenőrzés során esetlegesen feltárt hiányosságok vagy jogszabálysértő körülmények megszüntetéséért, a személyi felelősség megállapításához szükséges eljárás kezdeményezéséért, a hatáskörébe tartozó eljárások lefolytatásáért;"
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "e) az érintett jogainak gyakorlásához, valamint tájékoztatásához szükséges feltételek biztosításáért;"
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "f) az adatvédelmi hatásvizsgálatok lefolytatásáért és rendszeres felülvizsgálatáért, valamint az ahhoz szükséges feltételek biztosításáért;"
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "g) az adatvédelmi hatásvizsgálat eredményének függvényében előzetes konzultáció kezdeményezéséért a Nemzeti Adatvédelmi és Információszabadság Hatóságnál (a továbbiakban: NAIH);"
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "h) az adatvédelmi incidensek nyilvántartásáért, a jogszabályi feltételek fennállása esetén a NAIH részére határidőben történő bejelentéséért, valamint az adatvédelmi incidenssel érintettek tájékoztatásáért;"
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "i) a 11., 13. és 15. pontnak megfelelően adatvédelmi feladatok ellátására alkalmas adatvédelmi tisztviselő vagy adatvédelmi felelős kijelöléséért és erről az ORFK adatvédelmi tisztviselőjének soron kívüli tájékoztatásáért, az adatvédelmi tisztviselő nevének és elérhetőségének a NAIH részére történő bejelentéséért;"
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "j) az adatvédelmi tisztviselő, illetve az adatvédelmi felelős feladatainak végrehajtásához, a személyes adatokhoz és az adatkezelési műveletekhez való hozzáféréshez, valamint az adatvédelmi tisztviselő szakértői szintű ismereteinek fenntartásához szükséges feltételek és források biztosításáért;"
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "k) a közérdekű és közérdekből nyilvános adatok (a továbbiakban együtt: nyilvános adat) közzétételi kötelezettségének teljesítéséért;"
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "l) a nyilvános adatok kiadására irányuló adatigénylések, valamint a személyes adatokkal összefüggő érintetti jogok gyakorlásával kapcsolatos megkeresések határidőben történő megválaszolásáért;"
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "m) az adatközlők elérhetőségi adatainak és a közzétételi egységek leíró adatainak az egységes közadatkereső rendszer üzemeltetőjéhez történő továbbításáért és a továbbított adatok rendszeres frissítéséért."
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "n) a költségvetési szervhez kirendelt költségvetési felügyelő tevékenysége során felmerülő adatkezeléssel kapcsolatos kérdések tisztázásáért."
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "5. Az adatvédelmi tisztviselő és adatvédelmi felelős"
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "11. Az országos rendőrfőkapitány és a területi szervek vezetője az adatvédelemmel kapcsolatos tevékenység jogszerűségének, valamint az érintetti jogok érvényesülésének biztosítása érdekében a rendőrségi adatkezelő szerv állományából adatvédelmi tisztviselőt jelöl ki. Az adatvédelmi tisztviselő – az utasításban meghatározott tevékenysége ellátása során – közvetlenül az őt kinevező vezetőnek tartozik felelősséggel."
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "12. A vármegyei (fővárosi) rendőr-főkapitányság adatvédelmi tisztviselője ellátja a vármegyei (fővárosi) rendőr-főkapitányság alárendeltségébe tartozó helyi szervek adatvédelmi tisztviselői feladatait is."
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "13. A rendészeti, bűnügyi, gazdasági és személyügyi országos rendőrfőkapitány-helyettesek a vezetésük alatt álló szervezeti egység állományából az adatvédelmi feladatokat támogató adatvédelmi felelőst jelölnek ki, az ORFK szervezeti elemei adatvédelmi felelőst jelölhetnek ki, akik közreműködnek a nyilvános adatok közzétételében és a személyes adatok jogszerű kezelését biztosító feladatok végrehajtásában."
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "13/A. A bűnügyi országos rendőrfőkapitány-helyettes – a 13. pont alapján kijelölt adatvédelmi felelős mellett – az ORFK Bűnügyi Főigazgatóság Nemzetközi Bűnügyi Együttműködési Központ és az ORFK Bűnügyi Főigazgatóság Körözési Nyilvántartó és Szakirányító Főosztály állományából egy-egy adatvédelmi felelőst jelöl ki."
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "14. A területi szerv tevékenységéhez kapcsolódóan az érintettek jogaira nézve fennálló kockázatok mértéke, valamint az ellátandó feladatok jellege, összetettsége és mennyisége alapján a területi szerv vezetője az adatvédelmi tisztviselő tevékenységének támogatása érdekében a területi szerv állományából adatvédelmi felelőst vagy felelősöket jelölhet ki."
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "15. A helyi szerv vezetője köteles az adatvédelmi tisztviselő tevékenységének támogatása érdekében a szerv állományából adatvédelmi felelőst kijelölni."
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "16. Az adatvédelmi tisztviselő az adatvédelmi felelős számára az utasításban meghatározott tevékenységében történő közreműködés érdekében feladatot határozhat meg."
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "17. Az adatvédelmi tisztviselőt és az adatvédelmi felelőst a személyes adatok védelme területén szerzett ismeretei és gyakorlati tapasztalatai, valamint a számára jogszabályban vagy normában meghatározott feladatok ellátására való alkalmasság alapján, írásban kell kijelölni."
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "18. Nem lehet olyan személyt kijelölni adatvédelmi tisztviselőnek vagy adatvédelmi felelősnek, akinek a Polgári Törvénykönyvről szóló 2013. évi V. törvény szerinti hozzátartozója az adatkezelő szervnél adatkezeléssel kapcsolatos döntések meghozatalára jogosult személy."
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "19. Az adatvédelmi tisztviselő és az adatvédelmi felelős munkaköri leírásának tartalmaznia kell a főbb ellátandó feladatait, különösen azt, hogy tevékenységét mely szervek vonatkozásában végzi."
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "20. Az adatvédelmi tisztviselő és az adatvédelmi felelős számára feladatainak ellátása céljából, az ahhoz szükséges mértékben biztosítani kell a minősített adat védelméről szóló 2009. évi CLV. törvény hatálya alá tartozó iratokba történő betekintést."
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "21. Adatvédelmi tisztviselőnek és adatvédelmi felelősnek felsőfokú végzettséggel rendelkező és az adatvédelmi ismeretekből sikeres vizsgát tett személy jelölhető ki. A határrendészeti kirendeltségek esetében – az adatkezelő szerv vezetőjének döntése alapján – az adatvédelmi felelősi feladatkör ellátására középfokú végzettséggel rendelkező személy is kijelölhető. Az adatvédelmi tisztviselő az ORFK adatvédelmi tisztviselője által szervezett képzést követő vizsga teljesítésével igazolja a szükséges adatvédelmi ismeretek meglétét."
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "22. Az adatvédelmi tisztviselő sikertelen vizsga esetén legfeljebb két alkalommal, a sikertelen vizsga időpontjától számított 60 napon belül megismételt vizsgát tehet. A vizsgák sikertelensége esetén a rendőrségi adatkezelő szerv vezetője köteles másik személyt adatvédelmi tisztviselőnek kijelölni."
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "23. Az adatvédelmi felelős az adatvédelmi tisztviselő által szervezett vizsgát tesz. Sikertelen vizsga esetén legfeljebb két alkalommal, a kijelölését követő 60 napon belül megismételt vizsgát tehet. A vizsgák sikertelensége esetén a rendőrségi adatkezelő szerv vezetője köteles másik adatvédelmi felelőst kijelölni."
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "24. A rendőrségi adatkezelő szerv vezetője köteles bevonni az adatvédelmi tisztviselőt a személyes adatok kezelését érintő döntések, így különösen az adatvédelmet érintő normák, szerződések, együttműködési megállapodások és adatkezelésekre vonatkozó más döntések előkészítésébe és kidolgozásába."
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "25. A rendőrségi adatkezelő szerv vezetője biztosítja annak lehetőségét, hogy az állomány bármely tagja közvetlenül, a hivatali út betartása nélkül, továbbá az adatkezeléssel érintett egyéb személyek közvetlenül és egyszerű módon fordulhassanak az adatvédelmi tisztviselőhöz vagy az adatvédelmi felelőshöz."
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "26. Az adatvédelmi tisztviselő a rendőrségi adatkezelő szervnél más feladatokat is elláthat, azonban a rendőrségi adatkezelő szerv vezetője köteles biztosítani, hogy ezekből a feladatokból adódóan ne keletkezzen összeférhetetlenség, és az egyéb munkaköri feladatok ellátása ne veszélyeztesse az adatvédelmi tisztviselői feladatok ellátását. Az összeférhetetlenség fennállását folyamatosan vizsgálni kell."
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "27. Amennyiben az adatvédelmi tisztviselő a szervezetben beosztása vagy munkaköre miatt az utasításban foglalt feladataitól eltérő célból is jogosult személyes adatok kezelésének célját meghatározni vagy adatkezeléssel kapcsolatos döntéseket meghozni, az összeférhetetlenség megelőzése érdekében köteles az e körbe tartozó tevékenységét az ORFK adatvédelmi tisztviselőjének bejelenteni. Az adatvédelmi tisztviselő ebbe a körbe tartozó tevékenységét az ORFK adatvédelmi tisztviselője ellenőrizheti."
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "27/A. Az adatvédelmi tisztviselő köteles jelenteni a rendőrségi adatkezelő szerv vezetőjének, amennyiben azt észleli, hogy egy ügy elintézése kapcsán vele kapcsolatban összeférhetetlenségi helyzet merül fel, így különösen, ha az alapul szolgáló üggyel összefüggő adatkezelési tevékenység kapcsán korábban döntést hozott. Ebben az esetben az ügy elintézésével kapcsolatos döntési jogkört az adatkezelő szerv vezetője gyakorolja, aki a döntés előkészítésére kijelöli az ügyben eljáró szervezeti egységet vagy szervezeti elemet."
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "27/B. A vezetői megbízatással rendelkező adatvédelmi tisztviselő a 6. mellékletben meghatározott minta alkalmazásával köteles nyilatkozni az adatvédelmi tisztviselői feladatkör ellátásával összefüggő összeférhetetlenségről."
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "28. Az adatvédelmi felelős feladatainak ellátásához szükséges feltételeket a foglalkoztató rendőrségi adatkezelő szerv biztosítja."
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "29. Az adatvédelmi tisztviselő elősegíti, hogy a rendőrségi adatkezelő szerv az adatvédelmi követelményeknek – megfelelően dokumentált módon – eleget tegyen, így az Infotv. 25/M. § (1) bekezdésében és a természetes személyeknek a személyes adatok kezelése tekintetében történő védelméről és az ilyen adatok szabad áramlásáról, valamint a 95/46/EK irányelv hatályon kívül helyezéséről szóló, 2016. április 27-i 2016/679 európai parlamenti és tanácsi rendelet (a továbbiakban: GDPR) 39. cikkében foglalt feladatok ellátásán túl, illetve annak keretében"
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "a) részt vesz az adatvédelmet érintő belső normák kidolgozásában, és közreműködik az adatkezeléssel járó vagy azt eredményező döntések előkészítésében;"
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "b) a rendőrségi adatkezelő szerv állománya adatvédelmi és adatbiztonsági tudatosságának növelése érdekében szervezi az adatkezelési folyamatokban részt vevő állomány képzését, az adatvédelmi felelősök vizsgáztatását;"
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "c) megvizsgálja az új adatkezelések és adatkezelésekkel kapcsolatos döntések következtében az érintettek jogaira nézve megjelenő kockázatokat, a valószínűsíthetően magas kockázatot jelentő adatkezelésekre vonatkozóan kezdeményezi a rendőrségi adatkezelő szerv vezetőjénél az adatvédelmi hatásvizsgálat lefolytatását;"
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "d) az adatvédelmi hatásvizsgálat lefolytatásával összefüggő jogszabályi kötelezettségei körében a hatásvizsgálatról szóló jelentés elkészítését is segíti és felügyeli;"
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "e) rendszeresen és dokumentált módon felülvizsgálja az adatvédelmi hatásvizsgálattal érintett adatkezelések változásait és az ismételt vizsgálat lefolytatásának szükségességét;"
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "f) közreműködik a NAIH-val folytatott előzetes konzultáció lefolytatásában, annak szükségességéről előzetesen kikéri az ORFK adatvédelmi tisztviselőjének véleményét;"
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "g) az adatkezelés jogszerűségével kapcsolatos eljárások lefolytatására jogosult szervekkel és hatóságokkal, így különösen a NAIH-val való együttműködéshez kapcsolódóan közreműködik a rendőrségi adatkezelő szervet érintő vizsgálatok lefolytatásában és az ezekkel összefüggő megkeresések megválaszolásában;"
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "h) közreműködik az érintettek jogainak gyakorlásával összefüggésben a rendőrségi adatkezelő szervhez érkező megkeresések elintézésében;"
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "i) előkészíti az érintett személyes adatai kezeléséhez kapcsolódó jogai gyakorlása során, valamint vezetői döntés alapján, az abban meghatározott körben az információszabadsággal kapcsolatban előterjesztett kérelmekre vonatkozó döntéseket;"
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "j) a rendőrségi adatkezelő szerv vezetője által jóváhagyott ellenőrzési tervet készít, a tervben foglaltak szerint – szükség esetén, így különösen adatvédelmi incidens bekövetkezése miatt ezen túlmenően is – ellenőrzi a rendőrségi adatkezelő szervnél az adatvédelmi és adatbiztonsági követelmények megtartását;"
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "k) az állami és önkormányzati szervek elektronikus információbiztonságáról szóló 2013. évi L. törvény szerint meghatározott adatgazda, illetve a szakmai adatgazda közreműködésével ellenőrzi a rendőrségi adatkezelő szerv és harmadik felek elektronikus információs rendszereihez kapcsolódó közvetlen hozzáférési jogosultságokról szóló nyilvántartás naprakész vezetését és rendszeres felülvizsgálatát;"
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "l) ellenőrzi az országos nyilvántartásokból történő lekérdezések során a célhoz kötött adatkezelés elvének érvényesülését;"
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "m) ellenőrzi az adattovábbításhoz kapcsolódó naplózási és nyilvántartási tevékenységet;"
+    },
+    {
+      "provision_ref": "s107",
+      "section": "107",
+      "title": "107",
+      "content": "n) az adatkezeléssel kapcsolatos előírások megszegésének észlelése esetén felhív a jogszerű állapot haladéktalan helyreállítására, és a hiányosságokat a szolgálati út betartásával – amennyiben emiatt a szolgálati vagy adatvédelmi érdek sérelmet szenvedne, úgy közvetlenül – jelenti a rendőrségi adatkezelő szerv vezetőjének, indokolt esetben kezdeményezi a felelősség megállapításához szükséges eljárás lefolytatását;"
+    },
+    {
+      "provision_ref": "s108",
+      "section": "108",
+      "title": "108",
+      "content": "o) közreműködik az adatvédelmi incidensek kivizsgálásában, vezeti a rendőrségi adatkezelő szerv adatvédelmi incidens nyilvántartását, a vizsgálat eredménye alapján – az ORFK adatvédelmi tisztviselőjének egyidejű értesítése mellett – a jogszabályi feltételek fennállása esetén bejelenti azt a NAIH részére, és amennyiben szükséges, intézkedik az érintettek tájékoztatására;"
+    },
+    {
+      "provision_ref": "s109",
+      "section": "109",
+      "title": "109",
+      "content": "p) vezeti a rendőrségi adatkezelő szerv 59. pont szerinti adatvédelmi nyilvántartását;"
+    },
+    {
+      "provision_ref": "s110",
+      "section": "110",
+      "title": "110",
+      "content": "q) felügyeli a rendőrségi adatkezelő szerv adatszolgáltatási tevékenységét, különös tekintettel a nemzetközi együttműködés keretében továbbítandó személyes adatokra, felkérésre adatvédelmi szempontból állást foglal az adatok továbbításának jogszerűségével kapcsolatban;"
+    },
+    {
+      "provision_ref": "s111",
+      "section": "111",
+      "title": "111",
+      "content": "r) segíti az alárendelt rendőri szerv adatvédelmi tevékenységét;"
+    },
+    {
+      "provision_ref": "s112",
+      "section": "112",
+      "title": "112",
+      "content": "s) tájékoztatja az ORFK adatvédelmi tisztviselőjét a rendőrségi adatkezelő szervnél tervezett új adatkezelésekről, és az egységes elektronikus adatvédelmi nyilvántartásba történő rögzítés érdekében megküldi az adatkezelésre vonatkozó adatkezelési tájékoztatót, valamint – amennyiben az adatkezelés tekintetében szükséges adatvédelmi hatásvizsgálat elkészítése – a hatásvizsgálati jelentést;"
+    },
+    {
+      "provision_ref": "s113",
+      "section": "113",
+      "title": "113",
+      "content": "t) évente, a tárgyévet követő január 15-éig értékeli – a vármegyei (fővárosi) rendőr-főkapitányságok esetében a helyi szervekre is kiterjedően – a rendőrségi adatkezelő szerv adatvédelmi és adatbiztonsági helyzetét, valamint a nyilvános adatok közzétételével kapcsolatos tevékenységet, az erről készült jelentést a tárgyévet követő január 20-áig az ORFK adatvédelmi tisztviselőjének megküldi;"
+    },
+    {
+      "provision_ref": "s114",
+      "section": "114",
+      "title": "114",
+      "content": "u) személyes adatot nem tartalmazó kimutatást vezet a nyilvános adatok megismerése iránt benyújtott és elutasított kérelmekről, az elutasítás indokairól, amelyekről a rendőrségi adatkezelő szerv vezetőjének felterjesztett jelentésben – a vármegyei (fővárosi) rendőr-főkapitányságok esetében az alárendelt szervekre is kiterjedően – a tárgyévet követő év január 15-éig tájékoztatja az ORFK adatvédelmi tisztviselőjét;"
+    },
+    {
+      "provision_ref": "s115",
+      "section": "115",
+      "title": "115",
+      "content": "v) személyes adatot nem tartalmazó kimutatást vezet az érintettnek a személyes adatai kezelésével kapcsolatos hozzáférésre, helyesbítésre, törlésre, tiltakozásra, valamint korlátozásra vonatkozóan benyújtott és elutasított kérelméről, az elutasítás indokairól, amelyekről a rendőrségi adatkezelő szerv vezetőjének felterjesztett jelentésben – a vármegyei rendőr-főkapitányságok esetében az alárendelt szervekre is kiterjedően – a tárgyévet követő év január 15-éig tájékoztatja az ORFK adatvédelmi tisztviselőjét;"
+    },
+    {
+      "provision_ref": "s116",
+      "section": "116",
+      "title": "116",
+      "content": "w) részt vesz a NAIH, illetve az ORFK adatvédelmi tisztviselője által szervezett képzéseken;"
+    },
+    {
+      "provision_ref": "s117",
+      "section": "117",
+      "title": "117",
+      "content": "x) gondoskodik a nyilvános adatok közzétételéről;"
+    },
+    {
+      "provision_ref": "s118",
+      "section": "118",
+      "title": "118",
+      "content": "y) intézkedik az Infotv. 5. § (5) bekezdésében foglalt felülvizsgálat végrehajtására."
+    },
+    {
+      "provision_ref": "s119",
+      "section": "119",
+      "title": "119",
+      "content": "30. Az adatvédelmi felelős a foglalkoztató rendőrségi adatkezelő szerv adatvédelmi követelményeknek megfelelő működésének biztosítása érdekében közreműködik az adatvédelmi tisztviselő 29. pont a), c), h)–i) és k)–m) alpontjában felsorolt feladatai ellátásában, illetve"
+    },
+    {
+      "provision_ref": "s120",
+      "section": "120",
+      "title": "120",
+      "content": "a) az adatvédelemre vonatkozó jogszabályokban, közjogi szervezetszabályozó eszközökben és belső normákban foglalt jogi előírásokról, kötelezettségekről naprakész tájékoztatást, illetve érvényesítésüket szolgáló tanácsot ad az állományának tagjai számára;"
+    },
+    {
+      "provision_ref": "s121",
+      "section": "121",
+      "title": "121",
+      "content": "b) elősegíti a rendőrségi adatkezelő szerv állománya adatvédelmi és adatbiztonsági tudatosságának növelését, ennek érdekében az adatvédelmi tisztviselő által meghatározottak szerint vagy hozzájárulásával szervezi az adatkezelési folyamatokban részt vevő állomány képzését, végrehajtja a képzéshez szükséges oktatási feladatokat;"
+    },
+    {
+      "provision_ref": "s122",
+      "section": "122",
+      "title": "122",
+      "content": "c) az adatkezeléssel kapcsolatos előírások megszegésének észlelése esetén a szolgálati út betartásával soron kívül tájékoztatja az adatvédelmi tisztviselőt;"
+    },
+    {
+      "provision_ref": "s123",
+      "section": "123",
+      "title": "123",
+      "content": "d) közreműködik az adatvédelmi incidensek kivizsgálásában;"
+    },
+    {
+      "provision_ref": "s124",
+      "section": "124",
+      "title": "124",
+      "content": "e) tájékoztatja az adatvédelmi tisztviselőt a tervezett új adatkezelésekről, és az egységes elektronikus adatvédelmi nyilvántartásba történő rögzítés érdekében megküldi az adatkezelésre vonatkozó adatlapot, valamint – amennyiben az adatkezelés tekintetében szükséges az adatvédelmi hatásvizsgálat elkészítése – a hatásvizsgálati jelentés tervezetét;"
+    },
+    {
+      "provision_ref": "s125",
+      "section": "125",
+      "title": "125",
+      "content": "f) évente értékeli az adatvédelmi és adatbiztonsági helyzetet, az erről készült jelentést az adatvédelmi tisztviselőnek a tárgyévet követő január 10-éig megküldi;"
+    },
+    {
+      "provision_ref": "s126",
+      "section": "126",
+      "title": "126",
+      "content": "g) személyes adatot nem tartalmazó kimutatást vezet a nyilvános adatok megismerése iránt benyújtott és elutasított kérelmekről, az elutasítás indokairól, amelyet a tárgyévet követő év január 10-éig megküld az adatvédelmi tisztviselőnek;"
+    },
+    {
+      "provision_ref": "s127",
+      "section": "127",
+      "title": "127",
+      "content": "h) személyes adatot nem tartalmazó kimutatást vezet az érintettnek a személyes adatai kezelésével kapcsolatos hozzáférésre, helyesbítésre, törlésre, tiltakozásra, valamint korlátozásra vonatkozóan benyújtott és elutasított kérelméről, az elutasítás indokairól, amelyet a tárgyévet követő év január 10-éig megküld az adatvédelmi tisztviselőnek;"
+    },
+    {
+      "provision_ref": "s128",
+      "section": "128",
+      "title": "128",
+      "content": "i) folyamatosan figyelemmel kíséri a nyilvános adatok közzétételét, módosítási és kiegészítési javaslatait közzététel érdekében megküldi az adatvédelmi tisztviselőnek."
+    },
+    {
+      "provision_ref": "s129",
+      "section": "129",
+      "title": "129",
+      "content": "31. A rendőrségi adatkezelő szerv adatvédelmi és adatbiztonsági helyzetét értékelő jelentés tartalmazza"
+    },
+    {
+      "provision_ref": "s130",
+      "section": "130",
+      "title": "130",
+      "content": "a) a rendőrségi adatkezelő szervnél lefolytatott adatvédelmi ellenőrzések megállapításait;"
+    },
+    {
+      "provision_ref": "s131",
+      "section": "131",
+      "title": "131",
+      "content": "b) az esetlegesen feltárt szabálytalanságokat, hiányosságokat és a megszüntetésükre tett intézkedéseket;"
+    },
+    {
+      "provision_ref": "s132",
+      "section": "132",
+      "title": "132",
+      "content": "c) az érintettek megjelölése nélkül a rendőri adatkezelő szervek állományába tartozók ellen az adatvédelmi előírások megsértése miatt esetlegesen indított fegyelmi és büntetőeljárásokra vonatkozó adatokat;"
+    },
+    {
+      "provision_ref": "s133",
+      "section": "133",
+      "title": "133",
+      "content": "d) a rendőri adatkezelő szerveknél lefolytatott oktatások és továbbképzések gyakorlatát;"
+    },
+    {
+      "provision_ref": "s134",
+      "section": "134",
+      "title": "134",
+      "content": "e) a NAIH által esetlegesen lefolytatott vizsgálatok megállapításait, a megtett intézkedéseket és az esetleges adatvédelmi hatósági eljárást, az azt befejező határozat tartalmának összefoglalását;"
+    },
+    {
+      "provision_ref": "s135",
+      "section": "135",
+      "title": "135",
+      "content": "f) a nyilvános adatoknak az Infotv.-ben meghatározott közzétételével kapcsolatos kötelezettség értékelését;"
+    },
+    {
+      "provision_ref": "s136",
+      "section": "136",
+      "title": "136",
+      "content": "g) az adatvédelmi incidensekkel kapcsolatos tájékoztatást;"
+    },
+    {
+      "provision_ref": "s137",
+      "section": "137",
+      "title": "137",
+      "content": "h) a személyes adatokkal kapcsolatos érintetti jogok gyakorlásával, valamint a nyilvános adatok igénylésével összefüggő teljesítések és elutasítások statisztikai adatait, valamint az elutasítás indokait;"
+    },
+    {
+      "provision_ref": "s138",
+      "section": "138",
+      "title": "138",
+      "content": "i) az ORFK adatvédelmi tisztviselője által az adatvédelmi feladatok aktualitásaira figyelemmel előzetesen meghatározott kérdéskörök bemutatását."
+    },
+    {
+      "provision_ref": "s139",
+      "section": "139",
+      "title": "139",
+      "content": "32. Az ORFK adatvédelmi tisztviselőjeként az ORFK Hivatalának vezetője e tevékenységét az országos rendőrfőkapitány közvetlen irányítása alatt végzi."
+    },
+    {
+      "provision_ref": "s140",
+      "section": "140",
+      "title": "140",
+      "content": "33. Az ORFK adatvédelmi tisztviselője – a 29. pontban meghatározott feladatai mellett – ellátja a rendőrségi adatkezelő szervek adatvédelmi tevékenységének szakmai irányítását, amelynek keretében az ORFK Hivatal Elektronikus Ügyintézési és Adatvédelmi Főosztály közreműködésével"
+    },
+    {
+      "provision_ref": "s141",
+      "section": "141",
+      "title": "141",
+      "content": "a) az adatvédelmet érintő jogszabályok tervezeteinek koordinációja során kidolgozza és képviseli a Rendőrség álláspontját;"
+    },
+    {
+      "provision_ref": "s142",
+      "section": "142",
+      "title": "142",
+      "content": "b) a beépített és alapértelmezett adatvédelem elvének teljesülése érdekében közreműködik az adatkezelésekre vonatkozó döntések előkészítésében és kidolgozásában;"
+    },
+    {
+      "provision_ref": "s143",
+      "section": "143",
+      "title": "143",
+      "content": "c) állásfoglalásaival segíti a rendőrségi adatkezelő szervek adatvédelmi tevékenységét, az egységes gyakorlat kialakítását;"
+    },
+    {
+      "provision_ref": "s144",
+      "section": "144",
+      "title": "144",
+      "content": "d) a Rendőrség adatkezelési tevékenységét érintő ügyekben kialakítja a Rendőrség álláspontját, kapcsolatot tart a NAIH képviselőivel, a Belügyminisztérium és a társszervek adatvédelmi tisztviselőivel;"
+    },
+    {
+      "provision_ref": "s145",
+      "section": "145",
+      "title": "145",
+      "content": "e) gondoskodik a Rendőrség egységes elektronikus adatvédelmi nyilvántartásának vezetéséről;"
+    },
+    {
+      "provision_ref": "s146",
+      "section": "146",
+      "title": "146",
+      "content": "f) összeállítja és közzéteszi az ORFK elektronikus adatvédelmi nyilvántartását;"
+    },
+    {
+      "provision_ref": "s147",
+      "section": "147",
+      "title": "147",
+      "content": "g) figyelemmel kíséri a rendőrségi adatkezelő szervek által folytatott adatvédelmi hatásvizsgálatokat és az azok eredményeként meghatározott intézkedések végrehajtását;"
+    },
+    {
+      "provision_ref": "s148",
+      "section": "148",
+      "title": "148",
+      "content": "h) vezeti a rendőrségi adatkezelő szervek által folytatott adatvédelmi hatásvizsgálatokról szóló nyilvántartást;"
+    },
+    {
+      "provision_ref": "s149",
+      "section": "149",
+      "title": "149",
+      "content": "i) kivizsgálja a hozzá érkezett bejelentéseket, jogosulatlan adatkezelés észlelése esetén annak megszüntetésére hívja fel az adatkezelőt vagy adatfeldolgozót, indokolt esetben vizsgálat lefolytatását kezdeményezi a rendőrségi adatkezelő szerv vezetőjénél;"
+    },
+    {
+      "provision_ref": "s150",
+      "section": "150",
+      "title": "150",
+      "content": "j) vezeti a rendőrségi adatkezelő szervek adatvédelmi tisztviselőinek és adatvédelmi felelőseinek a névjegyzékét, valamint az elérhetőségeiket tartalmazó belső nyilvántartást, továbbá intézkedik annak a Rendőrség intranetes oldalán történő hozzáférhetővé tétele érdekében;"
+    },
+    {
+      "provision_ref": "s151",
+      "section": "151",
+      "title": "151",
+      "content": "k) ellenőrzi a rendőrségi adatkezelő szerveknél az adatkezelésre és a nyilvános adatok közzétételére vonatkozó követelmények, valamint az információs önrendelkezési joggal, az információszabadsággal és az adatbiztonsággal kapcsolatos jogszabályok és belső normák betartását;"
+    },
+    {
+      "provision_ref": "s152",
+      "section": "152",
+      "title": "152",
+      "content": "l) továbbképzést szervez a rendőrségi adatkezelő szervek adatvédelmi tisztviselői és szükség szerint az adatvédelmi felelősei számára;"
+    },
+    {
+      "provision_ref": "s153",
+      "section": "153",
+      "title": "153",
+      "content": "m) az adatvédelmi tisztviselők jelentései alapján évente január 31-éig elkészíti a Rendőrség adatvédelmi helyzetéről szóló jelentést;"
+    },
+    {
+      "provision_ref": "s154",
+      "section": "154",
+      "title": "154",
+      "content": "n) évente – a tárgyévet követő év január 31-éig – tájékoztatja a NAIH elnökét a rendőrségi adatkezelő szervek által a személyes adatok kezelésével kapcsolatos elutasított kérelmekről és azok indokairól;"
+    },
+    {
+      "provision_ref": "s155",
+      "section": "155",
+      "title": "155",
+      "content": "o) évente – a tárgyévet követő év január 31-éig – tájékoztatja a NAIH elnökét a rendőrségi adatkezelő szervek által a nyilvános adatok megismerésére irányuló elutasított kérelmekről, valamint az elutasítás indokairól."
+    },
+    {
+      "provision_ref": "s156",
+      "section": "156",
+      "title": "156",
+      "content": "6. A hozzájáruláson alapuló adatkezeléssel összefüggő követelmények"
+    },
+    {
+      "provision_ref": "s157",
+      "section": "157",
+      "title": "157",
+      "content": "34. A rendőrségi adatkezelő szerv által személyes adat az érintett hozzájárulása alapján abban az esetben kezelhető, ha"
+    },
+    {
+      "provision_ref": "s158",
+      "section": "158",
+      "title": "158",
+      "content": "a) az adatkezeléshez az érintett önként és írásban hozzájárult, valamint"
+    },
+    {
+      "provision_ref": "s159",
+      "section": "159",
+      "title": "159",
+      "content": "b) az adatkezelés célja konkrétan meghatározott, és"
+    },
+    {
+      "provision_ref": "s160",
+      "section": "160",
+      "title": "160",
+      "content": "c) a hozzájárulás megfelelő tájékoztatáson alapul."
+    },
+    {
+      "provision_ref": "s161",
+      "section": "161",
+      "title": "161",
+      "content": "35. Az érintett hozzájárulásán alapuló adatkezelés akkor tekinthető önkéntesnek, ha"
+    },
+    {
+      "provision_ref": "s162",
+      "section": "162",
+      "title": "162",
+      "content": "a) az érintett valódi választási lehetősséggel és rendelkezési joggal rendelkezik adatai kezelése felett, és"
+    },
+    {
+      "provision_ref": "s163",
+      "section": "163",
+      "title": "163",
+      "content": "b) az érintett anélkül dönthet a hozzájárulása megadásának elutasításáról vagy visszavonásáról, hogy az számára hátrányos következménnyel járna."
+    },
+    {
+      "provision_ref": "s164",
+      "section": "164",
+      "title": "164",
+      "content": "36. Amennyiben az érintett hozzájárulásán alapuló adatkezelés több célból történik, az adatkezelési célokat külön kell választani, és az érintett hozzájárulását minden cél tekintetében meg kell szerezni."
+    },
+    {
+      "provision_ref": "s165",
+      "section": "165",
+      "title": "165",
+      "content": "37. Megfelelő tájékoztatáson alapul az adatkezelés, ha az érintett tudomással bír"
+    },
+    {
+      "provision_ref": "s166",
+      "section": "166",
+      "title": "166",
+      "content": "a) az adatkezelő kilétéről;"
+    },
+    {
+      "provision_ref": "s167",
+      "section": "167",
+      "title": "167",
+      "content": "b) az adatkezelés céljáról;"
+    },
+    {
+      "provision_ref": "s168",
+      "section": "168",
+      "title": "168",
+      "content": "c) arról, hogy milyen személyes adatainak gyűjtésére és felhasználására kerül sor;"
+    },
+    {
+      "provision_ref": "s169",
+      "section": "169",
+      "title": "169",
+      "content": "d) a hozzájárulásának visszavonásával kapcsolatos jogokról;"
+    },
+    {
+      "provision_ref": "s170",
+      "section": "170",
+      "title": "170",
+      "content": "e) az adatok esetleges automatizált döntéshozatal céljából való felhasználásáról;"
+    },
+    {
+      "provision_ref": "s171",
+      "section": "171",
+      "title": "171",
+      "content": "f) az adatok valamely szerv vagy személy részére történő esetleges továbbításáról."
+    },
+    {
+      "provision_ref": "s172",
+      "section": "172",
+      "title": "172",
+      "content": "38. A tájékoztatásnak világosnak és közérthetőnek kell lennie. Amennyiben a tájékoztatás 18. életévüket be nem töltött személyeket érint, a tájékoztatást számukra is értelmezhetően kell megfogalmazni."
+    },
+    {
+      "provision_ref": "s173",
+      "section": "173",
+      "title": "173",
+      "content": "7. Közös adatkezelés"
+    },
+    {
+      "provision_ref": "s174",
+      "section": "174",
+      "title": "174",
+      "content": "39. A rendőrségi adatkezelő szerv vezetője a közös adatkezelés megkezdése előtt megállapodást köt a közös adatkezelővel, amelyben az adatvédelmi jogszabályok által előírt kötelezettségek teljesítéséért fennálló, feladataikkal összefüggő felelősségük megosztását meg kell határozni, kivéve, ha a felelősség megosztása jogszabályban rendezett. A megállapodásban nem zárható ki az érintetti jogok gyakorlásával kapcsolatos feladatok valamelyik fél általi teljesítésének kötelezettsége."
+    },
+    {
+      "provision_ref": "s175",
+      "section": "175",
+      "title": "175",
+      "content": "40. A közös adatkezelésre vonatkozó legfontosabb szempontokról – az adatok érintettől történő felvétele esetén az adatok felvételekor, amennyiben ez nem lehetséges, vagy az adatokat a rendőrségi adatkezelő szerv nem közvetlenül az érintettől szerzi be, úgy a Rendőrség internetes honlapján közzétett elektronikus adatvédelmi nyilvántartásban hozzáférhetővé tett tájékoztatóval – az érintettet tájékoztatni kell."
+    },
+    {
+      "provision_ref": "s176",
+      "section": "176",
+      "title": "176",
+      "content": "8. Adatfeldolgozó igénybevételének szabályai"
+    },
+    {
+      "provision_ref": "s177",
+      "section": "177",
+      "title": "177",
+      "content": "41. Az adatfeldolgozói szerződésben az Infotv. 25/D. § (3) bekezdés a)–d) és f) pontjában, valamint a GDPR 28. cikk (3) bekezdésében megfogalmazottak mellett az alábbi – az adatfeldolgozóra vonatkozó – kötelezettségeket kell rögzíteni"
+    },
+    {
+      "provision_ref": "s178",
+      "section": "178",
+      "title": "178",
+      "content": "a) az adatfeldolgozó gondoskodik a jogszabály által meghatározott adatbiztonsági követelményeknek való maradéktalan megfelelésről, annak legfontosabb jellemzőiről tájékoztatja a rendőrségi adatkezelő szervet az adatkezelésre vonatkozó tájékoztató elkészítése és indokolt esetben az adatvédelmi hatásvizsgálat teljes körű lefolytathatósága érdekében;"
+    },
+    {
+      "provision_ref": "s179",
+      "section": "179",
+      "title": "179",
+      "content": "b) az adatfeldolgozó vállalja, hogy a rendőrségi adatkezelő szerv előzetes írásbeli hozzájárulása nélkül nem vesz igénybe további adatfeldolgozót, a további adatfeldolgozó igénybevétele esetén pedig az betartja a rendőrségi adatkezelő szerv, valamint az adatfeldolgozó között létrejött adatfeldolgozói szerződésben foglaltakat;"
+    },
+    {
+      "provision_ref": "s180",
+      "section": "180",
+      "title": "180",
+      "content": "c) az adatfeldolgozó az adatkezelés jellegének figyelembevételével megfelelő technikai és szervezési intézkedésekkel a lehetséges mértékben segíti az adatkezelőt abban, hogy teljesíteni tudja kötelezettségét az érintett jogainak gyakorlásához kapcsolódó kérelmek megválaszolása tekintetében."
+    },
+    {
+      "provision_ref": "s181",
+      "section": "181",
+      "title": "181",
+      "content": "42. Az adatvédelmi tisztviselő és az érintett adatkezelő rendőri szerv elektronikus információbiztonságért felelős vezetője közreműködik annak vizsgálatában, hogy az adatfeldolgozó megfelel-e az Infotv. 25/C. § (1) bekezdésében, valamint a Rendőrségről szóló 1994. évi XXXIV. törvény 91/A. § (2) bekezdésében meghatározottaknak."
+    },
+    {
+      "provision_ref": "s182",
+      "section": "182",
+      "title": "182",
+      "content": "43. Az adatfeldolgozó figyelmét az adatfeldolgozói szerződésben is fel kell hívni arra, hogy az adat megismerésére vagy továbbítására vonatkozó kérelem esetén az érdemi döntést a rendőrségi adatkezelő szerv jogosult meghozni."
+    },
+    {
+      "provision_ref": "s183",
+      "section": "183",
+      "title": "183",
+      "content": "9. Az adatvédelmi hatásvizsgálat és az előzetes konzultáció"
+    },
+    {
+      "provision_ref": "s184",
+      "section": "184",
+      "title": "184",
+      "content": "44. Az adatkezelést előíró vagy a végrehajtása során adatkezelést eredményező döntés, így különösen az adatkezelő szerv hatáskörébe tartozó, az adatok korábbiaktól eltérő kezelését előíró norma, eljárásrend, valamint az azt eredményező eszköz, nyilvántartás vagy elektronikus információs rendszer alkalmazásának előkészítése során az adatvédelmi tisztviselő előzetes adatvédelmi kockázatelemzést végez, ennek keretében azonosítja az adatkezeléssel érintett személyek jogaira nézve megjelenő – jogszabály által vagy a NAIH joggyakorlatában nevesített – lehetséges kockázatokat."
+    },
+    {
+      "provision_ref": "s185",
+      "section": "185",
+      "title": "185",
+      "content": "45. Az adatvédelmi tisztviselő a kockázatelemzés során kikérheti a tervezett adatkezelés által érintett személyek, a döntés végrehajtásáért felelős szakterület, valamint az azzal érintett elektronikus információs rendszerek üzemeltetésében részt vevő vagy biztonságáért felelős személyek véleményét, azonban az nem eredményezheti a döntés előkészítésének szükségtelen elhúzódását."
+    },
+    {
+      "provision_ref": "s186",
+      "section": "186",
+      "title": "186",
+      "content": "46. Amennyiben a tervezett adatkezelés kapcsán"
+    },
+    {
+      "provision_ref": "s187",
+      "section": "187",
+      "title": "187",
+      "content": "a) annak körülményeire, így különösen a céljára, az érintettek körére, az adatkezelési műveletek során alkalmazott technológiára tekintettel az adatkezeléssel várhatóan érintett személyek jogaira nézve valószínűsíthetően magas kockázatot az adatvédelmi tisztviselő nem azonosít, vagy"
+    },
+    {
+      "provision_ref": "s188",
+      "section": "188",
+      "title": "188",
+      "content": "b) megállapítható, hogy az adatkezelés az adatvédelmi hatásvizsgálat lefolytatása alóli mentesítést tartalmazó valamely jogszabályban meghatározott kivételi körbe tartozik,"
+    },
+    {
+      "provision_ref": "s189",
+      "section": "189",
+      "title": "189",
+      "content": "az adatvédelmi tisztviselő ennek tényét írásban rögzíti. Az adatvédelmi tisztviselő az adatkezelés megkezdését követően köteles ezt bejegyezni az adatkezeléshez kapcsolódó dokumentációba, így különösen feltüntetni a rendőrségi adatkezelő szerv adatvédelmi nyilvántartásában."
+    },
+    {
+      "provision_ref": "s190",
+      "section": "190",
+      "title": "190",
+      "content": "47. Az adatvédelmi tisztviselő – a döntése alapjául szolgáló legfontosabb szempontokat írásban megjelölve – adatvédelmi hatásvizsgálat lefolytatását kezdeményezi a rendőrségi adatkezelő szerv vezetőjénél"
+    },
+    {
+      "provision_ref": "s191",
+      "section": "191",
+      "title": "191",
+      "content": "a) a jogszabályi rendelkezés alapján adatvédelmi hatásvizsgálattal kötelezően vizsgálandó adatkezelési tevékenységek esetén;"
+    },
+    {
+      "provision_ref": "s192",
+      "section": "192",
+      "title": "192",
+      "content": "b) a dokumentált módon lefolytatott előzetes kockázatelemzés eredményeként valószínűsíthetően magas kockázatot jelentő adatkezelésként azonosított tevékenységek, folyamatok vagy tervezetek esetében."
+    },
+    {
+      "provision_ref": "s193",
+      "section": "193",
+      "title": "193",
+      "content": "48. A rendőrségi adatkezelő szerv vezetője az adatvédelmi tisztviselő javaslatára elrendeli az adatvédelmi hatásvizsgálat lefolytatását, vagy írásban rögzíti mellőzésének okait és az adatvédelmi tisztviselő kapcsolódó álláspontját. Az adatvédelmi hatásvizsgálat lefolytatásáig vagy az annak elmaradásával kapcsolatos okok írásban történő rögzítéséig az adatkezelésről szóló döntés – az adott döntés meghozatalára irányadó jogszabályi követelmények betartása mellett – nem hozható meg."
+    },
+    {
+      "provision_ref": "s194",
+      "section": "194",
+      "title": "194",
+      "content": "49. Az adatvédelmi hatásvizsgálat lefolytatására a döntés végrehajtásáért felelős szakterület, valamint az azzal érintett elektronikus információs rendszerek üzemeltetését ellátó vagy az elektronikus vagy fizikai biztonságáért felelős szakterület résztvevőt jelöl ki. Az adatvédelmi hatásvizsgálat lefolytatását az adatvédelmi tisztviselő támogatja, abban az adatvédelmi felelős részt vehet."
+    },
+    {
+      "provision_ref": "s195",
+      "section": "195",
+      "title": "195",
+      "content": "50. Amennyiben annak jogszabályban meghatározott feltételei fennállnak, akkor ki kell kérni az adatkezeléssel érintett személyek vagy az azok képviseletét ellátó szervezet véleményét."
+    },
+    {
+      "provision_ref": "s196",
+      "section": "196",
+      "title": "196",
+      "content": "51. Az adatvédelmi hatásvizsgálat lefolytatásához alkalmazható a NAIH honlapján található adatvédelmi hatásvizsgálati szoftver („PIA software”) webes verziója, amelyet a rendőrségi adatkezelő szerv a saját gépére telepít."
+    },
+    {
+      "provision_ref": "s197",
+      "section": "197",
+      "title": "197",
+      "content": "52. Az adatvédelmi hatásvizsgálat során keletkezett iratok esetében vizsgálni kell, hogy azok tartalmaznak-e a rendőrségi adatkezelő szerv döntését előkészítő olyan adatokat, amelyekre figyelemmel szükséges a „Nem nyilvános!” jelzés feltüntetése."
+    },
+    {
+      "provision_ref": "s198",
+      "section": "198",
+      "title": "198",
+      "content": "53. A rendőrségi adatkezelő szerv vezetője köteles megvizsgálni, hogy a hatásvizsgálat során keletkezett adatok vagy azok egy része esetében fennállnak-e a minősítés jogszabályban meghatározott feltételei."
+    },
+    {
+      "provision_ref": "s199",
+      "section": "199",
+      "title": "199",
+      "content": "54. Az adatvédelmi hatásvizsgálat eredményeiről – minősített adatot nem tartalmazó – összefoglaló jelentést kell készíteni, amely tartalmazza"
+    },
+    {
+      "provision_ref": "s200",
+      "section": "200",
+      "title": "200",
+      "content": "a) a hatásvizsgálat lefolytatásának okait;"
+    },
+    {
+      "provision_ref": "s201",
+      "section": "201",
+      "title": "201",
+      "content": "b) a hatásvizsgálatra vonatkozó szerep- és felelősségi köröket;"
+    },
+    {
+      "provision_ref": "s202",
+      "section": "202",
+      "title": "202",
+      "content": "c) a hatásvizsgálat során alkalmazott módszertan leírását;"
+    },
+    {
+      "provision_ref": "s203",
+      "section": "203",
+      "title": "203",
+      "content": "d) az adatkezelés folyamatának bemutatását;"
+    },
+    {
+      "provision_ref": "s204",
+      "section": "204",
+      "title": "204",
+      "content": "e) az adatvédelmi alapelveknek történő megfelelést;"
+    },
+    {
+      "provision_ref": "s205",
+      "section": "205",
+      "title": "205",
+      "content": "f) az érintetti jogok biztosításának módját;"
+    },
+    {
+      "provision_ref": "s206",
+      "section": "206",
+      "title": "206",
+      "content": "g) az érintettek alapvető jogainak érvényesülését fenyegető kockázatok leírását és jellegét;"
+    },
+    {
+      "provision_ref": "s207",
+      "section": "207",
+      "title": "207",
+      "content": "h) az adatbiztonsági intézkedések értékelését;"
+    },
+    {
+      "provision_ref": "s208",
+      "section": "208",
+      "title": "208",
+      "content": "i) a jogszerűség biztosítása érdekében tervezett intézkedések leírását és végrehajtásának feladattervét."
+    },
+    {
+      "provision_ref": "s209",
+      "section": "209",
+      "title": "209",
+      "content": "55. Az adatvédelmi hatásvizsgálat összefoglaló jelentését a rendőrségi adatkezelő szerv vezetője hagyja jóvá."
+    },
+    {
+      "provision_ref": "s210",
+      "section": "210",
+      "title": "210",
+      "content": "56. Az adatvédelmi hatásvizsgálatról szóló összefoglaló jelentés döntés előkészítéséhez nem szükséges részei felhasználhatók az adatkezelésre vonatkozó tájékoztatóban, illetve közzétehetők az adatvédelmi nyilvántartás adatai között."
+    },
+    {
+      "provision_ref": "s211",
+      "section": "211",
+      "title": "211",
+      "content": "57. A jogszabályban meghatározott kötelező esetkörön túl az ORFK adatvédelmi tisztviselőjének előzetes tájékoztatását követően a rendőrségi adatkezelő szerv előzetes konzultációt kezdeményez a NAIH-nál, amennyiben az adatvédelmi hatásvizsgálat arra az eredményre jut, hogy a tervezett adatkezelés jelentette kockázat nem mérsékelhető a rendelkezésre álló technológiák és a végrehajtási költségek szempontjából észszerű módon."
+    },
+    {
+      "provision_ref": "s212",
+      "section": "212",
+      "title": "212",
+      "content": "58. A rendőrségi adatkezelő szervek széles körét érintő adatkezelést előíró vagy a végrehajtása során adatkezelést eredményező döntések előkészítése során az előzetes adatvédelmi kockázatelemzést az ORFK folytatja le."
+    },
+    {
+      "provision_ref": "s213",
+      "section": "213",
+      "title": "213",
+      "content": "10. A Rendőrség egységes elektronikus adatvédelmi nyilvántartása és a rendőrségi adatkezelő szervek adatvédelmi nyilvántartása"
+    },
+    {
+      "provision_ref": "s214",
+      "section": "214",
+      "title": "214",
+      "content": "59. A Rendőrség egységes elektronikus adatvédelmi nyilvántartása a 96–98. pontban rögzített adattartalommal készült érintetti tájékoztatókból áll."
+    },
+    {
+      "provision_ref": "s215",
+      "section": "215",
+      "title": "215",
+      "content": "60. A Rendőrség egységes elektronikus adatvédelmi nyilvántartásában létrehozott érintetti tájékoztatókat az ORFK Hivatal nyilvántartásba veszi, a Rendőrség Adatvédelmi Portálján (a továbbiakban: Adatvédelmi Portál) közzéteszi, és annak naprakész vezetéséről gondoskodik. A Rendőrség egységes elektronikus adatvédelmi nyilvántartásában kizárólag olyan adatkezelés tehető közzé, amelynek érintetti tájékoztatóját az ORFK adatvédelmi tisztviselője jóváhagyta."
+    },
+    {
+      "provision_ref": "s216",
+      "section": "216",
+      "title": "216",
+      "content": "61. A rendőrségi adatkezelő szerv a Rendőrség egységes elektronikus adatvédelmi nyilvántartásba bejegyzett adatkezelésekből összeállítja adatvédelmi nyilvántartását, és az adatvédelmi tisztviselő, helyi szervek esetében az adatvédelmi felelős gondoskodik annak az Adatvédelmi Portálon történő közzétételéről."
+    },
+    {
+      "provision_ref": "s217",
+      "section": "217",
+      "title": "217",
+      "content": "62. A rendőrségi adatkezelő szerv az adatkezelési tevékenységében bekövetkező változást, így különösen új adatkezelési tevékenység megkezdését vagy a már folytatott adatkezelési tevékenység megszüntetését haladéktalanul átvezeti az adatvédelmi nyilvántartásában, és az adatvédelmi tisztviselő, helyi szervek esetében az adatvédelmi felelős útján gondoskodik annak az Adatvédelmi Portálon történő közzétételéről."
+    },
+    {
+      "provision_ref": "s218",
+      "section": "218",
+      "title": "218",
+      "content": "63."
+    },
+    {
+      "provision_ref": "s219",
+      "section": "219",
+      "title": "219",
+      "content": "64. Amennyiben a rendőrségi adatkezelő szerv olyan új, személyes adatok kezelésével járó tevékenységet kíván folytatni, amelynek érintetti tájékoztatója még nem található meg a Rendőrség egységes elektronikus adatvédelmi nyilvántartásában, úgy köteles – a rendőrségi adatkezelő szervnél vezetett adatvédelmi nyilvántartásában történő bejegyzését megelőzően – arról az ORFK adatvédelmi tisztviselőjét az érintetti tájékoztató tervezetének megküldésével tájékoztatni."
+    },
+    {
+      "provision_ref": "s220",
+      "section": "220",
+      "title": "220",
+      "content": "65. A Rendőrség egységes elektronikus adatvédelmi nyilvántartásában korábban még nem szereplő adatkezelés jogszerűségének, így különösen az alapelveknek történő megfelelésének vizsgálatát, valamint az új érintetti tájékoztatóval történő kiegészítését az ORFK adatvédelmi tisztviselője – szükség esetén az elektronikus információbiztonságért felelős vagy a vizsgált adatkezelésben érintett szakterület bevonásával – végzi."
+    },
+    {
+      "provision_ref": "s221",
+      "section": "221",
+      "title": "221",
+      "content": "66. A Rendőrség egységes elektronikus adatvédelmi nyilvántartásában korábban még nem szereplő adatkezelés abban az esetben kezdhető meg és jegyezhető be a rendőrségi adatkezelő szervnél vezetett adatvédelmi nyilvántartásba, ha az az ORFK adatvédelmi tisztviselőjének vizsgálata szerint megfelel a jogszerűség követelményének, és a kapcsolódó érintetti tájékoztató jóváhagyása megtörtént. Erről az ORFK adatvédelmi tisztviselője tájékoztatja a kezdeményező rendőrségi adatkezelő szervet."
+    },
+    {
+      "provision_ref": "s222",
+      "section": "222",
+      "title": "222",
+      "content": "67. Országos szintű adatkezelést az országos rendőrfőkapitány vagy a szakterület szerint hatáskörrel rendelkező helyettese, területi szintű adatkezelést az adatkezelő területi szerv vezetője, helyi szintű adatkezelést az adatkezelő helyi szerv vezetője jogosult írásban elrendelni."
+    },
+    {
+      "provision_ref": "s223",
+      "section": "223",
+      "title": "223",
+      "content": "11. Az adatigénylés és a lekérdezés során irányadó szabályok"
+    },
+    {
+      "provision_ref": "s224",
+      "section": "224",
+      "title": "224",
+      "content": "68. A rendőrségi adatkezelő szerv feladataihoz kapcsolódó egyes eljárások során az országos hatósági nyilvántartásokból vagy más célból kezelt adatbázisokból lekért vagy átvett, de az ügy szempontjából érdektelenné vált vagy fel nem használt személyes adatok esetében az ügy előadója az ügyirat továbbítását vagy irattárba helyezését megelőzően gondoskodik azok dokumentált törléséről, illetve megsemmisítéséről."
+    },
+    {
+      "provision_ref": "s225",
+      "section": "225",
+      "title": "225",
+      "content": "69. Az olyan elektronikus információs rendszerek esetében, ahol az adatkezelés célját, az érintett adatokat, illetve az adatkezelést folytató személy azonosítását lehetővé tevő adatok és az elvégzett műveletek folyamatos és zárt rendszerben történő naplózása nem biztosított, a törvényi előírások teljesítése érdekében más módon – így különösen manuálisan vezetett lekérdezési naplóban vagy a nyilvántartásból történő lekérdezéshez alkalmazott információs rendszerben történő rögzítéssel – kell gondoskodni az adatkezelési művelet céljának dokumentálásáról."
+    },
+    {
+      "provision_ref": "s226",
+      "section": "226",
+      "title": "226",
+      "content": "70. Az adatkérés naplózására irányadó szabályokat megfelelően alkalmazni kell a rendőrségi adatkezelő szerv állománya részére az ügyeleti szolgálat által teljesített adatszolgáltatás esetén is. A naplózási tevékenységet az adatvédelmi tisztviselő rendszeresen, de legalább félévente dokumentált módon ellenőrzi, vagy az adatvédelmi felelőssel ellenőrizteti."
+    },
+    {
+      "provision_ref": "s227",
+      "section": "227",
+      "title": "227",
+      "content": "71. A folyamatos ügyeleti szolgálatot ellátók esetében az adatbázisba történő belépés és abból történő adattovábbítás csak az ügyeleti szolgálatot ellátó személy saját hozzáférési kódjának felhasználásával történhet. Az ügyeleti szolgálatot ellátók a szolgálat átadásakor kötelesek kilépni a számítógépes rendszerekből, a szolgálatba lépők pedig saját jogosultságuk és azonosító kódjuk alapján belépni a rendszerekbe."
+    },
+    {
+      "provision_ref": "s228",
+      "section": "228",
+      "title": "228",
+      "content": "72. Az elrendelt akciók, fokozott ellenőrzések időtartamára az adatkérésre jogosultak körét, a hozzáférés módját, az adatszolgáltatás naplózásának rendjét, valamint ezen átmeneti intézkedések hatályának lejártát az akció vagy a fokozott ellenőrzés elrendeléséről szóló intézkedésben vagy az annak végrehajtására készített tervben kell meghatározni."
+    },
+    {
+      "provision_ref": "s229",
+      "section": "229",
+      "title": "229",
+      "content": "12. Adattovábbítás a Rendőrség által kezelt személyes adatokból"
+    },
+    {
+      "provision_ref": "s230",
+      "section": "230",
+      "title": "230",
+      "content": "73. Az adatkezelő rendőri szerv az adattovábbítás feltételeinek meglétét – így különösen azt, hogy az igényelt adatokra vonatkozóan az adatok kezelőjének minősül-e – minden személyes adattal összefüggésben köteles ellenőrizni."
+    },
+    {
+      "provision_ref": "s231",
+      "section": "231",
+      "title": "231",
+      "content": "74. Adatvédelmi szempontból akkor tekinthető az adattovábbítás jogszerűnek, ha"
+    },
+    {
+      "provision_ref": "s232",
+      "section": "232",
+      "title": "232",
+      "content": "a) a személyes adatot kezelő szerv vagy személy jogosult annak továbbítására;"
+    },
+    {
+      "provision_ref": "s233",
+      "section": "233",
+      "title": "233",
+      "content": "b) az adattovábbítás címzettje (adatkérő) rendelkezik az adat kezeléséhez szükséges jogalappal vagy az érintett írásbeli, a jogszabályi elvárásoknak megfelelő tartalmú hozzájárulásával;"
+    },
+    {
+      "provision_ref": "s234",
+      "section": "234",
+      "title": "234",
+      "content": "c) az adatkérés célja mindezzel összhangban van."
+    },
+    {
+      "provision_ref": "s235",
+      "section": "235",
+      "title": "235",
+      "content": "75. A harmadik személy vagy szerv által benyújtott adattovábbítási kérelem elbírálása során kikérhető az adatvédelmi tisztviselő véleménye."
+    },
+    {
+      "provision_ref": "s236",
+      "section": "236",
+      "title": "236",
+      "content": "76. Az adatigénylés abban az esetben teljesíthető, ha az tartalmazza"
+    },
+    {
+      "provision_ref": "s237",
+      "section": "237",
+      "title": "237",
+      "content": "a) az adatigénylés célját, jogalapját;"
+    },
+    {
+      "provision_ref": "s238",
+      "section": "238",
+      "title": "238",
+      "content": "b) a kért adatok körének pontos meghatározását;"
+    },
+    {
+      "provision_ref": "s239",
+      "section": "239",
+      "title": "239",
+      "content": "c) az érintett személy azonosításához szükséges adatokat, több személyre vonatkozó adatigénylés esetén az érintettek azonosításához szükséges csoportképző ismérveket."
+    },
+    {
+      "provision_ref": "s240",
+      "section": "240",
+      "title": "240",
+      "content": "77. Amennyiben az adatigénylés olyan személyes adatra vonatkozik, amely esetében az adatkezelő más szerv, a rendőrségi adatkezelő szerv pedig az érintett adatállományból csak adatkérésre jogosult, az adatkérést – törvény eltérő rendelkezése hiányában – el kell utasítani, és az adatkérőt tájékoztatni kell arról, hogy a kért adatokat mely adatkezelő szervtől igényelheti."
+    },
+    {
+      "provision_ref": "s241",
+      "section": "241",
+      "title": "241",
+      "content": "78. Az adattovábbítás történhet kérelem alapján egyedi adatszolgáltatással, illetve – törvény ilyen tartalmú rendelkezése vagy erre vonatkozó megállapodás alapján – közvetlen hozzáférés biztosításával."
+    },
+    {
+      "provision_ref": "s242",
+      "section": "242",
+      "title": "242",
+      "content": "13. Adattovábbítási nyilvántartás"
+    },
+    {
+      "provision_ref": "s243",
+      "section": "243",
+      "title": "243",
+      "content": "79. Amennyiben olyan adat továbbítására kerül sor, amellyel kapcsolatban az adattovábbítást végző rendőrségi adatkezelő szerv – a személyes adat érintettjének a GDPR vagy az Infotv. által biztosított jogait érintő – adatkezelési korlátozást jelzett, az adatkezelési korlátozást szerepeltetni kell az adattovábbítási nyilvántartásban."
+    },
+    {
+      "provision_ref": "s244",
+      "section": "244",
+      "title": "244",
+      "content": "80. Amennyiben az adattovábbításhoz kapcsolódóan a folyamatos és zárt rendszerben történő naplózás nem biztosított, az adatkezelés célját, az érintett adatokat, illetve az adatkezelést folytató személy azonosítását lehetővé tevő adatokra és az elvégzett műveletekre vonatkozóan papíralapú vagy elektronikus adattovábbítási nyilvántartás vezetéséről kell gondoskodni."
+    },
+    {
+      "provision_ref": "s245",
+      "section": "245",
+      "title": "245",
+      "content": "14. A közvetlen lekérdezés"
+    },
+    {
+      "provision_ref": "s246",
+      "section": "246",
+      "title": "246",
+      "content": "81. A lekérdezés és a felhasználás jogszerűségének dokumentálása érdekében a közvetlen lekérdezést biztosító rendszert úgy kell kialakítani, hogy az Infotv. 25/F. § (1) bekezdése szerinti adatok rögzítése mellett a személyes adatokhoz történő hozzáférés egyedi azonosító és jelszó megadásához kötötten történjen."
+    },
+    {
+      "provision_ref": "s247",
+      "section": "247",
+      "title": "247",
+      "content": "82. Amennyiben a lekérdezéskor nincs lehetőség a közvetlen lekérdezést biztosító rendszerben a lekérdezés céljának rögzítésére, a lekérdezést végző köteles dokumentálni a lekérdezéssel érintett adatbázis megjelölését, a lekérdezés időpontját és célját."
+    },
+    {
+      "provision_ref": "s248",
+      "section": "248",
+      "title": "248",
+      "content": "83. Az adatkezelő rendőri szervek személyi állományának tagja részére közvetlen hozzáférési jogosultság igénylésének kezdeményezésére az érintett legalább osztályvezető jogállású vezetője jogosult (a továbbiakban: kezdeményező vezető). A jogosultságok kiadását és jogszerűségét az adatvédelmi tisztviselő ellenőrizheti."
+    },
+    {
+      "provision_ref": "s249",
+      "section": "249",
+      "title": "249",
+      "content": "84. A rendőrségi adatkezelő szerv adatkezelése esetén a kezdeményező vezető gondoskodik a közvetlen hozzáférési jogosultság beállítása érdekében készített elektronikus igénylés adatkezelő szerv részére történő továbbításáról."
+    },
+    {
+      "provision_ref": "s250",
+      "section": "250",
+      "title": "250",
+      "content": "85. A nem rendőri szerv adatkezelése esetén a kezdeményezést a rendőrségi adatkezelő szerv vezetője által kijelölt személy részére kell továbbítani, aki az adatkezelő szervnek küldi meg a közvetlen hozzáférési jogosultság beállítására vonatkozó elektronikus igénylést."
+    },
+    {
+      "provision_ref": "s251",
+      "section": "251",
+      "title": "251",
+      "content": "86. A közvetlen hozzáférési jogosultsággal rendelkezők naprakész, egyedi azonosítóval ellátott névjegyzékét (a továbbiakban: hozzáférésre jogosultak nyilvántartása) a rendőrségi adatkezelő szerv vezetője által kijelölt személy vezeti, akinek a részére az elektronikus igénylés egy példányát meg kell küldeni. A hozzáférésre jogosultak nyilvántartásába történő betekintést a nyilvántartást vezető személy köteles az adatvédelmi tisztviselő részére – ellenőrzés lefolytatása céljából – biztosítani."
+    },
+    {
+      "provision_ref": "s252",
+      "section": "252",
+      "title": "252",
+      "content": "87. A közvetlen hozzáférési jogosultsággal rendelkező személy munkakörét érintő változás vagy a jogviszonyának a hozzáférési jogosultságát érintő változása esetén a kezdeményező vezető köteles kezdeményezni a jogosultság módosítását vagy visszavonását. A kezdeményezés egy példányát továbbítani kell a hozzáférésre jogosultak nyilvántartásának vezetésére kijelölt személynek."
+    },
+    {
+      "provision_ref": "s253",
+      "section": "253",
+      "title": "253",
+      "content": "88. A közvetlen hozzáférési jogosultsággal rendelkező személy kizárólag a munkaköri feladatainak ellátásával kapcsolatban – a célhoz kötöttség elvének szem előtt tartásával – a feladatkörének ellátásához szükséges adatokat kérheti le és használhatja fel."
+    },
+    {
+      "provision_ref": "s254",
+      "section": "254",
+      "title": "254",
+      "content": "89. A közvetlen hozzáférési jogosultsággal rendelkező személy a jelszavát más személynek nem hozhatja tudomására."
+    },
+    {
+      "provision_ref": "s255",
+      "section": "255",
+      "title": "255",
+      "content": "90. A közvetlen lekérdezés törvényi feltételeinek fennállása esetén a rendőrségi adatkezelő szerv a nem rendőri adatigénylő szervnél megállapodás megkötését kezdeményezi"
+    },
+    {
+      "provision_ref": "s256",
+      "section": "256",
+      "title": "256",
+      "content": "a) a rendszer igénybevételének feltételei;"
+    },
+    {
+      "provision_ref": "s257",
+      "section": "257",
+      "title": "257",
+      "content": "b) a rendszer használatának technikai és adatbiztonsági követelményei;"
+    },
+    {
+      "provision_ref": "s258",
+      "section": "258",
+      "title": "258",
+      "content": "c) a költségviselés rendjének"
+    },
+    {
+      "provision_ref": "s259",
+      "section": "259",
+      "title": "259",
+      "content": "meghatározása céljából."
+    },
+    {
+      "provision_ref": "s260",
+      "section": "260",
+      "title": "260",
+      "content": "91. A megállapodás tartalmazza különösen"
+    },
+    {
+      "provision_ref": "s261",
+      "section": "261",
+      "title": "261",
+      "content": "a) a közvetlen lekérdezések célját;"
+    },
+    {
+      "provision_ref": "s262",
+      "section": "262",
+      "title": "262",
+      "content": "b) az adatokhoz történő hozzáférés jogalapját;"
+    },
+    {
+      "provision_ref": "s263",
+      "section": "263",
+      "title": "263",
+      "content": "c) a lekérdezhető adatfajtákat;"
+    },
+    {
+      "provision_ref": "s264",
+      "section": "264",
+      "title": "264",
+      "content": "d) a lekérdezésre feljogosított személyi kör megjelölését;"
+    },
+    {
+      "provision_ref": "s265",
+      "section": "265",
+      "title": "265",
+      "content": "e) az adatok jogszerű felhasználására felhívó záradékot;"
+    },
+    {
+      "provision_ref": "s266",
+      "section": "266",
+      "title": "266",
+      "content": "f) a közvetlen lekérdezésre irányadó, jelen alcímben meghatározott előírásokat."
+    },
+    {
+      "provision_ref": "s267",
+      "section": "267",
+      "title": "267",
+      "content": "15. Adattovábbítás hírközlő eszköz alkalmazásával"
+    },
+    {
+      "provision_ref": "s268",
+      "section": "268",
+      "title": "268",
+      "content": "92. A rendőrségi nyilvántartásokban kezelt személyes adatot hírközlő eszközön csak a rendőrségi adatkezelő szervek állománya számára, az ügyeleti szolgálat vagy a szerv szervezeti és működési szabályzatában vagy ügyrendjében erre kijelölt szervezeti elem továbbíthat. Ettől eltérni csak halaszthatatlan esetben, az élet, a testi épség vagy a vagyonbiztonság megóvása érdekében lehet, amelynek lezárultát követően az eltérés okait és a hírközlő eszközön adott tájékoztatás tartalmát dokumentálni kell, illetve azokat az adattovábbítási nyilvántartásban rögzíteni szükséges."
+    },
+    {
+      "provision_ref": "s269",
+      "section": "269",
+      "title": "269",
+      "content": "93. Az adatigénylő hozzáférési jogosultságáról jelszó alkalmazásával, visszahívással vagy egyéb arra alkalmas módon kell meggyőződni. Ha az igénylő jogosultsága nem állapítható meg, a tájékoztatás hírközlő eszközön nem teljesíthető."
+    },
+    {
+      "provision_ref": "s270",
+      "section": "270",
+      "title": "270",
+      "content": "94. Hírközlő eszközön történő adatszolgáltatás esetén csak a legszükségesebb adatok közölhetők."
+    },
+    {
+      "provision_ref": "s271",
+      "section": "271",
+      "title": "271",
+      "content": "16. Az érintett előzetes tájékoztatása"
+    },
+    {
+      "provision_ref": "s272",
+      "section": "272",
+      "title": "272",
+      "content": "95. Az adatkezelő szerv az érintett előzetes tájékoztatása érdekében érintetti tájékoztatót köteles készíteni."
+    },
+    {
+      "provision_ref": "s273",
+      "section": "273",
+      "title": "273",
+      "content": "96. A GDPR 13. cikk (1) bekezdésében foglaltakra figyelemmel az érintetti tájékoztatónak tartalmaznia kell"
+    },
+    {
+      "provision_ref": "s274",
+      "section": "274",
+      "title": "274",
+      "content": "a) az adatkezelő megnevezését, közös adatkezelés esetén az adatkezelők megnevezését, postai (hivatalos levelezési) címét, elektronikus elérhetőségét (e-mail-cím), telefonszámát, a honlapnak a címét;"
+    },
+    {
+      "provision_ref": "s275",
+      "section": "275",
+      "title": "275",
+      "content": "b) az adatvédelmi tisztviselő nevét és elérhetőségét [hivatalos levelezési címét, elektronikus elérhetőségét (e-mail-cím), telefonszámát];"
+    },
+    {
+      "provision_ref": "s276",
+      "section": "276",
+      "title": "276",
+      "content": "c) az adatkezelés rövid megnevezését;"
+    },
+    {
+      "provision_ref": "s277",
+      "section": "277",
+      "title": "277",
+      "content": "d) az adatkezelés konkrét célját úgy, hogy"
+    },
+    {
+      "provision_ref": "s278",
+      "section": "278",
+      "title": "278",
+      "content": "da) az érintett egyértelműen képes legyen megállapítani azt a tevékenységet, amelyhez személyes adatainak a kezelése kapcsolódik,"
+    },
+    {
+      "provision_ref": "s279",
+      "section": "279",
+      "title": "279",
+      "content": "db) amennyiben az adatkezeléshez több cél is kapcsolódik, a célokat külön-külön kell megfogalmazni;"
+    },
+    {
+      "provision_ref": "s280",
+      "section": "280",
+      "title": "280",
+      "content": "e) az adatkezelés jogalapját oly módon, hogy"
+    },
+    {
+      "provision_ref": "s281",
+      "section": "281",
+      "title": "281",
+      "content": "ea) az érintett egyértelműen képes legyen megállapítani azt a tevékenységet, amelyhez személyes adatainak a kezelése kapcsolódik,"
+    },
+    {
+      "provision_ref": "s282",
+      "section": "282",
+      "title": "282",
+      "content": "eb) a jogalap tekintetében pontosan meghatározott legyen az adatkezelést biztosító jogszabályhely, jogi kötelezettség teljesítése esetén az annak tartalmát pontosan meghatározó uniós vagy nemzeti jogszabályhely;"
+    },
+    {
+      "provision_ref": "s283",
+      "section": "283",
+      "title": "283",
+      "content": "f) az adattovábbítás címzettjeit, akiknek a személyes adatokat továbbítják;"
+    },
+    {
+      "provision_ref": "s284",
+      "section": "284",
+      "title": "284",
+      "content": "g) a harmadik országbeli személyek vagy szervezetek, illetve nemzetközi szervezetek részére történő adattovábbítás esetén annak címzettjét, az érintett adatkört és annak célját és jogalapját;"
+    },
+    {
+      "provision_ref": "s285",
+      "section": "285",
+      "title": "285",
+      "content": "h) az adatkezelés időtartamát, kötelező adatkezelés esetén a jogszabályhely pontos megjelölésével;"
+    },
+    {
+      "provision_ref": "s286",
+      "section": "286",
+      "title": "286",
+      "content": "i) annak megjelölését, hogy az adatszolgáltatás jogszabályon vagy szerződéses kötelezettségen alapul vagy szerződéskötés előfeltétele;"
+    },
+    {
+      "provision_ref": "s287",
+      "section": "287",
+      "title": "287",
+      "content": "j) az adatok automatizált döntéshozatalra vagy profilalkotásra felhasználásra kerülnek-e;"
+    },
+    {
+      "provision_ref": "s288",
+      "section": "288",
+      "title": "288",
+      "content": "k) a panasztételi lehetőséget;"
+    },
+    {
+      "provision_ref": "s289",
+      "section": "289",
+      "title": "289",
+      "content": "l) a személyes adatokhoz történő érintetti hozzáféréssel, helyesbítéssel, törléssel, korlátozással, illetve tiltakozással, valamint – az érintett hozzájárulásán alapuló adatkezelés esetén – a hozzájárulás visszavonásával kapcsolatos érintetti jogokra történő figyelemfelhívást;"
+    },
+    {
+      "provision_ref": "s290",
+      "section": "290",
+      "title": "290",
+      "content": "m) a NAIH-hoz történő panasz benyújtásával kapcsolatos tájékoztatást;"
+    },
+    {
+      "provision_ref": "s291",
+      "section": "291",
+      "title": "291",
+      "content": "n) a bírósági jogorvoslati lehetőséget."
+    },
+    {
+      "provision_ref": "s292",
+      "section": "292",
+      "title": "292",
+      "content": "97. Amennyiben az adatok nem az érintettől származnak, a GDPR 14. cikk (1) bekezdésében foglaltakra figyelemmel az érintetti tájékoztatónak a 96. pontban felsoroltakon túl tartalmaznia kell az adatkezeléssel feltételezhetően érintett személyek körét, a kezelt személyes adatok kategóriáit, külön nevesítve a személyes adatok különleges kategóriáit."
+    },
+    {
+      "provision_ref": "s293",
+      "section": "293",
+      "title": "293",
+      "content": "98. A bűncselekmények megelőzése, nyomozása, felderítése céljából kezelt adatok tekintetében az Infotv. 16. § (1) bekezdése szerinti érintetti tájékoztatónak – a 96. pontban meghatározottakon túl – tartalmaznia kell"
+    },
+    {
+      "provision_ref": "s294",
+      "section": "294",
+      "title": "294",
+      "content": "a) az adatkezeléssel feltételezhetően érintett személyek körét, a kezelt személyes adatok kategóriáit, külön nevesítve a személyes adatok különleges kategóriáit;"
+    },
+    {
+      "provision_ref": "s295",
+      "section": "295",
+      "title": "295",
+      "content": "b) az adatfeldolgozó igénybe vétele esetén annak nevét és elérhetőségét, vezetőjének vagy képviselőjének nevét és elérhetőségét, valamint az adatfeldolgozó által ellátott tevékenységet;"
+    },
+    {
+      "provision_ref": "s296",
+      "section": "296",
+      "title": "296",
+      "content": "c) az adatgyűjtés forrását;"
+    },
+    {
+      "provision_ref": "s297",
+      "section": "297",
+      "title": "297",
+      "content": "d) az adatbiztonsági intézkedéseket;"
+    },
+    {
+      "provision_ref": "s298",
+      "section": "298",
+      "title": "298",
+      "content": "e) a személyes adatokhoz történő érintetti hozzáféréssel, helyesbítéssel, törléssel, korlátozással kapcsolatos érintetti jogokat."
+    },
+    {
+      "provision_ref": "s299",
+      "section": "299",
+      "title": "299",
+      "content": "99. Az érintetti tájékoztatót közérthetően kell megfogalmazni, a könnyebb átláthatóság érdekében lehetőség szerint táblázatos formában kell szerkeszteni, és a fogyatékossággal élők számára is elérhetővé kell tenni."
+    },
+    {
+      "provision_ref": "s300",
+      "section": "300",
+      "title": "300",
+      "content": "100. Az érintett előzetes tájékoztatása történhet írásban és szóban. Amennyiben lehetőség van rá, az érintettet elsősorban írásban kell tájékoztatni."
+    },
+    {
+      "provision_ref": "s301",
+      "section": "301",
+      "title": "301",
+      "content": "101. A Rendőrség hatáskörébe tartozó büntető-, szabálysértési vagy közigazgatási hatósági eljárás során az előzetes tájékoztatás biztosítása kapcsán mérlegelni kell, hogy szükséges-e annak az elérni kívánt céllal arányos módon történő késleltetése, a tájékoztatás tartalmának korlátozása vagy a tájékoztatás mellőzése."
+    },
+    {
+      "provision_ref": "s302",
+      "section": "302",
+      "title": "302",
+      "content": "102. Az előzetes tájékoztatás késleltetéséről, a tartalmának korlátozásáról vagy a tájékoztatás mellőzéséről abban az esetben hozható döntés, ha annak az Infotv. 16. § (3) bekezdésében vagy a GDPR 23. cikkében meghatározott feltétele megállapítható."
+    },
+    {
+      "provision_ref": "s303",
+      "section": "303",
+      "title": "303",
+      "content": "103. Rendőri intézkedés során az érintett előzetes tájékoztatását elsődlegesen az érintetti tájékoztató honlapon történő elérésének biztosításával és az arról adott szóbeli felvilágosítással kell biztosítani. Amennyiben az érintett előzetes tájékoztatása a rendőri intézkedést vagy a kényszerítő eszköz alkalmazását hátráltatja vagy lehetetlenné teszi, az érintett előzetes tájékoztatása késleltethető vagy mellőzhető."
+    },
+    {
+      "provision_ref": "s304",
+      "section": "304",
+      "title": "304",
+      "content": "104. Segélyhívások esetén az érintettet az adatfelvétel befejezése előtt kell az adatkezelő nevéről és az érintetti tájékoztató honlapon történő elérhetőségéről – lehetőség szerint automatikusan – tájékoztatni."
+    },
+    {
+      "provision_ref": "s305",
+      "section": "305",
+      "title": "305",
+      "content": "105. A határátkelőhelyeken az előzetes érintetti tájékoztatót angolul és magyarul, valamint – a légi határátkelőhelyek kivételével – viszonylati nyelven kell jól látható helyen kihelyezni."
+    },
+    {
+      "provision_ref": "s306",
+      "section": "306",
+      "title": "306",
+      "content": "17. Az érintett kérelmére vonatkozó tájékoztatás"
+    },
+    {
+      "provision_ref": "s307",
+      "section": "307",
+      "title": "307",
+      "content": "106. Az érintettet megillető jogok gyakorlásának biztosítására – az adatkezelésre vonatkozó előzetes általános tájékozódáshoz való jog kivételével – az érintettek adatainak védelmét szolgáló adatbiztonsági követelményeket szem előtt tartva, csak a kérelmező megfelelő azonosítása, illetve a kérelme tartalmának hitelességét biztosító követelmények fennállása esetén van lehetőség. Nem biztosítható e jogok gyakorlása különösen az elektronikus aláírással nem hitelesített vagy a kérelmező személyének azonosítását nem biztosító elektronikus levél útján érkezett kérelmek esetén."
+    },
+    {
+      "provision_ref": "s308",
+      "section": "308",
+      "title": "308",
+      "content": "107. A rendőrségi adatkezelő szerv kizárólag bűncselekmények megelőzése, felderítése, büntetőeljárás lefolytatása vagy büntetőjogi szankciók végrehajtása céljából folytatott adatkezelés kapcsán"
+    },
+    {
+      "provision_ref": "s309",
+      "section": "309",
+      "title": "309",
+      "content": "a) törvény korlátozó rendelkezése alapján, vagy"
+    },
+    {
+      "provision_ref": "s310",
+      "section": "310",
+      "title": "310",
+      "content": "b) személyes adatok más adatkezelő szervtől jogszabály alapján történt átvétele esetén az adattovábbító szerv korlátozó rendelkezése alapján"
+    },
+    {
+      "provision_ref": "s311",
+      "section": "311",
+      "title": "311",
+      "content": "tagadhatja meg az érintett tájékoztatását vagy hozzáférési jogának gyakorlását a megtagadás alapjául szolgáló pontos törvényi rendelkezés, továbbá a bírósági jogorvoslat és a NAIH-hoz fordulás lehetőségének megjelölésével."
+    },
+    {
+      "provision_ref": "s312",
+      "section": "312",
+      "title": "312",
+      "content": "108. A rendőrségi adatkezelő szerv az érintett részére nyújtandó bármely értesítést és tájékoztatást könnyen hozzáférhető és olvasható formában, lényegre törő, világos és közérthetően megfogalmazott tartalommal teljesíti. A rendőrségi adatkezelő szerv az információt írásban, elektronikus úton, illetve az érintett kérelmére szóban is megadhatja, amennyiben az érintett személyazonossága igazolt."
+    },
+    {
+      "provision_ref": "s313",
+      "section": "313",
+      "title": "313",
+      "content": "109. Az érintett hozzáférési jogának gyakorlása során a tájékoztatás és a kezelt adatokról kért első másolat elkészítéséért abban az esetben számítható fel az annak teljesítésével összefüggésben közvetlenül felmerült költség, ha az érintett kérelme ismételt és megalapozatlan."
+    },
+    {
+      "provision_ref": "s314",
+      "section": "314",
+      "title": "314",
+      "content": "18. Az adatvédelmi incidenskezelési eljárásrend"
+    },
+    {
+      "provision_ref": "s315",
+      "section": "315",
+      "title": "315",
+      "content": "110. A rendőrségi adatkezelő szerv által kezelt személyes adatok:"
+    },
+    {
+      "provision_ref": "s316",
+      "section": "316",
+      "title": "316",
+      "content": "a) jogosulatlan vagy véletlen közlését;"
+    },
+    {
+      "provision_ref": "s317",
+      "section": "317",
+      "title": "317",
+      "content": "b) az ilyen adatokhoz való jogosulatlan vagy véletlen hozzáférést („titoksértés”);"
+    },
+    {
+      "provision_ref": "s318",
+      "section": "318",
+      "title": "318",
+      "content": "c) jogosulatlan vagy véletlen módosítását („sértetlenségi adatsértés”);"
+    },
+    {
+      "provision_ref": "s319",
+      "section": "319",
+      "title": "319",
+      "content": "d) véletlen vagy jogosulatlan elvesztését vagy megsemmisítését („hozzáférhetőségi adatsértés”)"
+    },
+    {
+      "provision_ref": "s320",
+      "section": "320",
+      "title": "320",
+      "content": "mint adatvédelmi incidens bekövetkezését annak észlelését követően, indokolatlan késedelem nélkül jelenteni kell a szervezeti egység vagy szervezeti elem vezetőjének."
+    },
+    {
+      "provision_ref": "s321",
+      "section": "321",
+      "title": "321",
+      "content": "111. A szervezeti egység vagy szervezeti elem vezetője vagy az általa kijelölt személy a jelzést követően azonnal tájékozódik az eset lényeges körülményeiről, és a kárenyhítési intézkedések megtétele mellett értékeli az adatvédelmi incidens érintettek jogaira nézve gyakorolt hatásának súlyosságát."
+    },
+    {
+      "provision_ref": "s322",
+      "section": "322",
+      "title": "322",
+      "content": "112. A szervezeti egység vagy szervezeti elem vezetője vagy az általa kijelölt személy azonosítja, hogy az adatvédelmi incidens valószínűsíthetően jár-e az érintettre nézve fizikai, vagyoni vagy nem vagyoni kárral. Amennyiben az adatvédelmi incidens – a jogszabályban rögzített vagy a NAIH joggyakorlata által kialakított jellemzők alapján – valószínűsíthetően"
+    },
+    {
+      "provision_ref": "s323",
+      "section": "323",
+      "title": "323",
+      "content": "a) magas kockázattal jár a természetes személyek jogaira nézve, akkor azonnal – a tudomásra jutást követően haladéktalanul – a szolgálati út kihagyásával közvetlenül értesíti a szerv adatvédelmi tisztviselőjét;"
+    },
+    {
+      "provision_ref": "s324",
+      "section": "324",
+      "title": "324",
+      "content": "b) kockázattal jár a természetes személyek jogaira nézve, akkor soron kívül – a tudomásra jutástól számított 2 órán belül – és a szolgálati út kihagyásával közvetlenül értesíti a szerv adatvédelmi tisztviselőjét;"
+    },
+    {
+      "provision_ref": "s325",
+      "section": "325",
+      "title": "325",
+      "content": "c) nem jár kockázattal a természetes személyek jogaira nézve, akkor soron kívül és a szolgálati út betartásával értesíti a szerv adatvédelmi tisztviselőjét."
+    },
+    {
+      "provision_ref": "s326",
+      "section": "326",
+      "title": "326",
+      "content": "113. Az értesítésnek tartalmaznia kell"
+    },
+    {
+      "provision_ref": "s327",
+      "section": "327",
+      "title": "327",
+      "content": "a) a bekövetkezett incidens jellegét;"
+    },
+    {
+      "provision_ref": "s328",
+      "section": "328",
+      "title": "328",
+      "content": "b) az incidenssel valószínűsíthetően érintett személyek körét;"
+    },
+    {
+      "provision_ref": "s329",
+      "section": "329",
+      "title": "329",
+      "content": "c) a valószínűsíthetően érintett adatok kategóriáit, nagyságrendjét;"
+    },
+    {
+      "provision_ref": "s330",
+      "section": "330",
+      "title": "330",
+      "content": "d) a megtett halaszthatatlan intézkedéseket."
+    },
+    {
+      "provision_ref": "s331",
+      "section": "331",
+      "title": "331",
+      "content": "114. Az adatvédelmi tisztviselő – a 112. pont a) alpontja szerinti esetben azonnal, a 112. pont b) alpontja szerinti esetben soron kívül – megvizsgálja az értesítésben foglaltakat, a vizsgálatba szükség szerint bevonja a rendőrségi adatkezelő szerv informatikai biztonságért felelős vezetőjét és biztonsági vezetőjét, a szervezeti egység vezetőjét vagy a szakterület tekintetében szakértelemmel rendelkező személyeket."
+    },
+    {
+      "provision_ref": "s332",
+      "section": "332",
+      "title": "332",
+      "content": "115. Az adatvédelmi tisztviselő állásfoglalásának ismeretében az adatvédelmi incidens NAIH-nak történő bejelentéséről az adatkezelő szerv vezetője dönt. Az adatkezelő szerv vezetőjének döntése alapján az adatvédelmi tisztviselő a NAIH-nak az e célból rendszeresített elektronikus felületen keresztül tesz bejelentést. Az adatvédelmi tisztviselő az adatvédelmi incidens NAIH részére történő bejelentése esetén a bejelentés másolati példányát és az adatvédelmi incidens kivizsgálásáról készült jelentés jóváhagyott példányát tájékoztatás céljából megküldi az ORFK adatvédelmi tisztviselőjének."
+    },
+    {
+      "provision_ref": "s333",
+      "section": "333",
+      "title": "333",
+      "content": "116. Amennyiben 72 órán belül nem lehet teljeskörűen megállapítani az adatvédelmi incidens terjedelmét, vagy kivizsgálása során nem lehetett megállapítani az adatvédelmi incidens bekövetkezésének valamennyi lényeges körülményét, úgy az adatvédelmi tisztviselő a bejelentést a rendelkezésre álló adatok alapján teszi meg. A hiányzó adatok megállapítását követően intézkedni kell a bejelentés kiegészítésére."
+    },
+    {
+      "provision_ref": "s334",
+      "section": "334",
+      "title": "334",
+      "content": "117. Az adatvédelmi tisztviselő a bejelentést követően intézkedik a kivizsgálás szükség szerinti pontosításáról, és amennyiben megállapítja, hogy az incidens valószínűsíthetően magas kockázattal jár a természetes személyek jogaira nézve, akkor – a rendőrségi adatkezelő szerv vezetőjének értesítése mellett – az Infotv. 25/K. § (2) bekezdésében, valamint a GDPR 34. cikk (3) bekezdésében felsorolt esetek kivételével tájékoztatja az érintetteket az adatvédelmi incidensről. Amennyiben az érintett tájékoztatására észszerű módon nincs lehetőség, úgy az adatvédelmi tisztviselő az adatvédelmi incidens főbb jellemzőire vonatkozó értesítés soron kívüli közzétételét kezdeményezi a Rendőrség honlapján."
+    },
+    {
+      "provision_ref": "s335",
+      "section": "335",
+      "title": "335",
+      "content": "118. Az adatvédelmi tisztviselő a bekövetkezett adatvédelmi incidensekről nyilvántartást vezet."
+    },
+    {
+      "provision_ref": "s336",
+      "section": "336",
+      "title": "336",
+      "content": "119. Az adatvédelmi tisztviselő által vezetett adatvédelmi incidensek nyilvántartása tartalmazza"
+    },
+    {
+      "provision_ref": "s337",
+      "section": "337",
+      "title": "337",
+      "content": "a) az adatvédelmi incidensről készült jelentés iktatószámát;"
+    },
+    {
+      "provision_ref": "s338",
+      "section": "338",
+      "title": "338",
+      "content": "b) az incidens bekövetkezésének helyét és idejét;"
+    },
+    {
+      "provision_ref": "s339",
+      "section": "339",
+      "title": "339",
+      "content": "c) az érintett személyes adatok körét;"
+    },
+    {
+      "provision_ref": "s340",
+      "section": "340",
+      "title": "340",
+      "content": "d) az incidens hatásait, következményeit, valamint az orvoslásukra tett intézkedéseket;"
+    },
+    {
+      "provision_ref": "s341",
+      "section": "341",
+      "title": "341",
+      "content": "e) a bejelentés időpontját – amennyiben az adatvédelmi incidenst a NAIH részére bejelentették;"
+    },
+    {
+      "provision_ref": "s342",
+      "section": "342",
+      "title": "342",
+      "content": "f) annak a döntésnek a rövid indokolását, ami miatt az adatvédelmi incidenst nem jelentették be a NAIH-nak."
+    },
+    {
+      "provision_ref": "s343",
+      "section": "343",
+      "title": "343",
+      "content": "III. FEJEZET"
+    },
+    {
+      "provision_ref": "s344",
+      "section": "344",
+      "title": "344",
+      "content": "A NYILVÁNOS ADATOKKAL KAPCSOLATOS RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s345",
+      "section": "345",
+      "title": "345",
+      "content": "19. A rendőri szervek által kezelt nyilvános adatok megismerésével összefüggő szabályok"
+    },
+    {
+      "provision_ref": "s346",
+      "section": "346",
+      "title": "346",
+      "content": "120. A nyilvános adat megismerésére irányuló igényt soron kívül be kell mutatni a rendőrségi adatkezelő szerv vezetőjének vagy az általa a szervezeti és működési szabályzatban vagy ügyrendben válaszadásra felhatalmazott személynek, aki köteles gondoskodni a megkeresés határidőben történő megválaszolásáról."
+    },
+    {
+      "provision_ref": "s347",
+      "section": "347",
+      "title": "347",
+      "content": "121. Amennyiben a nyilvános adat kezelője nem a megkeresett rendőrségi adatkezelő szerv, erről a tényről kell az érintettet tájékoztatni."
+    },
+    {
+      "provision_ref": "s348",
+      "section": "348",
+      "title": "348",
+      "content": "122. Amennyiben az adat keletkeztetőjének megítélése szerint az adat a szerv döntés-előkészítő tevékenységével függ össze, és az Infotv. hatálya alá tartozik, annak adathordozóján – fedőlapján vagy az első oldalának jobb felső sarkán – fel kell tüntetni a „Nem nyilvános!” jelölést és a nyilvánosság korlátozásának időtartamát. A „Nem nyilvános!” jelölés alkalmazását a kiadmányozási jogkör gyakorlója a kiadmányozással hagyja jóvá."
+    },
+    {
+      "provision_ref": "s349",
+      "section": "349",
+      "title": "349",
+      "content": "123. Amennyiben a nyilvános adat megismerésére irányuló igény olyan adatra vagy statisztikai adatra vonatkozik, amely valamely honlapon, különösen a Központi Statisztikai Hivatal oldalán közzétételre került, vagy onnan elérhető, az igényt a honlap elérhetőségére történő hivatkozással kell teljesíteni."
+    },
+    {
+      "provision_ref": "s350",
+      "section": "350",
+      "title": "350",
+      "content": "124. A nyilvános adat megismerésére irányuló igény elutasítását a rendőrségi adatkezelő szerv vezetője minden esetben olyan módon köteles írásban indokolni, hogy az az igénylő által esetlegesen indított perben alkalmas legyen a megtagadás jogszerűségének és megalapozottságának igazolására."
+    },
+    {
+      "provision_ref": "s351",
+      "section": "351",
+      "title": "351",
+      "content": "125. Az adatigénylés teljesítése során kiemelt figyelmet kell fordítani arra, hogy a nyilvános adat közlése ne járjon mások jogainak sérelmével. Különös figyelmet kell fordítani arra, hogy az adatszolgáltatással ne kerüljenek nyilvánosságra személyes és különleges adatok, minősített adatok, a törvény által nyilvánosságában korlátozott vagy – ha a rendőrségi adatkezelő szerv vezetője másként nem döntött – a „Nem nyilvános!” jelöléssel ellátott adatok."
+    },
+    {
+      "provision_ref": "s352",
+      "section": "352",
+      "title": "352",
+      "content": "126. A rendőrségi adatkezelő szerv köteles gondoskodni arról, hogy a részben vagy egészben megtagadott adatigénylésekről, valamint azok megtagadásának okáról vezetett nyilvántartásban az adatigénylő személyes adatai ne kerüljenek rögzítésre."
+    },
+    {
+      "provision_ref": "s353",
+      "section": "353",
+      "title": "353",
+      "content": "20. A közzétételi kötelezettség teljesítése"
+    },
+    {
+      "provision_ref": "s354",
+      "section": "354",
+      "title": "354",
+      "content": "127. Az adatfelelősök közzétételi kötelezettségüknek az Adatvédelmi Portálon történő közzététellel tesznek eleget."
+    },
+    {
+      "provision_ref": "s355",
+      "section": "355",
+      "title": "355",
+      "content": "128. Az adatközlői feladatokat – a rendőrségi adatkezelő szerv vezetője eltérő rendelkezésének hiányában – az adatvédelmi tisztviselő látja el."
+    },
+    {
+      "provision_ref": "s356",
+      "section": "356",
+      "title": "356",
+      "content": "128/A. Az Infotv. 37/C. § (1) bekezdése szerinti közzétételi kötelezettség teljesítése érdekében a gazdasági rendőrfőkapitány-helyettes, illetve az egyes feladatok ellátására létrehozott szervek esetén a szerv vezetője által kijelölt vezető intézkedik a közzétételi körbe tartozó adatok adatvédelmi tisztviselő részére történő megküldésére, aki gondoskodik a Központi Információs Közadat-nyilvántartás részére teljesítendő adatszolgáltatás végrehajtásáról."
+    },
+    {
+      "provision_ref": "s357",
+      "section": "357",
+      "title": "357",
+      "content": "129. A kötelezően közzéteendő közérdekű adatok tételes felsorolását, továbbá az egyes adatok vonatkozásában a belső adatfelelősök megjelölését, az adatok közzétételének, frissítésének, megőrzésének szabályait az 1–5. melléklet tartalmazza."
+    },
+    {
+      "provision_ref": "s358",
+      "section": "358",
+      "title": "358",
+      "content": "21. Az adatfelelős feladatai"
+    },
+    {
+      "provision_ref": "s359",
+      "section": "359",
+      "title": "359",
+      "content": "130. Az adatfelelősök az 1–5. mellékletben kijelölt belső adatfelelősök útján gondoskodnak"
+    },
+    {
+      "provision_ref": "s360",
+      "section": "360",
+      "title": "360",
+      "content": "a) a közzétételi listákon szereplő adatok előállításáról (a továbbiakban: új adattartalom megjelenítése), a már közzétett adat frissítéséről, helyesbítéséről (a továbbiakban együtt: módosítás), illetve az időszerűtlenné vált adat eltávolításáról;"
+    },
+    {
+      "provision_ref": "s361",
+      "section": "361",
+      "title": "361",
+      "content": "b) a közzétenni kívánt, valamint a már közzétett adatok hitelességéről, pontosságáról, teljességéről, szakszerűségéről."
+    },
+    {
+      "provision_ref": "s362",
+      "section": "362",
+      "title": "362",
+      "content": "131. A belső adatfelelősök – a helyi szervek belső adatfelelősei a területi szervek azonos közzétételi egységénél kijelölt belső adatfelelősök útján – a felelősségi körükbe tartozó közérdekű adatok közzétételét, illetve módosítását az 1–3. melléklet esetén az Infotv. 1. melléklete szerinti, a 4–5. melléklet esetén az abban meghatározott időközönként, elektronikus úton kötelesek kezdeményezni az adatvédelmi tisztviselőnél."
+    },
+    {
+      "provision_ref": "s363",
+      "section": "363",
+      "title": "363",
+      "content": "132. Az új adattartalom megjelenítését kezdeményező közzétételi kérelemnek tartalmaznia kell"
+    },
+    {
+      "provision_ref": "s364",
+      "section": "364",
+      "title": "364",
+      "content": "a) a közzétételt kezdeményező belső adatfelelős nevét, beosztását, munkakörét;"
+    },
+    {
+      "provision_ref": "s365",
+      "section": "365",
+      "title": "365",
+      "content": "b) a közzétételi egység hivatkozási számát és megnevezését;"
+    },
+    {
+      "provision_ref": "s366",
+      "section": "366",
+      "title": "366",
+      "content": "c) a közzéteendő adatokat, dokumentumokat."
+    },
+    {
+      "provision_ref": "s367",
+      "section": "367",
+      "title": "367",
+      "content": "133. Az adat módosítását kezdeményező kérelemnek tartalmaznia kell"
+    },
+    {
+      "provision_ref": "s368",
+      "section": "368",
+      "title": "368",
+      "content": "a) a módosítást kezdeményező belső adatfelelős nevét, beosztását, munkakörét;"
+    },
+    {
+      "provision_ref": "s369",
+      "section": "369",
+      "title": "369",
+      "content": "b) a módosítani kívánt közzétételi egység hivatkozási számát és megnevezését;"
+    },
+    {
+      "provision_ref": "s370",
+      "section": "370",
+      "title": "370",
+      "content": "c) a módosítás rövid indokolását;"
+    },
+    {
+      "provision_ref": "s371",
+      "section": "371",
+      "title": "371",
+      "content": "d) a módosított adatot tartalmazó dokumentumot."
+    },
+    {
+      "provision_ref": "s372",
+      "section": "372",
+      "title": "372",
+      "content": "134. Az időszerűtlenné vált adattartalom eltávolítása iránti kérelemnek tartalmaznia kell"
+    },
+    {
+      "provision_ref": "s373",
+      "section": "373",
+      "title": "373",
+      "content": "a) az eltávolítást kezdeményező belső adatfelelős nevét, beosztását, munkakörét;"
+    },
+    {
+      "provision_ref": "s374",
+      "section": "374",
+      "title": "374",
+      "content": "b) az eltávolítani kívánt közzétételi egység hivatkozási számát és megnevezését;"
+    },
+    {
+      "provision_ref": "s375",
+      "section": "375",
+      "title": "375",
+      "content": "c) az eltávolítás rövid indokolását;"
+    },
+    {
+      "provision_ref": "s376",
+      "section": "376",
+      "title": "376",
+      "content": "d) amennyiben szükséges, az archívumba helyezés kérését."
+    },
+    {
+      "provision_ref": "s377",
+      "section": "377",
+      "title": "377",
+      "content": "22. Az adatközlő feladatai"
+    },
+    {
+      "provision_ref": "s378",
+      "section": "378",
+      "title": "378",
+      "content": "135. Az adatközlő felelős"
+    },
+    {
+      "provision_ref": "s379",
+      "section": "379",
+      "title": "379",
+      "content": "a) a hozzá megküldött közérdekű adatoknak az Adatvédelmi Portálon történő közzétételéért, módosításáért és annak egyértelmű megállapíthatóságáért, hogy az egyes közzétételi egységek mely adatfelelőstől származnak;"
+    },
+    {
+      "provision_ref": "s380",
+      "section": "380",
+      "title": "380",
+      "content": "b) az adatfelelős által közlésre átadott adatokkal való egyezőségért."
+    },
+    {
+      "provision_ref": "s381",
+      "section": "381",
+      "title": "381",
+      "content": "136. Az adatközlő a közzétételre alkalmas kérelmeket a kézhezvételt követő 3 munkanapon belül, a belső adatfelelős erre irányuló kérelme esetén a kézhezvételt követő munkanapon teljesíti."
+    },
+    {
+      "provision_ref": "s382",
+      "section": "382",
+      "title": "382",
+      "content": "23. Az Adatvédelmi Portál működtetésével összefüggő feladatok"
+    },
+    {
+      "provision_ref": "s383",
+      "section": "383",
+      "title": "383",
+      "content": "137. Az ORFK Hivatal – mint az Adatvédelmi Portál működtetéséért felelős szervezeti elem – gondoskodik az Adatvédelmi Portál adatstruktúrájának és formájának a közzétételi listákon szereplő adatok közzétételéhez szükséges közzétételi mintákról szóló 18/2005. (XII. 27.) IHM rendeletben, valamint a 305/2005. Korm. rendeletben meghatározottak szerinti kialakításáról."
+    },
+    {
+      "provision_ref": "s384",
+      "section": "384",
+      "title": "384",
+      "content": "137/A. Az ORFK Hivatal az Adatvédelmi Portált fejlesztő és üzemeltető szerv (a továbbiakban: üzemeltető szerv) közreműködésével gondoskodik"
+    },
+    {
+      "provision_ref": "s385",
+      "section": "385",
+      "title": "385",
+      "content": "a) az egységes közadatkereső rendszerhez kapcsolódás informatikai feltételeinek biztosításáról;"
+    },
+    {
+      "provision_ref": "s386",
+      "section": "386",
+      "title": "386",
+      "content": "b) a közzétételi kötelezettségeket tartalmazó metainformációs rendszer működtetéséről és folyamatos adatkarbantartásról;"
+    },
+    {
+      "provision_ref": "s387",
+      "section": "387",
+      "title": "387",
+      "content": "c) a közérdekű adat közzétételével, módosításával és eltávolításával kapcsolatos események, időpontok, valamint a belső adatfelelős, illetve az adatközlő személyének naplózásáról."
+    },
+    {
+      "provision_ref": "s388",
+      "section": "388",
+      "title": "388",
+      "content": "137/B. Az ORFK Hivatal az üzemeltető szerv közreműködésével köteles az Adatvédelmi Portál folyamatos működését biztosítani, amelynek érdekében"
+    },
+    {
+      "provision_ref": "s389",
+      "section": "389",
+      "title": "389",
+      "content": "a) haladéktalanul gondoskodik az adatbiztonsági kockázatot jelentő üzemeltetési hibák kijavításáról;"
+    },
+    {
+      "provision_ref": "s390",
+      "section": "390",
+      "title": "390",
+      "content": "b) felméri az üzemeltetési hibákból származó károkat;"
+    },
+    {
+      "provision_ref": "s391",
+      "section": "391",
+      "title": "391",
+      "content": "c) gondoskodik a működéshez szükséges állapot helyreállításáról."
+    },
+    {
+      "provision_ref": "s392",
+      "section": "392",
+      "title": "392",
+      "content": "137/C. Az Adatvédelmi Portál működését érintő tervezett karbantartások (a továbbiakban: üzemszünet) vagy nem tervezett szolgáltatáskiesés (a továbbiakban: üzemzavar) esetén – ideértve a távközlési hálózat vagy a tápellátási rendszer hibáját is – a közzétételi kötelezettségnek az üzemszünet vagy üzemzavar elhárítását követően haladéktalanul eleget kell tenni."
+    },
+    {
+      "provision_ref": "s393",
+      "section": "393",
+      "title": "393",
+      "content": "137/D. Az ORFK Hivatal az Adatvédelmi Portál üzemszünetet előidéző karbantartásának idejéről előzetesen az Adatvédelmi Portál „Hírfolyam” oldalán, valamint az esetleges üzemzavarról – a karbantartás ideje alatt – e-mail útján a rendőrségi adatkezelő szervek részére tájékoztatást ad. Az üzemzavarról elektronikus eseménynaplót kell vezetni, ami tartalmazza az esemény leírását, időpontját, időtartamát és a megtett intézkedéseket."
+    },
+    {
+      "provision_ref": "s394",
+      "section": "394",
+      "title": "394",
+      "content": "24. A közzétételi eljárás szabályai"
+    },
+    {
+      "provision_ref": "s395",
+      "section": "395",
+      "title": "395",
+      "content": "138. A belső adatfelelősök az Adatvédelmi Portálon közzéteendő közzétételi egységeket elektronikus úton, közzétételre alkalmas Word (doc), Excel (xls), kép (jpg) vagy PDF formátumban juttatják el az adatközlőhöz."
+    },
+    {
+      "provision_ref": "s396",
+      "section": "396",
+      "title": "396",
+      "content": "139. Az adatközlő a közlésre történő alkalmasság szempontjából ellenőrzi az átadott adatok formátumát, külalakját és megjelenítését. Alkalmatlanság esetén a belső adatfelelőst az adatok pontosítására hívja fel."
+    },
+    {
+      "provision_ref": "s397",
+      "section": "397",
+      "title": "397",
+      "content": "140. A közzététel megtörténtéről az adatközlő értesíti a belső adatfelelőst, aki az értesítés megtörténtét követő 2 munkanapon belül köteles ellenőrizni a közzététel megtörténtét, valamint a közzétett adatok helytállóságát, illetve teljességét. A tévesen vagy pontatlanul közzétett adatok helyesbítését, kicserélését a belső adatfelelős a hiba tudomására jutását követően azonnal köteles kezdeményezni az adatközlőnél."
+    },
+    {
+      "provision_ref": "s398",
+      "section": "398",
+      "title": "398",
+      "content": "141. Téves vagy pontatlan adat nem tehető közzé az Adatvédelmi Portálon, illetve nem tehető elérhetővé az egységes közadatkereső rendszerben."
+    },
+    {
+      "provision_ref": "s399",
+      "section": "399",
+      "title": "399",
+      "content": "142. A közzétett adat eltávolításának szükségességéről a belső adatfelelős értesíti az adatközlőt, aki az eltávolításról a megjelölt időpontban, ennek hiányában haladéktalanul gondoskodik."
+    },
+    {
+      "provision_ref": "s400",
+      "section": "400",
+      "title": "400",
+      "content": "143. A közzétételi egység Adatvédelmi Portálról történő eltávolításának időpontjára, az előző állapot archiválásának (Adatvédelmi Portálon tartásának) időtartamára az 1–3. melléklet esetén az Infotv. 1. melléklete, illetve a 4. és 5. melléklet az irányadók, az alábbiak szerint:"
+    },
+    {
+      "provision_ref": "s401",
+      "section": "401",
+      "title": "401",
+      "content": "a) amennyiben a közzétételi egység a közérdekű adat előző állapotának archívumban tartását írja elő, a közérdekű adat módosítása esetén annak elérhetővé tétele a megőrzési idő elteltéig nem szüntethető meg, a módosítás tényét és idejét, az új állapot fellelhetőségét, az archívumban elérhető adat elavulását egyértelműen fel kell tüntetni;"
+    },
+    {
+      "provision_ref": "s402",
+      "section": "402",
+      "title": "402",
+      "content": "b) a közzétételi egység új állapota mellett fel kell tüntetni a frissítés tényét és idejét, illetve a közzétételi egység előző állapotának archív állományban való elérhetőségét."
+    },
+    {
+      "provision_ref": "s403",
+      "section": "403",
+      "title": "403",
+      "content": "25. A közzétételi listák felülvizsgálata"
+    },
+    {
+      "provision_ref": "s404",
+      "section": "404",
+      "title": "404",
+      "content": "144. Amennyiben jogszabály az általános, a különös, illetve az egyedi közzétételi lista körébe tartozó adatok közzétételét írja elő, a jogszabály tárgya szerint érintett adatfelelős az új adatközlési kötelezettségéről és a közzétételi listák módosításának szükségességéről haladéktalanul tájékoztatja az adatvédelmi tisztviselőt."
+    },
+    {
+      "provision_ref": "s405",
+      "section": "405",
+      "title": "405",
+      "content": "144/A. Amennyiben a rendőrségi adatkezelő szerv új közzétételi egységet kíván létrehozni, arról az ORFK adatvédelmi tisztviselőjét a közzétételi egység tervezetének megküldésével tájékoztatja."
+    },
+    {
+      "provision_ref": "s406",
+      "section": "406",
+      "title": "406",
+      "content": "144/B. Az új közzétételi egység létrehozását az ORFK adatvédelmi tisztviselője az érintett szakterület bevonásával végzi. Új közzétételi egység akkor hozható létre, amennyiben annak szükségességét az ORFK adatvédelmi tisztviselője jóváhagyta."
+    },
+    {
+      "provision_ref": "s407",
+      "section": "407",
+      "title": "407",
+      "content": "IV. FEJEZET"
+    },
+    {
+      "provision_ref": "s408",
+      "section": "408",
+      "title": "408",
+      "content": "EGYÉB RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s409",
+      "section": "409",
+      "title": "409",
+      "content": "26. Ellenőrzés"
+    },
+    {
+      "provision_ref": "s410",
+      "section": "410",
+      "title": "410",
+      "content": "145. A rendőrségi adatkezelő szervek vezetői kötelesek gondoskodni a NAIH feladat- és hatáskörével összefüggésben végzett ellenőrzések eredményes végrehajtásához szükséges közreműködésről."
+    },
+    {
+      "provision_ref": "s411",
+      "section": "411",
+      "title": "411",
+      "content": "146. Az egyes rendőrségi adatkezelő szervek, szolgálati ágak, szolgálatok és szakszolgálatok szakmai tevékenységét érintő átfogó ellenőrzéseknek ki kell terjedniük a szakmai feladatellátáshoz szükséges adatkezelések törvényességének ellenőrzésére is."
+    },
+    {
+      "provision_ref": "s412",
+      "section": "412",
+      "title": "412",
+      "content": "147. A rendőrségi adatkezelő szerv adatvédelmi tevékenységének célellenőrzését az ORFK adatvédelmi tisztviselője és a rendőrségi adatkezelő szerv szakirányítására jogosult szerv vezetője is elrendelheti."
+    },
+    {
+      "provision_ref": "s413",
+      "section": "413",
+      "title": "413",
+      "content": "148. A rendőrségi adatkezelő szerv adatvédelmi tisztviselője, valamint a helyi szervek esetében az adatvédelmi felelős félévente köteles ellenőrizni az adatkezelő szervnél kiosztott hozzáférési jogosultságok aktualizálásának végrehajtását. Az ellenőrzést – a hozzáférésre jogosultak nyilvántartása alapján – a rendőrségi adatkezelő szerv informatikai üzemeltetésért felelős vezetője közreműködésével kell végrehajtani."
+    },
+    {
+      "provision_ref": "s414",
+      "section": "414",
+      "title": "414",
+      "content": "149. Az adatvédelmi tisztviselő, helyi szervek esetében az adatvédelmi felelős végzi az országos nyilvántartásokból történő lekérdezések során a célhoz kötött adatkezelés elve érvényesülésének ellenőrzését. Az ellenőrzés végrehajtása során a közvetlen hozzáférési jogosultsággal rendelkező személyek közül havi rendszerességgel kiválasztott munkatársak kapcsán – elsődlegesen a Robotzsaru rendszerből kinyerhető adatok alapján – az érintett szolgálati elöljárójával szükség szerint együttműködve azt kell vizsgálni, hogy az ellenőrzésre kiválasztott adatlekérdezés összefüggésben volt-e az érintett munkaköri feladatainak végrehajtásával kapcsolatos ügyintézéssel."
+    },
+    {
+      "provision_ref": "s415",
+      "section": "415",
+      "title": "415",
+      "content": "150. Az ellenőrzés megállapításairól, az esetlegesen feltárt hiányosságokról, a jogszabály- vagy normasértésekről az ellenőrzést végző az ellenőrzés befejezését követően írásban köteles tájékoztatni a rendőrségi adatkezelő szerv vezetőjét, aki köteles haladéktalanul megtenni a jogszerű állapot helyreállításához szükséges intézkedéseket, indokolt esetben a személyi felelősség megállapításához szükséges eljárás lefolytatását elrendelni vagy kezdeményezni."
+    },
+    {
+      "provision_ref": "s416",
+      "section": "416",
+      "title": "416",
+      "content": "27. Oktatás, vizsgáztatás"
+    },
+    {
+      "provision_ref": "s417",
+      "section": "417",
+      "title": "417",
+      "content": "151. A Rendőrség állományába újonnan került személyeket – a személyes adatokat munkakörüknél fogva semmilyen formában meg nem ismerő személyek kivételével – az adatvédelmi tisztviselő vagy az adatvédelmi felelős – a rendőrségi adatkezelő szerv személyzeti feladatot ellátó szervezeti egységének, illetve szervezeti elemének tájékoztatása alapján – köteles az állományba vételt követő 3 hónapon belül adatvédelmi oktatásban részesíteni. Az oktatásra kötelezett részére a szükséges jogszabályokat, közjogi szervezetszabályozó eszközöket, belső normákat és egyéb segédanyagokat rendelkezésre kell bocsátani, vagy ezek tekintetében az elektronikus hozzáférés lehetőségét és módját kell ismertetni."
+    },
+    {
+      "provision_ref": "s418",
+      "section": "418",
+      "title": "418",
+      "content": "152. Az oktatást követő 30 napon belül a rendőrségi állomány tagjának az adatvédelmi tisztviselő által összeállított vizsgakövetelményekből vizsgát kell tennie, amelyről az adatvédelmi tisztviselő által kiadmányozott igazolást az érintett személyi anyagában kell elhelyezni. Eredménytelen vizsga esetén az érintett személyt megfelelő határidő kitűzésével pótvizsgára kell bocsátani, a pótvizsga sikertelensége esetén a vizsga letételéig a személyes adatok kezelésével járó feladatokat nem láthat el."
+    },
+    {
+      "provision_ref": "s419",
+      "section": "419",
+      "title": "419",
+      "content": "153. Az adatvédelmi tisztviselők rendszeres és az adatvédelmi felelősök szükség szerinti továbbképzéséről az ORFK adatvédelmi tisztviselője gondoskodik."
+    },
+    {
+      "provision_ref": "s420",
+      "section": "420",
+      "title": "420",
+      "content": "154. Az adatvédelmi tisztviselő a rendőrségi adatkezelő szerv személyes adatok kezelését végző személyi állományát a bekövetkezett adatvédelmi tárgyú jogszabály- és normaváltozásokról köteles tájékoztatni, indokolt esetben – különösen a jelentősebb adatvédelmi tárgyú normaváltozásoknál vagy az ellenőrzés során feltárt visszatérő vagy egyébként súlyos hiányosságoknál és súlyos adatvédelmi incidenst követően – az érintett állomány kötelező adatvédelmi oktatását kell elvégezni."
+    },
+    {
+      "provision_ref": "s421",
+      "section": "421",
+      "title": "421",
+      "content": "V. FEJEZET"
+    },
+    {
+      "provision_ref": "s422",
+      "section": "422",
+      "title": "422",
+      "content": "ZÁRÓ RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s423",
+      "section": "423",
+      "title": "423",
+      "content": "155. Ez az utasítás a közzétételét követő hónap első napján lép hatályba."
+    },
+    {
+      "provision_ref": "s424",
+      "section": "424",
+      "title": "424",
+      "content": "156. A rendőrségi adatkezelő szervek kötelesek 2022. december 31-ig a közadatkereső rendszerhez csatlakozni."
+    },
+    {
+      "provision_ref": "s425",
+      "section": "425",
+      "title": "425",
+      "content": "157."
+    },
+    {
+      "provision_ref": "s426",
+      "section": "426",
+      "title": "426",
+      "content": "158."
+    },
+    {
+      "provision_ref": "s427",
+      "section": "427",
+      "title": "427",
+      "content": "Országos Rendőr-főkapitányság"
+    },
+    {
+      "provision_ref": "s428",
+      "section": "428",
+      "title": "428",
+      "content": "1. Szervezeti, személyzeti adatok"
+    },
+    {
+      "provision_ref": "s429",
+      "section": "429",
+      "title": "429",
+      "content": "1.1. Kapcsolat, szervezet, vezetők"
+    },
+    {
+      "provision_ref": "s430",
+      "section": "430",
+      "title": "430",
+      "content": "III. Közzétételi egység: A szerv vezetői"
+    },
+    {
+      "provision_ref": "s431",
+      "section": "431",
+      "title": "431",
+      "content": "1.2. A felügyelt költségvetési szervek I. Közzétételi egység: A szerv irányítása, felügyelete vagy ellenőrzése alatt álló vagy alárendeltségében működő más közfeladatot ellátó szerv A) Adat megnevezése B) Belső adatfelelős 1. Az Országos Rendőr-főkapitányság irányítása, felügyelete vagy ellenőrzése alatt álló vagy alárendeltségében működő más közfeladatot ellátó szervek hivatalos neve (teljes neve), székhelye, elérhetősége (telefonszám, telefaxszám, postacím, elektronikus levélcím) személyügyi országos rendőrfőkapitány-helyettes 2. Az Országos Rendőr-főkapitányság irányítása, felügyelete vagy ellenőrzése alatt álló vagy alárendeltségében működő más közfeladatot ellátó szervek honlapjának URL-je 3. Az Országos Rendőr-főkapitányság irányítása, felügyelete vagy ellenőrzése alatt álló vagy alárendeltségében működő más közfeladatot ellátó szervek ügyfélszolgálatának vagy közönségkapcsolatának elérhetősége (telefonszám, telefaxszám, ügyfélfogadás helye, postacíme), ügyfélfogadásának rendje"
+    },
+    {
+      "provision_ref": "s432",
+      "section": "432",
+      "title": "432",
+      "content": "1.3. Gazdálkodó szervezetek I. Közzétételi egység: A szerv tulajdonában álló vagy részvételével működő gazdálkodó szervezetek A) Adat megnevezése B) Belső adatfelelős 1. Azon gazdálkodó szervezetek neve, székhelye, elérhetősége (telefon, telefax, földrajzi hely, postacím, elektronikus levélcím), amelyek az Országos Rendőr-főkapitányság többségi tulajdonában állnak, illetve amelyek felett közvetlen irányítással rendelkezik nincs ilyen közérdekű adat 2. A fentiek szerinti gazdálkodó szervezetek tevékenységi körének leírása 3. A fentiek szerinti gazdálkodó szervezetek képviselőjének neve 4. A fentiek szerinti gazdálkodó szervezetekben az Országos Rendőr-főkapitányság részesedésének mértéke"
+    },
+    {
+      "provision_ref": "s433",
+      "section": "433",
+      "title": "433",
+      "content": "1.4. Közalapítványok I. Közzétételi egység: A szerv által alapított közalapítványok A) Adat megnevezése B) Belső adatfelelős 1. Azon közalapítványok neve, amelyeket az Országos Rendőr-főkapitányság alapított, amelyek alapítói jogát ő gyakorolja nincs ilyen közérdekű adat 2. A fentiek szerinti közalapítványok székhelye 3. A fentiek szerinti közalapítványok kezelő szerve tagjainak felsorolása"
+    },
+    {
+      "provision_ref": "s434",
+      "section": "434",
+      "title": "434",
+      "content": "1.5. Lapok I. Közzétételi egység: Lapok A) Adat megnevezése B) Belső adatfelelős 1. Az Országos Rendőr-főkapitányság által alapított lapok neve hivatalvezető 2. Az Országos Rendőr-főkapitányság által alapított lapok szerkesztőségének és kiadójának neve és elérhetősége (telefon, telefax, földrajzi hely, postacím, elektronikus levélcím) 3. Az Országos Rendőr-főkapitányság által alapított lapok főszerkesztőjének a neve"
+    },
+    {
+      "provision_ref": "s435",
+      "section": "435",
+      "title": "435",
+      "content": "1.6. Felettes, felügyeleti, törvényességi ellenőrzést vagy felügyeletet gyakorló szerv I. Közzétételi egység: Felettes, felügyeleti, törvényességi ellenőrzést vagy felügyeletet gyakorló szerv A) Adat megnevezése B) Belső adatfelelős 1. Az Országos Rendőr-főkapitányság felettes, illetve felügyeleti szervének, hatósági döntései tekintetében a fellebbezés elbírálására jogosult szervek, ennek hiányában az Országos Rendőr-főkapitányság felett törvényességi ellenőrzést vagy felügyeletet gyakorló szerv hivatalos neve (teljes neve), székhelye, elérhetősége (telefon, telefax, földrajzi hely, postacím, elektronikus levélcím), honlapjának címe hivatalvezető 2. Az Országos Rendőr-főkapitányság felettes, illetve felügyeleti szervének, hatósági döntéseinek tekintetében a fellebbezés elbírálására jogosult szervek, ennek hiányában az Országos Rendőr-főkapitányság felett a törvényességi ellenőrzést gyakorló szerv ügyfélszolgálatának vagy közönségkapcsolatának elérhetősége (telefonszám, telefaxszám, ügyfélfogadás helye, postacíme), ügyfélfogadásának rendje"
+    },
+    {
+      "provision_ref": "s436",
+      "section": "436",
+      "title": "436",
+      "content": "1.7. Költségvetési szervek A) Adat megnevezése B) Belső adatfelelős 1. Az Országos Rendőr-főkapitányság által alapított költségvetési szerv neve, székhelye, a költségvetési szervet alapító jogszabály megjelölése, illetve azt alapító határozat, a költségvetési szerv alapító okirata, működési engedélye nincs ilyen közérdekű adat 2. A költségvetési szerv vezetője, honlapjának elérhetősége"
+    },
+    {
+      "provision_ref": "s437",
+      "section": "437",
+      "title": "437",
+      "content": "2. Tevékenységre, működésre vonatkozó adatok"
+    },
+    {
+      "provision_ref": "s438",
+      "section": "438",
+      "title": "438",
+      "content": "3. Gazdálkodási adatok"
+    },
+    {
+      "provision_ref": "s439",
+      "section": "439",
+      "title": "439",
+      "content": "3.1. A működés törvényessége, ellenőrzések"
+    },
+    {
+      "provision_ref": "s440",
+      "section": "440",
+      "title": "440",
+      "content": "V. Közzétételi egység: Működési statisztika"
+    },
+    {
+      "provision_ref": "s441",
+      "section": "441",
+      "title": "441",
+      "content": "3.2. Költségvetések, beszámolók"
+    },
+    {
+      "provision_ref": "s442",
+      "section": "442",
+      "title": "442",
+      "content": "III. Közzétételi egység: A költségvetés végrehajtása"
+    },
+    {
+      "provision_ref": "s443",
+      "section": "443",
+      "title": "443",
+      "content": "3.3. Költségvetések, beszámolók"
+    },
+    {
+      "provision_ref": "s444",
+      "section": "444",
+      "title": "444",
+      "content": "Területi szerv"
+    },
+    {
+      "provision_ref": "s445",
+      "section": "445",
+      "title": "445",
+      "content": "1. Szervezeti, személyzeti adatok"
+    },
+    {
+      "provision_ref": "s446",
+      "section": "446",
+      "title": "446",
+      "content": "1.1. Kapcsolat, szervezet, vezetők"
+    },
+    {
+      "provision_ref": "s447",
+      "section": "447",
+      "title": "447",
+      "content": "III. Közzétételi egység: A szerv vezetői"
+    },
+    {
+      "provision_ref": "s448",
+      "section": "448",
+      "title": "448",
+      "content": "1.2. A felügyelt költségvetési szervek I. Közzétételi egység: A szerv irányítása, felügyelete vagy ellenőrzése alatt álló vagy alárendeltségében működő más közfeladatot ellátó szerv A) Adat megnevezése B) Belső adatfelelős 1. A területi szerv irányítása, felügyelete vagy ellenőrzése alatt álló vagy alárendeltségében működő más közfeladatot ellátó szervek hivatalos neve (teljes neve), székhelye, elérhetősége (telefonszám, telefaxszám, postacím, elektronikus levélcím) a vármegyei (fővárosi) rendőr-főkapitányságok esetén a hivatalvezető; az egyes feladatok ellátására létrehozott szervek vezetője által kijelölt vezető 2. A területi szerv irányítása, felügyelete vagy ellenőrzése alatt álló vagy alárendeltségében működő más közfeladatot ellátó szervek honlapjának URL-je nincs ilyen közérdekű adat 3. A területi szerv irányítása, felügyelete vagy ellenőrzése alatt álló vagy alárendeltségében működő más közfeladatot ellátó szervek ügyfélszolgálatának vagy közönségkapcsolatának elérhetősége (telefonszám, telefaxszám, ügyfélfogadás helye, postacíme), ügyfélfogadásának rendje a vármegyei (fővárosi) rendőr-főkapitányságok esetén a hivatalvezető; az egyes feladatok ellátására létrehozott szervek vezetője által kijelölt vezető"
+    },
+    {
+      "provision_ref": "s449",
+      "section": "449",
+      "title": "449",
+      "content": "1.3. Gazdálkodó szervezetek I. Közzétételi egység: A szerv tulajdonában álló vagy részvételével működő gazdálkodó szervezetek A) Adat megnevezése B) Belső adatfelelős 1. Azon gazdálkodó szervezetek neve, székhelye, elérhetősége (telefon, telefax, földrajzi hely, postacím, elektronikus levélcím), amelyek a területi szerv tulajdonában állnak, illetve amelyek felett közvetlen irányítással rendelkezik műveleti országos rendőrfőkapitány-helyettes 2. A fentiek szerinti gazdálkodó szervezetek tevékenységi körének leírása 3. A fentiek szerinti gazdálkodó szervezetek képviselőjének neve 4. A fentiek szerinti gazdálkodó szervezetekben a területi szerv részesedésének mértéke"
+    },
+    {
+      "provision_ref": "s450",
+      "section": "450",
+      "title": "450",
+      "content": "1.4. Közalapítványok I. Közzétételi egység: A szerv által alapított közalapítványok A) Adat megnevezése B) Belső adatfelelős 1. Azon közalapítványok neve, amelyeket a területi szerv alapított, amelyek alapítói jogát ő gyakorolja nincs ilyen közérdekű adat 2. A fentiek szerinti közalapítványok székhelye 3. A fentiek szerinti közalapítványok kezelő szerve tagjainak felsorolása"
+    },
+    {
+      "provision_ref": "s451",
+      "section": "451",
+      "title": "451",
+      "content": "1.5. Lapok I. Közzétételi egység: Lapok A) Adat megnevezése B) Belső adatfelelős 1. A területi szerv által alapított lapok neve nincs ilyen közérdekű adat 2. A területi szerv által alapított lapok szerkesztőségének és kiadójának neve és elérhetősége (telefon, telefax, földrajzi hely, postacím, elektronikus levélcím) 3. A területi szerv által alapított lapok főszerkesztőjének a neve"
+    },
+    {
+      "provision_ref": "s452",
+      "section": "452",
+      "title": "452",
+      "content": "1.6. Felettes, felügyeleti, törvényességi ellenőrzést vagy felügyeletet gyakorló szerv I. Közzétételi egység: Felettes, felügyeleti, törvényességi ellenőrzést vagy felügyeletet gyakorló szerv A) Adat megnevezése B) Belső adatfelelős 1. A területi szerv felettes, illetve felügyeleti szervének, hatósági döntései tekintetében a fellebbezés elbírálására jogosult szervnek, ennek hiányában a területi szerv felett törvényességi ellenőrzést vagy felügyeletet gyakorló szerv hivatalos neve (teljes neve), székhelye, elérhetősége (telefon, telefax, földrajzi hely, postacím, elektronikus levélcím), honlapjának címe a vármegyei (fővárosi) rendőr-főkapitányságok esetén a hivatalvezető; az egyes feladatok ellátására létrehozott szervek vezetője által kijelölt vezető 2. A területi szerv felettes, illetve felügyeleti szervének, hatósági döntéseinek tekintetében a fellebbezés elbírálására jogosult szervnek, ennek hiányában a törvényességi ellenőrzést gyakorló szerv ügyfélszolgálatának vagy közönségkapcsolatának elérhetősége (telefonszám, telefaxszám, ügyfélfogadás helye, postacíme), ügyfélfogadásának rendje"
+    },
+    {
+      "provision_ref": "s453",
+      "section": "453",
+      "title": "453",
+      "content": "1.7. Költségvetési szervek A) Adat megnevezése B) Belső adatfelelős 1. A területi szerv által alapított költségvetési szerv neve, székhelye, a költségvetési szervet alapító jogszabály megjelölése, illetve azt alapító határozat, a költségvetési szerv alapító okirata, működési engedélye nincs ilyen közérdekű adat 2. A költségvetési szerv vezetője, honlapjának elérhetősége"
+    },
+    {
+      "provision_ref": "s454",
+      "section": "454",
+      "title": "454",
+      "content": "2. Tevékenységre, működésre vonatkozó adatok"
+    },
+    {
+      "provision_ref": "s455",
+      "section": "455",
+      "title": "455",
+      "content": "3. Gazdálkodási adatok"
+    },
+    {
+      "provision_ref": "s456",
+      "section": "456",
+      "title": "456",
+      "content": "3.1. A működés törvényessége, ellenőrzések"
+    },
+    {
+      "provision_ref": "s457",
+      "section": "457",
+      "title": "457",
+      "content": "V. Közzétételi egység: Működési statisztika"
+    },
+    {
+      "provision_ref": "s458",
+      "section": "458",
+      "title": "458",
+      "content": "3.2. Költségvetések, beszámolók"
+    },
+    {
+      "provision_ref": "s459",
+      "section": "459",
+      "title": "459",
+      "content": "III. Közzétételi egység: A költségvetés végrehajtása"
+    },
+    {
+      "provision_ref": "s460",
+      "section": "460",
+      "title": "460",
+      "content": "3.3. Költségvetések, beszámolók"
+    },
+    {
+      "provision_ref": "s461",
+      "section": "461",
+      "title": "461",
+      "content": "Helyi szerv"
+    },
+    {
+      "provision_ref": "s462",
+      "section": "462",
+      "title": "462",
+      "content": "1. Szervezeti, személyzeti adatok"
+    },
+    {
+      "provision_ref": "s463",
+      "section": "463",
+      "title": "463",
+      "content": "1.1. Kapcsolat, szervezet, vezetők"
+    },
+    {
+      "provision_ref": "s464",
+      "section": "464",
+      "title": "464",
+      "content": "III. Közzétételi egység: A szerv vezetői"
+    },
+    {
+      "provision_ref": "s465",
+      "section": "465",
+      "title": "465",
+      "content": "1.2. A felügyelt költségvetési szervek I. Közzétételi egység: A szerv irányítása, felügyelete vagy ellenőrzése alatt álló vagy alárendeltségében működő más közfeladatot ellátó szerv A) Adat megnevezése B) Belső adatfelelős 1. A helyi szerv irányítása, felügyelete vagy ellenőrzése alatt álló vagy alárendeltségében működő más közfeladatot ellátó szervek hivatalos neve (teljes neve), székhelye, elérhetősége (telefonszám, telefaxszám, postacím, elektronikus levélcím) nincs ilyen közérdekű adat 2. A helyi szerv irányítása, felügyelete vagy ellenőrzése alatt álló vagy alárendeltségében működő más közfeladatot ellátó szervek honlapjának URL-je 3. A helyi szerv irányítása, felügyelete vagy ellenőrzése alatt álló vagy alárendeltségében működő más közfeladatot ellátó szervek ügyfélszolgálatának vagy közönségkapcsolatának elérhetősége (telefonszám, telefaxszám, ügyfélfogadás helye, postacíme), ügyfélfogadásának rendje"
+    },
+    {
+      "provision_ref": "s466",
+      "section": "466",
+      "title": "466",
+      "content": "1.3. Gazdálkodó szervezetek I. Közzétételi egység: A szerv tulajdonában álló vagy részvételével működő gazdálkodó szervezetek A) Adat megnevezése B) Belső adatfelelős 1. Azon gazdálkodó szervezetek neve, székhelye, elérhetősége (telefon, telefax, földrajzi hely, postacím, elektronikus levélcím), amelyek a helyi szerv tulajdonában állnak, illetve amelyek felett közvetlen irányítással rendelkezik nincs ilyen közérdekű adat 2. A fentiek szerinti gazdálkodó szervezetek tevékenységi körének leírása 3. A fentiek szerinti gazdálkodó szervezetek képviselőjének neve 4. A fentiek szerinti gazdálkodó szervezetekben a helyi szerv részesedésének mértéke"
+    },
+    {
+      "provision_ref": "s467",
+      "section": "467",
+      "title": "467",
+      "content": "1.4. Közalapítványok I. Közzétételi egység: A szerv által alapított közalapítványok A) Adat megnevezése B) Belső adatfelelős 1. Azon közalapítványok neve, amelyeket a helyi szerv alapított, amelyek alapítói jogát ő gyakorolja nincs ilyen közérdekű adat 2. A fentiek szerinti közalapítványok székhelye 3. A fentiek szerinti közalapítványok kezelő szerve tagjainak felsorolása"
+    },
+    {
+      "provision_ref": "s468",
+      "section": "468",
+      "title": "468",
+      "content": "1.5. Lapok I. Közzétételi egység: Lapok A) Adat megnevezése B) Belső adatfelelős 1. A helyi szerv által alapított lapok neve nincs ilyen közérdekű adat 2. A helyi szerv által alapított lapok szerkesztőségének és kiadójának neve és elérhetősége (telefon, telefax, földrajzi hely, postacím, elektronikus levélcím) 3. A helyi szerv által alapított lapok főszerkesztőjének a neve"
+    },
+    {
+      "provision_ref": "s469",
+      "section": "469",
+      "title": "469",
+      "content": "1.6. Felettes, felügyeleti, törvényességi ellenőrzést vagy felügyeletet gyakorló szerv I. Közzétételi egység: Felettes, felügyeleti, törvényességi ellenőrzést vagy felügyeletet gyakorló szerv A) Adat megnevezése B) Belső adatfelelős 1. A helyi szerv felettes, illetve felügyeleti szervének, hatósági döntései tekintetében a fellebbezés elbírálására jogosult szervnek, ennek hiányában a helyi szerv felett törvényességi ellenőrzést vagy felügyeletet gyakorló szerv hivatalos neve (teljes neve), székhelye, elérhetősége (telefon, telefax, földrajzi hely, postacím, elektronikus levélcím), honlapjának címe hivatalvezető vagy a hivatalvezetői feladatokat ellátó személy 2. A helyi szerv felettes, illetve felügyeleti szervének, hatósági döntéseinek tekintetében a fellebbezés elbírálására jogosult szervnek, ennek hiányában a törvényességi ellenőrzést gyakorló szerv ügyfélszolgálatának vagy közönségkapcsolatának elérhetősége (telefonszám, telefaxszám, ügyfélfogadás helye, postacíme), ügyfélfogadásának rendje"
+    },
+    {
+      "provision_ref": "s470",
+      "section": "470",
+      "title": "470",
+      "content": "1.7. Költségvetési szervek A) Adat megnevezése B) Belső adatfelelős 1. A helyi szerv által alapított költségvetési szerv neve, székhelye, a költségvetési szervet alapító jogszabály megjelölése, illetve azt alapító határozat, a költségvetési szerv alapító okirata, működési engedélye nincs ilyen közérdekű adat 2. A költségvetési szerv vezetője, honlapjának elérhetősége"
+    },
+    {
+      "provision_ref": "s471",
+      "section": "471",
+      "title": "471",
+      "content": "2. Tevékenységre, működésre vonatkozó adatok"
+    },
+    {
+      "provision_ref": "s472",
+      "section": "472",
+      "title": "472",
+      "content": "3. Gazdálkodási adatok"
+    },
+    {
+      "provision_ref": "s473",
+      "section": "473",
+      "title": "473",
+      "content": "3.1. A működés törvényessége, ellenőrzések"
+    },
+    {
+      "provision_ref": "s474",
+      "section": "474",
+      "title": "474",
+      "content": "V. Közzétételi egység: Működési statisztika"
+    },
+    {
+      "provision_ref": "s475",
+      "section": "475",
+      "title": "475",
+      "content": "3.2. Költségvetések, beszámolók"
+    },
+    {
+      "provision_ref": "s476",
+      "section": "476",
+      "title": "476",
+      "content": "III. Közzétételi egység: A költségvetés végrehajtása"
+    },
+    {
+      "provision_ref": "s477",
+      "section": "477",
+      "title": "477",
+      "content": "3.3. Költségvetések, beszámolók"
+    },
+    {
+      "provision_ref": "s478",
+      "section": "478",
+      "title": "478",
+      "content": "X. Közzétételi egység: Közös adatkezelői megállapodás"
+    },
+    {
+      "provision_ref": "s479",
+      "section": "479",
+      "title": "479",
+      "content": "XII. Közzétételi egység: Másolatkészítési szabályzat"
+    },
+    {
+      "provision_ref": "s480",
+      "section": "480",
+      "title": "480",
+      "content": "XIII. Közzétételi egység: Elektronikus aláírási és elektronikus bélyegzési szabályzat"
+    },
+    {
+      "provision_ref": "s481",
+      "section": "481",
+      "title": "481",
+      "content": "XIV. Közzétételi egység: A Rendőrség Információátadási Szabályzata"
+    },
+    {
+      "provision_ref": "s482",
+      "section": "482",
+      "title": "482",
+      "content": "XV. Közzétételi egység: Iratkezelési szabályzat"
+    },
+    {
+      "provision_ref": "s483",
+      "section": "483",
+      "title": "483",
+      "content": "XVI. Közzétételi egység: A Küldemény Dokumentumtár elektronikus ügyintézési szolgáltatás szolgáltatási szabályzat"
+    },
+    {
+      "provision_ref": "s484",
+      "section": "484",
+      "title": "484",
+      "content": "” III. Közzétételi egység: Körzeti megbízottak elérhetősége"
+    },
+    {
+      "provision_ref": "s485",
+      "section": "485",
+      "title": "485",
+      "content": "NYILATKOZAT adatvédelmi tisztviselői feladatkör ellátásával összefüggő összeférhetetlenségről"
+    },
+    {
+      "provision_ref": "s486",
+      "section": "486",
+      "title": "486",
+      "content": "név, rendfokozat"
+    },
+    {
+      "provision_ref": "s487",
+      "section": "487",
+      "title": "487",
+      "content": "beosztás"
+    },
+    {
+      "provision_ref": "s488",
+      "section": "488",
+      "title": "488",
+      "content": "nyilatkozom arról,"
+    },
+    {
+      "provision_ref": "s489",
+      "section": "489",
+      "title": "489",
+      "content": "hogy az adatvédelmi szabályzatról szóló 39/2019. (XI. 19.) ORFK utasítás 11. pontjában meghatározott normatív rendelkezés alapján ellátott (adatkezelő szerv megnevezése) adatvédelmi tisztviselői kijelölésem (a betöltött vezetői beosztás megjelölése) feladataimmal nem összeférhetetlen, az adatvédelmi tisztviselői feladataimat önállóan, minden befolyástól mentesen látom el, adatvédelmi tisztviselőként kizárólag az adatkezelő szerv vezetőjének tartozom felelősséggel."
+    },
+    {
+      "provision_ref": "s490",
+      "section": "490",
+      "title": "490",
+      "content": "Amennyiben adatvédelmi tisztviselői feladatom végrehajtása során mégis olyan ügyben kellene döntést hoznom, amelynek kapcsán a (a betöltött vezetői beosztás megjelölése) beosztásból eredő feladatköröm és döntési jogköröm miatt az összeférhetetlenség követelménye sérelmének veszélye merülne fel, úgy azt soron kívül jelentem az (adatkezelő szerv vezetőjének megnevezése), és kérem az ügy elintézésére és az adatkezelő szerv vezetője döntésének előkészítésére más, megfelelő szakmai ismerettel rendelkező, pártatlan és minden befolyástól mentes személy kijelölését."
+    },
+    {
+      "provision_ref": "s491",
+      "section": "491",
+      "title": "491",
+      "content": "Dátum"
+    },
+    {
+      "provision_ref": "s492",
+      "section": "492",
+      "title": "492",
+      "content": "aláírás"
+    },
+    {
+      "provision_ref": "s493",
+      "section": "493",
+      "title": "493",
+      "content": "adatvédelmi tisztviselő 1 Az 1. pont b) alpontja a 40/2022. (XII. 30.) ORFK utasítás 164. pont a) alpontja, a 17/2025. (VI. 30.) ORFK utasítás 55. pontja szerint módosított szöveg. 2 A 10. pont i) alpontja a 11/2025. (IV. 10.) ORFK utasítás 45. pont a) alpontja szerint módosított szöveg. 3 A 10. pont j) alpontja a 11/2025. (IV. 10.) ORFK utasítás 45. pont a) pontja szerint módosított szöveg. 4 A 10. pont n) alpontját a 28/2025. (XII. 11.) ORFK utasítás 5. pontja iktatta be. 5 Az 5. alcím címe a 11/2025. (IV. 10.) ORFK utasítás 45. pont a) pontja szerint módosított szöveg. 6 A 12. pont a 40/2022. (XII. 30.) ORFK utasítás 164. pont b) alpontja szerint módosított szöveg. 7 A 13. pont a 11/2025. (IV. 10.) ORFK utasítás 45. pont b) pontja szerint módosított szöveg. 8 A 13/A. pontot a 17/2025. (VI. 30.) ORFK utasítás 54. pontja iktatta be. 9 A 14. pont a 11/2025. (IV. 10.) ORFK utasítás 45. pont c)–d) pontja szerint módosított szöveg. 10 A 15. pont a 11/2025. (IV. 10.) ORFK utasítás 45. pont c) pontja szerint módosított szöveg. 11 A 16. pont a 11/2025. (IV. 10.) ORFK utasítás 45. pont a) pontja szerint módosított szöveg. 12 A 17. pont a 11/2025. (IV. 10.) ORFK utasítás 45. pont c) pontja szerint módosított szöveg. 13 A 18. pont a 11/2025. (IV. 10.) ORFK utasítás 45. pont e) pontja szerint módosított szöveg. 14 A 19. pont a 11/2025. (IV. 10.) ORFK utasítás 45. pont a) pontja szerint módosított szöveg. 15 A 20. pont a 11/2025. (IV. 10.) ORFK utasítás 45. pont a) pontja szerint módosított szöveg. 16 A 21. pont a 12/2023. (V. 19.) ORFK utasítás 1. pontjával megállapított a 11/2025. (IV. 10.) ORFK utasítás 45. pont e)–f) pontja szerint módosított szöveg. 17 A 23. pont a 11/2025. (IV. 10.) ORFK utasítás 45. pont a) és c) pontja szerint módosított szöveg. 18 A 25. pont a 11/2025. (IV. 10.) ORFK utasítás 45. pont g) pontja szerint módosított szöveg. 19 A 27/A. pontot a 16/2020. (VII. 31.) ORFK utasítás 1. pontja iktatta be. 20 A 27/B. pontot a 16/2020. (VII. 31.) ORFK utasítás 1. pontja iktatta be. 21 A 28. pont a 11/2025. (IV. 10.) ORFK utasítás 45. pont a) pontja szerint módosított szöveg. 22 A 29. pont nyitó szövegrésze a 12/2023. (V. 19.) ORFK utasítás 2. pontjával megállapított szöveg. 23 A 29. pont b) alpontja a 11/2025. (IV. 10.) ORFK utasítás 45. pont h) pontja szerint módosított szöveg. 24 A 29. pont t) alpontja a 12/2023. (V. 19.) ORFK utasítás 3. pontjával megállapított szöveg. 25 A 29. pont u) alpontja a 40/2022. (XII. 30.) ORFK utasítás 164. pont a) alpontja szerint módosított szöveg. 26 A 29. pont v) alpontja a 40/2022. (XII. 30.) ORFK utasítás 164. pont a) alpontja szerint módosított szöveg. 27 A 30. pont nyitó szövegrésze a 11/2025. (IV. 10.) ORFK utasítás 45. pont a) pontja szerint módosított szöveg. 28 A 30. pont f) alpontja a 12/2023. (V. 19.) ORFK utasítás 4. pontjával megállapított szöveg. 29 A 31. pont f) alpontja a 12/2023. (V. 19.) ORFK utasítás 5. pontjával megállapított szöveg. 30 A 33. pont nyitó szövegrésze a 12/2023. (V. 19.) ORFK utasítás 6. pontjával megállapított szöveg. 31 A 33. pont j) alpontja a 11/2025. (IV. 10.) ORFK utasítás 45. pont i) pontja szerint módosított szöveg. 32 A 33. pont l) alpontja a 11/2025. (IV. 10.) ORFK utasítás 45. pont j) pontja szerint módosított szöveg. 33 A 33. pont m) alpontja a 12/2023. (V. 19.) ORFK utasítás 7. pontjával megállapított szöveg. 34 A 41. pont nyitó szövegrésze a 12/2023. (V. 19.) ORFK utasítás 8. pontjával megállapított szöveg. 35 A 42. pont a 12/2023. (V. 19.) ORFK utasítás 9. pontjával megállapított szöveg. 36 A 49. pont a 11/2025. (IV. 10.) ORFK utasítás 45. pont a) pontja szerint módosított szöveg. 37 Az 55. pont a 12/2023. (V. 19.) ORFK utasítás 10. pontjával megállapított szöveg. 38 A 60. pont a 12/2023. (V. 19.) ORFK utasítás 11. pontjával megállapított szöveg. 39 A 61. pont a 12/2023. (V. 19.) ORFK utasítás 11. pontjával megállapított, a 11/2025. (IV. 10.) ORFK utasítás 45. pont a) pontja szerint módosított szöveg. 40 A 62. pont a 12/2023. (V. 19.) ORFK utasítás 11. pontjával megállapított, a 11/2025. (IV. 10.) ORFK utasítás 45. pont a) pontja szerint módosított szöveg. 41 A 63. pontot a 12/2023. (V. 19.) ORFK utasítás 31. pontja hatályon kívül helyezte. 42 A 70. pont a 11/2025. (IV. 10.) ORFK utasítás 45. pont k) pontja szerint módosított szöveg. 43 A 79. pont a 12/2023. (V. 19.) ORFK utasítás 29. pontja szerint módosított szöveg. 44 A 102. pont a 12/2023. (V. 19.) ORFK utasítás 12. pontjával megállapított szöveg. 45 A 106. pont a 12/2023. (V. 19.) ORFK utasítás 13. pontjával megállapított szöveg. 46 A 115. pont a 16/2020. (VII. 31.) ORFK utasítás 2. pontjával megállapított szöveg. 47 A 121. pont a 12/2023. (V. 19.) ORFK utasítás 14. pontjával megállapított szöveg. 48 A 127. pont a 12/2023. (V. 19.) ORFK utasítás 15. pontjával megállapított szöveg. 49 A 128. pont a 19/2022. (V. 13.) ORFK utasítás 1. pontjával megállapított szöveg. 50 A 128/A. pontot a 40/2022. (XII. 30.) ORFK utasítás 161. pontja iktatta be. 51 A 130. pont b) alpontja a 12/2023. (V. 19.) ORFK utasítás 16. pontjával megállapított szöveg. 52 A 132. pont a 12/2023. (V. 19.) ORFK utasítás 17. pontjával megállapított szöveg. 53 A 133. pont a 12/2023. (V. 19.) ORFK utasítás 17. pontjával megállapított szöveg. 54 A 134. pont a 12/2023. (V. 19.) ORFK utasítás 17. pontjával megállapított szöveg. 55 A 135. pont a) alpontja a 12/2023. (V. 19.) ORFK utasítás 18. pontjával megállapított szöveg. 56 A 23. alcím címe a 12/2023. (V. 19.) ORFK utasítás 19. pontjával megállapított szöveg. 57 A 137. pont a 12/2023. (V. 19.) ORFK utasítás 20. pontjával megállapított szöveg. 58 A 137/A. pontot a 12/2023. (V. 19.) ORFK utasítás 21. pontja iktatta be. 59 A 137/B. pontot a 12/2023. (V. 19.) ORFK utasítás 21. pontja iktatta be. 60 A 137/C. pontot a 12/2023. (V. 19.) ORFK utasítás 21. pontja iktatta be. 61 A 137/D. pontot a 12/2023. (V. 19.) ORFK utasítás 21. pontja iktatta be. 62 A 138. pont a 12/2023. (V. 19.) ORFK utasítás 22. pontjával megállapított szöveg. 63 A 141. pont a 12/2023. (V. 19.) ORFK utasítás 23. pontjával megállapított szöveg. 64 A 143. pont a 12/2023. (V. 19.) ORFK utasítás 24. pontjával megállapított szöveg. 65 A 144/A. pontot a 12/2023. (V. 19.) ORFK utasítás 25. pontja iktatta be. 66 A 144/B. pontot a 12/2023. (V. 19.) ORFK utasítás 25. pontja iktatta be. 67 A 148. pont a 12/2023. (V. 19.) ORFK utasítás 26. pontjával megállapított, a 11/2025. (IV. 10.) ORFK utasítás 45. pont a) pontja szerint módosított szöveg. 68 A 149. pont a 12/2023. (V. 19.) ORFK utasítás 26. pontjával megállapított, a 11/2025. (IV. 10.) ORFK utasítás 45. pont a) pontja szerint módosított szöveg. 69 A 151. pont a 12/2023. (V. 19.) ORFK utasítás 27. pontjával megállapított, a 11/2025. (IV. 10.) ORFK utasítás 45. pont a) pontja szerint módosított szöveg. 70 A 153. pont a 11/2025. (IV. 10.) ORFK utasítás 45. pont h) pontja szerint módosított szöveg. 71 A 156. pontot újonnan a 16/2020. (VII. 31.) ORFK utasítás 3. pontja iktatta be, szövege a 19/2022. (V. 13.) ORFK utasítás 2. pontjával megállapított szöveg. 72 A 157. pont a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette. 73 A 158. pont a 158. pont alapján hatályát vesztette. 74 Az 1. melléklet a 40/2022. (XII. 30.) ORFK utasítás 162. pont a) alpontja szerint módosított szöveg. 75 A 2. melléklet a 19/2022. (V. 13.) ORFK utasítás 3. pontja, a 40/2022. (XII. 30.) ORFK utasítás 162. pont b) alpontja és 164. pont b) alpontja szerint módosított szöveg. 76 A 3. melléklet a 40/2022. (XII. 30.) ORFK utasítás 162. pont c) alpontja és 164. pont b) alpontja, a 12/2023. (V. 19.) ORFK utasítás 28. pont a) alpontja szerint módosított szöveg. 77 A 4. melléklet a 40/2022. (XII. 30.) ORFK utasítás 163. pontjával megállapított, a 12/2023. (V. 19.) ORFK utasítás 28. pont b) alpontja szerint módosított szöveg. 78 A 4. melléklet „IX. Közzétételi egység: Elektronikus ügyintézéssel kapcsolatos szabályzatok” című táblázata a 17/2023. (VII. 14.) ORFK utasítás 6. pont a) pontjával megállapított szöveg. 79 A 4. melléklet X. pontjában foglalt táblázat E:1 mezője a 11/2025. (IV. 10.) ORFK utasítás 45. pont l) pontja szerint módosított szöveg. 80 A 4. melléklet XII. táblázatát a 17/2023. (VII. 14.) ORFK utasítás 6. pont a) pontja iktatta be. 81 A 4. melléklet XIII. táblázatát a 17/2023. (VII. 14.) ORFK utasítás 6. pont a) pontja iktatta be. 82 A 4. melléklet XIV. táblázatát a 17/2023. (VII. 14.) ORFK utasítás 6. pont a) pontja iktatta be. 83 A 4. melléklet XV. táblázatát a 17/2023. (VII. 14.) ORFK utasítás 6. pont a) pontja iktatta be. 84 A 4. melléklet XVI. táblázatát a 17/2023. (VII. 14.) ORFK utasítás 6. pont a) pontja iktatta be. 85 Az 5. melléklet a 19/2022. (V.13.) ORFK utasítás 4. pontjával megállapított, a 26/2022. (VIII. 11.) ORFK utasítás 1. pont b) alpontja, a 40/2022. (XII. 30.) ORFK utasítás 162. pont d) alpontja és 164. pont b) alpontja szerint módosított szöveg. 86 Az 5. melléklet II. Közzétételi egység: Ötvenezer forintnál nagyobb értékű adomány és az adományozó” című táblázata a 17/2023. (VII. 14.) ORFK utasítás 6. pont b) pontjával megállapított szöveg. 87 A 6. mellékletet a 16/2020. (VII. 31.) ORFK utasítás 4. pontja iktatta be, szövege a 11/2025. (IV. 10.) ORFK utasítás 45. pont m) pontja szerint módosított szöveg."
+    }
+  ]
+}

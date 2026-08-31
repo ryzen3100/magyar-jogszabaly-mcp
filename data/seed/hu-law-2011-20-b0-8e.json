@@ -1,0 +1,857 @@
+{
+  "id": "hu-law-2011-20-b0-8e",
+  "type": "statute",
+  "title": "20/2011. (X. 7.) ORFK utasítás a támadásjelző rendszer működtetéséről",
+  "status": "in_force",
+  "in_force_date": "2011-10-15",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2011-20-B0-8E",
+  "description": "a támadásjelző rendszer működtetéséről",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A pénzügyi és kiegészítő pénzügyi szolgáltatással foglalkozó piaci szereplők elleni közvetlen támadások visszaszorítása érdekében szükségessé vált, hogy ezen eseményekről az általános rendőrségi feladatok ellátására létrehozott szerv haladéktalanul tudomást szerezzen, így ennek érdekében fogadófelületet biztosít a támadásjelző rendszereknek. Az ezzel összefüggő feladatok egységes szabályozására kiadom az alábbi utasítást:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "I. Általános rendelkezések"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "1. Jelen utasítás (a továbbiakban: utasítás) hatálya kiterjed:"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "a) az Országos Rendőr-főkapitányságra (a továbbiakban: ORFK);"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "b) a vármegyei (fővárosi) rendőr-főkapitányságra (a továbbiakban: rendőr-főkapitányság), rendőrkapitányságra [az a) és b) pontban foglaltak a továbbiakban együtt: Rendőrség]."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "2. Az utasítás alkalmazásában:"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "a) pénzügyi szolgáltató: a hitelintézetekről és a pénzügyi vállalkozásokról szóló 2013. évi CCXXXVII. törvény 3. §-ának (1) és (2) bekezdéseiben meghatározott szolgáltatást nyújtó szolgáltató;"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "b) objektumdosszié: olyan informatikai adatbázis, amelyben a pénzügyi szolgáltatók statikus és dinamikus adatokat adnak meg a Rendőrség számára az azonnali intézkedések eredményes végrehajtása érdekében;"
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "c) objektumdosszié-kezelő: a pénzügyi szolgáltató telephelye szerint illetékes rendőr-főkapitányság személyi állományához tartozó olyan személy, aki e rendőr-főkapitányság vezetőjének kijelölése alapján az objektumdossziéban lévő adatok kezelésére jogosult;"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "d) rendszer élesítése: a pénzügyi szolgáltató és a Rendőrség informatikai hálózatának összekapcsolása, éles üzemmódba helyezése;"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "e) támadás: személy- és vagyonbiztonságot veszélyeztető jogellenes cselekmény;"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "f) telephely: a pénzügyi szolgáltató a cégnyilvánosságról, a bírósági cégeljárásról és a végelszámolásról szóló 2006. évi V. törvény 7. § (1) bekezdés szerinti székhelye, valamint (2) bekezdés szerint telephelye;"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "g) tesztüzem: a támadásjelző rendszer élesítését követő első szakasz, amely legalább 8 munkanapon keresztül tart, ezen időintervallumban a pénzügyi szolgáltatótól érkező jel közvetítése és fogadása során felmerülő technikai háttér üzemszerű működésének vizsgálata folyik;"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "h) téves riasztás: olyan riasztás, amelynek kiváltó oka nem támadás;"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "i) téves riasztás időben történő lemondása: a téves riasztás azon időpontban való lemondása, amikor a beérkező riasztás fogadása és annak lemondása közötti időintervallumban az intézkedésre köteles rendőri szerv még egyáltalán nem reagált, vagy azzal kapcsolatban elszámolható költsége nem keletkezett (különösen, ha az intézkedésre kijelölt rendőr a helyszínre történő kivonulását még nem kezdte meg)."
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "II. A pénzügyi szolgáltatók csatlakozása a támadásjelző rendszerhez"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "3. A pénzügyi szolgáltató a támadásjelző rendszerhez történő csatlakozására irányuló szándékát benyújtott írásbeli nyilatkozatával jelzi az ORFK felé. A keretmegállapodások előkészítését és felterjesztését az ORFK Bűnügyi Főigazgatóság Bűnügyi Főosztály Bűnmegelőzési Osztály (a továbbiakban: ORFK BMO), a csatlakozás technikai feltételeinek biztosítását az ORFK Gazdasági Főigazgatóság (a továbbiakban: ORFK GF) végzi."
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "4. A pénzügyi szolgáltató támadásjelző rendszerhez való csatlakozása az erre irányuló szándékának írásban történő benyújtását követően, az ORFK és a pénzügyi szolgáltató képviselője közötti írásbeli keretmegállapodással jön létre (1. melléklet)."
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "5. A keretmegállapodás aláírását követően az ORFK GF elektronikus felületet biztosít a pénzügyi szolgáltatónak a telephelyei tekintetében szükséges adatok objektumdossziéba történő feltöltése céljából. Az ORFK GF az elektronikus felület elérhetőségéről és a jelzés technikai paramétereiről a keretmegállapodás aláírását követő 8 munkanapon belül írásban tájékoztatja a pénzügyi szolgáltatót."
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "6. A Robotzsaru integrált ügyviteli, ügyfeldolgozó és elektronikus iratkezelő rendszerben (a továbbiakban: RZS NEO) működő objektumdossziét kezelő szoftvernek alkalmasnak kell lennie az objektumdossziéba feltöltött adatok ellenőrzésének naplózására."
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "7. A keretmegállapodással rendelkező pénzügyi szolgáltató telephelyeinek rendszerhez történő csatlakozását a csatlakozási szándéknyilatkozatnak (2. melléklet) a telephely szerint illetékes rendőr-főkapitánysághoz két példányban történő benyújtását, illetve a csatlakozó telephely adatainak az objektumdossziéba történő egyidejű feltöltését követően kell biztosítani (3. melléklet)."
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "8. Az objektumdosszié-kezelője a csatlakozási szándéknyilatkozat beérkezését követően 8 munkanapon belül ellenőrzi a pénzügyi szolgáltató csatlakozni szándékozó telephelyének objektumdossziéba feltöltött adatait, annak valóságtartalmát a helyszínen is ellenőrzi, valamint beállítja azon prioritási szinteket (4. melléklet), ahol a jel fogadása a Rendőrségen megjelenik."
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "9. Hiányos vagy téves adatfeltöltés, illetve a pénzügyi szolgáltató által a telephely vonatkozásában vállalt kötelezettségek teljesítése elmaradásának észlelése esetén az objektumdosszié-kezelő elektronikus úton haladéktalanul értesíti a csatlakozási szándéknyilatkozatban kapcsolattartásra kijelölt személyt a hiányosan vagy tévesen megadott adatok soron kívüli pótlása vagy helyesbítése, illetve a kötelezettségvállalások megfelelő teljesítése érdekében. A hiánypótlásra felhívással a csatlakozási folyamat újraindul, így a hiánypótlás beérkezését követően az objektumdosszié ellenőrzésére ismét 8 munkanap áll rendelkezésre. Amennyiben a pénzügyi szolgáltató a hiánypótlásra felhívásnak 30 munkanapon belül nem tesz eleget, az objektumdosszié-kezelő az érintett telephely adatait az objektumdossziéból törli."
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "10. A pénzügyi szolgáltató telephelyének csatlakozására a csatlakozási szándéknyilatkozat objektumdosszié-kezelő általi záradékolását követően a telephely szerint illetékes rendőr-főkapitányság vezetőjének 3 munkanapon belüli jóváhagyásával kerül sor. A záradékolásra és a jóváhagyásra csak azután van lehetőség, miután a telephely adatainak az objektumdossziéba való maradéktalan feltöltése megtörtént, és a telephely a keretmegállapodásban megjelölt feltételeket teljesítette."
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "11. A csatlakozás tényéről az objektumdosszié-kezelő a csatlakozási szándéknyilatkozat egy záradékolt és jóváhagyott példányának megküldésével haladéktalanul írásban értesíti a pénzügyi szolgáltatót, továbbá a pénzügyi szolgáltató telephelyének rendszerbe történő kapcsolása érdekében a jóváhagyás tényéről elektronikus úton haladéktalanul értesíti az ORFK GF-et, valamint az ORFK BMO-t (5. melléklet)."
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "12. Az objektumdosszié-kezelő által elektronikus úton történő értesítéstől számított 3 munkanapon belül az ORFK GF a rendszer élesítéséről intézkedik, és erről írásban haladéktalanul értesíti az intézkedésre köteles rendőri szervet, valamint a pénzügyi szolgáltatót. A tesztüzem a rendszer élesítéséről történő tájékoztatást követően kezdődik. A támadásjelző rendszer tesztüzem során észlelt hibáiról az objektumdosszié-kezelő a pénzügyi szolgáltatót elektronikus úton haladéktalanul értesíti."
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "13. Amennyiben a pénzügyi szolgáltató telephelye adatainak az objektumdossziéba való feltöltését vagy annak utolsó objektumdosszié-kezelő által elvégzett ellenőrzését követően több mint 6 hónap telt el, a szoftver erről – a feltöltött adatok szükség szerinti aktualizálása érdekében – értesíti az érintetteket."
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "III. A Rendőrség költségtérítési jogosultsága téves riasztás esetén"
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "14. Támadás esetén a pénzügyi szolgáltató központjából a jelzés az ORFK központi szerverére érkezik, majd az RZS NEO-n keresztül a riasztás megjelenik az intézkedésre köteles tevékenység-irányítási központban (a továbbiakban: TIK), valamint a prioritásként megjelölt munkaállomásokon."
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "15. Amennyiben téves riasztás érkezik a Rendőrséghez, úgy az azzal kapcsolatban felmerült és megállapított költségekről a beérkező riasztás helye szerint illetékes rendőr-főkapitányság számlát állít ki az érintett pénzügyi szolgáltató részére."
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "16. Az időben lemondott téves riasztást a beérkező riasztás helye szerint illetékes rendőr-főkapitányság nem számlázza ki a pénzügyi szolgáltató részére."
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "IV. Záró rendelkezések"
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "17. Az objektumdosszié-kezelő osztályvezetői szintű szolgálati elöljárója a tárgyévet követő év április 30-áig értékelő jelentést készít, és azt megküldi az ORFK BMO vezetőjének. A jelentésnek tartalmaznia kell:"
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "a) a rendszerbe bekötött pénzügyi szolgáltatók, illetve telephelyek számát;"
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "b) a tárgyévben bekötésre került pénzügyi szolgáltatók, illetve telephelyek számát;"
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "c) a tárgyévben történt valós és téves riasztások számát, az intézkedések eredményét, költségeit;"
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "d) a rendszer működésének egyéb tapasztalatait."
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "18. A rendőr-főkapitányságok vezetői kijelölik, hogy melyik szolgálati ág feladatkörébe tartozik az objektumdosszié kezelése, a pénzügyi szolgáltató által feltöltött adatok ellenőrzése."
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "19. A rendőr-főkapitányságok vezetői intézkednek a jelzések kezelésének és az arra történő reagálásnak az adott viszonyokhoz igazodó metodika kidolgozására, figyelemmel az ORFK Rendészeti Főigazgatóság e témakörben kidolgozott módszertani útmutatójára."
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "20. Az utasítás a közzétételét követő 8. napon lép hatályba."
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "21. A hitelintézeti támadásjelző rendszer működtetéséről szóló 29/2010. (OT.15.) ORFK utasítás hatályát veszti."
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "22."
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "Keretmegállapodás a támadásjelző rendszer jelzéseinek fogadására amely egyrészről az ORSZÁGOS RENDŐR-FŐKAPITÁNYSÁG (a továbbiakban: ORFK, székhelye: 1139 Budapest, Teve u. 4–6., képviseli: ……………………………………………………, országos rendőrfőkapitány), másrészről a/az ……………………………………………………… (a továbbiakban: pénzügyi szolgáltató, székhelye, adószáma: ……………………………, képviselője: ………………………………), (továbbiakban együtt: Felek) között az alábbiak szerint jött létre."
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "1. A keretmegállapodás célja egy olyan rendszer kialakítása és működtetése, melynek segítségével az általános rendőrségi feladatok ellátására létrehozott szerv (a továbbiakban: Rendőrség) haladéktalanul tudomást szerezhet a pénzügyi és kiegészítő pénzügyi szolgáltatási tevékenységet végzőket ért, folyamatban lévő támadásokról és meg tudja tenni a szükséges intézkedéseket."
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "2. Értelmező rendelkezések:"
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "a) pénzügyi szolgáltató: a hitelintézetekről és a pénzügyi vállalkozásokról szóló 2013. évi CCXXXVII. törvény 3. §-ának (1) és (2) bekezdéseiben meghatározott szolgáltatást nyújtó szolgáltató;"
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "b) objektumdosszié: olyan informatikai adatbázis, amelyben a pénzügyi szolgáltatók statikus és dinamikus adatokat adnak meg a Rendőrség számára az azonnali intézkedések eredményes végrehajtása érdekében;"
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "c) objektumdosszié-kezelő: a pénzügyi szolgáltató telephelye szerint illetékes rendőr-főkapitányság személyi állományához tartozó olyan személy, aki e rendőr-főkapitányság vezetőjének kijelölése alapján az objektumdossziéban lévő adatok kezelésére jogosult;"
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "d) rendszer élesítése: a pénzügyi szolgáltató és a Rendőrség informatikai hálózatának összekapcsolása, éles üzemmódba helyezése;"
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "e) támadás: személy- és vagyonbiztonságot veszélyeztető jogellenes cselekmény;"
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "f) telephely: a pénzügyi szolgáltató a cégnyilvánosságról, a bírósági cégeljárásról és a végelszámolásról szóló 2006. évi V. törvény 7. § (1) bekezdés szerinti székhelye, valamint (2) bekezdés szerint telephelye;"
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "g) tesztüzem: a támadásjelző rendszer élesítését követő első szakasz, amely a felek megegyezése szerinti ideig, de legalább 8 munkanapon keresztül tart, ezen időintervallumban a pénzügyi szolgáltatótól érkező jel közvetítése és fogadása során felmerülő technikai háttér üzemszerű működésének vizsgálata folyik,"
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "h) téves riasztás: olyan riasztás, amelynek kiváltó oka nem támadás;"
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "i) téves riasztás időben történő lemondása: a téves riasztás azon időpontban való lemondása, amikor a beérkező riasztás fogadása és annak lemondása közötti időintervallumban az intézkedésre köteles rendőri szerv még egyáltalán nem reagált, vagy azzal kapcsolatban elszámolható költsége nem keletkezett (különösen, ha az intézkedésre kijelölt rendőr a helyszínre történő kivonulását még nem kezdte meg)."
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "3. A pénzügyi szolgáltató a keretmegállapodásra irányuló szándékát az ORFK-hoz benyújtott írásbeli nyilatkozatával kezdeményezi. A pénzügyi szolgáltató csatlakozására jelen keretmegállapodás aláírásával kerül sor. A keretmegállapodás aláírását követően az ORFK elektronikus felületet biztosít a pénzügyi szolgáltató számára abból a célból, hogy a pénzügyi szolgáltató a csatlakozni kívánó telephely adatait az objektumdossziéba feltölthesse. Az elektronikus felület elérhetőségéről és a támadásjelzés technikai paramétereiről az ORFK a keretmegállapodás aláírását követő 8 munkanapon belül írásban tájékoztatja az érintett pénzügyi szolgáltatót."
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "4. A keretmegállapodással rendelkező pénzügyi szolgáltató a telephelyének a támadásjelző rendszerhez történő csatlakozását a telephely szerint illetékes rendőr-főkapitányság vezetőjéhez két példányban benyújtott csatlakozási szándéknyilatkozattal és a telephely adatainak objektumdossziéba történő egyidejű feltöltése mellett kezdeményezheti."
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "5. A csatlakozási szándéknyilatkozat, valamint az azzal egy időben az objektumdossziéba feltöltött adatok beérkezését követően 8 munkanapon belül a telephely szerint illetékes rendőr-főkapitányság ellenőrzi az adatok hiánytalan feltöltését, annak valóságtartalmát a helyszínen is ellenőrzi, valamint beállítja azon prioritási szinteket, ahol a jel fogadása a Rendőrségen megjelenik. A megadott adatok valóságtartalmáért a pénzügyi szolgáltató felelős."
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "6. Hiányos vagy téves adatfeltöltés, illetve a pénzügyi szolgáltató által a telephely vonatkozásában jelen keretmegállapodás 10. pontjában vállalt kötelezettségek nemteljesítésének észlelése esetén a telephely szerint illetékes rendőr-főkapitányság elektronikus úton haladéktalanul értesíti a csatlakozási szándéknyilatkozatban kapcsolattartásra kijelölt személyt, és felhívja a hiányosan vagy tévesen megadott adatok 30 munkanapon belül történő pótlására, helyesbítésére, illetve a kötelezettségvállalások megfelelő teljesítésére."
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "7. Amennyiben a telephely szerint illetékes rendőr-főkapitányság megállapítja, hogy a pénzügyi szolgáltató telephelye vonatkozásában e követelményeknek a hiánypótlásra felhívást követően sem felel meg, az érintett telephely csatlakozása megtagadható, és a pénzügyi szolgáltató érintett telephelyének adatai az objektumdossziéból törlésre kerülnek."
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "8. A pénzügyi szolgáltató telephelyének csatlakozása a csatlakozási szándéknyilatkozat objektumdosszié-kezelő általi záradékolását követően a telephely szerint illetékes rendőr-főkapitányság vezetőjének 3 munkanapon belüli jóváhagyásával történik. A jóváhagyásra csak azután van lehetőség, ha a telephely adatainak az objektumdossziéba való maradéktalan feltöltése megtörtént, és a telephely a jelen keretmegállapodás 10. pontjában megjelölt feltételeket teljesítette."
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "9. A telephely csatlakozásának tényéről a telephely szerint illetékes rendőr-főkapitányság a csatlakozási szándéknyilatkozat egy záradékolt és jóváhagyott példányának megküldésével haladéktalanul írásban értesíti a pénzügyi szolgáltatót. Ezt követően a rendőrség legkésőbb 3 munkanapon belül a rendszer élesítéséről intézkedik, és erről ismételten értesíti a pénzügyi szolgáltatót. Az élesítés első szakasza az ún. teszt-üzemmód."
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "10. A pénzügyi szolgáltató csatlakozása keretében vállalja, hogy,"
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "a) telephelyén olyan kamerarendszert működtet, amely azonosításra alkalmas képi megjelenítést (fotó) biztosít, és amely segítségével a saját központjában ellenőrzi a riasztás okát és a saját központján keresztül továbbítja a jelet a rendőrségi szerverre;"
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "b) lehetősége szerint alkalmassá teszi a telephelye kamerarendszerét arra is, hogy a Rendőrség rendszerébe a Rendőrség által meghatározott módon élőképet (mozgókép) továbbítson a támadással egy időben. Ezen technikai feltételek megvalósulásáról a pénzügyi szolgáltató előzetesen írásban tájékoztatja a Rendőrséget;"
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "c) az általa feltöltött adatokat legalább 6 havonta ellenőrzi, és szükség esetén aktualizálja;"
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "d) közreműködik a teszt-üzemmód végrehajtásában;"
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "e) támadásjelzés esetén ellenőrzi a riasztás okát, és téves riasztás esetén a támadásjelzést az intézkedésre köteles rendőri szervvel előzetesen egyeztetett módon (pl. telefonon vagy elektronikusan, jelszóval vagy kóddal) haladéktalanul lemondja;"
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "f) telephelye megfelel a Magyar Nemzeti Bank által kiadott, a pénztárhelyiség, értéktár és ügyfélváró helyiség közös működtetéséről szóló ajánlásban (a továbbiakban: ajánlás) foglalt előírásoknak;"
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "g) telephelye a rendszer folyamatos üzembiztonságának ellenőrzése érdekében, legalább heti egy alkalommal tesztriasztást küld a beérkező riasztás helye szerint illetékes rendőri szervnek."
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "11. Amennyiben az adatok utóellenőrzése során megállapítást nyer, hogy a pénzügyi szolgáltató érintett telephelye az ajánlásban foglaltaknak már nem felel meg, illetve a rendelkezésre bocsátott adatok hiányosak, vagy tévesek, úgy a telephely szerint illetékes rendőr-főkapitányság ezen feltételek teljesüléséig az érintett telephely vonatkozásában a beérkező riasztások fogadását felfüggesztheti."
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "12. Amennyiben téves riasztás érkezik a rendőrséghez, úgy az azzal kapcsolatban felmerült és megállapított költségekről a beérkező riasztás helye szerint illetékes rendőr-főkapitányság, a Rendőrség számviteli politikájáról szóló 1/2008. (OT 27.) ORFK Irányelve 4. számú mellékleteként kiadott, a rendőrségi önköltségszámítás rendjére vonatkozó szabályzat alapján számlát állít ki az érintett pénzügyi szolgáltató részére, amelyet az teljesítési időn belül köteles kiegyenlíteni."
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "13. Az időben lemondott téves riasztást a beérkező riasztás helye szerint illetékes rendőr-főkapitányság nem számlázza ki a pénzügyi szolgáltató részére. A pénzügyi szolgáltató tudomásul veszi, hogy a támadásjelző rendszer gyorsasága miatt a Rendőrség reagálási ideje nagymértékben lecsökken, ezért a téves riasztás lemondására minimális idő áll rendelkezésre."
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "14. Jelen keretmegállapodás az aláírását követő 15. napon lép hatályba és határozatlan időre szól."
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "15. A Felek bármelyike jogosult a keretmegállapodást indokolás nélkül írásban bármikor harminc napra felmondani. Budapest, 20…………………………… országos rendőrfőkapitány pénzügyi szolgáltató vezetője"
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "Csatlakozási szándéknyilatkozat a támadásjelző rendszerhez"
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "Az Országos Rendőr-főkapitányság és a ………………………………………… (pénzügyi szolgáltató megnevezése) között létrejött ………………………………………… számú keretmegállapodás alapján bejelentem csatlakozási szándékunkat az alábbi Telephely vonatkozásában:"
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "telephely neve:"
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "telephely címe:"
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "telephely vezetőjének neve:"
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "telephely vezetőjének telefonszáma:"
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "telephely részéről kapcsolattartásra kijelölt személy neve:"
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "telephely részéről kapcsolattartásra kijelölt személy telefonszáma:"
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "telephely részéről kapcsolattartásra kijelölt személy e-mail címe:"
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "Kijelentem, hogy a Telephely megfelel a Magyar Nemzeti Bank által kiadott, a pénztárhelyiség, értéktár és ügyfélváró helyiség közös működtetéséről szóló ajánlásban foglalt előírásoknak."
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "Kelt, …………………………"
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "………………………………………"
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "aláírás"
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "(pénzügyi szolgáltató képviselője)"
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "ZÁRADÉK"
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "Az adatok hiánytalan feltöltését igazolom."
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "Kelt, …………………………"
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "………………………………………"
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "aláírás"
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "(objektumdosszié-kezelő)"
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "Jóváhagyom:"
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "Kelt, …………………………"
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "………………………………………"
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "aláírás"
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "(illetékes rendőr-főkapitányság vezetője)"
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "A támadásjelző rendszer objektumdossziéjába feltöltendő adatok köre"
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "A telephely alapadatai"
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "Pénzügyi szolgáltató neve:"
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "Címe (település, kerület, közterület neve, jellege, házszám, lépcsőház, emelet, ajtó):"
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "Telephely telefonszáma:"
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "GPS koordináták WGS-84 formátumban (szélesség, hosszúság):"
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "Nyitva tartás:"
+    },
+    {
+      "provision_ref": "s107",
+      "section": "107",
+      "title": "107",
+      "content": "Tartalékkulcs tárolási helye (név, elérhetőség):"
+    },
+    {
+      "provision_ref": "s108",
+      "section": "108",
+      "title": "108",
+      "content": "Őrzést ellátó cég, elérhetősége:"
+    },
+    {
+      "provision_ref": "s109",
+      "section": "109",
+      "title": "109",
+      "content": "Távfelügyeletet ellátó cég elérhetősége:"
+    },
+    {
+      "provision_ref": "s110",
+      "section": "110",
+      "title": "110",
+      "content": "Feltöltendő fájlok"
+    },
+    {
+      "provision_ref": "s111",
+      "section": "111",
+      "title": "111",
+      "content": "Alaprajz: 1:100 min léptékű beltéri alaprajz"
+    },
+    {
+      "provision_ref": "s112",
+      "section": "112",
+      "title": "112",
+      "content": "Térképrészlet: 3 léptékben: 1:20 000, 1:10 000, 1:5000"
+    },
+    {
+      "provision_ref": "s113",
+      "section": "113",
+      "title": "113",
+      "content": "Képi megjelenítés (fotó és/vagy mozgókép): a telephely épületéről, a nyílászárókról, az ügyféltérről, min. 800×600 méretben,"
+    },
+    {
+      "provision_ref": "s114",
+      "section": "114",
+      "title": "114",
+      "content": "(a képek mérete az 1 MB-ot nem haladhatja meg)"
+    },
+    {
+      "provision_ref": "s115",
+      "section": "115",
+      "title": "115",
+      "content": "Felhasználói és prioritási szintek"
+    },
+    {
+      "provision_ref": "s116",
+      "section": "116",
+      "title": "116",
+      "content": "I. A felhasználói és prioritási szintek, jogosultságok beállítását az objektumdosszié-kezelő elektronikusan az RZS NEO-ban az adott objektumdossziénál állítja be."
+    },
+    {
+      "provision_ref": "s117",
+      "section": "117",
+      "title": "117",
+      "content": "II. Az illetékes területi rendőri szervnél bekötött pénzügyi szolgáltató, illetve telephelye riasszon:"
+    },
+    {
+      "provision_ref": "s118",
+      "section": "118",
+      "title": "118",
+      "content": "1. a tevékenység-irányítási központ számítógépein (RZS NEO-n keresztül);"
+    },
+    {
+      "provision_ref": "s119",
+      "section": "119",
+      "title": "119",
+      "content": "2. a tevékenység-irányítási központ osztályvezetőjénél, illetve a tevékenység-irányítási központ ügyeletvezetőjénél (RZS NEO-n keresztül)."
+    },
+    {
+      "provision_ref": "s120",
+      "section": "120",
+      "title": "120",
+      "content": "Javasolt továbbá a következő felhasználói és prioritási szintek beállítása a területi szervnél:"
+    },
+    {
+      "provision_ref": "s121",
+      "section": "121",
+      "title": "121",
+      "content": "1. a rendészeti osztályvezetőnél (RZS NEO-n keresztül);"
+    },
+    {
+      "provision_ref": "s122",
+      "section": "122",
+      "title": "122",
+      "content": "2. a rendészeti osztályvezető helyettesítését ellátó személynél (RZS NEO-n keresztül);"
+    },
+    {
+      "provision_ref": "s123",
+      "section": "123",
+      "title": "123",
+      "content": "3. a rendészeti rendőrfőkapitány-helyettesnél (SMS-értesítéssel);"
+    },
+    {
+      "provision_ref": "s124",
+      "section": "124",
+      "title": "124",
+      "content": "4. a bűnügyi osztályvezetőjénél (RZS NEO-n keresztül);"
+    },
+    {
+      "provision_ref": "s125",
+      "section": "125",
+      "title": "125",
+      "content": "5. a bűnügyi rendőrfőkapitány-helyettesnél (SMS-értesítéssel);"
+    },
+    {
+      "provision_ref": "s126",
+      "section": "126",
+      "title": "126",
+      "content": "6. a vármegyei (budapesti) rendőrfőkapitánynál (SMS-értesítéssel)."
+    },
+    {
+      "provision_ref": "s127",
+      "section": "127",
+      "title": "127",
+      "content": "III. Az illetékes helyi szervhez tartozó pénzügyi szolgáltató, illetve telephelye riasszon a szolgálatparancsnok vagy a tevékenység-irányítási központ számítógépein (RZS NEO-n keresztül)."
+    },
+    {
+      "provision_ref": "s128",
+      "section": "128",
+      "title": "128",
+      "content": "Javasolt továbbá a következő felhasználói és prioritási szintek beállítása a helyi szervnél:"
+    },
+    {
+      "provision_ref": "s129",
+      "section": "129",
+      "title": "129",
+      "content": "1. a rendészeti osztályvezetőnél (RZS NEO-n keresztül);"
+    },
+    {
+      "provision_ref": "s130",
+      "section": "130",
+      "title": "130",
+      "content": "2. a rendészeti osztályvezető-helyettesnél (RZS NEO-n keresztül);"
+    },
+    {
+      "provision_ref": "s131",
+      "section": "131",
+      "title": "131",
+      "content": "3. a szolgálatparancsnoknál (RZS NEO-n keresztül);"
+    },
+    {
+      "provision_ref": "s132",
+      "section": "132",
+      "title": "132",
+      "content": "4. rendőrőrssel rendelkező település esetében az őrsparancsnoknál és helyetteseinél (közrendvédelmi/bűnügyi) (RZS NEO-n keresztül);"
+    },
+    {
+      "provision_ref": "s133",
+      "section": "133",
+      "title": "133",
+      "content": "5. a bűnügyi osztályvezetőnél (RZS NEO-n keresztül);"
+    },
+    {
+      "provision_ref": "s134",
+      "section": "134",
+      "title": "134",
+      "content": "6. a bűnügyi osztályvezető-helyettesnél és/vagy az alosztályvezetőknél, illetőleg csoportvezetőknél (RZS NEO-n keresztül);"
+    },
+    {
+      "provision_ref": "s135",
+      "section": "135",
+      "title": "135",
+      "content": "7. a kapitányságvezetőnél (SMS-értesítéssel)."
+    },
+    {
+      "provision_ref": "s136",
+      "section": "136",
+      "title": "136",
+      "content": "Feljegyzés"
+    },
+    {
+      "provision_ref": "s137",
+      "section": "137",
+      "title": "137",
+      "content": "20…….év………….hó…nap"
+    },
+    {
+      "provision_ref": "s138",
+      "section": "138",
+      "title": "138",
+      "content": "Tájékoztatom, hogy a ……………………………………………………………… (név, cím) pénzügyi szolgáltató által 20………… év …………… hó …… napján benyújtott csatlakozási szándéknyilatkozatot a záradékolást követően a …………………………………………………………………… (vármegyei/fővárosi) rendőr-főkapitányság vezetője, ……………………………………………………………… (név/rendfokozat) 20 ……… év ………… hó …… napján aláírásával jóváhagyta."
+    },
+    {
+      "provision_ref": "s139",
+      "section": "139",
+      "title": "139",
+      "content": "Kérem a telephely rendszerbe történő élesítését."
+    },
+    {
+      "provision_ref": "s140",
+      "section": "140",
+      "title": "140",
+      "content": "…………………………………."
+    },
+    {
+      "provision_ref": "s141",
+      "section": "141",
+      "title": "141",
+      "content": "objektumdosszié-kezelő 1 Az 1. pont b) alpontja a 40/2022. (XII. 30.) ORFK utasítás 53. pont a) pontja szerint módosított szöveg. 2 A 2. pont a) alpontja a 13/2020. (VI. 11.) ORFK utasítás 2. pont a) alpontja szerint módosított szöveg. 3 A 3. pont a 13/2020. (VI. 11.) ORFK utasítás 2. pont b) alpontja szerint módosított szöveg. 4 A 6. pont a 13/2020. (VI. 11.) ORFK utasítás 2. pont c) alpontja szerint módosított szöveg. 5 A 11. pont a 13/2020. (VI. 11.) ORFK utasítás 2. pont d) alpontja szerint módosított szöveg. 6 A 14. pont az 59/2013. (XII. 21.) ORFK utasítás 81. pontjával megállapított, a 13/2020. (VI. 11.) ORFK utasítás 2. pont e) alpontja szerint módosított szöveg. 7 A 15. pont a 13/2020. (VI. 11.) ORFK utasítás 3. pont a) alpontja szerint módosított szöveg. 8 A 17. pont nyitó szövegrésze a 13/2020. (VI. 11.) ORFK utasítás 2. pont f) alpontja szerint módosított szöveg. 9 A 18. pont a 9/2021. (IV. 16.) ORFK utasítás 13. pontjával megállapított szöveg. 10 A 22. pontot a 13/2020. (VI. 11.) ORFK utasítás 3. pont b) alpontja hatályon kívül helyezte. 11 Az 1. melléklet a 13/2020. (VI. 11.) ORFK utasítás 2. pont a) és g) alpontja szerint módosított szöveg. 12 A 2. melléklet a 13/2020. (VI. 11.) ORFK utasítás 2. pont h) alpontja szerint módosított szöveg. 13 A 4. melléklet a 13/2020. (VI. 11.) ORFK utasítás 1. pontjával megállapított szöveg. 14 A 4. melléklet II. pont 6. alpontja a 40/2022. (XII. 30.) ORFK utasítás 53. pont a) pontja szerint módosított szöveg. 15 Az 5. melléklet a 40/2022. (XII. 30.) ORFK utasítás 53. pont b) pontja szerint módosított szöveg."
+    }
+  ]
+}

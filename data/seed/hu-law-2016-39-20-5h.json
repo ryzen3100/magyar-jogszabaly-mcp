@@ -1,0 +1,264 @@
+{
+  "id": "hu-law-2016-39-20-5h",
+  "type": "statute",
+  "title": "39/2016. (XII. 21.) EMMI rendelet az Elektronikus Egészségügyi Szolgáltatási Térrel kapcsolatos részletes szabályokról",
+  "status": "amended",
+  "in_force_date": "2016-12-22",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2016-39-20-5H",
+  "description": "az Elektronikus Egészségügyi Szolgáltatási Térrel kapcsolatos részletes szabályokról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "chapter": "I. Fejezet AZ ELEKTRONIKUS EGÉSZSÉGÜGYI SZOLGÁLTATÁSI TÉR",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § E rendelet alkalmazásában 1. ágazati felhasználó: az Elektronikus Egészségügyi Szolgáltatási Tér (a továbbiakban: EESZT) azonosítási és jogosultságkezelési nyilvántartásában szereplő felhasználó, függetlenül attól, hogy természetes személy vagy szervezeti felhasználó; 2. csatlakozó adatkezelő: az egészségügyi és a hozzájuk kapcsolódó személyes adatok kezeléséről és védelméről szóló 1997. évi XLVII. törvény (a továbbiakban: Eüak.) 35/B. § (1) és (2) bekezdésében meghatározott, a csatlakozást informatikai rendszer útján megvalósító adatkezelő; 3. szervezeti felhasználó: a csatlakozott adatkezelő számára az EESZT azonosítási és jogosultságkezelési nyilvántartásában, a csatlakozott adatkezelőre vonatkozó kötelezettségek teljesítése érdekében létrehozott felhasználó; 4. közvetlen hozzáférési felület: a működtető által biztosított, az EESZT egyes szolgáltatásainak csatlakoztatott informatikai rendszer nélküli használatát lehetővé tevő felület."
+    },
+    {
+      "provision_ref": "s2",
+      "chapter": "I. Fejezet AZ ELEKTRONIKUS EGÉSZSÉGÜGYI SZOLGÁLTATÁSI TÉR",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § (1) Az Eüak. 35/B. § (1) bekezdés d) pontja szerint az EESZT-hez informatikai rendszer útján csatlakozásra köteles államigazgatási szervek: a) a Nemzeti Egészségbiztosítási Alapkezelő és b) a Nemzeti Népegészségügyi és Gyógyszerészeti Központ. (1a) Az Eüak. 35/B. § (1) bekezdés d) pontja szerinti csatlakozásra köteles egyéb szervezet az Eüak. 35/B. § (1) bekezdés a) pontja hatálya alá nem tartozó, orvosi vagy fogorvosi feladatra irányuló működési engedéllyel rendelkező egészségügyi szolgáltató, valamint az emberi alkalmazásra kerülő gyógyszerekről és egyéb, a gyógyszerpiacot szabályozó törvények módosításáról szóló 2005. évi XCV. törvény 13. § (1) bekezdése szerinti engedély jogosultja. (2) Az EESZT adatszolgáltatás megkezdésének feltétele annak a központi egészséginformatikai szolgáltatásokról szóló kormányrendelet szerinti Szolgáltatóközpont (a továbbiakban: Szolgáltatóközpont) általi vizsgálata, valamint a vizsgálat eredményéről kiállított igazolás, hogy a csatlakozó adatkezelő saját informatikai rendszere útján, a meghatározott követelményeknek megfelelően a) képes biztosítani a hozzáférés, azonosítás, szolgáltatáshívás, a kommunikációs csatorna védelmének működését, és b) elvégezte az EESZT szolgáltatások igénybevételéhez szükséges, a csatlakozó adatkezelőhöz köthető hozzáférési jogosultságok beállítását. (3)"
+    },
+    {
+      "provision_ref": "s3",
+      "chapter": "I. Fejezet AZ ELEKTRONIKUS EGÉSZSÉGÜGYI SZOLGÁLTATÁSI TÉR",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) A Szolgáltatóközpont a csatlakozáshoz szükséges dokumentumokat és nyilatkozatok tervezetét (a továbbiakban együtt: csatlakozási dokumentáció) internetes honlapján keresztül vagy más elektronikus formában a csatlakozó adatkezelő rendelkezésére bocsátja. (2) A csatlakozási nyilatkozatnak tartalmaznia kell legalább a) a csatlakozó adatkezelő nevét, székhelyét, b) a csatlakozásért felelős kapcsolattartó személy nevét és elérhetőségét, c) a csatlakozásban érintett informatikai rendszer vagy rendszerek megnevezését és a csatlakozás időpontjában fennálló verziószámát, a rendszer vagy rendszerek fejlesztőjének megnevezését, d) a csatlakozással kapcsolatos feladatok vállalására vonatkozó nyilatkozatot, e) a biztonsági dokumentumokra vonatkozó titoktartási kötelezettségre, a csatlakozás tesztelésére és az éles üzem megkezdésére, a csatlakozó adatkezelő felelősségére, a költségek viselésére és a csatlakozási folyamat keretében történő együttműködésre vonatkozó nyilatkozatot, f) g) h) i) (3) Ha a csatlakozó adatkezelő a Magyarország kiberbiztonságáról szóló 2024. évi LXIX. törvény (a továbbiakban: Kiberbiztonsági tv.) hatálya alá esik, a csatlakozási nyilatkozat tartalmazza a csatlakozásban érintett informatikai rendszer biztonsági osztályát, továbbá érintettség esetén a csatlakozó adatkezelő nyilatkozatát arról, hogy az informatikai rendszer kapcsán külföldi adatkezelést megvalósít-e, illetve nem privát felhőszolgáltatást igénybe vesz-e. A nyilatkozathoz mellékelni kell a Kiberbiztonsági tv. 13. § (1) bekezdése szerinti szervezet esetében a nemzeti kiberbiztonsági hatóság döntését a biztonsági osztályba sorolás jóváhagyásáról, valamint a Kiberbiztonsági tv. 16. § (1) bekezdése alapján kiberbiztonsági audit végeztetésére kötelezett szervezet esetében a kiberbiztonsági auditon való megfelelést igazoló dokumentumot. (4) A csatlakozást a csatlakozó adatkezelő az általa megfelelően aláírt csatlakozási nyilatkozat benyújtásával a Szolgáltatóközpontnál kezdeményezi. (5) A Szolgáltatóközpont a (4) bekezdés szerint benyújtott csatlakozási nyilatkozatot annak beérkezését követően megvizsgálja, és ellenőrzi, hogy a csatlakozó adatkezelő az Eüak. és e rendelet alapján jogosult-e csatlakozásra, az EESZT szolgáltatásainak igénybevételére, és hogy a csatlakozó adatkezelő által megjelölt informatikai rendszer alkalmas-e a csatlakozó adatkezelő működési engedélyében feltüntetett valamennyi tevékenységének támogatására. A Szolgáltatóközpont a csatlakozó adatkezelőt szükség esetén a hiányok pótlására hívja fel. Ha a csatlakozó adatkezelő a felhívásban megjelölt határidőben nem pótolja a hiányokat, a Szolgáltatóközpont az igazolás kiállítását megtagadja. (6) A csatlakozó adatkezelő az (5) bekezdés szerinti ellenőrzések teljesítését követően elvégzi a csatlakozás sikeres teljesítésének ellenőrzésére szolgáló teszteket és vizsgálatokat. (7) Ha a csatlakozó adatkezelő valamely műszaki vagy egyéb feltételt nem teljesít, a Szolgáltatóközpont a műszaki hiba vagy a nem teljesített követelmény megjelölésével felhívja a csatlakozó adatkezelőt a hiba megszüntetésére vagy a követelmény teljesítésére. A hiba megszüntetésének vagy a követelmény teljesítésének beálltáig az EESZT adatszolgáltatás nem kezdhető meg. Ha a csatlakozó adatkezelő a felhívásban megjelölt határidőben nem pótolja a hiányokat, a Szolgáltatóközpont az igazolás kiállítását megtagadja. (8) Ha a csatlakozó adatkezelő minden, a működtető által előírt és a Szolgáltatóközpont által közzétett műszaki és egyéb feltételt teljesít, a Szolgáltatóközpont ennek megállapítását követően kiállítja a 2. § (2) bekezdése szerinti igazolást, melyet megküld a működtető részére. (9) Az EESZT adatszolgáltatás megkezdését a működtető a Szolgáltatóközpont 2. § (2) bekezdése szerint kiadott igazolása alapján hagyja jóvá. (10) A csatlakozó adatkezelő a jogszabályban meghatározott EESZT adatszolgáltatási kötelezettségeit a (9) bekezdés szerinti jóváhagyást követően teljesítheti."
+    },
+    {
+      "provision_ref": "s3a",
+      "chapter": "I. Fejezet AZ ELEKTRONIKUS EGÉSZSÉGÜGYI SZOLGÁLTATÁSI TÉR",
+      "section": "3/A",
+      "title": "3/A. §",
+      "content": "3/A. § (1) Az Eüak. 35/B. § (5) bekezdése szerinti, az EESZT csatlakozáshoz használt informatikai rendszernek (a továbbiakban: informatikai rendszer) meg kell felelnie a) a 2. § (2) bekezdés a) pontjában, és b) a tervezett felhasználási területtől függően a 2. § (3) bekezdés b) pontjában az informatikai rendszer vonatkozásában meghatározott követelményeknek. (2) A Szolgáltatóközpont az informatikai rendszer fejlesztői részére hozzáférhetővé teszi az (1) bekezdés szerinti követelmények a) teljesítéséhez szükséges informatikai feltételek műszaki specifikációját, az alkalmazandó információbiztonsági és egyéb követelményeket, b) teljesítésére és igazolására, a fejlesztői öntesztre, az együttműködési képesség tesztelésére vonatkozó részletes szakmai követelményeket és c) változása esetén a célzott felülvizsgálat követelményeit és teszteseteit. (3) A Szolgáltatóközpont az EESZT műszaki specifikációját érintő verzióváltás esetén annak tervezett időpontját megelőzően legalább hatvan nappal a fejlesztők számára elérhetővé teszi a) a verzióváltás tervezett időpontját, b) a verzióváltással érintett szolgáltatások körét és c) az új verzióra vonatkozó műszaki leírások elérhetőségét. (4) A (3) bekezdés szerinti változás alapján a Szolgáltatóközpont felhívására az informatikai rendszer fejlesztője igazolja a megváltozott követelményeknek való megfelelést. (5) (6) (7) (8)"
+    },
+    {
+      "provision_ref": "s3b",
+      "chapter": "I. Fejezet AZ ELEKTRONIKUS EGÉSZSÉGÜGYI SZOLGÁLTATÁSI TÉR",
+      "section": "3/B",
+      "title": "3/B. §",
+      "content": "3/B. § A közfinanszírozott egészségügyi ellátás céljából felhasznált, az Eüak. 35/B. § (5) bekezdése szerint engedélyezett informatikai rendszer engedélyjogosultja – az általa kiszolgált, digitális időpontfoglalási rendszert használó egészségügyi szolgáltató kérelmére – biztosítja, hogy az informatikai rendszer az EESZT útján digitálisan elérhetővé tett betegfogadási időpont elérhetővé tételéhez, alkalmazásához és ellenőrzéséhez szükséges adatokat fogadni és továbbítani tudja."
+    },
+    {
+      "provision_ref": "s4",
+      "chapter": "I. Fejezet AZ ELEKTRONIKUS EGÉSZSÉGÜGYI SZOLGÁLTATÁSI TÉR",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § Az EESZT szolgáltatás nyújtásának megkezdését követően, annak bevezetése során a működtető a csatlakozó adatkezelők, valamint a csatlakozott adatkezelők által elérhető szolgáltatások körét a 22. § (1) bekezdésében megjelölt adatkezelők vonatkozásában, azok csatlakozási kötelezettségének teljesítésének határidejéig jogosult korlátozni."
+    },
+    {
+      "provision_ref": "s5",
+      "chapter": "I. Fejezet AZ ELEKTRONIKUS EGÉSZSÉGÜGYI SZOLGÁLTATÁSI TÉR",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § (1) A csatlakozó adatkezelő az EESZT egyes szolgáltatásainak igénybevétele előtt köteles a csatlakozó informatikai rendszer vonatkozásában – ha több informatikai rendszerrel is csatlakozik, minden egyes informatikai rendszer vonatkozásában – a működtető által meghatározott vizsgálatokat elvégezni. (2) Az (1) bekezdés szerinti vizsgálatot elvégzettnek kell tekinteni, ha a) az általa csatlakoztatott informatikai rendszer a működtető által megadott paraméterek mentén megegyezik egy már sikeresen tesztelt informatikai rendszerrel, vagy b) az általa csatlakoztatott informatikai rendszer által használt interfész megegyezik egy már sikeresen tesztelt interfésszel."
+    },
+    {
+      "provision_ref": "s6",
+      "chapter": "I. Fejezet AZ ELEKTRONIKUS EGÉSZSÉGÜGYI SZOLGÁLTATÁSI TÉR",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § A csatlakozott adatkezelő számára előírt adatszolgáltatási kötelezettség teljesítése csatlakoztatott informatikai rendszer útján automatizáltan, a működtető által meghatározott módon és struktúrában, az EESZT adott szolgáltatásának igénybevételével történik. Ettől eltérő módon az előírt adatszolgáltatás kizárólag akkor teljesíthető, ha a működtető erre külön engedélyt ad."
+    },
+    {
+      "provision_ref": "s7",
+      "chapter": "I. Fejezet AZ ELEKTRONIKUS EGÉSZSÉGÜGYI SZOLGÁLTATÁSI TÉR",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § (1) A működtető a közvetlen hozzáférési felület útján elérhető EESZT szolgáltatásokat legalább az EESZT internetes honlapján keresztül köteles biztosítani. (2) A működtető az érintett számára a közvetlen hozzáférési felület útján elérhető EESZT szolgáltatások körében köteles biztosítani legalább az önrendelkezési nyilvántartás használatának lehetőségét."
+    },
+    {
+      "provision_ref": "s8",
+      "chapter": "I. Fejezet AZ ELEKTRONIKUS EGÉSZSÉGÜGYI SZOLGÁLTATÁSI TÉR",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § (1) Az azonosítási és jogosultságkezelési nyilvántartás működéséhez szükséges nyilvántartások Eüak. szerinti adatait a nyilvántartásokat vezető szervek a digitális államról és a digitális szolgáltatások nyújtásának egyes szabályairól szóló 2023. évi CIII. törvény szerinti automatikus információátadás vagy legfeljebb huszonnégy órás rendszerességgel megvalósuló egyszerű információátadás útján biztosítják. (2) Az azonosítási és jogosultságkezelési nyilvántartás az Eüak.-ban meghatározott adatokon túl tartalmazza a szervezeti felhasználó azonosítóját, a szervezeti felhasználóhoz rendelt szimbolikus nevet, a szervezeti felhasználó létrehozását kérő csatlakozó adatkezelő szervezet EESZT azonosítóját, megnevezését, típusát, székhelyét, levelezési címét, email címét, telefonszámát, továbbá – ha rendelkezik ilyen azonosítókkal – az egészségügyi szolgáltatók által végezhető, engedélyezett szakmák és működési engedélyek nyilvántartásában szereplő azonosítóját, az egészségbiztosítási szerv által adott finanszírozási azonosítóját. (3) Az azonosítási és jogosultságkezelési nyilvántartás tartalmazza az ágazati felhasználók a) egészségügyi szakképesítéssel rendelkező személyek alap és működési nyilvántartásában szereplő adatai alapján megállapítható jogosultságait, b) a csatlakozó adatkezelő által az ágazati felhasználóhoz rendelt jogosultságokat és a jogosultságok megvonását, c) a működtető által beállított jogosultságokat és a jogosultságok megvonását. (4) A csatlakozott adatkezelő a működtetővel kötött megállapodás alapján igénybe veheti az EESZT azonosítási szolgáltatását a jogszabály alapján nyújtott saját, az igénybe vevő azonosítását igénylő szolgáltatása érdekében."
+    },
+    {
+      "provision_ref": "s9",
+      "chapter": "I. Fejezet AZ ELEKTRONIKUS EGÉSZSÉGÜGYI SZOLGÁLTATÁSI TÉR",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § (1) EESZT szolgáltatás kizárólag a szolgáltatás igénybevételéhez szükséges jogosultsággal rendelkező felhasználó által, annak azonosítását követően vehető igénybe. (2) Az azonosítás a) szervezeti felhasználó esetében a működtető által meghatározott tulajdonságokkal rendelkező elektronikus tanúsítvánnyal, b) természetes személy ágazati felhasználó esetében a működtető által meghatározott többtényezős hitelesítést alkalmazó azonosítás igénybevételével, c) érintett esetében a működtető által biztosított elektronikus felületen, a Kormány által kötelezően biztosított azonosítási szolgáltatás útján történik. (3) A működtető az ágazati felhasználó (2) bekezdés a) vagy b) pontja szerinti azonosítását követően az EESZT minden egyes szolgáltatásának használatát megelőzően ellenőrzi, hogy az ágazati felhasználó a) jogosult-e a szolgáltatás használatára, b) jogosult-e a csatlakozott adatkezelő vagy annak szervezeti egysége nevében az adott szolgáltatás vonatkozásában eljárni, c) megfelel-e az adott szolgáltatás igénybevételére vonatkozó speciális feltételeknek, valamint d) jogosult-e az önrendelkezési nyilvántartás adatait is figyelembe véve az adat megismerésére."
+    },
+    {
+      "provision_ref": "s10",
+      "chapter": "I. Fejezet AZ ELEKTRONIKUS EGÉSZSÉGÜGYI SZOLGÁLTATÁSI TÉR",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § (1) Az EESZT működését érintő vagy a csatlakozott adatkezelő informatikai rendszerét érintő tervezett karbantartások (a továbbiakban: üzemszünet) vagy nem tervezett szolgáltatáskiesés (a továbbiakban: üzemzavar) következtében elmulasztott adatszolgáltatási kötelezettség esetén a kötelezettnek kizárólag a) a 12. §-ban meghatározott, a központi eseménykatalógusba történő adatszolgáltatási kötelezettségét, b) a 13. §-ban meghatározott, törzsadat közzétételére vonatkozó kötelezettségét, c) a 19. §-ban meghatározott, az EESZT útján nyilvántartott egészségügyi dokumentumokra vonatkozó adatszolgáltatási kötelezettségét, d) a 20. §-ban meghatározott, jelentéstételi és adatszolgáltatási kötelezettségét, e) a 20/A. §-ban meghatározott adatszolgáltatást kell az üzemszünet esetén annak végét, üzemvar esetén annak tényleges megszűnését követő négy napon belül teljesítenie. (2) Az EESZT üzemszünete vagy üzemzavara idejére eső adatszolgáltatási kötelezettség elmulasztása esetén nem alkalmazható hátrányos jogkövetkezmény, ha a kötelezett adatszolgáltatási kötelezettségét az (1) bekezdésben meghatározottak szerint teljesíti. (3) A csatlakozott adatkezelő oldalán felmerült üzemszünet vagy üzemzavar – ideértve a távközlési hálózat vagy a tápellátási rendszer hibáját is – idejére eső adatszolgáltatási kötelezettség elmulasztása esetén nem alkalmazható hátrányos jogkövetkezmény, ha a csatlakozott adatkezelő a) a hiba tényét annak észlelését követően azonnal jelzi a működtető felé, b) huszonnégy órát meghaladó hibajavítás esetén a hibaelhárítást követően az elhárítás megtörténtét jelzi a működtető felé, és c) az elmulasztott adatszolgáltatást az (1) bekezdés szerint teljesíti."
+    },
+    {
+      "provision_ref": "s11",
+      "chapter": "I. Fejezet AZ ELEKTRONIKUS EGÉSZSÉGÜGYI SZOLGÁLTATÁSI TÉR",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § (1) A működtető az EESZT üzemeltetésével kapcsolatos eseményekről nyilvántartást vezet (a továbbiakban: üzemeltetési nyilvántartás). Az üzemeltetési nyilvántartás tartalmazza a) az üzemszünet előrejelzését, b) az üzemzavarról szóló tájékoztatást, és c) a verzióváltással kapcsolatos előzetes tájékoztatást. (2) A működtető köteles az (1) bekezdés a) pontjával kapcsolatban az üzemszünet tervezett időpontját megelőzően legalább 7 nappal közzétenni a) a karbantartás megkezdésének és befejezésének időpontját, és b) az érintett szolgáltatások körét és a várható szolgáltatáskiesés jellegét. (3) A működtető köteles az (1) bekezdés b) pontjával kapcsolatban az üzemzavar észlelését követően azonnal közzétenni a) az üzemzavar észlelésének időpontját, b) az üzemzavar leírását, mely tartalmazza az érintett szolgáltatások körét és a szolgáltatáskiesés jellegét, és c) ha megállapítható, az üzemzavar elhárításának becsült időpontját. (4) A működtető köteles az (1) bekezdés b) pontjával kapcsolatban az üzemzavar elhárítását követően 24 órán belül közzétenni az üzemzavar részletes leírását, mely tartalmazza a) az üzemzavar keletkezésének tényleges időpontját, b) a ténylegesen érintett szolgáltatások körét, és a szolgáltatáskiesés jellegét, és c) az üzemzavar megszűnésének (az EESZT teljes funkcionalitással történő működésének visszaállása) tényleges időpontját. (5) A működtető köteles az (1) bekezdés c) pontjával kapcsolatban az EESZT műszaki specifikációját nem érintő verzióváltás esetén annak tervezett időpontját megelőzően legalább három nappal közzétenni a) a verzióváltás tervezett időpontját, és b) az érintett szolgáltatások körét. (6) (7) A működtető az (1) bekezdésben meghatározott üzemeltetési nyilvántartást az EESZT működésétől függetlenül is elérhető honlapján bárki számára elérhetővé teszi."
+    },
+    {
+      "provision_ref": "s11a",
+      "chapter": "I. Fejezet AZ ELEKTRONIKUS EGÉSZSÉGÜGYI SZOLGÁLTATÁSI TÉR",
+      "section": "11/A",
+      "title": "11/A. §",
+      "content": "11/A. § A működtető e rendeletben meghatározott feladataiban a Szolgáltatóközpont a központi egészséginformatikai szolgáltatásokról szóló kormányrendelet alapján megkötött közszolgáltatási szerződésben és adatfeldolgozói szerződésben meghatározottak szerint közreműködik."
+    },
+    {
+      "provision_ref": "s12",
+      "chapter": "II. Fejezet AZ ELEKTRONIKUS EGÉSZSÉGÜGYI SZOLGÁLTATÁSI TÉR ÚTJÁN IGÉNYBE VEHETŐ SZOLGÁLTATÁSOK",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. § (1) A csatlakozott adatkezelő a központi eseménykatalógus felé történő adatszolgáltatási kötelezettsége keretében az Eüak.-ban meghatározott adatokat és az 1. melléklet szerinti ellátási eseményekre vonatkozó adatokat az esemény megtörténtét követően haladéktalanul, de legkésőbb az 1. mellékletben meghatározott időtartamon belül szolgáltatja. (2) A csatlakozott adatkezelő az eseménykatalógusba már szolgáltatott hibás adatot az erről való tudomásszerzést követően haladéktalanul, de legkésőbb a tudomásszerzés időpontjától számított, az adatszolgáltatásra az 1. mellékletben meghatározott időtartamon belül javítja vagy törli."
+    },
+    {
+      "provision_ref": "s13",
+      "chapter": "II. Fejezet AZ ELEKTRONIKUS EGÉSZSÉGÜGYI SZOLGÁLTATÁSI TÉR ÚTJÁN IGÉNYBE VEHETŐ SZOLGÁLTATÁSOK",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. § (1) A 2. mellékletben meghatározott nyilvántartások és kódtörzsek (a továbbiakban: törzsadat) naprakész adatait a nyilvántartás vezetője vagy a kódtörzs közzétevője köteles az EESZT törzsadat-nyilvántartásában is automatikus információátadás útján közzétenni, vagy a törzsadat elérhetőségét az EESZT útján saját szolgáltatásán keresztül biztosítani. (2) Más, személyes adatot nem tartalmazó nyilvántartás vagy kódtörzs közzétételét, vagy az ezekhez az EESZT szolgáltatásán keresztül való hozzáférést bármely csatlakozott adatkezelő kezdeményezheti, vagy maga a működtető is biztosíthatja. Az adatkezelő által kezdeményezett közzététel befogadási szabályait a működtető határozza meg, és teszi elérhetővé a csatlakozott adatkezelők számára. (3) Az EESZT működtetője a személyes adatot tartalmazó törzsadathoz való hozzáférést az EESZT kizárólag azon felhasználói részére biztosítja, akik a törzsadat megismerésére jogosultak."
+    },
+    {
+      "provision_ref": "s14",
+      "chapter": "II. Fejezet AZ ELEKTRONIKUS EGÉSZSÉGÜGYI SZOLGÁLTATÁSI TÉR ÚTJÁN IGÉNYBE VEHETŐ SZOLGÁLTATÁSOK",
+      "section": "14",
+      "title": "14. §",
+      "content": "14. § A működtető a törzsadat-nyilvántartásban található nyilvántartásokról és kódtörzsekről katalógust vezet, melyet bárki számára elérhetővé tesz. A katalógus legalább az alábbi adatokat tartalmazza: a) törzsadat megnevezése, típusa, b) a nyilvántartást vezető vagy a kódtörzset közzétevő szervezet megnevezése, és c) frissítés gyakorisága."
+    },
+    {
+      "provision_ref": "s15",
+      "chapter": "II. Fejezet AZ ELEKTRONIKUS EGÉSZSÉGÜGYI SZOLGÁLTATÁSI TÉR ÚTJÁN IGÉNYBE VEHETŐ SZOLGÁLTATÁSOK",
+      "section": "15",
+      "title": "15. §",
+      "content": "15. § (1) Az érintett az önrendelkezési nyilvántartásban az Eüak. 35/H. § (1) bekezdésében meghatározott nyilatkozatát a) adatainak a működtető által meghatározott csoportokba sorolt ágazati felhasználók általi megismerésére vonatkozóan, b) adatainak meghatározott ágazati felhasználó általi megismerésére vonatkozóan, és c) a működtető által meghatározott kategóriákba sorolt adatainak megismerésére vonatkozóan teheti meg. (1a) Az érintett az önrendelkezési nyilvántartásban az Eüak. 35/H. § (1) bekezdésében meghatározott nyilatkozata keretében rendelkezést tehet adatainak a határon átnyúló egészségügyi ellátáshoz kapcsolódó jogok érvényesítése érdekében kijelölt nemzeti kapcsolattartó szerv általi továbbíthatóságára vonatkozóan. (2) Az érintett az Eüak. 35/J. § (4) bekezdésében meghatározott nyilatkozatot az önrendelkezési nyilvántartáson keresztül, az önrendelkezési nyilatkozat megtételére vonatkozó szabályok szerint teheti meg. (3) A működtető köteles gondoskodni arról, hogy a nyilatkozat elektronikus rögzítését követően huszonnégy órán belül érvénybe lépjenek a nyilatkozat alapján létrehozott, az adatokhoz történő hozzáférést korlátozó vagy engedélyező szabályok."
+    },
+    {
+      "provision_ref": "s16",
+      "chapter": "II. Fejezet AZ ELEKTRONIKUS EGÉSZSÉGÜGYI SZOLGÁLTATÁSI TÉR ÚTJÁN IGÉNYBE VEHETŐ SZOLGÁLTATÁSOK",
+      "section": "16",
+      "title": "16. §",
+      "content": "16. § (1) Az Eüak. 35/I. § (3) bekezdésében meghatározott nyilatkozat alapján a működtető a kezelőorvos számára a nyilatkozat rögzítésétől számított huszonnégy órás időtartamra, az önrendelkezési nyilvántartásba bejegyzett korlátozást figyelmen kívül hagyó hozzáférési jogot biztosít az előtte megjelent érintett egészségügyi adataihoz. (2) Az (1) bekezdés szerinti nyilatkozat megadására szolgáló nyomtatványt a működtető nyomtatható formában elérhetővé teszi. A nyilatkozat az egészségügyi dokumentáció része."
+    },
+    {
+      "provision_ref": "s17",
+      "chapter": "II. Fejezet AZ ELEKTRONIKUS EGÉSZSÉGÜGYI SZOLGÁLTATÁSI TÉR ÚTJÁN IGÉNYBE VEHETŐ SZOLGÁLTATÁSOK",
+      "section": "17",
+      "title": "17. §",
+      "content": "17. § (1) Az érintett a közvetlen hozzáférési felület útján tájékoztatást kaphat arról, hogy a) mely ágazati felhasználó végzett, vagy kísérelt meg az adataira vonatkozó adatkezelési műveletet végezni, és b) az a) pont szerinti felhasználó mely csatlakozott adatkezelő vagy a csatlakozott adatkezelő mely szervezeti egysége nevében végezte, vagy kísérelte meg elvégezni a műveletet. (1a) Ha az érintett adatainak megismerésére ellenőrzés során kerül sor, az (1) bekezdés szerinti tájékoztatás csak az (1) bekezdés b) pontja szerinti adatot tartalmazza. (2) Az érintett a közvetlen hozzáférési felület útján lekérdezheti az önrendelkezési nyilvántartásban található, a lekérdezés időpontjában érvényes rendelkezéseit, vagy azokról a Kormány által kijelölt szervnél vagy a kormányablaknál személyesen tájékoztatást kérhet."
+    },
+    {
+      "provision_ref": "s18",
+      "chapter": "II. Fejezet AZ ELEKTRONIKUS EGÉSZSÉGÜGYI SZOLGÁLTATÁSI TÉR ÚTJÁN IGÉNYBE VEHETŐ SZOLGÁLTATÁSOK",
+      "section": "18",
+      "title": "18. §",
+      "content": "18. § (1) A kezelőorvos vagy ennek hiányában a háziorvos az Eüak. 35/J. § (1) bekezdésében meghatározott adatszolgáltatási kötelezettsége keretében köteles rögzíteni a) a 3. mellékletben meghatározott adatokat, valamint b) az adat rögzítésének alapjául szolgáló esemény, okot adó körülmény vagy dokumentum megjelölését. (2) A kezelőorvos vagy ennek hiányában a háziorvos az Eüak. 35/J. § (1) bekezdésében meghatározott adatszolgáltatási kötelezettsége keretében rögzítheti az (1) bekezdés szerint rögzített adat 15. § (1) bekezdés c) pontja szerinti kategóriáját. (3) A működtető az (1) bekezdés szerinti adatokhoz kapcsoltan az EESZT-ben megvalósuló adatkezelés jogszerűségének ellenőrzése céljából rögzíti a) az adat rögzítését végző felhasználó azonosítóját és b) az adat rögzítésének időpontját. (4) Az egészségügyi profilban rögzített adatokban bekövetkezett változás esetén a kezelőorvos vagy háziorvos az adatot az (1) bekezdésben meghatározottak szerint módosítja. Az egészségügyi profilban rögzített bejegyzés javítást vagy módosítást indokolni kell."
+    },
+    {
+      "provision_ref": "s19",
+      "chapter": "II. Fejezet AZ ELEKTRONIKUS EGÉSZSÉGÜGYI SZOLGÁLTATÁSI TÉR ÚTJÁN IGÉNYBE VEHETŐ SZOLGÁLTATÁSOK",
+      "section": "19",
+      "title": "19. §",
+      "content": "19. § (1) Az EESZT útján nyilvántartott és a 4. mellékletben meghatározott egészségügyi dokumentumokra vonatkozó adatszolgáltatási kötelezettség keretében a csatlakozott adatkezelő a) a működtető által közzétett technikai követelményeknek megfelelő módon továbbítja a dokumentumokat, vagy b) a működtető által közzétett technikai követelményeknek való megfelelés esetén a dokumentumoknak a csatlakozó adatkezelő egészségügyi informatikai rendszeréből való közvetlen elérését lehetővé tevő hivatkozás továbbításával biztosítja. (2) A dokumentumok továbbítására vonatkozó, e §-ban meghatározott adatszolgáltatási kötelezettséget a) betegnek átadott dokumentum esetén a dokumentum betegnek való átadását, b) betegnek át nem adott dokumentum esetén a dokumentum jóváhagyását, c) az EESZT nyilvántartásába már továbbított dokumentum esetében annak megváltozását követően azonnal, de legkésőbb a 4. mellékletben az egyes dokumentumok vonatkozásában meghatározott időtartamon belül kell teljesíteni. (3) Az egészségügyi dokumentumok nyilvántartásából a működtető az Eüak. 4. § (1) bekezdés a)–d) pontjában meghatározott célból kizárólag az adat megismerésére jogosult ágazati felhasználó számára biztosít hozzáférést az érintettre vonatkozó egészségügyi dokumentumhoz."
+    },
+    {
+      "provision_ref": "s20",
+      "chapter": "II. Fejezet AZ ELEKTRONIKUS EGÉSZSÉGÜGYI SZOLGÁLTATÁSI TÉR ÚTJÁN IGÉNYBE VEHETŐ SZOLGÁLTATÁSOK",
+      "section": "20",
+      "title": "20. §",
+      "content": "20. § (1) Az 5. mellékletben meghatározott jelentés vagy adatszolgáltatás esetében a jelentési vagy adatszolgáltatási kötelezettséget az EESZT útján, vagy ha az adott kötelezettségre vonatkozóan jogszabály más teljesítési módot jelöl meg, az EESZT útján is kell teljesíteni. (2) A működtető térítésmentesen biztosítja a jelentéstételi és adatszolgáltatási kötelezettség teljesítésének lehetőségét. (3) A jelentéstételi és adatszolgáltatási kötelezettség az EESZT útján kizárólag a jelentéstételi és adatszolgáltatási adatlap működtető által közzétett mintájának igénybevételével teljesíthető. (4) A jelentéstételi és adatszolgáltatási adatlap mintájával szemben támasztott formai és technikai követelményeket, valamint a jelentéstételi és adatszolgáltatási adatlap mintájának az EESZT útján történő közzététele eljárásrendjét a működtető határozza meg. A jelentéstételi és adatszolgáltatási adatlap mintáját a közzétett követelményrendszer alapján a jelentés és adatszolgáltatás címzettje alakítja ki. (5) A működtető a jelentéstételi és az adatszolgáltatási adatlap mintáját a közzétett követelményrendszer alapján ellenőrzi, és a követelményrendszernek való megfelelőség esetén közzéteszi a jelentések és adatszolgáltatások mintájának katalógusában."
+    },
+    {
+      "provision_ref": "s20a",
+      "chapter": "II. Fejezet AZ ELEKTRONIKUS EGÉSZSÉGÜGYI SZOLGÁLTATÁSI TÉR ÚTJÁN IGÉNYBE VEHETŐ SZOLGÁLTATÁSOK",
+      "section": "20/A",
+      "title": "20/A. §",
+      "content": "20/A. § (1) Ha a csatlakozott adatkezelő megfelel a szolgáltatás igénybevételéhez szükséges műszaki követelményeknek, a képalkotó diagnosztikai eljárással készített felvétel egészségügyi informatikai rendszerbe történő rögzítésekor adatot szolgáltathat az EESZT működtetője által a digitális képtovábbítási szolgáltatással kapcsolatban vezetett nyilvántartásba. A szolgáltatás igénybevételéhez szükséges műszaki követelményeket a működtető a csatlakozó adatkezelők számára hozzáférhetővé teszi. (2) A digitális képtovábbítás szolgáltatás keretében kizárólag meghatározott TAJ, vagy ennek hiányában az EESZT által nyilvántartott más azonosító alapján férhet hozzá a szolgáltatás használatára jogosult ágazati felhasználó az érintettre vonatkozó, képalkotó diagnosztikai eljárással készített felvételhez vagy más digitális képi információhoz. (3) A szolgáltatás keretében létrehozott nyilvántartás tartalmazza azokat a technikai információkat, amelyek segítségével a képek közvetlenül a csatlakozott adatkezelő informatikai rendszeréből érhetők el. A kiválasztott képet az EESZT továbbítja a hozzáférést kérő fél felé. (4) A digitális képtovábbítás az adatok biztonságos, csatlakozott adatkezelők közötti küldésére is használható. Ebben az esetben az EESZT az adatok továbbításának technikai megvalósításában nyújt segítséget a csatlakozott adatkezelők részére. Az adatok továbbítását az EESZT csak olyan ágazati felhasználó számára teljesíti, aki az EESZT azonosítási és jogosultságkezelési nyilvántartása és az önrendelkezési nyilvántartás adatai szerint jogosult annak megismerésére. (5) A szolgáltatás használatával kapcsolatos adatkezelés naplózásra kerül. Az adatkezelés részleteit az érintett az EESZT közvetlen hozzáférési felületén keresztül megismerheti, erre vonatkozó beállítás esetén a képtovábbítás megtörténtéről e-mail útján értesítést kaphat."
+    },
+    {
+      "provision_ref": "s20b",
+      "chapter": "II. Fejezet AZ ELEKTRONIKUS EGÉSZSÉGÜGYI SZOLGÁLTATÁSI TÉR ÚTJÁN IGÉNYBE VEHETŐ SZOLGÁLTATÁSOK",
+      "section": "20/B",
+      "title": "20/B. §",
+      "content": "20/B. § (1) Elektronikus távkonzílium kezdeményezésére (konzíliumot kérő kezelőorvos) és a felkérés elfogadására (konzíliumot adó kezelőorvos) kizárólag a szolgáltatásba külön regisztráló orvos jogosult. (2) Elektronikus távkonzílium kezdeményezésekor a konzíliumot kérő kezelőorvos állítja össze azoknak az egészségügyi dokumentumoknak (ideértve a képalkotó diagnosztikai eljárások felvételeit is) a listáját, melyeket a távkonzultáció során a konzíliumot adó kezelőorvossal meg kíván osztani. Ha a konzíliumot adó kezelőorvos a felkérést elfogadja, az EESZT akkor biztosítja számára a listán szereplő dokumentumokhoz való hozzáférést, ha az nem ütközik az érintett önrendelkezési nyilvántartásban tett nyilatkozatával. A konzíliumot adó kezelőorvos az elektronikus távkonzílium keretében adott orvosi véleményét a konzíliumot kérő kezelőorvos számára az EESZT útján továbbítja. (3) Az elektronikus távkonzíliumra vonatkozó felkérés elfogadása nem kötelező."
+    },
+    {
+      "provision_ref": "s20c",
+      "chapter": "II. Fejezet AZ ELEKTRONIKUS EGÉSZSÉGÜGYI SZOLGÁLTATÁSI TÉR ÚTJÁN IGÉNYBE VEHETŐ SZOLGÁLTATÁSOK",
+      "section": "20/C",
+      "title": "20/C. §",
+      "content": "20/C. § (1) Az EESZT útján vezetett elektronikus betegségregiszterbe történő adatszolgáltatás kizárólag az elektronikus adatszolgáltatási űrlapon teljesíthető. (2) Az adatszolgáltatási űrlap mintáját a betegségregisztert vezető szerv maga alakítja ki. Az adatszolgáltatási űrlap mintájával szemben támasztott formai és technikai követelményeket, valamint az űrlap kialakításához szükséges adatmintákat a működtető határozza meg, és azt a csatlakozott adatkezelők számára hozzáférhetővé teszi. Ha az adatszolgáltatási űrlap kialakításához olyan adatmintára van szükség, amelyet a működtető még nem tett közzé, a betegségregisztert vezető szerv kérelme alapján a működtető a kért adatmintát 30 munkanapon belül elkészíti és közzéteszi. (3) A betegségregiszterek személyazonosításra alkalmatlan módon tárolt adataihoz bármely csatlakozott adatkezelő hozzáférhet."
+    },
+    {
+      "provision_ref": "s20d",
+      "chapter": "II. Fejezet AZ ELEKTRONIKUS EGÉSZSÉGÜGYI SZOLGÁLTATÁSI TÉR ÚTJÁN IGÉNYBE VEHETŐ SZOLGÁLTATÁSOK",
+      "section": "20/D",
+      "title": "20/D. §",
+      "content": "20/D. § (1) Elektronikus szolgáltatásrendelés esetében az igénylő orvos a szolgáltatásrendeléssel érintett egészségügyi szolgáltatásban részesülő érintett kérésére papír alapú igazolást állít ki az elektronikus szolgáltatásrendelésről. Az igazolás az elektronikus szolgáltatásrendelés adattartalmát, és az elektronikus szolgáltatásrendelés EESZT azonosítóját tartalmazza vonalkódos és szövegesen olvasható formában is. (2) Az ellátást nyújtó csatlakozott adatkezelő az elektronikus szolgáltatásrendelést az EESZT útján tekinti meg és ellenőrzi, és az EESZT útján rögzíti az elektronikus szolgáltatásrendelés felhasználását, az ellátás megtörténtét. Ha az adatok rögzítése bármely okból sikertelen, az ellátást nyújtó csatlakozott adatkezelő az ellátást követő 24 órán belül köteles az adatokat rögzíteni. (3) Az EESZT útján kiállított elektronikus szolgáltatásrendelés esetén, ha az EESZT üzemszünet vagy üzemzavar miatt nem elérhető, az ellátás az (1) bekezdés szerinti papíralapú igazolás alapján is nyújtható. Ilyen esetben az adatok rögzítésére vonatkozó kötelezettséget az üzemszünet esetén annak végét, üzemzavar esetén annak tényleges megszűnését követő négy napon belül kell teljesíteni. (4) Az igénylő orvos az elektronikus szolgáltatásrendeléssel egyidejűleg, vagy az elektronikus szolgáltatásrendeléssel érintett egészségügyi szolgáltatásban részesülő érintett az elektronikus szolgáltatásrendelés érvényességi idején belül az EESZT erre szolgáló internetes felületén az ellátást nyújtó csatlakozott adatkezelőhöz időpontot tud foglalni. (5) Ha az elektronikus szolgáltatásrendelésen javítást vagy más változtatást kell eszközölni, az igénylő orvos az elektronikus szolgáltatásrendelést a változtatás okának megjelölésével az EESZT útján visszavonja. Az igénylő orvos ilyen esetben értesíti a szolgáltatásrendeléssel érintett egészségügyi szolgáltatásban részesülő érintettet – kivéve, ha a változtatás szükségességét az érintett jelzi az orvos felé –, és gondoskodik új szolgáltatásrendelés kiállításáról. (6) A csatlakozott adatkezelő a (4) és (5) bekezdés szerinti időpontfoglalás érdekében az EESZT útján közzéteheti az igénybe vehető szolgáltatásaira nyitva álló szabad időpontokat. (7) Az ellátást nyújtó csatlakozott adatkezelő a (6) bekezdés szerint közzétett időpontokat – kivételes esetben, alapos okból – az EESZT útján módosíthatja vagy törölheti. Lefoglalt időpont módosítása vagy törlése esetén az ellátást nyújtó csatlakozott adatkezelő köteles a szolgáltatásrendeléssel érintett egészségügyi szolgáltatásban részesülő érintett értesítésére, és új időpont egyeztetésére."
+    },
+    {
+      "provision_ref": "s20e",
+      "chapter": "II. Fejezet AZ ELEKTRONIKUS EGÉSZSÉGÜGYI SZOLGÁLTATÁSI TÉR ÚTJÁN IGÉNYBE VEHETŐ SZOLGÁLTATÁSOK",
+      "section": "20/E",
+      "title": "20/E. §",
+      "content": "20/E. § (1) A működtető a határon átnyúló egészségügyi ellátáshoz kapcsolódó jogok érvényesítése érdekében kijelölt nemzeti kapcsolattartó szervként az Eüak. 4. § (2) bekezdés zs) pontja szerinti célból, az erre a célra kialakított biztonságos informatikai kapcsolat útján biztosítja a más tagállamokban működő nemzeti kapcsolattartó szervekkel történő információcserét. (2) Az érintett más tagállamban történő gyógykezelése érdekében a működtető az Eüak. 19/A. §-a szerinti adatokból a megkeresés szerinti, az érintett határon átnyúló egészségügyi ellátásához kapcsolódó jogainak érvényesítéséhez kapcsolódó adatokat továbbítja az ellátást nyújtó egészségügyi szolgáltató kezdeményezésére a megkeresést továbbító, más tagállamban működő nemzeti kapcsolattartó szerv részére. (3) A gyógyszer más tagállamban történő kiváltása érdekében a működtető az Eüak. 19/A. §-a szerinti adatokból az érintett határon átnyúló egészségügyi ellátásához kapcsolódó jogainak érvényesítéséhez kapcsolódó, megkeresés szerinti adatokat továbbítja a gyógyszer kiszolgáltatója kezdeményezésére a megkeresést továbbító, más tagállamban működő nemzeti kapcsolattartó szerv részére. A működtető a más tagállamban működő nemzeti kapcsolattartó szervtől kapott kiváltási adatokat rögzíti az EESZT vénynyilvántartásában. (4) A más tagállambeli érintett Magyarországon történő gyógykezelése érdekében a működtető továbbítja az ellátást nyújtó csatlakozott adatkezelő lekérdezését a más tagállamban működő nemzeti kapcsolattartó szerv részére. A lekérdezés alapján kapott, az Eüak. 19/A. §-a szerinti adatokat a működtető továbbítja a lekérdező csatlakozott adatkezelő részére. (5) Más tagállamban felírt gyógyszer Magyarországon történő kiváltása érdekében a működtető továbbítja a csatlakozott adatkezelő lekérdezését a más tagállamban működő nemzeti kapcsolattartó szerv részére. A lekérdezés alapján kapott, az Eüak. 19/A. §-a szerinti adatokat a működtető továbbítja a megkereső csatlakozott adatkezelő részére, valamint továbbítja a csatlakozott adatkezelő által közölt kiváltási adatokat a más tagállamban működő nemzeti kapcsolattartó szerv részére. (6) A működtető az érintett adatát más tagállamban működő nemzeti kapcsolattartó szerv részére csak az érintett digitális önrendelkezése keretében tett megengedő rendelkezése esetén adja át. (7) A működtető a határon átnyúló egészségügyi ellátáshoz kapcsolódó jogok érvényesítése érdekében végzett adatkezelési műveleteket az Eüak. 35/D. §-a szerinti nyilvántartásban rögzíti, és a rögzített adatokat az érintett részére az EESZT közvetlen hozzáférési felületén elérhetővé teszi."
+    },
+    {
+      "provision_ref": "s21",
+      "chapter": "III. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "21",
+      "title": "21. §",
+      "content": "21. § (1) Ez a rendelet – a (2) és (3) bekezdésben foglalt kivétellel – a kihirdetését követő napon lép hatályba. (2) A 23. § (1) bekezdése és a 24. § 2017. január 1-jén lép hatályba. (3) A 23. § (2) bekezdése 2017. április 1-jén lép hatályba."
+    },
+    {
+      "provision_ref": "s22",
+      "chapter": "III. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "22",
+      "title": "22. §",
+      "content": "22. § (1) A csatlakozással kapcsolatos kötelezettségét a) az Eüak. 35/B. § (1) bekezdés a) pontja alapján csatlakozásra köteles, közfinanszírozott egészségügyi szolgáltatást nyújtó egészségügyi szolgáltató 2017. november 1. napjáig, b) az Eüak. 35/B. § (1) bekezdés a) pontja alapján csatlakozásra köteles, nem közfinanszírozott egészségügyi szolgáltatást nyújtó egészségügyi szolgáltató 2018. november 1. napjáig, c) az Eüak. 35/B. § (1) bekezdés b) pontja alapján csatlakozásra köteles gyógyszertár 2017. november 1. napjáig, d) az Eüak. 35/B. § (1) bekezdés c) pontja alapján csatlakozásra köteles állami mentőszolgálat 2018. november 1. napjáig, e) a 2. § (1) bekezdésében meghatározott szervezet 2017. március 1. napjáig, f) a 2. § (1a) bekezdése szerinti egészségügyi szolgáltató 2020. január 1-jéig köteles teljesíteni. (2) Az Eüak. 35/B. § (1) bekezdés a) pontja szerinti csatlakozott egészségügyi szolgáltató a 12. §-ban és a 19. §-ban meghatározott adatszolgáltatási kötelezettségének a) a közfinanszírozott egészségügyi ellátások tekintetében 2017. november 1. napjától, b) a nem közfinanszírozott egészségügyi ellátások tekintetében 2018. november 1. napjától köteles eleget tenni. (3) A törzsadatot tartalmazó nyilvántartás vezetője vagy kódtörzs közzétevője a 13. §-ban meghatározott közzétételi kötelezettségét legkésőbb 2017. március 1. napjától köteles teljesíteni. Ha az EESZT megfelelő működéséhez szükséges törzsadat szolgáltatását az arra kötelezett nem tudja közvetlenül az EESZT szolgáltatásának igénybevételével teljesíteni, a működtető – megállapodás alapján – ideiglenes jelleggel átvállalhatja az adatszolgáltatással kapcsolatos kötelezettségéhez kapcsolódó technikai műveletek elvégzését, de az adatszolgáltatás tartalmát illetően a felelősség továbbra is a nyilvántartást vezető vagy a kódtörzset közzétevő szervezetet terheli. Az erre vonatkozó megállapodás időtartama nem lehet tizenkettő hónapnál hosszabb. (4) A 20. §-ban előírt kötelezettség teljesítésére annak kötelezettje 2017. november 1. napjától köteles. (5) A kezelőorvos, ennek hiányában a háziorvos a 18. §-ban meghatározott feladatát 2017. november 1. napjától köteles teljesíteni. (5a) A 2. § (1a) bekezdése szerinti egészségügyi szolgáltató az adatszolgáltatási kötelezettségét legkésőbb 2020. június 1. napjától köteles teljesíteni. (6) 2017. január 1. napjáig automatikus információátadás helyett az állami és önkormányzati nyilvántartások együttműködésének általános szabályairól szóló törvény szerinti automatikus adatátadás útján kell az azonosítási és jogosultságkezelési nyilvántartás működéséhez szükséges nyilvántartások Eüak. szerinti adatait, valamint a törzsadat-nyilvántartásba történő közzétételt biztosítani. (7) 2017. január 1. napjáig a Kormány által kötelezően biztosítandó azonosítási szolgáltatás alatt a Kormány által kötelezően nyújtandó azonosítási szolgáltatást kell érteni. (8) Az a fejlesztő, aki az Elektronikus Egészségügyi Szolgáltatási Tér működésével összefüggő egyes miniszteri rendeletek módosításáról szóló 37/2020. (X. 30.) EMMI rendelet (a továbbiakban: Módr.) hatálybalépésekor az e rendeletnek a Módr.-rel megállapított 3/A. §-a szerinti informatikai rendszerrel rendelkezik, 2020. december 31-ig a működtető által a Módr. hatálybalépését megelőzően kiállított igazolással igazolhatja a 3/A. § szerinti követelmények teljesítését. (9) A működtető a Módr.-rel megállapított 3/A. § (8) bekezdése szerinti jegyzék részeként 2020. december 31-ig közzéteszi a (8) bekezdés szerinti igazolással rendelkező informatikai rendszerek jegyzékét is. (10) A csatlakozott adatkezelő az 1. és 4. melléklet szerinti adatszolgáltatási kötelezettség Módr.-rel megállapított követelményeinek megfelelő teljesítését legkésőbb a Módr. hatálybalépését követő 3 hónapon belül köteles biztosítani. Az 1. melléklet 21–24. pontja szerinti adatszolgáltatási kötelezettség Módr.-rel megállapított követelményeinek megfelelő teljesítést legkésőbb a Módr. hatálybalépését követő 6 hónapon belül kell biztosítani. (11) Az 1. mellékletben foglalt táblázat az Elektronikus Egészségügyi Szolgáltatási Térrel kapcsolatos részletes szabályokról szóló 39/2016. (XII. 21.) EMMI rendelet módosításáról szóló 45/2023. (X. 30.) BM rendelettel megállapított 54. sorát az EESZT digitális időpontfoglalási rendszer szolgáltatást használó egészségügyi szolgáltatóknak kell alkalmazniuk."
+    },
+    {
+      "provision_ref": "s22a",
+      "chapter": "III. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "22/A",
+      "title": "22/A. §",
+      "content": "22/A. § Ez a rendelet a határon átnyúló egészségügyi ellátásra vonatkozó betegjogok érvényesítéséről szóló, 2011. március 9-i 2011/24/EU európai parlamenti és tanácsi irányelv 6. cikkének való megfelelést szolgálja."
+    },
+    {
+      "provision_ref": "s23",
+      "chapter": "III. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "23",
+      "title": "23. §",
+      "content": "23. § (1) (2)"
+    },
+    {
+      "provision_ref": "s24",
+      "chapter": "III. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "24",
+      "title": "24. §",
+      "content": "24. § A központi eseménykatalógus számára az alábbi események e mellékletben meghatározott adatait, az esemény időpontját, a csatlakozó adatkezelő informatikai rendszerében való rögzítés időpontját és az esemény rögzítéséért felelős személy azonosítóját kell közölni. Jelmagyarázat: * A „beteg további sorsa” fogalom megfelel az egészségügyi szolgáltatások Egészségbiztosítási Alapból történő finanszírozásának részletes szabályairól szóló rendelet szerinti fogalomnak. 1. egészségügyi szolgáltatók, az általuk végezhető, engedélyezett szakmák és működési engedélyek nyilvántartása 2. egészségügyi szolgáltatók telephelyeiről vezetett nyilvántartás 3. egészségügyi szakképesítéssel rendelkező személyek alap- és működési nyilvántartása 4. az egészségügyi felsőfokú szakirányú szakképzés keretében megszerezhető szakképesítések nyilvántartása 5. forgalomba hozatali engedéllyel rendelkező gyógyszerek nyilvántartása 6. egyenértékű gyógyszerek nyilvántartása 7. gyógyszertárakról vezetett nyilvántartás 8. a társadalombiztosítási azonosító jelhez tartozó biztosítási jogviszony fennállásának és háziorvosi szolgálat adatainak lekérdezhetősége 9. az Egészségbiztosítási Alapból finanszírozott egészségügyi szolgáltatók nyilvántartása 10. társadalombiztosítási támogatás elszámolására szerződött gyógyszertárak és gyógyászati segédeszköz forgalmazók nyilvántartása 11. az orvosi bélyegzőkről szóló rendelet szerinti orvosi bélyegzők nyilvántartása 12. a társadalombiztosítási támogatással rendelésre jogosító (vényírási) szerződéssel rendelkező orvosok nyilvántartása 13. társadalombiztosítási támogatással rendelhető gyógyászati segédeszközök nyilvántartása 14. társadalombiztosítás által támogatott gyógyszerek teljes körének nyilvántartása 15. egészségügyi szakmai irányelvben vagy az egészségügyért felelős miniszter közleményében meghatározott laboratóriumi diagnosztika körébe tartozó ellátások egységes egészségügyi nevezéktana Az Eüak. 15. §-a szerinti mikrobiológiai laboratórium vizsgálatának eredményéről teljesítendő jelentés."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "§ E rendelet alkalmazásában 1. ágazati felhasználó",
+      "definition": "az Elektronikus Egészségügyi Szolgáltatási Tér (a továbbiakban: EESZT) azonosítási és jogosultságkezelési nyilvántartásában szereplő felhasználó, függetlenül attól, hogy természetes személy vagy szervezeti felhasználó",
+      "source_provision": "s1"
+    },
+    {
+      "term": "csatlakozó adatkezelő",
+      "definition": "az egészségügyi és a hozzájuk kapcsolódó személyes adatok kezeléséről és védelméről szóló 1997. évi XLVII. törvény (a továbbiakban: Eüak.) 35/B. § (1) és (2) bekezdésében meghatározott, a csatlakozást informatikai rendszer útján megvalósító adatkezelő",
+      "source_provision": "s1"
+    },
+    {
+      "term": "szervezeti felhasználó",
+      "definition": "a csatlakozott adatkezelő számára az EESZT azonosítási és jogosultságkezelési nyilvántartásában, a csatlakozott adatkezelőre vonatkozó kötelezettségek teljesítése érdekében létrehozott felhasználó",
+      "source_provision": "s1"
+    },
+    {
+      "term": "közvetlen hozzáférési felület",
+      "definition": "a működtető által biztosított, az EESZT egyes szolgáltatásainak csatlakoztatott informatikai rendszer nélküli használatát lehetővé tevő felület.",
+      "source_provision": "s1"
+    }
+  ]
+}

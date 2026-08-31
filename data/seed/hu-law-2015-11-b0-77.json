@@ -1,0 +1,676 @@
+{
+  "id": "hu-law-2015-11-b0-77",
+  "type": "statute",
+  "title": "11/2015. (V. 22.) GVH utasítás a Gazdasági Versenyhivatal informatikai rendszerhasználati és biztonsági szabályzatáról",
+  "status": "in_force",
+  "in_force_date": "2015-05-15",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2015-11-B0-77",
+  "description": "a Gazdasági Versenyhivatal informatikai rendszerhasználati és biztonsági szabályzatáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "chapter": "I. Fejezet Általános rendelkezések",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § (1) A Gazdasági Versenyhivatal (a továbbiakban: Hivatal) informatikai rendszerhasználati és biztonsági szabályzatának (a továbbiakban: szabályzat) célja a Magyarország kiberbiztonságáról szóló 2024. évi LXIX. törvényben (a továbbiakban: 2024. évi LXIX. törvény) és a biztonsági osztályba sorolás követelményeiről, valamint az egyes biztonsági osztályok esetében alkalmazandó konkrét védelmi intézkedésekről szóló 7/2024. (VI. 24.) MK rendeletben [a továbbiakban: 7/2024. (VI. 24.) MK rendelet] meghatározott követelmények Hivatalon belüli alkalmazásával kapcsolatos részletszabályok megállapítása, a Hivatal elektronikus információs rendszerei védelmének felelőseire, feladataira és az ehhez szükséges hatáskörökre, felhasználókra vonatkozó szabályok meghatározása. (2) Ez a szabályzat határozza meg a Hivatal által fejlesztett, beszerzett – kész vagy adaptált – szoftvereknél, elektronikus információs rendszereknél a fejlesztők, az üzemeltetők és a felhasználók által megvalósítandó biztonsági tevékenységekre vonatkozó szabályokat, valamint az üzemeltetett elektronikus információs rendszerekre vonatkozó biztonsági előírásokat. (3) Ez a szabályzat rögzíti a hivatali adatbiztonság általános előírásait és feltételrendszerét, az informatikai infrastruktúrára, továbbá az elektronikus információs rendszerekre vonatkozó védelmi intézkedéseket."
+    },
+    {
+      "provision_ref": "s2",
+      "chapter": "I. Fejezet Általános rendelkezések",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § (1) A Hivatal által üzemeltetett elektronikus információs rendszerek, az azokban kezelt adatok, illetve a rendszer elemei tekintetében biztosítani kell azok 7/2024. (VI. 24.) MK rendelet szerinti értelemben vett a) bizalmasságának, b) sértetlenségének, c) rendelkezésre állásának zárt, teljes körű, folytonos és kockázatokkal arányos védelmét. (2) A szabályzatban meghatározott védelemnek a rendszerek fennállásának egész időtartama alatt működnie kell a rendszerelemek megtervezése, üzembe helyezése és üzemeltetése alatt folyamatosan a rendszerből való kivonásig."
+    },
+    {
+      "provision_ref": "s3",
+      "chapter": "I. Fejezet Általános rendelkezések",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) A 2024. évi LXIX. törvényben és a 7/2024. (VI. 24.) MK rendeletben meghatározott fogalmakat e szabályzatban is az ott meghatározott értelemben kell használni azzal, hogy a Hivatalra alkalmazva a) rendszerelem: a helyi hálózat (LAN; a továbbiakban: hálózat), annak szerverei, a munkaállomások, hálózati és helyi nyomtatók, scannerek, vezetékes telefon és faxkészülékek, valamint a hordozható eszközök, b) felhasználó: a Hivatal elektronikus információs rendszereit, az azokban kezelt adatokat és alkalmazott szoftvereket, illetve a rendszerelemeket használó, kezelő vagy alkalmazó személy, függetlenül attól, hogy a Hivatallal közszolgálati jogviszonyban, munkavégzésre irányuló egyéb jogviszonyban vagy egyéb szerződéses jogviszonyban áll e. (2) E szabályzat alkalmazásában a) hordozható eszköz: a mobiltelefon, a tablet, valamint a hordozható személyi számítógép (a továbbiakban: notebook), b) adathordozó: a számítógépes adatok tárolására szolgáló, beépített vagy cserélhető eszköz, így különösen a merevlemez, a hajlékonylemez, a mágnesszalag, a CD, a DVD, az USB pendrive, az SSD, a Blu-ray, valamint a hordozható merevlemez."
+    },
+    {
+      "provision_ref": "s4",
+      "chapter": "I. Fejezet Általános rendelkezések",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § E szabályzat hatálya kiterjed a) a Hivatal használatában vagy tulajdonában álló, a Hivatal által üzemeltetett valamennyi meglévő és a jövőben fejlesztendő elektronikus információs rendszerre, a rendszerelemekre, adathordozókra és kommunikációs alkalmazásokra azok teljes életciklusában, ideértve azok tervezését, kivitelezését, üzembe állítását, üzemeltetését és a rendszerből történő kivonását, b) az a) pontban meghatározott elektronikus információs rendszerekre, rendszerelemekre és eszközökre vonatkozó minden dokumentációra (fejlesztési, tervezési, specifikációs, üzemeltetési stb. dokumentumok), c) az a) pontban meghatározott elektronikus információs rendszerekben, rendszerelemeken és eszközökön használt vagy tárolt szoftverekre és adatokra."
+    },
+    {
+      "provision_ref": "s5",
+      "chapter": "I. Fejezet Általános rendelkezések",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § (1) A Felderítő Iroda a helyszíni kutatásokon az elektronikus adathordozókról készült egyszerű vagy forenzikus másolatok tárolására, feldolgozására és archiválására elkülönített elektronikus információs rendszert működtet (a továbbiakban: FEI információs rendszer), amely internetkapcsolat nélküli, fizikailag teljesen elkülönült hálózatból, az adatokat tároló dedikált szerverekből (a továbbiakban: FEI szerverek) és külön erre a célra rendelt vizsgáló munkaállomásokból áll. (2) A FEI szervereken tárolt adatokat a vizsgálatot végző munkatársak csak a vizsgáló munkaállomásokról érhetik el, amelyeken forenzikus célszoftverek használata biztosítja az adatfeldolgozást. A vizsgáló munkaállomások a hivatali helyi hálózathoz nem kapcsolódnak, attól fizikailag elkülönültek, és csak a Felderítő Iroda irodáiból csatlakoztathatók a FEI szerverekhez. (3) A FEI információs rendszer üzemeltetéséért, felügyeletéért és karbantartásáért – ideértve a rendszergazdai és helpdesk feladatokat is – a Felderítő Iroda (a továbbiakban: FEI) ügyrendjében meghatározottak szerint a Felderítő Iroda kijelölt munkatársa felelős (a továbbiakban: FEI rendszergazda). A Hivatal által üzemeltetett információs rendszer tekintetében a jelen utasításban az Informatikai és Iratirányítási Irodához (a továbbiakban: III) vagy annak vezetőjéhez telepített feladatokat a FEI információs rendszer tekintetében a FEI vagy annak vezetője látja el. (4) A FEI információs rendszer használatának rendje, valamint a FEI információs rendszerrel kapcsolatos informatikai biztonsági szabályok tekintetében alkalmazandó különös szabályokat a IX. fejezet tartalmazza."
+    },
+    {
+      "provision_ref": "s6",
+      "chapter": "I. Fejezet Általános rendelkezések",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § A Hivatal által üzemeltetett elektronikus információs rendszerek biztonsági osztálya a 7/2024. (VI. 24.) MK rendeletben meghatározott szempontok szerint a következő: a) 4 elektronikus információs rendszer tekintetében alap, b) 7 elektronikus információs rendszer tekintetében jelentős."
+    },
+    {
+      "provision_ref": "s7",
+      "chapter": "I. Fejezet Általános rendelkezések",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. §"
+    },
+    {
+      "provision_ref": "s8",
+      "chapter": "I. Fejezet Általános rendelkezések",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § (1) Az elnöknek 2024. évi LXIX. törvényben meghatározott feladatait az elektronikus információs rendszer biztonságáért felelős személy (a továbbiakban: elektronikus információbiztonsági felelős) látja el. (2) Az III vezetője a Gazdasági Versenyhivatal szervezeti és működési szabályzatáról szóló GVH utasításban előírt feladatok irányítása, felügyelete és ellenőrzése mellett felel a jelen utasításban az III vezetőjének hatáskörébe utalt feladatok végrehajtásáért. (3) A rendszergazda felelős az informatikai biztonsággal és a FEI információs rendszer kivételével az informatikai rendszer-üzemeltetéssel és helpdesk-üzemeltetéssel kapcsolatos feladatok ellátásáért. (4) A rendszergazda feladata a) a rendszerelemek üzemeltetése, azok működőképességének, munkavégzés céljára való üzemszerű rendelkezésre állásának biztosítása és fenntartása, b) a biztonsági mentések, vírusellenőrzések megtervezése és végrehajtása, c) a kormányzati eseménykezelő központ vagy a felhasználók által jelzett biztonsági események vizsgálata, a figyelmeztetések vagy riasztások alapján a szükséges intézkedések megtétele, d) változásmenedzsment nyilvántartások vezetése a szerveres konfigurációk, beállítások, lényeges információk, tudnivalók tekintetében, e) a Nemzeti Távközlési Gerinchálózat adat- és hangforgalmi infrastruktúrájának hivatali oldali működtetése, f) a hivatali internetkapcsolat biztonságos fenntartását biztosító tűzfal üzemeltetése. (5) A helpdesk feladatok az alábbiakra terjednek ki: a) a felhasználóktól érkező, elektronikus információs rendszereket vagy rendszerelemeket érintő hibajelzések, technikai problémák fogadása, kivizsgálása, megoldása, szükség esetén átirányítása, b) a hálózat, továbbá a hálózati és helyi nyomtatók felügyelete, a hálózati hibák felderítése és elhárítása. (6) Az elektronikus információbiztonsági felelős feladatait a) az elnök által a Hivatal munkatársai közül kijelölt személy vagy b) az e feladatok ellátásával szerződés alapján megbízott, a Hivatallal közszolgálati jogviszonyban nem álló személy látja el. (7) A (6) bekezdés b) pontja alapján kötött szerződésben az elektronikus információbiztonsági felelős feladataként kell felsorolni az informatikai biztonsági felelős jelen utasításban megállapított feladatait. (8) A szervezeti egység vezetője felelős a jelen utasítás 13. § (1) és (5) bekezdésében, 25. § (1) bekezdésében, 30. § (3) bekezdésében, 32. § (4) bekezdésében, 33. § (1) bekezdésében, 38. § (1) bekezdésében, 46. § (2) bekezdésében, 58. § (2) bekezdésében és 61. § (1) bekezdésében előírt feladatok végrehajtásáért. (9) A FEI rendszergazda az 5. § (3) bekezdésében meghatározott feladat ellátása keretében felel a FEI információs rendszer és a FEI szerverek informatikai biztonságával és az informatikai rendszer üzemeltetésével kapcsolatos feladatok ellátásáért, így különösen a) a (4) bekezdés a) és d) pontjában meghatározott feladatok és b) a 74. §-ban foglalt feladatokat is ideértve a FEI helpdesk feladatok ellátásáért. (10) Az adatvédelmi tisztviselő az III – a FEI információs rendszer esetén a FEI – felkérése alapján a Hivatal informatikai rendszereit – a FEI esetében a FEI információs rendszert – érintő informatikai alkalmazások fejlesztése, beszerzése és az informatikai rendszerek támogatására irányuló szolgáltatási szerződések megkötése előtt a szerződéstervezet alapján megvizsgálja, hogy a) a fejlesztés, beszerzés, szolgáltatás érintheti-e személyes adatok kezelését, és b) adatvédelmi szempontból értékeli a szerződő fél – a szerződés teljesítése során – várható adatfeldolgozói vagy önálló adatkezelői tevékenységét. (11) Az adatvédelmi tisztviselő a (10) bekezdés alapján kialakított álláspontjáról, valamint arról, hogy szükséges-e adatfeldolgozási megállapodás megkötése, tájékoztatja az III – a FEI információs rendszer esetén a FEI – vezetőjét. Az III és a FEI a fejlesztési, beszerzési szerződések, valamint az adatfeldolgozási megállapodás kidolgozásához figyelembe veszi az adatvédelmi tisztviselő javaslatait. (12) A Hivatal munkatársai felelősek a 6. alcímben előírt feladatok ellátásáért és kötelességek betartásáért."
+    },
+    {
+      "provision_ref": "s8a",
+      "chapter": "I. Fejezet Általános rendelkezések",
+      "section": "8/A",
+      "title": "8/A. §",
+      "content": "8/A. § (1) A 8. § (3) bekezdése szerinti feladat keretében az III rendszergazdai feladatok ellátásával megbízott egy vagy több munkatársa (a továbbiakban: rendszergazda) végzi az információs rendszerekhez kapcsolódó következő rendszer-karbantartási feladatokat: a) a hálózat szervereinek üzemeltetésével, rendszeres biztonsági frissítésével kapcsolatos feladatok ütemezése és végrehajtása a gyártó általi frissítések közzététele után haladéktalanul, havi rendszerességgel, b) a hálózat szerverei naplózási adatainak nyomon követése, értékelése, a konfigurációs állományok karbantartása, illetve azok proaktív jellegű felügyelete, c) a hálózat szervereinek, munkaállomásainak szoftveres felügyelete, a szoftveres karbantartások hálózatmenedzsment eszközzel történő végrehajtása, koordinálása, d) a hálózati jogosultságok beállítása, karbantartása, nyilvántartása, e) a munkaállomások üzemeltetése során felmerülő gépbeállítási, szoftver- és hardvertelepítési, eszköz karbantartási feladatok, valamint f) a karbantartási feladatok végrehajtásának dokumentálása. (2) Karbantartás vagy javítás céljából külső személy a rendszerelemekhez úgy férhet hozzá, hogy ezáltal az eszközön vagy az elektronikus információs rendszerben tárolt adatokat az elengedhetetlenül szükséges mértéken túl ne ismerhesse meg. Ennek érdekében – ha nem rendszeres, ütemezett karbantartás céljából kerül az eszköz vagy információs rendszer külső személyhez – mentés után minden adatot és információt törölni kell az eszközről. (3) Külső személy által végzett karbantartási tevékenységre, függetlenül attól, hogy az a helyszínen vagy távolról történik, – az elektronikus információbiztonsági felelőssel egyeztetett – rendszergazdai jóváhagyást követően kerülhet sor. (4) Az elektronikus információs rendszer vagy rendszerelemek kiszállítására a Hivatal székhelyéről külső személy számára csak az III vezetőjének kiviteli engedélye birtokában kerülhet sor. (5) A külső személy által végzett javítás, karbantartás után rendszergazda ellenőrzi, hogy az eszközök a karbantartási vagy javítási tevékenységek után is megfelelően működnek-e, és biztonsági ellenőrzésnek veti alá azokat. (6) Az infrastruktúra fizikai és környezeti védelmével kapcsolatban szükségessé váló karbantartási, javítási feladatok ellátását úgy kell megszervezni, hogy e védelem folyamatos legyen."
+    },
+    {
+      "provision_ref": "s8b",
+      "chapter": "I. Fejezet Általános rendelkezések",
+      "section": "8/B",
+      "title": "8/B. §",
+      "content": "8/B. § (1) A FEI információs rendszer tekintetében a FEI rendszergazda végzi a 8/A. § (1) bekezdése szerinti feladatokat. (2) A FEI információs rendszer tekintetében alkalmazni kell a 8/A. § (2)–(6) bekezdését, azzal, hogy a kiviteli engedélyt a FEI vezetője adja meg, és a FEI információs rendszer tekintetében távolról történő karbantartási tevékenység nem végezhető."
+    },
+    {
+      "provision_ref": "s9",
+      "chapter": "I. Fejezet Általános rendelkezések",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § (1) A felhasználó köteles a rendelkezésére bocsátott hardvereket, szoftvereket és a hálózati szolgáltatásokat e szabályzatnak megfelelően, rendeltetésszerűen használni, az informatikai biztonsági követelményeket megtartani, a számítástechnikai eszközöket megóvni. A számítástechnikai eszközöket védeni kell a káros környezeti hatások, így különösen hő, napsugárzás, illetve por ellen. A felhasználó köteles tartózkodni az elektronikus levelezőrendszer és az internet használata során a biztonság szempontjából kockázatos tevékenységektől. (2) A felhasználó a rendelkezésére bocsátott eszközökben okozott kárért kártérítési felelősséggel tartozik."
+    },
+    {
+      "provision_ref": "s10",
+      "chapter": "I. Fejezet Általános rendelkezések",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § (1) A Hivatal épületében történő munkakezdéskor a felhasználó köteles bekapcsolni a munkavégzésre számára biztosított munkaállomást, bejelentkezni a hálózati jelszavával, és elindítani az elektronikus levelezési rendszert. (2) A felhasználó köteles a munkaállomása elhagyása esetén azt szabályszerűen zárolni, a munkanap végén szabályszerűen leállítani. A munkaállomásokkal kapcsolatos biztonsági beállításokat úgy kell megadni, hogy a munkaállomást a rendszer az III vezetője által meghatározott időtartamú inaktivitás után automatikusan zárolja."
+    },
+    {
+      "provision_ref": "s11",
+      "chapter": "I. Fejezet Általános rendelkezések",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § (1) A felhasználó köteles informatikai biztonsági oktatáson részt venni. (2) Információbiztonságot érintő esemény gyanúja esetén az észlelt rendellenességről a felhasználó köteles tájékoztatni az III-t. (3) A felhasználó informatikai probléma esetén e-mailben elsősorban a helpdesk@gvh.hu e-mail címen vagy telefonon értesíti az III-t. Köteles együttműködni az III munkatársaival olyan esetekben, amikor a felhasználó tevékenysége az információs rendszerrel kapcsolatos feladatokat tesz szükségessé. Az III és a felhasználó feladataik ellátása során együttműködnek egymással."
+    },
+    {
+      "provision_ref": "s12",
+      "chapter": "I. Fejezet Általános rendelkezések",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. § (1) A felhasználó nem módosíthatja a Hivatal által rendelkezésére bocsátott számítástechnikai eszköz rendszerszintű beállításait, és nem kapcsolhatja ki a Hivatal által telepített aktív védelmi szoftvereket. Az III biztosítja az adathordozó automatikus vírusellenőrzését annak eszközbe helyezésekor. (2) Tilos továbbá a felhasználó számára: a) a hálózat fizikai megbontása, a rendszerelemek vagy a rendelkezésére bocsátott számítástechnikai eszközök lecsatlakoztatása, illetve az III vezetőjének engedélye nélkül hálózati (LAN, UTP) csatlakozókábelen keresztül bármilyen fali, asztali vagy padlódobozba épített aljzatba történő csatlakoztatás, b) a számítógépes konfigurációk megbontása, átalakítása, idegen eszköz beszerelése, c) bármilyen szoftver telepítése, internetről való letöltése, külső adathordozóról merevlemezre való másolása, a Hivatalban nem rendszeresített szoftverek futtatása, d) lánclevelek továbbítása, kéretlen levelek megválaszolása, ismeretlen tartalmú, kéretlen levelek mellékleteinek vagy linkjeinek megnyitása. (3) Tilos a Hivatal információs rendszerére, illetve az abban üzemeltetett egyedi elektronikus információs rendszerek sajátosságaira, a hálózati topológiára, a rendszer biztonsági előírásaira, a megvalósított intézkedésekre, valamint egyébként a Hivatal informatikai biztonságára vonatkozó dokumentációknak, egyedi utasításoknak a Hivatal személyi állományába nem tartozó személy számára történő hozzáférhetővé tétele. (4) Tilos más felhasználó által a hálózaton forgalmazott adatokat lehallgatni, módosítani, a forgalmat meghamisítani, másik felhasználó kapcsolódását akadályozni, megszakítani, átirányítani."
+    },
+    {
+      "provision_ref": "s13",
+      "chapter": "I. Fejezet Általános rendelkezések",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. § (1) A Hivatal személyi állományába nem tartozó felhasználó (a továbbiakban: vendégfelhasználó) számára a fogadó szervezeti egység vezetője írásban igényel a szükséges – saját felelősségi körén belül meghatározott – mértékben hálózati hozzáférési jogosultságot az III vezetőjétől. (2) Az III a hozzáférési jogosultságokkal együtt nyilvántartja az ilyen korlátozott hozzáférést biztosító felhasználói azonosítókat és azok érvényességi idejét. (3) (4) Az informatikai rendszerhasználattal vagy az informatikai biztonsággal kapcsolatos szolgáltatásra irányuló szerződésben rögzíteni kell: a) a Hivatalban végzett tevékenységgel kapcsolatosan a másik fél szervezetén belül az információbiztonságot érintő követelményeket, a szerződés teljesítése körében e követelmények érvényesülése érdekében alkalmazott intézkedéseket, az informatikai biztonsági felelősségi és feladatköröket, valamint a felelős személyt, b) a Hivatal által elvárt személybiztonsági követelményeket, c) a személybiztonsági követelmények teljesülésének ellenőrzési, dokumentációs és igazolási módját, d) a másik szerződő fél szervezetében fellépő, a Hivatal elektronikus információs rendszeréhez kapcsolódó hitelesítési eszközt, tanúsítványt vagy kiemelt jogosultsággal rendelkező személyt érintő változásról szóló tájékoztatás rendjét. (5) A vendégfelhasználónak az III akkor adhat hálózati hozzáférési jogosultságot, ha a fogadó szervezeti egység vezetője igazolja, hogy a vendégfelhasználó e szabályzatot megismerte, és az 1. melléklet szerinti nyilatkozat aláírásával vállalta a szabályzatban foglaltak betartását. (6) A személybiztonsági követelményeknek való megfelelést az III is folyamatosan ellenőrzi."
+    },
+    {
+      "provision_ref": "s14",
+      "chapter": "I. Fejezet Általános rendelkezések",
+      "section": "14",
+      "title": "14. §",
+      "content": "14. § (1) Az infrastruktúra biztonságához kapcsolódó védelmi intézkedések kiterjednek a helyiségek fizikai védelmére, ezen belül a behatolásjelző rendszer működtetésére, valamint a tápfeszültség ellátás biztosítására, a túlfeszültség, és víz elleni védelemre, valamint a villám és tűzvédelemre. (2) Az elnök gondoskodik róla, hogy a Hivatal épületének üzemeltetésére a Hivatal és a Közbeszerzési és Ellátási Főigazgatóság között megkötött szerződés alapján a Hivatal infrastruktúrájának fizikai védelme az épület őrzésével, a behatolásjelző és a biztonsági kamerarendszer működtetésével, valamint videó megfigyelés útján is biztosított legyen."
+    },
+    {
+      "provision_ref": "s15",
+      "chapter": "I. Fejezet Általános rendelkezések",
+      "section": "15",
+      "title": "15. §",
+      "content": "15. § (1) A hálózati szervereket tartalmazó helyiség (a továbbiakban: szerverszoba) zárt terület, oda csak az III vezetője által meghatározott egyedi jogosultságot biztosító beléptető kártyával lehet belépni. Más személy csak a belépésre jogosult személy folyamatos jelenléte mellett tartózkodhat a szerverszobában. (2) A szerverszoba tekintetében a belépési jogosultságok kiosztását, naprakész nyilvántartását, valamint rendszeres, de legalább félévente történő ellenőrzését az III vezetője végzi. (3) A szerverszobát riasztóberendezéssel is védeni kell, ennek aktiválására és inaktiválására kizárólag az III informatikus munkatársai jogosultak. (4) Redundáns klímaberendezés üzemeltetésével kell biztosítani a szerverek működéséhez szükséges állandó hőmérsékletet. A páratartalom monitorozását a szerverekhez csatlakoztatott szünetmentes tápegységek révén kell biztosítani."
+    },
+    {
+      "provision_ref": "s16",
+      "chapter": "I. Fejezet Általános rendelkezések",
+      "section": "16",
+      "title": "16. §",
+      "content": "16. § (1) A szerverszoba áramellátottságát szünetmentes tápegységekkel kell biztosítani, emellett a területnek védettnek kell lennie vízzel összefüggő vészhelyzetek és villámcsapás ellen is. (2)"
+    },
+    {
+      "provision_ref": "s17",
+      "chapter": "II. Fejezet Hardverekhez kapcsolódó védelmi intézkedések",
+      "section": "17",
+      "title": "17. §",
+      "content": "17. § (1) A rendszerelemek kizárólag a munkavégzéssel összefüggő tevékenység támogatására használhatóak. (2) A konfigurációk és azok bármely részegységei csak a tárgyi eszköz leltárban rögzített rendeltetési helyükön használhatók, onnan azokat átmozgatni csak az III munkatársai jogosultak, áthelyezési bizonylat egyidejű kitöltésével. (3) A számítógépekhez, valamint a hálózati nyomtatókhoz telepített, falba épített hálózati aljzatokat bármilyen módon megbontani, szétszerelni tilos. (4) A hardveres meghibásodást az III-vel haladéktalanul közölni kell. A javítás időtartamára – ha szükséges és lehetséges – az III csereeszközt biztosít. (5) Ha rendszerelem vagy a Hivatal leltári nyilvántartásában szereplő számítástechnikai eszköz kikerül a Hivatal rendelkezéséből, akkor ezt megelőzően az eszköz adattartalmát törölni kell."
+    },
+    {
+      "provision_ref": "s18",
+      "chapter": "II. Fejezet Hardverekhez kapcsolódó védelmi intézkedések",
+      "section": "18",
+      "title": "18. §",
+      "content": "18. § (1) A hardvereszközökre vonatkozó biztonsági szabályokat a papír alapú dokumentumok előállítására alkalmas eszközök (nyomtató, fax) használatára is alkalmazni kell. (2) A hardvereszközökre vonatkozó biztonsági szabályok betartását az III munkatársai előzetes tájékoztatás nélkül ellenőrizhetik."
+    },
+    {
+      "provision_ref": "s18a",
+      "chapter": "II. Fejezet Hardverekhez kapcsolódó védelmi intézkedések",
+      "section": "18/A",
+      "title": "18/A. §",
+      "content": "18/A. § (1) Az III biztosítja a Hivatal információs rendszerei biztonsági osztályának megfelelő megbízható működését, ennek keretében a rendszer összetevőinek szabályozott körülmények közötti telepítését, konfigurálását és nyilvántartását. (2) Az információs rendszerekhez az újraépíthetőség biztosítására alapkonfigurációs dokumentumot kell készíteni, amely a következőket tartalmazza: a) a hardverelemek listáját (laptopok, szerverek, mobil eszközök, hálózati eszközök stb.), b) a szoftverek listáját a szoftver aktuális verziószámával, biztonsági frissítési információival és konfigurációs beállításaival, paramétereivel, c) a telepítőkészletek listáját és elérhetőségi helyét, d) az egyes szoftverkomponensek alapkonfigurációs beállításait és e) a rendszerkomponensek logikai elhelyezkedését leképező hálózati topológia rajzot. (3) A (2) bekezdés szerinti alapkonfigurációs dokumentumot a rendszergazda készíti el, szükség esetén, de legalább félévente felülvizsgálja, és szükség szerint módosítja. (4) Az alapkonfigurációs dokumentum biztonságos megőrzését biztosítani kell. Az alapkonfigurációval nem érintett elektronikus információs rendszerelemekről a rendszergazda nyilvántartást vezet, amely tartalmazza az információs rendszer naprakész hardver- és szoftver-konfigurációját, elhelyezkedését, a működő alkalmazások listáját, és az értük felelős személy nevét."
+    },
+    {
+      "provision_ref": "s19",
+      "chapter": "II. Fejezet Hardverekhez kapcsolódó védelmi intézkedések",
+      "section": "19",
+      "title": "19. §",
+      "content": "19. § (1) A felhasználó kizárólag a Hivatal által biztosított, titkosított USB adathordozót használhat. Más eszköz használata tilos, ezt a központi rendszerbeállítások útján biztosítani kell. (2) Az adathordozót az III bocsátja munkavégzés céljából a felhasználó rendelkezésére; azzal közszolgálati jogviszonyának megszűnése esetén a felhasználó köteles elszámolni. (3) Az adathordozókról az III nyilvántartást vezet. (4) Tilos az adathordozó engedély nélküli átruházása, jogosulatlan személynek való átadása vagy az azon tárolt adatok jogosulatlan személy számára történő hozzáférhetővé tétele. (5) Az adathordozó tartalmát az adathordozó ismételt felhasználásra való rendelkezésre bocsátása előtt, valamint használatból való kivonását követően az III az adatok megsemmisítését eredményező eljárással törli."
+    },
+    {
+      "provision_ref": "s20",
+      "chapter": "II. Fejezet Hardverekhez kapcsolódó védelmi intézkedések",
+      "section": "20",
+      "title": "20. §",
+      "content": "20. § (1) Bármilyen hordozható eszköznek a Hivatal hálózatához történő csatlakoztatását megelőzően az eszközt regisztráltatni kell az III-vel. A rendszergazda nyilvántartja az elfogadott készülékeket és a kapcsolódáshoz használt szoftvereket. (2) Tilos a Hivatal által kezelt adatokat elérhetővé tenni olyan eszközökről, amelyek nem felelnek meg a biztonsági követelményeknek. (3) Azokra az eszközökre, amelyekkel a Hivatal hálózatán kívülről, VPN kapcsolattal is hozzá lehet férni a Hivatal hálózatán üzemeltetett elektronikus információs rendszerekhez, a következő biztonsági intézkedéseket kell érvényesíteni: a) HDD titkosítása, b) naprakészen frissített szoftverek, c) víruskeresők, d) személyi tűzfalak. (4) Az III fizikai vagy logikai úton megtilthatja egy adott hordozható eszköz csatlakoztatását a Hivatal hálózatához, ha úgy ítéli meg, hogy az adott eszköz csatlakoztatása veszélyt jelenthet a Hivatal hálózati infrastruktúra-elemeire, elektronikus információs rendszereire, adataira vagy munkatársaira nézve."
+    },
+    {
+      "provision_ref": "s21",
+      "chapter": "II. Fejezet Hardverekhez kapcsolódó védelmi intézkedések",
+      "section": "21",
+      "title": "21. §",
+      "content": "21. § (1) A hordozható eszközökön az III rendszeres időközönként, de legalább félévente elvégzi a szükséges szoftverfrissítéseket. (2) A hordozható eszközt a felhasználók nem hagyhatják őrizetlenül. A felhasználók fokozott figyelmet fordítanak a jogosulatlan hozzáférés, az adatok és a hordozható eszköz esetleges módosítása, megrongálása vagy ellopása elleni védelemre. (3) Tilos a hordozható eszköz: a) engedély nélküli átruházása, jogosulatlan személynek való átadása vagy a hordozható eszközön tárolt adatok jogosulatlan személy számára történő hozzáférhetővé tétele, b) jelszóval nem védett nyilvános hálózathoz való csatlakoztatása, c) bármilyen indokolatlan veszélynek történő kitétele vagy nem rendeltetésszerű használata, d) biztonsági intézkedéseinek megkerülése, és minden erre irányuló kísérlet. (4) A felhasználó felelős a hordozható eszközön tárolt olyan adat megőrzéséért, amely a Hivatal hálózati szerverein nem áll rendelkezésre. (5) Ha a hordozható eszköz bármely okból szándékosan kikerül a Hivatal vagy a Hivatal személyi állományába tartozó felhasználó rendelkezése alól, úgy, hogy azt megelőzően a hordozható eszköz tartalmának törlésére nem került sor, vagy arra nincs lehetőség, annak a személynek, aki ezzel a hordozható eszköz tartalmához hozzáférhet, titoktartási nyilatkozatot kell tennie. A titoktartási nyilatkozat megszerzéséért, illetve ellenőrzéséért az eszközt átadó személy felelős. (6) A hordozható eszköz elvesztéséről, ellopásáról az III-t haladéktalanul értesíteni kell a szükséges biztonsági intézkedések megtétele, különösen a mobiltelefon letiltása és a hivatali postafiókokhoz való jogosulatlan hozzáférés megakadályozása érdekében. (7) A hordozható eszközt a felhasználó félévenként köteles átadni az III munkatársainak a rendszeres karbantartások, biztonsági frissítések, ellenőrzések és hardvertesztek végrehajtása céljából."
+    },
+    {
+      "provision_ref": "s22",
+      "chapter": "II. Fejezet Hardverekhez kapcsolódó védelmi intézkedések",
+      "section": "22",
+      "title": "22. §",
+      "content": "22. § (1) Az elnök, az elnökhelyettesek, a főtitkár, a versenytanácstagok, a kabinetfőnök, a titkárságvezető, az irodavezetők, az irodavezető-helyettesek és a csoportvezetők a Hivatal tulajdonában álló notebook használatára jogosultak. Az III hivatali használatra az elnök által jóváhagyott számú notebookot biztosít a Felderítő Iroda részére, valamint eseti felhasználásra felderítési céllal tabletet biztosít, amelyeket a Felderítő Iroda vezetője ad át esetileg a felhasználónak. Egyéb esetben az III a notebook használatát igénylő felhasználó szervezeti egységének vezetője által írt írásbeli kérelem alapján biztosíthat notebookot a felhasználó számára. A kérelemben meg kell jelölni a felhasználót, az igénylés indokát, valamint a felhasználás várható időtartamát. Az III az igénylést köteles teljesíteni, ha van szabadon rendelkezésre álló notebook. (2) Az III tesztelve és előtelepítve adja át a notebook-ot a felhasználónak, illetve az irodának, egyúttal kioktatja a notebook működtetésével kapcsolatos általános tudnivalókról, különös felhasználói szabályokról és a felhasználó kártérítési felelősségéről. A kioktatás írásban is történhet. A felhasználó – ideértve a Felderítő Iroda számára biztosított notebook-ot vagy tabletet esetileg használatra átvevő felhasználót is – a notebook vagy tablet átvételét és a kioktatásban foglaltak tudomásulvételét dátum feltüntetése mellett aláírásával igazolja. A különleges jogállású szervekről és az általuk foglalkoztatottak jogállásáról szóló 2019. évi CVII. törvény 86. § (6) és (7) bekezdése szerinti kártérítési felelősség az aláírt átvételi elismervényben megjelölt időponttól terheli a felhasználót. (3) A Hivatal által a felhasználó rendelkezésére bocsátott notebook-on csak az III jogosult szoftvert telepíteni vagy a beállításokat módosítani. (4) A notebook adathordozóit titkosítani kell, a bejelentkezés jelszóhoz kötött. Az ilyen jelszót a hálózati jelszóval azonos módon kell kezelni, azt más számára átadni nem lehet."
+    },
+    {
+      "provision_ref": "s23",
+      "chapter": "III. Fejezet Szoftverekhez kapcsolódó védelmi intézkedések",
+      "section": "23",
+      "title": "23. §",
+      "content": "23. § (1) A Hivatal információs rendszerében csak eredményesen tesztelt szoftver használható, ideértve a freeware szoftvereket is. A telepítésre, újratelepítésre, továbbá az operációs rendszerek cseréjére csak rendszergazda jogosult. (2) A Hivatalban kizárólag olyan szoftvert és kapcsolódó dokumentációt szabad használni, amely megfelel a rá vonatkozó jogszabályi követelményeknek és szerződésbeli elvárásoknak, ideértve a szerzői jogi szabályokat is. A használatban levő licencek száma nem haladhatja meg a megvásárolt licencek darabszámát. (3) A Hivatal által alkalmazott valamennyi szoftver licencét és dokumentációját páncélszekrényben kell őrizni, azokról a rendszergazda nyilvántartást vezet. (3a) A telepítőkészleteket, illetve aktiválási kódokat megfelelően védeni kell az illetéktelen hozzáféréstől, felhasználástól. (4) Ha a Hivatal által beszerzett, vagy számára kifejlesztett szoftver licencszerződése másként nem rendelkezik, tilos az ilyen szoftver és dokumentációja másolása és harmadik személy részére történő átadása. (5) A Hivatalban az III vezetőjének jóváhagyása nélkül nem használható olyan alkalmazás, program, amely a Hivatal más elektronikus információs rendszereinek adatbázisait igénybe veszi, onnan adatot vesz át vagy azokhoz kapcsolódik. (6) Az e szabályzatban rögzített szoftvereszközökre vonatkozó biztonsági előírások betartását az III előzetes tájékoztatás nélkül bármikor ellenőrizheti."
+    },
+    {
+      "provision_ref": "s24",
+      "chapter": "III. Fejezet Szoftverekhez kapcsolódó védelmi intézkedések",
+      "section": "24",
+      "title": "24. §",
+      "content": "24. § (1) Az III vezetője határozza meg a Hivatalban használt operációs rendszert, valamint azoknak a szoftvereknek a körét, amelyeket valamennyi munkaállomásra és notebook-ra telepíteni kell (a továbbiakban: alapszoftver). Az III vezetője döntése során szakmai és költségvetési szempontokat mérlegel, ideértve a szoftver forráskódját, a Hivatal információs rendszerével való kompatibilitást, valamint az üzemeltetéssel, frissítésekkel, védelemmel, hibaelhárítással és támogatással összefüggő várható költségeket is. (2) Valamennyi munkaállomásnak és notebook-nak alkalmasnak kell lennie a hivatali munkavégzésre. Az alapszoftvereknek biztosítaniuk kell az alábbi funkciókat: a) dokumentumszerkesztés, az III vezetőjének döntése szerinti különböző formátumú dokumentumok kezelése, nyomtatása, tömörítés és a tömörített dokumentumok kezelése, b) hivatali elektronikus levelezés, naptár- és feladatkezelés, c) nyilvántartási és adminisztratív feladatok ellátása, d) internetes böngészés."
+    },
+    {
+      "provision_ref": "s25",
+      "chapter": "III. Fejezet Szoftverekhez kapcsolódó védelmi intézkedések",
+      "section": "25",
+      "title": "25. §",
+      "content": "25. § (1) Az alapszoftvereken kívül az érintett szervezeti egység vezetője írásban igényelheti más szoftver telepítését is egy adott felhasználó vagy felhasználók meghatározott köre számára. Az III vezetője az informatikai biztonsági szempontok mérlegelése alapján dönt a szoftver telepítésének engedélyezéséről. A szoftvert rendszergazda telepíti. (2) A szoftverbeszerzéshez az III vezetőjének jóváhagyása szükséges. (3) Ha egyedi szoftverfejlesztés szükséges, a fejlesztés elrendelésével vagy a fejlesztésre kötött szerződés megkötésére adott felhatalmazással egyidejűleg a főtitkár kijelöli a specifikáció tartalmi meghatározásáért és a kapcsolattartásért felelős szervezeti egységet. A felhasználói specifikációt az III vezetőjének jóvá kell hagynia."
+    },
+    {
+      "provision_ref": "s26",
+      "chapter": "III. Fejezet Szoftverekhez kapcsolódó védelmi intézkedések",
+      "section": "26",
+      "title": "26. §",
+      "content": "26. § (1) A munkaállomásra való bejelentkezéshez, a hálózati alkalmazások és a hálózati tartalom eléréséhez hálózati jelszó szükséges. (2) A hálózati jelszó formátumerősségét és biztonsági követelményeit az III vezetője határozza meg, és azt a hivatali szerveren a felhasználók számára hozzáférhetővé teszi. (3) Az III vezetője és a rendszergazda saját rendszergazdai jelszavával valamennyi munkaállomásra bejelentkezhet, továbbá valamennyi hálózati alkalmazáshoz és hálózati tartalomhoz hozzáfér, ideértve a felhasználó saját hálózati munkakönyvtárát (Home könyvtár; a továbbiakban: saját munkakönyvtár) is."
+    },
+    {
+      "provision_ref": "s27",
+      "chapter": "III. Fejezet Szoftverekhez kapcsolódó védelmi intézkedések",
+      "section": "27",
+      "title": "27. §",
+      "content": "27. § Az integrált ügyirat-kezelési és ügyadat-nyilvántartási rendszer eléréséhez további autentikáció szükséges. Az ügyirat-kezelési és ügyadat-nyilvántartási rendszerben a jogosultságok a szervezeti fának, illetve a munkatársak feladatkörének megfelelően illetik meg a felhasználókat, az iratkezelési szabályzat rendelkezéseit is alkalmazva."
+    },
+    {
+      "provision_ref": "s28",
+      "chapter": "III. Fejezet Szoftverekhez kapcsolódó védelmi intézkedések",
+      "section": "28",
+      "title": "28. §",
+      "content": "28. § (1) A korlátozott felhasználói kör által, külön autentikációval elérhető rendszereket (a továbbiakban: egyedi használatú alkalmazások) csak a kijelölt, egyedi jogosultsággal rendelkező, megfelelő képzésben részesült felhasználók alkalmazhatják vagy használhatják. Az III az egyedi használatú alkalmazásokról nyilvántartást vezet, amelyben szerepel az is, hogy ki osztja ki az ezekhez hozzáférést biztosító jogosultságokat. (2) Egyedi használatú alkalmazások különösen: a) a Költségvetési, Vagyongazdálkodási és Kontrolling Iroda szakterületi rendszerei, b) a Humánerőforrás és Koordinációs Iroda szakterületi rendszerei, c) a Hivatal honlapszerkesztőségi rendszere, d) a SharePoint csoportmunka rendszer, valamint e) a versenytanácsi szignálási és ügyteher-mérési rendszer."
+    },
+    {
+      "provision_ref": "s29",
+      "chapter": "III. Fejezet Szoftverekhez kapcsolódó védelmi intézkedések",
+      "section": "29",
+      "title": "29. §",
+      "content": "29. § (1) A hálózati jelszó az III vezetője által meghatározott ideig, de legfeljebb 90 napig érvényes. A hálózati jelszó érvényességi ideje legalább 1 nap. A rendszer a hálózati jelszó érvényességi idejének lejárta előtt értesítést küld a felhasználó számára az érvényességi idő lejártának időpontjáról. A felhasználó köteles hálózati jelszavát annak lejárata előtt megváltoztatni. Az új hálózati jelszó nem lehet azonos a közvetlenül megelőzően használt tizenkettő hálózati jelszóval. (2) A hálózati jelszó lejárta vagy elfelejtése esetén az III a felhasználó számára ideiglenes jelszót biztosít, amelyet a hálózatba történő következő bejelentkezéskor a felhasználónak meg kell változtatnia. (3) A jelszó többszöri hibás megadása a felhasználó hálózatból való automatikus kitiltását vonja maga után, amit csak rendszergazda oldhat fel."
+    },
+    {
+      "provision_ref": "s30",
+      "chapter": "III. Fejezet Szoftverekhez kapcsolódó védelmi intézkedések",
+      "section": "30",
+      "title": "30. §",
+      "content": "30. § (1) Tilos a hálózati jelszót más számára átadni vagy hozzáférhetővé tenni. (2) A jelszót minden esetben egyedileg kell megadni, az automatikus megjegyzést nem lehet alkalmazni. (3) Ha a felhasználó távollétében bármely okból szükséges a levelezéséhez vagy saját munkakönyvtárához való hozzáférés, a hozzáférést igénylő szervezeti egység vezetője feljegyzésben kéri az III-t, hogy tegye számára hozzáférhetővé a szükséges dokumentumot. A feljegyzésben meg kell jelölni a felhasználó távollétében való hozzáférés szükségességének indokát, a hozzáférés célját, valamint – ha lehetséges – pontosan meg kell jelölni a megismerni kívánt dokumentumot, illetve annak elérési útját és egyéb paramétereit. A feljegyzést tájékoztatásul meg kell küldeni a felhasználónak is."
+    },
+    {
+      "provision_ref": "s31",
+      "chapter": "III. Fejezet Szoftverekhez kapcsolódó védelmi intézkedések",
+      "section": "31",
+      "title": "31. §",
+      "content": "31. § (1) A hordozható eszköz alkalmazásához szükséges további biztonsági célú egyedi azonosítóra a hálózati jelszóra vonatkozó szabályokat megfelelően alkalmazni kell. (2) Az III vezetője a mobiltelefonok és SIM-kártyák biztonsági kódjait, a távoli eléréshez szükséges VPN tanúsítványokat és a notebook-ok titkosító jelszavait nyilvántartja."
+    },
+    {
+      "provision_ref": "s32",
+      "chapter": "III. Fejezet Szoftverekhez kapcsolódó védelmi intézkedések",
+      "section": "32",
+      "title": "32. §",
+      "content": "32. § (1) A hálózati jelszóra vonatkozó szabályokat kell megfelelően alkalmazni akkor is, ha valamely alkalmazáshoz feladatköri leírásából következő feladata ellátása érdekében több felhasználónak is hozzá kell férnie, vagy azt használnia kell. (2) A több felhasználó által jogszerűen használt jelszó bizalmasságának megőrzéséért a jelszó valamennyi jogosultja felelős. (3) A több felhasználó által jogszerűen használt jelszó jogosultjairól az érintett szervezeti egység vagy szervezeti egységek vezetője nyilvántartást vezet. (4) Az érintett szervezeti egység vezetője tájékoztatja az III vezetőjét arról, ha a szervezeti egységébe tartozó felhasználó más felhasználóval együtt jogosult az e § szerinti jelszó használatára."
+    },
+    {
+      "provision_ref": "s33",
+      "chapter": "IV. Fejezet Az adatfeldolgozás folyamatához kapcsolódó intézkedések",
+      "section": "33",
+      "title": "33. §",
+      "content": "33. § (1) A felhasználónak az általa előállított dokumentumot a hálózati szerveren kell tárolnia, az e célból létrehozott saját hálózati munkakönyvtárában vagy a szervezeti egységek saját hálózati könyvtáraiban. A szervezeti egység vezetője elrendelheti, hogy bizonyos dokumentumokat a szervezeti egység könyvtárában kell tárolni. (2) A munkaállomás C:\\ egysége az operációs rendszer és az alkalmazások rendszeradatainak tárolására fenntartott terület, a felhasználó saját munkaállomása C:\\ egységére nem menthet dokumentumokat. (3) A felhasználó köteles saját munkakönyvtára anyagát rendszeres időközönként áttekinteni. Az III vezetője határozza meg a felhasználók saját munkakönyvtárának méretét. (4) A file szerveren lehetőség van egyedi mappák létrehozására is. Főkönyvtár létrehozására az informatikus munkatársak jogosultak, az erre irányuló igényeket adminisztrálható formában (e-mail, feljegyzés), a hozzáférési jogosultságok személyenkénti rögzítésével (írási- vagy olvasási jogok) az III vezetőjének kell megküldeni."
+    },
+    {
+      "provision_ref": "s34",
+      "chapter": "IV. Fejezet Az adatfeldolgozás folyamatához kapcsolódó intézkedések",
+      "section": "34",
+      "title": "34. §",
+      "content": "34. § (1) A hálózati szerverek rendszeres mentéseiből rendelkezésre álló adatok visszaállítása rendszergazdai feladat. (2) A rendszergazda az adatok visszaállításáról nyilvántartást vezet, amely tartalmazza a visszaállítás kérelmezőjének nevét, a visszaállítás időpontját, továbbá a visszaállítással érintett adatállomány megnevezését és a mentésre szolgáló adathordozó egyedi azonosítóját."
+    },
+    {
+      "provision_ref": "s34a",
+      "chapter": "V. Fejezet Kommunikációhoz kapcsolódó védelmi intézkedések",
+      "section": "34/A",
+      "title": "34/A. §",
+      "content": "34/A. § (1) A belső és a külső hálózati szolgáltatásokhoz történő hozzáférést a következő módon kell biztosítani: a) megfelelő interfészt kell alkalmazni, a Hivatal információs rendszere és más hálózat közötti kommunikáció során, b) a felhasználókat jelszóval hitelesíteni kell, c) ellenőrizni kell a felhasználók szolgáltatáshoz való hozzáférését. (2) A Hivatal belső hálózatáról internetkapcsolat kizárólag tűzfalon keresztül létesíthető. (3) Biztosítani kell, hogy a Hivatal elektronikus információs rendszerei alapértelmezés szerint ne legyenek elérhetők az internet felől. Ha az internet felőli hozzáférés szükséges, arra kizárólag biztonságos és ellenőrzött kapcsolaton keresztül kerülhet sor. (4) Az internet és a Hivatal információs rendszere közötti hálózati forgalom szűrésére, a lehetőségek korlátozására tűzfalakat, tartalomszűrőket, illetve meghatározott címekkel a kapcsolat tiltását biztosító megoldásokat kell üzemeltetni, és azok naplózását biztosítani kell."
+    },
+    {
+      "provision_ref": "s34b",
+      "chapter": "V. Fejezet Kommunikációhoz kapcsolódó védelmi intézkedések",
+      "section": "34/B",
+      "title": "34/B. §",
+      "content": "34/B. § (1) Az elektronikus információs rendszerekben az adatok sértetlenségének és bizalmasságának védelmére szabványos, a digitális államról és a digitális szolgáltatások nyújtásának egyes szabályairól szóló 2023. évi CIII. törvény rendelkezései szerint biztonságosnak minősített kriptográfiai algoritmust kell alkalmazni. (2) Kriptográfiai eszköz bevezetése esetén ki kell dolgozni az eszköz biztonságos használatát garantáló szabályozást, amelynek a következőket kell tartalmaznia: a) az eszköz védelmét biztosító előírások, b) az eszköz felhasználására vonatkozó követelmények, c) a kulcsok generálására, elosztására, tárolására és megsemmisítésére vonatkozó szabályok, valamint d) a rejtjelezett adatok visszaállításának szabályai és eljárásai a kulcs megsérülése vagy elvesztése esetére."
+    },
+    {
+      "provision_ref": "s35",
+      "chapter": "V. Fejezet Kommunikációhoz kapcsolódó védelmi intézkedések",
+      "section": "35",
+      "title": "35. §",
+      "content": "35. § A Hivatal kommunikációs alkalmazásai a következők: a) levelezőrendszer, b) web alapú alkalmazások, beleértve az IP telefonszolgáltatást is, c) a Hivatal portálrendszere. d) hivatali mobiltelefonon futó, nem webalapú alkalmazások."
+    },
+    {
+      "provision_ref": "s36",
+      "chapter": "V. Fejezet Kommunikációhoz kapcsolódó védelmi intézkedések",
+      "section": "36",
+      "title": "36. §",
+      "content": "36. § (1) A levelezőrendszer rendeltetése a munkavégzés támogatása, a Hivatal működésének hatékonyabbá tétele, a munkafolyamatok automatizálásának elősegítése. (2) A levelezőrendszernek alkalmasnak kell lennie alapvető feladat nyilvántartással kapcsolatos funkciók, valamint naptárfunkciók ellátására, ezen belül a felhasználók közötti találkozók időpontjának egyeztetésére, meghívó küldésére és elfogadására, helyszín egyeztetésére és lefoglalására."
+    },
+    {
+      "provision_ref": "s37",
+      "chapter": "V. Fejezet Kommunikációhoz kapcsolódó védelmi intézkedések",
+      "section": "37",
+      "title": "37. §",
+      "content": "37. § (1) Az e-mail címeket az III adja ki és végzi azok nyilvántartását, karbantartását. (2) A hivatali e-mail cím nem hivatalos célból történő közzététele tilos. (3) A felhasználó kizárólag a feladatainak ellátásához kapcsolódó vagy azt támogató levelező listára iratkozhat fel, erről a vezetőjét tájékoztatnia kell."
+    },
+    {
+      "provision_ref": "s38",
+      "chapter": "V. Fejezet Kommunikációhoz kapcsolódó védelmi intézkedések",
+      "section": "38",
+      "title": "38. §",
+      "content": "38. § (1) Csoportos cím vagy virtuális cím létrehozását az érintett szervezeti egység vezetője, több szervezeti egység érintettsége esetén valamennyi érintett vezető együttesen írásban igényelheti az III vezetőjétől. (2) Az igénylésben meg kell jelölni a) a kért címet, b) csoportos cím esetén az ahhoz tartozó felhasználókat, illetve e-mail címeket, c) virtuális cím esetén a címhez tartozó postafiókért felelős felhasználót, valamint azokat az esetleges további felhasználókat, akik a postafiókhoz hozzáférnek. (3) Az III a csoportos és virtuális e-mail címekről nyilvántartást vezet, amely alapján rendszeresen, de legalább évente ellenőrzi a disztribúciós csoport vagy a virtuális e-mail cím fenntartásának szükségességét és felülvizsgálja a csoport-tagságot."
+    },
+    {
+      "provision_ref": "s39",
+      "chapter": "V. Fejezet Kommunikációhoz kapcsolódó védelmi intézkedések",
+      "section": "39",
+      "title": "39. §",
+      "content": "39. § (1) A felhasználó feladata e-mail postafiókja karbantartása. A régi leveleket, nagy csatolmányokat tartalmazó e-mail-eket rendszeresen archiválni vagy törölni kell. A levelezőszerver működőképességének fenntartása érdekében a felhasználói postafiókok az III vezetője által meghatározott méretű kvótával rendelkeznek. A kvótán felül a postafiók nem tud levelet küldeni vagy fogadni. A levelezőrendszer automatikus értesítést küld a felhasználónak, ha a postafiók telítettsége eléri az III vezetője által a kvótán belül, annak százalékos arányaként meghatározott mértéket. (2) A bejövő és kimenő levelek mérete nem haladhatja meg az 50 MB-ot. (3) Az III vezetője által meghatározott kiterjesztésű fájlok fogadását a tűzfalon keresztül kell megakadályozni."
+    },
+    {
+      "provision_ref": "s40",
+      "chapter": "V. Fejezet Kommunikációhoz kapcsolódó védelmi intézkedések",
+      "section": "40",
+      "title": "40. §",
+      "content": "40. § (1) Az III spamszűrőt működtet. (2) A felhasználó köteles a feltételezetten levélszemét-jellegű vagy egyéb okból gyanús e-maileket megnyitás nélkül a helpdesk@gvh.hu címre továbbítani, és a továbbított levél tárgyában megjelölni, hogy gyanús levélről van szó."
+    },
+    {
+      "provision_ref": "s41",
+      "chapter": "V. Fejezet Kommunikációhoz kapcsolódó védelmi intézkedések",
+      "section": "41",
+      "title": "41. §",
+      "content": "41. § (1) A Hivatal levelezőrendszerének elérésére a felhasználónak a hálózaton kívülről is van lehetősége (a továbbiakban: külső hozzáférés). A külső hozzáférés szabályait az III vezetője határozza meg. (2) A felhasználó egy munkanapot meghaladó távollétének megkezdése előtt köteles átirányítani a Hivatal belső levelezési rendszerébe érkező e-mailjeit az őt helyettesítő vagy a vezető által kijelölt munkatárs e-mail postafiókjára, vagy meghatalmazást adni az e-mail postafiók kezelésére a helyettesítő munkatárs részére. Nem tervezett, egy munkanapot meghaladó távollét esetén az átirányításról az III gondoskodik az önálló szervezeti egység vezetőjének kérelmére és a távollévő felhasználó egyidejű tájékoztatása mellett. (3) A felhasználónak postafiókját távolléte esetén is karban kell tartania. (4) A felhasználó a (2) bekezdésben meghatározott kivétellel nem jogosult a Hivatal belső levelezési rendszerébe érkező e-mailjei automatikus továbbítására, átirányítására."
+    },
+    {
+      "provision_ref": "s42",
+      "chapter": "V. Fejezet Kommunikációhoz kapcsolódó védelmi intézkedések",
+      "section": "42",
+      "title": "42. §",
+      "content": "42. § A Hivatal szervezetén kívüli címzettnek küldött e-mailt a központilag beállított, arculati kézikönyv szerinti automatikusan beilleszthető egységes szervezeti aláírással és – a Jogi Támogató Iroda vezetője által megfogalmazott – felelősséget korlátozó felhasználhatósági nyilatkozattal (disclaimer) kell ellátni."
+    },
+    {
+      "provision_ref": "s43",
+      "chapter": "V. Fejezet Kommunikációhoz kapcsolódó védelmi intézkedések",
+      "section": "43",
+      "title": "43. §",
+      "content": "43. § (1) Az internethasználat a Hivatalban – a közszolgálati szabályzatban foglaltakat is szem előtt tartva – elsősorban a munkavégzést szolgálja. (2) A felhasználó nem változtathatja meg az internetböngészők paramétereit, biztonsági beállításait. (3) A rendszert úgy kell beállítani, hogy az III vezetője által meghatározott beállításokat a felhasználó ne tudja megváltoztatni, valamint hogy az internetről ne tudjon semmilyen programot letölteni, illetve telepíteni. (4) Tilos a hálózatot, illetve erőforrásait indokolatlanul vagy túlzott mértékben, pazarló módon igénybevevő, vagy az informatikai biztonságot vagy adatbiztonságot veszélyeztető tevékenység, így a) munkavégzéssel össze nem függő okból szórakoztató kép és hanganyagok letöltése, azok hálózati meghajtókon elhelyezése, valamint az online videónézés, b) munkavégzéssel össze nem függő okból felhőhöz csatlakozás vagy ahhoz való hozzáférés a hivatali internetkapcsolaton keresztül, c) felhő alapú tárhelyen munkavégzéshez kapcsolódó adatok tárolása, d) olyan szoftver használata, ami a munkaállomást vagy hordozható eszközt szerverként használja, és ezáltal tartalmat szolgáltat, e) azonnali üzenetküldő alkalmazások letöltése, munkaállomásra vagy hordozható eszközre telepítése, azok használata, f) a Hivatal hálózatáról a közösségi oldalak látogatása munkavégzéssel össze nem függő okból, g) árut vagy szolgáltatást kínáló oldalak, chat-oldalak, társkereső oldalak, internetes aukciós oldalak látogatása munkavégzéssel össze nem függő okból, h) internetes hálózati játékot vagy szerencsejátékot kínáló oldalak látogatása munkavégzéssel össze nem függő okból. (5) Az III webszűrő alkalmazásával, illetve a webhelyekhez való hozzáférés letiltásával biztosítja, hogy a (4) bekezdéssel ellentétes webhelyek a Hivatal internetes hálózatáról ne legyenek elérhetők. (6) Ha a munkavégzés szempontjából indokolt, a felhasználó az III vezetőjének címzett, másolatban egyidejűleg a szervezeti egysége vezetőjének megküldött e-mailben kérheti, hogy az III egyedi hozzáférést biztosítson számára a megjelölt letiltott oldalhoz, meghatározott célból és ideig."
+    },
+    {
+      "provision_ref": "s44",
+      "chapter": "V. Fejezet Kommunikációhoz kapcsolódó védelmi intézkedések",
+      "section": "44",
+      "title": "44. §",
+      "content": "44. § (1) A Hivatal vendég WLAN szolgáltatáson keresztül internet hozzáférést (a továbbiakban: vendéghálózat) biztosít. A kapcsolódáshoz hálózati azonosító és jelszó alapú azonosítás szükséges, amelyet a recepción adnak át a vendégnek. A vendéghálózat használatához szükséges jelszót a rendszergazda rendszeresen, de legalább félévente cseréli, arról nyilvántartást vezet. (2) A vendéghálózat konfigurálása során a Hivatal hálózatához jogosultságok nem adhatók. (3) A vendéghálózatra nem kell alkalmazni a hivatali internethálózat beállításaira vonatkozó korlátozásokat."
+    },
+    {
+      "provision_ref": "s45",
+      "chapter": "V. Fejezet Kommunikációhoz kapcsolódó védelmi intézkedések",
+      "section": "45",
+      "title": "45. §",
+      "content": "45. § (1) A Hivatal által üzemeltetett honlapok működtetését és tartalmi frissítését a Hivatal saját tulajdonában levő szerverein, saját erőforrásból biztosítja. A honlapok tartalmi karbantartását biztosító tartalommenedzsment rendszerhez egyedi jogosultságokat kell biztosítani, amelyek kiosztását az III koordinálja. (2) A Hivatal által üzemeltetett honlapok karbantartásáról külön normatív utasítás rendelkezik."
+    },
+    {
+      "provision_ref": "s46",
+      "chapter": "VI. Fejezet Adatszivárgás elleni védekezés",
+      "section": "46",
+      "title": "46. §",
+      "content": "46. § (1) A Hivatal az adatok bizalmasságának és sértetlenségének biztosítása érdekében adatszivárgás elleni védelmi rendszert működtet, ennek keretében speciális szoftvert alkalmaz (a továbbiakban: DLP-alkalmazás). A DLP-alkalmazást az III üzemelteti, a működésével kapcsolatos, felhasználókat érintő tudnivalókat a belső hálózaton a felhasználók számára hozzáférhetővé teszi. (2) A DLP-alkalmazás többszintű eszkalációs útvonalon keresztül minősíti a rendszer által gyűjtött adatokat, első szinten az III vezetője, majd – ha a biztonsági eseményről szóló figyelmeztetés megítélése az III vezetője számára nem egyértelmű, és azért felelősséget nem vállal – az III vezetőjének jelzése alapján második szinten a felelős szervezeti egység vezetője megvizsgálja az adatszivárgás-gyanús eseteket a tekintetben, hogy azok valós veszélyt jelentenek-e. A biztonsági eseményről szóló DLP-figyelmeztetésről az III vezetője a felhasználót tájékoztathatja, ha a tájékoztatás hozzájárulhat a felhasználó információbiztonság tudatosságához és adatbiztonsági kockázattal nem jár. (3) A Hivatalban a DLP-alkalmazást alkalmazni kell: a) a hálózaton tárolt adatokra (file-szerver, csoportmunka eszközök, hálózati adatbázisok), b) a felhasználói munkaállomásra, a notebookra, c) a levelezőrendszerre, valamint d) az egyéb kommunikációs és internetes alkalmazásokra. (4) A DLP-alkalmazás a szervezeti egységek vezetőinek részvételével e célra létrehozott eseti munkacsoport által kialakított szabályrendszer alapján minden hozzáférést és adatmozgást monitoroz, ideértve az e-mail küldést, nyomtatást és adathordozóra mentést is. (5) A DLP-alkalmazás az adatmozgás blokkolására is alkalmazható."
+    },
+    {
+      "provision_ref": "s47",
+      "chapter": "VI. Fejezet Adatszivárgás elleni védekezés",
+      "section": "47",
+      "title": "47. §",
+      "content": "47. § (1) A Hivatal elektronikus információs rendszereinek távoli elérése csak egyedileg azonosított felhasználók számára, és csak korlátozottan, nem minden rendszer vonatkozásában engedélyezett. (2) A távoli elérés kialakítása a) https elérésen és b) VPN kapcsolaton keresztül lehetséges."
+    },
+    {
+      "provision_ref": "s48",
+      "chapter": "VI. Fejezet Adatszivárgás elleni védekezés",
+      "section": "48",
+      "title": "48. §",
+      "content": "48. § (1) VPN kapcsolatot a Hivatal munkatársai csak a Hivatal tulajdonában lévő, titkosított eszközzel, személyre szóló tanúsítvánnyal létesíthetnek. Ilyen hozzáférés a SharePoint csoportmunka-rendszerhez, – kivételesen indokolt esetben, az indokok megjelölésével – a távoli asztal kapcsolat szolgáltatáshoz, valamint az informatikus munkatársak számára az ügyirat-kezelési és ügyadat-nyilvántartási rendszerhez igényelhető a főtitkártól, iktatott feljegyzésben. A főtitkár a távoli asztal kapcsolat szolgáltatáshoz való hozzáférést a Hivatal rendelkezésére álló infrastrukturális, anyagi és egyéb források függvényében engedélyezi, az III vezetőjének véleménye alapján. Az állandó használatra kiadott laptop számítógépek, valamint az elnök által engedélyezett otthoni munkavégzés tekintetében a VPN kapcsolat telepítéséhez nincs szükség külön engedélyre, azt az III munkatársai automatikusan beállítják. Az III a kiadott VPN kapcsolatokról informatikai biztonsági szempontok miatt naprakész nyilvántartást vezet, amely tartalmazza a munkatárs nevét, szervezeti egységét, valamint az érintett eszköz megjelölését. (2) A vendégfelhasználók számára VPN kapcsolatot – személyre szóló tanúsítvánnyal – az III vezetője engedélyezhet a rendszerek kivitelezésére, üzemeltetésére vagy támogatására vonatkozó szerződések alapján, a szerződésben foglaltak szerint, kizárólag a támogatott szakrendszerhez való hozzáférés érdekében. A VPN kapcsolat biztonsági követelményeit kötelező elemként a szerződésben rögzíteni kell. (3) A VPN hozzáféréseket a tűzfalon keresztül naplózni kell. A távoli elérések során az III vezetője által meghatározott ideig tartó inaktivitás esetén az elektronikus információs rendszerhez való további hozzáférés zárolására kerül sor. (4) A VPN kapcsolatot biztosító személyre szóló tanúsítványt a rendszergazda adja ki, és a tanúsítványokról nyilvántartást vezet."
+    },
+    {
+      "provision_ref": "s49",
+      "chapter": "VI. Fejezet Adatszivárgás elleni védekezés",
+      "section": "49",
+      "title": "49. §",
+      "content": "49. § (1) A hálózat és a rendszerelemek rosszindulatú vagy kártékony programok, vírusok elleni védelme érdekében az III aktív vírusvédelmi rendszert működtet. Az III biztosítja valamennyi vírusvédelmi alkalmazás legalább naponta egyszeri automatikus frissítését a gyártó cég szerveréről. (2) A tűzfalon keresztül végzett minden tevékenységet naplózni kell, ideértve a webhelyek látogatásának automatikus rögzítését is. A naplózásnak lehetővé kell tennie a munkaállomás vagy hordozható eszköz beazonosíthatóságát. A naplóállományokat az esetleges hálózati és kommunikációs incidensek kivizsgálása és hibajavítása céljából kilencven napig kell megőrizni. (3) A védelmi rendszer keretében a) a munkaállomásokon és a Windows-os virtuális szervereken vírusvédelmi alkalmazás, b) az internetforgalomra és a hivatali levelezőrendszerbe érkező levelekre alkalmazott kétszintű vírusellenőrzés, c) a hivatali levelezőrendszerbe érkező levelekre alkalmazott spamszűrés működik."
+    },
+    {
+      "provision_ref": "s49a",
+      "chapter": "VI. Fejezet Adatszivárgás elleni védekezés",
+      "section": "49/A",
+      "title": "49/A. §",
+      "content": "49/A. § (1) A Hivatalban központi hálózatmenedzsment rendszer működik, amely biztosítja a biztonsági frissítések hálózaton belüli terítését, a hibakeresést, illetve a hibaelhárítások kivitelezését. (2) A frissítések telepítésének eredményéről a rendszergazda nyilvántartást vezet. (3) A központi frissítésekre szolgáló karbantartási ablakokat lehetőség szerint minden hónapban azonos napokon és időpontokban kell kijelölni, ezekről az III előzetesen e-mailben tájékoztatja a felhasználókat."
+    },
+    {
+      "provision_ref": "s49b",
+      "chapter": "VI. Fejezet Adatszivárgás elleni védekezés",
+      "section": "49/B",
+      "title": "49/B. §",
+      "content": "49/B. § (1) A Hivatal szerverein a Windows operációs rendszerű szerverek biztonsági frissítéseit minden hónapban, a gyártó által kiadott frissítőcsomagok megjelenése után, központilag, rendszergazdai felügyelet mellett kell telepíteni. A telepítéseket három ütemben kell végrehajtani, az III vezetője által meghatározott rendben. (2) A munkaállomásokat érintő biztonsági frissítéseket minden hónapban, a gyártó által kiadott frissítőcsomagok megjelenése után, központilag ütemezve, rendszergazdai felügyelet mellett kell telepíteni. A telepítéseket két ütemben kell végrehajtani, az III vezetője által meghatározott rendben. (3) A biztonságkritikus szoftvereket frissítésük kiadását követő 2 héten belül kell telepíteni."
+    },
+    {
+      "provision_ref": "s49c",
+      "chapter": "VI. Fejezet Adatszivárgás elleni védekezés",
+      "section": "49/C",
+      "title": "49/C. §",
+      "content": "49/C. § (1) A hálózati adatállományok biztonsága érdekében a szerverekről az III vezetője által meghatározott rendben és megőrzési idővel a) naponta napi differenciális mentést kell készíteni, részben kazettára, részben pedig gyorsabb elérhetőségű lemezekre, b) hetente egyszer teljes mentést kell végrehajtani, amelyek a napi mentésekkel megegyező módon kerülnek adattárolókra, c) havonta egyszer teljes mentést kell készíteni, kazettára mentve. (2) A mentések megtervezése és lebonyolítása az III feladata."
+    },
+    {
+      "provision_ref": "s49d",
+      "chapter": "VI. Fejezet Adatszivárgás elleni védekezés",
+      "section": "49/D",
+      "title": "49/D. §",
+      "content": "49/D. § (1) A mentésre, archiválásra felhasznált adathordozót zárható szekrényben, az adathordozó saját tartójában, borításában kell elhelyezni úgy, hogy tárolás közben ne sérüljön, károsodjon. (2) A mentésre, archiválásra felhasznált adathordozót címkével kell ellátni, ahhoz a rendszergazda és az III vezetője fér hozzá. (3) A mentést vagy archivált adatot tartalmazó adathordozón fel kell tüntetni az adathordozó egyedi sorszámát. (4) A havi mentés adathordozóját a napi mentésektől elkülönítve, másik páncélszekrényben kell elhelyezni. (5) A havi mentésre és archiválásra felhasznált adathordozókról a rendszergazda nyilvántartást vezet, amelyet páncélszekrényben kell tárolni."
+    },
+    {
+      "provision_ref": "s49e",
+      "chapter": "VI. Fejezet Adatszivárgás elleni védekezés",
+      "section": "49/E",
+      "title": "49/E. §",
+      "content": "49/E. § (1) A megőrzési idők lejártával az adathordozó – teljes törlését követően – újra felhasználható. (2) A mentésre, archiválásra szolgáló adathordozó visszaállíthatóságát annak újbóli felhasználása előtt ellenőrizni kell. Továbbá meg kell bizonyosodni arról, hogy a visszaállítások elvégezhetők azon idő alatt, amelyet az üzemi eljárások a visszaállításokra megszabtak. Minden új mentő szoftver vagy hardver vásárlása esetén üzembe helyezés előtt ki kell próbálni az adat-visszaállítást másik gépen vagy tesztkörnyezetben, és az ellenőrzés eredményét dokumentálni kell."
+    },
+    {
+      "provision_ref": "s50",
+      "chapter": "VI. Fejezet Adatszivárgás elleni védekezés",
+      "section": "50",
+      "title": "50. §",
+      "content": "50. § (1) Az III a felhasználók számára kötelező információbiztonsági, biztonságtudatossági és egyéb, a Hivatal információs rendszerének használatára és biztonságára vonatkozó oktatást szervez (a továbbiakban: felhasználói képzés) szükség szerint, de legalább évente egyszer. Felhasználói képzés a felhasználók valamely szempont szerint kiválasztott csoportjának is tartható. A felhasználók számára a felhasználói képzésen való részvétel kötelező. (2) A felhasználóknak olyan képzést kell kapniuk az általuk használt, illetve üzemeltetett alkalmazásokról, amelynek eredményeként képessé válnak a rendszerek megfelelően biztonságos használatára és az információbiztonsági incidensek megfelelő kezelésére. A felhasználói képzés során érinteni kell különösen az információbiztonsági incidensek megelőzésével, észlelésével és kezelésével kapcsolatos kérdéseket és követelményeket. (3) A belépő munkatárs számára a hivatali munkavégzés megkezdését követően felhasználói képzést kell tartani. E felhasználói képzés során ki kell térni különösen a felhasználói felelősséggel és kötelezettségekkel kapcsolatos szabályokra. (4) Felhasználói képzés a vendégfelhasználó vagy a külső személy számára is tartható, ha az a munkavégzésük idejére és tárgyára tekintettel szükséges. Ha az a vendégfelhasználó vagy a külső személy munkavégzésének idejére és tárgyára tekintettel célszerűnek tűnik, a felhasználói képzés kiváltható jelen utasítás vagy kivonatának átadásával. A vendégfelhasználónak vagy a külső személynek az átadott dokumentum megismeréséről és elfogadásáról nyilatkoznia kell. (5) A felhasználót a kiemelt jogosultság megadása előtt tájékoztatni kell a kiemelt jogosultsággal összefüggő feladatairól és felelősségéről. A tájékoztatás megtörténtét dokumentálni kell. (6) Az III felhívja a felhasználók figyelmét a hatályos biztonsági szabályzatokban és eljárásokban bekövetkező változásokra. (7) A vírusok és egyéb rosszindulatú kódok elleni védekezéssel kapcsolatos ismereteket be kell építeni az oktatás tananyagába. A felhasználókat ezenkívül rendszeresen, de legalább évente tájékoztatni kell a vírusok és egyéb rosszindulatú kódok elleni védekezés eszközeiről és módjáról."
+    },
+    {
+      "provision_ref": "s51",
+      "chapter": "VI. Fejezet Adatszivárgás elleni védekezés",
+      "section": "51",
+      "title": "51. §",
+      "content": "51. §"
+    },
+    {
+      "provision_ref": "s52",
+      "chapter": "VI. Fejezet Adatszivárgás elleni védekezés",
+      "section": "52",
+      "title": "52. §",
+      "content": "52. §"
+    },
+    {
+      "provision_ref": "s53",
+      "chapter": "VI. Fejezet Adatszivárgás elleni védekezés",
+      "section": "53",
+      "title": "53. §",
+      "content": "53. §"
+    },
+    {
+      "provision_ref": "s54",
+      "chapter": "VI. Fejezet Adatszivárgás elleni védekezés",
+      "section": "54",
+      "title": "54. §",
+      "content": "54. §"
+    },
+    {
+      "provision_ref": "s55",
+      "chapter": "VI. Fejezet Adatszivárgás elleni védekezés",
+      "section": "55",
+      "title": "55. §",
+      "content": "55. §"
+    },
+    {
+      "provision_ref": "s56",
+      "chapter": "VII. Fejezet Jogosultságok kezelése – hozzáférések ellenőrzése",
+      "section": "56",
+      "title": "56. §",
+      "content": "56. § (1) A Hivatalhoz új belépőként érkező munkatárs számára belépése napján az III biztosítja a munkavégzéséhez szükséges számítástechnikai eszközöket, rendelkezésére bocsátja a telefonvonalat, valamint hozzárendeli a Hivatal rendszereihez hozzáférést biztosító alapvető jogosultságokat, ideértve a hálózati jelszavát, valamint a szervezeti egységéhez tartozó „H:\\IRODA\\...” könyvtárnak a szervezeti egység vezetője által a jogosultság igénylő űrlapon megjelölt mappáihoz és a felhasználó saját munkakönyvtárához való hozzáférést, továbbá – ha az álláshelyhez tartozó feladatkör ellátásához szükséges – a munkatárs közvetlen felettes vezetője írásbeli engedélye alapján az 57. § (1) bekezdése szerint a többi egyedi használatú alkalmazáshoz való hozzáférést. A munkatárs jogosultságainak engedélyezését az III által az intraneten közzétett jogosultság igénylő űrlapon kell kezdeményezni, amelyet az III részére elektronikusan kell megküldeni. (2) A felhasználói azonosítónak meg kell felelnie az egyediség kritériumának. Az azonosítóhoz rendelt jogosultságok az adott álláshelyhez tartozó feladat ellátásához szükséges és elégséges funkcióelérést biztosítják. (3) A felhasználói azonosítóhoz kiosztott hálózati jelszót a felhasználónak az első bejelentkezést követően haladéktalanul meg kell változtatnia. (4) Az alapinfrastruktúrával való ellátást, a jogosultságok beállítását a Humánerőforrás és Koordinációs Iroda új munkatárs érkezéséről szóló írásos értesítése után végzi el az III munkatársa."
+    },
+    {
+      "provision_ref": "s57",
+      "chapter": "VII. Fejezet Jogosultságok kezelése – hozzáférések ellenőrzése",
+      "section": "57",
+      "title": "57. §",
+      "content": "57. § (1) A felhasználó számára egyedi hozzáférési jogosultságot szervezeti egységének vezetője vagy a szervezeti egység tevékenységét irányító vezető – versenytanácstag esetében a Versenytanács elnöke – saját felelősségi körén belül írásban igényelhet az III vezetőjétől. Ha a hálózati hely, amelyhez egyedi hozzáférési jogosultságot igényeltek, olyan szervezeti egység kizárólagos hozzáférése mellett működik, amelyet nem az egyedi hozzáférési jogosultságot igénylő vezető vezet vagy irányít, a hozzáférési jogosultságot csak az érintett szervezeti egység vezetőjének hozzájárulása esetén lehet megadni. (2) Az egyedi jogosultságokról az III naprakész nyilvántartást vezet, amely tartalmazza az igénylő és a jogosult felhasználó nevét, az érintett hálózati hely meghatározását, a jogosultság tartalmát, valamint a beállítás időpontját és – ha az az általános szabálytól eltér – érvényességi idejét. (3) Az III vezetője az egyedi jogosultságokat évente felülvizsgálja. Ha az egyedi jogosultság iránti igény nem jelöl meg eltérő érvényességi időt, az egyedi jogosultság a kiosztása időpontjának naptári évét követő évben soron következő éves felülvizsgálatig érvényes. Az III vezetője az éves felülvizsgálat során az egyedi jogosultság fenntartásának szükségessége tekintetében írásban megkeresi a szervezeti egységek vezetőit, mellékelve a jogosultságok éves felülvizsgálatát rögzítő táblázatot. A szervezeti egységek vezetői a kitöltött, elektronikus aláírással ellátott és visszaküldött táblázat alapján kérhetik az egyedi jogosultság fenntartását, módosítását vagy törlését. Az III vezetője gondoskodik a jogosultságok felülvizsgálat eredménye szerinti módosításáról, amelyről tájékoztatja a főtitkárt."
+    },
+    {
+      "provision_ref": "s58",
+      "chapter": "VII. Fejezet Jogosultságok kezelése – hozzáférések ellenőrzése",
+      "section": "58",
+      "title": "58. §",
+      "content": "58. § (1) A felhasználó szervezeti egységének vezetője köteles az III-t és a Humánerőforrás és Koordinációs Irodát tájékoztatni, ha a felhasználó jogviszonya előreláthatólag három hónapot meghaladóan szünetel, vagy a felhasználó a munkavégzésben előreláthatóan ennyi ideig nem vesz részt. A három hónapot elérő vagy meghaladó távollét esetén a felhasználó felhasználói azonosítóját fel kell függeszteni. A felhasználói azonosító felfüggesztése alól indokolt esetben az adott munkatárs szervezeti egységének vezetője által aláírt feljegyzés alapján el lehet térni, az eltérésről a főtitkár dönt. (2) Ha a főtitkár döntése alapján a felhasználó azonosítójának felfüggesztésére nem kerül sor, a felhasználó szervezeti egységének vezetője – ha az indokoltnak mutatkozik, a szükséges körben – köteles gondoskodni arról, hogy a távolléte alatt nem követett levelezőlistákról lekerüljön, valamint hogy a csoportos címre érkezett e-mail az ő címére ne érkezzen meg. E célból a szervezeti egység vezetője tájékoztatja az III-t a távollét kezdő időpontjáról és a levelezőlistákról való törlési igényről. (3) A felhasználói azonosítót az III a Humánerőforrás és Koordinációs Iroda által küldött, a munkatárs visszatéréséről szóló írásbeli értesítés alapján aktiválja újra. A munkatárs visszaérkezésekor a szervezeti egységének vezetője tájékoztatja az III-t a visszatérő munkatárs szükséges jogosultságairól az 56. § (1) bekezdése alkalmazásával."
+    },
+    {
+      "provision_ref": "s59",
+      "chapter": "VII. Fejezet Jogosultságok kezelése – hozzáférések ellenőrzése",
+      "section": "59",
+      "title": "59. §",
+      "content": "59. § A felhasználó szervezeten belüli áthelyezéséről a Humánerőforrás és Koordinációs Iroda az esetlegesen szükségessé váló jogosultságmódosítás érdekében írásban értesíti az III-t. Az III az 56. § (1) bekezdése alkalmazásával és az érintett munkatárs új szervezeti egysége vezetőjének egyedi jogosultság engedélyei alapján állítja be az új szervezeti egységben szükséges jogosultságokat."
+    },
+    {
+      "provision_ref": "s60",
+      "chapter": "VII. Fejezet Jogosultságok kezelése – hozzáférések ellenőrzése",
+      "section": "60",
+      "title": "60. §",
+      "content": "60. § (1) A munkatársak Hivataltól történő távozásáról a Humánerőforrás és Koordinációs Iroda írásban értesíti az III vezetőjét, aki a kilépés dátumának ismeretében megszünteti a felhasználói jogosultságokat és megvonja a belső hivatali alkalmazásokhoz való hozzáférést. (2) Az III vezetője ellenőrzi, hogy a leltár szerint a távozó munkatárshoz rendelt informatikai eszközök hiánytalanul, működőképes állapotban megvannak e. A munkatárs köteles megtéríteni azt a kárt, amelyet a rendelkezésére bocsátott számítástechnikai eszköz elvesztése, meghibásodása vagy megsemmisülése folytán keletkezett. A munkatárshoz rendelt eszközök leltárban történő kivezetéséről a Költségvetési, Vagyongazdálkodási és Kontrolling Iroda gondoskodik."
+    },
+    {
+      "provision_ref": "s61",
+      "chapter": "VII. Fejezet Jogosultságok kezelése – hozzáférések ellenőrzése",
+      "section": "61",
+      "title": "61. §",
+      "content": "61. § (1) A Hivataltól távozó munkatárs hivatali postafiókjában található adatokat az III adathordozóra menti és zárolja, majd a szerverekről törli. Az adathordozót három évig kell megőrizni a munkaviszonnyal vagy közszolgálati jogviszonnyal kapcsolatos esetleges jogvitában való felhasználás vagy a Hivatal feladatkörének ellátásához szükséges, máshol fel nem lelhető dokumentumok vagy bizonyítékok felhasználása céljából. A megőrzési idő alatt felmerülő okból az őrzési idő a szükséges ideig meghosszabbítható. Az adathordozó tartalmához az elnök, a feladatkörükben érintett elnökhelyettesek, a Humánerőforrás és Koordinációs Iroda vezetője, a Hivatal jogi képviseletét ellátó szervezeti egység vezetője, a feladatkörében érintett szervezeti egység vezetője, valamint a távozó munkatárs utolsó szervezeti egységének vezetője férhet hozzá az III-nek címzett iktatott kérelem alapján, amelyben meg kell jelölni a hozzáférés célját. (2) A Hivataltól távozó munkatárs az utolsó szervezeti egységének vezetőjéhez címzett iktatott feljegyzésben, az adatok vagy az elérési út megjelölésével kérheti, hogy a munkaállomásán és az általa használt hordozható eszközön, valamint hivatali postafiókjában tárolt adatokról saját költségére másolatot készíthessen. A kérelemről az érintett utolsó szervezeti egységének vezetője dönt. A kérelem teljesítését meg kell tagadni, ha az a Hivatal feladatellátását veszélyezteti, vagy annak sérelméhez vezetne. A másolat készítését az III végzi. Az adatvédelmi tisztviselő jegyzőkönyvet készít a másolat készítéséről, annak idejéről, a másolatot érintő adatmennyiségről. (3) Az adatok (1) bekezdés szerinti mentését követően a munkaállomás, hordozható eszköz, valamint adott esetben az egyéb számítástechnikai eszköz tartalmát törölni kell. (4) A hivatali postafióknak egy kijelölt munkatárs általi további elérhetőségét vagy meghatározott időtartamig a távozó munkatárs e-mail-címéről automatikus válaszüzenet küldését az érintett szervezeti egység vezetőjének feljegyzése alapján az III vezetője biztosítja."
+    },
+    {
+      "provision_ref": "s62",
+      "chapter": "VII. Fejezet Jogosultságok kezelése – hozzáférések ellenőrzése",
+      "section": "62",
+      "title": "62. §",
+      "content": "62. § Ha a Hivatallal szerződésben álló külső szolgáltató féltől olyan személy lép ki vagy olyan személyt helyeznek át, aki rendelkezik a Hivatal rendszereihez kapcsolódóan jogosultsággal, akkor az érintett személy jogosultságait a szerződő fél jelzése alapján az III haladéktalanul érvényteleníti."
+    },
+    {
+      "provision_ref": "s62a",
+      "chapter": "VII. Fejezet Jogosultságok kezelése – hozzáférések ellenőrzése",
+      "section": "62/A",
+      "title": "62/A. §",
+      "content": "62/A. § A felhasználói fiókok kezelése során a hozzáférések biztonságát az alábbi automatikus és manuális ellenőrzésekkel és beállításokkal kell támogatni: a) ideiglenes fiókok eltávolítása: az elektronikus információs rendszer automatikusan eltávolítja vagy letiltja az ideiglenesen vagy kényszerhelyzetben létrehozott felhasználói fiókokat, ha azokat 90 napig nem használták, b) inaktív fiókok letiltása: az elektronikus információs rendszer automatikusan letiltja az inaktív fiókokat 90 nap letelte után, c) automatikus naplózás: az elektronikus információs rendszer automatikusan naplózza a fiókok létrehozásával, módosításával, engedélyezésével, letiltásával és eltávolításával kapcsolatos tevékenységeket, és értesíti erről a meghatározott személyeket vagy szerepköröket, d) sikertelen bejelentkezések ellenőrzése: a sikertelen bejelentkezési kísérletek számának és időpontjának manuális elemzése 90 naponta."
+    },
+    {
+      "provision_ref": "s63",
+      "chapter": "VIII. Fejezet Információbiztonság menedzsment",
+      "section": "63",
+      "title": "63. §",
+      "content": "63. § (1) A Hivatal elektronikus információs rendszereinek a jelen szabályzatban foglalt módszertannak megfelelő információbiztonsági kockázatelemzését a lehetséges kockázatok felmérése érdekében a biztonsági osztályba sorolás felülvizsgálatához kapcsolódóan minden változás alkalmával el kell végezni. A kockázatelemzés eredményét az elnök hagyja jóvá. (2) A kockázatelemzés eredménye alapján nem elfogadható kockázatokra kockázatkezelési intézkedési tervet kell készíteni, amely tartalmazza a kockázatok kezelésének eszközeit, felelőseit, határidejét és szükség szerint költségét. A kockázatkezelési intézkedési tervet az elnök jóváhagyását követően az abban foglalt ütemezés szerint, dokumentált módon kell végrehajtani. (3) Az integrált kockázatkezelési rendszer részeként a kockázatkezelési intézkedési tervet – figyelemmel különösen a jogszabályi változásokra, továbbá a Hivatal elektronikus információs rendszereiben vagy azok környezeti tényezőiben történt változásokra – szükség esetén, de legalább háromévente felül kell vizsgálni, ennek során megvizsgálva a) a lehetséges fenyegetéseket és kockázatokat, azok kockázati besorolását, b) a feladatkörök és felelősségi körök meghatározását, c) az intézkedési tervben foglaltak megvalósulását, valamint d) az intézkedési terv módosításának szükségességét. (4) A kockázatelemzést ismételten el kell végezni, ha a rendszerben vagy annak működési környezetében biztonsági hiányosság kerül azonosításra, továbbá a rendszer biztonsági állapotát befolyásoló körülmény felmerülése esetén. (5) A kockázatelemzés eredményét és a kockázatkezelési intézkedési tervet tartalmazó dokumentumok biztonságos megőrzését biztosítani kell; azokhoz kizárólag az III és a rendszer tartalmáért felelős szervezeti egység férhet hozzá."
+    },
+    {
+      "provision_ref": "s63a",
+      "chapter": "VIII. Fejezet Információbiztonság menedzsment",
+      "section": "63/A",
+      "title": "63/A. §",
+      "content": "63/A. § (1) A kockázatelemzés keretében a következő területeket kell a dokumentációk bekérésével, illetve szakmai interjúk lefolytatásával megismerni: a) adminisztratív védelmi intézkedések: aa) a Hivatalra mint szervezetre vonatkozó jogszabályi rendelkezések, szabályzatok, ab) az elektronikus információs rendszerre vonatkozó szabályzatok, ac) a Hivatal szerződései, kapcsolattartása külső személyekkel, ad) alkalmazásfejlesztés, változáskezelés, ae) jogosultságigénylés, af) biztonsági események kezelése, ag) üzemeltetési eljárások, ah) szervizelés, eszközcsere, selejtezés; b) logikai védelmi intézkedések: ba) mentési megoldások, bb) kártékony kód elleni védekezés, bc) biztonsági frissítések telepítése, bd) a hálózat felépítése, be) biztonsági rendszerek, bf) kriptográfiai megoldások; c) fizikai biztonság: ca) a Hivatal épületébe történő beléptetés, cb) a számítógépterem kialakítása, cc) a Hivatal épületében történő közlekedés, cd) az irodák kialakítása, tiszta asztal, üres képernyő politika. (2) A kockázatelemzést a 7/2024. (VI. 24.) MK rendelet 2. mellékletében foglalt kontrollkatalógus alapján kell végrehajtani. A kockázatelemzés során a 7/2024. (VI. 24.) MK rendeletben foglalt követelmények sérelme nélkül az integrált kockázatelemzés módszertanára is figyelemmel kell lenni. (3) A kárérték-szintek 1–5 skálán – elhanyagolható (1), mérsékelt (2), közepes (3), súlyos (4), katasztrofális (5) – kerülnek elemzésre, ennek során elsődlegesen a kockázat által érintett információs rendszer biztonsági osztályát kell figyelembe venni. (4) A fenyegetés bekövetkezési valószínűségének felmérése során a következő táblázatot kell alkalmazni: (5) A kockázati szintet az alábbiak függvénye határozza meg: a) az a valószínűség, amely a sérülékenység fenyegetés általi kihasználhatóságát jelzi a vizsgált rendszer konkrét környezetében, és b) az a káros hatás, amelyet egy kihasználható sérülékenység okoz. (6) A kockázat szintje a fenyegetések hatásának és bekövetkezési valószínűségének együttes hatását figyelembe véve határozható meg. (7) A kockázati mátrixban való elhelyezkedésük alapján a fenyegetések három csoportba sorolhatók: a) E: elfogadható, alacsony kockázat (1–6) b) F: figyelmet igénylő, mérsékelt kockázat (egyedi döntéssel elfogadható) (8–12) és c) NE: nem elfogadható, magas kockázat (15–25). 7E02990B_0 KOCKÁZAT SÚLYOSSÁGA VALÓSZÍNŰSÉG Elhanyagolható Kismértékű Közepes Nagymértékű Rendszeres HATÁS Elhanyagolható E-1 E-2 E-3 E-4 F-5 Mérsékelt E-2 E-4 E-6 F-8 F-10 Közepes E-3 E-6 F-9 F-12 NE-15 Súlyos E-4 F-8 F-12 NE-16 NE-20 Katasztrofális F-5 F-10 NE-15 NE-20 NE-25 (8) A kockázatkezelés eszközei: a) a fenyegetés bekövetkezési gyakoriságának vagy hatásának megfelelő intézkedésekkel történő csökkentése (kockázatcsökkentés), b) a kockázat tudatos, a következmények felmérése alapján történő elfogadása (kockázat-elfogadás), c) a kockázatnak az érintett tevékenység felfüggesztése útján való elkerülése (kockázat-elkerülés), és d) a kockázat – biztosítással, megfelelő beszállítói szerződésekkel stb. történő – áthárítása (kockázat-áthárítás). (9) A kockázatcsökkentő intézkedés lehet a) megelőző jellegű (preventív kontroll), b) korlátozó vagy javító (korrektív kontroll), c) észlelő és reagáló (detektív kontroll)."
+    },
+    {
+      "provision_ref": "s64",
+      "chapter": "VIII. Fejezet Információbiztonság menedzsment",
+      "section": "64",
+      "title": "64. §",
+      "content": "64. § (1) Új elektronikus információs rendszer bevezetésekor vagy meglevő rendszer továbbfejlesztésekor rendszerbiztonsági tervet kell készíteni, amely tartalmazza az elektronikus információs rendszer a) hatókörét, alapfeladatait (a biztosítandó szolgáltatásokat), kockázatot jelentő elemeit és alapfunkcióit, b) biztonsági osztályát, c) működési körülményeit és más elektronikus információs rendszerrel való kapcsolatait, valamint d) a követelményeknek megfelelő aktuális vagy tervezett védelmi intézkedéseket és intézkedésbővítéseket, a jogszabály szerinti biztonsági feladatokat. (2) Az elektronikus információs rendszer biztonsági követelményeit a rendszer minden dokumentációjában rögzíteni kell. (3) Az érintett rendszerre vonatkozó rendszerbiztonsági tervet meg kell ismertetni a Hivatal munkatársaival és a rendszerfejlesztőkkel. (4) A rendszerbiztonsági tervet legalább háromévente felül kell vizsgálni. Soron kívüli felülvizsgálat indokolt az elektronikus információs rendszerben vagy annak üzemeltetési környezetében történt változás, illetve a terv végrehajtása vagy a védelmi intézkedések értékelése során feltárt probléma esetén. (5) Az érintett rendszer szállítójával megkötendő szerződésben elő kell írni a szolgáltatások igénybevételéhez szükséges funkciók, protokollok és egyéb szolgáltatások meghatározását."
+    },
+    {
+      "provision_ref": "s65",
+      "chapter": "VIII. Fejezet Információbiztonság menedzsment",
+      "section": "65",
+      "title": "65. §",
+      "content": "65. §"
+    },
+    {
+      "provision_ref": "s66",
+      "chapter": "VIII. Fejezet Információbiztonság menedzsment",
+      "section": "66",
+      "title": "66. §",
+      "content": "66. § A felhasználó a lehetséges legrövidebb időn belül köteles jelezni az III-nek információbiztonsági szabályok általa észlelt lényeges megsértését, valamint minden olyan veszélyforrást, amely az információbiztonságra nézve érdemi fenyegetést jelent vagy jelenthet, így különösen a) az elektronikus információs rendszerekben tárolt adatokhoz való jogosulatlan hozzáférést, illetve azok jogosulatlan megváltoztatását, törlését, hozzáférhetővé tételét, továbbítását vagy hozzáférhetetlenné tételét, b) a rendszerelemek működésének, használatának jogosulatlan akadályozását, c) nem engedélyezett vagy licence-szel nem rendelkező szoftver telepítését, d) felhasználói jelszavak egymás közötti megosztását, hozzáférhetővé tételét, e) vírusfertőzést, f) ismeretlen okú, a megszokottól eltérő működést."
+    },
+    {
+      "provision_ref": "s67",
+      "chapter": "VIII. Fejezet Információbiztonság menedzsment",
+      "section": "67",
+      "title": "67. §",
+      "content": "67. § (1) A Hivatal a Nemzeti Távközlési Gerinchálózatot érintő észlelt biztonsági eseményeket bejelenti a kormányzati eseménykezelő központnak (a továbbiakban: központ), és fogadja az onnan érkező riasztásokat. (2) Az III a központtól érkező riasztásokat a beérkezés után azonnal, soron kívül feldolgozza, a szükséges intézkedéseket megteszi, ha a felhasználókat is érintő problémáról érkezik riasztás, azt valamennyi munkatárshoz eljuttatja, a megtett intézkedésekről tájékoztatja a központot."
+    },
+    {
+      "provision_ref": "s68",
+      "chapter": "VIII. Fejezet Információbiztonság menedzsment",
+      "section": "68",
+      "title": "68. §",
+      "content": "68. § (1) A biztonsági eseményeket az III soron kívül kivizsgálja, szükség szerinti mértékben bevonva az érintett elektronikus információs rendszer vagy rendszerelem szállítóját. A vizsgálat eredményét írásban kell dokumentálni, amelyből a bejelentő, az III és – bevonása esetén – a szakrendszer szállítója másolatot kapnak. A dokumentációt páncélszekrényben kell őrizni. (2) A biztonsági események kapcsán tett bejelentésekről, a lefolytatott vizsgálatokról, valamint a végrehajtott intézkedésekről az III vezetője a bekövetkezett biztonsági esemény következményeinek enyhítése, a jövőben várható hasonló biztonsági események megelőzése, azok bekövetkezési valószínűségének csökkentése, valamint a vizsgálat során feltártakhoz hasonló védelmi fenyegetettségek kezelése és a védelmi intézkedések fejlesztése érdekében nyilvántartást vezet."
+    },
+    {
+      "provision_ref": "s69",
+      "chapter": "VIII. Fejezet Információbiztonság menedzsment",
+      "section": "69",
+      "title": "69. §",
+      "content": "69. § (1) Az informatikai biztonsággal kapcsolatos szabályok súlyos és vétkes megsértésének alapos gyanúja esetén a Hivatal köztisztviselője esetében fegyelmi eljárást kell kezdeményezni. (2) Ha az elektronikus információbiztonsági szabályokat a Hivatal munkavállalója vagy nem a Hivatal személyi állományába tartozó személy sérti meg, a jogszabályokban, a munkaszerződésben, valamint a vonatkozó szerződésben meghatározott következményeket kell érvényesíteni."
+    },
+    {
+      "provision_ref": "s69a",
+      "chapter": "VIII. Fejezet Információbiztonság menedzsment",
+      "section": "69/A",
+      "title": "69/A. §",
+      "content": "69/A. § (1) Az elektronikus információs rendszereket vagy azok védelmét érintő szolgáltatás, tárgyi eszköz vagy szoftver beszerzése esetén, ha nem az III a beszerzés szakmai tartalmáért felelős szervezeti egység, az III információbiztonsági szempontból véleményezi a beszerzést, meghatározza azokat a 7/2024. (VI. 24.) MK rendelet szerinti követelményeket, amelyeknek a beszerzés során teljesülniük kell, és ellenőrzi e követelmények teljesülését. (1a) A 7/2024. (VI. 24.) MK rendelet szerinti biztonsági követelményeket az (1) bekezdés szerinti beszerzés tervezésének, előkészítésének és lebonyolításának teljes folyamatában biztosítani kell. E biztonsági követelmények érvényre juttatását az elektronikus információbiztonsági felelős biztosítja. (1b) Az (1) bekezdés szerinti beszerzések eredményeként beszerzett elektronikus információs rendszerek vagy szolgáltatások használatának megkezdéséhez az elektronikus információbiztonsági felelős jóváhagyására van szükség. (2) Új elektronikus információs rendszer beszerzése esetén a beszerzés kezdeményezését megelőzően kockázatelemzést kell végezni. (3) Ha a meglévő elektronikus információs rendszerben vagy annak valamely részében, illetve az elektronikus információs rendszer működésében változást idézhet elő, a beszerzést a rendszer biztonsági állapotát befolyásoló körülménynek kell tekinteni, és a beszerzés kezdeményezését megelőzően kockázatelemzést kell végezni. (4) Elektronikus információs rendszert érintő beszerzéseknél a kötelezően érvényesíteni kívánt szerződéses feltételek között kell meghatározni különösen a) a funkcionális biztonsági követelményeket, b) a garanciális biztonsági követelményeket, c) a biztonsági követelmények dokumentálásával kapcsolatos kikötéseket, d) a c) pont szerinti dokumentumok védelmére vonatkozó követelményeket és e) az elektronikus információs rendszer fejlesztési környezetére és tervezett üzemeltetési környezetére vonatkozó követelményeket. (5) Ha a beszerzéssel érintett elektronikus információs rendszer biztonsági osztálya 3-asnál magasabb, a szerződésben a funkcionális biztonsági követelmények között kell meghatározni a beszerzés tárgyára vonatkozó védelmi intézkedéseket."
+    },
+    {
+      "provision_ref": "s70",
+      "chapter": "VIII. Fejezet Információbiztonság menedzsment",
+      "section": "70",
+      "title": "70. §",
+      "content": "70. § (1) Mind a rendszer-, mind pedig az alkalmazásfejlesztés, továbbá a vásárolt programok tekintetében a külső szolgáltatókkal megkötött szerződésekben érvényesíteni kell a Hivatal információbiztonságát biztosító, jogszabályban vagy az e szabályzatban foglalt követelményeket. Ennek keretében a szerződés alapján a szolgáltató által igénybe vett vagy szállított elektronikus információs rendszer szolgáltatásainak meg kell felelnie a Hivatal elektronikus információbiztonsági követelményeinek, és a szerződésben rendelkezni kell a szolgáltató külsős szervezet munkatársainak feladatairól és kötelezettségeiről a szállított rendszerhez kapcsolódó bevezetési, fejlesztési, üzemeltetési és támogatási szolgáltatásokkal kapcsolatban. (2) A 4-es és 5-ös biztonsági osztályú elektronikus információs rendszerek esetén a külső szolgáltatókkal megkötött szerződésben rendelkezni kell arról, hogy a külső szolgáltató rendelkezésre bocsátja a) az alkalmazandó védelmi intézkedések terv- és megvalósítási dokumentációit, b) a biztonsággal kapcsolatos külső rendszerinterfészek leírását, c) a magas és alacsony szintű biztonsági tervet és d) – ha azzal a szállító rendelkezik – a forráskódot és futtatókörnyezetet. (3) Az (1) bekezdés szerinti szolgáltatás nyújtása akkor fogadható el, ha a külső szolgáltató meghatározta a használatra tervezett funkciókat, protokollokat és szolgáltatásokat. (4) Az III vezetője külső és belső ellenőrzési eszközökkel ellenőrizheti, hogy a rendszer szállítója vagy szolgáltatója biztosítja-e az elvárt védelmi intézkedéseket."
+    },
+    {
+      "provision_ref": "s71",
+      "chapter": "VIII. Fejezet Információbiztonság menedzsment",
+      "section": "71",
+      "title": "71. §",
+      "content": "71. § (1) A fejlesztéseknél a rendszerspecifikációs dokumentum elkészítése során a jogszabályi és az informatikai biztonsági követelményeknek való megfelelést figyelembe kell venni. (2) A rendszerspecifikációra vonatkozó biztonsági követelményrendszernek tartalmaznia kell különösen: a) a fejlesztendő rendszer bemeneti adatainak körét, annak adatvédelmi és adatbiztonsági besorolási szintjét, b) a rendszer elvárt rendelkezésre állási idejét, c) a rendszer azon elemeit, ahol hozzáférési jogosultságok kialakítása szükséges, d) a rendszer gyenge, betörésre alkalmat adó pontjait, e) a mentési rendszerbe történő beillesztését, f) a teszt- és éles rendszer elkülönítését. (3) Az alkalmazásfejlesztés megkezdése előtt, a fejlesztéssel megbízott szállítóval az alkalmazásfejlesztés során végig kiemelt szerepet kell kapnia az információbiztonságot erősítő intézkedéseknek. Ezt a szakmai és az informatikai követelmények összeállítása során, illetve a dokumentálás, a teszt- és az éles használati időszak alatt is következetesen biztosítani kell."
+    },
+    {
+      "provision_ref": "s72",
+      "chapter": "VIII. Fejezet Információbiztonság menedzsment",
+      "section": "72",
+      "title": "72. §",
+      "content": "72. § (1) A rendszerek vagy alkalmazások átadás-átvételénél minimálisan az alábbi dokumentációk átadása szükséges: a) adminisztrátori dokumentáció, amely tartalmazza: aa) a rendszer, rendszerelem, vagy rendszer-szolgáltatás biztonságos konfigurálását, telepítését és üzemeltetését biztosító információkat, ab) a biztonsági funkciók hatékony alkalmazásához és fenntartásához szükséges tudnivalókat, ac) a konfigurációval és az adminisztratív funkciók használatával kapcsolatos, a dokumentáció átadásakor ismert sérülékenységeket, b) felhasználói dokumentáció, amely tartalmazza: ba) a felhasználó által elérhető funkciókat és azok hatékony alkalmazási módját, bb) a rendszer, rendszerelem vagy rendszer-szolgáltatás biztonságos használatának szabályait, bc) a felhasználó kötelezettségeit a rendszer, rendszerelem vagy rendszerszolgáltatás biztonságának fenntartásához, c) követelményspecifikáció, d) rendszerterv, e) migrációs terv, ha releváns, f) tesztelési terv, g) telepítési leírás, h) oktatási tematika és oktatási segédletek, i) a szállított szoftverek műszaki leírásai, kezelési utasításai, licencei, valamint az azok kereskedelmi forgalomba hozatalához szokásosan biztosított egyéb leírások, dokumentumok. (2) Az adminisztrátori dokumentáció megismerésére jogosult felhasználók körét az III vezetője határozza meg. Az adminisztrátori dokumentáció megismerésére az III vezetője azokat a felhasználókat jogosíthatja fel, akiknek arra feladatkörük ellátása érdekében feltétlenül szükségük van. Az III vezetője gondoskodik az adminisztrátori dokumentáció rendelkezésre állásának biztosításáról."
+    },
+    {
+      "provision_ref": "s72a",
+      "chapter": "VIII. Fejezet Információbiztonság menedzsment",
+      "section": "72/A",
+      "title": "72/A. §",
+      "content": "72/A. § (1) Annak érdekében, hogy egy biztonsági incidens vagy nem várt esemény esetén utólag megállapítható legyen, hogy ki, mikor és milyen mértékben hajtott végre változtatást az elektronikus információs rendszerben, illetve milyen műveletet hajtott végre az érintett alkalmazásban, a változásokhoz és eseményekhez kapcsolódó műveleteket tárolni, naplózni kell. (2) A Hivatal elektronikus információs rendszereiben keletkező naplóállományok minden bejegyzését védeni kell a módosítástól, és biztosítani kell, hogy a napló tartalmához csak arra feljogosított személy férhessen hozzá. A naplóüzeneteknek tartalmazniuk kell a naplózott esemény bekövetkezésének dátumát és pontos idejét, az esemény követhetőségéhez, rekonstruálásához szükséges adatokat, és az esemény kiváltásában közreműködő felhasználó nevét. (3) Az (1) bekezdésben foglalt követelményt már az informatikai beszerzés, illetve rendszerfejlesztési tervezés során figyelembe kell venni. (4) A teszt- és fejlesztői rendszerekre az (1) bekezdésben foglalt követelményt csak abban az esetben kell alkalmazni, ha a konfigurációk módosítása a teszt-, illetve fejlesztői rendszeren kihatással van az éles üzemi környezetre, vagy éles adatok kezelése történik. (5) Annak érdekében, hogy a rendelkezésre álló erőforrások ésszerű felhasználásával, de a kockázatok alapján szükségesnek ítélt biztonsági szint megtartásával a naplóállományok biztonsági célú érdemi értékelése megvalósulhasson, a Hivatal a kockázatelemzés alapján meghatározott kritikus rendszerek esetében – a forrásrendszer naplózási képességének figyelembevételével – biztosítja az (6) bekezdésben részletezett események naplózását. (6) A naplózást az alábbi szoftverrétegekben kell elvégezni: a) az operációs rendszer szintjén: aa) az operációs rendszerbe történő sikeres be- és kijelentkezést vagy sikertelen bejelentkezési kísérletet, annak végrehajtóját és időpontját, ab) a jogosultsági rendszert érintő változtatást, jogosultsági csoport létrehozását és módosítását, felhasználó létrehozását, módosítását, csoporthoz rendelését, ac) az operációs rendszer által jelzett kritikus rendszerállapotot és hibát, ad) program sikeres vagy sikertelen telepítését, törlését, szolgáltatás indítását, leállítását, ae) az adott operációs rendszer vagy a rá telepített alkalmazás működését befolyásoló beállítások létrehozását, módosítását, törlését, af) a naplózó rendszer bármilyen beállítás-módosítását, a naplózás leállítását és indítását, ag) az operációs rendszer által kezelt kritikus adatokhoz történő hozzáférést, kritikus rendszerfájl létrehozását, módosítását vagy törlését; b) adatbázis-kezelő szintjén: ba) a közvetlen adatbázis-hozzáférést; a sikeres be- és kijelentkezést vagy sikertelen bejelentkezési kísérletet, annak végrehajtóját és időpontját, bb) az adatbázisban történt közvetlen változtatást, az adatszerkezet módosítását, az adatbázison belüli programmódosítást (tárolt eljárások, triggerek stb.), bc) az adatbázison belüli jogosultsági rendszert érintő változtatást, jogosultsági csoport létrehozását, módosítását, felhasználó létrehozását, módosítását, csoporthoz rendelését, bd) a naplózó rendszer bármilyen beállítás-módosítását, a naplózás leállítását és indítását; c) az alkalmazás szintjén: ca) az alkalmazásba történő sikeres be- és kijelentkezést vagy sikertelen bejelentkezési kísérletet, annak végrehajtóját és időpontját, cb) az alkalmazásmodulok indítását vagy az erre irányuló sikertelen kísérletet, annak végrehajtóját és időpontját, cc) az alkalmazáson belüli jogosultsági rendszert érintő változtatást, jogosultsági csoport létrehozását és módosítását, felhasználó létrehozását, módosítását, csoporthoz rendelését, cd) a naplózó rendszer bármilyen beállítás-módosítását, a naplózás leállítását és indítását, ce) az alkalmazói rendszer által jelzett rendszerhibát, riasztást (vírusriasztás, sikertelen mentés stb.), cf) minden ügymeneti eseményt, amelyet az adott alkalmazást használó szervezeti egység az adott rendszer esetében szükségesnek ítél, valamint cg) az adatbázis-kezelői szinten végrehajtott olyan nem közvetlen hozzáférést, amely az alkalmazáson keresztül módosítanak adatot; d) a hálózati biztonságot szavatoló és aktív eszközök (tűzfal, behatolás-detektáló rendszer, tartalomszűrő rendszer, router, switch stb.) szintjén: da) az eszköz konfigurációs rendszerébe történő sikeres be- és kijelentkezést vagy sikertelen bejelentkezési kísérletet, annak végrehajtóját és időpontját, db) a konfiguráció módosítását vagy az erre irányuló sikertelen kísérletet, valamint dc) a rendszer által jelzett rendszerhibát, riasztást. (7) A naplózáshoz elsődlegesen az adott réteg által biztosított eszközöket kell alkalmazni. (8) A hálózati aktivitás nyomonkövetését elsődlegesen az erre a célra szolgáló rendszerekben (IDS, IPS) kell megvalósítani, amelyek riasztásait javasolt a központi naplógyűjtő és elemző rendszer részére továbbítani. (9) Az elektronikus információbiztonsági felelős feladata a) a forrásrendszereken alkalmazandó auditszintek meghatározása az általános naplózási követelményekre figyelemmel és b) a riasztásokhoz kapcsolódó nyomvonal (audit trail) elemzése, szükséges vizsgálatok lefolytatása, valamint beavatkozások végrehajtása. (10) A rendszergazda feladata a) az információs rendszerek audit igényekhez, technológiai változásokhoz igazodó konfigurálása, naplóállományok keletkeztetése, a forrásrendszer kiesése esetén a megfelelő működés visszaállítása, b) a naplóállomány mentéséről, archiválásról való gondoskodás, valamint c) a rendszerek közötti időszinkron biztosítása. (11) A naplóállományok mentését a Hivatal mentési rendszerébe integrálva kell végezni, olyan módon, hogy a visszaállítás szükség esetén elfogadható időn belül lehetővé tegye az elemezhetőséget. (12) A mentéseket legalább egy évre visszamenően meg kell őrizni. (13) A naplózásra vonatkozó szabályokat az III a rendszer bármely jelentős változása vagy jogszabályváltozás esetén, de évente legalább egyszer felülvizsgálja."
+    },
+    {
+      "provision_ref": "s73",
+      "chapter": "VIII. Fejezet Információbiztonság menedzsment",
+      "section": "73",
+      "title": "73. §",
+      "content": "73. § (1) A Hivatal számítástechnikai eszközeinek rendeltetésszerű és szabályos használatát az III ellenőrizheti. A szabályok megsértése esetén a felhasználót figyelmeztetni kell, és erről értesíteni kell a felhasználó szervezeti egységének vezetőjét is. (2) Az III folyamatosan figyelemmel kíséri és naplózza a hálózati forgalmat, az erre vonatkozó adatokat egy évig őrzi meg. A Hivatal elnöke, valamint – az irányításuk alatt álló szervezeti egység munkatársa tekintetében – az elnökhelyettesek indokolt, a hozzáférés célját is megjelölő írásbeli megkeresése alapján az III a megkeresőnek adatot szolgáltat a megkeresésben megjelölt felhasználó megjelölt időszak alatti forgalmáról. Az információbiztonsági oktatáson erre a lehetőségre a felhasználók figyelmét fel kell hívni. A megkeresést és annak teljesítését vagy megtagadását iktatni kell, arról a felhasználónak kérése esetén tájékoztatást kell adni. (3) A (2) bekezdést a statisztikai célú adatszolgáltatásra nem kell alkalmazni, ha abból a felhasználót nem lehet azonosítani. (4) A Hivatal az információbiztonsági követelmények érvényesülésének ellenőrzésére és értékelésére a Hivataltól független, képesített ellenőrt is megbízhat. A Hivatal az ellenőr rendelkezésére bocsátja az ellenőrzés és értékelés elvégzéséhez szükséges információkat. Az ellenőr által feltárt hiányosságok kezelésére az III intézkedési tervet készít. (5) Az III gondoskodik az ellenőrzések egységes módszertan szerinti lebonyolításáról."
+    },
+    {
+      "provision_ref": "s73a",
+      "chapter": "VIII. Fejezet Információbiztonság menedzsment",
+      "section": "73/A",
+      "title": "73/A. §",
+      "content": "73/A. § (1) A Hivatal elektronikus információs rendszerei folyamatos működésének biztosítása érdekében, valamint katasztrófahelyzet bekövetkezése esetén az e §-ban foglaltak szerint kell eljárni. (2) A Hivatal elektronikus információs rendszereire vonatkozóan az elektronikus információbiztonsági felelős – a rendszergazda, az elektronikus információs rendszerek adatgazdái és az érintett rendszerek fejlesztőinek bevonásával – üzletmenet-folytonossági tervet készít. (3) A folyamatos informatikai működés tervezésére vonatkozó tevékenységet össze kell hangolni a biztonsági események és vészhelyzeti-, illetve katasztrófahelyzetek kezelésével. (4) Az üzletmenet-folytonossági tervezés során meg kell határozni a) a Hivatal által biztosítandó szolgáltatásokat és alapfunkciókat, valamint az ezekhez kapcsolódó és a Hivatal részéről elvárt vészhelyzeti követelményeket, b) az elektronikus információs rendszer kiesése esetére a helyreállítási feladatokat, a helyreállítási prioritásokat és azok mértékét, c) a vészhelyzeti szerepköröket, felelősségeket, valamint a kapcsolattartó személyeket. (5) Az üzletmenet-folytonosságot úgy kell kialakítani, hogy az biztosítsa a Hivatal által előzetesen definiált alapszolgáltatások fenntartását, még az elektronikus információs rendszer összeomlása, kompromittálódása vagy hibája esetén is. (6) Ki kell dolgozni a teljes elektronikus információs rendszer helyreállításának tervét úgy, hogy az nem ronthatja le az eredetileg tervezett és megvalósított biztonsági védelmet."
+    },
+    {
+      "provision_ref": "s73b",
+      "chapter": "VIII. Fejezet Információbiztonság menedzsment",
+      "section": "73/B",
+      "title": "73/B. §",
+      "content": "73/B. § (1) Az üzletmenet-folytonossági tervet legalább háromévente felül kell vizsgálni. Soron kívüli felülvizsgálat indokolt a) az elektronikus információs rendszer vagy a működtetési környezet jelentős változása, b) az üzletmenet-folytonossági terv megvalósítása, végrehajtása vagy tesztelése során felmerülő probléma vagy c) jelentős kockázatú adatbiztonsági incidens bekövetkezése esetén. (2) Az üzletmenet-folytonossági terv módosításáról dokumentált módon tájékoztatni kell a folyamatos informatikai működés szempontjából érintett elektronikus információs rendszerek adatgazdáit."
+    },
+    {
+      "provision_ref": "s73c",
+      "chapter": "VIII. Fejezet Információbiztonság menedzsment",
+      "section": "73/C",
+      "title": "73/C. §",
+      "content": "73/C. § (1) Az üzletmenet-folytonossági terv jóváhagyott példányának páncélszekrényben történő őrzéséről a rendszergazda gondoskodik. (2) Az üzletmenet-folytonossági tervhez kizárólag az abban megjelölt személyek férhetnek hozzá."
+    },
+    {
+      "provision_ref": "s73d",
+      "chapter": "VIII. Fejezet Információbiztonság menedzsment",
+      "section": "73/D",
+      "title": "73/D. §",
+      "content": "73/D. § (1) A digitális szolgáltatások, a digitális állampolgárság szolgáltatások és támogató szolgáltatások részletes műszaki követelményeiről szóló 322/2024. (XI. 6.) Korm. rendelet szerinti archiválási szabályzat előkészítéséről, naprakészen tartásáról és nyilvántartásáról az III gondoskodik. (2) Az archiválási szabályzatnak vagy módosításának a tervezetét az III küldi meg az elnök részére. (3) Az elnök által jóváhagyott szabályzatot az III küldi meg a digitális szolgáltatások felügyelete részére."
+    },
+    {
+      "provision_ref": "s73e",
+      "chapter": "VIII. Fejezet Információbiztonság menedzsment",
+      "section": "73/E",
+      "title": "73/E. §",
+      "content": "73/E. § Az archiválásra felhasznált adathordozó őrzésért felelős szerv részére történő átadásáról és az őrzésért felelős szervtől történő átvételéről az III gondoskodik."
+    },
+    {
+      "provision_ref": "s74",
+      "chapter": "IX. Fejezet A FEI RENDSZERRE VONATKOZÓ KÜLÖNÖS SZABÁLYOK",
+      "section": "74",
+      "title": "74. §",
+      "content": "74. § (1) A vizsgáló a FEI szervereken tárolt adatokhoz a FEI rendszer rendszergazdai feladatok ellátásával megbízott munkatársa által, a vizsgáló számára létrehozott egyedi profilon keresztül fér hozzá. A vizsgáló számára jogosultságot a szervezeti egység vezetője igényelhet írásban a FEI irodavezetőjének és a FEI rendszergazdának megküldött kérelemmel. (2) Az (1) bekezdés szerinti hozzáféréshez jelszó szükséges, amelyet a vizsgáló az első belépés után köteles megváltoztatni. A hálózati jelszó a FEI vezetője által meghatározott ideig, de legfeljebb 90 napig érvényes. A hálózati jelszó érvényességi ideje legalább 1 nap. A vizsgáló köteles hálózati jelszavát annak lejárata előtt megváltoztatni. Ha a vizsgáló hálózati jelszava lejár, vagy elfelejti azt, a FEI ideiglenes jelszót biztosít, amelyet a hálózatba történő következő bejelentkezéskor a vizsgálónak meg kell változtatnia. A jelszó többszöri hibás megadása miatt bekövetkező automatikus kitiltást a FEI rendszergazda oldhatja fel. A vizsgáló hálózati jelszavát nem adhatja át és nem teheti hozzáférhetővé más számára. (3) A vizsgálók a forenzikus programokhoz korlátozott felhasználói jogosultsággal rendelkeznek, és csak azon ügyek adataihoz férhetnek hozzá, amelyekben vizsgálóként járnak el. A FEI szervereken tárolt adatok között a vizsgáló csak a Felderítő Iroda munkatársának segítségével kereshet. (4) A FEI szervereken az adatokat indexelt ügyenként kell tárolni. A vizsgáló csak a saját ügyét nyithatja meg, és csak abban végezhet keresést, jelölhet be találatokat, valamint csak abból nyomtathat ki dokumentumot. A FEI rendszerben ezen túlmenően egyéb művelet sem a forenzikus programban, sem a vizsgálói munkaállomáson nem engedélyezett, amit a FEI rendszer műszaki és informatikai megoldásokkal is biztosít. (5) A FEI szervereken tárolt dokumentumot csak a FEI rendszerre csatlakoztatott hálózati nyomtatóval lehet nyomtatni. Ha a vizsgálónak elektronikus kivonatra, így elektronikusbizonyíték-összefoglalóra van szüksége a kigyűjtött anyagokból, akkor a FEI vizsgálója végzi el a bejelölt tételek forenzikus módon történő exportálását, majd azokat a hivatali hálózaton található, a vizsgálóhoz és az ügyhöz rendelt munkakönyvtárba másolja, illetve CD, DVD vagy Blu-ray lemezre írja."
+    },
+    {
+      "provision_ref": "s75",
+      "chapter": "IX. Fejezet A FEI RENDSZERRE VONATKOZÓ KÜLÖNÖS SZABÁLYOK",
+      "section": "75",
+      "title": "75. §",
+      "content": "75. § (1) A vizsgáló a FEI által használt folyosórészre és a vizsgáló irodába (a továbbiakban: FEI biztonsági terület) szolgálati igazolványával lép be és távozik onnan. A FEI biztonsági területen csak a FEI munkatársának tudtával lehet mozogni vagy tartózkodni. (2) A helyszíni kutatás során a Hivatal birtokába került elektronikus adatok tárolására szolgáló adathordozókat a FEI azok törléséig vagy megsemmisítéséig a FEI biztonsági területén elhelyezett páncélszekrényében elzárva tárolja."
+    },
+    {
+      "provision_ref": "s76",
+      "chapter": "X. Fejezet Záró rendelkezések",
+      "section": "76",
+      "title": "76. §",
+      "content": "76. § (1) Ez az utasítás 2015. május 15-én lép hatályba. (2) a Hivatal Informatikai Rendszerhasználati és Biztonsági Szabályzatának megismeréséről és elfogadásáról Alulírott.………………………………………………………………………………………………………….…………. (név) ………………………………………………………………………………………………………………… (szervezeti egység) .………………………………………………………………….………………………………………. (álláshely megnevezése) kijelentem, hogy a Gazdasági Versenyhivatal Informatikai Rendszerhasználati és Biztonsági Szabályzatában foglaltakat megismertem, tudomásul vettem, és magamra nézve kötelezőnek ismerem el. Budapest, ……………………… ……………………………………… aláírás 1 Az 1. § (1) bekezdése a 3/2025. (II. 27.) GVH utasítás 11. §-ával megállapított szöveg. 2 A 2. § (1) bekezdés nyitó szövegrésze a 3/2025. (II. 27.) GVH utasítás 16. § a) pontja szerint módosított szöveg. 3 A 3. § (1) bekezdés nyitó szövegrésze a 6/2017. (VI. 22.) GVH utasítás 21. § 1. pontja, a 3/2025. (II. 27.) GVH utasítás 16. § b) pontja szerint módosított szöveg. 4 A 3. § (2) bekezdés a) pontja a 6/2017. (VI. 22.) GVH utasítás 21. § 2. pontja, az 1/2023. (I. 31.) GVH utasítás 7. § a) pontja szerint módosított szöveg. 5 A 3. § (2) bekezdés b) pontja az 1/2024. (VII. 4.) GVH utasítás 1. §-ával megállapított szöveg. 6 Az 5. § (1) bekezdése az 1/2024. (VII. 4.) GVH utasítás 2. §-ával megállapított szöveg. 7 Az 5. § (2) bekezdése az 1/2024. (VII. 4.) GVH utasítás 2. §-ával megállapított szöveg. 8 Az 5. § (3) bekezdése az 1/2024. (VII. 4.) GVH utasítás 2. §-ával megállapított szöveg. 9 A 6. § a 3/2025. (II. 27.) GVH utasítás 12. §-ával megállapított szöveg. 10 A 7. §-t a 3/2025. (II. 27.) GVH utasítás 17. §-a hatályon kívül helyezte. 11 Az 5. alcím címe az 1/2024. (VII. 4.) GVH utasítás 4. §-ával megállapított szöveg. 12 A 8. § az 1/2024. (VII. 4.) GVH utasítás 5. §-ával megállapított szöveg. 13 A 8. § (1) bekezdése a 3/2025. (II. 27.) GVH utasítás 16. § c) pontja szerint módosított szöveg. 14 A 8. § (2) bekezdése a 3/2025. (II. 27.) GVH utasítás 16. § d) pontja szerint módosított szöveg. 15 A 8. § (8) bekezdése a 4/2024. (XII. 2.) GVH utasítás 5. §-a szerint módosított szöveg. 16 A 8/A. §-t a 6/2017. (VI. 22.) GVH utasítás 4. §-a iktatta be. 17 A 8/A. § (1) bekezdés nyitó szövegrésze az 1/2024. (VII. 4.) GVH utasítás 18. §-a szerint módosított szöveg. 18 A 8/A. § (4) bekezdése az 1/2024. (VII. 4.) GVH utasítás 6. §-ával megállapított szöveg. 19 A 8/B. §-t az 1/2024. (VII. 4.) GVH utasítás 7. §-a iktatta be. 20 A 6. alcím címe az 1/2024. (VII. 4.) GVH utasítás 8. §-ával megállapított szöveg. 21 A 10. § (1) bekezdése a 6/2017. (VI. 22.) GVH utasítás 5. §-ával megállapított szöveg. 22 A 11. § (3) bekezdése a 6/2017. (VI. 22.) GVH utasítás 21. § 3. pontja szerint módosított szöveg. 23 A 12. § (3) bekezdése a 6/2017. (VI. 22.) GVH utasítás 21. § 4. pontja szerint módosított szöveg. 24 A 13. § (1) bekezdése a 6/2017. (VI. 22.) GVH utasítás 21. § 5. pontja szerint módosított szöveg. 25 A 13. § (3) bekezdését a 6/2017. (VI. 22.) GVH utasítás 22. § 1. pontja hatályon kívül helyezte. 26 A 14. § (2) bekezdése az 5/2020. (X. 29.) GVH utasítás 11. § a) pontja szerint módosított szöveg. 27 A 16. § (2) bekezdését a 6/2017. (VI. 22.) GVH utasítás 22. § 2. pontja hatályon kívül helyezte. 28 A 9a. alcímet (18/A. §) a 6/2017. (VI. 22.) GVH utasítás 6. §-a iktatta be. 29 A 19. § a 6/2017. (VI. 22.) GVH utasítás 7. §-ával megállapított szöveg. 30 A 21. § (6) bekezdése a 6/2017. (VI. 22.) GVH utasítás 21. § 2. pontja, az 1/2023. (I. 31.) GVH utasítás 7. § a) pontja szerint módosított szöveg. 31 A 22. § (1) bekezdése az 1/2023. (I. 31.) GVH utasítás 6. §-ával megállapított, a 3/2025. (II. 27.) GVH utasítás 16. § e) pontja, a 4/2025. (IV. 4.) GVH utasítás 4. §-a szerint módosított szöveg. 32 A 22. § (2) bekezdése a 24/2015. (XI. 30.) GVH utasítás 15. § (4) bekezdése, az 5/2020. (X. 29.) GVH utasítás 11. § c) pontja szerint módosított szöveg. 33 A 23. § (1) bekezdése a 6/2017. (VI. 22.) GVH utasítás 21. § 6. pontja szerint módosított szöveg. 34 A 23. § (3a) bekezdését a 6/2017. (VI. 22.) GVH utasítás 8. §-a iktatta be. 35 A 24. § (1) bekezdése a 6/2017. (VI. 22.) GVH utasítás 21. § 7. pontja szerint módosított szöveg. 36 A 25. § (1) bekezdése a 6/2017. (VI. 22.) GVH utasítás 21. § 8. pontja szerint módosított szöveg. 37 A 25. § (3) bekezdése a 4/2024. (XII. 2.) GVH utasítás 4. § a) pontja szerint módosított szöveg. 38 A 27. § a 6/2017. (VI. 22.) GVH utasítás 9. §-ával megállapított szöveg. 39 A 28. § (2) bekezdés a) pontja a 6/2023. (V. 31.) GVH utasítás 10. §-a szerint módosított szöveg. 40 A 28. § (2) bekezdés b) pontja a 3/2018. (III. 26.) GVH utasítás 30. §-a szerint módosított szöveg. 41 A 28. § (2) bekezdés c) pontja a 6/2017. (VI. 22.) GVH utasítás 10. §-ával megállapított szöveg. 42 A 28. § (2) bekezdés d) pontja a 6/2017. (VI. 22.) GVH utasítás 10. §-ával megállapított szöveg. 43 A 28. § (2) bekezdés e) pontját a 6/2017. (VI. 22.) GVH utasítás 10. §-a iktatta be. 44 A 29. § (1) bekezdése az 1/2024. (VII. 4.) GVH utasítás 9. §-ával megállapított szöveg. 45 A 29. § (3) bekezdése a 6/2017. (VI. 22.) GVH utasítás 21. § 8. pontja szerint módosított szöveg. 46 A 30. § (3) bekezdése az 1/2024. (VII. 4.) GVH utasítás 10. §-ával megállapított szöveg. 47 A 31. § (2) bekezdése a 6/2017. (VI. 22.) GVH utasítás 21. § 9. pontja, az 1/2023. (I. 31.) GVH utasítás 7. § b) pontja szerint módosított szöveg. 48 A 32. § (1) bekezdése az 5/2020. (X. 29.) GVH utasítás 11. § d) pontja szerint módosított szöveg. 49 A 16a. alcímet (34/A. §) a 6/2017. (VI. 22.) GVH utasítás 11. §-a iktatta be. 50 A 16b. alcímet (34/B. §) a 6/2017. (VI. 22.) GVH utasítás 11. §-a iktatta be. 51 A 34/B. § (1) bekezdése a 3/2025. (II. 27.) GVH utasítás 16. § f) pontja szerint módosított szöveg. 52 A 35. § a 6/2017. (VI. 22.) GVH utasítás 12. §-ával megállapított szöveg. 53 A 35. § d) pontját az 1/2024. (VII. 4.) GVH utasítás 11. §-a iktatta be. 54 A 40. § (2) bekezdése a 6/2017. (VI. 22.) GVH utasítás 22. § 3. pontja szerint módosított szöveg. 55 A 41. § (2) bekezdése az 5/2020. (X. 29.) GVH utasítás 2. § (1) bekezdésével megállapított szöveg. 56 A 41. § (4) bekezdése az 5/2020. (X. 29.) GVH utasítás 2. § (2) bekezdésével megállapított szöveg. 57 A 42. § az 5/2020. (X. 29.) GVH utasítás 11. § e) pontja szerint módosított szöveg. 58 A 43. § (5) bekezdése a 6/2017. (VI. 22.) GVH utasítás 21. § 10. pontja szerint módosított szöveg. 59 A 43. § (6) bekezdése a 6/2017. (VI. 22.) GVH utasítás 13. §-ával megállapított, az 5/2020. (X. 29.) GVH utasítás 12. § a) pontja szerint módosított szöveg. 60 A 46. § (1) bekezdése a 6/2017. (VI. 22.) GVH utasítás 21. § 11. pontja szerint módosított szöveg. 61 A 46. § (3) bekezdés b) pontja a 6/2017. (VI. 22.) GVH utasítás 21. § 12. pontja, az 1/2023. (I. 31.) GVH utasítás 8. §-a szerint módosított szöveg. 62 A 48. § (1) bekezdése az 5/2020. (X. 29.) GVH utasítás 3. §-ával megállapított, a 4/2024. (XII. 2.) GVH utasítás 4. § b)–c) pontja szerint módosított szöveg. 63 A 49/A. §-t az 1/2024. (VII. 4.) GVH utasítás 12. §-a iktatta be. 64 A 49/B. §-t az 1/2024. (VII. 4.) GVH utasítás 12. §-a iktatta be. 65 A 49/C. §-t az 1/2024. (VII. 4.) GVH utasítás 12. §-a iktatta be. 66 A 49/D. §-t az 1/2024. (VII. 4.) GVH utasítás 12. §-a iktatta be. 67 A 49/E. §-t az 1/2024. (VII. 4.) GVH utasítás 12. §-a iktatta be. 68 Az 50. § a 13/2021. (XI. 25.) GVH utasítás 1. §-ával megállapított szöveg. 69 Az 51. §-t az 1/2024. (VII. 4.) GVH utasítás 19. §-a hatályon kívül helyezte. 70 Az 52. §-t az 1/2024. (VII. 4.) GVH utasítás 19. §-a hatályon kívül helyezte. 71 Az 53. §-t az 1/2024. (VII. 4.) GVH utasítás 19. §-a hatályon kívül helyezte. 72 Az 54. §-t az 1/2024. (VII. 4.) GVH utasítás 19. §-a hatályon kívül helyezte. 73 Az 55. §-t az 1/2024. (VII. 4.) GVH utasítás 19. §-a hatályon kívül helyezte. 74 Az 56. § (1) bekezdése a 4/2024. (XII. 2.) GVH utasítás 3. §-ával megállapított szöveg. 75 Az 56. § (2) bekezdése az 5/2020. (X. 29.) GVH utasítás 11. § f) pontja szerint módosított szöveg. 76 Az 56. § (3) bekezdése a 6/2017. (VI. 22.) GVH utasítás 21. § 16. pontja szerint módosított szöveg. 77 Az 56. § (4) bekezdése a 3/2018. (III. 26.) GVH utasítás 30. §-a szerint módosított szöveg. 78 Az 57. § (3) bekezdése a 3/2025. (II. 27.) GVH utasítás 13. §-ával megállapított szöveg. 79 Az 58. § az 5/2020. (X. 29.) GVH utasítás 6. §-ával megállapított szöveg. 80 Az 58. § (1) bekezdése a 4/2024. (XII. 2.) GVH utasítás 4. § a) pontja szerint módosított szöveg. 81 Az 58. § (2) bekezdése a 4/2024. (XII. 2.) GVH utasítás 4. § a) pontja szerint módosított szöveg. 82 Az 59. § az 5/2020. (X. 29.) GVH utasítás 7. §-ával megállapított szöveg. 83 A 60. § (1) bekezdése a 3/2018. (III. 26.) GVH utasítás 30. §-a szerint módosított szöveg. 84 A 60. § (2) bekezdése a 6/2023. (V. 31.) GVH utasítás 10. §-a szerint módosított szöveg. 85 A 61. § (1) bekezdése a 3/2018. (III. 26.) GVH utasítás 30. §-a, az 5/2020. (X. 29.) GVH utasítás 11. § g) pontja szerint módosított szöveg. 86 A 61. § (2) bekezdése az 1/2024. (VII. 4.) GVH utasítás 13. § (1) bekezdésével megállapított szöveg. 87 A 61. § (4) bekezdése az 1/2024. (VII. 4.) GVH utasítás 13. § (2) bekezdésével megállapított szöveg. 88 A 24/A. alcímet (62/A. §-t) az 1/2024. (VII. 4.) GVH utasítás 14. §-a iktatta be. 89 A 25. alcím (63. §) a 6/2017. (VI. 22.) GVH utasítás 15. §-ával megállapított szöveg. 90 A 63. § (1) bekezdése a 3/2025. (II. 27.) GVH utasítás 14. §-ával megállapított szöveg. 91 A 63. § (3) bekezdés nyitó szövegrésze az 5/2020. (X. 29.) GVH utasítás 11. § h) pontja szerint módosított szöveg. 92 A 25a. alcímet (63/A. §) a 6/2017. (VI. 22.) GVH utasítás 16. §-a iktatta be. 93 A 63/A. § (2) bekezdése a 3/2025. (II. 27.) GVH utasítás 15. §-ával megállapított szöveg. 94 A 25b. alcím címét a 6/2017. (VI. 22.) GVH utasítás 17. § (1) bekezdése iktatta be. 95 A 64. § a 6/2017. (VI. 22.) GVH utasítás 17. § (2) bekezdésével megállapított szöveg. 96 A 64. § (5) bekezdését a 13/2021. (XI. 25.) GVH utasítás 2. §-a iktatta be. 97 A 65. §-t megelőző alcím címet a 6/2017. (VI. 22.) GVH utasítás 18. §-a iktatta be. 98 A 64. § a 6/2017. (VI. 22.) GVH utasítás 15. §-a alapján hatályát vesztette. 99 A 69. § (2) bekezdése az 5/2020. (X. 29.) GVH utasítás 9. §-ával megállapított szöveg. 100 A 28a. alcímet (69/A. §) a 13/2021. (XI. 25.) GVH utasítás 3. §-a iktatta be. 101 A 69/A. § (1) bekezdése a 3/2025. (II. 27.) GVH utasítás 16. § g) pontja szerint módosított szöveg. 102 A 69/A. § (1a) bekezdését az 1/2024. (VII. 4.) GVH utasítás 15. §-a iktatta be, szövege a 3/2025. (II. 27.) GVH utasítás 16. § h) pontja szerint módosított szöveg. 103 A 69/A. § (1b) bekezdését az 1/2024. (VII. 4.) GVH utasítás 15. §-a iktatta be. 104 A 70. § (2) bekezdése a 13/2021. (XI. 25.) GVH utasítás 4. §-ával megállapított szöveg. 105 A 70. § (3) bekezdését a 13/2021. (XI. 25.) GVH utasítás 4. §-a iktatta be. 106 A 70. § (4) bekezdését a 13/2021. (XI. 25.) GVH utasítás 4. §-a iktatta be. 107 A 72. § (2) bekezdését a 13/2021. (XI. 25.) GVH utasítás 5. §-a iktatta be. 108 A 29a. alcímet (72/A. §) a 6/2017. (VI. 22.) GVH utasítás 19. §-a iktatta be. 109 A 73. § (2) bekezdése az 5/2020. (X. 29.) GVH utasítás 12. § b) pontja szerint módosított szöveg. 110 A 73. § (4) bekezdését a 13/2021. (XI. 25.) GVH utasítás 6. §-a iktatta be. 111 A 73. § (5) bekezdését a 13/2021. (XI. 25.) GVH utasítás 6. §-a iktatta be. 112 A 30a. alcímet (73/A–73/C. §) a 6/2017. (VI. 22.) GVH utasítás 20. §-a iktatta be, az alcím címe az 5/2020. (X. 29.) GVH utasítás 10. §-ával megállapított szöveg. 113 A 73/A. § (2) bekezdése az 5/2020. (X. 29.) GVH utasítás 11. § i) pontja szerint módosított szöveg. 114 A 73/A. § (4) bekezdés nyitó szövegrésze az 5/2020. (X. 29.) GVH utasítás 11. § i) pontja szerint módosított szöveg. 115 A 73/A. § (5) bekezdése az 5/2020. (X. 29.) GVH utasítás 11. § j) pontja szerint módosított szöveg. 116 A 73/B. § (1) bekezdése az 1/2024. (VII. 4.) GVH utasítás 16. §-ával megállapított szöveg. 117 A 73/B. § (2) bekezdése az 5/2020. (X. 29.) GVH utasítás 11. § i) pontja szerint módosított szöveg. 118 A 73/C. § (1) bekezdése az 5/2020. (X. 29.) GVH utasítás 11. § i) pontja szerint módosított szöveg. 119 A 73/C. § (2) bekezdése az 5/2020. (X. 29.) GVH utasítás 11. § i) pontja szerint módosított szöveg. 120 A 31. alcímet (73/D–73/E. §) a 12/2021. (X. 29.) GVH utasítás 4. §-a iktatta be. 121 A 73/D. § (1) bekezdése a 3/2025. (II. 27.) GVH utasítás 16. § i) pontja szerint módosított szöveg. 122 A 73/D. § (3) bekezdése a 3/2025. (II. 27.) GVH utasítás 16. § j) pontja szerint módosított szöveg. 123 A IX. Fejezet (74–75. §) az 1/2024. (VII. 4.) GVH utasítás 17. §-ával megállapított szöveg. 124 A 76. § (2) bekezdése a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette. 125 Az 1. melléklet az 5/2020. (X. 29.) GVH utasítás 13. §-ával megállapított szöveg."
+    }
+  ]
+}

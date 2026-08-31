@@ -1,0 +1,137 @@
+{
+  "id": "hu-law-2018-5-b0-77",
+  "type": "statute",
+  "title": "5/2018. (V. 25.) GVH utasítás az iratbetekintés elektronikus úton való biztosításával kapcsolatos szabályokról",
+  "status": "in_force",
+  "in_force_date": "2018-06-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2018-5-B0-77",
+  "description": "az iratbetekintés elektronikus úton való biztosításával kapcsolatos szabályokról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § (1) A Gazdasági Versenyhivatal (a továbbiakban: Hivatal) Virtuális Adatszoba elektronikus alkalmazást (a továbbiakban: VDR) működtet a) a betekinthető adatokat tartalmazó iratokba való betekintés folyamatának, az iratokról való másolat igénylésének és kiadásának részben vagy egészben elektronikus úton történő biztosítása, valamint b) a bíróság előtti eljárásban a Hivatalt a bíróság előtt képviselő személy számára a VDR-ben szinkronizált iratokhoz történő távoli elektronikus elérés céljából. (2) A VDR a Hivatal honlapjáról elérhető elektronikus alkalmazás, amely a betekintésre jogosult személynek a Kormány által kötelezően biztosított elektronikus azonosítási szolgáltatással történő azonosítását követően biztosítja a betekinthető iratokhoz való hozzáférést. (3) Ez az utasítás nem érinti az iratkezelésre, ezen belül különösen a korlátozottan megismerhető adatot tartalmazó irat minősítésével kapcsolatban elnöki utasításban szabályozott kötelezettségeket, feladatokat és felelősséget, valamint az iratkezelésre, illetve az iratkezelő program használatára vonatkozó egyéb szabályokat."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § (1) A VDR működésével összefüggő rendszergazdai feladatokat az Informatikai és Iratirányítási Iroda (a továbbiakban: III) vezetője és az III általa kijelölt munkatársa (a továbbiakban: VDR rendszergazda) látja el. (2) A VDR rendszergazda feladata különösen a) a versenytanácsi adminisztrátor (a továbbiakban: VT adminisztrátor) jogosultságainak kiosztása, kezelése, módosítása, visszavonása a kijelölésről szóló elektronikus levél alapján, b) a VDR rendszerbeállításainak kezelése, c) az eseménynapló kezelése és megőrzése, d) a betekintési napló VDR rendszerben való megőrzése. (3) A VDR rendszergazda hozzáfér a VDR elektronikus információs rendszerének egészéhez, ezen belül a felhasználói jogosultságokhoz."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) Az iratokhoz a VDR-ben való elektronikus hozzáféréssel, valamint a betekintésre jogosult felhasználó iratbetekintési jogának elektronikus úton történő gyakorlásával összefüggő adminisztratív feladatokat a VT adminisztrátor látja el. (2) VT adminisztrátor a Döntéshozatalt Támogató Iroda (a továbbiakban: DTI) vezetője és az általa kijelölt munkatárs. (3) A VT adminisztrátor feladata – a Versenytanács szervezeti és működési szabályzatáról szóló 5/2023. (IV. 28.) GVH utasítás 1. melléklet 13. § (2) bekezdése körében az előadó versenytanácstag e-mailben közölt írásbeli utasítása alapján – különösen: a) a VDR felhasználói jogosultságainak kiosztása, kezelése, módosítása, visszavonása, b) az ügy iratbetekintésre történő megnyitása és az iratbetekintés ismételt megnyitása a VDR-ben, c) az iratbetekintési jog megnyílásáról szóló értesítést és az e jog gyakorlásához szükséges hivatkozást tartalmazó rendszerüzenet kiküldésének előkészítése és ellenőrzése, d) az iratbetekintésre megnyitott ügy iratai és az iratkezelő program közötti szinkronizálás feletti felügyelet, szükség esetén a szinkronizálás elvégzése, e) az iratbetekintés lezárása, f) a betekintési napló iktatása, g) a VDR-ben szinkronizált iratokhoz történő távoli elektronikus elérés biztosítása."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) Az iratbetekintésre jogosult ügyfél által kijelölt egy vagy több személy (a továbbiakban: betekintő) az 1. § (1) bekezdés a) pont szerinti célból VDR felhasználói jogosultsággal rendelkezik. (2) A VT adminisztrátor az iratbetekintésre megnyitott ügyben kijelölt előadó versenytanácstag utasítása alapján biztosít a betekintő számára felhasználói jogosultságot."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § (1) Az ügy VDR-ben való törléséig VDR felhasználói jogosultsággal rendelkezik a) a Versenytanács elnöke, b) a VDR-ben iratbetekintésre megnyitott ügyben kijelölt eljáró versenytanács tagja és az előadó versenytanácstag, c) a Bírósági Képviseleti Iroda eljárása esetén a Bírósági Képviseleti Iroda vezetője és a VDR-ben iratbetekintésre megnyitott ügyben ügyintézőként kijelölt vizsgálója, illetve a képviselet ellátására az elnök által megbízott külső képviselő (a továbbiakban együtt: belső felhasználó). (2) A VT adminisztrátor a belső felhasználói jogosultságot a) az (1) bekezdés b) pontja szerinti belső felhasználónak az iratkezelő programban rögzített szignálás, b) az (1) bekezdés c) pontja szerinti belső felhasználónak a Bírósági Képviseleti Iroda vezetőjének tájékoztatása alapján biztosítja. (3) Az (1) bekezdés c) pontja szerinti belső felhasználó az eljárás irataiba a versenyfelügyeleti eljárást befejező döntés meghozatala után, az iratbetekintés lezárását és a betekintők felhasználói jogosultságának törlését követően férhet hozzá, ha az a feladatai ellátásához szükséges."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § (1) A VDR rendszere az informatikai biztonsági incidens kivizsgálása és a hiba elhárítása érdekében eseménynaplót készít és tárol a rendszerében. (2) A VDR rendszergazda átvizsgálja az eseménynaplót, ha a) a ki- és bejelentkezési adatok, b) a VDR felhasználóival vagy egy ügy felhasználóival kapcsolatos műveletek, c) valamely ügy VDR-ben tárolt törzsadataival kapcsolatos műveletek, d) valamely ügy VDR-ben szereplő irataival kapcsolatos műveletek ezt indokolják."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § (1) A VDR rendszere az iratbetekintés eljárási cselekményének dokumentálása és az eljárás iratainak integritása érdekében az iratbetekintésre megnyitott ügyhöz kapcsolódóan betekintési naplót készít és az adott ügy irataival együtt tárol a rendszerében. (2) A VDR a betekintési naplóban rögzíti a) a felhasználó VDR-be való belépésének időpontját, b) azt, hogy a felhasználó mely iratokat tekintett meg."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § (1) A VT adminisztrátor az ügyben kijelölt előadó versenytanácstag utasítása alapján előkészíti az ügy megnyitását a VDR-ben történő iratbetekintésre, és ennek keretében elvégzi a megjelölt ügy iratainak az iratkezelő programmal való első szinkronizálását. (2) Kartell és antitröszt ügyekben, valamint egyébként nagyszámú iratot tartalmazó ügyben az előadó versenytanácstag legalább 3 munkanappal az iratbetekintés megnyílta előtt utasítást ad az iratkezelés előkészítésére."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § (1) Az iratbetekintésre megnyitott ügy iratai a VDR és a Hivatal iratkezelő programja közötti szinkronizálás során kerülnek az iratkezelő programból a VDR-be, oly módon, hogy a VDR az iratkezelő programhoz való kapcsolódást követően – az iratkezelő programban korlátozottan megismerhető adatot tartalmazó iratként nyilvántartott irat kivételével – letölti a megjelölt ügyazonosítóhoz kapcsolódó pdf kiterjesztésű iratokat. (2) Iratbetekintésre megnyitott ügyben az iratok első szinkronizálását követő rendszeres szinkronizálást a VT adminisztrátor felügyeli, automatikus szinkronizálás hiányában vagy annak hibája esetén szükség szerint elvégzi. (3) Az ügy iratbetekintésre való megnyitása előtt, valamint az automatikus szinkronizálás során új irat letöltését követően a VT adminisztrátor összeveti a VDR-ben szereplő iratokat a GVH iratkezelő rendszerével, ennek során megbizonyosodik arról, hogy a VDR csak korlátozottan megismerhető adatot nem tartalmazó iratot töltött le, illetve hogy minden betekinthető iratot letöltött. A szinkronizálás során fellépő hiba észlelése esetén arról írásban haladéktalanul tájékoztatja az előadó versenytanácstagot és a VDR rendszergazdát, és a hiba elhárításáig az ügyet nem nyitja meg iratbetekintésre. (4) Az ügy iratbetekintésre való megnyitásával az ügy iratai hozzáférhetővé válnak az ügyhöz hozzárendelt felhasználók számára."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § (1) A VT adminisztrátor az eljáró versenytanácstagnak az ügy iratbetekintésre történő megnyitására és az iratbetekintés ismételt megnyitására adott utasításában megjelölt iratbetekintésre jogosult ügyfél és a nevében eljáró betekintő számára biztosít betekintői felhasználói jogosultságot az utasításban rögzített időponttól, az abban megjelölt e-mail címmel. (2) Iratbetekintésre már megnyitott ügyben az előadó versenytanácstag utasítása alapján további betekintők számára is biztosítható felhasználói jogosultság."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § (1) A VT adminisztrátor az előadó versenytanácstag utasítása alapján törli a betekintőhöz az adott ügyben rendelt felhasználói jogosultságot. (2) Az ügyfélhez tartozó felhasználói jogosultság törlése nem érinti az ügyfél képviseletében eljáró betekintőt más ügyben megillető felhasználói jogosultságot."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. § (1) Iratbetekintésre megnyitott ügyben az iratbetekintés lezárása folytán a betekintői felhasználói jogosultságok megszűnnek. (2) Az iratbetekintést le kell zárni a) a Versenytanács eljárást befejező döntésének véglegessé válásakor, b) a Versenytanács eljárást befejező döntése ellen benyújtott jogorvoslat esetén az ügy iratainak a bírósághoz való továbbításakor. (3) A VT adminisztrátor az iratbetekintést a DTI vezetőjének utasítása alapján zárja le. (4) Az iratbetekintés lezárását megelőzően – ha az adott ügyben az iratbetekintés elektronikus úton történő gyakorlására ténylegesen sor került – a VT adminisztrátor a) exportálja a VDR-ből a betekintési naplót, b) az exportált betekintési naplót iktatja, és a DTI vezetője által aláírt papíralapú változatát elhelyezi az ügy iratai között, c) a betekintési napló dokumentumképét csatolja az iratkezelő programban."
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. § (1) A betekintő számára történő felhasználói jogosultság biztosításával, a betekintési naplóval és az ügy VDR-ben való lezárásával kapcsolatos eljárásra a 6–9. alcímben foglaltak az iratbetekintés VDR-ben történt lezárását követő ismételt megnyitása esetén is megfelelően alkalmazandók."
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14. §",
+      "content": "14. § Az iratbetekintés lezárását követően a VDR-ben még nem archivált ügyben az eljárást befejező döntés elleni jogorvoslati kérelem benyújtása esetén a belső felhasználó számára a VDR-ben szinkronizált iratokhoz távoli elektronikus elérés biztosítható az 1. § (1) bekezdés b) pontja szerinti célból."
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15. §",
+      "content": "15. § (1) Az iratbetekintésre megnyitott ügyet a VT adminisztrátor a DTI vezetőjének – az előadó versenytanácstaggal és a Bírósági Képviseleti Iroda vezetőjével való előzetes egyeztetést követő – írásbeli utasítása alapján archiválja a VDR-ben, ezzel megjelöli az ügy VDR-ből való későbbi törlése érdekében. (2) Az archiválás nem vonható vissza. (3) A VT adminisztrátor az ügy archiválását megelőzően meggyőződik arról, hogy az iratkezelés utolsó lezárásakor fennálló betekintési adatokat tükröző betekintési naplót exportálta, iktatta, kinyomtatta, a DTI vezetője aláírta és hogy elektronikus képe az iratkezelő programban rendelkezésre áll."
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16. §",
+      "content": "16. § (1) A VDR rendszerbeállításainak és rendszerüzeneteinek módosítása – a (2) bekezdésben foglalt kivétellel – a VDR rendszergazda hatáskörébe tartozik. (2) A VDR rendszergazda a DTI vezetőjének írásbeli kezdeményezése alapján, a szükség szerinti egyeztetéseket követően a DTI vezetője által meghatározott tartalom szerint végrehajtja az alábbi rendszerbeállítások, rendszerüzenetek és egyéb tartalmak módosítását: a) az iratbetekintési jog megnyílásáról szóló értesítés és az e jog gyakorlásához szükséges hivatkozás kiküldésével kapcsolatos rendszerbeállítások és rendszerüzenetek, b) az ügy iratbetekintésre való megnyitásával és az iratbetekintés lezárásával kapcsolatos rendszerbeállítások és rendszerüzenetek, c) kosárrendeléssel kapcsolatos rendszerbeállítások és rendszerüzenetek, d) az iratbetekintésre megnyitott ügyben hozzáférhető iratok változásával kapcsolatos rendszerbeállítások és rendszerüzenetek, e) értesítési sablon felhasználói visszajelzésről, f) több azonosítóval létező felhasználóval kapcsolatos rendszerbeállítások, g) adatkezelési tájékoztató, h) pdf segédlet, i) vízjel tartalma. (3) A DTI vezetője más rendszerbeállítások, rendszerüzenetek vagy tartalmak módosítására is javaslatot tehet."
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17. §",
+      "content": "17. § (1) A VDR egyes funkcióinak működése érdekében csoportos e-mail cím (a továbbiakban: VDR csoportos e-mail cím) működik. (2) Az (1) bekezdés szerinti e-mail csoport tagjai a VT adminisztrátor, továbbá DTI vezetője által kijelölt személyek, az e-mail csoport címére érkezett feladat ellátásáért a DTI vezetője felelős."
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18. §",
+      "content": "18. § (1) A VDR-ben az erre szolgáló funkció alkalmazásával előterjesztett másolatkészítés iránti kérelemről a VDR csoportos e-mail címre érkezik üzenet. Az e-mail csoport tagjai a kérelemről szóló üzenet érkezését követően haladéktalanul, de legkésőbb három munkanapon belül elkészítik a kért másolatokat. (2) A másolatok elkészítését követően a VT adminisztrátor e-mail útján haladéktalanul értesíti a felhasználót, hogy a kért iratokról a másolatok elkészültek, egyúttal tájékoztatja a másolat átvételének időpontjáról, valamint a másolatért fizetendő eljárási költség mértékéről és megfizetésének módjáról."
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19. §",
+      "content": "19. § A VDR „Felhasználói visszajelzés” funkciójának alkalmazásával a felhasználó a VDR csoportos e-mail címre küld üzenetet. Az e-mail csoport tagjai haladéktalanul megvizsgálják, hogy a visszajelzés alapján felmerül-e bármilyen teendő, és ennek elvégzéséről értesítik a DTI vezetőjét."
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20. §",
+      "content": "20. § (1) A VDR szolgáltatást érintő tervezett üzemszünet esetén az III a tervezett tevékenység előtt legalább három nappal, ha ez sürgős intézkedést igénylő ok miatt nem lehetséges, haladéktalanul tájékoztatja a VT adminisztrátort, aki erről a tervezett üzemszünet kezdete előtt legalább egy nappal, sürgős intézkedés esetén az III tájékoztatását követően haladéktalanul VDR rendszerüzenetben értesíti a VDR-ben megnyitott ügyhöz rendelt felhasználókat. (2) Az előreláthatólag 4 órát meghaladó nem tervezett üzemszünet esetén a szolgáltatás szüneteléséről vagy korlátozott működéséről – ha az technikailag lehetséges – a VDR-ben megnyitott ügyhöz rendelt felhasználókat a VT adminisztrátor – a DTI vezetője és a VDR rendszergazda közötti egyeztetés alapján – e-mailben értesíti. (3) Amennyiben az üzemszünet időtartama előreláthatólag az egy munkanapot meghaladja, a VT adminisztrátor az iratbetekintés személyes úton történő biztosítása érdekében a) tervezett üzemszünet esetén az (1) bekezdésben, b) nem tervezett üzemszünet esetén a (2) bekezdésben foglaltak szerint eljárva ad tájékoztatást a személyes iratbetekintés gyakorlásának lehetőségéről és módjáról."
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21. §",
+      "content": "21. § Ez az utasítás 2018. június 1-jén lép hatályba. 1 Az 1. § (2) bekezdése a 3/2025. (II. 27.) GVH utasítás 22. § a) pontja szerint módosított szöveg. 2 A 3. § (2) bekezdése a 6/2020. (XII. 3.) GVH utasítás 36. §-ával megállapított szöveg. 3 A 3. § (3) bekezdés nyitó szövegrésze a 3/2025. (II. 27.) GVH utasítás 22. § b) pontja szerint módosított szöveg. 4 A 10. § (1) bekezdése a 3/2025. (II. 27.) GVH utasítás 23. §-a szerint módosított szöveg. 5 A 12. § (3) bekezdése a 6/2020. (XII. 3.) GVH utasítás 37. § a) pontja szerint módosított szöveg. 6 A 12. § (4) bekezdés b) pontja a 6/2020. (XII. 3.) GVH utasítás 37. § a) pontja szerint módosított szöveg. 7 A 15. § (1) bekezdése a 6/2020. (XII. 3.) GVH utasítás 37. § a) pontja szerint módosított szöveg. 8 A 15. § (3) bekezdése a 6/2020. (XII. 3.) GVH utasítás 37. § a) pontja szerint módosított szöveg. 9 A 16. § (2) bekezdés nyitó szövegrésze a 6/2020. (XII. 3.) GVH utasítás 37. § b) pontja szerint módosított szöveg. 10 A 16. § (3) bekezdése a 6/2020. (XII. 3.) GVH utasítás 37. § a) pontja szerint módosított szöveg. 11 A 17. § (2) bekezdése a 6/2020. (XII. 3.) GVH utasítás 37. § b) pontja szerint módosított szöveg. 12 A 19. § a 6/2020. (XII. 3.) GVH utasítás 37. § a) pontja szerint módosított szöveg. 13 A 20. § (2) bekezdése a 6/2020. (XII. 3.) GVH utasítás 37. § a) pontja szerint módosított szöveg."
+    }
+  ]
+}

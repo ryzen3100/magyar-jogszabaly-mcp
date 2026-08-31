@@ -1,0 +1,59 @@
+{
+  "id": "hu-law-2015-46-20-2x",
+  "type": "statute",
+  "title": "46/2015. (XII. 30.) NGM rendelet a Nemzeti Adó- és Vámhivatal bűnmegelőzési, bűnüldözési, valamint szabálysértési tevékenységével összefüggésben keletkezett adatok kezelésére jogosult szervek meghatározásáról és az adatok kezelésének technikai szabályairól",
+  "status": "in_force",
+  "in_force_date": "2016-01-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2015-46-20-2X",
+  "description": "a Nemzeti Adó- és Vámhivatal bűnmegelőzési, bűnüldözési, valamint szabálysértési tevékenységével összefüggésben keletkezett adatok kezelésére jogosult szervek meghatározásáról és az adatok kezelésének technikai szabályairól",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § (1) A Nemzeti Adó- és Vámhivatal (a továbbiakban: NAV) törvényben meghatározott bűnmegelőzési, bűnüldözési és szabálysértési adatok kezelésére a rendeletben meghatározott informatikai rendszereket működteti. (2) Az (1) bekezdés szerinti informatikai rendszerek és a RobotzsaruNeo integrált ügyviteli és ügyfeldolgozó rendszer a Nemzeti Adó- és Vámhivatal nyomozóhatósági, szabálysértési hatósági, valamint a pénzmosás és a terrorizmus finanszírozása megelőzésével és megakadályozásával kapcsolatos tevékenységének támogatásán túl az állami adó-és vámhatósági és más feladatok ellátása során észlelt bűncselekmények kapcsán a büntető feljelentések, valamint az adózás rendjéről szóló törvény szerinti tájékoztatások megtételére, megkeresések teljesítésére is szolgál."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § (1) A RobotzsaruNeo rendszer bűnügyi modul (a továbbiakban: Neo) a folyamatban lévő és a lefolytatott büntetőeljárásokkal kapcsolatos, a Nemzeti Adó- és Vámhivatalról szóló 2010. évi CXXII. törvény (a továbbiakban: NAV tv.) 72. § (1) bekezdés a)–g) pontjában meghatározott adatok kezelésére szolgáló informatikai rendszer. A Neo rendszert kezelő szervek felsorolását és a hozzáférési jogosultságokat az 1. melléklet tartalmazza. (2) A RobotzsaruNeo rendszer a pénzmosásra és terrorizmus finanszírozására utaló adatot, tényt, körülményt tartalmazó modulja (a továbbiakban: RZSFIU) a pénzmosás és a terrorizmus finanszírozása megelőzéséről és megakadályozásáról szóló 2007. évi CXXXVI. törvény (a továbbiakban: Pmt.) 23. §-ában, 24. §-ában, valamint a Pmt.-ben meghatározott egyéb pénzmosásra és terrorizmus finanszírozására utaló adat, tény, körülmény kezelésére szolgáló informatikai rendszer. Az RZSFIU rendszert kezelő szervek felsorolását és a hozzáférési jogosultságokat a 2. melléklet tartalmazza. (3) A RobotzsaruNeo rendszer szabálysértési modul a szabálysértési eljárásokkal kapcsolatos, a NAV tv. 66. § (1) bekezdésében meghatározott adatok kezelésére szolgáló informatikai rendszer. A RobotzsaruNeo rendszer szabálysértési modulját kezelő szervek felsorolását és a hozzáférési jogosultságokat a 3. melléklet tartalmazza. (4) A Határon Átlépő Készpénzforgalom Nyilvántartás a Közösség területére belépő, illetve a Közösség területét elhagyó készpénz ellenőrzéséről szóló, 2005. október 26-i 1889/2005/EK európai parlamenti és tanácsi rendelet végrehajtásáról szóló 2007. évi XLVIII. törvény 4. §-a szerint nyilvántartásba vehető adatok kezelésére szolgáló informatikai rendszer. A Határon Átlépő Készpénzforgalom Nyilvántartást kezelő szervek felsorolását és a hozzáférési jogosultságokat a 4. melléklet tartalmazza. (5) A Netzsaru rendszer strukturált adatbázis formájában magába foglalja a RobotzsaruNeo rendszer használata során rögzített ügyek releváns adatait. A Netzsaru rendszert kezelő szervek köre és a hozzáférés a RobotzsaruNeo rendszerhez való hozzáférés által meghatározott."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) Az informatikai rendszer technikai elemeinek elhelyezésére szolgáló helyiséget úgy kell kialakítani, hogy az megfelelő védelmet biztosítson a külső és a belső veszélyforrásokkal szemben egyaránt. (2) Az informatikai rendszer technikai elemeinek elhelyezésére szolgáló épületben olyan be- és kiléptető rendszer üzemeltetése szükséges, amely a személyi forgalom pontos, visszakereshető naplózására mindenkor alkalmas. (3) Az adatbázis adatainak másolás, megjelenítés, nyomtatás, kimutatás készítés céljából történő felhasználásakor a felhasználók azonosítása, a rendszer részeinek használatára való jogosultság ellenőrzése, a jogosultságnak nem megfelelő rendszerrészekbe történő belépés kizárása kötelező."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) Hálózati kiszolgáló gépen (a továbbiakban: szerver) vagy számítógépen tárolt adatokat az alábbiak szerint kell kezelni: a) az adatokat tartalmazó szervert elkülönítetten, az erre a célra kialakított, zárt helyiségben kell üzemeltetni, és biztosítani kell a folyamatos működéshez szükséges technikai feltételeket, így különösen a szünetmentes tápellátást, a megfelelő páratartalom és hőmérséklet szinten tartását, a kisugárzás elleni védelmet; b) az a) pont szerint kialakított helyiségben elhelyezésre kerülő egyéb számítástechnikai eszközök körét szigorúan meg kell határozni, és azok nem lehetnek adatkapcsolatban az adatokat tartalmazó szerverrel; c) az a) pont szerint kialakított helyiség vonatkozásában be- és kiléptető rendszert kell működtetni, amely visszakereshető módon dokumentálja a személyi forgalmat; d) az adatokat tartalmazó szervert elérő munkaállomás csak kódolt adatátviteli hálózaton keresztül kapcsolódhat a szerverhez; e) az adatkezelési feladatokat ellátó munkaállomásoknak a felhasználó azonosítása és autentikációja után kell kapcsolódnia a szerverhez, jelszórendszert kell kialakítani; f) az adathoz való hozzáférést szervezeti és beosztási hierarchiának megfelelően kell kialakítani; g) az adathordozó tartalmát az arra jogosult személy is csak a feladata végrehajtása érdekében, a hozzáférési jogosultságának keretei között ismerheti meg; h) az adaton végzett műveletről napló állományt kell készíteni; i) a szerver védelmi rendszerét úgy kell kialakítani, hogy az megakadályozza az adatkezelésre használt számítástechnikai tárolóeszközbe történő illetéktelen bevitelt, a tár tartalmának illetéktelen törlését vagy bármilyen módon való megváltoztatását, illetve bármely adatmódosítást felhasználói jogosultsághoz kell kötni; j) biztosítani kell a szerver naprakész és a kor követelményének megfelelő folyamatos vírusvédelmét. (2) Biztosítani kell a raktározott állapotú szoftvert tartalmazó adathordozó, a biztonsági másolat, a munkakópia, az archivált adatot tartalmazó adathordozó 3. § (1) bekezdés szerinti védelmét."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § Egyéb adathordozón, így különösen iraton, fényképen, hangfelvételen tárolt adatokat az alábbiak szerint kell kezelni: a) az egyéb adathordozó elhelyezésére szolgáló helyiségek kialakításánál a 3. § (1) bekezdésében foglaltak az irányadók; b) az egyéb adathordozóról, azok mozgásáról és felhasználásukról a nyomon követhetőség érdekében hiteles nyilvántartást kell vezetni; c) biztosítani kell az egyéb adathordozókhoz való jogosulatlan hozzáférés megakadályozását, ennek érdekében az irattárba csak meghatározott rendben történhet belépés; d) az egyéb adathordozók tartalmát az arra jogosult személy is csak a feladata végrehajtása érdekében, a hozzáférési jogosultságának keretei között ismerheti meg."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § A használatban lévő szoftver esetében a) a programok átadás-átvételéről nyilvántartást kell vezetni, b) biztosítani kell, hogy a belépés ellenőrizhető legyen (felhasználói hitelesítés), a rendszer autentikációja, valamint a hozzáférés és jogosultság kezelése szempontjából megfelelő biztonságot nyújtson, c) el kell végezni az új vagy változtatott szoftver megfelelő minősítését (implementálás), d) biztosítani kell, hogy a program előállítása teljes, világos legyen (specifikáció), e) a felhasználói felületnek egyszerűnek és érthetőnek kell lennie, f) a feladat ellátásához szükséges mértékben kell meghatározni a hozzáférési jogosultságot, g) csak ellenőrzött és vírusmentes adathordozót lehet felhasználni, h) a szoftver importja a hálózaton keresztül tilos."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § Ez a rendelet 2016. január 1-jén lép hatályba."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § Megjegyzés: X: AZ ADATOK TELJES KÖRÉRE VONATKOZÓ JOGOSULTSÁG. C: A SZEMÉLYES ADATOK KIVÉTELÉVEL AZ ADATOKHOZ VALÓ HOZZÁFÉRÉSI JOG. 1 Az 1. § a 63/2016. (XII. 29.) NGM rendelet 30. §-ával megállapított szöveg. 2 Az 1. § (2) bekezdése a 48/2017. (XII. 29.) NGM rendelet 14. §-a szerint módosított szöveg. 3 A 8. § a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette. 4 Az 1. melléklet a 63/2016. (XII. 29.) NGM rendelet 31. §-a, a 3/2019. (III. 29.) PM rendelet 1. § a) pontja szerint módosított szöveg. 5 A 2. melléklet a 3/2019. (III. 29.) PM rendelet 1. § a) pontja szerint módosított szöveg. 6 A 3. melléklet a 3/2019. (III. 29.) PM rendelet 1. § b) pontja szerint módosított szöveg. 7 A 4. melléklet a 3/2019. (III. 29.) PM rendelet 1. § b) pontja szerint módosított szöveg."
+    }
+  ]
+}
