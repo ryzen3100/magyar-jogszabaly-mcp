@@ -466,6 +466,38 @@ func TestExtractDefinitions(t *testing.T) {
 				{Term: "fogalom", Definition: "belső:kettőspont is megengedett", SourceProvision: "s7"},
 			},
 		},
+		{
+			name:    "prose minősül definition extracted (new njt layout)",
+			content: "E rendelet alkalmazásában jövedelemnek, illetve vagyonnak minősül a szociális igazgatásról szóló 1993. évi III. törvény 4. § szerinti jövedelem, illetve vagyon.",
+			want: []seed.DefinitionSeed{
+				{Term: "jövedelem, illetve vagyon", Definition: "a szociális igazgatásról szóló 1993. évi III. törvény 4. § szerinti jövedelem, illetve vagyon.", SourceProvision: "s7"},
+			},
+		},
+		{
+			name:    "prose minősül with colon list",
+			content: "A tv. 83. §-a alkalmazásában jogszerű tartózkodásnak minősül: a) a vízummal történő tartózkodás, b) az engedéllyel történő tartózkodás",
+			want: []seed.DefinitionSeed{
+				{Term: "jogszerű tartózkodás", Definition: "a) a vízummal történő tartózkodás, b) az engedéllyel történő tartózkodás", SourceProvision: "s7"},
+			},
+		},
+		{
+			// The negative form states its term after the verb: no extraction.
+			name:    "negative nem minősül skipped",
+			content: "e törvény alkalmazásában nem minősül jövedelemnek a csecsemőgondozási díj, amely az adómentes jövedelmek közé tartozik",
+			want:    nil,
+		},
+		{
+			name:    "prose érti variant extracted",
+			content: "e törvény alkalmazásában lakóhelynek érti azt a települést is, ahol az adózó tartózkodási engedéllyel él",
+			want: []seed.DefinitionSeed{
+				{Term: "lakóhely", Definition: "azt a települést is, ahol az adózó tartózkodási engedéllyel él", SourceProvision: "s7"},
+			},
+		},
+		{
+			name:    "minősül without alkalmazásában gate skipped",
+			content: "a jogosultnak minősül minden olyan közreműködés, amelyet a szerződő fél a szerződésben vállalt",
+			want:    nil,
+		},
 	}
 
 	for _, tt := range tests {

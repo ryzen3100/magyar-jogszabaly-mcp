@@ -134,11 +134,16 @@ var compactSectionRe = strings.NewReplacer(":", "", "/", "", "–", "")
 // cutset for stripping citation punctuation around the reference itself.
 const sectionRefPunctuation = " \t\u00a0§."
 
+// Matches a Btk-style part prefix: "6:272" → "272".
+var partPrefixRe = regexp.MustCompile(`^\d+:(.+)$`)
+
 // SectionRefCandidates normalizes a user-typed section/provision reference —
 // "3", "3. §", "3.§ (2)", "s13", "116/A. §", "6:272. §", "1-290" — into the
-// forms stored in legal_provisions: the section column ("3", "116/A",
-// "6:272", "1–290", "Ptk4:1") and provision_ref ("s" + the section with
-// ':', '/' and '–' removed and lowercased: "s3", "s11a", "s6272", "s1290").
+// section column ("3", "116/A", "6:272", "1–290", "Ptk4:1") and
+// provision_ref ("s" + the section with ':', '/' and '–' removed and
+// lowercased: "s3", "s11a", "s6272", "s1290"). Part-prefixed forms
+// ("6:272") also yield the prefix-dropped form ("272"), which is how
+// part-prefixed acts (Btk) store the same section in the corpus.
 // Candidates come back exact-match ready and deduplicated; a nil result
 // means the input carries no usable reference, and callers answer "not
 // found" instead of guessing (zero-hallucination: candidates only narrow to
@@ -171,6 +176,12 @@ func SectionRefCandidates(input string) []string {
 	candidates := []string{tidy, "s" + compact}
 	if colon := strings.ReplaceAll(tidy, ":", ""); colon != tidy {
 		candidates = append(candidates, colon)
+	}
+	// Part-prefixed acts (Btk) store sections without the "6:" part
+	// prefix, so also try the prefix-dropped canonical form.
+	if m := partPrefixRe.FindStringSubmatch(tidy); m != nil {
+		dropped := m[1]
+		candidates = append(candidates, dropped, "s"+compactSectionRe.Replace(strings.ToLower(dropped)))
 	}
 	return dedupe(candidates)
 }
