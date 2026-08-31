@@ -180,6 +180,32 @@ offline shortcut.
 
 ## Known follow-ups that pair well with the new corpus
 
+- **FTS ranking on the full corpus (blocking for end-user quality, code fix)**:
+  post-merge MCP testing (2026-08-31, full 72k DB) shows natural-language
+  questions ("Milyen engedély kell egy kávézóhoz?", "hány nap szabadság…",
+  "partnerem nem fizet…") rank noise (KE/OGY határozatok, utasítások,
+  AB határozatok, old rendeletek) in the top 30 while the target acts
+  (210/2009, Mt. 2012, Ptk.) are absent; keyword-form queries rank correctly.
+  Pre-corpus the same questions ranked fine. Fix = query-layer weights:
+  doc-type boost (acts/törvények over utasítás/határozat), in-force boost,
+  title-match boost.
+- **Consolidation / currency gap (blocking for legal accuracy, data fix)**:
+  found via the kifőzde question. The current framework docs are missing
+  while their repealed predecessors are present and marked in_force:
+  - `73/2016. (XII. 2.) Korm. rendelet` (current exec rendelet for
+    commercial/hospitality activities — defines vendéglátási egység types
+    incl. kifőzde) → "Document not found"; only repealed 210/2009 present,
+    and `validate_citation` reports it `in_force`.
+  - "2016. évi XIV. törvény" resolves to the Mongolia visa-treaty
+    promulgation act, not the kereskedelmi törvény — the current act is not
+    retrievable by citation.
+  - Jöt. (2016. évi LXVIII.) stored text appears to be the base publication:
+    later-inserted provisions (e.g. kifőzde/házipálinka rules) don't FTS.
+  Root cause hypothesis: the ingest stores the njt.hu base-publication text
+  plus per-doc status metadata, without follow-up amendments or consolidated
+  currency status. Fix direction: ingest consolidated versions (njt
+  "hatályos szöveg") or merge amendment acts, and derive in_force status from
+  repeal data rather than publication metadata.
 - OR-tier ranking precision: per-document matched-term-count boosting
   (natural questions recall the right content but rank generic-token-heavy
   docs first — see the `ponytail:` ceiling note in `internal/fts`).
