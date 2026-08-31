@@ -1,0 +1,294 @@
+{
+  "id": "hu-law-2026-2-b0-8y",
+  "type": "statute",
+  "title": "2/2026. (III. 12.) EM utasítás az Energiaügyi Minisztérium elektronikus aláírási és bélyegzési célú tanúsítványainak és nem aláírás célú hitelesítő tanúsítványainak, valamint az egyéb bélyegzők használatának szabályairól",
+  "status": "in_force",
+  "in_force_date": "2026-03-13",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2026-2-B0-8Y",
+  "description": "az Energiaügyi Minisztérium elektronikus aláírási és bélyegzési célú tanúsítványainak és nem aláírás célú hitelesítő tanúsítványainak, valamint az egyéb bélyegzők használatának szabályairól",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "chapter": "I. Fejezet ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § (1) Az utasítás személyi hatálya az Energiaügyi Minisztérium (a továbbiakban: EM) képviseletére felhatalmazott, feladatkörük alapján kiadmányozásra jogosult vezetőkre, ügyintézőkre, valamint az EM kormánytisztviselőire, illetve az azzal munkavégzésre irányuló jogviszonyban álló személyekre terjed ki. (2) Az utasítás tárgyi hatálya a következő tevékenységekre terjed ki: a) személyes aláíró tanúsítványok igénylése; b) kiadmányozásra vagy aláírásra jogosultak által az EM hatáskörébe tartozó eljárások során az elektronikus formában létrehozott, elektronikus aláírással és időbélyeggel vagy elektronikus bélyegzővel és időbélyeggel ellátott dokumentumok készítése és az EM által elektronikus aláírással vagy elektronikus bélyegzővel ellátott küldemények hivatali kapun keresztül vagy egyéb elektronikus úton történő megküldése; c) a nem aláírási célú tanúsítványok igénylése, ideértve a titkosító, az autentikációs, az üzenethitelesítő, a weboldal-hitelesítő, a szervezeti bélyegző és az időbélyegzés célú tanúsítványokat is; d) papíralapú dokumentumok esetén a kiadmányozó kézjegyének körbélyegző lenyomatával történő felülhitelesítése; e) papíralapú dokumentum esetén az EM nevét, székhelyét vagy postafiókcímét tartalmazó úgynevezett fejbélyegző használata; f) ügyviteli tevékenység során használt ügyviteli bélyegzők használata; g) egyéb speciális esetekben szükséges bélyegzők (rézpecsét és szárazbélyegző) használata."
+    },
+    {
+      "provision_ref": "s2",
+      "chapter": "I. Fejezet ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § Az utasítás célja az elektronikus aláírás és az elektronikus bélyegző létrehozására, ellenőrzésére vonatkozó azon szabályok meghatározása, amelyek alapján az elektronikus aláírás és elektronikus bélyegző érvényesnek tekinthető az aláíró és ellenőrző felek számára, valamint harmadik fél előtti eljárás során. Az utasítás célja továbbá az EM igazgatási tevékenysége során a) az EM dokumentumainak hitelesítésére szolgáló elektronikus aláírások és elektronikus bélyegzők alkalmazására; b) az EM által elektronikus aláírással és elektronikus bélyegzővel hitelesített és az ügyfelek vagy más szervek részére megküldött dokumentumok ellenőrzésére; c) a papíralapú dokumentumok hitelesítésére, valamint d) az ügyviteli tevékenység során használt bélyegzők használatára vonatkozó szabályok megállapítása."
+    },
+    {
+      "provision_ref": "s3",
+      "chapter": "I. Fejezet ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § Az utasítás alkalmazásában 1. alany: a hitelesítés-szolgáltató által kibocsátott tanúsítványban azonosított személy vagy szervezet, aki, illetve amely a tanúsítványban szereplő nyilvános kulcshoz tartozó magánkulcsot birtokolja; 2. aláírás-létrehozó adat: olyan egyedi adat – jellemzően kriptográfiai magánkulcs –, amelyet az aláíró az elektronikus aláírás létrehozásához használ; 3. aláírás-létrehozó eszköz: olyan hardver vagy szoftver eszköz, amelynek segítségével az aláíró az aláírás-létrehozó adatok felhasználásával az elektronikus aláírást létrehozza; 4. aláírást ellenőrző: az a személy vagy felügyelt aláíró automatizmus, aki, illetve amely az aláírt elektronikus dokumentum fogadója, és aki, illetve amely ellenőrzi az üzenet sértetlenségét, azaz az elektronikusan aláírt elektronikus üzenet aláíráskori, illetve ellenőrzéskori tartalmát összeveti, továbbá az aláíró személyét azonosítja az üzenet, illetve a hitelesítés-szolgáltató által közzétett aláírás-ellenőrző adat, tanúsítvány-visszavonási információk, valamint a tanúsítvány felhasználásával; 5. aláíró: kiadmányozási joggal rendelkező természetes személy, aki az előállított dokumentumot kézjegyével jogosult ellátni, illetve aláírás-létrehozó eszköz birtokában a saját nevében aláírásra jogosult, továbbá az a szervezet, amely az aláírás-létrehozó eszközt birtokolja, és amelynek a nevében az őt képviselő természetes személy (elektronikus bélyegzéssel történő hitelesítésre jogosult) az elektronikus aláírást az elektronikus dokumentumon elhelyezi; 6. elektronikus aláírás: az elektronikus dokumentumhoz – az alany mint aláíró személy azonosítása céljából – logikailag hozzárendelt vagy azzal elválaszthatatlanul összekapcsolt elektronikus adatsor, amely az aláíró magánkulcsával készül, és minden kétséget kizáróan bizonyítja a dokumentum eredetét, hitelességét, sértetlenségét, és bizonyítja az aláírás tényét, amelynek ellenőrzése kizárólag a nyilvános kulcs által történik; 7. elektronikus bélyegző: a szerv vagy a szerv szervezeti egységének azonosítására szolgáló olyan elektronikus adatok, amelyeket más elektronikus adatokhoz csatolnak, illetve logikailag hozzárendelnek, hogy biztosítsák a kapcsolt adatok eredetét és sértetlenségét; 8. elektronikus dokumentum: elektronikus eszköz útján értelmezhető adategyüttes; 9. felhasználó: az az elektronikus dokumentumot aláíró személy, aláírást ellenőrző fél, eszköz vagy alkalmazás, aki, illetve amely a szolgáltatások keretében előállított kulcsokat és tanúsítványokat, időbélyegeket rendeltetésüknek megfelelően használja; 10. hitelesítés-szolgáltató: olyan természetes személy, jogi személy vagy jogi személyiség nélküli szervezet, aki, illetve amely a hitelesítés-szolgáltatás keretében azonosítja a tanúsítványt igénylő személyét, részére tanúsítványt bocsát ki, nyilvántartásokat vezet, fogadja a tanúsítványokkal kapcsolatos változások adatait, valamint nyilvánosságra hozza a tanúsítványhoz tartozó szabályzatokat, az aláírás-ellenőrző adatokat és a tanúsítvány aktuális állapotára – különösen esetleges visszavonására – vonatkozó információkat; 11. időbélyegző: olyan elektronikus adatok összessége, amelyeket más elektronikus adatokhoz csatolnak, illetve logikailag hozzárendelnek azzal a céllal, hogy biztosítsák a kapcsolt adatok eredetét, sértetlenségét, valamint hitelesen igazolják az aláírás időpillanatát, és azt, hogy az elektronikus dokumentum az időbélyegzés időpontjában változatlan formában már létezett; 12. igénylő: az EM-mel jogviszonyban álló felhasználó személy, illetve az EM valamely szervezeti egysége, akinek – különösen a kiadmányozási joggal rendelkező vezetők – vagy amelynek feladatai ellátásához szükséges az elektronikus aláíró tanúsítvány, valamint a létrehozó eszköz használata; 13. kompromittálódás: olyan esemény, amelynek során az aláírás-létrehozó adat vagy az aláírás-létrehozó eszköz hozzáférését korlátozó jelszó illetéktelen személy birtokába jut, vagy ismertté válik, azaz a védendő adat vagy kód bizalmassága sérül; 14. lenyomat: elektronikus dokumentum esetén olyan meghatározott hosszúságú, az elektronikus dokumentumhoz rendelt bitsorozat, amely egyértelműen származtatható az adott elektronikus dokumentumból, és amelyből elvárható biztonsági szinten belül lehetséges az elektronikus dokumentum tartalmának meghatározása vagy a tartalomra történő következtetés. Papíralapú dokumentum esetén a manuális bélyegző tintával létrehozott képének lenyomata; 15. manuális bélyegző: papíralapú dokumentumok hitelesítésére és a velük történt ügyviteli feladatok ellátásának dokumentálására szolgáló eszköz, amelynek lenyomata tinta segítségével vagy negatív szárazpecsét formájában kerül a dokumentumra; 16. személyes tanúsítvány: az EM-mel jogviszonyban álló természetes személy által használt tanúsítvány, ahol a tanúsítvány és a kapcsolódó elektronikus aláírás létrehozásához használt adat felhasználásával elektronikus aláírás jön létre; 17. tanúsítvány: a hitelesítés-szolgáltató által kibocsátott igazolás, amely a nyilvános kulcsot egy meghatározott személyhez – az aláíróhoz – kapcsolja, azaz garantálja a címzett számára az aláíró személyének, magánkulcsának és nyilvános kulcsának egymáshoz tartozását, és igazolja e személy személyazonosságát vagy valamely más tény fennállását, ideértve a hatósági, hivatalos jelleget. Az aláírási tanúsítvány tartalmazza az aláírás-ellenőrző adatot, az aláíró megnevezését és a tanúsítványt kibocsátó hitelesítés-szolgáltató elektronikus aláírását; 18. ügyfél: azon természetes és jogi személy, illetve jogi személyiség nélküli szervezet, aki vagy amely részére az EM a hatáskörébe tartozó eljárások során elektronikus formában készített és elektronikusan aláírt vagy elektronikus bélyegzővel ellátott dokumentumot továbbít."
+    },
+    {
+      "provision_ref": "s4",
+      "chapter": "I. Fejezet ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) Az EM állományából kiadmányozási vagy aláírási jogot az SzMSz-ben rögzített személyek, valamint miniszteri utasítás alapján kiadmányozási jogkörrel rendelkező személyek gyakorolnak. (2) Az elektronikus aláírásra és az elektronikus bélyegző létrehozására használt, átadott tanúsítványok nyilvános adatait, a használatra jogosult átvevő nevét és aláírását az Igazgatási és Biztonsági Főosztály (a továbbiakban: IBF) által vezetett nyilvántartás tartalmazza. (3) A papíralapú dokumentumok előállításakor a kiadmányozáshoz, valamint az ügyviteli és speciális feladatok teljesítéséhez használt manuális, szigorú számadású bélyegzőket az IBF tartja nyilván."
+    },
+    {
+      "provision_ref": "s5",
+      "chapter": "II. Fejezet AZ ELEKTRONIKUS ALÁÍRÁS, AZ ELEKTRONIKUS BÉLYEGZŐ ÉS IDŐBÉLYEGZŐ HASZNÁLATÁNAK SZABÁLYAI",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § (1) Aláírás-létrehozó adat és aláírási tanúsítvány – a (2) bekezdésben meghatározott kivétellel – kizárólag a NISZ Nemzeti Infokommunikációs Szolgáltató Zrt.-től (a továbbiakban: Szolgáltató) igényelhető az EM és a Szolgáltató között, az IBF közreműködésével létrejött szerződés alapján. (2) Egyedi igények esetén lehetséges az egyes szervezeti egységek részéről a más szolgáltatóval történő önálló szerződéskötés is. Ebben az esetben az ügymenet teljes egészében az igénylő szervezeti egység feladata, amelyben az IBF részt nem vállal. Más szolgáltatótól történő, egyedileg igényelt személyes tanúsítványokra jelen utasításnak az igénylésre, átadás-átvételre, valamint visszavonásra vonatkozó szabályai nem alkalmazandók. Minden más rendelkezés e tanúsítványok esetében is megfelelően alkalmazandó. (3) Tekintettel az IBF 4. § (2) bekezdése szerinti nyilvántartás-vezetési kötelezettségére, a szerződések megkötésének tényét a szerződések megkötését követő 3 munkanapon belül minden szervezeti egységnek be kell jelentenie az ibf@em.gov.hu e-mail-címre. E bejelentési kötelezettség az igényelt tanúsítványok teljes életciklusára vonatkozik – ideértve különösen az igénylést, az esetleges módosítást, a visszavonást vagy a felfüggesztést –, amelynek során az alábbi adatok feltüntetése feltétlenül szükséges: igénylő neve, a tanúsítvány érvényességi ideje. (4) Az EM elektronikus aláírással kiadmányozásra vagy aláírásra jogosult munkatársa kiadmányozási vagy aláírási jogának igazolása az IBF által, a Szolgáltató honlapján található formában tett nyilatkozattal történik. (5) A Szolgáltató előállítja és a személyes beazonosítást követően rendelkezésre bocsátja az arra jogosult munkatárs részére az elektronikus aláírás létrehozásához szükséges aláíró tanúsítványt és eszközt. (6) A Szolgáltató feladata – a szolgáltatást igénybe vevő munkatárs számára kibocsátott aláírási tanúsítvány teljes életciklusa alatt – az IBF által bejelentett adatváltozások fogadása és feldolgozása, a megújítási kérelmek befogadása és feldolgozása, valamint szükség esetén a tanúsítvány felfüggesztése vagy visszavonása. (7) Az elektronikus aláírások és a nem aláírás célú tanúsítványok biztosításához szükséges feltételek megteremtésével kapcsolatban a Szolgáltató felé az IBF jogosult eljárni. Az IBF feladat- és hatáskörében az IBF vezetője vagy az általa kijelölt személy az EM Közigazgatási Államtitkárának meghatalmazásával végezhet elektronikus aláíró tanúsítvány megrendelést, illetve minden olyan tevékenységet, amelyre a meghatalmazás feljogosítja. (8) A tanúsítványigényt az igénylő személy vagy szervezeti egysége e-mailben – az ibf@em.gov.hu címre való megküldéssel – jelzi az IBF részére. Az IBF a bejelentett igényeket összesíti, és az igénylők részére a Szolgáltató hivatalos honlapjáról (http://hiteles.gov.hu) letölthető, aktuális „Tanúsítvány megrendelő és regisztrációs űrlapot” (a továbbiakban: Űrlap) megküldi. Az Űrlapot a személyes adatok kitöltését követően az igénylő, ellenőrzés céljából az IBF részére – szerkeszthető formában – visszaküldi. Az IBF az igénylővel – és szükség esetén a Szolgáltatóval – való egyeztetés alapján a megküldött Űrlapot áttekinti, a hiányzó adatokat kitölti, és aláírás céljából elektronikusan visszaküldi az igénylő részére, amelyet két eredeti példányban aláírva, papíralapú iratként is meg kell küldenie az IBF részére. (9) A (8) bekezdésben meghatározott Űrlap beérkezését követően az IBF intézkedik a Szolgáltató felé a szükséges eszközök és tanúsítványok megrendelésével kapcsolatban. (10) A Szolgáltató a megrendelt eszközt és tanúsítványt, valamint a hozzá tartozó két darab zárt borítékot – amelyek 1 db érvényesítési PIN-kódot, valamint 1 db felfüggesztési kódot tartalmaznak – személyesen az igénylő részére, egyidejű adategyeztetés mellett átadja. Az átadás-átvételre a tanúsítvány elkészültét követő 60 napon belül van lehetőség. Ennek elmulasztása esetén a Szolgáltató az elkészített tanúsítványt visszavonja. (11) Politikai felsővezetői, biztosi, szakmai felsővezetői, illetve kabinetfőnöki jogviszonyban álló személyek esetén az átadás-átvételre, illetve a tanúsítvány telepítésére a munkavégzés helyén kerül sor a Szolgáltató általi kiszállással. Az átadás-átvétel, illetve a telepítés pontos időpontját a Szolgáltató – az IBF közreműködésével – egyezteti az igénylővel. (12) A (11) bekezdésben fel nem sorolt személyek, szervezetek által igényelt tanúsítványok átvétele a Szolgáltató ügyfélkapcsolati irodáján személyes megjelenéssel történik, amelyről az igénylő az IBF-et az átvételt követően 3 napon belül tájékoztatni köteles a nyilvántartásba vételre tekintettel. A tanúsítvány telepítése, valamint a hozzá tartozó időbélyeg beállítása kapcsán az igénylő saját hatáskörben köteles intézkedni az igény ugyfelszolgalat@ugyfelszolgalat.gov.hu e-mail-címre történő megküldésével. (13) Az IBF kijelölt munkatársának személyes jelenléte vagy informatikai eszközön történő közreműködése szükséges a (11) bekezdésben megjelölt időpontban és helyen a telepítéskor, az átadott eszköz és tanúsítvány átvételének bizonyossága okán, annak nyilvántartásba vétele céljából."
+    },
+    {
+      "provision_ref": "s6",
+      "chapter": "II. Fejezet AZ ELEKTRONIKUS ALÁÍRÁS, AZ ELEKTRONIKUS BÉLYEGZŐ ÉS IDŐBÉLYEGZŐ HASZNÁLATÁNAK SZABÁLYAI",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § (1) A hitelesítés-szolgáltató feladatait a hatályos jogszabályok alapján a Szolgáltató látja el. (2) Az elektronikus bélyegző és nem aláírás célú tanúsítványokkal – így különösen az időbélyegző autentikációs tanúsítvánnyal, szervezeti vagy eszköz bélyegzővel, különböző autentikációs és titkosító tanúsítványokkal – kapcsolatos intézkedés a Szolgáltatónál kezdeményezhető. (3) Az elektronikus bélyegző és nem aláírás célú tanúsítványok ügyében a Szolgáltató felé kizárólag az EM részéről képviseletre jogosult vagy az általa meghatalmazott személy járhat el. (4) A Poszeidon Irat- és Dokumentumkezelő Rendszerhez kapcsolódó tanúsítványokkal (EM időbélyeg tanúsítvány, EM elektronikus bélyegző tanúsítvány, EM HKP kliens autentikációs tanúsítvány) kapcsolatos ügyintézés a Szolgáltató által meghatározott eljárásrendben és szolgáltatási feltételek szerint az IBF vezetőjén keresztül az IBF kijelölt munkatársa közreműködésével történik. (5) Az elektronikus bélyegző és nem aláírás célú tanúsítványok igényléséhez szükséges a Szolgáltató által rendszeresített, kitöltött megrendelő adatlap és mellékletei, valamint az igénylő részéről képviseletre jogosult vezető tisztségviselő aláírási jogának igazolása a Szolgáltató által előírt formában tett jognyilatkozatban. (6) Az elektronikus bélyegzőt és nem aláírás célú tanúsítványokat abban az esetben lehet megújítani, ha a) nem járt le az érvényessége, nem szerepel visszavonási listában, azaz nem vonták vissza, és nincs felfüggesztett állapotban sem; b) a tanúsítványban rögzített adatok érvényességéről és helyességéről a szolgáltatást igénybe vevő írásban nyilatkozik, vagy azokat megfelelően aktualizálja. (7) Az elektronikus bélyegző és nem aláírás célú tanúsítványok visszavonása iránt kell intézkedni különösen, ha a) a Szolgáltató vagy az EM adataiban változás történt; b) a Szolgáltató szolgáltatása megszűnt; vagy c) a lenyomatot tartalmazó adathordozó hozzáférését korlátozó PIN-kód kompromittálódott. (8) A visszavonással az érintett tanúsítvány véglegesen érvényét veszti, és a visszavont tanúsítvány alapján létrehozott lenyomat a továbbiakban hitelesítésre nem alkalmas. (9) Az elektronikus bélyegző és nem aláírás célú tanúsítványokkal kapcsolatos telepítések, beállítások végrehajtása a Szolgáltató feladata."
+    },
+    {
+      "provision_ref": "s7",
+      "chapter": "II. Fejezet AZ ELEKTRONIKUS ALÁÍRÁS, AZ ELEKTRONIKUS BÉLYEGZŐ ÉS IDŐBÉLYEGZŐ HASZNÁLATÁNAK SZABÁLYAI",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § (1) Az EM a hatáskörébe tartozó eljárások során a vonatkozó jogszabályokban rögzítetteknek megfelelően elektronikus kérelembenyújtást, illetve elektronikus ügyintézést biztosít, valamint – ha jogszabály úgy rendelkezik – elektronikus ügyintézést tehet kötelezővé ügyfelei és más szervek számára. Az adott eljárás tekintetében az EM elektronikus formában készít iratokat, illetve papíralapú iratokról készít elektronikus dokumentumot, és azokat elektronikus aláírással és időbélyegzővel vagy elektronikus bélyegzővel, szervezeti bélyegzővel és időbélyegzővel látja el. (2) Az elektronikus dokumentumok hitelesítése elektronikus aláíró tanúsítvánnyal történik. (3) Ha a kiadmányozó személyének azonosítása nem szükséges, akkor az elektronikus dokumentumok hitelesítése szervezeti bélyegző használatával történik. (4) Az EM döntést nem tartalmazó dokumentumainak és nagy mennyiségben előállított értesítéseinek, tájékoztatóinak hitelesítése elektronikus bélyegzővel és időbélyeggel történik. (5) Az EM kiadmányozási, illetve aláírási jogosultsággal rendelkező munkatársai által használt elektronikus aláírásnak és grafikus megjelenítésének legalább a következőket kell tartalmaznia: a) az elektronikus aláírást létrehozó személy személyazonosító okmányában szereplő teljes nevét; b) a szervezet megnevezését; c) igény esetén a szervezeti egység megnevezését; d) igény esetén az elektronikus aláírást létrehozó személy beosztását; e) az aláírás dátumát és pontos időpontját; valamint f) kamarai jogtanácsosok esetén a kamarai azonosító számot (KASZ). (6) Az EM kiadmányozási jogosultsággal nem rendelkező, de elektronikus bélyegző használatára jogosult munkatársai által használt elektronikus bélyegzőnek és grafikus megjelenítésének legalább a következőket kell tartalmaznia: a) az „A dokumentum elektronikus aláírással hitelesített” szöveget; b) az aláírás dátumát (év, hó, nap, óra, perc pontossággal); c) a szervezet megnevezését; valamint d) az elektronikus aláírást létrehozó személy személyazonosító okmányában szereplő teljes nevét. (7) Az EM által elektronikus formában készített és elektronikus aláírással vagy elektronikus bélyegzővel ellátott iratokat az ügyfél által a rendelkezési nyilvántartásában megjelölt módon vagy ügyfélkapuján található értesítési tárhelyre, a tárhelyszolgáltatás keretében kell megküldeni. (8) Az EM által elektronikus formában készített és elektronikus aláírással vagy elektronikus bélyegzővel ellátott, az ügyfél részére elektronikus úton nem kézbesíthető küldeményeket hiteles papíralapú másolatként – levélpostai küldeményként – a Magyar Posta Zrt. útján kell megküldeni. (9) Az EM elektronikus formában készített és elektronikus aláírással vagy elektronikus bélyegzővel ellátott dokumentumait a közfeladatot ellátó szervek iratkezelésének általános követelményeiről szóló 335/2005. (XII. 29.) Korm. rendelet 1. mellékletében szereplő szervek részére a közszolgáltatási e-címregiszter rendszerén keresztül kialakított partnertörzs segítségével kell továbbítani a szerv hivatali kapuján található értesítési tárhelyre. (10) Az EM az általa elektronikus formában készített és elektronikus aláírással vagy elektronikus bélyegzővel ellátott dokumentumait a közfeladatot ellátó szervek iratkezelésének általános követelményeiről szóló 335/2005. (XII. 29.) Korm. rendelet 1. mellékletében nem szereplő szervek vagy magánszemélyek részére hivatali kapun, cégkapun, ügyfélkapun, vagy ezek hiányában hiteles papíralapú másolatként a Magyar Posta Zrt., az Állami Futárszolgálat, külön futár vagy kézbesítő útján továbbítja."
+    },
+    {
+      "provision_ref": "s8",
+      "chapter": "II. Fejezet AZ ELEKTRONIKUS ALÁÍRÁS, AZ ELEKTRONIKUS BÉLYEGZŐ ÉS IDŐBÉLYEGZŐ HASZNÁLATÁNAK SZABÁLYAI",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § (1) Az aláírásra vagy kiadmányozásra jogosult személy kizárólag CD vagy pendrive birtokában és a hozzá tartozó jelszó megadásával a) a Szolgáltató által a kormányzati informatikai rendszerben biztosított, valamint az EM által bevezetett, aláírásra alkalmas szoftverrel hozhat létre minősített elektronikus aláírást az elektronikus dokumentumon; vagy b) felülhitelesíthet korábban elkészített elektronikus dokumentumot elektronikus aláírással és minősített időbélyeggel. (2) Az elektronikus aláírás használatára jogosult munkatárs az elektronikus aláírási jogosultságát kizárólag az EM hatáskörébe tartozó eljárások során, az EM képviseletében eljárva alkalmazhatja. (3) Az elektronikus aláírás magáncélra és az aláírási jogosultságon kívül eső ügyekben nem használható fel. (4) Az elektronikus aláírás használatára jogosult munkatárs köteles a részére kiadott, elektronikus aláírást létrehozó eszközt biztonságos helyen – zárható fiókban, szekrényben, lemezszekrényben – tárolni. A kártyához tartozó titkos jelszót illetéktelen személynek átadni vagy elérhetővé tenni tilos. (5) Az elektronikus adathordozó elvesztése, illetve kompromittálódása, valamint az ahhoz tartozó jelszó elvesztése, elfelejtése esetén a tanúsítvány visszavonása ügyében köteles a munkatárs a 10. § (1) bekezdésében foglaltak szerint soron kívüli intézkedést tenni, majd jelezni azt az IBF felé. (6) Az elektronikus aláírásra vagy kiadmányozásra jogosult személy átmenetileg sem adhatja át más részére az elektronikus aláíró eszközt, illetve a használatához szükséges PIN-kódot és a felfüggesztési kódot tartalmazó borítékokat. Ezen eszközök, kódok másra nem ruházhatók át."
+    },
+    {
+      "provision_ref": "s9",
+      "chapter": "II. Fejezet AZ ELEKTRONIKUS ALÁÍRÁS, AZ ELEKTRONIKUS BÉLYEGZŐ ÉS IDŐBÉLYEGZŐ HASZNÁLATÁNAK SZABÁLYAI",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § Az elektronikusan aláírt dokumentum hitelességének ellenőrzése során vizsgálni kell a) az aláíró személyét; b) az aláírás érvényességét; valamint c) saját aláírás esetén az aláírásba ágyazott időbélyegző meglétét."
+    },
+    {
+      "provision_ref": "s10",
+      "chapter": "II. Fejezet AZ ELEKTRONIKUS ALÁÍRÁS, AZ ELEKTRONIKUS BÉLYEGZŐ ÉS IDŐBÉLYEGZŐ HASZNÁLATÁNAK SZABÁLYAI",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § (1) Abban az esetben, ha az elektronikus aláírással rendelkező személy az aláírás-létrehozó eszközt vagy annak használatához szükséges jelszót a) elveszíti; b) azt ellopják; c) az elvesztés vagy lopás ténye nyilvánosságra kerül; vagy d) az a)–c) pont szerinti gyanú felmerül, úgy a felhasználó köteles haladéktalanul felfüggesztési eljárást kezdeményezni a Szolgáltatónál a birtokában lévő felfüggesztési kód borítékban feltüntetett telefonszámon történő bediktálásával. (2) Az (1) bekezdésben foglalt esetekben a tanúsítvány felfüggesztésének megszüntetését és a tanúsítvány érvényességének visszaállítását a tanúsítvány felfüggesztésének napjától számított 5 napon belül az aláírási jogosultsággal rendelkező személy kezdeményezheti a Szolgáltatónál, a birtokában lévő felfüggesztési kódot tartalmazó borítékban feltüntetett telefonszámon történő bediktálásával. A tanúsítvány státuszának mindenkori módosításáról az IBF-et írásban értesíteni szükséges legkésőbb a következő munkanapon. (3) Ha az (1) bekezdésben foglalt esetek bármelyike bekövetkezik, és az 5 napon belül nem hárul el, úgy az IBF hivatalból visszavonási eljárást kezdeményez a Szolgáltató felé. (4) Ha a foglalkoztatási jogviszony megszűnése, megszüntetése – ideértve a tartós távollétet is –, valamint áthelyezés esetén az aláírási jogosultsággal rendelkező munkatárs kezdeményezése vagy egyéb ok miatt a kiadmányozási, illetve aláírási jogosultság megszűnik, úgy az aláírás-létrehozó eszköz visszavonása iránti igényt a felhasználónak az IBF részére írásban az ibf@em.gov.hu e-mail-címre haladéktalanul jelezni szükséges. Ezt követően az IBF által előzetesen kitöltött, aktuális visszavonási adatlapot – a személyes adatok helyességének ellenőrzését követően, elektronikusan aláírva – e-mailben visszaküldeni köteles. A foglalkoztatási jogviszony megszűnése, megszüntetése – ideértve a tartós távollétet is –, valamint áthelyezés esetén a tartozásmentesség leigazolása e feltételek teljesítése esetén történhet meg az IBF részéről. (5) A (4) bekezdésben foglalt esetekben az IBF vezetője haladéktalanul kezdeményezi a visszavonási eljárást a Szolgáltatónál. A visszavonással a tanúsítvány véglegesen érvényét veszti, és a visszavont tanúsítvány alapján létrehozott elektronikus aláírás a továbbiakban dokumentumok hitelesítésére nem alkalmas. (6) Az aláírás-létrehozó eszköz visszavonása kapcsán az IBF gondoskodik a nyilvántartás módosításáról. (7) Az elektronikus aláírási jogosultsággal rendelkező személy 5 napon belül köteles bejelenteni az IBF részére azt, ha a nevében, személyi adataiban, beosztásában változás történt. Ezt követően az IBF felméri a tanúsítvány visszavonásának szükségességét, majd az ezen utasításban meghatározottak szerint gondoskodik az esetleges új igénylésről. (8) Az elektronikus aláírási jogosultsággal rendelkező személyt foglalkoztató közvetlen vezető köteles visszavonási eljárást kezdeményezni az IBF felé e-mailben, ha a) a (4) bekezdésben foglaltaknak a felhasználó nem tesz eleget; továbbá b) az elektronikus aláírással rendelkező munkatárs feladatkörében változás történt, foglalkoztatási jogviszonya megszűnt, továbbá kiadmányozási vagy aláírási joggal nem rendelkezik."
+    },
+    {
+      "provision_ref": "s11",
+      "chapter": "III. Fejezet A PAPÍRALAPÚ DOKUMENTUMOK HITELES ELŐÁLLÍTÁSÁHOZ ÉS ÜGYKEZELÉSI FELADATOK ELLÁTÁSÁHOZ SZÜKSÉGES, VALAMINT EGYÉB SPECIÁLIS BÉLYEGZŐK HASZNÁLATÁNAK SZABÁLYAI",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § Bélyegzők használatára az utasítás hatálya alá tartozó személyek jogosultak, az utasításban meghatározott feltételek mellett."
+    },
+    {
+      "provision_ref": "s12",
+      "chapter": "III. Fejezet A PAPÍRALAPÚ DOKUMENTUMOK HITELES ELŐÁLLÍTÁSÁHOZ ÉS ÜGYKEZELÉSI FELADATOK ELLÁTÁSÁHOZ SZÜKSÉGES, VALAMINT EGYÉB SPECIÁLIS BÉLYEGZŐK HASZNÁLATÁNAK SZABÁLYAI",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. § (1) Az EM-ben az alábbi bélyegzők használhatók: a) körbélyegzők; b) fejbélyegzők; c) ügyviteli bélyegzők; d) aláírás-bélyegzők; e) rézpecsétek; f) szárazbélyegzők. (2) Az (1) bekezdésben foglalt bélyegzők szükség esetén idegen nyelven is elkészíttethetők és használhatók."
+    },
+    {
+      "provision_ref": "s13",
+      "chapter": "III. Fejezet A PAPÍRALAPÚ DOKUMENTUMOK HITELES ELŐÁLLÍTÁSÁHOZ ÉS ÜGYKEZELÉSI FELADATOK ELLÁTÁSÁHOZ SZÜKSÉGES, VALAMINT EGYÉB SPECIÁLIS BÉLYEGZŐK HASZNÁLATÁNAK SZABÁLYAI",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. § (1) Az EM által használt, a 12. § (1) bekezdés a), d), e) és f) pontja szerinti bélyegzők szigorú számadású bélyegzők. (2) A bélyegzőket a hivatali idő után, illetve a hivatali helyiségből való távozáskor el kell zárni. A bélyegző használója felelős annak rendeltetésszerű használatáért, biztonságos őrzéséért. (3) A bélyegzők lenyomatához – kivéve a rézpecsétek, valamint a szárazbélyegzők esetén – kék tintával átitatott bélyegzőt kell használni. (4) A bélyegzők igénylése a 21. §-ban meghatározottak szerint történik, kivéve, ha bizonyos típusokhoz eltérő rendelkezés kerül meghatározásra."
+    },
+    {
+      "provision_ref": "s14",
+      "chapter": "III. Fejezet A PAPÍRALAPÚ DOKUMENTUMOK HITELES ELŐÁLLÍTÁSÁHOZ ÉS ÜGYKEZELÉSI FELADATOK ELLÁTÁSÁHOZ SZÜKSÉGES, VALAMINT EGYÉB SPECIÁLIS BÉLYEGZŐK HASZNÁLATÁNAK SZABÁLYAI",
+      "section": "14",
+      "title": "14. §",
+      "content": "14. § (1) Körbélyegzőt csak az EM iratain, másolatok hitelesítéséhez, iratkezelési segédletek és iratok összefűzésének hitelesítéséhez lehet használni. (2) Az (1) bekezdés szerinti papíralapú iraton a körbélyegző mellett a kiadmányozó aláírását és nevét, valamint az aláírás dátumát is fel kell tüntetni. (3) Körbélyegző nélkül a papíralapú irat nem hiteles. (4) A körbélyegzőt szükség szerint az EM épületén kívüli munkavégzés során ki lehet vinni az épületből. (5) Az Állami Futárszolgálat által továbbítandó küldemények borítékjának lezárásakor a lezárás helyén a körbélyegző három lenyomatát kell elhelyezni."
+    },
+    {
+      "provision_ref": "s15",
+      "chapter": "III. Fejezet A PAPÍRALAPÚ DOKUMENTUMOK HITELES ELŐÁLLÍTÁSÁHOZ ÉS ÜGYKEZELÉSI FELADATOK ELLÁTÁSÁHOZ SZÜKSÉGES, VALAMINT EGYÉB SPECIÁLIS BÉLYEGZŐK HASZNÁLATÁNAK SZABÁLYAI",
+      "section": "15",
+      "title": "15. §",
+      "content": "15. § (1) Az EM által használt körbélyegző átmérője 3,5 cm, középen Magyarország címere helyezkedik el, a bélyegző belső kerületén pedig az „Energiaügyi Minisztérium” szöveg szerepel. A körbélyegzőket az azonosíthatóság érdekében a címer alatt jelölt, 1-től növekvő arab számmal (*sorszám.*) szükséges megkülönböztetni. (2) Miniszter, közigazgatási államtitkár, államtitkár, helyettes államtitkár, miniszteri biztos, kormánybiztos, továbbá biztonsági vezető részére – tisztségük feltüntetésével kiegészített – sorszámozott körbélyegző is igényelhető az IBF kijelölt munkatársától. (3) Egyedi, névvel vagy a szakterület megnevezésével ellátott igények leadására az igénylő részéről a Közbeszerzési és Ellátási Főigazgatóság (a továbbiakban: KEF) ellátási rendszerében (a továbbiakban: KELL rendszer) van lehetőség. (4) Az aláírásra jogosult írásban kijelölhet ügyviteli feladatot ellátó személyt a körbélyegző használatára."
+    },
+    {
+      "provision_ref": "s16",
+      "chapter": "III. Fejezet A PAPÍRALAPÚ DOKUMENTUMOK HITELES ELŐÁLLÍTÁSÁHOZ ÉS ÜGYKEZELÉSI FELADATOK ELLÁTÁSÁHOZ SZÜKSÉGES, VALAMINT EGYÉB SPECIÁLIS BÉLYEGZŐK HASZNÁLATÁNAK SZABÁLYAI",
+      "section": "16",
+      "title": "16. §",
+      "content": "16. § (1) Fejbélyegző a kimenő küldemények borítékán a feladó jelölésére használható. (2) A fejbélyegző az „Energiaügyi Minisztérium” felirattal ellátott, téglalap alakú bélyegző, amely tartalmazhatja a szervezet nevét, székhelyét vagy postai címét."
+    },
+    {
+      "provision_ref": "s17",
+      "chapter": "III. Fejezet A PAPÍRALAPÚ DOKUMENTUMOK HITELES ELŐÁLLÍTÁSÁHOZ ÉS ÜGYKEZELÉSI FELADATOK ELLÁTÁSÁHOZ SZÜKSÉGES, VALAMINT EGYÉB SPECIÁLIS BÉLYEGZŐK HASZNÁLATÁNAK SZABÁLYAI",
+      "section": "17",
+      "title": "17. §",
+      "content": "17. § (1) Az ügyviteli bélyegző az iratkezeléssel összefüggő tevékenység hatékony és egységes ellátását szolgálja. (2) Ügyviteli bélyegzőként a következő bélyegzők használhatók: a) érkeztető bélyegző; b) érkeztető-iktató bélyegző; c) dátumbélyegző; d) díjhitelesítő bélyegző; e) hitelesítő bélyegző; f) minősített küldeményen a minősítési jelölés és kezelési utasítások jelölésére szolgáló bélyegző; g) futárkódszám; h) tértivevények feladásánál használt bélyegzők; i) névbélyegző; j) egyéb, iratkezelést segítő bélyegző."
+    },
+    {
+      "provision_ref": "s18",
+      "chapter": "III. Fejezet A PAPÍRALAPÚ DOKUMENTUMOK HITELES ELŐÁLLÍTÁSÁHOZ ÉS ÜGYKEZELÉSI FELADATOK ELLÁTÁSÁHOZ SZÜKSÉGES, VALAMINT EGYÉB SPECIÁLIS BÉLYEGZŐK HASZNÁLATÁNAK SZABÁLYAI",
+      "section": "18",
+      "title": "18. §",
+      "content": "18. § (1) A kiadmányozási jogkörrel rendelkező személy névaláírását tartalmazó bélyegző (aláírás-bélyegző) csak akkor használható, ha az azonos ügyben kiadott iratok nagy száma ezt feltétlenül indokolja. Az aláírás-bélyegző használatát a miniszter vagy a közigazgatási államtitkár engedélyezi. Az ezzel ellátott irat nem minősül hivatalos kiadmánynak, ennek okán kizárólag kivételes esetben használható. (2) Vezetői jóváhagyás után az igénylő a KELL rendszerben adhatja le a rendelést, amelynek további melléklete az engedélyező okiraton túlmenően az aláírásminta is. (3) Az IBF ezt követően a rendszerben jóváhagyja az igényt a gyártási folyamat ügyintézése érdekében."
+    },
+    {
+      "provision_ref": "s19",
+      "chapter": "III. Fejezet A PAPÍRALAPÚ DOKUMENTUMOK HITELES ELŐÁLLÍTÁSÁHOZ ÉS ÜGYKEZELÉSI FELADATOK ELLÁTÁSÁHOZ SZÜKSÉGES, VALAMINT EGYÉB SPECIÁLIS BÉLYEGZŐK HASZNÁLATÁNAK SZABÁLYAI",
+      "section": "19",
+      "title": "19. §",
+      "content": "19. § (1) Biztonsági bélyegzőként réz pecsétnyomókat kell alkalmazni. (2) A réz pecsétnyomók minősített iratok, biztonsági helyiségek kulcsai, illetve bélyegzők tárolására szolgáló, továbbá elektronikus biztonsági kóddal és zárszerkezettel nem rendelkező páncél- és lemezszekrények, valamint kulcsdobozok lezárására használhatók, azok sértetlenségét biztosítva. (3) A réz pecsétnyomók kör alakú, negatív lenyomatú bélyegzők. (4) A réz pecsétnyomókat az IBF kijelölt munkatársa tartja nyilván, továbbá rendeli meg a KELL rendszerben a bélyegzőszolgáltatás keretén belül."
+    },
+    {
+      "provision_ref": "s20",
+      "chapter": "III. Fejezet A PAPÍRALAPÚ DOKUMENTUMOK HITELES ELŐÁLLÍTÁSÁHOZ ÉS ÜGYKEZELÉSI FELADATOK ELLÁTÁSÁHOZ SZÜKSÉGES, VALAMINT EGYÉB SPECIÁLIS BÉLYEGZŐK HASZNÁLATÁNAK SZABÁLYAI",
+      "section": "20",
+      "title": "20. §",
+      "content": "20. § A szárazbélyegző kizárólag a miniszter használatában álló dombornyomó bélyegző, amely tintát nem tartalmaz."
+    },
+    {
+      "provision_ref": "s21",
+      "chapter": "III. Fejezet A PAPÍRALAPÚ DOKUMENTUMOK HITELES ELŐÁLLÍTÁSÁHOZ ÉS ÜGYKEZELÉSI FELADATOK ELLÁTÁSÁHOZ SZÜKSÉGES, VALAMINT EGYÉB SPECIÁLIS BÉLYEGZŐK HASZNÁLATÁNAK SZABÁLYAI",
+      "section": "21",
+      "title": "21. §",
+      "content": "21. § (1) Bélyegzőt a jelen utasításban meghatározott körben és célra lehet rendelni. (2) A megrendelést a KELL rendszerben kell feladni. Ha az igény leadása nem megfelelően történt meg, és módosítást igényel, akkor a módosítást a KELL rendszerben kell visszaküldeni az IBF által az igénylő számára. (3) Az IBF ezt követően az igényt jóváhagyja, majd gondoskodik a bélyegzők elkészíttetéséről."
+    },
+    {
+      "provision_ref": "s22",
+      "chapter": "III. Fejezet A PAPÍRALAPÚ DOKUMENTUMOK HITELES ELŐÁLLÍTÁSÁHOZ ÉS ÜGYKEZELÉSI FELADATOK ELLÁTÁSÁHOZ SZÜKSÉGES, VALAMINT EGYÉB SPECIÁLIS BÉLYEGZŐK HASZNÁLATÁNAK SZABÁLYAI",
+      "section": "22",
+      "title": "22. §",
+      "content": "22. § (1) Az elkészült bélyegzőt a KEF képviselője átadja az IBF munkatársának. A nem szigorú számadású bélyegző ezt követően értesítés után átvehető az igénylő vagy annak meghatalmazottja részéről. (2) A szigorú számadású bélyegzők nyilvántartásáról az IBF kijelölt munkatársa gondoskodik. (3) A szigorú számadású bélyegzőket a nyilvántartásba vételt követően kizárólag az igénylő személy veheti át az IBF munkatársától. Az átvételt az átvevő a Bélyegző-nyilvántartó lapon aláírásával igazolja. A bélyegző átvételétől az átvevőt elszámolási kötelezettség terheli. (4) Az igénylő akadályoztatása esetén a bélyegzőt az igénylő irányítása alatt álló szervezeti egység állományába tartozó, írásban meghatalmazott munkatársa is átveheti. Az átvevő felelősséggel tartozik az átvett bélyegző miatt, annak érdekében, hogy a bélyegző illetéktelen személyhez ne kerülhessen. Az átvevőnek a jogviszonya változása esetén el kell számolnia az általa használatra átvett bélyegzővel, kivéve, ha a meghatalmazott bizonyítja, hogy az átvett bélyegzőt a meghatalmazó részére átadta. (5) A szervezeti egység vezetője köteles a szigorú számadású bélyegző használójának személyében bekövetkezett változást 3 napon belül az IBF felé jelezni, majd az átírásról új nyilvántartó lapot kitölteni és 2 példányban az IBF részére eljuttatni."
+    },
+    {
+      "provision_ref": "s23",
+      "chapter": "III. Fejezet A PAPÍRALAPÚ DOKUMENTUMOK HITELES ELŐÁLLÍTÁSÁHOZ ÉS ÜGYKEZELÉSI FELADATOK ELLÁTÁSÁHOZ SZÜKSÉGES, VALAMINT EGYÉB SPECIÁLIS BÉLYEGZŐK HASZNÁLATÁNAK SZABÁLYAI",
+      "section": "23",
+      "title": "23. §",
+      "content": "23. § (1) Ha a bélyegző használója észleli, hogy a számára kiadott bélyegző elveszett, megsemmisült vagy azt eltulajdonították, haladéktalanul intézkednie kell annak érdekében, hogy a bélyegzővel való visszaélés megakadályozható legyen, továbbá a) az esetről jegyzőkönyvet kell felvennie; b) a jegyzőkönyv felvétele után írásban köteles értesíteni az IBF vezetőjét. (2) Ha bűncselekmény gyanúja merül fel, a bélyegzőt használó szervezeti egység vezetője külön értesítésben kell hogy tájékoztassa az IBF vezetőjét. (3) Az IBF vezetője mint a bélyegzők nyilvántartásáért felelős vezető, a) bűncselekmény gyanúja esetén belső vizsgálatot kezdeményez, és szükség esetén kezdeményezi büntetőeljárás lefolytatását; b) gondoskodik a bélyegző letiltásáról szóló hirdetmény megjelentetéséről a Hivatalos Értesítőben; c) intézkedik a bélyegző elvesztésének, megsemmisülésének vagy eltulajdonításának feltüntetéséről a Bélyegző-nyilvántartásban; d) intézkedik az elveszett vagy eltulajdonított bélyegző új sorszámmal történő pótlásáról; e) intézkedik a letiltást követően előkerült körbélyegző selejtezéséről."
+    },
+    {
+      "provision_ref": "s24",
+      "chapter": "III. Fejezet A PAPÍRALAPÚ DOKUMENTUMOK HITELES ELŐÁLLÍTÁSÁHOZ ÉS ÜGYKEZELÉSI FELADATOK ELLÁTÁSÁHOZ SZÜKSÉGES, VALAMINT EGYÉB SPECIÁLIS BÉLYEGZŐK HASZNÁLATÁNAK SZABÁLYAI",
+      "section": "24",
+      "title": "24. §",
+      "content": "24. § (1) Abban az esetben, ha egy szervezeti egység elnevezése megváltozik, a bélyegző elhasználódik vagy megrongálódik, a szervezeti egység vezetője köteles kezdeményezni a bélyegző cseréjét. (2) Bélyegző pótlására akkor kerül sor, ha az elveszett, megsemmisült vagy eltulajdonították. (3) A bélyegzők cseréje és pótlása szigorú számadású bélyegzők esetén az IBF munkatársainak közreműködésével történik, az igényléssel megegyező eljárásrendben."
+    },
+    {
+      "provision_ref": "s25",
+      "chapter": "III. Fejezet A PAPÍRALAPÚ DOKUMENTUMOK HITELES ELŐÁLLÍTÁSÁHOZ ÉS ÜGYKEZELÉSI FELADATOK ELLÁTÁSÁHOZ SZÜKSÉGES, VALAMINT EGYÉB SPECIÁLIS BÉLYEGZŐK HASZNÁLATÁNAK SZABÁLYAI",
+      "section": "25",
+      "title": "25. §",
+      "content": "25. § (1) Szigorú számadású bélyegző cseréje esetén csak akkor adható ki az új bélyegző, ha az addig használt bélyegzőt leadják az IBF erre a feladatra kijelölt munkatársának, aki a leadás tényét a nyilvántartásban rögzíti. (2) A szigorú számadású bélyegzőt kezelő munkatárs álláshelyváltása, jogviszonyának megszűnése esetén a bélyegzőt a megfelelő nyilvántartó lapok kitöltésével köteles átíratni más munkatárs nevére vagy leadni az IBF-nek."
+    },
+    {
+      "provision_ref": "s26",
+      "chapter": "III. Fejezet A PAPÍRALAPÚ DOKUMENTUMOK HITELES ELŐÁLLÍTÁSÁHOZ ÉS ÜGYKEZELÉSI FELADATOK ELLÁTÁSÁHOZ SZÜKSÉGES, VALAMINT EGYÉB SPECIÁLIS BÉLYEGZŐK HASZNÁLATÁNAK SZABÁLYAI",
+      "section": "26",
+      "title": "26. §",
+      "content": "26. § (1) A leadott bélyegzőket, amelyek a jövőben már nem kerülnek kiadásra, meg kell semmisíteni. A megsemmisítést az IBF munkatársai vagy megbízott gazdasági társaság végzi az IBF közbenjárásával. (2) A megsemmisítésről minden esetben jegyzőkönyv készül, amelyet az IBF készít el. A jegyzőkönyv tartalmazza a megsemmisítésre kerülő bélyegzők lenyomatát, valamint a megsemmisítés tényét és dátumát, a megsemmisítésnél jelen lévők és az IBF vezetőjének aláírását. (3) A megsemmisítést úgy kell végrehajtani, hogy a megsemmisített bélyegzővel a továbbiakban ne lehessen lenyomatot képezni, illetve a megsemmisített bélyegzők tartalma utólag ne legyen megállapítható. (4) A megsemmisítés időpontját, a megsemmisítési jegyzőkönyv iktatószámát a nyilvántartásban rögzíteni kell."
+    },
+    {
+      "provision_ref": "s27",
+      "chapter": "IV. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "27",
+      "title": "27. §",
+      "content": "27. § Ez az utasítás a közzétételét követő napon lép hatályba."
+    },
+    {
+      "provision_ref": "s28",
+      "chapter": "IV. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "28",
+      "title": "28. §",
+      "content": "28. § 1 A 28. § a 2010. évi CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "§ Az utasítás alkalmazásában 1. alany",
+      "definition": "a hitelesítés-szolgáltató által kibocsátott tanúsítványban azonosított személy vagy szervezet, aki, illetve amely a tanúsítványban szereplő nyilvános kulcshoz tartozó magánkulcsot birtokolja",
+      "source_provision": "s3"
+    },
+    {
+      "term": "aláírás-létrehozó adat",
+      "definition": "olyan egyedi adat – jellemzően kriptográfiai magánkulcs –, amelyet az aláíró az elektronikus aláírás létrehozásához használ",
+      "source_provision": "s3"
+    },
+    {
+      "term": "aláírás-létrehozó eszköz",
+      "definition": "olyan hardver vagy szoftver eszköz, amelynek segítségével az aláíró az aláírás-létrehozó adatok felhasználásával az elektronikus aláírást létrehozza",
+      "source_provision": "s3"
+    },
+    {
+      "term": "aláírást ellenőrző",
+      "definition": "az a személy vagy felügyelt aláíró automatizmus, aki, illetve amely az aláírt elektronikus dokumentum fogadója, és aki, illetve amely ellenőrzi az üzenet sértetlenségét, azaz az elektronikusan aláírt elektronikus üzenet aláíráskori, illetve ellenőrzéskori tartalmát összeveti, továbbá az aláíró személyét azonosítja az üzenet, illetve a hitelesítés-szolgáltató által közzétett aláírás-ellenőrző adat, tanúsítvány-visszavonási információk, valamint a tanúsítvány felhasználásával",
+      "source_provision": "s3"
+    },
+    {
+      "term": "aláíró",
+      "definition": "kiadmányozási joggal rendelkező természetes személy, aki az előállított dokumentumot kézjegyével jogosult ellátni, illetve aláírás-létrehozó eszköz birtokában a saját nevében aláírásra jogosult, továbbá az a szervezet, amely az aláírás-létrehozó eszközt birtokolja, és amelynek a nevében az őt képviselő természetes személy (elektronikus bélyegzéssel történő hitelesítésre jogosult) az elektronikus aláírást az elektronikus dokumentumon elhelyezi",
+      "source_provision": "s3"
+    },
+    {
+      "term": "elektronikus aláírás",
+      "definition": "az elektronikus dokumentumhoz – az alany mint aláíró személy azonosítása céljából – logikailag hozzárendelt vagy azzal elválaszthatatlanul összekapcsolt elektronikus adatsor, amely az aláíró magánkulcsával készül, és minden kétséget kizáróan bizonyítja a dokumentum eredetét, hitelességét, sértetlenségét, és bizonyítja az aláírás tényét, amelynek ellenőrzése kizárólag a nyilvános kulcs által történik",
+      "source_provision": "s3"
+    },
+    {
+      "term": "elektronikus bélyegző",
+      "definition": "a szerv vagy a szerv szervezeti egységének azonosítására szolgáló olyan elektronikus adatok, amelyeket más elektronikus adatokhoz csatolnak, illetve logikailag hozzárendelnek, hogy biztosítsák a kapcsolt adatok eredetét és sértetlenségét",
+      "source_provision": "s3"
+    },
+    {
+      "term": "elektronikus dokumentum",
+      "definition": "elektronikus eszköz útján értelmezhető adategyüttes",
+      "source_provision": "s3"
+    },
+    {
+      "term": "felhasználó",
+      "definition": "az az elektronikus dokumentumot aláíró személy, aláírást ellenőrző fél, eszköz vagy alkalmazás, aki, illetve amely a szolgáltatások keretében előállított kulcsokat és tanúsítványokat, időbélyegeket rendeltetésüknek megfelelően használja",
+      "source_provision": "s3"
+    },
+    {
+      "term": "hitelesítés-szolgáltató",
+      "definition": "olyan természetes személy, jogi személy vagy jogi személyiség nélküli szervezet, aki, illetve amely a hitelesítés-szolgáltatás keretében azonosítja a tanúsítványt igénylő személyét, részére tanúsítványt bocsát ki, nyilvántartásokat vezet, fogadja a tanúsítványokkal kapcsolatos változások adatait, valamint nyilvánosságra hozza a tanúsítványhoz tartozó szabályzatokat, az aláírás-ellenőrző adatokat és a tanúsítvány aktuális állapotára – különösen esetleges visszavonására – vonatkozó információkat",
+      "source_provision": "s3"
+    },
+    {
+      "term": "időbélyegző",
+      "definition": "olyan elektronikus adatok összessége, amelyeket más elektronikus adatokhoz csatolnak, illetve logikailag hozzárendelnek azzal a céllal, hogy biztosítsák a kapcsolt adatok eredetét, sértetlenségét, valamint hitelesen igazolják az aláírás időpillanatát, és azt, hogy az elektronikus dokumentum az időbélyegzés időpontjában változatlan formában már létezett",
+      "source_provision": "s3"
+    },
+    {
+      "term": "igénylő",
+      "definition": "az EM-mel jogviszonyban álló felhasználó személy, illetve az EM valamely szervezeti egysége, akinek – különösen a kiadmányozási joggal rendelkező vezetők – vagy amelynek feladatai ellátásához szükséges az elektronikus aláíró tanúsítvány, valamint a létrehozó eszköz használata",
+      "source_provision": "s3"
+    },
+    {
+      "term": "kompromittálódás",
+      "definition": "olyan esemény, amelynek során az aláírás-létrehozó adat vagy az aláírás-létrehozó eszköz hozzáférését korlátozó jelszó illetéktelen személy birtokába jut, vagy ismertté válik, azaz a védendő adat vagy kód bizalmassága sérül",
+      "source_provision": "s3"
+    },
+    {
+      "term": "lenyomat",
+      "definition": "elektronikus dokumentum esetén olyan meghatározott hosszúságú, az elektronikus dokumentumhoz rendelt bitsorozat, amely egyértelműen származtatható az adott elektronikus dokumentumból, és amelyből elvárható biztonsági szinten belül lehetséges az elektronikus dokumentum tartalmának meghatározása vagy a tartalomra történő következtetés. Papíralapú dokumentum esetén a manuális bélyegző tintával létrehozott képének lenyomata",
+      "source_provision": "s3"
+    },
+    {
+      "term": "manuális bélyegző",
+      "definition": "papíralapú dokumentumok hitelesítésére és a velük történt ügyviteli feladatok ellátásának dokumentálására szolgáló eszköz, amelynek lenyomata tinta segítségével vagy negatív szárazpecsét formájában kerül a dokumentumra",
+      "source_provision": "s3"
+    },
+    {
+      "term": "személyes tanúsítvány",
+      "definition": "az EM-mel jogviszonyban álló természetes személy által használt tanúsítvány, ahol a tanúsítvány és a kapcsolódó elektronikus aláírás létrehozásához használt adat felhasználásával elektronikus aláírás jön létre",
+      "source_provision": "s3"
+    },
+    {
+      "term": "ügyfél",
+      "definition": "azon természetes és jogi személy, illetve jogi személyiség nélküli szervezet, aki vagy amely részére az EM a hatáskörébe tartozó eljárások során elektronikus formában készített és elektronikusan aláírt vagy elektronikus bélyegzővel ellátott dokumentumot továbbít.",
+      "source_provision": "s3"
+    }
+  ]
+}

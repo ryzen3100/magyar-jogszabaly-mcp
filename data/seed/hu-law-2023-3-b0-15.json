@@ -1,0 +1,185 @@
+{
+  "id": "hu-law-2023-3-b0-15",
+  "type": "statute",
+  "title": "3/2023. (II. 24.) HM utasítás a honvédelmi ágazati elektronikus információbiztonsági eseménykezelés rendjéről",
+  "status": "in_force",
+  "in_force_date": "2023-02-25",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2023-3-B0-15",
+  "description": "a honvédelmi ágazati elektronikus információbiztonsági eseménykezelés rendjéről",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § Az utasítás hatálya a honvédelemről és a Magyar Honvédségről szóló 2021. évi. CXL. törvény 3. § 14. pontja szerinti honvédelmi szervezetre és a honvédelmi miniszter által az állam nevében alapított, honvédelmi szervezetnek nem minősülő szakképző intézményre (a továbbiakban: szakképző intézmény) terjed ki."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § Az utasítás alkalmazásában a) biztonsági esemény: az állami és önkormányzati szervek elektronikus információbiztonságáról szóló 2013. évi L. törvény 1. § 9. pontjában meghatározott esemény vagy eseménysorozat, b) eseménykezelési felelős: az eseménykezelést a honvédelmi szervezetnél végrehajtó elektronikus információs rendszer biztonságáért felelős személy vagy szervezeti egység vezetője, aki vagy amely az eseménykezelés és a műszaki vizsgálat vonatkozásában a tevékenységét a szakfeladat szerint elkülönülő eseménykezelő központ szakmai irányítása és koordinációja alatt végzi, c) eseménykezelő: az eseménykezelési felelős, az önálló eseménykezelési felelős, a szakfeladat szerint elkülönülő eseménykezelő központ és a HÁEIBEK, d) érintett szervezet: az eseménykezelésben érintett honvédelmi célú elektronikus információs rendszert használó vagy üzemeltető honvédelmi szervezet és a szakképző intézmény, e) felsővezető: a honvédelemért felelős miniszter, a honvédelemért felelős miniszter által vezetett minisztérium államtitkára, helyettes államtitkára, a Magyar Honvédség (a továbbiakban: MH) és az MH más magasabb szintű parancsnokság parancsnoka és helyettesei, a Katonai Nemzetbiztonsági Szolgálat főigazgatója és helyettesei, f) HÁEIBEK: az eseménykezelő központok feladat- és hatásköréről, valamint a biztonsági események kezelésének és műszaki vizsgálatának, továbbá a sérülékenységvizsgálat lefolytatásának szabályairól szóló 271/2018. (XII. 20.) Korm. rendelet [a továbbiakban: 271/2018. (XII. 20.) Korm. rendelet] 6. § (1) bekezdésében meghatározott központi, ágazati átfogó feladatokat ellátó eseménykezelő központ, g) információbiztonsági riasztás: biztonsági esemény, sérülékenység miatt kiadott azonnali intézkedést igénylő, a biztonsági kockázatok csökkentését szolgáló információ, h) információbiztonsági tájékoztatás: a biztonsági események kiértékeléséből származó, a sérülékenységek kihasználási és ellenük történő védekezés módját ismertető, az eseménykezelés hatékonyságát vagy a felhasználói biztonságtudatosságot növelő, a biztonsági kockázatok csökkentését szolgáló információ, i) kibervédelmi eszköz: olyan elektronikus információs rendszerelem, amely funkciója szerint az elektronikus információs rendszer védelmét szolgálja, j) központi rendszerüzemeltető: olyan honvédelmi szervezet, amely több honvédelmi szervezet részére kizárólagos joggal végez rendszerüzemeltető tevékenységet, k) önálló eseménykezelési felelős: a szakképző intézmény eseménykezelésért felelős személye, szervezeti egysége, l) rendszerüzemeltető: híradó-informatikai rendszer, hálózat, egyedi eszköz előírt szolgáltatási igényeknek, követelményeknek megfelelő működtetéséért, a működtetési feltételek fenntartásáért felelős honvédelmi szervezet vagy személy, m) szakfeladat szerint elkülönülő eseménykezelő központ: a 271/2018. (XII. 20.) Korm. rendelet 6. § (1) bekezdésében meghatározott, az elektronikus információbiztonsági eseménykezelés alapelvei szerint működő, az eseménykezelés és műszaki vizsgálat vonatkozásában a HÁEIBEK szakmai irányítása és koordinálása alatt álló, meghatározott elektronikus információs rendszerekre kiterjedő hatáskörrel rendelkező eseménykezelő központ, mely a szakterület szerint alárendelt szervezetek eseménykezelési felelősének tevékenységét eseménykezelés és műszaki vizsgálat vonatkozásában szakmailag irányítja és koordinálja, n) szakmai irányítás és koordináció: a 271/2018. (XII. 20.) Korm. rendelet 6. § (1) bekezdése alapján – a szervezeti belső vezetési-irányítási jogköröket nem érintve – az eseménykezelő központok, az eseménykezelési felelős és önálló eseménykezelési felelős na) jelen utasítás szerinti feladatellátással összefüggő előterjesztéseivel kapcsolatban javaslatok, iránymutatások megfogalmazása, nb) részére információk biztosítása, tőlük információk kérése és nc) feladat végrehajtása során felmerült vitás kérdésekben, illetve az egységes végrehajtás érdekében szakmai állásfoglalások kiadása."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § A minősített adatot kezelő elektronikus információs rendszerekben észlelt biztonsági eseményről a minősített adat védelméről szóló törvény rendelkezései szerint az érintett szervezet biztonsági vezetőjét tájékoztatni kell."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § Az érintett szervezetnél a biztonsági esemény felszámolásához szükséges és a rendszerek biztonságának megerősítésére vonatkozó intézkedések végrehajtása során a biztonsági eseménnyel érintett szervezet elektronikus információs rendszerének üzemeltetője együttműködik az érintett szervezettel."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § [Hatáskör elve] Az elektronikus információbiztonsági eseménykezelést az érintett szervezetnél a HÁEIBEK a honvédelmi ágazatra, a szakfeladat szerint elkülönülő eseménykezelési központok a szakterületileg alárendelt szervezetekre, az eseménykezelési felelős és az önálló eseménykezelési felelős a szervezetére vonatkozó hatáskörrel jogosult végrehajtani."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § [Közvetlen kapcsolattartás elve] A honvédelmi ágazaton belül az eseménykezelők jelen utasítás szerint meghatározott rendben közvetlen kapcsolattartással végzik eseménykezelési feladataikat. Az eseménykezelési feladatok során végzett közvetlen kapcsolattartás nem érinti az eseménykezelők egyéb jelentési kötelezettségét."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § [Időszerűség elve] Az észlelt biztonsági eseményt vagy annak gyanúját az eseménykezelési rend szerint haladéktalanul jelenteni kell. A jelentési kötelezettség helyi kivizsgálás indokával nem késleltethető."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § [Prioritás elve] A biztonsági események kezelésének sorrendje a fenyegetettség jellege, hatása, kiterjedése által meghatározott rendben történik."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § [Dokumentáltság elve] A biztonsági eseményről az érintett szervezetnél az észleléstől a biztonsági esemény lezárásáig minden intézkedést, döntést, az érintett rendszer működésében, felépítésében történő bármilyen módosítást – az utólagos vizsgálatot is biztosítva – rendszerezve és visszakereshető módon kell dokumentálni és tárolni."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § [Egyéni beavatkozás tilalmának elve] Az érintett szervezetnél a biztonsági eseményhez kapcsolódóan a jóváhagyott eseménykezelési eljárásrend szerint kell eljárni. Amennyiben a biztonsági esemény kezelése érdekében szükséges az eljárásrendtől való eltérés, akkor az az eljárásrendet meghatározó egyetértésével történhet."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § [Összehangoltság elve] A honvédelmi ágazati elektronikus információbiztonsági eseménykezelés műszaki vizsgálati és szervezési, valamint nemzeti és nemzetközi kapcsolattartási szempontból az együttműködő partnerekkel közösen kialakított követelményrendszer alkalmazásával, a HÁEIBEK koordinációja mellett történik."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. § [Eseménykezelés szervezeti szintjeihez igazodó tájékoztatás elve] Információbiztonsági tájékoztatást a HÁEIBEK a honvédelmi ágazatra, a szakfeladat szerint elkülönülő eseménykezelő központ a hatáskörébe tartozó rendszereket és azok szolgáltatásait igénybe vevő és üzemeltető szervezetekre, az eseménykezelési felelős és az önálló eseménykezelési felelős a szervezetére vonatkozó hatáskörrel jogosult kiadni."
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. § [Egypontos külső kapcsolattartás elve] A nemzeti és nemzetközi elektronikus információbiztonsági eseménykezelési együttműködésben a HÁEIBEK képviseli a teljes honvédelmi ágazatot, amennyiben ezt jogszabály, nemzetközi szerződés vagy együttműködési megállapodás másképp nem szabályozza."
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14. §",
+      "content": "14. § (1) Az érintett szervezet vezetője megfelelő végzettséggel vagy szakmai tapasztalattal rendelkező elektronikus információbiztonsági eseménykezelésért felelős személyt jelölhet ki. (2) Az érintett szervezet vezetője jelen utasítással összhangban meghatározza a biztonsági esemény azonosításához és jelentéséhez szükséges folyamatokat, feladatokat, felelősöket, amelyeket eseménykezelési tervben szabályoz."
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15. §",
+      "content": "15. § (1) A honvédelmi ágazati elektronikus információbiztonsági eseménykezelés többszintű, szervezeti szintjei a következők: a) eseménykezelési felelős és az önálló eseménykezelési felelős mint elsődleges eseménykezelő szint, b) szakfeladat szerint elkülönülő eseménykezelő központ mint az elsődleges eseménykezelőt támogató szakmai szint és c) HÁEIBEK mint a szakfeladat szerint elkülönülő eseménykezelő központ és az önálló eseménykezelési felelős eseménykezelő tevékenységét koordináló és támogató központi szint. (2) A HÁEIBEK az elektronikus információbiztonsági eseménykezelés szakmai irányítását és koordinációját – az azonnali reagálást igénylő biztonsági események kezelését kivéve – a honvédségi szervezetek esetében a szakfeladat szerint elkülönülő eseménykezelő központ útján gyakorolja."
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16. §",
+      "content": "16. § Az eseménykezelés egymásra épülő tevékenységek sorozata. Az eseménykezelési tevékenységek az alábbi fokozatokra tagolódnak: a) az 1. fokozat tartalmazza a biztonsági fenyegetés vagy esemény szoftveres észlelését, riasztás vagy bejelentés alapján történő rögzítését, kezdeti kategorizálását, kezdeti kárbecslését, az azonnali reagálást igénylő intézkedések megtételét, b) a 2. fokozat tartalmazza a biztonsági fenyegetés vagy esemény kezdeti műszaki vizsgálatát, a fenyegetés vagy az esemény nyomainak rögzítését, naplófájlok, egyéb műszaki adatbázisok alapvető vizsgálatát, érintettség behatárolását, c) a 3. fokozat tartalmazza a részletes műszaki vizsgálati és nyomozati tevékenységeket, elemző-értékelő tevékenységen keresztül a biztonsági fenyegetettségek felkutatását, és d) a 4. fokozat tartalmazza az ágazati szintű elemző-értékelő tevékenységet, a fenyegetettségek felkutatását, és információ biztosítását a felsővezetők, a külön jogszabályban megjelölt kibervédelmi ügyeletes parancsnok, a művelettervezés, valamint a híradó-informatikai üzemeltetés részére."
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17. §",
+      "content": "17. § (1) Az eseménykezelési felelős és az önálló eseménykezelési felelős – az 1. és 2. fokozatú eseménykezelési tevékenység keretében – a saját szervezete vonatkozásában a) biztosítja a biztonsági esemény vagy fenyegetés bejelentésére szolgáló elérhetőségeket, a bejelentésekről nyilvántartást vezet, b) tájékoztatja az adatvédelmi tisztviselőt a biztonsági eseményben érintett személyek védelem alá eső adatai bizalmasságának sérülése esetén, c) az érintett szervezet eseménykezelési terve alapján, abban rögzített jogokkal és hatáskörrel felügyeli a felelősségi körébe tartozó nem központi szolgáltatást biztosító elektronikus információs rendszerre telepített kibervédelmi eszközöket, d) a rendszerüzemeltetővel együttműködésben megkezdi a biztonsági eseményt vagy fenyegetést kiváltó ok azonosítását, e) információbiztonsági riasztás esetén javaslatot tesz a biztonsági eseménnyel érintett központi rendszerüzemeltető felé – az illetékes szakfeladat szerint elkülönülő eseménykezelő központ útján – a biztonsági kockázatok csökkentését szolgáló intézkedésekre, amennyiben indokolt, az érintett szolgáltatások ideiglenes felfüggesztésére vagy informatikai eszközök hálózatról történő lekapcsolására, f) az azonosítás alapján megkezdi a honvédelmi célú elektronikus információs rendszer vagy kibervédelmi eszköz eseménynaplójának a biztonsági esemény szempontjából szükséges bejegyzéseinek gyűjtését, vagy intézkedik azok gyűjtésére és továbbítására, g) gyűjti a 21. § (1) és (2) bekezdése szerinti, a biztonsági esemény bejelentéséhez szükséges adatokat, vagy intézkedik azok gyűjtésére és továbbítására, és h) az összegyűjtött adatokon feltárja a biztonsági esemény bekövetkezéséhez vezető okok vagy fenyegetés jellegét. (2) Az (1) bekezdés szerinti feladatokat központi rendszer vonatkozásában a központi rendszer üzemeltetéséért felelős szervezet eseménykezelési felelőse látja el. (3) Az eseménykezelési felelős a szakfeladat szerint elkülönülő eseménykezelő központnak, az önálló eseménykezelési felelős a HÁEIBEK-nek – az okok, a végre nem hajtott feladat és a már végrehajtott vizsgálat eredményeinek megjelölésével – jelzi, ha az (1) bekezdés szerinti feladatok szakszerű végrehajtására neki fel nem róható okból nem képes. Ez esetben az illetékes szakfeladat szerint elkülönülő eseménykezelő központ, valamint a HÁEIBEK a biztonsági eseménnyel érintett szervezet helyett eljárhat."
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18. §",
+      "content": "18. § (1) A szakfeladat szerint elkülönülő eseménykezelő központ – az 1–3. fokozatú eseménykezelési tevékenység keretében – a 17. § (1) bekezdés c)–h) pontja szerinti feladatokon túlmenően a szakterület szerint alárendelt szervezetek vonatkozásában a) a biztonsági fenyegetést vagy eseményt kiváltó ok azonosítása alapján megkezdi a honvédelmi célú elektronikus információs rendszer vagy kibervédelmi eszköz eseménynaplója biztonsági esemény szempontjából szükséges bejegyzéseinek gyűjtését, vagy intézkedik azok gyűjtésére és elemzésre való előkészítésére, b) a biztonsági eseménnyel érintett központi rendszerüzemeltető felé közvetlenül intézkedik a határvédelmi és végpontvédelmi rendszerekre vonatkozó beállítási javaslatok érvényesítésére, szükség esetén hozzáférési jogosultságok korlátozására, c) a biztonsági eseménnyel érintett rendszerüzemeltető felé intézkedik a digitális nyomrögzítés szabályainak megfelelően a biztonsági esemény bekövetkezésében részt vevő káros kódok kiemelésére, azok elemzésre történő továbbítására, eltávolítására, a jogosulatlanul módosított rendszerbeállítások, hálózati behatolások helyeinek helyreállítására, szükség esetén az érintett rendszerelemek, szolgáltatások leállítására, ismételt telepítésére és konfigurálására, hozzáférési jogosultságok korlátozására, d) végzi a biztonsági esemény bekövetkeztében szerepet játszó káros kód vizsgálatát, e) adatokat gyűjt a biztonsági fenyegetésben vagy eseményben érintettek – támadó, támadott – beazonosítására, és a cselekmény céljának feltárására, f) a biztonsági eseményben érintettek beazonosításához felhasználja a rendelkezésre álló kibertér-fenyegetettség információs adatforrásokat, g) a biztonsági esemény jellegének megfelelően elvégzi az érintett informatikai eszközön az eseti digitális nyomozati-bizonyítékgyűjtő eljárást, h) személyi felelősség vizsgálata céljából a biztonsági eseményre vonatkozó bizonyítékokat átadja az illetékes szerveknek, i) napi jelentést készít az észlelt, a bejelentett és a vizsgált biztonsági eseményekről, azok vizsgálati állapotáról, melyet elektronikus úton továbbít a HÁEIBEK-nek, j) a közepes, magas vagy kritikus besorolású biztonsági eseményeket soron kívül jelenti a HÁEIBEK-nek, k) a HÁEIBEK-től kapott riasztásokat, tájékoztatókat az érintett üzemeltetőkkel és felhasználókkal a szükséges mértékben megosztja, l) információbiztonsági riasztást ad ki, melyet tájékoztatásul megküld a HÁEIBEK részére, és m) a biztonsági eseményben érintett személyek védelem alá eső adatai bizalmasságának sérülése esetén az adatvédelmi incidens kezelése céljából tájékoztatja az érintett szervezet eseménykezelési felelősét, n) folyamatosan elérhető 24 órás ügyeletet biztosít a biztonsági fenyegetés vagy esemény bejelentésére, a bejelentésekről nyilvántartást vezet. (2) A szakfeladat szerint elkülönülő eseménykezelő központ az érintett szervezet eseménykezelési felelősének 17. § (2) bekezdése szerinti jelzése alapján dönt a 17. § (1) bekezdés c)–h) pontja szerinti feladatok ellátásáról. (3) A szakfeladat szerint elkülönülő eseménykezelő központ – az okok, a végre nem hajtott feladat és a már végrehajtott vizsgálat eredményeinek megjelölésével – jelzi a HÁEIBEK-nek, ha az (1) bekezdés szerinti feladatok szakszerű végrehajtására neki fel nem róható okból nem képes. Ez esetben a HÁEIBEK a szakfeladat szerint elkülönülő eseménykezelő központ helyett eljárhat. (4) Az (1) bekezdés j), k) és m) pontjaiban foglaltakról a Honvéd Vezérkar (a továbbiakban: HVK) alárendeltségébe tartozó, szakfeladat szerint elkülönülő eseménykezelő központ tájékoztatja a külön jogszabályban megjelölt kibervédelmi ügyeletes parancsnokot is."
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19. §",
+      "content": "19. § (1) A HÁEIBEK a 2–4. fokozatú eseménykezelési tevékenység keretében 1. irányítja és koordinálja a szakfeladat szerint elkülönülő eseménykezelő központ szakmai tevékenységét, 2. koordinálja a biztonsági eseményekre történő reagálás ágazati szintű tevékenységeit, 3. végzi a fenyegetettségek ágazati szintű elemzését, kezelését, 4. az információs kapcsolatrendszer felhasználásával kiegészítő adatokat gyűjt a biztonsági fenyegetést vagy eseményt kiváltó cselekménysorozattal kapcsolatban, az eseménykezelés aktív és utólagos vizsgálati, a további védelmi megerősítést célzó szakaszának támogatása érdekében, 5. végzi a honvédelmi ágazatra vonatkozó dinamikus fenyegetettség- és eseményelemzést, valamint a biztonsági eseményekkel kapcsolatos helyzetkép készítéséhez kapcsolódó feladatokat, 6. honvédelmi ágazati szinten információbiztonsági riasztást ad ki az érintett szervezetek részére, tájékoztatást nyújt a honvédelmi célú elektronikus információs rendszereket érintő sérülékenységekről, fenyegetésekről, valamint a javasolt biztonsági intézkedésekről, 7. jelentős biztonsági fenyegetés vagy esemény bekövetkezéséről soron kívül tájékoztatja a felsővezetőket és a külön jogszabályban megjelölt kibervédelmi ügyeletes parancsnokot, 8. a hatósági eljárás lefolytatása céljából a biztonsági eseményről, az elvégzett műszaki vizsgálat eredményéről – az összefoglaló jegyzőkönyv egyidejű megküldésével – értesíti a Honvédelmi Ágazati Elektronikus Információbiztonsági Hatóságot (a továbbiakban: HÁEIBH), 9. kapcsolatot tart az Észak-atlanti Szerződés Szervezete (a továbbiakban: NATO) illetékes eseménykezelő központjával, 10. folyamatosan elérhető 24 órás ügyeletet biztosít a biztonsági fenyegetés vagy esemény bejelentésére az önálló eseménykezelési felelős és a szakfeladat szerint elkülönülő eseménykezelő központ részére, a bejelentésekről nyilvántartást vezet, 11. az adott biztonsági eseményt vizsgáló eseménykezelők által összegyűjtött és átadott adatokon elvégzi a biztonsági esemény bekövetkezéséhez vezető okok vagy a fenyegetés jellegének feltárását, 12. a biztonsági eseményben érintett személyek védelem alá eső adatai bizalmasságának sérülése esetén az adatvédelmi incidens kezelése céljából tájékoztatja az illetékes szakfeladat szerint elkülönülő eseménykezelő központot vagy az önálló eseménykezelésért felelős személyt, szervezeti egységet, 13. intézkedik a szakfeladat szerint elkülönülő eseménykezelő központ vagy az önálló eseménykezelési felelős útján az üzemeltető felé a biztonsági eseményt kiváltó káros kódok eltávolításának végrehajtására, azok elemzésre történő továbbítására, a jogosulatlanul módosított rendszerbeállítások, hálózati behatolások helyeinek helyreállítására, szükség esetén az érintett rendszerelemek ismételt telepítésére és konfigurálására, 14. a hibafeltárást szolgáló, automatizált letapogató eljárások alkalmazásával támogatja a honvédelmi célú elektronikus információs rendszerre vonatkozó sérülékenységek feltárását, 15. végzi a biztonsági eseményt kiváltó káros kódok vizsgálatát a megelőző szervezeti szintek bejelentése alapján, 16. adatokat gyűjt a biztonsági fenyegetésben vagy eseményben érintettek – támadó, támadott – beazonosítására, és a cselekmény céljának feltárására, 17. a biztonsági esemény jellegének megfelelően az érintett informatikai eszközön műszaki vizsgálati eljárást végez, 18. személyi felelősség vizsgálata céljából a biztonsági fenyegetésre, eseményre vonatkozó bizonyítékokat átadja az illetékes szervnek, 19. korai figyelmeztető rendszert működtet, 20. kezeli az illetékes ágazatban ki nem jelölt, a létfontosságú rendszerek és létesítmények azonosításáról, kijelöléséről és védelméről szóló törvényben meghatározott ágazaton kívüli honvédelmi rendszerelemek elektronikus információs rendszereinél bekövetkező ágazati szintű biztonsági fenyegetéseket vagy eseményeket, és 21. figyelemmel kíséri az ágazati és nemzetközi biztonsági eseményeket, az azokkal kapcsolatos elemzés-értékelés eredményeit, azokat beépíti az ágazati eseménykezelés folyamatába. (2) A HÁEIBEK az érintett szervezet önálló eseménykezelési felelőse 17. § (2) bekezdése szerinti jelzése alapján dönt a 17. § (1) bekezdés c)–e), g) és h) pontjai szerinti feladatok ellátásáról. (3) A HÁEIBEK az érintett szakfeladat szerint elkülönülő eseménykezelő központ 18. § (3) bekezdése szerinti jelzése alapján dönt a 18. § (1) bekezdése szerinti feladatok ellátásáról."
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20. §",
+      "content": "20. § (1) A honvédelmi célú elektronikus információs rendszerben észlelt biztonsági eseményt vagy annak gyanúját haladéktalanul be kell jelenteni az eseménnyel érintett szervezet eseménykezelési vagy önálló eseménykezelési felelősének. Amennyiben az eseménnyel érintett szervezet eseménykezelője nem elérhető, a következő szervezeti szint szerinti eseménykezelőt kell értesíteni. (2) Az eseménykezelési felelős a tudomására jutott biztonsági fenyegetést vagy eseményt a 21. § (1) és (2) bekezdései szerinti tartalommal a 17. § szerinti feladatok megkezdése mellett, haladéktalanul jelenti az illetékes szakfeladat szerint elkülönülő eseménykezelő központnak. (3) Az önálló eseménykezelési felelős a tudomására jutott biztonsági fenyegetést vagy eseményt a 21. § (1) és (2) bekezdései szerinti tartalommal a 17. § szerinti feladatok megkezdése mellett haladéktalanul bejelenti a HÁEIBEK-nek. (4) Az szakfeladat szerint elkülönülő eseménykezelő központ a tudomására jutott biztonsági fenyegetést vagy eseményt a 21. § (1) és (2) bekezdései szerinti tartalommal a 18. §-ban foglalt feladatok megkezdése mellett, haladéktalanul bejelenti a HÁEIBEK-nek. (5) Amennyiben a bejelentés az elektronikus információs rendszer felhasználójától érkezik, a bejelentést fogadó eseménykezelő megbizonyosodik arról, hogy az esemény biztonsági eseménynek minősül-e. Amennyiben az esemény nem minősíthető biztonsági eseménynek, de a bejelentett rendellenesség felszámolásával a rendszer biztonsága megerősíthető, úgy a bejelentést korai figyelmeztetésnek kell tekinteni. (6) A bejelentést fogadó eseménykezelő a biztonsági esemény bejelentését dokumentálja. (7) Hiányos vagy a műszaki vizsgálat során feldolgozásra nem alkalmas adatok közlése esetén a bejelentést fogadó eseménykezelő a bejelentőt hiánypótlásra szólítja fel. A hiánypótlásig a biztonsági esemény kivizsgálása felfüggesztésre kerülhet. (8) A biztonsági eseményhez kapcsolódó összes információt a bejelentést fogadó eseménykezelési vagy önálló eseménykezelési felelős – illetékességének hiányában – átadja a biztonsági eseménnyel érintett szervezet eseménykezelési vagy önálló eseménykezelési felelősének. Az eseménnyel érintett szervezet eseménykezelési vagy önálló eseménykezelési felelőse a továbbiakban az utasítás szabályai szerint jár el."
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21. §",
+      "content": "21. § (1) A biztonsági esemény bejelentése tartalmazza a) a biztonsági esemény közérthető leírását, annak feltételezhető hatását, kiterjedését, b) a biztonsági esemény első észlelésének pontos időpontját, c) az érintett rendszer és rendszerelemek megnevezését, biztonsági osztályba sorolását, a rendszeren kezelt legmagasabb minősítési szintű minősített adat minősítési szintjét és a rendszer működésében észlelt probléma technikai leírását, d) a már megtett intézkedések leírását és e) minden egyéb, a biztonsági esemény kivizsgálása szempontjából lényeges körülményt. (2) Amennyiben rendelkezésre áll, a bejelentés tartalmazza továbbá a) a biztonsági eseményről riasztást kiadó kibervédelmi eszközből származó, az adott biztonsági eseményre vonatkozó technikai adatokat, b) az elektronikus információs rendszer működésében rendellenességet okozó azon információt tartalmazó fájlokat, amelyek a rendszert használó tevékenységéhez kötődnek és c) a biztonsági esemény kapcsán érintett felhasználó beazonosíthatóságához szükséges technikai adatokat. (3) Amennyiben rendelkezésre áll, a biztonsági esemény bekövetkezésében szerepet játszó káros kódok eseménykezelőnek történő átadását kérésre biztosítani kell."
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22. §",
+      "content": "22. § (1) A honvédelmi célú elektronikus információs rendszerek biztonsági eseménye a) alacsony, b) közepes, c) magas vagy d) kritikus besorolású lehet. (2) A biztonsági esemény besorolását a fenyegetés, hatás és kiterjedés mérlegelésével a bejelentést fogadó eseménykezelő állapítja meg. (3) A honvédelmi célú elektronikus információs rendszereket érintő biztonsági fenyegetés vagy esemény típusa szempontjából lehet a) rosszindulatú kód, úgymint vírus, féreg, trójai, zsaroló kód, rendszermagot fertőző kártevő, kémprogram, rosszindulatú beágyazott link vagy csatolt fájl, b) információgyűjtés, úgymint szkennelés, letapogatás, adathalászat, humán megtévesztés, c) behatolási kísérlet, úgymint sebezhetőség-kihasználás, bejelentkezési kísérlet, d) behatolás, úgymint kiemelt vagy felhasználói jogosultságú hozzáférés-kihasználás, honlaptámadás, SQL-injektálás, hátsó ajtó, alkalmazás-kompromittálódás, e) rendelkezésre állást negatívan befolyásoló esemény, úgymint túlterheléses, elosztott túlterheléses támadás, szabotázs, f) bizalmasságot érintő biztonsági esemény, úgymint információkhoz történő illetéktelen hozzáférés, információ jogosulatlan módosítása, g) visszaélés, úgymint erőforrások jogosulatlan használata, illetéktelen megszemélyesítés, h) kéretlen, sértő tartalom, úgymint kéretlen levél, sértegetés, erőszakos tartalom vagy i) egyéb. (4) A biztonsági esemény típusát az érintett rendszer figyelembevételével a bejelentést fogadó eseménykezelő állapítja meg. (5) A HÁEIBEK, valamint a szakfeladat szerint elkülönülő eseménykezelő központ a tudomására jutott biztonsági esemény típusát vagy besorolását módosíthatja. A módosításról tájékoztatja a bejelentő eseménykezelési vagy önálló eseménykezelési felelőst."
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23. §",
+      "content": "23. § (1) Az esemény észlelését, bejelentését követően a biztonsági fenyegetéssel vagy eseménnyel érintett eseménykezelő a felelősségi körébe tartozó feladatok végrehajtásával haladéktalanul megkezdi az esemény műszaki vizsgálatának 1–3. fokozatú eseménykezelési tevékenységeit. (2) Az adott szervezeti szinten a műszaki vizsgálatot végző eseménykezelő a biztonsági eseményeket a 22. § (1) bekezdése szerinti besorolás alapján végrehajtási sorrendbe rendezi. (3) Az azonos besorolású események között a bejelentés időpontja határozza meg a sorrendet. (4) A műszaki vizsgálatot végző eseménykezelő a biztonsági esemény besorolását az események kiterjedése, a közvetlen és közvetett hatása, a várható kármérték figyelembevételével módosíthatja. A módosításról tájékoztatja a bejelentő eseménykezelőt. (5) A műszaki vizsgálatot végző eseménykezelő kiegészítő adatokat kérhet a bejelentő eseménykezelőtől. (6) Az eseménykezelésért felelős személy, szervezeti egység műszaki vizsgálat során tett megállapításait az illetékes szakfeladat szerint elkülönülő eseménykezelő központ vagy a HÁEIBEK ellenőrzi, és dönt azok elfogadásáról. (7) Amennyiben a műszaki vizsgálatot végző eseménykezelők vizsgálati megállapításaiban ellentmondás mutatható ki, az illetékes szakfeladat szerint elkülönülő eseménykezelő központ vagy a HÁEIBEK újabb bizonyítékgyűjtő eljárást kezdeményezhet. (8) A műszaki vizsgálat egymásra épülő elemeivel kapcsolatban végrehajtott tevékenységeket a vizsgálatot végző eseménykezelő a tevékenységek sorrendjét is tartalmazó jegyzőkönyvbe foglalja, a jegyzőkönyvet megküldi a magasabb eseménykezelő szintek részére. (9) Ha az esemény műszaki vizsgálatában a HÁEIBEK részt vett, a (8) bekezdés szerinti jegyzőkönyveket is felhasználva a műszaki vizsgálat eredményét a HÁEIBEK összefoglaló vizsgálati jegyzőkönyvben rögzíti. (10) Az összefoglaló vizsgálati jegyzőkönyv tartalmazza a biztonsági esemény részletes leírását, a lefolytatott vizsgálat módját és elemeit, valamint a biztonsági esemény felszámolásához szükséges és a rendszerek biztonságának megerősítésére vonatkozó védelmi intézkedéseket. (11) Az összefoglaló vizsgálati jegyzőkönyvet a HÁEIBEK megküldi az érintett szervezet, valamint az illetékes szakfeladat szerint elkülönülő eseménykezelő központ részére. (12) A biztonsági eseménnyel érintett honvédelmi ágazati szervezet felelős az összefoglaló vizsgálati jegyzőkönyvben meghatározott, a biztonsági esemény felszámolásához szükséges és a rendszerek biztonságának megerősítésére vonatkozó védelmi intézkedések végrehajtásáért. A feladat végrehajtásában a biztonsági eseménnyel érintett honvédelmi ágazati szervezet elektronikus információs rendszerének üzemeltetője együttműködik. A biztonsági eseménnyel érintett honvédelmi ágazati szervezet vezetője a HÁEIBEK-től a biztonsági esemény kivizsgálásáról további információkat igényelhet, amennyiben úgy ítéli meg, hogy a biztonsági esemény felszámolása és a rendszerek biztonságának megerősítése érdekében a vizsgálati jegyzőkönyv tartalmán túl további kiegészítő információk szükségesek. (13) A (12) bekezdés szerinti végrehajtás eredményéről az önálló eseménykezelési felelős közvetlenül, az eseménykezelési felelős a szakterületileg illetékes szakfeladat szerint elkülönülő eseménykezelő központ útján tájékoztatja a HÁEIBEK-et. Amennyiben a védelmi intézkedéseket a biztonsági eseménnyel érintett honvédelmi ágazati szervezet megfelelően hajtotta végre, a HÁEIBEK az eseménykezelést az eseményjegyen történő bejegyzéssel lezárja, és erről az eseményt bejelentő önálló eseménykezelési felelőst közvetlenül, az eseménykezelési felelőst a szakterületileg illetékes szakfeladat szerint elkülönülő eseménykezelő központ útján értesíti. (14) Amennyiben a HÁEIBEK, illetve a szakfeladat szerint elkülönülő eseménykezelő központ további biztonsági intézkedések bevezetését tartja indokoltnak, úgy a műszaki vizsgálatot az (5)–(13) bekezdés szerint ciklikusan ismétlődő lépések végrehajtásával a műszaki vizsgálat lezárásáig folytatja. (15) A HÁEIBEK a biztonsági esemény kivizsgálása során megteszi a szükséges bejelentéseket a nemzeti, NATO- és egyéb együttműködő szervezetek felé. (16) Különleges jogrend, honvédelmi válsághelyzet esetén a HÁEIBEK a besorolást, a vizsgálati sorrendet megváltoztathatja, speciális működési rendre térhet át, melyről az együttműködő felek számára tájékoztatást ad ki."
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24. §",
+      "content": "24. § (1) A biztonsági esemény műszaki vizsgálata során a vizsgálatot végző eseménykezelő tájékoztatja a HÁEIBH-t a nyílt elektronikus információs rendszert érintő, bekövetkezett biztonsági eseményről, és rendelkezésére bocsátja a biztonsági eseményre vonatkozó valamennyi információt. (2) A HÁEIBH az eljárása megindításáról és lezárásáról tájékoztatja a vizsgálatot végző eseménykezelőt és a HÁEIBEK-et. (3) A HÁEIBH a hatósági eljárás során kiegészítő műszaki adatokat kérhet."
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25. §",
+      "content": "25. § A HÁEIBEK, valamint a szakfeladat szerint elkülönülő eseménykezelő központ a HÁEIBEK útján a lezárt biztonsági esemény vizsgálatát folytatja a) az eseménnyel kapcsolatos új információ tudomására jutása vagy b) a HÁEIBH – feladatainak ellátása érdekében szükséges – kiegészítő információ iránti igénye esetén."
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26. §",
+      "content": "26. § (1) A HÁEIBEK az adott biztonsági eseményhez kapcsolódó, a nemzeti és nemzetközi kapcsolattartásból származó közleményeket feldolgozza. (2) A technikai adatokon alapuló közlemények érdekelt felek közötti megosztásakor az információk megoszthatóságára vonatkozó nemzetközi bevált jelölésrendszert kell alkalmazni. (3) Az érintett szervezet felelős az információbiztonsági tájékoztatáson és riasztási közleményeken alapuló szükséges intézkedések végrehajtásáért."
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27. §",
+      "content": "27. § (1) Ez az utasítás – a (2) bekezdésben foglalt kivétellel – a közzétételét követő napon lép hatályba. (2) A 18. § (1) bekezdés n) pontja 2023. április 30. napján lép hatályba."
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28. §",
+      "content": "28. § (1) A HVK főnöke az ezen utasítás közzétételét követő 90 napon belül – jelen utasítás rendelkezéseire figyelemmel – kiadja a HVK és az alárendeltségébe tartozó honvédségi szervezetek számára az eseménykezelésre vonatkozó szakutasítást. (2) Az érintett szervezet vezetője az utasítás közzétételét követő 60 napon belül, a HVK és a HVK alárendeltségébe tartozó honvédségi szervezetek vezetője az (1) bekezdés szerinti szakutasítás közzétételét követő 60 napon belül kiadja a szervezet eseménykezelési tervét, és szükség szerint pontosítja a szervezet elektronikus információbiztonsági szabályzatát."
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29. §",
+      "content": "29. § Hatályát veszti a) b) 1 A 29. § a) pontja a 2010. évi CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette. 2 A 29. § b) pontja a 2010. évi CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette."
+    }
+  ]
+}

@@ -1,0 +1,929 @@
+{
+  "id": "hu-law-2017-35-b0-8e",
+  "type": "statute",
+  "title": "35/2017. (XII. 13.) ORFK utasítás a Robotzsaru integrált ügyviteli, ügyfeldolgozó és elektronikus iratkezelő rendszer egységes és kötelező használatáról, jogosultsági rendjéről, az adatvédelem, valamint a rendszerfejlesztés előírásairól szóló 18/2011. (IX. 23.) ORFK utasítás módosításáról",
+  "status": "repealed",
+  "in_force_date": "2018-01-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2017-35-B0-8E",
+  "description": "a Robotzsaru integrált ügyviteli, ügyfeldolgozó és elektronikus iratkezelő rendszer egységes és kötelező használatáról, jogosultsági rendjéről, az adatvédelem, valamint a rendszerfejlesztés előírásairól szóló 18/2011. (IX. 23.) ORFK utasítás módosításáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A jogalkotásról szóló 2010. évi CXXX. törvény 23. § (4) bekezdés c) pontjában, valamint a Rendőrségről szóló 1994. évi XXXIV. törvény 6. § (1) bekezdés b) pontjában foglaltak alapján, a Robotzsaru integrált ügyviteli, ügyfeldolgozó és elektronikus iratkezelő rendszer egységes és kötelező használatáról, jogosultsági rendjéről, az adatvédelem, valamint a rendszerfejlesztés előírásairól szóló 18/2011. (IX. 23.) ORFK utasítás módosítására kiadom az alábbi utasítást:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "1. A Robotzsaru integrált ügyviteli, ügyfeldolgozó és elektronikus iratkezelő rendszer egységes és kötelező használatáról, jogosultsági rendjéről, az adatvédelem, valamint a rendszerfejlesztés előírásairól szóló 18/2011. (IX. 23.) ORFK utasítás (a továbbiakban: Utasítás) 3. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "„3. Az utasítás alkalmazásában:"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "3.1. alkalmazástámogató: az Országos Rendőr-főkapitányság Gazdasági Főigazgatóság Informatikai Fejlesztési Főosztály (a továbbiakban: IFFO) vezetője által kijelölt személy, aki hivatali munkaidőn kívül készenléti szolgálat keretében látja el az informatikai támogató feladatait;"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "3.2. alkalmazástámogatási készenlétet ellátó személy: az IFFO vezetője által kijelölt személy, aki készenléti szolgálat keretében látja el az informatikai támogató feladatait hivatali munkaidőn kívül;"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "3.3. Bejelentő Portál: a NOVA Integrált Rendszer (a továbbiakban: NIR) támogatási folyamata során keletkezett felhasználói jelzések folyamat-vezérelt kezelését biztosító és a kapcsolatrendszer tagjait nyilvántartó rendszer;"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "3.4. Dokumentumtár: olyan elektronikus adatbázis, amely a Robotzsaru rendszerben előállított, illetőleg rögzített iratokat elektronikus formátumban tartalmazza az ügy selejtezéséig;"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "3.5. felhasználó: az a dolgozó, akinek a munkaköre ellátásához szükséges a Robotzsaru rendszer alkalmazása, erre tekintettel a Robotzsaru rendszerhez hozzáférési jogosultsággal és a szakterületi szerepkörének megfelelő jogosultsági szintekkel rendelkezik;"
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "3.6. informatikai támogató: az IFFO alkalmazástámogatási csoportjának tagja, aki a NIR rendszereinek és moduljainak magasszintű alkalmazástámogatási munkáját végzi;"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "3.7. kapcsolatrendszer: képzési és alkalmazástámogatási kapcsolatrendszer, azoknak a személyeknek az összessége, akik hierarchikus struktúrában végzik a NIR-hez kapcsolódó képzési és alkalmazástámogatási folyamatok támogatását;"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "3.8. központi informatikai fejlesztésirányító: az IFFO alkalmazásában álló olyan személy, aki az adott rendszer vagy modul informatikai koordinációs tevékenységéért felelős;"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "3.9. központi koordinátor: az ORFK főigazgatóságain, az ORFK Hivatalánál és az ORFK Ellenőrzési Szolgálatnál kijelölt olyan személy, aki összefogja szakterületén a központi szakterületi irányítók munkáját;"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "3.10. központi szakterületi irányító: központi szakmai irányító tevékenységet végző szervezeti elem alkalmazásában álló olyan személy, aki az adott rendszer vagy modul szakterületi koordinációs tevékenységéért felelős;"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "3.11. mentor: olyan személy, aki egyes rendszerek és modulok használatában képzésben részesült, továbbá saját szervénél a felhasználókkal kapcsolatot tart és a rendszerekkel és modulokkal kapcsolatos jelzéseiket rögzíti a Bejelentő Portálban;"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "3.12. modul: a rendszer logikailag elkülönülő egysége;"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "3.13. naplóállomány: a Robotzsaru rendszer használata során naplózott adatok összessége, amely az egyes felhasználók – Robotzsaru rendszerben végzett – tevékenységét tartalmazza dátum és időpont megjelölésével;"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "3.14. nemzetközi kötelezettségen alapuló adatszolgáltatás: nemzetközi közösségi szabályok alapján időszakonként vagy eseti megkeresés alapján a Robotzsaru rendszerben tárolt adatok összességéből végrehajtott adatszolgáltatás;"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "3.15. Netzsaru rendszer: olyan országos digitális, bűnügyi és rendészeti elektronikus adatbázis, amely strukturált adatbázis formájában magában foglalja a Robotzsaru NEO rendszer használata során rögzített ügyek, események releváns adatait az ügy selejtezéséig; felületén keresztül statisztikai célokra felhasználható adatok nyerhetők ki, valamint kereső-, kutató- és egyedi ügyviteli tevékenységek végezhetők a Robotzsaru rendszer jogosultsági rendjének keretei között;"
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "3.16. NIR: az IFFO által az informatikai fejlesztési folyamatok szabályozásáról szóló ORFK utasításban meghatározott követelményeknek megfelelően fejlesztett és a többi rendszerrel kapcsolatban lévő rendszerek összessége;"
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "3.17. országos szintű adatszolgáltatás: a Robotzsaru rendszerben tárolt adatok összességéből – egyedi megkeresés alapján – végrehajtott adatszolgáltatás;"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "3.18. releváns adat: minden olyan kötelezően rögzítendő adat, amely visszakereshető, és amelyre kimutatás kérhető;"
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "3.19. Robotzsaru Elektronikus Posta modul: két önálló iratképző, Robotzsaru Neo rendszert alkalmazó szerv közötti elektronikus ügyirat-átadást biztosító modul;"
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "3.20. Robotzsaru NEO rendszer: a Robotzsaru-2000 integrált ügyviteli ügyfeldolgozó rendszer korszerű, továbbfejlesztett változata; olyan informatikai ügyviteli, ügyfeldolgozó és elektronikus iratkezelő alkalmazás, amely az iratkezelési szoftverekkel szemben támasztott követelményekről szóló külön jogszabályban meghatározott követelményeknek megfelel, tanúsítvánnyal rendelkezik, továbbá 24 órás folyamatos üzemmódban rendelkezésre áll valamennyi rendőri szerv részére, és strukturált adatbázis formában tárolja a rendőri szervek által rögzített adatokat, iratokat;"
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "3.21. Robotzsaru rendszer: a rendőri szervek alap informatikai rendszere, olyan informatikai alkalmazások együttese, amely egységes rendszerbe foglal valamennyi nyílt rendőrségi tevékenységgel kapcsolatban keletkező, illetve beszerzett elektronikus adatot és iratot; a rendőri munka jellegéhez, illetve az egyes felhasználói csoportok feladat- és munkaköréhez igazodó felhasználói jogosultságok biztosításával komplex módon támogatja a rendőri szervek munkáját az elektronikus iratkezelésen, adatszolgáltatáson és feldolgozáson keresztül. Részét képezi a Dokumentumtár, a Netzsaru rendszer és a Robotzsaru NEO rendszer;"
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "3.22. Robotzsaru rendszer fejlesztéséért és üzemeltetéséért felelős szervezeti elem: az IFFO;"
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "3.23. Rendőrségi Oktató-Vizsgáztató Egységes Rendszer (a továbbiakban: ROVER): a NIR rendszerei felhasználóinak esetalapú oktatását, vizsgáztatását és önképzését automatikusan támogató rendszer, amely a vizsgák nyilvántartását felhasználónként és kompetenciánként valósítja meg;"
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "3.24. szerepkör és jogosultsági szint: az egyes jogosultsági szintek felhasználói által végezhető számítástechnikai műveletek összessége, amelyek alapján az adott felhasználó által látható menüpontokat a Robotzsaru rendszer felhasználói kézikönyve tartalmazza;"
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "3.25. területi koordinátor: területi szervenként kijelölt olyan személy, aki összefogja a területi szakirányítók, informatikai NIR felelős és a mentorok munkáját;"
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "3.26. területi szakirányító: a területi szerv vezetője által kijelölt olyan személy, akit az adott rendszer vagy modul szakterületi képzési és támogatási tevékenységére jelöltek ki;"
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "3.27. tömbösített HIIKK adatfelvitel: a Robotzsaru rendszerben végrehajtott manuális adatszolgáltatás, amelyhez a „Statisztikai jelentéshez adatszolgáltatás” (iratkód: BUEGRS) nevű iratmintát kell használni;"
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "3.28. szakterületi vezető: az ORFK-nál és a területi szerveknél az adott szakterület szakirányítását végző szervezeti elem vezetője és a helyi szerveknél az adott szakterület közvetlen irányítását végző vezető;"
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "3.29. területi informatikai készenlétet ellátó személy: olyan, a területi szerv állományába tartozó informatikai szakember, akit készenléti szolgálat ellátására jelöltek ki, és ezen készenléti szolgálat keretében látja el a területi informatikai NIR felelős feladatát hivatali munkaidőn kívül;"
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "3.30. területi informatikai NIR felelős: olyan, területi szervnél dolgozó informatikai szakember, akit a NIR informatikai képzési és támogatási tevékenységére jelöltek ki;"
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "3.31. Tevékenység-irányítási Rendszer: az ügyeleti szolgálatok tevékenységét kiszolgáló rendszer, amely az állampolgári bejelentések és a tett intézkedések nyomon követését biztosítja azzal, hogy magába foglalja a korábbi ügyeleti modul elemeit, kiegészítve azt a bejelentések kezelésével, a társszervekkel történő együttműködéssel, valamint az igénybe vett erők nyomon követésével és nyilvántartásával;"
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "3.32. üzemeltetéstámogatási készenlétet ellátó személy: az IFFO vezetője által kijelölt személy, aki készenléti szolgálat keretében látja el az üzemeltetéstámogató feladatait hivatali munkaidőn kívül;"
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "3.33. üzemeltetéstámogató: az IFFO üzemeltetéstámogatási csoportjának tagja, aki a NIR rendszereinek és moduljainak magasszintű üzemeltetéstámogatási munkáját végzi, valamint a rendszer környezetek előállításáért felel.”"
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "2. Az Utasítás a 3. pontot követően a következő I/A. fejezettel egészül ki:"
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "„I/A. A fejlesztéstámogatási, képzési és alkalmazástámogatási kapcsolatrendszer"
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "A kapcsolatrendszer felépítése"
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "3/A. Az ORFK, a Nemzetközi Bűnügyi Együttműködési Központ, a Rendőrség Oktatási és Kiképző Központ és a Nemzetközi Oktatási Központ esetén:"
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "a) a NIR mentorokat a Készenléti Rendőrség informatikai üzemeltetéstámogatással foglalkozó szervezeti eleme szolgáltatja;"
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "b) a területi szakirányítók szerepét a központi szakterületi irányítók töltik be."
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "3/B. A területi szerv vezetője jelöli ki:"
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "a) a területi koordinátort és helyettesét;"
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "b) a területi informatikai NIR felelőst és helyetteseiket;"
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "c) a területi informatikai készenlétet ellátó személyeket;"
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "d) a területi szervnél alkalmazásban álló mentort és helyettesét."
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "3/C. A területi szerv vezetője rendszerenként és modulonként a területi szakirányítókat és helyetteseiket jelöli ki."
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "3/D. A helyi szerv vezetője a helyi szerv alkalmazásában álló mentort és helyettesét jelöli ki."
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "3/E. A kapcsolatrendszer tagjainak e tevékenységre történő kijelölésüket és az ezzel kapcsolatos feladatokat a munkaköri leírásukban szerepeltetni kell."
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "3/F. A kapcsolatrendszer tagjait a Bejelentő Portálban az alkalmazástámogatási feladatot ellátó, a területi koordinátor és a központi koordinátor által folyamatosan frissítetten kell nyilvántartani."
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "3/G. A rendőri szerv vezetője intézkedik a kapcsolatrendszer valamely tagját érintő személyi változás esetén a pótlására. A rendőri szerv vezetője intézkedik a kapcsolatrendszer tagjainak adatváltozása esetén jelzés küldésére a területi koordinátor részére, aki a változásokat a nyilvántartó rendszerben átvezeti."
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "A kapcsolatrendszer tagjainak képzése"
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "3/H. A támogatási folyamattal kapcsolatban képzésben kell részesíteni:"
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "a) az informatikai támogatókat;"
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "b) az alkalmazástámogatási készenlétet ellátó személyeket;"
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "c) a központi szakirányítókat;"
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "d) a központi koordinátorokat;"
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "e) az üzemeltetéstámogatókat;"
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "f) az üzemeltetéstámogatási készenlétet ellátó személyeket;"
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "g) a területi koordinátorokat;"
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "h) a területi szakirányítókat;"
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "i) a területi informatikai készenlétet ellátó személyeket;"
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "j) a mentorokat.”"
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "3. Az Utasítás 10. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "„10. A Robotzsaru rendszerhez tartozó jogosultsági szinteket és szerepköröket a Robotzsaru rendszer Szerepkör Súgója tartalmazza.”"
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "4. Az Utasítás IX. fejezete helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "„IX. Alkalmazástámogatási feladatok"
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "Elérhetőségek biztosítása"
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "71. A szervezeti elem vezetője intézkedik az alárendeltségébe tartozó állomány folyamatos tájékoztatására a kapcsolatrendszer alábbi tagjainak elérhetőségéről (szolgálati telefonszámáról)"
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "a) az ORFK esetén:"
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "aa) központi koordinátor és helyettese,"
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "ab) az adott szerv NIR mentorai és helyettesei,"
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "ac) az informatikai készenlétet ellátó személy;"
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "b) területi és helyi szerv esetén:"
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "ba) területi koordinátor és helyettese,"
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "bb) az adott szerv NIR mentorai és helyettesei,"
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "bc) az informatikai készenlétet ellátó személy."
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "Alkalmazástámogatási folyamat hivatali munkaidőben"
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "72. A felhasználói szinten jelentkező, a NIR-t érintő probléma esetén a felhasználó a szervénél kijelölt NIR mentorok valamelyikéhez fordul a megadott elérhetőségein. Ha a kijelölt NIR mentorok nem érhetőek el, értesíti a kijelölt területi – ORFK esetén a szakterületén kijelölt központi – koordinátort. A NIR mentor a felhasználó által jelzett problémát jelzésként rögzíti a Bejelentő Portálba."
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "73. A NIR mentor a probléma megoldására"
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "a) a bejelentő portál automatikus tájékoztatásai;"
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "b) a korábban rögzített jelzések megoldásai;"
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "c) saját ismeretei"
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "alapján tesz kísérletet."
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "74. Ha a NIR mentor a jelzés vizsgálata során nem talál megoldást, továbbítja a jelzést"
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "a) szolgáltatáskiesés vagy hibás működés esetén a területi informatikai NIR felelős;"
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "b) nem várt működés esetén a területi koordinátor;"
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "c) magas szintű támogatói eszközökkel megoldható probléma esetén az IFFO"
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "részére."
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "75. A területi informatikai NIR felelős és a területi koordinátorok a Bejelentő Portálban folyamatosan ellenőrzik az érkező jelzéseket."
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "76. A területi informatikai NIR felelős"
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "a) szolgáltatáskiesés esetén megvizsgálja, hogy a területi szervének vagy az alárendeltségébe tartozó helyi szervnek az üzemeltetésében álló eszközben következett-e be a hiba;"
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "b) hibás működés esetén megvizsgálja, hogy az adott munkaállomás szoftveres környezete megfelelő-e."
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "77. Ha a területi informatikai NIR felelős a problémára nem talál megoldást, a jelzést a Bejelentő Portálban az alábbiak szerint továbbítja:"
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "a) ha megállapítja, hogy a jelzés nem várt működés vagy fejlesztési javaslat a területi koordinátor részére;"
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "b) hibás működés vagy csak magas szintű támogatói eszközökkel megoldható probléma esetén az alkalmazástámogató csoport részére;"
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "c) szolgáltatáskiesés esetén az üzemeltetéstámogató csoport részére."
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "78. A területi koordinátor"
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "a) nem várt működés esetén megvizsgálja, hogy a működés megfelel-e a jogszabályoknak és az adott rendszer vagy modul folyamatainak, funkcióinak;"
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "b) fejlesztési javaslat esetén megvizsgálja, hogy a részéről támogatható-e."
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "78/A. Ha a területi koordinátor a jelzés vizsgálata során nem talál megoldást, a jelzést az alábbiak szerint továbbítja:"
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "a) nem várt működés és támogatható fejlesztési javaslat esetén a központi szakterületi irányító részére;"
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "b) szolgáltatáskiesés vagy hibás működés megállapítása esetén a területi informatikai NIR felelős részére."
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "78/B. Az üzemeltetéstámogató a szolgáltatáskiesés esetén megvizsgálja, hogy az IFFO hatáskörében megoldható-e a probléma. Ha az üzemeltetéstámogató a jelzés vizsgálata során nem talál megoldást, intézkedik a hatáskörrel rendelkező szervezeti elem vagy szerv azonnali értesítéséről."
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "78/C. Az alkalmazástámogató"
+    },
+    {
+      "provision_ref": "s107",
+      "section": "107",
+      "title": "107",
+      "content": "a) hibás működés esetén megvizsgálja, hogy a jelzés magas szintű támogatói eszközökkel megoldható-e;"
+    },
+    {
+      "provision_ref": "s108",
+      "section": "108",
+      "title": "108",
+      "content": "b) a jelzés vizsgálata során nem talál megoldást, továbbítja a jelzést az adott rendszerben vagy modulban kijelölt központi szakterületi irányító részére;"
+    },
+    {
+      "provision_ref": "s109",
+      "section": "109",
+      "title": "109",
+      "content": "c) a csak magas szintű támogatói eszközökkel megoldható problémaként rögzített jelzésről megállapítja, hogy az nem várt működés, hibás működés vagy szolgáltatáskiesés, visszairányítja a jelzést a továbbítójának."
+    },
+    {
+      "provision_ref": "s110",
+      "section": "110",
+      "title": "110",
+      "content": "78/D. A központi szakterületi irányító"
+    },
+    {
+      "provision_ref": "s111",
+      "section": "111",
+      "title": "111",
+      "content": "a) nem várt működés esetén megvizsgálja, hogy a működés megfelel-e a jogszabályoknak és az adott rendszer vagy modul folyamatainak, funkcióinak;"
+    },
+    {
+      "provision_ref": "s112",
+      "section": "112",
+      "title": "112",
+      "content": "b) hibás működés típusú jelzés esetén továbbítja a jelzést a központi informatikai fejlesztésirányítónak, szükség esetén „azonnal” jelzéssel;"
+    },
+    {
+      "provision_ref": "s113",
+      "section": "113",
+      "title": "113",
+      "content": "c) fejlesztési javaslat esetén megvizsgálja, hogy a részéről támogatható-e."
+    },
+    {
+      "provision_ref": "s114",
+      "section": "114",
+      "title": "114",
+      "content": "78/E. A központi informatikai fejlesztésirányító a jelzés vizsgálata során a központi szakterületi irányítóval egyeztetve követelményeket vagy hibajegyet határoz meg, azokat fejlesztési feladatokra bontva. Az IFFO a fejlesztést az informatikai fejlesztési folyamatok szabályozásáról szóló ORFK utasítás szerinti megrendelést követően kezdi meg."
+    },
+    {
+      "provision_ref": "s115",
+      "section": "115",
+      "title": "115",
+      "content": "78/F. A felhasználó a szolgálati elektronikus postafiókjában folyamatosan ellenőrzi és feldolgozza a Bejelentő Portál által küldött üzeneteket."
+    },
+    {
+      "provision_ref": "s116",
+      "section": "116",
+      "title": "116",
+      "content": "78/G. A kapcsolatrendszer tagjai három napnál hosszabb távollét esetén beállítják a Bejelentő Portálban a helyettesítés funkciót és értesítik a kijelölt helyettesüket."
+    },
+    {
+      "provision_ref": "s117",
+      "section": "117",
+      "title": "117",
+      "content": "78/H. A Bejelentő Portál elérhetetlensége esetén az IFFO alkalmazástámogatási csoportja telefonon is megkereshető."
+    },
+    {
+      "provision_ref": "s118",
+      "section": "118",
+      "title": "118",
+      "content": "Alkalmazástámogatási folyamat hivatali munkaidőn túl"
+    },
+    {
+      "provision_ref": "s119",
+      "section": "119",
+      "title": "119",
+      "content": "78/I. A felhasználói szinten jelentkező, a NIR-t érintő probléma esetén a felhasználó a szervénél értesíti a területi vagy a központi informatikai készenlétet ellátó személyt."
+    },
+    {
+      "provision_ref": "s120",
+      "section": "120",
+      "title": "120",
+      "content": "78/J. A területi informatikai készenlétet ellátó személy a részére jelzett problémát jelzésként rögzíti a Bejelentő Portálba, és"
+    },
+    {
+      "provision_ref": "s121",
+      "section": "121",
+      "title": "121",
+      "content": "a) szolgáltatáskiesés esetén megvizsgálja, hogy a területi szervének vagy az alárendeltségébe tartozó helyi szervnek az üzemeltetésében álló eszközben következett-e be a hiba;"
+    },
+    {
+      "provision_ref": "s122",
+      "section": "122",
+      "title": "122",
+      "content": "b) hibás működés esetén megvizsgálja, hogy az adott munkaállomás szoftveres környezete megfelelő-e."
+    },
+    {
+      "provision_ref": "s123",
+      "section": "123",
+      "title": "123",
+      "content": "78/K. Ha a területi informatikai készenlétet ellátó személy a jelzés vizsgálata során nem talál megoldást, a jelzést a Bejelentő Portálban az alábbiak szerint továbbítja:"
+    },
+    {
+      "provision_ref": "s124",
+      "section": "124",
+      "title": "124",
+      "content": "a) hibás működés és csak magas szintű támogatói eszközökkel megoldható probléma esetén az alkalmazástámogatási készenlétet ellátó személy részére, akit telefonon is értesít;"
+    },
+    {
+      "provision_ref": "s125",
+      "section": "125",
+      "title": "125",
+      "content": "b) nem várt működés vagy fejlesztési javaslat esetén a területi koordinátorok részére, aki hivatali munkaidőben intézkedik a jelzés elintézésére;"
+    },
+    {
+      "provision_ref": "s126",
+      "section": "126",
+      "title": "126",
+      "content": "c) szolgáltatáskiesés esetén telefonon értesíti az alkalmazástámogatási készenlétet ellátó személyt és továbbítja a jelzést az üzemeltetéstámogatási készenlétet ellátó személy részére."
+    },
+    {
+      "provision_ref": "s127",
+      "section": "127",
+      "title": "127",
+      "content": "78/L. Az üzemeltetéstámogatási készenlétet ellátó személy a NIR monitoring rendszere alapján érkező automatikus értesítés vagy a jelzés vizsgálata során megoldási kísérletet tesz szolgáltatáskiesés elhárítására."
+    },
+    {
+      "provision_ref": "s128",
+      "section": "128",
+      "title": "128",
+      "content": "78/M. Ha az üzemeltetéstámogatási készenlétet ellátó személy az IFFO hatáskörében nem tudja megoldani a problémát, intézkedik a hatáskörrel rendelkező szervezeti elem vagy szerv értesítéséről."
+    },
+    {
+      "provision_ref": "s129",
+      "section": "129",
+      "title": "129",
+      "content": "78/N. Az alkalmazástámogatási készenlétet ellátó személy"
+    },
+    {
+      "provision_ref": "s130",
+      "section": "130",
+      "title": "130",
+      "content": "a) hibás működés esetén megvizsgálja, hogy a jelzés magas szintű támogatói eszközökkel megoldható-e;"
+    },
+    {
+      "provision_ref": "s131",
+      "section": "131",
+      "title": "131",
+      "content": "b) csak magas szintű támogatói eszközökkel megoldható probléma esetén végrehajtja a beavatkozást."
+    },
+    {
+      "provision_ref": "s132",
+      "section": "132",
+      "title": "132",
+      "content": "78/O. Ha az alkalmazástámogatási készenlétet ellátó személy"
+    },
+    {
+      "provision_ref": "s133",
+      "section": "133",
+      "title": "133",
+      "content": "a) a jelzés vizsgálata során nem talál megoldást, továbbítja a jelzést az adott rendszerben vagy modulban kijelölt központi szakterületi irányító részére, aki hivatali munkaidőben intézkedik a jelzés elintézésére;"
+    },
+    {
+      "provision_ref": "s134",
+      "section": "134",
+      "title": "134",
+      "content": "b) a csak magas szintű támogatói eszközökkel megoldható problémaként rögzített jelzésről megállapítja, hogy az nem várt működés, hibás működés vagy szolgáltatáskiesés, a jelzést visszairányítja a továbbítójának."
+    },
+    {
+      "provision_ref": "s135",
+      "section": "135",
+      "title": "135",
+      "content": "78/P. Készenlétben keletkezett jelzések kezelése esetén a felhasználó, a területi informatikai, az alkalmazástámogatási, az üzemeltetéstámogatási készenlétet ellátó személy a szolgálati elektronikus postafiókjában 30 percenként ellenőrzi és feldolgozza a Bejelentő Portálban a készenlét idején keletkezett jelzéseket és a kapcsolódó elektronikus üzeneteket.”"
+    },
+    {
+      "provision_ref": "s136",
+      "section": "136",
+      "title": "136",
+      "content": "5. Az Utasítás 79–84. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s137",
+      "section": "137",
+      "title": "137",
+      "content": "„79. A képzések lebonyolítása során előnyben kell részesíteni az elektronikus formájú, személyes megjelenést nem igénylő képzéseket."
+    },
+    {
+      "provision_ref": "s138",
+      "section": "138",
+      "title": "138",
+      "content": "80. A képzés meghatározása során annak tárgyát, az azzal érintett felhasználói kört, a képzés időpontját és módját kell meghatározni, valamint ki kell jelölni a képzést végrehajtó személyeket."
+    },
+    {
+      "provision_ref": "s139",
+      "section": "139",
+      "title": "139",
+      "content": "81. A képzés egyéb szervezési feladatai során a képzés helyét, a képzés eszközeit, a képzésen részt vevő személyek jelenlétét, valamint szükség esetén azok ellátását kell biztosítani."
+    },
+    {
+      "provision_ref": "s140",
+      "section": "140",
+      "title": "140",
+      "content": "82. Az alapképzés során a felhasználó beosztásba kerülés esetén a munkaköri feladatainak ellátása során használandó rendszerek és modulok tekintetében képzésben részesül, különös tekintettel az információbiztonság tudatosításra, amelynek"
+    },
+    {
+      "provision_ref": "s141",
+      "section": "141",
+      "title": "141",
+      "content": "a) meghatározásáért a felhasználó vezetőjének bevonásával a területi – az ORFK-n a központi – koordinátor felel;"
+    },
+    {
+      "provision_ref": "s142",
+      "section": "142",
+      "title": "142",
+      "content": "b) lebonyolításáért az adott rendszerek és modulok tekintetében kijelölt területi koordinátorok felelnek;"
+    },
+    {
+      "provision_ref": "s143",
+      "section": "143",
+      "title": "143",
+      "content": "c) egyéb szervezési feladataiért a területi – az ORFK-n a központi – koordinátor saját szervének képzésért felelős szervezeti eleme felel."
+    },
+    {
+      "provision_ref": "s144",
+      "section": "144",
+      "title": "144",
+      "content": "83. A kiegészítő képzés során a felhasználó az új beosztásba kerülés esetén a munkája során használandó, korábbi munkája során nem használt rendszerek és modulok tekintetében képzésben részesül, amelynek"
+    },
+    {
+      "provision_ref": "s145",
+      "section": "145",
+      "title": "145",
+      "content": "a) meghatározásáért a felhasználó vezetőjének bevonásával a területi koordinátor felel;"
+    },
+    {
+      "provision_ref": "s146",
+      "section": "146",
+      "title": "146",
+      "content": "b) lebonyolításáért az adott rendszerek és modulok tekintetében kijelölt területi koordinátorok felelnek;"
+    },
+    {
+      "provision_ref": "s147",
+      "section": "147",
+      "title": "147",
+      "content": "c) egyéb szervezési feladataiért a területi koordinátor saját szervének képzésért felelős szervezeti eleme felel."
+    },
+    {
+      "provision_ref": "s148",
+      "section": "148",
+      "title": "148",
+      "content": "84. Ha a ROVER-ben rendelkezésre áll az a rendszer vagy modul, amelyből a felhasználó a képzéseket kapja, vizsgakötelezettséget is meg lehet határozni.”"
+    },
+    {
+      "provision_ref": "s149",
+      "section": "149",
+      "title": "149",
+      "content": "6. Az Utasítás X. A Robotzsaru rendszer használatához szükséges ismeretek oktatása alcíme a következő 84/A. ponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s150",
+      "section": "150",
+      "title": "150",
+      "content": "„84/A. A rendszerek vagy modulok változásainak esetén az informatikai fejlesztési folyamatok szabályozásáról szóló ORFK utasításban foglaltak szerint kell eljárni.”"
+    },
+    {
+      "provision_ref": "s151",
+      "section": "151",
+      "title": "151",
+      "content": "7. Az Utasítás 32. pontjában az „az ORFK bűnügyi főigazgatója” szövegrész helyébe az „a bűnügyi országos rendőrfőkapitány-helyettes” szöveg lép."
+    },
+    {
+      "provision_ref": "s152",
+      "section": "152",
+      "title": "152",
+      "content": "8. Ez az utasítás 2018. január 1-jén lép hatályba."
+    },
+    {
+      "provision_ref": "s153",
+      "section": "153",
+      "title": "153",
+      "content": "9. Ez az utasítás 2018. január 2-án hatályát veszti. 1 Az utasítás a 9. pont alapján hatályát vesztette 2018. január 2. napjával."
+    }
+  ]
+}

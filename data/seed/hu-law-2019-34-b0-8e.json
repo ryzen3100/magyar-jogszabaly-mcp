@@ -1,0 +1,2579 @@
+{
+  "id": "hu-law-2019-34-b0-8e",
+  "type": "statute",
+  "title": "34/2019. (IX. 26.) ORFK utasítás a minősítői jogkör átruházásáról és a minősített adatok kezelésére vonatkozó szabályokról",
+  "status": "in_force",
+  "in_force_date": "2019-10-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2019-34-B0-8E",
+  "description": "a minősítői jogkör átruházásáról és a minősített adatok kezelésére vonatkozó szabályokról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A jogalkotásról szóló 2010. évi CXXX. törvény 23. § (4) bekezdés c) pontjában és a Rendőrségről szóló 1994. évi XXXIV. törvény 6. § (1) bekezdés b) pontjában kapott felhatalmazás alapján, a minősített adat védelméről szóló 2009. évi CLV. törvényben, a Nemzeti Biztonsági Felügyelet működésének, valamint a minősített adat kezelésének rendjéről szóló 90/2010. (III. 26.) Korm. rendeletben, a minősített adat elektronikus biztonságának, valamint a rejtjeltevékenység engedélyezésének és hatósági felügyeletének részletes szabályairól szóló 161/2010. (V. 6.) Korm. rendeletben meghatározott feladatok végrehajtása érdekében, a minősített adatok védelmével összefüggésben a szakmai irányítási feladatok meghatározása, a minősítői jogkör átruházása és a minősített adatok kezelése során irányadó egységes gyakorlat kialakítása céljából kiadom az alábbi utasítást:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "I. FEJEZET"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "ÁLTALÁNOS RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "1. Az utasítás hatálya"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "1. Az utasítás hatálya kiterjed az általános rendőrségi feladatok ellátására létrehozott szerv (a továbbiakban: Rendőrség) minősített adatot kezelő szerveire, így:"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "a) az Országos Rendőr-főkapitányságra (a továbbiakban: ORFK);"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "b) a Készenléti Rendőrségre (a továbbiakban: KR), a Repülőtéri Rendőr Igazgatóságra, a Rendőrségi Oktatási és Kiképző Központra, a Nemzetközi Oktatási Központra, a vármegyei (fővárosi) rendőr-főkapitányságokra (a továbbiakban együtt: területi szervek), valamint"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "c) a rendőrkapitányságokra és a határrendészeti kirendeltségekre (a továbbiakban együtt: helyi szervek)."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "2. Az utasítás tárgyi hatálya kiterjed a Rendőrségnél készített, valamint oda érkezett EU/NATO (a továbbiakban: külföldi), valamint a nemzeti minősített adatokra (a továbbiakban együtt: minősített adat)."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "2. A minősítői jogkör átruházása"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "3. A minősített adat védelméről szóló 2009. évi CLV. törvény (a továbbiakban: Mavtv.) 4. § (2)–(3) bekezdésében meghatározottak alapján az országos rendőrfőkapitány minősítői jogkörét – átruházott jogkörben – az alábbi vezetők gyakorolják:"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "a) „Szigorúan titkos!” minősítési szintig:"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "aa) az országos rendőrfőkapitány-helyettesek,"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "ab) a minősített adatok védelmének szakmai felügyeletével kapcsolatos feladatok körébe tartozó adatok esetében az ORFK hivatalvezetője mint az ORFK biztonsági vezetője (a továbbiakban: ORFK biztonsági vezetője);"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "b) „Titkos!” minősítési szintig:"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "ba) az ORFK állományából a szolgálatvezetők, a főosztályvezetők és a velük azonos jogállású vezetők,"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "bb) a KR igazgatói, a KR ezredparancsnoka, a KR igazgatóhelyettesei, a KR főosztályvezetői és a velük azonos jogállású vezetők, a KR Ügyeleti és Védelmi Szolgálat vezetője, a KR Nemzeti Nyomozó Iroda osztályvezetői, valamint a KR Különleges Szolgálatok Igazgatósága Bevetési Főosztály III. Bevetést Támogató Osztály vezetője,"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "bc) a bb) alpontban nem szereplő területi szerveknél a szerv vezetője és helyettesei, főosztályvezetői, bűnügyi, vizsgálati, felderítő, gazdaságvédelmi, elemző-értékelő, migrációs, fogdafelderítési és börtönelhárítási osztályok vezetői,"
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "bd) a rendőrkapitányság vezetője és helyettese, a bűnügyi, valamint a vizsgálati osztály vezetői,"
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "be) a határrendészeti kirendeltség vezetője és helyettese,"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "bf) a minősített adatok védelmének szakmai felügyeletével kapcsolatos feladatok körébe tartozó adatok esetében a területi és a helyi szerv biztonsági vezetője, amennyiben vezetői megbízással rendelkezik vagy vezetői beosztásba kinevezett személy."
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "II. FEJEZET"
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "SZEMÉLYI BIZTONSÁGI INTÉZKEDÉSEK"
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "3. Szakmai irányítási jogkör, a biztonsági vezető, a helyettes biztonsági vezető"
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "4. Az ORFK biztonsági vezetője a minősített adat védelmével összefüggésben szakmai irányítást gyakorol az utasítás hatálya alá tartozó szervek tevékenysége felett."
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "5. A hivatali szervezeti elemmel rendelkező minősített adatot kezelő szerv biztonsági vezetője – a 6. pontban meghatározott kivétellel – a minősített adatot kezelő szerv hivatalvezetője, a hivatali szervezeti elemmel nem rendelkező minősített adatot kezelő szerv esetében a hivatali szakszolgálathoz tartozó felsőfokú végzettséggel rendelkező személy."
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "6. A minősített adatot kezelő szerv vezetője indokolt esetben – a területi szervek esetében az ORFK biztonsági vezetője, a helyi szervek esetében a területi szerv biztonsági vezetője előzetes véleményének kikérését követően – a szerv állományába tartozó más személyt is kinevezhet biztonsági vezetőnek. Az ORFK biztonsági vezetője és a területi szerv biztonsági vezetője a véleményezés során mérlegeli, hogy"
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "a) a biztonsági vezető – a minősített adatot kezelő szerv szervezetében betöltött beosztására, munkakörére, egyéb feladatkörére figyelemmel – képes-e ellátni a kapcsolódó feladatokat;"
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "b) függetlensége mennyiben biztosított;"
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "c) tevékenysége során felmerülhet-e összeférhetetlenség arra figyelemmel, hogy saját minősítői tevékenységével összefüggésben kell ellenőrzési hatáskört gyakorolnia."
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "7. A minősített adatot kezelő szerv biztonsági vezetőjének kinevezéséhez szükséges egyetértés megadását – amennyiben a 6. pontban meghatározottak alapján az ORFK biztonsági vezetője vagy a területi szerv biztonsági vezetője előzetes véleményének kikérése szükséges, annak beszerzését követően – a minősített adatot kezelő szerv vezetője közvetlenül kezdeményezi a Nemzeti Biztonsági Felügyelet (a továbbiakban: NBF) elnökénél az NBF honlapján közzétett iratminta alapján. A minősített adatot kezelő szerv vezetője az NBF elnökének egyetértését követően a biztonsági vezetővé történő kinevezésről – a beosztás (munkakör), hivatásos állomány tagja esetén rendfokozat, valamint az elérhetőség megküldésével – tájékoztatja az ORFK biztonsági vezetőjét."
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "8. A Mavtv. 23. § (2) bekezdésben foglaltak alapján, a Nemzeti Biztonsági Felügyelet működésének, valamint a minősített adat kezelésének rendjéről szóló 90/2010. (III. 26.) Korm. rendelet (a továbbiakban: Korm. rendelet) 5. §-ában és a 6. pontban meghatározott szempontok figyelembevételével kinevezett helyettes biztonsági vezetőről a minősített adatot kezelő szerv vezetője tájékoztatja az NBF elnökét és az ORFK biztonsági vezetőjét."
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "9. Az ORFK biztonsági vezetője az ORFK Hivatal Elektronikus Ügyviteli és Adatvédelmi Főosztály (a továbbiakban: ORFK Hivatal EÜAFO) közreműködésével"
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "a) a minősített adat védelmét érintő jogszabálytervezetek koordinációja során kidolgozza a Rendőrség álláspontját;"
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "b) kiadásra előkészíti az országos rendőrfőkapitány által a minősített adat védelmével kapcsolatosan kiadni tervezett belső normákat;"
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "bb) megszervezi és végrehajtja az ORFK állományában lévő, minősítői jogkörrel rendelkező vezetői, továbbá a felhasználói és a titkos ügykezelői, valamint a minősített adatot kezelő elektronikus információs rendszerek üzemeltetéséért felelős állomány részére szükség szerint, de legalább évente egy alkalommal – különösen a minősített adat védelmével összefüggő jogszabály- és normaváltozások vagy az ellenőrzés során feltárt visszatérő vagy egyébként súlyos hiányosságok esetén, valamint a minősített adat biztonságának megsértését követően – a minősített adat védelmével kapcsolatosan, a felhasználói tudatosság növelése érdekében, dokumentált módon, e-learning képzésként is lebonyolítható oktatást."
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "c) kiadja és aktualizálja a titkos ügykezelők oktatásával és vizsgáztatásával kapcsolatos tananyagot és vizsgakövetelményt (a Titkos Ügykezelők Oktatási Kézikönyvét és Vizsgaszabályzatát);"
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "d) évente legalább egy alkalommal megszervezi és végrehajtja a titkos ügykezelői munkakörben foglalkoztatni kívánt személyek központi képzését és vizsgáztatását, ezzel összefüggésben intézkedik a vizsgabizottság és a vizsgaidőpont kijelölésére, valamint az NBF elnökének a vizsga időpontjáról történő tájékoztatására;"
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "e) az egységes gyakorlat biztosítása érdekében kidolgozza, valamennyi annak használatára köteles szerv számára elérhetővé teszi, és folyamatosan aktualizálja az utasítás alkalmazásához szükséges iratmintatárat;"
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "f) a minősített adat védelmét érintő kérdésekben állásfoglalás kialakításával segíti a Rendőrség minősített adatot kezelő szerveinek tevékenységét;"
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "g) igény esetén közreműködik a területi szervnek az NBF ellenőrzésére, vizsgálatára történő felkészítésében;"
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "h) szakmai segítséget nyújt a területi és a helyi szervnek a Nemzeti Adatvédelmi és Információszabadság Hatóság (a továbbiakban: NAIH) által a nemzeti minősített adat jogellenes minősítése esetén indított titokfelügyeleti hatósági eljárása során;"
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "i) kivizsgálja a minősített adat biztonságának megsértésével kapcsolatos körülményeket, megteszi a szükséges intézkedéseket, amennyiben a minősített adat biztonságának megsértésével összefüggésben a területi szerv vezetőjének, biztonsági vezetőjének, helyettes biztonsági vezetőjének érintettsége is felmerül;"
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "j) a központi, a területi és a helyi szerveknél szükség szerint ellenőrzi a személyi, a fizikai, az elektronikus és az adminisztratív biztonsági feltételek érvényesülését;"
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "k) megszervezi és végrehajtja az ORFK állományában lévő, a szakterületi vezető javaslata alapján minősített adat felhasználására kijelölt azon személyek képzését és vizsgáztatását, akik nem rendelkeznek a minősített adatok kezelésének vagy védelmének területén szerzett legalább egy év szakmai gyakorlattal, vagy a minősített adat védelmével kapcsolatos vizsgáról szóló igazolással;"
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "l) gondoskodik a Rendőrség biztonsági vezetőinek képzéséről;"
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "m) minősített adatok tekintetében – ellenőrzési terv alapján – az ORFK szervei tekintetében végrehajtja az éves ellenőrzést;"
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "n) intézkedik – az NBF honlapján szereplő minta jegyzőkönyv alapján – a nemzeti minősített adatok éves ellenőrzésének végrehajtására, a nemzeti minősített iratforgalmi statisztika elkészítésére, összegezi az ORFK és a területi szervek által készített jegyzőkönyveket és iratforgalmi statisztikákat, gondoskodik az összesített jegyzőkönyvek és iratforgalmi statisztikák minden év március 31-éig az NBF elnökének történő megküldésére;"
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "o) az EU Központi Nyilvántartó és a NATO Központi Nyilvántartó megkeresése alapján intézkedik az EU és NATO minősített adatok tekintetében az éves ellenőrzés jegyzőkönyvének, valamint az iratforgalmi statisztikájának minden év március 5-ig a központi nyilvántartók részére történő megküldésére;"
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "p) gondoskodik az ORFK kezelésében lévő biztonsági tárolók és biztonsági területek tartalékkulcsainak és kódjainak nyilvántartásáról és kódcsere nyilvántartásáról;"
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "q) a minősített adatot kezelő szerv vezetőjének kérelme alapján engedélyezi egy adminisztratív zónán belül több Nyilvántartó létrehozását."
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "r) más hazai minősített adatot kezelő szervnél történő minősített adat felhasználása céljából az ORFK állományába tartozó felhasználó nemzeti és külföldi személyi biztonsági tanúsítványáról igazolást állít ki, a feltételek megszűnése esetén azt visszavonja;"
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "s) minden év március 16-áig értékeli az ORFK-n a minősített adatok kezelése személyi, fizikai és adminisztratív biztonsági feltételeinek érvényesülését;"
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "t) minden év március 31-éig jelentést készít a Rendőrség minősített adatai kezelésének helyzetéről;"
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "u) minden év január 31-éig megküldi a minősített adatot kezelő szervek biztonsági vezetői részére a Rendőrség minősített adatai kezelésének helyzetéről szóló jelentés aktualizált szempontrendszerét."
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "v) az ORFK szervezeti egységei és szervezeti elemei tekintetében kezdeményezi az elektronikus biztonsághoz és a rejtjeltevékenységhez szükséges engedélyek beszerzését, azokat nyilvántartja;"
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "w) irányítja az ORFK rendszerbiztonsági felügyelet tevékenységét;"
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "x) ellenőrzi az elektronikus biztonsági feltételek teljesülését az ORFK üzemeltetésében álló minősített adatot elektronikus információs rendszeren kezelő rendszerek, valamint az ORFK-nál telepített végpontok vonatkozásában;"
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "y) irányítja az ORFK rejtjelfelügyelet tevékenységét, a Rendőrség éves rejtjeltevékenységéről minden év február 28-áig tájékoztatja az NBF-et;"
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "z) gondoskodik arról, hogy a rejtjeltevékenységgel kapcsolatos, védelem alá eső információkat csak azok a személyek ismerhessék meg, akiknek a munkájához az feltétlenül szükséges, és arra megfelelő engedélyekkel rendelkeznek;"
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "aa) kivizsgálja a rendszerbiztonsági eseményeket."
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "10."
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "11. A területi szerv biztonsági vezetője a minősített adat védelmével összefüggésben szakmai irányítást gyakorol a területi szerv irányítása alá tartozó helyi szervek tevékenysége felett."
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "12. A területi szerv biztonsági vezetője"
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "a) megszervezi és végrehajtja a területi szerv irányítása alá tartozó helyi szervek biztonsági vezetői, a területi szerv állományában lévő, minősítői jogkörrel rendelkező vezetői, továbbá a felhasználói és a titkos ügykezelői, valamint a minősített adatot kezelő elektronikus információs rendszerek üzemeltetéséért felelős állomány részére szükség szerint, de legalább évente egy alkalommal – különösen a minősített adat védelmével összefüggő jogszabály- és normaváltozások vagy az ellenőrzés során feltárt visszatérő vagy egyébként súlyos hiányosságok esetén, valamint a minősített adat biztonságának megsértését követően – a minősített adat védelmével kapcsolatosan, a felhasználói tudatosság növelése érdekében, dokumentált módon, e-learning képzésként is lebonyolítható oktatást;"
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "b) a területi szervnek, valamint az irányítása alá tartozó helyi szervnek az arra feljogosított hatóság vagy más külső szerv által a minősített adat védelmével kapcsolatosan végzett ellenőrzés, vizsgálat vagy eljárás időpontjáról tájékoztatja az ORFK biztonsági vezetőjét, igény szerint közreműködik a helyi szervnek az ellenőrzésre való felkészítésében;"
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "c)"
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "d) kivizsgálja a minősített adat biztonságának megsértésével kapcsolatos körülményeket, és megteszi a szükséges intézkedéseket, amennyiben a minősített adat biztonságának megsértésével összefüggésben a területi szerv irányítása alá tartozó helyi szerv vezetőjének, biztonsági vezetőjének vagy helyettes biztonsági vezetőjének érintettsége is felmerül;"
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "e) amennyiben a minősített adatot kezelő szerv rendelkezik az NBF által tanúsított EU/NATO biztonsági területtel, az EU Központi Nyilvántartó és a NATO Központi Nyilvántartó megkeresése alapján intézkedik az EU és NATO minősített adatok tekintetében az éves ellenőrzések jegyzőkönyvének, valamint az iratforgalmi statisztikájának minden év március 5-ig a Központi Nyilvántartó részére történő megküldésére;"
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "f) az NBF honlapján szereplő minta jegyzőkönyv alapján intézkedik a nemzeti minősített adatok éves ellenőrzésének végrehajtására, a nemzeti minősített adatok iratforgalmi statisztikájának, valamint a területi szerv és az irányítása alá tartozó helyi szerv által készített összesített jegyzőkönyvek és az iratforgalmi statisztikák elkészítésére, valamint összefoglaló jelentést készít a területi és az alárendeltségébe tartozó helyi minősített adatot kezelő szervek személyi, fizikai, adminisztratív és elektronikus biztonsági feltételeinek érvényesüléséről, melyeket minden év március 16-áig megküld az ORFK Hivatal EÜAFO részére;"
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "g) a területi és a területi szerv irányítása alá tartozó helyi szervnél évente legalább egy alkalommal ellenőrzi a személyi, fizikai, adminisztratív és elektronikus biztonsági feltételek érvényesülését;"
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "h) gondoskodik területi szerv biztonsági tárolói és biztonsági területei tartalékkulcsainak és kódjainak nyilvántartásáról;"
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "i) kezdeményezi az elektronikus biztonsághoz, rejtjeltevékenységhez szükséges engedélyek beszerzését, gondoskodik azok nyilvántartásáról;"
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "j) irányítja a rendszerbiztonsági felügyelő és a rendszeradminisztrátor tevékenységét;"
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "k) a területi és a területi szerv irányítása alá tartozó helyi szervnél ellenőrzi az elektronikus biztonsági előírások betartását;"
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "l) irányítja a rejtjelfelügyelő tevékenységét;"
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "m) a rejtjelfelügyelő közreműködésével a minősített adat elektronikus biztonságának, valamint a rejtjeltevékenység engedélyezésének és hatósági felügyeletének részletes szabályairól szóló 161/2010. Korm. rendelet 8. § d) pontja alapján az ORFK biztonsági vezetője felé minden év február 10-ig teljesíti a területi szerv rejtjeltevékenységről szóló tájékoztatási kötelezettségét;"
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "n) a rejtjelfelügyelő közreműködésével gondoskodik arról, hogy a rejtjeltevékenységgel kapcsolatos, védelem alá eső információkat csak azok a személyek ismerhessék meg, akiknek a munkájához az feltétlenül szükséges, és arra a megfelelő engedélyekkel rendelkeznek;"
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "o) a rejtjelfelügyelő bevonásával kivizsgálja a rendszerbiztonsági eseményeket."
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "p) megszervezi és végrehajtja a területi szerv állományában lévő, a szakterületi vezető javaslata alapján minősített adat felhasználására kijelölt azon személyek képzését és vizsgáztatását, akik nem rendelkeznek a minősített adatok kezelésének vagy védelmének területén szerzett legalább egy év szakmai gyakorlattal vagy a minősített adat védelmével kapcsolatos vizsgáról szóló igazolással;"
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "q) más hazai minősített adatot kezelő szervnél történő minősített adat felhasználása céljából a területi szerv állományába tartozó felhasználó nemzeti és külföldi személyi biztonsági tanúsítványáról igazolást állít ki, a feltételek megszűnése esetén azt visszavonja."
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "13. A helyi szerv biztonsági vezetője"
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "a) amennyiben a helyi minősített adatot kezelő szerv rendelkezik az NBF által tanúsított EU/NATO biztonsági területtel, az EU Központi Nyilvántartó és a NATO Központi Nyilvántartó megkeresése alapján intézkedik az EU és NATO minősített adatok tekintetében az éves ellenőrzések jegyzőkönyvének, valamint az iratforgalmi statisztikájának minden év március 5-ig a Központi Nyilvántartó részére történő megküldésére;"
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "b) az NBF honlapján szereplő minta jegyzőkönyv alapján végrehajtja a nemzeti minősített adatok éves ellenőrzését, elkészíti a nemzeti minősített iratforgalmi statisztikát, valamint szöveges jelentésben értékeli a minősített adatok személyi, fizikai, adminisztratív és elektronikus biztonsági feltételeinek érvényesülését, melyeket minden év március 5-éig megküld a területi szerv biztonsági vezetőjének;"
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "c) gondoskodik a biztonsági tárolók és biztonsági területek tartalékkulcsainak és kódjainak nyilvántartásáról;"
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "d) évente legalább egy alkalommal ellenőrzi a személyi, fizikai, adminisztratív és elektronikus biztonsági feltételek érvényesülését;"
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "e) a biztonsági vezető és a helyettes biztonsági vezető személyéről és az abban bekövetkezett változásról tájékoztatja a területi szerv biztonsági vezetőjét;"
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "f) a rejtjelfelügyelő közreműködésével kezdeményezi az elektronikus biztonsághoz, rejtjeltevékenységhez szükséges engedélyek beszerzését, gondoskodik azok nyilvántartásáról;"
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "g) megszervezi és végrehajtja a helyi szerv állományában lévő, minősítői jogkörrel rendelkező vezetői, továbbá a felhasználói és a titkos ügykezelői, valamint a minősített adatot kezelő elektronikus információs rendszerek üzemeltetéséért felelős állomány részére szükség szerint, de legalább évente egy alkalommal – különösen a minősített adat védelmével összefüggő jogszabály- és normaváltozások vagy az ellenőrzés során feltárt visszatérő vagy egyébként súlyos hiányosságok esetén, valamint a minősített adat biztonságának megsértését követően – a minősített adat védelmével kapcsolatosan, a felhasználói tudatosság növelése érdekében, dokumentált módon, e-learning képzésként is lebonyolítható oktatást;"
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "h) megszervezi és végrehajtja a helyi szerv állományában lévő, a szakterületi vezető javaslata alapján minősített adat felhasználására kijelölt azon személyek képzését és vizsgáztatását, akik nem rendelkeznek a minősített adatok kezelésének vagy védelmének területén szerzett legalább egy év szakmai gyakorlattal vagy a minősített adat védelmével kapcsolatos vizsgáról szóló igazolással;"
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "i) más hazai minősített adatot kezelő szervnél történő minősített adat felhasználása céljából az alárendeltségébe tartozó helyi szerv állományába tartozó felhasználó nemzeti és külföldi személy biztonsági tanúsítványáról igazolást állít ki, a feltételek megszűnése esetén azt visszavonja."
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "4. A személyi biztonsági tanúsítvány és a titoktartási nyilatkozat"
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "14. A minősített adatot kezelő szervek szervezeti elemei vezetőinek kezdeményezésére a biztonsági vezető kiadja a minősített adatok kezelésének vagy védelmének területén szerzett legalább egy év szakmai gyakorlattal vagy a minősített adat védelmével kapcsolatos vizsgáról igazolással rendelkező felhasználó részére a nemzeti „Bizalmas!” vagy annál magasabb minősítési szintű adat felhasználásához szükséges személyi biztonsági tanúsítványt, valamint a felhasználó részére aláírásra előkészíti a „Korlátozott terjesztésű!” vagy annál magasabb minősítési szintű adat felhasználásához szükséges titoktartási nyilatkozatot. A felhasználó részére a „Bizalmas!” vagy annál magasabb minősítési szintű adat felhasználásához szükséges jogosultságok kiadását a minősített adatot kezelő szervek szervezeti elemeinek vezetői az érintett nemzetbiztonsági ellenőrzéséről készült érvényes biztonsági szakvélemény másolatának és a keretszám-igazolás másolatának megküldése mellett kezdeményezik."
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "15. A minősített adatot kezelő szervek szervezeti elemei vezetőinek megkeresésére – a „Bizalmas!” vagy annál magasabb minősítési szintű adat felhasználásához szükséges jogosultságok kezdeményezése esetén a nemzetbiztonsági ellenőrzésről készült érvényes biztonsági szakvélemény másolata és a keretszám-igazolás másolatának megküldésével – a biztonsági vezető a minősített adatok kezelésének vagy védelmének területén szerzett legalább egy év szakmai gyakorlattal vagy a minősített adat védelmével kapcsolatos vizsgáról igazolással rendelkező felhasználó részére kezdeményezi az NBF-nél az EU „Bizalmas!”, a NATO „Bizalmas!” vagy annál magasabb minősítési szintű adat felhasználásához szükséges személyi biztonsági tanúsítvány kiadását, illetve – a biztonsági feltételek megszűnése esetén – a visszavonását, valamint amennyiben a felhasználó még nem rendelkezik aláírt titoktartási nyilatkozattal, abban az esetben a felhasználó részére aláírásra előkészíti a „Korlátozott terjesztésű!” vagy annál magasabb minősítési szintű adat felhasználásához szükséges titoktartási nyilatkozatot."
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "16. A felhasználó minősített adat kezelését megalapozó jogviszonyában vagy feladatkörében bekövetkező változás – kinevezés, szolgálati vagy munkaviszony megszűnése, más beosztásba, munkakörbe vagy rendelkezési állományba kerülés – esetén a szervezeti elem vezetője köteles – a „Bizalmas!” vagy annál magasabb minősítési szintű adat felhasználására történő jogosultság esetén a keretszám-igazolás másolatának megküldésével – a minősített adattal történő rendelkezési jogosultságok meghatározásával a biztonsági vezetőt írásban tájékoztatni, aki gondoskodik a személyi biztonsági tanúsítvány kiadásáról vagy visszavonásáról."
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "17."
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "18. Ha a minősített adatot kezelő szerv közreműködő segítségét veszi igénybe, és ehhez a közreműködőnek minősített adatot kell felhasználnia, a minősített adat átadása előtt a biztonsági vezető a közreműködőnél ellenőrzi a minősített adat védelméhez előírt biztonsági feltételek meglétét. A minősített adat közreműködő részére történő átadása vagy a közreműködő részéről a minősített adatot kezelő szervnél történő minősített adathoz történő hozzáférése a biztonsági vezető engedélye alapján történik."
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "19. A minősített adatot kezelő szerv felhasználói részére aláírásra előkészített titoktartási nyilatkozatot – átirat kíséretében – az érintett felhasználó profiljához tartozó tárhelyre kell megküldeni. Ettől eltérő eljárást különösen indokolt esetben – ha nem a minősített adatot keletkeztető szervnél foglalkoztatási jogviszonyban álló személy által történik a minősített adat felhasználása – a minősített adatot kezelő szerv biztonsági vezetője engedélyezhet. A felhasználó minősített adattal csak akkor rendelkezhet, ha az általa aláírt titoktartási nyilatkozat a minősített adatot kezelő szervhez visszaérkezett."
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "20. A biztonsági vezető vagy a biztonsági szabályzatban kijelölt személy papír alapon vagy elektronikus formában naprakész nyilvántartást vezet a minősített adatot kezelő szervnél minősített adat felhasználására jogosult személyekről, valamint biztosítja a nyilvántartáshoz való hozzáférést a szignálásra jogosult vezetők, a felhasználók és a titkos ügykezelők részére."
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "21. A nemzeti minősített adatra érvényes személyi biztonsági tanúsítványt a biztonsági vezető állítja ki vagy vonja vissza a minősített adatot kezelő szerv vezetője, önmaga és a szervnél minősített adatot felhasználók részére."
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "4/A. Rendelkezés a minősített adatról"
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "21/A. A minősítő, a címzett és a szignálásra jogosult személy (a továbbiakban együtt: rendelkezésre jogosult személy) a minősített adat felhasználásáról rendelkezni köteles."
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "21/B. A rendelkezésre jogosult személy a felhasználó kijelölésével – ettől eltérő döntés hiányában – feljogosítja a felhasználót az állami vagy közfeladat ellátása érdekében történő, a minősített adattal kapcsolatos ügyintézésre, a minősített adat feldolgozására és birtokban tartására, továbbá a titkos ügykezelőt a minősített adat átvételére, – amennyiben a kezelési utasítás nem tiltja – a felbontására, nyilvántartásba vételére és iktatására, a szerven belül történő átadására és visszavételére, a birtokban tartására és tárolására, a felülvizsgálat és a titokfelügyeleti eljárás eredményének rögzítésére. Amennyiben a fentieken túl az állami vagy közfeladat ellátása érdekében további jogosultság biztosítása szükséges, a rendelkezésre jogosult személy azokat az előadói ívhez csatolt, ahhoz elválaszthatatlan módon rögzítendő szignáló lapon megjelöli."
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "21/C. A minősítő a Mavtv. 4. § (4) bekezdésében, valamint a 21/D–21/F. pontban meghatározott jogosultságokat gyakorolja."
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "21/D. A felhasználó"
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "a) a rendelkezésre jogosult személy ettől eltérő döntése hiányában jogosult"
+    },
+    {
+      "provision_ref": "s107",
+      "section": "107",
+      "title": "107",
+      "content": "aa) állami vagy közfeladat ellátása érdekében történő, a minősített adattal kapcsolatos ügyintézésre, a minősített adat feldolgozására,"
+    },
+    {
+      "provision_ref": "s108",
+      "section": "108",
+      "title": "108",
+      "content": "ab) a minősített adat birtokban tartására;"
+    },
+    {
+      "provision_ref": "s109",
+      "section": "109",
+      "title": "109",
+      "content": "b) a szignáló lapon rögzített döntés alapján jogosult"
+    },
+    {
+      "provision_ref": "s110",
+      "section": "110",
+      "title": "110",
+      "content": "ba) a minősítési jelölés megismétlésére,"
+    },
+    {
+      "provision_ref": "s111",
+      "section": "111",
+      "title": "111",
+      "content": "bb) kivonat készítésére,"
+    },
+    {
+      "provision_ref": "s112",
+      "section": "112",
+      "title": "112",
+      "content": "bc) a minősített adat szerven kívülre történő szállítására,"
+    },
+    {
+      "provision_ref": "s113",
+      "section": "113",
+      "title": "113",
+      "content": "bd) a minősített adat fordítására."
+    },
+    {
+      "provision_ref": "s114",
+      "section": "114",
+      "title": "114",
+      "content": "21/E. A rendelkezésre jogosult személy a Rendőrségről szóló 1994. évi XXXIV. törvény (a továbbiakban: Rtv.) 75/G. § (6) bekezdése szerint megismerésre, valamint felhasználásra jogosult személy számára az állami vagy közfeladat ellátása érdekében történő, a minősített adattal kapcsolatos ügyintézésen, a minősített adat feldolgozásán és birtokban tartásán túl – amennyiben az állami vagy közfeladat ellátása érdekében szükséges – az Rtv. 75/G. § (7) bekezdésében meghatározott további jogosultságokat a szignáló lapon köteles rögzíteni, valamint – az Rtv. 75/G. § (8) bekezdése alapján – a szignáló lapon további jogosultságokat is biztosíthat."
+    },
+    {
+      "provision_ref": "s115",
+      "section": "115",
+      "title": "115",
+      "content": "21/F. A titkos ügykezelő a 21/B. pontban foglaltakon túl – amennyiben az állami vagy közfeladat ellátása érdekében szükséges – a rendelkezésre jogosult személy szignáló lapon rögzített döntése alapján a Korm. rendelet 8. § (1) bekezdésében meghatározott további jogosultságokkal rendelkezik, valamint jogosult a minősített adat másolására és sokszorosítására, továbbá a saját készítésű, minősítést vesztett és őrzési időt meghaladott adathordozó selejtezésében történő részvételre."
+    },
+    {
+      "provision_ref": "s116",
+      "section": "116",
+      "title": "116",
+      "content": "5. A minősítés"
+    },
+    {
+      "provision_ref": "s117",
+      "section": "117",
+      "title": "117",
+      "content": "22. A minősítő a minősítésre vonatkozó döntését a 9. pont e) alpontjában megjelölt iratmintatárban meghatározott formai követelmények alkalmazásával írásba foglalja."
+    },
+    {
+      "provision_ref": "s118",
+      "section": "118",
+      "title": "118",
+      "content": "23. A minősítő a közérdekű adat minősítése felőli döntése során a minősítéshez fűződő közérdek mellett a minősített adat nyilvánosságához fűződő közérdeket is köteles figyelembe venni. A minősítési javaslatot úgy kell elkészíteni, hogy abból a fenti mérlegelés nyomon követhető legyen."
+    },
+    {
+      "provision_ref": "s119",
+      "section": "119",
+      "title": "119",
+      "content": "24. Amennyiben a minősítő a minősítés során eltér a minősítési javaslattól, az adat minősítéséről szóló döntését köteles érdemben, részletesen indokolni."
+    },
+    {
+      "provision_ref": "s120",
+      "section": "120",
+      "title": "120",
+      "content": "25. A minősítési javaslat, valamint a minősítési döntés indokolására meghatározott szabályokat alkalmazni kell a minősítés felülvizsgálata, felülbírálata, valamint az új minősítési eljárás lefolytatása során is."
+    },
+    {
+      "provision_ref": "s121",
+      "section": "121",
+      "title": "121",
+      "content": "26. A különleges kezelési utasítás alkalmazására a minősítés kezdeményezője a minősítési javaslatban tesz javaslatot, az alkalmazásról a minősítő a minősítés tárgyában hozott döntésben rendelkezik."
+    },
+    {
+      "provision_ref": "s122",
+      "section": "122",
+      "title": "122",
+      "content": "27. A minősítő által a különleges kezelési utasítás megszüntetéséről hozott döntést a minősítő vagy a titkos ügykezelő az iratra történő rájegyzéssel, ha ez nem lehetséges, külön iratban rögzíti."
+    },
+    {
+      "provision_ref": "s123",
+      "section": "123",
+      "title": "123",
+      "content": "28. A minősítési jelölés megismétlésének megtiltásáról a minősítésre jogosult a minősítésben rendelkezik, amit az adathordozón a különleges kezelési utasításokra vonatkozó szabályok szerint kell feltüntetni."
+    },
+    {
+      "provision_ref": "s124",
+      "section": "124",
+      "title": "124",
+      "content": "29. Amennyiben a felhasználónál külföldi szervezet érdekkörébe tartozó minősítéssel védendő adat keletkezik, úgy a minősítő külföldi minősített adatot készít, és a minősítés a Mavtv. 9. §-ában foglalt szabály szerint történik."
+    },
+    {
+      "provision_ref": "s125",
+      "section": "125",
+      "title": "125",
+      "content": "30. Amennyiben a nemzetközi bűnügyi együttműködési kötelezettség teljesítése érdekében nemzeti minősítésű adatból szükséges adatot szolgáltatni az EUROPOL részére, abban az esetben a fordítást követően a Mavtv. 2. számú melléklete szerinti külföldi minősítési jelölést is feltüntetve történik az adatszolgáltatás, anélkül, hogy új nemzeti minősített adat keletkezne."
+    },
+    {
+      "provision_ref": "s126",
+      "section": "126",
+      "title": "126",
+      "content": "6. A minősített adat felülvizsgálata"
+    },
+    {
+      "provision_ref": "s127",
+      "section": "127",
+      "title": "127",
+      "content": "31. A minősítő, a minősítő jogutódja vagy az országos rendőrfőkapitány által kijelölt felülvizsgálati szakértő (a továbbiakban együtt: felülvizsgálatra kötelezett) az általa készített vagy a feladat- és hatáskörébe tartozó minősített adatot a Mavtv. 8. §-ában, valamint a büntetőeljárásról szóló 2017. évi XC. törvény 248. § (1) bekezdésében meghatározott időtartamoknak megfelelően köteles felülvizsgálni."
+    },
+    {
+      "provision_ref": "s128",
+      "section": "128",
+      "title": "128",
+      "content": "31/A. A felülvizsgálatra kötelezett – ha jogszabály rövidebb határidőt nem állapít meg, vagy a minősítés feltételeiben változás nem állt be – az érvényességi idő lejártát megelőzően köteles felülvizsgálni az általa készített vagy a feladat- és hatáskörébe tartozó minősített adatot."
+    },
+    {
+      "provision_ref": "s129",
+      "section": "129",
+      "title": "129",
+      "content": "32. A minősítés felülvizsgálatának előkészítése érdekében a titkos ügykezelő felülvizsgálati jegyzéket készít."
+    },
+    {
+      "provision_ref": "s130",
+      "section": "130",
+      "title": "130",
+      "content": "33. A felülvizsgálatra kötelezett elsőként azt köteles vizsgálni, hogy a felülvizsgálatra bocsátott minősített adat minősítése az erre vonatkozó előírásoknak megfelelően történt-e, így különösen:"
+    },
+    {
+      "provision_ref": "s131",
+      "section": "131",
+      "title": "131",
+      "content": "a) a minősítés a vonatkozó jogszabályban meghatározott határidőben történt-e;"
+    },
+    {
+      "provision_ref": "s132",
+      "section": "132",
+      "title": "132",
+      "content": "b) a minősítői döntést az arra jogosult hozta-e;"
+    },
+    {
+      "provision_ref": "s133",
+      "section": "133",
+      "title": "133",
+      "content": "c) a minősítői jelölés helyesen és maradéktalanul került-e feltüntetésre."
+    },
+    {
+      "provision_ref": "s134",
+      "section": "134",
+      "title": "134",
+      "content": "34. Amennyiben a felülvizsgálatra kötelezett azt állapítja meg, hogy a minősítés nem a Mavtv. 6. § (4) bekezdése szerinti határidő betartásával történt, vagy a minősítés nem az arra jogosulttól származik, úgy a minősített adat nem jött létre. Amennyiben nem a minősítő hajtotta végre a felülvizsgálatot, erről a tényről a minősítőt tájékoztatni kell."
+    },
+    {
+      "provision_ref": "s135",
+      "section": "135",
+      "title": "135",
+      "content": "35. Amennyiben a felülvizsgálatra kötelezett azt állapítja meg, hogy a nemzeti minősített adat nem jött létre, ezt a tényt az irat eredeti irattári példányára rájegyzi, ha ez nem lehetséges, külön kísérőlapon tünteti fel."
+    },
+    {
+      "provision_ref": "s136",
+      "section": "136",
+      "title": "136",
+      "content": "36. Amennyiben a minősítői jelölés nem került helyesen és maradéktalanul feltüntetésre, annak javítására a felülvizsgálatra kötelezett intézkedik, ha"
+    },
+    {
+      "provision_ref": "s137",
+      "section": "137",
+      "title": "137",
+      "content": "a) az érvényességi időt a Mavtv. 5. § (6) bekezdésében meghatározottnál hosszabb időtartamban tüntették fel;"
+    },
+    {
+      "provision_ref": "s138",
+      "section": "138",
+      "title": "138",
+      "content": "b) nem a minősítői döntésben szereplő minősítési szintet és/vagy érvényességi időt tüntették fel a minősített adatot tartalmazó adathordozó első oldalán;"
+    },
+    {
+      "provision_ref": "s139",
+      "section": "139",
+      "title": "139",
+      "content": "c) a több lapból álló minősített adatot tartalmazó irat esetében a minősítési szint nincs minden minősített adatot tartalmazó oldalon az előírtaknak megfelelően, alul és felül középen feltüntetve."
+    },
+    {
+      "provision_ref": "s140",
+      "section": "140",
+      "title": "140",
+      "content": "37. A felülvizsgálatra kötelezett – a minősítési eljárás szabályai szerint – a felülvizsgálat során azt vizsgálja, hogy a minősített adat"
+    },
+    {
+      "provision_ref": "s141",
+      "section": "141",
+      "title": "141",
+      "content": "a) továbbra is a minősítéssel védhető közérdek körébe tartozik-e;"
+    },
+    {
+      "provision_ref": "s142",
+      "section": "142",
+      "title": "142",
+      "content": "b) történt-e változás az adat illetéktelen személy általi megismerése esetén fenyegető kár mértékében;"
+    },
+    {
+      "provision_ref": "s143",
+      "section": "143",
+      "title": "143",
+      "content": "c) továbbra is indokolt-e a minősítés alkalmával meghatározott érvényességi ideig a minősítést fenntartani."
+    },
+    {
+      "provision_ref": "s144",
+      "section": "144",
+      "title": "144",
+      "content": "38. A felülvizsgálatra kötelezett – a Korm. rendelet 49. § (2) bekezdésében foglaltaknak megfelelően – döntését írásban rögzíti."
+    },
+    {
+      "provision_ref": "s145",
+      "section": "145",
+      "title": "145",
+      "content": "39. Amennyiben nagyszámú minősített adat felülvizsgálatára kerül sor, a felülvizsgálatra kötelezett a felülvizsgálat eredményét a jegyzéken is rögzítheti, ebben az esetben a felülvizsgálat eredményét a felülvizsgált iratra a titkos ügykezelő vezeti rá."
+    },
+    {
+      "provision_ref": "s146",
+      "section": "146",
+      "title": "146",
+      "content": "40. Amennyiben egy ügyben el nem különíthető módon csak együttesen kezelhető minősített adatok felülvizsgálatára a Korm. rendelet 50. § (1) bekezdése alapján kerül sor, a felülvizsgálati lapon külön-külön – az adott ügy alszámainak növekvő sorrendjében – fel kell sorolni az adott ügyben szereplő minősített iratok iktatószámát és tárgyát, amely mellett rögzíteni kell a felülvizsgálat eredményét."
+    },
+    {
+      "provision_ref": "s147",
+      "section": "147",
+      "title": "147",
+      "content": "41. Amennyiben a minősítés feltételei továbbra is fennállnak, és ezért indokolt az adat minősítéssel történő további védelme, a felülvizsgálatra kötelezett a minősítés fenntartásáról dönt, az eredetileg megállapított minősítési szint és érvényességi idő változatlanul hagyásával."
+    },
+    {
+      "provision_ref": "s148",
+      "section": "148",
+      "title": "148",
+      "content": "42. Amennyiben az idő múlására tekintettel az adat illetéktelen személy általi megismerése esetén fenyegető kár mértéke már kisebb, mint a minősítéskor fenyegető kár mértéke, akkor a felülvizsgálatra kötelezett a minősítési szint csökkentéséről dönt. A minősítési szint csökkentése esetén az új minősítési szinthez tartozó érvényességi idő nem lehet hosszabb, mint az adott minősítési szinthez a Mavtv. 5. § (6) bekezdésében meghatározott leghosszabb érvényességi idő. Az érvényességi időt a minősített adat keletkezésétől kell számítani."
+    },
+    {
+      "provision_ref": "s149",
+      "section": "149",
+      "title": "149",
+      "content": "43. Amennyiben a minősítés feltételei már nem állnak fenn, a felülvizsgálatra kötelezett a minősítés megszüntetéséről dönt."
+    },
+    {
+      "provision_ref": "s150",
+      "section": "150",
+      "title": "150",
+      "content": "44. Amennyiben a minősítés során a Mavtv. 5. § (6) bekezdése szerinti leghosszabb időtartamban meghatározható érvényességi idő került megállapításra, a felülvizsgálatra kötelezett személy a minősítési szint változatlan hagyása mellett az érvényességi idő csökkentéséről, amennyiben a leghosszabb időtartamban meghatározható érvényességi időnél rövidebb időtartam került megállapításra, a felülvizsgálatra kötelezett személy a minősítési szint változatlan hagyása mellett az érvényességi idő csökkentéséről vagy – a Mavtv. 5. § (6) bekezdése szerinti leghosszabb érvényességi idő figyelembevételével történő – meghosszabbításáról dönt."
+    },
+    {
+      "provision_ref": "s151",
+      "section": "151",
+      "title": "151",
+      "content": "45. Amennyiben a minősítési eljárás során a minősített adatot tartalmazó iraton belül több minősített adatról született döntés, és a felülvizsgálati eljárás során az iratban szereplő minősített adatok közül egyes minősített adatok minősítése megváltozik, míg egyes adatok minősítése fenntartásra vagy törlésre kerül, a felülvizsgálati döntés során pontosan – oldalszámra, bekezdésre, mondatra hivatkozással – meg kell jelölni, hogy mely adatok esetében milyen döntés született."
+    },
+    {
+      "provision_ref": "s152",
+      "section": "152",
+      "title": "152",
+      "content": "46. A minősített adat felülvizsgálatát a felülvizsgálatra kötelezett személy a minősített adatot kezelő szerv szervezeti egységének vagy szervezeti elemének megszűnése előtt haladéktalanul köteles végrehajtani."
+    },
+    {
+      "provision_ref": "s153",
+      "section": "153",
+      "title": "153",
+      "content": "7. Új minősítési eljárás lefolytatása"
+    },
+    {
+      "provision_ref": "s154",
+      "section": "154",
+      "title": "154",
+      "content": "47. A biztonsági vezető – a titkos ügykezelő által készített felülvizsgálati jegyzék alapján – a minősítőt vagy a minősítő jogutódját a minősítés megszűnésének időpontja előtt három hónappal tájékoztatja a minősítés érvényességi idejének új minősítési eljárás lefolytatásával történő meghosszabbításának lehetőségéről. A megkeresés alapján a minősítő vizsgálja, hogy lefolytatott minősítési eljárás során a Mavtv. 5. § (6) bekezdése szerint az érvényességi idő leghosszabb időtartamát kihasználta-e, és szükséges-e a Mavtv. 5. § (7) bekezdésében biztosított lehetőséggel élve új minősítési eljárás lefolytatása."
+    },
+    {
+      "provision_ref": "s155",
+      "section": "155",
+      "title": "155",
+      "content": "48. Az új minősítési eljárás során azoknak a minősített adatoknak az érvényességi idejét lehet meghosszabbítani, amelyek esetében a minősített adat védelme a Mavtv. 5. § (6) bekezdése szerinti érvényességi időn túl is indokolt."
+    },
+    {
+      "provision_ref": "s156",
+      "section": "156",
+      "title": "156",
+      "content": "49. Rendkívül indokolt esetben új minősítési eljárás lefolytatására – az 50. pontban meghatározott kivétellel – egy alkalommal kerülhet sor, amelynek eredményeként"
+    },
+    {
+      "provision_ref": "s157",
+      "section": "157",
+      "title": "157",
+      "content": "a) „Szigorúan Titkos!” és „Titkos!” minősítési szintű adatok esetén legfeljebb 30 évvel;"
+    },
+    {
+      "provision_ref": "s158",
+      "section": "158",
+      "title": "158",
+      "content": "b) „Bizalmas!” vagy „Korlátozott terjesztésű!” minősítési szintű adatok esetén legfeljebb 5 évvel"
+    },
+    {
+      "provision_ref": "s159",
+      "section": "159",
+      "title": "159",
+      "content": "hosszabbítható meg az érvényességi idő."
+    },
+    {
+      "provision_ref": "s160",
+      "section": "160",
+      "title": "160",
+      "content": "50. A minősítés érvényességi ideje rendkívül indokolt esetben, Magyarország – magánszemély jogos érdekével szorosan összefüggő – honvédelmi, nemzetbiztonsági, bűnüldözési vagy igazságszolgáltatási érdekére tekintettel két alkalommal hosszabbítható meg"
+    },
+    {
+      "provision_ref": "s161",
+      "section": "161",
+      "title": "161",
+      "content": "a) „Szigorúan Titkos!” és „Titkos!” minősítési szintű adatok esetén legfeljebb 30 évvel;"
+    },
+    {
+      "provision_ref": "s162",
+      "section": "162",
+      "title": "162",
+      "content": "b) „Bizalmas!” vagy „Korlátozott terjesztésű!” minősítési szintű adatok esetén legfeljebb 20 évvel."
+    },
+    {
+      "provision_ref": "s163",
+      "section": "163",
+      "title": "163",
+      "content": "51. Az új minősítési eljárás lefolytatásával kapcsolatos tevékenységet úgy kell elvégezni, hogy a minősítésre kötelezett az új minősítési eljárás lefolytatásával érintett irat felülvizsgálatát az érvényességi idő lejárta előtt le tudja folytatni."
+    },
+    {
+      "provision_ref": "s164",
+      "section": "164",
+      "title": "164",
+      "content": "52. A minősítés érvényességi idejét az új minősítési eljárásban született döntés meghozatalának időpontjától kell számolni."
+    },
+    {
+      "provision_ref": "s165",
+      "section": "165",
+      "title": "165",
+      "content": "53. Az új minősítési eljárás lefolytatása során a minősítés érvényességi idejének növeléséről szóló értesítést követően a titkos ügykezelő az iktatókönyvben a felülvizsgálat eredményét – az új minősítési eljárás alapján hozott minősítői döntés időpontját és az új érvényességi időt – rögzíti, és a minősített adatot tartalmazó irat első oldalának felső részén a felülvizsgálatról szóló értesítés iktatószámára történő hivatkozással bejegyzi."
+    },
+    {
+      "provision_ref": "s166",
+      "section": "166",
+      "title": "166",
+      "content": "54. Az új minősítési eljárás lefolytatását követően az érvényességi idő meghosszabbításáról hozott döntést közölni kell minden olyan címzettel, akinek a minősített adatot továbbították."
+    },
+    {
+      "provision_ref": "s167",
+      "section": "167",
+      "title": "167",
+      "content": "54/A. Amennyiben a minősítő vagy a jogutódja azt állapítja meg, hogy az új minősítési eljárás keretében a minősítés meghosszabbítása nem szükséges, úgy a döntését a nemzeti minősített adatot tartalmazó adathordozó eredeti irattári példányán, ha ezt az adathordozó jellege kizárja, külön kísérőlapon vagy az elektronikus adatállományban tünteti fel."
+    },
+    {
+      "provision_ref": "s168",
+      "section": "168",
+      "title": "168",
+      "content": "8. A minősített adat felülvizsgálatát követő feladatok"
+    },
+    {
+      "provision_ref": "s169",
+      "section": "169",
+      "title": "169",
+      "content": "55. A minősített adat joghatályos létrejöttét nem akadályozó formai hibát ki kell javítani, ennek érdekében a hibás adatot egy vonallal át kell húzni, majd a helyes adatot kell feltüntetni, a javítást végző személy aláírásával és dátummal ellátva. A változásokról a biztonsági vezető vagy a minősítő értesíti mindazon címzetteket, akiknek a minősített adatot továbbították."
+    },
+    {
+      "provision_ref": "s170",
+      "section": "170",
+      "title": "170",
+      "content": "56. Amennyiben a minősítés megszüntetéséről hozott döntést a felülvizsgálatra kötelezett vezeti rá a felülvizsgált minősített iratra, a Korm. rendelet 49. § (4) bekezdésében meghatározott módon jár el, azzal az eltéréssel, hogy a titkos ügykezelő aláírását nem kell feltüntetni."
+    },
+    {
+      "provision_ref": "s171",
+      "section": "171",
+      "title": "171",
+      "content": "57. Amennyiben a minősítési szint csökkentéséről hozott döntést a felülvizsgálatra kötelezett vezeti rá a felülvizsgált minősített adathordozóra, a Korm. rendelet 49. § (5) bekezdésében meghatározott módon jár el, azzal az eltéréssel, hogy a titkos ügykezelő aláírását nem kell feltüntetni."
+    },
+    {
+      "provision_ref": "s172",
+      "section": "172",
+      "title": "172",
+      "content": "58. Amennyiben az érvényességi idő csökkentéséről hozott döntést a felülvizsgálatra kötelezett vezeti rá a felülvizsgált minősített iratra, a Korm. rendelet 49. § (5) bekezdésében meghatározott módon jár el, azzal az eltéréssel, hogy a titkos ügykezelő aláírását nem kell feltüntetni."
+    },
+    {
+      "provision_ref": "s173",
+      "section": "173",
+      "title": "173",
+      "content": "59. Amennyiben a minősítés megszüntetése esetén a titkos ügykezelő vezeti rá a felülvizsgált iratra a felülvizsgálat eredményét, a Korm. rendelet 49. § (4) bekezdésében meghatározott módon jár el, azzal az eltéréssel, hogy a minősítő vagy a felülvizsgálati szakértő aláírásának feltüntetésére nem kerül sor."
+    },
+    {
+      "provision_ref": "s174",
+      "section": "174",
+      "title": "174",
+      "content": "60. Amennyiben új minősítési szint és érvényességi idő kerül megállapításra, és a felülvizsgálat eredményét a titkos ügykezelő vezeti rá a felülvizsgált iratra, a titkos ügykezelő a Korm. rendelet 49. § (5) bekezdésében meghatározott módon jár el, azzal az eltéréssel, hogy a minősítő vagy a felülvizsgálati szakértő aláírásának feltüntetésére nem kerül sor."
+    },
+    {
+      "provision_ref": "s175",
+      "section": "175",
+      "title": "175",
+      "content": "61. A Korm. rendelet 50. § (1) bekezdésében meghatározott esetben a felülvizsgálat eredményét csak az irategyüttes borító- vagy fedlapján kell feltüntetni. Amennyiben az együttes kezelés megszűnik, a felülvizsgálat eredményét az irategyüttesből kikerülő egyes iratokon külön-külön jelölni kell."
+    },
+    {
+      "provision_ref": "s176",
+      "section": "176",
+      "title": "176",
+      "content": "62. A felülvizsgálat eredményét a titkos ügykezelő a külön kísérőlapon vagy az elektronikus minősített adattól adminisztratív módon elválaszthatatlan kezelésű elektronikus adatállományban, valamint a minősített adat nyilvántartásba vételére szolgáló iktatókönyvben is feltünteti, és azt keltezéssel, saját kezű vagy elektronikus aláírásával látja el."
+    },
+    {
+      "provision_ref": "s177",
+      "section": "177",
+      "title": "177",
+      "content": "63. Amennyiben az iratban szereplő minősített adatok közül csak egyes minősített adatok minősítése változik meg, az iktatókönyvben a legmagasabb minősítési szintet és a leghosszabb érvényességi időt kell bejegyezni."
+    },
+    {
+      "provision_ref": "s178",
+      "section": "178",
+      "title": "178",
+      "content": "64. A felülvizsgálat eredményét a titkos ügykezelő a felülvizsgálati jegyzékre is köteles feljegyezni."
+    },
+    {
+      "provision_ref": "s179",
+      "section": "179",
+      "title": "179",
+      "content": "65. A felülvizsgálat eredményéről – amennyiben annak eredménye a minősítés megszüntetése, a minősítési szint vagy az érvényességi idő módosítása – tájékoztatni kell mindazokat, akiknek a felülvizsgált minősített adatot továbbították."
+    },
+    {
+      "provision_ref": "s180",
+      "section": "180",
+      "title": "180",
+      "content": "66. A minősítés megszüntetéséről szóló címzetti értesítésnek tartalmaznia kell:"
+    },
+    {
+      "provision_ref": "s181",
+      "section": "181",
+      "title": "181",
+      "content": "a) a minősített adatot tartalmazó irat eredeti iktatószámát, tárgyát;"
+    },
+    {
+      "provision_ref": "s182",
+      "section": "182",
+      "title": "182",
+      "content": "b) a „Törölve!” jelölést, szükség szerint a minősített adat iraton belüli helyének megjelölésével;"
+    },
+    {
+      "provision_ref": "s183",
+      "section": "183",
+      "title": "183",
+      "content": "c) a felülvizsgálat végrehajtójának nevét, beosztását (munkakörét);"
+    },
+    {
+      "provision_ref": "s184",
+      "section": "184",
+      "title": "184",
+      "content": "d) a felülvizsgálat időpontját;"
+    },
+    {
+      "provision_ref": "s185",
+      "section": "185",
+      "title": "185",
+      "content": "e) a felülvizsgálat eredményét tartalmazó irat számát."
+    },
+    {
+      "provision_ref": "s186",
+      "section": "186",
+      "title": "186",
+      "content": "67. A minősítési szint vagy az érvényességi idő módosítása esetén az értesítés tartalmazza:"
+    },
+    {
+      "provision_ref": "s187",
+      "section": "187",
+      "title": "187",
+      "content": "a) a minősített adatot tartalmazó irat eredeti iktatószámát, tárgyát;"
+    },
+    {
+      "provision_ref": "s188",
+      "section": "188",
+      "title": "188",
+      "content": "b) az új minősítési szintet vagy az érvényességi időt, szükség szerint a minősített adat iraton belüli helyének megjelölésével;"
+    },
+    {
+      "provision_ref": "s189",
+      "section": "189",
+      "title": "189",
+      "content": "c) a felülvizsgálat végrehajtójának nevét, beosztását (munkakörét);"
+    },
+    {
+      "provision_ref": "s190",
+      "section": "190",
+      "title": "190",
+      "content": "d) a felülvizsgálat időpontját;"
+    },
+    {
+      "provision_ref": "s191",
+      "section": "191",
+      "title": "191",
+      "content": "e) a felülvizsgálat eredményét tartalmazó irat számát."
+    },
+    {
+      "provision_ref": "s192",
+      "section": "192",
+      "title": "192",
+      "content": "68."
+    },
+    {
+      "provision_ref": "s193",
+      "section": "193",
+      "title": "193",
+      "content": "69. Amennyiben a felülvizsgálati döntés átvezetése során megállapítható, hogy az adott minősített adatot a Mavtv. 7. § (1) bekezdése alapján a minősítési jelölés megismétlésével a minősített adatot kezelő szervnél keletkezett valamely iratba belefoglalták, a felülvizsgálat eredményét a titkos ügykezelőnek át kell vezetni a saját készítésű minősítési jelölés megismétlésével készült iratokon is."
+    },
+    {
+      "provision_ref": "s194",
+      "section": "194",
+      "title": "194",
+      "content": "70. Amennyiben a minősítés megismétlésével készült irat további címzett részére is megküldésre került, a címzettet a 66. pontban foglalt adatok megadásával értesíteni kell."
+    },
+    {
+      "provision_ref": "s195",
+      "section": "195",
+      "title": "195",
+      "content": "9. A nemzeti minősített adat minősítésének felülbírálata"
+    },
+    {
+      "provision_ref": "s196",
+      "section": "196",
+      "title": "196",
+      "content": "71. A minősített adat minősítésének felülbírálatát a minősített adatot kezelő szerv vezetője – a szolgálati út betartásával – az ORFK biztonsági vezetőjénél kezdeményezheti."
+    },
+    {
+      "provision_ref": "s197",
+      "section": "197",
+      "title": "197",
+      "content": "72. Amennyiben a felülbírálat során az országos rendőrfőkapitány a minősítést megszünteti, vagy a minősítési szintet, az érvényességi időt módosítja, az ORFK biztonsági vezetője értesíti a minősített adatot kezelő szerv vezetőjét, aki a biztonsági vezető útján tájékoztatja mindazokat, akiknek a felülbírált adathordozót a nyilvántartás szerint továbbították, valamint intézkedik a felülbírálati döntés átvezetésére a minősített adaton és az iktatókönyvben."
+    },
+    {
+      "provision_ref": "s198",
+      "section": "198",
+      "title": "198",
+      "content": "73. A minősítés felülbírálatának eredményét a titkos ügykezelő az adathordozón vagy – ha ez nem lehetséges – külön kísérőlapon vagy az elektronikus minősített adattól adminisztratív módon elválaszthatatlan kezelésű elektronikus adatállományban, valamint a minősített adat nyilvántartásba vételére szolgáló iratkezelési segédletekben feltünteti, és azt keltezéssel, saját kezű vagy elektronikus aláírásával ellátja."
+    },
+    {
+      "provision_ref": "s199",
+      "section": "199",
+      "title": "199",
+      "content": "10. A titoktartási kötelezettség alóli felmentés, a minősített adat megismerése"
+    },
+    {
+      "provision_ref": "s200",
+      "section": "200",
+      "title": "200",
+      "content": "74. A minősítő a titoktartásra kötelezettnek a titoktartási kötelezettség alóli felmentésére (a továbbiakban: felmentés) irányuló megkeresésről az országos rendőrfőkapitány szakterület szerint érintett helyettese véleményének kikérését követően dönt."
+    },
+    {
+      "provision_ref": "s201",
+      "section": "201",
+      "title": "201",
+      "content": "75. A minősítő köteles megvizsgálni, hogy a felmentésre irányuló megkeresés azonosításra alkalmas módon tartalmazza-e azokat a kérdéseket, amelyekre a felmentést kérik, illetve, hogy a megkeresés más minősítő által minősített adatot érint-e. Ha a megkeresés más által minősített adatot is érint, ezen adat minősítőjét – a megkereső értesítése mellett – a megkeresés egy példányának megküldésével haladéktalanul tájékoztatni kell."
+    },
+    {
+      "provision_ref": "s202",
+      "section": "202",
+      "title": "202",
+      "content": "76. Amennyiben a megkeresésben feltett kérdések azonosításra nem alkalmasak, a megkeresőt a hiányosságok pótlására írásban fel kell hívni. A hiánypótlás elmaradása esetén a felmentést a minősítő megtagadja."
+    },
+    {
+      "provision_ref": "s203",
+      "section": "203",
+      "title": "203",
+      "content": "77. A minősítő a bíróság vagy az ügyész által megadott határidőre figyelemmel, annak hiányában a megkeresés érkezésétől számított 15 munkanapon belül köteles a megkeresésről dönteni, és döntését a megkeresőnek adott válaszában indokolással alátámasztani."
+    },
+    {
+      "provision_ref": "s204",
+      "section": "204",
+      "title": "204",
+      "content": "77/A. A minősítő köteles megvizsgálni, hogy az érintett által benyújtott, minősített adat megismerésére irányuló kérelmével összefüggésben az érintett személyes adatait tartalmazó nemzeti minősített adat megismerése a minősítés alapjául szolgáló közérdek sérelmével jár-e."
+    },
+    {
+      "provision_ref": "s205",
+      "section": "205",
+      "title": "205",
+      "content": "III. FEJEZET"
+    },
+    {
+      "provision_ref": "s206",
+      "section": "206",
+      "title": "206",
+      "content": "ADMINISZTRATÍV BIZTONSÁG"
+    },
+    {
+      "provision_ref": "s207",
+      "section": "207",
+      "title": "207",
+      "content": "11. A minősített adat készítése"
+    },
+    {
+      "provision_ref": "s208",
+      "section": "208",
+      "title": "208",
+      "content": "78. A minősített adatot tartalmazó adathordozón – amennyiben arra az adathordozó jellege miatt nincs mód, akkor külön kísérőlapon vagy az elektronikus minősített adattól adminisztratív módon elválaszthatatlan kezelésű elektronikus adatállományban – fel kell tüntetni:"
+    },
+    {
+      "provision_ref": "s209",
+      "section": "209",
+      "title": "209",
+      "content": "a) az adathordozó jobb felső részén:"
+    },
+    {
+      "provision_ref": "s210",
+      "section": "210",
+      "title": "210",
+      "content": "aa) a minősítési szintet,"
+    },
+    {
+      "provision_ref": "s211",
+      "section": "211",
+      "title": "211",
+      "content": "ab) a minősítés érvényességi idejét,"
+    },
+    {
+      "provision_ref": "s212",
+      "section": "212",
+      "title": "212",
+      "content": "ac) a minősítő nevét, hivatásos állomány tagja esetén a rendfokozatát, valamint a beosztását (munkakörét),"
+    },
+    {
+      "provision_ref": "s213",
+      "section": "213",
+      "title": "213",
+      "content": "ad) a példánysorszámot,"
+    },
+    {
+      "provision_ref": "s214",
+      "section": "214",
+      "title": "214",
+      "content": "ae) alkalmazása esetén a különleges kezelési utasítás(oka)t,"
+    },
+    {
+      "provision_ref": "s215",
+      "section": "215",
+      "title": "215",
+      "content": "af) minősítési jelölés megismétlése esetén „A minősítési jelölés megismételve!” jelölés alatt a minősített iratot keletkeztető szerv megnevezését, valamint annak a minősített iratnak az iktatószámát, amely a minősítési jelölés megismétlés alapjául szolgál,"
+    },
+    {
+      "provision_ref": "s216",
+      "section": "216",
+      "title": "216",
+      "content": "ag) a minősítési jelölés megismétlésének megtiltása esetén „A minősítési jelölés nem ismételhető!” szövegrészt;"
+    },
+    {
+      "provision_ref": "s217",
+      "section": "217",
+      "title": "217",
+      "content": "b) ha van, a szöveg alatt bal oldalon a melléklet:"
+    },
+    {
+      "provision_ref": "s218",
+      "section": "218",
+      "title": "218",
+      "content": "ba) számát,"
+    },
+    {
+      "provision_ref": "s219",
+      "section": "219",
+      "title": "219",
+      "content": "bb) nyilvántartási számát,"
+    },
+    {
+      "provision_ref": "s220",
+      "section": "220",
+      "title": "220",
+      "content": "bc) példányszámát, lapjainak számát,"
+    },
+    {
+      "provision_ref": "s221",
+      "section": "221",
+      "title": "221",
+      "content": "bd) minősítési szintjét;"
+    },
+    {
+      "provision_ref": "s222",
+      "section": "222",
+      "title": "222",
+      "content": "c) az adathordozó bal alsó részén az iratkezelési záradékban:"
+    },
+    {
+      "provision_ref": "s223",
+      "section": "223",
+      "title": "223",
+      "content": "ca) a készített példányok számát,"
+    },
+    {
+      "provision_ref": "s224",
+      "section": "224",
+      "title": "224",
+      "content": "cb) a minősített adathordozó példányonkénti lapszámát,"
+    },
+    {
+      "provision_ref": "s225",
+      "section": "225",
+      "title": "225",
+      "content": "cc) az irattári tételszámot,"
+    },
+    {
+      "provision_ref": "s226",
+      "section": "226",
+      "title": "226",
+      "content": "cd) a készítő személy nevét, hivatásos állomány tagja esetén a rendfokozatát, beosztását (munkakörét) és telefonszámát,"
+    },
+    {
+      "provision_ref": "s227",
+      "section": "227",
+      "title": "227",
+      "content": "ce) az irat előadói munkakönyvi sorszámát,"
+    },
+    {
+      "provision_ref": "s228",
+      "section": "228",
+      "title": "228",
+      "content": "cf) az egyes példányok címzettjeit név, hivatásos állomány tagja esetén rendfokozat, beosztás (munkakör) szerint (öt példányig a záradékban, azon felül külön elosztón),"
+    },
+    {
+      "provision_ref": "s229",
+      "section": "229",
+      "title": "229",
+      "content": "cg) nem saját készítésű, érkezett minősített adat esetén az érkezés módját, minősített adatot kezelő elektronikus információs rendszeren érkezett adat esetén a minősített adatot kezelő elektronikus információs rendszer megnevezését,"
+    },
+    {
+      "provision_ref": "s230",
+      "section": "230",
+      "title": "230",
+      "content": "ch) amennyiben a papíralapú adathordozó nyomtatással készült, a nyomtatási napló számát,"
+    },
+    {
+      "provision_ref": "s231",
+      "section": "231",
+      "title": "231",
+      "content": "ci) a minősített adatot kezelő elektronikus információs rendszeren megtartott munkapéldány létét vagy a törlési napló számát."
+    },
+    {
+      "provision_ref": "s232",
+      "section": "232",
+      "title": "232",
+      "content": "79. Amennyiben a papíralapú adathordozó minősített adatot tartalmazó oldalára kerül a minősítés vagy minősítési javaslat, abban az esetben a minősítési szintet az oldal közepén, közvetlenül a minősített adatot kiadmányozó aláírása alatt, a minősítés vagy a minősítési javaslat és döntés felett kell feltüntetni."
+    },
+    {
+      "provision_ref": "s233",
+      "section": "233",
+      "title": "233",
+      "content": "80. Az egynél több lapból álló minősített adathordozó lapjait – amennyiben az előadó nem fűzte és zárta le – a titkos ügykezelő az iktatás során köteles összefűzni, és az összefűzést körcímkével vagy etikett címkével lezárni. a lezárásnak tartalmaznia kell a keltezést, az aláírást és a bélyegzőlenyomatot, melyet úgy kell elhelyezni, hogy a lenyomat fele a körcímkén, a másik fele pedig a minősített adatot tartalmazó iraton legyen."
+    },
+    {
+      "provision_ref": "s234",
+      "section": "234",
+      "title": "234",
+      "content": "81. A papíralapú minősített adathordozó megbontását a minősítő vagy a címzett engedélyezi. A megbontás tényét a titkos ügykezelőnek az adathordozó utolsó lapjának hátoldalán vagy külön lapon elhelyezett záradékkal (megbontás oka, engedélyező irat száma, engedélyező neve, hivatásos állomány tagja esetén rendfokozata, beosztása, illetőleg munkaköre, megbontás időpontja, titkos ügykezelő aláírása) kell dokumentálnia. A megbontás végrehajtása és a záradék rögzítése után a titkos ügykezelő az adathordozót ismételten köteles a 80. pontban meghatározott módon összefűzni és lezárni."
+    },
+    {
+      "provision_ref": "s235",
+      "section": "235",
+      "title": "235",
+      "content": "82. A minősített adatok nyilvántartása során a Korm. rendeletben meghatározott iratkezelési segédleteken kívül az alábbi – részben a Robotzsaru integrált ügyviteli, ügyfeldolgozó és elektronikus iratkezelő rendszer TÜK NEO által támogatott – iratkezelési segédleteket és bizonylatokat kell használni:"
+    },
+    {
+      "provision_ref": "s236",
+      "section": "236",
+      "title": "236",
+      "content": "a) érkeztető könyv;"
+    },
+    {
+      "provision_ref": "s237",
+      "section": "237",
+      "title": "237",
+      "content": "b) név szerinti nyilvántartó karton vagy azzal egyenértékű belső átadó okmány;"
+    },
+    {
+      "provision_ref": "s238",
+      "section": "238",
+      "title": "238",
+      "content": "c) iktatólap;"
+    },
+    {
+      "provision_ref": "s239",
+      "section": "239",
+      "title": "239",
+      "content": "d) beérkező és kimenő futárjegyzékek nyilvántartása;"
+    },
+    {
+      "provision_ref": "s240",
+      "section": "240",
+      "title": "240",
+      "content": "e) elektronikus adathordozók nyilvántartása;"
+    },
+    {
+      "provision_ref": "s241",
+      "section": "241",
+      "title": "241",
+      "content": "f) beérkező elektronikus nyugták nyilvántartása;"
+    },
+    {
+      "provision_ref": "s242",
+      "section": "242",
+      "title": "242",
+      "content": "g) név szerinti nyilvántartó kartonok nyilvántartása;"
+    },
+    {
+      "provision_ref": "s243",
+      "section": "243",
+      "title": "243",
+      "content": "h) személyi biztonsági tanúsítványok és titoktartási nyilatkozatok nyilvántartása;"
+    },
+    {
+      "provision_ref": "s244",
+      "section": "244",
+      "title": "244",
+      "content": "i) sokszorosítási napló;"
+    },
+    {
+      "provision_ref": "s245",
+      "section": "245",
+      "title": "245",
+      "content": "j) megsemmisítési jegyzőkönyv;"
+    },
+    {
+      "provision_ref": "s246",
+      "section": "246",
+      "title": "246",
+      "content": "k) előadói munkakönyv;"
+    },
+    {
+      "provision_ref": "s247",
+      "section": "247",
+      "title": "247",
+      "content": "l) NATO, EU „Korlátozott terjesztésű!” minősítési szintű adatok iktatókönyve;"
+    },
+    {
+      "provision_ref": "s248",
+      "section": "248",
+      "title": "248",
+      "content": "m) futárjegyzék;"
+    },
+    {
+      "provision_ref": "s249",
+      "section": "249",
+      "title": "249",
+      "content": "n) törlési nyilvántartás."
+    },
+    {
+      "provision_ref": "s250",
+      "section": "250",
+      "title": "250",
+      "content": "83. Az iratkezelési segédleteket úgy kell vezetni, hogy a minősített adatot tartalmazó adathordozó valamennyi példányának útja, aktuális állapota, feltalálási helye mindenkor megállapítható, valamint eltűnése esetén a kezelésével kapcsolatos személyi felelősség egyértelműen megállapítható legyen, függetlenül attól, hogy az adathordozó átadása, visszavétele, vagy továbbítása mikor történt."
+    },
+    {
+      "provision_ref": "s251",
+      "section": "251",
+      "title": "251",
+      "content": "84. A minősített adatot tartalmazó adathordozót az elkészítést követően a felhasználó az előadói munkakönyvében nyilvántartásba veszi, és az adathordozót iktatás, a készítés során keletkezett munkapéldányokat megsemmisítés céljából a titkos ügykezelőnek az előadói munkakönyvben adja át."
+    },
+    {
+      "provision_ref": "s252",
+      "section": "252",
+      "title": "252",
+      "content": "85. A titkos ügykezelő a 84. pont szerinti átvétel során ellenőrzi"
+    },
+    {
+      "provision_ref": "s253",
+      "section": "253",
+      "title": "253",
+      "content": "a) a minősített adathordozó teljességét (példányszám, lapszám, mellékletek);"
+    },
+    {
+      "provision_ref": "s254",
+      "section": "254",
+      "title": "254",
+      "content": "b) a minősítési döntés vagy javaslat meglétét és az abban jóváhagyott különleges kezelési utasítások feltüntetését;"
+    },
+    {
+      "provision_ref": "s255",
+      "section": "255",
+      "title": "255",
+      "content": "c) a kiadmányozás meglétét;"
+    },
+    {
+      "provision_ref": "s256",
+      "section": "256",
+      "title": "256",
+      "content": "d) a leplezett eszköz alkalmazásának lezárásával összefüggésben a felülvizsgálati kötelezettség teljesítését."
+    },
+    {
+      "provision_ref": "s257",
+      "section": "257",
+      "title": "257",
+      "content": "86."
+    },
+    {
+      "provision_ref": "s258",
+      "section": "258",
+      "title": "258",
+      "content": "87. Azon elektronikus adathordozókról, amelyeken minősített elektronikus adatokat továbbítanak, vagy azt a célt szolgálják, hogy az elektronikus rendszereken továbbított minősített adatot töltsenek le, a titkos ügykezelő nyilvántartást vezet. Az elektronikus adathordozó átadás-átvételéről folyamatosan vezetett kísérőlapot kell kiállítani."
+    },
+    {
+      "provision_ref": "s259",
+      "section": "259",
+      "title": "259",
+      "content": "12. A minősített adat szerven belül történő átadása-átvétele"
+    },
+    {
+      "provision_ref": "s260",
+      "section": "260",
+      "title": "260",
+      "content": "88. A Nyilvántartó és a Kezelőpont titkos ügykezelője a minősített adatot a felhasználó részére dátumbejegyzéssel, olvasható aláírás ellenében, név szerinti nyilvántartó kartonon, azzal egyenértékű belső átadó okmányon vagy – amennyiben az elektronikus átadás-átvétel feltételei adottak – elektronikus úton adja át és veszi vissza úgy, hogy a minősített adat szerven belül történő átadására és visszavételére vonatkozó adatokat az iktatókönyvbe is pontosan bejegyzi."
+    },
+    {
+      "provision_ref": "s261",
+      "section": "261",
+      "title": "261",
+      "content": "89. Kizárólag elektronikus úton történő átadás-átvétel csak akkor alkalmazható, ha az elektronikus iktató rendszer a feleket hitelesítő szolgáltatás vagy jelszavak segítségével azonosítja, és az átadás-átvétel a minősített adat átadás-átvételével egyidőben az elektronikus iratkezelő rendszerben rögzítésre kerül."
+    },
+    {
+      "provision_ref": "s262",
+      "section": "262",
+      "title": "262",
+      "content": "90. Az ugyanazon adminisztratív zónán belül működő Nyilvántartó és a Kezelőpont között a minősített adat átadása és visszavétele belső átadókönyvben történik."
+    },
+    {
+      "provision_ref": "s263",
+      "section": "263",
+      "title": "263",
+      "content": "91. A minősített adatot a Nyilvántartó és a minősített adatot kezelő szerv adminisztratív zónáján kívüli Kezelőpont között futárjegyzéken kell továbbítani."
+    },
+    {
+      "provision_ref": "s264",
+      "section": "264",
+      "title": "264",
+      "content": "13. A minősített adat szerven kívülre és külföldre továbbítása, szállítása"
+    },
+    {
+      "provision_ref": "s265",
+      "section": "265",
+      "title": "265",
+      "content": "92. A minősített adat személyes kézbesítő útján külső szerv részére történő szállítása a Korm. rendelet 52. § (4) bekezdésében meghatározottak teljesítése esetén akkor engedélyezhető, ha:"
+    },
+    {
+      "provision_ref": "s266",
+      "section": "266",
+      "title": "266",
+      "content": "a)"
+    },
+    {
+      "provision_ref": "s267",
+      "section": "267",
+      "title": "267",
+      "content": "b) a minősített adathordozót a vonatkozó jogszabályi előírásoknak megfelelően csomagolták, valamint a továbbításra szolgáló táska vagy fémdoboz olyan méretű vagy súlyú, hogy az a szállítást végző őrizete alatt tartható."
+    },
+    {
+      "provision_ref": "s268",
+      "section": "268",
+      "title": "268",
+      "content": "93. A minősített adathordozót a szállítás ideje alatt a személyes kézbesítő nem hagyhatja őrizetlenül, kivéve, ha a minősített adatot a biztonsági előírásoknak megfelelő helyen tárolják. A személyes kézbesítő a minősített adatot tartalmazó küldeményt a szállítás során nem nyithatja fel, köteles azt a legrövidebb úton a címzett minősített adatot kezelő szerv Nyilvántartójához vagy Kezelőpontjához eljuttatni."
+    },
+    {
+      "provision_ref": "s269",
+      "section": "269",
+      "title": "269",
+      "content": "94. Amennyiben a szállítás során minősített adatot érintő rendkívüli esemény következik be, arról soron kívül tájékoztatni kell a küldő minősített adatot kezelő szerv biztonsági vezetőjét."
+    },
+    {
+      "provision_ref": "s270",
+      "section": "270",
+      "title": "270",
+      "content": "95. A „Bizalmas!” vagy az annál magasabb minősítési szintű minősített adat szállítása során tömegközlekedési eszköz nem vehető igénybe, a szállítás teljes ideje alatt a küldemény személyes őrzését biztosítani kell."
+    },
+    {
+      "provision_ref": "s271",
+      "section": "271",
+      "title": "271",
+      "content": "96. A Tanúvédelmi Szolgálat által a „Védelmi programmal” összefüggésben történő adattovábbítás kivételével minősített adatot külföldre – ha jogszabály eltérően nem rendelkezik – kizárólag az ORFK Bűnügyi Főigazgatóság Nemzetközi Bűnügyi Együttműködési Központ (a továbbiakban: NEBEK) útján lehet továbbítani. Amennyiben a késedelmes továbbítás veszéllyel járna, a KR Nemzeti Nyomozó Iroda igazgatója halaszthatatlan esetben szóban, sürgős esetben az adathordozón írásban engedélyezheti a minősített adat külföldre továbbítását. Az ilyen módon továbbított minősített adatot ezt követően a NEBEK közreműködésével is továbbítani kell a korábbi átadás tényének megjelölésével."
+    },
+    {
+      "provision_ref": "s272",
+      "section": "272",
+      "title": "272",
+      "content": "97. A minősített adat személyes kézbesítő útján történő továbbítása esetén a titkos ügykezelő 3 példányban futárjegyzéket állít ki. A küldő szerv az átvételt igazoló aláírást tartalmazó futárjegyzéket köteles megőrizni, így a futárjegyzék 1. példányának visszaérkezését követően a 3. példányt meg kell semmisíteni."
+    },
+    {
+      "provision_ref": "s273",
+      "section": "273",
+      "title": "273",
+      "content": "14. A minősített adat sokszorosítása, kivonatolása, fordítása"
+    },
+    {
+      "provision_ref": "s274",
+      "section": "274",
+      "title": "274",
+      "content": "98. A minősített adat sokszorosításának, kivonatolásának és fordításának engedélyezése a minősített adatot tartalmazó adathordozón, előadói íven, amennyiben ez nem lehetséges, külön iratban, elektronikus adathordozó esetén a kísérőlapon történhet."
+    },
+    {
+      "provision_ref": "s275",
+      "section": "275",
+      "title": "275",
+      "content": "99. A másolat elkészítését megelőzően a másolat alapjául szolgáló minősített adatot tartalmazó adathordozón, – vagy ha annak sajátossága miatt nem lehetséges – előadói íven, külön iratban vagy a kísérőlapon fel kell tüntetni a másolás tényét, a másolt példány darabszámát, valamint a másolatok címzettjeit, illetve NATO vagy EU „Korlátozott terjesztésű!” vagy annál magasabb minősítéssel ellátott dokumentum esetében azt is, hogy a másolat melyik sokszorosításra alkalmas, rendszerengedéllyel rendelkező eszközön történt."
+    },
+    {
+      "provision_ref": "s276",
+      "section": "276",
+      "title": "276",
+      "content": "100. Hiteles másolat készítése esetén hitelesítési záradékot kell elhelyezni a másolaton."
+    },
+    {
+      "provision_ref": "s277",
+      "section": "277",
+      "title": "277",
+      "content": "101. A minősített iratokról szöveghű kivonat vagy nem szöveg- és formahű tartalmi kivonat készíthető. a szöveghű kivonat készítésekor a minősítési jelölés megismétlésére vonatkozó szabályokat kell alkalmazni."
+    },
+    {
+      "provision_ref": "s278",
+      "section": "278",
+      "title": "278",
+      "content": "102. Amennyiben a tartalmi kivonatban szereplő adat"
+    },
+    {
+      "provision_ref": "s279",
+      "section": "279",
+      "title": "279",
+      "content": "a) a kivonat alapjául szolgáló minősített adattal azonos minősítési szintet igényel, a minősítési jelölés megismétlésére vonatkozó szabályokat kell alkalmazni;"
+    },
+    {
+      "provision_ref": "s280",
+      "section": "280",
+      "title": "280",
+      "content": "b) a kivonat alapjául szolgáló minősített adatnál alacsonyabb minősítési szintet igényel, a minősítő a kivonatot készíteni kívánó megkeresése alapján új minősítési eljárást folytat le."
+    },
+    {
+      "provision_ref": "s281",
+      "section": "281",
+      "title": "281",
+      "content": "103. A kivonat iratkezelési záradékában fel kell tüntetni annak az iratnak a nyilvántartási számát, amelyből a kivonat készült, valamint a kivonat készítőjének nevét, hivatásos állomány tagja esetében rendfokozatát, beosztását (munkakörét) és a kivonat címzettjét."
+    },
+    {
+      "provision_ref": "s282",
+      "section": "282",
+      "title": "282",
+      "content": "104. A fordítás készítését a minősítő vagy – amennyiben ezt a minősítő nem tiltotta meg – a címzett az iraton, előadói íven, külön iratban, vagy a kísérőlapon feltüntetett írásos utasításával rendelheti el."
+    },
+    {
+      "provision_ref": "s283",
+      "section": "283",
+      "title": "283",
+      "content": "105."
+    },
+    {
+      "provision_ref": "s284",
+      "section": "284",
+      "title": "284",
+      "content": "106. A fordítás záradékában rögzíteni kell:"
+    },
+    {
+      "provision_ref": "s285",
+      "section": "285",
+      "title": "285",
+      "content": "a) a „Fordítás készült:...... példányban......... nyelven” szövegrészt;"
+    },
+    {
+      "provision_ref": "s286",
+      "section": "286",
+      "title": "286",
+      "content": "b) a lapszámot;"
+    },
+    {
+      "provision_ref": "s287",
+      "section": "287",
+      "title": "287",
+      "content": "c) a fordítást végző személy nevét, hivatásos állomány tagja esetében a rendfokozatát és beosztását (munkakörét);"
+    },
+    {
+      "provision_ref": "s288",
+      "section": "288",
+      "title": "288",
+      "content": "d) a címzettet vagy címzetteket."
+    },
+    {
+      "provision_ref": "s289",
+      "section": "289",
+      "title": "289",
+      "content": "107. Fordítás hitelesítésének szükségessége esetén hitelesítési záradékot kell elhelyezni a fordításon."
+    },
+    {
+      "provision_ref": "s290",
+      "section": "290",
+      "title": "290",
+      "content": "107/A. A sokszorosítás, a fordítás és a kivonatolás során keletkező példányokat egytől növekvő sorszámmal ellátott sokszorosított, fordított és kivonatolt példányszámmal kell ellátni. Iktatásuk a minősített adat iktatószámán, példánysorszámonként történik."
+    },
+    {
+      "provision_ref": "s291",
+      "section": "291",
+      "title": "291",
+      "content": "15. A minősített adathordozó megsemmisítése"
+    },
+    {
+      "provision_ref": "s292",
+      "section": "292",
+      "title": "292",
+      "content": "108. A minősített adatot kezelő szerv a „Korlátozott terjesztésű!” minősítési szintű minősített adatait adminisztratív zónában, a „Bizalmas!” vagy az annál magasabb minősítési szintű minősített adatait biztonsági területen köteles megsemmisíteni, és ezt követően – a jogszabályban meghatározott – hulladékhasznosító vállalatnak átadni."
+    },
+    {
+      "provision_ref": "s293",
+      "section": "293",
+      "title": "293",
+      "content": "109. Minősített adat áthelyezésére használt elektronikus adathordozón lévő technikai másolatot a kinyomtatást, iktatást követően törölni kell. A törlésről a főnyilvántartó könyvbe nyilvántartásba vett törlési nyilvántartást kell felfektetni és vezetni. A biztonsági vezető vagy az általa írásban felhatalmazott személy a nyilvántartás vezetését rendszeresen – legalább negyedévente – ellenőrzi."
+    },
+    {
+      "provision_ref": "s294",
+      "section": "294",
+      "title": "294",
+      "content": "IV. FEJEZET"
+    },
+    {
+      "provision_ref": "s295",
+      "section": "295",
+      "title": "295",
+      "content": "A FIZIKAI BIZTONSÁG"
+    },
+    {
+      "provision_ref": "s296",
+      "section": "296",
+      "title": "296",
+      "content": "16. A Nyilvántartó, a Kezelőpont és a feldolgozó helyiség"
+    },
+    {
+      "provision_ref": "s297",
+      "section": "297",
+      "title": "297",
+      "content": "110. A minősített adatot kezelő szervek egy Nyilvántartót alakíthatnak ki. Abban az esetben, ha a minősített adatot kezelő szerv több objektumban kapott elhelyezést, vagy a tevékenységi körének összetettsége, a keletkezett minősített adatok száma és eltérő tárgyköre azt indokolja, az ORFK biztonsági vezetőjének előzetes egyetértésével sor kerülhet több Nyilvántartó működtetésére."
+    },
+    {
+      "provision_ref": "s298",
+      "section": "298",
+      "title": "298",
+      "content": "111. Több Nyilvántartó esetén a minősített adatot kezelő szerv vezetője a biztonsági szabályzatában jelöli ki a minősített adat kezelését irányító Nyilvántartót."
+    },
+    {
+      "provision_ref": "s299",
+      "section": "299",
+      "title": "299",
+      "content": "112. A Nyilvántartó alárendeltségében a minősített adatot kezelő szervek Kezelőpontot – amennyiben jogszabály másként nem rendelkezik – ezen utasítás hatálybalépését követően csak abban az esetben alakíthatnak ki, amennyiben az nem a minősített adatot kezelő szerv adminisztratív zónáján belül helyezkedik el."
+    },
+    {
+      "provision_ref": "s300",
+      "section": "300",
+      "title": "300",
+      "content": "113. A minősített adatot kezelő szerv Nyilvántartója végzi a minősített adat"
+    },
+    {
+      "provision_ref": "s301",
+      "section": "301",
+      "title": "301",
+      "content": "a) érkeztetését;"
+    },
+    {
+      "provision_ref": "s302",
+      "section": "302",
+      "title": "302",
+      "content": "b) bontását (amennyiben erre vonatkozó tiltás a minősített adatot tartalmazó küldeményen nem szerepel);"
+    },
+    {
+      "provision_ref": "s303",
+      "section": "303",
+      "title": "303",
+      "content": "c) címzettnek történő bemutatását;"
+    },
+    {
+      "provision_ref": "s304",
+      "section": "304",
+      "title": "304",
+      "content": "d) iktatását;"
+    },
+    {
+      "provision_ref": "s305",
+      "section": "305",
+      "title": "305",
+      "content": "e) átadás-átvételét, visszavételét, továbbítását;"
+    },
+    {
+      "provision_ref": "s306",
+      "section": "306",
+      "title": "306",
+      "content": "f) birtokban tartását, tárolását;"
+    },
+    {
+      "provision_ref": "s307",
+      "section": "307",
+      "title": "307",
+      "content": "g) sokszorosítását;"
+    },
+    {
+      "provision_ref": "s308",
+      "section": "308",
+      "title": "308",
+      "content": "h) felülvizsgálatával és az új minősítési eljárással kapcsolatos feladatok végrehajtását;"
+    },
+    {
+      "provision_ref": "s309",
+      "section": "309",
+      "title": "309",
+      "content": "i) selejtezési eljárását;"
+    },
+    {
+      "provision_ref": "s310",
+      "section": "310",
+      "title": "310",
+      "content": "j) megsemmisítési eljárását;"
+    },
+    {
+      "provision_ref": "s311",
+      "section": "311",
+      "title": "311",
+      "content": "k) merevlemezen vagy más elektronikus adathordozón történt tárolás esetén a törlését."
+    },
+    {
+      "provision_ref": "s312",
+      "section": "312",
+      "title": "312",
+      "content": "l) vonatkozásában a titokfelügyeleti hatósági eljárással összefüggő feladatok végrehajtását."
+    },
+    {
+      "provision_ref": "s313",
+      "section": "313",
+      "title": "313",
+      "content": "114. A Kezelőpont végzi a hozzá beérkezett vagy ott keletkezett minősített adatok esetén a 113. pontban, a Nyilvántartótól kapott iratok esetében pedig a 113. pont b)–l) alpontjában felsorolt iratkezelési feladatokat."
+    },
+    {
+      "provision_ref": "s314",
+      "section": "314",
+      "title": "314",
+      "content": "114/A. Az adatkezelési engedéllyel nem rendelkező Nyilvántartó, Kezelőpont, valamint a Korm. rendelet 3. § (1) bekezdése szerinti adatkezelési engedély alapján az abban meghatározott minősített adatok kezelése céljából létrehozott biztonsági terület védelmét, a biztonsági területre történő állandó és eseti belépést a minősített adatot kezelő szerv vezetője a biztonsági szabályzatában szabályozza."
+    },
+    {
+      "provision_ref": "s315",
+      "section": "315",
+      "title": "315",
+      "content": "17. A minősített adat tárolása"
+    },
+    {
+      "provision_ref": "s316",
+      "section": "316",
+      "title": "316",
+      "content": "115. A „Bizalmas!” vagy annál magasabb minősítési szintű adatot hivatali munkaidőn kívül"
+    },
+    {
+      "provision_ref": "s317",
+      "section": "317",
+      "title": "317",
+      "content": "a) adatkezelési engedéllyel nem rendelkező Nyilvántartóban;"
+    },
+    {
+      "provision_ref": "s318",
+      "section": "318",
+      "title": "318",
+      "content": "b) adatkezelési engedéllyel nem rendelkező Kezelőponton;"
+    },
+    {
+      "provision_ref": "s319",
+      "section": "319",
+      "title": "319",
+      "content": "c) a biztonsági területen;"
+    },
+    {
+      "provision_ref": "s320",
+      "section": "320",
+      "title": "320",
+      "content": "d) a 117. pontban meghatározott esetben a Tevékenység-irányítási Központokban vagy a KR és NEBEK folyamatos elérhetőséget biztosító egysége ügyeleti szolgálatain (a továbbiakban együtt: Ügyelet)"
+    },
+    {
+      "provision_ref": "s321",
+      "section": "321",
+      "title": "321",
+      "content": "kell tárolni."
+    },
+    {
+      "provision_ref": "s322",
+      "section": "322",
+      "title": "322",
+      "content": "116. Amennyiben az Ügyeleten munkaidőn kívül a KR Különleges Szolgálatok Igazgatósága Állami Futárszolgálat által továbbított futárzsák elhelyezésére kerül sor, úgy ennek, valamint a futárzsák kivételének tényét és idejét az ügyeleti könyvben dokumentálni kell."
+    },
+    {
+      "provision_ref": "s323",
+      "section": "323",
+      "title": "323",
+      "content": "117. Az Ügyeleten elhelyezett futárzsák tárolása legalább I. kategóriájú biztonsági tárolóban történhet. A továbbítást végrehajtó futár a futárzsák elhelyezésére szolgáló biztonsági tárolót az ügyeletvezető jelenlétében köteles lezárni. Az így lezárt biztonsági tárolót a vármegyei futárcsoport állományába tartozó futár a szolgálatban lévő ügyeletvezető jelenlétében nyithatja fel, az átvevő a futárzsák sértetlenségét köteles ellenőrizni."
+    },
+    {
+      "provision_ref": "s324",
+      "section": "324",
+      "title": "324",
+      "content": "118. Az Ügyeleten minősített adatot tárolni kizárólag a Korm. rendelet 34. §-ában meghatározott feltételekkel – megfelelő szintű személyi biztonsági tanúsítvánnyal és titoktartási nyilatkozattal – rendelkező személy 24 órás személyes felügyelete, valamint ki- és beléptető rendszer működtetése esetén lehet."
+    },
+    {
+      "provision_ref": "s325",
+      "section": "325",
+      "title": "325",
+      "content": "119. A szolgálat átadás-átvételekor a szolgálatot befejező ügyeletes köteles – a 117. pontban meghatározottak szerint az Ügyeleten az ügyeletes által nem hozzáférhető módon tárolt futárküldemények kivételével – a szolgálatot kezdő ügyeletes részére az Ügyeleten elhelyezett minősített adatokat tartalmazó iratokat dokumentált módon átadni."
+    },
+    {
+      "provision_ref": "s326",
+      "section": "326",
+      "title": "326",
+      "content": "120. A minősített adatot kezelő szerv adminisztratív zónájából kikerült, és tartósan azon kívül kezelt minősített adat tárolásának szabályait a két minősített adatot kezelő szervnek – a Mavtv. és a Korm. rendelet előírásainak figyelembevételével – együttműködési megállapodásban kell rögzítenie."
+    },
+    {
+      "provision_ref": "s327",
+      "section": "327",
+      "title": "327",
+      "content": "V. FEJEZET"
+    },
+    {
+      "provision_ref": "s328",
+      "section": "328",
+      "title": "328",
+      "content": "ELEKTRONIKUS BIZTONSÁGI KÖVETELMÉNYEK"
+    },
+    {
+      "provision_ref": "s329",
+      "section": "329",
+      "title": "329",
+      "content": "18. Az elektronikus rendszerre vonatkozó fizikai biztonság"
+    },
+    {
+      "provision_ref": "s330",
+      "section": "330",
+      "title": "330",
+      "content": "121. Abban a helyiségben, ahova „Bizalmas!” vagy magasabb minősítési szintű minősített adatot kezelő elektronikus információs rendszert telepítettek"
+    },
+    {
+      "provision_ref": "s331",
+      "section": "331",
+      "title": "331",
+      "content": "a) nem lehet kép-, hang- és adatrögzítésre alkalmas eszközt birtokban tartani;"
+    },
+    {
+      "provision_ref": "s332",
+      "section": "332",
+      "title": "332",
+      "content": "b) a szolgálati mobiltelefon alkalmazása kizárólag abban az esetben megengedett, ha a hang- és képrögzítő funkciók, valamint az akusztikus kicsatolás jelentette kockázatok és azok kezelésének módja rögzítésre került az üzemeltetés-biztonsági szabályzat (a továbbiakban: ÜBSZ) kockázatkezelésében;"
+    },
+    {
+      "provision_ref": "s333",
+      "section": "333",
+      "title": "333",
+      "content": "c) nem lehet kamerás megfigyelő rendszert alkalmazni;"
+    },
+    {
+      "provision_ref": "s334",
+      "section": "334",
+      "title": "334",
+      "content": "d) nem lehet a rendszerengedélyben – helyszínrajzban – fel nem tüntetett informatikai eszközöket tárolni vagy üzemeltetni;"
+    },
+    {
+      "provision_ref": "s335",
+      "section": "335",
+      "title": "335",
+      "content": "e) a kábelek eltávolításával vagy a fali portok lezárásával a rendszerengedélyben – helyszínrajzban – fel nem tüntetett számítógépes hálózati kapcsolatot meg kell szüntetni."
+    },
+    {
+      "provision_ref": "s336",
+      "section": "336",
+      "title": "336",
+      "content": "19. Biztonsági dokumentációk"
+    },
+    {
+      "provision_ref": "s337",
+      "section": "337",
+      "title": "337",
+      "content": "122. A minősített adatot elektronikus információs rendszeren kezelő szerveknek biztonsági dokumentációt kell készíteni. A biztonsági dokumentációt az ÜBSZ és a rendszerbiztonsági követelmények (a továbbiakban: RBK) alkotja. A biztonsági dokumentációban foglaltakat minden felhasználónak dokumentált módon meg kell ismernie, és be kell tartania."
+    },
+    {
+      "provision_ref": "s338",
+      "section": "338",
+      "title": "338",
+      "content": "123. A biztonsági dokumentációt egyetértési jogának gyakorlása érdekében az NBF elnökének meg kell küldeni."
+    },
+    {
+      "provision_ref": "s339",
+      "section": "339",
+      "title": "339",
+      "content": "124. Minden minősített adatot elektronikusan kezelő szervnek valamennyi rendszerre vonatkozóan rendelkeznie kell ÜBSZ-szel, míg az RBK-t „Bizalmas!” vagy annál magasabb minősítési szintű, illetve hálózati kapcsolattal rendelkező „Korlátozott terjesztésű!” és magasabb minősítési szintű adatokat kezelő elektronikus rendszer esetében kell elkészíteni."
+    },
+    {
+      "provision_ref": "s340",
+      "section": "340",
+      "title": "340",
+      "content": "125. A biztonsági dokumentációt alkotó ÜBSZ-t és az RBK-t, a rejtjel hozzáférési engedélyt, valamint a kezelői engedélyt az NBF honlapján közzétett aktuális minták alapján kell elkészíteni. Az ÜBSZ elolvasásáról és tudomásulvételéről minden felhasználónak írásbeli nyilatkozatot kell tennie, amit a felhasználó jogosultságának megszűnését követő 1 év elteltéig kell megőrizni."
+    },
+    {
+      "provision_ref": "s341",
+      "section": "341",
+      "title": "341",
+      "content": "126. A minősített adatot kezelő elektronikus információs rendszer vonatkozásában a rendszerbiztonsági felügyelő és a rendszeradminisztrátor feladatait az ÜBSZ-ben kell rögzíteni."
+    },
+    {
+      "provision_ref": "s342",
+      "section": "342",
+      "title": "342",
+      "content": "20. Biztonsági segédletek"
+    },
+    {
+      "provision_ref": "s343",
+      "section": "343",
+      "title": "343",
+      "content": "127. A minősített adatot kezelő elektronikus információs rendszer üzemeltetésével kapcsolatos tevékenységet a biztonsági segédletben kell rögzíteni. Biztonsági segédletek:"
+    },
+    {
+      "provision_ref": "s344",
+      "section": "344",
+      "title": "344",
+      "content": "a) a merevlemez (háttértároló) kiadási napló;"
+    },
+    {
+      "provision_ref": "s345",
+      "section": "345",
+      "title": "345",
+      "content": "b) a nyomtatási napló;"
+    },
+    {
+      "provision_ref": "s346",
+      "section": "346",
+      "title": "346",
+      "content": "c) az ellenőrzési napló;"
+    },
+    {
+      "provision_ref": "s347",
+      "section": "347",
+      "title": "347",
+      "content": "d) a karbantartási napló;"
+    },
+    {
+      "provision_ref": "s348",
+      "section": "348",
+      "title": "348",
+      "content": "e) a hibás bejelentkezések nyilvántartása;"
+    },
+    {
+      "provision_ref": "s349",
+      "section": "349",
+      "title": "349",
+      "content": "f) a törlési nyilvántartás;"
+    },
+    {
+      "provision_ref": "s350",
+      "section": "350",
+      "title": "350",
+      "content": "g) a belépés nyilvántartó könyv."
+    },
+    {
+      "provision_ref": "s351",
+      "section": "351",
+      "title": "351",
+      "content": "128. A biztonsági segédleteket főnyilvántartó könyvben kell nyilvántartásba venni."
+    },
+    {
+      "provision_ref": "s352",
+      "section": "352",
+      "title": "352",
+      "content": "129. A minősített adatot tartalmazó adathordozók átadás-átvételét a merevlemez kiadási naplóban kell dokumentálni. Amennyiben a minősített adatot kezelő szerv nem kivehető merevlemezt, hanem beépített adathordozóval rendelkező munkaállomást használ, annak az átadás-átvételét is dokumentálni kell. Amennyiben a titkos ügykezelő a rendszeradminisztrátor egy személyben, akkor a merevlemez kivételét saját használat esetében nem kell dokumentálni."
+    },
+    {
+      "provision_ref": "s353",
+      "section": "353",
+      "title": "353",
+      "content": "130. Amennyiben a minősített adatot kezelő elektronikus információs rendszer nyomtatót tartalmaz, az ÜBSZ eltérő rendelkezésének hiányában a minősített adatok nyomtatását nyomtatási naplóban kell dokumentálni."
+    },
+    {
+      "provision_ref": "s354",
+      "section": "354",
+      "title": "354",
+      "content": "131. A rendszerbiztonsági felügyelő az ellenőrzési naplóban rögzíti"
+    },
+    {
+      "provision_ref": "s355",
+      "section": "355",
+      "title": "355",
+      "content": "a) az elektronikus biztonsági előírások betartásának ellenőrzése során tett megállapításokat;"
+    },
+    {
+      "provision_ref": "s356",
+      "section": "356",
+      "title": "356",
+      "content": "b) a rendszerbiztonsági feladatok végrehajtását;"
+    },
+    {
+      "provision_ref": "s357",
+      "section": "357",
+      "title": "357",
+      "content": "c) a hardverek védelmével kapcsolatos feladatok végrehajtását;"
+    },
+    {
+      "provision_ref": "s358",
+      "section": "358",
+      "title": "358",
+      "content": "d) a biztonsági beállításokat, naplófájlokat, a biztonsági mentések végrehajtását;"
+    },
+    {
+      "provision_ref": "s359",
+      "section": "359",
+      "title": "359",
+      "content": "e) a jogosulatlan hozzáférési kísérletek tényét;"
+    },
+    {
+      "provision_ref": "s360",
+      "section": "360",
+      "title": "360",
+      "content": "f) a rendszerhez nem tartozó eszközök illetéktelen csatlakoztatása elleni védelmére vonatkozó követelmények ellenőrzésének eredményét;"
+    },
+    {
+      "provision_ref": "s361",
+      "section": "361",
+      "title": "361",
+      "content": "g) a kompromittáló kisugárzás elleni védelemre (TEMPEST) vonatkozó követelmények ellenőrzésének eredményét."
+    },
+    {
+      "provision_ref": "s362",
+      "section": "362",
+      "title": "362",
+      "content": "132. A rendszeradminisztrátor a karbantartási naplóban rögzíti az operációs rendszer és a vírusvédelmi szoftver frissítésének, valamint a további karbantartási tevékenységek elvégzését."
+    },
+    {
+      "provision_ref": "s363",
+      "section": "363",
+      "title": "363",
+      "content": "21. Az adathordozók kezelése"
+    },
+    {
+      "provision_ref": "s364",
+      "section": "364",
+      "title": "364",
+      "content": "133. A minősített adatot kezelő elektronikus információs rendszerben alkalmazott adathordozót nyilvántartásba kell venni. Az adathordozón fel kell tüntetni a nyilvántartási számot, a rajta tárolt minősített adat minősítési – nemzeti, NATO, EU (e fejezet alkalmazásában a továbbiakban: adatkör) – jelölését és a legmagasabb minősítési szintet."
+    },
+    {
+      "provision_ref": "s365",
+      "section": "365",
+      "title": "365",
+      "content": "134. A II. osztályú biztonsági területen telepített „Korlátozott terjesztésű!” minősítési szintű minősített adatot, illetve a legfeljebb „Bizalmas!” minősítési szintű nemzeti minősített adatot kezelő elektronikus információs rendszerben beépített merevlemez alkalmazható, ha a merevlemez engedélyezett eljárással titkosításra került, ennek hiányában kivehető merevlemezt kell alkalmazni. A merevlemez titkosítására szoftveres titkosító program használható."
+    },
+    {
+      "provision_ref": "s366",
+      "section": "366",
+      "title": "366",
+      "content": "135. Amennyiben a legfeljebb „Titkos!” minősítési szintű nemzeti minősített adatot kezelő elektronikus információs rendszer és annak elemei I. kategóriájú biztonsági tároló használatával engedélyezett II. osztályú biztonsági területen helyezkednek el, a minősített adathordozó tekintetében biztonsági tárolónak, illetve zárnak tekinthető az adathordozóhoz való hozzáférést, illetve annak eltávolítását akadályozó zárható burkolat vagy hagyományos zárszerkezet."
+    },
+    {
+      "provision_ref": "s367",
+      "section": "367",
+      "title": "367",
+      "content": "136. Az I. osztályú biztonsági területen telepített minősített adatot kezelő elektronikus információs rendszerben beépített merevlemez alkalmazható."
+    },
+    {
+      "provision_ref": "s368",
+      "section": "368",
+      "title": "368",
+      "content": "137. A minősített adatokat kezelő elektronikus információs rendszeren egy adathordozón több adatkör is kezelhető."
+    },
+    {
+      "provision_ref": "s369",
+      "section": "369",
+      "title": "369",
+      "content": "138. A minősített adatot kezelő elektronikus információs rendszerben alkalmazott kivehető merevlemezt a minősítési szintjének megfelelően kell tárolni."
+    },
+    {
+      "provision_ref": "s370",
+      "section": "370",
+      "title": "370",
+      "content": "139. A biztonsági tárolót kizárólag a titkos ügykezelő nyithatja ki. Használat előtt a titkos ügykezelő adja ki a merevlemezt a felhasználó részére. Az átadás tényét a merevlemez kiadási naplóban dokumentálni kell. Használat után a felhasználó a merevlemez kiadási naplóban dokumentáltan visszaadja a merevlemezt a titkos ügykezelő részére."
+    },
+    {
+      "provision_ref": "s371",
+      "section": "371",
+      "title": "371",
+      "content": "140. Az adathordozókat az életciklusuk végén ki kell vonni a használatból. a „Korlátozott terjesztésű!” és a „Bizalmas!” minősítési szintű adatot tartalmazó adathordozót biztonságos adattörlési eljárást alkalmazó szoftverrel kell törölni annak érdekében, hogy a rajta tárolt minősített adat ne legyen visszaállítható. A „Korlátozott terjesztésű!” minősítési szintű adathordozót háromszoros, a „Bizalmas!” minősítési szintű adathordozót hétszeres törlési-felülírási metódussal kell törölni."
+    },
+    {
+      "provision_ref": "s372",
+      "section": "372",
+      "title": "372",
+      "content": "141. A „Titkos!” és a „Szigorúan titkos!” minősítési szintű adathordozót fizikailag meg kell semmisíteni, az újra nem használható fel."
+    },
+    {
+      "provision_ref": "s373",
+      "section": "373",
+      "title": "373",
+      "content": "142. A törlést, valamint az adathordozó megsemmisítését az erre a feladatra kialakított legalább három főből álló bizottság létrehozásával, jegyzőkönyv felvétele mellett kell elvégezni."
+    },
+    {
+      "provision_ref": "s374",
+      "section": "374",
+      "title": "374",
+      "content": "22. Minősített adatot kezelő elektronikus információs rendszer felfüggesztése"
+    },
+    {
+      "provision_ref": "s375",
+      "section": "375",
+      "title": "375",
+      "content": "143. Felhasználói igény hiányában a biztonsági vezető – az NBF tájékoztatásával – engedélyezi a minősített adatot kezelő elektronikus információs rendszer működésének felfüggesztését."
+    },
+    {
+      "provision_ref": "s376",
+      "section": "376",
+      "title": "376",
+      "content": "144. A minősített adatot kezelő elektronikus információs rendszer működésének felfüggesztését az NBF honlapján elhelyezett formanyomtatványon kell engedélyezni. A kitöltött és kiadmányozott felfüggesztési engedélyt iktatni kell. a működés felfüggesztését az ÜBSZ-ben és a karbantartási naplóban is dokumentálni kell."
+    },
+    {
+      "provision_ref": "s377",
+      "section": "377",
+      "title": "377",
+      "content": "145. A rendszeradminisztrátor a minősített adatot kezelő elektronikus információs rendszer újbóli használata előtt köteles elvégezni az operációs elektronikus információs rendszer, a vírusadatbázis és a biztonsági konfiguráció aktuális állapotra történő frissítését."
+    },
+    {
+      "provision_ref": "s378",
+      "section": "378",
+      "title": "378",
+      "content": "146. A rendszerbiztonsági felügyelő a minősített adatot kezelő elektronikus információs rendszer újbóli használata előtt köteles ellenőrizni a elektronikus információs rendszer naprakészségét, a biztonsági konfigurációt és a rendszerrel kapcsolatos további személyi, fizikai, adminisztratív biztonsági követelmények teljesülését. Az ellenőrzés eredményét ellenőrzési naplóban kell dokumentálni."
+    },
+    {
+      "provision_ref": "s379",
+      "section": "379",
+      "title": "379",
+      "content": "VI. FEJEZET"
+    },
+    {
+      "provision_ref": "s380",
+      "section": "380",
+      "title": "380",
+      "content": "EGYÉB RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s381",
+      "section": "381",
+      "title": "381",
+      "content": "23. Az ellenőrzés"
+    },
+    {
+      "provision_ref": "s382",
+      "section": "382",
+      "title": "382",
+      "content": "147. Az éves ellenőrzés végrehajtására – annak megkezdése előtt legalább egy hónappal – a biztonsági vezető a minősített adatot kezelő szerv vezetője által jóváhagyott ellenőrzési tervet készít, amelyben meghatározza az ellenőrzés részletes szabályait."
+    },
+    {
+      "provision_ref": "s383",
+      "section": "383",
+      "title": "383",
+      "content": "148. Az adminisztratív biztonsági intézkedések ellenőrzése során vizsgálni kell, hogy a minősített adatot kezelő szervnél készített vagy hozzá érkezett minősített iratok hiánytalanul megvannak-e, valamint a felhasználók részéről ténylegesen történt-e minősített adat felhasználása."
+    },
+    {
+      "provision_ref": "s384",
+      "section": "384",
+      "title": "384",
+      "content": "149."
+    },
+    {
+      "provision_ref": "s385",
+      "section": "385",
+      "title": "385",
+      "content": "150. Az ellenőrzés végrehajtásában részt vevő személyeknek az ellenőrzés alá vont legmagasabb minősítési szintű minősített adat felhasználásához szükséges személyi biztonsági feltételeknek kell megfelelnie."
+    },
+    {
+      "provision_ref": "s386",
+      "section": "386",
+      "title": "386",
+      "content": "151. Az éves ellenőrzés végrehajtásáról jegyzőkönyvet kell készíteni, amelynek mellékletét képezik a Nyilvántartó, a Kezelőpont és a felhasználók ellenőrzéséről készített jegyzőkönyvek."
+    },
+    {
+      "provision_ref": "s387",
+      "section": "387",
+      "title": "387",
+      "content": "152. Amennyiben az NBF a területi vagy helyi minősített adatot kezelő szervnél – a Mavtv. 20. § (2) bekezdés g), h), j), k) pontja alapján – ellenőrzést vagy vizsgálatot folytat, az ellenőrzés vagy a vizsgálat időpontjáról az érintett minősített adatot kezelő szerv biztonsági vezetője tájékoztatja az ORFK biztonsági vezetőjét."
+    },
+    {
+      "provision_ref": "s388",
+      "section": "388",
+      "title": "388",
+      "content": "153. A biztonsági vezető döntése alapján részleges vagy teljes tételes ellenőrzést kell végrehajtani a titkos ügykezelő személyének változása – kinevezés, kinevezés visszavonása, helyettesítésre kijelölés – esetén. Részleges tételes ellenőrzés akkor határozható meg, amennyiben a titkos ügykezelők feladatkörei adminisztratív szempontból jól elkülöníthetők, egymástól fizikailag elhatárolhatók, feltéve, hogy az egyes részfeladatok vonatkozásában egymás helyettesítésére nem jogosultak."
+    },
+    {
+      "provision_ref": "s389",
+      "section": "389",
+      "title": "389",
+      "content": "24. A minősített adat biztonságának megsértése esetén követendő eljárás"
+    },
+    {
+      "provision_ref": "s390",
+      "section": "390",
+      "title": "390",
+      "content": "154. A Mavtv. 19. § (2) bekezdésében meghatározott esetekben, amennyiben külföldi minősített adat vagy nemzeti „Szigorúan titkos”, „Titkos”, valamint „Bizalmas” minősítési szintű adat illetéktelen személy részére hozzáférhetővé válhatott, vagy ennek veszélye fennáll, a minősített adatot kezelő szerv vezetője a minősítő és az NBF mellett az ORFK biztonsági vezetőjét is soron kívül, de legkésőbb 10 napon belül köteles tájékoztatni. Minden egyéb, a minősített adat védelmére vonatkozó szabály megsértése esetén a biztonsági vezető mellett a minősítőt és az ORFK biztonsági vezetőjét kell tájékoztatni."
+    },
+    {
+      "provision_ref": "s391",
+      "section": "391",
+      "title": "391",
+      "content": "155. A Mavtv. 19. § (2) bekezdésének második mondatában meghatározott esetekben a helyi és a területi szerv vezetője a tájékoztatást közvetlenül küldi meg az NBF vezetőjének, egyidejűleg pedig az ORFK biztonsági vezetőjének. A helyi szerv vezetője a jelentést az irányító területi szerv biztonsági vezetőjének is megküldi."
+    },
+    {
+      "provision_ref": "s392",
+      "section": "392",
+      "title": "392",
+      "content": "156. A minősített adatot kezelő szerv biztonsági vezetője köteles gondoskodni a minősített adat biztonságának megsértése esetén annak soron kívüli kivizsgálásáról, a felmerülő kár felméréséről és az enyhítéséhez szükséges intézkedések megtételéről, valamint – ha lehetséges – a jogszerű állapot helyreállításáról, a vizsgálat eredményének jelentésben (a továbbiakban: jelentés) történő rögzítéséről."
+    },
+    {
+      "provision_ref": "s393",
+      "section": "393",
+      "title": "393",
+      "content": "157. Amennyiben a minősített adat biztonságának megsértése az ORFK-nál következett be, a jelentést az ORFK biztonsági vezetője felterjeszti az országos rendőrfőkapitánynak az NBF elnökének történő továbbítás érdekében."
+    },
+    {
+      "provision_ref": "s394",
+      "section": "394",
+      "title": "394",
+      "content": "158. A jelentésnek a Korm. rendelet 60. § (2) bekezdésében meghatározottakat kell tartalmaznia, ennek kapcsán"
+    },
+    {
+      "provision_ref": "s395",
+      "section": "395",
+      "title": "395",
+      "content": "a) a Korm. rendelet 60. § (2) bekezdés a) pontjában meghatározottakkal összefüggésben"
+    },
+    {
+      "provision_ref": "s396",
+      "section": "396",
+      "title": "396",
+      "content": "aa) az adatok minősítési szintjét és érvényességi idejét,"
+    },
+    {
+      "provision_ref": "s397",
+      "section": "397",
+      "title": "397",
+      "content": "ab) a minősítő nevét, beosztását, munkakörét,"
+    },
+    {
+      "provision_ref": "s398",
+      "section": "398",
+      "title": "398",
+      "content": "ac) az iktatószámot, példánysorszámot,"
+    },
+    {
+      "provision_ref": "s399",
+      "section": "399",
+      "title": "399",
+      "content": "ad) azt, hogy a jogszabályi előírásoknak megfelelően került-e sor a minősítési eljárásra,"
+    },
+    {
+      "provision_ref": "s400",
+      "section": "400",
+      "title": "400",
+      "content": "ae) azt, hogy mikor történt a minősítés,"
+    },
+    {
+      "provision_ref": "s401",
+      "section": "401",
+      "title": "401",
+      "content": "af) azt, hogy sor került-e a minősített adatok felülvizsgálatára;"
+    },
+    {
+      "provision_ref": "s402",
+      "section": "402",
+      "title": "402",
+      "content": "b) a Korm. rendelet 60. § (2) bekezdés b) pontjában meghatározottakkal összefüggésben az érintett minősített adatot kezelő szerv papíralapú és/vagy elektronikus nyilvántartási rendszere vizsgálatának eredményét, a minősített adatokat kezelő, ahhoz hozzáférő felhasználók nyilatkozata alapján a minősített adatok útjának nyomon követését;"
+    },
+    {
+      "provision_ref": "s403",
+      "section": "403",
+      "title": "403",
+      "content": "c) a Korm. rendelet 60. § (2) bekezdés c) pontjában meghatározottakkal összefüggésben"
+    },
+    {
+      "provision_ref": "s404",
+      "section": "404",
+      "title": "404",
+      "content": "ca) a minősített adatok érkeztetésének, nyilvántartásba vételének, valamint a minősített adat biztonsága megsértése észlelésének időpontját;"
+    },
+    {
+      "provision_ref": "s405",
+      "section": "405",
+      "title": "405",
+      "content": "cb) a felhasználás és a tárolás helyét."
+    },
+    {
+      "provision_ref": "s406",
+      "section": "406",
+      "title": "406",
+      "content": "159. Amennyiben a vizsgálat során a minősített adatot kezelő helyi szerv vezetőjének, biztonsági vezetőjének vagy a helyettes biztonsági vezetőjének az érintettsége felmerül, a vizsgálat felfüggesztése mellett a helyi szerv vezetője haladéktalanul tájékoztatja az irányító területi szerv biztonsági vezetőjét, aki intézkedik a vizsgálat átvételére és lefolytatására és az ORFK biztonsági vezetőjének tájékoztatására."
+    },
+    {
+      "provision_ref": "s407",
+      "section": "407",
+      "title": "407",
+      "content": "159/A. Amennyiben a vizsgálat során a minősített adatot kezelő területi szerv vezetőjének, biztonsági vezetőjének vagy a helyettes biztonsági vezetőjének az érintettsége felmerül, a vizsgálat felfüggesztése mellett a területi szerv vezetője haladéktalanul tájékoztatja az ORFK biztonsági vezetőjét, aki intézkedik a vizsgálat átvételére és lefolytatására."
+    },
+    {
+      "provision_ref": "s408",
+      "section": "408",
+      "title": "408",
+      "content": "25. Minősített adatok kezelése a minősített adatot kezelő szerv szervezeti egységének vagy szervezeti elemének megszűnése, illetve feladat- és hatáskörének változása esetén"
+    },
+    {
+      "provision_ref": "s409",
+      "section": "409",
+      "title": "409",
+      "content": "160. A minősített adatot kezelő szerv szervezeti egységének vagy szervezeti elemének megszűnése esetén a felhasználóktól a minősített adatokat vissza kell vonni a Kezelőpontra vagy a Nyilvántartóba, és jegyzéken át kell adni a feladatkört átvevő szervezeti egység vagy szervezeti elem részére."
+    },
+    {
+      "provision_ref": "s410",
+      "section": "410",
+      "title": "410",
+      "content": "161. A jegyzék évek szerint, a nyilvántartási (iktató) számok emelkedő sorrendjében tartalmazza a folyamatban lévő ügyek minősített adathordozóinak"
+    },
+    {
+      "provision_ref": "s411",
+      "section": "411",
+      "title": "411",
+      "content": "a) nyilvántartási számát;"
+    },
+    {
+      "provision_ref": "s412",
+      "section": "412",
+      "title": "412",
+      "content": "b) tárgyát;"
+    },
+    {
+      "provision_ref": "s413",
+      "section": "413",
+      "title": "413",
+      "content": "c) példánysorszámát;"
+    },
+    {
+      "provision_ref": "s414",
+      "section": "414",
+      "title": "414",
+      "content": "d) lapterjedelmét;"
+    },
+    {
+      "provision_ref": "s415",
+      "section": "415",
+      "title": "415",
+      "content": "e) minősítését."
+    },
+    {
+      "provision_ref": "s416",
+      "section": "416",
+      "title": "416",
+      "content": "26. Minősített adat vészhelyzetben történő védelme"
+    },
+    {
+      "provision_ref": "s417",
+      "section": "417",
+      "title": "417",
+      "content": "162. A minősített adatot kezelő szerv vezetője – a minősített adatot kezelő szerv adottságait figyelembe véve – a minősített adatot veszélyeztető esetekre (így különösen vízkár, tűzkár) a minősített adat védelmi előírásait a biztonsági szabályzatban rögzíti."
+    },
+    {
+      "provision_ref": "s418",
+      "section": "418",
+      "title": "418",
+      "content": "VII. FEJEZET"
+    },
+    {
+      "provision_ref": "s419",
+      "section": "419",
+      "title": "419",
+      "content": "ZÁRÓ RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s420",
+      "section": "420",
+      "title": "420",
+      "content": "163. Ez az utasítás a közzétételét követő hónap első napján lép hatályba."
+    },
+    {
+      "provision_ref": "s421",
+      "section": "421",
+      "title": "421",
+      "content": "164. A Rendőrség objektumait érintő átépítés, felújítás, új épület kivitelezése esetén az érintett szerv biztonsági vezetőjének egyetértését ki kell kérni a biztonsági terület kialakításáról, a javaslatait az engedélyezési eljárás és a kivitelezési eljárás során figyelembe kell venni."
+    },
+    {
+      "provision_ref": "s422",
+      "section": "422",
+      "title": "422",
+      "content": "165. A minősített adatot kezelő szervek az utasítás hatálybalépését követő 60 napon belül kötelesek az általuk kiadott biztonsági szabályzat, ÜBSZ és a veszélyhelyzeti terv felülvizsgálatát elvégezni."
+    },
+    {
+      "provision_ref": "s423",
+      "section": "423",
+      "title": "423",
+      "content": "166. A folyamatban lévő ügyekben a minősítői jogkör átruházásáról és a minősített adatok kezelésére vonatkozó szabályokról szóló 34/2019. (IX. 26.) ORFK utasítás módosításáról szóló 6/2024. (II. 29.) ORFK utasítással (a továbbiakban: Módut.) bevezetett szignálólapot első alkalommal a Módut. hatálybalépését követő első szignálás során kell alkalmazni."
+    },
+    {
+      "provision_ref": "s424",
+      "section": "424",
+      "title": "424",
+      "content": "167. Az elektronikus és a fizikai biztonsági követelmények teljesüléséért, a minősített adatok biztonságáért a minősített adatot kezelő szerv vezetője felelős."
+    },
+    {
+      "provision_ref": "s425",
+      "section": "425",
+      "title": "425",
+      "content": "168. A műveleti területen alkalmazott szabályok tekintetében a Korm. rendelet 59. § (3) bekezdésben foglaltak alapján kell eljárni, ez erre vonatkozó egyedi biztonsági intézkedéseket a művelet végrehajtására készített tervben kell rögzíteni."
+    },
+    {
+      "provision_ref": "s426",
+      "section": "426",
+      "title": "426",
+      "content": "169. A minősített adatot kezelő szerv köteles az utasításban meghatározottak végrehajtása érdekében az ORFK biztonsági vezetője által kiadott iratmintatárban meghatározott iratminták egységes alkalmazására. Az ORFK biztonsági vezetője szükséges esetben – így különösen jogszabályváltozás esetén – gondoskodik az iratmintatár frissítéséről."
+    },
+    {
+      "provision_ref": "s427",
+      "section": "427",
+      "title": "427",
+      "content": "169/A. A minősített adatok kezelésével kapcsolatos képzések és vizsgáztatások elektronikus formában is végrehajthatók."
+    },
+    {
+      "provision_ref": "s428",
+      "section": "428",
+      "title": "428",
+      "content": "170. 1 Az 1. pont b) alpontja a 40/2022. (XII. 30.) ORFK utasítás 159. pontja, a 17/2025. (VI. 30.) ORFK utasítás 53. pontja szerint módosított szöveg. 2 A 2. pont a 7/2026. (V. 18.) ORFK utasítás 1. pontjával megállapított szöveg. 3 A 3. pont b) alpont bb) pontja a 10/2023. (IV. 6.) ORFK utasítás 20. pontjával megállapított szöveg. 4 A 7. pont a 7/2026. (V. 18.) ORFK utasítás 2. pontjával megállapított szöveg. 5 A 9. pont nyitó szövegrésze a 18/2021. (IX. 13.) ORFK utasítás 24. pont a) alpontja szerint módosított szöveg. 6 A 9. pont bb) alpontja a 7/2026. (V. 18.) ORFK utasítás 3. pontja iktatta be. 7 A 9. pont j) alpontja a 6/2024. (II. 29.) ORFK utasítás 1. pontjával megállapított szöveg. 8 A 9. pont k) alpontja a 18/2021. (IX. 13.) ORFK utasítás 1. pontjával megállapított, a 6/2024. (II. 29.) ORFK utasítás 16. pont a) alpontja szerint módosított szöveg. 9 A 9. pont m) alpontja a 7/2026. (V. 18.) ORFK utasítás 27. pont a) pontja szerint módosított szöveg. 10 A 9. pont n) alpontja a 18/2021. (IX. 13.) ORFK utasítás 2. pontjával megállapított szöveg. 11 A 9. pont q) alpontja a 18/2021. (IX. 13.) ORFK utasítás 24. pont b) alpontja szerint módosított szöveg. 12 A 9. pont r) alpontját a 18/2021. (IX. 13.) ORFK utasítás 3. pontja iktatta be. 13 A 9. pont s) alpontját a 18/2021. (IX. 13.) ORFK utasítás 3. pontja iktatta be. 14 A 9. pont t) alpontját a 18/2021. (IX. 13.) ORFK utasítás 3. pontja iktatta be. 15 A 9. pont u) alpontját a 18/2021. (IX. 13.) ORFK utasítás 3. pontja iktatta be. 16 A 9. pont v) alpontját a 6/2024. (II. 29.) ORFK utasítás 2. pontja iktatta be. 17 A 9. pont w) alpontját a 6/2024. (II. 29.) ORFK utasítás 2. pontja iktatta be. 18 A 9. pont x) alpontját a 6/2024. (II. 29.) ORFK utasítás 2. pontja iktatta be, szövege a 7/2026. (V. 18.) ORFK utasítás 26. pont a) pontja szerint módosított szöveg. 19 A 9. pont y) alpontját a 6/2024. (II. 29.) ORFK utasítás 2. pontja iktatta be. 20 A 9. pont z) alpontját a 6/2024. (II. 29.) ORFK utasítás 2. pontja iktatta be. 21 A 9. pont aa) alpontját a 6/2024. (II. 29.) ORFK utasítás 2. pontja iktatta be. 22 A 10. pontot a 6/2024. (II. 29.) ORFK utasítás 16. pont b) alpontja hatályon kívül helyezte. 23 A 12. pont a) alpontja a 7/2026. (V. 18.) ORFK utasítás 4. pontjával megállapított szöveg. 24 A 12. pont b) alpontja a 18/2021. (IX. 13.) ORFK utasítás 5. pontjával megállapított szöveg. 25 A 12. pont c) alpontját a 18/2021. (IX. 13.) ORFK utasítás 27. pont a) alpontja hatályon kívül helyezte. 26 A 12. pont e) alpontja a 18/2021. (IX. 13.) ORFK utasítás 24. pont c) alpontja szerint módosított szöveg. 27 A 12. pont f) alpontja a 6/2024. (II. 29.) ORFK utasítás 3. pontjával megállapított szöveg. 28 A 12. pont m) alpontja a 6/2024. (II. 29.) ORFK utasítás 13. pont a) alpontja szerint módosított szöveg. 29 A 12. pont p) alpontját a 18/2021. (IX. 13.) ORFK utasítás 7. pontja iktatta be, szövege a 6/2024. (II. 29.) ORFK utasítás 16. pont c) alpontja szerint módosított szöveg. 30 A 12. pont q) alpontját a 18/2021. (IX. 13.) ORFK utasítás 7. pontja iktatta be. 31 A 13. pont b) alpontja a 6/2024. (II. 29.) ORFK utasítás 4. pontjával megállapított szöveg. 32 A 13. pont g) alpontja a 7/2026. (V. 18.) ORFK utasítás 5. pontjával megállapított szöveg. 33 A 13. pont h) alpontját a 18/2021. (IX. 13.) ORFK utasítás 9. pontja iktatta be, szövege a 6/2024. (II. 29.) ORFK utasítás 16. pont d) alpontja szerint módosított szöveg. 34 A 13. pont i) alpontját a 18/2021. (IX. 13.) ORFK utasítás 9. pontja iktatta be. 35 A 4. alcím címe a 6/2024. (II. 29.) ORFK utasítás 16. pont e) alpontja szerint módosított szöveg. 36 A 14. pont a 7/2026. (V. 18.) ORFK utasítás 6. pontjával megállapított szöveg. 37 A 15. pont a 7/2026. (V. 18.) ORFK utasítás 6. pontjával megállapított szöveg. 38 A 16. pont a 7/2026. (V. 18.) ORFK utasítás 6. pontjával megállapított szöveg. 39 A 17. pontot a 18/2021. (IX. 13.) ORFK utasítás 27. pont b) alpontja hatályon kívül helyezte. 40 A 18. pont a 6/2024. (II. 29.) ORFK utasítás 6. pontjával megállapított szöveg. 41 A 19. pont a 7/2026. (V. 18.) ORFK utasítás 7. pontjával megállapított szöveg. 42 A 20. pont a 6/2024. (II. 29.) ORFK utasítás 6. pontjával megállapított szöveg. 43 A 4/A. alcímet (21/A-21/F. pont) a 6/2024. (II. 29.) ORFK utasítás 7. pontja iktatta be. 44 A 21/A. pont a 7/2026. (V. 18.) ORFK utasítás 8. pontjával megállapított szöveg. 45 A 21/B. pont a 7/2026. (V. 18.) ORFK utasítás 8. pontjával megállapított szöveg. 46 A 21/D. pont a 7/2026. (V. 18.) ORFK utasítás 9. pontjával megállapított szöveg. 47 A 21/E. pont a 7/2026. (V. 18.) ORFK utasítás 9. pontjával megállapított szöveg. 48 A 21/F. pont a 7/2026. (V. 18.) ORFK utasítás 9. pontjával megállapított szöveg. 49 A 31. pont a 11/2025. (IV. 10.) ORFK utasítás 43. pontja szerint módosított szöveg. 50 A 31/A. pontot a 7/2026. (V. 18.) ORFK utasítás 10. pontja iktatta be. 51 A 32. pont a 7/2026. (V. 18.) ORFK utasítás 27. pont b) pontja szerint módosított szöveg. 52 Az 54/A. pontot a 18/2021. (IX. 13.) ORFK utasítás 12. pontja iktatta be. 53 A 68. pontot a 6/2024. (II. 29.) ORFK utasítás 16. pont g) alpontja hatályon kívül helyezte. 54 A 10. alcím címe a 6/2024. (II. 29.) ORFK utasítás 8. pontjával megállapított szöveg. 55 A 77/A. pontot a 6/2024. (II. 29.) ORFK utasítás 9. pontja iktatta be. 56 A 78. pont c) alpont cg) pontja a 7/2026. (V. 18.) ORFK utasítás 11. pontjával megállapított szöveg. 57 A 78. pont c) alpont ch) pontja a 7/2026. (V. 18.) ORFK utasítás 11. pontjával megállapított szöveg. 58 A 78. pont c) alpont ci) pontja a 7/2026. (V. 18.) ORFK utasítás 11. pontjával megállapított szöveg. 59 A 82. pont b) alpontja a 6/2024. (II. 29.) ORFK utasítás 10. pontjával megállapított szöveg. 60 A 82. pont h) alpontja a 6/2024. (II. 29.) ORFK utasítás 13. pont b) alpontja szerint módosított szöveg. 61 A 82. pont l) alpontja a 6/2024. (II. 29.) ORFK utasítás 13. pont c) alpontja szerint módosított szöveg. 62 A 83. pont a 7/2026. (V. 18.) ORFK utasítás 12. pontjával megállapított szöveg. 63 A 86. pontot a 6/2024. (II. 29.) ORFK utasítás 16. pont h) alpontja hatályon kívül helyezte. 64 A 88. pont a 7/2026. (V. 18.) ORFK utasítás 13. pontjával megállapított szöveg. 65 A 89. pont a 7/2026. (V. 18.) ORFK utasítás 26. pont b) pontja szerint módosított szöveg. 66 A 90. pont a 18/2021. (IX. 13.) ORFK utasítás 24. pont e) alpontja szerint módosított szöveg. 67 A 91. pont a 18/2021. (IX. 13.) ORFK utasítás 24. pont f) alpontja szerint módosított szöveg. 68 A 92. pont a) alpontját a 6/2024. (II. 29.) ORFK utasítás 16. pont i) alpontja hatályon kívül helyezte. 69 A 93. pont a 18/2021. (IX. 13.) ORFK utasítás 24. pont g) alpontja szerint módosított szöveg. 70 A 96. pont a 10/2023. (IV. 6.) ORFK utasítás 21. pontja, a 17/2025. (VI. 30.) ORFK utasítás 52. pontja szerint módosított szöveg. 71 A 98. pont a 18/2021. (IX. 13.) ORFK utasítás 13. pontjával megállapított szöveg. 72 A 99. pont a 6/2024. (II. 29.) ORFK utasítás 11. pontjával megállapított szöveg. 73 A 104. pont a 18/2021. (IX. 13.) ORFK utasítás 14. pontjával megállapított szöveg. 74 A 105. pontot a 6/2024. (II. 29.) ORFK utasítás 16. pont j) alpontja hatályon kívül helyezte. 75 A 107/A. pontot a 7/2026. (V. 18.) ORFK utasítás 14. pontja iktatta be. 76 A 109. pont a 7/2026. (V. 18.) ORFK utasítás 26. pont c) pontja szerint módosított szöveg. 77 A 16. alcím címe a 7/2026. (V. 18.) ORFK utasítás 15. pontjával megállapított szöveg. 78 A 110. pont a 18/2021. (IX. 13.) ORFK utasítás 24. pont h) alpontja szerint módosított szöveg. 79 A 111. pont a 18/2021. (IX. 13.) ORFK utasítás 24. pont i) alpontja szerint módosított szöveg. 80 A 112. pont a 18/2021. (IX. 13.) ORFK utasítás 24. pont j) alpontja szerint módosított szöveg. 81 A 113. pont nyitó szövegrésze a 7/2026. (V. 18.) ORFK utasítás 16. pontjával megállapított szöveg. 82 A 113. pont b) alpontja a 7/2026. (V. 18.) ORFK utasítás 26. pont d) pontja szerint módosított szöveg. 83 A 113. pont e) alpontja a 7/2026. (V. 18.) ORFK utasítás 17. pontjával megállapított szöveg. 84 A 113. pont f) alpontja a 7/2026. (V. 18.) ORFK utasítás 17. pontjával megállapított szöveg. 85 A 113. pont h) alpontja a 7/2026. (V. 18.) ORFK utasítás 26. pont e) pontja szerint módosított szöveg. 86 A 113. pont l) alpontját a 7/2026. (V. 18.) ORFK utasítás 18. pontja iktatta be. 87 A 114. pont a 7/2026. (V. 18.) ORFK utasítás 19. pontjával megállapított szöveg. 88 A 114/A pontot a 7/2026. (V. 18.) ORFK utasítás 20. pontja iktatta be. 89 A 115. pont a) alpontja a 7/2026. (V. 18.) ORFK utasítás 21. pontjával megállapított szöveg. 90 A 115. pont b) alpontja a 7/2026. (V. 18.) ORFK utasítás 21. pontjával megállapított szöveg. 91 A 115. pont d) alpontja a 17/2025. (VI. 30.) ORFK utasítás 51. pontjával megállapított szöveg. 92 A 117. pont a 40/2022. (XII. 30.) ORFK utasítás 159. pontja szerint módosított szöveg. 93 A 118. pontja a 6/2024. (II. 29.) ORFK utasítás 16. pont k) alpontja szerint módosított szöveg. 94 A 121. pont nyitó szövegrésze a 7/2026. (V. 18.) ORFK utasítás 22. pontjával megállapított szöveg. 95 A 122. pont a 7/2026. (V. 18.) ORFK utasítás 26. pont a) pontja szerint módosított szöveg. 96 A 125. pont a 6/2024. (II. 29.) ORFK utasítás 13. pont d) alpontja szerint módosított szöveg. 97 A 126. pont a 7/2026. (V. 18.) ORFK utasítás 26. pont g) pontja szerint módosított szöveg. 98 A 127. pont nyitó szövegrésze a 7/2026. (V. 18.) ORFK utasítás 26. pont f) pontja szerint módosított szöveg. 99 A 127. pont f) alpontja a 18/2021. (IX. 13.) ORFK utasítás 18. pontjával megállapított szöveg. 100 A 130. pont a 18/2021. (IX. 13.) ORFK utasítás 19. pontjával megállapított, a 7/2026. (V. 18.) ORFK utasítás 26. pont g) pontja szerint módosított szöveg. 101 A 133. pont a 7/2026. (V. 18.) ORFK utasítás 26. pont i) pontja szerint módosított szöveg. 102 A 134. pont a 7/2026. (V. 18.) ORFK utasítás 26. pont j) pontja szerint módosított szöveg. 103 A 135. pont a 7/2026. (V. 18.) ORFK utasítás 26. pont g) pontja szerint módosított szöveg. 104 A 136. pont a 7/2026. (V. 18.) ORFK utasítás 26. pont i) pontja szerint módosított szöveg. 105 A 137. pont a 7/2026. (V. 18.) ORFK utasítás 26. pont a) pontja szerint módosított szöveg. 106 A 138. pont a 7/2026. (V. 18.) ORFK utasítás 26. pont i) pontja szerint módosított szöveg. 107 A 22. alcím címe a 7/2026. (V. 18.) ORFK utasítás 26. pont g) pontja szerint módosított szöveg. 108 A 143. pont a 7/2026. (V. 18.) ORFK utasítás 26. pont g) pontja szerint módosított szöveg. 109 A 144. pont a 7/2026. (V. 18.) ORFK utasítás 26. pont g) pontja szerint módosított szöveg. 110 A 145. pont a 7/2026. (V. 18.) ORFK utasítás 26. pont h) pontja szerint módosított szöveg. 111 A 146. pont a 7/2026. (V. 18.) ORFK utasítás 26. pont h) pontja szerint módosított szöveg. 112 A 148. pont a 6/2024. (II. 29.) ORFK utasítás 16. pont l) alpontja szerint módosított szöveg. 113 A 149. pontot a 6/2024. (II. 29.) ORFK utasítás 16. pont m) alpontja hatályon kívül helyezte. 114 A 151. pont a 18/2021. (IX. 13.) ORFK utasítás 20. pontjával megállapított szöveg. 115 A 154. pont a 7/2026. (V. 18.) ORFK utasítás 23. pontjával megállapított szöveg. 116 A 159. pont a 7/2026. (V. 18.) ORFK utasítás 24. pontjával megállapított szöveg. 117 A 159/A. pontot a 7/2026. (V. 18.) ORFK utasítás 25. pontja iktatta be. 118 A 160. pont a 18/2021. (IX. 13.) ORFK utasítás 24. pont l) alpontja szerint módosított szöveg. 119 A 162. pont a 18/2021. (IX. 13.) ORFK utasítás 21. pontjával megállapított szöveg. 120 A 164. pont a 18/2021. (IX. 13.) ORFK utasítás 24. pont m) alpontja szerint módosított szöveg. 121 A 166. pontot a 18/2021. (IX. 13.) ORFK utasítás 27. pont c) alpontja hatályon kívül helyezte, újonnan a 6/2024. (II. 29.) ORFK utasítás 12. pontja iktatta be. 122 A 169. pont a 18/2021. (IX. 13.) ORFK utasítás 22. pontjával megállapított szöveg. 123 A 169/A. pontot a 18/2021. (IX. 13.) ORFK utasítás 23. pontja iktatta be. 124 A 170. pont a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette."
+    }
+  ]
+}

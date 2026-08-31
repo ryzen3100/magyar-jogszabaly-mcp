@@ -1,0 +1,647 @@
+{
+  "id": "hu-law-2019-18-b0-3m",
+  "type": "statute",
+  "title": "18/2019. (XII. 13.) BVOP utasítás a büntetés-végrehajtási szervezet rádióforgalmi rendjének kialakításáról, az Egységes Digitális Rádiórendszer alkalmazásáról",
+  "status": "in_force",
+  "in_force_date": "2019-12-14",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2019-18-B0-3M",
+  "description": "a büntetés-végrehajtási szervezet rádióforgalmi rendjének kialakításáról, az Egységes Digitális Rádiórendszer alkalmazásáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A büntetés-végrehajtási szervezet belső szabályozási tevékenységéről szóló 2/2013. (IX. 13.) BVOP utasítás 7. pontja alapján – figyelemmel a kormányzati célú hálózatokról szóló 346/2010. (XII. 28.) Korm. rendelet előírásaira, az általános Egységes Digitális Rádiórendszer használati szabályzatára, valamint az Egységes Digitális Rádiórendszer általános rendészeti VPN használati szabályzatára – a Büntetés-végrehajtás Országos Parancsnoksága rádióforgalmi rendjének kialakítása, az Egységes Digitális Rádiórendszer alkalmazása és a rádióforgalmazási szabályok egységes végrehajtása érdekében az alábbi utasítást adom ki:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "I. AZ UTASÍTÁS HATÁLYA"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "1. Az utasítás hatálya"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "a) a Büntetés-végrehajtás Országos Parancsnoksága (a továbbiakban: BVOP),"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "b) a büntetés-végrehajtási intézetek,"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "c) a büntetés-végrehajtási intézmények,"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "d) a büntetés-végrehajtási gazdasági társaságok"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "(a továbbiakban mind együtt: bv. szervek) személyi állományára terjed ki."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "II. A RÁDIÓFORGALMAZÁS SZABÁLYAI"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "2. A rádióforgalmazás szabályaira a nem polgári célú frekvenciagazdálkodás egyes hatósági eljárásairól szóló 11/2011. (XII. 16.) NMHH rendelet 19. §-a az irányadó."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "3. A bv. szerv hívónév, hívószám táblázatát – a Rendészeti VPN Hívónév könyvnek megfelelően – az 1. melléklet tartalmazza, ettől eltérni tilos."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "3/A. Az 1. mellékletben található hívónevek, hívószámok aktualizálásáról a biztonsági szakterület köteles gondoskodni."
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "4. Az összeköttetés felvétele úgynevezett rövid csoporthívással történik, amelynek folyamata a következő:"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "a) Hívás: A hívott hívóneve kétszer ismételve: „Vételre jelentkezz!” felszólítással a hívó hívónevének közlésével;"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "b) Válasz: A hívott hívónevével azonosítja magát: „Vételen!”;"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "c) Befejezés: A közlemény végét a hívó: „Vége!” szóval fejezi be, a hívott: „Nyugta!” szóval azt tudomásul veszi."
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "5. Az Egységes Digitális Rádiórendszer (a továbbiakban: EDR) készülékeken az alapértelmezett forgalmazási mód a csoporthívás, egyéni hívást kezdeményezni csak különösen indokolt esetben, elsődlegesen a fogvatartás biztonságát veszélyeztető esemény észlelésekor, szolgálati érdekből lehet. Egyéni hívásnál a szűkös csatornakapacitás miatt törekedni kell arra, hogy a beszélgetés a lehető legrövidebb ideig tartson."
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "6. A VPN gazdaszervezet által jóváhagyott, az EDR alkalmazásáról szóló hatályos anyagot (Különös VPN Használati Szabályzat) a BVOP Informatikai Főosztálya (a továbbiakban: Informatikai Főosztály) a Tudástár/Informatika/EDR intranet oldalon publikálja."
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "III. AZ EDR HASZNÁLATA"
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "7. Forgalmi csoportok:"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "a) Az elsődleges (hazai) csoport vonatkozásában a rádiókészülékek programozásánál ki kell jelölni a felhasználó részére az elsődlegesen használatos rádiócsoportot – hazai csoport – amelyet alapvetően valamelyik diszpécser munkaállomáson meg kell jeleníteni. A bv. szerv vezetője szabályozza a hazai csoportról más forgalmi csoportra történő váltás szabályait;"
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "b) A belső és a külső együttműködési csoportok vonatkozásában a felhasználó szervezet vezetője szabályozza a belső és külső rádióforgalmi együttműködés szabályait, amely alapján a felhasználók rádiótermináljában, illetve a diszpécser állomásokon a szükséges csoportok programozása, DWS-en történő megjelenítése történik."
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "8. A vészhívás az EDR legmagasabb prioritású – hívásmegszakító jellegű – kommunikációja. A készenléti szolgálatoknál meghatározott hívószámú diszpécserállomásokon a legmagasabb prioritással biztosítani kell a segélyhívások fogadását, gondoskodni kell a segítségnyújtásra beállított diszpécserállomás folyamatos felügyeletéről és segítségkérés esetén az elsődleges intézkedés megtételéről. Amennyiben a felhasználó nem rendelkezik diszpécser-munkaállomással, csoportot vagy készüléket is be lehet állítani vészhelyzeti célként, de szabályozni kell a vészhívás kezelését és az arra teendő intézkedéseket. A VPN gazdaszervezet a felhasználó szervezetek tekintetében a felhasználó szervezet vezetőjének hatáskörébe utalja vészhelyzeti segélykérőhívás-fogadás módjának szabályozását. Lehetőség szerint valamely 24 órás ügyeletben lévő diszpécser-munkaállomáson használati joggal meg kell jeleníteni."
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "9. Vészhívás beérkezése esetén azonnal kapcsolatba kell lépni a hívást kezdeményező féllel, és tisztázni kell, hogy milyen segítségre van szüksége. Rögzíteni kell a tartózkodási helyét, és ennek megfelelően kell értesíteni a mentő, rendőr, illetve katasztrófavédelmi szervezeteket. Téves hívás esetén a hívót értesíteni kell a hívás megszakításáról. Amennyiben a probléma elhárításra került, vagy a hívó képes a kétirányú kommunikációra, akkor a készülék PTT gombjának benyomásával duplex hívássá alakítja az egyirányú hívást, így a vészhívás a szokásos csoportforgalmazás szabályai szerint történik. A vészhívás megszakítása csak a hívó fél által történhet, a hívásmegszakítás gomb hosszan történő megnyomásával és a felugró üzenet nyugtázásával. Szabálytalan megszakítás esetén a vészhívás beragad az ügyeleti rádión, és blokkolja a további forgalmazásokat, így azt a Pro-M tudja megszakítani."
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "10. A vészhelyzeti funkciógombot úgy kell programozni, hogy a gomb minimum 2 másodperces folyamatos nyomva tartása aktiválja a vészhelyzeti hívást, a kapcsolódó jelzési adási időt 15 másodpercre szükséges állítani. A vészhívás megjelenésének helyét a felhasználó szabályozza, azonban a fogadásról gondoskodni kell."
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "11. A Taqtilon készülékben a vészhelyzeti célt minden esetben be kell programozni."
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "12. A szolgálatot teljesítő állomány a vezeték nélküli kommunikációt elsősorban EDR terminálokon keresztül folytatja, indokolt esetben szolgálati mobiltelefon használható."
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "13. A forgalmi struktúra egységességének, homogenitásának megőrzése és a szervek közötti együttműködési feladatok rádiókommunikációjának biztosítására új forgalmi csoportokat csak indokolt esetben, az Informatikai Főosztály engedélyével lehet létrehozni."
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "14. Az együttműködési feladatok rádiókommunikációs hátterének biztosítására meghatározott együttműködési csoport valamennyi rádióterminálon programozásra kerül."
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "15. A külső együttműködési csoportokban bonyolítható le az egyes események, kárhelyszínek, katasztrófahelyzetek kezeléséhez szükséges rádiókommunikáció. A csoportokban a rendőrség, a mentőszolgálat, a katasztrófavédelem, a büntetés-végrehajtás között valósítható meg rádióforgalmazás."
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "16. Az együttműködési csatornák használatára csak indokolt esetben, elöljárói utasításra kerül sor."
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "17. Hálózati lefedettség esetén direkt üzemmód (DMO) használatára csak kivételesen, a hálózati rádiós lefedettség megszakadása esetén kerülhet sor, vagy akkor, ha az adott szolgálati feladat végrehajtása ezt indokolja."
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "18. Direkt üzemmód esetén a hálózaton működő készülékekkel nem létesíthető kapcsolat. A készülékek közötti kommunikációra nyílt terepen körülbelül 500–1000 méter hatókörzetben van lehetőség."
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "IV. AZ EDR ESZKÖZÖK HASZNÁLATA"
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "19. Az EDR terminálok működőképes állapotának fenntartásáért, a rendeltetésszerű használatért az eszköz használója, valamint a tárolásukkal megbízott személy anyagi és fegyelmi felelősséggel tartozik."
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "20. A kézi EDR rádiókészülékek, valamint a tartozékok elosztására a BVOP Biztonsági Szolgálata által készített javaslat alapján kerül sor."
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "21. Az EDR rádiókészülékek kiadása történhet"
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "a) névre szólóan: az érintett személy a készüléket személyesen veszi át az informatikai osztályról, annak rendeltetésszerű kezeléséért, állagmegóvásáért és tárolásáért egy személyben felelős;"
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "b) szolgálati vagy őrhelyen, beosztáshoz kötötten: a rádió rendeltetésszerű kezeléséért, állagmegóvásáért és tárolásáért a szolgálatban lévő személyi állományi tag felelős. A terminál átadás-átvétele a szolgálatteljesítés helyén történik, váltáskor a készülék megléte, állapota átadás-átvétel tárgyát képezi;"
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "c) feladatra: a rádiók meglétéért, állapotukért, töltöttségi szintjükért a tárolással megbízott a felelős. Átadás-átvételkor a működőképességet, állapotot ellenőrizni kell."
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "21/A. A fogvatartottak őrzését, felügyeletét, ellenőrzését ellátó személyi állománynak – beleértve az intézet mellett működő gazdasági társaság állományát is – az élőszavas kommunikáción túlmutató hírösszeköttetés és információáramlás biztosítása céljából elsődlegesen EDR rádiót kell alkalmazni. Ennek szavatolása érdekében valamennyi, fogvatartottak őrzésére, felügyeletére, ellenőrzésére rendeltetett szolgálati helyen, valamint a bv. szerv őrzését biztosító őrhelyen szolgálatot ellátó személyi állományt EDR rádióval kell ellátni."
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "22. A kézi terminálok akkumulátorainak megfelelő töltöttségi szintjét folyamatosan biztosítani kell. A feladatra kiadott készülékek töltéséért a biztonsági tiszt, a beosztáshoz használt készülékek töltéséért a szolgálatban lévő személyi állományi tag, míg az egyéni használatra kiadott készülékek töltéséért a használó a felelős."
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "23. A kiadott EDR rádiókészüléket szolgálatban a felhasználó köteles folyamatosan bekapcsolt állapotban és a meghatározott csatornán tartani. A szolgálatellátás folyamán az EDR rádiók indokolatlan halkítása és a néma üzemmód alaptalan alkalmazása tilos."
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "24. Az EDR rádiókészülékkel ellátott gépjármű igénybevétele esetén a gépjárművet igénybe vevő a bv. szerv területét csak a rádiókészülék bekapcsolt állapotában hagyhatja el."
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "25. Az EDR rádiókészülék terminál kezelése a szállítmányvezető feladata. Amennyiben nincs szállítmányvezető, a kezelés és a készüléken történő forgalmazás a gépjárművezető feladata."
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "26. A mobil (gépjármű) rádió kezelője köteles gondoskodni arról, hogy a szolgálati gépjármű elhagyásakor illetéktelen személyek a csatornán történő forgalmazást ne hallják, a készülékhez ne férjenek hozzá. A rádiók csak biztonsági kóddal indulhatnak, ennek meglétét ellenőrizni kell a rádió kezelőjének, így meggátolva a jogosulatlan használatot."
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "27. Az esetlegesen meghibásodott EDR rádiók mielőbbi javíttatására a megfelelő intézkedéseket haladéktalanul meg kell tenni. A hibás rádiókat dokumentáltan a biztonsági szakterület átadja a büntetés-végrehajtási intézetben szolgálatot teljesítő BVGEI informatikai szakterület részére, aki dokumentáltan a BVOP Informatikai Főosztálya felé továbbítja a szervizeltetés ügyintézése érdekében. Az EDR rádiókészülékek nyilvántartása, az átadás-átvétel okmányainak tárolása a BVGEI informatika feladata. A biztonsági szakterület, a szolgálati feladatok ellátásához szükséges EDR rádiókészülékek kiadását és visszavételét a „Fegyverzeti szakanyagok kiadási és visszavételi nyilvántartásban” dokumentálja."
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "28. Az EDR rádiókészülék meghibásodását, elvesztését, eltulajdonítását a szolgálatban lévő biztonsági tisztnek szóban haladéktalanul jelenteni kell. Az észlelő köteles ezt írásos formában is rögzíteni a kártérítési, fegyelmi felelősség megállapítása érdekében."
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "A keletkezett sérülésről hivatali munkaidőben az informatikai osztályvezetőt szóban, illetve az írásos jelentés biztonsági osztályvezető útján történő átadásával, a következő munkanapon tájékoztatni kell."
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "29. Az EDR rádiókészülék elvesztése, eltűnése esetén a BVOP főügyeletes részére szóban és írásban jelentést kell tenni."
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "V. A RÁDIÓTERMINÁLOK PROGRAMOZÁSÁNAK RENDJE"
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "30. A feladatok ellátása során a bv. szerv rendelkezésére álló EDR rádió készlet a szükséges mértékben kerüljön alkalmazásra. A működőképes EDR rádiók raktárkészletben tartása nem megengedett."
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "31. A rádióterminálok programozása a készülék gyártója által biztosított programozó készlettel történik. A készülék programozását az Informatikai Főosztály arra kijelölt, kiképzett tagja végezheti. A programozáshoz szükséges hardverkulcsot, illetve programozó eszközöket névre szólóan kell nyilvántartani. A programozói eszközök meglétét, azok kezelését mind a Szolgáltató, mind a VPN gazdaszervezet kijelölt személye ellenőrzi. A rádióterminálokba történő programozás csak az országos parancsnok által jóváhagyott rend szerint történhet. A készülékekbe beprogramozott csoportokról nyilvántartást kell vezetni."
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "32. Az EDR rádiókészülékek megfelelő programozásához szükséges alapparamétereket a Szolgáltató biztosítja, ettől való eltérés szolgálgatói engedélyhez kötött. A szolgáltatások használatát, valamint a jogosultságok beállításának rendjét az országos parancsnok szabályozza. A Szolgáltató jogosult a paraméterek ellenőrzésére és korlátozására."
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "33. Az EDR forgalmi csoportok alapparamétereinek beállítási adatait a Szolgáltató biztosítja."
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "34. Az országos parancsnok szabályozza, hogy a rádióterminálokba milyen forgalmi csoportok programozhatók, és az adott csoportok milyen rendszerezési elv alapján kerülnek bele a készülék mappáiba. A nyilvántartásnak tartalmazni kell a programozás idejét, a felprogramozott készülékek TEI számát, a hozzárendelt EDR hívószámot (ITSI) és a beprogramozott forgalmi csoportokat, mappákat, valamint a szervezeti egységet, amelyikhez a terminál hozzárendelésre került az EDR-ben."
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "35. A büntetés-végrehajtási szervezeten (a továbbiakban: bv. szervezet) belül törekedni kell az egységes csoportprogramozásra."
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "VI. HANG- ÉS JELENTÉSTÁROLÓ RENDSZER"
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "36. A BVOP tekintetében az EDR lehetőséget biztosít a csoportkommunikáció és a diszpécser-munkaállomáson történt mindenfajta tevékenység (például csoportlétrehozás, jogosultságok adása, elvonása) dokumentálására a központi hangrögzítő rendszer (a továbbiakban: AR) segítségével. Az AR tetszőleges, a jogosult által berendezett csoport kommunikációját képes rögzíteni attól függetlenül, hogy a rögzítendő csoport bármely DWS-en meg lenne nyitva. Az AR a rögzített anyagokat felhasználói beállítástól függően, de alapesetben naponta továbbítja a felhasználókhoz telepített kliensek felé, ahol az anyagokat a felhasználók archiválhatják."
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "37. A Szolgáltató a rögzített hanganyag visszahallgatását, a megfelelő kliens telepítésével minden DWS-en biztosítja. A visszahallgatás jogosultságait a Felhasználó AR menedzsere állítja be."
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "38."
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "39. A felhasználó szervezet köteles megtenni azokat a technikai és szervezési intézkedéseket, valamint kialakítani azokat az eljárási szabályokat, amelyek az adat- és titokvédelmi szabályok érvényre juttatásához, így különösen a jogosulatlan hozzáférés, megváltoztatás, továbbítás, nyilvánosságra hozatal, törlés vagy megsemmisítés, valamint a véletlen megsemmisülés és sérülés ellen szükségesek."
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "40. A bv. szervezet felelősséget vállal azért, hogy az adatok rögzítése és felhasználása során bármilyen egyéb módon tudomására jutott, illetve birtokába került adatokat a Szolgáltató előzetes és kifejezett írásbeli hozzájárulása nélkül semmilyen módon nem adja át, és nem közli illetéktelen harmadik személlyel, nem hozza nyilvánosságra, valamint nem használhatja fel egyéb célokra. A felhasználó szervezet a titoktartási kötelezettségének megszegéséért a hatályos magyar vonatkozó jogszabályok szerint felelősséggel tartozik."
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "VII. MÁS SZERVEKKEL TÖRTÉNŐ EGYÜTTMŰKÖDÉS"
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "41. A VPN alárendeltségébe tartozó, valamint a más VPN gazdaszervezet alá tartozó felhasználó szervezetek közötti együttműködést a VPN Központi Menedzser Szervezet által felügyelt 99 VPN-en keresztül a Nyílt EMŰ1 és a Nyílt EMŰ2 mappában lévő forgalmi csoportokkal kell megvalósítani, a területi illetékességnek megfelelően. Ettől való eltérés a VPN Központi Menedzser Szervezet engedélyével lehet. A felhasználó szervezeten belüli együttműködést az adott felhasználó szervezet vezetője szabályozza."
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "42. A felhasználó szervezeteknek ki kell jelölni és meg kell küldeni a VPN Központi Menedzser Szervezet részére azon kontaktszemélyek adatait, elérhetőségét, akik jogosultak a szervezetüket érintően más szervekkel való kommunikációs együttműködés elrendelésére, illetve szervezeten belüli és kívüli csoport összevonására és csoporttagság módosítására."
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "43. Az országos együttműködés érdekében létrehozott Együttműködési nyílt VPN (99) korlátozás nélkül biztosítja az EDR használó szervezetek közötti együttműködést."
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "44. Az országos együttműködés érdekében létrehozott VPN Központi Menedzser Szervezet által felügyelt Együttműködési operatív VPN (98), megfelelő jogosultságokkal biztosítja az EDR használó szervezetek közötti együttműködést, és kizárja az illetéktelen hozzáférést."
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "VIII. AZ EDR ESZKÖZÖK ELLENŐRZÉSÉVEL KAPCSOLATOS FELADATOK"
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "45. Szolgálatátadás-átvételkor, kiadáskor és visszavételkor a felhasználók kötelesek ellenőrizni az eszköz működőképességét, a tartozékok meglétét."
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "46. Amennyiben ellenőrzés során a készüléken, annak tartozékain sérülés, működési rendellenesség vagy hiányosság tapasztalható – és arról nem készült jelentés – a készüléket utoljára átvevő személy felelősségét kell megállapítani."
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "47. Az eszközök meglétét, állapotát, működőképességét az informatikai osztályvezető a biztonsági osztályvezetővel évente ellenőrizni köteles. Az ellenőrzésről feljegyzést kell készíteni, amely alapján a készülék esetleges javításáról, árajánlat bekéréséről az informatikai osztályvezető gondoskodik."
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "IX. AZ EDR ESZKÖZÖK NYILVÁNTARTÁSÁVAL KAPCSOLATOS FELADATOK"
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "48. Az EDR rádióterminálként használható készülékek (olyan rádiók, amelyeknek TEI száma van, illetve ISSI szám rendelhető hozzá) esetében törzslap kerül kiállításra, mely tartalmazza a készülék adatait, egyedi azonosítóit, valamint a tulajdonos és felhasználó szervezet adatait."
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "49. A készülék adataiban, egyedi azonosítóiban történő konfigurációs változtatást, illetve a készülék mozgását a törzslapra dátummal fel kell vezetni."
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "IX/A. AZ EDR ESZKÖZÖK HASZNÁLATÁNAK OKTATÁSÁVAL KAPCSOLATOS FELADATOK"
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "49/A. Az EDR eszközök használatának oktatását a biztonsági szakterület szervezi évente legalább egy alkalommal, melyhez az informatikai szakterület oktatót biztosít. Az oktatásokról jelenléti ívet kell vezetni. Új belépők esetén a biztonsági szakterület azonnal oktatást tart."
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "IX/B. AZ EDR ESZKÖZÖK MELLETT ALKALMAZHATÓ SZOLGÁLATI MOBILTELEFONOK ALKALMAZÁSI RENDJE"
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "49/B. Azon biztonsági szakfeladatok tekintetében, amelyek a bv. szerv területén kívül kerülnek végrehajtásra, és a teljesítésük során jelentkező kockázati tényezők magasabbak, mint az egyéb, hasonló metódus alapján végzett tevékenységek, a feladat szabályos kivitelezéséért, valamint az információáramlás biztosításának érdekében a felelős személyi állományi tag részére szolgálati mobiltelefon kiadását és használatát engedélyezem a bv. szervbe történő visszaérkezésig."
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "49/C. Kiemelten kockázatos szakfeladatnak számít különösen a fogvatartottak előállítása a biztonságirendszer-leírásban állandó helyszínként megjelöltektől eltérő helyszínekre, temetésre vagy súlyos beteg hozzátartozó meglátogatására történő előállítás, a bv. szervtől 50 kilométert meghaladó szállítás, központilag szervezett, ad hoc jellegű ideiglenes külső fogvatartotti munkáltatás és a különböző bv. szerven kívüli reintegrációs tevékenységek, valamint a polgári egészségügyi intézményben elhelyezett fogvatartott őrzése. A kiadható készülék műszaki paramétereit – az országos parancsnok gazdasági és informatikai helyettesének egyetértésével – a 2. melléklet tartalmazza."
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "49/D. A magasabb biztonsági kockázattal járó – taxatív felsorolásban meg nem jelenített – szakfeladatok végrehajtásának tervezése során kiemelten kerüljön mérlegelésre az abban részt vevő személyi állomány parancsnokának szolgálati mobiltelefonnal való ellátása az esetlegesen bekövetkező rendkívüli események hatékonyabb megelőzése, felszámolása érdekében."
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "49/E. A bv. intézeten kívüli munkáltatást megelőző értékelő-elemző tevékenység során fel kell mérni az érintett helyszín EDR lefedettségét, és az engedélyezésről a biztonsági kockázat figyelembevételével kell dönteni."
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "X. ZÁRÓ RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "50. Ez az utasítás a közzétételét követő napon lép hatályba."
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "51. Az utasítás rendelkezéseit az érintett állománnyal ismertetni kell."
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "Engedélyezett szolgálati mobiltelefon minimális műszaki paraméterei"
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "Samsung Galaxy XCover pro 64 GB DUAL SIM,"
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "– Processzor sebesség: Octa Core (4 × 2,3 GHz + 4 × 1,7 GHz)"
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "– Előlapi Kamera: 13 megapixel"
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "– Hátlapi Kamera: 8 megapixel, 25 megapixel"
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "– SIM foglalat: Nano"
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "– Csatlakozó: Bluetooth, USB, 3,5 mm Jack, NFC, WIFI, USB Type-C, ANT+"
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "– Memóriakártya-foglalat: microSD"
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "– Operációs rendszer: Android"
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "– Akkumulátor típus: Li-polimer"
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "– Kijelző méret: 6,3”"
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "– Kijelző felbontása: 2340 × 1080 Pixel"
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "– Memória: 4 GB RAM / 64 GB ROM"
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "– Működési frekvencia: 900 MHz, 1900 MHz, 2100 MHz, 850 MHz, 800 MHz, 2600 MHz, 700 MHz, 2300 MHz, 2500 MHz"
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "– Adatátvitel: USB, Bluetooth, Wi-Fi, 2G, NFC, UMTS (3G), 4G LTE, ANT+"
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "– Beépített GPS-vevő: van"
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "– Hangfunkciók: hangrögzítés (diktafon), kihangosítás"
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "– Multimédia funkciók: 3gp, 3g2, mp4, wmv, MP3, WAV, AAC, OGG, UHD 4K (3840 × 2160) videófelbontás-támogatás"
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "– Extra funkciók: zseblámpa funkció, 2 db SIM kártya kezelése, másodlagos kamera, Android operációs rendszer, nano SIM, LED vaku, Accelerometer / Gyro-sensor, LTE és Wi-Fi sebesség egyben, ujjlenyomat-olvasó, GPS, Infra szenzor, közelség szenzor, Gyorsulásmérő, IP68-as besorolás, Virtual Light Sensing, Geomágneses érzékelő, KNOX védelem, por- és cseppálló"
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "– Akkumulátor: 4050 mAh (Li-Polymer)"
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "– Beszélgetési idő: Maximum 29 óra (4G LTE) 1 A 2. pont a 32/2021. (VI. 3.) BVOP utasítás 1. pontjával megállapított szöveg. 2 Az 1. mellékletet az érintettek közvetlenül kapják meg. 3 A 3/A. pontot a 6/2026. (II. 5.) BVOP utasítás 2. pontja iktatta be. 4 A 9. pont a 23/2022. (X. 6.) BVOP utasítás 1. pontjával megállapított szöveg. 5 A 11. pont a 23/2022. (X. 6.) BVOP utasítás 2. pontjával megállapított szöveg. 6 A 21/A. pontot a 6/2026. (II. 5.) BVOP utasítás 3. pontja iktatta be. 7 A 23. pont a 6/2026. (II. 5.) BVOP utasítás 4. pontjával megállapított szöveg. 8 A 26. pont a 32/2021. (VI. 3.) BVOP utasítás 3. pontjával megállapított szöveg. 9 A 27. pont a 6/2026. (II. 5.) BVOP utasítás 5. pontjával megállapított szöveg. 10 A 30. pont a 6/2026. (II. 5.) BVOP utasítás 6. pontjával megállapított szöveg. 11 A 32. pont a 32/2021. (VI. 3.) BVOP utasítás 5. pontjával megállapított szöveg. 12 A 33. pont a 32/2021. (VI. 3.) BVOP utasítás 5. pontjával megállapított szöveg. 13 A 36. pont a 32/2021. (VI. 3.) BVOP utasítás 3. pontjával megállapított szöveg. 14 A 38. pontot a 23/2022. (X. 6.) BVOP utasítás 4. pontja hatályon kívül helyezte. 15 A 48. pont a 32/2021. (VI. 3.) BVOP utasítás 6. pontjával megállapított szöveg. 16 A IX/A. fejezetet (49/A. pont) a 32/2021. (VI. 3.) BVOP utasítás 7. pontja iktatta be. 17 A IX/B. fejezetet (49/B–49/E. pontot) a 6/2026. (II. 5.) BVOP utasítás 7. pontja iktatta be. 18 Az utasítás 1. melléklete a BVOP intranethálózatán kerül közzétételre, figyelemmel arra, hogy megismeréséhez nem fűződik közérdek. Az 1. melléklet a 6/2026. (II. 5.) BVOP utasítás 8. pontjával megállapított szöveg. 19 A 2. mellékletet a 6/2026. (II. 5.) BVOP utasítás 9. pontja iktatta be."
+    }
+  ]
+}

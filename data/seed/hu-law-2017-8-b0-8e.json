@@ -1,0 +1,2153 @@
+{
+  "id": "hu-law-2017-8-b0-8e",
+  "type": "statute",
+  "title": "8/2017. (I. 31.) ORFK utasítás az Országos Rendőr-főkapitányság Közbeszerzési Szabályzatáról",
+  "status": "repealed",
+  "in_force_date": "2017-02-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2017-8-B0-8E",
+  "description": "az Országos Rendőr-főkapitányság Közbeszerzési Szabályzatáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A jogalkotásról szóló 2010. évi CXXX. törvény 23. § (4) bekezdés c) pontjában és a Rendőrségről szóló 1994. évi XXXIV. törvény 6. § (1) bekezdés b) pontjában meghatározott jogkörömben eljárva, a közbeszerzésekről szóló 2015. évi CXLIII. törvény 27. § (1) bekezdésében, valamint a védelmi és biztonsági célú beszerzésekről szóló 2016. évi XXX. törvény 8. § (1) bekezdésében foglaltak alapján az Országos Rendőr-főkapitányság mint ajánlatkérő közbeszerzései és közbeszerzésnek nem minősülő beszerzései előkészítése, lefolytatása, belső ellenőrzésének felelősségi rendje, a nevében eljáró, illetve az eljárásba bevont személyek, valamint szervezetek felelősségi körének és a közbeszerzési eljárások, valamint a közbeszerzésnek nem minősülő beszerzési eljárások dokumentálási rendjének szabályozására kiadom az alábbi utasítást:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "I. FEJEZET"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "ÁLTALÁNOS RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "1. Az utasítás hatálya"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "1. Az utasítás szervi és személyi hatálya kiterjed az Országos Rendőr-főkapitányság (a továbbiakban: ORFK) valamennyi szervezeti egységére, szervezeti elemére, illetve az ORFK személyi állományának a közbeszerzésekben és a közbeszerzésnek nem minősülő beszerzésekben közreműködő tagjaira, valamint a Készenléti Rendőrségre (a továbbiakban: KR)."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "2. Az utasítás tárgyi hatálya kiterjed az ORFK mint ajánlatkérő által folytatott,"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "a) a 4. pont c) alpontja szerinti közbeszerzésre;"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "b) az értékhatár alatti és a kivételi körbe tartozó beszerzésre;"
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "c) a védelmi és biztonsági célú beszerzésekről szóló 2016. évi XXX. törvény (a továbbiakban: Vbt.) hatálya alá tartozó beszerzésre azzal, hogy ahol az utasítás közbeszerzést említ, azon beszerzést kell érteni; valamint"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "d) a tömeges bevándorlás okozta válsághelyzettel összefüggő intézkedésekhez kapcsolódó beszerzésekről szóló 316/2015. (X. 30.) Korm. rendelet (a továbbiakban: 316/2015. Korm. rendelet) hatálya alá tartozó beszerzésekre, azzal, hogy ahol az utasítás közbeszerzést említ, azon beszerzést kell érteni."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "3. A VI. Fejezet tárgyi hatálya kiterjed a büntetés-végrehajtási szervezet részéről a büntetés-végrehajtásért felelős miniszter vezetése, irányítása vagy felügyelete alá tartozó szervek irányában fennálló ellátási kötelezettségről, a fogvatartottak kötelező foglalkoztatása keretében előállított termékekről és szolgáltatásokról, azok átadás-átvételéről és az ellentételezés rendjéről szóló 9/2011. (III. 23.) BM rendelet 1. mellékletében felsorolt termékek és szolgáltatások beszerzése esetén a fogvatartottak kötelező foglalkoztatására létrehozott gazdasági társaság ajánlatának jogszabályban meghatározott elutasítása esetén követendő eljárásra, amennyiben a beszerzés értéke meghaladja a 100 000 Ft-ot, de nem éri el a nemzeti közbeszerzési értékhatárt."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "2. Értelmező rendelkezések"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "4. Az utasítás alkalmazásában:"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "a) értékhatár alatti beszerzés: az ORFK vagy az általános rendőrségi feladatok ellátására létrehozott szerv (a továbbiakban: Rendőrség) feladatai ellátásához, működéséhez szükséges árubeszerzésre, építési beruházásra vagy szolgáltatás megrendelésére, illetve építési vagy szolgáltatási koncesszióra vonatkozó visszterhes polgári jogi szerződések megkötése érdekében lefolytatott eljárás, amennyiben a szerződésnek a közbeszerzésekről szóló 2015. évi CXLIII. törvény (a továbbiakban: Kbt.) 16–18. §-a szerint számított ellenértéke – figyelemmel a Kbt. 19. § szerinti részekre bontási tilalom szabályaira – nem éri el a mindenkori nemzeti közbeszerzési értékhatárt, de eléri a nettó 1 millió forintot, és a beszerzés nem tartozik a Vbt. és a 316/2015. Korm. rendelet hatálya alá;"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "b) kivételi körbe tartozó beszerzés: a Kbt. 9. § (1) bekezdés c)–k) pontjában, (8) bekezdésében, valamint – a Kbt. 111. § j) pontja szerinti beszerzéseket kivéve – a Kbt. 111. §-ában meghatározott tárgyú beszerzés;"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "c) közbeszerzés: az ORFK vagy a Rendőrség feladatai ellátásához, működéséhez szükséges visszterhes polgári jogi szerződések megkötése érdekében lefolytatott, a Kbt. 4. §-a szerinti eljárás;"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "d) közbeszerzési eljárás előkészítése: a közbeszerzési eljárás megindításához szükséges cselekmények elvégzése, így különösen a Kbt. 28. §-a szerinti, az adott közbeszerzéssel kapcsolatos helyzet-, illetve piacfelmérés, a közbeszerzés becsült értékének megállapítása, közbeszerzési dokumentumok előkészítése;"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "e) közbeszerzési eljárások résztvevője:"
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "ea) a döntéshozó,"
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "eb) az eljárásért felelős személy,"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "ec) a bíráló bizottság elnöke,"
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "ed) a bíráló bizottság tagjai,"
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "ee) a bíráló bizottság munkáját támogató, a beszerzés tárgya szerinti szakmai, pénzügyi és jogi szakértők,"
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "ef) a lebonyolító személy vagy a lebonyolító közreműködője,"
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "eg) a döntéshozó eseti döntése vagy a Kbt. rendelkezése alapján felelős akkreditált közbeszerzési szaktanácsadó,"
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "eh) a döntéshozó által kijelölt további személyek és – amennyiben nem tartozik a felsorolt személyek körébe – a közbeszerzés kezdeményezője;"
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "f) közbeszerzés lefolytatása: a közbeszerzési eljárás előkészítésétől a közbeszerzési eljárás alapján kötendő szerződés aláírásáig vagy a közbeszerzési eljárás eredménytelenségéről szóló tájékoztató közzétételéig tartó eljárási cselekmények összessége;"
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "g) közbeszerzésnek nem minősülő beszerzés: az értékhatár alatti és a kivételi körbe tartozó beszerzés, valamint a Vbt. és a 316/2015. Korm. rendelet hatálya alá tartozó beszerzés;"
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "h) közbeszerzési tevékenység: a felelős akkreditált közbeszerzési szaktanácsadói tevékenységről szóló 14/2016. (V. 25.) MvM rendelet (a továbbiakban: 14/2016. MvM rendelet) 1. § 3. pontja szerinti tevékenység;"
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "i) központosított közbeszerzés: a központosított közbeszerzési rendszerről, valamint a központi beszerző szervezet feladat- és hatásköréről szóló 168/2004. (V. 25.) Korm. rendelet hatálya alá tartozó közbeszerzés, valamint a Nemzeti Kommunikációs Hivatalról és a kormányzati kommunikációs beszerzések központosított közbeszerzési rendszeréről szóló 247/2014. (X. 1.) Korm. rendelet (a továbbiakban: 247/2014. Korm. rendelet) hatálya alá tartozó közbeszerzés."
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "3. A közbeszerzés lefolytatására jogosultak"
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "5. Az ORFK nevében közbeszerzési vagy beszerzési eljárást lefolytatni csak a gazdasági országos rendőrfőkapitány-helyettes által írásban kijelölt szervezeti elem (a továbbiakban: lefolytató szerv) jogosult."
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "6. Az ORFK Gazdasági Főigazgatóság (a továbbiakban: ORFK GF) Informatikai Üzemeltetési Főosztály vezetője a Kbt. 105. § (1) bekezdés a) pontja és a (2) bekezdés a) pontja szerint kötött informatikai, telekommunikációs tárgyú keretmegállapodások terhére az 5. pont szerinti kijelölés nélkül is közvetlen megrendelést adhat fel."
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "7. Az ORFK Kommunikációs Szolgálat vezetője a 247/2014. Korm. rendelet 1. mellékletében meghatározott kommunikációs termékek és szolgáltatások tárgyában kötött keretmegállapodások terhére a Kbt. 105. § (1) bekezdés a) pontja és a (2) bekezdés a) pontja alapján az 5. pont szerinti kijelölés nélkül is közvetlen megrendelést adhat fel."
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "8. Az ORFK-Országos Balesetmegelőzési Bizottság a feladat- és hatáskörébe tartozó árubeszerzés és szolgáltatásmegrendelés tárgyában az 5. pont szerinti kijelölés nélkül folytathat le közbeszerzési eljárást."
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "9. Az 59. pontban meghatározott esetben a közbeszerzési eljárást megbízási szerződés alapján az ORFK szervezetébe nem tartozó természetes vagy jogi személy (a továbbiakban: külső megbízott) is lefolytathatja."
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "4. A közbeszerzésekkel kapcsolatos általános követelmények"
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "10. Közbeszerzési eljárás eredményeképp kötött szerződés legfeljebb 48 hónapos határozott időtartamra jöhet létre. Döntéshozó által adott előzetes egyedi engedély alapján a szerződés időtartama a 48 hónapot meghaladhatja, azonban határozatlan idejű szerződést csak kivételesen indokolt esetben lehet kötni."
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "11. A kedvező feltételekkel történő új szerződések megkötése érdekében valamennyi beszerzési tárgy és termékcsoport esetében évente piacfelmérést kell végrehajtani, annak eredményét dokumentálni kell, erre tekintettel kell a meglévő szerződéseket felülvizsgálni."
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "5. A közbeszerzési terv"
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "12. A jóváhagyott költségvetés és a felmért közbeszerzési igények alapján a gazdasági országos rendőrfőkapitány-helyettes felelős az ORFK éves Közbeszerzési Terve (a továbbiakban: Közbeszerzési Terv) legkésőbb tárgyév március 31-ig történő előkészítéséért. A Közbeszerzési Terv mintaokmányát az 1. melléklet tartalmazza."
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "13. Az ORFK főigazgatóságai és az országos rendőrfőkapitány közvetlen alárendeltségbe tartozó szervezeti elemek közbeszerzési résztervet készítenek, amelyet a tárgyév március 1-jéig a gazdasági országos rendőrfőkapitány-helyettes részére megküldenek."
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "14. A közbeszerzési résztervek összesítése alapján a Közbeszerzési Tervet az ORFK GF Igazgatási Főosztály (a továbbiakban: ORFK GF IF) vezetője a 12. pontban meghatározott határidőt legalább 5 munkanappal megelőzően a gazdasági országos rendőrfőkapitány-helyettes részére jóváhagyásra felterjeszti."
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "15. A Közbeszerzési Terv vagy annak – indokolással ellátott – módosítása jóváhagyását követően az ORFK GF IF vezetője a közbeszerzések központi ellenőrzéséről és engedélyezéséről szóló 320/2015. (X. 30.) Korm. rendelet (a továbbiakban: 320/2015. Korm. rendelet) 23. § (1) bekezdése alapján haladéktalanul intézkedik a közbeszerzésekért felelős miniszter részére történő megküldésére, illetve a Kbt. 43. § (1) bekezdés a) pontja szerinti, valamint a Rendőrség honlapján történő közzétételére."
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "16. A 247/2014. Korm. rendelet hatálya alá tartozó beszerzések vonatkozásában az éves összesített közbeszerzési terv – tárgyévet megelőző év december 15-ig való – elkészítéséért, valamint a negyedéves és a rendkívüli igénybejelentések teljesítéséért, illetve ezek Nemzeti Kommunikációs Hivatal részére való megküldéséért az ORFK Kommunikációs Szolgálat vezetője a felelős."
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "17. A Közbeszerzési Terv év közbeni módosítását és annak indokolását a feladat- és hatáskör szerint érintett szervezeti elem legalább osztályvezetői szintű vezetője akkor kezdeményezheti, ha valamely előre nem látható okból olyan közbeszerzési igény merül fel, amely az ORFK, illetve a Rendőrség feladatellátása érdekében feltétlenül szükséges."
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "6. Előzetes összesített tájékoztató"
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "18. Az ORFK éves közbeszerzéseire vonatkozó előzetes összesített tájékoztató (a továbbiakban: tájékoztató) elkészítéséről az ORFK szervezeti egységeinek és szervezeti elemeinek főosztályvezetője vagy ennél magasabb beosztású vezetője javaslatára a gazdasági országos rendőrfőkapitány-helyettes dönt. A tájékoztatót az érintett szakterületek adatszolgáltatása alapján az ORFK GF IF készíti el."
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "7. Éves statisztikai összegezés"
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "19. A közbeszerzési és tervpályázati hirdetmények feladásának, ellenőrzésének és közzétételének szabályairól, a hirdetmények mintáiról és egyes tartalmi elemeiről, valamint az éves statisztikai összegezésről szóló 44/2015. (XI. 2.) MvM rendelet szerinti éves statisztikai összegezést az ORFK GF IF készíti el, és a gazdasági országos rendőrfőkapitány-helyettes jóváhagyását követően legkésőbb a tárgyévet követő év május 31-ig elektronikusan közzéteszi a Közbeszerzési Hatóság által működtetett Közbeszerzési Adatbázisban."
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "20. Az ORFK főigazgatóságai és az országos rendőrfőkapitány közvetlen alárendeltségbe tartozó szervezeti elemek statisztikai részösszegezést készítenek, amelyet a tárgyév április 30-ig a gazdasági országos rendőrfőkapitány-helyettes részére megküldenek."
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "21. A statisztikai részösszegezések összesítése alapján az éves statisztikai összegezést az ORFK GF IF vezetője a közzététel határidejét legalább 5 munkanappal megelőzően a gazdasági országos rendőrfőkapitány-helyettes részére jóváhagyásra felterjeszti."
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "II. FEJEZET"
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "AZ ORFK NEVÉBEN ELJÁRÓ, ILLETVE A KÖZBESZERZÉSI ELJÁRÁSBA BEVONT SZEMÉLYEK ÉS FELELŐSSÉGÜK RENDJE"
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "8. A döntéshozó"
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "22. Az ORFK által ajánlatkérőként indított közbeszerzési eljárásokban – az ORFK-Országos Balesetmegelőzési Bizottság által a 8. pont alapján lefolytatott közbeszerzési eljárások kivételével – az ajánlatkérő döntési jogkörei a gazdasági országos rendőrfőkapitány-helyettest illetik meg (a továbbiakban: döntéshozó). Az ORFK-Országos Balesetmegelőzési Bizottság által a 8. pont alapján lefolytatott közbeszerzési eljárásokban az országos rendőrfőkapitány a döntéshozó, távolléte esetén jogkörét szervezetszerű helyettese gyakorolja."
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "23. A döntéshozó:"
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "a) irányítja az ORFK által vagy a nevében lefolytatott közbeszerzéseket, felügyeli a közbeszerzési folyamatokat;"
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "b) meghatározza és biztosítja a közbeszerzés pénzügyi fedezetét;"
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "c) a döntéshozó kivételével megbízza a közbeszerzési eljárás – a Rendőrség Beszerzési Szabályzatáról szóló ORFK utasítás (a továbbiakban: Beszerzési Szabályzat) 7. pontja szerinti – résztvevőit;"
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "d) az ORFK mint ajánlatkérő nevében meghozza a közbeszerzési eljárást lezáró döntéseket; valamint"
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "e) gondoskodik a közbeszerzéssel összefüggésben az ajánlatkérő számára jogszabályban, közjogi szervezetszabályozó eszközben előírt további feladatok ellátásáról."
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "24. A döntéshozó kizárólagos hatáskörben dönt:"
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "a) a közbeszerzési eljárás megindításáról;"
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "b) a pénzügyi fedezet biztosításáról;"
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "c) a 320/2015. Korm. rendelet 8. § (4) bekezdésének, illetve 13. § (4) bekezdésének alkalmazásáról;"
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "d) a bizottság elnökéről és tagjairól, valamint az eljárásba bevont további személyekről;"
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "e) a Kbt. 27. § (3) bekezdésében meghatározott kötelező igénybevétel eseteit kivéve a felelős akkreditált közbeszerzési szaktanácsadó megbízásáról;"
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "f) a részvételi jelentkezőnek, az ajánlattevőknek az eljárásból történő kizárásáról;"
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "g) a részvételi jelentkezések, az ajánlatok érvénytelenítéséről;"
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "h) a nyertes ajánlatról, a nyertes ajánlattevő személyéről;"
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "i) a nyertes ajánlatot követő legkedvezőbb ajánlatot adó személyéről és kihirdetéséről;"
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "j) a felhívás vagy egyéb közbeszerzési dokumentumok módosításáról, visszavonásáról;"
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "k) az eljárás eredményességéről vagy eredménytelenségéről;"
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "l) az összegezés módosításáról;"
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "m) az előzetes vitarendezés eredményéről; valamint"
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "n) a jogorvoslati eljárásban az ORFK-t képviselő személyekről."
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "25. A döntéshozó a 24. pont f)–m) alpontjára vonatkozó döntéseit a bírálóbizottság javaslatát követően hozza meg. Amennyiben a döntéshozó ezt szükségesnek tartja, döntésének megalapozása érdekében a bírálóbizottságon kívül további szakértők véleményét is kikérheti. A döntéshozót a bírálóbizottság és a szakértő javaslata nem köti, azonban az eltérő döntés indokait írásban ismerteti a bírálóbizottsággal. A döntéshozó jogosult adott közbeszerzés vonatkozásában az utasításban foglaltaktól eltérni és a közbeszerzési eljárás egyedi felelősségi rendjét megállapítani, ha a közbeszerzési eljárás tárgya vagy körülményei indokolják. Az eltérésről szóló döntést írásban kell meghozni."
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "9. A közbeszerzési eljárásért felelős személy"
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "26. A döntéshozó az eljárás törvényes és eredményes lefolytatása érdekében az ORFK GF állományába tartozó, megfelelő szakértelemmel rendelkező, elsősorban vezető beosztású személyt jelöl ki, aki egyben az előkészítő és a bírálóbizottság (a továbbiakban együtt: bizottság) elnöke is (a továbbiakban: elnök)."
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "27. Az elnök"
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "a) intézkedik a közbeszerzési igénnyel kapcsolatos helyzet-, illetve piacfelmérés elvégzésére és ennek alapján, illetve a Kbt. 28. § (2) bekezdésében meghatározott egyéb módszerekkel az eljárás becsült értékének dokumentált meghatározására;"
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "b) intézkedik a pénzügyi fedezet meglétéről szóló írásbeli nyilatkozat kiállítására;"
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "c) folyamatosan figyelemmel kíséri a közbeszerzés alakulását, eljárási cselekményeit, rendszeresen kapcsolatot tart a lefolytató szerv vezetőjével;"
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "d) vezeti a bizottság üléseit; valamint"
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "e) kezdeményezi a döntéshozó intézkedését, ha az eljárás törvényességét sértő vagy eredményességét veszélyeztető körülmény jut tudomására."
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "10. A közbeszerzési eljárást lefolytató szerv vezetője"
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "28. A lefolytató szerv vezetője felelős – a kizárólagos döntéshozói hatáskörök kivételével – a közbeszerzés személyi és tárgyi feltételeinek biztosításáért, az eljárási cselekmények ütemezett, határidőben történő végrehajtásáért."
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "29. A lefolytató szerv vezetője"
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "a) intézkedik a közbeszerzési dokumentumok elkészítésére;"
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "b) javaslatot tesz az eljárás titkárának személyére;"
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "c) intézkedik a bizottság által véglegesített közbeszerzési dokumentumok és a döntési javaslatok döntéshozó részére történő felterjesztésére;"
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "d) a döntéshozó kizárólagos jogkörébe tartozó döntések kivételével kiadmányozza az ajánlattevők (részvételi jelentkezést benyújtók) számára küldendő iratokat; valamint"
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "e) a bizottság tagjainak rendelkezésére bocsát minden, az eljárásra vonatkozó dokumentumot, adatot és információt."
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "11. Az eljárásba bevont személyek, kijelölésük feltételei"
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "30. Az ORFK közbeszerzési eljárásai során a közbeszerzési szakértelmet az alábbi követelményeknek megfelelő személy biztosíthatja:"
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "a) közbeszerzési referensi képesítéssel vagy"
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "b) közbeszerzési szakjogász végzettséggel rendelkező és"
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "c) legalább kétéves, – a jogviszony jellegétől függetlenül – a Kbt. 5–7. §-a szerinti ajánlatkérőnél vagy ajánlattevői oldalon szerzett közbeszerzési tevékenység végzésével kapcsolatos, igazolt tapasztalattal rendelkező személy vagy"
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "d) az a)–b) alpont szerinti végzettséggel nem rendelkező, de legalább 5 éves, – a jogviszony jellegétől függetlenül – a Kbt. 5–7. §-a szerinti ajánlatkérőnél vagy ajánlattevői oldalon szerzett közbeszerzési tevékenység végzésével kapcsolatos igazolt tapasztalattal rendelkező személy, valamint"
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "e) a Közbeszerzési Hatóság által vezetett felelős akkreditált közbeszerzési szaktanácsadói névjegyzékbe bejegyzett személy."
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "31. A közbeszerzés tárgya szerinti műszaki (szakmai) szakértelmet az ORFK vagy a KR a közbeszerzés tárgya szerint érintett szervezeti elemének állományába tartozó, megfelelő szakmai végzettséggel rendelkező személy, ennek hiányában külső szakértő biztosítja."
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "32. A pénzügyi szakértelmet az ORFK vagy a KR állományába tartozó, pénzügyi végzettséggel rendelkező személy biztosítja."
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "33. A jogi szakértelmet az ORFK vagy a KR állományába tartozó, jogász végzettséggel rendelkező személy biztosítja."
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "34. A bizottság elnökét és tagjait, valamint az eljárásba bevont további személyeket a döntéshozó írásban jelöli ki (a továbbiakban: megbízás). A megbízás mintáját a 2. melléklet tartalmazza."
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "35. A megbízás érvényességének feltétele, hogy a bizottság elnöke és tagjai, valamint az eljárásba bevont további személyek az adott eljárásra vonatkozó összeférhetetlenségi nyilatkozatot tegyenek. A nyilatkozat mintáját a 3–7. melléklet tartalmazza, (köz)beszerzési típusonként."
+    },
+    {
+      "provision_ref": "s107",
+      "section": "107",
+      "title": "107",
+      "content": "36. Az ORFK által más rendőri szervvel kötött munkamegosztási megállapodás lehetőséget biztosíthat arra, hogy a döntéshozó más rendőri szerv állományába tartozó személyt jelöljön ki bizottsági tagnak."
+    },
+    {
+      "provision_ref": "s108",
+      "section": "108",
+      "title": "108",
+      "content": "12. Az eljárásba bevont személyek általános feladatai"
+    },
+    {
+      "provision_ref": "s109",
+      "section": "109",
+      "title": "109",
+      "content": "37. Az eljárásba bevont személyek"
+    },
+    {
+      "provision_ref": "s110",
+      "section": "110",
+      "title": "110",
+      "content": "a) a közbeszerzési eljárás előkészítése és a részvételi, ajánlattételi időszak során"
+    },
+    {
+      "provision_ref": "s111",
+      "section": "111",
+      "title": "111",
+      "content": "aa) szakterületüknek megfelelően közreműködnek a közbeszerzési dokumentumok összeállításában,"
+    },
+    {
+      "provision_ref": "s112",
+      "section": "112",
+      "title": "112",
+      "content": "ab) részt vehetnek a bizottság ülésein, a részvételi jelentkezések, ajánlatok bontásán, közreműködnek a bizottság munkájában,"
+    },
+    {
+      "provision_ref": "s113",
+      "section": "113",
+      "title": "113",
+      "content": "ac) szakterületüknek megfelelően előkészítik a kiegészítő tájékoztatást, a felügyeleti szervek megkereséseire a választervezetet,"
+    },
+    {
+      "provision_ref": "s114",
+      "section": "114",
+      "title": "114",
+      "content": "ad) a tárgyalásos eljárásban részt vesznek a tárgyalásokon, és annak keretében szakterületüknek megfelelően megválaszolják az ajánlattevők által feltett szakmai kérdéseket,"
+    },
+    {
+      "provision_ref": "s115",
+      "section": "115",
+      "title": "115",
+      "content": "ae) részt vehetnek a személyes konzultáció keretében nyújtott kiegészítő tájékoztatón, ideértve a helyszíni bejárást is, és választ adnak az ott felmerülő szakmai kérdésekre, valamint"
+    },
+    {
+      "provision_ref": "s116",
+      "section": "116",
+      "title": "116",
+      "content": "b) a részvételi jelentkezések és az ajánlatok elbírálása során"
+    },
+    {
+      "provision_ref": "s117",
+      "section": "117",
+      "title": "117",
+      "content": "ba) szakmai kompetenciájuknak megfelelően önállóan értékelik, minősítik a részvételi jelentkezéseket, ajánlatokat, vizsgálják azok érvényességét, illetve érvénytelenségét,"
+    },
+    {
+      "provision_ref": "s118",
+      "section": "118",
+      "title": "118",
+      "content": "bb) a szakmai bírálat elvégzése után közös döntési javaslatot készítenek az eljárás vizsgált szakaszának – egyszakaszos eljárás esetén lezáró – eredményéről."
+    },
+    {
+      "provision_ref": "s119",
+      "section": "119",
+      "title": "119",
+      "content": "13. Az eljárásba bevont személyek szakmai feladatai"
+    },
+    {
+      "provision_ref": "s120",
+      "section": "120",
+      "title": "120",
+      "content": "38. A közbeszerzési szakértelmet biztosító személy feladatai:"
+    },
+    {
+      "provision_ref": "s121",
+      "section": "121",
+      "title": "121",
+      "content": "a) az adott beszerzésre vonatkozó eljárásrend kiválasztása írásos indokolással, a beszerzés becsült értékének figyelembevételével;"
+    },
+    {
+      "provision_ref": "s122",
+      "section": "122",
+      "title": "122",
+      "content": "b) tanácsadás és javaslattétel írásban a bizottság részére az alkalmazásra kerülő eljárásfajta kiválasztása kapcsán, bemutatva annak előnyeit és hátrányait, különös tekintettel az időigény és költséghatékonyság szempontjaira;"
+    },
+    {
+      "provision_ref": "s123",
+      "section": "123",
+      "title": "123",
+      "content": "c) a közbeszerzési eljárás során alkalmazott hirdetmények és tájékoztatók, felhívások, a kapcsolódó közbeszerzési dokumentumok előzetes véleményezése, a műszaki, pénzügyi és jogi szakértelmet biztosító személyek közbeszerzési támogatása, különösen az alkalmassági feltételek és az értékelési szempontrendszer, valamint a bírálati folyamat kialakítása kapcsán;"
+    },
+    {
+      "provision_ref": "s124",
+      "section": "124",
+      "title": "124",
+      "content": "d) a kizáró okokra történő javaslattétel;"
+    },
+    {
+      "provision_ref": "s125",
+      "section": "125",
+      "title": "125",
+      "content": "e) az indítványtétel a részvételi jelentkező, az ajánlattevő kizárására vagy a jelentkezés, az ajánlat érvénytelenségének megállapítására;"
+    },
+    {
+      "provision_ref": "s126",
+      "section": "126",
+      "title": "126",
+      "content": "f) a központosított közbeszerzés esetén a közbeszerzésre vonatkozóan az érintett keretmegállapodás teljesülésének állapot-ellenőrzése a központosított közbeszerzési portálon;"
+    },
+    {
+      "provision_ref": "s127",
+      "section": "127",
+      "title": "127",
+      "content": "g) a Kbt. 27. § (3) bekezdésében meghatározott azon esetekben, amikor a közbeszerzési eljárásba felelős akkreditált közbeszerzési szaktanácsadó bevonása kötelező, köteles ellenjegyezni a közbeszerzési eljárás során keletkezett, a 14/2016. MvM rendelet 6. § (6) bekezdésében meghatározott dokumentumokat; valamint"
+    },
+    {
+      "provision_ref": "s128",
+      "section": "128",
+      "title": "128",
+      "content": "h) központosított közbeszerzés esetén a közbeszerzésre vonatkozó igény bejelentése, eljárási cselekmények rögzítése, kapcsolódó dokumentumok feltöltése a központosított közbeszerzési portálon, eredményes eljárás esetén a megrendelés rögzítése és a megkötött szerződés, valamint esetleges módosításainak feltöltése."
+    },
+    {
+      "provision_ref": "s129",
+      "section": "129",
+      "title": "129",
+      "content": "39. A felelős akkreditált közbeszerzési szaktanácsadó a közbeszerzési eljárást megindító közbeszerzési dokumentumot a döntéshozói jóváhagyást megelőzően köteles ellenjegyzésével ellátni."
+    },
+    {
+      "provision_ref": "s130",
+      "section": "130",
+      "title": "130",
+      "content": "40. A közbeszerzés tárgya szerinti műszaki (szakmai) szakértelmet biztosító személy feladata:"
+    },
+    {
+      "provision_ref": "s131",
+      "section": "131",
+      "title": "131",
+      "content": "a) a piacfelmérés elkészítése és annak alapján vagy a Kbt. 28. § (2) bekezdésében meghatározott egyéb módszerekkel a becsült érték dokumentált meghatározása;"
+    },
+    {
+      "provision_ref": "s132",
+      "section": "132",
+      "title": "132",
+      "content": "b) a beszerzés tárgya szerint érintett szakterület(ek) szakmai igényei alapján a közbeszerzés műszaki (szakmai) leírásának összeállítása;"
+    },
+    {
+      "provision_ref": "s133",
+      "section": "133",
+      "title": "133",
+      "content": "c) a Beszerzési Szabályzatban meghatározott esetben a műszaki leírásnak a Rendőrség munkavédelmi főfelügyelője általi véleményezésének kezdeményezése;"
+    },
+    {
+      "provision_ref": "s134",
+      "section": "134",
+      "title": "134",
+      "content": "d) a Beszerzési Szabályzatban meghatározott esetben a műszaki leírásnak a Rendőrség közegészségügyi főfelügyelője általi véleményezésének kezdeményezése;"
+    },
+    {
+      "provision_ref": "s135",
+      "section": "135",
+      "title": "135",
+      "content": "e) a műszaki, szakmai alkalmassági feltételekre, értékelési szempontrendszerre történő javaslattétel;"
+    },
+    {
+      "provision_ref": "s136",
+      "section": "136",
+      "title": "136",
+      "content": "f) a műszaki leírásnak a közbeszerzési dokumentumok bizottság általi elfogadása előtti aláírása, amivel igazolja, hogy az elkészített szakmai tartalom teljes mértékben megfelelő és felhasználható az adott közbeszerzési eljárásban;"
+    },
+    {
+      "provision_ref": "s137",
+      "section": "137",
+      "title": "137",
+      "content": "g) a műszaki tartalomra vonatkozó kiegészítő tájékoztatás kérések esetén a választervezet elkészítése, szükség esetén a közbeszerzési dokumentumok műszaki módosításának előkészítése;"
+    },
+    {
+      "provision_ref": "s138",
+      "section": "138",
+      "title": "138",
+      "content": "h) a részvételi jelentkezések, valamint az ajánlatok értékelése során a műszaki, szakmai alkalmassági követelményeknek való megfelelőség vizsgálata; valamint"
+    },
+    {
+      "provision_ref": "s139",
+      "section": "139",
+      "title": "139",
+      "content": "i) közreműködés a szerződéstervezet műszaki tartalmat érintő rendelkezéseinek megfogalmazásában."
+    },
+    {
+      "provision_ref": "s140",
+      "section": "140",
+      "title": "140",
+      "content": "41. A pénzügyi szakértelmet biztosító személy feladatai:"
+    },
+    {
+      "provision_ref": "s141",
+      "section": "141",
+      "title": "141",
+      "content": "a) a pénzügyi, gazdasági alkalmassági feltételekre történő javaslattétel;"
+    },
+    {
+      "provision_ref": "s142",
+      "section": "142",
+      "title": "142",
+      "content": "b) a szerződés pénzügyi teljesítésére vonatkozó kiegészítő tájékoztatás kérések esetén a választervezet elkészítése;"
+    },
+    {
+      "provision_ref": "s143",
+      "section": "143",
+      "title": "143",
+      "content": "c) az ajánlattevő és az ajánlat pénzügyi, gazdasági alkalmassági feltételeknek való megfelelőségének ellenőrzése;"
+    },
+    {
+      "provision_ref": "s144",
+      "section": "144",
+      "title": "144",
+      "content": "d) az ajánlat számszerű ellenőrzése, javaslattétel számítása hiba javítására;"
+    },
+    {
+      "provision_ref": "s145",
+      "section": "145",
+      "title": "145",
+      "content": "e) a beszerzés fedezete rendelkezésre állásának folyamatos ellenőrzése; valamint"
+    },
+    {
+      "provision_ref": "s146",
+      "section": "146",
+      "title": "146",
+      "content": "f) a beérkezett ajánlatok – illetve azok kapcsán benyújtott indokolások, felvilágosítások – vizsgálata az aránytalanul alacsony ár és egyéb aránytalan vállalások vonatkozásában."
+    },
+    {
+      "provision_ref": "s147",
+      "section": "147",
+      "title": "147",
+      "content": "42. A jogi szakértelmet biztosító személy feladata:"
+    },
+    {
+      "provision_ref": "s148",
+      "section": "148",
+      "title": "148",
+      "content": "a) az illetékes szakterület által írásban rendelkezésre bocsátott, a megkötendő szerződés lényeges tartalmi elemét képező részletes szakmai elvárások alapján a – közbeszerzési dokumentumokkal összhangban álló – szerződéstervezet megszövegezése, az eljárásban alkalmazni kívánt szerződés szövegének a közbeszerzési dokumentumok elfogadását megelőző ellenőrzése;"
+    },
+    {
+      "provision_ref": "s149",
+      "section": "149",
+      "title": "149",
+      "content": "b) a szerződés tartalmára vonatkozó kiegészítő tájékoztatás kérések megválaszolása;"
+    },
+    {
+      "provision_ref": "s150",
+      "section": "150",
+      "title": "150",
+      "content": "c) eredményes eljárás esetén a szerződés végleges formában történő elkészítése;"
+    },
+    {
+      "provision_ref": "s151",
+      "section": "151",
+      "title": "151",
+      "content": "d) az előzetes vitarendezésre adott válasz véleményezése;"
+    },
+    {
+      "provision_ref": "s152",
+      "section": "152",
+      "title": "152",
+      "content": "e) jogorvoslat esetén a Közbeszerzési Döntőbizottság, a kérelmező és az egyéb érdekeltek részére megküldendő dokumentumok véleményezése."
+    },
+    {
+      "provision_ref": "s153",
+      "section": "153",
+      "title": "153",
+      "content": "43. Amennyiben a jogi szakértelmet nem az ORFK állományába tartozó személy biztosítja, úgy a 33. vagy 36. pontban meghatározott személy a megszövegezett szerződéstervezetet a közbeszerzési dokumentumok döntéshozó általi jóváhagyását megelőzően a szolgálati út betartásával – ellenőrzés céljából – köteles megküldeni az ORFK GF IF-nek. A közbeszerzési dokumentumok részévé csak az ellenőrzött szerződéstervezet tehető."
+    },
+    {
+      "provision_ref": "s154",
+      "section": "154",
+      "title": "154",
+      "content": "14. A bizottság"
+    },
+    {
+      "provision_ref": "s155",
+      "section": "155",
+      "title": "155",
+      "content": "44. A döntéshozó által bizottsági tagként kijelölt személyek megbízásuk kezdetétől az ajánlatok beérkezéséig előkészítő bizottságot, a bontás megkezdésétől az eljárás befejezéséig bíráló bizottságot alkotnak."
+    },
+    {
+      "provision_ref": "s156",
+      "section": "156",
+      "title": "156",
+      "content": "45. A bizottság tagjai az ajánlatok értékelése tekintetében nem utasíthatók, álláspontjukat önállóan, kizárólag szakmai ismereteik, az általánosan elfogadott szakmai szabályok és követelmények, valamint a bizottság munkáját támogató szakértők által kifejtettek figyelembevételével, az eljárást megindító felhívásban megadott értékelési szempontok alapján alakítják ki."
+    },
+    {
+      "provision_ref": "s157",
+      "section": "157",
+      "title": "157",
+      "content": "46. A bizottság működése az eredményesen lezárult közbeszerzés alapján a döntéshozó döntésének eredményeként az eljárás eredményéről szóló tájékoztató közzétételéig vagy a felhívás visszavonásáig, illetve az eredménytelenné nyilvánított eljárás befejezésének időpontjáig tart."
+    },
+    {
+      "provision_ref": "s158",
+      "section": "158",
+      "title": "158",
+      "content": "47. A bizottság tagjai feladataikat elsősorban elektronikus úton, dokumentált módon teljesítik. A bizottság tagjai személyes jelenlétre – a 37. pont a) alpont ad) alpontja mellett – kizárólag abban az esetben kötelezhetőek, ha a közbeszerzéssel kapcsolatos kérdés megvitatása, döntési javaslat elfogadása elektronikus úton nem lehetséges."
+    },
+    {
+      "provision_ref": "s159",
+      "section": "159",
+      "title": "159",
+      "content": "48. A bizottsági szavazás akkor érvényes és eredményes, ha a szavazásra jogosultak több mint fele – elektronikus úton vagy személyesen – szavazott. Szavazategyenlőség esetén a bizottság elnökének, az elnök távollétében kijelölt helyettesének szavazata dönt."
+    },
+    {
+      "provision_ref": "s160",
+      "section": "160",
+      "title": "160",
+      "content": "49. A bizottság titkára elektronikus úton küldi meg a bizottsági tagok részére a feladataik elvégzéséhez, illetve a szavazáshoz szükséges dokumentumokat."
+    },
+    {
+      "provision_ref": "s161",
+      "section": "161",
+      "title": "161",
+      "content": "50. A bizottsági ülést a céljának megjelölésével a titkár tűzi ki. Az ülést olyan időpontra kell kitűzni, hogy a bizottság tagjainak és az egyéb résztvevőknek megfelelő felkészülési idő álljon rendelkezésre. Az ülés időpontjáról és helyszínéről a titkár dokumentált módon, elektronikus úton értesíti a résztvevőket."
+    },
+    {
+      "provision_ref": "s162",
+      "section": "162",
+      "title": "162",
+      "content": "51. A bizottsági ülésről készült jegyzőkönyvben rögzíteni kell:"
+    },
+    {
+      "provision_ref": "s163",
+      "section": "163",
+      "title": "163",
+      "content": "a) az eljárással kapcsolatban felmerült javaslatokat;"
+    },
+    {
+      "provision_ref": "s164",
+      "section": "164",
+      "title": "164",
+      "content": "b) az eljárás lefolytatását meghatározó eljárási cselekményeket, döntéseket;"
+    },
+    {
+      "provision_ref": "s165",
+      "section": "165",
+      "title": "165",
+      "content": "c) a tagoknak, valamint az ülésen részt vevő szakértőknek, a kijelölt felülvizsgálónak a felmerült javaslatokkal, illetve döntésekkel összefüggő szakmai véleményét, az eljárási cselekmények lefolytatásával kapcsolatos észrevételeit, szakvéleményét."
+    },
+    {
+      "provision_ref": "s166",
+      "section": "166",
+      "title": "166",
+      "content": "52. A bizottság az eljárás előkészítése keretében kidolgozza és véglegesített formájában elfogadja a közbeszerzési eljárást megindító felhívást, a szerződéstervezetet és a műszaki leírást, valamint a jogszabályban meghatározott egyéb közbeszerzési dokumentumokat."
+    },
+    {
+      "provision_ref": "s167",
+      "section": "167",
+      "title": "167",
+      "content": "53. A bizottság az ajánlatok bontását követően:"
+    },
+    {
+      "provision_ref": "s168",
+      "section": "168",
+      "title": "168",
+      "content": "a) megvizsgálja a felbontott részvételi jelentkezéseket, ajánlatokat, meghatározza a hiánypótlás, az indokolás és a felvilágosításkérések körét, értékeli és összehasonlítja az ajánlatokat (részvételi jelentkezéseket);"
+    },
+    {
+      "provision_ref": "s169",
+      "section": "169",
+      "title": "169",
+      "content": "b) a tárgyalásos eljárás során képviseli az ajánlatkérőt; valamint"
+    },
+    {
+      "provision_ref": "s170",
+      "section": "170",
+      "title": "170",
+      "content": "c) döntési javaslatot készít a döntéshozó felé az ajánlat, a részvételi jelentkezés érvénytelenségének megállapítására, vagy az ajánlattevő, az alvállalkozó, az alkalmasság igazolásában részt vevő gazdasági szereplő kizárására;"
+    },
+    {
+      "provision_ref": "s171",
+      "section": "171",
+      "title": "171",
+      "content": "d) közbenső döntési javaslatot készít a döntéshozó részére a Kbt. 69. § (4) bekezdése szerinti igazolások bekérését megelőzően arra vonatkozóan, hogy mely ajánlattevőt, ajánlattevőket, részvételre jelentkezőt, részvételre jelentkezőket kell felhívni a kizáró okok, az alkalmassági követelmények, valamint – adott esetben – a Kbt. 82. § (5) bekezdése szerinti objektív kritériumok tekintetében az eljárást megindító felhívásban előírt igazolások benyújtására;"
+    },
+    {
+      "provision_ref": "s172",
+      "section": "172",
+      "title": "172",
+      "content": "e) döntési javaslatot készít az eljárás eredményének vagy eredménytelenségének megállapítására, az érvényes ajánlatok sorrendjére."
+    },
+    {
+      "provision_ref": "s173",
+      "section": "173",
+      "title": "173",
+      "content": "54. Amennyiben a bizottság tagja a közbeszerzési eljárás előkészítése vagy lefolytatása során az ajánlatkérővel vagy a lefolytató szervvel fennálló jogviszonyából eredő kötelezettségét megszegi, a foglalkoztatási viszonyára irányadó szabályok alapján felelősséggel tartozik."
+    },
+    {
+      "provision_ref": "s174",
+      "section": "174",
+      "title": "174",
+      "content": "15. Az eljárás titkára"
+    },
+    {
+      "provision_ref": "s175",
+      "section": "175",
+      "title": "175",
+      "content": "55. A közbeszerzési eljárásokkal kapcsolatos adminisztrációs és szervezési feladatok ellátásért – az eljárás alapján kötött szerződés előkészítésétől annak megkötéséig – az eljárás titkára a felelős."
+    },
+    {
+      "provision_ref": "s176",
+      "section": "176",
+      "title": "176",
+      "content": "56. Az eljárás titkári teendőivel a 30. pont szerinti feltételeknek megfelelő személy bízható meg."
+    },
+    {
+      "provision_ref": "s177",
+      "section": "177",
+      "title": "177",
+      "content": "57. Az eljárás titkára a bizottság tagjaként szavazati joggal, egyéb esetben részvételi joggal vesz részt a bizottság munkájában. Erről a megbízólevélben a döntéshozónak rendelkeznie kell."
+    },
+    {
+      "provision_ref": "s178",
+      "section": "178",
+      "title": "178",
+      "content": "58. A titkár feladata különösen:"
+    },
+    {
+      "provision_ref": "s179",
+      "section": "179",
+      "title": "179",
+      "content": "a) az eljárási cselekmények dokumentálása, határidejének nyilvántartása és arról a bizottsági tagok tájékoztatása;"
+    },
+    {
+      "provision_ref": "s180",
+      "section": "180",
+      "title": "180",
+      "content": "b) a felhívás és az egyéb közbeszerzési dokumentumok szükség szerinti ellenjegyeztetése a munkavédelmi főfelügyelővel, a közegészségügyi főfelügyelővel, valamint azok jóváhagyásra történő előterjesztése;"
+    },
+    {
+      "provision_ref": "s181",
+      "section": "181",
+      "title": "181",
+      "content": "c) a 320/2015. Korm. rendelet szerinti ellenőrzéshez szükséges dokumentumok összeállítása és elektronikus úton történő továbbítása az ORFK GF IF, illetve a közbeszerzésekért felelős minisztérium részére;"
+    },
+    {
+      "provision_ref": "s182",
+      "section": "182",
+      "title": "182",
+      "content": "d) a felhívás és a közbeszerzési dokumentumok sokszorosítása, az ajánlattevők, valamint a részvételi jelentkezők rendelkezésére bocsátása, a bírálóbizottsági ülések, tárgyalások megszervezése;"
+    },
+    {
+      "provision_ref": "s183",
+      "section": "183",
+      "title": "183",
+      "content": "e) a bizottság munkájának dokumentálása, jegyzőkönyvek elkészítése, egyéb adminisztratív teendők ellátása;"
+    },
+    {
+      "provision_ref": "s184",
+      "section": "184",
+      "title": "184",
+      "content": "f) a tájékoztatók, az indokolás és a felvilágosításkérések, valamint a kiegészítő tájékoztatás megküldése a részvételi jelentkezők, az ajánlattevők részére;"
+    },
+    {
+      "provision_ref": "s185",
+      "section": "185",
+      "title": "185",
+      "content": "g) a részvételi jelentkezések, valamint az ajánlatok átvételének, bontásának megszervezése, a bontási eljárás lefolytatása;"
+    },
+    {
+      "provision_ref": "s186",
+      "section": "186",
+      "title": "186",
+      "content": "h) a részvételi jelentkezések, valamint az ajánlatok formai ellenőrzése, különös tekintettel a felhívásban meghatározott alkalmassági és egyéb feltételek igazolására szolgáló okmányok meglétére;"
+    },
+    {
+      "provision_ref": "s187",
+      "section": "187",
+      "title": "187",
+      "content": "i) a hiánypótlással, a felvilágosítás- és indokoláskéréssel kapcsolatos dokumentációs és az adminisztratív feladatok ellátása;"
+    },
+    {
+      "provision_ref": "s188",
+      "section": "188",
+      "title": "188",
+      "content": "j) az összegezés elkészítése és a részvételi jelentkezők, valamint az ajánlattevők részére történő megküldése;"
+    },
+    {
+      "provision_ref": "s189",
+      "section": "189",
+      "title": "189",
+      "content": "k) előzetes vitarendezés esetén az arra adott válasz összeállításának koordinálása, megküldése;"
+    },
+    {
+      "provision_ref": "s190",
+      "section": "190",
+      "title": "190",
+      "content": "l) jogorvoslat esetén a Közbeszerzési Döntőbizottság, a kérelmező és az egyéb érdekeltek részére megküldendő dokumentumok továbbítása;"
+    },
+    {
+      "provision_ref": "s191",
+      "section": "191",
+      "title": "191",
+      "content": "m) a közbeszerzési eljárási iratanyag kezelése és nyilvántartása, az eljárásonkénti iratdosszié felfektetése, az eljárás befejezése után az összeállított iratcsomag irattárban történő elhelyezése;"
+    },
+    {
+      "provision_ref": "s192",
+      "section": "192",
+      "title": "192",
+      "content": "n) valamennyi közbeszerzési dokumentummal kapcsolatos szövegszerkesztési, valamint az előírt közzétételhez szükséges feladatok végrehajtása;"
+    },
+    {
+      "provision_ref": "s193",
+      "section": "193",
+      "title": "193",
+      "content": "o) a hirdetmények Közbeszerzési Hatóság részére történő megküldése; valamint"
+    },
+    {
+      "provision_ref": "s194",
+      "section": "194",
+      "title": "194",
+      "content": "p) a döntéshozó által jóváhagyott megbízás másolatának a bíráló bizottsági tagok részére történő dokumentált átadása."
+    },
+    {
+      "provision_ref": "s195",
+      "section": "195",
+      "title": "195",
+      "content": "16. Külső megbízott bevonása (lebonyolító)"
+    },
+    {
+      "provision_ref": "s196",
+      "section": "196",
+      "title": "196",
+      "content": "59. Külső megbízott bevonásáról a döntéshozó határoz. A külső megbízottat azzal a feladattal kell megbízni, hogy a közbeszerzési eljárást az ORFK nevében folytassa le, egyben lássa el a közbeszerzési eljárás titkári teendőit."
+    },
+    {
+      "provision_ref": "s197",
+      "section": "197",
+      "title": "197",
+      "content": "60. A külső megbízott feladatát és kötelezettségeit tartalmazó megbízási szerződést az ORFK GF készíti elő."
+    },
+    {
+      "provision_ref": "s198",
+      "section": "198",
+      "title": "198",
+      "content": "61. A külső megbízottal kötött szerződésnek minden esetben tartalmaznia kell, hogy:"
+    },
+    {
+      "provision_ref": "s199",
+      "section": "199",
+      "title": "199",
+      "content": "a) amennyiben jogorvoslati eljárás eredményeként a Közbeszerzési Döntőbizottság bírságot szab ki, úgy a külső megbízott a kiszabott bírság megfizetését átvállalja az ORFK-tól minden olyan esetben, amikor a döntés jogszerűtlenségére a döntéshozó figyelmét nem hívta fel, valamint"
+    },
+    {
+      "provision_ref": "s200",
+      "section": "200",
+      "title": "200",
+      "content": "b) a külső megbízott, illetőleg az annak képviseletére jogosult tagja köteles a megbízási szerződésben meghatározott feladatok teljesítésében személyesen részt venni."
+    },
+    {
+      "provision_ref": "s201",
+      "section": "201",
+      "title": "201",
+      "content": "III. FEJEZET"
+    },
+    {
+      "provision_ref": "s202",
+      "section": "202",
+      "title": "202",
+      "content": "A KÖZBESZERZÉSI ELJÁRÁS ELŐKÉSZÍTÉSÉNEK ÉS LEFOLYTATÁSÁNAK SZABÁLYAI"
+    },
+    {
+      "provision_ref": "s203",
+      "section": "203",
+      "title": "203",
+      "content": "17. A közbeszerzési eljárás előkészítése"
+    },
+    {
+      "provision_ref": "s204",
+      "section": "204",
+      "title": "204",
+      "content": "62. Közbeszerzési eljárás megindítását a közbeszerzés tárgya szerint hatáskörrel rendelkező szakterület vezetője az alábbi dokumentumok megküldésével kezdeményezheti a döntéshozónál:"
+    },
+    {
+      "provision_ref": "s205",
+      "section": "205",
+      "title": "205",
+      "content": "a) a műszaki leírás tervezete;"
+    },
+    {
+      "provision_ref": "s206",
+      "section": "206",
+      "title": "206",
+      "content": "b) a becsült érték meghatározását alátámasztó dokumentumok;"
+    },
+    {
+      "provision_ref": "s207",
+      "section": "207",
+      "title": "207",
+      "content": "c) a közbeszerzésre vonatkozó főbb adatok (szerződéskötés kívánt ideje, szerződés teljesítésének határideje, javasolt eljárásfajta, a 42. pont a) alpont szerinti szakmai elvárásokat tartalmazó dokumentum);"
+    },
+    {
+      "provision_ref": "s208",
+      "section": "208",
+      "title": "208",
+      "content": "d) javaslat az elnök személyére."
+    },
+    {
+      "provision_ref": "s209",
+      "section": "209",
+      "title": "209",
+      "content": "63. A döntéshozó általi kijelölés kézhezvételét követő 2 munkanapon belül a lefolytató szerv vezetője kezdeményezi az eljárás megkezdéséhez szükséges cselekmények elvégzését, így különösen:"
+    },
+    {
+      "provision_ref": "s210",
+      "section": "210",
+      "title": "210",
+      "content": "a) a közbeszerzés tárgyának és mennyiségének pontos meghatározását;"
+    },
+    {
+      "provision_ref": "s211",
+      "section": "211",
+      "title": "211",
+      "content": "b) az eljárásba bevonandó személyek kijelölését, az eljárást előkészítő bizottsági munka megkezdését;"
+    },
+    {
+      "provision_ref": "s212",
+      "section": "212",
+      "title": "212",
+      "content": "c) valamennyi közbeszerzési dokumentum elkészíttetését; valamint"
+    },
+    {
+      "provision_ref": "s213",
+      "section": "213",
+      "title": "213",
+      "content": "d) a Beszerzési Szabályzatban meghatározott esetben a munkavédelmi főfelügyelő, a közegészségügyi főfelügyelő ellenjegyzésének beszerzését."
+    },
+    {
+      "provision_ref": "s214",
+      "section": "214",
+      "title": "214",
+      "content": "64. A döntéshozó a 320/2015. Korm. rendelet 5. § (1) bekezdése szerinti előterjesztést a Belügyminisztérium gazdasági helyettes államtitkára útján küldi meg a közbeszerzésekért felelős minisztériumnak."
+    },
+    {
+      "provision_ref": "s215",
+      "section": "215",
+      "title": "215",
+      "content": "65. A közbeszerzésekért felelős minisztériumnak a 320/2015. Korm. rendelet szerinti hozzájárulását (a továbbiakban: engedély) tartalmazó átiratot az eljárás iratai között kell elhelyezni."
+    },
+    {
+      "provision_ref": "s216",
+      "section": "216",
+      "title": "216",
+      "content": "66. A döntéshozó az eljárás megindítását a közbeszerzési dokumentumok jóváhagyásával engedélyezi."
+    },
+    {
+      "provision_ref": "s217",
+      "section": "217",
+      "title": "217",
+      "content": "67. A közbeszerzésekért felelős minisztérium által delegált megfigyelő munkáját a Rendőrség részéről eljáró személyek kötelesek segíteni. Az eljáró személyeket ez a kötelezettség attól az időponttól terheli, amikor a megfigyelő delegálásáról szóló értesítést megismerték."
+    },
+    {
+      "provision_ref": "s218",
+      "section": "218",
+      "title": "218",
+      "content": "18. Az ajánlatok (részvételi jelentkezések) bontása"
+    },
+    {
+      "provision_ref": "s219",
+      "section": "219",
+      "title": "219",
+      "content": "68. Az ajánlatok, valamint a részvételi jelentkezések felbontását (a továbbiakban: bontás) az eljárás titkára végzi el. A bontáson a bizottság egyéb tagjai is jelen lehetnek."
+    },
+    {
+      "provision_ref": "s220",
+      "section": "220",
+      "title": "220",
+      "content": "69. A bontásról készült jegyzőkönyvnek tartalmaznia kell:"
+    },
+    {
+      "provision_ref": "s221",
+      "section": "221",
+      "title": "221",
+      "content": "a) az ajánlat, részvételi jelentkezés felbontásának helyét, idejét;"
+    },
+    {
+      "provision_ref": "s222",
+      "section": "222",
+      "title": "222",
+      "content": "b) a bontáson jelen lévő személyek nevét;"
+    },
+    {
+      "provision_ref": "s223",
+      "section": "223",
+      "title": "223",
+      "content": "c) az ajánlattevő, részvételre jelentkező nevét, székhelyét, lakóhelyét;"
+    },
+    {
+      "provision_ref": "s224",
+      "section": "224",
+      "title": "224",
+      "content": "d) az ajánlatok bírálati szempontok szerinti főbb számszerűsíthető adatait;"
+    },
+    {
+      "provision_ref": "s225",
+      "section": "225",
+      "title": "225",
+      "content": "e) az ajánlatokra, részvételi jelentkezésekre vonatkozó egyéb különleges körülményeket;"
+    },
+    {
+      "provision_ref": "s226",
+      "section": "226",
+      "title": "226",
+      "content": "f) az ajánlattevői betekintés tényét;"
+    },
+    {
+      "provision_ref": "s227",
+      "section": "227",
+      "title": "227",
+      "content": "g) a bíráló bizottság döntése alapján a becsült érték és a rendelkezésre álló fedezet mértékét; valamint"
+    },
+    {
+      "provision_ref": "s228",
+      "section": "228",
+      "title": "228",
+      "content": "h) a jogszabályban meghatározott egyéb kötelező tartalmi elemet."
+    },
+    {
+      "provision_ref": "s229",
+      "section": "229",
+      "title": "229",
+      "content": "19. Az ajánlatok (részvételi jelentkezések) elbírálása"
+    },
+    {
+      "provision_ref": "s230",
+      "section": "230",
+      "title": "230",
+      "content": "70. A bizottsági tagok mindegyike szakterületének megfelelően köteles szakmai véleményt nyilvánítani a részvételi jelentkezésekről, valamint az ajánlatokról a közbeszerzési eljárást érintő döntések meghozatala érdekében."
+    },
+    {
+      "provision_ref": "s231",
+      "section": "231",
+      "title": "231",
+      "content": "71. A bizottság köteles megállapítani, hogy mely ajánlatok, részvételi jelentkezések érvénytelenek, illetőleg van-e olyan ajánlattevő, részvételre jelentkező, akit az eljárásból ki kell zárni."
+    },
+    {
+      "provision_ref": "s232",
+      "section": "232",
+      "title": "232",
+      "content": "72. A bizottsági tagok jogosultak megismerni a bírálatba bevont külső szakértők véleményét. Amennyiben a bizottság tagja a szakértő(k) véleményével nem ért egyet, jogosult ennek tényét rögzíteni."
+    },
+    {
+      "provision_ref": "s233",
+      "section": "233",
+      "title": "233",
+      "content": "73. Az ajánlatoknak az ajánlati kötöttség határidejére figyelemmel történő elbírálásáért, valamint a bizottság ezzel kapcsolatos tájékoztatásáért az eljárás titkára felelős."
+    },
+    {
+      "provision_ref": "s234",
+      "section": "234",
+      "title": "234",
+      "content": "74. Az eljárásból kizárt vagy alkalmatlanná minősített, illetve érvénytelen ajánlatot vagy jelentkezést benyújtó ajánlattevők, jelentkezők számára küldendő tájékoztató levelet az eljárást lefolytató szerv vezetője vagy az általa kijelölt személy a döntési javaslattal egyidejűleg terjeszti fel a döntéshozónak."
+    },
+    {
+      "provision_ref": "s235",
+      "section": "235",
+      "title": "235",
+      "content": "20. Szerződéskötés"
+    },
+    {
+      "provision_ref": "s236",
+      "section": "236",
+      "title": "236",
+      "content": "75. Eredményes közbeszerzési eljárás esetén az eljárást lefolytató szerv vezetője a szerződéstervezetet a jóváhagyott döntési javaslattal és a kiküldött összegezéssel együtt küldi meg az ORFK GF IF vezetőjének jogi ellenjegyzés céljából."
+    },
+    {
+      "provision_ref": "s237",
+      "section": "237",
+      "title": "237",
+      "content": "76. Az ORFK részéről aláírt szerződésnek az eljárás nyertesével történő aláíratására az eljárást lefolytató szerv vezetője vagy az általa kijelölt személy intézkedik."
+    },
+    {
+      "provision_ref": "s238",
+      "section": "238",
+      "title": "238",
+      "content": "IV. FEJEZET"
+    },
+    {
+      "provision_ref": "s239",
+      "section": "239",
+      "title": "239",
+      "content": "A KÖZBESZERZÉSEK ELLENŐRZÉSE"
+    },
+    {
+      "provision_ref": "s240",
+      "section": "240",
+      "title": "240",
+      "content": "77. A közbeszerzési eljárás lefolytatása során a munkafolyamatba épített előzetes és utólagos ellenőrzés végrehajtásáért felelős:"
+    },
+    {
+      "provision_ref": "s241",
+      "section": "241",
+      "title": "241",
+      "content": "a) a lefolytató szerv vezetője a közbeszerzés teljes lefolytatása során;"
+    },
+    {
+      "provision_ref": "s242",
+      "section": "242",
+      "title": "242",
+      "content": "b) a közbeszerzés tárgya szerint felelős szakfőosztály vezetője a műszaki követelmények összeállítása és a nyertes ajánlat műszaki értékelése folyamán;"
+    },
+    {
+      "provision_ref": "s243",
+      "section": "243",
+      "title": "243",
+      "content": "c) az elnök és a bizottsági tagok szolgálati elöljárója (vezetője) a bizottsági munkában való részvétel tekintetében."
+    },
+    {
+      "provision_ref": "s244",
+      "section": "244",
+      "title": "244",
+      "content": "78. Az ORFK érintett vezetője, illetve az adott közbeszerzést lefolytató szerv vezetője feladat- és hatáskörének megfelelően köteles biztosítani, hogy az ORFK közbeszerzéseit a jogszabályban erre felhatalmazott szervek ellenőrizhessék. A felhatalmazott szervek részére a jogszabályban meghatározott iratanyagokat, közbeszerzési dokumentumokat rendelkezésre kell bocsátani."
+    },
+    {
+      "provision_ref": "s245",
+      "section": "245",
+      "title": "245",
+      "content": "V. FEJEZET"
+    },
+    {
+      "provision_ref": "s246",
+      "section": "246",
+      "title": "246",
+      "content": "A KÖZBESZERZÉSI ELJÁRÁSOK DOKUMENTÁLÁSA ÉS KÖZZÉTÉTELE"
+    },
+    {
+      "provision_ref": "s247",
+      "section": "247",
+      "title": "247",
+      "content": "79. A közbeszerzési eljárási cselekmények dokumentálása a lefolytató szerv feladata. A közbeszerzési eljárás iratainak eredeti példányát a lefolytató szerv, külső megbízott igénybevétele esetén a kezdeményező szervezeti egység helyezi irattárba."
+    },
+    {
+      "provision_ref": "s248",
+      "section": "248",
+      "title": "248",
+      "content": "80. A Kbt. 43. § c)–d) pontjában meghatározott közzétételi kötelezettség rendjére a közérdekű és a közérdekből nyilvános adatok elektronikus közzétételének szabályairól szóló 14/2014. (V. 23.) ORFK utasítás [a továbbiakban: 14/2014. (V. 23.) ORFK utasítás] szabályai irányadóak."
+    },
+    {
+      "provision_ref": "s249",
+      "section": "249",
+      "title": "249",
+      "content": "81. A Kbt. 43. §-a szerinti közzétételi kötelezettségekért az alábbi személyek felelősek:"
+    },
+    {
+      "provision_ref": "s250",
+      "section": "250",
+      "title": "250",
+      "content": "a) a Kbt. 43. § (1) bekezdés a) és g) pontja szerinti dokumentumok tekintetében az ORFK GF IF vezetője, valamint"
+    },
+    {
+      "provision_ref": "s251",
+      "section": "251",
+      "title": "251",
+      "content": "b) a Kbt. 43. § (1) bekezdés b,) e) és f) pontja szerinti közzétételi kötelezettség tekintetében az eljárás titkára."
+    },
+    {
+      "provision_ref": "s252",
+      "section": "252",
+      "title": "252",
+      "content": "VI. FEJEZET"
+    },
+    {
+      "provision_ref": "s253",
+      "section": "253",
+      "title": "253",
+      "content": "EGYES BESZERZÉSEKRE VONATKOZÓ KÜLÖNÖS RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s254",
+      "section": "254",
+      "title": "254",
+      "content": "82. Az értékhatár alatti és a kivételi körbe tartozó beszerzésekre a II–V. Fejezet rendelkezéseit az e fejezetben foglalt és az értékhatár alatti beszerzésekre a közbeszerzési értékhatárok alatti értékű beszerzések megvalósításával és ellenőrzésével kapcsolatos szabályokról szóló 459/2016. (XII. 23.) Korm. rendeletben [a továbbiakban: 459/2016. (XII. 23.) Korm. rendelet] foglalt eltérésekkel kell megfelelően alkalmazni, a 3. pont szerinti eljárásokra pedig az e fejezetben foglaltak az irányadók."
+    },
+    {
+      "provision_ref": "s255",
+      "section": "255",
+      "title": "255",
+      "content": "83. Az e fejezetben szabályozott beszerzést (a továbbiakban: beszerzés) a kötelezettségvállalás, a pénzügyi és jogi ellenjegyzés, az utalványozás, az érvényesítés és a teljesítés igazolás rendjének meghatározásáról szóló 47/2013. (XI. 29.) ORFK utasítás 23. pontja szerinti szervezeti elem vezetője (a továbbiakban: ajánlatkérő) önállóan folytathatja le."
+    },
+    {
+      "provision_ref": "s256",
+      "section": "256",
+      "title": "256",
+      "content": "84. Az értékhatár alatti és a kivételi körbe tartozó beszerzés lefolytatásához előkészítő bizottság kijelölése nem kötelező."
+    },
+    {
+      "provision_ref": "s257",
+      "section": "257",
+      "title": "257",
+      "content": "85. Az értékhatár alatti és a kivételi körbe tartozó beszerzés tekintetében közbeszerzési szakértelmet biztosító személy elegendő, ha megfelel a 30. pont a) vagy b) pontjában meghatározott feltételnek."
+    },
+    {
+      "provision_ref": "s258",
+      "section": "258",
+      "title": "258",
+      "content": "86. A beszerzés során – összhangban a 459/2016. (XII. 23.) Korm. rendeletben foglaltakkal – legalább három ajánlatot kötelező egy időben, írásban bekérni."
+    },
+    {
+      "provision_ref": "s259",
+      "section": "259",
+      "title": "259",
+      "content": "87. Az ajánlatkérésnek tartalmaznia kell:"
+    },
+    {
+      "provision_ref": "s260",
+      "section": "260",
+      "title": "260",
+      "content": "a) az ajánlatkérő megnevezését, székhelyét;"
+    },
+    {
+      "provision_ref": "s261",
+      "section": "261",
+      "title": "261",
+      "content": "b) a beszerzés tárgyának pontos meghatározását, főbb adatait, mennyiségét;"
+    },
+    {
+      "provision_ref": "s262",
+      "section": "262",
+      "title": "262",
+      "content": "c) a teljesítés helyét, határidejét, feltételeit, az ellenszolgáltatással kapcsolatos kikötéseket, feltételeket;"
+    },
+    {
+      "provision_ref": "s263",
+      "section": "263",
+      "title": "263",
+      "content": "d) a részajánlat tételének lehetőségét vagy kizárását;"
+    },
+    {
+      "provision_ref": "s264",
+      "section": "264",
+      "title": "264",
+      "content": "e) az ajánlat benyújtásának helyét (a szobaszám megjelölésével), módját, határidejét (óra, perc pontossággal), a példányszámát és a szükséges mellékleteket;"
+    },
+    {
+      "provision_ref": "s265",
+      "section": "265",
+      "title": "265",
+      "content": "f) a következő figyelemfelhívást: „Az ajánlatoknak a benyújtásra nyitva álló határidőben be kell érkezniük, nem elegendő az ajánlatok határidő lejártáig történt postára adása.”;"
+    },
+    {
+      "provision_ref": "s266",
+      "section": "266",
+      "title": "266",
+      "content": "g) a bontás helyét, időpontját, a bontáson részvételre jogosultak körét;"
+    },
+    {
+      "provision_ref": "s267",
+      "section": "267",
+      "title": "267",
+      "content": "h) a bírálat szempontját, szükséges esetben a rész- és alszempontokat is;"
+    },
+    {
+      "provision_ref": "s268",
+      "section": "268",
+      "title": "268",
+      "content": "i) a jogfenntartást a beszerzési eljárás – indokolás nélküli – eredménytelenné nyilvánítására, valamint a szerződéskötéstől való elállásra;"
+    },
+    {
+      "provision_ref": "s269",
+      "section": "269",
+      "title": "269",
+      "content": "j) az arra történő figyelemfelhívást, hogy a beszerzési eljárás nem minősül közbeszerzésnek; valamint"
+    },
+    {
+      "provision_ref": "s270",
+      "section": "270",
+      "title": "270",
+      "content": "k) a nyertes ajánlat megtételéhez szükséges valamennyi információt."
+    },
+    {
+      "provision_ref": "s271",
+      "section": "271",
+      "title": "271",
+      "content": "88. Az ajánlat benyújtási határidejét úgy kell megállapítani, hogy az ajánlattevők egyenlő eséllyel tudjanak ajánlatot tenni."
+    },
+    {
+      "provision_ref": "s272",
+      "section": "272",
+      "title": "272",
+      "content": "89. A beszerzés nyertesét a legalacsonyabb ár vagy a legalacsonyabb költség, illetve legjobb ár-érték arányt megjelenítő szempontok alapulvételével kell megállapítani. Az értékelési szempontoknak meg kell felelniük a Kbt. 76. § (6) bekezdésében meghatározott alapvető követelményeknek."
+    },
+    {
+      "provision_ref": "s273",
+      "section": "273",
+      "title": "273",
+      "content": "90. Az ajánlatkérésben meghatározott feltételek a benyújtási határidő lejártáig módosíthatók. A módosított feltételekről a benyújtási határidő lejártáig valamennyi ajánlattételre felhívott gazdasági szereplőnek egyidejűleg új ajánlatkérést kell küldeni, amelyben új benyújtási határidőt kell megállapítani."
+    },
+    {
+      "provision_ref": "s274",
+      "section": "274",
+      "title": "274",
+      "content": "91. Az ajánlatkérés a benyújtási határidő lejártáig visszavonható. A visszavonásról valamennyi ajánlattételre felhívott gazdasági szereplőt haladéktalanul értesíteni kell."
+    },
+    {
+      "provision_ref": "s275",
+      "section": "275",
+      "title": "275",
+      "content": "92. Az ajánlattevő részére – amennyiben ajánlatát személyesen nyújtja be – az ajánlat átvételéről elismervényt kell adni. Az átvételi elismervénynek tartalmaznia kell az átvétel helyét, időpontját, az átadó és az átvevő nevét és aláírását."
+    },
+    {
+      "provision_ref": "s276",
+      "section": "276",
+      "title": "276",
+      "content": "93. Az ajánlatok bontásán az ajánlattevő vagy meghatalmazottja részvételének lehetőségét biztosítani kell."
+    },
+    {
+      "provision_ref": "s277",
+      "section": "277",
+      "title": "277",
+      "content": "94. Érvénytelen az ajánlat, amennyiben"
+    },
+    {
+      "provision_ref": "s278",
+      "section": "278",
+      "title": "278",
+      "content": "a) az ajánlattevő a benyújtási határidő lejártát követően nyújtja be ajánlatát;"
+    },
+    {
+      "provision_ref": "s279",
+      "section": "279",
+      "title": "279",
+      "content": "b) a legkedvezőbb ajánlatban meghatározott ellenszolgáltatás mértéke eléri a Kbt. szerinti közbeszerzési értékhatárt; vagy"
+    },
+    {
+      "provision_ref": "s280",
+      "section": "280",
+      "title": "280",
+      "content": "c) az ajánlat egyéb módon nem felel meg a felhívásban meghatározott feltételeknek."
+    },
+    {
+      "provision_ref": "s281",
+      "section": "281",
+      "title": "281",
+      "content": "95. A beszerzési eljárást lezáró döntés meghozatalára az ajánlatkérő jogosult. A beszerzési eljárás eredményéről az ajánlatkérő az ajánlattevőket a döntés meghozatalát követő 8 naptári napon belül tájékoztatja."
+    },
+    {
+      "provision_ref": "s282",
+      "section": "282",
+      "title": "282",
+      "content": "96. Az ajánlatkérő az eljárás eredményéről szóló tájékoztatást követően a nyertes ajánlattevővel köti meg a szerződést. Amennyiben a nyertes ajánlattevő írásban nyilatkozik a visszalépéséről, az ajánlatkérő jogosult a következő legkedvezőbb ajánlatot tevő ajánlattevővel a szerződést megkötni."
+    },
+    {
+      "provision_ref": "s283",
+      "section": "283",
+      "title": "283",
+      "content": "97. Közbeszerzésnek nem minősülő beszerzés eredményeként létrejött szerződés közzétételére a 14/2014. (V. 23.) ORFK utasítás szabályai irányadóak."
+    },
+    {
+      "provision_ref": "s284",
+      "section": "284",
+      "title": "284",
+      "content": "98. A kivételi körbe tartozó beszerzések eredményeként létrejött vagy módosítani tervezett szerződés vonatkozásában – a 320/2015. Korm. rendelet 15–17. §-a alapján – vizsgálni kell, hogy azokhoz kell-e a közbeszerzésekért felelős miniszter jóváhagyása."
+    },
+    {
+      "provision_ref": "s285",
+      "section": "285",
+      "title": "285",
+      "content": "VII. FEJEZET"
+    },
+    {
+      "provision_ref": "s286",
+      "section": "286",
+      "title": "286",
+      "content": "ZÁRÓ RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s287",
+      "section": "287",
+      "title": "287",
+      "content": "99. Ez az utasítás a közzétételét követő hónap első napján lép hatályba."
+    },
+    {
+      "provision_ref": "s288",
+      "section": "288",
+      "title": "288",
+      "content": "100. Az utasítás rendelkezéseit a hatálybalépését követően meginduló közbeszerzésekre és közbeszerzésnek nem minősülő beszerzésekre kell alkalmazni."
+    },
+    {
+      "provision_ref": "s289",
+      "section": "289",
+      "title": "289",
+      "content": "101."
+    },
+    {
+      "provision_ref": "s290",
+      "section": "290",
+      "title": "290",
+      "content": "A Közbeszerzési Terv mintaokmánya"
+    },
+    {
+      "provision_ref": "s291",
+      "section": "291",
+      "title": "291",
+      "content": "Kelt.........................................................................."
+    },
+    {
+      "provision_ref": "s292",
+      "section": "292",
+      "title": "292",
+      "content": "* A közbeszerzés tárgya lehet:"
+    },
+    {
+      "provision_ref": "s293",
+      "section": "293",
+      "title": "293",
+      "content": "– árubeszerzés"
+    },
+    {
+      "provision_ref": "s294",
+      "section": "294",
+      "title": "294",
+      "content": "– szolgáltatásmegrendelés"
+    },
+    {
+      "provision_ref": "s295",
+      "section": "295",
+      "title": "295",
+      "content": "– szolgáltatási koncesszió"
+    },
+    {
+      "provision_ref": "s296",
+      "section": "296",
+      "title": "296",
+      "content": "– építési beruházás"
+    },
+    {
+      "provision_ref": "s297",
+      "section": "297",
+      "title": "297",
+      "content": "– építési koncesszió"
+    },
+    {
+      "provision_ref": "s298",
+      "section": "298",
+      "title": "298",
+      "content": "** A megindítás dátumát negyedév megjelölésével kell megadni."
+    },
+    {
+      "provision_ref": "s299",
+      "section": "299",
+      "title": "299",
+      "content": ".......................................................................... vezető aláírása"
+    },
+    {
+      "provision_ref": "s300",
+      "section": "300",
+      "title": "300",
+      "content": "Szám:"
+    },
+    {
+      "provision_ref": "s301",
+      "section": "301",
+      "title": "301",
+      "content": "MEGBÍZÁS"
+    },
+    {
+      "provision_ref": "s302",
+      "section": "302",
+      "title": "302",
+      "content": "Az Országos Rendőr-főkapitányság Közbeszerzési Szabályzatáról szóló 8/2017. (I. 31.) ORFK utasítás 23. pont c) alpontja szerinti jogkörömben eljárva megbízom a(z)................................................ tárgyú közbeszerzési/beszerzési eljárás résztvevőit az alábbiak szerint:"
+    },
+    {
+      "provision_ref": "s303",
+      "section": "303",
+      "title": "303",
+      "content": "A nevezettek a szakterületüknek megfelelően kötelesek segíteni az eljárás eredményes és jogszabályoknak megfelelő lefolytatását."
+    },
+    {
+      "provision_ref": "s304",
+      "section": "304",
+      "title": "304",
+      "content": "Jelen megbízás a közbeszerzési eljárás lefolytatásáig vagy az eljárások visszavonásáig érvényes."
+    },
+    {
+      "provision_ref": "s305",
+      "section": "305",
+      "title": "305",
+      "content": "Budapest,............................................................"
+    },
+    {
+      "provision_ref": "s306",
+      "section": "306",
+      "title": "306",
+      "content": ".................................................................. döntéshozó"
+    },
+    {
+      "provision_ref": "s307",
+      "section": "307",
+      "title": "307",
+      "content": "A megbízást elfogadom."
+    },
+    {
+      "provision_ref": "s308",
+      "section": "308",
+      "title": "308",
+      "content": "Budapest,............................................................"
+    },
+    {
+      "provision_ref": "s309",
+      "section": "309",
+      "title": "309",
+      "content": ".................................................................. megbízott"
+    },
+    {
+      "provision_ref": "s310",
+      "section": "310",
+      "title": "310",
+      "content": "Szám:"
+    },
+    {
+      "provision_ref": "s311",
+      "section": "311",
+      "title": "311",
+      "content": "NYILATKOZAT"
+    },
+    {
+      "provision_ref": "s312",
+      "section": "312",
+      "title": "312",
+      "content": "Alulírott................................................................................................ (név, beo.) mint a............ számú,............ tárgyában indított közbeszerzési eljárás bizottságának elnöke/tagja/tag helyettesítésére jogosultja/titkára/egyéb résztvevője1, büntetőjogi felelősségem tudatában a közbeszerzésekről szóló 2015. évi CXLIII. törvény (a továbbiakban: Kbt.) 25. § (6) bekezdésének megfelelően kijelentem, hogy a fenti közbeszerzési eljárás vonatkozásában velem szemben nem áll fenn a Kbt. 25. §-ában meghatározott összeférhetetlenség."
+    },
+    {
+      "provision_ref": "s313",
+      "section": "313",
+      "title": "313",
+      "content": "Kijelentem továbbá, hogy bármely ajánlat kedvező elbírálásában érdekelve nem vagyok."
+    },
+    {
+      "provision_ref": "s314",
+      "section": "314",
+      "title": "314",
+      "content": "Tudomásul veszem azt a kötelezettségem, hogy amennyiben a fentiekben foglaltak a közbeszerzési eljárás tartama alatt merülnének fel, arról azonnal írásban tájékoztatom az eljárásért felelős személyen keresztül a döntéshozót, és a továbbiakban nem veszek részt a bizottság munkájában."
+    },
+    {
+      "provision_ref": "s315",
+      "section": "315",
+      "title": "315",
+      "content": "Kötelezem magam arra, hogy tartózkodni fogok az ajánlatokból tudomásomra jutott adatok, információk bárminemű közvetlen, illetve közvetett felhasználásától, ezek harmadik személy részére történő kiszolgáltatásától, valamint vállalom a bírálati munka során szerzett mindennemű információ bizalmas kezelését."
+    },
+    {
+      "provision_ref": "s316",
+      "section": "316",
+      "title": "316",
+      "content": "Budapest,............................................................"
+    },
+    {
+      "provision_ref": "s317",
+      "section": "317",
+      "title": "317",
+      "content": ".................................................................. aláírás"
+    },
+    {
+      "provision_ref": "s318",
+      "section": "318",
+      "title": "318",
+      "content": "_______________"
+    },
+    {
+      "provision_ref": "s319",
+      "section": "319",
+      "title": "319",
+      "content": "1 A megfelelő aláhúzandó."
+    },
+    {
+      "provision_ref": "s320",
+      "section": "320",
+      "title": "320",
+      "content": "Alulírott................................................................................................ (név, beo.) mint a............ számú,............ tárgyában indított közbeszerzési eljárás bizottságának elnöke/tagja/tag helyettesítésére jogosultja/titkára/egyéb résztvevője1, büntetőjogi felelősségem tudatában a közbeszerzésekről szóló 2011. évi CVIII. törvény (a továbbiakban: régi Kbt.) 24. § (4) bekezdésének megfelelően kijelentem, hogy a fenti közbeszerzési eljárás vonatkozásában velem szemben nem áll fenn a régi Kbt. 24. §-ában meghatározott összeférhetetlenség."
+    },
+    {
+      "provision_ref": "s321",
+      "section": "321",
+      "title": "321",
+      "content": "Kijelentem továbbá, hogy bármely ajánlat kedvező elbírálásában érdekelve nem vagyok."
+    },
+    {
+      "provision_ref": "s322",
+      "section": "322",
+      "title": "322",
+      "content": "Tudomásul veszem azt a kötelezettségem, hogy amennyiben a fentiekben foglaltak a közbeszerzési eljárás tartama alatt merülnének fel, arról azonnal írásban tájékoztatom az eljárásért felelős személyen keresztül a döntéshozót, és a továbbiakban nem veszek részt a bizottság munkájában."
+    },
+    {
+      "provision_ref": "s323",
+      "section": "323",
+      "title": "323",
+      "content": "Kötelezem magam arra, hogy tartózkodni fogok az ajánlatokból tudomásomra jutott adatok, információk bárminemű közvetlen, illetve közvetett felhasználásától, ezek harmadik személy részére történő kiszolgáltatásától, valamint vállalom a bírálati munka során szerzett mindennemű információ bizalmas kezelését."
+    },
+    {
+      "provision_ref": "s324",
+      "section": "324",
+      "title": "324",
+      "content": "Budapest,............................................................"
+    },
+    {
+      "provision_ref": "s325",
+      "section": "325",
+      "title": "325",
+      "content": ".................................................................. aláírás"
+    },
+    {
+      "provision_ref": "s326",
+      "section": "326",
+      "title": "326",
+      "content": "______________"
+    },
+    {
+      "provision_ref": "s327",
+      "section": "327",
+      "title": "327",
+      "content": "1 A megfelelő aláhúzandó."
+    },
+    {
+      "provision_ref": "s328",
+      "section": "328",
+      "title": "328",
+      "content": "Szám:"
+    },
+    {
+      "provision_ref": "s329",
+      "section": "329",
+      "title": "329",
+      "content": "NYILATKOZAT"
+    },
+    {
+      "provision_ref": "s330",
+      "section": "330",
+      "title": "330",
+      "content": "Alulírott................................................................................................ (név, beo.) mint a............ számú,............ tárgyában indított közbeszerzési eljárás bizottságának elnöke/tagja/tag helyettesítésére jogosultja/titkára/egyéb résztvevője1, büntetőjogi felelősségem tudatában a védelmi és biztonsági célú beszerzésekről szóló 2016. évi XXX. törvény (a továbbiakban: Vbt.) 9. § (5) bekezdésének megfelelően kijelentem, hogy a fenti beszerzési eljárás vonatkozásában velem szemben nem áll fenn a Vbt. 9. §-ában meghatározott összeférhetetlenség."
+    },
+    {
+      "provision_ref": "s331",
+      "section": "331",
+      "title": "331",
+      "content": "Kijelentem továbbá, hogy bármely ajánlat kedvező elbírálásában érdekelve nem vagyok."
+    },
+    {
+      "provision_ref": "s332",
+      "section": "332",
+      "title": "332",
+      "content": "Tudomásul veszem azt a kötelezettségem, hogy amennyiben a fentiekben foglaltak a közbeszerzési eljárás tartama alatt merülnének fel, arról azonnal írásban tájékoztatom az eljárásért felelős személyen keresztül a döntéshozót, és a továbbiakban nem veszek részt a bizottság munkájában."
+    },
+    {
+      "provision_ref": "s333",
+      "section": "333",
+      "title": "333",
+      "content": "Kötelezem magam arra, hogy tartózkodni fogok az ajánlatokból tudomásomra jutott adatok, információk bárminemű közvetlen, illetve közvetett felhasználásától, ezek harmadik személy részére történő kiszolgáltatásától, valamint vállalom a bírálati munka során szerzett mindennemű információ bizalmas kezelését."
+    },
+    {
+      "provision_ref": "s334",
+      "section": "334",
+      "title": "334",
+      "content": "Budapest,............................................................"
+    },
+    {
+      "provision_ref": "s335",
+      "section": "335",
+      "title": "335",
+      "content": ".................................................................. aláírás"
+    },
+    {
+      "provision_ref": "s336",
+      "section": "336",
+      "title": "336",
+      "content": "______________"
+    },
+    {
+      "provision_ref": "s337",
+      "section": "337",
+      "title": "337",
+      "content": "1 A megfelelő aláhúzandó."
+    },
+    {
+      "provision_ref": "s338",
+      "section": "338",
+      "title": "338",
+      "content": "Szám:"
+    },
+    {
+      "provision_ref": "s339",
+      "section": "339",
+      "title": "339",
+      "content": "NYILATKOZAT"
+    },
+    {
+      "provision_ref": "s340",
+      "section": "340",
+      "title": "340",
+      "content": "Alulírott................................................................................................ (név, beo.) mint a............ számú,............ tárgyában indított beszerzési eljárás bizottságának elnöke/tagja/tag helyettesítésére jogosultja/titkára/egyéb résztvevője1, büntetőjogi felelősségem tudatában a tömeges bevándorlás okozta válsághelyzettel összefüggő intézkedésekhez kapcsolódó beszerzésekről szóló 316/2015. (X. 30.) Korm. rendelet [a továbbiakban: 316/2015. (X. 30.) Korm. rendelet] 6. § (3) bekezdésének megfelelően kijelentem, hogy a fenti beszerzési eljárás vonatkozásában velem szemben nem állnak fenn a 316/2015. (X. 30.) Korm. rendelet 6. § (2) bekezdésében foglaltak."
+    },
+    {
+      "provision_ref": "s341",
+      "section": "341",
+      "title": "341",
+      "content": "Kijelentem továbbá, hogy bármely ajánlat kedvező elbírálásában érdekelve nem vagyok."
+    },
+    {
+      "provision_ref": "s342",
+      "section": "342",
+      "title": "342",
+      "content": "Tudomásul veszem azt a kötelezettségem, hogy amennyiben a fentiekben foglaltak a beszerzési eljárás tartama alatt merülnének fel, arról azonnal írásban tájékoztatom az eljárásért felelős személyen keresztül a döntéshozót, és a továbbiakban nem veszek részt a bizottság munkájában."
+    },
+    {
+      "provision_ref": "s343",
+      "section": "343",
+      "title": "343",
+      "content": "Kötelezem magam arra, hogy tartózkodni fogok az ajánlatokból tudomásomra jutott adatok, információk bárminemű közvetlen, illetve közvetett felhasználásától, ezek harmadik személy részére történő kiszolgáltatásától, valamint vállalom a bírálati munka során szerzett mindennemű információ bizalmas kezelését."
+    },
+    {
+      "provision_ref": "s344",
+      "section": "344",
+      "title": "344",
+      "content": "Budapest,............................................................"
+    },
+    {
+      "provision_ref": "s345",
+      "section": "345",
+      "title": "345",
+      "content": ".................................................................. aláírás"
+    },
+    {
+      "provision_ref": "s346",
+      "section": "346",
+      "title": "346",
+      "content": "__________________"
+    },
+    {
+      "provision_ref": "s347",
+      "section": "347",
+      "title": "347",
+      "content": "1 A megfelelő aláhúzandó."
+    },
+    {
+      "provision_ref": "s348",
+      "section": "348",
+      "title": "348",
+      "content": "Szám:"
+    },
+    {
+      "provision_ref": "s349",
+      "section": "349",
+      "title": "349",
+      "content": "NYILATKOZAT"
+    },
+    {
+      "provision_ref": "s350",
+      "section": "350",
+      "title": "350",
+      "content": "Alulírott................................................................................................ (név, beo.) mint a............ számú,............ tárgyában indított az Országos Rendőr-főkapitányság Közbeszerzési Szabályzatáról szóló 8/2017. (I. 31.) ORFK utasítás 4. pont a) alpontja szerinti értékhatár alatti beszerzési eljárás bizottságának elnöke/tagja/tag helyettesítésére jogosultja/titkára/egyéb résztvevője1, büntetőjogi felelősségem tudatában kijelentem, hogy funkcióim pártatlan és tárgyilagos gyakorlására képes vagyok, ebben gazdasági érdek vagy az eljárásban részt vevő gazdasági szereplővel fennálló más közös érdek nem korlátoz, illetve befolyásol."
+    },
+    {
+      "provision_ref": "s351",
+      "section": "351",
+      "title": "351",
+      "content": "Kijelentem továbbá, hogy bármely ajánlat kedvező elbírálásában érdekelve nem vagyok."
+    },
+    {
+      "provision_ref": "s352",
+      "section": "352",
+      "title": "352",
+      "content": "Tudomásul veszem azt a kötelezettségem, hogy amennyiben a fentiekben foglaltak a beszerzési eljárás tartama alatt merülnének fel, arról azonnal írásban tájékoztatom az eljárásért felelős személyen keresztül a döntéshozót, és a továbbiakban nem veszek részt a bizottság munkájában."
+    },
+    {
+      "provision_ref": "s353",
+      "section": "353",
+      "title": "353",
+      "content": "Kötelezem magam arra, hogy tartózkodni fogok az ajánlatokból tudomásomra jutott adatok, információk bárminemű közvetlen, illetve közvetett felhasználásától, ezek harmadik személy részére történő kiszolgáltatásától, valamint vállalom a bírálati munka során szerzett mindennemű információ bizalmas kezelését."
+    },
+    {
+      "provision_ref": "s354",
+      "section": "354",
+      "title": "354",
+      "content": "Budapest,............................................................"
+    },
+    {
+      "provision_ref": "s355",
+      "section": "355",
+      "title": "355",
+      "content": ".................................................................. aláírás"
+    },
+    {
+      "provision_ref": "s356",
+      "section": "356",
+      "title": "356",
+      "content": "____________________"
+    },
+    {
+      "provision_ref": "s357",
+      "section": "357",
+      "title": "357",
+      "content": "1 A megfelelő aláhúzandó. 1 Az utasítást a 28/2021. (XII. 22.) ORFK utasítás 163. pontja hatályon kívül helyezte 2022. január 6. napjával. Alkalmazására lásd e hatályon kívül helyező utasítás 161. pontját. 2 A 101. pont a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette."
+    }
+  ]
+}

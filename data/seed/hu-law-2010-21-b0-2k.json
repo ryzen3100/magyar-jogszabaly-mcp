@@ -1,0 +1,737 @@
+{
+  "id": "hu-law-2010-21-b0-2k",
+  "type": "statute",
+  "title": "21/2010. (V. 7.) NFGM utasítás az ideiglenes külföldi kiküldetésekről",
+  "status": "repealed",
+  "in_force_date": "2010-05-08",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2010-21-B0-2K",
+  "description": "az ideiglenes külföldi kiküldetésekről",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "Az ideiglenes külföldi kiküldetéssel összefüggő eljárás rendjét és költségtérítését a következők szerint szabályozom:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "1. Az utasítás hatálya"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "1.1. Az utasítás alkalmazási köre – az 1.2. pontban foglaltak kivételével – kiterjed minden olyan ideiglenes külföldi kiküldetésre, amely teljesítésének anyagi fedezetét részben vagy egészben a Nemzeti Fejlesztési és Gazdasági Minisztérium (a továbbiakban: minisztérium) Igazgatása költségvetése biztosítja."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "1.2. Az állami vezetőt, kabinetfőnököt külföldi tartózkodása idejére megillető juttatásokat az állami vezetők és az államigazgatási szervek köztisztviselői számára biztosított juttatásokról és azok feltételeiről szóló 136/2006. (VI. 26.) Korm. rendelet (a továbbiakban: Rendelet) szabályozza."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "1.3. Ideiglenes külföldi kiküldetést teljesít az a kiküldött, akinek meghatározott külföldi állomáshelyen történő munkavégzésének vagy képzésének az időtartama egybefüggően a három hónapot nem haladja meg."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "2. Kiküldetések tervezése"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "2.1. A nemzetközi feladatok összehangolása érdekében a minisztérium szervezeti egységei a tárgyévet megelőző év december 15-ig utazási programtervet készítenek az elkövetkező évre vonatkozólag, amelyet a Nemzetközi Kapcsolatok Szervezési Osztálya (a továbbiakban: Utazásszervező) részére megküldenek. Az Utazásszervező a programterveket összegzi, majd felterjeszti a miniszter, államtitkár, szakállamtitkár és a kabinetfőnök (a továbbiakban: blokkvezetők) részére jóváhagyásra."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "2.2. Az utazási programtervet a blokkvezetők félévente az érintett főosztályvezetők bevonásával felülvizsgálják, majd ennek eredményéről az Utazásszervezőt tájékoztatják."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "2.3. A külföldi kiküldetésekre fordítható kiadási előirányzat és annak belső megosztása az éves keretek felosztása (elemi költségvetés készítése) során kerül megállapításra. Az utazási keret blokkszintű felosztására az utazási programterv összegzését és az elemi költségvetés jóváhagyását követően az Utazásszervező – a Költségvetési és Kontrolling Főosztály (a továbbiakban: KKF) bevonásával – tesz javaslatot, majd a miniszter hagy jóvá. A miniszter által jóváhagyott, blokkonként felosztott utazási keret (a továbbiakban: blokk-keret) dokumentumát az NKSZO vezetője legkésőbb az elemi költségvetés elfogadását követő 15. napig megküldi a KKF részére."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "2.4. A jóváhagyott éves utazási és napidíj keretekről az Utazásszervező tájékoztatást küld a blokkvezetők részére. A felosztott blokk-keretek ismeretében a blokkvezetők véglegesítik a felügyeletük alá tartozó szervezeti egységek utazási programtervét, az egyes utazások becsült várható költsége alapján. Ez alapján az Utazásszervező véglegesíti a minisztérium utazási programtervét, amelyet a miniszter hagy jóvá, legkésőbb az elemi költségvetés elfogadását követő 30. napig."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "2.5. A felosztott blokk-keretekkel a blokkvezetők saját hatáskörben gazdálkodnak és gondoskodnak arról, hogy azok év közbeni túllépésére ne kerüljön sor. A felosztott blokk-keretek felhasználásáról az Utazásszervező és a KKF vezet nyilvántartást a Forrás SQL-rendszerben. Az Utazásszervező a blokkvezetők részére háromhavonta kimutatást küld az utazási keretek állásáról."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "2.6. Az utazási keret jobb tervezhetősége érdekében év elején az NFGM Igazgatása fejezetében rendelkezésre álló összeg 85%-a osztható fel a blokkok között. A fennmaradó 15% tartalékalapot képez, amely a felhasználási adatok szeptemberi felülvizsgálata, illetve a IV. negyedévi kiküldetések ismeretében kerül felosztásra, illetve jóváhagyásra a 2.3. pontban foglalt eljárás alapján."
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "2.7. A blokkvezetők a 2.4. pontban szereplő véglegesített utazási programtervet indokolt esetben év közben módosíthatják, erre a miniszter által már jóváhagyott keretösszegükön belül a tervezett, de elmaradt kiutazások terhére kerülhet sor."
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "3. A kiküldetés engedélyeztetése és feltételei, a feltételekhez kapcsolódó feladatok, nyilvántartások"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "3.1. A kiküldetés engedélyezése az útindító feljegyzés (nyomtatvány) és az ideiglenes külföldi kiküldetési engedély (nyomtatvány) kitöltésével és aláírásával történik, melyet minden esetben iktatószámmal kell ellátni."
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "3.2. A kiküldetés várható költségei megalapozott számításához szükséges az utazás engedélyeztetését megelőzően a repülőjegy és/vagy vonatjegy előzetes foglalása, valamint ez alapján a repülőjegy és/vagy vonatjegy várható árának ismerete. Repülő- és vonatjegyfoglalást kizárólag az Utazásszervező végezhet."
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "3.3. Az ideiglenes külföldi kiküldetési engedélyhez csatolni kell a szállásfoglalásról szóló visszaigazolást, amely tartalmazza annak költségeit."
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "3.4. Az ideiglenes külföldi kiküldetés elrendelésére – a kiküldetés során végrehajtandó feladatok meghatározásával – a kiküldött közvetlen szakmai felügyeletét ellátó főosztályvezető vagy blokkvezető jogosult (kötelezettségvállaló). A kiutazás elrendelője az útindító feljegyzés aláírásával igazolja az adott külföldi kiküldetésnek az utazási programtervben való szereplését és szakmai célszerűségét."
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "3.5. Az ideiglenes külföldi kiküldetés jóváhagyása a szervezeti egységet felügyelő blokkvezető hatásköre. A szakállamtitkár és kabinetfőnök kiküldetését államtitkár, az államtitkár kiküldetését a miniszter, a miniszterét államtitkár engedélyezi. A blokkvezető csak szabad blokkfedezet rendelkezésre állása esetén hagyhat jóvá kiküldetést."
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "3.6. Az útindító feljegyzéseket a szervezeti egységet felügyelő blokkvezető (jóváhagyó) helyett – akadályoztatása esetén – az általa munkaköri leírásban kijelölt és meghatalmazott helyettes hagyhatja jóvá, akinek személyéről írásbeli tájékoztatást szükséges küldeni az Utazásszervező, valamint a KKF vezetője részére."
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "3.7. Amennyiben az elrendelt utazás a jóváhagyott utazási programtervben nem szerepel – az európai uniós döntés előkészítő, illetve ezt szolgáló szakmai partnerségi hálózati testületek, munkacsoportok fórumaira való kiutazások kivételével – azt a kötelező eljárási renden felül csak a miniszter engedélyezheti."
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "3.8. A kereten felüli státuszt az ideiglenes külföldi kiküldetési engedély nyomtatvány „Megjegyzés” rovatában kötelező jelleggel fel kell tüntetni és rövid indoklással alá kell támasztani annak szükségességét."
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "3.9. Az elrendelt és jóváhagyott külföldi kiküldetés utazási engedélyét – az útindító feljegyzés és az ideiglenes külföldi kiküldetési engedély nyomtatványokat – lezárt borítékban az Utazásszervező egység vezetője részére az indulás előtt 7 munkanappal – kivéve a 3.10. pontban foglaltakat – kell megküldeni. (Az útindító feljegyzés és az ideiglenes külföldi kiküldetési engedély együtt kezelendő). Az utazási engedély időben történő benyújtása – különös figyelemmel a vízumkötelezett országokra – valamint annak engedélyeztetése a kiküldött kötelezettsége."
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "3.10. Vízumköteles országokba való utazáskor az Utazásszervező részére a kiküldetés esedékessége előtt minimum 14 munkanappal köteles az utazó eljuttatni az engedélyezett útindító feljegyzés és az ideiglenes külföldi kiküldetési engedély nyomtatványokat, valamint a vízum beszerzéséhez szükséges dokumentumokat. Ellenkező esetben az Utazásszervező nem tud felelősséget vállalni az utazás teljesüléséért. (Vízuminformációt lásd: www.kum.hu oldalon.)"
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "3.11. Az elrendelt és jóváhagyott külföldi kiküldetés utaztatásszervezésének lebonyolítását – a szolgálati és a diplomata-útlevél beszerzését, a szükséges vízum, illetve az utazási jegy beszerzését, az utazási biztosítás intézését és azok átadását – az Utazásszervező végzi."
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "3.12. A külföldi kiküldetések ellenjegyzője az Utazásszervező szervezeti egység vezetője, akadályoztatása esetén a szakmai felügyeletét ellátó blokkvezető, vagy az általa írásban kijelölt személy. Az ellenjegyző ellenőrzi a kiküldetés tartalmi és formai követelményeinek meglétét, illetve – mint az utazási keret blokkok közötti felosztásáért és ellenőrzéséért felelős szervezeti vezető – jogosult az adott kiküldetésről, az elrendelő blokkvezetőtől bővebb tájékoztatást/indoklást kérni."
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "3.13. Az Utazásszervező a jóváhagyott engedély és kalkuláció alapján az utazóra vonatkozó kalkulált költségeket – napidíj és dologi útielőleg bontásban – rögzíti a Forrás SQL külföldi kiküldetési modulban. A rögzítést követően az Utazásszervező feladata a valutafelvételi bizonylat kiállítása és engedélyeztetése, és annak a kiküldött részére történő átadása az utazás megkezdése előtt minimum 1 nappal."
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "3.14. Amennyiben a külföldi kiküldetés esetén az NFGM Igazgatása fejezetén kívül más költségviselő is felmerül, azt az ideiglenes külföldi kiküldetési engedély nyomtatványon, a konkrét költségtípus meghatározásával (utazás, szállás, napidíj, egyéb) és a költségviselő megjelölésével szükséges jelezni."
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "3.15. Ha az NFGM Igazgatása finanszírozza a nem minisztériummal jogviszonyban álló személyt, akkor az útindító feljegyzés, „9. Egyéb, indoklás” pontja alatt részleteiben meg kell indokolni a költségek átvállalásának vagy a személy utaztatásának szükségességét, amelyet a blokkvezetőknek az elbírálás alatt figyelembe kell vennie. Ebben az esetben az utazó külsős utazónak minősül és az utazás előkészítése során az eljárást ehhez mérten kell lefolytatni."
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "3.16. A külföldi kiküldetések adatainak rögzítését az Utazásszervező és a KKF együttesen végzi. Az Utazásszervező szervezeti egység gondoskodik – a kiküldetési engedélyek alapján – a kiküldetési adatok számítógépes rögzítéséről. A KKF biztosítja a kiküldetések elszámolási adatainak rögzítését, az ellátmányok biztosítását, valamint a számviteli feladatok ellátását."
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "4. Egyes EU-intézmények üléseinek költségtérítése"
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "4.1. A Tanács főtitkársága a tagállamok részére megtéríti a Tanács ülésein – kizárólag a költségtérítéses tanácsi ülések utazásai nyomtatványban és a bizottságok nyomtatványban foglaltakhoz kapcsolódóan – való részvétellel összefüggésben felmerült utazási költségeket (az oda- és visszaút utazási költségei: repülőjegy, vonatjegy, üzemanyag, reptéri transzfer stb., valamint busz-, taxi-, parkolás- és autópálya-használati költségek)."
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "4.2. A Tanács üléseire kiküldött tagállami szakértők az üléseken való részvételt, az ülések kezdetén kiosztott „Participants” fejléccel ellátott, ún. sárga dokumentum megfelelő kitöltésével igazolják. A részvétel hazai igazolására az ülésen közreadott, megfelelően kitöltött delegációs jelenléti lista szolgál, amiről a résztvevők fénymásolatot kapnak."
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "4.3. Tekintettel arra, hogy a Tanács nem minden ülésén kerül sor delegációs jelenléti lista kiosztására, ennek hiányában a kiküldött a nyilatkozat a Tanács térítéses ülésein való részvételről (nyomtatvány) alapján kitöltött utólagos nyilatkozata is elégséges az úti elszámoláshoz."
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "4.4. A Tanács a tagállamokban kijelölt központi kapcsolattartó szerven – Magyarország esetében a Külügyminisztériumon (KÜM) – keresztül biztosítja a finanszírozást."
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "4.5. A pénzügyi elszámolás lebonyolítása a következők szerint valósul meg:"
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "– Az elszámolás utólag, havonta, egy összegben történik."
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "– A havi elszámolásokat a tárgyhót követő hó 20-ig kell a KKF-nek a KÜM részére benyújtania."
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "– A KÜM negyedévente utólag – a negyedév utolsó elszámolásának beérkezését követő 40 munkanapon belül – az ellenőrzést követően egy összegben teljesíti a visszafizetést."
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "– A dokumentumok másolatát (számla, bizonylat, aláírt jelenléti ív, stb.) a KÜM részére az elszámolással együtt kell megküldeni."
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "4.6. Az EU által nyújtott támogatás felhasználásával összefüggő ügyviteli és adatszolgáltatási feladatok ellátása a KüM által biztosított elektronikus táblázatban történik. Ennek kitöltését a KKF végzi úgy, hogy az EU-intézmények által nyújtott költségtérítés annak a szervezeti egységnek az utazási keretéhez kerül elszámolásra, amelynek munkatársa a költségtérítés melletti kiküldetést végrehajtotta."
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "4.7. Az EU egyéb intézményei (pl. az Európai Bizottság) a meghívó levélben foglaltak szerint térítik meg az üléseken résztvevők utazási költségeit a meghívó levélhez mellékelt, vagy a helyszínen kapott nyomtatványnak – a kiküldött által történő – pontos kitöltése alapján. A költségtérítések teljesülését a KKF figyelemmel kíséri, a megtérülés elmaradása esetén pedig felkéri az ilyen típusú ülésen részt vevőt a szükséges intézkedés megtételére."
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "4.8. Költségtérítés esetén az ideiglenes külföldi kiküldetési engedélyen az ülés megfelelő kategóriája mellett a költségtérítéses státuszt is meg kell jelölni."
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "5. A kiküldött költségtérítése"
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "5.1. A kiküldöttet a külföldi tartózkodás során felmerülő, indokolt mértékű költségeinek fedezetére költségtérítés illeti meg."
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "5.2. A kiküldöttet megillető költségtérítések a napidíj, a kiküldetés helyére történő kiutazás és hazautazás költsége, utazási biztosítás, szállásköltség, valamint a kiküldetés teljesítésével összefüggésben felmerülő egyéb indokolt költségek számviteli bizonylatnak megfelelő okmánnyal, vagy költségkifizetést alátámasztó egyéb bizonylattal igazolt összege."
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "6. Napidíj"
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "6.1. A napidíjra vonatkozó rendelkezések – minden ideiglenes kiküldetést teljesítő személy számára – az ideiglenes külföldi kiküldetés napidíjának összegéről és kifizetéséről szóló 204/2009. (IX. 18.) Korm. rendeletben kerülnek meghatározásra. A napidíj összege jelenleg bruttó 40 euró. A napidíj összege után az ideiglenes külföldi kiküldetést teljesítő személyt a hatályos jogszabályoknak megfelelően adó- és járulékfizetési kötelezettség terheli."
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "6.2. A kiküldetés időtartamát a kiküldő szervezeti egység vezetője köteles úgy megállapítani, hogy az a lehető legkisebb költséggel járjon. Abban az esetben, ha a kiutazásra a kiküldetési feladat (program) kezdetének napját megelőző napon, illetve a hazautazásra a kiküldetési feladat befejezte napját követő napon kerül sor, azt az útindító feljegyzésben részletesen meg kell indokolni."
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "6.3. A kiküldöttet arra a naptári napra, amelyen a külföldön töltött idő tartama eléri a nyolc órát a teljes napidíj, amelyen eléri a négy órát, de kevesebb, mint nyolc óra a napidíj 50%-a illeti meg."
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "6.4. Nem illeti meg napidíj a kiküldöttet, ha a külföldi tartózkodás négy óránál rövidebb. A kiküldöttet a következő napi programból adódóan szükséges előző napi kiutazás esetén a napidíj 50%-a illeti meg abban az esetben is, ha az előző napi kinntartózkodás időtartama eléri a 8 órát."
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "6.5. A kiküldött személy napidíját megalapozó nap meghatározásánál a külföldi kiküldetés tényleges időtartama az indulás és az érkezés tényleges időpontja között eltelt idő. A tényleges időpont megállapítása szempontjából az országhatár átlépését légi és vízi út esetén az indulás szerinti időpontot egy órával megelőzően, illetőleg az érkezést egy órával követően kell figyelembe venni."
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "6.6. Ha az ideiglenes külföldi kiküldetést teljesítő személy a kiküldetés időtartama alatt díjtalan ebédben, illetve vacsorában részesül, az adott naptári napra jutó napidíját étkezésenként 30%-kal csökkenteni kell."
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "7. Utazási költségek"
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "7.1. A kiküldetéshez igénybe vehető közlekedési eszköz (repülőgép, vonat, hajó, hivatali gépkocsi gépkocsivezetővel, CASCO biztosítással rendelkező saját gépkocsi) meghatározása a kiküldetés elrendelőjének hatásköre."
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "7.2. Az utazást a legcélszerűbb útvonalon és költségkímélő módon kell teljesíteni."
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "7.3. A kiküldetésekre egy szervezeti egységtől, különösen indokolt esetektől eltekintve, csak egy fő utazhat. Egynél több fő kiutazására ugyanazon programra csak indokolt esetben kerülhet sor, amelynek indoklását a kiküldetés elrendelője az ideiglenes külföldi kiküldetési engedély nyomtatvány „Megjegyzés” rovatában köteles megadni. Blokkvezető utazása esetén szakmai munkatárs kísérete indokolt."
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "7.4. Repülőgépen történő utazás"
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "7.4.1. A Kormány tagja részére business osztálynak megfelelő árú repülőjegy vásárolható. Az utasítás hatálya alá tartozó más személyek részére Európán belüli utazásnál turista, a négy óra repülési időt meghaladó tengerentúli utazásnál business osztály komfortosztálynak megfelelő árú repülőjegy vásárolható."
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "7.4.2. Az állami vezetőt kísérő delegáció utazása esetén, ha a delegációvezető egyedül jogosult business osztályú jegyre, akkor a delegáció vezetőjének döntése alapján további egy tagja részére biztosítható Komfort (Business „C”) osztályú repülőjegy."
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "7.4.3. A kiküldött kérésére a rendelet, illetve az utasításban megállapított osztálynál alacsonyabb kategóriájú repülőjegy is biztosítható és az utasítástól eltérő magasabb kategóriájú repülőjegyek kizárólag a miniszter jóváhagyásával vásárolhatók meg."
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "7.4.4. Az NKSZO nem köteles vezetni a légitársaságoknál regisztrált egyéni pontgyűjtő kártyákat, csak ha arról hivatalos megkereséssel fordul a kedvezményezett az NKSZO vezetőjéhez."
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "7.4.5. A kormányváró használatát a Rendelet 8. § (3) bekezdése illetve a protokoll, reprezentáció, fordítás, tolmácsolás tárgyú kötelezettségvállalások rendjéről szóló NFGM utasítás szabályozza."
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "7.5. Vonattal történő utazás esetén I. osztályú vonatjegyre jogosultak az I. és II. kategóriába sorolt kiküldöttek, II. osztályú vonatjegyet pedig a III. kategóriába sorolt kiküldöttek vehetnek igénybe. (Az osztályok besorolását lásd az ideiglenes külföldi kiküldetést teljesítők kategóriái nyomtatványban.)"
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "7.6. Hivatali vagy saját gépkocsi használata az európai országokba történő utazás esetén engedélyezhető."
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "7.7. A hivatali gépkocsi külön belső szabályozás alapján igényelhető, a külföldi kiküldetés kezdési időpontja előtt legkésőbb 7 munkanappal."
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "7.8. Saját személygépkocsival történő utazás esetén a tulajdonost a jogszabályok szerinti üzemanyag- és általános gépjármű-használati költségtérítés illeti meg."
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "7.9. A gépkocsi használatával összefüggő, valutában felmerülő várható költségre ellátmányelőleget az ideiglenes külföldi kiküldetési engedély nyomtatványon kell engedélyeztetni."
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "8. Szállásköltség"
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "8.1. A szállodai szobafoglalás a kiutazó feladata, a költségtakarékosság szempontjainak figyelembevételével és lehetőség szerint az adott országban lévő magyar külképviselet közreműködésével."
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "8.2. A szálloda visszaigazolásának másolatát a szobafoglalásról és annak áráról az ellátmány igényléséhez – a szállásköltség előlegösszegének megállapítása érdekében – mellékelni kell. A szállodai visszaigazolás hiányában is szükséges a szállásköltség engedélyeztetése az ideiglenes külföldi kiküldetési engedélyben (nyomtatvány)."
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "8.3. A költségvetési források hatékony és gazdaságos felhasználásának figyelembevételével az ideiglenes külföldi kiküldetést teljesítő miniszter, államtitkár legfeljebb 400 euró/éj összeghatárig, szakállamtitkár, kabinetfőnök, valamint az ideiglenes külföldi kiküldetést teljesítők kategóriái (nyomtatvány) I. kategóriájába sorolt kiküldetést teljesítők esetében legfeljebb 250 euró/éj összeghatárig terjedő szálloda választása indokolt."
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "8.4. Az ideiglenes külföldi kiküldetést teljesítők kategóriái (nyomtatvány) II. és III. kategóriájába sorolt kiküldöttek szállásdíja 150 euró/éj összeghatárig terjedhet, az e fölötti szállásdíj csak külön indoklás alapján engedélyezhető. Miniszterelnöki, valamint köztársasági elnöki delegációban való részvétel tekintetében a fenti kategóriáktól el lehet térni."
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "8.5. Az utasítás 11. pontja szerinti elszámolás során szükséges a szálloda által kiállított számviteli bizonylatnak megfelelő okmány csatolása."
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "9. A kiküldetéssel kapcsolatos költségek térítése"
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "9.1. A kiküldött költségeiből a munkavégzésével, a kiküldetés lebonyolításával összefüggő, a minisztérium nevére kiállított számviteli bizonylatnak megfelelő okmánnyal, vagy költségkifizetést alátámasztó egyéb bizonylattal igazolt és a kiküldetést elrendelő vezető által is igazolt költségeit számolhatja el."
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "9.2. A kiküldetés ideje alatt felmerülő reprezentációs költség csak a kiküldetést jóváhagyó vezető előzetes engedélye alapján számolható el."
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "9.3. A bizonylattal igazolt szobaár mellett mosatási és vasalási költség címén szállodai éjszakánként az egynapi szállásköltség 10 %-át meg nem haladó, a minisztérium nevére kiállított számlával igazolt kiadás költsége 14 napon túli kiküldetés esetén elszámolható."
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "9.4. A kiküldetés során felmerülő hivatalos telefon-, fax-, internet- és egyéb kommunikációs költség – a hívott szám feltűntetése mellett – a kiküldetést elrendelő igazolása alapján számolható el."
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "9.5. A kiküldöttet az indulásnál és az érkezésnél megilleti a tartózkodási helytől az állomásig (repülőtérig), illetve az állomástól a tartózkodási helyig megtett út számlával igazolt költsége. Ehhez az utazáshoz külföldön elsődlegesen a helyi tömegközlekedési eszközt szükséges igénybe venni, amelynek igazolása számla hiányában a megőrzött menetjeggyel történik."
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "9.6. Számlával igazolt taxiköltség megtérítésére jogosult a blokkvezető, valamint az ideiglenes külföldi kiküldetést teljesítők kategóriái (nyomtatvány) I. kategóriába sorolt köztisztviselő. A II. és III. kategóriába sorolt kiküldött részére a kiküldetést engedélyező külön engedélyével téríthető taxiköltség."
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "9.7. A magyarországi repülőtéri oda- és visszautazás költségeként – ideértve a saját gépkocsi használatának, taxi igénybevételének esetét – a repülőtéri minibusz-szolgáltatás díja számolható el. Ettől eltérni kivételesen indokolt esetben, a kiküldetést elrendelő keretgazda külön engedélyével lehet. Saját gépkocsi repülőtéri parkolói díjának elszámolására nincs lehetőség, ide nem értve a 4.1. pontban szabályozott esetet."
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "9.8. Külföldön indokolt esetben, az 9.5. alpontban foglaltakon túlmenően igénybe vett helyi tömegközlekedési eszköz költségeinek számlával igazolt összege számolható el. Számla hiányában a megőrzött menetjeggyel és az igazolás hivatalos külföldi kiküldetés során felmerült tömegközlekedési költségek elszámolhatóságáról (nyomtatvány) kitöltésével – amennyiben az alapján az utazás egyértelműen beazonosítható – a kiküldetést elrendelő szervezet vezetőjének írásban adott engedélyével számolható el a költség."
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "9.9. A külföldi utazás lebonyolításához kapcsolódó vízumdíjat, a szolgálati útlevél díját, az utazáshoz kapcsolódó kötelező oltásokat és a személyi, poggyászbiztosítás költségét a minisztérium fedezi az adott keret terhére."
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "9.10. A minisztérium költségvetése terhére kiadásként nem számolható el a kiküldött hibájából eredő bármilyen anyagi kár ellenértéke, a közlekedésrendészeti kihágás és egyéb hatósági büntetés költségei, valamint a szállodai szobai szolgáltatások (pl. minibár) a 9.3. pontban foglaltak kivételével."
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "10. Útielőleg"
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "10.1. A kiküldött útielőleget csak azon jóváhagyott külföldi kiküldetési engedély esetén igényelhet, amennyiben eleget tett a 11.1. pont szerinti korábbi kiküldetése elszámolási kötelezettségének."
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "10.2. Kivételt képez, ha az előző kiküldetés visszaérkezési időpontjától az elrendelt utazás megkezdésének napjáig 5 munkanapnál kevesebb idő telt el, vagy egyéb indok alapján a miniszter azt külön engedélyezi. Ez esetben a kiküldöttnek a második kiküldetés befejezését követő 8 napon belül kell elszámolnia mindkét kiküldetéssel."
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "10.3. A minisztérium által használt pénzügyi-számviteli integrált rendszer „Külföldi kiküldetés” modulja nyomon követi a külföldi kiküldetések elszámolását. Amennyiben nem történik meg a külföldi kiküldetés költségeinek utasítás szerinti teljes körű elszámolása, lezárása – ez alatt értendő a visszafizetés, illetve pótkifizetés a valutapénztáron keresztül, amely az elszámolás lezárását jelenti –, úgy a kiküldetésből való visszaérkezést követő 21. naptól újabb kiküldetési előleg kiadását a rendszer nem tesz lehetővé, kiküldetés nem indítható."
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "10.4. A napidíjra a 6.1. pont szerinti összeg vehető fel. A dologi kiadásokra (szállásköltségre, a kiküldetés teljesítésével összefüggésben felmerülő egyéb indokolt költségre) útielőleg CHF-, EUR-, GDP- és USD-valutában igényelhető."
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "10.5. A kiküldetéshez kötődő bármilyen előzetes kifizetés kizárólag számla – vagy annak hiányában kivételesen indokolt esetben miniszteri engedéllyel ellátott díjbekérő – ellenében igényelhető."
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "10.6. Egyéb indokolt dologi költség igénylése esetén a 6.1. pont szerinti egy napra járó napidíjnak megfelelő összegű előleg adható. Amennyiben az utazás időtartama meghaladja a 6 napot, 2 napra járó napidíjnak megfelelő összegű előleg biztosítható. Kivételes esetben, az e mértéket meghaladó összegű előleg kifizetéséhez a blokkvezető engedélye szükséges."
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "10.7. A minisztériumi bankkártya használatára jogosultak a blokkvezetők, valamint az elszámoltatását ellátó ügyintézők."
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "10.8. A minisztériumi utazások gyakoriságára tekintettel egyedi kérelemre az államtitkár további köztisztviselők részére állapíthat meg jogosultságot a minisztériumi bankkártya használatára. A minisztériumi bankkártyák ügyintézésével kapcsolatos feladatokat a KKF látja el."
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "10.9. A napidíj és a jóváhagyott dologi útielőleg valutaösszegét az utazó, vagy annak meghatalmazottja a KKF Pénzügyi és Gazdálkodási Osztályának valutapénztárában veheti fel az engedélyeztetett valutafelvételi alapján az utazás megkezdése előtt minimum 1 nappal. Meghatalmazott eljárása esetén a valutapénztári meghatalmazás nyomtatványt szükséges csatolni."
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "11. Elszámolás"
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "11.1. A kiküldetés befejeztével a kiküldött köteles a felvett ellátmánnyal a kiküldött által elszámolt utazási költségek nyomtatványon elszámolni – a kiküldetés során igénybe vett ingyenes étkezések számának megjelölése mellett –, valamint a kiküldetés szakmai teljesítését és az elszámolást a kiküldetés elrendelőjével igazoltatni és az aláírt nyomtatványt a KKF részére 8 napon belül eljuttatni. A jelen pontba foglalt nyomtatványok és a kiküldetés költségeinek elszámolására alkalmas eredeti dokumentumok adatai alapján Elszámolólap készül, amely a kiküldött részére 8 munkanapon belül megküldésre kerül."
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "11.2. A miniszter, a szakállamtitkár és a kabinetfőnök elszámolását az államtitkár, az államtitkár elszámolását a miniszter hagyja jóvá azzal, hogy a kiküldetés indokoltságának és a feladat elvégzésének igazolása minden esetben a kiküldetést elrendelő vezető feladata."
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "11.3. Az elszámoláshoz mellékletként csatolni kell a költségek igazolására szolgáló eredeti számlákat, dokumentumokat: menetjegy, biztosítási kötvény, felvett előleg dokumentációja, szállodai számla, helyi közlekedési eszköz esetleges költségeinek számlája, bankkártyahasználat bizonylatai, egyéb felmerült költségek számlái, tanácsi ülés esetén aláírt jelenléti ív, a törzsutaspontok jóváírása érdekében a beszállókártya."
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "11.4. Az utazás elmaradása vagy halasztása esetén a kiküldött köteles az előleget a KKF Pénzügyi és Gazdálkodási Osztály valutapénztárában 3 munkanapon belül visszafizetni."
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "11.5. Az útelszámolásból adódó követelés vagy tartozás pénzügyi rendezését személyesen vagy meghatalmazott útján lehet teljesíteni a minisztérium valutapénztárában. Meghatalmazott eljárása esetén a valutapénztári meghatalmazás nyomtatványt szükséges csatolni, kivéve, ha 10.9. alpontban szabályozott eljárás során már csatolásra került."
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "11.6. A költségekkel történő elszámolás (ideértve a kiküldött befizetési kötelezettségét, illetve a minisztérium által történő kifizetést) kézpénzben, csak és kizárólag a felmerülés valutanemében történhet azzal, hogy a Magyar Köztársaság területén felmerült forintköltséget (pl. reptéri minibusz, taxi) a minisztérium utólag, banki átutalás útján téríti meg, forintban."
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "12. Úti jelentés"
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "12.1. A kiküldött a kiküldetést elrendelő vezető részére az ideiglenes kiküldetés során végzett munkáról, a tárgyalások eredményéről, a kapcsolódó további feladatokról a megérkezést követő 8 munkanapon belül az úti jelentést (nyomtatvány) köteles elkészíteni, amelyet a kiküldetést elrendelő vezető láttamoz. Ezt követően a kiküldöttnek az úti jelentés egy példányát az elszámoláshoz kell csatolnia és azzal együtt eljuttatnia a KKF részére, amelyet a főosztály az elszámolás beérkezése napján továbbít az NKSZO részére."
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "12.2. Az NKSZO köteles gondoskodni arról is, hogy az úti jelentés – az Informatikai Főosztály és a kiküldött bevonásával – a minősített adatokat tartalmazó jelentések kivételével az intraneten is hozzáférhető legyen. Ennek megvalósítása érdekében a kiküldött az úti jelentést elektronikus formában is megküldi az NKSZO részére az utazasok@nfgm.gov.hu e-mail címre."
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "12.3. A kiküldött, amennyiben szolgálati vagy diplomata-útlevéllel utazott – a külföldre utazásról szóló 1998. évi XII. törvény, illetve a külügyminiszter által kiállított útlevelek kezelésének szabályairól szóló 1/1998. (X. 14.) KüM rendeletnek megfelelően – köteles azt az utazás végén az NKSZO részére leadni, amelyet rögtön az útlevéltartóra rávezetnek. A leadás elmulasztásából adódó útlevél elvesztéséért és az ebből következő utazás meghiúsulásáért az NKSZO nem vonható felelősségre."
+    },
+    {
+      "provision_ref": "s107",
+      "section": "107",
+      "title": "107",
+      "content": "13. Záró rendelkezések"
+    },
+    {
+      "provision_ref": "s108",
+      "section": "108",
+      "title": "108",
+      "content": "13.1. Ez az utasítás a közzétételét követő napon lép hatályba."
+    },
+    {
+      "provision_ref": "s109",
+      "section": "109",
+      "title": "109",
+      "content": "13.2. Az ezen utasításban meghatározott szolgáltatások igénylése nyomtatványokon történik."
+    },
+    {
+      "provision_ref": "s110",
+      "section": "110",
+      "title": "110",
+      "content": "13.3. Felhívom az NKSZO vezetőjét, hogy – a KKF vezetőjének egyetértésében –"
+    },
+    {
+      "provision_ref": "s111",
+      "section": "111",
+      "title": "111",
+      "content": "a) Útindító feljegyzés,"
+    },
+    {
+      "provision_ref": "s112",
+      "section": "112",
+      "title": "112",
+      "content": "b) Ideiglenes külföldi kiküldetési engedély,"
+    },
+    {
+      "provision_ref": "s113",
+      "section": "113",
+      "title": "113",
+      "content": "c) Ideiglenes külföldi kiküldetést teljesítők kategóriái,"
+    },
+    {
+      "provision_ref": "s114",
+      "section": "114",
+      "title": "114",
+      "content": "d) Kiküldött által elszámolt utazási költségek,"
+    },
+    {
+      "provision_ref": "s115",
+      "section": "115",
+      "title": "115",
+      "content": "e) Úti jelentés,"
+    },
+    {
+      "provision_ref": "s116",
+      "section": "116",
+      "title": "116",
+      "content": "f) Igazolás hivatalos külföldi kiküldetés során felmerült tömegközlekedési költségek elszámolhatóságáról,"
+    },
+    {
+      "provision_ref": "s117",
+      "section": "117",
+      "title": "117",
+      "content": "g) Költségtérítéses tanácsi ülések utazásai,"
+    },
+    {
+      "provision_ref": "s118",
+      "section": "118",
+      "title": "118",
+      "content": "h) Bizottságok,"
+    },
+    {
+      "provision_ref": "s119",
+      "section": "119",
+      "title": "119",
+      "content": "i) Nyilatkozat a tanács térítéses ülésein való részvételről,"
+    },
+    {
+      "provision_ref": "s120",
+      "section": "120",
+      "title": "120",
+      "content": "j) Valutapénztári meghatalmazás"
+    },
+    {
+      "provision_ref": "s121",
+      "section": "121",
+      "title": "121",
+      "content": "nyomtatványok tartalmát, – melyek alkalmazása az utasítás végrehajtása során kötelező – meghatározza és azokat az ezen utasítás közzétételét követő 3 napon belül az intraneten közzétegye. 1 Az utasítást a 22/2011. (VI. 30.) NGM utasítás 14. § (2) bekezdése hatályon kívül helyezte 2011. július 1. napjával."
+    }
+  ]
+}

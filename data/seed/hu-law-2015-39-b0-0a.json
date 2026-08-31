@@ -1,0 +1,77 @@
+{
+  "id": "hu-law-2015-39-b0-0a",
+  "type": "statute",
+  "title": "39/2015. (XII. 17.) BM utasítás a Magyar Államkincstár központosított illetményszámfejtő rendszerének és a belügyi szervek elektronikus személyügyi nyilvántartó rendszereinek összehangolásából adódó feladatokról",
+  "status": "in_force",
+  "in_force_date": "2015-12-18",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2015-39-B0-0A",
+  "description": "a Magyar Államkincstár központosított illetményszámfejtő rendszerének és a belügyi szervek elektronikus személyügyi nyilvántartó rendszereinek összehangolásából adódó feladatokról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § Ezen utasítás hatálya kiterjed: a) a Belügyminisztérium hivatali szervezeteire (a továbbiakban: BM), valamint b) a belügyminiszter által irányított, felügyelt minisztériumi szervekre és önálló belügyi szervekre [a b) alpont tekintetében a továbbiakban együtt: belügyi szervek]."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § A Magyar Államkincstár központosított illetményszámfejtő rendszere (a továbbiakban: KIRA) útján kell biztosítani a BM-nél és belügyi szerveknél foglalkoztatott a) kormánytisztviselők, b) állami vezetők, c) közalkalmazottak, d) igazságügyi alkalmazottak, e) munkaviszonyban, f) hivatásos szolgálati jogviszonyban, g) munkavégzésre irányuló egyéb jogviszonyban állók személyi juttatásainak (illetmények és a jogviszony alapján járó egyéb juttatások), egészségbiztosítási ellátásainak (úgymint táppénz, gyed, csecsemőgondozási díj, baleseti táppénz), valamint a munkáltatókat terhelő közterheknek elszámolását."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) Ezen utasítás kiadásakor a KIRA-rendszerbe rögzíthető modulok (kommunikációs felületek) a következők: munkaügyi adatok, távollét adatok, mozgóbér adatok, beosztás adatok, egyéb juttatás adatok, levonás adatok (intézményi levonások). A KIRA-ba történő adatközlés végrehajtható direkt módon a Magyar Államkincstár által üzemeltetett online felületen keresztül (interaktív adatközlés), illetve indirekt módon a KIRA-rendszerhez biztosított ún. interfész adatkapcsolattal (elektronikus adatközlés). Utóbbi tekintetében az adatközlést a KIRA mindenkori interfész specifikációjában foglalt szabályok és eljárások (struktúra leírás Excel formában *.xlsx, valamint xml séma definíciós állomány *.xsd) figyelembevételével kell végrehajtani. (2) A BM személyi állományába tartozó állami vezetők munkaügyi adatai az illetmény számfejtése tekintetében, jelen utasítás alkalmazásakor, kizárólag interaktív adatközléssel rögzíthetők a KIRA-ban."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § A BM és a belügyi szervek vezetői a központi, illetve területi személyügyi és gazdasági szervek közötti kommunikáció elősegítése és a KIRA-rendszer alkalmazásával összefüggésben keletkező többletfeladatok elláthatósága, valamint a szakterületek közötti folyamatos, naprakész és gördülékeny munkavégzés érdekében kijelölnek szakterületenként legalább egy, legfeljebb három, azaz központi, területi, illetve szükség szerint helyi szervenként összesen legfeljebb hat főt (a továbbiakban: intézményi KIRA-koordinátor) a személyi állományból, akik kölcsönösen rendelkeznek betekintési jogosultsággal a személyügyi nyilvántartó rendszer személyes és munkaügyi adatokat tartalmazó moduljaiba, illetve a KIRA-rendszer munkaügyi interfész által feltölthető és adatellenőrzésre alkalmas felületeibe. Fentieken túl a személyügyi szervtől kijelölt intézményi KIRA-koordinátor (a továbbiakban: személyügyi KIRA-koordinátor) a személyügyi nyilvántartáshoz, a gazdasági szervtől kijelölt intézményi KIRA-koordinátor (a továbbiakban: gazdasági KIRA-koordinátor) pedig a KIRA-rendszerhez rendelt, szükséges mértékű adatrögzítési jogosultsággal is rendelkezik."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § (1) A BM, valamint a belügyi szervek központi és területi személyügyi szervei (a továbbiakban: személyügyi szerv) a kezelésükben lévő személyügyi nyilvántartó rendszerben naprakészen nyilvántartják a KIRA munkaügyi moduljával interfészen keresztül történő adatközléshez szükséges valamennyi – jogszabályban rögzített – adatot, amely magában foglalja a 4. §-ban körülírt, a munkaügyi modulra vonatkozó specifikációban meghatározott kötelező, illetve az illetményszámfejtés hibátlan elvégzéséhez szükséges, elvárt adatokat (a továbbiakban: munkaügyi adatok), különös tekintettel a munkáltatói intézkedéssel hatályba lépő valamennyi illetményadatra. (2) Amennyiben valamely, az (1) bekezdésben meghatározott adat nem áll rendelkezésre a személyügyi nyilvántartásban, úgy a személyügyi szerv soron kívül intézkedik az adatnak személyes közlés útján, közokirat bemutatását követően vagy adatközlő lapon történő pótlásáról a személyi állomány vonatkozásában. (3) A KIRA-rendszerbe történő munkaügyi adatközlés akkor válik szükségessé a személyi állomány tagja vonatkozásában, ha az (1) bekezdés szerinti munkaügyi adatok tekintetében adatváltozás következik be, illetve új munkaviszony létesítése esetén. (4) A KIRA-ba interfészen történő adatközlés a személyügyi nyilvántartó rendszerből adatleválogatás útján kinyert *.xml adatfájl segítségével történik (a továbbiakban: munkaügyi adatfájl). A munkaügyi adatfájl csak az utolsó leválogatás után bekövetkezett adatváltozással érintett személyi állomány munkaügyi adatait tartalmazza. Az így előállított adathalmazt a KIRA-rendszerbe legfeljebb naponta egy alkalommal lehet, de legalább havonta, a tárgyhó utolsó napját megelőző munkanapon egy alkalommal kell feltölteni. Az adatfeltöltés időpontjainak megválasztásakor figyelemmel kell lenni arra, hogy a munkaügyi adatfájlba kerülő esetleges szerkezeti és tartalmi hibák, hiányosságok még a tárgyhó utolsó napját megelőzően ellenőrizhetők és javíthatók, illetve ismételt adatküldéssel a Magyar Államkincstár hónap végi pénzügyi zárását (a tárgyhó utolsó munkanapja) megelőzően a KIRA-ban véglegesíthetők legyenek. Új munkaviszony létesítése estén az adatokat, a biztosítotti bejelentési kötelezettségre is figyelemmel, legkésőbb a jogviszony-létesítő okmány hatálybalépését megelőző munkanapon kell adatközléssel továbbítani a KIRA-ba. (5) A személyügyi nyilvántartásból a személyügyi KIRA-koordinátor a (4) bekezdésben meghatározott gyakorisággal elvégzi a munkaügyi adatfájl leválogatását, majd eljuttatja azt a gazdasági KIRA-koordinátor részére, aki rögzíti azt a KIRA-interfészen keresztül. A KIRA-ból kinyerhető jegyzék fájlt, amely tartalmazza az esetleges hibákat, illetve a betöltés sikerességére vonatkozó értesítést a gazdasági KIRA-koordinátor soron kívül eljuttatja a személyügyi KIRA-koordinátor részére. A személyügyi szerv az így birtokába kerülő jegyzékfájlt feldolgozza, és szükség szerint, figyelemmel a (4) bekezdésben foglaltakra, elvégzi a javításokat, hiánypótlásokat. A személyügyi KIRA-koordinátor ezt követően ismételten leválogatja a munkaügyi adatfájlt, majd eljuttatja a gazdasági KIRA-koordinátor részére az ismételt adatközlés érdekében. (6) Adatellenőrzés céljából a személyi állományra vonatkozó munkáltatói intézkedések egy példányát annak jóváhagyását követően a személyügyi szerv megküldi a vele együttműködő gazdasági szerv részére. Amennyiben a munkáltatói intézkedésben foglaltak interfész adatkapcsolattal kerülnek rögzítésre a KIRA-ban, úgy az esetleges interaktív adatrögzítést elkerülendő, a munkáltatói intézkedés a gazdasági szerv részére küldendő példányán, jól látható módon fel kell tüntetni a „KIRA-interfész adategyeztetés céljából” megjegyzést. Amennyiben a munkáltatói intézkedés jellegéből vagy annak hatályából (pl. visszamenőleges hatály), illetve az interfész adatkapcsolattal összefüggő technikai hibából adódóan soron kívüli, interaktív adatrögzítést igényel a KIRA-rendszerben, úgy a „KIRA adatrögzítés céljából” megjegyzést kell elhelyezni a munkáltatói intézkedés gazdasági szervnek küldendő példányán. (7) Az (1) bekezdésben meghatározott adatkörrel összefüggésben a személyügyi szerv ezen utasítás hatálybalépését követően, a személyügyi nyilvántartás és a KIRA-rendszer közötti adatszinkronizálhatóság érdekében, kizárólag a személyügyi nyilvántartó rendszerben rögzített adatokról készíthet munkáltatói intézkedést."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § (1) A BM, valamint a belügyi szervek központi és területi gazdasági szerveinek (a továbbiakban: gazdasági szerv) feladatai a személyi állomány vonatkozásában a) a KIRA-rendszerben saját hatáskörben szükség szerint rögzíti, ellenőrzi és jóváhagyja a távollét, mozgóbér, munkarend, levonás adatok (intézményi levonások) és egyéb juttatás modulok 3. §-ban meghatározott adatkörét, interaktív és/vagy interfészen történő adatkommunikáció segítségével, b) kezeli és alkalmazza a KIRA online interaktív felületét, azon elvégzi az illetményszámfejtéshez szükséges adatrögzítéseket, c) a munkaügyi adatfájl KIRA-rendszerben történő feltöltését követően ellenőrzi és felügyeli a kapott adatok tartalmi megfelelőségét az illetményszámfejtés elvégezhetősége szempontjából. (2) Amennyiben az adatellenőrzés hibákat, hiányosságokat tár fel, úgy a gazdasági szerv soron kívül tájékoztatja a gazdasági KIRA-koordinátort, aki feltárja a hiba valószínű okát, és erről szükség szerint értesíti a személyügyi KIRA-koordinátort, és alkalmazza az 5. § (5) bekezdésben körülírt eljárási rendet. (3) A gazdasági szerv a személyi állomány tagjának személyes, illetve munkaügyi adataiban (különös tekintettel a bankszámlaadatokra) bekövetkező változásokról nem fogadhat el a személyi állomány tagjától szóbeli bejelentést. Amennyiben a személyi állomány tagja írásban fordul a gazdasági szervhez adatainak megváltozását illetően, úgy az írásos megkeresést a személyügyi szerv részére késedelem nélkül továbbítani szükséges. A személyügyi szerv az adatváltozások jellegétől függően a személyügyi nyilvántartásban, a gazdasági szerv a KIRA-rendszerben rögzíti az adatváltozás tényét, valamint az intézményi KIRA-koordinátorok bevonásával együttműködnek abban, hogy a csak személyügyi nyilvántartásban rögzített adatváltozás legkésőbb a soron következő interfész adatközléssel a KIRA-rendszerben is megjelenjen. A személyügyi szervhez érkező, az illetményszámfejtést is befolyásoló adatváltozásokról a személyügyi szerv késedelem nélkül értesíti a vele együttműködő gazdasági szervet. (4) A gazdasági szerv karbantartja a KIRA-rendszerben meghatározott intézményi azonosítók és adatok körét (témaszám, főkönyvi számlaszám, törzsszám, szervezeti egységkód, COFOG, KIRA-végpontazonosító stb.), amelyek változása esetén haladéktalanul értesítést küld a személyügyi szerv részére. Ezen adatok első alkalommal történő egyeztetését jelen utasítás hatálybalépését követően soron kívül kezdeményezi a személyügyi szervnél, a személyügyi nyilvántartásban lévő adatok felülvizsgálata céljából."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § (1) A rendelkezési állományban lévő hivatásos és kirendelt közalkalmazotti személyi állományra vonatkozóan ezen utasítás alkalmazása során figyelemmel kell lenni arra, hogy a) a rendelkezési állományba helyezett személyi állomány tagjának illetményszámfejtését az a belügyi szerv (a Belügyminisztériumba történő kinevezés esetén a BM) végzi, amelyik az illetmény tekintetében a pénzügyi terhet viseli, b) a munkaügyi adatfájl előállítása a személyi állomány tagjának illetményszámfejtését végző BM, illetve belügyi szerv személyügyi szervénél történik. (2) Abban az esetben, ha a rendelkezési állományban lévő személyi állomány tagjára vonatkozó munkáltatói intézkedést nem az (1) bekezdés b) pontjában meghatározott belügyi szerv készíti, úgy a munkáltatói intézkedés tartalmáról az (1) bekezdés b) pontjában meghatározott személyügyi szervet – a munkáltatói intézkedés megküldésével – tájékoztatni kell."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § A személyügyi szerv és a gazdasági szerv vezetői ezen utasítás végrehajtatása során kötelesek szorosan együttműködni."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § Ezen utasításban foglaltakat a személyi állománnyal ismertetni kell."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § (1) Ez az utasítás – a (2) bekezdés kivételével – a közzétételét követő napon lép hatályba. (2) A 11. § 2016. január 1-én lép hatályba."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § 1 Az 1. § b) pontja a 14/2016. (VII. 15.) BM utasítás 37. §-ával megállapított, a 9/2025. (VII. 10.) MK utasítás 4. §-a szerint módosított szöveg. 2 A 11. § a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette."
+    }
+  ]
+}

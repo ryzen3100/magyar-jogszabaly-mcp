@@ -1,0 +1,1653 @@
+{
+  "id": "hu-law-2025-12-b0-8e",
+  "type": "statute",
+  "title": "12/2025. (IV. 30.) ORFK utasítás az Információbiztonsági Szabályzatról",
+  "status": "in_force",
+  "in_force_date": "2025-05-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2025-12-B0-8E",
+  "description": "az Információbiztonsági Szabályzatról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "chapter": "I. Fejezet ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. Az utasítás hatálya kiterjed a) az Országos Rendőr-főkapitányságra (a továbbiakban: ORFK); b) a Készenléti Rendőrségre, a Repülőtéri Rendőr Igazgatóságra, a Rendőrségi Oktatási és Kiképző Központra, a Nemzetközi Oktatási Központra és a vármegyei (fővárosi) rendőr-főkapitányságokra (a továbbiakban együtt: területi szerv); c) a rendőrkapitányságokra és a határrendészeti kirendeltségekre (a továbbiakban együtt: helyi szerv)."
+    },
+    {
+      "provision_ref": "s2",
+      "chapter": "I. Fejezet ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. Az utasítás tárgyi hatálya a minősített adatokat kezelő rendszerek kivételével kiterjed az általános rendőrségi feladatok ellátására létrehozott szerv (a továbbiakban: Rendőrség) által működtetett, üzemeltetett vagy használt valamennyi, a Magyarország kiberbiztonságáról szóló 2024. évi LXIX. törvényben (a továbbiakban: Kiberbiztonsági törvény) meghatározott elektronikus információs rendszerre (a továbbiakban: EIR) és azok környezetét alkotó rendszerelemre (a működéshez szükséges infrastruktúra, fizikai környezet, hardver, kommunikáció és hálózat, szoftver, folyamat), az informatikai folyamatban szereplő valamennyi dokumentációra, azok teljes életciklusában."
+    },
+    {
+      "provision_ref": "s3",
+      "chapter": "I. Fejezet ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. Az utasítás alkalmazásában 3.1. adatátvitel: az adatok EIR-ek, rendszerelemek közötti továbbítása; 3.2. adathordozó: az EIR-hez csatlakoztatható vagy abba beépített olyan eszköz, amelynek segítségével az elektronikus adatok tárolása megvalósítható, valamint a digitális adatok tárolására és feldolgozására alkalmas mobil eszköz; 3.3. adminisztrátori dokumentáció: az EIR és annak környezetét alkotó rendszerelem biztonságos konfigurálását, telepítését és üzemeltetését, a biztonsági funkciók hatékony alkalmazását és fenntartását, a konfigurációval és az adminisztratív funkciók használatával kapcsolatos ismert sérülékenységeket tartalmazó dokumentáció; 3.4. alkalmazás: egy célfeladatot megvalósító szoftver; 3.5. EIR üzemeltető: az a szervezeti egység vagy elem, amely biztosítja az EIR üzemszerű működését; 3.6. felelős szakterület: az a szervezeti egység vagy elem, amely az EIR által kezelt adatok adatkezeléséért felelős, valamint az EIR környezetét alkotó rendszerelem esetén annak üzemeltetője; 3.7. felhasználó: az a személy, aki egy EIR vagy annak környezetét alkotó rendszerelem használója; 3.8. hardver: informatikai eszközök kézzel megfogható részeinek gyűjtőneve; 3.9. hálózat: az informatikai eszközök közötti adatátvitelt megvalósító logikai és fizikai eszközök összessége; 3.10. hálózati aktív eszközök: a hálózat működését biztosító elektronikus elemek (különösen a tűzfal, a router, a switch, a hub, az optikai átkapcsoló); 3.11. hálózati passzív eszközök: a hálózati aktív eszközök kapcsolatát és kommunikációját biztosító elemek (különösen a kábelezés, a kábelcsatornák, a fali csatlakozók és a rendezőszekrények); 3.12. hozzáférés: az EIR-ben vagy annak környezetét alkotó rendszerelemben tárolt adatok, információk elérésének lehetősége a felhasználó vagy egy másik EIR és annak környezetét alkotó rendszerelem által; 3.13. informatikai biztonság: az EIR olyan állapota, amelyben a kezelt adatok bizalmassága, sértetlensége és rendelkezésre állása biztosított, valamint a rendszerelemek biztonsága zárt, teljes körű, folytonos és a kockázatokkal arányos; 3.14. informatikai erőforrásokat koncentráltan tartalmazó helyiségek: olyan, speciálisan kialakított, védett területek, ahol az EIR környezetét alkotó rendszerelem kritikus részei, különösen a szerverek, a hálózati eszközök, az adattárolók és egyéb számítástechnikai berendezések találhatók; 3.15. informatikai eszköz: minden olyan digitális eszköz és ennek funkcionális tartozéka, amely adatok összegyűjtésére, feldolgozására (különösen rendezésére, csoportosítására, kiszámítására), előállítására, tárolására és megjelenítésére, illetve az e tevékenységekkel kapcsolatos adatmódosításra és adattovábbításra alkalmas (így különösen a hardver, a szoftver, a hálózati eszközök és a perifériák); 3.16. informatikai rendszerüzemeltető: az a szervezeti egység vagy elem, amely biztosítja az EIR környezetét alkotó rendszerelemek üzemszerű működését; 3.17. információbiztonság: olyan előírások, szabályok és szabványok betartásának eredménye, amelyek az EIR-ben kezelt adatok és információk bizalmasságának, sértetlenségének és rendelkezésre állásának, valamint az EIR és elemei sértetlenségének és rendelkezésre állásának zárt, teljes körű, folytonos és a kockázatokkal arányos védelmének biztosítását érintik; 3.18. információbiztonságért felelős személy: az EIR biztonságáért felelős személy; 3.19. információbiztonság-tudatosság: olyan gondolkodás és magatartásforma, amely biztosítja, hogy a szervezet alkalmazottai elismerik, elfogadják és alkalmazzák a szervezetük információbiztonsági adminisztratív, logikai és fizikai védelmi intézkedéseit; 3.20. integritás: a sérthetetlenségen túl a teljességet, továbbá az ellentmondás-mentességet jelenti, amelynek eredményeként az információ valamennyi része konzisztensen rendelkezésre áll, elérhető; 3.21. intézkedés: adminisztratív, műszaki, irányítási vagy jogi természetű kockázatkezelési eszköz, beleértve a szabályzatokat, az eljárásokat, az irányelveket, a gyakorlatokat és a képzést; 3.22. intézkedési terv: az EIR biztonsági osztályának megfelelő követelmények teljesítéséhez szükséges korrekciós intézkedések, valamint az információbiztonság és az ellátási lánc kockázatkezelése alapján fennmaradó kockázatok kezelésének terve; 3.23. javítás: előre nem tervezett hibaelhárítási feladat, amely indokolt esetben az EIR és annak környezetét alkotó rendszerelem konfigurációjának változásával jár; 3.24. jogosultság: jog, amely meghatározza, hogy a felhasználó vagy az EIR és annak környezetét alkotó rendszerelem az elérhető adatokon és információkon milyen műveletet végezhet; jogosultságot csak hozzáféréssel rendelkező személyek kaphatnak; 3.25. karbantartás: tervezetten végzett munka, amely indokolt esetben az EIR és annak környezetét alkotó rendszerelem konfigurációjának változásával jár, karbantartásnak minősül különösen a biztonsági réseket befoltozó hibajavítások telepítése; 3.26. kártékony kód: rosszindulatú számítógépes programok összefoglaló neve, különösen a vírus, a féreg, a kémprogram, a zsarolóprogram és az informatikai rendszerben láthatatlanul megbúvó, egy támadónak hozzáférést és jogosultságot biztosító eszköz; 3.27. kibertér: a számítógépes hálózatok és az általuk összekötött számítógépek és egyéb berendezések által alkotott virtuális tér, az a környezet, amelyben az adat technikai eszközökön (számítógépes hálózatokon) keresztül áramlik, elektronikus adatok tárolódnak, online adatforgalom és kommunikáció zajlik; 3.28. korrektív kontroll: az eredeti állapot visszaállítását célzó intézkedés; 3.29. maximális időablak: az üzletmenet során igénybe vett informatikai szolgáltatások kimaradásának jogszabály vagy kockázatelemzés alapján az 1. pont a) és b) alpontjában meghatározott szerv vezetője által meghatározott leghosszabb időtartama; 3.30. menedzselés: az informatikai rendszerek és folyamatok olyan irányítása és felügyelete, amely biztosítja a biztonsági célok elérését, a kockázatok folyamatos felmérését, a szükséges ellenőrzéseket és beavatkozásokat, valamint a rendszeres frissítést és fejlesztést a fenyegetések hatékony kezelése érdekében; 3.31. privilegizált felhasználó: az a felhasználó, aki az EIR és annak környezetét alkotó rendszerelem, rendszer, hálózat üzemeltetési vagy fejlesztési feladatainak végrehajtásához emelt szintű jogosultsággal rendelkezik; 3.32. szerver: olyan számítógép vagy szoftver, amely más számítógépek számára a rajta tárolt vagy előállított adatok felhasználását, a szerver hardver-erőforrásainak (különösen a nyomtató, a háttértárolók és a processzor) kihasználását, illetve más szolgáltatások elérését teszi lehetővé; 3.33. szoftver: elektronikus adatfeldolgozó berendezés (különösen a számítógép) memóriájában elhelyezkedő, azt működtető program; 3.34. távoli hozzáférés: a kormányzati megbízható hálózaton kívüli hálózaton (különösen internet) keresztül kommunikáló felhasználó vagy EIR által a rendőri szerv EIR-jéhez való hozzáférés; 3.35. vagyonelem: olyan eszköz, adat, információ vagy erőforrás, amely a szervezet számára védendő értéket képvisel."
+    },
+    {
+      "provision_ref": "s4",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. Felhasználó csak az a személy lehet, aki a Rendőrséggel munkavégzésre irányuló jogviszonyban áll, illetve jogszabályi kötelezettség alapján végzi feladatát, továbbá a munkavégzéshez megfelelő informatikai ismeretekkel rendelkezik."
+    },
+    {
+      "provision_ref": "s5",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. A felhasználó köteles az információbiztonság területén az adott helyzetben általában elvárható magatartást tanúsítani, minden károkozó tevékenységtől tartózkodni és az informatikai eszközöket az információbiztonság-tudatosság szem előtt tartásával használni."
+    },
+    {
+      "provision_ref": "s6",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. A munkaköri leírásban úgy kell meghatározni a jogköröket és a feladatköröket, hogy az informatikai eszköz vagy EIR használata során a személyes felelősség megállapításának lehetősége mindenkor biztosított legyen. A munkaköri leírásban feladatkörre szabottan érvényesíteni kell az utasításban foglaltakat."
+    },
+    {
+      "provision_ref": "s7",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. Az EIR-t és annak környezetét alkotó rendszerelemet úgy kell kialakítani, hogy biztosított legyen annak megbízható, rendeltetésnek megfelelő, üzemszerű és folyamatos működése."
+    },
+    {
+      "provision_ref": "s8",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. Az ORFK, valamint a Rendőrség területi és helyi szervei által üzemeltetett vagy felügyelt EIR-ek és azok környezetét alkotó rendszerelemek feladatellátásuk, felhasználásuk tekintetében lehetnek országos hatáskörűek (a továbbiakban: központi EIR), területi hatáskörűek (a továbbiakban: területi EIR) vagy a rendőri szerv által saját használatra üzemeltetett vagy felügyelt EIR-ek (a továbbiakban: helyi EIR)."
+    },
+    {
+      "provision_ref": "s9",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. A Rendőrség tulajdonát képező vagy használatában álló eszközöket rendeltetésszerűen, munkavégzés céljából, a Rendőrség érdekeinek szem előtt tartásával, a Rendőrség által meghatározott módon lehet használni. Az eszközök külön engedély nélküli minden egyéb célú, különösen magáncélú használata tilos."
+    },
+    {
+      "provision_ref": "s10",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. Dokumentáltan és a Kiberbiztonsági törvény végrehajtási rendeleteiben meghatározott változáskezelési eljárásnak megfelelő módon kell kezelni minden olyan változtatást vagy hibát, amelynek hatása van vagy lehet az információbiztonságra, így különösen a szervezeti, az információfeldolgozó rendszerelemet és rendszerkonfigurációt, valamint az EIR-t és annak környezetét alkotó rendszerelemet érintő változtatásokat."
+    },
+    {
+      "provision_ref": "s11",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. A felhasználó felelősséggel tartozik a munkavégzés céljából átvett eszközért, köteles megőrizni annak hardver- és szoftverintegritását. Az integritás sérelmének minősül a rendeltetésellenes használat, a hardveres (különösen egy hardver eltávolítása az informatikai eszközből, illetve alkatrész behelyezése) vagy szoftveres módosítás (különösen program telepítése, módosítása, biztonsági beállítások megváltoztatása)."
+    },
+    {
+      "provision_ref": "s12",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. A felhasználó csak a saját azonosítójával jelentkezhet be a Rendőrség hálózatára, másnak a saját hozzáférési adatait nem adhatja át, nem teheti lehetővé, hogy ahhoz más hozzáférjen."
+    },
+    {
+      "provision_ref": "s13",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. Információs, számítástechnikai és telekommunikációs eszközt, adathordozót az informatikai rendszerüzemeltető engedélye nélkül az EIR környezetét alkotó rendszerelemhez csatlakoztatni tilos."
+    },
+    {
+      "provision_ref": "s14",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "14",
+      "title": "14. §",
+      "content": "14. A felhasználó köteles a biztonságot támogató szoftverek használatára, azokat az általa használt eszközről nem törölheti le, nem kapcsolhatja ki."
+    },
+    {
+      "provision_ref": "s15",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "15",
+      "title": "15. §",
+      "content": "15. A felhasználó kizárólag olyan szoftvereket, programokat használhat, amelyek a szolgálatellátás (munkavégzés) céljából szükségesek és használatuk engedélyezett."
+    },
+    {
+      "provision_ref": "s16",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "16",
+      "title": "16. §",
+      "content": "16. A felhasználó köteles az általa tapasztalt hibát, felismert biztonsági eseményt vagy az általa feltárt biztonsági sebezhetőséget haladéktalanul jelezni az informatikai rendszerüzemeltetőnek vagy az EIR üzemeltetőnek, hogy annak elhárítása a lehető leghamarabb megtörténjen."
+    },
+    {
+      "provision_ref": "s17",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "17",
+      "title": "17. §",
+      "content": "17. Az üzemeltetésért felelős személy, a fejlesztésért felelős személy, az információbiztonságért felelős személy és minden felhasználó úgy köteles eljárni, hogy az EIR teljes életciklusában megvalósuljon, és biztosított legyen az EIR által kezelt adatok és információk bizalmassága, sértetlensége és rendelkezésre állása, valamint az EIR és elemei sértetlenségének és rendelkezésre állásának zárt, teljes körű, folytonos és a kockázatokkal arányos védelme."
+    },
+    {
+      "provision_ref": "s18",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "18",
+      "title": "18. §",
+      "content": "18. Az információbiztonsággal kapcsolatos követelmények megvalósítását az információbiztonságért felelős személy vagy az információbiztonságért felelős szervezeti elem bármikor ellenőrizheti."
+    },
+    {
+      "provision_ref": "s19",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "19",
+      "title": "19. §",
+      "content": "19. A magas biztonsági osztályba sorolt EIR-ek esetében a biztonsági osztályba sorolás követelményeiről, valamint az egyes biztonsági osztályok esetében alkalmazandó konkrét védelmi intézkedésekről szóló 7/2024. (VI. 24.) MK rendeletben (a továbbiakban: MK rendelet) meghatározott magas biztonsági osztályba tartozó programmenedzsment, a szabályzat, illetve az eljárásrendek követelménycsoportokban meghatározott védelmi intézkedéseket az adott EIR-re vonatkozó normában kell szabályozni, a további követelménycsoportokban meghatározott védelmi intézkedéseket az adott EIR rendszerbiztonsági tervében kell meghatározni."
+    },
+    {
+      "provision_ref": "s20",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "20",
+      "title": "20. §",
+      "content": "20. Az EIR-ben kezelt adatok osztályozása a Nemzeti Kibervédelmi Intézet (a továbbiakban: Hatóság) által közzétett útmutató alapján a felelős szakterület feladata, amelyben az információbiztonságért felelős személy közreműködik."
+    },
+    {
+      "provision_ref": "s21",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "21",
+      "title": "21. §",
+      "content": "21. Az adatosztályozás során fel kell mérni a) az EIR-ben kezelt adatok jellegét; b) a kezelt adatok mennyiségét; c) a bizalmasság, sértetlenség, rendelkezésre állás szempontjából a kompromittálódás esetén bekövetkező kárt és a kár nagyságát."
+    },
+    {
+      "provision_ref": "s22",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "22",
+      "title": "22. §",
+      "content": "22. Amennyiben az EIR-ben személyes adatot kezelnek, az adatosztályozásba az adatvédelmi felelőst, annak hiányában az adatvédelmi tisztviselőt is bevonja az illetékes szakterület."
+    },
+    {
+      "provision_ref": "s23",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "23",
+      "title": "23. §",
+      "content": "23. Az EIR-ek biztonsági osztályba sorolását az információbiztonságért felelős személy a felelős szakterület és az EIR üzemeltető közreműködésével készíti elő az MK rendelet 1. melléklet 2.2. pontjában foglaltak alapján."
+    },
+    {
+      "provision_ref": "s24",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "24",
+      "title": "24. §",
+      "content": "24. Az információbiztonságért felelős személy a felelős szakterület és az EIR üzemeltető közreműködésével a Rendszerbiztonsági Tervben dokumentálja az MK rendelet 3. mellékletében foglalt fenyegetések katalógusa elemeinek vizsgálatával az EIR bizalmassága, sértetlensége és rendelkezésre állása szempontjából értelmezhető fenyegetéseket és azok hatását."
+    },
+    {
+      "provision_ref": "s25",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "25",
+      "title": "25. §",
+      "content": "25. Amennyiben a Rendőrség az adatkezelési vagy az adatfeldolgozási tevékenységhez közreműködőt vesz igénybe (kiszervezett tevékenységként vagy jogszabály által kijelölt, központosított informatikai és elektronikus hírközlési szolgáltató, illetve központi adatkezelő és adatfeldolgozó szolgáltató igénybevételével), a biztonsági osztályba sorolásnak megfelelő feltételek teljesülését szolgáltatási szerződés útján kell biztosítani."
+    },
+    {
+      "provision_ref": "s26",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "26",
+      "title": "26. §",
+      "content": "26. Ha az EIR létrehozásában, üzemeltetésében, auditálásában, karbantartásában vagy javításában közreműködőt vesz igénybe, a rendőri szerv gondoskodik arról, hogy a biztonsági osztályba sorolásnak megfelelő feltételek szerződéses kötelemként teljesüljenek."
+    },
+    {
+      "provision_ref": "s27",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "27",
+      "title": "27. §",
+      "content": "27. Az ORFK által üzemeltetett vagy felügyelt EIR-ek biztonsági osztályba sorolásának előkészítéséről, nyilvántartásba vételéről szóló dokumentumokat az ORFK Hivatal Elektronikus Ügyviteli és Adatvédelmi Főosztály Elektronikus Biztonság Felügyeleti Osztály (a továbbiakban: EBFO) az ORFK Hivatal hivatalvezetőjén keresztül terjeszti fel jóváhagyás céljából az országos rendőrfőkapitány részére."
+    },
+    {
+      "provision_ref": "s28",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "28",
+      "title": "28. §",
+      "content": "28. A területi szerv gondoskodik az általa vagy az alárendeltségébe tartozó helyi szervek által üzemeltetett vagy felügyelt EIR-ek biztonsági osztályba sorolásának előkészítéséről és nyilvántartásba vételéről. Az EIR-ek biztonsági osztályba sorolásának eredményéről a Hatóság általi nyilvántartásba vételt követően a területi szerv információbiztonságért felelős személye 30 napon belül tájékoztatja az EBFO-t."
+    },
+    {
+      "provision_ref": "s29",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "29",
+      "title": "29. §",
+      "content": "29. Amennyiben az információbiztonságért felelős személy a biztonsági osztályba sorolást követően a biztonsági osztályba sorolás meghatározásánál hiányosságot állapít meg, az EIR üzemeltető közreműködésével eltéréseket vagy helyettesítő intézkedéseket határoz meg, ami biztosítja a biztonsági osztályba soroláshoz tartozó minimális követelményeknek való megfelelést. Az eltéréseket és a helyettesítő intézkedéseket tartalmazó dokumentumokat az MK rendeletben meghatározott tartalommal az EIR-t üzemeltető vagy felügyelő szerv vezetője hagyja jóvá."
+    },
+    {
+      "provision_ref": "s30",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "30",
+      "title": "30. §",
+      "content": "30. Az EIR-ek biztonsági osztályba sorolásának eredményéről az információbiztonságért felelős személy naprakész nyilvántartást vezet."
+    },
+    {
+      "provision_ref": "s31",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "31",
+      "title": "31. §",
+      "content": "31. Az 1. pontban meghatározott szervek által működtetett, üzemeltetett vagy szolgáltatásként igénybe vett EIR esetében Rendszerbiztonsági Tervet kell készíteni és azt naprakészen kell tartani. A Rendszerbiztonsági Terv kidolgozásáért és naprakészen tartásáért az EIR teljes életciklusában, a fejlesztővel, az EIR üzemeltetővel és a felelős szakterülettel együttműködve az 1. pont a) és b) alpontjában meghatározott szervek információbiztonságért felelős személye felel. A Rendszerbiztonsági Tervet a szerv vezetője hagyja jóvá."
+    },
+    {
+      "provision_ref": "s32",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "32",
+      "title": "32. §",
+      "content": "32. A Rendszerbiztonsági Tervet frissíteni kell az EIR-ben vagy annak üzemeltetési környezetében történt, biztonságot érintő változások, valamint a védelmi intézkedések értékelése során feltárt kockázatok esetén, de legalább a biztonsági osztályba sorolás felülvizsgálata során, egyeztetve a felelős szakterülettel és az EIR üzemeltetővel."
+    },
+    {
+      "provision_ref": "s33",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "33",
+      "title": "33. §",
+      "content": "33. Az információbiztonságért felelős személy biztosítja, hogy a Rendszerbiztonsági Tervben rögzítésre kerüljenek a helyreállító információbiztonsági és ellátási lánc kockázatkezelési intézkedések, hogy a szervezet megfelelően reagáljon a szervezeti műveletek és eszközök, személyek, más szervezetek kockázataira."
+    },
+    {
+      "provision_ref": "s34",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "34",
+      "title": "34. §",
+      "content": "34. A Rendszerbiztonsági Tervet az 1. mellékletben meghatározott követelményeknek és tartalmi elemeknek megfelelően, a Hatóság által ajánlott Rendszerbiztonsági Terv sablon alapján kell elkészíteni."
+    },
+    {
+      "provision_ref": "s35",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "35",
+      "title": "35. §",
+      "content": "35. Az üzletmenet-folytonossági terv (a továbbiakban: BCP) az EIR és annak környezetét alkotó rendszerelem elvárt szinten való működését biztosító, nem tervezett, negatív hatású események bekövetkezése esetére vonatkozó eljárások dokumentációja."
+    },
+    {
+      "provision_ref": "s36",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "36",
+      "title": "36. §",
+      "content": "36. A BCP-ben meghatározott eljárásoknak biztosítaniuk kell az információbiztonsági követelmények kockázatokkal arányos teljesülését."
+    },
+    {
+      "provision_ref": "s37",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "37",
+      "title": "37. §",
+      "content": "37. A BCP jóváhagyásra történő előkészítése, felülvizsgálata és a felhasználók szerepkörüknek megfelelő, folyamatos működésre felkészítő képzése a felelős szakterület feladata, az információbiztonságért felelős személy bevonásával."
+    },
+    {
+      "provision_ref": "s38",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "38",
+      "title": "38. §",
+      "content": "38. A BCP-ben az MK rendelet 2. melléklet 7.2. pontjában foglaltakon túl meg kell határozni a kockázatértékelést és kockázatelemzést, amely magában foglalja az MK rendelet 3. mellékletében foglalt fenyegetések katalógusa elemeinek vizsgálatával az EIR bizalmassága, sértetlensége és rendelkezésre állása szempontjából értelmezhető fenyegetéseket és azok hatását."
+    },
+    {
+      "provision_ref": "s39",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "39",
+      "title": "39. §",
+      "content": "39. Az EIR-ek információbiztonsággal kapcsolatos dokumentumait az információbiztonságért felelős személy az erre a célra rendszeresített irányítás-, kockázat- és megfelelés-menedzsment rendszerben (a továbbiakban: Secube rendszer) kezeli. Információbiztonsággal kapcsolatos dokumentum különösen az EIR lista (amely tartalmazza az EIR rövid megnevezését, hivatalos teljes megnevezését, alapfeladatait, szolgáltatásait), a kockázatelemzés dokumentuma, a biztonsági osztályba sorolás eredménye, a Rendszerbiztonsági Terv, a BCP és a sérülékenységvizsgálati dokumentumok."
+    },
+    {
+      "provision_ref": "s40",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "40",
+      "title": "40. §",
+      "content": "40. A Secube rendszer frissítését az EBFO felügyeli."
+    },
+    {
+      "provision_ref": "s41",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "41",
+      "title": "41. §",
+      "content": "41. Az EIR-ek és azok környezetét alkotó rendszerelemek egységességének biztosítása és az információbiztonsági elvek érvényesítése az országos rendőrfőkapitány felelősségi körébe tartozik."
+    },
+    {
+      "provision_ref": "s42",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "42",
+      "title": "42. §",
+      "content": "42. Az országos rendőrfőkapitány hatáskörébe tartozó, információbiztonsággal kapcsolatos szabályok, döntések előkészítéséről az ORFK Hivatal hivatalvezetője, az ezzel összefüggő biztonságos üzemeltetésről a gazdasági országos rendőrfőkapitány-helyettes gondoskodik."
+    },
+    {
+      "provision_ref": "s43",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "43",
+      "title": "43. §",
+      "content": "43. Az EIR-ek biztonságával összefüggő tevékenységek jogszabályokkal való összhangjának megteremtéséről és fenntartásáról az ORFK vonatkozásában az országos rendőrfőkapitány, a területi szerv, illetve az alárendeltségébe tartozó helyi szervek vonatkozásában a területi szerv vezetője gondoskodik az általa kinevezett vagy kijelölt információbiztonságért felelős személy útján."
+    },
+    {
+      "provision_ref": "s44",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "44",
+      "title": "44. §",
+      "content": "44. Az információbiztonságért felelős személy a Kiberbiztonsági törvényben meghatározottakon túl a) felügyeli és ellenőrzi információbiztonsági kérdésekben az informatikai biztonsági előírások teljesítésével összefüggő tevékenységet; b) gondoskodik az eltéréseket és a helyettesítő intézkedéseket tartalmazó dokumentumok elkészítéséről; c) működtetési korlátozásokat írhat elő a munkaállomások és adathordozók informatikai biztonsági felügyeletével összefüggésben, és ellenőrizheti azok betartását; d) információbiztonsági szempontból biztonsági ellenőrzéseket és értékeléseket hajt végre; e) kétévente vagy az EIR biztonságát érintő, jogszabályban meghatározott változás esetén soron kívül, dokumentáltan felülvizsgálja az EIR biztonsági osztályba sorolásához tartozó védelmi intézkedéseket; f) gondoskodik a biztonsági értékelés eredményeképpen feltárt gyengeségek és hiányosságok kijavítására vonatkozó korrekciós intézkedéseket tartalmazó intézkedési terv elkészítéséről; g) gondoskodik a felhasználók dokumentált információbiztonság-tudatossági képzéséről; h) tevékenysége során együttműködik az adatvédelmi tisztviselővel, az adatvédelmi felelőssel, a biztonsági vezetővel, a védelmi tiszttel, a kritikus szervezetek ellenálló képességéért felelős vezetővel, az informatikai rendszerüzemeltetővel, az EIR üzemeltetőkkel, valamint a Kiberbiztonsági törvényben és végrehajtási rendeleteiben meghatározott szervekkel; i) információbiztonsági szempontból véleményezi az információbiztonságot érintő beszerzéseket és a megkötendő megállapodásokat, illetve javaslatot tehet a már megkötött megállapodások módosítására, amennyiben azok nincsenek összhangban az elvárt biztonsági követelményekkel; j) véleményezi az utasítás tárgyi hatálya alá tartozó beruházások információbiztonsági követelményeinek teljesülését, felügyeli azok megvalósítását a beruházás teljes életciklusa során."
+    },
+    {
+      "provision_ref": "s45",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "45",
+      "title": "45. §",
+      "content": "45. A Rendőrség információbiztonságát érintő döntések előkészítését szolgáló egyeztetésekre – így különösen informatikai fejlesztések, beszerzések vonatkozásában – meg kell hívni az információbiztonságért felelős személyt."
+    },
+    {
+      "provision_ref": "s46",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "46",
+      "title": "46. §",
+      "content": "46. A területi szerv információbiztonságért felelős személyének kinevezéséről vagy kijelöléséről a területi szerv vezetője soron kívül tájékoztatja az ORFK Hivatal hivatalvezetőjét."
+    },
+    {
+      "provision_ref": "s47",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "47",
+      "title": "47. §",
+      "content": "47. Az ORFK informatikai rendszerüzemeltetője az ORFK Gazdasági Főigazgatóság Informatikai Főosztály (a továbbiakban: INFO) főosztályvezetője."
+    },
+    {
+      "provision_ref": "s48",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "48",
+      "title": "48. §",
+      "content": "48. A központi EIR-ek tekintetében az INFO főosztályvezetője irányítja a Rendőrség informatikai és telekommunikációs üzemeltetési tevékenységét."
+    },
+    {
+      "provision_ref": "s49",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "49",
+      "title": "49. §",
+      "content": "49. Az EIR és annak környezetét alkotó rendszerelem üzemeltetése során biztonsági esemény vagy kritikus hibajavítás esetén az infrastrukturális alrendszerek, szolgáltatások működésének ideiglenes vagy időszakos szüneteltetéséről, felfüggesztéséről az informatikai rendszerüzemeltető dönt."
+    },
+    {
+      "provision_ref": "s50",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "50",
+      "title": "50. §",
+      "content": "50. A felelős szakterület információbiztonsággal összefüggő feladatai: a) a hozzáférés és jogosultság biztosítása iránti igények elbírálása; b) a felelősségi körébe tartozó EIR-ekre vonatkozó szakmai döntések meghozatala; c) az információbiztonsági követelményekre figyelemmel az információbiztonsági kockázatok felmérése; d) a hozzáférést kapott felhasználók adatainak és jogosultságainak naprakész nyilvántartása; e) az érintett szakmai folyamatok kidolgozása; f) a kivezetés előtt álló, már a napi üzem során nem használt EIR-ek információbiztonsági felügyelete, a kivezetés koordinációja; g) az EIR-hez hozzáférést és jogosultságot igénylő felhasználó számára az EIR használatához kapcsolódó, a rá vonatkozó biztonsági szabályok megismerésének biztosítása."
+    },
+    {
+      "provision_ref": "s51",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "51",
+      "title": "51. §",
+      "content": "51. A területi szerv vezetője a Kiberbiztonsági törvényben meghatározott hatósági bejelentéssel kapcsolatos feladatainak ellátásáról egyidejűleg tájékoztatja az ORFK Hivatal hivatalvezetőjét az általa közzétett szempontrendszer alapján."
+    },
+    {
+      "provision_ref": "s52",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "52",
+      "title": "52. §",
+      "content": "52. Az információbiztonságért felelős személy fogadja a kibertérből származó kockázatokra vonatkozóan a nemzeti kiberbiztonsági incidenskezelő központ által küldött figyelmeztetéseket, azokat elemzi és értékeli, szükség esetén megteszi a megfelelő intézkedéseket, és azok végrehajtásáról tájékoztatja az ORFK Hivatal hivatalvezetőjét."
+    },
+    {
+      "provision_ref": "s53",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "53",
+      "title": "53. §",
+      "content": "53. Az információbiztonságért felelős személy a biztonsági események felderítése, elhárítása és megelőzése érdekében kapcsolatot tart a nemzeti kiberbiztonsági incidenskezelő központtal."
+    },
+    {
+      "provision_ref": "s54",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "54",
+      "title": "54. §",
+      "content": "54. Az információbiztonsági kockázatok kezelésének célja, hogy a Rendőrség képes legyen azonosítani az EIR-ek biztonságát veszélyeztető kockázati tényezőket, és az azonosított kockázatokkal arányos védelmi intézkedéseket dolgozzon ki az EIR védelmének érdekében."
+    },
+    {
+      "provision_ref": "s55",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "55",
+      "title": "55. §",
+      "content": "55. A Rendőrség az általa működtetett, üzemeltetett vagy szolgáltatásként igénybe vett EIR működésével kapcsolatos kockázatfelmérését, kockázatelemzését és kockázatkezelését az EIR BCP-jében valósítja meg, a biztonsági osztályba sorolással kapcsolatos védelmi intézkedések értékelése alapján a fennmaradó kockázatok kezelésére vonatkozó intézkedési tervet az EIR Rendszerbiztonsági Terve tartalmazza."
+    },
+    {
+      "provision_ref": "s56",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "56",
+      "title": "56. §",
+      "content": "56. Az információbiztonságért felelős személy évente, a 2. melléklet szerinti tartalommal, jelentésben értékeli a szervezete – területi szerv esetén a területi és az alárendeltségébe tartozó helyi szervek – információbiztonsági helyzetét (a továbbiakban: éves információbiztonsági jelentés), valamint felülvizsgálja az információbiztonsági szabályzatot."
+    },
+    {
+      "provision_ref": "s57",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "57",
+      "title": "57. §",
+      "content": "57. A területi szerv információbiztonságért felelős személye az éves információbiztonsági jelentést felterjeszti a területi szerv vezetőjének. A területi szerv vezetője a részére felterjesztett jelentést a tárgyévet követő év március 31. napjáig megküldi az ORFK Hivatal hivatalvezetőjének."
+    },
+    {
+      "provision_ref": "s58",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "58",
+      "title": "58. §",
+      "content": "58. Az éves információbiztonsági jelentésekből készített országos jelentést az ORFK Hivatal hivatalvezetője a tárgyévet követő év április 30. napjáig felterjeszti az országos rendőrfőkapitánynak."
+    },
+    {
+      "provision_ref": "s59",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "59",
+      "title": "59. §",
+      "content": "59. Az ORFK információbiztonságért felelős személye a Kiberbiztonsági törvényben és végrehajtási rendeleteiben meghatározott követelmények teljesüléséről a Rendőrség szakterületeitől, a területi és a helyi szervektől tájékoztatást vagy adatot kérhet be."
+    },
+    {
+      "provision_ref": "s60",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "60",
+      "title": "60. §",
+      "content": "60. Amennyiben nemzetbiztonsági ellenőrzés alá eső munkakört ellátó felhasználó esetén kockázati tényező merül fel, valamennyi hozzáférését és jogosultságát azonnal vissza kell vonni."
+    },
+    {
+      "provision_ref": "s61",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "61",
+      "title": "61. §",
+      "content": "61. A felhasználó köteles a Rendőrség által meghirdetett, információbiztonság-tudatosságot fokozó, a fenyegetések felismerésére felkészítő, a jelentési kötelezettségek tudatosítását célzó képzésen részt venni."
+    },
+    {
+      "provision_ref": "s62",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "62",
+      "title": "62. §",
+      "content": "62. A beosztás vagy a munkakör megváltozása esetén a szervezeti egység, illetve szervezeti elem vezetője egyidejűleg intézkedik a felhasználó hozzáférésének és jogosultságainak, egyéni hitelesítő eszközeinek felülvizsgálata, illetve visszavonása iránt."
+    },
+    {
+      "provision_ref": "s63",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "63",
+      "title": "63. §",
+      "content": "63. A 90 napot meghaladó távollét vagy betegség esetén a felhasználó közvetlen szolgálati elöljárója kezdeményezi a felhasználó hozzáférési jogosultságainak, egyéni hitelesítő eszközeinek megvonását, illetve visszavételét."
+    },
+    {
+      "provision_ref": "s64",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "64",
+      "title": "64. §",
+      "content": "64. Az EIR védelmét az EIR biztonsági osztályba sorolásának megfelelő fizikai biztonság kialakításával kell biztosítani. Az EIR fizikai és környezeti védelmi elemeit a Rendszerbiztonsági Tervben kell rögzíteni."
+    },
+    {
+      "provision_ref": "s65",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "65",
+      "title": "65. §",
+      "content": "65. Távollét esetén a jogosulatlan hozzáférést megakadályozó módon zárva kell tartani az olyan helyiségeket, ahol informatikai eszközökkel történik a munkavégzés."
+    },
+    {
+      "provision_ref": "s66",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "66",
+      "title": "66. §",
+      "content": "66. Új épület építése vagy új helyiség kialakítása esetén fel kell mérni, hogy ott milyen biztonsági osztályba sorolt EIR-eket fognak üzemeltetni, és ennek megfelelően kell a fizikai környezetet kialakítani."
+    },
+    {
+      "provision_ref": "s67",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "67",
+      "title": "67. §",
+      "content": "67. Amennyiben a személyes felügyelet nem biztosított, az informatikai erőforrásokat koncentráltan tartalmazó helyiségek bejáratát zárva kell tartani."
+    },
+    {
+      "provision_ref": "s68",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "68",
+      "title": "68. §",
+      "content": "68. Azokon az épületeken belül, ahol EIR üzemel, a nap 24 órájában személyi vagy biztonságtechnikai felügyeletet kell biztosítani."
+    },
+    {
+      "provision_ref": "s69",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "69",
+      "title": "69. §",
+      "content": "69. A belépési eljárásokat és a belépési jogosultságok rendszerét minden olyan helyiség tekintetében szabályozni kell, ahol EIR vagy annak eleme üzemel."
+    },
+    {
+      "provision_ref": "s70",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "70",
+      "title": "70. §",
+      "content": "70. A tűzvédelmi előírásokat annak megfelelően kell kialakítani, hogy az épületben milyen biztonsági osztályba sorolt EIR üzemel."
+    },
+    {
+      "provision_ref": "s71",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "71",
+      "title": "71. §",
+      "content": "71. Az informatikai erőforrásokat koncentráltan tartalmazó helyiségeket automatikus működésű oltórendszerrel és szellőztető rendszerrel kell ellátni."
+    },
+    {
+      "provision_ref": "s72",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "72",
+      "title": "72. §",
+      "content": "72. Az elektromos és szünetmentes hálózatot, a túlfeszültség-, az érintés- és villámvédelmet, valamint a vészkikapcsoló, továbbá a szükségvilágítást biztosító berendezéseket az adott épületre vonatkozóan annak megfelelően kell kialakítani, hogy az épületben milyen biztonsági osztályba sorolt EIR üzemel."
+    },
+    {
+      "provision_ref": "s73",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "73",
+      "title": "73. §",
+      "content": "73. Az energiaellátás biztonsága érdekében – az üzemeltetett EIR-ek biztonsági osztályának figyelembevétele mellett – gondoskodni kell a redundáns automatikus szabályozású áramellátásról (különösen áramellátó generátor, kettős áramszolgáltatás betáplálás), amelynek teljesítménye képes kiszolgálni a számítástechnikai eszközökön túl az azok működéséhez szükséges segédüzemi berendezéseket (különösen a klímaberendezéseket) is."
+    },
+    {
+      "provision_ref": "s74",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "74",
+      "title": "74. §",
+      "content": "74. Az informatikai erőforrásokat koncentráltan tartalmazó helyiségekben szabályozni kell a hőmérséklet és a páratartalom szintjét."
+    },
+    {
+      "provision_ref": "s75",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "75",
+      "title": "75. §",
+      "content": "75. Az informatikai erőforrásokat koncentráltan tartalmazó helyiségekbe csak az elengedhetetlenül szükséges közműhálózat csatlakozhat. A helyiségen belül nem mehet át víz-, gáz-, csatorna- és egyéb közművezeték, felette és a határoló falfelületek mentén vizesblokkot tartalmazó helyiségrész nem lehet, továbbá biztosítani kell az esetleges vízbetörés érzékelését."
+    },
+    {
+      "provision_ref": "s76",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "76",
+      "title": "76. §",
+      "content": "76. Az informatikai erőforrásokat koncentráltan tartalmazó helyiségekben a nyílászárókat zártságot ellenőrző eszközzel kell ellátni, a belső terek védelmét mozgásérzékelővel kell biztosítani. A védelem ki- és bekapcsolása a bejáraton kívül elhelyezett vezérlővel történhet."
+    },
+    {
+      "provision_ref": "s77",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "77",
+      "title": "77. §",
+      "content": "77. Az informatikai erőforrásokat koncentráltan tartalmazó helyiségek ablakait betekintés és behatolás ellen védő biztonsági fóliával kell védeni. Ablakok elkerülhetetlen létesítése esetén azok közforgalomtól elzárt területre, belső udvarra kell hogy nézzenek."
+    },
+    {
+      "provision_ref": "s78",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "78",
+      "title": "78. §",
+      "content": "78. Az informatikai erőforrásokat koncentráltan tartalmazó helyiségekben a padlóburkolatoknak, az álpadlónak, a berendezési tárgyaknak antisztatikus kivitelűeknek kell lenniük."
+    },
+    {
+      "provision_ref": "s79",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "79",
+      "title": "79. §",
+      "content": "79. Tilos az informatikai erőforrásokat koncentráltan tartalmazó helyiségben annak funkciójától eltérő anyagot vagy eszközt tárolni."
+    },
+    {
+      "provision_ref": "s80",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "80",
+      "title": "80. §",
+      "content": "80. Az EIR-ről és annak környezetét alkotó rendszerelemekről magáncélú hang- és képfelvétel készítése tilos."
+    },
+    {
+      "provision_ref": "s81",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "81",
+      "title": "81. §",
+      "content": "81. Az adatkommunikációs kábelek fizikai védelme érdekében biztosítani kell, hogy az alkalmazott technológiák védjék a kábeleket mechanikai sérülés, elektromágneses zavarok, illegális rácsatlakozás, szándékos rongálás, szabotázs és lopás ellen."
+    },
+    {
+      "provision_ref": "s82",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "82",
+      "title": "82. §",
+      "content": "82. Az informatikai rendszerüzemeltetőnek és az EIR üzemeltetőnek konfigurációs nyilvántartást kell vezetnie, amelyben azonosítható az EIR, az annak környezetét alkotó rendszerelemek és azok paraméterei (a továbbiakban: Konfiguráció nyilvántartás)."
+    },
+    {
+      "provision_ref": "s83",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "83",
+      "title": "83. §",
+      "content": "83. A Konfiguráció nyilvántartásnak pontosan tükröznie kell az aktuális állapotot, ideértve a szükséges és elégséges licencállományt."
+    },
+    {
+      "provision_ref": "s84",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "84",
+      "title": "84. §",
+      "content": "84. Az EIR-ek működtetése, üzemeltetése során kizárólag a Konfiguráció nyilvántartásban szereplő hiteles vagyonelemek használhatók."
+    },
+    {
+      "provision_ref": "s85",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "85",
+      "title": "85. §",
+      "content": "85. A vagyonelemek átadása, átvétele, megsemmisítése kizárólag dokumentáltan történhet."
+    },
+    {
+      "provision_ref": "s86",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "86",
+      "title": "86. §",
+      "content": "86. A konfiguráció engedély nélküli, a változáskezelési eljárástól eltérő megváltoztatását biztonsági eseményként kell kezelni, és ki kell vizsgálni."
+    },
+    {
+      "provision_ref": "s87",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "87",
+      "title": "87. §",
+      "content": "87. Az informatikai rendszerüzemeltető a jogosulatlan rendszerelemek automatikus észlelésére automatizált mechanizmusokat működtet."
+    },
+    {
+      "provision_ref": "s88",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "88",
+      "title": "88. §",
+      "content": "88. A létesítményekben munkaszünet idejére el kell zárni a védendő információkat tartalmazó dokumentumokat és adattároló eszközöket."
+    },
+    {
+      "provision_ref": "s89",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "89",
+      "title": "89. §",
+      "content": "89. Az eszközök képernyőjén a védendő adatokat úgy szabad kezelni, hogy azok tartalmát illetéktelen személyek ne ismerhessék meg."
+    },
+    {
+      "provision_ref": "s90",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "90",
+      "title": "90. §",
+      "content": "90. Nyilvántartásba vétellel kell biztosítani az adathordozók nyomon követhetőségét, továbbá a személyi felelősség megállapíthatóságát. Az adathordozók nyilvántartásáért az azt felhasználó szervezeti elem vezetője felel."
+    },
+    {
+      "provision_ref": "s91",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "91",
+      "title": "91. §",
+      "content": "91. Az adathordozó vírusellenőrzéséről az informatikai rendszerüzemeltető központilag menedzselt rendszerrel gondoskodik."
+    },
+    {
+      "provision_ref": "s92",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "92",
+      "title": "92. §",
+      "content": "92. A beépített adathordozóval ellátott eszköz önmagában is adathordozónak tekintendő."
+    },
+    {
+      "provision_ref": "s93",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "93",
+      "title": "93. §",
+      "content": "93. Az adatot tartalmazó adathordozókat védeni kell a visszaélésszerű felhasználástól, a megrongálódástól, továbbá el kell látni jogosulatlan hozzáférés elleni védelemmel."
+    },
+    {
+      "provision_ref": "s94",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "94",
+      "title": "94. §",
+      "content": "94. Selejtezés alkalmával az adathordozó tartalmát dokumentáltan törölni kell, ezután az adathordozót olyan fizikai roncsolással kell megsemmisíteni, amely kizárja az újbóli használatbavétel lehetőségét. A megsemmisítés végrehajtásáról jegyzőkönyvet kell felvenni. Működésképtelen adathordozó esetén az erre utaló információt a megsemmisítési jegyzőkönyvben kell feltüntetni."
+    },
+    {
+      "provision_ref": "s95",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "95",
+      "title": "95. §",
+      "content": "95. A mobil eszközök illetéktelen felhasználásának megakadályozását és a rajtuk tárolt információkhoz, alkalmazáshoz való hozzáférések elleni védelmet a rendőri szerv által üzemeltetett központi menedzsment eszközzel kell biztosítani."
+    },
+    {
+      "provision_ref": "s96",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "96",
+      "title": "96. §",
+      "content": "96. Külső adathordozóra másolás előtt a felhasználónak vírusellenőrzést kell végrehajtania a másolandó adatállományon, a forrás-munkaállomáson rendszeresített vírusellenőrző programmal."
+    },
+    {
+      "provision_ref": "s97",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "97",
+      "title": "97. §",
+      "content": "97. Az információhoz és az információt feldolgozó eszközökhöz való hozzáférést korlátozni kell az arra jogosultak körére, figyelembe véve a munkakörökhöz tartozó kockázati besorolást és az átvilágítási kritériumokat."
+    },
+    {
+      "provision_ref": "s98",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "98",
+      "title": "98. §",
+      "content": "98. A felhasználó számára csak olyan hálózatokhoz és hálózati szolgáltatásokhoz biztosítható hozzáférés és jogosultság, amelyek használata engedélyezett a számára, feltéve, hogy rendelkezik a szükséges feltételekkel, és megkapta a szerepköréhez és feladatához kapcsolódó képzést. A hozzáférés és jogosultság körét a munkavégzéshez minimálisan szükséges mértékűre kell korlátozni, a szükséges és elégséges ismeret elvének megfelelően."
+    },
+    {
+      "provision_ref": "s99",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "99",
+      "title": "99. §",
+      "content": "99. Az EIR-hez történő hozzáférés az EIR biztonsági beállításainak érvényesítését és azok ellenőrzését követően biztosítható. Az EIR-hez történő hozzáférés az EIR biztonsági osztályának megfelelő azonosítás után biztosítható. Az azonosítás személyes használatra kiadott egyedi felhasználói névvel és az ahhoz tartozó, kizárólag a felhasználó által ismert jelszóval és a használt EIR biztonsági osztályának megfelelő további azonosítással történhet. Az előbbiekben meghatározott azonosítással egyenértékűnek kell tekinteni a hardver- vagy szoftveralapú jelszókezeléssel vagy biometrikus adatokkal (különösen arcképmás, ujjnyomat, aláírás) biztosított azonosítást."
+    },
+    {
+      "provision_ref": "s100",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "100",
+      "title": "100. §",
+      "content": "100. Az EIR-nek alkalmasnak kell lennie a jogosultságok egyedi vagy csoportszinten való megkülönböztetésére és szabályozására, valamint a felhasználók személyhez köthető, egyedi azonosítására."
+    },
+    {
+      "provision_ref": "s101",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "101",
+      "title": "101. §",
+      "content": "101. A felhasználót egyedi azonosítóval kell ellátni, amelynek alapján nyomon követhető az EIR-ben és annak környezetét alkotó rendszerelemben végzett tevékenysége."
+    },
+    {
+      "provision_ref": "s102",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "102",
+      "title": "102. §",
+      "content": "102. A jelszókezelés szabályai: a) komplex jelszó használat (kisbetű, nagybetű, legalább egy szám és speciális karakter kombinációból legalább három); b) minimum jelszóhosszúság: 10 karakter; c) 10 elrontott jelszó esetén 30 perc kitiltás; d) jelszómódosítási kötelezettség 30 naponta; e) utolsó 4 jelszó nem használható újra; f) nem visszafejthető, nem visszajátszható jelszókezelés; g) két jelszóváltoztatás között 24 órának kell eltelnie."
+    },
+    {
+      "provision_ref": "s103",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "103",
+      "title": "103. §",
+      "content": "103. A 102. pontban rögzített szabályoktól eltérő, szigorúbb jelszókezelés az egyes Rendszerbiztonsági Tervekben foglaltaknak megfelelően alkalmazható."
+    },
+    {
+      "provision_ref": "s104",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "104",
+      "title": "104. §",
+      "content": "104. A felhasználói jelszó tekintetében a jelszavakra vonatkozó szabályok betartásának ellenőrzésére és érvényesítésére a címtár felhasználóazonosító rendszerét vagy az adott EIR felhasználóazonosító rendszerét kell igénybe venni."
+    },
+    {
+      "provision_ref": "s105",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "105",
+      "title": "105. §",
+      "content": "105. A hitelesítési folyamat során a hitelesítési információk visszajelzésekor a hitelesítési információt meg kell védeni a jogosulatlan személyek általi felfedéstől és felhasználástól."
+    },
+    {
+      "provision_ref": "s106",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "106",
+      "title": "106. §",
+      "content": "106. A felhasználó az első bejelentkezése után köteles azonnal megváltoztatni a jelszavát. A felhasználónak lehetőséget kell biztosítani arra, hogy jelszavát bármikor megváltoztathassa."
+    },
+    {
+      "provision_ref": "s107",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "107",
+      "title": "107. §",
+      "content": "107. A jelszó kompromittálódásának gyanúja esetén a felhasználó haladéktalanul köteles megváltoztatni jelszavát."
+    },
+    {
+      "provision_ref": "s108",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "108",
+      "title": "108. §",
+      "content": "108. A Rendőrség által biztosított aktív felhasználói informatikai eszközöket jelszavas védelemmel kell ellátni, és legfeljebb 10 perc inaktivitás után automatikusan zárolni kell."
+    },
+    {
+      "provision_ref": "s109",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "109",
+      "title": "109. §",
+      "content": "109. Az EIR üzemeltető az információbiztonság fenntartása érdekében a felhasználó hozzáférését és jogosultságát az érintett EIR tekintetében letilthatja, megvonhatja a) ideiglenesen, ha a jelszó kompromittálódásának gyanúja megalapozott; b) ideiglenesen, ha a felhasználó megsérti a rá vonatkozó információbiztonsági szabályokat; c) ideiglenesen vagy véglegesen, ha a felhasználó hozzáférésének és jogosultságának azonnali letiltására, megvonására kap utasítást a felhasználó állományilletékes parancsnokától vagy a munkáltatói jogkör gyakorlójától."
+    },
+    {
+      "provision_ref": "s110",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "110",
+      "title": "110. §",
+      "content": "110. A felhasználó jogosultságának kiadásánál törekedni kell a csoportszintű jogosultságok alkalmazására."
+    },
+    {
+      "provision_ref": "s111",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "111",
+      "title": "111. §",
+      "content": "111. Az informatikai szerepkörök és feladatok szervezeti egységre és személyre (véglegesen vagy átmeneti időszakra történő) telepítését úgy kell végrehajtani, hogy a fejlesztési, üzemeltetési, ellenőrzési feladatok ellátásának egymástól való függetlensége biztosított legyen."
+    },
+    {
+      "provision_ref": "s112",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "112",
+      "title": "112. §",
+      "content": "112. A nem privilegizált felhasználók számára tiltani kell a következő tevékenységeket: a) BIOS-hozzáférés; b) hardvertelepítés; c) szoftvertelepítés; d) hozzáférés a rendszerfájlokhoz (módosítás); e) rendszeridő- és dátummódosítás; f) naplófájlok módosítása, törlése; g) operációs rendszer rendszerbeállításainak megváltoztatása; h) felhasználó jogosultságainak megváltoztatása; i) szoftverterjesztés; j) kártékony kódok elleni védelmi mechanizmusok módosítása, leállítása."
+    },
+    {
+      "provision_ref": "s113",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "113",
+      "title": "113. §",
+      "content": "113. Az EIR-nek és annak környezetét alkotó rendszerelemnek meg kell akadályoznia, hogy a nem privilegizált felhasználók az EIR és annak környezetét alkotó rendszerelem üzemeltetéséhez vagy fejlesztéséhez szükséges beavatkozásokat hajtsanak végre, ideértve a védelmi intézkedések kikapcsolását, megkerülését vagy megváltoztatását."
+    },
+    {
+      "provision_ref": "s114",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "114",
+      "title": "114. §",
+      "content": "114. A felelős szakterület a felhasználók személyügyi, munkaköri változásai esetén a hozzáférést és a jogosultságokat minden esetben haladéktalanul felülvizsgálja, és indokolt esetben intézkedik a hozzáférés és a jogosultságok módosítására, visszavonására."
+    },
+    {
+      "provision_ref": "s115",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "115",
+      "title": "115. §",
+      "content": "115. Az informatikai rendszerüzemeltető a 90 napja nem használt felhasználói fiókot, postafiókot automatikusan felfüggeszti."
+    },
+    {
+      "provision_ref": "s116",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "116",
+      "title": "116. §",
+      "content": "116. Az informatikai rendszerüzemeltető a 90 napot meghaladó távollét, betegség esetén a felhasználó hozzáférését felfüggeszti. A hozzáférés és a jogosultságok helyettesítéssel kapcsolatos, ideiglenes megváltoztatása az EIR üzemeltető feladata, a felelős szakterület intézkedése alapján."
+    },
+    {
+      "provision_ref": "s117",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "117",
+      "title": "117. §",
+      "content": "117. Az információbiztonságért felelős személy feladata, hogy rendszeres információbiztonsági képzés keretében a felhasználók számára átadja a jelszavak használatával kapcsolatos ismereteket. A felkészítés alkalmával minden felhasználóban tudatosítani kell a helytelen jelszóhasználatból adódó veszélyeket és az ezzel járó felelősséget."
+    },
+    {
+      "provision_ref": "s118",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "118",
+      "title": "118. §",
+      "content": "118. Az EIR-hez és annak környezetét alkotó rendszerelemhez, a Rendőrség informatikai rendszeréhez való hozzáférés során közzé kell tenni a használatára vonatkozó figyelmeztetést, amely ismerteti az engedélyezett használat feltételeit, és jelzi, hogy a felhasználó a Rendőrség EIR-ét vagy annak környezetét alkotó rendszerelemét, rendszerét használja, valamint hogy a felhasználói tevékenységet az adatvédelmi szabályoknak megfelelően figyelhetik, rögzíthetik, naplózhatják, továbbá, hogy a jogosulatlan használat fegyelmi, büntetőjogi vagy polgári jogi felelősségre vonással járhat."
+    },
+    {
+      "provision_ref": "s119",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "119",
+      "title": "119. §",
+      "content": "119. A távoli hozzáférést a felelős szakterület engedélyezi."
+    },
+    {
+      "provision_ref": "s120",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "120",
+      "title": "120. §",
+      "content": "120. Az EIR biztonsági osztályának megfelelő védelmi intézkedésként kriptográfiai mechanizmusokat kell alkalmazni a) az informatikai szolgáltatásokhoz kapcsolódó digitális adathordozókon tárolt információk bizalmasságának és sértetlenségének védelmére; b) az adatátvitel során az adatok jogosulatlan felfedése ellen, kivéve, ha az átvitel más, a Rendszerbiztonsági Tervben meghatározott alternatív fizikai ellenintézkedéssel védett; c) a távoli hozzáférés munkaszakaszok bizalmasságának és sértetlenségének védelmére; d) a naplóinformáció és a naplókezelő eszköz sértetlenségének védelmére; e) a mobil eszközökön tárolt információk bizalmasságának és sértetlenségének védelmére vagy az információk hozzáférhetetlenné tételére."
+    },
+    {
+      "provision_ref": "s121",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "121",
+      "title": "121. §",
+      "content": "121. A nyilvános kulcsú infrastruktúra alapú hitelesítés esetén a tanúsítványok érvényességét az EIR üzemeltetőnek ellenőriznie kell."
+    },
+    {
+      "provision_ref": "s122",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "122",
+      "title": "122. §",
+      "content": "122. Az EIR adminisztrátori dokumentációját az EIR fejlesztőjétől vagy az EIR szállítójától a vele kötött szerződésben kell megkövetelni. Az adminisztrátori dokumentációt csak azon felhasználó számára lehet hozzáférhetővé tenni, akinek ez a munkaköri feladatai ellátásához szükséges."
+    },
+    {
+      "provision_ref": "s123",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "123",
+      "title": "123. §",
+      "content": "123. Az EIR üzemeltető az EIR-hez alapkonfigurációt állít össze, és azt dokumentált módon karbantartja."
+    },
+    {
+      "provision_ref": "s124",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "124",
+      "title": "124. §",
+      "content": "124. Az EIR és annak környezetét alkotó rendszerelem változtatásáról nyilvántartást kell vezetni, amely visszakereshető és dokumentált módon tartalmaz minden megvalósított változtatást. A változtatások nyilvántartásáról EIR esetén az EIR üzemeltető, EIR környezetét alkotó rendszerelem esetén az informatikai rendszerüzemeltető gondoskodik."
+    },
+    {
+      "provision_ref": "s125",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "125",
+      "title": "125. §",
+      "content": "125. Minden, az EIR-ben megvalósított változtatás végrehajtása előtt el kell végezni a változtatás tesztelését. Az EIR konfiguráció megváltoztatása előtt az EIR üzemeltető az új verziót teszteli, a hitelességét ellenőrzi, és a változással kapcsolatosan a Rendszerbiztonsági Tervet frissíti."
+    },
+    {
+      "provision_ref": "s126",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "126",
+      "title": "126. §",
+      "content": "126. Az EIR üzemeltető minden, az EIR-ben megvalósított változtatás engedélyezése előtt a változtatás elvégzésének információbiztonságra és az üzletmenet-folytonosságra gyakorolt hatását értékeli. Az EIR-ben változtatást az EIR üzemeltető úgy végezhet el, hogy biztosított legyen az eredeti állapot visszaállíthatósága."
+    },
+    {
+      "provision_ref": "s127",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "127",
+      "title": "127. §",
+      "content": "127. A szükséges rendszerteljesítmény biztosítása érdekében az EIR üzemeltető feladata a meglévő erőforrások és a várható kapacitásigények folyamatos monitorozása, optimalizálása és a jövőbeni kapacitásszükséglet előrejelzése."
+    },
+    {
+      "provision_ref": "s128",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "128",
+      "title": "128. §",
+      "content": "128. Az EIR üzemeltető feladata a naplózás folyamatos működőképességének biztosítása, monitorozása, naplózási hiba esetén a felelős szakterület értesítése."
+    },
+    {
+      "provision_ref": "s129",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "129",
+      "title": "129. §",
+      "content": "129. Az éles üzemi környezet védelme érdekében a fejlesztési és tesztelési környezetet az éles üzemi környezettől el kell különíteni."
+    },
+    {
+      "provision_ref": "s130",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "130",
+      "title": "130. §",
+      "content": "130. Az informatikai rendszerüzemeltető és az EIR üzemeltető az általa előre meghatározott önellenőrzési terv alapján az EIR védelme érdekében teszteket, önellenőrzéseket végez. Az éles üzemi rendszerek ellenőrzésére is kiterjedő informatikai önellenőrzések követelményeit és a vizsgálati tevékenységeket úgy kell megtervezni és jóváhagyni, hogy a Rendőrség napi működését ne zavarja."
+    },
+    {
+      "provision_ref": "s131",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "131",
+      "title": "131. §",
+      "content": "131. A felhasználónak az észlelt hardverelem-meghibásodást haladéktalanul jelentenie kell az informatikai rendszerüzemeltetőnek."
+    },
+    {
+      "provision_ref": "s132",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "132",
+      "title": "132. §",
+      "content": "132. A Rendőrség információt feldolgozó eszközeit a gyártó vagy a forgalmazó előírásai szerint kell karbantartani, folyamatos rendelkezésre állásuk és sértetlenségük biztosítása érdekében."
+    },
+    {
+      "provision_ref": "s133",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "133",
+      "title": "133. §",
+      "content": "133. A karbantartásokat és a javításokat dokumentálni kell. Minden bejegyzésnek tartalmaznia kell a dátumot, a karbantartást, javítást végrehajtó személyeket és a végzett tevékenységet, beleértve a telepített, kiszerelt, javított vagy eltávolított elem megnevezését és egyedi azonosító adatait, valamint a végrehajtott informatikai feladatokat is."
+    },
+    {
+      "provision_ref": "s134",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "134",
+      "title": "134. §",
+      "content": "134. Az EIR karbantartása vagy javítása kizárólag előre meghatározott, a felelős szakterülettel egyeztetett időpontban történhet."
+    },
+    {
+      "provision_ref": "s135",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "135",
+      "title": "135. §",
+      "content": "135. A munkaállomások és szerverek karbantartása során ellenőrizni kell a telepített szoftverek listáját és verzióját, valamint a kritikus és biztonsági frissítések, tanúsítványok állapotát."
+    },
+    {
+      "provision_ref": "s136",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "136",
+      "title": "136. §",
+      "content": "136. Az EIR-ek azon elemeire, amelyek esetén a karbantartáshoz szükséges információk vagy szakértelem a Rendőrségen belül nem áll rendelkezésre, az EIR üzemeltetőnek rendelkeznie kell karbantartásra vonatkozó üzemeltetéstámogatási megállapodással."
+    },
+    {
+      "provision_ref": "s137",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "137",
+      "title": "137. §",
+      "content": "137. A karbantartásokat és javításokat megelőzően és azok befejeztével – a használatbavétel előtt – az EIR üzemeltetőnek az üzemszerű működéshez szükséges konfiguráció-ellenőrzést kell végrehajtania."
+    },
+    {
+      "provision_ref": "s138",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "138",
+      "title": "138. §",
+      "content": "138. Az EIR rendelkezésre állását korlátozó munkálatok felhasználókkal történő közlése az EIR üzemeltető feladata, amelynek során figyelembe kell venni a Rendszerbiztonsági Tervben meghatározott elvárt szolgáltatási szintet."
+    },
+    {
+      "provision_ref": "s139",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "139",
+      "title": "139. §",
+      "content": "139. Az EIR rendszerelemének selejtezését az EIR üzemeltetőnek dokumentált módon kell végrehajtania. A selejtezésről minden esetben selejtezési jegyzőkönyvet kell készíteni."
+    },
+    {
+      "provision_ref": "s140",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "140",
+      "title": "140. §",
+      "content": "140. Az EIR üzemeltető felelős azért, hogy az eszközök újrafelhasználása esetén a korábbi használatból adódóan adatok ne vesszenek el, illetve az adatok bizalmassága ne sérüljön."
+    },
+    {
+      "provision_ref": "s141",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "141",
+      "title": "141. §",
+      "content": "141. Az éles üzemű rendszeren elvégzendő frissítést, módosítást az EIR üzemeltető szabályozott változáskezelési eljáráson keresztül dokumentáltan hajtja végre. A változással kapcsolatban biztonsági hatásvizsgálatot kell végezni, amelynek keretein belül az EIR információbiztonságot érintő dokumentációit is frissíteni kell."
+    },
+    {
+      "provision_ref": "s142",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "142",
+      "title": "142. §",
+      "content": "142. Az EIR és annak környezetét alkotó rendszerelemek működéséhez szükséges telepített szoftverekről az EIR üzemeltető naprakész nyilvántartást vezet a konfigurációs nyilvántartás részeként. A nyilvántartás tartalmazza legalább a szoftver megnevezését, verziószámát és azon rendszerelemek listáját, ahol a szoftver beüzemelésre került."
+    },
+    {
+      "provision_ref": "s143",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "143",
+      "title": "143. §",
+      "content": "143. Az operációs rendszerek és a felhasználói programok kereskedelmi forrásból beszerzett, jogtiszta, gyártói támogatással rendelkező programok vagy a Rendőrség által fejlesztett vagy fejlesztetett, hitelesített alkalmazások lehetnek. Ettől eltérni a jogtisztaság és a hitelesség kivételével az információbiztonságért felelős személy egyetértésével lehet."
+    },
+    {
+      "provision_ref": "s144",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "144",
+      "title": "144. §",
+      "content": "144. Az operációs rendszer, az alkalmazás és a hálózati aktív eszköz szoftver verzióját, valamint biztonsági szintjét tesztelést követően a legmagasabb, gyártói támogatással rendelkező szintre kell hozni. Az ettől való eltérés az informatikai rendszerüzemeltető engedélyével, az információbiztonságért felelős személy tájékoztatását követően lehetséges."
+    },
+    {
+      "provision_ref": "s145",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "145",
+      "title": "145. §",
+      "content": "145. A biztonsági beállítások meghatározásánál figyelembe kell venni a Rendszerbiztonsági Terv követelményeit, valamint az egyes gyártók és információbiztonsági szervezetek által kiadott biztonsági megerősítési útmutatókat (hardening guide)."
+    },
+    {
+      "provision_ref": "s146",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "146",
+      "title": "146. §",
+      "content": "146. Az EIR-t és annak környezetét alkotó rendszerelemeit úgy kell beállítani, hogy a működése során keletkező, nem nyilvános maradvány információk – különösen az átmeneti fájlok – bizalmasságát, sértetlenségét védje."
+    },
+    {
+      "provision_ref": "s147",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "147",
+      "title": "147. §",
+      "content": "147. Az új EIR bevezetését megelőzően vagy abban az esetben, ha a már meglévő EIR sérülékenységére vonatkozó információ merül fel, az információbiztonságért felelős személy gondoskodik a sérülékenységvizsgálat kezdeményezéséről. A sérülékenységvizsgálat elősegítése során úgy kell eljárni, hogy a vizsgálat a Rendőrség napi működését ne veszélyeztesse, valamint az az előzetesen jóváhagyott eszközökkel, dokumentáltan legyen lefolytatva."
+    },
+    {
+      "provision_ref": "s148",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "148",
+      "title": "148. §",
+      "content": "148. Meglévő EIR esetén a biztonságot közvetlenül veszélyeztető hibákat a lehető leghamarabb javítani kell, vagy korrektív kontroll alkalmazásával csökkenteni kell a kockázatokat. Új EIR esetén feltárt sérülékenység javításáról a használatbavételig gondoskodni kell."
+    },
+    {
+      "provision_ref": "s149",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "149",
+      "title": "149. §",
+      "content": "149. A hálózatok ki- és bemeneti pontjait minimalizálni kell, továbbá a ki- és bemeneti pontok adatforgalmát elektronikusan naplózni és a naplófájlokat ellenőrizni kell."
+    },
+    {
+      "provision_ref": "s150",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "150",
+      "title": "150. §",
+      "content": "150. Az informatikai rendszerüzemeltetőnek az EIR minden arra alkalmas – megfelelő hardver- és szoftverkörnyezettel rendelkező – elemére jóváhagyott, központilag rendszeresített vírusellenőrző szoftvert kell telepítenie és naprakészen tartania."
+    },
+    {
+      "provision_ref": "s151",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "151",
+      "title": "151. §",
+      "content": "151. Az informatikai rendszerüzemeltetőnek a hálózatra csatlakozó eszközök esetében központilag, a hálózatra nem csatlakozó eszközök esetében egyenként kell a vírusellenőrző rendszert felügyelni."
+    },
+    {
+      "provision_ref": "s152",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "152",
+      "title": "152. §",
+      "content": "152. Amennyiben kártékony kód elemzése szükséges, az informatikai rendszerüzemeltető biztosítja, hogy a kártékony kódot külön külső adathordozón tárolják, amelyen más tartalom nem lehet. Az adathordozón látható módon fel kell tüntetni, hogy kártékony kódot tartalmaz."
+    },
+    {
+      "provision_ref": "s153",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "153",
+      "title": "153. §",
+      "content": "153. Az informatikai rendszerüzemeltető a kéretlen és kártékony kódot tartalmazó elektronikus levelek kiszűrésére olyan központilag menedzselt szűrőt üzemeltet, amely automatikusan központilag frissíti az adatbázisát, és frissíti a rendszert új verziók elérhetővé válásakor."
+    },
+    {
+      "provision_ref": "s154",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "154",
+      "title": "154. §",
+      "content": "154. A hatékony biztonsági adatmentés érdekében a munkaállomásokon feldolgozott adatállományokat tárolni kizárólag a szervereken és a központi kiszolgálókon, valamint az adatmentésre szolgáló eszközökön lehet."
+    },
+    {
+      "provision_ref": "s155",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "155",
+      "title": "155. §",
+      "content": "155. Az adatokról, a szoftverekről és a rendszerképekről a jóváhagyott mentési és archiválási szabályozásnak megfelelően az informatikai rendszerüzemeltetőnek vagy az EIR üzemeltetőnek dokumentáltan kriptográfiai védelemmel ellátott mentéseket kell készítenie, és visszaállítási teszteket kell végrehajtania."
+    },
+    {
+      "provision_ref": "s156",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "156",
+      "title": "156. §",
+      "content": "156. Az informatikai rendszerüzemeltetőnek és az EIR üzemeltetőnek minden olyan adatot mentenie kell, amely az auditálás, az ellenőrzés eszköze lehet (különösen naplófájlok, riportok). Ezeket az adatokat a többi felhasználói, illetve rendszeradattól elkülönítetten kell menteni, és biztosítani kell a mentés sértetlenségét."
+    },
+    {
+      "provision_ref": "s157",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "157",
+      "title": "157. §",
+      "content": "157. Az EIR-nek és annak környezetét alkotó rendszerelemeknek naplózniuk kell a felhasználói tevékenységet, valamint a privilegizált felhasználó privilegizált jogosultsággal végzett tevékenységeit, ezzel védelmet biztosítva az ellen, hogy egy adott személy az általa használt EIR tekintetében letagadhassa, hogy elvégzett-e egy, a letagadhatatlanság követelménye alá sorolt tevékenységet."
+    },
+    {
+      "provision_ref": "s158",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "158",
+      "title": "158. §",
+      "content": "158. Az EIR-t úgy kell kialakítani, hogy időbélyegeket rögzítsen a naplóbejegyzésekben."
+    },
+    {
+      "provision_ref": "s159",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "159",
+      "title": "159. §",
+      "content": "159. A naplózásra becsült mennyiségű naplóesemény Rendszerbiztonsági Tervben meghatározott ideig való tárolásához elegendő méretű tárkapacitást kell biztosítani."
+    },
+    {
+      "provision_ref": "s160",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "160",
+      "title": "160. §",
+      "content": "160. A technikai és pénzügyi feltételek rendelkezésre állása esetén automatizált naplóesemény-elemző rendszert kell alkalmazni."
+    },
+    {
+      "provision_ref": "s161",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "161",
+      "title": "161. §",
+      "content": "161. Az EIR naplóbejegyzések elemzése az EIR üzemeltető, az EIR környezetét alkotó rendszerelemek naplóbejegyzéseinek elemzése az informatikai rendszerüzemeltető feladata. Az elemzést rendszeresen – ha van, automatikus naplóesemény-elemző rendszer használatával – kell elvégezni úgy, hogy a veszélyes vagy tiltott tevékenységekre és történésekre az EIR üzemeltető vagy az informatikai rendszerüzemeltető megfelelően reagálhasson."
+    },
+    {
+      "provision_ref": "s162",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "162",
+      "title": "162. §",
+      "content": "162. Az EIR-t és annak környezetét alkotó rendszerelemek naplózását úgy kell kialakítani, hogy naplózási hiba esetén riasztást küldjön az EIR üzemeltetőnek."
+    },
+    {
+      "provision_ref": "s163",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "163",
+      "title": "163. §",
+      "content": "163. A naplózóeszközt, illetve a naplóinformációt meg kell védeni a jogosulatlan hozzáféréstől, törléstől, kiiktatástól vagy módosítástól."
+    },
+    {
+      "provision_ref": "s164",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "164",
+      "title": "164. §",
+      "content": "164. Az EIR-eket és azok környezetét alkotó rendszerelemeket úgy kell kialakítani, hogy a személyes adatokkal elektronikus úton végzett adatkezelési műveletek jogszerűsége és ellenőrizhetősége biztosított legyen az információs önrendelkezési jogról és az információszabadságról szóló 2011. évi CXII. törvény által meghatározott adatok naplózásával kapcsolatban, amely naplót a kezelt adat törlését követően tíz évig meg kell őrizni."
+    },
+    {
+      "provision_ref": "s165",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "165",
+      "title": "165. §",
+      "content": "165. Az informatikaihálózat-üzemeltető (a továbbiakban: hálózatüzemeltető) menedzseli és felügyeli a hálózati aktív és passzív eszközöket. A hálózatmenedzsment segítségével kell megoldani a hálózatok biztonságát és az infrastruktúra védelmét."
+    },
+    {
+      "provision_ref": "s166",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "166",
+      "title": "166. §",
+      "content": "166. A hálózatüzemeltető olyan ellenőrző-felügyeleti eszközöket használ, amelyek biztosítják a hálózatokban kezelt és továbbított adatok biztonságát, és megóvják a hálózatot a jogosulatlan hozzáférésektől."
+    },
+    {
+      "provision_ref": "s167",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "167",
+      "title": "167. §",
+      "content": "167. A hálózatüzemeltető gondoskodik a hálózatok végpontjain komplex fizikai és logikai védelem alkalmazásáról."
+    },
+    {
+      "provision_ref": "s168",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "168",
+      "title": "168. §",
+      "content": "168. A Rendőrség hálózatából más hálózatba csak előre meghatározott és a hálózatüzemeltető által engedélyezett eszközzel és módon szabad csatlakozni."
+    },
+    {
+      "provision_ref": "s169",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "169",
+      "title": "169. §",
+      "content": "169. A Rendőrség tulajdonában vagy használatában álló eszközön vezeték nélküli internet (WiFi) vagy hálózati hozzáférési pont (Hotspot) kialakítása belső hálózathoz való hozzáféréssel kizárólag az INFO főosztályvezetőjének engedélyével történhet."
+    },
+    {
+      "provision_ref": "s170",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "170",
+      "title": "170. §",
+      "content": "170. A hálózatüzemeltető gondoskodik a hálózati eszközökön a naplózás beállításáról és a hálózati eszközök rendszeridejének a hálózati idő protokollhoz (NTP) történő szinkronizálásáról."
+    },
+    {
+      "provision_ref": "s171",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "171",
+      "title": "171. §",
+      "content": "171. A hálózati szolgáltatások biztonsági beállítása, valamint annak ellenőrzése, karbantartása a hálózatüzemeltető feladata."
+    },
+    {
+      "provision_ref": "s172",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "172",
+      "title": "172. §",
+      "content": "172. Az EIR működéséhez alkalmazott hálózati szolgáltatás biztonsági jellemzőit a Rendszerbiztonsági Tervben dokumentálni kell. Amennyiben több hálózati szolgáltatás működik a rendszerben, úgy a hálózatüzemeltető biztonsági szempontból ezek egymásra gyakorolt hatását is elemzi."
+    },
+    {
+      "provision_ref": "s173",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "173",
+      "title": "173. §",
+      "content": "173. Az EIR-ek összekapcsolását csak az adatforgalom felügyeletét lehetővé tevő és biztonságát garantáló informatikai megoldás közbeiktatásával lehet kialakítani."
+    },
+    {
+      "provision_ref": "s174",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "174",
+      "title": "174. §",
+      "content": "174. Az EIR-ek összekapcsolásának feltétele a magasabb biztonsági osztályba sorolt EIR követelményeinek teljesítése."
+    },
+    {
+      "provision_ref": "s175",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "175",
+      "title": "175. §",
+      "content": "175. A hálózatüzemeltető az informatikai hálózati környezetről naprakész nyilvántartást vezet, amely legalább az alábbi adatokat, illetve információkat tartalmazza: a) a belső/külső rendszerkapcsolatokat; b) a valós idejű, felhőalapú kapcsolatokat; c) a WiFi-rendszer leírását; d) a telefonközpont leírását; e) az informatikai hálózat topológiai rajzát (logikai felépítési zónákat, határokat, kapcsolatokat, irányokat)."
+    },
+    {
+      "provision_ref": "s176",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "176",
+      "title": "176. §",
+      "content": "176. Tilos a hálózat biztonságos működését zavaró vagy veszélyeztető információk, programok terjesztése."
+    },
+    {
+      "provision_ref": "s177",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "177",
+      "title": "177. §",
+      "content": "177. A hálózat nem használható az alábbi tevékenységekre: a) profitszerzést célzó (különösen kriptovaluta-bányászat), direkt üzleti célú tevékenység és reklám; b) a hálózat, a kapcsolódó hálózatok, illetve ezek erőforrásainak rendeltetésszerű működését és biztonságát megzavaró, veszélyeztető tevékenység, ilyen információk és programok terjesztése; c) a hálózatot, a kapcsolódó hálózatokat, illetve erőforrásaikat indokolatlanul, túlzott mértékben, pazarló módon igénybe vevő tevékenység (különösen nem hivatalos körlevelek, hálózati játékok, kéretlen reklámok); d) a hálózat erőforrásaihoz, a hálózaton elérhető adatokhoz történő illetéktelen hozzáférés, azok illetéktelen használata, eszközök és szolgáltatások – akár tesztelés céljából történő – túlzott mértékben való szisztematikus próbálgatása (különösen TCP port scan); e) a hálózat erőforrásainak, a hálózaton elérhető adatoknak illetéktelen kezelése, módosítása, elérhetetlenné tétele, törlése vagy bármely károkozásra irányuló tevékenység; f) másokra nézve sértő, vallási, etnikai, politikai vagy más jellegű érzékenységet bántó, zaklató tevékenység (különösen pornográf anyagok közzététele); g) hálózati üzenetek, hálózati eszközök hamisítása, olyan látszat keltése, mintha egy üzenet más gépről vagy más felhasználótól származna (spoofing)."
+    },
+    {
+      "provision_ref": "s178",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "178",
+      "title": "178. §",
+      "content": "178. A hálózatüzemeltető minden hálózati szolgáltatásra meghatározza a biztonsági mechanizmusokat, a szolgáltatási szinteket és a kezelési követelményeket."
+    },
+    {
+      "provision_ref": "s179",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "179",
+      "title": "179. §",
+      "content": "179. A hálózatüzemeltető gondoskodik arról, hogy az EIR csak a biztonsági architektúrával összhangban elhelyezett határvédelmi eszközökön, felügyelt interfészeken keresztül kapcsolódhasson külső hálózathoz vagy külső EIR-hez."
+    },
+    {
+      "provision_ref": "s180",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "180",
+      "title": "180. §",
+      "content": "180. Az eszközök távdiagnosztikai és konfigurációs portjainak használata csak a hálózatüzemeltető engedélyével, dokumentáltan lehetséges."
+    },
+    {
+      "provision_ref": "s181",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "181",
+      "title": "181. §",
+      "content": "181. A hálózatüzemeltető a hálózat külső határán aktív hálózati forgalom vizsgálatára és hálózati támadás felismerésére alkalmas, továbbá az alkalmazások és adatbázisok ellenőrzött hozzáférését biztosító tűzfalat üzemeltet."
+    },
+    {
+      "provision_ref": "s182",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "182",
+      "title": "182. §",
+      "content": "182. Minden külső infokommunikációs szolgáltatás használatakor felügyelt interfészt kell működtetni, amelyekhez forgalomáramlási szabályokat kell meghatározni. A szabályok meghatározásánál az alapeseti visszautasításból kell kiindulni. A forgalomáramlási szabályok alóli minden kivételt dokumentálni kell, a kivételt alátámasztó alapfeladattal és az igényelt kivétel időtartamával együtt. A hálózatüzemeltetőnek félévente dokumentáltan felül kell vizsgálnia a forgalomáramlási szabályok alóli kivételeket, és el kell távolítania azokat a kivételeket, amelyeket közvetlen alapfeladat már nem indokol."
+    },
+    {
+      "provision_ref": "s183",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "183",
+      "title": "183. §",
+      "content": "183. A hálózatüzemeltető a hálózatot túlterheléses – szolgáltatásmegtagadás jellegű – támadásokkal szembeni védelemmel látja el."
+    },
+    {
+      "provision_ref": "s184",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "184",
+      "title": "184. §",
+      "content": "184. Az információszolgáltatások, a felhasználók és a rendszerek különböző csoportjait a hálózatüzemeltető a hálózatban elkülöníti."
+    },
+    {
+      "provision_ref": "s185",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "185",
+      "title": "185. §",
+      "content": "185. Külön hálózati szegmensbe kell szervezni a) a fizikai vagy logikai alhálózatban lévő szervergépeket és hálózati eszközöket; b) az éles üzemi környezetek szervergépeit és hálózati eszközeit; c) a teszt- és fejlesztői környezet szervergépeit és hálózati eszközeit."
+    },
+    {
+      "provision_ref": "s186",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "186",
+      "title": "186. §",
+      "content": "186. A levelezőrendszer kizárólag szolgálati feladatok ellátására használható, az abban tárolt és továbbított levelek a Rendőrség adatvagyonának részét képezik."
+    },
+    {
+      "provision_ref": "s187",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "187",
+      "title": "187. §",
+      "content": "187. A Rendőrség elektronikus levelezési címjegyzéke nem szolgáltatható ki a Rendőrség állományába nem tartozó személynek."
+    },
+    {
+      "provision_ref": "s188",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "188",
+      "title": "188. §",
+      "content": "188. Az információbiztonságot érintő beszerzések teljes életciklusában az információbiztonsági követelményeknek történő megfelelésről gondoskodni kell."
+    },
+    {
+      "provision_ref": "s189",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "189",
+      "title": "189. §",
+      "content": "189. Az EIR információbiztonságát érintő szerződésben az információbiztonságért felelős személy bevonásával meg kell határozni a funkcionális és garanciális biztonsági követelményeket, a dokumentációs követelményeket és a dokumentumok védelmére vonatkozó követelményeket, továbbá meg kell határozni a fejlesztési környezetre és a tervezett üzemeltetési környezetre vonatkozó előírásokat."
+    },
+    {
+      "provision_ref": "s190",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "190",
+      "title": "190. §",
+      "content": "190. A szerződéses kötelezettségek meghatározásakor gondoskodni kell arról, hogy a biztonsági szabályok előírása már az EIR tervezése során, az információbiztonságáért felelős személy egyetértésével megtörténjen, és az EIR fejlesztésére ennek alapulvételével kerüljön sor. Az EIR-t e biztonsági előírások igazolt teljesülése esetén lehet használatba venni."
+    },
+    {
+      "provision_ref": "s191",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "191",
+      "title": "191. §",
+      "content": "191. Az EIR fejlesztése során a jogszabályi követelmények és az információbiztonságért felelős személy által meghatározott szempontok alapján a fejlesztővel kötött szerződésben elő kell írni, hogy a fejlesztés során a biztonságos programozás irányelveit kövesse, valamint hogy a fejlesztő előzetesen készítse el vagy aktualizálja a vonatkozó biztonsági követelményrendszert a rendszerspecifikációban."
+    },
+    {
+      "provision_ref": "s192",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "192",
+      "title": "192. §",
+      "content": "192. Jogszabály eltérő rendelkezése hiányában az EIR valamennyi elemének használatbavételt megelőző, a biztonsági megfelelőség és hitelesség szempontjainak figyelembevételével történő teszteléséről az informatikai rendszer üzemeltetéséért felelős vezető gondoskodik. A biztonsági feltételeket vagy a hitelességi elvárást nem teljesítő EIR-t alkalmazásba venni, üzemeltetni nem lehet."
+    },
+    {
+      "provision_ref": "s193",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "193",
+      "title": "193. §",
+      "content": "193. A Nemzeti Hírközlési és Informatikai Tanácsról, valamint a Digitális Kormányzati Ügynökség Zártkörűen Működő Részvénytársaság és a kormányzati informatikai beszerzések központosított közbeszerzési rendszeréről szóló 301/2018. (XII. 27.) Korm. rendelet 7. §-ában foglalt éves informatikai beszerzési terv és éves informatikai fejlesztési terv elkészítése az informatikai rendszerüzemeltető feladata. A tervekben az információbiztonsággal kapcsolatos beszerzéseket, fejlesztéseket el kell különíteni."
+    },
+    {
+      "provision_ref": "s194",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "194",
+      "title": "194. §",
+      "content": "194. Az EIR-t és annak környezetét alkotó rendszerelemeket érintő megállapodások megkötésekor érvényesíteni kell az információbiztonsági követelményeket, beleértve a szabályzatok, eljárásrendek megismerésére és betartására irányuló kötelezettségvállalást és a titoktartási nyilatkozatot."
+    },
+    {
+      "provision_ref": "s195",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "195",
+      "title": "195. §",
+      "content": "195. Külső személyek részéről a Rendőrség információs vagyonelemeihez való hozzáférés kockázatát a megkötött megállapodásban dokumentált információbiztonsági követelményekkel kell csökkenteni."
+    },
+    {
+      "provision_ref": "s196",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "196",
+      "title": "196. §",
+      "content": "196. A megállapodásban rögzíteni kell a biztonsági követelményeket, a biztonsággal kapcsolatos dokumentációs követelményeket, valamint meg kell határozni az információbiztonságot érintő szerep- és felelősségi köröket, köztük a biztonsági szerepkörökre és felelősségekre vonatkozó elvárásokat."
+    },
+    {
+      "provision_ref": "s197",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "197",
+      "title": "197. §",
+      "content": "197. A biztonságiesemény-kezelési folyamatra olyan rendszert kell alkalmazni, amely támogatja az alábbi tevékenységeket: a) a biztonsági esemény jelentése; b) a biztonsági eseménnyel kapcsolatos információk gyűjtése; c) tudásbázis kiépítése; d) azonnali válaszlépés meghatározása; e) azonnali válaszlépés végrehajtása; f) átfogó válaszlépés szükségességének meghatározása; g) javaslat kidolgozása az átfogó válaszlépésre; h) átfogó válaszlépés engedélyezése; i) átfogó válaszlépés végrehajtása; j) a végrehajtás ellenőrzése; k) a biztonsági esemény dokumentálása; l) biztonságiesemény-kezelési képességek dokumentált tesztelése; m) statisztikai kimutatások készítése."
+    },
+    {
+      "provision_ref": "s198",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "198",
+      "title": "198. §",
+      "content": "198. Biztonsági esemény felfedezése vagy gyanúja esetén a felhasználónak az eszközt haladéktalanul le kell választania a hálózatról, és értesítenie kell az informatikai rendszerüzemeltetőt és az EIR üzemeltetőt, akik a halaszthatatlan intézkedések megtételével egyidejűleg értesítik az információbiztonságért felelős személyt."
+    },
+    {
+      "provision_ref": "s199",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "199",
+      "title": "199. §",
+      "content": "199. Az információbiztonságért felelős személy a biztonsági eseményről és az azonnali megtett intézkedésekről tájékoztatja az ORFK tekintetében az ORFK Hivatal hivatalvezetőjét, területi vagy helyi szerv tekintetében a területi szerv vezetőjét."
+    },
+    {
+      "provision_ref": "s200",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "200",
+      "title": "200. §",
+      "content": "200. Az információbiztonságért felelős személy a biztonsági eseménnyel kapcsolatos információkat begyűjti, tájékoztatja a nemzeti kiberbiztonsági incidenskezelő központot, és intézkedik a biztonsági esemény elhárítására."
+    },
+    {
+      "provision_ref": "s201",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "201",
+      "title": "201. §",
+      "content": "201. A BCP-ben előírt tevékenységeket a biztonsági események kezelése során figyelembe kell venni, és az intézkedéseket össze kell hangolni."
+    },
+    {
+      "provision_ref": "s202",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "202",
+      "title": "202. §",
+      "content": "202. Az információbiztonságért felelős személy elrendelheti az informatikai rendszerüzemeltető és az EIR üzemeltető számára az átfogó válaszlépés végrehajtását, illetve ellenőrizheti a megvalósítást."
+    },
+    {
+      "provision_ref": "s203",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "203",
+      "title": "203. §",
+      "content": "203. Az elektronikus információbiztonsági szabályokat megsértő felhasználó felelősségének kivizsgálására intézkedni kell, amelyre az információbiztonságért felelős személy javaslatot tehet."
+    },
+    {
+      "provision_ref": "s204",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "204",
+      "title": "204. §",
+      "content": "204. Az EIR üzemeltető felelős azért, hogy rendszerösszeomlás, kompromittálódás vagy hiba esetén az EIR az utolsó ismert állapotba kerüljön helyreállításra, és az utolsó ismert mentésből a tranzakciók is helyreállításra kerüljenek a BCP-ben meghatározottak szerint."
+    },
+    {
+      "provision_ref": "s205",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "205",
+      "title": "205. §",
+      "content": "205. A felelős szakterületnek az üzletmenet-folytonosság működésképességének biztosítása érdekében a működtetési környezet jelentős változásakor, de legalább évente, valamint nem tervezett, negatív hatású események bekövetkezése esetén el kell végeznie a BCP dokumentált felülvizsgálatát és tesztelését, az információbiztonságért felelős személy bevonásával. Az EIR üzemeltetőnek az eredmények alapján szükséges javításokat el kell végeznie."
+    },
+    {
+      "provision_ref": "s206",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "206",
+      "title": "206. §",
+      "content": "206. Az EIR üzletmenet-folytonosságot befolyásoló szolgáltatásait az adott EIR BCP-jének megfelelő határidőn belül helyre kell állítani."
+    },
+    {
+      "provision_ref": "s207",
+      "chapter": "II. Fejezet RÉSZLETES RENDELKEZÉSEK",
+      "section": "207",
+      "title": "207. §",
+      "content": "207. Az EIR biztonsági osztályba sorolásának megfelelően a BCP-ben meghatározottak szerint olyan, az elsődleges feldolgozási helyszíntől elkülönülő tartalék feldolgozási helyszínt kell biztosítani, hogy ha az elsődleges feldolgozási képesség nem áll rendelkezésre, az EIR az előre meghatározott műveleteit előre meghatározott időn belül – összhangban a helyreállítási időre és a helyreállítási pontokra vonatkozó célokkal – a tartalék helyszínen újrakezdhesse vagy folytathassa."
+    },
+    {
+      "provision_ref": "s208",
+      "chapter": "III. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "208",
+      "title": "208. §",
+      "content": "208. Ez az utasítás a közzétételét követő napon lép hatályba."
+    },
+    {
+      "provision_ref": "s209",
+      "chapter": "III. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "209",
+      "title": "209. §",
+      "content": "209. A területi szerv a saját szervezetére és az alárendeltségébe tartozó helyi szervekre vonatkozó információbiztonsági szabályzatot az utasítással összhangban készíti el. A területi szerv az információbiztonsági szabályzatát a Kiberbiztonsági törvényben meghatározott, a Hatóság általi nyilvántartásba vételt követően 30 napon belül tájékoztatásul megküldi az ORFK Hivatal részére."
+    },
+    {
+      "provision_ref": "s210",
+      "chapter": "III. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "210",
+      "title": "210. §",
+      "content": "210. 1. Változáskövetési adatok: a) dátum; b) dokumentumverzió; c) változások leírása; d) módosító neve. 2. A Rendszerbiztonsági Terv felülvizsgálatának következő tervezett időpontja. 3. Az EIR alapadatai: a) megnevezés, verziószám; b) tárgyi, személyi hatókör (központi, területi, helyi EIR); c) alapfeladatok, alapszolgáltatások; d) felelős szakterület; e) információbiztonság szempontjából meghatározó jelentőségű rendszerelemek részletezése; f) egyedi fejlesztés / dobozos szoftver / kombinált termék (kombinált termék esetén részletezés szükséges); g) rendeltetésszerű használatához szükséges licencinformációk (ideértve a rendszertámogatásra vonatkozó adatokat is); h) fejlesztő adatai; i) EIR működésére, adatkezelésre vonatkozó jogszabályhelyek. 4. Az EIR működési körülményei és más elektronikus információs rendszerekkel való kapcsolatai: a) magasszintű architektúraábra és -leírás; b) elvárt működés technikai feltételei (ideértve a hálózati feltételeket is), környezeti elvárások; c) magasszintű adatkapcsolati diagram (DFD), adatkapcsolatokra vonatkozó elvárások (az interfészek paraméterei, a biztonsági követelmények és a kapcsolaton keresztül átvitt adatok típusa); d) monitoring, naplózás ismertetése. 5. Az EIR biztonsági besorolása: a) az EIR kockázatelemzése és értékelése az MK rendelet 1. melléklet 2.2. pontja alapján; b) az EIR biztonsági osztályba sorolása; c) a besorolás időpontja. 6. Az EIR-re vonatkozó védelmi intézkedések, biztonsági követelmények: a) jogszabályban meghatározott védelmi intézkedések vagy azokat helyettesítő intézkedések; b) jogszabályban nem meghatározott, a felelős szakterület által elvárt további védelmi intézkedések; c) intézkedési terv a védelmi intézkedések értékelése alapján a fennmaradó kockázatok kezelésére; d) az EIR elvárt működési időszaka; e) karbantartás engedélyezett időszaka; f) karbantartás ütemezése. 7. Az EIR üzletmenet-folytonossággal kapcsolatos elvárások: a) megengedhető-e, és milyen mértékben az adatvesztés; b) mennyi az EIR működésének a felelős szakterület által elvárt helyreállítási ideje; c) az MK rendelet 3. mellékletében foglalt fenyegetések katalógusa elemeinek vizsgálatával az EIR bizalmassága, sértetlensége és rendelkezésre állása szempontjából értelmezhető fenyegetések és azok hatása. 8. Az EIR üzemeltetés és adattárolás: a) az adatkezelésre vonatkozó jogszabályi és technikai elvárások; b) a kezelt adatok; c) adatfeldolgozás és adattárolás: ca) helye, cb) adatfeldolgozó neve és elérhetősége, cc) adatfeldolgozó igénybevételének jogi háttere; d) üzemeltetés: da) helye, db) üzemeltető neve és elérhetősége, dc) üzemeltetési szolgáltatás igénybevételének jogi háttere, dd) üzemeltetés SLA paraméterei, de) EIR függőségei, df) rendszerfelügyelet, dg) felhasználói fiókok, jogosultságok és hozzáférés kezelése, dh) biztonsági mentés, archiválás, di) kapcsolódó és gyártói dokumentációk. 1. Jogszabályi megfelelőség biztosítása 1.1. A szervezet információbiztonsági szabályzata A jogszabályi megfelelőség biztosításához a szervezet értékelt időszakban hatályos információbiztonsági szabályzatával (a továbbiakban: IBSZ) kapcsolatos adatok: 1.2. Az elektronikus információs rendszer biztonságáért felelős személy A jogszabályi megfelelőség biztosításához a szervezet információbiztonságért felelős személyt nevez vagy jelöl ki. 1.3. A szervezet elektronikus információs rendszerei A jogszabályi megfelelőség biztosításához a szervezet által működtetett elektronikus információs rendszerekkel (a továbbiakban: EIR) kapcsolatos adatok: Amennyiben az EIR nyilvántartásban szereplő EIR-ek biztonsági osztályba sorolásával kapcsolatban eltérésekkel vagy helyettesítő intézkedésekkel teljesítettek a követelmények, az eltérésekkel vagy helyettesítő intézkedésekkel kapcsolatos adatok az alábbiak: a) EIR megnevezése; b) elvárt védelmi intézkedés; c) eltérés vagy helyettesítő intézkedés; d) indokolás. Amennyiben a kockázatértékelési jelentésben foglalt észrevételek és javaslatok alapján a szervezet további intézkedéseket vezet be a követelmények teljesítése érdekében, az esetlegesen elkészített intézkedési terv adatai: a) EIR megnevezése; b) megvalósított védelmi intézkedés; c) a védelmi intézkedések értékeléséért felelős szerepkört betöltő személyek; d) az EIR eltérés vagy helyettesítő intézkedés; e) döntés a rendszer használatbavételéről vagy használatának folytatásáról. Az EIR nyilvántartásban szereplő EIR-ek vonatkozásában meg kell adni, hogy készült-e a) Rendszerbiztonsági Terv; b) üzletmenet-folytonossági terv. Az üzletmenet-folytonossági tervek tesztelésére vonatkozóan meg kell adni a helyreállítási tesztelés adatait: a) EIR megnevezése; b) üzletmenet-folytonossági teszt tárgya (informatikaiszolgáltatás-kimaradás) és időpontja; c) a helyreállítás elvárt végrehajtási ideje; d) a helyreállítás valós végrehajtási ideje; e) a tesztelés eredményével kapcsolatos megállapítások. 2. Felügyeleti és ellenőrzési feladatok 2.1. Biztonsági események kezelése Biztonsági események adatai: a) biztonsági esemény tárgya, típusa, észlelés időpontja, az esemény időpontja; b) jelentés időpontja az eseménykezelő központ felé; c) az esemény leírása; d) hatóköre; e) azonnali és átfogó válaszlépések. 2.2. Az információbiztonságot tudatosító képzések A szervezet által dokumentált információbiztonsági képzési tevékenységek adatai (például formája, megnevezése, témája): a) új belépők információbiztonság-tudatossági képzése; b) általános információbiztonság-tudatossági képzések; c) speciális szerepkör alapú információbiztonsági képzések. 2.3. Szerződések információbiztonsági megfelelősége Ha a szervezet az adatkezelési vagy az adatfeldolgozási tevékenységhez közreműködőt vesz igénybe, gondoskodnia kell arról, hogy a Kiberbiztonsági törvényben foglaltak szerződéses kötelemként teljesüljenek: 2.4. Biztonságikockázat-elemzések A kockázatelemzés a) tárgya; b) időpontja; c) a vizsgálat eredménye; d) a végrehajtott javítás és annak visszamérésének eredménye. 2.5. Ellenőrzések, auditok adatai (pl. vírusvédelem; alaprendszerek patchelése; operációs rendszerek, virtualizáció, cluster, mentések; a mentések helyreállíthatósága; tűzfalszabályok; naplófájlok stb.): a) az ellenőrzés/audit tárgya; b) az ellenőrzés/audit időpontja; c) az ellenőrzést/auditot végző szerepköre (ellenőr: az információbiztonságért felelős személy; auditor: az informatikai üzemeltetésért felelős vezető); d) ellenőrzés/audit hatóköre; e) ellenőrzés/audit eredménye. 2.6. Sérülékenységvizsgálatok adatai A sérülékenységvizsgálat a) által érintett EIR; b) időpontja; c) típusa (white, grey, black box); d) eredménye. 2.7. Információbiztonsággal összefüggő további adatszolgáltatás A jelentés kötelező tartalmi elemein túl a szervezet ebben a részben tüntethet fel minden, az információbiztonsággal kapcsolatos észrevételt, javaslatot, eseményt, amiket fontosnak ítél jelenteni. 1 Az 1. pont b) alpontja a 17/2025. (VI. 30.) ORFK utasítás 79. pontja szerint módosított szöveg. 2 A 210. pont a 2010. évi CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "Az utasítás alkalmazásában 3.1. adatátvitel",
+      "definition": "az adatok EIR-ek, rendszerelemek közötti továbbítása",
+      "source_provision": "s3"
+    },
+    {
+      "term": "2. adathordozó",
+      "definition": "az EIR-hez csatlakoztatható vagy abba beépített olyan eszköz, amelynek segítségével az elektronikus adatok tárolása megvalósítható, valamint a digitális adatok tárolására és feldolgozására alkalmas mobil eszköz",
+      "source_provision": "s3"
+    },
+    {
+      "term": "3. adminisztrátori dokumentáció",
+      "definition": "az EIR és annak környezetét alkotó rendszerelem biztonságos konfigurálását, telepítését és üzemeltetését, a biztonsági funkciók hatékony alkalmazását és fenntartását, a konfigurációval és az adminisztratív funkciók használatával kapcsolatos ismert sérülékenységeket tartalmazó dokumentáció",
+      "source_provision": "s3"
+    },
+    {
+      "term": "4. alkalmazás",
+      "definition": "egy célfeladatot megvalósító szoftver",
+      "source_provision": "s3"
+    },
+    {
+      "term": "5. EIR üzemeltető",
+      "definition": "az a szervezeti egység vagy elem, amely biztosítja az EIR üzemszerű működését",
+      "source_provision": "s3"
+    },
+    {
+      "term": "6. felelős szakterület",
+      "definition": "az a szervezeti egység vagy elem, amely az EIR által kezelt adatok adatkezeléséért felelős, valamint az EIR környezetét alkotó rendszerelem esetén annak üzemeltetője",
+      "source_provision": "s3"
+    },
+    {
+      "term": "7. felhasználó",
+      "definition": "az a személy, aki egy EIR vagy annak környezetét alkotó rendszerelem használója",
+      "source_provision": "s3"
+    },
+    {
+      "term": "8. hardver",
+      "definition": "informatikai eszközök kézzel megfogható részeinek gyűjtőneve",
+      "source_provision": "s3"
+    },
+    {
+      "term": "9. hálózat",
+      "definition": "az informatikai eszközök közötti adatátvitelt megvalósító logikai és fizikai eszközök összessége",
+      "source_provision": "s3"
+    },
+    {
+      "term": "10. hálózati aktív eszközök",
+      "definition": "a hálózat működését biztosító elektronikus elemek (különösen a tűzfal, a router, a switch, a hub, az optikai átkapcsoló)",
+      "source_provision": "s3"
+    },
+    {
+      "term": "11. hálózati passzív eszközök",
+      "definition": "a hálózati aktív eszközök kapcsolatát és kommunikációját biztosító elemek (különösen a kábelezés, a kábelcsatornák, a fali csatlakozók és a rendezőszekrények)",
+      "source_provision": "s3"
+    },
+    {
+      "term": "12. hozzáférés",
+      "definition": "az EIR-ben vagy annak környezetét alkotó rendszerelemben tárolt adatok, információk elérésének lehetősége a felhasználó vagy egy másik EIR és annak környezetét alkotó rendszerelem által",
+      "source_provision": "s3"
+    },
+    {
+      "term": "13. informatikai biztonság",
+      "definition": "az EIR olyan állapota, amelyben a kezelt adatok bizalmassága, sértetlensége és rendelkezésre állása biztosított, valamint a rendszerelemek biztonsága zárt, teljes körű, folytonos és a kockázatokkal arányos",
+      "source_provision": "s3"
+    },
+    {
+      "term": "14. informatikai erőforrásokat koncentráltan tartalmazó helyiségek",
+      "definition": "olyan, speciálisan kialakított, védett területek, ahol az EIR környezetét alkotó rendszerelem kritikus részei, különösen a szerverek, a hálózati eszközök, az adattárolók és egyéb számítástechnikai berendezések találhatók",
+      "source_provision": "s3"
+    },
+    {
+      "term": "15. informatikai eszköz",
+      "definition": "minden olyan digitális eszköz és ennek funkcionális tartozéka, amely adatok összegyűjtésére, feldolgozására (különösen rendezésére, csoportosítására, kiszámítására), előállítására, tárolására és megjelenítésére, illetve az e tevékenységekkel kapcsolatos adatmódosításra és adattovábbításra alkalmas (így különösen a hardver, a szoftver, a hálózati eszközök és a perifériák)",
+      "source_provision": "s3"
+    },
+    {
+      "term": "16. informatikai rendszerüzemeltető",
+      "definition": "az a szervezeti egység vagy elem, amely biztosítja az EIR környezetét alkotó rendszerelemek üzemszerű működését",
+      "source_provision": "s3"
+    },
+    {
+      "term": "17. információbiztonság",
+      "definition": "olyan előírások, szabályok és szabványok betartásának eredménye, amelyek az EIR-ben kezelt adatok és információk bizalmasságának, sértetlenségének és rendelkezésre állásának, valamint az EIR és elemei sértetlenségének és rendelkezésre állásának zárt, teljes körű, folytonos és a kockázatokkal arányos védelmének biztosítását érintik",
+      "source_provision": "s3"
+    },
+    {
+      "term": "18. információbiztonságért felelős személy",
+      "definition": "az EIR biztonságáért felelős személy",
+      "source_provision": "s3"
+    },
+    {
+      "term": "19. információbiztonság-tudatosság",
+      "definition": "olyan gondolkodás és magatartásforma, amely biztosítja, hogy a szervezet alkalmazottai elismerik, elfogadják és alkalmazzák a szervezetük információbiztonsági adminisztratív, logikai és fizikai védelmi intézkedéseit",
+      "source_provision": "s3"
+    },
+    {
+      "term": "20. integritás",
+      "definition": "a sérthetetlenségen túl a teljességet, továbbá az ellentmondás-mentességet jelenti, amelynek eredményeként az információ valamennyi része konzisztensen rendelkezésre áll, elérhető",
+      "source_provision": "s3"
+    },
+    {
+      "term": "21. intézkedés",
+      "definition": "adminisztratív, műszaki, irányítási vagy jogi természetű kockázatkezelési eszköz, beleértve a szabályzatokat, az eljárásokat, az irányelveket, a gyakorlatokat és a képzést",
+      "source_provision": "s3"
+    },
+    {
+      "term": "22. intézkedési terv",
+      "definition": "az EIR biztonsági osztályának megfelelő követelmények teljesítéséhez szükséges korrekciós intézkedések, valamint az információbiztonság és az ellátási lánc kockázatkezelése alapján fennmaradó kockázatok kezelésének terve",
+      "source_provision": "s3"
+    },
+    {
+      "term": "23. javítás",
+      "definition": "előre nem tervezett hibaelhárítási feladat, amely indokolt esetben az EIR és annak környezetét alkotó rendszerelem konfigurációjának változásával jár",
+      "source_provision": "s3"
+    },
+    {
+      "term": "25. karbantartás",
+      "definition": "tervezetten végzett munka, amely indokolt esetben az EIR és annak környezetét alkotó rendszerelem konfigurációjának változásával jár, karbantartásnak minősül különösen a biztonsági réseket befoltozó hibajavítások telepítése",
+      "source_provision": "s3"
+    },
+    {
+      "term": "26. kártékony kód",
+      "definition": "rosszindulatú számítógépes programok összefoglaló neve, különösen a vírus, a féreg, a kémprogram, a zsarolóprogram és az informatikai rendszerben láthatatlanul megbúvó, egy támadónak hozzáférést és jogosultságot biztosító eszköz",
+      "source_provision": "s3"
+    },
+    {
+      "term": "27. kibertér",
+      "definition": "a számítógépes hálózatok és az általuk összekötött számítógépek és egyéb berendezések által alkotott virtuális tér, az a környezet, amelyben az adat technikai eszközökön (számítógépes hálózatokon) keresztül áramlik, elektronikus adatok tárolódnak, online adatforgalom és kommunikáció zajlik",
+      "source_provision": "s3"
+    },
+    {
+      "term": "28. korrektív kontroll",
+      "definition": "az eredeti állapot visszaállítását célzó intézkedés",
+      "source_provision": "s3"
+    },
+    {
+      "term": "29. maximális időablak",
+      "definition": "az üzletmenet során igénybe vett informatikai szolgáltatások kimaradásának jogszabály vagy kockázatelemzés alapján az 1. pont a) és b) alpontjában meghatározott szerv vezetője által meghatározott leghosszabb időtartama",
+      "source_provision": "s3"
+    },
+    {
+      "term": "30. menedzselés",
+      "definition": "az informatikai rendszerek és folyamatok olyan irányítása és felügyelete, amely biztosítja a biztonsági célok elérését, a kockázatok folyamatos felmérését, a szükséges ellenőrzéseket és beavatkozásokat, valamint a rendszeres frissítést és fejlesztést a fenyegetések hatékony kezelése érdekében",
+      "source_provision": "s3"
+    },
+    {
+      "term": "31. privilegizált felhasználó",
+      "definition": "az a felhasználó, aki az EIR és annak környezetét alkotó rendszerelem, rendszer, hálózat üzemeltetési vagy fejlesztési feladatainak végrehajtásához emelt szintű jogosultsággal rendelkezik",
+      "source_provision": "s3"
+    },
+    {
+      "term": "32. szerver",
+      "definition": "olyan számítógép vagy szoftver, amely más számítógépek számára a rajta tárolt vagy előállított adatok felhasználását, a szerver hardver-erőforrásainak (különösen a nyomtató, a háttértárolók és a processzor) kihasználását, illetve más szolgáltatások elérését teszi lehetővé",
+      "source_provision": "s3"
+    },
+    {
+      "term": "33. szoftver",
+      "definition": "elektronikus adatfeldolgozó berendezés (különösen a számítógép) memóriájában elhelyezkedő, azt működtető program",
+      "source_provision": "s3"
+    },
+    {
+      "term": "34. távoli hozzáférés",
+      "definition": "a kormányzati megbízható hálózaton kívüli hálózaton (különösen internet) keresztül kommunikáló felhasználó vagy EIR által a rendőri szerv EIR-jéhez való hozzáférés",
+      "source_provision": "s3"
+    },
+    {
+      "term": "35. vagyonelem",
+      "definition": "olyan eszköz, adat, információ vagy erőforrás, amely a szervezet számára védendő értéket képvisel.",
+      "source_provision": "s3"
+    }
+  ]
+}

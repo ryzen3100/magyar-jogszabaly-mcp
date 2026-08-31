@@ -1,0 +1,209 @@
+{
+  "id": "hu-law-2017-6-b0-77",
+  "type": "statute",
+  "title": "6/2017. (VI. 22.) GVH utasítás az informatikai rendszerhasználati és biztonsági szabályzat módosításáról",
+  "status": "repealed",
+  "in_force_date": "2017-07-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2017-6-B0-77",
+  "description": "az informatikai rendszerhasználati és biztonsági szabályzat módosításáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § A Gazdasági Versenyhivatal informatikai rendszerhasználati és biztonsági szabályzatáról szóló 11/2015. (V. 12.) GVH [11/2015. (V. 22.) GVH] utasítás (a továbbiakban: Irbsz.) 1. § (1) bekezdése helyébe a következő rendelkezés lép: „(1) A Gazdasági Versenyhivatal (a továbbiakban: Hivatal) informatikai rendszerhasználati és biztonsági szabályzatának (a továbbiakban: szabályzat) célja az állami és önkormányzati szervek elektronikus információbiztonságáról szóló 2013. évi L. törvényben (a továbbiakban: Ibtv.) és az állami és önkormányzati szervek elektronikus információbiztonságáról szóló 2013. évi L. törvényben meghatározott technológiai biztonsági, valamint biztonságos információs eszközökre, termékekre vonatkozó, továbbá a biztonsági osztályba és biztonsági szintbe sorolásra vonatkozó követelményekről szóló 41/2015. (VII. 15.) BM rendeletben [a továbbiakban: 41/2015. (VII. 15.) BM rendelet] meghatározott követelmények Hivatalon belüli alkalmazásával kapcsolatos részletszabályok megállapítása, a Hivatal elektronikus információs rendszerei védelmének felelőseire, feladataira és az ehhez szükséges hatáskörökre, felhasználókra vonatkozó szabályok meghatározása.”"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § Az Irbsz. 6. §-a helyébe a következő rendelkezés lép: „6. § A Hivatal által üzemeltetett elektronikus információs rendszerek biztonsági osztálya a 41/2015. (VII. 15.) BM rendeletben meghatározott szempontok szerint a következő: a) egy elektronikus információs rendszer tekintetében 2-es, b) öt elektronikus információs rendszer tekintetében 3-as, c) egy elektronikus információs rendszer tekintetében 4-es.”"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § Az Irbsz. 7. § (1) és (2) bekezdése helyébe a következő rendelkezések lépnek: „(1) A 41/2015. (VII. 15.) BM rendelet alapján a Hivatal elvárt biztonsági szintje 4-es. (2) A 41/2015. (VII. 15.) BM rendelet alapján a Hivatal biztonsági szintje a szabályzat hatálybalépésekor 2-es.”"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § Az Irbsz. 8. §-a helyébe a következő rendelkezés lép és az Irbsz. ezt követően a következő 8/A. §-sal egészül ki: „8. § (1) A FEI információs rendszer kivételével az informatikai rendszerüzemeltetéssel és az informatikai biztonsággal kapcsolatos feladatokat, így különösen a) az elektronikus információs rendszer biztonságáért felelős személy (a továbbiakban: elektronikus információbiztonsági felelős) által az Ibtv. alapján ellátandó feladatokat, b) a hálózati rendszergazdai feladatokat, c) a helpdesk feladatokat a Hivatal szervezeti és működési szabályzatában foglaltak szerint az III látja el. (2) A hálózati rendszergazdai feladatok az alábbiakra terjednek ki: a) a rendszerelemek üzemeltetése, azok működőképességének, munkavégzés céljára való üzemszerű rendelkezésre állásának biztosítása és fenntartása, b) a biztonsági mentések, vírusellenőrzések megtervezése és végrehajtása, c) a kormányzati eseménykezelő központ vagy a felhasználók által jelzett biztonsági események vizsgálata, a figyelmeztetések vagy riasztások alapján a szükséges intézkedések megtétele, d) változásmenedzsment nyilvántartások vezetése a szerveres konfigurációk, beállítások, lényeges információk, tudnivalók tekintetében, e) a Nemzeti Távközlési Gerinchálózat adat- és hangforgalmi infrastruktúrájának hivatali oldali működtetése, f) a hivatali internetkapcsolat biztonságos fenntartását biztosító tűzfal üzemeltetése. (3) A helpdesk feladatok az alábbiakra terjednek ki: a) a felhasználóktól érkező, elektronikus információs rendszereket vagy rendszerelemeket érintő hibajelzések, technikai problémák fogadása, kivizsgálása, megoldása, szükség esetén átirányítása, b) a hálózat, továbbá a hálózati és helyi nyomtatók felügyelete, a hálózati hibák felderítése és elhárítása."
+    },
+    {
+      "provision_ref": "s8a",
+      "section": "8/A",
+      "title": "8/A. §",
+      "content": "8/A. § (1) A 8. § (2) bekezdés a) pontja szerinti feladat keretében az III rendszergazdai feladatok ellátásával megbízott egy vagy több munkatársa (a továbbiakban: rendszergazda) végzi az információs rendszerekhez kapcsolódó következő rendszer-karbantartási feladatokat: a) a hálózat szervereinek üzemeltetésével, rendszeres biztonsági frissítésével kapcsolatos feladatok ütemezése és végrehajtása a gyártó általi frissítések közzététele után haladéktalanul, havi rendszerességgel, b) a hálózat szerverei naplózási adatainak nyomon követése, értékelése, a konfigurációs állományok karbantartása, illetve azok proaktív jellegű felügyelete, c) a hálózat szervereinek, munkaállomásainak szoftveres felügyelete, a szoftveres karbantartások hálózatmenedzsment eszközzel történő végrehajtása, koordinálása, d) a hálózati jogosultságok beállítása, karbantartása, nyilvántartása, e) a munkaállomások üzemeltetése során felmerülő gépbeállítási, szoftver- és hardvertelepítési, eszköz karbantartási feladatok, valamint f) a karbantartási feladatok végrehajtásának dokumentálása. (2) Karbantartás vagy javítás céljából külső személy a rendszerelemekhez úgy férhet hozzá, hogy ezáltal az eszközön vagy az elektronikus információs rendszerben tárolt adatokat az elengedhetetlenül szükséges mértéken túl ne ismerhesse meg. Ennek érdekében – ha nem rendszeres, ütemezett karbantartás céljából kerül az eszköz vagy információs rendszer külső személyhez – mentés után minden adatot és információt törölni kell az eszközről. (3) Külső személy által végzett karbantartási tevékenységre, függetlenül attól, hogy az a helyszínen vagy távolról történik, – az elektronikus információbiztonsági felelőssel egyeztetett – rendszergazdai jóváhagyást követően kerülhet sor. (4) Az elektronikus információs rendszer vagy rendszerelemek kiszállítására a Hivatal székhelyéről külső személy számára csak kiviteli engedély birtokában kerülhet sor; az engedélyt az elektronikus információbiztonsági felelős adja ki. (5) A külső személy által végzett javítás, karbantartás után rendszergazda ellenőrzi, hogy az eszközök a karbantartási vagy javítási tevékenységek után is megfelelően működnek-e, és biztonsági ellenőrzésnek veti alá azokat. (6) Az infrastruktúra fizikai és környezeti védelmével kapcsolatban szükségessé váló karbantartási, javítási feladatok ellátását úgy kell megszervezni, hogy e védelem folyamatos legyen.”"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § Az Irbsz. 10. § (1) bekezdése helyébe a következő rendelkezés lép: „(1) A Hivatal épületében történő munkakezdéskor a felhasználó köteles bekapcsolni a munkavégzésre számára biztosított munkaállomást, bejelentkezni a hálózati jelszavával, és elindítani az elektronikus levelezési rendszert.”"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § Az Irbsz. a következő 9a. alcímmel egészül ki: „9a. Konfigurációkezelés"
+    },
+    {
+      "provision_ref": "s18a",
+      "section": "18/A",
+      "title": "18/A. §",
+      "content": "18/A. § (1) Az III biztosítja a Hivatal információs rendszerei biztonsági osztályának megfelelő megbízható működését, ennek keretében a rendszer összetevőinek szabályozott körülmények közötti telepítését, konfigurálását és nyilvántartását. (2) Az információs rendszerekhez az újraépíthetőség biztosítására alapkonfigurációs dokumentumot kell készíteni, amely a következőket tartalmazza: a) a hardverelemek listáját (laptopok, szerverek, mobil eszközök, hálózati eszközök stb.), b) a szoftverek listáját a szoftver aktuális verziószámával, biztonsági frissítési információival és konfigurációs beállításaival, paramétereivel, c) a telepítőkészletek listáját és elérhetőségi helyét, d) az egyes szoftverkomponensek alapkonfigurációs beállításait és e) a rendszerkomponensek logikai elhelyezkedését leképező hálózati topológia rajzot. (3) A (2) bekezdés szerinti alapkonfigurációs dokumentumot a rendszergazda készíti el, szükség esetén, de legalább félévente felülvizsgálja, és szükség szerint módosítja. (4) Az alapkonfigurációs dokumentum biztonságos megőrzését biztosítani kell. Az alapkonfigurációval nem érintett elektronikus információs rendszerelemekről a rendszergazda nyilvántartást vezet, amely tartalmazza az információs rendszer naprakész hardver- és szoftver-konfigurációját, elhelyezkedését, a működő alkalmazások listáját, és az értük felelős személy nevét.”"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § Az Irbsz. 19. §-a helyébe a következő rendelkezés lép: „19. § (1) A felhasználó kizárólag a Hivatal által biztosított, titkosított USB adathordozót használhat. Más eszköz használata tilos, ezt a központi rendszerbeállítások útján biztosítani kell. (2) Az adathordozót az III bocsátja munkavégzés céljából a felhasználó rendelkezésére; azzal közszolgálati jogviszonyának megszűnése esetén a felhasználó köteles elszámolni. (3) Az adathordozókról az III nyilvántartást vezet. (4) Tilos az adathordozó engedély nélküli átruházása, jogosulatlan személynek való átadása vagy az azon tárolt adatok jogosulatlan személy számára történő hozzáférhetővé tétele. (5) Az adathordozó tartalmát az adathordozó ismételt felhasználásra való rendelkezésre bocsátása előtt, valamint használatból való kivonását követően az III az adatok megsemmisítését eredményező eljárással törli.”"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § Az Irbsz. 23. §-a a következő (3a) bekezdéssel egészül ki: „(3a) A telepítőkészleteket, illetve aktiválási kódokat megfelelően védeni kell az illetéktelen hozzáféréstől, felhasználástól.”"
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § Az Irbsz. 27. §-a helyébe a következő rendelkezés lép: „27. § Az integrált ügyirat-kezelési és ügyadat-nyilvántartási rendszer eléréséhez további autentikáció szükséges. Az ügyirat-kezelési és ügyadat-nyilvántartási rendszerben a jogosultságok a szervezeti fának, illetve a munkatársak feladatkörének megfelelően illetik meg a felhasználókat, az iratkezelési szabályzat rendelkezéseit is alkalmazva.”"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § Az Irbsz. 28. § (2) bekezdés c) és d) pontja helyébe a következő rendelkezések lépnek, és a bekezdés a következő e) ponttal egészül ki: (Egyedi használatú alkalmazások különösen:) „c) a Hivatal honlapszerkesztőségi rendszere, d) a SharePoint csoportmunka rendszer, valamint e) a versenytanácsi szignálási és ügyteher-mérési rendszer.”"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § Az Irbsz. V. Fejezete a következő 16a. és 16b. alcímmel egészül ki: „16a. Informatikai határvédelem"
+    },
+    {
+      "provision_ref": "s34a",
+      "section": "34/A",
+      "title": "34/A. §",
+      "content": "34/A. § (1) A belső és a külső hálózati szolgáltatásokhoz történő hozzáférést a következő módon kell biztosítani: a) megfelelő interfészt kell alkalmazni, a Hivatal információs rendszere és más hálózat közötti kommunikáció során, b) a felhasználókat jelszóval hitelesíteni kell, c) ellenőrizni kell a felhasználók szolgáltatáshoz való hozzáférését. (2) A Hivatal belső hálózatáról internetkapcsolat kizárólag tűzfalon keresztül létesíthető. (3) Biztosítani kell, hogy a Hivatal elektronikus információs rendszerei alapértelmezés szerint ne legyenek elérhetők az internet felől. Ha az internet felőli hozzáférés szükséges, arra kizárólag biztonságos és ellenőrzött kapcsolaton keresztül kerülhet sor. (4) Az internet és a Hivatal információs rendszere közötti hálózati forgalom szűrésére, a lehetőségek korlátozására tűzfalakat, tartalomszűrőket, illetve meghatározott címekkel a kapcsolat tiltását biztosító megoldásokat kell üzemeltetni, és azok naplózását biztosítani kell. 16b. Kriptográfiai védelem"
+    },
+    {
+      "provision_ref": "s34b",
+      "section": "34/B",
+      "title": "34/B. §",
+      "content": "34/B. § (1) Az elektronikus információs rendszerekben az adatok sértetlenségének és bizalmasságának védelmére szabványos, az elektronikus ügyintézés és a bizalmi szolgáltatások általános szabályairól szóló 2015. évi CCXXII. törvény rendelkezései szerint biztonságosnak minősített kriptográfiai algoritmust kell alkalmazni. (2) Kriptográfiai eszköz bevezetése esetén ki kell dolgozni az eszköz biztonságos használatát garantáló szabályozást, amelynek a következőket kell tartalmaznia: a) az eszköz védelmét biztosító előírások, b) az eszköz felhasználására vonatkozó követelmények, c) a kulcsok generálására, elosztására, tárolására és megsemmisítésére vonatkozó szabályok, valamint d) a rejtjelezett adatok visszaállításának szabályai és eljárásai a kulcs megsérülése vagy elvesztése esetére.”"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. § Az Irbsz. 35. §-a helyébe a következő rendelkezés lép: „35. § A Hivatal kommunikációs alkalmazásai a következők: a) levelezőrendszer, b) web alapú alkalmazások, beleértve az IP telefonszolgáltatást is, c) a Hivatal portálrendszere.”"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. § Az Irbsz. 43. § (6) bekezdése helyébe a következő rendelkezés lép: „(6) Ha a munkavégzés szempontjából indokolt, a felhasználó az III vezetőjének címzett, másolatban egyidejűleg a szervezeti egysége vezetőjének és a főtitkárnak is megküldött e-mailben kérheti, hogy az III egyedi hozzáférést biztosítson számára a megjelölt letiltott oldalhoz, meghatározott célból és ideig.”"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14. §",
+      "content": "14. § Az Irbsz. 50. § (1) bekezdése helyébe a következő rendelkezés lép: „(1) Az III a felhasználók számára – ideértve a vendégfelhasználókat és a külső személyeket is – kötelező információbiztonsági és biztonságtudatossági oktatást szervez.”"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15. §",
+      "content": "15. § Az Irbsz. 25. alcíme helyébe a következő alcím lép: „25. A kockázatelemzés, kockázatkezelés általános szabályai"
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63. §",
+      "content": "63. § (1) A Hivatal elektronikus információs rendszereinek a jelen szabályzatban foglalt módszertannak megfelelő információbiztonsági kockázatelemzését a lehetséges kockázatok felmérése érdekében a biztonsági osztályba sorolás Ibtv. 8. § (1) bekezdése szerinti felülvizsgálatához kapcsolódóan minden alkalommal el kell végezni. A kockázatelemzés eredményét az elnök hagyja jóvá. (2) A kockázatelemzés eredménye alapján nem elfogadható kockázatokra kockázatkezelési intézkedési tervet kell készíteni, amely tartalmazza a kockázatok kezelésének eszközeit, felelőseit, határidejét és szükség szerint költségét. A kockázatkezelési intézkedési tervet az elnök jóváhagyását követően az abban foglalt ütemezés szerint, dokumentált módon kell végrehajtani. (3) A kockázatkezelési intézkedési tervet – figyelemmel különösen a jogszabályi változásokra, továbbá a Hivatal elektronikus információs rendszereiben vagy azok környezeti tényezőiben történt változásokra – szükség esetén, de legalább háromévente felül kell vizsgálni, ennek során megvizsgálva a) a lehetséges fenyegetéseket és kockázatokat, azok kockázati besorolását, b) a feladatkörök és felelősségi körök meghatározását, c) az intézkedési tervben foglaltak megvalósulását, valamint d) az intézkedési terv módosításának szükségességét. (4) A kockázatelemzést ismételten el kell végezni, ha a rendszerben vagy annak működési környezetében biztonsági hiányosság kerül azonosításra, továbbá a rendszer biztonsági állapotát befolyásoló körülmény felmerülése esetén. (5) A kockázatelemzés eredményét és a kockázatkezelési intézkedési tervet tartalmazó dokumentumok biztonságos megőrzését biztosítani kell; azokhoz kizárólag az III és a rendszer tartalmáért felelős szervezeti egység férhet hozzá.”"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16. §",
+      "content": "16. § Az Irbsz. a 63. §-át követően a következő 25a. alcímmel egészül ki: „25a. A kockázatelemzés módszertana"
+    },
+    {
+      "provision_ref": "s63a",
+      "section": "63/A",
+      "title": "63/A. §",
+      "content": "63/A. § (1) A kockázatelemzés keretében a következő területeket kell a dokumentációk bekérésével, illetve szakmai interjúk lefolytatásával megismerni: a) adminisztratív védelmi intézkedések: aa) a Hivatalra mint szervezetre vonatkozó jogszabályi rendelkezések, szabályzatok, ab) az elektronikus információs rendszerre vonatkozó szabályzatok, ac) a Hivatal szerződései, kapcsolattartása külső személyekkel, ad) alkalmazásfejlesztés, változáskezelés, ae) jogosultságigénylés, af) biztonsági események kezelése, ag) üzemeltetési eljárások, ah) szervizelés, eszközcsere, selejtezés; b) logikai védelmi intézkedések: ba) mentési megoldások, bb) kártékony kód elleni védekezés, bc) biztonsági frissítések telepítése, bd) a hálózat felépítése, be) biztonsági rendszerek, bf) kriptográfiai megoldások; c) fizikai biztonság: ca) a Hivatal épületébe történő beléptetés, cb) a számítógépterem kialakítása, cc) a Hivatal épületében történő közlekedés, cd) az irodák kialakítása, tiszta asztal, üres képernyő politika. (2) A kockázatelemzést a 41/2015. (VII. 15.) BM rendelet 4. mellékletében foglalt kontrollkatalógus alapján kell végrehajtani. (3) A kárérték-szintek 1–5 skálán – elhanyagolható (1), mérsékelt (2), közepes (3), súlyos (4), katasztrofális (5) – kerülnek elemzésre, ennek során elsődlegesen a kockázat által érintett információs rendszer biztonsági osztályát kell figyelembe venni. (4) A fenyegetés bekövetkezési valószínűségének felmérése során a következő táblázatot kell alkalmazni: (5) A kockázati szintet az alábbiak függvénye határozza meg: a) az a valószínűség, amely a sérülékenység fenyegetés általi kihasználhatóságát jelzi a vizsgált rendszer konkrét környezetében, és b) az a káros hatás, amelyet egy kihasználható sérülékenység okoz. (6) A kockázat szintje a fenyegetések hatásának és bekövetkezési valószínűségének együttes hatását figyelembe véve határozható meg. (7) A kockázati mátrixban való elhelyezkedésük alapján a fenyegetések három csoportba sorolhatók: a) E: elfogadható, alacsony kockázat (1–6) b) F: figyelmet igénylő, mérsékelt kockázat (egyedi döntéssel elfogadható) (8–12) és c) NE: nem elfogadható, magas kockázat (15–25). KOCKÁZAT SÚLYOSSÁGA VALÓSZÍNŰSÉG Elhanyagolható Kismértékű Közepes Nagymértékű Rendszeres HATÁS Elhanyagolható E-1 E-2 E-3 E-4 F-5 Mérsékelt E-2 E-4 E-6 F-8 F-10 Közepes E-3 E-6 F-9 F-12 NE-15 Súlyos E-4 F-8 F-12 NE-16 NE-20 Katasztrofális F-5 F-10 NE-15 NE-20 NE-25 (8) A kockázatkezelés eszközei: a) a fenyegetés bekövetkezési gyakoriságának vagy hatásának megfelelő intézkedésekkel történő csökkentése (kockázatcsökkentés), b) a kockázat tudatos, a következmények felmérése alapján történő elfogadása (kockázat-elfogadás), c) a kockázatnak az érintett tevékenység felfüggesztése útján való elkerülése (kockázat-elkerülés), és d) a kockázat – biztosítással, megfelelő beszállítói szerződésekkel stb. történő – áthárítása (kockázat-áthárítás). (9) A kockázatcsökkentő intézkedés lehet a) megelőző jellegű (preventív kontroll), b) korlátozó vagy javító (korrektív kontroll), c) észlelő és reagáló (detektív kontroll).”"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17. §",
+      "content": "17. § (1) Az Irbsz. VIII. Fejezete a 64. §-t megelőzően a következő 25b. alcímcímmel egészül ki: „25b. Rendszerbiztonsági tervezés” (2) Az Irbsz. 64. §-a helyébe a következő rendelkezés lép: „64. § (1) Új elektronikus információs rendszer bevezetésekor vagy meglevő rendszer továbbfejlesztésekor rendszerbiztonsági tervet kell készíteni, amely tartalmazza az elektronikus információs rendszer a) hatókörét, alapfeladatait (a biztosítandó szolgáltatásokat), kockázatot jelentő elemeit és alapfunkcióit, b) biztonsági osztályát, c) működési körülményeit és más elektronikus információs rendszerrel való kapcsolatait, valamint d) a követelményeknek megfelelő aktuális vagy tervezett védelmi intézkedéseket és intézkedésbővítéseket, a jogszabály szerinti biztonsági feladatokat. (2) Az elektronikus információs rendszer biztonsági követelményeit a rendszer minden dokumentációjában rögzíteni kell. (3) Az érintett rendszerre vonatkozó rendszerbiztonsági tervet meg kell ismertetni a Hivatal munkatársaival és a rendszerfejlesztőkkel. (4) A rendszerbiztonsági tervet legalább háromévente felül kell vizsgálni. Soron kívüli felülvizsgálat indokolt az elektronikus információs rendszerben vagy annak üzemeltetési környezetében történt változás, illetve a terv végrehajtása vagy a védelmi intézkedések értékelése során feltárt probléma esetén.”"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18. §",
+      "content": "18. § Az Irbsz. a 65. §-t megelőzően a következő 25c. alcímcímmel egészül ki: „25c. Felülvizsgálat”"
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19. §",
+      "content": "19. § Az Irbsz. a következő 29a. alcímmel egészül ki: „29a. Naplózás"
+    },
+    {
+      "provision_ref": "s72a",
+      "section": "72/A",
+      "title": "72/A. §",
+      "content": "72/A. § (1) Annak érdekében, hogy egy biztonsági incidens vagy nem várt esemény esetén utólag megállapítható legyen, hogy ki, mikor és milyen mértékben hajtott végre változtatást az elektronikus információs rendszerben, illetve milyen műveletet hajtott végre az érintett alkalmazásban, a változásokhoz és eseményekhez kapcsolódó műveleteket tárolni, naplózni kell. (2) A Hivatal elektronikus információs rendszereiben keletkező naplóállományok minden bejegyzését védeni kell a módosítástól, és biztosítani kell, hogy a napló tartalmához csak arra feljogosított személy férhessen hozzá. A naplóüzeneteknek tartalmazniuk kell a naplózott esemény bekövetkezésének dátumát és pontos idejét, az esemény követhetőségéhez, rekonstruálásához szükséges adatokat, és az esemény kiváltásában közreműködő felhasználó nevét. (3) Az (1) bekezdésben foglalt követelményt már az informatikai beszerzés, illetve rendszerfejlesztési tervezés során figyelembe kell venni. (4) A teszt- és fejlesztői rendszerekre az (1) bekezdésben foglalt követelményt csak abban az esetben kell alkalmazni, ha a konfigurációk módosítása a teszt-, illetve fejlesztői rendszeren kihatással van az éles üzemi környezetre, vagy éles adatok kezelése történik. (5) Annak érdekében, hogy a rendelkezésre álló erőforrások ésszerű felhasználásával, de a kockázatok alapján szükségesnek ítélt biztonsági szint megtartásával a naplóállományok biztonsági célú érdemi értékelése megvalósulhasson, a Hivatal a kockázatelemzés alapján meghatározott kritikus rendszerek esetében – a forrásrendszer naplózási képességének figyelembevételével – biztosítja az (6) bekezdésben részletezett események naplózását. (6) A naplózást az alábbi szoftverrétegekben kell elvégezni: a) az operációs rendszer szintjén: aa) az operációs rendszerbe történő sikeres be- és kijelentkezést vagy sikertelen bejelentkezési kísérletet, annak végrehajtóját és időpontját, ab) a jogosultsági rendszert érintő változtatást, jogosultsági csoport létrehozását és módosítását, felhasználó létrehozását, módosítását, csoporthoz rendelését, ac) az operációs rendszer által jelzett kritikus rendszerállapotot és hibát, ad) program sikeres vagy sikertelen telepítését, törlését, szolgáltatás indítását, leállítását, ae) az adott operációs rendszer vagy a rá telepített alkalmazás működését befolyásoló beállítások létrehozását, módosítását, törlését, af) a naplózó rendszer bármilyen beállítás-módosítását, a naplózás leállítását és indítását, ag) az operációs rendszer által kezelt kritikus adatokhoz történő hozzáférést, kritikus rendszerfájl létrehozását, módosítását vagy törlését; b) adatbázis-kezelő szintjén: ba) a közvetlen adatbázis-hozzáférést; a sikeres be- és kijelentkezést vagy sikertelen bejelentkezési kísérletet, annak végrehajtóját és időpontját, bb) az adatbázisban történt közvetlen változtatást, az adatszerkezet módosítását, az adatbázison belüli programmódosítást (tárolt eljárások, triggerek stb.), bc) az adatbázison belüli jogosultsági rendszert érintő változtatást, jogosultsági csoport létrehozását, módosítását, felhasználó létrehozását, módosítását, csoporthoz rendelését, bd) a naplózó rendszer bármilyen beállítás-módosítását, a naplózás leállítását és indítását; c) az alkalmazás szintjén: ca) az alkalmazásba történő sikeres be- és kijelentkezést vagy sikertelen bejelentkezési kísérletet, annak végrehajtóját és időpontját, cb) az alkalmazásmodulok indítását vagy az erre irányuló sikertelen kísérletet, annak végrehajtóját és időpontját, cc) az alkalmazáson belüli jogosultsági rendszert érintő változtatást, jogosultsági csoport létrehozását és módosítását, felhasználó létrehozását, módosítását, csoporthoz rendelését, cd) a naplózó rendszer bármilyen beállítás-módosítását, a naplózás leállítását és indítását, ce) az alkalmazói rendszer által jelzett rendszerhibát, riasztást (vírusriasztás, sikertelen mentés stb.), cf) minden ügymeneti eseményt, amelyet az adott alkalmazást használó szervezeti egység az adott rendszer esetében szükségesnek ítél, valamint cg) az adatbázis-kezelői szinten végrehajtott olyan nem közvetlen hozzáférést, amely az alkalmazáson keresztül módosítanak adatot; d) a hálózati biztonságot szavatoló és aktív eszközök (tűzfal, behatolás-detektáló rendszer, tartalomszűrő rendszer, router, switch stb.) szintjén: da) az eszköz konfigurációs rendszerébe történő sikeres be- és kijelentkezést vagy sikertelen bejelentkezési kísérletet, annak végrehajtóját és időpontját, db) a konfiguráció módosítását vagy az erre irányuló sikertelen kísérletet, valamint dc) a rendszer által jelzett rendszerhibát, riasztást. (7) A naplózáshoz elsődlegesen az adott réteg által biztosított eszközöket kell alkalmazni. (8) A hálózati aktivitás nyomonkövetését elsődlegesen az erre a célra szolgáló rendszerekben (IDS, IPS) kell megvalósítani, amelyek riasztásait javasolt a központi naplógyűjtő és elemző rendszer részére továbbítani. (9) Az elektronikus információbiztonsági felelős feladata a) a forrásrendszereken alkalmazandó auditszintek meghatározása az általános naplózási követelményekre figyelemmel és b) a riasztásokhoz kapcsolódó nyomvonal (audit trail) elemzése, szükséges vizsgálatok lefolytatása, valamint beavatkozások végrehajtása. (10) A rendszergazda feladata a) az információs rendszerek audit igényekhez, technológiai változásokhoz igazodó konfigurálása, naplóállományok keletkeztetése, a forrásrendszer kiesése esetén a megfelelő működés visszaállítása, b) a naplóállomány mentéséről, archiválásról való gondoskodás, valamint c) a rendszerek közötti időszinkron biztosítása. (11) A naplóállományok mentését a Hivatal mentési rendszerébe integrálva kell végezni, olyan módon, hogy a visszaállítás szükség esetén elfogadható időn belül lehetővé tegye az elemezhetőséget. (12) A mentéseket legalább egy évre visszamenően meg kell őrizni. (13) A naplózásra vonatkozó szabályokat az III a rendszer bármely jelentős változása vagy jogszabályváltozás esetén, de évente legalább egyszer felülvizsgálja.”"
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20. §",
+      "content": "20. § Az Irbsz. VIII. Fejezete a következő 30a. alcímmel egészül ki: „30a. Ügymenet-folytonosság"
+    },
+    {
+      "provision_ref": "s73a",
+      "section": "73/A",
+      "title": "73/A. §",
+      "content": "73/A. § (1) A Hivatal elektronikus információs rendszerei folyamatos működésének biztosítása érdekében, valamint katasztrófahelyzet bekövetkezése esetén az e §-ban foglaltak szerint kell eljárni. (2) A Hivatal elektronikus információs rendszereire vonatkozóan az elektronikus információbiztonsági felelős – a rendszergazda, az elektronikus információs rendszerek adatgazdái és az érintett rendszerek fejlesztőinek bevonásával – ügymenet-folytonossági tervet készít. (3) A folyamatos informatikai működés tervezésére vonatkozó tevékenységet össze kell hangolni a biztonsági események és vészhelyzeti-, illetve katasztrófahelyzetek kezelésével. (4) Az ügymenet-folytonossági tervezés során meg kell határozni a) a Hivatal által biztosítandó szolgáltatásokat és alapfunkciókat, valamint az ezekhez kapcsolódó és a Hivatal részéről elvárt vészhelyzeti követelményeket, b) az elektronikus információs rendszer kiesése esetére a helyreállítási feladatokat, a helyreállítási prioritásokat és azok mértékét, c) a vészhelyzeti szerepköröket, felelősségeket, valamint a kapcsolattartó személyeket. (5) Az ügymenet-folytonosságot úgy kell kialakítani, hogy az biztosítsa a Hivatal által előzetesen definiált alapszolgáltatások fenntartását, még az elektronikus információs rendszer összeomlása, kompromittálódása vagy hibája esetén is. (6) Ki kell dolgozni a teljes elektronikus információs rendszer helyreállításának tervét úgy, hogy az nem ronthatja le az eredetileg tervezett és megvalósított biztonsági védelmet."
+    },
+    {
+      "provision_ref": "s73b",
+      "section": "73/B",
+      "title": "73/B. §",
+      "content": "73/B. § (1) Az ügymenet-folytonossági tervet legalább háromévente felül kell vizsgálni. Soron kívüli felülvizsgálat indokolt a) az elektronikus információs rendszer vagy a működtetési környezet jelentős változása, vagy b) az ügymenet-folytonossági terv megvalósítása, végrehajtása vagy tesztelése során felmerülő probléma esetén. (2) Az ügymenet-folytonossági terv módosításáról dokumentált módon tájékoztatni kell a folyamatos informatikai működés szempontjából érintett elektronikus információs rendszerek adatgazdáit."
+    },
+    {
+      "provision_ref": "s73c",
+      "section": "73/C",
+      "title": "73/C. §",
+      "content": "73/C. § (1) Az ügymenet-folytonossági terv jóváhagyott példányának páncélszekrényben történő őrzéséről a rendszergazda gondoskodik. (2) Az ügymenet-folytonossági tervhez kizárólag az abban megjelölt személyek férhetnek hozzá.”"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21. §",
+      "content": "21. § Az Irbsz. 1. 3. § (1) bekezdése nyitó szövegrészében a „77/2013. (XII. 19.) NFM rendeletben” szövegrész helyébe a „41/2015. (VII. 15.) BM rendeletben” szöveg, 2. 3. § (2) bekezdés a) pontjában és 21. § (6) bekezdésében a „BlackBerry” szövegrész helyébe a „BlackBerry készülék” szöveg, 3. 11. § (3) bekezdésében az „informatikai rendszerrel” szövegrész helyébe az „információs rendszerrel” szöveg, 4. 12. § (3) bekezdésében az „informatikai rendszerére” szövegrész helyébe az „információs rendszerére” szöveg, 5. 13. § (1) bekezdésében a „feljegyzésben” szövegrész helyébe az „írásban” szöveg, 6. 23. § (1) bekezdésében az „informatikai rendszerében” szövegrész helyébe az „információs rendszerében” szöveg, az „a rendszergazda” szövegrész helyébe a „rendszergazda” szöveg, 7. 24. § (1) bekezdésében az „informatikai rendszerével” szövegrész helyébe az „információs rendszerével” szöveg, 8. 25. § (1) bekezdésében és 29. § (3) bekezdésében az „a rendszergazda” szövegrész helyébe a „rendszergazda” szöveg, 9. 31. § (2) bekezdésében a „BlackBerry-k” szövegrész helyébe a „BlackBerry készülékek” szöveg, 10. 43. § (5) bekezdésében az „III vezetője” szövegrész helyébe az „III” szöveg, 11. 46. § (1) bekezdésében a „hálózati szerveren” szövegrész helyébe a „belső hálózaton” szöveg, 12. 46. § (3) bekezdés b) pontjában a „notebook-ra, BlackBerry-re” szövegrész helyébe az „a notebookra, a BlackBerry készülékre” szöveg, 13. 48. § (1) bekezdésében az „a Govsys rendszerhez” szövegrész helyébe az „az ügyirat-kezelési és ügyadat-nyilvántartási rendszerhez” szöveg, 14. 50. § (3) bekezdésében az „informatikai rendszerének” szövegrész helyébe az „információs rendszerének” szöveg, 15. 51. § (3) bekezdésében az „a Hivatal vezetésének jóváhagyása mellett” szövegrész helyébe a „lehetőség szerint” szöveg, 16. 56. § (3) bekezdésében a „belépést” szövegrész helyébe a „bejelentkezést” szöveg, 17. 74. § (1) bekezdésében a „rendszergazdája” szövegrész helyébe a „rendszergazdai feladatok ellátásával megbízott munkatársa” szöveg lép."
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22. §",
+      "content": "22. § Hatályát veszti az Irbsz. 1. 13. § (3) bekezdése, 2. 16. § (2) bekezdése és 3. 40. § (2) bekezdésében a „vagy az III munkatársának” szövegrész."
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23. §",
+      "content": "23. § Ez az utasítás 2017. július 1-jén lép hatályba. 1 Az utasítás a 2010: CXXX. törvény 12. § (3) bekezdése alapján hatályát vesztette 2017. július 2. napjával."
+    }
+  ]
+}

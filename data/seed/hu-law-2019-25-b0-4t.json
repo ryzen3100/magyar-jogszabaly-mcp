@@ -1,0 +1,129 @@
+{
+  "id": "hu-law-2019-25-b0-4t",
+  "type": "statute",
+  "title": "25/2019. (XI. 14.) OBH utasítás a közhiteles nyilvántartások és adatbázisok használatáról",
+  "status": "in_force",
+  "in_force_date": "2020-01-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2019-25-B0-4T",
+  "description": "a közhiteles nyilvántartások és adatbázisok használatáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § [Az utasítás célja] Az utasítás (a továbbiakban: szabályzat) célja az elektronikus ügyintézés és a bizalmi szolgáltatások általános szabályairól szóló 2015. évi CCXXII. törvényben (a továbbiakban: E-ügyintézési törvény), valamint az elektronikus ügyintézés részletszabályairól szóló 451/2016. (XII. 19.) Korm. rendeletben (a továbbiakban: Rendelet) meghatározott, a bírósági ügyek elektronikus intézését támogató, a közhiteles nyilvántartások és adatbázisok (a továbbiakban: nyilvántartás) igénybevétele eljárási rendjének meghatározása."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § [Az utasítás hatálya] (1) A szabályzat személyi hatálya a bíróságok szervezetéről és igazgatásáról szóló 2011. évi CLXI. törvény (a továbbiakban: Bszi.) 16. §-ában meghatározott bíróságokra (a továbbiakban: bíróságok), valamint az Országos Bírósági Hivatalra (a továbbiakban: OBH) terjed ki. (2) A szabályzat tárgyi hatálya az E-ügyintézési tv. 74. § (3) bekezdés d) pontjában meghatározott Központi Kormányzati Szolgáltatás Busz (a továbbiakban: KKSzB) szolgáltatás segítségével biztosított információátadás bírósági igénybevételének rendjére, továbbá az információs önrendelkezési jogról és az információszabadságról szóló 2011. évi CXII. törvény (a továbbiakban: Info tv.), valamint a természetes személyeknek a személyes adatok kezelése tekintetében történő védelméről és az ilyen adatok szabad áramlásáról, valamint a 95/46/EK irányelv hatályon kívül helyezéséről szóló, 2016. április 27-i (EU) 2016/679 európai parlamenti és tanácsi rendelet (a továbbiakban: általános adatvédelmi rendelet) hatálya alá tartozó adatokra terjed ki."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § [Értelmező rendelkezések] A Szabályzat alkalmazásában 1. adatbiztonsági intézkedés: az Info tv. 25/I. §-ában, továbbá az általános adatvédelmi rendelet 32. cikkében meghatározott, a személyes adatok biztonságának biztosítása érdekében alkalmazott intézkedések; 2. adatvédelmi incidens: az adatbiztonságnak az Info tv. 3. § 26. pontjában, továbbá az általános adatvédelmi rendelet 4. cikk 12. pontjában meghatározott sérelme; 3. automatikus információátadás: az E-ügyintézési törvény 1. § 3. pontjában meghatározott információátadás; 4. bíróság elnöke: a Bszi. 16. § a)–c) pontjában meghatározott bíróság elnöke, valamint az OBH elnöke; 5. BIR-O: a bíróságok egységes iratkezelési szabályzatáról szóló 17/2014. (XII. 23.) OBH utasítás (a továbbiakban: Beisz.) 10. §-ában meghatározott informatikai alkalmazás; 6. CIIR: a Civil Integrált Információs Rendszer, amely a civil szervezetek bírósági nyilvántartásáról és az ezekkel összefüggő eljárási szabályokról szóló 2011. évi CLXXXI. törvény 3. §-ában meghatározott informatikai rendszer; 7. EIR: Elnöki Iratkezelő Rendszer, amely a Beisz. 10/A. §-ában meghatározott informatikai alkalmazás; 8. információátadás: az E-ügyintézési törvény 1. § 25. pontjában meghatározott információ átadás-átvétel; 9. információforrás: az E-ügyintézési törvény 1. § 27. pontjában meghatározott jogalany; 10. ITR: Ítélkezést Támogató Rendszer, amely a bírósági határozatok szerkesztését és anonimizálását, az elektronikus iratbetekintést, valamint a KKSzB lekérdezések indítását biztosító informatikai alkalmazás."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § [A KKSzB-hez hozzáférés biztosítása] (1) A bíróság az érintett szerv által az Info tv. szerint előírt kötelezettség alapján közzétett, vagy jogszabállyal rendszeresített nyilvántartásokban fellelhető adatokat – amelyek benyújtására a bírósági eljárással érintett személy nem kötelezhető – a KKSzB útján szerzi be (a továbbiakban: adatlekérdezés). A KKSzB-n elérhető nyilvántartások és adatbázisok tekintetében az adatlekérdezésre a KKSzB-t kell használni. (2) A bíróságon a KKSzB-hez hozzáférésre egyedi azonosítóval rendelkező, erre felhatalmazott személy (a továbbiakban: adatlekérdező) jogosult. (3) Az adatlekérdező számára a hozzáférési jogosultságot a bíróság elnöke az informatikai biztonsági szabályzatnak megfelelően engedélyezi, függeszti fel és vonja vissza. (4) Engedély annak a bírónak vagy igazságügyi alkalmazottnak adható, akinek az adatlekérdezés a beosztása vagy munkaköri leírása szerint a szolgálati jogviszonyból eredő kötelezettsége. (5) Az adatlekérdezési jogosultság beállítására jogosult informatikus (szervezeti adminisztrátor) nevét, beosztását, valamint az adatlekérdezők nevét, beosztását a bíróság elnöke naprakész módon tartja nyilván. A nyilvántartást a bíróság elnöke közvetlenül hozzáférhetővé teszi az OBH informatikáért felelős szervezeti egysége számára."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § [Az információátadásra szolgáló rendszer használatának módja] (1) A KKSzB adatlekérdezés az ITR felületre történő bejelentkezést követően a KKSzB funkció kiválasztásával, illetve az általános KKSzB felületről kezdeményezhető. (2) Az adatlekérdező a rendszerbe történő első belépéskor elektronikusan nyilatkozik a rendszerhasználatra vonatkozó tájékoztatás és figyelmeztetés megismeréséről, valamint a felhasználási feltételek elfogadásáról. (3) Az adatlekérdezéssel érintett nyilvántartás kiválasztását követően az adatlekérdező a lekérdezéshez használható űrlap kiválasztásával és kitöltésével kezdeményezi az adatlekérdezést. Az űrlap adattartalmát a KKSzB-n adatot szolgáltató információforrás határozza meg az egyes lekérdezésekhez tartozó sablonok kötelezően kitöltendő adatmezőinek megjelölésével. (4) Az adatlekérdezés elküldése után meg kell várni a válaszüzenetet az információforrástól, amely az adatlekérdező lajstromozásra vonatkozó jóváhagyását követően, a lekérdező üzenetet is magában foglaló képileg megjeleníthető formában, PDF-dokumentumban jelenik meg."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § [Az adatlekérdezések ügyvitele] (1) Az 5. § (4) bekezdésében meghatározott adatlekérdezés eredményét megjelenítő dokumentum a lajstromban a Beisz. 81. § (3) bekezdésének megfelelően önálló sorszámot kap. (2) A lajstromozást az ITR alkalmazásával az egyes adatlekérdezések esetében megadott ügyazonosító adatoknak megfelelően a BIR-O, a CIIR vagy az EIR automatikusan elvégzi. A Cgt., Cgtf., Kt. és Ktf. ügycsoportba tartozó ügyek tekintetében a lekérdezés 5. § (4) bekezdése szerinti PDF-dokumentumát az ITR felületről történő letöltést követően a cégbíróság iratkezelési rendszerébe kell feltölteni. (3) Az adatlekérdezés eredményeként tévesen lajstromozott dokumentum a Beisz. 69. § (7) bekezdésének megfelelően kezelendő akként, hogy a lajstromprogram iratra vonatkozó „Jegyzet” rovatában a „téves lekérdezés” jelzést kell feltüntetni. (4) A (3) bekezdésben foglaltakkal egyidejűleg intézkedni kell a szolgálati út betartásával a rendszergazda útján az irat Dokumentumtárban tárolt elektronikus példányának elérhetetlenné tétele iránt. A papíralapú példányra a Beisz. zárt adatkezelésre vonatkozó szabályai irányadóak."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § [Az adatlekérdezéssel kapcsolatos adatkezelési nyilvántartás] A KKSzB-n az adatlekérdezést biztosító informatikai rendszer az adatlekérdezés során naplózza a következő adatokat: a) az adatlekérdező egyedi azonosítója (felhasználónév); b) a lekérdezett nyilvántartás rendszerbeli azonosítója; c) az adatlekérdezés időpontja; d) az adatlekérdezés jogalapja; e) a lekérdezett adat típusa; f) az adatlekérdezéshez kapcsolódó bírósági ügy adatai, mint fa) a bíróság megnevezése, fb) az ügyszak, fc) az ügycsoport betűjele, fd) az ügy lajstromszáma, fe) az irat sorszáma, érkezési éve."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § [Az adatvédelmi intézkedések] (1) A bíróság által végzett adatlekérdezésekkel kapcsolatban a személyes adatok védelméhez való jog érvényesülését biztosítani kell az általános adatvédelmi rendelet és az Info tv. vonatkozó rendelkezéseinek megfelelően. (2) Az adatlekérdező a lekérdezés eredményeként kapott adatokat köteles ellenőrizni, hogy csak olyan személyes adat kerüljön felhasználásra, amely az adatkezelés céljának megvalósulásához elengedhetetlen, a cél elérésére alkalmas. (3) Az adatlekérdező a lekérdezés során tudomására jutott, az adott ügyben célhoz nem kötött adatot nem kezelhet, az ilyen adatot a 6. § (3) bekezdésében meghatározott módon kell elérhetetlenné tenni."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § [Az adatvédelmi incidens kezelése] Az adatlekérdező, illetve a bíróság elnöke adatvédelmi incidens bekövetkezése esetén az adatvédelmi tisztviselőről és adatvédelmi felelősről, valamint az adatvédelmi incidensek jelentéséről szóló OBH utasítás szabályai szerint jár el."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § [Hatályba léptető rendelkezés] Ez az utasítás 2020. január 1-jén lép hatályba."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § [Átmeneti rendelkezések] (1) A szabályzat rendelkezéseit – ha jogszabály eltérően nem rendelkezik – a hatálybalépésekor folyamatban lévő ügyekben is alkalmazni kell. (2) A bíróság elnöke a szabályzat hatálybalépését követő 60 napon belül köteles a szabályzat végrehajtásához szükséges intézkedéseket megtenni."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "§ [Értelmező rendelkezések] A Szabályzat alkalmazásában 1. adatbiztonsági intézkedés",
+      "definition": "az Info tv. 25/I. §-ában, továbbá az általános adatvédelmi rendelet 32. cikkében meghatározott, a személyes adatok biztonságának biztosítása érdekében alkalmazott intézkedések",
+      "source_provision": "s3"
+    },
+    {
+      "term": "adatvédelmi incidens",
+      "definition": "az adatbiztonságnak az Info tv. 3. § 26. pontjában, továbbá az általános adatvédelmi rendelet 4. cikk 12. pontjában meghatározott sérelme",
+      "source_provision": "s3"
+    },
+    {
+      "term": "automatikus információátadás",
+      "definition": "az E-ügyintézési törvény 1. § 3. pontjában meghatározott információátadás",
+      "source_provision": "s3"
+    },
+    {
+      "term": "bíróság elnöke",
+      "definition": "a Bszi. 16. § a)–c) pontjában meghatározott bíróság elnöke, valamint az OBH elnöke",
+      "source_provision": "s3"
+    },
+    {
+      "term": "BIR-O",
+      "definition": "a bíróságok egységes iratkezelési szabályzatáról szóló 17/2014. (XII. 23.) OBH utasítás (a továbbiakban: Beisz.) 10. §-ában meghatározott informatikai alkalmazás",
+      "source_provision": "s3"
+    },
+    {
+      "term": "CIIR",
+      "definition": "a Civil Integrált Információs Rendszer, amely a civil szervezetek bírósági nyilvántartásáról és az ezekkel összefüggő eljárási szabályokról szóló 2011. évi CLXXXI. törvény 3. §-ában meghatározott informatikai rendszer",
+      "source_provision": "s3"
+    },
+    {
+      "term": "EIR",
+      "definition": "Elnöki Iratkezelő Rendszer, amely a Beisz. 10/A. §-ában meghatározott informatikai alkalmazás",
+      "source_provision": "s3"
+    },
+    {
+      "term": "információátadás",
+      "definition": "az E-ügyintézési törvény 1. § 25. pontjában meghatározott információ átadás-átvétel",
+      "source_provision": "s3"
+    },
+    {
+      "term": "információforrás",
+      "definition": "az E-ügyintézési törvény 1. § 27. pontjában meghatározott jogalany",
+      "source_provision": "s3"
+    },
+    {
+      "term": "ITR",
+      "definition": "Ítélkezést Támogató Rendszer, amely a bírósági határozatok szerkesztését és anonimizálását, az elektronikus iratbetekintést, valamint a KKSzB lekérdezések indítását biztosító informatikai alkalmazás.",
+      "source_provision": "s3"
+    }
+  ]
+}

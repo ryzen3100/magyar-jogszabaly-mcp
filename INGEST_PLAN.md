@@ -1,6 +1,20 @@
 # Full-corpus ingestion plan — data/update track
 
-Status: **planned, not started.** Tackle as a dedicated effort — this is the
+Status: **in progress on branch `data/full-corpus-2026-08-30` (goal mode,
+started 2026-08-30).** Scope: the complete njt.hu register. Author-type census
+(live probe 2026-08-30, one search walk per dropdown code): **273 types,
+~82,400 docs** — határozatok ~36,800 (Korm. határozat ~14,050, KE ~11,900, ME
+~3,300, OGY ~2,850, AB ~2,200), rendeletek ~25,550 (Korm. rendelet ~10,400,
+MNB ~900, BM ~1,200, plus the ministerial long tail), utasítások ~12,800,
+törvény family ~4,600, közlemények/helyesbítések ~2,600. `DefaultAuthorTypes`
+now carries all 273 codes. Also fixed while starting this run: the ingest
+fetch path now stores pages stripped to the law-content region
+(`stripHTMLBody`, ~45% smaller cache), which surfaced and fixed a pre-existing
+parser bug inherited from the TS original — the last provision of 8,158/14,731
+docs (55%) swallowed page footer/scripts (the `njtConfig` JS block) into its
+content; re-parsing the stripped cache cleans those seeds.
+
+Original status: **planned, not started.** Tackle as a dedicated effort — this is the
 biggest job the repo does. Written 2026-08-29 after the coffee-shop question
 test: the current corpus answers only from parliamentary acts, so questions
 whose real answers live in government decrees (e.g. 210/2009. (IX. 29.) Korm.
@@ -166,9 +180,50 @@ offline shortcut.
 
 ## Known follow-ups that pair well with the new corpus
 
+- **FTS ranking on the full corpus (blocking for end-user quality, code fix)**:
+  post-merge MCP testing (2026-08-31, full 72k DB) shows natural-language
+  questions ("Milyen engedély kell egy kávézóhoz?", "hány nap szabadság…",
+  "partnerem nem fizet…") rank noise (KE/OGY határozatok, utasítások,
+  AB határozatok, old rendeletek) in the top 30 while the target acts
+  (210/2009, Mt. 2012, Ptk.) are absent; keyword-form queries rank correctly.
+  Pre-corpus the same questions ranked fine. Fix = query-layer weights:
+  doc-type boost (acts/törvények over utasítás/határozat), in-force boost,
+  title-match boost.
+- **Consolidation / currency gap (blocking for legal accuracy, data fix)**:
+  found via the kifőzde question. The current framework docs are missing
+  while their repealed predecessors are present and marked in_force:
+  - `73/2016. (XII. 2.) Korm. rendelet` (current exec rendelet for
+    commercial/hospitality activities — defines vendéglátási egység types
+    incl. kifőzde) → "Document not found"; only repealed 210/2009 present,
+    and `validate_citation` reports it `in_force`.
+  - "2016. évi XIV. törvény" resolves to the Mongolia visa-treaty
+    promulgation act, not the kereskedelmi törvény — the current act is not
+    retrievable by citation.
+  - Jöt. (2016. évi LXVIII.) stored text appears to be the base publication:
+    later-inserted provisions (e.g. kifőzde/házipálinka rules) don't FTS.
+  Root cause hypothesis: the ingest stores the njt.hu base-publication text
+  plus per-doc status metadata, without follow-up amendments or consolidated
+  currency status. Fix direction: ingest consolidated versions (njt
+  "hatályos szöveg") or merge amendment acts, and derive in_force status from
+  repeal data rather than publication metadata.
 - OR-tier ranking precision: per-document matched-term-count boosting
   (natural questions recall the right content but rank generic-token-heavy
   docs first — see the `ponytail:` ceiling note in `internal/fts`).
 - Btk part-prefixed citations: corpus stores Btk sections without the
   "6:" part prefix, so "6:272. §" validates as not-found; a prefix-drop
   fallback candidate in `statute.SectionRefCandidates` would cover it.
+- Definitions extraction for the new njt layout — narrower than it sounds.
+  Audit 2026-08-30 (seed-vs-Ansvar-DB comparison, all 4,314 overlap docs):
+  provision content is byte-identical to Ansvar's corpus (130,124 provisions,
+  0 diffs); the overlap corpus loses no definitions (5,099 vs 5,087). Of the
+  10,417 new-layout docs, 9,465 have 0 definitions but ~98.5% genuinely
+  contain none (amendment/promulgation decrees); only ~142 docs (~1.4%) have
+  definitions in the scraped HTML that go unextracted, and the text usually
+  survives inside provision content (e.g. `hu-law-2024-35-20-22` s157) — a
+  classification loss, not a text loss. Fix = add the definition-phrase
+  pattern ("alkalmazásában … minősül/érti") to the parser, not a rewrite.
+- Idea (uncommitted, just a thought): a `data/source/*.html` → `*.md` pass for
+  LLM/RAG use — extract the law-only `#jogszab` region (drops the ~45% Angular
+  boilerplate) and map the semantic classes (`szakasz-jel`, `fejezetCim`) to
+  headings; no server "print view" exists (it's client-side DOM cloning), so
+  offline extraction of the already-scraped HTML is the only path.

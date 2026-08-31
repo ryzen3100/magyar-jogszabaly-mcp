@@ -1,0 +1,71 @@
+{
+  "id": "hu-law-2015-12-20-6n",
+  "type": "statute",
+  "title": "12/2015. (III. 6.) MvM rendelet az Információs Hivatal elektronikus információs rendszereinek biztonsági felügyeletéről és ellenőrzéséről",
+  "status": "repealed",
+  "in_force_date": "2015-03-14",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2015-12-20-6N",
+  "description": "az Információs Hivatal elektronikus információs rendszereinek biztonsági felügyeletéről és ellenőrzéséről",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § Az Információs Hivatal (a továbbiakban: Hivatal) elektronikus információs rendszerei védelmének biztosításáért a Hivatal főigazgatója (a továbbiakban: főigazgató) felelős."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § (1) A Hivatal elektronikus információs rendszerei biztonságának jogszabályban meghatározott ágazati biztonsági felügyeletét a polgári hírszerzési tevékenység irányításáért felelős miniszter e rendeletben meghatározottak szerint a főigazgató útján látja el. (2) Az ágazati biztonsági felügyeleti tevékenységre az állami és önkormányzati szervek elektronikus információbiztonságáról szóló 2013. évi L. törvény (a továbbiakban: Ibtv.) 14–18. §-a helyett a 3–9. § szerinti rendelkezéseket kell alkalmazni."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) Az ágazati biztonsági felügyeleti feladatokat az e rendeletben meghatározottak szerint a Hivatalnak a minősített adat védelméről szóló törvényben meghatározott biztonsági vezetője (a továbbiakban: biztonsági vezető) és a biztonsági vezető irányításával működő, a főigazgató által kijelölt személy (a továbbiakban: felügyelő) látja el. (2) A felügyelőnek szakirányú felsőfokú végzettséggel, továbbá a) az Information Systems Audit and Control Association (ISACA) által kiadott Certified Information Security Manager (CISM) vagy b) az International Information Systems Security Certification Consortium Inc. által kiadott Certified Information Systems Security Professional (CISSP) oklevéllel kell rendelkeznie. (3) A biztonsági vezető és a felügyelő az ágazati biztonsági felügyeleti feladatokat az e rendeletben meghatározottak szerint, önállóan látja el. A biztonsági vezető és a felügyelő az ágazati biztonsági felügyeleti feladatok ellátásával összefüggésben nem utasítható."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) A felügyelő feladatai: a) az elektronikus információs rendszerek osztályba sorolásának és a biztonsági szint megállapításának ellenőrzése, b) az elektronikus információs rendszerek osztályba sorolására és a biztonsági szintre vonatkozó követelmények teljesülésének ellenőrzése, c) a kockázatelemzések elvégzése, d) a fejlesztési projektek tervezési szakaszában a biztonsági követelmények beépülésének ellenőrzése, e) az ellenőrzés során feltárt vagy tudomására jutott hiányosságok elhárításának elrendelése és a végrehajtás eredményességének ellenőrzése, f) a biztonsági eseményekkel kapcsolatos bejelentések kivizsgálása, g) együttműködés a kormányzati eseménykezelő központtal, a Nemzeti Biztonsági Felügyelettel, a Nemzeti Kiberbiztonsági és Koordinációs Tanáccsal, h) kapcsolattartás az elektronikus információbiztonság terén a nemzetbiztonsági szolgálatokkal, a Nemzeti Média- és Hírközlési Hatósággal, az ágazati eseménykezelő központokkal, a kormányzati incidens-kezelési munkacsoporttal, i) a főigazgató által jóváhagyott éves ellenőrzési terv alapján az ellenőrzések lefolytatása, j) a biztonsági események adatai műszaki vizsgálatának végzése és k) a Hivatal informatikai biztonsági szabályzatának felülvizsgálata. (2) A Hivatal az Ibtv. 15. §-ában meghatározottak szerint nyilvántartja az Ibtv. 15. § (1) bekezdése szerinti adatokat."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § (1) A Hivatal elektronikus információs rendszereinek ellenőrzését a felügyelő éves ellenőrzési terv szerint folytatja le. (2) Az éves ellenőrzési tervet a felügyelő állítja össze és terjeszti fel jóváhagyásra a főigazgatónak a biztonsági vezető útján a tárgyévet megelőző év december 31-ig. A jóváhagyásra történő felterjesztés előtt az ellenőrzési tervet tájékoztatásul meg kell küldeni a Hivatal feladat- és hatáskör szerint érintett szervezeti egység (a továbbiakban: érintett szervezeti egység) vezetőjének. (3) A felügyelő az ellenőrzési terv végrehajtását a tárgyévet követő év március 1-jéig értékeli, amelyről jelentést készít. A jelentésről a biztonsági vezető útján tájékoztatja a főigazgatót. A jelentést tájékoztatásul meg kell küldeni az érintett szervezeti egység vezetőjének."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § (1) A felügyelő az ellenőrzések során nem veszélyeztetheti a Hivatal elektronikus biztonsági rendszereinek biztonságos működését, valamint a Hivatal által kezelt adatok védelmét. (2) Az ellenőrzés lefolytatása során a felügyelő megfelelő szakképesítéssel rendelkező koordináló személy kijelölését is kérheti a főigazgatótól a szervezeti egységek közötti együttműködés hatékonyabbá tétele, valamint a Hivatal elektronikus információs rendszereinek biztonságos működéséhez kapcsolódó követelmény érvényesítése céljából. (3) A koordináló személy köteles felhívni a felügyelő figyelmét a Hivatal elektronikus információs rendszereit veszélyeztető tényezőkre az ellenőrzés során."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § A felügyelő eljárása során helyszíni ellenőrzés keretében – a személyes adatok és a minősített adatok védelmére vonatkozó szabályok, valamint a biztonsági előírások betartása mellett – a Hivatal bármely helyiségébe beléphet, bármely eszközt, dokumentumot megtekinthet, megvizsgálhat, az érintett szervezeti egység vezetőjét, az ott dolgozó munkatársakat szóban vagy írásban adatszolgáltatásra, felvilágosítás adására kötelezheti. A felügyelő a Hivatal különleges célokra szolgáló helyiségeibe kizárólag kísérővel léphet be."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § Az ellenőrzésről a felügyelő jegyzőkönyvet készít, amelyet az ellenőrzés lezárását követő nyolc napon belül a biztonsági vezető észrevételezésre megküld az érintett szervezeti egység vezetőjének. A jegyzőkönyvvel kapcsolatosan az érintett szervezeti egység vezetője a jegyzőkönyv megküldésétől számított 15 napon belül írásban észrevételeket tehet. Az észrevételek tisztázása érdekében a biztonsági vezető egyeztetést kezdeményezhet az érintett szervezeti egység vezetőjével."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § (1) A felügyelő az információbiztonsági követelmények teljesülése érdekében határidő tűzése mellett a biztonsági vezető útján írásban felszólítja az érintett szervezeti egység vezetőjét az elektronikus információbiztonságot veszélyeztető hiányosság, mulasztás, illetve a biztonsági követelménysértés megszüntetésére, jogszabályban meghatározott kötelezettség teljesítésére, illetve az elvárt intézkedés megtételére. (2) Ha az információbiztonságot veszélyeztető hiányosság kiküszöbölésére, a mulasztás pótlására, illetve a követelménysértés megszüntetésére, kötelezettség teljesítésére ismételt felszólításra sem kerül sor, és az érintett szervezeti egység vezetője az intézkedés elmaradását objektív okokra hivatkozva kimenteni nem tudja, a biztonsági vezető a főigazgatóhoz fordulhat a biztonságos és szabályszerű állapot helyreállítása érdekében."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § Ez a rendelet a kihirdetését követő 8. napon lép hatályba. 1 A rendeletet a 187/2015. (VII. 13.) Korm. rendelet 32. § g) pontja hatályon kívül helyezte 2015. július 16. napjával. Alkalmazására lásd e hatályon kívül helyező rendelet 31. §-át."
+    }
+  ]
+}

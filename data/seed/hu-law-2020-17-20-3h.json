@@ -1,0 +1,84 @@
+{
+  "id": "hu-law-2020-17-20-3h",
+  "type": "statute",
+  "title": "17/2020. (XII. 17.) NMHH rendelet a digitális médiaszolgáltatások vételére alkalmas készülékek együttműködő képessége érdekében szükséges intézkedésekről",
+  "status": "in_force",
+  "in_force_date": "2020-12-21",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2020-17-20-3H",
+  "description": "a digitális médiaszolgáltatások vételére alkalmas készülékek együttműködő képessége érdekében szükséges intézkedésekről",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § E rendelet hatálya a) a műsorterjesztőre, b) az analóg televízió-vevőkészülék, a digitális televíziókészülék és a digitális vevődekóder gyártójára, forgalmazójára, c) az autórádió-vevőkészülék gyártójára, forgalmazójára, valamint d) a nyilvános elektronikus hírközlő hálózat üzemeltetőjére terjed ki."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § (1) E rendelet alkalmazásában a) autórádió-vevőkészülék: olyan rádióberendezés, amelyet kifejezetten gépjárműbe történő integrálásra és használatra szántak, és rádiós médiaszolgáltatások vételére szolgál; b) digitális rádiós jel: a digitális földi műsorszórással közvetített rádióműsor jel; c) elismert európai szabványügyi szervezet: az Európai Szabványügyi Bizottság (Comité Européen de Normalisation, CEN), az Európai Elektrotechnikai Szabványügyi Bizottság (Comité Européen de Normalisation Electrotechnique, CENELEC) és az Európai Távközlési Szabványügyi Intézet (European Telecommunications Standards Institute, ETSI); d) hagyományos digitális jelek: DVB-T, DVB-C vagy DVB-S szabvány és ezek változatai szerinti digitális jelek; e) harmonizált szabvány: az európai szabványosításról, a 89/686/EGK és a 93/15/EGK tanácsi irányelv, a 94/9/EK, a 94/25/EK, a 95/16/EK, a 97/23/EK, a 98/34/EK, a 2004/22/EK, a 2007/23/EK, a 2009/23/EK és a 2009/105/EK európai parlamenti és tanácsi irányelv módosításáról, valamint a 87/95/EGK tanácsi határozat és az 1673/2006/EK európai parlamenti és tanácsi határozat hatályon kívül helyezéséről szóló, 2012. október 25-i 1025/2012/EU európai parlamenti és tanácsi rendelet 2. cikk 1. pont c) alpontjában meghatározott harmonizált szabvány; f) iparági specifikáció: a digitális rádió- és televízió-médiaszolgáltatással összefüggő átviteli rendszerek európai iparágán belül elfogadott specifikáció; g) rádiós médiaszolgáltatás: a médiaszolgáltatásokról és a tömegkommunikációról szóló 2010. évi CLXXXV. törvény 203. § 58. pontja szerinti médiaszolgáltatás. (2) Az e rendeletben nem szabályozott fogalmakat az elektronikus hírközlésről szóló 2003. évi C. törvény (a továbbiakban: Eht.), valamint a műsorterjesztés és a digitális átállás szabályairól szóló 2007. évi LXXIV. törvény szerint kell értelmezni."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) Az átviteli rendszernek alkalmasnak kell lennie a széles képformátumú műsorszámok továbbítására. (2) Az átviteli rendszerben a beérkező széles képformátumú műsorszámokat változatlan képformátummal kell az előfizetőkhöz vagy felhasználókhoz továbbítani úgy, hogy az biztosítsa az egyes műsorszámokhoz a médiaszolgáltató által hozzárendelt képarány átjelzést (AFD, WSS, MPEG képarány bitek) a műsorterjesztő hálózatának szabványa szerint, az eredeti képarány átjelzési célt megvalósítva, az elérhető legjobb képminőséget."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § A hagyományos digitális jelek vételére szánt valamennyi, Magyarország területén forgalomba hozott digitális televíziókészüléknek, digitális vevődekódernek képesnek kell lennie a) azon kódolt hagyományos digitális jelek dekódolására, amelyek megfelelnek egy, elismert európai szabványügyi szervezet által ajánlott európai közös kódolási algoritmusnak, különösen a DVB-CSA titkosítási algoritmusnak, továbbá b) a titkosítás nélkül továbbított hagyományos digitális jelek megjelenítésére, feltéve, hogy bérelt berendezés esetén a bérlő a vonatkozó bérleti szerződésnek megfelelően jár el."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § (1) A műsorterjesztés szolgáltatást nyújtónak – ha a műsorterjesztés szolgáltatás digitális televízió-médiaszolgáltatások továbbítását is magában foglalja – lehetőség szerint biztosítania kell a végfelhasználó számára, hogy ha a műsorterjesztés szolgáltatáshoz digitális televíziókészüléket biztosít, és műszakilag lehetséges, az általa biztosított digitális televíziókészülék más, digitális televízió-médiaszolgáltatások továbbítását is végző műsorterjesztő szolgáltatónál is használható legyen. (2) Azt a digitális televíziókészüléket, amely megfelel az Európai Unió Hivatalos Lapjában közzétett hivatkozással rendelkező harmonizált szabványoknak vagy azok egyes részeinek, úgy kell tekinteni, hogy teljesíti az elektronikus hírközlési előfizetői szerződések részletes szabályairól szóló NMHH rendelet 16. § (5) bekezdésében meghatározott követelmények azon részét, amelyre a szabványok vagy azok teljesített részei vonatkoznak."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § (1) Minden, 42 cm-t meghaladó látható átlóméretű beépített képernyővel rendelkező analóg televíziókészüléket, amelyet Magyarország területén forgalomba hoznak, el kell látni legalább egy, elismert európai szabványügyi szervezet által szabványosított nyílt interfészaljzattal, amely lehetővé teszi a perifériák, különösen a kiegészítő dekóderek és digitális vevők egyszerű csatlakoztatását. Ezen kötelezettség teljesíthető például az európai szabványokat bevezető magyar nemzeti szabványokban – így különösen: MSZ EN 50049-1:2002 – meghatározott aljzat alkalmazásával. (2) Minden, 30 cm-t meghaladó látható átlóméretű beépített képernyővel rendelkező digitális televíziókészüléket, amelyet Magyarország területén forgalomba hoznak, el kell látni legalább egy, elismert európai szabványügyi szervezet által szabványosított vagy ilyen szervezet által elfogadott szabványnak vagy valamely iparági specifikációnak megfelelő nyílt interfészaljzattal, különösen a digitális videóműsorszórásban alkalmazott MSZ EN 50221:1999 szabványban meghatározott DVB közös interfészcsatlakozóval, amely lehetővé teszi a perifériák egyszerű csatlakoztatását, és továbbítani tudja a digitális televíziójel valamennyi elemét, beleértve az interaktív és a feltételes hozzáférésű szolgáltatásokkal kapcsolatos adatokat."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § (1) A közúti járművek műszaki megvizsgálásáról szóló 5/1990. (IV. 12.) KöHÉM rendelet 2. § (9) bekezdés a)–c) pontja szerinti járművekbe beépített autórádió-vevőkészüléknek alkalmasnak kell lennie a digitális rádiós jelek vételére és megszólaltatására. (2) Azt az autórádió-vevőkészüléket, amely megfelel az Európai Unió Hivatalos Lapjában közzétett hivatkozással rendelkező harmonizált szabványoknak vagy azok egyes részeinek, úgy kell tekinteni, hogy az teljesíti az (1) bekezdésben meghatározott követelmények azon részét, amelyre a szabványok vagy azok teljesített részei vonatkoznak."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § (1) Az e rendeletben foglaltak teljesítéséért a forgalmazó felel. (2) Az e rendeletben foglaltak érvényesülését a Nemzeti Média- és Hírközlési Hatóság az Eht.-ban meghatározott általános hatósági felügyeleti eljárás keretében ellenőrzi."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § (1) Ez a rendelet 2020. december 21. napján lép hatályba. (2) A 7. § (1) bekezdését azokra a közúti járműbe beépített autórádió-vevőkészülékekre kell alkalmazni, amelyek esetében a közúti közlekedési igazgatási feladatokról, a közúti közlekedési okmányok kiadásáról és visszavonásáról szóló 326/2011. (XII. 28.) Korm. rendelet 42. § (1) bekezdése vagy 42. § (3) bekezdés c) pontja szerinti forgalomba helyezés 2020. december 21. napját követően történik meg, vagy a közúti járművet gazdasági tevékenység keretében első ízben 2020. december 21. napját követően adják bérbe."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. §"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § Ez a rendelet a) az egyetemes szolgáltatásról, valamint az elektronikus hírközlő hálózatokhoz és elektronikus hírközlési szolgáltatásokhoz kapcsolódó felhasználói jogokról szóló 2002/22/EK irányelv, az elektronikus hírközlési ágazatban a személyes adatok kezeléséről, feldolgozásáról és a magánélet védelméről szóló 2002/58/EK irányelv és a fogyasztóvédelmi jogszabályok alkalmazásáért felelős nemzeti hatóságok közötti együttműködésről szóló 2006/2004/EK rendelet módosításáról szóló, 2009. november 25-i 2009/136/EK európai parlamenti és tanácsi irányelvnek, valamint b) az Európai Elektronikus Hírközlési Kódex létrehozásáról szóló, 2018. december 11-i (EU) 2018/1972 európai parlamenti és tanácsi irányelv 113. cikk (1) és (3) bekezdésének és XI. mellékletének való megfelelést szolgálja. 1 A 10. § a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "évi C. törvény (a továbbiakban",
+      "definition": "Eht.), valamint a műsorterjesztés és a digitális átállás szabályairól szóló 2007. évi LXXIV. törvény szerint kell értelmezni.",
+      "source_provision": "s2"
+    }
+  ]
+}

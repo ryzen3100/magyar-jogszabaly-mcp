@@ -1,0 +1,149 @@
+{
+  "id": "hu-law-2011-2-20-3h",
+  "type": "statute",
+  "title": "2/2011. (IX. 26.) NMHH rendelet az elektronikus hírközlő hálózatok azonosítóival kapcsolatos gazdálkodás rendjéről",
+  "status": "repealed",
+  "in_force_date": "2011-10-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2011-2-20-3H",
+  "description": "az elektronikus hírközlő hálózatok azonosítóival kapcsolatos gazdálkodás rendjéről",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § (1) E rendelet hatálya a) az elektronikus hírközlési szolgáltatókra (a továbbiakban: szolgáltatók), b) azon természetes vagy jogi személyekre, valamint jogi személyiséggel nem rendelkező egyéb szervezetekre, akiket vagy amelyeket a kijelölés jogosultjai az azonosítók használatára a közöttük fennálló számhasználati jogviszony alapján feljogosítanak (a továbbiakban: számhasználók), c) a páneurópai vasúti digitális nyalábolt rendszer (a továbbiakban: GSM-R rendszer) működtetésére és a szolgáltatás nyújtására a Kormány által kijelölt vállalkozásra, d) a Nemzeti Média- és Hírközlési Hatóságra (a továbbiakban: hatóság), és e) az elektronikus hírközlő hálózatok azonosítóinak nemzeti felosztási tervében (a továbbiakban: ANFT) meghatározott azonosítókkal való gazdálkodásra terjed ki. (2) E rendeletet a kormányzati célú hírközlési szolgáltatóra és hálózatokra, valamint az ilyen szolgáltató által végzett elektronikus hírközlési tevékenységre – figyelemmel az Eht. 1. § (2) bekezdésére – a kormányzati célú hálózatokról szóló kormányrendeletben foglalt eltérésekkel kell alkalmazni. (3) E rendelet az azonosítók meghatározott csoportjának használatára vonatkozó számhasználati jogviszonyra speciális követelményeket állapíthat meg."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § E rendelet alkalmazásában: 1. Azonosító: az elektronikus hírközlő hálózat működéséhez, az elektronikus hírközlési szolgáltatások nyújtásához, illetőleg az elektronikus hírközlő hálózatok és szolgáltatások együttműködéséhez szükséges, az információ, illetőleg a jelzés célba juttatására szolgáló, annak címzettjét egyértelműen meghatározó, betűkből, számokból, illetve jelekből álló karaktersorozat, kivéve a domain nevet, az e-mail és IP címet; a) számozási tartomány: egy adott belföldi rendeltetési számhoz tartozó, az ANFT-ben meghatározott célra kijelölhető előfizetői számok összessége; b) számmező: a számozási tartományból kijelölhető, leköthető legkisebb egység, amelyet a kezdőszáma és a számjegyeinek száma határoz meg; c) egyedi azonosító: olyan azonosító, amely egyértelműen meghatározza az igénybe venni kívánt szolgáltatást vagy hálózatot, illetve annak egy elemét. 2. Azonosítókkal való gazdálkodás: az ANFT-ben meghatározott azonosítók lekötésével, kijelölésével, visszavonásával, átadásával és nyilvántartásával kapcsolatos hatósági feladatok ellátása: a) lekötés: adott számmező lefoglalásának hatóság általi engedélyezése a számmező használati jogának későbbi időpontban történő megszerzése céljából; b) kijelölés: egyedi azonosító vagy számmező használatának hatóság általi engedélyezése; c) visszavonás: a számmező lekötésének, illetve egyedi azonosító vagy számmező kijelölésének hatóság általi megszüntetése; d) nyilvántartás: az azonosítógazdálkodás körében kibocsátott hatósági határozatok rendelkező részében foglalt adatokat tartalmazó, naprakész, a hatóság honlapján közzétett kimutatás; e) számmező átadás: meghatározott számmező kijelölésének hatóság általi visszavonása az egyik szolgáltatótól és egyidejű kijelölése egy másik szolgáltatónak. 3. Azonosító állapot: az azonosító jellemzője, amely egy adott időpontban lehet: a) szabad: az azonosító vonatkozásában sem lekötési sem kijelölési kérelem nem érkezett a hatósághoz, nem zárolt és nem pihentetett; b) lekötésre kért: a lekötési kérelem hatósághoz történő beérkezésétől a lekötési engedély véglegessé válásáig; c) lekötött: a véglegessé vált lekötési engedély érvényessége alatt; d) kijelölésre kért: a kijelölési kérelem hatósághoz történő beérkezésétől a kijelölési engedély véglegessé válásáig; e) kijelölt: a véglegessé vált kijelölési engedély érvényessége alatt; f) számmező átadásra kért: a számmezőt átadó szolgáltató megnevezésével az átadás véglegessé válásától a végrehajtásra meghatározott számátadási időablak időpontjáig; g) számmező átvételre kért: a számmezőt átvevő szolgáltató megnevezésével az átadás véglegessé válásától a végrehajtásra meghatározott számátadási időablak időpontjáig; h) pihentetett: a kijelölési engedély érvényességének megszűnésétől 6 hónapig; i) zárolt: a gazdálkodás köréből kivont azonosító, melynek kijelölhetőségét a hatóság hirdetményben teszi közzé; 4. Kijelölési engedély jogosultja: az azonosítót használó elektronikus hírközlési szolgáltató, amely számára a hatóság a számmezőt, illetve egyedi azonosítót kijelölte. 5. Számhasználó: az azonosítót használó természetes vagy jogi személy, vagy jogi személyiséggel nem rendelkező egyéb szervezet, amelyet az azonosító használatára a kijelölési engedély jogosultja a közöttük fennálló számhasználati jogviszony alapján feljogosított. 6. Számhasználati jogviszony: A kijelölési engedély jogosultja és a számhasználó közötti számhasználati szerződés alapján, a szerződésben megjelölt azonosító használatára létrejött jogviszony, amelynek célja, hogy a számhasználó a számhasználati szerződésben meghatározott azonosítón a jelen rendelet 1. mellékletének 1.3, 1.6, 1.7, 2.4, 2.7, 2.8 vagy 2.12 pontja szerinti szolgáltatást nyújtson."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. §"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. §"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. §"
+    },
+    {
+      "provision_ref": "s5a",
+      "section": "5/A",
+      "title": "5/A. §",
+      "content": "5/A. §"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. §"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. §"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. §"
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. §"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. §"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. §"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. §"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. §"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14. §",
+      "content": "14. §"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15. §",
+      "content": "15. §"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16. §",
+      "content": "16. §"
+    },
+    {
+      "provision_ref": "s16a",
+      "section": "16/A",
+      "title": "16/A. §",
+      "content": "16/A. § (1) A számhasználati jogviszony a kijelölési engedély jogosultja és a számhasználó közötti számhasználati szerződéssel jön létre. (2) A számhasználati szerződésnek tartalmaznia kell: a) a kijelölési engedély jogosultjának aa) nevét, székhelyét vagy lakcímét, ab) nyilvántartásba bejegyzésre kötelezett szervezet esetén a nyilvántartást vezető bíróság, hatóság vagy egyéb szerv megnevezését, valamint a nyilvántartási számot; b) a számhasználó ba) nevét, székhelyét vagy lakcímét, bb) nyilvántartásba bejegyzésre kötelezett szervezet esetén a nyilvántartást vezető bíróság, hatóság vagy egyéb szerv megnevezését, valamint a nyilvántartási számot; c) a szerződés tárgyát képező hívószámot vagy hívószámokat; d) a számhasználó által a szerződés tárgyát képező hívószámon vagy hívószámokon nyújtani kívánt szolgáltatás meghatározását; e) a számhasználó által a szerződés tárgyát képező hívószámon vagy hívószámokon nyújtani kívánt szolgáltatás igénybevételének módját (hanghívás, üzenetküldés); f) a jelen rendelet 1. mellékletének 2.8 pontja szerinti szolgáltatások esetén a szerződés tárgyát képező hívószám vagy hívószámok hívásának díját; g) amennyiben a számhasználó a szerződés tárgyát képező hívószámon, vagy hívószámokon emelt díjas szolgáltatást kíván nyújtani, a 16/B. – 16/E. §-aiban meghatározott kötelező tartalmi elemeket. (3) Amennyiben a számhasználati jogviszony tárgyát képező azonosító használatát a jelen rendelet alapján a kijelölési engedély jogosultja felfüggeszti, és a számhasználó a felfüggesztésre okot adó körülményt 30 napon belül nem szünteti meg, a kijelölési engedély jogosultja a számhasználati szerződést rendkívüli felmondással 15 napos felmondási idővel felmondhatja."
+    },
+    {
+      "provision_ref": "s16b",
+      "section": "16/B",
+      "title": "16/B. §",
+      "content": "16/B. § (1) Emelt díjas szolgáltatás nyújtása céljából számhasználati jogviszony csak külön erre a célra kötött számhasználati szerződés útján hozható létre. A szerződést írásban vagy elektronikus úton is meg lehet kötni, amennyiben a felek olyan eljárásokat alkalmaznak, amelyek révén biztosított a szerződést kötő felek azonosíthatósága, a szerződés tartalmának későbbi megállapíthatósága, valamint kizárható a szerződés tartalmának jogosulatlan megváltoztatása vagy hozzáférhetetlenné tétele. (2) Az (1) bekezdés szerinti szerződésnek a 16/A. § (2) bekezdésében meghatározottakon felül tartalmaznia kell a nyújtani kívánt emelt díjas szolgáltatással kapcsolatban minden használni kívánt azonosítóra külön-külön: a) a számhasználó által nyújtani kívánt szolgáltatás megnevezését; b) a számhasználó által nyújtani kívánt szolgáltatás rövid leírását; c) amennyiben a számhasználó által nyújtani kívánt szolgáltatás révén elérhető tartalom felnőtt tartalomnak minősül, ennek feltüntetését; d) a számhasználó által nyújtani kívánt szolgáltatás igénybevételének módját (hanghívás, fax, üzenetküldés); e) annak megjelölését, hogy a számhasználó által nyújtani kívánt szolgáltatás folyamatosan elérhető-e. Nem folyamatosan elérhető szolgáltatások esetében, amennyiben a szolgáltatás: ea) csak meghatározott időszakban érhető el, ennek az időszaknak a megjelölését, eb) csak meghatározott eseményhez kapcsolódóan (így különösen lineáris médiaszolgáltatás útján közzétett valamely műsorszámhoz vagy műsorszámokhoz kapcsolódóan) érhető el, az esemény (műsorszám) megjelölését; f) a számhasználó által nyújtani kívánt szolgáltatás díjazása körében: fa) a díj megfizetésének módját (indított emelt díjas hívással vagy küldött, illetve fogadott emelt díjas üzenetek útján), fb) a díj felszámításának módját (hanghívásnál időszaki díj vagy hívásonkénti díj, üzenetküldésnél a küldött vagy a fogadott üzenetekért felszámított díj), fc) a felszámított díj vagy díjak mértékét; g) amennyiben a számhasználó által nyújtani kívánt szolgáltatás fogadott emelt díjas üzenetek útján vehető igénybe, a szolgáltatás teljesítése során az igénybevevőnek küldött üzenetek maximális számát; h) amennyiben a számhasználó által nyújtani kívánt szolgáltatás visszatérően fizetendő időszaki díj ellenében vehető igénybe, meg kell jelölni az igénybevételi időszak hosszát, valamint azt, hogy annak lejárta után a szolgáltatás megrendelése automatikusan megújításra kerül-e; i) a szolgáltatást nyújtó számhasználó megnevezését, címét, nyilvántartási számát, a nyilvántartást vezető szervezet megnevezését, honlapjának címét, valamint azon állam megjelölését, amelyben a számhasználó letelepedettnek minősül; j) a számhasználó által nyújtani kívánt szolgáltatáshoz kapcsolódó ügyfélszolgálat elérhetőségét telefonon, postai és elektronikus úton is; k) a számhasználó által nyújtani kívánt szolgáltatás lemondásának módját, amennyiben ez az adott szolgáltatás vonatkozásában értelmezhető; l) a számhasználó által nyújtani kívánt szolgáltatáshoz kapcsolódó magyar nyelvű általános szerződési feltételeket, valamint azt az internetcímet, amelyen ezek bárki számára elérhető módon közzétételre kerülnek. (3) A (2) bekezdésben szabályozott számhasználati szerződés e rendeletben foglaltak szerinti megfelelőségéért a kijelölési engedély jogosultja és a számhasználó egyaránt felel."
+    },
+    {
+      "provision_ref": "s16c",
+      "section": "16/C",
+      "title": "16/C. §",
+      "content": "16/C. § (1) A 16/B. § szerinti számhasználati jogviszony keretében használt azonosítók útján nyújtott szolgáltatásokról a kijelölési engedély jogosultja köteles nyilvántartást vezetni. (2) A nyilvántartásnak minden egyes, a 16/B. § szerinti számhasználati jogviszony keretében használt azonosító vonatkozásában naprakészen és teljes körűen, a valóságnak megfelelően tartalmaznia kell a 16/B. § (2) bekezdése szerinti adatokat. (3) A kijelölési engedély jogosultja köteles gondoskodni arról, hogy az (1) bekezdés szerinti nyilvántartást mindenki számára könnyen elérhető és kereshető módon internetes honlapján elérhetővé tegye, valamint annak tartalmáról ügyfélszolgálatán felvilágosítást adjon. (4) A (3) bekezdés szerinti felvilágosítás adása, illetve az azonosítónak az (1) bekezdés szerinti nyilvántartásban mindenki által elérhető és kereshető módon való közzététele nem tagadható meg arra hivatkozással, hogy a számhasználó az adott azonosító titkos számként kezelését kérte. (5) A nyilvántartás adataiban bekövetkezett változásokat a kijelölési engedély jogosultja a tudomására jutástól számított 5 munkanapon belül köteles átvezetni. (6) A kijelölési engedély jogosultja köteles a nyilvántartás adatait, az azokban bekövetkezett változásokat, valamint a bejelentésük vagy a kijelölési engedély jogosultjának tudomására jutásuk és a nyilvántartásban átvezetésük időpontját a nyilvántartásba vétel, illetve az átvezetés megtörténtétől számított 5 évig megőrizni és a (3) bekezdés szerint hozzáférhetővé tenni. (7) Amennyiben a kijelölési engedély jogosultja az (1)–(4) bekezdés szerinti kötelezettségeinek nem tesz eleget,vagy a neki bejelentett változásokat az (5) bekezdés szerinti határidőn belül nem vezeti át, a mulasztás bekövetkezésétől az érintett azonosítóra indított emelt díjas hívásokért, illetve az oda küldött vagy onnan fogadott üzenetekért mindaddig nem számíthat fel díjat, amíg a jelen § szerinti kötelezettségeinek maradéktalanul eleget nem tesz."
+    },
+    {
+      "provision_ref": "s16d",
+      "section": "16/D",
+      "title": "16/D. §",
+      "content": "16/D. § (1) A kijelölési engedély jogosultja csak azzal a számhasználóval köthet a 16/B. § (1) bekezdése szerinti számhasználati szerződést, aki vállalja a következő kötelezettségek teljesítését a) a 16/B. § (2) bekezdésben szereplő adatokat teljes körűen és a valóságnak megfelelően a kijelölési engedély jogosultjának rendelkezésére bocsátja, és az adatokban a szerződés aláírását követően bekövetkezett bármilyen változást haladéktalanul, de legkésőbb 5 munkanapon belül bejelenti a kijelölési engedély jogosultjának; b) a számhasználati jogviszony tárgyát képező azonosító vagy azonosítók használatát semmilyen módon vagy formában nem engedi át más, harmadik személynek, és minden, ezek útján elérhető emelt díjas szolgáltatást a saját szolgáltatásaként, saját felelősségének elismerésével nyújt akkor is, ha a szolgáltatás nyújtásához alvállalkozó vesz igénybe; c) biztosítja, hogy fogadott emelt díjas szolgáltatásokra megrendelést csak olyan eljárással fogadjon el, amelynek révén az igénybevevő előfizető azonosítása megfelelően biztosítható. A szolgáltatást nyújtani kívánó számhasználónak vállalnia kell azt is, hogy a megrendelést követően, de még a szolgáltatás nyújtásának megkezdése előtt a megrendelőt a részére küldött ingyenes üzenetben közérthető módon tájékoztatja a megrendelt szolgáltatásról, annak díjazásáról és a lemondás módjáról. A számhasználónak a szerződésben el kell fogadnia, hogy a tájékoztatás megtörténtét neki kell bizonyítania; d) biztosítja, hogy a szolgáltatás nyújtására használt azonosítóra irányuló emelt díjas hanghívás sikeres végződtetését követően a hívó számára ne adjon olyan hangjelzést, amely a hívót a hívás sikeres végződtetése tekintetében megtévesztené (különösen: hamis csengetési visszhang, hamis foglaltsági jelzés); e) biztosítja, hogy a szolgáltatás nyújtására használt azonosítóra irányuló emelt díjas hanghívás végződtetését követően a hívó fél a hívás fogadásáról egyértelmű visszajelzést kapjon; f) biztosítja, hogy a szolgáltatáshoz kapcsolódó ügyfélszolgálat telefonon magyarországi, nem emelt díjas hívószámon, postai úton pedig magyarországi postacímen elérhető legyen; g) biztosítja, hogy a szolgáltatás nyújtására használt azonosítót csak jogszerű módon, jogszabályba nem ütköző szolgáltatás céljára használja fel; h) tudomásul veszi, hogy amennyiben a szolgáltatás igénybevevője a számára előfizetői elektronikus hírközlési szolgáltatást nyújtó szolgáltatónál a számhasználó által nyújtott szolgáltatás igénybevehetőségére, elérhetőségére, illetve kiszámlázott díjára vonatkozóan reklamációt terjesztett be, az érintett hírközlési szolgáltató a reklamációt a jogszabályoknak megfelelően – szükség esetén a számhasználó közreműködésével – kivizsgálja és ennek megtörténtéig a számhasználónak járó díjat visszatarthatja; i) vállalja, hogy a h) pont szerinti elektronikus hírközlési szolgáltató megkeresése alapján a reklamáció kivizsgálásáról intézkedik és annak eredményéről a megkereső szolgáltatót haladéktalanul értesíti; j) vállalja, hogy a jelen rendelet szerinti kötelezettségeinek megszegésével a kijelölési engedély jogosultjának, illetve a h) pont szerinti hírközlési szolgáltatónak okozott kárt megtéríti. (2) Az (1) bekezdés szerinti kötelezettségek megsértése esetén a kijelölés jogosultja a számhasználati jogviszony tárgyát képező azonosító használatára vonatkozó számhasználói jogosultságot mindaddig felfüggeszti, amíg a számhasználó a kötelezettségeknek nem tesz teljes körűen eleget. A felfüggesztés tényét a kijelölés jogosultja a 16/C. § szerinti nyilvántartásban feltünteti. A felfüggesztés időtartama alatt az azonosítón hívás nem végződtethető, oda, illetve onnan üzenet nem továbbítható. Amennyiben az (1) bekezdés szerinti kötelezettségek megsértése tárgyában hatósági eljárás indul, a hatóság kiemelt fogyasztóvédelmi okokból – az eljárás végleges döntéssel történő lezárásáig – ideiglenes intézkedésként kötelezheti a kijelölési engedély jogosultját az eljárás tárgyát képező számhasználói jogosultság felfüggesztésére. (3) Amennyiben az (1) bekezdés szerinti kötelezettségek valamelyikét a számhasználó ismételten megsérti, a kijelölési engedély jogosultja a (2) bekezdésben írtak alkalmazása mellett a 16/B. § (1) bekezdés szerinti számhasználati szerződést felmondja és ezzel a számhasználati jogviszonyt megszünteti."
+    },
+    {
+      "provision_ref": "s16e",
+      "section": "16/E",
+      "title": "16/E. §",
+      "content": "16/E. § A kijelölési engedély jogosultja a számhasználóval együttműködve köteles továbbá biztosítani a következőket: a) a számhasználati jogviszony tárgyát képező azonosítóra irányuló hívásokért, illetve az oda küldött üzenetekért díj csak akkor számítható fel, ha a hívás, illetve az üzenetküldés időpontjában az adott azonosítón a 16/C. § szerinti nyilvántartásban szereplő szolgáltatás ténylegesen elérhető volt; az ezen kívüli időszakokban díj nem számítható fel; b) hanghívás esetén csak akkor kerülhet sor díj felszámítására, ha a hívás a számhasználati jogviszony tárgyát képező azonosítón ténylegesen végződtetésre került; c) nem kerülhet sor díj felszámítására, ha a csak hívás útján elérhető emelt díjas szolgáltatás hívószámára a szolgáltatást igénybe venni kívánó üzenetet küld, vagy ha a csak üzenetküldés útján elérhető ilyen szolgáltatás hívószámára hívást kezdeményez, utóbbi esetben a hívás kezdeményezőjét ingyenes hangbemondással kell tájékoztatni."
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17. §",
+      "content": "17. §"
+    }
+  ]
+}

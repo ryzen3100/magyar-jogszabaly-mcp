@@ -1,0 +1,173 @@
+{
+  "id": "hu-law-2025-18-b0-3m",
+  "type": "statute",
+  "title": "18/2025. (VIII. 21.) BVOP utasítás a Járműkövető Rendszer működtetéséről",
+  "status": "in_force",
+  "in_force_date": "2025-08-22",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2025-18-B0-3M",
+  "description": "a Járműkövető Rendszer működtetéséről",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. A Járműkövető Rendszer (a továbbiakban: JKR) működtetési kötelezettségének hatálya kiterjed a) a Büntetés-végrehajtás Országos Parancsnokságára (a továbbiakban: BVOP), a büntetés-végrehajtási intézetekre és intézményekre (a továbbiakban együtt: bv. szerv), b) a büntetés-végrehajtási szervezet (a továbbiakban: bv. szervezet) teljes személyi állományára, c) a BVOP vagyonkezelésében, a Büntetés-végrehajtás Gazdasági Ellátó Intézete (a továbbiakban: BV GEI), a Büntetés-végrehajtási Szervezet Oktatási, Továbbképzési és Rehabilitációs Központja (a továbbiakban: BVOTRK), valamint a Büntetés-végrehajtás Egészségügyi Központ (a továbbiakban: BVEK) üzemeltetésében lévő gépjárművekre (a továbbiakban: szolgálati gépjármű). II. SZEREPKÖRÖK, JOGOSULTSÁGOK ÉS FELADATOK"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. A JKR felhasználói felülethez történő hozzáférés biztosítása az alábbi szabályok alapján történhet: a) a JKR belügyi szervi adminisztrátor (a továbbiakban: JKR Szakelőadó) jogosultság aa) a BV GEI Logisztikai és Ellátási igazgató-helyettese, ab) a Gépjármű Osztály (a továbbiakban: BV GEI GO) vezetője, ac) a BV GEI GO vezetője által kijelölt BV GEI GO állományában szolgálatot teljesítő kiemelt főelőadó részére biztosítható, a JKR működtetéséről szóló 14/2021. (VIII. 31.) BM utasítás (a továbbiakban: BM utasítás) 62. §-a alapján; b) a JKR Csoportadminisztrátor jogosultság ba) a BVOP vagyonkezelésében, a BV GEI üzemeltetésében, illetve a bv. intézetek (kivéve a BVEK és az Igazságügyi Megfigyelő és Elmegyógyító Intézet) használatában lévő szolgálati gépjármű járműforgalmazási adataihoz való hozzáférés érdekében a BV GEI GO állományában szolgálatot teljesítő kiemelt főelőadó, bb) a BVEK által üzemeltetett szolgálati gépjármű járműforgalmazási adataihoz való hozzáférés érdekében a BVEK állományából a gazdasági vezető által kijelölt 2 fő, valamint bc) a BVOTRK által üzemeltetett szolgálati gépjármű járműforgalmazási adataihoz való hozzáférés érdekében a BVOTRK állományából a gazdasági vezető által kijelölt 2 fő részére biztosítható, az a) pont szerinti JKR Szakelőadó által; c) a JKR dashboard felhasználó jogosultság ca) a BVOP Műszaki és Ellátási Főosztály (a továbbiakban: MEF) főosztályvezetője, főosztályvezető-helyettese, valamint a gépjármű-szakterület feladatait ellátó kiemelt főreferens és a helyettesítésére kijelölt kiemelt főreferens, továbbá cb) a bv. szervek gazdasági vezetői, főosztályvezetői vagy osztályvezetői által kijelölt személyi állományi tagja részére biztosítható, az a)–b) pontban meghatározott jogosultak által."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. A JKR Szakelőadó jogosultságai: a) betekintési jogosultsággal rendelkezik valamennyi bv. szerv és a BVOP alapértelmezett hierarchiaszint és különálló csoportok adataiba, b) a JKR dashboard felhasználói felületen valamennyi adatlekérdezéshez hozzáférhet, c) az időszakosan vagy véglegesen átadott szolgálati gépjárművek adatait megoszthatja az átvevő bv. szervvel, d) robotriportot állíthat be az adatigény alapján, e) a bv. szerv JKR Csoportadminisztrátorának és a JKR dashboard felhasználónak jogosultságot állíthat be és vonhat vissza, f) jogosult a JKR Csoportadminisztrátorok számára az elfelejtett jelszó helyett új jelszót beállítani a belépés érdekében."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. A JKR Csoportadminisztrátor jogosultságai: a) betekintési jogosultsággal rendelkezik az adott bv. szerv adataiba, b) a JKR dashboard felhasználói felületen valamennyi műveleti csempéről riportot kérhet le, kivéve a tartós magáncélú igénybevételi engedéllyel rendelkező szolgálati gépjármű Jármű monitor térképen történő követésére, c) az időszakosan vagy véglegesen átadott szolgálati gépjármű adatait megoszthatja az átvevő bv. szervvel, d) robotriportot állíthat be az adatigény alapján, e) jogosult JKR dashboard felhasználó jogosultságot beállítani és visszavonni, f) az a) pont figyelembevételével hozzáférést biztosít a nevéhez hozzárendelt bv. szerv által üzemeltetett szolgálati gépjármű járműforgalmazási adataihoz."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. A jogosultságkezelés szabályai: a) a JKR dashboard felhasználó jogosultságai az érintett szakterület ügyrendjében kerülnek meghatározásra, b) az állandó informatikai (hardver- és szoftver-) hozzáférési jogosultság a feladatellátás érdekében biztosított, c) a BVOP, BV GEI és bv. szerv vonatkozásában a feladatszabó, ellenőrző és módosító tevékenységet a JKR felületen a JKR Szakelőadó a JKR Csoportadminisztrátorok közreműködésével hajthatja végre, d) a BV GEI kezeli a JKR felületen az üzemeltetésében lévő gépjárműflotta járműforgalmazási adatait a BVOTRK és a BVEK gépjárműflottája kivételével, e) a JKR által adott szolgálati gépjárműhöz kötötten rögzített tartós magáncélú járműforgalmazási adatot kizárólag a szolgálati gépjárműre vonatkozó tartós magáncélú engedéllyel rendelkező személyi állományi tag, a JKR Szakelőadó, valamint a BVOP-n ellenőrzési feladatra kijelölt JKR ellenőr felhasználó számára lehet elérhetővé tenni, f) a JKR Felhasználó a DashBoard felületen a részére és a feladatellátás szempontjából meghatározott jogosultságok alapján köteles feladatait végrehajtani, g) a JKR dashboard felhasználó közvetlen vezetőjének írásbeli kérelmére a BV GEI, a BVEK vagy a BVOTRK Csoportadminisztrátora ga) a kérelem kézbesítésétől számított 10 munkanapon belül intézkedik a JKR dashboard felhasználó jogosultság beállításáról és a belépési adatok jogosult részére történő átadásáról, valamint a kiadott jogosultság nyilvántartásba vételéről, gb) soron kívül intézkedik a JKR dashboard felhasználó jogosultság módosításáról vagy visszavonásáról a JKR dashboard felhasználó leszerelése vagy szolgálati helyének, feladatkörének változása esetén, h) a JKR Csoportadminisztrátor közvetlen vezetőjének írásbeli kérelmére a BV GEI JKR Szakelőadó ha) a kérelem kézbesítésétől számított 10 munkanapon belül intézkedik a JKR Csoportadminisztrátor jogosultság beállításáról és a belépési adatok jogosult részére történő átadásáról, valamint a kiadott jogosultság nyilvántartásba vételéről, hb) soron kívül intézkedik a JKR Csoportadminisztrátor jogosultság módosításáról vagy visszavonásáról a JKR Csoportadminisztrátor leszerelése vagy a szolgálati helyének, feladatkörének változása esetén, i) a BVOP üzemeltetésében lévő szolgálati gépjárműhöz kötötten a JKR által rögzített járműforgalmazási adatot kizárólag a JKR Szakelőadó, valamint a BVOP által foglalkoztatott állományból ellenőrzési feladatra kijelölt JKR ellenőr felhasználó számára lehet elérhetővé tenni."
+    },
+    {
+      "provision_ref": "s5a",
+      "section": "5/A",
+      "title": "5/A. §",
+      "content": "5/A. JKR ellenőr szakelőadó jogosultság a BVOP Ellenőrzési Szolgálat és a BVOP Belső Ellenőrzési Főosztály állományának tagja részére adható ki. A JKR ellenőr szakelőadó, JKR ellenőr csoportadminisztrátor, valamint JKR ellenőr dashboard jogosultság igénylésére és a jogosult feladatellátására a BM utasításban foglaltakat kell alkalmazni."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. A JKR Szakelőadó feladatai a) átfogó ismerettel rendelkezik a JKR rendszer működésével és használatával kapcsolatban, képes hibaelemzésre, -feltárásra, átfogóan ismeri a Felhasználói tudásszint igényt, képes felvenni a rendszerbe új járműveket, felhasználókat, csoportokat, ismeri a járműegységek beállíthatóságát, működését, b) a JKR üzemeltetése érdekében folyamatos kapcsolatot tart a Belügyminisztérium JKR Adminisztrátorával (a továbbiakban: BM JKR Adminisztrátor), JKR Csoportadminisztrátorával, részükre adatokat és hibajelentéseket továbbít, c) a BMAdmin webfelületen keresztül látja el feladatait, d) a JKR Szakelőadó külön kezeli, irányítja a bv. szervek és a BVOP szolgálatigépjármű-flottáját, e) végrehajtja a JKR felületet és a kezelt járműforgalmazási adatokat érintő módosításokat, korrigálásokat és változtatásokat mind a bv. szervek, mind a BVOP esetében, f) a központilag irányított, országos szintű gépjármű-szakterületi ellenőrzésekhez szükséges járműforgalmazási adatlekérdezések biztosítása érdekében a JKR Szakelőadó a BVOP-n szolgálatot teljesítő foglalkoztatott részére JKR Felhasználói jogosultságot állít be, és ezen felhasználókat Felhasználói Csoportba rendezi, g) a JKR felületen rögzített járműforgalmazási adat országos ellenőrzését és a rendszerből történő adatlekérdezések végrehajtását a jogosultsággal rendelkező JKR Felhasználó a hozzá rendelt Csoportnak megfelelően és a JKR Szakelőadó jogosultak megvalósítani, h) a bv. szervektől és a BVOP-tól érkező nagy mennyiségű adathalmazokat a feladatra alkalmas Microsoft Excel® template fájlok segítségével importálja a JKR felületre, i) feltölti a bv. szervek és a BVOP szolgálati gépjárműveinek adatait a JKR felületre, nagy mennyiségű gépjármű feltöltése esetén az adatokat importálás alapján hajtja végre, j) létrehozza a bv. szervek JKR Csoportadminisztrátorai és a BVOP JKR Felhasználói jogosultságát, a nagy mennyiségű adatokat importálás alapján tölti fel a JKR felületre, k) feltölti az egyes bv. szervek és a BVOP gépjárművezetőinek adatait, a nagy mennyiségű adat gyors feltöltése érdekében adatimportot hajt végre, l) a szolgálati gépjárművekbe épített JKR járműegység eszközök járműegység gyári számai és a beépítés ideje szerint összerendeli a gépjármű rendszámát a járműegység adataival, nagy mennyiségű adatfeltöltés esetén adatimportot alkalmaz, m) a BVOP vagyonkezelésében lévő szolgálati gépjármű bv. szervezeten belüli átadásakor végrehajtja a JKR-ben a szolgálati gépjárműbe épített járműegység virtuális leválasztását, ezt követően a járműegység adatait továbbítja az átvevő részére, n) kialakítja a bv. szervek és a BVOP alapértelmezett csoporthierarchia szerinti gépjárműflottákat és flottaalegységeket, csoportkódokkal látja el az alapértelmezett hierarchiaszinteket, o) hozzárendeli a BVOP üzemeltetésében lévő szolgálati gépjárműveket a kialakított alapértelmezett hierarchiarendszer csoportkódjaihoz, p) az alapértelmezett hierarchián kívüli JKR Felhasználói csoportokat hozhat létre a JKR rendszerben történő középirányító szervi ellenőrzések, illetve a JKR adatfeldolgozás végrehajtása érdekében, q) fogadja a bv. szervektől beérkező hibabejelentő leveleket, a hatáskörében javítható hibák megszüntetésére közreműködően intézkedik, a hatáskörét meghaladó hibákról a hibabejelentést továbbítja a BM JKR Adminisztrátornak, r) összesíti a bv. szervektől beérkező telematikai eszközszerelési igényeket, melyeket engedélyezés céljából továbbít a Belügyminisztérium Műszaki Főosztályára, s) megszervezi a bv. szervezetre vonatkozó engedélyezett telematikai eszközszereléseket, t) a kiszerelt vagy fel nem használt telematikai eszközök számára raktárkészletet alakít ki, u) a telematikai eszközökről nyilvántartást vezet, v) ellenőrzi és elkészíti a bv. szervezetre vonatkozó, megvalósult havi szerelési összesítőt, w) intézkedik a járműhöz tartozó üzemanyag-vételezési adat JKR Programba való feltöltésére, x) legalább negyedévente végrehajtja a BVOP vonatkozásában az e-menetlevelek ellenőrzését, y) a JKR Csoportadminisztrátor tevékenységét havonta monitorozza, az ellenőrzés tapasztalatairól negyedévente jelentést készít az országos parancsnok gazdasági és informatikai helyettese részére."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. A JKR Csoportadminisztrátor feladatai a) az egyes agglomerációs központokhoz rendelt bv. szervek fő csoportját kezelheti, ahol jogosult járműcsoportokat létrehozni, a csoportokhoz járművet rendelni, felhasználókat menedzselni, b) a szolgálati helye szerinti bv. szerv JKR üzemeltetése érdekében folyamatos kapcsolatot tart fenn a JKR Szakelőadóval, c) a BMAdmin webfelületen keresztül látja el feladatait, d) munkája során a JKR felületre feltölti a járművek, járművezetők, eszközök, csoporthierarchia, JKR Felhasználók adatait, e) a JKR felületre történő nagy adatmennyiség egyidejű feltöltése érdekében a feltöltendő adatoknak megfelelő Microsoft Excel® template fájlokat megküldi a JKR Szakelőadóknak, f) a hatáskörébe tartozó szolgálati gépjárművekbe épített JKR járműegység eszközök járműegység gyári számai és beépítés ideje szerint összerendeli a gépjármű rendszámát a járműegység adataival, g) a szolgálati gépjármű átadás-átvételét követően megvalósítja a beépített járműegység virtuális leválasztását, ezt követően a járműegység adatait továbbítja az átvevő bv. szervhez, h) a JKR Szakelőadó által kialakított alapértelmezett csoporthierarchia szerinti gépjárműflottákat és flottaalegységeket a változásokat figyelembe véve módosítja, új csoportkódok létrehozása során figyelembe kell vennie a JKR Szakelőadó által létrehozott elnevezések logikáját, i) kialakítja az alapértelmezett hierarchia szerinti gépjárműflottákat és flottaalegységeket, j) saját hatáskörben jogosult létrehozni és megszüntetni az ellenőrizni kívánt gépjármű-kategóriák és egyéb szempontoknak megfelelő Csoportokat, k) saját hatáskörben jogosult kinevezni az ellenőrzés szempontjából kialakított Csoportokban történő munkavégzésre a JKR Felhasználót, l) a bv. szervi JKR Felhasználók és a JKR Csoportfelhasználói hibabejelentéseket továbbítja a hibabejelentő levelezésen keresztül a JKR Szakelőadó számára, m) hozzárendeli a bv. szerv üzemeltetésében lévő szolgálati gépjárműveket a kialakított alapértelmezett hierarchiarendszer csoportkódjaihoz, n) az alapértelmezett hierarchián kívüli JKR Felhasználói csoportokat hozhat létre a JKR rendszerben történő ellenőrzések, valamint a JKR adatfeldolgozás végrehajtása érdekében, o) fogadja a Felhasználóktól beérkező hibabejelentő leveleket, köteles az önálló hibabejelentés kezdeményezésére, a hatáskörében javítható hibák megszüntetésére közreműködően intézkedik, a hatáskörét meghaladó hibákról a hibabejelentést továbbítja a JKR Szakelőadónak, p) intézkedik a járműhöz tartozó üzemanyag-vételezési adat JKR Programba való feltöltésére, q) minden hónap 5. napjáig végrehajtja az e-menetlevelek ellenőrzését, r) a JKR jármű törzsadatokhoz feltölti a szolgálati gépjárművek forgalmi engedélyében szereplő adatokat, s) a JKR dokumentumtárba feltölti – a BM utasításban meghatározott dokumentumokon kívül – a szolgálati gépjárművek törzskönyvét, forgalmi engedélyét, telephelyen kívüli tárolási engedélyét, átadás-átvételi dokumentumait, a megkülönböztető jelzés használatára jogosító okmányait."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. A JKR Felhasználók feladatai a) a DashBoard felületen követi a járműveket, és elkészíti a riportokat a jármű forgalmi adatairól, b) a szolgálati helye szerinti bv. szerv a JKR üzemeltetése érdekében folyamatos kapcsolatot tart fenn az illetékes JKR Csoportadminisztrátorral, c) munkája során azokban a csoportkód szerinti gépjárműflottákban, flottaalegységekben végez feladatot, amelyekre az illetékes JKR Csoportadminisztrátor jogosultságot állított be, d) a bv. szervben a ténylegesen elvégezhető műveleteket az illetékes parancsnok határozza meg, e) a DashBoard felületen a következő riportokat kérheti le: 1) Műszaki/Üzemóra, 2) Határátlépés, 3) Gyorshajtás, 4) Teljes útvonal szenzorértékekkel, 5) Összes utak és állomások szenzorértékekkel, 6) Látogatások, 7) Flotta POI látogatása, 8) Üzemanyag fogyasztás, 9) Fogyasztás, 10) Teljes napló, 11) Útnyilvántartás, 12) Jármű POI látogatásai, 13) POI, 14) Vezetési stílus, 15) Rendszerüzenetek, 16) Dokumentumtár megtekintése, 17) Menetlevél megtekintése, 18) Menetlevél előkészítése, 19) Nem gépjárművezető azonosított útszakaszok, 20) Hálózaton kívüli, el nem érhető járművek, 21) Fényhíd, vagy hangjelzés használat, 22) Hibakóddal rendelkező járművek, 23) Műszaki/Üzemóra részletes riport, 24) Műszak üzemóra összegző riport, 25) Forgalmazó járművek riport, 26) Minősített használati járművek, 27) Hálózaton kívüli, el nem érhető járművek külföld, 28) Dokumentum tár, 29) Útszakaszok sebesség diagrammal, 30) Tankolás karbantartó, 31) Tankolás riport, 32) Flotta utolsó pozíciója, f) feladatellátása során a JKR felületen észlelt gépjármű-forgalmazási hibákat jelenti az illetékes JKR Csoportadminisztrátornak, valamint a közvetlen szolgálati elöljárójának, g) a JKR DashBoard felületen történő munkavégzése során készített riportokat és gépjármű-forgalmazási adatokat rendszám szerint elkülönítve, elektronikusan archiválja, h) a JKR Csoportadminisztrátori és szolgálati elöljárói utasításra jelentést készít a szolgálati gépjárművekről."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. A járművezetők feladatai a) a részére kiadott Dallas chipért vagyoni és fegyelmi felelősséggel tartozik, b) a gépjármű-igénybevétel során, a sípoló jelzést követően használja a chipet a járművezető azonosítása érdekében, c) a járműforgalmazás végén ismételten használja a chipet az adott szolgálati út vagy magáncélú igénybevétel lezárása érdekében, d) tartós magáncélú szolgálati gépjármű igénybevétellel rendelkező Járművezető kötelezően használja a „Magáncél/hivatali út” kapcsolót a különböző igénybevételek elkülönítésére, az igénybevétel céljának megfelelően, e) a járműegységben bekövetkezett meghibásodást (például fizikai sérülés, sípoló jelzés elmaradása) jelenti a JKR Felhasználónak vagy közvetlenül az illetékes JKR Csoportadminisztrátornak. III. HIBABEJELENTÉS"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. Hibaelhárítási feladatra kötelezett a JKR Szakelőadó, a JKR Csoportadminisztrátorok és a BV GEI informatikai szakterülete."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. A végfelhasználói ponton keletkező szemantikai hibák (tévesen rögzített gépjárművek, járműegység téves virtuális kiszerelése, csoporthierarchia-szintek hibás beállítása), azaz a JKR felület működtetéséből keletkező hibák megoldását a hiba keletkezésének helyén kell kezelni."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. Hozzáférési jogosultságokkal kapcsolatos hibajelenségek megszüntetésére a hiba keletkezési helyén kell intézkedéseket tenni."
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. Kizárólag a JKR Szakelőadó jogosult a JKR-rel kapcsolatos hibabejelentés BM Vagyongazdálkodási, Beruházási és Beszerzési Főosztály (a továbbiakban: BM VBBFO) felé történő megküldésére. A hiba elhárításával kapcsolatban a szolgáltatóval történő egyeztetésre a JKR Csoportadminisztrátor is jogosult."
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14. §",
+      "content": "14. A hibabejelentések továbbításának menete: a) a Járművezető az észlelt hibajelenséget szóban jelenti a JKR Felhasználónak vagy közvetlenül az illetékes JKR Csoportadminisztrátornak, b) a JKR Felhasználó a hierarchiaszint szerint illetékes JKR Csoportadminisztrátornak tesz jelentést a hibabejelentő adatlap kitöltésével az általa észlelt hibákról, c) a JKR Csoportadminisztrátor az általa észlelt vagy a részére szóban vagy írásban átadott hibabejelentéseket továbbítja a BV GEI JKR Szakelőadónak, aki továbbítja azt a BM VBBFO felé. A BM által kiadott hibakezelési eljárási rendnek megfelelően a MEF, a BVOTRK és a BVEK a 13. pont szerint jár el. IV. EGYÉB FELADATOK"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15. §",
+      "content": "15. A JKR felületet használók (JKR Szakelőadók, JKR Csoportadminisztrátorok, JKR Felhasználók) munkaköri leírásában rögzíteni szükséges a JKR használatával kapcsolatos többletfeladatokat és felelősségi jogköröket."
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16. §",
+      "content": "16. A bv. szerv járművezetői számára a Dallas chipek kiadása és visszavétele átadás-átvétel keretében történik. A chip kiadása mellett átadásra kerül a chiphasználati útmutató és az adatkezelésről szóló érintetti tájékoztató. Az átadás-átvételi dokumentumban olvashatóan rögzíteni kell az átadó és átvevő nevét és rendfokozatát, a Dallas chip azonosító számát, az átadás-átvétel helyét, idejét, az iktatószámot, valamint az átadott dokumentumokat. A chip és a dokumentumok átadásával egy időben a járművezetőt rögzíteni szükséges a JKR felületen és nyilvántartásban. A bv. szervek az általuk kiadott és visszavett Dallas chipekről elektronikus nyilvántartást vezetnek a BM utasítás 40. §-ában meghatározott adattartalommal, valamint rögzítik a járművezető beosztását és szolgálati helyét, és ezen nyilvántartást minden hónap 5-éig megküldik a BV GEI GO vezetője részére e-mail-ben a JKR csoportadminisztrátori feladatok végrehajtása érdekében. A Dallas chip ellátási jogosultság megszűnésekor a JKR admin felületen a JKR Csoportadminisztrátornak intézkedni kell a „Járművezető adatainak módosítása” menüben az „Azonosító chip szám” és a „Vezetői engedély száma” mezőben a „Megszűnt” kifejezés rögzítésére. A BVOP Dallas Chip nyilvántartását a BV GEI vezeti."
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17. §",
+      "content": "17. A chip leadását szintén átadás-átvételi dokumentációban szükséges rögzíteni. Az elveszett, illetve leadott chipek járművezetőkhöz történő hozzárendelését meg kell szüntetni a JKR felületen. A chip elvesztéséről jelentést kell készíteni a közvetlen elöljárónak, aki a jelentést továbbítja az illetékes állományi tagnak a fegyelmi vagy kártérítési eljárás lefolytatása érdekében."
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18. §",
+      "content": "18. A BM utasítás 131. § c) pontja szerinti JKR felhasználó képzést – figyelembe véve a BM utasítás 133. § (3) bekezdését – a bv. szerv állományát érintően a BV GEI szervezi és bonyolítja mentori jelleggel félévente, vagy országosan 8 fő felhasználói képzésben nem részesült személyi állományi tag képzési igénye esetén soron kívül. A képzés lebonyolításáért felelős személy köteles a BM utasítás 133. § (8) és (9) bekezdésében foglalt kötelezettségeket végrehajtani."
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19. §",
+      "content": "19. A BV GEI, a BVEK és a BVOTRK gondoskodik a JKR adatok – beleértve a felhasználói jogosultságokat – naprakészségéről és azok folyamatos aktualizálásáról, amelynek ellenőrzésére valamennyi bv. szerv vezetője hetente intézkedik."
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20. §",
+      "content": "20. A BM utasítás 142. § (1) bekezdésének 21. pontjában meghatározott ellenőrzést az üzemeltetésükben álló szolgálati gépjárművek vonatkozásában a BV GEI, a BVEK és BVOTRK hajtja végre, és értesíti a szolgálati gépjárművet használó bv. szervet, ha az akkumulátor töltöttségi szintje 12,2 V alá csökkent. A szolgálati gépjárművet használó bv. szerv együttműködik a BV GEI-vel az akkumulátor állapotának ellenőrzésében."
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21. §",
+      "content": "21. A BM utasítás 75. §-ában meghatározottakon túl az azonosító chippel ellátott járművezetőhöz kötődő ügyintézői igazolvány számának és a vezetői engedély AM kategóriájának rögzítését a BV GEI, a BVEK és a BVOTRK hajtja végre."
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22. §",
+      "content": "22. Az e-menetlevéllel kapcsolatos feladatok: a) a bv. szerv vezetője által kijelölt JKR dashboard felhasználó végrehajtja a használatában álló szolgálati gépjármű – beleértve a megosztott szolgálati gépjárművet is – tekintetében az e-menetlevél heti szintű előkészítését, és intézkedik az e-menetlevelek havi szintű hitelesítésére, b) a BVOP használatában álló szolgálati gépjármű e-menetlevelének előkészítését és hitelesítését a BV GEI hajtja végre, c) az előkészítést és hitelesítést nem hajthatja végre ugyanaz a személy, d) az e-menetlevél havi szintű hitelesítésének szúrópróbaszerű ellenőrzésére valamennyi bv. szerv vezetője havonta intézkedik."
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23. §",
+      "content": "23. A BV GEI intézkedik a negyedévet követő hónap 5. napjáig a JKR-t érintő fejlesztési igények, a JKR-t szabályozó normatív környezetet és felhasználói kézikönyvet érintő módosítások, változtatások rögzítésére és közlésére a BM VBBFO felé. A BV GEI a feladat végrehajtásáról 5 munkanapon belül tájékoztatja a MEF-et."
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24. §",
+      "content": "24. A BV GEI a tárgyhót követő hónap 20. napjáig státuszjelentést küld a BM VBBFO részére a JKR-be integrált szolgálati gépjármű nyomonkövethetőségének állapotáról. A BV GEI a feladat végrehajtásáról 5 munkanapon belül tájékoztatja a MEF-et. V. ZÁRÓ RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25. §",
+      "content": "25. Ez az utasítás a közzétételét követő napon lép hatályba."
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26. §",
+      "content": "26. 1 Az 5/A. pontot a 15/2026. (VII. 31.) BVOP utasítás 1. pontja iktatta be. 2 A 18. pont a 15/2026. (VII. 31.) BVOP utasítás 2. pontjával megállapított szöveg. 3 A 26. pont a 2010. évi CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette."
+    }
+  ]
+}

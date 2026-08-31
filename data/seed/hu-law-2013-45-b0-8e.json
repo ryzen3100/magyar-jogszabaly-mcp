@@ -1,0 +1,1019 @@
+{
+  "id": "hu-law-2013-45-b0-8e",
+  "type": "statute",
+  "title": "45/2013. (XI. 15.) ORFK utasítás az intranethálózat működtetéséről, valamint az Internet és elektronikus levelezési rendszer rendőrségi igénybevételének szabályairól",
+  "status": "in_force",
+  "in_force_date": "2013-12-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2013-45-B0-8E",
+  "description": "az intranethálózat működtetéséről, valamint az Internet és elektronikus levelezési rendszer rendőrségi igénybevételének szabályairól",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A jogalkotásról szóló 2010. évi CXXX. törvény 23. § (4) bekezdés c) pontjában, valamint a Rendőrségről szóló 1994. évi XXXIV. törvény 6. § (1) bekezdés b) pontjában kapott felhatalmazás alapján az Internetnek az általános rendőrségi feladatok ellátására létrehozott szerv általi igénybevétele és az intranet, valamint az egyes hálózati szolgáltatások működtetésével kapcsolatos feladat- és hatáskörök, továbbá az elektronikus levelezési rendszer kezelése rendjének meghatározása érdekében kiadom az alábbi utasítást:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "I. FEJEZET"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "ÁLTALÁNOS RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "1. Hatály"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "1. Az utasítás hatálya kiterjed"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "a) az Országos Rendőr-főkapitányságra (a továbbiakban: ORFK);"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "b) a Készenléti Rendőrségre;"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "c) a Repülőtéri Rendőr Igazgatóságra;"
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "d)"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "e)"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "f) a Rendőrségi Oktatási és Kiképző Központra;"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "g) a Nemzetközi Oktatási Központra;"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "h) a vármegyei (fővárosi) rendőr-főkapitányságokra;"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "i) a rendőrkapitányságokra és a határrendészeti kirendeltségekre"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "(a továbbiakban együtt: rendőri szervek)."
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "2. Értelmező rendelkezések"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "2. Az utasítás alkalmazásában"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "a) belső funkcionális e-mail cím: kizárólag a rendőri szervek belső hálózatán keresztül elérhető, a rendőri szervek egymás közti hivatalos kapcsolattartására szolgáló elektronikus levelezési cím;"
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "b) felhasználó: az Internet, intranet valamely szolgáltatásának igénybevételéhez – a munkaköréhez igazodó – jogosultsággal rendelkező személy;"
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "c) FTP alapú szolgáltatás: lehetővé teszi két számítógép között fájlok átvitelét, programok, dokumentumok le- és feltöltését;"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "d) hálózati rendszeradminisztrátor: az ORFK Gazdasági Főigazgatóság Informatikai Főosztály (a továbbiakban: ORFK GF INFO) vezetője;"
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "e) hálózati szolgáltatások: számítógépes munkahelyről igénybe vehető, helyi hálózati intranetről elérhető szerverszolgáltatások, amelyek hálózati forgalommal járnak;"
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "f) intranethálózat: a rendőri szervek belső, önálló számítógép-hálózata, beleértve a hálózati eszközöket, szervereket, általános célú számítógépeket, rendszer- és felhasználói szoftvereket, amely alkalmas bármely olyan technikai megoldás befogadására, amely a meglévő szolgáltatásokat nem veszélyezteti és üzembiztonsága az elvárható szintet nyújtja;"
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "g) Internetkijárat: zárt hálózatok azon csomópontja, amely lehetőséget biztosít az Internet információs és kommunikációs szolgáltatásának elérésére;"
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "h) Internetvégpont: az Internet használatára alkalmassá tett számítógép;"
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "i) nagyméretű fájl: egyszerű szövegként küldött levelek esetén a 20 MB-ot, a HTML alapú levelek esetén a 10 MB-ot meghaladó méretű fájl;"
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "j) nyilvános internetes funkcionális e-mail cím: a rendőri szervek Interneten közzétett elektronikus levelezési címe, amely alkalmas külső hálózatból érkező levelek fogadására;"
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "k) naplóállomány regisztrációs adatai: a látogatott internetes oldal címe, a munkaállomás azonosítója, a letöltött adatmennyiség, a letöltés dátuma;"
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "l) postamester: az e-mail szolgáltatást biztosító rendszer adminisztrátora, kezelője;"
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "m) rendszeradminisztrátor: a rendőri szervek informatikai rendszerében felügyeleti, beállítási, konfigurálási, jogosultságkiosztási feladatok ellátására kijelölt, és az ehhez szükséges jogosultsággal – a hálózati rendszeradminisztrátor által – felruházott személy;"
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "n) rendszergazda: a számítógép hardver és szoftver karbantartását, fejlesztését, hibáinak feltárását és – lehetőség szerinti – javítását ellátó, a szükséges számítástechnikai ismeretekkel rendelkező személy."
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "II. FEJEZET"
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "RÉSZLETES RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "3. Az Internet – felhasználóként történő – igénybevételének szabályai"
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "3. Az Internet hozzáférést az állományilletékes parancsnok, illetve a munkáltatói jogkör gyakorlójának jóváhagyását követően a hálózati rendszeradminisztrátor biztosítja a rendőri szervek felhasználói részére."
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "4. Az Internetszolgáltatás igénybevételének lehetőségét – amennyiben a felhasználó a hálózati szolgáltatás igénybevételére jogosult – az intranethálózatba bekötött és az előírásoknak megfelelő védelmi funkciókkal ellátott, valamennyi, arra alkalmas számítástechnikai eszközön biztosítani kell."
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "5. A rendőri szervek személyi állománya a Rendőrség Ideiglenes Informatikai Biztonsági Szabályzatának kiadásáról szóló ORFK utasítás alapján előírt vizsga sikeres teljesítése után jogosult a rendőri szervek hálózati szolgáltatásának használatára."
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "6. A felhasználó a rendszeradminisztrátor által biztosított, alapértelmezett jelszót köteles az első belépésnél megváltoztatni. A jelszót a felhasználó"
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "a) köteles megőrizni és meghatározott időszakonként megváltoztatni;"
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "b) más személynek nem adhatja át és egyéb módon is köteles megakadályozni az illetéktelen hozzáférést."
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "7. Az Internet igénybevétele esetén a felhasználó által látogatott oldalak naplózásra kerülnek. A naplóállományok regisztrációs adatai a 13–19. pontokban foglaltak szerint az ott felsorolt szervezeti elemek vezetőinek, továbbá ezen adatok kezelésére jogosult szerveknek, hatóságoknak kiadhatók."
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "8. Az ORFK GF INFO az informatikai rendszerek védelme érdekében központi tartalomszűrést folytat."
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "9. Az Internethasználat során a havi letöltési határ felhasználónként 4 GB, amely – a szakmai indokok megjelölésével – az állományilletékes parancsnok, illetve a munkáltatói jogkör gyakorlója kezdeményezése alapján legfeljebb 8 GB/hó letöltésig emelhető."
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "10. Az adatforgalmi korlátot meghaladó forgalmazás esetén a szolgáltatást az adott hónap hátralévő részére a hálózati rendszeradminisztrátor letiltja. A letiltás feloldását a szakmai indokok megjelölésével az állományilletékes parancsok, illetve a munkáltatói jogkör gyakorlója írásban kezdeményezi a hálózati rendszeradminisztrátornál, amelynek végrehajtása az ORFK GF INFO Informatikai Rendszeradminisztrációs Osztály (a továbbiakban: ORFK GF INFO IRO) feladata."
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "11. Három egymást követő hónapban az adatforgalmi korlátot meghaladó forgalmazás esetén az állományilletékes parancsnok, illetve a munkáltatói jogkör gyakorlója az Internethasználati jogosultság visszavonását kezdeményezheti a hálózati rendszeradminisztrátornál, az ezzel kapcsolatos adminisztrációs feladatokat az ORFK GF INFO IRO hajtja végre."
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "12. A felhasználók saját adatforgalmi adataikat a http://statistic.police.hu/kvota oldalon ellenőrizhetik."
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "4. Az Internethasználat ellenőrzése"
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "13. Az ORFK által üzemeltetett hálózaton keresztül történő Internet igénybevételének jogszerűségét az állományilletékes parancsnok, illetve a munkáltatói jogkör gyakorlója, valamint a rendőri szervek ellenőrzési szolgálatainak nyílt paranccsal rendelkező munkatársa ellenőrizheti, a felhasználóra vonatkozó, a 2. pont k) alpontja szerinti adatok másolatát a hálózati rendszeradminisztrátortól írásban kérheti."
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "14. A vizsgálat tényéről az ellenőrzést kérő személy köteles a felhasználót haladéktalanul tájékoztatni és számára hozzáférést biztosítani, az elektronikus formában rendelkezésére bocsátott, a 2. pont k) alpontja szerinti adatok – a vizsgált időszakra vonatkozó – kivonatához."
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "15. A hálózati rendszeradminisztrátor a munkakör ellátásával vélelmezhetően össze nem függő Internethasználat (a továbbiakban: indokolatlan Internethasználat) észlelése esetén írásban soron kívül tájékoztatja az érintett felhasználót és annak állományilletékes parancsnokát, illetve a munkáltatói jogkör gyakorlóját."
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "16. Indokolatlan Internethasználat vélelmezése esetén a felhasználónak lehetőséget kell adni arra, hogy az indokolatlan Internethasználat munkaköri feladatainak ellátásához szükséges voltát – az állományilletékes parancsnok, illetve a munkáltatói jogkör gyakorlója felé – bizonyítsa."
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "17. A 15. pontban foglalt tájékoztatás alapján az állományilletékes parancsnok, illetve a munkáltatói jogkör gyakorlója dönt az érintett felhasználó Internethasználati jogosultságának visszavonásáról, és erről soron kívül tájékoztatja a hálózati rendszeradminisztrátort."
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "18. Az ellenőrzések végrehajthatósága érdekében a felhasználók Internet-igénybevételének a 2. pont k) alpontja szerinti adatait az ORFK GF INFO a számítástechnikai rendszeren belül az adatvédelmi szabályoknak megfelelő ideig tárolhatja."
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "19. A szervezeti változásokból eredő indokolatlan hozzáférés észlelése esetén a szervek, szervezeti elemek vezetői haladéktalanul, írásban értesítik a hálózati rendszeradminisztrátort az indokolatlan hozzáférés megszüntetése érdekében."
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "20. Amennyiben a felhasználó Internetszolgáltatás igénybevételére vonatkozó jogosultsága megszűnik, a hálózati rendszeradminisztrátor köteles a jogosultság visszavonására haladéktalanul intézkedni. Az ORFK GF INFO IRO vezetője a jogosultságot haladéktalanul törli."
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "5. Az ORFK hálózatán kívül létesített Internetkijáratokra és -végpontokra vonatkozó speciális rendelkezések"
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "21. Az Internetszolgáltatás igénybevételét biztosító, intranethálózattól független szolgáltatási végpont létesítését a rendőri szervek, szervezeti elemek vezetői az – engedélyezésre jogosult – gazdasági országos rendőrfőkapitány-helyetteshez benyújtott, részletes indoklással ellátott írásos megkeresésben kezdeményezhetik."
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "22. Az Internetszolgáltatás igénybevételét biztosító, intranethálózattól független szolgáltatási végpont létesítése a kormányzati célú hálózatokról szóló Korm. rendelet előírásai alapján történhet. Az ezzel kapcsolatban felmerülő valamennyi létesítési, üzemeltetési költség az igénylő szervet terheli."
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "23. Az ORFK GF INFO a szolgáltatási végponton – amennyiben az nem kizárólagosan egyetlen felhasználóhoz köthető – technikai eljárással biztosítja a felhasználók azonosíthatóságát, és a 2. pont k) alpontja szerinti adatok naplózását."
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "24. A naplóállomány regisztrációs adataihoz kapcsolódó nyilvántartási feladatokat a rendőri szerv Internetvégpontokat, illetve -kijáratokat telepítő informatikai szervezeti eleme köteles végezni."
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "25. Az Internetvégpontok és -kijáratok szabályszerű működtetését az ORFK GF INFO IRO évente legalább egy alkalommal ellenőrzi."
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "26. Az érintett rendőri szerv informatikai szervezeti elemének vezetője köteles gondoskodni az Internethasználat szakmai indokoltságának rendszeres ellenőrzéséről; indokolatlan Internethasználat észlelése esetén a 15–17. pontokban foglaltak szerint jár el."
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "6. Az e-mail szolgáltatás"
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "27. A rendőri szervek elektronikus levelezőrendszerét az ORFK GF INFO IRO üzemelteti, felügyeli. Levelezés céljára a hálózati operációs rendszerhez rendszeresített levelezőszolgáltatást, a szolgáltatáshoz kapcsolódó kliens alkalmazást vagy a Robotzsaru NEO rendszert lehet használni, egyéb elektronikus levelezőrendszer, illetve szolgáltatás rendőri szervek által történő használata – a Nemzetközi Oktatási Központ kivételével – tilos."
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "28. A levelezőszolgáltatás működéséért, valamint a levelek biztonsági másolatának – az adatvédelmi szabályoknak megfelelő ideig történő – megőrzéséért a levelezőszolgáltatást működtető rendőri szerv vezetője és az általa kijelölt postamester a felelős."
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "29. Az állományilletékes parancsnok, illetve a munkáltatói jogkör gyakorlója jogosult kezdeményezni az Internet levelezési jogosultság biztosítását, illetve visszavonását a hálózati rendszeradminisztrátornál. A levelezési jogosultság biztosításával, illetve visszavonásával kapcsolatos rendszeradminisztrációs feladatokat az ORFK GF INFO IRO hajtja végre."
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "30. A forgalom ellenőrzését, felügyeletét az ORFK GF INFO IRO látja el, ennek keretében jogosult az elektronikus levelekhez csatolható, a hálózati rendszeradminisztrátor által meghatározott nagyméretű fájlok küldésének és fogadásának korlátozására."
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "31. A rendőri szerv informatikai szervezeti eleme a vírus- és biztonságvédelmi ellenőrző szoftvereket minden felhasználói munkaállomásra telepíti, ezzel az alkalmazásukat kötelezővé teszi."
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "32. A rendőri szervek teljes személyi állományának vagy nagy létszámú felhasználójának történő levélküldésre az állományilletékes parancsnok, illetve a munkáltatói jogkör gyakorlója írásbeli megkeresése alapján, a hálózati rendszeradminisztrátor engedélyével kerülhet sor."
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "7. A funkcionális e-mail címekre vonatkozó speciális szabályok"
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "33. Nyilvános internetes funkcionális e-mail címet, valamint projektszerű, korlátozott időszakra, speciális feladat ellátásához szükséges funkcionális e-mail címet legalább osztályvezető besorolású vezető igényelhet a hálózati rendszeradminisztrátortól. A kérelemnek tartalmaznia kell az egyedi elbíráláshoz szükséges indokolást, valamint a célfeladat leírását."
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "34. Belső funkcionális e-mail cím létrehozását legalább osztályvezető besorolású vezető kezdeményezheti – a 33. pont szerinti kérelemmel – a rendőri szervek informatikai szervezeti eleme vezetőjénél. A belső funkcionális e-mail cím létrehozásáról a rendszergazda gondoskodik."
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "35. A funkcionális e-mail címek névképzési szabályait az 1. melléklet, a funkcionális e-mail címekben használható rövidítéseket a 2. melléklet tartalmazza."
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "8. Nyilvános internetes funkcionális e-mail hozzáférések kezelési, lekérdezési rendje"
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "36. Rendőri szerv, szervezeti elem részére biztosított nyilvános internetes funkcionális e-mail cím esetén a rendőri szerv, szervezeti elem vezetője köteles meghatározni a postafiók hozzáférési rendjét, illetve a hozzáférésre jogosultak körét. A postafiókba érkező elektronikus leveleket munkanapokon legalább 2 óránként köteles lekérdezni a hozzáférésre jogosult személy."
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "37. Ügyeletek és panaszirodák részére biztosított nyilvános internetes funkcionális e-mail cím esetén a szerv, szervezeti elem vezetője köteles meghatározni a postafiók hozzáférési rendjét, illetve a hozzáférésre jogosultak körét. A postafiókba érkező elektronikus leveleket legalább 30 percenként köteles lekérdezni a hozzáférésre jogosult személy."
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "38. Törzsek részére biztosított nyilvános internetes funkcionális e-mail cím esetén a törzs felállításának elrendelője köteles meghatározni a postafiók hozzáférési rendjét, illetve a hozzáférésre jogosultak körét. A postafiókba érkező elektronikus leveleket a törzs tényleges működési ideje alatt legalább 10 percenként, egyéb időszakokban naponta legalább egy alkalommal köteles lekérdezni a hozzáférésre jogosult személy."
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "39. A lekérdezések rendjét a rendőri szerv, szervezeti elem vezetője, illetve beosztáshoz kötött hozzáférés esetén a hozzáféréssel rendelkező személy közvetlen vezetője – írásban – a 36–38. pontokban meghatározottaknál gyakrabban is elrendelheti."
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "40. A postafiókban tárolt levelek karbantartásáért, a tartalomarchiválási és selejtezési feladatok végrehajtásáért a rendőri szervek, szervezeti elemek, beosztáshoz kötött hozzáférés esetén a hozzáféréssel rendelkező személyek felelősek."
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "9. Egyéb adatátviteli korlátozások"
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "41. Az intraneten nagyméretű, illetve nagyszámú fájlt továbbítani kivételes esetben, a hálózati rendszeradminisztrátor engedélyével, szolgálati célból lehet."
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "42. Amennyiben a nagyméretű, illetve a nagyszámú fájl jogosulatlan továbbítása az intranet szolgálati célú forgalmát huzamosabb ideig, jelentősen korlátozza, a továbbítás kezdeményezőjétől a hálózati szolgáltatásokat a hálózati rendszeradminisztrátor visszavonja."
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "43. Az intranethez kapcsolódó számítógépeken fájlcserélő, fájlmegosztó alkalmazás üzemeltetésére kizárólag a hálózati rendszeradminisztrátor engedélyével kerülhet sor."
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "10. Publikus információszolgáltatások engedélyezése, működtetése"
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "44. Az intraneten, illetve a lokális hálózatokon www szolgáltatást biztosító szerver működtetését – a hálózati rendszeradminisztrátor és az ORFK Kommunikációs Szolgálat vezetőjének ellenjegyzésével, amennyiben annak technikai feltételei rendelkezésre állnak – a rendőri szervek vezetői engedélyezhetik."
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "45. Honlapot kizárólag nyílt forráskódú programmal lehet kialakítani. A kialakított portál teljes forráskódjának az ORFK tulajdonában kell állnia."
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "46. Amennyiben a www alapú szolgáltatásban a megosztott fájl folyamatos zene, film, videó, vagy egyéb műsorszórás jellegű tartalmat hordoz, úgy a szolgáltatás beindításához a hálózati rendszeradminisztrátor előzetes engedélye szükséges."
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "47. Olyan FTP alapú szolgáltatás, amelyről szolgálati érdekből bárki programokat, dokumentumokat másolhat le, tölthet le, kizárólag a hálózati rendszeradminisztrátor engedélyével üzemeltethető."
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "III. FEJEZET"
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "ZÁRÓ RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "48. Ez az utasítás – a 49. pontban foglalt kivétellel – 2013. december 1-jén lép hatályba."
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "49. Az 55. pont 2014. március 1-jén lép hatályba."
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "50–51."
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "52. A rendőri szervek kommunikációs hálózata és informatikai rendszereinek védelme érdekében az ORFK GF INFO köteles az engedély nélküli internetes, illetve egyéb hálózati kapcsolatok feltárására, valamint – a gazdasági országos rendőrfőkapitány-helyettes egyidejű tájékoztatása mellett – az ilyen kapcsolat megszüntetésére."
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "53–54."
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "55."
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "a) rendőri szervek, azok szervezeti elemei részére névképzési szabály: szervezetiegység.szerv@varmegye.police.hu"
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "b) folyamatos szolgálatot ellátó ügyelet részére névképzési szabály: ugyelet.szerv@varmegye.police.hu"
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "c) írásban kijelölt sajtó vagy kommunikációs szervezeti elem, munkatárs részére névképzési szabály: sajto.szerv@varmegye.police.hu"
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "d) írásban kijelölt EU integrációs vagy schengeni feladatok ellátására kijelölt munkatárs részére névképzési szabály: euint.szerv@varmegye.police.hu"
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "e) önálló szervezeti elemként működő panasziroda részére névképzési szabály: panasz.szerv@varmegye.police.hu"
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "f) törzsek részére névképzési szabály: torzs.szerv@varmegye.police.hu"
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "I."
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "A belső funkcionális e-mail címekben használható, a rendszeresített beosztásokhoz kapcsolódó rövidítések"
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "1. Vármegyei rendőr-főkapitányság vezető: fokap"
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "2. Vármegyei rendőr-főkapitányság vezetőhelyettes: fokaph"
+    },
+    {
+      "provision_ref": "s107",
+      "section": "107",
+      "title": "107",
+      "content": "3. Főigazgató: foigv"
+    },
+    {
+      "provision_ref": "s108",
+      "section": "108",
+      "title": "108",
+      "content": "4. Igazgató: igv"
+    },
+    {
+      "provision_ref": "s109",
+      "section": "109",
+      "title": "109",
+      "content": "5. Parancsnok: pk"
+    },
+    {
+      "provision_ref": "s110",
+      "section": "110",
+      "title": "110",
+      "content": "6. Főosztályvezető: fov"
+    },
+    {
+      "provision_ref": "s111",
+      "section": "111",
+      "title": "111",
+      "content": "7. Szolgálatvezető: szolgv"
+    },
+    {
+      "provision_ref": "s112",
+      "section": "112",
+      "title": "112",
+      "content": "8. Kapitányságvezető: kapvez"
+    },
+    {
+      "provision_ref": "s113",
+      "section": "113",
+      "title": "113",
+      "content": "9. Határrendészeti kirendeltségvezető: hrkvez"
+    },
+    {
+      "provision_ref": "s114",
+      "section": "114",
+      "title": "114",
+      "content": "10. Osztályvezető: ov"
+    },
+    {
+      "provision_ref": "s115",
+      "section": "115",
+      "title": "115",
+      "content": "11. Alosztályvezető: alov"
+    },
+    {
+      "provision_ref": "s116",
+      "section": "116",
+      "title": "116",
+      "content": "12. Őrsparancsnok: orspk"
+    },
+    {
+      "provision_ref": "s117",
+      "section": "117",
+      "title": "117",
+      "content": "13. Csoportvezető: csopvez"
+    },
+    {
+      "provision_ref": "s118",
+      "section": "118",
+      "title": "118",
+      "content": "14. Kiemelt főreferens: kfr"
+    },
+    {
+      "provision_ref": "s119",
+      "section": "119",
+      "title": "119",
+      "content": "15. Kiemelt főelőadó: kfea"
+    },
+    {
+      "provision_ref": "s120",
+      "section": "120",
+      "title": "120",
+      "content": "16. Főelőadó: fea"
+    },
+    {
+      "provision_ref": "s121",
+      "section": "121",
+      "title": "121",
+      "content": "17. Előadó: ea"
+    },
+    {
+      "provision_ref": "s122",
+      "section": "122",
+      "title": "122",
+      "content": "18. Segédelőadó: sea"
+    },
+    {
+      "provision_ref": "s123",
+      "section": "123",
+      "title": "123",
+      "content": "II."
+    },
+    {
+      "provision_ref": "s124",
+      "section": "124",
+      "title": "124",
+      "content": "A szervek, szervezeti egységek és szervezeti elemek e-mail címeiben használható rövidítések"
+    },
+    {
+      "provision_ref": "s125",
+      "section": "125",
+      "title": "125",
+      "content": "(jogosultsági szintnek megfelelő nyilvános internetes funkcionális vagy"
+    },
+    {
+      "provision_ref": "s126",
+      "section": "126",
+      "title": "126",
+      "content": "belső funkcionális e-mail címek)"
+    },
+    {
+      "provision_ref": "s127",
+      "section": "127",
+      "title": "127",
+      "content": "1. Országos Rendőr-főkapitányság: orfk"
+    },
+    {
+      "provision_ref": "s128",
+      "section": "128",
+      "title": "128",
+      "content": "2. Vármegyei Rendőr-főkapitányság: mrfk"
+    },
+    {
+      "provision_ref": "s129",
+      "section": "129",
+      "title": "129",
+      "content": "3. Főigazgatóság: foig"
+    },
+    {
+      "provision_ref": "s130",
+      "section": "130",
+      "title": "130",
+      "content": "4. Igazgatóság: ig"
+    },
+    {
+      "provision_ref": "s131",
+      "section": "131",
+      "title": "131",
+      "content": "5. Főosztály: fo"
+    },
+    {
+      "provision_ref": "s132",
+      "section": "132",
+      "title": "132",
+      "content": "6. Szolgálat: szolg"
+    },
+    {
+      "provision_ref": "s133",
+      "section": "133",
+      "title": "133",
+      "content": "7. Rendőrkapitányság: rk"
+    },
+    {
+      "provision_ref": "s134",
+      "section": "134",
+      "title": "134",
+      "content": "8. Határrendészeti kirendeltség: hrk"
+    },
+    {
+      "provision_ref": "s135",
+      "section": "135",
+      "title": "135",
+      "content": "9. Osztály: o"
+    },
+    {
+      "provision_ref": "s136",
+      "section": "136",
+      "title": "136",
+      "content": "10. Rendőrőrs: ors"
+    },
+    {
+      "provision_ref": "s137",
+      "section": "137",
+      "title": "137",
+      "content": "11. Körzeti Megbízotti Iroda: kmb"
+    },
+    {
+      "provision_ref": "s138",
+      "section": "138",
+      "title": "138",
+      "content": "III."
+    },
+    {
+      "provision_ref": "s139",
+      "section": "139",
+      "title": "139",
+      "content": "Szakterületek e-mail címeiben használható rövidítések"
+    },
+    {
+      "provision_ref": "s140",
+      "section": "140",
+      "title": "140",
+      "content": "(jogosultsági szintnek megfelelően nyilvános internetes funkcionális vagy belső funkcionális e-mail címek)"
+    },
+    {
+      "provision_ref": "s141",
+      "section": "141",
+      "title": "141",
+      "content": "1. Bűnügy: bunugy"
+    },
+    {
+      "provision_ref": "s142",
+      "section": "142",
+      "title": "142",
+      "content": "2. Vizsgálat: vizsg"
+    },
+    {
+      "provision_ref": "s143",
+      "section": "143",
+      "title": "143",
+      "content": "3. Rendészet: rend"
+    },
+    {
+      "provision_ref": "s144",
+      "section": "144",
+      "title": "144",
+      "content": "4. Közbiztonság: kozb"
+    },
+    {
+      "provision_ref": "s145",
+      "section": "145",
+      "title": "145",
+      "content": "5. Közrendvédelem: kozr"
+    },
+    {
+      "provision_ref": "s146",
+      "section": "146",
+      "title": "146",
+      "content": "6. Közlekedésrendészet: kozl"
+    },
+    {
+      "provision_ref": "s147",
+      "section": "147",
+      "title": "147",
+      "content": "7. Igazgatásrendészet: igrend"
+    },
+    {
+      "provision_ref": "s148",
+      "section": "148",
+      "title": "148",
+      "content": "8. Idegenrendészet: idrend"
+    },
+    {
+      "provision_ref": "s149",
+      "section": "149",
+      "title": "149",
+      "content": "9. Határrendészet: hatrend"
+    },
+    {
+      "provision_ref": "s150",
+      "section": "150",
+      "title": "150",
+      "content": "10. Elemző-értékelő: elemzo"
+    },
+    {
+      "provision_ref": "s151",
+      "section": "151",
+      "title": "151",
+      "content": "11. Ellenőrzés: ell"
+    },
+    {
+      "provision_ref": "s152",
+      "section": "152",
+      "title": "152",
+      "content": "12. Felderítés: feld"
+    },
+    {
+      "provision_ref": "s153",
+      "section": "153",
+      "title": "153",
+      "content": "13. Bűnügyi-technika: bt"
+    },
+    {
+      "provision_ref": "s154",
+      "section": "154",
+      "title": "154",
+      "content": "14. Közgazdaság: kozg"
+    },
+    {
+      "provision_ref": "s155",
+      "section": "155",
+      "title": "155",
+      "content": "15. Költségvetés: kolts"
+    },
+    {
+      "provision_ref": "s156",
+      "section": "156",
+      "title": "156",
+      "content": "16. Közbeszerzés: kozbesz"
+    },
+    {
+      "provision_ref": "s157",
+      "section": "157",
+      "title": "157",
+      "content": "17. Illetmény és Bérszámfejtés: ibsz"
+    },
+    {
+      "provision_ref": "s158",
+      "section": "158",
+      "title": "158",
+      "content": "18. Jog: jog"
+    },
+    {
+      "provision_ref": "s159",
+      "section": "159",
+      "title": "159",
+      "content": "19. Sajtó és kommunikáció: sajto"
+    },
+    {
+      "provision_ref": "s160",
+      "section": "160",
+      "title": "160",
+      "content": "20. Ügyelet: ugyelet"
+    },
+    {
+      "provision_ref": "s161",
+      "section": "161",
+      "title": "161",
+      "content": "21. Panasz: panasz"
+    },
+    {
+      "provision_ref": "s162",
+      "section": "162",
+      "title": "162",
+      "content": "22. Humánigazgatás: human"
+    },
+    {
+      "provision_ref": "s163",
+      "section": "163",
+      "title": "163",
+      "content": "23. Gazdaság: gazd"
+    },
+    {
+      "provision_ref": "s164",
+      "section": "164",
+      "title": "164",
+      "content": "24. Híradástechnika: hi"
+    },
+    {
+      "provision_ref": "s165",
+      "section": "165",
+      "title": "165",
+      "content": "25. Informatika: info"
+    },
+    {
+      "provision_ref": "s166",
+      "section": "166",
+      "title": "166",
+      "content": "26. Hivatal: hiv"
+    },
+    {
+      "provision_ref": "s167",
+      "section": "167",
+      "title": "167",
+      "content": "27. Titkárság: titk"
+    },
+    {
+      "provision_ref": "s168",
+      "section": "168",
+      "title": "168",
+      "content": "28. Oktatás és Kiképzés: okt 1 Az 1. pont a 25/2016. (X. 6.) ORFK utasítás 63. pontjával megállapított szöveg. 2 Az 1. pont d) alpontját a 38/2016. (XII. 29.) ORFK utasítás 35. pontja hatályon kívül helyezte. 3 Az 1. pont e) alpontját a 17/2025. (VI. 30.) ORFK utasítás 22. pont a) alpontja hatályon kívül helyezte. 4 Az 1. pont h) alpontja a 40/2022. (XII. 30.) ORFK utasítás 85. pont a) pontja szerint módosított szöveg. 5 A 2. pont d) alpontja a 11/2025. (IV. 10.) ORFK utasítás 9. pont a) alpontja szerint módosított szöveg. 6 A 2. pont m) alpontja a 11/2025. (IV. 10.) ORFK utasítás 9. pont b) alpontja szerint módosított szöveg. 7 A 8. pont a 11/2025. (IV. 10.) ORFK utasítás 9. pont c) alpontja szerint módosított szöveg. 8 A 10. pont a 11/2025. (IV. 10.) ORFK utasítás 9. pont d) alpontja szerint módosított szöveg. 9 A 11. pont a 11/2025. (IV. 10.) ORFK utasítás 9. pont c) alpontja szerint módosított szöveg. 10 A 18. pont a 11/2025. (IV. 10.) ORFK utasítás 9. pont c) alpontja szerint módosított szöveg. 11 A 20. pont a 11/2025. (IV. 10.) ORFK utasítás 9. pont c) alpontja szerint módosított szöveg. 12 A 21. pont a 40/2022. (XII. 30.) ORFK utasítás 85. pont b) pontja szerint módosított szöveg. 13 A 23. pont a 11/2025. (IV. 10.) ORFK utasítás 9. pont c) alpontja szerint módosított szöveg. 14 A 25. pont a 11/2025. (IV. 10.) ORFK utasítás 9. pont c) alpontja szerint módosított szöveg. 15 A 27. pont a 13/2015. (VII. 10.) ORFK utasítás 103. pontja, a 25/2016. (X. 6.) ORFK utasítás 64. pontja, a 11/2025. (IV. 10.) ORFK utasítás 9. pont c) pontja, a 17/2025. (VI. 30.) ORFK utasítás 22. pont b) alpontja szerint módosított szöveg. 16 A 29. pont a 11/2025. (IV. 10.) ORFK utasítás 9. pont c) alpontja szerint módosított szöveg. 17 A 30. pont a 11/2025. (IV. 10.) ORFK utasítás 9. pont c) alpontja szerint módosított szöveg. 18 Az 50–51. pont a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette. 19 Az 52. pont a 40/2022. (XII. 30.) ORFK utasítás 85. pont c) pontja, a 11/2025. (IV. 10.) ORFK utasítás 9. pont c) alpontja szerint módosított szöveg. 20 Az 53–54. pontot az 55. pont hatályon kívül helyezte. 21 Az 55. pont a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette. 22 Az 1. melléklet a 40/2022. (XII. 30.) ORFK utasítás 84. pontjával megállapított szöveg. 23 Az 1. melléklet d) alpontja a 11/2025. (IV. 10.) ORFK utasítás 9. pont e) alpontja szerint módosított szöveg. 24 A 2. melléklet I. rész 1. pontja a 40/2022. (XII. 30.) ORFK utasítás 85. pont d) pontja szerint módosított szöveg. 25 A 2. melléklet I. rész 2. pontja a 40/2022. (XII. 30.) ORFK utasítás 85. pont d) pontja szerint módosított szöveg. 26 A 2. melléklet II. rész 2. pontja a 40/2022. (XII. 30.) ORFK utasítás 85. pont d) pontja szerint módosított szöveg."
+    }
+  ]
+}

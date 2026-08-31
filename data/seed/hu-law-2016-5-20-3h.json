@@ -1,0 +1,60 @@
+{
+  "id": "hu-law-2016-5-20-3h",
+  "type": "statute",
+  "title": "5/2016. (VIII. 16.) NMHH rendelet az interfészek bejelentéséhez kapcsolódó műszaki leírások tartalmi követelményeiről és az azokhoz való hozzáférés előírásáról",
+  "status": "in_force",
+  "in_force_date": "2016-10-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2016-5-20-3H",
+  "description": "az interfészek bejelentéséhez kapcsolódó műszaki leírások tartalmi követelményeiről és az azokhoz való hozzáférés előírásáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § E rendelet hatálya kiterjed a) minden olyan hálózati- és előfizetői interfészre (a továbbiakban együtt: interfész), amelyet elektronikus hírközlési szolgáltatás nyújtásához használnak, kivéve az analóg kéthuzalos távbeszélő szolgáltatáshoz hozzáférést biztosító eszközt és b) az elektronikus hírközlési szolgáltatás nyújtásához használt elektronikus hírközlő hálózat üzemeltetőjére, valamint az elektronikus hírközlési szolgáltatást nyújtó szolgáltatóra (a továbbiakban együtt: szolgáltató)."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § E rendelet alkalmazásában: 1. Az interfész bejelentések típusai: a) bejelentett interfész: a Nemzeti Média- és Hírközlési Hatóság által nyilvántartásba vett, a rendelet 1. mellékletében meghatározott jellemzőkkel bejelentett interfész; b) hivatkozott interfész: olyan interfész, amely nyilvántartásba vett – a szolgáltató által használni kívánt interfésszel megegyező tulajdonságú – interfész azonosító kódja alapján megfeleltethető. 2. Az interfész jellemzői: a) az interfész mechanikai jellemzői (fizikai kapcsolat megvalósulása): fizikai (mechanikai) kapcsolódási pont, amihez az előfizető csatlakozik a szolgáltatás igénybevétele céljából. A mechanikai jellemzői leírás alkalmas arra, hogy lehetővé tegye a végberendezés gyártója számára, hogy a végberendezésnek az előfizetői hozzáférési ponthoz történő megbízható csatlakozásához megtervezzen vagy kiválasszon egy csatlakozót vagy egy adapter-kábelt; b) az interfész elektromos és elektromágneses jellemzői: a fizikai megvalósítás közvetlenül mérhető vagy vizsgálható elektromágneses jellemzői a mérési és vizsgálati módszerekkel együtt, különösen a jelszintek, jelformák, hangossági szint (analóg távbeszélő csatlakozás esetén), térerő, hullámimpedancia, frekvencia, táplálás, távtáplálás és azok szélső értékei, kódolás, modulációs eljárások; ba) a jel tulajdonságai: az interfész elektromos jellemzőinek részletes adatai – az átviteli sebességek tartománya, az interfész által elfogadott és kiadott jelteljesítmény tartomány, az impulzusmaszk, a vonali kódolás, impedancia, időzítési korlátok; bb) szinkronizálás: amely során a szolgáltatás hálózati szinkronforrást biztosít, vagy megkívánja a hálózathoz történő összehangolást valamely szinkronjel felhasználásával az együttműködés megvalósításához; bc) táplálási feltételek: olyan feltételek, ahol a tápfeszültség az interfészen át biztosított; c) az interfész rádiós jellemzői: a felhasznált frekvencia vagy frekvenciasáv és az alkalmazott kimenő teljesítmény meghatározása. 3. Az interfész eljárási és logikai jellemzői: az üzenetek irányítására, célba juttatására, az összeköttetések fenntartására, módosítására és bontására, hibavédelmére, folyamatosságára, továbbá a hálózattal való együttműködésre szolgáló eljárások és jelzéskészletek összessége a hálózaton nyújtott szolgáltatások igénybevételéhez, valamint a digitális rendszereknél az adatkapcsolati és hálózati réteg jellemzők."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) A szolgáltató az interfészeket e rendelet 1. mellékletében foglalt adatlap kitöltésével vagy elektronikus kapcsolattartás esetében a Nemzeti Média- és Hírközlési Hatóság (a továbbiakban: Hatóság) honlapján elérhető elektronikus űrlap kitöltésével, a szolgáltatásokra vonatkozó hatósági osztályozás alapján, szolgáltatásonként és a szolgáltatások igénybevételére alkalmazott interfész típusonként legkésőbb a szolgáltatásnyújtás megkezdésekor köteles bejelenteni a Hatósághoz. (2) A szolgáltató a hivatkozott interfésszel azonos típusú interfészeket az 1. mellékletben foglalt adatlap „Műszaki leírás” rovatának kitöltését mellőzve, a hivatkozott interfész hivatkozási kódjának megadásával is bejelenthet. (3) A szolgáltató a nyilvántartásba vett interfészek valamennyi módosítását köteles a módosítás bevezetéséig bejelenteni, ha a módosítás érinti a (4) vagy az (5) bekezdésben foglalt valamely követelmény teljesítését, így különösen a szoftver verzióváltást, új választható követelmények alkalmazását, az interfész elektromos és elektromágneses jellemzőinek, továbbá eljárási és logikai jellemzőinek módosítását. (4) Nemzeti, európai vagy nemzetközi szabványnak vagy szabvány jellegű dokumentumnak megfelelő interfész bejelentése esetén, az elektronikus hírközlésről szóló törvényben meghatározottak alapján kell eljárni. Egyéb interfész bejelentése esetén, a bejelentéshez csatolni kell az e rendeletben meghatározott követelményeknek megfelelő műszaki leírást. A műszaki leírás szöveges részeit a szellemi alkotások védelmére vonatkozó jogszabályok szerint kell megadni. (5) Az előfizetői interfész műszaki leírásának kellően részletesnek kell lennie ahhoz, hogy lehetővé tegye olyan elektronikus hírközlő végberendezés megtervezését, amely képes az adott interfészen keresztül elérhető összes szolgáltatás igénybevételére, valamint tartalmaznia kell azokat a további információkat is, amelyek a gyártó elektronikus hírközlő végberendezéssel kapcsolatos, alapvető követelményekre vonatkozó vizsgálatának elvégzéséhez szükségesek. (6) A hálózati interfész műszaki leírásának lehetővé kell tennie azon elektronikus hírközlő berendezések meghatározását és kiválasztását, amelyek az interfészen keresztül szolgáltatások nyújtására alkalmasak, továbbá kellően részletesnek kell lennie ahhoz, hogy a szolgáltató felkészülhessen annak vizsgálatára, hogy az interfészen keresztül megvalósított összekapcsoláskor a hálózatok együttműködésére vonatkozó követelmények teljesülnek-e."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) A Hatóság a nyilvántartásba vétel során az interfészeket műszaki jellemzőik alapján osztályba sorolja, az egyes interfészek hivatkozási kódját megállapítja. (2) Az interfész bejelentéseket a Hatóság bejelentett vagy hivatkozott interfészenként veszi nyilvántartásba. A Hatóság interfész nyilvántartása nyilvános. (3) A Hatóság a nyilvántartásba vett, bejelentett interfészek műszaki tartalmát honlapján közzéteszi. (4) Az e rendeletben foglalt kötelezettségek teljesítését a Hatóság általános hatósági felügyeleti eljárás keretében rendszeresen ellenőrzi."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § A nyilvántartásba vétel iránti eljárásáért a Nemzeti Média- és Hírközlési Hatóság egyes eljárásainak igazgatási szolgáltatási díjairól és a díjfizetés módjáról szóló NMHH rendeletben foglaltak szerint igazgatási szolgáltatási díjat kell fizetni."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § Ez a rendelet 2016. október 1. napján lép hatályba."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § (1) Ez a rendelet az Európai Elektronikus Hírközlési Kódex létrehozásáról szóló, 2018. december 11-i (EU) 2018/1972 európai parlamenti és tanácsi irányelv 13. cikkének és I. mellékletének való megfelelést szolgálja. (2) Ez a rendelet a termékek tevékenység szerinti, új statisztikai osztályozásáról (CPA, magyarul: TESZOR) és a 3696/93/EGK tanácsi rendelet hatályon kívül helyezéséről szóló 451/2008/EK európai parlamenti és tanácsi rendelet módosításáról szóló, 2014. október 29-i 1209/2014/EU bizottsági rendelet 1. cikkének végrehajtásához szükséges rendelkezéseket állapít meg. Adatlap az interfész bejelentésére Műszaki leírás ................................................, 20................................................................................ ....................................................... cégszerű aláírás"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "Az interfész eljárási és logikai jellemzői",
+      "definition": "az üzenetek irányítására, célba juttatására, az összeköttetések fenntartására, módosítására és bontására, hibavédelmére, folyamatosságára, továbbá a hálózattal való együttműködésre szolgáló eljárások és jelzéskészletek összessége a hálózaton nyújtott szolgáltatások igénybevételéhez, valamint a digitális rendszereknél az adatkapcsolati és hálózati réteg jellemzők.",
+      "source_provision": "s2"
+    }
+  ]
+}

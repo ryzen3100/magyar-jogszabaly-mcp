@@ -1,0 +1,821 @@
+{
+  "id": "hu-law-2022-6-b0-8e",
+  "type": "statute",
+  "title": "6/2022. (II. 4.) ORFK utasítás a sebességméréssel összefüggő feladatokról",
+  "status": "in_force",
+  "in_force_date": "2022-03-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2022-6-B0-8E",
+  "description": "a sebességméréssel összefüggő feladatokról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A jogalkotásról szóló 2010. évi CXXX. törvény 23. § (4) bekezdés c) pontjában, valamint a Rendőrségről szóló 1994. évi XXXIV. törvény 6. § (1) bekezdés b) pontjában kapott felhatalmazás alapján, a sebességméréssel összefüggő feladatok szabályozására kiadom az alábbi utasítást:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "I. FEJEZET"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "ÁLTALÁNOS RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "1. Hatály"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "1. Az utasítás szervi hatálya kiterjed"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "a) az Országos Rendőr-főkapitányságra (a továbbiakban: ORFK);"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "b) a Készenléti Rendőrségre (a továbbiakban: KR);"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "c) a Rendőrségi Oktatási és Kiképző Központra (a továbbiakban: ROKK);"
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "d) a vármegyei (fővárosi) rendőr-főkapitányságokra (a továbbiakban együtt: területi szerv), valamint"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "e) a rendőrkapitányságokra és a határrendészeti kirendeltségekre (a továbbiakban együtt: helyi szerv)."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "2. Az utasítás tárgyi hatálya kiterjed"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "a) a közúti ellenőrzésre szolgáló járműsebesség-mérésre alkalmas technikai eszközök, ideértve a változtatható helyű és a fix telepítésű Komplex Közlekedési Ellenőrzési Pont (a továbbiakban: KKEP) (a továbbiakban valamennyi technikai eszköz együtt: sebességmérő), valamint"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "b) a KKEP-hez kapcsolódó, helyszíni intézkedést elősegítő informatikai eszközök (a továbbiakban: Kézi Információs Eszköz)"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "alkalmazásával összefüggő feladatokra."
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "2. Értelmező rendelkezések"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "3. Az utasítás alkalmazásában"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "a) kezelő: a sebességmérő kezelésére az utasítás előírásai szerint jogosult személy;"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "b) területi közlekedésrendészeti szerv: a területi szerv közlekedésrendészeti főosztálya vagy osztálya;"
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "c) üzemeltető: a sebességmérőt működtető rendőri szerv."
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "d) sebességmérő elhelyezése: a szolgálati elöljáró által meghatározott helyszínre a sebességmérő kiszállítása, utasítás függvényében az állványra vagy a gépkocsiban kialakított helyen a biztonságos rögzítésének végrehajtása;"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "e) sebességmérő üzembe helyezése: a „Sebességkorlátozás” jelzőtábláról fényképfelvétel (a továbbiakban: táblás kép) készítése, külső akkumulátor csatlakoztatása és szükség szerinti cseréjének végrehajtása, GPS-antenna csatlakoztatása és kihelyezése, a sebességmérő bekapcsolása, működőképességének ellenőrzése, állványon történő mérés esetén a sebességmérő magasságának és a mérés irányának megfelelő beállítása, a sebességmérőn bejelentkezés az informatikai rendszerbe, a mérési helyszín kiválasztása, a táblás kép berögzítése, a nyilvántartás és a tényleges forgalmi rend szerinti megengedett legnagyobb sebességek összehasonlítása, ellenőrzése, automata üzemmód kiválasztása, dokumentálási távolság beállítása, fényerő, kontraszt, zoom, fókusz beállítása, valamint a fényviszonyok változásának megfelelő utánállítás végrehajtása, a sebességmérő működésének figyelemmel kísérése, szükség szerinti újraindítása, kikapcsolása."
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "II. FEJEZET"
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "RÉSZLETES RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "3. A sebességmérők elosztásával, átcsoportosításával, a hitelesítési bizonyítvány megőrzésével összefüggő feladatok"
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "4. A rendészeti rendőrfőkapitány-helyettes jogosult a sebességmérőket a területi szerv szervezeti elemei és a területi szerv irányítása alá tartozó helyi szervek között elosztani, illetve átcsoportosítani."
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "5. A rendészeti országos rendőrfőkapitány-helyettes a gazdasági országos rendőrfőkapitány-helyettes ellenjegyzésével jogosult a sebességmérőket a területi szervek között, meghatározott időtartamra, konkrét feladat végrehajtására vagy véglegesen átcsoportosítani."
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "6. A fix telepítésű KKEP készülékek eredeti hitelesítési bizonyítványának megőrzéséről az ORFK Gazdasági Főigazgatóság Informatikai Főosztály vezetője gondoskodik."
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "7. A 6. pont szerinti eszközök körébe nem tartozó, területi vagy helyi szerv által üzemeltetett sebességmérő esetében a hitelesítési bizonyítvány megőrzéséről a területi szerv vezetője gondoskodik."
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "4. A sebességmérő alkalmazásának személyi feltételei és az ennek biztosításához kapcsolódó feladatok"
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "8. Sebességmérővel joghatással járó ellenőrző tevékenységet a 9. pont b) és c) alpontja szerinti kezelői oktatás sikeres elvégzését igazoló, az adott típusra megszerzett tanúsítvánnyal (a továbbiakban: tanúsítvány) rendelkező"
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "a) hivatásos állományú személy, továbbá"
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "b) a Rendőrségről szóló 1994. évi XXXIV. törvény (a továbbiakban: Rtv.) 4/A. § (3) bekezdés c) és d) pontja szerinti állományba tartozó személy a gépjárműről és annak hatósági jelzéséről felvételt készítő eszközre vonatkozó követelményekről szóló miniszteri rendeletben meghatározott sebességmérő vonatkozásában és kizárólag a sebességmérő elhelyezésére, üzembe helyezésére, valamint annak vagyonvédelmi célú őrzésére kiterjedően"
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "végezhet."
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "8/A. Az Rtv. 4/A. § (3) bekezdés c) és d) pontja szerinti állományba tartozó kezelőnek közúton és közvetlenül a közút mellett folyatott tevékenység során – ide nem értve a gépkocsiból végzett ellenőrzést – a közúti közlekedés szabályairól szóló 1/1975. (II. 5.) KPM–BM együttes rendelet szerinti fényvisszaverő mellényt vagy ruházatot kell viselnie."
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "9. A kezelői jogosultság megszerzése céljából kialakított oktatási rendszer a következő elemekből épül fel:"
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "a) kezelő-oktatók (a továbbiakban: oktató) képzése (a továbbiakban: oktatóképzés) és továbbképzése;"
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "b) tanúsítvánnyal még nem rendelkező kezelők részére szervezett és oktató által végrehajtott kezelői oktatás;"
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "c) tanúsítvánnyal már rendelkező kezelők számára szervezett és oktató által végrehajtott, a korábban megszerzett jogosultsághoz képest további sebességmérő-típus kezelésére irányuló kezelői oktatás."
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "10. A ROKK az ORFK Rendészeti Főigazgatóság Közlekedésrendészeti Főosztály (a továbbiakban: ORFK RFI KLFO) vezetőjének kezdeményezésére, az ORFK RFI KLFO közreműködésével, vizsgával záruló oktatóképzést szervez a területi közlekedésrendészeti szervek oktatói feladatra kijelölt, önálló intézkedésre jogosult hivatásos állományú tagjai részére."
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "11. Az oktatóképzést eredményes vizsgával záró személyek részére a ROKK igazolást állít ki."
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "12. A rendőrségi alkalmazás tekintetében új típusú sebességmérővel történő ellátás esetén – a sebességmérő alkalmazásával kapcsolatos ismeretek átadása érdekében – az ORFK RFI KLFO az oktatók részére soron kívül kiegészítő továbbképzést szervez."
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "13. Kezelői oktatás megtartásáról és az azon résztvevők köréről a rendészeti rendőrfőkapitány-helyettes dönt. Az e döntés alapján kijelölt oktató feladata"
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "a) a területi és a helyi szerv kezelői feladatra kijelölt állománya oktatásának előkészítése;"
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "b) az oktatás és a vizsgáztatás végrehajtása, valamint ezek dokumentálása."
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "14. A kezelői oktatás keretében egyidejűleg kiképzendő állomány létszáma nem haladhatja meg a 12 főt."
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "15. A tanúsítvánnyal még nem rendelkező kezelők részére szervezett kezelői oktatás az alábbi elemekből épül fel:"
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "a) a tevékenységhez kapcsolódó rendőri, közlekedésrendészeti, anyagi és eljárásjogi ismereteket tartalmazó elméleti oktatás;"
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "b) a sebességmérőket, azok helyes alkalmazását, valamint az üzemeltetésükhöz kapcsolódó dokumentumokat ismertető elméleti oktatás;"
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "c) az oktatás tárgyát képező sebességmérő alkalmazására felkészítő gyakorlati oktatás."
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "16. A 15. pont a) alpontja szerinti oktatás keretében az alábbiakat kell ismertetni:"
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "a) a sebességmérővel dokumentálható jogsértésekhez kapcsolódó közúti közlekedési szabályok;"
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "b) a közlekedési jogsértések elhatárolása;"
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "c) az egyes közlekedési jogsértések esetén foganatosítandó eljárási cselekmények, követendő eljárási rend, alkalmazható szankciók;"
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "d) a közúti ellenőrzés szabályai;"
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "e) a járművek szakszerű és biztonságos megállításának szabályai."
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "17. A 15. pont b) alpontja szerinti oktatás keretében az alábbiakat kell ismertetni:"
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "a) a sebességmérők típusai, azok működési elve és alapvető műszaki jellemzői;"
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "b) a sebességmérők alkalmazási feltételei, lehetőségei, előnyei és korlátai, különös figyelemmel az oktatás tárgyát képező sebességmérőre;"
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "c) az oktatás tárgyát képező sebességmérő működési elve, funkciói, beállítási lehetőségei és egyéb műszaki paraméterei;"
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "d) a 16. pont a) alpontja szerinti közúti közlekedési szabályok megtartásának ellenőrzése vonatkozásában:"
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "da) a telepítési hely megválasztásának, a sebességmérő beállításának műszaki-technikai szempontjai,"
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "db) a jogsértést bizonyító képi dokumentumokkal szembeni követelmények."
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "18. A 15. pont c) alpontja szerinti oktatást legfeljebb négyfős csoportokra bontva úgy kell végrehajtani, hogy az minden résztvevő számára külön oktatói felügyelet mellett legalább húsz perces egyéni gyakorlási lehetőséget biztosítson. Az oktatás kiterjed"
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "a) az oktatás tárgyát képező sebességmérő technikai felépítésének, a kezelő számára lényeges egységeinek, kezelőszerveinek, működtetésének ismertetésére;"
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "b) a közlekedési jogsértés elkövetésének bizonyítását megalapozó képi dokumentum készítésének technikai szabályaira és az azzal kapcsolatos szakmai elvárásokra."
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "19. A sebességmérőre vonatkozó, a 15. pont b) és c) alpontja szerinti oktatásba az oktató bevonhatja a sebességmérő gyártójának vagy forgalmazójának képviselőjét, valamint az adott típusú sebességmérő kezelésében jártas kezelőket."
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "20. Az oktatásban részesült személynek írásbeli vizsgát kell tennie a 15. pont a) és b) alpontja szerinti oktatás ismeretanyagából."
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "21. Tanúsítvánnyal már rendelkező személynek a meglévő jogosultságához képest további sebességmérő típusra vonatkozó kezelői jogosultság megszerzéséhez a 15. pont b) és c) alpontja szerinti kezelői oktatáson kell részt vennie és a 15. pont b) alpontja szerinti ismeretanyagból kell írásbeli vizsgát tennie."
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "22. Az oktató vizsgánként új, a 20. pontban előírt vizsgához a 15. pont a) és b) alpontja szerinti oktatás ismeretanyagából egyaránt legalább 15-15 kérdésből álló, a 21. pontban előírt vizsgához pedig a 15. pont b) alpontja szerinti oktatás ismeretanyagából legalább 15 kérdésből álló tesztlapot állít össze. A kitöltött tesztlapokat az oktató értékeli ki."
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "23. A 20. és 21. pont szerinti vizsga abban az esetben eredményes, ha az oktatásban részesült személy az írásbeli kérdések legalább 80 százalékát helyesen válaszolja meg és a 18. pont szerinti gyakorlati ismereteket a sebességmérő önálló kezeléséhez szükséges szinten elsajátította, melyet az oktató a vizsgalapon aláírásával igazol."
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "24. A tanúsítványt a területi közlekedésrendészeti szerv vezetője két példányban állítja ki az alábbi adattartalommal:"
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "a) kezelő személyes adatai:"
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "aa) név, rendfokozat,"
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "ab) születési név,"
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "ac) születési hely, dátum,"
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "ad) anyja neve;"
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "b) oktatott sebességmérő típusa;"
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "c) vizsga helye, időpontja;"
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "d) tanúsítványt kiállító neve, aláírása."
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "25. A területi közlekedésrendészeti szerv vezetője a tanúsítvány kiállítását követően átadja annak egy-egy példányát az oktatásban részesült személy, valamint a területi szerv személyügyi nyilvántartást végző szervezeti eleme részére, továbbá gondoskodik a KR Különleges Szolgálatok Igazgatósága Informatikai Üzemeltetési Osztály Helpdesk Alosztály (a továbbiakban: Helpdesk) útján a Robotzsaru integrált ügyviteli, ügyfeldolgozó és elektronikus iratkezelő rendszerben (a továbbiakban: Robotzsaru rendszer) az oktatott megfelelő jogosultsági szintjének beállításáról."
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "25/A. A jogosultság szintjének beállításához a hivatásos állományú kezelő szolgálatijelvény-számát, az Rtv. 4/A. § (3) bekezdés c) és d) pontja szerinti állományba tartozó kezelő esetén a jogviszonya fennállását igazoló igazolványának számát kell rögzíteni a Robotzsaru rendszerben."
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "5. A sebességmérő alkalmazására vonatkozó szabályok"
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "26. A sebességmérő megóvása, biztonsága érdekében az üzemeltetésének időtartamára a kezelőnek személyes felügyeletet vagy megfelelő – így különösen a rongálást, jogtalan eltulajdonítást késleltető, akadályozó – mechanikai védelmet kell biztosítani."
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "27. A sebességmérővel történő forgalom-ellenőrzés során az ellenőrzött jármű megállítására csak olyan módon kerülhet sor, hogy a megállítás és az ellenőrzéshez kapcsolódó intézkedések végrehajtása ne veszélyeztesse a személy- és vagyonbiztonságot, és ne járjon a forgalom jelentős akadályozásával."
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "28. Az online adattovábbításra alkalmas sebességmérővel a közlekedési jogsértésekről készített és az azzal összefüggő képi dokumentációt a sebességmérő kezelője a szolgálat során annak befejezéséig, de legkésőbb a szolgálata során történt első üzembe helyezés időpontjától számított 12 órán belül online módon továbbítja a további eljárás lefolytatására hatáskörrel és illetékességgel rendelkező hatósághoz."
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "29. Az online adattovábbításra nem alkalmas sebességmérővel készített felvételeket, valamint az adott ügyhöz tartozó dokumentációt a sebességmérő kezelője legkésőbb a szolgálat befejezéséig feltölti a Robotzsaru rendszerbe, azok tárolása és a további eljárás lefolytatására hatáskörrel és illetékességgel rendelkező hatósághoz történő továbbítása érdekében."
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "30. A telepített, kezelői felügyelet nélkül működő sebességmérők esetében az üzemeltető rendőri szerv köteles gondoskodni az utolsó adatfeltöltést követő első üzembe helyezés időpontjától számított 12 órán belüli, a 28. és 29. pont szerinti adattovábbításra, adatfeltöltésre."
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "31. A KKEP használatával összefüggésben megállításos ellenőrzést Kézi Információs Eszköz használatával kell végrehajtani, mely esetben a Kézi Információs Eszközzel a KKEP-re fel kell jelentkezni, és az ellenőrzést a telepített Nova.Mobil alkalmazásnak a „Megállításos intézkedés/Riasztások fogadása” menüpontjába belépve kell végrehajtani. A Kézi Információs Eszközzel végrehajtott megállításos ellenőrzés során a Nova.Mobil alkalmazásban a megtett intézkedéseket a lezárásának megfelelő opció kiválasztásával rögzíteni kell."
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "32. Amennyiben a megállítás helyszínén elérhető mobilinternet sávszélesség miatt az ellenőrzéshez a Kézi Információs Eszköz használata nem lehetséges, vagy az adatrögzítés során bármely okból nem vihető végig a folyamat, legkésőbb a mérést követő munkanapon intézkedni kell a jogsértés helye szerint területileg illetékes Közigazgatási Hatósági Szolgálat (a továbbiakban: KHSZ) értesítésére. Az értesítésnek tartalmaznia kell"
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "a) az elkövetés időpontját;"
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "b) az elkövetés helyét;"
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "c) a jogsértéssel érintett jármű rendszámát."
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "33. A sebességmérőt üzemeltető rendőri szerv legkésőbb az érintett időszakot megelőző 8. napig elkészíti és a területi közlekedésrendészeti szerv vezetője útján a rendészeti rendőrfőkapitány-helyettes részére jóváhagyásra felterjeszti az általa üzemeltetett sebességmérők legalább kéthetes időszakra vonatkozó vezénylési tervét, amelyben feltünteti az egyes mérések"
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "a) tervezett napját;"
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "b) tervezett idejét (azt a legszűkebb időintervallumot, amelyen belül a mérés végrehajtása várható) és"
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "c) tervezett helyét, ennek keretében"
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "ca) lakott területen álló helyzetben történő sebességmérés esetén a település nevét, a közterület megnevezését, lehetőség szerint házszám, helyrajzi szám megjelölésével, illetve az attól való távolsággal,"
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "cb) lakott területen kívüli álló helyzetben történő sebességmérés esetén az út számát és szelvényszámát,"
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "cc) menet közben végrehajtott sebességmérés esetén az ellenőrzött útszakaszt."
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "34. A 33. pont szerint jóváhagyott tervtől való eltérést – a 43. pont szerinti eset kivételével – a rendészeti rendőrfőkapitány-helyettes engedélyezi."
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "35. A sebességmérőt üzemeltető területi és helyi szerv kimutatást vezet az illetékességi területének azon útszakaszairól és helyszíneiről (a továbbiakban együtt: ellenőrzési helyszín), ahol a baleseti statisztikai adatok és egyéb közlekedésbiztonsági szempontok alapján indokolt a sebességmérés."
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "36. Az elkészített kimutatást, majd annak változásait a helyi szervek a területi közlekedésrendészeti szerv vezetője részére, az általa meghatározott határidőig jóváhagyásra felterjesztik, aki azon ellenőrzési helyszínek vonatkozásában, ahol KKEP-vel is végeznek sebességmérést, jóváhagyás esetén intézkedik az ellenőrzési helyszín regisztrációs adatbázisában (a továbbiakban: REGHELY) történő rögzítésére."
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "37. Az ellenőrzési helyszínek kimutatásban történő rögzítését megelőzően meg kell győződni arról, hogy a kialakított forgalmi rend megfelel a közút kezelője által meghatározottaknak. Amennyiben nem, úgy a változásról értesíteni kell a közút kezelőjét, az ellenőrzési helyszín pedig a körülmények tisztázásáig nem rögzíthető a kimutatásban."
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "38. Egy adott ellenőrzési helyszín vonatkozásában a kimutatásban rögzítendő adatok:"
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "a) lakott területen található ellenőrzési helyszín esetén a település és a közterület neve, lehetőség szerint házszám, helyrajzi szám, illetve az attól való távolság;"
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "b) lakott területen kívül található ellenőrzési helyszín esetén az út száma, szelvényszáma;"
+    },
+    {
+      "provision_ref": "s107",
+      "section": "107",
+      "title": "107",
+      "content": "c) az ellenőrzött járművek haladási iránya, mindkét forgalmi irány ellenőrzése esetén forgalmi irányonként (közeledő, távolodó);"
+    },
+    {
+      "provision_ref": "s108",
+      "section": "108",
+      "title": "108",
+      "content": "d) az ellenőrzési helyszín azon jellemzői, amelyek az ellenőrzött közlekedési szabály megszegésének bizonyítása tekintetében jogi jelentőséggel bírnak;"
+    },
+    {
+      "provision_ref": "s109",
+      "section": "109",
+      "title": "109",
+      "content": "e) az ellenőrzési helyszínre járműkategóriánként érvényes megengedett legnagyobb sebességek és az ezt előíró közlekedési szabályok, valamint az eltérő sebességszabályozású útszakaszok elejének és végének távolsága a sebességmérő felállítási helyétől, szükség esetén forgalmi irányonként;"
+    },
+    {
+      "provision_ref": "s110",
+      "section": "110",
+      "title": "110",
+      "content": "f) a sebességmérő telepítési helyének GPS-koordinátái;"
+    },
+    {
+      "provision_ref": "s111",
+      "section": "111",
+      "title": "111",
+      "content": "g) az ellenőrzési helyszín helyszínrajza (amennyiben az ellenőrzés alá vont útszakasz teljes hosszában nem azonos a megengedett legnagyobb sebesség)."
+    },
+    {
+      "provision_ref": "s112",
+      "section": "112",
+      "title": "112",
+      "content": "39. A sebességmérőt üzemeltető területi és helyi szerv új ellenőrzési helyszín kijelölése esetén annak felmérését és a kimutatásban történő rögzítését soron kívül elvégzi."
+    },
+    {
+      "provision_ref": "s113",
+      "section": "113",
+      "title": "113",
+      "content": "40. A kimutatás tartalmi változásait (új vagy egy korábbi ellenőrzési helyszín valamely paraméterének megváltozása) a sebességmérőt üzemeltető területi és helyi szerv úgy tárolja, hogy az egyes ellenőrzési helyszínek meghatározott időpontra vonatkozó állapota utólag is bármikor visszakereshető legyen."
+    },
+    {
+      "provision_ref": "s114",
+      "section": "114",
+      "title": "114",
+      "content": "41. Álló helyzetben történő sebességmérést kizárólag a 36. pont szerint jóváhagyott ellenőrzési helyszínen lehet végezni."
+    },
+    {
+      "provision_ref": "s115",
+      "section": "115",
+      "title": "115",
+      "content": "42. A kimutatást vagy annak az adott ellenőrzési helyszínre vonatkozó kivonatát a kezelő a mérés idején köteles magánál tartani."
+    },
+    {
+      "provision_ref": "s116",
+      "section": "116",
+      "title": "116",
+      "content": "43. A sebességmérés megkezdését megelőzően a kezelő ellenőrzi, hogy az ellenőrzési helyszín jellemzői megegyeznek-e a kimutatásban rögzített adatokkal. Ha a forgalmi rend a rögzített adatokhoz képest megváltozott, a kezelő az adott ellenőrzési helyszínen nem folytathat sebességmérést."
+    },
+    {
+      "provision_ref": "s117",
+      "section": "117",
+      "title": "117",
+      "content": "44. A forgalmi rend megváltozása esetén a kezelőnek meg kell győződnie arról – vagy kezdeményeznie kell annak megvizsgálását –, hogy a változás a közút kezelőjének intézkedése alapján történt-e."
+    },
+    {
+      "provision_ref": "s118",
+      "section": "118",
+      "title": "118",
+      "content": "45. Ha a forgalmi rend megváltozása a közút kezelőjének intézkedése alapján történt, a kimutatást készítő szerv a kimutatásban dokumentálja a változást és az adott ellenőrzési helyszínt csak akkor szerepelteti, amennyiben ott a baleseti statisztikai adatok és egyéb közlekedésbiztonsági szempontok alapján a megváltozott forgalmi rend mellett is indokolt a sebességmérés."
+    },
+    {
+      "provision_ref": "s119",
+      "section": "119",
+      "title": "119",
+      "content": "46. A sebességmérés során – annak helyszínén – a kezelőnek rendelkeznie kell a sebességmérő érvényes eredeti hitelesítési bizonyítványának papír alapú másolatával. Ennek hiányában, vagy a sebességmérőre helyezett hitelesítési tanúsító jel rongálódása vagy hiánya esetén a kezelő nem folytathat sebességmérést."
+    },
+    {
+      "provision_ref": "s120",
+      "section": "120",
+      "title": "120",
+      "content": "47. Azon ellenőrzések alkalmával, amikor a jogsértés elkövetőjét megállítják, a kezelő vagy az intézkedést végrehajtó rendőr a jogsértés elkövetője kérésére bemutatja a jogsértést bizonyító képi dokumentumot, ha a megállítás helyén lévő sebességmérő technikai kialakítása, illetve a Kézi Információs Eszköz ezt lehetővé teszik. Amennyiben ez meghatározó módon befolyásolja a szolgálati érdeket, a helyszíni bemutatást az intézkedő rendőr – az indokok megjelölésével – jogosult megtagadni, mely esetben a kérést és az elutasításának indokát jelentésben kell rögzítenie."
+    },
+    {
+      "provision_ref": "s121",
+      "section": "121",
+      "title": "121",
+      "content": "48. A KHSZ vezetője az ORFK Rendészeti Főigazgatóság Közlekedésrendészeti Főosztály vezetője által meghatározottak szerint kimutatást készít az illetékességi területéhez tartozó egyes területi rendőri szervek által készített, kezelői hibára visszavezethető okból bizonyításra alkalmatlan felvételek miatt megszüntetett ügyekről."
+    },
+    {
+      "provision_ref": "s122",
+      "section": "122",
+      "title": "122",
+      "content": "6. A fix KKEP-k működtetésére vonatkozó szabályok"
+    },
+    {
+      "provision_ref": "s123",
+      "section": "123",
+      "title": "123",
+      "content": "49. A fix KKEP által megfigyelt útszakasz (keresztmetszet) forgalmi rendjét, valamint a fix KKEP által ellenőrzött közlekedési magatartás szempontjából jelentőséggel bíró valamennyi jellemzőjét, a fix KKEP helye szerint illetékes területi közlekedésrendészeti szerv vezetője hetente legalább egy alkalommal ellenőrizteti."
+    },
+    {
+      "provision_ref": "s124",
+      "section": "124",
+      "title": "124",
+      "content": "50. Azon helyszínek esetében, ahol a fix KKEP által ellenőrzött közlekedési magatartást jelzőtábla határozza meg, a fix KKEP helye szerint illetékes területi közlekedésrendészeti szerv gondoskodik a közúti jelzőtáblák meglétének, elhelyezkedésének, láthatóságának jelentés és fényképfelvétel formájában történő dokumentálásáról. A fényképfelvételt a REGHELY-ben rögzíteni kell."
+    },
+    {
+      "provision_ref": "s125",
+      "section": "125",
+      "title": "125",
+      "content": "51. A fix KKEP helye szerint illetékes területi közlekedésrendészeti szerv abban az esetben, ha a valós forgalmi rend nem egyezik meg a bírságkiszabás alapjául szolgáló, a REGHELY-ben rögzített adatokkal, az eltérésről haladéktalanul írásban tájékoztatja a dokumentált jogsértések miatt indított hatósági eljárások lefolytatására illetékes első fokú hatóságokat, valamint a Helpdesket, amely intézkedik az érintett funkció kikapcsolására."
+    },
+    {
+      "provision_ref": "s126",
+      "section": "126",
+      "title": "126",
+      "content": "52. A területi közlekedésrendészeti szervnek meg kell győződnie arról, hogy az 51. pont szerinti eltérés a közút kezelőjének intézkedése alapján történt-e. Amennyiben igen, úgy – az ideiglenesen kialakított forgalmi rend kivételével – intézkednie kell az 53. és 54. pont szerinti feladatok végrehajtására. Amennyiben nem, úgy az 55. pont szerint kell eljárni."
+    },
+    {
+      "provision_ref": "s127",
+      "section": "127",
+      "title": "127",
+      "content": "53. Amennyiben a megengedett legnagyobb sebességet meghatározó közúti jelzőtáblák tekintetében a REGHELY adataitól eltérő forgalmi rend tapasztalható, a fix KKEP helye szerint illetékes területi közlekedésrendészeti szerv vezetője gondoskodik fényképfelvétel és helyszínrajz készítésére, továbbá az új állapot REGHELY-be történő rögzítésére."
+    },
+    {
+      "provision_ref": "s128",
+      "section": "128",
+      "title": "128",
+      "content": "54. Abban az esetben, ha a behajtást tiltó, a bekanyarodást tiltó vagy a kötelező haladási irányt meghatározó közúti jelzőtáblák, illetve a záróvonal vagy a kötelező megállás helyét jelző vonal tekintetében a REGHELY adataitól eltérő forgalmi rend tapasztalható, akkor az arról készített fényképfelvételt és helyszínrajzot a fix KKEP helye szerint illetékes területi közlekedésrendészeti szerv az ORFK RFI KLFO vezetőjének terjeszti fel, aki intézkedik a REGHELY adatok szükséges módosítására."
+    },
+    {
+      "provision_ref": "s129",
+      "section": "129",
+      "title": "129",
+      "content": "55. A fix KKEP helye szerint illetékes területi közlekedésrendészeti szerv fix KKEP által megfigyelt útszakaszon (keresztmetszeten) tapasztalt ideiglenes forgalmirend-változás (így különösen útfelújítás miatt) megszüntetését követően gondoskodik a forgalmi rend ellenőrzéséről, szükség esetén intézkedik az 53. és 54. pont szerinti feladatok végrehajtásáról. Amennyiben a helyszín jellemzői megegyeznek a REGHELY-ben tárolt adatokkal, úgy haladéktalanul írásban tájékoztatja a dokumentált jogsértések miatt indított hatósági eljárások lefolytatására illetékes első fokú hatóságokat, valamint a Helpdesket, amely intézkedik az érintett funkció bekapcsolására."
+    },
+    {
+      "provision_ref": "s130",
+      "section": "130",
+      "title": "130",
+      "content": "56. A KHSZ vezetője a fix KKEP által szolgáltatott kameraképek és adatok bizonyításra alkalmasságának biztosítása érdekében gondoskodik az illetékességi területén elhelyezett fix KKEP által generált ügyek jogsértéstípusonkénti, hetenkénti ellenőrzéséről a tekintetben, hogy a fényképfelvételek és adatok a jogsértés bizonyítására alkalmasak-e. Amennyiben a fix KKEP által generált ügyek fényképfelvételei jogsértés bizonyítására alkalmatlanok, azt a Helpdesk részére bejelenti."
+    },
+    {
+      "provision_ref": "s131",
+      "section": "131",
+      "title": "131",
+      "content": "III. FEJEZET"
+    },
+    {
+      "provision_ref": "s132",
+      "section": "132",
+      "title": "132",
+      "content": "ZÁRÓ RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s133",
+      "section": "133",
+      "title": "133",
+      "content": "57. Ez az utasítás 2022. március 1-jén lép hatályba."
+    },
+    {
+      "provision_ref": "s134",
+      "section": "134",
+      "title": "134",
+      "content": "58. Az utasítás hatálybalépését megelőzően kiállított kezelői igazolványok az utasítás hatálybalépését követően is igazolják a kezelők jogosultságát a sebességmérővel történő ellenőrző tevékenység végzésére."
+    },
+    {
+      "provision_ref": "s135",
+      "section": "135",
+      "title": "135",
+      "content": "59. 1 Az 1. pont d) alpontja a 40/2022. (XII. 30.) ORFK utasítás 175. pontja szerint módosított szöveg. 2 A 3. pont d) alpontja a 32/2023. (XII. 14.) ORFK utasítás 1. pontja iktatta be. 3 A 3. pont e) alpontja a 32/2023. (XII. 14.) ORFK utasítás 1. pontja iktatta be. 4 A 8. pont a 32/2023. (XII. 14.) ORFK utasítás 2. pontjával megállapított szöveg. 5 A 8/A. pontot a 32/2023. (XII. 14.) ORFK utasítás 3. pontja iktatta be. 6 A 25/A. pontot a 32/2023. (XII. 14.) ORFK utasítás 4. pontja iktatta be. 7 A 48. pont a 32/2023. (XII. 14.) ORFK utasítás 5. pontjával megállapított szöveg. 8 Az 59. pont a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette."
+    }
+  ]
+}

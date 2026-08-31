@@ -1,0 +1,197 @@
+{
+  "id": "hu-law-2014-2-20-2y",
+  "type": "statute",
+  "title": "2/2014. (I. 10.) VM rendelet az állami topográfiai térképi adatbázisról",
+  "status": "in_force",
+  "in_force_date": "2014-01-18",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2014-2-20-2Y",
+  "description": "az állami topográfiai térképi adatbázisról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "chapter": "I. Fejezet - ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § E rendelet alkalmazásában: 1. Aktualizálás: az adatok érvényességének megőrzésére, valamint felújítottsági, helyszíneltségi és változásvezetési állapotának karbantartására irányuló adatbeviteli, adatmódosítási tevékenység; 2. Attribútum: valamely objektum jellemzőit és tulajdonságait leíró adat; 3. Metaadat: a digitális és az analóg adatok és adathalmazok átfogó jellemzésére és ismertetésére szolgáló adatok összessége; 4. Objektum: a valós világ konkrét tárgyának, dolgának vagy jelenségének adatbázisban leképzett és ismeretekkel leírt reprezentációja, melynek szinonimája az egyed vagy elem; 5. Objektumosztály: valamely adatbázisba tartozó objektumok – közös tulajdonságok alapján történő – csoportosításának különböző szintjei; 6. Topológia: az objektumok egymáshoz viszonyított helyzetének (másképpen: az egyes pontok, vonalak és felületek szomszédsági kapcsolatainak) a konkrét koordináta-számadatokat nem használó alapelemek segítségével történő leírása."
+    },
+    {
+      "provision_ref": "s2",
+      "chapter": "I. Fejezet - ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § A földmérési és térképészeti tevékenységről szóló 2012. évi XLVI. törvény (a továbbiakban: Fttv.) 18. § (3) bekezdésében meghatározott feladatkörében a térképészetért felelős miniszter (a továbbiakban: miniszter) a nagy méretarányú állami topográfiai térképi adatbázis műszaki alapjait, adattartalmát, aktualizálását és megjelenítését szabályozza."
+    },
+    {
+      "provision_ref": "s3",
+      "chapter": "I. Fejezet - ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § Az Fttv. 18. § (3) bekezdésében meghatározott feladatkörében a honvédelemért felelős miniszter gondoskodik a közepes és kis méretarányú állami topográfiai térképi adatbázisok és térképek előállításáról, adattartalmáról és szolgáltatásának szabályozásáról."
+    },
+    {
+      "provision_ref": "s4",
+      "chapter": "I. Fejezet - ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § E rendelet hatálya nem terjed ki az Fttv. 3. § (1) bekezdés g) pontjában meghatározott adatbázisokra."
+    },
+    {
+      "provision_ref": "s5",
+      "chapter": "I. Fejezet - ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § (1) A miniszter és a honvédelemért felelős miniszter hatáskörébe rendelt különböző méretarány szerinti tartalommal készült állami topográfiai térképi adatbázisok együttesen alkotják az Fttv. 3. § (1) bekezdés e) pontjában meghatározott állami topográfiai térképi adatbázisokat. (2) Az állami topográfiai adatbázisokat az Fttv. 18. § (4) bekezdésében foglaltak szerint kell elkészíteni."
+    },
+    {
+      "provision_ref": "s6",
+      "chapter": "I. Fejezet - ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § (1) A nagy méretarányú topográfiai térképnek megfelelő adattartalommal rendelkező állami topográfiai térképi adatbázis előállításának végzése vagy végeztetése, kezelése, tárolása, abból történő adatszolgáltatás és az aktualizálásának a végzése vagy végeztetése a földmérési és térinformatikai államigazgatási szerv feladata. (2) A közepes és kis méretarányú topográfiai térképnek megfelelő adattartalommal rendelkező állami topográfiai térképi adatbázisok előállításának végzése vagy végeztetése, kezelése, tárolása, abból történő adatszolgáltatás és az aktualizálásának a végzése vagy végeztetése a honvédelemért felelős miniszter által a védelmi célokat szolgáló földmérési és térképészeti ágazati irányítási feladatokról, valamint a honvédelmi célú térképellátásról kiadott rendeletben kijelölt szervezetek (a továbbiakban: honvédelmi térképészeti szervek) feladata."
+    },
+    {
+      "provision_ref": "s7",
+      "chapter": "I. Fejezet - ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § Az állami topográfiai térképi adatbázisok a földfelszín természetes és mesterséges alakzatainak – a természetbeni állapotuknak megfelelően – síkrajzi, magassági, vízrajzi és domborzati elemeit, továbbá a mindezekhez tartozó elnevezéseket, magyarázatokat és adatokat tartalmazzák a tulajdoni viszonyokra vonatkozó információ nélkül."
+    },
+    {
+      "provision_ref": "s8",
+      "chapter": "I. Fejezet - ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § E rendelet hatálybalépése előtt, az analóg topográfiai térképek vektoros átalakításával előállított digitális térképi adatokból adatbázisba szervezett adatállományok is az állami topográfiai térképi adatbázis részét képezik, azok lecseréléséig."
+    },
+    {
+      "provision_ref": "s9",
+      "chapter": "II. Fejezet - MŰSZAKI TARTALOM",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § Az adatbázisok geometriai alapjául minden olyan terepi méréssel, vagy távérzékeléssel nyert adat felhasználható, amely kielégíti az adott térképi méretaránnyal szemben támasztott helyzeti pontosságra előírt követelményeket."
+    },
+    {
+      "provision_ref": "s10",
+      "chapter": "II. Fejezet - MŰSZAKI TARTALOM",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § (1) Az állami topográfiai térképi adatbázisok szerkezetét, adattartalmát (objektumosztályait) a méretarány-tartalom függvényében a földmérési és térinformatikai államigazgatási szerv, illetve honvédelmi térképészeti szervek által elkészített műszaki szabályzatok, objektum- és attribútum-katalógusok tartalmazzák. (2) Az állami topográfiai térképészeti adatbázisok adatfeltöltését a méretarány-tartalom függvényében a földmérési és térinformatikai államigazgatási szerv, illetve a honvédelmi térképészeti szervek által kiadott műszaki szabályzatok előírásai alapján kell végezni. (3) Az (1) bekezdésben meghatározott műszaki szabályozásokat a készítő szerveknek a honlapjukon letölthető formában közzé kell tenniük."
+    },
+    {
+      "provision_ref": "s11",
+      "chapter": "II. Fejezet - MŰSZAKI TARTALOM",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § Az adatbázisok tartalma tekintetében a 10. § (1) bekezdésében előírt műszaki dokumentáció alapján meghatározott valamennyi objektumosztály egyenlő fontosságú, és azok összhangját biztosítani kell."
+    },
+    {
+      "provision_ref": "s12",
+      "chapter": "II. Fejezet - MŰSZAKI TARTALOM",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. § Az objektum szintű metaadat az adatbázis kötelező tartalma, amelyet minden objektumnál meg kell adni. Az objektum szintű metaadatok meghatározásáról az adott méretarány-tartalmú állami topográfiai adatbázis vonatkozásában a 10. § (1) bekezdése szerinti műszaki dokumentáció rendelkezik."
+    },
+    {
+      "provision_ref": "s13",
+      "chapter": "II. Fejezet - MŰSZAKI TARTALOM",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. § Az objektumok térbeli elhelyezkedésének, alakjának, méretének és egymáshoz viszonyított helyzetének jellemzése geometriai és topológiai alapelemekkel történik. A topográfiai adatbázisokban a geometria térbeli mennyiségi leírása koordináták és matematikai függvények segítségével történik."
+    },
+    {
+      "provision_ref": "s14",
+      "chapter": "II. Fejezet - MŰSZAKI TARTALOM",
+      "section": "14",
+      "title": "14. §",
+      "content": "14. § Az állami topográfiai térképi adatbázisok tartalmazzák: a) a pontszerű objektumokat, b) a vonalas objektumokat, c) a felületszerű objektumokat, d) a szöveges objektumokat, valamint e) a képi raszteres objektumokat."
+    },
+    {
+      "provision_ref": "s15",
+      "chapter": "II. Fejezet - MŰSZAKI TARTALOM",
+      "section": "15",
+      "title": "15. §",
+      "content": "15. § (1) A topológiai leírásokat az egyes állami topográfiai térképi adatbázisok vonatkozásában a földmérési és térinformatikai államigazgatási szerv, illetve a honvédelmi térképészeti szervek által készített műszaki dokumentációk tartalmazzák. (2) Az (1) bekezdésben meghatározott topológiai leírásokat a készítő szerveknek a honlapjukon letölthető formában közzé kell tenniük."
+    },
+    {
+      "provision_ref": "s16",
+      "chapter": "II. Fejezet - MŰSZAKI TARTALOM",
+      "section": "16",
+      "title": "16. §",
+      "content": "16. § A 14. §-ban meghatározott geometriai alapelemeknek az adott méretarány-tartalmú adatbázisra definiált topológiai leírások szerint kell egymáshoz viszonyulniuk, amely viszony teljességét az állami átvétel során ellenőrizni kell."
+    },
+    {
+      "provision_ref": "s17",
+      "chapter": "II. Fejezet - MŰSZAKI TARTALOM",
+      "section": "17",
+      "title": "17. §",
+      "content": "17. § Az állami topográfiai térképi adatbázisokkal szemben támasztott pontossági követelményeket az egyes adatbázisok vonatkozásában a 10. § (1) bekezdésében meghatározott szabályzatok tartalmazzák."
+    },
+    {
+      "provision_ref": "s18",
+      "chapter": "III. Fejezet - AKTUALIZÁLÁS ÉS ÁLLAMI ÁTVÉTEL",
+      "section": "18",
+      "title": "18. §",
+      "content": "18. § (1) Az állami topográfiai térképi adatbázisok aktualizálását és felújítását a méretarány-tartalom függvényében a földmérési és térinformatikai államigazgatási szerv, illetve honvédelmi térképészeti szervek által kiadott aktualizálási és felújítási szabályzatok előírásai alapján az alábbiak szerint: a) munkaterületenként, b) vagy közigazgatási egységben, c) vagy objektum tematika szinten, d) vagy a rendelkezésre álló alapanyagok függvényében, folyamatosan kell végezni. (2) Az (1) bekezdés szerint aktualizált vagy felújított adatbázisok az állami átvételt követően válnak állami alapadattá. (3) Az átvett és bedolgozott adatok esetében az adatgazdát, mint adatforrást metaadatként fel kell tüntetni az állományban. (4) Forrásanyagként csak olyan adatok használhatók fel, amelyek kielégítik az adott állami topográfiai térképi adatbázisokkal szemben rögzített vízszintes és magassági hibahatárokat, és maradéktalanul biztosítják a szükséges geometriai elemek és attribútum tartalom teljességét."
+    },
+    {
+      "provision_ref": "s19",
+      "chapter": "III. Fejezet - AKTUALIZÁLÁS ÉS ÁLLAMI ÁTVÉTEL",
+      "section": "19",
+      "title": "19. §",
+      "content": "19. § (1) A földmérési és térinformatikai államigazgatási szerv, illetve a honvédelmi térképészeti szervek az egyes állami topográfiai térképi adatbázisok igény szerinti aktualizálásának tekintetében topográfiai tanulmányt készít és összeállítja a műszaki követelményeket. (2) A topográfiai tanulmány készítésének a célja, hogy az adott területre összegyűjtse, rendszerezze és értékelje: a) a bedolgozható állami alapadatok körére, b) a bedolgozható egyéb digitális szakterületi adatok körére, c) a topográfiai jellemzőkre, d) az avultság mértékére, e) a felszínborítottságra, f) az adatbázis aktualizálás szemléletre, illetve módszerekre, g) a nehézségi tényezőkre, és h) az egyéb munkavégzést nehezítő körülményekre vonatkozó minden információt, tényt, adatot, melyek befolyásolhatják az aktualizálási feladat végrehajtását. (3) A topográfiai tanulmány követelményeit az egyes adatbázisok vonatkozásában a földmérési és térinformatikai államigazgatási szerv, illetve a honvédelmi térképészeti szervek által elkészített műszaki szabályzatok tartalmazzák. (4) A műszaki terv készítésének célja hogy leírja: a) a feladat végrehajtásának térbeli és időbeni ütemezését, b) a feladat végrehajtásához igénybe venni kívánt technológiát, és c) a belső vizsgálati és minőségbiztosítási előírásokat. (5) A műszaki terv követelményeit az egyes állami topográfiai adatbázisok vonatkozásában a földmérési és térinformatikai államigazgatási szerv, illetve a honvédelmi térképészeti szervek által elkészített műszaki dokumentáció tartalmazza."
+    },
+    {
+      "provision_ref": "s20",
+      "chapter": "III. Fejezet - AKTUALIZÁLÁS ÉS ÁLLAMI ÁTVÉTEL",
+      "section": "20",
+      "title": "20. §",
+      "content": "20. § (1) Az állami átvétel követelményeit és az eljárás menetét a földmérési és térinformatikai államigazgatási szerv, illetve a honvédelmi térképészeti szervek által elkészített az állami átvételi eljárás rendjéről szóló műszaki dokumentáció tartalmazza. (2) Az állami átvételi eljárást legalább évente egyszer le kell folytatni, amennyiben az adott állami topográfiai térképi adatbázisból új verzió áll rendelkezésre. (3) Az állami átvételi vizsgálat során a műszaki szabályzatokban foglaltak alapján a) megfelelő, vagy b) nem megfelelő minősítést kell alkalmazni. (4) Az Fttv. 18. § (8) bekezdésében meghatározott és az adatkezelőknek átadott az állami topográfiai térképi adatbázis adattartalmát érintő adatokat minden esetben az adatbázisba történő beillesztés előtt meg kell vizsgálni, hogy az adatok megfelelnek-e a 10. § (1) bekezdésében meghatározott műszaki dokumentációkban támasztott követelményeknek. (5) Amennyiben a (4) bekezdésben lefolytatott vizsgálat során az átadott adat nem felel meg az állami átvételi eljárás rendjében meghatározott műszaki követelményeknek, akkor az átadott adatot tilos beilleszteni a topográfiai adatbázisba. Erről az adattulajdonost írásban értesíteni kell. (6) A topográfiai térképi adatbázisokba történő beépítés előtt nem kell a (4) bekezdés szerinti vizsgálatnak alávetni az Fttv. 18. § (6) bekezdése alapján átvett adatokat."
+    },
+    {
+      "provision_ref": "s21",
+      "chapter": "III. Fejezet - AKTUALIZÁLÁS ÉS ÁLLAMI ÁTVÉTEL",
+      "section": "21",
+      "title": "21. §",
+      "content": "21. § Az állami topográfiai térképi adatbázisok minőségtanúsítását szakirányú felsőfokú végzettséggel és három éves szakmai gyakorlattal rendelkező, a földmérési és térinformatikai államigazgatási szerv, illetve a honvédelmi térképészeti szervek állományába tartozó személyek végezhetik."
+    },
+    {
+      "provision_ref": "s22",
+      "chapter": "IV. Fejezet - ZÁRÓ RENDELKEZÉSEK",
+      "section": "22",
+      "title": "22. §",
+      "content": "22. § (1) Ez a rendelet a kihirdetését követő nyolcadik napon lép hatályba. (2) 1 A 22. § (2) bekezdése a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "§ E rendelet alkalmazásában",
+      "definition": "1. Aktualizálás: az adatok érvényességének megőrzésére, valamint felújítottsági, helyszíneltségi és változásvezetési állapotának karbantartására irányuló adatbeviteli, adatmódosítási tevékenység",
+      "source_provision": "s1"
+    },
+    {
+      "term": "Attribútum",
+      "definition": "valamely objektum jellemzőit és tulajdonságait leíró adat",
+      "source_provision": "s1"
+    },
+    {
+      "term": "Metaadat",
+      "definition": "a digitális és az analóg adatok és adathalmazok átfogó jellemzésére és ismertetésére szolgáló adatok összessége",
+      "source_provision": "s1"
+    },
+    {
+      "term": "Objektum",
+      "definition": "a valós világ konkrét tárgyának, dolgának vagy jelenségének adatbázisban leképzett és ismeretekkel leírt reprezentációja, melynek szinonimája az egyed vagy elem",
+      "source_provision": "s1"
+    },
+    {
+      "term": "Objektumosztály",
+      "definition": "valamely adatbázisba tartozó objektumok – közös tulajdonságok alapján történő – csoportosításának különböző szintjei",
+      "source_provision": "s1"
+    },
+    {
+      "term": "Topológia",
+      "definition": "az objektumok egymáshoz viszonyított helyzetének (másképpen: az egyes pontok, vonalak és felületek szomszédsági kapcsolatainak) a konkrét koordináta-számadatokat nem használó alapelemek segítségével történő leírása.",
+      "source_provision": "s1"
+    }
+  ]
+}

@@ -1,0 +1,947 @@
+{
+  "id": "hu-law-2008-8-b0-2k",
+  "type": "statute",
+  "title": "8/2008. (IX. 25.) NFGM utasítás a Nemzeti Fejlesztési és Gazdasági Minisztérium Informatikai Üzemeltetési Szabályzatáról",
+  "status": "repealed",
+  "in_force_date": "2008-09-26",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2008-8-B0-2K",
+  "description": "A Nemzeti Fejlesztési és Gazdasági Minisztérium Informatikai Üzemeltetési Szabályzatáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "(Informatikai Üzemeltetési Szabályzat)"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "1. Az Informatikai Üzemeltetési Szabályzat felépítése"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "1.1. Az szabályzat célja"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "A Nemzeti Fejlesztési és Gazdasági Minisztérium (a továbbiakban: NFGM) Informatikai Üzemeltetési utasításának alapvető célja, hogy megfogalmazza az Informatikai főosztály által üzemeltetett, támogatott alkalmazásokkal kapcsolatban nyújtandó szolgáltatások, valamint kapcsolódó szerepkörök feladatait, felelősségeit, illetve az IT szolgáltatásmenedzsment eljárásrendjét az alábbi főbb elvek mentén:"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "a) Az NFGM informatikai alkalmazásainak, és kapcsolódó szolgáltatásainak ismertetése,"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "b) Az IT szolgáltatásmenedzsment eljárásrendjének, szerepköreinek leírása,"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "c) Az alkalmazástámogatás tevékenységeihez kapcsolódó feladatok és felelősségek egységesítése."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "Az utasítás koncepcionálisan fogalmazza meg az informatikai alkalmazástámogatással kapcsolatos feladatköröket, teendőket és követelményeket. Az informatikai üzemeltetési szabályozás teljessé tételéhez ki kell dolgozni a konkrét, folyamatspecifikus technikai leírásokat, kapcsolódó munkautasításokat. Az elkészített dokumentációkat publikálni szükséges alkalmazásonként legkésőbb az adott fejlesztési projekt lezárásakor az Együttműködési Portál IT Alkalmazás támogató oldalán. Ezt követően folyamatosan aktualizálni szükséges a dokumentumokat."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "1.2. Alapul szolgáló vagy az utasításhoz kapcsolódó jogszabályok, belső szabályzatok és előírások"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "a) Szabályzat a Nemzeti Fejlesztési és Gazdasági Minisztérium elektronikus kommunikációjának belső rendjéről,"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "b) 1/2008. (MK 100.) a nemzeti fejlesztési és gazdasági miniszter utasítása a Nemzeti Fejlesztési és Gazdasági Minisztérium Szervezeti és Működési Szabályzatáról,"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "c) Információbiztonsági Szabályzat,"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "d) Az informatikai rendszerekre vonatkozó szabványok, ajánlások (elsősorban ITIL, BS7799),"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "e) 19. számú ajánlás a központi államigazgatás szervezeteinek internettevékenységére, valamint az általuk működtetett honlapok tartalmi és formai követelményeire (2003.),"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "f) Informatikai Archiválási Szabályzata,"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "g) Informatikai Fejlesztési Szabályzata,"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "h) Katasztrófa Terv,"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "i) NFGM – KHEM IT Szolgáltatási megállapodás,"
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "j) 2118/2006. (VI. 30.) Korm. határozat az államháztartás hatékony működését elősegítő szervezeti átalakításokról és az azokat megalapozó intézkedésekről,"
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "k) KSZF Szolgáltatási megállapodás,"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "l) Minisztériumok közti keretmegállapodás,"
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "m) Minisztériumok közti Költségvetési Megállapodás,"
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "n) Működésfolytonossági Terv."
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "1.3. Az Informatikai Üzemeltetési utasítás hatálya, alkalmazási köre"
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "1.3.1. Az utasítás személyi hatálya"
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "Az Informatikai Üzemeltetési Szabályzat (a továbbiakban: IÜSZ) hatálya kiterjed mindazon jogi és magánszemélyekre, akik az NFGM bármely szervezeti egységével munkaviszonyban, illetve munkavégzésre irányuló jogviszonyban állnak, valamint informatikai eljárásban és annak vonatkozásában vállalkozási, vagy megbízási jogviszony keretében az NFGM kezelésében lévő informatikai/számítástechnikai eszközt, alkalmazást használnak, üzemeltetnek – ezen belül különösen a szolgáltatási szerződés keretében üzemeltetési feladatokat ellátó szervezetekre és munkatársaikra. A szerződéses viszonyban és nem munkajogi kapcsolatban állók esetében a szerződéskötőnek gondoskodnia kell arról, hogy a szerződésekben az IÜSZ megfelelő előírásai kötelezettségként megjelenjenek."
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "1.3.2. Az utasítás tárgyi hatálya"
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "Az IÜSZ tárgyi hatálya kiterjed:"
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "a) Az NFGM IT alkalmazásainak felhasználóira,"
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "b) Az NFGM kezelésében lévő, a szervezeti egységei által használt, vagy általuk tárolt valamennyi:"
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "– rendszer- és a felhasználói programokra,"
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "– az adatok teljes körére, keletkezésük és felhasználásuk, valamint feldolgozásuk helyétől, továbbá a megjelenési formájuktól függetlenül,"
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "– az informatikai folyamatokban szereplő dokumentumokra."
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "Jelen szabályzat nem tér ki részletesen a Központi Szolgáltatási Főigazgatóság (a továbbiakban: KSZF) és a minisztériumok közti „Szolgáltatási megállapodás”-ban rögzített szolgáltatási feladatokra, így az alaprendszer üzemeltetésére, valamint minisztériumok közti megállapodások által szabályozott kérdésekre."
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "1.3.3. Az utasítás területi hatálya"
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "A jelen szabályzat rendelkezéseinek teljes körű és értelemszerű alkalmazása az NFGM valamennyi telephelyén elhelyezett valamennyi szervezeti egységére nézve kötelező."
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "1.4. Az informatikai rendszer felépítése"
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "A számítógépes infrastruktúra elemei (számítógépes erőforrások és az üzemeltetési mód szempontjából) a következők:"
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "a) Hálózat – az információt továbbító távoli hálózat (WAN) és az egyes épületeken belüli lokális hálózat (LAN) elemeinek összessége."
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "b) Alaprendszer"
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "– Alap hardver eszközök – egyéni és csoportos hardver eszközök."
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "– Alap szoftver eszközök – az NFGM informatikai rendszerében alkalmazott, a nemzetközi informatikai forgalomban beszerezhető szoftver eszközök."
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "c) Alkalmazások – egyedi fejlesztésű, alapvetően a hazai piac, illetve a minisztériumok sajátos igényeinek megfelelően fejlesztett szoftver eszközök."
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "1.5. Fogalommeghatározások"
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "Adat Az adatok osztályozása szempontjából adatnak tekintjük azokat a dokumentumokat, jelentéseket, információkat, leveleket stb., amelyek az informatikai rendszerben elektronikusan tárolódnak."
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "Felhasználó Mindazok, akik az informatikai szolgáltatásokat, alkalmazásokat használják. A szolgáltatások közé tartozik az egyszerű alkalmazói programoktól a szervezeti szintű rendszerekig minden informatikai alkalmazás."
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "Hozzáférés Olyan eljárás, amely lehetővé teszi valamely informatikai rendszer használója számára, hogy a rendszerben lévő adatokat elérje (írás, olvasás, módosítás, törlés stb.)."
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "Igény Ennek tekinthető a felhasználók vagy üzemeltető munkatársak részéről az informatikai rendszer bármely elemével szemben felmerülő elvárás vagy kívánalom, melyet az Informatikai Főosztály (a továbbiakban IFO) meghatározott, speciális erőforrásokkal képes megvalósítani az igénykezelési folyamat mentén."
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "Információ Az információk az informatikai rendszerekben adatok formájában jelennek meg."
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "LAN Local Area Network – Helyi hálózat"
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "Probléma Vagy egy egyedi, jelentős hatású esemény, amelynek hatása nagymértékben rontja a felhasználók számára nyújtott szolgáltatás minőségét; vagy megegyező tüneteket mutató események sorozata, amelyek valamilyen közös, de ismeretlen eredetű okra vezethetők vissza."
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "Problémakezelés A problémakezelés elsődlegesen a hibák ismert hibákká konvertálásával, majd megoldásával, illetve amennyiben ez nem lehetséges a hibajelenségek okainak meghatározásával és végül megoldásukkal foglalkozik úgy, hogy az ismert hibákból eredő események újbóli előfordulását igyekszik megelőzni. Amennyiben nem sikerül a gondot okozó eseményt egy ismert hibával azonosítani a megoldáshoz egyedi utat kell igénybe venni. Prioritást kell adni azon problémák megoldásának, amelyek jelentős károkat okozhatnak."
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "Rendelkezésre állás Biztosítani az arra jogosult felhasználóknak az alkalmazásokhoz való hozzáférést a megfelelő helyen és időben."
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "Változáskérelem Az igények változáskérelmet generálhatnak, így változáskérelem az informatikai rendszer bármely elemének megváltoztatására tett kérelem az IFO felé, mely a rendszer jobb, biztonságosabb, hatékonyabb, kényelmesebb működését eredményezheti. A kérelem kihathat a meglévő informatikai rendszer működésére, a szabályzatrendszer megváltoztatására, illetve erőforrások (emberi, anyagi) igénybevételére."
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "Változáskezelés A változáskérelem fogadását, besorolását, a változás megvalósítását vagy elvetését, valamint a megvalósult változás utógondozását együttesen változáskezelésnek nevezzük."
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "WAN Wide Area Network – nagytávolságú, területi, országos hálózat."
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "IFO – NFGM Informatikai Főosztály."
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "SLA Service Level Agreement kifejezés rövidítése, ami szolgáltatási szint szerződést jelent."
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "1.6. Az informatikai rendszer és környezet"
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "Az informatikai rendszer üzemvitele a kialakult rendszerkörnyezetben, a szervezeti egységek, az informatika területein dolgozó szakemberek, valamint minden munkatárs – a Szervezeti és Működési Szabályzatban (a továbbiakban: SZMSZ) és az informatikai üzemeltetésre vonatkozó szolgáltatói szerződésben, illetve a munkaköri leírásokban meghatározott feladat-, jog- és felelősségi körnek megfelelően – szabályozott tevékenységén keresztül valósul meg."
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "2. Informatikai Szolgáltatásmenedzsment"
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "2.1. Szolgáltatások köre"
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "Az igényelhető szolgáltatások körét jelen szabályzat 4. sz. melléklete tartalmazza részletesen. A mellékletben szereplő mélységig az igények lebontása és pontosítása az alkalmazás-szakértők feladata és felelőssége."
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "a) Projektvezetés"
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "b) Alkalmazástámogatás"
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "c) Fejlesztés"
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "Az igénylők feladata a szolgáltatásigénylési űrlap kitöltésekor, ezen három kategória egyikébe történő besorolása, a kiinduló, alap adatok megadása."
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "2.2. Szerepkörök bemutatása"
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "a) Igénylésre jogosultak köre:"
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "Az utasítás tárgyi hatálya alá tartozó szervezeti egységének vezetői, illetve blokkvezetői."
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "b) Kapcsolattartók:"
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "Az utasítás tárgyi hatálya alá tartozó, az IT-megállapodásban kijelölt döntéshozók."
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "c) Jóváhagyásra jogosult:"
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "Az igények jóváhagyott bejelentését követően az IFO- vezető jogosult a szakmai jóváhagyásra. Az egyes feladatok szakmai teljesítésének megtörténtét is ő jogosult első körben jóváhagyni."
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "d) Alkalmazás szakértők:"
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "Az NFGM alkalmazásaihoz rendelt szakértők. Feladatuk az igénykezelés szakmai támogatása, megvalósítása, illetőleg a kiegészítő, alkalmazás és IT-specifikus adatok rögzítése (dokumentálása) a nyilvántartó rendszerben."
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "2.3. IT szolgáltatásmenedzsment eljárásrend"
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "Az eljárás célja:"
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "A szolgáltatási igényt kiváltó probléma, a felhasználói igények, elvárások felmérése, megfogalmazása, valamint annak azon döntés előkészítési feladat elvégzése, amely vizsgálja az elképzelt korszerűsítési igény végrehajtásához rendelkezésre álló feltételek, lehetőségek úgymint: szükségesség, technológia, finanszírozhatóság, hasznosság meglétét."
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "Az eljárás alapvető célja az IT szolgáltatási körének folyamatos napra készen tartása, a szolgáltatások minőségének javítása, költséghatékonyság növelése, a visszamérhetőség lehetőségének megteremtésével."
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "2.3.1. Szolgáltatási igény bejelentése"
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "Az igénylő feladata megfogalmazni a problémát, ami a szervezet munkáját akadályozza, ami zavarokat, végrehajtási nehézségeket okoz, illetve a folyamatot, amelynek a működési hatékonyságán javítani kell."
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "Az azonosított problémának megfelelően „szolgáltatási igény bejelentése” adatlapot kell kitölteni és leadni az IFO vezetőjének. (Minta: Jelen szabályzat 7 fejezet 1. számú melléklet)"
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "Az adatlapok beküldése elektronikus úton az Együttműködési Portálon keresztül, elektronikus űrlap kitöltésével, majd jóváhagyásával történik. Ezen rendszer leköveti a teljes életciklusát az igényeknek a keletkezéstől a végrehajtásig, és elfogadásig."
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "A „szolgáltatási igény bejelentése” adatlap kitöltéséről, leadásáról az igénylő szervezet vezetőjének kell gondoskodnia."
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "Az adatlapok jóváhagyója, aláírója, amennyiben az igény felmerülése nem a minisztérium szervezetén belülről érkezik, (valamely szolgáltató, vagy szolgáltatást igénybe vevő szervezet) mindig az együttműködést szabályzó dokumentumban rögzített hivatalos kapcsolattartó."
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "A „Szolgáltatási igény bejelentése” adatlapnak tartalmaznia kell:"
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "a) Az igénylő főosztály, blokk, igénylési jogkörrel bíró szervezet, illetve a bejelentést végző személy adatait."
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "b) Az igény leírását és célokat, hasznosságot, prioritást."
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "c) Az igény bejelentéséhez szükséges űrlap megtalálható/elérhető az Együttműködési Portálon, az Informatikai főosztály/szakmai hátterünk oldalon."
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "2.3.2. A bejelentett igények kezelése"
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "Az IFO részére eljuttatott, a kapcsolattartók által jóváhagyott „Szolgáltatási igény bejelentése” adatlapokat a főosztály alkalmazás szakértői megvizsgálják, és az adatlapok információiból kiegészítő adatokkal látják el, amelyek már a szakmai specifikációkat is tartalmazzák."
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "Kiegészítő információk:"
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "a) Igény pontos, szakmai leírása."
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "b) Becsült ráfordítás, erőforrásigény, költségvonzat."
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "c) Tervezett kezdési és befejezési határidő."
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "d) Ezt követően az IT-kapcsolattartók egyeztetik egymással elektronikus formában (e-mail) a kiegészítésekkel együtt az igény megvalósítását, és közös megegyezés esetén az NFGM kapcsolattartója aláírásával jóváhagyja, felfüggeszti, vagy elutasítja az igényt. Jóváhagyás esetén az alkalmazás-szakértők megkezdik a megvalósítást."
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "2.3.3. Elutasítás/felfüggesztés"
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "Adott igény elutasítása minden esetben nyomon követhetően, és indokoltan történik. Az igényléssel kapcsolatos adatok és a folyamat lépései az Együttműködési Portálon mentésre és archiválásra kerülnek."
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "Felfüggesztés esetén, az igények közös megegyezéssel halasztásra kerülnek adott határidőig. Amennyiben a kapcsolattartók nem tudnak megegyezni a halasztás határidejéig, a döntést a blokkvezetőkkel, illetve szükség esetén a Kabinettel egyeztetni szükséges."
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "2.3.4. Megvalósítás"
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "Jóváhagyott igény esetén, az Informatikai főosztály vezetőjének feladata és felelőssége a megvalósításkezdeményezés, és végigvitelének ellenőrzése."
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "A megvalósítás tényét, és kapcsolódó adatok kitöltését az adott alkalmazás szakértője végzi. Ő gondoskodik a kapcsolódó dokumentációk elkészüléséért és az Együttműködési Portálon történő megjelenítéséért."
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "3. Üzemeltetésmenedzsment – KSZF Együttműködés"
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "A KSZF (Központ Szolgáltatási Főigazgatóság) végzi a 2118-as Korm. rendelet értelmében a minisztériumok alaprendszerének, infrastruktúrájának üzemeltetését. Szintén a KSZF gondoskodik a minisztériumok által használt eszközök beszerzéséről, üzemeltetéséről, biztosítja az eszközallokációt."
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "Emellett a KSZF hatásköre a fentieken túl az alaprendszerhez, illetve az eszközökhöz kapcsolódó igénykezelési folyamatok (e-mail cím, alaprendszerhez való hozzáférés, eszközigénylés, számítógép-igénylés, HelpDesk-szolgáltatás, telefon stb.) koordinálása, az ellátottakkal, illetve az üzemeltetésben részt vevő külső vállalkozókkal."
+    },
+    {
+      "provision_ref": "s107",
+      "section": "107",
+      "title": "107",
+      "content": "A kapcsolattartásra jogosultak körét, illetőleg magát a fentiekhez kapcsolódó együttműködést a KSZF és a minisztériumok közti „Együttműködési megállapodás”, illetve ennek részét képező SLA tartalmazza."
+    },
+    {
+      "provision_ref": "s108",
+      "section": "108",
+      "title": "108",
+      "content": "Az igényléshez kapcsolódó bejelentéshez szükséges űrlapok az intraneten a KSZF menüpont alatt elérhetőek."
+    },
+    {
+      "provision_ref": "s109",
+      "section": "109",
+      "title": "109",
+      "content": "4. Változáskezelési eljárásrend"
+    },
+    {
+      "provision_ref": "s110",
+      "section": "110",
+      "title": "110",
+      "content": "Az eljárásrend célja: A változáskezelés biztosítja, hogy a változásoknak a szervezet munkájára, IT-szolgáltatásainak és végtermékének minőségére gyakorolt hatása minimális legyen a változások kezelésével kapcsolatos szabványosított eljárások betartatása által."
+    },
+    {
+      "provision_ref": "s111",
+      "section": "111",
+      "title": "111",
+      "content": "4.1. Változtatási igény bejelentése"
+    },
+    {
+      "provision_ref": "s112",
+      "section": "112",
+      "title": "112",
+      "content": "A változtatási igény bejelentése IT Szolgáltatások és tevékenységek esetén jelen szabályzat 5. sz. mellékletében található nyomtatvány mentén történik."
+    },
+    {
+      "provision_ref": "s113",
+      "section": "113",
+      "title": "113",
+      "content": "Változtatási igényt bejelenteni az NFGM IT alkalmazásait használó felhasználói kör jogosult. Az igény jóváhagyója a melléklet iránymutatása szerint vagy a szervezeti egység vezetője, vagy magas prioritású, illetve magas szakmai/erőforrásbeli/költségvetési hatás esetén az adott blokkvezető, illetve a kabinetfőnök lehet."
+    },
+    {
+      "provision_ref": "s114",
+      "section": "114",
+      "title": "114",
+      "content": "A „Változtatási igény bejelentése” űrlap kitöltését, és jóváhagyását követően ezt az Informatikai főosztály vezetőjének szükséges megküldeni elektronikus formában, e-mailen."
+    },
+    {
+      "provision_ref": "s115",
+      "section": "115",
+      "title": "115",
+      "content": "A változáskezelési űrlapok tárolási helye az Együttműködési Portál."
+    },
+    {
+      "provision_ref": "s116",
+      "section": "116",
+      "title": "116",
+      "content": "4.2. Változáskezelés"
+    },
+    {
+      "provision_ref": "s117",
+      "section": "117",
+      "title": "117",
+      "content": "Az igény beérkezését követően a megvalósításról, illetve annak szakmai megoldásáról az Informatikai főosztály vezetője jogosult dönteni."
+    },
+    {
+      "provision_ref": "s118",
+      "section": "118",
+      "title": "118",
+      "content": "# Változás megnevezése Kezelése 1. Követelmények megváltozása. A követelmény-specifikáció elfogadása után a követelményeket változásigénylő lap (change-request) kitöltésével szükséges beterjeszteni. Első fórumon a projektvezető/alkalmazás-szakértő hatásköre a döntés, második fórumon a vezető- ségé. 2. A szervezet és/vagy az erőforrások allokációjának megváltozása. A szervezet változásait a projektvezető/alkalmazás-szakértő elemzi, hatáskörében áll az erőforrás-szintezés és az átcsoportosítás, egyéb esetekben a vezetéshez eszkalálja a problémát. 4. Költségek megváltozása. A projektvezető/alkalmazás-szakértő a költségek tekintetében a feladat jóváhagyott költségvetése erejéig az rendelkezhet, az e fölötti túllépéseket az igénylő szervezeti egység vezetőjével, valamint az IFO vezetővel szükséges egyeztetni. 3. Határidők megváltozása. A projektvezető/alkalmazás-szakértő saját hatáskörén belül, a véghatáridőt nem érintő határidők tekintetében 20% túllépést engedélyezhet. A 20% fölötti túllépéseket a vezetőséggel szükséges egyeztetni. 4. Egyéb A projektvezető/alkalmazás-szakértő saját hatáskörén belül dönt a változás kezeléséről, eredményeit a vezetőség felé beterjeszti, első fórumon minden esetben az IFO-vezető a jóváhagyó, második fórumon a minisztérium felső vezetése, amennyiben szükséges."
+    },
+    {
+      "provision_ref": "s119",
+      "section": "119",
+      "title": "119",
+      "content": "4.3. A változáskezelési folyamat nyilvántartása, nyomon követése"
+    },
+    {
+      "provision_ref": "s120",
+      "section": "120",
+      "title": "120",
+      "content": "Amennyiben a változtatási kérelem elfogadásra került, az Informatikai főosztály vezetőjének felelőssége és feladata a változtatás megvalósításának elindítása az alkalmazás-szakértők segítségével, amennyiben az NFGM által üzemeltetett alkalmazásokra hatása van."
+    },
+    {
+      "provision_ref": "s121",
+      "section": "121",
+      "title": "121",
+      "content": "Amennyiben erőforrásokat, igénylő szervezet felépítését, összetételét érinti a módosítás, úgy specifikálni szükséges a megoldandó feladatokat és ezek módját, amelynek megvalósítása és dokumentálása az alkalmazás-szakértők feladata."
+    },
+    {
+      "provision_ref": "s122",
+      "section": "122",
+      "title": "122",
+      "content": "A dokumentumok elektronikus tárolása az Együttműködési Portálon keresztül történik."
+    },
+    {
+      "provision_ref": "s123",
+      "section": "123",
+      "title": "123",
+      "content": "A változtatás végrehajtásának adatait, a végleges megoldás módját, hatásait (erőforrás, határidő, költség, termék) az alkalmazás-szakértők rögzítik a nyomtatványon."
+    },
+    {
+      "provision_ref": "s124",
+      "section": "124",
+      "title": "124",
+      "content": "A megoldás során keletkezett leírások, dokumentumok tárolásának helye az Együttműködési Portál."
+    },
+    {
+      "provision_ref": "s125",
+      "section": "125",
+      "title": "125",
+      "content": "A változtatás megvalósításának módját az IFO egyezteti minden esetben az igénybejelentő szervezettel, valamint szükség esetén az igényt jóváhagyó felső vezetővel."
+    },
+    {
+      "provision_ref": "s126",
+      "section": "126",
+      "title": "126",
+      "content": "5. Záró rendelkezések"
+    },
+    {
+      "provision_ref": "s127",
+      "section": "127",
+      "title": "127",
+      "content": "5.1. Hatálybalépés"
+    },
+    {
+      "provision_ref": "s128",
+      "section": "128",
+      "title": "128",
+      "content": "A jelen utasítás a közzétételt követő nap lép hatályba."
+    },
+    {
+      "provision_ref": "s129",
+      "section": "129",
+      "title": "129",
+      "content": "5.2. Betartatás, felülvizsgálat"
+    },
+    {
+      "provision_ref": "s130",
+      "section": "130",
+      "title": "130",
+      "content": "A minisztérium valamennyi, informatikai eszközöket használó személye (felhasználója) számára kötelező jelen utasítás általános rendelkezéseinek, valamint az általa ellátott feladatokra vonatkozó részeinek ismerete."
+    },
+    {
+      "provision_ref": "s131",
+      "section": "131",
+      "title": "131",
+      "content": "Az utasítás rendelkezéseit minden újonnan üzembe helyezett informatikai rendszer esetében teljeskörűen alkalmazni kell."
+    },
+    {
+      "provision_ref": "s132",
+      "section": "132",
+      "title": "132",
+      "content": "Az utasítást évente felül kell vizsgálni a jogszabályi környezet és a szakmai-technikai feltételek változása szempontjából."
+    },
+    {
+      "provision_ref": "s133",
+      "section": "133",
+      "title": "133",
+      "content": "Bajnai Gordon s. k.,"
+    },
+    {
+      "provision_ref": "s134",
+      "section": "134",
+      "title": "134",
+      "content": "nemzeti fejlesztési és gazdasági miniszter"
+    },
+    {
+      "provision_ref": "s135",
+      "section": "135",
+      "title": "135",
+      "content": "6. Mellékletek"
+    },
+    {
+      "provision_ref": "s136",
+      "section": "136",
+      "title": "136",
+      "content": "1. számú melléklet:"
+    },
+    {
+      "provision_ref": "s137",
+      "section": "137",
+      "title": "137",
+      "content": "Szolgáltatási igény bejelentése (minta)"
+    },
+    {
+      "provision_ref": "s138",
+      "section": "138",
+      "title": "138",
+      "content": "Igénylő szervezet és felhasználó adatai Felhasználó neve: Minisztérium neve: Szervezeti egysége: SZÁT: Érintett alkalmazás/alkalmazások alapadatai Alkalmazás neve: Igényelt szolgáltatás: Igény rövid leírása: Igény prioritása: Megjegyzés:"
+    },
+    {
+      "provision_ref": "s139",
+      "section": "139",
+      "title": "139",
+      "content": "2. számú melléklet:"
+    },
+    {
+      "provision_ref": "s140",
+      "section": "140",
+      "title": "140",
+      "content": "Szakértői kiegészítő információk adatlap (minta)"
+    },
+    {
+      "provision_ref": "s141",
+      "section": "141",
+      "title": "141",
+      "content": "Igény kezelése – szakértők töltik ki (IFO) Szakértő neve: Szolgáltatás besorolása: Igény szakértői leírása: Javasolt megoldás: Tervezett ráfordítás: <embernapban> Tervezett kezdés: 2008. XX. YY. Tervezett befejezés: 2008. XX. YY. Kockázat megadása: Megjegyzés:"
+    },
+    {
+      "provision_ref": "s142",
+      "section": "142",
+      "title": "142",
+      "content": "3. számú melléklet:"
+    },
+    {
+      "provision_ref": "s143",
+      "section": "143",
+      "title": "143",
+      "content": "Igények megvalósításának nyomon követése adatlap (minta)"
+    },
+    {
+      "provision_ref": "s144",
+      "section": "144",
+      "title": "144",
+      "content": "Tény kezdése: 2008. XX. YY. Tény véglegesítése: 2008. XX. YY. Keletkezett dokumentumok: Elektronikus elérése:"
+    },
+    {
+      "provision_ref": "s145",
+      "section": "145",
+      "title": "145",
+      "content": "4. számú melléklet:"
+    },
+    {
+      "provision_ref": "s146",
+      "section": "146",
+      "title": "146",
+      "content": "Szolgáltatások és alkalmazások köre"
+    },
+    {
+      "provision_ref": "s147",
+      "section": "147",
+      "title": "147",
+      "content": "Alkalmazások terén nyújtandó szolgáltatások köre"
+    },
+    {
+      "provision_ref": "s148",
+      "section": "148",
+      "title": "148",
+      "content": "Rendszer neve Szolgáltatások körének megnevezése DOKK Tartalom, fejlesztés KIR3 Beállítások módosítása Fejlesztés, Alkalmazástámogatás, Jogosultságkezelés Alkalmazásoldali hibakezelés Szakmai támogatás VIR Beállítások módosítása szerveren Egyedi, ad hoc igények Adatbetöltés, adatbázis-műveletek Fejlesztés, Alkalmazástámogatás, Jogosultságkezelés Alkalmazásoldali hibakezelés OSAP Adatbetöltés felügyelet Jogosultságkezelés Alkalmazásoldali hibakezelés SharePoint Server – Együttműködési Portál termékei Beállítások módosítása szerveren Egyedi, ad hoc igények Adatbetöltés, adatbázis-műveletek Fejlesztés, Alkalmazástámogatás, Jogosultságkezelés Alkalmazásoldali hibakezelés Ms Project Server Beállítások módosítása szerveren Egyedi, ad hoc igények Fejlesztés, Alkalmazástámogatás, Jogosultságkezelés Alkalmazásoldali hibakezelés Forrás ERP-rendszer1 Beállítások módosítása szerveren Fejlesztés, Alkalmazástámogatás, Jogosultságkezelés Alkalmazásoldali hibakezelés Wintiszt Fejlesztés, Alkalmazástámogatás, Jogosultságkezelés Adatbetöltés-átvételfelügyelet Alkalmazásoldali hibakezelés 1 SLA egyeztetése szükséges a Forrástámogató szervezettel (Nem NFGM IT-hatáskör)."
+    },
+    {
+      "provision_ref": "s149",
+      "section": "149",
+      "title": "149",
+      "content": "Alkalmazások"
+    },
+    {
+      "provision_ref": "s150",
+      "section": "150",
+      "title": "150",
+      "content": "Rendszer neve Felelős szervezeti egység Kormányzati Iratkezelő Rendszer (KIR3) Informatikai Főosztály Portál Szerkesztőségi Rendszer (DOKK) Kommunikációs Főosztály – Informatikai Főosztály Vezetői Információs és Tervezési Rendszer Informatikai Főosztály OSAP Statisztikai Adatfeldolgozó Rendszer Informatikai Főosztály WinTiszt Közszolgálati Humánpolitikai Rendszer Humánigazgatási Főosztály SharePoint Server – Együttműködési Portál termékei Informatikai Főosztály Ms Project Server Informatikai Főosztály Forrás ERP-rendszer Költségvetési Főosztály"
+    },
+    {
+      "provision_ref": "s151",
+      "section": "151",
+      "title": "151",
+      "content": "5. számú melléklet:"
+    },
+    {
+      "provision_ref": "s152",
+      "section": "152",
+      "title": "152",
+      "content": "Változásbejelentési lap (Minta)"
+    },
+    {
+      "provision_ref": "s153",
+      "section": "153",
+      "title": "153",
+      "content": "Alkalmazás neve: Alkalmazás-szakértő neve: <név> Kérelem dátuma: <2008. …… …> A változtatás hatása: <kritikus / magas / közepes / alacsony> Változtatási kérelem sorszáma: – folyamatos sorszám adása kötelező! Kérelem prioritása: <magas / közepes / alacsony>"
+    },
+    {
+      "provision_ref": "s154",
+      "section": "154",
+      "title": "154",
+      "content": "1. A változtatási kérelem leírása <a kérelem leírása> A változtatás végrehajtási határideje: <végrehajtás időpontja> 2. A változtatás hatásai (érintett feladatok, termékek, várható kockázatok) Érintett feladatok: <a változtatás által érintett feladatok felsorolása> 1. <feladat> 2. <feladat> Érintett termék/dokumentum/funkció: Várható kockázatok: <a változtatás elvégzésének kockázatai, vagy ha nincsenek, akkor: „Nincsenek”> 3. Az ajánlott megoldás leírása és a megoldás indoklása – szakértő tölti ki <a megoldás technikai jellegű ismertetése és a javaslat indoklása> 4. Függőségek, feltételek <a változtatás elvégzéséhez szükséges feltételek felsorolása> 5. A változtatás elmaradásának várható hatásai <a változáskezelés elmaradása esetén fölmerülő problémák felsorolása> 1. <probléma> 2. <probléma> 6. Döntés A felső vezetés jelen változáskezelési lap aláírásával az abban foglalt változtatás végrehajtásához hozzájárul. Melléklet: 1. <dokumentumnév>, verzió: <nn>- [fájlnév] _______________________________________________________________________________ Jelen dokumentum <n> példányban került aláírásra, az eredeti példányok a projektkönyvtárban kerülnek elhelyezésre."
+    },
+    {
+      "provision_ref": "s155",
+      "section": "155",
+      "title": "155",
+      "content": "<az aláírólista átalakítható, a nem kívánt szerepek törölhetők:>"
+    },
+    {
+      "provision_ref": "s156",
+      "section": "156",
+      "title": "156",
+      "content": "Név Aláírás Kabinetfőnök: <név> Szakállamtitkár: <név> Főosztályvezető: <név> Főosztályvezető: <név> * Az utasítás az NFGM belső honlapján 2008. szeptember 25-én került közzétételre. Az utasítást a 18/2014. (VII. 4.) NGM utasítás 2. § 20. pontja hatályon kívül helyezte 2014. július 5. napjával."
+    }
+  ]
+}

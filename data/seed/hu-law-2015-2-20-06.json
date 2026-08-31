@@ -1,0 +1,179 @@
+{
+  "id": "hu-law-2015-2-20-06",
+  "type": "statute",
+  "title": "2/2015. (II. 20.) IM rendelet a helyi népszavazási eljárás során a választási irodák hatáskörébe tartozó feladatok végrehajtásának részletes szabályairól és a használandó nyomtatványokról",
+  "status": "in_force",
+  "in_force_date": "2015-03-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2015-2-20-06",
+  "description": "a helyi népszavazási eljárás során a választási irodák hatáskörébe tartozó feladatok végrehajtásának részletes szabályairól és a használandó nyomtatványokról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "chapter": "I. Fejezet ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § E rendelet alkalmazásában a) települési szintű helyi népszavazás: a települési – kivéve a fővárosi – önkormányzat hatáskörébe tartozó ügyre vonatkozó, továbbá a településrészt érintő helyi népszavazás, b) területi szintű helyi népszavazás: a vármegyei, illetve a fővárosi önkormányzat hatáskörébe tartozó ügyre vonatkozó helyi népszavazás."
+    },
+    {
+      "provision_ref": "s2",
+      "chapter": "I. Fejezet ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § A választási iroda tagjait a feladataik ellátására fel kell készíteni. A felkészítésen való részvétel kötelező. A felkészítésért a választási iroda vezetője felelős."
+    },
+    {
+      "provision_ref": "s3",
+      "chapter": "I. Fejezet ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) A választási informatikai rendszer (a továbbiakban: informatikai rendszer) e rendelet vonatkozásában a népszavazás kezdeményezéséről, az európai polgári kezdeményezésről, valamint a népszavazási eljárásról szóló 2013. évi CCXXXVIII. törvényben (a továbbiakban: Nsztv.) és a választási eljárásról szóló 2013. évi XXXVI. törvényben (a továbbiakban: Ve.) meghatározott választási feladatok végrehajtásában részt vevő és azokat kiszolgáló szervezetek által működtetett választási informatikai infrastruktúra és választási alkalmazói rendszerelemek összessége. (2) A választási informatikai infrastruktúra elemei lehetnek különösen: a) a választási célú dedikált informatikai eszközök, b) az Elektronikus Anyakönyvi Rendszer (továbbiakban: EAK) használatát biztosító informatikai eszközök, c) a fővárosi és vármegyei kormányhivatalok, a járási (fővárosi kerületi) hivatalok (a továbbiakban együtt: kormányhivatal) informatikai eszközei, d) az okmányirodák, valamint az okmányirodai funkciókat is ellátó kormányablakok (a továbbiakban együtt: okmányiroda) informatikai eszközei és e) az a)–d) pontban meghatározott informatikai eszközöket összekötő adatátviteli hálózatok. (3) A választási alkalmazói rendszerek elemei lehetnek különösen: a névjegyzékek vezetését, a szavazatösszesítést, az eredménymegállapítást, a logisztikai és pénzügyi lebonyolítást támogató alkalmazói szoftverrendszerek."
+    },
+    {
+      "provision_ref": "s4",
+      "chapter": "I. Fejezet ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) A helyi választási iroda (a továbbiakban: HVI) az informatikai rendszert a választási célú dedikált informatikai eszközök, szükség esetén az EAK infrastrukturális hátterének igénybevételével éri el. (2) A népszavazási informatikai feladatok ellátására indokolt esetben a HVI vezetőjének kérésére, a területi választási iroda (a továbbiakban: TVI) vezetőjének döntése alapján az okmányirodai infrastruktúra is igénybe vehető. Ha a TVI vezetője az okmányirodai infrastruktúra bevonása mellett dönt, erről értesíti a Nemzeti Választási Iroda (a továbbiakban: NVI) elnökét és az igénybevétel helye szerint illetékes főispánt. (3) Közös önkormányzati hivatalt működtető települések esetében a TVI vezetője a székhely településtől eltérő településen is engedélyezheti az adatfeldolgozási feladatok elvégzését. Az adatfeldolgozási helyszín változásáról a TVI vezetője az engedély kiadását követően haladéktalanul tájékoztatja az NVI elnökét. (4) A TVI az informatikai rendszer elérésére a választási célú dedikált informatikai eszközöket, az EAK infrastrukturális hátterét, illetve az okmányirodai infrastruktúrát használhatja."
+    },
+    {
+      "provision_ref": "s5",
+      "chapter": "I. Fejezet ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § Az informatikai rendszert kell használni a) a szavazóköri névjegyzék, valamint a mozgóurnát igénylő választópolgárok jegyzékének összeállításához, továbbvezetéséhez, a szavazóhelyiségbe kerülő példányának elkészítéséhez, b) az értesítők elkészítéséhez, c) a választójogosultság megállapításához, illetve ellenőrzéséhez, d) a szavazóköri névjegyzék megtekintésének biztosításához, e) a szavazólapok adattartalma jóváhagyásának támogatására és a nyomdai adatátadáshoz, f) a logisztikai feladatok ellátásához, g) a szavazóhelyiségekbe kerülő szavazóköri névjegyzékek, valamint a mozgóurnát igénylő választópolgárok jegyzékeinek kinyomtatásáról és hitelesítésének megtörténtéről szóló értesítés továbbításához, h) a szavazóköri jegyzőkönyvek előállításához, a jegyzőkönyvek adatainak rögzítéséhez és ellenőrzéséhez, i) a népszavazás eredménye előzetes tájékoztató adatainak előállításához, j) a népszavazás eredménye megállapításának támogatásához és k) a bírságokkal kapcsolatos feladatok támogatásához."
+    },
+    {
+      "provision_ref": "s6",
+      "chapter": "I. Fejezet ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § (1) A kormányhivatal a népszavazási feladatok ellátása érdekében a TVI, illetve a HVI vezetője számára – megállapodás alapján – biztosítja a) a megfelelő számú, a kormányhivatallal állami szolgálati jogviszonyban álló állami tisztviselő választási iroda tagjává történő megbízásának lehetőségét és b) a választási iroda tagjának közreműködését a népszavazási feladatok ellátásában, a választási iroda vezetőjének rendelkezése szerint. (2) A kormányhivatal a TVI, illetve a HVI részére – megállapodás alapján – biztosítja a) az okmányhálózat elérését az okmányirodákban, b) az okmányhálózat eléréséhez szükséges informatikai eszközöket az okmányirodai infrastruktúrán, c) a választási informatikai hálózat eléréséhez szükséges eszközöket és d) az a)–c) pontban foglaltakhoz szükséges kiemelt rendelkezésre állást. (3) A választási iroda tagjává történő megbízása esetén a kormányhivatallal állami szolgálati jogviszonyban álló állami tisztviselő is a választási iroda tagjával megegyező díjazásra jogosult. (4) Az (1) és (2) bekezdésben foglaltak különösen a következő állandó választási feladatok elvégzését szolgálhatják: a) az informatikai rendszerhez kapcsolódó helpdesk feladatok támogatása és b) az informatikai rendszerrel kapcsolatos oktatási feladatok támogatása. (5) Az (1) és (2) bekezdésben foglaltak különösen a következő népszavazási feladatok elvégzését szolgálhatják: a) közreműködés a szavazólap jóváhagyási folyamatában, b) a szavazóköri névjegyzék és a mozgóurnát igénylő választópolgárok jegyzékének kinyomtatása, c) a szavazóköri jegyzőkönyvek adatainak rögzítése, d) a népszavazás eredményét megállapító jegyzőkönyv összeállításához szükséges ellenőrzési feladatok ellátása és e) a választások pénzügyi és logisztikai elszámolási feladatai informatikai támogatása. (6) A választási iroda és a kormányhivatal együttműködik a népszavazási feladatok határidőre történő elvégzése érdekében. A népszavazási feladatok határidőre történő elvégzése elsőbbséget élvez a kormányhivatal egyéb feladataival szemben."
+    },
+    {
+      "provision_ref": "s7",
+      "chapter": "II. Fejezet A VÁLASZTÁSI IRODÁK FELADATAI TELEPÜLÉSI SZINTŰ HELYI NÉPSZAVAZÁSON",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § (1) A HVI – az Nsztv.-ben és a Ve.-ben foglalt feladatain túl – a) a népszavazás kitűzését haladéktalanul jelzi az NVI-nek, b) közleményt ad ki a szavazás helyéről és idejéről, a szavazás módjáról, c) az informatikai rendszerben biztosítja a szavazóköri névjegyzék megtekinthetőségét, d) a bírság kiszabásáról hozott határozat adatait az NVI elnökének intézkedése szerint haladéktalanul megküldi az NVI-nek, e) fogadja a szavazatszámláló bizottság (a továbbiakban: SZSZB), a helyi választási bizottság (a továbbiakban: HVB) megbízott tagjainak bejelentését; ellenőrzi az SZSZB, a HVB tagjainak választójogát, gondoskodik az SZSZB, a HVB tagjainak eskü-, illetve fogadalomtételéről, f) nyilvánosságra hozza a HVB tagjainak és a HVI vezetőjének nevét, valamint a HVB és a HVI hivatali helyiségének címét, telefonszámát, e-mail címét és fax-számát; a HVB hivatali helyiségének címét az informatikai rendszerben rögzíti és karbantartja, g) a HVB tagjainak nevét, az SZSZB tagjainak számát, valamint a HVB-be és az SZSZB-be tagot megbízó jelölő szervezeteket rögzíti az informatikai rendszerben, h) előterjeszti a HVB részére a szavazólap tervezetét annak adattartalma jóváhagyása céljából, i) előkészíti a szavazóköri jegyzőkönyvek feldolgozását és továbbítását, j) az NVI által megjelölt helyen és időben gondoskodik az NVI által biztosított választási kellékek, nyomtatványok átvételéről, az ezekkel kapcsolatos ügyviteli feladatok ellátásáról, valamint a helyben készülő nyomtatványok előállításáról, k) fogadja az NVI által – szavazókörönként – összeállított szállítódobozokat, tartalmukat tételesen ellenőrzi, és gondoskodik a szavazás napjáig történő megőrzésükről, l) biztosítja a szavazáshoz szükséges technikai feltételeket, a szavazóhelyiségek felszerelését, m) a szavazást megelőző napon előkészíti és tételenként – átvételi elismervénnyel – átadja az SZSZB elnöke vagy helyettese részére a szavazás lebonyolításához szükséges szavazólapokat, nyomtatványokat, iratokat, bélyegzőt és egyéb kellékeket, n) gondoskodik a szavazólapok és az egyéb választási iratok őrzéséről és o) továbbítja a szavazóköri névjegyzék lezárását követően beérkező mozgóurna iránti igényeket az SZSZB részére. (2) A HVI vezetője – az Nsztv.-ben és a Ve.-ben foglalt feladatain túl – a) b) az egyéb választási kellékek, nyomtatványok előállításával megbízhatja az NVI-t és c) a kinyomtatott szavazóköri névjegyzéket és a mozgóurnát igénylő választópolgárok kinyomtatott jegyzékét az utolsó oldalon aláírásával és lebélyegzéssel hitelesíti."
+    },
+    {
+      "provision_ref": "s8",
+      "chapter": "II. Fejezet A VÁLASZTÁSI IRODÁK FELADATAI TELEPÜLÉSI SZINTŰ HELYI NÉPSZAVAZÁSON",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § (1) Az SZSZB mellett működő jegyzőkönyvvezető – az Nsztv.-ben és a Ve.-ben foglalt feladatain túl – a) közreműködik a szavazóhelyiség szabályszerű berendezésében, b) gondoskodik a szavazóköri névjegyzék kezeléséről, a visszautasítottak jegyzéke és a mozgóurnát igénylő választópolgárok jegyzékének vezetéséről, c) a szavazás közben történt rendkívüli eseményről kiállított jegyzőkönyv másolatát haladéktalanul továbbítja a HVI vezetőjéhez, d) közreműködik a szavazóköri jegyzőkönyv kiállításában, e) közreműködik a szavazóköri jegyzőkönyv, a szavazás közben történt rendkívüli eseményről kiállított jegyzőkönyv, valamint az SZSZB határozata másolatainak előállításában és az SZSZB megbízott tagjai részére történő átadásában és f) közreműködik a szavazólapokat tartalmazó doboznak, a szavazóköri jegyzőkönyveknek, valamint az egyéb választási iratoknak a HVI hivatali helyiségébe történő szállításában. (2) A HVI – az Nsztv.-ben és a Ve.-ben foglalt feladatain túl – a) biztosítja az SZSZB-k működésének és a szavazás menetének törvényes feltételeit, b) haladéktalanul továbbítja az SZSZB részére a szavazás napján elektronikus úton beérkező mozgóurna iránti igényeket, c) átvételi elismervénnyel átveszi az SZSZB-től a szavazólapokat tartalmazó dobozt, a szavazóköri jegyzőkönyveket, valamint az egyéb választási iratokat, d) a beérkező szavazóköri jegyzőkönyveket jogi és számszaki szempontból ellenőrzi, e) haladéktalanul elvégzi az adatbeviteli teendőket úgy, hogy a számítógépes adatfeldolgozásra a jegyzőkönyvek első példánya szolgál és f) a hibásan vagy hiányosan kitöltött jegyzőkönyvre felhívja az SZSZB figyelmét, és a jegyzőkönyv javítását követően intézkedik az adatok informatikai rendszerbeli javításáról."
+    },
+    {
+      "provision_ref": "s9",
+      "chapter": "II. Fejezet A VÁLASZTÁSI IRODÁK FELADATAI TELEPÜLÉSI SZINTŰ HELYI NÉPSZAVAZÁSON",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § A HVI – az Nsztv.-ben és a Ve.-ben foglalt feladatain túl – a) gondoskodik az SZSZB-ktől átvett szavazási iratok biztonságos tárolásáról, b) a szavazást követő három napon keresztül biztosítja a szavazóköri jegyzőkönyvek második példánya, valamint a határozatok nyilvánosságát, majd azokat irattározza, c) a HVB döntésének előkészítéseként tételesen ellenőrzi a szavazóköri jegyzőkönyvek és a számítógépes adatok azonosságát, és annak eredményéről jelentést tesz a HVB-nek, d) a népszavazás eredményét a HVB jegyzőkönyve alapján rögzíti az informatikai rendszerben, e) három napon keresztül biztosítja a HVB eredménymegállapító jegyzőkönyvei második példánya, valamint a határozatok nyilvánosságát, majd azokat irattározza és f) a szavazóköri jegyzőkönyvek és a HVB eredménymegállapító jegyzőkönyve első példányait továbbítja az NVI-nek."
+    },
+    {
+      "provision_ref": "s10",
+      "chapter": "II. Fejezet A VÁLASZTÁSI IRODÁK FELADATAI TELEPÜLÉSI SZINTŰ HELYI NÉPSZAVAZÁSON",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § (1) A TVI – az Nsztv.-ben és a Ve.-ben foglalt feladatain túl – a) ellenőrzi és irányítja a HVI-k tevékenységét, b) megszervezi a HVI-k vezetőinek oktatását, c) felügyeli az informatikai rendszer használatát, megteszi a szükséges intézkedéseket a hiányzó adatok pótlása, a hibás adatok kijavítása érdekében, d) a székhely településtől eltérő településen történő adatfeldolgozás tényét átvezeti az informatikai rendszeren és e) gondoskodik a szavazatösszesítést akadályozó zavarok, vészhelyzetek elhárításáról, szükség szerint intézkedik a vészhelyzet esetére előírt tartalékmegoldások alkalmazásáról, és erről tájékoztatja a HVI vezetőjét és az NVI elnökét. (2) A TVI a választási informatikai feladatokat – szükség esetén – a kormányhivatal közreműködésével látja el."
+    },
+    {
+      "provision_ref": "s11",
+      "chapter": "II. Fejezet A VÁLASZTÁSI IRODÁK FELADATAI TELEPÜLÉSI SZINTŰ HELYI NÉPSZAVAZÁSON",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § Az NVI – az Nsztv.-ben és a Ve.-ben foglalt feladatain túl – a szavazás napját megelőzően a) biztosítja a HVI részére a szavazóköri névjegyzék elérését, b) irányítja a szavazólapok tartalmának jóváhagyásával kapcsolatos feladatok végrehajtását, a nyomdai adatátadás folyamatát, gondoskodik a szavazólapok előállításáról, c) gondoskodik a Braille-írással ellátott szavazósablon elkészítéséről és eljuttatásáról a HVI-hez és d) megküldi a Braille-írással készült értesítőt az azt igénylő választópolgároknak."
+    },
+    {
+      "provision_ref": "s12",
+      "chapter": "III. Fejezet A VÁLASZTÁSI IRODÁK FELADATAI TERÜLETI SZINTŰ HELYI NÉPSZAVAZÁSON",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. § A területi szintű helyi népszavazáson a II. fejezet rendelkezéseit az e fejezetben foglalt eltérésekkel kell alkalmazni."
+    },
+    {
+      "provision_ref": "s13",
+      "chapter": "III. Fejezet A VÁLASZTÁSI IRODÁK FELADATAI TERÜLETI SZINTŰ HELYI NÉPSZAVAZÁSON",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. § A HVI a TVI által megjelölt helyen és időben gondoskodik az NVI által biztosított választási kellékek, nyomtatványok átvételéről, az ezekkel kapcsolatos ügyviteli feladatok ellátásáról, valamint a helyben készülő nyomtatványok előállításáról."
+    },
+    {
+      "provision_ref": "s14",
+      "chapter": "III. Fejezet A VÁLASZTÁSI IRODÁK FELADATAI TERÜLETI SZINTŰ HELYI NÉPSZAVAZÁSON",
+      "section": "14",
+      "title": "14. §",
+      "content": "14. § (1) Az SZSZB mellett működő jegyzőkönyvvezető 7.00, 9.00, 11.00, 13.00, 15.00 17.00 és 18.30 órakor adatot szolgáltat a HVI részére a szavazókörben megjelent választópolgárok számáról. (2) A HVI a) az informatikai rendszerben – ellenőrzést követően – haladéktalanul rögzíti a szavazókörökből érkezett napközbeni részvételi adatokat, a szavazás közben történt rendkívüli eseményekről kiállított jegyzőkönyveket, b) az informatikai rendszerben – ellenőrzést követően – haladéktalanul rögzíti a szavazóköri jegyzőkönyvek adatait és c) az SZSZB mellett működő jegyzőkönyvvezető útján azonnal tájékoztatja az SZSZB-t, ha adathiány van a szavazóköri jegyzőkönyvben, vagy az adatrögzítés során az informatikai rendszer összefüggés-hibát vagy egyéb hibát jelzett."
+    },
+    {
+      "provision_ref": "s15",
+      "chapter": "III. Fejezet A VÁLASZTÁSI IRODÁK FELADATAI TERÜLETI SZINTŰ HELYI NÉPSZAVAZÁSON",
+      "section": "15",
+      "title": "15. §",
+      "content": "15. § A HVI a szavazóköri jegyzőkönyvek első példányait a TVI vezetőjének utasítása szerint a TVI-hez szállítja."
+    },
+    {
+      "provision_ref": "s16",
+      "chapter": "III. Fejezet A VÁLASZTÁSI IRODÁK FELADATAI TERÜLETI SZINTŰ HELYI NÉPSZAVAZÁSON",
+      "section": "16",
+      "title": "16. §",
+      "content": "16. § (1) A TVI a) az adattartalom jóváhagyása céljából előterjeszti a területi választási bizottság (a továbbiakban: TVB) részére a szavazólap tervezetét, b) meghatározza az NVI által biztosított választási kellékek, nyomtatványok elosztásának és a helyi készítésű nyomtatványok előállításának, szállításának és átvételének rendjét és c) gondoskodik az NVI által biztosított választási kellékek, nyomtatványok átvételéről, az ezekkel kapcsolatos ügyviteli feladatok ellátásáról, valamint a helyben készülő nyomtatványok előállításáról. (2) A TVI vezetője a) elkészíti az üzemzavar esetére irányadó intézkedési tervet és b) kiadja a szavazóköri jegyzőkönyvek továbbításával kapcsolatos utasítását."
+    },
+    {
+      "provision_ref": "s17",
+      "chapter": "III. Fejezet A VÁLASZTÁSI IRODÁK FELADATAI TERÜLETI SZINTŰ HELYI NÉPSZAVAZÁSON",
+      "section": "17",
+      "title": "17. §",
+      "content": "17. § A TVI a) felügyeli az informatikai rendszer napközbeni részvételi jelentésekhez kapcsolódó és szavazatösszesítő funkcióinak használatát, b) gondoskodik az üzemzavar elhárításáról, szükség esetén gondoskodik a tartalékmegoldások alkalmazásáról és c) a központi tájékoztató rendszer adatainak segítségével tájékoztatja a nyilvánosságot."
+    },
+    {
+      "provision_ref": "s18",
+      "chapter": "III. Fejezet A VÁLASZTÁSI IRODÁK FELADATAI TERÜLETI SZINTŰ HELYI NÉPSZAVAZÁSON",
+      "section": "18",
+      "title": "18. §",
+      "content": "18. § A TVI a) fogadja a szavazóköri jegyzőkönyvek első példányait, b) a TVB döntésének előkészítéseként tételesen ellenőrzi a számítógépes adatok és a szavazóköri jegyzőkönyvekben szereplő adatok azonosságát, és annak eredményéről jelentést tesz a TVB-nek, c) a népszavazás eredményét a TVB jegyzőkönyve alapján rögzíti az informatikai rendszerben, d) három napon keresztül biztosítja a TVB eredménymegállapító jegyzőkönyve második példánya, valamint a határozatok nyilvánosságát és e) a szavazóköri jegyzőkönyvek és a TVB eredménymegállapító jegyzőkönyve első példányait továbbítja az NVI-nek."
+    },
+    {
+      "provision_ref": "s19",
+      "chapter": "III. Fejezet A VÁLASZTÁSI IRODÁK FELADATAI TERÜLETI SZINTŰ HELYI NÉPSZAVAZÁSON",
+      "section": "19",
+      "title": "19. §",
+      "content": "19. § Az NVI a) nyilvánosságra hozza a napközbeni részvételi jelentések adatait és b) folyamatosan nyilvánosságra hozza a népszavazás előzetes eredményére vonatkozó tájékoztató adatokat."
+    },
+    {
+      "provision_ref": "s20",
+      "chapter": "IV. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "20",
+      "title": "20. §",
+      "content": "20. § (1) Ez a rendelet – a (2) bekezdésben foglalt kivétellel – 2015. március 1-jén lép hatályba. (2) Az 5. § h)–k) pontja, a 6. § (5) bekezdés c) és d) pontja, a 8. § (2) bekezdés e) és f) pontja, a 9. § c) és d) pontja, a 14. § (2) bekezdése, a 17. §, a 18. § b) pontja és a 19. § 2016. január 1-jén lép hatályba."
+    },
+    {
+      "provision_ref": "s21",
+      "chapter": "IV. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "21",
+      "title": "21. §",
+      "content": "21. § Ez a rendelet az állampolgárságuktól eltérő tagállamban lakóhellyel rendelkező uniós polgárok aktív és passzív választójogának a helyhatósági választásokon történő gyakorlására vonatkozó részletes szabályok megállapításáról szóló, 1994. december 19-i 94/80/EK tanácsi irányelvnek való megfelelést szolgálja."
+    },
+    {
+      "provision_ref": "s22",
+      "chapter": "IV. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "22",
+      "title": "22. §",
+      "content": "22. § E rendeletnek az egyes választásokkal kapcsolatos miniszteri rendeletek módosításáról szóló 26/2018. (IX. 7.) IM rendelettel megállapított rendelkezéseit a hatálybalépését követően kitűzött választásokon kell alkalmazni."
+    },
+    {
+      "provision_ref": "s23",
+      "chapter": "IV. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "23",
+      "title": "23. §",
+      "content": "23. § A helyi népszavazási eljárásban használandó nyomtatványok mintáit a 2–11. melléklet állapítja meg. 5X07353.pdf 5X07355.pdf 5X07356.pdf Ellenőrző lap Ellenőrző lap a mozgóurna hitelesítésére Aláírásunkkal tanúsítjuk, hogy a mozgóurnát megvizsgáltuk, üresnek találtuk és lezártuk. Az urna a törvényes követelményeknek megfelel. Az ellenőrző lapot........... óra.…...... perckor helyeztük a mozgóurnába. A szavazatszámláló bizottság jelen lévő tagjainak aláírása: Az elsőként szavazó választópolgár 5K01562_0 VISSZAUTASÍTOTTAK JEGYZÉKE település Szavazókör sorszáma: év hó nap A visszautasított polgár családi és utóneve lakcíme A visszautasítás oka 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 5K01562_1, év hó nap 5X07359.pdf Jegyzőkönyv a helyi népszavazás eredményről 5K01566_5 ÉRVÉNYTELEN A NÉPSZAVAZÁS ÉRVÉNYES, DE EREDMÉNYTELEN ÉRVÉNYES ÉS EREDMÉNYES1 1 A megfelelő rész aláhúzandó 5K01566_6 HELYI / TERÜLETI VÁLASZTÁSI BIZOTTSÁG NÉV Aláírás a jegyzőkönyv kiállításakor Aláírás a jegyzőkönyv átvételéről elnök – elnökhelyettes – HVI vezetője – P.H. 5X07360.pdf"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "§ E rendelet alkalmazásában a) települési szintű helyi népszavazás",
+      "definition": "a települési – kivéve a fővárosi – önkormányzat hatáskörébe tartozó ügyre vonatkozó, továbbá a településrészt érintő helyi népszavazás, b) területi szintű helyi népszavazás: a vármegyei, illetve a fővárosi önkormányzat hatáskörébe tartozó ügyre vonatkozó helyi népszavazás.",
+      "source_provision": "s1"
+    }
+  ]
+}

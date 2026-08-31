@@ -1,0 +1,113 @@
+{
+  "id": "hu-law-2004-8-20-0p",
+  "type": "statute",
+  "title": "8/2004. (IV. 20.) IHM rendelet az egyetemes elektronikus hírközlési szolgáltatás részletes feltételeiről és műszaki követelményeiről",
+  "status": "repealed",
+  "in_force_date": "2004-05-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2004-8-20-0P",
+  "description": "az egyetemes elektronikus hírközlési szolgáltatás részletes feltételeiről és műszaki követelményeiről",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § A rendelet hatálya az Eht. 117. §-ában és 188. §-a 11. pontjában meghatározott egyetemes elektronikus hírközlési szolgáltatást (a továbbiakban: szolgáltatás) nyújtó egyetemes szolgáltatóra (a továbbiakban: szolgáltató), valamint a Nemzeti Hírközlési Hatóságra (a továbbiakban: hatóság) terjed ki."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § (1) A szolgáltatónak a szolgáltatás igénybevételére kötött előfizetői szerződés alapján az elektronikus hírközlő végberendezések (a továbbiakban: végberendezés) csatlakoztatásához előfizetői hozzáférési pontot kell létesítenie. (2) Az előfizetői hozzáférési pontokat az alkalmazott technológiai eljárástól függetlenül helyhez kötötten kell elhelyezni, és ehhez a végberendezést – amennyiben az elkülönül az előfizetői hozzáférési ponttól – technológiailag megbontható módon kell csatlakoztatni. (3) Az előfizetői hozzáférési pontokon csak a hatóságnál bejelentett és nyilvántartott előfizetői interfészek alkalmazhatók, de a szolgáltatónak biztosítani kell, hogy a szolgáltatás igénybevételére használhatók legyenek az e rendelet hatálybalépésekor a lakosság által széles körben használt végberendezések (telefon, telefax és legalább 9600 bit/sec átviteli sebességig a modem végberendezések). Az interfészek tápáram ellátásáról a szolgáltatónak kell gondoskodnia. (4) Amennyiben az előfizetői hozzáférési ponton az interfész működése helyi tápáram ellátást igényel, a szolgáltatónak különösen biztosítania kell azt, hogy a végberendezések telefon célú használata az alapfunkciókkal (beszédkapcsolat létrehozása: tárcsahang vétele, számok elküldése stb.) fenntartható legyen áram kimaradása esetén is. (5) A szolgáltató elektronikus hírközlő hálózatának biztosítania kell a hívószám kijelzés szolgáltatás nyújtását, azaz lehetővé kell tenni a szolgáltatók közötti megállapodás szerinti eljárással a hívó hálózati végpont hívószámának továbbítását a hívott előfizetői hozzáférési ponthoz."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § A nyilvános telefonállomásoknak és az előfizetői vonalaknak lehetővé kell tenniük az e rendelet szerinti követelményeknek megfelelő összeköttetést, segélyhívó, hibabejelentő számok fizetőeszköz használata nélküli felhívását, továbbá telefonhívások fogadását."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § A szolgáltató telefonhálózatának lehetővé kell tennie, hogy a szolgáltatás igénybevevői az előfizetői szerződésben foglaltaknak megfelelően, az előfizetői hozzáférési pontokhoz csatlakoztatott, tulajdonukban vagy használatukban lévő végberendezésekkel, vagy a nyilvános telefonállomások készülékeivel az azonosítók nemzeti felosztási tervéről szóló külön jogszabály (a továbbiakban: ANFT) szerint, belföldi vagy nemzetközi hívásokat kezdeményezhessenek és fogadhassanak, valamint a felépült telefon összeköttetéseket tetszés szerinti időpontban elbonthassák."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § A szolgáltatásnak folyamatosan rendelkezésre kell állnia oly módon, hogy a) a hívás a bejelentkezés után vezetékes csatlakozás esetén egy másodpercen belül, rádiós csatlakozás esetén két másodpercen belül legyen megkezdhető, b) a hívás megkezdésének lehetőségét jelzőhang (tárcsázási hang) jelezze, amely vizuális kijelzéssel kiegészíthető."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § (1) Belföldi hívások esetén a telefon-összeköttetés felépülésének a híváskezdeményezés befejezése után 12 másodpercen belül meg kell történnie, és a hívást kezdeményező végberendezésnek a hívott előfizetői hozzáférési pont állapotáról egyértelmű hangjelzést vagy magyar nyelvű szöveges tájékoztatást kell kapnia. (2) A telefon szolgáltatásban alkalmazott hangjelzések és rögzített bemondások, és azok jellemzői megválasztásánál figyelembe kell venni a rendelet 2. számú mellékletében foglalt nemzetközi ajánlásokat."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § (1) A hívott előfizetői hozzáférési ponttal felépült telefon-összeköttetésnek fenn kell maradnia a bontáskezdeményezésig. Az összeköttetés bontását akár a hívó, akár a hívott kezdeményezheti. (2) A telefon-összeköttetés bontásának a hívó kezdeményezése esetén azonnal, a hívott kezdeményezése esetén 90 másodpercen belül meg kell történnie."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § A szolgáltatás igénybevevőinek lehetőséget kell biztosítani telefon összeköttetések létrehozására és fenntartására a szolgáltatásra igénybe vett telefonhálózattal összekapcsolt más nyilvános telefonhálózat hálózati végpontjaival is."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § A szolgáltatásra igénybe vett telefonhálózatnak képesnek kell lennie arra, hogy a szolgáltató az előfizető kérésére az általa megjelölt kimenő hívástípusokat letilthassa."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § (1) A hívó és hívott között a telefon-összeköttetést olyan minőségben kell létrehozni és fenntartani, hogy a) a beszéd folyamatosan érthető legyen, b) a beszédkapcsolat során ne forduljon elő folyamatos zaj, kattogás, vagy más összeköttetésből áthallás, amely zavarja a beszédérthetőséget, és c) a beszédkapcsolatban szótagvesztések, zavaró visszhangjelenségek tartósan nem jelenhetnek meg. (2) Nem beszéd (faxüzenet, adat) átvitele esetén az összeköttetést olyan minőségben kell létrehozni és fenntartani, hogy az átviteli út lehetőleg ne korlátozza az összeköttetésben lévő végberendezések lehetséges saját adatátvitel sebességét, de mindenképpen tegye lehetővé a legalább 9600 bit/s sebességű adatátvitelt. Az adatátvitel bit-hibaaránya nem lehet rosszabb, mint 10–4."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § (1) A szolgáltatással ellátott földrajzi területen rendelkezésre kell állnia a szolgáltatás igénybevevői számára mind a belföldi segélyhívó számok (104, 105, 107), mind az európai egységes segélyhívó szám (112) díjmentes – nyilvános telefonállomásokon fizetőeszköz nélkül történő – felhívási lehetőségének. (2) A segélyhívó számok esetében foglaltság vagy a hívások torlódása tartósan nem akadályozhatja meg a beszédkapcsolatok létrejöttét. (3) A hibaelhárítási idő a segélyhívó számokkal kapcsolatos bármely meghibásodás esetén legfeljebb 12 óra."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. § (1) A szolgáltató köteles gondoskodni arról, hogy telefon szolgáltatás igénybevételével a telefonszolgáltatást előfizetők névjegyzékét és címtárát tartalmazó országos belföldi tudakozó szolgáltatás valamennyi előfizető számára elérhető legyen. (2) A szolgáltató köteles biztosítani, hogy az országos belföldi tudakozó szolgálat az ANFT szerinti rövidített hívószámmal, az általa ellátott földrajzi hely (terület) bármely előfizetője által folyamatosan, azonos feltételekkel legyen hívható."
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. § (1) A szolgáltatónak gondoskodnia kell az igénybe vett szolgáltatás díjának pontos meghatározásáról és számlázásáról, az igénybevétel időtartamának pontos méréséről és a tarifák pontos alkalmazásáról. (2) A szolgáltató a szolgáltatás díját úgy köteles megállapítani, hogy a tényleges kapcsolati idő és a mért szolgáltatási idő közötti eltérés vezetékes csatlakozás esetén az egy másodpercet, rádiós csatlakozás esetén a két másodpercet ne haladja meg."
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14. §",
+      "content": "14. § (1) A nyilvános telefonállomásokat úgy kell kialakítani és elhelyezni, hogy szélsőséges időjárási viszonyok között is használhatók legyenek, és a környezeti hatások ne tegyék lehetetlenné a szolgáltatás igénybevételét. (2) A hallás- és mozgáskorlátozottak által történő használatra üzembe helyezett nyilvános telefonállomásokat úgy kell kialakítani, hogy az könnyítse meg a telefonkészülék használatát, illetve a szolgáltatás igénybevételét. (3) A nyilvános telefonállomások készülékeinek alkalmasaknak kell lenniük belföldi és nemzetközi kapcsolások kezdeményezésére, a kapcsolat fenntartására és érthető kétirányú beszédátvitelre, valamint a telefon-összeköttetés bontására. A szolgáltatónak biztosítania kell, hogy a nyilvános telefonállomások hívhatók legyenek más telefonhálózati végpontokról. (4) A nyilvános telefonállomások igénybevételére alkalmas pénzérme, illetve egyéb készpénzt helyettesítő fizetőeszköz (hitelkártya, előrefizetett kártya, beleértve a hívókódokkal használatos kártyákat is) szabályszerű használata esetén a telefonkészüléknek rendelkezésre kell állni telefonhívások bonyolítására. A pénzérme, illetve az egyéb fizetőeszköz alkalmazását a szolgáltató az egyetemes szolgáltatási díjszabása szerint működteti. (5) A nyilvános telefonállomások használatát a felszerelés helyén elhelyezett legalább magyar nyelvű, jól olvasható és jól érthető – piktogrammokat tartalmazó – információs útmutató táblának kell segítenie, amelyen fel kell tüntetni a híváshoz szükséges műveleteket, a nyilvános telefonállomás hívószámát, a segélyhívó számokat, a hibabejelentő számát, valamint a fontosabb közérdekű hívószámokat."
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15. §",
+      "content": "15. § (1) A szolgáltató kötelessége, hogy az általa nyújtott szolgáltatás minősége folyamatosan megfeleljen e rendelet 1. számú mellékletében foglalt minőségi célértékeknek. (2) A szolgáltató az e rendeletben meghatározott műszaki követelményeket e rendelet 2. számú mellékletében meghatározott szabványok és ajánlások betartásával is teljesítheti."
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16. §",
+      "content": "16. § (1) A szolgáltatás e rendeletben foglalt követelményeinek való megfelelését – külön jogszabályban meghatározott eltérésekkel* – a hatóság piacfelügyeleti eljárás során ellenőrzi, amelynek keretében elrendelheti különösen az Eht. 123. § (2) bekezdésében foglaltak alkalmazását. (2) A szolgáltató köteles az e rendeletben meghatározott kötelezettségeiről a hatóság által előírt tartalommal és rendszerességgel értékelő adatokat benyújtani. A hatóság az adatokat a nyilvánosság számára hozzáférhetővé teszi."
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17. §",
+      "content": "17. § (1) Ez a rendelet 2004. május 1-jén lép hatályba, egyidejűleg az egyetemes távközlési szolgáltatás részletes műszaki követelményeről szóló 23/2001. (XII. 22.) MeHVM rendelet hatályát veszti. (2) Az e rendeletben foglaltakat a rendelet hatálybalépése után megkötött, illetve a rendelet hatálybalépéséig módosított egyetemes szolgáltatási szerződés alapján egyetemes szolgáltatást nyújtó szolgáltatókra kell alkalmazni. (3) Ez a rendelet a Magyar Köztársaság és az Európai Közösségek és azok tagállamai között társulás létesítéséről szóló, Brüsszelben, 1991. december 16-án aláírt Európai Megállapodás tárgykörében, a megállapodást kihirdető 1994. évi I. törvény 3. §-ával összhangban az Európai Parlament és a Tanács 2002/22/EK irányelvével az egyetemes szolgáltatásról, valamint az elektronikus távközlési hálózatokhoz és elektronikus szolgáltatásokhoz kapcsolódó felhasználói jogokról (Egyetemes szolgáltatási irányelv) összeegyeztethető szabályozást tartalmaz. Szolgáltatásminőségi célértékek Iránymutató műszaki ajánlások és szabványok az egyetemes elektronikus hírközlési szolgáltatás műszaki követelményeihez"
+    }
+  ]
+}

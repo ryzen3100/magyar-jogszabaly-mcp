@@ -1,0 +1,53 @@
+{
+  "id": "hu-law-2013-19-20-3h",
+  "type": "statute",
+  "title": "19/2013. (X. 29.) NMHH rendelet az egyszerű adatátvitelt és hozzáférést biztosító elektronikus hírközlési szolgáltatók és a kereső- és gyorsítótár-szolgáltatók központi elektronikus hozzáférhetetlenné tételi határozatok adatbázisához való kapcsolódásának és a Nemzeti Média- és Hírközlési Hatósággal való elektronikus kapcsolattartásának szabályairól",
+  "status": "in_force",
+  "in_force_date": "2014-01-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2013-19-20-3H",
+  "description": "az egyszerű adatátvitelt és hozzáférést biztosító elektronikus hírközlési szolgáltatók és a kereső- és gyorsítótár-szolgáltatók központi elektronikus hozzáférhetetlenné tételi határozatok adatbázisához való kapcsolódásának és a Nemzeti Média- és Hírközlési Hatósággal való elektronikus kapcsolattartásának szabályairól",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § (1) A rendelet hatálya a) a Nemzeti Média- és Hírközlési Hatóságra (a továbbiakban: Hatóság), és b) az elektronikus kereskedelmi szolgáltatások, valamint az információs társadalommal összefüggő szolgáltatások egyes kérdéseiről szóló törvényben meghatározott ba) keresőszolgáltatás és gyorsítótárolás szolgáltatást nyújtó, vagy bb) a Magyarországon elektronikus hírközlési szolgáltatásként internet-hozzáférést (egyszerű adatátvitelt és hozzáférést) biztosító szolgáltatást nyújtó természetes személy, jogi személy vagy jogi személyiséggel nem rendelkező szervezet közvetítő szolgáltatókra (a továbbiakban: szolgáltató) terjed ki. (2) A központi elektronikus hozzáférhetetlenné tételi határozatok adatbázisa (a továbbiakban: KEHTA) a Hatóság által üzemeltetett nem hatósági nyilvántartás."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § E rendelet alkalmazásában az Adatkapu a Hatóság egységes adat- és dokumentumbekérő felülete."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) A Hatóság az elektronikus adathoz való hozzáférés ideiglenes és végleges megakadályozásában (a továbbiakban: hozzáférés megakadályozása) való közreműködése keretében üzemelteti a KEHTA-t. (2) A KEHTA működtetése céljából a Hatóság feldolgozza a KEHTA-ba a bíróság, vagy a külön törvényben meghatározott hatóság elektronikus úton megküldött értesítése alapján bevitt adatokat."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) A KEHTA-hoz való kapcsolódást a Hatóság az Adatkapun keresztül biztosítja a szolgáltató számára annak Ügyfélkapu regisztrációval rendelkező, kijelölt KEHTA kapcsolattartói útján. (2) A Hatóság a hivatalos elérhetőségükön, elektronikus úton értesíti a szolgáltató KEHTA kapcsolattartóit a büntető ügyben eljáró bíróság, illetve a külön törvényben meghatározott hatóság hozzáférés megakadályozásáról szóló határozatáról. (3) Az értesítés körében a Hatóság az Ügyfélkapu szolgáltatásainak felhasználásával, elektronikusan küldi meg a hozzáférés megakadályozásáról, illetve annak megszüntetéséről szóló bírósági határozatot és a bíróság, illetve a külön törvényben meghatározott hatóság határozatának végrehajtásához szükséges adatokat a szolgáltató KEHTA kapcsolattartói részére. (4) A szolgáltató KEHTA kapcsolattartói számára az Ügyfélkapu külön elektronikus levelet küld, ha a Hatóság a szolgáltató részére a (3) bekezdés szerinti adatokat küldött. (5) A szolgáltató köteles az Ügyfélkapu, illetve a (4) bekezdés szerinti elektronikus levél küldésének folyamatos figyelemmel kíséréséről, ellenőrzéséről gondoskodni annak érdekében, hogy a hozzáférés megakadályozásával kapcsolatos kötelezettségének eleget tegyen. (6) A Hatóság az (1)–(5) bekezdésben szabályozott értesítési folyamat alkalmazása mellett egyéb elektronikus úton is tájékoztathatja a szolgáltatókat. (7) A szolgáltató olyan műszaki, szervezési és szervezeti intézkedésekkel köteles gondoskodni a KEHTA-ból részére megküldött adatok biztonságának védelméről, amely az adatkezeléssel kapcsolatban jelentkező kockázatoknak megfelelő védelmi szintet nyújt. (8) A szolgáltató a (7) bekezdésben írt kötelezettség teljesítése érdekében köteles gondoskodni arról, hogy a kezelt adat a) az arra feljogosítottak számára hozzáférhető (rendelkezésre állás), b) hitelessége és hitelesítése biztosított (adatkezelés hitelessége), c) változatlansága igazolható (adatintegritás), d) a jogosulatlan hozzáférés ellen védett (adat bizalmassága) legyen."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § (1) Mentesül a KEHTA-hoz való csatlakozási kötelezettség alól az az internet-hozzáférés szolgáltatást nyújtó szolgáltató, amely kizárólag olyan más elektronikus hírközlési szolgáltatón keresztül csatlakozik a Budapesti Adatkicserélő központhoz (BIX) és a nemzetközi adatkicserélő központokhoz, amely elektronikus hírközlési szolgáltató már csatlakozott a KEHTA-hoz. (2) A mentesülésre jogosult szolgáltató az (1) bekezdésben foglalt követelményeket a Hatóság felhívására igazolni köteles."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § Ez a rendelet 2014. január 1-jén lép hatályba."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § E rendelet a gyermekek szexuális bántalmazása, szexuális kizsákmányolása és a gyermekpornográfia elleni küzdelemről, valamint a 2004/68/IB tanácsi kerethatározat felváltásáról szóló, 2011. december 13-i 2011/93/EU európai parlamenti és tanácsi irányelv 25. cikkének való megfelelést szolgálja. 1 A 4. § (2) bekezdése a 9/2024. (X. 3.) NMHH rendelet 9. §-a szerint módosított szöveg. 2 A 4. § (3) bekezdése 13/2017. (XII. 29.) NMHH rendelet 11. §-a szerint módosított szöveg."
+    }
+  ]
+}

@@ -1,0 +1,3288 @@
+{
+  "id": "hu-law-2008-31-b0-2k",
+  "type": "statute",
+  "title": "31/2008. (HÉ 53.) NFGM utasítás a Nemzeti Fejlesztési és Gazdasági Minisztérium Iratkezelési Szabályzatáról és Irattári Tervéről",
+  "status": "repealed",
+  "in_force_date": "2009-01-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2008-31-B0-2K",
+  "description": "A Nemzeti Fejlesztési és Gazdasági Minisztérium Iratkezelési Szabályzatáról és Irattári Tervéről",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A köziratokról, a közlevéltárakról és a magánlevéltári anyag védelméről szóló 1995. évi LXVI. törvény (továbbiakban: Ltv.) 10. §-a (1) bekezdésének b) pontja, és a közfeladatot ellátó szervek iratkezelésének általános követelményeiről szóló 335/2005. (XII. 29.) Korm. rendelet (továbbiakban: Korm. rendelet) alapján a következő utasítást adom ki:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "1. A Nemzeti Fejlesztési és Gazdasági Minisztérium (a továbbiakban: minisztérium) Iratkezelési Szabályzatát és Irattári Tervét a jelen utasítás mellékletében foglaltak szerint határozom meg."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "2. Az utasítás mellékletét képező Iratkezelési Szabályzatot és Irattári Tervet az érintettek közvetlenül is megkapják."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "3. A minisztérium szervezeti egységeinek vezetői felelősek azért, hogy a munkatársaik az iratkezelési szabályzat előírásait megismerjék, és munkavégzésük során alkalmazzák."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "4. A Nemzeti Fejlesztési és Gazdasági Minisztériumban az iratkezelés rendjével kapcsolatos feladatok ellátásának irányítása a közigazgatási ügyekért felelős szakállamtitkár feladat- és hatáskörébe tartozik."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "5. Ez az utasítás 2009. január 1-jén lép hatályba, azzal, hogy a minisztérium és jogelődei idejében keletkezett iratokra a vonatkozó iratkezelési szabályzat előírásait és irattári tervben meghatározott tételszámokat kell alkalmazni."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "Bajnai Gordon s. k.,"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "nemzeti fejlesztési és gazdasági miniszter"
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "A Nemzeti Fejlesztési és Gazdasági Minisztérium"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "Iratkezelési Szabályzata"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "I."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "ÉRTELMEZŐ RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "A köziratokról, a közlevéltárakról és a magánlevéltári anyag védelméről szóló 1995. évi LXVI. törvény 3. §-ának, valamint a közfeladatot ellátó szervek iratkezelésének általános követelményeiről szóló 335/2005. (XII. 29.) Korm. rendelet 2. §-ának megfelelően a Nemzeti Fejlesztési és Gazdasági Minisztérium (a továbbiakban: minisztérium) Iratkezelési Szabályzata (a továbbiakban: Szabályzat) alkalmazásában a következő fogalmak használatosak:"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "Átmeneti (Operatív) irattár: a minisztérium által az iktatóhelyhez kapcsolódóan kialakított olyan irattár, amelyben az irattári anyag meghatározott időtartamú átmeneti, selejtezés vagy központi irattárba adás előtti 1éves őrzése történik;"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "Átadás: irat, ügyirat vagy irat együttes kezelési jogosultságának dokumentált átruházása;"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "Beadvány: valamely szervtől vagy személytől a minisztériumhoz érkező papíralapú vagy elektronikus irat;"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "Csatolás: az egy ügykörhöz tartozó különböző iratok, ügyiratok átmeneti jellegű összekapcsolása;"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "Digitalizálás: papíralapú (nyomtatott) dokumentumok ismétlődő szkennelési műveletsorral, elektronikus információvá történő átalakítása, ahol az OCR (optikai karakterfelismerő) programok alkalmazásával a szkennelt képekből további információk nyerhetők;"
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "Elektronikusan aláírt irat: az elektronikus aláírásról szóló 2001. évi XXXV. törvényben meghatározott, legalább fokozott biztonságú elektronikus aláírással ellátott elektronikus dokumentumba foglalt irat;"
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "Elektronikus tájékoztatás: olyan kiadmánynak nem minősülő elektronikus dokumentum, amely az iktatási számról, az eljárás megindításának napjáról, az ügyintézési határidőről, az ügy ügyintézőjéről és az ügyintéző hivatali elérhetőségéről értesíti az ügyfelet;"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "Elektronikus visszaigazolás: olyan kiadmánynak nem minősülő elektronikus dokumentum, amely az elektronikus úton érkezett irat átvételéről és az érkeztetés sorszámáról értesíti annak küldőjét;"
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "Előadói ív: az üggyel, a szignálással, a kiadmányozással, az ügyintézéssel és az iratkezeléssel kapcsolatos információkat hordozó, az ügyirat elválaszthatatlan részét képező vagy azzal közös adatbázisban kezelt iratkezelési segédeszköz;"
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "Expediálás: az irat kézbesítésének előkészítése, a küldemény címzettjének (címzettjeinek), adathordozójának, fajtájának, a kézbesítés módjának és időpontjának meghatározása;"
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "Érkeztetés: minimálisan az érkezett küldemény sorszámának, küldőjének, az érkeztetés dátumának és könyvelt postai küldeménynél a küldemény postai azonosítójának (különösen kód, ragszám) nyilvántartásba vétele;"
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "Gépi adathordozó: külön jogszabályban meghatározott, az ügyfél-hivatal vagy a hivatal-ügyfél kommunikációra felhasználható, valamint az elektronikus adat tárolására alkalmas eszköz;"
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "Iktatás: az irat nyilvántartásba vétele, iktatószámmal történő ellátása az érkeztetést vagy a keletkezést követően az iktatókönyvben, az iraton és az előadói íven;"
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "Iktatókönyv: olyan nem selejtezhető, hitelesített iratkezelési segédeszköz, amelyben az iratok iktatása történik;"
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "Iktatószám: olyan egyedi azonosító, amellyel a közfeladatot ellátó szerv látja el az iktatandó iratot;"
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "Irat: valamely szerv működése vagy személy tevékenysége során keletkezett vagy hozzá érkezett, egy egységként kezelendő rögzített információ, adat együttes, amely megjelenhet papíron, mikrofilmen, mágneses, elektronikus vagy bármilyen más adathordozón; tartalma lehet szöveg, adat, grafikon, hang, kép, mozgókép vagy bármely más formában lévő információ vagy ezek kombinációja;"
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "Iratkezelő: a minisztériumi szervezeti egységek titkárságain az iratkezeléssel és a számítógépes Kormányzati Irat-nyilvántartási Rendszer (a továbbiakban: KIR3) iktatóprogram használatával megbízott, jogosultsággal rendelkező személyek;"
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "Irattári anyag: rendeltetésszerűen a minisztériumnál maradó, tartalmuk miatt átmeneti vagy végleges megőrzést igénylő, szervesen összetartozó iratok összessége;"
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "Irattár: az irattári anyag szakszerű és biztonságos őrzése, valamint kezelésének biztosítása céljából létrehozott és működtetett fizikai és elektronikus tárolóhely;"
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "Irattári tétel: az iratképző szerv vagy személy ügykörének és szervezetének megfelelően kialakított legkisebb – egyéni irattári őrzési idővel rendelkező – irattári egység, amelybe több egyedi ügy iratai tartozhatnak;"
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "Irattári tételszám: az iratnak az irattári tervben meghatározott tárgyi csoportba és iratfajtába sorolását, selejtezhetőség szerinti csoportosítását meghatározó kód;"
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "Irattárba helyezés: az ügyirat irattári tételszámmal történő ellátása és irattárban történő dokumentált elhelyezése, és kezelési jogának átadása az irattárnak az ügyintézés befejezését követő vagy annak felfüggesztése alatti átmeneti időre;"
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "Iratkölcsönzés: az irat visszahozatali kötelezettség melletti kiadása az irattárból;"
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "Kezdőirat: az ügyben keletkezett első irat, az ügy indító irata;"
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "Kezelési feljegyzések: az ügyirat vagy az egyes irat kezelésével kapcsolatos, ügykezelőnek szóló vezetői vagy ügyintézői utasítások;"
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "Kézbesítés: a küldeménynek kézbesítő szervezet, személy, adatátviteli eszköz útján történő eljuttatása a címzetthez;"
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "Központi iktatás: az irat központi iktatóban vagy közvetlen kézbesítés (futárral, e-mailen, faxon) esetén a szervezeti egységeknél történő számítógépes nyilvántartásba vétele, az NFGM központi iktatókönyvben történő iktatását követően iktatószámmal való ellátása az iraton és az előadói íven;"
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "Központi irattár: a minisztérium több szervezeti egysége irattári anyagának selejtezés vagy levéltárba adás előtti őrzésére szolgáló irattár;"
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "Közirat: a keletkezés idejétől és az őrzés helyétől függetlenül minden olyan irat, amely a minisztérium irattári anyagába tartozik vagy tartozott;"
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "Küldemény: az irat vagy tárgy – kivéve a reklámanyag, sajtótermék, elekronikus szemét –, amelyet kézbesítés céljából burkolatán vagy a hozzá tartozó listán címzéssel láttak el;"
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "Küldemény bontása: az érkezett küldemény biztonsági ellenőrzése, felnyitása, olvashatóvá tétele;"
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "Levéltárba adás: a lejárt irattári őrzési idejű, maradandó értékű iratok teljes és lezárt évfolyamainak átadása az illetékes közlevéltárnak;"
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "Magánirat: nem a minisztérium irattári anyagába tartozó, valamint a természetes személyek tulajdonában lévő irat;"
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "Másodlat: az eredeti irat egyik hiteles példánya, amelyet az első példánnyal azonos módon hitelesítettek;"
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "Másolat: az eredeti iratról szövegazonos és alakhű formában, utólag készült egyszerű (nem hitelesített) vagy hiteles (hitelesítési záradékkal ellátott) irat;"
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "Megsemmisítés: a kiselejtezett irat végleges, a benne foglalt információ helyreállításának lehetőségét kizáró módon történő hozzáférhetetlenné tétele, törlése;"
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "Mellékelt irat: az iratnak nem szerves része, tartozéka, attól – mint kísérő irattól – elválasztható;"
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "Melléklet: valamely irat szerves tartozéka, annak kiegészítő része, amely elválaszthatatlan attól;"
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "Naplózás: az elektronikus iratkezelési rendszerben, a kezelt adatállományokban bekövetkezett események teljes körének regisztrálása;"
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "Savmentes doboz: lignint, savas adalékanyagot és színezéket nem tartalmazó, papírból készített tárolóeszköz;"
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "Selejtezés: a lejárt megőrzési határidejű iratok kiemelése az irattári anyagból és megsemmisítésre történő előkészítése;"
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "Szerelés: ugyanahhoz az ügyirathoz tartozó ügyiratdarabok (elő- és utóiratok) végleges jellegű összekapcsolása, amelyet az iktatókönyvben és az iratokon egyaránt jelölni kell;"
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "Szignálás: az ügyben eljárni illetékes szervezeti egység és/vagy ügyintéző személy kijelölése, az elintézési határidő és a feladat meghatározása;"
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "Szkennelés: azon technika, amelynek segítségével bármilyen papíralapú dokumentum elektronikus formában történő átalakítása elvégezhető, ahol a szkennelés során kapott elektronikus kép sorokból és oszlopokból álló adatszerkezeti állományként jelenik meg;"
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "Továbbítás: az ügyintézés során az irat eljuttatása az egyik ügyintézési ponttól a másikhoz, amely elektronikusan tárolt irat esetén megvalósulhat az irathoz való hozzáférés lehetőségének biztosításával is;"
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "Ügyintéző: az ügy intézésére kijelölt személy, az ügy előadója, aki az ügyet döntésre előkészíti;"
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "Ügyirat: egy ügyben keletkezett valamennyi irat összessége;"
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "Ügykör: a minisztérium, valamely szervezeti egység vagy személy feladat- és hatáskörébe tartozó ügyek meghatározott csoportja."
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "II."
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "ÁLTALÁNOS RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "1. Az Iratkezelési Szabályzat hatálya"
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "A Szabályzat a minisztérium valamennyi szervezeti egységére, a minisztériumban bármilyen jogviszonyban munkát végzőkre, a minisztérium működése során keletkezett vagy beérkező és onnan továbbított iratára terjed ki."
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "2. Az iratkezelés szervezete:"
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "A minisztérium az iratkezelést vegyes iratkezelési szervezettel látja el, oly módon, hogy az iratkezelés egyes fázisait központi, egyes fázisait osztott (decentralizált) rendben végzi."
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "A minisztériumi iratnyilvántartás a számítógépes központi iratkezelő rendszer (KIR3) használatával valósul meg. A minisztériumi központi iktatás a 2008. július 1-jén 1-gyel induló főszámos/alszámos „NFGM” megkülönböztető jelzésű minisztériumi iktatókönyvben történik, oly módon, hogy a bontható küldeményeket a központi iratkezelést végző munkatársak iktatják. Szintén 1-es sorszámmal indul az iktatás év elején a minisztérium minden érkeztető- és iktatókönyvében."
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "A minisztériumban a papíralapú dokumentumok mellett 2008. december 31-ig az elektronikus dokumentumok továbbítása próbaüzemben és blokkonkénti fokozatos kiterjesztéssel kerül bevezetésre. A beérkező ügyiratok év végéig iktatott ügyiratként és elektronikus formában – párhuzamosan – kerülnek továbbításra. Az iktatott irathoz csatolmányként hozzárendelt digitalizált küldeményeket az első címzett szervezeti egységhez kell rendelni és továbbítani."
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "A papíralapú és az elektronikus dokumentumok átvételének igazolása a KIR3 iratkezelő rendszeren belül elektronikusan történik."
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "A helyben bontott és ügyintézésre kijelölt küldeményeket a szervezeti egységek iratkezeléssel megbízott munkatársai önállóan iktatják, hasonlóan az e-mailen faxon érkezett küldeményekhez és a belső keletkezésű levelekhez, amelyeknek iktatása új főszámra, vagy iratfordulat esetén az ügyirat következő alszámára történik."
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "A minisztériumban a központi küldeménykezelési és iktatási feladatokat a Jogi és Koordinációs Főosztályhoz tartozó központi iratkezelők végzik. A minisztériumi szakállamtitkárságok rendelkeznek szkennerrel, így a közvetlenül hozzájuk érkező vagy a helyben bontható küldemények iktatását és digitalizálását a titkárságok végzik."
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "A minisztériumban az iratok nyilvántartását az iratkezeléssel megbízott munkatársak (iratkezelők) végzik."
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "Az egységes minisztériumi iratkezelés érdekében a minisztériumban jelen szabályzatban foglaltak alapján kell az iratokat nyilvántartani és kezelni."
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "3. Az iratkezelésben részt vevő személyek feladatai"
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "(1) Központi iktató iratkezelője:"
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "Ellátja a küldemények átvételét, bontását, számítógépes iktatását, az irat azonosítására szolgáló adatokat – köztük vonalkódot – tartalmazó iratborítóra/iratpéldány borítóra (11. sz. függelék) történő nyomtatását, ügyiratborítóban (előadói ívben) történő elhelyezését, az előirat csatolását és az első címzetthez történő elektronikus továbbítását. Ennek során a címzett/szervezeti egység iratkezelője a minisztériumi levelezőrendszeren keresztül értesítést kap, hogy küldeménye vagy ügyirata érkezett. Az üzenet megnyitásával a kézbesített küldeményt/ügyiratot elektronikusan át kell venni."
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "Iktatás után elvégzi a papíralapú dokumentumok szkennelését és egyidejűleg – a KIR3-ban használatos – számítógéppel ellenőrzi az elektronikus adattartalom minőségét, intézkedik a digitalizálás során mechanikai okból keletkezett hibák (a gyűrött, szakadt, összetapadt lapok és a nem olvasható részek) újbóli szkenneléssel való javításáról. A nagy terjedelmű, átlagban 50 oldal/lap fölötti iratok és a kötött, fűzött, hitelesített vagy könyvszerű dokumentumok szkennelését nem a központi iratkezelők végzik, hanem azokat mellékletként – papír alapon – a címzettnek továbbítják. Nem szkennelik továbbá azokat a küldeményeket sem, amelyek jelen szabályzat IV. fejezete 1. pontjának (6) bekezdése szerint nem iktatandók."
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "Ellátja a nem bontható, és felbontás nélkül továbbítandó küldemények számítógépes érkeztetését (zárt borítékon) és a címzetthez kézbesítőívvel átvételre történő továbbítását."
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "(2) Központi kiadó, irattáros:"
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "Ellátja a szervezeti egységektől átvett kiadmányok továbbítását, valamint az aláírás nélküli (s.k. jelölésű) kiadmányok továbbítás előtti hitelesítését."
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "Bevezeti a számítógépes nyilvántartásba a kiadmányok továbbítását, és – az irattári terv alapján – végzi az iratok irattárba helyezését, az iratkölcsönzéssel kapcsolatos feladatokat."
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "Előkészíti a szervezeti egységektől központi irattárazásra kijelölt iratanyagok iratborítóban, konténerdobozokban történő átvételét és ellenőrzi, hogy a KIR3-as iktatórendszeren átvezetésre került-e a kijelölt iratok irattári tételszáma, azok helyessége. Az így leadott iratokat a központi irattár tételesen megvizsgálja, azokat időrendben a forrásdokumentumokhoz csatolja és megfelelőség esetén az iratokat a központi tárolásra alkalmas irattári dobozokban elhelyezi."
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "Gondoskodik az iratok raktári elhelyezésének KIR3- rendszeren történő átvezetéséről."
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "Közreműködik az irattárban őrzött iratok selejtezésében, továbbá a levéltári átadás előkészítésében."
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "(3) Szervezeti egységek iratkezelői:"
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "Gondoskodnak a papíralapú iratok és a KIR3 iratkezelő rendszerben átadott adatok egyezőségéről, megfelelőségéről, tovább a csatolmány meglétéről."
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "Átveszik a megfelelően rögzített iratokat, ellenkező esetben a küldő szervezeti egységhez visszaküldik."
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "A vezetői utasítások meghatározásáig az iratokat a címzett megjelölésével, de a szervezeti egységre iktatják és továbbítják a KIR3 iratkezelő rendszeren belül."
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "A központi iktatótól számítógépen átvett vagy más szervezet egységektől átirányított iratokat szignálásra bemutatják a szervezeti egység vezetőjének. Ezt követően a számítógépes nyilvántartást kiegészítik a kijelölt ügyintéző nevével, az elintézési határidővel, az esetleges vezetői rájegyzésekkel. Az iratokat átadják az illetékes ügyintézőnek."
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "Abban az esetben, ha az ügyintéző a feladat elvégzését követően nem tudja – pl. távolléte esetén – az elkészített kiadmányt a KIR3 iratkezelő rendszer alkalmazásával továbbítani, a szervezeti egység iratkezelője a következők szerint jár el."
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "Az ügyintéző kérésére elkészítik a szükséges iratpéldányokat, azokat véleményezésre, válaszadásra vagy tájékoztatás céljából továbbítják a kijelölt közreműködőknek és az egyes iratpéldányok címzettjeit a számítógépes nyilvántartáson is átvezetik annak érdekében, hogy a részfelelős szakterületek a válaszlevelet az eredeti iktatószámon válaszalszámmal elkészíthessék. Egyidejűleg az elektronikusan csatolt dokumentum(oka)t a közreműködőknek továbbítják."
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "Áthelyezik a szervezeti egységek vagy a munkatársak személyes postafiókjára érkező elektronikus küldemények közül az ügyintézésre kijelölt tételeket a KIR3 iratkezelő rendszerben beállított,,Beérkező üzenetek” mappában. A beküldő címének megmaradása érdekében az áthelyezés végrehajtása két módon történhet: a megnyitott levélből File menű/Áthelyezés másik mappába funkcióval vagy „fogd és vidd” (drag and drop) művelettel. A KIR3 e-mailkezelő modulból érkeztetett/iktatott tételekhez 1-1 csatolmány keletkezik a beküldő/eredeti e-mailjének minden egyes csatolt dokumentumáról."
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "Gondoskodnak a belső keletkezésű iratok iktatásáról és intézkednek az iktatott iratok, iratpéldányok, kiadmányok más minisztériumi szervezeti egység(ek)hez vagy központi iktatóhoz, irattárhoz – kézbesítők útján – történő továbbítása iránt."
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "A belső keletkezésű ügyiratokat – ha azt jogszabály vagy belső előírás nem tiltja – elektronikus formában, elektronikus aláírással ellátva kell továbbítani. A továbbítás történhet iktatott e-mail formájában vagy a KIR3 iratkezelő rendszerben küldött csatolmányként."
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "Ha a papíralapú kiadmány előállítására és továbbítására van szükség a KIR3 iratkezelő rendszerben elvégzendő műveletek a következők:"
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "a) csatolni az aláírt kiadmánnyal megegyező elektronikus változatot,"
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "b) a kiküldés tényét – a továbbítás módjától függetlenül – visszavezetni az alszámon (állapotát postázottra kell módosítani),"
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "c) a postázó részére továbbítani."
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "Gondoskodik az iratok vezető részére történő átadásáról."
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "(4) A szervezeti egységek vezetői"
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "KIR3-ban történő aktív vezetői közreműködés esetén"
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "A KIR3 rendszerben átveszik a központi iratkezeléstől érkezett vagy más szervezeti egységektől átirányított iratokat (beleértve az elektronikus küldeményeket, digitalizált dokumentumokat)."
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "Következő felelősként kijelölik (szignálás) az iktatott irat ügyintézőjét, a végrehajtás határidejét, valamint a bevonandók körét, ezt követően „továbbítással” az ügyiratot átadják az ügyintézőnek."
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "A szignálási utasításokat a KIR3-rendszerben a vezető meghatalmazottja és funkcióban a vezető által kijelölt munkatárs is végezheti."
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "A KIR3-rendszerben átveszik az ügyintéző által elkészített és jóváhagyásra hozzájuk továbbított válasziratot, megfelelőség esetén elektronikus aláírásukkal ellátják és a következő jóváhagyóhoz vagy a kiadmányozóhoz továbbítják."
+    },
+    {
+      "provision_ref": "s107",
+      "section": "107",
+      "title": "107",
+      "content": "(5) Ügyintézők"
+    },
+    {
+      "provision_ref": "s108",
+      "section": "108",
+      "title": "108",
+      "content": "Gondoskodnak"
+    },
+    {
+      "provision_ref": "s109",
+      "section": "109",
+      "title": "109",
+      "content": "– az ügyiratok ügyintézésre történő átvételéről, a saját iratpéldányok lekérdezéséről (a KIR3 iratkezelő rendszerben),"
+    },
+    {
+      "provision_ref": "s110",
+      "section": "110",
+      "title": "110",
+      "content": "– az ügyintézőre szignált ügyiratok „Feladataim” címszó alatti lekérdezéséről (a KIR3 iratkezelő rendszerben),"
+    },
+    {
+      "provision_ref": "s111",
+      "section": "111",
+      "title": "111",
+      "content": "– a bevonandók köréhez szükséges iratpéldányok elkészítéséről és továbbításáról, annak érdekében, hogy a társfőosztályok vezetői az ügyintézőt kijelölhessék és az ügyintézők a hozzájuk címzett iratpéldányokra az alszámos választ elkészíthessék,"
+    },
+    {
+      "provision_ref": "s112",
+      "section": "112",
+      "title": "112",
+      "content": "– a beérkezett vélemények alapján a válaszirat tervezetének összeállításáról, amelyet a főszám következő alszámára iktatnak, és az iratot papíralapon és elektronikus csatolmányként is jóváhagyásra a szervezeti egység vezetőjének továbbítanak,"
+    },
+    {
+      "provision_ref": "s113",
+      "section": "113",
+      "title": "113",
+      "content": "– bármilyen időpontban, bármilyen időszakról a ”Mit végeztem?” vezetői kérdésre adandó tájékoztatásról,"
+    },
+    {
+      "provision_ref": "s114",
+      "section": "114",
+      "title": "114",
+      "content": "– az irattári tételszám iratborítón és a KIR3 iratkezelő rendszerben történő rögzítéséről (amelynek meghatározása az ügy lezárásáig kötelező),"
+    },
+    {
+      "provision_ref": "s115",
+      "section": "115",
+      "title": "115",
+      "content": "– az államigazgatási eljárás általános szabályai szerint és a szignáló által vagy az ügyiratban egyébként meghatározott határidőben a részükre átadott iratok végrehajtása menetének figyelemmel kiséréséről (pl. iratpéldányok szétküldése, vélemények, információk begyűjtése, kiadvány létrehozása, továbbítása vezetői jóváhagyásra stb. feladatok végrehajtása a KIR3 iratkezelő rendszer alkalmazásával),"
+    },
+    {
+      "provision_ref": "s116",
+      "section": "116",
+      "title": "116",
+      "content": "– a kapcsolódó papír alapú példányok iratborítóban történő elhelyezéséről és az ügyirattal együtt történő megőrzéséről."
+    },
+    {
+      "provision_ref": "s117",
+      "section": "117",
+      "title": "117",
+      "content": "4. Az iratkezelés felügyelete"
+    },
+    {
+      "provision_ref": "s118",
+      "section": "118",
+      "title": "118",
+      "content": "Az iratkezelési szabályzatban foglaltak végrehajtásáért, a szervezeti, működési és ügyrendi szabályok, az alkalmazott informatikai eszközök és eljárások, valamint az irattári tervek és iratkezelési előírások folyamatos összhangjáért, az iratok szakszerű és biztonságos megőrzésére alkalmas irattár kialakításáért és működtetéséért, továbbá az iratkezeléshez szükséges egyéb tárgyi, technikai és személyi feltételek biztosításáért, felügyeletéért a miniszter felelős."
+    },
+    {
+      "provision_ref": "s119",
+      "section": "119",
+      "title": "119",
+      "content": "A minisztériumi iratkezelés felügyeletét és irányítását – a minisztérium vezetője által átadott hatáskörben – a Jogi és Koordinációs Főosztály vezetője látja el, aki évente ellenőrzi a szabályzatban foglaltak végrehajtását, eredményéről jelentést készít a minisztériumi felső vezetés részére, intézkedik a szabálytalanságok felszámolása iránt és szükség esetén javaslatot tesz a szabályzat módosítására."
+    },
+    {
+      "provision_ref": "s120",
+      "section": "120",
+      "title": "120",
+      "content": "Az elektronikusan tárolt adatokkal kapcsolatos biztonsági előírásokat és a hozzáférési jogosultságokat a nemzeti fejlesztési és gazdasági miniszter 7/2008. (IX. 24.) NFGM utasítása az Információbiztonsági Szabályzatról tartalmazza."
+    },
+    {
+      "provision_ref": "s121",
+      "section": "121",
+      "title": "121",
+      "content": "III."
+    },
+    {
+      "provision_ref": "s122",
+      "section": "122",
+      "title": "122",
+      "content": "KÜLDEMÉNYEK ÁTVÉTELE, FELBONTÁSA, ÉRKEZTETÉSE"
+    },
+    {
+      "provision_ref": "s123",
+      "section": "123",
+      "title": "123",
+      "content": "1. A küldemények átvétele"
+    },
+    {
+      "provision_ref": "s124",
+      "section": "124",
+      "title": "124",
+      "content": "(1) A minisztériumnak –, valamint a minisztérium címére a szervezeti egységeknek – vagy a minisztérium munkatársai nevére szóló küldemények postán, futárral, kézbesítővel, továbbá faxon és elektronikus úton érkeznek."
+    },
+    {
+      "provision_ref": "s125",
+      "section": "125",
+      "title": "125",
+      "content": "Átvételre jogosultak:"
+    },
+    {
+      "provision_ref": "s126",
+      "section": "126",
+      "title": "126",
+      "content": "– a postai küldemények esetében a postai meghatalmazással rendelkező központi iratkezelő,"
+    },
+    {
+      "provision_ref": "s127",
+      "section": "127",
+      "title": "127",
+      "content": "– a futárral vagy kézbesítővel érkező küldeményeknél ugyancsak a központi iratkezelők,"
+    },
+    {
+      "provision_ref": "s128",
+      "section": "128",
+      "title": "128",
+      "content": "– az e-mailen, faxon érkező leveleknél a címzett, vagy az általa megbízott személy,"
+    },
+    {
+      "provision_ref": "s129",
+      "section": "129",
+      "title": "129",
+      "content": "– a munkaidő után érkező küldemények esetében a minisztériumi rendészet dolgozói és"
+    },
+    {
+      "provision_ref": "s130",
+      "section": "130",
+      "title": "130",
+      "content": "– a címzett, vagy az általa írásban meghatalmazott személy."
+    },
+    {
+      "provision_ref": "s131",
+      "section": "131",
+      "title": "131",
+      "content": "(2) A küldemény ellenőrzése átvételkor"
+    },
+    {
+      "provision_ref": "s132",
+      "section": "132",
+      "title": "132",
+      "content": "A küldeményt átvevő személy köteles ellenőrizni"
+    },
+    {
+      "provision_ref": "s133",
+      "section": "133",
+      "title": "133",
+      "content": "– a címzés alapján a küldemény átvételére való jogosultságát,"
+    },
+    {
+      "provision_ref": "s134",
+      "section": "134",
+      "title": "134",
+      "content": "– a kézbesítő okmányon és a küldeményen lévő azonosítási jel megegyezőségét,"
+    },
+    {
+      "provision_ref": "s135",
+      "section": "135",
+      "title": "135",
+      "content": "– a küldemény borítékjának vagy egyéb csomagolásának sértetlenségét."
+    },
+    {
+      "provision_ref": "s136",
+      "section": "136",
+      "title": "136",
+      "content": "(3) Az átvétel igazolása"
+    },
+    {
+      "provision_ref": "s137",
+      "section": "137",
+      "title": "137",
+      "content": "Az átvevő a kézbesítőokmányon olvasható aláírásával és az átvétel dátumának feltüntetésével az átvételt elismeri. Az „azonnal” és „sürgős” jelzésű küldemények átvételi idejét az átvevő a kézbesítőokmányon óra, perc pontossággal köteles megjelölni."
+    },
+    {
+      "provision_ref": "s138",
+      "section": "138",
+      "title": "138",
+      "content": "Tértivevényes küldemények átvételét követően az átvevő gondoskodik a tértivevény visszajuttatásáról a feladóhoz. Az e-mailen és faxon érkező irat átvételét a számítógép és a fax naplózza."
+    },
+    {
+      "provision_ref": "s139",
+      "section": "139",
+      "title": "139",
+      "content": "Amennyiben a minisztérium valamely szervezeti egységének munkatársa veszi át a küldeményt, akkor köteles az átvételt az iraton aláírásával igazolni, és az e-mailt vagy a fax másolati példányát az ügyintézésre kijelölt szervezeti egységhez továbbítani. A szervezeti egység munkatársa a küldemény átvételét követően – annak sürgősségétől függően – soron kívül, de legkésőbb a következő munkanap kezdetén köteles az irat iktatásáról gondoskodni."
+    },
+    {
+      "provision_ref": "s140",
+      "section": "140",
+      "title": "140",
+      "content": "(4) Sérült küldemény kezelése"
+    },
+    {
+      "provision_ref": "s141",
+      "section": "141",
+      "title": "141",
+      "content": "Sérült küldemény átvételekor jelölni kell, hogy az sérülten, vagy felbontva érkezett. Soron kívül ellenőrizni kell a küldemény tartalmát. A hiányosságról jegyzőkönyvet kell készíteni és a küldő szervet, szervezeti egységet, személyt értesíteni kell."
+    },
+    {
+      "provision_ref": "s142",
+      "section": "142",
+      "title": "142",
+      "content": "(5) Sürgősség kezelése"
+    },
+    {
+      "provision_ref": "s143",
+      "section": "143",
+      "title": "143",
+      "content": "A gyors elintézést igénylő „azonnali”, „sürgős”, „soron kívüli” jelzésű küldeményeket az átvevő köteles a címzettnek, vagy az illetékes szervezeti egység ügyiratkezelőjének soron kívül átadni."
+    },
+    {
+      "provision_ref": "s144",
+      "section": "144",
+      "title": "144",
+      "content": "(6) Téves címzés"
+    },
+    {
+      "provision_ref": "s145",
+      "section": "145",
+      "title": "145",
+      "content": "Téves címzés vagy helytelen kézbesítés esetén a küldeményt soron kívül továbbítani kell a címzetthez, vagy ha ez nem lehetséges, vissza kell küldeni a küldő szervnek, szervezeti egységnek vagy személynek. A tévesen érkezett küldeményekről a központi iratkezelőnek külön jegyzéket kell vezetnie."
+    },
+    {
+      "provision_ref": "s146",
+      "section": "146",
+      "title": "146",
+      "content": "(7) Biztonsági intézkedések"
+    },
+    {
+      "provision_ref": "s147",
+      "section": "147",
+      "title": "147",
+      "content": "Az elektronikus úton érkező irat átvételekor, a minisztériumi biztonsági rendszerek a tűzfalon történő átlépéskor automatikusan gondoskodnak a vírusvédelemről, míg a mágneses adathordozón (CD, DVD) benyújtott adatok esetében az átvevő az Informatikai Biztonsági Utasítás szerint köteles eljárni a számítógépes vírusok elleni védekezés érdekében."
+    },
+    {
+      "provision_ref": "s148",
+      "section": "148",
+      "title": "148",
+      "content": "2. A küldemény felbontása"
+    },
+    {
+      "provision_ref": "s149",
+      "section": "149",
+      "title": "149",
+      "content": "(1) A minisztériumhoz érkező küldeményeket a (2) bekezdésben felsoroltak kivételével, a központi iratkezelők bontják fel."
+    },
+    {
+      "provision_ref": "s150",
+      "section": "150",
+      "title": "150",
+      "content": "(2) Felbontás nélkül kell továbbítani"
+    },
+    {
+      "provision_ref": "s151",
+      "section": "151",
+      "title": "151",
+      "content": "– a miniszter vagy az államtitkár nevére szóló,"
+    },
+    {
+      "provision_ref": "s152",
+      "section": "152",
+      "title": "152",
+      "content": "– a Humánpolitikai Főosztálynak címzett,"
+    },
+    {
+      "provision_ref": "s153",
+      "section": "153",
+      "title": "153",
+      "content": "– a névre szóló, egyértelműen magánjellegű, továbbá"
+    },
+    {
+      "provision_ref": "s154",
+      "section": "154",
+      "title": "154",
+      "content": "– a „saját kezű felbontásra” szóló, vagy"
+    },
+    {
+      "provision_ref": "s155",
+      "section": "155",
+      "title": "155",
+      "content": "– a minősítési jelölést tartalmazó"
+    },
+    {
+      "provision_ref": "s156",
+      "section": "156",
+      "title": "156",
+      "content": "küldeményeket, amennyiben arról a felsoroltak írásban külön nem nyilatkoztak."
+    },
+    {
+      "provision_ref": "s157",
+      "section": "157",
+      "title": "157",
+      "content": "A küldeménynek a minisztériumhoz történő beérkezése időpontjában nyilvántartásban kell rögzíteni minimálisan a küldemény sorszámát, küldőjét, az érkeztetés dátumát és könyvelt postai küldeménynél a küldemény postai azonosítóját. Az érkeztetés dátumát és az érkeztetőazonosítót a küldemény elválaszthatatlan részeként fel kell tüntetni. Ezt követően a központi iratkezelő a bontatlanul érkeztetett küldeményt kézbesítővel a címzett részére továbbítja."
+    },
+    {
+      "provision_ref": "s158",
+      "section": "158",
+      "title": "158",
+      "content": "(3) Küldemény téves felbontása"
+    },
+    {
+      "provision_ref": "s159",
+      "section": "159",
+      "title": "159",
+      "content": "A küldemények téves felbontásakor a borítékot újból le kell zárni, rá kell írni a felbontó nevét és azt, hogy „tévesen felbontva”. A küldeményt sürgősen kézbesítő ívvel át kell adni a címzettnek. Ha a felbontott küldeményben minősített irat van, a felbontásról három példányban jegyzőkönyvet kell felvenni, 1 pd a küldeménnyel együtt a címzettnél, 1 pd a feladónál, 1 pd a felbontást végző szervnél marad, és a minősített iratokat nyilvántartásba vétel céljából a titkos ügykezeléssel megbízott iratkezelőhöz kell továbbítani."
+    },
+    {
+      "provision_ref": "s160",
+      "section": "160",
+      "title": "160",
+      "content": "A küldemény felbontója a felbontás tényét a kézbesítő íven is köteles rögzíteni, amelyet aláírásával és az átvétel dátumának megjelölésével igazolnia kell."
+    },
+    {
+      "provision_ref": "s161",
+      "section": "161",
+      "title": "161",
+      "content": "(4) A felbontás nélkül átvett küldemények címzettje vagy felhatalmazottja, bontás után a hivatalos küldeményt iktatásra a szervezeti egység iratkezelőjének köteles átadni."
+    },
+    {
+      "provision_ref": "s162",
+      "section": "162",
+      "title": "162",
+      "content": "(5) A küldeményeket felbontáskor ellenőrizni kell. Ha a küldemény hiányos, akkor azt az iraton jelölni kell. A mellékletek hiánya nem akadályozhatja az ügyintézést. (A hiánypótlást az ügyintézőnek kell kezdeményeznie.)"
+    },
+    {
+      "provision_ref": "s163",
+      "section": "163",
+      "title": "163",
+      "content": "(6) A küldemény borítékját meg kell őrizni és az irathoz csatolni kell, amennyiben a benyújtási időpont jogkövetkezménnyel járhat, a beküldő adatait csak a borítékról lehet megállapítani és a küldemény hiányosan vagy sérülten érkezett, vagy ha bűncselekmény vagy szabálysértés gyanúja merül fel."
+    },
+    {
+      "provision_ref": "s164",
+      "section": "164",
+      "title": "164",
+      "content": "IV."
+    },
+    {
+      "provision_ref": "s165",
+      "section": "165",
+      "title": "165",
+      "content": "AZ IRATOK NYILVÁNTARTÁSBA VÉTELE (KÖZPONTI IKTATÁSA)"
+    },
+    {
+      "provision_ref": "s166",
+      "section": "166",
+      "title": "166",
+      "content": "1. Iktatási rendszer"
+    },
+    {
+      "provision_ref": "s167",
+      "section": "167",
+      "title": "167",
+      "content": "(1) A minisztériumban az iktatás központi (ÉRK, SZLA jelölésű) érkeztető- és (NFGM, HUM, SZERZ jelölésű) iktatókönyv(ek)ben KIR3-programmal elektronikus úton történik. Minden, a minisztériumhoz érkező vagy a helyből indított irat a tartalmától függetlenül – a 2. pont (6) bekezdésében foglaltak kivételével – beérkezéskor automatikusan érkeztetőszámot és az iktatás sorrendjében iktatószámot kap."
+    },
+    {
+      "provision_ref": "s168",
+      "section": "168",
+      "title": "168",
+      "content": "A nem iktatandó és a nem bontható küldemények a központi iktatóban az érkeztetőszámon kerülnek nyilvántartásra és az első címzetthez továbbításra, annak érdekében, hogy visszakereséskor a küldemény helye a nyilvántartásból megállapítható legyen. A központilag nem iktatott, de később indokoltan ügyiratnak minősülő küldemények adatai, a számítógépes alkalmazás a Bejövő irat iktatása almenüben, érkeztetett küldemény kiválasztásával, az iktatási képernyő kitöltésével kerülnek iktatásra és rögzítésre a KIR3 adatbázisában."
+    },
+    {
+      "provision_ref": "s169",
+      "section": "169",
+      "title": "169",
+      "content": "(2) Az iktatás"
+    },
+    {
+      "provision_ref": "s170",
+      "section": "170",
+      "title": "170",
+      "content": "Az iktatás számítógépes elektronikus iktatóprogrammal történik alszámokra tagolódó főszámos (sorszámos) iktatással. Egy főszámhoz korlátlan számú alszám tartozhat. Az ugyanazon ügyben, ugyanabban az évben keletkezett iratokat egy főszámon kell nyilvántartani. Az ügyirathoz tartozó iratokat az iktatási főszám alatt folyamatosan kiadott alszámokon kell nyilvántartani. A minisztérium feladat- és hatáskörébe tartozó ügyek intézésének áttekinthetősége érdekében az azonos ügyre – egy adott tárgyra – vonatkozó iratokat egy irategységként, ügyiratként kell kezelni. A több fázisban intézett ügyek egyes fázisaiban keletkezett iratok ügyiraton belüli irategységnek, ügyiratdarabnak (ügydarabnak) minősülnek."
+    },
+    {
+      "provision_ref": "s171",
+      "section": "171",
+      "title": "171",
+      "content": "A minisztériumhoz érkező vagy a helyből indított iratokat úgy kell iktatni, hogy abból"
+    },
+    {
+      "provision_ref": "s172",
+      "section": "172",
+      "title": "172",
+      "content": "az irat beérkezésének, iktatásának pontos ideje, az intézkedésre jogosult szervezeti egység vagy személy neve, az irat tárgya, a kezelési feljegyzésekben az elintézés módja (intézkedésre, véleményezésre, tájékoztatásra, megbeszélésre, jóváhagyásra, aláírásra, megjegyzés), iratpéldányok esetében pedig az elvárás (tájékoztatásra, visszavárólag, válaszadási kötelezettség stb.), valamint az irat helye megállapítható legyen."
+    },
+    {
+      "provision_ref": "s173",
+      "section": "173",
+      "title": "173",
+      "content": "Az iratokat évenként új sorszámmal kezdődően érkezési és keletkezési idő szerint, emelkedő számsorrendben kell iktatni. Az iktatószámot a KIR3 automatikusan adja. Erre a célra a minisztériumban"
+    },
+    {
+      "provision_ref": "s174",
+      "section": "174",
+      "title": "174",
+      "content": "– az „NFGM” megkülönböztető jelzésű központi iktatókönyvben történik valamennyi nyílt, beérkező és belső keletkezésű irat iktatása. Ezen iktatókönyvhöz a központi iktatást végző munkatársak mellett valamennyi minisztériumi szervezet egység iratkezelője (igény és jogosultság esetén vezetője, illetőleg ügyintézője) hozzáférhet. Az ugyanazon témához tartozó ügyiratok és iratfordulatok iktatásakor ügyelni kell arra, hogy egy főszámhoz csak n × egy alszám kerüljön hozzárendelésre (pld. Ügyféleség/személyek, vagy személy/eseménysor), mert a gyűjtőszámos iktatás nem megengedett a minisztériumban,"
+    },
+    {
+      "provision_ref": "s175",
+      "section": "175",
+      "title": "175",
+      "content": "– az „NFGM-HUM” megkülönböztetésű jelzésű nem nyilvános iktatókönyvben iktatják a humánigazgatási ügyiratokat, a hozzáférési jogosultsággal rendelkező iratkezelők. Más szervezeti egységek számára csak azok az ügyiratok, illetve iratpéldányok láthatók és kezelhetők, amelyeket a Humánigazgatási Főosztály iratkezelője hozzájuk továbbított,"
+    },
+    {
+      "provision_ref": "s176",
+      "section": "176",
+      "title": "176",
+      "content": "– az „NFGM-SZERZ” megkülönböztető jelzésű iktatókönyvet a szerződéskötésben érintett szervezeti egységek kezelik, amelybe a NFGM központi iktatókönyvtől elkülönített módon kerülnek iktatásra az egyes szerződésekkel kapcsolatos munkafolyamatok (kötelezettségvállalás, fedezetbiztosítás, pályázat kiírása, véleményezés, kiválasztás, aláírt vállalkozási és megbízási szerződések). A „SZERZ” iktatókönyv alkalmazása során – a szokásos adatok mellett – a következő adatokat kell rögzíteni a KIR3 iratkezelő rendszerben:"
+    },
+    {
+      "provision_ref": "s177",
+      "section": "177",
+      "title": "177",
+      "content": "– a szerződésekhez kapcsolódó státuszt (kötelezettségvállalás kezdeményezése, fedezetigazolás kérése, véleményezés, költségvetési ellenjegyzés, felső vezetői ellenjegyzés, aláírás),"
+    },
+    {
+      "provision_ref": "s178",
+      "section": "178",
+      "title": "178",
+      "content": "– a kötelezettségvállalás azonosító számát a kötelezettségvállalást kezdeményező szervezeti egység rögzíti az ügyirat tárgyában, kötelező módon ebben a formában:,,Kötezettségvállalás azonosító: xxxxxxxx”"
+    },
+    {
+      "provision_ref": "s179",
+      "section": "179",
+      "title": "179",
+      "content": "– a szerződés tárgyát a KIR3 iratkezelő rendszerben, a Kötelezettségvállalási Adatlapon/Szerződéses Adatlapon egyértelművé kell tenni. Erről a kötelezettségvállalást kezdeményező szervezeti egységnek kell gondoskodnia,"
+    },
+    {
+      "provision_ref": "s180",
+      "section": "180",
+      "title": "180",
+      "content": "– a szerződés típusát az ügyiratfeljegyzés típusánál kell kiválasztani (egyedi támogatás, megbízás, vállalkozás, adásvétel, bérleti szerződés, koncessziós szerződés, közhasznú szerződés, pénzügyi kötelezettségvállalást nem tartalmazó megállapodások, nemzetközi magánjogi szerződés, egyéb szerződés),"
+    },
+    {
+      "provision_ref": "s181",
+      "section": "181",
+      "title": "181",
+      "content": "– az aláírt szerződés teljesítéséhez kapcsolódó dokumentumokat (lezárás, meghiúsulás, módosítás stb.) alszámonként, a feljegyzés típusánál kell megjelölni (kiválasztani)."
+    },
+    {
+      "provision_ref": "s182",
+      "section": "182",
+      "title": "182",
+      "content": "A fentiekben leírtak szerint gondoskodni kell az egyes iratok, dokumentumok (e-mailek, faxok) csatolásáról."
+    },
+    {
+      "provision_ref": "s183",
+      "section": "183",
+      "title": "183",
+      "content": "Az aláírt és jóváhagyott szerződés 1 példányát a Költségvetési és Kontrolling Főosztálynak – a szerződéstár részére – kell megküldeni."
+    },
+    {
+      "provision_ref": "s184",
+      "section": "184",
+      "title": "184",
+      "content": "Az ügyiratok irattárba adásáról a kezdeményező szervezeti egység (Felelős) gondoskodik."
+    },
+    {
+      "provision_ref": "s185",
+      "section": "185",
+      "title": "185",
+      "content": "– Az „NFGM-SZLA” (Számlák) megkülönböztető jelzésű érkeztető könyvben érkeztetik a számlákat annak érdekében, hogy ne keveredjenek el és bizonyíthatóan eljussanak az illetékeshez. Az „NFGM-SZLA” érkeztető könyv alkalmazása során a következő szabályokat kell betartani:"
+    },
+    {
+      "provision_ref": "s186",
+      "section": "186",
+      "title": "186",
+      "content": "– a számlákat csak az érkeztető könyvben kell nyilvántartásba venni (nem iktatandó és érkeztetéskor nem kerül szkennelésre),"
+    },
+    {
+      "provision_ref": "s187",
+      "section": "187",
+      "title": "187",
+      "content": "– a számlákkal kapcsolatos pénzügyi adatokat nem szabad rögzíteni (pl. kifizetendő összeg nem kerülhet feltüntetésre az érkeztető- és iktatókönyvben),"
+    },
+    {
+      "provision_ref": "s188",
+      "section": "188",
+      "title": "188",
+      "content": "– a számla kiállítóját a KIR3 partnertörzsből kell kiválasztani,"
+    },
+    {
+      "provision_ref": "s189",
+      "section": "189",
+      "title": "189",
+      "content": "– rögzíteni kell a számla sorszámát az erre rendelkezésre álló hivatkozási szám mezőben és a kötelezettségvállalás azonosító számát a tárgy mezőben,"
+    },
+    {
+      "provision_ref": "s190",
+      "section": "190",
+      "title": "190",
+      "content": "– a számla tárgyának minden esetben meg kell egyeznie az „NFGM-SZERZ” iktatókönyvben rögzítettel,"
+    },
+    {
+      "provision_ref": "s191",
+      "section": "191",
+      "title": "191",
+      "content": "– a csatolt teljesítésigazolás (teljesítésösszesítő, elszámolás stb.) a számla mellékletét képezi, melyet a „SZLA „érkeztető könyv mellékletek fülön rögzíteni kell."
+    },
+    {
+      "provision_ref": "s192",
+      "section": "192",
+      "title": "192",
+      "content": "(3) Bejövő iratok iktatása, amely történhet:"
+    },
+    {
+      "provision_ref": "s193",
+      "section": "193",
+      "title": "193",
+      "content": "– új főszámra előzmény nélkül (a központi iktatóban),"
+    },
+    {
+      "provision_ref": "s194",
+      "section": "194",
+      "title": "194",
+      "content": "– előzményezéssel, a kiválasztott főszám következő alszámára (a központi iktatóban),"
+    },
+    {
+      "provision_ref": "s195",
+      "section": "195",
+      "title": "195",
+      "content": "– új főszámra, nem bonható érkeztetett küldemény kiválasztásával,"
+    },
+    {
+      "provision_ref": "s196",
+      "section": "196",
+      "title": "196",
+      "content": "– előzményezéssel a kiválasztott főszám következő alszámára, nem bontható, érkeztetett küldemény kiválasztásával."
+    },
+    {
+      "provision_ref": "s197",
+      "section": "197",
+      "title": "197",
+      "content": "Minden esetben érkeztetőszám (küldemény azonosító) is keletkezik."
+    },
+    {
+      "provision_ref": "s198",
+      "section": "198",
+      "title": "198",
+      "content": "(4) Belső keletkezésű (kimenő vagy belső) irat iktatása, amely történhet:"
+    },
+    {
+      "provision_ref": "s199",
+      "section": "199",
+      "title": "199",
+      "content": "– új főszámra, előzmény nélkül és"
+    },
+    {
+      "provision_ref": "s200",
+      "section": "200",
+      "title": "200",
+      "content": "– alszámra előzményezéssel."
+    },
+    {
+      "provision_ref": "s201",
+      "section": "201",
+      "title": "201",
+      "content": "(5) Eljárás téves iktatás esetén, amely történhet:"
+    },
+    {
+      "provision_ref": "s202",
+      "section": "202",
+      "title": "202",
+      "content": "– bejövő iratok esetén a küldemény felszabadításával (automatikusan törlődik az iktatott tétel), és az újraiktatás a megfelelő helyre (főszámra vagy alszámra) elvégezhető,"
+    },
+    {
+      "provision_ref": "s203",
+      "section": "203",
+      "title": "203",
+      "content": "– belső keletkezésű irat esetén a tétel sztornírozásra kerül, és az iktatás a megfelelő helyen (főszámra vagy alszámra) elvégezhető,"
+    },
+    {
+      "provision_ref": "s204",
+      "section": "204",
+      "title": "204",
+      "content": "– ügyelni kell, hogy a szervezeti egységhez címzett iratpéldányra adott „válasz” funkcióval végrehajtott alszámos iktatás nem módosítható."
+    },
+    {
+      "provision_ref": "s205",
+      "section": "205",
+      "title": "205",
+      "content": "A KIR3-ban sztornírozott ügyirat adatai (hasonlóan a manuális iktatókönyvben történt sztornírozáshoz) soha nem tűnik el, az iktatószám újra nem használható fel és a törléssel kapcsolatos információk megőrzésre kerülnek."
+    },
+    {
+      "provision_ref": "s206",
+      "section": "206",
+      "title": "206",
+      "content": "(6) Nem kell iktatni, de jogszabályban meghatározott esetekben nyilván kell tartani:"
+    },
+    {
+      "provision_ref": "s207",
+      "section": "207",
+      "title": "207",
+      "content": "– a tananyagot,"
+    },
+    {
+      "provision_ref": "s208",
+      "section": "208",
+      "title": "208",
+      "content": "– a tájékozatót,"
+    },
+    {
+      "provision_ref": "s209",
+      "section": "209",
+      "title": "209",
+      "content": "– a meghívót,"
+    },
+    {
+      "provision_ref": "s210",
+      "section": "210",
+      "title": "210",
+      "content": "– a pénzügyi bizonylatot, számlát (érkeztetni kell),"
+    },
+    {
+      "provision_ref": "s211",
+      "section": "211",
+      "title": "211",
+      "content": "– a munkaügyi nyilvántartást,"
+    },
+    {
+      "provision_ref": "s212",
+      "section": "212",
+      "title": "212",
+      "content": "– az anyagkezeléssel kapcsolatos nyilvántartást,"
+    },
+    {
+      "provision_ref": "s213",
+      "section": "213",
+      "title": "213",
+      "content": "– a közlönyt, a folyóiratot és"
+    },
+    {
+      "provision_ref": "s214",
+      "section": "214",
+      "title": "214",
+      "content": "– a visszaérkezett tértivevényt."
+    },
+    {
+      "provision_ref": "s215",
+      "section": "215",
+      "title": "215",
+      "content": "(7) Az iratok iktatása az iratra nyomott iktatóbélyegző lenyomatának és a központi iktatáskor használatos képernyő mezőinek kitöltéséből áll. A helyből indított iratoknál az iktatóbélyegző lenyomatát nem szabad használni."
+    },
+    {
+      "provision_ref": "s216",
+      "section": "216",
+      "title": "216",
+      "content": "(8) Az iratokat a beérkezés napján, de legkésőbb az azt követő munkanapon iktatni kell. Soron kívül kell iktatni a határidős iratokat, táviratokat, elsőbbségi küldeményeket, a helyből indított, „sürgős” jelzésű iratokat."
+    },
+    {
+      "provision_ref": "s217",
+      "section": "217",
+      "title": "217",
+      "content": "(9) A nem papíralapú, elektronikus adathordozón (pl. CD stb.) érkezett iratok mellé kísérőlapot kell csatolni, az adathordozót, mint iratot, a kísérőlapot, mint mellékelt iratot együtt kell kezelni. A kísérőlap tartalmazza az adathordozó iktatószámát, az adathordozó tartalmi paramétereit, tárgyát, a küldő és a nyilvántartó aláírását. Egy elektronikus adathordozón az egy ügyhöz tartozó iratok adhatók át. Amennyiben a leírtak nem teljesülnek, a küldeményt vissza kell utasítani."
+    },
+    {
+      "provision_ref": "s218",
+      "section": "218",
+      "title": "218",
+      "content": "Az iratról készített másolatot iratpéldányként kell rögzíteni az iktatókönyvben a címzett kiválasztásával/megjelölésével és a másolaton fel kell tüntetni, hogy „sz. példány”, mint másolat."
+    },
+    {
+      "provision_ref": "s219",
+      "section": "219",
+      "title": "219",
+      "content": "(10) Az iktatást végző személy a KIR3-ben rögzíti:"
+    },
+    {
+      "provision_ref": "s220",
+      "section": "220",
+      "title": "220",
+      "content": "– a beküldő nevét (szervezet vagy magánszemély),"
+    },
+    {
+      "provision_ref": "s221",
+      "section": "221",
+      "title": "221",
+      "content": "– a küldemény hivatkozási számát (a beküldő nyilvántartási számát, ennek hiányában a beküldő levelének keltezését),"
+    },
+    {
+      "provision_ref": "s222",
+      "section": "222",
+      "title": "222",
+      "content": "– kivéve számlaérkeztetés esetén, amikor a (2) bekezdésnek megfelelően a hivatkozási mezőbe a számla számát kell rögzíteni,"
+    },
+    {
+      "provision_ref": "s223",
+      "section": "223",
+      "title": "223",
+      "content": "– az irat tárgyát,"
+    },
+    {
+      "provision_ref": "s224",
+      "section": "224",
+      "title": "224",
+      "content": "– az előirat számát (hivatkozási szám),"
+    },
+    {
+      "provision_ref": "s225",
+      "section": "225",
+      "title": "225",
+      "content": "– a mellékletek számát,"
+    },
+    {
+      "provision_ref": "s226",
+      "section": "226",
+      "title": "226",
+      "content": "– a címzett nevét vagy az ügyintézésre kijelölt illetékes szervezeti egység vagy személy nevét,"
+    },
+    {
+      "provision_ref": "s227",
+      "section": "227",
+      "title": "227",
+      "content": "ahol az adatok felvitelével az iktatás megtörténik, és az iktatószám megjelenik."
+    },
+    {
+      "provision_ref": "s228",
+      "section": "228",
+      "title": "228",
+      "content": "A központi iktató az iraton elhelyezett bélyegzőlenyomat rovataiba beírja az iktatószámot, az iktatás dátumát és a küldeményborítóban/iratborítóban elhelyezi az iratot. A központi iktató a nyilvántartásba vett adatokat a KIR3 segítségével – automatikusan az első címzetthez továbbítja és az iktatott iratot, a gépi előállítású kézbesítőívvel az illetékes szervezeti egységhez továbbítja. A központi iktatóban a küldemények szétosztása után az iktatás szervezeti egységenként történik, ekkor a kézbesítőíven több iktatott irat átadása szerepel."
+    },
+    {
+      "provision_ref": "s229",
+      "section": "229",
+      "title": "229",
+      "content": "(11) A szervezeti egység iratkezelője, a kézbesítőíven szereplő nyilvántartási szám alapján aláírásával átveszi az iratot, ezzel egyidejűleg az iktatóprogramban is rögzíti az átvételt."
+    },
+    {
+      "provision_ref": "s230",
+      "section": "230",
+      "title": "230",
+      "content": "(12) A központi iktató által nem bontott, de központilag érkeztetett küldemények címzetthez juttatása és átvétele ugyancsak a kézbesítőívvel történik. A szervezeti egység vezetőjének utasítása alapján az iktatást az iratkezelők helyben végzik el, ahogyan a helyből kezdeményezett iratok esetében is."
+    },
+    {
+      "provision_ref": "s231",
+      "section": "231",
+      "title": "231",
+      "content": "(13) Az iratra készített véleményt, válaszlevelet, kiadmányt az illetékes iratkezelő az adott főszámon belül a következő alszámra iktatja."
+    },
+    {
+      "provision_ref": "s232",
+      "section": "232",
+      "title": "232",
+      "content": "(14) Nem kell új főszámra iktatni"
+    },
+    {
+      "provision_ref": "s233",
+      "section": "233",
+      "title": "233",
+      "content": "– a helyből kezdeményezett kiadmányokra érkező olyan adatszolgáltatást, tájékoztatót, választ, amely az irat végleges elintézéséhez szükséges és az illetékes ügyintéző az előadóív kiadási, másolási, valamint az iratnyilvántartás megjegyzés rovatában azt jelzi (közbenső intézkedés),"
+    },
+    {
+      "provision_ref": "s234",
+      "section": "234",
+      "title": "234",
+      "content": "– a minisztérium által készített előterjesztés- és rendelettervezetekre – az egyeztetés során – érkező véleményeket, válaszokat, észrevételeket, mert azok az adott irat iratfordulatai"
+    },
+    {
+      "provision_ref": "s235",
+      "section": "235",
+      "title": "235",
+      "content": "– az adott éven belül már lezárt és irattárba helyezett (a/a) ügyiratok szükség esetén aktiválhatók, az év során később jelentkező iratfordulat felmerülésekor, ha egyértelműen megállapítható az ügyirat eredeti főszáma, és előzményezéssel elvégezhető a következő alszámra történő iktatás."
+    },
+    {
+      "provision_ref": "s236",
+      "section": "236",
+      "title": "236",
+      "content": "A felsorolt iratokat az érkezés, iktatás sorrendjében a kiadmány főszámának új alszámára kell bejegyezni."
+    },
+    {
+      "provision_ref": "s237",
+      "section": "237",
+      "title": "237",
+      "content": "(15) Egy főszámra kell iktatni azokat a helyből kezdeményezett kiadmányokat, amelyeket egy adott témában rendszeresen készítenek. E főszámon az iratnyilvántartás megjegyzés rovatába be kell írni a „gyűjtő” szót. A beírást az ügyintézőnek a központi iktatónál vagy az iratkezelőnél kell kezdeményeznie. Az ilyen számon nyilvántartott kiadmányokat időrendi sorrendben kell a főszám alszámaira iktatni. Az iktatást az illetékes iratkezelők végzik."
+    },
+    {
+      "provision_ref": "s238",
+      "section": "238",
+      "title": "238",
+      "content": "(16) Papíralapú iktatókönyvet kell felfektetni, ha bármely oknál fogva az iratkezelők számára az elektronikus iktatóprogramhoz való hozzáférés több órán keresztül akadályba ütközik (üzemzavar). Emiatt a „sürgős”, „azonnal”, „soron kívül” jelöléssel ellátott iratokat – mind a bejövő, mind a kimenő és belső iratforgalom esetében – az adott évben 1-től kezdődő iktatószámmal erre a célra a hitelesítés szabályai szerint megnyitott papíralapú iktatókönyvben kell iktatni, továbbá, a megkülönböztetett jelölés nélküli iratokat is, ha az iktatás akadályoztatása meghaladja a 24 órát."
+    },
+    {
+      "provision_ref": "s239",
+      "section": "239",
+      "title": "239",
+      "content": "Az iktatás során, amennyiben ismert az elektronikus rendszerben használt iktatószám, akkor azt minden esetben fel kell tüntetni a papíralapú iktatókönyvben."
+    },
+    {
+      "provision_ref": "s240",
+      "section": "240",
+      "title": "240",
+      "content": "A rendkívüli helyzetben használt iktatókönyvet az év végén le kell zárni, és az iratkezelési segédletekkel együtt tartani."
+    },
+    {
+      "provision_ref": "s241",
+      "section": "241",
+      "title": "241",
+      "content": "(17) A központilag iktatott ügyirat adatainak módosítása az ügyiratkezelés (ügyiratok karbantartása, lekérdezése) funkció behívásával lehetséges. Az egyes hozzáférési jogosultságokat felhasználónként a rendszergazda állítja be."
+    },
+    {
+      "provision_ref": "s242",
+      "section": "242",
+      "title": "242",
+      "content": "(18) Az elektronikus iktatókönyveket év végén le kell zárni, oly módon, hogy abból új főszámra, illetve alszámra történő iktatás már ne történhessen. Minden évben január 1-jén új iktatókönyvet kell nyitni."
+    },
+    {
+      "provision_ref": "s243",
+      "section": "243",
+      "title": "243",
+      "content": "2. Iktatószám"
+    },
+    {
+      "provision_ref": "s244",
+      "section": "244",
+      "title": "244",
+      "content": "Az iktatószám az irat azonosítására szolgáló jel. Felépítése a KIR-ben:"
+    },
+    {
+      "provision_ref": "s245",
+      "section": "245",
+      "title": "245",
+      "content": "– iktatókönyv azonosító/főszám-alszám/év, amely az iktatókönyv azonosítását szolgálja,"
+    },
+    {
+      "provision_ref": "s246",
+      "section": "246",
+      "title": "246",
+      "content": "– ezen belül a főszámok és azok alszámai folyamatosan, ismétlődés és kihagyás nélkül következnek egymás után,"
+    },
+    {
+      "provision_ref": "s247",
+      "section": "247",
+      "title": "247",
+      "content": "– az iratpéldány az iratnak azonos tartalmú, önállóan kezelhető, továbbítható előfordulása. Azonosítása az alszámon belül folyamatos, ismétlés nélküli sorszámmal történik, amely a KIR3 nyilvántartásának alapja, legkisebb oszthatatlan egysége."
+    },
+    {
+      "provision_ref": "s248",
+      "section": "248",
+      "title": "248",
+      "content": "A főszám egy hat karakterből álló szám, amely az év elején 1-gyel indul és év végére 999999-ig növekedhet. Ezután két tört vonal között helyezkedik el az intézkedés folyamatát jelölő alszám, amely ugyancsak 1-gyel indul, és korlátlan számig növekedhet a főszámon belül. Utána az aktuális évszám zárójelben. Az iktatószám végén az iratpéldány szerepel a következő szerint:"
+    },
+    {
+      "provision_ref": "s249",
+      "section": "249",
+      "title": "249",
+      "content": "– XXXXXX-n × Y/ (évszám) (n × Z)"
+    },
+    {
+      "provision_ref": "s250",
+      "section": "250",
+      "title": "250",
+      "content": "Az iktatószám pl. a következő lehet:"
+    },
+    {
+      "provision_ref": "s251",
+      "section": "251",
+      "title": "251",
+      "content": "– 523-6/2007."
+    },
+    {
+      "provision_ref": "s252",
+      "section": "252",
+      "title": "252",
+      "content": "– 523-6/2007.(1)"
+    },
+    {
+      "provision_ref": "s253",
+      "section": "253",
+      "title": "253",
+      "content": "„ (2) stb. iratpéldány"
+    },
+    {
+      "provision_ref": "s254",
+      "section": "254",
+      "title": "254",
+      "content": "3. Iktatóbélyegző"
+    },
+    {
+      "provision_ref": "s255",
+      "section": "255",
+      "title": "255",
+      "content": "Az iktatóbélyegző lenyomata tartalmazza:"
+    },
+    {
+      "provision_ref": "s256",
+      "section": "256",
+      "title": "256",
+      "content": "– a minisztérium nevét,"
+    },
+    {
+      "provision_ref": "s257",
+      "section": "257",
+      "title": "257",
+      "content": "– az irat iktatószámát,"
+    },
+    {
+      "provision_ref": "s258",
+      "section": "258",
+      "title": "258",
+      "content": "– az iktatás dátumát (év, hó, nap) és"
+    },
+    {
+      "provision_ref": "s259",
+      "section": "259",
+      "title": "259",
+      "content": "– a mellékletek számát."
+    },
+    {
+      "provision_ref": "s260",
+      "section": "260",
+      "title": "260",
+      "content": "4. Iktatási adatok"
+    },
+    {
+      "provision_ref": "s261",
+      "section": "261",
+      "title": "261",
+      "content": "(1) Az iratok iktatásakor az iktatási képernyőn és az előadói íven, továbbá az ügyintézés különböző fázisaiban fel kell tüntetni a következő adatokat"
+    },
+    {
+      "provision_ref": "s262",
+      "section": "262",
+      "title": "262",
+      "content": "Az iratot el kell látni iktatószámmal és az irat egyéb azonosítóival."
+    },
+    {
+      "provision_ref": "s263",
+      "section": "263",
+      "title": "263",
+      "content": "(2) A KIR3 teljes adatbázis mentéséről az adatbázis és alkalmazás szerver(eket) üzemeltető és a technikát felügyelő informatikai szakterület gondoskodik. Év végén a központi iktatókönyv adatait, a KIR3 felügyeletet ellátó szervezeti egység munkatársa CD-re írja ki, és a levéltári átadásra szánt adatokat ugyancsak elektronikus adathordozóra (CD-re), a levéltár igénye szerint kért formátumban kell kimenteni."
+    },
+    {
+      "provision_ref": "s264",
+      "section": "264",
+      "title": "264",
+      "content": "5. Az iratok szerelése és csatolása"
+    },
+    {
+      "provision_ref": "s265",
+      "section": "265",
+      "title": "265",
+      "content": "(1) Az irat iktatása előtt meg kell vizsgálni, hogy az ügyiratnak van-e előirata. Az előzményt ideiglenesen (csatolás), szükség esetén véglegesen (szerelés) az érkezett irathoz kell kapcsolni. Iktatáskor a központi iktató ügyiratkezelőjének szerelni kell az irathoz az ugyanabba a témakörbe tartozó, korábban már nyilvántartásba vett előiratot. Ha az előzmény nincs az irattárban, akkor az iratra rá kell jegyezni az előirat hollétét. Az iraton, az iktatási képernyőn, az előadóíven fel kell tüntetni az előirat iktatószámát. Az irat végleges elintézésekor az ügyintézőnek az előadói ívhez szerelnie kell az összes előiratot. Amennyiben az előzményezés során megtalált iratról kiderül, hogy nem az új irat előirata, de annak ismerete szükséges a szignáláshoz, valamint az ügy elintézéséhez, a két iratot csatolni kell. Az ügy lezárása után a csatolt iratokat eredeti irattári helyükre kell visszahelyezni."
+    },
+    {
+      "provision_ref": "s266",
+      "section": "266",
+      "title": "266",
+      "content": "(2) Az összetartozó iratok csatolását vagy szerelését az ügyirat karbantartására szolgáló képernyő formátum, megfelelő iktatási mezőinek kitöltésével lehet elvégezni, ahol az összekapcsolás módosítással később bármikor feloldható. A művelet végrehajtásakor az utóbb iktatott irathoz kell hozzárendelni a korábban keletkezett iratot, függetlenül a keletkezés évétől."
+    },
+    {
+      "provision_ref": "s267",
+      "section": "267",
+      "title": "267",
+      "content": "6. Mutatózás"
+    },
+    {
+      "provision_ref": "s268",
+      "section": "268",
+      "title": "268",
+      "content": "A KIR3 lehetővé teszi, hogy iratokat a tárgy, a beküldő neve vagy iktatószáma és számos egyéb szűrőfeltétel alapján vissza lehessen keresni. Szűkítő feltétel lehet az „Iratkategória”, „Állapot”, „Feljegyzés”, „Sürgősség” és a „Minősítés”, amelynek értékei a legördülő listából választhatók ki. A „Beküldő neve és címe”, a „Hivatkozási szám”, a „Címzett”, az „Őrző”, a „Felelős”, a „Szervezetnél már járt” a „Tárgyszavak”, a partner- és címtörzsből vagy az értéklistából válaszható ki. Az ügyirat tárgyszavak szerinti keresésénél a tárgyszó listában mind a központi, mind a szervezeti tulajdonnal bíró tárgyszavak közül lehet választani."
+    },
+    {
+      "provision_ref": "s269",
+      "section": "269",
+      "title": "269",
+      "content": "A tárgyszókészlet – amely az ügyiratok tartalom szerinti csoportosítására szolgál – kialakításánál célszerű az irattári tervben szereplő ügykörök rövid, jellemző és tömörített megnevezését használni. A tárgyév végén az adatbázisban rögzített adatok alapján név- és tárgymutatót kell a KIR3 rendszergazdának készítenie és azt – Excel/ vagy a Levéltári igény szerinti formátumban kimentve – a 4. pont (2) bekezdése szerinti CD-n tárolt iktatókönyvhöz csatolnia."
+    },
+    {
+      "provision_ref": "s270",
+      "section": "270",
+      "title": "270",
+      "content": "V."
+    },
+    {
+      "provision_ref": "s271",
+      "section": "271",
+      "title": "271",
+      "content": "IRATKEZELÉSI FELADATOK AZ ÜGYINTÉZÉS FOLYAMATÁBAN"
+    },
+    {
+      "provision_ref": "s272",
+      "section": "272",
+      "title": "272",
+      "content": "1. Ügyintéző kijelölése (szignálás)"
+    },
+    {
+      "provision_ref": "s273",
+      "section": "273",
+      "title": "273",
+      "content": "(1) A központi iratkezelő a küldemények bontását követően az iktatási képernyő kitöltésekor a belső partnerállományból kiválasztja a címzettet vagy az ügyrend szerint illetékes minisztériumi szervezeti egységet, majd az iktatási adatok rögzítését követően elkészíti az irat-/iratpéldány-borítót."
+    },
+    {
+      "provision_ref": "s274",
+      "section": "274",
+      "title": "274",
+      "content": "(2) Az ügyiratokat/iratokat nem személyre, hanem minden esetben szervezeti egységre kell továbbítani és az ügyintéző személyét rögzíteni kell az „ügyintéző” mezőben."
+    },
+    {
+      "provision_ref": "s275",
+      "section": "275",
+      "title": "275",
+      "content": "(3) Az ügyiratkezelő a központi iratkezelőtől átvett iratokat köteles a szervezeti egység vezetőjének vagy a vezető megbízottjának szignálásra (ügyintéző- és határidő-kijelölésre) bemutatni."
+    },
+    {
+      "provision_ref": "s276",
+      "section": "276",
+      "title": "276",
+      "content": "(4) Ha az irat elintézésére nem az (1) bekezdés szerint kijelölt személy/szervezeti egység az illetékes, akkor az adatokat és az iratot – a következő felelősre történő átállítással – a megfelelő személyhez/szervezeti egységhez kell haladéktalanul továbbítani."
+    },
+    {
+      "provision_ref": "s277",
+      "section": "277",
+      "title": "277",
+      "content": "A műveletet az iratkezelő az ügyiratok karbantartása, lekérdezése vagy az iratpéldányok karbantartása, lekérdezése menüből indítva a találati listából kijelöli a megfelelő objektumot (ügyirat/iratpéldány) módosításra megnyitja, és a belső partnertörzsből kiválasztott személy/szervezeti egység részére történő továbbítással végzi el. A megjegyzés rovatba be kell írni, hogy: „illetékességből átirányítva”. Egyidejűleg az iratra rá kell vezetni az illetékes személy/szervezeti egység nevét. Az átirányítást aláírással és dátummal igazolni kell."
+    },
+    {
+      "provision_ref": "s278",
+      "section": "278",
+      "title": "278",
+      "content": "(5) A szervezeti egységeknél bontott küldemények iratait – iktatási kötelezettség esetén – az iratkezelőnek helyben kell az érkeztetőszám (küldeményazonosító) behívásával iktatni, és az iratborítót a KIR3-programmal elkészíteni. A IV. fejezet 4. pontjának (1) bekezdésében leírt hiányzó adatokat az iratborítóra kézzel kell rávezetni."
+    },
+    {
+      "provision_ref": "s279",
+      "section": "279",
+      "title": "279",
+      "content": "(6) A szignálásra jogosult a KIR3-ban, illetőleg az iraton"
+    },
+    {
+      "provision_ref": "s280",
+      "section": "280",
+      "title": "280",
+      "content": "– kijelöli az ügyrend szerint illetékes szervezeti egységet vagy a szervezeti egységen belül az illetékes ügyintézőt,"
+    },
+    {
+      "provision_ref": "s281",
+      "section": "281",
+      "title": "281",
+      "content": "– közli az elintézéssel kapcsolatos esetleges külön utasításait (határidő stb.), amelyeket a szignálás idejének megjelölésével és aláírásával hitelesít."
+    },
+    {
+      "provision_ref": "s282",
+      "section": "282",
+      "title": "282",
+      "content": "2. Iratok nyilvántartása a szervezeti egységnél"
+    },
+    {
+      "provision_ref": "s283",
+      "section": "283",
+      "title": "283",
+      "content": "(1) Az iratkezelői munkahely kézbesítési funkciójának (Iratmozgás menü Átveendők menüpont indításával kereshető le azonosító/dátum/átadó alapján és találati listán jelenik meg annak az iratnak a iratmozgásra vonatkozó adatai (átadó, címzett, azonosító, átadás dátuma stb.) és tárgya, amelyet a központi iratkezelő ügyintézésre a szervezeti egységhez átadott. Az ügyiratkezelő az irat szignálását követően az iktatott ügyirat ügyintéző) megfelelő rovatába (ügyintéző) beírja az illetékes ügyintéző nevét és a feljegyzések rovatban rögzíti a szignáló esetleges utasításait. Ezt követően az iratot átirányítja a kijelölt szervezeti egységhez vagy saját szervezeti egységen belül az ügyintézőhöz. A papíralapú ügyiratot az iktatószám alapján elkészített kézbesítőívvel – aláírás ellenében – átadja a szervezeti egység iratkezelőjének vagy az ügyintézőnek."
+    },
+    {
+      "provision_ref": "s284",
+      "section": "284",
+      "title": "284",
+      "content": "Az aláírt kézbesítőíveket le kell fűzni dátum szerinti növekvő sorrendben és megőrizni 1 évig."
+    },
+    {
+      "provision_ref": "s285",
+      "section": "285",
+      "title": "285",
+      "content": "(2) Amennyiben az ügyintézés során közreműködők bevonása is szükséges a válaszirat elkészítéséhez, akkor az ügyiratkezelőnek/ügyintézőnek iratpéldányt kell készítenie [Pl. a 234-1/2007. (1) sz. iratból] és a KIR3 útján az érdekelteknek megküldenie [pl. kapják még: 234-1/2007.(2) X. Főosztály, 234-1/2007.(3) Y. Főosztály, 234-1/2007.(4) Z. Főosztály], annak érdekében, hogy a részfelelősök a vélemény elkészítésekor a hozzájuk érkezett ügyirat esetében a „válasz” aktiválásával az ügyiratra az alszámos iktatású válaszlevelet elkészíthessék, mint 234-2/2007., 234-3/2007. és 234-4/2007."
+    },
+    {
+      "provision_ref": "s286",
+      "section": "286",
+      "title": "286",
+      "content": "Az elektronikus formában megküldött előterjesztés-tervezetek és egyéb szakmai anyagok minisztériumon belüli véleményezésekor az elkészített válaszokat, a főszám alszámára iktatva, a csatolmányban elhelyezett elektronikus dokumentumban, korrektúrázva kell megadni."
+    },
+    {
+      "provision_ref": "s287",
+      "section": "287",
+      "title": "287",
+      "content": "A főfelelős a beérkezett vélemények alapján állítja össze és készíti elő a kiadmányozásra, az irat következő alszámára (234-5/2007.) az iktatott válasziratot."
+    },
+    {
+      "provision_ref": "s288",
+      "section": "288",
+      "title": "288",
+      "content": "Az ügyintéző a beérkezett észrevételeket a kiadmánytervezethez előzményként minden esetben a kiadmányozónak becsatolja."
+    },
+    {
+      "provision_ref": "s289",
+      "section": "289",
+      "title": "289",
+      "content": "(3) Az irat elintézését követően, vagy annak irattárba helyezésekor a szervezeti egységnél az iktatott iratnál a nyilvántartásban és az ügyiratborítón ki kell tölteni a továbbítási mezőt. Az ügyirathoz csatolni kell a KIR3-ban átvezetett iratot, és ezt követően az adatokat és az iratot át kell irányítani a központi iktatónak, illetve a Központi irattárnak. Az iratokat átvételre elektronikusan kell továbbítani. Az iratkezelő/irattáros az átvételt a számítógépen is rögzíti."
+    },
+    {
+      "provision_ref": "s290",
+      "section": "290",
+      "title": "290",
+      "content": "3. Az iratok elintézése"
+    },
+    {
+      "provision_ref": "s291",
+      "section": "291",
+      "title": "291",
+      "content": "(1) A kijelölt ügyintéző az iratkezelőtől átvett iratot az államigazgatási eljárás általános szabályai szerint meghatározott időben vagy a megjelölt határidőre köteles elintézni."
+    },
+    {
+      "provision_ref": "s292",
+      "section": "292",
+      "title": "292",
+      "content": "(2) Ha az irat hatáskör vagy illetékesség hiánya miatt nem a minisztériumhoz tartozik, akkor azt az ügyben illetékes hatáskörrel rendelkező szervezethez vagy személyhez kell továbbítani. Az iratot a központi iktatónak kell továbbításra átadni."
+    },
+    {
+      "provision_ref": "s293",
+      "section": "293",
+      "title": "293",
+      "content": "(3) Téves belső címzés esetén az ügyiratkezelőnek még aznap, de legkésőbb a következő munkanapon – a szervezeti egység vezetőjének vagy ügyintézőjének az iratborítón történő írásos rájegyzése alapján – továbbítania kell az ügyiratot az illetékes szervezeti egységhez vagy személyhez."
+    },
+    {
+      "provision_ref": "s294",
+      "section": "294",
+      "title": "294",
+      "content": "(4) Az iratok intézéséhez iratborítót kell használni, amely az irat és mellékleteinek egyben tartására szolgál, de egyben a kezelési feljegyzéseket és a vezetői utasításokat, egyéb rájegyzéseket is tartalmazza, így a szignálások adatait (államtitkár, szakállamtitkár, főosztály, osztály, ügyintéző, dátum, aláírás) őrzi. Az iratborítón szereplő rovatokat – az előállításhoz képest történt változások átvezetése miatt – ki kell tölteni."
+    },
+    {
+      "provision_ref": "s295",
+      "section": "295",
+      "title": "295",
+      "content": "(5) Az iratborító a következő rovatokat tartalmazza:"
+    },
+    {
+      "provision_ref": "s296",
+      "section": "296",
+      "title": "296",
+      "content": "– iktatószám és az érkezés, nyilvántartásba vétel időpontja,"
+    },
+    {
+      "provision_ref": "s297",
+      "section": "297",
+      "title": "297",
+      "content": "– beküldő adatai, az irat hivatkozási száma (beküldő nyilvántartási száma, ennek hiányában a beküldő levelének keltezése),"
+    },
+    {
+      "provision_ref": "s298",
+      "section": "298",
+      "title": "298",
+      "content": "– egyúttal intézett iratok iktatószáma,"
+    },
+    {
+      "provision_ref": "s299",
+      "section": "299",
+      "title": "299",
+      "content": "– előirat iktatószáma,"
+    },
+    {
+      "provision_ref": "s300",
+      "section": "300",
+      "title": "300",
+      "content": "– az irat irattári tételszáma,"
+    },
+    {
+      "provision_ref": "s301",
+      "section": "301",
+      "title": "301",
+      "content": "– irat tárgya,"
+    },
+    {
+      "provision_ref": "s302",
+      "section": "302",
+      "title": "302",
+      "content": "– elintézési határidő,"
+    },
+    {
+      "provision_ref": "s303",
+      "section": "303",
+      "title": "303",
+      "content": "– ügyintézésre kijelölt szervezeti egység/személy neve,"
+    },
+    {
+      "provision_ref": "s304",
+      "section": "304",
+      "title": "304",
+      "content": "– az irat kiadása vagy elküldés előtti, valamint elküldés utáni intézkedéseinek jelzései,"
+    },
+    {
+      "provision_ref": "s305",
+      "section": "305",
+      "title": "305",
+      "content": "– másolási, kiadási utasítás,"
+    },
+    {
+      "provision_ref": "s306",
+      "section": "306",
+      "title": "306",
+      "content": "– megjegyzések,"
+    },
+    {
+      "provision_ref": "s307",
+      "section": "307",
+      "title": "307",
+      "content": "– leírta, egyeztette, továbbította, irattározta."
+    },
+    {
+      "provision_ref": "s308",
+      "section": "308",
+      "title": "308",
+      "content": "4. Kiadmány"
+    },
+    {
+      "provision_ref": "s309",
+      "section": "309",
+      "title": "309",
+      "content": "(1) Az irat elintézéséhez készített kiadmány mindaddig tervezet, amíg a kiadmányozó aláírásával nem hagyta jóvá."
+    },
+    {
+      "provision_ref": "s310",
+      "section": "310",
+      "title": "310",
+      "content": "(2) A kiadmány egy vagy több címzett részére azonos vagy különböző szöveggel készülhet. A kiadmányt eggyel több példányban kell elkészíteni, mint a címzettek száma, hogy abból egy az irattárban maradjon. A kiadmány első példányát a kiadmányozónak megfelelő minisztériumi levélpapírra kell kinyomtatnia és – a gyors felhasználás érdekében – elektronikusan is továbbítani kell. Az egyes levélpapírminták a minisztériumi intranet hálózaton érhetők el."
+    },
+    {
+      "provision_ref": "s311",
+      "section": "311",
+      "title": "311",
+      "content": "A kiadmánynak tartalmaznia kell:"
+    },
+    {
+      "provision_ref": "s312",
+      "section": "312",
+      "title": "312",
+      "content": "– az iktatószámot,"
+    },
+    {
+      "provision_ref": "s313",
+      "section": "313",
+      "title": "313",
+      "content": "– a kiadmány tárgyát (kivéve a minisztériumi felső vezetők által aláírt levelek esetében),"
+    },
+    {
+      "provision_ref": "s314",
+      "section": "314",
+      "title": "314",
+      "content": "– a hivatkozási számot (a beküldő számát, ennek hiányában a beküldő levelének keltezése),"
+    },
+    {
+      "provision_ref": "s315",
+      "section": "315",
+      "title": "315",
+      "content": "– az ügyintéző nevét, telefonszámát (kivéve a minisztériumi felső vezetők által aláírt kiadmányok esetében),"
+    },
+    {
+      "provision_ref": "s316",
+      "section": "316",
+      "title": "316",
+      "content": "– a címzett nevét, beosztását, címét,"
+    },
+    {
+      "provision_ref": "s317",
+      "section": "317",
+      "title": "317",
+      "content": "– a megszólítást és az üdvözlést (ha a kiadmányozó saját kezűleg írja alá a kiadmányt),"
+    },
+    {
+      "provision_ref": "s318",
+      "section": "318",
+      "title": "318",
+      "content": "– a kiadmány szövegét,"
+    },
+    {
+      "provision_ref": "s319",
+      "section": "319",
+      "title": "319",
+      "content": "– a kiadmányozás idejét (dátumát),"
+    },
+    {
+      "provision_ref": "s320",
+      "section": "320",
+      "title": "320",
+      "content": "– a kiadmányozó aláírását vagy a nevét és mellette az „s. k.” jelölést,"
+    },
+    {
+      "provision_ref": "s321",
+      "section": "321",
+      "title": "321",
+      "content": "– a mellékletek számát."
+    },
+    {
+      "provision_ref": "s322",
+      "section": "322",
+      "title": "322",
+      "content": "A mellékleten fel kell tüntetni a kiadmány iktatószámát (Melléklet a ….. számú irathoz) és a melléklet sorszámát."
+    },
+    {
+      "provision_ref": "s323",
+      "section": "323",
+      "title": "323",
+      "content": "A kiadmány irattári példányai:"
+    },
+    {
+      "provision_ref": "s324",
+      "section": "324",
+      "title": "324",
+      "content": "– ha a kiadmány több címzett részére azonos szöveggel készül, akkor a címzetteket egyenként fel kell sorolni, és a szöveget egyszer kell leírni, ezt követően kell feltüntetni a kiadmányozó nevét és a kiadmányozás dátumát. A KIR3-ban a címzetteket egyenként (értéklistából), vagy „egy létező elosztólista” kiválasztásával lehet rögzíteni. A partnertörzsben nem szereplő címzetteket a feljegyzések vagy a megjegyzés mezőkbe lehet beírni vagy új külső partnerként felvenni,"
+    },
+    {
+      "provision_ref": "s325",
+      "section": "325",
+      "title": "325",
+      "content": "– ha a kiadmány több címzett részére, különböző szöveggel készül, akkor azokat külön-külön, egymást követően kell leírni, az utolsó kiadmány után fel kell tüntetni a kiadmányozó nevét és a kiadmányozás dátumát. Az előző bekezdésben leírt KIR3 funkciók használata ez esetben is érvényes."
+    },
+    {
+      "provision_ref": "s326",
+      "section": "326",
+      "title": "326",
+      "content": "(3) Az idegen nyelven készült, vagy érkezett iratok magyar nyelvű fordításának egy példányát az ügyintézésre kijelölt szervezeti egységnél, az ügyintézőnek/ügyiratkezelőnek minden esetben az előadói ívhez kell csatolni."
+    },
+    {
+      "provision_ref": "s327",
+      "section": "327",
+      "title": "327",
+      "content": "(4) A Kormány és kabinetjei részére készített előterjesztések, jelentések (mint döntés előkészítő anyagok) a személyes adatok védelméről és a közérdekű adatok nyilvánosságáról szóló 1992. évi LXIII. törvény 19/A. §-ának (1) bekezdése értelmében a keletkezésüktől számított 10 évig nem nyilvánosak. Ennek tényét az előterjesztések fedőlapján, a jobb felső sarokban fel kell tüntetni. Ugyancsak fel kell tüntetni az előterjesztés-tervezet minden oldalán „a Kormány álláspontját nem tartalmazza” szöveget az előkészítési folyamatban minden fázisában."
+    },
+    {
+      "provision_ref": "s328",
+      "section": "328",
+      "title": "328",
+      "content": "(5) Az előterjesztések alakiságára a Kormány ügyrendjéről szóló 1088/1994. (IX. 20.) Korm határozatban foglaltak az irányadók."
+    },
+    {
+      "provision_ref": "s329",
+      "section": "329",
+      "title": "329",
+      "content": "(6) A minisztériumi vezetői értekezletek részére készített előterjesztéseket az iratminták között bemutatott alaki forma szerint kell elkészíteni."
+    },
+    {
+      "provision_ref": "s330",
+      "section": "330",
+      "title": "330",
+      "content": "5. Az irat elintézésének folyamatában az alábbiak szerint kell eljárni"
+    },
+    {
+      "provision_ref": "s331",
+      "section": "331",
+      "title": "331",
+      "content": "(1) Ha az irat elintézéséhez más szervezeti egység véleménye nem szükséges, akkor a válasziratot (kiadmányt) az irat főszámának következő alszámára kell iktatni, mert a beérkezett irat és a kimenő irat adattartalma más, és az elektronikus dokumentumkezelés esetén megkülönböztetésük csak külön alszámon lehetséges."
+    },
+    {
+      "provision_ref": "s332",
+      "section": "332",
+      "title": "332",
+      "content": "(2) Közreműködők bevonása esetén a 2. pont (2) bekezdésében leírtaknak megfelelően kell eljárni. A példánykészítéssel és továbbítással biztosított, hogy a megszólított részfelelősök a véleményüket az ügyirat következő alszámára tudják iktatni, és azt a főfelelősnek továbbítják. A főfelelős – koordináló – a válaszirat elkészítését ugyancsak egy új alszámra iktatja."
+    },
+    {
+      "provision_ref": "s333",
+      "section": "333",
+      "title": "333",
+      "content": "(3) Amennyiben további közreműködők bevonása szükséges, akkor az eljárás ismétlődik."
+    },
+    {
+      "provision_ref": "s334",
+      "section": "334",
+      "title": "334",
+      "content": "(4) Ha egy irat elintézését követően, vagy a minisztérium által kezdeményezett kiadmányra külső szervezettől vagy személytől érkezik ugyanabban a tárgyban válasz, akkor azt a hivatkozási szám alapján – a központi iktatónak, mint iratfordulatot az eredeti főszám következő alszámára kell iktatnia. Az ilyen iratnak az elintézése az (1) és (2) bekezdésben leírtak szerint történik."
+    },
+    {
+      "provision_ref": "s335",
+      "section": "335",
+      "title": "335",
+      "content": "A főszámra/alszámra történő iktatás gyakorlatát kell alkalmazni"
+    },
+    {
+      "provision_ref": "s336",
+      "section": "336",
+      "title": "336",
+      "content": "– közbenső intézkedéseknél, ha külső szervezettől, személytől kér a minisztérium véleményt egy irat elkészítéséhez,"
+    },
+    {
+      "provision_ref": "s337",
+      "section": "337",
+      "title": "337",
+      "content": "– a minisztérium által készített előterjesztés-, jogszabály-tervezetek egyeztetése során."
+    },
+    {
+      "provision_ref": "s338",
+      "section": "338",
+      "title": "338",
+      "content": "A tervezetre érkező véleményeket a központi iktató érkezési sorrendben a főszám következő alszámára iktatja."
+    },
+    {
+      "provision_ref": "s339",
+      "section": "339",
+      "title": "339",
+      "content": "Az átdolgozott előterjesztés tervezetet a főszám soron következő alszámára kell iktatni."
+    },
+    {
+      "provision_ref": "s340",
+      "section": "340",
+      "title": "340",
+      "content": "A további egyeztetésre kiküldött leveleket és az arra érkező véleményeket ugyancsak az adott főszám alszámaira kell iktatni."
+    },
+    {
+      "provision_ref": "s341",
+      "section": "341",
+      "title": "341",
+      "content": "6. Feljegyzés"
+    },
+    {
+      "provision_ref": "s342",
+      "section": "342",
+      "title": "342",
+      "content": "(1) Az iratot feljegyzés formájában kell elkészíteni, ha címzettje a minisztérium más szervezeti egysége, illetőleg annak vezetője, valamint akkor is, ha címzettje a kiadmányozó hivatali felettese."
+    },
+    {
+      "provision_ref": "s343",
+      "section": "343",
+      "title": "343",
+      "content": "(2) A feljegyzésben az ügyintéző szervezeti egység nevét és az irat iktatószámát (alatta az ügyintéző nevét, telefonszámát) is fel kell tüntetni."
+    },
+    {
+      "provision_ref": "s344",
+      "section": "344",
+      "title": "344",
+      "content": "(3) Ha a feljegyzés olyan irathoz készül, amelynek már van főszáma, akkor azt az irat alszámára kell iktatni."
+    },
+    {
+      "provision_ref": "s345",
+      "section": "345",
+      "title": "345",
+      "content": "7. Kiadmányozás"
+    },
+    {
+      "provision_ref": "s346",
+      "section": "346",
+      "title": "346",
+      "content": "(1) Külső szervezethez vagy személyhez iratot, kiadmányt csak a minisztérium Szervezeti és Működési Szabályzatában meghatározott, kiadmányozási joggal rendelkező személy aláírásával lehet továbbítani, elküldeni."
+    },
+    {
+      "provision_ref": "s347",
+      "section": "347",
+      "title": "347",
+      "content": "(2) A kiadmány akkor hiteles, ha"
+    },
+    {
+      "provision_ref": "s348",
+      "section": "348",
+      "title": "348",
+      "content": "– azt az illetékes kiadmányozó saját kezűleg aláírja, vagy a kiadmányozó neve mellett az „s.k.” jelzés szerepel, a hitelesítéssel felhatalmazott személy az aláírásával igazolja, továbbá,"
+    },
+    {
+      "provision_ref": "s349",
+      "section": "349",
+      "title": "349",
+      "content": "– a kiadmányozó vagy a felhatalmazott személy aláírása mellett a szerv hivatalos bélyegzőlenyomata szerepel."
+    },
+    {
+      "provision_ref": "s350",
+      "section": "350",
+      "title": "350",
+      "content": "Nyomdai sokszorosítás esetén elegendő"
+    },
+    {
+      "provision_ref": "s351",
+      "section": "351",
+      "title": "351",
+      "content": "– a kiadmányozó neve mellett az „s. k.” jelzés vagy a kiadmányozó alakhű aláírás mintája és"
+    },
+    {
+      "provision_ref": "s352",
+      "section": "352",
+      "title": "352",
+      "content": "– a kiadmányozó szerv bélyegzőlenyomata."
+    },
+    {
+      "provision_ref": "s353",
+      "section": "353",
+      "title": "353",
+      "content": "(3) Bélyegzők (pecsétnyomók) használata és nyilvántartása"
+    },
+    {
+      "provision_ref": "s354",
+      "section": "354",
+      "title": "354",
+      "content": "Kiadmányozáshoz az állami címerrel és sorszámmal ellátott minisztériumi bélyegzőt kell használni. Sorszámmal ellátott bélyegző a Jogi és Koordinációs Főosztály jóváhagyásával igényelhető. A bélyegző sorszámát a Jogi és Koordinációs Főosztály adja ki az igénylő szervezeti egység részére."
+    },
+    {
+      "provision_ref": "s355",
+      "section": "355",
+      "title": "355",
+      "content": "A kiadott sorszámmal ellátott bélyegzőkről a Jogi és Koordinációs Főosztály a Központi Szolgáltatási Főigazgatóság illetékes szervezeti egységével (anyagraktár) közös nyilvántartást vezet. A nyilvántartást úgy kell vezetni, hogy abból mindenkor megállapítható legyen a bélyegző használója, kezelője. A nyilvántartásnak tartalmaznia kell az átvevő szervezeti egység nevét, a bélyegző lenyomatát, az átvevő nevét és aláírását, valamint az átvétel dátumát."
+    },
+    {
+      "provision_ref": "s356",
+      "section": "356",
+      "title": "356",
+      "content": "A bélyegző (pecsétnyomó) használója felelős annak rendeltetésszerű használatáért, biztonságos őrzéséért."
+    },
+    {
+      "provision_ref": "s357",
+      "section": "357",
+      "title": "357",
+      "content": "A használaton kívül helyezett bélyegzőket (pecsétnyomókat) minden esetben vissza kell szolgáltatni a Központi Szolgáltatási Főigazgatóság részére megsemmisítés céljából, és ezt a nyilvántartásban dokumentálni kell a bélyegző lenyomatával, az átadó nevével, aláírásával, valamint a visszaadás dátumával."
+    },
+    {
+      "provision_ref": "s358",
+      "section": "358",
+      "title": "358",
+      "content": "8. Az iratok továbbítása (expediálás), postázása"
+    },
+    {
+      "provision_ref": "s359",
+      "section": "359",
+      "title": "359",
+      "content": "(1) A szervezeti egységek által készített, külső szervezet vagy személy részére szóló kiadmányokat – a következők kivételével – a központi iktató továbbítja."
+    },
+    {
+      "provision_ref": "s360",
+      "section": "360",
+      "title": "360",
+      "content": "Amennyiben a kiadmányt kézbesítővel juttatják el vagy faxon/e-mailben kell továbbítani, akkor a kiadmányt készítő szervezeti egység iratkezelője gondoskodik a továbbításról. Kiadmányt faxon, valamint e-mailben csak központi iktatószámon és minisztériumi levélpapír formátumon lehet továbbítani. A továbbítás módját és időpontját az előadói ív elküldve rovatában az iratkezelő aláírásával köteles igazolni. A fax igazolószelvényét és e-mail visszaigazolását az ügyirathoz kell szerelni."
+    },
+    {
+      "provision_ref": "s361",
+      "section": "361",
+      "title": "361",
+      "content": "(2) Az iratkezelő ellenőrzi az ügyintézőtől továbbításra és irattározásra átvett iratot. Egyezteti, ellenőrzi az előadói íven feltüntetett adatok helyességét, az összetartozó iratok meglétét és az ügyintéző által összeállított küldeményhez elkészíti a borítékot, amelyet a továbbítás elküldésének megfelelően [postán, ajánlva, elsőbbségivel, tértivevénnyel (ez utóbbihoz helyben kell kitölteni a tértivevény feladószelvényét) és futárral vagy kézbesítővel] kell megcímezni. A továbbításra előkészített- vagy az elküldött kiadmány iktatószámánál az iratkezelő a KIR3-nyilvántartásban a továbbítás mezőit kitölti és kiválasztja a feladás módját. Az irathoz tartozó előadói ívet, a kiadmány másolatát, az előiratot, stb. az ügyiratban elhelyezi. Az így összeállított kiadmányt postázásra átadja."
+    },
+    {
+      "provision_ref": "s362",
+      "section": "362",
+      "title": "362",
+      "content": "A postai küldemények feladását és átvételét a központi ügykezelés munkatársai helyben, a 1055 Budapest, Honvéd u. fsz. 14. sz. postabontóban végzik. A postai úton továbbított küldeményekről naponta postai feladókönyv készül. A sima postai küldeményeket darabszám szerint, az ajánlott, a tértivevényes leveleket és csomagokat (max. 2 kg-ig) küldeményfajtánként elkülönítve kell a feladókönyvbe bejegyezni. A postai küldemények feladását és átvételét a központi ügykezelés munkatársai helyben, a 1055 Budapest, Honvéd u. fsz. 14. sz. postabontóban végzik. A feladás bérmentesítéssel történik. A bérmentesítő gép dátumát minden esetben a következő munkanapra kell állítani, a postai elszállítás menetére tekintettel. A bérmentesítő gép feltöltése a postán történik, amelyet a meghatalmazással rendelkező központi ügykezelők végeznek."
+    },
+    {
+      "provision_ref": "s363",
+      "section": "363",
+      "title": "363",
+      "content": "Az NFGM és a 62. sz. posta között létrejött, hatályos szerződés szerint a posta naponta lezárt zsákban kiszállítja a minisztériumnak szóló küldeményeket, és egy menetben, lezárt postazsákban szállítja el a másnapi feladásra összeállított és bérmentesített küldeményeket."
+    },
+    {
+      "provision_ref": "s364",
+      "section": "364",
+      "title": "364",
+      "content": "A postabontó, amely közvetlen utcai eléréssel rendelkezik, fogadja és veszi át a minisztérium hivatalos címére kézbesített vagy személyesen beadott küldeményeket, illetőleg adja át a minisztériumi háttérintézményeknek szóló minisztériumi leveleket."
+    },
+    {
+      "provision_ref": "s365",
+      "section": "365",
+      "title": "365",
+      "content": "(3) A minisztériumban a küldemények, iratok átadás-átvétele kézbesítéssel történik. A kézbesítők az ügykezelés és a szervezeti egységek között, kézbesítőívvel és dossziéban, esetenként kézbesítőkönyvvel, míg a szervezeti egységek egymás között ugyancsak dossziés rendszerben továbbítják az iratokat."
+    },
+    {
+      "provision_ref": "s366",
+      "section": "366",
+      "title": "366",
+      "content": "9. Az irattári tételszám meghatározása"
+    },
+    {
+      "provision_ref": "s367",
+      "section": "367",
+      "title": "367",
+      "content": "(1) A minisztérium irattári terve alapján az irattári tételszámokat az ügyintéző határozza meg és beírja az előadói ív megfelelő rovatába, valamint papíralapú irat esetén az iratra is rá kell vezetnie. Az irattári tételszámot az iratkezelő, az irat központi iktatónak való átadását megelőzően az ügyirat-nyilvántartás adataihoz beírja."
+    },
+    {
+      "provision_ref": "s368",
+      "section": "368",
+      "title": "368",
+      "content": "(2) A kiadmány továbbítását követően, a központi kezelőség (központi irattár) az iratot a szervezeti egységektől irattározásra átveszi, és az iraton szereplő irattári tételszám alapján a központi irattárban elhelyezi."
+    },
+    {
+      "provision_ref": "s369",
+      "section": "369",
+      "title": "369",
+      "content": "A papíralapú, ún. forrásdokumentumokat az irattári elhelyezésig az ügyintéző szervezeti egységnél kell tárolni annak érdekében, hogy a tárgyév során keletkezett iratfordulatok/alszámok iratait az ügyirat mellett helyezzék el. A tárgyévet követően az irattári tételszámmal ellátott és a KIR3-ban lezárt ügyiratokat a központi irattárba kell leadni. Az eredeti ügyirat mellé az alszámos iratok a központi irattárban kerülnek elhelyezésre."
+    },
+    {
+      "provision_ref": "s370",
+      "section": "370",
+      "title": "370",
+      "content": "VI."
+    },
+    {
+      "provision_ref": "s371",
+      "section": "371",
+      "title": "371",
+      "content": "IRATTÁROZÁS ÉS AZ IRATOK LEVÉLTÁRI ÁTADÁSA"
+    },
+    {
+      "provision_ref": "s372",
+      "section": "372",
+      "title": "372",
+      "content": "1. Irattározás"
+    },
+    {
+      "provision_ref": "s373",
+      "section": "373",
+      "title": "373",
+      "content": "(1) Az irattári tervet az iratkezelési szabályzat melléklete tartalmazza."
+    },
+    {
+      "provision_ref": "s374",
+      "section": "374",
+      "title": "374",
+      "content": "(2) Az irattári terv tartalmazza az egyes irattári tételszámokhoz tartozó iratok ügyköreit (tárgyköreit), azok megőrzési idejét (selejtezési idő), valamint a nem selejtezhető iratok levéltári átadásának idejét. Az irattári tételszámok nem az egyes szervezeti egységek feladatkörei, hanem a minisztériumi feladat- és ügykör szerint csoportosítottak."
+    },
+    {
+      "provision_ref": "s375",
+      "section": "375",
+      "title": "375",
+      "content": "(3) Az irattári tervet évente felül kell vizsgálni, annak módosítását a szervezeti egységek javaslata alapján a Jogi és Koordinációs Főosztály vezetője kezdeményezi."
+    },
+    {
+      "provision_ref": "s376",
+      "section": "376",
+      "title": "376",
+      "content": "(4) A központi iratkezelésnek, mint központi iktatónak és szkennelőnek az elhelyezése a Jogi és Koordinációs Főosztályhoz tartozó, Honvéd utcai épület fszt.-i irodában van. A minisztériumi iratkezelés központi iktatással, irattárazással és az egyes szervezeti egységeknél történő iratkezeléssel, illetőleg főosztályi operatív irattárazással valósul meg."
+    },
+    {
+      "provision_ref": "s377",
+      "section": "377",
+      "title": "377",
+      "content": "(5) Irattárba helyezés előtt az ügyintéző:"
+    },
+    {
+      "provision_ref": "s378",
+      "section": "378",
+      "title": "378",
+      "content": "– megvizsgálja, hogy az előírt kezelési és kiadási utasítások teljesültek-e,"
+    },
+    {
+      "provision_ref": "s379",
+      "section": "379",
+      "title": "379",
+      "content": "– az ügyirathoz hozzárendeli az irattári tételszámot, amelyet papíralapú irat esetén az iratra is rávezeti,"
+    },
+    {
+      "provision_ref": "s380",
+      "section": "380",
+      "title": "380",
+      "content": "– a feleslegessé vált munkapéldányokat és másolatokat az ügyiratból kiemeli és a selejtezési eljárás mellőzésével megsemmisíti."
+    },
+    {
+      "provision_ref": "s381",
+      "section": "381",
+      "title": "381",
+      "content": "A központi irattározással megbízott személy a szervezeti egységtől átvett iratokat köteles átvizsgálni, hogy azok megfelelnek-e az irattározási szabályoknak, különös figyelmet fordítva az alszámra iktatott iratok meglétére, azok emelkedő számsorba helyezésére. Ezt követően az ügyirat-nyilvántartás megfelelő mezőjébe bejegyzi az irattárba helyezés időpontját. Gondoskodik az iratok irattári tételszámnak megfelelő iratgyűjtőbe helyezéséről"
+    },
+    {
+      "provision_ref": "s382",
+      "section": "382",
+      "title": "382",
+      "content": "(6) Valamennyi iktatószámmal rendelkező iratot irattárba kell helyezni, ha az ügyintézés megtörtént vagy ha az iratot csak tájékoztatásul küldték, és külön intézkedés nem indokolt. Az ügyintéző felel az irat irattárba helyezéséért. A kiadás után visszakért vagy iratkiadó bizonylattal az irattárból átvett iratokat az ügyintéző csak addig tarthatja magánál, ameddig az ügy végleg le nem zárul."
+    },
+    {
+      "provision_ref": "s383",
+      "section": "383",
+      "title": "383",
+      "content": "(7) Az iratokat évenként, tételszám és azon belül az iktatószám növekvő sorrendjében kell irattározni. Az irattárba helyezett irattal együtt kell irattározni az egyúttal elintézett iratokat, valamint az előiratokat, függetlenül az iktatás évétől. Az összetartozó iratokat az utóbb iktatott irat évében kell irattározni."
+    },
+    {
+      "provision_ref": "s384",
+      "section": "384",
+      "title": "384",
+      "content": "Az iratcsomagban elhelyezett számítógépes „ügyiratkísérő”-ben valamennyi ügyiratrész és ügyirattörténet részletes leírása szerepel."
+    },
+    {
+      "provision_ref": "s385",
+      "section": "385",
+      "title": "385",
+      "content": "(8) A tárgyévet megelőzően irattárba helyezett (a/a) irat iktatószámán további intézkedést nem lehet kezdeményezni. Újabb iratfordulat esetén a témában jelentkező újabb küldeményt/iratot új főszámra kell iktatni (legyen az külső vagy belső keletkezésű), amelyhez szerelni kell az ügyben korábban keletkezett előiratot. A csatoláshoz/szereléshez eligazodást nyújt, a központi iktatást végző számára a küldő hivatkozási száma vagy az ügyintéző indoklása. Ebben az esetben az ügyiratot az irattárból ki kell emelni."
+    },
+    {
+      "provision_ref": "s386",
+      "section": "386",
+      "title": "386",
+      "content": "(9) A tárgyévben, a témában keletkezett, de már irattárba helyezett (a/a) irat csak akkor aktiválható, ha annak újabb iratfordulatát a korrekt hivatkozási szám és pontos tárgya alátámasztja. Ennek hiányában az irat aktiválása nem megengedett, mert az esetleges módosítással, sztornírozással a lezárt irat hitelessége nem biztosítható."
+    },
+    {
+      "provision_ref": "s387",
+      "section": "387",
+      "title": "387",
+      "content": "(10) Elektronikus adathordozóra felvitt iratokat, kezelési feljegyzéseket, nyilvántartási adatokat egy közös adatszerveren kell tárolni. Az adatszerver(ek)en tárolt adatok, állományok utólagos elolvasását, elérését – az erre szolgáló eszközök esetleges módosítása, cseréje esetén is – biztosítani kell. Az adatvédelem érdekében az üzemeltetésért felelős szervezeti egység rendszeres időközönként, az adatvédelmi utasításban meghatározottak szerint biztonsági mentést végez nagy kapacitású elektronikus adattárolóra."
+    },
+    {
+      "provision_ref": "s388",
+      "section": "388",
+      "title": "388",
+      "content": "(11) Az iratok kiadása az irattárból"
+    },
+    {
+      "provision_ref": "s389",
+      "section": "389",
+      "title": "389",
+      "content": "A minisztérium munkatársai – hivatalos használatra – a Szervezeti és Működési Szabályzatban rögzített jogosultságok alapján kérhetnek ki iratokat az irattárból, un. iratkikérő/iratpóló lappal (továbbiakban: iratkikérő). Illetékesség hiányában más személy részére iratot az irattárból csak a témáért felelős szervezeti egység kiadmányozási jogosultsággal rendelkező vezetőjének a bizonylaton szereplő engedélyével lehet kiadni. A bizonylatot minden esetben az igénylő köteles aláírni. Az irat kiadását és visszavételét az ügyirat-nyilvántartásban is rögzíteni kell."
+    },
+    {
+      "provision_ref": "s390",
+      "section": "390",
+      "title": "390",
+      "content": "2. Selejtezés"
+    },
+    {
+      "provision_ref": "s391",
+      "section": "391",
+      "title": "391",
+      "content": "Az irattárba helyezett iratok selejtezését a központi ügykezelés vezetőjének irányítása mellett a KIR3 rendszer által nyújtott szolgáltatás felhasználásával – az iratoknál bejegyzett irattári tételszám és őrzési idő alapján összeállított selejtezési jegyzőkönyvek alapján – a selejtezési bizottság végzi."
+    },
+    {
+      "provision_ref": "s392",
+      "section": "392",
+      "title": "392",
+      "content": "Az iratselejtezést az iratkezelés felügyeletével megbízott vezető által kijelölt legalább 3 tagú selejtezési bizottság javaslata alapján lehet elvégezni."
+    },
+    {
+      "provision_ref": "s393",
+      "section": "393",
+      "title": "393",
+      "content": "A selejtezési jegyzőkönyv tartalmazza: a jegyzőkönyv elkészítésének időpontját, helyét, a selejtezési bizottság tagjainak nevét, beosztását, a selejtezés alapjául szolgáló belső normákat, a selejtezésre kerülő iratok évkörét, azon belül emelkedő irattári tételszám sorrendben az ügykör megnevezését és a selejtezésre kijelölt iratanyag mennyiségét (ifm-ben), a hivatalos bélyegző lenyomatát."
+    },
+    {
+      "provision_ref": "s394",
+      "section": "394",
+      "title": "394",
+      "content": "Az iratselejtezésről 3 példányban (a selejtezési bizottság tagjai által aláírt) elkészített selejtezési jegyzőköny 2 példányát jóváhagyásra a levéltárnak kell megküldeni. A levéltár az ellenőrzését követően a jegyzőkönyvet záradékolva visszaküldi. A selejtezés időpontját az ügyirat nyilvántartáson át kell vezetni."
+    },
+    {
+      "provision_ref": "s395",
+      "section": "395",
+      "title": "395",
+      "content": "Az irat selejtezését az ügyirat keletkezésekor hatályos irattári tervben rögzített őrzési idő szerint kell végrehajtani."
+    },
+    {
+      "provision_ref": "s396",
+      "section": "396",
+      "title": "396",
+      "content": "3. Megsemmisítés"
+    },
+    {
+      "provision_ref": "s397",
+      "section": "397",
+      "title": "397",
+      "content": "A levéltár az iratok megsemmisítését, a szükséges ellenőrzés után, a selejtezési jegyzőkönyv visszaküldött példányaira írt (pecsételt) záradékkal engedélyezi. Az elektronikus adathordozón lévő dokumentumok selejtezése és megsemmisítése az általános szabályok szerint történik. Az iratok megsemmisítéséről a Jogi és Koordinációs Főosztály vezetőjének kezdeményezésére a Központi Szolgáltatási Főigazgatóság gondoskodik."
+    },
+    {
+      "provision_ref": "s398",
+      "section": "398",
+      "title": "398",
+      "content": "A kiselejtezett iratokat zúzással vagy az irat anyagától függő egyéb módszerek alkalmazásával úgy kell megsemmisíteni, hogy tartalmukat megállapítani ne lehessen. A selejtpapírt csak zúzott állapotban, vagy zsineggel átkötött zsákokban szabad átadni a megsemmisítéssel megbízott részére."
+    },
+    {
+      "provision_ref": "s399",
+      "section": "399",
+      "title": "399",
+      "content": "4. Levéltári átadás"
+    },
+    {
+      "provision_ref": "s400",
+      "section": "400",
+      "title": "400",
+      "content": "A levéltár számára átadandó ügyiratokat az ügyviteli segédletekkel együtt az átadó költségére az irattári terv szerint, 2 példányban elkészített átadás-átvételi jegyzőkönyv kíséretében, annak mellékletét képező átadási egység szerinti (doboz, csomag stb.) tételjegyzékkel együtt, teljes, lezárt évfolyamokban kell átadni. A visszatartott ügyiratokról külön jegyzéket kell készíteni. Az átadás időpontját és az átadásra kerülő iratok jegyzékét a levéltárral előzetesen egyeztetni kell."
+    },
+    {
+      "provision_ref": "s401",
+      "section": "401",
+      "title": "401",
+      "content": "Az átadás-átvételi jegyzék tartalmazza: a minisztérium nevét, az átadott iratok évkörét és mennyiségét (ifm-ben), az átadó és átvevő személy nevét, beosztását, aláírását, a hivatalos bélyegző lenyomatát. Az átadásra előkészített iratokat savmentes dobozba kell elhelyezni, a dobozokat címkével vagy felirattal kell ellátni, évkör, irattári tételszám és azon belül iktatószámtól-iktatószámig adatok feltüntetésével. Az iratok levéltári átadásának tényét és idejét az iktatási és az irattári segédleteken is át kell vezetni."
+    },
+    {
+      "provision_ref": "s402",
+      "section": "402",
+      "title": "402",
+      "content": "Az elektronikusan tárolt ügyiratok átadását a külön jogszabályban meghatározott formátum szerint kell elvégezni."
+    },
+    {
+      "provision_ref": "s403",
+      "section": "403",
+      "title": "403",
+      "content": "VII."
+    },
+    {
+      "provision_ref": "s404",
+      "section": "404",
+      "title": "404",
+      "content": "INTÉZKEDÉSEK A MINISZTÉRIUMON BELÜLI SZERVEZETI VÁLTOZÁSOK ESETÉN"
+    },
+    {
+      "provision_ref": "s405",
+      "section": "405",
+      "title": "405",
+      "content": "1. Intézkedések szervezeti egység feladatkörének megváltozása esetén"
+    },
+    {
+      "provision_ref": "s406",
+      "section": "406",
+      "title": "406",
+      "content": "A szervezeti egység feladatkörének megváltozása esetén a feladatot átvevő szervnek az illetékes levéltár értesítése mellett kell intézkednie az érintett irattári anyag elhelyezéséről, biztonságos megőrzéséről, kezeléséről és további használhatóságáról. A jogutód nélkül megszűnt szervezeti egység iratanyagát rendezett állapotban a központi irattár veszi át."
+    },
+    {
+      "provision_ref": "s407",
+      "section": "407",
+      "title": "407",
+      "content": "Hivatalátadás esetén az erről felvett és iktatott jegyzőkönyvben fel kell tüntetni az utolsó iktatószámot (számokat) és tételesen fel kell sorolni az átadott, illetőleg átvett ügyiratokat és az ügyirathátralékot."
+    },
+    {
+      "provision_ref": "s408",
+      "section": "408",
+      "title": "408",
+      "content": "Az iratkezelési folyamat szereplőit (szervezeti egység, szignáló, kiadmányozó, ügyintéző, ügyiratkezelő) megszűnés, átszervezés és személyi változás esetén a kezelésükben lévő iratokkal, a nyilvántartások alapján tételesen el kell számoltatni, az elszámoltatásról jegyzőkönyvet kell felvenni. A kezelésükben lévő iratanyag rendezésének hiányossága esetén a hiányosság meszüntetéséig [maximum a felmentési időnek a munkáltató döntésétől függő munkavégzési kötelezettség alóli mentesítés tartamára – figyelemmel a köztisztviselők jogállásáról szóló 1992. évi XXIII. törvény 18. § (3) bekezdésében foglaltakra] nem mentesíthetők a munkavégzési kötelezettség alól."
+    },
+    {
+      "provision_ref": "s409",
+      "section": "409",
+      "title": "409",
+      "content": "2. Munkakör-átadással kapcsolatos rendelkezések"
+    },
+    {
+      "provision_ref": "s410",
+      "section": "410",
+      "title": "410",
+      "content": "A hivatalból távozó (beleértve a minisztériumon belüli áthelyezést is) ügyintézőt és ügyiratkezelőt, vagy aki a továbbiakban egyéb ok miatt iratot nem tarthat magánál, a rábízott iratokkal a nyilvántartás alapján tételesen el kell számoltatni, amelynek módját a munkakör átadás-átvétel rendjéről szóló 3/2008. NFGM utasítás alapján a vezető határozza meg. Az iratkezelői munkakör átadása esetén is az átadásról jegyzőkönyvet kell felvenni. A kilépő okmányát (un. sétáló papírját) a Jogi és Koordinációs Főosztályhoz tartozó központi irattár, csak a dolgozó vezetője által aláírt, az iratok tételes átadás-átvételéről készített jegyzőkönyv egy példányának átadását követően írhatja alá."
+    },
+    {
+      "provision_ref": "s411",
+      "section": "411",
+      "title": "411",
+      "content": "VIII."
+    },
+    {
+      "provision_ref": "s412",
+      "section": "412",
+      "title": "412",
+      "content": "INTÉZKEDÉSEK A MINISZTÉRIUM MEGSZŰNÉSE ESETÉN"
+    },
+    {
+      "provision_ref": "s413",
+      "section": "413",
+      "title": "413",
+      "content": "A minisztérium megszűnése vagy feladatkörének megváltoztatása esetén a feladatkör végrehajtásáért felelős szervezet vagy személy köteles intézkedni a minisztérium irattárában őrzött iratanyagok további elhelyezéséről, biztonságos megőrzéséről, kezeléséről és hozzáférhetőségéről."
+    },
+    {
+      "provision_ref": "s414",
+      "section": "414",
+      "title": "414",
+      "content": "(Iktatószám) Hiv. szám:"
+    },
+    {
+      "provision_ref": "s415",
+      "section": "415",
+      "title": "415",
+      "content": "Pataki János úr részére,"
+    },
+    {
+      "provision_ref": "s416",
+      "section": "416",
+      "title": "416",
+      "content": "főigazgató"
+    },
+    {
+      "provision_ref": "s417",
+      "section": "417",
+      "title": "417",
+      "content": "Első Magyar Ügyviteli Rt."
+    },
+    {
+      "provision_ref": "s418",
+      "section": "418",
+      "title": "418",
+      "content": "Budapest"
+    },
+    {
+      "provision_ref": "s419",
+      "section": "419",
+      "title": "419",
+      "content": "Tisztelt Főigazgató Úr!"
+    },
+    {
+      "provision_ref": "s420",
+      "section": "420",
+      "title": "420",
+      "content": "Szöveg:"
+    },
+    {
+      "provision_ref": "s421",
+      "section": "421",
+      "title": "421",
+      "content": "Budapest, …..év …..hó …..nap"
+    },
+    {
+      "provision_ref": "s422",
+      "section": "422",
+      "title": "422",
+      "content": "Melléklet:"
+    },
+    {
+      "provision_ref": "s423",
+      "section": "423",
+      "title": "423",
+      "content": "Üdvözlettel/Tisztelettel:"
+    },
+    {
+      "provision_ref": "s424",
+      "section": "424",
+      "title": "424",
+      "content": "(Aláíró neve)"
+    },
+    {
+      "provision_ref": "s425",
+      "section": "425",
+      "title": "425",
+      "content": "főosztályvezető"
+    },
+    {
+      "provision_ref": "s426",
+      "section": "426",
+      "title": "426",
+      "content": "1055 Budapest, Honvéd u. 13-15. e-mail: név.név@nfgm.gov.hu telefon: +36 1 374 2700. telefax: +36 1 302 2394"
+    },
+    {
+      "provision_ref": "s427",
+      "section": "427",
+      "title": "427",
+      "content": "(Iktatószám) Hiv. szám:"
+    },
+    {
+      "provision_ref": "s428",
+      "section": "428",
+      "title": "428",
+      "content": "Pataki János úr részére,"
+    },
+    {
+      "provision_ref": "s429",
+      "section": "429",
+      "title": "429",
+      "content": "főigazgató"
+    },
+    {
+      "provision_ref": "s430",
+      "section": "430",
+      "title": "430",
+      "content": "Ellátási Főigazgatóság"
+    },
+    {
+      "provision_ref": "s431",
+      "section": "431",
+      "title": "431",
+      "content": "Budapest"
+    },
+    {
+      "provision_ref": "s432",
+      "section": "432",
+      "title": "432",
+      "content": "Tisztelt Főigazgató Úr!"
+    },
+    {
+      "provision_ref": "s433",
+      "section": "433",
+      "title": "433",
+      "content": "Szöveg:"
+    },
+    {
+      "provision_ref": "s434",
+      "section": "434",
+      "title": "434",
+      "content": "Budapest, …..év …..hó …..nap"
+    },
+    {
+      "provision_ref": "s435",
+      "section": "435",
+      "title": "435",
+      "content": "Melléklet:"
+    },
+    {
+      "provision_ref": "s436",
+      "section": "436",
+      "title": "436",
+      "content": "Üdvözlettel/Tisztelettel:"
+    },
+    {
+      "provision_ref": "s437",
+      "section": "437",
+      "title": "437",
+      "content": "(Aláíró neve)"
+    },
+    {
+      "provision_ref": "s438",
+      "section": "438",
+      "title": "438",
+      "content": "1055 Budapest, Honvéd u. 13-15. e-mail: név.név@nfgm.gov.hu telefon: +36 1 374 2700. telefax: +36 1 302 2394"
+    },
+    {
+      "provision_ref": "s439",
+      "section": "439",
+      "title": "439",
+      "content": "A KORMÁNY ÁLLÁSPONTJÁT NEM TÜKRÖZI"
+    },
+    {
+      "provision_ref": "s440",
+      "section": "440",
+      "title": "440",
+      "content": "NEMZETI FEJLESZTÉSI ÉS GAZDASÁGI MINISZTER"
+    },
+    {
+      "provision_ref": "s441",
+      "section": "441",
+      "title": "441",
+      "content": "..…/MeH"
+    },
+    {
+      "provision_ref": "s442",
+      "section": "442",
+      "title": "442",
+      "content": ",,Az 1992. LXIII. törvény 19/A. § (1) bekezdése alapján"
+    },
+    {
+      "provision_ref": "s443",
+      "section": "443",
+      "title": "443",
+      "content": "NEM NYILVÁNOS"
+    },
+    {
+      "provision_ref": "s444",
+      "section": "444",
+      "title": "444",
+      "content": "…..-től számított 10 évig"
+    },
+    {
+      "provision_ref": "s445",
+      "section": "445",
+      "title": "445",
+      "content": "Készült: 70 példányban"
+    },
+    {
+      "provision_ref": "s446",
+      "section": "446",
+      "title": "446",
+      "content": "..... számú példány"
+    },
+    {
+      "provision_ref": "s447",
+      "section": "447",
+      "title": "447",
+      "content": "Előterjesztés/Jelentés"
+    },
+    {
+      "provision_ref": "s448",
+      "section": "448",
+      "title": "448",
+      "content": "a Kormány részére"
+    },
+    {
+      "provision_ref": "s449",
+      "section": "449",
+      "title": "449",
+      "content": "(az előterjesztés/jelentés tárgya)"
+    },
+    {
+      "provision_ref": "s450",
+      "section": "450",
+      "title": "450",
+      "content": "Budapest, …..év …..hó"
+    },
+    {
+      "provision_ref": "s451",
+      "section": "451",
+      "title": "451",
+      "content": "A KORMÁNY ÁLLÁSPONTJÁT NEM TÜKRÖZI"
+    },
+    {
+      "provision_ref": "s452",
+      "section": "452",
+      "title": "452",
+      "content": "NEMZETI FEJLESZTÉSI ÉS GAZDASÁGI MINISZTER"
+    },
+    {
+      "provision_ref": "s453",
+      "section": "453",
+      "title": "453",
+      "content": "Iktatószám:"
+    },
+    {
+      "provision_ref": "s454",
+      "section": "454",
+      "title": "454",
+      "content": "Előterjesztés"
+    },
+    {
+      "provision_ref": "s455",
+      "section": "455",
+      "title": "455",
+      "content": "a Gazdasági Kabinet részére"
+    },
+    {
+      "provision_ref": "s456",
+      "section": "456",
+      "title": "456",
+      "content": "(az előterjesztés tárgya)"
+    },
+    {
+      "provision_ref": "s457",
+      "section": "457",
+      "title": "457",
+      "content": "Budapest, …..év …..hó"
+    },
+    {
+      "provision_ref": "s458",
+      "section": "458",
+      "title": "458",
+      "content": "A KORMÁNY ÁLLÁSPONTJÁT NEM TÜKRÖZI"
+    },
+    {
+      "provision_ref": "s459",
+      "section": "459",
+      "title": "459",
+      "content": "NEMZETI FEJLESZTÉSI ÉS GAZDASÁGI MINISZTER"
+    },
+    {
+      "provision_ref": "s460",
+      "section": "460",
+      "title": "460",
+      "content": "Iktatószám:"
+    },
+    {
+      "provision_ref": "s461",
+      "section": "461",
+      "title": "461",
+      "content": "Előterjesztés/Tájékoztató"
+    },
+    {
+      "provision_ref": "s462",
+      "section": "462",
+      "title": "462",
+      "content": "a Kormánykabinet részére"
+    },
+    {
+      "provision_ref": "s463",
+      "section": "463",
+      "title": "463",
+      "content": "(az előterjesztés/tájékoztató tárgya)"
+    },
+    {
+      "provision_ref": "s464",
+      "section": "464",
+      "title": "464",
+      "content": "Budapest, …..év …..hó"
+    },
+    {
+      "provision_ref": "s465",
+      "section": "465",
+      "title": "465",
+      "content": "MUNKAANYAG"
+    },
+    {
+      "provision_ref": "s466",
+      "section": "466",
+      "title": "466",
+      "content": "A KORMÁNY ÁLLÁSPONTJÁT NEM TÜKRÖZI"
+    },
+    {
+      "provision_ref": "s467",
+      "section": "467",
+      "title": "467",
+      "content": "NEMZETI FEJLESZTÉSI ÉS GAZDASÁGI MINISZTÉRIUM"
+    },
+    {
+      "provision_ref": "s468",
+      "section": "468",
+      "title": "468",
+      "content": "Iktatószám:"
+    },
+    {
+      "provision_ref": "s469",
+      "section": "469",
+      "title": "469",
+      "content": "Munkaanyag"
+    },
+    {
+      "provision_ref": "s470",
+      "section": "470",
+      "title": "470",
+      "content": "(az előterjesztés tárgya)"
+    },
+    {
+      "provision_ref": "s471",
+      "section": "471",
+      "title": "471",
+      "content": "Budapest, …..év …..hó"
+    },
+    {
+      "provision_ref": "s472",
+      "section": "472",
+      "title": "472",
+      "content": "TERVEZET A KORMÁNY ÁLLÁSPONTJÁT NEM TÜKRÖZI"
+    },
+    {
+      "provision_ref": "s473",
+      "section": "473",
+      "title": "473",
+      "content": "NEMZETI FEJLESZTÉSI ÉS GAZDASÁGI MINISZTÉRIUM"
+    },
+    {
+      "provision_ref": "s474",
+      "section": "474",
+      "title": "474",
+      "content": "Iktatószám:"
+    },
+    {
+      "provision_ref": "s475",
+      "section": "475",
+      "title": "475",
+      "content": "Tervezet"
+    },
+    {
+      "provision_ref": "s476",
+      "section": "476",
+      "title": "476",
+      "content": "(az előterjesztés tárgya)"
+    },
+    {
+      "provision_ref": "s477",
+      "section": "477",
+      "title": "477",
+      "content": "Budapest, …..év …..hó"
+    },
+    {
+      "provision_ref": "s478",
+      "section": "478",
+      "title": "478",
+      "content": "(Szervezeti egység neve)"
+    },
+    {
+      "provision_ref": "s479",
+      "section": "479",
+      "title": "479",
+      "content": "(Iktatószám)"
+    },
+    {
+      "provision_ref": "s480",
+      "section": "480",
+      "title": "480",
+      "content": "Előadó:"
+    },
+    {
+      "provision_ref": "s481",
+      "section": "481",
+      "title": "481",
+      "content": "F e l j e g y z é s"
+    },
+    {
+      "provision_ref": "s482",
+      "section": "482",
+      "title": "482",
+      "content": "főosztályvezető úr részére"
+    },
+    {
+      "provision_ref": "s483",
+      "section": "483",
+      "title": "483",
+      "content": "….. Főosztály"
+    },
+    {
+      "provision_ref": "s484",
+      "section": "484",
+      "title": "484",
+      "content": "Szöveg"
+    },
+    {
+      "provision_ref": "s485",
+      "section": "485",
+      "title": "485",
+      "content": "Budapest, …..év ……hó …..nap"
+    },
+    {
+      "provision_ref": "s486",
+      "section": "486",
+      "title": "486",
+      "content": "(Aláíró neve)"
+    },
+    {
+      "provision_ref": "s487",
+      "section": "487",
+      "title": "487",
+      "content": "Postacím: Budapest Pf. 111. 1880"
+    },
+    {
+      "provision_ref": "s488",
+      "section": "488",
+      "title": "488",
+      "content": "(Iktatószám)"
+    },
+    {
+      "provision_ref": "s489",
+      "section": "489",
+      "title": "489",
+      "content": "Pataki János"
+    },
+    {
+      "provision_ref": "s490",
+      "section": "490",
+      "title": "490",
+      "content": "főigazgató"
+    },
+    {
+      "provision_ref": "s491",
+      "section": "491",
+      "title": "491",
+      "content": "Ellátási Főigazgatóság"
+    },
+    {
+      "provision_ref": "s492",
+      "section": "492",
+      "title": "492",
+      "content": "Budapest"
+    },
+    {
+      "provision_ref": "s493",
+      "section": "493",
+      "title": "493",
+      "content": "Pf. …………………"
+    },
+    {
+      "provision_ref": "s494",
+      "section": "494",
+      "title": "494",
+      "content": "………….. (irányítószám)"
+    },
+    {
+      "provision_ref": "s495",
+      "section": "495",
+      "title": "495",
+      "content": "NEMZETI FEJLESZTÉSI ÉS GAZDASÁGI MINISZTÉRIUM"
+    },
+    {
+      "provision_ref": "s496",
+      "section": "496",
+      "title": "496",
+      "content": "Sorszám/év:"
+    },
+    {
+      "provision_ref": "s497",
+      "section": "497",
+      "title": "497",
+      "content": "IRATKIKÉRŐ / IRATPÓTLÓ LAP (BIZONYLAT)"
+    },
+    {
+      "provision_ref": "s498",
+      "section": "498",
+      "title": "498",
+      "content": "A ………………………………………………….. számú iratot a minisztérium központi irattárából a …………………………………………………………………….főosztály részére átvettem."
+    },
+    {
+      "provision_ref": "s499",
+      "section": "499",
+      "title": "499",
+      "content": "Budapest, …..év …..hó …..nap."
+    },
+    {
+      "provision_ref": "s500",
+      "section": "500",
+      "title": "500",
+      "content": "(olvasható aláírás)"
+    },
+    {
+      "provision_ref": "s501",
+      "section": "501",
+      "title": "501",
+      "content": "Tartalomjegyzék"
+    },
+    {
+      "provision_ref": "s502",
+      "section": "502",
+      "title": "502",
+      "content": "Iratkezelési Szabályzat"
+    },
+    {
+      "provision_ref": "s503",
+      "section": "503",
+      "title": "503",
+      "content": "1. Hatály"
+    },
+    {
+      "provision_ref": "s504",
+      "section": "504",
+      "title": "504",
+      "content": "2. Az iratkezelés szervezete"
+    },
+    {
+      "provision_ref": "s505",
+      "section": "505",
+      "title": "505",
+      "content": "3. Az iratkezelésben részt vevő személyek feladatai"
+    },
+    {
+      "provision_ref": "s506",
+      "section": "506",
+      "title": "506",
+      "content": "4. Az iratkezelés felügyelete"
+    },
+    {
+      "provision_ref": "s507",
+      "section": "507",
+      "title": "507",
+      "content": "1. A küldemények átvétele"
+    },
+    {
+      "provision_ref": "s508",
+      "section": "508",
+      "title": "508",
+      "content": "2. A küldemény felbontása"
+    },
+    {
+      "provision_ref": "s509",
+      "section": "509",
+      "title": "509",
+      "content": "1. Iktatási rendszer"
+    },
+    {
+      "provision_ref": "s510",
+      "section": "510",
+      "title": "510",
+      "content": "2. Iktatószám"
+    },
+    {
+      "provision_ref": "s511",
+      "section": "511",
+      "title": "511",
+      "content": "3. Iktatóbélyegző"
+    },
+    {
+      "provision_ref": "s512",
+      "section": "512",
+      "title": "512",
+      "content": "4. Iktatási adatok"
+    },
+    {
+      "provision_ref": "s513",
+      "section": "513",
+      "title": "513",
+      "content": "5. Az iratok szerelése és csatolása"
+    },
+    {
+      "provision_ref": "s514",
+      "section": "514",
+      "title": "514",
+      "content": "6. Mutatózás"
+    },
+    {
+      "provision_ref": "s515",
+      "section": "515",
+      "title": "515",
+      "content": "1. Ügyintéző kijelölése"
+    },
+    {
+      "provision_ref": "s516",
+      "section": "516",
+      "title": "516",
+      "content": "2. Iratok nyilvántartása a szervezeti egységeknél"
+    },
+    {
+      "provision_ref": "s517",
+      "section": "517",
+      "title": "517",
+      "content": "3. Az iratok elintézése"
+    },
+    {
+      "provision_ref": "s518",
+      "section": "518",
+      "title": "518",
+      "content": "4. Kiadmány"
+    },
+    {
+      "provision_ref": "s519",
+      "section": "519",
+      "title": "519",
+      "content": "5. Az irat elintézésének folyamatában az eljárás rendje"
+    },
+    {
+      "provision_ref": "s520",
+      "section": "520",
+      "title": "520",
+      "content": "6. Feljegyzés"
+    },
+    {
+      "provision_ref": "s521",
+      "section": "521",
+      "title": "521",
+      "content": "7. Kiadmányozás"
+    },
+    {
+      "provision_ref": "s522",
+      "section": "522",
+      "title": "522",
+      "content": "8. Az iratok továbbítása, postázása (expediálás)"
+    },
+    {
+      "provision_ref": "s523",
+      "section": "523",
+      "title": "523",
+      "content": "9. Az irattári tételszám meghatározása"
+    },
+    {
+      "provision_ref": "s524",
+      "section": "524",
+      "title": "524",
+      "content": "1. Irattározás"
+    },
+    {
+      "provision_ref": "s525",
+      "section": "525",
+      "title": "525",
+      "content": "2. Selejtezés"
+    },
+    {
+      "provision_ref": "s526",
+      "section": "526",
+      "title": "526",
+      "content": "3. Megsemmisítés"
+    },
+    {
+      "provision_ref": "s527",
+      "section": "527",
+      "title": "527",
+      "content": "4. Levéltári átadás"
+    },
+    {
+      "provision_ref": "s528",
+      "section": "528",
+      "title": "528",
+      "content": "1. Intézkedések szervezeti egység feladatkörének megváltozása esetén"
+    },
+    {
+      "provision_ref": "s529",
+      "section": "529",
+      "title": "529",
+      "content": "2. Munkakör-átadással kapcsolatos rendelkezések"
+    },
+    {
+      "provision_ref": "s530",
+      "section": "530",
+      "title": "530",
+      "content": "1. Levélminta minisztériumi papíron"
+    },
+    {
+      "provision_ref": "s531",
+      "section": "531",
+      "title": "531",
+      "content": "2. Levélminta felsővezetői papíron"
+    },
+    {
+      "provision_ref": "s532",
+      "section": "532",
+      "title": "532",
+      "content": "3. Kormányülésre/Államtitkári Értekezletre benyújtandó Előterjesztés/Jelentés fedőlapja"
+    },
+    {
+      "provision_ref": "s533",
+      "section": "533",
+      "title": "533",
+      "content": "4. Előterjesztés a Gazdasági Kabinet részére fedőlapja"
+    },
+    {
+      "provision_ref": "s534",
+      "section": "534",
+      "title": "534",
+      "content": "5. Előterjesztés/Tájékoztató a Kormánykabinet részére fedőlapja"
+    },
+    {
+      "provision_ref": "s535",
+      "section": "535",
+      "title": "535",
+      "content": "6. Munkaanyag szakmapolitikai egyeztetésre fedőlapja"
+    },
+    {
+      "provision_ref": "s536",
+      "section": "536",
+      "title": "536",
+      "content": "7. Tervezet közigazgatási/szakmai-érdekképviseleti egyeztetésre fedőlapja"
+    },
+    {
+      "provision_ref": "s537",
+      "section": "537",
+      "title": "537",
+      "content": "8. Belső feljegyzés alaki kellékei"
+    },
+    {
+      "provision_ref": "s538",
+      "section": "538",
+      "title": "538",
+      "content": "9. Céges borítékcímzési minták"
+    },
+    {
+      "provision_ref": "s539",
+      "section": "539",
+      "title": "539",
+      "content": "10. Iratkiadó bizonylat tartalma 11.a Küldeményborító/előadói ív/iratpéldány-borító – főszám 11.b Küldeményborító/előadói ív/iratpéldány-borító – alszám"
+    },
+    {
+      "provision_ref": "s540",
+      "section": "540",
+      "title": "540",
+      "content": "A Nemzeti Fejlesztési és Gazdasági Minisztérium"
+    },
+    {
+      "provision_ref": "s541",
+      "section": "541",
+      "title": "541",
+      "content": "Irattári Terve"
+    },
+    {
+      "provision_ref": "s542",
+      "section": "542",
+      "title": "542",
+      "content": "RÖVIDÍTÉSEK"
+    },
+    {
+      "provision_ref": "s543",
+      "section": "543",
+      "title": "543",
+      "content": "Tartalomjegyzék"
+    },
+    {
+      "provision_ref": "s544",
+      "section": "544",
+      "title": "544",
+      "content": "Irattári Terv"
+    },
+    {
+      "provision_ref": "s545",
+      "section": "545",
+      "title": "545",
+      "content": "I. Általános rész 100 Általános ügyek 180 Kommunikációs ügyek 200 Jogi, közigazgatási ügyek 250 Humánigazgatási ügyek 280 Oktatási ügyek 300 Költségvetési és gazdálkodási ügyek 350 Belső ellenőrzési ügyek 370 Informatikai ügyek II. Különös rész 400 Stratégiai ügyek 430 Vagyongazdálkodási ügyek 460 Vállalkozásfejlesztési ügyek 500 Üzletikörnyezet-fejlesztési ügyek 720 Védelmi ügyek 780 Vállalati kapcsolatok ügyek 800 Nemzetközi kapcsolatok ügyek 820 Nemzetközi Infrastruktúraügyek 850 Kereskedelempolitikai ügyek 860 Európai kapcsolatok ügyek 900 Területrendezési és településügyi ügyek 1000 Építésügyi és építészeti ügyek 1100 Területfejlesztési ügyek III. Rövidítések * Az utasítást a 39/2012. (XI. 23.) NGM utasítás 2. §-a hatályon kívül helyezte 2012. november 24. napjával. 1, A szervezeti egység iratkezelőjének a felelőssége, hogy a papíralapon, e-mailen vagy faxon érkezett küldemények iktatása előtt fordítson figyelmet az előzményekre, hogy a már egyszer iktatott iratra ne iktasson újabb, ugyanazon tartalmú küldeményt. 2. Ezen küldeményeket a „nem iktatandó” állapotra kell visszaállítani azért, hogy a rendszer a továbbiakban ne kezelje a tételeket. 3. Ügyiratborítónak (előadói ívnek) nevezzük a teljes ügyiratot magában foglaló borítót, míg az iratborító a főszám részét képező alszámhoz tartozó irat(ok) borítója, mivel az ügyben keletkezett első irat (kezdőirat) iktatáskor az egyes alszámot kapja, és azok iratfordulatai (ügyiratdarabjai) lesznek a további alszámok az ügyintézésen belül. 4: A folyamat vezetői közreműködés esetén, illetőleg a (4) bekezdésben foglaltak hiányában a (3) bekezdésben leírtak szerint működik a szignálás. 5: Aktív közreműködés esetén. 6, 335/2005. (XII.29.) Korm. rendelet 41. § (3) bekezdése szerint „az ügyirathoz tartozó iratokat az iktatási főszám alatt folyamatosan kiadott alszámokon kell nyilvántartani.” 7: 335/2005. (XII.29.) Korm. rendelet 39. § (2) bekezdése. 8. Pl.: a minisztériumban jogszabály-előkészítéssel több szervezeti egység is foglalkozik, de azok megjelenítése az irattári tervben csak a 100-as vagy a 111-es ügykörszám alatt történik. 9. A KIR3-program lehetőséget biztosít a korábban használatos, nagy adminisztrációval járó iratjegyzék összeállítása helyett az ügyiratkísérő elkészítésre. 10. A 335/2005. (XII.29.) Korm. rendelet 63. §-ban nevesített iratkikérő lapot három példányban kell elkészíteni. Az első példánysorszámú, a kikért irat helyére kerül a kölcsönzés idejére; a második példánysorszámú, a kölcsönzési határidő szerinti sorrendben lefűzve a kölcsönzés határidő-nyilvántartása; a harmadik példánysorszámú (mint megőrzendő példány) bizonylat lefűzve kölcsönzési naplóként funkcionál, amit a segédletekre vonatkozó előírások szerint kell kezelni."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "(XII. 29.) Korm. rendelet 2. §-ának megfelelően a Nemzeti Fejlesztési és Gazdasági Minisztérium (a továbbiakban",
+      "definition": "minisztérium) Iratkezelési Szabályzata (a továbbiakban: Szabályzat) alkalmazásában a következő fogalmak használatosak:",
+      "source_provision": "s13"
+    }
+  ]
+}

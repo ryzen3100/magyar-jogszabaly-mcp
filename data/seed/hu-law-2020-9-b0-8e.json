@@ -1,0 +1,833 @@
+{
+  "id": "hu-law-2020-9-b0-8e",
+  "type": "statute",
+  "title": "9/2020. (IV. 24.) ORFK utasítás a pályázat- és projektkezelés rendjéről",
+  "status": "in_force",
+  "in_force_date": "2020-04-25",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2020-9-B0-8E",
+  "description": "a pályázat- és projektkezelés rendjéről",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A jogalkotásról szóló 2010. évi CXXX. törvény 23. § (4) bekezdés c) pontjában, valamint a Rendőrségről szóló 1994. évi XXXIV. törvény 6. § (1) bekezdés b) pontjában kapott felhatalmazás alapján, az ikerintézményi program fejlesztési tevékenységének ellátásáról és a projektjei lebonyolításának szabályairól, valamint a projektekben résztvevő szakértőkre vonatkozó szabályokról szóló 311/2012. (XI. 7.) Korm. rendeletben, továbbá az európai uniós és nemzetközi forrásból megvalósított projektek monitoringjáról és egyes kapcsolódó feladatokról szóló 5/2016. (III. 23.) BM utasításban foglaltak végrehajtására, valamint a projektjellegű feladatok végrehajtásához pénzügyi forrást biztosító pályázatok hatékony és eredményes kezelése, továbbá a projektszervezés rendjének szabályozása érdekében kiadom az alábbi utasítást:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "I. FEJEZET"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "ÁLTALÁNOS RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "1. Az utasítás hatálya kiterjed"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "a) az általános rendőrségi feladatok ellátására létrehozott szerv (a továbbiakban: Rendőrség) központi szervére (a továbbiakban: ORFK);"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "b) a Készenléti Rendőrségre (a továbbiakban: KR), a Repülőtéri Rendőr Igazgatóságra, a Rendőrségi Oktatási és Kiképző Központra, a Nemzetközi Oktatási Központra, valamint a vármegyei (fővárosi) rendőr-főkapitányságokra (a továbbiakban együtt: területi szervek)."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "2. Az utasítás alkalmazásában"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "a) haszonélvező: az a személy, szerv vagy szervezet, aki vagy amely a projekttevékenység eredményeként beszerzett árut, szolgáltatást, ingatlant szolgálati feladatainak ellátása során felhasználja;"
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "b) ikerintézményi szakértő: az ikerintézményi (twinning) programon belül megvalósított projektek végrehajtásában részt vevő szakterületi szakértő;"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "c) kedvezményezett: az a jogi személy, aki az elnyert támogatás felhasználására vonatkozó támogatási szerződés megkötésére jogosult;"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "d) központi kezelésű pályázat: az ORFK szintjén tervezett projektek pénzügyi forrását biztosító, alakszerű kérelem;"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "e) központi kezelésű projekt: központi kezelésű pályázati forrásból finanszírozott projekt;"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "f) külső munkaerő: adott szakterületen humánerőforrás-hiány következtében a projekt szakmai tevékenységét támogató, a Rendőrség állományába nem tartozó személy;"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "g) pályázat: alakszerű kérelem, amely a pályázati kiírás alapján azzal a céllal készül, hogy a projekt pénzügyi forrását biztosítsa;"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "h) pályázati kiírás: hazai, európai uniós és nemzetközi támogatási programok keretében, konkrét célok megvalósítására közzétett felhívás, amely tartalmazza a támogatandó tevékenységeket, a pályázók körét és a támogatások mértékét;"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "i) pályázati referens: a területi szerveknél a pályázatok kezelésére, a projektjavaslat kidolgozására, a pályázat elkészítésére kijelölt vagy munkaköre szerint feladatát teljesítő munkatárs;"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "j) projekt: meghatározott időtartamú, több szakterület szakértelmét igénylő, tervezett tevékenységsorozat, a szolgálati követelményeknek, valamint a pályázati kiírásnak megfelelő cél elérése érdekében;"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "k) projektiroda: a területi szerveknél a pályázatok kezelésére, a projektjavaslat kidolgozására kijelölt szervezeti elem;"
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "l) projektjavaslat: szakterületi javaslat alapján az ORFK Gazdasági Főigazgatóság (a továbbiakban: ORFK GF) Európai Támogatások Osztálya (a továbbiakban: ORFK GF ETO) vezetője, területi szerv esetében a pályázati referens vagy a projektiroda által kidolgozott irat, amely tartalmazza a projekt címét, rövid tartalmát, becsült költségét, projektmenedzserét, projektkoordinátorát, szakértőit és határidejét;"
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "m) projektkoordinátor: kapcsolattartó személy a projektszervezet minden tagja és a releváns projektkörnyezet képviselői számára;"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "n) projektmenedzser: a projektszervezet egyszemélyi vezetője, aki felelős a projekt céljának megvalósításáért, a projektműködési rendben meghatározott feladatok végrehajtásáért, jogok gyakorlásáért;"
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "o) projektműködési rend: az a dokumentum, amely a projekt hatékony megvalósítása érdekében meghatározza az egyes szervezeti egységek/konzorciumi partnerek feladatait, felelősség- és hatásköreit, valamint a munkafolyamatokat, melynek melléklete – együttműködő partner esetén – az együttműködési megállapodás;"
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "p) projektszervezet: a projektmenedzser és a szakértők hierarchikus szervezete;"
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "q) támogatási szerződés: a pályázatkiíró szervezet és a kedvezményezett között létrejött szerződés, amely tartalmazza a támogatás nyújtásának és felhasználásának részletes szabályait."
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "II. FEJEZET"
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "A PÁLYÁZATKEZELÉS ÉS PROJEKTIRÁNYÍTÁS RENDJE"
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "1. Az ORFK Rendészeti Főigazgatóság, az ORFK Bűnügyi Főigazgatóság, az ORFK Személyügyi Főigazgatóság és a KR feladatai"
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "3. Az ORFK Rendészeti Főigazgatóság, az ORFK Bűnügyi Főigazgatóság, az ORFK Személyügyi Főigazgatóság, valamint a KR szervezeti elemei közreműködnek a projektek előkészítésében és végrehajtásában, ennek keretében"
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "a) a szakterületüket érintően felmérik a szakmai igényeket, kidolgozzák a rövid és a középtávú szakmai fejlesztési célokat, feladatokat és terveket azzal, hogy a rendészeti, a bűnügyi, a műveleti, valamint a személyügyi országos rendőrfőkapitány-helyettes által jóváhagyott tervekről a pályázatkiíró felhívásának megfelelően tájékoztatják a gazdasági országos rendőrfőkapitány-helyettest;"
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "b) szakmai prioritások felállításával – a rendelkezésre álló forrásokkal összhangban – kezdeményezik a pályázati források felkutatását, az elnyert pályázatok fejlesztési céloknak megfelelő tervezését, felhasználását, a tervezett fejlesztések megvalósítását;"
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "c) részt vesznek a projektek előkészítésében, a pályázatok elkészítésében, a projektszervezetbe szakterületi szakértőt, a közbeszerzési eljárásokba bíráló bizottsági tagot delegálnak;"
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "d) a rendészeti, a bűnügyi, a műveleti, valamint a személyügyi országos rendőrfőkapitány-helyettes a szakterületét érintő – a 9. pont d) alpontja alapján felterjesztett – projektjavaslatot jóváhagyja, vagy – egyet nem értése esetén – az előterjesztőnek visszaküldi."
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "2. Az ORFK GF feladatai"
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "4. A gazdasági országos rendőrfőkapitány-helyettes irányítja a Rendőrség hazai, európai uniós és nemzetközi pályázatkezelési tevékenységét és az elnyert pályázatok alapján finanszírozott projektjeit, ennek keretében"
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "a) irányítja a pályázati kiírások figyelését a pénzügyi források megszerzése céljából;"
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "b) koordinálja a pályázatokon való részvétel lehetőségeit a feladat- és hatáskör szerint érintett rendőri szervekkel;"
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "c) szervezi és ellenőrzi az elnyert pályázatok alapján finanszírozott projektek előkészítését és végrehajtását;"
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "d) felelős a központi kezelésű pályázatok határidőre történő benyújtásáért;"
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "e) a humánerőforrások hiánya esetén gondoskodik a pályázatok alapján finanszírozott projektek szakértőinek a területi szervektől, valamint külső munkaerővel történő pótlásáról;"
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "f) az ORFK mint kedvezményezett képviseletében megköti, vagy – a pályázati kiírás szerint – aláírás céljából felterjeszti az országos rendőrfőkapitány részére az elnyert pályázatok támogatási szerződéseit;"
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "g) kijelöli a projektmenedzsereket, a projektkoordinátorokat, a projekt szakértőit a feladatok ellátásával, valamint – kivételes esetben – a projekt végrehajtására az ORFK GF ETO-tól eltérő szervezeti elemet jelöl ki;"
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "h) szükség esetén – a pályázati forrás folyósítását megelőzően felmerülő költségek esetében – dönt a pályázati forrásból finanszírozott projektek előfinanszírozásáról, az önrész biztosításáról;"
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "i) a projekt célja szerint érintett országos rendőrfőkapitány-helyettessel, területi szerv vezetőjével közösen jóváhagyja a projektjavaslatot;"
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "j) felelős az ORFK GF állományából a projektszervezetbe delegált szakértők tevékenységéért, valamint a szakértők által készített dokumentumok szakmai tartalmáért."
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "5. Az ORFK GF"
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "a) szükség esetén biztosítja az ORFK által szervezett projektek központi költségvetési társfinanszírozásához szükséges feltételeket;"
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "b) végrehajtja – a személyi juttatások, belföldi és külföldi kiküldetések elszámolása kivételével – a projektekhez kapcsolódó pénzügyi műveleteket;"
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "c) biztosítja a projektek végrehajtásával összefüggésben keletkező bevételek és kiadások elkülönített pénzügyi kezelését;"
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "d) a számviteli szabályoknak megfelelően felügyeli a projektek eredményeképpen beérkező tárgyi eszközök és immateriális javak bevételezését;"
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "e) a projekttámogatási szerződésében foglaltak szerint intézkedik elkülönített számla nyitására, amelyen fogadja a pályázati támogatások összegét és a társfinanszírozás címén az adott projektre biztosított előirányzatot;"
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "f) ellenőrzi a projektekben tervezett és – a műszaki leírások szerint – leszállított eszközök meglévő rendszerekkel való kompatibilitását;"
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "g) felügyeli a projektek keretében megvalósított fejlesztések fenntartását;"
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "h) az ORFK elektronikus információs rendszer biztonságáért felelős személye útján az informatikai biztonságot érintő projekt esetén – a projekt teljes életciklusában – végigkíséri az informatikai biztonsági követelmények teljesülését az Informatikai Biztonsági Szabályzatról szóló ORFK utasításban foglaltaknak megfelelően."
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "6. Az ORFK GF ETO ellátja a pályázatkutató és projektszervező tevékenység szakirányításához kapcsolódó központi feladatokat, ennek keretében"
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "a) a pályázati kiírásoknak és/vagy szakmai igényeknek megfelelően az ORFK, valamint az érintett területi szervek vezetőinek bevonásával kidolgozza a pályázatokat, a projektjavaslatokat, és jóváhagyásra felterjeszti a gazdasági országos rendőrfőkapitány-helyettes részére;"
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "b) tervezi és igényli – a szakmai főosztályok feladatkörébe utalt projektek kivételével – a projektek megvalósításához szükséges önrészt, valamint folyamatosan jelenti az előfinanszírozási szükségleteket;"
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "c) a pályázatot kiíró szervezetek követelményeinek megfelelően kezdeményezi, felügyeli és ellenőrzi a projektek végrehajtását;"
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "d) közreműködik a hazai és a nemzetközi monitoring és ellenőrző bizottságoknak nyújtott adatszolgáltatásban;"
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "e) bekéri és rendszerezi a területi szervek pályázati tevékenységére vonatkozó információkat, amelyek alapján adatszolgáltatást végez;"
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "f) kialakítja a pályázatok, projektek kezelésének nyilvántartási rendszerét, gondoskodik annak naprakész vezetéséről;"
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "g) a hazai, európai uniós és nemzetközi pályázatok körében kijelölt munkatársak útján képviseli a Rendőrség érdekeit az irányító hatóságok, minisztériumok és más szervezetek felé;"
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "h) kezdeményezi a feladatkörébe utalt projektekhez kapcsolódó közbeszerzési eljárások kiírását, és közreműködik azok végrehajtásában;"
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "i) a támogatási szerződésekben leírtak szerint teljesíti jelentési kötelezettségeit;"
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "j) a pályázatkiíró szerv elvárásainak megfelelően – az ORFK Kommunikációs Szolgálattal együttműködve – gondoskodik a projektek nyilvánosság előtti bemutatásáról, valamint a láthatósági követelmények teljesítéséről;"
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "k) az Iratkezelési Szabályzatról szóló ORFK utasításnak megfelelően nyilvántartja, és a támogatási szerződésekben leírtak szerint megőrzi a projektek során keletkezett iratokat;"
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "l) végrehajtja az európai uniós és nemzetközi forrásból megvalósuló projektek nyomonkövetéséről, valamint a közvetlen irányítású európai uniós programok végrehajtásáról szóló 8/2021. (V. 31.) BM utasításban a projektet megvalósító szervre vonatkozóan meghatározott feladatokat;"
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "m) biztosítja a projektek megvalósulásának ellenőrzését a Felelős Hatóság, a Belügyminisztérium Ellenőrzési Főosztálya, az audit hatóság, a Magyar Államkincstár, az Állami Számvevőszék, az Európai Bizottság érintett szervezetei, az Európai Számvevőszék és az Európai Csalás Elleni Hivatal, továbbá minden olyan szervezet, hatóság, egyéb személy részére, amelyeket erre jogszabály feljogosít."
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "3. A területi szervek feladatai"
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "7. A területi szervek az ORFK által szervezett projektek haszonélvezői, emellett saját hatáskörben pályázatkutatásra, önálló pályázatok benyújtására és projektalapításra jogosultak."
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "8. A területi szervek az ORFK által szervezett projektek esetében"
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "a) szakmai céljaikkal összhangban kezdeményezik a pályázati források felkutatását, projektek alapítását;"
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "b) kijelölt munkatársaik révén szakértőként vesznek részt a projektek végrehajtásában és fenntartásában;"
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "c) biztosítják a projektek eredményeinek célhoz kötött felhasználását."
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "9. A gazdasági szervvel rendelkező területi szervek saját hatáskörben végzett pályázatkutatás és projektalapítás esetén"
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "a) folyamatosan figyelemmel kísérik a területi szerv szempontjából releváns hazai, európai uniós és nemzetközi pályázati kiírásokat;"
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "b) a közös és az önálló pályázati lehetőségek feltárása, érvényesítése érdekében kapcsolatot tartanak és együttműködnek az érintett, valamint az érdekelt más szervezetekkel;"
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "c) a határon átnyúló nemzetközi fejlesztési programok keretében – a projektben meghatározott módon, dokumentáltan – kapcsolatot tartanak és együttműködnek a szomszédos országok rendvédelmi és egyéb államigazgatási szerveivel;"
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "d) a projektjavaslatokat – a szolgálati út betartásával – felterjesztik a feladat- és hatáskör szerint érintett országos rendőrfőkapitány-helyettes részére jóváhagyás céljából;"
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "e) központi költségvetési kihatással járó önrészigényüket a projektjavaslattal egyidejűleg jóváhagyásra felterjesztik a gazdasági országos rendőrfőkapitány-helyettes részére;"
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "f) kidolgozzák a projektműködési rendet;"
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "g) érvényesítik és ellenőrzik a projekt eredményeinek fenntartását, a célhoz kötött felhasználást;"
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "h) végrehajtják a projektekhez kapcsolódó pénzügyi és logisztikai műveleteket;"
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "i) végzik a projektek végrehajtásával összefüggésben keletkező bevételek és kiadások elkülönített pénzügyi kezelését;"
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "j) a számviteli szabályoknak megfelelően végzik a projektek eredményeképpen beérkező tárgyi eszközök és immateriális javak bevételezését, tárolását, kiadását;"
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "k) vezetőik útján a pályázatkutatás és projektalapítás előkészítésére irányuló feladatok ellátására, a b)–c) alpont szerinti együttműködés, valamint információcsere megvalósítására – az ORFK GF ETO vezetőjének egyidejű értesítése mellett – pályázati referenst jelölnek ki, amennyiben nem rendelkeznek projektirodával;"
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "l) adatot szolgáltatnak pályázataikról az ORFK GF ETO részére;"
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "m) nyilvántartják a beérkezett eszközöket és anyagi készleteket, azokkal kapcsolatban pénzügyi és anyagi-technikai információt szolgáltatnak;"
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "n) kezdeményezik a feladatkörükbe utalt projektekhez kapcsolódó közbeszerzési eljárások kiírását, és közreműködnek azok végrehajtásában;"
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "o) a pályázatkiíró szerv elvárásainak megfelelően – az ORFK Kommunikációs Szolgálattal együttműködve – gondoskodnak a projektek nyilvánosság előtti bemutatásáról, valamint a láthatósági követelmények teljesítéséről."
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "4. A KR Költségvetési Igazgatóság feladatai"
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "10. A KR Költségvetési Igazgatóság (a továbbiakban: KR KIG)"
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "a) ellátja a személyi juttatások, a belföldi és a külföldi kiküldetések elszámolásával kapcsolatos feladatokat;"
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "b) az ORFK GF ETO részére megküldi az időközi és a záró pénzügyi elszámolások alapját képező bizonylatokat, hitelesített számlamásolatokat;"
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "c) részt vesz a Rendőrség kiemelt projektjeivel kapcsolatos közbeszerzési, koordinációs, szervezési és adminisztratív feladatok ellátásában;"
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "d) pályázatok kezelésére, a projektjavaslat kidolgozására kijelölt szervezeti eleme önállóan ellátja a pályázatkutatáshoz és projektszervezéshez kapcsolódó feladatokat, a pályázati kiírásoknak és/vagy szakmai igényeknek megfelelően kidolgozza a pályázatokat, a projektjavaslatokat, és jóváhagyásra felterjeszti a KR KIG igazgatójának;"
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "e) átveszi, tárolja és a haszonélvező részére kiadja a központi kezelésű projektek keretében beszerzett eszközöket és anyagi készleteket, valamint elvégzi a beérkező eszközök és készletek nyilvántartásba vételét;"
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "f) nyilvántartja a beérkezett eszközöket és anyagi készleteket, azokkal kapcsolatban pénzügyi és anyagi-technikai információt szolgáltat;"
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "g) az ellátási körébe tartozó szervekkel kötött munkamegosztási megállapodás alapján támogatja azok projekttevékenységét;"
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "h) a területi szervek felkérése alapján lebonyolítja a projektek beszerzési és közbeszerzési eljárásait;"
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "i) a projektek helyszíni ellenőrzése során rendelkezésre bocsátja a kezelésében lévő eredeti dokumentumokat."
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "11. A KR KIG a pályázatok kezelésére, a projektjavaslat kidolgozására kijelölt szervezeti elem útján biztosítja a projektek szervezéséhez szükséges létszámú projektmenedzseri, projektkoordinátori és szakértői állományt, ennek keretében"
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "a) önállóan pályázik;"
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "b) felügyeli és/vagy végrehajtja a hatáskörébe tartozó projektek tevékenységét;"
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "c) a projektfelügyelet és projektvégrehajtás során együttműködik a projektekbe bevont szakmai szervezetek vezetőivel;"
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "d) a jogszerűség érdekében tervezi és végrehajtja a projektmenedzserek és szakértők felkészítését az adott projektek végrehajtása során (a pályázat benyújtásától a megvalósítás végéig) a szakmai igények és a végrehajtási ütemezés figyelembevételével."
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "12. A KR KIG a pályázatok kezelésére, a projektjavaslat kidolgozására kijelölt szervezeti elem útján negyedévente felülvizsgálja a projektek elkülönített könyvelésének szabályszerű vezetését."
+    },
+    {
+      "provision_ref": "s107",
+      "section": "107",
+      "title": "107",
+      "content": "III. FEJEZET"
+    },
+    {
+      "provision_ref": "s108",
+      "section": "108",
+      "title": "108",
+      "content": "A PÁLYÁZATKUTATÁS ÉS A PROJEKTSZERVEZÉS FOLYAMATA"
+    },
+    {
+      "provision_ref": "s109",
+      "section": "109",
+      "title": "109",
+      "content": "13. A pályázati lehetőségek feltárása érdekében folytatott pályázatkutatás során az ORFK GF ETO nyomon követi a Rendőrség szempontjából releváns hazai és nemzetközi pályázati kiírásokat."
+    },
+    {
+      "provision_ref": "s110",
+      "section": "110",
+      "title": "110",
+      "content": "14. Az ORFK GF ETO vezetője a 13. pont alapján beszerzett érdemi információkat – a pályázati határidők figyelembevételével – továbbítja az érintett szervek, szervezeti egységek számára."
+    },
+    {
+      "provision_ref": "s111",
+      "section": "111",
+      "title": "111",
+      "content": "15. A projekt megvalósításához szükséges szakértelem biztosításáért a javaslattevő szolgálati elöljárók felelősek az alábbiak figyelembevételével:"
+    },
+    {
+      "provision_ref": "s112",
+      "section": "112",
+      "title": "112",
+      "content": "a) a projektszervezetbe a szakértőket a Rendőrség személyi állományából, lehetőség szerint a projekt témája szerinti szakirányító és haszonélvező szervek állományából kell kijelölni;"
+    },
+    {
+      "provision_ref": "s113",
+      "section": "113",
+      "title": "113",
+      "content": "b) amennyiben a Rendőrség személyi állományába tartozó szakértők közreműködése azok szolgálatteljesítési idejének vagy munkaidejének terhére, a szolgálati érdekre figyelemmel nem biztosítható, a szakértői tevékenység időtartamára a jogszabályban és a közjogi szervezetszabályozó eszközökben meghatározott módon és mértékben a részükre túlszolgálatot vagy rendkívüli munkaidőt kell elrendelni."
+    },
+    {
+      "provision_ref": "s114",
+      "section": "114",
+      "title": "114",
+      "content": "16. Humánerőforrás hiánya esetén – a beszerzési szabályok figyelembevételével – meg kell vizsgálni külső munkaerő bevonásának lehetőségét."
+    },
+    {
+      "provision_ref": "s115",
+      "section": "115",
+      "title": "115",
+      "content": "17. A projektjavaslat jóváhagyása a projekt alapítását jelenti."
+    },
+    {
+      "provision_ref": "s116",
+      "section": "116",
+      "title": "116",
+      "content": "18. A projektet a támogatási szerződésben leírtaknak megfelelően kell végrehajtani."
+    },
+    {
+      "provision_ref": "s117",
+      "section": "117",
+      "title": "117",
+      "content": "19. A projekttevékenységeket a Rendőrség általános ellenőrzési rendszere, valamint a támogatási szerződésben foglaltak szerint kell ellenőrizni."
+    },
+    {
+      "provision_ref": "s118",
+      "section": "118",
+      "title": "118",
+      "content": "20. A projektkoordinátor"
+    },
+    {
+      "provision_ref": "s119",
+      "section": "119",
+      "title": "119",
+      "content": "a) előkészíti a döntéseket;"
+    },
+    {
+      "provision_ref": "s120",
+      "section": "120",
+      "title": "120",
+      "content": "b) összehívja, megszervezi a projektértekezleteket;"
+    },
+    {
+      "provision_ref": "s121",
+      "section": "121",
+      "title": "121",
+      "content": "c) kapcsolatot tart a pályázatkiíró szervezettel, az együttműködő partnerekkel;"
+    },
+    {
+      "provision_ref": "s122",
+      "section": "122",
+      "title": "122",
+      "content": "d) végrehajtja a projekt megvalósítása érdekében szükséges koordinációs feladatokat;"
+    },
+    {
+      "provision_ref": "s123",
+      "section": "123",
+      "title": "123",
+      "content": "e) elkészíti az előrehaladási jelentéseket a felelősök közreműködésével;"
+    },
+    {
+      "provision_ref": "s124",
+      "section": "124",
+      "title": "124",
+      "content": "f) a projekt előrehaladásáról tájékoztatja a projektmenedzsert."
+    },
+    {
+      "provision_ref": "s125",
+      "section": "125",
+      "title": "125",
+      "content": "IV. FEJEZET"
+    },
+    {
+      "provision_ref": "s126",
+      "section": "126",
+      "title": "126",
+      "content": "AZ IKERINTÉZMÉNYI (TWINNING) PROJEKTEK VÉGREHAJTÁSÁRA VONATKOZÓ ELTÉRŐ RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s127",
+      "section": "127",
+      "title": "127",
+      "content": "21. Az ikerintézményi (twinning) projektek végrehajtása az ikerintézményi program fejlesztési tevékenységének ellátásáról és a projektjei lebonyolításának szabályairól, valamint a projektekben résztvevő szakértőkre vonatkozó szabályokról szóló 311/2012. (XI. 7.) Korm. rendelet szerint történik."
+    },
+    {
+      "provision_ref": "s128",
+      "section": "128",
+      "title": "128",
+      "content": "22. Az ikerintézményi projekt megvalósítását elősegítő adminisztratív és logisztikai, valamint pénzügyi menedzsment feladatok ellátását és koordinációját az ORFK GF ETO végzi."
+    },
+    {
+      "provision_ref": "s129",
+      "section": "129",
+      "title": "129",
+      "content": "23. Az ikerintézményi programmal összefüggő feladatok koordinációja érdekében az országos rendőrfőkapitány a gazdasági országos rendőrfőkapitány-helyettes javaslatára az ORFK GF ETO személyi állományából jelöli ki a Rendőrség ikerintézményi felelősét."
+    },
+    {
+      "provision_ref": "s130",
+      "section": "130",
+      "title": "130",
+      "content": "24. Az ikerintézményi programot szabályozó jogszabályokban meghatározottakon túl a Rendőrség ikerintézményi felelősének feladata"
+    },
+    {
+      "provision_ref": "s131",
+      "section": "131",
+      "title": "131",
+      "content": "a) az ORFK és a területi szervek bevonásával a rendőri szaktevékenységeknek megfelelő ikerintézményi szakértői adatbázis kialakítása és nyilvántartása;"
+    },
+    {
+      "provision_ref": "s132",
+      "section": "132",
+      "title": "132",
+      "content": "b) az ORFK Személyügyi Főigazgatóság, az ORFK GF ETO és a KR KIG érintett vezetőivel együttműködve az ikerintézményi szakértők kihelyezésének, kiküldésének végrehajtása."
+    },
+    {
+      "provision_ref": "s133",
+      "section": "133",
+      "title": "133",
+      "content": "25. Az ORFK és a területi szervek az ORFK GF ETO vezetőjén keresztül jogosultak kezdeményezni az ikerintézményi projektekben történő részvételt."
+    },
+    {
+      "provision_ref": "s134",
+      "section": "134",
+      "title": "134",
+      "content": "V. FEJEZET"
+    },
+    {
+      "provision_ref": "s135",
+      "section": "135",
+      "title": "135",
+      "content": "ZÁRÓ RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s136",
+      "section": "136",
+      "title": "136",
+      "content": "26. Ez az utasítás a közzétételét követő napon lép hatályba."
+    },
+    {
+      "provision_ref": "s137",
+      "section": "137",
+      "title": "137",
+      "content": "27. 1 Az 1. pont b) alpontja a 40/2022. (XII. 30.) ORFK utasítás 167. pontja, a 17/2025. (VI. 30.) ORFK utasítás 56. pontja szerint módosított szöveg. 2 A 2. pont i) alpontja a 11/2025. (IV. 10.) ORFK utasítás 46. pont a) alpontja szerint módosított szöveg. 3 A 2. pont k) alpontja a 11/2025. (IV. 10.) ORFK utasítás 46. pont b) alpontja szerint módosított szöveg. 4 A 4. pont g) alpontja a 11/2025. (IV. 10.) ORFK utasítás 46. pont c) alpontja szerint módosított szöveg. 5 A 6. pont j) alpontja a 40/2022. (XII. 30.) ORFK utasítás 166. pontjával megállapított szöveg. 6 A 10. pont d) alpontja a 11/2025. (IV. 10.) ORFK utasítás 46. pont b) alpontja szerint módosított szöveg. 7 A 10. pont h) alpontja a 11/2025. (IV. 10.) ORFK utasítás 46. pont d) alpontja szerint módosított szöveg. 8 A 11. pont nyitó szövegrésze a 11/2025. (IV. 10.) ORFK utasítás 46. pont b) alpontja szerint módosított szöveg. 9 A 12. pont a 11/2025. (IV. 10.) ORFK utasítás 46. pont b) alpontja szerint módosított szöveg. 10 A 15. pont a) alpontja a 11/2025. (IV. 10.) ORFK utasítás 46. pont e) alpontja szerint módosított szöveg. 11 A 27. pont a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette."
+    }
+  ]
+}

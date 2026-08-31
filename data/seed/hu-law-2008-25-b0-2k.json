@@ -1,0 +1,737 @@
+{
+  "id": "hu-law-2008-25-b0-2k",
+  "type": "statute",
+  "title": "25/2008. (HÉ 46.) NFGM utasítás a Nemzeti Fejlesztési és Gazdasági Minisztérium adatgazdálkodásáról",
+  "status": "amended",
+  "in_force_date": "2008-11-15",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2008-25-B0-2K",
+  "description": "A Nemzeti Fejlesztési és Gazdasági Minisztérium adatgazdálkodásáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "1. A szabályzat célja"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "a) közérdekű adatok nyilvánosságra hozatalának biztosítása,"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "b) hatékony és törvényes adatgazdálkodás,"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "c) adatok, adatbázisok központi kezelése,"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "d) fogalmak egységesítése."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "2. A szabályzat hatálya"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "2.1. A szabályzat személyi hatálya"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "A szabályzat személyi hatálya kiterjed a Nemzeti Fejlesztési és Gazdasági Minisztérium (NFGM) informatikai rendszerének minden felhasználójára. A jelen szabályzatban megfogalmazott, az adatgazdálkodási, adatgyűjtési tevékenységben részt vevő szerződéses jogviszonyban álló személyekre, szervezetekre vonatkozó kötelezettségeket a hatályos szerződéseken keresztül kell érvényesíteni. A jelen szabályzat rendelkezéseinek teljes körű és értelemszerű alkalmazása a NFGM valamennyi szervezeti egységére nézve kötelező, az NFGM felügyelete alá tartozó szervek számára pedig iránymutató, az utasítás figyelembevételével köteles megalkotni az ilyen tartalmú szabályozását."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "2.2. A szabályzat tárgyi hatálya"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "Jelen szabályzat tárgyi hatálya kiterjed a minisztérium által használt valamennyi jelenlegi és jövőbeli elektronikusan tárolt adatvagyonára."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "3. Kapcsolódó jogszabályok és az állami irányítás egyéb jogi eszközei"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "a) 1992. évi LXII. tv. a személyes adatok védelméről és a közérdekű adatok nyilvánosságáról"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "b) 1959. évi IV. törvény a Polgári Törvénykönyvből – 81. §"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "c) A törvény kiegészíti a személyes adatok védelméről és a közérdekű adatok nyilvánosságáról szóló 1992. évi LXII. törvényt"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "d) 2003. évi XXIV. törvény a közpénzek felhasználásával, a köztulajdon használatának nyilvánosságával, átláthatóbbá tételével és ellenőrzésének bővítésével összefüggő egyes törvények módosításáról"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "e) 1995. évi LXV. tv. az államtitokról és a szolgálati titokról – Az adatkezelés során különös körültekintést igényel a minősített adatok kezelése, amire a fenti törvény rendelkezései az irányadóak"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "f) 1993. évi XLVI. tv. a statisztikáról és a végrehajtásáról szóló 170/1993. (XII. 3.) Korm. rendelet"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "g) 2001. évi CVIII. törvény az elektronikus kereskedelmi szolgáltatások, valamint az információs társadalommal összefüggő szolgáltatások egyes kérdéseiről"
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "h) 1113/2000. (XII. 27.) Korm. határozat a közigazgatási adatvagyon-nyilvántartásról"
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "i) 1214/2002. (XII. 28.) Korm. határozat a Magyar Információs Társadalom Stratégia készítéséről, a további feladatok ütemezéséről és tárcaközi bizottság létrehozásáról"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "3.1. Kapcsolódó belső szabályozások"
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "a) A Nemzeti Fejlesztési és Gazdasági Minisztérium Információ Biztonsági Szabályzata – Az Információ Biztonsági Szabályzat (IBSZ) az NFGM-ben működtetett informatikai rendszerre vonatkozóan a biztonsági intézkedéseket szabályozza, meghatározza az adatkezelés folyamatának biztonsági szabályait, továbbá az informatikai szerepköröket és előírja az egyes szereplők informatikai biztonságot érintő feladatait. Az IBSZ által biztosítható az adatállományok formai és tartalmi helyességének és épségének megőrzése, az adatállományok biztonságos mentése, a felhasznált és keletkezett írásos dokumentumok megfelelő kezelésének biztosítása."
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "b) Szabályzat – A Nemzeti Fejlesztési és Gazdasági Minisztérium Informatikai Üzemeltetési Szabályzata – Az Informatikai Üzemeltetési Szabályzat ide vonatkozó célja, hogy biztosítsa az információk, illetve adatok hitelességét és jellegüktől függő bizalmas kezelését."
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "c) Szabályzat – A Nemzeti Fejlesztési és Gazdasági Minisztérium Közszolgálati Adatvédelmi Szabályzata – A Közszolgálati Adatvédelmi Szabályzat a Nemzeti Fejlesztési és Gazdasági Minisztérium közszolgálati nyilvántartásával összefüggő legfontosabb adatvédelmi, informatikai-biztonsági szabályokat tartalmazza, különös tekintettel, az adatkezeléssel, adattovábbítással és nyilvánosságra hozatallal kapcsolatos adatvédelmi követelményekre."
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "d) Szabályzat – A Nemzeti Fejlesztési és Gazdasági Minisztérium Archiválási Szabályzata – A szabályozás a nem használt adatok kivezetésének egyik módját az archiválást szabályozza."
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "e) Szabályzat – A Nemzeti Fejlesztési és Gazdasági Minisztérium Fejlesztési Szabályzata – A miniszteri utasítás célja a Nemzeti Fejlesztési és Gazdasági Minisztérium informatikai rendszerét érintő fejlesztések szabályozott, projektszemléletű irányításának, dokumentálhatóságának, nyomon követhetőségének, ellenőrizhetőségének kialakítása egy átfogó szabályozási keret segítségével"
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "4. Fogalommeghatározások"
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "Adatbázistartalom-kezelés: Az adatbázis információs tartalmának folyamatos frissítése, aktualizálása, naprakészen tartása, a tartalom és a tárolás formájának meghatározása."
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "Adatgazdálkodásért felelős: A minisztérium szervezeti egységeinek vezetői, akik az általuk kezelt adatok felügyeletét látják el."
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "Adatgazdálkodási referens: Az adatgazdálkodással, adatokkal foglalkozó erre megbízott személy."
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "Adatszolgáltatás: A minisztérium adatvagyonának szabályozott körülmények között történő belső és külső partnerek számára megvalósuló átadása, rendelkezésre bocsátása."
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "Biztonsági kategóriák: Az informatikai biztonsági szabályzatban megfogalmazott informatikai eszközök és adattartalmukra vonatkozó védelmi kategóriák."
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "Monitorozás: Bizonyos tevékenységek figyelemmel kísérése naplózása általában jelen esetben informatikai eszközökkel."
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "Szakmai felelősök: A minisztérium nem informatikai szervezeti egységeiben dolgozó adatokkal foglalkozó kijelölt személy."
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "OSAP: Országos Statisztikai Adatgyűjtési Program"
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "5. Az adatgazdálkodás eljárásai"
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "A központi tárolású adatokhoz a minisztérium munkatársai és a háttérintézmények az adatigénylési eljáráson keresztül jutnak hozzá."
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "5.1. Adatok igénylése"
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "Az adatokat"
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "a) NFGM belső kérés esetén a szervezeti egység vezetője,"
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "b) a költségvetési intézmények vezetői,"
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "c) miniszter által alapított gazdasági társaságok szervezeti egységeinek vezetői,"
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "d) egyéb háttérintézmények esetén a szervezeti egység vezetője,"
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "igényelhetik az adatgazdálkodásért felelőstől. Az igénylés során a 1. sz. mellékletet (Adatigénylő lap) kell kitölteni."
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "5.1.1. Igénylések határideje"
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "A kormányrendelet által előírt éves OSAP-adatgyűjtés keretein belül kért adatgyűjtések igénylésének határideje a tervezett adatgyűjtési ciklust megelőző év március 31."
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "Önkéntes adatgyűjtés esetén a jogosult szervezeti egységeknek fél évvel a tervezett felhasználás előtt kell bejelentenie az igényeket."
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "5.1.2. Adatigénylés jóváhagyása"
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "Az adatigénylő lapok beérkezése után az adatgazdálkodásért felelős megvizsgálja, hogy az igénylő hozzájuthat-e a kért adatokhoz. A vizsgálat során a vonatkozó jogszabályokat, szerződési viszonyokat veszi figyelembe, szükség esetén az érintett társfőosztályokat bevonja a folyamatba."
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "Az esetleges visszautasításról, a visszautasítás indoklásával az adatgazdálkodásért felelős értesíti az igénylőt."
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "Az adatgazdálkodásért felelős kérésére az IFO megvizsgálja továbbá, hogy az igény teljesítéséhez szükséges-e fejlesztési projektet indítani vagy a jelenlegi eszközökkel megvalósítható az igény. Fejlesztési projekt indítása esetén a Fejlesztési szabályzat (3.1 e.) rendelkezései szerint kell eljárni."
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "5.1.3. Gyűjtési lehetőségek vizsgálata, költséghatékonyság elemzése"
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "Az adatgazdálkodási referens megvizsgálja, hogy a kért adathalmazt az éves adatgyűjtési szerződés tartalmazza-e. Amennyiben nem, akkor külön adatgyűjtést kell megszervezni. Ez lehet kötelező és önkéntes, történhet az éves adatgyűjtési szerződés megváltoztatásával, külön gyűjtési eljárással, illetve az OSAP keretein belül."
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "a) Kötelező adatgyűjtés esetén az igénylő az igénylőlapon köteles feltüntetni a kérés jogszabályi hátterét, a szakmai főosztályokkal való egyeztetés után. Amennyiben az adatgyűjtéshez nem rendelhető hozzá egyértelműen jogszabályi háttér, akkor a kötelező adatgyűjtést az OSAP keretein belül célszerű elvégezni. Ilyen esetben a statisztikai törvény [3. f)] rendelkezései szerint kell eljárni."
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "b) Önkéntes adatgyűjtés esetén az adatgazdálkodási referens egyeztetést kezdeményez az igénylővel (idő, kérdések, feldolgozás). Az egyeztetés alapján kalkulációt végez a várható költségekről és a javaslatát az adatgazdálkodásért felelős vezetője és kezdeményező SZÁT vezetője együttesen hagyja jóvá. Az önkéntes adatgyűjtésre is a statisztikai törvény rendelkezései vonatkoznak."
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "Az adatgazdálkodási referens javaslatot tehet az éves adatgyűjtési szerződés esetleges módosításra."
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "c) Az OSAP keretein belül történő adatgyűjtés esetén az OSAP tartalmának meghatározását az adatgazdálkodási referens végzi el. Javaslatát az adatgazdálkodásért felelős vezetője hagyja jóvá és javasolja a Központi Statisztikai Hivatalnak (KSH). A következő évi javaslat beadása általános esetben a KSH kezdeményezésére tavaszi időszakban történik. Kivételes esetben, rövidebb határidő esetén a statisztikai törvény rendelkezései szerint kell eljárni."
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "d) Külön gyűjtési eljárás esetén az adatgazdálkodásért felelős vezetője megbízza az adatgazdálkodási referenst az adatok beszerzésével. Az adatgazdálkodási referens felkutatja az adatok beszerzésének lehetőségeit. Az árbecslés alapján a közbeszerzési törvény rendelkezéseit figyelembe véve az adatgazdálkodásért felelős vezető irányításával megindul a beszállítók kiválasztási folyamata."
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "5.1.4. Az igénylő tájékoztatása"
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "Az adatgazdálkodásért felelős vezető a beérkezett kérésre 15 munkanapon belül reagál. A válasznak az alábbi tartalmi elemekre kell kiterjednie: tájékoztatás a kérelem elfogadásáról"
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "a) tájékoztatás a beszerzés módjáról:"
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "– a beszerzendő adat rendelkezésre áll,"
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "– fejlesztési projektet kell indítani az igény teljesítéséhez,"
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "– a beszerzés jellege (gyűjtés/beszerzés),"
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "– beszerzés időigénye,"
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "b) beszerzés várható költségei,"
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "c) az adatbázis elérhetőségének ideje,"
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "d) az adatbázis elérhetőségének módja."
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "vagy elutasításáról – utóbbi esetben annak részletes indokolásával."
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "5.1.5. Adatigénylés nyomon követése"
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "Az adatgazdálkodásért felelős az igénylő kérésére köteles tájékoztatást adni a beszerzés pillanatnyi állapotáról."
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "5.2. Adatok tárolása"
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "Az adatok tárolására a minisztériumban a rendszeresített fileszerverek, illetve az adatbázisszerverek szolgálnak."
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "A file- és adatbázisszervereken tárolt adatokra vonatkoztatva az IFO a következő szolgáltatásokat nyújtja:"
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "a) Adathozzáférés biztosítása jogosult személyeknek"
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "b) Rendszeres mentések"
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "c) Archiválás"
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "A nem központi szerveren tárolt adatokra, adatbázisokra vonatkozóan az IFO nem nyújt szolgáltatásokat. A minisztérium számára fontos adatok file- és adatbázisszerveren történő tárolása kötelező."
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "A központi szervereken tárolt, illetve központi kezelésű adatok elérhetőségének biztosítása az IFO feladata. A dinamikusan változó adattartalmat tároló adatbázisok esetén az adatbázis-tartalom kezeléséért az illetékes szakmai főosztály a felelős."
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "5.2.1. Adatok biztonsági besorolása"
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "Az adatokat be kell sorolni az IBSZ alapján meghatározott biztonsági kategóriákba. A besorolás felelőse az adatgazdálkodásért felelős személy."
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "A besorolt adatok tárolására, hozzáférésének biztosítására, mentésére, törlésére, illetve archiválására az IBSZ szabályai vonatkoznak."
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "5.3. Adatszolgáltatás"
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "5.3.1. Adatok nyilvánosságra hozatalának rendje"
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "Az adatok beérkezése és biztonsági besorolása után az adatgazdálkodásért felelős vezető javasolja az adatcsoport nyilvánosságra hozatalának rendjét. A javaslat során figyelembe veszi"
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "a) az adathalmaz informatikai biztonsági besorolását,"
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "b) az igénylő rendelkezéseit,"
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "c) a Jogi és Koordinációs Főosztály állásfoglalását."
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "A nyilvánosságra hozatalra, az NFGM elektronikus kommunikációjának belső rendjéről szóló szabályzat (3.1 f.) – vonatkozik."
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "5.3.2. Adatszolgáltatás monitorozása"
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "Az adatszolgáltatás monitorozása az igénylő kérésére, illetve az alábbi táblázat szerinti munkarendben valósulhat meg."
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "Adatszolgáltatás monitorozásának összefoglaló táblázata:"
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "5.3.3. Adathalmaz karbantartása"
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "Az adatgazdálkodási referens a hasznosulási kimutatások alapján, illetve az adatbázis teljes átvizsgálása után évente az adathalmaz teljes rendezésére tesz javaslatot."
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "A javaslat tartalmának főbb pontjai:"
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "a) nem használt adatok archiválása,"
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "b) adatok biztonsági besorolásának megváltoztatása,"
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "c) redundáns adatok törlése,"
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "d) lejárt érvényességű adatok törlése,"
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "e) nem teljes adatok kiegészítése."
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "A javaslatot az adatgazdálkodásért felelős vezető hagyja jóvá és továbbítja az üzemeltetésnek."
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "A kimutatások alapján nem hasznosulónak minősülő adatok kezelése előtt az adatgazdálkodásért felelős vezető körkérdést intéz a szakmai főosztályoknak, melyben felhatalmazást kér a nem hasznosuló adatokon végrehajtandó kezelési műveletek végrehajtására."
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "5.3.4. Adatszolgáltatással kapcsolatos hibajelzések"
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "Adatszolgáltatással kapcsolatos hibajelzések kizárólag a Help-Desknek tehetők meg."
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "5.4. Adatok kivezetése"
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "5.4.1. Adatarchiválás"
+    },
+    {
+      "provision_ref": "s107",
+      "section": "107",
+      "title": "107",
+      "content": "Az archiválás igénylésekor megfogalmazott igények és az NFGM archiválási szabályzata rendelkezései szerint történik az adatok archiválása."
+    },
+    {
+      "provision_ref": "s108",
+      "section": "108",
+      "title": "108",
+      "content": "5.4.2. Adatok megsemmisítése, törlése"
+    },
+    {
+      "provision_ref": "s109",
+      "section": "109",
+      "title": "109",
+      "content": "Adatok megsemmisítése és törlése alapvetően három ok miatt valósulhat meg."
+    },
+    {
+      "provision_ref": "s110",
+      "section": "110",
+      "title": "110",
+      "content": "– Lejárt érvényességű adatok esetén: az adatgazdálkodási referens az adatok nyilvántartásából kérdezi le az adott adatcsoport érvényességi idejét. Amennyiben lejárt érvényességű adatcsoportot talál, annak törlését az adat szakmai felelősének jóváhagyásával kezdeményezi."
+    },
+    {
+      "provision_ref": "s111",
+      "section": "111",
+      "title": "111",
+      "content": "– Nem hasznosuló adatok esetén: az adatgazdálkodási referens az adatok hozzáférési statisztikáiból kimutatást készít, amelyből az adatgazdálkodásért felelős vezető az adat szakmai felelősével való egyeztetés után kezdeményezi az adatok törlését, illetve archiválását."
+    },
+    {
+      "provision_ref": "s112",
+      "section": "112",
+      "title": "112",
+      "content": "– Törlési igény benyújtása esetén"
+    },
+    {
+      "provision_ref": "s113",
+      "section": "113",
+      "title": "113",
+      "content": "Az adat szakmai felelőse az adatgazdálkodásért felelős vezető részére törlési igényt nyújthat be. Az igény adattartalma:"
+    },
+    {
+      "provision_ref": "s114",
+      "section": "114",
+      "title": "114",
+      "content": "a) az adatcsoport azonosítója,"
+    },
+    {
+      "provision_ref": "s115",
+      "section": "115",
+      "title": "115",
+      "content": "b) a törlés indoklása,"
+    },
+    {
+      "provision_ref": "s116",
+      "section": "116",
+      "title": "116",
+      "content": "c) érintett további szervezeti egységek."
+    },
+    {
+      "provision_ref": "s117",
+      "section": "117",
+      "title": "117",
+      "content": "Az adatgazdálkodásért felelős vezető az érintett szervezeti egységek vezetőinek jóváhagyásával kezdeményezi az adatok törlését. Az adatok törlését az IFO végezteti el. Az igény határidejének lejártával az adatgazdálkodásért felelős vezető ellenőrzi a törlés teljesülését és dokumentálja azt."
+    },
+    {
+      "provision_ref": "s118",
+      "section": "118",
+      "title": "118",
+      "content": "6. Záró rendelkezések"
+    },
+    {
+      "provision_ref": "s119",
+      "section": "119",
+      "title": "119",
+      "content": "A jelen utasítás a közzétételt követő napon lép hatályba."
+    },
+    {
+      "provision_ref": "s120",
+      "section": "120",
+      "title": "120",
+      "content": "Bajnai Gordon s. k.,"
+    },
+    {
+      "provision_ref": "s121",
+      "section": "121",
+      "title": "121",
+      "content": "nemzeti fejlesztési és gazdasági miniszter"
+    }
+  ]
+}

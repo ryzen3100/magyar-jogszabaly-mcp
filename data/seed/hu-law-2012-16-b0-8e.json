@@ -1,0 +1,569 @@
+{
+  "id": "hu-law-2012-16-b0-8e",
+  "type": "statute",
+  "title": "16/2012. (VIII. 31.) ORFK utasítás az általános rendőrségi feladatok ellátására létrehozott szerv békeidőszaki fegyverzeti és vegyivédelmi szakanyagellátás biztosításáról és tartalékkészletének meghatározásáról",
+  "status": "repealed",
+  "in_force_date": "2012-09-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2012-16-B0-8E",
+  "description": "az általános rendőrségi feladatok ellátására létrehozott szerv békeidőszaki fegyverzeti és vegyivédelmi szakanyagellátás biztosításáról és tartalékkészletének meghatározásáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A Belügyminisztérium fegyverzeti, vegyivédelmi szakanyagellátás tervezéséről és a tartalékok képzéséről szóló 35/2011. (XII. 9.) BM utasítás 7. § (1) bekezdés a) pontjában meghatározottak alapján kiadom az alábbi utasítást."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "1. Értelmező rendelkezések"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "1. Ezen utasítás vonatkozásában:"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "a) alegység-, egységkészlet: az alegység vagy egység állománya közös használatában lévő, a szakfeladatok ellátásához szükséges fegyverzeti és vegyivédelmi szakanyagkészletek összessége, amelybe beletartoznak a jelen utasítás 3. és 5. mellékleteiben szereplő csapatszolgálati, valamint az objektum-, illetve körletvédelmi felszerelések is;"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "b) beosztáshoz, technikai eszközhöz rendelt felszerelés: az adott beosztás ellátásához a személyi alapfelszerelésen felül szükséges vagy egy maghatározott technikai eszközhöz társított fegyverzeti szakanyag, amely jelen utasítás 2. mellékletében meghatározott esetekben ideiglenesen, a szakfeladat végrehajtása (szolgálat ellátása) időszakáig alegység- vagy egységkészletből is biztosítható;"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "c) elhasználódott szakanyagok: selejt, használatból kivont szakanyagok;"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "d) fegyverzeti szakanyagok: szolgálati lőfegyverek, lőszerek, gránátok, hidegfegyverek, pirotechnikai, robbanó-, optikai, elektronoptikai, védő-, kényszerítő és egyéb fegyverzeti szakanyagok;"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "e) helyi szerv: rendőrkapitányságok, határrendészeti kirendeltségek;"
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "f) igényjogosult szervek: Országos Rendőr-főkapitányság (a továbbiakban: ORFK), valamint az e), továbbá az n) alpontokban meghatározott szervek;"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "g) lőszer javadalmazás:"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "ga) az 1–3. mellékletekben meghatározott pisztolyok, géppisztolyok, gépkarabélyok és géppuskák teljességéhez tartozó tárak, hevedertárak vagy rakaszok tárkapacitásának megfelelő tölténymennyiség, az ismétlőrendszerű puskák esetén töltényfajtánként minimum 15 db, sörétes puskák esetében a tárazható mennyiség háromszorosa, de a szakfeladat végrehajtásához szükséges töltényfajtánként minimum 15 db lőszer;"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "gb) a 2. és 3. mellékletekben meghatározott kézi gránátvetők (könnygázgránátvetők) tekintetében a gránát hordtáska vagy gránáttár kapacitásának megfelelő gránátmennyiség (minimum 15 db), az automata könnygázgránátvetők esetében a teljességhez tartozó tárak, hevedertárak vagy rakaszok tárkapacitásának megfelelő gránátmennyiség háromszorosa;"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "h) objektum-, illetve körletvédelmi felszerelés: az őrzött objektumra, körletre vonatkozó védelmi végrehajtási tervben előírt fegyverzeti és vegyivédelmi eszközök és anyagok összessége;"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "i) polgári állomány: közalkalmazott, kormánytisztviselő, a Munka Törvénykönyve hatálya alá tartozó munkavállaló;"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "j) személyi alapfelszerelés: hivatásos vagy polgári állomány személyi használatában lévő fegyverzeti, illetve vegyivédelmi szakanyag, amely az 1., valamint a 4. mellékletekben meghatározott esetekben ideiglenesen, a szakfeladat végrehajtása időszakáig alegységkészletből vagy egységkészletből is biztosítható;"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "k) személyi állomány: a hivatásos, a tisztjelölti és a polgári állomány;"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "l) szolgálati lőszer: az 1–3. mellékletek vonatkozásában az adott fegyverhez rendszeresített, a szolgálati – nem kiképzési – feladatok végrehajtása érdekében biztosított lőszerek;"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "m) tartalékkészlet: a személyi alapfelszerelés, illetve beosztáshoz vagy technikai eszközhöz rendelt, valamint az alegység-készletezésű szakanyagok kivételével a központi és a területi szerveknél kialakított készletek, melyek tárolása lehetőleg a felhasználó helyi szervnél történik;"
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "n) területi szerv: a Készenléti Rendőrség, a Repülőtéri Rendőr Igazgatóság, a Nemzetközi Bűnügyi Együttműködési Központ, a Rendőrségi Oktatási és Kiképző Központ, a Nemzetközi Oktatási Központ, valamint a megyei (fővárosi) rendőr-főkapitányságok;"
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "o) védelmi parancsnok: az őrzött objektumra vonatkozó végrehajtási tervben meghatározott személy;"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "p) vegyivédelmi szakanyagok: légzés- és bőrvédelmi eszközök, vegyi és sugárzásjelző, mérő, felderítő műszerek, vegyi mentesítő technikák, mentesítő és fertőtlenítő anyagok."
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "2. Az utasítás hatálya"
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "2. Az utasítás hatálya:"
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "a) az általános rendőrségi feladatok ellátására létrehozott szerv hivatásos állományára, kivéve az iskolarendszeren kívüli képzésben részt vevő próbaidős állományt, továbbá a vegyivédelmi szakanyagellátás tekintetében – a katasztrófavédelemről és a hozzá kapcsolódó egyes törvények módosításáról szóló törvény végrehajtásáról szóló kormányrendeletben meghatározottak szerint – az atomerőmű által veszélyeztetett 0–30 km közötti területen elhelyezkedő igényjogosult szervek polgári állományára;"
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "b) a rendőrség békeidőszaki szolgálati feladatai végrehajtásához szükséges fegyverzeti szakanyagokra és vegyvédelmi szakanyagokra"
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "terjed ki."
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "3. Az ellátás szabályai"
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "3. Az igényjogosult szervezetek és a személyi állomány ellátása csak olyan fegyverzeti és vegyivédelmi szakanyagokkal tervezhető, amelyek rendszeresítése, vagy alkalmazásba vételének elrendelése megtörtént (a továbbiakban: rendszeresített fegyverzeti és vegyivédelmi szakanyagok)."
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "4. A rendőrség akció, személyvédelmi, tűzszerész szolgálati feladatokat ellátó állománya beosztáshoz rendelt felszerelése, valamint alegység- és egységkészlete jelen normában meghatározottakon felüli speciális kialakításának – az állományilletékes területi szerv vezetője javaslatára történő – engedélyezési joga az országos rendőrfőkapitány hatáskörébe tartozik."
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "5. Az igényjogosult szervezetek és a személyi állomány részére fegyverzeti és vegyivédelmi szakanyagokból az alábbi normák kerülnek meghatározásra:"
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "a) a személyi alapfelszerelésként – szakfeladat szerint – biztosítandó fegyverzeti szakanyagokat az 1. melléklet;"
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "b) a beosztáshoz, technikai eszközhöz rendelt fegyverzeti szakanyagokat a 2. melléklet;"
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "c) az alegység-, egységkészleteket képező fegyverzeti szakanyagokat a 3. melléklet;"
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "d) a személyi alapfelszerelésként (szakfeladat szerint) biztosítandó vegyivédelmi szakanyagokat a 4. melléklet;"
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "e) az alegység-, egységkészleteket képező vegyivédelmi szakanyagokat az 5. melléklet"
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "tartalmazza."
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "6. Az 1. és 2. mellékletben meghatározott fegyverek átcsoportosítása az állománytáblában meghatározott beosztásokban történő személyi változások (áthelyezések) esetén nem lehetséges."
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "4. Készletek kialakítása és kezelése"
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "7. A csapatszolgálati, az objektum- és körletvédelmi felszereléseket az alegységnél, illetve az egységnél, alegységkészletként vagy egységkészletként, de attól elkülönítve és megkülönböztetve, lezárt, lepecsételt – az eszközök tárolására alkalmas – alegységi raktárban kell elhelyezni állványon vagy tároló ládában. Az alegységi raktár ajtaján a tároló ládákon megkülönböztetésként fel kell tüntetni a „Csapatszolgálati készlet” vagy „Objektumvédelmi készlet”, illetve „Körletvédelmi készlet” feliratot, valamint a helyiségben tárolt szakanyagok megnevezését, a láda tartalmát, továbbá az alegységi raktár, illetve tároló láda felnyitását engedélyező nevét, rendfokozatát, beosztását és a pecsétnyomója számát."
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "8. Az alegység-, egységkészletek tárolására szolgáló alegységi raktár tároló ládáinak felnyitását az alegységkészlet, illetve az egységkészlet kezelésével megbízott személy, valamint váratlan támadás esetén az objektumra vonatkozó védelmi tervben meghatározott védelmi parancsnok vagy utasítására a szolgálatirányító hajthatja végre."
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "9. Az egyes rendőri szervek gazdasági ellátásáért felelős szervezeti egységek vezetői minden év február 5-ig kötelesek a szervezetükre vonatkozóan a 2. pont b) alpontjában meghatározott fegyverzeti és vegyvédelmi szakanyag készletek mennyiségét, valamint igényüket eszközszükségleti táblázatba (a továbbiakban: ESZT) foglalni, amely tartalmazza – konkrét típus megjelölésével – az adott időszakban rendelkezésre álló, valamint az állománytábla szerint szükséges mennyiségeket."
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "10. Az ESZT-t a 9. pontban meghatározott időpontig vagy a szervezeti felépítésben bekövetkező minden egyes változáskor elektronikus és nyomtatott formában az ORFK gazdasági főigazgatója részére kell felterjeszteni."
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "11. Az ESZT formáját a Belügyminisztérium fegyverzeti, vegyivédelmi szakanyagellátás tervezéséről és a tartalékok képzéséről szóló 35/2011. (XII. 9.) BM utasítás (a továbbiakban: BM utasítás) 6. melléklete szerinti mintaokmány, tartalmát az 1–5. mellékletek és a rendszeresített fegyverzeti és vegyivédelmi szakanyagok fajtáit és típusváltozatait magában foglaló jegyzékben (a továbbiakban: lajstrom) meghatározott fegyverzeti és vegyivédelmi szakanyagok fajtái és típusváltozatai határozzák meg."
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "12. A BM utasítás 6. §-a alapján a fegyverzeti és vegyivédelmi szakanyagok norma szerint számítandó mennyisége után a rendőrség központi és területi szerveinél tartalékkészletet kell képezni."
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "13. A tartalékképzés során:"
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "a) a központi és területi szervek vezetői folyamatosan kötelesek gondoskodni a felhasznált, illetve a lejárt szavatosságú tartalékok visszapótlásáról;"
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "b) a lejárt szavatosságú, valamint az elhasználódott szakanyagok megsemmisítését, a keletkező hulladékok irányadó környezetvédelmi jogszabályokban foglaltaknak megfelelő kezelésének – tárolás, hasznosítás, ártalmatlanítás – költségét a központi és területi szervek tervezik a használatból történő kivonás szabályai szerint."
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "14. A rendőrség hivatásos állománya kiképzési feladatai végrehajtásához biztosítandó fegyverzeti és vegyivédelmi eszközök körét és mennyiségét, a rendszeresített szakanyagokból a Rendőrségi Oktatási és Kiképző Központ igazgatója – a rendészeti és a bűnügyi országos rendőrfőkapitány-helyettesnek egyetértésével – külön határozza meg. A központi és területi szervek kiképzési felhasználási célú fegyverzeti és vegyivédelmi szakanyagokkal való ellátásának tervezése a szolgálati készleteken felül – alegységkészletként – történhet."
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "15. Az igényjogosult szervezetek fegyverzeti és vegyivédelmi szakanyagokkal történő ellátását, a tartalékkészletek létrehozását, valamint a lejárt szavatosságú és az elhasználódott szakanyagok cseréjét a Belügyminisztérium fejezet költségvetési gazdálkodásának rendjéről szóló BM utasítás szabályai szerint kell tervezni és végrehajtani."
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "16. Az ESZT tartalmát meghatározó lajstromot a Rendőrségi Intranet Portálon közzé kell tenni. A rendszeresített fegyverzeti és vegyivédelmi szakanyagok fajtáiban és típusváltozataiban bekövetkező változások miatt történő lajstrom aktualizálásról – a rendszeresítést vagy az alkalmazásba vételt igazoló dokumentum kézhezvételét követő 3 munkanapon belül – az ORFK gazdasági főigazgatója gondoskodik."
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "5. Záró rendelkezések"
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "17. Ez az utasítás a közzétételt követő hónap első napján lép hatályba."
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "18."
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "19."
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "20."
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "NORMA"
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "A FEGYVEREK ÉS FEGYVERZETI SZAKANYAGOK HASZNÁLATÁRA JOGOSULTAK RÉSZÉRE"
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "(személyi alapfelszerelés, szakfeladat szerint)"
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "Megjegyzés:"
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "A különböző szakfeladatot végrehajtó állomány részére személyi alapfelszerelésként kizárólag 1 db maroklőfegyver biztosítható."
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "() A zárójelben lévő öntöltő szolgálati maroklőfegyver ellátás a 9×19 mm-es pisztollyal történő teljes kiváltásáig, a rendszeresített 9×18 mm-es és a 7,65×17 mm-es öntöltő szolgálati maroklőfegyverekkel is tervezhető."
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "* A személyvédelmi állomány részére tervezhető."
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "** A lőszereknél egy javadalmazás alatt a lőfegyver teljességhez (készletéhez) tartozó tárak összmennyisége értendő, teljesen töltve."
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "*** Idegenrendészeti feladatokat ellátó állomány részére."
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "FEGYVERZETI NORMA A BEOSZTÁSHOZ, TECHNIKAI ESZKÖZHÖZ RENDELT FELSZERELÉSEKRE"
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "Fsz. Ellátandók köre Lőfegyver Hideg- fegyver Optikai eszköz Védő- és kényszerítő eszköz Pirotech- nika Lőszer, gránát Lövedék és/vagy szúrásálló védőmellény Lövedékálló védősisak Ütésálló védősisak Lövedékálló védőpajzs Ütésálló védőpajzs Ütésálló testvédő készlet Bombaruha és kiegészítő felszerelései Könnygáz permetszóró palack (csapatszolgálati kiszerelés) (Univerzális) könnygázgránát Bilincs valamelyik változata Rendőrbot valamelyik változata Hang és/vagy fénygránát Színes jelzőrakéta (piros, fehér, zöld) Színes füstjelző 9 mm-es pisztoly lőszer géppisztolyhoz 7,62 mm-es karabély lőszer 7,62 mm-es puska lőszer géppuskához 12-es kaliberű lőszer sörétes puskához 14,5 mm-es puska lőszer géppuskához Gránát (könnygázgránát-vetőhöz) 9 mm-es géppisztoly 7,62 mm-es gépkarabély 12-es kaliberű (ismétlő) sörétes puska 12-es kaliberű (speciális) sörétes puska 7,62 mm-es géppuska 14,5 mm-es géppuska Automata könnygázgránát-vető Kard (díszelgésre) Speciális kés (multifunkciós) Nappali látcső (binokuláris) Éjszakai látcső Külső viselésű Rejtett viselésű Teleszkópos gumibot vagy többcélú rendőrbot Lovasrendőr-bot Hosszított gumibot (csapatszolgálati) Technikai eszközhöz rendelt felszerelések 1. Közbiztonsági járőr gépkocsi 1 2. Bűnüldözési gépkocsi 1 3. Akció gépkocsi (közterületi támogató feladatokat ellátó) 1 1 4. Repülőtéri rendőri szolgálat repülőgép biztosító páncélozott jármű 1 1 1 1 5. Helikopter 1 1 6. Páncélozott szállító jármű 1 1 1 1 1 1 7. Önjáró könnygáz sorozatlövő gépkocsi 1 1\" 8. Vízágyú 3 20 9. Tűzszerész robot 1 1 10. Vízi járművek 1 1 Beosztáshoz rendelt felszerelések 11. Nyomozó 1° 1° 12. Körzeti megbízott 1 1° 1 13. Járőr 1° 14. Járőr (gépkocsizó) 1° 15. Járőr (lovas) 1 1 1° 1 1 1 16. Járőr (vízi) 1 1° 17. Járőr (repülőtéri) 1° 1° 18. Határrendész 1° 1° 19. Fogdaőr 20. Díszőr 1 21. Felderítő 1° 22. Rendőri csapaterő 1° 1° 1 1 1 1 1 1° 23. Pénzkísérő (KR) 1 1 1° 1° 1 1° 1° 1° 1 1 1° 24. Helyszínbiztosító (KR) 1° 25. Tűzszerész 1 1° 26. Lőkiképző++ 1 1 27. Akció (bűnügyi, közterületi támogató feladatokat ellátó, tanú- és személyvédelmi) állomány 1 1 1 1 1 1 1"
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "Megjegyzés:"
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "° Alegységkészletéből a szolgálat ellátásához szükséges mennyiségben (védőeszköz esetén a viselője testméretének megfelelően) biztosítva."
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "++ A kiképző állomány kiképzést biztosító felszereléseit a Rendőrségi Oktatási és Kiképző Központ Igazgatója, az ORFK bűnügyi főigazgatójának és az ORFK rendészeti főigazgatójának egyetértésével határozza meg."
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "* A lőszereknél egy javadalmazás alatt a lőfegyver teljességhez (készletéhez) tartozó tárak összmennyisége értendő, teljesen töltve, valamint a 12-es kaliberű (ismétlő) sörétes puska esetében egy javadalmazás alatt a tárazható lőszermennyiség háromszorosa értendő, minimum 15 db."
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "\" ** Automata könnygázgránát-vető esetében csövenként 1-1 javadalmazás."
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "FEGYVERZETI NORMA AZ ALEGYSÉG-, EGYSÉGKÉSZLETEKRE"
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "Megjegyzés:"
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "() A zárójelben lévő öntöltő szolgálati maroklőfegyver ellátás a 9×19 mm-es pisztollyal történő teljes kiváltásáig, a rendszeresített 9×18 mm-es és a 7,65×17 mm-es öntöltő szolgálati maroklőfegyverekkel is tervezhető."
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "* Kivétel a határrendészeti feladatokat ellátó alegységek."
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "** Másodfegyverként biztosítandó."
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "*** Bűnügyi állomány rendszeresített létszámához viszonyított."
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "+ A szakmai feladatok függvényében kerül meghatározásra."
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "++ Az általános rendőrségi feladatok ellátására létrehozott szerv tisztjelöltje esetében alegységkészletként kell biztosítani."
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "” A magyar–szerb és a magyar–ukrán államhatár mellett található határrendészeti kirendeltségek mélységi ellenőrző osztályain a fegyverviselésre jogosult hivatásos állomány esetében a lövedékálló védőmellényből történő ellátás az állománytáblában rendszeresített 100%-os feltöltöttség szerint is biztosítható."
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "VEGYIVÉDELMI NORMA (személyi alapfelszerelés, szakfeladat szerint)"
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "Megjegyzés:"
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "* Alegységkészletéből a szolgálat ellátásához szükséges mennyiségben (védőruha és gázálarc esetében a viselője méretének megfelelően, rendőrség által alkalmazott könnygázok hatásai ellen is védő ipari szűrőbetéttel) biztosítva."
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "** Alegységkészletből a határrendészeti kirendeltség (kapitányság) állománya részére."
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "*** ORFK Rendészeti Főigazgatóság Igazgatásrendészeti Főosztály atomenergia alkalmazásának engedélyezésével és helyszíni ellenőrzésével kapcsolatos feladatokhoz szükséges mennyiségben biztosítva."
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "++ Az általános rendőrségi feladatok ellátására létrehozott szerv tisztjelöltje esetében személyi felszerelésként kell biztosítani."
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "VEGYIVÉDELMI NORMA AZ ALEGYSÉG-, EGYSÉGKÉSZLETEKRE"
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "Megjegyzés:"
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "* Helyi szervenként."
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "** Határrendészeti kirendeltség (rendőrkapitányság) részére. Amennyiben a határátkelőhely a határrendészeti kirendeltséggel (rendőrkapitánysággal) azonos településen vagy 10 km-en belül helyezkedik el, akkor csak a határátkelőhely részére kell számolni."
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "++ Az általános rendőrségi feladatok ellátására létrehozott szerv tisztjelöltje esetében alegységkészletként kell biztosítani."
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "^ Ipari szűrőbetét."
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "” A Rendőrség által alkalmazott könnygázok hatásai ellen védő szűrőbetét. 1 Az utasítást a 48/2018. (XII. 19.) ORFK utasítás 27. pontja hatályon kívül helyezte 2018. december 20. napjával. Alkalmazására lásd e hatályon kívül helyező utasítás 22–26. pontját. 2 Az 1. pont k) alpontja a 19/2016. (VII. 29.) ORFK utasítás 2. pontjával megállapított szöveg. 3 A 1. pont n) alpontja a 25/2016. (X. 6.) ORFK utasítás 36. pontjával megállapított, a 38/2016. (XII. 29.) ORFK utasítás 23. pontja szerint módosított szöveg. 4 A 2. pont a) alpontja a 22/2016. (IX. 20.) ORFK utasítás 3. pontjával megállapított szöveg. 5 A 14. pont a 25/2016. (X. 6.) ORFK utasítás 37. pontja szerint módosított szöveg. 6 A 18. pont a 20. pont alapján hatályát vesztette 2013. január 9. napjával. 7 A 19. pont a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette. 8 A 20. pont ugyanezen pont alapján hatályát vesztette 2013. január 9. napjával. 9 Az 1. melléklet 27/2013. (VI. 28.) ORFK utasítás 5. pont a) pontja szerint módosított szöveg. 10 A 2. melléklet 27/2013. (VI. 28.) ORFK utasítás 5. pont a) és b) pontja, a 25/2016. (X. 6.) ORFK utasítás 38. pontja szerint módosított szöveg. 11 A 3. melléklet a 19/2016. (VII. 29.) ORFK utasítás 3. pontjával megállapított szöveg. 12 A 4. melléklet a 19/2016. (VII. 29.) ORFK utasítás 3. pontjával megállapított szöveg. 13 Az 5. melléklet a 19/2016. (VII. 29.) ORFK utasítás 3. pontjával megállapított szöveg."
+    }
+  ]
+}

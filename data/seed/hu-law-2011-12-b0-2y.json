@@ -1,0 +1,2753 @@
+{
+  "id": "hu-law-2011-12-b0-2y",
+  "type": "statute",
+  "title": "12/2011. (VII. 8.) VM utasítás az Országos Meteorológiai Szolgálat Szervezeti és Működési Szabályzatának kiadásáról",
+  "status": "repealed",
+  "in_force_date": "2011-07-08",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2011-12-B0-2Y",
+  "description": "az Országos Meteorológiai Szolgálat Szervezeti és Működési Szabályzatának kiadásáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A központi államigazgatási szervekről, valamint a Kormány tagjai és az államtitkárok jogállásáról szóló 2010. évi XLIII. törvény 73. §-ának (1) bekezdésében foglalt jogkörömben eljárva a következő utasítást adom ki:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "1. Az Országos Meteorológiai Szolgálat szervezetét és működésének rendjét meghatározó Szervezeti és Működési Szabályzatot jelen utasítás mellékleteként kiadom."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "2. Jelen utasítás közzététele napján lép hatályba, ezzel egyidejűleg hatályát veszti az Országos Meteorológiai Szolgálat Szervezeti és Működési Szabályzatának kiadásáról szóló 15/2009. (X. 9.) KvVM utasítás."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "AZ ORSZÁGOS METEOROLÓGIAI SZOLGÁLAT SZERVEZETI ÉS MŰKÖDÉSI SZABÁLYZATA"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "I. Fejezet"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "ÁLTALÁNOS RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "1. Az Országos Meteorológiai Szolgálat (a továbbiakban: OMSZ) a vidékfejlesztési miniszter által irányított központi hivatal, önállóan működő és gazdálkodó központi költségvetési szerv."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "2. Az OMSZ létrehozásáról rendelkező okirat, illetve jogszabály:"
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "2.1. jogelőd állami intézetet létrehozó: I. Ferenc József osztrák császár és magyar király által kiadott létesítő okirat, megjelent a Budapesti Közlöny 1870. május 3-ai számában."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "2.2. az Országos Meteorológiai Szolgálatot létrehozó: 1/1970. (VI. 11.) OMFB számú rendelet."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "3. Módosító alapító okiratok száma és kelte:"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "JKH-228/1/2008.; 2009. január 13."
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "JKH-86/8/2009.; 2009. június 15."
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "XX/1130/8/2010.; 2010. november 22."
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "4. Az OMSZ törzskönyvi azonosító száma: 311762"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "5. Az OMSZ alaptevékenysége:"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "5.1. a nemzetközi kötelezettségekkel összhangban földfelszíni, magaslégköri és távérzékelési – általános és egyéb szakirányú – meteorológiai és háttér levegőszennyezettségi mérő, észlelő, távközlési és adatfeldolgozó rendszert üzemeltet, tart fenn és fejleszt,"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "5.2. a mérések és észlelések alapján adatokat gyűjt, feldolgoz, valamint nemzetközi megállapodásai alapján mért és észlelt adatokat nemzetközi szervezeteknek átad, azoktól átvesz, cserél (a továbbiakban együtt: meteorológiai alapadat),"
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "5.3. a meteorológiai alapadatokat rendszerezve, meteorológiai adatbázisban (a továbbiakban: meteorológiai adatbázis) tárolja és archiválja,"
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "5.4. a meteorológiai alapadatokból, valamint a nemzetközi megállapodások alapján átvett adatokból, számításokból és elemzésekből – ideértve a klimatológiai tevékenységet is – további számításokat, elemzéseket és meteorológiai előrejelzéseket készít, illetve ezeket nemzetközi megállapodások alapján nemzetközi szervezeteknek átadja, azoktól átveszi, cseréli,"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "5.5. a számítások és elemzések alapján a meteorológiai folyamatokról, így különösen a szélsőséges időjárási helyzetekről, a főbb éghajlati tényezőkről évente, a tárgyévet követő év március 31-ig a miniszter részére jelentést készít,"
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "5.6. hivatalból és haladéktalanul meteorológiai alapadatokat átad, meteorológiai alapadatok alapján végzett számításokat, elemzéseket, meteorológiai előrejelzéseket nyújt a lakosság és az intézkedésre feljogosított szervek részére, így különösen"
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "5.6.1. az élet-, egészség- és vagyonvédelmi,"
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "5.6.2. a katasztrófavédelmi,"
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "5.6.3. a mezőgazdaságot, a vízgazdálkodást, a vízkárelhárítást érintő intézkedések meghozatalához a szélsőséges meteorológiai jelenség, folyamat okozta veszélyhelyzet, környezeti katasztrófa, illetve az ipari, nukleáris baleset megelőzése, elhárítása, bekövetkezésük esetén azok megszüntetése, felszámolása érdekében,"
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "5.7. rendszeres tájékoztatást nyújt az interneten keresztül a legfontosabb meteorológiai alapadatokról és azok alapján készített rövid, közép- és hosszú távú meteorológiai előrejelzésekről,"
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "5.8. az üvegházhatású gázok kibocsátásával kapcsolatos adatszolgáltatásról szóló jogszabály szerinti hatósági jogkört gyakorol,"
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "5.9. ellátja a Levegőtisztaság-védelmi Referencia Központ működtetőjeként az Országos Légszennyezettségi Mérőhálózat minőségirányítási, mérőkészülék típus alkalmassági felülvizsgálati, valamint adatközponti feladatait,"
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "5.10. előkészíti a nemzetközi szerződésekből eredő jelentéstételi kötelezettségek teljesítése érdekében a környezeti levegő minőségének állapotára vonatkozó adatokat, valamint az ilyen jellegű kötelezettségek teljesítése érdekében légszennyező anyagokra vonatkozó emissziós leltárt készít és vezet,"
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "5.11. működteti és fenntartja a Meteorológiai Muzeális Szakgyűjteményt,"
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "5.12. ellátja azokat a feladatokat, amelyeket jogszabály a hatáskörébe utal."
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "Alaptevékenység szakfeladatszáma és megnevezése:"
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "Alaptevékenysége(ek) az államháztartási szakfeladatok rendjéről szóló 8/2010. (IX. 10.) NGM tájékoztató szerinti államháztartási szakfeladatrendi besorolása:"
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "749020 Meteorológiai szolgáltatás"
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "Államháztartási szakágazati besorolás:"
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "749050 Máshová nem sorolt egyéb szakmai, tudományos, műszaki tevékenység"
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "6. Vállalkozási tevékenység:"
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "Az OMSZ szabad kapacitásainak hasznosítása érdekében, az államháztartásról szóló 1992. évi XXXVIII. törvény (a továbbiakban: Áht.) 92. § (1) bekezdés b) pontjában foglaltak szerint vállalkozhat, feltéve, hogy ez nem veszélyezteti az alapító okiratban meghatározott alaptevékenységét és ebből fakadó kötelezettségeinek teljesítését."
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "Alapfeladatainak ellátását nem veszélyeztetve kérelem alapján és ellenérték fejében alaptevékenységétől eltérő, rendszeres haszonszerzés céljából, támogatáson kívüli forrásból, más jogi személy vagy természetes személy számára, nem kötelezően végzett szolgáltató tevékenységet (vállalkozási tevékenységet) azzal a feltétellel végezhet, ha a vállalkozási tevékenységből származó kiadások együttes összege nem haladja meg a ténylegesen teljesített összkiadások 20%-át, melynek során"
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "– az egyéni kérésnek megfelelően adatokat gyűjt, elemzéseket, számításokat készít, illetve"
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "– a meteorológiai tevékenységgel kapcsolatos egyéb szolgáltatásokat nyújt."
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "A vállalkozásból származó bevételeket és a vállalkozási tevékenység kiadásait az alaptevékenységektől elkülönítetten kell megtervezni, nyilvántartani és elszámolni."
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "7. Az 5. pontban megjelölt feladatok forrása a költségvetési előirányzat, az előirányzat-felhasználási keretszámla száma: 10032000-01711600"
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "8. Az alaptevékenységet meghatározó jogszabály: az Országos Meteorológiai Szolgálatról szóló 277/2005. (XII. 20.) Korm. rendelet."
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "9. Az OMSZ telephelyei:"
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "OMSZ Központ, 1024 Budapest, Kitaibel Pál u. 1."
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "Marczell György Főobszervatórium, 1181 Budapest, Gilice tér 39."
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "Levegőtisztaság-védelmi Referencia Központ, 1113 Budapest, Aga u. 4."
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "Meteorológiai állomások:"
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "Siófoki Vihar-előrejelző Obszervatórium, 8600 Siófok, Vitorlás u. 17."
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "Észak-magyarországi Regionális Központ, 3524 Miskolc, Pattantyús Ábrahám u. 4."
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "Észak-alföldi Regionális Központ, 4030 Debrecen, Repülőtér, Mikepércsi út"
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "Dél-alföldi Regionális Központ, 6700 Szeged, Bajai út 11."
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "Dél-dunántúli Regionális Központ, 7666 Pécs-Pogány, Repülőtér"
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "Békéscsabai Meteorológiai Állomás, 5600 Békéscsaba, Repülőtér"
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "Egri Meteorológiai Állomás, 3300 Eger, Leányka út 6–8."
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "Győr-péri Meteorológiai Állomás, 9099 Pér, Repülőtér"
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "Kékestetői Meteorológiai Állomás, 3221 Kékestető, Mátrai Gyógyintézet"
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "Paksi Meteorológiai Állomás, 7031 Paks, PA Zrt. déli bejáró"
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "Rábagyarmati Meteorológiai Állomás, 9961 Rábagyarmat, Város út 10."
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "Sármelléki Meteorológiai Állomás, 8391 Sármellék, Repülőtér"
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "Szombathelyi Meteorológiai Állomás, 9700 Szombathely, Komáromi u. 34."
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "Radarállomások:"
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "Budapesti radarállomás, 1181 Budapest, Gilice tér 39."
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "Napkori radarállomás, 4552 Napkor, Váradi kert."
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "Pogányvári radarállomás, Dióskál-Alsópogányvár"
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "Az OMSZ vagyonkezelésében lévő ingatlanon lévő automata meteorológiai állomások:"
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "K-pusztai mérőállomás, Kecskemét közelében"
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "Győri Meteorológiai Állomás, 9020 Győr, Pesti út 14."
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "Nagykanizsai Meteorológiai Állomás, 8800 Nagykanizsa, Camping u."
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "Soproni Meteorológiai Állomás, 9400 Sopron, Kuruc krt. 6."
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "Egyéb megfigyelőállomás-hálózatok:"
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "automata meteorológiai állomások,"
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "hagyományos klímaállomások,"
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "háttérszennyezettség mérő állomások,"
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "gammadózis-teljesítmény mérő állomások,"
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "automata aerosolminta-vevő állomások,"
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "csapadékmérő állomások"
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "II. Fejezet"
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "A SZERVEZETI ÉS MŰKÖDÉSI SZABÁLYZAT HATÁLYA"
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "10. A Szervezeti és Működési Szabályzat (a továbbiakban: SzMSz) hatálya kiterjed az OMSZ valamennyi szervezeti egységére."
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "III. Fejezet"
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "AZ OMSZ VEZETŐINEK FELADAT- ÉS HATÁSKÖRE"
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "Az elnök"
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "11. Az OMSZ élén elnök áll, aki"
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "11.1. biztosítja az OMSZ jogszerű működési rendjét, felelős az OMSZ szakmai működéséért és gazdálkodásáért, a meteorológiai adatbázis folyamatos karbantartásáért, védelméért és biztonságos megőrzéséért, továbbá"
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "11.2. a törvényben, illetve az OMSZ jogállásáról, valamint általános feladat- és hatásköréről szóló külön jogszabályban előírtak szerint jár el a nemzetközi tárcaegyezmények kötése, az érintett nemzetközi szervezetekben való képviselet terén, illetve gondoskodik a nemzetközi szervezetek OMSZ-t érintő határozatainak végrehajtásáról,"
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "11.3. közreműködik az országos nukleárisbaleset-elhárítási rendszer tevékenységében."
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "12. Az elnök személyes hatáskörben jár el"
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "12.1. az OMSZ általános irányítását és bármely irányú tevékenységének egészét,"
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "12.2. az OMSZ nemzetközi kapcsolattartását érintő átfogó jelentőségű ügyekben."
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "13. Az elnök közvetlen irányítása és ellenőrzése alá tartoznak az OMSZ egészének működésére kiható, valamint az elnöki tevékenységet segítő feladatok, azaz:"
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "13.1. a humán erőforrás tervezése;"
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "13.2. jogi tevékenység;"
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "13.3. belső ellenőrzési feladatok;"
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "13.4. a folyamatba épített előzetes és utólagos vezetői ellenőrzési (FEUVE) rendszer működtetése, fejlesztése, ellenőrzési nyomvonal kialakítása, kockázatelemzés készítése;"
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "13.5. a nemzetközi és belföldi kapcsolatok szervezésének, adminisztrációjának ellátása, a szakmai végrehajtás segítése, ellenőrzése;"
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "13.6. a munkavédelem és tűzvédelem;"
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "13.7. a minőségügyi tevékenység."
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "14. Az elnök felügyeli"
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "14.1. az éghajlati és levegőkörnyezeti,"
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "14.2. a gazdálkodási,"
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "14.3. a megfigyelési,"
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "14.4. az informatikai és módszertani, valamint,"
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "14.5. az előrejelzési"
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "feladatokat."
+    },
+    {
+      "provision_ref": "s107",
+      "section": "107",
+      "title": "107",
+      "content": "15. Az elnök gyakorolja mindazokat a munkáltatói jogokat, amelyeket a kormánytisztviselők jogállásáról szóló 2010. évi LVIII. törvény, a köztisztviselők jogállásáról szóló 1992. évi XXIII. törvény (a továbbiakban: Ktv.), a Munka Törvénykönyvéről szóló 1992. évi XXII. törvény (a továbbiakban: Mt.), illetve egyéb jogszabály a hivatali szervezet vezetőjének a hatáskörébe utal."
+    },
+    {
+      "provision_ref": "s108",
+      "section": "108",
+      "title": "108",
+      "content": "16. Az elnök hatáskörét, vagy hatáskörének egy részét – az utólagos beszámolási kötelezettség fenntartása mellett – átruházhatja, kivéve azokat a hatásköröket, amelyekben az intézkedési jogosultságot jogszabály vagy az irányítást ellátó miniszter (a továbbiakban: miniszter) utasítása kizárólagosan a személyes hatáskörébe utal."
+    },
+    {
+      "provision_ref": "s109",
+      "section": "109",
+      "title": "109",
+      "content": "17. Az elnök az ügydöntői és intézkedési jogkört, az OMSZ-t érintő bármely ügyben, az ügy bármely szakaszában magához vonhatja; bármely szervezeti egység vezetőjét vagy munkatársát – az SzMSz-ben meghatározott feladatkörétől eltérően is – kijelölheti az általa megjelölt feladat elvégzésére, továbbá – a jogszabályok keretei között – az ügy intézésének módjára is utasítást adhat."
+    },
+    {
+      "provision_ref": "s110",
+      "section": "110",
+      "title": "110",
+      "content": "A helyettesítési rend"
+    },
+    {
+      "provision_ref": "s111",
+      "section": "111",
+      "title": "111",
+      "content": "18. A gazdasági vezető egyben a gazdasági elnökhelyettes, aki az elnököt távollétében vagy akadályoztatása esetén gazdasági és pénzügyi feladatok tekintetében teljes jogkörrel, szakmai kérdések tekintetében pedig az illetékes főosztályvezető véleményének kikérésével helyettesíti."
+    },
+    {
+      "provision_ref": "s112",
+      "section": "112",
+      "title": "112",
+      "content": "19. Az elnökhelyettes az elnöki hatáskörben történő döntéseikről a visszatérő elnököt írásban tájékoztatja."
+    },
+    {
+      "provision_ref": "s113",
+      "section": "113",
+      "title": "113",
+      "content": "20. Az elnökhelyettes egyidejűleg főosztályvezetőként ellátja az alárendelt főosztály felügyeletét."
+    },
+    {
+      "provision_ref": "s114",
+      "section": "114",
+      "title": "114",
+      "content": "A gazdasági elnökhelyettes"
+    },
+    {
+      "provision_ref": "s115",
+      "section": "115",
+      "title": "115",
+      "content": "21. A Gazdasági Főosztályt felügyeli és irányítja, amelyhez tartozó fő szakmai feladatok:"
+    },
+    {
+      "provision_ref": "s116",
+      "section": "116",
+      "title": "116",
+      "content": "21.1. a gazdálkodási, pénzügyi, számviteli, illetmény-számfejtési, munkaügyi feladatok;"
+    },
+    {
+      "provision_ref": "s117",
+      "section": "117",
+      "title": "117",
+      "content": "21.2. éves költségvetési terv, éves, féléves költségvetési beszámoló készítése;"
+    },
+    {
+      "provision_ref": "s118",
+      "section": "118",
+      "title": "118",
+      "content": "21.3. az OMSZ-re vonatkozó adók, járulékok nyilvántartásának vezetése, bevallása;"
+    },
+    {
+      "provision_ref": "s119",
+      "section": "119",
+      "title": "119",
+      "content": "21.4. beruházási és felújítási feladatok koordinálása, esetenkénti bonyolítása;"
+    },
+    {
+      "provision_ref": "s120",
+      "section": "120",
+      "title": "120",
+      "content": "21.5. adatszolgáltatás nyújtása az illetékes állami és közigazgatási szerveknek;"
+    },
+    {
+      "provision_ref": "s121",
+      "section": "121",
+      "title": "121",
+      "content": "21.6. éghajlati feldolgozások, adatszolgáltatások biztosítása;"
+    },
+    {
+      "provision_ref": "s122",
+      "section": "122",
+      "title": "122",
+      "content": "21.7. az adatarchívum fenntartása, az éghajlati adatok ellenőrzése, az éghajlati adatok rögzítése;"
+    },
+    {
+      "provision_ref": "s123",
+      "section": "123",
+      "title": "123",
+      "content": "21.8. szolgáltatásokkal kapcsolatos árajánlatok, szerződések készítése;"
+    },
+    {
+      "provision_ref": "s124",
+      "section": "124",
+      "title": "124",
+      "content": "21.9. OMSZ TV stúdiója működtetése."
+    },
+    {
+      "provision_ref": "s125",
+      "section": "125",
+      "title": "125",
+      "content": "22. A gazdasági elnökhelyettest (a továbbiakban: elnökhelyettes) távollétében a főosztályt érintő ügyekben a Pénzügyi és Számviteli Osztály vezetője helyettesíti."
+    },
+    {
+      "provision_ref": "s126",
+      "section": "126",
+      "title": "126",
+      "content": "A főosztályvezető"
+    },
+    {
+      "provision_ref": "s127",
+      "section": "127",
+      "title": "127",
+      "content": "23. A főosztályvezető irányítja, szervezi és ellenőrzi a vezetése alatt álló főosztály tevékenységét; intézkedik a főosztály feladatkörébe tartozó, valamint a személyes hatáskörébe utalt ügyekben."
+    },
+    {
+      "provision_ref": "s128",
+      "section": "128",
+      "title": "128",
+      "content": "24. Felelős a főosztály tevékenységének megszervezéséért, a munkafeltételek és az eredményes munkavégzéshez szükséges tájékoztatásért, a főosztály ügykörébe tartozó feladatok ellátásának jogszerűségéért és szakmai színvonaláért, az előírt határidők megtartásáért."
+    },
+    {
+      "provision_ref": "s129",
+      "section": "129",
+      "title": "129",
+      "content": "25. Megilleti az intézkedés joga a felügyelete alatt álló főosztály feladatkörébe tartozó minden olyan ügyben, amely nem tartozik az elnök, illetve az elnökhelyettes hatáskörébe."
+    },
+    {
+      "provision_ref": "s130",
+      "section": "130",
+      "title": "130",
+      "content": "26. Intézkedést köteles kezdeményezni az irányítását ellátó vezetőnél a feladatellátást veszélyeztető körülmény észlelése esetén."
+    },
+    {
+      "provision_ref": "s131",
+      "section": "131",
+      "title": "131",
+      "content": "27. Felelős az általa irányított szervezeti egységek munkatársai munkaköri leírásának elkészítéséért."
+    },
+    {
+      "provision_ref": "s132",
+      "section": "132",
+      "title": "132",
+      "content": "28. A főosztályvezetőt akadályoztatása vagy távolléte esetén az általa írásban megbízott osztályvezető helyettesíti."
+    },
+    {
+      "provision_ref": "s133",
+      "section": "133",
+      "title": "133",
+      "content": "Az osztályvezető"
+    },
+    {
+      "provision_ref": "s134",
+      "section": "134",
+      "title": "134",
+      "content": "29. Az osztályvezető vezeti a jogszabályokban és az állami irányítás egyéb jogi eszközeiben meghatározottak, illetőleg a főosztályvezető, vagy felettes vezetőjének utasítása szerint osztályának munkáját."
+    },
+    {
+      "provision_ref": "s135",
+      "section": "135",
+      "title": "135",
+      "content": "30. Intézkedik az osztály ügykörébe tartozó feladatok folyamatos végrehajtása érdekében, munkakapcsolatot tart az osztály ügykörének megfelelő tevékenységet végző szervekkel."
+    },
+    {
+      "provision_ref": "s136",
+      "section": "136",
+      "title": "136",
+      "content": "31. Felelős az osztály feladatainak jogszerű, a szakmai követelményeknek megfelelő, határidőben történő teljesítéséért."
+    },
+    {
+      "provision_ref": "s137",
+      "section": "137",
+      "title": "137",
+      "content": "32. Az osztályvezetőt akadályoztatása vagy távolléte esetén a főosztályvezető (illetve felettes vezetője) által írásban megbízott másik osztályvezető, vagy az osztályvezető által kijelölt köztisztviselő helyettesíti."
+    },
+    {
+      "provision_ref": "s138",
+      "section": "138",
+      "title": "138",
+      "content": "AZ OMSZ NEM VEZETŐ BEOSZTÁSÚ MUNKATÁRSAINAK FELADATKÖRE"
+    },
+    {
+      "provision_ref": "s139",
+      "section": "139",
+      "title": "139",
+      "content": "4.1. Az ügyintéző"
+    },
+    {
+      "provision_ref": "s140",
+      "section": "140",
+      "title": "140",
+      "content": "33. Az osztályvezető az ügyeket általában az ügydöntő kormánytisztviselőre (a továbbiakban: ügyintéző) megállapított munkaköri leírásnak megfelelően adja ki (szignálja), de irányítási területén ettől eltérhet."
+    },
+    {
+      "provision_ref": "s141",
+      "section": "141",
+      "title": "141",
+      "content": "33.1. az ügyintéző ellátja a munkaköri leírásában szereplő, valamint azokat a munkakörével összefüggő feladatokat, amelyeknek végzésével vezetője megbízta."
+    },
+    {
+      "provision_ref": "s142",
+      "section": "142",
+      "title": "142",
+      "content": "33.2. feladatait a jogszabályokban és a szakmai követelményeknek megfelelően, határidőben kell teljesítenie."
+    },
+    {
+      "provision_ref": "s143",
+      "section": "143",
+      "title": "143",
+      "content": "33.3. jogosult és köteles intézkedést kezdeményezni munkavégzését akadályozó körülmény esetén vezetőjénél."
+    },
+    {
+      "provision_ref": "s144",
+      "section": "144",
+      "title": "144",
+      "content": "34. Az ügyintézőt akadályoztatása vagy távolléte esetén a munkaköri leírásában megjelölt, ennek hiányában a közvetlen felettese által kijelölt másik ügyintéző helyettesíti."
+    },
+    {
+      "provision_ref": "s145",
+      "section": "145",
+      "title": "145",
+      "content": "Az ügykezelő"
+    },
+    {
+      "provision_ref": "s146",
+      "section": "146",
+      "title": "146",
+      "content": "35. Az ügykezelő, a munkaköri leírásában megállapított, illetve a közvetlen vezetője által kiadott feladatokat a kapott utasítások és határidők figyelembevételével, a jogszabályok és ügyviteli szabályok ismeretében és megtartásával végzi."
+    },
+    {
+      "provision_ref": "s147",
+      "section": "147",
+      "title": "147",
+      "content": "A munkajogviszonyban foglalkoztatott munkatársak"
+    },
+    {
+      "provision_ref": "s148",
+      "section": "148",
+      "title": "148",
+      "content": "36. A munkajogviszonyban foglalkoztatott munkatársakra az Mt. szabályai az irányadók, különös tekintettel a közigazgatási szerveknél foglalkoztatott munkavállalókra vonatkozó eltérő rendelkezésekre."
+    },
+    {
+      "provision_ref": "s149",
+      "section": "149",
+      "title": "149",
+      "content": "IV. Fejezet"
+    },
+    {
+      "provision_ref": "s150",
+      "section": "150",
+      "title": "150",
+      "content": "MUNKÁLTATÓI JOGOK GYAKORLÁSA"
+    },
+    {
+      "provision_ref": "s151",
+      "section": "151",
+      "title": "151",
+      "content": "37. A munkáltatói jogok gyakorlására a kormánytisztviselők jogállásáról szóló 2010. évi LVIII. törvény, a Ktv., az Mt., az OMSZ közszolgálati szabályzata, illetve külön jogszabályok rendelkezései az irányadók."
+    },
+    {
+      "provision_ref": "s152",
+      "section": "152",
+      "title": "152",
+      "content": "V. Fejezet"
+    },
+    {
+      "provision_ref": "s153",
+      "section": "153",
+      "title": "153",
+      "content": "AZ ÜGYINTÉZÉS FŐBB SZABÁLYAI"
+    },
+    {
+      "provision_ref": "s154",
+      "section": "154",
+      "title": "154",
+      "content": "Tájékoztatási felelősség"
+    },
+    {
+      "provision_ref": "s155",
+      "section": "155",
+      "title": "155",
+      "content": "38. Az OMSZ bármely vezetője köteles az irányítása alá tartozó munkatársakat rendszeresen tájékoztatni a feladataik ellátásához szükséges döntésekről, továbbá az egyes konkrét ügyek és feladatok megoldásához szükséges tényekről, elvekről és döntésekről."
+    },
+    {
+      "provision_ref": "s156",
+      "section": "156",
+      "title": "156",
+      "content": "39. A munkatársak haladéktalanul kötelesek tájékoztatni vezetőjüket, amennyiben munkájuk során szakmai vagy közéleti szempontból érzékeny ügyben érkezik hozzájuk megkeresés, illetve ilyen ügyben intézkedést kell tenniük."
+    },
+    {
+      "provision_ref": "s157",
+      "section": "157",
+      "title": "157",
+      "content": "40. A közvélemény hírközlő eszközök és szervek útján történő tájékoztatását az elnök irányítja."
+    },
+    {
+      "provision_ref": "s158",
+      "section": "158",
+      "title": "158",
+      "content": "41. A szakmai kérdésekben való nyilatkozattétel, illetőleg sajtószereplés rendjét a vidékfejlesztési miniszter 8/2010. (IX. 30.) VM utasítása, valamint az Országos Meteorológiai Szolgálat kommunikációs szabályzatának kiadásáról szóló 3/2011. (I. 6.) OMSZ utasítás határozza meg."
+    },
+    {
+      "provision_ref": "s159",
+      "section": "159",
+      "title": "159",
+      "content": "42. A nyilatkozó felelős nyilatkozata tartalmáért és színvonaláért."
+    },
+    {
+      "provision_ref": "s160",
+      "section": "160",
+      "title": "160",
+      "content": "Felelősség az ügyintézés színvonaláért és az ügyintézési határidők megtartásáért"
+    },
+    {
+      "provision_ref": "s161",
+      "section": "161",
+      "title": "161",
+      "content": "43. A megbízott vezető vagy ügyintéző köteles az ügy elintézése érdekében a jogszabályok, szakmai követelmények, minőségbiztosítási előírások, a belső szabályzatokban előírt általános előírások megtartásával, az érdekelt szervezeti egységekkel, vezetőkkel, ügyintézőkkel együttműködve, az előírt határidőben a szükséges intézkedéseket megtenni."
+    },
+    {
+      "provision_ref": "s162",
+      "section": "162",
+      "title": "162",
+      "content": "44. Az ügyintézés színvonaláért és a határidők megtartásáért az ügy elintézésével megbízott személy jogszabályban megállapított felelősséggel tartozik."
+    },
+    {
+      "provision_ref": "s163",
+      "section": "163",
+      "title": "163",
+      "content": "45. Az ügyintézés szakmai követelményeit, beleértve az ügyiratok kezelését, az államtitok és szolgálati titok megőrzését, az adatvédelem és a közérdekű adatok nyilvánosságának biztosítását jogszabályok, valamint utasítások és szabályzatok tartalmazzák."
+    },
+    {
+      "provision_ref": "s164",
+      "section": "164",
+      "title": "164",
+      "content": "A kiadmányozás rendje"
+    },
+    {
+      "provision_ref": "s165",
+      "section": "165",
+      "title": "165",
+      "content": "46. Az ügy érdemi elintézésének befejezéseként, az arra jogosult vezető rendelkezik az elintézést tartalmazó ügyirat tervezetének kiadásáról (kiadmányozás), vagy az ügyirat végleges irattárba helyezéséről."
+    },
+    {
+      "provision_ref": "s166",
+      "section": "166",
+      "title": "166",
+      "content": "47. Az ügyirat kiadmányozásra való előkészítéséért, a törvényességi, szakmai vagy célszerűségi szempontoknak megfelelő kidolgozásáért, valamint a határidőben való előterjesztéséért az ügyintéző a felelős."
+    },
+    {
+      "provision_ref": "s167",
+      "section": "167",
+      "title": "167",
+      "content": "48. Az ügy megfelelő elintézéséért az a vezető felelős, aki a tervezetet felülvizsgálja, és azt kiadmányozza, vagy aláírásával látja el, és kiadmányozásra az arra jogosulthoz terjeszti elő."
+    },
+    {
+      "provision_ref": "s168",
+      "section": "168",
+      "title": "168",
+      "content": "49. Az ügyirat elküldését végző ügyintéző vagy ügykezelő felelős azért, hogy csak kiadmányozott ügyirat kerüljön elküldésre."
+    },
+    {
+      "provision_ref": "s169",
+      "section": "169",
+      "title": "169",
+      "content": "50. Kiadmányozásra jogosultak:"
+    },
+    {
+      "provision_ref": "s170",
+      "section": "170",
+      "title": "170",
+      "content": "50.1. Az elnök kiadmányozza az elnöki utasítást."
+    },
+    {
+      "provision_ref": "s171",
+      "section": "171",
+      "title": "171",
+      "content": "50.2. Az elnök, illetve távolléte vagy akadályoztatása esetén, a helyettesítés rendjének megfelelő feltételek szerint, az elnökhelyettes kiadmányozza"
+    },
+    {
+      "provision_ref": "s172",
+      "section": "172",
+      "title": "172",
+      "content": "50.2.1. a felettes szervekhez eljuttatandó előterjesztést (jelentést),"
+    },
+    {
+      "provision_ref": "s173",
+      "section": "173",
+      "title": "173",
+      "content": "50.2.2. az Országgyűlés és bizottságai, a Kormány és bizottságai, a miniszterelnök, a pártok, a társadalmi szervezetek (egyesületek), valamint az érdek-képviseleti szervek részére készített (vezetői jogköréből adódó) okiratot."
+    },
+    {
+      "provision_ref": "s174",
+      "section": "174",
+      "title": "174",
+      "content": "50.3. Az elnökhelyettes és a főosztályvezetők kiadmányozzák a vezetésük alatt álló főosztály ügykörébe tartozó valamennyi, továbbá az elnök által hatáskörükbe utalt ügyben keletkezett iratokat."
+    },
+    {
+      "provision_ref": "s175",
+      "section": "175",
+      "title": "175",
+      "content": "50.4. Az osztályvezető kiadmányozza a felügyeletet gyakorló vezető által hatáskörébe utalt ügyben keletkezett iratokat."
+    },
+    {
+      "provision_ref": "s176",
+      "section": "176",
+      "title": "176",
+      "content": "VI. Fejezet"
+    },
+    {
+      "provision_ref": "s177",
+      "section": "177",
+      "title": "177",
+      "content": "AZ OMSZ KÉPVISELETE"
+    },
+    {
+      "provision_ref": "s178",
+      "section": "178",
+      "title": "178",
+      "content": "51. Az OMSZ vagy egyéb állami szerv és társadalmi szervezet rendezvényein az OMSZ-t az elnök képviseli, e hatáskörét azonban átruházhatja."
+    },
+    {
+      "provision_ref": "s179",
+      "section": "179",
+      "title": "179",
+      "content": "52. A képviselő felhatalmazása körében, illetve a beosztásából eredő hatáskörében nyilváníthat véleményt."
+    },
+    {
+      "provision_ref": "s180",
+      "section": "180",
+      "title": "180",
+      "content": "53. A rendezvényen kialakult álláspontról, valamint az OMSZ képviseletében nyilvánított állásfoglalásról az illetékes vezetőt tájékoztatni kell."
+    },
+    {
+      "provision_ref": "s181",
+      "section": "181",
+      "title": "181",
+      "content": "54. Az OMSZ képviseletéhez a más szerv által létesített bizottságban az elnök utólagos hozzájárulása szükséges."
+    },
+    {
+      "provision_ref": "s182",
+      "section": "182",
+      "title": "182",
+      "content": "VII. Fejezet"
+    },
+    {
+      "provision_ref": "s183",
+      "section": "183",
+      "title": "183",
+      "content": "AZ OMSZ SZERVEZETI TAGOZÓDÁSA, AZ EGYES SZERVEZETI EGYSÉGEK LÉTSZÁMKERETE ÉS FELADATAI"
+    },
+    {
+      "provision_ref": "s184",
+      "section": "184",
+      "title": "184",
+      "content": "55. Az OMSZ tevékenységét a következő szervezeti tagozódásban látja el:"
+    },
+    {
+      "provision_ref": "s185",
+      "section": "185",
+      "title": "185",
+      "content": "55.1. Elnökség és az elnök alá rendelt osztály"
+    },
+    {
+      "provision_ref": "s186",
+      "section": "186",
+      "title": "186",
+      "content": "55.2. Gazdasági Főosztály"
+    },
+    {
+      "provision_ref": "s187",
+      "section": "187",
+      "title": "187",
+      "content": "55.3. Informatikai és Módszertani Főosztály"
+    },
+    {
+      "provision_ref": "s188",
+      "section": "188",
+      "title": "188",
+      "content": "55.4. Megfigyelési Főosztály"
+    },
+    {
+      "provision_ref": "s189",
+      "section": "189",
+      "title": "189",
+      "content": "55.5. Éghajlati és Levegőkörnyezeti Főosztály"
+    },
+    {
+      "provision_ref": "s190",
+      "section": "190",
+      "title": "190",
+      "content": "55.6. Előrejelzési Főosztály"
+    },
+    {
+      "provision_ref": "s191",
+      "section": "191",
+      "title": "191",
+      "content": "56. Az OMSZ engedélyezett összlétszáma 228 fő."
+    },
+    {
+      "provision_ref": "s192",
+      "section": "192",
+      "title": "192",
+      "content": "AZ ELNÖK IRÁNYÍTÁSA ALÁ TARTOZÓ SZERVEZETI EGYSÉGEK FELADATAI"
+    },
+    {
+      "provision_ref": "s193",
+      "section": "193",
+      "title": "193",
+      "content": "Az elnökség"
+    },
+    {
+      "provision_ref": "s194",
+      "section": "194",
+      "title": "194",
+      "content": "57. Az Elnöki Titkárság segíti az elnököt"
+    },
+    {
+      "provision_ref": "s195",
+      "section": "195",
+      "title": "195",
+      "content": "57.1. a FEUVE-rendszer, ellenőrzési nyomvonal és kockázatkezelés kialakításában, működtetésében, fejlesztésében;"
+    },
+    {
+      "provision_ref": "s196",
+      "section": "196",
+      "title": "196",
+      "content": "57.2. napi operatív tevékenysége ellátásában."
+    },
+    {
+      "provision_ref": "s197",
+      "section": "197",
+      "title": "197",
+      "content": "58. Közvetlenül az elnök alá rendelt belső ellenőr útján ellátja a belső ellenőrzési feladatokat. Ellátja továbbá"
+    },
+    {
+      "provision_ref": "s198",
+      "section": "198",
+      "title": "198",
+      "content": "58.1. az adatvédelmi, titokvédelmi és jogi feladatokat;"
+    },
+    {
+      "provision_ref": "s199",
+      "section": "199",
+      "title": "199",
+      "content": "58.2. a minőségirányítási rendszerfelügyeletét, a folyamatos működtetéssel kapcsolatos feladatokat, valamint a belső auditori rendszer irányítását;"
+    },
+    {
+      "provision_ref": "s200",
+      "section": "200",
+      "title": "200",
+      "content": "58.3. a munkavédelmi és a tűzvédelmi, továbbá"
+    },
+    {
+      "provision_ref": "s201",
+      "section": "201",
+      "title": "201",
+      "content": "58.4. a humánerőforrás-tervezési feladatokat."
+    },
+    {
+      "provision_ref": "s202",
+      "section": "202",
+      "title": "202",
+      "content": "59. Az elnök alá közvetlenül alárendelt osztály: Nemzetközi és Tudományos Kapcsolatok Osztálya."
+    },
+    {
+      "provision_ref": "s203",
+      "section": "203",
+      "title": "203",
+      "content": "A Gazdasági Főosztály feladatköre"
+    },
+    {
+      "provision_ref": "s204",
+      "section": "204",
+      "title": "204",
+      "content": "60. A Gazdasági Főosztály:"
+    },
+    {
+      "provision_ref": "s205",
+      "section": "205",
+      "title": "205",
+      "content": "60.1. elkészíti az éves költségvetési tervet, az éves, valamint féléves költségvetési beszámolót, negyedéves mérleget, továbbá az előírt adatszolgáltatásokat;"
+    },
+    {
+      "provision_ref": "s206",
+      "section": "206",
+      "title": "206",
+      "content": "60.2. működteti és bonyolítja a pénzügyi tevékenységet, a hatályos jogszabályok alapján a számviteli rendszert;"
+    },
+    {
+      "provision_ref": "s207",
+      "section": "207",
+      "title": "207",
+      "content": "60.3. végzi:"
+    },
+    {
+      "provision_ref": "s208",
+      "section": "208",
+      "title": "208",
+      "content": "60.3.1. az előirányzat-felhasználással és előirányzat-módosítással kapcsolatos feladatokat;"
+    },
+    {
+      "provision_ref": "s209",
+      "section": "209",
+      "title": "209",
+      "content": "60.3.2. a pályázatok pénzügyi koordinálását; nyilvántartását;"
+    },
+    {
+      "provision_ref": "s210",
+      "section": "210",
+      "title": "210",
+      "content": "60.3.3. az OMSZ-re vonatkozó adók, járulékok nyilvántartásának vezetését, bevallását;"
+    },
+    {
+      "provision_ref": "s211",
+      "section": "211",
+      "title": "211",
+      "content": "60.3.4. az OMSZ állami és üzleti tevékenységének közgazdasági elemzését;"
+    },
+    {
+      "provision_ref": "s212",
+      "section": "212",
+      "title": "212",
+      "content": "60.3.5. az OMSZ vagyongazdálkodási feladatait;"
+    },
+    {
+      "provision_ref": "s213",
+      "section": "213",
+      "title": "213",
+      "content": "60.4. ellátja az illetmény-számfejtési, közszolgálati, munkaügyi feladatokat;"
+    },
+    {
+      "provision_ref": "s214",
+      "section": "214",
+      "title": "214",
+      "content": "60.5. működteti a központi iktatást;"
+    },
+    {
+      "provision_ref": "s215",
+      "section": "215",
+      "title": "215",
+      "content": "60.6. koordinálja és esetenként végzi a felújítási és beruházási feladatokat;"
+    },
+    {
+      "provision_ref": "s216",
+      "section": "216",
+      "title": "216",
+      "content": "60.7. működteti és üzemelteti a központi épületet, valamint a Marczell György Főobszervatóriumot;"
+    },
+    {
+      "provision_ref": "s217",
+      "section": "217",
+      "title": "217",
+      "content": "60.8. gondoskodik a vidéki állomások épületeinek érintésvédelmi, tűzvédelmi és villámvédelmi jegyzőkönyveinek érvényességéről;"
+    },
+    {
+      "provision_ref": "s218",
+      "section": "218",
+      "title": "218",
+      "content": "60.9. kapcsolatot tart az illetékes közigazgatási szervekkel;"
+    },
+    {
+      "provision_ref": "s219",
+      "section": "219",
+      "title": "219",
+      "content": "60.10. éghajlati feldolgozásokat, adatszolgáltatásokat biztosít az Éghajlati és Levegőkörnyezeti Főosztállyal együttműködve;"
+    },
+    {
+      "provision_ref": "s220",
+      "section": "220",
+      "title": "220",
+      "content": "60.11. fenntartja az adatarchívumot, rögzíti és ellenőrzi az éghajlati adatokat;"
+    },
+    {
+      "provision_ref": "s221",
+      "section": "221",
+      "title": "221",
+      "content": "60.12. időjárás-előrejelzési szolgáltatásokkal kapcsolatban árajánlatokat állít össze, szerződéseket készít;"
+    },
+    {
+      "provision_ref": "s222",
+      "section": "222",
+      "title": "222",
+      "content": "60.13. üzemelteti az OMSZ TV stúdióját."
+    },
+    {
+      "provision_ref": "s223",
+      "section": "223",
+      "title": "223",
+      "content": "Az Informatikai és Módszertani Főosztály feladatköre"
+    },
+    {
+      "provision_ref": "s224",
+      "section": "224",
+      "title": "224",
+      "content": "61. Az Informatikai és Módszertani Főosztály:"
+    },
+    {
+      "provision_ref": "s225",
+      "section": "225",
+      "title": "225",
+      "content": "61.1. biztosítja az OMSZ működéséhez szükséges informatikai és távközlési rendszer mindenkori üzemképességét és biztonságát, a szakmai részlegek munkájához szükséges adatok és információk rendelkezésre állását, az OMSZ produktumok és megfigyelési adatok célba juttatását, közzétételét;"
+    },
+    {
+      "provision_ref": "s226",
+      "section": "226",
+      "title": "226",
+      "content": "61.2. gondoskodik a meteorológiai adatbázis fejlesztéséről, a meteorológiai adatok, produktumok fogadásáról, biztonságos tárolásáról, ellenőrzéséről, valamint az adatok, információk hozzáféréséről;"
+    },
+    {
+      "provision_ref": "s227",
+      "section": "227",
+      "title": "227",
+      "content": "61.3. a nemzetközi előírások és a felhasználói igények figyelembevételével fejleszti a távközlési és informatikai komplexum hardver-, szoftverrendszerét;"
+    },
+    {
+      "provision_ref": "s228",
+      "section": "228",
+      "title": "228",
+      "content": "61.4. üzemelteti és a hatályos informatikai stratégiának megfelelően, fejleszti az OMSZ IT-biztonsági rendszerét;"
+    },
+    {
+      "provision_ref": "s229",
+      "section": "229",
+      "title": "229",
+      "content": "61.5. fenntartja és fejleszti a rövid távú numerikus előrejelző modelleket, feldolgozza a középtávú előrejelzési modellproduktumokat;"
+    },
+    {
+      "provision_ref": "s230",
+      "section": "230",
+      "title": "230",
+      "content": "61.6. kidolgozza és fejleszti, valamint üzemelteti az operatív előrejelző gyakorlatban használt megjelenítő és interpretációs rendszereket;"
+    },
+    {
+      "provision_ref": "s231",
+      "section": "231",
+      "title": "231",
+      "content": "61.7. fogadja a műholdadatokat, elemzi és értékeli azokat, valamint ellátja a fejlesztési és kapcsolattartási feladatokat;"
+    },
+    {
+      "provision_ref": "s232",
+      "section": "232",
+      "title": "232",
+      "content": "61.8. bonyolítja a fenntartással és fejlesztéssel összefüggő beszerzéseket, gondoskodik a működés során felmerülő hibák javításáról."
+    },
+    {
+      "provision_ref": "s233",
+      "section": "233",
+      "title": "233",
+      "content": "A Megfigyelési Főosztály feladatköre"
+    },
+    {
+      "provision_ref": "s234",
+      "section": "234",
+      "title": "234",
+      "content": "62. A Megfigyelési Főosztály:"
+    },
+    {
+      "provision_ref": "s235",
+      "section": "235",
+      "title": "235",
+      "content": "62.1. hagyományos eszközökkel földfelszíni méréseket végez (elsősorban az éghajlati megfigyelőhálózat és a csapadékmérő hálózat állomásain);"
+    },
+    {
+      "provision_ref": "s236",
+      "section": "236",
+      "title": "236",
+      "content": "62.2. automatizált földfelszíni meteorológiai megfigyeléseket és méréseket folytat;"
+    },
+    {
+      "provision_ref": "s237",
+      "section": "237",
+      "title": "237",
+      "content": "62.3. légkörfizikai megfigyeléseket és méréseket végez;"
+    },
+    {
+      "provision_ref": "s238",
+      "section": "238",
+      "title": "238",
+      "content": "62.4. repülésmeteorológiai megfigyeléseket végez, és adatszolgáltatást nyújt;"
+    },
+    {
+      "provision_ref": "s239",
+      "section": "239",
+      "title": "239",
+      "content": "62.5. üzemelteti az OMSZ műszerkalibráló laboratóriumát, elvégzi a mérőeszközök előírás szerinti karbantartását, kalibrálását;"
+    },
+    {
+      "provision_ref": "s240",
+      "section": "240",
+      "title": "240",
+      "content": "62.6. szervezi az észlelők által végzett tevékenységeket, ellátja őket segédanyagokkal, ellenőrzi tevékenységüket, valamint gondoskodik szakmai továbbképzésükről gondoskodik;"
+    },
+    {
+      "provision_ref": "s241",
+      "section": "241",
+      "title": "241",
+      "content": "62.7. ellátja a megfigyelő hálózat fejlesztésével és átalakításával kapcsolatos teendőket;"
+    },
+    {
+      "provision_ref": "s242",
+      "section": "242",
+      "title": "242",
+      "content": "62.8. fenntartja a regionális információszolgáltató központokat; részt vesz a meteorológia információk terjesztésében;"
+    },
+    {
+      "provision_ref": "s243",
+      "section": "243",
+      "title": "243",
+      "content": "62.9. rádióelektronikai eszközökkel méréseket, megfigyeléseket végez (rádiószondázó berendezés, meteorológiai radar, villámdetektáló rendszer, windprofiler, SODAR, radiométer);"
+    },
+    {
+      "provision_ref": "s244",
+      "section": "244",
+      "title": "244",
+      "content": "62.10. üzemelteti az MSG-, NOAA- és METOP-műholdvevőket, értékeli és elemzi a vett adatokat;"
+    },
+    {
+      "provision_ref": "s245",
+      "section": "245",
+      "title": "245",
+      "content": "62.11. a távérzékelési feladatokhoz kapcsolódó fejlesztési tevékenységet lát el;"
+    },
+    {
+      "provision_ref": "s246",
+      "section": "246",
+      "title": "246",
+      "content": "62.12. együttműködési megállapodásban rögzített módon üzemelteti az MH Geoinformációs Szolgálat szakmai felügyelete alatt működő repülőtéri meteorológiai mérőrendszereket;"
+    },
+    {
+      "provision_ref": "s247",
+      "section": "247",
+      "title": "247",
+      "content": "62.13. külső partnerek megrendelésére karbantartja a meteorológiai mérőrendszereket, kalibrálja az érzékelőket."
+    },
+    {
+      "provision_ref": "s248",
+      "section": "248",
+      "title": "248",
+      "content": "Az Éghajlati és Levegőkörnyezeti Főosztály feladatköre"
+    },
+    {
+      "provision_ref": "s249",
+      "section": "249",
+      "title": "249",
+      "content": "63. Az Éghajlati és Levegőkörnyezeti Főosztály feladata"
+    },
+    {
+      "provision_ref": "s250",
+      "section": "250",
+      "title": "250",
+      "content": "63.1. az üvegházhatású gázok leltárának összeállítása és a kapcsolódó nemzeti jelentések elkészítése;"
+    },
+    {
+      "provision_ref": "s251",
+      "section": "251",
+      "title": "251",
+      "content": "63.2. levegőkörnyezet-elemzés és -kutatás, ezen belül"
+    },
+    {
+      "provision_ref": "s252",
+      "section": "252",
+      "title": "252",
+      "content": "63.2.1. az OMSZ levegőkémiai adatbázisának archiválása és karbantartása;"
+    },
+    {
+      "provision_ref": "s253",
+      "section": "253",
+      "title": "253",
+      "content": "63.2.2. a hazai és nemzetközi (WMO és ENSZ EGB EMEP) elvárásokkal összhangban a hazai háttérszennyezettség-mérő hálózat és az analitikai laboratórium üzemeltetése;"
+    },
+    {
+      "provision_ref": "s254",
+      "section": "254",
+      "title": "254",
+      "content": "63.2.3. a hazai és nemzetközi adatközpontoknak közvetlen adatszolgáltatás végzése;"
+    },
+    {
+      "provision_ref": "s255",
+      "section": "255",
+      "title": "255",
+      "content": "63.2.4. különböző tér- és időskálákon légköri terjedési és diszperziós modellezési feladatok végzése;"
+    },
+    {
+      "provision_ref": "s256",
+      "section": "256",
+      "title": "256",
+      "content": "63.2.5. a fenti tevékenységekhez kapcsolódó kutatási és fejlesztési tevékenység ellátása;"
+    },
+    {
+      "provision_ref": "s257",
+      "section": "257",
+      "title": "257",
+      "content": "63.3. ellátja az Országos Légszennyezettségi Mérőhálózat (a továbbiakban: OLM) szakmai irányításának operatív feladatait, az OLM minőségellenőrzését (mérőeszközök kalibrálása, összehasonlító vizsgálatok, körmérések);"
+    },
+    {
+      "provision_ref": "s258",
+      "section": "258",
+      "title": "258",
+      "content": "63.4. végzi az OLM adatainak gyűjtését, végleges érvényesítését, feldolgozását és értékelését, valamint a hazai és nemzetközi adatszolgáltatást;"
+    },
+    {
+      "provision_ref": "s259",
+      "section": "259",
+      "title": "259",
+      "content": "63.5. végzi a levegőtisztaság-védelmi mérőkészülékek típusalkalmassági felülvizsgálatát jogszabályi követelmények szerint;"
+    },
+    {
+      "provision_ref": "s260",
+      "section": "260",
+      "title": "260",
+      "content": "63.6. regionális klímamodellek fejlesztése;"
+    },
+    {
+      "provision_ref": "s261",
+      "section": "261",
+      "title": "261",
+      "content": "63.7. éghajlati elemzések, feldolgozások, adatszolgáltatások biztosítása;"
+    },
+    {
+      "provision_ref": "s262",
+      "section": "262",
+      "title": "262",
+      "content": "63.8. szakhatósági állásfoglalások, vélemények, engedélyek kiadása a Gazdasági Főosztállyal együttműködve;"
+    },
+    {
+      "provision_ref": "s263",
+      "section": "263",
+      "title": "263",
+      "content": "63.9. az éghajlat regionális előrejelzésével kapcsolatos módszertani háttér biztosítása;"
+    },
+    {
+      "provision_ref": "s264",
+      "section": "264",
+      "title": "264",
+      "content": "63.10. statisztikai és dinamikai vizsgálatok végzése a globális éghajlatváltozás hazai sajátosságainak pontosítása érdekében;"
+    },
+    {
+      "provision_ref": "s265",
+      "section": "265",
+      "title": "265",
+      "content": "63.11. szerződések keretében az OMSZ állami feladatain felül jelentkező alaptevékenységébe tartozó éghajlati szolgáltató tevékenység végzése."
+    },
+    {
+      "provision_ref": "s266",
+      "section": "266",
+      "title": "266",
+      "content": "Az Előrejelzési Főosztály feladatköre"
+    },
+    {
+      "provision_ref": "s267",
+      "section": "267",
+      "title": "267",
+      "content": "64. Az Előrejelzési Főosztály feladata"
+    },
+    {
+      "provision_ref": "s268",
+      "section": "268",
+      "title": "268",
+      "content": "64.1. különböző távra szóló időjárási alap-előrejelzések, veszélyjelzések, riasztások és figyelmeztetések készítése;"
+    },
+    {
+      "provision_ref": "s269",
+      "section": "269",
+      "title": "269",
+      "content": "64.2. a polgári repülés számára repülésmeteorológiai előrejelzések és veszélyjelzések biztosítása, vihar-előrejelzés készítése;"
+    },
+    {
+      "provision_ref": "s270",
+      "section": "270",
+      "title": "270",
+      "content": "64.3. a siófoki meteorológiai főállomás feladatainak ellátása;"
+    },
+    {
+      "provision_ref": "s271",
+      "section": "271",
+      "title": "271",
+      "content": "64.4. hidrológiai célú előrejelzések és veszélyjelzések készítése;"
+    },
+    {
+      "provision_ref": "s272",
+      "section": "272",
+      "title": "272",
+      "content": "64.5. speciális előrejelzések és veszélyjelzések kiadása ipari balesetek, természeti katasztrófák esetén;"
+    },
+    {
+      "provision_ref": "s273",
+      "section": "273",
+      "title": "273",
+      "content": "64.6. nukleárisbaleset-elhárítással kapcsolatos előrejelzések készítése;"
+    },
+    {
+      "provision_ref": "s274",
+      "section": "274",
+      "title": "274",
+      "content": "64.7. részvétel a Kormányzati Koordinációs Bizottság Operatív Törzsben és különböző védekezési munkabizottságaiban, valamint a Közigazgatási és Igazságügyi Minisztérium által vezetett Tárcaközi Koordináló Munkacsoportban és annak operatív törzsében;"
+    },
+    {
+      "provision_ref": "s275",
+      "section": "275",
+      "title": "275",
+      "content": "64.8. szerződések keretében az OMSZ állami feladatain felül jelentkező előrejelzési szolgáltató tevékenység végzése;"
+    },
+    {
+      "provision_ref": "s276",
+      "section": "276",
+      "title": "276",
+      "content": "64.9. előrejelzési kiadványok (Időjárási Napijentés, Időjárás-előrejelzés 10 napra, Időjárás- előrejelzés 30 napra és a Valószínűségi hőmérséklet- és csapadék-előrejelzés 6 hónapra) készítése, fejlesztése;"
+    },
+    {
+      "provision_ref": "s277",
+      "section": "277",
+      "title": "277",
+      "content": "64.10. az alap-előrejelzésekkel, veszélyjelzésekkel és szolgáltatásokkal kapcsolatos vizsgálatok, kutatások, fejlesztések végzése, a rövid- és középtávú előrejelzési modellproduktumok feldolgozása együttműködve más főosztályokkal;"
+    },
+    {
+      "provision_ref": "s278",
+      "section": "278",
+      "title": "278",
+      "content": "64.11. nowcasting és ultrarövid távú előrejelzésekkel kapcsolatos módszertani fejlesztések végzése;"
+    },
+    {
+      "provision_ref": "s279",
+      "section": "279",
+      "title": "279",
+      "content": "64.12. az operatív előrejelző gyakorlatban használt megjelenítő és interpretációs rendszerek alkalmazása és a fejlesztésben való részvétel;"
+    },
+    {
+      "provision_ref": "s280",
+      "section": "280",
+      "title": "280",
+      "content": "64.13. a rövid távú (1-2 nap) nagy felbontású korlátos tartományú numerikus előrejelző modellek fejlesztésével és alkalmazásával kapcsolatos együttműködés az Informatikai és Módszertani Főosztállyal;"
+    },
+    {
+      "provision_ref": "s281",
+      "section": "281",
+      "title": "281",
+      "content": "64.14. szakhatósági állásfoglalások, vélemények, engedélyek kiadása;"
+    },
+    {
+      "provision_ref": "s282",
+      "section": "282",
+      "title": "282",
+      "content": "64.15. a havi és évszakos előrejelzések megalapozása;"
+    },
+    {
+      "provision_ref": "s283",
+      "section": "283",
+      "title": "283",
+      "content": "64.16. az alkalmazott modellek és a kiadott előrejelzések objektív és szubjektív verifikációja."
+    },
+    {
+      "provision_ref": "s284",
+      "section": "284",
+      "title": "284",
+      "content": "VIII. Fejezet"
+    },
+    {
+      "provision_ref": "s285",
+      "section": "285",
+      "title": "285",
+      "content": "AZ OMSZ TANÁCSADÓI ÉS KOORDINÁCIÓS ÉRTEKEZLETEI"
+    },
+    {
+      "provision_ref": "s286",
+      "section": "286",
+      "title": "286",
+      "content": "A vezetői értekezlet"
+    },
+    {
+      "provision_ref": "s287",
+      "section": "287",
+      "title": "287",
+      "content": "65. A vezetői értekezlet az OMSZ munkaértekezlete; az OMSZ feladatkörébe tartozó jelentősebb, időszerű feladatok és intézkedések megtárgyalására, a koordinált és egységes álláspont kialakítására, a vezetők sokoldalú és kölcsönös tájékoztatására, valamint a szervezeti egységek tevékenységének folyamatos összehangolására szolgáló munkaszerv."
+    },
+    {
+      "provision_ref": "s288",
+      "section": "288",
+      "title": "288",
+      "content": "66. Tagjai az OMSZ vezetői, a jogtanácsos, a belső ellenőr, a személyügyi és titkársági referens, a minőségügyi vezető, a munkavédelmi és tűzvédelmi vezető, valamint az OMSZ-nél működő szakszervezetek vezetői. Az elnök az értekezletre más személyeket is meghívhat."
+    },
+    {
+      "provision_ref": "s289",
+      "section": "289",
+      "title": "289",
+      "content": "67. Üléseit szükség szerint, rendszerint havonta tartja."
+    },
+    {
+      "provision_ref": "s290",
+      "section": "290",
+      "title": "290",
+      "content": "A Tudományos Tanács"
+    },
+    {
+      "provision_ref": "s291",
+      "section": "291",
+      "title": "291",
+      "content": "68. Az elnök tevékenységét tudományos kérdésekben a Tudományos Tanács (TUTA) segíti:"
+    },
+    {
+      "provision_ref": "s292",
+      "section": "292",
+      "title": "292",
+      "content": "68.1. igény szerint véleményezi a meteorológiát érintő tudományos kérdéseket;"
+    },
+    {
+      "provision_ref": "s293",
+      "section": "293",
+      "title": "293",
+      "content": "68.2. értékeli az OMSZ és munkatársainak tudományos tevékenységét;"
+    },
+    {
+      "provision_ref": "s294",
+      "section": "294",
+      "title": "294",
+      "content": "68.3. szorgalmazza és elősegíti tudományos fokozat megszerzését;"
+    },
+    {
+      "provision_ref": "s295",
+      "section": "295",
+      "title": "295",
+      "content": "68.4. koordinálja a hatáskörébe tartozó tudományos célú hazai és nemzetközi rendezvényeken való részvételt."
+    },
+    {
+      "provision_ref": "s296",
+      "section": "296",
+      "title": "296",
+      "content": "69. Elnökét és tagjait az OMSZ elnöke nevezi ki, illetve menti fel. Ülésére külső szakértők is meghívhatók."
+    },
+    {
+      "provision_ref": "s297",
+      "section": "297",
+      "title": "297",
+      "content": "70. Üléseit szükség szerint tartja."
+    },
+    {
+      "provision_ref": "s298",
+      "section": "298",
+      "title": "298",
+      "content": "Az Érdekegyeztető Fórum"
+    },
+    {
+      "provision_ref": "s299",
+      "section": "299",
+      "title": "299",
+      "content": "71. Az OMSZ-nél a munkahelyi közszolgálati kérdések rendezésére az OMSZ Érdekegyeztető Fóruma szolgál. A munkahelyi kormány-tisztviselői érdekegyeztetésben az elnök és az OMSZ-nél működő szakszervezetek választott tisztségviselői vesznek részt. A tárgyalópartnerek a vitás kérdések egyeztetésébe szakértőket is bevonhatnak."
+    },
+    {
+      "provision_ref": "s300",
+      "section": "300",
+      "title": "300",
+      "content": "72. Az elnök köteles kikérni a szakszervezet véleményét a kormánytisztviselők és munkajogviszonyban állók munkavégzésére, munka- és pihenőidejére, valamint juttatásaira vonatkozó, a hivatalvezető hatáskörébe utalt szabályozási tárgykörökben kiadásra kerülő szabályzatokról."
+    },
+    {
+      "provision_ref": "s301",
+      "section": "301",
+      "title": "301",
+      "content": "73. A szakszervezet tájékoztatást kérhet:"
+    },
+    {
+      "provision_ref": "s302",
+      "section": "302",
+      "title": "302",
+      "content": "73.1. a 72. pontban felsorolt tárgykörökben készült tervezetek, statisztikai létszám- és illetményadatok, számítások, elemzések és irányelvek megismerése érdekében;"
+    },
+    {
+      "provision_ref": "s303",
+      "section": "303",
+      "title": "303",
+      "content": "73.2. a közszolgálati jogszabályok végrehajtásáról;"
+    },
+    {
+      "provision_ref": "s304",
+      "section": "304",
+      "title": "304",
+      "content": "73.3. a belső megállapodások megtartásáról."
+    },
+    {
+      "provision_ref": "s305",
+      "section": "305",
+      "title": "305",
+      "content": "74. A szakszervezet javaslatot tehet:"
+    },
+    {
+      "provision_ref": "s306",
+      "section": "306",
+      "title": "306",
+      "content": "74.1. a kormánytisztviselőket és munkajogviszonyban állókat érintő intézkedésekre;"
+    },
+    {
+      "provision_ref": "s307",
+      "section": "307",
+      "title": "307",
+      "content": "74.2. a kormánytisztviselőket és munkajogviszonyban állókat érintő belső szabályozás egységes értelmezésére, valamint"
+    },
+    {
+      "provision_ref": "s308",
+      "section": "308",
+      "title": "308",
+      "content": "74.3. a kormánytisztviselőket és munkajogviszonyban állókat érintő belső szabályozási tárgykörökre."
+    },
+    {
+      "provision_ref": "s309",
+      "section": "309",
+      "title": "309",
+      "content": "IX. Fejezet"
+    },
+    {
+      "provision_ref": "s310",
+      "section": "310",
+      "title": "310",
+      "content": "AZ OMSZ BELSŐ ELLENŐRZÉSE"
+    },
+    {
+      "provision_ref": "s311",
+      "section": "311",
+      "title": "311",
+      "content": "75. Az OMSZ belső ellenőrzésének rendjét a költségvetési szervek belső ellenőrzéséről szóló 193/2003. (XI. 26.) Korm. rendelet, valamint az Országos Meteorológiai Szolgálat Belső Ellenőrzési Kézikönyvének kiadásáról szóló mindenkor hatályos OMSZ utasítás határozza meg."
+    },
+    {
+      "provision_ref": "s312",
+      "section": "312",
+      "title": "312",
+      "content": "76. A belső ellenőrzési feladatokat az elnök által közvetlenül irányított belső ellenőr látja el."
+    },
+    {
+      "provision_ref": "s313",
+      "section": "313",
+      "title": "313",
+      "content": "Vagyonnyilatkozat-tételre kötelezett munkakörök az egyes vagyonnyilatkozat-tételi kötelezettségekről szóló 2007. évi CLII. tv. alapján"
+    },
+    {
+      "provision_ref": "s314",
+      "section": "314",
+      "title": "314",
+      "content": "1. Vagyonnyilatkozat-tételre kötelezett:"
+    },
+    {
+      "provision_ref": "s315",
+      "section": "315",
+      "title": "315",
+      "content": "1. 1. valamennyi főosztályvezető (ötévenként),"
+    },
+    {
+      "provision_ref": "s316",
+      "section": "316",
+      "title": "316",
+      "content": "1.2. valamennyi osztályvezető (ötévenként),"
+    },
+    {
+      "provision_ref": "s317",
+      "section": "317",
+      "title": "317",
+      "content": "1.3. munkaköri leírás alapján a pénzeszközök felhasználására, a gazdálkodás ellenőrzésére jogosító munkakörök (kétévenként),"
+    },
+    {
+      "provision_ref": "s318",
+      "section": "318",
+      "title": "318",
+      "content": "1.4. munkaköri leírás alapján közbeszerzési eljárásban közreműködő munkaköre (évenként),"
+    },
+    {
+      "provision_ref": "s319",
+      "section": "319",
+      "title": "319",
+      "content": "1.5. munkaköri leírás alapján pályázatiprojekt-vezetői feladatot betöltő munkaköre (kétévenként)."
+    },
+    {
+      "provision_ref": "s320",
+      "section": "320",
+      "title": "320",
+      "content": "2. Vagyonnyilatkozatot kell tenni a vagyonnyilatkozat-tételi kötelezettséget megalapozó jogviszony, beosztás létrejötte, munka- vagy feladatkör betöltése érdekében azt megelőzően, illetve megszűnését követő 30 napon belül."
+    },
+    {
+      "provision_ref": "s321",
+      "section": "321",
+      "title": "321",
+      "content": "Amennyiben a kötelezettségre egyidejűleg több szempontból is sor kell hogy kerüljön, a szigorúbb szabályozás az irányadó."
+    },
+    {
+      "provision_ref": "s322",
+      "section": "322",
+      "title": "322",
+      "content": "Szabálytalanságkezelési Szabályzat"
+    },
+    {
+      "provision_ref": "s323",
+      "section": "323",
+      "title": "323",
+      "content": "I. Bevezetés"
+    },
+    {
+      "provision_ref": "s324",
+      "section": "324",
+      "title": "324",
+      "content": "1. A szabálytalanságok fogalma"
+    },
+    {
+      "provision_ref": "s325",
+      "section": "325",
+      "title": "325",
+      "content": "Az államháztartás működési rendjéről szóló 292/2009. (XII. 19.) Korm. rendelet 156. § (3) bekezdésének megfelelően a költségvetési szerv vezetőjének kötelessége a szabálytalanságok kezelésének eljárásrendjét kialakítani."
+    },
+    {
+      "provision_ref": "s326",
+      "section": "326",
+      "title": "326",
+      "content": "A szabálytalanságok fogalomköre széles, a korrigálható mulasztások vagy hiányosságok, illetve a fegyelmi, büntető-, szabálysértési, illetve kártérítési eljárás megindítására okot adó cselekmények egyaránt beletartoznak."
+    },
+    {
+      "provision_ref": "s327",
+      "section": "327",
+      "title": "327",
+      "content": "A szabálytalanság valamely létező szabálytól (törvény, rendelet, utasítás, szabályzat stb.) való eltérést jelent, amely az államháztartás működési rendjében, a költségvetési gazdálkodás bármely gazdasági eseményében, az állami feladatellátás bármely tevékenységében az egyes műveletekben fordulhat elő."
+    },
+    {
+      "provision_ref": "s328",
+      "section": "328",
+      "title": "328",
+      "content": "Alapesetei lehetnek:"
+    },
+    {
+      "provision_ref": "s329",
+      "section": "329",
+      "title": "329",
+      "content": "– a szándékosan okozott szabálytalanságok (félrevezetés, csalás, sikkasztás, megvesztegetés, szándékosan okozott szabálytalan kifizetés stb.),"
+    },
+    {
+      "provision_ref": "s330",
+      "section": "330",
+      "title": "330",
+      "content": "– a nem szándékosan okozott szabálytalanságok (figyelmetlenségből, hanyag magatartásból, helytelenül vezetett nyilvántartásból stb. származó szabálytalanság)."
+    },
+    {
+      "provision_ref": "s331",
+      "section": "331",
+      "title": "331",
+      "content": "A szabálytalanság lehet továbbá"
+    },
+    {
+      "provision_ref": "s332",
+      "section": "332",
+      "title": "332",
+      "content": "– egyedi,"
+    },
+    {
+      "provision_ref": "s333",
+      "section": "333",
+      "title": "333",
+      "content": "– rendszeresen ismétlődő."
+    },
+    {
+      "provision_ref": "s334",
+      "section": "334",
+      "title": "334",
+      "content": "A szabálytalanságok megelőzésével kapcsolatosan a költségvetési szerv vezetőjének felelőssége, hogy:"
+    },
+    {
+      "provision_ref": "s335",
+      "section": "335",
+      "title": "335",
+      "content": "– a jogszabályoknak megfelelő szabályzatok alapján működjön a szervezet,"
+    },
+    {
+      "provision_ref": "s336",
+      "section": "336",
+      "title": "336",
+      "content": "– a szabályozottságot, illetve a szabályok megtartását folyamatosan kísérje figyelemmel a vezető,"
+    },
+    {
+      "provision_ref": "s337",
+      "section": "337",
+      "title": "337",
+      "content": "– szabálytalanság esetén hatékony intézkedés szülessék, a szabálytalanság korrigálásra kerüljön annak a mértéknek megfelelően, amilyen mértéket a szabálytalanság képviselt."
+    },
+    {
+      "provision_ref": "s338",
+      "section": "338",
+      "title": "338",
+      "content": "A szabálytalanságokkal kapcsolatos intézkedések általános célja, hogy:"
+    },
+    {
+      "provision_ref": "s339",
+      "section": "339",
+      "title": "339",
+      "content": "– hozzájáruljon a különböző jogszabályokban és szabályzatokban meghatározott előírások sérülésének, megszegésének, a szabálytalanság kialakulásának megakadályozásához (megelőzés),"
+    },
+    {
+      "provision_ref": "s340",
+      "section": "340",
+      "title": "340",
+      "content": "– keretet biztosítson ahhoz, hogy az előírások sérülése, megsértése esetén a megfelelő állapot helyreállításra kerüljön; a hibák, hiányosságok, tévedések korrigálása, a felelősség megállapítása, az intézkedések foganatosítása megtörténjen,"
+    },
+    {
+      "provision_ref": "s341",
+      "section": "341",
+      "title": "341",
+      "content": "– a szabálytalansággal érintett területeken szerzett tapasztalatok beépítésre kerüljenek a folyamatba épített előzetes és utólagos vezetői ellenőrzési (a továbbiakban: FEUVE) rendszerbe."
+    },
+    {
+      "provision_ref": "s342",
+      "section": "342",
+      "title": "342",
+      "content": "A szabálytalanságok kezelése (az eljárási rend kialakítása, a szükséges intézkedések meghozatala, a kapcsolódó nyomon követés, a keletkezett iratanyagok elkülönített nyilvántartása) a költségvetési szerv vezetőjének a feladata, amely feladatot a költségvetési szerv vezetője a költségvetési szervben kialakított munkaköri, hatásköri, felelősségi és elszámoltathatósági rendnek megfelelően az egyes szervezeti egységek vezetőire, vagy szabálytalansági felelősre, illetve egyes esetekben akár szabálytalansági felelős csoportra ruházhat át. A szabálytalanságok kezelésével kapcsolatos hatásköröket a költségvetési szerv vezetője az SzMSz mellékletében jelzett utasításban leírtak szerint ruházhatja át."
+    },
+    {
+      "provision_ref": "s343",
+      "section": "343",
+      "title": "343",
+      "content": "2. A szabálytalanságok megelőzése"
+    },
+    {
+      "provision_ref": "s344",
+      "section": "344",
+      "title": "344",
+      "content": "Szabálytalanság elkövetéséhez alapvetően szervezeti (nem megfelelő eljárások, kontrollok) és személyi (felkészültség, tapasztalat hiánya, alacsony elismertség) tényezők vezethetnek. A FEUVE-nek folyamatosan vizsgálnia kell a szabálytalanságok feltételrendszerének alakulását, valamint a megelőzés érdekében a szabálytalanság kivizsgálásakor is ki kell térni a feltételrendszer elemzésére."
+    },
+    {
+      "provision_ref": "s345",
+      "section": "345",
+      "title": "345",
+      "content": "A szabályozottság biztosítása, a szabálytalanságok megakadályozása elsődlegesen a költségvetési szerv vezetőjének felelőssége."
+    },
+    {
+      "provision_ref": "s346",
+      "section": "346",
+      "title": "346",
+      "content": "Az Áht. szerint a költségvetési szerv vezetője felelős a feladatai ellátásához a költségvetési szerv vagyonkezelésébe, használatába adott vagyon rendeltetésszerű igénybevételéért, az alapító okiratban előírt tevékenységek jogszabályban meghatározott követelményeknek megfelelő ellátásáért, a költségvetési szerv gazdálkodásában a szakmai hatékonyság és a gazdaságosság követelményeinek érvényesítéséért, a tervezési, beszámolási, információszolgáltatási kötelezettség teljesítéséért, annak teljességéért és hitelességéért, a gazdálkodási lehetőségek és a kötelezettségek összhangjáért, az intézményi számviteli rendért, a folyamatba épített, előzetes és utólagos vezetői ellenőrzés, valamint a belső ellenőrzés megszervezéséért és hatékony működtetéséért."
+    },
+    {
+      "provision_ref": "s347",
+      "section": "347",
+      "title": "347",
+      "content": "Az Áht.-ben meghatározott kötelezettség a költségvetési szerv vezetőjének feladata, amely a szervezeti struktúrában meghatározott egységek vezetői hatáskörének, felelősségének és beszámoltathatóságának szabályozottságán keresztül valósul meg. A költségvetési szervek munkavállalóinak konkrét feladatát, hatáskörét, felelősségét, beszámoltathatóságát a munkaköri leírások szabályozzák, a közszolgálati jogviszonyból, illetve munkaviszonyból származó kötelezettségeiket a jogszabályoknak megfelelően kell teljesíteniük."
+    },
+    {
+      "provision_ref": "s348",
+      "section": "348",
+      "title": "348",
+      "content": "A szabályzatokat az elnöki utasítások tartalmazzák."
+    },
+    {
+      "provision_ref": "s349",
+      "section": "349",
+      "title": "349",
+      "content": "Amennyiben van szabálytalansági felelős, ő a tudomására jutott információk alapján javaslatot dolgoz ki a költségvetési szerv vezetője részére a hasonló szabálytalanságok elkerülése érdekében."
+    },
+    {
+      "provision_ref": "s350",
+      "section": "350",
+      "title": "350",
+      "content": "II. A szabálytalanságkezelési eljárás"
+    },
+    {
+      "provision_ref": "s351",
+      "section": "351",
+      "title": "351",
+      "content": "Az eljárásrend kialakításakor alapvető követelmény az, hogy minden szervezeti egység vezetője felelős a feladatkörébe tartozó szakterületen észlelt szakmai és gazdálkodási szabálytalanságok megelőzéséért, feltárásáért, nyomon követéséért, dokumentálásáért, a felelősségre vonásért, valamint a hiányosságok megszüntetésével kapcsolatos intézkedések kezdeményezéséért és megvalósításuk ellenőrzéséért."
+    },
+    {
+      "provision_ref": "s352",
+      "section": "352",
+      "title": "352",
+      "content": "1. A szabálytalanságok észlelése"
+    },
+    {
+      "provision_ref": "s353",
+      "section": "353",
+      "title": "353",
+      "content": "A szabálytalanságok észlelése a folyamatba épített, előzetes és utólagos vezetői ellenőrzés rendszerében történhet a munkatárs és a vezető részéről egyaránt. Ezen kívül az észlelés származhat mind a belső, mind a külső ellenőrzéstől, valamint egyéb külső személytől is."
+    },
+    {
+      "provision_ref": "s354",
+      "section": "354",
+      "title": "354",
+      "content": "A szabálytalanság gyanújának szervezeten belüli észlelése esetén a szabálytalanság gyanúját alátámasztó adatok, bizonylatok, információk csatolása a tájékoztatás kötelező eleme."
+    },
+    {
+      "provision_ref": "s355",
+      "section": "355",
+      "title": "355",
+      "content": "Dokumentumokon alapuló ellenőrzés által feltárt szabálytalanság esetén a hiba kijavítására hiánypótlásra felszólító levél megküldésével kell felhívni a folyamatért felelős szervezeti egységet. Amennyiben a hiánypótlást követően továbbra is súlyos szabálytalanság áll fenn, helyszíni ellenőrzés elrendelését kell kezdeményezni."
+    },
+    {
+      "provision_ref": "s356",
+      "section": "356",
+      "title": "356",
+      "content": "A költségvetési szerv valamely munkatársa észlel szabálytalanságot"
+    },
+    {
+      "provision_ref": "s357",
+      "section": "357",
+      "title": "357",
+      "content": "A)"
+    },
+    {
+      "provision_ref": "s358",
+      "section": "358",
+      "title": "358",
+      "content": "Amennyiben van szabálytalansági felelős, őt kell értesíteni először. A szabálytalansági felelős megküldi a tájékoztatást a szervezeti egység vezetőjének a kapcsolódó dokumentumokkal, és csatolja az ügyre vonatkozó véleményét, javaslatot téve annak kivizsgálására vagy a vizsgálat mellőzésére."
+    },
+    {
+      "provision_ref": "s359",
+      "section": "359",
+      "title": "359",
+      "content": "B)"
+    },
+    {
+      "provision_ref": "s360",
+      "section": "360",
+      "title": "360",
+      "content": "a) Amennyiben nincs szabálytalansági felelős, a szabálytalanságot észlelő munkatárs köteles értesíteni a szervezeti egység vezetőjét. Amennyiben a szervezeti egység vezetője az adott ügyben érintett, a munkatársnak a vezető felettesét, annak érintettsége esetén a költségvetési szerv vezetőjét kell értesítenie. (Írásos értesítést a külön szabályzatokban lefektetett esetekben szükséges tenni.)"
+    },
+    {
+      "provision_ref": "s361",
+      "section": "361",
+      "title": "361",
+      "content": "b) Ha az a) pontban megfogalmazottaknak megfelelően értesített személy megalapozottnak találja a szabálytalanságot, úgy erről értesíti a költségvetési szerv vezetőjét."
+    },
+    {
+      "provision_ref": "s362",
+      "section": "362",
+      "title": "362",
+      "content": "c) Valamennyi felettes és a költségvetési szerv vezetőjének érintettsége esetén közvetlenül a felügyeleti szerv vezetőjét kell értesíteni."
+    },
+    {
+      "provision_ref": "s363",
+      "section": "363",
+      "title": "363",
+      "content": "A költségvetési szerv vezetőjének kötelessége gondoskodni a megfelelő intézkedések meghozataláról, illetve indokolt esetben a szükséges eljárások megindításáról. A szabálytalanság jelentésekor ki kell térni arra, hogy:"
+    },
+    {
+      "provision_ref": "s364",
+      "section": "364",
+      "title": "364",
+      "content": "– mi a szabálytalanság pontos tartalma;"
+    },
+    {
+      "provision_ref": "s365",
+      "section": "365",
+      "title": "365",
+      "content": "– milyen normától való eltérésről van szó;"
+    },
+    {
+      "provision_ref": "s366",
+      "section": "366",
+      "title": "366",
+      "content": "– elévülési időn belül észlelték-e a szabálytalanságot;"
+    },
+    {
+      "provision_ref": "s367",
+      "section": "367",
+      "title": "367",
+      "content": "– a szabálytalanság mely területet érinti;"
+    },
+    {
+      "provision_ref": "s368",
+      "section": "368",
+      "title": "368",
+      "content": "– van-e enyhítő körülmény (pl. a határidő túllépését váratlan, elháríthatatlan külső akadály fellépése okozta, a hibás elszámolást informatikai hiba okozta stb.);"
+    },
+    {
+      "provision_ref": "s369",
+      "section": "369",
+      "title": "369",
+      "content": "– a szabálytalanság gyanúja dokumentumokon alapuló vagy helyszíni ellenőrzés következtében merült fel;"
+    },
+    {
+      "provision_ref": "s370",
+      "section": "370",
+      "title": "370",
+      "content": "– korrigálható-e a szabálytalanság;"
+    },
+    {
+      "provision_ref": "s371",
+      "section": "371",
+      "title": "371",
+      "content": "– pénzbeli juttatást érintő szabálytalanság esetén van-e reális lehetőség a visszakövetelésre amennyiben igen, megtörténtek-e az ahhoz szükséges intézkedések;"
+    },
+    {
+      "provision_ref": "s372",
+      "section": "372",
+      "title": "372",
+      "content": "– amennyiben kártérítési igény merül fel, foganatosították-e az ahhoz szükséges intézkedéseket."
+    },
+    {
+      "provision_ref": "s373",
+      "section": "373",
+      "title": "373",
+      "content": "Amennyiben nem a folyamatba épített ellenőrzés során észlelnek egy szabálytalanságot, azt is meg kell vizsgálni, hogy a folyamatba épített ellenőrzés miért nem tárta fel a hiányosságot. Ennek oka lehet pl. a kontrolltevékenységek nem megfelelő szervezése, végrehajtásának hiányossága; emberi mulasztás; rendszerhiba; előírások be nem tartása stb."
+    },
+    {
+      "provision_ref": "s374",
+      "section": "374",
+      "title": "374",
+      "content": "A költségvetési szerv vezetője észleli a szabálytalanságot"
+    },
+    {
+      "provision_ref": "s375",
+      "section": "375",
+      "title": "375",
+      "content": "A költségvetési szerv vezetője, illetve a szervezeti egységek vezetőinek észlelése alapján a feladat-, hatáskör- és felelősségi rendnek megfelelően kell intézkedést hozni a szabálytalanság korrigálására, megszüntetésére."
+    },
+    {
+      "provision_ref": "s376",
+      "section": "376",
+      "title": "376",
+      "content": "A költségvetési szerv belső ellenőrzése észleli a szabálytalanságot"
+    },
+    {
+      "provision_ref": "s377",
+      "section": "377",
+      "title": "377",
+      "content": "Amennyiben a belső ellenőr ellenőrzési tevékenysége során szabálytalanságot tapasztal, a költségvetési szervek belső ellenőrzéséről szóló 193/2003. (XI. 26.) Korm. rendelet (a továbbiakban: Ber.) rendelkezéseinek megfelelően jár el. A költségvetési szervnek intézkedési tervet kell kidolgoznia a belső ellenőrzés megállapításai alapján, az intézkedési tervet végre kell hajtania. Az intézkedési terv végrehajtását az ellenőrzött szerv, illetve szervezeti egység vezetője az általa éves bontásban vezetett nyilvántartás segítségével követi nyomon."
+    },
+    {
+      "provision_ref": "s378",
+      "section": "378",
+      "title": "378",
+      "content": "Egy szabálytalanság belső ellenőrzés által történő feltárásakor külön kell vizsgálni az alábbiakat:"
+    },
+    {
+      "provision_ref": "s379",
+      "section": "379",
+      "title": "379",
+      "content": "– miért nem tárta fel a FEUVE-rendszer a szabálytalanságot és az azt lehetővé tevő tényezőket;"
+    },
+    {
+      "provision_ref": "s380",
+      "section": "380",
+      "title": "380",
+      "content": "– amennyiben a FEUVE-rendszer feltárta a szabálytalanságot vagy az azt lehetővé tevő tényezőket, az érintett szervezeti egység vezetője miért nem tette meg a megelőzéshez, illetve a káros következmények csökkentéséhez szükséges intézkedéseket;"
+    },
+    {
+      "provision_ref": "s381",
+      "section": "381",
+      "title": "381",
+      "content": "– ha a szükséges intézkedéseket megtette a vezető, miért nem érte el a kívánt hatást;"
+    },
+    {
+      "provision_ref": "s382",
+      "section": "382",
+      "title": "382",
+      "content": "– volt-e korábban olyan vizsgálat, amelynek fel kellett volna tárnia a szabálytalanságot."
+    },
+    {
+      "provision_ref": "s383",
+      "section": "383",
+      "title": "383",
+      "content": "Külső ellenőrzési szerv észleli a szabálytalanságot"
+    },
+    {
+      "provision_ref": "s384",
+      "section": "384",
+      "title": "384",
+      "content": "– A külső ellenőrzési szerv szabálytalanságra vonatkozó megállapításait az ellenőrzési jelentés tartalmazza. A büntető-, szabálysértési, kártérítési, illetve fegyelmi eljárás megindítására okot adó cselekmény, mulasztás vagy hiányosság gyanúja esetén az ellenőrző szervezet a működését szabályozó törvény, rendelet alapján jár el (pl. ÁSZ, az EU ellenőrzést gyakorló szervei stb.). A szabálytalanságra vonatkozó megállapítások alapján a költségvetési szervnek intézkedési tervet kell kidolgozni."
+    },
+    {
+      "provision_ref": "s385",
+      "section": "385",
+      "title": "385",
+      "content": "Egyéb külső személy észleli a szabálytalanságot"
+    },
+    {
+      "provision_ref": "s386",
+      "section": "386",
+      "title": "386",
+      "content": "– Amennyiben egyéb külső személy (pl. szerződéses ügyfél, társszervezet vagy ügyfél) jelzi a szabálytalanságot, a szervezeti egység vezetőjének a bejelentést érdemben kell megvizsgálnia. Ezekben az esetekben javasolt (a szabálytalanság kivizsgálásának eredményétől függően) írásban visszaigazolást tenni az észlelő személy felé (amennyiben személye ismert). Egyebekben az eljárás megegyezik a költségvetési szerv munkatársa által észlelt szabálytalansági eljárással."
+    },
+    {
+      "provision_ref": "s387",
+      "section": "387",
+      "title": "387",
+      "content": "2. A szabálytalansági vizsgálat lefolytatása"
+    },
+    {
+      "provision_ref": "s388",
+      "section": "388",
+      "title": "388",
+      "content": "A költségvetési szerv vezetője dönt a szabálytalanság kivizsgálásáról, illetve annak formájáról, valamint szükség esetén a szakértői csoport tagjairól."
+    },
+    {
+      "provision_ref": "s389",
+      "section": "389",
+      "title": "389",
+      "content": "A költségvetési szerv vezetője illetékesség vagy hatáskör hiányában dönt a szabálytalansági gyanú kivizsgálására vonatkozó javaslat és a kapcsolódó dokumentumoknak az érintett szervezet részére történő átadásáról."
+    },
+    {
+      "provision_ref": "s390",
+      "section": "390",
+      "title": "390",
+      "content": "A költségvetési szerv vezetője a vizsgálatban való részvételre munkatársakat kérhet fel. A döntés meghozatalának megkönnyítése érdekében bizottság hozható létre a szervezet folyamatait jól ismerő vezetőkből vagy szakértőkből. Indokolt esetben külső szakértőt is felkérhet a munkajogi szabályok tiszteletben tartásával. A szakértő írásbeli nyilatkozatot tesz, hogy a bizottság munkájában való részvétele nem ütközik összeférhetetlenségi akadályba."
+    },
+    {
+      "provision_ref": "s391",
+      "section": "391",
+      "title": "391",
+      "content": "A jogkövetkezményekről való döntés nem kiemelt jelentőségű szabálytalanság esetén a szervezeti egység vezetőjének, a többi esetben az intézmény vezetőjének kötelezettsége."
+    },
+    {
+      "provision_ref": "s392",
+      "section": "392",
+      "title": "392",
+      "content": "A szabálytalansági felelős a döntések meghozatalában nem vehet részt."
+    },
+    {
+      "provision_ref": "s393",
+      "section": "393",
+      "title": "393",
+      "content": "A szabálytalansági vizsgálat maximális időtartamát a belső szabályzatban rögzíteni kell. Amennyiben a rendelkezésre álló határidő kevésnek bizonyul, a vizsgálatot folytatónak ezt a tényt – az indok és a javasolt határidő feltüntetésével – jeleznie kell az intézmény vezetője felé."
+    },
+    {
+      "provision_ref": "s394",
+      "section": "394",
+      "title": "394",
+      "content": "A vizsgálat eredménye lehet:"
+    },
+    {
+      "provision_ref": "s395",
+      "section": "395",
+      "title": "395",
+      "content": "– annak megállapítása, hogy nem történt szabálytalanság, valamint a szabálytalansági eljárás intézkedés nélküli megszüntetése (pl. hibás észlelés, jelentéktelen szabálytalanság stb.),"
+    },
+    {
+      "provision_ref": "s396",
+      "section": "396",
+      "title": "396",
+      "content": "– szabálytalanság megtörténtét megállapító és intézkedést elrendelő döntés,"
+    },
+    {
+      "provision_ref": "s397",
+      "section": "397",
+      "title": "397",
+      "content": "– további vizsgálat elrendelése – erre többnyire akkor kerül sor, ha a szabálytalanság megállapítását követően a felelősség eldöntéséhez és/vagy a hasonló esetek megelőzése érdekében szükséges intézkedések meghatározásához nem elég a rendelkezésre álló információ."
+    },
+    {
+      "provision_ref": "s398",
+      "section": "398",
+      "title": "398",
+      "content": "A vizsgálatot folytatók intézkedési javaslatot dolgoznak ki a költségvetési szerv vezetője számára a hasonló szabálytalanságok elkerülése érdekében."
+    },
+    {
+      "provision_ref": "s399",
+      "section": "399",
+      "title": "399",
+      "content": "3. A szabálytalanság észlelését követő szükséges intézkedések, eljárások megindítása"
+    },
+    {
+      "provision_ref": "s400",
+      "section": "400",
+      "title": "400",
+      "content": "A költségvetési szerv vezetője felelős a szükséges intézkedések végrehajtásáért. Az intézkedések végrehajtására határidőt kell szabni."
+    },
+    {
+      "provision_ref": "s401",
+      "section": "401",
+      "title": "401",
+      "content": "Bizonyos esetekben (pl. büntető- vagy szabálysértési ügyekben) a szükséges intézkedések meghozatala az arra illetékes szervek értesítését is jelenti annak érdekében, hogy megalapozottság esetén az illetékes szerv a megfelelő eljárásokat megindítsa."
+    },
+    {
+      "provision_ref": "s402",
+      "section": "402",
+      "title": "402",
+      "content": "Kiemelt jelentőségű szabálytalanság esetén a minősítésre vonatkozó végső döntés meghozatala és az intézkedések foganatosításának megindítása a költségvetési szerv vezetőjének, illetve a belső szabályozástól függően az egyes területi egységeknél munkáltatói joggal felruházott vezetők hatáskörébe tartozik."
+    },
+    {
+      "provision_ref": "s403",
+      "section": "403",
+      "title": "403",
+      "content": "Az egyes eljárásokra irányadó jogszabályok főbb rendelkezései:"
+    },
+    {
+      "provision_ref": "s404",
+      "section": "404",
+      "title": "404",
+      "content": "A Büntető Törvénykönyvről szóló 1978. évi IV. törvény 10. § (1) bekezdése szerint bűncselekmény az a szándékosan vagy – ha a törvény a gondatlan elkövetést is bünteti – gondatlanságból elkövetett cselekmény, amely veszélyes a társadalomra, és amelyre a törvény büntetés kiszabását rendeli. A büntetőeljárásról szóló 1998. évi XIX. törvény (a továbbiakban Be.) 6. § (1) bekezdése kimondja, hogy a bíróságnak, az ügyésznek és a nyomozó hatóságnak kötelessége a törvényben foglalt feltételek megléte esetén büntetőeljárást megindítani. A Be. 171. § (2) bekezdése előírja, hogy a hivatalos személy köteles a hatáskörében tudomására jutott bűncselekményt feljelenteni. A feljelentést rendszerint az ügyészségnél vagy a nyomozati hatóságnál kell megtenni."
+    },
+    {
+      "provision_ref": "s405",
+      "section": "405",
+      "title": "405",
+      "content": "A szabálysértésekről szóló 1999. évi LXIX. törvény 1. § (1) bekezdése szerint szabálysértés az a jogellenes, tevékenységben vagy mulasztásban megnyilvánuló cselekmény, melyet törvény, kormányrendelet vagy önkormányzati rendelet szabálysértésnek nyilvánít, s amelynek elkövetőit az e törvényben meghatározott joghátrány fenyeget. A törvény második része foglalkozik részletesen a szabálysértési eljárással, a 82. § (1) bekezdése kimondja, hogy szabálysértési eljárás feljelentés, illetőleg a szabálysértési hatóság részéről eljáró személy észlelése vagy tudomása alapján indulhat meg."
+    },
+    {
+      "provision_ref": "s406",
+      "section": "406",
+      "title": "406",
+      "content": "A Polgári Törvénykönyvről szóló 1959. évi IV. törvény 339. § (1) bekezdése kimondja, hogy aki másnak jogellenesen kárt okoz, köteles azt megtéríteni. Mentesül a felelősség alól, ha bizonyítja, hogy úgy járt el, ahogy az adott helyzetben általában elvárható. A kártérítési eljárás megindítására a polgári perrendtartásról szóló 1952. évi III. törvény rendelkezései (elsősorban a XXIII. Fejezet, a munkaviszonyból és a munkaviszony jellegű jogviszonyból származó perek) az irányadók. Kártérítési felelősség tekintetében irányadók továbbá az Mt., valamint a kormánytisztviselők jogállásáról szóló 2010. évi LVIII. törvény megfelelő rendelkezései."
+    },
+    {
+      "provision_ref": "s407",
+      "section": "407",
+      "title": "407",
+      "content": "Fegyelmi eljárás, illetve felelősség tekintetében az Mt., illetve a Ktv. megfelelő rendelkezései az irányadók."
+    },
+    {
+      "provision_ref": "s408",
+      "section": "408",
+      "title": "408",
+      "content": "Intézményen belüli szabálytalanság esetén a kárt okozó munkavállaló köteles az okozott kárt megtéríteni. A kártérítési kötelezettséget az érintett szervezeti egység vezetője valamennyi feltétel és körülmény mérlegelése után a jogszabályokban előírt korlátok közt korlátlan mértékben csökkentheti. A mérlegelési jogkör alól kivételt jelentenek a büntetőeljárás megindítására okot adó cselekmények, mivel azok vonatkozásában az eljárás megindítása kötelező, valamint a kiemelt jelentőségű szabálytalanságok, mert ott nem csökkenthető a kártérítési kötelezettség."
+    },
+    {
+      "provision_ref": "s409",
+      "section": "409",
+      "title": "409",
+      "content": "Az intézmény vezetőjének mérlegelési jogkörébe tartozó jogkövetkezmények:"
+    },
+    {
+      "provision_ref": "s410",
+      "section": "410",
+      "title": "410",
+      "content": "– kártérítési eljárás,"
+    },
+    {
+      "provision_ref": "s411",
+      "section": "411",
+      "title": "411",
+      "content": "– fegyelmi eljárás,"
+    },
+    {
+      "provision_ref": "s412",
+      "section": "412",
+      "title": "412",
+      "content": "– szabálysértési eljárás,"
+    },
+    {
+      "provision_ref": "s413",
+      "section": "413",
+      "title": "413",
+      "content": "– pénzbeli juttatások további felfüggesztése – ha a belső szabályozók másként nem rendelkeznek."
+    },
+    {
+      "provision_ref": "s414",
+      "section": "414",
+      "title": "414",
+      "content": "A mérlegelési jogkör a belső szabályzatban az érintett területi egység vezetőjére, pénzbeli juttatás felfüggesztése esetén a szervezeti egység vezetőjére átruházható."
+    },
+    {
+      "provision_ref": "s415",
+      "section": "415",
+      "title": "415",
+      "content": "4. A költségvetési szerv vezetőjének feladata a szabálytalansággal kapcsolatos eljárás (intézkedés) nyomon követése során:"
+    },
+    {
+      "provision_ref": "s416",
+      "section": "416",
+      "title": "416",
+      "content": "– nyomon követi az elrendelt vizsgálatokat, a meghozott döntések, illetve a megindított eljárások helyzetét;"
+    },
+    {
+      "provision_ref": "s417",
+      "section": "417",
+      "title": "417",
+      "content": "– figyelemmel kíséri az általa és a vizsgálatok során készített javaslatok végrehajtását;"
+    },
+    {
+      "provision_ref": "s418",
+      "section": "418",
+      "title": "418",
+      "content": "– a feltárt szabálytalanság típusa alapján beazonosítja a további szabálytalanságlehetőségeket (hasonló projektek, témák, kockázatok meghatározása), információt szolgáltat a belső ellenőrzés számára, elősegítve annak folyamatban lévő ellenőrzéseit, valamint az ellenőrzési környezetre és a vezetési folyamatokat érintő eseményekre való nagyobb rálátást;"
+    },
+    {
+      "provision_ref": "s419",
+      "section": "419",
+      "title": "419",
+      "content": "– értékeli a megtett intézkedések hatását és hatékonyságát."
+    },
+    {
+      "provision_ref": "s420",
+      "section": "420",
+      "title": "420",
+      "content": "Az intézkedést elrendelő vezető, illetve a szabálytalansági felelős is köteles nyomon követni a végrehajtást. Amennyiben az intézkedések végrehajtása során megállapításra kerül, hogy a foganatosított intézkedések nem elég hatékonyak és eredményesek, a szabálytalansággal érintett terület vezetőjét, valamint annak felettesét írásban értesíteni kell a további intézkedések meghozatala érdekében. A szabálytalanság korrigálása esetén nincs további teendő. A szabálytalanság fennállása esetén újabb intézkedést kell hozni, illetve kezdeményezni."
+    },
+    {
+      "provision_ref": "s421",
+      "section": "421",
+      "title": "421",
+      "content": "5. A költségvetési szerv vezetőjének feladata a szabálytalansággal kapcsolatos eljárás (intézkedés) nyilvántartása során:"
+    },
+    {
+      "provision_ref": "s422",
+      "section": "422",
+      "title": "422",
+      "content": "– gondoskodik a szabálytalanságokkal kapcsolatban keletkezett iratanyagok (jogszabály szabályozza) nyilvántartásának naprakész és pontos vezetéséről;"
+    },
+    {
+      "provision_ref": "s423",
+      "section": "423",
+      "title": "423",
+      "content": "– egy elkülönített, a szabálytalanságokkal kapcsolatos nyilvántartásban iktatni kell a kapcsolódó írásos dokumentumokat;"
+    },
+    {
+      "provision_ref": "s424",
+      "section": "424",
+      "title": "424",
+      "content": "– nyilvántartja a megtett intézkedéseket, az azokhoz kapcsolódó határidőket;"
+    },
+    {
+      "provision_ref": "s425",
+      "section": "425",
+      "title": "425",
+      "content": "– a pályázati úton felhasználásra kerülő források, költségvetési előirányzatok tekintetében figyelembe veszi a Nemzeti Fejlesztési Terv operatív programjai, az EQUAL Közösségi Kezdeményezés program és a Kohéziós Alap projektek támogatásainak fogadásához kapcsolódó pénzügyi lebonyolítási, számviteli és ellenőrzési rendszerek kialakításáról szóló 360/2004. (XII. 26.) Korm. rendelet VII., valamint a 2007–2013. programozási időszakban az Európai Regionális Fejlesztési Alapból, az Európai Szociális Alapból és a Kohéziós Alapból származó támogatások felhasználásának rendjéről szóló 4/2011. (I. 28.) Korm. rendeletben meghatározottakat."
+    },
+    {
+      "provision_ref": "s426",
+      "section": "426",
+      "title": "426",
+      "content": "A nyilvántartás a tárgyévet követő évre vonatkozó ellenőrzési terv elkészítéséhez szükséges kockázatelemzés alapjául is szolgáló információkat tartalmazza:"
+    },
+    {
+      "provision_ref": "s427",
+      "section": "427",
+      "title": "427",
+      "content": "– a szabálytalanság típusát (büntető-, szabálysértési, fegyelmi vagy kártérítési eljárásra okot adó),"
+    },
+    {
+      "provision_ref": "s428",
+      "section": "428",
+      "title": "428",
+      "content": "– a szabálytalanság rövid leírását,"
+    },
+    {
+      "provision_ref": "s429",
+      "section": "429",
+      "title": "429",
+      "content": "– a kapcsolódó lezárult eljárás eredményét,"
+    },
+    {
+      "provision_ref": "s430",
+      "section": "430",
+      "title": "430",
+      "content": "– az érintettek számát, beosztását,"
+    },
+    {
+      "provision_ref": "s431",
+      "section": "431",
+      "title": "431",
+      "content": "– az esetleges kár mértékét,"
+    },
+    {
+      "provision_ref": "s432",
+      "section": "432",
+      "title": "432",
+      "content": "– a szabálytalanság kezelése érdekében tett intézkedések leírását."
+    },
+    {
+      "provision_ref": "s433",
+      "section": "433",
+      "title": "433",
+      "content": "6. Jelentési kötelezettségek"
+    },
+    {
+      "provision_ref": "s434",
+      "section": "434",
+      "title": "434",
+      "content": "A belső ellenőrzés által végzett ellenőrzések ellenőrzési jelentései alapján az ellenőrzöttnek intézkedési tervet kell készítenie [Ber. 29. §]."
+    },
+    {
+      "provision_ref": "s435",
+      "section": "435",
+      "title": "435",
+      "content": "A költségvetési szerv vezetőjének az éves ellenőrzési jelentésben kell számot adnia az ellenőrzési tevékenység fejlesztésére vonatkozó javaslatokról [Ber. 31. § (3) bekezdés, bb) pont]."
+    },
+    {
+      "provision_ref": "s436",
+      "section": "436",
+      "title": "436",
+      "content": "A külső ellenőrzés által végzett ellenőrzések ellenőrzési jelentései alapján is intézkedési tervet kell készítenie az ellenőrzött szervnek és tájékoztatnia kell a költségvetési szerv vezetőjét."
+    },
+    {
+      "provision_ref": "s437",
+      "section": "437",
+      "title": "437",
+      "content": "A belső és külső ellenőrzési jelentés megállapításai, javaslatai alapján végrehajtott intézkedésekről, a végre nem hajtott intézkedésekről és azok indokáról az ellenőrzött szerv, illetve szervezeti egység vezetője évente beszámolót készít."
+    },
+    {
+      "provision_ref": "s438",
+      "section": "438",
+      "title": "438",
+      "content": "III. A költségvetési szerv szabálytalanságok kezelésével kapcsolatos eljárásrendjének kialakítása"
+    },
+    {
+      "provision_ref": "s439",
+      "section": "439",
+      "title": "439",
+      "content": "A jelen eljárásrend kiadmányozása mellett a költségvetési szerv vezetője dönthet úgy is, hogy:"
+    },
+    {
+      "provision_ref": "s440",
+      "section": "440",
+      "title": "440",
+      "content": "– szakértői csoport értékelje a költségvetési szerv működése során előforduló szabálytalanságokat, és a szakértői csoport egyúttal javaslatot tesz a szabálytalanságokkal kapcsolatos intézkedésekre; ebben az esetben a csoport működését a Ktv. 53. § (2) bekezdésében leírt fegyelmi tanáccsal kapcsolatos előírásokkal azonos módon szabályozza,"
+    },
+    {
+      "provision_ref": "s441",
+      "section": "441",
+      "title": "441",
+      "content": "– szabálytalansági felelőst jelöl ki a szabálytalanságok észlelésére, jelentésére, nyilvántartására és a kapcsolódó intézkedések koordinálására; ebben az esetben a szabálytalansági felelős munkaköri leírása tartalmazza a feladatot, a jelentési kötelezettségeket."
+    },
+    {
+      "provision_ref": "s442",
+      "section": "442",
+      "title": "442",
+      "content": "A szabálytalanságkezelés szervezeti struktúrában való elhelyezése szempontjából fontos, hogy olyan szintre kell telepíteni a munkakört, hogy a szervezet legfelső vezetőjén kívül más ne befolyásolhassa az általa vizsgált és kezelt ügyekről alkotott objektív bizonyítékokon alapuló véleményét. A szervezet méretére és anyagi forrásaira tekintettel kell eldönteni, hogy milyen formában működjön a szabálytalanságkezelési feladatok ellátása."
+    },
+    {
+      "provision_ref": "s443",
+      "section": "443",
+      "title": "443",
+      "content": "A szervezet vezetője köteles biztosítani a szakértői csoport, illetve a szabálytalansági felelős munkavégzéséhez szükséges feltételeket."
+    },
+    {
+      "provision_ref": "s444",
+      "section": "444",
+      "title": "444",
+      "content": "Szabálytalansági felelős csak főállású, határozatlan idejű jogviszony keretében láthatja el feladatát, de nem szükséges, hogy kizárólag szabálytalanságok kezelésével foglalkozzon. Belső ellenőrzési feladatokat ellátó személy nem jelölhető ki szabálytalansági felelősnek."
+    },
+    {
+      "provision_ref": "s445",
+      "section": "445",
+      "title": "445",
+      "content": "Az általános, a költségvetési szerv egészére érvényes elveket, kötelezettségeket tartalmazó eljárásrend mellett, az egyes szervezeti egységek vezetői kötelesek a saját szervezeti egységeik tevékenységének szabályozása során a szabályzattól való eltérés eseteit, az eltérés, a szabálytalanság következményeit, a korrekciók, intézkedések eseteit, a nyilvántartás és jelentés folyamatait is szabályozni."
+    },
+    {
+      "provision_ref": "s446",
+      "section": "446",
+      "title": "446",
+      "content": "A szabálytalanságok megelőzésében hatékony segítséget nyújtanak a különféle minőségbiztosítási rendszerek."
+    },
+    {
+      "provision_ref": "s447",
+      "section": "447",
+      "title": "447",
+      "content": "Néhány példa a szabálytalanságfajtákra (nem taxatív, példajellegű felsorolás)"
+    },
+    {
+      "provision_ref": "s448",
+      "section": "448",
+      "title": "448",
+      "content": "Vegyes rendelkezések"
+    },
+    {
+      "provision_ref": "s449",
+      "section": "449",
+      "title": "449",
+      "content": "1. A kockázatkezelésről a mindenkor hatályos OMSZ utasítás rendelkezik."
+    },
+    {
+      "provision_ref": "s450",
+      "section": "450",
+      "title": "450",
+      "content": "2. Az OMSZ nevében feladatainak ellátása során fizetési, vagy más teljesítési kötelezettség vállalását (a továbbiakban: kötelezettségvállalást), az utalványozásra, valamint a szerződéskötésekre vonatkozó előírásokat, a kötelezettségvállalás, utalványozás, valamint a szerződéskötés rendjéről szóló mindenkori OMSZ utasítás szabályozza."
+    },
+    {
+      "provision_ref": "s451",
+      "section": "451",
+      "title": "451",
+      "content": "3. Szakmai cím adományozása"
+    },
+    {
+      "provision_ref": "s452",
+      "section": "452",
+      "title": "452",
+      "content": "3. 1. Az elnök a kormánytisztviselők jogállásáról szóló 2010. évi LVIII. törvény 14. §-a felhatalmazása alapján az abban foglalt feltételek mellett, közigazgatási tanácsadói, illetve közigazgatási főtanácsadói címet adományozhat."
+    },
+    {
+      "provision_ref": "s453",
+      "section": "453",
+      "title": "453",
+      "content": "3.2. A két adományozható cím együttesen nem haladhatja meg az OMSZ felsőfokú iskolai végzettségű kormánytisztviselői létszámának 20%-át."
+    },
+    {
+      "provision_ref": "s454",
+      "section": "454",
+      "title": "454",
+      "content": "4. Képzettségi pótlékra jogosító munkakörök"
+    },
+    {
+      "provision_ref": "s455",
+      "section": "455",
+      "title": "455",
+      "content": "Az OMSZ nem állapít meg képzettségi pótlékot, ezért arra jogosító munkaköröket sem határoz meg."
+    },
+    {
+      "provision_ref": "s456",
+      "section": "456",
+      "title": "456",
+      "content": "Az Országos Meteorológiai Szolgálat szervezeti ábrája"
+    },
+    {
+      "provision_ref": "s457",
+      "section": "457",
+      "title": "457",
+      "content": "1 Az utasítást az 5/2019. (V. 10.) AM utasítás 3. §-a hatályon kívül helyezte 2019. május 11. napjával."
+    }
+  ]
+}

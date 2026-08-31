@@ -1,0 +1,493 @@
+{
+  "id": "hu-law-2020-3-b0-53",
+  "type": "statute",
+  "title": "3/2020. (II. 27.) PM utasítás a Pénzügyminisztérium beszerzéseinek szabályozásáról",
+  "status": "repealed",
+  "in_force_date": "2020-02-28",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2020-3-B0-53",
+  "description": "a Pénzügyminisztérium beszerzéseinek szabályozásáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "chapter": "I. Fejezet AZ UTASÍTÁS HATÁLYA",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § Az utasítás hatálya kiterjed a Pénzügyminisztérium (a továbbiakban: PM) által a PM igazgatása, valamint a PM fejezeti kezelésű előirányzatai terhére megvalósuló valamennyi visszterhes megrendelésre és szerződéskötésre."
+    },
+    {
+      "provision_ref": "s2",
+      "chapter": "I. Fejezet AZ UTASÍTÁS HATÁLYA",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § Nem terjed ki az utasítás hatálya arra a beszerzésre, amelynél – társfinanszírozására tekintettel – a finanszírozásban részt vevő nemzetközi szervezetek által előírt feltételek szerinti eljárást kell alkalmazni, továbbá amelyet beszerzőként a PM felügyelete vagy irányítása alá tartozó költségvetési szerv vagy külön szerződés alapján gazdasági társaság folytat le a saját beszerzési szabályzata szerint."
+    },
+    {
+      "provision_ref": "s3",
+      "chapter": "I. Fejezet AZ UTASÍTÁS HATÁLYA",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § Ha a beszerzést a PM más ajánlatkérővel együttesen bonyolítja le, ennek feltételeit – különös tekintettel a felelősségi rendre – a résztvevők külön szabályozzák."
+    },
+    {
+      "provision_ref": "s4",
+      "chapter": "I. Fejezet AZ UTASÍTÁS HATÁLYA",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § Amennyiben külön utasítás másként nem rendelkezik, jelen utasítás rendelkezéseit kell alkalmazni a protokoll és reprezentációs szolgáltatás, valamint fordítási szolgáltatás igénybevételére irányuló beszerzésekre is."
+    },
+    {
+      "provision_ref": "s5",
+      "chapter": "I. Fejezet AZ UTASÍTÁS HATÁLYA",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § A jelen utasításban nem szabályozott kérdésekben a közbeszerzésekről szóló 2015. évi CXLIII. törvény (a továbbiakban: Kbt.), valamint a Pénzügyminisztérium Szervezeti és Működési Szabályzatáról szóló PM utasítás előírásait kell alkalmazni."
+    },
+    {
+      "provision_ref": "s6",
+      "chapter": "II. Fejezet ÉRTELMEZŐ RENDELKEZÉSEK",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § Jelen utasítás alkalmazásában: 1. beszerzés: árubeszerzés, szolgáltatási koncesszió, szolgáltatás megrendelése, építési beruházás vagy építési koncesszió megrendelésére vagy ilyen tárgyban szerződés megkötésére irányuló visszterhes kötelezettségvállalás; 2. beszerzési eljárás: olyan, a közbeszerzési szabályok hatálya alá nem tartozó eljárás, amely során a PM mint ajánlatkérő legalább három érintett gazdasági szereplőt ajánlattételre hív fel; 3. gazdálkodási szervezet: a fejezeti kezelésű előirányzatokat érintő ügyekben a Fejezeti Költségvetési Főosztály, a PM igazgatását érintő ügyekben az Intézményi Gazdálkodási Főosztály; 4. indikatív árajánlat: a szakmai szervezeti egység által a megrendelésekhez és az európai uniós forrásból megvalósuló beszerzésekhez kapcsolódóan, valamint a Biztonsági és Igazgatási Főosztály által az informatikai beszerzési és az informatikai fejlesztési igényekhez kapcsolódóan, a piaci ár és a becsült érték meghatározása, illetve alátámasztása érdekében beszerzett árajánlat; 5. informatikai beszerzés: olyan beszerzés, amelynek tárgya informatikai eszköz, szoftver, alkalmazásfejlesztés, valamint ezekhez kapcsolódó szolgáltatások beszerzése; 6. szakmai szervezeti egység: a PM azon szervezeti egysége, amely az adott előirányzat felhasználását és az azzal összefüggő társadalmi cél működtetését, szakmai feladat elvégzését a) a PM igazgatásának költségvetése, b) európai uniós forrás esetén hatályos támogatási okiratba foglalt európai uniós forrás, c) a fejezeti kezelésű előirányzatok terhére szakmai felelősként ellátja. 7. képzési beszerzés: katonai képzésnek nem minősülő képzések – ideértve különösen a felnőttképzéseket –, illetve oktatások, továbbá a képzésekhez kapcsolódó oktatási tananyag- vagy tesztfejlesztések visszterhes beszerzése."
+    },
+    {
+      "provision_ref": "s7",
+      "chapter": "III. Fejezet A BESZERZÉSEK TERVEZÉSE",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § (1) A szakmai szervezeti egység az irányítását ellátó helyettes államtitkár – Miniszteri Kabinet esetében – a miniszter kabinetfőnöke vagy a miniszteri biztos által jóváhagyott informatikai beszerzési igényeit a rendelkezésére bocsátott összesítő táblázat és alkalmazásfejlesztési adatlap kitöltésével a tárgyévet megelőző év július 31-ig elektronikus úton megküldi a Biztonsági és Igazgatási Főosztály részére. (2) A beérkezett igények alapján a Biztonsági és Igazgatási Főosztály elkészíti a PM éves informatikai beszerzési tervét és az éves informatikai fejlesztési tervét (a továbbiakban együtt: informatikai beszerzési terv) is, amelyet – az Intézményi Gazdálkodási Főosztály egyetértését követően – a közigazgatási államtitkár hagy jóvá. (3) A jóváhagyott informatikai beszerzési terv Digitális Kormányzati Ügynökség Központosított Közbeszerzési Portáljára szeptember 30-ig történő feltöltéséről a Biztonsági és Igazgatási Főosztály gondoskodik. (4) A jóváhagyott informatikai beszerzési tervről a Biztonsági és Igazgatási Főosztály tájékoztatja a szakmai szervezeti egységeket, a Jogi és Kodifikációs Főosztályt, valamint a gazdálkodási szervezetet."
+    },
+    {
+      "provision_ref": "s8",
+      "chapter": "III. Fejezet A BESZERZÉSEK TERVEZÉSE",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § (1) Az Intézményi Gazdálkodási Főosztály felhívására a tárgyévet megelőző év október 15. napjáig a szakmai szervezeti egység az irányítását ellátó államtitkár, a miniszter kabinetfőnöke vagy a miniszteri biztos által jóváhagyott adatszolgáltatást nyújt – az informatikai beszerzési igények kivételével – valamennyi, a tárgyévre tervezett beszerzési igényéről, illetve kötelezettségvállalásáról. (1a) Az (1) bekezdés szerinti adatszolgáltatásban a büntetés-végrehajtási szervezet részéről a központi államigazgatási szervek és a rendvédelmi szervek irányában fennálló egyes ellátási kötelezettségekről, a termékek és szolgáltatások átadás-átvételének és azok ellentételezésének rendjéről szóló 44/2011. (III. 23.) Korm. rendelet (a továbbiakban: Kr.) hatálya alá tartozó tárgyévi beszerzési igényekről is adatot kell szolgáltatni. (2) Az (1) bekezdés szerinti adatszolgáltatásban foglalt beszerzési igényekről az Intézményi Gazdálkodási Főosztály legkésőbb november 10. napjáig tájékoztatja a Jogi és Kodifikációs Főosztályt, valamint az adatszolgáltatásban foglalt képzési beszerzési igényekről a Humánpolitikai Főosztályt, az alábbi adatok megadásával: a) a beszerzés tárgya, b) a beszerzés rövid indokolása, c) a beszerzés tervezett mennyisége, d) a beszerzés nettó becsült értéke, e) a beszerzés pénzügyi forrása, f) a beszerzés kezdeményezésének várható ideje, g) a szerződés teljesítésének várható ideje, h) a szervezeti egység, illetve a kapcsolattartó ügyintéző megnevezése, valamint i) közbeszerzési igények esetén az irányadó eljárásrend, a tervezett eljárás típusa."
+    },
+    {
+      "provision_ref": "s9",
+      "chapter": "III. Fejezet A BESZERZÉSEK TERVEZÉSE",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § (1) A 8. § (2) bekezdése szerint megküldött képzési beszerzési igények alapján a Humánpolitikai Főosztály a kormányzati képzési és oktatási beszerzésekről szóló 396/2023. (VIII. 24.) Korm. rendeletben (a továbbiakban: R.) foglaltak szerint elkészíti a Pénzügyminisztérium éves képzési tervét, amelyet – a gazdálkodási szervezet egyetértését követően – a közigazgatási államtitkár hagy jóvá. (2) A jóváhagyott képzési terv R.-ben meghatározottak szerint történő feltöltéséről a Humánpolitikai Főosztály gondoskodik. (3) A jóváhagyott képzési tervről a Humánpolitikai Főosztály tájékoztatja a szakmai szervezeti egységeket, a Jogi és Kodifikációs Főosztályt, valamint a gazdálkodási szervezetet."
+    },
+    {
+      "provision_ref": "s9a",
+      "chapter": "III. Fejezet A BESZERZÉSEK TERVEZÉSE",
+      "section": "9/A",
+      "title": "9/A. §",
+      "content": "9/A. § (1) Az elfogadott költségvetési előirányzatok és a 8. § (2) bekezdése szerint megküldött beszerzési igények figyelembevételével a Jogi és Kodifikációs Főosztály a) a Nemzeti Kommunikációs Hivatal jogállásáról és a kormányzati kommunikációs beszerzésekről szóló 162/2020. (IV. 30.) Korm. rendelet (a továbbiakban: R1.) hatálya alá tartozó beszerzési igények vonatkozásában az éves kommunikációs tervet és az éves szervezetfejlesztési tervet november 30. napjáig, b) a közbeszerzési igények vonatkozásában az éves közbeszerzési tervet a tárgyév január 30. napjáig, c) a Kr. 6. §-a szerinti beszerzési igények vonatkozásában az éves igénybejelentést és a lehívás éves ütemezését (a továbbiakban együtt: éves igénybejelentés) a tárgyév január 6. napjáig, d) a Kr. 2. §-a szerinti beszerzési igények vonatkozásában a Kr. 1. § (8) bekezdése szerinti negyedéves igénybejelentést (a továbbiakban: negyedéves igénybejelentés) minden negyedév utolsó hónapjának 5. napjáig készíti el. (2) Az éves kommunikációs tervet, az éves szervezetfejlesztési tervet, az éves igénybejelentést, a negyedéves igénybejelentést és az éves közbeszerzési tervet – a gazdálkodási szervezet egyetértését követően – a közigazgatási államtitkár hagyja jóvá. (3) A jóváhagyott éves kommunikációs terv, éves szervezetfejlesztési terv az R1.-ben meghatározottak szerint, az éves és a negyedéves igénybejelentés a Kr.-ben meghatározottak szerint, valamint az éves közbeszerzési terv jogszabályban meghatározottak szerint történő feltöltéséről a Jogi és Kodifikációs Főosztály gondoskodik. (4) A jóváhagyott éves kommunikációs tervről, az éves szervezetfejlesztési tervről, az éves és a negyedéves igénybejelentésről és az éves közbeszerzési tervről a Jogi és Kodifikációs Főosztály tájékoztatja a gazdálkodási szervezetet."
+    },
+    {
+      "provision_ref": "s10",
+      "chapter": "III. Fejezet A BESZERZÉSEK TERVEZÉSE",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § (1) Közbeszerzési eljárás – a (2) bekezdésben foglalt kivétellel – a közbeszerzési terv alapján indítható. (2) A közbeszerzési tervben nem szereplő, új közbeszerzési igény legkésőbb a tárgyév szeptember 30. napjáig jelenthető be. A bejelentést követően a Jogi és Kodifikációs Főosztály módosítja a közbeszerzési tervet. A közbeszerzési terv módosítását a közigazgatási államtitkár hagyja jóvá."
+    },
+    {
+      "provision_ref": "s11",
+      "chapter": "IV. Fejezet A BESZERZÉS KEZDEMÉNYEZÉSE",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § (1) A beszerzés kezdeményezésére bármely szakmai szervezeti egység vezetője jogosult, azzal, hogy a beszerzés kezdeményezéséhez a szakmai szervezeti egység irányítását ellátó helyettes államtitkár és államtitkár vagy miniszteri biztos, a Miniszteri Kabinet és a miniszter közvetlen irányítása alá tartozó főosztályok által kezdeményezett beszerzés esetén a miniszter kabinetfőnökének egyetértése szükséges. (2) Szerződéskötés kezdeményezése esetén az 1. melléklet szerinti Szerződéses adatlapot (a továbbiakban: Szerződéses adatlap) és annak mellékleteit a szakmai szervezeti egység készíti elő. (3) A Kr. hatálya alá tartozó, a nettó százezer forintot elérő vagy meghaladó, de az uniós közbeszerzési értékhatárokat el nem érő beszerzést haladéktalanul, a termék vagy szolgáltatás igénybevételét legalább 50 munkanappal megelőzően, az R. hatálya alá tartozó beszerzést haladéktalanul, a szolgáltatás igénybevételét legalább 25 munkanappal megelőzően, az R1. hatálya alá tartozó beszerzést haladéktalanul, a szolgáltatás igénybevételét legalább 20 munkanappal megelőzően kell kezdeményezni."
+    },
+    {
+      "provision_ref": "s12",
+      "chapter": "IV. Fejezet A BESZERZÉS KEZDEMÉNYEZÉSE",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. § A szakmai szervezeti egység felelős az előirányzat szabályos, jogszerű, gazdaságos és szakmailag megalapozott felhasználásáért, a beszerzési eljárás megindításáért és a szükséges belső egyeztetések lefolytatásáért."
+    },
+    {
+      "provision_ref": "s13",
+      "chapter": "IV. Fejezet A BESZERZÉS KEZDEMÉNYEZÉSE",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. § (1) Az informatikai beszerzésre irányuló igény esetén a szakmai szervezeti egység a beszerzés kezdeményezését megelőzően köteles egyeztetést folytatni a Biztonsági és Igazgatási Főosztállyal a beszerzési igény szakmai tartalmának részletes kidolgozása érdekében. A Biztonsági és Igazgatási Főosztály a szakmai szervezeti egységre vonatkozó kötelezettségek teljesítéséért a szakmai szervezeti egységgel egyetemlegesen felelős, a szakmai szervezeti egységet megillető jogokat közösen gyakorolják. (2) Informatikai alkalmazásfejlesztési igények esetén a szakmai szervezeti egység – a beszerzés kezdeményezése előtt – az (1) bekezdés szerinti egyeztetés eredményeként a Biztonsági és Igazgatási Főosztályon mint ágazati integrátoron keresztül gondoskodik a központi alkalmazás-szolgáltató engedélyének beszerzéséről. (3)"
+    },
+    {
+      "provision_ref": "s13a",
+      "chapter": "IV. Fejezet A BESZERZÉS KEZDEMÉNYEZÉSE",
+      "section": "13/A",
+      "title": "13/A. §",
+      "content": "13/A. § (1) A Kr. hatálya alá tartozó, a nettó százezer forintot elérő vagy meghaladó, de az uniós közbeszerzési értékhatárokat el nem érő beszerzés kezdeményezése esetén a szakterület az igénybejelentést – az igényelt termék vagy szolgáltatás mennyiségét, pontos műszaki tartalmát, paramétereit, minőségét, valamint a teljesítés helyét és teljesítési határidőt meghatározva – a gazdálkodási szervezeten keresztül a Jogi és Kodifikációs Főosztály részére továbbítja. (2) A Jogi és Kodifikációs Főosztály az igénybejelentést – ajánlatkérési célból – elektronikus úton a Központi Ellátó Szerv (a továbbiakban: KESZ) részére megküldi. A Jogi és Kodifikációs Főosztály a KESZ esetleges hiánypótlási felhívását a szakterület részére soron kívül továbbítja, amely annak 3 munkanapon belül köteles eleget tenni. A hiánypótlást a Jogi és Kodifikációs Főosztály küldi meg a KESZ részére. (3) A Jogi és Kodifikációs Főosztály a KESZ által kijelölt gazdasági társaságtól érkező ajánlatot a szakterület részére továbbítja. A szakterület 5 munkanapon belül megvizsgálja az ajánlatot, és az alapján jelzi a Jogi és Kodifikációs Főosztály részére, hogy azt elfogadja, vagy a Kr.-ben foglalt indokok alapján elutasítja. (4) Ha a szakterület az ajánlatot elfogadja, akkor a megrendelés tervezetét, illetve a szerződéses adatlapot soron kívül előkészíti, és a megrendelést, illetve a szerződéskötést haladéktalanul kezdeményezi. (5) Ha a szakterület az ajánlatot elutasítja, akkor a Kr. 3. § (5) és (5a) bekezdése szerint hitelt érdemlő módon bizonyítani köteles a kedvezőbb beszerzési ajánlati árat. (6) Ha a KESZ kizárólag minőségi okokból nem képes a beszerzési igény teljesítésére gazdasági társaságot kijelölni, és tárgyalást kezdeményez, erről a Jogi és Kodifikációs Főosztály a szakterületet soron kívül értesíti. A szakterület az így kapott szerződéses ajánlatot haladéktalanul megvizsgálja, és annak elutasítása esetén a nyilatkozatát köteles a Kr. szerinti indokolással ellátni. (7) Ha a KESZ az ellátási kötelezettséget valamely oknál fogva nem vagy csak részben tudja teljesíteni, illetve a (6) bekezdés szerinti tárgyalás nem vezet eredményre, a KESZ által kiállított, a Kr. 1. § (4) bekezdése szerinti nyilatkozatot a Jogi és Kodifikációs Főosztály a szakterület részére továbbítja."
+    },
+    {
+      "provision_ref": "s14",
+      "chapter": "V. Fejezet A BESZERZÉS ELŐZETES JÓVÁHAGYÁSA",
+      "section": "14",
+      "title": "14. §",
+      "content": "14. § (1) A PM nevében történő kötelezettségvállaláshoz a) a nettó hárommillió forintot el nem érő kötelezettségvállalások esetén a gazdálkodásért felelős helyettes államtitkár, akadályoztatása esetén, vagy ha a tisztség nincs betöltve, az Intézményi Gazdálkodási Főosztály vezetője, mindkettőjük akadályoztatása, illetve távolléte esetén a gazdálkodásért felelős helyettes államtitkárt a Pénzügyminisztérium Szervezeti és Működési Szabályzatáról szóló PM utasítás alapján helyettesítő személy, b) a nettó hárommillió forintot elérő vagy azt meghaladó kötelezettségvállalások esetén a közigazgatási államtitkár, akadályoztatása esetén a jogi, koordinációs és igazgatási ügyekért felelős helyettes államtitkár előzetes jóváhagyása szükséges. (2) Az (1) bekezdés szerinti előzetes jóváhagyás a) az (1) bekezdés a) pontjában foglalt esetben a Pénzügyminisztérium kötelezettségvállalásának szabályozásáról szóló PM utasítás szerinti Kötelezettségvállalási adatlapon (a továbbiakban: Kötelezettségvállalási adatlap), b) az (1) bekezdés b) pontjában foglalt esetben a Szerződéses adatlapon történik. (3) A jogszabályban meghatározott mértékű többletköltség-igény piaci árnak való megfelelésének alátámasztása céljából történő igazságügyi szakértői vélemény (a továbbiakban: szakértői vélemény) beszerzéséhez – tekintet nélkül a beszerzés becsült értékére, valamint arra, hogy a beszerzés természetes személlyel, jogi személlyel vagy jogi személyiség nélküli gazdasági társasággal valósul meg – a közigazgatási államtitkár előzetes egyetértése, a szerződéskötést megelőzően a gazdálkodásért felelős helyettes államtitkár előzetes jóváhagyása szükséges. A közigazgatási államtitkár az előzetes egyetértését a Jogi és Kodifikációs Főosztály által előkészített, a beszerzés engedélyezése iránti feljegyzésen rögzíti. A gazdálkodásért felelős helyettes államtitkár előzetes jóváhagyása a kötelezettségvállalási adatlapon történik, Szerződéses adatlap kitöltése nem szükséges. Az egészségügyi tárgyú szakértői vélemény beszerzése esetén a közigazgatási államtitkár előzetes egyetértése előtt a Miniszteri Kabinet részére elektronikus úton megküldött tájékoztatónak a Miniszteri Kabinet részéről elektronikus úton történő jóváhagyása szükséges."
+    },
+    {
+      "provision_ref": "s15",
+      "chapter": "VI. Fejezet A MEGRENDELÉS",
+      "section": "15",
+      "title": "15. §",
+      "content": "15. § (1) Ha a beszerzés tárgya egyszerű megítélésű, teljesítése rövid határidőn belül történik, valamint a kötelezettségvállalás értéke nem éri el a nettó hárommillió forintot, szerződés megkötése helyett megrendelés is tehető. (2) Európai uniós forrásból finanszírozott, az (1) bekezdés hatálya alá tartozó beszerzés esetén – amennyiben azt a forráshoz kapcsolódó projekt megkívánja – a szakmai szervezeti egység a piaci ár alátámasztását szolgáló indikatív árajánlatokat köteles beszerezni."
+    },
+    {
+      "provision_ref": "s16",
+      "chapter": "VI. Fejezet A MEGRENDELÉS",
+      "section": "16",
+      "title": "16. §",
+      "content": "16. § A 15. § (1) bekezdése szerinti kezdeményezés esetén a szakmai szervezeti egység a megrendelés tervezetét két példányban, valamint a Kötelezettségvállalási adatlapot egy példányban a gazdálkodási szervezeten keresztül köteles megküldeni a 14. § szerinti előzetes jóváhagyásra."
+    },
+    {
+      "provision_ref": "s17",
+      "chapter": "VI. Fejezet A MEGRENDELÉS",
+      "section": "17",
+      "title": "17. §",
+      "content": "17. § A megrendelésen fel kell tüntetni legalább a) a megrendelő és a partner azonosítására alkalmas adatokat, így különösen nevét, székhelyét, adószámát, nyilvántartási számát, bankszámlaszámát, képviselőjének vagy kapcsolattartójának nevét, b) a megrendelés tárgyát, a teljesítés mennyiségi és minőségi jellemzőinek a lehetőségek szerinti legrészletesebb feltüntetésével, meghatározásával, c) a teljesítés határidejét, d) a díjat és a fizetési feltételeket, e) az államháztartásról szóló törvény végrehajtásáról szóló 368/2011. (XII. 31.) Korm. rendelet (a továbbiakban: Ávr.) 50. § (1) és (1a) bekezdésében meghatározott adatokat és f) a teljesítésigazoló nevét vagy titulusát."
+    },
+    {
+      "provision_ref": "s18",
+      "chapter": "VI. Fejezet A MEGRENDELÉS",
+      "section": "18",
+      "title": "18. §",
+      "content": "18. § A megrendelést – a pénzügyi ellenjegyzést, valamint az előzetes jóváhagyást követően – a PM képviseletében a Pénzügyminisztérium kötelezettségvállalásának szabályozásáról szóló PM utasítás szerinti kötelezettségvállalásra jogosult személynek kell aláírnia. A partner által megküldött, a megrendelés befogadásáról szóló írásbeli visszaigazolás a megrendelés gazdálkodási szervezetet megillető példányának mellékletét képezi."
+    },
+    {
+      "provision_ref": "s19",
+      "chapter": "VI. Fejezet A MEGRENDELÉS",
+      "section": "19",
+      "title": "19. §",
+      "content": "19. § Ha a megrendelés a partner által meghatározott formanyomtatvánnyal valósul meg, a 17. §-ban meghatározott tartalmi elemeket – ha a formanyomtatvány nem tartalmazza – a Kötelezettségvállalási adatlapon szükséges feltüntetni."
+    },
+    {
+      "provision_ref": "s20",
+      "chapter": "VI. Fejezet A MEGRENDELÉS",
+      "section": "20",
+      "title": "20. §",
+      "content": "20. § (1) A gazdálkodási szervezet havi rendszerességgel, minden tárgyhót követő hónap 15. napjáig a Jogi és Kodifikációs Főosztály részére tájékoztatást nyújt a tárgyhó utolsó napjáig nyilvántartásba vett megrendelésekről, amelyben feltünteti a megrendelések a) tárgyát, b) értékét és c) időpontját. (2) A Jogi és Kodifikációs Főosztály az (1) bekezdésben foglalt adatszolgáltatás alapján megvizsgálja a megrendelések Kbt.-vel való összhangját, és – a törvényben foglalt feltételek fennállása esetén – megállapítja a jövőbeni megrendeléseket érintő közbeszerzési kötelezettséget. (3) Ha a Jogi és Kodifikációs Főosztály megítélése szerint közbeszerzési kötelezettség áll fenn, úgy arról tájékoztatja a gazdálkodási szervezetet. Az adott tárgyban a soron következő kötelezettségvállalásra kizárólag közbeszerzési eljárás lefolytatását követően kerülhet sor."
+    },
+    {
+      "provision_ref": "s21",
+      "chapter": "VII. Fejezet A BESZERZÉSI ELJÁRÁS ÉS A SZERZŐDÉSKÖTÉS",
+      "section": "21",
+      "title": "21. §",
+      "content": "21. § (1) A közbeszerzési értékhatárt el nem érő szerződések megkötésére a szakmai szervezeti egység által kiválasztott, szakmailag és gazdaságilag legmegfelelőbb gazdasági szereplővel kerül sor. A lehetséges szerződéses partner személyére – a tevékenységi körére és átláthatóságára figyelemmel – történő javaslattétel a Szerződéses adatlapon történik. (2) Az európai uniós forrásból megvalósuló beszerzés esetén – amennyiben az a forráshoz kapcsolódó projektre irányadó előírások miatt szükséges – a szerződő partner kiválasztására beszerzési eljárás keretében kerül sor. Amennyiben beszerzési eljárás lefolytatása nem indokolt, a szakmai szervezeti egység köteles a projekt előírásai szerint szükséges számú indikatív árajánlat beszerzéséről vagy a piaci ár egyéb módon történő alátámasztásáról gondoskodni."
+    },
+    {
+      "provision_ref": "s22",
+      "chapter": "VII. Fejezet A BESZERZÉSI ELJÁRÁS ÉS A SZERZŐDÉSKÖTÉS",
+      "section": "22",
+      "title": "22. §",
+      "content": "22. § (1) A szerződéskötést a szakmai szervezeti egység a Szerződéses adatlap és mellékleteinek a Jogi és Kodifikációs Főosztályhoz és a gazdálkodási szervezethez elektronikus úton történő megküldésével kezdeményezi. (2) A Szerződéses adatlap beérkezését követően a Jogi és Kodifikációs Főosztály és a gazdálkodási szervezet 5 munkanapon belül megvizsgálja a dokumentumokat, és szükség esetén javaslatot tesz annak módosítására, kiegészítésére, más szakterület bevonására. Ha a Jogi és Kodifikációs Főosztály a beszerzési eljárás lefolytatásának, illetve a szerződés megkötésének jogi akadályát látja, akkor a beszerzés nem folytatható le, a szerződés nem köthető meg. A Jogi és Kodifikációs Főosztály a beszerzés jogi akadályáról elektronikusan tájékoztatja a szakmai szervezeti egységet. (3) Ha a Jogi és Kodifikációs Főosztály a beszerzés megvalósításának jogi akadályát nem látja, a szakmai szervezeti egység – a 11. § (1) bekezdése szerinti egyetértést követően – a gazdálkodási szervezeten keresztül a Jogi és Kodifikációs Főosztályhoz továbbítja a Szerződéses adatlapot és annak mellékleteit. (4) Képzésre, tanácsadásra irányuló, valamint természetes személlyel kötendő szerződés iránti kezdeményezés esetén a Humánpolitikai Főosztály, informatikai beszerzési igény, valamint a működéstámogatással kapcsolatos igény esetén a Biztonsági és Igazgatási Főosztály Szerződéses adatlapon történő egyetértése is szükséges a beszerzés megvalósításához. (5) (6) Ha a NISZ Nemzeti Infokommunikációs Szolgáltató Zrt.-vel történő előzetes egyeztetés szükséges, azt a Biztonsági és Igazgatási Főosztály végzi. Az egyeztetésről írásos dokumentum készül, amely a Szerződéses adatlap mellékletét képezi. (7) A 13. § (1) bekezdése szerinti egyeztetés elmulasztása esetén a Biztonsági és Igazgatási Főosztály jogosult az egyetértést megtagadni, a szakmai szervezeti egységet az egyeztetés lefolytatására felszólítani, valamint a beszerzés kezdeményezésének ügyiratát a kezdeményező szakmai szervezeti egység részére visszaküldeni. (8) Az informatikai beszerzési igény – a Nemzeti Hírközlési és Informatikai Tanácsról, valamint a Digitális Kormányzati Ügynökség Zártkörűen Működő Részvénytársaság és a kormányzati informatikai beszerzések központosított közbeszerzési rendszeréről szóló Korm. rendeletben (a továbbiakban: R2.) foglaltak szerinti – rendkívüli igényként történő megvalósítására a szakmai szervezeti egység a Szerződéses adatlapon tesz javaslatot, amelyet a Biztonsági és Igazgatási Főosztály a Szerződéses adatlaphoz mellékelt feljegyzésében informatikai szakmai szempontból véleményez. (9) A Biztonsági és Igazgatási Főosztály a Szerződéses adatlap aláírásával igazolja, hogy az informatikai tárgyú beszerzési igénnyel szakmailag egyetért, továbbá az informatikai beszerzési igény vonatkozásában a 13. § (1) és (2) bekezdésében foglaltak teljesültek, és a) az informatikai beszerzési tervben szerepel, vagy b) az informatikai beszerzési tervben nem szerepel, és annak rendkívüli igényként történő megvalósításával egyetért. (10) A Humánpolitikai Főosztály a Szerződéses adatlap aláírásával igazolja, hogy a képzési beszerzési igénnyel szakmailag egyetért, és a képzési beszerzési igény a) az éves képzési tervben szerepel, vagy b) az éves képzési tervben nem szerepel, és annak rendkívüli igényként történő megvalósításával egyetért."
+    },
+    {
+      "provision_ref": "s23",
+      "chapter": "VII. Fejezet A BESZERZÉSI ELJÁRÁS ÉS A SZERZŐDÉSKÖTÉS",
+      "section": "23",
+      "title": "23. §",
+      "content": "23. § (1) Ha a Jogi és Kodifikációs Főosztály a beszerzés megvalósításának jogi akadályát nem látja, a Szerződéses adatlapot a 14. § (1) bekezdése szerinti előzetes jóváhagyásra továbbítja. (2) Informatikai beszerzési igény esetén az előzetes jóváhagyást követően a Jogi és Kodifikációs Főosztály a beszerzés ügyiratának megküldésével haladéktalanul tájékoztatja a Biztonsági és Igazgatási Főosztályt, amely haladéktalanul intézkedik a Digitális Kormányzati Ügynökség Zártkörűen Működő Részvénytársaság (a továbbiakban: DKÜ) R2.-ben foglaltak szerinti, a beszerzés megvalósíthatóságával kapcsolatos döntésének beszerzése érdekében. (3) A Biztonsági és Igazgatási Főosztály a DKÜ döntéséről haladéktalanul tájékoztatja a Jogi és Kodifikációs Főosztályt, amely a döntésben foglaltakra tekintettel intézkedik a beszerzés megvalósítása érdekében. Ha a DKÜ a beszerzés vonatkozásában a PM saját hatáskörben történő megvalósításáról döntött, úgy a Biztonsági és Igazgatási Főosztály tájékoztatást nyújt azon hatályos keretmegállapodásokról, amely igénybevételével a beszerzés megvalósítható. (3a) A képzési beszerzési igény esetén az előzetes jóváhagyást követően a Jogi és Kodifikációs Főosztály a beszerzés ügyiratának megküldésével haladéktalanul tájékoztatja a Humánpolitikai Főosztályt, amely haladéktalanul intézkedik az R.-ben foglaltak szerinti, a beszerzés megvalósíthatóságával kapcsolatos döntés beszerzése érdekében. (3b) A Humánpolitikai Főosztály az R. szerinti döntésről tájékoztatja a Jogi és Kodifikációs Főosztályt, amely a döntésben foglaltakra tekintettel szükség esetén intézkedik a beszerzés megvalósítása érdekében. Ha a beszerzés vonatkozásában a saját hatáskörben történő megvalósításról döntöttek, a Humánpolitikai Főosztály tájékoztatást nyújt azon hatályos keretmegállapodásról, amely igénybevételével a beszerzés megvalósítható. (4) Az R1. hatálya alá tartozó beszerzési igény esetén a Jogi és Kodifikációs Főosztály – az előzetes jóváhagyást követően – a szolgáltatás igénybevételét 15 munkanappal megelőzően intézkedik az R1.-ben foglaltak szerinti, a beszerzés megvalósíthatóságával kapcsolatos döntés beszerzése érdekében. (5) Ha a beszerzés az R1. szerint nem kerül jóváhagyásra, a Jogi és Kodifikációs Főosztály az iratanyag beérkezését követő három munkanapon belül tájékoztatja a meghiúsulásról a szakmai szervezeti egységet és a gazdálkodási szervezetet. (6) A kormányzati igazgatási szervek, valamint meghatározott gazdasági társaságok egyes szerződéseinek megszűnéséről, továbbá miniszteri jóváhagyásáról szóló 430/2022. (X. 28.) Korm. rendelet, a kormányzati igazgatási szervek, valamint meghatározott gazdasági társaságok egyes szerződéseinek miniszteri jóváhagyásáról szóló 330/2022. (IX. 5.) Korm. rendelet, valamint a kormányzati igazgatási szervek, valamint meghatározott gazdasági társaságok egyes szerződéseinek veszélyhelyzeti szabályairól szóló 188/2023. (V. 22.) Korm. rendelet hatálya alá tartozó beszerzés vonatkozásában az előírt bejelentési és engedélyeztetési kötelezettség teljesítéséről a Jogi és Kodifikációs Főosztály gondoskodik."
+    },
+    {
+      "provision_ref": "s24",
+      "chapter": "VII. Fejezet A BESZERZÉSI ELJÁRÁS ÉS A SZERZŐDÉSKÖTÉS",
+      "section": "24",
+      "title": "24. §",
+      "content": "24. § A szakmai szervezeti egység javaslata, valamint az előzetes jóváhagyó erre irányuló döntése esetén a szerződéses partner kiválasztása érdekében legalább három ajánlat bekérésével beszerzési eljárást kell lefolytatni, amelynek lebonyolításáról a Jogi és Kodifikációs Főosztály gondoskodik."
+    },
+    {
+      "provision_ref": "s25",
+      "chapter": "VII. Fejezet A BESZERZÉSI ELJÁRÁS ÉS A SZERZŐDÉSKÖTÉS",
+      "section": "25",
+      "title": "25. §",
+      "content": "25. § (1) Az ajánlati felhívás előkészítéséről, közzétételéről, illetve az ajánlattevőknek egyidejűleg, írásban közvetlenül történő eljuttatásáról a Jogi és Kodifikációs Főosztály gondoskodik a szakmai szervezeti egység egyidejű tájékoztatása mellett. (2) Ha az adott beszerzési eljárásban kiegészítő tájékoztatáskérés érkezik, a tájékoztatási kötelezettséget – a szakmai megítélést igénylő kérdések tekintetében – a Jogi és Kodifikációs Főosztály a szakmai szervezeti egységgel egyeztetve teljesíti."
+    },
+    {
+      "provision_ref": "s26",
+      "chapter": "VII. Fejezet A BESZERZÉSI ELJÁRÁS ÉS A SZERZŐDÉSKÖTÉS",
+      "section": "26",
+      "title": "26. §",
+      "content": "26. § (1) A beszerzési eljárás során beérkezett ajánlatokat a Jogi és Kodifikációs Főosztály az ajánlati felhívásban foglaltaknak, illetve a jogszabályi előírásoknak való megfelelőség tekintetében, a szakmai szervezeti egység pedig szakmai szempontból három munkanapon belül megvizsgálja és – a Szerződéses adatlapon rögzített bírálati szempontoknak megfelelően – értékeli. A szakmai értékelés eredményét a szakmai szervezeti egység részletesen dokumentálja, indokolással látja el, valamint szükség esetén – a hiány konkrét megjelölésével – hiánypótlási felhívás küldésére tesz javaslatot a Jogi és Kodifikációs Főosztály részére. (2) Ha az ajánlat szakmai vagy jogi szempontból hiányos, a Jogi és Kodifikációs Főosztály megfelelő határidő tűzésével az ajánlattevőt hiánypótlásra hívja fel. A beérkezett hiánypótlás kiértékelésre az (1) bekezdés szerint kerül sor. (3) A beérkezett ajánlatok jogi megfelelőségének ellenőrzését követően a szakmai értékelés eredményére is figyelemmel a Jogi és Kodifikációs Főosztály megállapítja a nyertes ajánlattevő személyét, vagy a beszerzési eljárás eredménytelenségét, amelyről elektronikus úton tájékoztatja a szakmai szervezeti egységet. (4) A beszerzési eljárás abban az esetben tekinthető eredményesnek, ha legalább egy ajánlattételre felhívott gazdasági szereplő érvényes, azaz az ajánlati felhívásnak, a műszaki leírásnak és a vonatkozó jogszabályoknak megfelelő, a rendelkezésre álló fedezet összegét meg nem haladó ellenszolgáltatást tartalmazó ajánlatot nyújt be. Európai uniós forrásból megvalósuló beszerzés esetén a beszerzési eljárás abban az esetben eredményes, ha – amennyiben ezt a forrás elszámolására irányadó szabályok előírják – legalább három érvényes ajánlat kerül benyújtásra. Az eredményes eljárás nyertes ajánlattevője az a gazdasági szereplő, amely az ajánlati felhívásban foglalt valamennyi feltételnek megfelelő, érvényes, a PM számára legkedvezőbb ajánlatot nyújtotta be. (5) Az eredménytelen beszerzési eljárást követően a szakmai szervezeti egység köteles a gazdálkodási szervezetet haladéktalanul tájékoztatni az eljárás eredménytelenségéről, valamint arról, hogy a beszerzési eljárás újbóli lefolytatását kívánja-e a tárgyévben ismételten kezdeményezni."
+    },
+    {
+      "provision_ref": "s27",
+      "chapter": "VII. Fejezet A BESZERZÉSI ELJÁRÁS ÉS A SZERZŐDÉSKÖTÉS",
+      "section": "27",
+      "title": "27. §",
+      "content": "27. § (1) A szerződéstervezet és az ahhoz kapcsolódó Kötelezettségvállalási adatlap elkészítése, valamint azoknak a szakmai és a gazdálkodási szervezettel, továbbá a szerződő partnerrel való egyeztetése a Jogi és Kodifikációs Főosztály feladata, amelyre – a (2) bekezdésben foglalt kivétellel – a beszerzés 14. § szerinti előzetes jóváhagyását követően kerül sor. (2) Kivételesen, sürgős és indokolt esetben a Jogi és Kodifikációs Főosztály jogosult az előkészített és egyeztetett szerződéstervezetet – a 14. § szerinti előzetes jóváhagyásra történő felterjesztésével egyidejűleg – a kötelezettségvállalásra jogosult személy részére aláírás céljából megküldeni. Az eljárás kivételességét, sürgősségét a Szerződéses adatlapon a szakmai szervezeti egységnek indokolnia kell. (3) A Jogi és Kodifikációs Főosztály a szerződéstervezetet és a Kötelezettségvállalási adatlapot a szakmai szervezeti egység és a gazdálkodási szervezet részére véleményezés céljából megküldi. (4) A Jogi és Kodifikációs Főosztály a szakmai szervezeti egység és a gazdálkodási szervezet egyetértését követően a szerződéstervezetet és annak mellékleteit véleményezés céljából elektronikusan megküldi a szerződő partner, illetve a nyertes ajánlattevő részére. (5) A Jogi és Kodifikációs Főosztály a jogi ellenjegyzéssel ellátott szerződéstervezetet és a Kötelezettségvállalási adatlapot papír alapon a gazdálkodási szervezet, a gazdálkodásért felelős helyettes államtitkár, a szakmai szervezeti egység – és a tanácsadásra irányuló, továbbá az informatikai tárgyú szerződések esetében a közigazgatási államtitkár – útján megküldi a kötelezettségvállaló részére. (6) A szerződéstervezetnek, valamint a Kötelezettségvállalási adatlapnak a kötelezettségvállaló általi aláírását követően a Jogi és Kodifikációs Főosztály haladéktalanul értesíti az ajánlattevőket a beszerzési eljárás eredményéről. (7) A szerződéstervezetet a Jogi és Kodifikációs Főosztály – indokolt esetben a szakmai szervezeti egység útján – aláírás céljából megküldi a szerződő partnernek. A szerződéstervezet szerződő partner általi aláírását követően a Jogi és Kodifikációs Főosztály a szerződés egy-egy példányát, annak mellékleteit a szakmai szervezeti egység, valamint – a Kötelezettségvállalási adatlapot és a Szerződéses adatlap másolati példányát is mellékelve – a gazdálkodási szervezet részére egy munkanapon belül megküldi. (8) Ha a szerződéstervezetet a szerződő felek nem írják alá, a Jogi és Kodifikációs Főosztály vezetője a Kötelezettségvállalási adatlapon rögzíti a szerződéskötés meghiúsulásának tényét, rövid indokolását, valamint a szerződéskötés meghiúsulásáról a szakmai szervezeti egységet és – a Kötelezettségvállalási adatlap megküldésével – a gazdálkodási szervezetet írásban tájékoztatja."
+    },
+    {
+      "provision_ref": "s28",
+      "chapter": "VII. Fejezet A BESZERZÉSI ELJÁRÁS ÉS A SZERZŐDÉSKÖTÉS",
+      "section": "28",
+      "title": "28. §",
+      "content": "28. § A szerződések módosítását a szakmai szervezeti egység a 11. § (1) bekezdése szerinti egyetértést követően a gazdálkodási szervezeten keresztül a Jogi és Kodifikációs Főosztályhoz továbbított, 2. melléklet szerinti adatlap megküldésével kezdeményezi. A szerződés módosításának folyamatára a szerződéskötés folyamatára vonatkozó szabályokat kell alkalmazni."
+    },
+    {
+      "provision_ref": "s29",
+      "chapter": "VIII. Fejezet A KÖZBESZERZÉSI ELJÁRÁSBAN RÉSZT VEVŐ SZEMÉLYEK, SZERVEZETEK ÉS FELADATAIK",
+      "section": "29",
+      "title": "29. §",
+      "content": "29. § (1) A szakmai szervezeti egység tartozik kizárólagos felelősséggel a) a közbeszerzési tervben foglalt, az eljárás megindítására vonatkozó határidők betartásáért, b) a közbeszerzési tervben foglalt határidő lejárta előtt a határidő módosításának a Jogi és Kodifikációs Főosztálynál történő kezdeményezéséért, c) az eljárást megindító felhívás és a közbeszerzési dokumentáció szakmai követelményrendszerének szakszerűségéért. (2) A szakmai szervezeti egység ezen utasításban meghatározott feladatait úgy köteles végrehajtani, hogy az egyes eljárási cselekmények, értesítések és tájékoztatások megtételéhez, valamint a hirdetmények közzétételéhez – a Kbt. által meghatározott határidőn felül – legalább kettő munkanap álljon a Jogi és Kodifikációs Főosztály rendelkezésére, és az esetleges késedelem ne veszélyeztesse az eljárás szabályszerűségét. (3) Informatikai beszerzési igény megvalósítására irányuló közbeszerzési eljárás esetében a szakmai szervezeti egységre vonatkozó szabályok a Biztonsági és Igazgatási Főosztályra is irányadóak, a szakmai szervezeti egységet terhelő kötelezettségek teljesítéséért a szakmai szervezeti egység és a Biztonsági és Igazgatási Főosztály egyetemlegesen felelős, a szakmai szervezeti egységet megillető jogokat közösen gyakorolják."
+    },
+    {
+      "provision_ref": "s30",
+      "chapter": "VIII. Fejezet A KÖZBESZERZÉSI ELJÁRÁSBAN RÉSZT VEVŐ SZEMÉLYEK, SZERVEZETEK ÉS FELADATAIK",
+      "section": "30",
+      "title": "30. §",
+      "content": "30. § (1) A közbeszerzési eljárás kezdeményezésére irányuló feljegyzésnek a Jogi és Kodifikációs Főosztályhoz történő megérkezését követően létre kell hozni a Kbt.-ben meghatározott szakértelemmel rendelkező személyekből álló bírálóbizottságot. (2) A bírálóbizottság legalább öt – három állandó és két ideiglenes – tagból áll. (3) A bírálóbizottság állandó tagja a) a Jogi és Kodifikációs Főosztály vezetője, b) a gazdálkodási szervezet vezetője és c) a Jogi és Kodifikációs Főosztály közbeszerzési feladatokat ellátó munkatársa. (4) Az egyes beszerzések lebonyolítása során a szakmai szervezeti egység legalább kettő – az (5) bekezdésben foglalt esetben legalább egy –, a beszerzés tárgya szerinti szakértelemmel rendelkező személyt delegál, akik ideiglenes tagként vesznek részt a bírálóbizottságban. Az ideiglenes tag az adott eljárásban szavazati joggal rendelkezik. (5) Ha a közbeszerzési eljárás tárgya informatikai beszerzés megvalósítására irányul, úgy a beszerzés tárgya szerinti szakértelemmel rendelkező ideiglenes tagként a Biztonsági és Igazgatási Főosztály vezetője is részt vesz a bírálóbizottság munkájában. (6) A bírálóbizottság elnöke (a továbbiakban: elnök) a Jogi és Kodifikációs Főosztály vezetője. (7) A (3) bekezdés b) és c) pontjában megjelölt és a (4) és (5) bekezdés szerint delegált tagokat, valamint az őket helyettesítő póttagokat az elnök jelöli ki."
+    },
+    {
+      "provision_ref": "s31",
+      "chapter": "VIII. Fejezet A KÖZBESZERZÉSI ELJÁRÁSBAN RÉSZT VEVŐ SZEMÉLYEK, SZERVEZETEK ÉS FELADATAIK",
+      "section": "31",
+      "title": "31. §",
+      "content": "31. § (1) Az elnököt és a 30. § (3) bekezdés b) pontjában, valamint (5) bekezdésében megjelölt tagot akadályoztatása esetén az általa delegált póttag helyettesíti. (2) Ha a Jogi és Kodifikációs Főosztály vezetői tisztsége nincs betöltve, a tisztség betöltéséig az elnököt és az őt helyettesítő póttagot a jogi, koordinációs és igazgatási ügyekért felelős helyettes államtitkár jelöli ki. (3) Ha a gazdálkodási szervezet vagy a Biztonsági és Igazgatási Főosztály vezetői tisztsége nincs betöltve, a tisztség betöltéséig a) a 30. § (3) bekezdés b) pontjában megjelölt tagot és az őt helyettesítő póttagot a gazdálkodásért felelős helyettes államtitkár, b) a 30. § (5) bekezdésében megjelölt tagot és az őt helyettesítő póttagot a jogi, koordinációs és igazgatási ügyekért felelős helyettes államtitkár jelöli ki."
+    },
+    {
+      "provision_ref": "s32",
+      "chapter": "VIII. Fejezet A KÖZBESZERZÉSI ELJÁRÁSBAN RÉSZT VEVŐ SZEMÉLYEK, SZERVEZETEK ÉS FELADATAIK",
+      "section": "32",
+      "title": "32. §",
+      "content": "32. § A bírálóbizottság tagjainak megbízatása megszűnik: a) a megbízás visszavonásával, b) lemondással, c) a Kbt. 25. §-a szerinti összeférhetetlenséget eredményező körülmények bekövetkezése esetén, d) a PM-mel fennálló kormányzati szolgálati jogviszony vagy munkaviszony megszűnése esetén."
+    },
+    {
+      "provision_ref": "s33",
+      "chapter": "VIII. Fejezet A KÖZBESZERZÉSI ELJÁRÁSBAN RÉSZT VEVŐ SZEMÉLYEK, SZERVEZETEK ÉS FELADATAIK",
+      "section": "33",
+      "title": "33. §",
+      "content": "33. § (1) A bírálóbizottság tagjai az adott eljárás vonatkozásában kötelesek összeférhetetlenségi és titoktartási nyilatkozatot tenni. A szakmai szervezeti egység által a 30. § (4) bekezdése szerint javasolt személyek, valamint a 30. § (5) bekezdése szerinti személy összeférhetetlenségi és titoktartási nyilatkozatát a beszerzési igény továbbításával egyidejűleg, de legkésőbb a 30. § (7) bekezdésében foglalt kijelölésüket megelőzően a Jogi és Kodifikációs Főosztály részére meg kell küldeni. (2) Nem lehet a bírálóbizottság tagja, és közreműködőként vagy szakértőként sem vehet részt a beszerzési eljárás lebonyolításában az a személy, akivel szemben a Kbt. 25. §-a szerinti összeférhetetlenség áll fenn. Az összeférhetetlenség fennállásáról a tag, a közreműködő vagy a szakértő köteles az elnököt haladéktalanul tájékoztatni. (3) Az elnök a saját személyét érintő összeférhetetlenségi okról köteles a jogi, koordinációs és igazgatási ügyekért felelős helyettes államtitkárt tájékoztatni. Az elnök összeférhetetlenségének fennállása esetén az elnököt helyettesítő póttagot a jogi, koordinációs és igazgatási ügyekért felelős helyettes államtitkár jelöli ki. (4) Az egyes vagyonnyilatkozat-tételi kötelezettségekről szóló törvény rendelkezéseinek megfelelően a bírálóbizottság tagja vagyonnyilatkozat tételére kötelezett. A 31. §-ban meghatározott esetben a Jogi és Kodifikációs Főosztály tájékoztatja a Humánpolitikai Főosztályt a vagyonnyilatkozat-tételi kötelezettség keletkezéséről. A Humánpolitikai Főosztály a tájékoztatás kézhezvételét követő három munkanapon belül intézkedik a vagyonnyilatkozat-tételi kötelezettség teljesítése iránt."
+    },
+    {
+      "provision_ref": "s34",
+      "chapter": "VIII. Fejezet A KÖZBESZERZÉSI ELJÁRÁSBAN RÉSZT VEVŐ SZEMÉLYEK, SZERVEZETEK ÉS FELADATAIK",
+      "section": "34",
+      "title": "34. §",
+      "content": "34. § (1) A bírálóbizottság üléseiről jegyzőkönyv készül, amelyet az elnök ír alá, és az elnök által kijelölt tag hitelesít. (2) A bírálóbizottság valamennyi állandó és ideiglenes tag vagy az őt helyettesítő póttag jelenlétében határozatképes. Akadályoztatása esetén helyettesítéséről minden tag maga köteles gondoskodni, ennek megfelelően, amennyiben valamely ülésen a kijelölt tag nem tud megjelenni, akkor e tényről a póttagot – a Jogi és Kodifikációs Főosztály egyidejű írásbeli értesítése mellett – az ülés időpontja előtt legalább egy munkanappal maga köteles értesíteni. Ha az ülés kitűzött napján a póttag sem tud jelen lenni, úgy az ülés elnapolására és új időpont kitűzésére kerül sor. Kivételesen indokolt esetben, így különösen, ha valamely tag személyes jelenléte nem biztosítható, azonban az adott időpontban döntési javaslat megfogalmazása a Kbt.-ben előírt határidők megtartása miatt is indokolt, az érintett tag elektronikus úton megküldött szavazata is figyelembe vehető a határozatképesség megállapítása során. (3) A bírálóbizottság a döntéseit egyszerű többséggel hozza. (4) A döntésre vonatkozó szavazatokat a jegyzőkönyvben – egyhangú döntés kivételével – név szerint kell feltüntetni. A tagok a nemleges szavazatukat kötelesek indokolni, és a döntés elleni tiltakozásukat vagy különvéleményüket kérésükre a jegyzőkönyvben fel kell tüntetni."
+    },
+    {
+      "provision_ref": "s35",
+      "chapter": "VIII. Fejezet A KÖZBESZERZÉSI ELJÁRÁSBAN RÉSZT VEVŐ SZEMÉLYEK, SZERVEZETEK ÉS FELADATAIK",
+      "section": "35",
+      "title": "35. §",
+      "content": "35. § (1) A bírálóbizottság által lefolytatott eljárásért, valamint a Kbt.-ben foglaltak megtartásáért a bírálóbizottság, illetve a bírálóbizottság adott eljárásban részt vevő tagjai – az általuk képviselt szakértelem vonatkozásában – a külön jogszabályokban meghatározott felelősséggel tartoznak. (2) Mentesül a felelősség alól, aki az adott döntés során „nem”-mel szavazott, és tiltakozását, ellenvéleményét a jegyzőkönyvben rögzítették, valamint az is, akinek távollétében történt a jogsértő esemény, illetve született a jogsértő döntés. (3) Aki a beszerzések során vagy azokkal kapcsolatosan bármilyen szabálytalanságot vagy az eljárás tisztaságát, jogszerűségét veszélyeztető cselekményt észlel, arról haladéktalanul köteles a bírálóbizottság elnökét értesíteni."
+    },
+    {
+      "provision_ref": "s36",
+      "chapter": "VIII. Fejezet A KÖZBESZERZÉSI ELJÁRÁSBAN RÉSZT VEVŐ SZEMÉLYEK, SZERVEZETEK ÉS FELADATAIK",
+      "section": "36",
+      "title": "36. §",
+      "content": "36. § (1) Ha a közbeszerzés értéke, illetve a feladatok speciális jellege indokolja, a közbeszerzési feladatok ellátásához a Kbt. 27. § (3) bekezdésében foglalt eseteken túlmenően is igénybe vehető felelős akkreditált közbeszerzési szaktanácsadó (a továbbiakban: szaktanácsadó). (2) A szaktanácsadó az adott eljárásban tanácskozási joggal rendelkezik. (3) Ha szaktanácsadó igénybevételére kerül sor, úgy a szaktanácsadó látja el a Jogi és Kodifikációs Főosztály 38. § (2) bekezdés a)–c) és e)–g) pontjában foglalt feladatait. (4) A szaktanácsadóval kötendő szerződésben rögzíteni kell, hogy a feladatait köteles a Jogi és Kodifikációs Főosztállyal együttműködve ellátni, továbbá részére haladéktalanul tájékoztatást kell nyújtani a folyamatban lévő, illetve a várható eljárási cselekményekről. A szerződésben rendelkezni kell továbbá arról, hogy a szaktanácsadó az adott közbeszerzési eljárásban okozott károkért a polgári jog szabályai alapján felel."
+    },
+    {
+      "provision_ref": "s37",
+      "chapter": "VIII. Fejezet A KÖZBESZERZÉSI ELJÁRÁSBAN RÉSZT VEVŐ SZEMÉLYEK, SZERVEZETEK ÉS FELADATAIK",
+      "section": "37",
+      "title": "37. §",
+      "content": "37. § (1) Ha a közbeszerzés értéke, illetve a feladatok speciális jellege indokolja, a közbeszerzés tárgya szerinti szakmai feladatok ellátásához szakértő vehető igénybe. Az eljárásba bevont szakértőnek összeférhetetlenségi és titoktartási nyilatkozatot kell tennie, amelyet a közbeszerzési dokumentumokkal együtt kell megőrizni. (2) A szakértő az adott eljárásban tanácskozási joggal rendelkezik. (3) Ha szakértő igénybevételére kerül sor, úgy a szakértő a közbeszerzés tárgya szerinti szakkérdésekben írásbeli szakvéleménnyel támogatja a bírálóbizottság munkáját."
+    },
+    {
+      "provision_ref": "s38",
+      "chapter": "VIII. Fejezet A KÖZBESZERZÉSI ELJÁRÁSBAN RÉSZT VEVŐ SZEMÉLYEK, SZERVEZETEK ÉS FELADATAIK",
+      "section": "38",
+      "title": "38. §",
+      "content": "38. § (1) A bírálóbizottság titkársági feladatait a Jogi és Kodifikációs Főosztály látja el. (2) A Jogi és Kodifikációs Főosztály az (1) bekezdés szerinti titkársági feladatai keretében a) a szakmai szervezeti egység által megküldött, a Szerződéses adatlapon feltüntetett információk birtokában elkészíti a részvételi felhívást, az ajánlati felhívást és az ajánlattételi felhívást (a továbbiakban együtt: ajánlati felhívás), valamint összeállítja a közbeszerzési dokumentációt, b) gondoskodik a fedezetigazolás beszerzéséről, c) gondoskodik az ajánlati felhívás közzétételéről, a dokumentáció rendelkezésre bocsátásáról, d) az eljárás megindítására, lezárására, közbenső döntés meghozatalára irányuló kezdeményezést felterjeszti a 40. §-ban megjelölt döntéshozóhoz, e) gondoskodik a közbeszerzési eljárásoknak az egyes európai uniós alapokból származó támogatások felhasználásának rendjéről szóló kormányrendelet szerinti ellenőrzésre történő megküldéséről, f) koordinálja a közbeszerzési eljárásban részt vevő személyek tevékenységét, g) dokumentálja az eljárás során tett eljárási cselekményeket, ennek keretében elkészíti különösen a bírálóbizottság üléseinek jegyzőkönyveit (beleértve a bírálóbizottság létrehozására vonatkozó iratokat), a hiánypótlási felhívásokat, megküldi azokat az érdekeltek részére, gondoskodik a kiegészítő tájékoztatás nyújtásáról, tájékoztatja az ajánlattevőket az ajánlatkérő döntéseiről, h) nyilvántartja és kezeli a közbeszerzések dokumentumait, gondoskodik azok megőrzéséről a Kbt.-ben előírt időtartamig, i) gondoskodik a Kbt.-ben foglalt adatoknak, dokumentumoknak, hirdetményeknek a Közbeszerzési Hatóság által működtetett Közbeszerzési Adatbázisban, valamint az elektronikus közbeszerzési rendszerben (a továbbiakban: EKR) való közzétételéről, j) elkészíti, szükség szerint módosítja a PM éves közbeszerzési tervét, gondoskodik annak közzétételéről. (3) A Jogi és Kodifikációs Főosztály közbeszerzési feladatokat ellátó kormánytisztviselői a (2) bekezdésben meghatározott feladataik ellátása érdekében jogosultak az EKR-ben történő regisztrációra, és a PM nevében való eljárásra. A hivatkozott kormánytisztviselők a feladataik ellátása során – azok vonatkozásában – korlátozásmentes jogosultsággal rendelkeznek az EKR alkalmazására."
+    },
+    {
+      "provision_ref": "s39",
+      "chapter": "VIII. Fejezet A KÖZBESZERZÉSI ELJÁRÁSBAN RÉSZT VEVŐ SZEMÉLYEK, SZERVEZETEK ÉS FELADATAIK",
+      "section": "39",
+      "title": "39. §",
+      "content": "39. § Az R1. 1. mellékletében meghatározott kommunikációs szolgáltatások és az azokhoz kapcsolódó termékek közbeszerzésére vonatkozó igényeknek és adatoknak a Nemzeti Kommunikációs Hivatal részére történő, az R1. 8. §-a szerinti megküldéséről a Jogi és Kodifikációs Főosztály gondoskodik."
+    },
+    {
+      "provision_ref": "s40",
+      "chapter": "VIII. Fejezet A KÖZBESZERZÉSI ELJÁRÁSBAN RÉSZT VEVŐ SZEMÉLYEK, SZERVEZETEK ÉS FELADATAIK",
+      "section": "40",
+      "title": "40. §",
+      "content": "40. § A közbeszerzési eljárás döntéshozójaként a) nettó 50 millió forint értékhatárig a közigazgatási államtitkár, b) az a) pontban foglalt értékhatárt meghaladóan a miniszter jár el."
+    },
+    {
+      "provision_ref": "s41",
+      "chapter": "VIII. Fejezet A KÖZBESZERZÉSI ELJÁRÁSBAN RÉSZT VEVŐ SZEMÉLYEK, SZERVEZETEK ÉS FELADATAIK",
+      "section": "41",
+      "title": "41. §",
+      "content": "41. § A közbeszerzési eljárás lefolytatásának engedélyezése, a közbenső döntések, valamint az eljárást lezáró döntés meghozatala a döntéshozó személy feladata."
+    },
+    {
+      "provision_ref": "s42",
+      "chapter": "IX. Fejezet AZ ELJÁRÁS MEGINDÍTÁSÁRA VONATKOZÓ SPECIÁLIS ELŐÍRÁSOK",
+      "section": "42",
+      "title": "42. §",
+      "content": "42. § A közbeszerzési eljárást a szakmai szervezeti egység a Jogi és Kodifikációs Főosztályhoz a 22. § (1) és (3) bekezdésében foglaltak szerint továbbított, 1. melléklet szerinti Szerződéses adatlap kitöltésével kezdeményezi."
+    },
+    {
+      "provision_ref": "s43",
+      "chapter": "IX. Fejezet AZ ELJÁRÁS MEGINDÍTÁSÁRA VONATKOZÓ SPECIÁLIS ELŐÍRÁSOK",
+      "section": "43",
+      "title": "43. §",
+      "content": "43. § (1) A közbeszerzési eljárás előkészítése során a közbeszerzés tárgyának a becsült értékét a szakmai szervezeti egység állapítja meg a Kbt. 16–19. §-ában, valamint 28. § (2)–(4) bekezdésében foglaltak figyelembevételével. A becsült érték meghatározását alátámasztó dokumentumok a közbeszerzési eljárás kezdeményezésére irányuló Szerződéses adatlap mellékletét képezik. (2) A közbeszerzés becsült értékének meghatározásához a szakmai szervezeti egység helyzet- és piacfelmérést végezhet, előzetes piaci konzultációt folytathat a közbeszerzés megkezdése időpontjának megjelölése nélkül, kizárólag a felmérés érdekében szükséges – de a beszerzés műszaki tartalmát részletesen tartalmazó – adatokat közölve. A piaci konzultációk során nem közölhető a közbeszerzési eljárás során az összes ajánlattevő, illetve részvételre jelentkező részére rendelkezésre bocsátott adatok körét meghaladó információ. (3) Az előzetes piaci konzultációról a szakmai szervezeti egység teljes körű dokumentációt köteles készíteni, amely tartalmazza a konzultáció körülményeit, idejét, a konzultációba bevont piaci szereplőket, a konzultáció eredményeit, valamint egyéb, a szakmai szervezeti egység által fontosnak tartott körülményeket. (4) Abban az esetben, ha a szakmai szervezeti egység nem előzetes piaci konzultáció alapján határozza meg a becsült értéket, úgy közölnie kell azokat a dokumentált információkat, amelynek alapján a becsült érték meghatározását elvégezte."
+    },
+    {
+      "provision_ref": "s44",
+      "chapter": "IX. Fejezet AZ ELJÁRÁS MEGINDÍTÁSÁRA VONATKOZÓ SPECIÁLIS ELŐÍRÁSOK",
+      "section": "44",
+      "title": "44. §",
+      "content": "44. §"
+    },
+    {
+      "provision_ref": "s45",
+      "chapter": "IX. Fejezet AZ ELJÁRÁS MEGINDÍTÁSÁRA VONATKOZÓ SPECIÁLIS ELŐÍRÁSOK",
+      "section": "45",
+      "title": "45. §",
+      "content": "45. § (1) Ha a szakmai szervezeti egység nem egyedüli értékelési szempontként alkalmazza a legalacsonyabb ár szempontját, köteles meghatározni a) a legalacsonyabb költséget vagy a legjobb ár-érték arányt megjelenítő értékelési szempontokat és az azok súlyát meghatározó – az értékelési szempont tényleges jelentőségével arányban álló – szorzószámokat (a továbbiakban: súlyszám), b) ha az értékelési szempont körében alszempontok is meghatározásra kerülnek, alszempontonként azok – tényleges jelentőségével arányban álló – súlyszámát, c) az ajánlatok értékelési szempontok szerinti tartalmi elemeinek értékelése során adható pontszám alsó és felső határát, amely minden értékelési szempont esetében azonos, valamint d) azt a módszert vagy módszereket, amellyel megadja a ponthatárok közötti pontszámot. (2) Ha a szakmai szervezeti egység egyedül a legalacsonyabb ár értékelési szempontját kívánja alkalmazni, úgy meg kell jelölnie ennek indokát különösen kitérve arra, hogy mi az oka annak, ha az igényeinek csak valamely konkrétan meghatározott minőségi és műszaki követelményeknek megfelelő áru vagy szolgáltatás felel meg, és a gazdaságilag legelőnyösebb ajánlat kiválasztását minőségi jellemzők nem, csak a legalacsonyabb ár értékelése szolgálja."
+    },
+    {
+      "provision_ref": "s46",
+      "chapter": "X. Fejezet A KÖZBESZERZÉSI ELJÁRÁS LEFOLYTATÁSA",
+      "section": "46",
+      "title": "46. §",
+      "content": "46. § (1) A közbeszerzési eljárás előzetes jóváhagyását követően a Jogi és Kodifikációs Főosztály a szakmai szervezettel együttműködve megállapítja a közbeszerzési eljárás fajtáját, valamint elkészíti a közbeszerzési eljárás megindításához szükséges dokumentumokat. (2) A közbeszerzési dokumentációnak a döntéshozó részére történő előterjesztéséről a Jogi és Kodifikációs Főosztály gondoskodik. A közbeszerzési eljárás lefolytatását a döntéshozó a 3. melléklet szerinti nyomtatvány aláírásával engedélyezi. (3) Az ajánlati felhívás közzétételéről vagy az érintettekhez történő közvetlen eljuttatásáról a Jogi és Kodifikációs Főosztály gondoskodik."
+    },
+    {
+      "provision_ref": "s47",
+      "chapter": "X. Fejezet A KÖZBESZERZÉSI ELJÁRÁS LEFOLYTATÁSA",
+      "section": "47",
+      "title": "47. §",
+      "content": "47. § (1) A szakmai szervezeti egység javaslatára a bírálóbizottság a közbeszerzési eljárásban való részvételt a Kbt. 54. §-a szerinti ajánlati biztosíték (a továbbiakban: biztosíték) adásához kötheti, amelynek összegét – a felek ajánlati kötöttségének megsértése esetére – az ajánlatkérőnél előreláthatólag felmerülő költségek mértékére tekintettel kell megállapítani. (2) A biztosíték kezeléséről, nyilvántartásáról, valamint visszaadásáról a bírálóbizottság az Intézményi Gazdálkodási Főosztály útján gondoskodik."
+    },
+    {
+      "provision_ref": "s48",
+      "chapter": "X. Fejezet A KÖZBESZERZÉSI ELJÁRÁS LEFOLYTATÁSA",
+      "section": "48",
+      "title": "48. §",
+      "content": "48. § (1) Ha az adott közbeszerzési eljárásban részvételre jelentkező vagy ajánlattevő gazdasági szereplő kiegészítő tájékoztatást kér, úgy a tájékoztatási kötelezettséget a bírálóbizottság a Jogi és Kodifikációs Főosztály útján teljesíti. (2) Az adott beszerzési tárggyal kapcsolatos, szakmai megítélést igénylő kérdés tekintetében a Jogi és Kodifikációs Főosztály a szakmai szervezeti egységgel egyeztetve ad választ az ajánlattevő vagy részvételre jelentkező által feltett kérdésre."
+    },
+    {
+      "provision_ref": "s49",
+      "chapter": "X. Fejezet A KÖZBESZERZÉSI ELJÁRÁS LEFOLYTATÁSA",
+      "section": "49",
+      "title": "49. §",
+      "content": "49. § (1) A részvételi jelentkezések és az ajánlatok bontását követően a bírálóbizottság a Kbt.-ben foglalt eljárási szabályok és a felhívásban meghatározott szempontok szerint elvégzi a részvételi jelentkezések és az ajánlatok tartalmi és formai minősítését, értékelését, és dönt a hiánypótlás elrendeléséről, az alkalmatlan részvételre jelentkezők és ajánlattevők kizárásáról, a részvételi jelentkezések és az ajánlatok érvénytelenségéről. (2) Az eljárás során szükséges értesítés, kérdés, jegyzőkönyv, valamint hiánypótlásra való felhívás érintettek részére történő eljuttatásáról a bírálóbizottság a Jogi és Kodifikációs Főosztály útján gondoskodik. (3) A bírálóbizottság tagjai az ajánlatok értékelése során szövegesen és számszerűsítve értékelik az egyes ajánlatokat. Ha az ajánlatok értékelése sorba rendezés vagy pontkiosztás módszerével történik, a bírálóbizottság tagjainak indokolniuk kell a kialakult sorrendet."
+    },
+    {
+      "provision_ref": "s50",
+      "chapter": "X. Fejezet A KÖZBESZERZÉSI ELJÁRÁS LEFOLYTATÁSA",
+      "section": "50",
+      "title": "50. §",
+      "content": "50. § (1) A bírálóbizottság az ajánlatok bírálatát, értékelését követően döntési javaslatot fogalmaz meg a nyertes ajánlattevő személyére vonatkozóan a döntéshozó számára. (2) A Kbt. 77. § (5) bekezdésében foglalt esetekben – a nyertes ajánlattevő kiválasztása érdekében – közjegyző jelenlétében sorsolást kell tartani, és a sorsolás alapján kiválasztott ajánlattevőt az eljárás nyertesének nyilvánítani. A közjegyző kiválasztásával és a működésével kapcsolatban felmerült költségek kiegyenlítéséről a szakmai szervezeti egység gondoskodik. (3) Az eljárás eredményéről, eredménytelenségéről, a nyertes ajánlattevő személyéről – a bírálóbizottság által készített döntési javaslat figyelembevételével – a döntéshozó a 4. melléklet szerinti döntéshozatali záradék aláírásával dönt. (4) Az eljárás eredményének a közbeszerzési és tervpályázati hirdetmények feladásának, ellenőrzésének és közzétételének szabályairól, a hirdetmények mintáiról és egyes tartalmi elemeiről, valamint az éves statisztikai összegezésről szóló rendeletben meghatározott minta szerinti közzétételéről a bírálóbizottság a Jogi és Kodifikációs Főosztály útján gondoskodik."
+    },
+    {
+      "provision_ref": "s51",
+      "chapter": "X. Fejezet A KÖZBESZERZÉSI ELJÁRÁS LEFOLYTATÁSA",
+      "section": "51",
+      "title": "51. §",
+      "content": "51. § (1) Ha valamely részvételre jelentkező vagy ajánlattevő iratbetekintést vagy előzetes vitarendezést kezdeményez, a Jogi és Kodifikációs Főosztály vezetője a kezdeményező irat beérkezését követően haladéktalanul rendelkezik az iratbetekintés biztosításáról, valamint az előzetes vitarendezés lefolytatásáról. (2) Ha az eljárásba szaktanácsadó került bevonásra, úgy az iratbetekintés és az előzetes vitarendezés során az (1) bekezdésben foglalt feladatok ellátása a szaktanácsadóhoz delegálható."
+    },
+    {
+      "provision_ref": "s52",
+      "chapter": "XI. Fejezet A SZERZŐDÉS MEGKÖTÉSE ÉS MÓDOSÍTÁSA",
+      "section": "52",
+      "title": "52. §",
+      "content": "52. § (1) A közbeszerzési eljárás eredményeként a szerződést a nyertes ajánlattevőként meghatározott szervezettel, személlyel kell írásban megkötni a közbeszerzési eljárásban közölt végleges feltételek, a szerződéstervezet és az ajánlat tartalmának megfelelően. (2) A szerződés megkötésére az eredményes közbeszerzési eljárást követően kizárólag a döntéshozónak a döntéshozatali záradékban foglalt döntése alapján kerülhet sor."
+    },
+    {
+      "provision_ref": "s53",
+      "chapter": "XI. Fejezet A SZERZŐDÉS MEGKÖTÉSE ÉS MÓDOSÍTÁSA",
+      "section": "53",
+      "title": "53. §",
+      "content": "53. § (1) A szerződést a Jogi és Kodifikációs Főosztály készíti elő a közbeszerzési eljárás során közölt szerződéstervezetnek megfelelően. (2) A szerződés aláírására a 27. § (3)–(8) bekezdésében foglaltak az irányadóak. (3) A Jogi és Kodifikációs Főosztály a szerződés megkötését követően a Kbt. szerint előírt határidőben köteles gondoskodni a megkötött szerződésnek, valamint az eljárás eredményéről szóló tájékoztatónak a Kbt.-ben előírt közzétételéről."
+    },
+    {
+      "provision_ref": "s54",
+      "chapter": "XI. Fejezet A SZERZŐDÉS MEGKÖTÉSE ÉS MÓDOSÍTÁSA",
+      "section": "54",
+      "title": "54. §",
+      "content": "54. § A megkötött szerződés módosítására a Kbt. 141. §-ában meghatározott rendelkezések figyelembevételével, a 28. §-ban meghatározott módon kerülhet sor."
+    },
+    {
+      "provision_ref": "s55",
+      "chapter": "XII. Fejezet A KÖZBESZERZÉSI ELJÁRÁSOK MONITORINGJA, A KÖLTSÉGVISELÉS SZABÁLYAI",
+      "section": "55",
+      "title": "55. §",
+      "content": "55. § A közbeszerzési eljárás eredményeként kötött szerződés teljesüléséről a teljesítésigazolás kiállítását és a szerződésben foglalt ellenérték kifizetését követően haladéktalanul, de legfeljebb három napon belül a szakmai szervezeti egység a teljesítésigazolás másolatának megküldésével köteles a Jogi és Kodifikációs Főosztályt tájékoztatni. A tájékoztatásnak ki kell terjednie arra, hogy a teljesítés szerződésszerű volt-e, rögzítenie kell az ellenszolgáltatás teljesítésének időpontját és a kifizetett ellenszolgáltatás értékét."
+    },
+    {
+      "provision_ref": "s56",
+      "chapter": "XII. Fejezet A KÖZBESZERZÉSI ELJÁRÁSOK MONITORINGJA, A KÖLTSÉGVISELÉS SZABÁLYAI",
+      "section": "56",
+      "title": "56. §",
+      "content": "56. § A szakmai szervezeti egység az 55. §-ban rögzítetteken kívül köteles a Jogi és Kodifikációs Főosztályt haladéktalanul tájékoztatni bármely, a közbeszerzési eljárások lefolytatásával vagy a szerződések teljesítésével kapcsolatban felmerült lényeges körülményről."
+    },
+    {
+      "provision_ref": "s57",
+      "chapter": "XII. Fejezet A KÖZBESZERZÉSI ELJÁRÁSOK MONITORINGJA, A KÖLTSÉGVISELÉS SZABÁLYAI",
+      "section": "57",
+      "title": "57. §",
+      "content": "57. § A szaktanácsadó igénybevételével összefüggő költségek megfizetéséről a szakmai szervezeti egység köteles gondoskodni. Olyan beszerzés esetén, ahol egy eljárás keretében több szakmai szervezeti egység érintett, a szaktanácsadó igénybevételével összefüggő költségek megfizetésével járó kötelezettségek a szolgáltatás díjának adott szervezeti egységre jutó mértékének arányában terhelik a szakmai szervezeti egységeket."
+    },
+    {
+      "provision_ref": "s58",
+      "chapter": "XIII. Fejezet KÖZPONTOSÍTOTT BESZERZÉSI ÉS KÖZBESZERZÉSI ELJÁRÁSRA VONATKOZÓ SZABÁLYOK",
+      "section": "58",
+      "title": "58. §",
+      "content": "58. § (1) A központosított közbeszerzési rendszerről, valamint a központi beszerző szervezet feladat- és hatásköréről szóló Korm. rendelet (a továbbiakban: R4.) szerinti, országosan kiemelt termékeket a kijelölt szervezeten keresztül az R4.-ben meghatározott módon kell beszerezni. (2) A beszerzés lebonyolítása során alkalmazandó, a központosított közbeszerzési rendszerben megkötésre került keretmegállapodás számának megjelölése a szakmai szervezeti egység feladata."
+    },
+    {
+      "provision_ref": "s59",
+      "chapter": "XIII. Fejezet KÖZPONTOSÍTOTT BESZERZÉSI ÉS KÖZBESZERZÉSI ELJÁRÁSRA VONATKOZÓ SZABÁLYOK",
+      "section": "59",
+      "title": "59. §",
+      "content": "59. § (1) A központosított informatikai és elektronikus hírközlési szolgáltatásokról szóló Korm. rendelet hatálya alá tartozó beszerzési igények esetében a szakmai szervezeti egység – a közbeszerzési eljárás kezdeményezését megelőzően – előzetes egyeztetést folytat a Biztonsági és Igazgatási Főosztállyal a beszerzés megvalósítása vonatkozásában. A központi szolgáltatóval történő egyeztetés – a beszerzés tárgyától függően – a Biztonsági és Igazgatási Főosztály feladata. Amennyiben a beszerzési igény kielégítésére központi szolgáltatási megállapodás útján van lehetőség, úgy a megrendelésre a 14. § szerinti előzetes jóváhagyást, valamint a Jogi és Kodifikációs Főosztállyal történő egyeztetést követően, a Biztonsági és Igazgatási Főosztály bevonásával kerülhet sor. (2) Ha a beszerzés megvalósítására egyedi szolgáltatási megállapodás megkötése útján van lehetőség, úgy a beszerzés kezdeményezésére a 22. § (1) és (3) bekezdésében és a 42. §-ban foglaltak alkalmazásával kerülhet sor."
+    },
+    {
+      "provision_ref": "s59a",
+      "chapter": "XIII. Fejezet KÖZPONTOSÍTOTT BESZERZÉSI ÉS KÖZBESZERZÉSI ELJÁRÁSRA VONATKOZÓ SZABÁLYOK",
+      "section": "59/A",
+      "title": "59/A. §",
+      "content": "59/A. § (1) A Kr. 6. § (1) bekezdése szerint a KESZ részére január 20-ig hiánytalanul benyújtott éves igénybejelentés esetén a Jogi és Kodifikációs Főosztály a KESZ-től érkező ajánlatot a szakterület részére továbbítja. A szakterület 5 munkanapon belül megvizsgálja az ajánlatot, és az alapján jelzi a Jogi és Kodifikációs Főosztály részére, hogy azt elfogadja, vagy a Kr.-ben foglalt indokok alapján elutasítja. (2) Ha a KESZ a Kr. 6. § (4) bekezdése alapján tárgyalást kezdeményez, erről a Jogi és Kodifikációs Főosztály a szakterületet soron kívül értesíti. A szakterület az így kapott szerződéses ajánlatot haladéktalanul megvizsgálja, és annak elutasítása esetén a nyilatkozatát köteles a Kr. szerinti indoklással ellátni. A KESZ által, a Kr. 1. § (4) bekezdése alapján kiadott nyilatkozatot a Jogi és Kodifikációs Főosztály a szakterület részére megküldi. (3) Ha a szakterület a KESZ ajánlatát a Kr. 6. § (7) bekezdése alapján elutasítja, akkor a Kr. szerint hitelt érdemlő módon bizonyítani köteles a kedvezőbb beszerzési ajánlati árat. (4) Ha a szakterület a KESZ ajánlatát elfogadja, a szerződéses adatlapot soron kívül előkészíti, és a Kr. szerinti ellátási megállapodás megkötését a 27. §-ban foglaltak szerint a gazdálkodási szervezeten keresztül a Jogi és Kodifikációs Főosztálynál kezdeményezi. (5) Amennyiben az (1) bekezdés szerinti igénybejelentés a Kr. szerinti tartalmi követelményeknek nem felel meg, a Jogi és Kodifikációs Főosztály a KESZ hiánypótlási felhívását a szakterület részére soron kívül továbbítja, amely annak 3 munkanapon belül köteles eleget tenni. A hiánypótlást a Jogi és Kodifikációs Főosztály küldi meg a KESZ részére. (6) Az (5) bekezdés szerinti hiánypótlás, illetve az előre nem tervezett, tárgyév során felmerülő, uniós közbeszerzési értékhatárokat elérő vagy meghaladó ellátási igény esetén az (1)–(5) bekezdésben foglaltak megfelelően alkalmazandók, azzal, hogy az ellátási megállapodást a hiánypótlás teljesítését, illetve az ajánlattételt követő 60 napon belül meg kell kötni, vagy a szakterület a KESZ ajánlatát az ajánlattételtől számított 30 napon belül elutasítja."
+    },
+    {
+      "provision_ref": "s59b",
+      "chapter": "XIII. Fejezet KÖZPONTOSÍTOTT BESZERZÉSI ÉS KÖZBESZERZÉSI ELJÁRÁSRA VONATKOZÓ SZABÁLYOK",
+      "section": "59/B",
+      "title": "59/B. §",
+      "content": "59/B. § Az R4. szerinti központosított közbeszerzés és a Kr. hatálya alá egyaránt tartozó termékeket és szolgáltatásokat a Kr. 11. §-ában meghatározott módon kell beszerezni, azzal, hogy a Kr. 11. § (3) bekezdése szerinti esetben az uniós közbeszerzési értékhatár alatti beszerzési igény esetén a 13/A. §-t, az uniós értékhatárokat elérő vagy meghaladó beszerzési igény esetén az 59/A. §-t kell alkalmazni."
+    },
+    {
+      "provision_ref": "s60",
+      "chapter": "XIII. Fejezet KÖZPONTOSÍTOTT BESZERZÉSI ÉS KÖZBESZERZÉSI ELJÁRÁSRA VONATKOZÓ SZABÁLYOK",
+      "section": "60",
+      "title": "60. §",
+      "content": "60. § Ez az utasítás a közzétételét követő napon lép hatályba."
+    },
+    {
+      "provision_ref": "s61",
+      "chapter": "XIII. Fejezet KÖZPONTOSÍTOTT BESZERZÉSI ÉS KÖZBESZERZÉSI ELJÁRÁSRA VONATKOZÓ SZABÁLYOK",
+      "section": "61",
+      "title": "61. §",
+      "content": "61. § 4R00349.pdf 4R00352.pdf A fentiek szerint a (köz)beszerzési eljárás elindítását engedélyezem. Budapest, ………………………………… …………………………………………… döntéshozó 1. Ajánlatkérő megnevezése: Pénzügyminisztérium 2. A közbeszerzés tárgya: ………………………………………………………………………………………………………… 3. A közbeszerzésekről szóló 2015. évi CXLIII. törvény (a továbbiakban: Kbt.) 27. § (4) bekezdése alapján a bírálóbizottság elnöke által a bírálóbizottsági jegyzőkönyvben foglalt eljárási és érdemi döntési javaslatoknak megfelelően a tárgyi közbeszerzési eljárás vonatkozásában az alábbi, eljárást lezáró döntést hozom: A közbeszerzési eljárás eredményes / a Kbt. 75. § (1) bekezdés... pontja alapján eredménytelen. Az érvényes ajánlatot tevő ajánlattevők közül a legalacsonyabb összegű ellenszolgáltatást tartalmazó / összességében legelőnyösebb ajánlatot adó ajánlattevő, azaz a jelen közbeszerzési eljárás nyertese: …………………………………………………………………………………………………………………………………. Az ellenszolgáltatás összege: ………………………………… 4. A fentiekre tekintettel hozzájárulok a bírálóbizottsági jegyzőkönyvben javasoltakkal azonos tartalmú, a közbeszerzési és tervpályázati hirdetmények feladásának, ellenőrzésének és közzétételének szabályairól, a hirdetmények mintáiról és egyes tartalmi elemeiről, valamint az éves statisztikai összegezésről szóló MvM rendelet szerinti írásbeli összegezés ajánlattevők részére történő megküldéséhez. Budapest, 20………………………………… …………………………………………… döntéshozó 1 Az utasítást a 4/2025. (II. 6.) NGM utasítás 1. § d) pontja hatályon kívül helyezte 2025. február 7. napjával. 2 A 2. § a 3/2024. (II. 14.) PM utasítás 59. § a) pontja szerint módosított szöveg. 3 A 6. § 4. pontja a 3/2023. (III. 23.) PM utasítás 4. § a) pontja szerint módosított szöveg. 4 A 6. § 5. pontja a 3/2024. (II. 14.) PM utasítás 43. §-ával megállapított szöveg. 5 A 6. § 7. pontját a 3/2024. (II. 14.) PM utasítás 44. §-a iktatta be. 6 A 7. § (1) bekezdése a 3/2023. (III. 23.) PM utasítás 4. § a) pontja szerint módosított szöveg. 7 A 7. § (2) bekezdése a 3/2023. (III. 23.) PM utasítás 4. § a) pontja és 5. § a) pontja szerint módosított szöveg. 8 A 7. § (3) bekezdése a 3/2023. (III. 23.) PM utasítás 4. § a) pontja szerint módosított szöveg. 9 A 7. § (4) bekezdése a 3/2023. (III. 23.) PM utasítás 4. § a) pontja és 5. § b) pontja szerint módosított szöveg. 10 A 8. § (1a) bekezdését a 8/2024. (VIII. 8.) PM utasítás 1. §-a iktatta be. 11 A 8. § (2) bekezdése a 3/2024. (II. 14.) PM utasítás 45. §-ával megállapított szöveg. 12 A 9. § a 3/2024. (II. 14.) PM utasítás 46. §-ával megállapított szöveg. 13 A 9/A. §-t a 3/2024. (II. 14.) PM utasítás 47. §-a iktatta be, szövege a 8/2024. (VIII. 8.) PM utasítás 2. §-ával megállapított szöveg. 14 A 11. § a 3/2024. (II. 14.) PM utasítás 48. §-ával megállapított szöveg. 15 A 11. § (3) bekezdése a 8/2024. (VIII. 8.) PM utasítás 3. §-ával megállapított szöveg. 16 A 13. § (1) bekezdése a 3/2023. (III. 23.) PM utasítás 5. § c) és d) pontja szerint módosított szöveg. 17 A 13. § (2) bekezdése a 3/2023. (III. 23.) PM utasítás 4. § c) pontja szerint módosított szöveg. 18 A 13. § (3) bekezdését a 3/2023. (III. 23.) PM utasítás 5. § e) pontja hatályon kívül helyezte. 19 A 13/A. §-t a 8/2024. (VIII. 8.) PM utasítás 4. §-a iktatta be. 20 A 14. § (1) bekezdés a) pontja a 3/2024. (II. 14.) PM utasítás 59. § b) pontja szerint módosított szöveg. 21 A 14. § (1) bekezdés b) pontja a 3/2024. (II. 14.) PM utasítás 59. § b) pontja, a 8/2024. (VIII. 8.) PM utasítás 6. § a) pontja szerint módosított szöveg. 22 A 14. § (3) bekezdése a 3/2024. (II. 14.) PM utasítás 49. §-ával megállapított szöveg. 23 A 15. § (1) bekezdése a 3/2024. (II. 14.) PM utasítás 59. § b) pontja szerint módosított szöveg. 24 A 22. § (1) bekezdése a 3/2024. (II. 14.) PM utasítás 50. §-ával megállapított szöveg. 25 A 22. § (2) bekezdése a 3/2024. (II. 14.) PM utasítás 50. §-ával megállapított szöveg. 26 A 22. § (4) bekezdése a 3/2024. (II. 14.) PM utasítás 51. §-ával megállapított szöveg. 27 A 22. § (5) bekezdését a 3/2024. (II. 14.) PM utasítás 60. § a) pontja hatályon kívül helyezte. 28 A 22. § (6) bekezdése a 3/2023. (III. 23.) PM utasítás 1. §-ával megállapított szöveg. 29 A 22. § (7) bekezdése a 3/2023. (III. 23.) PM utasítás 5. § f) pontja szerint módosított szöveg. 30 A 22. § (8) bekezdése a 3/2023. (III. 23.) PM utasítás 4. § a) pontja szerint módosított szöveg. 31 A 22. § (9) bekezdés nyitó szövegrésze a 3/2023. (III. 23.) PM utasítás 4. § a) pontja, a 3/2024. (II. 14.) PM utasítás 60. § b) pontja szerint módosított szöveg. 32 A 22. § (10) bekezdését a 3/2024. (II. 14.) PM utasítás 52. §-a iktatta be. 33 A 23. § (2) bekezdése a 3/2023. (III. 23.) PM utasítás 4. § e) pontja szerint módosított szöveg. 34 A 23. § (3) bekezdése a 3/2023. (III. 23.) PM utasítás 4. § f) pontja, a 3/2024. (II. 14.) PM utasítás 60. § c) pontja szerint módosított szöveg. 35 A 23. § (3a) bekezdését a 3/2024. (II. 14.) PM utasítás 53. §-a iktatta be. 36 A 23. § (3b) bekezdését a 3/2024. (II. 14.) PM utasítás 53. §-a iktatta be. 37 A 23. § (4) bekezdése a 3/2024. (II. 14.) PM utasítás 54. §-ával megállapított szöveg. 38 A 23. § (5) bekezdése a 3/2024. (II. 14.) PM utasítás 54. §-ával megállapított szöveg. 39 A 23. § (6) bekezdését a 3/2024. (II. 14.) PM utasítás 55. §-a iktatta be. 40 A 27. § (7) bekezdése a 3/2024. (II. 14.) PM utasítás 56. §-ával megállapított szöveg. 41 A 29. § (3) bekezdése a 3/2023. (III. 23.) PM utasítás 4. § a) és g) pontja szerint módosított szöveg. 42 A 30. § (5) bekezdése a 3/2023. (III. 23.) PM utasítás 5. § g) pontja szerint módosított szöveg. 43 A 31. § (2) bekezdése a 8/2024. (VIII. 8.) PM utasítás 6. § a) pontja szerint módosított szöveg. 44 A 31. § (3) bekezdése a 3/2023. (III. 23.) PM utasítás 2. §-ával megállapított szöveg. 45 A 31. § (3) bekezdés b) pontja a 8/2024. (VIII. 8.) PM utasítás 6. § a) pontja szerint módosított szöveg. 46 A 33. § (3) bekezdése a 8/2024. (VIII. 8.) PM utasítás 6. § b) pontja szerint módosított szöveg. 47 A 33. § (4) bekezdése a 3/2023. (III. 23.) PM utasítás 4. § d) és h) pontja szerint módosított szöveg. 48 A 38. § (2) bekezdés e) pontja a 3/2023. (III. 23.) PM utasítás 5. § h) pontja szerint módosított szöveg. 49 A 44. §-t a 8/2024. (VIII. 8.) PM utasítás 7. §-a hatályon kívül helyezte. 50 Az 59. § (1) bekezdése a 3/2023. (III. 23.) PM utasítás 5. § i), j) és k) pontja szerint módosított szöveg. 51 Az 59/A. §-t a 8/2024. (VIII. 8.) PM utasítás 5. §-a iktatta be. 52 Az 59/B. §-t a 8/2024. (VIII. 8.) PM utasítás 5. §-a iktatta be. 53 A 61. § a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette. 54 Az 1. melléklet a 3/2024. (II. 14.) PM utasítás 57. §-ával megállapított szöveg. 55 A 2. melléklet a 3/2024. (II. 14.) PM utasítás 58. §-ával megállapított szöveg. 56 A megfelelő szövegrész alkalmazásával."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "§ Jelen utasítás alkalmazásában",
+      "definition": "1. beszerzés: árubeszerzés, szolgáltatási koncesszió, szolgáltatás megrendelése, építési beruházás vagy építési koncesszió megrendelésére vagy ilyen tárgyban szerződés megkötésére irányuló visszterhes kötelezettségvállalás",
+      "source_provision": "s6"
+    },
+    {
+      "term": "beszerzési eljárás",
+      "definition": "olyan, a közbeszerzési szabályok hatálya alá nem tartozó eljárás, amely során a PM mint ajánlatkérő legalább három érintett gazdasági szereplőt ajánlattételre hív fel",
+      "source_provision": "s6"
+    },
+    {
+      "term": "gazdálkodási szervezet",
+      "definition": "a fejezeti kezelésű előirányzatokat érintő ügyekben a Fejezeti Költségvetési Főosztály, a PM igazgatását érintő ügyekben az Intézményi Gazdálkodási Főosztály",
+      "source_provision": "s6"
+    },
+    {
+      "term": "indikatív árajánlat",
+      "definition": "a szakmai szervezeti egység által a megrendelésekhez és az európai uniós forrásból megvalósuló beszerzésekhez kapcsolódóan, valamint a Biztonsági és Igazgatási Főosztály által az informatikai beszerzési és az informatikai fejlesztési igényekhez kapcsolódóan, a piaci ár és a becsült érték meghatározása, illetve alátámasztása érdekében beszerzett árajánlat",
+      "source_provision": "s6"
+    },
+    {
+      "term": "informatikai beszerzés",
+      "definition": "olyan beszerzés, amelynek tárgya informatikai eszköz, szoftver, alkalmazásfejlesztés, valamint ezekhez kapcsolódó szolgáltatások beszerzése",
+      "source_provision": "s6"
+    }
+  ]
+}

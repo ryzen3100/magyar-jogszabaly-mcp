@@ -1,0 +1,617 @@
+{
+  "id": "hu-law-2014-16-b0-8e",
+  "type": "statute",
+  "title": "16/2014. (V. 30.) ORFK utasítás az autópályák, autóutak és főutak használatáért fizetendő, megtett úttal arányos díjról szóló törvényben foglalt, rendőri szerveket érintő feladatok végrehajtásáról",
+  "status": "in_force",
+  "in_force_date": "2014-05-31",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2014-16-B0-8E",
+  "description": "az autópályák, autóutak és főutak használatáért fizetendő, megtett úttal arányos díjról szóló törvényben foglalt, rendőri szerveket érintő feladatok végrehajtásáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A jogalkotásról szóló 2010. évi CXXX. törvény 23. § (4) bekezdés c) pontjában, valamint a Rendőrségről szóló 1994. évi XXXIV. törvény 6. § (1) bekezdés b) pontjában kapott felhatalmazás alapján, az autópályák, autóutak és főutak használatáért fizetendő, megtett úttal arányos díjról szóló 2013. évi LXVII. törvényben foglaltak végrehajtására az alábbi utasítást adom ki:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "I. FEJEZET"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "ÁLTALÁNOS RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "1. Hatály"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "1. Az utasítás hatálya kiterjed:"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "a) az általános rendőrségi feladatok ellátására létrehozott szerv (a továbbiakban: rendőrség) központi szervére (a továbbiakban: ORFK);"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "b) a vármegyei (fővárosi) rendőr-főkapitányságokra (a továbbiakban: területi rendőri szerv);"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "c) a rendőrkapitányságokra és a határrendészeti kirendeltségekre (a továbbiakban együtt: helyi rendőri szerv)."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "2. Az utasítás tárgyi hatálya az útdíjköteles útszakaszok használatáért fizetendő, megtett úttal arányos útdíjjal kapcsolatos szabályszegésekkel összefüggő ellenőrzési és az annak során végzett hatósági feladatok végrehajtására terjed ki."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "2. Értelmező rendelkezések"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "3. Az utasítás alkalmazásában:"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "a) állandó ellenőrzőpont: olyan, az országhatárhoz közel eső ellenőrzési helyszín, ahol az ellenőrzés folyamatos, ide nem értve a külső határokon a határellenőrzés keretében végzett ilyen célú ellenőrzés helyszíneit;"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "b) ellenőrzés: az UD rendszer által szolgáltatott adatok alapján jogosulatlan úthasználattal érintett járművekkel kapcsolatos, közigazgatási bírság kiszabására irányuló, nyílt rendőri ellenőrzés;"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "c) jogsértés helye: az a hely (ellenőrzési keresztmetszet), ahol az UD rendszerbe integrált eszköz a jogsértést rögzíti;"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "d) mozgó ellenőrzés: a díjfizetési kötelezettséggel érintett utakon az erre a célra felkészített szolgálati gépjárművel végzett közúti ellenőrzés;"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "e) Robotzsaru rendszer: a Robotzsaru integrált ügyviteli, ügyfeldolgozó és elektronikus iratkezelő rendszer, illetve annak moduljai;"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "f) UD rendszer: a Nemzeti Útdíjfizetési Szolgáltató Zártkörűen működő Részvénytársaság (a továbbiakban: NÚSZ) által üzemeltetett informatikai rendszer;"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "g) várakozóhely: a közúti közlekedésről szóló törvény alapján a jármű részére a visszatartás idejére kijelölt várakozóhely."
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "II. FEJEZET"
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "RÉSZLETES RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "3. Az ellenőrzés általános szabályai"
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "4. Az autópályák, autóutak és főutak használatáért fizetendő, megtett úttal arányos díjról szóló 2013. évi LXVII. törvény (a továbbiakban: EDtv.), az autópályák, autóutak és főutak használatáért fizetendő megtett úttal arányos díjról szóló 2013. évi LXVII. törvény végrehajtásáról szóló 209/2013. (VI. 18.) Korm. rendelet (a továbbiakban: Vhr.), valamint az útdíj mértékéről és az útdíjköteles utakról szóló 25/2013. (V. 31.) NFM rendelet (a továbbiakban: EDr.) rendelkezései alapján végrehajtott ellenőrzést kizárólag az erre a célra kiképzett, az ellenőrzés helye szerint illetékes területi, vagy helyi rendőri szerv állományába tartozó, vagy oda vezényelt rendőr végezhet."
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "5. A határátkelőhelyeken az ellenőrzést alapvetően a határellenőrzés folyamatába integrálva kell végezni. A határátlépési pontokon, illetve azok közelében állandó ellenőrzőpontokat kell kialakítani és folyamatosan működtetni, vagy olyan járőrkörzetet kell létrehozni, amely biztosítja az ellenőrzés folyamatosságát. Az ország belső területein folyamatos mozgó ellenőrzést kell végezni. A rendészeti országos rendőrfőkapitány-helyettes jogosult meghatározni az ellenőrzés elvárt mértékét, melynek keretében indokolt esetben engedélyezheti a folyamatos ellenőrzés helyett a visszatérő, rendszeres ellenőrzés végzését, illetve elrendelheti az ellenőrzés részleges – meghatározott területre vagy útvonalra vonatkozó – vagy teljes felfüggesztését."
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "5/A. A határátkelőhelyen, a határátlépési pontokon, valamint az azok közelében kialakított állandó ellenőrzési pontokon a forgalom rendjét jelentősen befolyásoló körülmény bekövetkezése esetén a területi rendőri szerv rendőrfőkapitánya, valamint rendészeti helyettese engedélyezheti legfeljebb 12 óra időtartamra a folyamatos ellenőrzéstől az 5. pontban meghatározott eltérést. A folyamatos ellenőrzéstől eltérő végrehajtás indokairól és időtartamáról a területi rendőri szerv rendészeti rendőrfőkapitány-helyettese hivatali időben az elrendelést követően haladéktalanul jelentést tesz a rendészeti országos rendőrfőkapitány-helyettes részére, hivatali időn kívül pedig a tevékenység-irányítási központon keresztül tájékoztatja az ORFK Főügyeletét."
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "6. Az ellenőrzési feladatot ellátó rendőrt az eljárási rendre és az ellenőrzés végrehajtásához átadott eszköz kezelésére vonatkozó oktatásban kell részesíteni, amelynek végrehajtásáért a területi rendőri szerv vezetője a felelős. Az ilyen feladatot ellátó rendőrt, illetve szolgálatparancsnokát kiadmányozási jogkörrel kell felruházni."
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "7. Az ellenőrzési feladatot ellátó rendőr ezen tevékenység végzése alatt – a Rendőrségről szóló 1994. évi XXXIV. törvényben foglalt intézkedési kötelezettség teljesítését kivéve – egyéb, nem közlekedésrendészeti ellenőrző tevékenységre csak a területi rendőri szerv helyettes vezetője vagy annál magasabb beosztású rendőri vezető utasítása alapján vehető igénybe."
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "8."
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "9."
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "10. A határellenőrzés során az útdíjköteles gépjárművet rendszám alapján ellenőrizni kell a Robotzsaru rendszer útdíj moduljában. A határrendészeti feladatok ellátásának maradéktalan biztosítása érdekében a határátkelőhelyeken folytatott ellenőrzésre kisegítő rendőri erő is igénybe vehető."
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "11. A gépjárművel ellenőrzött állandó ellenőrzőponton az erre a célra felkészített szolgálati gépjárművel egy időben legalább két fő rendőr lát el szolgálatot. Az ilyen ellenőrzőponton a szolgálatot a Rendőrség járőr- és őrszolgálati szabályzatáról szóló ORFK utasításban foglaltak szerint kell megszervezni és ellátni."
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "12. Az épületben kialakított állandó ellenőrzőponton úgy kell az ellenőrzést végezni, hogy az UD rendszer által észlelt, jogsértő útdíjköteles gépjárművek az ország területét a rendőri ellenőrzés elkerülésével ne hagyhassák el."
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "13. Mozgó ellenőrzést a feladat ellátására felkészített szolgálati gépjárművel kell végrehajtani a díjfizetési kötelezettséggel érintett utakon. Egy gépjárművel legalább két fő rendőr lát el szolgálatot."
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "14. A gépjármű üzembentartójának objektív felelőssége alapján bármely e feladat végrehajtására kijelölt rendőr foganatosíthat ideiglenes biztosítási intézkedést. Tettenérés esetén a jármű vezetőjével szemben viszont csak annak a helyi vagy területi rendőri szervnek a beosztottja foganatosíthat közigazgatási bírság határozathozatal nélküli vagy határozattal való kiszabását, ideiglenes biztosítási, illetve biztosítási intézkedést, amelynek illetékességi területén a jogsértés helye van."
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "15. A szolgálatot úgy kell megszervezni, hogy az EDr.-ben meghatározott útszakaszok minél nagyobb lefedettségét folyamatosan biztosítsa."
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "16. Az ellenőrzéshez alkalmazott szolgálati gépjármű és az abba telepített rendészeti és technikai eszközök átadás-átvételét írásban kell rögzíteni. Az eszközök működőképességét, állapotát az eligazítás és beszámoltatás során az eligazítást, illetve beszámoltatást végző elöljáró vagy szolgálatparancsnok dokumentált módon ellenőrzi, amelynek megtörténtét írásban rögzíti. Ellenőrzési feladatra csak működőképes technikai eszközökkel rendelkező jármű vehető igénybe."
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "17. Az útdíjköteles gépjárművek mozgó ellenőrzés során való megállítására alkalmas elemi útszakaszokat és útvonalakat, valamint várakozóhelyeket az illetékes területi és helyi rendőri szervek a NÚSZ-szal egyeztetve jelölik ki."
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "18. A mozgó ellenőrzés helyszínét elsődlegesen a rendészeti és közlekedésbiztonsági érdekek és biztonsági előírások, valamint az adatátviteli lehetőségek figyelembevételével kell kijelölni."
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "19. A mozgó ellenőrzés helyszínét, illetve útvonalát a területileg illetékes rendőri szerv közlekedésrendészeti szervezeti elemének vezetője 30 napra előre előzetesen egyezteti az útdíjszedő területileg illetékes képviselőjével."
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "20. A várakozóhelyet – amennyiben azt nem az ellenőrzés helyszínén jelölik ki – az ellenőrzés helyéhez legközelebb eső, arra alkalmas helyen úgy kell kijelölni, hogy lehetőleg annak megközelítése az útdíjfizetési kötelezettséggel kapcsolatos újabb jogsértést ne eredményezzen. Amennyiben ez nem lehetséges, akkor az ORFK és a NÚSZ között 2020. február 20-án megkötött együttműködési megállapodás (a továbbiakban: Emü.) 4. melléklete szerinti formanyomtatványt kell kiállítani két példányban. Az eredeti példányt a járművezetőnek kell átadni, a másodpéldányt a keletkezett iratokhoz kell csatolni."
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "21. Az ellenőrzési feladatra beosztott rendőrnek az eligazítás során a mozgó ellenőrzés helyszínét vagy helyszíneit, útvonalát, valamint a várakozóhelyeket írásos formában a Robotzsaru rendszerben is ki kell jelölni."
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "22. Útdíjköteles gépjárművet ellenőrzés céljából kizárólag akkor lehet megállítani, ha az UD rendszer automatikus értesítése vagy az abból történő lekérdezés alapján a járművel kapcsolatosan jogosulatlan úthasználat gyanúja merült fel."
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "23. Az útdíjköteles járműveket az ilyen járművek által igénybe vett várakozóhelyeken önállóan, az UD rendszer értesítése nélkül is ellenőrizni lehet. Az ellenőrzést a jármű rendszáma alapján, a Robotzsaru rendszer erre a célra kialakított alkalmazásának segítségével kell elvégezni."
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "24. Az ellenőrzés során a járművezető és az üzembentartó adatait a Robotzsaru rendszer erre a célra kialakított alkalmazásában rögzíteni kell."
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "25. Az intézkedések során kiállítandó iratokat a járműben, illetve az állandó ellenőrzőponton telepített Robotzsaru rendszer segítségével kell előállítani."
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "26. Az Emü. 37. és 38. pontja szerinti adatszolgáltatás teljesülése érdekében a Szabolcs-Szatmár-Bereg Vármegyei Rendőr-főkapitányság és a Vas Vármegyei Rendőr-főkapitányság rendészeti rendőrfőkapitány-helyettesei legkésőbb a negyedévet követő hónap utolsó napja előtti 5. munkanapig megküldik az Emü. kitöltött 6. mellékletét az ORFK Rendészeti Főigazgatóság Közlekedésrendészeti Főosztály vezetőjének."
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "27. Az Emü. alapján az útdíjfizetéssel érintett elemi útszakasz vagy útszakaszok lezárásáról, forgalmának eltereléséről, illetve a lezárás, elterelés megszüntetéséről az azt foganatosító rendőr jelentést tesz az illetékes tevékenység-irányítási központnak, amely arról a NÚSZ-t írásban az Emü. 5. melléklete szerinti formanyomtatvány megküldésével haladéktalanul értesíti."
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "28. Ha rendőri intézkedés miatt szükségessé válik az útdíjköteles jármű eltérő útvonalon történő közlekedése, akkor a rendőri intézkedés befejezését követően a 20. pont szerint kell eljárni."
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "4. Az ellenőrzések közös szabályai"
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "29. Az UD rendszer értesítését követően az ellenőrzést végző rendőr – az Irányelvben foglalt biztonsági rendszabályok megtartása mellett – az érintett járművet megállítja és ellenőrzés alá vonja. Az ellenőrzés során az általános közlekedésrendészeti ellenőrzést is el kell végezni."
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "30. A magyar hatósági jelzéssel – ide nem értve a Z betűjelű ideiglenes magyar rendszámmal – ellátott útdíjköteles gépjárművet csak abban az esetben kell megállítani, ha azzal szemben a Robotzsaru rendszer értesítése alapján egyéb rendőri intézkedés lefolytatása is szükséges vagy indokolt."
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "31. A külföldi, valamint Z betűjelű ideiglenes magyar rendszámmal ellátott útdíjköteles gépjárművel kapcsolatos intézkedés során meg kell győződni arról, hogy a gépjármű fajtája, tengelyszáma és megengedett legnagyobb együttes össztömege alapján ténylegesen az EDtv. hatálya alá tartozik. Az ilyen jármű forgalmi engedélyéről másolatot vagy képfelvételt kell készíteni, amelyet az ügyirathoz csatolni kell."
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "32. A külföldi, valamint Z betűjelű ideiglenes magyar rendszámmal ellátott útdíjköteles gépjárművel kapcsolatos intézkedés során rögzíteni kell az üzembentartó számlavezető bankjának nevét és az ott vezetett bankszámlájának számát, amennyiben azt a jármű vezetője meg tudja jelölni."
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "33. Ha a mozgó ellenőrzéskor az UD rendszer rövid időn belül, egymást követően több útdíjköteles gépjármű jogosulatlan úthasználatát jelzi, csak annyi járművet kell megállítani és ellenőrzés alá vonni, amennyi az ellenőrzés helyszínének adottságai és az ellenőrzés időpontja alapján biztonságosan, a közúti forgalom zavarása nélkül ellenőrzés alá vonható, illetve nem késlelteti jelentősen a megállított járművek ellenőrzésének megkezdését."
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "34. A területi rendőri szerv állományába tartozó rendőr által végzett ellenőrzés során keletkezett ügyet a közigazgatási hatósági eljárás lefolytatására hatáskörrel és illetékességgel rendelkező helyi rendőri szerv részére elektronikus úton is meg kell küldeni."
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "35. Ha a rendőr az ellenőrzés során megállapítja, hogy nem történt jogsértés, vagy az elkövetett jogsértés miatt szankció nem alkalmazható, akkor a Robotzsaru rendszerben az ellenőrzésről feljegyzést készít."
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "5. A visszatartás szabályai"
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "36. Ha a külföldivel (járművezetővel, üzembentartóval) szemben kiszabott bírságot vagy a pénzkövetelést a helyszínen nem fizetik meg, úgy a megfizetés igazolásáig – a vonatkozó jogszabályi feltételek fennállása esetén, a jogszabályi előírások figyelembevételével – indokolt a jármű visszatartását elrendelni."
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "37. A bírság összegének biztosítását az általános közigazgatási rendtartásról szóló 2016. évi CL. törvény szabályai alapján a Robotzsaru rendszerben rögzített nyomtatványok alkalmazásával kell elrendelni."
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "38. Visszatartás elrendelése esetén a jármű forgalmi engedélyének és hatósági jelzéseinek átvételi elismervény ellenében történő elvétele mellett a járművezetőt tájékoztatni kell az eljárás menetéről és arról, hogy a pénzkövetelés megfizetéséről szóló igazolást hol és mikor tudja bemutatni, illetve a forgalmi engedélyt és a jármű hatósági jelzéseit hol és mikor veheti át."
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "39. Az ellenőrzés során elbírált valamennyi jogsértés vonatkozásában a visszatartásról külön végzést kell hozni."
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "40. A visszatartott járművet – amennyiben a várakozóhely nem az ellenőrzés helyén van kijelölve – a legközelebbi várakozóhelyre kell irányítani."
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "41. Ha a pénzkövetelés megfizetéséről szóló igazolást a járművezető nem mutatta be, a rendőr a forgalmi engedélyt és a jármű hatósági jelzéseit szolgálata végén, a szolgálati helyén leadja. A leadott forgalmi engedélyt, a jármű hatósági jelzéseit és az ellenőrzés során keletkezett iratok eredeti példányát a rendőri szerv az intézkedést követő ötödik munkanapot követően haladéktalanul továbbítja a közigazgatási eljárás lefolytatására hatáskörrel és illetékességgel rendelkező első fokú közigazgatási hatóság részére."
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "42. Ha a pénzkövetelés megfizetését a járművezető vagy az üzembentartó vagy annak meghatalmazottja az ellenőrzést végző rendőri szerv részére az intézkedést követő ötödik munkanapig igazolja, részére a jármű forgalmi engedélyét és a jármű hatósági jelzéseit az intézkedő rendőr vagy a rendőri szerv vezetője által erre feljogosított személy elismervény ellenében, a visszatartás megszüntetését elrendelő végzéssel visszaadja."
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "43. A magyar nyelvet nem értő külföldi járművezető részére a visszatartásról készített, a közúti közlekedésről szóló 1988. évi I. törvény 20. § (9) bekezdésében megjelölt nyelvű tájékoztatóval egyidejűleg a járművezető által beszélt más nyelvű tájékoztatót is át lehet adni, amennyiben az intézkedő rendőri szerv gondoskodott annak elkészítéséről."
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "6. Intézkedés korábban elkövetett jogsértés miatt"
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "44. Csak olyan korábbi jogsértés miatt van helye intézkedésnek, amelyet 145 napnál nem régebben követtek el."
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "45. Ha az UD rendszer értesítésére korábbi jogsértés vagy jogsértések miatt került sor, úgy az ellenőrzés során meg kell állapítani, hogy a korábbi jogsértést a jelenlegi üzembentartói jogviszony ideje alatt követték-e el. Amennyiben a korábbi jogsértést követően az üzembentartó személye megváltozott, a jogsértés miatt további intézkedésnek helye nincs. A jelenlegi üzembentartó adatait és a jogviszony kezdetét a Robotzsaru rendszerben rögzíteni kell és az intézkedést be kell fejezni."
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "46. A járművezetőt tájékoztatni kell, hogy a pénzkövetelés megfizetéséig a járművel csak a kijelölt várakozóhelyig, illetve ezt követően a forgalmi engedély és a jármű hatósági jelzései átvételének helyéig közlekedhet."
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "47. Ha a járművezető a pénzkövetelést készpénz-átutalási megbízással kívánja megfizetni, úgy a megbízást (ügyenként kiállított megbízásokat) részére át kell adni, és a várakozóhelyet ki kell jelölni. A jármű visszatartását a 36. pontban foglaltak szerint el kell rendelni."
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "48. A járművezetőt tájékoztatni kell arról, hogy a pénzkövetelés megfizetésének igazolását hol és mikor mutathatja be. A pénzkövetelés megfizetésének igazolását követően a visszatartást minden ügyben külön végzésben kell visszavonni."
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "49. Ha a járművezető az összes korábbi jogsértés miatt kiszabandó bírság összegének megfelelő pénzkövetelést nem fizeti meg, úgy a visszatartást fenn kell tartani, a forgalmi engedélyt és a jármű hatósági jelzéseit visszaadni nem lehet. A fennmaradó pénzkövetelésről készpénzátutalási megbízást kell kiállítani, és azt át kell adni a járművezetőnek, és egyben tájékoztatni kell arról, hogy a pénzkövetelés megfizetéséről szóló igazolást hol és mikor mutathatja be."
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "50. A pénzkövetelés befizetéséről szóló igazolás elektronikus képét a Robotzsaru rendszerben rögzíteni kell."
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "7. A bírság és pénzkövetelés megfizetésének szabályai"
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "51. Biztosítani szükséges annak lehetőségét, hogy a közigazgatási bírság, az ideiglenes biztosítási, illetve a biztosítási intézkedéssel biztosított pénzkövetelés összegét a járművezető saját választásának megfelelően bankkártyával, készpénz-átutalási megbízás útján vagy banki átutalással fizethesse meg. A választási lehetőségre a járművezető figyelmét fel kell hívni, melynek során az intézkedő rendőr az esetleges visszafizetéshez szükséges pénzforgalmi számla vonatkozásában adatkérő lapot is átad számára."
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "52. Ha a járművezető a vele szemben kiszabott bírságot vagy pénzkövetelést bankkártyával kívánja megfizetni, azt az erre a célra biztosított POS-terminál használatával kell számára lehetővé tenni."
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "53. A POS-terminálon kijelzett bírság összegét manuális úton megváltoztatni nem lehet."
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "54. A tranzakció jóváhagyásához szükséges, a bankkártyához tartozó egyedi azonosító szám (PIN) bevitelét csak a járművezető végezheti el."
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "55. Ha a POS-terminál visszajelzése szerint a tranzakció sikeres volt, a kinyomtatott bizonylatot – amennyiben az a bizonylat szerint szükséges – alá kell íratni és a bankkártyát vissza kell adni a járművezetőnek. A bizonylatot a keletkezett ügyiratokhoz kell csatolni. A bizonylat másodpéldányát át kell adni a járművezetőnek."
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "56. Amennyiben a POS-terminálon fizetés bármely okból nem hajtható végre, vagy az nem volt sikeres, úgy át kell térni a készpénz-átutalási megbízással történő fizetési mód alkalmazására. Ebben az esetben a jármű visszatartását a 36. pontban foglaltak szerint el kell rendelni."
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "57. A POS-terminál vagy a bírságolás végrehajtását támogató informatikai rendszer meghibásodását, működésképtelenségét a szolgálati elöljárónak soron kívül jelenteni kell. Az informatikai rendszer bármely elemének meghibásodása esetén további ellenőrzést nem lehet folytatni, illetve soron kívül intézkedni kell az eszköz javíttatásáról, illetve helyettesítéséről."
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "58. Amennyiben a járművezető részére az intézkedő rendőr készpénz-átutalási megbízást ad át, akkor a készpénz-átutalási megbízás rovatait ki kell töltenie (összeg, a megjegyzésben az ügyszám és a rendszám), valamint a készpénz-átutalási megbízás azonosítóját a Robotzsaru rendszerben rögzítenie kell."
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "59. A szolgálat befejezésével a rendőrnek a POS-terminál megfelelő menüjében pénztárzárást kell végrehajtania. A napi zárás ellenőrzése során tapasztalt eltérést soron kívül jelezni kell a befizetes@orfk.police.hu funkcionális e-mail címre."
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "60. A járművezető részére az ORFK 10032000-01040061-00000000 számlaszámára szóló készpénzátutalási megbízást kell átadni. Erre a feladatra a területi rendőri szerv számlájára kiállított készpénzátutalási megbízás nem használható."
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "8."
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "61."
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "III. FEJEZET"
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "A RENDŐRI INTÉZKEDÉS ELLENŐRZÉSE"
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "62. Az utasításban meghatározott tevékenység ellenőrzésére illetékességi területükön az alábbi személyek jogosultak:"
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "a) nyílt paranccsal ellátott személy;"
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "b) a területi rendőri szerv ellenőrzési szolgálatának beosztottja;"
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "c) a belső ellenőr;"
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "d) a szolgálati elöljáró."
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "63. A 62. pont a) és b) alpontjában meghatározott személy ellenőrzi:"
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "a) az ellenőrzést végző rendőr szakmai felkészültségét;"
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "b) az ellenőrzést végző rendőr konkrét intézkedését;"
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "c) a jelen normában meghatározott közúti rendőri jelenlétet;"
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "d) az előírt jelentési kötelezettségek teljesítését."
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "IV. FEJEZET"
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "ZÁRÓ RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "64. Ez az utasítás a közzétételét követő napon lép hatályba."
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "65. Az utasítás végrehajtásával kapcsolatban felmerült kiadásokat és bevételeket elkülönítetten kell nyilvántartani a KGR Forrás SQL rendszerben, egységesen a 99202 kezdetű ügyletkódok használatával."
+    }
+  ]
+}

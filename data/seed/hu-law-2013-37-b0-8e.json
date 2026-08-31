@@ -1,0 +1,725 @@
+{
+  "id": "hu-law-2013-37-b0-8e",
+  "type": "statute",
+  "title": "37/2013. (IX. 13.) ORFK utasítás a Robotzsaru integrált ügyviteli, ügyfeldolgozó és elektronikus iratkezelő rendszer egységes és kötelező használatáról, jogosultsági rendjéről, az adatvédelem, valamint a rendszerfejlesztés előírásairól szóló 18/2011. (IX. 23.) ORFK utasítás módosításáról",
+  "status": "repealed",
+  "in_force_date": "2013-10-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2013-37-B0-8E",
+  "description": "a Robotzsaru integrált ügyviteli, ügyfeldolgozó és elektronikus iratkezelő rendszer egységes és kötelező használatáról, jogosultsági rendjéről, az adatvédelem, valamint a rendszerfejlesztés előírásairól szóló 18/2011. (IX. 23.) ORFK utasítás módosításáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A jogalkotásról szóló 2010. évi CXXX. törvény 23. § (4) bekezdés c) pontjában, valamint a Rendőrségről szóló 1994. évi XXXIV. törvény 6. § (1) bekezdés b) pontjában kapott felhatalmazás alapján a Robotzsaru integrált ügyviteli, ügyfeldolgozó és elektronikus iratkezelő rendszer egységes és kötelező használatáról, jogosultsági rendjéről, az adatvédelem, valamint a rendszerfejlesztés előírásairól szóló 18/2011. (IX. 23.) ORFK utasítás módosítására kiadom a következő utasítást:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "1. A Robotzsaru integrált ügyviteli, ügyfeldolgozó és elektronikus iratkezelő rendszer egységes és kötelező használatáról, jogosultsági rendjéről, az adatvédelem, valamint a rendszerfejlesztés előírásairól szóló 18/2011. (IX. 23.) ORFK utasítás (a továbbiakban: Ut.) 1. pont b) alpontja helyébe az alábbi rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "[1. Az utasítás hatálya kiterjed:]"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "„b) a Készenléti Rendőrségre, a Repülőtéri Rendőr Igazgatóságra, a Központi Gazdasági Ellátó Igazgatóságra, a Bűnügyi Szakértői és Kutatóintézetre és a megyei (fővárosi) rendőr-főkapitányságokra (a továbbiakban együtt: területi szervek);”"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "2. Az Ut. 3. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "„3. Az utasítás alkalmazásában:"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "a) Dokumentumtár: olyan elektronikus adatbázis, amely a Robotzsaru rendszerben előállított, illetőleg rögzített iratokat elektronikus formátumban tartalmazza az ügy selejtezéséig;"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "b) Dolgozó: az a rendőri szerv állományába tartozó személy, akinek a Robotzsaru rendszerben rögzítve vannak a személyes adatai;"
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "c) Előadó: az ügy intézésére kijelölt személy, aki az ügyet döntésre előkészíti;"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "d) Felhasználó: az a dolgozó, akinek a munkaköre ellátásához szükséges a Robotzsaru rendszer alkalmazása, erre tekintettel a Robotzsaru rendszerhez hozzáférési jogosultsággal és a szakterületi szerepkörének megfelelő jogosultsági szintekkel rendelkezik;"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "e) Mentor: az érintett vezető által kijelölt olyan, a Robotzsaru rendszer használatára jogosult személy, aki a rendszer használatára kiemelt képzésben részesült, az ismereteket továbbképzés keretében oktatja, továbbá illetékességi területén a rendszer használatához a Felhasználók részére rendszeres segítséget nyújt;"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "f) Naplóállomány: a Robotzsaru rendszer használata során naplózott adatok összessége, amely az egyes Felhasználók – Robotzsaru rendszerben végzett – tevékenységét tartalmazza dátum és időpont megjelölésével;"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "g) Nemzetközi kötelezettségen alapuló adatszolgáltatás: nemzetközi közösségi szabályok alapján időszakonként vagy eseti megkeresés alapján a Robotzsaru rendszerben tárolt adatok összességéből végrehajtott adatszolgáltatás;"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "h) Netzsaru rendszer: olyan országos digitális, bűnügyi és rendészeti elektronikus adatbázis, amely strukturált adatbázis formájában magában foglalja a Robotzsaru NEO rendszer használata során rögzített ügyek, események releváns adatait az ügy selejtezéséig; felületén keresztül statisztikai célokra felhasználható adatok nyerhetők ki, valamint kereső-, kutató- és egyedi ügyviteli tevékenységek végezhetők a Robotzsaru rendszer jogosultsági rendjének keretei között;"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "i) Országos szintű adatszolgáltatás: a Robotzsaru rendszerben tárolt adatok összességéből – egyedi megkeresés alapján – végrehajtott adatszolgáltatás;"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "j) Releváns adat: minden olyan kötelezően rögzítendő adat, amely visszakereshető, és amelyre kimutatás kérhető;"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "k) Robotzsaru Elektronikus Posta modul: két önálló iratképző, Robotzsaru Neo Rendszert alkalmazó szerv közötti elektronikus ügyirat-átadást biztosító modul;"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "l) Robotzsaru NEO rendszer: a Robotzsaru-2000 integrált ügyviteli ügyfeldolgozó rendszer korszerű, továbbfejlesztett változata; olyan informatikai ügyviteli, ügyfeldolgozó és elektronikus iratkezelő alkalmazás, amely az iratkezelési szoftverekkel szemben támasztott követelményekről szóló külön jogszabályban meghatározott követelményeknek megfelel, tanúsítvánnyal rendelkezik, továbbá 24 órás folyamatos üzemmódban rendelkezésre áll valamennyi rendőri szerv részére, és strukturált adatbázis formában tárolja a rendőri szervek által rögzített adatokat, iratokat;"
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "m) Robotzsaru rendszer: a rendőri szervek alap informatikai rendszere, olyan informatikai alkalmazások együttese, amely egységes rendszerbe foglal valamennyi nyílt rendőrségi tevékenységgel kapcsolatban keletkező, illetve beszerzett elektronikus adatot és iratot; a rendőri munka jellegéhez, illetve az egyes felhasználói csoportok feladat- és munkaköréhez igazodó felhasználói jogosultságok biztosításával komplex módon támogatja a rendőri szervek munkáját az elektronikus iratkezelésen, adatszolgáltatáson és feldolgozáson keresztül. Részét képezi a Dokumentumtár, a Netzsaru rendszer és a Robotzsaru NEO rendszer;"
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "n) Robotzsaru rendszer fejlesztéséért és üzemeltetéséért felelős szervezeti elem: az ORFK Gazdasági Főigazgatóság Informatikai Alkalmazás és Rendszerfejlesztési Főosztály;"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "o) Szerepkör és jogosultsági szint: az egyes jogosultsági szintek felhasználói által végezhető számítástechnikai műveletek összessége, amelyek alapján az adott Felhasználó által látható menüpontokat a Robotzsaru rendszer Felhasználói kézikönyve tartalmazza;"
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "p) Területi koordinátor: a területi szerv vezetője által kijelölt személy, aki a Robotzsaru rendszerfejlesztési és oktatási feladatainak koordinálását végzi;"
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "q) Tömbösített HIIKK adatfelvitel: a Robotzsaru rendszerben végrehajtott manuális adatszolgáltatás, amelyhez a „Statisztikai jelentéshez adatszolgáltatás” (iratkód: BUEGRS) nevű iratmintát kell használni;"
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "r) Szakterületi vezető: az ORFK-nál és a területi szerveknél az adott szakterület szakirányítását végző szervezeti elem vezetője és a helyi szerveknél az adott szakterület közvetlen irányítását végző vezető;"
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "s) Tevékenység-irányítási Rendszer: az ügyeleti szolgálatok tevékenységét kiszolgáló rendszer, amely az állampolgári bejelentések és a tett intézkedések nyomon követését biztosítja azzal, hogy magába foglalja a korábbi ügyeleti modul elemeit, kiegészítve azt a bejelentések kezelésével, a társszervekkel történő együttműködéssel, valamint az igénybe vett erők nyomon követésével és nyilvántartásával;"
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "t) Szállítás Koordinációs Rendszer: az idegenrendészeti tevékenységgel kapcsolatos személyszállítási feladatok végrehajtására és annak koordinációjára szolgál, kezeli az őrzött szállásokon rendelkezésre álló férőhelyeket és a befogadáshoz szükséges feltételrendszereket és az ehhez szükséges nyilvántartásokat.”"
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "3. Az Ut. a következő 46/A. ponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "„46/A. A HIIKK rendszer szakterületi statisztikai kategóriáit az adott szakterület szakirányítását vagy közvetlen irányítását végző szervezeti elemhez kell hozzárendelni a Robotzsaru rendszerben. Az adott kategória hitelesítéséért a szakterületi vezető felelős azzal, hogy ellenőrzési kötelezettsége elsősorban a parancsnoki hitelesítések meglétére terjed ki.”"
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "4. Az Ut. 47. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "„47. A rendészeti statisztikai adatokat a Robotzsaru rendszer adatbázisában található adatokra alapozva a HIIKK rendszer automatikusan generálja a Netzsaru rendszer táblázataiban. A manuálisan gyűjtött adatok tömbösített HIIKK adatfelvitel útján kerülnek a HIIKK rendszerbe.”"
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "5. Az Ut. 48. pontja helyébe a következő rendelkezés lép:"
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "„48. A rendészeti statisztikai adatokat a szakterületi vezető, majd a helyi szerv vezetője – a tárgyhót követő hónap 2. munkanapjáig – havi rendszerességgel hitelesíti, hozzáférhetővé téve ezzel a területi szerv számára, amely azokat a tárgyhót követő hónap 3. munkanapjáig hitelesíti, hozzáférhetővé téve ezzel a központi szakirányítást végző szervezeti egység részére.”"
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "6. Az Ut. a következő 49/A. ponttal egészül ki:"
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "„49/A. A HIIKK rendszer adataiban a javításokat – a Robotzsaru rendszerben elsősorban az adat forrásának karbantartásával, különösen sztornózással, módosítással, új tétel felvitelével – a hitelesítés előtt kell végrehajtani azzal, hogy a hitelesítést követően feltárt hibák javítása érdekében a hitelesítés feloldását a felettes szerv engedélyezi és hajtja végre. A Belügyminisztérium kijelölt szervezeti eleme általi lezárást követően a havi statisztika hitelesítése nem oldható fel.”"
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "7. Az Ut. 2. mellékletének B) pontjában szereplő speciális jogosultsági szintek az alábbi alpontokkal egészülnek ki:"
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "„LV. „bunjelkezelo” szerepkör"
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "A bűnjelnyilvántartó-könyvet kezelő személy kaphatja meg."
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "LVI. „rendszadmin” szerepkör"
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "A rendszer-adminisztrátori feladatok ellátására felhatalmazott munkatárs kaphatja meg."
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "LVII. „dossziekezelo” szerepkör"
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "Az iratok be- és kivételével (dossziéval) foglalkozó, átadó munkatárs kaphatja meg."
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "LVIII. „dossziekarbantarto” szerepkör"
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "Az iratok be- és kivételével (dossziéval) foglalkozó, átadó munkatárs kaphatja meg, aki létrehozhatja és törölheti a dossziékat."
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "LIX. „hiikk-stat-oszt” szerepkör"
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "Az a munkatárs kaphatja, aki a statisztikai adatokat megtekintheti, a szakterületi hitelesítést végrehajtja."
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "LX. „hiikk-stat-kaps” szerepkör"
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "Az a munkatárs kaphatja, aki a statisztikai adatokat megtekintheti, és a helyi hitelesítést végrehajtja."
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "LXI. „hiikk-stat-megye” szerepkör"
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "Az a munkatárs kaphatja, aki a statisztikai adatokat megtekintheti, és a területi hitelesítést végrehajtja."
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "LXII. „muvelet-tervezo” szerepkör"
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "Rendészeti, műveleti tevékenységek karbantartására jogosult munkatárs kaphatja meg."
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "LXIII. „hb-nyilvantarto” szerepkör"
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "Helyszíni bírság nyilvántartást intéző munkatárs kaphatja meg."
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "LXIV. „koordinalo” szerepkör"
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "Azok a munkatársak kaphatják meg, akik napi szinten koordinációs munkát végeznek a rendszerben."
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "LXV. „tir_ugyeletes” szerepkör"
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "A Tevékenység-irányítási Rendszer ügyeleti funkciójának jogosultságát adja meg a szerepkör."
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "LXVI. „tir_h_operator” szerepkör"
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "A Tevékenység-irányítási Rendszerben hívás előszűrő funkciók elvégzését biztosító szerepkör."
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "LXVII. „tir_admin” szerepkör"
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "A Tevékenység-irányítási Rendszerben rendszer adminisztrátori feladatokat láthat el a szerepkört használó munkatárs."
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "LXVIII. „tir_egyseg_tag” szerepkör"
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "A Tevékenység-irányítási Rendszerben a szolgálatot ellátó egységek tagjai kaphatják meg."
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "LXIX. „tir_supervisor” szerepkör"
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "A szerepkört az az ügyeletvezető kaphatja, aki a Tevékenység-irányítási Központban dolgozó ügyeletesek felettese."
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "LXX. „szolgalat_iranyito” szerepkör"
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "A Tevékenység-irányítási Rendszerben szolgálatirányító parancsnok feladatkört ellátó kaphatja meg."
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "LXXI. „tir_terkep” szerepkör"
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "Az kaphatja, aki a Robotzsaru rendszerben láthatja a térképet."
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "LXXII. „p_orseg” szerepkör"
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "E szerepkör az Országgyűlési Őrség számára került létrehozásra."
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "LXXIII. „hiikk-stat-o-megt” szerepkör"
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "Az kaphatja meg, aki a HIIKK statisztikai tételeket megtekintheti, de nem hitelesítheti."
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "LXXIV. „szkr_idegenrendesz” szerepkör"
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "A Szállítás Koordinációs Rendszerben az idegenrendészeti feladatot ellátók kaphatják meg."
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "LXXV. „szkr_orzottszallas” szerepkör"
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "A Szállítás Koordinációs Rendszerben az őrzött szállásokon dolgozók kaphatják meg."
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "LXXVI. „szkr_orfk” szerepkör"
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "A Szállítás Koordinációs Rendszerben országos illetékességgel rendelkezők kaphatják meg."
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "LXXVII. „rfesz_rogz” szerepkör"
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "Egyes rendészeti feladatokat ellátó személyek ügyét kezelő munkatárs kaphatja meg."
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "LXXVIII. „rfesz_lek” szerepkör"
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "A rendészeti feladatokat ellátó személyekhez kapcsolódó statisztikai lekérdezésre jogosult munkatárs kaphatja meg."
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "LXXIX. „hb-felulvizsgalo” szerepkör"
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "A feladat- és hatáskör szerint érintett szakmai vezető által kijelölt olyan személy kaphatja meg, aki a helyszíni bírsággal kapcsolatos adatszolgáltatás felülvizsgálatát végezheti."
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "LXXX. „bm-sajto” szerepkör"
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "Sajtó modul használatára jogosult munkatárs kaphatja meg."
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "LXXXI. „hb-vegrehajto” szerepkör"
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "A szabálysértési hatóság tagja kaphatja meg, aki a be nem fizetett helyszíni bírság végrehajtási eljárásában vesz részt."
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "LXXXII. „ellenortrv” szerepkör"
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "Az a vezetői ellenőrzést dokumentáló munkatárs kaphatja meg, aki csak a terveket készíti."
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "LXXXIII. „penzugyi_ellenjegyzo” szerepkör"
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "A szakértői kirendelés várható költségeinek pénzügyi ellenjegyzője kaphatja meg."
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "LXXXIV. „kotelezettseg_vallalo” szerepkör"
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "A szakértői kirendelés szakmai jóváhagyója kaphatja meg."
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "LXXXV. „utdij_ellenor” szerepkör"
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "A helyszíni ellenőrzést végző munkatárs kaphatja meg.”"
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "8. Az Ut. 6. melléklet 4. pont h) alpontja helyébe a következő h)–j) alpontok lépnek:"
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "[4. Cafetéria modulhoz:]"
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "„h) önsegélyező pénztári tagság (önsegélyező pénztár neve, számlaszáma, adószáma),"
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "i) gyermekek, hozzátartozók adatai:"
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "ia) név,"
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "ib) anyja neve,"
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "ic) születési idő,"
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "id) születési hely,"
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "ie) személyazonosító igazolvány száma,"
+    },
+    {
+      "provision_ref": "s107",
+      "section": "107",
+      "title": "107",
+      "content": "if) adóazonosító jel,"
+    },
+    {
+      "provision_ref": "s108",
+      "section": "108",
+      "title": "108",
+      "content": "ig) TAJ-szám,"
+    },
+    {
+      "provision_ref": "s109",
+      "section": "109",
+      "title": "109",
+      "content": "ih) lakcím,"
+    },
+    {
+      "provision_ref": "s110",
+      "section": "110",
+      "title": "110",
+      "content": "ii) rokonsági fok,"
+    },
+    {
+      "provision_ref": "s111",
+      "section": "111",
+      "title": "111",
+      "content": "ij) oktatási intézmény neve,"
+    },
+    {
+      "provision_ref": "s112",
+      "section": "112",
+      "title": "112",
+      "content": "j) OTP Széchenyi Pihenő kártya száma, érvényessége.”"
+    },
+    {
+      "provision_ref": "s113",
+      "section": "113",
+      "title": "113",
+      "content": "9. Az utasítás a közzétételét követő hónap első napján lép hatályba."
+    },
+    {
+      "provision_ref": "s114",
+      "section": "114",
+      "title": "114",
+      "content": "10. Az Ut."
+    },
+    {
+      "provision_ref": "s115",
+      "section": "115",
+      "title": "115",
+      "content": "a) 9. pontjában az „az ORFK Gazdasági Főigazgatóság Informatikai Főosztály” szövegrész helyébe az „az ORFK Gazdasági Főigazgatóság Informatikai Alkalmazás és Rendszerfejlesztési Főosztály” szöveg;"
+    },
+    {
+      "provision_ref": "s116",
+      "section": "116",
+      "title": "116",
+      "content": "b) 60. pontjában az „ORFK Rendészeti Főigazgatóság Ügyeleti és Védelmi Igazgatási Osztály” szövegrész helyébe az „ORFK Rendészeti Főigazgatóság Ügyeleti Osztály és az ORFK Rendészeti Főigazgatóság Védelmi Igazgatási Osztály” szöveg"
+    },
+    {
+      "provision_ref": "s117",
+      "section": "117",
+      "title": "117",
+      "content": "lép."
+    },
+    {
+      "provision_ref": "s118",
+      "section": "118",
+      "title": "118",
+      "content": "11. Hatályát veszti az Ut. 88–89. pontja."
+    },
+    {
+      "provision_ref": "s119",
+      "section": "119",
+      "title": "119",
+      "content": "12. Az utasítás a hatálybalépését követő napon hatályát veszti. 1 Az utasítás a 12. pontja alapján hatályát vesztette 2013. október 2. napjával."
+    }
+  ]
+}

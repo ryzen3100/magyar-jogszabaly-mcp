@@ -1,0 +1,887 @@
+{
+  "id": "hu-law-2023-25-b0-8e",
+  "type": "statute",
+  "title": "25/2023. (XI. 16.) ORFK utasítás az ügyeleti rendszerről",
+  "status": "in_force",
+  "in_force_date": "2024-01-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2023-25-B0-8E",
+  "description": "az ügyeleti rendszerről",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A jogalkotásról szóló 2010. évi CXXX. törvény 23. § (4) bekezdés c) pontjában és a Rendőrségről szóló 1994. évi XXXIV. törvény 6. § (1) bekezdés b) pontjában kapott felhatalmazás alapján – figyelemmel a segélyhívásokat fogadó szerv hatásköréről, feladatairól, továbbá feladatai ellátásának részletes szabályairól szóló 361/2013. (X. 11.) Korm. rendeletre, a rendőrség szolgálati szabályzatáról szóló 30/2011. (IX. 22.) BM rendelet 68. § (1) bekezdésében, illetve a Belügyminisztérium és a belügyminiszter irányítása alá tartozó szervek ügyeleti szolgálatai által teljesítendő tájékoztatási kötelezettség rendjéről, valamint a Kormányügyelet működéséről szóló 33/2011. (XII. 2.) BM utasításban meghatározottakra – az általános rendőrségi feladatok ellátására létrehozott szerv ügyeleti feladatai ellátásának és a segélyhívásokat fogadó központok működésének egységes szabályozása érdekében kiadom az alábbi utasítást: I. FEJEZET ÁLTALÁNOS RENDELKEZÉSEK 1. Hatály"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "1. Az utasítás hatálya kiterjed"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "a) az Országos Rendőr-főkapitányságra (a továbbiakban: ORFK);"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "b) a Készenléti Rendőrségre (a továbbiakban: KR);"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "c) a Repülőtéri Rendőr Igazgatóságra (a továbbiakban: RRI);"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "d)"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "e) a Rendőrségi Oktatási és Kiképző Központra (a továbbiakban: ROKK);"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "f) a Nemzetközi Oktatási Központra (a továbbiakban: NOK);"
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "g) a vármegyei (fővárosi) rendőr-főkapitányságokra (a továbbiakban: VMRFK);"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "h) a rendőrkapitányságokra (a továbbiakban: RK);"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "i) a határrendészeti kirendeltségekre (a továbbiakban: HRK). 2. Értelmező rendelkezések"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "2. Az utasítás alkalmazásában"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "a) állandó ügyeleti szolgálat: a rendőrség szolgálati szabályzatáról szóló 30/2011. (IX. 22.) BM rendelet (a továbbiakban: BM rendelet) 68. § (1) bekezdésében meghatározottak szerinti, a rendőri munka folyamatosságát a nap 24 órájában biztosító, a jelentési kötelezettség rendjét teljesítő, a rendkívüli eseményekkel összefüggésben a halaszthatatlan intézkedések megtétele érdekében intézkedő szolgálat;"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "b) hívásfogadó központ: az ORFK szervezeti eleme, amelynek feladata a segélyhívások fogadása, előszűrése, feldolgozása, a szükséges híváskezelési, hívástovábbítási feladatok ellátása;"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "c) ideiglenes ügyeleti szolgálat: állandó ügyeleti szolgálat hiányában, meghatározott célra és időtartamra létrehozott ügyeleti szolgálat;"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "d) segélyhívás: természetes személy vagy segélyhívás kezdeményezésére képes technikai rendszer által segélykérő vonalon (104, 105, 107, 112) kezdeményezett jelzés, amely vészhelyzet vagy egyéb veszélyes körülmény bejelentését tartalmazza;"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "e) tevékenység-irányítási központ: a VMRFK-k és az RK-k ügyeleti feladatait központosított formában ellátó, osztály vagy főosztály jogállással létrehozott állandó ügyeleti szolgálati forma;"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "f) ügyeletes: a BM rendelet 2. § 15. pontjában meghatározott személy, valamint a tevékenység-irányítási központok alárendeltségében működő Kapcsolattartási Szolgálati Helyeken vagy az őrzött szállásokon ügyeleti szolgálatot ellátó személy;"
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "g) ügyeletvezető: a BM rendelet 2. § 16. pontjában meghatározott személy;"
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "h) vezető ügyeleti szolgálat: készenléti jellegű, egyszemélyi ügyeleti szolgálat, ahol a vezető ügyeleti szolgálatot ellátó személy a feladatok szakszerű és hatékony végrehajtása érdekében a szerv vezetőjének jogkörében eljárva, a részére meghatározott kérdésekben dönt, azokban aláírási jogosultsággal rendelkezik. II. FEJEZET RÉSZLETES RENDELKEZÉSEK 3. Az ügyeleti szolgálatok rendszere"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "3. Állandó ügyeleti szolgálatot kell működtetni"
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "a) az ORFK-n;"
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "b) a KR-nél;"
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "c) az RRI-nél;"
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "d) a VMRFK-n tevékenység-irányítási központ (a továbbiakban: TIK) formájában;"
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "e) a HRK-n [az a)–e) alpont a továbbiakban együtt: ügyeleti szolgálat]."
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "4. A 3. pontban meghatározottakon kívül az országos rendőrfőkapitány engedélyezi ügyeleti szolgálat létrehozását, amelyre az utasítás rendelkezéseit megfelelően alkalmazni kell."
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "5. A VMRFK-n, az RK-n és a HRK-n vezető ügyeleti szolgálatot kell működtetni, amelyet legalább alosztályvezetői besorolású, hivatásos állományú tisztek előre elkészített ütemterv alapján, hivatali munkaidőn kívül látnak el."
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "6. A 3. pont b)–e) alpontjában meghatározott, ügyeleti szolgálatot működtető rendőri szervek vezetői határozzák meg az ügyeleti szolgálatot ellátók által a hivatali munkaidőn kívül gyakorolható jogköröket és a foganatosítható elsődleges intézkedéseket."
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "7. Készenlétbe helyezés és különleges jogrend kihirdetése esetén a Rendőrség Központi Készenlétbe Helyezési Terve alapján az ügyeleti szolgálatokat meg kell erősíteni, szükség esetén ideiglenes ügyeleti szolgálatokat kell szervezni."
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "8. Az ORFK állandó ügyeleti szolgálatának feladatait az ORFK Rendészeti Főigazgatóság Ügyeleti Főosztály Ügyeleti Osztálya (a továbbiakban: ORFK Főügyelet) látja el."
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "9. A segélyhívások fogadását, kezelését az ORFK Rendészeti Főigazgatóság Ügyeleti Főosztály Hívásfogadó Központ Szombathely és a Hívásfogadó Központ Miskolc látják el."
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "10. A Nemzeti Koordinációs Központ (a továbbiakban: NKK) állandó ügyeleti szolgálatának feladatait az ORFK Rendészeti Főigazgatóság Határrendészeti Főosztály Koordinációs Osztály (a továbbiakban: NKK Ügyelet) látja el."
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "11. Az ORFK Kommunikációs Szolgálat (a továbbiakban: ORFK KSZ) állandó ügyeleti szolgálatának feladatait az ORFK KSZ Sajtóügyelet (a továbbiakban: Sajtóügyelet) látja el."
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "12. Az NKK Ügyelet és a Sajtóügyelet az ORFK Főügyelet szolgálati helyiségében végzi feladatait."
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "13. Az ügyeleti szolgálatok állománya a hivatásos állomány tagjainak szolgálatteljesítési idejéről és a szolgálati időrendszerekről szóló 10/2015. (VII. 6.) ORFK utasítás alapján vezényléses vagy kombinált szolgálati időrendszerben – az I. számú váltásos és a vezényléses szolgálati időrendszerek kombinációjában –, vagy ha a szolgálati feladatok jellege indokolja, tömbösített szolgálati időrendszerben teljesíti szolgálatát. Az ügyeleti szolgálatok szolgálatváltását időben csúsztatva úgy kell végrehajtani, hogy az ügyeletvezető és a főügyeletes, valamint szükség esetén az ügyeletesek váltása legalább két különböző időpontban történjen. Az alkalmazott szolgálati időrendszert és a csúsztatott szolgálatváltás időpontjait az állományilletékes parancsnok határozza meg."
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "14. Az ügyeleti szolgálatok állománya egyenruhás vagy vegyes ruhás ruházati normatípus besorolása alá tartozik, szolgálatellátása során az egyenruha viselése kötelező."
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "15. Az ügyeleti szolgálatok állományának szolgálata során a rendszeresített kényszerítő eszközeit nem kell hordmódban viselnie, azokat az arra rendszeresített helyen kell tárolnia. 4. Szakmai irányítás"
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "16. Az országos rendőrfőkapitány az ügyeleti tevékenység szakmai irányítását az ORFK Főügyelet útján látja el"
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "a) az NKK Ügyelet;"
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "b) a Sajtóügyelet;"
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "c) a KR és az RRI által működtetett ügyeleti szolgálat; valamint"
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "d) a TIK vonatkozásában."
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "17. A rendőrfőkapitány az ügyeleti tevékenység szakmai irányítását a TIK útján látja el a VMRFK illetékességi területén működő"
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "a) a HRK által működtetett ügyeleti szolgálat, valamint"
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "b) egyéb ügyeleti szolgálatok vonatkozásában. 5. Az ORFK Főügyelet ügyeletvezetőjének jogkörei"
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "18. Az ORFK Főügyelet ügyeletvezetője (a továbbiakban: ORFK ügyeletvezető) a Belügyminisztérium és a belügyminiszter irányítása alá tartozó szervek ügyeleti szolgálatai által teljesítendő tájékoztatási kötelezettség rendjéről, valamint a Kormányügyelet működéséről szóló 33/2011. (XII. 2.) BM utasításból (a továbbiakban: BM utasítás) eredő jelentési, tájékoztatási kötelezettségeit a Terrorelhárítási Központ Ügyeleti és Objektumvédelmi Igazgatóság BM Ügyeleti Osztály (a továbbiakban: BM Ügyeleti Osztály) útján teljesíti."
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "19. Az ORFK ügyeletvezető hivatali munkaidőn kívül az országos rendőrfőkapitány alábbi jogköreit gyakorolja:"
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "a) a tudomására jutott panaszügyben megteszi a szükséges intézkedéseket, ennek sorána)"
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "aa) megadja a felvilágosítást a jogorvoslat előterjesztéséhez,"
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "ab) rendőri intézkedés elmulasztása esetén intézkedik annak utólagos foganatosítására,"
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "ac) intézkedik a szakszerűtlen rendőri intézkedés hibáinak megszüntetésére,"
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "ad) a rendőr jogsértő magatartása esetén tájékoztatja annak szolgálati elöljáróját, valamint a büntetőeljárásról szóló 2017. évi XC. törvény 30. §-a alapján az ügyészségi nyomozás kizárólagos hatáskörébe tartozó bűncselekmények esetén az ügyészséghez és a Nemzeti Védelmi Szolgálathoz fordul;"
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "b) a külképviseletek biztonságát közvetlenül veszélyeztető helyzetben utasítást ad a biztosítási feladatra rendelt erők parancsnokának;"
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "c) elrendelheti útzár, valamint csapaterő alkalmazását;"
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "d) tájékoztathatja a társszervek vezetőjét, kezdeményezheti a szükséges intézkedések megtételét;"
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "e) jogosult az esemény helyszínén lévő parancsnoktól a tett intézkedésekről jelentést kérni;"
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "f) jogosult és köteles az NKK, a Sajtóügyelet, a KR, az RRI és a VMRFK-k személyi állománya által foganatosított intézkedéseket – szakszerűtlen intézkedés vagy jogsértés észlelése esetén, az irányadó jogszabályi keretek között – felülbírálni, indokolt esetben a felsorolt szervek intézkedő vezetőjének további feladatokat meghatározni;"
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "g) jogosult körözési akció elrendelésére;"
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "h) jogosult az alábbi tárgykörökben rendelkezést kiadni:"
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "ha) eseti adatszolgáltatás elrendelése az ügyeleti szolgálatok részére,"
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "hb) állomány riasztása, berendelése,"
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "hc) erők, eszközök biztosítása, átcsoportosítása,"
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "hd) kísérési, biztosítási feladatok ellátása;"
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "i) engedélyezheti a jogosultsággal nem rendelkező személyek Rendőrségi Igazgatási Központ épületébe történő beléptetését;"
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "j) fokozott ellenőrzést rendelhet el;"
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "k) határesemény kivizsgálására soron kívüli határtalálkozót engedélyezhet;"
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "l) szolgálati helikopter azonnali szolgálati feladatra történő alkalmazását rendelheti el;"
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "m) kirendelheti a KR Személy- és Objektumvédelmi Igazgatóság Tűzszerész Szolgálatot;"
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "n) dönthet az idegenrendészeti eljárásban elrendelt őrizetbe vétel helyéről, férőhely hiányában az őrzött szálláshelyek és rendőrségi szabad fogdai férőhelyek átcsoportosítására utasítást adhat;"
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "o) jogosult a Rendőrség személyi állománya életét, testi épségét közvetlenül veszélyeztető helyzetekben a Rendőrség munkavédelmi főfelügyelője szakmai állásfoglalásának kikérésével és egyetértésével megelőző intézkedések elrendelésére."
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "20. Az ORFK ügyeletvezető feladatai:"
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "a) kapcsolatot tart az alárendelt ügyeleti szolgálattal, munkáját szakmailag irányítja, tevékenységéhez szakmai támogatást nyújt;"
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "b) elemzi, értékeli a jelentőszolgálat útján beérkezett jelentéseket, azokon elvégzi a szükséges módosításokat, kiegészítéseket, a jelentési kötelezettség alá tartozó eseményekről igény szerint kivonatot készít, és továbbítja az érintett vezető részére;"
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "c) figyelemmel kíséri a folyamatban lévő és további jelentési kötelezettség alá tartozó eseményeket, szükség esetén gondoskodik a háttéranyagok beszerzéséről;"
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "d) közreműködik a Budapesti Rendőr-főkapitányság Napi Jelentését is tartalmazó ORFK Napi Tájékoztató Jelentés (a továbbiakban: NTJ) elkészítésében, gondoskodik annak továbbításáról;"
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "e) a jelentőszolgálati rendszerről szóló ORFK utasításban előírtaknak megfelelően teljesíti a jelentési, tájékoztatási kötelezettségét;"
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "f) országos szinten naprakész nyilvántartást vezet a rendőrségi fogdák, őrzött szállások férőhelyeinek számáról, szükség esetén információt nyújt a szabad férőhelyekről, dönt az esetleges átcsoportosításokról;"
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "g) folyamatosan figyelemmel kíséri a Marathon Terra rendszert, amelynek segítségével kezeli a társszervektől beérkező üzeneteket;"
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "h) szükség esetén helyettesíti az NKK ügyeletvezetőjét;"
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "i) végrehajtja a különleges jogrendre vonatkozó tervekben a részére meghatározott feladatokat;"
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "j) több VMRFK-t érintő, irányítást igénylő esemény során az Egységes Digitális Rádiótávközlő Rendszer kommunikációban használandó csoportot kijelöli, és az azon történő forgalmazást, valamint a tett intézkedéseket figyelemmel kíséri."
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "21. Az ORFK ügyeletvezetője az országos rendőrfőkapitány nevében foganatosított intézkedéseiről, azok végrehajtásáról haladéktalanul köteles az országos rendőrfőkapitánynak és a feladatkörében érintett országos rendőrfőkapitány-helyettesnek jelentést tenni."
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "22. Az ORFK ügyeletvezetője köteles intézkedni az alárendelt ügyeleti szolgálatok által késedelmesen vagy kifogásolható tartalommal felterjesztett jelentések kivizsgálására. 6. A TIK alapfeladatai"
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "23. A TIK elsődleges feladata a tudomására jutott bejelentések jogszerű, szakszerű kezelése, a szolgálati feladatot ellátó állomány irányítása és munkájának összehangolása, együttműködve a szolgálatparancsnokkal, továbbá a jogszabályokból, a közjogi szervezetszabályozó eszközökből, az egyéb jogi eszközökből, valamint vezetői utasításokból adódó jelentési, tájékoztatási és adatszolgáltatási kötelezettség teljesítése."
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "24. A TIK az ORFK Főügyelet részére a jelentéstételi kötelezettségét a jelentőszolgálati rendszerről szóló ORFK utasításban meghatározottak szerint teljesíti."
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "25. A TIK feladata a társszervekkel történő kapcsolattartás, intézkedést igénylő események során a tevékenység koordinálása, a feladatellátáshoz szükséges jogszabályi felhatalmazáson alapuló adatok átadása és átvétele, az együttműködési megállapodásokból adódó kötelezettségek teljesítése."
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "26. A TIK részére rendszeres vagy folyamatos végrehajtást igénylő egyéb feladatot telepíteni vagy a TIK feladatkörét érintő, új együttműködési megállapodást kötni csak a rendészeti országos rendőrfőkapitány-helyettes engedélyével lehet. Ez alól kivételt képez az egyszeri, soron kívül végrehajtandó feladatmeghatározás. 7. Az NTJ készítésére, megismerésére vonatkozó szabályok"
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "27. Az ORFK Főügyelet a BM utasítás 1. mellékletében és a jelentőszolgálati rendszerről szóló ORFK utasításban meghatározottak alapján NTJ-t készít, amely a 00.00 órától 24.00 óráig a jelentéstételre kötelezett szervek által a tárgynapot követő nap 01.00 óráig írásban jelentett eseményeket tartalmazza."
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "28. Az összesített statisztika elkészítése és az NTJ-be foglalása érdekében naponta – a 00.00 órától 24.00 óráig terjedő időszak eseményeit a 24.00 órai helyzetnek megfelelően – az RK és a HRK a tárgynapot követő nap 00.30 óráig, a KR, az RRI és a TIK a tárgynapot követő nap 01.00 óráig számítógépes hálózaton vagy írásban az alábbiakat jelenti:"
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "a) az őrizetében lévő fogvatartott személyek számát összesen, bűnügyi, közbiztonsági, szabálysértési és idegenrendészeti őrizetes szerinti bontásban;"
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "b) a fogdák és őrzött szállások szabad férőhelyeinek számát;"
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "c) a személysérüléssel vagy anyagi kárral járó közlekedési balesetek számát összesen, külön kiemelve, hogy ebből mennyi volt halálos kimenetelű, és a halálos kimenetelű balesetekben összesen hány ember halt meg, valamint a súlyos, a könnyű sérüléssel, anyagi kárral járó balesetek számát kimenetel szerinti bontásban, továbbá a halálos, a súlyos, a könnyű személyi sérüléssel járó, valamint az anyagi káros balesetekből és ezek összességéből a szolgálati gépjárművel történt balesetek számát kimenetel szerinti bontásban;"
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "d) a bekövetkezett rendkívüli haláleseteket összesen, azon belül külön az öngyilkosság, a vízbefulladás, a kihűléses és az egyéb halálesetek számát;"
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "e) a következő napra tervezett, a gyülekezési jogról szóló 2018. évi LV. törvény hatálya alá tartozó bejelentett és a megtiltott gyűlések számát összesen, azon belül külön kiemelve a Magyarország Kormánya, kormányzati szervei ellen, valamint a köznyugalom megzavarására irányuló, potenciális kockázatot jelentő gyűlések számát;"
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "f) az elkövetett rablások számát összesen, külön kiemelve, hogy ebből mennyi volt a kiemelt és az egyéb rablások száma, valamint ezekből az elkövetők tekintetében mennyi volt az ismert vagy az ismeretlen rablások száma;"
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "g) a közveszéllyel fenyegetések számát összesen, valamint azokból külön az oktatási intézmény, védett épület, középület elleni és egyéb fenyegetések számát;"
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "h) gyanús küldemények számát összesen, ezen belül az úgynevezett „fehér poros riasztást” és az egyéb gyanús küldeményeket;"
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "i) a betöréses lopások számát összesen, lakás és családi ház, üzlet, raktár és telephely, hétvégi ház és nyaraló, valamint egyéb hely szerinti bontásban, külön megjelenítve az ismert és ismeretlen elkövető által elkövetett betöréses lopások számát;"
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "j) az eltulajdonított gépjárművek számát, az esemény helyszínét, az esemény időpontját, a bejelentés időpontját, az eltulajdonított gépjármű gyártmányát, típusát, gyártási évét, színét, a forgalmi rendszámát, az eljáró hatóság megnevezését, továbbá egyéb lényeges körülményt, valamint a gépjárműfeltörések számát;"
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "k) egyes egészséget veszélyeztető bűncselekmények kapcsán elrendelt nyomozások számát kábítószer-kereskedelem, kábítószer birtoklása, kóros szenvedélykeltés, kábítószer készítésének elősegítése, kábítószer-prekurzorral visszaélés bűncselekmények szerinti bontásban;"
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "l) az elfogások számát összesen, külön kiemelve a tettenérések, az elfogatóparancs alapján elrendelt körözések és a Magyarország területén történő jogellenes tartózkodások számát;"
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "m) az előállítások számát összesen, külön kiemelve a bűncselekmény gyanúja miatt és a biológiai mintavétel céljából történő előállítások számát;"
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "n) a biztonsági intézkedések számát;"
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "o) a rendőr által kezdeményezett büntető feljelentések számát;"
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "p) a szabálysértési feljelentések számát összesen, külön kiemelve a közlekedési és közrend elleni szabálysértések számát;"
+    },
+    {
+      "provision_ref": "s107",
+      "section": "107",
+      "title": "107",
+      "content": "q) a helyszíni bírságolások számát összesen, külön kiemelve a bírságolt személyek számát és a bírságok összegét;"
+    },
+    {
+      "provision_ref": "s108",
+      "section": "108",
+      "title": "108",
+      "content": "r) a jegyzőkönyvezett közigazgatási bírsággal érintett személyek számát;"
+    },
+    {
+      "provision_ref": "s109",
+      "section": "109",
+      "title": "109",
+      "content": "s) a helyszínen kiszabott közigazgatási bírsággal érintett személyek számát és a bírságok összegét;"
+    },
+    {
+      "provision_ref": "s110",
+      "section": "110",
+      "title": "110",
+      "content": "t) a pozitív eredménnyel zárult ittasság-ellenőrzések számát;"
+    },
+    {
+      "provision_ref": "s111",
+      "section": "111",
+      "title": "111",
+      "content": "u) a vezetési jogosultság azonnali felfüggesztése bejegyzésének esetszámát;"
+    },
+    {
+      "provision_ref": "s112",
+      "section": "112",
+      "title": "112",
+      "content": "v) a SIS rendszerből lekérdezett találatok számát az irányadó cikkek szerinti bontásban;"
+    },
+    {
+      "provision_ref": "s113",
+      "section": "113",
+      "title": "113",
+      "content": "w) a folyamatban lévő elrendelt, a maximum 4 év letartóztatás után elrendelt, a területhez kötött bűnügyi felügyelet megszegése miatt elrendelt és a megszüntetett lakáshoz kötött bűnügyi felügyeletek számát, a lakáshoz kötött bűnügyi felügyelet szabályainak megsértése miatt elrendelt őrizetbe vételek számát, a lakáshoz kötött bűnügyi felügyeletből megszökött személlyel szemben elrendelt és hatályban lévő körözések számát, a lakáshoz kötött bűnügyi felügyeletből megszökött és jelenleg is szökésben lévő személyek számát, továbbá a területhez kötött bűnügyi felügyeletek számát, valamint azt, hogy mindezekből külön-külön mennyi az elektronikus lakáshoz kötött bűnügyi felügyeletek száma;"
+    },
+    {
+      "provision_ref": "s114",
+      "section": "114",
+      "title": "114",
+      "content": "x) a folyamatban lévő elrendelt, területhez kötött bűnügyi felügyeletek számát, külön megjelölve, hogy ebből mennyi az elektronikus területhez kötött bűnügyi felügyeletek száma;"
+    },
+    {
+      "provision_ref": "s115",
+      "section": "115",
+      "title": "115",
+      "content": "y) téli időszakban (október 15. és március 31. között) a kihűléses haláleseteket, a bekövetkezés napra pontos idejét, a bekövetkezés helyének jellegét (közterület, magánterület), az elhalálozott személy nemét, életkorát, amennyiben hajléktalan személyről van szó, ennek tényét, az NTJ elkészítéséig az adott évre vonatkozóan a bekövetkezett esemény darabszámát, valamint azt, hogy ebből összesen hány esetben volt a kihűlt személy hajléktalan, az adott évet megelőző év hasonló időszakában bekövetkezett halálesetek számát;"
+    },
+    {
+      "provision_ref": "s116",
+      "section": "116",
+      "title": "116",
+      "content": "z) a befelé irányuló illegális határátlépések számát illegális belépési kísérletek, megakadályozások, átkísérések szerinti bontásban, az elmúlt 24 órára és az adott évre vonatkozó adatok feltüntetésével."
+    },
+    {
+      "provision_ref": "s117",
+      "section": "117",
+      "title": "117",
+      "content": "29. A 28. pontban meghatározott statisztikai adatok tekintetében az országos összesített, valamint a KR, az RRI és a VMRFK-k által szolgáltatott adatokat is külön szerepeltetni kell."
+    },
+    {
+      "provision_ref": "s118",
+      "section": "118",
+      "title": "118",
+      "content": "30. Az ORFK ügyeletvezetője intézkedik, hogy a tárgynapot követő 03.00 óráig a teljes adattartalommal elkészített NTJ elektronikus formában megküldésre kerüljön"
+    },
+    {
+      "provision_ref": "s119",
+      "section": "119",
+      "title": "119",
+      "content": "a) a BM Ügyeleti Osztály;"
+    },
+    {
+      "provision_ref": "s120",
+      "section": "120",
+      "title": "120",
+      "content": "b) a Nemzeti Információs Központ Kabinet Információs Készenléti Szolgálat (NIK Főügyelet);"
+    },
+    {
+      "provision_ref": "s121",
+      "section": "121",
+      "title": "121",
+      "content": "c) az országos rendőrfőkapitány;"
+    },
+    {
+      "provision_ref": "s122",
+      "section": "122",
+      "title": "122",
+      "content": "d) az országos rendőrfőkapitány-helyettesek;"
+    },
+    {
+      "provision_ref": "s123",
+      "section": "123",
+      "title": "123",
+      "content": "e) az ORFK KSZ vezetője;"
+    },
+    {
+      "provision_ref": "s124",
+      "section": "124",
+      "title": "124",
+      "content": "f) az ORFK Rendészeti Főigazgatóság Ügyeleti Főosztály vezetője;"
+    },
+    {
+      "provision_ref": "s125",
+      "section": "125",
+      "title": "125",
+      "content": "g) az ORFK Rendészeti Főigazgatóság Határrendészeti Főosztály vezetője;"
+    },
+    {
+      "provision_ref": "s126",
+      "section": "126",
+      "title": "126",
+      "content": "h) az ORFK Rendészeti Főigazgatóság Közrendvédelmi Főosztály vezetője;"
+    },
+    {
+      "provision_ref": "s127",
+      "section": "127",
+      "title": "127",
+      "content": "i) az ORFK Rendészeti Főigazgatóság Közlekedésrendészeti Főosztály vezetője;"
+    },
+    {
+      "provision_ref": "s128",
+      "section": "128",
+      "title": "128",
+      "content": "j) az ORFK Főügyelet vezetője;"
+    },
+    {
+      "provision_ref": "s129",
+      "section": "129",
+      "title": "129",
+      "content": "k) a KR Rendészeti Igazgatóság igazgatója;"
+    },
+    {
+      "provision_ref": "s130",
+      "section": "130",
+      "title": "130",
+      "content": "l) a KR Személy- és Objektumvédelmi Igazgatóság igazgatója;"
+    },
+    {
+      "provision_ref": "s131",
+      "section": "131",
+      "title": "131",
+      "content": "m) a KR Regionális Bevetési Igazgatóság igazgatója;"
+    },
+    {
+      "provision_ref": "s132",
+      "section": "132",
+      "title": "132",
+      "content": "n) a KR Határvadász Ezred parancsnoka;"
+    },
+    {
+      "provision_ref": "s133",
+      "section": "133",
+      "title": "133",
+      "content": "o) a KR Különleges Szolgálatok Igazgatósága igazgatója;"
+    },
+    {
+      "provision_ref": "s134",
+      "section": "134",
+      "title": "134",
+      "content": "p) a KR Nemzeti Nyomozó Iroda igazgatója;"
+    },
+    {
+      "provision_ref": "s135",
+      "section": "135",
+      "title": "135",
+      "content": "q) az RRI igazgatója;"
+    },
+    {
+      "provision_ref": "s136",
+      "section": "136",
+      "title": "136",
+      "content": "r) a rendőrfőkapitányok;"
+    },
+    {
+      "provision_ref": "s137",
+      "section": "137",
+      "title": "137",
+      "content": "s) a BRFK TIK főosztályvezetője;"
+    },
+    {
+      "provision_ref": "s138",
+      "section": "138",
+      "title": "138",
+      "content": "t) az országos rendőrfőkapitány által meghatározott egyéb személyek részére."
+    },
+    {
+      "provision_ref": "s139",
+      "section": "139",
+      "title": "139",
+      "content": "31. Az ORFK Főügyelet az NTJ-t korlátozott adattartalommal is elkészíti. A korlátozott adattartalommal elkészített NTJ-ben nem szerepelhet személyes adat."
+    },
+    {
+      "provision_ref": "s140",
+      "section": "140",
+      "title": "140",
+      "content": "32. A korlátozott adattartalommal elkészített NTJ-t az ORFK KSZ a tárgynapot követő munkanap 07.00 óráig a Rendőrség intranetes honlapján közzéteszi, és biztosítja az egy hónapra visszamenőlegesen történő elérhetőségét. 8. Egyéb rendelkezések"
+    },
+    {
+      "provision_ref": "s141",
+      "section": "141",
+      "title": "141",
+      "content": "33. A 3. pont b)–e) alpontjában meghatározott szervek vezetői a rendészeti országos rendőrfőkapitány-helyettesnek megküldik véleményezés céljából az ügyeleti feladatok végrehajtásáról szóló intézkedés tervezetét, valamint a már kiadott intézkedést."
+    },
+    {
+      "provision_ref": "s142",
+      "section": "142",
+      "title": "142",
+      "content": "34. Az ORFK Rendészeti Főigazgatóság Ügyeleti Főosztály vezetője az előírt jelentési kötelezettségen túlmenően, a kialakult közbiztonsági, bűnügyi és határrendészeti helyzet függvényében – átmeneti jelleggel – a 3. pont b)–d) alpontjában meghatározott ügyeleti szolgálatok részére egyéb jelentési kötelezettséget határozhat meg."
+    },
+    {
+      "provision_ref": "s143",
+      "section": "143",
+      "title": "143",
+      "content": "35. Az országos rendőrfőkapitány-helyettesek, az ORFK Titkársági Főosztály vezetője, az ORFK Ellenőrzési Szolgálat vezetője, az ORFK Hivatal vezetője, az ORFK KSZ vezetője, az ORFK Költségvetési Ellenőrzési Iroda vezetője, a ROKK igazgatója, a NOK igazgatója, az RRI igazgatója és a rendőrfőkapitányok humánigazgatási szakszolgálatuk útján intézkednek annak érdekében, hogy az irányításuk alá tartozó szerv, szervezeti egység vagy elem legalább osztályvezetői beosztású vezetőinek elérhetőségeiről (szervezeti egység/elem, beosztás, név, rendfokozat; BM, városi, mobiltelefonszám, EDR hívószám, e-mail-cím) az ORFK Rendészeti Főigazgatóság Ügyeleti Főosztály elektronikus úton – az ugyeletifo.orfk@orfk.police.hu e-mail-címen, Excel-táblázat formájában – tájékoztatást kapjon."
+    },
+    {
+      "provision_ref": "s144",
+      "section": "144",
+      "title": "144",
+      "content": "36. Az adatokban történt változás esetén a változást soron kívül, elektronikus úton, amennyiben az adott hónapban változás nem történt, ennek tényét szintén elektronikus úton a következő hónap 5-éig jelezni kell. III. FEJEZET ZÁRÓ RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s145",
+      "section": "145",
+      "title": "145",
+      "content": "37. Ez az utasítás 2024. január 1-jén lép hatályba."
+    },
+    {
+      "provision_ref": "s146",
+      "section": "146",
+      "title": "146",
+      "content": "38. 1 Az 1. pont d) alpontját a 17/2025. (VI. 30.) ORFK utasítás 68. pont a) alpontja hatályon kívül helyezte. 2 A 35. pont a 17/2025. (VI. 30.) ORFK utasítás 68. pont b) alpontja szerint módosított szöveg. 3 A 38. pont a 2010. évi CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette."
+    }
+  ]
+}

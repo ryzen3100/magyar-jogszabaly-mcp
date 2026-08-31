@@ -1,0 +1,1045 @@
+{
+  "id": "hu-law-2021-14-b0-0a",
+  "type": "statute",
+  "title": "14/2021. (VIII. 31.) BM utasítás a Járműkövető Rendszer működtetéséről",
+  "status": "in_force",
+  "in_force_date": "2021-09-15",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2021-14-B0-0A",
+  "description": "a Járműkövető Rendszer működtetéséről",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "chapter": "I. Fejezet ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § Az utasítás hatálya kiterjed a) a Belügyminisztériumra (a továbbiakban: BM), b) a Belügyminisztérium Szervezeti és Működési Szabályzatáról szóló 12/2022. (VI. 28.) BM utasítás 1. melléklet ba) 4. függelék A) pontjában foglalt táblázat 1. és 2. sorában felsorolt minisztériumi szervekre, bb) 4. függelék B) pontjában foglalt táblázat 1–7. sorában felsorolt önálló belügyi szervekre [a ba) és bb) alpontban meghatározottak a továbbiakban együtt: belügyi szerv], c) a belügyi szerv vagyonkezelésében vagy üzemeltetésében lévő, Járműkövető Rendszerrel (a továbbiakban: JKR) ellátott szolgálati járművet használó, a járműforgalmazással keletkező adatokat feldolgozó, kezelő, ellenőrző kormánytisztviselői, köztisztviselői, közalkalmazotti, hivatásos, rendvédelmi igazgatási alkalmazott, igazságügyi alkalmazotti jogviszonyban, szolgálati jogviszonyban vagy munkaviszonyban álló munkavállalókra, továbbá a belügyi szervnél foglalkoztatott közfoglalkoztatottra (a továbbiakban együtt: munkavállaló), d) a belügyi szerv által használt, jelen utasítás szerint a JKR-be bevonásra került szolgálati járműre (a továbbiakban: jármű)."
+    },
+    {
+      "provision_ref": "s2",
+      "chapter": "I. Fejezet ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § Az utasítás alkalmazásában: 1. Adminisztrátori felület: a JKR nyilvántartó programban rögzített törzsadatok kezelését, a jogosultságkezelést, a hibakezelést, a program beállításának elvégzését, a rendszer üzemeltetését, a működés ellenőrzését támogató elektronikus felület. 2. Azonosítatlan járműhasználat: a JKR által rögzített olyan járműhasználat, melyhez a rendszer nem rögzít járművezető nevet vagy járművezető azonosító chip kódot, és a járműhasználat meghaladja a 600 métert. 3. Azonosító egység: a járműbe telepített elektronikus olvasó eszköz, mely a járművezető azonosító chip kódleolvasására szolgál. 4. Általános belügyi szerv: a Büntetés-végrehajtás Országos Parancsnoksága és az irányítása alá tartozó szervek, az Országos Rendőr-főkapitányság és az irányítása alá tartozó szervek, a rendvédelmi technikumok, a Belügyminisztérium Országos Katasztrófavédelmi Főigazgatóság és az irányítása alá tartozó szervek, a Nemzeti Szakértői és Kutató Központ, az Országos Idegenrendészeti Főigazgatóság. 5. E-menetlevél: a papíralapú menetlevelet helyettesítő elektronikus dokumentum, mely az alkalmazás felületén, fájlban, nyomtatásban megjeleníthető. 6. E-menetlevél validálás: a belügyi szerv által elvégzett, irányított, szabályozott tevékenység, amely megállapítja, hogy a járműre vonatkozóan előállított e-menetlevélben szereplő adatok tartalmának valódisága alkalmassá teszi-e az e-menetlevelet arra, hogy elszámolási bizonylatként szolgáljon. 7. Felhasználó: a JKR bármely elemét használó, alkalmazó munkavállaló. 8. JKR felhasználói felület: a JKR-ben keletkező adatokat megjelenítő adminisztrátori és dashboard elektronikus lekérdezési felület. 9. Igénybevételi mód kapcsoló: a járműbe telepített két- vagy háromállású mechanikus eszköz, amely biztosítja a járművezető részére a megfelelő járműhasználati mód kiválasztását. 10. Járművezető-azonosítás: a járművezető részére kiadott elektronikus azonosítóval és a járműbe telepített azonosító egységgel végrehajtott személyazonosítás. 11. Járművezető azonosító chip: egyedi azonosító kóddal ellátott eszköz, mely az azonosító egység segítségével azonosítja a JKR számára a járművezetőt. 12. Járműforgalmazási adat: a jármű a) GPS-koordinátákkal meghatározott pozíciójára, b) a dekódolt földrajzi pozíciójára, c) mozgására, irányára, megállására, útvonalára, d) sebességére, gyorsulására, lassulására, e) a CAN BUS-szal ellátott jármű km-számlálójából származó valós futásteljesítményre, f) a jármű használata alatti motorműködésre, g) a gyújtás és a járműmotor aktív vagy inaktív állapotára, h) a megkülönböztető jelzést adó berendezés (fény, hang aktív-inaktív) állapotára, i) az igénybevételi mód kapcsoló állására, j) az üzemóra-mérésre, k) a jármű műszaki állapotára (hibakódok/szervizkódok), l) a jármű üzemanyag-fogyasztására, valamint m) a járművezető azonosító chip kódjára vonatkozó adatok, információk összessége. 13. Járműkövető Rendszer (JKR): a belügyi szerv által üzemeltetett járműben elhelyezett, járműforgalmazási adatokat továbbító telematikai berendezés és az általa továbbított adatok rögzítését és feldolgozását végző informatikai alkalmazás együttese. 14. JKR adminisztrátor: adminisztrátori és felhasználói felületen munkavégzésre jogosult, a JKR nyilvántartó program adminisztrátori és felhasználói felületeinek hozzáféréséhez érvényes jogosultsággal rendelkező munkavállaló. 15. JKR dashboard felhasználó: a JKR dashboard JKR felhasználói felületen munkavégzésre jogosult, a JKR dashboard felhasználói felületének hozzáféréséhez, a JKR-rel kapcsolatos jármű-szakterületi feladatok ellátásához szükséges, megfelelő jogosultsággal rendelkező munkavállaló. 16. Minősített használat: a szolgálati jármű olyan feladatra történő igénybevétele, amely során a szolgálati járműnek vagy a gépjárművezetőnek az okmánya fedő adatot tartalmaz, továbbá a védett személy személyszállítási feladatát és kísérését ellátó normál vagy különleges védőberendezéssel ellátott (páncélozott) szolgálati jármű igénybevétele. 17. Munkautasítás: adott járműgyártmányra vagy járműtípusra vonatkozó dokumentum, mely rögzíti a telematikai berendezés járműbe történő beszerelésére vonatkozóan az adott járműgyártmányra, típusra alkalmazandó – a jármű gyártója, vagy forgalmazója által elfogadott – egységes szerelési módszertant és szabályokat, a beszereléssel kapcsolatos műszaki információkat. 18. Műszaki igazoló: a járművet érintően elvégzett JKR szerelést ellenőrző, igazoló, a jármű vagyonkezelője, üzembentartója vagy igénybevevője által kijelölt munkavállaló. 19. Próbaüzem: a telematikai berendezés rendeltetésszerű működéséről történő meggyőződés a jármű vagyonkezelője, üzembentartója vagy igénybevevője által. 20. Speciális belügyi szerv: a Nemzeti Védelmi Szolgálat és a Terrorelhárítási Központ. 21. Szerelési munkalap: a szerelési ponton a szerelést végrehajtó szervezet által papír formában kiállított dokumentum, amely dokumentálja a járművet érintően elvégzett szerelési feladatokat. 22. Szerelési dokumentáció: a szerelést végrehajtó szervezet által a szerelésről elkészített szerelési munkalap és a mellékleteit képező fotó és más, a szerelés során a szerelést végző szakszemélyzet által készített információhordozók együttese, amelyek igazolják, hogy a szerelést hogyan végezték el. 23. Szerelési pont: az őrzött objektumban vagy zárt helyen biztosított fedett, világítással rendelkező olyan helyiség, amely a szereléssel érintett jármű befogadására, szerelésére és parkoltatására alkalmas. 24. Szolgáltató: a JKR megvalósításában, fenntartásában közreműködő, a BM-mel szerződéses jogviszonyban álló vállalkozó, és megbízása alapján az alvállalkozója. 25. Telematikai berendezés: a járműbe szerelt telematikai eszköz a kábelköteggel, az igénybevételi mód kapcsolóval, és az azonosító egységgel. 26. Telematikai besorolás: a jármű felépítése, műszaki felszereltsége, igénybevétele alapján történő – 1. melléklet szerinti – csoportba sorolás, mely meghatározza a jármű JKR szerelési feladatát, alapjármű, CAN BUS-szal ellátott jármű, tartós magáncélú igénybevétellel érintett jármű, minősített igénybevétellel érintett jármű, megkülönböztető jelzést adó berendezéssel rendelkező jármű, üzemóra számlálóval felszerelt jármű, megkülönböztető jelzést adó berendezéssel rendelkező motorkerékpár. 27. Telematikai eszköz: a járműbe szerelt járműforgalmazási adatokat továbbító elektronikus berendezés, mely el van látva szoftverrel, a belügyi szervre jellemző fedélzeti egység azonosítóval és SIM kártyával. 28. Tesztüzem: kijelölt járművekbe egy második telematikai berendezés beszerelésével és tartós üzemeltetésével megvalósuló sajátos JKR üzemeltetési változat, amelynek célja a JKR rendszer üzemeltetés alatt történő fejlesztéseinek „éles üzem” előtti tesztelése. 29. Vagyonkezelő: az a belügyi szerv, amelynek az adott jármű a vagyonkezelésébe tartozik. 30. JKR dashboard felhasználói felület: a JKR-ben keletkező adatokat megjelenítő dashboard elektronikus lekérdezési felület."
+    },
+    {
+      "provision_ref": "s3",
+      "chapter": "I. Fejezet ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § A JKR üzemeltetésének felsőszintű szakmai irányítói: a) gépjármű-szakmai területen és a működtetés általános koordinációja vonatkozásában a BM Vagyongazdálkodási, Beruházási és Beszerzési Főosztály (a továbbiakban: BM VBBFO) vezetője, b) informatikai-szakmai területen és a működtetés informatikai koordinációja vonatkozásában a BM Rendvédelmi Informatikai és Elektronikus Rendszerek Működtetéséért és Fejlesztéséért Felelős Főosztály (a továbbiakban: BM RERIFO) vezetője, c) pénzügyi-, beszerzési-szakmai területen és a működtetés pénzügyi, jogi, elszámolási koordinációja vonatkozásában a BM Pénzügyi Erőforrás-gazdálkodási Főosztály vezetője."
+    },
+    {
+      "provision_ref": "s4",
+      "chapter": "I. Fejezet ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) A JKR működtetéséért a) általános belügyi szerv esetén a BM VBBFO vezetője, b) speciális belügyi szerv esetén a speciális belügyi szerv vezetője a felelős. (2) A JKR alkalmazásáért a BM VBBFO vezetője, valamint a belügyi szerv vezetője felelős."
+    },
+    {
+      "provision_ref": "s5",
+      "chapter": "II. Fejezet A JKR FELÉPÍTÉSE, SIM KÁRTYA BIZTOSÍTÁSA, KÓDKIOSZTÁS, HÁLÓZAT BIZTOSÍTÁSA",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § A JKR a járműbe szerelt telematikai berendezésből és az általa továbbított járműforgalmazási adatok feldolgozását végző informatikai alkalmazásból tevődik össze."
+    },
+    {
+      "provision_ref": "s6",
+      "chapter": "II. Fejezet A JKR FELÉPÍTÉSE, SIM KÁRTYA BIZTOSÍTÁSA, KÓDKIOSZTÁS, HÁLÓZAT BIZTOSÍTÁSA",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § A telematikai berendezés által biztosított járműforgalmazási adatok rögzítését, feldolgozását, az adatok megjelenítését a JKR nyilvántartó program (a továbbiakban: JKR Program) mint informatikai alkalmazás biztosítja, mely részére a járműtől érkező adatok zárt hozzáférést biztosító APN (Access Point Name) hálózaton (a továbbiakban: zárt APN hálózat) kerülnek továbbításra."
+    },
+    {
+      "provision_ref": "s7",
+      "chapter": "II. Fejezet A JKR FELÉPÍTÉSE, SIM KÁRTYA BIZTOSÍTÁSA, KÓDKIOSZTÁS, HÁLÓZAT BIZTOSÍTÁSA",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § A belügyi szervek által üzemeltetett járművek forgalmazásával kapcsolatos adatok tárolása, hozzáférhetősége és feldolgozhatósága belügyi szervenként egymástól elkülönítve történik."
+    },
+    {
+      "provision_ref": "s8",
+      "chapter": "II. Fejezet A JKR FELÉPÍTÉSE, SIM KÁRTYA BIZTOSÍTÁSA, KÓDKIOSZTÁS, HÁLÓZAT BIZTOSÍTÁSA",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § Az általános belügyi szervek központi szoftver infrastruktúrájának üzemeltetését a NISZ Nemzeti Infokommunikációs Szolgáltató Zrt. (a továbbiakban: NISZ Zrt.), a speciális belügyi szervek infrastruktúrájának üzemeltetését e szervek szerver-üzemeltetői, vagy megállapodás alapján más speciális belügyi szerv végzi."
+    },
+    {
+      "provision_ref": "s9",
+      "chapter": "II. Fejezet A JKR FELÉPÍTÉSE, SIM KÁRTYA BIZTOSÍTÁSA, KÓDKIOSZTÁS, HÁLÓZAT BIZTOSÍTÁSA",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § (1) A keletkezett adatok tárolása a) az általános belügyi szerv esetében a NISZ Zrt., b) a speciális belügyi szerv esetében a jármű vagyonkezelésével érintett speciális belügyi szerv, vagy megállapodás alapján más speciális belügyi szerv üzemeltetésében lévő szerveren történik. (2) Speciális belügyi szerv esetén a keletkezett járműforgalmazási adat a speciális belügyi szervek vezetőinek együttes megállapodásával egy infrastruktúrán kezelhetőek, de az érintett speciális belügyi szerv kizárólag a saját vagyonkezelésébe vagy üzemeltetésébe tartozó járműállomány járműforgalmazási adatait kezelheti."
+    },
+    {
+      "provision_ref": "s10",
+      "chapter": "II. Fejezet A JKR FELÉPÍTÉSE, SIM KÁRTYA BIZTOSÍTÁSA, KÓDKIOSZTÁS, HÁLÓZAT BIZTOSÍTÁSA",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § (1) A BM RERIFO feladata a belügyi szervek részére a telematikai eszközökhöz szükséges mennyiségű SIM-kártya biztosítására, és annak kódkiosztás alapján, a belügyi szervek szerint történő elkülönítésére intézkedni. (2) A belügyi szerv a SIM-kártya biztosítására önállóan intézkedhet."
+    },
+    {
+      "provision_ref": "s11",
+      "chapter": "II. Fejezet A JKR FELÉPÍTÉSE, SIM KÁRTYA BIZTOSÍTÁSA, KÓDKIOSZTÁS, HÁLÓZAT BIZTOSÍTÁSA",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § (1) A JKR működésének alapfeltételéül szolgáló zárt APN hálózat használatát a NISZ Zrt. szolgáltatási körében, a NISZ Zrt. és a BM közötti – 96. § (1) bekezdése szerinti – szerződés alapján kell biztosítani a belügyi szervek részére. (2) A speciális belügyi szerv a zárt APN hálózat biztosítására, igénybevételére önállóan intézkedhet, szerződhet."
+    },
+    {
+      "provision_ref": "s12",
+      "chapter": "III. Fejezet A JÁRMŰ JKR-BE TÖRTÉNŐ INTEGRÁLÁSA, A JKR SZERELÉSÉRE VONATKOZÓ SZABÁLYOK",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. § E fejezet alkalmazásában: 1. Telematikai berendezés beszerelése: a JKR-be még be nem integrált új jármű magyarországi forgalomba helyezésekor, a Magyarországon már forgalomba helyezett, de JKR-be még nem integrált jármű belügyi szervnél történő használatba vételét megelőzően, továbbá a feladatellátás változásából eredően a belügyi szerv vagyonkezelésébe tartozó vagy általa üzemben-, használatban tartott jármű JKR-be integrálás alóli felmentés okának megszűnésével előálló beépítési feladat. 2. Telematikai berendezés kiszerelése: az a szerelési folyamat, amikor egy már JKR-be integrált jármű a forgalomból kivonásra kerül, vagy a feladatellátás változásából eredően a belügyi szerv vagyonkezelésébe tartozó, vagy általa üzemben-, használatban tartott jármű felmentést kap a JKR-be integrálás alól, ezért vagy garanciális időn túli meghibásodás miatt a járműből a telematikai berendezés eltávolításra kerül. 3. Átszerelés: a telematikai eszköz egyik járműből másik járműbe történő átszerelése, ha a) a ki- és beszerelési időpont különbsége nem haladja meg a 12 hetet, továbbá b) a garanciális időszakon túl meghibásodott telematikai eszköz kizárólagos, kábelkötegeket, egyéb kiegészítőket nem érintő cseréje. Egyéb esetekben a szerelést egy telematikai eszköz kiszereléseként és egy telematikai eszköz beszereléseként kell kezelni. 4. Megkülönböztető jelzést biztosító berendezés utólagos szerelése: a már JKR-be integrált, a) megkülönböztető jelzést adó berendezéssel nem felszerelt járműbe újonnan beszerelésre kerülő megkülönböztető jelzést adó berendezés telematikai berendezésbe történő elektromos bekötése, vagy b) a megkülönböztető jelzést adó berendezéssel felszerelt járműben lévő megkülönböztető jelzést adó berendezés telematikai berendezésből történő kikötése. 5. Igénybevételi mód kapcsoló utólagos szerelése: a már JKR-be integrált, a) tartós magáncélú igénybevétellel és/vagy minősített használattal nem érintett járműbe igénybevételi mód kapcsoló beszerelése, b) az igénybevételi mód kapcsoló telematikai berendezésbe történő elektromos bekötése, vagy c) a tartós magáncélú igénybevétellel és/vagy minősített használattal érintett járműből az igénybevételi mód kapcsoló kiszerelése, d) az igénybevételi mód kapcsoló telematikai berendezésből történő elektromos kikötése, vagy e) a tartós magáncélú igénybevétellel és/vagy minősített használattal érintett járműben az igénybevételi mód kapcsoló funkciójának megváltoztatása. 6. A megkülönböztető jelzést biztosító berendezés és az igénybevételi mód kapcsoló utólagos együttes szerelése: a már JKR-be integrált, a) a tartós magáncélú igénybevétellel, minősített használattal nem érintett, továbbá megkülönböztető jelzést adó berendezéssel nem felszerelt járműbe az igénybevételi mód kapcsoló beszerelése, és b) az igénybevételi mód kapcsoló, és az újonnan beszerelésre kerülő megkülönböztető jelzést biztosító berendezés telematikai berendezésbe történő együttes elektromos bekötése, vagy c) a tartós magáncélú igénybevétellel, minősített használattal érintett, továbbá megkülönböztető jelzést adó berendezéssel felszerelt járműből az igénybevételi mód kapcsoló kiszerelése, és d) az igénybevételi mód kapcsoló és a megkülönböztető jelzést biztosító berendezés telematikai berendezésből történő együttes elektromos kikötése, vagy e) az igénybevételi mód kapcsolóval ellátott jármű esetében a használati mód változása miatt az igénybevételi mód kapcsoló elektromos bekötésének módosítása. 7. Igénybevételi mód kapcsoló cseréje: egy már igénybevételi mód kapcsolóval ellátott jármű feladatellátásának változásából eredő, továbbá a nem garanciális időszak alatt bekövetkező meghibásodás miatt szükségessé váló igénybevételi mód kapcsoló cseréje. 8. JKR telematikai eszköz tápellátásának szerelése: a már JKR-be integrált jármű telematikai eszközének tápellátás-kikötése vagy annak visszakötése."
+    },
+    {
+      "provision_ref": "s13",
+      "chapter": "III. Fejezet A JÁRMŰ JKR-BE TÖRTÉNŐ INTEGRÁLÁSA, A JKR SZERELÉSÉRE VONATKOZÓ SZABÁLYOK",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. § A belügyi szervnek a járműkövető rendszer alkalmazására, használatára, és a szolgálati járműben adattovábbítást végző telematikai eszköz elhelyezésére, valamint a meghatározott követelmény alóli mentességre a belügyminiszter irányítása alá tartozó rendvédelmi szervek által üzemben tartott szolgálati járművekre, azok forgalomba helyezésére, időszakos vizsgálatára vonatkozó különös szabályokról szóló 58/2015. (X. 27.) BM rendelet [a továbbiakban: 58/2015. (X. 27.) BM rendelet] rendelkezéseit alkalmazni kell."
+    },
+    {
+      "provision_ref": "s14",
+      "chapter": "III. Fejezet A JÁRMŰ JKR-BE TÖRTÉNŐ INTEGRÁLÁSA, A JKR SZERELÉSÉRE VONATKOZÓ SZABÁLYOK",
+      "section": "14",
+      "title": "14. §",
+      "content": "14. § (1) Ha a belügyi szerv meglévő járműállományától eltérő, új típusú jármű beszerzése valósul meg, a beszerelés kezdeményezését megelőzően a beszerző belügyi szervnek tájékoztatni kell a BM VBBFO-t a beszerzés tényéről, és a Szolgáltatót fel kell kérnie a munkautasítás elkészítésére. (2) A járműforgalmazóval a beszerző belügyi szerv köteles egyeztetni a beszerelést és a Szolgáltató által készített munkautasítást. (3) A munkautasítást a BM VBBFO részére tájékoztatásul meg kell küldeni, ezt követően végezhető el a jármű JKR-be integrálása."
+    },
+    {
+      "provision_ref": "s15",
+      "chapter": "III. Fejezet A JÁRMŰ JKR-BE TÖRTÉNŐ INTEGRÁLÁSA, A JKR SZERELÉSÉRE VONATKOZÓ SZABÁLYOK",
+      "section": "15",
+      "title": "15. §",
+      "content": "15. § A JKR-be integrált jármű szerelési feladatát – a BM VBBFO által meghatározott feltételek alapján – szerződött Szolgáltató vagy a belügyi szerv saját vagy más belügyi szerv állományába tartozó, szerelési képzést sikeresen teljesítő munkavállaló végezheti."
+    },
+    {
+      "provision_ref": "s16",
+      "chapter": "III. Fejezet A JÁRMŰ JKR-BE TÖRTÉNŐ INTEGRÁLÁSA, A JKR SZERELÉSÉRE VONATKOZÓ SZABÁLYOK",
+      "section": "16",
+      "title": "16. §",
+      "content": "16. § (1) A közúti járművek műszaki megvizsgálásáról szóló 5/1990. (IV. 12.) KöHÉM rendelet (a továbbiakban: ER. rendelet) szerinti M1, M2, M3, N1, N2, N3, T1, T2, T3, T4, T5 kategóriájú járműbe szerelt telematikai berendezésnek a) telematikai berendezés, illetve GPS- és GSM-modul aktív/inaktív állapotára, b) a jármű GPS-koordinátákkal meghatározott pozíciójára, c) a jármű mozgására, annak irányára, megállására (útvonal, sebesség, gyorsulás, lassulás), d) a CAN BUS-szal ellátott jármű km-számlálójából származó valós futásteljesítményre – ha műszakilag megoldható –, e) a JKR Program Felhasználói kézikönyvében (a továbbiakban: Felhasználói kézikönyv) meghatározott, a jármű használata alatti motorműködésre, f) a gyújtás és a járműmotor aktív vagy inaktív állapotára, g) a járművezető azonosítására, h) a megkülönböztető jelzést adó berendezés (fényjelzés, hangjelzés aktív-inaktív) állapotára – ha rendelkezik a jármű ilyen eszközzel –, i) az igénybevételi mód kapcsoló állására – ha rendelkezik a jármű ilyen eszközzel –, j) az üzemóramérésre – ha rendelkezik a jármű üzemóramérési adatot szolgáltató berendezéssel –, k) a jármű műszaki állapotára (hibakódok/szervizkódok), l) a jármű üzemanyag-fogyasztására vonatkozó adatok továbbítását, szükség esetén a 117. § szerinti adat rögzítését kell biztosítania a JKR Program számára. (2) Az ER. rendelet szerinti L3e, L4e, L5e, L7e kategóriába sorolt és megkülönböztető jelzést adó berendezéssel felszerelt járműbe szerelt telematikai berendezésnek a) a jármű GPS-koordinátákkal meghatározott pozíciójára, b) a jármű mozgására, annak irányára, megállására, c) a jármű km-számlálójából származó valós futásteljesítményre – ha műszakilag megoldható –, d) a gyújtás állapotára, a motor működésére, e) a telematikai berendezés, aktív/inaktív állapotára vonatkozó adatok továbbítását, szükség esetén a 117. § szerinti adatrögzítését kell biztosítania a JKR Program számára."
+    },
+    {
+      "provision_ref": "s17",
+      "chapter": "III. Fejezet A JÁRMŰ JKR-BE TÖRTÉNŐ INTEGRÁLÁSA, A JKR SZERELÉSÉRE VONATKOZÓ SZABÁLYOK",
+      "section": "17",
+      "title": "17. §",
+      "content": "17. § Szerelési feladatok: a) telematikai berendezés beszerelése, b) telematikai berendezés kiszerelése, c) telematikai berendezés átszerelése, d) a megkülönböztető jelzést biztosító berendezés utólagos szerelése, e) az igénybevételi mód kapcsoló utólagos szerelése, f) a megkülönböztető jelzést adó berendezés és az igénybevételi mód kapcsoló utólagos együttes szerelése, g) az igénybevételi mód kapcsoló cseréje, h) JKR telematikai eszköz tápellátásának szerelése, i) passzív CAN-olvasó beszerelése, j) járművezető azonosító LED-bekötése [az a)–j) pontban meghatározottak a továbbiakban együtt: szerelés]."
+    },
+    {
+      "provision_ref": "s18",
+      "chapter": "III. Fejezet A JÁRMŰ JKR-BE TÖRTÉNŐ INTEGRÁLÁSA, A JKR SZERELÉSÉRE VONATKOZÓ SZABÁLYOK",
+      "section": "18",
+      "title": "18. §",
+      "content": "18. §"
+    },
+    {
+      "provision_ref": "s19",
+      "chapter": "III. Fejezet A JÁRMŰ JKR-BE TÖRTÉNŐ INTEGRÁLÁSA, A JKR SZERELÉSÉRE VONATKOZÓ SZABÁLYOK",
+      "section": "19",
+      "title": "19. §",
+      "content": "19. § A belügyi szerv a 17. § szerinti szerelési igényét a megrendelés és a 3. melléklet szerinti Járműlista BM VBBFO felé történő megküldésével kezdeményezi."
+    },
+    {
+      "provision_ref": "s20",
+      "chapter": "III. Fejezet A JÁRMŰ JKR-BE TÖRTÉNŐ INTEGRÁLÁSA, A JKR SZERELÉSÉRE VONATKOZÓ SZABÁLYOK",
+      "section": "20",
+      "title": "20. §",
+      "content": "20. § A JKR szerelés lebonyolítása, szervezése és a járművek szerelésre történő biztosítása a belügyi szerv vezetője által kijelölt vezető felelőssége."
+    },
+    {
+      "provision_ref": "s21",
+      "chapter": "III. Fejezet A JÁRMŰ JKR-BE TÖRTÉNŐ INTEGRÁLÁSA, A JKR SZERELÉSÉRE VONATKOZÓ SZABÁLYOK",
+      "section": "21",
+      "title": "21. §",
+      "content": "21. § JKR szerelési feladat – a 22. §-ban foglaltak kivételével – a BM igazgatása terhére kötelezettségvállalásra jogosult által aláírt megrendelés és Járműlista alapján végezhető."
+    },
+    {
+      "provision_ref": "s22",
+      "chapter": "III. Fejezet A JÁRMŰ JKR-BE TÖRTÉNŐ INTEGRÁLÁSA, A JKR SZERELÉSÉRE VONATKOZÓ SZABÁLYOK",
+      "section": "22",
+      "title": "22. §",
+      "content": "22. § A belügyi szerv a szerelést saját vagy más belügyi szerv – Szolgáltató által kiképzett – szerelői állományának bevonásával is végezheti."
+    },
+    {
+      "provision_ref": "s23",
+      "chapter": "III. Fejezet A JÁRMŰ JKR-BE TÖRTÉNŐ INTEGRÁLÁSA, A JKR SZERELÉSÉRE VONATKOZÓ SZABÁLYOK",
+      "section": "23",
+      "title": "23. §",
+      "content": "23. § A szerelésre tervezett jármű vagyonkezelője köteles gondoskodni a szerelési feladatok végrehajtásához szükséges szerelési pontról."
+    },
+    {
+      "provision_ref": "s24",
+      "chapter": "III. Fejezet A JÁRMŰ JKR-BE TÖRTÉNŐ INTEGRÁLÁSA, A JKR SZERELÉSÉRE VONATKOZÓ SZABÁLYOK",
+      "section": "24",
+      "title": "24. §",
+      "content": "24. § (1) A szerelési pontot biztosító belügyi szerv köteles biztosítani a szerelés időtartama alatt egy fő helyszíni kapcsolattartót, aki a szerelést végző szervezet és a szerelési pontot rendelkezésre bocsátó belügyi szerv közötti kapcsolattartást biztosítja. (2) A szereléssel érintett járművet használó szerv köteles biztosítani a) legalább egy főt, aki jogosult a szerelt járművet a szerelési ponton mozgatni, b) műszaki igazolót, aki a szerelt jármű átadás-átvételét, szerelésének műszaki teljesítését ellenőrzi, és annak igazolását a szerelt jármű munkalapján elvégzi. (3) A (2) bekezdésben meghatározott feladatokat ugyanazon személy is elvégezheti."
+    },
+    {
+      "provision_ref": "s25",
+      "chapter": "III. Fejezet A JÁRMŰ JKR-BE TÖRTÉNŐ INTEGRÁLÁSA, A JKR SZERELÉSÉRE VONATKOZÓ SZABÁLYOK",
+      "section": "25",
+      "title": "25. §",
+      "content": "25. § Új beszerzésű járművek szerelését a vagyonkezelőnek lehetőség szerint a járműforgalmazó, szállító átadás-átvételi helyszínén kell megszerveznie és végrehajtatnia, összehangolva az egyéb technikai eszközök járműbe történő szerelésével."
+    },
+    {
+      "provision_ref": "s26",
+      "chapter": "III. Fejezet A JÁRMŰ JKR-BE TÖRTÉNŐ INTEGRÁLÁSA, A JKR SZERELÉSÉRE VONATKOZÓ SZABÁLYOK",
+      "section": "26",
+      "title": "26. §",
+      "content": "26. § (1) A műszaki igazolás folyamata magába foglalja a szerelési ponton a megrendelés szerint végrehajtott szerelés dokumentálását, annak ellenőrzését, a járműbe beszerelt telematikai berendezés és az elvégzett szerelési feladat átvételét. (2) A dokumentálás a) a 17. § a) pontja szerinti szerelési feladat esetén a 10. melléklet szerinti szerelési munkalapon, b) a 17. § b)–h) pontja szerinti szerelési feladta esetén a 4. melléklet szerinti munkalapon [az a) és b) pont a továbbiakban együtt: munkalap] történik, amely az adott jármű esetében végrehajtott szerelési munkafolyamatot rögzíti, és annak kitöltését, valamint aláírását követően egyedi, az adott járműhöz tartozó dokumentumnak minősül. (3) A munkalapot a szerelést végrehajtó kiképzett szerelői állomány eredeti példányban, papíralapú dokumentumként biztosítja és tölti ki a járműhöz kapcsolódó adatokkal, majd a szerelés végrehajtását követően átadja a szerelési ponton a kijelölt műszaki igazoló személy részére. (4) A jármű vonatkozásában a JKR-rel kapcsolatosan elvégzett szerelésről a szerelést végrehajtó személynek munkalapot kell kiállítani, amely az elvégzett szerelési feladatokat dokumentálja, és igazolja azok teljesítését, valamint a szerelés során tapasztalt problémát. (5) A végrehajtott szerelést – a belügyi szerv részéről – a műszaki igazoló személy a munkalap aláírásával igazolja. (6) A teljesített szerelést rögzítő munkalapot a műszaki igazoló aláírását követően, a szerelések havi összesítésekor kell eljuttatni a belügyi szervhez elektronikus formában. (7) Az eredeti példány megőrzéséről a jármű vagyonkezelője vagy üzembentartója gondoskodik a belügyi szerv saját iratkezelési szabályai szerint."
+    },
+    {
+      "provision_ref": "s27",
+      "chapter": "III. Fejezet A JÁRMŰ JKR-BE TÖRTÉNŐ INTEGRÁLÁSA, A JKR SZERELÉSÉRE VONATKOZÓ SZABÁLYOK",
+      "section": "27",
+      "title": "27. §",
+      "content": "27. § Ha a szerelésre bocsátott jármű szerelését nem lehet végrehajtani, a szerelő szerelési feljegyzést állít ki, egy eredeti, papíralapú dokumentumként és átadja a jármű műszaki igazolójának. A feljegyzés megőrzését a jármű vagyonkezelője vagy üzembentartója biztosítja a munkalapokra vonatkozóan meghatározott iratkezelési szabályozásnak megfelelően."
+    },
+    {
+      "provision_ref": "s28",
+      "chapter": "III. Fejezet A JÁRMŰ JKR-BE TÖRTÉNŐ INTEGRÁLÁSA, A JKR SZERELÉSÉRE VONATKOZÓ SZABÁLYOK",
+      "section": "28",
+      "title": "28. §",
+      "content": "28. § A 17. § a) és c) pontja szerinti szerelési feladat végrehajtását követően a járműbe szerelt telematikai eszköz azonosító számához a jármű hatósági jelzésének vagy fedőazonosítójának hozzárendelésére (a továbbiakban: adat-összerendelés) a jármű vagyonkezelője vagy üzembentartója által kijelölt JKR adminisztrátor intézkedik."
+    },
+    {
+      "provision_ref": "s29",
+      "chapter": "III. Fejezet A JÁRMŰ JKR-BE TÖRTÉNŐ INTEGRÁLÁSA, A JKR SZERELÉSÉRE VONATKOZÓ SZABÁLYOK",
+      "section": "29",
+      "title": "29. §",
+      "content": "29. § (1) A JKR felhasználói felületen a telematikai berendezés rendeltetésszerű működésének ellenőrzését – a szerelést és adat-összerendelést követően – a jármű vagyonkezelője vagy üzembentartója által a feladat végrehajtására kijelölt adminisztrátor vagy JKR dashboard felhasználó jogosultsággal rendelkező személy hajtja végre. (2) Az ellenőrzés kiterjed a) a telematikai eszköz és az azonosító egység fény- és hangjelzéseinek rendeltetésszerű működésére, b) a járművezető-azonosítás rendeltetésszerű működésére, c) a jármű pozíciójának valós adatrögzítésére, d) a megkülönböztető jelzést adó berendezés hang- és fényjelzése aktív állapotának valós adatrögzítésére, e) a beépített igénybevételi mód kapcsoló állásának JKR Programban történő megfelelő rögzítésére, f) a CAN BUS/GPS által szolgáltatott km adat helyességére és g) az üzemóra számláló által rögzített adatok helyességére. (3) A sikeres ellenőrzést követően kezdődik meg a próbaüzem. A próbaüzem a telematikai berendezés rendeltetésszerű működésének igazolásával ér véget. Az igazolás az 5. melléklet szerinti műszaki igazolás jármű vagyonkezelője, üzembentartója vagy igénybevevője általi kiállításával történik. (4) Ha az ellenőrzés sikertelen, a következő tevékenységeket kell elvégezni: a) ellenőrizni kell, hogy az érintett jármű a JKR-ben a megfelelő járműflottába felvételre került-e, és a járműbe beszerelt telematikai berendezés azonosító száma virtuálisan hozzárendelhető-e, ha nem, akkor ezek korrigálására a JKR belügyi szervi adminisztrátor (a továbbiakban: belügyi szervi adminisztrátor) intézkedik, b) ha az érintett jármű a megfelelő jármű flottába már rögzítésre került, de járműforgalmazási adatok nem kérhetők le, vagy azok nem valósak, úgy meg kell indítani a hibakezelési folyamatot."
+    },
+    {
+      "provision_ref": "s30",
+      "chapter": "III. Fejezet A JÁRMŰ JKR-BE TÖRTÉNŐ INTEGRÁLÁSA, A JKR SZERELÉSÉRE VONATKOZÓ SZABÁLYOK",
+      "section": "30",
+      "title": "30. §",
+      "content": "30. § (1) A sikeres próbaüzem alapján a belügyi szervnek – kivéve a saját vagy más belügyi szerv képzett szerelői állománya által elvégzett JKR szerelést – a tárgyhónapban elvégzett szerelésekről havi elszámolást kell készíteni, mely az 5. melléklet szerinti műszaki igazolásból és a 6. melléklet szerinti Havi szerelési összesítőből (a továbbiakban: HSZÖ) áll. (2) Az a belügyi szerv, mely saját vagy más belügyi szerv képzett szerelői állományával valósítja meg a JKR szerelést, az (1) bekezdés szerinti elszámolási szabályoktól eltérhet. (3) A HSZÖ-t az érintett belügyi szerv részére a BM VBBFO küldi meg, a tárgyhót követő hó 5-éig. (4) Az elszámolással érintett hónapban szerelési szolgáltatást igénybe vett belügyi szerv köteles gondoskodni a HSZÖ ellenőrzéséről és a műszaki igazolás mellékleteként a BM VBBFO részére tárgyhót követő hó 15-éig történő visszaküldéséről. (5) A BM VBBFO a havi elszámolást, mely az általa kiállított teljesítésigazolásból és a HSZÖ-ből áll, tárgyhót követő 30-áig megküldi a BM Pénzügyi Erőforrás-gazdálkodási Főosztály részére."
+    },
+    {
+      "provision_ref": "s31",
+      "chapter": "IV. Fejezet TELEMATIKAI ESZKÖZ RAKTÁRI KÉSZLET FENNTARTÁSA, JÓTÁLLÁS, GARANCIA",
+      "section": "31",
+      "title": "31. §",
+      "content": "31. § A belügyi szerv a 7. melléklet szerint meghatározott raktárkészletet köteles fenntartani a telematikai eszközből, a JKR szerelések hatékony végrehajtása érdekében."
+    },
+    {
+      "provision_ref": "s32",
+      "chapter": "IV. Fejezet TELEMATIKAI ESZKÖZ RAKTÁRI KÉSZLET FENNTARTÁSA, JÓTÁLLÁS, GARANCIA",
+      "section": "32",
+      "title": "32. §",
+      "content": "32. § A BM VBBFO intézkedik a telematikai berendezés és annak szerelése tekintetében a jótállás és garancia JKR használatának teljes időtartamára történő kiterjesztésére."
+    },
+    {
+      "provision_ref": "s33",
+      "chapter": "IV. Fejezet TELEMATIKAI ESZKÖZ RAKTÁRI KÉSZLET FENNTARTÁSA, JÓTÁLLÁS, GARANCIA",
+      "section": "33",
+      "title": "33. §",
+      "content": "33. §"
+    },
+    {
+      "provision_ref": "s34",
+      "chapter": "IV. Fejezet TELEMATIKAI ESZKÖZ RAKTÁRI KÉSZLET FENNTARTÁSA, JÓTÁLLÁS, GARANCIA",
+      "section": "34",
+      "title": "34. §",
+      "content": "34. §"
+    },
+    {
+      "provision_ref": "s35",
+      "chapter": "V. Fejezet A JKR MŰKÖDÉSÉRE, HASZNÁLATÁRA VONATKOZÓ SZABÁLYOK",
+      "section": "35",
+      "title": "35. §",
+      "content": "35. § (1) Azon szolgálati feladat ellátása, amelynek késedelmes végrehajtása az élet- vagy vagyonbiztonságot közvetlenül veszélyezteti, elsőbbséget élvez a járművezető-azonosítás elvégzésével, valamint az igénybevételi mód kapcsoló használatával szemben. (2) Az (1) bekezdés szerinti azonosítatlan járműforgalmazás esetén a járművezető vagy az e-menetlevél előkészítéséért vagy ellenőrzéséért felelős munkavállaló köteles a hiányos adatok pótlására a szolgálati feladat végrehajtását, de legkésőbb az azonosítatlan járműforgalmazás észlelését követően utólagosan intézkedést kezdeményezni a Felhasználói kézikönyvben meghatározottak szerint, vagy jelentést tenni a közvetlen elöljárója felé."
+    },
+    {
+      "provision_ref": "s36",
+      "chapter": "V. Fejezet A JKR MŰKÖDÉSÉRE, HASZNÁLATÁRA VONATKOZÓ SZABÁLYOK",
+      "section": "36",
+      "title": "36. §",
+      "content": "36. § A BM JKR működtetéséért felelős vezetőnek valós idejű, globális helymeghatározó rendszer alapú járműkövetést kell biztosítani, mely a jármű pozíciójának azonosítását térinformatikai megjelenítéssel teszi lehetővé."
+    },
+    {
+      "provision_ref": "s37",
+      "chapter": "V. Fejezet A JKR MŰKÖDÉSÉRE, HASZNÁLATÁRA VONATKOZÓ SZABÁLYOK",
+      "section": "37",
+      "title": "37. §",
+      "content": "37. § A JKR-be integrált szolgálati jármű igénybevétele során a JKR-nek – a motorkerékpár kivételével – elektronikus eszközzel (a továbbiakban: azonosító chip) kell biztosítani a járművezető azonosítását."
+    },
+    {
+      "provision_ref": "s38",
+      "chapter": "V. Fejezet A JKR MŰKÖDÉSÉRE, HASZNÁLATÁRA VONATKOZÓ SZABÁLYOK",
+      "section": "38",
+      "title": "38. §",
+      "content": "38. § (1) Az azonosító chipet igénylés alapján a BM VBBFO biztosítja, térítés ellenében. (2) A belügyi szerv részére átadott járművezető azonosító chipről az átvevő szervnek – ha az azonosító chipet alárendeltségébe tartozó szerv részére tovább adja, úgy a végső átvevő szervnek – nyilvántartást kell vezetni."
+    },
+    {
+      "provision_ref": "s39",
+      "chapter": "V. Fejezet A JKR MŰKÖDÉSÉRE, HASZNÁLATÁRA VONATKOZÓ SZABÁLYOK",
+      "section": "39",
+      "title": "39. §",
+      "content": "39. § A belügyi szerv által használt szolgálati gépjárművet és szolgálati hajót vezető és a gépjárművezetést oktató személy képzési követelményeinek megállapításáról szóló 18/2016. (VIII. 16.) BM utasításban meghatározott, érvényes igazolvánnyal rendelkező munkavállalót a foglalkoztató belügyi szerv köteles ellátni járművezető azonosító chippel."
+    },
+    {
+      "provision_ref": "s40",
+      "chapter": "V. Fejezet A JKR MŰKÖDÉSÉRE, HASZNÁLATÁRA VONATKOZÓ SZABÁLYOK",
+      "section": "40",
+      "title": "40. §",
+      "content": "40. § (1) A járművezető azonosító chip elszámolásköteles. (2) A járművezető azonosító chip visszavétele esetén másik járművezető részére kiadható, ha a nyilvántartásban és a JKR Programban összerendezetten módosításra került az azonosító chiphez rendelt járművezető neve, a járművezető azonosítóchip-száma és az elsődleges személyazonosító kód. (3) A járművezető azonosító chip visszavételére a jogosult másik belügyi szervhez történő áthelyezése, vezénylése, továbbá a jogviszonyának, munkaviszonyának megszűnése esetén kell intézkedni."
+    },
+    {
+      "provision_ref": "s41",
+      "chapter": "V. Fejezet A JKR MŰKÖDÉSÉRE, HASZNÁLATÁRA VONATKOZÓ SZABÁLYOK",
+      "section": "41",
+      "title": "41. §",
+      "content": "41. § Az azonosító chip használatára vonatkozó előírásokat a BM VBBFO határozza meg a Felhasználói kézkönyvben."
+    },
+    {
+      "provision_ref": "s42",
+      "chapter": "V. Fejezet A JKR MŰKÖDÉSÉRE, HASZNÁLATÁRA VONATKOZÓ SZABÁLYOK",
+      "section": "42",
+      "title": "42. §",
+      "content": "42. § A JKR-be integrált járművet vezető járművezető a telematikai eszköz járművezető-azonosításra figyelmeztető hang- vagy fényjelzése esetén köteles azonosítani magát, és a járműhasználat végén köteles a rendszerből kijelentkezni."
+    },
+    {
+      "provision_ref": "s43",
+      "chapter": "V. Fejezet A JKR MŰKÖDÉSÉRE, HASZNÁLATÁRA VONATKOZÓ SZABÁLYOK",
+      "section": "43",
+      "title": "43. §",
+      "content": "43. § (1) Ha járműjavítás céljából a javítóműhelybe kerül a jármű, a leadáskor a járművezető köteles kijelentkezni. Ebben az esetben a járművezető köteles közvetlen felettese felé jelenteni a jármű javítóműhelybe történt leadását. A felettes, illetve az arra jogosultsággal rendelkező személy köteles intézkedni az e-menetlevélben a „Szervizben” kifejezés utólagos rögzítésére. (2) Ha a járművezető azonosítása a járműforgalmazás során nem valósul meg, a járművezető köteles intézkedést kezdeményezni, vagy jelentést tenni a járművezető e-menetlevélben történő utólagos rögzítése érdekében. (3) Ha az igénybevételi mód rosszul került kiválasztásra a járműforgalmazás során, elsősorban a menetlevél előkészítését vagy ellenőrzését végrehajtó jogosultnak, akadályoztatása esetén külön feladatmeghatározást követően az arra jogosult JKR csoportadminisztrátornak lehetősége van az adott e-menetlevél módosításával a megfelelő igénybevételi mód utólagos rögzítésére. (4) A motorkerékpár esetében, ha egy használója van a járműnek, az arra jogosult adminisztrátor köteles a járművezetőt hozzárendelni a járműhöz. Ha több használója van a járműnek, akkor a (2) bekezdés szerint kell eljárni."
+    },
+    {
+      "provision_ref": "s44",
+      "chapter": "V. Fejezet A JKR MŰKÖDÉSÉRE, HASZNÁLATÁRA VONATKOZÓ SZABÁLYOK",
+      "section": "44",
+      "title": "44. §",
+      "content": "44. § A jármű igénybevételi módjának kiválasztása igénybevételi mód kapcsolóval történik az alábbiak szerint: a) szolgálati célú igénybevétel (a továbbiakban: szolgálati használat), b) tartós magáncélú igénybevétel (a továbbiakban: magánhasználat) – ideértve a rendvédelmi feladatokat ellátó szervek hivatásos állományának szolgálati jogviszonyáról szóló 2015. évi XLII. törvény végrehajtásáról szóló 154/2015. (VI. 19.) Korm. rendelet szerinti személyes gépkocsihasználat magáncélú igénybevételét is –, c) minősített használat."
+    },
+    {
+      "provision_ref": "s45",
+      "chapter": "V. Fejezet A JKR MŰKÖDÉSÉRE, HASZNÁLATÁRA VONATKOZÓ SZABÁLYOK",
+      "section": "45",
+      "title": "45. §",
+      "content": "45. § Ha beépítésre került az igénybevételi mód kapcsoló a járműbe, a járművezető a jármű használata során a kapcsoló alkalmazásával köteles kiválasztani, elkülöníteni a jármű igénybevételi módját."
+    },
+    {
+      "provision_ref": "s46",
+      "chapter": "V. Fejezet A JKR MŰKÖDÉSÉRE, HASZNÁLATÁRA VONATKOZÓ SZABÁLYOK",
+      "section": "46",
+      "title": "46. §",
+      "content": "46. § (1) A telematikai berendezés a kiválasztott igénybevételi módot hang- vagy fényjelzéssel (a továbbiakban együtt: figyelmeztető jelzés) igazolja vissza, melynek működése a Felhasználói kézikönyvben kerül meghatározásra. (2) Minősített használati módban forgalmazó jármű esetében a beszerelésre került telematikai eszköz figyelmeztető jelzést nem adhat, a minősített üzemmód aktiválását követő üzemmód-visszajelzés kivételével."
+    },
+    {
+      "provision_ref": "s47",
+      "chapter": "V. Fejezet A JKR MŰKÖDÉSÉRE, HASZNÁLATÁRA VONATKOZÓ SZABÁLYOK",
+      "section": "47",
+      "title": "47. §",
+      "content": "47. § Az igénybevételi mód kapcsoló nélküli jármű járműforgalmazási adatai a JKR Programban csak szolgálati használatként kerülhetnek rögzítésre."
+    },
+    {
+      "provision_ref": "s48",
+      "chapter": "V. Fejezet A JKR MŰKÖDÉSÉRE, HASZNÁLATÁRA VONATKOZÓ SZABÁLYOK",
+      "section": "48",
+      "title": "48. §",
+      "content": "48. § Ha a belügyi szervnél nincs bevezetve az eseti magáncélú igénybevétel nyilvántartására alkalmas elektronikus felület, akkor az eseti magáncélú igénybevételre vonatkozó engedélyt a dokumentumtárba fel kell tölteni, és a dokumentum érvényességi idejét be kell állítani."
+    },
+    {
+      "provision_ref": "s49",
+      "chapter": "V. Fejezet A JKR MŰKÖDÉSÉRE, HASZNÁLATÁRA VONATKOZÓ SZABÁLYOK",
+      "section": "49",
+      "title": "49. §",
+      "content": "49. § A felhasználói felületen, az adott járműforgalmazásról létrejött e-menetlevélben a jármű igénybevételét követően rögzíteni kell – a belügyi szerv vezetője által kijelölt jogosult által – az engedély szerinti eseti magáncélú igénybevétel használati célt."
+    },
+    {
+      "provision_ref": "s50",
+      "chapter": "V. Fejezet A JKR MŰKÖDÉSÉRE, HASZNÁLATÁRA VONATKOZÓ SZABÁLYOK",
+      "section": "50",
+      "title": "50. §",
+      "content": "50. § Az igénybevételi mód kapcsolóval felszerelt jármű telephelyen – a belügyi szerv fedett telephelye kivételével – történő parkolásakor a járművezetőnek a telephelyre történő behajtás előtt gondoskodnia kell a kapcsoló szolgálati módba állításáról."
+    },
+    {
+      "provision_ref": "s51",
+      "chapter": "V. Fejezet A JKR MŰKÖDÉSÉRE, HASZNÁLATÁRA VONATKOZÓ SZABÁLYOK",
+      "section": "51",
+      "title": "51. §",
+      "content": "51. § Az ellenőrzésre kijelölt személy a telephelyen tartósan parkoló jármű akkumulátortöltöttségi szintjét robotriportok beállításával, adatlekérdezéssel legalább havonta köteles ellenőrizni, és az ellenőrzést dokumentálni."
+    },
+    {
+      "provision_ref": "s52",
+      "chapter": "VI. Fejezet JOGOSULTSÁGI RENDSZER, JOGOSULTSÁGRA VONATKOZÓ SZABÁLYOK",
+      "section": "52",
+      "title": "52. §",
+      "content": "52. § A JKR működtetése és a kezelt adatok hozzáférésének biztosítása érdekében adminisztrátor és JKR dashboard felhasználó jogosultság biztosítása szükséges."
+    },
+    {
+      "provision_ref": "s53",
+      "chapter": "VI. Fejezet JOGOSULTSÁGI RENDSZER, JOGOSULTSÁGRA VONATKOZÓ SZABÁLYOK",
+      "section": "53",
+      "title": "53. §",
+      "content": "53. § (1) A JKR jogosultsággal rendelkező személy – kivéve a BM adminisztrátort, az ellenőr adminisztrátort és a JKR ellenőr dashboard felhasználót – a számára biztosított jogosultsággal a belügyi szerv alárendeltségébe tartozó szerv JKR adatállományához férhet hozzá, a jogosultság kiadója által beállított korlátozásokkal. (2) A megosztott járművek esetében a jármű üzembentartója a vagyonkezelő által meghatározott adatokhoz férhet hozzá."
+    },
+    {
+      "provision_ref": "s54",
+      "chapter": "VI. Fejezet JOGOSULTSÁGI RENDSZER, JOGOSULTSÁGRA VONATKOZÓ SZABÁLYOK",
+      "section": "54",
+      "title": "54. §",
+      "content": "54. § (1) Adminisztrátor jogosultság csak JKR adminisztrátor képzést sikeresen teljesített személy részére, JKR dashboard felhasználó jogosultság csak JKR dashboard felhasználó képzést sikeresen teljesített személy részére biztosítható. (2) Ideiglenes jogosultság az adminisztrátor és JKR dashboard felhasználó képzésen történt részvételt követő 120 napig biztosítható. (3) JKR ellenőr jogosultság a JKR ellenőr képzésteljesítését követően biztosítható."
+    },
+    {
+      "provision_ref": "s55",
+      "chapter": "VI. Fejezet JOGOSULTSÁGI RENDSZER, JOGOSULTSÁGRA VONATKOZÓ SZABÁLYOK",
+      "section": "55",
+      "title": "55. §",
+      "content": "55. § A robotriport esetében az adatok hozzáférhetőségét adminisztrátor jogosultsággal kell beállítani és rögzíteni a belügyi szervnél meghatározottak alapján."
+    },
+    {
+      "provision_ref": "s56",
+      "chapter": "VI. Fejezet JOGOSULTSÁGI RENDSZER, JOGOSULTSÁGRA VONATKOZÓ SZABÁLYOK",
+      "section": "56",
+      "title": "56. §",
+      "content": "56. § (1) JKR Program üzemeltetésének informatikai felügyeletét ellátó személy részére IT rendszergazda jogosultságot szükséges biztosítani a 61. § szerint. (2) A JKR felhasználói felülethez adminisztrátor hozzáférést biztosító jogosultságok a) a JKR legfőbb adminisztrátor (a továbbiakban: BM adminisztrátor), b) a belügyi szervi adminisztrátor, c) a JKR csoportadminisztrátor (a továbbiakban: csoportadminisztrátor), d) a JKR legfőbb ellenőr adminisztrátor (a továbbiakban: BM ellenőr adminisztrátor), e) a JKR belügyi szervi ellenőr adminisztrátor (a továbbiakban: belügyi szervi ellenőr adminisztrátor), f) a JKR ellenőr csoportadminisztrátor (a továbbiakban: ellenőr csoportadminisztrátor) jogosultság. (3) A JKR felhasználói felülethez adatfelhasználói hozzáférést biztosító jogosultságok a) a JKR dashboard felhasználó és b) a JKR ellenőr dashboard felhasználó jogosultság."
+    },
+    {
+      "provision_ref": "s57",
+      "chapter": "VI. Fejezet JOGOSULTSÁGI RENDSZER, JOGOSULTSÁGRA VONATKOZÓ SZABÁLYOK",
+      "section": "57",
+      "title": "57. §",
+      "content": "57. § Az IT rendszergazda feladatainak végrehajtására és a jogosultságra vonatkozó szabályokat az általános belügyi szervek esetében a BM és a NISZ Zrt. közötti szerződésben, a speciális belügyi szervek esetében az adott speciális belügyi szerv köteles meghatározni."
+    },
+    {
+      "provision_ref": "s58",
+      "chapter": "VI. Fejezet JOGOSULTSÁGI RENDSZER, JOGOSULTSÁGRA VONATKOZÓ SZABÁLYOK",
+      "section": "58",
+      "title": "58. §",
+      "content": "58. § (1) A BM adminisztrátor feladatvégrehajtása és jogosultsága csak az általános belügyi szervek járműforgalmazási adatállományára terjed ki a JKR felhasználói felületen. (2) A BM adminisztrátor a) biztosítja az általános belügyi szerv foglalkoztatottja részére a belügyi szervi adminisztrátor jogosultságot, valamint a BM Belső Ellenőrzési Főosztály személyi állománya és a Nemzeti Védelmi Szolgálat részére a BM ellenőr adminisztrátor jogosultságot, b) koordinálja a JKR Programmal kapcsolatos ismeretanyag átadását biztosító képzések megszervezését, valamint c) igény esetén elvégzi a szervi hierarchia módosítását belügyi szervi szinten. d) az észlelt vagy beérkezett hibabejelentések alapján eljár a hibajelenség megszüntetése érdekében, e) nyilvántartja a jogosultság kiadását és visszavételét, f) kérelem alapján intézkedik az általa kiadott jogosultság inaktívvá tételére vagy megszüntetésére. (3) A belügyi szervi adminisztrátor feladat végrehajtása és jogosultsága a foglalkoztató belügyi szervhez – ideértve az alárendeltségébe és a JKR rendeltetésszerű működtetése érdekében a szakmai irányítása alatt álló területi szerveket is – JKR-ben rögzített, továbbá a feladatellátása során a hatáskörébe delegált járművekhez kapcsolódó járműforgalmazási adatállományra terjed ki a JKR felhasználói felületén. (4) A belügyi szervi adminisztrátor a) biztosítja a belügyi szerv, valamint a területi szerv foglalkoztatottja részére a csoportadminisztrátor és a JKR dashboard felhasználó jogosultságot, b) részt vesz a JKR Programmal kapcsolatos ismeretanyag átadását biztosító képzések megszervezésében, c) igény esetén elvégzi a szervi hierarchia módosítását, valamint d) az észlelt vagy beérkezett hibabejelentések alapján eljár a hibajelenség megszüntetése érdekében. (5) A csoportadminisztrátor feladat végrehajtása és jogosultsága a foglalkoztató belügyi szerv, területi szerv alárendeltségébe tartozó szervezeti egységéhez, továbbá a feladatellátása során a hatáskörébe delegált járművekhez kapcsolódó járműforgalmazási adatállományra terjed ki a JKR felhasználói felületén. (6) A csoportadminisztrátor a) biztosítja az adott szervezeti egységnél foglalkoztatott részére a JKR felhasználó jogosultságot, b) részt vesz a JKR Programmal kapcsolatos ismeretanyag átadását biztosító, foglalkoztató területi szervet érintő képzések megszervezésében, c) az észlelt vagy beérkezett hibabejelentések alapján eljár a hibajelenség megszüntetése érdekében. (7) A BM ellenőr adminisztrátor a) kiadja, valamint inaktívvá teszi a BM Belső Ellenőrzési Főosztály személyi állománya és a szervi megkeresés alapján a belügyi szerv részére a belügyi szervi ellenőr adminisztrátor, az ellenőr csoportadminisztrátor jogosultságot, b) kiadja, valamint megszünteti a BM Belső Ellenőrzési Főosztály személyi állománya részére a JKR ellenőr dashboard felhasználó jogosultságot. (8) A belügyi szervi ellenőr adminisztrátor és az ellenőr csoportadminisztrátor biztosítja és megszünteti a BM Belső Ellenőrzési Főosztály személyi állománya vonatkozásában – megkeresésük alapján – a JKR ellenőr dashboard felhasználó jogosultságot."
+    },
+    {
+      "provision_ref": "s58a",
+      "chapter": "VI. Fejezet JOGOSULTSÁGI RENDSZER, JOGOSULTSÁGRA VONATKOZÓ SZABÁLYOK",
+      "section": "58/A",
+      "title": "58/A. §",
+      "content": "58/A. § A JKR dashboard felhasználó és a JKR ellenőr dashboard felhasználó a vezetője által számára meghatározott feladatot hajtja végre."
+    },
+    {
+      "provision_ref": "s59",
+      "chapter": "VI. Fejezet JOGOSULTSÁGI RENDSZER, JOGOSULTSÁGRA VONATKOZÓ SZABÁLYOK",
+      "section": "59",
+      "title": "59. §",
+      "content": "59. § (1) A JKR ellenőr felhasználó jogosultság Megbízólevél vagy nyílt parancs alapján ellátandó ellenőri tevékenységet segítő adatlekérdezést biztosít a jogosult számára, a megbízólevélben meghatározott időtartamra és adatállományra, továbbá az NVSZ szolgálati helyén belső bűnmegelőzési és bűnfelderítési feladatot ellátó és a megbízhatósági vizsgálatot végző munkavállaló számára biztosítja a védett szerv JKR adatállományához való hozzáférést. (2) A JKR felhasználó jogosultság csak a foglalkoztató belügyi szerv meghatározott szervezeti elemének járműforgalmazási adatállományára terjed ki a JKR felhasználói felületén. (3) A JKR felhasználó gondoskodik a) a kezelésére bízott járműforgalmazási adatállomány ellenőrzéséről, az észlelt eltérések szükségszerű és indokolt javításáról, b) a rendszer általa elérhető elemeinek rendeltetésszerű működéséről."
+    },
+    {
+      "provision_ref": "s60",
+      "chapter": "VI. Fejezet JOGOSULTSÁGI RENDSZER, JOGOSULTSÁGRA VONATKOZÓ SZABÁLYOK",
+      "section": "60",
+      "title": "60. §",
+      "content": "60. § Az 58. §-ban és az 58/A. §-ban meghatározott jogosultsággal rendelkező személyek esetében – a tartós magáncélú engedéllyel rendelkező és ehhez kötődően a JKR felhasználói feladatok elvégzésével érintett jogosult, valamint az ellenőri jogosult kivételével – a munkáltató a munkaköri leírásban köteles szerepeltetni a JKR-rel összefüggő feladatokat."
+    },
+    {
+      "provision_ref": "s61",
+      "chapter": "VI. Fejezet JOGOSULTSÁGI RENDSZER, JOGOSULTSÁGRA VONATKOZÓ SZABÁLYOK",
+      "section": "61",
+      "title": "61. §",
+      "content": "61. § (1) A NISZ Zrt. állományába tartozó IT rendszergazda jogosultságának biztosítására vonatkozó szabályokat a BM és NISZ Zrt. közötti szerződésben kell szabályozni. (2) A speciális belügyi szerv állományába tartozó IT rendszergazda jogosultság igénylése és kiadása során az érintett belügyi szerv saját jogosultságkezelési szabályai szerint kell eljárni."
+    },
+    {
+      "provision_ref": "s62",
+      "chapter": "VI. Fejezet JOGOSULTSÁGI RENDSZER, JOGOSULTSÁGRA VONATKOZÓ SZABÁLYOK",
+      "section": "62",
+      "title": "62. §",
+      "content": "62. § (1) A BM adminisztrátor, a belügyi szervi adminisztrátor és a BM ellenőr adminisztrátor jogosultság igénylése során a) speciális szerv esetében a speciális szerv, b) általános belügyi szerv esetében a BM jogosultságkezelési szabálya szerint kell eljárni. (2) Az (1) bekezdés szerinti jogosultság általános belügyi szerv részére történő kiadását és visszavételét a BM VBBFO köteles dokumentálni."
+    },
+    {
+      "provision_ref": "s63",
+      "chapter": "VI. Fejezet JOGOSULTSÁGI RENDSZER, JOGOSULTSÁGRA VONATKOZÓ SZABÁLYOK",
+      "section": "63",
+      "title": "63. §",
+      "content": "63. § A csoportadminisztrátor és a JKR dashboard felhasználó jogosultság igénylése során az érintett belügyi szerv saját jogosultságkezelési szabályai szerint kell eljárni."
+    },
+    {
+      "provision_ref": "s64",
+      "chapter": "VI. Fejezet JOGOSULTSÁGI RENDSZER, JOGOSULTSÁGRA VONATKOZÓ SZABÁLYOK",
+      "section": "64",
+      "title": "64. §",
+      "content": "64. § (1) A kiadott jogosultság nyilvántartására és visszavonására a kiadó szervnek kell intézkednie. (2) A JKR Programhoz való hozzáférés indokoltságának megszűnésekor az érintett aktív jogosultsággal rendelkező munkavállaló közvetlen elöljárója és a humán szakterület vezetője köteles a jogosultság megszűnéséről haladéktalanul tájékoztatni a jogosultságot kiadó szervezeti egység vezetőjét, aki köteles haladéktalanul intézkedni a jogosultság inaktívvá tételére vagy felfüggesztésére."
+    },
+    {
+      "provision_ref": "s65",
+      "chapter": "VI. Fejezet JOGOSULTSÁGI RENDSZER, JOGOSULTSÁGRA VONATKOZÓ SZABÁLYOK",
+      "section": "65",
+      "title": "65. §",
+      "content": "65. § (1) A 61. § (1) bekezdése és a 62. § (2) bekezdése szerinti jogosultságot a 8. melléklet BM VBBFO-ra történő megküldésével kell kérelmezni. (2) A BM VBBFO a kérelem beérkezésétől számított 7 munkanapon belül a jogosult részére elektronikus úton megküldi a felhasználónevet és az ideiglenes belépési jelszót."
+    },
+    {
+      "provision_ref": "s66",
+      "chapter": "VI. Fejezet JOGOSULTSÁGI RENDSZER, JOGOSULTSÁGRA VONATKOZÓ SZABÁLYOK",
+      "section": "66",
+      "title": "66. §",
+      "content": "66. § (1) A JKR Programból történő felhasználói adatlekérdezést szigorú jogosultsági szabályok beállításával, betartásával és betartatásával kell biztosítani. (2) Az adatokhoz való hozzáférés és a jogosultságot érintő változás beállítására, megváltoztatására soron kívül kell intézkedni a belügyi szerv jogosultságkezelési szabályai szerint."
+    },
+    {
+      "provision_ref": "s66a",
+      "chapter": "VI. Fejezet JOGOSULTSÁGI RENDSZER, JOGOSULTSÁGRA VONATKOZÓ SZABÁLYOK",
+      "section": "66/A",
+      "title": "66/A. §",
+      "content": "66/A. § (1) A kiadott felhasználónév és belépési jelszó egy adott jogosult személyhez köthető. (2) Az (1) bekezdés szerinti belépési adatok megőrzése és személyhez kötött használata a jogosult felelőssége."
+    },
+    {
+      "provision_ref": "s67",
+      "chapter": "VI. Fejezet JOGOSULTSÁGI RENDSZER, JOGOSULTSÁGRA VONATKOZÓ SZABÁLYOK",
+      "section": "67",
+      "title": "67. §",
+      "content": "67. § A jogosultsággal rendelkező munkavállaló részére a JKR felhasználói felületre történő első belépést a 65. § szerint kiadott ideiglenes belépési jelszó biztosítja, melyet az első belépéskor meg kell változtatni."
+    },
+    {
+      "provision_ref": "s68",
+      "chapter": "VI. Fejezet JOGOSULTSÁGI RENDSZER, JOGOSULTSÁGRA VONATKOZÓ SZABÁLYOK",
+      "section": "68",
+      "title": "68. §",
+      "content": "68. § A belépési jelszó birtokosa – mint jogosultsággal rendelkező munkavállaló – a belépési jelszó kezeléséért az adatvédelmi szabályok betartásával felel."
+    },
+    {
+      "provision_ref": "s69",
+      "chapter": "VI. Fejezet JOGOSULTSÁGI RENDSZER, JOGOSULTSÁGRA VONATKOZÓ SZABÁLYOK",
+      "section": "69",
+      "title": "69. §",
+      "content": "69. § (1) A felhasználói nevet és belépési jelszót az általános belügyi szerv esetében a) a BM adminisztrátor, a belügyi szervi adminisztrátor és a BM ellenőr adminisztrátor részére a BM VBBFO, b) a csoportadminisztrátor részére az őt foglalkoztató belügyi szerv, c) a belügyi szervi ellenőr adminisztrátor, az ellenőr csoportadminisztrátor részére a BM belső ellenőrzési szakterülete, d) a JKR dashboard felhasználó és a JKR ellenőr dashboard felhasználó részére az őt foglalkoztató, valamint a felettes belügyi szerv adhatja ki. (2) A felhasználói nevet és belépési jelszót a speciális szerv esetében a szerv jogosultságkezelési szabályzata szerint kell kiadni. (3) BM ellenőr adminisztrátor jogosultság a Belső Ellenőrzési Főosztály személyi állománya és a Nemzeti Védelmi Szolgálat részére adható ki."
+    },
+    {
+      "provision_ref": "s70",
+      "chapter": "VI. Fejezet JOGOSULTSÁGI RENDSZER, JOGOSULTSÁGRA VONATKOZÓ SZABÁLYOK",
+      "section": "70",
+      "title": "70. §",
+      "content": "70. § (1) Ha szükséges a belügyi szerv számára a JKR Program naplózási adatainak vizsgálata, vagy egyéb, a rendszer használatára vonatkozó információ iránti igénye merül fel, azt a belügyi szerv részéről a BM VBBFO vezetőjénél kell kérelmezni. (2) A BM VBBFO 15 munkanapon belül intézkedik a Szolgáltató, szükség esetén a speciális szerv, a NISZ Zrt. bevonásával és a BM RERIFO közreműködésével az (1) bekezdés szerinti adatok, információk rendszerből történő kinyerésére és az igénylő részére történő megküldésére."
+    },
+    {
+      "provision_ref": "s71",
+      "chapter": "VII. Fejezet A JKR PROGRAMRA VONATKOZÓ SZABÁLYOK",
+      "section": "71",
+      "title": "71. §",
+      "content": "71. § (1) A JKR felhasználói felülethez való hozzáférés kizárólag a 25. alcímben meghatározottak szerint kiadott felhasználónévvel és belépési jelszóval, jogosultsággal rendelkező személy részére biztosítható. (2) A kezelés elsajátítását a BM VBBFO koordinálásával vagy szervezésében megvalósuló képzésekkel, továbbképzésekkel és a Felhasználói kézikönyv jogosultsággal rendelkező személyek részére történő rendelkezésre bocsátásával kell biztosítani. (3) A Felhasználói kézikönyvet a BM VBBFO adja ki és gondozza a JKR Program frissítésének változáskövetése érdekében."
+    },
+    {
+      "provision_ref": "s72",
+      "chapter": "VII. Fejezet A JKR PROGRAMRA VONATKOZÓ SZABÁLYOK",
+      "section": "72",
+      "title": "72. §",
+      "content": "72. § (1) A belügyi szervnek a JKR Programban jármű-, felhasználói és járművezetői törzsadatbázist és szervi hierarchia adatbázist kell fenntartani. (2) A belügyi szerv vezetője felelős a vagyonkezelésében lévő járműállomány, az érintett személyi állomány, valamint a belügyi szerv szervezeti egységei törzsadatainak JKR Programban történő rögzítéséért és naprakészen tartásáért. (3) A jármű hatósági jelzését a betű- és számkarakterek folyamatos egybeírásával kell rögzíteni, más karakter rögzítése nem megengedett."
+    },
+    {
+      "provision_ref": "s73",
+      "chapter": "VII. Fejezet A JKR PROGRAMRA VONATKOZÓ SZABÁLYOK",
+      "section": "73",
+      "title": "73. §",
+      "content": "73. § Az általános belügyi szervnél biztosított adminisztrátori jogosultsággal nem kezelhető törzsadat létrehozását, módosítását a BM Műszaki Főosztálynál kell kezdeményezni és azt a BM adminisztrátori jogosultsággal rendelkező felhasználónak kell végrehajtani. 73. § Az általános belügyi szervnél biztosított adminisztrátori jogosultsággal nem kezelhető törzsadat létrehozását, módosítását a BM VBBFO-nál kell kezdeményezni, és azt a BM adminisztrátori jogosultsággal rendelkező személynek kell végrehajtani."
+    },
+    {
+      "provision_ref": "s74",
+      "chapter": "VII. Fejezet A JKR PROGRAMRA VONATKOZÓ SZABÁLYOK",
+      "section": "74",
+      "title": "74. §",
+      "content": "74. § (1) A csoportadminisztrátor feladata a rendelkezésre álló szerelési dokumentáció alapján a) a belügyi szerv járműállományába újonnan bekerült jármű esetében a telematikai eszköz beszerelését követően és b) a már JKR-be integrált, telematikai eszközzel rendelkező jármű telematikai eszközének cseréjét követően az új telematikai eszköz azonosító adatának és a jármű hatósági jelzésének összerendelése. (2) A belügyi szerv BM VBBFO részére felterjesztett igénye alapján a belügyi szervi adminisztrátor végrehajtja az új telematikai eszköz azonosító adatának és a jármű hatósági jelzésének összerendelését, ha legalább 20 db jármű együttes alapszerelési igénye áll fenn."
+    },
+    {
+      "provision_ref": "s75",
+      "chapter": "VII. Fejezet A JKR PROGRAMRA VONATKOZÓ SZABÁLYOK",
+      "section": "75",
+      "title": "75. §",
+      "content": "75. § Az azonosító chippel ellátott járművezető belügyi szerv által meghatározott egyedi azonosítójának, a járművezető nevének – a speciális belügyi szerv munkavállalója kivételével – a JKR Program járművezető törzsadatbázisában történő rögzítésére a belügyi szervnek intézkedni kell."
+    },
+    {
+      "provision_ref": "s76",
+      "chapter": "VII. Fejezet A JKR PROGRAMRA VONATKOZÓ SZABÁLYOK",
+      "section": "76",
+      "title": "76. §",
+      "content": "76. § A járművezető azonosító chipet a járművezető részére történő kiadása előtt személyhez kell rendelni, és a JKR Programba történő rögzítésére a belügyi szervnek intézkedni kell."
+    },
+    {
+      "provision_ref": "s77",
+      "chapter": "VII. Fejezet A JKR PROGRAMRA VONATKOZÓ SZABÁLYOK",
+      "section": "77",
+      "title": "77. §",
+      "content": "77. § (1) Olyan új szerv esetében, mely az általános belügyi szervek közé kerül besorolásra, a JKR Programban a belügyi szerv újonnan történő teljes adatrögzítése esetén a belügyi szerv struktúrájára, felépítésére vonatkozó adatokat az érintett belügyi szerv biztosítja a BM VBBFO részére, a BM VBBFO által előírt formátumban. (2) A megadott adatok alapján a BM adminisztrátor végzi el a JKR Programban a szervi hierarchia kialakítását, adatfelvitelét."
+    },
+    {
+      "provision_ref": "s78",
+      "chapter": "VII. Fejezet A JKR PROGRAMRA VONATKOZÓ SZABÁLYOK",
+      "section": "78",
+      "title": "78. §",
+      "content": "78. § Olyan új szerv esetében, mely a speciális belügyi szervek közé kerül besorolásra, a szerv felépítésére vonatkozó teljes adatrögzítés felvitelére a speciális belügyi szerv intézkedik a BM VBBFO által előírt formátumban."
+    },
+    {
+      "provision_ref": "s79",
+      "chapter": "VII. Fejezet A JKR PROGRAMRA VONATKOZÓ SZABÁLYOK",
+      "section": "79",
+      "title": "79. §",
+      "content": "79. § (1) Meglévő szervi hierarchiában új flotta létrehozását a belügyi szerv kezdeményezi a BM VBBFO-nál. (2) Az (1) bekezdés szerint kezdeményezett új flotta létrehozására a BM VBBFO 5 munkanapon belül intézkedik."
+    },
+    {
+      "provision_ref": "s80",
+      "chapter": "VII. Fejezet A JKR PROGRAMRA VONATKOZÓ SZABÁLYOK",
+      "section": "80",
+      "title": "80. §",
+      "content": "80. § (1) A JKR-be integrált jármű esetében a jármű vagyonkezelője, üzembentartója vagy igénybevevője nem köteles papíralapú menetlevelet vezetni, azonban gépjármű menetlevél tömböt vagy – ha a szükséges információk rögzítéséhez elegendő – a 9. melléklet szerinti adattartalmú menetlevél formanyomtatványt minden JKR-be integrált járműben el kell helyezni. (2) A 9. melléklet szerinti formanyomtatványt vagy gépjármű menetlevél tömböt szigorú számadású nyomtatványként kell kezelni. (3) A gépjármű menetlevél tömb vagy a 9. melléklet szerinti adattartalmú menetlevél formanyomtatvány vezetését azonnal meg kell kezdeni a) az erre vonatkozóan kapott értesítést vagy utasítást követően, b) a JKR Program adatrögzítési üzemzavarának észlelését követően, vagy c) abban az esetben, ha a járművezető azonosítás visszajelzése a járművezető azonosító eszközzel (Dallas chip) történő bejelentkezéskor elmarad."
+    },
+    {
+      "provision_ref": "s81",
+      "chapter": "VII. Fejezet A JKR PROGRAMRA VONATKOZÓ SZABÁLYOK",
+      "section": "81",
+      "title": "81. §",
+      "content": "81. § (1) Az e-menetlevél alkalmazás által generált menetlevelet a keletkezésétől számított 8 évig visszakereshető, előhívható módon meg kell őrizni a JKR Programban. (2) Minden e-menetlevél ellenőrzésre történő előkészítését és ellenőrzését köteles elvégezni a jármű vagyonkezelője vagy üzembentartója. Az e-menetlevél ellenőrzésre történő előkészítését legalább hetente, az ellenőrzését legalább havonta kell végrehajtani."
+    },
+    {
+      "provision_ref": "s82",
+      "chapter": "VII. Fejezet A JKR PROGRAMRA VONATKOZÓ SZABÁLYOK",
+      "section": "82",
+      "title": "82. §",
+      "content": "82. § (1) A belügyi szerv jogosult a JKR Program által kizárólag GPS-adatok feldolgozásával létrehozni az e-menetlevelet, ha a jármű CAN BUS-szal nem rendelkezik, vagy a BM VBBFO által CAN BUS adatkezelésre nincs kijelölve. (2) A CAN BUS adatkezelésre alkalmas járművek kimutatását a BM VBBFO biztosítja a belügyi szervek részére, és végzi annak gondozását."
+    },
+    {
+      "provision_ref": "s83",
+      "chapter": "VII. Fejezet A JKR PROGRAMRA VONATKOZÓ SZABÁLYOK",
+      "section": "83",
+      "title": "83. §",
+      "content": "83. § A belügyi szerv legalább havonta köteles intézkedni a jármű kilométer-számlálója állásának és a JKR rendszer által nyilvántartott km óra állásának ellenőrzésére és egyeztetésére."
+    },
+    {
+      "provision_ref": "s84",
+      "chapter": "VII. Fejezet A JKR PROGRAMRA VONATKOZÓ SZABÁLYOK",
+      "section": "84",
+      "title": "84. §",
+      "content": "84. § (1) A JKR által automatikusan nem gyűjtött, azonban a belügyi szerv számára fontos adatok rögzítését az e-menetlevél előkészítése során kell végrehajtani, továbbá a hibásan rögzült adatokat az előkészítés során kell módosítani az arra jogosult személynek, mely az e-menetlevél keletkezésétől számított 120 napon belül lehetséges. (2) Ha az e-menetlevél helyes, valós adatokat tartalmaz, akkor azt az arra jogosult menetlevél előkészítő jogosultsággal rendelkező személynek ellenőrzésre előkészített jelöléssel kell ellátni."
+    },
+    {
+      "provision_ref": "s85",
+      "chapter": "VII. Fejezet A JKR PROGRAMRA VONATKOZÓ SZABÁLYOK",
+      "section": "85",
+      "title": "85. §",
+      "content": "85. § Az e-menetlevél validálását el kell végezni a) a jármű JKR-be integrálásakor, b) a telematikai eszköz javítását, cseréjét követően, c) minden olyan esetben, amikor felmerül annak gyanúja, hogy az e-menetlevélben rögzítésre kerülő adatok nem teszik alkalmassá az e-menetlevél bizonylatként történő elfogadását, d) az e-menetlevél minőségi, megbízhatósági ellenőrzése céljából havonta a járműállomány legalább 1%-ánál, valamint e) a jármű akkumulátorának kiiktatását követő újbóli üzembe helyezését, vagy cseréjét követően."
+    },
+    {
+      "provision_ref": "s86",
+      "chapter": "VII. Fejezet A JKR PROGRAMRA VONATKOZÓ SZABÁLYOK",
+      "section": "86",
+      "title": "86. §",
+      "content": "86. § (1) A JKR-be integrált jármű járműforgalmazási adatai közül kizárólag a szolgálati használat alatt keletkező alábbi adatok térképes megjelenítése biztosítható: a) jármű mozgásának útvonalára, irányára vonatkozó információ, b) a JKR Program által a GPS koordináta adatokból dekódolt valós idejű földrajzi adatok, c) megkülönböztető jelzést adó berendezés működésére vonatkozó információ, d) a gyújtás állapotára és a motor működésére vonatkozó információ. (2) A térképes felület szükségszerű frissítésére a BM VBBFO vezetője intézkedik."
+    },
+    {
+      "provision_ref": "s87",
+      "chapter": "VII. Fejezet A JKR PROGRAMRA VONATKOZÓ SZABÁLYOK",
+      "section": "87",
+      "title": "87. §",
+      "content": "87. § A belügyi szerv köteles intézkedni, hogy a JKR felhasználói felületén a szerv nyílt objektumai különösen fontos földrajzi helyként (POI pontként) rögzítésre kerüljenek."
+    },
+    {
+      "provision_ref": "s88",
+      "chapter": "VIII. Fejezet JÁRMŰFORGALMAZÁSI ADATOK FELDOLGOZÁSA",
+      "section": "88",
+      "title": "88. §",
+      "content": "88. § A járműhöz tartozó tárgyhavi üzemanyag-vételezési adatok JKR felhasználói felületre történő feltöltésére a) az üzemanyag-szolgáltató által, b) a saját üzemanyagkút üzemeltetéséért felelős személy által, c) egyéb üzemanyag-vételezésről biztosított elszámolási kimutatás alapján, annak felhasználásával legkésőbb a tárgyhót követő hónap végéig intézkedni kell."
+    },
+    {
+      "provision_ref": "s89",
+      "chapter": "VIII. Fejezet JÁRMŰFORGALMAZÁSI ADATOK FELDOLGOZÁSA",
+      "section": "89",
+      "title": "89. §",
+      "content": "89. § (1) A belügyi szerv legalább negyedévente köteles ellenőrizni az azonosítatlan járműhasználatot, és az ellenőrzés során feltárt azonosítatlan járműhasználat kivizsgálására intézkedni köteles. (2) A jármű üzemeltetője köteles – a magáncélú használattal való visszaélés megelőzése érdekében – legalább negyedévente ellenőrizni a magáncélú futott kilométeradatokat."
+    },
+    {
+      "provision_ref": "s90",
+      "chapter": "VIII. Fejezet JÁRMŰFORGALMAZÁSI ADATOK FELDOLGOZÁSA",
+      "section": "90",
+      "title": "90. §",
+      "content": "90. § (1) Igénybevételi mód kapcsoló hibás, helytelen használata esetén biztosítani kell, hogy a téves adatrögzítés utólagosan, manuális módon korrigálható legyen az e-menetlevélben. (2) Az igénybevételi mód kapcsoló helytelen használatából adódó korrekciót a magánhasználatra jogosult az e-menetlevél előkészítése vagy ellenőrzése során köteles végrehajtani."
+    },
+    {
+      "provision_ref": "s91",
+      "chapter": "VIII. Fejezet JÁRMŰFORGALMAZÁSI ADATOK FELDOLGOZÁSA",
+      "section": "91",
+      "title": "91. §",
+      "content": "91. § (1) A munkáltató az általa foglalkoztatott járművezető vezetési stílusának elemzését a JKR Program által feldolgozott járműsebesség, gyorsulás-lassulás, kanyarodás, motorfordulatszám-adatok (a továbbiakban együtt: vezetési adatok) monitorozásával hajthatja végre. (2) A vezetési stílus elemezhetőségét biztosító riportokban csak a JKR Programban beállított határértéket meghaladó kritikus vezetési adatok jelennek meg. (3) A vezetési adatok határértékeit a járműhasználat alapján a BM VBBFO határozza meg, és intézkedik a beállítására, módosítására, melyről a belügyi szerveket köteles tájékoztatni."
+    },
+    {
+      "provision_ref": "s92",
+      "chapter": "VIII. Fejezet JÁRMŰFORGALMAZÁSI ADATOK FELDOLGOZÁSA",
+      "section": "92",
+      "title": "92. §",
+      "content": "92. § (1) A közlekedésbiztonság hatékonyságának növelése és a jármű mint vagyoneszköz megóvása érdekében a JKR által rögzített kritikus vezetési adatok elemzését – a kirívó és többször ismétlődő sebességtúllépés, nagy kanyarsebesség, intenzív gyorsulás-lassulás, magas fordulatszámú jármű-üzemeltetés vezetési adatokkal jellemezhető járművezető (a továbbiakban: kockázatos járművezető) kiszűrése érdekében – a belügyi szervnek legalább évente egy alkalommal dokumentált módon el kell végezni. (2) A kockázatos járművezetőt a foglalkoztató belügyi szervnek az érintett járműkategóriára vonatkozó, a belügyi szerv által használt szolgálati gépjárművet és szolgálati hajót vezető és a gépjárművezetést oktató személy képzési követelményeinek megállapításáról szóló 18/2016. (VIII. 16.) BM utasításban meghatározott képzésre be kell iskolázni."
+    },
+    {
+      "provision_ref": "s93",
+      "chapter": "VIII. Fejezet JÁRMŰFORGALMAZÁSI ADATOK FELDOLGOZÁSA",
+      "section": "93",
+      "title": "93. §",
+      "content": "93. § A JKR Program adminisztrátori felületén adminisztrátori joggal beállított automatikus adatletöltést biztosító robotriportot kizárólag belügyi szervi domain-névvel rendelkező e-mail-címre lehet továbbítani."
+    },
+    {
+      "provision_ref": "s94",
+      "chapter": "VIII. Fejezet JÁRMŰFORGALMAZÁSI ADATOK FELDOLGOZÁSA",
+      "section": "94",
+      "title": "94. §",
+      "content": "94. § A belügyi szerv köteles a robotriport beállításával az azonosítatlan járműhasználatra és a megkülönböztető jelzést adó berendezés használatára vonatkozó adatokat a közvetlen ellenőrzésért felelős vezetői állomány részére hozzáférhetővé tenni."
+    },
+    {
+      "provision_ref": "s95",
+      "chapter": "VIII. Fejezet JÁRMŰFORGALMAZÁSI ADATOK FELDOLGOZÁSA",
+      "section": "95",
+      "title": "95. §",
+      "content": "95. § A jármű üzembentartója a kezelésébe tartozó és JKR-be integrált járműhöz JKR Program dokumentumtárba köteles feltölteni a járműhöz tartozó a) JKR szerelést igazoló munkalapot, b) a tartós magáncélú igénybevételre vonatkozó engedélyt, ha a jármű érintett magáncélú igénybevétellel, c) az országhatár-átlépési engedélyt és a nemzetközi biztosítást igazoló lapot, ha a jármű Magyarország határát átlépi, valamint d) az adott jármű vonatkozásában a közlekedési balesettel kapcsolatos dokumentumokat, a 122. § figyelembevételével."
+    },
+    {
+      "provision_ref": "s96",
+      "chapter": "IX. Fejezet A JKR PROGRAM ÜZEMELTETÉSÉRE, FRISSÍTÉSÉRE, TESZTELÉSÉRE, HIBAKEZELÉSÉRE VONATKOZÓ SZABÁLYOK",
+      "section": "96",
+      "title": "96. §",
+      "content": "96. § A NISZ Zrt. szerver infrastruktúráján működő JKR Program üzemeltetésére, hibakezelésére, verziófrissítésére vonatkozó részletszabályokat a BM és a NISZ Zrt. közötti szerződésben kell rögzíteni."
+    },
+    {
+      "provision_ref": "s97",
+      "chapter": "IX. Fejezet A JKR PROGRAM ÜZEMELTETÉSÉRE, FRISSÍTÉSÉRE, TESZTELÉSÉRE, HIBAKEZELÉSÉRE VONATKOZÓ SZABÁLYOK",
+      "section": "97",
+      "title": "97. §",
+      "content": "97. § A 96. § szerinti szerződés előkészítéséért a Belügyminisztérium Pénzügyi Erőforrás-gazdálkodási Főosztály, szakmai előkészítéséért és gondozásáért a BM RERIFO a felelős."
+    },
+    {
+      "provision_ref": "s98",
+      "chapter": "IX. Fejezet A JKR PROGRAM ÜZEMELTETÉSÉRE, FRISSÍTÉSÉRE, TESZTELÉSÉRE, HIBAKEZELÉSÉRE VONATKOZÓ SZABÁLYOK",
+      "section": "98",
+      "title": "98. §",
+      "content": "98. § (1) A JKR Program szükség szerinti frissítésének telepítésére a BM RERIFO a BM VBBFO-val együttműködve intézkedik úgy, hogy a frissítés addig nem telepíthető az éles síkra, amíg a tesztsíkon meg nem bizonyosodik annak rendeltetésszerű működéséről. (2) A JKR-be integrált járművei közül minimum egy járműbe teszt-telematikai eszközt köteles beépíteni a) b) c) a Nemzeti Szakértői és Kutató Központ, d) a Nemzeti Védelmi Szolgálat, e) az Országos Idegenrendészeti Főigazgatóság, f) g) a Terrorelhárítási Központ, h) (3) A JKR-be integrált járművei közül legalább kettő járműbe teszt-telematikai eszköz beépítése kötelező a) a Büntetés-végrehajtás Országos Parancsnoksága és az irányítása alá tartozó szervek, b) a Belügyminisztérium Országos Katasztrófavédelmi Főigazgatóság és irányítása alá tartozó szervek, c) az Országos Rendőr-főkapitányság és az irányítása alá tartozó szervek, d) (4) A belügyi szerv köteles gondoskodni arról, hogy a teszt-telematikai eszköz valós járműforgalmazási adatot szolgáltasson a tesztelési feladatok elvégzéséhez. (5) A teszt-telematikai eszköz anyagköltsége a belügyi szervet terheli, a beszerelés térítésmentes."
+    },
+    {
+      "provision_ref": "s99",
+      "chapter": "IX. Fejezet A JKR PROGRAM ÜZEMELTETÉSÉRE, FRISSÍTÉSÉRE, TESZTELÉSÉRE, HIBAKEZELÉSÉRE VONATKOZÓ SZABÁLYOK",
+      "section": "99",
+      "title": "99. §",
+      "content": "99. § (1) A BM VBBFO a – BM RERIFO és a NISZ Zrt. bevonásával – a JKR hibabejelentés eljárásrendjét köteles kidolgozni és a belügyi szerveket erről tájékoztatni (a továbbiakban: Hibakezelési eljárásrend). (2) A JKR felhasználói felületének használata során vagy a járműbe beszerelt telematikai berendezéssel összefüggésben a jogosultsággal rendelkező személy által észlelt hibajelenség esetében a BM VBBFO által – a belügyi szervek bevonásával – meghatározott eljárásrendet kell követni."
+    },
+    {
+      "provision_ref": "s100",
+      "chapter": "IX. Fejezet A JKR PROGRAM ÜZEMELTETÉSÉRE, FRISSÍTÉSÉRE, TESZTELÉSÉRE, HIBAKEZELÉSÉRE VONATKOZÓ SZABÁLYOK",
+      "section": "100",
+      "title": "100. §",
+      "content": "100. § A végfelhasználói ponton észlelt hiba kijavítását a végfelhasználói ponton kell kezdeményezni."
+    },
+    {
+      "provision_ref": "s101",
+      "chapter": "IX. Fejezet A JKR PROGRAM ÜZEMELTETÉSÉRE, FRISSÍTÉSÉRE, TESZTELÉSÉRE, HIBAKEZELÉSÉRE VONATKOZÓ SZABÁLYOK",
+      "section": "101",
+      "title": "101. §",
+      "content": "101. § A hibakezelési folyamat egykapus, a bejelentő kizárólag a jogosultsági hierarchiában közvetlenül felette álló adminisztrátornak jelezheti a hibát."
+    },
+    {
+      "provision_ref": "s102",
+      "chapter": "IX. Fejezet A JKR PROGRAM ÜZEMELTETÉSÉRE, FRISSÍTÉSÉRE, TESZTELÉSÉRE, HIBAKEZELÉSÉRE VONATKOZÓ SZABÁLYOK",
+      "section": "102",
+      "title": "102. §",
+      "content": "102. § A hiba bejelentését a Hibabejelentő formanyomtatvány kitöltésével kell kezdeményezni."
+    },
+    {
+      "provision_ref": "s103",
+      "chapter": "IX. Fejezet A JKR PROGRAM ÜZEMELTETÉSÉRE, FRISSÍTÉSÉRE, TESZTELÉSÉRE, HIBAKEZELÉSÉRE VONATKOZÓ SZABÁLYOK",
+      "section": "103",
+      "title": "103. §",
+      "content": "103. § Ha a hibajelenség beazonosítása során felmerül, hogy informatikai hátterű problémát kell kezelni, úgy az adminisztrátornak a) általános belügyi szerv esetében a kiadott Hibakezelési eljárásrend szerint kell eljárni, b) speciális belügyi szerv esetében fel kell venni a kapcsolatot a speciális belügyi szervnél kijelölt IT rendszergazdával."
+    },
+    {
+      "provision_ref": "s104",
+      "chapter": "IX. Fejezet A JKR PROGRAM ÜZEMELTETÉSÉRE, FRISSÍTÉSÉRE, TESZTELÉSÉRE, HIBAKEZELÉSÉRE VONATKOZÓ SZABÁLYOK",
+      "section": "104",
+      "title": "104. §",
+      "content": "104. § Ha a hibakezelés során a Szolgáltató beavatkozása válik szükségessé, úgy a hibabejelentést a Szolgáltató felé kizárólag a BM adminisztrátor teheti meg."
+    },
+    {
+      "provision_ref": "s105",
+      "chapter": "X. Fejezet A JKR SZERELÉSEK PÉNZÜGYI ELSZÁMOLÁSA",
+      "section": "105",
+      "title": "105. §",
+      "content": "105. § A jármű JKR-be integrálásának és kiegészítő szerelésének (a továbbiakban e fejezetben együtt: szerelés) finanszírozása a jármű vagyonkezelő szerve költségvetésének, ha a jármű vagyonkezelője nem belügyi szerv (pl. önkormányzat), akkor az üzembentartó belügyi szerv költségvetésének terhére történik."
+    },
+    {
+      "provision_ref": "s106",
+      "chapter": "X. Fejezet A JKR SZERELÉSEK PÉNZÜGYI ELSZÁMOLÁSA",
+      "section": "106",
+      "title": "106. §",
+      "content": "106. § A Szolgáltatótól való megrendelést követően a szerelési díj fedezete egyoldalú jognyilatkozattal előirányzat-átcsoportosításra kerül a lebonyolító BM Igazgatás részére, melyet a BM kezdeményez. A megrendeléstől való eltérő teljesítés vagy egyéb rendkívüli esemény miatt keletkező szerelési díj különbözet fedezetét előirányzat-átcsoportosítással kell rendezni, melyet az a költségvetési szerv kezdeményez, amely részére történik az átcsoportosítás."
+    },
+    {
+      "provision_ref": "s107",
+      "chapter": "XI. Fejezet JKR-REL ÖSSZEFÜGGŐ KÖLTSÉGEKKEL KAPCSOLATOS SZABÁLYOK",
+      "section": "107",
+      "title": "107. §",
+      "content": "107. § (1) Az általános belügyi szervet kiszolgáló JKR informatikai infrastruktúra-üzemeltetési és -fenntartási költségét a BM viseli, a JKR fejlesztésének költségviselése tekintetében a BM dönt a 140. § (2) bekezdésében meghatározott eljárás során, figyelembe véve a 109. §-ban foglaltakat. (2) A zárt APN hálózat igénybevételének és a mobil adatkommunikációnak a díját a 10. §-ban foglaltak figyelembevételével a BM abban az esetben viseli, ha a szolgáltatás igénybevételére vonatkozó szerződést a BM kötötte."
+    },
+    {
+      "provision_ref": "s108",
+      "chapter": "XI. Fejezet JKR-REL ÖSSZEFÜGGŐ KÖLTSÉGEKKEL KAPCSOLATOS SZABÁLYOK",
+      "section": "108",
+      "title": "108. §",
+      "content": "108. § A speciális belügyi szerv objektumába telepített JKR informatikai infrastruktúra-üzemeltetési és fenntartási, valamint a hardver infrastruktúra fejlesztésének költségét a speciális belügyi szerv viseli."
+    },
+    {
+      "provision_ref": "s109",
+      "chapter": "XI. Fejezet JKR-REL ÖSSZEFÜGGŐ KÖLTSÉGEKKEL KAPCSOLATOS SZABÁLYOK",
+      "section": "109",
+      "title": "109. §",
+      "content": "109. § (1) A belügyi szerv 140. § szerint benyújtott igénye alapján megvalósuló fejlesztés költsége a) a benyújtó belügyi szervet terheli, ha kizárólagosan a benyújtó szerv feladatellátását segíti, b) a BM-et terheli, ha több belügyi szerv feladatellátását segíti. (2) Az (1) bekezdés a) pontja esetében a fejlesztés szakmai egyeztetését követően a BM VBBFO megküldi az igényt benyújtó belügyi szerv részére a költségtervet, mely alapján a belügyi szerv a 21. § szerinti megrendelést kezdeményezi."
+    },
+    {
+      "provision_ref": "s110",
+      "chapter": "XI. Fejezet JKR-REL ÖSSZEFÜGGŐ KÖLTSÉGEKKEL KAPCSOLATOS SZABÁLYOK",
+      "section": "110",
+      "title": "110. §",
+      "content": "110. § A szerelési igény megrendelésének tartalmaznia kell a belügyi szerv fedezetigazolását, mellyel igazolja a forrás rendelkezésre állását."
+    },
+    {
+      "provision_ref": "s111",
+      "chapter": "XI. Fejezet JKR-REL ÖSSZEFÜGGŐ KÖLTSÉGEKKEL KAPCSOLATOS SZABÁLYOK",
+      "section": "111",
+      "title": "111. §",
+      "content": "111. § A Szolgáltató teljesítésének műszaki igazolását a belügyi szerv által kijelölt műszaki igazoló végzi."
+    },
+    {
+      "provision_ref": "s112",
+      "chapter": "XI. Fejezet JKR-REL ÖSSZEFÜGGŐ KÖLTSÉGEKKEL KAPCSOLATOS SZABÁLYOK",
+      "section": "112",
+      "title": "112. §",
+      "content": "112. § Műszaki igazolót és helyettesét olyan létszámban és olyan végrehajtó szervi megoszlásban kell kijelölni, hogy az igazolás akadálymentesen elvégezhető legyen."
+    },
+    {
+      "provision_ref": "s113",
+      "chapter": "XI. Fejezet JKR-REL ÖSSZEFÜGGŐ KÖLTSÉGEKKEL KAPCSOLATOS SZABÁLYOK",
+      "section": "113",
+      "title": "113. §",
+      "content": "113. § A tárgyhavi szerelés pénzügyi elszámolását a BM végzi a belügyi szerv által megküldött műszaki igazolás alapján."
+    },
+    {
+      "provision_ref": "s114",
+      "chapter": "XI. Fejezet JKR-REL ÖSSZEFÜGGŐ KÖLTSÉGEKKEL KAPCSOLATOS SZABÁLYOK",
+      "section": "114",
+      "title": "114. §",
+      "content": "114. § (1) A belügyi szervek igényei alapján beszerzett, és a járműbe beszerelt telematikai eszköz, illetve a belügyi szerv részére beszerzett és a JKR működtetéséhez szükséges egyéb informatikai eszköz vagyonkezelési jogának az érintett belügyi szerv részére történő átadására – a számla kifizetésének évén belül – az erre vonatkozó megállapodás megkötésével a BM Pénzügyi Erőforrás-gazdálkodási Főosztály intézkedik. (2) A belügyi szerv köteles gondoskodni az átadott eszközök végső felhasználók részére történő átadására."
+    },
+    {
+      "provision_ref": "s115",
+      "chapter": "XII. Fejezet ADATVÉDELEMRE VONATKOZÓ SZABÁLYOK",
+      "section": "115",
+      "title": "115. §",
+      "content": "115. § A JKR-t érintően titkosított, biztonságos tárolást, adatátvitelt és hozzáférést kell megvalósítani."
+    },
+    {
+      "provision_ref": "s116",
+      "chapter": "XII. Fejezet ADATVÉDELEMRE VONATKOZÓ SZABÁLYOK",
+      "section": "116",
+      "title": "116. §",
+      "content": "116. § A JKR működtetését és alkalmazását megelőzően az alkalmazó belügyi szerv a BM adatvédelmi tisztviselőjével együttműködve adatvédelmi hatásvizsgálatot végez, mely a belügyi szerv szervezeti, szakmai, műszaki, informatikai, adatvédelmi körülményeinek megfelel."
+    },
+    {
+      "provision_ref": "s117",
+      "chapter": "XII. Fejezet ADATVÉDELEMRE VONATKOZÓ SZABÁLYOK",
+      "section": "117",
+      "title": "117. §",
+      "content": "117. § (1) A jármű forgalmazásáról a telematikai eszköz segítségével a 16. § (1) bekezdése szerinti adatok gyűjtése valósulhat meg, mely adatok rögzítése a telematikai eszköz és a JKR Program közötti rendeltetésszerű adatkapcsolat esetén a telematikai eszköz belső memóriájában tartósan nem kerülhet rögzítésre. (2) A telematikai eszköz belső memóriája kizárólag hibás adatkapcsolat vagy adatkapcsolat hiánya esetén – az adatkapcsolat helyreállásáig, de legfeljebb a memóriakapacitás telítődéséig – tárolhatja a járműforgalmazási adatokat, kódolt adattárolással."
+    },
+    {
+      "provision_ref": "s118",
+      "chapter": "XII. Fejezet ADATVÉDELEMRE VONATKOZÓ SZABÁLYOK",
+      "section": "118",
+      "title": "118. §",
+      "content": "118. § (1) A járműforgalmazási adat – sikeres járművezető-azonosítás esetén – járművezetőhöz kötött adat, mely az igénybevételi módtól függően informatikai eszközökkel járművezetőhöz kötött módon regisztrálásra és rögzítésre kerül a JKR Programban. (2) Minősített használat során járműforgalmazási adat nem keletkezhet. (3) Magánhasználat során járműforgalmazási adat, jogosultsággal rendelkező személy által hozzáférhető módon nem rögzülhet."
+    },
+    {
+      "provision_ref": "s119",
+      "chapter": "XII. Fejezet ADATVÉDELEMRE VONATKOZÓ SZABÁLYOK",
+      "section": "119",
+      "title": "119. §",
+      "content": "119. § Magánhasználat esetében a valós idejű GPS-alapú helymeghatározás adatait a rendszer a 121. § szerinti adattartalommal rendelkező e-menetlevél készítéséhez, a tartós magáncélú igénybevétellel teljesített km felhasználás meghatározásához, valamint a 121. §-ban meghatározott adatok előállítása érdekében használhatja."
+    },
+    {
+      "provision_ref": "s120",
+      "chapter": "XII. Fejezet ADATVÉDELEMRE VONATKOZÓ SZABÁLYOK",
+      "section": "120",
+      "title": "120. §",
+      "content": "120. § (1) A tárgynapi e-menetlevél, JKR Program által történő létrehozását követően, a magánhasználattal összefüggő járműforgalmazási adatok – a magánhasználatra vonatkozó kezdő és záró km adata és összegezett futásteljesítménye kivételével – nem tárolhatók az adatbázisban. (2) Ha működési hiba miatt nem készít a JKR Program e-menetlevelet, úgy a hiba kijavításáig, – az e-menetlevél elkészüléséig – de legfeljebb a tárgynapot követő 168 óráig tárolható a tárgynapi járműforgalmazáshoz kötődően rögzített adat a telematikai eszközben."
+    },
+    {
+      "provision_ref": "s121",
+      "chapter": "XII. Fejezet ADATVÉDELEMRE VONATKOZÓ SZABÁLYOK",
+      "section": "121",
+      "title": "121. §",
+      "content": "121. § Az e-menetlevél magánhasználati adattartalma: a) magánhasználat kezdő km adata (km-számláló szerint) és földrajzi pozíció adata és az átkapcsolás pillanatában azonosított járművezető chip száma, b) magánhasználat záró km adata (km-számláló szerint) és földrajzi pozíció adata és az átkapcsolás pillanatában azonosított járművezető chip száma, c) összegezett magánhasználati futásteljesítmény."
+    },
+    {
+      "provision_ref": "s122",
+      "chapter": "XIII. Fejezet KÁRESEMÉNYRE, HIBAVIZSGÁLATRA VONATKOZÓ SZABÁLYOK, JÁRMŰ JKR-BŐL TÖRTÉNŐ KIVONÁSA",
+      "section": "122",
+      "title": "122. §",
+      "content": "122. § (1) Közlekedési baleset esetén a jármű üzembentartója a belügyi szervek jármű szabályzatáról szóló 22/2022. (XII. 16.) BM utasítás és a belügyi szerv jármű szabályzata szerint köteles eljárni. (2) Ha a belügyi szervnél nincs bevezetve a közlekedési balesetek dokumentumainak nyilvántartására alkalmas elektronikus felület, úgy a jármű szakterületért felelős személy köteles intézkedni a káreseménnyel kapcsolatosan keletkezett dokumentumok JKR dokumentumtár moduljába, az érintett járműhöz történő feltöltésére."
+    },
+    {
+      "provision_ref": "s123",
+      "chapter": "XIII. Fejezet KÁRESEMÉNYRE, HIBAVIZSGÁLATRA VONATKOZÓ SZABÁLYOK, JÁRMŰ JKR-BŐL TÖRTÉNŐ KIVONÁSA",
+      "section": "123",
+      "title": "123. §",
+      "content": "123. § Totálkáros jármű esetében a telematikai eszköz járműből történő kiszerelésére intézkedni kell a jármű üzembentartójának. A jármű előéletéből meglévő adatállományt a XII. Adatvédelem fejezetben meghatározott határidők figyelembevételével meg kell őrizni."
+    },
+    {
+      "provision_ref": "s124",
+      "chapter": "XIII. Fejezet KÁRESEMÉNYRE, HIBAVIZSGÁLATRA VONATKOZÓ SZABÁLYOK, JÁRMŰ JKR-BŐL TÖRTÉNŐ KIVONÁSA",
+      "section": "124",
+      "title": "124. §",
+      "content": "124. § (1) A járművezető azonosító chip elvesztése esetén, soron kívül gondoskodni kell az új azonosító kiadásáról, az érintett járművezető neve alatt regisztrált járművezető azonosító chip szám törléséről és az „Azonosító chip száma” mezőben a kiadásra kerülő új „Azonosító chip” számának berögzítéséről. (2) A járművezető azonosító chip elvesztését káreseményként kell kezelni, és a jogszabályban, valamint a belügyi szerv kártérítési szabályzatában meghatározottak szerint kell eljárni. (3) A járművezető azonosító chip kártérítési összegéről a BM VBBFO vezetője tájékoztatja a belügyi szervet."
+    },
+    {
+      "provision_ref": "s125",
+      "chapter": "XIII. Fejezet KÁRESEMÉNYRE, HIBAVIZSGÁLATRA VONATKOZÓ SZABÁLYOK, JÁRMŰ JKR-BŐL TÖRTÉNŐ KIVONÁSA",
+      "section": "125",
+      "title": "125. §",
+      "content": "125. § Elveszett járművezető azonosító chip megtalálása esetén az ellenőrzött és működőképes járművezető azonosító chip újra kiadható."
+    },
+    {
+      "provision_ref": "s126",
+      "chapter": "XIII. Fejezet KÁRESEMÉNYRE, HIBAVIZSGÁLATRA VONATKOZÓ SZABÁLYOK, JÁRMŰ JKR-BŐL TÖRTÉNŐ KIVONÁSA",
+      "section": "126",
+      "title": "126. §",
+      "content": "126. § A hatósági vagy belügyi szerv eljárásából, ellenőrzéséből, vizsgálatából eredő járműforgalmazáshoz kötődő adatigény felmerülése esetén az érintett jármű vagyonkezelőjéhez vagy üzembentartójához kell fordulni."
+    },
+    {
+      "provision_ref": "s127",
+      "chapter": "XIII. Fejezet KÁRESEMÉNYRE, HIBAVIZSGÁLATRA VONATKOZÓ SZABÁLYOK, JÁRMŰ JKR-BŐL TÖRTÉNŐ KIVONÁSA",
+      "section": "127",
+      "title": "127. §",
+      "content": "127. § Ha a 126. § szerinti vizsgálat vagy a JKR működését érintő hibajelenségek kivizsgálásához egyéb – a kivizsgáló jogosultságával el nem érhető, viszont –, a rendszerből informatikai úton kinyerhető információ szükséges, akkor a 70. § szerint kell eljárni."
+    },
+    {
+      "provision_ref": "s128",
+      "chapter": "XIII. Fejezet KÁRESEMÉNYRE, HIBAVIZSGÁLATRA VONATKOZÓ SZABÁLYOK, JÁRMŰ JKR-BŐL TÖRTÉNŐ KIVONÁSA",
+      "section": "128",
+      "title": "128. §",
+      "content": "128. § A jármű JKR-ből való kivonását a) a jármű forgalomból történő kivonása, b) a belügyi szervek vagyonkezelésében lévő kincstári vagyontárgyak használatból való kivonásáról és hasznosításáról szóló 30/2001. (BK 13.) BM utasítás alapján a jármű használatból történő kivonása vagy c) a jármű feladatellátásának változásából eredően a belügyi szerv vagyonkezelésébe tartozó vagy általa üzemben, használatban tartott jármű JKR-be integrálás alóli felmentése esetén végezheti el a jármű üzembentartója."
+    },
+    {
+      "provision_ref": "s129",
+      "chapter": "XIII. Fejezet KÁRESEMÉNYRE, HIBAVIZSGÁLATRA VONATKOZÓ SZABÁLYOK, JÁRMŰ JKR-BŐL TÖRTÉNŐ KIVONÁSA",
+      "section": "129",
+      "title": "129. §",
+      "content": "129. § (1) Ha a JKR-be integrált jármű a) a használatból véglegesen kivonásra kerül, vagy b) a feladatellátása oly módon változik meg, hogy az 58/2015. (X. 27.) BM rendelet vagy a 13. § szerint a JKR-be integrálás alóli felmentése engedélyezésre kerül, akkor a telematikai eszközt ki kell szerelni, mely történhet kiszereléssel vagy átszereléssel. (2) A 17. § b) vagy c) pontja szerinti szerelési feladat végrehajtására, továbbá a kiszerelt telematikai eszköz nyilvántartására és tárolására a jármű üzembentartója köteles intézkedni."
+    },
+    {
+      "provision_ref": "s130",
+      "chapter": "XIV. Fejezet OKTATÁSRA, KÉPZÉSRE ÉS A JKR FEJLESZTÉSRE VONATKOZÓ SZABÁLYOK",
+      "section": "130",
+      "title": "130. §",
+      "content": "130. § A JKR szerver üzemeltetésével foglalkozó IT rendszergazda, valamint a JKR felhasználói felület kezeléséhez jogosultságot igénylő felhasználó vagy ellenőrzési feladatot ellátó személy, a jogosultsági szintjének megfelelő IT rendszergazda vagy adminisztrátor vagy adatfelhasználó, vagy ellenőr, továbbá a JKR szerelését végző munkavállaló a JKR szerelését biztosító képzésre kötelezett."
+    },
+    {
+      "provision_ref": "s131",
+      "chapter": "XIV. Fejezet OKTATÁSRA, KÉPZÉSRE ÉS A JKR FEJLESZTÉSRE VONATKOZÓ SZABÁLYOK",
+      "section": "131",
+      "title": "131. §",
+      "content": "131. § Az elméleti és gyakorlati ismereteket a) a szerver infrastruktúra üzemeltetéséhez a JKR IT rendszergazda képzés, b) az adminisztrátori és a felhasználói felület kezeléséhez, használatához a JKR adminisztrátor képzés, c) a felhasználói felület kezeléséhez, használatához a JKR felhasználó képzés, d) a JKR szerelési feladatok elvégzéséhez a JKR szerelő képzés, e) a JKR használatával végzett ellenőrzési feladatok elvégzéséhez JKR ellenőr képzés vagy f) a JKR e-menetlevél modul használatához a JKR e-menetlevél modulképzés biztosítja."
+    },
+    {
+      "provision_ref": "s132",
+      "chapter": "XIV. Fejezet OKTATÁSRA, KÉPZÉSRE ÉS A JKR FEJLESZTÉSRE VONATKOZÓ SZABÁLYOK",
+      "section": "132",
+      "title": "132. §",
+      "content": "132. § A képzés célja: a) JKR IT rendszergazda képzés esetén a szerverközponti alkalmazások üzemeltetésére kijelölt munkavállaló megismerje az alkalmazás telepítését, a hardver- és alkalmazás infrastruktúrákról, alkalmazott operációs rendszerekről, alkalmazott office komponensekről, illesztett hardver perifériákról, szabványos kommunikációs protokollokról, hibakezelési eljárásról, hibaelhárításról, rendszer-beállítások elvégzéséről rendszergazdai szintű ismereteket szerezzen, és az ismereteiről dokumentálható módon számot adjon. b) JKR adminisztrátor képzés esetén az adminisztrátori jogosultsággal rendelkező munkavállaló megismerje a JKR informatikai alkalmazásának komponenseit, architektúráját, törzsadatbázisait, annak kezelését, működését, a járműbe épített telematikai berendezés működését, rendszer-beállítási lehetőségeit, továbbá az alkalmazás felhasználói felületét, annak működését, kezelését, és az ismereteiről dokumentálható módon számot adjon. c) JKR dashboard felhasználó képzés esetén a JKR dashboard felhasználói felületet kezelő munkavállaló megismerje a felület működését, kezelését, és az ismereteiről dokumentálható módon számot adjon, d) JKR szerelő képzés esetén a jármű JKR-rel kapcsolatos szerelési feladatainak végrehajtása érdekében a munkavállaló megismerje, begyakorolja és szinten tartsa az előírt ismeretanyagot, és az ismereteiről dokumentálható módon számot adjon, e) JKR ellenőr képzés esetén az ellenőrzési szakterületen dolgozó személy a feladata ellátásához szükséges rendszerismereteket megszerezze a JKR-t érintően, f) JKR e-menetlevél modulképzés esetén a munkavállaló megismerje a JKR e-menetlevél modul használatához szükséges ismeretanyagot."
+    },
+    {
+      "provision_ref": "s133",
+      "chapter": "XIV. Fejezet OKTATÁSRA, KÉPZÉSRE ÉS A JKR FEJLESZTÉSRE VONATKOZÓ SZABÁLYOK",
+      "section": "133",
+      "title": "133. §",
+      "content": "133. § (1) A 132. § a) pontjában meghatározott képzés megszervezéséért a BM RERIFO, lebonyolításáért speciális belügyi szerv esetén a speciális belügyi szerv, a NISZ Zrt. esetében a BM RERIFO a felelős. E képzésre a szoftver-üzemeltető belügyi szerv részéről 2 fő informatikus beiskolázása kötelező. A képzés időtartama: 1 óra elmélet és 4 óra gyakorlat. (2) A 132. § b) pontjában meghatározott képzés lebonyolítása a belügyi szerv saját állományát érintően a BM VBBFO szervezésében, az érintett belügyi szerv közreműködésével kerül lebonyolításra. A képzés időtartama 4 óra elmélet és 3 óra gyakorlat. (3) A 132. § c) pontjában meghatározott képzés lebonyolítása a belügyi szerv saját állományát érintően az érintett belügyi szerv szervezésében, a BM VBBFO tájékoztatása mellett kerül lebonyolításra, mentori jelleggel. A képzés időtartama: 3 óra elmélet és 2 óra gyakorlat. (4) A 132. § b) pontjában meghatározott képzésre a JKR adminisztrátori feladatellátásban érintett állomány beiskolázása kötelező. (5) A 132. § c) pontjában meghatározott képzésre kizárólag a JKR dashboard felhasználói felület kezelésével érintett állomány beiskolázása kötelező. (6) A 132. § d) pontjában meghatározott képzésre a jármű JKR szerelését végző, jármű-villamossági szerelői gyakorlattal rendelkező személyi állomány beiskolázása kötelező. (7) A 132. § e) és f) pontjában meghatározott képzés teljesítése e-learning képzés keretében a minisztérium továbbképzéssel kapcsolatos feladatait ellátó szervezeti egysége által üzemeltetett Rendészeti Vezetőképzési, Továbbképzési és Vizsgaportálon (a továbbiakban: RVTV portál) történik. (8) A képzést megelőzően, a képzésre kötelezett személy személyi adatainak, továbbá a (4), az (5) és a (7) bekezdés szerinti képzési kötelezettségének teljesítése érdekében – az RVTV portálon és moduljain történő regisztrációjához – a képzésre kötelezett személyt foglalkoztató belügyi szerv köteles a 134. § (4) bekezdésében foglaltak szerint egyidejűleg tájékoztatni a minisztérium továbbképzéssel kapcsolatos feladatait ellátó szervezeti egységét és a BM VBBFO-t. (9) A központi képzés teljesítése terén a képzésre kötelezett személyt foglalkoztató belügyi szerv biztosítja a BM VBBFO részére a) a képzési létszámról készült kimutatást, b) a képzést követően a jelenléti ív digitalizált formátumát."
+    },
+    {
+      "provision_ref": "s134",
+      "chapter": "XIV. Fejezet OKTATÁSRA, KÉPZÉSRE ÉS A JKR FEJLESZTÉSRE VONATKOZÓ SZABÁLYOK",
+      "section": "134",
+      "title": "134. §",
+      "content": "134. § (1) A 132. § b)–c) pontja szerinti képzésen részt vett állomány vizsgára kötelezett. A képzésen történő részvétel akkor sikeres, ha a képzésre kötelezett a vizsgakötelezettségét teljesíti. (2) A képzési és vizsgakötelezettségnek a) a hivatásos szolgálati jogviszonyban foglalkoztatott aa) a belügyminiszter irányítása alá tartozó szervek hivatásos állományú tagjainak továbbképzési és vezetőképzési rendszeréről, valamint a rendészeti utánpótlási és vezetői adatbankról szóló 2/2013. (I. 30.) BM rendeletben, ab) b) a rendvédelmi igazgatási szolgálati jogviszonyban foglalkoztatott ba) a rendvédelmi igazgatási alkalmazottak rendvédelmi igazgatási szolgálati jogviszonyával összefüggő egyes szabályokról szóló 4/2019. (III. 11.) BM rendeletben, bb) c) foglaltak alapján köteles eleget tenni. (3) A képzési és vizsgakötelezettségnek a kormánytisztviselő, a belügyi szervnél igazságügyi alkalmazotti jogviszonyban álló foglalkoztatott és a munka törvénykönyvéről szóló 2012. évi I. törvény alapján a belügyi szervvel munkaviszonyban álló munkavállaló esetében a BM VBBFO által az adott képzést követően kiadott eljárásrend alapján kell eleget tenni. (4) A vizsgakötelezettségre történő kiértesítés érdekében a kormánytisztviselői, a hivatásos szolgálati, a rendvédelmi igazgatási alkalmazotti jogviszonyban álló foglalkoztatott és a munka törvénykönyvéről szóló törvény alapján a belügyi szervvel munkaviszonyban álló munkavállaló esetében a foglalkoztató belügyi szerv képzésért felelős szervezeti egysége elektronikus úton megküldi az érintett foglalkoztatott és munkavállaló 11. melléklet szerinti adatait, a minisztérium továbbképzéssel kapcsolatos feladatait ellátó szervezeti egysége és a BM VBBFO részére."
+    },
+    {
+      "provision_ref": "s135",
+      "chapter": "XIV. Fejezet OKTATÁSRA, KÉPZÉSRE ÉS A JKR FEJLESZTÉSRE VONATKOZÓ SZABÁLYOK",
+      "section": "135",
+      "title": "135. §",
+      "content": "135. § (1) A képzés sikeres teljesítését igazoló dokumentum letölthetőségét a hivatásos szolgálati jogviszonyban, a rendvédelmi igazgatási alkalmazotti jogviszonyban álló foglalkoztatott részére az RVTV portál üzemeltetője, a kormánytisztviselő, a belügyi szervnél igazságügyi alkalmazotti jogviszonyban álló foglalkoztatott és a munka törvénykönyvéről szóló 2012. évi I. törvény alapján a belügyi szervvel munkaviszonyban álló munkavállaló részére az RVTV portál Moodle moduljának üzemeltetője elektronikus úton biztosítja. (2) A BM-ben foglalkoztatott kormánytisztviselőnek, a belügyi szervnél foglalkoztatott igazságügyi alkalmazotti jogviszonyban álló munkavállalónak és a munka törvénykönyvéről szóló 2012. évi I. törvény alapján a belügyi szervvel munkaviszonyban álló munkavállalónak a képzés sikeres teljesítését igazoló tanúsítványt a képzést lebonyolító belügyi szerv biztosítja elektronikus úton."
+    },
+    {
+      "provision_ref": "s136",
+      "chapter": "XIV. Fejezet OKTATÁSRA, KÉPZÉSRE ÉS A JKR FEJLESZTÉSRE VONATKOZÓ SZABÁLYOK",
+      "section": "136",
+      "title": "136. §",
+      "content": "136. § A képzést sikeresen teljesítő állomány a képzésre épülő, a BM VBBFO vagy a foglalkoztató belügyi szerv által szervezett ismeretfrissítő képzésen köteles részt venni, ha a munkavállaló aktív JKR jogosultsággal rendelkezik az ismeretfrissítő képzésre történő regisztráció időpontjában."
+    },
+    {
+      "provision_ref": "s137",
+      "chapter": "XIV. Fejezet OKTATÁSRA, KÉPZÉSRE ÉS A JKR FEJLESZTÉSRE VONATKOZÓ SZABÁLYOK",
+      "section": "137",
+      "title": "137. §",
+      "content": "137. § Az előírt képzési kötelezettség nem teljesítése esetén a kiadott jogosultság visszavonására a foglalkoztató belügyi szervnek intézkedni kell."
+    },
+    {
+      "provision_ref": "s138",
+      "chapter": "XIV. Fejezet OKTATÁSRA, KÉPZÉSRE ÉS A JKR FEJLESZTÉSRE VONATKOZÓ SZABÁLYOK",
+      "section": "138",
+      "title": "138. §",
+      "content": "138. § A képzési és vizsgakötelezettség megszűnésének esetei: a) JKR Programmal kapcsolatos feladatok alóli mentesítés, b) foglalkoztatási jogviszony, munkaviszony megszűnése."
+    },
+    {
+      "provision_ref": "s139",
+      "chapter": "XIV. Fejezet OKTATÁSRA, KÉPZÉSRE ÉS A JKR FEJLESZTÉSRE VONATKOZÓ SZABÁLYOK",
+      "section": "139",
+      "title": "139. §",
+      "content": "139. § A képzési és vizsgakötelezettség megszűnése esetében a képzési rendszerben rögzített képzési és vizsgakötelezettség törlésére a BM VBBFO intézkedik. Ennek végrehajtása érdekében a képzési és vizsgakötelezettség megszűnésével érintett személyt foglalkoztató belügyi szerv köteles tájékoztatásul megküldeni a BM VBBFO részére a vizsgakötelezettség megszűnésével érintett személy nevét, a foglalkoztató belügyi szerv és szervezeti egység megnevezését."
+    },
+    {
+      "provision_ref": "s140",
+      "chapter": "XIV. Fejezet OKTATÁSRA, KÉPZÉSRE ÉS A JKR FEJLESZTÉSRE VONATKOZÓ SZABÁLYOK",
+      "section": "140",
+      "title": "140. §",
+      "content": "140. § (1) A belügyi szerv a JKR-rel kapcsolatosan felmerülő fejlesztési igényét annak bemutatásával és indoklásával a BM gazdasági helyettes államtitkárához nyújthatja be. (2) A fejlesztési igény szükségességének és indokoltságának vizsgálatát a BM VBBFO folytatja le, és annak eredményéről a benyújtását követő 30 napon belül tájékoztatja az igényt benyújtó belügyi szervet."
+    },
+    {
+      "provision_ref": "s141",
+      "chapter": "XV. Fejezet EGYÉB JKR-REL KAPCSOLATOS SZABÁLYOK",
+      "section": "141",
+      "title": "141. §",
+      "content": "141. § (1) A belügyi szerv vezetője a jelen utasításban meghatározottaktól szigorúbb szabályt alkalmazhat. (2) A speciális belügyi szerv vezetője és a fedett tevékenységet végző belügyi szerv vezetője a) a 122. § (2) bekezdésében meghatározottaktól és b) a JKR Program dokumentumtár moduljába feltöltendő dokumentumok vonatkozásában a jelen utasítás előírásaitól eltérhet. (3) A belügy szerv vezetője a JKR működtetése érdekében a jelen utasításban nem szabályozott, a szerv sajátosságaiból adódó speciális szabályokat határozhat meg."
+    },
+    {
+      "provision_ref": "s142",
+      "chapter": "XV. Fejezet EGYÉB JKR-REL KAPCSOLATOS SZABÁLYOK",
+      "section": "142",
+      "title": "142. §",
+      "content": "142. § (1) A belügyi szerv vezetője meghatározza 1. a belügyi szerv saját vagy más belügyi szerv képzett szerelői állományával megvalósított JKR szerelés elszámolására, 2. a szerelések megszervezésére, 3. a lebonyolított szerelések ellenőrzésére és a megvalósult szereléseket tartalmazó HSZÖ elkészítésére, 4. a raktárkészlet tárolására, 5. a belügyi szerv Felhasználójának JKR-ben rögzített járműforgalmazási adatokhoz történő hozzáférésére, annak kérelmezésére és kiadására, 6. a jogosultság kiadására és visszavételére, 7. a felhasználónév és jelszó kiadására, 8. a belügyi szervre vonatkozóan meghatározott törzsadat-rögzítési feladatokra, 9. a jármű törzsadatbázisában a hatósági jelzésen vagy fedőazonosítón és telematikai eszközazonosító számon kívüli, egyéb adat rögzítésére, 10. a 75. § (1) bekezdésében meghatározottakon túl az azonosító chippel ellátott járművezetőhöz kötődő egyéb adat rögzítésére, 11. a járművezető egyedi azonosítójának meghatározására, 12. az e-menetlevél alkalmazásban a járműforgalmazáshoz köthető, a JKR által automatikusan nem gyűjtött, azonban a belügyi szerv számára fontos adatok (pl. a járműben utazók száma) manuális rögzítésére, 13. az e-menetlevél ellenőrzésére, az ellenőrzés gyakoriságára, 14. az új flotta létrehozására, 15. a járműhöz tartozó üzemanyag-vételezési adat JKR Programba történő feltöltésére, 16. az igénybevételi mód kapcsoló alkalmazására vonatkozó adat utólagos módosítására, 17. a robotriport igénylésére és beállítására, 18. a 95. §-ban meghatározottakon túl a dokumentumtár adatfeltöltésére, 19. a belügyi szerv hibakezelésére, valamint 20. a kiszerelt telematikai eszköz nyilvántartására és tárolására 21. a JKR-be integrált jármű – az 51. § szerint tárolt jármű kivételével – akkumulátor töltöttségi szintjének naponta, és az e-menetlevél keletkezésének folytonosságára legalább hetente a JKR dashboard felhasználói felületen történő ellenőrzésére, 22. az alárendeltségébe tartozó járműre vonatkozóan a havi státuszjelentés elkészítésére, 23. a kiadott jogosultságok és az azonosító chip kezelésére, visszavételére vonatkozó szabályokat. (2) A speciális belügyi szerv vezetője az (1) bekezdésben foglaltakon túl meghatározza az általa üzemeltetett JKR Program a) naplózási adatainak vizsgálatára, b) üzemeltetésére, hibakezelésére, verzió-frissítésére, c) a 122. § (2) bekezdésében meghatározottaktól történő eltérésre, d) a JKR működését érintő hibajelenségek, rendszerhasználati információk vizsgálatához szükséges adatigény hozzáférésére, továbbá e) az IT rendszergazda feladatainak végrehajtására és a jogosultságra, f) a törzsadat létrehozására és módosítására, továbbá g) a jármű fedett telephelyen történő tárolására vonatkozó szabályokat."
+    },
+    {
+      "provision_ref": "s142a",
+      "chapter": "XV. Fejezet EGYÉB JKR-REL KAPCSOLATOS SZABÁLYOK",
+      "section": "142/A",
+      "title": "142/A. §",
+      "content": "142/A. § A belügyi szerv státuszjelentésben tájékoztatja a BM VBBFO-t a JKR-be integrált járművek nyomon követhetőségének az állapotáról a tárgyhót követő hónap 20. napjáig."
+    },
+    {
+      "provision_ref": "s143",
+      "chapter": "XVI. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "143",
+      "title": "143. §",
+      "content": "143. § (1) Ez az utasítás a közzétételét követő tizenötödik napon lép hatályba. (2) A BM kivételével a belügyi szerv vezetője a 143. § (1) vagy (2) bekezdése szerinti szabályzatát jelen utasítás közzétételét követő 90 napon belül köteles jóváhagyásra felterjeszteni a gazdasági helyettes államtitkárhoz. (3) A BM kivételével a belügyi szerv vezetője a 143. § (1) vagy (2) bekezdése szerinti szabályok módosításának kiadását megelőzően intézkedik a dokumentum gazdasági helyettes államtitkárnak jóváhagyásra történő megküldésére. (4) Az utasítás hatálybalépését megelőzően beszerzett és a járműbe beszerelt telematikai eszköz, illetve a belügyi szerv részére beszerzett egyéb informatikai eszköz vagyonkezelési jogának átadására 2021. december 31-éig a BM Pénzügyi Erőforrás-gazdálkodási Főosztály intézkedik. 1R04097_5 TESZT SIKERES SIKERTELEN Járó motornál Zöld LED világít/villog Piros LED világít/villog Sofőrazonosító teszt A *-gal jelölt mezők kitöltése kötelező! 5R05026.pdf 5R05027.pdf 4R05764.pdf Jármű hatósági jelzése vagy fedőazonosítója: …………………… 4R05760.pdf"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "JKR dashboard felhasználói felület",
+      "definition": "a JKR-ben keletkező adatokat megjelenítő dashboard elektronikus lekérdezési felület.",
+      "source_provision": "s2"
+    },
+    {
+      "term": "Igénybevételi mód kapcsoló cseréje",
+      "definition": "egy már igénybevételi mód kapcsolóval ellátott jármű feladatellátásának változásából eredő, továbbá a nem garanciális időszak alatt bekövetkező meghibásodás miatt szükségessé váló igénybevételi mód kapcsoló cseréje. 8. JKR telematikai eszköz tápellátásának szerelése: a már JKR-be integrált jármű telematikai eszközének tápellátás-kikötése vagy annak visszakötése.",
+      "source_provision": "s12"
+    }
+  ]
+}

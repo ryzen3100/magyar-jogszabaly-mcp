@@ -1,0 +1,127 @@
+{
+  "id": "hu-law-2013-34-20-2c",
+  "type": "statute",
+  "title": "34/2013. (XII. 16.) MNB rendelet a szervezetek és a Magyar Nemzeti Bank közötti kizárólagos elektronikus kapcsolattartás rendjéről és technikai feltételeiről, valamint a Magyar Nemzeti Bank által működtetett kézbesítési tárhely működtetéséről és használatáról",
+  "status": "repealed",
+  "in_force_date": "2014-01-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2013-34-20-2C",
+  "description": "a szervezetek és a Magyar Nemzeti Bank közötti kizárólagos elektronikus kapcsolattartás rendjéről és technikai feltételeiről, valamint a Magyar Nemzeti Bank által működtetett kézbesítési tárhely működtetéséről és használatáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § E rendelet alkalmazásában: 1. adminisztrátor: az ügyfél képviseletében az ERA rendszerben elsőként sikeresen regisztrált felhasználó; 2. aláírás-létrehozó eszköz: az elektronikus aláírásról szóló 2001. évi XXXV. törvény 2. § 3. pontjában meghatározott fogalom; 3. elektronikus aláíráspolitika: a szabályozott elektronikus ügyintézési szolgáltatásokról és az állam által kötelezően nyújtandó szolgáltatásokról szóló 83/2012. (IV. 21.) Korm. rendelet (a továbbiakban: Korm. rendelet) 2. § 2. pontjában meghatározott fogalom; 4. elektronikus kapcsolattartás: a Magyar Nemzeti Bank (a továbbiakban: MNB) és az ügyfél között lévő kétirányú, írásbelinek minősülő elektronikus kapcsolattartás; 5. elektronikus postaláda: az ERA rendszer szolgáltatásaként működő, az MNB által az ERA rendszerben regisztrált intézmény számára biztosított kézbesítési tárhely; 6. elektronikus űrlap: a Korm. rendelet 2. § 3. pontjában meghatározott fogalom; 7. ERA rendszer: az MNB által a hiteles adatok fogadásához kialakított és üzemeltetett, biztonságos kézbesítési szolgáltatásnak minősülő elektronikus kézbesítési rendszer; 8. felhasználó: az eljárás megindítására jogosult vagy a bejelentés megtételére kötelezett személy nevében eljáró természetes személy; 9. külső aláírás-létrehozó eszköz: olyan aláírás-létrehozó eszköz, amelynek a használatához nem kell bejelentkezni az ERA rendszerbe; 10. ügyfél: az eljárás megindítására jogosult vagy a bejelentés megtételére kötelezett személy; 11. ügyfélkapu: jogszabályban meghatározott, az ügyfél jelszavas azonosítását biztosító szabályozott elektronikus ügyintézési szolgáltatás; 12. üzemzavar: a közigazgatási hatósági eljárás és szolgáltatás általános szabályairól szóló 2004. évi CXL. törvény (a továbbiakban: Ket.) 172. § n) pontjában meghatározott fogalom."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § (1) E rendelet szabályait kell alkalmazni azon közigazgatási ügyek esetében, amelyek tekintetében törvény az MNB és az ügyfél között kizárólagos elektronikus kapcsolattartást ír elő. (2) Az elektronikus kapcsolattartás kiterjed a) a kérelemre indult eljárás esetében a kérelem benyújtásától az MNB által az ügy érdemében hozott vagy az ügyet egyéb módon lezáró hatósági döntésnek az ügyféllel történő közléséig terjedő eljárási cselekményekre és jognyilatkozatokra, a hatósági döntés kijavításával, kiegészítésével, az újrafelvételi eljárással, valamint a hivatalból történő döntés-felülvizsgálattal kapcsolatos eljárásokra; b) bejelentés esetén a bejelentésnek az arra kötelezett által történő megtételére vagy megismételt megtételére és az MNB ezzel kapcsolatos visszaigazolására. (3) E rendelet szabályait kell alkalmazni az MNB-re és mindazon szervezetre, amelyek az (1) bekezdés szerinti közigazgatási ügyben ügyfélnek minősülnek."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) Azon közigazgatási ügyekben, ahol a törvény az MNB és az ügyfél között kizárólagos elektronikus kapcsolattartást ír elő, a kapcsolattartás az MNB és az ügyfél között az ERA rendszeren keresztül történik. (2) Amennyiben az ERA rendszer üzemzavara miatt az ügyfélnek nincs lehetősége a kérelmét, egyéb beadványát, bejelentését elektronikus úton benyújtani az MNB-hez, az üzemzavar elhárításáig a kérelmet, az egyéb beadványt, a bejelentést és azok mellékleteit elektronikus adathordozón, az 5. § (4) bekezdésében meghatározott dokumentum formátumban, az MNB 1013 Budapest, Krisztina krt. 39. szám alatt működő ügyfélszolgálatán (Telefonszám: 06-40-203-776) vagy postai úton, az MNB 1534 Budapest BKKP Pf. 777 levelezési címére nyújthatja be, illetve teljesítheti. (3) Az üzemzavar ideje alatt a bejelentés papír alapon, az MNB 1013 Budapest, Krisztina krt. 39. szám alatt működő ügyfélszolgálatán (Telefonszám: 06-40-203-776) vagy postai úton, az MNB 1534 Budapest BKKP Pf. 777 levelezési címére is benyújtható, illetve teljesíthető."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) Az ERA rendszer az MNB honlapján keresztül elérhető Regisztrációs Adatbázisban az ügyfél képviseletére kijelölt természetes személy által történő előzetes regisztrációt követően vehető igénybe. A regisztráció történhet az 5. § (2) bekezdésében meghatározott követelményeknek megfelelő elektronikus aláírás használatával (a továbbiakban: tanúsítvány alapú regisztráció) vagy az ügyfélkapun keresztül (a továbbiakban: ügyfélkapus regisztráció). (2) Választott felhasználói névként kizárólag az ERA rendszer és az adott felhasználó közötti kapcsolatban alkalmazott felhasználói név szerepelhet. Az ERA rendszer a felhasználói név egyediségét ellenőrzi. A felhasználói név az ERA rendszer használata során csak az új regisztrációval megegyező eljárással változtatható meg. (3) Az ERA rendszerben kitöltött regisztrációs űrlapot – amennyiben az ügyfél képviselője adminisztrátorként kíván regisztrálni – nyomtatott formában, az ügyfél cégszerű aláírásával be kell nyújtani az MNB-nek. (4) A regisztráció során lefolytatott ellenőrzés alapján az ERA rendszer a regisztrációs kérelemben megadott elektronikus levélcímre küldött elektronikus levélben tájékoztatja a felhasználót a regisztráció sikeréről és megküldi részére a regisztráció aktiválásához szükséges számkódot. Ha az ellenőrzés bármely eleme sikertelen, a regisztrációt kérőt az ERA rendszer a regisztráció sikertelenségéről elektronikus levélben tájékoztatja, és a regisztrációs kérelemben megadott adatokat automatikusan törli. (5) Az adminisztrátor jogosultsággal rendelkező felhasználó hagyja jóvá vagy utasítja el az adott ügyfélnél a további felhasználók regisztrációs kérelmét, valamint saját adminisztrátori szerepköre megtartása mellett további adminisztrátori jogosultságot adhat az adott ügyfélhez regisztrált további felhasználók részére. (6) Az adminisztrátor az általa más felhasználók részére kiadott adminisztrátori jogosultságokat bármikor visszavonhatja. (7) Amennyiben csak egy személynek van adminisztrátori jogosultsága, ez a jogosultság az ügyfélnek az ügyfél cégszerű aláírásával ellátott és az MNB-hez nyomtatott formában benyújtott nyilatkozata alapján az abban megjelölt időponttól szűnik meg."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § (1) Az ügyfélnek a) a kérelem benyújtását vagy a bejelentés megtételét az ERA rendszerben elérhető elektronikus űrlap kitöltésével, valamint a mellékletként meghatározott dokumentumok feltöltésével; b) az MNB általi felszólítás alapján a hiánypótlást, a kérelem vagy mellékleteinek alátámasztását, a kérelem vagy mellékleteinek módosítását vagy kiegészítését, továbbá a tényállás tisztázásához szükséges nyilatkozat megtételét az ERA rendszerben elérhető elektronikus űrlap kitöltésével, valamint a mellékletként meghatározott, illetve az MNB által előírt egyéb dokumentumok feltöltésével; c) a hatósági döntés kijavításával, kiegészítésével, módosításával, illetve visszavonásával, továbbá az újrafelvételi eljárással kapcsolatos vagy egyéb beadványát az ERA rendszerben elérhető elektronikus űrlap kitöltésével, valamint az ügyfél által csatolni kívánt dokumentumok feltöltésével kell teljesíteni. (2) A kérelmet, beadványt, bejelentést elektronikus aláírással kell ellátni. Az elektronikus aláírásnál használt aláíró tanúsítvány csak olyan minősített vagy fokozott biztonságú elektronikus aláíró tanúsítvány lehet, amely megfelel az elektronikus aláírás közigazgatási használatához kapcsolódó követelményekről és az elektronikus kapcsolattartás egyes szabályairól szóló 78/2010. (III. 25.) Korm. rendelet 7. § (1) bekezdésben meghatározott, az ügyfél által használt aláíráshoz tartozó tanúsítvánnyal szemben támasztott követelményeknek. (3) A kérelmet, beadványt, bejelentést az ügyfél választása szerint külső aláírás-létrehozó eszköz vagy az MNB által rendelkezésre bocsátott aláírás-létrehozó eszköz alkalmazásával kell elektronikusan aláírni. (4) A kérelem, beadvány, bejelentés mellékleteként csak olyan nyílt szabványú, különböző operációs rendszerek alatt működő szoftverekkel olvasható, szöveget, ábrát vagy képet tartalmazó, eszköz-független és felbontás-független formátumú dokumentum csatolható, amelynek a formátuma megfelel az elektronikus ügyintézés részletes szabályairól szóló 85/2012. (IV. 21.) Korm. rendelet 30. §-ában meghatározott követelményeknek. Az alkalmazható dokumentumokra vonatkozó követelményeket az MNB az elektronikus tájékoztatás szabályai szerint közzéteszi."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § (1) Az ERA rendszer felületére a regisztrált felhasználónévvel és jelszóval lehet belépni. (2) Az ERA rendszeren keresztül kérelem vagy egyéb beadvány benyújtására vagy bejelentés megtételére csak az ügyfél nevében eljáró, tanúsítvány alapú regisztrációval rendelkező felhasználó jogosult. Az ügyfélkapus regisztrációval rendelkező felhasználó csak a kérelem vagy a bejelentés összeállítását és az ahhoz kapcsolódó mellékletek csatolását végezheti el. (3) Az MNB az ERA rendszeren keresztül – a feltöltött kérelem jogosultsági és technikai ellenőrzésének kedvező eredménye esetén – a kérelem, egyéb beadvány, bejelentés beérkezéséről az érkeztetési számot is tartalmazó automatikus üzenetet küld elektronikus levél formájában a kérelmezőnek. A küldemény beérkezéséről szóló tájékoztatásnak az ERA rendszer által küldött, „feldolgozásra vár” tartalmú üzenet tekintendő. Ha a kérelem a jogosultsági vagy technikai ellenőrzés eredményeként nem küldhető be, erről az ERA rendszer automatikus üzenetben (elektronikus levélben) értesíti a felhasználót. (4) Az ERA rendszer által küldött automatikus üzenet átvételi elismervénynek minősül és kérelem esetén az ügyintézési határidő számítása szempontjából az automatikus üzenetben megjelölt időpont tekintendő a kérelem hatósághoz történő beérkezése napjának."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § (1) Az MNB az ügyféllel közlendő hatósági döntéseit az elektronikus aláírás-politikának megfelelő elektronikus aláírással ellátott hiteles elektronikus irat formájában közli. (2) Az MNB az ügyfél részére küldendő dokumentumokat az ERA postaládában helyezi el, amelyet sikeres regisztráció esetén az ERA rendszer az ügyfél részére automatikusan biztosít. Az ERA postaládához az ERA rendszerben regisztrált valamennyi felhasználó hozzáférhet. A dokumentum megtekintéséhez a felhasználónak be kell lépnie az ERA rendszerbe és le kell töltenie a dokumentumot."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § Az MNB a határozat kijavítását az új dokumentum eredeti dokumentumhoz való csatolásával, az elektronikus ügyintézés részletes szabályairól szóló 85/2012. (IV. 21.) Korm. rendelet szabályai szerint végzi el."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § Ez a rendelet 2014. január 1-jén lép hatályba. 1 A rendeletet a 19/2014. (VI. 3.) MNB rendelet 10. § (2) bekezdése hatályon kívül helyezte 2014. június 4. napjával. Alkalmazására lásd e hatályon kívül helyező rendelet 10. § (3) bekezdését."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "§ E rendelet alkalmazásában",
+      "definition": "1. adminisztrátor: az ügyfél képviseletében az ERA rendszerben elsőként sikeresen regisztrált felhasználó",
+      "source_provision": "s1"
+    },
+    {
+      "term": "aláírás-létrehozó eszköz",
+      "definition": "az elektronikus aláírásról szóló 2001. évi XXXV. törvény 2. § 3. pontjában meghatározott fogalom",
+      "source_provision": "s1"
+    },
+    {
+      "term": "elektronikus aláíráspolitika",
+      "definition": "a szabályozott elektronikus ügyintézési szolgáltatásokról és az állam által kötelezően nyújtandó szolgáltatásokról szóló 83/2012. (IV. 21.) Korm. rendelet (a továbbiakban: Korm. rendelet) 2. § 2. pontjában meghatározott fogalom",
+      "source_provision": "s1"
+    },
+    {
+      "term": "elektronikus kapcsolattartás",
+      "definition": "a Magyar Nemzeti Bank (a továbbiakban: MNB) és az ügyfél között lévő kétirányú, írásbelinek minősülő elektronikus kapcsolattartás",
+      "source_provision": "s1"
+    },
+    {
+      "term": "elektronikus postaláda",
+      "definition": "az ERA rendszer szolgáltatásaként működő, az MNB által az ERA rendszerben regisztrált intézmény számára biztosított kézbesítési tárhely",
+      "source_provision": "s1"
+    },
+    {
+      "term": "elektronikus űrlap",
+      "definition": "a Korm. rendelet 2. § 3. pontjában meghatározott fogalom",
+      "source_provision": "s1"
+    },
+    {
+      "term": "ERA rendszer",
+      "definition": "az MNB által a hiteles adatok fogadásához kialakított és üzemeltetett, biztonságos kézbesítési szolgáltatásnak minősülő elektronikus kézbesítési rendszer",
+      "source_provision": "s1"
+    },
+    {
+      "term": "felhasználó",
+      "definition": "az eljárás megindítására jogosult vagy a bejelentés megtételére kötelezett személy nevében eljáró természetes személy",
+      "source_provision": "s1"
+    },
+    {
+      "term": "külső aláírás-létrehozó eszköz",
+      "definition": "olyan aláírás-létrehozó eszköz, amelynek a használatához nem kell bejelentkezni az ERA rendszerbe",
+      "source_provision": "s1"
+    },
+    {
+      "term": "ügyfél",
+      "definition": "az eljárás megindítására jogosult vagy a bejelentés megtételére kötelezett személy",
+      "source_provision": "s1"
+    },
+    {
+      "term": "ügyfélkapu",
+      "definition": "jogszabályban meghatározott, az ügyfél jelszavas azonosítását biztosító szabályozott elektronikus ügyintézési szolgáltatás",
+      "source_provision": "s1"
+    },
+    {
+      "term": "üzemzavar",
+      "definition": "a közigazgatási hatósági eljárás és szolgáltatás általános szabályairól szóló 2004. évi CXL. törvény (a továbbiakban: Ket.) 172. § n) pontjában meghatározott fogalom.",
+      "source_provision": "s1"
+    }
+  ]
+}

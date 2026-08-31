@@ -1,0 +1,143 @@
+{
+  "id": "hu-law-2024-31-20-8x",
+  "type": "statute",
+  "title": "31/2024. (VIII. 22.) ÉKM rendelet az építményinformációs modell (BIM) alapú tervezés és műszaki megvalósítás feltételrendszeréről",
+  "status": "in_force",
+  "in_force_date": "2024-09-21",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2024-31-20-8X",
+  "description": "az építményinformációs modell (BIM) alapú tervezés és műszaki megvalósítás feltételrendszeréről",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § Az állami építési beruházások előkészítése és megvalósítása során az építményinformációs modell (BIM) létrehozásáért felelős tervező az e rendeletben meghatározott geometriai, alfanumerikus és metaadat-információkra vonatkozó előírásokat alkalmazza az építtető és az állami építési beruházás előkészítésében és megvalósításában egyéb résztvevők közötti információcsere folyamatokban."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § (1) E rendelet hatálya – jogszabályban meghatározott kivétellel – az állami építési beruházásokra, azok építtetőire, az állami építési beruházás előkészítésében és megvalósításában részt vevőkre, az állami építési beruházások rendjéről szóló 2023. évi LXIX. törvény (a továbbiakban: Ábtv.) hatálya alá tartozó létesítmények építési vagy létesítési engedélyeit kiadó hatóságokra, valamint az állami létesítmények tulajdonosaira, tulajdonosi joggyakorlóira, vagyonkezelőire és üzemeltetőire terjed ki, az állami építési beruházások teljes életciklusa alatt. (2) Az Ábtv. 11. §-ára és 38. § (3) bekezdésére figyelemmel a BIM alapú tervezés és műszaki megvalósítás feltételrendszere az alábbiakra terjed ki: a) az állami építési tételrend (a továbbiakban: egységes tételrend) kialakításának és folyamatos karbantartásának rendje, b) az egyes tételek és összetett – komplex – tételek kialakításának és karbantartásának rendje, c) az állami építési beruházások BIM alapú költségeinek meghatározása, d) a BIM keretrendszer kialakításának és karbantartásának rendje, e) a közös adatkörnyezet keretrendszerének kialakítása és karbantartása."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § E rendelet alkalmazásában 1. adatelem: az információs modell legkisebb, geometriai, illetve alfanumerikus és metaadat-információkkal rendelkező eleme, 2. BCF nyílt adatcsere formátum: lehetővé teszi az építményinformációs modell (BIM) IFC fájlformátumban való megjelenítéséhez kapcsolódóan geometriai, illetve alfanumerikus információk hozzárendelését a térbeli modellhez, 3. BIM végrehajtási terv (BEP): a létesítmény életciklusához kapcsolódó beszerzések, illetve szerződések tárgyát képező építményinformációs modell (BIM) kialakítására adott vállalkozói megoldások leírása az ISO 19650 szabványcsoportban foglalt értelmezés alapján, 4. előzetes BIM végrehajtási terv (pre-BEP): a létesítmény BEP dokumentációjának előzetes, az adott előkészítési fázisban kidolgozott változata, 5. felhasználási esetek: az építményinformációs modellek (BIM) létrehozásának, használatának gyakorlati alkalmazását leíró szabályok, 6. fenntartó: az a jogi személy, aki a létesítmény üzemeltetéséhez szükséges felhatalmazásokkal és jogosultságokkal rendelkezik, és a létesítmény üzemeltetéséhez szükséges feltételeket biztosítja, 7. főmodell: a szerződés tárgyát, illetve a létesítmény lényegi részét tartalmazó építményinformációs modell (BIM), 8. információcsere követelmények (EIR) dokumentum: a létesítmény életciklusához kapcsolódó beszerzések, illetve szerződések tárgyát képező építményinformációs modellel (BIM) szemben támasztott megbízói követelmények, 9. IFC fájlformátum: térbeli modell alapú, szabványosított, nyílt fájlformátum, amely tartalmazza az építményinformációs modell (BIM) geometriai és alfanumerikus információkkal rendelkező adatelemeit, és alkalmas a különböző CAD alkalmazások közötti információátadásra, 10. információkonténer: hierarchiába rendezett, visszanyerhető, azonosított geometriai, illetve alfanumerikus információkkal rendelkező adatelemek halmaza, az összetett információs modell eleme, 11. információs modell: strukturáltan felépített információkonténerek összessége, 12. koordinációs modell: a főmodell, valamint a csökkentett fejlettségi szintű részmodellekből és szakági modellekből képzett, az állami építési beruházás áttekintését biztosító információs modell, 13. kormányzati beruházási portál: az állami beruházásokért felelős miniszter (a továbbiakban: miniszter) által vezetett minisztérium hivatalos, a Közlekedéstudományi és Építésügyi Minőségellenőrző Intézet szakmai közreműködésével létrehozott tartalommal működtetett internetes információs felülete, amely az állami építési beruházásokkal kapcsolatos szabályozási elemeket és azokkal összefüggő információkat tartalmaz, 14. közös adatkörnyezet (CDE): a létesítmény életciklusához kapcsolódó szerződések teljesítése során képződő geometriai, alfanumerikus és metaadat-információkkal rendelkező adatelemek gyűjtésére, kezelésére és megosztására kialakított módszertan alapján működő egységes adatok összessége, illetve azok tárolására szolgáló tárhely, 15. közreműködő: az Ábtv. 17. § (1) bekezdésében felsorolt szereplő, 16. megbízó: az előkészítési és megvalósítási szakaszban az építtető, az üzemeltetési szakaszban a tulajdonos, a tulajdonosi jogok gyakorlója, illetve a vagyonkezelő együttes elnevezése, 17. metaadat: a dokumentumok minél teljesebb beazonosítására szolgáló, egységes szerkezetben kialakított adatstruktúrája, 18. modell elem: a létesítmény egy önállóan nem megvalósítható vagy nem elszámolható részének geometriai, alfanumerikus és metaadat-információkkal rendelkező adatelemek halmaza, az információkonténer eleme, 19. összetett információs modell: a főmodell, a részmodellek és szakági modellek együttese, 20. részmodell: a létesítmény egy önállóan is megvalósítható és elszámolható részéről készített építményinformációs modell (BIM), 21. szakági modell: a főmodellt kiegészítő, azzal összhangban készülő, egy vagy több szakágat magában foglaló építményinformációs modell (BIM), 22. tervező: az Építési Beruházási Folyamatok Rendszeréről és a Tervezői Szolgáltatások Rendszeréről, valamint az állami építési beruházások minőségbiztosításában közreműködő, 100%-ban állami tulajdonban álló gazdasági társaság kijelöléséről szóló miniszteri rendelet szerinti tervező, 23. vállalkozó kivitelező: az az építőipari kivitelezési tevékenységet üzletszerű gazdasági tevékenységként végző vállalkozó, amely vagy aki a kivitelezői láncolatban elfoglalt helye és szerződés szerinti pozíciója alapján fővállalkozó kivitelező, megrendelő vállalkozó kivitelező vagy alvállalkozó kivitelező lehet."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) Az egységes tételrendet kell alkalmazni az állami építési beruházások előkészítése és megvalósítása során. (2) Az egységes tételrend a kötetekbe rendezett ágazati komplex tételek és kapcsolódó, jóváhagyott egyedi tételek rendszerezett csoportosítását tartalmazza. (3) Az egységes tételrend kialakításának kereteit, a komplex tételek szintcsoportjait a miniszter dolgozza ki és tartja karban, amelyet a kormányzati beruházási portálon tesz közzé, azzal, hogy biztosítja a módosítások visszakereshetőségét. (4) Az egységes tételrendet a miniszter a kormányzati beruházási portálon közzéteszi minden negyedév első munkanapján. (5) Az egyes kötetek kidolgozásáról és legalább negyedévente történő felülvizsgálatáról a miniszter gondoskodik."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § (1) A költségek meghatározását az alábbiak szerint kell elvégezni: a) költségbecsléssel, ezen belül aa) koncepcionális előkészítési szinten koncepcióterv alapján, ab) tanulmányi szinten a koncepcióterv vagy tanulmányterv alapján, ac) magasépítési projektek esetében jóváhagyási szinten a jóváhagyási tervdokumentáció alapján, ad) engedélyezési szinten az engedélyezési terv alapján, ae) tendereztetési szinten a kivitelezési dokumentáció alapján, b) költségszámítással a kivitelezéshez kapcsolódó kiviteli terv alapján és c) elszámolással a megvalósulási terv alapján. (2) A költségbecslést az építtető készíti el a rendelkezésre álló információk és az állami építési beruházás előkészítési szintje szerinti műszaki tartalom alapján. (3) A költségszámítást a vállalkozó kivitelező készíti el az ajánlatadás során. (4) Az elszámolást az építtető és a vállalkozó kivitelező együttesen készíti el az állami építési beruházás megvalósítását követően."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § (1) A koncepcionális beruházási előkészítési szint szerinti költségbecslést építménytípusonként, a korábbi állami építési beruházások tapasztalatai alapján képzett aggregált fajlagos költségeket tartalmazó költséginformációs rendszerben szereplő adatok alapján kell elkészíteni. (2) A tanulmányi szint szerinti költségbecslést az egységes tételrend tanulmányi tervezés szintcsoportban a tételcsoportok mennyiségei és a korábbi építési beruházások tapasztalatai alapján képzett fajlagos költségeket tartalmazó költséginformációs rendszerben szereplő adatok alapján kell elkészíteni. (3) A magasépítési projektek esetében a jóváhagyási szint szerinti költségbecslést az egységes tételrend jóváhagyási tervezés szintcsoportban a tételcsoportok mennyiségei és a korábbi építési beruházások tapasztalatai alapján képzett fajlagos költségeket tartalmazó költséginformációs rendszerben szereplő adatok alapján kell elkészíteni. (4) A tendereztetési szint szerinti költségbecslést az egységes tételrend műszaki tervezés szintcsoportban a komplex tételek mennyiségei és a korábbi állami építési beruházások tapasztalatai alapján képzett fajlagos költségek alapján kell elkészíteni. (5) A költségbecslések megfelelő színvonalú elkészítése érdekében a szakminiszter a korábbi építési beruházások tapasztalatai alapján a) a koncepcionális állami építési beruházás előkészítési szinten létesítmények – épület esetén helyiség rendeltetése és alapterülete, vonalas létesítmény alapján funkció és hossz –, b) a tanulmányi szinten tételcsoportok – épület esetén helyiség rendeltetése és alapterülete, vonalas létesítmény alapján funkció és hossz, valamint jelentős műtárgyak felülete, illetve a költségeket érintő releváns adatok –, c) magasépítési projektek esetében a jóváhagyási szinten – épület esetén annak szerkezeti megoldása, rétegrend, egzakt homlokzat, szöveges ismertetők, szakági tervek, geodézia, talajmechanika, közműellátottság, vonalas létesítmény esetén annak műszaki részletei és szakági tervei –, d) az engedélyezési szinten komplex tételek és e) a tendereztetési szinten komplex tételek szerint a fajlagos költségeket meghatározza, és negyedévente felülvizsgálja. (6) Az építtető a tendereztetési szinten – az adott létesítmény megvalósításához szükséges – és a kiviteli terv szinten a komplex tételek fajlagos költségeit az állami építési beruházás előkészítése során a lebonyolító, a tervező és a költségszakértő részére átadja."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § (1) A miniszterhez rendkívüli esetben a tételrend soron kívüli felülvizsgálatára irányuló egyedi felülvizsgálati kérelem nyújtható be a 4. alcím rendelkezéseinek figyelembevételével, amennyiben az egységes tételrend hatályos komplex tételein kívül a tételrendben nem szereplő további tétel alkalmazásának szükségessége merül fel a 4. § (5) bekezdése szerinti negyedéves felülvizsgálatot megelőzően. (2) Az egyedi felülvizsgálati kérelem a tételrendben nem szereplő tétel egységes tételrendbe ideiglenes egyedi tételként történő soron kívüli felvételével a tételrend soron kívüli felülvizsgálatára és a 4. § (4) bekezdése szerinti közzétételére irányul. Az ideiglenes egyedi tételt legkésőbb a negyedéves felülvizsgálatkor a tételrendbe be kell építeni, ennek hiányában pedig az ideiglenes egyedi tételt törölni kell. (3) Az (1) bekezdés szerinti kérelem benyújtásának feltétele, hogy a költségbecslés, költségvetés készítése vagy elszámolás során a hatályos tételrendben nem szereplő további tétel szükségessége merül fel, és a) az egyedi tételek száma nem haladja meg a költségbecslés alapját képező tételrendben szereplő tételszámok 0,5%-át, vagy b) az egyedi tételek összértéke nem haladja meg a Kormány által elfogadott állami építési beruházási keretprogram alapján meghatározott összeg 0,5%-át. (4) A költségszámítást és az elszámolást a tendereztetési szint szerinti költségbecslés során alkalmazott tételek szerint kell elkészíteni."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § (1) Az építményinformációs modellt (BIM) a tervező az építtető döntése, illetve műszaki okok alapján, a) egyetlen információkonténert tartalmazó információs modell, b) több információkonténerből felépülő összetett információs modell vagy c) az állami építési beruházások áttekintését biztosító koordinációs modell alapján alakítja ki. (2) Az összetett információs modellre, a főmodellre, a koordinációs modellre, a részmodellre, illetve szakági modellre önálló követelményrendszer is megadható az előkészítési szakaszban az információcsere követelmények (EIR) dokumentumban részletezettek alapján. (3) A főmodell a műszaki kezelhetőség és a technológiai kapacitások függvényében megbontható az információcsere követelmények (EIR) dokumentumban, illetve a BIM végrehajtási tervben (BEP) részletezett feltételek alapján. Ebben az esetben a főmodell megbontásából keletkező részmodelleknek a főmodellel szemben támasztott követelményeket teljesítenie kell."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § (1) Az építményinformációs modell (BIM) létrehozása szükséges a) új, állami építési beruházás keretében megvalósuló létesítmény vagy meglévő létesítmény állami beruházás keretében történő átépítése, bővítése, felújítása vagy bontása esetén, valamint b) a magyar állam tulajdonában álló vagy tulajdonába kerülő létesítmények üzemeltetése esetén. (2) Az építményinformációs modellt (BIM) az (1) bekezdés a) pontja szerinti létesítmények esetében az előkészítés során, de legkésőbb az engedélyezési dokumentáció készítésének megkezdésekor, a b) pont szerinti létesítmények esetében az üzemeltetés megkezdésekor kell létrehozni."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § A digitális folytonosságot az építményinformációs modell (BIM) létrehozását követően a projekt teljes életciklusára vonatkozóan biztosítani szükséges."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § (1) Az egyes modellelemekre vonatkozó részletezettségeket, a felhasználási eseteknek megfelelő részletezettségi szinteket az információcsere követelmények (EIR) dokumentumban kell meghatározni az egyes modellelemekre vonatkozóan, a miniszter által a kormányzati beruházási portálon közzétett szakmai útmutató szerint. (2) A megvalósulási dokumentációt digitális geodéziai felmérések ellenőrző mérései alapján készített műszaki tervdokumentáció keretében kell elkészíteni, és a közös adatkörnyezetben (CDE) rögzíteni. (3) Az egyes átlagos fejlettségi szintek meghatározását és a hozzájuk kapcsolódó pontossági szintet – tervfázisonként – az ágazati műszaki szabályozási dokumentumok és a felek közötti információcsere követelmények (EIR) dokumentumban meghatározott módon és részletezettségben rögzítik a modell elemek szintjén. (4) A (3) bekezdés szerinti ágazati műszaki szabályozási dokumentumokat a kormányzati beruházási portálon kell közzétenni, azzal, hogy biztosítani kell a módosítások visszakereshetőségét. (5) A kapcsolódó létesítmények esetén az átlagos fejlettségi szintet az építtető egyedileg határozza meg a szerződéses dokumentumokban meghatározott részletezettségben, az információcsere követelmények (EIR) dokumentumokban meghatározott módon."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. § Az építmények életciklusai az építményinformációs modell (BIM) szempontjából – az Ábtv. 7. §-ában foglaltak alapján – a következő szakaszokból állnak: a) előkészítési szakasz, aa) első ütemeként a programozási előkészítési szakasz, ab) második ütemeként a megvalósítási előkészítési szakasz, b) megvalósítási szakasz, c) üzemeltetési szakasz és d) bontási szakasz."
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. § (1) Az építményinformációs modell (BIM) digitális folytonosságának biztosítása a) az előkészítési és a megvalósítási szakaszban a létesítmény építtetőjének, b) az üzemeltetési és a bontási szakaszban a létesítmény tulajdonosának vagy a létesítmény tulajdonosának, illetve fenntartójának megbízásából a létesítmény üzemeltetőjének a feladata. (2) Az (1) bekezdés szerinti feladat közvetlenül vagy közreműködő bevonásával is ellátható. (3) Az építményinformációs modell (BIM) tartalmi részletezettségét a megrendelő az információcsere követelmények (EIR) dokumentumban szabályozza."
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14. §",
+      "content": "14. § (1) A digitális folytonosság biztosítása érdekében a létesítmények teljes életciklusa során az építményinformációs modellt (BIM) karban kell tartani, és arról biztonsági mentést kell készíteni az információcsere követelmények (EIR) dokumentumban meghatározott formában és részletezettségben. (2) Az építményinformációs modell (BIM) karbantartásáért a) az építtető megbízásából aa) az előkészítési szakaszban a tervező, ab) a megvalósítási szakaszban a vállalkozó kivitelező, b) a tulajdonos, vagyonkezelő vagy fenntartó megbízásából ba) az üzemeltetési szakaszban az üzemeltető, illetve fenntartó, bb) a bontási szakaszban a vállalkozó kivitelező felel. (3) Az építményinformációs modellről (BIM) biztonsági mentést kell készíteni, az információcsere követelmények (EIR) dokumentumban meghatározott tartalommal a) az előkészítési szakaszban aa) az építési engedélyezési eljárás megindítása során rögzített állapot alapján, valamint ab) az építőipari kivitelezési tevékenységre szóló kivitelezési ajánlatra vonatkozó közbeszerzési eljárás megindítása során rögzített állapot alapján, b) a megvalósítási szakaszban ba) a kivitelezésre vonatkozó közbeszerzési eljárás megindítása során rögzített állapot alapján, bb) a műszaki átadás-átvételi eljárás lezárása során rögzített állapot alapján, valamint c) az üzemeltetési szakaszban minden üzemeltetési év december 31-i állapotát rögzítendően a tárgyévet követő március 15-ig. (4) A (3) bekezdés szerint készített biztonsági mentés során létrehozott adatállomány felett a) a (3) bekezdés a) és b) pontja esetében az építtető, b) a (3) bekezdés c) pontja esetében a tulajdonos, illetve tulajdonosi joggyakorló teljeskörűen rendelkezik."
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15. §",
+      "content": "15. § (1) A biztonsági mentésnek magában kell foglalnia minden, a létesítmény megvalósítása, üzemeltetése és bontása szempontjából lényeges információt. (2) A biztonsági mentésnek tartalmaznia kell minden olyan fájlt, amely az adatvesztés nélküli felhasználást biztosítani tudja."
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16. §",
+      "content": "16. § Az építményinformációs modell (BIM) felépítésének szintjeit, tartalmi elemeit a miniszter a kormányzati beruházási portálon közzéteszi, azzal, hogy biztosítani kell a módosítások visszakereshetőségét."
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17. §",
+      "content": "17. § A létesítmény életciklusához kapcsolódó előkészítési folyamat során a) a megbízó elkészíti az információcsere követelmények (EIR) dokumentációt a kivitelezésre irányuló közbeszerzési dokumentáció részeként, b) a vállalkozó kivitelező magasépítési beruházások esetén elkészíti az előzetes BIM végrehajtási terv (pre-BEP) dokumentációt a közbeszerzési dokumentációban foglalt részletezettségnek megfelelően, bemutatva, hogyan tudja teljesíteni a megrendelői elvárásokat, c) a vállalkozó kivitelező elkészíti a végleges BIM végrehajtási terv (BEP) dokumentációt az előzetes BIM végrehajtási terv (pre-BEP) alapján, a kivitelezési szerződés hatálybalépését követően."
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18. §",
+      "content": "18. § (1) A megbízó az 1. melléklet szerinti szerkezet alapján elkészített információcsere követelmények (EIR) dokumentáció alapján meghatározza a) a projektinformációkat, a szerződés tárgyát képező létesítmény egészét, részét és elemeit, b) az építményinformációs modell (BIM) felhasználási céljait, a szerződés teljesítése során alkalmazott felhasználási eseteket, c) az építményinformációs modell (BIM) felépítését, az építményinformációs modell (BIM) átlagos fejlettségi, részletezettségi és pontossági szintjeit a teljes modellre és a részmodellekre vonatkozóan, a hozzájuk tartozó megbízói követelményekkel, valamint a lekérdezési lehetőségekkel, d) az együttműködés rendszerét, a szerződés teljesítése érdekében elvárt vállalkozói magatartást, e) a minőségbiztosítás követelményeit, f) a közös adatkörnyezettel (CDE) kapcsolatos elvárásokat, g) a BIM végrehajtási tervre (BEP) vonatkozó követelményeket, valamint h) minden egyéb információt, amelyre a vállalkozónak az ajánlat összeállítás érdekében szüksége van az építményinformációs modell (BIM) kialakításával kapcsolatosan. (2) A felhasználási eseteket a 2. melléklet alapján az információcsere követelmények (EIR) dokumentumban kell meghatározni. (3) Az információcsere követelmények (EIR) dokumentumok sablonjait – építmény-, illetve létesítménytípusonként – a kormányzati beruházási portálon közzé kell tenni, azzal, hogy biztosítani kell a módosítások visszakereshetőségét."
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19. §",
+      "content": "19. §"
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20. §",
+      "content": "20. § (1) A tervező és vállalkozó kivitelező szerződésszerű teljesítése csak az építményinformációs modell (BIM) – az információcsere követelmények (EIR) dokumentációban meghatározott részletezettségű és tartalmú – további felhasználásra alkalmas teljes adatállomány átadása esetén fogadható el. (2) Az (1) bekezdés szerinti teljes adatállományt a) az eredeti fájlformátumból készített IFC fájlformátumban mentett modell, b) a BCF nyílt adatcsere formátumban mentett projekt a kapcsolódó metaadat-információk és c) az eredeti natív fájlformátumokban rögzített modell és az egységes adatkörnyezetben tárolt további, az információcsere követelmények (EIR) dokumentumban meghatározott adatok és információk átadásával kell teljesíteni."
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21. §",
+      "content": "21. § (1) Ez a rendelet – a (2) bekezdésben foglalt kivétellel – a kihirdetését követő harmincadik napon lép hatályba. (2) A 19. § 2028. július 1-jén lép hatályba."
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22. §",
+      "content": "22. § (1) A 4. §-ban és a 8. § (1) bekezdésében foglalt rendelkezéseket a) magasépítés és útépítés vonatkozásában az e rendelet hatálybalépését, b) vasútépítés vonatkozásában a 2026. július 1-jét, c) vízépítés vonatkozásában a 2027. július 1-jét, d) közműépítés vonatkozásában a 2028. július 1-jét követően indult tervezésre irányuló beszerzési, valamint közbeszerzési eljárások esetében kell alkalmazni. (2) Az e rendelet hatálybalépésekor a magyar állam tulajdonában álló és építményinformációs modellel (BIM) nem rendelkező létesítmények esetén a 15. § (2) bekezdését azzal az eltéréssel kell alkalmazni, hogy az építményinformációs modellt (BIM) legkésőbb 2035. december 31-ig kell létrehozni. 1. Projektinformációk 1.1. BIM modell lehatárolása, a részmodellek és modell elemek definiálása 1.2. Megosztott dokumentumok 1.3. Alkalmazott műszaki szabályozási dokumentumok 1.4. Üzemeltetésre vonatkozó elvárások és követelmények előzetes meghatározása 1.5. Szerepek és felelősségi körök 2. Modell felhasználási céljai – A felhasználási esetek meghatározása (A 2. mellékletben meghatározott esetek leírásával) 3. BIM modell felépítése 3.1. A BIM modellre – ideértve az összetett információs modellre, a főmodellre, a koordinációs modellre, a részmodellekre, a szakági modellekre és a modell elemekre, illetve a szakági modellek és egyesített modellre – vonatkozó specifikáció, az átlagos fejlettségi szintek és a pontossági szintek meghatározása 3.2. Modellegyesítés, a részmodellek kapcsolata a főmodellel – a szakági modellek és az egyesített modell összekapcsolásának feltételrendszere 3.3. Koordináta-rendszer 3.4. Fájlrendszer nevezéktana 3.5. Rajzi megjelenítés sablonkészlete – egységes rajzi megjelenítés részletei 4. Együttműködés rendszere 4.1. Kooperációk 4.2. Mérföldkövek 4.3. BIM modell átadása 4.4. Adatbiztonság 4.5. Kivitelezéssel kapcsolatos elvárások részletezése, különösen modellkezelés, hibalisták, kapcsolódó dokumentációk kezelése 4.6. Üzemeltetéssel kapcsolatos elvárások részletezése 5. Minőségbiztosítás követelményei 5.1. Munkaközi értékelés és jóváhagyás 5.2. BIM modell ellenőrzése 5.3. Ütközésvizsgálatok 5.4. Jelentések 6. Számítástechnikai környezet 6.1. Közös adatkörnyezet (CDE) 6.2. Hardverigény 6.3. Szoftverigény 6.4. Alkalmazandó fájlformátumok 7. BIM végrehajtási tervre (BEP) vonatkozó követelmények – A megbízói elvárások 8. Egyéb projektspecifikus elemek 1. Általános BIM felhasználási esetek A B 1. Kód Felhasználási eset megnevezése 2. 010 Meglévő állapot és környezet rögzítése 3. 020 Tervváltozatok vizsgálata 4. 030 Vizualizáció 5. 040 Méretezés és ellenőrzés 6. 050 Szakágak koordinációja 7. 060 Tervezés előrehaladásának felügyelete 8. 070 Koncepció- és tanulmányterv, valamint engedélyezési és kiviteli dokumentáció előállítása 9. 080 Munka- és egészségvédelmi tervezés és ellenőrzés 10. 090 Tervjóváhagyások 11. 100 Költségbecslés és költségszámítás 12. 110 Tenderkiírás 13. 120 Kivitelezés ütemtervezése 14. 130 Organizációs terv előállítása 15. 140 Kivitelezéshez kapcsolódó részletterv előállítása 16. 150 Kivitelezés előrehaladásának követése 17. 160 Változáskövetés tervváltozatok esetén 18. 170 Építőipari kivitelezési tevékenység teljesítésének elszámolása 19. 180 Hibakövetés 20. 190 Megvalósulási dokumentáció előállítása 21. 200 Üzemeltetés és karbantartás 22. 210 Gépvezérlés 23. 220 Jogérvényesítésre vonatkozó modell alapú megfelelés 2. További BIM felhasználási esetek a magasépítési állami építési beruházásokra A B 1. Kód Felhasználási eset megnevezése 2. 230 Energetikai vizsgálatok, különböző szimulációk és karbonlábnyom-vizsgálat 3. 240 ESG szempontok szerinti vizsgálatok 4. 250 Fenntarthatósági szempontok vizsgálata és elemzése 1 A 3. § 13. pontja a 47/2025. (XII. 29.) ÉKM rendelet 15. §-a szerint módosított szöveg. 2 A 19. § a 21. § (2) bekezdése alapján 2028. július 1-jén lép hatályba."
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "id": "hu-law-2008-27-20-1u",
+  "type": "statute",
+  "title": "27/2008. (XII. 10.) IRM rendelet az elektronikus árverési rendszer informatikai alkalmazásának működtetésére vonatkozó részletes szabályokról",
+  "status": "repealed",
+  "in_force_date": "2008-12-18",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2008-27-20-1U",
+  "description": "az elektronikus árverési rendszer informatikai alkalmazásának működtetésére vonatkozó részletes szabályokról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "chapter": "I. Fejezet - ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § E rendelet alkalmazásában: a) informatikai alkalmazás: az elektronikus árverési rendszert támogató szoftver; b) felhasználó: az, aki az elektronikus árverési rendszer nyilvántartásaiba betekint vagy az informatikai alkalmazás útján műveletet hajt végre; c) végrehajtó: hivatali elektronikus aláírás használatára jogosult önálló bírósági végrehajtó, önálló bírósági végrehajtó-helyettes, törvényszéki végrehajtó és törvényszéki végrehajtó-helyettes; d) e) árverező: az árverezők elektronikus nyilvántartásában szereplő felhasználó; f) nem regisztrált felhasználó: a c)–e) pontok hatálya alá nem tartozó felhasználó; g) licitnapló: az elektronikus árverési rendszerben közzétett valamennyi vételi ajánlat adatait tartalmazó adatsorok összessége; h) árverés befejezése: elektronikus ingóárverés esetén az árverési hirdetmény elektronikus árverési hirdetmények nyilvántartásában való közzétételét követő 30. napnak, ingatlanárverés esetén az árverési hirdetmény elektronikus árverési hirdetmények nyilvántartásában való közzétételét követő 60. napnak, ingatlan átvételi eljárás esetén az átvételi hirdetmény elektronikus árverési hirdetmények nyilvántartásában való közzétételét követő 15. napnak, a bírósági végrehajtásról szóló 1994. évi LIII. törvény (a továbbiakban: Vht.) 159. § (4) bekezdése alapján indult ingatlanárverés esetén az árverési hirdetmény elektronikus árverési hirdetmények nyilvántartásában való közzétételét követő 30. napnak (ha az nem munkanap, akkor a következő munkanapnak) az árverési hirdetményben megjelölt órája (óra, perc); i) üzemzavar: az elektronikus árverési rendszer tartós vagy átmeneti meghibásodása vagy ezt eredményező egyéb technikai problémája, ami a szolgáltatásainak igénybevételét korlátozza vagy lehetetlenné teszi; j) üzemszerű karbantartás: az elektronikus árverési rendszer tervszerű és rendkívüli esetekben végzett, előzetes tájékoztatás alapján, előre meghatározott időtartamig tartó karbantartása, ami alatt a rendszer szolgáltatásai nem érhetők el."
+    },
+    {
+      "provision_ref": "s2",
+      "chapter": "I. Fejezet - ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § A Magyar Bírósági Végrehajtói Kar (a továbbiakban: Kar) az informatikai alkalmazás üzemeltetésére szerződést köthet."
+    },
+    {
+      "provision_ref": "s3",
+      "chapter": "I. Fejezet - ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § Az adatvédelemre vonatkozó jogszabályok betartásán túl az informatikai alkalmazás üzemeltetésével megbízott személyek az e tevékenységük végzése során tudomásukra jutott, az informatikai alkalmazással kapcsolatos adatok tekintetében titoktartásra is kötelesek. A titoktartási kötelezettség a munkaviszony, illetve a munkavégzésre irányuló egyéb jogviszony megszűnését követően is fennmarad."
+    },
+    {
+      "provision_ref": "s4",
+      "chapter": "I. Fejezet - ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § Az informatikai alkalmazást a Kar 2009. január 1-jétől – kivéve az üzemszerű karbantartás időszakát – folyamatosan elérhetővé teszi az interneten; e célból a Kar honlapot üzemeltet."
+    },
+    {
+      "provision_ref": "s5",
+      "chapter": "I. Fejezet - ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § (1) Az informatikai alkalmazás üzemszerű karbantartási idejéről a Kar az elektronikus árverési rendszer felületén előzetesen és a karbantartás ideje alatt tájékoztatást ad. (2) Az üzemzavarról az (1) bekezdésben foglaltak megfelelő alkalmazásával kell tájékoztatást adni."
+    },
+    {
+      "provision_ref": "s6",
+      "chapter": "I. Fejezet - ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § Az informatikai alkalmazásnak lehetővé kell tennie az adatkeresési eredmények találati listájának, valamint a rendszerüzeneteknek a megtekintését és kinyomtatását."
+    },
+    {
+      "provision_ref": "s6a",
+      "chapter": "I. Fejezet - ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "6/A",
+      "title": "6/A. §",
+      "content": "6/A. § (1) A Szabályozott Tevékenységek Felügyeleti Hatósága elnöke az informatikai alkalmazás működtetésével kapcsolatban ellátja a szabályozott elektronikus ügyintézési szolgáltatásokról és az állam által kötelezően nyújtandó szolgáltatásokról szóló 83/2012. (IV. 21.) Korm. rendelet (a továbbiakban: kormányrendelet) 12. § (2) bekezdés a)–e) és g)–i) pontjában meghatározott feladatokat. (2)"
+    },
+    {
+      "provision_ref": "s7",
+      "chapter": "I. Fejezet - ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § Az informatikai alkalmazás létrehozásának és működtetésének, valamint az informatikai alkalmazás útján kezelt adatok megőrzésének költségeit a Kar viseli."
+    },
+    {
+      "provision_ref": "s8",
+      "chapter": "I. Fejezet - ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § A Kar a felhasználók számára az informatikai alkalmazás használatának elősegítésére az elektronikus árverési rendszer felületén folyamatosan működtet elektronikus úton elérhető szakmai és technikai segítségnyújtó szolgáltatást."
+    },
+    {
+      "provision_ref": "s9",
+      "chapter": "I. Fejezet - ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § (1) A Kar az elektronikus árverési rendszer működésének és árverezőként történő használatának feltételeit szabályzatban (a továbbiakban: felhasználási szabályzat) állapítja meg. (2) A felhasználási szabályzat kötelező tartalmi elemei a következők: a) a felhasználási szabályzat és a módosítása felhasználó által történő elfogadásának módja; b) az oldalfrissítés beállításának módja; c) tájékoztató az elektronikus árverési rendszer árverezők számára nyújtott szolgáltatásairól és az egyes szolgáltatások igénybe vételének módjáról; d) az elektronikus árverési rendszer üzemszerű karbantartási idejének és az erről szóló tájékoztatásnak a módja; e) az árverezők elektronikus nyilvántartásába történő bejegyzés eljárása tekintetében ea) az eljárás helye, eb) a bejegyzéshez szükséges adatok igazolása, ec) a bejegyzési díj megfizetésének módja, ed) a felhasználói név, a jelszó és az egyedi azonosító képzése; f) az árverezők elektronikus nyilvántartásából történő törlés eljárása tekintetében az ea) és eb) alpontban foglaltak; g) az árverezők elektronikus nyilvántartásában szereplő adatok megváltoztatása tekintetében ga) az ea)–ec) alpontban foglaltak, gb) a jelszó elvesztése esetén követendő eljárás; h) a felhasználói név és jelszó aktiválásának módja; i) tájékoztatás az árverező adatainak kezeléséről (adatok köre, kezelésük időtartama, adatok továbbítása, adatkezelő); j) az elektronikus árverési rendszerhez tartozó, a felhasználók rendelkezésére álló szakmai és technikai segítségnyújtó szolgáltatás tartalma."
+    },
+    {
+      "provision_ref": "s10",
+      "chapter": "I. Fejezet - ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § (1) A felhasználási szabályzatot és annak módosítását a Kar a felhasználók számára közzéteszi az elektronikus árverési rendszer felületén; az a közzététel napjától alkalmazható. (2) Az árverező a felhasználási szabályzat módosításának közzétételét követően az informatikai alkalmazás útján műveletet csak azt követően végezhet, hogy a felhasználási szabályzat módosítását – az elektronikus árverési rendszer felületén, erre szolgáló művelet elvégzésével – elfogadta."
+    },
+    {
+      "provision_ref": "s11",
+      "chapter": "I. Fejezet - ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § Az informatikai alkalmazást úgy kell kialakítani, hogy a nem regisztrált felhasználók az elektronikus árverési rendszer következő szolgáltatásait vehessék igénybe: a) felhasználási szabályzat megtekintése, b) általános rendszerüzenetek megtekintése, c) betekintés az árverési hirdetmények nyilvántartásába, d) licitnaplók megtekintése."
+    },
+    {
+      "provision_ref": "s12",
+      "chapter": "I. Fejezet - ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. § (1) A végrehajtó felhasználói nevének és jelszavának megadásával, valamint hivatali elektronikus aláírása autentikációs tanúsítványának használatával veheti igénybe az elektronikus árverési rendszer végrehajtók részére nyújtott szolgáltatásait. (2) A Kar a végrehajtókat a hivatalba lépésüket követően ellátja az informatikai alkalmazás használatához szükséges felhasználói névvel és jelszóval; törvényszéki végrehajtó és végrehajtó-helyettes esetében az ehhez szükséges adatokat a törvényszék elnöke juttatja el a Karnak."
+    },
+    {
+      "provision_ref": "s13",
+      "chapter": "I. Fejezet - ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. § (1) Az informatikai alkalmazást úgy kell kialakítani, hogy az – a nem regisztrált felhasználók számára elérhető szolgáltatásokon túl – a következő műveletek elvégzését tegye lehetővé a végrehajtó számára: a) jelszó megváltoztatása; b) betekintés és bejegyzés (módosítás, törlés) az árverezők elektronikus nyilvántartásába; c) árverési hirdetmény közzététele; d) hagyományos ingóárverés hirdetményének, a 21. § (1) bekezdés d) pontja szerinti ingatlanárverési hirdetménynek, a sikertelen ingatlanárverés hirdetményének, valamint az ingatlanok folyamatos árverezése iránti hirdetménynek a törlése; e) az árverező felhasználói nevének és jelszavának aktiválása (aktiválás iránti kérelem elutasítása, aktiválás megszüntetése) meghatározott árverésen történő licitáláshoz; f) licitnapló megtekintése és kinyomtatása; g) licitnapló lezárása [a Vht. 132/F. § (7) bekezdés, ingatlanárverés esetében a 142. § folytán alkalmazandó 132/F. § (7) bekezdés]; h) azon tény rögzítése, hogy az árverező meghatározott árverésre vonatkozóan az előárverezésre való jogosultságát a végrehajtónál igazolta, i) árverési vevő felhívása az árverési jegyzőkönyv aláírására és az árverési vételár kifizetésére; j) a licitnaplóban szereplő árverezőknek az árverezők elektronikus nyilvántartásában szereplő adatait tartalmazó elektronikus adatlap megtekintése és kinyomtatása; k) műveletek elvégzéséről szóló rendszerüzenetek megtekintése, valamint az árverezők e rendeletben meghatározott kérelmeinek rendszerüzenetként történő megtekintése és kinyomtatása. (2) Az informatikai alkalmazást úgy kell kialakítani, hogy az a) az (1) bekezdés d)–j) pontjában foglalt műveletek elvégzését – a kirendelt helyettes kivételével – csak azon árverés tekintetében tegye lehetővé a végrehajtó számára, amelynek hirdetményét a végrehajtó (vagy helyettese) tett közzé; b) az e rendeletben meghatározott egyes rendszerüzeneteket, továbbá a jelszó megváltoztatásáról szóló értesítést elektronikus levélben is megküldje a végrehajtó elektronikus levélcímére; c) a végrehajtói állásra kirendelt helyettes számára a helyettesített vagy az álláshelyen korábban működő végrehajtó által közzétett árverések tekintetében is biztosítsa az (1) bekezdés d)–j) pontjaiban foglalt műveletek elvégzését, továbbá a helyettesnek is küldje meg a végrehajtó részére szóló rendszerüzeneteket és elektronikus leveleket. (3) A rendszerüzenetek a végrehajtó részére az elektronikus árverési rendszerben történő közzétételüket követő munkanapon kézbesítettnek tekintendők."
+    },
+    {
+      "provision_ref": "s14",
+      "chapter": "I. Fejezet - ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "14",
+      "title": "14. §",
+      "content": "14. § Az árverező felhasználói nevének és jelszavának megadásával veheti igénybe az elektronikus árverési rendszer árverezők részére nyújtott szolgáltatásait."
+    },
+    {
+      "provision_ref": "s15",
+      "chapter": "I. Fejezet - ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "15",
+      "title": "15. §",
+      "content": "15. § Az informatikai alkalmazást úgy kell kialakítani, hogy az – a nem regisztrált felhasználók számára elérhető szolgáltatásokon túl – a következő műveletek elvégzését tegye lehetővé az árverezők számára: a) felhasználási szabályzat módosításának elfogadása; b) jelszó, egyedi azonosító és elektronikus levélcím megváltoztatása; c) felhasználói név és jelszó aktiválása iránti kérelem előterjesztése; d) rendszerüzenetek megtekintése."
+    },
+    {
+      "provision_ref": "s16",
+      "chapter": "I. Fejezet - ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "16",
+      "title": "16. §",
+      "content": "16. § Az informatikai alkalmazást úgy kell kialakítani, hogy az – a nem regisztrált felhasználók számára és az árverezők számára elérhető szolgáltatásokon túl – a következő műveletek elvégzését tegye lehetővé az aktivált felhasználói nevüket és jelszavukat megadó árverezők számára az aktiválással érintett árverések tekintetében: a) b) vételi ajánlat megtétele és vételi ajánlat megerősítése, c) árverési előleg visszautalása iránti kérelem előterjesztése, d) rendszerüzenet megtekintése."
+    },
+    {
+      "provision_ref": "s17",
+      "chapter": "I. Fejezet - ÁLTALÁNOS RENDELKEZÉSEK",
+      "section": "17",
+      "title": "17. §",
+      "content": "17. § (1) Az informatikai alkalmazást úgy kell kialakítani, hogy az e rendeletben meghatározott egyes, az elektronikus árverési rendszer útján közölt értesítéseket, felhívásokat, rendszerüzeneteket elektronikus levélben is megküldje az árverező elektronikus levelezési címére. (2) Az (1) bekezdés szerinti értesítések, felhívások és rendszerüzenetek az elektronikus árverési rendszerben történő közzétételüket követő munkanapon az árverezőnek kézbesítettnek tekintendők."
+    },
+    {
+      "provision_ref": "s18",
+      "chapter": "II. Fejezet - AZ ÁRVEREZŐK ELEKTRONIKUS NYILVÁNTARTÁSA",
+      "section": "18",
+      "title": "18. §",
+      "content": "18. § (1) Az árverezők elektronikus nyilvántartásába (a továbbiakban e fejezetben: nyilvántartás) – a (2) bekezdésben foglalt kivétellel – adatot végrehajtó jegyezhet be (módosíthat). (2) Az árverező az informatikai alkalmazás árverezőként történő használatához szükséges jelszavát, egyedi azonosítóját és elektronikus levelezési címét az elektronikus árverési rendszer felületén közvetlenül módosíthatja; melyről elektronikus levélben kap értesítést."
+    },
+    {
+      "provision_ref": "s19",
+      "chapter": "II. Fejezet - AZ ÁRVEREZŐK ELEKTRONIKUS NYILVÁNTARTÁSA",
+      "section": "19",
+      "title": "19. §",
+      "content": "19. § (1) A bejegyzés egy erre szolgáló, a nyilvántartásból a végrehajtó számára letölthető elektronikus adatlap kitöltésével és az elektronikus árverési rendszer részére történő elküldésével történik. (2) Az informatikai alkalmazást úgy kell kialakítani, hogy a) ha az adatlap tartalmazza a Vht. 132/E. § (2) bekezdés a) vagy b) és d)–f) pontjaiban foglalt adatokat, az arról szóló nyilatkozatot, hogy az árverező a Vht. 123. § (2) bekezdés a) vagy b) pontja szerinti személy vagy szervezet-e, továbbá együttes árverezők esetében a tulajdonszerzési arányt, illetve módosítás esetén a módosított adatokat, az árverező adatait automatikusan rögzítse a nyilvántartásban; b) hiányosan kitöltött adatlap alapján vagy a nyilvántartásban már szereplő árverező esetében ne rögzítsen adatot a nyilvántartásban; erről a hiányosság vagy a nyilvántartásban szereplés tényének megjelölésével hibaüzenetet küldjön a végrehajtó részére; c) az adatlap alapján a nyilvántartásba bejegyzett adatsort a rögzítés sorrendjében folyamatos, utólag meg nem változtatható sorszámmal, az adatok módosítása és törlése esetén pedig a sorszámhoz kapcsolódó, folyamatos számozású alszámmal lássa el; d) biztosítsa a nyilvántartásban az árverezők neve és személyazonosító adatai alapján történő keresés lehetőségét; e) biztosítsa a nyilvántartásban szereplő adatokról az árverező adatait, valamint a bejegyző (módosító, törlő) végrehajtó nevét, székhelyét és a bejegyzés időpontját tartalmazó kivonat kinyomtatásának lehetőségét."
+    },
+    {
+      "provision_ref": "s20",
+      "chapter": "II. Fejezet - AZ ÁRVEREZŐK ELEKTRONIKUS NYILVÁNTARTÁSA",
+      "section": "20",
+      "title": "20. §",
+      "content": "20. § (1) A nyilvántartásból történő törlés egy erre szolgáló, a nyilvántartásból a végrehajtók számára letölthető elektronikus adatlap kitöltésével történik. (2) Az informatikai alkalmazást úgy kell kialakítani, hogy a) az árverező nevével és személyazonosító adataival kitöltött adatlap alapján – kivéve a b) pontban foglalt esetet – az árverező adatait automatikusan törölje a nyilvántartásból; b) ne törölje az árverező adatait a nyilvántartásból mindaddig, amíg közzétett ajánlata van az árverezőnek; erről küldjön rendszerüzenetet a végrehajtó részére; c) a törlésről szóló értesítést elektronikus levélben küldje meg az árverező elektronikus levélcímére."
+    },
+    {
+      "provision_ref": "s21",
+      "chapter": "III. Fejezet - ELEKTRONIKUS ÁRVERÉSI HIRDETMÉNYEK NYILVÁNTARTÁSA",
+      "section": "21",
+      "title": "21. §",
+      "content": "21. § (1) Az elektronikus árverési hirdetmények nyilvántartása (a továbbiakban e fejezetben: nyilvántartás) tartalmazza a) a hagyományos ingóárverések hirdetményeinek [Vht. 122. § (4) bekezdés], b) az elektronikus ingóárverések [Vht. 132/D. § (1) bekezdés] hirdetményeinek, c) az ingatlanárverések [Vht. 145/A. §, valamint 159. § (4) és (5) bekezdés] hirdetményeinek, d) a Vht. 305. § (4) bekezdése szerinti, 2009. január 1-je előtt lefoglalt ingatlanok 2012. július 1-je és 2012. augusztus 31-e között készített árverési hirdetményeinek, e) a sikertelen ingatlanárverések hirdetményeinek [Vht. 155. § (2) bekezdés], f) az ingatlan átvételi eljárások hirdetményeinek [Vht. 158. § (3) bekezdés] és g) az ingatlanok folyamatos árverezése iránti, a Vht. 159. § (1) bekezdése szerinti hirdetményeknek [az a)–g) pontban foglaltak a továbbiakban együtt: árverési hirdetmény] adatait. (2) Az informatikai alkalmazást úgy kell kialakítani, hogy az erre szolgáló elektronikus adatlap kitöltésével egyidejűleg – a közzététel időpontjával kiegészítve – automatikusan közzétegye a nyilvántartásban a Vht. 143. § (2) bekezdése szerinti általános tájékoztatást."
+    },
+    {
+      "provision_ref": "s22",
+      "chapter": "III. Fejezet - ELEKTRONIKUS ÁRVERÉSI HIRDETMÉNYEK NYILVÁNTARTÁSA",
+      "section": "22",
+      "title": "22. §",
+      "content": "22. § (1) A nyilvántartásba történő bejegyzés a végrehajtók által az elektronikus árverési rendszer felületén kitölthető elektronikus adatlap kitöltésével és az árverési hirdetmény elektronikus formátumban (pdf formátum) való feltöltésével történik. (2) Az informatikai alkalmazást úgy kell kialakítani, hogy a) ha a bejegyzésre szolgáló elektronikus adatlap tartalmazza a kötelezően megadandó adatokat, és ahhoz csatolták az árverési hirdetmény elektronikus változatát, a hirdetmény adatait – a közzététel időpontjával kiegészítve – automatikusan közzétegye a nyilvántartásban, a hirdetmény elektronikus változatát pedig letölthetővé tegye a nyilvántartásból; b) hiányosan kitöltött adatlap alapján és az árverési hirdetmény elektronikus változatának feltöltése hiányában ne rögzítsen adatot a nyilvántartásban; erről a hiányosság megjelölésével hibaüzenetet küldjön a végrehajtó részére; c) az adatlaphoz csatolható, s a felhasználók által megtekinthető legyen a nyilvántartásban az árverésre kerülő vagyontárgyat ábrázoló legalább két darab digitális fénykép. (3) Az informatikai alkalmazást úgy kell kialakítani, hogy a Vht. 155. § (1) bekezdés a) pontjában foglalt okból sikertelen árverés esetében a Vht. 155. § (2) bekezdésben foglalt adatokat – az eredetileg közzétett hirdetmény és a hozzá tartozó adatlap és ahhoz csatolt fénykép alapján, a közzététel időpontjával kiegészítve – a licitnapló lezárásával egyidejűleg automatikusan tegye közzé a nyilvántartásban. (4) Az ingatlan átvételi eljárás hirdetményének közzétételére az (1) és (2) bekezdésben foglalt rendelkezéseket kell alkalmazni. (5) Az ingatlan folyamatos árverezése iránti hirdetménynek a nyilvántartásba történő bejegyzéséhez – a (2) bekezdés a) és c) pontjában foglalt műveletek elvégzése helyett – a végrehajtó automatikus hirdetmény-készítési műveletet is igénybe vehet. Ennek érdekében az informatikai alkalmazást úgy kell kialakítani, hogy a bejegyzésre szolgáló adatlap kitöltésével egyidejűleg automatikusan generálja és tegye közzé a hirdetményt a korábban kitöltött adatlapnak és árverési hirdetménynek a Vht. 143. § (1) bekezdés a)–h) és j) pontjában foglalt adataiból és az adatlaphoz automatikusan csatolja a korábban csatolt digitális fényképeket."
+    },
+    {
+      "provision_ref": "s23",
+      "chapter": "III. Fejezet - ELEKTRONIKUS ÁRVERÉSI HIRDETMÉNYEK NYILVÁNTARTÁSA",
+      "section": "23",
+      "title": "23. §",
+      "content": "23. § Az informatikai alkalmazást úgy kell kialakítani, hogy a felhasználók számára biztosított legyen a hirdetmények közötti keresés legalább következő szűkítési feltételek megadásával: a) hagyományos ingóárverések hirdetményei, b) elektronikus ingóárverések hirdetményei, c) ingatlanárverések hirdetményei, d) sikertelen ingatlanárverések hirdetményei, e) ingatlan átvételi eljárások hirdetményei, f) az ingatlanok folyamatos árverezése iránti hirdetmények, g) a 21. § (1) bekezdés c) és e)–g) pontjai szerinti ingatlanárverések hirdetményei az ingatlanok kikiáltási ára alapján, h) a 21. § (1) bekezdés c) és e)–g) pontjai szerinti ingatlanárverések hirdetményei az ingatlanok földrajzi fekvése alapján, i) árverések hirdetményei, melyeken a lekérdezés időpontjában elektronikus vételi ajánlat tehető és amelyek esetében a licitnapló lezárásra került, j) a 21. § (1) bekezdés d) pontja szerinti ingatlanárverések hirdetményei között az ügyszám és az árverés napja alapján."
+    },
+    {
+      "provision_ref": "s24",
+      "chapter": "III. Fejezet - ELEKTRONIKUS ÁRVERÉSI HIRDETMÉNYEK NYILVÁNTARTÁSA",
+      "section": "24",
+      "title": "24. §",
+      "content": "24. § Az informatikai alkalmazást úgy kell kialakítani, hogy az árverési hirdetményt a) hagyományos ingóárverés esetén az árverés napját követő napon vagy azt megelőzően a végrehajtó intézkedésére, b) elektronikus ingóárverés esetén a licitnapló lezárását követő 30. napon, c) ingatlanárverés és ingatlan átvételi eljárás esetén a licitnapló lezárását követő 30. napon, d) a 21. § d) pont szerinti ingatlan árverés napját követő napon vagy azt megelőzően a végrehajtó intézkedésére, e) sikertelen ingatlanárverés hirdetménye esetében a második árverés hirdetményének a nyilvántartásban történő közzétételével egyidejűleg vagy azt megelőzően a végrehajtó intézkedésére, f) az ingatlanok folyamatos árverezése iránti hirdetmény esetében a Vht. 159. § (4) vagy (5) bekezdés szerinti árverés hirdetményének a nyilvántartásban történő közzétételével egyidejűleg vagy azt megelőzően a végrehajtó intézkedésére automatikusan törölje a nyilvántartásból."
+    },
+    {
+      "provision_ref": "s25",
+      "chapter": "IV. Fejezet - LICITÁLÁS AZ ELEKTRONIKUS ÁRVERÉSI RENDSZERBEN",
+      "section": "25",
+      "title": "25. §",
+      "content": "25. § (1) Az árverező a felhasználói nevének és jelszavának meghatározott árverés tekintetében történő aktiválását az elektronikus árverési rendszer felületén – az árverés befejezését megelőzően legalább 3 munkanappal – kérheti, melynek során nyilatkoznia kell arról, hogy az árverési előleget befizette és nem minősül az árverésből kizárt személynek. (2) Az informatikai alkalmazást úgy kell kialakítani, hogy akkor legyen mód az előárverezési jog gyakorlására vonatkozó aktiválási kérelem elküldésére, ha a végrehajtó rögzítette az elektronikus árverési rendszerben annak tényét, hogy az árverező ezen árverésre vonatkozóan az előárverezésre való jogosultság feltételeit a végrehajtónál igazolta. (3) Az informatikai alkalmazást úgy kell kialakítani, hogy a kérelmet a hirdetményt közzétevő végrehajtó rendszerüzeneteként megjelenítse és azt elektronikus levélben is megküldje a végrehajtónak, továbbá erről küldjön rendszerüzenetet az árverező számára is. (4) A felhasználói név és jelszó ingatlan átvételi eljárás tekintetében történő aktiválása iránti kérelem előterjesztésére az (1)–(3) bekezdésben foglalt rendelkezéseket kell alkalmazni azzal, hogy az árverési előleg megfizetéséről a kérelemben nyilatkozni nem kell. (5) A felhasználói név és jelszó ingatlan folyamatos árverezése tekintetében történő aktiválása iránti kérelem előterjesztésére az (1)–(3) bekezdésben foglalt rendelkezéseket kell alkalmazni azzal, hogy egyidejűleg a vételi ajánlatot is meg kell tenni és ennek érdekében a kérelem előterjesztésére szolgáló adatlapon a vételi ajánlat összegét is meg kell jelölni. A végrehajtó az aktiválási kérelmet – az aktiváláshoz szükséges egyéb feltételek fennállása esetén – az elektronikus árverési rendszerben közzétehető összegű vételi ajánlat tétele esetén teljesítheti; az aktiválással egyidejűleg pedig intézkedik az ingatlanárverési hirdetménynek a Vht. 159. § (4) bekezdése szerinti közzététele iránt."
+    },
+    {
+      "provision_ref": "s26",
+      "chapter": "IV. Fejezet - LICITÁLÁS AZ ELEKTRONIKUS ÁRVERÉSI RENDSZERBEN",
+      "section": "26",
+      "title": "26. §",
+      "content": "26. § (1) A végrehajtó a kérelem alapján az árverező felhasználói nevét és jelszavát – az egyéb, Vht.-ban foglalt feltételek fennállása esetén – az árverési előleg befizetését követően haladéktalanul, átutalása esetén pedig legkésőbb a kérelemről szóló rendszerüzenet kézbesítését követő munkanapon aktiválja, a feltételek hiánya esetén az aktiválási kérelmet – az ok megjelölésével – elutasítja. A felhasználói név és jelszó ingatlan átvételi eljárás tekintetében történő aktiválásának nem feltétele árverési előleg befizetése. (2) Az aktiválás a) vételi ajánlat megtételére vagy b) vételi ajánlat megtételére és előárverezési jog gyakorlására történhet. (3) A végrehajtó a felhasználói név és jelszó aktiválásáról (a kérelem elutasításáról) az elektronikus árverési rendszerben egy erre szolgáló elektronikus adatlap kitöltésével értesíti az árverezőt. (4) Az informatikai alkalmazást úgy kell kialakítani, hogy a) az ok megjelölésével kitöltött adatlap alapján az értesítésről rendszerüzenetet és elektronikus levelet küldjön az árverező részére, továbbá erről küldjön rendszerüzenetet a végrehajtónak; b) ha nem töltötték ki az adatlapon az elutasítás okát, az értesítést ne továbbítsa az a) pontban foglaltak szerint, hanem a hiányosság megjelölésével hibaüzenetet küldjön a végrehajtó részére."
+    },
+    {
+      "provision_ref": "s27",
+      "chapter": "IV. Fejezet - LICITÁLÁS AZ ELEKTRONIKUS ÁRVERÉSI RENDSZERBEN",
+      "section": "27",
+      "title": "27. §",
+      "content": "27. § Az informatikai alkalmazást úgy kell kialakítani, hogy a) az árverési hirdetményhez kapcsolódó licitnapló az adott árverési hirdetmény oldaláról legyen megtekinthető; b) a végrehajtók, valamint az árverezők számára a licitnapló nyomtatható is legyen."
+    },
+    {
+      "provision_ref": "s28",
+      "chapter": "IV. Fejezet - LICITÁLÁS AZ ELEKTRONIKUS ÁRVERÉSI RENDSZERBEN",
+      "section": "28",
+      "title": "28. §",
+      "content": "28. § (1) Az árverezők az aktiválással érintett árverésen az elektronikus árverési rendszer felületén tehetnek vételi ajánlatot, az erre szolgáló elektronikus adatlap vételi ajánlat összegével való kitöltésével és az elektronikus árverési rendszernek történő elküldésével. (2) Az informatikai alkalmazást úgy kell kialakítani, hogy a) az automatikusan ajánlja fel az árverező részére vételi ajánlat összegeként az utolsóként közzétett vételi ajánlatnál a licitküszöb összegével magasabb összeget, megelőző ajánlat hiányában pedig a legkisebb vételár összegét; b) közzétehető összegű ajánlattal kitöltött adatlap alapján, a vételi ajánlat megerősítését követően automatikusan tegye közzé a vételi ajánlatot a licitnaplóban; c) nem közzétehető összegű ajánlat esetén ne tegyen közzé vételi ajánlatot, hanem erről – a közzététel akadályának megjelölésével – küldjön hibaüzenetet az árverező részére. (3) Az (1) és (2) bekezdésben foglaltakat megfelelően alkalmazni kell az előárverezési jog gyakorlására szolgáló nyilatkozat megtételére is azzal, hogy az az összeg megjelölésének hiányában is közzétehető; ez a nyilatkozat minősül a megelőzően közzétett vételi ajánlat vonatkozásában megtett előárverezési jogot gyakorló nyilatkozatnak. Az informatikai alkalmazást úgy kell kialakítani, hogy ha előárverezési jogot gyakorló nyilatkozat került közzétételre a licitnaplóban, közvetlenül ezt követően csak az utolsóként közzétett vételi ajánlatnál a licitküszöb összegével magasabb összegű vételi ajánlat legyen közzétehető a licitnaplóban. (4) Az átvételi ajánlat megtétele a vételi ajánlat megtételére vonatkozó, az (1) és (2) bekezdésben foglalt rendelkezések alkalmazásával történik. (5) Az informatikai alkalmazást úgy kell kialakítani, hogy az ingatlan folyamatos árverése során történő felhasználói név és jelszó aktiválással a vételi ajánlat automatikusan kerüljön közzétételre a licitnaplóban, valamint a Vht 159. § (4) bekezdése szerint közzétételre kerülő ingatlanárverési hirdetményhez tartozó licitnaplóban is."
+    },
+    {
+      "provision_ref": "s29",
+      "chapter": "IV. Fejezet - LICITÁLÁS AZ ELEKTRONIKUS ÁRVERÉSI RENDSZERBEN",
+      "section": "29",
+      "title": "29. §",
+      "content": "29. § (1) Az árverező az előleg visszautalása iránti kérelmét [Vht. 132/F. § (4) bekezdés, 145/C. § (4) bekezdés] az elektronikus árverési rendszer felületén terjesztheti elő. (2) Az informatikai alkalmazást úgy kell kialakítani, hogy a) akkor legyen mód a kérelem elküldésére, ha már tettek közzé a licitnaplóban az árverező vételi ajánlatánál magasabb összegű vételi ajánlatot, vagy az árverező vételi ajánlata vonatkozásában tett előárverezési jogot gyakorló nyilatkozatot; b) az a kérelmet a hirdetményt közzétevő végrehajtó rendszerüzeneteként megjelenítse és azt elektronikus levélben is továbbítsa a végrehajtó számára; továbbá erről küldjön elektronikus levelet az árverezőnek; c) a kérelem elküldésével egyidejűleg az árverező felhasználói nevének és jelszavának aktiválását automatikusan szüntesse meg."
+    },
+    {
+      "provision_ref": "s30",
+      "chapter": "IV. Fejezet - LICITÁLÁS AZ ELEKTRONIKUS ÁRVERÉSI RENDSZERBEN",
+      "section": "30",
+      "title": "30. §",
+      "content": "30. § Az informatikai alkalmazást úgy kell kialakítani, hogy a) az árverés befejezésének időpontjában, ha pedig ezen időpontot megelőzően öt percen belül újabb vételi ajánlat kerül közzétételre, az újabb vételi ajánlat közzétételétől számított öt perc elteltével, az utolsó vételi ajánlat közzétételét követően pedig az ötödik perc végén automatikusan lezárja a licitnaplót; b) a licitnapló lezárása iránt az elektronikus árverési rendszer felületén erre szolgáló művelet elvégzésével az árverési hirdetményt közzétevő végrehajtó is intézkedhessen; c) a licitnapló lezárását követően ne biztosítsa vételi ajánlat és előárverezési jog gyakorlására vonatkozó nyilatkozat megtételének lehetőségét."
+    },
+    {
+      "provision_ref": "s31",
+      "chapter": "IV. Fejezet - LICITÁLÁS AZ ELEKTRONIKUS ÁRVERÉSI RENDSZERBEN",
+      "section": "31",
+      "title": "31. §",
+      "content": "31. §"
+    },
+    {
+      "provision_ref": "s32",
+      "chapter": "IV. Fejezet - LICITÁLÁS AZ ELEKTRONIKUS ÁRVERÉSI RENDSZERBEN",
+      "section": "32",
+      "title": "32. §",
+      "content": "32. § (1) A végrehajtó az árverés befejezését követően az árverési jegyzőkönyv aláírására és az árverési vételár kifizetésére (elektronikus ingóárverés esetén az ingóság átvételére) vonatkozó felhívását [Vht. 132/G. § (3) bekezdés, 152. § (2) bekezdés] az erre szolgáló elektronikus adatlap kitöltésével az elektronikus árverési rendszer útján közli az árverezővel. (2) Az informatikai alkalmazást úgy kell kialakítani, hogy a) az értesítést automatikusan közzétegye az árverező rendszerüzeneteként és azt elektronikus levélben is továbbítsa az árverező részére; b) ha a végrehajtó elektronikus ingóárverés esetén az értesítésben nem jelöli meg az árverési jegyzőkönyv aláírására, vételár kifizetésére és az ingóság átvételére az időpontot és helyszínt, az értesítést ne tegye közzé, hanem a hiányosság megjelölésével hibaüzenetet küldjön a végrehajtó részére."
+    },
+    {
+      "provision_ref": "s33",
+      "chapter": "V. Fejezet - ZÁRÓ RENDELKEZÉSEK",
+      "section": "33",
+      "title": "33. §",
+      "content": "33. § E rendelet a kihirdetését követő 8. napon lép hatályba."
+    },
+    {
+      "provision_ref": "s34",
+      "chapter": "V. Fejezet - ZÁRÓ RENDELKEZÉSEK",
+      "section": "34",
+      "title": "34. §",
+      "content": "34. § A kamara az informatikai alkalmazás tesztelésre alkalmas változatát 2008. december 31-éig a végrehajtók számára elérhetővé teszi."
+    },
+    {
+      "provision_ref": "s35",
+      "chapter": "V. Fejezet - ZÁRÓ RENDELKEZÉSEK",
+      "section": "35",
+      "title": "35. §",
+      "content": "35. § A kamara az önálló és törvényszéki végrehajtók, végrehajtó-helyettesek és jelöltek számára 2008. december 31-éig biztosítja az informatikai alkalmazás használatához szükséges oktatáson való részvétel lehetőségét."
+    },
+    {
+      "provision_ref": "s36",
+      "chapter": "V. Fejezet - ZÁRÓ RENDELKEZÉSEK",
+      "section": "36",
+      "title": "36. §",
+      "content": "36. § A kamara a 2009. január 1-jén szolgálatban lévő végrehajtókat 2009. január 15-ig látja el az informatikai alkalmazás használatához szükséges felhasználói névvel és jelszóval; törvényszéki végrehajtók esetében az ehhez szükséges adatokat a törvényszék elnöke juttatja el 2008. december 31-éig a kamarának."
+    },
+    {
+      "provision_ref": "s37",
+      "chapter": "V. Fejezet - ZÁRÓ RENDELKEZÉSEK",
+      "section": "37",
+      "title": "37. §",
+      "content": "37. § (1) E rendeletnek az egyes igazságügyi tárgyú miniszteri rendeleteknek az új Ptk. hatálybalépésével összefüggő módosításáról szóló 21/2014. (III. 13.) KIM rendelettel (a továbbiakban e §-ban: Módr.) megállapított rendelkezéseit a 2014. március 14-ét követően közzétett hirdetmények alapján lefolytatásra kerülő árverések esetében kell alkalmazni. (2) A végrehajtó a mező- vagy erdőgazdasági hasznosítású földre vonatkozó hirdetményeknek az ingatlanok folyamatos árverezése iránti hirdetmények közül történő törlése iránt a Módr. hatályba lépését követő 15 napon belül köteles intézkedni. 1 A rendeletet a 10/2021. (IX. 30.) IM rendelet 5. § (2) bekezdése hatályon kívül helyezte 2021. november 1. napjával. 2 Az 1. § c) pontja az 57/2012. (XII. 28.) KIM rendelet 19. § (1) bekezdésével megállapított szöveg. 3 Az 1. § d) pontját az 57/2012. (XII. 28.) KIM rendelet 19. § (3) bekezdés a) pontja hatályon kívül helyezte. 4 Az 1. § g) pontja a 38/2012. (VIII. 23.) KIM rendelet 1. §-ával megállapított szöveg. 5 Az 1. § h) pontja a 38/2012. (VIII. 23.) KIM rendelet 1. §-ával megállapított szöveg. 6 A 2. § az 5/2016. (III. 8.) IM rendelet 17. § (1) bekezdés a) pontja szerint módosított szöveg. 7 A 4. § az 5/2016. (III. 8.) IM rendelet 17. § (1) bekezdés b) pontja szerint módosított szöveg. 8 Az 5. § (1) bekezdése az 5/2016. (III. 8.) IM rendelet 17. § (1) bekezdés c) pontja szerint módosított szöveg. 9 A 6/A. §-t megelőző alcímet a 38/2012. (VIII. 23.) KIM rendelet 2. §-a iktatta be. 10 A 6. §-t a 38/2012. (VIII. 23.) KIM rendelet 2. §-a iktatta be 11 A 6/A. § (1) bekezdése a 10/2021. (IX. 30.) IM rendelet 5. § (1) bekezdése szerint módosított szöveg. 12 A 6/A. § (2) bekezdését az 5/2016. (III. 8.) IM rendelet 17. § (2) bekezdése hatályon kívül helyezte. 13 A 7. § az 5/2016. (III. 8.) IM rendelet 17. § (1) bekezdés c) pontja szerint módosított szöveg. 14 A 8. § az 5/2016. (III. 8.) IM rendelet 17. § (1) bekezdés c) pontja szerint módosított szöveg. 15 A 9. §-t megelőző alcím a 31/2009. (VIII. 14.) IRM rendelet 6. § (3) bekezdésének b) pontja szerint módosított szöveg. 16 A 9. § (1) bekezdése a 31/2009. (VIII. 14.) IRM rendelet 6. § (3) bekezdésének b) pontja, az 5/2016. (III. 8.) IM rendelet 17. § (1) bekezdés c) pontja szerint módosított szöveg. 17 A 9. § (2) bekezdésének bevezető szövegrésze a 31/2009. (VIII. 14.) IRM rendelet 6. § (3) bekezdésének b) pontja szerint módosított szöveg. E módosító rendelet 6. § (2) bekezdése alapján az új informatikai alkalmazást azokon az árveréseken kell alkalmazni, amelyek árverési hirdetményét 2009. augusztus 21. napját követően tették közzé az elektronikus árverési hirdetmények nyilvántartásában. 18 A 9. § (2) bekezdésének a) pontja a 31/2009. (VIII. 14.) IRM rendelet 6. § (3) bekezdésének b) pontja szerint módosított szöveg. E módosító rendelet 6. § (2) bekezdése alapján az új informatikai alkalmazást azokon az árveréseken kell alkalmazni, amelyek árverési hirdetményét 2009. augusztus 21. napját követően tették közzé az elektronikus árverési hirdetmények nyilvántartásában. 19 A 10. § (1) bekezdése a 31/2009. (VIII. 14.) IRM rendelet 6. § (3) bekezdésének b) pontja, az 5/2016. (III. 8.) IM rendelet 17. § (1) bekezdés c) pontja szerint módosított szöveg. 20 A 10. § (2) bekezdése a 31/2009. (VIII. 14.) IRM rendelet 6. § (3) bekezdésének b) pontja szerint módosított szöveg. E módosító rendelet 6. § (2) bekezdése alapján az új informatikai alkalmazást azokon az árveréseken kell alkalmazni, amelyek árverési hirdetményét 2009. augusztus 21. napját követően tették közzé az elektronikus árverési hirdetmények nyilvántartásában. 21 A 11. § a) pontja a 31/2009. (VIII. 14.) IRM rendelet 6. § (3) bekezdésének b) pontja szerint módosított szöveg. E módosító rendelet 6. § (2) bekezdése alapján az új informatikai alkalmazást azokon az árveréseken kell alkalmazni, amelyek árverési hirdetményét 2009. augusztus 21. napját követően tették közzé az elektronikus árverési hirdetmények nyilvántartásában. 22 Az 12. § (2) bekezdése a 40/2011. (XII. 30.) KIM rendelet 30. § b) pontja, az 5/2016. (III. 8.) IM rendelet 17. § (1) bekezdés c)–d) pontja szerint módosított szöveg. 23 A 13. § (1) bekezdés d) pontja a 38/2012. (VIII. 23.) KIM rendelet 3. §-ával megállapított szöveg. 24 A 13. § (1) bekezdés f) pontja a 38/2012. (VIII. 23.) KIM rendelet 15. § a) pontja szerint módosított szöveg. 25 A 13. § (1) bekezdés g) pontja a 38/2012. (VIII. 23.) KIM rendelet 14. § a) pontja szerint módosított szöveg. 26 A 13. § (1) bekezdés h) pontját a 38/2012. (VIII. 23.) KIM rendelet 15. § b) pontja hatályon kívül helyezte, újonnan a 21/2014. (III. 13.) KIM rendelet 21. § (1) bekezdése iktatta be. 27 A 13. § (1) bekezdés j) pontja a 38/2012. (VIII. 23.) KIM rendelet 15. § a) pontja szerint módosított szöveg. 28 A 15. § a) pontja a 31/2009. (VIII. 14.) IRM rendelet 6. § (3) bekezdésének b) pontja szerint módosított szöveg. E módosító rendelet 6. § (2) bekezdése alapján az új informatikai alkalmazást azokon az árveréseken kell alkalmazni, amelyek árverési hirdetményét 2009. augusztus 21. napját követően tették közzé az elektronikus árverési hirdetmények nyilvántartásában. 29 A 16. § a) pontját a 38/2012. (VIII. 23.) KIM rendelet 15. § c) pontja hatályon kívül helyezte. 30 A 16. § b) pontja a 18/2019. (VI. 28.) IM rendelet 29. §-ával megállapított szöveg. 31 A 18. § (1) bekezdése az 57/2012. (XII. 28.) KIM rendelet 19. § (3) bekezdés b) pontja szerint módosított szöveg. 32 A 19. § (1) bekezdése az 57/2012. (XII. 28.) KIM rendelet 19. § (3) bekezdés b) pontja szerint módosított szöveg. 33 A 19. § (2) bekezdés a) pontja a 31/2012. (VI. 29.) KIM rendelet 15. § (2) bekezdésével megállapított szöveg. 34 A 19. § (2) bekezdés b) pontja az 57/2012. (XII. 28.) KIM rendelet 19. § (3) bekezdés b) pontja szerint módosított szöveg. 35 A 19. § (2) bekezdés e) pontja az 57/2012. (XII. 28.) KIM rendelet 19. § (3) bekezdés b) pontja szerint módosított szöveg. 36 A 20. § (1) bekezdése az 57/2012. (XII. 28.) KIM rendelet 19. § (3) bekezdés b) pontja szerint módosított szöveg. 37 A 20. § (2) bekezdés b) pontja az 57/2012. (XII. 28.) KIM rendelet 19. § (3) bekezdés b) pontja szerint módosított szöveg. 38 A 21. § a 38/2012. (VIII. 23.) KIM rendelet 4. §-ával megállapított szöveg. 39 A 22. § (2) bekezdés c) pontja a 38/2012. (VIII. 23.) KIM rendelet 14. § b) pontja szerint módosított szöveg. 40 A 22. § (3) bekezdését a 38/2012. (VIII. 23.) KIM rendelet 5. §-a iktatta be. 41 A 22. § (4) bekezdését a 38/2012. (VIII. 23.) KIM rendelet 5. §-a iktatta be. 42 A 22. § (5) bekezdését a 38/2012. (VIII. 23.) KIM rendelet 5. §-a iktatta be. 43 A 23. § d) pontja a 38/2012. (VIII. 23.) KIM rendelet 6. §-ával megállapított szöveg. 44 A 23. § e) pontja a 38/2012. (VIII. 23.) KIM rendelet 6. §-ával megállapított szöveg. 45 A 23. § f) pontja a 38/2012. (VIII. 23.) KIM rendelet 6. §-ával megállapított szöveg. 46 A 23. § g) pontja a 38/2012. (VIII. 23.) KIM rendelet 6. §-ával megállapított szöveg. 47 A 23. § h) pontját a 38/2012. (VIII. 23.) KIM rendelet 6. §-a iktatta be. 48 A 23. § i) pontját a 38/2012. (VIII. 23.) KIM rendelet 6. §-a iktatta be. 49 A 23. § j) pontját a 38/2012. (VIII. 23.) KIM rendelet 6. §-a iktatta be. 50 A 24. § c) pontja a 38/2012. (VIII. 23.) KIM rendelet 7. § (1) bekezdésével megállapított szöveg. 51 A 24. § d) pontját a 31/2012. (VI. 29.) KIM rendelet 15. § (5) bekezdése iktatta be. 52 A 24. § e) pontját a 38/2012. (VIII. 23.) KIM rendelet 7. § (2) bekezdése iktatta be. 53 A 24. § f) pontját a 38/2012. (VIII. 23.) KIM rendelet 7. § (2) bekezdése iktatta be. 54 A 25. § (1) bekezdése a 21/2014. (III. 13.) KIM rendelet 21. § (2) bekezdésével megállapított szöveg. 55 A 25. § (2) bekezdése a 21/2014. (III. 13.) KIM rendelet 21. § (2) bekezdésével megállapított szöveg. 56 A 25. § eredeti (2) bekezdésének számozását (3) bekezdésre változtatta a 31/2009. (VIII. 14.) IRM rendelet 1. §-a. 57 A 25. § (4) bekezdését a 38/2012. (VIII. 23.) KIM rendelet 8. § (2) bekezdése iktatta be. 58 A 25. § (5) bekezdését a 38/2012. (VIII. 23.) KIM rendelet 8. § (2) bekezdése iktatta be. 59 A 26. § (1) bekezdése a 38/2012. (VIII. 23.) KIM rendelet 9. §-a szerint módosított szöveg. 60 A 26. § (2) bekezdése a 31/2009. (VIII. 14.) IRM rendelet 2. §-ával megállapított szöveg. E módosító rendelet 6. § (2) bekezdése alapján az új informatikai alkalmazást azokon az árveréseken kell alkalmazni, amelyek árverési hirdetményét 2009. augusztus 21. napját követően tették közzé az elektronikus árverési hirdetmények nyilvántartásában. 61 A 26. § (2) bekezdés b) pontja a 38/2012. (VIII. 23.) KIM rendelet 14. § c) pontja szerint módosított szöveg. 62 A 27. § b) pontja a 38/2012. (VIII. 23.) KIM rendelet 10. §-ával megállapított szöveg. 63 A 28. § (2) bekezdés b) pontja a 18/2019. (VI. 28.) IM rendelet 30. §-ával megállapított szöveg. 64 A 28. § (3) bekezdése a 21/2014. (III. 13.) KIM rendelet 21. § (3) bekezdésével megállapított szöveg. 65 A 28. § (4) bekezdését a 38/2012. (VIII. 23.) KIM rendelet 11. §-a iktatta be. 66 A 28. § (5) bekezdését a 38/2012. (VIII. 23.) KIM rendelet 11. §-a iktatta be. 67 A 29. § (1) bekezdése a 38/2012. (VIII. 23.) KIM rendelet 14. § d) pontja szerint módosított szöveg. 68 A 29. § (2) bekezdésének a) pontja a 31/2009. (VIII. 14.) IRM rendelet 4. §-ával megállapított, a 38/2012. (VIII. 23.) KIM rendelet 14. § e) pontja szerint módosított szöveg. 69 A 30. § a) pontja a 38/2012. (VIII. 23.) KIM rendelet 12. § (1) bekezdésével megállapított szöveg. 70 A 30. § c) pontja a 38/2012. (VIII. 23.) KIM rendelet 12. § (2) bekezdésével megállapított szöveg. 71 A 31. §-t és az azt megelőző alcímet a 38/2012. (VIII. 23.) KIM rendelet 15. § d) pontja hatályon kívül helyezte. 72 A 32. § (1) bekezdése a 38/2012. (VIII. 23.) KIM rendelet 13. §-ával megállapított szöveg. 73 A 35. § a 40/2011. (XII. 30.) KIM rendelet 30. § c) pontja szerint módosított szöveg. 74 A 36. § a 40/2011. (XII. 30.) KIM rendelet 30. § d) pontja szerint módosított szöveg. 75 A 37. §-t a 21/2014. (III. 13.) KIM rendelet 21. § (4) bekezdése iktatta be. 76 A hatálybalépés időpontja 2014. március 15."
+    }
+  ]
+}

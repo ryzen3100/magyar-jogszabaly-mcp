@@ -1,0 +1,623 @@
+{
+  "id": "hu-law-2014-12-b0-8e",
+  "type": "statute",
+  "title": "12/2014. (V. 16.) ORFK utasítás az elektronikus Modus Operandi Nyilvántartás működtetésével kapcsolatos egyes feladatokról",
+  "status": "repealed",
+  "in_force_date": "2014-05-17",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2014-12-B0-8E",
+  "description": "az elektronikus Modus Operandi Nyilvántartás működtetésével kapcsolatos egyes feladatokról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A jogalkotásról szóló 2010. évi CXXX. törvény 23. § (4) bekezdés c) pontjában, valamint a Rendőrségről szóló 1994. évi XXXIV. törvény 6. § (1) bekezdés b) pontjában kapott felhatalmazás alapján, az elektronikus Modus Operandi Nyilvántartással összefüggő adatkezelési, adatfeldolgozási feladatok egységes végrehajtására kiadom az alábbi utasítást:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "I. FEJEZET"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "ÁLTALÁNOS RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "1. Az utasítás hatálya kiterjed"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "a) az Országos Rendőr-főkapitányságra (a továbbiakban: ORFK);"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "b) a Készenléti Rendőrségre, Repülőtéri Rendőri Igazgatóságra, a Nemzetközi Bűnügyi Együttműködési Központra, a megyei (fővárosi) rendőr-főkapitányságokra (a továbbiakban együtt: területi szervek), valamint"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "c) a rendőrkapitányságokra (a továbbiakban: helyi szervek)."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "II. FEJEZET"
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "RÉSZLETES RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "1. Az elektronikus Modus Operandi Nyilvántartás célja"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "2. Az elektronikus Modus Operandi Nyilvántartásban (a továbbiakban: eModus) szereplő adatok kezelésének célja az általános rendőrségi feladatok ellátására létrehozott szerv törvényben meghatározott bűnmegelőzési, bűnüldözési feladatai ellátásának elősegítése."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "2. Az eModus adatköre, valamint az ezzel kapcsolatos adatkezelési és üzemeltetési kötelezettségek"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "3. Az eModus az utasítás 1. mellékletében meghatározott bűncselekmények (a továbbiakban: modus tárgyú bűncselekmény) vonatkozásában tartalmazza:"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "a) a felderítetlenül maradt bűncselekmény kriminalisztikai szempontból fontos jellemzőit;"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "b) a szándékos bűncselekmény elkövetésének megalapozott gyanúja miatt kihallgatott személy adatait, személyleírását, fényképét;"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "c) a Rendőrségről szóló 1994. évi XXXIV. törvény (a továbbiakban: Rtv.) 91/A. § (1) bekezdésének e) pontjában meghatározott bűncselekmények esetén a bűncselekmény elkövetésével gyanúsított személyek és kapcsolataik adatait, kriminalisztikai szempontból fontos jellemzőit;"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "d) a szervezett bűnözésre utaló cselekményekben érintett, illetőleg a bűnözői csoportban részt vevő vagy azzal együttműködő személyek, valamint kapcsolataik adatait és kriminalisztikai szempontból fontos jellemzőit;"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "e) a bűncselekmény ügyszámát, a tényállás megnevezését, elévülési idejét és az ügyben eljáró szervet."
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "4. Az eModus valamennyi szándékos bűncselekmény elkövetésének megalapozott gyanúja miatt kihallgatott, tetoválással rendelkező személy vonatkozásában tartalmazza:"
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "a) a 3. pont b) és e) alpontjaiban meghatározott adatokat;"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "b) a személyleírási és fénykép adatok közül a tetoválás képét és leírását."
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "5. Az eModus adatkezelője az ORFK, az ezzel kapcsolatos feladatokat az ORFK Bűnügyi Főigazgatóság Bűnügyi Elemző-Értékelő Főosztály (a továbbiakban: Bűnügyi Elemző-Értékelő Főosztály) látja el."
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "6. Az eModus technikai üzemeltetésével kapcsolatos feladatokat az ORFK Gazdasági Főigazgatóság látja el."
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "3. Az eModushoz kapcsolódó jogosultságok"
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "7. Az eModushoz kapcsolódó jogosultsági szintek:"
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "a) személylekérdező jogosultsági szint: az arra feljogosított felhasználók által betöltött szerepkör, amelynek jogosultja személyre irányuló egyszerű lekérdezést végezhet;"
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "b) ügyelőadói jogosultsági szint: nyomozást folytató személy által betöltött szerepkör, amelynek jogosultja személyre, ügyre, helyre irányuló egyszerű lekérdezést végezhet a Robotzsaru integrált ügyviteli, ügyfeldolgozó és elektronikus iratkezelő rendszerben (a továbbiakban: Robotzsaru rendszer) biztosított jogosultsága alapján;"
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "c) elemző-értékelő jogosultsági szint: az elemző-értékelő tevékenységet végző személy által betöltött szerepkör, amelynek jogosultja személyre, ügyre, helyre irányuló egyszerű lekérdezést, kereső-kutató tevékenységet, valamint a dokumentumokban szöveges adattartalmakra irányuló keresést végezhet;"
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "d) adatkezelői jogosultsági szint: a Bűnügyi Elemző-Értékelő Főosztály munkatársa által betöltött szerepkör, amelynek jogosultja az eModusba érkező adatok ellenőrzését, rögzítését, módosítását, törlésre jelölését végzi, és feladatának ellátása érdekében rendelkezik a c) alpontban meghatározott jogosultsággal is;"
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "e) adminisztrátori jogosultsági szint: a Bűnügyi Elemző-Értékelő Főosztály munkatársa által betöltött szerepkör, amelynek jogosultja az eModus működésével kapcsolatos adminisztratív feladatokat látja el, továbbá jogosult a naplózási adatok, üzemi statisztikák lekérdezésére, tömeges lekérdezés és törlésre jelölés indítására, valamint a törlésre jelölt adatok tényleges törlésére."
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "8. Az ORFK az Rtv. 91/E. § (3) bekezdésében meghatározott szervekkel – személylekérdező jogosultság biztosítása érdekében – együttműködési megállapodást köt, amely rögzíti a jogosultság karbantartási rendjét is olyan módon, hogy a nem rendőri szervtől érkező igénylés kizárólag egyetlen csatornán keresztül valósuljon meg. A személylekérdező jogosultsági szint engedélyezésének rendjét az együttműködési megállapodások tartalmazzák."
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "9. Az elemző-értékelő jogosultsági szinthez kapcsolódó jogosultságok biztosítását és törlését az elemző-értékelő feladatokat ellátó szervezeti elemek vezetői a Bűnügyi Elemző-Értékelő Főosztály Bűnügyi Adatkezelési és Alkalmazás-felügyeleti Osztály (a továbbiakban: BAAO) vezetőjéhez címzett átiratban kezdeményezhetik. Az elemző-értékelő szintű jogosultságot a BAAO vezetője engedélyezi."
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "10. Az adatkezelői és adminisztrátori szintű jogosultságok biztosításáról a Bűnügyi Elemző-Értékelő Főosztály vezetője a BAAO vezetője útján gondoskodik."
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "11. A BAAO a lekérdezésre jogosult személyekről – az ügyelőadói jogosultsági szinttel rendelkező személyek kivételével –, és egyedi azonosítójukról naprakész nyilvántartást vezet."
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "4. Az adatok forrása"
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "12. Az adatok forrása a Robotzsaru rendszer, amelyből az eModus leválogatás után – a két rendszer között kialakított elektronikus kapcsolat útján – automatikusan átveszi a lezárt ügyek strukturált adatait és a hozzájuk kapcsolódó egyes kriminalisztikai szempontból jelentős dokumentumok Robotzsaru rendszer Dokumentumtárára történő hivatkozásait, valamint a 3–4. pontokban meghatározott adatokat."
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "13. A modus tárgyú bűncselekmény elkövetésének megalapozott gyanúja miatt folytatott nyomozás befejezésekor, az ENYÜBS adatlapok kitöltése után az eljáró nyomozó vagy vizsgáló köteles a szándékos bűncselekmény elkövetésének megalapozott gyanúja miatt kihallgatott személyre vonatkozóan a nyilvántartás alapjául szolgáló modus operandi adatlapot a 2. mellékletben meghatározott kitöltési segédlet alapján a Robotzsaru rendszerben elektronikusan kitölteni. Nem kell kitölteni a modus operandi adatlapot, ha megállapítást nyert, hogy a cselekmény nem bűncselekmény, vagy a bűncselekményt nem a gyanúsított követte el, illetve az elkövető halála esetén. A modus operandi adatlapot a Robotzsaru rendszerben – alszámra iktatás nélkül – hitelesíteni kell."
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "5. Az adatok kezelése"
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "14. Az eModusban kezelt adatok tájékoztató jellegű információk, amelyek"
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "a) az érintettel szemben semmilyen joghátrányt nem eredményezhetnek;"
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "b) megőrzési idejére az Rtv. bűnüldözési adatkezelésre vonatkozó rendelkezései irányadóak."
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "15. Az eModus az elévülési és mentesítési időpontoktól számított, az ügy adatainál rögzített selejtezési időnek megfelelően automatikusan törlésre jelöli a személyek, valamint az ügyek adatait."
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "16. Amennyiben az adatkezelői jogosultsággal rendelkező személy – a személy- és lakcímnyilvántartás adatai alapján – a nyilvántartott személy elhalálozását állapítja meg, a halál időpontját rögzíti az eModusban."
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "17. A törlésre jelölt adatok megsemmisítését az adminisztrátori jogosultsággal rendelkező személy hetente két alkalommal hajtja végre."
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "6. Adatigénylés és adatszolgáltatás"
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "18. Az ügyelőadói jogosultsággal rendelkező személyek a Robotzsaru rendszerben rendelkezésre álló jogosultsággal végezhetnek lekérdezéseket a Robotzsaru rendszerben biztosított kapcsolaton keresztül."
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "19. Az elemző-értékelő, az adatkezelői és az adminisztrátori jogosultsággal rendelkezők számára az eModus az országos zárt, belső intranetes hálózaton keresztül érhető el."
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "20. A személyi adatok, ügyszám vagy hely címének birtokában egyéni jogosultság alapján lehet ellenőrzést végrehajtani (azonnalos priorálás). Az ellenőrzés végrehajtható töredék adatok alapján is."
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "21. Ismeretlen tettes ellen folytatott eljárásban az elkövetőről és a bűncselekményről rendelkezésre álló adatok alapján lehet a hasonló ismérvekkel, kriminalisztikai jellemzőkkel nyilvántartásba vett személyek, illetve ügyek adatait kérni."
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "22. A 4. pontban meghatározott adat kifejezetten csak tetoválásra vonatkozó adatkérésre szolgáltatható."
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "23. A területi és helyi szervek illetékességi területére vonatkozó, kereső-kutató, elemző tevékenységet igénylő adatkéréseket a területi elemző-értékelő feladatokat ellátó szervezeti elemek teljesítik. A megkereséseket átirat formájában a megkeresés célja, jogalapja és az ügyiratszám megjelölésével kell megküldeni."
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "24. Az ORFK adatkéréseit és a több megyét érintő, valamint az országos szintű, kereső-kutató, elemző tevékenységet igénylő adatkéréseket a BAAO teljesíti. A megkereséseket átirat formájában a megkeresés célja, jogalapja és az ügyiratszám megjelölésével kell megküldeni."
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "7. Naplózás"
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "25. Az eModus a rendszerben végrehajtott valamennyi tevékenységet és folyamatot naplózza. A naplóállomány tartalmazza:"
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "a) a felhasználó nevét, beosztási helyét;"
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "b) a lekérdezés jogalapját és célját;"
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "c) a hozzáférés időpontját;"
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "d) az esemény típusát, az esemény leírását, technikai jellemzőit;"
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "e) az adattovábbítással érintett személy azonosításához szükséges adatokat;"
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "f) a továbbított adatfajták megnevezését;"
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "g) az ügyszámot."
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "III. FEJEZET"
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "ZÁRÓ RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "26. Ez az utasítás a közzétételét követő napon lép hatályba."
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "27."
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "A nyilvántartásba vétel alapját képező bűncselekmények"
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "I. A Büntető Törvénykönyvről szóló 1978. évi IV. törvény szerint"
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "Btk. XII. fejezet – A személy elleni bűncselekmények"
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "Btk. XIV. fejezet – A házasság, a család, az ifjúság és a nemi erkölcs elleni bűncselekmények"
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "Btk. XV. fejezet – Az államigazgatás, az igazságszolgáltatás és a közélet tisztasága elleni bűncselekmények"
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "Btk. XVI. fejezet – A közrend elleni bűncselekmények"
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "Btk. XVII. fejezet – A gazdasági bűncselekmények"
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "Btk. XVIII. fejezet – A vagyon elleni bűncselekmények"
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "II. A Büntető Törvénykönyvről szóló 2012. évi C. törvény szerint"
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "Btk. XV. fejezet – Az élet, a testi épség és az egészség elleni bűncselekmények"
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "Btk. XVI. fejezet – Az egészségügyi beavatkozás és kutatás rendje elleni bűncselekmények"
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "Btk. XVII. fejezet – Az egészséget veszélyeztető bűncselekmények"
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "Btk. XVIII. fejezet – Az emberi szabadság elleni bűncselekmények"
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "Btk. XIX. fejezet – A nemi élet szabadsága és a nemi erkölcs elleni bűncselekmények"
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "Btk. XXI. fejezet – Az emberi méltóság és egyes alapvető jogok elleni bűncselekmények"
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "Btk. XXX. fejezet – A közbiztonság elleni bűncselekmények"
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "Btk. XXXI. fejezet – A nemzetközi kötelezettségen alapuló közbiztonsági célú gazdasági előírások elleni bűncselekmények"
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "Btk. XXXII. fejezet – A köznyugalom elleni bűncselekmények"
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "Btk. XXXIII. fejezet – A közbizalom elleni bűncselekmények"
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "Btk. XXXIV. fejezet – A közigazgatás rendje elleni bűncselekmények"
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "Btk. XXXV. fejezet – A vagyon elleni erőszakos bűncselekmények"
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "Btk. XXXVI. fejezet – A vagyon elleni bűncselekmények"
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "Btk. XXXVIII. fejezet – A pénz- és bélyegforgalom biztonsága elleni bűncselekmények"
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "XLIII. fejezet – Tiltott adatszerzés és az információs rendszer elleni bűncselekmények"
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "Modus operandi adatlap kitöltési segédlet"
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "1. A modus operandi adatlapot elektronikusan kell kitölteni a Robotzsaru rendszerben. A modus operandi adatlap megnyitásakor az előzőleg elmentett, strukturált adatokat a rendszer beemeli az adatlap megfelelő mezőibe."
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "2. A személyi és lakcím adatokat a személyi és lakcímnyilvántartás adatai alapján, a nyilvántartásban történő ellenőrzést követően kell kitölteni."
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "3. Az egyes mezőkbe több, de nem ellentétes fogalom is beírható (pl. nyak: „hosszú”, „ferde”)."
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "4. Lehetőség szerint a személyleírás összes mezőjét ki kell tölteni."
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "5. A jövőben történő visszakereshetőség érdekében a különleges ismertetőjelekről is pontos és részletes leírás szükséges, így különösen a tetoválások testrész szerinti elhelyezkedése, színe, kiterjedése és leírása tekintetében fontos az azonosításra alkalmas meghatározás. Célszerű az egyes tetoválások és testrészek kapcsolatának jelzése (pl. nyak: pókháló, bal alkar: „Anyám” felirat, hát: tigris)."
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "6. A bűncselekmény helyszíne mezőbe a helyszín jellegét kell beírni (pl. iskola, utca, üzlet, családi ház, lift)."
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "7. Sértett, károsult neve, megnevezése mezőbe a természetes személy sértett családi és utónevét, cég esetében a hivatalos cégnevet, megnevezést kell beírni. Természetes személy esetében a sértett kriminalisztikai szempontból fontos jellemzőit is le kell írni (pl. idős, egyedülálló sértett, banki alkalmazott, gyermekkorú, terhes nő)."
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "8. Az elkövetés során használt járművek, illetve a megszerzett tárgyak, értékek mezőkbe csak a jármű, illetve tárgy megnevezését kell beírni, a jármű, illetve tárgy pontos típusát és egyéb azonosító adatait nem."
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "9. Megszerzett értékek felhasználási módja mezőt a megszerzett érték felhasználására vonatkozó információ alapján kell kitölteni (pl. átalakít, elajándékoz, elrejt, értékesít, használ, megsemmisít, szétszerel)."
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "10. Az elkövető személyiségére, bűnöző tevékenységére utaló adatok mezőben a bűncselekményhez kapcsolódó olyan fontos kriminalisztikai jellemzőket kell leírni, amely a későbbi keresést ilyen szempontok alapján lehetővé teszi (pl. előre megtervezi a bűncselekmény elkövetését, kábítószer hatása alatt követi el a bűncselekményt, visszatér a helyszínre, csak pénzt visz el a helyszínről)."
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "11. A bűncselekményre jellemző ismérvek, az elkövetés, a támadás, a behatolás módszerei jellemzők gyűjtése a nyilvántartás fő feladata, ezért kiemelt jelentőségű. A mező kitöltésekor az ügy tényállását és kriminalisztikai jellemzőit mondatokba fogalmazva kell leírni. A tettestársak adatait és ügyek közötti összefüggéseket minden esetben be kell írni."
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "12. Ha az ügyek összetettsége (több helyszínes ügy, sorozat jelleg, tettestársak száma és kapcsolatai) indokolja, akkor összefoglaló jelentést kell készíteni, amelyben az ügyek részletes leírása szükséges a modus operandi adatlap tartalmának megfelelően. 1 Az utasítást a 12/2021. (IV. 30.) ORFK utasítás 35. pontja hatályon kívül helyezte 2021. május 1. napjával. Alkalmazására lásd e hatályon kívül helyező utasítás 34. pontját. 2 Az 1. pont b) alpontja a 13/2015. (VII. 10.) ORFK utasítás 129. pontjával megállapított szöveg. 3 A 13. pont a 17/2015. (VIII. 13.) ORFK utasítás 1. pontjával megállapított szöveg. 4 A 27. pont a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette. 5 Az 1. melléklet a 17/2015. (VIII. 13.) ORFK utasítás 2. pontja szerint módosított szöveg."
+    }
+  ]
+}

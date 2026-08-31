@@ -1,0 +1,455 @@
+{
+  "id": "hu-law-2020-29-b0-3m",
+  "type": "statute",
+  "title": "29/2020. (VII. 10.) BVOP utasítás a büntetés-végrehajtási szervezet rejtjelszabályzatáról",
+  "status": "in_force",
+  "in_force_date": "2020-07-11",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2020-29-B0-3M",
+  "description": "a büntetés-végrehajtási szervezet rejtjelszabályzatáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A jogalkotásról szóló 2010. évi CXXX. törvény 23. § (4) bekezdés c) pontja alapján – figyelemmel a minősített adat védelméről szóló 2009. évi CLV. törvényre, a minősített adat elektronikus biztonságának, a rejtjeltevékenység engedélyezésének és hatósági felügyeletének részletes szabályairól szóló 161/2010. (V. 6.) Korm. rendeletre, továbbá a Nemzeti Biztonsági Felügyelet működésének, valamint a minősített adat kezelésének rendjéről szóló 90/2010. (III. 26.) Korm. rendeletre – az alábbi utasítást adom ki:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "I. ÁLTALÁNOS RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "1. A büntetés-végrehajtási szervezet rejtjelszabályzata a minősített adat védelméről szóló 2009. évi CLV. törvény, a minősített adat elektronikus biztonságának, valamint a rejtjeltevékenység engedélyezésének és hatósági felügyeletének részletes szabályairól szóló 161/2010. (V. 6.) Korm. rendelet (a továbbiakban: R1.), továbbá a Nemzeti Biztonsági Felügyelet működésének, valamint a minősített adat kezelésének rendjéről szóló 90/2010. (III. 26.) Korm. rendelet szerint meghatározza:"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "a) a szervezet rejtjeltevékenységének jellegét és a rejtjeltevékenység általános szabályait,"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "b) a rejtjeltevékenység szervezeti rendjét, a végrehajtás személyi és tárgyi feltételeit,"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "c) a rejtjeltevékenység személyi, fizikai és adminisztratív biztonságával kapcsolatos helyi követelményeket,"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "d) a rejtjelanyagok szállítására és javítására vonatkozó követelményeket,"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "e) a rejtjeltevékenységgel kapcsolatos minősített adat, valamint a rejtjelbiztonság megsértése vagy sérülése esetén követendő eljárásokat."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "2. Jelen szabályzat hatálya kiterjed a büntetés-végrehajtási szervezet rejtjeltevékenységet folytató szerveire, személyi állományára, rejtjelanyagaira és rejtjeltevékenységére."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "II. REJTJELBIZTONSÁG"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "3. A rejtjelbiztonság a rejtjelanyagokra vonatkozó biztonsági intézkedések alkalmazása (beleértve a személyi, fizikai, adminisztratív és kompromittáló kisugárzás elleni védelmet), melynek célja a minősített adatok megszerzése elleni védelem biztosítása."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "4. A rejtjelbiztonság megvalósításának legfontosabb követelményei:"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "a) a rejtjeltevékenységet folytató személyek személyi biztonsági követelményeknek való megfelelősége,"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "b) a rejtjelanyagok fizikai biztonsága,"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "c) a rejtjelanyagok adminisztratív biztonsága,"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "d) a rejtjelző eszközök kompromittáló kisugárzás elleni védelmének megfelelő telepítése,"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "e) a rejtjelző eszközöket működtető személyzet megfelelő felkészültsége és gyakorlati jártassága,"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "f) a rejtjeltevékenységet folytató személyek információbiztonsági tudatossága."
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "III. A REJTJELTEVÉKENYSÉG TARTALMA ÉS SZERVEZETE"
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "5. A büntetés-végrehajtási szervezet rejtjeltevékenységének tartalma:"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "a) a rejtjelzési kötelezettség alá eső minősített adatok védelmét biztosító rejtjelző eszközök működtetése, eljárások alkalmazása,"
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "b) a rejtjelanyagok nyilvántartása."
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "6. A rejtjeltevékenység szervezete:"
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "a) A büntetés-végrehajtási szervezet rejtjelfelügyeleti tevékenységét a Büntetés-végrehajtás Országos Parancsnoksága biztonsági vezetője, valamint a Büntetés-végrehajtás Országos Parancsnoka által kijelölt rejtjelfelügyelő végzi."
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "b) A rejtjelzők a rejtjeltevékenységet folytató büntetés-végrehajtási szervek biztonsági vezetői mellé rendelt, az intézetek vezetői által kinevezett személyek."
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "c) A büntetés-végrehajtási szervezet által rejtjeltevékenység végzésére kijelölt munkaállomások (szerver és végpontok) felsorolását a rendszerbiztonsági követelmények elnevezésű dokumentum (a továbbiakban: RBK) tartalmazza."
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "7. A rejtjeltevékenységben részt vevő személyek feladatait, a rejtjelző eszközök telepítésének, valamint működtetésének feltételeit és szabályait az R1.-ben meghatározottak alapján az RBK, valamint az Üzemeltetés Biztonsági Szabályzat részletesen tartalmazza."
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "IV. SZEMÉLYI BIZTONSÁG"
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "8. A rejtjelanyaghoz történő hozzáférés feltétele a rejtjelhozzáférési engedély megléte."
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "9. Rejtjelhozzáférési engedélyt az kaphat, akinek munkaköri feladatai ellátásához a rejtjeltevékenységgel kapcsolatos szabályok ismerete feltétlenül szükséges."
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "V. FIZIKAI BIZTONSÁG"
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "10. A rejtjeltevékenységgel kapcsolatos fizikai biztonsági követelményeket (kulcsok, kódok védelmét, a beléptetés rendjét) a Nemzeti Biztonsági Felügyelet (a továbbiakban: NBF) által kiadott adatkezelési, valamint rendszerengedély, továbbá a minősített adatok védelmével összefüggő jogszabályok, valamint a helyi, minősített adatok biztonságára vonatkozó szabályozók határozzák meg."
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "11. Rejtjelző eszköz alkalmazása (tárolása, őrzése) kizárólag az NBF által kiadott hatósági adatkezelési engedéllyel rendelkező biztonsági területen belül végezhető."
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "12. A rejtjelző eszközök működtetésének, őrzésének, szállításának, javításának, az azokkal folytatott rejtjelző munka ellátásának biztonsági követelményeit a rejtjeltevékenységre vonatkozó biztonsági dokumentáció tartalmazza. A rejtjelző eszközhöz kiadott speciális biztonsági követelményeket az eszközhöz kiadott működtetési szabályzat tartalmazza."
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "VI. ADMINISZTRATÍV BIZTONSÁG"
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "13. A rejtjeltevékenységet folytató büntetés-végrehajtási szervek a rejtjelanyagok nyilvántartására, felügyeletére, elosztására és megsemmisítésére elkülönített ügyviteli rendszert hoznak létre és működtetnek, a minősített adatok kezelésére szolgáló ügyviteli rendszerükön belül."
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "14. A rejtjelanyagok nyilvántartását és elosztását a megfelelő szintű, érvényes személyi biztonsággal kapcsolatos okmányrendszerrel, valamint rejtjelhozzáférési engedéllyel rendelkező, a minősített adatot kezelő szerv vezetője által kinevezett titkos ügykezelő végzi."
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "15. A rejtjelanyagok nyilvántartására és tárolására szolgáló iktatási segédleteket, rejtjelző eszközöket, rejtjelkulcsokat elkülönítetten kell kezelni és tárolni."
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "16. A rejtjelanyag-nyilvántartó rendszer iratkezelési segédletei:"
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "a) A kötelezően vezetendő iratkezelési segédletek:"
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "aa) Iktatókönyv, nemzeti, nyílt „R” iratok részére,"
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "ab) Iktatókönyv, nemzeti, minősített „R” iratok részére,"
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "ac) Rejtjelhozzáférési engedélyek,"
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "ad) Kezelői engedélyek,"
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "ae) Rejtjelző (biztonsági) helyiségbe állandó belépési engedéllyel nem rendelkező személyek belépéséről vezetett nyilvántartás,"
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "af) Megsemmisítési jegyzőkönyvek nyilvántartása."
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "b) Egyéb iratkezelési segédletek:"
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "ba) Eszköznyilvántartó napló,"
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "bb) Kulcsnyilvántartó napló,"
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "bc) Futárjegyzék-nyilvántartás,"
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "bd) Belső átadókönyv."
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "17. A rejtjelző szerveknek, rejtjeltevékenységet végző személyeknek a kiadásra vagy felterjesztésre, illetve visszaküldésre kerülő kulcsanyagokat, műszaki-technikai dokumentációkat, üzemeltetési szabályzatokat szerven kívülre futárjegyzékkel, szerven belül belső átadókönyvön vagy más átadóokmányon kell továbbítani, illetve átadni."
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "VII. REJTJELZŐ ESZKÖZÖK SZÁLLÍTÁSA, JAVÍTÁSA"
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "18. A rejtjelző eszköz szállítására vonatkozó speciális szabályokat az adott rejtjelző eszköz működtetési szabályzatában előírtakhoz igazodva, az alábbiak szerint kell végrehajtani."
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "19. Rejtjelző eszközt csak kulcsolatlan állapotban szabad szállítani. A szállított csomagok a szállítás időtartama alatt nem ellenőrizhetők és nem bonthatók fel. Tilos az eszközöket az intézet csomagellenőrző berendezése igénybevételével ellenőrizni. A szállítást közvetlenül a biztonsági terület épületének környezetéig biztosítani kell abban az esetben is, ha a biztonsági terület az intézetet körülvevő kerítésen vagy bástyafalon belül helyezkedik el."
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "20. A rejtjelanyagok (rejtjelző eszközök, rejtjelző eszközökkel kapcsolatos dokumentáció és a rejtjelkulcsok) futárküldeményként, legalább két főből álló állami futárszolgálat, külön személyes futár útján továbbíthatók."
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "21. Rejtjelző eszközt vagy rejtjelző eszköznek minősülő berendezéseket legalább két fő, a működtető vagy a rejtjelfelügyeleti feladatokat ellátó szervezet állományába tartozó személyes futár szállíthatja. A futárok egyikének a rejtjelző eszközre érvényes rejtjelhozzáférési engedéllyel kell rendelkeznie."
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "22. Rejtjelző eszköz javítását csak a gyártó, illetve az NBF által arra feljogosított szervezet végezheti. Javítás során a gyártó jogosult a rejtjelző eszközt saját szervizébe szállítani cserekészülék biztosítása mellett. Köteles a szállítás során biztosítani az azzal kapcsolatos szabályok betartását, ideértve a személyi feltételeket is."
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "23. Rejtjelző eszközt – a javításra jogosult szervezet kijelölt körletén kívül – megbontani, és azon bármilyen szerelési, javítási tevékenységet végezni szigorúan tilos."
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "24. Rejtjelző eszköz cseréjéről és javításba adásáról a rejtjelfelügyelet köteles intézkedni. Javításba adásakor a rejtjelző eszközzel együtt át kell adni a rejtjelző eszköz törzskönyvét a javító szervezetnek, amely a szükséges bejegyzéseket rögzíti benne."
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "VIII. ELLENŐRZÉS"
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "25. A BVOP biztonsági vezetője soron kívül elrendelheti a rejtjeltevékenység működésének ellenőrzését."
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "26. Szakirányítói tevékenysége keretében a BVOP biztonsági vezetője, valamint a rejtjelfelügyelő a teljes bv. szervezet vonatkozásában témavizsgálatot tarthat."
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "27. Az ellenőrzés kiterjed a rejtjelanyagokra – különös tekintettel a rejtjelző eszközökre és kulcsdokumentációra, az azokhoz történő hozzáférésekre –, a titkos ügykezelők, valamint a rejtjelzők tevékenységére, továbbá a rejtjelző eszközök működtetésére és biztonsági felügyeletére."
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "28. A rejtjeltevékenységet folytató büntetés-végrehajtási szervek biztonsági vezetői a rejtjeltevékenységgel kapcsolatos iratok és eszközök (rejtjelanyagok) tételes ellenőrzését évente egy alkalommal, jegyzőkönyv felvétele mellett végzik el. A BVOP biztonsági vezetője az NBF részére a büntetés-végrehajtási szervezet éves rejtjeltevékenységéről jelentést készít."
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "IX. ELJÁRÁS A REJTJELBIZTONSÁG VESZÉLYEZTETÉSE ESETÉN"
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "29. A rejtjelző (eszköz) rendszer felnyitását, vagy a rejtjelző (eszközbe) rendszerbe történő behatolást a BVOP biztonsági vezetője útján az NBF részére azonnal jelenteni kell."
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "30. Azok a személyek, akik a rejtjelző eszközökre, a rejtjeltevékenységre vonatkozó előírások megsértését, azokkal összefüggő szabálytalanságot, rendellenességet észlelnek, vagy arról tudomást szereznek, kötelesek azokat jelenteni a rejtjelfelügyelőnek a rejtjeltevékenységet folytató büntetés-végrehajtási szerv biztonsági vezetője útján."
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "31. A rejtjelanyagok (rejtjelző eszközök, kulcsanyagok és dokumentumok) veszély- és vészhelyzetekben történő védelmére vonatkozó követelményeket és szabályokat az RBK tartalmazza."
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "X. ZÁRÓ RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "32. Minden, a jelen utasításban nem szabályozott kérdésre az I. fejezetben megjelölt jogszabályok előírásait kell alkalmazni."
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "33. A rejtjeltevékenységet folytató büntetés-végrehajtási szervek vezetői kötelesek gondoskodni arról, hogy jelen szabályzatban foglaltakat a hatálya alá tartozó személyek megismerjék."
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "34. Ez az utasítás a közzétételét követő napon lép hatályba."
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "35. 1 A 35. pont a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette."
+    }
+  ]
+}

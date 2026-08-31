@@ -1,0 +1,425 @@
+{
+  "id": "hu-law-2017-34-b0-8e",
+  "type": "statute",
+  "title": "34/2017. (XII. 13.) ORFK utasítás az informatikai fejlesztési folyamatok szabályozásáról",
+  "status": "repealed",
+  "in_force_date": "2018-01-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2017-34-B0-8E",
+  "description": "az informatikai fejlesztési folyamatok szabályozásáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A jogalkotásról szóló 2010. évi CXXX. törvény 23. § (4) bekezdés c) pontjában, valamint a Rendőrségről szóló 1994. évi XXXIV. törvény 6. § (1) bekezdés b) pontjában kapott felhatalmazás alapján az általános rendőrségi feladatok ellátására létrehozott szerv alap informatikai rendszerfejlesztésének egységes szabályozására kiadom az alábbi utasítást:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "I. FEJEZET"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "ÁLTALÁNOS RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "1. Az utasítás hatálya"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "a) az Országos Rendőr-főkapitányságra (a továbbiakban: ORFK);"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "b) a Készenléti Rendőrségre, a Repülőtéri Rendőr Igazgatóságra, a Nemzetközi Bűnügyi Együttműködési Központra, a Rendőrségi Oktatási és Kiképző Központra (a továbbiakban: ROKK), a Nemzetközi Oktatási Központra, valamint a megyei (fővárosi) rendőr-főkapitányságokra (a továbbiakban együtt: területi szervek);"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "c) a rendőrkapitányságokra és a határrendészeti kirendeltségekre"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "terjed ki."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "2. Az utasítás alkalmazásában:"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "a) élesüzemű bevezetés: a késztermék megrendelő által történő átvételét követő üzemszerű működés megkezdése;"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "b) fejlesztő: az ORFK Gazdasági Főigazgatóság Informatikai Fejlesztési Főosztály vezetője;"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "c) informatikai fejlesztésirányító: a fejlesztő által kijelölt olyan személy, aki az adott programfejlesztés informatikai koordinációs tevékenységéért felelős;"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "d) késztermék: a fejlesztés során létrehozott új szoftver vagy egy már meglévő szoftver módosításával létrejött új verzió;"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "e) központi szakterületi irányító: a megrendelő által kijelölt olyan személy, aki az adott program fejlesztés szakterületi koordinációs tevékenységéért felelős;"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "f) megrendelő: az országos rendőrfőkapitány-helyettesek, az ORFK Ellenőrzési Szolgálat vezetője, az ORFK Hivatal vezetője, az ORFK Kommunikációs Szolgálat vezetője vagy az ORFK Költségvetési Ellenőrzési Iroda vezetője;"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "g) monitoring: a fejlesztett program élesüzemű bevezetését követően történő módszeres megfigyelés;"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "h) módszertani útmutató: a fejlesztő által elkészített és a gazdasági országos rendőrfőkapitány-helyettes által jóváhagyott dokumentum, amely a fejlesztési folyamatok végrehajtásának részletszabályait tartalmazza;"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "i) munkacsoport: a központi szakterületi irányító és az informatikai fejlesztésirányító, valamint szükség szerint külső résztvevő képviselője és egyéb szakértők részvételével a fejlesztés végrehajtására annak időtartamára létrehozott ideiglenes munkaszervezet;"
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "j) projektdokumentáció: az adott fejlesztéssel kapcsolatban az utasításban és a módszertani útmutatóban meghatározott tartalmú dokumentáció;"
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "k) teszteset: a megrendelt program követelményeiben meghatározott működésének ellenőrzésére alkalmas, a folyamatait kipróbáló modellezett szituáció."
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "II. FEJEZET"
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "RÉSZLETES RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "1. A fejlesztés megrendelése"
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "3. Az általános rendőrségi feladatokat ellátó szerv informatikai rendszereivel kapcsolatos fejlesztés kezdeményezésére kizárólag a megrendelők jogosultak."
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "4. A területi szervek vezetői a fejlesztési javaslataikat a szakmailag érintett országos rendőrfőkapitány-helyettesnek vagy az ORFK szakmailag érintett szervezeti eleme vezetőjének küldik meg, aki dönt a fejlesztési igény támogathatóságáról, és egyetértése esetén megrendeli a fejlesztést."
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "5. A megrendelő vagy az általa kijelölt vezető – a szakterületével kapcsolatos jogszabályok változására, valamint a szakterületi igényekre tekintettel – az informatikai fejlesztések szükségességéről a fejlesztővel előzetesen konzultál."
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "6. A megrendelő a fejlesztési igényét a központi szakterületi irányító személyének kijelölésével egy időben megküldi a gazdasági országos rendőrfőkapitány-helyettesnek."
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "7. A fejlesztő javaslatára a gazdasági országos rendőrfőkapitány-helyettes az igény megvizsgálását követően 15 munkanapon belül dönt a fejlesztési igény teljesíthetőségéről, arról, hogy új fejlesztés vagy egy már meglévő program módosítása szükséges, valamint külső fejlesztő bevonására szükség van-e. Az informatikai fejlesztésirányító személyét a fejlesztő jelöli ki."
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "8. Ha a fejlesztési igényben foglaltak alapján a fejlesztés teljesíthetőségéről és feltételeiről nem lehet dönteni, a fejlesztő javaslatára a gazdasági országos rendőrfőkapitány-helyettes a megrendelőt további adatok és információk közlésére hívhatja fel, figyelemmel a módszertani útmutatóban foglaltakra."
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "9. A megrendelő a központi szakterületi irányító vezetésével és az informatikai fejlesztésirányító részvételével munkacsoportot hoz létre. A munkacsoport pontos összetételét a megrendelő a módszertani útmutatóra és a fejlesztő javaslatára figyelemmel határozza meg. A munkacsoport fejlesztéssel kapcsolatos minden tevékenységét a késztermék átadásának befejezéséig írásban kell dokumentálni."
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "10. A fejlesztő minden év november 1-jéig a következő évre vonatkozóan fejlesztési projektlistát (a továbbiakban: éves projektlista) készít a megrendelők javaslatai alapján, melyben a projektlista elemeihez feltüntetésre kerülnek a fejlesztési igények és prioritások. A fejlesztő biztosítja az éves projektlista tartalmának aktualitását. A fejlesztő az éves projektlistát a gazdasági országos rendőrfőkapitány-helyettes részére terjeszti fel."
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "11. Az éves projektlistát a megrendelő vezetők írják alá, és az országos rendőrfőkapitány hagyja jóvá. Az éves projektlista évközi változtatási igénye esetén a változás alapján a projekteket a megrendelők átütemezik. Az átütemezett projektlistát az országos rendőrfőkapitány hagyja jóvá."
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "12. A jóváhagyott éves projektlista alapján a fejlesztő értesíti az érintett megrendelőket, akik intézkednek a munkacsoport összehívására."
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "13. Az elkészült éves projektlistáról a fejlesztő fejlesztési nyilvántartást vezet. A fejlesztési nyilvántartás adattartalmát a módszertani útmutató határozza meg."
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "2. A fejlesztés"
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "14. A munkacsoport kidolgozza a projektdokumentációt, amely tartalmazza:"
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "a) a fejlesztés szakmai tartalmát, műszaki követelményét;"
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "b) a fejlesztés megvalósításának határidejét az éves projektlistában meghatározott határidők figyelembevételével;"
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "c) az átvételi tesztek megkezdésének időpontját;"
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "d) a felelősöket;"
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "e) a fejlesztés ütemezését és az ütemekhez tartozó köztes határidőket;"
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "f) az élesüzemű bevezetéshez szükséges képzés szervezésének módszerét, tematikáját, a számonkérés rendjét és az érintett személyi kört;"
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "g) az élesüzemű bevezetés tervezett időpontját;"
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "h) az élesüzemű bevezetésről döntésre jogosult személyeket;"
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "i) a monitoring követelményeket."
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "15. A projektdokumentáció további tartalmi és formai követelményeit a módszertani útmutató határozza meg."
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "16. A projektdokumentációt a központi szakterületi irányító vezetője és a fejlesztő közösen írják alá és terjesztik fel a szolgálati út betartásával jóváhagyásra a megrendelő és a gazdasági országos rendőrfőkapitány-helyettes részére. A jóváhagyást követően a projektdokumentációtól való eltérést a jóváhagyó vezetők engedélyezhetik."
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "17. A fejlesztő minden, a fejlesztés szakmai tartalmát, a megvalósulás határidejét érintő körülményről tájékoztatja a megrendelőt."
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "18. A fejlesztés során a fejlesztő az informatikai fejlesztésirányítón keresztül szükség esetén, de legalább havonta írásban tájékoztatja a központi szakterületi irányítót a fejlesztésről. Az informatikai fejlesztésirányító kezdeményezésére vagy szükség szerint a központi szakterületi irányító összehívja a munkacsoportot."
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "19. Az elkészült projektdokumentációkról a fejlesztő projektnyilvántartást vezet. A projektnyilvántartás adattartalmát a módszertani útmutató határozza meg."
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "3. A tesztüzem"
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "20. Az informatikai fejlesztésirányító a munkacsoport tagjainak bevonásával kidolgozza az átvételi tesztek végrehajtásának módszerét, valamint a szükséges számú és tartalmú tesztesetet az átvételi tesztek megkezdésének a projektdokumentációban rögzített időpontjára."
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "21. Az átvételi tesztek informatikai környezetének biztosításáért a fejlesztő, annak megszervezéséért és lebonyolításáért a megrendelő felelős."
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "22. Az átvételi tesztek során a munkacsoport – szükség esetén a tesztelésben részt vevő munkatársak bevonásával – elkészíti a felhasználói kézikönyvet."
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "23. A tesztelés általános módszertanát és dokumentációjának nyomtatványait, valamint a felhasználói kézikönyv tartalmi elemeit a módszertani útmutató határozza meg."
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "4. A képzés"
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "24. Új program fejlesztése esetén az érintett állomány országos képzését a fejlesztő és a megrendelő végzik."
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "25. A képzéshez szükséges gyakorlati és elméleti tananyag kidolgozása a munkacsoport feladata. A képzéssel kapcsolatos dokumentáció további tartalmi és formai követelményeit a módszertani útmutató tartalmazza."
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "26. Az országos képzés megszervezésére, a helyszín és a képzéshez szükséges eszközök biztosítására, a jegyzetek sokszorosítására és terjesztésére a ROKK intézkedik. A képzésre vonatkozó igényről a fejlesztő a projektdokumentáció képzésre vonatkozó kivonatának megküldésével tájékoztatja a ROKK-ot. A megrendelő a szükséges képzéseket saját hatáskörben is megszervezheti."
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "5. Az átadás"
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "27. A munkacsoport az átvételi teszteket folyamatosan értékeli, és azok lebonyolítása után a szolgálati út betartásával írásban tájékoztatja álláspontjáról a megrendelőt és a fejlesztőt, akik közös dokumentumba foglalt döntésükkel megállapítják az átvételi tesztek eredményességét."
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "28. A sikeres átvételi tesztek végrehajtása után a munkacsoport véglegesíti a felhasználói kézikönyvet, ezt követően a megrendelő dönt a program élesüzemű bevezetéséről és folyamatos monitoringjának lebonyolítási és jelentési rendjéről."
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "6. A program monitoringja"
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "29. Új program bevezetését követően a megrendelő a projektdokumentációban meghatározott tartalmú monitoring követelmények szerint tájékoztatást küld a fejlesztőnek."
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "30. A fejlesztő a monitoring tájékoztató alapján elvégzi a szükséges javításokat. A projektdokumentumban foglalt követelményektől eltérni a 16. pontban foglaltak szerint lehet."
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "III. FEJEZET"
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "ZÁRÓ RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "31. A módszertani útmutatót az intraneten közzé kell tenni."
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "32. Ez az utasítás 2018. január 1-jén lép hatályba. 1 Az utasítást a 14/2022. (IV. 7.) ORFK utasítás 41. pontja hatályon kívül helyezte 2022. április 8. napjával, alkalmazására lásd e módosító utasítás 40. pontját."
+    }
+  ]
+}

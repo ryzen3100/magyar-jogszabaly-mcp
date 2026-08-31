@@ -1,0 +1,354 @@
+{
+  "id": "hu-law-2005-29-20-15",
+  "type": "statute",
+  "title": "29/2005. (VII. 27.) HM rendelet a nem polgári célú frekvenciagazdálkodás egyes hatósági eljárásairól és a nem polgári célú frekvenciasávok felhasználási szabályairól",
+  "status": "repealed",
+  "in_force_date": "2005-08-11",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2005-29-20-15",
+  "description": "a nem polgári célú frekvenciagazdálkodás egyes hatósági eljárásairól és a nem polgári célú frekvenciasávok felhasználási szabályairól",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "chapter": "I. Fejezet - A RENDELET HATÁLYA",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § (1) A rendelet hatálya kiterjed a nem polgári célú frekvenciagazdálkodás területén a) a frekvenciakijelölési eljárásra; b) a rádióengedélyezési eljárásra; c) az ellenőrzésre; d) a rádió-mérőszolgálati és a rádiózavar-elhárítási tevékenységre; e) az adatszolgáltatás rendjére; f) a nem polgári célú frekvenciasávok felhasználási szabályaira. (2) A rendelet hatálya kiterjed a) a nem polgári célú frekvenciagazdálkodás körébe tartozó – az R. 1. §-ának (2) bekezdésében meghatározott – szervekre, szervezetekre (a továbbiakban: felhasználók), b) azon természetes és jogi személyekre, jogi személyiséggel nem rendelkező gazdálkodó szervezetekre (a továbbiakban: vállalkozó), akik nem polgári célú frekvenciát vagy frekvenciasávot használó rádióberendezések (a továbbiakban: berendezés), rádióállomás (a továbbiakban: állomás), rádiótávközlő hálózat (a továbbiakban: hálózat), rádió-távközlő rendszer (a továbbiakban: rendszer) tervezése, telepítése, üzembe helyezése, valamint a nem polgári célú frekvenciagazdálkodást érintő, a rendelet hatálya alá tartozó ügy vonatkozásában a felhasználókkal kapcsolatban állnak; c) e rendeletben meghatározott hatósági feladatokat ellátó Kormányzati Frekvenciagazdálkodási Hivatalra (a továbbiakban: hatóság). (3) Ha jogszabály másként nem rendelkezik, e rendelet előírásait kell alkalmazni a két- vagy többoldalú nemzetközi megállapodás alapján a Magyar Köztársaságban tevékenykedő külföldi fegyveres szervek (a továbbiakban a felhasználókkal és a vállalkozókkal együtt: jogosultak) frekvenciahasználata során a hatósági eljárásoknál is."
+    },
+    {
+      "provision_ref": "s2",
+      "chapter": "I. Fejezet - A RENDELET HATÁLYA",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § (1) E rendelet alkalmazásában: 1. Blokkgazdálkodás: a frekvenciablokk (frekvenciák és frekvenciasávok) rádióengedélyben megadott feltételek között szabadon történő tervezése és használata. 2. EMC (elektromágneses összeférhetőség) vizsgálat: az egyes rádiószolgálatok és berendezéseik elektromágneses összeférhetőségének, egymásra gyakorolt hatásának vizsgálata a zavarmentes együttes működés feltételeinek megállapítása céljából. 3. Frekvenciakiosztási terv: a rádióalkalmazásra vonatkozó frekvenciasáv-használati, illetve csatornaelrendezési terv, amelyet nemzetközi vonatkozásban az arra illetékes értekezlet, nemzeti vonatkozásban a magyar frekvenciagazdálkodó hatóságok fogadnak el. 4. Hatósági frekvenciajegyzék: frekvenciakiosztási terv (elsősorban légiforgalmi célú) alapján készült frekvenciakijelölési terv, melyet a frekvenciagazdálkodó hatóságok egyeztetés után fogadnak el és a Nemzeti Hírközlési Hatóság honlapján tesz közzé. 5. Keret-rádióengedély: rádióengedély, amely lehetővé teszi az állomások, a hálózatok, illetőleg a rendszerek üzemben tartását azoknál a rádiószolgálati alkalmazásoknál, amelyeknél a felhasználás frekvenciajegyzék szerinti, vagy a frekvenciakijelölés blokkgazdálkodásra jogosít. 6. NATO eljárás: az Észak-atlanti Szerződés Szervezetének illetékes szerve által jóváhagyott (elfogadott) a szövetséges és a békepartnerségi országok érvényes frekvencia igénylési és biztosítási rendszere, amelynek mindenkori adattartalmáról a hatóság az eljárásban érintettek kérésére tájékoztatást ad. 7. Rádiómegfigyelés: a hatóságnak egy frekvenciasáv tervezett, összehangolt felhasználását, az adatszolgáltatást és a rádiófrekvenciás spektrumra vonatkozó információgyűjtést segítő, a rádió-mérőszolgálat útján végzett rádiómérő és értékelő tevékenysége. 8. Rádiómérés: mindazon mérések összessége, melyeket az ellenőrzés, a rádiózavar-elhárítás, a rádiómegfigyelés és egyéb rádió-mérőszolgálati tevékenységek ellátása érdekében hajtanak végre. 9. Rádió-mérőszolgálati tevékenység: a hatóság egyik alaptevékenysége a rádiószolgálatok rádiózavar-mentes működésének biztosításához. 10. Rádiózavar: nem kívánt elektromágneses energiának valamely rádiószolgálatban a vételre gyakorolt hatása, amely az átvitel minőségének olyan csökkenésében, az információ olyan torzulásában, illetőleg veszteségében jelentkezik, ami elkerülhető lett volna a nem kívánt energia megjelenése nélkül. 11. Rádiózavar-elhárítás: rádiózavar megszüntetése zavarvizsgálat végrehajtásával és rádiózavar-elhárító intézkedések alkalmazásával. 12. Üzemben tartás: állomás, hálózat, illetőleg rendszer telepítésétől (üzembe helyezésétől) a működtetés végleges megszüntetéséig tartó folyamat, beleértve az üzemeltetést, a fenntartási tevékenységeket (különösen a karbantartás és a javítás) és a szüneteltetést is. 13. Üzemeltetés: állomás, hálózat, rendszer rendeltetés szerinti működtetése. 14. Üzemeltető: a jogosult által – általában saját alárendeltségében lévő – az üzemeltetésre kijelölt szervezet. 15. Zavarvizsgálat: a rádiózavar-elhárítás érdekében végzett rádiómérések, vizsgálatok, adatgyűjtések és elemzések összessége. (2) Az e rendeletben alkalmazott egyéb frekvenciagazdálkodási fogalmakat az Eht. 188. §-a és a frekvencia-sávok nemzeti felosztására vonatkozó jogszabály szerint kell értelmezni."
+    },
+    {
+      "provision_ref": "s3",
+      "chapter": "II. Fejezet - RÁDIÓFREKVENCIÁK HASZNÁLATI JOGA",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § (1) Rádiófrekvenciák használati jogát jogszabályban meghatározott esetekben egyedi engedély nélkül, illetőleg frekvenciakijelölés, valamint rádióengedély alapján lehet megszerezni. A használati jog nem átruházható. (2) A frekvenciahasználati joggal kapcsolatos hatósági eljárás (frekvenciakijelölés és rádióengedélyezés) határideje összesen 42 nap. (3) A frekvenciakijelölés meghosszabbításának, illetőleg módosításának kérelmezésekor a hatósági eljárás (frekvenciakijelölés és rádióengedélyezés) határideje összesen 30 nap. (4) A rádióengedély meghosszabbításának, illetőleg módosításának kérelmezésekor a hatósági eljárás határideje 21 nap. (5) A hatósági eljárás az Eht. 69. §-ának (4) bekezdése alapján felfüggeszthető, amelynek kezdetét, majd befejezését is írásban kell a kérelmezővel közölni. (6) Az eljárás felfüggesztését követő 5 napon belül a hatóságnak kezdeményeznie kell a nemzetközi koordinációt a Nemzeti Hírközlési Hatóságnál, illetőleg meg kell kezdenie a műszaki vizsgálatokat. (7) 30 napot meg nem haladó frekvenciahasználat esetén, amennyiben a felhasználási terület, a sávfoglaltság és a sugárzási paraméterek lehetővé teszik, a frekvenciakijelölés és rádióengedély összevontan is kiadható. (8) A frekvenciasávok nemzeti felosztásának megállapításáról szóló kormányrendelet felosztási táblázata „közös” oszlopában megadott rádióalkalmazásokhoz feltételként előírt, a frekvenciagazdálkodó hatóságok közötti megállapodás előkészítése, illetőleg az egyeztetés műszaki vizsgálatnak minősül. (9) A nem polgári célú harmonizált frekvenciasávú rádióalkalmazások rádióberendezéseinek jegyzékét az 1. számú melléklet tartalmazza."
+    },
+    {
+      "provision_ref": "s4",
+      "chapter": "II. Fejezet - RÁDIÓFREKVENCIÁK HASZNÁLATI JOGA",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) A frekvenciakijelölési eljárást a hatóság a jogosultak kérelmére folytatja le. Az eljárást megelőzheti a 40. § (2) bekezdése szerinti adatszolgáltatás. (2) A frekvenciakijelölés iránti kérelem legalább a következőket tartalmazza: a) a kérelmező adatait (szervezet, cég megnevezése, székhelye, telephelye, címe, levelezési címe); b) a frekvenciafelhasználás célját, műszaki szempontok szerinti – a frekvenciákkal történő hatékony és tervszerű gazdálkodás jogszabályokban meghatározott követelményeit is figyelembe vevő – indokolását; c) a felhasználni kívánt frekvenciát, csatornát, frekvenciasávot, kiemelve az előnyben részesített igényeket; d) a modulációs módot; e) a kérelmező ügyintézőjének nevét, illetőleg az ügyben eljáró – nem az állományába tartozó – képviselőjének azonosító adatait, továbbá képviseleti jogosultságának igazolását; f) minden olyan tényt, körülményt, amely a frekvenciasáv, a csatorna- vagy a frekvenciahasználat egyéb jellemzőinek kiválasztását indokolja, illetve befolyásolja. (3) A (2) bekezdéstől eltérő tartalmú kérelem eseteit jelen rendelet szabályozza."
+    },
+    {
+      "provision_ref": "s5",
+      "chapter": "II. Fejezet - RÁDIÓFREKVENCIÁK HASZNÁLATI JOGA",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § (1) A berendezés, állomás, hálózat és rendszer telepítése, kipróbálása, illetve kisugárzással járó EMC vizsgálata frekvenciakijelölés alapján történhet. (2) A frekvenciakijelölés – legfeljebb 3 évi időtartamú – érvényességi idejét, valamint szükség esetén a meghosszabbítás feltételeit és érvényességi idejét a hatóság állapítja meg. (3) A közbeszerzési eljárás körébe tartozó berendezésekre, állomásokra, hálózatokra és rendszerekre vonatkozó frekvenciakijelölést a hatóság akkor adja ki, ha a szerződést a 42. § szerinti adatszolgáltatás érvényességi idején belül és tartalmának megfelelően kötötték meg. (4) Nem kell frekvenciakijelölés: a) azon rádióalkalmazások berendezései, állomásai, hálózatai és rendszerei üzemben tartásához, amelyekhez jogszabály alapján egyedi engedély nem szükséges; b) azoknál a rádió-távközlési szolgálatoknál és rádióalkalmazásoknál (2. számú melléklet), amelyek frekvenciakiosztási tervvel rendelkeznek, illetőleg azon berendezésekhez, állomásokhoz, hálózatokhoz és rendszerekhez, amelyek számára a kijelölhető frekvenciákat hatósági frekvenciajegyzék tartalmazza; c) azoknál a rádióalkalmazásoknál, amelyeket kizárólag rendkívüli vagy szükségállapot vagy megelőző védelmi helyzet idején, illetőleg a Magyar Köztársaság Alkotmányáról szóló 1949. évi XX. törvény (a továbbiakban: Alkotmány) 19/E. §-ában foglalt intézkedés során tartanak üzemben, és amelyekhez a frekvenciákat a rendkívüli állapotra kijelölhető frekvenciák jegyzéke tartalmazza; d) a Magyar Honvédség, a nemzetbiztonsági szolgálatok, valamint titkos információgyűjtésre törvényben felhatalmazott felhasználók csak vételre szolgáló berendezéseire, amennyiben a felhasználó más engedélyezett frekvenciahasználattal szemben védelemre nem tart igényt; e) NATO eljárás keretében engedélyezett frekvenciahasználat esetén; f) a jogosult gyakorlattal, gyakorlással, diplomáciai feladatokkal, valamint rendezvénnyel, bemutatóval, kiállítással kapcsolatos – két hetet meg nem haladó – frekvenciahasználata esetén."
+    },
+    {
+      "provision_ref": "s6",
+      "chapter": "II. Fejezet - RÁDIÓFREKVENCIÁK HASZNÁLATI JOGA",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § A frekvenciakijelölés tartalmazza: a) az engedélyes adatait; b) a kijelölés célját; c) a kijelölt frekvenciát, csatornát, frekvenciasávot; d) a frekvenciahasználat műszaki feltételeit; e) a berendezések mennyiségére vonatkozó adatokat; f) a telepítési, sugárzási jellemzőket, hordozható (mozgó) berendezés esetén az üzemben tartás körzetét is; g) blokkgazdálkodás esetén az arra való feljogosítást; h) tájékoztatást arra vonatkozóan, hogy a frekvenciakijelölés visszavonható jogszabályban meghatározott esetekben; i) tájékoztatást arra vonatkozóan, hogy az engedély csak olyan berendezések alkalmazásával érvényes, amelyek kielégítik a forgalomba hozatal követelményeit, és ezt a tényt a rádióengedély kérelemben kell igazolni; j) a frekvenciakijelölésben meghatározott előírások és feltételek megtartása ellenőrzésének rendjét; k) a jogorvoslatról szóló tájékoztatást; l) az engedély érvényességi idejét, a meghosszabbítás feltételeit és időtartamát."
+    },
+    {
+      "provision_ref": "s7",
+      "chapter": "II. Fejezet - RÁDIÓFREKVENCIÁK HASZNÁLATI JOGA",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § (1) A frekvenciakijelölés elutasításának Eht.-ben előírt esetein túl nem jelölhető ki frekvencia abban az esetben sem, ha a) a tervezett alkalmazás nem teljesíti a VI. fejezet, illetőleg a frekvenciasávok felhasználási szabályainak megállapításáról szóló informatikai és hírközlési miniszteri rendelet vonatkozó előírásait; b) nemzetközi kötelezettség kizárja a berendezések használatát, állomások, hálózatok, rendszerek létesítését; c) a kérelem műszaki vagy frekvenciagazdálkodási szempontból ellentmond a rádiófrekvenciás tartomány felhasználása nemzeti és nemzetközi védelmének; d) a kérelem teljesítése jogszabályba ütközik; e) a frekvencia nemzetközi koordinációja eredménytelen maradt. (2) A hatóság a kérelmező kérésére a nemzetközi koordináció befejezése előtt feltételes frekvenciakijelölést adhat ki. Ez esetben a nemzetközi koordináció eredményétől függő frekvenciakijelölés módosításért a hatóságot felelősség nem terheli."
+    },
+    {
+      "provision_ref": "s8",
+      "chapter": "II. Fejezet - RÁDIÓFREKVENCIÁK HASZNÁLATI JOGA",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § (1) A jogosult a berendezést, az állomást, a hálózatot, a rendszert telepítési célú frekvenciakijelölés alapján telepítheti. (2) A kérelem a 4. §-ban meghatározottakon túl tartalmazza, illetőleg a kérelemhez csatolni szükséges: a) a 3. számú mellékletben foglalt tartalmi feltételeknek megfelelő műszaki tervet egy példányban; b) a megvalósítás tervezett ütemezését; c) a kérelemhez csatolni kell a jogszabályban előírt mellékleteket. (3) A hatóság a felhasználót – kérelemre – blokkgazdálkodásra feljogosíthatja, ha az alkalmazás körülményei ezt lehetővé teszik."
+    },
+    {
+      "provision_ref": "s9",
+      "chapter": "II. Fejezet - RÁDIÓFREKVENCIÁK HASZNÁLATI JOGA",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § (1) Nem kell műszaki tervet benyújtani a) a kizárólag a frekvenciasávok felhasználási szabályainak megállapításáról szóló informatikai és hírközlési miniszteri rendelet szerinti, kis hatótávolságú berendezéseket tartalmazó, vagy b) a legfeljebb 3 hónap időtartamú üzemben tartásra tervezett állomások, hálózatok esetében. (2) Blokkgazdálkodás esetén műszaki tervet csak akkor kell benyújtani, ha ezt a frekvenciasávok felhasználási szabályainak megállapításáról szóló informatikai és hírközlési miniszteri rendelet az alkalmazott sávra vonatkozóan előírja."
+    },
+    {
+      "provision_ref": "s10",
+      "chapter": "II. Fejezet - RÁDIÓFREKVENCIÁK HASZNÁLATI JOGA",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § (1) Kísérleti célú frekvenciakijelölés adható: a) közvetlenül a felhasználó részére gyártott berendezés, állomás, hálózat, rendszer kipróbálására; b) kísérleti célú, illetőleg üzemben tartásra még nem tervezett berendezés ideiglenes telepítésére; c) a hatóság által megállapított egyéb felhasználási feltételekhez kötött telepítésre; d) kisugárzással járó EMC vizsgálat elvégzésére. (2) A kérelem a 4. §-ban meghatározottakat – a b) pont kivételével –, valamint a 3. számú melléklet e) és h) pontjai szerinti adatokat tartalmazza. (3) A kísérleti célú frekvenciakijelölés érvényessége legfeljebb 3 hónap lehet, amely az érvényességi időn belül benyújtott kérelemre egy alkalommal, legfeljebb 3 hónappal meghosszabbítható. (4) Kísérleti célú frekvenciakijelölés alapján a vállalkozó is kaphat jogosultságot nem polgári célú frekvencia használatára a kizárólag a felhasználók részére történő berendezés fejlesztés, gyártás, egyedi előállítás során feltétlenül szükséges – kisugárzással is járó – munkafolyamatok elvégezhetősége érdekében. (5) Amennyiben a kérelmet vállalkozó nyújtja be, csatolni szükséges a felhasználó megbízásra vonatkozó igazolását, a berendezés rendeltetésének és működési elvének leírását, valamint műszaki jellemzőit tartalmazó dokumentumot. (6) Kísérleti célú frekvenciakijelölés alapján csak kísérleti vagy ideiglenes rádióengedély adható."
+    },
+    {
+      "provision_ref": "s11",
+      "chapter": "II. Fejezet - RÁDIÓFREKVENCIÁK HASZNÁLATI JOGA",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § (1) Berendezést, állomást, hálózatot, rendszert üzemben tartani csak rádióengedély alapján szabad, ha az alkalmazott berendezés teljesíti a forgalomba hozatalra vonatkozóan külön jogszabályban meghatározott követelményeket. (2) Nem kell rádióengedély az 5. § (4) bekezdés a) és d) pontjában említett berendezésekhez, illetőleg rádióalkalmazásokhoz. (3) Rádióengedély kérelemre adható. A kérelem tartalmazza, illetőleg a kérelemhez csatolni szükséges: a) a kérelmező adatait; b) a felhasználni kívánt frekvenciát, csatornát, illetőleg frekvenciasávot; c) az üzemben tartás célját; d) a berendezés típusát és darabszámát; e) a rádióberendezésre vonatkozó gyártói megfelelőségi nyilatkozat másolatát, és a bejelentett rádióberendezés nyilvántartásba vételéről szóló dokumentum iratszámát vagy másolatát, amennyiben azt nem a hatóságnál jelentették be; f) a kérelmező vagy a kivitelező nyilatkozatát a frekvenciakijelölésben foglalt jellemzők szerinti telepítésről; g) az 1998. április 5. után épített távközlési építmények engedélyeinek, illetőleg a létesítés bejelentésének eredeti nyilvántartási számát, keltét, az engedélyező (bejelentést fogadó) hatóság megjelölésével, a korábban létesült építmények igénybevétele esetén a tulajdonos nyilatkozatát az engedményezésről és arról, hogy az építés a fenti időpont előtt történt; h) engedélyköteles rejtjelző eszköz használata esetén az Országos Rejtjelfelügyelet engedélyének eredeti nyilvántartási számát, keltét, nyilatkozatot az állam- vagy szolgálati titkot tartalmazó információ továbbításáról. (4) A rádióengedély iránti kérelemben a (3) bekezdés a), b), c) és d) pontjai szerinti adatok a frekvenciakijelölés vonatkozó rendelkezéseire történő hivatkozással is megadhatók. (5) A kérelemben nem szükséges megadni: a) átmeneti (30 napot meg nem haladó) üzemben tartásra történő kérelmezés esetén a (3) bekezdés e), f), g), b) kísérleti célra történő kérelmezés esetén – a berendezés megfelelőségének igazolása birtokában a (3) bekezdés f), g), – a berendezés megfelelőségének igazolása hiányában a (3) bekezdés e), f), g) pontjaiban meghatározottakat. (6) NATO eljárás keretében a kérelem az arra vonatkozó előírás alapján benyújtható."
+    },
+    {
+      "provision_ref": "s12",
+      "chapter": "II. Fejezet - RÁDIÓFREKVENCIÁK HASZNÁLATI JOGA",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. § Rádióengedély iránti kérelmet nyújthat be: a) a frekvenciakijelölés jogosítottja; b) az a felhasználó, amely frekvenciajegyzék szerint kíván berendezést, állomást, hálózatot üzemben tartani."
+    },
+    {
+      "provision_ref": "s13",
+      "chapter": "II. Fejezet - RÁDIÓFREKVENCIÁK HASZNÁLATI JOGA",
+      "section": "13",
+      "title": "13. §",
+      "content": "13. § A rádióengedély érvényessége, ha jogszabály másképpen nem rendelkezik, legfeljebb 10 év, melyet jogszabály előírásainak teljesülése esetén – az érvényes rádióengedély lejárta előtt benyújtott írásbeli kérelemre – a hatóság meghosszabbít."
+    },
+    {
+      "provision_ref": "s14",
+      "chapter": "II. Fejezet - RÁDIÓFREKVENCIÁK HASZNÁLATI JOGA",
+      "section": "14",
+      "title": "14. §",
+      "content": "14. § (1) A kérelmező a frekvenciakijelöléstől esetlegesen eltérő adatok esetén a rádióengedély kérelemben, a 11. § (3) bekezdésben megállapítottakon túl, az eltérő adatok hiteles közlését és azok indokolását is benyújtja. (2) A rádióengedély kérelemben megadott, a frekvenciakijelöléstől eltérő igényei esetén csak akkor adható rádióengedély, ha a berendezés, az állomás, a hálózat, a rendszer műszaki, telepítési, sugárzási jellemzőiben történt módosítás más berendezés, állomás, hálózat zavarmentes működését és a frekvenciákkal történő tervszerű gazdálkodást nem befolyásolja. (3) Ha a frekvenciakijelöléstől eltérő adatok hatásvizsgálatot igényelnek, a hatóság módosított műszaki terv készítését és vizsgálat (mérés) elvégzését írhatja elő."
+    },
+    {
+      "provision_ref": "s15",
+      "chapter": "II. Fejezet - RÁDIÓFREKVENCIÁK HASZNÁLATI JOGA",
+      "section": "15",
+      "title": "15. §",
+      "content": "15. § (1) A rádióengedély tartalmazza: a) az engedélyes adatait; b) az üzemben tartás célját; c) a felhasználható frekvenciát, csatornát, illetőleg frekvenciasávot; d) a telepítési, sugárzási jellemzőket, feltételeket és korlátokat, hordozható (mozgó) berendezés esetén az üzemben tartás körzetét is; e) az üzemben tartás műszaki és forgalmi feltételeit; f) a berendezés típusára és mennyiségére vonatkozó adatokat; g) a berendezés alapvető műszaki jellemzőit; h) a 11. § (3) bekezdés h) pont szerinti nyilatkozat tényállását; i) a berendezés megfelelőségét igazoló dokumentum azonosítási számát; j) az engedély érvényességi idejét; k) a jogorvoslatról szóló tájékoztatást; l) az érintett jogosultak vonatkozó kérelme alapján a közös frekvenciahasználat szabályozását. (2) A 11. § (6) bekezdése alapján benyújtott kérelem esetén a rádióengedély a vonatkozó előírás szerinti adatokat tartalmazza."
+    },
+    {
+      "provision_ref": "s16",
+      "chapter": "II. Fejezet - RÁDIÓFREKVENCIÁK HASZNÁLATI JOGA",
+      "section": "16",
+      "title": "16. §",
+      "content": "16. § (1) A hatóság a rádióengedélyben meghatározott feltételeket az engedélyes kérelmére módosíthatja. (2) Az engedélyesnek a módosítás iránti kérelmet a hatósághoz kell benyújtania. A rádióengedély módosítása során e rendelet engedélyezésre vonatkozó szabályait kell értelemszerűen alkalmazni."
+    },
+    {
+      "provision_ref": "s17",
+      "chapter": "II. Fejezet - RÁDIÓFREKVENCIÁK HASZNÁLATI JOGA",
+      "section": "17",
+      "title": "17. §",
+      "content": "17. § A rádióengedélyben szereplő feltételeket a hatóság – az engedélyes előzetes értesítésével – nemzetbiztonsági, védelmi, kormányzati, közbiztonsági, közigazgatási és más közérdekből, egyeztetést követően módosíthatja, illetőleg ideiglenesen (különösen időben, területileg) korlátozhatja. Az egyeztetés eredménytelensége esetén az ügyet a hatóság a Kormányzati Frekvenciagazdálkodási Tanács elé terjeszti, és állásfoglalásának figyelembevételével dönt."
+    },
+    {
+      "provision_ref": "s18",
+      "chapter": "II. Fejezet - RÁDIÓFREKVENCIÁK HASZNÁLATI JOGA",
+      "section": "18",
+      "title": "18. §",
+      "content": "18. § A rádióengedély elvesztéséről vagy megsemmisüléséről a hatóságot írásban értesíteni kell. Az értesítés alapján a rádióengedély másolatát a hatóság a jogosultnak megküldi."
+    },
+    {
+      "provision_ref": "s19",
+      "chapter": "II. Fejezet - RÁDIÓFREKVENCIÁK HASZNÁLATI JOGA",
+      "section": "19",
+      "title": "19. §",
+      "content": "19. § A rádióengedély érvényessége az abban meghatározott időpont előtt – visszavonás nélkül is – megszűnik, ha a) a rádióengedély elveszett vagy megsemmisült, ezt a hatóságnak bejelentik, és nem kérik a másolat kiadását; b) az engedélyes a hatóságnál írásos nyilatkozatban lemond az engedélyéről."
+    },
+    {
+      "provision_ref": "s20",
+      "chapter": "II. Fejezet - RÁDIÓFREKVENCIÁK HASZNÁLATI JOGA",
+      "section": "20",
+      "title": "20. §",
+      "content": "20. § Az engedélyes köteles: a) a rádióengedély előírásainak betartását az üzemeltető vagy a kezelő által biztosítani; b) a helyszíni ellenőrzés alkalmával a frekvenciahasználatra vonatkozó előírásokat tartalmazó okmányok (4. számú melléklet) valamelyikét – az engedélyes választása szerint – az üzemeltető vagy a kezelő köteles bemutatni."
+    },
+    {
+      "provision_ref": "s21",
+      "chapter": "II. Fejezet - RÁDIÓFREKVENCIÁK HASZNÁLATI JOGA",
+      "section": "21",
+      "title": "21. §",
+      "content": "21. § (1) Állomás, hálózat kísérleti vagy átmeneti üzemben tartásához a hatóság kísérleti vagy ideiglenes rádióengedélyt ad ki, ha a) a berendezés üzemben tartását kísérleti célból végzik; b) az alkalmazásra tervezett berendezések megfelelőségét még nem igazolták; c) a felhasználásra kijelölt frekvenciák, csatornák igénybevétele hosszú távon nem biztosítható. (2) Az engedély érvényességi ideje legfeljebb 1 év, amely kérelemre meghosszabbítható. A meghosszabbítás eseteit és feltételeit a hatóság az engedélyben meghatározza. A megfelelőség igazolásával még nem rendelkező berendezésre engedély legfeljebb 3 hónapra egyszer adható. (3) A határidő lejárta előtt az engedély feltételeit a hatóság megváltoztathatja, illetőleg az engedélyt visszavonhatja, ha a) az üzemeltetés más jogszerűen üzemben tartott állomásnak káros zavart okoz; b) a frekvenciahasználat bármely feltétele úgy változik meg, hogy az a további üzemeltetést nem biztosítja. (4) A rádióengedély a 15. § szerinti adatokat tartalmazza. (5) A jogosult azon kérelmére kiadott rádióengedély, amely saját gyakorlataival (gyakorlásaival), diplomáciai vonatkozású feladataival, rendezvényeivel, kiállítással, illetve bemutatóval) kapcsolatos a 15. § b), c), j), valamint – esetlegesen szűkített adattartalommal – az a), d), e) és f) pontokban megállapított adatokat tartalmazza."
+    },
+    {
+      "provision_ref": "s22",
+      "chapter": "II. Fejezet - RÁDIÓFREKVENCIÁK HASZNÁLATI JOGA",
+      "section": "22",
+      "title": "22. §",
+      "content": "22. § (1) A hatóság keret-rádióengedély alapján engedélyezi állomás, hálózat, rendszer üzemben tartását a) azoknál a rádió alkalmazásoknál, amelyeket kizárólag rendkívüli, vagy szükségállapot, vagy megelőző védelmi helyzet idején, illetőleg az Alkotmány 19/E. §-ában foglalt intézkedés során tartanak üzemben, és amelyekhez a frekvenciákat a rendkívüli állapotra kijelölhető frekvenciák jegyzéke tartalmazza; b) azoknál a rádió-távközlési szolgálatoknál és alkalmazásoknál, amelyekhez nemzeti vagy nemzetközi frekvenciakiosztás alapján kötelező érvényű frekvenciajegyzéket fogadtak el; c) azon állomásoknál, hálózatoknál, amelyeknél a hatóság a telepítési célú frekvenciakijelölésben a felhasználót blokkgazdálkodásra feljogosította. (2) Az engedély a 15. §-ban meghatározottakon túl tartalmazza: a) a frekvenciablokkok felhasználásának feltételeit, a blokkgazdálkodásra való feljogosítás visszavonásának (megszűnésének) eseteit; b) a frekvenciablokkok felülvizsgálatának határidejét; c) a felhasználó adatszolgáltatási kötelezettségeit."
+    },
+    {
+      "provision_ref": "s23",
+      "chapter": "III. Fejezet - AZ ELLENŐRZÉS SZABÁLYAI",
+      "section": "23",
+      "title": "23. §",
+      "content": "23. § (1) A hatóság a frekvenciagazdálkodásnak e rendelet által érintett területein hatósági ellenőrzést végez. (2) Az ellenőrzési jogkör a frekvenciakijelöléssel, illetőleg a rádióengedéllyel összefüggésben az alábbiakra terjed ki: a) érvényesülnek-e az Eht.-ben és ezen rendeletben foglaltak; b) betartják-e a frekvenciakijelölésben vagy rádióengedélyben meghatározott előírásokat, feltételeket, valamint minőségi követelményeket. (3) Az ellenőrzés történhet személyesen, írásos megkeresés és rádiómérések útján. (4) Az ellenőrzés érdekében a hatóság jogszabályban előírt adatok, okmányok, igazolások bekérésére, megtekintésére jogosult. (5) Személyes ellenőrzést – előzetes egyeztetést követően – a hatóság írásban feljogosított képviselője végezhet. (6) Az engedélyes köteles gondoskodni az ellenőrzés feltételeinek biztosításáról."
+    },
+    {
+      "provision_ref": "s24",
+      "chapter": "III. Fejezet - AZ ELLENŐRZÉS SZABÁLYAI",
+      "section": "24",
+      "title": "24. §",
+      "content": "24. § (1) A hatóság a nem polgári célú frekvenciát használó rádióberendezések megfelelőség igazolásáról szóló HM rendeletben előírt, a berendezések megfelelőségét igazoló okiratok, műszaki dokumentációk tartalmát és valódiságát – a frekvenciakijelölési és rádióengedélyezési eljárás során – ellenőrzi. (2) A hatóság az (1) bekezdés szerinti ellenőrzése során vizsgálja a megfelelőséget igazoló okmányt, vizsgálhatja a megfelelőségi eljárás dokumentációját, illetőleg azt, hogy van-e magyar nyelvű használati-kezelési útmutató és az megfelel-e a rádióberendezésekről és az elektronikus hírközlő végberendezésekről, valamint megfelelőségük kölcsönös elismeréséről szóló informatikai és hírközlési miniszteri rendeletben előírt követelményeknek. (3) A hatóság a berendezések megfelelőségének egyes jellemzőit – előzetes egyeztetés után – a telepítést követően, illetőleg az üzemben tartás során is ellenőrizheti, illetőleg ellenőriztetheti. (4) A (3) bekezdés szerinti ellenőrzés során a hatóság vizsgálja azt, hogy a forgalomba hozott berendezést és használati-kezelési útmutatóját ellátták-e az előírt jelölésekkel, vizsgálhatja, az alapvető biztonságtechnikai követelményeknek való megfelelés kivételével, hogy a berendezés megfelel-e a megfelelőségi nyilatkozatban foglaltaknak."
+    },
+    {
+      "provision_ref": "s25",
+      "chapter": "III. Fejezet - AZ ELLENŐRZÉS SZABÁLYAI",
+      "section": "25",
+      "title": "25. §",
+      "content": "25. § (1) A hatóság ellenőrzés keretében az általa kiadott engedélyben megjelölt bármely berendezést, annak tartozékaival együtt – a rejtjelző eszközök kivételével – megvizsgálhatja, ellenőrizheti. (2) Különleges esetekben (elsősorban a zárt objektumba való belépés, a minősített iratokba való betekintés) az ellenőrzés a hatóság és az engedélyes előzetes egyeztetése után hajtható végre. (3) A hatóság jogosult a jogszerű használat ellenőrzése érdekében, a sugárzott jelek vétele útján – az ellenőrzöttek értesítése nélkül is – ellenőrizni. (4) A hatóság az ellenőrzés során megismert információkat kizárólag jogszabályban megállapított feladataival kapcsolatban használhatja fel, a vonatkozó jogszabályok betartásával. (5) A személyes, illetőleg rádiómérés útján történő ellenőrzést a hatóság legalább három fős csoportja végzi, és annak adatait, eredményeit jegyzőkönyvben rögzíti. A jegyzőkönyvet a hatóság az engedélyesnek megküldi."
+    },
+    {
+      "provision_ref": "s26",
+      "chapter": "III. Fejezet - AZ ELLENŐRZÉS SZABÁLYAI",
+      "section": "26",
+      "title": "26. §",
+      "content": "26. § (1) Az ellenőrzésről készült jegyzőkönyv alapján a hatóság a berendezésekre vonatkozó követelményektől, valamint a frekvenciakijelölésben, illetőleg a rádióengedélyben szereplő előírásoktól és feltételektől való eltérések megszüntetését kezdeményezi. (2) A hatóság, amennyiben engedély nélküli felhasználás jut tudomására, annak beszüntetését kezdeményezi."
+    },
+    {
+      "provision_ref": "s27",
+      "chapter": "III. Fejezet - AZ ELLENŐRZÉS SZABÁLYAI",
+      "section": "27",
+      "title": "27. §",
+      "content": "27. § Az engedélyes köteles a rádióengedélyben meghatározott előírások és feltételek teljesülését tervszerűen – az engedélyezett adatoktól való eltérés gyanúja esetén soron kívül – ellenőrizni, vagy az ellenőrzés elvégzésére intézkedni, és az ellenőrzésről készült jegyzőkönyvet az ellenőrzés tárgyát képező következő ellenőrzés jegyzőkönyvének elkészültéig megőrizni."
+    },
+    {
+      "provision_ref": "s28",
+      "chapter": "IV. Fejezet - A RÁDIÓ-MÉRŐSZOLGÁLATI ÉS A RÁDIÓZAVAR-ELHÁRÍTÁSI TEVÉKENYSÉG RENDJE",
+      "section": "28",
+      "title": "28. §",
+      "content": "28. § (1) A tevékenység kiterjed a rádiózavar-elhárítással, az ellenőrzéssel, a rádiómegfigyeléssel és az adatszolgáltatással összefüggő mérésekre. (2) A tevékenység megvalósulhat hatósági kezdeményezésre, illetőleg kérelemre (bejelentésre) vagy megkeresésre. (3) A hatóság külön megállapodás alapján a felhasználó és más szervek mérőkapacitását a rádió-mérőszolgálati tevékenységhez igénybe veheti, illetőleg a felhasználót saját mérőkapacitásával támogathatja. (4) A mérőkapacitások (3) bekezdés szerinti alkalmazása a hatóság és a felhasználó között térítésmentes, más szervek vonatkozásában a térítés – külön rendelkezés hiányában – megállapodásban rögzítettek szerint történik."
+    },
+    {
+      "provision_ref": "s29",
+      "chapter": "IV. Fejezet - A RÁDIÓ-MÉRŐSZOLGÁLATI ÉS A RÁDIÓZAVAR-ELHÁRÍTÁSI TEVÉKENYSÉG RENDJE",
+      "section": "29",
+      "title": "29. §",
+      "content": "29. § (1) A rádiómérés – a mérésügyről szóló 1991. évi XLV. törvény 6. §-ának (1) bekezdése értelmében – joghatással járó tevékenység. A hatóság a rádióméréseket hitelesített vagy használati etalonnal ellenőrzött mérőeszközzel végzi. (2) A rádiómérő és rádiózavar-elhárító szolgálat működési rendjét a hatóság vezetője állapítja meg. (3) A rádiómérés útján megismert adatokat, információkat a hatóság csak az 1. § (1) bekezdésében meghatározott tevékenységek hatósági eljárásaiban, valamint a 40. § (1) bekezdésében meghatározott adatszolgáltatások érdekében – a vonatkozó jogszabályok betartásával – használhatja fel. (4) A hatóság rádiómérés során érzékelt (rögzített) rádióforgalmazások információtartalmát kizárólag a frekvenciagazdálkodással összefüggő szabálytalanságok (jogsértések) megállapítására és bizonyítására – a vonatkozó jogszabályok betartásával – használhatja."
+    },
+    {
+      "provision_ref": "s30",
+      "chapter": "IV. Fejezet - A RÁDIÓ-MÉRŐSZOLGÁLATI ÉS A RÁDIÓZAVAR-ELHÁRÍTÁSI TEVÉKENYSÉG RENDJE",
+      "section": "30",
+      "title": "30. §",
+      "content": "30. § A hatóság a nem polgári célú rádió-távközlési szolgálatok üzemében észlelt rádiózavar esetén a jogosult kérelmére (bejelentésére), illetőleg saját rádiómérései alapján zavarvizsgálatot végez vagy kezdeményez. A hatóság a Nemzeti Hírközlési Hatóság belföldi jogsegély keretében küldött megkeresésére a jogosultnál zavarvizsgálatot végez."
+    },
+    {
+      "provision_ref": "s31",
+      "chapter": "IV. Fejezet - A RÁDIÓ-MÉRŐSZOLGÁLATI ÉS A RÁDIÓZAVAR-ELHÁRÍTÁSI TEVÉKENYSÉG RENDJE",
+      "section": "31",
+      "title": "31. §",
+      "content": "31. § A rádiózavart vélelmező jogosult a zavarbejelentést megelőzően a nem rádiózavartól származó vételi hiba felfedése érdekében megvizsgálja a zavart állomás, hálózat, rendszer műszaki állapotát, a rádió-távközlési szolgálatra vonatkozó szabályok betartását, illetőleg a természeti körülményeket, valamint ellenőrzi a hatóság által meghatározott műszaki követelmények és feltételek betartását."
+    },
+    {
+      "provision_ref": "s32",
+      "chapter": "IV. Fejezet - A RÁDIÓ-MÉRŐSZOLGÁLATI ÉS A RÁDIÓZAVAR-ELHÁRÍTÁSI TEVÉKENYSÉG RENDJE",
+      "section": "32",
+      "title": "32. §",
+      "content": "32. § (1) A rádiózavart a hatóságnál lehet bejelenteni. A zavarbejelentés tartalmazza: a) a bejelentő adatait (név, cím, telefonszám); b) a zavart állomás, hálózat üzemeltetőjének megnevezését, telephelyét; c) a zavart állomás, hálózat rádióengedélyének számát; d) a zavart frekvenciát; e) az észlelt rádiózavar leírását (a zavar feltételezett jellege, zavarás intenzitása, hatása az állomás, hálózat rendeltetésszerű használatára, a zavarás időpontja, időtartama, gyakorisága, a feltételezett zavarforrás megnevezése, települési helye vagy iránya és egyéb rendelkezésre álló információk); f) a rendelkezésre álló, zavarást bizonyító adatokat, adathordozókat; g) a bejelentés keltét. (2) Kiemelt biztonságot igénylő rádió-távközlési szolgálat (légiforgalmi rádiónavigációs, rádiólokációs) és kiemelt eseményt biztosító rádió-távközlési szolgálatok zavarása esetén a zavar kevesebb adattal is bejelenthető, azok utólagos kibővítésével."
+    },
+    {
+      "provision_ref": "s33",
+      "chapter": "IV. Fejezet - A RÁDIÓ-MÉRŐSZOLGÁLATI ÉS A RÁDIÓZAVAR-ELHÁRÍTÁSI TEVÉKENYSÉG RENDJE",
+      "section": "33",
+      "title": "33. §",
+      "content": "33. § (1) A zavarvizsgálatot a hatóság – bejelentés alapján – hatáskörének és illetékességének megállapításával megkezdi. Egyidejűleg több jogosulttól érkező zavarbejelentés esetén a zavarvizsgálat sorrendjét a hatóság vezetője állapítja meg. (2) A hatóság a tényállás tisztázásához a bejelentőtől, illetőleg a Nemzeti Hírközlési Hatóságtól információkat kérhet. (3) A hatóság a rádiózavar okának megállapítására a) bármely berendezés, állomás, hálózat, rendszer, nagyfrekvenciás villamos-, illetőleg nagyfrekvenciás jelet vagy mellékhatást keltő eszköz kisugárzott jelét rádiómérés útján ellenőrizheti; b) bármely nem polgári célra engedélyezett berendezést, állomást, hálózatot, rendszert (annak tartozékaival együtt) az alkalmazás helyszínén megvizsgálhat, amennyiben az a) pont alapján zavaró jellege valószínűsíthető; c) együttműködik a rádiózavar elhárításában érintett jogosult zavarkivizsgáló szervezetével, illetőleg a Nemzeti Hírközlési Hatósággal. (4) A zavarvizsgálatról a hatóság jegyzőkönyvet vesz fel, amelyet 5 évig megőriz. (5) A jegyzőkönyv megállapítása alapján a hatóság határozatot hoz, amelyben a) felszólítja a rádiózavart okozó jogosultat a rádiózavarás megszüntetésére az Eht. 71. §-ának (2)–(3) bekezdése szerint; b) megkeresi a Nemzeti Hírközlési Hatóságot a rádiózavar vizsgálatára és annak elhárítására, amennyiben a zavarást polgári célú berendezés, állomás, hálózat, rendszer, illetőleg bármilyen nagyfrekvenciás villamos-, illetőleg nagyfrekvenciás jelet vagy mellékhatást keltő eszköz okozza; c) felszólítja a jogosultat, illetőleg megkeresi a Nemzeti Hírközlési Hatóságot – az Eht. 71. §-ának (3)–(4) bekezdése alapján – a rádiózavart elszenvedő rádióberendezés áthelyezésére vagy tartozékainak megváltoztatására. (6) A rádiózavart okozó jogosult – a rendeltetéséből adódó feladatok végrehajtása mellett – haladéktalanul megteszi a tőle elvárható intézkedéseket a rádiózavar megszüntetésére, illetőleg korlátozására. (7) A zavarvizsgálat végrehajtásáról, főbb megállapításairól és a tett intézkedésekről a hatóság a bejelentőt, illetőleg amennyiben érintett, a Nemzeti Hírközlési Hatóságot írásban tájékoztatja."
+    },
+    {
+      "provision_ref": "s34",
+      "chapter": "IV. Fejezet - A RÁDIÓ-MÉRŐSZOLGÁLATI ÉS A RÁDIÓZAVAR-ELHÁRÍTÁSI TEVÉKENYSÉG RENDJE",
+      "section": "34",
+      "title": "34. §",
+      "content": "34. § (1) A rádiózavart bejelentő a zavar megszűnése esetén a bejelentését köteles visszavonni. A visszavonást követően a hatóság az eljárást megszünteti, illetőleg a Nemzeti Hírközlési Hatóságtól a belföldi jogsegély keretében küldött megkeresést visszavonja. (2) A bejelentő a rádiózavar-elhárításról kapott tájékoztató után írásban nyilatkozik az eredményességről és a rádiózavar megszűnéséről."
+    },
+    {
+      "provision_ref": "s35",
+      "chapter": "IV. Fejezet - A RÁDIÓ-MÉRŐSZOLGÁLATI ÉS A RÁDIÓZAVAR-ELHÁRÍTÁSI TEVÉKENYSÉG RENDJE",
+      "section": "35",
+      "title": "35. §",
+      "content": "35. § (1) A hatóság a rádiózavar-elhárítást rendkívüli állapot, szükségállapot, megelőző védelmi helyzet és veszélyhelyzet idején, illetőleg az Alkotmány 19/E. §-ában foglalt intézkedés során soron kívül végzi. (2) A hatóság a rádiózavar-elhárítást a jogosult indokolt kérelmére soron kívül végzi: a) nemzetközi szerződés, megállapodás és más állami kötelezettségvállalás fennállása esetén; b) fontos nemzetbiztonsági vagy közbiztonsági ok fennállása esetén. (3) A hatóság a zavarvizsgálatot nemzetközi zavarbejelentésre soron kívül megkezdi abban az esetben is, ha a zavarbejelentés a Nemzeti Hírközlési Hatóságtól érkezik."
+    },
+    {
+      "provision_ref": "s36",
+      "chapter": "IV. Fejezet - A RÁDIÓ-MÉRŐSZOLGÁLATI ÉS A RÁDIÓZAVAR-ELHÁRÍTÁSI TEVÉKENYSÉG RENDJE",
+      "section": "36",
+      "title": "36. §",
+      "content": "36. § A hatóság rádiómegfigyelési feladatokat hajt végre: a) frekvenciagazdálkodási feladatainak – kiemelten a spektrumgazdálkodás, a hatósági eljárások – támogatására; b) megelőzésként a rádiószolgálatok rádiózavar-mentes működési feltételeinek biztosítására; c) a Nemzeti Hírközlési Hatóság kezdeményezésére."
+    },
+    {
+      "provision_ref": "s37",
+      "chapter": "IV. Fejezet - A RÁDIÓ-MÉRŐSZOLGÁLATI ÉS A RÁDIÓZAVAR-ELHÁRÍTÁSI TEVÉKENYSÉG RENDJE",
+      "section": "37",
+      "title": "37. §",
+      "content": "37. § (1) A hatóság az állomások, hálózatok, rendszerek műszaki jellemzőit méri: a) elemzések készítéséhez a sávfelosztás és a frekvenciakiosztási tervek elkészítése céljából; b) adatok gyűjtéséhez az állomások működéséről a sáv és a frekvencia kijelölhetőségének, illetőleg a felhasználás engedélyezhetőségének vizsgálata céljából; c) statisztikai információk gyűjtéséhez a sávfoglaltság műszaki és felhasználási jellemzőiről az adatszolgáltatási tevékenység érdekében. (2) A hatóság EMC vizsgálatokat végez: a) a frekvenciakiosztási tervek elkészítéséhez; b) a frekvenciakijelölési és a rádióengedélyezési eljárás támogatásához; c) a lehetséges rádiózavar-források feltérképezéséhez; d) a berendezések elektromágneses összeférhetőségének megállapítására."
+    },
+    {
+      "provision_ref": "s38",
+      "chapter": "IV. Fejezet - A RÁDIÓ-MÉRŐSZOLGÁLATI ÉS A RÁDIÓZAVAR-ELHÁRÍTÁSI TEVÉKENYSÉG RENDJE",
+      "section": "38",
+      "title": "38. §",
+      "content": "38. § A hatóság az Informatikai és Hírközlési Minisztérium, a Nemzeti Hírközlési Hatóság, illetőleg az Észak-atlanti Szerződés Szervezete illetékes szervének megkeresésére nemzeti és nemzetközi együttműködésben rádió-mérőszolgálati tevékenységet lát el: a) a Nemzetközi Távközlési Egyesület [ITU] Egyezményét (a továbbiakban: Egyezmény) kiegészítő Rádió-távközlési Szabályzatában [Radio Regulations] (a továbbiakban: Rádiószabályzat) meghatározott rádiószolgálatok rádiózavar-mentes működésének biztosítása; b) a frekvenciasáv felosztása szükség szerinti megváltoztatásának előkészítése érdekében."
+    },
+    {
+      "provision_ref": "s39",
+      "chapter": "V. Fejezet - AZ ADATSZOLGÁLTATÁS RENDJE",
+      "section": "39",
+      "title": "39. §",
+      "content": "39. § A felhasználók – a hatóság kezdeményezésére – kötelesek adatot szolgáltatni minden távlati spektrumgazdálkodást és -tervezést érintő kérdésről, valamint a blokkgazdálkodás keretében létesített alkalmazásról."
+    },
+    {
+      "provision_ref": "s40",
+      "chapter": "V. Fejezet - AZ ADATSZOLGÁLTATÁS RENDJE",
+      "section": "40",
+      "title": "40. §",
+      "content": "40. § (1) A hatóság köteles adatszolgáltatást nyújtani jogszabályban erre feljogosított más szervek részére, továbbá a) jogszabály szerint külön megállapodásban rögzített módon és tartalommal a Nemzeti Hírközlési Hatóság részére; b) spektrumtervezési, egyeztetési célból az Informatikai és Hírközlési Minisztérium részére. (2) A hatóság – a jogosult kérelmére – tervezési célra, a frekvenciahasználat előkészítéséhez megadja az állomások, hálózatok, rendszerek tervezéséhez szükséges adatokat, és meghatározza: a) a tervezéshez kijelölhető sávot, sávrészt vagy frekvenciát, csatornát; b) a frekvenciafelhasználás feltételeit; c) az elektromágneses összeférhetőség követelményeit; d) a nemzetközi koordináció lefolytatásához szükséges adatok körét és formáját; e) a telepítési célú frekvenciakijelölési kérelemhez benyújtandó műszaki terv alaki és tartalmi követelményeit; f) a szolgáltatott adatok érvényességének határidejét; g) egyéb adatok, nyilatkozatok és okiratok (másolatok) benyújtásának igényét. (3) A hatóság – a felhasználó kérelmére – a távlati tervezéshez adatokat szolgáltat. (4) A hatóság a jelen rendeletben meghatározott adatok struktúrájára, tartalmára, formátumára vonatkozó részletes követelményeket – a hatályos hazai és nemzetközi rádió- távközlési, frekvenciagazdálkodási megállapodásokkal, adatszolgáltatási kötelezettségekkel, az adatbázisok közötti elektronikus kapcsolat kiépítésének igényeivel összhangban – kidolgozza, rendszeresen pontosítja, és kérésre a felhasználók rendelkezésére bocsátja. (5) Az elektronikus ügyintézést szolgáló adatok struktúrájára, tartalmára, formátumára vonatkozó követelmények kidolgozása, pontosítása során a hatóság az érintett felhasználókkal egyeztet."
+    },
+    {
+      "provision_ref": "s41",
+      "chapter": "V. Fejezet - AZ ADATSZOLGÁLTATÁS RENDJE",
+      "section": "41",
+      "title": "41. §",
+      "content": "41. § A nem polgári célú frekvenciagazdálkodás körébe tartozó valamennyi adatszolgáltatási tevékenység térítésmentes."
+    },
+    {
+      "provision_ref": "s42",
+      "chapter": "V. Fejezet - AZ ADATSZOLGÁLTATÁS RENDJE",
+      "section": "42",
+      "title": "42. §",
+      "content": "42. § A közbeszerzési eljárás megindításának érdekében kért tervezési adatszolgáltatás keretében a hatóság csak a 40. § (2) bekezdés a)–b), f) pontjaiban leírtakat határozza meg."
+    },
+    {
+      "provision_ref": "s43",
+      "chapter": "V. Fejezet - AZ ADATSZOLGÁLTATÁS RENDJE",
+      "section": "43",
+      "title": "43. §",
+      "content": "43. § (1) A hatóság e rendelet végrehajtása körében köteles engedélyesenként nyilvántartani az érvényes közigazgatási határozatokat és az abban foglalt a) berendezések alapvető műszaki jellemzőit, b) állomások telepítési, sugárzási jellemzőit, hordozható (mozgó) berendezés esetén az üzemben tartás körzetét is, c) hálózat rendszertechnikai felépítését, üzemidejét, a telepítés, üzemben tartás célját (a rendeltetést). (2) A hatóság e rendelet végrehajtása körében köteles megőrizni: a) a kiadott közigazgatási határozatok másodpéldányait az érvényesség megszűnését követő 5 évig; b) a kérelmek, vizsgálatok és engedélyezések okmányait a rádióengedély kiadását, illetőleg a rádiózavar megszűnéséről szóló nyilatkozat beérkezését követő 5 évig."
+    },
+    {
+      "provision_ref": "s44",
+      "chapter": "VI. Fejezet - A FREKVENCIASÁVOK FELHASZNÁLÁSI SZABÁLYAI",
+      "section": "44",
+      "title": "44. §",
+      "content": "44. § A frekvenciasávok nemzeti felosztásának megállapításáról szóló kormányrendelet felosztási táblázata „nem polgári” oszlopában megadott frekvenciasávokban a vonatkozó nemzetközi ajánlásokban meghatározott feltételekkel, egyedi elbírálás alapján – katonai rádióberendezések tekintetében a Nemzetközi Távközlési Egyesület Alapokmánya 48. cikkére is tekintettel –, valamint a jelen rendelet 5. számú mellékletben foglaltak szerint jelölhető ki frekvencia."
+    },
+    {
+      "provision_ref": "s45",
+      "chapter": "VI. Fejezet - A FREKVENCIASÁVOK FELHASZNÁLÁSI SZABÁLYAI",
+      "section": "45",
+      "title": "45. §",
+      "content": "45. § A frekvenciasávok nemzeti felosztásának megállapításáról szóló kormányrendelet felosztási táblázata „közös” oszlopában megadott frekvenciasávokban a polgári célú alkalmazásokra megállapított sávfelhasználási szabályok a nem polgári célú azonos rádióalkalmazásokra is vonatkoznak, amennyiben ez a kitétel a megfelelő nemzeti lábjegyzetben szerepel."
+    },
+    {
+      "provision_ref": "s46",
+      "chapter": "VII. Fejezet - VEGYES RENDELKEZÉSEK",
+      "section": "46",
+      "title": "46. §",
+      "content": "46. § (1) A frekvenciakijelölésről, a rádióengedélyről, illetőleg a zavarelhárításról szóló közigazgatási határozat ellen a hatósághoz benyújtott fellebbezéseket a Kormányzati Frekvenciagazdálkodási Tanács állásfoglalásával együtt a hatóság terjeszti fel a honvédelmi miniszterhez. (2) Nemzetközi szerződésben, megállapodásban rögzített és más állami kötelezettségvállalás teljesítése esetén, továbbá rendkívüli állapot és szükségállapot, valamint megelőző védelmi helyzet idején az egyedi engedélyezési eljárásokat soron kívül kell lefolytatni. (3) Soron kívüli eljárás kérhető – az R. 6. §-ának (4) bekezdésében foglaltakon kívül – a felhasználó igazgatási funkciójával, gazdasági érdekével összefüggő esetekben is, ha a késedelem jelentős hátránnyal, illetőleg kárral járna. A kérelemhez csatolni kell a frekvenciatervezésért és -használatért felelős vezető közvetlen felettesének nyilatkozatát a soronkívüliség indokolásáról. A soron kívüli eljárás alapját nem képezheti kötelességmulasztásból eredő késedelem. (4) A frekvenciakijelölési és a rádióengedélyezési hatósági eljárások rendjéről a kormányzati célú frekvenciagazdálkodásban című 9/1998. (VI. 3.) HM rendelet 37. §-ának (1) bekezdése szerint kiadott, hatályos csoportos rádióengedély alapján – külön kérelemre – a hatóság blokkgazdálkodást engedélyezhet. (5) A frekvenciakijelölési és a rádióengedélyezési hatósági eljárások rendjéről a kormányzati célú frekvenciagazdálkodásban című 9/1998. (VI. 3.) HM rendelet 24. §-ának (1) bekezdése szerint kiadott, hatályos csoportos rádióengedély keret-rádióengedélynek minősül. (6) A belügyminiszter irányítási, illetve felügyeleti hatáskörébe tartozó felhasználók egyedi, sürgősségi esetekben és hatósági ellenőrzés során a hatósággal közvetlen kapcsolatba kerülhetnek, ekkor a kapcsolatot kezdeményező tájékoztatja a Belügyminisztérium illetékes szervét."
+    },
+    {
+      "provision_ref": "s47",
+      "chapter": "VIII. Fejezet - ZÁRÓ RENDELKEZÉSEK",
+      "section": "47",
+      "title": "47. §",
+      "content": "47. § (1) Ez a rendelet a kihirdetését követő 15. napon lép hatályba. (2)"
+    },
+    {
+      "provision_ref": "s48",
+      "chapter": "VIII. Fejezet - ZÁRÓ RENDELKEZÉSEK",
+      "section": "48",
+      "title": "48. §",
+      "content": "48. § (1) A hatóság által korábban kiadott engedélyek módosítására vonatkozó kérelmeket, valamint a folyamatban lévő kérelmeket jelen rendeletben előírt eljárás szerint kell engedélyezni. (2) A 46. § (4) bekezdése szerinti csoportos rádióengedélyek módosítását – a berendezések jogfolytonos megfelelőségének kivételével – a jelen rendeletben előírt eljárás szerint kell engedélyezni. A nem polgári célú harmonizált frekvenciasávú rádióalkalmazások rádióberendezéseinek jegyzéke Sorszám Frekvenciasáv Rádióberendezés 1. 380–385 / 390–395 MHz Egységes Digitális Rádiótávközlő rendszer végberendezései Rádió-távközlési szolgálatok, amelyekre frekvenciakiosztási terv készíthető a) Földfelszíni rádió-távközlési szolgálatok: – légiforgalmi mozgószolgálat (R és OR); – légiforgalmi rádiónavigáció szolgálat; – rádiólokáció szolgálat (légiforgalmi, légtérfigyelési, légvédelmi alkalmazások); – belvízi mozgószolgálat; – belvízi rádiónavigáció. b) Űrtávközlési szolgálatok: – műholdas légiforgalmi mozgószolgálat (R és OR). A műszaki terv tartalma a) Az állomás, hálózat, rendszer rendeltetésének leírása. b) Az ellátandó rádió-távközlési igény kielégítésének lehetséges változatai, és azoknak – a frekvenciákkal történő tervszerű gazdálkodás követelményeit is figyelembe vevő – számításokkal alátámasztott indokolása. c) Az állomás, hálózat, rendszer rendszertechnikai felépítésének leírása, blokkvázlattal (terület A4 vagy A3 méretű térképvázlaton, az azonosítást biztosító méretarányban), forgalmi és kapacitásadatokkal. d) Igényelt frekvencia. e) Az állomások telepítési, sugárzási jellemzői, hordozható (mozgó) berendezés esetén az üzemben tartás körzete is. f) Az EMC vizsgálatok (számítások) eredményei és értékei. g) Nemzetközi és hazai koordinációk lefolytatásához szükséges adatok a hatóság követelményei szerint. h) A berendezések, antennák műszaki adatai, mennyisége. i) Építési korlátozás igénye esetén igazoló számítások, illetőleg tervek. j) Az állomás, hálózat, rendszer tervezéséhez kapott adatszolgáltatás nyilvántartási száma, dátuma. k) A tervezésnél figyelembe vett hazai és nemzetközi előírások, ajánlások jegyzéke. l) A tervezői jogosultságot igazoló okirat száma. m) A terv lezárásának dátuma a (vezető) tervező eredeti aláírásával. n) Minősített tervdokumentációnál: a minősítő által kijelölt nyílt (bejelentéshez szükséges és egyéb) adatok. A frekvencia-használatra vonatkozó előírásokat tartalmazó okmányok 1. Rádióengedély 2. A rádióengedély másolata, kivonata 3. Üzemeltetési igazolás, mely tartalmazza: a) Az üzemeltetési igazolást kiállító jogosult megnevezése, címe. b) Az igazolás száma. c) A rádióengedély eredeti száma, érvényességi ideje, az engedélyező hatóság megnevezése. d) Az üzemeltető megnevezése, címe. e) A berendezés típusa. f) Az engedélyezett üzemi frekvencia, csatorna. g) A telepítési, üzemeltetési (benne a sugárzási) feltételek és korlátok, hordozható (mozgó) berendezés esetén az üzemben tartás körzete is. h) Az igazolás érvényességi ideje. i) A jogosult aláírása és bélyegzője. 4. Az engedélyesnél rendszeresített okmány, amely legalább az Üzemeltetési igazolás esetében meghatározott c)–g) pontokban foglaltakat tartalmazza. Felhasználási szabályok a nem polgári célú frekvenciasávok használatához 1. Kizárólag az (OR) légi mozgószolgálat részére felosztott: 3025–3155 kHz, 3900–3950 kHz, 4700–4750 kHz, 5680–5730 kHz, 6685–6765 kHz, 8965–9040 kHz, 11 175–11 275 kHz, 13 200–13 260 kHz, 15 010–15 100 kHz és a 17 970–18 030 kHz frekvenciasávokban a Rádiószabályzat 26. Függeléke által meghatározottak szerint jelölhető ki frekvencia. 2. 3. A 380–385/390–395 MHz sávokban a készenléti szolgálatok és a kormányzat Egységes Digitális Rádiótávközlő rendszere (EDR) részére az ERC/DEC/(99)02, az ERC/DEC/(01)19, az ECC/DEC/(06)05 és az ECC/DEC/(08)05 Határozatok, valamint a CEPT T/R 02-02 Ajánlás alapján jelölhető ki frekvencia. 4. A 4400–5000 MHz és a 14 760–14 809/ 15 180–15 229 MHz frekvenciasávokban a hatóság az illetékes felhasználóval egyeztetett Sávfelhasználási Ajánlása alapján jelölhető ki frekvencia. 5. A 7125–7425 MHz frekvenciasávban állandó telephelyű, pont-pont közötti, 2–155 Mbps átviteli kapacitású digitális rádiórelé berendezések részére az ECC/REC/(02)06 Ajánlás alapján jelölhető ki frekvencia 3,5 MHz, 7 MHz, 14 MHz és 28 MHz csatornaosztás szerinti elrendezésben. 6. A 22,442–22,6/23,45–23,6 GHz frekvenciasávban, állandó telephelyű pont-pont közötti 2–155 Mbps átviteli kapacitású digitális rádiórelé berendezések részére a CEPT T/R 13-02 (Montreux 1993) Ajánlás A. mellékletében meghatározott feltételekkel jelölhető ki frekvencia, 3,5 MHz, 7 MHz, 14 MHz és 28 MHz csatornaosztás szerinti elrendezésben. 1 A rendeletet a 41/2013. (VII. 17.) NFM rendelet 1. § a) pontja hatályon kívül helyezte 2013. július 18. napjával. 2 A 2. § (1) bekezdésének 4. pontja a 6/2009. (VII. 3.) MeHVM rendelet 1. § (1) bekezdésével megállapított szöveg. 3 NATO Joint Civil/Military Frequency Agreement (NJFA), valamint ACP 190 NATO Guide Spectrum Management in Military Operations. 4 Lásd: 346/2004. (XII. 22.) Korm. rendelet. 5 Lásd: 2/2005. (II. 1.) HM rendelet. 6 Lásd: 5/2004. (IV. 13.) IHM rendelet. 7 A 47. § (2) bekezdését a 118/2008. (V. 8.) Korm. rendelet 13. §-ának 51. pontja hatályon kívül helyezte. 8 Az 5. számú melléklet a 6/2009. (VII. 3.) MeHVM rendelet 1. § (2) bekezdésével megállapított szöveg. 9 Az 5. számú melléklet 2. pontját a 6/2009. (VII. 3.) MeHVM rendelet 2. § (2) bekezdése hatályon kívül helyezte."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "Zavarvizsgálat",
+      "definition": "a rádiózavar-elhárítás érdekében végzett rádiómérések, vizsgálatok, adatgyűjtések és elemzések összessége. (2) Az e rendeletben alkalmazott egyéb frekvenciagazdálkodási fogalmakat az Eht. 188. §-a és a frekvencia-sávok nemzeti felosztására vonatkozó jogszabály szerint kell értelmezni.",
+      "source_provision": "s2"
+    }
+  ]
+}

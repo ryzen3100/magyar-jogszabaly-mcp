@@ -1,0 +1,365 @@
+{
+  "id": "hu-law-2022-13-b0-8e",
+  "type": "statute",
+  "title": "13/2022. (IV. 7.) ORFK utasítás a pilóta nélküli állami légijárművek alkalmazásával kapcsolatos feladatokról",
+  "status": "in_force",
+  "in_force_date": "2022-05-01",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2022-13-B0-8E",
+  "description": "a pilóta nélküli állami légijárművek alkalmazásával kapcsolatos feladatokról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A jogalkotásról szóló 2010. évi CXXX. törvény 23. § (4) bekezdés c) pontjában, valamint a Rendőrségről szóló 1994. évi XXXIV. törvény 6. § (1) bekezdés b) pontjában foglaltak alapján, az általános rendőrségi feladatok ellátására létrehozott szerv pilóta nélküli állami légijárműveinek alkalmazásával kapcsolatos feladatok szabályozására kiadom az alábbi utasítást:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "I. FEJEZET"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "ÁLTALÁNOS RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "1. Az utasítás hatálya"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "1. Az utasítás hatálya az általános rendőrségi feladatok ellátására létrehozott szerv (a továbbiakban: Rendőrség) központi, területi és helyi szerveire terjed ki."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "2. Az utasítás tárgyi hatálya kiterjed a területi szervek kezelésében és nyilvántartásában lévő pilóta nélküli állami légijármű-rendszerekre (a továbbiakban: UAS), valamint az azokra vonatkozó szolgáltatásokra."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "2. Értelmező rendelkezések"
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "3. Ezen utasítás alkalmazásában"
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "a) adatfeltöltő: a tevékenység-irányítási központok, továbbá a Készenléti Rendőrség (a továbbiakban: KR) erre a feladatra kiképzett és kijelölt, a Felületen történő adatfeltöltésre jogosultsággal rendelkező állománya;"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "b) Felület: a pilóta nélküli légijárművek használatát támogató, az aktuális légtérinformációkat és -korlátozásokat tartalmazó honlap (IXO Console hatósági felület);"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "c) helyszínelő egység: az üzemben tartó területi szerv vezetője által kijelölt vezető beosztású személy által vezetett, valamint a közlekedési baleset (esemény) kapcsán eljárni illetékes helyszínelő(k)ből álló csoport;"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "d) mobilalkalmazás: a pilóta nélküli légijárművek használatát támogató, az aktuális légtérinformációkat és -korlátozásokat tartalmazó mobilalkalmazás (mydronespace);"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "e) UAS kezelő személyzet: az UAS vezetésére kiképzett személy, aki az UAS-műveletet a jogszabályi előírásoknak megfelelően a mobilalkalmazásban bejelöli;"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "f) UAS kezelő személyzetet segítő személy: az UAS kezelő személyzet feladat végrehajtásának támogatására feljogosított személy, akinek esetében nem szükséges az UAS kezelésére jogosító, érvényes engedély megléte;"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "g) üzemben tartó: a Honvédelmi Minisztérium Állami Légügyi Főosztály mint katonai légügyi hatóság által UAS üzemben tartóként nyilvántartásba vett területi rendőri szerv;"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "h) veszélyes megközelítés: az UAS-művelet során egy másik légijármű vagy személy, tárgy, objektum olyan módon történő megközelítése, ami a szolgálati feladat jog- és szakszerű ellátásához mérten megalapozottan vállalhatónál fokozottabb mértékű veszélyt eredményez, ideértve különösen egy másik légijármű kikerülési manőverre, vagy fel- és leszállásának megszakítására kényszerítését."
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "i) Nova Drón és Drónpilóta Nyilvántartás: az UAS-ok műszaki, javítási, karbantartási, biztosítási adatainak, szerződéseinek rögzítésére, az UAS kezelő személyzet képzettségével kapcsolatos engedélyeinek nyilvántartására, valamint a repülési naplók dokumentálására szolgáló elektronikus nyilvántartás;"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "j) területi adminisztrátor: az üzemben tartó vezetője által kijelölt, e tevékenységhez szükséges jogosultsággal rendelkező személy."
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "II. FEJEZET"
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "AZ ÜZEMBEN TARTÓ FELADATAI"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "3. Az üzemben tartó feladatai"
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "4. Az üzemben tartó gondoskodik a pilóta nélküli állami légijárművek repüléséről szóló 38/2021. (II. 2.) Korm. rendeletben (a továbbiakban: 38/2021. Korm. rendelet) foglalt, üzemeltetéssel kapcsolatos előírások megtartásáról, különös figyelemmel az általa üzemben tartott UAS alkalmasságáról, üzemképes állapotáról, az UAS kezelő személyzet jogszabályban előírt engedélyének, valamint az eszközökre vonatkozó karbantartási, javítási és biztosítási szerződések meglétéről."
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "5. Az üzemben tartó"
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "a) a gazdasági országos rendőrfőkapitány-helyettes előzetes véleményének kikérésével intézkedik az UAS beszerzésére – a központi beszerző szerv kijelöléséről, a védelmi és biztonsági feladatokkal összefüggő beszerzések körének meghatározásáról és a védelmi és biztonsági feladatokkal összefüggő beszerzések központosított rendszeréről szóló 329/2019. (XII. 20.) Korm. rendelet (a továbbiakban: VBÜ rendelet) 3. § (2) bekezdés e) pontjára és 1. melléklet 5. pontjára figyelemmel – és rendszeresítésére vagy alkalmazásba vételére irányuló eljárás megindítására;"
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "b) a VBÜ rendelet 1. melléklet 13. pontjára figyelemmel intézkedik az UAS karbantartására, javítására vonatkozó szolgáltatási szerződés megkötésére;"
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "c) beszerzi az üzemeltetéshez szükséges dokumentumokat és engedélyeket."
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "III. FEJEZET"
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "REPÜLÉSBIZTONSÁG"
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "4. Eseményjelentési kötelezettség"
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "6. Veszélyes megközelítéssel, személyi sérüléssel vagy harmadik fél számára okozott kárral járó UAS-eseményben érintett szakszemélyzet köteles az eseményt haladéktalanul jelenteni a KR Ügyeleti és Védelmi Szolgálat (a továbbiakban: KR Központi Ügyelet) által ellátott 24 órás telefonos ügyeleti szolgálaton keresztül a KR Különleges Szolgálatok Igazgatósága Légirendészeti Szolgálat (a továbbiakban: KSZI LRSZ) Repülésbiztonsági és Megfelelőségbiztosítási Csoport (a továbbiakban: RMCS) által fenntartott és működtetett Üzembentartói Baleseti Ügyeleti Szolgálatnak (a továbbiakban: ÜBÜSZ), a rendelkezésére álló – a repülés és az esemény bekövetkezésének szempontjából releváns – összes adat megadásával."
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "7. A 6. pontban felsorolt eseményeken kívüli, a repülés biztonságát érintő eseményt az érintett szakszemélyzet köteles a lehető legrövidebb időn belül jelenteni a KR Központi Ügyeleten keresztül az ÜBÜSZ-nek, a rendelkezésére álló – a repülés és az esemény bekövetkezésének szempontjából releváns – összes adat megadásával."
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "8. A kizárólag állami légijárművel bekövetkezett légiközlekedési balesetek, repülőesemények és légiközlekedési rendellenességek szakmai vizsgálatának részletes szabályairól, valamint a kizárólag állami légijárművel összefüggő üzembentartói vizsgálat szabályairól szóló 35/2008. (XII. 5.) KHEM–HM–IRM együttes rendeletbe (a továbbiakban: együttes rendelet) foglalt repülésbiztonsági vonatkozású eseményben érintett szakszemélyzet köteles az esemény bekövetkezését követő 72 órán belül az eseményről írásban, a Robotzsaru NEO és NOVA.Irat együttes integrált ügyviteli, ügyfeldolgozó és elektronikus iratkezelő rendszerből letöltött eseménybejelentő lap megküldésével bejelentést tenni az RMCS részére."
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "5. A repülésbiztonsági szervezet feladatai"
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "9. A Rendőrség területi szervei vonatkozásában a repülésbiztonsági szervezet feladatait – a légiközlekedésről szóló 1995. évi XCVII. törvény 65/A. § (1) bekezdésében és a 38/2021. Korm. rendelet 8. § (6) bekezdésében foglaltaknak történő megfelelés biztosításának érdekében – a KSZI LRSZ látja el."
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "10. A repülésbiztonsági szervezetként a 9. pont alapján ellátandó feladatokat a műveleti országos rendőrfőkapitány-helyettes által kiadott UAS Repülésbiztonság-irányítási Kézikönyvben foglaltak szerint kell végrehajtani."
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "11. Az együttes rendelet szerinti üzembentartói vizsgálatot az RMCS folytatja le."
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "12. A 11. pont szerinti üzembentartói vizsgálathoz kapcsolódó UAS-esemény helyszínén végrehajtandó feladatokat a helyszínelő egység folytatja le."
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "IV. FEJEZET"
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "LÉGTÉRKORLÁTOZÁS"
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "6. Repüléssel érintett terület bejelölése a Felületen"
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "13. Előre tervezhető szolgálati feladat esetén – az elrendelés okával és céljával kapcsolatos rendőri feladatok szakmai jellegéhez igazodóan – a területi szerv állományába tartozó vezető beosztású személy dönt arról, hogy a feladat jellegének megfelelően indokolt-e az UAS-művelet által érintett terület a feladatot megelőzően történő bejelölése a Felületen, és amennyiben igen, intézkedik a területileg illetékes adatfeltöltő általi rögzítésére."
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "14. Amennyiben a mobilalkalmazás használatának technikai akadálya merül fel (nincs térerő), az UAS kezelő személyzetnek intézkednie kell, hogy az adatfeltöltő a Felületen az UAS-művelet által érintett területet jelölje be."
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "7. Légtérkorlátozás vagy tiltás elrendelése"
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "15. Hivatali munkaidőben az előre nem tervezhető, váratlan esemény bekövetkeztekor légtérkorlátozás vagy tiltás elrendeléséről a területi szerv vezetője vagy az általa kijelölt – az elrendelés okával és céljával kapcsolatos rendőri feladatok szakmai jellegéhez igazodó –, a területi szerv állományába tartozó vezető beosztású személy dönt."
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "16. A területi szervek az előre tervezhető szolgálati feladatokkal kapcsolatos légtérkorlátozás vagy tiltás elrendelésére vonatkozó döntés előkészítésébe bevonják a légirendészeti előadókat."
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "17. Hivatali munkaidőn kívül, előre nem tervezhető azonnali feladatvégrehajtás során a területi szerv vezetője vagy akadályoztatása esetén a területi szerv vezető ügyeletese dönt a légtérkorlátozás vagy tiltás elrendeléséről."
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "8. Kritikusan védett terület feletti légtér igénybevételével kapcsolatos szabályok"
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "18. Amennyiben az UAS-művelettel érintett terület a magyar légtér igénybevételéről szóló 4/1998. (I. 16.) Korm. rendelet (a továbbiakban: 4/1998. Korm. rendelet) 4/B. § (4) bekezdésében foglaltakat érinti, az előzetes hozzájárulás beszerzéséről az UAS kezelő vagy a területi szerv állományába tartozó vezető beosztású személy köteles gondoskodni, az érintett szerv ügyeletén keresztül."
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "19. A Rendőrség által elrendelt légtérkorlátozás esetén, amikor felmerül a 4/1998. Korm. rendelet 8/C. § (8) bekezdésében foglalt egyedi engedély vagy szóbeli intézkedés szükségessége, akkor hivatali munkaidőben a 15. pontban, míg hivatali munkaidőn kívül a 17. pontban foglaltaknak megfelelően kell eljárni."
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "IV/A. FEJEZET"
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "NOVA DRÓN ÉS DRÓNPILÓTA NYILVÁNTARTÁS"
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "19/A. A területi adminisztrátor feladata az UAS-ok javítási, karbantartási, biztosítási adatainak rögzítése, az adatok aktualizálása, valamint az UAS kezelő személyzet Nova Drón és Drónpilóta Nyilvántartásban való naprakész dokumentálása, a repülési naplók adatainak ellenőrzése, hitelesítése."
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "19/B. A repülési naplók Nova Drón és Drónpilóta Nyilvántartásban történő naprakész rögzítése az UAS kezelő személyzet feladata."
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "19/C. A területi adminisztrátor az UAS-ok, valamint az UAS kezelő személyzet repülési idejét negyedévente, a tárgyidőszakot követő hónap 15. napjáig lezárja a Nova Drón és Drónpilóta Nyilvántartásban."
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "V. FEJEZET"
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "9. Záró rendelkezések"
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "20. Ez az utasítás a közzétételét követő hónap első napján lép hatályba."
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "21."
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "22. A 21. pont a jelen utasítás hatálybalépését követő 31. napon a hatályát veszti. 1 A 3. pont a) alpontja a 10/2023. (IV. 6.) ORFK utasítás 28. pontja szerint módosított szöveg. 2 A 3. pont i) alpontját a 19/2024. (VI. 14.) ORFK utasítás 1. pontja iktatta be. 3 A 3. pont j) alpontját a 19/2024. (VI. 14.) ORFK utasítás 1. pontja iktatta be. 4 A IV/A. fejezetet (19/A-19/C. pontot) a 19/2024. (VI. 14.) ORFK utasítás 2. pontja iktatta be. 5 A 21. pont a 22. pont alapján hatályát vesztette."
+    }
+  ]
+}

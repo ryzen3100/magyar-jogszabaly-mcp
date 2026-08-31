@@ -1,0 +1,3335 @@
+{
+  "id": "hu-law-2022-1-b0-6m",
+  "type": "statute",
+  "title": "1/2022. (IV. 14.) KIFÜ utasítás a Kormányzati Informatikai Fejlesztési Ügynökség Szervezeti és Működési Szabályzatáról",
+  "status": "in_force",
+  "in_force_date": "2022-04-15",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2022-1-B0-6M",
+  "description": "a Kormányzati Informatikai Fejlesztési Ügynökség Szervezeti és Működési Szabályzatáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A Kormányzati Informatikai Fejlesztési Ügynökség Szervezeti és Működési Szabályzatát az államháztartásról szóló 2011. évi CXCV. törvény 10. § (5) és (6) bekezdése alapján, a Kormányzati Informatikai Fejlesztési Ügynökségről szóló 268/2010. (XII. 3.) Korm. rendelet 2. § (1) bekezdésében meghatározott jogkörömben eljárva az alábbiak szerint állapítom meg:"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "I. FEJEZET"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "1. ALAPVETŐ RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "1.1 A Szervezeti és Működési Szabályzat (a továbbiakban: SzMSz) hatálya a Kormányzati Informatikai Fejlesztési Ügynökség (a továbbiakban: KIFÜ) hivatali szerveire (a továbbiakban: szervezeti egység) terjed ki."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "1.2 Jelen SzMSz a KIFÜ-t irányító informatikáért felelős miniszter (a továbbiakban: miniszter) jóváhagyásával, a Kormányzati Informatikai Fejlesztési Ügynökségről szóló 268/2010. (XII. 3.) Korm. rendelet [a továbbiakban: 268/2010. (XII. 3.) Korm. rendelet] és a Nemzeti Információs Infrastruktúra Fejlesztési Programról szóló 5/2011. (II. 3.) Korm. rendelet (a továbbiakban együtt: statútum rendeletek), valamint a KIFÜ Alapító Okiratával összhangban készült."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "2. A KIFÜ JOGÁLLÁSA ÉS ALAPADATAI"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "2.1 A KIFÜ a miniszter irányítása alatt álló, központi költségvetési szerv."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "2.2 A KIFÜ elsődleges kincstári ügyfél, előirányzatait a Magyarország éves központi költségvetéséről szóló törvény Innovációs és Technológiai Minisztérium (a továbbiakban: ITM) fejezete önálló címként tartalmazza."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "2.3 A KIFÜ alapadatai a következők:"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "2.3.1 Megnevezése: Kormányzati Informatikai Fejlesztési Ügynökség"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "2.3.2 Megnevezésének hivatalos rövidítése: KIFÜ"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "2.3.3 Alapítási név: Pénzügyminisztérium Informatikai Szolgáltató Központ"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "2.3.4 Idegen nyelvű megnevezése:"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "a) angol nyelven: Governmental Agency for IT Development"
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "b) francia nyelven: Agence Gouvernementale du Développement Informatique"
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "c) német nyelven: Regierungsagentur für IT Entwicklung"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "2.3.5 Alapítója: Magyarország Kormánya"
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "2.3.6 Irányító szervének megnevezése: Innovációs és Technológiai Minisztérium"
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "2.3.7 Hatályos alapító okirat kelte, száma: 2022. március 10.; KVFO/11203/2022-ITM"
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "2.3.8 Vezetője: elnök"
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "2.3.9 Jogállását meghatározó jogszabály: a 268/2010. (XII. 3.) Korm. rendelet"
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "2.3.10 Alapítás dátuma: 2006. október 1."
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "2.3.11 Törzskönyvi nyilvántartási azonosító száma: 598316"
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "2.3.12 Jogelőd költségvetési szervének megnevezése: Nemzeti Információs Infrastruktúra Fejlesztési Intézet"
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "2.3.13 A KIFÜ-nél alkalmazásban álló személyek jogviszonya:"
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "a) közalkalmazotti jogviszony: a közalkalmazottak jogállásáról szóló 1992. évi XXXIII. törvény (a továbbiakban: Kjt.)"
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "b) munkaviszony: a munka törvénykönyvéről szóló 2012. évi I. törvény"
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "2.3.14 Adószáma: 15598316-2-41"
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "2.3.15 KSH statisztikai számjel: 15598316-8411-312-01"
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "2.3.16 Számlaszáma: 10032000-00289421-00000000"
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "2.3.17 Székhelye: 1134 Budapest, Váci út 35."
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "2.3.18 Telephelyei:"
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "a) 1132 Budapest, Victor Hugo utca 18–22."
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "b) 3515 Miskolc, Egyetemváros (helyrajzi szám: 40592/11)"
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "c) 4024 Debrecen, Szent Anna utca 39–41."
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "d) 4028 Debrecen, Kassai út 26."
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "e) 3300 Eger, Eszterházy tér 1."
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "f) 6720 Szeged, Dugonics tér 13."
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "g) 8200 Veszprém, Egyetem utca 10."
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "h) 2400 Dunaújváros, Táncsics Mihály utca 1/a"
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "i) 9026 Győr, Egyetem tér 1."
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "j) 9400 Sopron, Bajcsy-Zsilinszky Endre utca 4."
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "2.3.19 Besorolása a tevékenység jellege alapján: központi költségvetési szerv."
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "2.3.20 Alaptevékenységének kormányzati funkció szerinti megjelölése:"
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "a) 013360 Más szerv részére végzett pénzügyi-gazdálkodási, üzemeltetési, egyéb szolgáltatások;"
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "b) 013370 Informatikai fejlesztések, szolgáltatások;"
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "c) 013390 Egyéb kiegészítő szolgáltatások;"
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "d) 014030 Természettudományi, műszaki alapkutatás;"
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "e) 015010 Általános közszolgáltatásokkal kapcsolatos alkalmazott kutatás és fejlesztés;"
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "f) 048010 Gazdasági ügyekkel kapcsolatos alkalmazott kutatás és fejlesztés;"
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "g) 095020 Iskolarendszeren kívüli egyéb oktatás, képzés."
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "2.3.21 Államháztartási szakágazati besorolása: 841117 Kormányzati és önkormányzati intézmények ellátó, kisegítő szolgálatai."
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "2.4 A KIFÜ vállalkozási tevékenységet nem folytat."
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "2.5 A KIFÜ bélyegzője tartalmazza Magyarország címerét, a Kormányzati Informatikai Fejlesztési Ügynökség elnevezést a szervezeti egység megnevezésével vagy a bélyegző sorszámával vagy a Kjt. szerinti magasabb vezetői beosztás megnevezését."
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "2.6 A KIFÜ alapvető feladatait a KIFÜ statútum rendeletei, valamint az Alapító Okirat tartalmazzák."
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "3. A KIFÜ SZERVEZETE"
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "3.1 A KIFÜ szervezete főosztályokra és irodákra tagozódik."
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "3.2 A főosztály"
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "3.2.1 A főosztály hatáskörébe tartozó feladatokat a jogszabályok, a közjogi szervezetszabályozó eszközök, a belső szervezetszabályozó dokumentumok, valamint az elnök egyedi utasításai határozzák meg. A főosztály működéséért, a hatáskörébe utalt feladatok határidőben történő teljesítéséért és a végrehajtás ellenőrzéséért a főosztályvezető tartozik felelősséggel."
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "3.3 Az iroda"
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "3.3.1 Az iroda az elnök döntése alapján"
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "a) közvetlenül magasabb vezető alárendeltségében (önálló iroda) vagy"
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "b) főosztály szervezetébe tagozódva"
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "hozható létre."
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "3.3.2 Az iroda célja komplex, kiemelt együttműködésen alapuló feladatok hatékony megoldása, az ezekhez szükséges javaslatok kidolgozása, vagy szervezeti egységen belüli iroda esetében a szervezeti egység ügyrendjében meghatározott, jól elkülöníthető feladatok teljesítésének elősegítése."
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "3.3.3 A Projektekért Felelős Elnökhelyettesi Szervezetben működő iroda projektiroda-megnevezést is kaphat."
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "3.3.4 Az irodát vezető munkatársat az elnök írásban jelöli ki. Az iroda vezetésére kijelölt munkatárs szakmai felügyeletet gyakorol az iroda működése felett."
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "3.3.5 Az önálló iroda feladatrendszerére, működésére és irányítására vonatkozó szabályokat az önálló iroda ügyrendje tartalmazza."
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "3.3.6 A főosztály szervezetébe tagozódott iroda feladatrendszerére, működésére és irányítására vonatkozó szabályokat az adott főosztály ügyrendje tartalmazza."
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "3.4 A KIFÜ szervezeti felépítését és a szervezeti egységek megnevezését az 1. melléklet tartalmazza. A KIFÜ szervezeti egységeinek feladatait a 2. melléklet tartalmazza."
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "4. A KIFÜ BELSŐ KONTROLLRENDSZERE"
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "4.1 A belső kontrollrendszer részletes szabályait – ezen belül az ellenőrzési nyomvonalat, az integrált kockázatkezelés, a szervezeti integritást sértő események, valamint az adatvédelmi incidensek kezelésének eljárásrendjét – elnöki utasításban kell rögzíteni."
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "4.2 Az elnök által közvetlenül irányított, független belső ellenőrzés részletes szabályait az elnök által jóváhagyott belső ellenőrzési kézikönyv, valamint annak mellékletei és függelékei tartalmazzák."
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "4.3 A szervezeti egységek vezetői kötelesek az általuk irányított szervezeti egység munkáját folyamatosan ellenőrizni, ennek keretében a szervezeti egységhez tartozó foglalkoztatottakat a kiadott feladatok végrehajtásáról beszámoltatni."
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "II. FEJEZET"
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "5. A KIFÜ SZEMÉLYI ÁLLOMÁNYA"
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "5.1 Az elnök"
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "5.1.1 Az elnök, a Kjt. szerinti magasabb vezetőként vezeti a KIFÜ munkáját, ennek során közvetlen utasítási és ellenőrzési jogkört gyakorol."
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "5.1.2 Az elnök a miniszter irányításával végzi feladatait."
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "5.1.3 Az elnök a KIFÜ általános, egyszemélyi képviseletére jogosult. A képviselet speciális eseteire az SzMSz 6.6 pontja külön rendelkezéseket állapít meg."
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "5.1.4 Az elnök a KIFÜ vezetése során az alábbi feladat- és hatásköröket gyakorolja:"
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "a) közvetlenül irányítja az elnökhelyettesek tevékenységét és a közvetlenül hozzá rendelt szervezeti egységeket;"
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "b) az illetékes államtitkár útján javaslatot tesz a miniszter részére a KIFÜ szervezetével, feladataival kapcsolatos szabályozásra;"
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "c) kapcsolatot tart állami és egyéb szervezetekkel;"
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "d) gyakorolja a jogszabályban és a közjogi szervezetszabályozó eszközökben részére meghatározott engedélyezési, munkáltatói, költségvetési jogköröket, hatásköröket;"
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "e) jóváhagyja a KIFÜ éves munkatervét, beszámolóját és ellenőrzési tervét;"
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "f) dönt vagy intézkedik azokban az ügyekben, amelyeket jogszabály vagy az SzMSz a hatáskörébe utal, illetve amelyeket saját hatáskörébe von;"
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "g) kialakítja, működteti és fejleszti a KIFÜ belső kontrollrendszerét a költségvetési szervek belső kontrollrendszeréről és belső ellenőrzéséről szóló 370/2011. (XII. 31.) Korm. rendelet [a továbbiakban: 370/2011. (XII. 31.) Korm. rendelet] szerint;"
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "h) előkészíti az elnökhelyettesek és a közvetlen irányítása alatt álló főosztályvezetők és irodavezetők felelőssége megállapítására is alkalmas munkaköri leírását;"
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "i) kiadja – jogszabály vagy az irányító szerv előírása esetén az irányító szerv egyetértését követően – a KIFÜ belső szabályozási eszközeit – figyelemmel az államháztartásról szóló törvény végrehajtásáról szóló 368/2011. (XII. 31.) Korm. rendelet (a továbbiakban: Ávr.) 13. § (2) bekezdésében előírtakra is;"
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "j) ellátja az állami és önkormányzati szervek elektronikus információbiztonságáról szóló 2013. évi L. törvény (a továbbiakban: Ibtv.) alapján a szervezet vezetőjére háruló feladatokat;"
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "k) ellátja az SzMSz-ben meghatározott egyéb feladatokat."
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "5.1.5 Az elnököt távolléte vagy tartós akadályoztatása esetén – vagy ha a tisztség ideiglenesen nincs betöltve – az infrastruktúráért felelős elnökhelyettes általános jogkörrel helyettesíti. Az elnök és az infrastruktúráért felelős elnökhelyettes egyidejű távolléte vagy tartós akadályoztatása esetén az elnököt a projektekért felelős elnökhelyettes helyettesíti."
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "5.1.6 A gazdasági elnökhelyettes az általa ellátott feladatok tekintetében a költségvetési szerv vezetőjének mindenkori helyettese az Ávr. 11. § (6) bekezdésének megfelelően."
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "5.2 Az elnökhelyettes"
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "5.2.1 Az elnökhelyettes az elnök irányítása alatt álló, Kjt. szerinti magasabb vezető, aki a jogszabályokban és a közjogi szervezetszabályozó eszközök által meghatározott keretek között, önálló felelősséggel irányítja az alá tartozó szervezeti egységeket."
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "5.2.2 A gazdasági elnökhelyettes az elnök irányítása alatt álló, Kjt. szerinti magasabb vezető, aki ellátja az Ávr.-ben a gazdasági vezető számára meghatározott, gazdasági elnökhelyettes számára előírt feladatokat, és a jogszabályokban és a közjogi szervezetszabályozó eszközök által meghatározott keretek között önálló felelősséggel vezeti az irányítása alá tartozó szervezeti egységeket."
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "5.2.3 Az elnökhelyettes"
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "a) gyakorolja az irányítása alá tartozó szervezeti egységek vonatkozásában a jogszabályban előírt vagy az elnök által átruházott jogköröket, és dönt a hatáskörébe utalt ügyekben;"
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "b) felelős a feladatkörébe utalt feladatok ellátásáért és az irányítása alá tartozó szervezeti egységek tevékenységének összehangolásáért;"
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "c) gyakorolja a hatáskörébe utalt munkáltatói jogokat, és elvégzi mindazon feladatokat, amelyeket az elnök a hatáskörébe utal."
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "5.2.4 Az elnökhelyettes az irányítása alá tartozó szervezeti egységek és munkatársak tekintetében az alábbi feladat- és hatásköröket gyakorolja:"
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "a) irányítja a tevékenységüket;"
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "b) elkészíti a főosztályvezetők és munkatársak felelőssége megállapítására is alkalmas munkaköri leírását;"
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "c) irányítja a belső szabályozási eszközök, intézkedések, a KIFÜ működésével kapcsolatos egyéb dokumentumok kidolgozását, az irányítása alá tartozó szervezeti egységekre vonatkozóan elnökhelyettesi utasítást adhat ki;"
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "d) gondoskodik a jogszabályokban és a közjogi szervezetszabályozó eszközökben foglaltak teljesüléséről;"
+    },
+    {
+      "provision_ref": "s107",
+      "section": "107",
+      "title": "107",
+      "content": "e) folyamatosan ellenőrzi a szervezeti egységek munkatervének végrehajtását;"
+    },
+    {
+      "provision_ref": "s108",
+      "section": "108",
+      "title": "108",
+      "content": "f) beszámoltatja és a munkavégzésükhöz szükséges információkkal ellátja a szervezeti egységek vezetőit;"
+    },
+    {
+      "provision_ref": "s109",
+      "section": "109",
+      "title": "109",
+      "content": "g) irányítja a fejlesztési koncepciók, programok, tervek kialakítását és megvalósítását."
+    },
+    {
+      "provision_ref": "s110",
+      "section": "110",
+      "title": "110",
+      "content": "5.2.5 A projektekért felelős elnökhelyettes és az infrastruktúráért felelős elnökhelyettes és az általuk irányított szervezeti egységek együttműködésben valósítják meg a projektek előkészítését, megvalósítását és fenntartását."
+    },
+    {
+      "provision_ref": "s111",
+      "section": "111",
+      "title": "111",
+      "content": "5.2.6 A projektekért felelős elnökhelyettes és az infrastruktúráért felelős elnökhelyettes távollétük vagy tartós akadályoztatásuk esetén – illetve ha valamelyik tisztség ideiglenesen nincs betöltve – egymást helyettesítik. Egyidejű távollétük vagy tartós akadályoztatásuk esetén az elnökhelyetteseket az irányításuk alá tartozó, kijelölt főosztályvezetők helyettesítik."
+    },
+    {
+      "provision_ref": "s112",
+      "section": "112",
+      "title": "112",
+      "content": "5.2.7 A gazdasági elnökhelyettest távolléte vagy tartós akadályoztatása esetén kijelölt főosztályvezető helyettesíti."
+    },
+    {
+      "provision_ref": "s113",
+      "section": "113",
+      "title": "113",
+      "content": "5.2.8 A gazdasági elnökhelyettesi tisztség ideiglenes betöltetlensége esetén az Ávr. 11. § (8) bekezdésében foglaltak szerint kell eljárni."
+    },
+    {
+      "provision_ref": "s114",
+      "section": "114",
+      "title": "114",
+      "content": "5.3 A főosztályvezető"
+    },
+    {
+      "provision_ref": "s115",
+      "section": "115",
+      "title": "115",
+      "content": "5.3.1 A főosztályvezető a Kjt. szerinti vezető, aki – a jogszabályok és a közjogi szervezetszabályozó eszközök, valamint az SzMSz-ben foglaltak alapján – a közvetlen magasabb vezető irányítása alatt, utasításainak megfelelően irányítja a főosztály munkáját, felelős az irányítása alá tartozó főosztály működéséért és a feladatkörébe tartozó feladatok határidőben történő teljesítéséért."
+    },
+    {
+      "provision_ref": "s116",
+      "section": "116",
+      "title": "116",
+      "content": "5.3.2 A főosztályvezető az alábbi feladat- és hatásköröket gyakorolja:"
+    },
+    {
+      "provision_ref": "s117",
+      "section": "117",
+      "title": "117",
+      "content": "a) kidolgozza a főosztály ügyrendjét, és annak alapján előkészíti a szervezeti egységéhez tartozó beosztottak felelőssége megállapítására is alkalmas munkaköri leírását;"
+    },
+    {
+      "provision_ref": "s118",
+      "section": "118",
+      "title": "118",
+      "content": "b) feladatkörében utasítási joggal irányítja az irányítása alá tartozók munkáját;"
+    },
+    {
+      "provision_ref": "s119",
+      "section": "119",
+      "title": "119",
+      "content": "c) ellenőrzi a főosztály feladatait meghatározó rendelkezések végrehajtását, megszervezi és ellenőrzi a főosztály munkatársainak munkáját, kezdeményezi az ehhez szükséges munkáltatói intézkedéseket;"
+    },
+    {
+      "provision_ref": "s120",
+      "section": "120",
+      "title": "120",
+      "content": "d) koncepciókat, terveket dolgoz ki szakterülete fejlesztésére;"
+    },
+    {
+      "provision_ref": "s121",
+      "section": "121",
+      "title": "121",
+      "content": "e) szakmai egyeztetést folytat más főosztályok vezetőivel, valamint az irodavezetőkkel;"
+    },
+    {
+      "provision_ref": "s122",
+      "section": "122",
+      "title": "122",
+      "content": "f) gondoskodik a felügyeleti szervek, illetve az elnök által jóváhagyott belső adatszolgáltatási igények teljesítéséről;"
+    },
+    {
+      "provision_ref": "s123",
+      "section": "123",
+      "title": "123",
+      "content": "g) előkészíti az irányítása alá tartozó szervezeti egységet érintő belső szabályozó eszközöket, kezdeményezi azok módosítását, hatályon kívül helyezését;"
+    },
+    {
+      "provision_ref": "s124",
+      "section": "124",
+      "title": "124",
+      "content": "h) képviseli a főosztályt a szervezeten belül, továbbá képviseli a KIFÜ-t az SzMSz-ben kapott, illetve eseti felhatalmazás alapján;"
+    },
+    {
+      "provision_ref": "s125",
+      "section": "125",
+      "title": "125",
+      "content": "i) dönt azokban az ügyekben, amelyeket az SzMSz, illetve az elnök vagy a közvetlen magasabb vezető a hatáskörébe utal;"
+    },
+    {
+      "provision_ref": "s126",
+      "section": "126",
+      "title": "126",
+      "content": "j) rendszeresen ellenőrzi az ügyviteli és adatvédelmi előírások betartását és betartatását, illetve elvégzi mindazon feladatokat, amelyeket az irányítására jogosult magasabb vezető hatáskörébe utal;"
+    },
+    {
+      "provision_ref": "s127",
+      "section": "127",
+      "title": "127",
+      "content": "k) ellátja – hatáskörének keretein belül – az irányítása alá tartozó szervezeti egységnél keletkezett adatok – kiemelten a személyes adatokat tartalmazó nyilvántartások vonatkozásban – az adatgazdai feladatokat;"
+    },
+    {
+      "provision_ref": "s128",
+      "section": "128",
+      "title": "128",
+      "content": "l) köteles – hatáskörének keretein belül – az elektronikus információs rendszer biztonságáért felelős személlyel (információbiztonsági felelőssel) és az adatvédelmi tisztviselővel együttműködni."
+    },
+    {
+      "provision_ref": "s129",
+      "section": "129",
+      "title": "129",
+      "content": "5.3.3 A főosztályvezetőt távolléte vagy tartós akadályoztatása esetén a főosztályvezető-helyettes, főosztályvezető-helyettes hiányában a főosztályvezető által kijelölt munkatárs helyettesíti tovább át nem ruházható hatáskörben."
+    },
+    {
+      "provision_ref": "s130",
+      "section": "130",
+      "title": "130",
+      "content": "5.4 A főosztályvezető-helyettes"
+    },
+    {
+      "provision_ref": "s131",
+      "section": "131",
+      "title": "131",
+      "content": "5.4.1 A főosztályvezető-helyettes a főosztályvezető irányítása alatt álló Kjt. szerinti vezető, aki a jogszabályok, a közjogi szervezetszabályozó eszközök, valamint az elnöki utasítások által meghatározott keretek között ellátja a szervezeti egység ügyrendjében meghatározott feladatokat."
+    },
+    {
+      "provision_ref": "s132",
+      "section": "132",
+      "title": "132",
+      "content": "5.4.2 A főosztályvezető-helyettes az alábbi feladat- és hatásköröket gyakorolja:"
+    },
+    {
+      "provision_ref": "s133",
+      "section": "133",
+      "title": "133",
+      "content": "a) a főosztályvezetőt távolléte vagy tartós akadályoztatása esetén helyettesíti;"
+    },
+    {
+      "provision_ref": "s134",
+      "section": "134",
+      "title": "134",
+      "content": "b) iroda vezetésével vagy iroda vezetése nélkül is megbízható."
+    },
+    {
+      "provision_ref": "s135",
+      "section": "135",
+      "title": "135",
+      "content": "5.5 Az irodavezető"
+    },
+    {
+      "provision_ref": "s136",
+      "section": "136",
+      "title": "136",
+      "content": "5.5.1 Az irodavezető az alábbi feladat- és hatásköröket gyakorolja:"
+    },
+    {
+      "provision_ref": "s137",
+      "section": "137",
+      "title": "137",
+      "content": "a) koordinálja a hozzá rendelt munkatársak – a projektigazgató a hozzá rendelt projektvezetők – munkáját;"
+    },
+    {
+      "provision_ref": "s138",
+      "section": "138",
+      "title": "138",
+      "content": "b) szakmai ellenőrzést gyakorol az irodához tartozó munkatársak felett;"
+    },
+    {
+      "provision_ref": "s139",
+      "section": "139",
+      "title": "139",
+      "content": "c) javaslatot tesz az iroda részletes feladatainak és működési rendjének meghatározására, amelyet az elnök hagy jóvá;"
+    },
+    {
+      "provision_ref": "s140",
+      "section": "140",
+      "title": "140",
+      "content": "d) képviseli a KIFÜ-t a felelősségi körébe tartozó szakmai ügyekben."
+    },
+    {
+      "provision_ref": "s141",
+      "section": "141",
+      "title": "141",
+      "content": "5.5.2 A projektirodát vezető irodavezető projektigazgató cím használatára jogosult."
+    },
+    {
+      "provision_ref": "s142",
+      "section": "142",
+      "title": "142",
+      "content": "5.5.3 Az irodavezető tevékenységéről közvetlenül a főosztályvezetőnek vagy a magasabb vezetőnek köteles beszámolni. A projektigazgató tevékenységéről közvetlenül a főosztályvezetőnek és a projektekért felelős elnökhelyettesnek köteles beszámolni. Az irodavezetőt távolléte vagy tartós akadályoztatása esetén az általa kijelölt munkatárs helyettesíti."
+    },
+    {
+      "provision_ref": "s143",
+      "section": "143",
+      "title": "143",
+      "content": "5.5.4 Az irodavezető munkakör nem minősül a Kjt. szerinti vezetői megbízásnak."
+    },
+    {
+      "provision_ref": "s144",
+      "section": "144",
+      "title": "144",
+      "content": "5.6 A belső ellenőrzési vezető"
+    },
+    {
+      "provision_ref": "s145",
+      "section": "145",
+      "title": "145",
+      "content": "5.6.1 A belső ellenőrzési vezető ellátja a 370/2011. (XII. 31.) Korm. rendeletben meghatározott belső ellenőrzési és belső ellenőrzési vezetői feladatokat."
+    },
+    {
+      "provision_ref": "s146",
+      "section": "146",
+      "title": "146",
+      "content": "5.6.2 A belső ellenőrzési vezető az elnök irányítása alatt működő Belső Ellenőrzési Iroda vezetőjeként, függetlenül végzi tevékenységét. Feladatait a vonatkozó jogszabályok, a nemzetközi belső ellenőrzési standardok, az államháztartásért felelős miniszter által közzétett módszertani útmutatók, irányelvek, valamint a KIFÜ elnöke által jóváhagyott belső ellenőrzési kézikönyv szerint látja el. A belső ellenőrzési tevékenység ellátásának ideiglenes kiegészítésére vagy speciális szakértelmet igénylő feladatok esetén az elnök haladéktalanul intézkedik a feladatok külső szolgáltatóval történő ellátásáról."
+    },
+    {
+      "provision_ref": "s147",
+      "section": "147",
+      "title": "147",
+      "content": "5.7 A vezető jogtanácsos"
+    },
+    {
+      "provision_ref": "s148",
+      "section": "148",
+      "title": "148",
+      "content": "5.7.1 A vezető jogtanácsos az ügyvédi tevékenységről szóló 2017. évi LXXVIII. törvényben (a továbbiakban: Ütv.), a kamarai jogtanácsosról szóló rendelkezésekben, továbbá az SzMSz-ben, illetve a munkaköri leírásában meghatározottak szerint látja el a feladatkörébe tartozó ügyeket."
+    },
+    {
+      "provision_ref": "s149",
+      "section": "149",
+      "title": "149",
+      "content": "5.8 Az információbiztonsági felelős"
+    },
+    {
+      "provision_ref": "s150",
+      "section": "150",
+      "title": "150",
+      "content": "5.8.1 Az elektronikus információs rendszer biztonságáért felelős személy Ibtv. szerinti feladatait az Információbiztonsági Iroda vezetője látja el, részletes feladat- és hatáskörét az elnök külön utasításban határozza meg. Az információbiztonsági felelős munkaköréhez tartozó feladatok egyéb munkakör betöltése mellett is elláthatók."
+    },
+    {
+      "provision_ref": "s151",
+      "section": "151",
+      "title": "151",
+      "content": "5.8.2 Az információbiztonsági felelős az elnök alárendeltségében és a Megfelelőségi és Biztonsági Főosztály vezetőjének irányításával végzi tevékenységét, jelentéseit közvetlenül az elnöknek küldi meg."
+    },
+    {
+      "provision_ref": "s152",
+      "section": "152",
+      "title": "152",
+      "content": "5.8.3 Az információbiztonsági felelőst az elnök határozatlan időre nevezi ki, helyettesítéséről, annak rendjéről az elnök gondoskodik."
+    },
+    {
+      "provision_ref": "s153",
+      "section": "153",
+      "title": "153",
+      "content": "5.8.4 Az információbiztonsági felelős feladata az Ibtv. szerint az elektronikus információs rendszer biztonságáért felelős személy feladatainak ellátása, valamint az Információbiztonsági Iroda vezetése."
+    },
+    {
+      "provision_ref": "s154",
+      "section": "154",
+      "title": "154",
+      "content": "5.8.5 Az információbiztonsági felelős hajtja végre a szervezeten belüli információbiztonsági ellenőrzéseket, és koordinálja külső információbiztonsági ellenőrzések, vizsgálatok támogatásához szükséges, a KIFÜ részéről felmerülő feladatok ellátását, amelyekről minden esetben tájékoztatja a belső ellenőrzési vezetőt is. Az információbiztonsági felelős irányítása alá tartozó szervezeti egység független információbiztonsági ellenőrzését a belső ellenőrzési vezető látja el."
+    },
+    {
+      "provision_ref": "s155",
+      "section": "155",
+      "title": "155",
+      "content": "5.9 Az adatvédelmi tisztviselő"
+    },
+    {
+      "provision_ref": "s156",
+      "section": "156",
+      "title": "156",
+      "content": "5.9.1 Az adatvédelmi tisztviselő ellátja a természetes személyeknek a személyes adatok kezelése tekintetében történő védelméről és az ilyen adatok szabad áramlásáról, valamint a 95/46/EK irányelv hatályon kívül helyezéséről szóló, 2016. április 27-i (EU) 2016/679 európai parlamenti és tanácsi rendeletben, az információs önrendelkezési jogról és az információszabadságról szóló 2011. évi CXII. törvényben, valamint a munkaköri leírásában szereplő feladatokat, szakmai támogatást nyújt a közérdekű adatok nyilvánosságával és a közérdekű adatigénylések megválaszolásával kapcsolatos feladatok ellátásához."
+    },
+    {
+      "provision_ref": "s157",
+      "section": "157",
+      "title": "157",
+      "content": "5.9.2 Az adatvédelmi tisztviselő a Megfelelőségi és Biztonsági Főosztály szervezetén belül, de az elnök közvetlen irányítása alatt végzi tevékenységét, jelentéseit közvetlenül az elnöknek küldi meg."
+    },
+    {
+      "provision_ref": "s158",
+      "section": "158",
+      "title": "158",
+      "content": "5.9.3 Az adatvédelmi tisztviselő feladatai ellátásával kapcsolatban nem utasítható, felelősséggel közvetlenül az elnöknek tartozik."
+    },
+    {
+      "provision_ref": "s159",
+      "section": "159",
+      "title": "159",
+      "content": "5.9.4 Az adatvédelmi tisztviselőt az elnök határozatlan időre jelöli ki, helyettesítéséről, annak rendjéről az elnök gondoskodik."
+    },
+    {
+      "provision_ref": "s160",
+      "section": "160",
+      "title": "160",
+      "content": "5.10 A projektvezető"
+    },
+    {
+      "provision_ref": "s161",
+      "section": "161",
+      "title": "161",
+      "content": "5.10.1 A projektvezető a projekt operatív irányítója, szervezi és koordinálja a projekt előkészítési, tervezési és megvalósítási feladatainak végrehajtását, felelős a projekt céljának határidőre, adott költségkeretek közötti megvalósításáért, az elvégzett munka megfelelő minőségéért, integráltságáért, valamint a definiált elvárásoknak megfelelő teljesítéséért."
+    },
+    {
+      "provision_ref": "s162",
+      "section": "162",
+      "title": "162",
+      "content": "5.10.2 A projektvezető munkakör nem minősül a Kjt. szerinti vezetői megbízásnak."
+    },
+    {
+      "provision_ref": "s163",
+      "section": "163",
+      "title": "163",
+      "content": "5.11 Egyéb speciális munkakörök"
+    },
+    {
+      "provision_ref": "s164",
+      "section": "164",
+      "title": "164",
+      "content": "5.11.1 Az alábbi speciális munkakörökhöz tartozó feladatok egyéb munkakör betöltése mellett is elláthatók. E munkakörök jogállását és a hozzájuk tartozó feladatköröket külön elnöki utasítások szabályozzák:"
+    },
+    {
+      "provision_ref": "s165",
+      "section": "165",
+      "title": "165",
+      "content": "a) biztonsági vezető;"
+    },
+    {
+      "provision_ref": "s166",
+      "section": "166",
+      "title": "166",
+      "content": "b) integritásmenedzser;"
+    },
+    {
+      "provision_ref": "s167",
+      "section": "167",
+      "title": "167",
+      "content": "c) szabálytalansági felelős;"
+    },
+    {
+      "provision_ref": "s168",
+      "section": "168",
+      "title": "168",
+      "content": "d) esélyegyenlőségi referens;"
+    },
+    {
+      "provision_ref": "s169",
+      "section": "169",
+      "title": "169",
+      "content": "e) környezeti fenntarthatósági megbízott;"
+    },
+    {
+      "provision_ref": "s170",
+      "section": "170",
+      "title": "170",
+      "content": "f) munkavédelmi megbízott;"
+    },
+    {
+      "provision_ref": "s171",
+      "section": "171",
+      "title": "171",
+      "content": "g) tűzvédelmi megbízott."
+    },
+    {
+      "provision_ref": "s172",
+      "section": "172",
+      "title": "172",
+      "content": "5.12 A KIFÜ-ben betölthető munkakörökhöz tartozó feladat- és hatásköröket az egyes munkakörökhöz tartozó munkaköri leírások tartalmazzák."
+    },
+    {
+      "provision_ref": "s173",
+      "section": "173",
+      "title": "173",
+      "content": "III. FEJEZET"
+    },
+    {
+      "provision_ref": "s174",
+      "section": "174",
+      "title": "174",
+      "content": "6. A MŰKÖDÉS RENDJE"
+    },
+    {
+      "provision_ref": "s175",
+      "section": "175",
+      "title": "175",
+      "content": "6.1 Általános szabályok"
+    },
+    {
+      "provision_ref": "s176",
+      "section": "176",
+      "title": "176",
+      "content": "6.1.1 A szervezeti egységek működését a jogszabályok, a közjogi szervezetszabályozó eszközök, az SzMSz, a szervezeti egységek ügyrendjei és a KIFÜ belső szabályozási eszközei határozzák meg."
+    },
+    {
+      "provision_ref": "s177",
+      "section": "177",
+      "title": "177",
+      "content": "6.2 A feladatok meghatározása, munkaterv"
+    },
+    {
+      "provision_ref": "s178",
+      "section": "178",
+      "title": "178",
+      "content": "6.2.1 A KIFÜ adott évre vonatkozó fő feladatait az éves munkaterv alapján látja el."
+    },
+    {
+      "provision_ref": "s179",
+      "section": "179",
+      "title": "179",
+      "content": "6.2.2 A KIFÜ tevékenységéről éves beszámoló készül."
+    },
+    {
+      "provision_ref": "s180",
+      "section": "180",
+      "title": "180",
+      "content": "6.3 Elnöki utasítás"
+    },
+    {
+      "provision_ref": "s181",
+      "section": "181",
+      "title": "181",
+      "content": "6.3.1 Az elnök – jogszabályban meghatározott irányítási jogkörében eljárva – utasításokban szabályozza a KIFÜ tevékenységét."
+    },
+    {
+      "provision_ref": "s182",
+      "section": "182",
+      "title": "182",
+      "content": "6.3.2 Az SzMSz-ben, valamint az egyéb elnöki utasításban nem szabályozott, a KIFÜ szervezeti egységei által ellátott feladatok munkafolyamatainak leírását, a szervezeti egységek vezetőinek és alkalmazottainak feladat- és hatáskörét, a szervezeti egységek szervezeten belüli belső és azon kívüli külső kapcsolattartásának módját a szervezeti egységek ügyrendjei tartalmazzák. A szervezeti egységek ügyrendjeit az elnök utasításban hagyja jóvá."
+    },
+    {
+      "provision_ref": "s183",
+      "section": "183",
+      "title": "183",
+      "content": "6.4 Elnökhelyettesi utasítás"
+    },
+    {
+      "provision_ref": "s184",
+      "section": "184",
+      "title": "184",
+      "content": "6.4.1 Az elnökhelyettesek az irányításuk alá tartozó szervezeti egységekre kiterjedően, azok tevékenységének operatív irányítása érdekében elnökhelyettesi utasítás kiadására jogosultak."
+    },
+    {
+      "provision_ref": "s185",
+      "section": "185",
+      "title": "185",
+      "content": "6.4.2 Az elnökhelyettesi utasítás rendelkezései nem lehetnek ellentétesek elnöki utasítással vagy jogszabállyal."
+    },
+    {
+      "provision_ref": "s186",
+      "section": "186",
+      "title": "186",
+      "content": "6.5 A kiadmányozási jog"
+    },
+    {
+      "provision_ref": "s187",
+      "section": "187",
+      "title": "187",
+      "content": "6.5.1 A kiadmányozási jog az ügyben történő érdemi döntésre ad felhatalmazást. A kiadmányozási jog magában foglalja az érdemi döntés meghozatalát és az azzal kapcsolatban készített dokumentum aláírásának, valamint az intézkedések jóváhagyásának jogát. A kiadmányozási jogkör a KIFÜ elnökét illeti meg. A kiadmányozási jogkör – a kizárólagos jogkörbe tartozó ügyek kivételével – elnöki utasításban átruházható."
+    },
+    {
+      "provision_ref": "s188",
+      "section": "188",
+      "title": "188",
+      "content": "6.5.2 Az iratot oly módon kell a kiadmányozásra jogosultnak előterjeszteni, hogy – az ügyintézési határidőre figyelemmel – a döntéshozatalhoz kellő idő álljon rendelkezésre."
+    },
+    {
+      "provision_ref": "s189",
+      "section": "189",
+      "title": "189",
+      "content": "6.6 A képviselet"
+    },
+    {
+      "provision_ref": "s190",
+      "section": "190",
+      "title": "190",
+      "content": "6.6.1 A KIFÜ általános egyszemélyi képviseletét – a vezető jogtanácsos jogszabályban biztosított képviseleti jogának kivételével – az elnök látja el. Az elnök képviseleti jogát esetenként vagy az ügyek meghatározott csoportjára nézve a KIFÜ személyi állományának tagjára átruházhatja. Kivételt képez ez alól a jogszabály vagy a közjogi szervezetszabályozó eszközök által az elnök személyes közreműködését előíró ügyek csoportja."
+    },
+    {
+      "provision_ref": "s191",
+      "section": "191",
+      "title": "191",
+      "content": "6.6.2 Az elnök akadályoztatása esetén az elnökhelyettesek jogosultak a KIFÜ képviseletére."
+    },
+    {
+      "provision_ref": "s192",
+      "section": "192",
+      "title": "192",
+      "content": "6.6.3 A szervezeti egységek vezetői a saját szakterületükön és működési körükön belül, a projektvezetők a hozzájuk rendelt projektekben a megbízólevelükben foglaltak és a projekt alapító dokumentuma (a továbbiakban: PAD) szerint, és egyedi szakmai képviseletre irányuló megbízás alapján, átruházott jogkörben jogosultak a KIFÜ képviseletére."
+    },
+    {
+      "provision_ref": "s193",
+      "section": "193",
+      "title": "193",
+      "content": "6.6.4 A KIFÜ belső működése során a szervezeti egységet a magasabb vezető vagy a főosztályvezető, távollétük, akadályoztatásuk esetén a főosztályvezető-helyettes, ennek hiányában az általuk megbízott más, a szervezeti egységhez tartozó munkatárs képviseli."
+    },
+    {
+      "provision_ref": "s194",
+      "section": "194",
+      "title": "194",
+      "content": "6.6.5 A képviseletre jogosult személy köteles a feladatkörében érintett szervezeti egységekkel előzetesen egyeztetett KIFÜ álláspontot képviselni, továbbá az általa képviselt ügyről az illetékes vezetőt tájékoztatni."
+    },
+    {
+      "provision_ref": "s195",
+      "section": "195",
+      "title": "195",
+      "content": "6.6.6 Az Ütv. 39. és 66. §-a értelmében a kamarai jogtanácsos külön meghatalmazás nélkül, közalkalmazotti jogviszonya alapján képviseli a KIFÜ-t. A kamarai jogtanácsos a KIFÜ-t illető jogról lemondani, vagy a KIFÜ-t ellenszolgáltatás nélkül terhelő kötelezettséget vállalni csak külön felhatalmazás alapján jogosult."
+    },
+    {
+      "provision_ref": "s196",
+      "section": "196",
+      "title": "196",
+      "content": "7. ÖSSZEFÉRHETETLENSÉGI SZABÁLYOK"
+    },
+    {
+      "provision_ref": "s197",
+      "section": "197",
+      "title": "197",
+      "content": "7.1 Az összeférhetetlenség vonatkozásában (bejelentés, engedélyezés stb.) a Kjt. rendelkezései szerint kell eljárni."
+    },
+    {
+      "provision_ref": "s198",
+      "section": "198",
+      "title": "198",
+      "content": "8. MUNKÁLTATÓI JOGOK, VAGYONNYILATKOZAT-TÉTELI KÖTELEZETTSÉG SZABÁLYOZÁSA"
+    },
+    {
+      "provision_ref": "s199",
+      "section": "199",
+      "title": "199",
+      "content": "8.1 A munkáltatói jogok gyakorlását a 3. melléklet tartalmazza."
+    },
+    {
+      "provision_ref": "s200",
+      "section": "200",
+      "title": "200",
+      "content": "8.2 A KIFÜ-vel jogviszonyban álló foglalkoztatottak köréből vagyonnyilatkozat-tételre kötelezettek a magasabb vezetők, valamint az egyes vagyonnyilatkozat-tételi kötelezettségekről szóló 2007. évi CLII. törvény 3. § (1) bekezdésében meghatározott eljárások, feladatellátások során javaslattételre, döntésre vagy ellenőrzésre jogosult foglalkoztatottak. A vagyonnyilatkozat-tételre vonatkozó egyéb részletszabályokat az elnök külön utasításban határozza meg."
+    },
+    {
+      "provision_ref": "s201",
+      "section": "201",
+      "title": "201",
+      "content": "9. A MUNKAREND"
+    },
+    {
+      "provision_ref": "s202",
+      "section": "202",
+      "title": "202",
+      "content": "9.1 A hivatali munkaidő munkanapokon hétfőtől csütörtökig 08.00 órától 16.30 óráig, pénteken 08.00 órától 14.00 óráig tart. A személyi állomány tagja munkaidőben köteles munkát végezni, illetve a szervezeti egység vezetőjének utasítására köteles a munkaköri leírásban meghatározott feladatok ellátása érdekében külső helyszínen megjelenni. A KIFÜ elnöke utasításban szabályozhatja az otthoni- és távmunkavégzést."
+    },
+    {
+      "provision_ref": "s203",
+      "section": "203",
+      "title": "203",
+      "content": "9.2 A szervezeti egység vezetője elrendelhet a hivatali munkarendtől eltérő, rugalmas munkaidő-beosztást. A rugalmas munkaidő-beosztás engedélyezése során a törzsidőt (kötelező bent tartózkodás ideje) a szervezeti egység ügyrendje határozza meg. Rugalmas munkaidő-beosztás engedélyezése esetén a munkavégzés adott naptári hónapban nem lehet kevesebb az adott naptári hónapra vonatkozó, munkaügyi naptárban meghatározott óraszámnál, valamint a munkavégzés időtartama az adott munkanapon nem haladhatja meg a 12 órát."
+    },
+    {
+      "provision_ref": "s204",
+      "section": "204",
+      "title": "204",
+      "content": "9.3 Meghatározott munkakörök esetében a hatékony munkavégzés vagy folyamatos üzem több műszakos munkarendben valósulhat meg, amelynek végrehajtási szabályait az érintett szervezeti egység ügyrendje tartalmazza."
+    },
+    {
+      "provision_ref": "s205",
+      "section": "205",
+      "title": "205",
+      "content": "9.4 Amennyiben az ellátandó feladatok jellege indokolja, a szervezeti egység vezetője készenlétet rendelhet el, amelynek végrehajtási szabályait elnöki utasítás tartalmazza."
+    },
+    {
+      "provision_ref": "s206",
+      "section": "206",
+      "title": "206",
+      "content": "9.5 A szervezeti egység vagy az iroda vezetője gondoskodik a ledolgozott munkaidő ellenőrzéséről."
+    },
+    {
+      "provision_ref": "s207",
+      "section": "207",
+      "title": "207",
+      "content": "9.6 Az elnökhelyettes vagy a főosztályvezető javaslatot tehet távmunka engedélyezésére, amelyet az elnök hagy jóvá."
+    },
+    {
+      "provision_ref": "s208",
+      "section": "208",
+      "title": "208",
+      "content": "10. A SZABADSÁG IGÉNYBEVÉTELÉNEK ÉS KIADÁSÁNAK RENDJE"
+    },
+    {
+      "provision_ref": "s209",
+      "section": "209",
+      "title": "209",
+      "content": "10.1 A szabadság igénybevételének engedélyezése a 3. mellékletben meghatározottak szerint történik."
+    },
+    {
+      "provision_ref": "s210",
+      "section": "210",
+      "title": "210",
+      "content": "10.2 Az irodavezető a hozzárendelt munkatársak tekintetében jogosult a szabadság engedélyezésére. A főosztályvezető közvetlenül az irányítása alá tartozók tekintetében jogosult a szabadság engedélyezésére. A főosztályvezető tekintetében a közvetlen magasabb vezető, míg az elnökhelyettesek tekintetében az elnök hatáskörébe tartozik a szabadság igénybevételének engedélyezése."
+    },
+    {
+      "provision_ref": "s211",
+      "section": "211",
+      "title": "211",
+      "content": "10.3 A szabadságot a hatályos jogszabályoknak megfelelően, a szervezet működőképességének figyelembevételével kell engedélyezni, illetve kiadni."
+    },
+    {
+      "provision_ref": "s212",
+      "section": "212",
+      "title": "212",
+      "content": "11. TITOKTARTÁS"
+    },
+    {
+      "provision_ref": "s213",
+      "section": "213",
+      "title": "213",
+      "content": "11.1 A KIFÜ vezetői és munkatársai kötelesek a munkavégzésük során tudomásukra jutott minősített adatot, üzleti titkot és személyes adatot az érvényességi időn belül megőrizni, azokat illetéktelen személynek nem adhatják át, az adat tartalmát nem hozhatják illetéktelen személy tudomására vagy nyilvánosságra."
+    },
+    {
+      "provision_ref": "s214",
+      "section": "214",
+      "title": "214",
+      "content": "12. AZ ÜGYKÖRÖK ÁTADÁSA"
+    },
+    {
+      "provision_ref": "s215",
+      "section": "215",
+      "title": "215",
+      "content": "12.1 A munkakört betöltők személyében bekövetkezett változás esetén a főosztályvezető döntése alapján az ügykörök átadás-átvételéről gondoskodni szükséges. Az eljárásban részt vesz az átadó, az átvevő, valamint az iratkezelési feladatokat ellátó személy, továbbá mindazok, akiket erre esetenként az elnök vagy az általa felhatalmazott vezető kijelöl."
+    },
+    {
+      "provision_ref": "s216",
+      "section": "216",
+      "title": "216",
+      "content": "12.2 Az átadás-átvételről az ügykör nagyságrendjétől függően témánként részjegyzőkönyvet és összefoglalót (egyszerűbb esetben jegyzőkönyvet) kell készíteni."
+    },
+    {
+      "provision_ref": "s217",
+      "section": "217",
+      "title": "217",
+      "content": "12.3 Az ügyiratok átadás-átvételére vonatkozó részletes szabályokat a KIFÜ mindenkor hatályos iratkezelési szabályzata tartalmazza."
+    },
+    {
+      "provision_ref": "s218",
+      "section": "218",
+      "title": "218",
+      "content": "13. AZ ÉRTEKEZLETEK RENDJE"
+    },
+    {
+      "provision_ref": "s219",
+      "section": "219",
+      "title": "219",
+      "content": "13.1 Az elnöki értekezlet – amennyiben az elnök másként nem rendelkezik – legalább heti rendszerességgel ülésezik. Állandó résztvevői: a magasabb vezetők, valamint a meghívott főosztályvezetők."
+    },
+    {
+      "provision_ref": "s220",
+      "section": "220",
+      "title": "220",
+      "content": "13.2 Az elnökhelyettesi értekezlet szükség szerint, de legalább havi rendszerességgel ülésezik. Állandó résztvevői az irányításuk alá tartozó szervezeti egységek vezetői."
+    },
+    {
+      "provision_ref": "s221",
+      "section": "221",
+      "title": "221",
+      "content": "13.3 Egyéb értekezletek:"
+    },
+    {
+      "provision_ref": "s222",
+      "section": "222",
+      "title": "222",
+      "content": "13.3.1 a főosztályvezetők szükség szerint tartanak értekezletet, egyeztető megbeszélést az irányításuk alá tartozó szervezeti egységek munkatársai részére;"
+    },
+    {
+      "provision_ref": "s223",
+      "section": "223",
+      "title": "223",
+      "content": "13.3.2 az irodavezetők szükség szerint tartanak értekezletet, egyeztető megbeszélést."
+    },
+    {
+      "provision_ref": "s224",
+      "section": "224",
+      "title": "224",
+      "content": "13.4 Az értekezletet a kezdeményező vezető vezeti."
+    },
+    {
+      "provision_ref": "s225",
+      "section": "225",
+      "title": "225",
+      "content": "IV. FEJEZET"
+    },
+    {
+      "provision_ref": "s226",
+      "section": "226",
+      "title": "226",
+      "content": "14. ZÁRÓ RENDELKEZÉSEK"
+    },
+    {
+      "provision_ref": "s227",
+      "section": "227",
+      "title": "227",
+      "content": "14.1 Ez az utasítás a közzétételét követő napon lép hatályba."
+    },
+    {
+      "provision_ref": "s228",
+      "section": "228",
+      "title": "228",
+      "content": "14.2 A KIFÜ szervezeti egységeinek ügyrendjeit tartalmazó utasításokat az SzMSz hatálybalépésétől számított 90 napon belül kell elkészíteni, amelyeket az elnök hagy jóvá."
+    },
+    {
+      "provision_ref": "s229",
+      "section": "229",
+      "title": "229",
+      "content": "14.3"
+    },
+    {
+      "provision_ref": "s230",
+      "section": "230",
+      "title": "230",
+      "content": "A KIFÜ szervezeti egységeinek feladatai"
+    },
+    {
+      "provision_ref": "s231",
+      "section": "231",
+      "title": "231",
+      "content": "1. ELNÖKI SZERVEZET"
+    },
+    {
+      "provision_ref": "s232",
+      "section": "232",
+      "title": "232",
+      "content": "1.1 Az Elnöki Szervezet az elnökből, a Koordinációs Főosztályból, a Jogi és Beszerzési Főosztályból, a Megfelelőségi és Biztonsági Főosztályból, valamint a Belső Ellenőrzési Irodából és a Kommunikációs Irodából áll."
+    },
+    {
+      "provision_ref": "s233",
+      "section": "233",
+      "title": "233",
+      "content": "2. KOORDINÁCIÓS FŐOSZTÁLY"
+    },
+    {
+      "provision_ref": "s234",
+      "section": "234",
+      "title": "234",
+      "content": "2.1 A Koordinációs Főosztály felelős"
+    },
+    {
+      "provision_ref": "s235",
+      "section": "235",
+      "title": "235",
+      "content": "a) az elnök és az elnökhelyettesek munkáját támogató asszisztensi, ügyviteli feladatok ellátásáért;"
+    },
+    {
+      "provision_ref": "s236",
+      "section": "236",
+      "title": "236",
+      "content": "b) az elnök által kiadott koordinációs feladatok végrehajtásáért, szükség esetén a szakmai főosztályok bevonásával;"
+    },
+    {
+      "provision_ref": "s237",
+      "section": "237",
+      "title": "237",
+      "content": "c) a KIFÜ belső szabályozási rendszerének működtetéséért, a belső szabályozási eszközök kiadásának, aktualizálásának, valamint deregulációjának igazgatásszervezési feladataiért, továbbá a KIFÜ-t érintő jogszabályok, közjogi szervezetszabályozó eszközök és változásaik figyelemmel kíséréséért és az azokról történő tájékoztatásért;"
+    },
+    {
+      "provision_ref": "s238",
+      "section": "238",
+      "title": "238",
+      "content": "d) a KIFÜ szervezeti szintű integrált kockázatkezelési rendszerének és monitoring rendszerének működtetéséért, továbbá a KIFÜ működésével összefüggő integritási és korrupciós kockázatokra vonatkozó bejelentések fogadásával és kivizsgálásával, valamint nyilvántartásával és beszámolásával kapcsolatos feladatok ellátásáért;"
+    },
+    {
+      "provision_ref": "s239",
+      "section": "239",
+      "title": "239",
+      "content": "e) a szervezet stratégiájának elkészítéséért és felülvizsgálatáért, valamint a stratégiai akciók megvalósulásának monitorozásáért;"
+    },
+    {
+      "provision_ref": "s240",
+      "section": "240",
+      "title": "240",
+      "content": "f) a KIFÜ éves beszámolójának, valamint az éves munkatervének összeállításáért és elnöki jóváhagyásra történő előterjesztéséért;"
+    },
+    {
+      "provision_ref": "s241",
+      "section": "241",
+      "title": "241",
+      "content": "g) a szervezet folyamataihoz kapcsolódó új módszertani anyagok kidolgozásának koordinálásáért és aktualizálásáért;"
+    },
+    {
+      "provision_ref": "s242",
+      "section": "242",
+      "title": "242",
+      "content": "h) a szervezeti Tudástár folyamatos tartalmi frissítéséért;"
+    },
+    {
+      "provision_ref": "s243",
+      "section": "243",
+      "title": "243",
+      "content": "i) az elnök által meghatározott új, belső fejlesztési szolgáltatások koordinációjáért;"
+    },
+    {
+      "provision_ref": "s244",
+      "section": "244",
+      "title": "244",
+      "content": "j) a szervezet működésfejlesztési tevékenységének irányára vonatkozó javaslatok elkészítéséért és azok megvalósulásának koordinálásáért;"
+    },
+    {
+      "provision_ref": "s245",
+      "section": "245",
+      "title": "245",
+      "content": "k) a KIFÜ ellenőrzési nyomvonalának elkészítéséért és aktualizálásáért;"
+    },
+    {
+      "provision_ref": "s246",
+      "section": "246",
+      "title": "246",
+      "content": "l) a KIFÜ folyamattámogató és folyamatmenedzsment rendszerének működtetéséért, a KIFÜ valamennyi munkafolyamatát tartalmazó nyilvántartás kezeléséért, fejlesztéséért és naprakészen tartásáért, továbbá a KIFÜ munkafolyamatok fejlesztéséért és elektronikus folyamatkezelő rendszerbe történő implementálásáért és alkalmazásáért;"
+    },
+    {
+      "provision_ref": "s247",
+      "section": "247",
+      "title": "247",
+      "content": "m) az iratkezelés ügyviteli és irattárazási feladatainak ellátásáért;"
+    },
+    {
+      "provision_ref": "s248",
+      "section": "248",
+      "title": "248",
+      "content": "n) a Poszeidon elektronikus iratkezelő rendszer szakszerű használatáért;"
+    },
+    {
+      "provision_ref": "s249",
+      "section": "249",
+      "title": "249",
+      "content": "o) a KIFÜ szerződéseinek a Poszeidon elektronikus iratkezelő rendszerben lévő szerződés-nyilvántartóba történő feltöltéséért."
+    },
+    {
+      "provision_ref": "s250",
+      "section": "250",
+      "title": "250",
+      "content": "2.2 A Koordinációs Főosztály közreműködik"
+    },
+    {
+      "provision_ref": "s251",
+      "section": "251",
+      "title": "251",
+      "content": "a) a koordinációs feladatok keretében az ITM Digitalizációért Felelős Helyettes Államtitkári Titkárságától érkező, KIFÜ-t érintő feladatok ellátásában;"
+    },
+    {
+      "provision_ref": "s252",
+      "section": "252",
+      "title": "252",
+      "content": "b) az egyes hazai és minőségbiztosítási projektek előkészítésével, tervezésével, megvalósításával kapcsolatos feladatok ellátásában."
+    },
+    {
+      "provision_ref": "s253",
+      "section": "253",
+      "title": "253",
+      "content": "3. JOGI ÉS BESZERZÉSI FŐOSZTÁLY"
+    },
+    {
+      "provision_ref": "s254",
+      "section": "254",
+      "title": "254",
+      "content": "3.1 A Jogi és Beszerzési Főosztály felelős"
+    },
+    {
+      "provision_ref": "s255",
+      "section": "255",
+      "title": "255",
+      "content": "a) a beszerzési és közbeszerzési eljárások teljes körű lebonyolításáért, külső felelős akkreditált közbeszerzési szaktanácsadó által lebonyolított eljárások esetén a koordinációért;"
+    },
+    {
+      "provision_ref": "s256",
+      "section": "256",
+      "title": "256",
+      "content": "b) a KIFÜ beszerzési és közbeszerzési tervek elkészítéséért, módosításáért;"
+    },
+    {
+      "provision_ref": "s257",
+      "section": "257",
+      "title": "257",
+      "content": "c) a beszerzési és közbeszerzési eljárások naprakész nyilvántartásáért;"
+    },
+    {
+      "provision_ref": "s258",
+      "section": "258",
+      "title": "258",
+      "content": "d) a beszerzésekhez és közbeszerzésekhez kapcsolódó adatszolgáltatások teljesítéséért;"
+    },
+    {
+      "provision_ref": "s259",
+      "section": "259",
+      "title": "259",
+      "content": "e) a beszerzésekhez és közbeszerzésekhez kapcsolódóan az irányító minisztériummal, a Miniszterelnökség szakmai egységeivel, a Közbeszerzési Hatósággal, a központi beszerzési szervezetekkel, egyéb hatóságokkal való kapcsolattartásért;"
+    },
+    {
+      "provision_ref": "s260",
+      "section": "260",
+      "title": "260",
+      "content": "f) a KIFÜ jogalkalmazási tevékenységének szervezéséért és irányításáért;"
+    },
+    {
+      "provision_ref": "s261",
+      "section": "261",
+      "title": "261",
+      "content": "g) a KIFÜ szerződéseinek elkészítéséért, véleményezéséért, jogi szignálásáért vagy ellenjegyzéséért;"
+    },
+    {
+      "provision_ref": "s262",
+      "section": "262",
+      "title": "262",
+      "content": "h) a KIFÜ-t érintő jogszabálytervezetek, közjogi szervezetszabályozó eszközök előkészítéséért vagy véleményezéséért;"
+    },
+    {
+      "provision_ref": "s263",
+      "section": "263",
+      "title": "263",
+      "content": "i) a jogi állásfoglalások elkészítéséért;"
+    },
+    {
+      "provision_ref": "s264",
+      "section": "264",
+      "title": "264",
+      "content": "j) a KIFÜ beszerzési és közbeszerzési eljárásaiban az eljárás során keletkezett dokumentumok jogi minőségbiztosításáért;"
+    },
+    {
+      "provision_ref": "s265",
+      "section": "265",
+      "title": "265",
+      "content": "k) a KIFÜ által megbízott ügyvédekkel vagy ügyvédi irodákkal történő szakmai kapcsolattartásért;"
+    },
+    {
+      "provision_ref": "s266",
+      "section": "266",
+      "title": "266",
+      "content": "l) a KIFÜ jogi képviseletének ellátásáért;"
+    },
+    {
+      "provision_ref": "s267",
+      "section": "267",
+      "title": "267",
+      "content": "m) a KIFÜ szerződés nyilvántartása naprakész vezetésének ellenőrzéséért."
+    },
+    {
+      "provision_ref": "s268",
+      "section": "268",
+      "title": "268",
+      "content": "3.2 A Jogi és Beszerzési Főosztály közreműködik"
+    },
+    {
+      "provision_ref": "s269",
+      "section": "269",
+      "title": "269",
+      "content": "a) a KIFÜ részére előírt kötelező adatszolgáltatások, beszámolók, statisztikai célú kimutatások elkészítésében;"
+    },
+    {
+      "provision_ref": "s270",
+      "section": "270",
+      "title": "270",
+      "content": "b) a KIFÜ követeléseinek behajtására irányuló intézkedésekben."
+    },
+    {
+      "provision_ref": "s271",
+      "section": "271",
+      "title": "271",
+      "content": "3.3 A vezető jogtanácsos a Jogi és Beszerzési Főosztály személyi állományába tartozik."
+    },
+    {
+      "provision_ref": "s272",
+      "section": "272",
+      "title": "272",
+      "content": "4. MEGFELELŐSÉGI ÉS BIZTONSÁGI FŐOSZTÁLY"
+    },
+    {
+      "provision_ref": "s273",
+      "section": "273",
+      "title": "273",
+      "content": "4.1 A Megfelelőségi és Biztonsági Főosztály felelős"
+    },
+    {
+      "provision_ref": "s274",
+      "section": "274",
+      "title": "274",
+      "content": "a) a közszférabeli szervezetek honlapjainak és mobilalkalmazásainak akadálymentesítéséről szóló 2018. évi LXXV. törvény (a továbbiakban: webakadálymentesítési törvény) szerint a közszférabeli szervezetek honlapjainak és mobilalkalmazásainak webakadálymentességi megfelelőségének ellenőrzéséért és igazolásáért;"
+    },
+    {
+      "provision_ref": "s275",
+      "section": "275",
+      "title": "275",
+      "content": "b) a webakadálymentesítéssel kapcsolatos tanácsadásért;"
+    },
+    {
+      "provision_ref": "s276",
+      "section": "276",
+      "title": "276",
+      "content": "c) a webakadálymentesítéshez kapcsolódó tananyagok, tudásbázis, minta weboldalak és kódminták fejlesztéséért, publikálásáért;"
+    },
+    {
+      "provision_ref": "s277",
+      "section": "277",
+      "title": "277",
+      "content": "d) a honlapok és mobilalkalmazások akadálymentes tartalmainak elkészítésére, fenntartására és frissítésére irányuló webakadálymentesítéssel kapcsolatos információszolgáltatásáért, képzési programok népszerűsítésének és rendelkezésre állásának elősegítéséért;"
+    },
+    {
+      "provision_ref": "s278",
+      "section": "278",
+      "title": "278",
+      "content": "e) a webakadálymentesítési törvény szerinti ellenőrzés eredményéről szóló, az Európai Bizottság felé történő jelentéstételért;"
+    },
+    {
+      "provision_ref": "s279",
+      "section": "279",
+      "title": "279",
+      "content": "f) az érdekképviseleti szervekkel és más érdekelt felekkel a honlapok és mobilalkalmazások akadálymentességéről folytatott konzultációra szolgáló mechanizmusok ismertetéséért;"
+    },
+    {
+      "provision_ref": "s280",
+      "section": "280",
+      "title": "280",
+      "content": "g) a KIFÜ információbiztonsággal összefüggő feladatai ellátásának irányításáért, koordinálásáért, nyomon követéséért;"
+    },
+    {
+      "provision_ref": "s281",
+      "section": "281",
+      "title": "281",
+      "content": "h) az információbiztonsággal kapcsolatos belső szabályozási eszközökben leírt feladatok meghatározásáért, az azokban foglalt előírások betartásának ellenőrzéséért;"
+    },
+    {
+      "provision_ref": "s282",
+      "section": "282",
+      "title": "282",
+      "content": "i) a KIFÜ-n belüli információbiztonság tudatosságának fokozását szolgáló tevékenységek ellátásáért;"
+    },
+    {
+      "provision_ref": "s283",
+      "section": "283",
+      "title": "283",
+      "content": "j) az információbiztonsági kockázatelemzések elvégzéséért;"
+    },
+    {
+      "provision_ref": "s284",
+      "section": "284",
+      "title": "284",
+      "content": "k) a KIFÜ belső IT, valamint adathálózati és informatikai infrastruktúráját (a továbbiakban: IKT infrastruktúra) és szolgáltatásait érintő információbiztonsági incidensek felügyeletének, azonosításának és feltárásának biztosításáért;"
+    },
+    {
+      "provision_ref": "s285",
+      "section": "285",
+      "title": "285",
+      "content": "l) információbiztonsági tájékoztatók, riasztások kiadásáért, képzési anyag készítéséért, a munkatársak számára tartandó információbiztonsági képzések szervezéséért, megtartásáért;"
+    },
+    {
+      "provision_ref": "s286",
+      "section": "286",
+      "title": "286",
+      "content": "m) az információbiztonsági felügyeletet ellátó hatóságokkal, valamint a hazai és nemzetközi incidenskezelő szervezetekkel történő kapcsolattartásért;"
+    },
+    {
+      "provision_ref": "s287",
+      "section": "287",
+      "title": "287",
+      "content": "n) az Internet irányából érkező fenyegetettségek kezelésében a nemzetközi kutatási és oktatási hálózat üzemeltetőjével (GEANT) történő együttműködésért;"
+    },
+    {
+      "provision_ref": "s288",
+      "section": "288",
+      "title": "288",
+      "content": "o) a KIFÜ alkalmazástérkép szerinti rendszerek ütemezett jogosultság-felülvizsgálatának elvégzéséért, a szabályozásnak megfelelő jogosultság-adminisztrációs feladatok ellátásáért."
+    },
+    {
+      "provision_ref": "s289",
+      "section": "289",
+      "title": "289",
+      "content": "4.1.1 Az adatvédelmi tisztviselő felelős"
+    },
+    {
+      "provision_ref": "s290",
+      "section": "290",
+      "title": "290",
+      "content": "a) a KIFÜ által megvalósított, illetve a KIFÜ közreműködésével megvalósuló adatkezelések vonatkozásában, valamint egyéb uniós és tagállami adatvédelmi rendelkezésekből fakadó kötelezettségekkel kapcsolatban történő tájékoztatásért és szaktanácsadásért;"
+    },
+    {
+      "provision_ref": "s291",
+      "section": "291",
+      "title": "291",
+      "content": "b) a személyes adatok kezelésére vonatkozó jogi előírások, így különösen a jogszabályok és a KIFÜ adatvédelemmel összefüggő belső szabályzatainak való megfelelés folyamatos figyelemmel kíséréséért és ellenőrzéséért;"
+    },
+    {
+      "provision_ref": "s292",
+      "section": "292",
+      "title": "292",
+      "content": "c) az adatkezelési műveletekben közreműködő foglalkoztatottak részére történő egyértelmű feladatkijelölésért, valamint adatvédelmi tudatosságuk növeléséért és képzéséért;"
+    },
+    {
+      "provision_ref": "s293",
+      "section": "293",
+      "title": "293",
+      "content": "d) az érintettet megillető jogok gyakorlásának elősegítéséért, az érintett panaszainak kivizsgálásáért, illetve a kivizsgálás adatkezelőnél és adatfeldolgozónál történő kezdeményezéséért;"
+    },
+    {
+      "provision_ref": "s294",
+      "section": "294",
+      "title": "294",
+      "content": "e) az adatvédelmi hatásvizsgálatra vonatkozó szakmai tanácsadásért, valamint a hatásvizsgálat elvégzésének nyomon követéséért;"
+    },
+    {
+      "provision_ref": "s295",
+      "section": "295",
+      "title": "295",
+      "content": "f) a felügyeleti hatósággal (Nemzeti Adatvédelmi és Információszabadság Hatóság) történő kapcsolattartásért;"
+    },
+    {
+      "provision_ref": "s296",
+      "section": "296",
+      "title": "296",
+      "content": "g) az adatvédelmi és adatbiztonsági szabályzat elkészítéséért;"
+    },
+    {
+      "provision_ref": "s297",
+      "section": "297",
+      "title": "297",
+      "content": "h) az adatkezeléssel összefüggő nyilvántartások naprakész vezetéséért;"
+    },
+    {
+      "provision_ref": "s298",
+      "section": "298",
+      "title": "298",
+      "content": "i) adatvédelmi incidens esetén a vonatkozó szabályzatban meghatározott feladatok koordinálásáért, valamint a felügyelő hatóság felé határidőben történő bejelentésért."
+    },
+    {
+      "provision_ref": "s299",
+      "section": "299",
+      "title": "299",
+      "content": "4.2 A Megfelelőségi és Biztonsági Főosztály közreműködik"
+    },
+    {
+      "provision_ref": "s300",
+      "section": "300",
+      "title": "300",
+      "content": "a) a KIFÜ honlapjának akadálymentesítésében, megfelelőségének fenntartásában;"
+    },
+    {
+      "provision_ref": "s301",
+      "section": "301",
+      "title": "301",
+      "content": "b) a feltárt IT biztonsági incidensek kezelésében, továbbá a szolgáltatásokat érintő katasztrófák (vészhelyzetek) elhárításában."
+    },
+    {
+      "provision_ref": "s302",
+      "section": "302",
+      "title": "302",
+      "content": "4.3 Az információbiztonsági felelős és az adatvédelmi tisztviselő a Megfelelőségi és Biztonsági Főosztály személyi állományába tartozik."
+    },
+    {
+      "provision_ref": "s303",
+      "section": "303",
+      "title": "303",
+      "content": "5. BELSŐ ELLENŐRZÉSI IRODA"
+    },
+    {
+      "provision_ref": "s304",
+      "section": "304",
+      "title": "304",
+      "content": "5.1 A Belső Ellenőrzési Iroda ellátja a jogszabályban meghatározott belső ellenőri és belső ellenőrzési vezetői feladatokat, így kiemelten:"
+    },
+    {
+      "provision_ref": "s305",
+      "section": "305",
+      "title": "305",
+      "content": "a) ellenőrzéseket, utóellenőrzéseket végez, amelyekről készített jelentéseit az elnök és az ellenőrzött számára megküldi;"
+    },
+    {
+      "provision_ref": "s306",
+      "section": "306",
+      "title": "306",
+      "content": "b) a jelentések megállapításait, javaslatait és az intézkedési tervben meghatározott feladatok végrehajtását nyomon követi;"
+    },
+    {
+      "provision_ref": "s307",
+      "section": "307",
+      "title": "307",
+      "content": "c) gondoskodik a belső ellenőrzések nyilvántartásáról."
+    },
+    {
+      "provision_ref": "s308",
+      "section": "308",
+      "title": "308",
+      "content": "5.2 A belső ellenőrzési vezető egyben a Belső Ellenőrzési Iroda vezetője, aki az elnök közvetlen alárendeltségében, függetlenül végzi tevékenységét."
+    },
+    {
+      "provision_ref": "s309",
+      "section": "309",
+      "title": "309",
+      "content": "5.3 A belső ellenőrzési vezető felelős"
+    },
+    {
+      "provision_ref": "s310",
+      "section": "310",
+      "title": "310",
+      "content": "a) a szakterületét érintő szabályozásokért, ellenőrzési koncepció-, ellenőrzési stratégia, éves ellenőri munkaterv és beszámoló készítéséért, valamint a felügyeleti szerv felé történő megküldéséért;"
+    },
+    {
+      "provision_ref": "s311",
+      "section": "311",
+      "title": "311",
+      "content": "b) a költségvetési szerv vezetőjének döntésétől függően a külső ellenőrzések nyilvántartásáért, valamint az ellenőrzési dokumentumok megőrzéséért."
+    },
+    {
+      "provision_ref": "s312",
+      "section": "312",
+      "title": "312",
+      "content": "5.4 A belső ellenőrzési vezető elnöki megbízás alapján tanácsadói, illetve a külső ellenőrzések esetén – az elnök által a hatáskörébe utalt ügyekben – kapcsolattartói és koordinátori feladatokat lát el."
+    },
+    {
+      "provision_ref": "s313",
+      "section": "313",
+      "title": "313",
+      "content": "6. KOMMUNIKÁCIÓS IRODA"
+    },
+    {
+      "provision_ref": "s314",
+      "section": "314",
+      "title": "314",
+      "content": "6.1 A Kommunikációs Iroda felelős a KIFÜ szervezeti, projektkommunikációs és Infrastruktúráért Felelős Elnökhelyettesi Szervezet kommunikációs feladatainak elvégzéséért, azok összehangolásáért, kiemelten"
+    },
+    {
+      "provision_ref": "s315",
+      "section": "315",
+      "title": "315",
+      "content": "a) a KIFÜ éves kommunikációs tervének elkészítéséért, a feladatok megvalósulásáért és azok monitorozásáért;"
+    },
+    {
+      "provision_ref": "s316",
+      "section": "316",
+      "title": "316",
+      "content": "b) a KIFÜ belső és külső kommunikációs feladatainak elvégzéséért, rendezvények megszervezéséért, lebonyolításáért;"
+    },
+    {
+      "provision_ref": "s317",
+      "section": "317",
+      "title": "317",
+      "content": "c) a KIFÜ Intranet portáljának folyamatos tartalmi frissítéséért, továbbá a KIFÜ szervezeti honlap struktúrájának kialakításáért, a jogszabályoknak megfelelő, folyamatos tartalmi frissítéséért;"
+    },
+    {
+      "provision_ref": "s318",
+      "section": "318",
+      "title": "318",
+      "content": "d) a szakmai területek által biztosított információk alapján a közérdekű adatigénylések választervezeteinek elkészítésének koordinálásáért és a felügyeleti szervvel történő egyeztetéséért."
+    },
+    {
+      "provision_ref": "s319",
+      "section": "319",
+      "title": "319",
+      "content": "6.2 A Kommunikációs Iroda együttműködik a Projektekért Felelős Elnökhelyettesi Szervezettel mindazon projektek esetében, amelyeknél a felhívás, a támogatási szerződés, a megvalósíthatósági tanulmány kommunikációs, marketingkommunikációs, továbbá rendezvényszervezési feladatokat nevesít."
+    },
+    {
+      "provision_ref": "s320",
+      "section": "320",
+      "title": "320",
+      "content": "7. A PROJEKTEKÉRT FELELŐS ELNÖKHELYETTESI SZERVEZET"
+    },
+    {
+      "provision_ref": "s321",
+      "section": "321",
+      "title": "321",
+      "content": "7.1 A Projektekért Felelős Elnökhelyettesi Szervezet a projektekért felelős elnökhelyettesből, a Projektmenedzsment Főosztályból, a Minőségbiztosítási Főosztályból, a Projekt Pénzügyi és Támogató Főosztályból, valamint az Újgenerációs Hálózatfejlesztési Főosztályból áll."
+    },
+    {
+      "provision_ref": "s322",
+      "section": "322",
+      "title": "322",
+      "content": "8. PROJEKTEKÉRT FELELŐS ELNÖKHELYETTES"
+    },
+    {
+      "provision_ref": "s323",
+      "section": "323",
+      "title": "323",
+      "content": "8.1 A projektekért felelős elnökhelyettes az elnök irányítása alatt"
+    },
+    {
+      "provision_ref": "s324",
+      "section": "324",
+      "title": "324",
+      "content": "a) felelős a KIFÜ projektmenedzsment, a minőségbiztosítási, a projekt pénzügyi és támogató, valamint az újgenerációs hálózatfejlesztési tevékenységének megvalósításáért;"
+    },
+    {
+      "provision_ref": "s325",
+      "section": "325",
+      "title": "325",
+      "content": "b) felügyeli a projektek szakmai megvalósítását;"
+    },
+    {
+      "provision_ref": "s326",
+      "section": "326",
+      "title": "326",
+      "content": "c) szakterületén irányítja a fejlesztési koncepciók, programok, tervek kialakítását és megvalósítását;"
+    },
+    {
+      "provision_ref": "s327",
+      "section": "327",
+      "title": "327",
+      "content": "d) irányítja a projektigazgatók tevékenységét."
+    },
+    {
+      "provision_ref": "s328",
+      "section": "328",
+      "title": "328",
+      "content": "9. PROJEKTMENEDZSMENT FŐOSZTÁLY"
+    },
+    {
+      "provision_ref": "s329",
+      "section": "329",
+      "title": "329",
+      "content": "9.1 A Projektmenedzsment Főosztály felelős"
+    },
+    {
+      "provision_ref": "s330",
+      "section": "330",
+      "title": "330",
+      "content": "a) a Magyarország Kormánya által meghirdetett hazai, illetve hazai és EU forrásból társfinanszírozott projektek (a továbbiakban: hazai projektek) megvalósításáért;"
+    },
+    {
+      "provision_ref": "s331",
+      "section": "331",
+      "title": "331",
+      "content": "b) a hazai projektek részletes szakmai és pénzügyi előkészítésével, tervezésével, megvalósításával kapcsolatos feladatok koordinációjáért;"
+    },
+    {
+      "provision_ref": "s332",
+      "section": "332",
+      "title": "332",
+      "content": "c) a hazai projektek költségvetésének végrehajtásáért, a hazai projektek szerződés szerinti teljesítéséért;"
+    },
+    {
+      "provision_ref": "s333",
+      "section": "333",
+      "title": "333",
+      "content": "d) a hazai PAD-ban szabályozott módon a projektmenedzsmenthez kapcsolódó tevékenységek elvégzéséért;"
+    },
+    {
+      "provision_ref": "s334",
+      "section": "334",
+      "title": "334",
+      "content": "e) a hazai projektek adminisztrációs és dokumentációs tevékenységeinek ellátásáért és összehangolásáért;"
+    },
+    {
+      "provision_ref": "s335",
+      "section": "335",
+      "title": "335",
+      "content": "f) projektfolyamatok és termékek szakmai és módszertani megfelelőségének ellenőrzéséért;"
+    },
+    {
+      "provision_ref": "s336",
+      "section": "336",
+      "title": "336",
+      "content": "g) a hazai projektekhez kapcsolódó teljesítésigazolási folyamatokért;"
+    },
+    {
+      "provision_ref": "s337",
+      "section": "337",
+      "title": "337",
+      "content": "h) a hazai projektek humánerőforrás-tervezéséért és a tervek aktualizálásáért;"
+    },
+    {
+      "provision_ref": "s338",
+      "section": "338",
+      "title": "338",
+      "content": "i) a hazai projektek projektkommunikációjának végrehajtásáért azon projektek esetén, ahol a felhívás, támogatási szerződés, megvalósíthatósági tanulmány önálló alprojektként, komponensként vagy pillérként nevesít kommunikációs, marketingkommunikációs, továbbá rendezvényszervezési feladatokat;"
+    },
+    {
+      "provision_ref": "s339",
+      "section": "339",
+      "title": "339",
+      "content": "j) az elnök, valamint a projektekért felelős elnökhelyettes részére történő rendszeres és eseti információszolgáltatásért;"
+    },
+    {
+      "provision_ref": "s340",
+      "section": "340",
+      "title": "340",
+      "content": "k) a hazai projektek informatikai támogatását szolgáló rendszer szakmai alkalmazásgazdai feladatainak ellátásáért."
+    },
+    {
+      "provision_ref": "s341",
+      "section": "341",
+      "title": "341",
+      "content": "9.2 A Projektmenedzsment Főosztály végzi az irányító szerv által meghatározott, hazai forrásból finanszírozott pályázatok kezelését, amelynek keretében a pályázatért felelős minisztérium által jóváhagyott eljárásrend alapján felelős"
+    },
+    {
+      "provision_ref": "s342",
+      "section": "342",
+      "title": "342",
+      "content": "9.2.1 a feladatkörébe utalt pályázatok"
+    },
+    {
+      "provision_ref": "s343",
+      "section": "343",
+      "title": "343",
+      "content": "a) támogatási szerződéseinek megkötéséért, módosításáért;"
+    },
+    {
+      "provision_ref": "s344",
+      "section": "344",
+      "title": "344",
+      "content": "b) dokumentációjának elektronikus felületen való kezeléséért és aktualizálásáért;"
+    },
+    {
+      "provision_ref": "s345",
+      "section": "345",
+      "title": "345",
+      "content": "c) (köz)beszerzési eljárásainak ellenőrzéséért;"
+    },
+    {
+      "provision_ref": "s346",
+      "section": "346",
+      "title": "346",
+      "content": "d) előrehaladási jelentéseinek és záró beszámolóinak ellenőrzéséért;"
+    },
+    {
+      "provision_ref": "s347",
+      "section": "347",
+      "title": "347",
+      "content": "e) megvalósításának nyomon követéséért;"
+    },
+    {
+      "provision_ref": "s348",
+      "section": "348",
+      "title": "348",
+      "content": "f) kifizetési kérelmeinek ellenőrzéséért és jóváhagyásáért;"
+    },
+    {
+      "provision_ref": "s349",
+      "section": "349",
+      "title": "349",
+      "content": "g) pénzügyi elszámolásának, illetve záró beszámolóinak ellenőrzéséért;"
+    },
+    {
+      "provision_ref": "s350",
+      "section": "350",
+      "title": "350",
+      "content": "h) tervezett vagy rendkívüli helyszíni ellenőrzéseinek elvégzéséért;"
+    },
+    {
+      "provision_ref": "s351",
+      "section": "351",
+      "title": "351",
+      "content": "i) szabálytalansági vizsgálatainak lefolytatásáért;"
+    },
+    {
+      "provision_ref": "s352",
+      "section": "352",
+      "title": "352",
+      "content": "j) zárásához kapcsolódó közreműködő szervezeti feladatok ellátásáért;"
+    },
+    {
+      "provision_ref": "s353",
+      "section": "353",
+      "title": "353",
+      "content": "k) fenntartási kötelezettségeinek ellenőrzéséért;"
+    },
+    {
+      "provision_ref": "s354",
+      "section": "354",
+      "title": "354",
+      "content": "9.2.2 a hatáskörébe utalt, hazai forrásból finanszírozott projektek vagy pályázatok megvalósításával kapcsolatos egyéb – nem projektmenedzsment jellegű – feladatok ellátásáért."
+    },
+    {
+      "provision_ref": "s355",
+      "section": "355",
+      "title": "355",
+      "content": "9.3 A Projektmenedzsment Főosztály közreműködik"
+    },
+    {
+      "provision_ref": "s356",
+      "section": "356",
+      "title": "356",
+      "content": "a) a hazai projektek pénzügyi elszámolásával és a kifizetési igénylések elkészítésével kapcsolatos feladatok ellátásában;"
+    },
+    {
+      "provision_ref": "s357",
+      "section": "357",
+      "title": "357",
+      "content": "b) tervezett vagy rendkívüli helyszíni ellenőrzések elvégzésében, projektauditokban;"
+    },
+    {
+      "provision_ref": "s358",
+      "section": "358",
+      "title": "358",
+      "content": "c) a magyar közigazgatás projektmenedzsment készségeinek fejlesztésében, a főosztályon felhalmozódott tudás szervezeten kívüli terjesztésében;"
+    },
+    {
+      "provision_ref": "s359",
+      "section": "359",
+      "title": "359",
+      "content": "d) hazai projektekkel kapcsolatos adatszolgáltatásokban;"
+    },
+    {
+      "provision_ref": "s360",
+      "section": "360",
+      "title": "360",
+      "content": "e) a projektgazdák és az irányító minisztérium közötti egyeztetésekben."
+    },
+    {
+      "provision_ref": "s361",
+      "section": "361",
+      "title": "361",
+      "content": "10. MINŐSÉGBIZTOSÍTÁSI FŐOSZTÁLY"
+    },
+    {
+      "provision_ref": "s362",
+      "section": "362",
+      "title": "362",
+      "content": "10.1 A Minőségbiztosítási Főosztály felelős"
+    },
+    {
+      "provision_ref": "s363",
+      "section": "363",
+      "title": "363",
+      "content": "a) a feladatkörébe tartozó projektek minőségbiztosítási feladatainak ellátásért (folyamat- és műszaki, egyes esetekben termék minőségbiztosításért);"
+    },
+    {
+      "provision_ref": "s364",
+      "section": "364",
+      "title": "364",
+      "content": "b) a partnerekkel való kapcsolattartásért, partnerek részére történő jelentések készítéséért;"
+    },
+    {
+      "provision_ref": "s365",
+      "section": "365",
+      "title": "365",
+      "content": "c) a tevékenysége során keletkezett szakmai dokumentumok elektronikus és papíralapú kezeléséért, archiválásáért, tárolásáért és visszakereshetőségéért;"
+    },
+    {
+      "provision_ref": "s366",
+      "section": "366",
+      "title": "366",
+      "content": "d) a feladatainak ellátásához szükséges vállalkozók koordinálásáért, ellenőrzéséért;"
+    },
+    {
+      "provision_ref": "s367",
+      "section": "367",
+      "title": "367",
+      "content": "e) a projektek minőségbiztosítási feladataival kapcsolatos belső folyamatok, adminisztrációs és dokumentációs tevékenységek működtetéséért;"
+    },
+    {
+      "provision_ref": "s368",
+      "section": "368",
+      "title": "368",
+      "content": "f) a feladatkörébe tartozó projektekhez kapcsolódó teljesítésigazolási folyamatokért."
+    },
+    {
+      "provision_ref": "s369",
+      "section": "369",
+      "title": "369",
+      "content": "10.2 A Minőségbiztosítási Főosztály közreműködik a magyar közigazgatás projektmenedzsment készségeinek fejlesztésében, a főosztályon felhalmozódott tudás szervezeten kívüli terjesztésében."
+    },
+    {
+      "provision_ref": "s370",
+      "section": "370",
+      "title": "370",
+      "content": "11. PROJEKT PÉNZÜGYI ÉS TÁMOGATÓ FŐOSZTÁLY"
+    },
+    {
+      "provision_ref": "s371",
+      "section": "371",
+      "title": "371",
+      "content": "11.1 A Projekt Pénzügyi és Támogató Főosztály felelős a Projektekért Felelős Elnökhelyettesi Szervezet hatáskörébe tartozó projektek és támogatások"
+    },
+    {
+      "provision_ref": "s372",
+      "section": "372",
+      "title": "372",
+      "content": "a) teljesítésigazolásának pénzügyi szempontú ellenőrzéséért;"
+    },
+    {
+      "provision_ref": "s373",
+      "section": "373",
+      "title": "373",
+      "content": "b) a Forrásmenedzsment és Kontrolling Főosztály által készített tervekkel összhangban lévő pénzügyi elszámolásainak és kifizetési igényléseinek elkészítéséért, benyújtásáért;"
+    },
+    {
+      "provision_ref": "s374",
+      "section": "374",
+      "title": "374",
+      "content": "c) saját teljesítéseinek elszámolását alátámasztó munkaidő-nyilvántartásért;"
+    },
+    {
+      "provision_ref": "s375",
+      "section": "375",
+      "title": "375",
+      "content": "d) fenntartási jelentéseinek elkészítéséért, benyújtásáért;"
+    },
+    {
+      "provision_ref": "s376",
+      "section": "376",
+      "title": "376",
+      "content": "e) költségvetésének nyilvántartásáért;"
+    },
+    {
+      "provision_ref": "s377",
+      "section": "377",
+      "title": "377",
+      "content": "f) beszerzési dokumentumainak utó- vagy folyamatba épített ellenőrzéseihez kötődő, a támogatási rendszer előírásainak megfelelő adatszolgáltatásért;"
+    },
+    {
+      "provision_ref": "s378",
+      "section": "378",
+      "title": "378",
+      "content": "g) előkészítése és megvalósítása során keletkezett pénzügyi és projektmenedzsment dokumentumok elektronikus archiválásáért, tárolásáért és visszakereshetőségéért;"
+    },
+    {
+      "provision_ref": "s379",
+      "section": "379",
+      "title": "379",
+      "content": "h) során keletkezett pénzügyi és projektmenedzsment dokumentumok projektenként elkülönített tárolásáért és visszakereshetőségéért;"
+    },
+    {
+      "provision_ref": "s380",
+      "section": "380",
+      "title": "380",
+      "content": "i) külső ellenőrzésre kiválasztása esetén az ellenőrzés vagy audit koordinációjáért, valamint azok nyilvántartásáért (együttműködve a Projektmenedzsment Főosztállyal, a Gazdálkodási Főosztállyal és a Belső Ellenőrzési Irodával);"
+    },
+    {
+      "provision_ref": "s381",
+      "section": "381",
+      "title": "381",
+      "content": "j) változásainak bejelentéséért, dokumentálásáért (támogatási szerződés módosítása, változásbejelentés)."
+    },
+    {
+      "provision_ref": "s382",
+      "section": "382",
+      "title": "382",
+      "content": "11.2 A Projekt Pénzügyi és Támogató Főosztály közreműködik"
+    },
+    {
+      "provision_ref": "s383",
+      "section": "383",
+      "title": "383",
+      "content": "a) a projektek előkészítésében, ezen belül a felhívások véleményezésében és a támogatási kérelmek elkészítésében;"
+    },
+    {
+      "provision_ref": "s384",
+      "section": "384",
+      "title": "384",
+      "content": "b) a projektek pénzügyi tervezésében, módosításában;"
+    },
+    {
+      "provision_ref": "s385",
+      "section": "385",
+      "title": "385",
+      "content": "c) a projektauditokban;"
+    },
+    {
+      "provision_ref": "s386",
+      "section": "386",
+      "title": "386",
+      "content": "d) a projektekhez kapcsolódó pénzügyi, szakmai és egyéb adminisztratív feladatok ellátásában, a projektek adminisztrációs és dokumentációs tevékenységeinek összehangolásában;"
+    },
+    {
+      "provision_ref": "s387",
+      "section": "387",
+      "title": "387",
+      "content": "e) a szervezeti szintű pénzügyi tervezésben;"
+    },
+    {
+      "provision_ref": "s388",
+      "section": "388",
+      "title": "388",
+      "content": "f) a kontrolling adatok szolgáltatásában."
+    },
+    {
+      "provision_ref": "s389",
+      "section": "389",
+      "title": "389",
+      "content": "12. ÚJGENERÁCIÓS HÁLÓZATFEJLESZTÉSI FŐOSZTÁLY"
+    },
+    {
+      "provision_ref": "s390",
+      "section": "390",
+      "title": "390",
+      "content": "12.1 Az Újgenerációs Hálózatfejlesztési Főosztály felelős"
+    },
+    {
+      "provision_ref": "s391",
+      "section": "391",
+      "title": "391",
+      "content": "a) az újgenerációs távközlési hálózatok magyarországi fejlesztési programjainak (pl. SZIP, GIGABIT, a továbbiakban: hálózatfejlesztési programok) megvalósítása során a KIFÜ-re háruló feladatok végrehajtásáért;"
+    },
+    {
+      "provision_ref": "s392",
+      "section": "392",
+      "title": "392",
+      "content": "b) a hálózatfejlesztési programok finanszírozásának biztosításáért, a felügyelő minisztérium illetékes államtitkárságával szakmai kapcsolattartásért;"
+    },
+    {
+      "provision_ref": "s393",
+      "section": "393",
+      "title": "393",
+      "content": "c) a hálózatfejlesztési programok megvalósítási folyamata során a tervezést és kivitelezést felügyelő mérnökök munkavégzésének irányításáért, probléma-, változás- és kockázatkezeléséért, a felügyelő mérnöki tevékenységek státuszáról eseti és rendszeres beszámolók összeállításáért;"
+    },
+    {
+      "provision_ref": "s394",
+      "section": "394",
+      "title": "394",
+      "content": "d) hálózatfejlesztési programokat támogató monitoring rendszerek működtetéséért, szükség szerinti fejlesztéséért, az adatbázisok karbantartásáért, aktualizálásáért;"
+    },
+    {
+      "provision_ref": "s395",
+      "section": "395",
+      "title": "395",
+      "content": "e) a hálózatfejlesztési programok megvalósításának folyamatos követéséért, megfelelőségének ellenőrzéséért, az ellenőrzések eredményeinek rögzítéséért és elektronikusan dokumentálásáért;"
+    },
+    {
+      "provision_ref": "s396",
+      "section": "396",
+      "title": "396",
+      "content": "f) a felügyelő mérnökök feladatellátásához és munkavédelméhez szükséges eszközök biztosításáért, a területi munkavégzéshez a közlekedési eszköz vagy saját gépjármű használatának biztosításáért;"
+    },
+    {
+      "provision_ref": "s397",
+      "section": "397",
+      "title": "397",
+      "content": "g) az Európai Bizottság BCO Network tagságából eredő feladatok végrehajtásáért;"
+    },
+    {
+      "provision_ref": "s398",
+      "section": "398",
+      "title": "398",
+      "content": "h) a „Connecting Europe Facility 2” tagállami feladatainak végrehajtásáért."
+    },
+    {
+      "provision_ref": "s399",
+      "section": "399",
+      "title": "399",
+      "content": "12.2 Az Újgenerációs Hálózatfejlesztési Főosztály közreműködik"
+    },
+    {
+      "provision_ref": "s400",
+      "section": "400",
+      "title": "400",
+      "content": "a) a hálózatfejlesztési programok költségvetésének a Forrásmenedzsment és Kontrolling Főosztállyal közös tervezésében, a projektekért felelős elnökhelyettes pénzügyi elvárásainak és iránymutatásának betartásával;"
+    },
+    {
+      "provision_ref": "s401",
+      "section": "401",
+      "title": "401",
+      "content": "b) igény szerint más programok és projektek (pl. Diákháló Program) távközlési szakmai ismeretet igénylő fejlesztéseinek előkészítésében, tervezésében és a szükséges pályáztatás műszaki támogatásában;"
+    },
+    {
+      "provision_ref": "s402",
+      "section": "402",
+      "title": "402",
+      "content": "c) egyéb KIFÜ projektek megvalósítása során felmerülő kivitelezés felügyeleti, műszaki ellenőri munkálataiban az adott projekt elvárásoknak megfelelő profillal és terjedelemben;"
+    },
+    {
+      "provision_ref": "s403",
+      "section": "403",
+      "title": "403",
+      "content": "d) az Újgenerációs Hálózatfejlesztési Főosztály beszerzési tevékenysége során a konkrét beszerzések megvalósításában a Jogi és Beszerzési Főosztállyal."
+    },
+    {
+      "provision_ref": "s404",
+      "section": "404",
+      "title": "404",
+      "content": "13. AZ INFRASTRUKTÚRÁÉRT FELELŐS ELNÖKHELYETTESI SZERVEZET"
+    },
+    {
+      "provision_ref": "s405",
+      "section": "405",
+      "title": "405",
+      "content": "13.1 Az Infrastruktúráért Felelős Elnökhelyettesi Szervezet az infrastruktúráért felelős elnökhelyettesből, a Kutatásfejlesztési és Szervezési Főosztályból, az IKT Üzemeltetési Főosztályból, az IKT Fejlesztési Főosztályból, az Ügyféltámogatási Főosztályból és a Szolgáltatásmenedzsment Főosztályból áll."
+    },
+    {
+      "provision_ref": "s406",
+      "section": "406",
+      "title": "406",
+      "content": "14. AZ INFRASTRUKTÚRÁÉRT FELELŐS ELNÖKHELYETTES"
+    },
+    {
+      "provision_ref": "s407",
+      "section": "407",
+      "title": "407",
+      "content": "14.1 Az infrastruktúráért felelős elnökhelyettes az elnök irányítása alatt felelős a KIFÜ"
+    },
+    {
+      "provision_ref": "s408",
+      "section": "408",
+      "title": "408",
+      "content": "a) IKT infrastruktúrájának üzemeltetési és fejlesztési;"
+    },
+    {
+      "provision_ref": "s409",
+      "section": "409",
+      "title": "409",
+      "content": "b) ügyféltámogatási folyamatokkal és tevékenységekkel összefüggő;"
+    },
+    {
+      "provision_ref": "s410",
+      "section": "410",
+      "title": "410",
+      "content": "c) IKT szolgáltatásaival kapcsolatos"
+    },
+    {
+      "provision_ref": "s411",
+      "section": "411",
+      "title": "411",
+      "content": "feladatainak megvalósulásáért."
+    },
+    {
+      "provision_ref": "s412",
+      "section": "412",
+      "title": "412",
+      "content": "15. KUTATÁSFEJLESZTÉSI ÉS SZERVEZÉSI FŐOSZTÁLY"
+    },
+    {
+      "provision_ref": "s413",
+      "section": "413",
+      "title": "413",
+      "content": "15.1 A Kutatásfejlesztési és Szervezési Főosztály felelős"
+    },
+    {
+      "provision_ref": "s414",
+      "section": "414",
+      "title": "414",
+      "content": "a) az Infrastruktúráért Felelős Elnökhelyettesi Szervezet szervezeti egységei feladatellátásának összehangolásáért, a több szervezeti egységet érintő szakmai feladatok végrehajtásának összehangolásáért;"
+    },
+    {
+      "provision_ref": "s415",
+      "section": "415",
+      "title": "415",
+      "content": "b) az Infrastruktúráért Felelős Elnökhelyettesi Szervezet stratégiai tervezési feladatainak koordinációjáért, irányításáért;"
+    },
+    {
+      "provision_ref": "s416",
+      "section": "416",
+      "title": "416",
+      "content": "c) az Infrastruktúráért Felelős Elnökhelyettesi Szervezetet érintő, az egyes stratégiai és munkatervekben meghatározott célok, akciók megvalósulásának nyomon követésért;"
+    },
+    {
+      "provision_ref": "s417",
+      "section": "417",
+      "title": "417",
+      "content": "d) az Infrastruktúráért Felelős Elnökhelyettesi Szervezet által teljesítendő rendszeres és eseti adatszolgáltatások, beszámolók elkészítésének koordinációjáért és nyomon követésért;"
+    },
+    {
+      "provision_ref": "s418",
+      "section": "418",
+      "title": "418",
+      "content": "e) az Infrastruktúráért Felelős Elnökhelyettesi Szervezet elnökhelyettesi szintű, belső szabályozási rendszerének működtetésével összefüggő feladatok koordinációjáért, irányításáért;"
+    },
+    {
+      "provision_ref": "s419",
+      "section": "419",
+      "title": "419",
+      "content": "f) az Infrastruktúráért Felelős Elnökhelyettesi Szervezet kutatásfejlesztési és innovációs feladatainak koordinációjáért, a hazai és nemzetközi trendek figyelembevételével a kutatásfejlesztést érintő stratégiai irányok és célok meghatározásáért;"
+    },
+    {
+      "provision_ref": "s420",
+      "section": "420",
+      "title": "420",
+      "content": "g) a kutatásfejlesztés területén működő hazai és nemzetközi partnerekkel való kapcsolattartásért, a KIFÜ feladatrendszert érintő hazai és nemzetközi eredmények nyomon követéséért, valamint a kapcsolódó nemzetközi projektek szakmai előkészítésének, tervezésének és beadásának koordinációjáért;"
+    },
+    {
+      "provision_ref": "s421",
+      "section": "421",
+      "title": "421",
+      "content": "h) az Infrastruktúráért Felelős Elnökhelyettesi Szervezet feladatrendszeréhez kötődő nemzetközi együttműködésekben való részvétel koordinációjáért, nemzetközi szervezetekben betöltött tagsági jogviszony fenntartásáért, az ezekkel összefüggő szakmai feladatok végrehajtásának koordinációjáért, valamint a nemzetközi kötelezettségvállalások teljesítéséért;"
+    },
+    {
+      "provision_ref": "s422",
+      "section": "422",
+      "title": "422",
+      "content": "i) az Infrastruktúráért Felelős Elnökhelyettesi Szervezethez tartozó nemzetközi, kutató-hálózati, szuperszámítógépes és nyílt tudományos kapcsolatokkal összefüggő feladatok irányításáért és koordinációjáért;"
+    },
+    {
+      "provision_ref": "s423",
+      "section": "423",
+      "title": "423",
+      "content": "j) az Infrastruktúráért Felelős Elnökhelyettesi Szervezethez tartozó nemzetközi együttműködésekkel, tagságokkal és projektekkel összefüggő adminisztrációs és dokumentációs feladatok koordinációjáért, így különösen külföldi kiküldetések és nemzetközi tagdíjak nyilvántartásáért;"
+    },
+    {
+      "provision_ref": "s424",
+      "section": "424",
+      "title": "424",
+      "content": "k) a nemzetközi oktatási és kutatási azonosítási rendszerrel kompatibilis szövetségi azonosítási rendszerszolgáltatások fejlesztésével, nemzetközi integrációjával összefüggő feladatok irányításáért;"
+    },
+    {
+      "provision_ref": "s425",
+      "section": "425",
+      "title": "425",
+      "content": "l) Magyarország képviseletéért a „European Open Science Cloud”, a GÉANT, az EuroHPC, a PRACE együttműködésekben és az e tárgykörben meglévő kapcsolatok koordinálásáért, valamint az ITM és a KIFÜ magasabb vezetői részére történő tájékoztatás nyújtásáért."
+    },
+    {
+      "provision_ref": "s426",
+      "section": "426",
+      "title": "426",
+      "content": "15.2 A Kutatásfejlesztési és Szervezési Főosztály közreműködik"
+    },
+    {
+      "provision_ref": "s427",
+      "section": "427",
+      "title": "427",
+      "content": "a) az Infrastruktúráért Felelős Elnökhelyettesi Szervezet által fejlesztett és üzemeltetett infrastruktúrát és szolgáltatásokat érintő fejlesztési célok, irányvonalak kijelölésében és a megvalósításhoz kötődő feladatok nemzetközi trendek figyelembevételével történő ellátásában;"
+    },
+    {
+      "provision_ref": "s428",
+      "section": "428",
+      "title": "428",
+      "content": "b) az infrastruktúráért felelős elnökhelyettes irányítása alatt működő főosztályok által végzett fejlesztések kidolgozásában, koordinációjában, a pilot fejlesztések végrehajtásában;"
+    },
+    {
+      "provision_ref": "s429",
+      "section": "429",
+      "title": "429",
+      "content": "c) a szolgáltatások fejlesztését, bővítését célzó hazai és nemzetközi pályázatokban, projektekben, illetve javaslatot tesz az azokon történő indulásra;"
+    },
+    {
+      "provision_ref": "s430",
+      "section": "430",
+      "title": "430",
+      "content": "d) a szövetségi azonosítási rendszerszolgáltatások működtetésében."
+    },
+    {
+      "provision_ref": "s431",
+      "section": "431",
+      "title": "431",
+      "content": "16. IKT ÜZEMELTETÉSI FŐOSZTÁLY"
+    },
+    {
+      "provision_ref": "s432",
+      "section": "432",
+      "title": "432",
+      "content": "16.1 Az IKT Üzemeltetési Főosztály felelős"
+    },
+    {
+      "provision_ref": "s433",
+      "section": "433",
+      "title": "433",
+      "content": "a) a KIFÜ IKT infrastruktúrájának és szolgáltatásainak üzemeltetéséért;"
+    },
+    {
+      "provision_ref": "s434",
+      "section": "434",
+      "title": "434",
+      "content": "b) az üzemvitelt támogató rendszerek fejlesztéséért és üzemeltetéséért;"
+    },
+    {
+      "provision_ref": "s435",
+      "section": "435",
+      "title": "435",
+      "content": "c) a KIFÜ IKT infrastruktúráját érintő biztonsági incidensek kezeléséért, üzletmenet-folytonosságának biztosításáért és katasztrófaelhárításáért;"
+    },
+    {
+      "provision_ref": "s436",
+      "section": "436",
+      "title": "436",
+      "content": "d) az üzemeltetési tevékenység ellátását szabályozó belső utasítások és szabályozók elkészítéséért és aktualizálásáért;"
+    },
+    {
+      "provision_ref": "s437",
+      "section": "437",
+      "title": "437",
+      "content": "e) az ügyféltámogatás részeként a második szintű szakértői (L2) és harmadik szintű kiemelt szakértői (L3) szintű műszaki támogatási feladatok ellátásáért."
+    },
+    {
+      "provision_ref": "s438",
+      "section": "438",
+      "title": "438",
+      "content": "16.2 Az IKT Üzemeltetési Főosztály közreműködik"
+    },
+    {
+      "provision_ref": "s439",
+      "section": "439",
+      "title": "439",
+      "content": "a) az adathálózattal és az adathálózatra épülő szolgáltatásokkal, IT alapú szolgáltatásokkal és infrastruktúrával, nagy teljesítményű kutatási célú számítási/tárolási rendszerekkel kapcsolatos műszaki és szolgáltatásfejlesztések kivitelezésében, bevezetésében;"
+    },
+    {
+      "provision_ref": "s440",
+      "section": "440",
+      "title": "440",
+      "content": "b) a KIFÜ szolgáltatásainak felhasználóival és az iparági partnerekkel közösen új technológiákhoz és megoldásokhoz kapcsolódó tesztkörnyezet kialakításában és tesztelési folyamataiban."
+    },
+    {
+      "provision_ref": "s441",
+      "section": "441",
+      "title": "441",
+      "content": "17. IKT FEJLESZTÉSI FŐOSZTÁLY"
+    },
+    {
+      "provision_ref": "s442",
+      "section": "442",
+      "title": "442",
+      "content": "17.1 Az IKT Fejlesztési Főosztály felelős"
+    },
+    {
+      "provision_ref": "s443",
+      "section": "443",
+      "title": "443",
+      "content": "a) a KIFÜ IKT infrastruktúrája és szolgáltatásai fejlesztési feladatainak teljes körű ellátásáért;"
+    },
+    {
+      "provision_ref": "s444",
+      "section": "444",
+      "title": "444",
+      "content": "b) a KIFÜ géptermi stratégiájának elkészítéséért és annak rendszeres felülvizsgálatáért;"
+    },
+    {
+      "provision_ref": "s445",
+      "section": "445",
+      "title": "445",
+      "content": "c) IT szoftveralkalmazások fejlesztéséért és üzembe helyezéséért;"
+    },
+    {
+      "provision_ref": "s446",
+      "section": "446",
+      "title": "446",
+      "content": "d) az infokommunikációs fejlesztési feladatok teszt- és laborkörnyezetének kialakításáért és üzemeltetéséért, tesztelések irányításáért és lebonyolításáért;"
+    },
+    {
+      "provision_ref": "s447",
+      "section": "447",
+      "title": "447",
+      "content": "e) az infokommunikációs fejlesztéssel összefüggő tevékenységeket és folyamatokat szabályozó elnöki utasítások elkészítéséért és aktualizálásáért."
+    },
+    {
+      "provision_ref": "s448",
+      "section": "448",
+      "title": "448",
+      "content": "17.2 Az IKT Fejlesztési Főosztály közreműködik"
+    },
+    {
+      "provision_ref": "s449",
+      "section": "449",
+      "title": "449",
+      "content": "a) az Infrastruktúráért Felelős Elnökhelyettesi Szervezet más szervezeti egységeivel, elsősorban az üzemeltetéssel, ügyfélszolgálattal és a szolgáltatásokkal kapcsolatban felmerülő fejlesztési igények megvalósításában;"
+    },
+    {
+      "provision_ref": "s450",
+      "section": "450",
+      "title": "450",
+      "content": "b) a feladatkörét érintő hazai és nemzetközi pályázatok szakmai tartalmának elkészítésében;"
+    },
+    {
+      "provision_ref": "s451",
+      "section": "451",
+      "title": "451",
+      "content": "c) a KIFÜ ügyfeleivel és az iparági partnerekkel közös fejlesztések megvalósításában."
+    },
+    {
+      "provision_ref": "s452",
+      "section": "452",
+      "title": "452",
+      "content": "18. ÜGYFÉLTÁMOGATÁSI FŐOSZTÁLY"
+    },
+    {
+      "provision_ref": "s453",
+      "section": "453",
+      "title": "453",
+      "content": "18.1 Az Ügyféltámogatási Főosztály felelős"
+    },
+    {
+      "provision_ref": "s454",
+      "section": "454",
+      "title": "454",
+      "content": "a) az egycsatornás ügyfélkezelés rendszerének biztosításáért;"
+    },
+    {
+      "provision_ref": "s455",
+      "section": "455",
+      "title": "455",
+      "content": "b) a beérkezett ügyfélbejelentések előzetes értékeléséért, a bejelentés kezeléséért felelős szervezeti egységhez történő továbbításáért, eszkalálásáért;"
+    },
+    {
+      "provision_ref": "s456",
+      "section": "456",
+      "title": "456",
+      "content": "c) az ügyfelektől érkező igények/szolgáltatásigénylések kezeléséért, kiszolgálásáért;"
+    },
+    {
+      "provision_ref": "s457",
+      "section": "457",
+      "title": "457",
+      "content": "d) a KIFÜ IKT szolgáltatásainak nyújtásában közreműködő társszolgáltatókkal való kapcsolattartásért;"
+    },
+    {
+      "provision_ref": "s458",
+      "section": "458",
+      "title": "458",
+      "content": "e) az ügyfelek és a részükre nyújtott szolgáltatások naprakész nyilvántartásának vezetéséért;"
+    },
+    {
+      "provision_ref": "s459",
+      "section": "459",
+      "title": "459",
+      "content": "f) az ügyféltámogatással összefüggő folyamatok, illetve tevékenységek ellátását szabályozó elnöki utasítások elkészítéséért és aktualizálásáért."
+    },
+    {
+      "provision_ref": "s460",
+      "section": "460",
+      "title": "460",
+      "content": "18.2 Az Ügyféltámogatási Főosztály közreműködik az Infrastruktúráért Felelős Elnökhelyettesi Szervezet más szervezeti egységeivel, elsősorban a speciális kommunikációt igénylő ügyfelek kiszolgálásában, a KIFÜ által nyújtott szolgáltatások létesítésére, módosítására irányuló folyamatok kialakításában, továbbá a társszolgáltatói igények kezelésében."
+    },
+    {
+      "provision_ref": "s461",
+      "section": "461",
+      "title": "461",
+      "content": "19. SZOLGÁLTATÁSMENEDZSMENT FŐOSZTÁLY"
+    },
+    {
+      "provision_ref": "s462",
+      "section": "462",
+      "title": "462",
+      "content": "19.1 A Szolgáltatásmenedzsment Főosztály felelős"
+    },
+    {
+      "provision_ref": "s463",
+      "section": "463",
+      "title": "463",
+      "content": "a) a KIFÜ IKT szolgáltatáskatalógusának kialakításáért, kezeléséért, felülvizsgálatáért, módosításáért;"
+    },
+    {
+      "provision_ref": "s464",
+      "section": "464",
+      "title": "464",
+      "content": "b) a KIFÜ IKT szolgáltatási díjstratégiájának és IKT szolgáltatásfinanszírozási stratégiájának kidolgozásáért;"
+    },
+    {
+      "provision_ref": "s465",
+      "section": "465",
+      "title": "465",
+      "content": "c) a KIFÜ IKT szolgáltatásainak promóciójáért, kiajánlásáért;"
+    },
+    {
+      "provision_ref": "s466",
+      "section": "466",
+      "title": "466",
+      "content": "d) a speciális kommunikációt igénylő ügyfelekkel való kapcsolattartásért, igényeik kezeléséért;"
+    },
+    {
+      "provision_ref": "s467",
+      "section": "467",
+      "title": "467",
+      "content": "e) az Infrastruktúráért Felelős Elnökhelyettesi Szervezet szolgáltatási szerződéseinek, valamint a hálózatok és infokommunikációs eszközök működtetéséhez szükséges gyártói (szállítói) eszköz- és szoftvertámogatási szerződések menedzsmentjéért;"
+    },
+    {
+      "provision_ref": "s468",
+      "section": "468",
+      "title": "468",
+      "content": "f) a KIFÜ IKT szolgáltatásait érintő folyamatok, illetve tevékenységek ellátását szabályozó elnöki utasítások elkészítéséért és aktualizálásáért;"
+    },
+    {
+      "provision_ref": "s469",
+      "section": "469",
+      "title": "469",
+      "content": "g) az ügyfélmenedzserek, kutatási, felsőoktatási és egyéb partnerek HPC-együttműködésben történő támogatásáért;"
+    },
+    {
+      "provision_ref": "s470",
+      "section": "470",
+      "title": "470",
+      "content": "h) a HPC-felhasználók, projektek és HPC-megoldások közötti közvetítésért, a HPC értékesítés támogatásáért (pre-sales tevékenység);"
+    },
+    {
+      "provision_ref": "s471",
+      "section": "471",
+      "title": "471",
+      "content": "i) a HPC-vel kapcsolatos szakmai műhely kialakításáért, a szakmai szintű tudásmegosztásért, a magyarországi HPC-vel kapcsolatos szakmai kezdeményezések támogatásáért, koordinációjáért;"
+    },
+    {
+      "provision_ref": "s472",
+      "section": "472",
+      "title": "472",
+      "content": "j) a HPC információs- és tudásközpont működtetéséért, a HPC-témájú szakmai konferenciák szervezéséért, megrendezéséért;"
+    },
+    {
+      "provision_ref": "s473",
+      "section": "473",
+      "title": "473",
+      "content": "k) a HPC-vel kapcsolatos nemzetközi projektek és a csatlakozni kívánó partnerek támogatásáért."
+    },
+    {
+      "provision_ref": "s474",
+      "section": "474",
+      "title": "474",
+      "content": "19.2 A Szolgáltatásmenedzsment Főosztály közreműködik"
+    },
+    {
+      "provision_ref": "s475",
+      "section": "475",
+      "title": "475",
+      "content": "a) az Infrastruktúráért Felelős Elnökhelyettesi Szervezet felelősségi körébe tartozó eszközök vonatkozásában a KIFÜ eszközgazdálkodásában;"
+    },
+    {
+      "provision_ref": "s476",
+      "section": "476",
+      "title": "476",
+      "content": "b) az Infrastruktúráért Felelős Elnökhelyettesi Szervezet felelősségi körébe tartozó pénzügyi és emberi erőforrás tervezésben, a tervek megvalósulásának monitoringjában és a kontrolling feladatainak ellátásában;"
+    },
+    {
+      "provision_ref": "s477",
+      "section": "477",
+      "title": "477",
+      "content": "c) a Jogi és Beszerzési Főosztállyal az IKT szolgáltatásokkal összefüggő szerződések kezelésében, az Infrastruktúráért Felelős Elnökhelyettesi Szervezet beszerzéseinek lefolytatásában."
+    },
+    {
+      "provision_ref": "s478",
+      "section": "478",
+      "title": "478",
+      "content": "20. A GAZDASÁGI ELNÖKHELYETTESI SZERVEZET"
+    },
+    {
+      "provision_ref": "s479",
+      "section": "479",
+      "title": "479",
+      "content": "20.1 A Gazdasági Elnökhelyettesi Szervezet a gazdasági elnökhelyettesből, a Gazdálkodási Főosztályból, a Humánpolitikai Főosztályból, az Ellátási Főosztályból és a Forrásmenedzsment és Kontrolling Főosztályból áll."
+    },
+    {
+      "provision_ref": "s480",
+      "section": "480",
+      "title": "480",
+      "content": "21. A GAZDASÁGI ELNÖKHELYETTES"
+    },
+    {
+      "provision_ref": "s481",
+      "section": "481",
+      "title": "481",
+      "content": "21.1 A gazdasági elnökhelyettes az elnök irányítása alatt felelős"
+    },
+    {
+      "provision_ref": "s482",
+      "section": "482",
+      "title": "482",
+      "content": "a) a KIFÜ költségvetési, gazdálkodási, humánpolitikai, ellátási és üzemeltetési feladatainak megvalósulásáért;"
+    },
+    {
+      "provision_ref": "s483",
+      "section": "483",
+      "title": "483",
+      "content": "b) a projektekben és egyéb címzett támogatások tekintetében a saját teljesítések elszámolását alátámasztó munkaidő-nyilvántartásért;"
+    },
+    {
+      "provision_ref": "s484",
+      "section": "484",
+      "title": "484",
+      "content": "c) a KIFÜ kontrolling rendszerének létrehozásáért és működtetéséért;"
+    },
+    {
+      "provision_ref": "s485",
+      "section": "485",
+      "title": "485",
+      "content": "d) a szervezeti szintű pénzügyi és emberi erőforrás tervezéséért, a tervek megvalósulásának monitoringjáért és kontrollfeladatainak ellátásáért, az általa nem kezelhető forráshiányok, finanszírozási problémák eszkalációjáért."
+    },
+    {
+      "provision_ref": "s486",
+      "section": "486",
+      "title": "486",
+      "content": "22. GAZDÁLKODÁSI FŐOSZTÁLY"
+    },
+    {
+      "provision_ref": "s487",
+      "section": "487",
+      "title": "487",
+      "content": "22.1 A Gazdálkodási Főosztály felelős"
+    },
+    {
+      "provision_ref": "s488",
+      "section": "488",
+      "title": "488",
+      "content": "a) a KIFÜ költségvetési tervjavaslatának – jogszabályi és fenntartói igények szerinti – összeállításáért;"
+    },
+    {
+      "provision_ref": "s489",
+      "section": "489",
+      "title": "489",
+      "content": "b) a KIFÜ elemi költségvetésének az elkészítéséért;"
+    },
+    {
+      "provision_ref": "s490",
+      "section": "490",
+      "title": "490",
+      "content": "c) a KIFÜ vagyoni, jövedelmi, pénzügyi helyzetére kiható események kettős könyvvitel szabályai szerinti, folyamatos nyilvántartásának vezetéséért;"
+    },
+    {
+      "provision_ref": "s491",
+      "section": "491",
+      "title": "491",
+      "content": "d) a pénzügyi ellenjegyzés előkészítéséért, ezen belül különösen a szabad előirányzatok rendelkezésre állásáról szóló nyilatkozat elkészítéséért;"
+    },
+    {
+      "provision_ref": "s492",
+      "section": "492",
+      "title": "492",
+      "content": "e) a KIFÜ költségvetési hatással is járó döntéseinek pénzügyi szempontból történő véleményezéséért;"
+    },
+    {
+      "provision_ref": "s493",
+      "section": "493",
+      "title": "493",
+      "content": "f) a különböző források elkülönített számviteli nyilvántartásáért, a kapcsolódó pénzügyi beszámolók elkészítéséért;"
+    },
+    {
+      "provision_ref": "s494",
+      "section": "494",
+      "title": "494",
+      "content": "g) a KIFÜ pénzeszközeinek nyilvántartásáért, a KIFÜ likviditásáért;"
+    },
+    {
+      "provision_ref": "s495",
+      "section": "495",
+      "title": "495",
+      "content": "h) a jogi eljárások megkezdéséig a KIFÜ követeléseinek kezeléséért;"
+    },
+    {
+      "provision_ref": "s496",
+      "section": "496",
+      "title": "496",
+      "content": "i) a gazdálkodást alátámasztó főkönyvi analitikai nyilvántartások vezetéséért;"
+    },
+    {
+      "provision_ref": "s497",
+      "section": "497",
+      "title": "497",
+      "content": "j) a KIFÜ működéséhez kapcsolódó adóbevallások elkészítéséért és teljesítéséért;"
+    },
+    {
+      "provision_ref": "s498",
+      "section": "498",
+      "title": "498",
+      "content": "k) a jogszabály által meghatározott illetményszámfejtési feladatok ellátásáért, az illetményszámfejtés előkészítéséért, a számfejtett adatok ellenőrzéséért és a Központosított Illetmény-számfejtési Rendszer Alkalmazás naprakészen tartásáért;"
+    },
+    {
+      "provision_ref": "s499",
+      "section": "499",
+      "title": "499",
+      "content": "l) a KIFÜ vagyonleltára összeállításának koordinálásáért és végrehajtásáért;"
+    },
+    {
+      "provision_ref": "s500",
+      "section": "500",
+      "title": "500",
+      "content": "m) az előírások szerinti éves költségvetési beszámoló elkészítéséért, a jogszabályi kötelezettségek és egyéb előírások szerinti időszaki jelentések és adatszolgáltatások elkészítéséért;"
+    },
+    {
+      "provision_ref": "s501",
+      "section": "501",
+      "title": "501",
+      "content": "n) a gazdálkodással összefüggő utasítások elkészítéséért és aktualizálásáért;"
+    },
+    {
+      "provision_ref": "s502",
+      "section": "502",
+      "title": "502",
+      "content": "o) az intézményi hatáskörű, valamint irányítószervi hatáskörű előirányzat-módosítások jóváhagyásra történő előkészítéséért;"
+    },
+    {
+      "provision_ref": "s503",
+      "section": "503",
+      "title": "503",
+      "content": "p) az irányító szerv szakmai egységeivel, a Magyar Államkincstárral, az adóhatósággal és a Gazdálkodási Főosztály tevékenységével érintett egyéb hatóságokkal való kapcsolattartásért;"
+    },
+    {
+      "provision_ref": "s504",
+      "section": "504",
+      "title": "504",
+      "content": "q) a KIFÜ valamennyi, költségvetési kihatással járó döntésének véleményezéséért."
+    },
+    {
+      "provision_ref": "s505",
+      "section": "505",
+      "title": "505",
+      "content": "22.2 A Gazdálkodási Főosztály közreműködik"
+    },
+    {
+      "provision_ref": "s506",
+      "section": "506",
+      "title": "506",
+      "content": "a) a KIFÜ projektjei pénzügyi elszámolásával kapcsolatos feladatok végrehajtásában;"
+    },
+    {
+      "provision_ref": "s507",
+      "section": "507",
+      "title": "507",
+      "content": "b) a beszerzési és közbeszerzési eljárások lebonyolításában;"
+    },
+    {
+      "provision_ref": "s508",
+      "section": "508",
+      "title": "508",
+      "content": "c) a humánpolitikai szakmai területhez kapcsolódó adatszolgáltatások körében az illetmény és járulék adatszolgáltatási kötelezettségek teljesítésében;"
+    },
+    {
+      "provision_ref": "s509",
+      "section": "509",
+      "title": "509",
+      "content": "d) a követelések behajtására irányuló jogi eljárásokban;"
+    },
+    {
+      "provision_ref": "s510",
+      "section": "510",
+      "title": "510",
+      "content": "e) a jóléti célú pénzeszközök elosztási rendszerének működtetésében."
+    },
+    {
+      "provision_ref": "s511",
+      "section": "511",
+      "title": "511",
+      "content": "23. HUMÁNPOLITIKAI FŐOSZTÁLY"
+    },
+    {
+      "provision_ref": "s512",
+      "section": "512",
+      "title": "512",
+      "content": "23.1 A Humánpolitikai Főosztály felelős"
+    },
+    {
+      "provision_ref": "s513",
+      "section": "513",
+      "title": "513",
+      "content": "a) a munkaügyi feladatok – pályázatok kezelése foglalkoztatásra irányuló jogviszony létesítéséhez, módosításához, megszüntetéséhez, kirendeléshez kapcsolódó feladatok – elvégzéséért;"
+    },
+    {
+      "provision_ref": "s514",
+      "section": "514",
+      "title": "514",
+      "content": "b) a munkaköri leírások elkészíttetéséért;"
+    },
+    {
+      "provision_ref": "s515",
+      "section": "515",
+      "title": "515",
+      "content": "c) az atipikus foglalkoztatási lehetőségek biztosításáért;"
+    },
+    {
+      "provision_ref": "s516",
+      "section": "516",
+      "title": "516",
+      "content": "d) a munkáltatói jogkört gyakorló adatszolgáltatása alapján a szabadság- és a munkaügyi nyilvántartási rendszerek naprakészen tartásáért;"
+    },
+    {
+      "provision_ref": "s517",
+      "section": "517",
+      "title": "517",
+      "content": "e) a vagyonnyilatkozat-tételhez, foglalkozás-egészségüggyel kapcsolatos adminisztratív feladatok elvégzéséért;"
+    },
+    {
+      "provision_ref": "s518",
+      "section": "518",
+      "title": "518",
+      "content": "f) a létszámgazdálkodással, bértervezéssel összefüggő szervezeti szintű feladatok előkészítéséért, végrehajtásáért;"
+    },
+    {
+      "provision_ref": "s519",
+      "section": "519",
+      "title": "519",
+      "content": "g) a toborzási és kiválasztási folyamat irányításáért, a folyamatban részt vevő további szervezeti egységek szakmai támogatásáért;"
+    },
+    {
+      "provision_ref": "s520",
+      "section": "520",
+      "title": "520",
+      "content": "h) a foglalkoztatottak fejlesztési – ideértve különösen a beillesztési, képzési, karriermenedzsment – rendszerének kialakításáért és működtetéséért;"
+    },
+    {
+      "provision_ref": "s521",
+      "section": "521",
+      "title": "521",
+      "content": "i) az érintett szervezeti egység vezetőjének bevonásával a kötelező szakmai továbbképzések és egyéb képzések megszervezéséért, illetve a belső képzések kialakításának módszertani támogatásáért;"
+    },
+    {
+      "provision_ref": "s522",
+      "section": "522",
+      "title": "522",
+      "content": "j) a teljesítménymenedzselési rendszer kialakításáért, működtetéséért;"
+    },
+    {
+      "provision_ref": "s523",
+      "section": "523",
+      "title": "523",
+      "content": "k) a munkáltatói jóléti célú pénzeszközök, illetve további juttatások, támogatások elosztási rendszerének kialakításáért és működtetéséért;"
+    },
+    {
+      "provision_ref": "s524",
+      "section": "524",
+      "title": "524",
+      "content": "l) a hatáskörébe tartozó utasítások elkészítéséért és aktualizálásáért;"
+    },
+    {
+      "provision_ref": "s525",
+      "section": "525",
+      "title": "525",
+      "content": "m) a humánpolitikai szakmai területhez kapcsolódó adatszolgáltatások teljesítéséért;"
+    },
+    {
+      "provision_ref": "s526",
+      "section": "526",
+      "title": "526",
+      "content": "n) a KIFÜ felnőttképzéssel kapcsolatos, jogszabályban meghatározott feladatainak ellátásáért."
+    },
+    {
+      "provision_ref": "s527",
+      "section": "527",
+      "title": "527",
+      "content": "23.2 A Humánpolitikai Főosztály közreműködik"
+    },
+    {
+      "provision_ref": "s528",
+      "section": "528",
+      "title": "528",
+      "content": "a) a belső nyilvánosság működtetésében;"
+    },
+    {
+      "provision_ref": "s529",
+      "section": "529",
+      "title": "529",
+      "content": "b) az éves beszámoló és a bevallások elkészítésében;"
+    },
+    {
+      "provision_ref": "s530",
+      "section": "530",
+      "title": "530",
+      "content": "c) a KIFÜ projektjei személyi jellegű költségeinek elszámolásában, ellenőrzésében."
+    },
+    {
+      "provision_ref": "s531",
+      "section": "531",
+      "title": "531",
+      "content": "24. ELLÁTÁSI FŐOSZTÁLY"
+    },
+    {
+      "provision_ref": "s532",
+      "section": "532",
+      "title": "532",
+      "content": "24.1 Az Ellátási Főosztály felelős"
+    },
+    {
+      "provision_ref": "s533",
+      "section": "533",
+      "title": "533",
+      "content": "a) a KIFÜ foglalkoztatottjainak felhasználói hardverrel és szoftverrel történő ellátásáért és azok üzemeltetésért, illetve a belső felhasználói igények és hibabejelentések kezeléséért;"
+    },
+    {
+      "provision_ref": "s534",
+      "section": "534",
+      "title": "534",
+      "content": "b) a KIFÜ üzemeltetési feladatainak [különösen ingatlanok kezelése, hibabejelentés, a karbantartás, a beléptető rendszer, a flottakezelési tevékenységek (gépjárművek és telekommunikációs eszközök vonatkozásában) üzemeltetéssel kapcsolatos feladatainak] ellátásáért;"
+    },
+    {
+      "provision_ref": "s535",
+      "section": "535",
+      "title": "535",
+      "content": "c) a KIFÜ logisztikai feladatainak (különösen a fizikai eszközmozgatások, az irodaszer- és kellékanyag-beszerzések műszaki előkészítése) ellátásáért;"
+    },
+    {
+      "provision_ref": "s536",
+      "section": "536",
+      "title": "536",
+      "content": "d) a KIFÜ belföldi reprezentációs igényeinek kezeléséért, a kapcsolódó logisztikai feladatok ellátásáért és a rendelkezésre álló keretösszegek felhasználásának nyomon követéséért;"
+    },
+    {
+      "provision_ref": "s537",
+      "section": "537",
+      "title": "537",
+      "content": "e) a KIFÜ munka- és tűzvédelmi feladatainak ellátásáért."
+    },
+    {
+      "provision_ref": "s538",
+      "section": "538",
+      "title": "538",
+      "content": "24.2 Az Ellátási Főosztály közreműködik"
+    },
+    {
+      "provision_ref": "s539",
+      "section": "539",
+      "title": "539",
+      "content": "a) a KIFÜ éves és egyéb tervezési feladataiban;"
+    },
+    {
+      "provision_ref": "s540",
+      "section": "540",
+      "title": "540",
+      "content": "b) a szervezeti szintű, belső felhasználókat érintő IT biztonsági és üzemeltetési döntések kialakításában;"
+    },
+    {
+      "provision_ref": "s541",
+      "section": "541",
+      "title": "541",
+      "content": "c) az egyes hazai és minőségbiztosítási projektek előkészítésével, tervezésével, megvalósításával kapcsolatos feladatok ellátásában."
+    },
+    {
+      "provision_ref": "s542",
+      "section": "542",
+      "title": "542",
+      "content": "25. FORRÁSMENEDZSMENT ÉS KONTROLLING FŐOSZTÁLY"
+    },
+    {
+      "provision_ref": "s543",
+      "section": "543",
+      "title": "543",
+      "content": "25.1 A Forrásmenedzsment és Kontrolling Főosztály felelős"
+    },
+    {
+      "provision_ref": "s544",
+      "section": "544",
+      "title": "544",
+      "content": "a) a KIFÜ pénzügyi tervezési feladatainak irányításáért;"
+    },
+    {
+      "provision_ref": "s545",
+      "section": "545",
+      "title": "545",
+      "content": "b) a KIFÜ kontrolling rendszerének fejlesztéséért és működtetéséért;"
+    },
+    {
+      "provision_ref": "s546",
+      "section": "546",
+      "title": "546",
+      "content": "c) a pénzügyi tervek, projekt-költségvetések, címzett támogatások költségvetésének, teljesülésének és felhasználásának pénzügyi követéséért és ezen információknak a magasabb vezetők felé történő eljuttatásáért;"
+    },
+    {
+      "provision_ref": "s547",
+      "section": "547",
+      "title": "547",
+      "content": "d) a projektekért felelős elnökhelyettesi terület hatáskörébe nem tartozó támogatások szerződéskötéseinek és elszámolási folyamatainak – a feladatért felelős szervezeti egység által szolgáltatott szakmai tartalom alapján történő – koordinálásáért;"
+    },
+    {
+      "provision_ref": "s548",
+      "section": "548",
+      "title": "548",
+      "content": "e) a támogatások optimális felhasználásával kapcsolatos javaslatok készítéséért;"
+    },
+    {
+      "provision_ref": "s549",
+      "section": "549",
+      "title": "549",
+      "content": "f) rendszeres és eseti pénzügyi, valamint az elnök, az elnökhelyettesek, illetve a KIFÜ szervezeti egységei vezetőinek felkérésére egyéb, gazdálkodási tárgyú elemzések elkészítésért;"
+    },
+    {
+      "provision_ref": "s550",
+      "section": "550",
+      "title": "550",
+      "content": "g) a KIFÜ költség- és árkalkulációs sémáinak kidolgozásáért és karbantartásáért."
+    },
+    {
+      "provision_ref": "s551",
+      "section": "551",
+      "title": "551",
+      "content": "25.2 A Forrásmenedzsment és Kontrolling Főosztály közreműködik"
+    },
+    {
+      "provision_ref": "s552",
+      "section": "552",
+      "title": "552",
+      "content": "a) a Szolgáltatásmenedzsment Főosztálynak a szolgáltatások költségkalkulációjára és árazására irányuló tevékenységében;"
+    },
+    {
+      "provision_ref": "s553",
+      "section": "553",
+      "title": "553",
+      "content": "b) a Projekt Pénzügyi és Támogató Főosztálynak az európai uniós projektek portfóliójának pénzügyi tervezésére irányuló tevékenységében."
+    },
+    {
+      "provision_ref": "s554",
+      "section": "554",
+      "title": "554",
+      "content": "25.3 A Forrásmenedzsment és Kontrolling Főosztály tevékenységét a szakmai területek adatszolgáltatásai alapján, a Gazdálkodási Főosztállyal együttműködve végzi."
+    }
+  ]
+}

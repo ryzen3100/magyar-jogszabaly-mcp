@@ -1,0 +1,1439 @@
+{
+  "id": "hu-law-2010-2-b0-27",
+  "type": "statute",
+  "title": "2/2010. (I. 15.) KüM utasítás a Külügyminisztérium Közbeszerzési és Beszerzési Szabályzatáról",
+  "status": "repealed",
+  "in_force_date": "2010-01-20",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2010-2-B0-27",
+  "description": "a Külügyminisztérium Közbeszerzési és Beszerzési Szabályzatáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "A közbeszerzésekről szóló 2003. évi CXXIX. törvény (a továbbiakban: Kbt.) 6. § (1) bekezdésében, valamint az államtitkot vagy szolgálati titkot, illetőleg alapvető biztonsági, nemzetbiztonsági érdeket érintő vagy különleges biztonsági intézkedést igénylő beszerzések sajátos szabályairól szóló 143/2004. (IV. 29.) Korm. rendelet 5. § (2) bekezdésében foglaltaknak megfelelően a Külügyminisztérium közbeszerzési és beszerzési eljárásai előkészítésének, lefolytatásának, belső ellenőrzésének felelősségi rendjét, a Külügyminisztérium nevében eljáró, az eljárásba bevont személyek, illetőleg szervezetek felelősségi körét és a Külügyminisztérium közbeszerzési eljárásainak dokumentálási rendjét az alábbiak szerint szabályozom."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "ELSŐ RÉSZ"
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "ÁLTALÁNOS RENDELKEZÉSEK ÉS KÖZÖS SZABÁLYOK"
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "I. Fejezet"
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "Általános rendelkezések"
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "1. Az utasítás hatálya"
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "1.1. Jelen utasítás személyi hatálya kiterjed a Külügyminisztérium valamennyi szervezeti egységére, ideértve a külügyminiszter irányítása alatt álló külképviseleteket is. Az utasítás hatálya nem terjed ki a Közbeszerzések Tanácsa részére a Kbt. 18. §-a alapján ajánlatkérőként bejelentett külképviseletekre."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "1.2. Jelen utasítás tárgyi hatálya a közbeszerzésekről szóló 2003. évi CXXIX. törvény, a központosított közbeszerzési rendszerről, valamint a központi beszerző szervezet feladat- és hatásköréről szóló 168/2004. (V. 25.) Korm. rendelet (a továbbiakban: Kkr.), valamint az államtitkot vagy szolgálati titkot, illetőleg alapvető biztonsági, nemzetbiztonsági érdeket érintő vagy különleges biztonsági intézkedést igénylő beszerzések sajátos szabályairól szóló 143/2004. (IV. 29.) Korm. rendelet (a továbbiakban: Nbr.) alapján megvalósuló beszerzésekre terjed ki."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "2. Értelmező rendelkezések"
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10",
+      "content": "Jelen utasítás alkalmazásában"
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11",
+      "content": "a) cég: az Nbr. alapján lefolytatott eljárások tekintetében az a természetes személy, jogi személy, jogi személyiség nélküli gazdasági társaság vagy személyes joga szerint jogképes szervezet, aki, illetőleg amely a jegyzékbe való bekerülés, illetve részvételre jelentkezés céljából előzetes minősítési kérdőívet tölt ki; a részvételre jelentkezik; a beszerzési eljárásban ajánlatot tesz, vagy a tárgyalásra meghívják;"
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "b) közbeszerzés tárgya: a Kbt. 23–28. §-aiban és a 242. §-ában meghatározottak;"
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "c) kötelezettségvállalásra jogosult vezető: a Külügyminisztérium gazdálkodásának egyes kérdéseiről szóló külön utasítás szerint, a beszerzés értéke, illetőleg becsült értéke alapján meghatározott személy;"
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "d) hivatalos közbeszerzési tanácsadó: a Külügyminisztériummal szerződéses viszonyban álló, a Kbt. 11. §-a szerinti hivatalos közbeszerzési tanácsadó."
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "e) kezdeményező szervezeti egység: az a feladatkörileg illetékes szervezeti egység, amely a közbeszerzési tervben a beszerzés lebonyolításáért felelős szervezeti egységként meg lett jelölve."
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "3. Alapelvek"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "3.1. Jelen utasítás hatálya alá tartozó eljárások során a résztvevők kötelesek biztosítani a verseny tisztaságát és nyilvánosságát, valamint az esélyegyenlőséget és az egyenlő bánásmódot az ajánlattevők számára."
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "3.2. Az Európai Unióban letelepedett ajánlattevők és a közösségi áruk számára nemzeti elbánást kell nyújtani a közbeszerzési eljárásban. Az Európai Unión kívül letelepedett ajánlattevők és a nem közösségi áruk számára nemzeti elbánást a közbeszerzési eljárásban a Magyar Köztársaságnak és az Európai Közösségnek a közbeszerzések terén fennálló nemzetközi kötelezettségeivel összhangban kell nyújtani."
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "3.3. Aki az eljárás tekintetében bármilyen, az eljárás tisztaságát veszélyeztető cselekményt észlel, köteles erről az igazgatási szakállamtitkárt (továbbiakban: szakállamtitkár) írásban tájékoztatni."
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "3.4. A jelen utasításban foglaltak be nem tartása fegyelmi, kártérítési, adott esetben büntetőjogi felelősségre vonást eredményezhet."
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "3.5. A beszerzéseket a belső ellenőrzés, a Kormányzati Ellenőrzési Hivatal, az Állami Számvevőszék ellenőrizheti. A Kbt. 308. § (2) bekezdésében foglaltakra figyelemmel a közbeszerzési eljárások ellenőrzése a Belső Ellenőrzési Osztály feladata."
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "4. Az éves beszerzési terv"
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "4.1. Beszerzések kezdeményezésére jogosult valamennyi szervezeti egység köteles az adott tárgyév március 15-éig – az 1. sz. mellékletben meghatározott formában – tájékoztatni a Közbeszerzési Osztályt (a továbbiakban: KO) a költségvetési évben tervezett beszerzéseiről, kiemelt figyelmet fordítva az éves költségvetési törvényben meghatározott közbeszerzési értékhatárt elérő vagy meghaladó beszerzésekre, valamint a Kbt. 40. §-ában foglalt egybeszámítási szabályra. Az éves beszerzési tervet a kezdeményező szervezeti egység lehetőleg úgy küldi meg a KO részére, hogy abban elkülönítve jelzi azokat a beszerzéseket, amelyeket az Nbr. szerint kíván megvalósítani, illetve azokat a közbeszerzéseket, amelyeket a központosított közbeszerzési rendszerben, a Kbr. alapján kíván lefolytatni."
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "4.2. A szervezeti egységek adatszolgáltatása alapján a KO a szakállamtitkár részére éves összesített közbeszerzési tervet (továbbiakban: közbeszerzési terv) készít [Kbt. 5. §]. A szakállamtitkár jóváhagyását követően a közbeszerzési tervet a Külügyminisztérium honlapján a tárgyév április 15-ig meg kell jelentetni, amelyről a KO gondoskodik. Az éves összesített közbeszerzési terv a Kkr. 17. § (2) bekezdése szerinti központosított közbeszerzési portálon minden év május 15-ig történő rögzítése iránt a KO intézkedik."
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "4.3. A beszerzések kezdeményezésére jogosult szervezeti egységek az év közben felmerülő beszerzési igényeikről haladéktalanul indokolással ellátott tájékoztatást adnak a KO-nak, amely javaslatot tesz a szakállamtitkár részére a közbeszerzési terv módosítására, valamint intézkedik a módosítás közzététele iránt."
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "5. Az éves statisztikai összegezés"
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "5.1. Jelen utasítás alapján a tárgyév közbeszerzéseiről az eljárást kezdeményező szervezeti egységek a tárgyévet követő év április 30-ig – a 2. sz. mellékletben meghatározott formában – tájékoztatót készítenek a KO részére."
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "5.2. A Kbt. által előírt éves statisztikai összegezést legkésőbb a tárgyévet követő év május 31-éig kell megküldeni a Közbeszerzések Tanácsának, amelynek a szakállamtitkár jóváhagyását követően a KO tesz eleget [Kbt. 16. §]. A KO gondoskodik az éves statisztikai összegezés Külügyminisztérium honlapján történő közzétételéről."
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "6. A hivatalos közbeszerzési tanácsadó"
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "6.1. A hivatalos közbeszerzési tanácsadó által nyújtott szolgáltatások lehetnek:"
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "a) átalánydíjas szolgáltatások – az átalánydíj fedezete a KO költségvetésében biztosított;"
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "b) konkrét beszerzési eljárás teljes körű lebonyolítása keretszerződésen alapuló egyedi megbízás alapján, amelynek költsége az eljárást kezdeményező szervezeti egység előirányzatát terheli."
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "6.2. A közösségi értékhatárt elérő vagy meghaladó értékű, valamint az Európai Unióból származó forrásból támogatott közbeszerzés esetében a közbeszerzési eljárásba a Külügyminisztérium hivatalos közbeszerzési tanácsadót köteles bevonni [Kbt. 9. §]."
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "6.3. Abban az esetben, ha a hivatalos közbeszerzési tanácsadó az eljárás teljes körű lebonyolítására kap megbízást, a 7.2. e) és g) pontokban, a 7.4. b)–e) pontokban, a 8.2., a 8.3. g) pontokban, a 8.4.–8.5., a 8.7. pontokban, a 11. pontban (kivéve a 11.7. és 11.11. pontokat), a 12.2., a 13.3.–13.4. pontokban, a 16.2. pontban foglalt, a verseny újranyitásához kapcsolódó feladatot, a 17.2., valamint a 19.3. pontokban meghatározott feladatokat ő teljesíti."
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "6.4. A hivatalos közbeszerzési tanácsadó bevonására a KO tesz javaslatot a szakállamtitkár részére. A felkérést tartalmazó levél annak írásbeli visszaigazolásakor kötelezettségvállalásnak minősül, ezért azt szakmai és pénzügyi ellenjegyzéssel is el kell látni. Szakmai ellenjegyző ebben az esetben a KO vezetője, a pénzügyi ellenjegyzési jogot a kezdeményező szervezeti egység pénzügyi referense, ennek hiányában a GF vezetője."
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "6.5. A hivatalos közbeszerzési tanácsadóval a kapcsolatot a Külügyminisztérium képviseletében a KO tartja, és írásban (feljegyzés, vagy hivatalos e-mail) tájékoztatja az eljárásban részt vevőket."
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "6.6. A Külügyminisztérium képviseletében állásfoglalást a hivatalos közbeszerzési tanácsadótól a KO kérhet."
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "II. Fejezet"
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "A közbeszerzésekre és beszerzésekre vonatkozó közös szabályok"
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "7. Az eljárás előkészítése"
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "7.1. A közbeszerzési eljárás megindítását a kezdeményező szervezeti egység elsőként jóváhagyásra a szakállamtitkárnak, másodikként a kincstárnoknak jóváhagyásra, majd harmadikként a KO-nak intézkedésre megküldött feljegyzésben (továbbiakban: kezdeményező feljegyzés) kezdeményezi a jelen utasítás 3. számú mellékletében szereplő formanyomtatvánnyal."
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "7.2. A szakállamtitkári és kincstárnoki jóváhagyást követően a feljegyzés alapján a KO a következő előkészítő intézkedéseket teszi:"
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "a) A kezdeményező feljegyzésben szereplő adatok alapján meghatározza az eljárás lehetséges fajtáját, típusát. Több verzió esetén a kezdeményező szervezeti egységet feljegyzésben tájékoztatja az egyes eljárások legrövidebb időtartamáról, lefolytatásának feltételéről. A döntés előkészítése érdekében az eljárást kezdeményező szervezeti egységtől, vagy a kérdésben szakértelemmel bíró egyéb szervezeti egységtől feljegyzésben tájékoztatást kér. A szervezeti egységek a szükséges tájékoztatást haladéktalanul, de legkésőbb 3 munkanapon belül feljegyzésben kötelesek megadni."
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "b) Amennyiben szükséges, kezdeményezi a Biztonsági, Informatikai és Távközlési Főosztálynál (továbbiakban: BITáF) a beszerzés Kbt. hatálya alóli mentesítését."
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "c) Feljegyzésben bekéri az eljárást kezdeményező szervezeti egységtől a műszaki leírást. Ellenőrzi, hogy a műszaki leírás megfelel-e a Kbt. 58. §-ában foglaltaknak."
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "d) Elkészíti a szerződéstervezetet."
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "e) Feljegyzésben egyezteti a bírálóbizottság tagjainak névsorát."
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "f) A beérkezett adatok alapján összeállítja a részvételi, az ajánlati illetve az ajánlattételi felhívást, szükség esetén a dokumentációt, elkészíti az eljárást megindító hirdetményt. Az elkészült dokumentumokat véleményezésre megküldi a bírálóbizottság tagjainak. A bírálóbizottság tagjai véleményüket 3 munkanapon – különösen bonyolult esetben 5 munkanapon belül – belül feljegyzésben közlik a KO-val. A KO a dokumentumokat a vélemények figyelembevételével véglegesíti. Az eljárás gyorsítása érdekében a KO szükség esetén a dokumentumok előkészítése érdekében egyeztető megbeszélést tarthat."
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "g) A műszaki leírás alapján vizsgálja részajánlat tételének lehetőségét."
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "h) Hirdetmény nélküli tárgyalásos, valamint az Nbr. hatálya alá tartozó eljárások esetében a szakmailag illetékes szervezeti egység(ek)től feljegyzésben javaslatot kér az ajánlattételre felhívható ajánlattevőkről. Az ajánlattételre felkérhető cégek listáját a KO döntéshozatal céljából továbbítja a szakállamtitkár felé."
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "i) Szükség esetén javaslatot készít a hivatalos közbeszerzési tanácsadó igénybevételére."
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "j) Szükség esetén javaslatot készít az ajánlati biztosítékra, a dokumentáció ellenértékére."
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "7.3. Az előkészítő intézkedések megtételét követően a KO feljegyzésben kéri az eljárás megindítását a szakállamtitkártól (1.), amelyet tájékoztatásra megküld azoknak a szervezeti egységeknek, amelyek a bírálóbizottságba tagot jelöltek (2.). A feljegyzés mellékletei:"
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "a) a részvételi, ajánlati, illetve ajánlattételi felhívás, vagy az eljárást megindító hirdetmény, továbbá a dokumentáció (a szerződéstervezettel);"
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "b) a bírálóbizottság listája;"
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "c) adott esetben az ajánlattételre felhívható cégek listája a kötelezően meghívandó minimális szám megjelölésével (a meghívni kívánt cégekről a szakállamtitkár dönt);"
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "d) szükség esetén a hivatalos közbeszerzési tanácsadó megbízására vonatkozó javaslat és megbízás;"
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "e) szükség esetén ajánlati biztosítékra, illetve a dokumentáció ellenértékére vonatkozó javaslat;"
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "f) szükség esetén a felhívás és dokumentáció minősítésére vonatkozó javaslat;"
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "g) a jelentős értékű közbeszerzések megindításának egyes kérdéseiről szóló 1132/2009. (VIII. 7.) Korm. határozat alapján létrejött közbeszerzési monitoring munkacsoport részére megküldendő „Monitoring-adatlap”, illetve az Nbr. hatálya alá tartozó beszerzések esetén a Korm. határozat 3. pontjának megfelelő tartalommal, de a titokvédelmi, és az iratkezelési szabályok megtartásával a munkacsoport titkárságára papíralapon benyújtandó a minősített dokumentum, összefoglaló (a munkacsoport döntésének hiányában közbeszerzési, beszerzési eljárás nem indítható)."
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "7.4. A szakállamtitkári jóváhagyást követően a KO intézkedik:"
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "a) a „Monitoring-adatlap”, illetőleg a nem minősített papíralapú összefoglaló elektronikus úton, a minősített dokumentumok és összefoglaló kizárólag papíralapon történő megküldéséről a Miniszterelnöki Hivatal jogi és közigazgatási államtitkárának titkársága részére;"
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "b) a részvételi, ajánlati, illetve ajánlattételi felhívás, adott esetben a dokumentáció megküldéséről a bíráló bizottsági tagok részére;"
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "c) hirdetmény nélküli tárgyalásos eljárás esetén az ajánlattételi felhívást, továbbá az ajánlattételre felhívni kívánt szervezetek (személyek) nevéről, címéről (székhelyéről, lakóhelyéről), valamint a tárgyalásos eljárás alkalmazását megalapozó körülményekről szóló tájékoztatás megküldése iránt a Közbeszerzések Tanácsa részére;"
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "d) hirdetmény közzététele nélkül induló eljárások esetén az ajánlattételi felhívás és dokumentáció közvetlen megküldése iránt az ajánlattételre felhívni kívánt cégek részére;"
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "e) hirdetmény közzétételével induló eljárások esetén az eljárást megindító hirdetmény ellenjegyzése, valamint a hirdetmény feladása iránt."
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "7.5. A (köz)beszerzési eljárással összehangoltan biztosítani kell a fedezet rendelkezésre állását. Közbeszerzési eljárást csak a megfelelő pénzügyi (előirányzati) fedezet ütemezett rendelkezésre állása esetén lehet indítani."
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "7.6. A Kbt. hatálya alá tartozó, a mindenkori nemzeti közbeszerzési értékhatár kétszeresét elérő vagy meghaladó értékű beszerzés csak az alábbi esetek valamelyike fennállása esetén indítható meg:"
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "a) a célra a költségvetési törvény alapján dologi kiadási vagy felhalmozási előirányzat elkülönítése megtörtént, vagy"
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "b) a célra az Országgyűlés által a költségvetési törvényjavaslat központi költségvetés fejezeteinek bevételi és kiadási főösszegéről, továbbá a költségvetési hiány (többlet) mértékéről hozott határozata alapján dologi kiadási vagy felhalmozási előirányzat megállapítása megtörtént, vagy"
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "c) a Kormány engedélyező határozata alapján, vagy"
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "d) az Országgyűlés engedélyező határozata alapján."
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "7.7. Közbeszerzési eljárás akkor is megindítható, ha a minisztérium támogatásra irányuló igényt (pályázatot) nyújtott be, vagy fog benyújtani."
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "7.8. A bruttó 10 millió forint értékű beszerzések megindításának feltétele a kincstárnok előzetes jóváhagyása is."
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "7.9. A KO által lebonyolított közbeszerzési eljárásokhoz kapcsolódóan közzétett hirdetmények szerkesztési díját a KO feljegyzése alapján a GF haladéktalanul átutalással teljesíti a Közbeszerzések Tanácsa részére. Az átutaláshoz szükséges díjbekérőt a KO szerzi be és továbbítja a GF részére."
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "8. A bírálóbizottság"
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "8.1. A bírálóbizottság elnöke az eljárást kezdeményező szervezeti egység vezetője."
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "8.2. A bírálóbizottság megalakulását eljárásonként megfelelően dokumentálni kell. A bírálóbizottság megalakulásakor a KO kitölteti és begyűjti a tagok összeférhetetlenségi nyilatkozatait, és szükség esetén beszerzi az érdekelt gazdálkodószervezetek távolmaradási nyilatkozatait."
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "8.3. A bírálóbizottság tagjai:"
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "a) az eljárást kezdeményező szervezeti egység vezetője (elnök);"
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "b) a KO közbeszerzési szakértelemmel rendelkező munkatársa;"
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "c) az eljárást kezdeményező szervezeti egység jogi végzettségű munkatársa, ennek hiányában a KO munkatársa;"
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "d) a kezdeményező szervezeti egység – a beszerzés lebonyolításáért felelős – megfelelő szakértelemmel rendelkező egy munkatársa;"
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "e) pénzügyi szakértelemmel rendelkező munkatárs (a szervezeti egység pénzügyi referense, ennek hiányában a GF pénzügyi munkatársa);"
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "f) a BITáF munkatársa, amennyiben az a beszerzés tárgyára figyelemmel biztonsági szempontból szükséges;"
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "g) konkrét megbízás esetén a hivatalos közbeszerzési tanácsadó munkatársa;"
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "h) eseti jelleggel a beszerzés tárgya szerinti szakértelemmel bíró külső szakértő."
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "Az a)–e) pontban felsoroltak minden esetben tagjai a bírálóbizottságnak. Valamennyi, a bírálóbizottságba delegáló szervezeti egység köteles a bizottsági tag helyettesíthetősége céljából póttagot delegálni, és a póttag személyéről a Közbeszerzési Osztályt értesíteni. A póttag is köteles az összeférhetetlenségi nyilatkozatot kitölteni és azt a KO részére eljuttatni. A póttag felelősségére a bírálóbizottsági tag felelősségére vonatkozó rendelkezések az irányadóak."
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "8.4. A bírálóbizottság tagja felelős:"
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "a) az összeférhetetlenségi nyilatkozat kitöltéséért;"
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "b) a részére megküldött anyagok véleményezéséért, véleménye írásos formában, a KO-val határidőben történő közléséért;"
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "c) a bírálóbizottsági munkában való pártatlan részvételéért; akadályoztatása esetén ennek KO-val való írásos közléséért és a helyettesítéséről történő gondoskodásért (a tag akadályoztatásáról (pl. kiküldetés, szabadság) és helyettesítéséről a lehető legkorábban köteles feljegyzésben és szükség esetén rövid úton is tájékoztatni a KO-t);"
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "d) a bírálati lap kitöltéséért és KO részére határidőben történő eljuttatásáért;"
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "e) a bírálóbizottság tagja a jelen utasításban foglalt feladatainak ellátásért szakmai felelősséggel tartozik."
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "8.5. A bírálóbizottság írásbeli szakvéleményt és döntési javaslatot készít az ajánlatkérő nevében döntést hozó szakállamtitkár részére. A bírálóbizottsági munkáról jegyzőkönyvet kell készíteni (melynek melléklete a jelenlevők által aláírt jelenléti ív), amelynek elválaszthatatlan részét képezik a tagok indokolással ellátott bírálati lapjai. (A bírálati lapok mintáját a 4. számú melléklet tartalmazza.)"
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "8.6. A bírálóbizottság megbízatása az adott közbeszerzési eljárásra terjed ki és az eredményhirdetéssel, illetőleg a szerződés(ek) aláírásával szűnik meg."
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "8.7. A bírálóbizottság határozatképes, ha a tagok több mint fele jelen van. A bírálóbizottság működési rendjét maga határozza meg. Határozatképtelenség esetén a bírálóbizottság elnöke dönt a bírálóbizottság újbóli összehívásáról."
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "8.8. A bírálóbizottság munkájával kapcsolatban felmerült valamennyi adminisztrációs feladatot a KO látja el."
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "8.9. A bírálóbizottság tagjai helyettesíthetőek a kijelölésben meghatározott póttagokkal. (A bírálóbizottsági tagok, valamint helyetteseik delegálására vonatkozó nyomtatványt az 5. sz. melléklet tartalmazza.). A helyettesítés a bíráló bizottság munkáját nem akadályozhatja. A bírálóbizottság elnökének helyettesítése az SZMSZ-ben foglalt általános helyettesítési rend szerint alakul."
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "8.10. Amennyiben a tagok egyidejű személyes jelenléte eltérő tartózkodási helyükre tekintettel nem lehetséges, kivételes esetben, a bírálóbizottság ülését virtuális formában is megtarthatja, melynek során a tagok nem személyes jelenléttel, hanem a tagok közötti párbeszédet korlátozás nélkül lehetővé tevő elektronikus hírközlő eszköz közvetítésével vesznek részt. Az ülésnek ez a formája kizárólag abban az esetben alkalmazható, ha biztosított, hogy a tagok személyazonossága egyértelműen megállapítható. Titkot érintő eljárás esetén a kommunikáció kizárólag védett hírközlő eszköz közvetítésével történhet."
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "9. Összeférhetetlenség"
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "9.1. Az utasítás hatálya alá tartozó közbeszerzések előkészítése, felhívás és dokumentáció elkészítése során, vagy az eljárás más szakaszában az ajánlatkérő nevében nem járhat el, illetőleg az eljárásba nem vonható be az, akivel szemben a Kbt. 10. §-ában meghatározott összeférhetetlenségi okok fennállnak. Az Nbr. szerinti beszerzések esetében a kormányrendelet 13. §-a az irányadó."
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "9.2. Az ajánlatkérő nevében eljáró, illetőleg az eljárásba bevonni kívánt személy vagy szervezet írásban köteles nyilatkozni arról, hogy vele szemben fennállnak-e az összeférhetetlenségi okok. Az összeférhetetlenség tekintetében eljárásonként kell nyilatkozatot tenni, melynek formanyomtatványát közbeszerzések esetében a 6/a. sz. melléklet, az Nbr. szerinti beszerzések esetében a 6/b. sz. melléklet tartalmazza."
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "10. A közbeszerzési eljárás nyilvánossága"
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "10.1. A Kbt. szerinti eljárások esetében a dokumentum létrejöttétől számított 5 munkanapon belül a KO teljesíti a Kbt. 17/C. §-ban meghatározott közzétételi kötelezettségeket."
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "10.2. A közzétételi kötelezettségek teljesítése érdekében az érintett szervezeti egységek az alábbi dokumentumokat kötelesek legkésőbb a keletkezésüktől számított 3 munkanapon belül a KO rendelkezésére bocsátani:"
+    },
+    {
+      "provision_ref": "s107",
+      "section": "107",
+      "title": "107",
+      "content": "a) közbeszerzési szerződéseket (a KO feljegyzése nélkül is), megjelölve és eltávolítva azokat a részeket, melyek üzleti titkot képeznek, vagy nem nyilvános minősítésűek figyelemmel a Kbt. 73. §-ban foglaltakra;"
+    },
+    {
+      "provision_ref": "s108",
+      "section": "108",
+      "title": "108",
+      "content": "b) a szerződés módosításáról (jelen utasítás 15. pont), teljesítéséről (szerződésszerű volt-e a teljesítés; nem szerződésszerű teljesítés esetén a szerződésszegés típusa, leírása, indoka; a szerződésszegők neve, címe) szóló információkat (a KO feljegyzése nélkül is);"
+    },
+    {
+      "provision_ref": "s109",
+      "section": "109",
+      "title": "109",
+      "content": "c) az éves közbeszerzési tervhez és a statisztikai összegzéshez szükséges, a KO által bekért adatokat;"
+    },
+    {
+      "provision_ref": "s110",
+      "section": "110",
+      "title": "110",
+      "content": "d) a)–b) pontban foglaltak mellett – a teljesítés megtörténtéről, a teljesítéssel kapcsolatban esetlegesen felmerülő problémákról, adott esetben a teljesítés elmaradásának okáról szóló írásbeli tájékoztatást."
+    },
+    {
+      "provision_ref": "s111",
+      "section": "111",
+      "title": "111",
+      "content": "10.3. A hirdetmények honlapon történő közzétételére az Európai Közösségek Hivatalos Kiadványai Hivatala, illetőleg a Közbeszerzések Tanácsa részére történő feladást követően kerülhet sor. A honlapon közzétett hirdetmény nem tartalmazhat más adatot, mint amely az Európai Unió Hivatalos Lapjában (TED-adatbank), illetőleg a Közbeszerzési Értesítőben megjelent, és fel kell tüntetni a hirdetmény feladásának napját is. A honlapon történő közzététel érdekében a KO megküldi a dokumentumokat a honlapszerkesztőségnek, amely intézkedik a Külügyminisztérium honlapján való megjelentetés iránt."
+    },
+    {
+      "provision_ref": "s112",
+      "section": "112",
+      "title": "112",
+      "content": "10.4. A honlapon közzétett adatoknak a közzétételtől számított 5 évig a honlapról elérhetőnek kell lenniük. A kötelezettség teljesítéséért a honlapszerkesztőség felel."
+    },
+    {
+      "provision_ref": "s113",
+      "section": "113",
+      "title": "113",
+      "content": "MÁSODIK RÉSZ"
+    },
+    {
+      "provision_ref": "s114",
+      "section": "114",
+      "title": "114",
+      "content": "KBT. HATÁLYA ALÁ TARTOZÓ KÖZBESZERZÉSEK"
+    },
+    {
+      "provision_ref": "s115",
+      "section": "115",
+      "title": "115",
+      "content": "III. fejezet"
+    },
+    {
+      "provision_ref": "s116",
+      "section": "116",
+      "title": "116",
+      "content": "Közösségi értékhatárt elérő értékű közbeszerzések"
+    },
+    {
+      "provision_ref": "s117",
+      "section": "117",
+      "title": "117",
+      "content": "11. Nyílt eljárás"
+    },
+    {
+      "provision_ref": "s118",
+      "section": "118",
+      "title": "118",
+      "content": "Az ajánlatok bontása és értékelése"
+    },
+    {
+      "provision_ref": "s119",
+      "section": "119",
+      "title": "119",
+      "content": "11.1. A GF gondoskodik az ajánlati dokumentációk ellenértékének bevételezéséről, valamint a Kbt.-ben előírt esetekben a dokumentáció ellenértékének visszafizetéséről, az ajánlati biztosíték bevételezéséről, nyilvántartásáról és visszafizetéséről."
+    },
+    {
+      "provision_ref": "s120",
+      "section": "120",
+      "title": "120",
+      "content": "11.2. Amennyiben valamelyik ajánlattevő kiegészítő tájékoztatást kér az ajánlatkérőtől, amennyiben közbeszerzési jellegű, azt a KO rögtön megválaszolja; amennyiben egyéb jellegű, azt a tárgyi szakértelemmel rendelkező bírálóbizottsági tagnak továbbítja. A választ a tag úgy köteles megadni, hogy azt a KO legkésőbb az ajánlattételi határidő lejárta előtt négy nappal ki tudja küldeni valamennyi ajánlattevő részére."
+    },
+    {
+      "provision_ref": "s121",
+      "section": "121",
+      "title": "121",
+      "content": "11.3. A beérkezett ajánlatokat tartalmazó iratokat a bírálóbizottsági tagokból összeállított háromtagú bontóbizottság bontja fel. A bontóbizottságnak minden esetben tagja a KO által a bírálóbizottságba delegált tag. A bontóbizottság ismerteti a Kbt. 80. § (3) bekezdésében előírtakat. Az ajánlatok felbontásáról és ismertetéséről a KO jegyzőkönyvet készít, melyet a jelenlevők aláírásukkal látnak el, és amelyet a bontástól számított öt napon belül a KO megküld az összes ajánlattevőnek [Kbt. 80. § (4) bek.]."
+    },
+    {
+      "provision_ref": "s122",
+      "section": "122",
+      "title": "122",
+      "content": "11.4. A bontást követően a KO feljegyzésben megküldi a bírálóbizottsági tagok részére a bontási jegyzőkönyvet, és határidő kitűzése mellett felhívja a tagokat az ajánlatok véleményezésére, tájékoztatva őket az ajánlatokhoz való hozzáférés lehetőségéről. A beérkezett ajánlatok egy példánya a KO-nál mindig megtekinthető. Az ajánlatokat hiánypótlás szempontjából a KO is megvizsgálja, majd a tagoktól beérkezett véleményeket is figyelembe véve a hiánypótlási felhívást összeállítja, és egyidejűleg megküldi valamennyi ajánlattevő részére."
+    },
+    {
+      "provision_ref": "s123",
+      "section": "123",
+      "title": "123",
+      "content": "11.5. A KO köteles – az ajánlatkérő nevében – az ajánlattevőt írásban tájékoztatni kizárásáról, a szerződés teljesítésére való alkalmatlanságának megállapításáról, ajánlatának a Kbt. 88. § (1) bekezdése szerinti egyéb okból történt érvénytelenné nyilvánításáról, valamint ezek indokáról az erről hozott döntést követő öt napon belül [Kbt. 93. § (1) bek.]."
+    },
+    {
+      "provision_ref": "s124",
+      "section": "124",
+      "title": "124",
+      "content": "11.6. A KO – az ajánlatkérő nevében – az ajánlatok elbírálásának befejezésekor külön jogszabályban meghatározott minta szerint írásbeli összegezést köteles készíteni [Kbt. 93. § (2) bek.]."
+    },
+    {
+      "provision_ref": "s125",
+      "section": "125",
+      "title": "125",
+      "content": "11.7. A KO a döntési javaslatot az azt összeállító bírálóbizottsági ülést követő munkanapon – a felhívásban megjelölt eredményhirdetési időpontot is figyelembe véve – döntésre felterjeszti a szakállamtitkár részére. A döntési javaslat melléklete az írásbeli összegzés, valamint a bírálóbizottság üléséről készített jegyzőkönyv."
+    },
+    {
+      "provision_ref": "s126",
+      "section": "126",
+      "title": "126",
+      "content": "11.8. Az eljárás eredményének kihirdetéséről a KO gondoskodik. Az eljárás eredményét az ajánlatok felbontásától számított 30 – építési beruházás esetében 60 – napon belül, az ajánlati felhívásban megjelölt eredményhirdetési időpontban nyilvánosan kell kihirdetni [Kbt. 94. § (1) bekezdés]. Az eljárás eredménye csak a szakállamtitkár jóváhagyásával hirdethető ki."
+    },
+    {
+      "provision_ref": "s127",
+      "section": "127",
+      "title": "127",
+      "content": "11.8.a. Az eredményhirdetés során az ajánlatkérő köteles ismertetni a külön jogszabályban meghatározott minta szerint elkészített írásbeli összegezésben foglalt adatokat."
+    },
+    {
+      "provision_ref": "s128",
+      "section": "128",
+      "title": "128",
+      "content": "11.8.b. Az eljárást abban az esetben lehet a Kbt. 92. § c) pontja alapján (egyik ajánlattevő sem, vagy az összességében legelőnyösebb ajánlatot tevő sem tett – az ajánlatkérő rendelkezésére álló anyagi fedezet mértékére tekintettel – megfelelő ajánlatot) eredménytelenné nyilvánítani, ha az eljárás megindítását kezdeményező szervezeti egység feljegyzésben igazolja a KO felé:"
+    },
+    {
+      "provision_ref": "s129",
+      "section": "129",
+      "title": "129",
+      "content": "a) a beszerzésre tervezett fedezet összegét,"
+    },
+    {
+      "provision_ref": "s130",
+      "section": "130",
+      "title": "130",
+      "content": "b) a fedezet elvonásának, átcsoportosításának időpontját, okát,"
+    },
+    {
+      "provision_ref": "s131",
+      "section": "131",
+      "title": "131",
+      "content": "c) az átcsoportosításra vonatkozó döntést."
+    },
+    {
+      "provision_ref": "s132",
+      "section": "132",
+      "title": "132",
+      "content": "Ebben az esetben a KO tájékoztatja az ajánlattevőket az eredménytelenség okáról."
+    },
+    {
+      "provision_ref": "s133",
+      "section": "133",
+      "title": "133",
+      "content": "11.9. Az írásbeli összegezést az eredményhirdetésen jelen lévő ajánlattevőknek át kell adni, a távol levő ajánlattevőknek pedig az eredményhirdetés napján, az eredményhirdetést követően haladéktalanul telefaxon vagy elektronikus úton meg kell küldeni. Ha az ajánlattevő nem adta meg elektronikus levélcímét vagy telefaxon való elérhetőségét, részére az írásbeli összegezést az eredményhirdetés napján postai úton kell feladni. [Kbt. 96. § (1)–(2) bek.]. Az írásbeli összegezés ajánlattevőnek történő átadásáról a KO gondoskodik. Amennyiben az szükséges, a KO egyúttal teljesíti a Kbt. 96. § (3)–(4) bekezdésében foglaltakat."
+    },
+    {
+      "provision_ref": "s134",
+      "section": "134",
+      "title": "134",
+      "content": "11.10. Az ajánlatkérő az eredményhirdetés időpontját – indokolt esetben – egy alkalommal, legfeljebb 30 nappal elhalaszthatja a szakállamtitkár jóváhagyását követően. A halasztásról és annak indokáról a KO az összes ajánlattevőt egyidejűleg, közvetlenül, írásban tájékoztatja."
+    },
+    {
+      "provision_ref": "s135",
+      "section": "135",
+      "title": "135",
+      "content": "11.11. A szerződés kizárólag a Kbt. 91. § szerint meghatározott ajánlattevővel köthető meg. A kezdeményező szervezeti egység – a KO-val együttműködve – gondoskodik a szerződés megkötéséről, majd – az aláírást követő 3 munkanapon belül – egy másolati példányt a KO rendelkezésére bocsát a KüM honlapján történő közzététel érdekében."
+    },
+    {
+      "provision_ref": "s136",
+      "section": "136",
+      "title": "136",
+      "content": "11.12. A KO intézkedik az eljárás eredményéről vagy eredménytelenségéről szóló – külön jogszabályban meghatározott minta szerinti – tájékoztató közzététele iránt."
+    },
+    {
+      "provision_ref": "s137",
+      "section": "137",
+      "title": "137",
+      "content": "11.13. A KO az eredményhirdetést követő nyolcadik, illetve tizenhetedik napon elvégzi a Kbt. 63/A. § (3) bekezdésében rögzített ellenőrzéseket, a vonatkozó dokumentumokat a közhiteles nyilvántartásokból kinyomtatja és azokat a közbeszerzés iratanyagához csatolja."
+    },
+    {
+      "provision_ref": "s138",
+      "section": "138",
+      "title": "138",
+      "content": "12. Két szakaszból álló eljárások"
+    },
+    {
+      "provision_ref": "s139",
+      "section": "139",
+      "title": "139",
+      "content": "12.1. Jelen utasításnak a nyílt eljárás"
+    },
+    {
+      "provision_ref": "s140",
+      "section": "140",
+      "title": "140",
+      "content": "a) ajánlati felhívásra vonatkozó szabályait a részvételi felhívásra;"
+    },
+    {
+      "provision_ref": "s141",
+      "section": "141",
+      "title": "141",
+      "content": "b) ajánlati dokumentációra vonatkozó szabályait a részvételi dokumentációra;"
+    },
+    {
+      "provision_ref": "s142",
+      "section": "142",
+      "title": "142",
+      "content": "c) ajánlatok bontására, értékelésére vonatkozó szabályait, a részvételi jelentkezések bontására, értékelésére;"
+    },
+    {
+      "provision_ref": "s143",
+      "section": "143",
+      "title": "143",
+      "content": "d) döntésre vonatkozó szabályait az alkalmasnak ítélt részvételre jelentkezők kiválasztására;"
+    },
+    {
+      "provision_ref": "s144",
+      "section": "144",
+      "title": "144",
+      "content": "e) közzétételre és kihirdetésre vonatkozó szabályait a két szakaszból álló eljárások részvételi szakasza közzétételi és kihirdetési kötelezettségeire"
+    },
+    {
+      "provision_ref": "s145",
+      "section": "145",
+      "title": "145",
+      "content": "megfelelően kell alkalmazni."
+    },
+    {
+      "provision_ref": "s146",
+      "section": "146",
+      "title": "146",
+      "content": "12.2. A KO gondoskodik a részvételi szakasz összegezésének a Közbeszerzések Tanácsa részére való megküldéséről."
+    },
+    {
+      "provision_ref": "s147",
+      "section": "147",
+      "title": "147",
+      "content": "12.3. A két szakaszból álló eljárások ajánlattételi szakaszára fő szabály szerint a nyílt eljárásra vonatkozó szabályok az irányadóak."
+    },
+    {
+      "provision_ref": "s148",
+      "section": "148",
+      "title": "148",
+      "content": "13. Tárgyalásos eljárás"
+    },
+    {
+      "provision_ref": "s149",
+      "section": "149",
+      "title": "149",
+      "content": "13.1. A tárgyalásos eljárásra – az e pontban meghatározottak figyelembevételével – a nyílt eljárás szabályait, illetőleg a hirdetmény közzétételével induló tárgyalásos eljárás esetében a két szakaszból álló eljárás szabályait – kell a Kbt.-ben meghatározott eltérésekkel alkalmazni."
+    },
+    {
+      "provision_ref": "s150",
+      "section": "150",
+      "title": "150",
+      "content": "13.2. A tárgyalásokon a Külügyminisztérium képviseletében a bírálóbizottság tagjai vesznek részt."
+    },
+    {
+      "provision_ref": "s151",
+      "section": "151",
+      "title": "151",
+      "content": "13.3. A KO a tárgyalásokról jegyzőkönyvet készít, melyet a tárgyalás következő fordulójának megkezdéséig (egyetlen, vagy utolsó forduló esetén a tárgyalás befejezését követő 2 munkanapon belül) minden, az adott tárgyalási fordulóban részt vevő ajánlattevőnek alá kell írnia, és annak egy példányát átadja, vagy 2 munkanapon belül megküldi az ajánlattevőknek."
+    },
+    {
+      "provision_ref": "s152",
+      "section": "152",
+      "title": "152",
+      "content": "13.4. A KO az utolsó tárgyalás befejezését követően 2 munkanapon belül minden ajánlattevővel egyidejűleg ismerteti az ajánlatoknak azokat a számszerűsíthető adatait, amelyek a bírálati szempont (részszempontok) alapján értékelésre kerülnek."
+    },
+    {
+      "provision_ref": "s153",
+      "section": "153",
+      "title": "153",
+      "content": "IV. Fejezet"
+    },
+    {
+      "provision_ref": "s154",
+      "section": "154",
+      "title": "154",
+      "content": "Nemzeti értékhatárt elérő értékű beszerzések"
+    },
+    {
+      "provision_ref": "s155",
+      "section": "155",
+      "title": "155",
+      "content": "14. Általános egyszerű közbeszerzési eljárás"
+    },
+    {
+      "provision_ref": "s156",
+      "section": "156",
+      "title": "156",
+      "content": "14.1. Az általános egyszerű közbeszerzési eljárás során a közösségi értékhatárt elérő beszerzések szabályait a Kbt. 250. § (3) és a 251. § (3) bekezdése szerint kell alkalmazni."
+    },
+    {
+      "provision_ref": "s157",
+      "section": "157",
+      "title": "157",
+      "content": "14.2. Az egyszerű közbeszerzési eljárásban az ajánlatkérő az ajánlattételi felhívást hirdetmény útján köteles közzétenni, kivéve a Kbt. 252. § (1) bekezdésében foglalt eseteket."
+    },
+    {
+      "provision_ref": "s158",
+      "section": "158",
+      "title": "158",
+      "content": "HARMADIK RÉSZ"
+    },
+    {
+      "provision_ref": "s159",
+      "section": "159",
+      "title": "159",
+      "content": "A SZERZŐDÉSEK MÓDOSÍTÁSA ÉS TELJESÍTÉSE"
+    },
+    {
+      "provision_ref": "s160",
+      "section": "160",
+      "title": "160",
+      "content": "15. A közbeszerzési, beszerzési eljárás eredményeként megkötött szerződés módosítása és teljesítése"
+    },
+    {
+      "provision_ref": "s161",
+      "section": "161",
+      "title": "161",
+      "content": "15.1. A felek csak akkor módosíthatják a szerződésnek a felhívás, a dokumentáció feltételei, illetőleg az ajánlat tartalma alapján meghatározott részét, ha a szerződéskötést követően – a szerződéskötéskor előre nem látható ok következtében – beállott körülmény miatt a szerződés valamelyik fél lényeges jogos érdekét sérti."
+    },
+    {
+      "provision_ref": "s162",
+      "section": "162",
+      "title": "162",
+      "content": "15.2. A szerződés módosítására az eljárást kezdeményező szervezeti egység az okok ismertetésével feljegyzésben tesz javaslatot a KO részére, melyet a KO közbeszerzési szempontból véleményez. A szerződés módosításához a szakállamtitkár jóváhagyása szükséges."
+    },
+    {
+      "provision_ref": "s163",
+      "section": "163",
+      "title": "163",
+      "content": "15.3. Közbeszerzési eljárás eredményeképpen kötött szerződések esetében az eljárást kezdeményező szervezeti egység írásbeli tájékoztatása alapján a KO elkészíti a szerződés módosításáról külön jogszabályban meghatározott minta szerint tájékoztatót és gondoskodik a hirdetmény közzétételéről (Közbeszerzési Értesítő, honlap)."
+    },
+    {
+      "provision_ref": "s164",
+      "section": "164",
+      "title": "164",
+      "content": "NEGYEDIK RÉSZ"
+    },
+    {
+      "provision_ref": "s165",
+      "section": "165",
+      "title": "165",
+      "content": "KÖZPONTOSÍTOTT KÖZBESZERZÉS"
+    },
+    {
+      "provision_ref": "s166",
+      "section": "166",
+      "title": "166",
+      "content": "16. A központosított közbeszerzések speciális szabályai"
+    },
+    {
+      "provision_ref": "s167",
+      "section": "167",
+      "title": "167",
+      "content": "16.1. A központosított közbeszerzési rendszer hatálya alá tartozó beszerzéseket a Kkr. határozza meg."
+    },
+    {
+      "provision_ref": "s168",
+      "section": "168",
+      "title": "168",
+      "content": "16.2. A beszerzést a költségvetési előirányzattal rendelkező, vagy az erre kijelölt szervezeti egység bonyolítja le, kivéve, ha az eljárás a második részében a verseny újra nyitásával kíván terméket beszerezni, amely esetben a KO folytatja le az eljárást."
+    },
+    {
+      "provision_ref": "s169",
+      "section": "169",
+      "title": "169",
+      "content": "16.3. A központosított közbeszerzésben érintett szervezeti egység vezetője köteles a Kkr. 15–18. §-ainak megfelelően eleget tenni a központi beszerző szervezet felé fennálló adatszolgáltatási kötelezettségének."
+    },
+    {
+      "provision_ref": "s170",
+      "section": "170",
+      "title": "170",
+      "content": "16.4. Amennyiben a központosított közbeszerzés hatálya alá tartozó termék saját hatáskörben történő beszerzésének jogszabályi feltételei fennállnak [Kkr. 7–8. §], a beszerzésről a KO előzetes véleményezése után a szakállamtitkár jogosult dönteni. A szakállamtitkári döntés után a KO a Kkr. 8. § (1) bekezdésében foglaltaknak megfelelően jár el. Az eljárás lefolytatására ezt követően a Kbt., valamint a jelen szabályzat első és a második részében foglaltak az irányadók."
+    },
+    {
+      "provision_ref": "s171",
+      "section": "171",
+      "title": "171",
+      "content": "ÖTÖDIK RÉSZ"
+    },
+    {
+      "provision_ref": "s172",
+      "section": "172",
+      "title": "172",
+      "content": "KÜLKÉPVISELETEKRE VONATKOZÓ SPECIÁLIS SZABÁLYOK"
+    },
+    {
+      "provision_ref": "s173",
+      "section": "173",
+      "title": "173",
+      "content": "17. Külképviseletekre vonatkozó rendelkezések"
+    },
+    {
+      "provision_ref": "s174",
+      "section": "174",
+      "title": "174",
+      "content": "17.1. A Kbt. 18. §-a alapján önálló ajánlatkérőként bejelentett külképviseletek saját közbeszerzési szabályzatukban foglaltak szerint járnak el. A közbeszerzési szabályzatukat a külképviseletek kötelesek a KO-val egyeztetni, és a KO vonatkozó utasításait figyelembe venni. A külképviselet köteles minden esetben bevonni az eljárásba a KO-t, melynek kijelölt tagja részt vesz a bírálóbizottsági munkában is."
+    },
+    {
+      "provision_ref": "s175",
+      "section": "175",
+      "title": "175",
+      "content": "17.2. Az önálló ajánlatkérőként be nem jelentett külképviseletek számára a beszerzéseket a Külügyminisztérium Közbeszerzési Osztálya bonyolítja le a jelen szabályzatban foglaltak szerint azzal az eltéréssel, hogy kezdeményező szervezeti egységen a külképviseletet kell érteni. A külképviselet minden esetben köteles figyelembe venni a KO eljárásra vonatkozó utasításait, továbbá köteles minden kapcsolódó tájékoztatást megadni a KO részére."
+    },
+    {
+      "provision_ref": "s176",
+      "section": "176",
+      "title": "176",
+      "content": "17.3. Amennyiben a külképviselet számára történő közbeszerzés becsült értéke nem éri el a beszerzés tárgya szerint hatályos közösségi értékhatárt, a Kbt. 252. § (1) bekezdés g) pontja alapján hirdetmény nélküli tárgyalásos eljárás alkalmazható. Erre építési beruházások esetében akkor van lehetőség, ha a közbeszerzés becsült értéke nem éri el a közösségi értékhatár felét."
+    },
+    {
+      "provision_ref": "s177",
+      "section": "177",
+      "title": "177",
+      "content": "HATODIK RÉSZ"
+    },
+    {
+      "provision_ref": "s178",
+      "section": "178",
+      "title": "178",
+      "content": "AZ NBR. HATÁLYA ALÁ TARTOZÓ BESZERZÉSEK"
+    },
+    {
+      "provision_ref": "s179",
+      "section": "179",
+      "title": "179",
+      "content": "18. Kbt. hatálya alól mentesített beszerzések"
+    },
+    {
+      "provision_ref": "s180",
+      "section": "180",
+      "title": "180",
+      "content": "18.1. Amennyiben a KO 7.2. a) pont szerinti feljegyzésére a BITáF azt a tájékoztatást adja, hogy a beszerzés államtitkot vagy szolgálati titkot, illetőleg az ország alapvető biztonsági, nemzetbiztonsági érdekeit érinti vagy különleges biztonsági intézkedést igényel:"
+    },
+    {
+      "provision_ref": "s181",
+      "section": "181",
+      "title": "181",
+      "content": "a) ha a beszerzés becsült értéke eléri a közösségi értékhatárt, a BITáF mentesítési kérelmet nyújt be az Országgyűlés Külügyi és Határon Túli Magyarok Bizottságához;"
+    },
+    {
+      "provision_ref": "s182",
+      "section": "182",
+      "title": "182",
+      "content": "b) ha a beszerzés becsült értéke nem éri el a közösségi értékhatárt, a Kbt. hatálya alóli mentességet a BITáF a KO-nak küldött feljegyzésében megindokolja, továbbá megjelöli a szükséges titokszintet."
+    },
+    {
+      "provision_ref": "s183",
+      "section": "183",
+      "title": "183",
+      "content": "18.2. A 18.1.a) esetben a mentesítési kérelmet a szakállamtitkár írja alá. A mentesítésről a BITáF feljegyzésben tájékoztatja a KO-t, megjelölve a szükséges titokszintet."
+    },
+    {
+      "provision_ref": "s184",
+      "section": "184",
+      "title": "184",
+      "content": "18.3. Egyebekben a jelen utasítás Első Részében foglalt szabályokat az Nbr. alapján lefolytatott eljárásoknál is megfelelően alkalmazni kell."
+    },
+    {
+      "provision_ref": "s185",
+      "section": "185",
+      "title": "185",
+      "content": "HETEDIK RÉSZ"
+    },
+    {
+      "provision_ref": "s186",
+      "section": "186",
+      "title": "186",
+      "content": "A DOKUMENTÁLÁS RENDJE"
+    },
+    {
+      "provision_ref": "s187",
+      "section": "187",
+      "title": "187",
+      "content": "19. A közbeszerzési és beszerzési eljárások dokumentálása"
+    },
+    {
+      "provision_ref": "s188",
+      "section": "188",
+      "title": "188",
+      "content": "19.1. A közbeszerzési, valamint beszerzési eljárás előkészítésétől annak lezárulásáig, – ideértve az eljárás alapján kötött szerződés teljesítését is – az eljárással kapcsolatos valamennyi folyamatot írásban dokumentálni kell. A közbeszerzési eljárás előkészítésével, lefolytatásával és a szerződés teljesítésével kapcsolatban keletkezett összes iratot a közbeszerzési eljárás lezárulásától [98. § (4) bekezdése], illetőleg a szerződés teljesítésétől számított öt évig meg kell őrizni. Ha a közbeszerzéssel kapcsolatban jogorvoslati eljárás indult, az iratokat annak jogerős befejezéséig, de legalább az említett öt évig kell megőrizni."
+    },
+    {
+      "provision_ref": "s189",
+      "section": "189",
+      "title": "189",
+      "content": "19.2. A közbeszerzési és beszerzési eljárások dokumentumainak megőrzése a KO feladata. Ennek megfelelően valamennyi érintett szervezeti egység köteles a nála található, adott eljáráshoz kapcsolódó valamennyi dokumentumot a KO rendelkezésére bocsátani."
+    },
+    {
+      "provision_ref": "s190",
+      "section": "190",
+      "title": "190",
+      "content": "19.3. Amennyiben a Minisztérium a hivatalos közbeszerzési tanácsadót bízta meg az eljárás teljes körű lefolytatásával, a hivatalos közbeszerzési tanácsadó az eljárás során keletkezett valamennyi iratot az eljárás lezárását követő 5 munkanapon belül megküldi a KO részére."
+    },
+    {
+      "provision_ref": "s191",
+      "section": "191",
+      "title": "191",
+      "content": "19.4. Az eljárás folyamán elkészítendő iratok az alábbiak:"
+    },
+    {
+      "provision_ref": "s192",
+      "section": "192",
+      "title": "192",
+      "content": "a) az eljárás előkészítésének dokumentálása (becsült érték meghatározásának dokumentálása, bírálóbizottságba delegáló feljegyzés, eljárást megindító feljegyzés, műszaki leírást, szerződéstervezetet bekérő feljegyzés stb.),"
+    },
+    {
+      "provision_ref": "s193",
+      "section": "193",
+      "title": "193",
+      "content": "b) részvételi/ajánlattételi/ajánlati felhívás és dokumentáció (amennyiben a hatályos jogszabályok alapján dokumentáció készítése szükséges),"
+    },
+    {
+      "provision_ref": "s194",
+      "section": "194",
+      "title": "194",
+      "content": "c) összeférhetetlenségi, távolmaradási nyilatkozatok,"
+    },
+    {
+      "provision_ref": "s195",
+      "section": "195",
+      "title": "195",
+      "content": "d) kiegészítő tájékoztatás (erre irányuló kérés esetén), írásbeli felvilágosítás kérése és az arra adott válasz,"
+    },
+    {
+      "provision_ref": "s196",
+      "section": "196",
+      "title": "196",
+      "content": "e) bontási jegyzőkönyv és jelenléti ív,"
+    },
+    {
+      "provision_ref": "s197",
+      "section": "197",
+      "title": "197",
+      "content": "f) részvételi szakasz, ajánlattételi szakasz eredményét tartalmazó értesítés, írásbeli összegzés,"
+    },
+    {
+      "provision_ref": "s198",
+      "section": "198",
+      "title": "198",
+      "content": "g) adott esetben indokolás, adatok kérése a bírálati részszempont lehetetlen, túlzottan magas vagy alacsony voltára, kirívóan aránytalannak értékelt kötelezettségvállalásra vonatkozóan,"
+    },
+    {
+      "provision_ref": "s199",
+      "section": "199",
+      "title": "199",
+      "content": "h) bírálóbizottsági jegyzőkönyvek és jelenléti ív, bírálati lapok,"
+    },
+    {
+      "provision_ref": "s200",
+      "section": "200",
+      "title": "200",
+      "content": "i) hiánypótlási felhívások,"
+    },
+    {
+      "provision_ref": "s201",
+      "section": "201",
+      "title": "201",
+      "content": "j) tárgyalási jegyzőkönyv és jelenléti ív,"
+    },
+    {
+      "provision_ref": "s202",
+      "section": "202",
+      "title": "202",
+      "content": "k) írásbeli szakvélemény,"
+    },
+    {
+      "provision_ref": "s203",
+      "section": "203",
+      "title": "203",
+      "content": "l) döntési javaslat,"
+    },
+    {
+      "provision_ref": "s204",
+      "section": "204",
+      "title": "204",
+      "content": "m) döntésről szóló értesítés,"
+    },
+    {
+      "provision_ref": "s205",
+      "section": "205",
+      "title": "205",
+      "content": "n) adott esetben értesítés az egyes eljárási időpontok elhalasztásáról,"
+    },
+    {
+      "provision_ref": "s206",
+      "section": "206",
+      "title": "206",
+      "content": "ny) szerződés, illetőleg a szerződés teljesülésére vonatkozó dokumentum,"
+    },
+    {
+      "provision_ref": "s207",
+      "section": "207",
+      "title": "207",
+      "content": "o) az eljárás során keletkezett valamennyi hirdetmény."
+    },
+    {
+      "provision_ref": "s208",
+      "section": "208",
+      "title": "208",
+      "content": "19.5. A közbeszerzési, valamint beszerzési eljárások során keletkezett iratanyagból (valamennyi irat) egy példánynak a KO-on elérhetőnek kell lennie. Az iratok kezelésével kapcsolatosan a külügyminiszter 2/2009. (I. 30.) számú utasítása (a Külügyminisztérium iratkezelési szabályzatáról) az irányadó."
+    },
+    {
+      "provision_ref": "s209",
+      "section": "209",
+      "title": "209",
+      "content": "19.6. A beszerzési eljárás előkészítésével, lefolytatásával és a keletkezett szerződés teljesítésével kapcsolatos valamennyi dokumentumot a minősítési idejük lejártáig, de legalább a szerződés teljesítését követő öt évig kell megőrizni. A dokumentumok tárolását az ügyiratkezelésre és az állami és szolgálati titok kezelésére vonatkozó szabályozók rendelkezéseinek megfelelően kell ellátni."
+    },
+    {
+      "provision_ref": "s210",
+      "section": "210",
+      "title": "210",
+      "content": "NYOLCADIK RÉSZ"
+    },
+    {
+      "provision_ref": "s211",
+      "section": "211",
+      "title": "211",
+      "content": "20. Záró rendelkezés"
+    },
+    {
+      "provision_ref": "s212",
+      "section": "212",
+      "title": "212",
+      "content": "Jelen utasítás a közzétételét követő ötödik napon lép hatályba és ezzel egyidejűleg hatályát veszti a külügyminiszter 25/2006. KüM utasítása a közbeszerzések lebonyolításáról."
+    },
+    {
+      "provision_ref": "s213",
+      "section": "213",
+      "title": "213",
+      "content": "Adatlap a beszerzési tervhez"
+    },
+    {
+      "provision_ref": "s214",
+      "section": "214",
+      "title": "214",
+      "content": "Benyújtandó a Közbeszerzési Osztályhoz"
+    },
+    {
+      "provision_ref": "s215",
+      "section": "215",
+      "title": "215",
+      "content": "Adatszolgáltatás a Külügyminisztérium 200*. évi közbeszerzési tervéhez"
+    },
+    {
+      "provision_ref": "s216",
+      "section": "216",
+      "title": "216",
+      "content": "Szervezeti egység megnevezése: ………………………………"
+    },
+    {
+      "provision_ref": "s217",
+      "section": "217",
+      "title": "217",
+      "content": "A közbeszerzés tárgya és mennyisége1 A közbeszerzés becsült értéke „Titokkörös” eljárás szükséges-e? (143/2004. (IV. 29.) Korm. rendelet2 alkalmazása iránti igény jelzése) Központosított közbeszerzés hatálya alá tartozik-e a beszerzés?3 Időbeli ütemezés az eljárás megindításának, illetve a közbeszerzés megvalósításának tervezett időpontja szerződés teljesítésének várható időpontja vagy a szerződés időtartama 1 Az ajánlatkérőnek a legalább az irányadó egyszerű közbeszerzési értékhatárt elérő, kivételnek nem minősülő közbeszerzéseit kell feltüntetnie, utalva a kizárólagos ügyvédi tevékenységnek minősülő szolgáltatásokra, valamint a központosított közbeszerzési körbe tartozó közbeszerzésekre is. 2 143/2004. (IV. 29.) Korm. rendelet az államtitkot vagy szolgálati titkot, illetőleg alapvető biztonsági, nemzetbiztonsági érdeket érintő vagy különleges biztonsági intézkedést igénylő beszerzések sajátos szabályairól. 3 168/2004. (V. 25.) Korm. rendelet a központosított közbeszerzési rendszerről, valamint a központi beszerző szervezet feladat- és hatásköréről."
+    },
+    {
+      "provision_ref": "s218",
+      "section": "218",
+      "title": "218",
+      "content": "Adatlap az éves statisztikai összegezéshez"
+    },
+    {
+      "provision_ref": "s219",
+      "section": "219",
+      "title": "219",
+      "content": "………………………………"
+    },
+    {
+      "provision_ref": "s220",
+      "section": "220",
+      "title": "220",
+      "content": "(szervezeti egység)"
+    },
+    {
+      "provision_ref": "s221",
+      "section": "221",
+      "title": "221",
+      "content": "Adatlap statisztikai összegzéshez …………… évben lezárt közbeszerzésekről"
+    },
+    {
+      "provision_ref": "s222",
+      "section": "222",
+      "title": "222",
+      "content": "Budapest, ………………………………"
+    },
+    {
+      "provision_ref": "s223",
+      "section": "223",
+      "title": "223",
+      "content": "_______________________________ szervezeti egység vezetője"
+    },
+    {
+      "provision_ref": "s224",
+      "section": "224",
+      "title": "224",
+      "content": "Budapest, ……………………………………"
+    },
+    {
+      "provision_ref": "s225",
+      "section": "225",
+      "title": "225",
+      "content": "Készítette:"
+    },
+    {
+      "provision_ref": "s226",
+      "section": "226",
+      "title": "226",
+      "content": "Kiadmányozta:"
+    },
+    {
+      "provision_ref": "s227",
+      "section": "227",
+      "title": "227",
+      "content": "Bírálati lap"
+    },
+    {
+      "provision_ref": "s228",
+      "section": "228",
+      "title": "228",
+      "content": "Központosított közbeszerzés hatálya alá tartozó tervezett beszerzések"
+    },
+    {
+      "provision_ref": "s229",
+      "section": "229",
+      "title": "229",
+      "content": "II. A központosított közbeszerzési rendszerről, valamint a központi beszerző szervezet feladat és hatásköréről szóló 168/2004. (V. 25.) Korm. rendelet hatálya alá tartozó beszerzések"
+    },
+    {
+      "provision_ref": "s230",
+      "section": "230",
+      "title": "230",
+      "content": "Budapest, ……………………………………"
+    },
+    {
+      "provision_ref": "s231",
+      "section": "231",
+      "title": "231",
+      "content": "Kiadmányozta:"
+    },
+    {
+      "provision_ref": "s232",
+      "section": "232",
+      "title": "232",
+      "content": "Összeférhetetlenségi és titoktartási nyilatkozat az Nbt. alapján lefolytatandó eljárásokhoz"
+    },
+    {
+      "provision_ref": "s233",
+      "section": "233",
+      "title": "233",
+      "content": "Az államtitkot vagy szolgálati titkot, illetőleg alapvető biztonsági, nemzetbiztonsági érdeket érintő vagy különleges biztonsági intézkedést igénylő beszerzések sajátos szabályairól szóló 143/2004. (IV. 29.) Korm. rendelet (továbbiakban: Nbr.) 13. § (7) bekezdése szerinti összeférhetetlenségi és titoktartási nyilatkozat a Külügyminisztérium által kezdeményezett „………………………………………………………………………………” tárgyú beszerzési eljárás lebonyolítása során ………………………………………… részéről"
+    },
+    {
+      "provision_ref": "s234",
+      "section": "234",
+      "title": "234",
+      "content": "A bizottság tagjaként büntetőjogi felelősségem tudatában kijelentem, hogy az Nbr. 13. § (1) bekezdés a)–d) pontjában előírtak alapján a beszerzési eljárás során, a beszerzés tárgyával kapcsolatos tevékenységet végző gazdálkodószervezettel nem állok munkaviszonyban, vagy munkavégzésre irányuló egyéb jogviszonyban, illetve nem vagyok cégvezető tisztségviselője vagy felügyelőbizottságának tagja, valamint az érdekelt cégben tulajdoni részesedéssel nem rendelkezem."
+    },
+    {
+      "provision_ref": "s235",
+      "section": "235",
+      "title": "235",
+      "content": "Mindezen körülmények a Ptk. 685.§ b) pontja szerinti hozzátartozóim vonatkozásában sem állnak fent."
+    },
+    {
+      "provision_ref": "s236",
+      "section": "236",
+      "title": "236",
+      "content": "Kijelentem, hogy az eljárás során a beszerzés tárgyával kapcsolatban tudomásomra jutott információkat, üzleti titkokat illetéktelen személynek, szervezeteknek sem az eljárás alatt, sem azt követően nem adom ki."
+    },
+    {
+      "provision_ref": "s237",
+      "section": "237",
+      "title": "237",
+      "content": "Vállalom, hogy amennyiben illetéktelen személytől, szervezettől információadásra, üzleti titok kiszolgáltatására szóló, a beszerzés tárgyával kapcsolatos megkeresést kapnék, úgy azt azonnal jelentem az eljárásban közreműködő bizottság elnökének."
+    },
+    {
+      "provision_ref": "s238",
+      "section": "238",
+      "title": "238",
+      "content": "Budapest, ……………………………"
+    }
+  ]
+}

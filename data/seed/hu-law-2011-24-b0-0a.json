@@ -1,0 +1,120 @@
+{
+  "id": "hu-law-2011-24-b0-0a",
+  "type": "statute",
+  "title": "24/2011. (IX. 9.) BM utasítás a Robotzsaru integrált ügyviteli, ügyfeldolgozó és elektronikus iratkezelő rendszer használatának szabályozásáról, az egységes elektronikus iratkezelés bevezetéséről és a bevezetést támogató projektszervezetek létrehozásáról",
+  "status": "in_force",
+  "in_force_date": "2011-09-10",
+  "url": "https://njt.jog.gov.hu/jogszabaly/2011-24-B0-0A",
+  "description": "a Robotzsaru integrált ügyviteli, ügyfeldolgozó és elektronikus iratkezelő rendszer használatának szabályozásáról, az egységes elektronikus iratkezelés bevezetéséről és a bevezetést támogató projektszervezetek létrehozásáról",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1. §",
+      "content": "1. § Az utasítás hatálya kiterjed a Belügyminisztérium Szervezeti és Működési Szabályzatáról szóló 12/2022. (VI. 28.) BM utasítás 1. melléklet 4. függelék A) pontjában foglalt táblázatban és B) pontjában foglalt táblázat 1–8. sorában felsorolt minisztériumi és önálló belügyi szervekre (a továbbiakban együtt: ágazati szervek)."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2. §",
+      "content": "2. § Az utasítás alkalmazásában: 1. dokumentumtár: olyan elektronikus adatbázis, amely a Robotzsaru rendszerben rögzített iratokat a kezelési szabályoknak megfelelően elektronikus formátumban tartalmazza; 2. elektronikus ügyviteli postafunkció: az ágazati szervek által működtetett Robotzsaru rendszerek közötti elektronikus ügyirat átadási eljárás; 3. felhasználó: az a személy, aki a Robotzsaru rendszerhez hozzáférési jogosultsággal rendelkezik; 4. Netzsaru rendszer: Olyan országos digitális, bűnügyi és rendészeti elektronikus adatbázis, amely 24 órás folyamatos üzemmódban áll rendelkezésre a felhasználó szerv részére, valamint strukturált adatbázis formájában magában foglalja a Robotzsaru NEO rendszer használata során rögzített ügyek, események releváns adatait az ügy selejtezéséig; felületén keresztül statisztikai célokra felhasználható adatok nyerhetők ki, valamint kereső-, kutató- és egyedi ügyviteli tevékenységek végezhetők a Robotzsaru rendszer jogosultsági rendjének keretei között. A Netzsaru rendszer informatikai támogatást biztosít az ágazati szervek ügyeletei számára a szolgálati jelentés elkészítéséhez; 5. Robotzsaru Neo rendszer: olyan informatikai ügyviteli, ügyfeldolgozó és elektronikus iratkezelő alkalmazás, amely 24 órás folyamatos üzemmódban áll rendelkezésre a felhasználó számára és strukturált adatbázis formában tárolja az ügyvitel és az ügyfeldolgozás során rögzített adatokat, magában foglalja az elektronikus iratkezelést az ügyirat érkeztetésétől az ügyirat selejtezéséig (a továbbiakban: RZS Neo rendszer); 6. Robotzsaru rendszer: olyan informatikai alkalmazás, amely a felhasználó felé három alkalmazási felületen – az RZS Neo rendszeren, a Netzsaru rendszeren és a Robotzsaru Szövegbányász rendszeren (a továbbiakban együtt: Robotzsaru rendszer) – biztosít elérést, valamint közvetlen elektronikus ügyviteli postafunkciót lát el az ágazati szervek között; 7. Robotzsaru Szövegbányász rendszer: olyan informatikai alkalmazás, amely önálló adatkezelést nem végez, és 24 órás folyamatos üzemmódban biztosítja a szabadszöveges keresést az arra jogosult szervek számára a Robotzsaru rendszer dokumentumtárában található valamennyi dokumentumban; 8. ügyviteli alegység: olyan – az ágazati szerv vezetője által kijelölt – szervezeti egység, amelynél az iratkezelés követelményeit az RZS Neo rendszerben tesztelik."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3. §",
+      "content": "3. § Azok az ágazati szervek, amelyek még nem használják, 2011. október 1. és 2011. november 30. között minimum egy ügyviteli alegységüknél egy hónap időtartamra, teszt üzemben bevezetik az RZS Neo rendszert. 2012. január 1-jétől minden ágazati szervnél az RZS Neo rendszerben történik az ügyvitel, ügyfeldolgozás és az elektronikus iratkezelés."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4. §",
+      "content": "4. § (1) Az ágazati szervek az RZS Neo rendszer bevezetéséhez az utasítás hatálybalépésétől számított 8 napon belül ügyviteli, informatikai szakembereik részvételével minimum 3 fős projektszervezetet hoznak létre, amelynek megbízása 2012. június 30-ig szól. (2) A projektszervezet vezetője a projektszervezet létrejöttétől számított 8 napon belül értesíti a Belügyminisztérium Rendvédelmi Informatikai és Elektronikus Rendszerek Működtetéséért és Fejlesztéséért Felelős Főosztály (a továbbiakban: BM RERIFO) vezetőjét a szervezet megalakulásáról, tagjainak elérhetőségéről. (3) A BM RERIFO 2011. szeptember 30-ig mentorképzést szervez a projekttagok részére. Az oktatás során átadásra kerül az RZS Neo rendszer ügyvitelre és iratkezelésre vonatkozó dokumentációja és a teszteléshez szükséges szoftver. (4) A projektszervezet vezetője az utasítás hatálybalépésétől számított 30 napon belül elektronikus formában – Excel fájlban – megküldi a BM RERIFO vezetőjének az ágazati szerv szervezeti felépítését, irattári tételszámait és a tárgykategóriák jegyzékét. (5) A projektszervezet szervezi a bevezetéssel járó feladatok végrehajtását és támogatási feladatot lát el a rendszer bevezetése, üzemszerű alkalmazása során 2012. június 30-ig. (6) A projektszervezet gondoskodik a felhasználók oktatásáról, továbbképzéséről és a képzések szervezéséről, továbbá 2012. január 1-ig elkészíti az RZS Neo rendszer használatának szabályzatát. A szabályzat rendelkezik különösen a kötelességekről, a felelősök köréről, az ellenőrzések módszertanáról és rendszeréről. A projektszervezet vezetője 2012. június 20-ig a BM RERIFO vezetőjének megküldi a kapcsolattartó személy elérhetőségeit, aki 2012. július 1-jétől az ágazati szerv és a BM RERIFO között az RZS Neo rendszer vonatkozásában koordinációs feladatokat lát el. (7) A projektszervezet kiemelt feladata, hogy az RZS Neo rendszerrel kapcsolatban felmerülő fejlesztési igényeket dokumentálja. A fejlesztés a projektszervezet által összeállított, írásban rögzített és az érintett ágazati szerv szakmai vezetője által jóváhagyott fejlesztési dokumentáció alapján történik. Az ágazati szerv a fejlesztési dokumentációt a fejlesztés koordinációja, felügyelete céljából a BM RERIFO vezetőjének, míg a fejlesztés ütemezése céljából az Országos Rendőr-főkapitányság (a továbbiakban: ORFK) Gazdasági Főigazgatóság vezetőjének küldi meg. Az ORFK Gazdasági Főigazgatóság a felterjesztett fejlesztési dokumentáció megvalósíthatóságáról, annak tervezett ütemezéséről 8 munkanapon belül írásban tájékoztatja az érintett ágazati szerv szakmai vezetőjét és a BM RERIFO vezetőjét."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5. §",
+      "content": "5. § A BM RERIFO az utasítás hatálybalépésétől számított 15 napon belül – az ágazati szervekkel egyeztetve – ütemtervet készít a tesztüzem megvalósítására."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6. §",
+      "content": "6. § Az ágazati szervek a tesztelés tapasztalatairól minden hét utolsó munkanapján tájékoztatják az utasítás 7. §-ában és a 8. §-ában meghatározott szerveket. A tesztelési időszak 2011. november 30-án zárul, annak eredményéről az ágazati szerv az utasítás 8. §-ában meghatározott szervezettel közösen írásos jelentést készít, amit a BM RERIFO vezetője részére 2011. december 5-ig megküld."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7. §",
+      "content": "7. § A BM RERIFO látja el az RZS Neo rendszer bevezetésének koordinációs feladatait és az üzemeltetés, valamint a fejlesztési igények megvalósításának felügyeletét."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8. §",
+      "content": "8. § A Robotzsaru rendszer fejlesztése az ORFK Gazdasági Főigazgatóság feladata."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9. §",
+      "content": "9. § (1) Azon ágazati szerveknél, ahol önálló informatikai üzemeltetés van a) a helyi RZS Neo rendszert az ágazati szerv működteti, b) a szükséges szoftverfrissítések elvégzéséről az ágazati szerv informatikai üzemeltetői az ORFK által rendelkezésre bocsátott telepítő készlet segítségével gondoskodnak, c) a felhasználói hibakezelést az ágazati szerv informatikai üzemeltetése végzi. (2) Az önálló informatikai üzemeltetéssel rendelkező ágazati szervek a szakmai támogatást az ORFK Gazdasági Főigazgatóságtól vehetik igénybe. (3) Azon ágazati szerveknél, ahol önálló informatikai üzemeltetés nincs, az ORFK Gazdasági Főigazgatóság látja el az RZS Neo rendszer üzemeltetését és felhasználói hibakezelését."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "10. §",
+      "content": "10. § Azok az ágazati szervek, amelyek a Robotzsaru rendszert vagy annak valamely alkalmazási felületét – Netzsaru rendszer, RZS Neo rendszer, Rendőrségi Szövegbányász rendszer – az utasítás hatálybalépésekor már használják, a hatálybalépéstől számított 60 napon belül elkészítik vagy aktualizálják a rendszer használatának szabályzatát, amennyiben az 2011. január 1-je előtti állapotú."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "11. §",
+      "content": "11. § Az Országos Katasztrófavédelmi Főigazgatóságon az EKOP-1.A.1-08/B-2009-0004 azonosító számú pályázat feltételeinek teljesülése mellett történik az RZS Neo rendszer bevezetése."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12. §",
+      "content": "12. § Az utasítás a közzétételét követő napon lép hatályba. 1 Az 1. § a 15/2022. (IX. 1.) BM utasítás 22. §-ával megállapított szöveg. 2 A 4. § (2) bekezdése a 15/2022. (IX. 1.) BM utasítás 23. § a) pontja szerint módosított szöveg. 3 A 4. § (3) bekezdése a 15/2022. (IX. 1.) BM utasítás 23. § b) pontja szerint módosított szöveg. 4 A 4. § (4) bekezdése a 15/2022. (IX. 1.) BM utasítás 23. § b) pontja szerint módosított szöveg. 5 A 4. § (6) bekezdése a 15/2022. (IX. 1.) BM utasítás 23. § c) pontja szerint módosított szöveg. 6 A 4. § (7) bekezdése a 15/2022. (IX. 1.) BM utasítás 23. § c) pontja szerint módosított szöveg. 7 Az 5. § a 15/2022. (IX. 1.) BM utasítás 23. § b) pontja szerint módosított szöveg. 8 A 6. § a 15/2022. (IX. 1.) BM utasítás 23. § b) pontja szerint módosított szöveg. 9 A 7. § a 15/2022. (IX. 1.) BM utasítás 23. § b) pontja szerint módosított szöveg."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "§ Az utasítás alkalmazásában",
+      "definition": "1. dokumentumtár: olyan elektronikus adatbázis, amely a Robotzsaru rendszerben rögzített iratokat a kezelési szabályoknak megfelelően elektronikus formátumban tartalmazza",
+      "source_provision": "s2"
+    },
+    {
+      "term": "elektronikus ügyviteli postafunkció",
+      "definition": "az ágazati szervek által működtetett Robotzsaru rendszerek közötti elektronikus ügyirat átadási eljárás",
+      "source_provision": "s2"
+    },
+    {
+      "term": "felhasználó",
+      "definition": "az a személy, aki a Robotzsaru rendszerhez hozzáférési jogosultsággal rendelkezik",
+      "source_provision": "s2"
+    },
+    {
+      "term": "Robotzsaru Neo rendszer",
+      "definition": "olyan informatikai ügyviteli, ügyfeldolgozó és elektronikus iratkezelő alkalmazás, amely 24 órás folyamatos üzemmódban áll rendelkezésre a felhasználó számára és strukturált adatbázis formában tárolja az ügyvitel és az ügyfeldolgozás során rögzített adatokat, magában foglalja az elektronikus iratkezelést az ügyirat érkeztetésétől az ügyirat selejtezéséig (a továbbiakban: RZS Neo rendszer)",
+      "source_provision": "s2"
+    },
+    {
+      "term": "Robotzsaru rendszer",
+      "definition": "olyan informatikai alkalmazás, amely a felhasználó felé három alkalmazási felületen – az RZS Neo rendszeren, a Netzsaru rendszeren és a Robotzsaru Szövegbányász rendszeren (a továbbiakban együtt: Robotzsaru rendszer) – biztosít elérést, valamint közvetlen elektronikus ügyviteli postafunkciót lát el az ágazati szervek között",
+      "source_provision": "s2"
+    },
+    {
+      "term": "Robotzsaru Szövegbányász rendszer",
+      "definition": "olyan informatikai alkalmazás, amely önálló adatkezelést nem végez, és 24 órás folyamatos üzemmódban biztosítja a szabadszöveges keresést az arra jogosult szervek számára a Robotzsaru rendszer dokumentumtárában található valamennyi dokumentumban",
+      "source_provision": "s2"
+    },
+    {
+      "term": "ügyviteli alegység",
+      "definition": "olyan – az ágazati szerv vezetője által kijelölt – szervezeti egység, amelynél az iratkezelés követelményeit az RZS Neo rendszerben tesztelik.",
+      "source_provision": "s2"
+    }
+  ]
+}
