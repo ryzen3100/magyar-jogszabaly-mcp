@@ -110,13 +110,17 @@ func BuildQueryVariants(sanitized string) []string {
 		if strings.Join(stemmed, " ") != strings.Join(terms, " ") {
 			variants = append(variants, strings.Join(stemmed, " AND "))
 		}
-		// OR fallback — any term matches (broadest)
-		variants = append(variants, strings.Join(terms, " OR "))
+		// OR fallback — any term matches (broadest). Prefixed like the
+		// prefix-AND tiers: with raw tokens this tier floods the candidate pool
+		// with provisions matching one generic token ("engedély"), while documents
+		// matching several rare query terms — the actual answers — rank below the
+		// per-tier cutoff and never reach the re-ranker.
+		variants = append(variants, strings.Join(prefixed(terms), " OR "))
 		// Stemmed OR — inflected query words ("kávézót") must still reach
 		// their base form in the broadest tier, or provisions using only the
 		// base token stay invisible to the last recall tier.
 		if strings.Join(stemmed, " ") != strings.Join(terms, " ") {
-			variants = append(variants, strings.Join(stemmed, " OR "))
+			variants = append(variants, strings.Join(prefixed(stemmed), " OR "))
 		}
 	} else {
 		// Single term
@@ -168,59 +172,75 @@ func filterStopWords(terms []string) []string {
 
 // QueryTerms returns the sanitized query's terms after stop-word filtering —
 // the same term list BuildQueryVariants builds its variants from. Used by the
-// search tool to score candidate rows by distinct term matches.
+// search tool to score candidate documents by distinct term matches.
 func QueryTerms(sanitized string) []string {
 	return filterStopWords(strings.Fields(sanitized))
 }
 
-// TermMatchCounts counts, per provision rowid, how many of the query terms
-// match it in the FTS index. Each term is counted via its stemmed form:
-// prefixed for long terms (base form reaches inflected corpus tokens,
+// DocTermHits returns, per query term, the set of document IDs that have at
+// least one provision matching the term. Each term is matched via its stemmed
+// form: prefixed for long terms (base form reaches inflected corpus tokens,
 // "kávézó*" hits "kávézót"), exact for short ones (prefixing "nap" would
 // inflate generic provisions via "napján"/"napellenző").
-// Candidates the term-count query cannot see (deleted rows, LIKE-tier hits)
-// simply score 0.
-func TermMatchCounts(ctx context.Context, db *sql.DB, terms []string, rowIDs []int64) (map[int64]int, error) {
-	counts := make(map[int64]int, len(rowIDs))
-	if len(terms) == 0 || len(rowIDs) == 0 {
-		return counts, nil
-	}
-	placeholders := strings.TrimSuffix(strings.Repeat("?,", len(rowIDs)), ",")
+//
+// The search tool uses this for document-level ranking: how many DISTINCT
+// query terms a document covers anywhere in its text, weighted by term
+// rarity, is a far better relevance signal on the 72k-document corpus than
+// per-provision match counts.
+func DocTermHits(ctx context.Context, db *sql.DB, terms []string) (map[string]map[string]bool, error) {
+	hits := make(map[string]map[string]bool, len(terms))
 	for _, term := range terms {
-		term = stemTerm(strings.TrimSuffix(term, "*"))
-		if term == "" {
+		stem := stemTerm(strings.TrimSuffix(term, "*"))
+		if stem == "" {
 			continue
 		}
-		pattern := term
-		if utf8.RuneCountInString(term) >= 5 {
-			pattern = term + "*"
+		pattern := stem
+		if utf8.RuneCountInString(stem) >= 5 {
+			pattern = stem + "*"
 		}
-		params := make([]any, 0, len(rowIDs)+1)
-		params = append(params, pattern)
-		for _, id := range rowIDs {
-			params = append(params, id)
-		}
+		// keyed by the ORIGINAL term — callers look hits up with the same
+		// term list they passed in
 		rows, err := db.QueryContext(ctx,
-			"SELECT DISTINCT rowid FROM provisions_fts WHERE provisions_fts MATCH ? AND rowid IN ("+placeholders+")",
-			params...)
+			"SELECT DISTINCT lp.document_id FROM provisions_fts"+
+				" JOIN legal_provisions lp ON lp.id = provisions_fts.rowid"+
+				" WHERE provisions_fts MATCH ?", pattern)
 		if err != nil {
-			return nil, fmt.Errorf("term match count: %w", err)
+			return nil, fmt.Errorf("doc term hits: %w", err)
 		}
 		for rows.Next() {
-			var id int64
-			if err := rows.Scan(&id); err != nil {
+			var docID string
+			if err := rows.Scan(&docID); err != nil {
 				rows.Close()
-				return nil, fmt.Errorf("scan term match: %w", err)
+				return nil, fmt.Errorf("scan doc term hit: %w", err)
 			}
-			counts[id]++
+			if hits[term] == nil {
+				hits[term] = make(map[string]bool)
+			}
+			hits[term][docID] = true
 		}
 		err = rows.Err()
 		rows.Close()
 		if err != nil {
-			return nil, fmt.Errorf("iterate term match: %w", err)
+			return nil, fmt.Errorf("iterate doc term hits: %w", err)
 		}
 	}
-	return counts, nil
+	return hits, nil
+}
+
+// prefixed appends the FTS5 prefix wildcard to every term of at least 3
+// runes (same threshold as the single-term variant). Short tokens — numbers,
+// single letters — stay exact: "3*" would prefix-match millions of provisions
+// and drown the tier.
+func prefixed(terms []string) []string {
+	out := make([]string, len(terms))
+	for i, t := range terms {
+		if utf8.RuneCountInString(t) >= 3 {
+			out[i] = t + "*"
+		} else {
+			out[i] = t
+		}
+	}
+	return out
 }
 
 // Light Hungarian query stemming: strips ONE common suffix from a term so
@@ -242,8 +262,9 @@ var hungarianSuffixes = []string{
 	"t",
 }
 
-// minStemRuneCount keeps the strip from mangling short words ("hát" → "há").
-const minStemRuneCount = 4
+// minStemRuneCount keeps the strip from mangling short words ("hát" → "há",
+// "fizet" → "fize", which no longer matches anything).
+const minStemRuneCount = 5
 
 func stemTerm(term string) string {
 	lower := strings.ToLower(term)
@@ -277,3 +298,7 @@ func BuildLikePattern(query string) string {
 	}
 	return "%" + strings.Join(terms, "%") + "%"
 }
+
+// StemTerm exposes the light Hungarian stemmer to other packages (title-match
+// scoring uses the same stem form as the query variants).
+func StemTerm(term string) string { return stemTerm(term) }

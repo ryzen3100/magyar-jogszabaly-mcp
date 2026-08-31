@@ -180,7 +180,13 @@ offline shortcut.
 
 ## Known follow-ups that pair well with the new corpus
 
-- **FTS ranking on the full corpus (blocking for end-user quality, code fix)**:
+- **FTS ranking on the full corpus (blocking for end-user quality, code fix)** —
+  FIXED 2026-08-31 on `fix/fts-ranking-weights`: query-layer weights (doc-type
+  boost for törvény/rendelet over utasítás/határozat, in-force boost, title-match
+  boost) plus prefixed OR tiers and document-level idf re-ranking. Acceptance:
+  kávézó/szabadság/bankjegy questions and keyword forms pass; the "partnerem nem
+  fizet" question still misses Ptk. (base text lacks the "elvégzett munkáért"
+  phrasing — pairs with the consolidation gap below):
   post-merge MCP testing (2026-08-31, full 72k DB) shows natural-language
   questions ("Milyen engedély kell egy kávézóhoz?", "hány nap szabadság…",
   "partnerem nem fizet…") rank noise (KE/OGY határozatok, utasítások,

@@ -80,7 +80,7 @@ func TestBuildQueryVariants(t *testing.T) {
 			"személyes AND adat",
 			"személyes AND adat*",
 			"személyes* AND adat*", // deliberate TS divergence: prefix-all tier
-			"személyes OR adat",
+			"személyes* OR adat*",  // deliberate TS divergence: prefixed OR tier
 		}},
 		{
 			// Deliberate TS divergence: prefix-all tier inserted before OR, and
@@ -212,8 +212,8 @@ func TestBuildQueryVariantsNaturalLanguageQuestion(t *testing.T) {
 		"nap AND szabadság AND jár AND 42 AND éves AND munkavállalónak*",
 		"nap* AND szabadság* AND jár* AND 42* AND éves* AND munkavállalónak*",
 		"nap AND szabadság AND jár AND 42 AND éves AND munkavállaló",
-		"nap OR szabadság OR jár OR 42 OR éves OR munkavállalónak",
-		"nap OR szabadság OR jár OR 42 OR éves OR munkavállaló",
+		"nap* OR szabadság* OR jár* OR 42 OR éves* OR munkavállalónak*",
+		"nap* OR szabadság* OR jár* OR 42 OR éves* OR munkavállaló*",
 	}
 	if !reflect.DeepEqual(got, want) {
 		t.Errorf("BuildQueryVariants(question) = %#v, want %#v", got, want)
@@ -226,7 +226,7 @@ func TestBuildQueryVariantsNaturalLanguageQuestion(t *testing.T) {
 		"hogy AND kell AND egy",
 		"hogy AND kell AND egy*",
 		"hogy* AND kell* AND egy*",
-		"hogy OR kell OR egy",
+		"hogy* OR kell* OR egy*",
 	}
 	if !reflect.DeepEqual(got, want) {
 		t.Errorf("BuildQueryVariants(all stopwords) = %#v, want %#v", got, want)
