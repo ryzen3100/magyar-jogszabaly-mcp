@@ -183,8 +183,9 @@ func QueryTerms(sanitized string) []string {
 
 // HasORVariant reports whether an FTS query variant is an OR-disjunction
 // ("a OR b OR c"), the broadest recall tier. Search treats these specially:
-// the huge doclists of generic OR terms make ORDER BY bm25 dominate search
-// latency, so the OR tier feeds the candidate pool unordered.
+// their huge doclists make the bm25 sort dominate search latency, so the
+// tier query pre-filters to in-force non-noise documents and their snippets
+// skip the re-MATCH entirely.
 func HasORVariant(v string) bool {
 	return strings.Contains(v, " OR ")
 }

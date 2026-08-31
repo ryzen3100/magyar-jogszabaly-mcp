@@ -185,7 +185,9 @@ func runSearch(ctx context.Context, db *sql.DB, args searchArgs) (any, ResponseM
 	// ponytail: rank rowids first without snippet(), then snippet() only the
 	// final deduped rows — snippet over every match dominates high-fanout
 	// queries. Phase B reuses the SAME MATCH expression (plain-rowid lookup
-	// loses highlight context); never re-MATCH unbounded.
+	// loses highlight context) except for the broad OR tiers, whose MATCH
+	// re-pays the full prefix-index setup and gets plain excerpts instead;
+	// never re-MATCH unbounded.
 	//
 	// Tier merging: the first tier with any hit is NOT returned immediately —
 	// on the 14.7k-document corpus the AND tiers match generic table-like
