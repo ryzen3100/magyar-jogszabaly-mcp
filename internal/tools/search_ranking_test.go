@@ -3,10 +3,18 @@ package tools
 import (
 	"context"
 	"testing"
+	"time"
 
 	"github.com/ryzen3100/magyar-jogszabaly-mcp/v2/internal/store"
 	"github.com/ryzen3100/magyar-jogszabaly-mcp/v2/internal/store/storetest"
 )
+
+// searchLatencyBudget is the per-query wall-clock bound for the acceptance
+// cases below. The PR #16 ranking fix initially shipped with 19-25 s searches
+// (full-doclist bm25 sorts and unrestricted term scans) — this guard keeps
+// that regression from landing silently again. Generous margin for slow CI
+// hardware: healthy runs are ~0.1-2 s.
+const searchLatencyBudget = 5 * time.Second
 
 // Acceptance ranking checks against the real full-corpus database (guarded
 // like TestSearchLegislationRealDb). These pin the FTS ranking regression fix
@@ -49,9 +57,13 @@ func TestSearchRankingAcceptanceRealDb(t *testing.T) {
 	}
 	for _, tc := range cases {
 		t.Run(tc.name, func(t *testing.T) {
+			start := time.Now()
 			res, _, err := SearchLegislation(ctx, db, map[string]any{"query": tc.query, "limit": 50.0})
 			if err != nil {
 				t.Fatalf("search: %v", err)
+			}
+			if elapsed := time.Since(start); elapsed > searchLatencyBudget {
+				t.Errorf("search took %s, budget %s — latency regression (see PR #16 review)", elapsed, searchLatencyBudget)
 			}
 			results, ok := res.([]SearchLegislationResult)
 			if !ok {

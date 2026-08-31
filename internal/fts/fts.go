@@ -114,13 +114,17 @@ func BuildQueryVariants(sanitized string) []string {
 		// prefix-AND tiers: with raw tokens this tier floods the candidate pool
 		// with provisions matching one generic token ("engedély"), while documents
 		// matching several rare query terms — the actual answers — rank below the
-		// per-tier cutoff and never reach the re-ranker.
-		variants = append(variants, strings.Join(prefixed(terms), " OR "))
+		// per-tier cutoff and never reach the re-ranker. Short tokens (≤3 runes —
+		// numbers, "Ha", "és", "nap") are dropped from the OR tiers: their doclists
+		// cover hundreds of thousands of provisions, which makes the tier's bm25
+		// ranking scan the whole index for near-zero ranking signal. The term-
+		// coverage re-ranker still scores every dropped term via DocTermHits.
+		variants = append(variants, strings.Join(prefixed(orTerms(terms)), " OR "))
 		// Stemmed OR — inflected query words ("kávézót") must still reach
 		// their base form in the broadest tier, or provisions using only the
 		// base token stay invisible to the last recall tier.
 		if strings.Join(stemmed, " ") != strings.Join(terms, " ") {
-			variants = append(variants, strings.Join(prefixed(stemmed), " OR "))
+			variants = append(variants, strings.Join(prefixed(orTerms(stemmed)), " OR "))
 		}
 	} else {
 		// Single term
@@ -177,19 +181,42 @@ func QueryTerms(sanitized string) []string {
 	return filterStopWords(strings.Fields(sanitized))
 }
 
+// HasORVariant reports whether an FTS query variant is an OR-disjunction
+// ("a OR b OR c"), the broadest recall tier. Search treats these specially:
+// the huge doclists of generic OR terms make ORDER BY bm25 dominate search
+// latency, so the OR tier feeds the candidate pool unordered.
+func HasORVariant(v string) bool {
+	return strings.Contains(v, " OR ")
+}
+
 // DocTermHits returns, per query term, the set of document IDs that have at
-// least one provision matching the term. Each term is matched via its stemmed
-// form: prefixed for long terms (base form reaches inflected corpus tokens,
-// "kávézó*" hits "kávézót"), exact for short ones (prefixing "nap" would
-// inflate generic provisions via "napján"/"napellenző").
+// least one provision matching the term, restricted to docIDs (the candidate
+// pool). Each term is matched via its stemmed form: prefixed for long terms
+// (base form reaches inflected corpus tokens, "kávézó*" hits "kávézót"),
+// exact for short ones (prefixing "nap" would inflate generic provisions via
+// "napján"/"napellenző"). Terms with an empty pool entry simply have no hits.
 //
 // The search tool uses this for document-level ranking: how many DISTINCT
 // query terms a document covers anywhere in its text, weighted by term
 // rarity, is a far better relevance signal on the 72k-document corpus than
-// per-provision match counts.
-func DocTermHits(ctx context.Context, db *sql.DB, terms []string) (map[string]map[string]bool, error) {
+// per-provision match counts. Restricting the scan to the pool (≤ a few
+// hundred doc IDs) keeps it O(pool) per term instead of O(all matching
+// documents) — a generic term like "engedély*" matches hundreds of thousands
+// of rows corpus-wide.
+func DocTermHits(ctx context.Context, db *sql.DB, terms []string, docIDs []string) (map[string]map[string]bool, error) {
 	hits := make(map[string]map[string]bool, len(terms))
+	if len(docIDs) == 0 {
+		return hits, nil
+	}
+	placeholders := strings.TrimSuffix(strings.Repeat("?,", len(docIDs)), ",")
 	for _, term := range terms {
+		// ≤3-rune terms ("Ha", "és", "20") match a near-constant fraction of
+		// the corpus, so every pool document covers them: scoring them adds a
+		// near-constant offset to every document while their MATCH costs a
+		// full doclist scan. Skip them — see orTerms for the sibling rule.
+		if utf8.RuneCountInString(strings.TrimSuffix(term, "*")) < 4 {
+			continue
+		}
 		stem := stemTerm(strings.TrimSuffix(term, "*"))
 		if stem == "" {
 			continue
@@ -198,12 +225,18 @@ func DocTermHits(ctx context.Context, db *sql.DB, terms []string) (map[string]ma
 		if utf8.RuneCountInString(stem) >= 5 {
 			pattern = stem + "*"
 		}
+		params := make([]any, 0, len(docIDs)+1)
+		params = append(params, pattern)
+		for _, id := range docIDs {
+			params = append(params, id)
+		}
 		// keyed by the ORIGINAL term — callers look hits up with the same
 		// term list they passed in
 		rows, err := db.QueryContext(ctx,
 			"SELECT DISTINCT lp.document_id FROM provisions_fts"+
 				" JOIN legal_provisions lp ON lp.id = provisions_fts.rowid"+
-				" WHERE provisions_fts MATCH ?", pattern)
+				" WHERE provisions_fts MATCH ? AND lp.document_id IN ("+placeholders+")",
+			params...)
 		if err != nil {
 			return nil, fmt.Errorf("doc term hits: %w", err)
 		}
@@ -225,6 +258,71 @@ func DocTermHits(ctx context.Context, db *sql.DB, terms []string) (map[string]ma
 		}
 	}
 	return hits, nil
+}
+
+// TermDocFreq returns, per query term, the number of documents in docIDs
+// (the candidate pool) that match the term (same stemmed/prefixed pattern as
+// DocTermHits). Pool-restricted df approximates corpus-wide idf: rare query
+// terms stay rare inside the candidate pool, and ranking only ever compares
+// pool documents against each other, so idf ORDERING between terms — what
+// the re-rank consumes — is preserved. Each term costs one bounded
+// MATCH ... IN (pool) aggregate instead of the unbounded full-index scan the
+// pre-fix code paid per term.
+func TermDocFreq(ctx context.Context, db *sql.DB, terms []string, docIDs []string) (map[string]int, error) {
+	df := make(map[string]int, len(terms))
+	if len(terms) == 0 || len(docIDs) == 0 {
+		return df, nil
+	}
+	placeholders := strings.TrimSuffix(strings.Repeat("?,", len(docIDs)), ",")
+	for _, term := range terms {
+		// Mirror DocTermHits: short terms are skipped for scoring (they would
+		// add a near-constant idf offset to every document), so their df is
+		// not needed either.
+		if utf8.RuneCountInString(strings.TrimSuffix(term, "*")) < 4 {
+			continue
+		}
+		stem := stemTerm(strings.TrimSuffix(term, "*"))
+		if stem == "" {
+			continue
+		}
+		pattern := stem
+		if utf8.RuneCountInString(stem) >= 5 {
+			pattern = stem + "*"
+		}
+		params := make([]any, 0, len(docIDs)+1)
+		params = append(params, pattern)
+		for _, id := range docIDs {
+			params = append(params, id)
+		}
+		var count int
+		err := db.QueryRowContext(ctx,
+			"SELECT COUNT(DISTINCT lp.document_id) FROM provisions_fts"+
+				" JOIN legal_provisions lp ON lp.id = provisions_fts.rowid"+
+				" WHERE provisions_fts MATCH ? AND lp.document_id IN ("+placeholders+")",
+			params...).Scan(&count)
+		if err != nil {
+			return nil, fmt.Errorf("term doc freq: %w", err)
+		}
+		df[term] = count
+	}
+	return df, nil
+}
+
+// orTerms drops ≤3-rune tokens from an OR-tier term list: their doclists are
+// so broad that ranking them costs seconds while contributing no relevance
+// signal (the re-ranker's term-coverage pass still sees them). If every term
+// is short, they are all kept — a short-only query has nothing else to match.
+func orTerms(terms []string) []string {
+	kept := make([]string, 0, len(terms))
+	for _, t := range terms {
+		if utf8.RuneCountInString(t) >= 4 {
+			kept = append(kept, t)
+		}
+	}
+	if len(kept) == 0 {
+		return terms
+	}
+	return kept
 }
 
 // prefixed appends the FTS5 prefix wildcard to every term of at least 3

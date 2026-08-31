@@ -110,6 +110,18 @@ const (
       JOIN legal_documents ld ON ld.id = lp.document_id
       WHERE lp.content LIKE ? ESCAPE '\'
     `
+
+	// OR-tier filter. Broad OR tiers must not score bm25 over their whole
+	// doclist, but the doclists of ultra-generic tokens ("Ha*", "és") also
+	// bury the pool cut under provisions of noise documents. Pre-filtering
+	// each OR tier to in-force, non-noise documents (the re-rank demotes
+	// noise titles anyway; the AND tiers keep their candidate space) shrinks
+	// the scored set ~5x. Combined with dropping ≤3-rune terms from OR
+	// variants (fts.orTerms), this brings per-tier cost from ~5-10 s to
+	// well under a second on the 72k corpus.
+	searchPoolSQLFilter = ` AND ld.status = 'in_force'
+        AND NOT (lower(ld.title) LIKE '%utasítás%' OR lower(ld.title) LIKE '%határozat%'
+              OR lower(ld.title) LIKE '%közlemény%' OR lower(ld.title) LIKE '%helyesbítés%')`
 )
 
 // SearchLegislation is the exported handler for search_legislation; it is
@@ -185,7 +197,20 @@ func runSearch(ctx context.Context, db *sql.DB, args searchArgs) (any, ResponseM
 	// the best possible precision.
 	candidates := map[string]tierCandidate{} // key: documentTitle::provisionRef
 
+	orFull := false // previous OR tier filled the pool
 	for i, ftsQuery := range variants {
+		// OR tiers pre-filter to in-force, non-noise documents (see
+		// searchPoolSQLFilter); with resolvedDocID or a status filter the
+		// match set is already tiny, so the extra filter is skipped.
+		isOR := fts.HasORVariant(ftsQuery) && resolvedDocID == "" &&
+			(args.Status == nil || *args.Status == "")
+		// The stemmed-OR tier differs from the prefixed-OR tier only by stem
+		// forms. When the prefixed tier already filled the pool, the stemmed
+		// tier's unique contributions (a handful of documents, measured) don't
+		// justify a second full scan — skip it.
+		if isOR && orFull {
+			continue
+		}
 		query := searchRankSQL
 		params := []any{ftsQuery}
 
@@ -199,6 +224,9 @@ func runSearch(ctx context.Context, db *sql.DB, args searchArgs) (any, ResponseM
 			params = append(params, *args.Status)
 		}
 
+		if isOR {
+			query += searchPoolSQLFilter
+		}
 		query += " ORDER BY bm25(provisions_fts) - " + boostSQL + " LIMIT ?"
 		params = append(params, poolLimit)
 
@@ -214,6 +242,8 @@ func runSearch(ctx context.Context, db *sql.DB, args searchArgs) (any, ResponseM
 		if i == 0 {
 			return finishSearch(ctx, db, ftsQuery, dedupeRanked(ranked, limit), limit, "")
 		}
+
+		orFull = isOR && len(ranked) >= poolLimit
 
 		for _, row := range ranked {
 			key := row.documentTitle + "::" + row.provisionRef
@@ -312,19 +342,33 @@ func finishSearch(ctx context.Context, db *sql.DB, ftsQuery string, deduped []ra
 // pool best-first. Document score = sum of idf over the distinct query terms
 // the document matches anywhere in its text (rare terms count more), plus the
 // doc-type / in-force / title-match boosts. Ties break on per-provision bm25.
+// Both the term-coverage scan and the document frequencies (fts.TermDocFreq,
+// fts.DocTermHits) are restricted to the pool's document IDs: pool-restricted
+// df preserves the idf ORDERING between terms — the only thing the re-rank
+// consumes — while keeping every query bounded to the pool.
 func rerankPool(ctx context.Context, db *sql.DB, pool []tierCandidate, terms []string) error {
 	if len(pool) == 0 {
 		return nil
 	}
-	hits, err := fts.DocTermHits(ctx, db, terms)
+	docIDs := make([]string, 0, len(pool))
+	for _, c := range pool {
+		docIDs = append(docIDs, c.row.documentID)
+	}
+	slices.Sort(docIDs)
+	docIDs = slices.Compact(docIDs)
+	hits, err := fts.DocTermHits(ctx, db, terms, docIDs)
+	if err != nil {
+		return err
+	}
+	df, err := fts.TermDocFreq(ctx, db, terms, docIDs)
 	if err != nil {
 		return err
 	}
 	totalDocs := store.CachedCount(ctx, db, "SELECT COUNT(*) FROM legal_documents")
 	idf := make(map[string]float64, len(terms))
 	for _, term := range terms {
-		if df := len(hits[term]); df > 0 {
-			idf[term] = math.Log(1 + float64(totalDocs)/float64(df))
+		if d := df[term]; d > 0 {
+			idf[term] = math.Log(1 + float64(totalDocs)/float64(d))
 		}
 	}
 	// Score first, then sort — the comparator must read the score that belongs
@@ -543,7 +587,15 @@ func queryLikeRows(ctx context.Context, db *sql.DB, query string, params []any) 
 // fetchSnippets runs phase B: snippet() over the same MATCH expression,
 // restricted to the deduped rowids. Missing rows simply stay empty via the
 // caller's map lookup.
+//
+// The OR tiers are excluded from the re-MATCH: their broad MATCH expressions
+// re-pay the full prefix-index setup (~1 s per broad term, measured) just to
+// highlight rows we already have. Those tiers get the provision's opening
+// text instead — no highlight markers, but no information lost.
 func fetchSnippets(ctx context.Context, db *sql.DB, ftsQuery string, deduped []rankedRow) (map[int64]string, error) {
+	if fts.HasORVariant(ftsQuery) {
+		return fetchPlainExcerpts(ctx, db, deduped)
+	}
 	placeholders := strings.TrimSuffix(strings.Repeat("?,", len(deduped)), ",")
 	params := make([]any, 0, len(deduped)+1)
 	params = append(params, ftsQuery)
@@ -562,14 +614,45 @@ func fetchSnippets(ctx context.Context, db *sql.DB, ftsQuery string, deduped []r
 		var rowid int64
 		var snippet string
 		if err := rows.Scan(&rowid, &snippet); err != nil {
-			return nil, fmt.Errorf("scan snippet: %w", err)
+			return nil, fmt.Errorf("fetch snippets: %w", err)
 		}
 		snippets[rowid] = snippet
 	}
 	if err := rows.Err(); err != nil {
-		return nil, fmt.Errorf("scan snippets: %w", err)
+		return nil, fmt.Errorf("fetch snippets: %w", err)
 	}
 	return snippets, nil
+}
+
+// fetchPlainExcerpts returns each provision's opening text, replacing the
+// highlighted snippet for OR-tier results (see fetchSnippets).
+func fetchPlainExcerpts(ctx context.Context, db *sql.DB, deduped []rankedRow) (map[int64]string, error) {
+	placeholders := strings.TrimSuffix(strings.Repeat("?,", len(deduped)), ",")
+	params := make([]any, 0, len(deduped))
+	for _, row := range deduped {
+		params = append(params, row.provisionID)
+	}
+	rows, err := db.QueryContext(ctx,
+		"SELECT id, substr(content, 1, 200) FROM legal_provisions WHERE id IN ("+placeholders+")",
+		params...)
+	if err != nil {
+		return nil, fmt.Errorf("fetch excerpts: %w", err)
+	}
+	defer rows.Close()
+
+	excerpts := map[int64]string{}
+	for rows.Next() {
+		var rowid int64
+		var excerpt string
+		if err := rows.Scan(&rowid, &excerpt); err != nil {
+			return nil, fmt.Errorf("fetch excerpts: %w", err)
+		}
+		excerpts[rowid] = excerpt
+	}
+	if err := rows.Err(); err != nil {
+		return nil, fmt.Errorf("fetch excerpts: %w", err)
+	}
+	return excerpts, nil
 }
 
 // dedupeRanked deduplicates by document_title + provision_ref, keeping the

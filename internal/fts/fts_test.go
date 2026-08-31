@@ -212,8 +212,10 @@ func TestBuildQueryVariantsNaturalLanguageQuestion(t *testing.T) {
 		"nap AND szabadság AND jár AND 42 AND éves AND munkavállalónak*",
 		"nap* AND szabadság* AND jár* AND 42* AND éves* AND munkavállalónak*",
 		"nap AND szabadság AND jár AND 42 AND éves AND munkavállaló",
-		"nap* OR szabadság* OR jár* OR 42 OR éves* OR munkavállalónak*",
-		"nap* OR szabadság* OR jár* OR 42 OR éves* OR munkavállaló*",
+		// OR tiers drop ≤3-rune terms (nap, jár, 42): their doclists are so
+		// broad they dominate query latency without contributing signal.
+		"szabadság* OR éves* OR munkavállalónak*",
+		"szabadság* OR éves* OR munkavállaló*",
 	}
 	if !reflect.DeepEqual(got, want) {
 		t.Errorf("BuildQueryVariants(question) = %#v, want %#v", got, want)
@@ -226,7 +228,7 @@ func TestBuildQueryVariantsNaturalLanguageQuestion(t *testing.T) {
 		"hogy AND kell AND egy",
 		"hogy AND kell AND egy*",
 		"hogy* AND kell* AND egy*",
-		"hogy* OR kell* OR egy*",
+		"hogy* OR kell*", // egy (3 runes) dropped from the OR tier; longer terms stay
 	}
 	if !reflect.DeepEqual(got, want) {
 		t.Errorf("BuildQueryVariants(all stopwords) = %#v, want %#v", got, want)
