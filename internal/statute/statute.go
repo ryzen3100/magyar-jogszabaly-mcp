@@ -177,12 +177,12 @@ func SectionRefCandidates(input string) []string {
 	if colon := strings.ReplaceAll(tidy, ":", ""); colon != tidy {
 		candidates = append(candidates, colon)
 	}
-		// Part-prefixed acts (Btk) store sections without the "6:" part
-		// prefix, so also try the prefix-dropped canonical form.
-		if m := partPrefixRe.FindStringSubmatch(tidy); m != nil {
-			dropped := m[1]
-			candidates = append(candidates, dropped, "s"+compactSectionRe.Replace(strings.ToLower(dropped)))
-		}
+	// Part-prefixed acts (Btk) store sections without the "6:" part
+	// prefix, so also try the prefix-dropped canonical form.
+	if m := partPrefixRe.FindStringSubmatch(tidy); m != nil {
+		dropped := m[1]
+		candidates = append(candidates, dropped, "s"+compactSectionRe.Replace(strings.ToLower(dropped)))
+	}
 	return dedupe(candidates)
 }
 
