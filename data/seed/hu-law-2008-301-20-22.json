@@ -2102,6 +2102,21 @@
       "source_provision": "s1"
     },
     {
+      "term": "szavatoló tőke átadás",
+      "definition": "a) az alárendelt kölcsöntőke nyújtása, b) veszteségrendezésre történő pótbefizetés, c) jegyzett tőke emelése, d) jogszabály alapján a tőke- vagy az eredménytartalék terhére történő végleges pénz- vagy eszközátadás, e) alapvető vagy járulékos kölcsöntőke nyújtása.",
+      "source_provision": "s3"
+    },
+    {
+      "term": "az olyan kötelezettség",
+      "definition": "lényeges kötelezettségnek, amelynek összege meghaladja a) lakossággal szembeni kitettség esetén aa) a késedelembe esés időpontjában érvényes legkisebb összegű havi minimálbért, vagy ab) az ügyfél szerződés szerinti összes kötelezettségének 2%-át vagy az egy havi törlesztő részletet, és b) az a) pontban meghatározott kitettségi osztályba tartozó kitettségen kívül bármely más kitettségi osztályba tartozó kitettség esetén ba) a kettőszázötvenezer forintot, vagy bb) az ügyfél szerződés szerinti össz",
+      "source_provision": "s88"
+    },
+    {
+      "term": "központi kormány vagy központi bank által kibocsátott, hitelviszonyt megtestesítő értékpapír",
+      "definition": "az olyan a) regionális kormány vagy helyi önkormányzat által kibocsátott hitelviszonyt megtestesítő értékpapír is, amelyet a sztenderd módszer alkalmazásában – az 5. § (3) bekezdésének megfelelően – a központi kormánnyal szembeni kitettségként lehet kezelni, vagy b) multilaterális fejlesztési bank vagy nemzetközi szervezet által kibocsátott hitelviszonyt megtestesítő értékpapír, amelyhez a sztenderd módszer alkalmazása esetén – a 7. § (5) bekezdésének és a 8. §-nak megfelelően – 0%-os kockázati",
+      "source_provision": "s156"
+    },
+    {
       "term": "táblázat szerint kell figyelembe venni",
       "definition": "13. táblázat",
       "source_provision": "s170"
@@ -2110,6 +2125,16 @@
       "term": "§ szerint számított hátralevő évek száma és a T értéke, közül a kisebb, T",
       "definition": "a kitettség lejáratáig – 179. § szerint számított – hátralevő évek száma, de legfeljebb 5 év, GA: a 174–177. § alkalmazásában a hitelkockázati fedezet értéke, t*: 0,25.",
       "source_provision": "s180"
+    },
+    {
+      "term": "különböző kategóriá",
+      "definition": "a) a repóügylet, fordított repóügylet, értékpapír- és árukölcsönzési ügylet, b) az értékpapír ügylethez kapcsolódó hitel, és c) a 185. § szerinti származtatott ügylet. (3) A tőkekövetelmény számítása során a következő szerződéses nettósítási típusok kockázatmérséklő hatása ismerhető el: a) a befektetési vállalkozás és az ügyfele közötti kétoldalú adósságmegújítási szerződés (nováció), amelynek alapján a kölcsönösen fennálló követelések és kötelezettségek egymással szemben automatikusan oly módo",
+      "source_provision": "s209"
+    },
+    {
+      "term": "ellenőrzés",
+      "definition": "ha az eszközátruházó befektetési vállalkozás: a) az átruházott kitettségeket nyereség realizálása érdekében a különleges célú gazdasági egységtől visszavásárolhatja, vagy b) köteles visszavenni az átruházott kockázatot.",
+      "source_provision": "s215"
     }
   ]
 }

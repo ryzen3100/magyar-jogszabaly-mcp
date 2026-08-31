@@ -262,8 +262,18 @@
   ],
   "definitions": [
     {
+      "term": "a vad mozgását befolyásoló, tartós telepítésű kerítés",
+      "definition": "a) a mezőgazdasági növénykultúra védelmében, valamint állattenyésztési vagy vadgazdálkodási célból telepített villanypásztor, továbbá b) a rét, legelő hasznosítású gyepterületen, a legelő háziállatok adott területen való tartása céljából – az Európai Mezőgazdasági Vidékfejlesztési Alapból nem termelő mezőgazdasági beruházásokhoz nyújtandó támogatások részletes feltételeiről szóló 33/2008. (III. 27.) FVM rendelet 13. § (2) bekezdésében meghatározott módon – létesített természetes alapanyagú kerít",
+      "source_provision": "s6"
+    },
+    {
       "term": "§ A Rendelet a következő 44/A. §-sal egészül ki",
       "definition": "„44/A. § (1) A Vtv. 57. § (4) bekezdés alkalmazásában vadgazdálkodási-vadászati gyakorlatnak minősül a legalább összesen 10 éven keresztül, legalább középfokú végzettséggel való hivatásos vadászi feladatok ellátása. (2) A szakmai irányítói feladatokat a vadászatra jogosult alkalmazásában álló hivatásos vadász is elláthatja. Egy szakmai irányító legfeljebb kettő vadászatra jogosultnál láthat el ilyen jellegű feladatot.”",
+      "source_provision": "s13"
+    },
+    {
+      "term": "vadgazdálkodási-vadászati gyakorlat",
+      "definition": "a legalább összesen 10 éven keresztül, legalább középfokú végzettséggel való hivatásos vadászi feladatok ellátása. (2) A szakmai irányítói feladatokat a vadászatra jogosult alkalmazásában álló hivatásos vadász is elláthatja. Egy szakmai irányító legfeljebb kettő vadászatra jogosultnál láthat el ilyen jellegű feladatot.”",
       "source_provision": "s13"
     },
     {
@@ -272,9 +282,24 @@
       "source_provision": "s24"
     },
     {
+      "term": "a vadászat rendje megsértésé",
+      "definition": "a Vtv. 37/A. § (1) bekezdés 11. pontjában meghatározott tiltott vadászati eszköz vadászaton történő birtoklása is.”",
+      "source_provision": "s24"
+    },
+    {
+      "term": "a trófeás vad szakszerűtlen elejtésé",
+      "definition": "az olyan legfeljebb középkorú, szabályos trófeájú vad elejtése, amely az elejtés helye szerinti tájegységben élő vadállományra a tájegységi vadgazdálkodási tervben meghatározott, mért trófeajellemzők szerint, korosztályának kiemelkedő minőségű csoportjába tartozik. (3) Az elejtés szakszerűtlenségének minősítése hibapontokkal történik. Az elejtés szakszerűtlensége lehet a) kis mértékű: 1 hibapont, b) közepes mértékű: 2 hibapont, c) súlyos mértékű: 3 hibapont. (4) A Vtv. 74/A. § (2) bekezdése szer",
+      "source_provision": "s26"
+    },
+    {
       "term": "– július 31. b) tavaszi gabona",
       "definition": "április 1. – augusztus 31. c) kukorica: április 15. – november 15. d) burgonya: április 15. – október 15. e) napraforgó, szója: április 15. – szeptember 30. f) borsó: március 1. – augusztus 30. g) szőlő, gyümölcsös: egész évben”",
       "source_provision": "s28"
+    },
+    {
+      "term": "nagy értékű növénykultúrá",
+      "definition": "a csemegekukorica, az étkezési napraforgó, a szántóföldi zöldségnövények, az ökológiai gazdálkodásban termesztett növények, valamint a fajta-előállítási, fajtafenntartási, vetőmag-előállítási és kísérleti célú növényállomány. (2) A Vtv. 79. § (1) bekezdés e) pontjának alkalmazásában fokozottan vadkárveszélyes területnek minősül az a mezőgazdasági művelés alatt álló tábla, amelynek szegélye 40%-ot meghaladóan a) erdő, nádas művelési ágba vagy műveléssel felhagyott, a vad elrejtőzését lehetővé tev",
+      "source_provision": "s29"
     }
   ]
 }

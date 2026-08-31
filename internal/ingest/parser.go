@@ -67,9 +67,19 @@ var (
 	// equivalent.
 	definitionPattern       = regexp.MustCompile(`\b\d+\.\s*([^:;]{2,120}):\s*([^;]{10,500})`)
 	definitionFollowPattern = regexp.MustCompile(`^;\s*\d+\.`)
-	mainTitlePattern        = regexp.MustCompile(`(?i)<h1[^>]*class="[^"]*jogszabalyMainTitle[^"]*"[^>]*>([\s\S]*?)</h1>`)
-	subtitlePattern         = regexp.MustCompile(`(?i)<h2[^>]*class="([^"]*jogszabalySubtitle[^"]*)"[^>]*>([\s\S]*?)</h2>`)
-	mainTitleClassPattern   = regexp.MustCompile(`(?i)\bmainTitle\b`)
+	// qualifiesPattern catches the prose definition shape the numbered
+	// pattern misses, common in the new njt layout: "E rendelet
+	// alkalmazásában jövedelemnek, illetve vagyonnak minősül a szociális
+	// igazgatásról szóló 1993. évi III. törvény 4. § szerinti jövedelem."
+	// Keeping "alkalmazásában" inside the match gates the pattern so
+	// ordinary uses of minősül/érti elsewhere stay unclassified.
+	qualifiesPattern = regexp.MustCompile(`(?i)alkalmazásában\s+([^;]{2,120}?)\s+(?:minősül|érti)[\s,:]([^;]{10,500})`)
+	mainTitlePattern = regexp.MustCompile(`(?i)<h1[^>]*class="[^"]*jogszabalyMainTitle[^"]*"[^>]*>([\s\S]*?)</h1>`)
+	// verbInTermRe matches minősül/érti as a verb (term boundary or a
+	// conjugation suffix), not as the participle "minősülő/értő".
+	verbInTermRe          = regexp.MustCompile(`(?:minősül|érti)(?:[^ő]|$)`)
+	subtitlePattern       = regexp.MustCompile(`(?i)<h2[^>]*class="([^"]*jogszabalySubtitle[^"]*)"[^>]*>([\s\S]*?)</h2>`)
+	mainTitleClassPattern = regexp.MustCompile(`(?i)\bmainTitle\b`)
 )
 
 // DecodeHTMLEntities decodes the named entities njt.hu HTML uses, then
@@ -265,16 +275,23 @@ func shouldIncludeSection(actID, section string) bool {
 }
 
 // extractDefinitions appends definitions found in content to defs. Port of
-// extractDefinitions with the lookahead restructured away: the TS pattern
-// requires group 2 (greedy, no ';') to be followed by `;<digits>.` or the
-// end of content. Greedy group 2 always ends just before the next ';' (or at
-// the 500-cap / end of content), and shortening it would place a non-';'
-// byte at the lookahead position, which can never satisfy the guard — so
-// there is at most one candidate per start position and validating the bytes
-// after the greedy match is exactly the TS lookahead.
 func extractDefinitions(content, sourceProvision string, defs *[]seed.DefinitionSeed) {
 	if !alkalmazasPattern.MatchString(content) {
 		return
+	}
+
+	add := func(term, definition string) {
+		term, definition = strings.TrimSpace(term), strings.TrimSpace(definition)
+		// TS .length counts UTF-16 units; all Hungarian text is BMP, where
+		// rune counts agree.
+		if utf8.RuneCountInString(term) < 2 || utf8.RuneCountInString(definition) < 10 {
+			return
+		}
+		*defs = append(*defs, seed.DefinitionSeed{
+			Term:            term,
+			Definition:      definition,
+			SourceProvision: sourceProvision,
+		})
 	}
 
 	for _, loc := range definitionPattern.FindAllStringSubmatchIndex(content, -1) {
@@ -282,21 +299,46 @@ func extractDefinitions(content, sourceProvision string, defs *[]seed.Definition
 		if tail != "" && !definitionFollowPattern.MatchString(tail) {
 			continue
 		}
-
-		term := strings.TrimSpace(content[loc[2]:loc[3]])
-		definition := strings.TrimSpace(content[loc[4]:loc[5]])
-		// TS .length counts UTF-16 units; all Hungarian text is BMP, where
-		// rune counts agree.
-		if utf8.RuneCountInString(term) < 2 || utf8.RuneCountInString(definition) < 10 {
+		term := content[loc[2]:loc[3]]
+		// A numbered term containing a minősül/érti VERB is the prose shape
+		// below reaching the numbered pattern through a section marker
+		// ("83. §-a … minősül: …"); leave it to the prose loop. The
+		// participle form ("bioüzemanyagnak minősülő termék") is a real
+		// term and stays.
+		if verbInTermRe.MatchString(term) {
 			continue
 		}
-
-		*defs = append(*defs, seed.DefinitionSeed{
-			Term:            term,
-			Definition:      definition,
-			SourceProvision: sourceProvision,
-		})
+		add(term, content[loc[4]:loc[5]])
 	}
+
+	for _, loc := range qualifiesPattern.FindAllStringSubmatchIndex(content, -1) {
+		term := qualifyTerm(content[loc[2]:loc[3]])
+		// The negative form ("nem minősül X-nek") states its term after the
+		// verb, where this pattern cannot capture it: skip instead of
+		// recording "nem" as a term.
+		if term == "nem" || strings.HasSuffix(term, " nem") {
+			continue
+		}
+		add(term, content[loc[4]:loc[5]])
+	}
+}
+
+// qualifyTerm strips the inflectional suffix Hungarian places before
+// "minősül/érti" ("jövedelemnek, illetve vagyonnak minősül" → "jövedelem,
+// illetve vagyon") from each conjunct; words genuinely ending in one of
+// these strings are rare next to real definitions in this shape.
+func qualifyTerm(term string) string {
+	parts := strings.Split(term, ", ")
+	for i, part := range parts {
+		for _, suffix := range []string{"ként", "nak", "nek"} {
+			if stripped, ok := strings.CutSuffix(part, suffix); ok && utf8.RuneCountInString(stripped) > 1 {
+				part = stripped
+				break
+			}
+		}
+		parts[i] = part
+	}
+	return strings.Join(parts, ", ")
 }
 
 func extractOfficialTitle(html string) string {

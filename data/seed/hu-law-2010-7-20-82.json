@@ -304,9 +304,19 @@
   ],
   "definitions": [
     {
+      "term": "a vadászterület szemközti határvonalainak távolsága akkor",
+      "definition": "háromezer méter alattinak, ha térképen – domborzattól függetlenül – mérve a szemközti vonalak távolsága több mint ezer méter hosszan nem éri el a háromezer méter távolságot. (4) A Vtv. 8. § (1) bekezdésének alkalmazásában a vadászterület határa önálló helyrajzi számú ingatlan határvonala, önálló helyrajzi számú nyomvonalas létesítmény, erdőrészlet vagy erdőtag határ, továbbá közigazgatási határvonal lehet.”",
+      "source_provision": "s3"
+    },
+    {
       "term": "§ Az R. 16. § (1) bekezdése a következő c) ponttal egészül ki",
       "definition": "[(1) Zárványterület a Vtv. 19. §-ának (2) bekezdésének i) pontja alkalmazásában az a földterület,] „c) amelyre vonatkozóan a vadászterület határának megállapítására irányuló érvényes földtulajdonosi gyűlést nem tartottak, önállóan vadászterületként nem jelölhető ki.”",
       "source_provision": "s12"
+    },
+    {
+      "term": "hivatásos vadász",
+      "definition": "a) egy vagy több vadászterület vadgazdálkodását irányító személy",
+      "source_provision": "s21"
     }
   ]
 }
