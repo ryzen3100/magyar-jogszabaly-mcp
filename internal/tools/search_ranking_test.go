@@ -1,7 +1,6 @@
 package tools
 
 import (
-	"context"
 	"testing"
 	"time"
 
@@ -32,7 +31,7 @@ func TestSearchRankingAcceptanceRealDb(t *testing.T) {
 		t.Fatalf("open real db: %v", err)
 	}
 	defer db.Close()
-	ctx := context.Background()
+	ctx := t.Context()
 
 	cases := []struct {
 		name    string
