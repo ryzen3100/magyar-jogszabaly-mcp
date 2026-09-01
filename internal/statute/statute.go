@@ -129,7 +129,14 @@ func resolveDecreeRef(ctx context.Context, db *sql.DB, input string) (string, er
 	if m == nil {
 		return "", nil
 	}
-	pattern := "%" + likeWildcards.Replace(m[1]) + ".%" + likeWildcards.Replace(m[2]) + "%"
+	// Anchored at the title start: njt titles always open with the
+	// identifier, and amendment decrees CITE other identifiers mid-title
+	// ("457/2017. … a … 210/2009. (IX. 29.) Korm. rendelet
+	// módosításáról") — an unanchored pattern would flag those as
+	// ambiguous second hits. A typed date must match the title verbatim
+	// (LOWER() folds the case; LIKE wildcards in the typed date stay
+	// escaped literal).
+	pattern := likeWildcards.Replace(m[1]) + "." + likeWildcards.Replace(m[2]) + "%" + likeWildcards.Replace(m[3]) + "%"
 	rows, err := db.QueryContext(ctx,
 		`SELECT id FROM legal_documents WHERE LOWER(title) LIKE LOWER(?) ESCAPE '\' LIMIT 2`, pattern)
 	if err != nil {
@@ -169,8 +176,11 @@ var annexRefCompactRe = regexp.MustCompile(`[^0-9A-Za-z]`)
 // date ("210/2009. (IX. 29.) Korm. rendelet a kereskedelmi …"), so the plain
 // substring pass misses; the year/number identifier and the rendelet type are
 // matched as two ordered substrings — both must appear verbatim, keeping the
-// exact-form contract (no fuzzy widening).
-var decreeRefRe = regexp.MustCompile(`(?i)^(\d{1,4}/\d{4})\.?(?:\s*\([^)]{1,60}\))?\s+(.{1,60}rendelet)\.?$`)
+// exact-form contract (no fuzzy widening). A typed promulgation date is
+// captured too: several decrees share a year/number with different dates is
+// impossible, but the typed date can be WRONG ("73/2016. (XII. 2.)" vs the
+// existing "73/2016. (III. 31.)"), and a mismatched date must not resolve.
+var decreeRefRe = regexp.MustCompile(`(?i)^(\d{1,4}/\d{4})\.?(\s*\([^)]{1,60}\))?\s+(.{1,60}rendelet)\.?$`)
 
 // Matches a trailing subsection marker: "3. § (2)" → "3. §".
 var trailingSubsectionRe = regexp.MustCompile(`^(.+?)\s*\(\d+\)$`)

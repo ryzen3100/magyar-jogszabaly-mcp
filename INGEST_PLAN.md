@@ -240,8 +240,8 @@ offline shortcut.
     dissolves: kifőzde never appears in Jöt. (the word belongs to
     institutional-kitchen decrees), and the household-distilling rules are
     present in the current Jöt. under "főzde" wording (4 hits, also in the
-    seed). **Real defect found instead (follow-up, not fixed here):** annex
-    blocks (`mellekletCimke`/`mellekletTitle`/`mellekletPont`, jhIds
+    seed). **Real defect found instead (follow-up): annex blocks
+    (`mellekletCimke`/`mellekletTitle`/`mellekletPont`, jhIds
     `ME<n>@…`) are not recognized by `accumulateSections`, so every
     document's mellékletek are dumped into the LAST §-provision (210/2009:
     all 6 annexes incl. the vendéglátóhely üzlettípus list — Étterem, Büfé,
@@ -249,6 +249,28 @@ offline shortcut.
     searchable there, so FTS/answers mostly work, but provision-level
     granularity is lost. Fix direction: key annex blocks by their `ME…`
     jhId and emit them as separate provisions; then offline re-parse.
+    FIXED 2026-09-01 (PR: parser-and-citation-gaps): annex blocks now form
+    their own provisions — section "N. melléklet" (letter forms "3/a.
+    melléklet"), provision_ref `s<n>mellklet`, printed header text kept as
+    content. Two corpus realities shaped the fix: (1) the cimke header div
+    is prefixed with an `<!--i-->` comment that defeats class extraction,
+    so headers are also detected by their plain `ME<n>` jhId; (2) ~5.4k
+    határozatok/utasítások have NO § markers — their only structure is
+    annexes — so the `len(sections)==0` legacy fallback now counts only
+    non-annex sections (annex-consumed blocks are skipped there), keeping
+    the operative pont/tablazat text that the old parse rescued. 18,924
+    seeds re-parsed offline (no network), 0 content losses (per-seed word
+    multiset old ⊆ new), `TestStrippedHTMLReproducesSeeds` 68,116 seeds
+    byte-exact. DB: provisions 1,174,254 → 1,113,168 (the old parse
+    shredded quoted "N. §" fragments inside annexes into ~47k bogus
+    single-quote provisions; e.g. hu-law-2010-10-b0-2y 2,706 → 21 real §s
+    + 4 annex provisions), definitions 24,762 → 25,141, 47,341 annex
+    provisions across 18,924 docs. Corpus word total 110,045,104 →
+    112,596,695 (+2.55M recovered annex headers/titles); the only DB-level
+    word deficits are 66 duplicate-copies of 11 tokens, each verified
+    against the source HTML as old block-join fusion artifacts (e.g.
+    "körülírt ,,végrehajtásért" was fused to "körülírt,,végrehajtásért")
+    whose source text survives in the new seeds.
   - **Sub-item 3 — `73/2016. (XII. 2.) Korm. rendelet`: NOT A DISCOVERY
     MISS — the decree does not exist; citation in the original entry was a
     misidentification.** Verified 2026-09-01: njt.hu's own search with
@@ -269,6 +291,39 @@ offline shortcut.
     the annex-classification defect above). "2016. évi XIV. törvény" was
     likewise a wrong expectation — njt assigns that number to the Mongolia
     visa-treaty promulgation act, so the tools resolved it correctly.
+- Decree + section citations don't resolve: "210/2009. Korm. rendelet
+  1. §" failed in validate_citation/get_provision while document-only
+  decree citations worked — ParseCitation only knew act-style titles
+  ("2012. évi I. törvény N. §"), and the title-substring pass cannot
+  match anyway since njt decree titles insert the promulgation date
+  ("210/2009. (IX. 29.) Korm. rendelet a kereskedelmi …").
+  FIXED 2026-09-01 (PR: parser-and-citation-gaps): ParseCitation gained a
+  decree grammar (doc part anchored on the year/number identifier and
+  containing "rendelet"; section grammar as hungarianFullRe; greedy doc
+  capture covers the full-title form) and ResolveDocumentID a decree pass
+  that matches the identifier and the rendelet type as two ordered
+  literal substrings — an ambiguous year/number pair (two ministry
+  rendeletek share 1/2017) answers not-found instead of guessing, and
+  "73/2016. (XII. 2.) Korm. rendelet" stays correctly not-found (the
+  decree does not exist). SectionRefCandidates also learns annex refs
+  ("4. melléklet" → the stored section label + the `s4mellklet`
+  provision_ref form). Note: validate_citation still validates
+  "…rendelet 4. melléklet" as document-only (no provision check) — the
+  provision-level annex lookup runs through get_provision.
+- EU-reference insert failures: 2 inserts failed on every build (silent
+  bare-catch in the TS era; counted-and-warned without row detail since
+  the Go port). FIXED 2026-09-01 (PR: parser-and-citation-gaps): root
+  cause is the citation "COMMISSION REGULATION 302/2005/EURATOM" —
+  ExtractEUReferences uppercased the community to "EURATOM", violating
+  the eu_documents CHECK (community IN ('EU','EC','EEC','Euratom')); the
+  OR-IGNORE insert silently dropped the row and the reference insert then
+  failed on the foreign key (hu-law-2007-7-20-1u:s39,
+  hu-law-2022-4-20-8l:s39 → regulation:2005/302). The community is now
+  normalized to "Euratom" at extraction, failing rows are logged with
+  their ids, and two tests pin zero failures: a Build-level regression
+  test on the exact citation and the gated corpus-wide
+  TestEUReferenceInsertsZeroFailures (HU_EU_VERIFY=1; baseline 2, now 0;
+  EU references 339 → 354).
 - OR-tier ranking precision: per-document matched-term-count boosting
   (natural questions recall the right content but rank generic-token-heavy
   docs first — see the `ponytail:` ceiling note in `internal/fts`).

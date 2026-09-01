@@ -56,7 +56,9 @@ CREATE TABLE legal_provisions (
 ('doc-percent', '100% Guarantee Act', '100P', '100 Percent Act EN', 'in_force'),
 ('hu-law-2009-210-20-22', '210/2009. (IX. 29.) Korm. rendelet a kereskedelmi tevékenységek végzésének feltételeiről', 'Kertv. r.', NULL, 'in_force'),
 ('hu-law-2017-1-20-22', '1/2017. (II. 6.) FM rendelet a növényvédő szerek engedélyezéséről', NULL, NULL, 'in_force'),
-('hu-law-2017-1-20-23', '1/2017. (II. 7.) EMMI rendelet egyes egészségügyi kérdésekről', NULL, NULL, 'in_force');`
+('hu-law-2017-1-20-23', '1/2017. (II. 7.) EMMI rendelet egyes egészségügyi kérdésekről', NULL, NULL, 'in_force'),
+('hu-law-2017-457-20-22', '457/2017. (XI. 8.) Korm. rendelet a kereskedelmi tevékenységek végzésének feltételeiről szóló 210/2009. (IX. 29.) Korm. rendelet módosításáról', NULL, NULL, 'in_force'),
+('hu-law-2016-73-20-22', '73/2016. (III. 31.) Korm. rendelet az egyházi jogi személyek vagyongazdálkodásának szabályairól', NULL, NULL, 'in_force');`
 	if _, err := db.Exec(docs); err != nil {
 		t.Fatalf("seed docs: %v", err)
 	}
@@ -157,7 +159,14 @@ func TestResolveDocumentID(t *testing.T) {
 		{"ministry decree shorthand with date", "1/2017. (II. 7.) EMMI rendelet", "hu-law-2017-1-20-23"},
 		{"shared year/number without type is ambiguous", "1/2017. rendelet", ""},
 		{"decree year/number not in corpus", "73/2016. (XII. 2.) Korm. rendelet", ""},
+		// The year/number pair exists, but the typed promulgation date does
+		// not match the title — the citation is factually wrong and must not
+		// silently resolve to the same-number decree with another date.
+		{"typed date mismatch does not resolve", "73/2016. (XII. 2.) Korm. rendelet", ""},
 		{"decree shorthand mid-sentence does not resolve", "lásd a 210/2009. Korm. rendeletet", ""},
+		// A decree that only CITES 210/2009 mid-title must not count as a
+		// second hit: the identifier pass anchors at the title start.
+		{"amendment decree citing the identifier is not a competing hit", "210/2009. Korm. rendelet", "hu-law-2009-210-20-22"},
 		{"no match", "non-existent statute", ""},
 	}
 	for _, tt := range tests {
