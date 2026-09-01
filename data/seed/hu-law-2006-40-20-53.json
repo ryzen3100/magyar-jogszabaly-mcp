@@ -77,7 +77,55 @@
       "provision_ref": "s11",
       "section": "11",
       "title": "11. §",
-      "content": "11. § I. Az ingatlan adatai 1. Vagyonszerzés jellege 2. Okirat (nyilatkozat) szerinti érték forintban 3. Forgalmi érték forintban 4. Ingatlan elhelyezkedése (település, közterület, házszám, helyrajzi szám) 5. Ingatlan-nyilvántartás szerinti megnevezés 6. Megközelíthetőség (földútkapcsolat esetében: aszfalt- vagy szilárdburkolatú úttól való távolság méterben) 7. Övezet jellege 8. Fekvés 9. Településen belüli elhelyezkedés 10. Külterületi ingatlan esetében település belterületétől való távolság 11. Közművesítettség 12. Közmű-helyettesítést, közmű-kiegészítést szolgáló létesítmények 13. Egyéb építmények, műtárgyak 14. Extrák 15. Lakottság mértéke százalékos arányban II. Földterület, telek adatai 1. Helyrajzi szám 2. Alapterület négyzetméterben 3. Okirat (nyilatkozat) szerinti érték forintban 4. Forgalmi érték forintban 5. Beépítettség 6. Felszín 7. Állapot 8. Talajminőség 9. Bekerítettség 10. Kerítés anyaga 11. Külterület esetén művelés típusa (amennyiben művelés alól kivett, akkor az) minőségi osztály (kataszteri tiszta jövedelem) III. Felépítmény adatai 1. Helyrajzi szám 2. Okirat (nyilatkozat) szerinti érték forintban 3. Forgalmi érték forintban 4. Építési éve 5. Bővítés, felújítás éve 6. 3 éven belüli felújítás típusa (teljes/részleges) 7. Műszaki állapot (külső/belső) 8. Épületszerkezet állapota 9. Hasznos alapterület négyzetméterben emeleti szintű megoszlásban 10. Redukált alapterület négyzetméterben 11. Belmagasság 12. Terasz (erkély, balkon) területe 13. Lakóépülethez, lakáshoz tartozó, attól elválaszthatatlan ingatlanrészek (pl. padlástér, pince, kazánház, mosókonyha, egyéb tároló, szauna, medence, uszoda, edzőterem) alapterülete négyzetméterben 14. Szobák száma 15. Félszobák száma 16. Fürdőszobák száma 17. Külön bejáratú WC-k száma 18. Konyhák száma 19. Közlekedők száma 20. Lépcsőházak száma 21. Épület típusa 22. Kihasználtsága 23. Épület kialakítása 24. Épület homlokzata 25. Alapozás 26. Lábazat borítása 27. Homlokzati hőszigetelés 28. Talajnedvesség elleni szigetelés 29. Energetikai besorolás 30. Komfortfokozat 31. Fűtés típusa 32. Többlakásos és lakótelepi épület esetében az épület lakásainak száma 33. Falazat 34. Födém anyaga 35. Tetőszerkezet anyaga 36. Tetőszerkezet típusa 37. Tetőszerkezet borítása 38. Ereszcsatorna 39. Többlakásos épületben elhelyezkedő lakás megközelíthetősége, elhelyezkedése, lakószobáinak tájolása 40. Külső nyílászárók anyaga, állapota, szigetelése 41. Bejárati ajtó állapota 42. Belső ajtók állapota 43. Ablakok árnyékolása 44. Padlóburkolat 45. Kényelmi felszereltség 46. Irodaház kategóriai besorolása 47. Irodaház minősítése"
+      "content": "11. §"
+    },
+    {
+      "provision_ref": "s1mellklet",
+      "section": "1. melléklet",
+      "title": "1. melléklet",
+      "content": "1. melléklet a 40/2006. (XII. 25.) PM rendelethez I. Az ingatlan adatai 1. Vagyonszerzés jellege 2. Okirat (nyilatkozat) szerinti érték forintban 3. Forgalmi érték forintban 4. Ingatlan elhelyezkedése (település, közterület, házszám, helyrajzi szám) 5. Ingatlan-nyilvántartás szerinti megnevezés 6. Megközelíthetőség (földútkapcsolat esetében: aszfalt- vagy szilárdburkolatú úttól való távolság méterben) 7. Övezet jellege 8. Fekvés 9. Településen belüli elhelyezkedés 10. Külterületi ingatlan esetében település belterületétől való távolság 11. Közművesítettség 12. Közmű-helyettesítést, közmű-kiegészítést szolgáló létesítmények 13. Egyéb építmények, műtárgyak 14. Extrák 15. Lakottság mértéke százalékos arányban II. Földterület, telek adatai 1. Helyrajzi szám 2. Alapterület négyzetméterben 3. Okirat (nyilatkozat) szerinti érték forintban 4. Forgalmi érték forintban 5. Beépítettség 6. Felszín 7. Állapot 8. Talajminőség 9. Bekerítettség 10. Kerítés anyaga 11. Külterület esetén művelés típusa (amennyiben művelés alól kivett, akkor az) minőségi osztály (kataszteri tiszta jövedelem) III. Felépítmény adatai 1. Helyrajzi szám 2. Okirat (nyilatkozat) szerinti érték forintban 3. Forgalmi érték forintban 4. Építési éve 5. Bővítés, felújítás éve 6. 3 éven belüli felújítás típusa (teljes/részleges) 7. Műszaki állapot (külső/belső) 8. Épületszerkezet állapota 9. Hasznos alapterület négyzetméterben emeleti szintű megoszlásban 10. Redukált alapterület négyzetméterben 11. Belmagasság 12. Terasz (erkély, balkon) területe 13. Lakóépülethez, lakáshoz tartozó, attól elválaszthatatlan ingatlanrészek (pl. padlástér, pince, kazánház, mosókonyha, egyéb tároló, szauna, medence, uszoda, edzőterem) alapterülete négyzetméterben 14. Szobák száma 15. Félszobák száma 16. Fürdőszobák száma 17. Külön bejáratú WC-k száma 18. Konyhák száma 19. Közlekedők száma 20. Lépcsőházak száma 21. Épület típusa 22. Kihasználtsága 23. Épület kialakítása 24. Épület homlokzata 25. Alapozás 26. Lábazat borítása 27. Homlokzati hőszigetelés 28. Talajnedvesség elleni szigetelés 29. Energetikai besorolás 30. Komfortfokozat 31. Fűtés típusa 32. Többlakásos és lakótelepi épület esetében az épület lakásainak száma 33. Falazat 34. Födém anyaga 35. Tetőszerkezet anyaga 36. Tetőszerkezet típusa 37. Tetőszerkezet borítása 38. Ereszcsatorna 39. Többlakásos épületben elhelyezkedő lakás megközelíthetősége, elhelyezkedése, lakószobáinak tájolása 40. Külső nyílászárók anyaga, állapota, szigetelése 41. Bejárati ajtó állapota 42. Belső ajtók állapota 43. Ablakok árnyékolása 44. Padlóburkolat 45. Kényelmi felszereltség 46. Irodaház kategóriai besorolása 47. Irodaház minősítése"
+    },
+    {
+      "provision_ref": "s2mellklet",
+      "section": "2. melléklet",
+      "title": "2. melléklet",
+      "content": "2. számú melléklet a 40/2006. (XII. 25.) PM rendelethez"
+    },
+    {
+      "provision_ref": "s3mellklet",
+      "section": "3. melléklet",
+      "title": "3. melléklet",
+      "content": "3. számú melléklet a 40/2006. (XII. 25.) PM rendelethez"
+    },
+    {
+      "provision_ref": "s4mellklet",
+      "section": "4. melléklet",
+      "title": "4. melléklet",
+      "content": "4. számú melléklet a 40/2006. (XII. 25.) PM rendelethez"
+    },
+    {
+      "provision_ref": "s5mellklet",
+      "section": "5. melléklet",
+      "title": "5. melléklet",
+      "content": "5. számú melléklet a 40/2006. (XII. 25.) PM rendelethez"
+    },
+    {
+      "provision_ref": "s6mellklet",
+      "section": "6. melléklet",
+      "title": "6. melléklet",
+      "content": "6. számú melléklet a 40/2006. (XII. 25.) PM rendelethez"
+    },
+    {
+      "provision_ref": "s7mellklet",
+      "section": "7. melléklet",
+      "title": "7. melléklet",
+      "content": "7. számú melléklet a 40/2006. (XII. 25.) PM rendelethez"
+    },
+    {
+      "provision_ref": "s8mellklet",
+      "section": "8. melléklet",
+      "title": "8. melléklet",
+      "content": "8. számú melléklet a 40/2006. (XII. 25.) PM rendelethez 1 A 2. § a 31/2007. (XII. 21.) PM rendelet 1. §-ával megállapított szöveg. E módosító rendelet 3. § (5) bekezdése alapján a 2007. évre vonatkozó éves zárási összesítőt a 40/2006. (XII. 25.) PM rendelet 2007. december 31-én hatályos rendelkezései szerint kell elkészíteni. 2 A 2. § (1) bekezdése a 46/2012. (XII. 27.) NGM rendelet 22. § (1) bekezdés 1. pontja, a 60/2016. (XII. 29.) NGM rendelet 5. § a) pontja szerint módosított szöveg. 3 A 2. § (2) bekezdés a) pontja a 31/2009. (XII. 18.) PM rendelet 11. § a) pontja szerint módosított szöveg. 4 A 2. § (2) bekezdés b) pontja a 8/2022. (XII. 6.) PM rendelet 1. §-ával megállapított szöveg. 5 A 2. § (2) bekezdés c) pontja a 46/2012. (XII. 27.) NGM rendelet 21. § 1. pontja szerint módosított szöveg. 6 A 2. § (2) bekezdés e) pontja a 8/2022. (XII. 6.) PM rendelet 4. §-a szerint módosított szöveg. 7 A 2. § (3) bekezdés záró szövegrésze az 52/2017. (XII. 29.) NGM rendelet 18. § (1) bekezdése szerint módosított szöveg. 8 A 2. § (3) bekezdés a) pontja a 48/2012. (XII. 28.) NGM rendelet 11. § a) pontja szerint módosított szöveg. 9 A 2. § (4) bekezdése az 52/2017. (XII. 29.) NGM rendelet 18. § (1) bekezdése szerint módosított szöveg. 10 A 3. § a 8/2022. (XII. 6.) PM rendelet 2. §-ával megállapított szöveg. 11 A 4. §-t a 60/2016. (XII. 29.) NGM rendelet 5. § b) pontja hatályon kívül helyezte. 12 Az 5. §-t az 52/2017. (XII. 29.) NGM rendelet 18. § (2) bekezdése hatályon kívül helyezte. 13 A 6. §-t a 46/2012. (XII. 27.) NGM rendelet 22. § (2) bekezdés 1. pontja hatályon kívül helyezte. 14 A 7–8. §-t a 60/2016. (XII. 29.) NGM rendelet 5. § c) pontja hatályon kívül helyezte. 15 A 7–8. §-t a 60/2016. (XII. 29.) NGM rendelet 5. § c) pontja hatályon kívül helyezte. 16 A 8/A. §-t az 52/2011. (XII. 29.) NGM rendelet 5. §-a iktatta be, hatályon kívül helyezte a 60/2016. (XII. 29.) NGM rendelet 5. § c) pontja. 17 A 9. § (2)–(3) bekezdését a 60/2016. (XII. 29.) NGM rendelet 5. § d) pontja hatályon kívül helyezte. 18 A 9. § (2)–(3) bekezdését a 60/2016. (XII. 29.) NGM rendelet 5. § d) pontja hatályon kívül helyezte. 19 A 10–11. §-t a 31/2009. (XII. 18.) PM rendelet 13. §-a hatályon kívül helyezte. 20 A 10–11. §-t a 31/2009. (XII. 18.) PM rendelet 13. §-a hatályon kívül helyezte. 21 Az 1. melléklet a 62/2025. (XII. 30.) NGM rendelet 1. §-ával megállapított szöveg. 22 A 2. számú mellékletet a 46/2012. (XII. 27.) NGM rendelet 22. § (2) bekezdés 2. pontja hatályon kívül helyezte. [A 48/2012. (XII. 28.) NGM rendelet 11. § a) pontjával elrendelet módosítás, amely szerint a 2. számú melléklet 1.2. alpont táblázatának 3. pontjában az „Okmányirodánál” szövegrész helyébe a „Járási (fővárosi kerületi) hivatalnál” szöveg lép, nem vezethető át.] 23 A 3–8. számú mellékletet a 60/2016. (XII. 29.) NGM rendelet 5. § e) pontja hatályon kívül helyezte. 24 A 3–8. számú mellékletet a 60/2016. (XII. 29.) NGM rendelet 5. § e) pontja hatályon kívül helyezte. 25 A 3–8. számú mellékletet a 60/2016. (XII. 29.) NGM rendelet 5. § e) pontja hatályon kívül helyezte. 26 A 3–8. számú mellékletet a 60/2016. (XII. 29.) NGM rendelet 5. § e) pontja hatályon kívül helyezte. 27 A 3–8. számú mellékletet a 60/2016. (XII. 29.) NGM rendelet 5. § e) pontja hatályon kívül helyezte. 28 A 3–8. számú mellékletet a 60/2016. (XII. 29.) NGM rendelet 5. § e) pontja hatályon kívül helyezte."
     }
   ]
 }

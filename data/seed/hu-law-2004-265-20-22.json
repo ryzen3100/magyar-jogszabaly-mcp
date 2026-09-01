@@ -35,7 +35,7 @@
       "provision_ref": "s5",
       "section": "5",
       "title": "5. §",
-      "content": "5. § Vasúttársaságok tulajdonában lévő konténer olyan országba, amelynek vasútja az SZMGSZ Megállapodásnak nem részese, vagy olyan országba, amelynek vasútja az SZMGSZ Megállapodásnak részese, de ez a vasút nem rendelkezik megállapodással a konténerek használatáról (visszaküldéséről), a feladási vasút belföldi előírásai szerint vehető fel fuvarozásra. 5. § „Az áruknak konténerben végzett fuvarozásánál a 8. számú melléklet (A konténerek fuvarozásáról szóló szabályzat) rendelkezéseit kell alkalmazni.” 5. § [12.1. számú melléklet az SZMGSZ-hez] Az SZMGSZ teheráru fuvarozásához előírt fuvarlevél nyomtatvány minták [12.2. számú melléklet az SZMGSZ-hez] Az SZMGSZ gyorsáru fuvarozásához előírt fuvarlevél nyomtatvány minták [12.3. számú melléklet az SZMGSZ-hez] Az SZMGSZ teheráru fuvarozásához előírt rovatlap-pótlap nyomtatvány minták [12.4. számú melléklet az SZMGSZ-hez] Az SZMGSZ gyorsáru fuvarozásához előírt rovatlap-pótlap nyomtatvány minták 1 A rendeletet a 2011: XXXVII. törvény 5. § (2) bekezdés b) pontja hatályon kívül helyezte 2011. április 13. napjával. * * „A különleges rendeltetésű konténerek” kifejezés alatt olyan konténereket kell érteni, amelyek rendeltetése meghatározott áruféleségek szállítása és ennek megfelelően speciális kialakításúak. 2 1 Magyarországon: MSZ 19235/1984. 3 2 Magyarországon: MSZ ÉN ISO 6346/1998. 4 3 Magyarországon: 1977. évi 20. törvényerejű rendelet. A CSC (biztonsági jóváhagyási) tábla mintáját a hivatkozott egyezmény 1. számú Mellékletének Függeléke tartalmazza. 5 4 Magyarországon: 1976. évi 5. törvényerejű rendelet. A CCC (jóváhagyási) tábla mintáját a hivatkozott egyezmény 5. számú Mellékletének 1. számú Függeléke tartalmazza. 6 Magyarországon várakozási díj. 7 Az 5. §-t a 118/2008. (V. 8.) Korm. rendelet 1. § 632. pontja hatályon kívül helyezte."
+      "content": "5. § Vasúttársaságok tulajdonában lévő konténer olyan országba, amelynek vasútja az SZMGSZ Megállapodásnak nem részese, vagy olyan országba, amelynek vasútja az SZMGSZ Megállapodásnak részese, de ez a vasút nem rendelkezik megállapodással a konténerek használatáról (visszaküldéséről), a feladási vasút belföldi előírásai szerint vehető fel fuvarozásra. 5. § „Az áruknak konténerben végzett fuvarozásánál a 8. számú melléklet (A konténerek fuvarozásáról szóló szabályzat) rendelkezéseit kell alkalmazni.” 5. §"
     },
     {
       "provision_ref": "s6",
@@ -132,6 +132,30 @@
       "section": "21",
       "title": "21. §",
       "content": "21. § A rakott és az üres konténerek fuvarozására minden egyéb kérdésben az SZMGSZ rendelkezéseit kell alkalmazni.”"
+    },
+    {
+      "provision_ref": "s1mellklet",
+      "section": "1. melléklet",
+      "title": "1. melléklet",
+      "content": "1. számú melléklet a 265/2004. (IX. 23.) Korm. rendelethez [12.1. számú melléklet az SZMGSZ-hez] Az SZMGSZ teheráru fuvarozásához előírt fuvarlevél nyomtatvány minták"
+    },
+    {
+      "provision_ref": "s2mellklet",
+      "section": "2. melléklet",
+      "title": "2. melléklet",
+      "content": "2. számú melléklet a 265/2004. (IX. 23.) Korm. rendelethez [12.2. számú melléklet az SZMGSZ-hez] Az SZMGSZ gyorsáru fuvarozásához előírt fuvarlevél nyomtatvány minták"
+    },
+    {
+      "provision_ref": "s3mellklet",
+      "section": "3. melléklet",
+      "title": "3. melléklet",
+      "content": "3. számú melléklet a 265/2004. (IX. 23.) Korm. rendelethez [12.3. számú melléklet az SZMGSZ-hez] Az SZMGSZ teheráru fuvarozásához előírt rovatlap-pótlap nyomtatvány minták"
+    },
+    {
+      "provision_ref": "s4mellklet",
+      "section": "4. melléklet",
+      "title": "4. melléklet",
+      "content": "4. számú melléklet a 265/2004. (IX. 23.) Korm. rendelethez [12.4. számú melléklet az SZMGSZ-hez] Az SZMGSZ gyorsáru fuvarozásához előírt rovatlap-pótlap nyomtatvány minták 1 A rendeletet a 2011: XXXVII. törvény 5. § (2) bekezdés b) pontja hatályon kívül helyezte 2011. április 13. napjával. * * „A különleges rendeltetésű konténerek” kifejezés alatt olyan konténereket kell érteni, amelyek rendeltetése meghatározott áruféleségek szállítása és ennek megfelelően speciális kialakításúak. 2 1 Magyarországon: MSZ 19235/1984. 3 2 Magyarországon: MSZ ÉN ISO 6346/1998. 4 3 Magyarországon: 1977. évi 20. törvényerejű rendelet. A CSC (biztonsági jóváhagyási) tábla mintáját a hivatkozott egyezmény 1. számú Mellékletének Függeléke tartalmazza. 5 4 Magyarországon: 1976. évi 5. törvényerejű rendelet. A CCC (jóváhagyási) tábla mintáját a hivatkozott egyezmény 5. számú Mellékletének 1. számú Függeléke tartalmazza. 6 Magyarországon várakozási díj. 7 Az 5. §-t a 118/2008. (V. 8.) Korm. rendelet 1. § 632. pontja hatályon kívül helyezte."
     }
   ]
 }

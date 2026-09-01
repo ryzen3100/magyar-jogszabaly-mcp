@@ -264,7 +264,56 @@
       "chapter": "V. Fejezet ZÁRÓ RENDELKEZÉSEK",
       "section": "37",
       "title": "37. §",
-      "content": "37. § (1) E rendeletnek a Magyarország biztonságát szolgáló egyes törvények módosításáról szóló törvény végrehajtásával kapcsolatos egyes kormányrendeletek módosításáról szóló 628/2022. (XII. 30.) Korm. rendelettel (a továbbiakban: Módr.) megállapított 18. § (3a) bekezdése szerinti határozatban a hatóság a repülőtéri létesítményi tűzoltóság létrehozására vonatkozó kötelezettséget legkorábban 2023. október 1-től állapíthatja meg. (2) Ha 2023. október 1-jéig nem születik meg a 18. § (3a) bekezdése szerinti végleges közigazgatási vagy jogerős bírósági határozat, úgy a 18. § (1) bekezdés c) pontja alá tartozó repülőtéren az üzemeltető köteles legalább, a Módr. hatálybalépésének időpontjában a repülőtéren fennálló személyi- és eszközállományú tűzoltó szolgálatot működtetni a végleges, illetve jogerős határozat meghozataláig. – fejléc, – az igénylő neve és címe, – az ügyintéző neve és telefonszáma, – számlaszám, – a kivonult járművekre vonatkozóan – üzemanyag-felhasználása, forgalmi rendszáma, fajtája, típusa, – megtett km alapnorma, üzemóra Norma Üzemanyag, kenőanyag literben, – az üzemanyag, kenőanyag NAV egységára a pótlás napján (Ft/liter), – az üzemanyag-, kenőanyag-felhasználás költsége (Ft) – Oltó- és felitató anyag felhasználásának kimutatása – Felitató anyag kg-ban, egységár, költség, – Por kg-ban, egységár, költség, – Habanyag literben, egységár, költség, – A felhasznált készülékek, illetve újratöltési költségek (db, Ft) – igénybe vett tűzoltóság parancsnokának aláírása A létesítményi tűzoltóság legkisebb készenléti létszáma 1. A számításhoz szükséges adat a) az épület alaprajza, a tűzszakasz vagy az ellenőrzendő helyiség területének megjelölésével, b) a jellemző helyen felvett függőleges metszet, c) az építészeti műszaki leírás, d) a technológiai műszaki leírás, tömegelemzés az éghető anyagokról, e) az üzemeltetői nyilatkozat, amely szerint a tervezett éghetőanyag-mennyiségeket az üzemeltetés során nem lépik túl, f) a vizsgálati bizonylat azokról az éghető anyagokról, amelyeket a 4. melléklet nem tartalmaz. 2. Az épület vagy az építmény részeinek, helyiségeinek, rendeltetési egységeinek számított tűzterhelését (pv) MJ/m2-ben, a következő képlettel kell számítani: pv = p × a ahol: p tűzterhelés, melyet a 3–7. pontok szerint kell meghatározni, a az anyagok égési sebességére jellemző, az anyag sűrűségétől és raktározási tömörségétől függő tényező, melyet a 8–10. pontok szerint kell meghatározni. A pv számított tűzterhelés, valamint a p tűzterhelés megadható ún. faegyenértékben kg(fa)/m2 is. Ez az érték a MJ/m2-ben megadott érték 1/16,75-szorosa. 3. A p tűzterhelést, MJ/m2-ben, a következő képlettel kell számítani: p = pn+ps ahol: pn az időleges tűzterhelés, ps az állandó tűzterhelés. 4. Az időleges tűzterhelést a gyártási folyamatban előforduló éghető anyagok, valamint az éghető technológiai és egészségügyi-műszaki berendezések, szigetelések, raktári anyagkészletek, bútorok alapján kell meghatározni. 5. Az állandó tűzterhelést az épületszerkezetek éghető anyagai alapján kell meghatározni. 6. Az időleges és az állandó tűzterhelést a következő képletekkel kell kiszámítani: ahol: Mi az i-edik anyag tömege, kg, Hi az i-edik anyag 1 kg-nyi tömegéből az égés során felszabaduló hő mennyisége, MJ/kg, S az épület és építmény vagy részeik területe, m2, j az időleges tűzterheléshez tartozó anyagok fajtáinak száma, k az állandó tűzterheléshez tartozó anyagok fajtáinak száma. Ha az anyagok térfogata ismert, a tömegük (M) számításához szükséges testsűrűségi, halmazsűrűségi adatokat a 4. melléklet tartalmazza. Az anyagok fűtőérték (Hi) adatait a 4. melléklet tartalmazza. 7. Az időleges tűzterhelés (pn) normatív értékek alapján is meghatározható a 6. és a 7. mellékletben felsorolt épületek és technológiák esetén. 8. Az a tényezőt a következő képlettel kell kiszámítani: ahol: as tényező értéke 0,9. 9. Az időleges tűzterhelés an tényezőjét a következő képlettel kell kiszámítani: ahol: ami az i-edik anyagra jellemző tényező. 10. Az egyes éghető anyagfajták ami tényezőit az 5. melléklet tartalmazza."
+      "content": "37. § (1) E rendeletnek a Magyarország biztonságát szolgáló egyes törvények módosításáról szóló törvény végrehajtásával kapcsolatos egyes kormányrendeletek módosításáról szóló 628/2022. (XII. 30.) Korm. rendelettel (a továbbiakban: Módr.) megállapított 18. § (3a) bekezdése szerinti határozatban a hatóság a repülőtéri létesítményi tűzoltóság létrehozására vonatkozó kötelezettséget legkorábban 2023. október 1-től állapíthatja meg. (2) Ha 2023. október 1-jéig nem születik meg a 18. § (3a) bekezdése szerinti végleges közigazgatási vagy jogerős bírósági határozat, úgy a 18. § (1) bekezdés c) pontja alá tartozó repülőtéren az üzemeltető köteles legalább, a Módr. hatálybalépésének időpontjában a repülőtéren fennálló személyi- és eszközállományú tűzoltó szolgálatot működtetni a végleges, illetve jogerős határozat meghozataláig."
+    },
+    {
+      "provision_ref": "s1mellklet",
+      "chapter": "V. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "1. melléklet",
+      "title": "1. melléklet",
+      "content": "1. melléklet a 239/2011. (XI. 18.) Korm. rendelethez A vonulási területen kívüli költségtérítésre vonatkozó igénybejelentés tartalmi elemei – fejléc, – az igénylő neve és címe, – az ügyintéző neve és telefonszáma, – számlaszám, – a kivonult járművekre vonatkozóan – üzemanyag-felhasználása, forgalmi rendszáma, fajtája, típusa, – megtett km alapnorma, üzemóra Norma Üzemanyag, kenőanyag literben, – az üzemanyag, kenőanyag NAV egységára a pótlás napján (Ft/liter), – az üzemanyag-, kenőanyag-felhasználás költsége (Ft) – Oltó- és felitató anyag felhasználásának kimutatása – Felitató anyag kg-ban, egységár, költség, – Por kg-ban, egységár, költség, – Habanyag literben, egységár, költség, – A felhasznált készülékek, illetve újratöltési költségek (db, Ft) – igénybe vett tűzoltóság parancsnokának aláírása"
+    },
+    {
+      "provision_ref": "s2mellklet",
+      "chapter": "V. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "2. melléklet",
+      "title": "2. melléklet",
+      "content": "2. melléklet a 239/2011. (XI. 18.) Korm. rendelethez A létesítményi tűzoltóság kialakítására vonatkozó szabályok A létesítményi tűzoltóság legkisebb készenléti létszáma"
+    },
+    {
+      "provision_ref": "s3mellklet",
+      "chapter": "V. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "3. melléklet",
+      "title": "3. melléklet",
+      "content": "3. melléklet a 239/2011. (XI. 18.) Korm. rendelethez A számított tűzterhelés meghatározása és igazolása 1. A számításhoz szükséges adat a) az épület alaprajza, a tűzszakasz vagy az ellenőrzendő helyiség területének megjelölésével, b) a jellemző helyen felvett függőleges metszet, c) az építészeti műszaki leírás, d) a technológiai műszaki leírás, tömegelemzés az éghető anyagokról, e) az üzemeltetői nyilatkozat, amely szerint a tervezett éghetőanyag-mennyiségeket az üzemeltetés során nem lépik túl, f) a vizsgálati bizonylat azokról az éghető anyagokról, amelyeket a 4. melléklet nem tartalmaz. 2. Az épület vagy az építmény részeinek, helyiségeinek, rendeltetési egységeinek számított tűzterhelését (pv) MJ/m2-ben, a következő képlettel kell számítani: pv = p × a ahol: p tűzterhelés, melyet a 3–7. pontok szerint kell meghatározni, a az anyagok égési sebességére jellemző, az anyag sűrűségétől és raktározási tömörségétől függő tényező, melyet a 8–10. pontok szerint kell meghatározni. A pv számított tűzterhelés, valamint a p tűzterhelés megadható ún. faegyenértékben kg(fa)/m2 is. Ez az érték a MJ/m2-ben megadott érték 1/16,75-szorosa. 3. A p tűzterhelést, MJ/m2-ben, a következő képlettel kell számítani: p = pn+ps ahol: pn az időleges tűzterhelés, ps az állandó tűzterhelés. 4. Az időleges tűzterhelést a gyártási folyamatban előforduló éghető anyagok, valamint az éghető technológiai és egészségügyi-műszaki berendezések, szigetelések, raktári anyagkészletek, bútorok alapján kell meghatározni. 5. Az állandó tűzterhelést az épületszerkezetek éghető anyagai alapján kell meghatározni. 6. Az időleges és az állandó tűzterhelést a következő képletekkel kell kiszámítani: ahol: Mi az i-edik anyag tömege, kg, Hi az i-edik anyag 1 kg-nyi tömegéből az égés során felszabaduló hő mennyisége, MJ/kg, S az épület és építmény vagy részeik területe, m2, j az időleges tűzterheléshez tartozó anyagok fajtáinak száma, k az állandó tűzterheléshez tartozó anyagok fajtáinak száma. Ha az anyagok térfogata ismert, a tömegük (M) számításához szükséges testsűrűségi, halmazsűrűségi adatokat a 4. melléklet tartalmazza. Az anyagok fűtőérték (Hi) adatait a 4. melléklet tartalmazza. 7. Az időleges tűzterhelés (pn) normatív értékek alapján is meghatározható a 6. és a 7. mellékletben felsorolt épületek és technológiák esetén. 8. Az a tényezőt a következő képlettel kell kiszámítani: ahol: as tényező értéke 0,9. 9. Az időleges tűzterhelés an tényezőjét a következő képlettel kell kiszámítani: ahol: ami az i-edik anyagra jellemző tényező. 10. Az egyes éghető anyagfajták ami tényezőit az 5. melléklet tartalmazza."
+    },
+    {
+      "provision_ref": "s4mellklet",
+      "chapter": "V. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "4. melléklet",
+      "title": "4. melléklet",
+      "content": "4. melléklet a 239/2011. (XI. 18.) Korm. rendelethez Éghető anyagok fűtőértéke (Hi) és testsűrűsége (nem folytonos térkitöltésű anyagok vagy termékek esetén halmazsűrűsége)"
+    },
+    {
+      "provision_ref": "s5mellklet",
+      "chapter": "V. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "5. melléklet",
+      "title": "5. melléklet",
+      "content": "5. melléklet a 239/2011. (XI. 18.) Korm. rendelethez Egyes éghető anyagfajták leégési sebességének jellemző értéket (ami)"
+    },
+    {
+      "provision_ref": "s6mellklet",
+      "chapter": "V. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "6. melléklet",
+      "title": "6. melléklet",
+      "content": "6. melléklet a 239/2011. (XI. 18.) Korm. rendelethez Lakó- és közösségi épületek, épületrészek normatív tűzterhelési értékei"
+    },
+    {
+      "provision_ref": "s7mellklet",
+      "chapter": "V. Fejezet ZÁRÓ RENDELKEZÉSEK",
+      "section": "7. melléklet",
+      "title": "7. melléklet",
+      "content": "7. melléklet a 239/2011. (XI. 18.) Korm. rendelethez Ipari és szolgáltató tevékenység normatív tűzterhelési értékei"
     }
   ],
   "definitions": [
