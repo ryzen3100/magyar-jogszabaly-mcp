@@ -163,9 +163,10 @@ func resolveDecreeRef(ctx context.Context, db *sql.DB, input string) (string, er
 // ranges ("1–290"), and the Ptk structure prefix ("Ptk4:1").
 var sectionRefGrammarRe = regexp.MustCompile(`^(?:[Pp]tk)?\d+(?::\d+)*(?:/[A-Za-z])?(?:[–-]\d+(?::\d+)*)*$`)
 
-// Annex refs: "4. melléklet", "4 melléklet", "3/A. melléklet" — the form the
-// parser stores annex provisions under (section "<n>. melléklet").
-var annexRefRe = regexp.MustCompile(`(?i)^(\d+(?:/[A-Za-z])?)\s*\.?\s*melléklet\.?$`)
+// Annex refs: "4. melléklet", "4 melléklet", "3/A. melléklet",
+// "6. számú melléklet" (old layout) — the forms the parser stores annex
+// provisions under (section "<n>. melléklet").
+var annexRefRe = regexp.MustCompile(`(?i)^(\d+(?:/[A-Za-z])?)\s*\.?\s*(?:számú\s+)?melléklet\.?$`)
 
 // Collapses annex refs to the parser's provision_ref shape ("s" + lowercased
 // ASCII alnum, i.e. the toProvisionRef form: "4. melléklet" → "s4mellklet").
