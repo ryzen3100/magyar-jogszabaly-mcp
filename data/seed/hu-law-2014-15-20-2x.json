@@ -2,10 +2,8 @@
   "id": "hu-law-2014-15-20-2x",
   "type": "statute",
   "title": "15/2014. (IV. 3.) NGM rendelet az adómentes munkáltatói lakáscélú támogatás folyósításának szabályairól",
-  "status": "in_force",
-  "in_force_date": "2014-04-04",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2014-15-20-2X",
-  "description": "az adómentes munkáltatói lakáscélú támogatás folyósításának szabályairól",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -72,6 +70,18 @@
       "section": "9/B",
       "title": "9/B. §",
       "content": "9/B. § (1) E rendeletnek az adómentes munkáltatói lakáscélú támogatás folyósításának szabályairól szóló 15/2014. (IV. 3.) NGM rendelet módosításáról szóló 66/2016. (XII. 29.) NGM rendelettel megállapított 2. § (1) bekezdés c) pontja és 5. § (2) bekezdése 2014. április 4-étől alkalmazható. (2) E rendeletnek az adómentes munkáltatói lakáscélú támogatás folyósításának szabályairól szóló 15/2014. (IV. 3.) NGM rendelet módosításáról szóló 66/2016. (XII. 29.) NGM rendelettel megállapított 3. § (6) bekezdés, 6. § (1) bekezdés b) és e) pontja, (4) bekezdése 2016. január 1-jétől alkalmazható. (3) E rendeletnek az adómentes munkáltatói lakáscélú támogatás folyósításának szabályairól szóló 15/2014. (IV. 3.) NGM rendelet módosításáról szóló 66/2016. (XII. 29.) NGM rendelettel megállapított 3. § (1), (2) és (3) bekezdése 2016. augusztus 1-jétől alkalmazható. 1 A 2. § (1) bekezdése a 66/2016. (XII. 29.) NGM rendelet 1. §-ával megállapított szöveg. 2 A 2. § (3) bekezdés c) pontja a 48/2014. (XII. 30.) NGM rendelet 8. §-ával megállapított szöveg. 3 A 3. § (1) bekezdése a 66/2016. (XII. 29.) NGM rendelet 2. § (1) bekezdésével megállapított szöveg. 4 A 3. § (2) bekezdése a 66/2016. (XII. 29.) NGM rendelet 2. § (1) bekezdésével megállapított szöveg. 5 A 3. § (3) bekezdése a 66/2016. (XII. 29.) NGM rendelet 2. § (1) bekezdésével megállapított szöveg. 6 A 3. § (4) bekezdése a 48/2014. (XII. 30.) NGM rendelet 9. §-ával megállapított szöveg. 7 A 3. § (5) bekezdése a 48/2014. (XII. 30.) NGM rendelet 12. §-a szerint módosított szöveg. 8 A 3. § (6) bekezdése a 66/2016. (XII. 29.) NGM rendelet 2. § (2) bekezdésével megállapított szöveg. 9 Az 5. § (2) bekezdése a 66/2016. (XII. 29.) NGM rendelet 3. §-ával megállapított szöveg. 10 A 6. § (1) bekezdése a 66/2016. (XII. 29.) NGM rendelet 4. § (1) bekezdésével megállapított szöveg. 11 A 6. § (1) bekezdés b) pontja az 52/2017. (XII. 29.) NGM rendelet 20. §-a szerint módosított szöveg. 12 A 6. § (2) bekezdés c) pontja a 48/2014. (XII. 30.) NGM rendelet 10. §-ával megállapított szöveg. 13 A 6. § (4) bekezdése a 66/2016. (XII. 29.) NGM rendelet 4. § (2) bekezdésével megállapított szöveg. 14 A 9/A. §-t a 48/2014. (XII. 30.) NGM rendelet 11. §-a iktatta be. 15 A 9/B. §-t a 66/2016. (XII. 29.) NGM rendelet 5. §-a iktatta be."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "a magánszemély saját lakása",
+      "definition": "az a lakás is, amelynek bármely arányú tulajdonjogát, haszonélvezetét a magánszemély a támogatás felhasználásával szerzi meg, ideértve a tulajdonjog zártvégű lízing keretében történő megszerzését is. (2) A magánszemély – függetlenül a munkaviszonyának esetleges megszűnésétől – az (1) bekezdés b) pontja szerinti okiratokat, bizonylatokat – a (3) bekezdésben foglalt kivétellel – a) a lakása tulajdonjogának és a lakáshoz kapcsolódó földhasználati jognak a megszerzése – ideértve a lakás tulajdonjogá",
+      "source_provision": "s1"
+    },
+    {
+      "term": "lakáscélú felhasználásra felvett hitelről szóló szerződés",
+      "definition": "a) a hitelintézetekről és a pénzügyi vállalkozásokról szóló törvény szerinti lakáscélú hitel- vagy kölcsönszerződés, függetlenül a szerződéskötés időpontjától, ide nem értve a hitelszerződésből vagy a hiteligénylésből megállapítható módon felújítási célból felvett hitelről vagy kölcsönről szóló szerződést, b) az a hitel- vagy kölcsönszerződés, amelyet lakást terhelő jelzálogjog nem biztosít, de amelyet a hitelszerződésből vagy a hiteligénylésből megállapítható módon az Szja tv. 1. számú mellékle",
+      "source_provision": "s6"
     }
   ]
 }

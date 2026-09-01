@@ -75,9 +75,10 @@ var (
 	// ordinary uses of minősül/érti elsewhere stay unclassified.
 	qualifiesPattern = regexp.MustCompile(`(?i)alkalmazásában\s+([^;]{2,120}?)\s+(?:minősül|érti)[\s,:]([^;]{10,500})`)
 	mainTitlePattern = regexp.MustCompile(`(?i)<h1[^>]*class="[^"]*jogszabalyMainTitle[^"]*"[^>]*>([\s\S]*?)</h1>`)
-	// verbInTermRe matches minősül/érti as a verb (term boundary or a
-	// conjugation suffix), not as the participle "minősülő/értő".
-	verbInTermRe          = regexp.MustCompile(`(?:minősül|érti)(?:[^ő]|$)`)
+	// verbInTermRe matches minősül/érti as a standalone verb (not preceded
+	// by a letter, so mid-word "érti" in "tértivevény" doesn't trigger),
+	// and not as the participle "minősülő/értő" (no Ő after the stem).
+	verbInTermRe          = regexp.MustCompile(`(?:^|\P{L})(?:minősül|érti)(?:[^ő]|$)`)
 	subtitlePattern       = regexp.MustCompile(`(?i)<h2[^>]*class="([^"]*jogszabalySubtitle[^"]*)"[^>]*>([\s\S]*?)</h2>`)
 	mainTitleClassPattern = regexp.MustCompile(`(?i)\bmainTitle\b`)
 )
@@ -287,6 +288,13 @@ func extractDefinitions(content, sourceProvision string, defs *[]seed.Definition
 		if utf8.RuneCountInString(term) < 2 || utf8.RuneCountInString(definition) < 10 {
 			return
 		}
+		// Clause-fragment scaffolding that slipped past the patterns: a
+		// conditional "X akkor minősül …" split mid-clause, and a
+		// "(a továbbiakban: rövidítés)" citation aside captured as the term.
+		// Shared by both patterns; a real concept term never contains either.
+		if strings.Contains(term, " akkor") || strings.Contains(term, "a továbbiakban") {
+			return
+		}
 		*defs = append(*defs, seed.DefinitionSeed{
 			Term:            term,
 			Definition:      definition,
@@ -332,6 +340,17 @@ func qualifyTerm(term string) string {
 	for i, part := range parts {
 		for _, suffix := range []string{"ként", "nak", "nek"} {
 			if stripped, ok := strings.CutSuffix(part, suffix); ok && utf8.RuneCountInString(stripped) > 1 {
+				// Dative linking vowels: "kategóriának"→"kategóriá",
+				// "költségének"→"költségé". Every a/é-final stem lengthens
+				// before nak/nek, so restore the short final vowel
+				// ("kategória", "költsége").
+				// ponytail: a word that does NOT lengthen before nak/nek is
+				// vanishingly rare here. Known ceiling: a long-é stem in the
+				// bare dative ("gyümölcslének minősül") would be corrupted to
+				// "gyümölcsle" — zero such captures in the current 72k corpus
+				// (all é-datatives are possessive or short-e stems); revisit
+				// with a lexicon if one ever shows up.
+				stripped = dativeRestore(stripped)
 				part = stripped
 				break
 			}
@@ -339,6 +358,20 @@ func qualifyTerm(term string) string {
 		parts[i] = part
 	}
 	return strings.Join(parts, ", ")
+}
+
+// dativeRestore maps a trailing lengthened linking vowel back to its short
+// form: "kategóriá"→"kategória", "költségé"→"költsége". Only the final rune
+// is touched; interior accents are untouched Hungarian orthography.
+func dativeRestore(s string) string {
+	switch {
+	case strings.HasSuffix(s, "á"):
+		return s[:len(s)-2] + "a"
+	case strings.HasSuffix(s, "é"):
+		return s[:len(s)-2] + "e"
+	default:
+		return s
+	}
 }
 
 func extractOfficialTitle(html string) string {

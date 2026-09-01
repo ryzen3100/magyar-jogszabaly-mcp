@@ -2,10 +2,8 @@
   "id": "hu-law-2022-21-b0-0a",
   "type": "statute",
   "title": "21/2022. (XII. 16.) BM utasítás a Belügyminisztérium Beszerzési Szabályzatáról",
-  "status": "repealed",
-  "in_force_date": "2022-12-17",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2022-21-B0-0A",
-  "description": "a Belügyminisztérium Beszerzési Szabályzatáról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -469,6 +467,11 @@
       "term": "feltételes fedezetigazolás",
       "definition": "a 6. melléklet szerinti mintának megfelelő tartalommal a kötelezettségvállaló által megtett nyilatkozat az eljárás lefolytatásához szükséges fedezet feltételes rendelkezésre állásáról, amelynek feltételes eljárásként való megindításához a PEF főosztályvezetője a nyilatkozatra vezetett záradékban hozzájárult.",
       "source_provision": "s3"
+    },
+    {
+      "term": "aláírás",
+      "definition": "a legalább fokozott biztonságú elektronikus aláírás vagy a polgári perrendtartásról szóló 2016. évi CXXX. törvény 325. § (1) bekezdés g) pontjában foglaltak szerinti azonosításra visszavezetett dokumentumhitelesítés is. (7) A bírálóbizottság javaslata alapján az ajánlatok érvénytelenségéről, az ajánlattevők kizárásáról, az érvényes ajánlatokról, az eljárás eredményességéről vagy annak eredménytelenségéről, az eljárás nyerteséről a döntést a döntéshozó hozza meg.",
+      "source_provision": "s25"
     }
   ]
 }

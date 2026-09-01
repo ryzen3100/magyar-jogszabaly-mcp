@@ -2,10 +2,8 @@
   "id": "hu-law-2013-4-b0-2c",
   "type": "statute",
   "title": "4/2013. (VI. 28.) MNB utasítás a Magyar Nemzeti Bank Szervezeti és Működési Szabályzatáról",
-  "status": "repealed",
-  "in_force_date": "2013-07-01",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2013-4-B0-2C",
-  "description": "a Magyar Nemzeti Bank Szervezeti és Működési Szabályzatáról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -34,6 +32,11 @@
     {
       "term": "működteti a felhasználói segélyszolgálatot",
       "definition": "támogatja a felhasználókat a számítástechnikai eszközök és szoftverek, valamint rádiótelefonok használatában, segítséget nyújt a felmerülő problémák megoldásában, gondoskodik a felhasználókhoz telepített lokális eszközök karbantartásáról, javíttatásáról",
+      "source_provision": "s2"
+    },
+    {
+      "term": "az elnök közvetlen irányítása alatt álló szervezeti egység",
+      "definition": "a Belső ellenőrzési főosztály, a Személyügyi igazgatóság, az Elnöki kabinet és az FB Titkárság. Az elnök gyakorolja az előző bekezdés alá nem tartozó munkavállalók felett a munkaviszony létesítésének, a munkaviszony megszüntetésének, javadalmazás megállapításának jogát, mely munkáltatói jogok gyakorlását a főigazgatóra delegálhatja. Felügyeleti jogkör: a közvetlen felügyelete alá tartozó szervezeti egységek vezetőjének, az ügyvezető igazgatónak, a főigazgatónak és az alelnököknek a beszámoltatás",
       "source_provision": "s2"
     }
   ]

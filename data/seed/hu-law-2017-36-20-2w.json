@@ -2,10 +2,8 @@
   "id": "hu-law-2017-36-20-2w",
   "type": "statute",
   "title": "36/2017. (IX. 18.) NFM rendelet a meghatározott össztömeget, tengelyterhelést, tengelycsoport-terhelést és méretet meghaladó járművek közlekedéséről",
-  "status": "in_force",
-  "in_force_date": "2017-09-19",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2017-36-20-2W",
-  "description": "a meghatározott össztömeget, tengelyterhelést, tengelycsoport-terhelést és méretet meghaladó járművek közlekedéséről",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -275,6 +273,16 @@
     }
   ],
   "definitions": [
+    {
+      "term": "túlsúlyos jármű",
+      "definition": "az a jármű vagy járműszerelvény, amely a) össztömeg vonatkozásában aa) kéttengelyes jármű esetén a 20 tonnát, ab) háromtengelyes jármű vagy csuklós jármű esetén a 26 tonnát, ac) négy- vagy ennél több tengelyes jármű vagy csuklós jármű esetén a 32 tonnát, ad) háromtengelyes járműszerelvény esetén a 28 tonnát, ae) négytengelyes járműszerelvény esetén a 38 tonnát, af) öt- vagy ennél több tengelyes járműszerelvény esetén a 40 tonnát, b) tengelyterhelés vonatkozásában ba) a jármű bármely tengelye, va",
+      "source_provision": "s2"
+    },
+    {
+      "term": "túlméretes jármű",
+      "definition": "az a jármű, vagy járműszerelvény, amely mérete vonatkozásában: a) a 4,00 méter magasságot, b) a 2,6 méter szélességet, c) szóló jármű esetén a 12,0 méter hosszúságot, a d) alpont kivételével, d) az f) alpontba nem tartozó autóbusz esetén a 15,0 méter hosszúságot, e) nyergesvontatóból és félpótkocsiból álló járműszerelvény esetén a 16,50 méter hosszúságot, valamint f) az e) alpontba nem tartozó járműszerelvény vagy csuklós autóbusz esetén a 18,75 méter hosszúságot meghaladja. (2) A megengedett le",
+      "source_provision": "s2"
+    },
     {
       "term": "statikus mérés",
       "definition": "a jármű megállításával, nyugalmi helyzetben elvégzett mérés, 9. TSM mérőpont: a Nemzeti Tengelysúlymérő Rendszer részét képező, a járművek tengelyterhelésének dinamikus mérésére és az össztömegének számítással történő meghatározására alkalmas, automatikus működésű berendezés.",

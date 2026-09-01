@@ -2,10 +2,8 @@
   "id": "hu-law-2018-5-b0-2c",
   "type": "statute",
   "title": "5/2018. (XII. 17.) MNB utasítás a Magyar Nemzeti Bank Szervezeti és Működési Szabályzatáról",
-  "status": "repealed",
-  "in_force_date": "2018-12-18",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2018-5-B0-2C",
-  "description": "a Magyar Nemzeti Bank Szervezeti és Működési Szabályzatáról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -27,16 +25,6 @@
       "source_provision": "s2"
     },
     {
-      "term": "2.1.1. pontban a továbbiakban együttesen",
-      "definition": "Felügyeleti főosztályok), valamint a Prudenciális modellezési főosztállyal együtt lefolytatja a Pénzügyi Stabilitási Tanács által meghatározott felügyelt intézményekkel, intézménycsoportokkal kapcsolatos ILAAP felügyeleti felülvizsgálati eljárásokat",
-      "source_provision": "s2"
-    },
-    {
-      "term": "az államháztartási statisztika területén a Központi Statisztikai Hivatallal (a továbbiakban",
-      "definition": "KSH) és a Pénzügyminisztériummal érvényben lévő megállapodás alapján a két intézménnyel a statisztikák összeállításában együttműködik",
-      "source_provision": "s2"
-    },
-    {
       "term": "1.2.3. Koordinációs főosztály 5.1.2.3.1. Koordinációs osztály Feladatai körében",
       "definition": "1. gondoskodik – a jegybanki alapkamatról és a tartalékráta mértékéről szóló rendeletek kivételével – az MNB rendeletek és az árfolyamközlemény aláírásra történő felterjesztéséről",
       "source_provision": "s2"
@@ -44,11 +32,6 @@
     {
       "term": "1.2.3.2. Dokumentációs és iratkezelési osztály Feladatai körében",
       "definition": "1. irányítja a Bank iratkezeléssel összefüggő tevékenységét, ide nem értve a minősített iratok kezelésével összefüggő feladatokat",
-      "source_provision": "s2"
-    },
-    {
-      "term": "a Bank szervezeti egységeivel egyeztetve évente felülvizsgálja, majd a Magyar Nemzeti Levéltár (a továbbiakban",
-      "definition": "Levéltár) jóváhagyásával módosítja az iratkezelési szabályzatot és az annak mellékletét képező irattári tervet",
       "source_provision": "s2"
     },
     {
@@ -69,6 +52,11 @@
     {
       "term": "1.4.2.2. Szolgáltatási és ellátási osztály Feladatai körében",
       "definition": "1. üzemelteti a Bank gépjárműparkját, szervezi, felügyeli és nyilvántartja a hivatali gépjárművek használatát, üzemben tartását, javaslatot tesz cseréjükre, értékesítésükre, új gépjárművek beszerzésére, gondoskodik a gépjárművek beszerzéséről, értékesítéséről",
+      "source_provision": "s2"
+    },
+    {
+      "term": "az elnök közvetlen irányítása alatt álló szervezeti egység",
+      "definition": "a Belső ellenőrzési főosztály is. Az elnök gyakorolja a munkáltatói jogokat a Pénzügyi Békéltető Testület elnöke és a testület tagjai felett az MNB tv.-ben meghatározottak szerint és a pénzügyi szervezetek felügyeletéért és fogyasztóvédelemért felelős alelnök javaslatát is figyelembe véve. Az elnök gyakorolja az előző bekezdés alá nem tartozó munkavállalók felett a munkaviszony létesítésének, a munkaviszony megszüntetésének, javadalmazás megállapításának jogát, mely munkáltatói jogok gyakorlását",
       "source_provision": "s2"
     }
   ]

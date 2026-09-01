@@ -2,10 +2,8 @@
   "id": "hu-law-2011-215-20-22",
   "type": "statute",
   "title": "215/2011. (X. 19.) Korm. rendelet az elektronikus közszolgáltatásokkal összefüggő elektronikus fizetésekre és elszámolásokra vonatkozó szabályokról",
-  "status": "repealed",
-  "in_force_date": "2011-10-20",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2011-215-20-22",
-  "description": "az elektronikus közszolgáltatásokkal összefüggő elektronikus fizetésekre és elszámolásokra vonatkozó szabályokról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -218,11 +216,6 @@
       "term": "POS Végfelhasználói Nyilatkozat",
       "definition": "az az adatlap, amely az elfogadóknak a POS Végfelhasználói Szerződés szempontjából legfontosabb adatait tartalmazza.",
       "source_provision": "s2"
-    },
-    {
-      "term": "(X. 14.) Korm. rendelet (a továbbiakban",
-      "definition": "R3.) 2. § h) pontja helyébe a következő rendelkezés lép: (E rendelet alkalmazásában:) „h) üzemeltető: az elektronikus közszolgáltatás működtetéséről szóló kormányrendeletben kijelölt, a központi rendszer elemeinek létrehozását, fejlesztését és üzemeltetését a működtető irányításával – szükség esetén más szervezetek bevonásával – ellátó szervezet.” (2) Hatályát veszti az R3. 28. § (1) bekezdésében az „a Miniszterelnöki Hivatal, mint” szövegrész.",
-      "source_provision": "s18"
     }
   ]
 }

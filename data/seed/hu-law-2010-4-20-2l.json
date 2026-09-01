@@ -2,10 +2,8 @@
   "id": "hu-law-2010-4-20-2l",
   "type": "statute",
   "title": "4/2010. (I. 26.) ÖM rendelet a helyi önkormányzatok és a többcélú kistérségi társulások létszámcsökkentési döntéseivel kapcsolatos egyszeri költségvetési támogatás igényléséről, döntési rendszeréről, folyósításának és elszámolásának részletes feltételeiről",
-  "status": "repealed",
-  "in_force_date": "2010-01-27",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2010-4-20-2L",
-  "description": "a helyi önkormányzatok és a többcélú kistérségi társulások létszámcsökkentési döntéseivel kapcsolatos egyszeri költségvetési támogatás igényléséről, döntési rendszeréről, folyósításának és elszámolásának részletes feltételeiről",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -82,9 +80,9 @@
   ],
   "definitions": [
     {
-      "term": "évi XXXIII. törvény (a továbbiakban",
-      "definition": "Kjt.) szerint megállapított felmentési időre járó átlagkereset, illetmény összege, d) ebr42 információs rendszer: webalapú információs rendszer, amelybe az igénylőknek a melléklet szerinti adatlapokat rögzítenie szükséges, és amelynek elérhetősége http://ebr42.otm.gov.hu.",
-      "source_provision": "s1"
+      "term": "2009. szeptember 30. napját követő döntés",
+      "definition": "az a döntés is, amely 2009. szeptember 30-a előtti döntést erősít meg, feltéve, hogy az igénylőnek a korábbi döntéséből 2009. szeptember 30-át követő kifizetési kötelezettsége is keletkezik, továbbá a (2) bekezdésben foglaltak szerint korábban nem részesült támogatásban. Ebben az esetben további feltétel a (2) bekezdésben foglalt kifizetések dokumentumainak csatolása. A megerősítő döntés időpontja nem lehet későbbi, mint az adott foglalkoztatott felmentési vagy rendes felmondási idejének befejez",
+      "source_provision": "s2"
     }
   ]
 }

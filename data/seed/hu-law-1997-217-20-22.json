@@ -2,10 +2,8 @@
   "id": "hu-law-1997-217-20-22",
   "type": "statute",
   "title": "217/1997. (XII. 1.) Korm. rendelet a kötelező egészségbiztosítás ellátásairól szóló 1997. évi LXXXIII. törvény végrehajtásáról",
-  "status": "in_force",
-  "in_force_date": "1998-01-01",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/1997-217-20-22",
-  "description": "a kötelező egészségbiztosítás ellátásairól szóló 1997. évi LXXXIII. törvény végrehajtásáról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -832,12 +830,7 @@
   ],
   "definitions": [
     {
-      "term": "évi XLIII. törvény (a továbbiakban",
-      "definition": "Ksztv.) 2. § (1) bekezdés e) és f) pontjában és kizárólag ezekhez kapcsolódva a Ksztv. 2. § (1) bekezdés g) pontjában meghatározott hatásköröket.",
-      "source_provision": "s1"
-    },
-    {
-      "term": "a beutaló felhasználásá",
+      "term": "a beutaló felhasználása",
       "definition": "a) a beutaló szerinti egészségügyi szolgáltatóhoz történő bejelentkezés a beutaló szerinti ellátásra, b) a beutaló szerinti ellátás igénybevételének megkezdése a beutaló szerinti egészségügyi szolgáltatónál, vagy c) a beutaló szerinti ellátás igénybevétele a beutaló szerinti egészségügyi szolgáltatónál. (10d) A beutalóra adott szakvélemény tartalmazza a beutaló orvos kérdéseire adott válaszokat, a betegség okozta elváltozásokat, az esetleges további teendők szükségességét, ismételt szakkonzílium",
       "source_provision": "s3a"
     },

@@ -2,10 +2,8 @@
   "id": "hu-law-2010-17-20-2x",
   "type": "statute",
   "title": "17/2010. (XII. 30.) NGM rendelet a Nemzeti Adó- és Vámhivatal hivatásos állományú tagjai részére járó egyes költségtérítésekről, illetményről és illetmény jellegű juttatásokról",
-  "status": "repealed",
-  "in_force_date": "2011-01-01",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2010-17-20-2X",
-  "description": "a Nemzeti Adó- és Vámhivatal hivatásos állományú tagjai részére járó egyes költségtérítésekről, illetményről és illetmény jellegű juttatásokról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -335,6 +333,13 @@
       "section": "47",
       "title": "47. §",
       "content": "47. § E rendelet hatálybalépésével egyidejűleg hatályát veszti a Vám- és Pénzügyőrség hivatásos állományú tagjai részére járó egyes költségtérítésekről szóló 22/2001. (VI. 15.) PM rendelet. 1 A rendeletet az 53/2011. (XII. 29.) NGM rendelet 6. § h) pontja hatályon kívül helyezte 2012. január 1. napjával."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "családfenntartó",
+      "definition": "az, aki a vele közös háztartásban élő beteg, állandó ápolásra vagy gondozásra szoruló közeli hozzátartozóját egyedül tartja el, ha a rászorulónak eltartásra kötelezhető más hozzátartozója nincs, illetve, ha az ápolást vagy gondozást a más hozzátartozó nem tudja ellátni, és azt egészségügyi, szociális intézmény nem látja el, és az áthelyezés vagy vezénylés az eltartott közeli hozzátartozó létfenntartását veszélyeztetné. (2) A családtól való különélésnek minősül az élettárstól (Ptk. 685/A. §) való",
+      "source_provision": "s33"
     }
   ]
 }

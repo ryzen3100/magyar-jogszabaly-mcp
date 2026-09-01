@@ -2,10 +2,8 @@
   "id": "hu-law-2009-3-b0-84",
   "type": "statute",
   "title": "3/2009. (III. 27.) MeHVM utasítás a fejezeti kezelésű előirányzatokkal kapcsolatos eljárási rendről és hatáskörökről",
-  "status": "repealed",
-  "in_force_date": "2009-03-26",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2009-3-B0-84",
-  "description": "a fejezeti kezelésű előirányzatokkal kapcsolatos eljárási rendről és hatáskörökről",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -3768,6 +3766,11 @@
     {
       "term": "Hosszú távú kötelezettségvállalás",
       "definition": "olyan intézkedés, amely az állami költségvetés terhére, szolgáltatásvásárlásra, lízingre, eszköz üzemeltetésre és karbantartásra, illetve bérlésre irányuló, több évre szóló (több év kiadási előirányzatait terhelő) fizetési kötelezettséget jelentő szerződést (megállapodást) keletkeztet. E definíció alkalmazásában szolgáltatásvásárlásának minősül az is, ha a szolgáltatási díjban a szolgáltatás nyújtásához szükséges eszköz létrehozását is megtérítik.",
+      "source_provision": "s61"
+    },
+    {
+      "term": "szolgáltatásvásárlása",
+      "definition": "az is, ha a szolgáltatási díjban a szolgáltatás nyújtásához szükséges eszköz létrehozását is megtérítik.",
       "source_provision": "s61"
     }
   ]

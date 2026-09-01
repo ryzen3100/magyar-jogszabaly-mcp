@@ -2,10 +2,8 @@
   "id": "hu-law-2017-2-20-3h",
   "type": "statute",
   "title": "2/2017. (I. 17.) NMHH rendelet a rádióberendezésekről",
-  "status": "in_force",
-  "in_force_date": "2017-02-01",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2017-2-20-3H",
-  "description": "a rádióberendezésekről",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -262,6 +260,16 @@
       "term": "visszahívás",
       "definition": "az (EU) 2019/1020 rendelet 3. cikk 22. pontja szerinti visszahívás. (2) Az e rendeletben alkalmazott egyéb rádióberendezésekkel kapcsolatos fogalmakat az elektronikus hírközlésről szóló 2003. évi C. törvény (a továbbiakban: Eht.), a nemzeti frekvenciafelosztásról, valamint a frekvenciasávok felhasználási szabályairól szóló NMHH rendelet (a továbbiakban: NFFF), valamint a polgári frekvenciagazdálkodás egyes hatósági eljárásairól szóló NMHH rendelet (a továbbiakban: Pfgr.) szerint kell értelmezni.",
       "source_provision": "s2"
+    },
+    {
+      "term": "gyártó",
+      "definition": "és a gyártóra előírt kötelezettségek terhelik. (9) Az importőr a rádióberendezésen, vagy ha ez nem lehetséges, annak csomagolásán vagy a kísérő dokumentáción magyar nyelven feltünteti nevét, bejegyzett kereskedelmi nevét vagy bejegyzett védjegyét és a postai úton történő kapcsolatfelvételt szolgáló címét. (10) Az importőr gondoskodik arról, hogy a rádióberendezéshez angol és magyar nyelven mellékelve legyen a használati és kezelési útmutató, valamint a biztonsági tájékoztató. (10a) Az importőr,",
+      "source_provision": "s9"
+    },
+    {
+      "term": "gyártó",
+      "definition": "és a gyártóra előírt kötelezettségek terhelik.",
+      "source_provision": "s10"
     }
   ]
 }

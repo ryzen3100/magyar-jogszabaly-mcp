@@ -2,10 +2,8 @@
   "id": "hu-law-2017-2-b0-2c",
   "type": "statute",
   "title": "2/2017. (III. 3.) MNB utasítás a Magyar Nemzeti Bank Szervezeti és Működési Szabályzatáról szóló 1/2017. (II. 28.) MNB utasítás módosításáról",
-  "status": "repealed",
-  "in_force_date": "2017-03-04",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2017-2-B0-2C",
-  "description": "a Magyar Nemzeti Bank Szervezeti és Működési Szabályzatáról szóló 1/2017. (II. 28.) MNB utasítás módosításáról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -24,6 +22,11 @@
     {
       "term": "Az SZMSZ II/B. A BANK SZERVEZETI EGYSÉGEINEK FELADATKÖRE rész 1. pontjában foglaltak helyébe a következők lépnek",
       "definition": "„1. Az elnök irányítása alá tartozó szervezeti egységek 1.1. Az elnök közvetlen irányítása alá tartozó szervezeti egységek 1.1.1. Oktatási igazgatóság 1. előkészíti a közgazdasági gondolkodás, illetve az ezt segítő intézményrendszer és infrastruktúra fejlesztése terén hozandó döntéseket, és koordinálja azok végrehajtását",
+      "source_provision": "s2"
+    },
+    {
+      "term": "az elnök közvetlen irányítása alatt álló szervezeti egység",
+      "definition": "a Belső ellenőrzési főosztály is. Az elnök gyakorolja a munkáltatói jogokat a Pénzügyi Békéltető Testület elnöke és a testület tagjai felett az MNB tv.-ben meghatározottak szerint és a pénzügyi szervezetek felügyeletéért és fogyasztóvédelemért felelős alelnök javaslatát is figyelembe véve. Az elnök gyakorolja az előző bekezdés alá nem tartozó munkavállalók felett a munkaviszony létesítésének, a munkaviszony megszüntetésének, javadalmazás megállapításának jogát, mely munkáltatói jogok gyakorlását",
       "source_provision": "s2"
     }
   ]

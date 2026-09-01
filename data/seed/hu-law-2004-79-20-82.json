@@ -2,10 +2,8 @@
   "id": "hu-law-2004-79-20-82",
   "type": "statute",
   "title": "79/2004. (V. 4.) FVM rendelet a vad védelméről, a vadgazdálkodásról, valamint a vadászatról szóló 1996. évi LV. törvény végrehajtásának szabályairól",
-  "status": "in_force",
-  "in_force_date": "2004-05-19",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2004-79-20-82",
-  "description": "a vad védelméről, a vadgazdálkodásról, valamint a vadászatról szóló 1996. évi LV. törvény végrehajtásának szabályairól",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -748,21 +746,6 @@
   ],
   "definitions": [
     {
-      "term": "§ (1) A Vtv. alkalmazásában vadászható állatfajok a következők (a továbbiakban",
-      "definition": "vad): a) nagyvadfajok: 1. Gímszarvas (Cervus elaphus), 2. Dámszarvas (Dama dama), 3. Őz (Capreolus capreolus), 4. Muflon (Ovis gmelini musimon), 5. Vaddisznó (Sus scrofa), 6. Szikaszarvas – Japán szika (Cervus nippon nippon), 7. Szikaszarvas – Dybowski szika (Cervus nippon hortulorum)",
-      "source_provision": "s1"
-    },
-    {
-      "term": "a vadászterület szemközti határvonalainak távolsága akkor",
-      "definition": "háromezer méter alattinak, ha térképen – domborzattól függetlenül – mérve a szemközti vonalak távolsága több mint kétezer méter hosszan nem éri el a háromezer méter távolságot. (4) A vadászterület határa a Vtv. 8. §-a és 19. § (2) bekezdése alkalmazásában olyan, tartós nyomvonalas létesítmény, vonalas jellegű természeti tereptárgy, erdőtag határvonala vagy közigazgatási határvonal lehet, amelynek nyomon követhetősége és beazonosíthatósága az üzemtervi időszak végéig fennmarad.",
-      "source_provision": "s3"
-    },
-    {
-      "term": "napjáig a vadgazdálkodásért felelős miniszter által vezetett minisztérium (a továbbiakban",
-      "definition": "minisztérium) részére tájékoztatás céljából megküldi.",
-      "source_provision": "s5"
-    },
-    {
       "term": "a vad mozgását befolyásoló, tartós telepítésű kerítés",
       "definition": "az olyan kerítés, amely a bekerített mezőgazdasági növénykultúra tenyészidőszakát követő egy hónap elteltével is fennáll. (2) Nem minősül tartós telepítésű kerítésnek a) a mezőgazdasági növénykultúra védelmében telepített ideiglenes villanypásztor, ha az adott földterület legalább 3 hónapig nincsen bekerítve az adott naptári évben, b) az állattenyésztési vagy vadgazdálkodási célból telepített villanypásztor, valamint c) a rét, legelő hasznosítású gyepterületen a legelő háziállatok adott területe",
       "source_provision": "s24"
@@ -773,12 +756,12 @@
       "source_provision": "s44a"
     },
     {
-      "term": "a vadászat rendje megsértésé",
+      "term": "a vadászat rendje megsértése",
       "definition": "a Vtv. 37/A. § (1) bekezdés 11. pontjában meghatározott tiltott vadászati eszköznek a) a Vtv. 37/A. § (3) bekezdésében, valamint az e rendelet 69. § (6) bekezdésében meghatározott esetek kivételével éjszakai vadászat során történő birtoklása, valamint b) társas vadászaton történő használata is.",
       "source_provision": "s75a"
     },
     {
-      "term": "a trófeás vad szakszerűtlen elejtésé",
+      "term": "a trófeás vad szakszerűtlen elejtése",
       "definition": "az olyan legfeljebb középkorú, szabályos trófeájú vad elejtése, amely az elejtés helye szerinti vadgazdálkodási tájegységben élő vadállományra a tájegységi vadgazdálkodási tervben meghatározott, mért trófeajellemzők szerint, korosztályának kiemelkedő minőségű csoportjába tartozik. (3) Az elejtés szakszerűtlenségének minősítése hibapontokkal történik. Ha az elejtés szakszerűtlensége a) kismértékű, 1 hibapont, b) közepes mértékű, 2 hibapont, c) súlyos mértékű, 3 hibapont jár. (4) A Vtv. 74/A. § (2",
       "source_provision": "s76a"
     },
@@ -793,7 +776,7 @@
       "source_provision": "s82"
     },
     {
-      "term": "nagy értékű növénykultúrá",
+      "term": "nagy értékű növénykultúra",
       "definition": "a csemegekukorica, az étkezési napraforgó, a szántóföldi zöldségnövények, az ökológiai gazdálkodásban termesztett növények, valamint a fajta-előállítási, fajtafenntartási, vetőmag-előállítási és kísérleti célú növényállomány. (2) A Vtv. 79. § (1) bekezdés e) pontjának alkalmazásában fokozottan vadkárveszélyes területnek minősül az a mezőgazdasági művelés alatt álló tábla, amelynek szegélye 40%-ot meghaladóan a) erdő, nádas művelési ágba vagy műveléssel felhagyott, a vad elrejtőzését lehetővé tev",
       "source_provision": "s82a"
     }

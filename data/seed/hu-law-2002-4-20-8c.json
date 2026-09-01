@@ -2,10 +2,8 @@
   "id": "hu-law-2002-4-20-8c",
   "type": "statute",
   "title": "4/2002. (V. 8.) ISM rendelet az állami sportinformációs rendszerből teljesített adatszolgáltatás igazgatási szolgáltatási díjairól",
-  "status": "in_force",
-  "in_force_date": "2002-05-23",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2002-4-20-8C",
-  "description": "az állami sportinformációs rendszerből teljesített adatszolgáltatás igazgatási szolgáltatási díjairól",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -48,6 +46,13 @@
       "section": "7",
       "title": "7. §",
       "content": "7. § (1) Ez a rendelet a kihirdetését követő 15. napon lép hatályba. (2) E rendelet alkalmazásában csoportképző ismérv alapján történő adatigénylésnek minősül, ha a kérelmező több adatszolgáltató meghatározott szempontok szerint csoportosított adatát igényli. 1. Egy eljárásban kért, egy adatszolgáltató adatait tartalmazó adatszolgáltatás díjának összege 1500 Ft. 2. Csoportképző ismérvek alapján egy eljárásban történő adatszolgáltatás esetén fizetendő díj összege a tételszám és a díjtétel szorzata, de legalább 3000 Ft. ----------------- Tételszámövezet FT/tétel ----------------- 1–5 000 40 5 000–20 000 30 20 000–50 000 25 50 000-től 20 címe:.................................. képviselőjének neve:................... II. A kért adatkör meghatározása egyedi adatszolgáltatás esetén: ...................................... IV. Az adatigénylés tárgyát azonosító adatok: ....................................... Kelt:..............,..... év............ hó..... nap ................... aláírás P. H. Érkezett: Ikt.szám: Továbbítva: Címzett: 1 A bevezető rész az 55/2005. (XI. 18.) BM rendelet 2. § (1) bekezdésével megállapított szöveg. 2 A 2. § (2) bekezdése az 55/2005. (XI. 18.) BM rendelet 2. § (2) bekezdésével megállapított, a 15/2007. (VI. 26.) ÖTM rendelet 8. § (1) bekezdése szerint módosított szöveg. 3 A 2. § (3)–(4) bekezdését a 15/2007. (VI. 26.) ÖTM rendelet 11. § (2) bekezdése hatályon kívül helyezte. 4 A 3. § a 15/2007. (VI. 26.) ÖTM rendelet 8. § (2) bekezdése szerint módosított szöveg. 5 A 4. § (1) bekezdése a 15/2007. (VI. 26.) ÖTM rendelet 8. § (3) bekezdésével megállapított szöveg. 6 A 4. § (4) bekezdése a 15/2007. (VI. 26.) ÖTM rendelet 8. § (2) bekezdése szerint módosított szöveg."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "csoportképző ismérv alapján történő adatigénylés",
+      "definition": "ha a kérelmező több adatszolgáltató meghatározott szempontok szerint csoportosított adatát igényli. 1. Egy eljárásban kért, egy adatszolgáltató adatait tartalmazó adatszolgáltatás díjának összege 1500 Ft. 2. Csoportképző ismérvek alapján egy eljárásban történő adatszolgáltatás esetén fizetendő díj összege a tételszám és a díjtétel szorzata, de legalább 3000 Ft. ----------------- Tételszámövezet FT/tétel ----------------- 1–5 000 40 5 000–20 000 30 20 000–50 000 25 50 000-től 20 címe:...........",
+      "source_provision": "s7"
     }
   ]
 }

@@ -2,10 +2,8 @@
   "id": "hu-law-2020-8-b0-77",
   "type": "statute",
   "title": "8/2020. (XII. 18.) GVH utasítás a munkavédelmi szabályzatról",
-  "status": "in_force",
-  "in_force_date": "2021-01-01",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2020-8-B0-77",
-  "description": "a munkavédelmi szabályzatról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -160,9 +158,9 @@
   ],
   "definitions": [
     {
-      "term": "(XI. 3.) EüM rendelet [a továbbiakban",
-      "definition": "50/1999. (XI. 3.) EüM rendelet] szerinti szem- és látásvizsgálat elvégzését a Hivatal a 12. § (1) bekezdése szerinti foglalkozás-egészségügyi szolgáltatás keretében biztosítja. (2) Az 50/1999. (XI. 3.) EüM rendelet alkalmazásában – a gépkocsivezetői álláshelyet kivéve – a Hivatalnál betöltött minden álláshely képernyős munkakörnek minősül.",
-      "source_provision": "s15"
+      "term": "kötelező orvosi vizsgálat",
+      "definition": "amelynek tartamára a munkatárs mentesül a rendelkezésre állási, illetve munkavégzési kötelezettségének teljesítése alól, és a munkából való távolmaradása igazoltnak tekintendő.",
+      "source_provision": "s12"
     }
   ]
 }

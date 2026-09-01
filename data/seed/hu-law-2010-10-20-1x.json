@@ -2,10 +2,8 @@
   "id": "hu-law-2010-10-20-1x",
   "type": "statute",
   "title": "10/2010. (IV. 15.) SZMM rendelet a felnőttképzési szakértői tevékenység folytatásának részletes szabályairól",
-  "status": "repealed",
-  "in_force_date": "2010-04-23",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2010-10-20-1X",
-  "description": "a felnőttképzési szakértői tevékenység folytatásának részletes szabályairól",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -84,6 +82,13 @@
       "section": "13",
       "title": "13. §",
       "content": "13. § Ez a rendelet a belső piaci szolgáltatásokról szóló, 2006. december 12-i 2006/123/EK európai parlamenti és tanácsi irányelv 9. cikkének való megfelelést szolgálja. 1 A rendeletet a 14/2014. (III. 31.) NGM rendelet 15. §-a hatályon kívül helyezte 2014. április 1. napjával. 2 A 3. § (1) bekezdése a 3/2012. (II. 10.) NGM rendelet 22. § a) pontja szerint módosított szöveg. 3 A 3. § (3) bekezdése a 3/2012. (II. 10.) NGM rendelet 22. § b) pontja szerint módosított szöveg. 4 Az 5. § nyitó szövegrésze a 3/2012. (II. 10.) NGM rendelet 22. § c) pontja szerint módosított szöveg. 5 A 8. § (1) bekezdés nyitó szövegrésze a 3/2012. (II. 10.) NGM rendelet 22. § d) pontja szerint módosított szöveg. 6 A 8. § (2) bekezdése a 3/2012. (II. 10.) NGM rendelet 22. § b) pontja szerint módosított szöveg. 7 A 10. § a 3/2012. (II. 10.) NGM rendelet 22. § e) pontja szerint módosított szöveg. 8 A 12. § (3) bekezdése a 3/2012. (II. 10.) NGM rendelet 22. § f) pontja szerint módosított szöveg."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "szakmai gyakorlat",
+      "definition": "a felnőttképzés területén, munkavégzésre irányuló bármely jogviszony keretében, vagy egyéni vállalkozóként, egyéni cégként folytatott oktatási, gyakorlatvezetési, oktatásszervezési, fejlesztési, irányítási, igazgatási, minőségbiztosítási, mérési, értékelési, kutatási tevékenység.",
+      "source_provision": "s2"
     }
   ]
 }

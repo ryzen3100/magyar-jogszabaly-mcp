@@ -2,10 +2,8 @@
   "id": "hu-law-2024-6-b0-53",
   "type": "statute",
   "title": "6/2024. (VI. 14.) PM utasítás a Magyar Államkincstár Szervezeti és Működési Szabályzatáról",
-  "status": "repealed",
-  "in_force_date": "2024-06-22",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2024-6-B0-53",
-  "description": "a Magyar Államkincstár Szervezeti és Működési Szabályzatáról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -570,23 +568,6 @@
       "section": "27/A",
       "title": "27/A. §",
       "content": "27/A. § A Mezőgazdasági és Vidékfejlesztési Támogatások Informatikai Főosztálya 1. feladata a Nemzeti Kifizető Ügynökség vezetéséért felelős elnökhelyettes irányítása alá tartozó szervezeti egységek feladatainak és a kifizető ügynökségi feladatok informatikai támogatásának folyamatos és zavartalan biztosítása, továbbá a fővárosi és vármegyei kormányhivatalokra átruházott feladatok támogatásához szükséges központi informatikai infrastruktúra menedzselése, felügyelete, szakmai irányítása és kontrollja; 2. elkészíti az éves alkalmazásfejlesztési és beszerzési tervet; 3. részt vesz az informatikai fejlesztések tesztjeiben, biztosítja a tesztekhez szükséges megfelelő alkalmazáskörnyezetet, részt vesz az új alkalmazásokhoz, valamint a verzióváltásokhoz kapcsolódó átvételi tesztek és az ügymenet-folytonossággal összefüggő tesztek végrehajtásában, ellenőrzésében, a tesztek kiértékelésében, továbbá a megrendelő ügyviteli egységgel egyeztetett többszintű teszteredmények értékelését és vezető általi engedélyezését követően kiadja az élesítési engedélyeket; 4. koncepcionális szintű rendszertervek készítésével közreműködik az ügyviteli folyamatok informatikai támogatásának tervezésében, szerepkörei és felelősségei meghatározásában, valamint az automatizálható részek felderítésében; 5. kezdeményezi az elkészített fejlesztések rendszerüzemeltetésre való átadását, felelős a hatáskörében elvégzett és mások bevonásával végeztetett fejlesztések dokumentáltságáért; 6. végrehajtja a jogszabályváltozásokból eredő, a szakigazgatási és ügyvitelszervezési területek által megfogalmazott informatikai fejlesztési feladatokat; 7. fogadja a hatáskörébe utalt tevékenységekhez kapcsolódó, a felhasználói területekről érkező igényeket, hibákat, kezeli, koordinálja és szükség szerint nyomon követi azok megoldását, szükség esetén kapcsolatot tart az alkalmazás készítőjével; 8. kezeli az EMGA és EMVA nemzeti kifizető ügynökség alapfeladatihoz kapcsolódó ügyviteli alkalmazásokkal kapcsolatban felmerülő változtatási igényeket: a beérkező informatikai fejlesztési igények alapján egyeztet a megrendelő szakmai területtel, ez alapján meghatározza a fejlesztéshez szükséges erőforrásokat, elkészíti vagy külső erőforrás bevonásával elkészítteti a szükséges programokat és informatikai dokumentációkat, kidolgozza az üzembehelyezési eljárásokat, gondoskodik az adott feladat határidőre történő végrehajtásáról, közreműködik a felhasználói dokumentumok, kézikönyvek összeállításában, átadja az alkalmazást a rendszerüzemeltetésért felelős szervezeti egységnek; 9. a hatáskörébe utalt felhasználói rendszerek esetében gondoskodik a fejlesztési, tesztelési és üzemeltetési dokumentációk meglétéről; 10. szükség szerint rendszerszervező támogatást nyújt a Kincstár által megfogalmazott szakmai igények informatikai megvalósításához; 11. a nemzeti kifizető ügynökségi és a Szabályzat 7. §-a szerinti feladatok kezelésére szolgáló Mezőgazdasági és Vidékfejlesztési Támogatási Nyilvántartási Rendszer (a továbbiakban: MVTNYR) tekintetében alkalmazásmenedzseri funkciókat lát el; 12. az MVTNYR tekintetében szakmai kapcsolatot tart a szerződéses partnerekkel, és megadja a teljesítési igazolás alapjául szolgáló adatokat a szerződéses partnereknek; 13. karbantartja feladatai ellátása vonatkozásában az informatikai programokat, interfészeket, elvégzi a fejlesztések nyomán előállt eredménytermékek informatikai architekturális és technológiai ellenőrzését; 14. kezdeményezi az elkészített fejlesztések rendszerüzemeltetésre való átadását, felelős a hatáskörében elvégzett és mások bevonásával végeztetett fejlesztések dokumentáltságáért; 15. informatikai szakterületen belüli koordinációs feladatokban támogatja az IBIR-vezetőt az EMGA és EMVA kifizető ügynökségi folyamatok ISO 27001-es tanúsításának megszerzésével és fenntartásával kapcsolatos tevékenységekben; 16. biztosítja, hogy valamennyi informatikai üzemeltetési tevékenység kizárólag ellenőrzött, szabályozott módon és korszerű minőségbiztosítási elvek alapján menjen végbe, és felelős azért, hogy az adatvédelem és informatikai biztonság megfelelő szintet érjen el; 17. a fővárosi és vármegyei kormányhivatalok informatikai munkatársait felkészíti a fővárosi és vármegyei kormányhivatalokra átruházott feladatok tekintetében a feladataik elvégzésére, és szakmai segítséget nyújt részükre; 18. ellátja az MVTNYR tekintetében az infrastruktúra-üzemeltetési funkciókat; 19. a meglévő szervízmegállapodások mentén gondoskodik az EMGA és EMVA nemzeti kifizető ügynökségi informatikai infrastruktúra eszközeinek karbantartásáról, biztosítja azok folyamatos és biztonságos működését, szükség esetén külső erőforrás bevonásával; 20. megtervezi, üzemelteti és karbantartja a feladatai ellátásához közvetlenül kapcsolódó szolgáltatásokat, hardver- és szoftvereszközöket az EMVA és EMGA nemzeti kifizető ügynökségi folyamatok tekintetében; 21. szükség szerint részt vesz az MVTNYR infrastruktúra és a Kincstár informatikai infrastruktúra közös fejlesztési és tervezési folyamataiban, biztosítja a Kincstár informatikai infrastruktúra és az MVTNYR infrastruktúra közötti kapcsolatokat; 22. biztosítja a helyi és országos adatátviteli szolgáltatásokat, a külső egyedi elérések technikai feltételeit, valamint az MVTNYR rendszereihez a hozzáféréseket, és nyilvántartja az ehhez kapcsolódó jogosultságokat; 23. biztosítja a mezőgazdasági és vidékfejlesztési informatikai rendszerek és ügyviteli alkalmazások működésével kapcsolatos hibakezelési segítőszolgálatot (HelpDesk); 24. az EU Bizottság, az Illetékes Hatóság és az általa megbízott Tanúsító szerv ellenőrzései során feltárt kockázati hiányosságokra intézkedési tervet készít, az intézkedések végrehajtásáról folyamatosan beszámol. 9. A TÁMOGATÁSI IGAZGATÓ IRÁNYÍTÁSA ALÁ TARTOZÓ SZERVEZETI EGYSÉGEK 9.1. EU TÁMOGATÁSI FŐOSZTÁLY"
-    }
-  ],
-  "definitions": [
-    {
-      "term": "a miniszter által előírt módon, az Államadósság Kezelő Központ Zártkörűen Működő Részvénytársasággal (a továbbiakban",
-      "definition": "ÁKK Zrt.) együttműködve előrejelzi a kincstári kör, valamint a Kincstár által vezetett egyéb számlák kiadásai és bevételei összesített egyenlegének alakulását",
-      "source_provision": "s6"
-    },
-    {
-      "term": "gondoskodik az Európai Unió (a továbbiakban",
-      "definition": "EU) közös költségvetéséhez való hozzájárulásokkal kapcsolatos, jogszabályban meghatározott feladatok ellátásáról",
-      "source_provision": "s6"
-    },
-    {
-      "term": "évi LXXXI. törvény (a továbbiakban",
-      "definition": "Tny.) 102/A. §-a szerinti növelést",
-      "source_provision": "s6"
     }
   ]
 }

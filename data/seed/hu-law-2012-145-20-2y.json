@@ -2,10 +2,8 @@
   "id": "hu-law-2012-145-20-2y",
   "type": "statute",
   "title": "145/2012. (XII. 27.) VM rendelet a hulladékolajjal kapcsolatos hulladékgazdálkodási tevékenységek részletes szabályairól",
-  "status": "in_force",
-  "in_force_date": "2013-01-01",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2012-145-20-2Y",
-  "description": "a hulladékolajjal kapcsolatos hulladékgazdálkodási tevékenységek részletes szabályairól",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -72,6 +70,13 @@
       "section": "11",
       "title": "11. §",
       "content": "11. § 1 A 4. § (1) bekezdés b) pontja a 72/2013. (VIII. 27.) VM rendelet 9. §-a szerint módosított szöveg. 2 Az 5. §-t a 72/2013. (VIII. 27.) VM rendelet 10. § (3) bekezdése hatályon kívül helyezte. 3 A 6. § (1) bekezdése a 43/2016. (VI. 28.) FM rendelet 5. § a) pontja szerint módosított szöveg. 4 A 6. § (2) bekezdését a 16/2021. (IV. 9.) ITM rendelet 3. §-a hatályon kívül helyezte. 5 A 8. § (1) bekezdése a 43/2016. (VI. 28.) FM rendelet 5. § b) pontja szerint módosított szöveg. 6 A 11. § a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "hulladékolajjal kapcsolatos tevékenység",
+      "definition": "a) a hulladékolaj átvétele, gyűjtése, szállítása, kezelése és tárolása",
+      "source_provision": "s1"
     }
   ]
 }

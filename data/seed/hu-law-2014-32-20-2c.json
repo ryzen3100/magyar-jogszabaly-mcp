@@ -2,10 +2,8 @@
   "id": "hu-law-2014-32-20-2c",
   "type": "statute",
   "title": "32/2014. (IX. 10.) MNB rendelet a jövedelemarányos törlesztőrészlet és a hitelfedezeti arányok szabályozásáról",
-  "status": "in_force",
-  "in_force_date": "2015-01-01",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2014-32-20-2C",
-  "description": "a jövedelemarányos törlesztőrészlet és a hitelfedezeti arányok szabályozásáról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -57,6 +55,11 @@
     }
   ],
   "definitions": [
+    {
+      "term": "a) a fizetőképesség helyreállításával indokolt mértékű hitelnyújtás",
+      "definition": "ha a hitelnyújtó az ingatlanra bejegyzett végrehajtási jog vagy jelzálogjog jogosultja követelésének kielégítése érdekében nyújtja az új hitelt, b) a hiteltartozás összege nem növekszik, ha az új hitel folyósításkori összege a hitelnyújtók közötti árfolyamkülönbség és az eredeti hiteltartozás lezárásához vagy az új hitel folyósításához kapcsolódó igazolt díjak, költségek miatt haladja meg az eredeti hiteltartozás kiváltáskor fennálló összegét, és az új hitelnyújtó a hiteltartozás összegét halad",
+      "source_provision": "s1"
+    },
     {
       "term": "§ E rendelet alkalmazásában 1. bér",
       "definition": "a személyi jövedelemadóról szóló törvényben (a továbbiakban: Szja. tv.) meghatározott fogalom",

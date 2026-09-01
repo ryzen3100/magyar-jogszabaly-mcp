@@ -2,10 +2,8 @@
   "id": "hu-law-2012-12-20-3h",
   "type": "statute",
   "title": "12/2012. (VIII. 9.) NMHH rendelet a Nemzeti Média- és Hírközlési Hatóság egyes eljárásainak igazgatási szolgáltatási díjairól és a díjfizetés módjáról szóló 5/2011. (X. 6.) NMHH rendelet módosításáról",
-  "status": "repealed",
-  "in_force_date": "2012-09-08",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2012-12-20-3H",
-  "description": "a Nemzeti Média- és Hírközlési Hatóság egyes eljárásainak igazgatási szolgáltatási díjairól és a díjfizetés módjáról szóló 5/2011. (X. 6.) NMHH rendelet módosításáról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -72,6 +70,13 @@
       "section": "10",
       "title": "10. §",
       "content": "10. § (1) E rendelet a kihirdetését követő 30. napon lép hatályba és a hatálybalépését követő napon hatályát veszti. (2) Hatályát veszti a frekvencialekötés és -használat díjáról szóló 1/2011. (III. 31.) NMHH rendelet módosításáról szóló 8/2011. (XI. 3.) NMHH rendelet. 1 A rendelet a 10. § (1) bekezdése alapján hatályát vesztette 2012. szeptember 9. napján."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "a) rövidfilm",
+      "definition": "a 30 perc időtartamot el nem érő önálló filmalkotás",
+      "source_provision": "s3"
     }
   ]
 }

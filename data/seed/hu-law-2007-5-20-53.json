@@ -2,10 +2,8 @@
   "id": "hu-law-2007-5-20-53",
   "type": "statute",
   "title": "5/2007. (III. 28.) PM rendelet a származtatott (derivatív) ügyletek fedezetbe vonásáról és nyilvántartásáról",
-  "status": "in_force",
-  "in_force_date": "2007-04-05",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2007-5-20-53",
-  "description": "a származtatott (derivatív) ügyletek fedezetbe vonásáról és nyilvántartásáról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -45,11 +43,6 @@
     }
   ],
   "definitions": [
-    {
-      "term": "évi XXX. törvényben (a továbbiakban",
-      "definition": "Jht.) és az e rendeletben meghatározott feltételek teljesülése esetén rendes fedezetként veheti figyelembe az általa kibocsátott jelzáloglevelekkel, valamint az ezen jelzáloglevelek fedezeteivel kapcsolatban kötött származtatott (derivatív) ügyleteket. (2) E rendelet alkalmazásában 1. nominális érték: a pénzáramlások futamidő végéig számított, a tárgynapon ismert ügyletek és feltételek alapján összesített értéke",
-      "source_provision": "s1"
-    },
     {
       "term": "nettósított érték",
       "definition": "a származtatott (derivatív) ügylet tárgynapon számított jelenértéke korrigálva a derivatív partnernek átadott, vagy a derivatív partnertől kapott biztosítékok összegével.",

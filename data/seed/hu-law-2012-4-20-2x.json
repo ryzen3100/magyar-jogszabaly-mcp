@@ -2,10 +2,8 @@
   "id": "hu-law-2012-4-20-2x",
   "type": "statute",
   "title": "4/2012. (II. 14.) NGM rendelet a kiemelt adózók kijelöléséről, valamint a legnagyobb adóteljesítménnyel rendelkező adózók körének megállapításáról",
-  "status": "repealed",
-  "in_force_date": "2012-02-15",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2012-4-20-2X",
-  "description": "a kiemelt adózók kijelöléséről, valamint a legnagyobb adóteljesítménnyel rendelkező adózók körének megállapításáról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -54,6 +52,13 @@
       "section": "7",
       "title": "7. §",
       "content": "7. § 1 A rendeletet a 48/2017. (XII. 29.) NGM rendelet 28. § d) pontja hatályon kívül helyezte 2018. január 1. napjával. 2 Az 1. § az 50/2012. (XII. 28.) NGM rendelet 1. §-ával megállapított, nyitó szövegrésze a 63/2016. (XII. 29.) NGM rendelet 11. §-a szerint módosított szöveg. 3 Az 1. § b) pont bb) alpontja a 47/2015. (XII. 30.) NGM rendelet 15. § a) pontja szerint módosított szöveg. 4 A 2. § a 63/2016. (XII. 29.) NGM rendelet 10. §-ával megállapított szöveg. 5 A 4. § e) pontját a 72/2013. (XII. 30.) NGM rendelet 1. §-a iktatta be. 6 Az 5. § a 72/2013. (XII. 30.) NGM rendelet 2. § 4. pontja szerint módosított szöveg. 7 Az 5/A. §-t a 47/2015. (XII. 30.) NGM rendelet 14. §-a iktatta be. 8 A 7. § a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "adózó",
+      "definition": "az általános forgalmi adóról szóló törvény szerinti csoportos adóalany (áfa csoport). (2) Az áfa csoport adóteljesítményének számításakor kizárólag az áfa csoport bevallásában szereplő, a 4. § a) pont szerinti adatokat kell figyelembe venni. Ha az adózó az adóévet megelőző hatodik év január 1-jétől az adóévet megelőző év június 30-áig terjedő időszakban (vizsgált időszak) áfa csoport tagja volt, az adózó adóteljesítményének számításakor az áfa csoport bevallásában szereplő adatokat figyelmen kív",
+      "source_provision": "s5a"
     }
   ]
 }

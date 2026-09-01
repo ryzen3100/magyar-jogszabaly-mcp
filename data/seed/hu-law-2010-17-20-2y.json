@@ -2,10 +2,8 @@
   "id": "hu-law-2010-17-20-2y",
   "type": "statute",
   "title": "17/2010. (IX. 30.) VM rendelet az Európai Mezőgazdasági Vidékfejlesztési Alapból nem termelő mezőgazdasági beruházásokhoz nyújtandó támogatások részletes feltételeiről szóló 33/2008. (III. 27.) FVM rendelet módosításáról",
-  "status": "repealed",
-  "in_force_date": "2010-10-01",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2010-17-20-2Y",
-  "description": "az Európai Mezőgazdasági Vidékfejlesztési Alapból nem termelő mezőgazdasági beruházásokhoz nyújtandó támogatások részletes feltételeiről szóló 33/2008. (III. 27.) FVM rendelet módosításáról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -90,6 +88,11 @@
     {
       "term": "§ Az R. 4. § (4) bekezdés e) pontja helyébe a következő rendelkezés lép",
       "definition": "[E rendelet alkalmazásában az eszközbeszerzés esetén felmerült elszámolható kiadásnak minősül:] „e) a létesítéshez kapcsolódó költségek közül az EMVA általános rendelet 31. §-ában – a 31. § (1) bekezdés c) és d) pontjainak kivételével – meghatározott mértékű kiadások.”",
+      "source_provision": "s4"
+    },
+    {
+      "term": "az eszközbeszerzés esetén felmerült elszámolható kiadás",
+      "definition": "] „e) a létesítéshez kapcsolódó költségek közül az EMVA általános rendelet 31. §-ában – a 31. § (1) bekezdés c) és d) pontjainak kivételével – meghatározott mértékű kiadások.”",
       "source_provision": "s4"
     }
   ]

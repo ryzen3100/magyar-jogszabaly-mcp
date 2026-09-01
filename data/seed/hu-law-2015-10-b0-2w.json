@@ -2,10 +2,8 @@
   "id": "hu-law-2015-10-b0-2w",
   "type": "statute",
   "title": "10/2015. (IV. 2.) NFM utasítás a protokollkiadásokról szóló 29/2011. (V. 23.) NFM utasítás módosításáról",
-  "status": "repealed",
-  "in_force_date": "2015-04-03",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2015-10-B0-2W",
-  "description": "a protokollkiadásokról szóló 29/2011. (V. 23.) NFM utasítás módosításáról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -78,6 +76,13 @@
       "section": "12",
       "title": "12. §",
       "content": "12. § Ez az utasítás a közzétételét követő napon lép hatályba. „ 2. Igényelt szolgáltatások: Megnevezés Létszám/fő Alkalom Költség külföldi belföldi összesen A reprezentáció fajtája 1. Kávé, tea, ásványvíz*: 2. Reggeli/ebéd/vacsora*: 3. Terembérleti díj: 4. Szállásköltség: 5. Virágvásárlás: 6. Ajándékvásárlás: 7. Kormányváró: 8. Egyéb: _______________ Kiadás összesen: * Kérjük megjelölni! ” 1 Az utasítás a 2010: CXXX. törvény 12. § (3) bekezdése alapján hatályát vesztette 2015. április 4. napjával."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "vendéglátásnak és reprezentáció",
+      "definition": ") „a) a miniszter, az államtitkárok, a közigazgatási államtitkár, a helyettes államtitkárok (a továbbiakban együtt: állami vezetők), a miniszteri kabinetfőnök, a Miniszteri Titkárság vezetője és a miniszteri biztos külföldi vendégeinek magyarországi tartózkodásával kapcsolatos költsége. Így különösen: étkezési és szállásköltség, tárgyalási bekészítés, terembérleti díj, ajándékozás, dekoráció, idegenvezető, virág, kulturális, rekreációs, sportprogram, városnézés, oktatási intézmény, alapítvány, v",
+      "source_provision": "s1"
     }
   ]
 }

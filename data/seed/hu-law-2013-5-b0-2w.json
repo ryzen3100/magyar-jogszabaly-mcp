@@ -2,10 +2,8 @@
   "id": "hu-law-2013-5-b0-2w",
   "type": "statute",
   "title": "5/2013. (I. 31.) NFM utasítás a protokollkiadásokról szóló 29/2011. (V. 23.) NFM utasítás módosításáról",
-  "status": "repealed",
-  "in_force_date": "2013-02-01",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2013-5-B0-2W",
-  "description": "a protokollkiadásokról szóló 29/2011. (V. 23.) NFM utasítás módosításáról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -72,6 +70,13 @@
       "section": "11",
       "title": "11. §",
       "content": "11. § Ez az utasítás a közzétételét követő napon lép hatályba. „5. melléklet a 29/2011. (V. 23.) NFM utasításhoz Sorszám: AJÁNDÉK-IGÉNYLŐLAP 1. Megrendelő / megajándékozott: 2. Igényelt ajándék: * Kérjük megjelölni! Budapest, dátum igénylő aláírása megrendelő szervezeti egység vezetője átvevő neve, aláírása Az utasítás 4.1. pontja szerinti engedélyező állami vezető: név, aláírás ” 1 Az utasítás a 2010: CXXX. törvény 12. § (3) bekezdése alapján hatályát vesztette 2013. február 2. napjával."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "vendéglátásnak és reprezentációja",
+      "definition": ") „a) a miniszter, államtitkárok, közigazgatási államtitkár, helyettes államtitkárok (a továbbiakban együtt: állami vezetők), kabinetfőnök, kabinetfőnök-helyettes és miniszteri biztos külföldi vendégeinek magyarországi tartózkodásával kapcsolatos költsége. Így különösen: étkezési és szállásköltség, tárgyalási bekészítés, ajándékozás, dekoráció, idegenvezető, virág, kulturális, rekreációs, sportprogram, városnézés, oktatási intézmény, alapítvány, vállalat megtekintésének költségei",
+      "source_provision": "s1"
     }
   ]
 }

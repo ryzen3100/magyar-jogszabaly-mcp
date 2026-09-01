@@ -2,10 +2,8 @@
   "id": "hu-law-2014-23-20-2x",
   "type": "statute",
   "title": "23/2014. (VI. 30.) NGM rendelet a számla és a nyugta adóigazgatási azonosításáról, valamint az elektronikus formában megőrzött számlák adóhatósági ellenőrzéséről",
-  "status": "in_force",
-  "in_force_date": "2014-07-01",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2014-23-20-2X",
-  "description": "a számla és a nyugta adóigazgatási azonosításáról, valamint az elektronikus formában megőrzött számlák adóhatósági ellenőrzéséről",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -315,6 +313,11 @@
       "term": "adatexport",
       "definition": "az adóalany által elektronikus adathordozón tárolt adatoknak az állami adó- és vámhatóság rendelkezésére bocsátása a 2. melléklet szerint és a 3. mellékletben meghatározott adatszerkezetben vagy a 13/A. § (1) bekezdése szerinti közleményben meghatározott adatszerkezetben.",
       "source_provision": "s2"
+    },
+    {
+      "term": "abban az időpontban",
+      "definition": "kiállítottnak, amely időponttal a számlázó program az előállított számla, számlával egy tekintet alá eső okirat adatait lezárja.",
+      "source_provision": "s8"
     }
   ]
 }

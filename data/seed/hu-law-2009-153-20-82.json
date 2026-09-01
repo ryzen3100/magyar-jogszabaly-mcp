@@ -2,10 +2,8 @@
   "id": "hu-law-2009-153-20-82",
   "type": "statute",
   "title": "153/2009. (XI. 13.) FVM rendelet az erdőről, az erdő védelméről és az erdőgazdálkodásról szóló 2009. évi XXXVII. törvény végrehajtásáról",
-  "status": "repealed",
-  "in_force_date": "2009-11-21",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2009-153-20-82",
-  "description": "az erdőről, az erdő védelméről és az erdőgazdálkodásról szóló 2009. évi XXXVII. törvény végrehajtásáról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -472,7 +470,7 @@
   ],
   "definitions": [
     {
-      "term": "az erdő felújítására vonatkozó erdőgazdálkodási szabályok megsértésé",
+      "term": "az erdő felújítására vonatkozó erdőgazdálkodási szabályok megsértése",
       "definition": "ha az érintett erdőgazdálkodók valamelyike a tarvágás bejelentésének évében, vagy az azt megelőző két évben az erdészeti hatóság jogerős határozatban tett megállapítása és az Adattári nyilvántartás adatai szerint az adott tárgyév elején erdőfelújítási kötelezettség alatt álló erdeinek 5 százalékán túllépte az erdő felújítására vonatkozó határidőt. (4) Erdőfelújítási biztosíték nyújtásának előírása esetén az erdészeti hatóság az erdőfelújítási biztosíték nyújtásának igazolásáig a bejelentett fak",
       "source_provision": "s46"
     },
@@ -487,7 +485,7 @@
       "source_provision": "s50"
     },
     {
-      "term": "erdészeti szaporítóanyag gyűjtésé",
+      "term": "erdészeti szaporítóanyag gyűjtése",
       "definition": "az erdei fafajok magjának, a faállomány alatt megtelepült csemetéinek gyűjtése, valamint a dugványozás céljából végzett hajtásszedés.",
       "source_provision": "s52"
     }

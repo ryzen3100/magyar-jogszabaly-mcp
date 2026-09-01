@@ -2,10 +2,8 @@
   "id": "hu-law-2017-18-20-5z",
   "type": "statute",
   "title": "18/2017. (XII. 21.) MEKH rendelet a hálózathasználati szerződés felek általi megszegésének egyes eseteire vonatkozó jogkövetkezmények mértékéről és alkalmazásáról",
-  "status": "in_force",
-  "in_force_date": "2018-02-19",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2017-18-20-5Z",
-  "description": "a hálózathasználati szerződés felek általi megszegésének egyes eseteire vonatkozó jogkövetkezmények mértékéről és alkalmazásáról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -174,13 +172,6 @@
       "section": "28",
       "title": "28. §",
       "content": "28. § (1) E rendeletet – a (2) bekezdésben meghatározott kivétellel – 2019. augusztus 1. napjától a hálózathasználati szerződés felek általi megszegésének egyes eseteire vonatkozó jogkövetkezmények mértékéről és alkalmazásáról szóló 18/2017. (XII. 21.) MEKH rendelet módosításáról szóló 6/2019. (VI. 12.) MEKH rendelet (a továbbiakban: Módr.) hatálybalépése előtt megkötött hálózathasználati szerződésekre is alkalmazni kell. (2) A Módr. hatálybalépésekor hatályos hálózathasználati szerződések esetében a Módr.-rel megállapított 3. § (1) és (2) bekezdése szerinti fénykép vagy felvétel rendelkezésre állását mint a szabálytalan vételezés jogkövetkezményeinek megállapításához szükséges előfeltételt, 2023. január 1-jétől kell alkalmazni. K=Ka*Mt*It*X ahol K: a felhasználó által fizetendő kötbér mértéke Ka: kötbér alap Mt: minősítési tényező It: ismétlődési tényező X: Amperben meghatározott csatlakozási érték"
-    }
-  ],
-  "definitions": [
-    {
-      "term": "évi LXXXVI. törvény (a továbbiakban",
-      "definition": "VET) 3. §-ában és a villamos energiáról szóló 2007. évi LXXXVI. törvény egyes rendelkezéseinek végrehajtásáról szóló 273/2007. (X. 19.) Korm. rendelet (a továbbiakban: Vhr.) 1. §-ában foglalt rendelkezések irányadók.",
-      "source_provision": "s2"
     }
   ]
 }

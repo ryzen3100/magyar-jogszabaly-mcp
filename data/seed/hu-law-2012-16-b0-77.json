@@ -2,10 +2,8 @@
   "id": "hu-law-2012-16-b0-77",
   "type": "statute",
   "title": "16/2012. (XII. 7.) GVH utasítás a Gazdasági Versenyhivatal közszolgálati szabályzatáról",
-  "status": "repealed",
-  "in_force_date": "2012-12-01",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2012-16-B0-77",
-  "description": "a Gazdasági Versenyhivatal közszolgálati szabályzatáról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -615,6 +613,13 @@
       "section": "62",
       "title": "62. §",
       "content": "62. § A Humánerőforrás Iroda által biztosítandó iratminták 1. Pályázati felhívás kiírását kezdeményező irat 2. Felvételi javaslat 3. Adatfelvételi lap 4. Nyilatkozat arcfénykép nyilvántartásához való hozzájáruláshoz 5. Munkaköri leírás 6. Rendkívüli munkavégzés elrendeléséről szóló irat 7. Rendkívüli munkavégzés teljesítésének igazolásáról és ellentételezésének elrendeléséről szóló irat 8. Képzés engedélyezése iránti kérelem 9. Munkavégzés alóli tanulmányi célú mentesítés iránti kérelem 10. Jegyzőkönyv munkakör átadás-átvételéről 11. Elszámoló lap 12. Lakásépítést, lakásvásárlást, lakáskorszerűsítést támogató kamatmentes munkáltatói kölcsön iránti kérelem 13. Lakásépítést, lakásvásárlást, lakáskorszerűsítést támogató kamatmentes munkáltatói kölcsönre vonatkozó szerződés mintája 14. Gyermekszületés esetén nyújtott egyösszegű támogatás iránti igény 15. Rendkívüli szociális segély iránti kérelem 16. Rendkívüli szociális segéllyel kapcsolatos jövedelemigazolás 17. Illetményelőleg iránti kérelem 18. Képzés költségének megtérítése iránti kérelem 19. Temetési segély iránti igény 20. Munkába járással kapcsolatos utazási költségtérítés iránti kérelem 21. Kérelem a rendes munkavégzési időszakon túli munkavégzés céljából a Hivatal épületébe való belépés engedélyezésére 22. Értékelés a köztisztviselő próbaidő alatti szakmai munkájáról 23. Nyilatkozat a választás alapú juttatási csomag igényléséhez 24. Kérelem a jogi szakvizsga letétele és az arra történő felkészülés érdekében a munkavégzési kötelezettség alóli mentesítés iránt"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "a) lakás építése",
+      "definition": "a lakás bővítése is legalább egy önálló lakószoba erejéig, ideértve a tetőtér beépítését is",
+      "source_provision": "s34"
     }
   ]
 }

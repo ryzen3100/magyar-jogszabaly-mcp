@@ -2,10 +2,8 @@
   "id": "hu-law-1998-18-20-0b",
   "type": "statute",
   "title": "18/1998. (XII. 27.) EüM rendelet az egészségügyről szóló 1997. évi CLIV. törvénynek a szerv- és szövetátültetésre, valamint -tárolásra és egyes kórszövettani vizsgálatokra vonatkozó rendelkezései végrehajtásáról",
-  "status": "in_force",
-  "in_force_date": "1999-01-01",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/1998-18-20-0B",
-  "description": "az egészségügyről szóló 1997. évi CLIV. törvénynek a szerv- és szövetátültetésre, valamint -tárolásra és egyes kórszövettani vizsgálatokra vonatkozó rendelkezései végrehajtásáról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -549,6 +547,11 @@
       "term": "termékkód",
       "definition": "a szövet és sejt konkrét típusát meghatározó azonosító, amely a szövetbank által használt kódolási rendszert jelző termékkódrendszer-azonosítóból (»E« az EUTC, »A« az ISBT128, »B« az Eurocode esetében) és az érintett kódolási rendszerben vagy szövet- és sejttermékek uniós gyűjteményében a terméktípushoz tartozó szövet- és sejttermékszámból áll.",
       "source_provision": "s1a"
+    },
+    {
+      "term": "ugyanannak az egészségügyi szolgáltató",
+      "definition": "az az egészségügyi szolgáltató, ahol a gyűjtéstől az emberi felhasználásig tartó folyamat összes lépése ugyanannak a személynek a felelőssége alatt, ugyanannak a minőségbiztosítási és nyomonkövethetőségi rendszernek a keretében történik, és ahol egyazon hely legalább egy engedélyezett szövetfeldolgozó és -tároló egységet, valamint egy emberi felhasználásért felelős szervezetet foglal magában. (5) Az (1) bekezdésben említett egységes európai kód szerkezetére vonatkozó előírásokat a 15. számú mell",
+      "source_provision": "s17h"
     },
     {
       "term": "egyszeri behozatal",

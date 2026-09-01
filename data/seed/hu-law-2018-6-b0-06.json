@@ -2,10 +2,8 @@
   "id": "hu-law-2018-6-b0-06",
   "type": "statute",
   "title": "6/2018. (III. 26.) IM utasítás az Igazságügyi Minisztérium informatikai biztonsági szabályzatáról",
-  "status": "in_force",
-  "in_force_date": "2018-03-27",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2018-6-B0-06",
-  "description": "az Igazságügyi Minisztérium informatikai biztonsági szabályzatáról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -28,31 +26,6 @@
   ],
   "definitions": [
     {
-      "term": "(VII. 15.) BM rendelet [a továbbiakban",
-      "definition": "41/2015. (VII. 15.) BM rendelet] keretei között kell alkalmazni az elektronikus információs rendszerek tekintetében megkövetelt biztonsággal, sértetlenséggel és rendelkezésre állással kapcsolatos alábbi célok elérésére: 2.2.1. a jogkövető magatartás és a szervezeti jó hírnév érdekében védeni a szervezet információs vagyonát az adatvédelem és adatbiztonság feltételeinek megteremtése útján",
-      "source_provision": "s3"
-    },
-    {
-      "term": "(XII. 23.) Korm. rendelet alapján a NISZ Nemzeti Infokommunikációs Szolgáltató Zrt. (a továbbiakban",
-      "definition": "kormányzati informatikai szolgáltató) mint üzemeltető és az e-közigazgatásért felelős miniszter közötti közszolgáltatási szerződés alapján üzemeltetett elektronikus információs rendszerekkel kapcsolatba kerülő személyek felé támasztott informatikai biztonsági követelmények minimumát",
-      "source_provision": "s3"
-    },
-    {
-      "term": "4.1. a kormányzati igazgatásról szóló 2018. évi CXXV. törvény (a továbbiakban",
-      "definition": "Kit) 3. § (2), (3) és (5) bekezdésében foglaltak alapján a minisztérium állományába tartozó politikai szolgálati jogviszonyban és biztosi jogviszonyban álló tisztségviselőkre",
-      "source_provision": "s3"
-    },
-    {
-      "term": "1.3. az Ibtv. 11. § (1) bekezdés c) pontja szerinti informatikai biztonsági vezető (a továbbiakban",
-      "definition": "IBV) és a minisztériumban működő Biztonsági és Adatkezelési Főosztály (a továbbiakban: BAF) vezetője, valamint kijelölt állománya",
-      "source_provision": "s3"
-    },
-    {
-      "term": "az informatikai biztonsági megbízottak, az elektronikus információbiztonsági dokumentációs munkacsoport (a továbbiakban",
-      "definition": "EIBD munkacsoport) tagjai",
-      "source_provision": "s3"
-    },
-    {
       "term": "8.2. Az adatgazda informatikai biztonsággal kapcsolatos felelősségi köre az alábbiakra terjed ki",
       "definition": "5.8.2.1. a 10. pontban és a 6. függelékben foglaltak alapján biztonsági osztályba sorolja az általa kezelt adatokat, illetve elektronikus információs rendszereket",
       "source_provision": "s3"
@@ -60,16 +33,6 @@
     {
       "term": "1. A 4.1. pontban foglalt védett minisztériumi helyiségek védelmét az alábbiak szerint kell elősegíteni",
       "definition": "9.1.1. a kulcsokat nem szabad nyilvános, idegenek számára is könnyen hozzáférhető helyen tárolni",
-      "source_provision": "s3"
-    },
-    {
-      "term": "1.3. az Informatikai Biztonsági Irányítási Rendszer (a továbbiakban",
-      "definition": "IBIR) megalkotása és működtetése",
-      "source_provision": "s3"
-    },
-    {
-      "term": "2. Az IM elektronikus információbiztonsági stratégiájának (a továbbiakban",
-      "definition": "EIS) megvalósítása során figyelemmel kell lenni az IM ilyen irányú feladatkörére, amely kapcsán 1.2.1. támogatja az Európai Uniónak az elektronikus információbiztonsággal kapcsolatos törekvéseit, részt vesz ennek kialakításában",
       "source_provision": "s3"
     },
     {

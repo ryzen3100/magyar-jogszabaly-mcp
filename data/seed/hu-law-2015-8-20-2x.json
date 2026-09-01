@@ -2,10 +2,8 @@
   "id": "hu-law-2015-8-20-2x",
   "type": "statute",
   "title": "8/2015. (III. 30.) NGM rendelet a foglalkoztatást elősegítő támogatásokról, valamint a Munkaerőpiaci Alapból foglalkoztatási válsághelyzetek kezelésére nyújtható támogatásról szóló 6/1996. (VII. 16.) MüM rendelet, valamint a munkaerőpiaci szolgáltatásokról, valamint az azokhoz kapcsolódóan nyújtható támogatásokról szóló 30/2000. (IX. 15.) GM rendelet módosításáról",
-  "status": "repealed",
-  "in_force_date": "2015-03-31",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2015-8-20-2X",
-  "description": "a foglalkoztatást elősegítő támogatásokról, valamint a Munkaerőpiaci Alapból foglalkoztatási válsághelyzetek kezelésére nyújtható támogatásról szóló 6/1996. (VII. 16.) MüM rendelet, valamint a munkaerőpiaci szolgáltatásokról, valamint az azokhoz kapcsolódóan nyújtható támogatásokról szóló 30/2000. (IX. 15.) GM rendelet módosításáról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -108,6 +106,13 @@
       "section": "18",
       "title": "18. §",
       "content": "18. § (1) Ez a rendelet a kihirdetését követő napon lép hatályba. (2) Hatályát veszti a 2004–2006. évi Humánerőforrás Fejlesztési Operatív Program 1. 1 intézkedése: a munkanélküliség megelőzése és kezelése keretében nyújtható támogatások felhasználásának részletes szabályairól szóló 5/2006. (VIII. 11.) MeHVM–SZMM együttes rendelet. „2. számú melléklet a 6/1996. (VII. 16.) MüM rendelethez A 8/A. § (1) bekezdésében meghatározott támogatás keretében elszámolható költségek a) az oktató személyi jellegű ráfordítása arra az órára vonatkozóan, amelyen az oktatási tevékenységét ellátja, b) az oktató valamint a képzésben résztvevő közvetlenül a képzési projekthez kapcsolódó működési költsége (pl. útiköltség, közvetlenül a projekthez kapcsolódó anyag és fogyóeszköz költsége, valamint az eszköz és berendezés értékcsökkenése kizárólag a képzési projekt keretében történő használat mértékéig), c) a képzési projekthez kapcsolódó tanácsadás költsége, d) a képzésben résztvevő személyi jellegű ráfordításai és az általános közvetett költség (pl. adminisztrációs költség, bérleti díj, rezsi költség) azokra az órákra vonatkozóan, amelyen a képzésben résztvevő részt vesz, e) a képzésben résztvevő megváltozott munkaképességű munkavállaló minimálisan szükséges szállásköltsége.” 1 A rendelet a 2010: CXXX. törvény 12. § (3) bekezdése alapján hatályát vesztette 2015. április 1. napjával."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "rendszeres fizetett alkalmazás",
+      "definition": "ha az álláskereső a nappali tagozatos tanulmányok befejezését követő két év alatt legalább 240 napig munkaviszonyban állt.” (4) Az R. 11. §-a a következő (2c) bekezdéssel egészül ki: „(2c) Az (1) bekezdés alkalmazásában súlyosan hátrányos helyzetű személynek kell tekinteni azt a személyt, aki legalább 24 hónapja álláskereső, vagy a (2) bekezdés a) pont aa) alpont 4. pontja kivételével azt a hátrányos helyzetű személyt, aki legalább 12 hónapja álláskereső.” (5) Az R. 11. § (9) bekezdése helyébe",
+      "source_provision": "s5"
     }
   ]
 }

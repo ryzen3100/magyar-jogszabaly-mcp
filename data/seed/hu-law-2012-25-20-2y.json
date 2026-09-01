@@ -2,10 +2,8 @@
   "id": "hu-law-2012-25-20-2y",
   "type": "statute",
   "title": "25/2012. (III. 20.) VM rendelet az Európai Mezőgazdasági Vidékfejlesztési Alapból a fiatal erdők állományneveléséhez nyújtandó támogatások részletes feltételeiről",
-  "status": "repealed",
-  "in_force_date": "2012-03-28",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2012-25-20-2Y",
-  "description": "az Európai Mezőgazdasági Vidékfejlesztési Alapból a fiatal erdők állományneveléséhez nyújtandó támogatások részletes feltételeiről",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -176,6 +174,21 @@
       "term": "2012. évi bázisév",
       "definition": "az Országos Erdőállomány Adattár 2012. december 31. napján nyilvántartott adatai alapján meghatározott időszak.",
       "source_provision": "s1"
+    },
+    {
+      "term": "a 2. § a) pontja szerinti tevékenység elvégzése során támogatható művelet",
+      "definition": "a) kézi ápolás: kapálás, kaszálás, metszés, fakivágás",
+      "source_provision": "s7"
+    },
+    {
+      "term": "a) a 2. § b) pontja szerinti tevékenység elvégzése során támogatható művelet",
+      "definition": "aa) a kézzel vagy géppel végzett tisztítás, tisztítási anyag megsemmisítése, ab) a terepi munkák erdészeti szakirányítása. b) a 2. § b) pontja szerinti tevékenység elvégzése során az Evt. 7. § (1) bekezdés e) és f) pontja szerinti faültetvény, vagy kultúrerdő természetességi kategóriájú erdőkben az a) pontban foglaltakon felül támogatható műveletnek minősül ba) a kézi ápolás: kapálás, kaszálás, metszés",
+      "source_provision": "s7"
+    },
+    {
+      "term": "a 2. § c) pontja szerinti tevékenység elvégzése során támogatható művelet",
+      "definition": "a) a kézzel vagy géppel végzett nyesés, nyesési anyag megsemmisítése",
+      "source_provision": "s7"
     }
   ]
 }

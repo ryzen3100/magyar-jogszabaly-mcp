@@ -2,10 +2,8 @@
   "id": "hu-law-2017-29-b0-2x",
   "type": "statute",
   "title": "29/2017. (XII. 7.) NGM utasítás a protokollhoz, reprezentációhoz kapcsolódó szolgáltatások, valamint a fordítás és a tolmácsolás igénylésének rendjéről",
-  "status": "repealed",
-  "in_force_date": "2017-12-08",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2017-29-B0-2X",
-  "description": "a protokollhoz, reprezentációhoz kapcsolódó szolgáltatások, valamint a fordítás és a tolmácsolás igénylésének rendjéről",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -138,6 +136,13 @@
       "section": "22",
       "title": "22. §",
       "content": "22. § IGÉNYLŐLAP PROTOKOLL- ÉS EGYÉB KAPCSOLÓDÓ SZOLGÁLTATÁSOK MEGRENDELÉSÉRE A rendezvény résztvevőinek névsora (kitöltése kötelező!) NEMZETGAZDASÁGI MINISZTÉRIUM Ikt.sz.: ……………………………………………… Ügyintéző: ………………………………………… Tel.:.………………………………………………… ELSZÁMOLÁS SZEMÉLYI REPREZENTÁCIÓRA FELVETT ELŐLEGRŐL Fenti reprezentációs kiadás hivatali tárgyalás alkalmával került felhasználásra. Csatolt számlák: Keltezés: Budapest, 20…… (év) …………………… (hó) …… (nap) ………………………………………… (Kerettel elszámoló aláírása) Megjegyzés: NEMZETGAZDASÁGI MINISZTÉRIUM Ikt.sz.: ……………………………………………… Ügyintéző: ………………………………………… Tel.:.………………………………………………… ELSZÁMOLÁS A PROTOKOLL TITKÁRSÁG REPREZENTÁCIÓS KIADÁSAIRA FELVETT ELŐLEGRŐL Csatolt számlák: NEMZETGAZDASÁGI MINISZTÉRIUM Ikt.sz.: ……………………………………………… Ügyintéző: ………………………………………… Tel.:.………………………………………………… ELSZÁMOLÓLAP PROTOKOLLSZOLGÁLTATÁS IGÉNYBEVÉTELÉRŐL (minisztériumi bankkártyás fizetés esetén) 1. Adatok: 2. Igényelt szolgáltatások: __________ * Kérjük megjelölni! Felhasználó aláírása: …………………………………………………… Keltezés: Budapest, 201…… (év) …………………… (hó) …… (nap) Protokoll Titkárság vezetőjének jóváhagyása: Aláírás: ………………………………………………………………… Keltezés: Budapest, 201…… (év) …………………… (hó) …… (nap) Gazdálkodásért Felelős helyettes Államtitkár kifizetés engedélyezése: Aláírás: ………………………………………………………………… Keltezés: Budapest, 201…… (év) …………………… (hó) …… (nap) IGÉNYLŐLAP FORDÍTÁSI FELADATOK ELLÁTÁSÁHOZ KAPCSOLÓDÓ SZOLGÁLTATÁSOK MEGRENDELÉSÉRE Protokoll Titkárság tölti ki: Végleges összeg: nettó ………… Ft + ………% Áfa, azaz bruttó ……………………… Ft Az elkészült fordítást 20…… (év) ………………… (hó) ……… (napon) továbbítottam az igénylő felé: …………………………………… aláírás 1 Az utasítást a 16/2019. (X. 24.) PM utasítás 30. §-a hatályon kívül helyezte 2019. október 25. napjával. 2 A 22. § a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "reprezentációnak és protokoll",
+      "definition": "a) a miniszter, a közigazgatási államtitkár, az államtitkárok, a helyettes államtitkárok (a továbbiakban együtt: állami vezetők), a miniszteri kabinetfőnök, a főosztályvezetők, a főosztályvezető-helyettesek és az osztályvezetők (a továbbiakban együtt: jogosultak) vendégeinek fogadásával, szakmai tárgyalásokkal kapcsolatos tevékenységek, b) az egyes rendezvények, így különösen az üzleti, hivatali, szakmai, diplomáciai vagy hitéleti rendezvény, esemény keretében, továbbá az állami, egyházi ünnepek",
+      "source_provision": "s2"
     }
   ]
 }

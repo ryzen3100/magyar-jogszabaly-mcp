@@ -2,10 +2,8 @@
   "id": "hu-law-2020-3-b0-2c",
   "type": "statute",
   "title": "3/2020. (VI. 11.) MNB utasítás a Magyar Nemzeti Bank Szervezeti és Működési Szabályzatáról",
-  "status": "repealed",
-  "in_force_date": "2020-06-12",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2020-3-B0-2C",
-  "description": "a Magyar Nemzeti Bank Szervezeti és Működési Szabályzatáról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -22,43 +20,13 @@
   ],
   "definitions": [
     {
-      "term": "ellátja az Országos Betétbiztosítási Alappal (a továbbiakban",
-      "definition": "OBA), a Szanálási Alappal kapcsolatos, külön jogszabályban meghatározott szanálási feladatkört érintő pénzügyi stabilitási feladatokat, valamint vezetői felkészítőt készít az OBA és a Szanálási Alap igazgatótanácsi üléseihez, és ezek körében kapcsolatot tart az OBA-val és a Szanálási Alappal",
-      "source_provision": "s2"
-    },
-    {
-      "term": "ellátja az OBA-val és a Befektető-védelmi Alappal (a továbbiakban",
-      "definition": "BEVA) kapcsolatos pénzügyi stabilitási feladatokat a szanálási feladatkört érintő OBA-val kapcsolatos feladatok kivételével, valamint vezetői felkészítőt készít a BEVA igazgatósági üléseihez, és ezek körében kapcsolatot tart az OBA-val és a BEVA-val",
-      "source_provision": "s2"
-    },
-    {
-      "term": "az államháztartási statisztikák területén a Központi Statisztikai Hivatallal (a továbbiakban",
-      "definition": "KSH) és a Pénzügyminisztériummal érvényben lévő megállapodás alapján a két intézménnyel a statisztikák összeállításában együttműködik",
-      "source_provision": "s2"
-    },
-    {
-      "term": "feladata, hogy az Adattárházban, valamint a felelősségi körébe tartozó egyéb alkalmazások esetében (a továbbiakban",
-      "definition": "felelősségi körébe tartozó alkalmazások) a tárolt adatokat a jegybanki alapfeladatokat ellátó szervezeti egységek számára hozzáférhetővé tegye",
-      "source_provision": "s2"
-    },
-    {
-      "term": "évi CXXXVIII. törvény (a továbbiakban",
-      "definition": "Bszt.) szerinti függő közvetítők prudenciális felügyeletét, továbbá a pénzpiaci és biztosításközvetítői alkuszok és többes ügynökök, valamint az önálló engedéllyel rendelkező jelzáloghitel közvetítő függő ügynökök fogyasztóvédelmi felügyeletét is. Tevékenysége körében: 1. ellátja a pénzpiaci közvetítőkkel, a biztosításközvetítőkkel és a Bszt. szerinti függő ügynökökkel kapcsolatos felügyeleti és – a társterületekkel együttműködve az – ellenőrzési (vizsgálati) feladatokat",
-      "source_provision": "s2"
-    },
-    {
-      "term": "ellenőrzi a nyilvánosan forgalomba hozott értékpapír-kibocsátók (a továbbiakban",
-      "definition": "Kibocsátók) tájékoztatási kötelezettségének teljesítését",
-      "source_provision": "s2"
-    },
-    {
-      "term": "évi CXX. törvény (a továbbiakban",
-      "definition": "Tpt.) V. fejezetében előírt – tájékoztatási kötelezettségek teljesítését, értékeli a közzétételre, tájékoztatásra kötelezett Kibocsátók nyilvános közleményeit, értékeli azok jogszerűségét a piac zavartalan működése és a befektetők tájékoztatása szempontjából",
-      "source_provision": "s2"
-    },
-    {
       "term": "működteti a jegybank lakossági pénztárát. A főosztály keretein belül a következő osztály működik",
       "definition": "4.1.1.4.1. Készpénzforgalmazási operációs osztály 1. a Bank vonatkozó Üzleti feltételei által adott keretek között a jegybank számlatulajdonos és egyéb ügyfelei számára készpénzes tranzakciókat végez",
+      "source_provision": "s2"
+    },
+    {
+      "term": "az elnök közvetlen irányítása alatt álló szervezeti egység",
+      "definition": "a Belső ellenőrzési főosztály is. Az elnök gyakorolja a munkáltatói jogokat a Pénzügyi Békéltető Testület elnöke és a testület tagjai felett az MNB tv.-ben meghatározottak szerint és a pénzügyi szervezetek felügyeletéért és fogyasztóvédelemért felelős alelnök javaslatát is figyelembe véve. Az elnök gyakorolja az előző bekezdés alá nem tartozó munkavállalók felett a munkaviszony létesítésének, a munkaviszony megszüntetésének, javadalmazás megállapításának jogát, mely munkáltatói jogok gyakorlását",
       "source_provision": "s2"
     }
   ]

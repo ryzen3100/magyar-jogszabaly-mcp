@@ -2,10 +2,8 @@
   "id": "hu-law-2014-37-20-5h",
   "type": "statute",
   "title": "37/2014. (IV. 30.) EMMI rendelet a közétkeztetésre vonatkozó táplálkozás-egészségügyi előírásokról",
-  "status": "in_force",
-  "in_force_date": "2015-01-01",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2014-37-20-5H",
-  "description": "a közétkeztetésre vonatkozó táplálkozás-egészségügyi előírásokról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -219,6 +217,11 @@
     {
       "term": "21a. tojás",
       "definition": "tyúktojás, a tojástartalom számítása tekintetében 1 tojásnak a 45 g tömegű héj nélküli tojás, illetve az ezzel egyenértékű tojáskészítmény felel meg",
+      "source_provision": "s2"
+    },
+    {
+      "term": "a) főétkezés",
+      "definition": "a reggeli, az ebéd és a vacsora",
       "source_provision": "s2"
     }
   ]

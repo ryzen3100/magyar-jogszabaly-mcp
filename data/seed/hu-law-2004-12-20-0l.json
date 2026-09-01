@@ -2,10 +2,8 @@
   "id": "hu-law-2004-12-20-0l",
   "type": "statute",
   "title": "12/2004. (II. 13.) GKM rendelet a földgázellátásban műszaki biztonsági szempontból jelentős munkakörök betöltéséhez szükséges szakmai képesítésről és gyakorlatról",
-  "status": "repealed",
-  "in_force_date": "2004-02-21",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2004-12-20-0L",
-  "description": "a földgázellátásban műszaki biztonsági szempontból jelentős munkakörök betöltéséhez szükséges szakmai képesítésről és gyakorlatról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -48,6 +46,13 @@
       "section": "7",
       "title": "7. §",
       "content": "7. § (1) E rendelet a kihirdetését követő 8. napon lép hatályba. (2)–(3) Műszaki biztonsági szempontból jelentős egyes gázipari tevékenységek jegyzéke Általános követelmények 1 A 80/2005. (X. 11.) GKM rendelet szerint. 2 A 32/2002. (XII. 12.) BM rendelet szerint. 3 Az 1993. évi XCIII. törvény és az 5/1993. (XII. 26.) MüM rendelet szerint. Elosztói engedélyes és célvezeték üzemeltetői tevékenység követelményei 1Az 51/2000. (VIII. 9.) FVM–GM–KöViM együttes rendelet szerint építményfajta szerint hatáskörrel rendelkező építési-felügyeleti szerv névjegyzékbe vételéhez kötött. Szállítói engedélyes tevékenység követelményei Cseppfolyós propán-bután gázok és ezek elegyeinek tartályban vagy palackban történő forgalmazásával kapcsolatos tevékenység követelményei"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "a) szakirányú felsőfokú szakképesítés",
+      "definition": "a műszaki felsőoktatásban egyetemen vagy főiskolán szerzett diploma, továbbá megfelelő felsőfokú végzettségre épülve az okleveles bányamérnöki (gáz- vagy olajipari, bányagépész szak), okleveles olaj- vagy gázipari szakmérnöki, okleveles gázszolgáltatói szak-üzemmérnöki, okleveles gépészmérnöki, gépész üzemmérnöki, okleveles vegyészmérnöki, vegyész üzemmérnöki, okleveles épületgépész-mérnöki, épületgépész üzemmérnöki, okleveles vegyipari gépészmérnöki, vegyipari gépész üzemmérnöki, okleveles vill",
+      "source_provision": "s4"
     }
   ]
 }
