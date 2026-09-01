@@ -494,6 +494,65 @@ func TestExtractDefinitions(t *testing.T) {
 			},
 		},
 		{
+			// Real garbage term emitted by PR #17 (seed diff): conditional
+			// clause split at "akkor" captured as the term.
+			name:    "akkor clause fragment dropped",
+			content: "E rendelet alkalmazásában a vadászterület szemközti határvonalainak távolsága akkor minősül engedélykötelesnek, ha az elbírálásnál a megkülönböztető jelzés hiányzik.",
+			want:    nil,
+		},
+		{
+			// Real garbage term emitted by PR #17 (seed diff).
+			name:    "a továbbiakban aside dropped",
+			content: "E rendelet alkalmazásában a továbbiakban: támogatás) az EUMSz 107. cikk (1) bekezdése szerinti állami támogatásnak minősül minden, a tagállam által nyújtott előny.",
+			want:    nil,
+		},
+		{
+			// PR #17 emitted the truncated dative stem "sajtótermék árusításá"
+			// ("…árúsításának minősül"); the linking vowel restores to the
+			// real term.
+			name:    "dative linking vowel restored",
+			content: "E rendelet alkalmazásában sajtótermék árusításának minősül az alkalmi és mozgóárusítás is.",
+			want: []seed.DefinitionSeed{
+				{Term: "sajtótermék árusítása", Definition: "az alkalmi és mozgóárusítás is.", SourceProvision: "s7"},
+			},
+		},
+		{
+			// "kategóriának minősül" → "kategória", not the truncated
+			// "kategóriá" PR #17 stored (e.g. "nagy értékű növénykultúrá").
+			name:    "dative restore on category stem",
+			content: "E rendelet alkalmazásában nagy értékű növénykultúrákategóriának minősül az olyan szőlőültetvény, amelyet a termőföld nyilvántartásában külön jelölnek.",
+			want: []seed.DefinitionSeed{
+				{Term: "nagy értékű növénykultúrákategória", Definition: "az olyan szőlőültetvény, amelyet a termőföld nyilvántartásában külön jelölnek.", SourceProvision: "s7"},
+			},
+		},
+		{
+			// The é-family: "költségének érti" → "költsége", not "költségé"
+			// (PR #17 stored e.g. "a képzés költségé").
+			name:    "dative restore é-family",
+			content: "e törvény alkalmazásában a képzés költségének érti a résztvevő által fizetendő tandíjat és a vizsgadíjat is.",
+			want: []seed.DefinitionSeed{
+				{Term: "a képzés költsége", Definition: "a résztvevő által fizetendő tandíjat és a vizsgadíjat is.", SourceProvision: "s7"},
+			},
+		},
+		{
+			// Genuine dative without linking vowel stays intact ("fának").
+			name:    "dative without linking vowel untouched",
+			content: "E törvény alkalmazásában erdőgazdálkodónak minősül az, aki az erdő tulajdonosa vagy az erdő hasznosítására jogosult.",
+			want: []seed.DefinitionSeed{
+				{Term: "erdőgazdálkodó", Definition: "az, aki az erdő tulajdonosa vagy az erdő hasznosítására jogosult.", SourceProvision: "s7"},
+			},
+		},
+		{
+			// Real corpus case (2014 BIR Szabályzat): "érti" inside the word
+			// "tértivevény" must not trigger the verb-in-term guard.
+			name:    "érti mid-word does not mask numbered definition",
+			content: "E szabályzat alkalmazásában 11. Elektronikus okirat: olyan irat, amelynek a tartalma elektronikus úton szöveg közlése érdekében jött létre; 12. Elektronikus tértivevény: az az elektronikus okirat, amely alapján a bíróság megbizonyosodhat az átvételről",
+			want: []seed.DefinitionSeed{
+				{Term: "Elektronikus okirat", Definition: "olyan irat, amelynek a tartalma elektronikus úton szöveg közlése érdekében jött létre", SourceProvision: "s7"},
+				{Term: "Elektronikus tértivevény", Definition: "az az elektronikus okirat, amely alapján a bíróság megbizonyosodhat az átvételről", SourceProvision: "s7"},
+			},
+		},
+		{
 			name:    "minősül without alkalmazásában gate skipped",
 			content: "a jogosultnak minősül minden olyan közreműködés, amelyet a szerződő fél a szerződésben vállalt",
 			want:    nil,
