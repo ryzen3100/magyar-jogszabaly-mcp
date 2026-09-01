@@ -2,10 +2,8 @@
   "id": "hu-law-2013-4-20-2y",
   "type": "statute",
   "title": "4/2013. (II. 4.) VM rendelet az Európai Mezőgazdasági Vidékfejlesztési Alapból finanszírozott egyes agrártámogatási tárgyú miniszteri rendeletek módosításáról",
-  "status": "repealed",
-  "in_force_date": "2013-02-05",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2013-4-20-2Y",
-  "description": "az Európai Mezőgazdasági Vidékfejlesztési Alapból finanszírozott egyes agrártámogatási tárgyú miniszteri rendeletek módosításáról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -121,6 +119,11 @@
       "term": "(X. 22.) FVM rendelet 2. §-a a következő i) ponttal egészül ki",
       "definition": "[E rendelet alkalmazásában:] „i) Kötelező Képzéseket Szolgáltató Szervezet: a Vidékfejlesztési Minisztérium (a továbbiakban: VM) által közbeszerzési eljárás alapján kiválasztott szervezet, amely a 6. számú mellékletben felsorolt, az ÚMVP által e rendelet alapján támogatott kötelező képzéseket szolgáltatja.”",
       "source_provision": "s1"
+    },
+    {
+      "term": "elszámolható kiadás",
+      "definition": "a) az 1. célterületre vonatkozóan a NAKVI által jóváhagyott projektterven alapuló felnőttképzési szerződésben szereplő képzés részvételi díja, amely tartalmazza a felnőttképzési szerződés szerinti – előzetesen megszerzett tudás beszámításával meghatározott – óraszámú elméleti és gyakorlati oktatás, a számonkérés vagy szakmai vizsga, a képzés előkészítési, szervezési és adminisztrációs költségeit, valamint szakképesítést nem adó képzések esetében egy nyomtatott – legalább 5 gépelt oldal terjedelm",
+      "source_provision": "s2"
     }
   ]
 }

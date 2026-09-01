@@ -2,10 +2,8 @@
   "id": "hu-law-2022-3-20-8l",
   "type": "statute",
   "title": "3/2022. (IV. 29.) OAH rendelet a radioaktív anyagok nyilvántartásának és ellenőrzésének rendjéről, valamint a kapcsolódó adatszolgáltatásról",
-  "status": "in_force",
-  "in_force_date": "2022-05-01",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2022-3-20-8L",
-  "description": "a radioaktív anyagok nyilvántartásának és ellenőrzésének rendjéről, valamint a kapcsolódó adatszolgáltatásról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -111,13 +109,6 @@
       "section": "17",
       "title": "17. §",
       "content": "17. § (1) Ez a rendelet 2022. május 1-jén lép hatályba. (2) E rendelet az ionizáló sugárzás miatti sugárterhelésből származó veszélyekkel szembeni védelmet szolgáló alapvető biztonsági előírások megállapításáról, valamint a 89/618/Euratom, a 90/641/Euratom, a 96/29/Euratom, a 97/43/Euratom és a 2003/122/Euratom irányelv hatályon kívül helyezéséről szóló, 2013. december 5-i 2013/59/Euratom tanácsi irányelv 4. cikk 41. pontjának, valamint a III. mellékletének való megfelelést szolgálja. Magyarázatok: – ∞ Az adott radioaktív anyag aktivitásának D-ben kifejezett értéke (az A/D érték) a radioaktív anyag mennyiségétől függetlenül nulla. – Amennyiben a radioaktív anyag egynél több radionuklidot tartalmaz, minden egyes radionuklid aktivitása és a hozzá tartozó D aktivitás hányadosaiból képzett összeg adja meg az adott anyag aktivitásának D-ben kifejezett értékét. – Pu-239/Be-9 és Am-241/Be-9 és Am-241/Li-7 neutronforrások esetében az aktivitás alatt a Pu-239, illetve Am-241 alfa aktivitása értendő."
-    }
-  ],
-  "definitions": [
-    {
-      "term": "évi CXVI. törvény (a továbbiakban",
-      "definition": "Atv.) 2. §-a, az Svr. 4. §-a, valamint a radioaktív hulladékok és a kiégett fűtőelemek országhatáron át történő szállításának engedélyezéséről szóló 34/2009. (II. 20.) Korm. rendelet 2. § 1. és 4. pontja szerint kell értelmezni.",
-      "source_provision": "s2"
     }
   ]
 }

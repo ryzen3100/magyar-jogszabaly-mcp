@@ -2,10 +2,8 @@
   "id": "hu-law-2010-3-20-2y",
   "type": "statute",
   "title": "3/2010. (VII. 5.) VM rendelet az élelmiszer-előállítással és -forgalmazással kapcsolatos adatszolgáltatásról és nyomonkövethetőségről",
-  "status": "in_force",
-  "in_force_date": "2010-07-20",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2010-3-20-2Y",
-  "description": "az élelmiszer-előállítással és -forgalmazással kapcsolatos adatszolgáltatásról és nyomonkövethetőségről",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -74,11 +72,6 @@
     {
       "term": "szállítmányt kísérő dokumentáció",
       "definition": "számla vagy szállítólevél, amely tartalmazza az adott élelmiszer csomagolási egységein feltüntetett az adott árutétel vagy a szállítmány nyomon követését szolgáló jelzést is",
-      "source_provision": "s2"
-    },
-    {
-      "term": "április 29-i 882/2004/EK európai parlamenti és tanácsi rendelet (a továbbiakban",
-      "definition": "882/2004/EK rendelet) fogalmait is alkalmazni kell.",
       "source_provision": "s2"
     }
   ]

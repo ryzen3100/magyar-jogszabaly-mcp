@@ -2,10 +2,8 @@
   "id": "hu-law-2000-28-20-0a",
   "type": "statute",
   "title": "28/2000. (X. 27.) BM rendelet az egyéni vállalkozói igazolvánnyal rendelkező vállalkozók központi nyilvántartásából teljesített adatszolgáltatás igazgatási szolgáltatási díjáról",
-  "status": "repealed",
-  "in_force_date": "2000-11-01",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2000-28-20-0A",
-  "description": "az egyéni vállalkozói igazolvánnyal rendelkező vállalkozók központi nyilvántartásából teljesített adatszolgáltatás igazgatási szolgáltatási díjáról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -54,6 +52,13 @@
       "section": "8",
       "title": "8. §",
       "content": "8. § Ez a rendelet 2000. november 1-jén lép hatályba. Az adatszolgáltatási díj megállapítása Az adatszolgáltatási díj megállapítása 1. Egyedi adatszolgáltatás – egy eljárásban kért, egy fő adatait tartalmazó adatszolgáltatás – díja: 1200 Ft. 2. Csoportképző ismérvek alapján egy eljárásban történő adatszolgáltatás esetén a fizetendő díj összegét az a) és b) pontban meghatározottak szerint kell megállapítani. a) az előzetes tájékoztatás díja: 3500 Ft b) a konkrét szolgáltatás díja (a tételszám és a díjtétel szorzata, de legalább 8400 Ft)"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "előzetes tájékoztatás",
+      "definition": "a csoportképző ismérvek alapján megállapított tételszámövezetnek az adatigénylővel történő közlése. (2) Csoportképző ismérvek alapján történő adatigénylés esetén az előzetes tájékoztatás díját, továbbá az azt követően fenntartott kérelem esetén az adatszolgáltatás díját az 5. §-ban foglaltak szerint kell megfizetni. (3) A fenntartott kérelem alapján történő adatszolgáltatás díjába az előzetes tájékoztatás díját be kell számítani.",
+      "source_provision": "s6"
     }
   ]
 }

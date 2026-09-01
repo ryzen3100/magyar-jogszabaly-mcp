@@ -2,10 +2,8 @@
   "id": "hu-law-2003-3-20-0a",
   "type": "statute",
   "title": "3/2003. (I. 25.) BM–GKM–KvVM együttes rendelet az építési termékek műszaki követelményeinek, megfelelőség igazolásának, valamint forgalomba hozatalának és felhasználásának részletes szabályairól",
-  "status": "repealed",
-  "in_force_date": "2003-03-26",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2003-3-20-0A",
-  "description": "az építési termékek műszaki követelményeinek, megfelelőség igazolásának, valamint forgalomba hozatalának és felhasználásának részletes szabályairól",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -106,11 +104,6 @@
   ],
   "definitions": [
     {
-      "term": "§ E rendelet alkalmazásában 1. építési termék (a továbbiakban",
-      "definition": "termék): minden olyan anyag, szerkezet, berendezés vagy több, különböző részből összeállított elem, amelyet azért állítanak elő, hogy építményekbe állandó jelleggel beépítsék",
-      "source_provision": "s2"
-    },
-    {
       "term": "szállító",
       "definition": "a termék gyártója, forgalomba hozója",
       "source_provision": "s2"
@@ -138,11 +131,6 @@
     {
       "term": "útmutató az európai műszaki engedélyhez (ETAG",
       "definition": "European Technical Approval Guideline): az Európai Bizottság által adott megbízás alapján az EOTA által kiadott útmutató egy-egy termékcsalád európai műszaki engedélyének kidolgozására",
-      "source_provision": "s2"
-    },
-    {
-      "term": "illetékes miniszter (a továbbiakban",
-      "definition": "miniszter): a vízügyi és a közlekedési építményfajtáknál kizárólagosan használt építési termékek kivételével – a belügyminiszter, vízügyi építményfajtáknál kizárólagosan használt építési termékek tekintetében a környezetvédelmi és vízügyi miniszter, közlekedési építményfajtáknál kizárólagosan használt építési termékek tekintetében a gazdasági és közlekedési miniszter",
       "source_provision": "s2"
     },
     {

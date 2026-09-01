@@ -2,10 +2,8 @@
   "id": "hu-law-2012-5-b0-27",
   "type": "statute",
   "title": "5/2012. (III. 1.) KüM utasítás az ideiglenes külföldi kiküldetés egyes kérdéseiről",
-  "status": "repealed",
-  "in_force_date": "2012-03-02",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2012-5-B0-27",
-  "description": "az ideiglenes külföldi kiküldetés egyes kérdéseiről",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -1044,6 +1042,13 @@
       "section": "173",
       "title": "173",
       "content": "** Nyugdíjfolyósítás esetén kitöltendő! 1 Az utasítást a 7/2015. (III. 26.) KKM utasítás 87. pont a) pontja hatályon kívül helyezte 2015. március 27. napjával. 2 A 12. pont (2) bekezdése a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "ideiglenes külföldi kiküldetés",
+      "definition": "a kiküldött 90 napot meg nem haladó külföldi munkavégzése vagy képzése.",
+      "source_provision": "s13"
     }
   ]
 }

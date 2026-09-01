@@ -2,10 +2,8 @@
   "id": "hu-law-2013-94-20-2y",
   "type": "statute",
   "title": "94/2013. (X. 10.) VM rendelet a mikro-, kis- és középvállalkozások hitelezésének elősegítése érdekében a kezességvállalási díjak költségvetési támogatásáról",
-  "status": "in_force",
-  "in_force_date": "2013-10-13",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2013-94-20-2Y",
-  "description": "a mikro-, kis- és középvállalkozások hitelezésének elősegítése érdekében a kezességvállalási díjak költségvetési támogatásáról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -118,11 +116,6 @@
   ],
   "definitions": [
     {
-      "term": "december 18-i 1408/2013/EU bizottsági rendelet szerinti támogatás [a továbbiakban",
-      "definition": "mezőgazdasági csekély összegű (de minimis) támogatás], továbbá 1.3. az Európai Unió működéséről szóló szerződés 107. és 108. cikkének a halászati és akvakultúra-ágazatban nyújtott csekély összegű támogatásokra való alkalmazásáról szóló, 2014. június 27-i 717/2014/EU bizottsági rendelet szerinti támogatás [a továbbiakban: halászati csekély összegű (de minimis) támogatás]",
-      "source_provision": "s1"
-    },
-    {
       "term": "hitelkiváltás",
       "definition": "forgóeszköz, beruházási, illetve európai uniós támogatás önerő és előfinanszírozására nyújtott hitel kiváltására irányuló új hitelszerződés vagy szerződésmódosítás",
       "source_provision": "s1"
@@ -138,11 +131,6 @@
       "source_provision": "s1"
     },
     {
-      "term": ") FM rendelet 1. melléklete alapján a NAK által kiállított igazolás rendelkezésére állása esetében (a továbbiakban",
-      "definition": "fóliás termesztés) az egyes nemzeti forrásból finanszírozott agrártámogatásokat és közvetlen támogatásokat szabályozó miniszteri rendeletek módosításáról szóló 66/2017. (XII. 22.) FM rendelet hatálybalépésének napja és 2018. május 31. között (a határnapokat is beleértve) 7. pénzügyi intézmény: olyan intézmény, amely a kezességvállalás pénzügyi szolgáltatás igénybevétele érdekében csatlakozási, együttműködési vagy partneri keretszerződés alapján kapcsolatban áll a kezességvállaló intézménnyel",
-      "source_provision": "s1"
-    },
-    {
       "term": "támogatási intenzitás",
       "definition": "az európai uniós versenyjogi értelemben vett állami támogatásokkal kapcsolatos eljárásról és a regionális támogatási térképről szóló 37/2011. (III. 22.) Korm. rendelet [a továbbiakban: 37/2011. (III. 22.) Korm. rendelet] 2. § 15. pontjában meghatározott intenzitás",
       "source_provision": "s1"
@@ -155,11 +143,6 @@
     {
       "term": "15. országos mezőgazdasági csekély összegű (de minimis) keret",
       "definition": "az Európai Unió működéséről szóló szerződés 107. és 108. cikkének a mezőgazdasági ágazatban nyújtott csekély összegű támogatásokra való alkalmazásáról szóló, 2013. december 18-i 1408/2013/EU bizottsági rendelet melléklete alapján Magyarország rendelkezésére álló mezőgazdasági csekély összegű támogatási keret",
-      "source_provision": "s1"
-    },
-    {
-      "term": "(VIII. 31.) AM rendelet [a továbbiakban",
-      "definition": "25/2022. (VIII. 31.) AM rendelet] 1. § 13. pontja szerinti támogatás.",
       "source_provision": "s1"
     }
   ]

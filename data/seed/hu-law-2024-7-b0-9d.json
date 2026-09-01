@@ -2,10 +2,8 @@
   "id": "hu-law-2024-7-b0-9d",
   "type": "statute",
   "title": "7/2024. (II. 8.) KTM utasítás a központi költségvetés IX. fejezetébe sorolt előirányzatokra vonatkozó kötelezettségvállalás, ellenjegyzés, teljesítés igazolása, érvényesítés, utalványozás ideiglenes rendjéről",
-  "status": "repealed",
-  "in_force_date": "2024-02-09",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2024-7-B0-9D",
-  "description": "a központi költségvetés IX. fejezetébe sorolt előirányzatokra vonatkozó kötelezettségvállalás, ellenjegyzés, teljesítés igazolása, érvényesítés, utalványozás ideiglenes rendjéről",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -186,6 +184,13 @@
       "section": "30",
       "title": "30. §",
       "content": "30. § Jelen utasítást a hatálybalépésekor folyamatban lévő ügyekben is alkalmazni kell. 4R00286.pdf 1 Az utasítást az 1/2026. (VI. 25.) VTM utasítás 31. §-a hatályon kívül helyezte 2026. június 26. napjával. Alkalmazására lásd e hatályon kívül helyező utasítás 30. §-át."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "írásbeli forma",
+      "definition": "az elektronikus ügyintézés és a bizalmi szolgáltatások általános szabályairól szóló 2015. évi CCXXII. törvényben meghatározott elektronikus forma is. (3) Ha a kötelezettségvállalás elektronikus úton történik, a kötelezettségvállalás eljárási rendje megegyezik az ezen utasításban foglaltakkal, azzal az eltéréssel, hogy ahol ezen utasítás a) aláírást említ, azon a minősített tanúsítvánnyal rendelkező fokozott biztonságú elektronikus aláírást, b) csatolást említ, azon kormányzati ügyiratkezelő rend",
+      "source_provision": "s2"
     }
   ]
 }

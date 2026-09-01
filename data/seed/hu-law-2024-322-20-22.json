@@ -2,10 +2,8 @@
   "id": "hu-law-2024-322-20-22",
   "type": "statute",
   "title": "322/2024. (XI. 6.) Korm. rendelet a digitális szolgáltatások, a digitális állampolgárság szolgáltatások és támogató szolgáltatások részletes műszaki követelményeiről",
-  "status": "in_force",
-  "in_force_date": "2024-11-07",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2024-322-20-22",
-  "description": "a digitális szolgáltatások, a digitális állampolgárság szolgáltatások és támogató szolgáltatások részletes műszaki követelményeiről",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -1432,11 +1430,6 @@
       "source_provision": "s81"
     },
     {
-      "term": "aggregátum szolgáltató (ezen alcím alkalmazásában a továbbiakban",
-      "definition": "szolgáltató) KKSZB authentikációs tokenje: a szolgáltató számára a KKSZB-hez történő csatlakozást biztosító eszköz, amelyet a KKSZB nyújtására kijelölt szolgáltató bocsát az aggregátum szolgáltató rendelkezésére",
-      "source_provision": "s85a"
-    },
-    {
       "term": "§ E fejezet alkalmazásában 1. adattrezor-archiválás",
       "definition": "a Dáptv. 39. § (7) bekezdése szerinti, a digitális szolgáltatást biztosító szervezeteknek a digitális szolgáltatások nyújtásával, intézésével kapcsolatos, elektronikus információs rendszereiben és nyilvántartásaiban tárolt nem minősített adatai biztonsági mentése",
       "source_provision": "s113"
@@ -1462,19 +1455,9 @@
       "source_provision": "s113"
     },
     {
-      "term": "évi LXVI. törvény (a továbbiakban",
-      "definition": "Ltv.) szerinti levéltári anyagának, elektronikus információs rendszereiben és nyilvántartásaiban tárolt nem minősített adatai biztonsági mentését is érteni kell. Az e bekezdés szerinti adattrezor-archiválási kötelezettség célja az MNL-nek az Ltv.-ben meghatározott megőrzési kötelezettség teljesítésével összefüggő adatai sérüléséből eredő működési zavara esetén a működési képesség helyreállítása és az adatvesztés minimalizálása.",
-      "source_provision": "s114"
-    },
-    {
       "term": "§ (3) bekezdésében foglalt ingatlan neve a közterületjelleg nélkül, 9. önálló rendeltetési egység",
       "definition": "meghatározott rendeltetés céljára önmagában alkalmas helyiség vagy helyiségcsoport, amelynek a szabadból vagy az épületen belüli közös közlekedőből nyíló önálló bejárata van, 10. postai irányítószám: az egyetemes postai szolgáltató által képzett és kiosztott számkód, 11. telek: a magyar építészetről szóló törvény szerinti telek.",
       "source_provision": "s122"
-    },
-    {
-      "term": "évi LXVI. törvény (e fejezet alkalmazásában a továbbiakban",
-      "definition": "Nytv.) 5. § (2) bekezdése alapján a polgár lakóhelyéül vagy jogi személy, illetve jogi személyiséggel nem rendelkező szervezet székhelyéül, telephelyéül szolgál [e fejezet alkalmazásában a továbbiakban az a)–f) pont együtt: ingatlan]. (2) Cím akkor a) keletkezik, ha valamennyi, e rendeletben előírt címadatát bejegyezték a központi címregiszterbe, b) szűnik meg, ha valamennyi címadatát törölték a központi címregiszterből, c) módosul, ha valamely címeleme megváltozik.",
-      "source_provision": "s123"
     },
     {
       "term": "folytonos védelem",

@@ -2,10 +2,8 @@
   "id": "hu-law-2000-250-20-22",
   "type": "statute",
   "title": "250/2000. (XII. 24.) Korm. rendelet a hitelintézetek és a pénzügyi vállalkozások éves beszámoló készítési és könyvvezetési kötelezettségének sajátosságairól",
-  "status": "in_force",
-  "in_force_date": "2001-01-01",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2000-250-20-22",
-  "description": "a hitelintézetek és a pénzügyi vállalkozások éves beszámoló készítési és könyvvezetési kötelezettségének sajátosságairól",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -392,11 +390,6 @@
     {
       "term": "kamatlábcollar ügylet",
       "definition": "egy kamatlábcap és egy kamatlábfloor ügyletből összetett ügylet, amelyben a kamatlábcap ügylet vevője egyben a kamatlábfloor ügylet kiírója és a kamatlábfloor ügylet vevője egyben a kamatlábcap ügylet kiírója. A felek a változó kamat egy meghatározott felső kamatszint és alsó kamatszint által határolt kamatsávhoz képest bekövetkező különbözetének megtérítésére vállalnak kötelezettséget",
-      "source_provision": "s2"
-    },
-    {
-      "term": "(XII. 16.) Korm. rendelet (a továbbiakban",
-      "definition": "kötött segélyhitelezési rendelet) 18. §-ában rögzített, a segélyhitel-szerződés szerinti kamatláb",
       "source_provision": "s2"
     },
     {

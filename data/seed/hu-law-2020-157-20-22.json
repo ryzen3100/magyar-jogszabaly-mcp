@@ -2,10 +2,8 @@
   "id": "hu-law-2020-157-20-22",
   "type": "statute",
   "title": "157/2020. (IV. 29.) Korm. rendelet a veszélyhelyzet során elrendelt egyes egészségügyi intézkedésekről",
-  "status": "repealed",
-  "in_force_date": "2020-04-30",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2020-157-20-22",
-  "description": "a veszélyhelyzet során elrendelt egyes egészségügyi intézkedésekről",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -64,7 +62,7 @@
   ],
   "definitions": [
     {
-      "term": "telemediciná",
+      "term": "telemedicina",
       "definition": "az a tevékenység, amelynek célja a beteg távollétében a) a beteg egészségi állapotának szakmai megítélése, b) a betegségek, illetve azok kockázatának felderítése, c) a konkrét betegség(ek) meghatározása, d) a beteg állapotának pontosabb megítéléséhez szükséges további vizsgálatok elrendelése, gyógykezelés elindítása, e) az a)–d) pont szerinti kezelések eredményességének megállapítása (távkonzultáció), valamint f) a beteg állapotának követése és diagnózis felállítása távmonitoring eszközökkel és",
       "source_provision": "s2"
     }

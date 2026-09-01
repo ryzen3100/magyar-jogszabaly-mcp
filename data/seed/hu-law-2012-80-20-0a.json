@@ -2,10 +2,8 @@
   "id": "hu-law-2012-80-20-0a",
   "type": "statute",
   "title": "80/2012. (XII. 28.) BM rendelet a régészeti lelőhely és a műemléki érték védetté nyilvánításáról, nyilvántartásáról és a régészeti feltárás részletes szabályairól",
-  "status": "repealed",
-  "in_force_date": "2013-01-01",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2012-80-20-0A",
-  "description": "a régészeti lelőhely és a műemléki érték védetté nyilvánításáról, nyilvántartásáról és a régészeti feltárás részletes szabályairól",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -195,6 +193,11 @@
       "term": "területátvétel",
       "definition": "a régészeti feltárást megelőzően a földmunkával járó változtatással érintett munkaterületnek régészeti munkavégzésre alkalmas állapotban, állapotrögzítő jegyzőkönyvvel történő átvétele a beruházótól",
       "source_provision": "s10"
+    },
+    {
+      "term": "a (3) bekezdésben meghatározottak közül elfedésnek csak az a megoldás",
+      "definition": "amelynek célja az érintett régészeti lelőhely, lelőhelyrész vagy régészeti emlék megóvása. Nem minősülnek elfedésnek az egyéb célok érdekében végzett – különösen a beruházás során megvalósítandó építmény teherhordó szerkezetének kialakítását szolgáló – hasonló munkálatok. Amennyiben az építmény teherhordó szerkezetének kialakítását szolgáló műszaki megoldás megfelel a (2) és a (3) bekezdésben foglaltaknak, elfedésre szolgáló műszaki megoldást nem kell alkalmazni. (6) Az elfedés régészeti megfig",
+      "source_provision": "s17"
     }
   ]
 }

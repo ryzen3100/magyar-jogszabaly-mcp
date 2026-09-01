@@ -2,10 +2,8 @@
   "id": "hu-law-2016-1-b0-6q",
   "type": "statute",
   "title": "1/2016. (I. 29.) KKM utasítás az ideiglenes külföldi kiküldetés egyes kérdéseiről szóló 7/2015. (III. 26.) KKM utasítás módosításáról",
-  "status": "repealed",
-  "in_force_date": "2016-02-01",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2016-1-B0-6Q",
-  "description": "az ideiglenes külföldi kiküldetés egyes kérdéseiről szóló 7/2015. (III. 26.) KKM utasítás módosításáról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -426,6 +424,13 @@
       "section": "70",
       "title": "70",
       "content": "” 1 Az utasítás a 2010: CXXX. törvény 12. § (3) bekezdése alapján hatályát vesztette 2016. február 2. napjával."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "repülési idő",
+      "definition": "a hivatalos utazás céljából a repülőgép fedélzetén töltött idő.”",
+      "source_provision": "s3"
     }
   ]
 }

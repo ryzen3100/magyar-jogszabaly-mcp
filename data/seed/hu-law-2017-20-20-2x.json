@@ -2,10 +2,8 @@
   "id": "hu-law-2017-20-20-2x",
   "type": "statute",
   "title": "20/2017. (VII. 31.) NGM rendelet az élelmiszer-értékesítést kezelőszemélyzet nélkül végző automataberendezések üzemeltetői számára az Automata Felügyeleti Egység beszerzéséhez nyújtandó támogatásról",
-  "status": "in_force",
-  "in_force_date": "2017-07-31",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2017-20-20-2X",
-  "description": "az élelmiszer-értékesítést kezelőszemélyzet nélkül végző automataberendezések üzemeltetői számára az Automata Felügyeleti Egység beszerzéséhez nyújtandó támogatásról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -151,6 +149,11 @@
       "term": "cikk a) és b) pontjában meghatározott termékek, f) gazdasági tevékenység",
       "definition": "bármely, egy adott piacon termékek és szolgáltatások nyújtásával járó tevékenység, amely feltételezi az ellenszolgáltatásért vállalt kockázatot, g) mezőgazdasági termék: az Európai Unió működéséről szóló Szerződés (EUMSZ) I. mellékletében felsorolt termékek a halászati és akvakultúra-termékek kivételével, h) támogatástartalom: az Atr. 2. § 19. pontja szerinti tartalom.",
       "source_provision": "s3"
+    },
+    {
+      "term": "„Üzembe helyezési adatlapnak”",
+      "definition": "a felügyeleti szolgáltató által kiállított irat, amely tartalmazza az AFE telepítése, üzembe helyezése során fellépő, a telepítést, üzembe helyezést átmenetileg akadályozó műszaki problémák megnevezését és a felügyeleti szolgáltató és az üzemeltető aláírását. (6) A támogatás jogosulatlan igénybevétele esetén a felügyeleti szolgáltató köteles a kötelezettségszegéssel érintett AFE-ra igénybe vett támogatást az Áht. 53/A. § (2) bekezdése és az Ávr. 98. §-a szerinti ügyleti kamattal növelt összegben",
+      "source_provision": "s11"
     }
   ]
 }

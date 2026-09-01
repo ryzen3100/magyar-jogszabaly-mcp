@@ -2,10 +2,8 @@
   "id": "hu-law-2005-3-20-0b",
   "type": "statute",
   "title": "3/2005. (II. 10.) EüM rendelet az emberi vér és vérkomponensek gyűjtésére, vizsgálatára, feldolgozására, tárolására és elosztására vonatkozó minőségi és biztonsági előírásokról, valamint ezek egyes technikai követelményeiről",
-  "status": "in_force",
-  "in_force_date": "2005-02-13",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2005-3-20-0B",
-  "description": "az emberi vér és vérkomponensek gyűjtésére, vizsgálatára, feldolgozására, tárolására és elosztására vonatkozó minőségi és biztonsági előírásokról, valamint ezek egyes technikai követelményeiről",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -245,11 +243,6 @@
     {
       "term": "recipiens",
       "definition": "a vért vagy vérkészítményt kapó személy",
-      "source_provision": "s2"
-    },
-    {
-      "term": "az Országos Vérellátó Szolgálat (a továbbiakban",
-      "definition": "OVSZ) területi szerve: a regionális vérellátó központok, valamint a területi vérellátók",
       "source_provision": "s2"
     },
     {

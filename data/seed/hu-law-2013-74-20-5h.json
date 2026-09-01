@@ -2,10 +2,8 @@
   "id": "hu-law-2013-74-20-5h",
   "type": "statute",
   "title": "74/2013. (XII. 2.) EMMI rendelet a Nemzeti Együttműködési Alappal kapcsolatos egyes miniszteri rendeletek módosításáról",
-  "status": "repealed",
-  "in_force_date": "2013-12-03",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2013-74-20-5H",
-  "description": "a Nemzeti Együttműködési Alappal kapcsolatos egyes miniszteri rendeletek módosításáról",
   "provisions": [
     {
       "provision_ref": "s12",
@@ -72,6 +70,13 @@
       "section": "10",
       "title": "10. §",
       "content": "10. § Hatályát veszti az R1. 6. melléklete."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "önrész",
+      "definition": "minden, az Alapból folyósított támogatáson kívüli forrás, az önrész tartalmazza az egyéb forrás mellett az Ávr. 76. § (2) bekezdésében foglalt korlátozás figyelembe vételével megállapított saját forrást is. (4) A Civil tv. 56. § (1) bekezdés c)–j) pontja szerinti támogatás nem lehet kisebb a civil szervezet által igényelt támogatási összeg ötven százalékánál. Ha a kollégium a pályázatot csak kisebb arányban tudná támogatni, a pályázatot részletes indokolás mellett el kell utasítani. (5) A támoga",
+      "source_provision": "s11"
     }
   ]
 }

@@ -2,10 +2,8 @@
   "id": "hu-law-2020-20-b0-6q",
   "type": "statute",
   "title": "20/2020. (IX. 10.) KKM utasítás az ideiglenes külföldi kiküldetés egyes kérdéseiről",
-  "status": "in_force",
-  "in_force_date": "2020-09-11",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2020-20-B0-6Q",
-  "description": "az ideiglenes külföldi kiküldetés egyes kérdéseiről",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -348,6 +346,18 @@
       "section": "57",
       "title": "57. §",
       "content": "57. §"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "ideiglenes külföldi kiküldetés",
+      "definition": "a kiküldött 90 napot meg nem haladó külföldi munkavégzése vagy képzése.",
+      "source_provision": "s2"
+    },
+    {
+      "term": "repülési idő",
+      "definition": "a hivatalos utazás céljából az utazás egy szakaszán a repülőgép fedélzetén töltött idő.",
+      "source_provision": "s3"
     }
   ]
 }

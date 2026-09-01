@@ -2,10 +2,8 @@
   "id": "hu-law-2008-2-20-2k",
   "type": "statute",
   "title": "2/2008. (V. 29.) NFGM–PM együttes rendelet a 2007–2013 programozási időszakban az Európai Regionális Fejlesztési Alapból finanszírozott pénzügyi eszközök keretében nyújtható KKV támogatások felhasználására, valamint a forráskezelő szervezetre vonatkozó különös szabályokról",
-  "status": "repealed",
-  "in_force_date": "2008-06-06",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2008-2-20-2K",
-  "description": "a 2007–2013 programozási időszakban az Európai Regionális Fejlesztési Alapból finanszírozott pénzügyi eszközök keretében nyújtható KKV támogatások felhasználására, valamint a forráskezelő szervezetre vonatkozó különös szabályokról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -160,11 +158,6 @@
   ],
   "definitions": [
     {
-      "term": "(XII. 30.) Korm. rendelet (a továbbiakban",
-      "definition": "Ámr.) 1. § (2) bekezdés a) és m) pontjában meghatározott szervezetekre, a forráskezelő szervezetre, a közvetítőkre, a kedvezményezettekre és az adóhatóságra. (3) E rendelet alkalmazásában adóhatóság az Adó- és Pénzügyi Ellenőrzési Hivatalnak a közvetítő vagy a kedvezményezett állandó, ennek hiányában ideiglenes lakóhelye, szokásos tartózkodási helye, illetőleg székhelye, ennek hiányában telephelye szerint illetékes területi szerve.",
-      "source_provision": "s1"
-    },
-    {
       "term": "§ (1) E rendelet alkalmazásában",
       "definition": "1. finanszírozási keret: a Gazdaságfejlesztési Operatív Program 4. pénzügyi eszközök prioritásra és a Közép-Magyarországi Operatív Program 1.3. intézkedésre vonatkozó kötelezettségvállalások mindenkori támogatási keretösszegei, amelyeket a Nemzeti Fejlesztési Ügynökség a finanszírozási szerződés szerint a forráskezelő szervezet rendelkezésére bocsát",
       "source_provision": "s2"
@@ -220,9 +213,9 @@
       "source_provision": "s2"
     },
     {
-      "term": "(XII. 23.) Korm. rendeletben (a továbbiakban",
-      "definition": "R.) foglaltak az irányadók.",
-      "source_provision": "s2"
+      "term": "szabálytalanság",
+      "definition": "az is, ha a forráskezelő szervezet megszegi a jogszabályban vagy a finanszírozási szerződésben, illetőleg a közvetítő megszegi a jogszabályban vagy a közvetítői szerződésben a közösségi forrás kihelyezésére vonatkozóan előírt kötelezettségét. (2) A kedvezményezett nemteljesítése vagy más szerződésszegése esetén a közvetítő köteles az esetet kivizsgálni, és a szerződésszerű teljesítés érvényesítéséhez szükséges intézkedéseket megtenni. A szerződésszegésről a közvetítő a forráskezelő szervezetnek",
+      "source_provision": "s18"
     }
   ]
 }

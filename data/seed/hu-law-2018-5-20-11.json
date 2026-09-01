@@ -2,10 +2,8 @@
   "id": "hu-law-2018-5-20-11",
   "type": "statute",
   "title": "5/2018. (II. 23.) FM rendelet a termésbecslésről, állapotminősítésről, valamint a mezőgazdasági munkák állásáról szóló jelentéssel kapcsolatos adatszolgáltatásról",
-  "status": "in_force",
-  "in_force_date": "2018-02-26",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2018-5-20-11",
-  "description": "a termésbecslésről, állapotminősítésről, valamint a mezőgazdasági munkák állásáról szóló jelentéssel kapcsolatos adatszolgáltatásról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -80,11 +78,6 @@
     {
       "term": "3. őszi mezőgazdasági munkák állásáról szóló jelentés",
       "definition": "a 3. melléklet C) pontjában meghatározott növénykultúrák és munkaműveletek elvégzéséről szeptembertől decemberig, a munkák megkezdésétől a munkák befejezéséig, hetente a miniszter részére készített jelentés",
-      "source_provision": "s1"
-    },
-    {
-      "term": "melléklet szerinti ütemezéssel az AKI Agrárközgazdasági Intézet Nonprofit Korlátolt Felelősségű Társaság (a továbbiakban",
-      "definition": "AKI Nonprofit Kft.) részére készített jelentés.",
       "source_provision": "s1"
     }
   ]

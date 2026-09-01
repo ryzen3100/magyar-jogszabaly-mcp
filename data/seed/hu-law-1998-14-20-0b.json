@@ -2,10 +2,8 @@
   "id": "hu-law-1998-14-20-0b",
   "type": "statute",
   "title": "14/1998. (XII. 11.) EüM rendelet a kórházi etikai bizottságokról",
-  "status": "in_force",
-  "in_force_date": "1999-01-01",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/1998-14-20-0B",
-  "description": "a kórházi etikai bizottságokról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -66,6 +64,13 @@
       "section": "9",
       "title": "9. §",
       "content": "9. § (1) Ez a rendelet 1999. január 1-jén lép hatályba. (2) 1 A 8/A. §-t a 46/1999. (X. 1.) EüM rendelet 7. §-a iktatta be. 2 A 9. § (2) bekezdését a 118/2008. (V. 8.) Korm. rendelet 5. §-ának 206. pontja hatályon kívül helyezte."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "orvosszakmai vezető",
+      "definition": "az egészségügyi szolgáltató gyógyító-megelőző ellátásért felelős vezetője.",
+      "source_provision": "s8a"
     }
   ]
 }

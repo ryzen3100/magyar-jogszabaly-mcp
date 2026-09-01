@@ -2,10 +2,8 @@
   "id": "hu-law-2004-220-20-22",
   "type": "statute",
   "title": "220/2004. (VII. 21.) Korm. rendelet a felszíni vizek minősége védelmének szabályairól",
-  "status": "in_force",
-  "in_force_date": "2004-08-05",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2004-220-20-22",
-  "description": "a felszíni vizek minősége védelmének szabályairól",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -455,11 +453,6 @@
       "source_provision": "s3"
     },
     {
-      "term": "vízszennyező anyag kibocsátása (a továbbiakban",
-      "definition": "kibocsátás): vízszennyező anyag, hőenergia közvetlenül vagy közvetetten felszíni vízbe juttatása",
-      "source_provision": "s3"
-    },
-    {
       "term": "kibocsátó",
       "definition": "az a természetes vagy jogi személy, illetve jogi személyiséggel nem rendelkező szervezet, aki tevékenysége során szennyvizet (használt vizet) közvetlenül vagy közvetve befogadóba vezeti",
       "source_provision": "s3"
@@ -467,16 +460,6 @@
     {
       "term": "szennyvíz",
       "definition": "a termelési, szolgáltatási, fogyasztási tevékenység során használt, a használat – illetve az üzemi területen összegyűlő csapadékvizek esetében bemosódás vagy keveredés – következtében fizikai, kémiai vagy biológiai minőségében megváltozott, vízszennyező anyagot tartalmazó víz",
-      "source_provision": "s3"
-    },
-    {
-      "term": "a felszíni vízbe való közvetlen bevezetés (a továbbiakban",
-      "definition": "közvetlen bevezetés): a kibocsátott szennyvíz (használt víz) további tisztítás nélküli befogadóba vezetése",
-      "source_provision": "s3"
-    },
-    {
-      "term": "a felszíni vízbe való közvetett bevezetés (a továbbiakban",
-      "definition": "közvetett bevezetés): a telephelyről kibocsátott szennyvíz (használt víz) közcsatornán vagy egyéb csatornán (a továbbiakban: közös üzemi csatornán) való elvezetése, illetve a közműves ivóvízellátásról és a közműves szennyvízelvezetésről szóló kormányrendelet szerinti háztartási szennyvíznek nem minősülő szippantott szennyvíz közcsatornába vagy közös üzemi (ipari) csatornába bocsátása és további tisztítás után történő befogadóba vezetése",
       "source_provision": "s3"
     },
     {

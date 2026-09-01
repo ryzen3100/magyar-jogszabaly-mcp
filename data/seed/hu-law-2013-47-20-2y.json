@@ -2,10 +2,8 @@
   "id": "hu-law-2013-47-20-2y",
   "type": "statute",
   "title": "47/2013. (VI. 7.) VM rendelet az Európai Mezőgazdasági Vidékfejlesztési Alapból finanszírozott egyes vidékfejlesztési és egyéb agrártárgyú rendeletek módosításáról",
-  "status": "repealed",
-  "in_force_date": "2013-06-08",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2013-47-20-2Y",
-  "description": "az Európai Mezőgazdasági Vidékfejlesztési Alapból finanszírozott egyes vidékfejlesztési és egyéb agrártárgyú rendeletek módosításáról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -69,6 +67,11 @@
     }
   ],
   "definitions": [
+    {
+      "term": "elszámolható kiadás",
+      "definition": "a NAKVI által jóváhagyott projektterven alapuló felnőttképzési szerződésben szereplő képzés részvételi díja, amely tartalmazza a felnőttképzési szerződés szerinti – előzetesen megszerzett tudás beszámításával meghatározott – óraszámú elméleti és gyakorlati oktatás, a számonkérés vagy szakmai vizsga, a képzés előkészítési, szervezési és adminisztrációs költségeit, valamint szakképesítést nem adó képzések esetében egy nyomtatott – legalább 5 gépelt oldal terjedelmű – oktatási segédlet költségét. N",
+      "source_provision": "s2"
+    },
     {
       "term": "(VIII. 29.) FVM rendelet a következő 16. §-sal egészül ki",
       "definition": "„16. § E rendeletnek az Európai Mezőgazdasági Vidékfejlesztési Alapból finanszírozott egyes vidékfejlesztési és egyéb agrártárgyú rendeletek módosításáról szóló 47/2013. (VI. 7.) VM rendelettel [a továbbiakban: módosító rendelet] megállapított 2. § (1) bekezdés q) pontját, 8. § (8) bekezdés a) pontját, 11/B. § (1) bekezdését, 11/B. § (4a) és (4b) bekezdését, 11/B. § (5) bekezdését, és 12. § (1) bekezdését a módosító rendelet hatálybalépésekor folyamatban lévő ügyekben is alkalmazni kell.”",

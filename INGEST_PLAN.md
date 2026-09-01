@@ -218,6 +218,8 @@ offline shortcut.
 - Btk part-prefixed citations: corpus stores Btk sections without the
   "6:" part prefix, so "6:272. §" validates as not-found; a prefix-drop
   fallback candidate in `statute.SectionRefCandidates` would cover it.
+  FIXED 2026-08-31 (PR #17): `SectionRefCandidates` now emits the
+  prefix-dropped form ("6:272. §" → "272"/"s272").
 - Definitions extraction for the new njt layout — narrower than it sounds.
   Audit 2026-08-30 (seed-vs-Ansvar-DB comparison, all 4,314 overlap docs):
   provision content is byte-identical to Ansvar's corpus (130,124 provisions,
@@ -228,6 +230,26 @@ offline shortcut.
   survives inside provision content (e.g. `hu-law-2024-35-20-22` s157) — a
   classification loss, not a text loss. Fix = add the definition-phrase
   pattern ("alkalmazásában … minősül/érti") to the parser, not a rewrite.
+  FIXED 2026-08-31 (PR #17): `qualifiesPattern` added; 222 affected seeds
+  re-parsed offline, definitions 25,866 → 26,177.
+- Definition-term cleanup: the PR #17 prose pattern emitted ~5% garbage terms
+  (clause fragments like "a közalkalmazott akkor", "a továbbiakban: támogatás)
+  az EUMSz…", truncated dative stems like "sajtótermék árusításá").
+  FIXED 2026-08-31 on `fix/small-followups`: guard in the shared definition
+  `add` path drops candidates containing " akkor" or "a továbbiakban" (which
+  also sweeps the pre-existing numbered-pattern "…(a továbbiakban" fragments),
+  and `qualifyTerm` now restores the dative linking vowel ("kategóriának" →
+  "kategória", not "kategóriá"), with the 7 restored terms verified against
+  source text. Also fixed: the PR #17 `verbInTermRe` guard matched "érti"
+  mid-word ("tértivevény"), dropping real numbered definitions — the verb
+  must now be standalone. Full-corpus offline re-parse (no network; 0
+  provision mismatches) plus a term-level sweep for seeds without cached
+  HTML: garbage terms 1,562 → 0 in seeds, definitions 26,142 → 24,762
+  (build-db) across 1,132 seed files. A >60-rune length cap was considered and
+  rejected: real prose-path terms run 64–104 runes (e.g. "hulladékgazdálkodási
+  közszolgáltatási résztevékenység körébe tartozó hulladékkal kapcsolatos
+  tevékenység"), interleaved with long garbage at 85–105 — no separating
+  threshold exists.
 - Idea (uncommitted, just a thought): a `data/source/*.html` → `*.md` pass for
   LLM/RAG use — extract the law-only `#jogszab` region (drops the ~45% Angular
   boilerplate) and map the semantic classes (`szakasz-jel`, `fejezetCim`) to

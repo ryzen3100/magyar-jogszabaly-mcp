@@ -2,10 +2,8 @@
   "id": "hu-law-2011-93-20-2w",
   "type": "statute",
   "title": "93/2011. (XII. 30.) NFM rendelet a hivatalos közbeszerzési tanácsadói tevékenységről",
-  "status": "repealed",
-  "in_force_date": "2012-01-01",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2011-93-20-2W",
-  "description": "a hivatalos közbeszerzési tanácsadói tevékenységről",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -144,6 +142,18 @@
       "section": "23",
       "title": "23. §",
       "content": "23. § 1 A rendeletet a 46/2015. (XI. 2.) MvM rendelet 8. § (2) bekezdése hatályon kívül helyezte 2015. november 2. napján 11 órával. Alkalmazására lásd e hatályon kívül helyező rendelet 8. § (3) bekezdését. 2 Az 1. § (1) bekezdése a 12/2014. (III. 14.) NFM rendelet 22. § (2) bekezdés a) pontja szerint módosított szöveg. 3 A 3. § (3) bekezdés a) pontja a 12/2014. (III. 14.) NFM rendelet 22. § (2) bekezdés b) pontja szerint módosított szöveg. 4 A 8. § (3) bekezdése a 12/2014. (III. 14.) NFM rendelet 22. § (1) bekezdésével megállapított szöveg. 5 A 13. § nyitó szövegrésze a 12/2014. (III. 14.) NFM rendelet 22. § (2) bekezdés b) pontja szerint módosított szöveg. 6 A 14. § (1) bekezdés a) pontja a 12/2014. (III. 14.) NFM rendelet 22. § (2) bekezdés c) pontja szerint módosított szöveg. 7 A 14. § (2) bekezdése a 12/2014. (III. 14.) NFM rendelet 22. § (2) bekezdés b) pontja szerint módosított szöveg. 8 A 23. § a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "névjegyzékbe vétel feltételét képező közbeszerzési gyakorlat",
+      "definition": "a közbeszerzésekről szóló 2003. évi CXXIX. törvény, vagy a Kbt. hatálya alá tartozó közbeszerzési eljárás előkészítésével, lefolytatásával kapcsolatban az ajánlatkérői vagy az ajánlattevői oldalon kifejtett tevékenység. (2) A közbeszerzési gyakorlat akkor valósul meg, ha a kérelmező természetes személy igazolja, hogy a) a kérelem benyújtását megelőző legfeljebb 5 éves időszakban – bármely összesen 36 hónap során – összesen legalább 20, a közbeszerzésekről szóló 2003. évi CXXIX. törvény vagy a Kb",
+      "source_provision": "s12"
+    },
+    {
+      "term": "közbeszerzési gyakorlat",
+      "definition": "továbbá a kérelem benyújtását megelőző legfeljebb 5 éves időszakban bármely összesen 36 hónap során a) a Közbeszerzések Tanácsa vagy a Közbeszerzési Hatóság Titkárságán vagy a közbeszerzésekre vonatkozó jogszabályok előkészítéséért felelős miniszter által vezetett minisztériumban vagy az európai uniós forrásból megvalósuló közbeszerzések közbeszerzési jogi ellenőrzéséért felelős központi államigazgatási szervnél kifejezetten közbeszerzési-szakmai feladatok ellátására vagy közbeszerzések ellenőrz",
+      "source_provision": "s14"
     }
   ]
 }

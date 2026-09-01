@@ -2,10 +2,8 @@
   "id": "hu-law-2024-14-b0-0a",
   "type": "statute",
   "title": "14/2024. (VI. 20.) BM utasítás a Belügyminisztérium Informatikai Biztonsági Szabályzatáról",
-  "status": "in_force",
-  "in_force_date": "2024-06-21",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2024-14-B0-0A",
-  "description": "a Belügyminisztérium Informatikai Biztonsági Szabályzatáról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -27,11 +25,6 @@
     }
   ],
   "definitions": [
-    {
-      "term": "§ 1. A Belügyminisztérium Informatikai Biztonsági Szabályzata (a továbbiakban",
-      "definition": "IBSZ) alkalmazásában 1.1. Adat: az állami és önkormányzati szervek elektronikus információbiztonságáról szóló 2013. évi L. törvény (a továbbiakban: Ibtv.) 1. § (1) bekezdés 1. pontja szerinti fogalom",
-      "source_provision": "s3"
-    },
     {
       "term": "2. Adatátvitel",
       "definition": "az adatok elektronikus információs rendszerek, rendszerelemek közötti továbbítása",

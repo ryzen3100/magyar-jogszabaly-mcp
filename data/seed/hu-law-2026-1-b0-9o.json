@@ -2,10 +2,8 @@
   "id": "hu-law-2026-1-b0-9o",
   "type": "statute",
   "title": "1/2026. (VI. 25.) VTM utasítás a központi költségvetés IX. fejezetébe sorolt előirányzatokra vonatkozó kötelezettségvállalás, ellenjegyzés, teljesítés igazolása, érvényesítés, utalványozás rendjéről",
-  "status": "in_force",
-  "in_force_date": "2026-06-26",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2026-1-B0-9O",
-  "description": "a központi költségvetés IX. fejezetébe sorolt előirányzatokra vonatkozó kötelezettségvállalás, ellenjegyzés, teljesítés igazolása, érvényesítés, utalványozás rendjéről",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -192,6 +190,13 @@
       "section": "31",
       "title": "31. §",
       "content": "31. § 6R01062.pdf 1 A 31. § a 2010. évi CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "írásbeli forma",
+      "definition": "a digitális államról és a digitális szolgáltatások nyújtásának egyes szabályairól szóló 2023. évi CIII. törvényben meghatározott elektronikus forma is. (3) Ha a kötelezettségvállalás elektronikus úton történik, a kötelezettségvállalás eljárási rendje megegyezik az ezen utasításban foglaltakkal, azzal az eltéréssel, hogy ahol ezen utasítás a) aláírást említ, azon a minősített tanúsítvánnyal rendelkező fokozott biztonságú elektronikus aláírást, b) csatolást említ, azon kormányzati ügyiratkezelő re",
+      "source_provision": "s2"
     }
   ]
 }

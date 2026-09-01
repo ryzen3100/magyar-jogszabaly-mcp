@@ -2,10 +2,8 @@
   "id": "hu-law-2022-11-20-8k",
   "type": "statute",
   "title": "11/2022. (I. 28.) SZTFH rendelet a bányafelügyelet hatáskörébe tartozó egyes nyomástartó berendezések engedélyezéséről és hatósági felügyeletéről",
-  "status": "in_force",
-  "in_force_date": "2022-02-01",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2022-11-20-8K",
-  "description": "a bányafelügyelet hatáskörébe tartozó egyes nyomástartó berendezések engedélyezéséről és hatósági felügyeletéről",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -314,6 +312,11 @@
       "term": "Mobil nyomástartó berendezés",
       "definition": "a kőolaj-, és földgázbányászati létesítményekben, kőolaj és földgázkutatási területen, vagy földgázszállítás, földgázelosztás során, változó felállítási helyen üzemelő, valamely technológiai folyamatot – különösen szeparálást, kútmérést, próbatermeltetést, gázátadást, gázfogadást, nyomásszabályozást – ideiglenesen ellátó nyomástartó berendezés.",
       "source_provision": "s3"
+    },
+    {
+      "term": "szakirányú felsőfokú szakképesítés",
+      "definition": "az okleveles bányamérnöki gáz- vagy olajipari, bányagépész szak, okleveles gáz- vagy olajipari szakmérnöki, okleveles gépészmérnöki és gépész üzemmérnöki, okleveles vegyipari gépészmérnöki és vegyipari gépész üzemmérnöki szakképesítés. (5) E rendelet alkalmazásában szakirányú középfokú szakképesítésnek minősül a gépésztechnikusi, a gáz- és olajipari technikusi képesítés és a technikus képzés szüneteltetésének időszakában az előbbi szakirány szerinti szakközépiskolai érettségi bizonyítvánnyal sze",
+      "source_provision": "s4"
     }
   ]
 }

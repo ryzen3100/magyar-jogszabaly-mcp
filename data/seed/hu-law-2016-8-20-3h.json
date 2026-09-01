@@ -2,10 +2,8 @@
   "id": "hu-law-2016-8-20-3h",
   "type": "statute",
   "title": "8/2016. (XII. 6.) NMHH rendelet az elektromágneses összeférhetőségről",
-  "status": "in_force",
-  "in_force_date": "2016-12-11",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2016-8-20-3H",
-  "description": "az elektromágneses összeférhetőségről",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -228,6 +226,21 @@
       "term": "zavartűrés",
       "definition": "a berendezés azon képessége, hogy elektromágneses zavar jelentkezésekor ne romoljon a működőképessége. (2) E rendeletben alkalmazott egyéb elektromágneses összeférhetőséggel kapcsolatos fogalmakat az elektronikus hírközlésről szóló törvény szerint kell értelmezni.",
       "source_provision": "s2"
+    },
+    {
+      "term": "gyártó",
+      "definition": "és a gyártóra előírt kötelezettségek terhelik. (9) Az importőr a készüléken, vagy ha ez nem lehetséges, annak csomagolásán vagy a kísérő dokumentáción magyar nyelven feltünteti nevét, bejegyzett kereskedelmi nevét vagy bejegyzett védjegyét és a postai úton történő kapcsolatfelvételt szolgáló címét. (10) Az importőr gondoskodik arról, hogy a készülékhez magyar nyelven mellékelve legyen a használati és kezelési útmutató, továbbá a 13. alcím szerinti információ. (11) Az importőr biztosítja, hogy a",
+      "source_provision": "s8"
+    },
+    {
+      "term": "gyártó",
+      "definition": "és a gyártóra előírt kötelezettségek terhelik.",
+      "source_provision": "s9"
+    },
+    {
+      "term": "készülék",
+      "definition": "és arra a készülékekre vonatkozó rendelkezéseket kell alkalmazni. (2) Olyan készülékre, amelynek az a rendeltetése, hogy egy adott, helyhez kötött létesítménybe szereljék be, és önálló készülékként kereskedelmi forgalomban nem hozzáférhető, az 5–10. §-ban és a 12–14. §-ban foglalt előírásokat nem kell alkalmazni. Ezen esetekben a kísérő dokumentációnak tartalmaznia kell a helyhez kötött létesítmény megnevezését, az elektromágneses összeférhetőségi jellemzőket, valamint azokat az óvintézkedéseket",
+      "source_provision": "s16"
     }
   ]
 }

@@ -2,10 +2,8 @@
   "id": "hu-law-2014-5-b0-2c",
   "type": "statute",
   "title": "5/2014. (XII. 23.) MNB utasítás a Magyar Nemzeti Bank Szervezeti és Működési Szabályzatáról",
-  "status": "repealed",
-  "in_force_date": "2014-12-24",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2014-5-B0-2C",
-  "description": "a Magyar Nemzeti Bank Szervezeti és Működési Szabályzatáról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -21,26 +19,6 @@
     }
   ],
   "definitions": [
-    {
-      "term": "a Nemzeti Adó- és Vámhivatallal (a továbbiakban",
-      "definition": "NAV) és a Magyar Államkincstárral (a továbbiakban: MÁK) kötött Együttműködési megállapodásokra figyelemmel szakmai kapcsolatot tart fenn a NAV országos szervezetével és a MÁK-kal",
-      "source_provision": "s2"
-    },
-    {
-      "term": "intézi az Európai Gazdasági Térség (a továbbiakban",
-      "definition": "EGT) más tagállamaiból érkezett, illetve Magyarországról az EGT más tagállamaiba irányuló határon átnyúló szolgáltatással vagy fiókalapítással kapcsolatos jogi feladatokat",
-      "source_provision": "s2"
-    },
-    {
-      "term": "ellátja a Befektető-védelmi Alappal (a továbbiakban",
-      "definition": "BEVA) kapcsolatos felügyeleti feladatokat, ellátja a Bank képviseletét a BEVA Igazgatóságának ülésein",
-      "source_provision": "s2"
-    },
-    {
-      "term": "az államháztartási statisztika területén a Központi Statisztikai Hivatallal (a továbbiakban",
-      "definition": "KSH) és a Nemzetgazdasági Minisztériummal érvényben lévő megállapodás alapján a két intézménnyel a statisztikák összeállításában együttműködik",
-      "source_provision": "s2"
-    },
     {
       "term": "belső minőségellenőrzést végez",
       "definition": "ellenőrzi és fejleszti a belső készpénzes tevékenységek minőségét, hatékonyságát és biztonságát, a szabályok betartását a működési és humánkockázatok csökkentése céljából, kidolgozza a pénzkezelési folyamatok belső szabályozását, – tartalmuktól függően hatósági eljárás keretében – intézi az ügyfelek reklamációit",
@@ -89,6 +67,11 @@
     {
       "term": "§ (2) bekezdés a) pontja hatályon kívül helyezte 2015. szeptember 1. napjával. 2 A 2. § (2) bekezdése a 2010",
       "definition": "CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette. 3 Az 1. melléklet az 1/2015. (VI. 8.) MNB utasítás 1. §-a, a 2/2015. (VI. 29.) MNB utasítás 1. §-a, a 3/2015. (VIII. 25.) MNB utasítás 1. §-a szerint módosított szöveg. 4 A Függelék a 3/2015. (VIII. 25.) MNB utasítás 1. §-ával megállapított szöveg.",
+      "source_provision": "s2"
+    },
+    {
+      "term": "az elnök közvetlen irányítása alatt álló szervezeti egység",
+      "definition": "a Belső ellenőrzési főosztály és az Elnöki kabinet. Az elnök gyakorolja a munkáltatói jogokat a Pénzügyi Békéltető Testület elnöke és a testület tagjai felett az MNB tv.-ben meghatározottak szerint és a pénzügyi szervezetek felügyeletéért és fogyasztóvédelemért felelős alelnök javaslatát is figyelembe véve. Az elnök gyakorolja az előző bekezdés alá nem tartozó munkavállalók felett a munkaviszony létesítésének, a munkaviszony megszüntetésének, javadalmazás megállapításának jogát, mely munkáltatói",
       "source_provision": "s2"
     }
   ]

@@ -2,10 +2,8 @@
   "id": "hu-law-2017-3-b0-7m",
   "type": "statute",
   "title": "3/2017. (XII. 20.) MBFSZ utasítás a bányajáradékkal kapcsolatos bányafelügyeleti feladatokról",
-  "status": "in_force",
-  "in_force_date": "2017-12-21",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2017-3-B0-7M",
-  "description": "a bányajáradékkal kapcsolatos bányafelügyeleti feladatokról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -522,6 +520,13 @@
       "section": "86",
       "title": "86",
       "content": "10.2. 1 A 10.2. pont a 2010: CXXX. trövény 12. § (2) bekezdése alapján hatályát vesztette."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "ásványi nyersanyag",
+      "definition": "a geotermikus energia.",
+      "source_provision": "s83"
     }
   ]
 }

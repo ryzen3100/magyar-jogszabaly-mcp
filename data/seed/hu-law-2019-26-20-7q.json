@@ -2,10 +2,8 @@
   "id": "hu-law-2019-26-20-7q",
   "type": "statute",
   "title": "26/2019. (VIII. 26.) ITM rendelet a békéltető testületi tagsági feladat ellátására vonatkozó pályázat szabályairól és a békéltető testületi tagok díjazásáról, valamint az online adásvételi vagy online szolgáltatási szerződéssel összefüggő határon átnyúló fogyasztói jogvita esetén eljáró békéltető testületek kijelöléséről",
-  "status": "repealed",
-  "in_force_date": "2019-09-01",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2019-26-20-7Q",
-  "description": "a békéltető testületi tagsági feladat ellátására vonatkozó pályázat szabályairól és a békéltető testületi tagok díjazásáról, valamint az online adásvételi vagy online szolgáltatási szerződéssel összefüggő határon átnyúló fogyasztói jogvita esetén eljáró békéltető testületek kijelöléséről",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -102,6 +100,13 @@
       "section": "16",
       "title": "16. §",
       "content": "16. § (1) Ez a rendelet a fogyasztói jogviták alternatív rendezéséről, valamint a 2006/2004/EK rendelet és a 2009/22/EK irányelv módosításáról szóló (fogyasztói alternatív vitarendezési irányelv), 2013. május 21-i 2013/11/EU európai parlamenti és tanácsi irányelvnek való megfelelést szolgálja. (2) A 14. § a fogyasztói jogviták online rendezéséről, valamint a 2006/2004/EK rendelet és a 2009/22/EK irányelv módosításáról szóló (fogyasztói online vitarendezési irányelv), 2013. május 21-i 524/2013/EU európai parlamenti és tanácsi rendelet végrehajtásához szükséges rendelkezést állapít meg. 1 A rendeletet az 5/2023. (VI. 19.) IM rendelet 30. §-a hatályon kívül helyezte 2023. június 25. napjával. 2 Az 1. § (1) bekezdése a 37/2022. (XII. 27.) IM rendelet 3. § a) pontja szerint módosított szöveg. 3 A 3. § a 10/2020. (IV. 3.) ITM rendelet 1. §-ával megállapított szöveg. 4 A 7. § (2) bekezdését a 10/2020. (IV. 3.) ITM rendelet 3. § a) pontja hatályon kívül helyezte. 5 A 7. § (11) bekezdését a 10/2020. (IV. 3.) ITM rendelet 3. § b) pontja hatályon kívül helyezte. 6 A 9. § (1) bekezdése a 10/2020. (IV. 3.) ITM rendelet 2. §-ával megállapított szöveg. 7 A 14. § a 37/2022. (XII. 27.) IM rendelet 3. § b) pontja szerint módosított szöveg."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "az általános öregségi nyugdíjkorhatárt betöltött személy",
+      "definition": "az a békéltető testületi tagnak jelölt személy is, aki az új testület megalakulásának napjáig tölti be az általános öregségi nyugdíjkorhatárt.",
+      "source_provision": "s13"
     }
   ]
 }

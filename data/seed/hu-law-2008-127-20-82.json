@@ -2,10 +2,8 @@
   "id": "hu-law-2008-127-20-82",
   "type": "statute",
   "title": "127/2008. (IX. 29.) FVM rendelet a tenyésztett víziállatokra és az azokból származó termékekre vonatkozó állat-egészségügyi követelményekről és a víziállatokban előforduló egyes betegségek megelőzéséről és az azok elleni védekezésről",
-  "status": "in_force",
-  "in_force_date": "2008-10-01",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2008-127-20-82",
-  "description": "a tenyésztett víziállatokra és az azokból származó termékekre vonatkozó állat-egészségügyi követelményekről és a víziállatokban előforduló egyes betegségek megelőzéséről és az azok elleni védekezésről",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -631,11 +629,6 @@
     {
       "term": "Természetes víz",
       "definition": "a halgazdálkodásról és a hal védelméről szóló 2013. évi CII. törvény szerinti halgazdálkodási vízterület",
-      "source_provision": "s3"
-    },
-    {
-      "term": "április 29-i 882/2004/EK európai parlamenti és tanácsi rendelet (a továbbiakban",
-      "definition": "882/2004/EK rendelet) 2. cikke e) a halgazdálkodásról és a hal védelméről szóló 2013. évi CII. törvény, f) az állati eredetű élelmiszerek forgalomba hozatalának és az értékesítés helyén történő élelmiszer-előállításnak élelmiszer-higiéniai feltételeiről szóló 64/2007. (VII. 23.) FVM–EüM együttes rendelet szerinti fogalommeghatározásokat is alkalmazni kell.",
       "source_provision": "s3"
     }
   ]

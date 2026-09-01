@@ -2,10 +2,8 @@
   "id": "hu-law-2014-28-20-2y",
   "type": "statute",
   "title": "28/2014. (III. 27.) VM rendelet az Európai Mezőgazdasági Garancia Alapból, az Európai Mezőgazdasági Vidékfejlesztési Alapból, valamint a központi költségvetésből finanszírozott egyes támogatások 2014. évi igénybevételével kapcsolatos egységes eljárási szabályokról",
-  "status": "repealed",
-  "in_force_date": "2014-03-28",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2014-28-20-2Y",
-  "description": "az Európai Mezőgazdasági Garancia Alapból, az Európai Mezőgazdasági Vidékfejlesztési Alapból, valamint a központi költségvetésből finanszírozott egyes támogatások 2014. évi igénybevételével kapcsolatos egységes eljárási szabályokról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -192,11 +190,6 @@
       "source_provision": "s1"
     },
     {
-      "term": "november 30-i 1122/2009/EK bizottsági rendelet (a továbbiakban",
-      "definition": "1122/2009/EK bizottsági rendelet) 2. cikk (11) bekezdése, valamint a vidékfejlesztési támogatási intézkedésekre vonatkozó ellenőrzési eljárások, valamint a kölcsönös megfeleltetés végrehajtása tekintetében az 1698/2005/EK tanácsi rendelet végrehajtására vonatkozó részletes szabályok megállapításáról szóló, 2011. január 27-i 65/2011/EU bizottsági rendelet 8. cikke szerinti kérelem az elektronikusan és papíralapon benyújtott kérelemrészekkel együtt",
-      "source_provision": "s1"
-    },
-    {
       "term": "fizikai blokk",
       "definition": "a Mezőgazdasági Parcella Azonosító Rendszerről szóló 115/2003. (XI. 13.) FVM rendelet (a továbbiakban: MePAR rendelet) 1. § a) pontjában meghatározott terület",
       "source_provision": "s1"
@@ -270,6 +263,11 @@
       "term": "vélelmezett örökös",
       "definition": "az eljárási törvény 45. § (9) bekezdésének megfelelően az ügyféllel annak halálakor együtt élt azon házastársa vagy törvényes rend szerinti örököse, aki az e rendelet szerinti eljárást megindítja.",
       "source_provision": "s1"
+    },
+    {
+      "term": "jogszerű földhasználó",
+      "definition": "az is, aki a Nemzeti Földalap által, a Nemzeti Földalapról szóló 2010. évi LXXXVII. törvény 18. § (4) és (5) bekezdése alapján létesített szerződéssel rendelkezik. (2) Az ügyfél földhasználati jogosultságát az MVH jogosult vizsgálni az eljárási törvény 44. §-ában foglaltak szerint. (3) Az ügyfél az egységes kérelmét tárgyév május 15-éig ügyfélkapun keresztül, elektronikus úton köteles benyújtani. Az egységes kérelem elektronikus benyújtásával egyidejűleg annak egyes mellékleteit – ha az adott tá",
+      "source_provision": "s6"
     }
   ]
 }

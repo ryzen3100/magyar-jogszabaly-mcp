@@ -2,10 +2,8 @@
   "id": "hu-law-2007-119-20-82",
   "type": "statute",
   "title": "119/2007. (X. 18.) FVM rendelet a tartási helyek, a tenyészetek és az ezekkel kapcsolatos egyes adatok országos nyilvántartási rendszeréről",
-  "status": "in_force",
-  "in_force_date": "2008-01-01",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2007-119-20-82",
-  "description": "a tartási helyek, a tenyészetek és az ezekkel kapcsolatos egyes adatok országos nyilvántartási rendszeréről",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -141,11 +139,6 @@
       "source_provision": "s2"
     },
     {
-      "term": "4. állattartó/üzemeltető (a továbbiakban együtt",
-      "definition": "állattartó): az a természetes személy vagy jogi személy, illetve jogi személyiséggel nem rendelkező szervezet, aki/amely a tartott állatokért, illetve egy adott létesítmény üzemeltetéséért akár állandó, akár ideiglenes jelleggel felelős",
-      "source_provision": "s2"
-    },
-    {
       "term": "BIR",
       "definition": "a baromfi állománymozgások, a keltetések és a baromfi törzsállományok, valamint meghatározott járványügyi helyzet esetén a bejelentett létszámadatok nyilvántartására létrehozott Baromfi Információs Rendszer",
       "source_provision": "s2"
@@ -178,11 +171,6 @@
     {
       "term": "Országos Adatbázis",
       "definition": "az élelmiszerlánc-felügyeleti információs rendszer részét képező, a tenyészetek, a tartási helyek, az állatok, az állatmozgások, az állatlétszámok nyilvántartására, valamint az ezekkel kapcsolatos adatok kezelésére, feldolgozására és az arra jogosultak részére adat szolgáltatására létrehozott TIR, ENAR és BIR rendszerek központi számítógépes adatbázisa",
-      "source_provision": "s2"
-    },
-    {
-      "term": "Országos Állategészségügyi Információs Rendszer (a továbbiakban",
-      "definition": "OÁIR): a Nemzeti Élelmiszerlánc-biztonsági Hivatal (a továbbiakban: NÉBIH) élőállat- és állati eredetű termékszállítás ellenőrzési, járványügyi, állatjóléti, élelmiszer-higiéniai, élelmiszer minőségellenőrzési, takarmányfelügyeleti, gyógyszer-ellenőrzési és laboratóriumi diagnosztikai feladatainak támogatására kialakított információs rendszer",
       "source_provision": "s2"
     },
     {

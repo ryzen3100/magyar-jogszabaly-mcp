@@ -95,10 +95,11 @@ A teljes szövegű keresés a **magyar nyelvű** jogszabályi szövegen fut, sz�
 
 | Kategória | Darabszám | Részletek |
 |-----------|------|-----------|
-| **Jogszabályok** | 4 326 | Az njt.hu-ról származó teljes magyar joganyag |
-| **Rendelkezések** | 130 220 | FTS5-alapú teljes szövegű keresés |
+| **Jogszabályok** | 72 932 | Az njt.hu-ról származó teljes magyar joganyag |
+| **Rendelkezések** | 1 174 254 | FTS5-alapú teljes szövegű keresés |
+| **Fogalom-definíciók** | 24 762 | A szabályozási fogalmak kinyert definíciói |
 | **Uniós kereszthivatkozások** | 92 | Irányelvek és rendeletek magyar jogszabályokhoz kapcsolva |
-| **Adatbázis mérete** | 282 MB | Optimalizált SQLite-adatbázis |
+| **Adatbázis mérete** | 1,6 GB | Optimalizált SQLite-adatbázis |
 | **Frissítés** | Napi ellenőrzés | Az új adatok új konténerképpel jelennek meg |
 
 **Csak ellenőrzött adatok** — a hivatkozások mind az njt.hu és a Magyar Közlöny hivatalos forrásaira mutatnak. A jogszabályszövegeket nem LLM generálja.
@@ -111,7 +112,7 @@ A teljes szövegű keresés a **magyar nyelvű** jogszabályi szövegen fut, sz�
 
 | Eszköz | Leírás |
 |--------|--------|
-| `search_legislation` | FTS5-alapú teljes szövegű keresés 130 220 rendelkezésben, BM25 szerinti rangsorolással |
+| `search_legislation` | FTS5-alapú teljes szövegű keresés 1 174 254 rendelkezésben, BM25 szerinti rangsorolással |
 | `get_provision` | Konkrét rendelkezés lekérése a jogszabály azonosítója és a szakaszszám alapján |
 | `validate_citation` | Hivatkozás ellenőrzése az adatbázisban; a magyar formátumokat is támogatja (`"2012. évi I. törvény 116. §"`) |
 | `build_legal_stance` | Több jogszabály hivatkozásainak összesítése egy jogi témához |

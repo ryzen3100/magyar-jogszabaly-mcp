@@ -2,10 +2,8 @@
   "id": "hu-law-2021-1-b0-7h",
   "type": "statute",
   "title": "1/2021. (IV. 16.) MK KÁT utasítás a Miniszterelnöki Kabinetiroda Közszolgálati Szabályzatáról",
-  "status": "repealed",
-  "in_force_date": "2021-04-17",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2021-1-B0-7H",
-  "description": "a Miniszterelnöki Kabinetiroda Közszolgálati Szabályzatáról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -503,6 +501,13 @@
       "section": "71",
       "title": "71. §",
       "content": "71. § (1) A cafetéria-juttatásra jogosult személy a Széchenyi Pihenő Kártya a) szálláshely alszámlájára, b) vendéglátás alszámlájára, c) szabadidő alszámlájára igényelhet elektronikus utalvány formájú támogatást alszámlánként vagy valamennyi alszámlára kiterjedően. (2) Az igénylés során a cafetéria-juttatásra jogosult személy – az éves cafetéria-keret és az Szja tv. 71. § (1) bekezdés a)–c) pontjában meghatározott mértékek mellett – alszámlánként figyelembe veszi a más juttatótól a tárgyévben az adott alszámlára biztosított támogatás összegét is. A cafetéria-juttatásra jogosult személy a más juttatótól származó juttatás összegéről a vonatkozó alszámla tekintetében nyilatkozatot tesz. (3) Az MK a jogosult által igényelt juttatás összegét mindhárom alszámlára első alkalommal tárgyév április 30-ig, második alkalommal július 31-ig átutalja. (4) A cafetéria-jogosultság év közbeni megnyílása esetén, illetve a cafetéria-nyilatkozat megtételének időpontjától függően a juttatás átutalására a nyilatkozat beérkezését követő 30 napon belül kerül sor. Október 31. után az MK a visszamaradó hónapok végén egyszer teljesít utalást. (5) A fel nem használt juttatás cafetéria-juttatásra jogosult személynek történő visszatérítésére, illetve az egyes alszámlákra igényelt összegek módosítására nincs lehetőség. 1 Az utasítást az 1/2023. (IV. 11.) MK KÁT utasítás 7. pont b) alpontja hatályon kívül helyezte 2023. április 12. napjával. Alkalmazására lásd e hatályon kívül helyező utasítás 5. pontját. 2 A 7. pont a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "pályakezdő",
+      "definition": "az a kormánytisztviselő, aki a besorolása alapjául szolgáló iskolai végzettségének megszerzését követően egy éven belül első foglalkoztatási jogviszonyként kormányzati szolgálati jogviszonyt létesít, valamint az a 22. életévét be nem töltött munkavállaló, aki első foglalkoztatási jogviszonyként az MK-val létesít jogviszonyt. (5) Családalapítási támogatásban a munkatárs a Kit. vhr. 61. § (1) bekezdésében foglalt esetben, és akkor részesíthető, ha a) hozzájárul ahhoz, hogy támogatás visszafizetésé",
+      "source_provision": "s54"
     }
   ]
 }

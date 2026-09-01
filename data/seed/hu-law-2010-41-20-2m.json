@@ -2,10 +2,8 @@
   "id": "hu-law-2010-41-20-2m",
   "type": "statute",
   "title": "41/2010. (V. 12.) KHEM rendelet a közúti járművek forgalomba helyezésének és forgalomban tartásának műszaki feltételeiről szóló 6/1990. (IV. 12.) KöHÉM rendelet módosításáról",
-  "status": "repealed",
-  "in_force_date": "2010-05-20",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2010-41-20-2M",
-  "description": "a közúti járművek forgalomba helyezésének és forgalomban tartásának műszaki feltételeiről szóló 6/1990. (IV. 12.) KöHÉM rendelet módosításáról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -176,11 +174,6 @@
       "source_provision": "s6"
     },
     {
-      "term": "3.1. A sugárzásállósági vizsgálat eredménye akkor pozitív, ha az alábbi feltételek teljesülnek",
-      "definition": "6.3.1.1. az e Rész 9.1.1. és 9.1.2. pontjával összhangban mért teljes fényáteresztő képesség nem csökken a besugárzás előtti eredeti érték 95 %-a alá, és semmi esetre sem kisebb a következő értéknél: 6.3.1.1.1. 70% olyan nem szélvédő céljára szolgáló üvegtáblák esetén, amelyeknek meg kell felelniük a járművezető bármely irányú látóterére vonatkozó követelményeknek",
-      "source_provision": "s6"
-    },
-    {
       "term": "2.5. A traktor szélvédők látómezőjének meghatározása 9.2.5.1. A látómezőt az alábbiak alapján kell meghatározni",
       "definition": "9.2.5.1.1. a vonatkoztatási pontot az MR. C. Függelék C/4. sz. melléklete I. Rész 1.2. pontja határozza meg. E pont a továbbiakban O-val van jelölve",
       "source_provision": "s6"
@@ -236,28 +229,13 @@
       "source_provision": "s6"
     },
     {
-      "term": "2.3.1. A vizsgálatot akkor kell kielégítőnek tekinteni, ha a következő feltételek teljesülnek",
-      "definition": "3.2.3.1.1. a minta úgy törik el, hogy számos, kör alakú repedés keletkezik, amelyeknek a középpontja közelítőleg az ütközés pontjában van, és az ütközés pontjához legközelebb eső repedések e ponttól legfeljebb 80 mm-re vannak",
-      "source_provision": "s6"
-    },
-    {
       "term": "2.3.1.3. Az ütközés oldalán",
       "definition": "3.2.3.1.3.1. a közbenső rétegnek nem szabad fedetlenné válnia 20 cm2-nél nagyobb felületen",
       "source_provision": "s6"
     },
     {
-      "term": "3.3. Az eredmények kiértékelése 3.3.3.1. E vizsgálat akkor ad kielégítő eredményt, ha a következő feltételek teljesülnek",
-      "definition": "3.3.3.1.1. a vizsgálati darab enged és eltörik oly módon, hogy számos, kör alakú repedés keletkezik, amelyeknek a középpontja közelítőleg az ütközési pont",
-      "source_provision": "s6"
-    },
-    {
       "term": "1.2. a táblának azon vastagsági kategóriája, amelybe az „e” névleges vastagság tartozik",
       "definition": "(±0,2 n mm gyártási tűrés megengedett, ahol n az üvegrétegek száma): 1.1.3. a közbenső réteg vagy rétegek névleges vastagsága",
-      "source_provision": "s6"
-    },
-    {
-      "term": "4. Az eredmények kiértékelése 3.4.1. A vizsgálat megfelelő eredményűnek minősül, ha teljesülnek az alábbi feltételek",
-      "definition": "3.4.1.1. a mintadarab enged és eltörik, illetve azon megközelítőleg az ütközési pontnak megfelelő középponttal kör alakú repedések láthatók",
       "source_provision": "s6"
     },
     {

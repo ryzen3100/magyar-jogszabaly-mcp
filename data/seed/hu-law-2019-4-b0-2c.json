@@ -2,10 +2,8 @@
   "id": "hu-law-2019-4-b0-2c",
   "type": "statute",
   "title": "4/2019. (V. 23.) MNB utasítás a Magyar Nemzeti Bank Szervezeti és Működési Szabályzatáról",
-  "status": "repealed",
-  "in_force_date": "2019-05-24",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2019-4-B0-2C",
-  "description": "a Magyar Nemzeti Bank Szervezeti és Működési Szabályzatáról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -22,31 +20,6 @@
   ],
   "definitions": [
     {
-      "term": "ellátja az Országos Betétbiztosítási Alappal (a továbbiakban",
-      "definition": "OBA), a Szanálási Alappal kapcsolatos, külön jogszabályban meghatározott szanálási feladatkört érintő pénzügyi stabilitási feladatokat, valamint vezetői felkészítőt készít az OBA és a Szanálási Alap igazgatótanácsi üléseihez, és ezek körében kapcsolatot tart az OBA–val és a Szanálási Alappal",
-      "source_provision": "s2"
-    },
-    {
-      "term": "az államháztartási statisztikák területén a Központi Statisztikai Hivatallal (a továbbiakban",
-      "definition": "KSH) és a Pénzügyminisztériummal érvényben lévő megállapodás alapján a két intézménnyel a statisztikák összeállításában együttműködik",
-      "source_provision": "s2"
-    },
-    {
-      "term": "átadja az érintett szakmai szervek [KSH, Befektető-védelmi Alap (a továbbiakban",
-      "definition": "BEVA), OBA] részére az együttműködési megállapodásokban előírt adatokat",
-      "source_provision": "s2"
-    },
-    {
-      "term": "feladata, hogy az Adattárházban, valamint a felelősségi körébe tartozó egyéb alkalmazások esetében (a továbbiakban",
-      "definition": "felelősségi körébe tartozó alkalmazások) a tárolt adatokat a jegybanki alapfeladatokat ellátó szervezeti egységek számára hozzáférhetővé tegye",
-      "source_provision": "s2"
-    },
-    {
-      "term": "ellátja az OBA-val és a Befektető-védelmi Alappal (a továbbiakban",
-      "definition": "BEVA) kapcsolatos pénzügyi stabilitási feladatokat a szanálási feladatkört érintő OBA-val kapcsolatos feladatok kivételével, valamint vezetői felkészítőt készít a BEVA igazgatósági üléseihez, és ezek körében kapcsolatot tart az OBA-val és a BEVA-val",
-      "source_provision": "s2"
-    },
-    {
       "term": "3.1. Hatósági képzési és nyilvántartási főosztály Feladatai körében",
       "definition": "1. ellátja a jogszabályoknak megfelelően a hatósági képzést és vizsgáztatást végző szervek (képző szervek) és vizsgabiztosok működésének és tevékenységének engedélyezésével, a jegyzékbe vételével, törlésével, valamint a Bank honlapján történő közzétételével, illetve aktualizálásával, továbbá az egyéb hatósági vizsgával összefüggő engedélyezési, jóváhagyási vagy megállapítási, jegyzékbe vételi eljárással, valamint a nyilvántartásba vétellel összefüggő feladatokat",
       "source_provision": "s2"
@@ -59,11 +32,6 @@
     {
       "term": "1.2.3.2. Dokumentációs és iratkezelési osztály Feladatai körében",
       "definition": "1. irányítja a Bank iratkezeléssel összefüggő tevékenységét, ide nem értve a minősített iratok kezelésével összefüggő feladatokat",
-      "source_provision": "s2"
-    },
-    {
-      "term": "a Bank szervezeti egységeivel egyeztetve évente felülvizsgálja, majd a Magyar Nemzeti Levéltár (a továbbiakban",
-      "definition": "Levéltár) jóváhagyásával módosítja az iratkezelési szabályzatot és az annak mellékletét képező irattári tervet",
       "source_provision": "s2"
     },
     {
@@ -84,6 +52,11 @@
     {
       "term": "1.4.2.2. Szolgáltatási és ellátási osztály Feladatai körében",
       "definition": "1. üzemelteti a Bank gépjárműparkját szervezi, felügyeli és nyilvántartja a hivatali gépjárművek használatát, üzemben tartását, javaslatot tesz cseréjükre, értékesítésükre, új gépjárművek beszerzésére, gondoskodik a gépjárművek beszerzéséről, értékesítéséről",
+      "source_provision": "s2"
+    },
+    {
+      "term": "az elnök közvetlen irányítása alatt álló szervezeti egység",
+      "definition": "a Belső ellenőrzési főosztály is. Az elnök gyakorolja a munkáltatói jogokat a Pénzügyi Békéltető Testület elnöke és a testület tagjai felett az MNB tv.–ben meghatározottak szerint és a pénzügyi szervezetek felügyeletéért és fogyasztóvédelemért felelős alelnök javaslatát is figyelembe véve. Az elnök gyakorolja az előző bekezdés alá nem tartozó munkavállalók felett a munkaviszony létesítésének, a munkaviszony megszüntetésének, javadalmazás megállapításának jogát, mely munkáltatói jogok gyakorlását",
       "source_provision": "s2"
     }
   ]

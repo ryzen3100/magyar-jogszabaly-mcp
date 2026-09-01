@@ -2,10 +2,8 @@
   "id": "hu-law-2023-1-20-2c",
   "type": "statute",
   "title": "1/2023. (I. 17.) MNB rendelet a bankjegyek feldolgozásáról, forgalmazásáról, valamint hamisítás elleni védelmével kapcsolatos technikai feladatokról",
-  "status": "in_force",
-  "in_force_date": "2023-02-01",
+  "status": "",
   "url": "https://njt.jog.gov.hu/jogszabaly/2023-1-20-2C",
-  "description": "a bankjegyek feldolgozásáról, forgalmazásáról, valamint hamisítás elleni védelmével kapcsolatos technikai feladatokról",
   "provisions": [
     {
       "provision_ref": "s1",
@@ -425,11 +423,6 @@
       "term": "vis maior",
       "definition": "minden, a pénzfeldolgozót, a pénzforgalmazót és az egyéb gazdasági szereplőt befolyásoló, elháríthatatlan, a bankjegyellátásban komoly fennakadást okozó természeti, infrastrukturális vagy társadalmi körülmény, amely az e rendeletben foglaltak teljesítését befolyásolja, illetve gátolja, így különösen a természeti katasztrófa, a terrorcselekmény, a sztrájk, a háború és a polgárháború.",
       "source_provision": "s2"
-    },
-    {
-      "term": "§ A fogyasztói ügyfélkörrel rendelkező hitelintézet (a továbbiakban jelen alcím alkalmazásában",
-      "definition": "hitelintézet) és a posta a 28–31. §-ban foglaltak szerint köteles a forintbankjegyek címletváltását és átváltását végezni.",
-      "source_provision": "s27"
     }
   ]
 }
