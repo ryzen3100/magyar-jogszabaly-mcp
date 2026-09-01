@@ -272,7 +272,10 @@ offline shortcut.
     `TestStrippedHTMLReproducesSeeds` 68,116 seeds byte-exact. DB:
     provisions 1,174,254 → 1,113,243 (e.g. hu-law-2010-10-b0-2y 2,706 →
     21 real §s + 4 annex provisions), definitions 24,762 → 25,141,
-    47,341 annex provisions across 18,972 docs. Corpus word total
+    47,341 annex provisions across 18,972 docs. (25,141 is the build
+    summary's pre-dedup attempt count; the `definitions` table itself
+    holds 25,109 rows — `INSERT OR IGNORE` drops 32 same-document
+    duplicate terms. README cites the SQLite row count.) Corpus word total
     110,045,104 → 112,596,695 (+2.55M recovered annex headers/titles);
     the only DB-level word deficits are 66 duplicate-copies of 11
     tokens, each verified against the source HTML as old block-join
