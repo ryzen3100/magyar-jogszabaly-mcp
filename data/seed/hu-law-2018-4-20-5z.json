@@ -35,7 +35,7 @@
       "provision_ref": "s12",
       "section": "12",
       "title": "12. §",
-      "content": "12. § (1) Éves szállítási kapacitás esetén átadási-átvételi pontonként a kapacitások lekötését a Vhr.-ben és az ÜKSZ-ben meghatározottak szerint kell megtenni. (2) Éves lekötött kapacitás esetén a Hivatal elnökének a rendszerhasználati díjak, a külön díjak és a csatlakozási díjak mértékéről szóló rendelete szerinti szállítási kapacitásdíjat kell megfizetni. (3) A rendszerhasználó kérésére a szállítási rendszerüzemeltető köteles díjmentesen a fűtőértéket közölni, és a jegyzőkönyvben szereplő égéshőt díjmentesen, műbizonylattal alátámasztani. 12. § (1) Ez a rendelet – a (2) bekezdésben foglalt kivétellel – 2018. június 15-én lép hatályba. (2) Az 1–10. § és az 1–2. melléklet a kihirdetését követő 15. napon lép hatályba. „4. melléklet a 11/2016. (XI. 14.) MEKH rendelethez Nem téli fogyasztási időszaki kapacitás igazolásához szükséges adatszolgáltatás formai és tartalmi követelményei – sablon A rendszerhasználó elektronikusan nyújtja be az igazolás iránti kérelmét a Hivatalhoz az alábbi táblázat egyidejű megküldésével. Földgázelosztó* 1 A B C D E F 1. Gázátadó állomás kódja Tervezett nem téli fogyasztási időszaki kapacitás-lekötés** maximális mértéke*** Felhasználási hely kódja (POD) Tervezett nem téli fogyasztási időszaki kapacitás-lekötés maximális mértéke (kWh/h)**** A D oszlop szerinti kapacitást igénybe vevő fogyasztási berendezés(ek) névleges (össz)teljesítménye (kW) Felhasználó nem téli fogyasztási időszaki kapacitáshoz kapcsolódó tevékenységének megnevezése***** 2. Átadó 1 POD 1 3. Átadó 1 POD 2 4. Átadó 1 POD 3 5. Átadó 2 POD 4 6. Átadó 2 POD 5 7. Átadó 2 POD 6 8. Átadó 3 POD 7 … … … Magyarázat: A szürke cella nem kitöltendő * Földgázelosztónként külön adatlapon ** Égéshő alapú kWh/h mértékegységben kifejezett kapacitás *** A D oszlopban POD-onként feltüntetett kapacitások gázátadó állomásonként esetleges egyidejűséggel számított összesített kapacitásértéke **** Az E oszlopban POD-onként feltüntetett teljesítményekhez az adott gázévben szükséges kapacitásérték, melynek fűtőérték alapon számított mértéke nem lehet magasabb az E oszlopban POD-onként feltüntetett maximális értéknél ***** Tájékoztató jellegű felsorolás (egy cellában felsorolva) ” „6. melléklet a 11/2016. (XI. 14.) MEKH rendelethez Tájékoztatás jogosulatlan nem téli időszaki kapacitástermék igénybevételről ”"
+      "content": "12. § (1) Éves szállítási kapacitás esetén átadási-átvételi pontonként a kapacitások lekötését a Vhr.-ben és az ÜKSZ-ben meghatározottak szerint kell megtenni. (2) Éves lekötött kapacitás esetén a Hivatal elnökének a rendszerhasználati díjak, a külön díjak és a csatlakozási díjak mértékéről szóló rendelete szerinti szállítási kapacitásdíjat kell megfizetni. (3) A rendszerhasználó kérésére a szállítási rendszerüzemeltető köteles díjmentesen a fűtőértéket közölni, és a jegyzőkönyvben szereplő égéshőt díjmentesen, műbizonylattal alátámasztani. 12. § (1) Ez a rendelet – a (2) bekezdésben foglalt kivétellel – 2018. június 15-én lép hatályba. (2) Az 1–10. § és az 1–2. melléklet a kihirdetését követő 15. napon lép hatályba."
     },
     {
       "provision_ref": "s13",
@@ -132,6 +132,24 @@
       "section": "11",
       "title": "11. §",
       "content": "11. §"
+    },
+    {
+      "provision_ref": "s1mellklet",
+      "section": "1. melléklet",
+      "title": "1. melléklet",
+      "content": "1. melléklet a 4/2018. (VI. 14.) MEKH rendelethez „4. melléklet a 11/2016. (XI. 14.) MEKH rendelethez Nem téli fogyasztási időszaki kapacitás igazolásához szükséges adatszolgáltatás formai és tartalmi követelményei – sablon A rendszerhasználó elektronikusan nyújtja be az igazolás iránti kérelmét a Hivatalhoz az alábbi táblázat egyidejű megküldésével. Földgázelosztó* 1 A B C D E F 1. Gázátadó állomás kódja Tervezett nem téli fogyasztási időszaki kapacitás-lekötés** maximális mértéke*** Felhasználási hely kódja (POD) Tervezett nem téli fogyasztási időszaki kapacitás-lekötés maximális mértéke (kWh/h)**** A D oszlop szerinti kapacitást igénybe vevő fogyasztási berendezés(ek) névleges (össz)teljesítménye (kW) Felhasználó nem téli fogyasztási időszaki kapacitáshoz kapcsolódó tevékenységének megnevezése***** 2. Átadó 1 POD 1 3. Átadó 1 POD 2 4. Átadó 1 POD 3 5. Átadó 2 POD 4 6. Átadó 2 POD 5 7. Átadó 2 POD 6 8. Átadó 3 POD 7 … … … Magyarázat: A szürke cella nem kitöltendő * Földgázelosztónként külön adatlapon ** Égéshő alapú kWh/h mértékegységben kifejezett kapacitás *** A D oszlopban POD-onként feltüntetett kapacitások gázátadó állomásonként esetleges egyidejűséggel számított összesített kapacitásértéke **** Az E oszlopban POD-onként feltüntetett teljesítményekhez az adott gázévben szükséges kapacitásérték, melynek fűtőérték alapon számított mértéke nem lehet magasabb az E oszlopban POD-onként feltüntetett maximális értéknél ***** Tájékoztató jellegű felsorolás (egy cellában felsorolva) ”"
+    },
+    {
+      "provision_ref": "s2mellklet",
+      "section": "2. melléklet",
+      "title": "2. melléklet",
+      "content": "2. melléklet a 4/2018. (VI. 14.) MEKH rendelethez „6. melléklet a 11/2016. (XI. 14.) MEKH rendelethez Tájékoztatás jogosulatlan nem téli időszaki kapacitástermék igénybevételről ”"
+    },
+    {
+      "provision_ref": "s3mellklet",
+      "section": "3. melléklet",
+      "title": "3. melléklet",
+      "content": "3. melléklet a 4/2018. (VI. 14.) MEKH rendelethez 1 A rendelet a 2010: CXXX. törvény 12. § (3) bekezdése alapján hatályát vesztette 2018. június 30. napjával. 2 A 11. § a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette. 3 A 3. melléklet a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette."
     }
   ]
 }

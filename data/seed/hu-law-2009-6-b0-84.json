@@ -8,34 +8,862 @@
   "description": "a közbeszerzési eljárások lebonyolításáról, valamint a közbeszerzésekkel kapcsolatos adatszolgáltatás rendjéről",
   "provisions": [
     {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "1",
+      "content": "Általános rendelkezések"
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "2",
+      "content": "1. Jelen utasítás hatálya kiterjed a Miniszterelnöki Hivatalra (a továbbiakban: MeH), valamint a Központi Szolgáltatási Főigazgatóságra (a továbbiakban: KSzF), melyek a közbeszerzésekről szóló 2003. évi CXXIX. törvény (a továbbiakban: Kbt.) hatálya alá tartozó közbeszerzéseik lebonyolítása során a jelen utasítás vonatkozó rendelkezései szerint kötelesek eljárni."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "3",
+      "content": "1.1. Az utasítás hatálya nem terjed ki a KSzF mint központi beszerző szervezet által a központosított közbeszerzési rendszerről, valamint a központi beszerző szervezet feladat- és hatásköréről szóló 168/2004. (V. 25.) Korm. rendelet szerint lebonyolított központosított közbeszerzési eljárások alapján lefolytatott beszerzésekre."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "4",
+      "content": "2. Jelen utasítás szerint köteles eljárni az ajánlatkérő, ha a megadott tárgyú közbeszerzésének nettó értéke a közbeszerzés megkezdésekor a Kbt. szerinti értékhatárokat eléri vagy meghaladja, és a beszerzés nem a központosított közbeszerzésből történik."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "5",
+      "content": "2.1. A közbeszerzés tárgya árubeszerzés, építési beruházás, építési koncesszió, szolgáltatásmegrendelés, szolgáltatási koncesszió (a továbbiakban: közbeszerzés)."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "6",
+      "content": "3. A jelen utasítás alkalmazása szempontjából irányadó értékhatárokat, illetve a vonatkozó jogszabályi rendelkezéseket a Kbt. és a kapcsolódó jogszabályok tartalmazzák."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "7",
+      "content": "4. A MeH szervezeti egységei, valamint a KSzF szervezeti egységei által kezdeményezett 2. pont szerinti közbeszerzési eljárások Kbt. rendelkezéseinek megfelelően történő lebonyolítására kizárólag a KSzF jogosult."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "8",
+      "content": "5. A közbeszerzési eljárás megindításának előkészítésére munkacsoportot kell létrehozni. A munkacsoport tagjai a bírálóbizottság tagjai, a KSzF – Szervezeti és Működési Szabályzata szerint illetékes főosztályának vezetője által írásban kijelölt – képviselői: szakértő, szakreferens, referens, jogtanácsos, jogi szakértő, hivatalos közbeszerzési tanácsadó (a továbbiakban együtt: KSzF munkatársai) továbbá a független hivatalos közbeszerzési tanácsadó, valamint a döntéshozó által a munkacsoportba delegált egyéb tag. A munkacsoport bármely tagja személyében történt változás engedélyezésére – a KSzF munkatársait kivéve – az eljárás megindítását kezdeményező iratban megnevezett döntéshozó jogosult, és köteles a változásnak megfelelően módosítani a közbeszerzési eljárás indító jegyzőkönyvének mellékletét képező felelősségi körökről szóló iratot. A személyi változást követően a munkacsoport – a KSzF munkatársain kívüli – új tagjai titoktartási és összeférhetetlenségi nyilatkozatának a munkacsoport titkárához történő haladéktalan eljuttatása az ajánlatkérő feladata. A munkacsoport tagjainak megfelelő – a közbeszerzés tárgya szerinti, közbeszerzési, jogi és pénzügyi – szakértelemmel kell rendelkezniük."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "9",
+      "content": "5.1. A közbeszerzési eljárás során vagyonnyilatkozatot kell tenniük azoknak, akiket az egyes vagyonnyilatkozat-tételi kötelezettségekről szóló 2007. évi CLII. törvény, vagy belső szabály erre kötelez."
+    },
+    {
       "provision_ref": "s10",
       "section": "10",
-      "title": "10. §",
-      "content": "10. § (1) A közbeszerzési eljárás előkészítése, a felhívás és a dokumentáció elkészítése során vagy az eljárás más szakaszában az ajánlatkérő nevében nem járhat el, illetőleg az eljárásba nem vonható be (erőforrást nyújtó szervezetként sem) a közbeszerzés tárgyával kapcsolatos gazdasági tevékenységet végző gazdálkodószervezet (a továbbiakban: érdekelt gazdálkodószervezet), illetőleg az olyan személy vagy szervezet, aki, illetőleg amely a) az érdekelt gazdálkodószervezettel munkaviszonyban vagy munkavégzésre irányuló egyéb jogviszonyban áll, b) az érdekelt gazdálkodószervezet vezető tisztségviselője vagy felügyelőbizottságának tagja, c) az érdekelt gazdálkodószervezetben tulajdoni részesedéssel rendelkezik, d) az a)–c) pont szerinti személy hozzátartozója. (2) Nem kell alkalmazni az (1) bekezdést, ha az ajánlatkérő nevében eljáró, illetőleg az eljárásba bevonni kívánt érdekelt gazdálkodószervezet, illetőleg az eljárásba bevonni kívánt személlyel vagy szervezettel az (1) bekezdés a)–d) pontja szerinti viszonyban álló érdekelt gazdálkodószervezet írásban nyilatkozik, hogy az eljárásban nem vesz részt ajánlattevőként vagy alvállalkozóként. (3) (4) Ha az ajánlatkérő nevében valamely személy tulajdonosi jogokat gyakorol érdekelt gazdálkodószervezetben, az ajánlatkérő nevében e személy vagy hozzátartozója nem járhat el a közbeszerzési eljárás előkészítésében vagy az eljárás más szakaszában, kivéve, ha az érdekelt gazdálkodószervezet írásban nyilatkozik, hogy az eljárásban nem vesz részt ajánlattevőként vagy alvállalkozóként. Ezt a szabályt kell megfelelően alkalmazni az ajánlatkérő vezető tisztségviselője vagy felügyelőbizottságának tagja vagy hozzátartozója tekintetében, ha az érdekelt gazdálkodószervezetben az ajánlatkérő rendelkezik tulajdoni részesedéssel. (5) Nem kell alkalmazni e §-t, ha az ajánlatkérő nevében az érdekelt gazdálkodószervezetben a tulajdonosi jogok gyakorlására és a közbeszerzési eljárást lezáró döntés meghozatalára törvény, vagy törvény felhatalmazása alapján kiadott önkormányzati rendelet alapján az ajánlatkérő ugyanazon testülete jogosult, vagy olyan testületei, amelynek tagjai részben azonosak, és a közbeszerzési eljárással kapcsolatos – az eljárást lezáró döntés meghozatalán kívüli – tevékenységekben nem vett részt olyan személy, aki jogosult a tulajdonosi jogok gyakorlására. (6) Nem minősül e § alkalmazásában a közbeszerzési eljárás előkészítésébe bevont személynek (szervezetnek) az olyan személy (szervezet), akitől, illetőleg amelytől az ajánlatkérő a) az adott közbeszerzéssel kapcsolatos helyzet-, illetőleg piacfelmérés, a közbeszerzés becsült értékének felmérése érdekében a közbeszerzés megkezdése időpontjának megjelölése nélkül, kizárólag a felmérés érdekében szükséges adatokat közölve kért tájékoztatást, vagy b) a támogatásra irányuló igény (pályázat) benyújtásához szükséges árajánlatot kapott, feltéve, hogy az a), illetőleg a b) pont alkalmazása kapcsán az ajánlatkérő nem közölt vele a közbeszerzési eljárás során az összes ajánlattevő (részvételre jelentkező) részére rendelkezésre bocsátott adatok körét meghaladó információt. (7) Az ajánlatkérő nevében eljáró, illetőleg az eljárásba bevonni kívánt személy vagy szervezet írásban köteles nyilatkozni arról, hogy vele szemben fennáll-e az e § szerinti összeférhetetlenség. Az összeférhetetlenséggel kapcsolatos nyilatkozathoz – a (2) vagy (4) bekezdés szerinti esetben – csatolni kell az érintett érdekelt gazdálkodószervezet nyilatkozatát arról, hogy az eljárásban nem vesz részt ajánlattevőként vagy alvállalkozóként (távolmaradási nyilatkozat). (8) Ha az (1), (4) vagy (7) bekezdést megsértették, vagy a (2), illetőleg (4) bekezdés szerinti nyilatkozata ellenére az érdekelt gazdálkodószervezet indul a közbeszerzési eljárásban, az eljárás további részében nem lehet ajánlattevő vagy alvállalkozó az (1) bekezdés hatálya alá tartozó vagy az ott felsorolt személyekkel, szervezetekkel az (1) bekezdés a)–d) pontja szerinti viszonyban álló érdekelt gazdálkodószervezet. 2. Felelősségem teljes tudatában kijelentem, hogy velem szemben – a jelen közbeszerzési eljárással összefüggésben – összeférhetetlenségi ok nem áll fenn. Kijelentem továbbá, hogy az eljárással kapcsolatos megbízásom sem jogi, sem etikai szempontból nem összeférhetetlen, egyetlen ajánlat kedvező elbírálásában sem vagyok sem anyagilag, sem más szempontból érdekelve. Az ajánlattevőkkel perben, haragban nem állok. Kötelezem magam arra, hogy az ajánlattevők személyiségi jogait, szerzői jogait, iparjogvédelmi jogait (találmány, szabadalom, védjegy, ipari minta), vagy más jogi érdekeit – a bírálati (szakértői) munka során tudomásomra jutott adatok jogosulatlan felhasználásával, nyilvánosságra hozatalával, vagy illetéktelen személy tudomására hozatalával, vagy bármely más módon – nem sértem. Tartózkodni fogok az ajánlatokból tudomásomra jutott adatok, információk, leírások bárminemű közvetlen, illetve közvetett felhasználásától, és kijelentem, hogy az ajánlatok tárgyában semmilyen szerzői, iparjogvédelmi igényem nincsen. Az eljárás során szerzett információkat bizalmasan kezelem. Tudomásul veszem, hogy a sajtó és az egyéb érdekeltek tájékoztatására a döntéshozónak van hatásköre. A tárgyi közbeszerzési eljárást illetően a közbeszerzésről szóló 2003. évi CXXIX. törvény (továbbiakban: Kbt.) 8. § (1) bekezdése szerinti megfelelő szakértelemmel rendelkezem. A Kbt. 6. § (1) és 8. § (3) bekezdésére figyelemmel ismerem a tárgyi közbeszerzési eljárás dokumentálásának rendjét, felelősségi körét. Hozzájárulok ahhoz, hogy személyes adataimat az ajánlatkérő – a személyes adatok védelméről és a közérdekű adatok nyilvánosságáról szóló 1992. évi LXIII. törvény vonatkozó rendelkezéseinek megfelelően – kezelje. Ismerem, és az eljárás során magamra nézve kötelezőnek elfogadom az ajánlatkérő közbeszerzési eljárásaira vonatkozó előírásokat. Amennyiben az eljárás lebonyolítása során jelen nyilatkozatomat érintő változás következik be, azt haladéktalanul írásban bejelentem a döntéshozónak/kötelezettségvállalónak, az eljárásban folytatott tevékenységem felfüggesztése mellett. Budapest, ….…………………… ………………………………… aláírás Közbeszerzési eljárás felelősségi rendje Az eljárás tárgya: „…………………………………………………….” 1. Az ajánlatkérő szervezeti egység megnevezése: 2. A kötelezettségvállaló neve, elérhetősége: Az ajánlatkérő kötelezettségvállalásra jogosult vezetőjének felelőssége, valamint jogai és kötelezettségei: 1. A kötelezettségvállaló a felkérőlevélben jogosult kijelölni a döntéshozót és a bírálóbizottság tagjait. 2. Felelős a szerződés határidőben történő aláírásáért. 3. Az ajánlatkérő szervezeti egység kijelölt kapcsolattartójának neve, elérhetősége: 4. A beszerzés becsült értéke (nettó): ………………………… Ft 5. A Kbt. 6. § (1) bek. szerinti felelősségi rend és felelősségük meghatározása: Döntéshozó: A döntéshozó kizárólagos jogai és felelőssége: 1. A bírálóbizottság tagjainak kijelölése (kizárólagosan felelős azért, hogy a kijelölt bírálóbizottsági tagok a közbeszerzés tárgya szerinti szakértelemmel rendelkezzenek). 2. A munkacsoport személyi állományában történő változás (a KSzF munkatársainak kivételével) jóváhagyása. 3. Amennyiben az ajánlatkérő az eljárás bírálóbizottságába külső (szakértő) tagokat hív meg, a döntéshozó köteles gondoskodni a megbízási szerződés megkötéséről, az abban foglalt megbízási díj kifizetéséről, valamint a titoktartási és összeférhetetlenségi nyilatkozat megtételéről. 4. Ajánlati biztosíték, teljesítési biztosíték kikötése esetén, annak összegét, a rendelkezésre bocsátás módját, kezelését a KSzF javaslata alapján a döntéshozó határozza meg. A döntéshozó felelőssége annak mérlegelése, hogy az ajánlati biztosíték, illetve teljesítési biztosíték alkalmazása szükséges-e. A döntéshozó felelőssége továbbá annak megítélése, hogy az ajánlati biztosíték, illetve teljesítési biztosíték alkalmazása az ajánlattevők árait milyen módon befolyásolhatja. 5. A Kbt. 6. § (2) bekezdése alapján az eljárást megindító hirdetmény/felhívás ellenjegyzése. 6. A bírálóbizottsági szakvélemények, döntési javaslat(ok) kézhezvételét követően a döntések meghozatala, a döntésekről – adott esetben – a kötelezettségvállalásra jogosult személy tájékoztatása. 7. A döntéshozó köteles gondoskodni a hivatalos közbeszerzési tanácsadó megbízási szerződésének megkötéséről, az abban foglalt megbízási díj kifizetéséről, valamint a titoktartási és összeférhetetlenségi nyilatkozat megtételéről. A döntéshozó jogköre az eljárást megindító hirdetmény ellenjegyzése, a dokumentáció jóváhagyása során, valamint az eljárás eredményéről szóló döntési javaslat jóváhagyása vagy elutasítása során: 1. Jogosult a hirdetmény/felhívás, illetve a döntés előkészítésében részt vevő személyek írásbeli, szakterületük szerinti, szakvéleményét a bírálóbizottság elnökén keresztül – a kérdéssel érintett szervezeti egység(ek) vezetőjénél – írásban kérni. 2. A döntéshozó döntéseit önállóan hozza. Jogosult figyelmen kívül hagyni a bírálóbizottság tagjainak javaslatait és a munkacsoport szakembereinek szakterület szerinti állásfoglalásait. Ez esetben azonban a döntéséért kizárólagosan felel. A munkacsoport tagjai A feladat teljesítése során a felelősségi köröket a következőképpen határozzuk meg: 1. Az ajánlatkérő kizárólagosan felel azért, hogy a beszerzés tárgya és mennyiségeként közölt adatok, a műszaki leírásban meghatározottak jogi és szakmai szempontból helytállóak, a valóságnak megfelelnek. Mind az ajánlatkérő, mind a lebonyolító felelőssége kiterjed az eljárás Kbt.-nek megfelelő lefolytatására, de az ajánlatkérő által közölt adatok és szakmai elvárások helyességének ellenőrzése nem képezi a szolgáltatás tárgyát. 2. Ha az ajánlatkérő nyilvánvalóan szakszerűtlen vagy a Kbt. előírásaival ellentétes követelményt állít, akkor a lebonyolító haladéktalanul köteles erre a megbízót írásban figyelmeztetni. A munkacsoport tagjainak felelőssége, valamint jogai és kötelezettségei Közös szabályok 1. Közbeszerzési eljárás megindításának előkészítésére munkacsoportot kell létrehozni. A munkacsoport tagjai a bírálóbizottság tagjai, a KSzF – szervezeti és működési szabályzata szerint illetékes főosztályának vezetője által írásban kijelölt – képviselői – szakértő, szakreferens, referens, jogtanácsos, jogi szakértő, hivatalos közbeszerzési tanácsadó (a továbbiakban együtt: KSzF munkatársai) –, valamint a független hivatalos közbeszerzési tanácsadó. A munkacsoport bármely tagja személyében történt változás engedélyezésére – a KSzF munkatársait kivéve – az eljárás megindítását kezdeményező iratban megnevezett döntéshozó jogosult, és köteles a változásnak megfelelően módosítani a közbeszerzési eljárás indító jegyzőkönyvének mellékletét képező felelősségi körökről szóló iratot. A személyi változást követően a munkacsoport – KSzF munkatársain kívüli – új tagjai titoktartási és összeférhetetlenségi nyilatkozatának a munkacsoport titkárához történő haladéktalan eljuttatása az ajánlatkérő feladata. 2. A munkacsoport tagjai kötelesek minden esetben a vonatkozó jogszabályok szerint, valamint a jelen MeHVM utasítás alapján eljárni. A munkacsoport valamennyi tagja köteles a Kbt., illetve a jelen MeHVM utasítás szabályait a szükséges mértékig ismerni. A szükséges mértéket a tagok saját maguk állapítják meg azzal, hogy minden tag köteles a rá vonatkozó (szakértelme szerinti) szabályokkal, valamint az alapvető előírásokkal tisztában lenni. 3. A munkacsoport valamennyi tagja köteles az eljárás főbb iratait megismerni, a szakértelme szerinti iratokat kellő körültekintéssel áttanulmányozni. 4. Valamennyi tag köteles a Kbt. 20/A. § rendelkezéseinek betartását figyelni (kartellezés tilalma). A bírálóbizottság elnökének felelőssége, valamint jogai és kötelezettségei 1. Köteles a jelen MeHVM utasítás szerint rábízott feladatokat ellátni. 2. Az eljárás indító jegyzőkönyvét köteles aláírni és a döntéshozó elé terjeszteni. Az indító jegyzőkönyv tartalmának helytállóságáért mindazon részek tekintetében felelős, amelyért más személy (így különösen a munkacsoport titkárának) felelőssége nem állapítható meg. 3. Amennyiben az eljárás előkészítése során, vagy az eljárás egyéb szakaszában különvélemény merül fel, arról a döntéshozót/kötelezettségvállalásra jogosult személyt tájékoztatja. 4. Köteles a bírálóbizottság alakuló ülésének jegyzőkönyvét aláírni. 5. Egyebekben a bírálóbizottság tagjaira vonatkozó szabályok alkalmazandók. A bírálóbizottság tagjainak felelőssége, valamint jogai és kötelezettségei 1. A bírálóbizottság – tagjain keresztül – a közbeszerzés tárgya szerinti szakértelemmel rendelkezik. 2. A bírálóbizottság mint testület kizárólagosan felelős azon kérdésekben, amelyek a közbeszerzési eljárás során speciális szakértelmet igényelnek, így különösen a műszaki leírás összeállításáért, az alkalmassági és a bírálati – és adott esetben a rangsorolási – szempontok/részszempontok szakmaiságáért. A bírálóbizottság egyes tagjai közötti szakmai felelősséget a tagok szakértelme határozza meg. A bírálóbizottság tagjainak szakértelmét jelen dokumentumban nevesíteni kell. 3. Amennyiben egy szakértelmet érintő területen a bírálóbizottság tagjai közül többen rendelkeznek szakértelemmel, úgy a szakértelemmel rendelkező tagok külön-külön felelnek. Ha egy szakértelmet igénylő téma kapcsán több bírálóbizottsági tag érintett (pl. a műszaki leírást többen, együttesen készítik) és az egyes tagok közreműködésének mértéke nem választható el egymástól, abban az esetben együttesen felelnek. 4. Feladatkörében a bírálóbizottság, a közbeszerzési eljárás megfelelő előkészítése érdekében felméri az ajánlatkérői igényeket és elvégzi a beszerzés tárgya szerinti helyzet-, illetve piacfelmérést, a közbeszerzés becsült értékének felmérését. 5. A bírálóbizottság működési rendjét maga állapítja meg, azonban a tagok bármely kérdésre vonatkozó, írásba foglalt különvéleményét csatolni kell az eljárás eredményéről szóló, a bírálóbizottság által készített döntési javaslatot tartalmazó irathoz. A döntési javaslathoz csatolni kell továbbá a bírálóbizottság tagjainak az előzetesen rögzített szempontok szerinti részletes szakmai indokolással és adott esetben a megfelelő, a szöveges indoklással összhangban álló pontszámmal ellátott bírálati lapját. 6. Az ajánlattevők pénzügyi-gazdasági és műszaki-szakmai alkalmasságának szakmai vizsgálata a bírálóbizottság kizárólagos feladatát és felelősségét képezi. A KSzF eljárásba bevont munkatársainak felelőssége 1. A KSzF munkatársai végzik a közbeszerzés-technikai és közbeszerzésjogi feladatokat. Feladatuk ellátása során elvégzik mindazon feladatokat, amelyeket a jelen MeHVM utasítás a KSzF eljárásba bevont munkatársai hatáskörébe utal. 2. A munkacsoport KSzF által delegált munkatársainak az ajánlatkérő által meghatározott műszaki tartalom, bírálati szempont és bírálati részszempontok, általános joggyakorlat során alkalmazott szerződéses feltételek vonatkozásában a Kbt. és a közbeszerzési eljárásra vonatkozó egyéb jogszabályok betartása érdekében írásbeli figyelmeztetési kötelezettségük van az ajánlatkérő felé, amennyiben ezen feltételek jogellenessége nyilvánvalóan megállapítható és arról tudomást szereznek. 3. A KSzF munkatársai a speciális szakértelmet, szaktudást igénylő kérdések megítélése tekintetében figyelmeztetési kötelezettséggel nem tartoznak, annak megítélése a bírálóbizottság tagjainak, az ajánlatkérő által az eljárásba bevont szakértőknek és a döntéshozónak a feladata. Speciális szakértelmet igénylő kérdés különösen a közbeszerzésre vonatkozó ismereteken felüli végzettséget, képesítést, szakképzést igénylő kérdés. 4. Az ajánlatok alaki követelményeknek való megfeleléséről, az ajánlattevők alkalmasságának formai és mennyiség szerinti vizsgálatáról és az ezek során megállapított tényekről a KSzF illetékes Beszerzési Főosztálya – a KSzF Jogi és Igazgatási Főosztálya (továbbiakban: KSzF JIF) álláspontjának ismeretében – szakvéleményt készít. Az alkalmasságot a KSzF illetékes Beszerzési Főosztálya csak a fenti körben, forma és az előírt alkalmassági kritériumban meghatározott mennyiség (darabszám) alapján vizsgálhatja. A mennyiségi vizsgálat részét képezi a Kbt. 68. § (1)–(2) bekezdései szerinti igazolások/nyilatkozatok áttekintése. 5. A KSzF eljárásba bevont munkatársainak egymás közötti feladatmegosztása: 1. A KSzF által bevont jogtanácsos, illetve jogi szakértő (a továbbiakban: jogtanácsos) köteles az ajánlatkérő által rendelkezésre bocsátott ajánlatkérő adatait (belértve a kapcsolattartók adatait is) speciális szerződéses és műszaki feltételeket tartalmazó szerződéstervezetet észrevételezni, javaslatokkal ellátni, és a végleges szerződést elkészíteni. Amennyiben nyilvánvaló hibát észlel, úgy köteles ezt írásban jelezni. Az írásban való jelzés úgy is történhet, ha az olyan megbeszélésen, amelyről jegyzőkönyv (emlékeztető) készül, szóban felhívja rá az ajánlatkérő figyelmét. A felhívást ez esetben jegyzőkönyvbe kell foglalni. 1.1. A jogtanácsos köteles a jogtanácsosi tevékenységről szóló 1983. évi 3. tvr. szabályai, valamint a munkaköre ellátására vonatkozó szabályok szerint eljárni. 1.2. A jogtanácsos köteles írásban felhívni az ajánlatkérő figyelmét, amennyiben a szerződéstervezet, a módosított (végleges) szerződés, vagy ajánlatkérő, illetve ajánlattevő(k) eljárás során tanúsított magatartása, cselekményei nyilvánvalóan jogszabályellenesek. 1.3. A pénzügyi, adójogi, számviteli tárgyú, speciális szakértelmet igénylő jogszabályok, valamint a szerződésben és mellékleteiben szereplő számítások, összesített és tételes áradatok, árkövetési rendelkezések esetében kizárólag a bírálóbizottság pénzügyi szakértelemmel rendelkező tagja felelős. 1.4. A jogtanácsos nem felelős azokban az esetekben, ahol a jogi tájékoztatása vagy figyelemfelhívása kapcsán hivatkozott jogértelmezés hiányos vagy nem egyértelmű, vagy ellentmondásos (pl. döntőbizottsági határozatok, bírósági határozatok). Ezekben az esetekben a jogtanácsos az ellentmondásokra, jogértelmezési lehetőségekre felhívja a bírálóbizottság elnökének figyelmét, és ez alapján a döntéshozó dönt. A döntéshozó döntéséért kizárólagosan felel. 1.5. A jogtanácsos az észrevételezési, figyelemfelhívási, véleményezési jogait és kötelezettségeit a munkacsoport titkárán keresztül köteles gyakorolni. A munkacsoport titkára köteles a jogtanácsos által megküldött dokumentumokat a bírálóbizottság elnökének megküldeni. 1.6. Jogosult részt venni a közbeszerzési eljárási cselekményeken (pl. eredményhirdetés, bontás stb.). Köteles részt venni – a munkacsoport titkárának értesítését követően – minden olyan közbeszerzési eljárási cselekményen, amely jogi szakértelmet igényel (különösen jogi kérdéseket érintő egyeztetések, tárgyalások). 2. A KSzF által bevont közbeszerzési referens/szakreferens/szakértő (a továbbiakban: közbeszerzési szakértő) felelős a közbeszerzési eljárás – a Kbt., valamint a jelen MeHVM utasítás előírásainak megfelelő – szabályszerű lefolytatásáért. Köteles ismerni a Kbt.-t és a vonatkozó közbeszerzési jogszabályokat, a munkakörére és a feladatkörére vonatkozó jogszabályokat és szabályokat. 2.1. A közbeszerzési szakértő feladatkörében: – helyiséget biztosít a konzultációkhoz, részt vesz a konzultációkon, – megszervezi és elvégzi a részvételi jelentkezések/ajánlatok bontását és az eredményhirdetést, – a bírálóbizottság titkáraként a bírálóbizottság – beszerzés tárgya szerinti – szakmai támogatásával elkészíti a bírálóbizottsági ülések emlékeztetőjét és az egyes eljárási események jegyzőkönyvét, – részt vesz a helyszíni bejáráson, – megszervezi és koordinálja a tárgyalásokat (beleértve a technikai feltételek biztosítását is), – elkészíti az eljárás valamennyi Kbt.-ben előírt dokumentumát (pl. ajánlati/ajánlattételi/részvételi felhívás, dokumentáció, összegezés, tájékoztató az eljárás eredményéről), – elkészíti a dokumentáció részét képező, az ajánlat részeként benyújtandó igazolások, nyilatkozatok jegyzékét, – gondoskodik az eljárás során keletkezett dokumentumok megfelelő tárolásáról, őrzéséről, – a szabályzatban hatáskörébe utalt közzétételi feladatokat ellátja (beleértve a Kbt. 17/C. §-a szerint nevesített honlapon történő közzétételről való gondoskodást is, melyet a felelős szervezeti egységnél kezdeményez), – elvégzi az ajánlattevők (közös ajánlattevők), továbbá a közbeszerzés értékének tíz százalékát meghaladó mértékben igénybe venni kívánt alvállalkozóiknak, valamint az erőforrást nyújtó szervezetnek a kizáró okokra vonatkozó vizsgálatát, e körben észrevételeit, javaslatait, megállapításait szakvéleménybe foglalja, – amennyiben a kizáró okok igazolása az ajánlatkérő által ingyenesen hozzáférhető, közhiteles, elektronikus nyilvántartásból elérhető, úgy köteles a nyilvántartásból megismerhető tényeket, adatokat e nyilvántartásból ellenőrizni, – amennyiben szabálytalanságot észlel a bizottság munkájában, köteles jelezni a bírálóbizottság elnökének, – a jelen MeHVM utasításban meghatározott módon és terjedelemben figyelemmel kíséri a Kbt. 20/A. §-a szerinti kartellezési tilalom betartását, és annak észlelése esetén jelzi ezt az utasításban megjelölt személynek. 2.2. Jogosult, illetve – a jelen MeHVM utasításban meghatározott esetekben – köteles szakvéleményt készíteni és felhívni a bírálóbizottság elnökén keresztül a döntéshozó figyelmét az eljárás során felmerült közbeszerzési szempontból lényeges megállapításairól (pl. tényekről, észrevételeiről, eljárási cselekményekhez, vagy az eljárás menetéhez kötődő javaslatairól). 2.3. A munkacsoport titkáraként ellátja mindazon feladatokat, amelyeket a jelen MeHVM utasítás a feladataként nevesít. Keltezés a bírálóbizottság elnökének aláírása A felelősségi rendet jóváhagyom: ……………………………………… a döntéshozó aláírása Nyilatkozat pénzügyi fedezet rendelkezésre állásáról Nyilatkozat pénzügyi fedezet rendelkezésre állásáról Alulírott …………………………. (ajánlatkérő neve), mint ………………………………… (szervezeti egység megnevezése) kötelezettségvállalásra jogosult vezetője nyilatkozom, hogy a(z) ……………………..…………. tárgyú közbeszerzési eljárás alapján megkötendő szerződés ellenértéke rendelkezésre áll. A beszerzés várható értéke: ……………………… (bruttó) ……………………… (nettó) + ……% áfa A közbeszerzési eljárás bírálóbizottságába – pénzügyi szakértelemmel rendelkező – tagot delegálni: kívánok/nem kívánok (a kívánt rész aláhúzandó). Amennyiben ilyen tagot delegálok, abban az esetben a delegált neve, beosztása, elérhetőségei: Budapest, …………………… …………………………………………… kötelezettségvállalásra jogosult vezető A fenti nyilatkozatban megjelölt beszerzés várható értéke alapján, a finanszírozásához szükséges pénzügyi fedezet a(z) …………………. évi költségvetésben a ………………………. helyen rendelkezésre áll. Budapest, …………………… …………………………………………… pénzügyi fedezetet igazoló vezető A kartelltilalom Kbt.-beli szabályozása, valamint a belső szabályzatok ezzel kapcsolatos módosítása I. A tételes jogi szabályozás és annak rövid elemzése A Kbt. módosítás 11. §-a az alábbi rendelkezéssel egészíti ki a Kbt.-t."
+      "title": "10",
+      "content": "6. Az ajánlatok értékelésére legalább háromtagú bírálóbizottságot kell létrehozni, melynek összetételét a döntéshozó határozza meg azzal, hogy a bírálóbizottság elnöke minden esetben a beszerzéssel érintett szervezeti egység szakmai vezetője vagy a döntéshozó által a bírálóbizottság vezetésére külön felhatalmazott személy."
     },
     {
       "provision_ref": "s11",
       "section": "11",
-      "title": "11. §",
-      "content": "11. § A Kbt. a törvény második részét megelőzően a következő új 20/A. §-sal egészül ki: „20/A. § Amennyiben az ajánlatkérő az általa lefolytatott eljárás során, a tisztességtelen piaci magatartás és a versenykorlátozás tilalmáról szóló 1996. évi LVII. törvény (a továbbiakban: Tpvt.) 11. §-a, vagy az Európai Közösséget létrehozó szerződés 81. cikke szerinti rendelkezések nyilvánvaló megsértését észleli vagy azt alapos okkal feltételezi, köteles azt – a Tpvt. bejelentésre vagy panaszra vonatkozó szabályai szerint – jelezni a Gazdasági Versenyhivatalnak.” Tpvt. 11. §-a A gazdasági versenyt korlátozó megállapodás tilalma 11. § (1) Tilos a vállalkozások közötti megállapodás és összehangolt magatartás, valamint a vállalkozások társadalmi szervezetének, a köztestületnek, az egyesülésnek és más hasonló szervezetnek a döntése (a továbbiakban együtt: megállapodás), amely a gazdasági verseny megakadályozását, korlátozását vagy torzítását célozza, vagy ilyen hatást fejthet, illetve fejt ki. Nem minősül ilyennek a megállapodás, ha egymástól nem független vállalkozások között jön létre. (2) Ez a tilalom vonatkozik különösen: a) a vételi vagy az eladási árak, valamint az egyéb üzleti feltételek közvetlen vagy közvetett meghatározására; b) az előállítás, a forgalmazás, a műszaki fejlesztés vagy a befektetés korlátozására, vagy ellenőrzés alatt tartására; c) a beszerzési források felosztására, illetve a közülük való választás lehetőségének korlátozására, valamint a fogyasztók, üzletfelek meghatározott körének valamely áru beszerzéséből történő kizárására; d) a piac felosztására, az értékesítésből történő kizárásra, az értékesítési lehetőségek közötti választás korlátozására; e) f) a piacra lépés akadályozására; g) arra az esetre, ha azonos értékű vagy jellegű ügyletek tekintetében az üzletfeleket megkülönböztetik, ideértve olyan árak, fizetési határidők, megkülönböztető eladási vagy vételi feltételek vagy módszerek alkalmazását, amelyek egyes üzletfeleknek hátrányt okoznak a versenyben; h) a szerződéskötés olyan kötelezettségek vállalásától történő függővé tételére, amelyek természetüknél fogva, illetve a szokásos szerződési gyakorlatra figyelemmel nem tartoznak a szerződés tárgyához. Európai Közösséget létrehozó szerződés 81. cikke A versenyre, az adózásra és a jogszabályok közelítésére vonatkozó közös szabályok 1. fejezet Versenyszabályok 1. szakasz Vállalkozásokra vonatkozó szabályok: 81. cikk [III–161] (1) A közös piaccal összeegyeztethetetlen és tilos minden olyan vállalkozások közötti megállapodás, vállalkozások társulásai által hozott döntés és összehangolt magatartás, amely hatással lehet a tagállamok közötti kereskedelemre, és amelynek célja vagy hatása a közös piacon belüli verseny megakadályozása, korlátozása vagy torzítása, így különösen: a) a beszerzési vagy eladási árak, illetve bármely egyéb üzleti feltétel közvetlen vagy közvetett rögzítése; b) a termelés, az értékesítés, a műszaki fejlesztés vagy a befektetés korlátozása vagy ellenőrzése; c) a piacok vagy a beszerzési források felosztása; d) egyenértékű ügyletek esetén eltérő feltételek alkalmazása az üzletfelekkel szemben, ami által azok hátrányos versenyhelyzetbe kerülnek; e) a szerződések megkötésének függővé tétele olyan kiegészítő kötelezettségeknek a másik fél részéről történő vállalásától, amelyek sem természetüknél fogva, sem a kereskedelmi szokások szerint nem tartoznak a szerződés tárgyához. (2) Az e cikk alapján tiltott megállapodás vagy döntés semmis. (3) Az (1) bekezdés rendelkezéseinek alkalmazásától azonban el lehet tekinteni az olyan esetekben, amikor – a vállalkozások közötti megállapodás vagy megállapodások csoportja; – a vállalkozások társulásai által hozott döntés vagy döntések csoportja; – az összehangolt magatartás vagy összehangolt magatartások csoportja hozzájárul az áruk termelésének vagy forgalmazásának javításához, illetve a műszaki vagy gazdasági fejlődés előmozdításához, ugyanakkor lehetővé teszi a fogyasztók méltányos részesedését a belőle eredő előnyből anélkül, hogy: a) az érintett vállalkozásokra olyan korlátozásokat róna, amelyek e célok eléréséhez nem nélkülözhetetlenek; b) lehetővé tenné ezeknek a vállalkozásoknak, hogy a kérdéses áruk jelentős része tekintetében megszüntessék a versenyt. A Gazdasági Versenyhivatal értesítése A jogalkotó megköti az ajánlatkérő kezét, mivel előírja, hogy a bejelentésre vagy panaszra vonatkozó rendelkezések (Tpvt. 43/G–I. §) szerint köteles jelezni a kartellgyanút. Ez a gyakorlatban a Tpvt. 43/H. §-a alapján kiadott formanyomtatványt jelenti. http://www.gvh.hu/gvh/alpha?do=2&st=1&pg=77&m5_doc=4257&m81_act=1 Bejelentés és panasz"
+      "title": "11",
+      "content": "6.1. A költségvetési gazdálkodási szakterület felelős vezetője legkésőbb a pénzügyi fedezet rendelkezésre állásáról szóló 5. számú melléklet aláírásával nyilatkozik arról, hogy a közbeszerzési eljárás bírálóbizottságába – pénzügyi szakértelemmel rendelkező – tagot kíván delegálni. Amennyiben a költségvetési gazdálkodási szakterület felelős vezetője nem nyilatkozik, abban az esetben úgy kell tekinteni, hogy a közbeszerzési eljárás bírálóbizottságába – pénzügyi szakértelemmel rendelkező – tagot nem kíván delegálni. A bírálóbizottság létszáma – amennyiben azt a beszerzés tárgya, illetve mennyisége indokolja – bővülhet további belső és külső tagokkal, ide értve a független külső szakértőket. Külső szakértő az ajánlattevővel munkaviszonyban, illetve munkavégzésre irányuló egyéb jogviszonyban nem álló személy vagy más szervezet képviselője lehet."
     },
     {
-      "provision_ref": "s43g",
-      "section": "43/G",
-      "title": "43/G. §",
-      "content": "43/G. § (1) A 8., 10., 11.,21. és 24. § rendelkezéseibe, illetve az EK-szerződés 81. vagy 82. cikkébe, továbbá az Fttv.-ben meghatározott rendelkezésekbe ütköző, a Gazdasági Versenyhivatal hatáskörébe tartozó magatartás észlelése esetén bárki bejelentéssel vagy panasszal élhet a Gazdasági Versenyhivatalhoz. (2) A bejelentéssel és a panasszal kapcsolatos eljárás nem része a versenyfelügyeleti eljárásnak, e törvény X–XII. fejezetének rendelkezései – az 54. §-ban, az 55. § (5) bekezdésében, a 65. § (7) és (9) bekezdésében foglaltak kivételével – a bejelentéssel és a panasszal kapcsolatos eljárásban nem alkalmazhatók."
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "12",
+      "content": "6.2. Ha az ajánlatkérő az eljárás bírálóbizottságába – munkacsoportjába – külső szakértő tagokat hív meg, a döntéshozó köteles gondoskodni a megbízási szerződés megkötéséről, az abban foglalt megbízási díj kifizetéséről, valamint a titoktartási és összeférhetetlenségi nyilatkozat megtételéről."
     },
     {
-      "provision_ref": "s43h",
-      "section": "43/H",
-      "title": "43/H. §",
-      "content": "43/H. § (1) Bejelentés a Gazdasági Versenyhivatal által közzétett formátumú, megfelelően kitöltött űrlap Gazdasági Versenyhivatalhoz történő benyújtásával tehető. Az űrlap tartalmazza a bejelentés elbírálásához szükséges lényeges tényeket, így különösen a bejelentő és a bejelentett azonosításához szükséges adatokat, a feltételezett jogsértés megjelölését, a feltételezett jogsértést megvalósító konkrét magatartás leírását, az érintett piac meghatározásához szükséges alapvető információkat, a feltételezett jogsértés időtartamát, a feltételezett jogsértéssel kapcsolatos állításokat alátámasztó tényeket és bizonyítékokat. (2) A bejelentés alapján indult eljárásra a Ket. rendelkezései közül kizárólag a 17. §-t, a 26. §-t, a 40. §-t, az 58–59. §-t, a 68. § (2) bekezdését, a 72–73. §-t, a 78–79. §-t, a 81. §-t, a 122. §-t és a 153. §-t kell alkalmazni azzal, hogy ahol a Ket. ügyfelet említ, azon a bejelentőt kell érteni. (3) (4) A vizsgáló a bejelentés elbírálásához szükséges adatokat beszerezheti, az érintettek részvételével szóbeli meghallgatást tarthat, illetve más hatóság vagy szakértő közreműködésével tisztázza a bejelentés elbírálásához szükséges tényeket. Ha az eljárás során az érintett a közreműködést megtagadja, vele szemben sem eljárási bírság, sem egyéb kényszerítő eszköz nem alkalmazható. A korábbival azonos tartalmú, ugyanazon bejelentő által tett ismételt bejelentés elbírálása mellőzhető. (5) Aki a bejelentés vizsgálata során a Gazdasági Versenyhivatal számára adatot szolgáltat, kérheti az üzleti titok védelmére hivatkozással az iratokba való betekintés, valamint azokról történő másolat készítésének korlátozását. A kérelemről való döntéssel egyidejűleg a vizsgáló kötelezheti az adatszolgáltatót olyan iratváltozat elkészítésére, amely nem tartalmaz üzleti titkot. Az eljárás irataiba csak a bejelentő, és csak a (8) bekezdés b) pontja szerinti esetben, a bejelentés elbírálása tárgyában hozott végzés meghozatalát követően, jogorvoslati jogának gyakorlása érdekében tekinthet be, kivéve, ha a vizsgáló üzleti titok védelmére tekintettel az iratbetekintés korlátozását rendelte el. (6) Az eljárás költségeit az állam előlegezi és viseli. Ha versenyfelügyeleti eljárásban a bejelentésben megjelölt magatartás törvénybe ütköző volta megállapításra kerül, a bejelentési eljárás költségeit is köteles megtéríteni az, akinek törvénybe ütköző magatartását megállapították. (7) A bejelentő kérheti, hogy ne fedjék fel személyét, illetve azt a tényt, hogy bejelentéssel élt a Gazdasági Versenyhivatalhoz. (8) A bejelentés beérkezésétől számított hatvan napon belül a vizsgáló a) a 70. § (1) bekezdése alapján végzéssel vizsgálatot rendel el, vagy b) végzéssel megállapítja, hogy a bejelentésben foglalt, illetve a bejelentés alapján lefolytatott eljárásban beszerzett adatok alapján a versenyfelügyeleti eljárás megindításának a 70. § (1) bekezdésében meghatározott feltételei nem állnak fenn, c) amennyiben a bejelentésben foglaltakkal kapcsolatos eljárás más hatóság hatáskörébe tartozik, a bejelentést végzéssel átteszi a hatáskörrel és illetékességgel rendelkező hatóságnak. (9) A (8) bekezdés szerinti határidő indokolt esetben hatvan nappal meghosszabbítható. (10) A (8) bekezdés b) pontja szerinti végzést a bejelentővel minden esetben, a bejelentettel pedig akkor kell közölni, ha az eljárásban részt vett. (11) A (8) bekezdés b) pontja szerinti végzés ellen a bejelentő élhet a közléstől számított nyolc napon belül jogorvoslati kérelemmel, melyet a Fővárosi Bíróság közigazgatási nemperes eljárásban bírál el. Ha a bíróság álláspontja szerint a (8) bekezdés a) pontja alkalmazásának van helye, a vizsgálót a vizsgálat harminc napon belül történő elrendelésére kötelezi."
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "13",
+      "content": "6.3. A Kbt. 9. § (1) bekezdésében meghatározott esetekben a KSzF hivatalos közbeszerzési tanácsadót köteles bevonni a bírálóbizottság munkájába. Az Európai Unióból származó forrásból támogatott közbeszerzések esetében az eljárásba bevonásra kerülő független hivatalos közbeszerzési tanácsadó bevonásáról az ajánlatkérő gondoskodik. A döntéshozó köteles gondoskodni a hivatalos közbeszerzési tanácsadó megbízási szerződésének megkötéséről, az abban foglalt megbízási díj kifizetéséről, valamint a titoktartási és összeférhetetlenségi nyilatkozat megtételéről."
     },
     {
-      "provision_ref": "s43i",
-      "section": "43/I",
-      "title": "43/I. §",
-      "content": "43/I. § (1) A 43/H. § (1) bekezdése szerinti bejelentésnek nem minősülő beadványt a Gazdasági Versenyhivatal panaszként köteles kezelni. A panasz tárgyában folytatott eljárásra e § rendelkezései irányadók. (2) Amennyiben a panaszban foglaltakkal kapcsolatban a Gazdasági Versenyhivatal eljárásra nem jogosult, köteles a panaszt tizenöt napon belül a hatáskörrel és illetékességgel rendelkező szerv részére áttenni, és erről a panaszost értesíteni. (3) A panaszt a beérkezésétől számított harminc napon belül kell elbírálni. Ha az elbírálás megalapozása előreláthatólag harminc napnál hosszabb ideig tart, a vizsgáló erről a panaszost az eredeti határidő lejárta előtt az elintézés várható időpontjának megjelölése mellett tájékoztatja. (4) A vizsgáló a panaszost és azt, akivel szemben panasszal éltek, meghallgathatja, valamint tőle további felvilágosítást és információt kérhet. A panaszos kérheti, hogy ne fedjék fel személyét, illetve azt a tényt, hogy panasszal élt a Gazdasági Versenyhivatalhoz. (5) A korábbival azonos tartalmú, ugyanazon panaszos által tett ismételt, továbbá a névtelen panasz elbírálása mellőzhető. (6) A panasz alapján – ha az alaposnak bizonyul – a vizsgáló dönt a szükséges intézkedések megtételéről, s erről a panaszost tájékoztatja. A Gazdasági Versenyhivatal (GVH) által kiadott útmutató Az ajánlattevők összejátszásának közbeszerző által érzékelhető, figyelmeztető jelei „Egyszerű, formai jelek: 1. az egyik pályázó saját pályázatával egy versenytársának pályázatát is benyújtja; 2. a versenytársak ajánlatai azonos hibákat (betűhibák, számítási hibák) tartalmaznak; 3. az ajánlatok formája, külalakja hasonló; 4. ugyanazok a kellékek, mellékletek, igazolások hiányoznak; 5. információ arról, hogy az ajánlattevők találkoztak vagy tárgyalást folytattak az ajánlattétel kidolgozásának időszakában; 6. az egyik ajánlattevő bizonyos ismereteket árul el tenderbontás előtt versenytársa pályázatáról. Tartalmi jelek: 1. egyes ajánlattevők teljesen egyforma, részleteiben is azonos árakat jelölnek meg; 2. számottevő különbség van a legalacsonyabb ár és a többi árajánlat között; 3. egy új szállító az eddigi árstruktúrától teljesen eltérő árajánlatot tesz és a többiek árajánlata is ehhez igazodik; 4. a pályázati kimutatások szerint a nyertes rendszerint ugyanaz a cég, a versenytársak alvállalkozói minőségben részt kapnak a projekt kivitelezésében; 5. a versenytársak egymást jelölik meg alvállalkozói minőségben (ez a magatartás a Kbt. szerint tilos); 6. tudomására jutott, hogy csak egyetlen pályázó lépett kapcsolatba azokkal a beszállítókkal, amelyek árai feltétlenül szükségesek voltak az ajánlat kidolgozásához. Ebben az esetben vagy információcsere van a versenytársak között, vagy ajánlatelfojtásról van szó, esetleg több színlelt ajánlat érkezik, a műszaki dokumentációt sok piaci szereplő igényli, majd csak egyetlen értékelhető ajánlat érkezik; 7. egy eredményes közbeszerzési eljárás után a nyertesnek kihirdetett ajánlattevő eláll a szerződéskötéstől annak ellenére, hogy így az ajánlati biztosítékot elveszíti – és ezáltal arra kényszeríti az ajánlatkérőt, hogy a soron következő ajánlattevővel kössön szerződést. Ez a jelenség különösen abban az esetben fordul elő, ha nem az ár az egyetlen vagy a legfontosabb döntési kritérium, ezért a versenytársak nem tudják egyértelműen előre kiszámítani, hogyan fog dönteni az ajánlatkérő. Ilyenkor a kartellező ajánlattevők egymástól alig eltérő árajánlatokat tesznek. Ezt követően, ha nem az általuk kiválasztott nyer, addig lépnek vissza, amíg a kijelölt versenytárs következik a sorban; 8. a helyi vállalkozás árajánlata ugyanakkora szállítási költséget tartalmaz, mint a messzebbről beszállítóké; 9. az ajánlattevők az iparági árjegyzékre hivatkozva magyarázzák, indokolják áraikat. A felsoroláshoz két megjegyzés kívánkozik: egyrészt a lista nem teljes, másrészt bármilyen árulkodó jel csak a kartell gyanúját, ennek nyomán a GVH-nak való bejelentést alapozza meg, az még nem tekinthető bizonyítéknak. Az ajánlattevők közötti kartellszerveződést vagy összehangolt magatartást a GVH vizsgálatának kell felderítenie.” II. Intézkedések a) Egyszerű jelek A munkacsoport bármely tagja, amennyiben közvetlenül észleli az 1., 5., 6. pontban nevesített magatartást, a KSzF KIG igazgatójának köteles írásban jelezni, aki megvizsgálja a bejelentést és intézkedik a döntéshozó, valamint egyidejűleg a GVH tájékoztatásáról, és jogosult dönteni az eljárás további menetéről. b) Formai, valamint tartalmi jelek Az egyszerű, formai jelek 2–4. pontja, valamint a tartalmi jelek (1–9. pont) kapcsán, a munkacsoport bármely tagja írásban felhívja a bírálóbizottság figyelmét a kartellgyanúra. A bírálóbizottság köteles kivizsgálnia a bejelentést és a bírálóbizottsági szakvéleményében, vagy feljegyzés formában, megállapításaival, döntési javaslatával együtt, a döntéshozót haladéktalanul tájékoztatni köteles. A GVH tájékoztatásáról a döntéshozó határoz, a bírálóbizottság megállapításai, javaslata alapján. Amennyiben elfogadja a bírálóbizottság döntési javaslatát, úgy döntését nem szükséges indokolnia. A döntéshozó jogosult dönteni az eljárás további menetéről. 1 Az utasítást a 38/2012. (XI. 16.) KIM utasítás 4. § b) pontja hatályon kívül helyezte 2012. november 17. napjával. 2 Az 5. pont a 8/2009. (VI. 26.) MeHVM utasítás 1. pontja szerint módosított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 3 A 6.1. alpont a 8/2009. (VI. 26.) MeHVM utasítás 2. pontja szerint módosított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 4 A 6.4. alpont a 8/2009. (VI. 26.) MeHVM utasítás 3. pontjával megállapított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 5 A 6.5. alpontot a 8/2009. (VI. 26.) MeHVM utasítás 3. pontja iktatta be. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 6 A 8. pont a 8/2009. (VI. 26.) MeHVM utasítás 4. pontjával megállapított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 7 A 8.1. pont a 8/2009. (VI. 26.) MeHVM utasítás 4. pontjával megállapított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 8 A 9. pont a 8/2009. (VI. 26.) MeHVM utasítás 5. pontjával megállapított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 9 A 9.1. alpontot a 8/2009. (VI. 26.) MeHVM utasítás 5. pontja iktatta be. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 10 A 12. pont bevezető szövegrésze a 8/2009. (VI. 26.) MeHVM utasítás 6. pontja szerint módosított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 11 A 16. pont a 8/2009. (VI. 26.) MeHVM utasítás 7. pontja szerint módosított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 12 A 16.1. alpont a 8/2009. (VI. 26.) MeHVM utasítás 7. pontjával megállapított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 13 A 18. pont k) alpontja a 8/2009. (VI. 26.) MeHVM utasítás 8. pontja szerint módosított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 14 A 18. pont n) alpontját a 8/2009. (VI. 26.) MeHVM utasítás 8. pontja iktatta be. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 15 A 20. pont a 8/2009. (VI. 26.) MeHVM utasítás 9. pontja szerint módosított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 16 A 20.1. alpont a 8/2009. (VI. 26.) MeHVM utasítás 10. pontjával megállapított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 17 A 21.2. alpont a 8/2009. (VI. 26.) MeHVM utasítás 11. pontja szerint módosított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 18 A 23. pont a 8/2009. (VI. 26.) MeHVM utasítás 12. pontjával megállapított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 19 A 27. pont a 8/2009. (VI. 26.) MeHVM utasítás 13. pontjával megállapított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 20 A 27.1. alpont a 8/2009. (VI. 26.) MeHVM utasítás 14. pontjával megállapított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 21 A 28.1. alpont a 8/2009. (VI. 26.) MeHVM utasítás 15. pontjával megállapított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 22 A 32. pont a 8/2009. (VI. 26.) MeHVM utasítás 16. pontjával megállapított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 23 A 33.1. alpont a 8/2009. (VI. 26.) MeHVM utasítás 17. pontja szerint módosított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 24 A 44. pont a 8/2009. (VI. 26.) MeHVM utasítás 18. pontjával megállapított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 25 A 44.1. alpont a 8/2009. (VI. 26.) MeHVM utasítás 19. pontjával megállapított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 26 A 45. pontot a 8/2009. (VI. 26.) MeHVM utasítás 21. pontja iktatta be. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 27 A 2. számú melléklet a 8/2009. (VI. 26.) MeHVM utasítás 20. pontja szerint módosított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 28 Döntéshozó esetén a kötelezettségvállalónak köteles bejelenteni."
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "14",
+      "content": "6.4. Amennyiben az eljárás ajánlatkérőjeként nem a KSzF kerül meghatározásra, úgy a KSzF mint a Kbt. 11. § (3) bekezdése szerinti hivatalos közbeszerzési tanácsadó szervezet, független hivatalos közbeszerzési tanácsadóknak tekintendők."
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "15",
+      "content": "6.5. Független hivatalos közbeszerzési tanácsadó megbízására és felelősségére (beleértve a KSzF-et is) a Kbt. 9. § (2) bekezdése irányadó."
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "16",
+      "content": "Adatszolgáltatás"
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "17",
+      "content": "7. A tárgyévre tervezhető, a Kbt. szerinti közbeszerzési értékhatárt várhatóan elérő vagy meghaladó értékű beszerzésekről az adott beszerzést kezdeményező szervezeti egység (a továbbiakban: ajánlatkérő) kötelezettségvállalásra jogosult vezetőjének közbeszerzési tervet kell készítenie, melyet legkésőbb minden év február 28-ig meg kell küldenie a KSzF közbeszerzési igazgatójának. Ennek alapján a KSzF összeállítja a MeH éves összesített közbeszerzési tervét (a továbbiakban: közbeszerzési terv), valamint a saját tervezett beszerzési igényei alapján a KSzF közbeszerzési tervét. A kötelezettségvállalásra jogosult vezetők, az általuk megküldött közbeszerzési terv módosításáról – a módosítás indokának közlésével – haladéktalanul, de legkésőbb 2 munkanapon belül, értesítést küldenek a KSzF közbeszerzési igazgatójának."
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "18",
+      "content": "8. A közbeszerzési terv, valamint annak módosításának Kbt. 5. § (2) bekezdése szerinti honlapon történő közzétételéről a KSzF az ajánlatkérő honlapján gondoskodik."
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "19",
+      "content": "8.1. A honlapon történő közzétételt a KSzF KIG jogosult kezdeményezni a honlapon való közzétételért felelős szervezeti egységnél."
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "20",
+      "content": "9. A közbeszerzési terv módosítása esetében a KSzF KIG minden hónap (e pont vonatkozásában: tárgyhó) 5. munkanapjáig felülvizsgálja a honlapon közzétett közbeszerzési tervet. A felülvizsgálat eredményeképp, szükség szerint módosítja és a fenti határidőig közzéteszi, a tárgyhó 1. napjáig beérkezett módosításokat, a 8.1. pont szerint."
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "21",
+      "content": "9.1. A közbeszerzési terv módosítását jelen szabályzat 1. számú melléklete szerinti formában, indoklással ellátva, a döntéshozó által aláírva kell a KSzF közbeszerzési igazgatója részére megküldeni. A KSzF csak azokat a beadványokat teheti közzé, amelyek az 1. számú mellékletben megjelölt adatokat tartalmazzák."
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "22",
+      "content": "10. A közbeszerzési terv KSzF-nek történő megküldése önmagában nem jelenti a közbeszerzési eljárás megindításának a kezdeményezését, és nem vonja maga után a közbeszerzési eljárás lefolytatásának kötelezettségét sem. Az ajánlatkérő a közbeszerzési tervben nem szereplő közbeszerzésre vagy e tervben foglaltakhoz képest módosított közbeszerzésre vonatkozó eljárást is lefolytathatja, ha általa előre nem látható okból a közbeszerzési igény megváltozott vagy egyéb változás történt. Ezekben az esetekben a közbeszerzési tervet módosítani kell az ilyen igény vagy egyéb változás felmerülésekor, megadva a módosítás indokát."
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "23",
+      "content": "11. Az éves statisztikai összegezés elkészítése és a Közbeszerzések Tanácsa részére történő megküldése a tárgyévet követő év május 31-i határidővel a KSzF közbeszerzési igazgatóságának (a továbbiakban: KSzF KIG) feladata."
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "24",
+      "content": "A KSzF közreműködésével történő közbeszerzési eljárások lebonyolításának rendje"
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "25",
+      "content": "12. A közbeszerzési eljárás megindítását a közbeszerzési eljárás megindításáról szóló 2. számú melléklet szerinti felkérőlevél KSzF KIG-hez történő megküldésével kell kezdeményezni. A felkérőlevél tartalmazza:"
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "26",
+      "content": "a) a közbeszerzési terv számát,"
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "27",
+      "content": "b) a beszerzés tárgyát képező árubeszerzés, építési beruházás, szolgáltatás, építési, illetve szolgáltatási koncesszió meghatározását a 213/2008/EK bizottsági rendelet szerinti szám (a továbbiakban: CPV-kód) feltüntetésével, továbbá a beszerzés nettó értékének, mennyiségének meghatározását,"
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "28",
+      "content": "c) a Kbt. 40. § (2) bekezdésében meghatározott becsült érték egybeszámítási kötelezettség alá eső – a beszerzés tárgyával azonos vagy hasonló rendeltetésű, illetve felhasználásuk tekintetében egymással összefüggő – beszerzésekről történő ajánlatkérői nyilatkozatot, amely tartalmazza a CPV-kód, nettó szerződéses érték és szerződéses időtartam megadásával az egybeszámítandó beszerzéseket és értéküket, amennyiben nincs egybeszámítási kötelezettség, úgy az erre vonatkozó nemleges nyilatkozatot,"
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "29",
+      "content": "d) a bírálóbizottság elnökét, tagjait, szakértelmük megnevezését, elérhetőségüket – telefonszámot, postázási címet, faxszámot – feladatukat, felelősségük megjelölését,"
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "30",
+      "content": "e) a döntéshozó személyét, elérhetőségét,"
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "31",
+      "content": "f) az ajánlatkérő által – a bírálóbizottság tagjain és elnökén kívüli – a munkacsoportba delegált személyeket, a kapcsolattartó nevét, a képviseleti jogosultságuk megnevezését: állásfoglalásra, javaslattételre, kapcsolattartásra vonatkozó jogosultságukat, a közbeszerzési eljárás lebonyolításához szükséges szakértelmük megjelölését, elérhetőségüket – telefonszámot, postázási címet, faxszámot –, felelősségük megjelölését,"
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "32",
+      "content": "g) amennyiben hivatalos közbeszerzési tanácsadó vagy független hivatalos közbeszerzési tanácsadó alkalmazására kerül sor, feladatának, jogosultságának, felelősségének pontos meghatározását, elérhetőségét: telefonszámot, postázási címet, faxszámot."
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "33",
+      "content": "13. A felkérőlevél eredeti, aláírással ellátott iktatott példányának kézhezvételétől számított 5 munkanapon belüli, az ajánlatkérővel egyeztetett időpontra a KSzF kitűzi a közbeszerzési eljárás indítását megelőző, alakuló ülés időpontját, melyen a munkacsoport – 5. pontban feltüntetett – tagjai vesznek részt. A KSzF, az alakuló ülés időpontjáról szóló értesítésben – az ajánlatkérő eljárást kezdeményező iratában közöltek alapján – megnevezi az alakuló ülés munkacsoportjának tagjait. A munkacsoport – és egyben a bírálóbizottság – titkára minden esetben az KSzF illetékes beszerzési főosztályának képviselője."
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "34",
+      "content": "13.1. Amennyiben egy meghatározott ingatlan tulajdonjogának, használatának vagy hasznosítási jogának megszerzése a beszerzés tárgya, ehhez a Miniszterelnöki Hivatalt vezető miniszter előzetes engedélyét kell kérni és a döntéshozónak az írásbeli engedély eredeti példányát a felkérőlevélhez csatolnia kell."
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "35",
+      "content": "14. A munkacsoport és egyben a bírálóbizottság titkára az alábbi feladatokat végzi:"
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "36",
+      "content": "a) helyiséget biztosít a konzultációkhoz, részt vesz a konzultációkon,"
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "37",
+      "content": "b) megszervezi és elvégzi a részvételi jelentkezések, ajánlatok bontását és az eredményhirdetést,"
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "38",
+      "content": "c) a bírálóbizottság titkáraként a bírálóbizottság – beszerzés tárgya szerinti –, szakmai támogatásával elkészíti a bírálóbizottsági ülések emlékeztetőjét és az egyes eljárási események jegyzőkönyvét,"
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "39",
+      "content": "d) részt vesz a helyszíni bejáráson,"
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "40",
+      "content": "e) megszervezi és koordinálja a tárgyalásokat, beleértve a technikai feltételek biztosítását is,"
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "41",
+      "content": "f) elkészíti az eljárás valamennyi dokumentumát,"
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "42",
+      "content": "g) elkészíti a dokumentáció részét képező, az ajánlat részeként benyújtandó igazolások, nyilatkozatok jegyzékét,"
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "43",
+      "content": "h) gondoskodik az eljárás során keletkezett dokumentumok megfelelő tárolásáról, őrzéséről,"
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "44",
+      "content": "i) jelen utasításban a hatáskörébe utalt közzétételi feladatokat ellátja, így – a felelős szervezeti egységnél kezdeményezve – gondoskodik a Kbt. 17/C. § szerinti honlapon történő közzétételről is,"
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "45",
+      "content": "j) elvégzi az ajánlattevők, közös ajánlattevők, továbbá a közbeszerzés értékének tíz százalékát meghaladó mértékben igénybe venni kívánt alvállalkozóiknak, valamint az erőforrást nyújtó szervezetnek a kizáró okokra vonatkozó vizsgálatát, e körben észrevételeit, javaslatait, megállapításait szakvéleménybe foglalja,"
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "46",
+      "content": "k) amennyiben a kizáró okok igazolása az ajánlatkérő által ingyenesen hozzáférhető, közhiteles, elektronikus nyilvántartásból elérhető, úgy köteles a nyilvántartásból megismerhető tényeket, adatokat e nyilvántartásból ellenőrizni,"
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "47",
+      "content": "l) amennyiben szabálytalanságot észlel a bizottság munkájában, köteles jelezni a bírálóbizottság elnökének,"
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "48",
+      "content": "m) jelen utasításban meghatározott módon és terjedelemben figyelemmel kíséri a Kbt. 20/A. §-a szerinti kartellezési tilalom betartását és kartellezési tilalomba ütköző magatartás észlelése esetén jelzi ezt az utasításban megjelölt személynek."
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "49",
+      "content": "15. A bírálóbizottság alakuló ülésének feladata a 17. pontban felsorolt, az eljárás indításához szükséges valamennyi körülmény és adat tisztázása, és ezek rögzítése."
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "50",
+      "content": "16. Legkésőbb az alakuló ülésen az ajánlatkérőnek át kell adnia a bírálóbizottság titkárának az ajánlatkérő részéről az eljárásban részt vevő személyek – beleértve a döntéshozót is – 3. számú melléklet szerinti titoktartási és összeférhetetlenségi nyilatkozatait."
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "51",
+      "content": "16.1. A közbeszerzési eljárásban az ajánlatkérő által kijelölt, részt vevő személyek Kbt. szerinti összeférhetetlensége kizárásának biztosításáért, a beszerzés tárgyának, műszaki, szakmai tartalmának (a Kbt. 58. §-ában foglaltaknak megfelelő), a bírálati szempontnak és bírálati részszempontoknak, speciális szerződéses feltételeknek meghatározásáért, helytállóságáért a döntéshozó felelős."
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "52",
+      "content": "16.2. A KSzF munkacsoportbeli munkatársainak az ajánlatkérő által meghatározott műszaki tartalom, bírálati szempont és bírálati részszempontok, általános joggyakorlat során alkalmazott szerződéses feltételek vonatkozásában a Kbt. és a közbeszerzési eljárásra vonatkozó egyéb jogszabályok betartása érdekében írásbeli figyelmeztetési kötelezettségük van az ajánlatkérő felé, amennyiben ezen feltételek jogellenessége nyilvánvalóan megállapítható és arról tudomást szereznek."
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "53",
+      "content": "16.3. A KSzF munkatársai a speciális szakértelmet, szaktudást igénylő kérdések megítélése tekintetében figyelmeztetési kötelezettséggel nem tartoznak, annak megítélése a bírálóbizottság tagjainak és a beszerzésben érintett szervezeti egység kötelezettségvállalásra jogosult vezetőjének a feladata. Speciális szakértelmet igénylő kérdés különösen a közbeszerzésre vonatkozó ismereteken felüli végzettséget, képesítést, szakképzést igénylő kérdés."
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "54",
+      "content": "17. A munkacsoport az alakuló ülésen meghatározza a 18. pontban részletezett jegyzőkönyv pontjainak tartalmát, amely emlékeztető formájában kerül rögzítésre."
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "55",
+      "content": "17.1. Az ülésről készült emlékeztetőt a munkacsoport titkára 5 munkanapon belül elkészíti és megküldi az ajánlatkérő részéről kijelölt kapcsolattartón keresztül a bírálóbizottság elnökének aláírásra. Az emlékeztetőt – lehetőség szerint – az alakuló ülés valamennyi résztvevőjének alá kell írnia."
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "56",
+      "content": "17.2. Az ajánlatkérő részéről kijelölt kapcsolattartó közreműködésével a munkacsoport titkára – az emlékeztetőben foglaltak alapján, annak a 17.1. szerint aláírásokkal ellátott példánya kézhezvételétől számított 5 munkanapon belül – elkészíti az eljárást indító jegyzőkönyvet (a továbbiakban: jegyzőkönyv). A jegyzőkönyv elkészítéséhez az ajánlatkérőnek a munkacsoport titkára rendelkezésére kell bocsátania valamennyi, az eljárás indításához szükséges iratot."
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "57",
+      "content": "18. A közbeszerzési eljárás KSzF részéről történő indításához a jegyzőkönyvnek a következőket kell tartalmaznia:"
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "58",
+      "content": "a) a beszerzés tárgyát képező árubeszerzés, építési beruházás, szolgáltatás, építési vagy szolgáltatási koncesszió meghatározását – a CPV-kód feltüntetésével –, továbbá mennyiségét,"
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "59",
+      "content": "b) az eljárástípus megjelölését,"
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "60",
+      "content": "c) amennyiben a megjelölt eljárástípust csak akkor lehet alkalmazni, ha a Kbt. azt kifejezetten lehetővé teszi, akkor a választott eljárástípus részletes, igazolható tényeken alapuló indoklását, a jegyzőkönyvhöz csatolva az indokokat alátámasztó iratokat. Mellékelni kell a vonatkozó kormányhatározatot, kormányrendeletet, kizárólagos jogra történő hivatkozást stb.,"
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "61",
+      "content": "d) közzététel nélküli tárgyalásos eljárás indítására vonatkozó javaslat esetén a felkérendő ajánlattevők nevét és elérhetőségét. Háromnál kevesebb felkérendő ajánlattevő megjelölése esetén ennek részletes indoklását,"
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "62",
+      "content": "e) a beszerzés tárgyának a Kbt.-ben előírtak szerinti részletes műszaki, szakmai követelményeit tartalmazó leírását: termékek, feladatok, szolgáltatások leírása, tervrajzok, hatósági engedélyek, árazatlan költségvetés stb.,"
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "63",
+      "content": "f) a megkötendő szerződés tervezetét az ajánlatkérő azonosító adataival, az aláíró személy nevével, beosztásával, kapcsolattartó megnevezésével és elérhetőségeivel,"
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "64",
+      "content": "g) pénzügyi és gazdasági, valamint műszaki és szakmai alkalmassági feltételek meghatározását, igazolásuk módját,"
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "65",
+      "content": "h) a beszerzés jellegéhez igazodó szakmai és gazdasági érdeket, valamint a beszerzéssel elérni kívánt alapvető célkitűzéseket,"
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "66",
+      "content": "i) a bírálati szempontot, az összességében legelőnyösebb ajánlat szempontja esetén a bírálati részszempontokat a Kbt. 57. §-a szerint, bírálati módszereket és a ponthatárokat – alsó és felső ponthatárt –,"
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "67",
+      "content": "j) amennyiben a választott eljárási forma alapján keretszám vagy létszám meghatározása szükséges, abban az esetben a – Kbt. előírásainak megfelelő – keretszámot vagy létszámot, valamint a rangsorolás módját,"
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "68",
+      "content": "k) a közbeszerzési eljárás 4. számú melléklet szerinti belső felelősségi rendjét, az ajánlatkérő nevében eljáró, illetőleg az eljárásba bevont személyek, szervezetek felelősségi körét,"
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "69",
+      "content": "l) az eljárásban az ajánlatkérő részéről részt vevő személyek 16. pont szerinti nyilatkozata meglétének tényét a nyilatkozatok jegyzőkönyvhöz történő csatolásával,"
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "70",
+      "content": "m) egyéb, az eljárás lefolytatása szempontjából jelentőséggel bíró szakmai szempontokat, tényeket, információkat, így különösen: amennyiben az ajánlatkérő ajánlati, teljesítési biztosíték adását igényli, ennek tényét és összegét, hiánypótlás biztosítását és körét, átláthatósági megállapodás megkötését, dokumentáció rendelkezésre bocsátásának módját, dokumentáció ellenértékét,"
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "71",
+      "content": "n) az indító jegyzőkönyv elkészítésének dátumát."
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "72",
+      "content": "19. A 18. pont szerinti tartalommal elkészített indító jegyzőkönyvet a munkacsoport titkára, a KSzF illetékes beszerzési főosztályának vezetője, valamint a bírálóbizottság elnöke köteles aláírni. A jegyzőkönyvet a munkacsoport titkára küldi meg az ajánlatkérő részéről kijelölt kapcsolattartónak, aki gondoskodik annak a bírálóbizottság elnökével történő aláíratásáról, valamint a döntéshozó általi írásbeli jóváhagyásáról."
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "73",
+      "content": "20. A kezdeményező iratok, és az aláírt, eljárást indító jegyzőkönyv és mellékletei alapján a KSzF – az ajánlatkérő által készített szakmai részt nem érintő kiegészítésekkel, szükség esetén a felkérő szervezeti egység képviselőjének közreműködésével – megszerkeszti az eljárást indító hirdetmény vagy felhívás, illetve a dokumentáció szövegét és 5 munkanapon belül intézkedik az elkészült dokumentumok – beleértve a KSzF munkatársainak az eljárással kapcsolatos, ajánlatkérő részére megküldendő írásbeli figyelemfelhívását is – ajánlatkérőhöz jóváhagyásra történő megküldéséről. A jegyzőkönyvhöz csatolni kell a pénzügyi fedezet rendelkezésre állásáról szóló 5. számú mellékletet is."
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "74",
+      "content": "20.1. Amennyiben az ajánlatkérő a közbeszerzés tárgyát részben vagy egészben – a Kbt. 48. § (3) bekezdése szerinti – támogatásból kívánja megvalósítani, és erre irányuló pályázatot nyújtott be vagy fog benyújtani, abban az esetben a fedezet támogatásra vonatkozó részéről fedezetigazolást nem kell kiállítani. Ajánlatkérő köteles a támogatás igénybevételére irányuló pályázat elbírálására vonatkozó okiratot annak kézhezvételét követően haladéktalanul a KSzF részére – magyar fordítással együtt – megküldeni."
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "75",
+      "content": "20.2. Amíg az ajánlatkérő nem igazolja, hogy a pénzügyi fedezet rendelkezésre áll, vagy az arra vonatkozó biztosítékkal, hogy a teljesítés időpontjában az anyagi fedezet rendelkezésre fog állni, addig az eljárás nem indítható meg, kivéve a Kbt. 48. § (3) bekezdésének esetét."
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "76",
+      "content": "20.3. A Kbt. 48. § (3) bekezdése esetében, támogatási szerződés hiányában akkor kezdeményezhető közbeszerzési eljárás, ha azt szakmai szempontok indokolják, és az ajánlatkérő a felkérőlevélhez csatolja a támogatási döntés elbírálásáról, vagy a benyújtott pályázat befogadásáról szóló dokumentumok másolatát."
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "77",
+      "content": "20.4. Keretmegállapodásos eljárás esetén, ajánlatkérőnek a felkérőlevélhez olyan összegű pénzügyi fedezet rendelkezésre állásáról szóló igazolást kell csatolnia, amely fedezi a tárgyévre vonatkozó, a keretmegállapodásos eljárás második része alapján megkötendő szerződés terhére igénybe venni kívánt összeget."
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "78",
+      "content": "21. A beszerzési eljárás megindítása az ajánlatkérő részéről döntésre jogosult személy által aláírt jegyzőkönyv, valamint a felhívás és a hozzá tartozó dokumentáció KSzF általi kézhezvételétől számított 5 munkanapon belül történik."
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "79",
+      "content": "21.1. Az eljárást megindító hirdetményben, felhívásban az eredményhirdetés, valamint a szerződéskötés napját minden esetben úgy kell megállapítani – figyelembe véve a Kbt. 63. § (4) bekezdését, a 63/A. § (4) bekezdését, valamint jelen utasítás 28.2.–28.3. pontjait –, hogy a bírálóbizottság által elkészített döntési javaslat döntéshozó általi jóváhagyására kellő idő álljon rendelkezésre."
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "80",
+      "content": "A szerződéskötés időpontja – a szerződéskötésre jelen utasításban meghatározott feladatok határidőben történő teljesíthetősége érdekében – nem határozható meg az eredményhirdetéstől számított 20. naptári napnál korábbi időpontban."
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "81",
+      "content": "21.2. A dokumentáció, valamint az eljárást megindító hirdetmény jogszerűségét a döntéshozó minden esetben ellenjegyzésével igazolja. Az eljárást megindító hirdetményt nem lehet ellenjegyezni, ha az sérti a közbeszerzésre, illetve a közbeszerzési eljárásra vonatkozó jogszabályokat. Az eljárást megindító hirdetmény ellenjegyzése nélkül a közbeszerzési eljárás nem indítható meg."
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "82",
+      "content": "21.3. A dokumentációt a Kbt. 54. § (1) bekezdésében előírtakkal összhangban kell elkészíteni, a dokumentációnak tartalmaznia kell a szerződéstervezetet, igazolások és nyilatkozatok jegyzékét, megjelölve a Kbt. 4. § 9/A. pontja szerinti hamis adatok körét."
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "83",
+      "content": "21.4. Az ajánlati dokumentációnak minden esetben tartalmaznia kell, hogy az ajánlattevő a Kbt. 73. §-ának és 106. §-a (2) bekezdésének rendelkezéseire figyelemmel tilthatja meg üzleti titok nyilvánosságra hozatalát."
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "84",
+      "content": "22. A jóváhagyás megtörténtét igazoló dokumentum kézhezvételét követően a KSzF illetékes beszerzési főosztálya jogosult és köteles intézkedni a hirdetmény közzétételre történő továbbításáról, illetve – amennyiben hirdetmény közzétételére nem kerül sor – az érintettekkel egyéb módon való közléséről."
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "85",
+      "content": "23. A dokumentáció ajánlattevők részére történő rendelkezésre bocsátásának módjáról, összegéről [Kbt. 54. § (5) bekezdése] a bírálóbizottság dönt. A dokumentáció értékesítéséből származó bevétel a KSzF-et illeti meg."
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "86",
+      "content": "24. Ajánlati biztosíték, teljesítési biztosíték kikötése esetén, annak összegét, a rendelkezésre bocsátás módját, kezelését a KSzF javaslata alapján a döntéshozó határozza meg. A döntéshozó felelőssége annak mérlegelése, hogy az ajánlati biztosíték, illetve teljesítési biztosíték alkalmazása szükséges-e. A döntéshozó felelőssége továbbá annak megítélése, hogy az ajánlati biztosíték, illetve teljesítési biztosíték alkalmazása az ajánlattevők árait milyen módon befolyásolhatja. A biztosítékul rendelkezésre bocsátott összeg – amennyiben az ajánlattevő az ajánlatkérő számlájára történő pénzbefizetéssel teljesíti a biztosítékot – költségvetési gazdálkodás szabályainak megfelelő módon történő kezeléséről, illetve annak visszafizetéséről, felszabadításáról a KSzF gazdasági igazgatója gondoskodik. Az ajánlati biztosíték összege – a Kbt.-ben foglalt feltételek szerinti elvesztése esetén – az ajánlatkérőt illeti meg."
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "87",
+      "content": "24.1. A MeH mint ajánlatkérő esetén a 24. pont megfelelően alkalmazandó azzal, hogy a KSzF gazdasági igazgatója helyett a pénzügyi fedezetet igazoló szervezeti egység vezetője gondosodik."
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "88",
+      "content": "25. Az eljárást indító felhívásra beérkezett részvételi jelentkezések, ajánlatok bontása, azok dokumentációban meghatározott formai és mennyiségi szempontból való előzetes vizsgálata, az eredményhirdetés megszervezése, a Kbt. szerinti értesítések, meghívók, tájékoztatók, jegyzőkönyvek, jelenléti ívek, az eljárás eredményéről szóló – a Kbt.-ben előírt tartalmú – tájékoztató és összegezés elkészítése, közzétételre történő továbbítása a KSzF illetékes beszerzési főosztályának feladata."
+    },
+    {
+      "provision_ref": "s89",
+      "section": "89",
+      "title": "89",
+      "content": "25.1. Az ajánlattevők pénzügyi-gazdasági és műszaki-szakmai alkalmasságának szakmai vizsgálata a bírálóbizottság kizárólagos feladatát képezi."
+    },
+    {
+      "provision_ref": "s90",
+      "section": "90",
+      "title": "90",
+      "content": "25.2. A részvételre jelentkezők és az ajánlattevők tájékoztatásában az ajánlatkérő kijelölt képviselője köteles közreműködni, azonban minden, az eljárással kapcsolatos tájékoztatás kiadására kizárólag a KSzF jogosult."
+    },
+    {
+      "provision_ref": "s91",
+      "section": "91",
+      "title": "91",
+      "content": "26. Az eljárási cselekmények elvégzéséhez szükséges technikai feltételek biztosítása – beléptetés, helyszín előkészítése, hangfelvétel készítése – az ajánlatkérővel történt egyeztetést követően – a KSzF feladata."
+    },
+    {
+      "provision_ref": "s92",
+      "section": "92",
+      "title": "92",
+      "content": "27. A Kbt. 17/C. § szerinti adatoknak, információknak és hirdetményeknek a honlapon történő közzétételéről – a 33.6. pont szerinti közzététel kivételével – a KSzF illetékes beszerzési főosztálya gondoskodik."
+    },
+    {
+      "provision_ref": "s93",
+      "section": "93",
+      "title": "93",
+      "content": "27.1. Ajánlatkérő köteles minden olyan irat szkenneléséről és a KSzF illetékes beszerzési főosztálya részére történő elektronikus úton történő megküldéséről az irat végleges formátumban rendelkezésre állásától számított 2 munkanapon belül gondoskodni, amelyek kapcsán a KSzF-et a Kbt. 17/C. §-a alapján közzétételi kötelezettség terheli, feltéve, hogy a KSzF-nek elektronikus formátumban nem áll rendelkezésére a közzéteendő dokumentum [pl. 17/C. § (1) bekezdésének ib) pontja, szerződés]."
+    },
+    {
+      "provision_ref": "s94",
+      "section": "94",
+      "title": "94",
+      "content": "28. Az ajánlatok alaki követelményeknek való megfeleléséről, az ajánlattevők alkalmasságának formai és mennyiség szerinti vizsgálatáról, és az ezek során megállapított tényekről a KSzF illetékes beszerzési főosztálya – a KSzF Jogi és Igazgatási Főosztálya (a továbbiakban: KSzF JIF) álláspontjának figyelembevételével – szakvéleményt készít. Az alkalmasságot a KSzF illetékes beszerzési főosztálya csak a fenti körben, forma és mennyiség, darabszám alapján vizsgálhatja. A mennyiségi vizsgálat részét képezi a Kbt. 68. § (1)–(2) bekezdései szerinti igazolások, nyilatkozatok áttekintése."
+    },
+    {
+      "provision_ref": "s95",
+      "section": "95",
+      "title": "95",
+      "content": "28.1. A szakvélemény javaslatot tartalmaz a vizsgálat eredménye alapján szükségessé váló eljárási cselekményekről (például hiánypótlás, érvénytelenség, kizárás), melyeket a munkacsoport titkára a bírálóbizottság elé terjeszt. Az előterjesztés alapján összeállított bírálóbizottsági szakvéleményben foglalt megállapítások, javaslatok elfogadásáról, illetve el nem fogadásáról a döntéshozó írásban nyilatkozik."
+    },
+    {
+      "provision_ref": "s96",
+      "section": "96",
+      "title": "96",
+      "content": "28.2. A kizáró okok vizsgálatát a KSzF illetékes beszerzési főosztálya végzi a Kbt. 63. § (1) bekezdésének a) és b) pontjai szerint. A KSzF illetékes beszerzési főosztálya, a Kbt. 63/A. § (1) bekezdése szerinti vizsgálatot köteles a (3) bekezdés szerinti időpontban elvégezni, és erről szakvéleményt készíteni. A vizsgálat eredményéről és erre vonatkozó megállapításairól a KSzF köteles haladéktalanul telefaxkészülék útján is tájékoztatni a bírálóbizottság elnökét."
+    },
+    {
+      "provision_ref": "s97",
+      "section": "97",
+      "title": "97",
+      "content": "28.3. A bírálóbizottság a kizáró okokra vonatkozó, a 28.2. pont szerinti szakvéleményt haladéktalanul megvizsgálja és arról bírálóbizottsági szakvéleményt készít. A bírálóbizottsági szakvéleményre a 28.1 pont az irányadó."
+    },
+    {
+      "provision_ref": "s98",
+      "section": "98",
+      "title": "98",
+      "content": "29. A bírálóbizottság kizárólagos hatáskörét képezi az ajánlati árak Kbt. 86. § (1) bekezdése szerinti – kirívóan magas, illetve alacsony árak –, és az ajánlatnak a bírálati részszempontok szerinti tartalmi elemének Kbt. 87. § (1) bekezdés szerint vizsgálata. A KSzF erre vonatkozóan csak javaslatot terjeszthet a bírálóbizottság elé. A bírálóbizottság hivatalból, illetve a KSzF kifejezett felhívására – azon ajánlatok esetén, ahol a Kbt. 86. § (1) bekezdése szerint felmerül a kirívóan magas, illetve alacsony ár esete, illetve a Kbt. 87. § (1) bekezdése szerint felmerül az ajánlatnak a bírálati részszempontok szerinti tartalmi elemének lehetetlensége, vagy túlzottan magas vagy alacsony mértéke, illetve az ajánlat kirívóan aránytalannak értékelt kötelezettségvállalást tartalmaz – indokolást köteles kérni."
+    },
+    {
+      "provision_ref": "s99",
+      "section": "99",
+      "title": "99",
+      "content": "29.1. Indokolást és az ajánlati elemekre vonatkozó adatokat a Kbt. 86. § (1) bekezdése szerint köteles kérni a bírálóbizottság különösen akkor, ha az ajánlati ár alapján kalkulálható bérköltség nem éri el az adott ágazatban általában szokásos béreket, vagy azokat kirívóan meghaladja, illetve, ha a szerződés teljesítése kapcsán felmerülő eszköz- és anyagköltségek, beszerzési értékek nem érik el az ágazatban általában szokásos árszintet, vagy azokat kirívóan meghaladják."
+    },
+    {
+      "provision_ref": "s100",
+      "section": "100",
+      "title": "100",
+      "content": "29.2. Az indokoláskérésben utalni kell rá, hogy az indokolást a Kbt. 86. § (4) bekezdésében rögzítettek szerint köteles megadni az ajánlattevő. A bírálóbizottság kérheti, hogy az ajánlattevő adja meg, hogy hány személy bérével kalkulált ajánlatában."
+    },
+    {
+      "provision_ref": "s101",
+      "section": "101",
+      "title": "101",
+      "content": "29.3. A bírálóbizottság az indokolás elfogadása vagy elutasítása vonatkozásában a Kbt. 86. § (1) bekezdése esetében a Kbt. 86. § (3)–(10) bekezdéseiben, a Kbt. 87. § (1) bekezdése esetében a Kbt. 87. § (2)–(4) bekezdéseiben foglaltak szerint köteles eljárni."
+    },
+    {
+      "provision_ref": "s102",
+      "section": "102",
+      "title": "102",
+      "content": "30. A bírálóbizottság működési rendjét maga állapítja meg, azonban a tagoknak a közbeszerzési eljárással kapcsolatos írásba foglalt különvéleményét csatolni kell az eljárás eredményéről szóló, a bírálóbizottság által készített döntési javaslatot tartalmazó irathoz. A döntési javaslathoz csatolni kell továbbá a bírálóbizottság tagjainak az előzetesen rögzített szempontok szerinti részletes szakmai indokolással és adott esetben a megfelelő, a szöveges indoklással összhangban álló pontszámmal ellátott bírálati lapját."
+    },
+    {
+      "provision_ref": "s103",
+      "section": "103",
+      "title": "103",
+      "content": "31. A döntéshozó a bírálóbizottság által készített – és a bizottság elnöke által összeállított és aláírt – írásbeli szakvélemény és döntési javaslat alapján dönt. A döntést minden esetben írásba kell foglalni."
+    },
+    {
+      "provision_ref": "s104",
+      "section": "104",
+      "title": "104",
+      "content": "31.1. A MeH mint ajánlatkérő által kezdeményezett eljárások esetén a Miniszterelnöki Hivatalt vezető miniszter a döntés jogát bármikor, indoklás nélkül magához vonhatja."
+    },
+    {
+      "provision_ref": "s105",
+      "section": "105",
+      "title": "105",
+      "content": "32. A részvételi szakasz eredményének kihirdetéséről, a közbeszerzési eljárást lezáró, annak eredményét megállapító, a döntéshozó által aláírt döntés kihirdetéséről (a továbbiakban: eredményhirdetés) a KSzF illetékes beszerzési főosztálya gondoskodik. Amennyiben a döntéshozó által aláírt döntés az eredményhirdetést 24 órával megelőzően a munkacsoport titkárához nem érkezik meg, úgy a KSzF KIG vezetője dönt az eredményhirdetés elhalasztásáról. Az eredményhirdetés egy alkalommal legfeljebb 30 nappal elhalasztható, amennyiben a döntéshozó az eredményhirdetés új időpontját meghatározza és ennek indokát megadja. A KSzF KIG a halasztásról, annak indokáról és az új eredményhirdetési és a szerződéskötési időpontról írásban értesíti az ajánlattevőket."
+    },
+    {
+      "provision_ref": "s106",
+      "section": "106",
+      "title": "106",
+      "content": "33. A közbeszerzési eljárás alapján létrejövő – dokumentáció részét képező szerződés, a benyújtott ajánlat, valamint tárgyalásos eljárás esetén, a tárgyalásokon elhangzottak alapján – szerződést a KSzF JIF készíti el, kivéve, ha az ajánlati dokumentációban szereplő szerződést külső jogi szakértő készítette."
+    },
+    {
+      "provision_ref": "s107",
+      "section": "107",
+      "title": "107",
+      "content": "33.1. A munkacsoport titkára köteles a szerződés mellékleteit szignálni és a KSzF JIF rendelkezésére bocsátani papír alapon, amennyiben rendelkezésre áll elektronikus úton elektronikus formában is az eredményhirdetést követő 3 munkanapon belül, a szerződésben meghatározott példányszámban. KSzF JIF által – a szerződésben szereplő példányszámban – elkészített és szignált szerződéseket a kijelölt jogtanácsos, pénzügyi ellenjegyzésre az ajánlatkérő költségvetési-gazdálkodási szakterülete felelős vezetőjének, a szükséges mellékletek kézhezvételét követő 3 munkanapon belül eljuttatja. Az ajánlatkérő költségvetési-gazdálkodási szakterülete felelős vezetője az általa aláírt szerződést köteles aláírásra a kezdeményező szervezeti egység vezetőjének eljuttatni a szerződés kézhezvételét követő 3 munkanapon belül."
+    },
+    {
+      "provision_ref": "s108",
+      "section": "108",
+      "title": "108",
+      "content": "33.2. A megkötendő szerződés 1. számú példányát, amely a tőpéldány, a KSzF JIF kijelölt jogtanácsosa ellátja kézjegyével."
+    },
+    {
+      "provision_ref": "s109",
+      "section": "109",
+      "title": "109",
+      "content": "33.3. Ajánlatkérő köteles gondoskodni a szerződések határidőben történő aláíratásáról, valamint arról, hogy a szerződő felek által aláírt szerződések egy-egy példánya megküldésre kerüljön az aláírástól számított 2 munkanapon belül:"
+    },
+    {
+      "provision_ref": "s110",
+      "section": "110",
+      "title": "110",
+      "content": "a) a tőpéldány a KSZF JIF-nek – amennyiben a KSzF az ajánlatkérő –,"
+    },
+    {
+      "provision_ref": "s111",
+      "section": "111",
+      "title": "111",
+      "content": "b) a KSzF illetékes beszerzési főosztályának,"
+    },
+    {
+      "provision_ref": "s112",
+      "section": "112",
+      "title": "112",
+      "content": "c) a MeH mint ajánlatkérő esetében, a szerződések közzétételi szempontból való nyilvántartását (a továbbiakban: SZIR) végző MeH Személyügyi, Jogi Képviseleti és Biztonsági Főosztálynak,"
+    },
+    {
+      "provision_ref": "s113",
+      "section": "113",
+      "title": "113",
+      "content": "d) a pénzügyi ellenjegyzést végző szervezeti egységeknek, valamint"
+    },
+    {
+      "provision_ref": "s114",
+      "section": "114",
+      "title": "114",
+      "content": "e) az aláíró szerződő feleknek."
+    },
+    {
+      "provision_ref": "s115",
+      "section": "115",
+      "title": "115",
+      "content": "33.4. Az ajánlatkérő köteles az aláírt szerződést, valamint annak mellékleteit – kivéve annak a Kbt. alapján üzleti titoknak minősülő részét – szkennelni és azt elektronikus úton két munkanapon belül a KSzF illetékes beszerzési főosztályának megküldeni."
+    },
+    {
+      "provision_ref": "s116",
+      "section": "116",
+      "title": "116",
+      "content": "33.5. A KSzF illetékes beszerzési főosztálya – az illetékes szervezeti egység útján – két munkanapon belül köteles gondoskodni az aláírt szerződés közzétételéről. A határidőbe a kezdőnap – tehát az a nap, amikor a szerződés szkennelt formátumban megérkezik – nem számít bele."
+    },
+    {
+      "provision_ref": "s117",
+      "section": "117",
+      "title": "117",
+      "content": "33.6. Az ajánlatkérő köteles a Kbt. 99/A. § (4) bekezdése szerint megkötött szerződések tekintetében a közzétételről saját maga gondoskodni."
+    },
+    {
+      "provision_ref": "s118",
+      "section": "118",
+      "title": "118",
+      "content": "34. A közbeszerzési eljárásokkal kapcsolatban kezdeményezett jogorvoslati eljárásokban a jogi képviselet ellátása – a beszerzésben érintett szervezeti egység vezetője és a munkacsoport titkárának közvetlen személyes közreműködése mellett, továbbá szükség esetén a bírálóbizottsági tagok és külső jogi szakértő bevonásával – a KSzF JIF feladata."
+    },
+    {
+      "provision_ref": "s119",
+      "section": "119",
+      "title": "119",
+      "content": "35. Amennyiben az ellenjegyzésre jogosult, a pénzügyi fedezetet igazoló vezető a közbeszerzési eljárás indokolatlan mellőzéséről szerez tudomást, köteles azt a KSzF főigazgatójának, illetve a Miniszterelnöki Hivatalt vezető miniszternek haladéktalanul írásban bejelenteni."
+    },
+    {
+      "provision_ref": "s120",
+      "section": "120",
+      "title": "120",
+      "content": "35.1. A munkacsoport valamennyi tagja köteles a Kbt. 20/A. § szerinti kartellezési tilalom megszegését figyelemmel kísérni. A kartellezésre vonatkozó jogszabályokat, a Gazdasági Versenyhivatal által kiadott útmutatót, továbbá a kartellezés gyanúja esetén alkalmazandó intézkedéseket jelen utasítás 6. számú melléklete tartalmazza."
+    },
+    {
+      "provision_ref": "s121",
+      "section": "121",
+      "title": "121",
+      "content": "36. A megkötött szerződések módosítására a Kbt. 303. §-ában meghatározott feltételek fennállása esetén van lehetőség. Ajánlatkérő köteles a szerződésmódosítás indokait és annak igazolására szolgáló dokumentumokat, valamint a szerződésmódosítás tartalmát a KSzF JIF részére írásban és elektronikus formában is megküldeni a szerződésmódosítás tervezett szövegezésével és annak mellékleteivel együtt. Az ajánlatkérő kizárólagos felelőssége – beleértve az esetleges jogorvoslati eljárás során történő marasztalás és az egyéb, más módon és jogcímen érvényesíthető jogkövetkezményeket – a szerződésmódosítás Kbt. szabályainak megfelelő meghatározása. Az ajánlatkérő felel a szerződésmódosítás indoklásában meghatározottak helytállóságáért és valóságtartalmáért."
+    },
+    {
+      "provision_ref": "s122",
+      "section": "122",
+      "title": "122",
+      "content": "36.1. A KSzF JIF a szerződésmódosítás tervezetét egyezteti a költségvetési gazdálkodási szakterület felelős vezetőjével és az ajánlatkérővel. A szerződésmódosítás tervezet végleges szövegezését – az ajánlatkérő írásbeli jóváhagyását követően – a KSzF JIF elkészíti, sokszorosítja, és pénzügyi ellenjegyzésre a költségvetési gazdálkodási szakterület felelős vezetőjének megküldi. A költségvetési gazdálkodási szakterület felelős vezetője a pénzügyi ellenjegyzést követően gondoskodik az ajánlatkérőnek aláírás céljából történő megküldéséről. Az ajánlatkérő köteles gondoskodni a szerződésmódosítás aláíratásáról, majd az aláírást követően jelen utasítás 33.3. pontjában meghatározott szervezeti egységeknek történő megküldéséről. Az ajánlatkérő a szerződésmódosítást az aláírástól számított 2 munkanapon belül köteles megküldeni a KSzF JIF részére."
+    },
+    {
+      "provision_ref": "s123",
+      "section": "123",
+      "title": "123",
+      "content": "36.2. A KSzF JIF az aláírt szerződésmódosítást annak kézhezvételétől számított 1 munkanapon belül köteles a KSzF illetékes beszerzési főosztályának megküldeni, amely gondoskodik a Kbt. 307. § (1) bekezdésében meghatározott hirdetmény elkészítéséről és határidőben történő feladásáról."
+    },
+    {
+      "provision_ref": "s124",
+      "section": "124",
+      "title": "124",
+      "content": "36.3. Az ajánlatkérő, illetve a KSzF a módosított szerződések közzététele esetén a 33.1., a 33.4., illetve a 33.5. szerint köteles eljárni, az ott megjelölt határidők figyelembevételével."
+    },
+    {
+      "provision_ref": "s125",
+      "section": "125",
+      "title": "125",
+      "content": "37. Az ajánlatkérő köteles figyelemmel kísérni a közbeszerzési eljárás eredményeképpen megkötött szerződés teljesülését és a szerződésszerű teljesítést ellenőrizni. Az ajánlatkérő köteles a szerződésszerű teljesítés megtörténtét a teljesítésigazolás kiállításától számított legkésőbb 2 munkanapon belül írásban – a teljesítésigazolás eredeti példányának megküldésével együtt – értesíteni a KSzF illetékes beszerzési főosztályát, amely köteles gondoskodni a Kbt. 307. § (1) bekezdésében meghatározott hirdetmény elkészítéséről és határidőben történő feladásáról."
+    },
+    {
+      "provision_ref": "s126",
+      "section": "126",
+      "title": "126",
+      "content": "37.1. Amennyiben a teljesítés részben vagy egészben nem szerződésszerű, abban az esetben az ajánlatkérő a teljesítés igazolását indokolt nyilatkozattal a szerződésben meghatározott rendelkezések szerint megtagadhatja, vagy – a szerződésszegésnek megfelelő mértékű – csökkentett vállalkozói díjat tartalmazó teljesítésigazolást állíthat ki."
+    },
+    {
+      "provision_ref": "s127",
+      "section": "127",
+      "title": "127",
+      "content": "37.2. A teljesítésigazolás kiállításának megtagadásáról szóló nyilatkozatot az ajánlatkérő köteles a teljesítésigazolás megtagadásáról szóló nyilatkozat kiállításától számított legkésőbb 2 munkanapon belül írásban – a teljesítésigazolás eredeti példányának megküldésével együtt – megküldenie a KSzF illetékes beszerzési főosztályának, amely gondoskodik a Kbt. 307. § (1) bekezdésében meghatározott hirdetmény elkészítéséről és határidőben történő feladásáról."
+    },
+    {
+      "provision_ref": "s128",
+      "section": "128",
+      "title": "128",
+      "content": "38. Az ajánlatkérő mint kifizetést teljesítő köteles betartani az adózás rendjéről szóló törvény (Art.) 2003. évi XCII. törvény 36/A. §-ában foglaltakat."
+    },
+    {
+      "provision_ref": "s129",
+      "section": "129",
+      "title": "129",
+      "content": "39. Amennyiben a nyertes ajánlattevőként szerződő fél vagy az alvállalkozója bejelenti a Kbt. 305. § (5) bekezdése szerinti ellenszolgáltatás teljesítését, vagy annak megtagadását, úgy az ajánlatkérő köteles haladéktalanul a Kbt. 305. § (6) bekezdése szerinti tartalommal a tájékoztatót elkészíteni és megküldeni a KSZF illetékes beszerzési főosztályának, aki a 27. pont szerint intézkedik annak közzétételéről."
+    },
+    {
+      "provision_ref": "s130",
+      "section": "130",
+      "title": "130",
+      "content": "Vegyes és záró rendelkezések"
+    },
+    {
+      "provision_ref": "s131",
+      "section": "131",
+      "title": "131",
+      "content": "40. A KSzF köteles a Kbt. szerint elkészített hirdetmények közzétételét a Közbeszerzési Értesítőnél kezdeményezni. A közzététellel kapcsolatos költségek a KSzF-et terhelik."
+    },
+    {
+      "provision_ref": "s132",
+      "section": "132",
+      "title": "132",
+      "content": "41. Jelen utasítás aláírása napján lép hatályba, közzététele a MeH Infon és a KSzF Infon, valamint a Hivatalos Értesítőben történik."
+    },
+    {
+      "provision_ref": "s133",
+      "section": "133",
+      "title": "133",
+      "content": "42. Ezen utasítás hatálybalépésével egyidejűleg hatályát veszti a nemzeti értékhatárokat elérő vagy meghaladó értékű közbeszerzési eljárások lebonyolításáról, valamint a közbeszerzésekkel kapcsolatos adatszolgáltatás rendjéről szóló 14/2006. MeHVM utasítás."
+    },
+    {
+      "provision_ref": "s134",
+      "section": "134",
+      "title": "134",
+      "content": "43. Jelen utasítás alapján lebonyolított közbeszerzési eljárásokkal kapcsolatban keletkezett, a Kbt. 7. § (2) bekezdése szerinti dokumentumok megőrzéséről a KSzF gondoskodik."
+    },
+    {
+      "provision_ref": "s135",
+      "section": "135",
+      "title": "135",
+      "content": "44. A Kbt. szerinti, rendkívüli sürgősség esetén (Kbt. 125. §, 252. §), gyorsított eljárás során, valamint különösen indokolt esetben, a 20 napos szerződéskötési határidő lerövidíthető, azzal, hogy amennyiben a törvény szerződéskötési moratóriumot állapít meg, úgy annak legrövidebb időtartamától eltérni nem lehet."
+    },
+    {
+      "provision_ref": "s136",
+      "section": "136",
+      "title": "136",
+      "content": "44.1. A szerződéskötési határidő lerövidítését a döntéshozónak kell kérnie írásban, az indító jegyzőkönyv elkészítése előtt, és egyúttal kifejezetten nyilatkoznia, hogy vállalja a felelősséget, amennyiben a rövidebb határidőre tekintettel, határidőt mulaszt az ajánlatkérő (pl. a szerződés közzététele kapcsán), a KSzF érdekkörén kívül eső bármilyen okból."
+    },
+    {
+      "provision_ref": "s137",
+      "section": "137",
+      "title": "137",
+      "content": "45. Ahol jelen utasítás ajánlattevőt ír, azon a Kbt. által meghatározott esetekben részvételre jelentkezőt kell érteni."
+    },
+    {
+      "provision_ref": "s1mellklet",
+      "section": "1. melléklet",
+      "title": "1. melléklet",
+      "content": "1. számú melléklet a 6/2009. (IV. 17.) MeHVM utasításhoz Közbeszerzésiterv-módosítás döntéshozó aláírása"
+    },
+    {
+      "provision_ref": "s2mellklet",
+      "section": "2. melléklet",
+      "title": "2. melléklet",
+      "content": "2. számú melléklet a 6/2009. (IV. 17.) MeHVM utasításhoz Felkérés közbeszerzési eljárás megindítására Alulírott …………………………… (ajánlatkérő neve) mint …………………………… (szervezeti egység megnevezése) kötelezettségvállalásra jogosult vezetője a közbeszerzési eljárások lebonyolításáról, valamint a közbeszerzésekkel kapcsolatos adatszolgáltatás rendjéről szóló MeHVM utasítás 12. pontja értelmében közbeszerzési eljárás megindítását kezdeményezem az alábbiak szerint: a) a közbeszerzési terv azonosító száma, b) a beszerzés tárgyát képező áru, építési beruházás, szolgáltatás, építési, illetőleg szolgáltatási koncesszió meghatározása – a 213/2008/EK bizottsági rendelet V. melléklete szerinti azonosító szám (a továbbiakban: CPV-kód) feltüntetésével –, továbbá a beszerzés nettó értéke, mennyisége meghatározása, c) a Kbt. 40. § (2) bekezdésében meghatározott becsült érték egybeszámítási kötelezettség alá eső – a jelen beszerzés tárgyával azonos vagy hasonló rendeltetésű, illetve felhasználásuk tekintetében egymással összefüggő – beszerzésekről történő ajánlatkérői nyilatkozat, amely tartalmazza a CPV-kód, nettó szerződéses érték és szerződéses időtartam megadásával az egybeszámítandó beszerzéseket és értéküket; amennyiben nem terheli egybeszámítási kötelezettség, úgy erre vonatkozó nemleges nyilatkozatot, d) a bírálóbizottság elnökének, valamint tagjainak megnevezése, szakértelmük, elérhetőségük (telefonszám, postázási cím, faxszám), feladatuk, felelősségük megjelölése, e) a döntéshozó személyének megnevezése, elérhetősége, f) a beszerzés kapcsán az ajánlatkérő által – a bírálóbizottság tagjain és elnökén kívül – a munkacsoportba delegált személyek, kapcsolattartó neve, a képviseleti jogosultságuk megnevezése (állásfoglalásra, javaslattételre, kapcsolattartásra stb. vonatkozó jogosultság), a közbeszerzési eljárás lebonyolításához szükséges – szakértelmük, elérhetőségük (telefonszám, postázási cím, faxszám), felelősségük megjelölése, g) amennyiben [Kbt. 9. § (1) bekezdés] hivatalos közbeszerzési tanácsadó vagy független hivatalos közbeszerzési tanácsadó alkalmazására kerül sor, feladatának, jogosultságainak, felelősségének pontos meghatározása, elérhetősége (telefonszám, postázási cím, faxszám). Tudomásul veszem, hogy a beszerzés tárgyának, műszaki tartalmának, bírálati szempontjának és bírálati részszempontjainak, speciális szerződéses rendelkezéseinek meghatározása az ajánlatkérő kizárólagos feladata és felelőssége. Nyilatkozom, hogy alulírott és az általam delegált személyek külön törvény és belső utasítás szerinti vagyonnyilatkozat-tételi kötelezettségüknek eleget tettek. Budapest, …………………… …………………………………………… kötelezettségvállalásra jogosult vezető"
+    },
+    {
+      "provision_ref": "s3mellklet",
+      "section": "3. melléklet",
+      "title": "3. melléklet",
+      "content": "3. számú melléklet a 6/2009. (IV. 17.) MeHVM utasításhoz TITOKTARTÁSI ÉS ÖSSZEFÉRHETETLENSÉGI NYILATKOZAT 1. Alulírott …………………………. (ajánlatkérő neve), mint ………………………………… (szervezeti egység megnevezése), mint ajánlatkérő a(z) ………………………………… tárgyú közbeszerzési eljárásának döntéshozója/bírálóbizottsági tagja/egyéb módon közreműködője az alábbiakban ismertetett Kbt. 10. § (1)–(8) bekezdéseiben foglaltakat megismertem: 10. § (1) A közbeszerzési eljárás előkészítése, a felhívás és a dokumentáció elkészítése során vagy az eljárás más szakaszában az ajánlatkérő nevében nem járhat el, illetőleg az eljárásba nem vonható be (erőforrást nyújtó szervezetként sem) a közbeszerzés tárgyával kapcsolatos gazdasági tevékenységet végző gazdálkodószervezet (a továbbiakban: érdekelt gazdálkodószervezet), illetőleg az olyan személy vagy szervezet, aki, illetőleg amely a) az érdekelt gazdálkodószervezettel munkaviszonyban vagy munkavégzésre irányuló egyéb jogviszonyban áll, b) az érdekelt gazdálkodószervezet vezető tisztségviselője vagy felügyelőbizottságának tagja, c) az érdekelt gazdálkodószervezetben tulajdoni részesedéssel rendelkezik, d) az a)–c) pont szerinti személy hozzátartozója. (2) Nem kell alkalmazni az (1) bekezdést, ha az ajánlatkérő nevében eljáró, illetőleg az eljárásba bevonni kívánt érdekelt gazdálkodószervezet, illetőleg az eljárásba bevonni kívánt személlyel vagy szervezettel az (1) bekezdés a)–d) pontja szerinti viszonyban álló érdekelt gazdálkodószervezet írásban nyilatkozik, hogy az eljárásban nem vesz részt ajánlattevőként vagy alvállalkozóként. (3) (4) Ha az ajánlatkérő nevében valamely személy tulajdonosi jogokat gyakorol érdekelt gazdálkodószervezetben, az ajánlatkérő nevében e személy vagy hozzátartozója nem járhat el a közbeszerzési eljárás előkészítésében vagy az eljárás más szakaszában, kivéve, ha az érdekelt gazdálkodószervezet írásban nyilatkozik, hogy az eljárásban nem vesz részt ajánlattevőként vagy alvállalkozóként. Ezt a szabályt kell megfelelően alkalmazni az ajánlatkérő vezető tisztségviselője vagy felügyelőbizottságának tagja vagy hozzátartozója tekintetében, ha az érdekelt gazdálkodószervezetben az ajánlatkérő rendelkezik tulajdoni részesedéssel. (5) Nem kell alkalmazni e §-t, ha az ajánlatkérő nevében az érdekelt gazdálkodószervezetben a tulajdonosi jogok gyakorlására és a közbeszerzési eljárást lezáró döntés meghozatalára törvény, vagy törvény felhatalmazása alapján kiadott önkormányzati rendelet alapján az ajánlatkérő ugyanazon testülete jogosult, vagy olyan testületei, amelynek tagjai részben azonosak, és a közbeszerzési eljárással kapcsolatos – az eljárást lezáró döntés meghozatalán kívüli – tevékenységekben nem vett részt olyan személy, aki jogosult a tulajdonosi jogok gyakorlására. (6) Nem minősül e § alkalmazásában a közbeszerzési eljárás előkészítésébe bevont személynek (szervezetnek) az olyan személy (szervezet), akitől, illetőleg amelytől az ajánlatkérő a) az adott közbeszerzéssel kapcsolatos helyzet-, illetőleg piacfelmérés, a közbeszerzés becsült értékének felmérése érdekében a közbeszerzés megkezdése időpontjának megjelölése nélkül, kizárólag a felmérés érdekében szükséges adatokat közölve kért tájékoztatást, vagy b) a támogatásra irányuló igény (pályázat) benyújtásához szükséges árajánlatot kapott, feltéve, hogy az a), illetőleg a b) pont alkalmazása kapcsán az ajánlatkérő nem közölt vele a közbeszerzési eljárás során az összes ajánlattevő (részvételre jelentkező) részére rendelkezésre bocsátott adatok körét meghaladó információt. (7) Az ajánlatkérő nevében eljáró, illetőleg az eljárásba bevonni kívánt személy vagy szervezet írásban köteles nyilatkozni arról, hogy vele szemben fennáll-e az e § szerinti összeférhetetlenség. Az összeférhetetlenséggel kapcsolatos nyilatkozathoz – a (2) vagy (4) bekezdés szerinti esetben – csatolni kell az érintett érdekelt gazdálkodószervezet nyilatkozatát arról, hogy az eljárásban nem vesz részt ajánlattevőként vagy alvállalkozóként (távolmaradási nyilatkozat). (8) Ha az (1), (4) vagy (7) bekezdést megsértették, vagy a (2), illetőleg (4) bekezdés szerinti nyilatkozata ellenére az érdekelt gazdálkodószervezet indul a közbeszerzési eljárásban, az eljárás további részében nem lehet ajánlattevő vagy alvállalkozó az (1) bekezdés hatálya alá tartozó vagy az ott felsorolt személyekkel, szervezetekkel az (1) bekezdés a)–d) pontja szerinti viszonyban álló érdekelt gazdálkodószervezet. 2. Felelősségem teljes tudatában kijelentem, hogy velem szemben – a jelen közbeszerzési eljárással összefüggésben – összeférhetetlenségi ok nem áll fenn. Kijelentem továbbá, hogy az eljárással kapcsolatos megbízásom sem jogi, sem etikai szempontból nem összeférhetetlen, egyetlen ajánlat kedvező elbírálásában sem vagyok sem anyagilag, sem más szempontból érdekelve. Az ajánlattevőkkel perben, haragban nem állok. Kötelezem magam arra, hogy az ajánlattevők személyiségi jogait, szerzői jogait, iparjogvédelmi jogait (találmány, szabadalom, védjegy, ipari minta), vagy más jogi érdekeit – a bírálati (szakértői) munka során tudomásomra jutott adatok jogosulatlan felhasználásával, nyilvánosságra hozatalával, vagy illetéktelen személy tudomására hozatalával, vagy bármely más módon – nem sértem. Tartózkodni fogok az ajánlatokból tudomásomra jutott adatok, információk, leírások bárminemű közvetlen, illetve közvetett felhasználásától, és kijelentem, hogy az ajánlatok tárgyában semmilyen szerzői, iparjogvédelmi igényem nincsen. Az eljárás során szerzett információkat bizalmasan kezelem. Tudomásul veszem, hogy a sajtó és az egyéb érdekeltek tájékoztatására a döntéshozónak van hatásköre. A tárgyi közbeszerzési eljárást illetően a közbeszerzésről szóló 2003. évi CXXIX. törvény (továbbiakban: Kbt.) 8. § (1) bekezdése szerinti megfelelő szakértelemmel rendelkezem. A Kbt. 6. § (1) és 8. § (3) bekezdésére figyelemmel ismerem a tárgyi közbeszerzési eljárás dokumentálásának rendjét, felelősségi körét. Hozzájárulok ahhoz, hogy személyes adataimat az ajánlatkérő – a személyes adatok védelméről és a közérdekű adatok nyilvánosságáról szóló 1992. évi LXIII. törvény vonatkozó rendelkezéseinek megfelelően – kezelje. Ismerem, és az eljárás során magamra nézve kötelezőnek elfogadom az ajánlatkérő közbeszerzési eljárásaira vonatkozó előírásokat. Amennyiben az eljárás lebonyolítása során jelen nyilatkozatomat érintő változás következik be, azt haladéktalanul írásban bejelentem a döntéshozónak/kötelezettségvállalónak, az eljárásban folytatott tevékenységem felfüggesztése mellett. Budapest, ….…………………… ………………………………… aláírás"
+    },
+    {
+      "provision_ref": "s4mellklet",
+      "section": "4. melléklet",
+      "title": "4. melléklet",
+      "content": "4. számú melléklet a 6/2009. (IV. 17.) MeHVM utasításhoz Közbeszerzési eljárás felelősségi rendje Az eljárás tárgya: „…………………………………………………….” 1. Az ajánlatkérő szervezeti egység megnevezése: 2. A kötelezettségvállaló neve, elérhetősége: Az ajánlatkérő kötelezettségvállalásra jogosult vezetőjének felelőssége, valamint jogai és kötelezettségei: 1. A kötelezettségvállaló a felkérőlevélben jogosult kijelölni a döntéshozót és a bírálóbizottság tagjait. 2. Felelős a szerződés határidőben történő aláírásáért. 3. Az ajánlatkérő szervezeti egység kijelölt kapcsolattartójának neve, elérhetősége: 4. A beszerzés becsült értéke (nettó): ………………………… Ft 5. A Kbt. 6. § (1) bek. szerinti felelősségi rend és felelősségük meghatározása: Döntéshozó: A döntéshozó kizárólagos jogai és felelőssége: 1. A bírálóbizottság tagjainak kijelölése (kizárólagosan felelős azért, hogy a kijelölt bírálóbizottsági tagok a közbeszerzés tárgya szerinti szakértelemmel rendelkezzenek). 2. A munkacsoport személyi állományában történő változás (a KSzF munkatársainak kivételével) jóváhagyása. 3. Amennyiben az ajánlatkérő az eljárás bírálóbizottságába külső (szakértő) tagokat hív meg, a döntéshozó köteles gondoskodni a megbízási szerződés megkötéséről, az abban foglalt megbízási díj kifizetéséről, valamint a titoktartási és összeférhetetlenségi nyilatkozat megtételéről. 4. Ajánlati biztosíték, teljesítési biztosíték kikötése esetén, annak összegét, a rendelkezésre bocsátás módját, kezelését a KSzF javaslata alapján a döntéshozó határozza meg. A döntéshozó felelőssége annak mérlegelése, hogy az ajánlati biztosíték, illetve teljesítési biztosíték alkalmazása szükséges-e. A döntéshozó felelőssége továbbá annak megítélése, hogy az ajánlati biztosíték, illetve teljesítési biztosíték alkalmazása az ajánlattevők árait milyen módon befolyásolhatja. 5. A Kbt. 6. § (2) bekezdése alapján az eljárást megindító hirdetmény/felhívás ellenjegyzése. 6. A bírálóbizottsági szakvélemények, döntési javaslat(ok) kézhezvételét követően a döntések meghozatala, a döntésekről – adott esetben – a kötelezettségvállalásra jogosult személy tájékoztatása. 7. A döntéshozó köteles gondoskodni a hivatalos közbeszerzési tanácsadó megbízási szerződésének megkötéséről, az abban foglalt megbízási díj kifizetéséről, valamint a titoktartási és összeférhetetlenségi nyilatkozat megtételéről. A döntéshozó jogköre az eljárást megindító hirdetmény ellenjegyzése, a dokumentáció jóváhagyása során, valamint az eljárás eredményéről szóló döntési javaslat jóváhagyása vagy elutasítása során: 1. Jogosult a hirdetmény/felhívás, illetve a döntés előkészítésében részt vevő személyek írásbeli, szakterületük szerinti, szakvéleményét a bírálóbizottság elnökén keresztül – a kérdéssel érintett szervezeti egység(ek) vezetőjénél – írásban kérni. 2. A döntéshozó döntéseit önállóan hozza. Jogosult figyelmen kívül hagyni a bírálóbizottság tagjainak javaslatait és a munkacsoport szakembereinek szakterület szerinti állásfoglalásait. Ez esetben azonban a döntéséért kizárólagosan felel. A munkacsoport tagjai A feladat teljesítése során a felelősségi köröket a következőképpen határozzuk meg: 1. Az ajánlatkérő kizárólagosan felel azért, hogy a beszerzés tárgya és mennyiségeként közölt adatok, a műszaki leírásban meghatározottak jogi és szakmai szempontból helytállóak, a valóságnak megfelelnek. Mind az ajánlatkérő, mind a lebonyolító felelőssége kiterjed az eljárás Kbt.-nek megfelelő lefolytatására, de az ajánlatkérő által közölt adatok és szakmai elvárások helyességének ellenőrzése nem képezi a szolgáltatás tárgyát. 2. Ha az ajánlatkérő nyilvánvalóan szakszerűtlen vagy a Kbt. előírásaival ellentétes követelményt állít, akkor a lebonyolító haladéktalanul köteles erre a megbízót írásban figyelmeztetni. A munkacsoport tagjainak felelőssége, valamint jogai és kötelezettségei Közös szabályok 1. Közbeszerzési eljárás megindításának előkészítésére munkacsoportot kell létrehozni. A munkacsoport tagjai a bírálóbizottság tagjai, a KSzF – szervezeti és működési szabályzata szerint illetékes főosztályának vezetője által írásban kijelölt – képviselői – szakértő, szakreferens, referens, jogtanácsos, jogi szakértő, hivatalos közbeszerzési tanácsadó (a továbbiakban együtt: KSzF munkatársai) –, valamint a független hivatalos közbeszerzési tanácsadó. A munkacsoport bármely tagja személyében történt változás engedélyezésére – a KSzF munkatársait kivéve – az eljárás megindítását kezdeményező iratban megnevezett döntéshozó jogosult, és köteles a változásnak megfelelően módosítani a közbeszerzési eljárás indító jegyzőkönyvének mellékletét képező felelősségi körökről szóló iratot. A személyi változást követően a munkacsoport – KSzF munkatársain kívüli – új tagjai titoktartási és összeférhetetlenségi nyilatkozatának a munkacsoport titkárához történő haladéktalan eljuttatása az ajánlatkérő feladata. 2. A munkacsoport tagjai kötelesek minden esetben a vonatkozó jogszabályok szerint, valamint a jelen MeHVM utasítás alapján eljárni. A munkacsoport valamennyi tagja köteles a Kbt., illetve a jelen MeHVM utasítás szabályait a szükséges mértékig ismerni. A szükséges mértéket a tagok saját maguk állapítják meg azzal, hogy minden tag köteles a rá vonatkozó (szakértelme szerinti) szabályokkal, valamint az alapvető előírásokkal tisztában lenni. 3. A munkacsoport valamennyi tagja köteles az eljárás főbb iratait megismerni, a szakértelme szerinti iratokat kellő körültekintéssel áttanulmányozni. 4. Valamennyi tag köteles a Kbt. 20/A. § rendelkezéseinek betartását figyelni (kartellezés tilalma). A bírálóbizottság elnökének felelőssége, valamint jogai és kötelezettségei 1. Köteles a jelen MeHVM utasítás szerint rábízott feladatokat ellátni. 2. Az eljárás indító jegyzőkönyvét köteles aláírni és a döntéshozó elé terjeszteni. Az indító jegyzőkönyv tartalmának helytállóságáért mindazon részek tekintetében felelős, amelyért más személy (így különösen a munkacsoport titkárának) felelőssége nem állapítható meg. 3. Amennyiben az eljárás előkészítése során, vagy az eljárás egyéb szakaszában különvélemény merül fel, arról a döntéshozót/kötelezettségvállalásra jogosult személyt tájékoztatja. 4. Köteles a bírálóbizottság alakuló ülésének jegyzőkönyvét aláírni. 5. Egyebekben a bírálóbizottság tagjaira vonatkozó szabályok alkalmazandók. A bírálóbizottság tagjainak felelőssége, valamint jogai és kötelezettségei 1. A bírálóbizottság – tagjain keresztül – a közbeszerzés tárgya szerinti szakértelemmel rendelkezik. 2. A bírálóbizottság mint testület kizárólagosan felelős azon kérdésekben, amelyek a közbeszerzési eljárás során speciális szakértelmet igényelnek, így különösen a műszaki leírás összeállításáért, az alkalmassági és a bírálati – és adott esetben a rangsorolási – szempontok/részszempontok szakmaiságáért. A bírálóbizottság egyes tagjai közötti szakmai felelősséget a tagok szakértelme határozza meg. A bírálóbizottság tagjainak szakértelmét jelen dokumentumban nevesíteni kell. 3. Amennyiben egy szakértelmet érintő területen a bírálóbizottság tagjai közül többen rendelkeznek szakértelemmel, úgy a szakértelemmel rendelkező tagok külön-külön felelnek. Ha egy szakértelmet igénylő téma kapcsán több bírálóbizottsági tag érintett (pl. a műszaki leírást többen, együttesen készítik) és az egyes tagok közreműködésének mértéke nem választható el egymástól, abban az esetben együttesen felelnek. 4. Feladatkörében a bírálóbizottság, a közbeszerzési eljárás megfelelő előkészítése érdekében felméri az ajánlatkérői igényeket és elvégzi a beszerzés tárgya szerinti helyzet-, illetve piacfelmérést, a közbeszerzés becsült értékének felmérését. 5. A bírálóbizottság működési rendjét maga állapítja meg, azonban a tagok bármely kérdésre vonatkozó, írásba foglalt különvéleményét csatolni kell az eljárás eredményéről szóló, a bírálóbizottság által készített döntési javaslatot tartalmazó irathoz. A döntési javaslathoz csatolni kell továbbá a bírálóbizottság tagjainak az előzetesen rögzített szempontok szerinti részletes szakmai indokolással és adott esetben a megfelelő, a szöveges indoklással összhangban álló pontszámmal ellátott bírálati lapját. 6. Az ajánlattevők pénzügyi-gazdasági és műszaki-szakmai alkalmasságának szakmai vizsgálata a bírálóbizottság kizárólagos feladatát és felelősségét képezi. A KSzF eljárásba bevont munkatársainak felelőssége 1. A KSzF munkatársai végzik a közbeszerzés-technikai és közbeszerzésjogi feladatokat. Feladatuk ellátása során elvégzik mindazon feladatokat, amelyeket a jelen MeHVM utasítás a KSzF eljárásba bevont munkatársai hatáskörébe utal. 2. A munkacsoport KSzF által delegált munkatársainak az ajánlatkérő által meghatározott műszaki tartalom, bírálati szempont és bírálati részszempontok, általános joggyakorlat során alkalmazott szerződéses feltételek vonatkozásában a Kbt. és a közbeszerzési eljárásra vonatkozó egyéb jogszabályok betartása érdekében írásbeli figyelmeztetési kötelezettségük van az ajánlatkérő felé, amennyiben ezen feltételek jogellenessége nyilvánvalóan megállapítható és arról tudomást szereznek. 3. A KSzF munkatársai a speciális szakértelmet, szaktudást igénylő kérdések megítélése tekintetében figyelmeztetési kötelezettséggel nem tartoznak, annak megítélése a bírálóbizottság tagjainak, az ajánlatkérő által az eljárásba bevont szakértőknek és a döntéshozónak a feladata. Speciális szakértelmet igénylő kérdés különösen a közbeszerzésre vonatkozó ismereteken felüli végzettséget, képesítést, szakképzést igénylő kérdés. 4. Az ajánlatok alaki követelményeknek való megfeleléséről, az ajánlattevők alkalmasságának formai és mennyiség szerinti vizsgálatáról és az ezek során megállapított tényekről a KSzF illetékes Beszerzési Főosztálya – a KSzF Jogi és Igazgatási Főosztálya (továbbiakban: KSzF JIF) álláspontjának ismeretében – szakvéleményt készít. Az alkalmasságot a KSzF illetékes Beszerzési Főosztálya csak a fenti körben, forma és az előírt alkalmassági kritériumban meghatározott mennyiség (darabszám) alapján vizsgálhatja. A mennyiségi vizsgálat részét képezi a Kbt. 68. § (1)–(2) bekezdései szerinti igazolások/nyilatkozatok áttekintése. 5. A KSzF eljárásba bevont munkatársainak egymás közötti feladatmegosztása: 1. A KSzF által bevont jogtanácsos, illetve jogi szakértő (a továbbiakban: jogtanácsos) köteles az ajánlatkérő által rendelkezésre bocsátott ajánlatkérő adatait (belértve a kapcsolattartók adatait is) speciális szerződéses és műszaki feltételeket tartalmazó szerződéstervezetet észrevételezni, javaslatokkal ellátni, és a végleges szerződést elkészíteni. Amennyiben nyilvánvaló hibát észlel, úgy köteles ezt írásban jelezni. Az írásban való jelzés úgy is történhet, ha az olyan megbeszélésen, amelyről jegyzőkönyv (emlékeztető) készül, szóban felhívja rá az ajánlatkérő figyelmét. A felhívást ez esetben jegyzőkönyvbe kell foglalni. 1.1. A jogtanácsos köteles a jogtanácsosi tevékenységről szóló 1983. évi 3. tvr. szabályai, valamint a munkaköre ellátására vonatkozó szabályok szerint eljárni. 1.2. A jogtanácsos köteles írásban felhívni az ajánlatkérő figyelmét, amennyiben a szerződéstervezet, a módosított (végleges) szerződés, vagy ajánlatkérő, illetve ajánlattevő(k) eljárás során tanúsított magatartása, cselekményei nyilvánvalóan jogszabályellenesek. 1.3. A pénzügyi, adójogi, számviteli tárgyú, speciális szakértelmet igénylő jogszabályok, valamint a szerződésben és mellékleteiben szereplő számítások, összesített és tételes áradatok, árkövetési rendelkezések esetében kizárólag a bírálóbizottság pénzügyi szakértelemmel rendelkező tagja felelős. 1.4. A jogtanácsos nem felelős azokban az esetekben, ahol a jogi tájékoztatása vagy figyelemfelhívása kapcsán hivatkozott jogértelmezés hiányos vagy nem egyértelmű, vagy ellentmondásos (pl. döntőbizottsági határozatok, bírósági határozatok). Ezekben az esetekben a jogtanácsos az ellentmondásokra, jogértelmezési lehetőségekre felhívja a bírálóbizottság elnökének figyelmét, és ez alapján a döntéshozó dönt. A döntéshozó döntéséért kizárólagosan felel. 1.5. A jogtanácsos az észrevételezési, figyelemfelhívási, véleményezési jogait és kötelezettségeit a munkacsoport titkárán keresztül köteles gyakorolni. A munkacsoport titkára köteles a jogtanácsos által megküldött dokumentumokat a bírálóbizottság elnökének megküldeni. 1.6. Jogosult részt venni a közbeszerzési eljárási cselekményeken (pl. eredményhirdetés, bontás stb.). Köteles részt venni – a munkacsoport titkárának értesítését követően – minden olyan közbeszerzési eljárási cselekményen, amely jogi szakértelmet igényel (különösen jogi kérdéseket érintő egyeztetések, tárgyalások). 2. A KSzF által bevont közbeszerzési referens/szakreferens/szakértő (a továbbiakban: közbeszerzési szakértő) felelős a közbeszerzési eljárás – a Kbt., valamint a jelen MeHVM utasítás előírásainak megfelelő – szabályszerű lefolytatásáért. Köteles ismerni a Kbt.-t és a vonatkozó közbeszerzési jogszabályokat, a munkakörére és a feladatkörére vonatkozó jogszabályokat és szabályokat. 2.1. A közbeszerzési szakértő feladatkörében: – helyiséget biztosít a konzultációkhoz, részt vesz a konzultációkon, – megszervezi és elvégzi a részvételi jelentkezések/ajánlatok bontását és az eredményhirdetést, – a bírálóbizottság titkáraként a bírálóbizottság – beszerzés tárgya szerinti – szakmai támogatásával elkészíti a bírálóbizottsági ülések emlékeztetőjét és az egyes eljárási események jegyzőkönyvét, – részt vesz a helyszíni bejáráson, – megszervezi és koordinálja a tárgyalásokat (beleértve a technikai feltételek biztosítását is), – elkészíti az eljárás valamennyi Kbt.-ben előírt dokumentumát (pl. ajánlati/ajánlattételi/részvételi felhívás, dokumentáció, összegezés, tájékoztató az eljárás eredményéről), – elkészíti a dokumentáció részét képező, az ajánlat részeként benyújtandó igazolások, nyilatkozatok jegyzékét, – gondoskodik az eljárás során keletkezett dokumentumok megfelelő tárolásáról, őrzéséről, – a szabályzatban hatáskörébe utalt közzétételi feladatokat ellátja (beleértve a Kbt. 17/C. §-a szerint nevesített honlapon történő közzétételről való gondoskodást is, melyet a felelős szervezeti egységnél kezdeményez), – elvégzi az ajánlattevők (közös ajánlattevők), továbbá a közbeszerzés értékének tíz százalékát meghaladó mértékben igénybe venni kívánt alvállalkozóiknak, valamint az erőforrást nyújtó szervezetnek a kizáró okokra vonatkozó vizsgálatát, e körben észrevételeit, javaslatait, megállapításait szakvéleménybe foglalja, – amennyiben a kizáró okok igazolása az ajánlatkérő által ingyenesen hozzáférhető, közhiteles, elektronikus nyilvántartásból elérhető, úgy köteles a nyilvántartásból megismerhető tényeket, adatokat e nyilvántartásból ellenőrizni, – amennyiben szabálytalanságot észlel a bizottság munkájában, köteles jelezni a bírálóbizottság elnökének, – a jelen MeHVM utasításban meghatározott módon és terjedelemben figyelemmel kíséri a Kbt. 20/A. §-a szerinti kartellezési tilalom betartását, és annak észlelése esetén jelzi ezt az utasításban megjelölt személynek. 2.2. Jogosult, illetve – a jelen MeHVM utasításban meghatározott esetekben – köteles szakvéleményt készíteni és felhívni a bírálóbizottság elnökén keresztül a döntéshozó figyelmét az eljárás során felmerült közbeszerzési szempontból lényeges megállapításairól (pl. tényekről, észrevételeiről, eljárási cselekményekhez, vagy az eljárás menetéhez kötődő javaslatairól). 2.3. A munkacsoport titkáraként ellátja mindazon feladatokat, amelyeket a jelen MeHVM utasítás a feladataként nevesít. Keltezés a bírálóbizottság elnökének aláírása A felelősségi rendet jóváhagyom: ……………………………………… a döntéshozó aláírása"
+    },
+    {
+      "provision_ref": "s5mellklet",
+      "section": "5. melléklet",
+      "title": "5. melléklet",
+      "content": "5. számú melléklet a 6/2009. (IV. 17.) MeHVM utasításhoz Nyilatkozat pénzügyi fedezet rendelkezésre állásáról Nyilatkozat pénzügyi fedezet rendelkezésre állásáról Alulírott …………………………. (ajánlatkérő neve), mint ………………………………… (szervezeti egység megnevezése) kötelezettségvállalásra jogosult vezetője nyilatkozom, hogy a(z) ……………………..…………. tárgyú közbeszerzési eljárás alapján megkötendő szerződés ellenértéke rendelkezésre áll. A beszerzés várható értéke: ……………………… (bruttó) ……………………… (nettó) + ……% áfa A közbeszerzési eljárás bírálóbizottságába – pénzügyi szakértelemmel rendelkező – tagot delegálni: kívánok/nem kívánok (a kívánt rész aláhúzandó). Amennyiben ilyen tagot delegálok, abban az esetben a delegált neve, beosztása, elérhetőségei: Budapest, …………………… …………………………………………… kötelezettségvállalásra jogosult vezető A fenti nyilatkozatban megjelölt beszerzés várható értéke alapján, a finanszírozásához szükséges pénzügyi fedezet a(z) …………………. évi költségvetésben a ………………………. helyen rendelkezésre áll. Budapest, …………………… …………………………………………… pénzügyi fedezetet igazoló vezető"
+    },
+    {
+      "provision_ref": "s6mellklet",
+      "section": "6. melléklet",
+      "title": "6. melléklet",
+      "content": "6. számú melléklet a 6/2009. (IV. 17.) MeHVM utasításhoz A kartelltilalom Kbt.-beli szabályozása, valamint a belső szabályzatok ezzel kapcsolatos módosítása I. A tételes jogi szabályozás és annak rövid elemzése A Kbt. módosítás 11. §-a az alábbi rendelkezéssel egészíti ki a Kbt.-t. 11. § A Kbt. a törvény második részét megelőzően a következő új 20/A. §-sal egészül ki: „20/A. § Amennyiben az ajánlatkérő az általa lefolytatott eljárás során, a tisztességtelen piaci magatartás és a versenykorlátozás tilalmáról szóló 1996. évi LVII. törvény (a továbbiakban: Tpvt.) 11. §-a, vagy az Európai Közösséget létrehozó szerződés 81. cikke szerinti rendelkezések nyilvánvaló megsértését észleli vagy azt alapos okkal feltételezi, köteles azt – a Tpvt. bejelentésre vagy panaszra vonatkozó szabályai szerint – jelezni a Gazdasági Versenyhivatalnak.” Tpvt. 11. §-a A gazdasági versenyt korlátozó megállapodás tilalma 11. § (1) Tilos a vállalkozások közötti megállapodás és összehangolt magatartás, valamint a vállalkozások társadalmi szervezetének, a köztestületnek, az egyesülésnek és más hasonló szervezetnek a döntése (a továbbiakban együtt: megállapodás), amely a gazdasági verseny megakadályozását, korlátozását vagy torzítását célozza, vagy ilyen hatást fejthet, illetve fejt ki. Nem minősül ilyennek a megállapodás, ha egymástól nem független vállalkozások között jön létre. (2) Ez a tilalom vonatkozik különösen: a) a vételi vagy az eladási árak, valamint az egyéb üzleti feltételek közvetlen vagy közvetett meghatározására; b) az előállítás, a forgalmazás, a műszaki fejlesztés vagy a befektetés korlátozására, vagy ellenőrzés alatt tartására; c) a beszerzési források felosztására, illetve a közülük való választás lehetőségének korlátozására, valamint a fogyasztók, üzletfelek meghatározott körének valamely áru beszerzéséből történő kizárására; d) a piac felosztására, az értékesítésből történő kizárásra, az értékesítési lehetőségek közötti választás korlátozására; e) f) a piacra lépés akadályozására; g) arra az esetre, ha azonos értékű vagy jellegű ügyletek tekintetében az üzletfeleket megkülönböztetik, ideértve olyan árak, fizetési határidők, megkülönböztető eladási vagy vételi feltételek vagy módszerek alkalmazását, amelyek egyes üzletfeleknek hátrányt okoznak a versenyben; h) a szerződéskötés olyan kötelezettségek vállalásától történő függővé tételére, amelyek természetüknél fogva, illetve a szokásos szerződési gyakorlatra figyelemmel nem tartoznak a szerződés tárgyához. Európai Közösséget létrehozó szerződés 81. cikke A versenyre, az adózásra és a jogszabályok közelítésére vonatkozó közös szabályok 1. fejezet Versenyszabályok 1. szakasz Vállalkozásokra vonatkozó szabályok: 81. cikk [III–161] (1) A közös piaccal összeegyeztethetetlen és tilos minden olyan vállalkozások közötti megállapodás, vállalkozások társulásai által hozott döntés és összehangolt magatartás, amely hatással lehet a tagállamok közötti kereskedelemre, és amelynek célja vagy hatása a közös piacon belüli verseny megakadályozása, korlátozása vagy torzítása, így különösen: a) a beszerzési vagy eladási árak, illetve bármely egyéb üzleti feltétel közvetlen vagy közvetett rögzítése; b) a termelés, az értékesítés, a műszaki fejlesztés vagy a befektetés korlátozása vagy ellenőrzése; c) a piacok vagy a beszerzési források felosztása; d) egyenértékű ügyletek esetén eltérő feltételek alkalmazása az üzletfelekkel szemben, ami által azok hátrányos versenyhelyzetbe kerülnek; e) a szerződések megkötésének függővé tétele olyan kiegészítő kötelezettségeknek a másik fél részéről történő vállalásától, amelyek sem természetüknél fogva, sem a kereskedelmi szokások szerint nem tartoznak a szerződés tárgyához. (2) Az e cikk alapján tiltott megállapodás vagy döntés semmis. (3) Az (1) bekezdés rendelkezéseinek alkalmazásától azonban el lehet tekinteni az olyan esetekben, amikor – a vállalkozások közötti megállapodás vagy megállapodások csoportja; – a vállalkozások társulásai által hozott döntés vagy döntések csoportja; – az összehangolt magatartás vagy összehangolt magatartások csoportja hozzájárul az áruk termelésének vagy forgalmazásának javításához, illetve a műszaki vagy gazdasági fejlődés előmozdításához, ugyanakkor lehetővé teszi a fogyasztók méltányos részesedését a belőle eredő előnyből anélkül, hogy: a) az érintett vállalkozásokra olyan korlátozásokat róna, amelyek e célok eléréséhez nem nélkülözhetetlenek; b) lehetővé tenné ezeknek a vállalkozásoknak, hogy a kérdéses áruk jelentős része tekintetében megszüntessék a versenyt. A Gazdasági Versenyhivatal értesítése A jogalkotó megköti az ajánlatkérő kezét, mivel előírja, hogy a bejelentésre vagy panaszra vonatkozó rendelkezések (Tpvt. 43/G–I. §) szerint köteles jelezni a kartellgyanút. Ez a gyakorlatban a Tpvt. 43/H. §-a alapján kiadott formanyomtatványt jelenti. http://www.gvh.hu/gvh/alpha?do=2&st=1&pg=77&m5_doc=4257&m81_act=1 Bejelentés és panasz 43/G. § (1) A 8., 10., 11.,21. és 24. § rendelkezéseibe, illetve az EK-szerződés 81. vagy 82. cikkébe, továbbá az Fttv.-ben meghatározott rendelkezésekbe ütköző, a Gazdasági Versenyhivatal hatáskörébe tartozó magatartás észlelése esetén bárki bejelentéssel vagy panasszal élhet a Gazdasági Versenyhivatalhoz. (2) A bejelentéssel és a panasszal kapcsolatos eljárás nem része a versenyfelügyeleti eljárásnak, e törvény X–XII. fejezetének rendelkezései – az 54. §-ban, az 55. § (5) bekezdésében, a 65. § (7) és (9) bekezdésében foglaltak kivételével – a bejelentéssel és a panasszal kapcsolatos eljárásban nem alkalmazhatók. 43/H. § (1) Bejelentés a Gazdasági Versenyhivatal által közzétett formátumú, megfelelően kitöltött űrlap Gazdasági Versenyhivatalhoz történő benyújtásával tehető. Az űrlap tartalmazza a bejelentés elbírálásához szükséges lényeges tényeket, így különösen a bejelentő és a bejelentett azonosításához szükséges adatokat, a feltételezett jogsértés megjelölését, a feltételezett jogsértést megvalósító konkrét magatartás leírását, az érintett piac meghatározásához szükséges alapvető információkat, a feltételezett jogsértés időtartamát, a feltételezett jogsértéssel kapcsolatos állításokat alátámasztó tényeket és bizonyítékokat. (2) A bejelentés alapján indult eljárásra a Ket. rendelkezései közül kizárólag a 17. §-t, a 26. §-t, a 40. §-t, az 58–59. §-t, a 68. § (2) bekezdését, a 72–73. §-t, a 78–79. §-t, a 81. §-t, a 122. §-t és a 153. §-t kell alkalmazni azzal, hogy ahol a Ket. ügyfelet említ, azon a bejelentőt kell érteni. (3) (4) A vizsgáló a bejelentés elbírálásához szükséges adatokat beszerezheti, az érintettek részvételével szóbeli meghallgatást tarthat, illetve más hatóság vagy szakértő közreműködésével tisztázza a bejelentés elbírálásához szükséges tényeket. Ha az eljárás során az érintett a közreműködést megtagadja, vele szemben sem eljárási bírság, sem egyéb kényszerítő eszköz nem alkalmazható. A korábbival azonos tartalmú, ugyanazon bejelentő által tett ismételt bejelentés elbírálása mellőzhető. (5) Aki a bejelentés vizsgálata során a Gazdasági Versenyhivatal számára adatot szolgáltat, kérheti az üzleti titok védelmére hivatkozással az iratokba való betekintés, valamint azokról történő másolat készítésének korlátozását. A kérelemről való döntéssel egyidejűleg a vizsgáló kötelezheti az adatszolgáltatót olyan iratváltozat elkészítésére, amely nem tartalmaz üzleti titkot. Az eljárás irataiba csak a bejelentő, és csak a (8) bekezdés b) pontja szerinti esetben, a bejelentés elbírálása tárgyában hozott végzés meghozatalát követően, jogorvoslati jogának gyakorlása érdekében tekinthet be, kivéve, ha a vizsgáló üzleti titok védelmére tekintettel az iratbetekintés korlátozását rendelte el. (6) Az eljárás költségeit az állam előlegezi és viseli. Ha versenyfelügyeleti eljárásban a bejelentésben megjelölt magatartás törvénybe ütköző volta megállapításra kerül, a bejelentési eljárás költségeit is köteles megtéríteni az, akinek törvénybe ütköző magatartását megállapították. (7) A bejelentő kérheti, hogy ne fedjék fel személyét, illetve azt a tényt, hogy bejelentéssel élt a Gazdasági Versenyhivatalhoz. (8) A bejelentés beérkezésétől számított hatvan napon belül a vizsgáló a) a 70. § (1) bekezdése alapján végzéssel vizsgálatot rendel el, vagy b) végzéssel megállapítja, hogy a bejelentésben foglalt, illetve a bejelentés alapján lefolytatott eljárásban beszerzett adatok alapján a versenyfelügyeleti eljárás megindításának a 70. § (1) bekezdésében meghatározott feltételei nem állnak fenn, c) amennyiben a bejelentésben foglaltakkal kapcsolatos eljárás más hatóság hatáskörébe tartozik, a bejelentést végzéssel átteszi a hatáskörrel és illetékességgel rendelkező hatóságnak. (9) A (8) bekezdés szerinti határidő indokolt esetben hatvan nappal meghosszabbítható. (10) A (8) bekezdés b) pontja szerinti végzést a bejelentővel minden esetben, a bejelentettel pedig akkor kell közölni, ha az eljárásban részt vett. (11) A (8) bekezdés b) pontja szerinti végzés ellen a bejelentő élhet a közléstől számított nyolc napon belül jogorvoslati kérelemmel, melyet a Fővárosi Bíróság közigazgatási nemperes eljárásban bírál el. Ha a bíróság álláspontja szerint a (8) bekezdés a) pontja alkalmazásának van helye, a vizsgálót a vizsgálat harminc napon belül történő elrendelésére kötelezi. 43/I. § (1) A 43/H. § (1) bekezdése szerinti bejelentésnek nem minősülő beadványt a Gazdasági Versenyhivatal panaszként köteles kezelni. A panasz tárgyában folytatott eljárásra e § rendelkezései irányadók. (2) Amennyiben a panaszban foglaltakkal kapcsolatban a Gazdasági Versenyhivatal eljárásra nem jogosult, köteles a panaszt tizenöt napon belül a hatáskörrel és illetékességgel rendelkező szerv részére áttenni, és erről a panaszost értesíteni. (3) A panaszt a beérkezésétől számított harminc napon belül kell elbírálni. Ha az elbírálás megalapozása előreláthatólag harminc napnál hosszabb ideig tart, a vizsgáló erről a panaszost az eredeti határidő lejárta előtt az elintézés várható időpontjának megjelölése mellett tájékoztatja. (4) A vizsgáló a panaszost és azt, akivel szemben panasszal éltek, meghallgathatja, valamint tőle további felvilágosítást és információt kérhet. A panaszos kérheti, hogy ne fedjék fel személyét, illetve azt a tényt, hogy panasszal élt a Gazdasági Versenyhivatalhoz. (5) A korábbival azonos tartalmú, ugyanazon panaszos által tett ismételt, továbbá a névtelen panasz elbírálása mellőzhető. (6) A panasz alapján – ha az alaposnak bizonyul – a vizsgáló dönt a szükséges intézkedések megtételéről, s erről a panaszost tájékoztatja. A Gazdasági Versenyhivatal (GVH) által kiadott útmutató Az ajánlattevők összejátszásának közbeszerző által érzékelhető, figyelmeztető jelei „Egyszerű, formai jelek: 1. az egyik pályázó saját pályázatával egy versenytársának pályázatát is benyújtja; 2. a versenytársak ajánlatai azonos hibákat (betűhibák, számítási hibák) tartalmaznak; 3. az ajánlatok formája, külalakja hasonló; 4. ugyanazok a kellékek, mellékletek, igazolások hiányoznak; 5. információ arról, hogy az ajánlattevők találkoztak vagy tárgyalást folytattak az ajánlattétel kidolgozásának időszakában; 6. az egyik ajánlattevő bizonyos ismereteket árul el tenderbontás előtt versenytársa pályázatáról. Tartalmi jelek: 1. egyes ajánlattevők teljesen egyforma, részleteiben is azonos árakat jelölnek meg; 2. számottevő különbség van a legalacsonyabb ár és a többi árajánlat között; 3. egy új szállító az eddigi árstruktúrától teljesen eltérő árajánlatot tesz és a többiek árajánlata is ehhez igazodik; 4. a pályázati kimutatások szerint a nyertes rendszerint ugyanaz a cég, a versenytársak alvállalkozói minőségben részt kapnak a projekt kivitelezésében; 5. a versenytársak egymást jelölik meg alvállalkozói minőségben (ez a magatartás a Kbt. szerint tilos); 6. tudomására jutott, hogy csak egyetlen pályázó lépett kapcsolatba azokkal a beszállítókkal, amelyek árai feltétlenül szükségesek voltak az ajánlat kidolgozásához. Ebben az esetben vagy információcsere van a versenytársak között, vagy ajánlatelfojtásról van szó, esetleg több színlelt ajánlat érkezik, a műszaki dokumentációt sok piaci szereplő igényli, majd csak egyetlen értékelhető ajánlat érkezik; 7. egy eredményes közbeszerzési eljárás után a nyertesnek kihirdetett ajánlattevő eláll a szerződéskötéstől annak ellenére, hogy így az ajánlati biztosítékot elveszíti – és ezáltal arra kényszeríti az ajánlatkérőt, hogy a soron következő ajánlattevővel kössön szerződést. Ez a jelenség különösen abban az esetben fordul elő, ha nem az ár az egyetlen vagy a legfontosabb döntési kritérium, ezért a versenytársak nem tudják egyértelműen előre kiszámítani, hogyan fog dönteni az ajánlatkérő. Ilyenkor a kartellező ajánlattevők egymástól alig eltérő árajánlatokat tesznek. Ezt követően, ha nem az általuk kiválasztott nyer, addig lépnek vissza, amíg a kijelölt versenytárs következik a sorban; 8. a helyi vállalkozás árajánlata ugyanakkora szállítási költséget tartalmaz, mint a messzebbről beszállítóké; 9. az ajánlattevők az iparági árjegyzékre hivatkozva magyarázzák, indokolják áraikat. A felsoroláshoz két megjegyzés kívánkozik: egyrészt a lista nem teljes, másrészt bármilyen árulkodó jel csak a kartell gyanúját, ennek nyomán a GVH-nak való bejelentést alapozza meg, az még nem tekinthető bizonyítéknak. Az ajánlattevők közötti kartellszerveződést vagy összehangolt magatartást a GVH vizsgálatának kell felderítenie.” II. Intézkedések a) Egyszerű jelek A munkacsoport bármely tagja, amennyiben közvetlenül észleli az 1., 5., 6. pontban nevesített magatartást, a KSzF KIG igazgatójának köteles írásban jelezni, aki megvizsgálja a bejelentést és intézkedik a döntéshozó, valamint egyidejűleg a GVH tájékoztatásáról, és jogosult dönteni az eljárás további menetéről. b) Formai, valamint tartalmi jelek Az egyszerű, formai jelek 2–4. pontja, valamint a tartalmi jelek (1–9. pont) kapcsán, a munkacsoport bármely tagja írásban felhívja a bírálóbizottság figyelmét a kartellgyanúra. A bírálóbizottság köteles kivizsgálnia a bejelentést és a bírálóbizottsági szakvéleményében, vagy feljegyzés formában, megállapításaival, döntési javaslatával együtt, a döntéshozót haladéktalanul tájékoztatni köteles. A GVH tájékoztatásáról a döntéshozó határoz, a bírálóbizottság megállapításai, javaslata alapján. Amennyiben elfogadja a bírálóbizottság döntési javaslatát, úgy döntését nem szükséges indokolnia. A döntéshozó jogosult dönteni az eljárás további menetéről. 1 Az utasítást a 38/2012. (XI. 16.) KIM utasítás 4. § b) pontja hatályon kívül helyezte 2012. november 17. napjával. 2 Az 5. pont a 8/2009. (VI. 26.) MeHVM utasítás 1. pontja szerint módosított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 3 A 6.1. alpont a 8/2009. (VI. 26.) MeHVM utasítás 2. pontja szerint módosított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 4 A 6.4. alpont a 8/2009. (VI. 26.) MeHVM utasítás 3. pontjával megállapított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 5 A 6.5. alpontot a 8/2009. (VI. 26.) MeHVM utasítás 3. pontja iktatta be. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 6 A 8. pont a 8/2009. (VI. 26.) MeHVM utasítás 4. pontjával megállapított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 7 A 8.1. pont a 8/2009. (VI. 26.) MeHVM utasítás 4. pontjával megállapított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 8 A 9. pont a 8/2009. (VI. 26.) MeHVM utasítás 5. pontjával megállapított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 9 A 9.1. alpontot a 8/2009. (VI. 26.) MeHVM utasítás 5. pontja iktatta be. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 10 A 12. pont bevezető szövegrésze a 8/2009. (VI. 26.) MeHVM utasítás 6. pontja szerint módosított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 11 A 16. pont a 8/2009. (VI. 26.) MeHVM utasítás 7. pontja szerint módosított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 12 A 16.1. alpont a 8/2009. (VI. 26.) MeHVM utasítás 7. pontjával megállapított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 13 A 18. pont k) alpontja a 8/2009. (VI. 26.) MeHVM utasítás 8. pontja szerint módosított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 14 A 18. pont n) alpontját a 8/2009. (VI. 26.) MeHVM utasítás 8. pontja iktatta be. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 15 A 20. pont a 8/2009. (VI. 26.) MeHVM utasítás 9. pontja szerint módosított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 16 A 20.1. alpont a 8/2009. (VI. 26.) MeHVM utasítás 10. pontjával megállapított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 17 A 21.2. alpont a 8/2009. (VI. 26.) MeHVM utasítás 11. pontja szerint módosított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 18 A 23. pont a 8/2009. (VI. 26.) MeHVM utasítás 12. pontjával megállapított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 19 A 27. pont a 8/2009. (VI. 26.) MeHVM utasítás 13. pontjával megállapított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 20 A 27.1. alpont a 8/2009. (VI. 26.) MeHVM utasítás 14. pontjával megállapított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 21 A 28.1. alpont a 8/2009. (VI. 26.) MeHVM utasítás 15. pontjával megállapított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 22 A 32. pont a 8/2009. (VI. 26.) MeHVM utasítás 16. pontjával megállapított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 23 A 33.1. alpont a 8/2009. (VI. 26.) MeHVM utasítás 17. pontja szerint módosított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 24 A 44. pont a 8/2009. (VI. 26.) MeHVM utasítás 18. pontjával megállapított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 25 A 44.1. alpont a 8/2009. (VI. 26.) MeHVM utasítás 19. pontjával megállapított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 26 A 45. pontot a 8/2009. (VI. 26.) MeHVM utasítás 21. pontja iktatta be. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 27 A 2. számú melléklet a 8/2009. (VI. 26.) MeHVM utasítás 20. pontja szerint módosított szöveg. E módosító utasítás 22. pontja alapján a rendelkezést a folyamatban lévő eljárásokban is megfelelően alkalmazni kell. 28 Döntéshozó esetén a kötelezettségvállalónak köteles bejelenteni."
     }
   ]
 }

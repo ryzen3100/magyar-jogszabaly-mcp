@@ -380,6 +380,128 @@ func TestParseHungarianHTML_NoMarkers(t *testing.T) {
 	}
 }
 
+// annexActHTML mirrors the new njt layout: numbered §s, then melléklet
+// blocks. The cimke headers carry the plain ME<n> jhId and are prefixed with
+// an <!--i--> comment, exactly like the corpus HTML — the comment defeats
+// class extraction, so the jhId is what opens the annex. Also present: a
+// mellekletBetusPont used as an ordinary lettered point INSIDE a § (njt
+// reuses the class there).
+func annexActHTML() string {
+	return `
+<div id="wrap"><span class="jhId" id="SZ1"></span><div class="szakasz"><span class="szakasz-jel">1. §</span><p>Az egyes rendelkezések felsorolása.</p><div id="b2" class="mellekletBetusPont"><p>A) Betűs pont a szakaszon belül.</p></div></div>
+<span class="jhId" id="SZ2"></span><div class="szakasz"><span class="szakasz-jel">2. §</span><p>A második rendelkezés szövege.</p></div>
+<span class="jhId" id="ME1"></span><!--i-->
+<div id="a1" class="mellekletCimke"><p>1. melléklet az 1. törvényhez<sup class="fnSup">[1]</sup></p></div>
+<span class="jhId" id="ME1@CI"></span><!--i-->
+<div id="a1c" class="mellekletTitle"><p>A melléklet címe</p></div>
+<span class="jhId" id="ME1@REI"></span><div class="mellekletTagolo"><p>I. Csoportosítás</p></div>
+<span class="jhId" id="ME1@MP1."></span><div class="mellekletPont"><p><span class="jel">1.</span> Első pont tartalma.</p></div>
+<span class="jhId" id="1469"></span><div class="szelet"><p>Kiegészítő szelet a mellékletben.</p></div>
+<span class="jhId" id="ME3A"></span><!--i-->
+<div id="a3a" class="mellekletCimke"><p>3/a. melléklet az 1. törvényhez</p></div>
+<span class="jhId" id="ME3A@MP1"></span><div class="mellekletPont"><p><span class="jel">1.</span> Betűjelzett melléklet pontja.</p></div>
+</div>`
+}
+
+func TestParseHungarianHTML_Annexes(t *testing.T) {
+	act := ActIndexEntry{ID: "act-annex-test", Title: "1. törvény", Status: "in_force", URL: "https://njt.hu/jogszabaly/2013-2-00-00"}
+	doc := ParseHungarianHTML(annexActHTML(), act)
+
+	wantSections := []string{"1", "2", "1. melléklet", "3/a. melléklet"}
+	if len(doc.Provisions) != len(wantSections) {
+		t.Fatalf("got %d provisions (%v), want %d", len(doc.Provisions), provisionSections(doc), len(wantSections))
+	}
+	for i, want := range wantSections {
+		if got := doc.Provisions[i].Section; got != want {
+			t.Errorf("provision %d section = %q, want %q", i, got, want)
+		}
+	}
+
+	// Provision refs follow the toProvisionRef shape (ASCII alnum only).
+	if got := doc.Provisions[2].ProvisionRef; got != "s1mellklet" {
+		t.Errorf("annex ref = %q, want s1mellklet", got)
+	}
+	if got := doc.Provisions[3].ProvisionRef; got != "s3amellklet" {
+		t.Errorf("lettered annex ref = %q, want s3amellklet", got)
+	}
+
+	// Annex titles carry the melléklet label, not a § suffix.
+	if got := doc.Provisions[2].Title; got != "1. melléklet" {
+		t.Errorf("annex title = %q, want %q", got, "1. melléklet")
+	}
+
+	// The annex provision holds header + title + tagolo + pont + the plain
+	// szelet fragment; the header keeps the printed document reference.
+	wantM1 := "1. melléklet az 1. törvényhez A melléklet címe I. Csoportosítás 1. Első pont tartalma. Kiegészítő szelet a mellékletben."
+	if got := doc.Provisions[2].Content; got != wantM1 {
+		t.Errorf("annex 1 content =\n %q\nwant\n %q", got, wantM1)
+	}
+	wantM3a := "3/a. melléklet az 1. törvényhez 1. Betűjelzett melléklet pontja."
+	if got := doc.Provisions[3].Content; got != wantM3a {
+		t.Errorf("annex 3/a content =\n %q\nwant\n %q", got, wantM3a)
+	}
+
+	// The §s keep only their own text — no annex bleed into the last §.
+	if got := doc.Provisions[1].Content; got != "2. § A második rendelkezés szövege." {
+		t.Errorf("last § content leaked annex text: %q", got)
+	}
+	// The orphan mellekletBetusPont stays inside its § (legacy routing).
+	if !strings.Contains(doc.Provisions[0].Content, "A) Betűs pont a szakaszon belül.") {
+		t.Errorf("in-§ lettered point lost: %q", doc.Provisions[0].Content)
+	}
+}
+
+func provisionSections(doc seed.DocumentSeed) []string {
+	sections := make([]string, 0, len(doc.Provisions))
+	for _, p := range doc.Provisions {
+		sections = append(sections, p.Section)
+	}
+	return sections
+}
+
+// TestParseHungarianHTML_AnnexOnlyLegacyFallback covers the határozat shape
+// whose only structure is an annex (the promulgated act lives in "1.
+// melléklet"): the operative határozat-pont and preambulum must survive via
+// the legacy fallback — annex provisions do not disable it — and the annex
+// text must not be duplicated into the LEGACY provisions.
+func TestParseHungarianHTML_AnnexOnlyLegacyFallback(t *testing.T) {
+	html := `
+<div id="wrap"><span class="jhId" id="PR"></span><div class="preambulum"><p>A Magyarország Kormánya rendeletet alkot.</p></div>
+<span class="jhId" id="HP1"></span><div class="hatpontNyito"><p>1. A Kormány elrendeli e rendelet kihirdetését.</p></div>
+<span class="jhId" id="ME1"></span><!--i-->
+<div class="mellekletCimke"><p>1. melléklet a rendelethez</p></div>
+<span class="jhId" id="ME1@MP1."></span><div class="mellekletPont"><p><span class="jel">1.</span> A melléklet egyetlen pontja.</p></div>
+</div>`
+	doc := ParseHungarianHTML(html, ActIndexEntry{ID: "x", Title: "T", Status: "in_force"})
+
+	wantSections := []string{"1", "2", "1. melléklet"}
+	if len(doc.Provisions) != len(wantSections) {
+		t.Fatalf("got %d provisions (%v), want %d", len(doc.Provisions), provisionSections(doc), len(wantSections))
+	}
+	for i, want := range wantSections {
+		if got := doc.Provisions[i].Section; got != want {
+			t.Errorf("provision %d section = %q, want %q", i, got, want)
+		}
+	}
+	// The legacy provisions carry the pre-annex operative text (one LEGACY
+	// provision per block)...
+	if got := doc.Provisions[0].Content; got != "A Magyarország Kormánya rendeletet alkot." {
+		t.Errorf("legacy content 1 = %q", got)
+	}
+	if got := doc.Provisions[1].Content; got != "1. A Kormány elrendeli e rendelet kihirdetését." {
+		t.Errorf("legacy content 2 = %q", got)
+	}
+	// ...the annex provision holds the annex text...
+	wantM1 := "1. melléklet a rendelethez 1. A melléklet egyetlen pontja."
+	if got := doc.Provisions[2].Content; got != wantM1 {
+		t.Errorf("annex content = %q, want %q", got, wantM1)
+	}
+	// ...and nothing is duplicated across the provisions.
+	if strings.Contains(doc.Provisions[0].Content+doc.Provisions[1].Content, "melléklet egyetlen pontja") {
+		t.Errorf("annex text leaked into the legacy provisions")
+	}
+}
+
 func TestExtractOfficialTitle(t *testing.T) {
 	tests := []struct {
 		name string

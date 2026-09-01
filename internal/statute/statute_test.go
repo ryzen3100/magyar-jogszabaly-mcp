@@ -13,7 +13,10 @@ import (
 // (doc-inforce/doc-amended/doc-repealed/doc-future, provisions p1(s1),
 // p2(s2) under doc-inforce, p3(s3) under doc-amended). One extra doc
 // ("hu-law-2012-1-00-00") exercises the Hungarian-formal conversion path;
-// "doc-percent" (a % in its title) exercises LIKE-wildcard escaping.
+// "doc-percent" (a % in its title) exercises LIKE-wildcard escaping. Two
+// ministry rendeletek share the year/number pair 1/2017 to prove the decree
+// shorthand refuses ambiguous input; the Korm. rendelet carries an annex
+// provision stored under the parser's "4. melléklet" label.
 func newTestDB(t *testing.T) *sql.DB {
 	t.Helper()
 	db, err := sql.Open("sqlite", ":memory:")
@@ -50,7 +53,12 @@ CREATE TABLE legal_provisions (
 ('doc-repealed', 'Repealed Act', 'RA', 'Repealed Act EN', 'repealed'),
 ('doc-future', 'Future Act', 'FA', 'Future Act EN', 'not_yet_in_force'),
 ('hu-law-2012-1-00-00', '2012. évi I. törvény (canonical)', 'T2012', 'Act I of 2012 EN', 'in_force'),
-('doc-percent', '100% Guarantee Act', '100P', '100 Percent Act EN', 'in_force');`
+('doc-percent', '100% Guarantee Act', '100P', '100 Percent Act EN', 'in_force'),
+('hu-law-2009-210-20-22', '210/2009. (IX. 29.) Korm. rendelet a kereskedelmi tevékenységek végzésének feltételeiről', 'Kertv. r.', NULL, 'in_force'),
+('hu-law-2017-1-20-22', '1/2017. (II. 6.) FM rendelet a növényvédő szerek engedélyezéséről', NULL, NULL, 'in_force'),
+('hu-law-2017-1-20-23', '1/2017. (II. 7.) EMMI rendelet egyes egészségügyi kérdésekről', NULL, NULL, 'in_force'),
+('hu-law-2017-457-20-22', '457/2017. (XI. 8.) Korm. rendelet a kereskedelmi tevékenységek végzésének feltételeiről szóló 210/2009. (IX. 29.) Korm. rendelet módosításáról', NULL, NULL, 'in_force'),
+('hu-law-2016-73-20-22', '73/2016. (III. 31.) Korm. rendelet az egyházi jogi személyek vagyongazdálkodásának szabályairól', NULL, NULL, 'in_force');`
 	if _, err := db.Exec(docs); err != nil {
 		t.Fatalf("seed docs: %v", err)
 	}
@@ -58,7 +66,8 @@ CREATE TABLE legal_provisions (
 	const provisions = `INSERT INTO legal_provisions (id, document_id, provision_ref, section, title, content) VALUES
 (1, 'doc-inforce', 's1', '1', '1. §', 'A személyes adat kezelése és elektronikus aláírás szabályai.'),
 (2, 'doc-inforce', 's2', '2', '2. §', 'Kiberbiztonsági intézkedések és információs rendszer védelem.'),
-(3, 'doc-amended', 's3', '3', '3. §', 'Üzleti titok és létfontosságú infrastruktúra védelme.');`
+(3, 'doc-amended', 's3', '3', '3. §', 'Üzleti titok és létfontosságú infrastruktúra védelme.'),
+(4, 'hu-law-2009-210-20-22', 's4mellklet', '4. melléklet', '4. melléklet', 'Vendéglátóhely üzlettípusok: Étterem, Büfé, Cukrászda.');`
 	if _, err := db.Exec(provisions); err != nil {
 		t.Fatalf("seed provisions: %v", err)
 	}
@@ -141,6 +150,23 @@ func TestResolveDocumentID(t *testing.T) {
 		{"percent matches literal percent in title", "%", "doc-percent"},
 		{"escaped percent matches its document", "100%", "doc-percent"},
 		{"underscore stays literal, not a single-char wildcard", "In_Force", ""},
+		// Decree identifier shorthand: corpus titles carry the promulgation
+		// date between the year/number and the type, so the plain substring
+		// pass misses and the decree pass resolves instead.
+		{"decree shorthand without date", "210/2009. Korm. rendelet", "hu-law-2009-210-20-22"},
+		{"decree shorthand with date", "210/2009. (IX. 29.) Korm. rendelet", "hu-law-2009-210-20-22"},
+		{"ministry decree shorthand", "1/2017. FM rendelet", "hu-law-2017-1-20-22"},
+		{"ministry decree shorthand with date", "1/2017. (II. 7.) EMMI rendelet", "hu-law-2017-1-20-23"},
+		{"shared year/number without type is ambiguous", "1/2017. rendelet", ""},
+		{"decree year/number not in corpus", "73/2016. (XII. 2.) Korm. rendelet", ""},
+		// The year/number pair exists, but the typed promulgation date does
+		// not match the title — the citation is factually wrong and must not
+		// silently resolve to the same-number decree with another date.
+		{"typed date mismatch does not resolve", "73/2016. (XII. 2.) Korm. rendelet", ""},
+		{"decree shorthand mid-sentence does not resolve", "lásd a 210/2009. Korm. rendeletet", ""},
+		// A decree that only CITES 210/2009 mid-title must not count as a
+		// second hit: the identifier pass anchors at the title start.
+		{"amendment decree citing the identifier is not a competing hit", "210/2009. Korm. rendelet", "hu-law-2009-210-20-22"},
 		{"no match", "non-existent statute", ""},
 	}
 	for _, tt := range tests {
@@ -202,6 +228,13 @@ func TestSectionRefCandidates(t *testing.T) {
 		// Grammar miss: typed provision_ref kept as exact candidates.
 		{"s13a", []string{"13a", "s13a"}},
 		{"zzz", []string{"zzz", "szzz"}},
+		// Annex refs: the section label the parser stores plus the ref form
+		// (lowercased ASCII alnum after the "s" marker).
+		{"4. melléklet", []string{"4. melléklet", "s4mellklet"}},
+		{"4 melléklet", []string{"4. melléklet", "s4mellklet"}},
+		{"4.melléklet", []string{"4. melléklet", "s4mellklet"}},
+		{"3/A. melléklet", []string{"3/A. melléklet", "s3amellklet"}},
+		{"15. MELLÉKLET", []string{"15. melléklet", "s15mellklet"}},
 		// No usable reference at all.
 		{"", nil},
 		{"§", nil},

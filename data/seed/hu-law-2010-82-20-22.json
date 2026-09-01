@@ -77,7 +77,37 @@
       "provision_ref": "s13",
       "section": "13",
       "title": "13. §",
-      "content": "13. § Az EBKM kiszámításához a következő képletet kell alkalmazni, ha a lejáratig hátralévő futamidő 365 napnál kevesebb: Elhelyezett betét = ahol n: a kamatfizetések száma, r: az EBKM értéke, ti: a betételhelyezés napjától az i-edik kifizetésig hátralévő napok száma, (k+bv)i: az i-edik kifizetéskor kifizetett kamat és betétösszeg visszafizetés összege. Az EBKM kiszámításához a következő képletet kell alkalmazni, ha a lejáratig hátralévő futamidő legalább 365 nap: Elhelyezett betét = ahol n: a kamatfizetések száma, r: az EBKM értéke, ti: a betételhelyezés napjától az i-edik kifizetésig hátralévő napok száma, (k+bv)i: az i-edik kifizetéskor kifizetett kamat és betétösszeg visszafizetés összege. Az EBKM számításához a következő képletet kell alkalmazni, ha a betét befizetése több részletben történik: n = a betétbefizetések száma, Bi = az i-edik betétbefizetés összege, ti = az első betételhelyezés napjától az i-edik betétbefizetésig hátralévő napok száma, r = az EBKM értéke, m = a kifizetések száma, tj = az első betételhelyezés napjától a j-edik kifizetésig hátralévő napok száma, Kj = a j-edik kifizetés összege. Az EHM kiszámításához a következő képletet kell alkalmazni, ha a lejáratig hátralévő futamidő 365 napnál kevesebb: Eladási ár = ahol: n: a kamatfizetések száma, r: az EHM értéke, ti: a vásárlás napjától az i-edik kifizetésig hátralévő napok száma, (k+tt)i: az i-edik kifizetéskor kifizetett kamat és tőketörlesztés összege. Az EHM kiszámításához a következő képletet kell alkalmazni, ha a lejáratig hátralévő futamidő legalább 365 nap: Eladási ár = ahol: n: a kamatfizetések száma, r: az EHM értéke, ti: a vásárlás napjától az i-edik kifizetésig hátralévő napok száma, (k+tt)i: az i-edik kifizetéskor kifizetett kamat és tőketörlesztés összege. 1 A 2. § a) pontja az 537/2013. (XII. 30.) Korm. rendelet 55. §-ával megállapított szöveg. 2 A 4. § (4) bekezdése a 316/2019. (XII. 18.) Korm. rendelet 12. §-ával megállapított szöveg. 3 A 6. § (1) bekezdés nyitó szövegrésze a 274/2022. (VII. 29.) Korm. rendelet 2. § (2) bekezdése szerint módosított szöveg. 4 A 9. § (1) bekezdés nyitó szövegrésze a 274/2022. (VII. 29.) Korm. rendelet 2. § (1) bekezdése szerint módosított szöveg. 5 A 11–12. §-t a 13. § (1) bekezdése hatályon kívül helyezte. 6 A 13. §-t a (2) bekezdés hatályon kívül helyezte."
+      "content": "13. §"
+    },
+    {
+      "provision_ref": "s1mellklet",
+      "section": "1. melléklet",
+      "title": "1. melléklet",
+      "content": "1. melléklet a 82/2010. (III. 25.) Korm. rendelethez Az EBKM kiszámításához a következő képletet kell alkalmazni, ha a lejáratig hátralévő futamidő 365 napnál kevesebb: Elhelyezett betét = ahol n: a kamatfizetések száma, r: az EBKM értéke, ti: a betételhelyezés napjától az i-edik kifizetésig hátralévő napok száma, (k+bv)i: az i-edik kifizetéskor kifizetett kamat és betétösszeg visszafizetés összege."
+    },
+    {
+      "provision_ref": "s2mellklet",
+      "section": "2. melléklet",
+      "title": "2. melléklet",
+      "content": "2. melléklet a 82/2010. (III. 25.) Korm. rendelethez Az EBKM kiszámításához a következő képletet kell alkalmazni, ha a lejáratig hátralévő futamidő legalább 365 nap: Elhelyezett betét = ahol n: a kamatfizetések száma, r: az EBKM értéke, ti: a betételhelyezés napjától az i-edik kifizetésig hátralévő napok száma, (k+bv)i: az i-edik kifizetéskor kifizetett kamat és betétösszeg visszafizetés összege."
+    },
+    {
+      "provision_ref": "s3mellklet",
+      "section": "3. melléklet",
+      "title": "3. melléklet",
+      "content": "3. melléklet a 82/2010. (III. 25.) Korm. rendelethez Az EBKM számításához a következő képletet kell alkalmazni, ha a betét befizetése több részletben történik: n = a betétbefizetések száma, Bi = az i-edik betétbefizetés összege, ti = az első betételhelyezés napjától az i-edik betétbefizetésig hátralévő napok száma, r = az EBKM értéke, m = a kifizetések száma, tj = az első betételhelyezés napjától a j-edik kifizetésig hátralévő napok száma, Kj = a j-edik kifizetés összege."
+    },
+    {
+      "provision_ref": "s4mellklet",
+      "section": "4. melléklet",
+      "title": "4. melléklet",
+      "content": "4. melléklet a 82/2010. (III. 25.) Korm. rendelethez Az EHM kiszámításához a következő képletet kell alkalmazni, ha a lejáratig hátralévő futamidő 365 napnál kevesebb: Eladási ár = ahol: n: a kamatfizetések száma, r: az EHM értéke, ti: a vásárlás napjától az i-edik kifizetésig hátralévő napok száma, (k+tt)i: az i-edik kifizetéskor kifizetett kamat és tőketörlesztés összege."
+    },
+    {
+      "provision_ref": "s5mellklet",
+      "section": "5. melléklet",
+      "title": "5. melléklet",
+      "content": "5. melléklet a 82/2010. (III. 25.) Korm. rendelethez Az EHM kiszámításához a következő képletet kell alkalmazni, ha a lejáratig hátralévő futamidő legalább 365 nap: Eladási ár = ahol: n: a kamatfizetések száma, r: az EHM értéke, ti: a vásárlás napjától az i-edik kifizetésig hátralévő napok száma, (k+tt)i: az i-edik kifizetéskor kifizetett kamat és tőketörlesztés összege. 1 A 2. § a) pontja az 537/2013. (XII. 30.) Korm. rendelet 55. §-ával megállapított szöveg. 2 A 4. § (4) bekezdése a 316/2019. (XII. 18.) Korm. rendelet 12. §-ával megállapított szöveg. 3 A 6. § (1) bekezdés nyitó szövegrésze a 274/2022. (VII. 29.) Korm. rendelet 2. § (2) bekezdése szerint módosított szöveg. 4 A 9. § (1) bekezdés nyitó szövegrésze a 274/2022. (VII. 29.) Korm. rendelet 2. § (1) bekezdése szerint módosított szöveg. 5 A 11–12. §-t a 13. § (1) bekezdése hatályon kívül helyezte. 6 A 13. §-t a (2) bekezdés hatályon kívül helyezte."
     }
   ]
 }

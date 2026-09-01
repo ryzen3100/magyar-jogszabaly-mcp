@@ -204,6 +204,51 @@ func TestBuild(t *testing.T) {
 	}
 }
 
+// TestBuildEUReferenceInsertsAllSucceed reproduces the corpus finding that
+// two EU-reference inserts failed (hu-law-2007-7-20-1u:s39 and
+// hu-law-2022-4-20-8l:s39 → regulation:2005/302): the uppercase citation
+// community "EURATOM" violated the eu_documents CHECK, the OR-IGNORE insert
+// silently dropped the row, and the reference insert then failed on the
+// foreign key. With the community normalized at extraction, the same citation
+// must build end to end: no failure in the log, the eu_documents row present
+// with the canonical community, and the reference linked.
+func TestBuildEUReferenceInsertsAllSucceed(t *testing.T) {
+	t.Parallel()
+	dir := t.TempDir()
+	seedDir := filepath.Join(dir, "seed")
+	if err := os.MkdirAll(seedDir, 0o755); err != nil {
+		t.Fatal(err)
+	}
+	writeJSON(t, filepath.Join(seedDir, "001-act.json"), map[string]any{
+		"id": "hu-law-2007-7-20-1u", "title": "Euratom törvény", "type": "statute", "status": "in_force",
+		"provisions": []map[string]any{
+			{"provision_ref": "s39", "section": "39",
+				"content": "az Euratom biztosítéki rendelkezéseinek alkalmazásáról szóló COMMISSION REGULATION 302/2005/EURATOM of 28 February 2005 3. cikke"},
+		},
+	})
+
+	outPath := filepath.Join(dir, "built.db")
+	var logs strings.Builder
+	if err := Build(outPath, seedDir, filepath.Join(dir, "missing-mappings.json"),
+		func(format string, args ...any) { fmt.Fprintf(&logs, format+"\n", args...) }); err != nil {
+		t.Fatalf("Build: %v", err)
+	}
+
+	db, err := sql.Open("sqlite", "file:"+outPath+"?mode=ro")
+	if err != nil {
+		t.Fatal(err)
+	}
+	defer db.Close()
+
+	wantRow(t, db, `SELECT community, year, number FROM eu_documents WHERE id = 'regulation:2005/302'`, "Euratom", 2005, 302)
+	if n := queryInt(t, db, `SELECT COUNT(*) FROM eu_references WHERE eu_document_id = 'regulation:2005/302'`); n != 1 {
+		t.Errorf("eu_references for regulation:2005/302 = %d, want 1", n)
+	}
+	if strings.Contains(logs.String(), "failed to insert") {
+		t.Errorf("build log reports insert failures:\n%s", logs.String())
+	}
+}
+
 func TestBuildMissingSeedDir(t *testing.T) {
 	dir := t.TempDir()
 	outPath := filepath.Join(dir, "built.db")

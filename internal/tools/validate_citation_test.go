@@ -1,6 +1,7 @@
 package tools
 
 import (
+	"database/sql"
 	"strings"
 	"testing"
 
@@ -36,6 +37,14 @@ func TestParseCitation(t *testing.T) {
 		{name: "section last s dot", citation: "In Force Act s. 3", documentRef: "In Force Act", sectionRef: "3"},
 		{name: "section last Section word", citation: "In Force Act Section 3", documentRef: "In Force Act", sectionRef: "3"},
 		{name: "plain document", citation: "Infotörvény", documentRef: "Infotörvény"},
+		{name: "decree shorthand with section", citation: "210/2009. Korm. rendelet 1. §",
+			documentRef: "210/2009. Korm. rendelet", sectionRef: "1", structured: true},
+		{name: "decree shorthand with date and section", citation: "210/2009. (IX. 29.) Korm. rendelet 1. §",
+			documentRef: "210/2009. (IX. 29.) Korm. rendelet", sectionRef: "1", structured: true},
+		{name: "decree full title with section", citation: "210/2009. (IX. 29.) Korm. rendelet a kereskedelmi tevékenységek végzésének feltételeiről 1. §",
+			documentRef: "210/2009. (IX. 29.) Korm. rendelet a kereskedelmi tevékenységek végzésének feltételeiről", sectionRef: "1", structured: true},
+		{name: "decree document only stays unstructured", citation: "210/2009. Korm. rendelet",
+			documentRef: "210/2009. Korm. rendelet"},
 		{name: "empty is nil", citation: "   ", wantNil: true},
 		{name: "trims whitespace", citation: "  Infotörvény s 3  ", documentRef: "Infotörvény", sectionRef: "3"},
 	}
@@ -241,5 +250,73 @@ func TestValidateCitationMissingRequiredArg(t *testing.T) {
 	_, _, err := ValidateCitation(t.Context(), db, testArgs(t, `{}`))
 	if err == nil || err.Error() != `missing required argument "citation"` {
 		t.Errorf("err = %v, want missing required argument", err)
+	}
+}
+
+// mustInsert adds fixture rows to a storetest DB for the decree/annex tests.
+func mustInsert(t *testing.T, db *sql.DB, query string, args ...any) {
+	t.Helper()
+	if _, err := db.Exec(query, args...); err != nil {
+		t.Fatalf("seed %q: %v", query, err)
+	}
+}
+
+// decreeTestFixtures mirrors the real corpus shapes: a Korm. rendelet whose
+// title carries the promulgation date, a plain § and an annex provision
+// stored the way the ingest parser emits them (section "4. melléklet",
+// provision_ref "s4mellklet").
+func decreeTestFixtures(t *testing.T, db *sql.DB) {
+	t.Helper()
+	mustInsert(t, db, `INSERT INTO legal_documents (id, type, title, status) VALUES
+		('hu-law-2009-210-20-22', 'statute',
+		 '210/2009. (IX. 29.) Korm. rendelet a kereskedelmi tevékenységek végzésének feltételeiről', 'in_force')`)
+	mustInsert(t, db, `INSERT INTO legal_provisions (document_id, provision_ref, section, title, content) VALUES
+		('hu-law-2009-210-20-22', 's1', '1', '1. §', 'A kereskedelmi tevékenység folytatása bejelentéshez kötött.'),
+		('hu-law-2009-210-20-22', 's4mellklet', '4. melléklet', '4. melléklet',
+		 'Vendéglátóhely üzlettípusok és azok jellemzői: Étterem, Büfé, Cukrászda.')`)
+}
+
+func TestValidateCitationDecreeSection(t *testing.T) {
+	t.Parallel()
+	db := storetest.NewTestDb(t)
+	decreeTestFixtures(t, db)
+
+	tests := []struct {
+		name      string
+		citation  string
+		wantValid bool
+		wantRef   string
+	}{
+		// The PR #20 follow-up: decree + section citations did not resolve at
+		// all while document-only ones did.
+		{name: "decree shorthand with section", citation: "210/2009. Korm. rendelet 1. §", wantValid: true, wantRef: "s1"},
+		{name: "decree shorthand with date and section", citation: "210/2009. (IX. 29.) Korm. rendelet 1. §", wantValid: true, wantRef: "s1"},
+		{name: "decree full title with section", citation: "210/2009. (IX. 29.) Korm. rendelet a kereskedelmi tevékenységek végzésének feltételeiről 1. §", wantValid: true, wantRef: "s1"},
+		// The proven-nonexistent decree must answer not-found, not guess
+		// (zero-hallucination contract), and so must a missing section.
+		{name: "nonexistent decree number", citation: "73/2016. (XII. 2.) Korm. rendelet 2. §", wantValid: false},
+		{name: "existing decree, missing section", citation: "210/2009. (IX. 29.) Korm. rendelet 99. §", wantValid: false},
+	}
+	for _, tc := range tests {
+		t.Run(tc.name, func(t *testing.T) {
+			t.Parallel()
+			results, _, err := ValidateCitation(t.Context(), db, testArgs(t, `{"citation": "`+tc.citation+`"}`))
+			if err != nil {
+				t.Fatal(err)
+			}
+			res, ok := results.(ValidateCitationResult)
+			if !ok {
+				t.Fatalf("unexpected results type %T", results)
+			}
+			if res.Valid != tc.wantValid {
+				t.Fatalf("valid = %v (warnings %#v), want %v", res.Valid, res.Warnings, tc.wantValid)
+			}
+			if tc.wantRef != "" && res.ProvisionRef != tc.wantRef {
+				t.Errorf("provision_ref = %q, want %q", res.ProvisionRef, tc.wantRef)
+			}
+			if res.DocumentID != "" && res.DocumentID != "hu-law-2009-210-20-22" {
+				t.Errorf("document_id = %q", res.DocumentID)
+			}
+		})
 	}
 }

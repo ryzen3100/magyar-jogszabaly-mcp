@@ -185,6 +185,38 @@ func TestExtractEUReferencesDistinctArticles(t *testing.T) {
 	}
 }
 
+// TestExtractEUReferencesEuratomCommunity pins the community normalization:
+// the schema CHECK stores 'Euratom' canonically, while citations spell it
+// "EURATOM". The raw uppercase form made the eu_documents insert (OR IGNORE)
+// silently drop the row and the eu_reference insert then failed on the
+// foreign key — the two swallowed build-db failures fixed here.
+func TestExtractEUReferencesEuratomCommunity(t *testing.T) {
+	t.Parallel()
+	tests := []struct {
+		name     string
+		text     string
+		wantComm string
+	}{
+		{"uppercase citation form", "COMMISSION REGULATION 302/2005/EURATOM of 28 February 2005", "Euratom"},
+		{"already canonical", "Regulation (Euratom) 302/2005", "Euratom"},
+		{"EU untouched", "Regulation (EU) 2016/679", "EU"},
+		{"EC untouched", "Directive 05/29/EC", "EC"},
+		{"EEC untouched", "Directive 78/660/EEC", "EEC"},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			t.Parallel()
+			got := ExtractEUReferences(tt.text)
+			if len(got) != 1 {
+				t.Fatalf("len(got) = %d, want 1: %#v", len(got), got)
+			}
+			if got[0].Community != tt.wantComm {
+				t.Errorf("Community = %q, want %q", got[0].Community, tt.wantComm)
+			}
+		})
+	}
+}
+
 func TestCollapseSpace(t *testing.T) {
 	tests := []struct {
 		name string

@@ -602,142 +602,22 @@
       "content": "35."
     },
     {
-      "provision_ref": "s100",
-      "section": "100",
-      "title": "100",
-      "content": "A bányászati jog megszerzése esetén fizetendő ellenérték legkisebb összege = A*B*C*D, ahol A = a bányatelekben megnyilvánuló bányászati jog kapcsán lefolytatott megelőző bányafelügyeleti eljárások igazgatási szolgáltatási díjainak, az eljárások jogszabályban foglalt követelményeiként benyújtott műszaki dokumentációk elkészítésének, valamint az elvégzett kutatási tevékenységeknek az összesített becsült átlagos költsége, B = a bányatelekben foglalt kitermelhető ásványi nyersanyag mennyiségi és minőségi paraméterei figyelembevételével, a mellékelt számítási segédlet alapján megállapított értéknövelő szorzó (1,0 ≤ B ≤ 10,0), C = a bányászati jogot opcionálisan terhelő, a bányatelek területén végzett korábbi bányászati tevékenységből eredő, tájrendezéssel, környezet- és természetvédelemmel kapcsolatos kötelezettségek függvényében megállapított értékcsökkentő szorzó (0,1 ≤ C ≤ 1,0), D = a bányászati tevékenység jogszerű végzésének lehetőségét befolyásoló külső tényezők figyelembevételével megállapított értékcsökkentő szorzó (0,1 ≤ D ≤ 1,0). A „B” szorzó számítási segédlete Da) nemfémes ásványi nyersanyagok Ásványi nyersanyag nyilvántartás szerinti nyersanyagfőcsoport Kitermelhető vagyon A minőséget is figyelembe vevő szorzó Ásványbányászati nyersanyagok (m3) < 200 000 1–2 ≥ 200 000 és ≤ 500 000 3–4 ≥ 500 000 és ≤ 1 000 000 5–7 > 1 000 000 8–10 Tőzeg, lápföld, lápimész (m3) < 50 000 1–2 ≥ 50 000 és ≤ 300 000 3–4 ≥ 300 000 és ≤ 800 000 6–7 > 800 000 8–10 Cement- és mészipari nyersanyagok (m3) < 250 000 1–3 ≥ 250 000 és ≤ 1 000 000 4–7 > 1 000 000 8–10 Építő- és díszítőkőipari nyersanyagok (m3) < 300 000 1–3 ≥ 300 000 és ≤ 3 000 000 4–7 > 3 000 000 8–10 Építőipari homok, kavics, egyéb (m3) < 200 000 1–2 ≥ 200 000 és ≤ 5 000 000 3–4 ≥ 500 000 és ≤ 1 000 000 5–7 > 1 000 000 8–10 ≥ 1 000 000 és ≤ 5 000 000 11–13 5 000 000 ≤ 14–20 Kerámiaipari nyersanyagok (m3) < 100 000 1–2 ≥ 100 000 és ≤ 500 000 3–5 > 500 000 > 800 000 6–8 > 800 000 9–10 Db) további nyersanyagokra egyedi elbírálás szerint. Megjegyzés:"
+      "provision_ref": "s1mellklet",
+      "section": "1. melléklet",
+      "title": "1. melléklet",
+      "content": "1. melléklet a 3/2020. (IX. 24.) MBFSZ utasításhoz A bányászati jog megszerzése esetén fizetendő ellenérték legkisebb összege = A*B*C*D, ahol A = a bányatelekben megnyilvánuló bányászati jog kapcsán lefolytatott megelőző bányafelügyeleti eljárások igazgatási szolgáltatási díjainak, az eljárások jogszabályban foglalt követelményeiként benyújtott műszaki dokumentációk elkészítésének, valamint az elvégzett kutatási tevékenységeknek az összesített becsült átlagos költsége, B = a bányatelekben foglalt kitermelhető ásványi nyersanyag mennyiségi és minőségi paraméterei figyelembevételével, a mellékelt számítási segédlet alapján megállapított értéknövelő szorzó (1,0 ≤ B ≤ 10,0), C = a bányászati jogot opcionálisan terhelő, a bányatelek területén végzett korábbi bányászati tevékenységből eredő, tájrendezéssel, környezet- és természetvédelemmel kapcsolatos kötelezettségek függvényében megállapított értékcsökkentő szorzó (0,1 ≤ C ≤ 1,0), D = a bányászati tevékenység jogszerű végzésének lehetőségét befolyásoló külső tényezők figyelembevételével megállapított értékcsökkentő szorzó (0,1 ≤ D ≤ 1,0). A „B” szorzó számítási segédlete Da) nemfémes ásványi nyersanyagok Ásványi nyersanyag nyilvántartás szerinti nyersanyagfőcsoport Kitermelhető vagyon A minőséget is figyelembe vevő szorzó Ásványbányászati nyersanyagok (m3) < 200 000 1–2 ≥ 200 000 és ≤ 500 000 3–4 ≥ 500 000 és ≤ 1 000 000 5–7 > 1 000 000 8–10 Tőzeg, lápföld, lápimész (m3) < 50 000 1–2 ≥ 50 000 és ≤ 300 000 3–4 ≥ 300 000 és ≤ 800 000 6–7 > 800 000 8–10 Cement- és mészipari nyersanyagok (m3) < 250 000 1–3 ≥ 250 000 és ≤ 1 000 000 4–7 > 1 000 000 8–10 Építő- és díszítőkőipari nyersanyagok (m3) < 300 000 1–3 ≥ 300 000 és ≤ 3 000 000 4–7 > 3 000 000 8–10 Építőipari homok, kavics, egyéb (m3) < 200 000 1–2 ≥ 200 000 és ≤ 5 000 000 3–4 ≥ 500 000 és ≤ 1 000 000 5–7 > 1 000 000 8–10 ≥ 1 000 000 és ≤ 5 000 000 11–13 5 000 000 ≤ 14–20 Kerámiaipari nyersanyagok (m3) < 100 000 1–2 ≥ 100 000 és ≤ 500 000 3–5 > 500 000 > 800 000 6–8 > 800 000 9–10 Db) további nyersanyagokra egyedi elbírálás szerint. Megjegyzés: 1. Abban az esetben, ha a pályáztatásra tervezett bányatelken belül előforduló készletek nem egy nyersanyagfőcsoportba tartoznak, a számított szorzók közül a legnagyobbat kell figyelembe venni. 2. Abban az esetben, amennyiben a segédlet nem értelmezhető a szorzó meghatározására, egyedileg kell a szorzó értékét meghatározni."
     },
     {
-      "provision_ref": "s101",
-      "section": "101",
-      "title": "101",
-      "content": "1. Abban az esetben, ha a pályáztatásra tervezett bányatelken belül előforduló készletek nem egy nyersanyagfőcsoportba tartoznak, a számított szorzók közül a legnagyobbat kell figyelembe venni."
+      "provision_ref": "s2mellklet",
+      "section": "2. melléklet",
+      "title": "2. melléklet",
+      "content": "2. melléklet a 3/2020. (IX. 24.) MBFSZ utasításhoz ADATLAP A pályázat útján megszerezhető bányászati jog adatai 1. A pályázható bányatelek védneve: 2. A bányatelek határvonalának koordinátái: sz. Y (EOV) X (EOV) Z (mBf.) 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. … 3. A bányatelek alaplapja: mBf. A bányatelek fedőlapja: mBf. 4. A bányatelek megállapító határozat száma: 5. A bányatelek módosító határozat száma: 6. Kitermelési Műszaki Üzemi Tervet jóváhagyó határozat száma, hatálya: 7. Szüneteltetési Műszaki Üzemi Tervet jóváhagyó határozat száma: 8. A környezetvédelmi / egységes környezethasználati engedély száma, hatálya: 9. A bányatelekben lévő ásványi nyersanyagok: Haszonanyag megnevezése kódja földtani ásványvagyona (m3) pillérekben lekötött mennyisége (m3) kitermelhető ásványvagyona (m3) 10. Tájékoztató leírás az előfordulásról: 11. A területen eddig végzett tevékenység rövid leírása: 12. Rendelkezésre álló bányatérképek száma: Budapest, P. H."
     },
     {
-      "provision_ref": "s102",
-      "section": "102",
-      "title": "102",
-      "content": "2. Abban az esetben, amennyiben a segédlet nem értelmezhető a szorzó meghatározására, egyedileg kell a szorzó értékét meghatározni."
-    },
-    {
-      "provision_ref": "s103",
-      "section": "103",
-      "title": "103",
-      "content": "1. A pályázható bányatelek védneve:"
-    },
-    {
-      "provision_ref": "s104",
-      "section": "104",
-      "title": "104",
-      "content": "2. A bányatelek határvonalának koordinátái: sz. Y (EOV) X (EOV) Z (mBf.) 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. … 3. A bányatelek alaplapja: mBf. A bányatelek fedőlapja: mBf."
-    },
-    {
-      "provision_ref": "s105",
-      "section": "105",
-      "title": "105",
-      "content": "4. A bányatelek megállapító határozat száma:"
-    },
-    {
-      "provision_ref": "s106",
-      "section": "106",
-      "title": "106",
-      "content": "5. A bányatelek módosító határozat száma:"
-    },
-    {
-      "provision_ref": "s107",
-      "section": "107",
-      "title": "107",
-      "content": "6. Kitermelési Műszaki Üzemi Tervet jóváhagyó határozat száma, hatálya:"
-    },
-    {
-      "provision_ref": "s108",
-      "section": "108",
-      "title": "108",
-      "content": "7. Szüneteltetési Műszaki Üzemi Tervet jóváhagyó határozat száma:"
-    },
-    {
-      "provision_ref": "s109",
-      "section": "109",
-      "title": "109",
-      "content": "8. A környezetvédelmi / egységes környezethasználati engedély száma, hatálya:"
-    },
-    {
-      "provision_ref": "s110",
-      "section": "110",
-      "title": "110",
-      "content": "9. A bányatelekben lévő ásványi nyersanyagok: Haszonanyag megnevezése kódja földtani ásványvagyona (m3) pillérekben lekötött mennyisége (m3) kitermelhető ásványvagyona (m3)"
-    },
-    {
-      "provision_ref": "s111",
-      "section": "111",
-      "title": "111",
-      "content": "10. Tájékoztató leírás az előfordulásról:"
-    },
-    {
-      "provision_ref": "s112",
-      "section": "112",
-      "title": "112",
-      "content": "11. A területen eddig végzett tevékenység rövid leírása:"
-    },
-    {
-      "provision_ref": "s113",
-      "section": "113",
-      "title": "113",
-      "content": "12. Rendelkezésre álló bányatérképek száma: Budapest, P. H."
-    },
-    {
-      "provision_ref": "s114",
-      "section": "114",
-      "title": "114",
-      "content": "MBFSZ/…- …/20…"
-    },
-    {
-      "provision_ref": "s115",
-      "section": "115",
-      "title": "115",
-      "content": "Elismervény pályázati dokumentáció átvételéről"
-    },
-    {
-      "provision_ref": "s116",
-      "section": "116",
-      "title": "116",
-      "content": "A Magyar Bányászati és Földtani Szolgálat a bányászatról szóló 1993. évi XLVIII. törvény (a továbbiakban: Bt.) 26/A. § (5) bekezdése alapján törölt bányászati jogok új jogosítottjának kijelölése érdekében a Bt. 26/A. § (7) bekezdése értelmében, a bányászatról szóló 1993. évi XLVIII. törvény végrehajtásáról szóló 203/1998. (XII. 19.) Korm. rendelet 12/B. § (1) bekezdése szerinti tartalommal pályázatot hirdetett."
-    },
-    {
-      "provision_ref": "s117",
-      "section": "117",
-      "title": "117",
-      "content": "a mai napon a meghirdetett bányászati jogok közül – a pályázati dokumentáció egyenként 100 000 forintos árának megfizetésével – a"
-    },
-    {
-      "provision_ref": "s118",
-      "section": "118",
-      "title": "118",
-      "content": "„bányatelek védneve”"
-    },
-    {
-      "provision_ref": "s119",
-      "section": "119",
-      "title": "119",
-      "content": "bányatelekkel kapcsolatos dokumentációt (CD) a Magyar Bányászati és Földtani Szolgálattól átvettem."
-    },
-    {
-      "provision_ref": "s120",
-      "section": "120",
-      "title": "120",
-      "content": "Nyilatkozom továbbá, hogy a dokumentációt megvásárló elérhetősége a következő:"
-    },
-    {
-      "provision_ref": "s121",
-      "section": "121",
-      "title": "121",
-      "content": "Budapest, 20 … …………… hó ………… nap"
-    },
-    {
-      "provision_ref": "s122",
-      "section": "122",
-      "title": "122",
-      "content": "A befizetést igazoló feladóvevény az elismervényhez mellékelve. 1 A 35. pont a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette."
+      "provision_ref": "s3mellklet",
+      "section": "3. melléklet",
+      "title": "3. melléklet",
+      "content": "3. melléklet a 3/2020. (IX. 24.) MBFSZ utasításhoz MBFSZ/…- …/20… Elismervény pályázati dokumentáció átvételéről A Magyar Bányászati és Földtani Szolgálat a bányászatról szóló 1993. évi XLVIII. törvény (a továbbiakban: Bt.) 26/A. § (5) bekezdése alapján törölt bányászati jogok új jogosítottjának kijelölése érdekében a Bt. 26/A. § (7) bekezdése értelmében, a bányászatról szóló 1993. évi XLVIII. törvény végrehajtásáról szóló 203/1998. (XII. 19.) Korm. rendelet 12/B. § (1) bekezdése szerinti tartalommal pályázatot hirdetett. a mai napon a meghirdetett bányászati jogok közül – a pályázati dokumentáció egyenként 100 000 forintos árának megfizetésével – a „bányatelek védneve” bányatelekkel kapcsolatos dokumentációt (CD) a Magyar Bányászati és Földtani Szolgálattól átvettem. Nyilatkozom továbbá, hogy a dokumentációt megvásárló elérhetősége a következő: Budapest, 20 … …………… hó ………… nap A befizetést igazoló feladóvevény az elismervényhez mellékelve. 1 A 35. pont a 2010: CXXX. törvény 12. § (2) bekezdése alapján hatályát vesztette."
     }
   ]
 }

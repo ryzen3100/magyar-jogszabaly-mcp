@@ -59,7 +59,43 @@
       "provision_ref": "s9",
       "section": "9",
       "title": "9. §",
-      "content": "9. § Ez a rendelet 2018. október 1-jén lép hatályba. „1. melléklet az 50/2011. (IX. 30.) NFM rendelethez Az értékesítői díjak ” Az R2. 1. melléklet 1. pontja helyébe a következő rendelkezés lép: „1. A távhőszolgáltatók esetében alkalmazandó támogatási mértékek ” „1. melléklet a 67/2016. (XII. 29.) NFM rendelethez Az 1. § szerinti földgázforrás ára és mennyisége 2018. negyedik negyedévre, valamint a felek köre A Magyar Földgázkereskedő Zrt. mint volt közüzemi nagykereskedő által értékesítendő földgázforrás legmagasabb hatósági ára és mennyisége: ” Az R3. 2. melléklet 1. pontja helyébe a következő rendelkezés lép: „1. A Magyar Földgázkereskedő Zrt. mint volt közüzemi nagykereskedő által a 2. § (1) bekezdése szerint értékesítendő földgázforrás legmagasabb hatósági ára és mennyisége 2018. negyedik negyedévre: ” Az R3. 3. melléklet 4.1–4.2. pontjai helyébe a következő rendelkezések lépnek: „4.1. Ha QTény >= (QHazai termelés_tervezett + QAllokált tárolói fedezés + QFedezett + QTervezett import) és (QTény – QHazai termelés_tervezett – QAllokált tárolói fedezés – QFedezett – QTervezett import) <= QHidegre elkülönített tárolói készlet, akkor Elismert ár = (QHazai termelés_tervezett * PHazai termelés + QAllokált tárolói fedezés * PFedezett tárolói ár + QFedezett * PFedezett import ár + QTervezett import * PAktuális import ár + (QTény – QHazai termelés_tervezett – QAllokált tárolói fedezés – QFedezett – QTervezett import) * PFedezett tárolói ár + Σ((QHazai termelés_negyedéves tény – QHazai termelés_negyedéves tervezett) * (PHazai termelés_negyedéves átlag – PAktuális import ár_negyedéves átlag)) – (MtMt – MtMt-1) + CEGY) / QTény 4.2. Ha QTény >= (QHazai termelés_tervezett + QAllokált tárolói fedezés + QFedezett + QTervezett import) és QHidegre elkülönített tárolói készlet = 0, akkor Elismert ár = (QHazai termelés_tervezett * PHazai termelés + QAllokált tárolói fedezés * PFedezett tárolói ár + QFedezett * PFedezett import ár + (QTény – QHazai termelés_tervezett – QAllokált tárolói fedezés – QFedezett) * PAktuális import ár + Σ((QHazai termelés_negyedéves tény – QHazai termelés_negyedéves tervezett) * (PHazai termelés_negyedéves átlag – PAktuális import ár_negyedéves átlag)) – (MtMt – MtMt-1) + CEGY) / QTény” „4. melléklet a 67/2016. (XII. 29.) NFM rendelethez A volt közüzemi nagykereskedőre vonatkozó, a 4. § szerinti hazai termelésű földgáz legmagasabb hatósági ára és mennyisége 2018. negyedik negyedévre ” 1 A rendelet a 2010: CXXX. törvény 12. § (3) bekezdése alapján hatályát vesztette 2018. október 2. napjával."
+      "content": "9. § Ez a rendelet 2018. október 1-jén lép hatályba."
+    },
+    {
+      "provision_ref": "s1mellklet",
+      "section": "1. melléklet",
+      "title": "1. melléklet",
+      "content": "1. melléklet a 19/2018. (IX. 27.) ITM rendelethez „1. melléklet az 50/2011. (IX. 30.) NFM rendelethez Az értékesítői díjak ”"
+    },
+    {
+      "provision_ref": "s2mellklet",
+      "section": "2. melléklet",
+      "title": "2. melléklet",
+      "content": "2. melléklet a 19/2018. (IX. 27.) ITM rendelethez Az R2. 1. melléklet 1. pontja helyébe a következő rendelkezés lép: „1. A távhőszolgáltatók esetében alkalmazandó támogatási mértékek ”"
+    },
+    {
+      "provision_ref": "s3mellklet",
+      "section": "3. melléklet",
+      "title": "3. melléklet",
+      "content": "3. melléklet a 19/2018. (IX. 27.) ITM rendelethez „1. melléklet a 67/2016. (XII. 29.) NFM rendelethez Az 1. § szerinti földgázforrás ára és mennyisége 2018. negyedik negyedévre, valamint a felek köre A Magyar Földgázkereskedő Zrt. mint volt közüzemi nagykereskedő által értékesítendő földgázforrás legmagasabb hatósági ára és mennyisége: ”"
+    },
+    {
+      "provision_ref": "s4mellklet",
+      "section": "4. melléklet",
+      "title": "4. melléklet",
+      "content": "4. melléklet a 19/2018. (IX. 27.) ITM rendelethez Az R3. 2. melléklet 1. pontja helyébe a következő rendelkezés lép: „1. A Magyar Földgázkereskedő Zrt. mint volt közüzemi nagykereskedő által a 2. § (1) bekezdése szerint értékesítendő földgázforrás legmagasabb hatósági ára és mennyisége 2018. negyedik negyedévre: ”"
+    },
+    {
+      "provision_ref": "s5mellklet",
+      "section": "5. melléklet",
+      "title": "5. melléklet",
+      "content": "5. melléklet a 19/2018. (IX. 27.) ITM rendelethez Az R3. 3. melléklet 4.1–4.2. pontjai helyébe a következő rendelkezések lépnek: „4.1. Ha QTény >= (QHazai termelés_tervezett + QAllokált tárolói fedezés + QFedezett + QTervezett import) és (QTény – QHazai termelés_tervezett – QAllokált tárolói fedezés – QFedezett – QTervezett import) <= QHidegre elkülönített tárolói készlet, akkor Elismert ár = (QHazai termelés_tervezett * PHazai termelés + QAllokált tárolói fedezés * PFedezett tárolói ár + QFedezett * PFedezett import ár + QTervezett import * PAktuális import ár + (QTény – QHazai termelés_tervezett – QAllokált tárolói fedezés – QFedezett – QTervezett import) * PFedezett tárolói ár + Σ((QHazai termelés_negyedéves tény – QHazai termelés_negyedéves tervezett) * (PHazai termelés_negyedéves átlag – PAktuális import ár_negyedéves átlag)) – (MtMt – MtMt-1) + CEGY) / QTény 4.2. Ha QTény >= (QHazai termelés_tervezett + QAllokált tárolói fedezés + QFedezett + QTervezett import) és QHidegre elkülönített tárolói készlet = 0, akkor Elismert ár = (QHazai termelés_tervezett * PHazai termelés + QAllokált tárolói fedezés * PFedezett tárolói ár + QFedezett * PFedezett import ár + (QTény – QHazai termelés_tervezett – QAllokált tárolói fedezés – QFedezett) * PAktuális import ár + Σ((QHazai termelés_negyedéves tény – QHazai termelés_negyedéves tervezett) * (PHazai termelés_negyedéves átlag – PAktuális import ár_negyedéves átlag)) – (MtMt – MtMt-1) + CEGY) / QTény”"
+    },
+    {
+      "provision_ref": "s6mellklet",
+      "section": "6. melléklet",
+      "title": "6. melléklet",
+      "content": "6. melléklet a 19/2018. (IX. 27.) ITM rendelethez „4. melléklet a 67/2016. (XII. 29.) NFM rendelethez A volt közüzemi nagykereskedőre vonatkozó, a 4. § szerinti hazai termelésű földgáz legmagasabb hatósági ára és mennyisége 2018. negyedik negyedévre ” 1 A rendelet a 2010: CXXX. törvény 12. § (3) bekezdése alapján hatályát vesztette 2018. október 2. napjával."
     }
   ]
 }

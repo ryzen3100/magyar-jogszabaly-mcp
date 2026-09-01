@@ -112,9 +112,47 @@ func ResolveDocumentID(ctx context.Context, db *sql.DB, input string) (string, e
 		pattern,
 	).Scan(&id)
 	if errors.Is(err, sql.ErrNoRows) {
-		return "", nil
+		return resolveDecreeRef(ctx, db, trimmed)
 	}
 	if err != nil {
+		return "", err
+	}
+	return id, nil
+}
+
+// resolveDecreeRef resolves the decree identifier shorthand (see decreeRefRe)
+// after the ordinary substring pass missed. Exactly one hit resolves; two or
+// more mean the year/number pair is shared (ministry rendeletek renumber per
+// ministry), and the shorthand is treated as not-found instead of guessing.
+func resolveDecreeRef(ctx context.Context, db *sql.DB, input string) (string, error) {
+	m := decreeRefRe.FindStringSubmatch(input)
+	if m == nil {
+		return "", nil
+	}
+	// Anchored at the title start: njt titles always open with the
+	// identifier, and amendment decrees CITE other identifiers mid-title
+	// ("457/2017. … a … 210/2009. (IX. 29.) Korm. rendelet
+	// módosításáról") — an unanchored pattern would flag those as
+	// ambiguous second hits. A typed date must match the title verbatim
+	// (LOWER() folds the case; LIKE wildcards in the typed date stay
+	// escaped literal).
+	pattern := likeWildcards.Replace(m[1]) + "." + likeWildcards.Replace(m[2]) + "%" + likeWildcards.Replace(m[3]) + "%"
+	rows, err := db.QueryContext(ctx,
+		`SELECT id FROM legal_documents WHERE LOWER(title) LIKE LOWER(?) ESCAPE '\' LIMIT 2`, pattern)
+	if err != nil {
+		return "", err
+	}
+	defer rows.Close()
+	var id string
+	for rows.Next() {
+		if id != "" {
+			return "", nil // ambiguous year/number pair
+		}
+		if err := rows.Scan(&id); err != nil {
+			return "", err
+		}
+	}
+	if err := rows.Err(); err != nil {
 		return "", err
 	}
 	return id, nil
@@ -124,6 +162,26 @@ func ResolveDocumentID(ctx context.Context, db *sql.DB, input string) (string, e
 // colon-structured ("6:272", "3:99/A"), letter-suffixed ("116/A"),
 // ranges ("1–290"), and the Ptk structure prefix ("Ptk4:1").
 var sectionRefGrammarRe = regexp.MustCompile(`^(?:[Pp]tk)?\d+(?::\d+)*(?:/[A-Za-z])?(?:[–-]\d+(?::\d+)*)*$`)
+
+// Annex refs: "4. melléklet", "4 melléklet", "3/A. melléklet",
+// "6. számú melléklet" (old layout) — the forms the parser stores annex
+// provisions under (section "<n>. melléklet").
+var annexRefRe = regexp.MustCompile(`(?i)^(\d+(?:/[A-Za-z])?)\s*\.?\s*(?:számú\s+)?melléklet\.?$`)
+
+// Collapses annex refs to the parser's provision_ref shape ("s" + lowercased
+// ASCII alnum, i.e. the toProvisionRef form: "4. melléklet" → "s4mellklet").
+var annexRefCompactRe = regexp.MustCompile(`[^0-9A-Za-z]`)
+
+// Decree identifier shorthand: "210/2009. Korm. rendelet",
+// "210/2009. (IX. 29.) Korm. rendelet". Corpus titles insert the promulgation
+// date ("210/2009. (IX. 29.) Korm. rendelet a kereskedelmi …"), so the plain
+// substring pass misses; the year/number identifier and the rendelet type are
+// matched as two ordered substrings — both must appear verbatim, keeping the
+// exact-form contract (no fuzzy widening). A typed promulgation date is
+// captured too: several decrees share a year/number with different dates is
+// impossible, but the typed date can be WRONG ("73/2016. (XII. 2.)" vs the
+// existing "73/2016. (III. 31.)"), and a mismatched date must not resolve.
+var decreeRefRe = regexp.MustCompile(`(?i)^(\d{1,4}/\d{4})\.?(\s*\([^)]{1,60}\))?\s+(.{1,60}rendelet)\.?$`)
 
 // Matches a trailing subsection marker: "3. § (2)" → "3. §".
 var trailingSubsectionRe = regexp.MustCompile(`^(.+?)\s*\(\d+\)$`)
@@ -160,6 +218,14 @@ func SectionRefCandidates(input string) []string {
 	base := clean
 	if len(base) >= 2 && (base[0] == 's' || base[0] == 'S') {
 		base = strings.Trim(base[1:], sectionRefPunctuation)
+	}
+	// Annex ref: emit the stored section label ("<n>. melléklet") and the
+	// parser's provision_ref shape so either column resolves ("4. melléklet"
+	// and case-variant labels "3/A" resolve via the ref form).
+	if m := annexRefRe.FindStringSubmatch(base); m != nil {
+		section := m[1] + ". melléklet"
+		ref := "s" + strings.ToLower(annexRefCompactRe.ReplaceAllString(section, ""))
+		return dedupe([]string{section, ref})
 	}
 	tidy := strings.NewReplacer(" ", "", "\u00a0", "", "-", "–", ".", "").Replace(base)
 	if strings.HasPrefix(strings.ToLower(tidy), "ptk") {
