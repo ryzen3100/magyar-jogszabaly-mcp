@@ -195,23 +195,80 @@ offline shortcut.
   Pre-corpus the same questions ranked fine. Fix = query-layer weights:
   doc-type boost (acts/törvények over utasítás/határozat), in-force boost,
   title-match boost.
-- **Consolidation / currency gap (blocking for legal accuracy, data fix)**:
-  found via the kifőzde question. The current framework docs are missing
-  while their repealed predecessors are present and marked in_force:
-  - `73/2016. (XII. 2.) Korm. rendelet` (current exec rendelet for
-    commercial/hospitality activities — defines vendéglátási egység types
-    incl. kifőzde) → "Document not found"; only repealed 210/2009 present,
-    and `validate_citation` reports it `in_force`.
-  - "2016. évi XIV. törvény" resolves to the Mongolia visa-treaty
-    promulgation act, not the kereskedelmi törvény — the current act is not
-    retrievable by citation.
-  - Jöt. (2016. évi LXVIII.) stored text appears to be the base publication:
-    later-inserted provisions (e.g. kifőzde/házipálinka rules) don't FTS.
-  Root cause hypothesis: the ingest stores the njt.hu base-publication text
-  plus per-doc status metadata, without follow-up amendments or consolidated
-  currency status. Fix direction: ingest consolidated versions (njt
-  "hatályos szöveg") or merge amendment acts, and derive in_force status from
-  repeal data rather than publication metadata.
+- **Consolidation / currency gap — INVESTIGATED & CORRECTED 2026-09-01
+  (`fix/status-and-discovery-gaps`); the original entry's root-cause
+  hypothesis was wrong on all three points. Evidence: live probes against
+  njt.hu through the existing rate-limited ingest machinery (2026-09-01);
+  discovery cache `data/source/law-discovery-all-sha256-1a99c73d8e7173fc.json`
+  (72,922 laws, walked 2026-08-30).**
+  - **Sub-item 1 — 978 empty-status seeds: FIXED.** The offline definitions
+    re-parse (commit `2fb1b312b`) regenerated 978 seed files with
+    `"status": ""` (the field existed with real values in the discovery
+    cache for all 978; distribution: 674 repealed / 304 in_force).
+    `build.go` was silently forcing empty → `in_force` at build time, so the
+    true njt.hu status was unknown. Fix: statuses merged back from the
+    discovery cache instead of a 978-fetch re-run — a 30-doc stratified live
+    sample (20 repealed + 10 in_force, spread over 1990–2024) verified via
+    per-document evszam+sorszam searches showed **30/30 exact agreement**
+    between the cache and njt.hu's current classification (0 mismatches, 0
+    not-listed), so the cache merge is equivalent to a re-fetch without the
+    network load. Seeds re-swept after the patch: 0 empty statuses remain;
+    `data/database.db` rebuilt; `check_currency` echoes the restored
+    statuses. The `build.go` empty-status default stays as a safety net
+    (comment updated): the `legal_documents.status` CHECK constraint would
+    abort the whole build on a single empty seed, and offline re-parses are
+    a recurring repo practice.
+  - **Sub-item 2 — njt.hu consolidated text ("hatályos szöveg"):
+    INVESTIGATED, no fetch mode needed — the plain document page already
+    serves it.** Verified live: `GET /jogszabaly/<id>` server-renders the
+    **current consolidated** text with változásjelző change-footnotes
+    (e.g. 210/2009's page shows the 4. melléklet as "megállapított" by
+    457/2017 and 2026-dated amendment footnotes), not the base publication —
+    the entry's "stored text = base publication" premise is disproven: the
+    Jöt. seed body matches today's live page (same "főzde" wording; same
+    post-publication provisions). Versioned time-states exist but are
+    client-side only: the Angular app lists time-states via
+    `POST /ajax/collectAllDocumentVersion.json` (form-encoded
+    `documentId=<id>`, returns `{data:[{version, comingIntoForce, expiresOn,
+    current}]}`; Jöt. 2016 has 61 versions) and navigates to
+    `/jogszabaly/<id>.<version>` — but that URL serves the same server HTML
+    (byte-identical except the page-bar ID) and `njtGetBlock.json` ignores
+    the version suffix (identical responses for base/.60/.61), so per-version
+    text is assembled in the browser and **cannot be scraped server-side;
+    there is no server-side consolidated endpoint to implement a fetch mode
+    against.** The "kifőzde/házipálinka missing from Jöt." premise also
+    dissolves: kifőzde never appears in Jöt. (the word belongs to
+    institutional-kitchen decrees), and the household-distilling rules are
+    present in the current Jöt. under "főzde" wording (4 hits, also in the
+    seed). **Real defect found instead (follow-up, not fixed here):** annex
+    blocks (`mellekletCimke`/`mellekletTitle`/`mellekletPont`, jhIds
+    `ME<n>@…`) are not recognized by `accumulateSections`, so every
+    document's mellékletek are dumped into the LAST §-provision (210/2009:
+    all 6 annexes incl. the vendéglátóhely üzlettípus list — Étterem, Büfé,
+    Cukrászda, kávézó-type — appended to a 36 KB `s34`). The text is
+    searchable there, so FTS/answers mostly work, but provision-level
+    granularity is lost. Fix direction: key annex blocks by their `ME…`
+    jhId and emit them as separate provisions; then offline re-parse.
+  - **Sub-item 3 — `73/2016. (XII. 2.) Korm. rendelet`: NOT A DISCOVERY
+    MISS — the decree does not exist; citation in the original entry was a
+    misidentification.** Verified 2026-09-01: njt.hu's own search with
+    evszam=2016 & sorszam=73 returns exactly 7 documents (the LXXIII.
+    törvény, an FM rendelet, the III. 31. egyházi Korm. rendelet, an NFM
+    rendelet, two határozatok, an HM utasítás) — identical to the discovery
+    cache; the XII. 2. kereskedelmi rendelet is absent from njt's index
+    under that year+number, absent from njt full-text search, and absent
+    from the public web (exact-phrase search). Discovery faithfulness was
+    quantified per the plan's own suggestion (live search-result totals vs
+    discovery cache): author_type=2220 + evszam=2016 → live 501 / cache 501
+    (0 missing), evszam=2019 → live 371 / cache 371 (0 missing). The actual
+    legal framework: the kereskedelmi törvény is **2005. évi CLXIV.** (in
+    corpus, in_force) and its exec decree is **210/2009. (IX. 29.) Korm.
+    rendelet** — present, njt-classified `in_force` (njt's own
+    classification; the tools faithfully echo it — do not fix client-side),
+    with the vendéglátóhely üzlettípus definitions in its 4. melléklet (see
+    the annex-classification defect above). "2016. évi XIV. törvény" was
+    likewise a wrong expectation — njt assigns that number to the Mongolia
+    visa-treaty promulgation act, so the tools resolved it correctly.
 - OR-tier ranking precision: per-document matched-term-count boosting
   (natural questions recall the right content but rank generic-token-heavy
   docs first — see the `ponytail:` ceiling note in `internal/fts`).

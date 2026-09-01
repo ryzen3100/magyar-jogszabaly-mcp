@@ -160,6 +160,12 @@ func Build(outPath, seedDir, euMappingsPath string, logf func(format string, arg
 		if s.Type == "" {
 			s.Type = "statute"
 		}
+		// The legal_documents.status CHECK constraint rejects '' — without
+		// this default a single bad seed aborts the whole build. Discovery
+		// always sets a status (default "amended"), and the 2026-09-01
+		// status-refill sweep emptied the field everywhere, but offline seed
+		// re-parses are a recurring repo practice and can re-drop it; keep
+		// the net.
 		if s.Status == "" {
 			s.Status = "in_force"
 		}
