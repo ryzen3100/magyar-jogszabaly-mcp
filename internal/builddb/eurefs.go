@@ -107,6 +107,17 @@ func ExtractEUReferences(text string) []EURef {
 			community := "EU"
 			if commIdx >= 0 {
 				community = strings.ToUpper(text[m[commIdx]:m[commIdx+1]])
+				// The eu_documents schema CHECK stores the community
+				// canonically ('Euratom'); citations spell it uppercase
+				// ("…REGULATION 302/2005/EURATOM"). Left as-is, the CHECK
+				// violation is silently dropped by the OR-IGNORE
+				// eu_documents insert and the eu_reference insert then fails
+				// on the foreign key — the two swallowed build failures
+				// this normalization fixes (hu-law-2007-7-20-1u:s39,
+				// hu-law-2022-4-20-8l:s39 → regulation:2005/302).
+				if community == "EURATOM" {
+					community = "Euratom"
+				}
 			}
 			refType := strings.ToLower(text[m[2]:m[3]])
 			euDocumentID := fmt.Sprintf("%s:%d/%d", refType, year, number)

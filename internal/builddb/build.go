@@ -242,11 +242,13 @@ func Build(outPath, seedDir, euMappingsPath string, logf func(format string, arg
 				// The TS original swallowed every error here (bare catch{}),
 				// silently dropping rows from the shipped database. UNIQUE
 				// duplicates are still tolerated, but every other failure is
-				// now counted and reported in the summary below.
+				// now counted, identified in the summary, and asserted zero by
+				// TestBuildEUReferenceInsertsAllSucceed.
 				if _, err := insertEUReference.Exec("provision", sourceID, s.ID, provisionID, ref.EUDocumentID,
 					article, ref.ReferenceType, ref.ReferenceContext, ref.FullCitation, isPrimary, implStatus, lastVerified); err != nil {
 					if !isUniqueViolation(err) {
 						euRefFailures++
+						logf("  ⚠ EU reference insert failed: %s → %s: %v", sourceID, ref.EUDocumentID, err)
 					}
 				} else {
 					totalEUReferences++
