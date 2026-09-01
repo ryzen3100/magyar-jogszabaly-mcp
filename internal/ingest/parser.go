@@ -344,9 +344,12 @@ func qualifyTerm(term string) string {
 				// "költségének"→"költségé". Every a/é-final stem lengthens
 				// before nak/nek, so restore the short final vowel
 				// ("kategória", "költsége").
-				// ponytail: an á/é-final word that does NOT lengthen in the
-				// dative ("pának") is vanishingly rare in legal text; revisit
-				// only if a corrupted term shows up in review.
+				// ponytail: a word that does NOT lengthen before nak/nek is
+				// vanishingly rare here. Known ceiling: a long-é stem in the
+				// bare dative ("gyümölcslének minősül") would be corrupted to
+				// "gyümölcsle" — zero such captures in the current 72k corpus
+				// (all é-datatives are possessive or short-e stems); revisit
+				// with a lexicon if one ever shows up.
 				stripped = dativeRestore(stripped)
 				part = stripped
 				break
