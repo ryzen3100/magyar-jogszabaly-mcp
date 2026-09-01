@@ -459,6 +459,49 @@ func provisionSections(doc seed.DocumentSeed) []string {
 	return sections
 }
 
+// TestParseHungarianHTML_AnnexOnlyLegacyFallback covers the határozat shape
+// whose only structure is an annex (the promulgated act lives in "1.
+// melléklet"): the operative határozat-pont and preambulum must survive via
+// the legacy fallback — annex provisions do not disable it — and the annex
+// text must not be duplicated into the LEGACY provisions.
+func TestParseHungarianHTML_AnnexOnlyLegacyFallback(t *testing.T) {
+	html := `
+<div id="wrap"><span class="jhId" id="PR"></span><div class="preambulum"><p>A Magyarország Kormánya rendeletet alkot.</p></div>
+<span class="jhId" id="HP1"></span><div class="hatpontNyito"><p>1. A Kormány elrendeli e rendelet kihirdetését.</p></div>
+<span class="jhId" id="ME1"></span><!--i-->
+<div class="mellekletCimke"><p>1. melléklet a rendelethez</p></div>
+<span class="jhId" id="ME1@MP1."></span><div class="mellekletPont"><p><span class="jel">1.</span> A melléklet egyetlen pontja.</p></div>
+</div>`
+	doc := ParseHungarianHTML(html, ActIndexEntry{ID: "x", Title: "T", Status: "in_force"})
+
+	wantSections := []string{"1", "2", "1. melléklet"}
+	if len(doc.Provisions) != len(wantSections) {
+		t.Fatalf("got %d provisions (%v), want %d", len(doc.Provisions), provisionSections(doc), len(wantSections))
+	}
+	for i, want := range wantSections {
+		if got := doc.Provisions[i].Section; got != want {
+			t.Errorf("provision %d section = %q, want %q", i, got, want)
+		}
+	}
+	// The legacy provisions carry the pre-annex operative text (one LEGACY
+	// provision per block)...
+	if got := doc.Provisions[0].Content; got != "A Magyarország Kormánya rendeletet alkot." {
+		t.Errorf("legacy content 1 = %q", got)
+	}
+	if got := doc.Provisions[1].Content; got != "1. A Kormány elrendeli e rendelet kihirdetését." {
+		t.Errorf("legacy content 2 = %q", got)
+	}
+	// ...the annex provision holds the annex text...
+	wantM1 := "1. melléklet a rendelethez 1. A melléklet egyetlen pontja."
+	if got := doc.Provisions[2].Content; got != wantM1 {
+		t.Errorf("annex content = %q, want %q", got, wantM1)
+	}
+	// ...and nothing is duplicated across the provisions.
+	if strings.Contains(doc.Provisions[0].Content+doc.Provisions[1].Content, "melléklet egyetlen pontja") {
+		t.Errorf("annex text leaked into the legacy provisions")
+	}
+}
+
 func TestExtractOfficialTitle(t *testing.T) {
 	tests := []struct {
 		name string

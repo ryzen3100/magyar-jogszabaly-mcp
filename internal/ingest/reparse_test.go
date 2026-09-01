@@ -4,7 +4,10 @@ import (
 	"encoding/json"
 	"os"
 	"path/filepath"
+	"runtime"
 	"strings"
+	"sync"
+	"sync/atomic"
 	"testing"
 
 	"github.com/ryzen3100/magyar-jogszabaly-mcp/v2/internal/seed"
@@ -34,51 +37,70 @@ func TestReparseAnnexSeeds(t *testing.T) {
 		t.Fatalf("no seed files found under %s", seedDir)
 	}
 
-	changed, skipped, losses := 0, 0, 0
-	for _, seedFile := range seeds {
-		data, err := os.ReadFile(seedFile)
-		if err != nil {
-			t.Fatal(err)
-		}
-		var doc seed.DocumentSeed
-		if err := json.Unmarshal(data, &doc); err != nil {
-			t.Fatalf("%s: %v", seedFile, err)
-		}
-		if len(doc.Provisions) == 0 {
-			continue // metadata-only seeds have nothing to re-parse
-		}
-		cacheKey := ParseSourceCacheKey(ActIndexEntry{ID: doc.ID, URL: doc.URL})
-		htmlBytes, err := os.ReadFile(filepath.Join(sourceDir, cacheKey+".html"))
-		if err != nil {
-			skipped++ // seed with no cached HTML
-			continue
-		}
+	// Worker pool: the walk is CPU-bound (regex parsing), and a sequential
+	// pass over the corpus leaves the machine idle.
+	var changed, skipped, losses atomic.Int64
+	work := make(chan string)
+	var wg sync.WaitGroup
+	workers := runtime.GOMAXPROCS(0)
+	for range workers {
+		wg.Add(1)
+		go func() {
+			defer wg.Done()
+			for seedFile := range work {
+				data, err := os.ReadFile(seedFile)
+				if err != nil {
+					t.Error(err)
+					continue
+				}
+				var doc seed.DocumentSeed
+				if err := json.Unmarshal(data, &doc); err != nil {
+					t.Errorf("%s: %v", seedFile, err)
+					continue
+				}
+				if len(doc.Provisions) == 0 {
+					continue // metadata-only seeds have nothing to re-parse
+				}
+				cacheKey := ParseSourceCacheKey(ActIndexEntry{ID: doc.ID, URL: doc.URL})
+				htmlBytes, err := os.ReadFile(filepath.Join(sourceDir, cacheKey+".html"))
+				if err != nil {
+					skipped.Add(1) // seed with no cached HTML
+					continue
+				}
 
-		act := ActIndexEntry{
-			ID: doc.ID, Title: doc.Title, TitleEn: doc.TitleEn, ShortName: doc.ShortName,
-			Status: doc.Status, IssuedDate: doc.IssuedDate, InForceDate: doc.InForceDate,
-			URL: doc.URL, Description: doc.Description,
-		}
-		parsed := ParseHungarianHTML(string(htmlBytes), act)
-		if !provisionsDiffer(parsed.Provisions, doc.Provisions) {
-			continue
-		}
+				act := ActIndexEntry{
+					ID: doc.ID, Title: doc.Title, TitleEn: doc.TitleEn, ShortName: doc.ShortName,
+					Status: doc.Status, IssuedDate: doc.IssuedDate, InForceDate: doc.InForceDate,
+					URL: doc.URL, Description: doc.Description,
+				}
+				parsed := ParseHungarianHTML(string(htmlBytes), act)
+				if !provisionsDiffer(parsed.Provisions, doc.Provisions) {
+					continue
+				}
 
-		lost := lostWords(doc.Provisions, parsed.Provisions)
-		if len(lost) > 0 {
-			losses++
-			t.Errorf("%s: content lost after re-parse: %v", doc.ID, lost)
-			continue
-		}
-		if err := writeJSONFile(seedFile, parsed); err != nil {
-			t.Fatalf("%s: %v", seedFile, err)
-		}
-		changed++
+				lost := lostWords(doc.Provisions, parsed.Provisions)
+				if len(lost) > 0 {
+					losses.Add(1)
+					t.Errorf("%s: content lost after re-parse: %v", doc.ID, lost)
+					continue
+				}
+				if err := writeJSONFile(seedFile, parsed); err != nil {
+					t.Errorf("%s: %v", seedFile, err)
+					continue
+				}
+				changed.Add(1)
+			}
+		}()
 	}
+	for _, s := range seeds {
+		work <- s
+	}
+	close(work)
+	wg.Wait()
 
-	t.Logf("rewrote %d seeds (%d skipped: no cached HTML, %d content losses)",
-		changed, skipped, losses)
-	if changed == 0 && skipped == 0 {
+	c, s, l := changed.Load(), skipped.Load(), losses.Load()
+	t.Logf("rewrote %d seeds (%d skipped: no cached HTML, %d content losses)", c, s, l)
+	if c == 0 && s == 0 {
 		t.Fatal("nothing re-parsed — no seeds were actually checked")
 	}
 }

@@ -70,11 +70,12 @@ var (
 	// because the njt HTML often prefixes the header div with an <!--i-->
 	// comment, which defeats class extraction (blockClassPattern anchors on
 	// the tag).
-	annexIDAnyRe   = regexp.MustCompile(`^ME\d+[A-Za-z]*(?:@|$)`)
-	annexIDPlainRe = regexp.MustCompile(`^ME\d+[A-Za-z]*$`)
+	annexIDAnyRe   = regexp.MustCompile(`^ME\d+[A-Za-z/]*(?:@|$)`)
+	annexIDPlainRe = regexp.MustCompile(`^ME\d+[A-Za-z/]*$`)
 	// annexCimkeNumRe parses the annex label from the header text:
-	// "1. melléklet …" → "1", "3/a. melléklet …" → "3/a".
-	annexCimkeNumRe = regexp.MustCompile(`(?i)^(\d+(?:/[A-Za-z])?)\s*\.\s*melléklet\b`)
+	// "1. melléklet …" → "1", "3/a. melléklet …" → "3/a",
+	// "6. számú melléklet …" (old layout) → "6".
+	annexCimkeNumRe = regexp.MustCompile(`(?i)^(\d+(?:/[A-Za-z])?)\s*\.\s*(?:számú\s+)?melléklet\b`)
 	// annexIDNumRe recovers the label from the jhId when the header text does
 	// not carry one: "ME3A" → "3A", "ME2@…" → "2".
 	annexIDNumRe = regexp.MustCompile(`^ME(\d+)([A-Za-z]*)(?:@|$)`)
@@ -452,13 +453,16 @@ func joinChapter(number, title string) string {
 // Annex (melléklet) blocks form their own provisions keyed ANNEX_<label>: a
 // mellekletCimke header opens one and annex/content blocks extend it until
 // the next §/article marker; without this, every document's annex text was
-// appended to the LAST numbered section (PR #20 finding).
-func accumulateSections(blocks []njtBlock) map[string]*sectionAccumulator {
+// appended to the LAST numbered section (PR #20 finding). The second return
+// value lists the block positions consumed by annex provisions, so the
+// legacy fallback in ParseHungarianHTML can skip them.
+func accumulateSections(blocks []njtBlock) (map[string]*sectionAccumulator, map[int]bool) {
 	sections := map[string]*sectionAccumulator{}
 	currentChapterNumber := ""
 	currentChapterTitle := ""
 	activeSectionKey := ""
 	var activeAnnex *sectionAccumulator
+	annexConsumed := map[int]bool{}
 
 	for _, block := range blocks {
 		switch block.blockClass {
@@ -480,6 +484,7 @@ func accumulateSections(blocks []njtBlock) map[string]*sectionAccumulator {
 				if key != "" {
 					// A repeated annex label continues its provision rather
 					// than overwriting it (duplicate njt jhIds exist).
+					annexConsumed[block.blockPos] = true
 					if existing, ok := sections[key]; ok {
 						existing.blocks = append(existing.blocks, block.blockHTML)
 						activeAnnex = existing
@@ -498,6 +503,7 @@ func accumulateSections(blocks []njtBlock) map[string]*sectionAccumulator {
 				// Unparsable header: fall through so the block keeps the
 				// legacy routing instead of being dropped.
 			} else if activeAnnex != nil {
+				annexConsumed[block.blockPos] = true
 				activeAnnex.blocks = append(activeAnnex.blocks, block.blockHTML)
 				continue
 			}
@@ -508,6 +514,7 @@ func accumulateSections(blocks []njtBlock) map[string]*sectionAccumulator {
 			// Plain content-class blocks inside an open annex (njt renders
 			// some annex fragments as szelet etc.) belong to the annex, not
 			// to the preceding §.
+			annexConsumed[block.blockPos] = true
 			activeAnnex.blocks = append(activeAnnex.blocks, block.blockHTML)
 			continue
 		}
@@ -567,7 +574,7 @@ func accumulateSections(blocks []njtBlock) map[string]*sectionAccumulator {
 		}
 	}
 
-	return sections
+	return sections, annexConsumed
 }
 
 // parseAnnexKey derives the provision key and section label for a
@@ -579,8 +586,15 @@ func parseAnnexKey(block njtBlock) (key, section string) {
 	label := ""
 	if m := annexCimkeNumRe.FindStringSubmatch(HTMLToText(block.blockHTML)); m != nil {
 		label = m[1]
-	} else if m := annexIDNumRe.FindStringSubmatch(block.blockID); m != nil {
-		label = m[1] + m[2]
+	} else if strings.Contains(
+		strings.ToLower(strings.ReplaceAll(HTMLToText(block.blockHTML), " ", "")), "melléklet") {
+		// The jhId fallback only fires when the header text actually speaks
+		// of a melléklet (spaces stripped, so split-word headers like
+		// "mell éklet" still pass): layout artifacts carrying a plain ME<n>
+		// jhId but no annex wording must not be fabricated into provisions.
+		if m := annexIDNumRe.FindStringSubmatch(block.blockID); m != nil {
+			label = m[1] + m[2]
+		}
 	}
 	if label == "" {
 		return "", ""
@@ -595,12 +609,29 @@ func parseAnnexKey(block njtBlock) (key, section string) {
 // Port of parseHungarianHtml.
 func ParseHungarianHTML(html string, act ActIndexEntry) seed.DocumentSeed {
 	blocks := extractNjtBlocks(html)
-	sections := accumulateSections(blocks)
+	sections, annexConsumed := accumulateSections(blocks)
 	var definitions []seed.DefinitionSeed
 
-	if len(sections) == 0 {
+	// Legacy fallback: documents without §/article markers. Annex provisions
+	// don't count as sections here — e.g. a határozat whose only structure is
+	// "1. melléklet …" (the promulgated act itself) would otherwise skip this
+	// pass and drop its operative határozat-pont and tablazat blocks, which
+	// the pre-annex parser rescued as LEGACY provisions. Blocks already
+	// grouped into annex provisions are skipped so their text is not
+	// duplicated.
+	nonAnnexSections := false
+	for _, acc := range sections {
+		if !strings.HasPrefix(acc.key, "ANNEX_") {
+			nonAnnexSections = true
+			break
+		}
+	}
+	if !nonAnnexSections {
 		legacyIndex := 0
 		for _, block := range blocks {
+			if annexConsumed[block.blockPos] {
+				continue
+			}
 			if !isLegacyContentClass(block.blockClass) {
 				continue
 			}
