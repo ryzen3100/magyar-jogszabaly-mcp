@@ -51,6 +51,13 @@ var (
 	hungarianFullRe = regexp.MustCompile(`(?i)^(\d{4}\.\s*évi\s+[IVXLCDM]+\.\s*törvény)\s+` +
 		`(\d+(?::\d+)?(?:\/[A-Za-z])?)\.\s*§`)
 	hungarianDocRe = regexp.MustCompile(`(?i)^(\d{4}\.\s*évi\s+[IVXLCDM]+\.\s*törvény)$`)
+	// Decree + section: "210/2009. Korm. rendelet 1. §",
+	// "210/2009. (IX. 29.) Korm. rendelet 1. §" and the full-title form
+	// "…rendelet a kereskedelmi tevékenységek végzésének feltételeiről 1. §".
+	// Greedy group 1 keeps everything up to the LAST trailing "N. §" (decree
+	// titles are long and carry the promulgation date); the section grammar
+	// matches hungarianFullRe.
+	decreeFullRe   = regexp.MustCompile(`(?i)^(\d{1,4}/\d{4}\.?.*rendelet.*)\s+(\d+(?::\d+)?(?:\/[A-Za-z])?)\s*\.?\s*§$`)
 	dbIDWithSecRe  = regexp.MustCompile(`(?i)^(hu-law-\d{4}-\d+-\d{2}-\d{2})\s+s?(\d+(?::\d+)?(?:\/[A-Za-z])?)$`)
 	dbIDOnlyRe     = regexp.MustCompile(`^(hu-law-\d{4}-\d+-\d{2}-\d{2})$`)
 	sectionFirstRe = regexp.MustCompile(`(?i)^Section\s+(\d+[A-Za-z]*(?:\(\d+\))?)\s*[,;]?\s+(.+)$`)
@@ -73,6 +80,11 @@ func ParseCitation(citation string) *ParsedCitation {
 	// Hungarian document only: "2012. évi I. törvény" (no section)
 	if m := hungarianDocRe.FindStringSubmatch(trimmed); m != nil {
 		return &ParsedCitation{DocumentRef: strings.TrimSpace(m[1]), Structured: true}
+	}
+
+	// Decree + section: "210/2009. Korm. rendelet 1. §"
+	if m := decreeFullRe.FindStringSubmatch(trimmed); m != nil {
+		return &ParsedCitation{DocumentRef: strings.TrimSpace(m[1]), SectionRef: m[2], Structured: true}
 	}
 
 	// Database ID + section: "hu-law-2012-1-00-00 s116" / "… s6:272"

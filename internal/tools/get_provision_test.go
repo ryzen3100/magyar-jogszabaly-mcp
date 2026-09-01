@@ -338,3 +338,58 @@ func TestGetProvisionRealDb(t *testing.T) {
 		}
 	})
 }
+
+// TestGetProvisionDecreeAnnex pins the two PR #20 follow-up fixes end to end:
+// the decree shorthand resolves to the right document, and the annex section
+// typed the way users cite it ("4. melléklet") finds the parser's stored
+// annex provision.
+func TestGetProvisionDecreeAnnex(t *testing.T) {
+	t.Parallel()
+	db := storetest.NewTestDb(t)
+	decreeTestFixtures(t, db)
+
+	tests := []struct {
+		name          string
+		args          string
+		wantSection   string
+		wantContentSS string
+	}{
+		{
+			name:          "annex by label",
+			args:          `{"document_id": "210/2009. Korm. rendelet", "section": "4. melléklet"}`,
+			wantSection:   "4. melléklet",
+			wantContentSS: "Cukrászda",
+		},
+		{
+			name:          "annex by stored section on document id",
+			args:          `{"document_id": "hu-law-2009-210-20-22", "section": "4. melléklet"}`,
+			wantSection:   "4. melléklet",
+			wantContentSS: "Cukrászda",
+		},
+		{
+			name:          "decree § via shorthand",
+			args:          `{"document_id": "210/2009. (IX. 29.) Korm. rendelet", "section": "1"}`,
+			wantSection:   "1",
+			wantContentSS: "bejelentéshez kötött",
+		},
+	}
+	for _, tc := range tests {
+		t.Run(tc.name, func(t *testing.T) {
+			t.Parallel()
+			results, _, err := GetProvision(t.Context(), db, testArgs(t, tc.args))
+			if err != nil {
+				t.Fatal(err)
+			}
+			prov, ok := results.([]ProvisionResult)
+			if !ok || len(prov) != 1 {
+				t.Fatalf("expected one provision, got %T len ok=%v", results, ok)
+			}
+			if prov[0].Section != tc.wantSection {
+				t.Errorf("section = %q, want %q", prov[0].Section, tc.wantSection)
+			}
+			if !strings.Contains(prov[0].Content, tc.wantContentSS) {
+				t.Errorf("content %q missing %q", prov[0].Content, tc.wantContentSS)
+			}
+		})
+	}
+}

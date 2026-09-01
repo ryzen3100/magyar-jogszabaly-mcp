@@ -57,6 +57,28 @@ var (
 	sectionContentClassPattern = regexp.MustCompile(`(?i)szakasz|bekezdes|pont|alpont|mondat|szoveg|szelet`)
 	leadingDigitsPattern       = regexp.MustCompile(`^\d+`)
 
+	// Annex blocks of the new njt layout. Every annex opens with a
+	// mellekletCimke header ("1. melléklet a … rendelethez"); its content
+	// follows as mellekletTitle/mellekletTagolo/mellekletPont blocks (plus
+	// occasional plain content-class blocks such as szelet). jhIds carry the
+	// annex number as ME<n>[<letter>@…], but duplicate jhIds exist within a
+	// document, so the printed header text is the authoritative source.
+	annexClassRe      = regexp.MustCompile(`(?i)^melleklet`)
+	annexCimkeClassRe = regexp.MustCompile(`(?i)^mellekletCimke`)
+	// Annex jhIds: the header carries the plain annex id ("ME1", "ME3A"),
+	// inner blocks the suffixed form ("ME1@MP4."). The id check matters
+	// because the njt HTML often prefixes the header div with an <!--i-->
+	// comment, which defeats class extraction (blockClassPattern anchors on
+	// the tag).
+	annexIDAnyRe   = regexp.MustCompile(`^ME\d+[A-Za-z]*(?:@|$)`)
+	annexIDPlainRe = regexp.MustCompile(`^ME\d+[A-Za-z]*$`)
+	// annexCimkeNumRe parses the annex label from the header text:
+	// "1. melléklet …" → "1", "3/a. melléklet …" → "3/a".
+	annexCimkeNumRe = regexp.MustCompile(`(?i)^(\d+(?:/[A-Za-z])?)\s*\.\s*melléklet\b`)
+	// annexIDNumRe recovers the label from the jhId when the header text does
+	// not carry one: "ME3A" → "3A", "ME2@…" → "2".
+	annexIDNumRe = regexp.MustCompile(`^ME(\d+)([A-Za-z]*)(?:@|$)`)
+
 	alkalmazasPattern = regexp.MustCompile(`(?i)alkalmazásában`)
 	// definitionPattern is the body of the TS lookahead pattern
 	// /\b\d+\.\s*([^:;]{2,120}):\s*([^;]{10,500})(?=;\s*\d+\.|$)/g. RE2 has
@@ -247,6 +269,8 @@ func provisionTitleFromKey(key, section string) string {
 		return section + ". Cikk"
 	case strings.HasPrefix(key, "LEGACY_"):
 		return section
+	case strings.HasPrefix(key, "ANNEX_"):
+		return section
 	default:
 		return section + ". §"
 	}
@@ -425,11 +449,16 @@ func joinChapter(number, title string) string {
 // sections keyed by block id, explicit section marker or article marker;
 // marker-less content blocks extend the active section. Chapter markers are
 // tracked along the way so each section records the chapter it appeared in.
+// Annex (melléklet) blocks form their own provisions keyed ANNEX_<label>: a
+// mellekletCimke header opens one and annex/content blocks extend it until
+// the next §/article marker; without this, every document's annex text was
+// appended to the LAST numbered section (PR #20 finding).
 func accumulateSections(blocks []njtBlock) map[string]*sectionAccumulator {
 	sections := map[string]*sectionAccumulator{}
 	currentChapterNumber := ""
 	currentChapterTitle := ""
 	activeSectionKey := ""
+	var activeAnnex *sectionAccumulator
 
 	for _, block := range blocks {
 		switch block.blockClass {
@@ -437,6 +466,50 @@ func accumulateSections(blocks []njtBlock) map[string]*sectionAccumulator {
 			currentChapterNumber = HTMLToText(block.blockHTML)
 		case "fejezetCim":
 			currentChapterTitle = HTMLToText(block.blockHTML)
+		}
+
+		// Annex routing happens before the §/article switch so annex blocks
+		// never attach to a section and section markers close the annex.
+		// Headers are recognized by class OR by their plain ME<n> jhId — the
+		// njt HTML often prefixes the header div with an <!--i--> comment,
+		// which defeats class extraction (blockClassPattern anchors on the
+		// tag), so the class alone is unreliable.
+		if annexClassRe.MatchString(block.blockClass) || annexIDAnyRe.MatchString(block.blockID) {
+			if annexCimkeClassRe.MatchString(block.blockClass) || annexIDPlainRe.MatchString(block.blockID) {
+				key, label := parseAnnexKey(block)
+				if key != "" {
+					// A repeated annex label continues its provision rather
+					// than overwriting it (duplicate njt jhIds exist).
+					if existing, ok := sections[key]; ok {
+						existing.blocks = append(existing.blocks, block.blockHTML)
+						activeAnnex = existing
+					} else {
+						activeAnnex = &sectionAccumulator{
+							key:      key,
+							section:  label,
+							chapter:  joinChapter(currentChapterNumber, currentChapterTitle),
+							firstPos: block.blockPos,
+							blocks:   []string{block.blockHTML},
+						}
+						sections[key] = activeAnnex
+					}
+					continue
+				}
+				// Unparsable header: fall through so the block keeps the
+				// legacy routing instead of being dropped.
+			} else if activeAnnex != nil {
+				activeAnnex.blocks = append(activeAnnex.blocks, block.blockHTML)
+				continue
+			}
+			// Annex-marked block with no open annex (njt reuses
+			// mellekletBetusPont for lettered points inside ordinary
+			// provisions): fall through to the legacy § routing.
+		} else if activeAnnex != nil && isSectionContentClass(block.blockClass) {
+			// Plain content-class blocks inside an open annex (njt renders
+			// some annex fragments as szelet etc.) belong to the annex, not
+			// to the preceding §.
+			activeAnnex.blocks = append(activeAnnex.blocks, block.blockHTML)
+			continue
 		}
 
 		// An existing but empty szakasz-jel marker yields "" and must NOT
@@ -455,12 +528,15 @@ func accumulateSections(blocks []njtBlock) map[string]*sectionAccumulator {
 		case keyFromID != "":
 			key = keyFromID
 			activeSectionKey = key
+			activeAnnex = nil
 		case sectionFromText != "":
 			key = sectionToKey(sectionFromText)
 			activeSectionKey = key
+			activeAnnex = nil
 		case articleFromText != "":
 			key = articleToKey(articleFromText)
 			activeSectionKey = key
+			activeAnnex = nil
 		case activeSectionKey != "" && isSectionContentClass(block.blockClass):
 			key = activeSectionKey
 		}
@@ -492,6 +568,27 @@ func accumulateSections(blocks []njtBlock) map[string]*sectionAccumulator {
 	}
 
 	return sections
+}
+
+// parseAnnexKey derives the provision key and section label for a
+// mellekletCimke header block. The printed header text is authoritative
+// ("3/a. melléklet a … rendelethez" → "3/a"); the jhId ("ME3A") is the
+// fallback. Returns empty strings when neither yields a label — the block is
+// then left unparsed rather than guessed at.
+func parseAnnexKey(block njtBlock) (key, section string) {
+	label := ""
+	if m := annexCimkeNumRe.FindStringSubmatch(HTMLToText(block.blockHTML)); m != nil {
+		label = m[1]
+	} else if m := annexIDNumRe.FindStringSubmatch(block.blockID); m != nil {
+		label = m[1] + m[2]
+	}
+	if label == "" {
+		return "", ""
+	}
+	// Key is internal (map grouping only); the section keeps the printed
+	// form, which is what SectionRefCandidates emits for typed "3/a.
+	// melléklet" refs.
+	return "ANNEX_" + strings.ToUpper(nonAlnumPattern.ReplaceAllString(label, "")), label + ". melléklet"
 }
 
 // ParseHungarianHTML parses njt.hu HTML into a seed-compatible structure.
