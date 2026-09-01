@@ -196,22 +196,35 @@ offline shortcut.
   doc-type boost (acts/törvények over utasítás/határozat), in-force boost,
   title-match boost.
 - **Consolidation / currency gap (blocking for legal accuracy, data fix)**:
-  found via the kifőzde question. The current framework docs are missing
-  while their repealed predecessors are present and marked in_force:
-  - `73/2016. (XII. 2.) Korm. rendelet` (current exec rendelet for
+  found via the kifőzde question. CORRECTED 2026-09-01 by a read-only status
+  trace (discovery → seed → `legal_documents` → tools): repeal status already
+  flows correctly end-to-end — njt HTML result classes (`now`/`future`/`past`)
+  map to seed `status` (`in_force`/`not_yet_in_force`/`repealed`, default
+  `amended`) and are echoed with warnings by `check_currency`/
+  `validate_citation`; the built DB holds 32,574 `repealed` docs. The actual
+  gaps are:
+  - **978 seeds (1.3%) have empty `status`** — artifacts of the offline seed
+    regeneration (`cb258e270`/`2fb1b312b` dropped the discovery status);
+    `build.go` then silently forces empty → `in_force`, so their true njt
+    status is unknown. Fix = delete those 978 seed files and re-fetch just
+    them (networked, small; `--resume` currently preserves the stale ones).
+  - **`73/2016. (XII. 2.) Korm. rendelet` (current exec rendelet for
     commercial/hospitality activities — defines vendéglátási egység types
-    incl. kifőzde) → "Document not found"; only repealed 210/2009 present,
-    and `validate_citation` reports it `in_force`.
+    incl. kifőzde) is absent from discovery entirely** ("Document not
+    found"); the `hu-law-2016-73-20-2w` in the corpus is an unrelated NFM
+    rendelet. Discovery gap, not a status bug.
   - "2016. évi XIV. törvény" resolves to the Mongolia visa-treaty
     promulgation act, not the kereskedelmi törvény — the current act is not
     retrievable by citation.
-  - Jöt. (2016. évi LXVIII.) stored text appears to be the base publication:
+  - 210/2009 is genuinely classified `in_force` by njt.hu itself (seed and
+    DB agree, `in_force_date=2009-10-01`); the tools faithfully echo the
+    source. Whether njt's currency flag is right for it is njt's problem —
+    do not "fix" it client-side.
+  - Jöt. (2016. évi LXVIII.) stored text is the base publication:
     later-inserted provisions (e.g. kifőzde/házipálinka rules) don't FTS.
-  Root cause hypothesis: the ingest stores the njt.hu base-publication text
-  plus per-doc status metadata, without follow-up amendments or consolidated
-  currency status. Fix direction: ingest consolidated versions (njt
-  "hatályos szöveg") or merge amendment acts, and derive in_force status from
-  repeal data rather than publication metadata.
+    The open question is whether njt.hu's API exposes consolidated
+    ("hatályos szöveg") text per document id — investigate the Angular
+    app's backend endpoints before building anything.
 - OR-tier ranking precision: per-document matched-term-count boosting
   (natural questions recall the right content but rank generic-token-heavy
   docs first — see the `ponytail:` ceiling note in `internal/fts`).
